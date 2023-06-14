@@ -13,13 +13,12 @@ PV = "1.09"
 RPM_NAME = "perl-IO-Interface-1.09-2.35.aarch64.rpm"
 RPM_HASH = "0ffae67d0dd4f6e0852dbcad11f68589ccafcfe3a2deb21bb6ef5ab38cb5e5272b1bc2faa526797b0d7ef7aa1190c65c96e9d7027fc422e197777079a088499d"
 
-RPROVIDES:${PN} += "perl(IO::Interface) \
-perl(IO::Interface::Simple) \
-perl-IO-Interface \
-perl-IO-Interface(aarch-64)"
+RPROVIDES:${PN} += "perl-IO--Interface \
+perl-IO--Interface--Simple \
+perl-IO-Interface"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

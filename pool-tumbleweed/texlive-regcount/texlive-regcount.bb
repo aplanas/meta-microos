@@ -11,7 +11,7 @@ RPM_NAME = "texlive-regcount-2023.201.1.0svn19979-53.1.noarch.rpm"
 RPM_HASH = "7461c5fcbfcad71b2eab0dd6442daf180dd2ee83f6e9867efb0dbdf9af165852fea3ddcfc0a8b6b39402fc7e7c8853509158604baae248fcdfa918aa7ac567d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(regcount.sty) \
+RPROVIDES:${PN} += "tex-regcount.sty \
 texlive-regcount"
 
 RDEPENDS:${PN} += "/bin/sh \

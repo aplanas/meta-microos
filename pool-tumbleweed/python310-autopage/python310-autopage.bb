@@ -11,10 +11,10 @@ RPM_HASH = "b8edda1cf1cfd664ac805a206eb62a7bf65897ce04c61a304c97e4233a035bf1583e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-autopage \
-python3.10dist(autopage) \
+python3.10dist-autopage \
 python310-autopage \
-python3dist(autopage)"
+python3dist-autopage"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

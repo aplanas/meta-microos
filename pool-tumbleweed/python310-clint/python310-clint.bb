@@ -13,11 +13,11 @@ RPM_HASH = "cc5461a6466aefbee3d64d245db1c99c9e0b6a544910b0434a97bd1c6e5ce37d9278
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clint \
-python3.10dist(clint) \
+python3.10dist-clint \
 python310-clint \
-python3dist(clint)"
+python3dist-clint"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-args"
 
 inherit rpm

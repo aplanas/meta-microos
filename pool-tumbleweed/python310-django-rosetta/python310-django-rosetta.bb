@@ -9,11 +9,11 @@ RPM_HASH = "4071a5072466bd4d63feae6ef06a443051e22bea66fafdb4d7840db7787b8e3aed09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-rosetta \
-python3.10dist(django-rosetta) \
+python3.10dist-django-rosetta \
 python310-django-rosetta \
-python3dist(django-rosetta)"
+python3dist-django-rosetta"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-polib \
 python310-requests"

@@ -9,8 +9,8 @@ RPM_HASH = "0763993b331ee34e227c1b4686358a71a654d682165cad78bc2da1ac7342fdb867b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "folder-color-common \
-python3.10dist(folder-color-common) \
-python3dist(folder-color-common)"
+python3.10dist-folder-color-common \
+python3dist-folder-color-common"
 
 RDEPENDS:${PN} += "gtk3-tools \
 gvfs"

@@ -10,12 +10,12 @@ RPM_HASH = "5ebaf7532fdd2e1736f0b5925accdbd3a9fb4c80d16aaf792a1e32ebe3278c72ba21
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openstackdocstheme \
-python3.10dist(openstackdocstheme) \
-python3dist(openstackdocstheme)"
+python3.10dist-openstackdocstheme \
+python3dist-openstackdocstheme"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Sphinx \
 python3-dulwich"
 

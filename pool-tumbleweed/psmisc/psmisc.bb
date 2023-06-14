@@ -13,12 +13,11 @@ RPM_NAME = "psmisc-23.6-3.3.aarch64.rpm"
 RPM_HASH = "e196cc3c456c21a572f78e40c2a39b56dca386e3c1e85343f3ea9c1e0d458208d08359f8631278a5e25779ed962da06c1660d0198780257d07cd493076264237"
 
 RPROVIDES:${PN} += "/bin/fuser \
-ps:/usr/bin/killall \
-psmisc \
-psmisc(aarch-64)"
+ps-/usr/bin/killall \
+psmisc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6"
 
 inherit rpm

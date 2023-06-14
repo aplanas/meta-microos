@@ -10,16 +10,13 @@ PV = "0.92.1"
 RPM_NAME = "saidar-0.92.1-1.6.aarch64.rpm"
 RPM_HASH = "e1ff9cd00711e7d504bb925c7c254ed13c9cd9e1d29037cb97b0132c573b93d673a1851636be20f54739fe8a0a6ab9dac5ba6838c9c2eea43b9d7f5129f03236"
 
-RPROVIDES:${PN} += "application() \
-application(saidar.desktop) \
-saidar \
-saidar(aarch-64)"
+RPROVIDES:${PN} += "saidar"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libstatgrab.so.10()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libstatgrab.so.10 \
 libstatgrab10 \
-libtinfo.so.6()(64bit)"
+libtinfo.so.6"
 
 inherit rpm

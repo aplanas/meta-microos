@@ -7,8 +7,7 @@ PV = "4.8"
 RPM_NAME = "languagetool-4.8-3.1.aarch64.rpm"
 RPM_HASH = "902fbd34ec6bf3ae27719960b0ef00859cf464ab25ed213e78cdde825823aaf09974f54cfa5a0d87236bfd98e5a7e5dfb23a47f1f94e906c8c4955043704b860"
 
-RPROVIDES:${PN} += "languagetool \
-languagetool(aarch-64)"
+RPROVIDES:${PN} += "languagetool"
 
 RDEPENDS:${PN} += "/bin/sh \
 akka \

@@ -12,8 +12,7 @@ RPM_NAME = "blas-devel-3.9.0-9.1.aarch64.rpm"
 RPM_HASH = "8161179feedd39d6220046d4ceefa12d35a6a102cdd15a7490a1ca3d7614ec89ef7480ca5e4b097892c743fad0d2128ae9a509b10f595400ef2fe90dffc2e61e"
 
 RPROVIDES:${PN} += "blas \
-blas-devel \
-blas-devel(aarch-64)"
+blas-devel"
 
 RDEPENDS:${PN} += "libblas3"
 

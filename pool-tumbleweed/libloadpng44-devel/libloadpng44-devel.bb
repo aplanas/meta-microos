@@ -9,11 +9,10 @@ RPM_HASH = "240250da62d599a6bf1fc1f63c97375436812130f5b6fcbf89afa00d10edf1b3f4a2
 
 RPROVIDES:${PN} += "libloadpng-devel \
 libloadpng44-devel \
-libloadpng44-devel(aarch-64) \
-pkgconfig(loadpng)"
+pkgconfig-loadpng"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libloadpng4_4 \
-pkgconfig(allegro)"
+libloadpng4-4 \
+pkgconfig-allegro"
 
 inherit rpm

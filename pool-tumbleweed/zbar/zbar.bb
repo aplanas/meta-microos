@@ -13,21 +13,17 @@ PV = "0.23.90"
 RPM_NAME = "zbar-0.23.90-3.1.aarch64.rpm"
 RPM_HASH = "e309b8d9c858fe69c09a6b91295057b4844aa3e28809f7e035d068b4da316afd680aa4750f2afceb9f4b2ecd1c8755b9de2a42e61abee084a4a3d5d02d071165"
 
-RPROVIDES:${PN} += "zbar \
-zbar(aarch-64)"
+RPROVIDES:${PN} += "zbar"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libzbar.so.0()(64bit) \
-libzbarqt.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libMagickWand-7.Q16HDRI.so.10 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libzbar.so.0 \
+libzbarqt.so.0"
 
 inherit rpm

@@ -14,15 +14,14 @@ PV = "1.1.0"
 RPM_NAME = "bitmap-1.1.0-1.5.aarch64.rpm"
 RPM_HASH = "d110da01131df4a13c40b2d796d2829cd0988b485b76689b66ad3c692d5efaf506d88d57377e6ce33cbea5715b20cbe55902326fd4dd9a37d2122faaecdecd5a"
 
-RPROVIDES:${PN} += "bitmap \
-bitmap(aarch-64)"
+RPROVIDES:${PN} += "bitmap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXmu.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXmu.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

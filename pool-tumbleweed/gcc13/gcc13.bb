@@ -13,27 +13,26 @@ RPM_NAME = "gcc13-13.1.1+git7364-1.1.aarch64.rpm"
 RPM_HASH = "f8335b5a1676617f1450f3d80734bfc6075e7ac482f5b17ce7b6fdb85c76f5abb321cb091016d85f1e54e9b515e17e645361617750e44297e96f2eca6aca717a"
 
 RPROVIDES:${PN} += "gcc13 \
-gcc13(aarch-64) \
-liblto_plugin.so()(64bit)"
+liblto-plugin.so"
 
 RDEPENDS:${PN} += "binutils \
 cpp13 \
 glibc-devel \
 libasan8 \
 libatomic1 \
-libc.so.6()(64bit) \
-libgcc_s1 \
-libgmp.so.10()(64bit) \
+libc.so.6 \
+libgcc-s1 \
+libgmp.so.10 \
 libgomp1 \
 libhwasan0 \
-libisl.so.23()(64bit) \
+libisl.so.23 \
 libitm1 \
 liblsan0 \
-libmpc.so.3()(64bit) \
-libmpfr.so.6()(64bit) \
+libmpc.so.3 \
+libmpfr.so.6 \
 libtsan2 \
 libubsan1 \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

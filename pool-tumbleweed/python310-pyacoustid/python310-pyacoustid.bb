@@ -14,11 +14,11 @@ RPM_HASH = "557c188c53e8c000de9929c13f8d3d84c5e51189c8c1d3deb5361bc09778cb15b987
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyacoustid \
-python3.10dist(pyacoustid) \
+python3.10dist-pyacoustid \
 python310-pyacoustid \
-python3dist(pyacoustid)"
+python3dist-pyacoustid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-audioread \
 python310-requests"
 

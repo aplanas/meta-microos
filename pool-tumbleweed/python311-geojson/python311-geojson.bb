@@ -10,10 +10,10 @@ RPM_NAME = "python311-geojson-2.5.0-1.8.noarch.rpm"
 RPM_HASH = "de47508a1a1badd23b94daf777f572e7ca6f1a03bc7ac8204386356762bcfdc3231db1dd1539196f74cca174b403fe9c668a8e8dd611866b16457d681ace5d97"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(geojson) \
+RPROVIDES:${PN} += "python3.11dist-geojson \
 python311-geojson \
-python3dist(geojson)"
+python3dist-geojson"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

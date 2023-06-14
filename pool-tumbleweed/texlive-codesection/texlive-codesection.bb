@@ -13,7 +13,7 @@ RPM_NAME = "texlive-codesection-2023.201.0.0.1svn34481-53.1.noarch.rpm"
 RPM_HASH = "f7ee0868a5c3930fe45ea2c15d91d045e28cb94dc5a47625667aa289157a08c1c1b9a2a4aaba596a84ebe942579dd9541551d3e5f9be4274187e50794bd37f3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(codesection.sty) \
+RPROVIDES:${PN} += "tex-codesection.sty \
 texlive-codesection"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
+tex-etoolbox.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

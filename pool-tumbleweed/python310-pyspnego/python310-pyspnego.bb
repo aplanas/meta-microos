@@ -11,13 +11,13 @@ RPM_HASH = "2bcc1d3f183a8dfa45d9a6b749a7407c3c7ae1ca3061139d3e556f1da40d474f8116
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyspnego \
-python3.10dist(pyspnego) \
+python3.10dist-pyspnego \
 python310-pyspnego \
-python3dist(pyspnego)"
+python3dist-pyspnego"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cryptography \
 update-alternatives"
 

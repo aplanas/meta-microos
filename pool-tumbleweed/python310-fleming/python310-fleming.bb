@@ -9,11 +9,11 @@ RPM_HASH = "d9ba08138183fe912c1432f5080441f23a12b46927833bf964bd5535873413fd15eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fleming \
-python3.10dist(fleming) \
+python3.10dist-fleming \
 python310-fleming \
-python3dist(fleming)"
+python3dist-fleming"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil \
 python310-pytz"
 

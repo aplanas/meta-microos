@@ -14,12 +14,12 @@ RPM_HASH = "5e51a6e10a683f7b97a63f3fe02a703f6aada428a6fadd84806563d26b773601339d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-reservations \
-python3.10dist(azure-mgmt-reservations) \
+python3.10dist-azure-mgmt-reservations \
 python310-azure-mgmt-reservations \
-python3dist(azure-mgmt-reservations)"
+python3dist-azure-mgmt-reservations"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

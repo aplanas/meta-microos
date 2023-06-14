@@ -9,9 +9,9 @@ RPM_HASH = "77f8a27e0381b02bef7b2892a976917176620b6c9ad77d5ec1b3f8b2da455fdfee4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-logging \
-mvn(org.jboss.logging:jboss-logging) \
-mvn(org.jboss.logging:jboss-logging:pom:) \
-osgi(org.jboss.logging.jboss-logging)"
+mvn-org.jboss.logging-jboss-logging \
+mvn-org.jboss.logging-jboss-logging-pom- \
+osgi-org.jboss.logging.jboss-logging"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

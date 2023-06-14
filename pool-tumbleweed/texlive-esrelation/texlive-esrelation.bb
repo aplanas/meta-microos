@@ -24,10 +24,10 @@ RPM_NAME = "texlive-esrelation-2023.201.svn37236-52.1.noarch.rpm"
 RPM_HASH = "3713394ca6b2a7869d59f50c8a27cfd3f7b33b57c7ee886281080066365caf9eaff4e1b7afca5ecd647eb3b5c57c8bd70e4deff7040071e1427c77b287d194c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(esrelation.map) \
-tex(esrelation.sty) \
-tex(esrelation10.tfm) \
-tex(uesrelation.fd) \
+RPROVIDES:${PN} += "tex-esrelation.map \
+tex-esrelation.sty \
+tex-esrelation10.tfm \
+tex-uesrelation.fd \
 texlive-esrelation"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -36,7 +36,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
+tex-updmap.cfg \
 texlive \
 texlive-esrelation-fonts \
 texlive-filesystem \

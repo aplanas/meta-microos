@@ -29,10 +29,10 @@ RPM_NAME = "perl-Task-Weaken-1.06-2.15.noarch.rpm"
 RPM_HASH = "12331b29df18bf611de675c6e49e5e2fe8de067cb365e7f55419e148fbd614015d7baa78164fb4554657c82cdaf59787a0ba1e59456d5d4250713f7780b15c8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Weaken) \
+RPROVIDES:${PN} += "perl-Task--Weaken \
 perl-Task-Weaken"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Scalar::Util)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Scalar--Util"
 
 inherit rpm

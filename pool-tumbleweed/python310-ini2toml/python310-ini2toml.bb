@@ -11,13 +11,13 @@ RPM_HASH = "7fba187013583bf0dd57ce6ecab4c2581e5cb4fea3a1034fd7818b48b2f1a4f1553c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ini2toml \
-python3.10dist(ini2toml) \
+python3.10dist-ini2toml \
 python310-ini2toml \
-python3dist(ini2toml)"
+python3dist-ini2toml"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-packaging \
 update-alternatives"
 

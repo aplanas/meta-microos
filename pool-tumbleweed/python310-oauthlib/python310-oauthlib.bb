@@ -23,11 +23,11 @@ RPM_HASH = "d8125938d4377c702c6ac8e593156570f3470b0f4428bb5425c31772ff28045a89ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oauthlib \
-python3.10dist(oauthlib) \
+python3.10dist-oauthlib \
 python310-oauthlib \
-python3dist(oauthlib)"
+python3dist-oauthlib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-blinker \
 python310-cryptography"

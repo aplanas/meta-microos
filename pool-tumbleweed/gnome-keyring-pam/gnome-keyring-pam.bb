@@ -16,15 +16,14 @@ RPM_NAME = "gnome-keyring-pam-42.1-2.3.aarch64.rpm"
 RPM_HASH = "bcbb7a571bdbbb971a17d3a43bdb49c4ac1d242239c9c77648ccbb7a94abf75b420c5b8c2979878b9d0c1d90954280201ac21e364bb4369e2c004b7d17266527"
 
 RPROVIDES:${PN} += "gnome-keyring-pam \
-gnome-keyring-pam(aarch-64) \
-pam_keyring"
+pam-keyring"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnome-keyring \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libselinux.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpam.so.0 \
+libselinux.so.1 \
 pam-config \
 sed"
 

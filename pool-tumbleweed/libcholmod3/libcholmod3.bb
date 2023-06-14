@@ -23,23 +23,22 @@ PV = "3.0.14"
 RPM_NAME = "libcholmod3-3.0.14-49.1.aarch64.rpm"
 RPM_HASH = "f78f1259e83ec45cdac1828a4d1fed1bb471c55d647b0f0a3ba7cb530a8419bc1a4d8bb01b99f3ab9f8d6e0d670d605505f81c80fea1029dcde27a1a69e52fda"
 
-RPROVIDES:${PN} += "libcholmod-3_0_14 \
-libcholmod.so.3()(64bit) \
-libcholmod3 \
-libcholmod3(aarch-64)"
+RPROVIDES:${PN} += "libcholmod-3-0-14 \
+libcholmod.so.3 \
+libcholmod3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libamd.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcamd.so.2()(64bit) \
-libccolamd.so.2()(64bit) \
-libcolamd.so.2()(64bit) \
-libgomp.so.1()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libmetis.so.5()(64bit) \
-libopenblas.so.0()(64bit) \
-libsuitesparseconfig.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libamd.so.2 \
+libc.so.6 \
+libcamd.so.2 \
+libccolamd.so.2 \
+libcolamd.so.2 \
+libgomp.so.1 \
+liblapack.so.3 \
+libm.so.6 \
+libmetis.so.5 \
+libopenblas.so.0 \
+libsuitesparseconfig.so.5"
 
 inherit rpm

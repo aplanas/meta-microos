@@ -19,9 +19,9 @@ RPM_HASH = "6a5ca4177d38b22b2d673105a5ddbaead49864224c92b43f8cff0edffa8aded4d042
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ed25519-java \
-mvn(net.i2p.crypto:eddsa) \
-mvn(net.i2p.crypto:eddsa:pom:) \
-osgi(net.i2p.crypto.eddsa)"
+mvn-net.i2p.crypto-eddsa \
+mvn-net.i2p.crypto-eddsa-pom- \
+osgi-net.i2p.crypto.eddsa"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

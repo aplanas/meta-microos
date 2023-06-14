@@ -23,61 +23,57 @@ PV = "0.3.71"
 RPM_NAME = "pipewire-spa-plugins-0_2-0.3.71-3.1.aarch64.rpm"
 RPM_HASH = "2bdf4ac7f2722b7366ad10e6ff6fb841bb2e8276b911b92512901900a9daafed8829182c8e496890ab17dd0c39c2e773381c98d1f3a17aa959f3f318e6811720"
 
-RPROVIDES:${PN} += "libspa-aec-null.so()(64bit) \
-libspa-aec-webrtc.so()(64bit) \
-libspa-alsa.so()(64bit) \
-libspa-audioconvert.so()(64bit) \
-libspa-audiomixer.so()(64bit) \
-libspa-audiotestsrc.so()(64bit) \
-libspa-avb.so()(64bit) \
-libspa-bluez5.so()(64bit) \
-libspa-codec-bluez5-aac.so()(64bit) \
-libspa-codec-bluez5-faststream.so()(64bit) \
-libspa-codec-bluez5-lc3.so()(64bit) \
-libspa-codec-bluez5-ldac.so()(64bit) \
-libspa-codec-bluez5-opus.so()(64bit) \
-libspa-codec-bluez5-sbc.so()(64bit) \
-libspa-control.so()(64bit) \
-libspa-dbus.so()(64bit) \
-libspa-jack.so()(64bit) \
-libspa-journal.so()(64bit) \
-libspa-libcamera.so()(64bit) \
-libspa-support.so()(64bit) \
-libspa-test.so()(64bit) \
-libspa-v4l2.so()(64bit) \
-libspa-videoconvert.so()(64bit) \
-libspa-videotestsrc.so()(64bit) \
-libspa-vulkan.so()(64bit) \
-pipewire-spa-plugins-0_2 \
-pipewire-spa-plugins-0_2(aarch-64)"
+RPROVIDES:${PN} += "libspa-aec-null.so \
+libspa-aec-webrtc.so \
+libspa-alsa.so \
+libspa-audioconvert.so \
+libspa-audiomixer.so \
+libspa-audiotestsrc.so \
+libspa-avb.so \
+libspa-bluez5.so \
+libspa-codec-bluez5-aac.so \
+libspa-codec-bluez5-faststream.so \
+libspa-codec-bluez5-lc3.so \
+libspa-codec-bluez5-ldac.so \
+libspa-codec-bluez5-opus.so \
+libspa-codec-bluez5-sbc.so \
+libspa-control.so \
+libspa-dbus.so \
+libspa-jack.so \
+libspa-journal.so \
+libspa-libcamera.so \
+libspa-support.so \
+libspa-test.so \
+libspa-v4l2.so \
+libspa-videoconvert.so \
+libspa-videotestsrc.so \
+libspa-vulkan.so \
+pipewire-spa-plugins-0-2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcamera-base.so.0.0.4()(64bit) \
-libcamera.so.0.0.4()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libfdk-aac.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjack.so.0()(64bit) \
-liblc3.so.1()(64bit) \
-libldacBT_abr.so.2()(64bit) \
-libldacBT_enc.so.2()(64bit) \
-libm.so.6()(64bit) \
-libopus.so.0()(64bit) \
-libsbc.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libusb-1.0.so.0()(64bit) \
-libvulkan.so.1()(64bit) \
-libwebrtc_audio_processing.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libbluetooth.so.3 \
+libc.so.6 \
+libcamera-base.so.0.0.4 \
+libcamera.so.0.0.4 \
+libdbus-1.so.3 \
+libfdk-aac.so.2 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjack.so.0 \
+liblc3.so.1 \
+libldacBT-abr.so.2 \
+libldacBT-enc.so.2 \
+libm.so.6 \
+libopus.so.0 \
+libsbc.so.1 \
+libstdc++.so.6 \
+libsystemd.so.0 \
+libudev.so.1 \
+libusb-1.0.so.0 \
+libvulkan.so.1 \
+libwebrtc-audio-processing.so.1"
 
 inherit rpm

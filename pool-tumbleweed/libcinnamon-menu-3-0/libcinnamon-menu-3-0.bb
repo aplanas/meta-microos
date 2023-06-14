@@ -13,14 +13,13 @@ RPM_HASH = "f594f8c0fa0e4257d7bc27320db6c305614d20391d813ba167d2ebc5365b39eb4a67
 
 RPROVIDES:${PN} += "cinnamon-menus \
 libcinnamon-menu-3-0 \
-libcinnamon-menu-3-0(aarch-64) \
-libcinnamon-menu-3.so.0()(64bit)"
+libcinnamon-menu-3.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

@@ -10,29 +10,27 @@ PV = "1.3.8"
 RPM_NAME = "libfltk1_3-1.3.8-3.8.aarch64.rpm"
 RPM_HASH = "63d8eb24d69432286f1ea21c5dbb4e2d66cab9aca1f63f169162af427c572fd189279c44c52a720a65ae0d55197bc5fb1a4edfac9a98131c2d8707c437fcc317"
 
-RPROVIDES:${PN} += "libfltk.so.1.3()(64bit) \
-libfltk1_3 \
-libfltk1_3(aarch-64) \
-libfltk_forms.so.1.3()(64bit) \
-libfltk_gl.so.1.3()(64bit) \
-libfltk_images.so.1.3()(64bit)"
+RPROVIDES:${PN} += "libfltk-forms.so.1.3 \
+libfltk-gl.so.1.3 \
+libfltk-images.so.1.3 \
+libfltk.so.1.3 \
+libfltk1-3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXcursor.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXft.so.2()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrender.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXcursor.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXft.so.2 \
+libXinerama.so.1 \
+libXrender.so.1 \
+libc.so.6 \
+libfontconfig.so.1 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6"
 
 inherit rpm

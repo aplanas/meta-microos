@@ -12,7 +12,7 @@ RPM_NAME = "wondershaper-1.4.1+git.20211015-1.4.noarch.rpm"
 RPM_HASH = "b1c98b8f4ad8a0dd0178cdef0faccf1e978d1b749279a877657a103c9c674cad6601b40ad374ce3a15f4b71723284aab9ff8c6d1f890516dc9ee60872817d2cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(wondershaper) \
+RPROVIDES:${PN} += "config-wondershaper \
 wondershaper"
 
 RDEPENDS:${PN} += "/bin/sh \

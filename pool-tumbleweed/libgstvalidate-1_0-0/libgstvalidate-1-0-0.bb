@@ -10,25 +10,24 @@ PV = "1.22.3"
 RPM_NAME = "libgstvalidate-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "b805b5d9814d64bed11c93e4c50a61357af9cf4c6a10afcad48d7824cbaac0fe25b57f7ed00062092bd2abe792f4ca2d1c33ed2732d625e8dfef60c557451a48"
 
-RPROVIDES:${PN} += "libgstvalidate-1.0.so.0()(64bit) \
-libgstvalidate-1_0-0 \
-libgstvalidate-1_0-0(aarch-64) \
-libgstvalidate-default-overrides-1.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libgstvalidate-1-0-0 \
+libgstvalidate-1.0.so.0 \
+libgstvalidate-default-overrides-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstcheck-1.0.so.0()(64bit) \
-libgstcontroller-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstcheck-1.0.so.0 \
+libgstcontroller-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libjson-glib-1.0.so.0 \
+libm.so.6"
 
 inherit rpm

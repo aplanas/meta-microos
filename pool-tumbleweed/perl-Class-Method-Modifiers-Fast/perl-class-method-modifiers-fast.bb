@@ -16,10 +16,10 @@ RPM_NAME = "perl-Class-Method-Modifiers-Fast-0.041-15.20.noarch.rpm"
 RPM_HASH = "5209071b0005647e63a21e404b6a437dc31d7fc934d554f2c898fd9f6727f1cf96cc11c8784524ec28fdbadd39672f675b67dc5372d4587ebb22109941c59b70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Method::Modifiers::Fast) \
+RPROVIDES:${PN} += "perl-Class--Method--Modifiers--Fast \
 perl-Class-Method-Modifiers-Fast"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Util)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Util"
 
 inherit rpm

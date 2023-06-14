@@ -10,9 +10,9 @@ RPM_NAME = "perl-Proc-SyncExec-1.01-1.11.noarch.rpm"
 RPM_HASH = "c6dd1f536542a82ca10cda4cef210e62c59b58c38f7ddfce64c587204323d8582fd19edb345aa6ee604cc442064aa1feb934171798edd007127abfff85c3cba8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Proc::SyncExec) \
+RPROVIDES:${PN} += "perl-Proc--SyncExec \
 perl-Proc-SyncExec"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

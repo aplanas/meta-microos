@@ -11,11 +11,11 @@ RPM_NAME = "pgadmin4-web-4.30-2.10.noarch.rpm"
 RPM_HASH = "e5bc2dc187b8ee79b6a4eb7476b77d790ebe36bd12b73bea8665233fb87b582295a625300e2ccd78d725e9a446320ab55581cd81547547704026e2cefbd28142"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(pgadmin4-web) \
+RPROVIDES:${PN} += "config-pgadmin4-web \
 pgadmin4-web"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-Flask \
 python3-Flask-BabelEx \

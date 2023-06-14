@@ -15,29 +15,28 @@ PV = "3.8.16"
 RPM_NAME = "python38-base-3.8.16-7.1.aarch64.rpm"
 RPM_HASH = "42b8da7372b6876c36674f978b6c73848800b3609e47dd3d708b5c56966af6fb99a2a4dc2494f14cd0daae80f444fa563a79b399b21fa0716f061b3b9eb366a4"
 
-RPROVIDES:${PN} += "python(abi) \
+RPROVIDES:${PN} += "python-abi \
 python38-asyncio \
 python38-base \
-python38-base(aarch-64) \
 python38-typing \
 python38-xml \
-rpm_macro(have_python38)"
+rpm-macro-have-python38"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libexpat.so.1()(64bit) \
-libffi.so.8()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libmpdec.so.3()(64bit) \
-libpython3.8.so.1.0()(64bit) \
-libpython3_8-1_0 \
-libssl.so.3()(64bit) \
-libuuid.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libexpat.so.1 \
+libffi.so.8 \
+liblzma.so.5 \
+libm.so.6 \
+libmpdec.so.3 \
+libpython3-8-1-0 \
+libpython3.8.so.1.0 \
+libssl.so.3 \
+libuuid.so.1 \
+libz.so.1"
 
 inherit rpm

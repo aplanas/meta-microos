@@ -13,9 +13,8 @@ PV = "3.8.1"
 RPM_NAME = "libkrunfw3-3.8.1-1.4.aarch64.rpm"
 RPM_HASH = "c96649b0159f9732cc0090bcbd448410c05ff44a41692dea4f868b0771fc6e943db3698f91d9c98c12e24b5ca5da1789758ce6360c91cf5e9260175d01bd0d7a"
 
-RPROVIDES:${PN} += "libkrunfw.so.3()(64bit) \
-libkrunfw3 \
-libkrunfw3(aarch-64)"
+RPROVIDES:${PN} += "libkrunfw.so.3 \
+libkrunfw3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig"
 

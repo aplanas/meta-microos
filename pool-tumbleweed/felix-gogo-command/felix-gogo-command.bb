@@ -12,13 +12,13 @@ RPM_HASH = "c45646bb00ef19d5b8ce592b440163011474eb10677869c2f2c346366dea237dd5a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-command \
-mvn(org.apache.felix:org.apache.felix.gogo.command) \
-mvn(org.apache.felix:org.apache.felix.gogo.command:pom:) \
-osgi(org.apache.felix.gogo.command)"
+mvn-org.apache.felix-org.apache.felix.gogo.command \
+mvn-org.apache.felix-org.apache.felix.gogo.command-pom- \
+osgi-org.apache.felix.gogo.command"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.felix:org.apache.felix.gogo.runtime) \
-mvn(org.osgi:org.osgi.service.log)"
+mvn-org.apache.felix-org.apache.felix.gogo.runtime \
+mvn-org.osgi-org.osgi.service.log"
 
 inherit rpm

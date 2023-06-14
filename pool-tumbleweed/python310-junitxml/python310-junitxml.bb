@@ -9,12 +9,12 @@ RPM_HASH = "82216e2caef986a2a82bef514714fcb8f64d7286d1ad4bd05678ce4fefd638de1a02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-junitxml \
-python3.10dist(junitxml) \
+python3.10dist-junitxml \
 python310-junitxml \
-python3dist(junitxml)"
+python3dist-junitxml"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

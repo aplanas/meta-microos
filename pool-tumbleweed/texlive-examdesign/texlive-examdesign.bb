@@ -19,7 +19,7 @@ RPM_NAME = "texlive-examdesign-2023.201.1.101svn15878-52.1.noarch.rpm"
 RPM_HASH = "feb18e83d99cc2293c4277d0f54f0532c32c4aa1a76daeafc9e1f4396bacbdbf1952daeb12157a4ff168124791f6a9a64dd8467ad837f514c9b7b3a54c534bf2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(examdesign.cls) \
+RPROVIDES:${PN} += "tex-examdesign.cls \
 texlive-examdesign"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,10 +28,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(enumerate.sty) \
-tex(keyval.sty) \
-tex(multicol.sty) \
+tex-article.cls \
+tex-enumerate.sty \
+tex-keyval.sty \
+tex-multicol.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

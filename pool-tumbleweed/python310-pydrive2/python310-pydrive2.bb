@@ -11,11 +11,11 @@ RPM_HASH = "441f1ee0403efd313fda41257ead89897a5ac8118c51221f2cb9a78f792a694a2fbe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydrive2 \
-python3.10dist(pydrive2) \
+python3.10dist-pydrive2 \
 python310-pydrive2 \
-python3dist(pydrive2)"
+python3dist-pydrive2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-filelock \
 python310-google-api-python-client \

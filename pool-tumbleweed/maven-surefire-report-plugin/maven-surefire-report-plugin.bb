@@ -9,17 +9,17 @@ RPM_HASH = "dff2415181ce95a1124dd239d4cc6382ece380f4de2558442c64cdfa21be4ce48b12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire-report-plugin \
-mvn(org.apache.maven.plugins:maven-surefire-report-plugin) \
-mvn(org.apache.maven.plugins:maven-surefire-report-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-surefire-report-plugin \
+mvn-org.apache.maven.plugins-maven-surefire-report-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.doxia:doxia-site-renderer) \
-mvn(org.apache.maven.plugin-tools:maven-plugin-annotations) \
-mvn(org.apache.maven.reporting:maven-reporting-impl) \
-mvn(org.apache.maven.surefire:surefire-report-parser) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.doxia-doxia-site-renderer \
+mvn-org.apache.maven.plugin-tools-maven-plugin-annotations \
+mvn-org.apache.maven.reporting-maven-reporting-impl \
+mvn-org.apache.maven.surefire-surefire-report-parser \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

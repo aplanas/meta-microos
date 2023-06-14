@@ -8,14 +8,13 @@ PV = "2.49.3"
 RPM_NAME = "libpathplan4-2.49.3-6.3.aarch64.rpm"
 RPM_HASH = "1ea57237790c3ebf3f93d5ae51984b90f7066fc15dc899dec31db7be735db6778887595a024e10f9f435a0a877de77f934eea65f53e780ce6dd46539d4b90314"
 
-RPROVIDES:${PN} += "libgraphviz6:/usr/lib64/libpathplan.so.4 \
-libpathplan.so.4()(64bit) \
-libpathplan4 \
-libpathplan4(aarch-64)"
+RPROVIDES:${PN} += "libgraphviz6-/usr/lib64/libpathplan.so.4 \
+libpathplan.so.4 \
+libpathplan4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

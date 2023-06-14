@@ -20,11 +20,11 @@ RPM_HASH = "8fcd75352d52c7ecb8944d01e4b9a929dffdf6d7f7e8ee273ab611ee6836153f5f83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bleach \
-python3.10dist(bleach) \
+python3.10dist-bleach \
 python310-bleach \
-python3dist(bleach)"
+python3dist-bleach"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-html5lib"
 
 inherit rpm

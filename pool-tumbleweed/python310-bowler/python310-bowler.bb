@@ -18,13 +18,13 @@ RPM_HASH = "327dbe8ab4c5a07868f5c9e0ba686dabae2a5c75a4e266af2434c5e9bd29cd1bfd14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bowler \
-python3.10dist(bowler) \
+python3.10dist-bowler \
 python310-bowler \
-python3dist(bowler)"
+python3dist-bowler"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-attrs \
 python310-click \
 python310-fissix \

@@ -29,19 +29,18 @@ PV = "23.04"
 RPM_NAME = "libmediainfo0-23.04-1.1.aarch64.rpm"
 RPM_HASH = "f9b7865ab6afb05274d5867cf20448051526efa95fe7a1fdfbb438b75ba6a5911bca336a56ceb5c0ffe4c5c76ee17c23046174255ac805ae8307d90434d1e027"
 
-RPROVIDES:${PN} += "libmediainfo.so.0()(64bit) \
-libmediainfo0 \
-libmediainfo0(aarch-64)"
+RPROVIDES:${PN} += "libmediainfo.so.0 \
+libmediainfo0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmms.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzen.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libm.so.6 \
+libmms.so.0 \
+libstdc++.so.6 \
+libz.so.1 \
+libzen.so.0"
 
 inherit rpm

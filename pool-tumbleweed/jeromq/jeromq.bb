@@ -9,12 +9,12 @@ RPM_HASH = "c27d572d4fb46bf69db03346ca79a1b0caac49488d1c29e360a05c646f3b2b3609bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeromq \
-mvn(org.zeromq:jeromq) \
-mvn(org.zeromq:jeromq:pom:) \
-osgi(org.zeromq.jeromq)"
+mvn-org.zeromq-jeromq \
+mvn-org.zeromq-jeromq-pom- \
+osgi-org.zeromq.jeromq"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(eu.neilalexander:jnacl)"
+mvn-eu.neilalexander-jnacl"
 
 inherit rpm

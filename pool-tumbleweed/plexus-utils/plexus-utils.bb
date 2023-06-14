@@ -12,11 +12,11 @@ RPM_NAME = "plexus-utils-3.5.1-1.1.noarch.rpm"
 RPM_HASH = "e19767499a7674315d06998793326106a50ca58bead40513acf6fd62e3357f2c15667ead7014522444f0f24f85413469e6d3b229713b96667c150a60ba42f466"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.codehaus.plexus:plexus-utils:pom:) \
-mvn(plexus:plexus-utils) \
-mvn(plexus:plexus-utils:pom:) \
-osgi(org.codehaus.plexus.utils) \
+RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-utils-pom- \
+mvn-plexus-plexus-utils \
+mvn-plexus-plexus-utils-pom- \
+osgi-org.codehaus.plexus.utils \
 plexus-utils"
 
 RDEPENDS:${PN} += "java-headless \

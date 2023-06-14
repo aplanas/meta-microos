@@ -10,11 +10,11 @@ RPM_HASH = "e7061177273cfe795b10fa4e485ed98132a13407bd1b64d53fec126f962216bde599
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-feedgen \
-python3.10dist(feedgen) \
+python3.10dist-feedgen \
 python310-feedgen \
-python3dist(feedgen)"
+python3dist-feedgen"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-python-dateutil"
 

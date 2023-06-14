@@ -16,8 +16,7 @@ PV = "4.1"
 RPM_NAME = "libiniparser-devel-4.1-2.2.aarch64.rpm"
 RPM_HASH = "9637ad9b0c0852afe614d108d9b5f9c19b28da54eef4cb984ac2b1238cf4130c125c7381b6bf53225bda560ffe2eef750d0a369f202a07136aecd694842f7fa0"
 
-RPROVIDES:${PN} += "libiniparser-devel \
-libiniparser-devel(aarch-64)"
+RPROVIDES:${PN} += "libiniparser-devel"
 
 RDEPENDS:${PN} += "libiniparser1"
 

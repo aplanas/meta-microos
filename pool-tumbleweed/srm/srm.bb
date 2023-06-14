@@ -9,10 +9,9 @@ PV = "1.2.15"
 RPM_NAME = "srm-1.2.15-3.2.aarch64.rpm"
 RPM_HASH = "74b1959ec1f5b8014e1326f8403cf935f516ef4bb99e7e676075465c992d0a892a48f99c9c6a94dd4fa9cbcfbe9db43b51bc0b1e902462da08282466ed7b02cf"
 
-RPROVIDES:${PN} += "srm \
-srm(aarch-64)"
+RPROVIDES:${PN} += "srm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

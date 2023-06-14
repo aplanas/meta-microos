@@ -12,34 +12,33 @@ PV = "3.2.1"
 RPM_NAME = "freeradius-server-3.2.1-1.3.aarch64.rpm"
 RPM_HASH = "8b18b6a2b0a6a822a8e60ccd91bd28f2ba52359840622a56f49d725ef1c86bdafbe1b411fb28936615030ec632b059848051ebabb3c045a1610941cdb7a1308f"
 
-RPROVIDES:${PN} += "config(freeradius-server) \
+RPROVIDES:${PN} += "config-freeradius-server \
 freeradius \
 freeradius-server \
-freeradius-server(aarch-64) \
 radiusd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \
 freeradius-server-libs \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libct.so.4()(64bit) \
-libcurl.so.4()(64bit) \
-libfreeradius-dhcp.so()(64bit) \
-libfreeradius-eap.so()(64bit) \
-libfreeradius-radius.so()(64bit) \
-libfreeradius-server.so()(64bit) \
-libgdbm.so.6()(64bit) \
-libjson-c.so.5()(64bit) \
-libmemcached.so.11()(64bit) \
-libodbc.so.2()(64bit) \
-libpam.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libtalloc.so.2()(64bit) \
-libwbclient.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libct.so.4 \
+libcurl.so.4 \
+libfreeradius-dhcp.so \
+libfreeradius-eap.so \
+libfreeradius-radius.so \
+libfreeradius-server.so \
+libgdbm.so.6 \
+libjson-c.so.5 \
+libmemcached.so.11 \
+libodbc.so.2 \
+libpam.so.0 \
+libssl.so.3 \
+libtalloc.so.2 \
+libwbclient.so.0 \
 openssl \
 perl \
 pwdutils \

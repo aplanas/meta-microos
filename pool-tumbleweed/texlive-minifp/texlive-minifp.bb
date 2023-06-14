@@ -15,8 +15,8 @@ RPM_NAME = "texlive-minifp-2023.201.0.0.96svn32559-54.1.noarch.rpm"
 RPM_HASH = "f783aa3556e953675177de9bea0222c60eb1c6d74bbd7897a0e89e1e5fb0d44118584282a720122fa9b23924221b3a2f32d645feb915357f02f85863ef9b1e5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mfpextra.tex) \
-tex(minifp.sty) \
+RPROVIDES:${PN} += "tex-mfpextra.tex \
+tex-minifp.sty \
 texlive-minifp"
 
 RDEPENDS:${PN} += "/bin/sh \

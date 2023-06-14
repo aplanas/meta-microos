@@ -9,7 +9,7 @@ RPM_HASH = "51e29c89eac6f20394bc8d61fe61e622ea5a34c026c513ccac646d90af2447137c90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \
-locale(texlive-bjfuthesis-doc:zh \
+locale(texlive-bjfuthesis-doc-zh \
 texlive-bjfuthesis-doc"
 
 RDEPENDS:${PN} += ""

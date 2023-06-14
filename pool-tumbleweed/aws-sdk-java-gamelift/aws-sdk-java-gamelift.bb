@@ -11,11 +11,11 @@ RPM_HASH = "ab1b90c32bc4b9729ad709aa54eaefcd9f0cfce902737e0867c772f4c90c27c24c85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-gamelift \
-mvn(com.amazonaws:aws-java-sdk-gamelift) \
-mvn(com.amazonaws:aws-java-sdk-gamelift:pom:)"
+mvn-com.amazonaws-aws-java-sdk-gamelift \
+mvn-com.amazonaws-aws-java-sdk-gamelift-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.amazonaws:aws-java-sdk-core)"
+mvn-com.amazonaws-aws-java-sdk-core"
 
 inherit rpm

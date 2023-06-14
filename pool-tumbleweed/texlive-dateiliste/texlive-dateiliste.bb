@@ -11,7 +11,7 @@ RPM_NAME = "texlive-dateiliste-2023.204.0.0.6svn27974-54.1.noarch.rpm"
 RPM_HASH = "1e909e3812497597efd00ec1110834a3f32d246f168b7088f346c7e57ebc31bd2135b598b14edea05b30b413b1c5edb677167a66c4eead32d5174e71c876042d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dateiliste.sty) \
+RPROVIDES:${PN} += "tex-dateiliste.sty \
 texlive-dateiliste"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,9 +20,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(ltxtable.sty) \
-tex(rcsinfo.sty) \
-tex(svninfo.sty) \
+tex-ltxtable.sty \
+tex-rcsinfo.sty \
+tex-svninfo.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

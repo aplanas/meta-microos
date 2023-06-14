@@ -14,11 +14,11 @@ RPM_HASH = "b05a8bde9d8f5b10929103f5f4a84fef126ea1e092ca2ed45d106f2f9ad1d4427a93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-trafficmanager \
-python3.10dist(azure-mgmt-trafficmanager) \
+python3.10dist-azure-mgmt-trafficmanager \
 python310-azure-mgmt-trafficmanager \
-python3dist(azure-mgmt-trafficmanager)"
+python3dist-azure-mgmt-trafficmanager"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

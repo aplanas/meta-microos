@@ -8,10 +8,10 @@ RPM_NAME = "mycroft-core-18.8.13-1.15.noarch.rpm"
 RPM_HASH = "bc209549da1cf73d177748d79fe450c3aead6a20ab5d3007bd773e05ec633a6e8f0876254ea82341d24ba71c989e4d0aa31a36d0d046af11f9072b8f91d9d15e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(mycroft-core) \
+RPROVIDES:${PN} += "config-mycroft-core \
 mycroft-core \
-python3.10dist(mycroft-core) \
-python3dist(mycroft-core)"
+python3.10dist-mycroft-core \
+python3dist-mycroft-core"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
@@ -24,7 +24,7 @@ mpg123-pulse \
 openssl \
 patch \
 portaudio \
-python(abi) \
+python-abi \
 python3-Pillow \
 python3-PyAutoGUI \
 python3-PyChromecast \
@@ -49,7 +49,7 @@ python3-inflection \
 python3-monotonic \
 python3-msk \
 python3-msm \
-python3-multi_key_dict \
+python3-multi-key-dict \
 python3-netifaces \
 python3-num2words \
 python3-padaos \

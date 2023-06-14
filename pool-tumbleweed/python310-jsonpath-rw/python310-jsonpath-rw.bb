@@ -15,13 +15,13 @@ RPM_HASH = "f95b90bc5d2697ea6822e6d65f12ffe1ea486fdb9b22059bff9d8327ef6a7f081752
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonpath-rw \
-python3.10dist(jsonpath-rw) \
+python3.10dist-jsonpath-rw \
 python310-jsonpath-rw \
-python3dist(jsonpath-rw)"
+python3dist-jsonpath-rw"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-decorator \
 python310-ply \
 python310-six \

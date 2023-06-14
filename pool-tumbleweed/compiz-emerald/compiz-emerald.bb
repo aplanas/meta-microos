@@ -9,33 +9,32 @@ RPM_HASH = "f7de142cafce94680fae41c2fb26a425c6e6b5ea4ad00f936c1e780f2c2992065168
 
 RPROVIDES:${PN} += "compiz-decorator \
 compiz-emerald \
-compiz-emerald(aarch-64) \
-libemeraldengine.so.0()(64bit) \
-liblegacy.so()(64bit) \
-libline.so()(64bit) \
-liboxygen.so()(64bit) \
-libpixmap.so()(64bit) \
-libtruglass.so()(64bit) \
-libvrunner.so()(64bit) \
-libzootreeves.so()(64bit)"
+libemeraldengine.so.0 \
+liblegacy.so \
+libline.so \
+liboxygen.so \
+libpixmap.so \
+libtruglass.so \
+libvrunner.so \
+libzootreeves.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 compiz \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXrender.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdecoration.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libwnck-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXi.so.6 \
+libXrender.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libdecoration.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libwnck-3.so.0"
 
 inherit rpm

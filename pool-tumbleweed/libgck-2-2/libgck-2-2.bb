@@ -10,15 +10,14 @@ RPM_HASH = "1c29af8bb2ebf95896d0d0c4b8547bbdd0028d318917ceb0cf3da11ae061e13f4f37
 
 RPROVIDES:${PN} += "gck \
 libgck-2-2 \
-libgck-2-2(aarch-64) \
-libgck-2.so.2()(64bit)"
+libgck-2.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libp11-kit.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libp11-kit.so.0"
 
 inherit rpm

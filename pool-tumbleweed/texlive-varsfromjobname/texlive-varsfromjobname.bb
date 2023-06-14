@@ -11,7 +11,7 @@ RPM_NAME = "texlive-varsfromjobname-2023.201.1.0svn44154-53.1.noarch.rpm"
 RPM_HASH = "e0641039fe22bedb59c00f6e301b4fed3e3b584849b8bbd95b6c5a72dcfdb2c2d2b49d2f96417d0080cedf78ed2d079814187a88077bb01a9dd2e0b732e9baca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(varsfromjobname.sty) \
+RPROVIDES:${PN} += "tex-varsfromjobname.sty \
 texlive-varsfromjobname"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(currfile.sty) \
-tex(ifthen.sty) \
+tex-currfile.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

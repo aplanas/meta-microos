@@ -14,11 +14,11 @@ RPM_HASH = "b9325de6c3b38d905f3efe3b84c8facb0ac7aef4833728dd45dff0e4918ae6d6aff3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-timeseriesinsights \
-python3.10dist(azure-mgmt-timeseriesinsights) \
+python3.10dist-azure-mgmt-timeseriesinsights \
 python310-azure-mgmt-timeseriesinsights \
-python3dist(azure-mgmt-timeseriesinsights)"
+python3dist-azure-mgmt-timeseriesinsights"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

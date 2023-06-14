@@ -11,14 +11,13 @@ PV = "0.5"
 RPM_NAME = "sffview-0.5-3.3.aarch64.rpm"
 RPM_HASH = "e2c817feb92d12bd4dd7f03e2bdcf7286728ea7bddc8f74aed4aa65cf6f5f0bc6f32c322744fb560e20cd079f63399eec22601fa41162f7cc6327b1fa2b2b79e"
 
-RPROVIDES:${PN} += "sffview \
-sffview(aarch-64)"
+RPROVIDES:${PN} += "sffview"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.3.0.5()(64bit) \
-libwx_gtk2u_core-suse.so.3.0.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.3.0.5 \
+libwx-gtk2u-core-suse.so.3.0.5"
 
 inherit rpm

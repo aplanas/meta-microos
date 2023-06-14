@@ -56,12 +56,12 @@ RPM_NAME = "perl-Parallel-ForkManager-2.02-1.9.noarch.rpm"
 RPM_HASH = "29e13560b7bdffc3f10df0e33533450c233bbea3443830f937d22ac32b31a632d6babae085e45e8bef70bd709f9dc770a74f4f2efa1a60f07831c16f760d4335"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parallel::ForkManager) \
-perl(Parallel::ForkManager::Child) \
+RPROVIDES:${PN} += "perl-Parallel--ForkManager \
+perl-Parallel--ForkManager--Child \
 perl-Parallel-ForkManager"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Moo) \
-perl(Moo::Role)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Moo \
+perl-Moo--Role"
 
 inherit rpm

@@ -17,11 +17,11 @@ RPM_HASH = "ae9b18fa30a165f5a92633f923875b6e3fb5f657ec2e153b01bbdac80dc72984cf79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-ml \
-python3.10dist(azure-ai-ml) \
+python3.10dist-azure-ai-ml \
 python310-azure-ai-ml \
-python3dist(azure-ai-ml)"
+python3dist-azure-ai-ml"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-PyYAML \
 python310-applicationinsights \

@@ -13,11 +13,11 @@ RPM_HASH = "c520d5984a0a1071bd2f1bb2c06dba1f51f0ed44672bfb15b4be281899e479d13d11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-visvis \
-python3.10dist(visvis) \
+python3.10dist-visvis \
 python310-visvis \
-python3dist(visvis)"
+python3dist-visvis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-opengl \
 python310-qt5"

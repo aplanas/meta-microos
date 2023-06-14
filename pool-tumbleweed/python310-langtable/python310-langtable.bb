@@ -13,11 +13,11 @@ RPM_HASH = "216bb87410ca90d08246e52406ef1efb2288acd987a0a1195e9ebfca9a688c453ec6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-langtable \
-python3.10dist(langtable) \
+python3.10dist-langtable \
 python310-langtable \
-python3dist(langtable)"
+python3dist-langtable"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python-langtable-data"
 
 inherit rpm

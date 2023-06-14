@@ -12,11 +12,11 @@ RPM_NAME = "python311-sphinxcontrib-apidoc-0.3.0-2.1.noarch.rpm"
 RPM_HASH = "ebd86c17a04756302b2b829f9f7e1a54d384249ae960169b2a3a52585d6bd8f91d8cca135839d2a90ce441727a3c37f69d34c14b7b44219cde673d9f7e61366d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-apidoc) \
+RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-apidoc \
 python311-sphinxcontrib-apidoc \
-python3dist(sphinxcontrib-apidoc)"
+python3dist-sphinxcontrib-apidoc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Sphinx \
 python311-pbr"
 

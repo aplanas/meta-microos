@@ -9,9 +9,9 @@ RPM_HASH = "cf8b1887372c5d0f961124a96af316ed680a615f64a27f3050f3d78062aa9a84dfb4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsr-311 \
-mvn(javax.ws.rs:jsr311-api) \
-mvn(javax.ws.rs:jsr311-api:pom:) \
-osgi(javax.ws.rs.jsr311-api)"
+mvn-javax.ws.rs-jsr311-api \
+mvn-javax.ws.rs-jsr311-api-pom- \
+osgi-javax.ws.rs.jsr311-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

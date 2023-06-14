@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-aiohttp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-aiohttp \
 python39-aws-xray-sdk"
 

@@ -9,11 +9,11 @@ RPM_HASH = "3f14c2c19f8506aa1c90d5a54fda968244bd655c075c4468296858b8eda4140a1827
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-vcr \
-python3.10dist(pytest-vcr) \
+python3.10dist-pytest-vcr \
 python310-pytest-vcr \
-python3dist(pytest-vcr)"
+python3dist-pytest-vcr"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-vcrpy"
 

@@ -19,10 +19,10 @@ RPM_NAME = "perl-Class-Autouse-2.01-11.20.noarch.rpm"
 RPM_HASH = "08e1c939ebe7a35a0d828cdc857e7c5c3c3b5d2763ffb1c77d9403d6d77eebddeead35168305010f927e85c155bfb6ba291a552048c765edd0c68d644dc7cf04"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Autouse) \
-perl(Class::Autouse::Parent) \
+RPROVIDES:${PN} += "perl-Class--Autouse \
+perl-Class--Autouse--Parent \
 perl-Class-Autouse"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

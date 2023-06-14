@@ -9,13 +9,13 @@ RPM_HASH = "a57a63ecf673cf690bedde108d38a3adab277a1f310f7c81fa95863304ba90edf9f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-licenses \
-python3.10dist(pip-licenses) \
+python3.10dist-pip-licenses \
 python310-pip-licenses \
-python3dist(pip-licenses)"
+python3dist-pip-licenses"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PrettyTable \
 python310-pip \
 update-alternatives"

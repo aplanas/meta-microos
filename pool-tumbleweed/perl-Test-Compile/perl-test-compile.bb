@@ -25,12 +25,12 @@ RPM_NAME = "perl-Test-Compile-3.2.2-1.1.noarch.rpm"
 RPM_HASH = "e3fd741b685c8439d821efb7284256253dbad568c735b80bc1a4e30d03f66687c2889a4f84f1de57efe094e91873b16579ac72e44912f06145aeab616798e02e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Compile) \
-perl(Test::Compile::Internal) \
+RPROVIDES:${PN} += "perl-Test--Compile \
+perl-Test--Compile--Internal \
 perl-Test-Compile"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exporter) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exporter \
+perl-parent"
 
 inherit rpm

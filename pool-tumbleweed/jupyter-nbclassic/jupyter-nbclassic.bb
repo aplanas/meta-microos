@@ -15,10 +15,7 @@ RPM_NAME = "jupyter-nbclassic-0.5.6-1.1.noarch.rpm"
 RPM_HASH = "94a54df6e2efc0ba54634f0032bc17f21c699d189e7cf820d235710bf71223cf7c45c4fa902e36685ae4fa8998b653af9ca5c0bda9e8115bda13f61a70125df5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(jupyter-nbclassic.desktop) \
-jupyter-nbclassic \
-mimehandler(application/x-ipynb+json)"
+RPROVIDES:${PN} += "jupyter-nbclassic"
 
 RDEPENDS:${PN} += "python3-nbclassic"
 

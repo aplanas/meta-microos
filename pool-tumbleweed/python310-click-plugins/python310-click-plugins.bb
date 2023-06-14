@@ -14,11 +14,11 @@ RPM_HASH = "a02be9e892d973fc984d8a329abf435b032d34b27ed5dca5a00881af50a04d408881
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-click-plugins \
-python3.10dist(click-plugins) \
+python3.10dist-click-plugins \
 python310-click-plugins \
-python3dist(click-plugins)"
+python3dist-click-plugins"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-click"
 
 inherit rpm

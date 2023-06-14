@@ -9,25 +9,25 @@ RPM_HASH = "4fffa457e4650ed25ae7031d1ba531c5d2555a547af8b5ee62b24256ee956b0cb8b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "import-properties-plugin \
-mvn(com.sun.istack:import-properties-plugin) \
-mvn(com.sun.istack:import-properties-plugin:pom:)"
+mvn-com.sun.istack-import-properties-plugin \
+mvn-com.sun.istack-import-properties-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.resolver:maven-resolver-api) \
-mvn(org.apache.maven.resolver:maven-resolver-connector-basic) \
-mvn(org.apache.maven.resolver:maven-resolver-impl) \
-mvn(org.apache.maven.resolver:maven-resolver-spi) \
-mvn(org.apache.maven.resolver:maven-resolver-transport-file) \
-mvn(org.apache.maven.resolver:maven-resolver-transport-wagon) \
-mvn(org.apache.maven.resolver:maven-resolver-util) \
-mvn(org.apache.maven.wagon:wagon-http-lightweight) \
-mvn(org.apache.maven:maven-compat) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-settings) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.eclipse.sisu:org.eclipse.sisu.inject) \
-mvn(org.jsoup:jsoup)"
+mvn-org.apache.maven-maven-compat \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-settings \
+mvn-org.apache.maven.resolver-maven-resolver-api \
+mvn-org.apache.maven.resolver-maven-resolver-connector-basic \
+mvn-org.apache.maven.resolver-maven-resolver-impl \
+mvn-org.apache.maven.resolver-maven-resolver-spi \
+mvn-org.apache.maven.resolver-maven-resolver-transport-file \
+mvn-org.apache.maven.resolver-maven-resolver-transport-wagon \
+mvn-org.apache.maven.resolver-maven-resolver-util \
+mvn-org.apache.maven.wagon-wagon-http-lightweight \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.eclipse.sisu-org.eclipse.sisu.inject \
+mvn-org.jsoup-jsoup"
 
 inherit rpm

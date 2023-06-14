@@ -16,7 +16,7 @@ RPM_NAME = "texlive-hulipsum-2023.201.1.1svn56848-52.1.noarch.rpm"
 RPM_HASH = "182990af7fb4650eae0b9b24964ae0be0d90f07157d434f04ef1fa1c806be23f7fe4051fe95dbd6e8ae575e6c2072a174a784cdcaab9197cb02d12d31ed90867"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hulipsum.sty) \
+RPROVIDES:${PN} += "tex-hulipsum.sty \
 texlive-hulipsum"
 
 RDEPENDS:${PN} += "/bin/sh \

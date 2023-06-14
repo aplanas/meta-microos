@@ -9,7 +9,7 @@ RPM_HASH = "a76b92aeacc4c4c5d95645e4d8010e51e5cf5d121db77bdb52c2bbdf0235b324bfb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-license \
-boost-license1_82_0"
+boost-license1-82-0"
 
 RDEPENDS:${PN} += ""
 

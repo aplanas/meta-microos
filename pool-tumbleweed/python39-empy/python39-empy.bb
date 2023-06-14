@@ -19,10 +19,10 @@ RPM_NAME = "python39-empy-3.3.4-1.19.noarch.rpm"
 RPM_HASH = "52646bdb37b5b30ea6379ce943f3f47db1eab79051f86e5ece6636252a364d03d5e4da14bd12cdaf4bdba75de95aade61ac0ac4e2a67fcd3481683ceca267491"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(empy) \
+RPROVIDES:${PN} += "python3.9dist-empy \
 python39-empy \
-python3dist(empy)"
+python3dist-empy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

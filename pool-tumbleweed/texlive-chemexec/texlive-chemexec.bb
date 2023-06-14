@@ -11,7 +11,7 @@ RPM_NAME = "texlive-chemexec-2023.201.1.0svn21632-53.1.noarch.rpm"
 RPM_HASH = "7601395d781d93483de014d8cd510f0624cf45ccbc60d9be4bc7dfe5471089e3b654b31c7b316394c7869957f9aef9d6b848a1c78ae232fde133ec90a565a86d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chemexec.sty) \
+RPROVIDES:${PN} += "tex-chemexec.sty \
 texlive-chemexec"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,16 +20,16 @@ ed \
 findutils \
 grep \
 sed \
-tex(accents.sty) \
-tex(amsmath.sty) \
-tex(calc.sty) \
-tex(framed.sty) \
-tex(ifthen.sty) \
-tex(mhchem.sty) \
-tex(tikz.sty) \
-tex(ulem.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-accents.sty \
+tex-amsmath.sty \
+tex-calc.sty \
+tex-framed.sty \
+tex-ifthen.sty \
+tex-mhchem.sty \
+tex-tikz.sty \
+tex-ulem.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

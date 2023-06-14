@@ -13,24 +13,22 @@ PV = "2.3.6"
 RPM_NAME = "qca-qt6-2.3.6-1.1.aarch64.rpm"
 RPM_HASH = "5412854d0e87b336c96ac3ce477b979dfc0c75a356d56008cdd15d9d56c99a916d9abea9effa0cc81d24c27521fc788fc1f3891a125615e4dad46a2e2ea8193e"
 
-RPROVIDES:${PN} += "libqca-gcrypt.so()(64bit) \
-libqca-gnupg.so()(64bit) \
-libqca-logger.so()(64bit) \
-libqca-ossl.so()(64bit) \
-libqca-softstore.so()(64bit) \
-qca-qt6 \
-qca-qt6(aarch-64)"
+RPROVIDES:${PN} += "libqca-gcrypt.so \
+libqca-gnupg.so \
+libqca-logger.so \
+libqca-ossl.so \
+libqca-softstore.so \
+qca-qt6"
 
 RDEPENDS:${PN} += "gpg2 \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgcrypt.so.20()(64bit) \
-libqca-qt6.so.2()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libgcrypt.so.20 \
+libqca-qt6.so.2 \
+libssl.so.3 \
+libstdc++.so.6"
 
 inherit rpm

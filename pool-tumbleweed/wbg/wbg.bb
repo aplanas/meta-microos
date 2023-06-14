@@ -11,16 +11,14 @@ PV = "1.1.0"
 RPM_NAME = "wbg-1.1.0-1.2.aarch64.rpm"
 RPM_HASH = "6db344c8cd135e2bb49d1b1be539a3a40c6ada0c3b81fc29c9e5236c67f0dc06de973181d5d704b96792edf4ca508ad4f0724bced90d2631d75f685b9c8ce69b"
 
-RPROVIDES:${PN} += "wbg \
-wbg(aarch-64)"
+RPROVIDES:${PN} += "wbg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libpixman-1.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libwayland-client.so.0()(64bit) \
-libwebp.so.7()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
+libpixman-1.so.0 \
+libpng16.so.16 \
+libwayland-client.so.0 \
+libwebp.so.7"
 
 inherit rpm

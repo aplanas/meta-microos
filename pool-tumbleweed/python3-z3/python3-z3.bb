@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-z3"
 
-RDEPENDS:${PN} += "libz3-4_12 \
-python(abi)"
+RDEPENDS:${PN} += "libz3-4-12 \
+python-abi"
 
 inherit rpm

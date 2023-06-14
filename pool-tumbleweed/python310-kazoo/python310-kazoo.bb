@@ -9,11 +9,11 @@ RPM_HASH = "2644b758c0285da96513bc69811c6b9755493fa7628a7425490dae2bab69398df6d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kazoo \
-python3.10dist(kazoo) \
+python3.10dist-kazoo \
 python310-kazoo \
-python3dist(kazoo)"
+python3dist-kazoo"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

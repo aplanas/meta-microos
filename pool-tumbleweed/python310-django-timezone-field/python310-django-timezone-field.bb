@@ -9,11 +9,11 @@ RPM_HASH = "265ccbce626c03a41023a61456e8e482c0971c7debbfafa2f00bf88d3660d42fcdd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-timezone-field \
-python3.10dist(django-timezone-field) \
+python3.10dist-django-timezone-field \
 python310-django-timezone-field \
-python3dist(django-timezone-field)"
+python3dist-django-timezone-field"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-pytz"
 

@@ -10,11 +10,11 @@ RPM_HASH = "98685bf6787b11b0aa35956bf73fed355670a7b5e2443d80e6497037f657ddecb875
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mathics-pygments \
-python3.10dist(mathics-pygments) \
+python3.10dist-mathics-pygments \
 python310-mathics-pygments \
-python3dist(mathics-pygments)"
+python3dist-mathics-pygments"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Mathics-Scanner \
 python310-Pygments"
 

@@ -15,11 +15,11 @@ RPM_HASH = "ae2cc3bfe58ae844504f718757ff321b2fde3e943261e1ac1148ee76553ae954e54c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-traitsui \
-python3.10dist(traitsui) \
+python3.10dist-traitsui \
 python310-traitsui \
-python3dist(traitsui)"
+python3dist-traitsui"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyface \
 python310-traits"
 

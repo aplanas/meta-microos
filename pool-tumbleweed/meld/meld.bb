@@ -12,25 +12,20 @@ RPM_NAME = "meld-3.22.0-1.2.noarch.rpm"
 RPM_HASH = "9b97a5fd3295bfd1bca3692dec02e47e77a973766d495f9c2670de786c4b87cc7444ed5a47f676d3b9684081ef658a43394d25a0b43785304e84369eb8817873"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(org.gnome.Meld.desktop) \
-meld \
-metainfo() \
-metainfo(org.gnome.Meld.appdata.xml) \
-mimehandler(application/x-meld-comparison)"
+RPROVIDES:${PN} += "meld"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 patch \
-python(abi) \
+python-abi \
 python3-cairo \
 python3-gobject-Gdk \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(GtkSource) \
-typelib(Pango)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-GtkSource \
+typelib-Pango"
 
 inherit rpm

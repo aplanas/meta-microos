@@ -15,18 +15,15 @@ RPM_HASH = "65d3cecff9f5eeed0182655ab4935a57cc76b0b0df786e6c5f36f2036df7fe02cee0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-core \
-jupyter-jupyter_core \
 python3-jupyter-core \
-python3-jupyter_core \
-python3.10dist(jupyter-core) \
+python3.10dist-jupyter-core \
 python310-jupyter-core \
-python310-jupyter_core \
-python3dist(jupyter-core)"
+python3dist-jupyter-core"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-platformdirs \
 python310-traitlets"
 

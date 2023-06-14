@@ -10,13 +10,12 @@ PV = "1.2.4"
 RPM_NAME = "liblog4c3-1.2.4-5.26.aarch64.rpm"
 RPM_HASH = "ff62bede66bbee815473ed5614fe9a8af6265b292a64abe2949b317516a2bd7c377d32679b90856cce694d2276413972f750d602b1d9b8de00c003ac99b96274"
 
-RPROVIDES:${PN} += "liblog4c.so.3()(64bit) \
-liblog4c3 \
-liblog4c3(aarch-64)"
+RPROVIDES:${PN} += "liblog4c.so.3 \
+liblog4c3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexpat.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexpat.so.1"
 
 inherit rpm

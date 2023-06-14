@@ -10,13 +10,12 @@ RPM_HASH = "ea3240770eebf6f5feabee21653f9612a17ebb10d73bb09697c0b4998256f7d11e32
 
 RPROVIDES:${PN} += "avahi-python \
 python3-avahi \
-python310-avahi \
-python310-avahi(aarch-64)"
+python310-avahi"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 avahi \
-python(abi) \
+python-abi \
 python310-Twisted \
 python310-dbm \
 python310-dbus-python"

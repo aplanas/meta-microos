@@ -21,15 +21,13 @@ RPM_HASH = "763332d11558fac80c9254bc8ff0f71251383b6c58d3966ed8a69c37879af5589534
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-email-validator \
-python3-email_validator \
-python3.10dist(email-validator) \
+python3.10dist-email-validator \
 python310-email-validator \
-python310-email_validator \
-python3dist(email-validator)"
+python3dist-email-validator"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dnspython \
 python310-idna \
 python310-setuptools \

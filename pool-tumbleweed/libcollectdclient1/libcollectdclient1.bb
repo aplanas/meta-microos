@@ -9,13 +9,12 @@ RPM_NAME = "libcollectdclient1-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
 RPM_HASH = "810b78291b5c8c901c2199051fd17a1893299be4eb8b2e5fcd906764e379f4e985fb0f1d6db8e42b13a6eade87635fd93206d7183ba7c6d1ce4f45ac25221166"
 
 RPROVIDES:${PN} += "libcollectdclient \
-libcollectdclient.so.1()(64bit) \
-libcollectdclient1 \
-libcollectdclient1(aarch-64)"
+libcollectdclient.so.1 \
+libcollectdclient1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20"
 
 inherit rpm

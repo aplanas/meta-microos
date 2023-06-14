@@ -12,13 +12,13 @@ RPM_HASH = "971ad2c740f0f9e0a0fb0620b37acad23ef64ed68f26cd7842c5ed640d964bc0ed3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-variables \
-python3.10dist(ansible-variables) \
-python3dist(ansible-variables)"
+python3.10dist-ansible-variables \
+python3dist-ansible-variables"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ansible-core \
-python(abi) \
+python-abi \
 python3-rich \
 update-alternatives"
 

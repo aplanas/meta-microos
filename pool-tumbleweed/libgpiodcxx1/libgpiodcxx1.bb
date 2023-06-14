@@ -11,15 +11,14 @@ PV = "1.6.3"
 RPM_NAME = "libgpiodcxx1-1.6.3-2.3.aarch64.rpm"
 RPM_HASH = "38ed36bd669806e4dad36596bcb20f93b9334eb56cc4ff71a7cf3c0ed0906ed59fd08da70d77fcab544fa1aaa6e4698af0715ea6c13205ed1dc82b57c172fd33"
 
-RPROVIDES:${PN} += "libgpiodcxx.so.1()(64bit) \
-libgpiodcxx1 \
-libgpiodcxx1(aarch-64)"
+RPROVIDES:${PN} += "libgpiodcxx.so.1 \
+libgpiodcxx1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgpiod.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgpiod.so.2 \
+libstdc++.so.6"
 
 inherit rpm

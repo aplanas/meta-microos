@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-yong \
 ibus-table-yong \
-locale(ibus:zh_CN)"
+locale-ibus-zh-CN"
 
 RDEPENDS:${PN} += "/bin/sh \
 ibus-table"

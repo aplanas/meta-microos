@@ -10,15 +10,15 @@ RPM_HASH = "3e3d37cc4fa8f9255a63d65a3e0881c470ef30d00900c70c30b81c6c57589c677b79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-guice \
-mvn(com.fasterxml.jackson.module:jackson-module-guice) \
-mvn(com.fasterxml.jackson.module:jackson-module-guice:pom:) \
-osgi(com.fasterxml.jackson.module.jackson-module-guice)"
+mvn-com.fasterxml.jackson.module-jackson-module-guice \
+mvn-com.fasterxml.jackson.module-jackson-module-guice-pom- \
+osgi-com.fasterxml.jackson.module.jackson-module-guice"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-annotations) \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(com.google.inject:guice)"
+mvn-com.fasterxml.jackson.core-jackson-annotations \
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-com.google.inject-guice"
 
 inherit rpm

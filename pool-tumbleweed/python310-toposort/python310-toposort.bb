@@ -9,10 +9,10 @@ RPM_HASH = "43a0c15dbf13f4cac2722a6ca3ea3191a6f61e85fe709f3f4d3718924665e7ca9896
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-toposort \
-python3.10dist(toposort) \
+python3.10dist-toposort \
 python310-toposort \
-python3dist(toposort)"
+python3dist-toposort"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

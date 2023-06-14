@@ -8,22 +8,17 @@ PV = "1.5.1615+0"
 RPM_NAME = "psi+-plugins-contentdownloaderplugin-1.5.1615+0-3.1.aarch64.rpm"
 RPM_HASH = "dc965e555eac2646459d4c760e2b9b56ffdff9fe891108295fea4c8ee858b9921fcc7de2b5792525aa9f02a51df9dbad039e447d692d3b628bf42651d8264262"
 
-RPROVIDES:${PN} += "libcontentdownloaderplugin.so()(64bit) \
-psi+-plugins-contentdownloaderplugin \
-psi+-plugins-contentdownloaderplugin(aarch-64)"
+RPROVIDES:${PN} += "libcontentdownloaderplugin.so \
+psi+-plugins-contentdownloaderplugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 psi+"
 
 inherit rpm

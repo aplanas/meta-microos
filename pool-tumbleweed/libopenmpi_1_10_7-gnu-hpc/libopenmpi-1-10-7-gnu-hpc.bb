@@ -18,21 +18,20 @@ PV = "1.10.7"
 RPM_NAME = "libopenmpi_1_10_7-gnu-hpc-1.10.7-7.5.aarch64.rpm"
 RPM_HASH = "42600fe25c22ac037a85932d44dcf696bfca6e2ad73766e29ac3fef96ca3e6e9d3035b36a85360e362abb8afed888096863456c9cabae1f228f31ca12d42fa9c"
 
-RPROVIDES:${PN} += "libopenmpi_1_10_7-gnu-hpc \
-libopenmpi_1_10_7-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "libopenmpi-1-10-7-gnu-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-librdmacm.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libucp.so.0()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libibverbs.so.1 \
+libm.so.6 \
+librdmacm.so.1 \
+libstdc++.so.6 \
+libucp.so.0 \
+libz.so.1 \
 lua-lmod \
-openmpi_1_10_7-gnu-hpc"
+openmpi-1-10-7-gnu-hpc"
 
 inherit rpm

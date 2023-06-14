@@ -15,7 +15,7 @@ RPM_NAME = "texlive-gincltex-2023.201.0.0.3svn64967-52.1.noarch.rpm"
 RPM_HASH = "a0b57444d9302b2fade75c16d9ff72772fc887661be023075ab2479db42c8f21f4432b2ab42561bf28e2a6a0d7d5b0466d3518e88d7667a4bc42991e1013f4e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gincltex.sty) \
+RPROVIDES:${PN} += "tex-gincltex.sty \
 texlive-gincltex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(adjustbox.sty) \
-tex(svn-prov.sty) \
+tex-adjustbox.sty \
+tex-svn-prov.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

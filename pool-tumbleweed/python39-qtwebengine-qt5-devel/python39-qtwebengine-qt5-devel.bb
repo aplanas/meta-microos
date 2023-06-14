@@ -11,10 +11,9 @@ RPM_HASH = "f3609405c738f36600fbb71536059e16c04f2df247cb2141087f39e68b6a3b711142
 RPROVIDES:${PN} += "python-qtwebengine-qt5-sip \
 python39-qtwebengine-qt5-api \
 python39-qtwebengine-qt5-devel \
-python39-qtwebengine-qt5-devel(aarch-64) \
 python39-qtwebengine-qt5-sip"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-qt5-devel"
 
 inherit rpm

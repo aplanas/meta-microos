@@ -14,12 +14,12 @@ RPM_HASH = "aa7db62c8543204f5d7d80d45f17454169dff893753a9fff1c7f3094a7bf77593627
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-imagebuilder \
-python3.10dist(azure-mgmt-imagebuilder) \
+python3.10dist-azure-mgmt-imagebuilder \
 python310-azure-mgmt-imagebuilder \
-python3dist(azure-mgmt-imagebuilder)"
+python3dist-azure-mgmt-imagebuilder"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

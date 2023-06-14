@@ -12,7 +12,7 @@ RPM_HASH = "8ca44037e7590b3784b1cad43add24f8edd8b48dc557ab3be2532a6dfd964009220e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flickrnet-devel \
-pkgconfig(flickrnet)"
+pkgconfig-flickrnet"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 flickrnet \

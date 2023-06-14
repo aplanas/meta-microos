@@ -13,7 +13,7 @@ RPM_NAME = "texlive-chemsec-2023.201.1.12asvn46972-53.1.noarch.rpm"
 RPM_HASH = "50dd9f40ae24078c774c4a001d190a5a2a2f9fc5fa766dd5584d9abc9f3b1c32ce6f3dfa82cf4922360a74784565d298a691cf12836661d109147a493ae4859e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chemsec.sty) \
+RPROVIDES:${PN} += "tex-chemsec.sty \
 texlive-chemsec"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

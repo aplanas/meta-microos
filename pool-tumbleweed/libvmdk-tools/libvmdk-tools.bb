@@ -9,23 +9,16 @@ PV = "20221124"
 RPM_NAME = "libvmdk-tools-20221124-3.7.aarch64.rpm"
 RPM_HASH = "ee4e206fec6c0afb4457f33016425814d017dbb806bb25a4a683a8a1bb523f597fb9bb4ff04f8bf88531107fb73193147165991a91d8e12f73156679d0359368"
 
-RPROVIDES:${PN} += "libvmdk-tools \
-libvmdk-tools(aarch-64)"
+RPROVIDES:${PN} += "libvmdk-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcdata.so.1()(64bit) \
-libcdata.so.1(V_20230108)(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcnotify.so.1()(64bit) \
-libcnotify.so.1(V_20220108)(64bit) \
-libcpath.so.1()(64bit) \
-libcpath.so.1(V_20220108)(64bit) \
-libfuse.so.2()(64bit) \
-libvmdk.so.1()(64bit) \
-libvmdk.so.1(V_20221124)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcdata.so.1 \
+libcerror.so.1 \
+libclocale.so.1 \
+libcnotify.so.1 \
+libcpath.so.1 \
+libfuse.so.2 \
+libvmdk.so.1"
 
 inherit rpm

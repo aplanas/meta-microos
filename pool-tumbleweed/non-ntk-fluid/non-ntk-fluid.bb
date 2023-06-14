@@ -7,23 +7,18 @@ PV = "1.3.1001"
 RPM_NAME = "non-ntk-fluid-1.3.1001-1.6.aarch64.rpm"
 RPM_HASH = "57c7ffa36886c8ee6758f690a867fabf28b33cb0fbdd5b781321b04f661846f5d37636949912659e8958f088dbd124ab538f9454d59c322c067342cdf2f30ebf"
 
-RPROVIDES:${PN} += "application() \
-application(ntk-fluid.desktop) \
-mimehandler(application/x-fluid) \
-non-ntk-fluid \
-non-ntk-fluid(aarch-64)"
+RPROVIDES:${PN} += "non-ntk-fluid"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libntk.so.1()(64bit) \
-libntk_images.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libntk-images.so.1 \
+libntk.so.1 \
+libpng16.so.16 \
+libstdc++.so.6 \
 non-ntk-devel"
 
 inherit rpm

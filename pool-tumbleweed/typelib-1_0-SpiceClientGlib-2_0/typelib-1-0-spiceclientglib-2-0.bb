@@ -7,16 +7,15 @@ PV = "0.42"
 RPM_NAME = "typelib-1_0-SpiceClientGlib-2_0-0.42-1.3.aarch64.rpm"
 RPM_HASH = "470249c12890c82ff3fe7576100dd0304dc76ffb23a3d0ae688febe0619585c023fa7edeb39e811facabc2d3ba3a975053c850972fde06bf9c260c796e3d1b54"
 
-RPROVIDES:${PN} += "typelib(SpiceClientGLib) \
-typelib-1_0-SpiceClientGlib-2_0 \
-typelib-1_0-SpiceClientGlib-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-SpiceClientGlib-2-0 \
+typelib-SpiceClientGLib"
 
-RDEPENDS:${PN} += "libspice-client-glib-2.0.so.8()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(GstBase)"
+RDEPENDS:${PN} += "libspice-client-glib-2.0.so.8 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio \
+typelib-Gst \
+typelib-GstBase"
 
 inherit rpm

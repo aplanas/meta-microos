@@ -8,8 +8,7 @@ RPM_NAME = "aspell-hsb-0.02.0-2.14.aarch64.rpm"
 RPM_HASH = "fe5319fb74b6a0682bcb7ca98bfd2b2e294a6ab8c44f51aa98fdae21de1e6878e8232d2227ef9ea01f8fde198f7d4c950240a17be36cc77d11ba8e7b51cfea41"
 
 RPROVIDES:${PN} += "aspell-hsb \
-aspell-hsb(aarch-64) \
-locale(aspell:hsb)"
+locale-aspell-hsb"
 
 RDEPENDS:${PN} += ""
 

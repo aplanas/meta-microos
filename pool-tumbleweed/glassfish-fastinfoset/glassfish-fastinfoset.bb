@@ -14,16 +14,16 @@ RPM_HASH = "24a604efcdf8d5eacfd14e8e6a6480215ac8fd00227ba36da9574dc904faf5ee18d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-fastinfoset \
-mvn(com.sun.xml.fastinfoset:FastInfoset) \
-mvn(com.sun.xml.fastinfoset:FastInfoset:pom:) \
-mvn(com.sun.xml.fastinfoset:FastInfosetUtilities) \
-mvn(com.sun.xml.fastinfoset:FastInfosetUtilities:pom:) \
-mvn(com.sun.xml.fastinfoset:fastinfoset-project:pom:) \
-osgi(com.sun.xml.fastinfoset.FastInfoset)"
+mvn-com.sun.xml.fastinfoset-FastInfoset \
+mvn-com.sun.xml.fastinfoset-FastInfoset-pom- \
+mvn-com.sun.xml.fastinfoset-FastInfosetUtilities \
+mvn-com.sun.xml.fastinfoset-FastInfosetUtilities-pom- \
+mvn-com.sun.xml.fastinfoset-fastinfoset-project-pom- \
+osgi-com.sun.xml.fastinfoset.FastInfoset"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.xml.stream.buffer:streambuffer) \
-mvn(com.sun.xsom:xsom)"
+mvn-com.sun.xml.stream.buffer-streambuffer \
+mvn-com.sun.xsom-xsom"
 
 inherit rpm

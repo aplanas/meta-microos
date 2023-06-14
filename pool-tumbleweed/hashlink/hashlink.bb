@@ -13,8 +13,7 @@ PV = "1.13"
 RPM_NAME = "hashlink-1.13-1.3.aarch64.rpm"
 RPM_HASH = "477c94adf9defd0f751d4d48cecf17bc56423a1f48cf9b2331f253d584a8d643cc90706fca3d7c61127933c827c359186f57cc6da3fecbbd579b8fc09ff9cc7e"
 
-RPROVIDES:${PN} += "hashlink \
-hashlink(aarch-64)"
+RPROVIDES:${PN} += "hashlink"
 
 RDEPENDS:${PN} += "hashlink-hdlls"
 

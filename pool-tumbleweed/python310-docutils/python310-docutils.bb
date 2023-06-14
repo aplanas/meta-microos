@@ -12,13 +12,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docutils \
 python3-docutils \
-python3.10dist(docutils) \
+python3.10dist-docutils \
 python310-docutils \
-python3dist(docutils)"
+python3dist-docutils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-packaging \
 python310-xml \
 update-alternatives"

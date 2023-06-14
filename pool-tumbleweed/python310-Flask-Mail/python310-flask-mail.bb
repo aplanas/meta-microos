@@ -9,11 +9,11 @@ RPM_HASH = "91d5a2530b6282b6f2be5f6fa1ecc843aa08df730db3950ac37daa3c16a229176fd6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Mail \
-python3.10dist(flask-mail) \
+python3.10dist-flask-mail \
 python310-Flask-Mail \
-python3dist(flask-mail)"
+python3dist-flask-mail"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-blinker"
 

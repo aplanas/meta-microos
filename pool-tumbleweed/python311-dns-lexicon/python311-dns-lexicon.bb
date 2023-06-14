@@ -12,13 +12,13 @@ RPM_NAME = "python311-dns-lexicon-3.11.7-1.1.noarch.rpm"
 RPM_HASH = "e29a39a02df400348b56ab18249ed29840143bfc25d05fe1b1a24c1cc534af4a17237b1929cc4c1fe9e1121c8b914f7bd7a85dc0af5d065fa9d4409250a1ea06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dns-lexicon) \
+RPROVIDES:${PN} += "python3.11dist-dns-lexicon \
 python311-dns-lexicon \
-python3dist(dns-lexicon)"
+python3dist-dns-lexicon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-PyYAML \
 python311-beautifulsoup4 \
 python311-cryptography \

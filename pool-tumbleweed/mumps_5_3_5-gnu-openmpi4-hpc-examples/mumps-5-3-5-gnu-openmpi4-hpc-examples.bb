@@ -13,16 +13,13 @@ PV = "5.3.5"
 RPM_NAME = "mumps_5_3_5-gnu-openmpi4-hpc-examples-5.3.5-3.2.aarch64.rpm"
 RPM_HASH = "a625458aa6271fd7f9247bb31437072420e0e7eea4fadde0d4eab96a387676c72f00d5aeba00d8913bce599553624a493bbf5916fea7257f0a50155c76c48583"
 
-RPROVIDES:${PN} += "mumps_5_3_5-gnu-openmpi4-hpc-examples \
-mumps_5_3_5-gnu-openmpi4-hpc-examples(aarch-64)"
+RPROVIDES:${PN} += "mumps-5-3-5-gnu-openmpi4-hpc-examples"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
-libmumps_5_3_5-gnu-openmpi4-hpc"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
+libmumps-5-3-5-gnu-openmpi4-hpc"
 
 inherit rpm

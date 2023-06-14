@@ -10,7 +10,7 @@ RPM_NAME = "texlive-wheelchart-2023.201.1.0svn64373-53.1.noarch.rpm"
 RPM_HASH = "e65b955abe3fbae56816b23bea4fe34d5696139858876bac7c4c036aa4c91a04bab4f119e30459b271b0160cb8431195e7586977ccf7af7ab874074119dc9531"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(wheelchart.sty) \
+RPROVIDES:${PN} += "tex-wheelchart.sty \
 texlive-wheelchart"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,7 +10,7 @@ RPM_HASH = "a82f4470759e1822c7d7dc32a0b2052014512646771ad21e004d7c85e10e975b8f11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewall-macros \
-rpm_macro(firewalld_reload)"
+rpm-macro-firewalld-reload"
 
 RDEPENDS:${PN} += ""
 

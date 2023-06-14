@@ -10,7 +10,7 @@ RPM_HASH = "7602a6f1d14856b11a60e9201f7d224a24e1d37f8316b1790e958225000b1d57e881
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cldr-emoji-annotation-devel \
-pkgconfig(cldr-emoji-annotation)"
+pkgconfig-cldr-emoji-annotation"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cldr-emoji-annotation"

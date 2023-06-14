@@ -14,15 +14,12 @@ PV = "3.0.1"
 RPM_NAME = "nsnake-3.0.1-2.16.aarch64.rpm"
 RPM_HASH = "76b071b6b7b75fe2446c14b37e78d272990c8f7454a7d78bd5a95c69c8fce525e8d3cfdc2d6750870a6733d6a40c125b9733b9d1981f939f49313290cd0a242c"
 
-RPROVIDES:${PN} += "application() \
-application(nsnake.desktop) \
-nsnake \
-nsnake(aarch-64)"
+RPROVIDES:${PN} += "nsnake"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libncurses.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libncurses.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

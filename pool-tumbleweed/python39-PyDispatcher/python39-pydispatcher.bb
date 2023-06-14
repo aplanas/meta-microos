@@ -16,10 +16,10 @@ RPM_NAME = "python39-PyDispatcher-2.0.7-1.1.noarch.rpm"
 RPM_HASH = "430d702d7f233da9f555d0c5a8c35376cda72ba8c4306cf8f652543d4a4c28a3173859432ac1dc329775c744de8713eaebe385319c6c2f38ac89e7af6308b288"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pydispatcher) \
+RPROVIDES:${PN} += "python3.9dist-pydispatcher \
 python39-PyDispatcher \
-python3dist(pydispatcher)"
+python3dist-pydispatcher"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

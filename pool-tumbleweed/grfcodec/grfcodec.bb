@@ -13,14 +13,12 @@ RPM_NAME = "grfcodec-6.0.6+39-1.9.aarch64.rpm"
 RPM_HASH = "f9e3ad3014ff6a9c44d352a5450ac1672b24e46b081de5fe606e34951dca257a7042ebd07dbe97e6d307d2182c812f9f4d7e81b2e982d9ed2539b25b21088c65"
 
 RPROVIDES:${PN} += "grfcodec \
-grfcodec(aarch-64) \
 nforenum"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpng16.so.16 \
+libstdc++.so.6"
 
 inherit rpm

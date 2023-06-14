@@ -14,7 +14,7 @@ RPM_NAME = "texlive-dottex-2023.201.0.0.6svn15878-52.1.noarch.rpm"
 RPM_HASH = "947175df6c210db211c247eb8345c10f018a848c62698d0c8d854f90d8821adc189186c6870e8b68606d8f7fd9f112ed7d67bf5b9ce0dd66214c0d6462c2ff34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dottex.sty) \
+RPROVIDES:${PN} += "tex-dottex.sty \
 texlive-dottex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphicx.sty) \
-tex(keyval.sty) \
-tex(moreverb.sty) \
+tex-graphicx.sty \
+tex-keyval.sty \
+tex-moreverb.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

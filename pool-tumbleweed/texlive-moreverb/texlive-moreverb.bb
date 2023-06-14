@@ -14,7 +14,7 @@ RPM_NAME = "texlive-moreverb-2023.201.2.3asvn22126-54.1.noarch.rpm"
 RPM_HASH = "e201cac09f3272cd3917dd1ec66d9f1fa2b3dfe2b51172294859bcf0fb9e318c8774b52bf73c97d2b251f2a3e9db3a17ccedb35dcd066ac569f13c280f463e45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(moreverb.sty) \
+RPROVIDES:${PN} += "tex-moreverb.sty \
 texlive-moreverb"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(verbatim.sty) \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

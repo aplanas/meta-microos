@@ -9,9 +9,9 @@ RPM_HASH = "6970aeadc8967068dbbde01c1bfcb308f96157fd2c0235158ea19963e93a9a18bc93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bugzilla-apache \
-config(bugzilla-apache)"
+config-bugzilla-apache"
 
 RDEPENDS:${PN} += "apache2 \
-apache2-mod_perl"
+apache2-mod-perl"
 
 inherit rpm

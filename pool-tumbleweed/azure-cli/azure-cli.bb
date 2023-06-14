@@ -65,14 +65,14 @@ azure-cli-sql \
 azure-cli-sqlvm \
 azure-cli-storage \
 azure-cli-vm \
-python3.10dist(azure-cli) \
-python3dist(azure-cli)"
+python3.10dist-azure-cli \
+python3dist-azure-cli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 azure-cli-command-modules-nspkg \
 azure-cli-core \
 azure-cli-nspkg \
-python(abi) \
+python-abi \
 python3-Fabric \
 python3-PyGithub \
 python3-PyNaCl \

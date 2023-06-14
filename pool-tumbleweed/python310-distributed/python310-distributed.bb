@@ -11,13 +11,13 @@ RPM_HASH = "195627fdd6cddf3a69c56f289c7188aae1249f92e02f43652bb8380a8240fa3b8fb3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-distributed \
-python3.10dist(distributed) \
+python3.10dist-distributed \
 python310-distributed \
-python3dist(distributed)"
+python3dist-distributed"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-PyYAML \
 python310-click \

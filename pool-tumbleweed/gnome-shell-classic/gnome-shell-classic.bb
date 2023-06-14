@@ -16,16 +16,16 @@ RPROVIDES:${PN} += "gnome-shell-classic"
 
 RDEPENDS:${PN} += "gnome-shell-extension-desktop-icons \
 gnome-shell-extensions-common \
-typelib(Adw) \
-typelib(Atk) \
-typelib(Clutter) \
-typelib(GLib) \
-typelib(GMenu) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Pango) \
-typelib(Shell) \
-typelib(St)"
+typelib-Adw \
+typelib-Atk \
+typelib-Clutter \
+typelib-GLib \
+typelib-GMenu \
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
+typelib-Pango \
+typelib-Shell \
+typelib-St"
 
 inherit rpm

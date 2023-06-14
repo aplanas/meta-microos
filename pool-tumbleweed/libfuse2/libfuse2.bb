@@ -12,12 +12,11 @@ PV = "2.9.9"
 RPM_NAME = "libfuse2-2.9.9-6.3.aarch64.rpm"
 RPM_HASH = "3126b7005581410c60460a623b7fd82a1b5276005736aa481e3fe91276fb03c1b89881befd37cf0ec02896350deb21ed3101f382141c18fcf7516b0520fa01ac"
 
-RPROVIDES:${PN} += "libfuse.so.2()(64bit) \
-libfuse2 \
-libfuse2(aarch-64)"
+RPROVIDES:${PN} += "libfuse.so.2 \
+libfuse2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

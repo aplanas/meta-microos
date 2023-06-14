@@ -21,14 +21,13 @@ RPM_NAME = "libxml2-2-2.10.4-2.1.aarch64.rpm"
 RPM_HASH = "7f00888c2dbc4b2c955188a91a7a51aff4da82cbcfc896651222c26a2d711897827f5f2e9a960ad3d17d16849bf1eea27bc7e53c1e628c98bf2492a0fbf2668d"
 
 RPROVIDES:${PN} += "libxml2-2 \
-libxml2-2(aarch-64) \
-libxml2.so.2()(64bit)"
+libxml2.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblzma.so.5 \
+libm.so.6 \
+libz.so.1"
 
 inherit rpm

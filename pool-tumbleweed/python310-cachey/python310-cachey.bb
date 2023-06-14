@@ -22,11 +22,11 @@ RPM_HASH = "7f20078994cf05c0acdaed6b84b427aca20064cac5e33815af48bf4af139de42471d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cachey \
-python3.10dist(cachey) \
+python3.10dist-cachey \
 python310-cachey \
-python3dist(cachey)"
+python3dist-cachey"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-HeapDict"
 
 inherit rpm

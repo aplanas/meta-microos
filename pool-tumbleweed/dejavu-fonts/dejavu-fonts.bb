@@ -13,11 +13,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dejavu \
 dejavu-fonts \
-desktop-data-SuSE:/usr/X11R6/lib/X11/fonts/truetype/SUSESans-Roman.ttf \
-locale(bg;el;mk;ru;vi)"
+desktop-data-SuSE-/usr/X11R6/lib/X11/fonts/truetype/SUSESans-Roman.ttf \
+locale-bg;el;mk;ru;vi"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -12,9 +12,8 @@ PV = "0.19.0"
 RPM_NAME = "tini-0.19.0-2.1.aarch64.rpm"
 RPM_HASH = "6cc509ac0f1f574342a4d18c61fb4b54fcbdf2816cd008b138876ae0d088f53689ca2608f2ac7ba311e7204f85a2ba78a767eddf6a6816e89a0b339bb2aec3c3"
 
-RPROVIDES:${PN} += "tini \
-tini(aarch-64)"
+RPROVIDES:${PN} += "tini"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

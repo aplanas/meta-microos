@@ -57,24 +57,16 @@ PV = "1.8.1"
 RPM_NAME = "qdirstat-1.8.1-1.4.aarch64.rpm"
 RPM_HASH = "770a858e98ee1c135a96223ccb6cac502af5753a798bcc49dedba48d0c361086ca2f8954aee487851df68fcce8c833b372c49472e99d4c36d07835480db50bbb"
 
-RPROVIDES:${PN} += "application() \
-application(qdirstat.desktop) \
-mimehandler(inode/directory) \
-mimehandler(inode/mount-point) \
-qdirstat \
-qdirstat(aarch-64)"
+RPROVIDES:${PN} += "qdirstat"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

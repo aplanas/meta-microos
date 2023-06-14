@@ -18,13 +18,13 @@ RPM_NAME = "python39-hl7apy-1.3.3-2.13.noarch.rpm"
 RPM_HASH = "428c044b7b4fc5a6ed4b131ff371d4a59c55ff6951c03aa4d9eae083c5eb6e107951a8cc821951d026f57ab92dd3357896cd0722b8500441359bd3386b56d725"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(hl7apy) \
+RPROVIDES:${PN} += "python3.9dist-hl7apy \
 python39-hl7apy \
-python3dist(hl7apy)"
+python3dist-hl7apy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -15,36 +15,35 @@ PV = "3.5"
 RPM_NAME = "rspamd-3.5-1.2.aarch64.rpm"
 RPM_HASH = "cb610e1442df157040ddd12d058d0aea356cd68ca7f8bf0717f2df2681ff407633f3637bd06fa7570c370adf917733b5519eee077928710c7bfab772e8bd285b"
 
-RPROVIDES:${PN} += "config(rspamd) \
-librspamd-actrie.so()(64bit) \
-librspamd-ev.so()(64bit) \
-librspamd-kann.so()(64bit) \
-librspamd-replxx.so()(64bit) \
-librspamd-server.so()(64bit) \
-rspamd \
-rspamd(aarch-64)"
+RPROVIDES:${PN} += "config-rspamd \
+librspamd-actrie.so \
+librspamd-ev.so \
+librspamd-kann.so \
+librspamd-replxx.so \
+librspamd-server.so \
+rspamd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 apparmor-abstractions \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-liblua5.4.so.5()(64bit) \
-libm.so.6()(64bit) \
-libopenblas.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libsodium.so.23()(64bit) \
-libsqlite3.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libunwind.so.8()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+liblua5.4.so.5 \
+libm.so.6 \
+libopenblas.so.0 \
+libpcre2-8.so.0 \
+libsodium.so.23 \
+libsqlite3.so.0 \
+libssl.so.3 \
+libstdc++.so.6 \
+libunwind.so.8 \
+libz.so.1 \
+libzstd.so.1 \
 lua54-lpeg \
 shadow"
 

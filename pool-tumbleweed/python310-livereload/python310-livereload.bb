@@ -9,13 +9,13 @@ RPM_HASH = "9c80e1374694180b7c6444797fe1adffce30df7e95308eec9fbd4260b01bd6e80cb8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-livereload \
-python3.10dist(livereload) \
+python3.10dist-livereload \
 python310-livereload \
-python3dist(livereload)"
+python3dist-livereload"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-six \
 python310-tornado \
 update-alternatives"

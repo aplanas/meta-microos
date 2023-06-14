@@ -14,10 +14,10 @@ RPM_NAME = "obs-service-format_spec_file-20230522-1.1.noarch.rpm"
 RPM_HASH = "a1822e9e3978dedf14fe9b91e6d05ff4cd4da89f7f5245a1aaf258e11edffa7a5469684bc70b287c836307a9aba5943c9ab1ba6d1bff977d8edd32076b0aeed0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "obs-service-format_spec_file"
+RPROVIDES:${PN} += "obs-service-format-spec-file"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
-obs-service-source_validator"
+obs-service-source-validator"
 
 inherit rpm

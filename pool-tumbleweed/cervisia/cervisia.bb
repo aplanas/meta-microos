@@ -7,45 +7,35 @@ PV = "23.04.1"
 RPM_NAME = "cervisia-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "c8f0777d1e5e9e86b59dd11ad7b1258604849f269e407a3fa8feddda19b4bcbd5ad52e2a9b3ddb0561b070b240effcaca2dd5f3f523a2ff70fdc4fe3f1c67077"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.cervisia.desktop) \
-cervisia \
-cervisia(aarch-64) \
-libkdeinit5_cervisia.so()(64bit) \
-libkdeinit5_cvsaskpass.so()(64bit) \
-libkdeinit5_cvsservice.so()(64bit) \
-metainfo() \
-metainfo(org.kde.cervisia.appdata.xml) \
-mimehandler(inode/directory)"
+RPROVIDES:${PN} += "cervisia \
+libkdeinit5-cervisia.so \
+libkdeinit5-cvsaskpass.so \
+libkdeinit5-cvsservice.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5ItemViews.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5Su.so.5()(64bit) \
-libKF5TextWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5ItemViews.so.5 \
+libKF5KIOGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5Notifications.so.5 \
+libKF5Parts.so.5 \
+libKF5Service.so.5 \
+libKF5Su.so.5 \
+libKF5TextWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

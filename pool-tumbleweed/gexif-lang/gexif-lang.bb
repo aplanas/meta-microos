@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gexif-lang \
 gexif-lang-all \
-locale(gexif:de) \
-locale(gexif:es) \
-locale(gexif:fr)"
+locale-gexif-de \
+locale-gexif-es \
+locale-gexif-fr"
 
 RDEPENDS:${PN} += "gexif"
 

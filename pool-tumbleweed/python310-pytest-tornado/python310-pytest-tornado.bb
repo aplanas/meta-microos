@@ -10,11 +10,11 @@ RPM_HASH = "4776fc39e21537e3c9b0bb6fbadf8523a93eaedefa926f4dafe929c5e8d308849503
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-tornado \
-python3.10dist(pytest-tornado) \
+python3.10dist-pytest-tornado \
 python310-pytest-tornado \
-python3dist(pytest-tornado)"
+python3dist-pytest-tornado"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-certifi \
 python310-pytest \
 python310-tornado"

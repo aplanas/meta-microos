@@ -12,11 +12,11 @@ RPM_HASH = "16965326893bbc089022d145b695c3d98430f362b780a2cfb2d385c7d89980301475
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-health-check \
-python3.10dist(django-health-check) \
+python3.10dist-django-health-check \
 python310-django-health-check \
-python3dist(django-health-check)"
+python3dist-django-health-check"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

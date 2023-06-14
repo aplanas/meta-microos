@@ -10,13 +10,13 @@ RPM_NAME = "python311-distributed-2023.3.2-2.1.noarch.rpm"
 RPM_HASH = "565c995826cba8afa4fedda5b08465852c117b2a4aa29309df8e168025e80e344707277da959837a54c0265db4d5e9cc43dc017dac5406a737ec19c1bbebcf62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(distributed) \
+RPROVIDES:${PN} += "python3.11dist-distributed \
 python311-distributed \
-python3dist(distributed)"
+python3dist-distributed"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Jinja2 \
 python311-PyYAML \
 python311-click \

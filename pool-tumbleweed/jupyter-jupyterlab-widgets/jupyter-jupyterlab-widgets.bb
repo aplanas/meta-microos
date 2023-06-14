@@ -9,8 +9,7 @@ RPM_HASH = "0878b7cfe18910ae6718262106b9c415339b9f536a6c3b348d0ed440717b2dea9dba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-widgets-jupyterlab-manager \
-jupyter-jupyterlab-widgets \
-jupyter-jupyterlab_widgets"
+jupyter-jupyterlab-widgets"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab-filesystem"
 

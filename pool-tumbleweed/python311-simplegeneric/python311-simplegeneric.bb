@@ -26,10 +26,10 @@ RPM_NAME = "python311-simplegeneric-0.8.1-9.17.noarch.rpm"
 RPM_HASH = "75bbb15c9cfc04ceac5df13ec3eada3823a43074d1435c17904c315718cfbd0129644a505e2b1788fc5bf00448169fb2f4e851e7d2f4473faa8e5a755beb6a90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(simplegeneric) \
+RPROVIDES:${PN} += "python3.11dist-simplegeneric \
 python311-simplegeneric \
-python3dist(simplegeneric)"
+python3dist-simplegeneric"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

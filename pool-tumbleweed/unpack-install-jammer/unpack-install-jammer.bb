@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "unpack-install-jammer"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
+perl--MODULE-COMPAT-5.36.0 \
 perl-Compress-Raw-Lzma \
 perl-Data-Dump \
 perl-File-HomeDir \

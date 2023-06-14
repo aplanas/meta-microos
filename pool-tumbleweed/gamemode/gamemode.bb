@@ -24,9 +24,8 @@ RPM_NAME = "gamemode-1.7-3.1.aarch64.rpm"
 RPM_HASH = "230df9c5776531ec074732d00b3d4bc5fbcb186d5fcf73deffa4c6d3b64de971734a745e2f4071471ff7aa30c73953d381d1c14af8fe6dfa6c794a621dd2dc4b"
 
 RPROVIDES:${PN} += "gamemode \
-gamemode(aarch-64) \
-gamemoded:/usr/bin/gamemodelist \
-gamemoded:/usr/bin/gamemoderun"
+gamemoded-/usr/bin/gamemodelist \
+gamemoded-/usr/bin/gamemoderun"
 
 RDEPENDS:${PN} += "/bin/bash \
 libgamemodeauto0"

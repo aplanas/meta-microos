@@ -9,10 +9,10 @@ RPM_HASH = "9919716c3fbf7acabc1fdac41b1d60c8a43751c64d8ee8cf868d6b6d5e4bd824525e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libtmux \
-python3.10dist(libtmux) \
+python3.10dist-libtmux \
 python310-libtmux \
-python3dist(libtmux)"
+python3dist-libtmux"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

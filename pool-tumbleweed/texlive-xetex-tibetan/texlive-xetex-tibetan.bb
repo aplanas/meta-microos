@@ -9,8 +9,8 @@ RPM_NAME = "texlive-xetex-tibetan-2023.201.0.0.1svn28847-52.1.noarch.rpm"
 RPM_HASH = "7ba3f41a03a2ca27eb83c1124bc9973ee43601bf79133f6d66bc3b0d97743831077d05283759156072046d85c952fa671d0d0e41e06ef125461c0df6552361a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(loctib.map) \
-tex(wylie.map) \
+RPROVIDES:${PN} += "tex-loctib.map \
+tex-wylie.map \
 texlive-xetex-tibetan"
 
 RDEPENDS:${PN} += "/bin/sh \

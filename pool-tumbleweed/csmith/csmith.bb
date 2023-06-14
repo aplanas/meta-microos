@@ -9,13 +9,12 @@ PV = "2.3.0"
 RPM_NAME = "csmith-2.3.0-1.23.aarch64.rpm"
 RPM_HASH = "265370caa740b8010825260580da786cffe80722fbc4afa7842788b060db0ffe6bf6a98ee7f0dccddbce76151c0600536a73dc78b9cbf43f3ec9caea124f6f39"
 
-RPROVIDES:${PN} += "csmith \
-csmith(aarch-64)"
+RPROVIDES:${PN} += "csmith"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

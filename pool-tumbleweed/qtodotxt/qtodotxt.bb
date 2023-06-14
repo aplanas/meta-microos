@@ -13,16 +13,13 @@ RPM_NAME = "qtodotxt-1.9.0-3.1.noarch.rpm"
 RPM_HASH = "def3d5739ac70d0a90611ec090ded82aea6ee65252ca711d52078622f8e5516341be824c959dc200af86efd9a1ff318139b89fe0f360b42f512d3a3ac897b863"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(qtodotxt.desktop) \
-mimehandler(text/plain) \
-python3.10dist(qtodotxt) \
-python3dist(qtodotxt) \
+RPROVIDES:${PN} += "python3.10dist-qtodotxt \
+python3dist-qtodotxt \
 qtodotxt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-dateutil \
 python3-qt5"
 

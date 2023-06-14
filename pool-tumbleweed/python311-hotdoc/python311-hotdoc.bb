@@ -13,22 +13,21 @@ PV = "0.15"
 RPM_NAME = "python311-hotdoc-0.15-1.2.aarch64.rpm"
 RPM_HASH = "a6083b559ef8842f1f57ec9848de77f4513071d1ef28ce52543361861709f6f0f4c9cd59e0849f1c8f73fb4a525906631b02d4a6240ab0e712d5985b6f91aa27"
 
-RPROVIDES:${PN} += "python3.11dist(hotdoc) \
+RPROVIDES:${PN} += "python3.11dist-hotdoc \
 python311-hotdoc \
-python311-hotdoc(aarch-64) \
-python3dist(hotdoc)"
+python3dist-hotdoc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 /usr/bin/sh \
 clang-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libjson-glib-1.0.so.0 \
+libxml2.so.2 \
 llvm-devel \
-python(abi) \
+python-abi \
 python311-PyYAML \
 python311-appdirs \
 python311-cchardet \

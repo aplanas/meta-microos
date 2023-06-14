@@ -10,11 +10,11 @@ RPM_HASH = "0935d33f8842662f688dc70cee226efeb73e78fd1517105062f5bd2c6958b7b7052d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vistir \
-python3.10dist(vistir) \
+python3.10dist-vistir \
 python310-vistir \
-python3dist(vistir)"
+python3dist-vistir"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-colorama"
 
 inherit rpm

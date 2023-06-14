@@ -12,12 +12,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PasteDeploy \
 python3-pastedeploy \
-python3.10dist(pastedeploy) \
+python3.10dist-pastedeploy \
 python310-PasteDeploy \
 python310-pastedeploy \
-python3dist(pastedeploy)"
+python3dist-pastedeploy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Paste \
 python310-setuptools"
 

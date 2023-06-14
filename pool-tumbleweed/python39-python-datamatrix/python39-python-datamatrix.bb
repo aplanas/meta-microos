@@ -9,10 +9,10 @@ RPM_NAME = "python39-python-datamatrix-1.0.2-1.1.noarch.rpm"
 RPM_HASH = "533198a00df4fb382a0db7045b233174c19f1dacf996f2003558b424f37a46515e2643b20fe8a7ed02a3286aab9f11c9448369dcf9176ab3dd7146d440a1b085"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(datamatrix) \
+RPROVIDES:${PN} += "python3.9dist-datamatrix \
 python39-python-datamatrix \
-python3dist(datamatrix)"
+python3dist-datamatrix"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

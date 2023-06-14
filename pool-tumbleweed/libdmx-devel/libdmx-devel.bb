@@ -15,13 +15,12 @@ RPM_NAME = "libdmx-devel-1.1.4-1.19.aarch64.rpm"
 RPM_HASH = "b2527dd543d1708c48bbdab6a4015a520f38ebc2330acc89d63909be43a07ba7644db5c5e6a3ec44131635aa631679122278ce2fd26d2977d93755d3b479888d"
 
 RPROVIDES:${PN} += "libdmx-devel \
-libdmx-devel(aarch-64) \
-pkgconfig(dmx)"
+pkgconfig-dmx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmx1 \
-pkgconfig(dmxproto) \
-pkgconfig(x11) \
-pkgconfig(xext)"
+pkgconfig-dmxproto \
+pkgconfig-x11 \
+pkgconfig-xext"
 
 inherit rpm

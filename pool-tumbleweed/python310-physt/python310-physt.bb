@@ -15,11 +15,11 @@ RPM_HASH = "db38373522227ad703ece73108bfd2fcac6ed3bc358f42a0f058ff2524d6c5a1653c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-physt \
-python3.10dist(physt) \
+python3.10dist-physt \
 python310-physt \
-python3dist(physt)"
+python3dist-physt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-pandas"
 

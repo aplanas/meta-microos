@@ -7,16 +7,15 @@ PV = "1.1.0"
 RPM_NAME = "libgit2-glib-1_0-0-1.1.0-1.5.aarch64.rpm"
 RPM_HASH = "a9101d8e61daee94a9239020b94ae9251aed0cc040e450e8abfbae410e9ac9f3e964b3b7a594862d9d55ad6c122e7952a084b4d69f9d0b0181347b180387006b"
 
-RPROVIDES:${PN} += "libgit2-glib-1.0.so.0()(64bit) \
-libgit2-glib-1_0-0 \
-libgit2-glib-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgit2-glib-1-0-0 \
+libgit2-glib-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libgit2.so.1.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libgit2.so.1.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

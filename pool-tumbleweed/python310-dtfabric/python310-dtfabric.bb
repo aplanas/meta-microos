@@ -9,13 +9,13 @@ RPM_HASH = "3ecd44210a588cb25de430831d109656a0e1cd68d034fbea2efd5f829269c523e8b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dtfabric \
-python3.10dist(dtfabric) \
+python3.10dist-dtfabric \
 python310-dtfabric \
-python3dist(dtfabric)"
+python3dist-dtfabric"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

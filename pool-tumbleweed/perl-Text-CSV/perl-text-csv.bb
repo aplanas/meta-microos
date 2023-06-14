@@ -12,12 +12,12 @@ RPM_NAME = "perl-Text-CSV-2.02-1.2.noarch.rpm"
 RPM_HASH = "3f086b5481dc4cb65306f095b821f381ed9c7e7bf4c69b335b4d279f423ea7f3feda23489e361005e1de861e52a7b1699b1b4d1d8d2a0d5f63803229a1bea220"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::CSV) \
-perl(Text::CSV::ErrorDiag) \
-perl(Text::CSV_PP) \
+RPROVIDES:${PN} += "perl-Text--CSV \
+perl-Text--CSV--ErrorDiag \
+perl-Text--CSV-PP \
 perl-Text-CSV"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Test::More)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Test--More"
 
 inherit rpm

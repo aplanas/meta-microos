@@ -10,16 +10,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goocanvas2-lang \
 goocanvas2-lang-all \
-locale(goocanvas2:cs) \
-locale(goocanvas2:de) \
-locale(goocanvas2:en_GB) \
-locale(goocanvas2:es) \
-locale(goocanvas2:id) \
-locale(goocanvas2:ja) \
-locale(goocanvas2:pl) \
-locale(goocanvas2:pt_BR) \
-locale(goocanvas2:sr) \
-locale(goocanvas2:sv)"
+locale-goocanvas2-cs \
+locale-goocanvas2-de \
+locale-goocanvas2-en-GB \
+locale-goocanvas2-es \
+locale-goocanvas2-id \
+locale-goocanvas2-ja \
+locale-goocanvas2-pl \
+locale-goocanvas2-pt-BR \
+locale-goocanvas2-sr \
+locale-goocanvas2-sv"
 
 RDEPENDS:${PN} += "goocanvas2"
 

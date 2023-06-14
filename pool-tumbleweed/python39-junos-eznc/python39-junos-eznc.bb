@@ -18,11 +18,11 @@ RPM_NAME = "python39-junos-eznc-2.6.7-1.2.noarch.rpm"
 RPM_HASH = "43a16e2a30b425f4b62a348033e5d77acad25de7052657cbe1a0600ea3d09da5ae065e5c659a3ad47a800837cab0381771d94301c22720d097282f7dc005fc61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(junos-eznc) \
+RPROVIDES:${PN} += "python3.9dist-junos-eznc \
 python39-junos-eznc \
-python3dist(junos-eznc)"
+python3dist-junos-eznc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Jinja2 \
 python39-PyYAML \
 python39-lxml \

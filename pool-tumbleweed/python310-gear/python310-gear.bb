@@ -9,13 +9,13 @@ RPM_HASH = "ff6c8bfaef5024095bd5bb1bc7f308cb05edf20336989d418d5ee9b1268158c37208
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gear \
-python3.10dist(gear) \
+python3.10dist-gear \
 python310-gear \
-python3dist(gear)"
+python3dist-gear"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-extras \
 python310-pbr \
 python310-python-daemon \

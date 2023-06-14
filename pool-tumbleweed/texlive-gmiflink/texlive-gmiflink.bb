@@ -12,7 +12,7 @@ RPM_NAME = "texlive-gmiflink-2023.201.0.0.97svn15878-53.1.noarch.rpm"
 RPM_HASH = "841adeaa1ab09c11524d4323998960350b743cf3160f78b5965536ac519343aa44db43c1c3f900797dd1e5f477bfd8adc534ac0940ee16a92f48b14d92ea980b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gmiflink.sty) \
+RPROVIDES:${PN} += "tex-gmiflink.sty \
 texlive-gmiflink"
 
 RDEPENDS:${PN} += "/bin/sh \

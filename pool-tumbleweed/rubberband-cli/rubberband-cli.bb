@@ -8,16 +8,15 @@ PV = "3.1.0"
 RPM_NAME = "rubberband-cli-3.1.0-1.3.aarch64.rpm"
 RPM_HASH = "cc2b67cd7854c16fc8f92594ac2d32bd7ee51b9f33aa26ae97989b797dd74e1d685b37e3107c7db115aca8a6836e28095220331026b794faa4f43788cb6884cf"
 
-RPROVIDES:${PN} += "rubberband-cli \
-rubberband-cli(aarch-64)"
+RPROVIDES:${PN} += "rubberband-cli"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
 librubberband2 \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libsndfile.so.1 \
+libstdc++.so.6"
 
 inherit rpm

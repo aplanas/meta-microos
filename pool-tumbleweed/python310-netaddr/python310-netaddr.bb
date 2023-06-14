@@ -23,15 +23,15 @@ RPM_HASH = "abe89da6af30883e6b5c2b93be56c0c5fd94d53138de867d6965476fbb833849e173
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-netaddr \
-python3.10dist(netaddr) \
+python3.10dist-netaddr \
 python310-netaddr \
-python3dist(netaddr)"
+python3dist-netaddr"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-importlib-metadata \
-python310-importlib_resources \
+python310-importlib-resources \
 update-alternatives"
 
 inherit rpm

@@ -14,15 +14,15 @@ RPM_NAME = "python39-Send2Trash-1.8.0-1.9.noarch.rpm"
 RPM_HASH = "db2b35cf3dc806db89de1a474844bff2547902cae11600f9adcabf86a7b0df23357e4740b40bc91de3a842536d0e6720f05e125d7707a3de0764cc558e3c8c23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(send2trash) \
+RPROVIDES:${PN} += "python3.9dist-send2trash \
 python39-Send2Trash \
-python3dist(send2trash)"
+python3dist-send2trash"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
-typelib(GObject) \
-typelib(Gio) \
+python-abi \
+typelib-GObject \
+typelib-Gio \
 update-alternatives"
 
 inherit rpm

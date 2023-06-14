@@ -12,13 +12,13 @@ RPM_HASH = "f8b5fc6ffe314a88dc1a57891cc54ab785c0c0108beb26390103bdaef271bbd09757
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lit \
-python3.11dist(lit) \
+python3.11dist-lit \
 python311-lit \
-python3dist(lit)"
+python3dist-lit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

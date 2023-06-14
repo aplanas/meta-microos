@@ -7,19 +7,14 @@ PV = "20220915"
 RPM_NAME = "python39-libfvde-20220915-3.11.aarch64.rpm"
 RPM_HASH = "4a714e8b5d9f8b78c4945a175e7095ad069a2adf7507a94750d3facc2558db4ff2aaa0d23ef7e28cf02f86f83147bcc602b44bca640e43ffe5b6d4a093d2119a"
 
-RPROVIDES:${PN} += "python39-libfvde \
-python39-libfvde(aarch-64)"
+RPROVIDES:${PN} += "python39-libfvde"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libfguid.so.1()(64bit) \
-libfguid.so.1(V_20220113)(64bit) \
-libfvde.so.1()(64bit) \
-libfvde.so.1(V_20220915)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libfguid.so.1 \
+libfvde.so.1 \
+python-abi"
 
 inherit rpm

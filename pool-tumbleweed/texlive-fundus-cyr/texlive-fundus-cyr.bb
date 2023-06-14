@@ -11,7 +11,7 @@ RPM_NAME = "texlive-fundus-cyr-2023.201.svn26019-52.1.noarch.rpm"
 RPM_HASH = "05edf44173a53d39cf943f4e8cd45a49f9915d420e922534ac8c7b6853bd970e5853bf43f0620a32993013c38fc1c706613e81f452f17beb9152b08a63c7513a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cyr.sty) \
+RPROVIDES:${PN} += "tex-cyr.sty \
 texlive-fundus-cyr"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(cyracc.def) \
+tex-cyracc.def \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

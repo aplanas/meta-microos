@@ -11,15 +11,15 @@ RPM_HASH = "a6692d0a083757841c2dcfa3ce5739b326038c16c2867f90a59bbe26073373f7fdc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-xz \
-config(ant-xz) \
-mvn(org.apache.ant:ant-xz) \
-mvn(org.apache.ant:ant-xz:pom:)"
+config-ant-xz \
+mvn-org.apache.ant-ant-xz \
+mvn-org.apache.ant-ant-xz-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(org.tukaani:xz) \
+mvn-org.apache.ant-ant \
+mvn-org.tukaani-xz \
 xz-java"
 
 inherit rpm

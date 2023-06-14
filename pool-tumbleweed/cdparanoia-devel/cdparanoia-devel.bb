@@ -9,10 +9,9 @@ PV = "3.10.2"
 RPM_NAME = "cdparanoia-devel-3.10.2-28.19.aarch64.rpm"
 RPM_HASH = "eea419f1850a586321526d556bc9c9ea7dc3fc02adfb28b5aba64cbbfe8dc02c6bf77474d0de0f0aa51d7404dba5b7ad663e59f03fc3030a4016726aefedc96c"
 
-RPROVIDES:${PN} += "cdparanoia-devel \
-cdparanoia-devel(aarch-64)"
+RPROVIDES:${PN} += "cdparanoia-devel"
 
-RDEPENDS:${PN} += "libcdda_interface0 \
-libcdda_paranoia0"
+RDEPENDS:${PN} += "libcdda-interface0 \
+libcdda-paranoia0"
 
 inherit rpm

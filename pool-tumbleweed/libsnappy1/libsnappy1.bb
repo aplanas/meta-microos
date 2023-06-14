@@ -16,13 +16,12 @@ PV = "1.1.9"
 RPM_NAME = "libsnappy1-1.1.9-2.8.aarch64.rpm"
 RPM_HASH = "33a6c0e328c321f2f62edf05c8137065ce19e4eccc0b39e786f1f13fa656f5a08f091186c4fafde5146f2e66f4305facd8938032a237acb233cd00115d30578f"
 
-RPROVIDES:${PN} += "libsnappy.so.1()(64bit) \
-libsnappy1 \
-libsnappy1(aarch-64)"
+RPROVIDES:${PN} += "libsnappy.so.1 \
+libsnappy1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

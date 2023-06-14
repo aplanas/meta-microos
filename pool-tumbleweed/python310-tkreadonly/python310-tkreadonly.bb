@@ -9,11 +9,11 @@ RPM_HASH = "3cf7a5a1ae59b70a658c70f106179ffe6fe83c9ffb4bd2312923d30aee9c013bd714
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tkreadonly \
-python3.10dist(tkreadonly) \
+python3.10dist-tkreadonly \
 python310-tkreadonly \
-python3dist(tkreadonly)"
+python3dist-tkreadonly"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pygments \
 python310-idle \
 python310-tk"

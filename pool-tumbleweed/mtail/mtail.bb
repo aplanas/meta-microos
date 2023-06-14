@@ -9,15 +9,14 @@ PV = "3.0.0rc51"
 RPM_NAME = "mtail-3.0.0rc51-1.4.aarch64.rpm"
 RPM_HASH = "808eb41debdd508083fc6816f62ee3385ba2577b945b65f833b8b7711cdedb04363ff3bb966be2dec1aa99cc2792aaa29ac36933ac4e13b08173042664b18801"
 
-RPROVIDES:${PN} += "config(mtail) \
-mtail \
-mtail(aarch-64)"
+RPROVIDES:${PN} += "config-mtail \
+mtail"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-libc.so.6()(64bit) \
+libc.so.6 \
 shadow"
 
 inherit rpm

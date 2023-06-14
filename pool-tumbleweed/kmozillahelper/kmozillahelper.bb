@@ -9,27 +9,23 @@ RPM_HASH = "f39f2d89aef4f880d47e2b14e062b18eb4c3796e686469cfc301cfa0ddf55dfc3d29
 
 RPROVIDES:${PN} += "MozillaFirefox-kde4-addon \
 kmozillahelper \
-kmozillahelper(aarch-64) \
 mozilla-kde4-integration \
 mozilla-xulrunner191-kde4"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5Notifications.so.5 \
+libKF5Service.so.5 \
+libKF5WindowSystem.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
 mozilla-kde4-version"
 
 inherit rpm

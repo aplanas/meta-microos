@@ -10,18 +10,16 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_fortran200-openmpi1-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "bc2b358ca4a7f2beeb64cae8b2bf84d08b71ffe3e2de6f651ffc75ef76eea68578211b8bd2b4f075d27d39a9d83ca5d8696b77701550ff3b9f8ba7135e2d52c2"
 
-RPROVIDES:${PN} += "libhdf5_fortran-openmpi1 \
-libhdf5_fortran.so.200()(64bit) \
-libhdf5_fortran200-openmpi1 \
-libhdf5_fortran200-openmpi1(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-fortran-openmpi1 \
+libhdf5-fortran.so.200 \
+libhdf5-fortran200-openmpi1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libhdf5.so.200()(64bit) \
-libmpi.so.12()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libhdf5.so.200 \
+libmpi.so.12"
 
 inherit rpm

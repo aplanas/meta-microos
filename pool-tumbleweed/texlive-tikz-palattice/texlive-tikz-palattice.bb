@@ -17,7 +17,7 @@ RPM_NAME = "texlive-tikz-palattice-2023.201.2.3svn43442-52.1.noarch.rpm"
 RPM_HASH = "b22771d77e4c58d33286a0e956bb009079121aeb311615fe047c0600d0ea50c8b36b75ddb687338c268040e78bd027b244da83feb732b88e642f5bb18dc128a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikz-palattice.sty) \
+RPROVIDES:${PN} += "tex-tikz-palattice.sty \
 texlive-tikz-palattice"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,12 +26,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(iflang.sty) \
-tex(ifthen.sty) \
-tex(siunitx.sty) \
-tex(tikz.sty) \
-tex(xargs.sty) \
+tex-etoolbox.sty \
+tex-iflang.sty \
+tex-ifthen.sty \
+tex-siunitx.sty \
+tex-tikz.sty \
+tex-xargs.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

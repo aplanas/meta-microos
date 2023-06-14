@@ -11,17 +11,17 @@ RPM_HASH = "c8fbef504483b2712d3e69880716856607828c908f8128df4792c8ed8dfe6fb4508f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-grab \
-python3.10dist(grab) \
+python3.10dist-grab \
 python310-grab \
-python3dist(grab)"
+python3dist-grab"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-defusedxml \
 python310-lxml \
 python310-pycurl \
 python310-selection \
 python310-six \
-python310-user_agent \
+python310-user-agent \
 python310-weblib"
 
 inherit rpm

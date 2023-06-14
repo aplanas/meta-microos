@@ -18,16 +18,16 @@ RPM_NAME = "xerces-j2-2.12.2-2.6.noarch.rpm"
 RPM_HASH = "03482fe4d24ee8e446038faae351342f4d8b8dac226893be8c4e3385b8f59a349dcf0a46792f4f64f973b7219a2ede384237e37290299354f2f30179a28411fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jaxp_parser_impl \
-mvn(apache:xerces-j2) \
-mvn(apache:xerces-j2:pom:) \
-mvn(xerces:xerces) \
-mvn(xerces:xerces:pom:) \
-mvn(xerces:xercesImpl) \
-mvn(xerces:xercesImpl:pom:) \
-mvn(xerces:xmlParserAPIs) \
-mvn(xerces:xmlParserAPIs:pom:) \
-osgi(org.apache.xerces) \
+RPROVIDES:${PN} += "jaxp-parser-impl \
+mvn-apache-xerces-j2 \
+mvn-apache-xerces-j2-pom- \
+mvn-xerces-xerces \
+mvn-xerces-xerces-pom- \
+mvn-xerces-xercesImpl \
+mvn-xerces-xercesImpl-pom- \
+mvn-xerces-xmlParserAPIs \
+mvn-xerces-xmlParserAPIs-pom- \
+osgi-org.apache.xerces \
 xerces-j2 \
 xerces-j2-scripts"
 
@@ -35,10 +35,10 @@ RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(xml-apis:xml-apis) \
-osgi(javax.xml) \
-osgi(org.apache.xml.resolver) \
-osgi(org.apache.xml.serializer) \
+mvn-xml-apis-xml-apis \
+osgi-javax.xml \
+osgi-org.apache.xml.resolver \
+osgi-org.apache.xml.serializer \
 xalan-j2 \
 xml-commons-apis \
 xml-commons-resolver"

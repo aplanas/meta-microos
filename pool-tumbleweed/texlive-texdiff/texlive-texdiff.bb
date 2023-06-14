@@ -20,10 +20,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(Pod::Usage) \
-perl(re) \
-perl(strict) \
+perl-Getopt--Long \
+perl-Pod--Usage \
+perl-re \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

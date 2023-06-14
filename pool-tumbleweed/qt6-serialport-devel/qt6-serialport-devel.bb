@@ -7,14 +7,13 @@ PV = "6.5.1"
 RPM_NAME = "qt6-serialport-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "4d9859f5c7bf9a56e7d7f01e7061a69e6c8deab885e30e243d59b6163115db0c854a06ce8b385a8005b7cd2bef0a9670fccfea0d88f6bc2f99c5b51e5227c697"
 
-RPROVIDES:${PN} += "cmake(Qt6SerialPort) \
-pkgconfig(Qt6SerialPort) \
-qt6-serialport-devel \
-qt6-serialport-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-Qt6SerialPort \
+pkgconfig-Qt6SerialPort \
+qt6-serialport-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-cmake(Qt6Core) \
+cmake-Qt6Core \
 libQt6SerialPort6 \
-pkgconfig(Qt6Core)"
+pkgconfig-Qt6Core"
 
 inherit rpm

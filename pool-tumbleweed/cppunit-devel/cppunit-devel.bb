@@ -9,16 +9,15 @@ RPM_NAME = "cppunit-devel-1.15.1-1.13.aarch64.rpm"
 RPM_HASH = "75a9701efc298f130a13519aca357aaad69e57e37e46df1499225922aba4551e69b5e0ffada79f3b90a3e87aff0f4751039bce7e45d871922fe8fde4dab106f9"
 
 RPROVIDES:${PN} += "cppunit-devel \
-cppunit-devel(aarch-64) \
 libcppunit-devel \
-pkgconfig(cppunit)"
+pkgconfig-cppunit"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcppunit-1.15.so.1()(64bit) \
-libcppunit-1_15-1 \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcppunit-1-15-1 \
+libcppunit-1.15.so.1 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

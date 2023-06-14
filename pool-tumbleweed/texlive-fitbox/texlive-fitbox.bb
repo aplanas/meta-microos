@@ -11,7 +11,7 @@ RPM_NAME = "texlive-fitbox-2023.201.1.02svn50088-52.1.noarch.rpm"
 RPM_HASH = "958481d5beba511ad0f5e4a941dd085d189adcbbbbbefd0c04b21e136daeeea2fa3f92c53480bcebcca38cde46891804a28901e1a27a9566904108e0132c25ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fitbox.sty) \
+RPROVIDES:${PN} += "tex-fitbox.sty \
 texlive-fitbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xkeyval.sty) \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

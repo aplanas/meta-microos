@@ -20,13 +20,13 @@ RPM_NAME = "perl-Archive-Tar-Wrapper-0.38-1.12.noarch.rpm"
 RPM_HASH = "4134bbf5bf29c982ee08599813be91cc17b50aec453e49c5785fa3316005a1665bca278d5c621346527525eee626ecb904cb64a7832ab3fcb869323bb6de046a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Archive::Tar::Wrapper) \
+RPROVIDES:${PN} += "perl-Archive--Tar--Wrapper \
 perl-Archive-Tar-Wrapper"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(CPAN::Meta) \
-perl(File::Which) \
-perl(IPC::Run) \
-perl(Log::Log4perl)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-CPAN--Meta \
+perl-File--Which \
+perl-IPC--Run \
+perl-Log--Log4perl"
 
 inherit rpm

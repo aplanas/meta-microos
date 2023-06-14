@@ -13,13 +13,13 @@ RPM_HASH = "b1619929ec37a2f5d478bc30dab6975043e2b4217bb9bae90ca58c1b35dbf1ee02f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-addins-devel \
-pkgconfig(mono-addins) \
-pkgconfig(mono-addins-gui) \
-pkgconfig(mono-addins-msbuild) \
-pkgconfig(mono-addins-setup)"
+pkgconfig-mono-addins \
+pkgconfig-mono-addins-gui \
+pkgconfig-mono-addins-msbuild \
+pkgconfig-mono-addins-setup"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono-addins \
-pkgconfig(mono-addins)"
+pkgconfig-mono-addins"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "0ce2ebe0d68a3f2fb120982bb519e796c591a939b07c2872ac37b6aee9315e1919a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-snuggs \
-python3.10dist(snuggs) \
+python3.10dist-snuggs \
 python310-snuggs \
-python3dist(snuggs)"
+python3dist-snuggs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-pyparsing"
 

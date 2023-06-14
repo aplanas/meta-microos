@@ -14,10 +14,9 @@ PV = "1.6~3"
 RPM_NAME = "freedup-1.6~3-2.25.aarch64.rpm"
 RPM_HASH = "351d9aa7dc25465754983ef9f2d3c7308150e9472ec648157f743eec8e7a7f03848ac32a029c13bd30967f17a0a57b3c42b51217298e5045bdf34a25ab5fff69"
 
-RPROVIDES:${PN} += "freedup \
-freedup(aarch-64)"
+RPROVIDES:${PN} += "freedup"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

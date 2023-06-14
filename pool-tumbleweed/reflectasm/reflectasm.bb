@@ -14,15 +14,15 @@ RPM_NAME = "reflectasm-1.11.1-1.3.noarch.rpm"
 RPM_HASH = "ff712bf64d03182388b58f83fb7a7830472a9288395a46a30cb14458f1b8188706f50e8ffc6e1b3f9184c640d032559209cc37dc484328b49abd92a6beb3c964"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.esotericsoftware.reflectasm:reflectasm) \
-mvn(com.esotericsoftware.reflectasm:reflectasm:pom:) \
-mvn(com.esotericsoftware:reflectasm) \
-mvn(com.esotericsoftware:reflectasm:pom:) \
-osgi(com.esotericsoftware.reflectasm) \
+RPROVIDES:${PN} += "mvn-com.esotericsoftware-reflectasm \
+mvn-com.esotericsoftware-reflectasm-pom- \
+mvn-com.esotericsoftware.reflectasm-reflectasm \
+mvn-com.esotericsoftware.reflectasm-reflectasm-pom- \
+osgi-com.esotericsoftware.reflectasm \
 reflectasm"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.ow2.asm:asm)"
+mvn-org.ow2.asm-asm"
 
 inherit rpm

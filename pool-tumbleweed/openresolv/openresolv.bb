@@ -14,7 +14,7 @@ RPM_NAME = "openresolv-3.12.0-1.8.noarch.rpm"
 RPM_HASH = "d3fb1f02bad4655a7315bfd51df524a85a6fae3da9ba94a9ef4a5c53a6bc00bccd71db5586c8beda3d0344886380fe4089ee1a9a76d4df3610468f965619aade"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(openresolv) \
+RPROVIDES:${PN} += "config-openresolv \
 openresolv"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -10,11 +10,11 @@ RPM_HASH = "9bc5ba72b37fe1c7a0017415b71d159f760c92a1954eb2348ab6e1ead76e64ddd86c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hankel \
-python3.10dist(hankel) \
+python3.10dist-hankel \
 python310-hankel \
-python3dist(hankel)"
+python3dist-hankel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-mpmath \
 python310-numpy \
 python310-scipy"

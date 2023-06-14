@@ -13,13 +13,13 @@ RPM_HASH = "892eecaa57f2a31300a6069bb86655539ac8fd93698cd8d51b2d5a350dc1d58a0b6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-TermRecord \
-python3.10dist(termrecord) \
+python3.10dist-termrecord \
 python310-TermRecord \
-python3dist(termrecord)"
+python3dist-termrecord"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 update-alternatives"
 

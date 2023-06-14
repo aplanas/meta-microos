@@ -8,21 +8,20 @@ PV = "4.0.0"
 RPM_NAME = "liblalinference23-4.0.0-1.2.aarch64.rpm"
 RPM_HASH = "aa2103918986d00f215a6a10c388d31dfa1f73b26e965a76b417123971c32e792d54c1943644e7a686d66c4b4e500b56951b80bab651b623d30382edaa3170d7"
 
-RPROVIDES:${PN} += "liblalinference.so.23()(64bit) \
-liblalinference23 \
-liblalinference23(aarch-64)"
+RPROVIDES:${PN} += "liblalinference.so.23 \
+liblalinference23"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgsl.so.25()(64bit) \
-liblal.so.20()(64bit) \
-liblalburst.so.6()(64bit) \
-liblalframe.so.13()(64bit) \
-liblalinspiral.so.17()(64bit) \
-liblalmetaio.so.10()(64bit) \
-liblalsimulation.so.31()(64bit) \
-liblalsupport.so.14()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgsl.so.25 \
+liblal.so.20 \
+liblalburst.so.6 \
+liblalframe.so.13 \
+liblalinspiral.so.17 \
+liblalmetaio.so.10 \
+liblalsimulation.so.31 \
+liblalsupport.so.14 \
+libm.so.6"
 
 inherit rpm

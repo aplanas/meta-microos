@@ -11,15 +11,15 @@ RPM_NAME = "perl-Role-HasMessage-0.007-1.2.noarch.rpm"
 RPM_HASH = "584ce5917b1eed6c05c11405224c98d3aa218597c24a82f0036ad1fb3b556117f04e757129cc03142e5b217811c0abef4e98844667fbf9288e3d84441268539b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Role::HasMessage) \
-perl(Role::HasMessage::Errf) \
+RPROVIDES:${PN} += "perl-Role--HasMessage \
+perl-Role--HasMessage--Errf \
 perl-Role-HasMessage"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Moose::Role) \
-perl(MooseX::Role::Parameterized) \
-perl(String::Errf) \
-perl(Try::Tiny) \
-perl(namespace::clean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Moose--Role \
+perl-MooseX--Role--Parameterized \
+perl-String--Errf \
+perl-Try--Tiny \
+perl-namespace--clean"
 
 inherit rpm

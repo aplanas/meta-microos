@@ -9,11 +9,11 @@ RPM_HASH = "a29060718865b0df424a983112e5312ad7f4ea53c2e7ccefcb102b2540f3e41a0634
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-typeguard \
-python3.10dist(typeguard) \
+python3.10dist-typeguard \
 python310-typeguard \
-python3dist(typeguard)"
+python3dist-typeguard"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-importlib-metadata \
 python310-typing-extensions"
 

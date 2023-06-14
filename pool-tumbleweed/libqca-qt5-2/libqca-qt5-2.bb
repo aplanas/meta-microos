@@ -9,16 +9,14 @@ RPM_HASH = "f2321a99ecd440cd16ba2671e6f257c4540bc8075e9a07b0d7a7cb27f4a1b9895d8b
 
 RPROVIDES:${PN} += "libqca-qt5 \
 libqca-qt5-2 \
-libqca-qt5-2(aarch-64) \
-libqca-qt5.so.2()(64bit)"
+libqca-qt5.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 qca-qt5"
 
 inherit rpm

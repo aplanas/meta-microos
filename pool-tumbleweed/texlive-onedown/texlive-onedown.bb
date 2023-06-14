@@ -17,7 +17,7 @@ RPM_NAME = "texlive-onedown-2023.201.1.6svn59010-54.1.noarch.rpm"
 RPM_HASH = "e97b804a652d7ebdfebd4fd6c71c5796954512081ae3c257d1163bf5e4b22672357bf9e0fd35c98dd8cccaad6f0e1e1b7ec773004805ea94e7987a5e107d4f04"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(onedown.sty) \
+RPROVIDES:${PN} += "tex-onedown.sty \
 texlive-onedown"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
+tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -19,13 +19,12 @@ PV = "1.7"
 RPM_NAME = "amtterm-1.7-1.7.aarch64.rpm"
 RPM_HASH = "490cba78a767f7c58c447996c18d00738905ed7ef59f9e7aa934646c93524d4ee25e1faa7923490a17e4865634046573e0ad5a42a77b1e5e7565efb8779b3ccd"
 
-RPROVIDES:${PN} += "amtterm \
-amtterm(aarch-64)"
+RPROVIDES:${PN} += "amtterm"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
 perl-SOAP-Lite"
 
 inherit rpm

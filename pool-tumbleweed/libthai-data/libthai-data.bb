@@ -12,8 +12,7 @@ PV = "0.1.29"
 RPM_NAME = "libthai-data-0.1.29-1.6.aarch64.rpm"
 RPM_HASH = "4f59060ec4c3f25a8be462652525d028a31f6f14ae8acc086191e7ebd8e8ffb1020c00c5bcf710f7ef0a507206e5a5c964328200d4f09130d9b88c10cea00f05"
 
-RPROVIDES:${PN} += "libthai-data \
-libthai-data(aarch-64)"
+RPROVIDES:${PN} += "libthai-data"
 
 RDEPENDS:${PN} += ""
 

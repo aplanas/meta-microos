@@ -9,12 +9,11 @@ PV = "0.11"
 RPM_NAME = "perl-Crypt-UnixCrypt_XS-0.11-1.32.aarch64.rpm"
 RPM_HASH = "edf0263b7fff1172e8de0adf4d56d50a69e2d5599378781d39795e66cef9686a64f0d221cffe5703dbc64f20d37dac617a5512d6da149eb94c384fc4ba5c47ac"
 
-RPROVIDES:${PN} += "perl(Crypt::UnixCrypt_XS) \
-perl-Crypt-UnixCrypt_XS \
-perl-Crypt-UnixCrypt_XS(aarch-64)"
+RPROVIDES:${PN} += "perl-Crypt--UnixCrypt-XS \
+perl-Crypt-UnixCrypt-XS"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

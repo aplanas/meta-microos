@@ -13,10 +13,10 @@ RPM_NAME = "perl-Net-IDN-Nameprep-1.102-2.14.noarch.rpm"
 RPM_HASH = "59981e135107ae27be0e28b0b115e31828028de43c1627367691470ba8746c878a31b2e687b298363ffd908113ed3f1c2d81cb7e69e0a65dc7878d66ce681d1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::IDN::Nameprep) \
+RPROVIDES:${PN} += "perl-Net--IDN--Nameprep \
 perl-Net-IDN-Nameprep"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Unicode::Stringprep)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Unicode--Stringprep"
 
 inherit rpm

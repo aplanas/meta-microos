@@ -10,19 +10,18 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstValidate-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "e303e5a7c50bd428d1a3b3b9c953b5c0855527043d787c597635950ccdeb0e8494db92040f8cfdcde64033dc22709d241f9f1b3fef04001991876ce7d22df09b"
 
-RPROVIDES:${PN} += "typelib(GstValidate) \
-typelib-1_0-GstValidate-1_0 \
-typelib-1_0-GstValidate-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstValidate-1-0 \
+typelib-GstValidate"
 
-RDEPENDS:${PN} += "libgstvalidate-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(GstAudio) \
-typelib(GstBase) \
-typelib(GstPbutils) \
-typelib(GstVideo)"
+RDEPENDS:${PN} += "libgstvalidate-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio \
+typelib-Gst \
+typelib-GstAudio \
+typelib-GstBase \
+typelib-GstPbutils \
+typelib-GstVideo"
 
 inherit rpm

@@ -21,10 +21,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(Term::ANSIColor) \
-perl(strict) \
-perl(warnings) \
+perl-Getopt--Long \
+perl-Term--ANSIColor \
+perl-strict \
+perl-warnings \
 sed \
 texlive \
 texlive-filesystem \

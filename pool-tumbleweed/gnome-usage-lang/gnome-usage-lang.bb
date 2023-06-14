@@ -10,40 +10,40 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-usage-lang \
 gnome-usage-lang-all \
-locale(gnome-usage:ca) \
-locale(gnome-usage:cs) \
-locale(gnome-usage:da) \
-locale(gnome-usage:de) \
-locale(gnome-usage:el) \
-locale(gnome-usage:en_GB) \
-locale(gnome-usage:es) \
-locale(gnome-usage:eu) \
-locale(gnome-usage:fi) \
-locale(gnome-usage:fr) \
-locale(gnome-usage:fur) \
-locale(gnome-usage:gl) \
-locale(gnome-usage:he) \
-locale(gnome-usage:hr) \
-locale(gnome-usage:hu) \
-locale(gnome-usage:id) \
-locale(gnome-usage:it) \
-locale(gnome-usage:ja) \
-locale(gnome-usage:nb) \
-locale(gnome-usage:nl) \
-locale(gnome-usage:pl) \
-locale(gnome-usage:pt) \
-locale(gnome-usage:pt_BR) \
-locale(gnome-usage:ro) \
-locale(gnome-usage:ru) \
-locale(gnome-usage:sk) \
-locale(gnome-usage:sl) \
-locale(gnome-usage:sr) \
-locale(gnome-usage:sr@latin) \
-locale(gnome-usage:sv) \
-locale(gnome-usage:tr) \
-locale(gnome-usage:uk) \
-locale(gnome-usage:zh_CN) \
-locale(gnome-usage:zh_TW)"
+locale-gnome-usage-ca \
+locale-gnome-usage-cs \
+locale-gnome-usage-da \
+locale-gnome-usage-de \
+locale-gnome-usage-el \
+locale-gnome-usage-en-GB \
+locale-gnome-usage-es \
+locale-gnome-usage-eu \
+locale-gnome-usage-fi \
+locale-gnome-usage-fr \
+locale-gnome-usage-fur \
+locale-gnome-usage-gl \
+locale-gnome-usage-he \
+locale-gnome-usage-hr \
+locale-gnome-usage-hu \
+locale-gnome-usage-id \
+locale-gnome-usage-it \
+locale-gnome-usage-ja \
+locale-gnome-usage-nb \
+locale-gnome-usage-nl \
+locale-gnome-usage-pl \
+locale-gnome-usage-pt \
+locale-gnome-usage-pt-BR \
+locale-gnome-usage-ro \
+locale-gnome-usage-ru \
+locale-gnome-usage-sk \
+locale-gnome-usage-sl \
+locale-gnome-usage-sr \
+locale-gnome-usage-sr@latin \
+locale-gnome-usage-sv \
+locale-gnome-usage-tr \
+locale-gnome-usage-uk \
+locale-gnome-usage-zh-CN \
+locale-gnome-usage-zh-TW"
 
 RDEPENDS:${PN} += "gnome-usage"
 

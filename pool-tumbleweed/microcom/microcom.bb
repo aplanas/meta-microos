@@ -12,11 +12,10 @@ PV = "2019.01.0.11"
 RPM_NAME = "microcom-2019.01.0.11-1.2.aarch64.rpm"
 RPM_HASH = "ba15c0d0ad80ac06e736c0fa99621914c4c78a2b2dad83a28424176746f72fe7f5afe5b61e0caf1ca9a825f035727d3b5b481611c12e8af184af7881eae67820"
 
-RPROVIDES:${PN} += "microcom \
-microcom(aarch-64)"
+RPROVIDES:${PN} += "microcom"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8"
 
 inherit rpm

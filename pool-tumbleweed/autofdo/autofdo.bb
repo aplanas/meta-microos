@@ -14,14 +14,12 @@ PV = "0.18"
 RPM_NAME = "autofdo-0.18-5.6.aarch64.rpm"
 RPM_HASH = "bddeafe335b4263463a930bc3a7c39261085009fffc7717ab75009eb5b096e808d75fcf2fe4ba51e9449041219947526c9276d3d158c8fce411f146d1d13e3db"
 
-RPROVIDES:${PN} += "autofdo \
-autofdo(aarch-64)"
+RPROVIDES:${PN} += "autofdo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.13()(64bit) \
-libLLVM.so.13(LLVM_13)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libLLVM.so.13 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

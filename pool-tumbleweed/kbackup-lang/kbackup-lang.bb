@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbackup-lang \
 kbackup-lang-all \
-locale(kbackup:ar) \
-locale(kbackup:ca) \
-locale(kbackup:ca@valencia) \
-locale(kbackup:cs) \
-locale(kbackup:da) \
-locale(kbackup:de) \
-locale(kbackup:el) \
-locale(kbackup:en_GB) \
-locale(kbackup:es) \
-locale(kbackup:et) \
-locale(kbackup:eu) \
-locale(kbackup:fi) \
-locale(kbackup:fr) \
-locale(kbackup:gl) \
-locale(kbackup:ia) \
-locale(kbackup:it) \
-locale(kbackup:ja) \
-locale(kbackup:ka) \
-locale(kbackup:ko) \
-locale(kbackup:lt) \
-locale(kbackup:nl) \
-locale(kbackup:nn) \
-locale(kbackup:pl) \
-locale(kbackup:pt) \
-locale(kbackup:pt_BR) \
-locale(kbackup:ru) \
-locale(kbackup:sk) \
-locale(kbackup:sl) \
-locale(kbackup:sv) \
-locale(kbackup:tr) \
-locale(kbackup:uk) \
-locale(kbackup:zh_CN) \
-locale(kbackup:zh_TW)"
+locale-kbackup-ar \
+locale-kbackup-ca \
+locale-kbackup-ca@valencia \
+locale-kbackup-cs \
+locale-kbackup-da \
+locale-kbackup-de \
+locale-kbackup-el \
+locale-kbackup-en-GB \
+locale-kbackup-es \
+locale-kbackup-et \
+locale-kbackup-eu \
+locale-kbackup-fi \
+locale-kbackup-fr \
+locale-kbackup-gl \
+locale-kbackup-ia \
+locale-kbackup-it \
+locale-kbackup-ja \
+locale-kbackup-ka \
+locale-kbackup-ko \
+locale-kbackup-lt \
+locale-kbackup-nl \
+locale-kbackup-nn \
+locale-kbackup-pl \
+locale-kbackup-pt \
+locale-kbackup-pt-BR \
+locale-kbackup-ru \
+locale-kbackup-sk \
+locale-kbackup-sl \
+locale-kbackup-sv \
+locale-kbackup-tr \
+locale-kbackup-uk \
+locale-kbackup-zh-CN \
+locale-kbackup-zh-TW"
 
 RDEPENDS:${PN} += "kbackup"
 

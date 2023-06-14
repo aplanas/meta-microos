@@ -8,15 +8,14 @@ PV = "1.2.0"
 RPM_NAME = "php8-uuid-1.2.0-2.4.aarch64.rpm"
 RPM_HASH = "8aa9daa135458b1c8e7a48451c6197a5e8c146586690d6ac6ceec5b8b468be8a79550d5bbfaa3c8b1f0c5d98edf49588656b36a5110301feaa267e4d4564dacb"
 
-RPROVIDES:${PN} += "config(php8-uuid) \
+RPROVIDES:${PN} += "config-php8-uuid \
 php-uuid \
-php8-uuid \
-php8-uuid(aarch-64)"
+php8-uuid"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libuuid.so.1()(64bit) \
-php(api) \
-php(zend-abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libuuid.so.1 \
+php-api \
+php-zend-abi"
 
 inherit rpm

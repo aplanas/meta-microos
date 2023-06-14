@@ -16,12 +16,11 @@ PV = "2.40.2"
 RPM_NAME = "typelib-1_0-JavaScriptCore-4_1-2.40.2-1.1.aarch64.rpm"
 RPM_HASH = "3f4697322709183b33fdd4136f34361e1df5344d1ddf6885250579975103d8c5d412417550b3bf338ba53903316dbbe17e7c4434ed7b92e6da60fe96685973e1"
 
-RPROVIDES:${PN} += "typelib(JavaScriptCore) \
-typelib-1_0-JavaScriptCore-4_1 \
-typelib-1_0-JavaScriptCore-4_1(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-JavaScriptCore-4-1 \
+typelib-JavaScriptCore"
 
-RDEPENDS:${PN} += "libjavascriptcoregtk-4.1.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject)"
+RDEPENDS:${PN} += "libjavascriptcoregtk-4.1.so.0 \
+typelib-GLib \
+typelib-GObject"
 
 inherit rpm

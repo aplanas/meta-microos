@@ -16,17 +16,16 @@ PV = "1.1.6"
 RPM_NAME = "libkolabxml1-1.1.6-13.11.aarch64.rpm"
 RPM_HASH = "8d51bb8b85a6dbda69a7ab6285f7c444d66abaf5b672397b016c1bdef12e205a35359b3937a9b8cb88b8a8d9dfb4098cc74ac77a352482f9b4f22a502fd5c1f6"
 
-RPROVIDES:${PN} += "libkolabxml.so.1()(64bit) \
-libkolabxml1 \
-libkolabxml1(aarch-64)"
+RPROVIDES:${PN} += "libkolabxml.so.1 \
+libkolabxml1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxerces-c-3.2.so()(64bit)"
+ld-linux-aarch64.so.1 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxerces-c-3.2.so"
 
 inherit rpm

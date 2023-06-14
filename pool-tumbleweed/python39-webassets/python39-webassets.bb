@@ -10,13 +10,13 @@ RPM_NAME = "python39-webassets-2.0-3.11.noarch.rpm"
 RPM_HASH = "dbbe03b5f542db940d3a5d48bdf5c62370d91d047badf5037511fef8f91e8347e6c8bb1ec121e4ef088cf5808ee47c4443a0345e3cdaf68a9ff3fe292a5990c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(webassets) \
+RPROVIDES:${PN} += "python3.9dist-webassets \
 python39-webassets \
-python3dist(webassets)"
+python3dist-webassets"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

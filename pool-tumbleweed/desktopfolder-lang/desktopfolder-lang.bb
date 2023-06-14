@@ -10,29 +10,29 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "desktopfolder-lang \
 desktopfolder-lang-all \
-locale(desktopfolder:bg) \
-locale(desktopfolder:ca) \
-locale(desktopfolder:cs) \
-locale(desktopfolder:da) \
-locale(desktopfolder:de_DE) \
-locale(desktopfolder:en_GB) \
-locale(desktopfolder:eo) \
-locale(desktopfolder:es) \
-locale(desktopfolder:fi) \
-locale(desktopfolder:fr) \
-locale(desktopfolder:fr_FR) \
-locale(desktopfolder:hu) \
-locale(desktopfolder:it) \
-locale(desktopfolder:ja) \
-locale(desktopfolder:lt) \
-locale(desktopfolder:oc) \
-locale(desktopfolder:pl) \
-locale(desktopfolder:pt_BR) \
-locale(desktopfolder:pt_PT) \
-locale(desktopfolder:ru) \
-locale(desktopfolder:tr) \
-locale(desktopfolder:uk) \
-locale(desktopfolder:zh_CN)"
+locale-desktopfolder-bg \
+locale-desktopfolder-ca \
+locale-desktopfolder-cs \
+locale-desktopfolder-da \
+locale-desktopfolder-de-DE \
+locale-desktopfolder-en-GB \
+locale-desktopfolder-eo \
+locale-desktopfolder-es \
+locale-desktopfolder-fi \
+locale-desktopfolder-fr \
+locale-desktopfolder-fr-FR \
+locale-desktopfolder-hu \
+locale-desktopfolder-it \
+locale-desktopfolder-ja \
+locale-desktopfolder-lt \
+locale-desktopfolder-oc \
+locale-desktopfolder-pl \
+locale-desktopfolder-pt-BR \
+locale-desktopfolder-pt-PT \
+locale-desktopfolder-ru \
+locale-desktopfolder-tr \
+locale-desktopfolder-uk \
+locale-desktopfolder-zh-CN"
 
 RDEPENDS:${PN} += "desktopfolder"
 

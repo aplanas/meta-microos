@@ -73,10 +73,9 @@ RPM_NAME = "perl-Switch-2.17-1.27.noarch.rpm"
 RPM_HASH = "ad295f013e52f5be2d9ac82849b4840f07ae4dc3cd30a37f6d2b7345854e33900086d94af83e9d041ea35fa4db3a38ea920cca5738bae52676934868d77c15af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Switch) \
-perl-Switch"
+RPROVIDES:${PN} += "perl-Switch"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Text::Balanced)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Text--Balanced"
 
 inherit rpm

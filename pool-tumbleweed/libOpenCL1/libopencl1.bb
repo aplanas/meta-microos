@@ -13,14 +13,13 @@ PV = "2.3.1"
 RPM_NAME = "libOpenCL1-2.3.1-2.1.aarch64.rpm"
 RPM_HASH = "2e290d008259d319f83f66914f76a1a0549820fb9d70fc47739cd478e29f5d8fddce9c469997336bffdbb105226bfa263d854b834e6b6da11f5d353f8a5a781d"
 
-RPROVIDES:${PN} += "libOpenCL.so.1()(64bit) \
-libOpenCL1 \
-libOpenCL1(aarch-64)"
+RPROVIDES:${PN} += "libOpenCL.so.1 \
+libOpenCL1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 update-alternatives"
 
 inherit rpm

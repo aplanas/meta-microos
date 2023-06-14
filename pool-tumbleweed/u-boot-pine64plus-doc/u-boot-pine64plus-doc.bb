@@ -8,8 +8,7 @@ PV = "2023.04"
 RPM_NAME = "u-boot-pine64plus-doc-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "3a8899d59bcfebf9187f36778c78f82eedf205255761975fba811526007a38489f893ac2d9303d91b1e67047d95a7724834432dd55fae67e54afb76935f5e64a"
 
-RPROVIDES:${PN} += "u-boot-pine64plus-doc \
-u-boot-pine64plus-doc(aarch-64)"
+RPROVIDES:${PN} += "u-boot-pine64plus-doc"
 
 RDEPENDS:${PN} += ""
 

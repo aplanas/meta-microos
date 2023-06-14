@@ -8,13 +8,12 @@ PV = "0.6.13"
 RPM_NAME = "libcroco-0.6.13-5.3.aarch64.rpm"
 RPM_HASH = "86acc8bd8e0564a4aa1bf8ed9b8be1162fcf60db2c5fd29169759808ba8799fb8cbf6d8b235436cf1b6e290ff1f0cec8df0b6978d345ca3ff17dc1356734ded6"
 
-RPROVIDES:${PN} += "libcroco \
-libcroco(aarch-64)"
+RPROVIDES:${PN} += "libcroco"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcroco-0.6.so.3()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcroco-0.6.so.3 \
+libglib-2.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

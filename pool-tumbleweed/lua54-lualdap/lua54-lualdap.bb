@@ -8,13 +8,12 @@ RPM_NAME = "lua54-lualdap-1.3.0-2.2.aarch64.rpm"
 RPM_HASH = "ce2413e6a37c13724362cf895b3b882942d30aba06decc3c1e2af68fb51277d030806ee9ef0f099c1655d71ddbf752953103c80ef357120dc52ddbc7f9081c41"
 
 RPROVIDES:${PN} += "lua-lualdap \
-lua54-lualdap \
-lua54-lualdap(aarch-64)"
+lua54-lualdap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblber.so.2 \
+libldap.so.2 \
 lua54"
 
 inherit rpm

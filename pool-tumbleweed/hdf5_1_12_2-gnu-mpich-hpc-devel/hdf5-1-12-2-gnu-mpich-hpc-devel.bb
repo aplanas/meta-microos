@@ -11,26 +11,24 @@ PV = "1.12.2"
 RPM_NAME = "hdf5_1_12_2-gnu-mpich-hpc-devel-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "73eff26d9985145037872431826a80101baa9980c81f3b787be519081bda46e3ef8556107685e7234ad8ca65aee2637380549b3c13078201e57bf2abfe19cc36"
 
-RPROVIDES:${PN} += "hdf5_1_12_2-gnu-mpich-hpc-devel \
-hdf5_1_12_2-gnu-mpich-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "hdf5-1-12-2-gnu-mpich-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
-hdf5_1_12_2-gnu-mpich-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libhdf5_1_12_2-gnu-mpich-hpc \
-libhdf5_cpp_1_12_2-gnu-mpich-hpc \
-libhdf5_fortran_1_12_2-gnu-mpich-hpc \
-libhdf5_hl_1_12_2-gnu-mpich-hpc \
-libhdf5_hl_cpp_1_12_2-gnu-mpich-hpc \
-libhdf5hl_fortran_1_12_2-gnu-mpich-hpc \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+hdf5-1-12-2-gnu-mpich-hpc \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libhdf5-1-12-2-gnu-mpich-hpc \
+libhdf5-cpp-1-12-2-gnu-mpich-hpc \
+libhdf5-fortran-1-12-2-gnu-mpich-hpc \
+libhdf5-hl-1-12-2-gnu-mpich-hpc \
+libhdf5-hl-cpp-1-12-2-gnu-mpich-hpc \
+libhdf5hl-fortran-1-12-2-gnu-mpich-hpc \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1 \
 mpich-gnu-hpc-devel \
 zlib-devel"
 

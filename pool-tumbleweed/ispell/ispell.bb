@@ -26,7 +26,6 @@ RPM_NAME = "ispell-3.4.05-1.3.aarch64.rpm"
 RPM_HASH = "f5dc02e0cf5bc4d701aac024e2b5d979ac232ca460bbb0bef5ab4f454bd0673a50cf0ba626b912bb0ddfe1355b24a6b782ded0895bde5e077083e706026a2a74"
 
 RPROVIDES:${PN} += "ispell \
-ispell(aarch-64) \
 spell"
 
 RDEPENDS:${PN} += "/bin/bash \
@@ -34,11 +33,11 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ispell_dictionary \
-ispell_english_dictionary \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
+ispell-dictionary \
+ispell-english-dictionary \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6 \
 words"
 
 inherit rpm

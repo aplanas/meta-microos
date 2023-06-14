@@ -9,13 +9,13 @@ RPM_HASH = "5f1d80dfe46a0b97eb9cd551dc47c2f071d0c8e375c864fedadd04f43b8879525703
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-autobuild \
-python3.10dist(sphinx-autobuild) \
+python3.10dist-sphinx-autobuild \
 python310-sphinx-autobuild \
-python3dist(sphinx-autobuild)"
+python3dist-sphinx-autobuild"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Sphinx \
 python310-colorama \
 python310-livereload \

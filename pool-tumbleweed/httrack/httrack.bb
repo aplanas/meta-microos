@@ -18,16 +18,12 @@ PV = "3.49.2"
 RPM_NAME = "httrack-3.49.2-2.8.aarch64.rpm"
 RPM_HASH = "e9b57b8202530c872863c7899e3695649eb71074562b6af18e77f07fb53f7fd6825470ddcf9d5847959d1c7b2d85c500d5702491092b2ba3c9e2ba627e54fa6e"
 
-RPROVIDES:${PN} += "application() \
-application(WebHTTrack-Websites.desktop) \
-application(WebHTTrack.desktop) \
-httrack \
-httrack(aarch-64)"
+RPROVIDES:${PN} += "httrack"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhttrack.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhttrack.so.2 \
+libz.so.1"
 
 inherit rpm

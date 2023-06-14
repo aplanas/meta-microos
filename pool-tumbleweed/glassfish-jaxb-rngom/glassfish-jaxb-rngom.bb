@@ -9,11 +9,11 @@ RPM_HASH = "52ea80b8f28a5995c0a1641ead02dc6fd748aa8f54d806b740b4943d945534d8f87a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-rngom \
-mvn(com.sun.xml.bind.external:rngom) \
-mvn(com.sun.xml.bind.external:rngom:pom:)"
+mvn-com.sun.xml.bind.external-rngom \
+mvn-com.sun.xml.bind.external-rngom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.xml.bind.external:relaxng-datatype)"
+mvn-com.sun.xml.bind.external-relaxng-datatype"
 
 inherit rpm

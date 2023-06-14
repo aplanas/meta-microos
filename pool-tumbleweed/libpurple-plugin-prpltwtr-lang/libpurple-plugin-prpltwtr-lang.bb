@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-prpltwtr-lang \
 libpurple-plugin-prpltwtr-lang-all \
-locale(libpurple-plugin-prpltwtr:es) \
-locale(libpurple-plugin-prpltwtr:ja)"
+locale-libpurple-plugin-prpltwtr-es \
+locale-libpurple-plugin-prpltwtr-ja"
 
 RDEPENDS:${PN} += "libpurple-plugin-prpltwtr"
 

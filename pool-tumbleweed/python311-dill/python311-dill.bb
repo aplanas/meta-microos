@@ -16,13 +16,13 @@ RPM_NAME = "python311-dill-0.3.6-3.1.noarch.rpm"
 RPM_HASH = "bb65cee05a8176b8938be8e78addd99971c8ef13b984d8c373700c5122909c21e52e6e5a7b1c4535dfbd847c5712013ae0acf89faeaf98b5f08d43f3725d85f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dill) \
+RPROVIDES:${PN} += "python3.11dist-dill \
 python311-dill \
-python3dist(dill)"
+python3dist-dill"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

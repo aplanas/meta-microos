@@ -11,7 +11,7 @@ RPM_NAME = "texlive-upzhkinsoku-2023.201.0.0.5svn47354-53.1.noarch.rpm"
 RPM_HASH = "c1219917be652ebbdc9377a82a2b59d4a39633d5ace9fc91257157b3db5371b5299100a6e810ce05f340e5f6c60fbd9dc3928247ef4f06d0239095302d4a700d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(upzhkinsoku.sty) \
+RPROVIDES:${PN} += "tex-upzhkinsoku.sty \
 texlive-upzhkinsoku"
 
 RDEPENDS:${PN} += "/bin/sh \

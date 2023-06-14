@@ -16,7 +16,7 @@ RPM_NAME = "texlive-algobox-2023.201.1.3svn52204-54.1.noarch.rpm"
 RPM_HASH = "e72825ca0a24c1399f8b948e484adae44ed1a2485f90cf56471cf2652e858e7fc13a0d931f940af2bb3d928bf254eda181495ef21bf676763b312c2dfa6dd827"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(algobox.sty) \
+RPROVIDES:${PN} += "tex-algobox.sty \
 texlive-algobox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,11 +25,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(environ.sty) \
-tex(expl3.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-environ.sty \
+tex-expl3.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

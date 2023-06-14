@@ -7,22 +7,17 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libqt5-qtxmlpatterns-imports-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "04559ba7c4a8eba66f678cec07cf26427a3b90eaf9404fcfcc3a3a306d91950af81e4d7bae72543dc0f2167cc29cf973c54978781b28ba15cb3597128a47cd1f"
 
-RPROVIDES:${PN} += "libqmlxmllistmodelplugin.so()(64bit) \
+RPROVIDES:${PN} += "libqmlxmllistmodelplugin.so \
 libqt5-qtxmlpatterns-imports \
-libqt5-qtxmlpatterns-imports(aarch-64) \
-qt5qmlimport(QtQuick.XmlListModel.2)"
+qt5qmlimport-QtQuick.XmlListModel.2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5XmlPatterns.so.5()(64bit) \
-libQt5XmlPatterns.so.5(Qt_5)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5XmlPatterns.so.5 \
 libQt5XmlPatterns5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,12 +10,11 @@ PV = "0.3.2"
 RPM_NAME = "libvterm0-0.3.2-1.1.aarch64.rpm"
 RPM_HASH = "ec350d979d482d709141dcb35043f999d02282cdf5c7a0a8e19536e52d34e3bbee69922138e89b574e6f903f88a577907ce6aec4f4c0d74be8cc8957b248b49c"
 
-RPROVIDES:${PN} += "libvterm.so.0()(64bit) \
-libvterm0 \
-libvterm0(aarch-64)"
+RPROVIDES:${PN} += "libvterm.so.0 \
+libvterm0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

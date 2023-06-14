@@ -14,10 +14,10 @@ RPM_NAME = "perl-Object-Signature-1.08-1.17.noarch.rpm"
 RPM_HASH = "3aca19922a8fce8b30542867801ba6eced12217a2f1d825ac12d59a8045e54ed9aba294927be97482f456555793b6c10444d9d20780469d76950f82d927fe9cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Object::Signature) \
-perl(Object::Signature::File) \
+RPROVIDES:${PN} += "perl-Object--Signature \
+perl-Object--Signature--File \
 perl-Object-Signature"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -9,9 +9,8 @@ RPM_NAME = "hub-2.14.2-1.18.aarch64.rpm"
 RPM_HASH = "f79a2024d808a52a2c61e043338badebffd5fbefb6afe59a7acf1d38afb4e5098573c3b4d18097530f2527374fd94857a6d72b6d5cb2d93dcac6655ac261fe58"
 
 RPROVIDES:${PN} += "hub \
-hub(aarch-64) \
 rubygem-hub"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

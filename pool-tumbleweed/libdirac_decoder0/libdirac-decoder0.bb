@@ -16,15 +16,14 @@ PV = "1.0.2"
 RPM_NAME = "libdirac_decoder0-1.0.2-33.27.aarch64.rpm"
 RPM_HASH = "f7246d17bc642c606fc963f09a3791ee0a2014799592abd7c0e5ff46ef7039c954b5b33795ce9ed02609dc0d5d1061fc5dbdaff1e934ca5b094ff28bc3a2b6d4"
 
-RPROVIDES:${PN} += "libdirac_decoder.so.0()(64bit) \
-libdirac_decoder0 \
-libdirac_decoder0(aarch-64)"
+RPROVIDES:${PN} += "libdirac-decoder.so.0 \
+libdirac-decoder0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

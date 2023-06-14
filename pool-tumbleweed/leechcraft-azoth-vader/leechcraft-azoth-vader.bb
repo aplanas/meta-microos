@@ -24,29 +24,23 @@ RPM_HASH = "8ba773c547a2d5556335ec00e8d9a90013858d7a5ab5783e72975ab9a8688a36e008
 
 RPROVIDES:${PN} += "leechcraft-azoth-protocolplugin \
 leechcraft-azoth-vader \
-leechcraft-azoth-vader(aarch-64) \
-libleechcraft_azoth_vader.so()(64bit)"
+libleechcraft-azoth-vader.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-db-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sll-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-sys-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libleechcraft-xsd-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-db-qt5.so.0.6.75.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-sll-qt5.so.0.6.75.1 \
+libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-xsd-qt5.so.0.6.75.2 \
+libstdc++.so.6"
 
 inherit rpm

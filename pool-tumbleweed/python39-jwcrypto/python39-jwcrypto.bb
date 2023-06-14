@@ -14,11 +14,11 @@ RPM_NAME = "python39-jwcrypto-1.4.2-1.3.noarch.rpm"
 RPM_HASH = "e98ff56f2f950783d4d4a50c92c7e6be97b9e0dc24163932ed051a452703d420881723eb07b87f70cf89a4419c14159e8fa171337c06c52a5b6bc3aed883c227"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(jwcrypto) \
+RPROVIDES:${PN} += "python3.9dist-jwcrypto \
 python39-jwcrypto \
-python3dist(jwcrypto)"
+python3dist-jwcrypto"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Deprecated \
 python39-cryptography"
 

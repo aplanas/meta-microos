@@ -9,14 +9,13 @@ RPM_NAME = "appx-util-0.4-2.4.aarch64.rpm"
 RPM_HASH = "928ad3e20b72f939ad3fd45ed1262c19c9385d075be35d1463cb18c2fd1e012f66a5ff5e78cfc43c8509ca4f1e17a0061ccb8dcd01273220c70873f54558acab"
 
 RPROVIDES:${PN} += "appx-util \
-appx-util(aarch-64) \
 fb-util-for-appx"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

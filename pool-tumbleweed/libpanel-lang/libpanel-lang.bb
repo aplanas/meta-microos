@@ -10,42 +10,42 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpanel-lang \
 libpanel-lang-all \
-locale(libpanel:be) \
-locale(libpanel:bg) \
-locale(libpanel:ca) \
-locale(libpanel:cs) \
-locale(libpanel:da) \
-locale(libpanel:de) \
-locale(libpanel:el) \
-locale(libpanel:es) \
-locale(libpanel:eu) \
-locale(libpanel:fa) \
-locale(libpanel:fi) \
-locale(libpanel:fr) \
-locale(libpanel:fur) \
-locale(libpanel:gl) \
-locale(libpanel:he) \
-locale(libpanel:hr) \
-locale(libpanel:hu) \
-locale(libpanel:id) \
-locale(libpanel:is) \
-locale(libpanel:it) \
-locale(libpanel:ka) \
-locale(libpanel:ko) \
-locale(libpanel:lt) \
-locale(libpanel:ne) \
-locale(libpanel:nl) \
-locale(libpanel:oc) \
-locale(libpanel:pl) \
-locale(libpanel:pt) \
-locale(libpanel:pt_BR) \
-locale(libpanel:ru) \
-locale(libpanel:sl) \
-locale(libpanel:sr) \
-locale(libpanel:sv) \
-locale(libpanel:tr) \
-locale(libpanel:uk) \
-locale(libpanel:zh_CN)"
+locale-libpanel-be \
+locale-libpanel-bg \
+locale-libpanel-ca \
+locale-libpanel-cs \
+locale-libpanel-da \
+locale-libpanel-de \
+locale-libpanel-el \
+locale-libpanel-es \
+locale-libpanel-eu \
+locale-libpanel-fa \
+locale-libpanel-fi \
+locale-libpanel-fr \
+locale-libpanel-fur \
+locale-libpanel-gl \
+locale-libpanel-he \
+locale-libpanel-hr \
+locale-libpanel-hu \
+locale-libpanel-id \
+locale-libpanel-is \
+locale-libpanel-it \
+locale-libpanel-ka \
+locale-libpanel-ko \
+locale-libpanel-lt \
+locale-libpanel-ne \
+locale-libpanel-nl \
+locale-libpanel-oc \
+locale-libpanel-pl \
+locale-libpanel-pt \
+locale-libpanel-pt-BR \
+locale-libpanel-ru \
+locale-libpanel-sl \
+locale-libpanel-sr \
+locale-libpanel-sv \
+locale-libpanel-tr \
+locale-libpanel-uk \
+locale-libpanel-zh-CN"
 
 RDEPENDS:${PN} += "libpanel"
 

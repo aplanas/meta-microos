@@ -13,12 +13,11 @@ RPM_HASH = "994afe4e760422a7e37fe25db004bdbe6dd09d8fc78c6cc6cb573913fb64a05f9d35
 
 RPROVIDES:${PN} += "/bin/bash \
 bash \
-bash(aarch-64) \
-config(bash)"
+config-bash"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8 \
 libreadline8"
 
 inherit rpm

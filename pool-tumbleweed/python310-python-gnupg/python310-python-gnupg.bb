@@ -11,12 +11,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gnupg \
 python3-python-gnupg \
-python3.10dist(python-gnupg) \
+python3.10dist-python-gnupg \
 python310-gnupg \
 python310-python-gnupg \
-python3dist(python-gnupg)"
+python3dist-python-gnupg"
 
 RDEPENDS:${PN} += "gpg2 \
-python(abi)"
+python-abi"
 
 inherit rpm

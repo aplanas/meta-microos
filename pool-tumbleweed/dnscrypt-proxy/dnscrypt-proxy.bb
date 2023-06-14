@@ -9,15 +9,14 @@ PV = "2.1.4"
 RPM_NAME = "dnscrypt-proxy-2.1.4-1.4.aarch64.rpm"
 RPM_HASH = "7f66c23085bc9e3e159c125d7bb465f95bbb14b552fc42d538a6ef356e672f789db4390ab975c4233c9f589e344a891741d242a0582085a3b2e130dc0ef3b1d4"
 
-RPROVIDES:${PN} += "config(dnscrypt-proxy) \
+RPROVIDES:${PN} += "config-dnscrypt-proxy \
 dnscrypt \
-dnscrypt-proxy \
-dnscrypt-proxy(aarch-64)"
+dnscrypt-proxy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 bash \
-libc.so.6()(64bit) \
+libc.so.6 \
 shadow \
 systemd"
 

@@ -43,13 +43,13 @@ RPM_NAME = "python311-Unidecode-1.3.6-1.4.noarch.rpm"
 RPM_HASH = "8b397a6f659a7fff3223bcdc39bdfd161423215fc4415bc6e5ba653624de3c32a9b15b7c2aa0b9c6d48194e495a427eac442ae7faef3988ffb9797d6d6a6ac6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(unidecode) \
+RPROVIDES:${PN} += "python3.11dist-unidecode \
 python311-Unidecode \
-python3dist(unidecode)"
+python3dist-unidecode"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

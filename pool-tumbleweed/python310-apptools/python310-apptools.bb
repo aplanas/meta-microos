@@ -13,11 +13,11 @@ RPM_HASH = "10cb379a6251d1542caf3add6285495e652406c6182e68c5af895ec3210c5f17f2a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-apptools \
-python3.10dist(apptools) \
+python3.10dist-apptools \
 python310-apptools \
-python3dist(apptools)"
+python3dist-apptools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-configobj \
 python310-traits"
 

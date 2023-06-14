@@ -9,10 +9,9 @@ PV = "1.1"
 RPM_NAME = "par-1.1-190.15.aarch64.rpm"
 RPM_HASH = "1fe612faf7383b6d25c7e0d679fd81534c0909baa426bbe9942774a7692e9968e1df4e46d8506506ffafa5d07d984cb431d2d347042f71a99adc6baed9a2c26b"
 
-RPROVIDES:${PN} += "par \
-par(aarch-64)"
+RPROVIDES:${PN} += "par"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

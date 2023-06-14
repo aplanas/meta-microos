@@ -9,13 +9,13 @@ RPM_HASH = "d1e046eb35dffc841bf2e0ed0baef735f77bb2e2b67ce5f58af6651d616c7344b663
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pingparsing \
-python3.10dist(pingparsing) \
+python3.10dist-pingparsing \
 python310-pingparsing \
-python3dist(pingparsing)"
+python3dist-pingparsing"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-humanreadable \
 python310-loguru \
 python310-pyparsing \

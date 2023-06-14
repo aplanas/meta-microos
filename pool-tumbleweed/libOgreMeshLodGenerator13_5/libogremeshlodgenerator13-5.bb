@@ -8,16 +8,15 @@ PV = "13.5.3"
 RPM_NAME = "libOgreMeshLodGenerator13_5-13.5.3-1.5.aarch64.rpm"
 RPM_HASH = "a966a5324f7b39b9da97043878af2100b55e38804d4b5e56b4e50f893b46c3ce1e19c4243991c1970861cbd1c10ba4d8e7ea8d7c7bb8f2f031a68da02bf23df7"
 
-RPROVIDES:${PN} += "libOgreMeshLodGenerator.so.13.5()(64bit) \
-libOgreMeshLodGenerator13_5 \
-libOgreMeshLodGenerator13_5(aarch-64)"
+RPROVIDES:${PN} += "libOgreMeshLodGenerator.so.13.5 \
+libOgreMeshLodGenerator13-5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOgreMain.so.13.5()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOgreMain.so.13.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

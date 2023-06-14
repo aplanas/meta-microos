@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-mgmt-purview-1.0.0-1.8.noarch.rpm"
 RPM_HASH = "8d6e8ae9bddd455d22d0791b1feacb328f166de71a53babf07add2953726617f87788832e5c566711f08aebb05d4ae1e5dc65335d92763bf2a8cf10aea6c0988"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-purview) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-purview \
 python39-azure-mgmt-purview \
-python3dist(azure-mgmt-purview)"
+python3dist-azure-mgmt-purview"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

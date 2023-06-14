@@ -14,13 +14,13 @@ RPM_NAME = "texlive-langnames-2023.201.2.1svn65502-55.1.noarch.rpm"
 RPM_HASH = "172ca378a5b81a13579e35e37692a78c055c14f689c99750350b94e192f9f2853b217870bc5c15daa1b7e02a4cc03c1e451a01d56b9f1a0fe2b999df6c306b38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(langnames.sty) \
-tex(ln_fams_glot.tex) \
-tex(ln_fams_wals.tex) \
-tex(ln_langs_glot.tex) \
-tex(ln_langs_glot_native.tex) \
-tex(ln_langs_wals.tex) \
-tex(ln_langs_wals_native.tex) \
+RPROVIDES:${PN} += "tex-langnames.sty \
+tex-ln-fams-glot.tex \
+tex-ln-fams-wals.tex \
+tex-ln-langs-glot-native.tex \
+tex-ln-langs-glot.tex \
+tex-ln-langs-wals-native.tex \
+tex-ln-langs-wals.tex \
 texlive-langnames"
 
 RDEPENDS:${PN} += "/bin/sh \

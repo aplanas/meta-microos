@@ -20,31 +20,29 @@ PV = "1.7.8"
 RPM_NAME = "libIL1-1.7.8-11.11.aarch64.rpm"
 RPM_HASH = "4fe69daef8af54c38dd3e0adc41b828ec37611e1ea17e15f02d65fdc98cc2c8ab49b43c704d9052242ae3d2201861c293948d2cb878d615314b3b56261e6d645"
 
-RPROVIDES:${PN} += "libIL.so.1()(64bit) \
+RPROVIDES:${PN} += "libIL.so.1 \
 libIL1 \
-libIL1(aarch-64) \
-libILU.so.1()(64bit) \
-libILUT.so.1()(64bit) \
+libILU.so.1 \
+libILUT.so.1 \
 libdevil1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libmng.so.2()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLU.so.1 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libSDL-1.2.so.0 \
+libX11.so.6 \
+libXext.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libm.so.6 \
+libmng.so.2 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtiff.so.6"
 
 inherit rpm

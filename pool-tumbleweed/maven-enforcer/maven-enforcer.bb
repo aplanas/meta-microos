@@ -9,10 +9,10 @@ RPM_HASH = "c81a9e7230471974216cd9b69739b79084c1d1b14bfbcd5f0c59aad93ed2a9547a3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-enforcer \
-mvn(org.apache.maven.enforcer:enforcer:pom:)"
+mvn-org.apache.maven.enforcer-enforcer-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-parent:pom:)"
+mvn-org.apache.maven-maven-parent-pom-"
 
 inherit rpm

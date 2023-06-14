@@ -10,11 +10,11 @@ RPM_HASH = "4aeeb40f5f9a7ac5ce78655ccc37e1aab1b2953a14e51f926b216bafc3f8057e1b36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geomdl \
-python3.10dist(geomdl) \
+python3.10dist-geomdl \
 python310-geomdl \
-python3dist(geomdl)"
+python3dist-geomdl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-plotly"

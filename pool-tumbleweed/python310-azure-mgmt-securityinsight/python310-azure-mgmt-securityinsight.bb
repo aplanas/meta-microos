@@ -11,11 +11,11 @@ RPM_HASH = "222ed13737fc18144b9f9640c6c0f204ce6dc1535dd776d2f9ba6ca959961ba9e406
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-securityinsight \
-python3.10dist(azure-mgmt-securityinsight) \
+python3.10dist-azure-mgmt-securityinsight \
 python310-azure-mgmt-securityinsight \
-python3dist(azure-mgmt-securityinsight)"
+python3dist-azure-mgmt-securityinsight"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

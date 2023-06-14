@@ -42,17 +42,16 @@ RPM_NAME = "perl-PAR-1.018-1.2.noarch.rpm"
 RPM_HASH = "0f35bbf8b3b8e9b3046772308bb6b7663e753ca13ad7646b7a95cdcc3c25ceeedbbf61b6924b14e0dfb048b3e8a103092acd25db31f2ede3e833d363fed7b1fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(PAR) \
-perl(PAR::Heavy) \
-perl(PAR::SetupProgname) \
-perl(PAR::SetupTemp) \
-perl-PAR"
+RPROVIDES:${PN} += "perl-PAR \
+perl-PAR--Heavy \
+perl-PAR--SetupProgname \
+perl-PAR--SetupTemp"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Archive::Zip) \
-perl(AutoLoader) \
-perl(Compress::Zlib) \
-perl(Digest::SHA) \
-perl(PAR::Dist)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Archive--Zip \
+perl-AutoLoader \
+perl-Compress--Zlib \
+perl-Digest--SHA \
+perl-PAR--Dist"
 
 inherit rpm

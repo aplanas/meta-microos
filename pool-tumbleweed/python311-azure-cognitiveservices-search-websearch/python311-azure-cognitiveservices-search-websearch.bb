@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-cognitiveservices-search-websearch-2.0.0-2.11.noarch
 RPM_HASH = "ace38cf10bac81bd4a81de7aecc8b67e79932f0e757a501f6f66bd626958961252147e1fd86ff133d28dcae48072ae1438929037d5a7efdf2194abd5559f0287"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-search-websearch) \
+RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-websearch \
 python311-azure-cognitiveservices-search-websearch \
-python3dist(azure-cognitiveservices-search-websearch)"
+python3dist-azure-cognitiveservices-search-websearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-cognitiveservices-search-nspkg \
 python311-azure-common \

@@ -12,13 +12,12 @@ PV = "1.1"
 RPM_NAME = "mccs-1.1-2.8.aarch64.rpm"
 RPM_HASH = "831585a172b3b337dd42bc2407bf6ef49cca4cc4762f9d669c6264242ed1812012b7396599bc66fc71933d3437c9b3234de2442abc863163adfce46eef799682"
 
-RPROVIDES:${PN} += "mccs \
-mccs(aarch-64)"
+RPROVIDES:${PN} += "mccs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblpsolve55.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+liblpsolve55.so.0 \
+libstdc++.so.6"
 
 inherit rpm

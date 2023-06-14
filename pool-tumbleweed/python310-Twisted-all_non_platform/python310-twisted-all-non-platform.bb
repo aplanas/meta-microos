@@ -11,8 +11,8 @@ RPM_NAME = "python310-Twisted-all_non_platform-22.10.0-6.1.noarch.rpm"
 RPM_HASH = "3792ded5238e96b9a3e0d5558143fd827cc1744c4d2472c55cd768135d957baae767b22d9178349b994fdcb4c96a2684a4ec4fc60d595629a6a368a5ad0df5fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Twisted-all_non_platform \
-python310-Twisted-all_non_platform"
+RPROVIDES:${PN} += "python3-Twisted-all-non-platform \
+python310-Twisted-all-non-platform"
 
 RDEPENDS:${PN} += "python310-PyHamcrest \
 python310-Twisted-conch \

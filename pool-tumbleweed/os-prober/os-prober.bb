@@ -9,15 +9,14 @@ PV = "1.81"
 RPM_NAME = "os-prober-1.81-2.1.aarch64.rpm"
 RPM_HASH = "e9c60e7d2852ce5860050c597a57b603e26ff97a8b00cee37eb1d412a4a839b2ebeed9858e05b4765f35a8337620cc7030827067e498c2f2ee26724e482915d7"
 
-RPROVIDES:${PN} += "os-prober \
-os-prober(aarch-64)"
+RPROVIDES:${PN} += "os-prober"
 
 RDEPENDS:${PN} += "/bin/grep \
 /bin/sed \
 /bin/sh \
 /sbin/modprobe \
 coreutils \
-libc.so.6()(64bit) \
+libc.so.6 \
 udev \
 util-linux \
 util-linux-systemd"

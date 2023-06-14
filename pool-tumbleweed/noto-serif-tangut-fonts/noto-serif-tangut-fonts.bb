@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-tangut \
 noto-serif-tangut-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -18,7 +18,7 @@ RPM_NAME = "texlive-pstool-2023.201.1.5esvn46393-53.1.noarch.rpm"
 RPM_HASH = "e8bb4ce20b4c05c9cc5596b883e5a95b56098b132e6bc053444687c35a210e106d8b0d60f9bb2c5c8fbabdab78b8bec1fc7ef8850a62a44b1625814dc454a77b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pstool.sty) \
+RPROVIDES:${PN} += "tex-pstool.sty \
 texlive-pstool"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(preview.sty) \
+tex-preview.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

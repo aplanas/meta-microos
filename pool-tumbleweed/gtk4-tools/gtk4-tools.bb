@@ -9,15 +9,14 @@ PV = "4.10.3"
 RPM_NAME = "gtk4-tools-4.10.3-4.1.aarch64.rpm"
 RPM_HASH = "7555eb6c3a38a7dd0388da8fd0ecf17721b912196b1c8d7776d3a39ef2fb013ecc46ac3ada4f0bfcf0ad17a47dcc386ad09ddc5ae990bc8360e76e4b0a40b8f3"
 
-RPROVIDES:${PN} += "gtk4-tools \
-gtk4-tools(aarch-64)"
+RPROVIDES:${PN} += "gtk4-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1"
 
 inherit rpm

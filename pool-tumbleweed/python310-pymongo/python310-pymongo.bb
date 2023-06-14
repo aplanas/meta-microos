@@ -12,13 +12,12 @@ RPM_NAME = "python310-pymongo-4.3.3-1.4.aarch64.rpm"
 RPM_HASH = "94c6a418def8a2650ac07b56c91b95d31472af02af42bfb5792ae59044fce2dc21ca5c53dd40750b01cd85953fe8096b430c2371d993cb6c6322558113a71ac3"
 
 RPROVIDES:${PN} += "python3-pymongo \
-python3.10dist(pymongo) \
+python3.10dist-pymongo \
 python310-pymongo \
-python310-pymongo(aarch-64) \
-python3dist(pymongo)"
+python3dist-pymongo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

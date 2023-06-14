@@ -10,9 +10,9 @@ RPM_HASH = "d793ed5a7ac20ff4975c0ce47be7b97b0bb64b977df2f60e8f07bae4a8c6e914d1be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-annotations \
-mvn(com.fasterxml.jackson.core:jackson-annotations) \
-mvn(com.fasterxml.jackson.core:jackson-annotations:pom:) \
-osgi(com.fasterxml.jackson.core.jackson-annotations)"
+mvn-com.fasterxml.jackson.core-jackson-annotations \
+mvn-com.fasterxml.jackson.core-jackson-annotations-pom- \
+osgi-com.fasterxml.jackson.core.jackson-annotations"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

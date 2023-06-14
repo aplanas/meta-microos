@@ -12,15 +12,14 @@ PV = "5.106.0"
 RPM_NAME = "kwindowsystem-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "d86333ccdb78517762053d9f69200f21401f93cd79631538ee4438de630f48cb49b3475c2f2caf720b464384a9dac47469b5dffb243b198c755f52325b411f17"
 
-RPROVIDES:${PN} += "cmake(KF5WindowSystem) \
-kwindowsystem-devel \
-kwindowsystem-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5WindowSystem \
+kwindowsystem-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5Core) \
-cmake(Qt5Widgets) \
+RDEPENDS:${PN} += "cmake-Qt5Core \
+cmake-Qt5Widgets \
 extra-cmake-modules \
 libKF5WindowSystem5 \
-pkgconfig(x11) \
-pkgconfig(xcb)"
+pkgconfig-x11 \
+pkgconfig-xcb"
 
 inherit rpm

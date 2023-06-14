@@ -11,17 +11,16 @@ PV = "5.5.4"
 RPM_NAME = "xrootd-fuse-5.5.4-1.1.aarch64.rpm"
 RPM_HASH = "04157d15ed6fc773e16b60251709e772f0fd1e8b8b87bf1858900e72eb3ca35b1dd46ddaa82d84e555b1959a05de3a669c8593742da8a2b7f429302e83d091f3"
 
-RPROVIDES:${PN} += "xrootd-fuse \
-xrootd-fuse(aarch-64)"
+RPROVIDES:${PN} += "xrootd-fuse"
 
 RDEPENDS:${PN} += "fuse \
-ld-linux-aarch64.so.1()(64bit) \
-libXrdFfs.so.3()(64bit) \
-libXrdPosix.so.3()(64bit) \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libXrdFfs.so.3 \
+libXrdPosix.so.3 \
+libc.so.6 \
+libfuse.so.2 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 xrootd-client \
 xrootd-libs"
 

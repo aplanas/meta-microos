@@ -19,15 +19,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter \
 python3-jupyter \
-python3.10dist(jupyter) \
+python3.10dist-jupyter \
 python310-jupyter \
-python3dist(jupyter)"
+python3dist-jupyter"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipykernel \
 python310-ipywidgets \
+python310-jupyter-console \
 python310-jupyter-core \
-python310-jupyter_console \
 python310-nbconvert \
 python310-notebook \
 python310-qtconsole"

@@ -11,7 +11,6 @@ RPROVIDES:${PN} += "java \
 java-19 \
 java-19-64 \
 java-19-openjdk \
-java-19-openjdk(aarch-64) \
 java-64 \
 java-fonts \
 java-openjdk \
@@ -32,26 +31,25 @@ jre1.6.x \
 jre1.7.x \
 jre1.8.x \
 jre1.9.x \
-libawt_xawt.so()(64bit) \
-libjawt.so()(64bit) \
-libsplashscreen.so()(64bit)"
+libawt-xawt.so \
+libjawt.so \
+libsplashscreen.so"
 
 RDEPENDS:${PN} += "file \
 fontconfig \
 java-19-openjdk-headless \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXrender.so.1()(64bit) \
-libXtst.so.6()(64bit) \
-libawt.so()(64bit) \
-libc.so.6()(64bit) \
-libgif.so.7()(64bit) \
-libjava.so()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXi.so.6 \
+libXrender.so.1 \
+libXtst.so.6 \
+libawt.so \
+libc.so.6 \
+libgif.so.7 \
+libjava.so \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16"
 
 inherit rpm

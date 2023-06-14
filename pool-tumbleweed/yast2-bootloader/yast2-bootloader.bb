@@ -7,12 +7,7 @@ PV = "4.6.1"
 RPM_NAME = "yast2-bootloader-4.6.1-1.1.aarch64.rpm"
 RPM_HASH = "73d643fd0cf1da4c30c99c77e29a48b831b1cbe3d2f174023191066800f12eba7563c78dbb214d902c199e3e229b2a2a6cf6f0d6bcb1deeec44215e56c2aa2e0"
 
-RPROVIDES:${PN} += "application() \
-application(org.opensuse.yast.Bootloader.desktop) \
-metainfo() \
-metainfo(org.opensuse.yast.Bootloader.metainfo.xml) \
-yast2-bootloader \
-yast2-bootloader(aarch-64)"
+RPROVIDES:${PN} += "yast2-bootloader"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sed \
@@ -22,7 +17,7 @@ RDEPENDS:${PN} += "/bin/bash \
 augeas-lenses \
 fillup \
 parted \
-rubygem(ruby:3.2.0:cfa_grub2) \
+rubygem-ruby-3.2.0-cfa-grub2 \
 yast2 \
 yast2-core \
 yast2-packager \

@@ -13,11 +13,9 @@ PV = "0.24"
 RPM_NAME = "perl-XSLoader-0.24-1.26.aarch64.rpm"
 RPM_HASH = "2b11f26a63b7f33ab08676c137a3f0de0e02495805bf7938001b87f0d7707ce42b4934bd767425586469bc6138fa8c6ab7bb4b5a51758d9e998d27ed04023d37"
 
-RPROVIDES:${PN} += "perl(DynaLoader) \
-perl(XSLoader) \
-perl-XSLoader \
-perl-XSLoader(aarch-64)"
+RPROVIDES:${PN} += "perl-DynaLoader \
+perl-XSLoader"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

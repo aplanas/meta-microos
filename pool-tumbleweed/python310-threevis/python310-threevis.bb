@@ -10,11 +10,11 @@ RPM_HASH = "8cbb7119e814807b7e47ec95eac86a0de36052b55c3c483859a97dd1c1605a427ae5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-threevis \
-python3.10dist(threevis) \
+python3.10dist-threevis \
 python310-threevis \
-python3dist(threevis)"
+python3dist-threevis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-openmesh \
 python310-pythreejs"

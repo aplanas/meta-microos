@@ -13,11 +13,11 @@ RPM_HASH = "77ea271b4d524a53a16fc990a50fc641783adf9414859b15b7504e1df277cea62fa6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-data-nspkg \
-python3.10dist(azure-data-nspkg) \
+python3.10dist-azure-data-nspkg \
 python310-azure-data-nspkg \
-python3dist(azure-data-nspkg)"
+python3dist-azure-data-nspkg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg"
 
 inherit rpm

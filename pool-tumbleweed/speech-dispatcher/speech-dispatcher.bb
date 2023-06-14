@@ -14,26 +14,23 @@ PV = "0.11.4"
 RPM_NAME = "speech-dispatcher-0.11.4-1.3.aarch64.rpm"
 RPM_HASH = "0f166498505feef1680e674c560b86865c08b621be6e7285bcbab599c3e6296e10ab2e3f97cf0ae789d41c34b69644974eaf794897b4debf2935e0ce7f422fb7"
 
-RPROVIDES:${PN} += "config(speech-dispatcher) \
+RPROVIDES:${PN} += "config-speech-dispatcher \
 speech-dispatcher \
-speech-dispatcher(aarch-64) \
 speechd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libao.so.4()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libdotconf.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libltdl.so.7()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libsndfile.so.1()(64bit) \
-libspeechd.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libao.so.4 \
+libasound.so.2 \
+libc.so.6 \
+libdotconf.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libltdl.so.7 \
+libpulse-simple.so.0 \
+libpulse.so.0 \
+libsndfile.so.1 \
+libspeechd.so.2 \
 python3-speechd"
 
 inherit rpm

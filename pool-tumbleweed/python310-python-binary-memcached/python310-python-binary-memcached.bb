@@ -9,11 +9,11 @@ RPM_HASH = "a7a9e6820a896f5fd879e3eb5dcd0a1f91aaf023391de0e339bda0c804f9f68077da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-binary-memcached \
-python3.10dist(python-binary-memcached) \
+python3.10dist-python-binary-memcached \
 python310-python-binary-memcached \
-python3dist(python-binary-memcached)"
+python3dist-python-binary-memcached"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six \
 python310-uhashring"
 

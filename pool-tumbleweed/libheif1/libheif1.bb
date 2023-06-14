@@ -14,18 +14,17 @@ PV = "1.16.2"
 RPM_NAME = "libheif1-1.16.2-1.1.aarch64.rpm"
 RPM_HASH = "a8da3852d9b1523e7e1f2a300aafd5efefad101e8a621fff3e68f443ca1e9daafbd511dd762f2557ba79d4a506179349aff645f099bba49fce1bfa65a72d6a2a"
 
-RPROVIDES:${PN} += "libheif.so.1()(64bit) \
-libheif1 \
-libheif1(aarch-64)"
+RPROVIDES:${PN} += "libheif.so.1 \
+libheif1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libaom.so.3()(64bit) \
-libc.so.6()(64bit) \
-libdav1d.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libsharpyuv.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libaom.so.3 \
+libc.so.6 \
+libdav1d.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libsharpyuv.so.0 \
+libstdc++.so.6"
 
 inherit rpm

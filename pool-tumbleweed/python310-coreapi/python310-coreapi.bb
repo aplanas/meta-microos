@@ -10,11 +10,11 @@ RPM_HASH = "e5743f7bac61a4e686a0b687954931fac3a406b6afcc6ae80889b04fd53e317c00e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-coreapi \
-python3.10dist(coreapi) \
+python3.10dist-coreapi \
 python310-coreapi \
-python3dist(coreapi)"
+python3dist-coreapi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-coreschema \
 python310-itypes \
 python310-requests \

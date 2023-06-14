@@ -14,14 +14,13 @@ PV = "1.12.11+20110422"
 RPM_NAME = "libsofia-sip-ua0-1.12.11+20110422-1.14.aarch64.rpm"
 RPM_HASH = "845bcd18ddab8847e419e5cb4a3de23afde71b9571be35a86f5c85aa1ff58ec156141f8f0448b32a9c45d71ee4e3b7447da49f58df8e99814a12e650dee8a3e4"
 
-RPROVIDES:${PN} += "libsofia-sip-ua.so.0()(64bit) \
-libsofia-sip-ua0 \
-libsofia-sip-ua0(aarch-64)"
+RPROVIDES:${PN} += "libsofia-sip-ua.so.0 \
+libsofia-sip-ua0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

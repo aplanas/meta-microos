@@ -9,7 +9,7 @@ RPM_HASH = "d35d4898eeb0797c4c8c32abb4413ddd95055cb09cf2da108ce523dce6239d591a50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-parent \
-mvn(org.apache:apache:pom:)"
+mvn-org.apache-apache-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

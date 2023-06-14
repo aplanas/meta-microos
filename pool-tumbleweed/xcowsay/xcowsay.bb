@@ -22,27 +22,23 @@ PV = "1.6"
 RPM_NAME = "xcowsay-1.6-1.7.aarch64.rpm"
 RPM_HASH = "6fd313d74364a40ca34f556d3779932c08193b233eefbb21e4deba5a8c9858ecc98a5bc83f4ec8f59980d861e8039074bfede79a21e4fb0e18d40083ad951790"
 
-RPROVIDES:${PN} += "application() \
-application(xcowhelp.desktop) \
-application(xcowsay.desktop) \
-xcowsay \
-xcowsay(aarch-64)"
+RPROVIDES:${PN} += "xcowsay"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 fortune \
 gtk2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgthread-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-glib-1.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgthread-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0"
 
 inherit rpm

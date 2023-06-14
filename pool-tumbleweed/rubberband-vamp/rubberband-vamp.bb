@@ -21,16 +21,15 @@ PV = "3.1.0"
 RPM_NAME = "rubberband-vamp-3.1.0-1.3.aarch64.rpm"
 RPM_HASH = "2b411e76d68a47e0801f237dbc2f272b6cfd06b6cb3b0ff019378b9245a14255a76f68dde31a38023127e5a7114a975d49a0bc3ec4c3a14c3bd087d5d9a0dad6"
 
-RPROVIDES:${PN} += "rubberband-vamp \
-rubberband-vamp(aarch-64)"
+RPROVIDES:${PN} += "rubberband-vamp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
 librubberband2 \
-libstdc++.so.6()(64bit) \
-libvamp-sdk.so.2()(64bit)"
+libstdc++.so.6 \
+libvamp-sdk.so.2"
 
 inherit rpm

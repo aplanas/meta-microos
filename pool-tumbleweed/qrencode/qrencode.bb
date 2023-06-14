@@ -10,13 +10,11 @@ PV = "4.1.1"
 RPM_NAME = "qrencode-4.1.1-1.11.aarch64.rpm"
 RPM_HASH = "859d40c82126485aa4d275fb05b8258f9e54896295d06f97d1e9526336d6c40403c0c16cbee9f7c10005ba3659788d3732c96c9d092070ba27e27d62eb9cf3b4"
 
-RPROVIDES:${PN} += "qrencode \
-qrencode(aarch-64)"
+RPROVIDES:${PN} += "qrencode"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libqrencode.so.4()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpng16.so.16 \
+libqrencode.so.4"
 
 inherit rpm

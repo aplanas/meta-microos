@@ -16,12 +16,11 @@ PV = "1.9.9"
 RPM_NAME = "libpcsclite1-1.9.9-2.3.aarch64.rpm"
 RPM_HASH = "c1862537003a7e90a3a750cf8e941fc1cf5c4678ec456dbc09923f9509875710de7b62cd550bf3a663a25f2eb412d82d542adaa22ead7dcba3fe3048ef035612"
 
-RPROVIDES:${PN} += "libpcsclite.so.1()(64bit) \
-libpcsclite1 \
-libpcsclite1(aarch-64)"
+RPROVIDES:${PN} += "libpcsclite.so.1 \
+libpcsclite1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

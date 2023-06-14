@@ -9,11 +9,10 @@ RPM_NAME = "libopenmpt-modplug-devel-0.8.9.0-1.12.aarch64.rpm"
 RPM_HASH = "cf40bc622535422d3f7dd19a8c4e37acdcf4fe7001614f4b74e4fd1a96908a1033cabcd682eaa9b893d2a7c1e53e5adc61828e4e99c702042df7660b698cf3a8"
 
 RPROVIDES:${PN} += "libopenmpt-modplug-devel \
-libopenmpt-modplug-devel(aarch-64) \
-pkgconfig(libopenmpt_modplug)"
+pkgconfig-libopenmpt-modplug"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libopenmpt_modplug1 \
-pkgconfig(libopenmpt)"
+libopenmpt-modplug1 \
+pkgconfig-libopenmpt"
 
 inherit rpm

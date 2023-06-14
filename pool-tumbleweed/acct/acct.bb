@@ -9,12 +9,11 @@ RPM_NAME = "acct-6.6.4-4.7.aarch64.rpm"
 RPM_HASH = "56f90fb78d8ad4fea2ddfbf54b0b12a24815119d1914c96c37b9d5afa3f738029f336f9bdd15ccc3134a5e16be64c9a1cb35210779bb96084b48615caaa6bc75"
 
 RPROVIDES:${PN} += "acct \
-acct(aarch-64) \
-config(acct)"
+config-acct"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 logrotate"
 
 inherit rpm

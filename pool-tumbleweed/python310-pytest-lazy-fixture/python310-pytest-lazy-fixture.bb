@@ -9,11 +9,11 @@ RPM_HASH = "2fe392d2c1835a40b1cfd99a4b9c596b23d733b0865641fcaec55debcb126091017b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-lazy-fixture \
-python3.10dist(pytest-lazy-fixture) \
+python3.10dist-pytest-lazy-fixture \
 python310-pytest-lazy-fixture \
-python3dist(pytest-lazy-fixture)"
+python3dist-pytest-lazy-fixture"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest"
 
 inherit rpm

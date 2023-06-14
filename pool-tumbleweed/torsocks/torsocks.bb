@@ -43,14 +43,13 @@ PV = "2.4.0"
 RPM_NAME = "torsocks-2.4.0-1.2.aarch64.rpm"
 RPM_HASH = "11de5b819839d64200c92b2925bc06e6c9f093c63ebcd892eef842894ce1eb256ad51e52bd1ad8e546f6fe940617e3edabb139b5c26425d4d5eac4c6ca864457"
 
-RPROVIDES:${PN} += "config(torsocks) \
-libtorsocks.so.0()(64bit) \
-torsocks \
-torsocks(aarch-64)"
+RPROVIDES:${PN} += "config-torsocks \
+libtorsocks.so.0 \
+torsocks"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

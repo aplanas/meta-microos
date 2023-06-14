@@ -9,10 +9,10 @@ RPM_HASH = "136e263b69f73239e0a23a2eca85b1c9900998eafa0dca495018349daa5df33c6061
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-parent \
-mvn(org.jboss:jboss-parent:pom:)"
+mvn-org.jboss-jboss-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.plugins:maven-source-plugin)"
+mvn-org.apache.maven.plugins-maven-source-plugin"
 
 inherit rpm

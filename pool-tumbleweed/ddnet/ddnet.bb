@@ -11,35 +11,28 @@ PV = "16.9"
 RPM_NAME = "ddnet-16.9-1.1.aarch64.rpm"
 RPM_HASH = "46457afe6cb640bb5bda812bf97b709e58057aca8a4d5b68b3ff497f3a9dda46d6503f1be35e0a6ca27e0f19c3cbd3be67d3dd36cd22fab09651b2093c3a6a66"
 
-RPROVIDES:${PN} += "application() \
-application(ddnet.desktop) \
-ddnet \
-ddnet(aarch-64) \
-libantibot.so()(64bit) \
-metainfo() \
-metainfo(ddnet.appdata.xml) \
-mimehandler(x-scheme-handler/ddnet)"
+RPROVIDES:${PN} += "ddnet \
+libantibot.so"
 
 RDEPENDS:${PN} += "ddnet-data \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnotify.so.4()(64bit) \
-libopusfile.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libvulkan.so.1()(64bit) \
-libwavpack.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libnotify.so.4 \
+libopusfile.so.0 \
+libpng16.so.16 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libvulkan.so.1 \
+libwavpack.so.1 \
+libz.so.1"
 
 inherit rpm

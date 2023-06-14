@@ -25,10 +25,10 @@ RPM_HASH = "07668afb70a91ab90ac857d3e91a892e4f45e0fae2ee62d5cd0c7732df19af784c3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-webcolors \
-python3.10dist(webcolors) \
+python3.10dist-webcolors \
 python310-webcolors \
-python3dist(webcolors)"
+python3dist-webcolors"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

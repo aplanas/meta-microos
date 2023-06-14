@@ -15,8 +15,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-pool \
 commons-pool \
 jakarta-commons-pool \
-mvn(commons-pool:commons-pool) \
-mvn(commons-pool:commons-pool:pom:)"
+mvn-commons-pool-commons-pool \
+mvn-commons-pool-commons-pool-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

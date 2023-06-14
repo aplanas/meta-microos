@@ -15,7 +15,7 @@ noto-cousine \
 noto-cousine-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

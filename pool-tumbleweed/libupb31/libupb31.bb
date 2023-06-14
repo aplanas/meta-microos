@@ -11,12 +11,11 @@ PV = "1.54.1"
 RPM_NAME = "libupb31-1.54.1-1.1.aarch64.rpm"
 RPM_HASH = "5a88f6ca9766d57ad16bd57bb936d7ba9a0806fda053c37c287abb5c339c9176e9973638651a0fe443e9f54a1155da50456b1dcfa5b2d4350caeb0e2c17d7ffd"
 
-RPROVIDES:${PN} += "libupb.so.31()(64bit) \
-libupb31 \
-libupb31(aarch-64)"
+RPROVIDES:${PN} += "libupb.so.31 \
+libupb31"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

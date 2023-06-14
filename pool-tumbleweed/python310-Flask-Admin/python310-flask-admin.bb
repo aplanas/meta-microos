@@ -14,11 +14,11 @@ RPM_HASH = "1d219786a9816d6f9bda0ed588c99e5450a4f4d90b47a2bddbbe3f8b71f956a046dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Admin \
-python3.10dist(flask-admin) \
+python3.10dist-flask-admin \
 python310-Flask-Admin \
-python3dist(flask-admin)"
+python3dist-flask-admin"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-WTForms"
 

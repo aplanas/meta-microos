@@ -11,11 +11,11 @@ RPM_HASH = "6cfabc01afdab8c1d89d0b290045ae94ed2da8d3ba5fd1fa0d5d61c2d6617565b641
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-communication-phonenumbers \
-python3.10dist(azure-communication-phonenumbers) \
+python3.10dist-azure-communication-phonenumbers \
 python310-azure-communication-phonenumbers \
-python3dist(azure-communication-phonenumbers)"
+python3dist-azure-communication-phonenumbers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-communication-nspkg \
 python310-azure-core \
 python310-azure-nspkg \

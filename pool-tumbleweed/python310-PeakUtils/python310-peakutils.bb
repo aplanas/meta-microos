@@ -13,11 +13,11 @@ RPM_HASH = "9f0a50bdb4de2a0ad7cf9c29ff1be53db393256fd790f8d24fb0e30e3bb85f26556b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PeakUtils \
-python3.10dist(peakutils) \
+python3.10dist-peakutils \
 python310-PeakUtils \
-python3dist(peakutils)"
+python3dist-peakutils"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-scipy"
 

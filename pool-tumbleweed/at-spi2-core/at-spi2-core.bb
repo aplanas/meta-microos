@@ -14,25 +14,22 @@ RPM_HASH = "e1d673bfbd6212338bef2e5deb31ee1c85f1c4d1db5ea622b16068ba9a56a6a00298
 
 RPROVIDES:${PN} += "at-spi2-atk-gtk2 \
 at-spi2-core \
-at-spi2-core(aarch-64) \
-libatk-bridge.so()(64bit)"
+libatk-bridge.so"
 
-RDEPENDS:${PN} += "(dbus-1 or dbus-broker) \
-(xprop if xwayland) \
+RDEPENDS:${PN} += "-dbus-1 or dbus-broker \
+-xprop if xwayland \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXtst.so.6()(64bit) \
-libatk-bridge-2.0.so.0()(64bit) \
-libatspi.so.0()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXtst.so.6 \
+libatk-bridge-2.0.so.0 \
+libatspi.so.0 \
+libc.so.6 \
+libdbus-1.so.3 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libsystemd.so.0"
 
 inherit rpm

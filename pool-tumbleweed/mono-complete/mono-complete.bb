@@ -14,14 +14,13 @@ PV = "6.12.0"
 RPM_NAME = "mono-complete-6.12.0-5.3.aarch64.rpm"
 RPM_HASH = "8ab18ca071589bb34d47c97f500f3a7c0c074f743e8df2dbc46c773d60956e31cb6dac9c61c63c952000eb51a7b3c51028f707e56af84f8d9e35b8c12b4a3648"
 
-RPROVIDES:${PN} += "mono-complete \
-mono-complete(aarch-64)"
+RPROVIDES:${PN} += "mono-complete"
 
 RDEPENDS:${PN} += "ibm-data-db2 \
-libmono-2_0-1 \
-libmono-2_0-devel \
-libmonosgen-2_0-1 \
-libmonosgen-2_0-devel \
+libmono-2-0-1 \
+libmono-2-0-devel \
+libmonosgen-2-0-1 \
+libmonosgen-2-0-devel \
 mono-core \
 mono-data \
 mono-data-oracle \

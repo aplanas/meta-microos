@@ -9,13 +9,13 @@ RPM_HASH = "408ef866c2115c4b4d9f40b81951be39d7517235a638395198bc62bdc276af28d86b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fedora-messaging \
-python3.10dist(fedora-messaging) \
+python3.10dist-fedora-messaging \
 python310-fedora-messaging \
-python3dist(fedora-messaging)"
+python3dist-fedora-messaging"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Twisted \
 python310-blinker \
 python310-click \
@@ -24,7 +24,7 @@ python310-jsonschema \
 python310-pika \
 python310-pyOpenSSL \
 python310-pytz \
-python310-service_identity \
+python310-service-identity \
 python310-toml \
 update-alternatives"
 

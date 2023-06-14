@@ -10,8 +10,8 @@ RPM_HASH = "44f2d0957fae756e73cc95ee976498f2b3b4880fbff388ba20f299efee71d4c76b29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-extensions \
-mvn(com.google.inject.extensions:extensions-parent:pom:) \
-mvn(org.sonatype.sisu.inject:extensions-parent:pom:)"
+mvn-com.google.inject.extensions-extensions-parent-pom- \
+mvn-org.sonatype.sisu.inject-extensions-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

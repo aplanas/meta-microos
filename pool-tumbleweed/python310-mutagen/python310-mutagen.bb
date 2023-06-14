@@ -15,13 +15,13 @@ RPM_HASH = "8e2b34a857c2b668faa4688ddaf37211fe3cf21b1d25a47b8d0060d56009dcade9d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mutagen \
-python3.10dist(mutagen) \
+python3.10dist-mutagen \
 python310-mutagen \
-python3dist(mutagen)"
+python3dist-mutagen"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

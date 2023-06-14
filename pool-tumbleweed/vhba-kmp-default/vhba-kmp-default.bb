@@ -11,12 +11,11 @@ PV = "20211218_k6.3.4_1"
 RPM_NAME = "vhba-kmp-default-20211218_k6.3.4_1-3.5.aarch64.rpm"
 RPM_HASH = "ca37ebdea3b08c2d173377821149ccae7dd2d0831d7ac8247454b148b96ac067eb79b7c334b767928c4323cebabc6168bdff04040008221443fea373aca6a33b"
 
-RPROVIDES:${PN} += "kmod(vhba.ko) \
-multiversion(kernel) \
+RPROVIDES:${PN} += "kmod-vhba.ko \
+multiversion-kernel \
 vhba-kmp \
 vhba-kmp-default \
-vhba-kmp-default(aarch-64) \
-vhba-kmp-default-k6.3.4_1"
+vhba-kmp-default-k6.3.4-1"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

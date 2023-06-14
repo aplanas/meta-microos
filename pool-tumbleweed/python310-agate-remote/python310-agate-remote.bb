@@ -9,11 +9,11 @@ RPM_HASH = "6c1eb91b2bf0d9389ce7864845b4c0d019b1f879557d1b155d1739cb7a1a77a28a19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-agate-remote \
-python3.10dist(agate-remote) \
+python3.10dist-agate-remote \
 python310-agate-remote \
-python3dist(agate-remote)"
+python3dist-agate-remote"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-agate \
 python310-requests"
 

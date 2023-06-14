@@ -16,12 +16,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-rest-framework \
 python3-djangorestframework \
-python3.10dist(djangorestframework) \
+python3.10dist-djangorestframework \
 python310-django-rest-framework \
 python310-djangorestframework \
-python3dist(djangorestframework)"
+python3dist-djangorestframework"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

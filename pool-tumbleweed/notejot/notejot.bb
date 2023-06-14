@@ -8,22 +8,16 @@ PV = "3.4.9"
 RPM_NAME = "notejot-3.4.9-1.7.aarch64.rpm"
 RPM_HASH = "507c2ee024338ecab34af7de609e7fe00fd7f79268a1862dcff6799b10370880c93727e535e25277ae0cf988ca6482e7999c575bc832bb99dc2d9fb31a878cbd"
 
-RPROVIDES:${PN} += "application() \
-application(io.github.lainsce.Notejot.desktop) \
-metainfo() \
-metainfo(io.github.lainsce.Notejot.appdata.xml) \
-notejot \
-notejot(aarch-64)"
+RPROVIDES:${PN} += "notejot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libadwaita-1.so.0()(64bit) \
-libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libjson-glib-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
+libc.so.6 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1 \
+libjson-glib-1.0.so.0"
 
 inherit rpm

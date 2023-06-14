@@ -12,10 +12,10 @@ RPM_HASH = "9989d2419d168d3361c9c91d573cd2fca6943136d66762072c96f7cf65a500d6f587
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiodataloader \
-python3.10dist(aiodataloader) \
+python3.10dist-aiodataloader \
 python310-aiodataloader \
-python3dist(aiodataloader)"
+python3dist-aiodataloader"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -17,10 +17,10 @@ RPM_NAME = "python39-tenacity-8.2.2-1.1.noarch.rpm"
 RPM_HASH = "f5fdeb4879909c5fde389f762858fbaf58b84ca35b193cf463ce6dadf58e4782d4f26910e88f46a0f3821364057a8df8e1aeec863f4c77d3797b20dcd2d26c49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(tenacity) \
+RPROVIDES:${PN} += "python3.9dist-tenacity \
 python39-tenacity \
-python3dist(tenacity)"
+python3dist-tenacity"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

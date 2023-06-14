@@ -10,8 +10,8 @@ RPM_NAME = "python-doc-2.7.18-34.1.noarch.rpm"
 RPM_HASH = "e0ac2216007cfba067888dcfa15a7a83d7338e4b37f5289ed7b663f2a03df983eddee3142a5353004b3f424449b260561b772508365946909598a41b4cdc39ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pyth_doc \
-pyth_ps \
+RPROVIDES:${PN} += "pyth-doc \
+pyth-ps \
 python-doc \
 python2-doc"
 

@@ -11,13 +11,12 @@ PV = "4.18.0"
 RPM_NAME = "rpm-devel-4.18.0-5.1.aarch64.rpm"
 RPM_HASH = "486b2a0d73ecfb78e03f049788bebda78fde3e250f423fd539dc8765c07cb53ed94ea26ff0739ee8012f6420a0712d6cc62f8655ffa42317c98e7068bd18990c"
 
-RPROVIDES:${PN} += "pkgconfig(rpm) \
-rpm-devel \
-rpm-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-rpm \
+rpm-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkgconfig(libzstd) \
-pkgconfig(popt) \
+pkgconfig-libzstd \
+pkgconfig-popt \
 popt-devel \
 rpm"
 

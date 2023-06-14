@@ -13,12 +13,12 @@ RPM_NAME = "python311-azure-mgmt-containerservice-23.0.0-1.1.noarch.rpm"
 RPM_HASH = "d6e539ed951d727ee161c02ca73b6cc7827c3eb9d9ed0d295d7264ad56a6bc87c9f9b761411785bbb4f9850e14f514645fe889f5d71835b14e9036ae4f74a84c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-containerservice) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-containerservice \
 python311-azure-mgmt-containerservice \
-python3dist(azure-mgmt-containerservice)"
+python3dist-azure-mgmt-containerservice"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

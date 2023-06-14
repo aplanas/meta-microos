@@ -9,17 +9,16 @@ PV = "2.40"
 RPM_NAME = "binutils-gold-2.40-5.1.aarch64.rpm"
 RPM_HASH = "a6be5f2773aedf9d64d665a828270ca472f046ab79946b6f35780dce627489dc4bc1b2d79419dec7da9561f0b0e552a826ca3e43253a5d9e655c8d2c83e496bd"
 
-RPROVIDES:${PN} += "binutils-gold \
-binutils-gold(aarch-64)"
+RPROVIDES:${PN} += "binutils-gold"
 
 RDEPENDS:${PN} += "/bin/sh \
 binutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
+libzstd.so.1 \
 update-alternatives"
 
 inherit rpm

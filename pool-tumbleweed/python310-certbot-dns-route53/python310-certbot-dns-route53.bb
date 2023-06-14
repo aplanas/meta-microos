@@ -11,11 +11,11 @@ RPM_HASH = "1d270db285c85e55029787c105fa36b578b807f0ba2741ff4ed18ae3f9b7f2bd2214
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certbot-dns-route53 \
-python3.10dist(certbot-dns-route53) \
+python3.10dist-certbot-dns-route53 \
 python310-certbot-dns-route53 \
-python3dist(certbot-dns-route53)"
+python3dist-certbot-dns-route53"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-acme \
 python310-boto3 \
 python310-certbot \

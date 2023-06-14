@@ -15,17 +15,16 @@ PV = "40.0.2"
 RPM_NAME = "python311-cryptography-40.0.2-2.1.aarch64.rpm"
 RPM_HASH = "ad81f367dbfd5f261eee80e4b3b646599b18790afb904e536e9438ac46d02400c786a5c09a884511872cbac8b63439a6a0b9e207316898536e85dfc6c596fec2"
 
-RPROVIDES:${PN} += "python3.11dist(cryptography) \
+RPROVIDES:${PN} += "python3.11dist-cryptography \
 python311-cryptography \
-python311-cryptography(aarch-64) \
-python3dist(cryptography)"
+python3dist-cryptography"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libssl.so.3()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libssl.so.3 \
+python-abi \
 python311 \
 python311-cffi"
 

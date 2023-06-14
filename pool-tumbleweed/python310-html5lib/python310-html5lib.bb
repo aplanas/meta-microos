@@ -16,11 +16,11 @@ RPM_HASH = "12b0773518b83894f80ce595e8bcd704d6daa67638dfc98d0638ce0badbb4a6973cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-html5lib \
-python3.10dist(html5lib) \
+python3.10dist-html5lib \
 python310-html5lib \
-python3dist(html5lib)"
+python3dist-html5lib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six \
 python310-webencodings"
 

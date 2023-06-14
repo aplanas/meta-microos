@@ -19,10 +19,10 @@ RPM_NAME = "perl-Crypt-PasswdMD5-1.42-1.3.noarch.rpm"
 RPM_HASH = "d2bf3e5383072fb554007b1201499ff969e1e34aa573d58bcec8e2dece5e2cba28c3caeb2334a0df9025b06be936bc4d23c5a226b797a3f1979c1abd0400fdc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Crypt::PasswdMD5) \
+RPROVIDES:${PN} += "perl-Crypt--PasswdMD5 \
 perl-Crypt-PasswdMD5"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Digest::MD5)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Digest--MD5"
 
 inherit rpm

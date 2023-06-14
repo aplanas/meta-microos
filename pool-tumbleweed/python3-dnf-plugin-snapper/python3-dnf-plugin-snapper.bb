@@ -13,7 +13,7 @@ dnf-plugins-extras-snapper \
 python3-dnf-plugin-snapper \
 python3-dnf-plugins-extras-snapper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-dbus-python \
 python3-dnf-plugins-extras-common \
 snapper"

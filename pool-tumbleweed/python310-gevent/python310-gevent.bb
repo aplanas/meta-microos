@@ -22,17 +22,16 @@ RPM_NAME = "python310-gevent-22.10.2-2.1.aarch64.rpm"
 RPM_HASH = "71db1bbe5d2adfc59d2e7ec2cd97731023e5c7a4d5b64df3fe53f99e7d362bf9920a9eedf9dddbe3b0501df9526ab6c4f8a7193af1fd367d14d460d60f6eb51c"
 
 RPROVIDES:${PN} += "python3-gevent \
-python3.10dist(gevent) \
+python3.10dist-gevent \
 python310-gevent \
-python310-gevent(aarch-64) \
-python3dist(gevent)"
+python3dist-gevent"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcares.so.2()(64bit) \
-libev.so.4()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcares.so.2 \
+libev.so.4 \
+python-abi \
 python310-cffi \
 python310-dnspython \
 python310-greenlet \

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-awesomebox-2023.201.0.0.6svn57349-53.1.noarch.rpm"
 RPM_HASH = "472d90f2f0f13051babe346bb46394858ca0ca6c7c220579709a351f60698e16c15c0081b44dbb3cb6e91b178d0510d9d91a88ecd7a0852fc4e5ab2b27558b90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(awesomebox.sty) \
+RPROVIDES:${PN} += "tex-awesomebox.sty \
 texlive-awesomebox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,11 +21,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(fontawesome5.sty) \
-tex(ifthen.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-array.sty \
+tex-fontawesome5.sty \
+tex-ifthen.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

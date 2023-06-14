@@ -7,12 +7,11 @@ PV = "7.3.21"
 RPM_NAME = "R-class-7.3.21-45.2.aarch64.rpm"
 RPM_HASH = "52b12c2e482b7f3689d41a65fa84ee9830cdd76f09c612c0216c0e164a67c9feffe3d91e27a2eabe896cedf01ad7054fb28111a7d6a7610f0eb6053e16c0680f"
 
-RPROVIDES:${PN} += "R-class \
-R-class(aarch-64)"
+RPROVIDES:${PN} += "R-class"
 
 RDEPENDS:${PN} += "R-base \
-ld-linux-aarch64.so.1()(64bit) \
-libR.so()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libR.so \
+libc.so.6"
 
 inherit rpm

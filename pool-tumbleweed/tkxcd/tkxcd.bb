@@ -17,7 +17,7 @@ RPM_HASH = "8bab6971ca0a53563fdd683a2ddf9f09712df87c49fbfc6c43b596d4a04354fd6446
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkxcd \
-tkxcd_1.1.0"
+tkxcd-1.1.0"
 
 RDEPENDS:${PN} += "/bin/bash \
 tk"

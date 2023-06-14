@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cdemu-client-lang \
 cdemu-client-lang-all \
-locale(cdemu-client:de) \
-locale(cdemu-client:fr) \
-locale(cdemu-client:pl) \
-locale(cdemu-client:ru) \
-locale(cdemu-client:sl) \
-locale(cdemu-client:sv)"
+locale-cdemu-client-de \
+locale-cdemu-client-fr \
+locale-cdemu-client-pl \
+locale-cdemu-client-ru \
+locale-cdemu-client-sl \
+locale-cdemu-client-sv"
 
 RDEPENDS:${PN} += "cdemu-client"
 

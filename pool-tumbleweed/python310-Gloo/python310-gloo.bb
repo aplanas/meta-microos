@@ -11,11 +11,11 @@ RPM_HASH = "2c7a48c7c40f3d39aa8db30d967fb449ccb1a12f1fe061cd9fe02211897a1828157e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Gloo \
-python3.10dist(gloo) \
+python3.10dist-gloo \
 python310-Gloo \
-python3dist(gloo)"
+python3dist-gloo"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pandas"
 
 inherit rpm

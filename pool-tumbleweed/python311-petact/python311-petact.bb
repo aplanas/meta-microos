@@ -12,13 +12,13 @@ RPM_NAME = "python311-petact-0.1.2-3.13.noarch.rpm"
 RPM_HASH = "ba0518fbb8bcf49c75a177d57ff591a849f25af04f604eb2bb62194c9d533b96287289325f74b646ea5f80c6874d208eee018acb13e12faa924eebb438a80bdf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(petact) \
+RPROVIDES:${PN} += "python3.11dist-petact \
 python311-petact \
-python3dist(petact)"
+python3dist-petact"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-setuptools \
 update-alternatives"
 

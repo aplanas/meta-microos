@@ -16,6 +16,6 @@ RPROVIDES:${PN} += "python311-Twisted-tls"
 RDEPENDS:${PN} += "python311-Twisted \
 python311-idna \
 python311-pyOpenSSL \
-python311-service_identity"
+python311-service-identity"
 
 inherit rpm

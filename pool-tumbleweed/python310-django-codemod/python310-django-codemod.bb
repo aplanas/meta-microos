@@ -9,13 +9,13 @@ RPM_HASH = "ab60816db891e7466631b1645c4dffefb6177d0be943395b01b6a8214183272f0947
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-codemod \
-python3.10dist(django-codemod) \
+python3.10dist-django-codemod \
 python310-django-codemod \
-python3dist(django-codemod)"
+python3dist-django-codemod"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-libcst \
 python310-pathspec \

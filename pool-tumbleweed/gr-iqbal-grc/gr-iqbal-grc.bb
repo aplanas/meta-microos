@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gr-iqbal-grc"
 
-RDEPENDS:${PN} += "libgnuradio-iqbalance3_9_0"
+RDEPENDS:${PN} += "libgnuradio-iqbalance3-9-0"
 
 inherit rpm

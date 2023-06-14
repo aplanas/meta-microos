@@ -10,14 +10,13 @@ RPM_HASH = "7ee751fff7b7b58df733bda09ad066bb3068e5d9b62709fc1469bffa9491d887e1a7
 
 RPROVIDES:${PN} += "java-mapscript \
 libjavamapscript \
-libjavamapscript(aarch-64) \
-libjavamapscript.so()(64bit) \
+libjavamapscript.so \
 mapserver-java"
 
 RDEPENDS:${PN} += "java \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmapserver.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmapserver.so.2 \
 libmapserver2 \
 swig"
 

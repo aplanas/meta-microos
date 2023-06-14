@@ -9,9 +9,8 @@ PV = "1.15.2"
 RPM_NAME = "ocaml-sha-1.15.2-1.11.aarch64.rpm"
 RPM_HASH = "113c4e6b90cdcb0181edbc4ebb543a7cea088f8d75324be75c64057d40e6c69f5f76f48a6486a0a7e3d898843bc0def9908af8324897d5d70aab5bd2207828d1"
 
-RPROVIDES:${PN} += "ocaml-sha \
-ocaml-sha(aarch-64)"
+RPROVIDES:${PN} += "ocaml-sha"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -15,19 +15,18 @@ PV = "1.45"
 RPM_NAME = "perl-Term-ReadLine-Gnu-1.45-1.2.aarch64.rpm"
 RPM_HASH = "dfa356a9e555507e1d0ad5ffc0052f05d43db49d3908d354587dc972a6cf7b38a44989cf91fc82b196a93ddd84ef69f4db9d3f6a942e48027c93ed503f2a493e"
 
-RPROVIDES:${PN} += "perl(Term::ReadLine::Gnu) \
-perl(Term::ReadLine::Gnu::AU) \
-perl(Term::ReadLine::Gnu::Var) \
-perl(Term::ReadLine::Gnu::XS) \
+RPROVIDES:${PN} += "perl-Term--ReadLine--Gnu \
+perl-Term--ReadLine--Gnu--AU \
+perl-Term--ReadLine--Gnu--Var \
+perl-Term--ReadLine--Gnu--XS \
 perl-Term-ReadLine-Gnu \
-perl-Term-ReadLine-Gnu(aarch-64) \
 perl-TermReadLine-Gnu"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libtinfo.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8 \
+libtinfo.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

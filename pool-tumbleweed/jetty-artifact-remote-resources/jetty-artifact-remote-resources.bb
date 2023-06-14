@@ -9,8 +9,8 @@ RPM_HASH = "3791ae1bb37acdaa7442603eeadaee03974cc88386b1185e5656da4d7ccf29a0ba95
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-artifact-remote-resources \
-mvn(org.eclipse.jetty.toolchain:jetty-artifact-remote-resources) \
-mvn(org.eclipse.jetty.toolchain:jetty-artifact-remote-resources:pom:)"
+mvn-org.eclipse.jetty.toolchain-jetty-artifact-remote-resources \
+mvn-org.eclipse.jetty.toolchain-jetty-artifact-remote-resources-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

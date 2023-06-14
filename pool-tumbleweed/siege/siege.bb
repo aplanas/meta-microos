@@ -14,17 +14,16 @@ PV = "4.1.6"
 RPM_NAME = "siege-4.1.6-1.4.aarch64.rpm"
 RPM_HASH = "78ba701f78a09fe46be5cc26dfc81152b3a152148d8d14ff2db65408a98b323af4b534384dfa52d4b051f4714a797ec2878b4287c3433d912c2da5119158b9b4"
 
-RPROVIDES:${PN} += "config(siege) \
-siege \
-siege(aarch-64)"
+RPROVIDES:${PN} += "config-siege \
+siege"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
-libz.so.1()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
+libz.so.1 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

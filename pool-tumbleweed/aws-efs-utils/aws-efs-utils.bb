@@ -9,7 +9,7 @@ RPM_HASH = "1cc07d3689c48a041510749a337b4752ba40a5977fc9b70cf83a89b5eaaa1a8b6675
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-efs-utils \
-config(aws-efs-utils)"
+config-aws-efs-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \

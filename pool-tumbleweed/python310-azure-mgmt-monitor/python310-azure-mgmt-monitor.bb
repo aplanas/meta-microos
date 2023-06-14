@@ -14,12 +14,12 @@ RPM_HASH = "4c7bc63abb3ad509ea4a708c95d452e0029e7e073c76e09a2f9a060ab35123d408ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-monitor \
-python3.10dist(azure-mgmt-monitor) \
+python3.10dist-azure-mgmt-monitor \
 python310-azure-mgmt-monitor \
-python3dist(azure-mgmt-monitor)"
+python3dist-azure-mgmt-monitor"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

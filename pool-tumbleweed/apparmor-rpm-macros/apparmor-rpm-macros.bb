@@ -9,7 +9,7 @@ RPM_HASH = "ac75d84ddcef610012086724f437d41c2c67a945aaa50b59ecbb8c2a42970c6c50e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-rpm-macros \
-rpm_macro(apparmor_reload)"
+rpm-macro-apparmor-reload"
 
 RDEPENDS:${PN} += "coreutils"
 

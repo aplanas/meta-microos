@@ -19,24 +19,18 @@ PV = "0.9.0"
 RPM_NAME = "molequeue-0.9.0-3.9.aarch64.rpm"
 RPM_HASH = "3df8238583c0be0ce98edccecf169f547cf18e7271068f1d96b3f868c2127f3f47474b927217f74438a7fb0c6ea205641b4128548199ec5579fb983862983cb6"
 
-RPROVIDES:${PN} += "application() \
-application(molequeue.desktop) \
-molequeue \
-molequeue(aarch-64)"
+RPROVIDES:${PN} += "molequeue"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libMoleQueueClient.so()(64bit) \
-libMoleQueueServerCore.so()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-molequeue-libs0(aarch-64)"
+ld-linux-aarch64.so.1 \
+libMoleQueueClient.so \
+libMoleQueueServerCore.so \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+molequeue-libs0"
 
 inherit rpm

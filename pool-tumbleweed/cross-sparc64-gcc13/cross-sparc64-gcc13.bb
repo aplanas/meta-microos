@@ -10,8 +10,7 @@ PV = "13.1.1+git7364"
 RPM_NAME = "cross-sparc64-gcc13-13.1.1+git7364-1.1.aarch64.rpm"
 RPM_HASH = "0c4f82cb605deae32d6126eb4fb578c4c87395d2ab5e7bcfd9bfeb11f7582e48b0826ba787fc903ebbce675a7aa3e207632b7fdeefe368cbcde5357692982fea"
 
-RPROVIDES:${PN} += "cross-sparc64-gcc13 \
-cross-sparc64-gcc13(aarch-64)"
+RPROVIDES:${PN} += "cross-sparc64-gcc13"
 
 RDEPENDS:${PN} += "/bin/sh \
 cross-sparc64-binutils \

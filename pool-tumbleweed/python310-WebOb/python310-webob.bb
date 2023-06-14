@@ -14,10 +14,10 @@ RPM_HASH = "d63f091b56bd419acf7526d96655e3fa0861315b046b681c311b4cfc8ff4abe9c3ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-WebOb \
-python3.10dist(webob) \
+python3.10dist-webob \
 python310-WebOb \
-python3dist(webob)"
+python3dist-webob"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -21,13 +21,13 @@ RPM_NAME = "python39-fvs-0.3.4-1.3.noarch.rpm"
 RPM_HASH = "8db53a845020c292cc69c48b0dc98a9e206a96560956b7b0494127d42e9429bb32cc4bdd2b63df0e31b551773ed21ef68936af1f426903e4e9d06086e9e214cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fvs) \
+RPROVIDES:${PN} += "python3.9dist-fvs \
 python39-fvs \
-python3dist(fvs)"
+python3dist-fvs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-orjson \
 update-alternatives"
 

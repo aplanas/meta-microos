@@ -13,10 +13,10 @@ RPM_HASH = "7dcecfa335fc46319d068e6bb0cf2e510bbe4c2f961a5bfacac5e5e2671ad4666708
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-blinker \
-python3.10dist(blinker) \
+python3.10dist-blinker \
 python310-blinker \
-python3dist(blinker)"
+python3dist-blinker"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

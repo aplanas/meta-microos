@@ -11,13 +11,13 @@ RPM_HASH = "fabb389e9fb4bd2c5806c7d0f2fa2a9e8ad059e20cbcaaa425fb5c665a3bfb724f4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-colorcet \
-python3.10dist(colorcet) \
+python3.10dist-colorcet \
 python310-colorcet \
-python3dist(colorcet)"
+python3dist-colorcet"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-param \
 python310-pyct \
 update-alternatives"

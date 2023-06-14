@@ -7,11 +7,10 @@ PV = "19.0.2.0"
 RPM_NAME = "java-19-openjdk-headless-19.0.2.0-3.3.aarch64.rpm"
 RPM_HASH = "ebd8c9df28ab2a6c736f29d184ee508bbdc3e9aa8340c58cad30ccf8de7e03659464aa35d3f2928df4424443e8638b8c781dd827c19a76fe6ad674ccedcb6066"
 
-RPROVIDES:${PN} += "config(java-19-openjdk-headless) \
+RPROVIDES:${PN} += "config-java-19-openjdk-headless \
 jaas \
 java-19-headless \
 java-19-openjdk-headless \
-java-19-openjdk-headless(aarch-64) \
 java-headless \
 java-openjdk-headless \
 java-sasl \
@@ -27,55 +26,55 @@ jre-19-openjdk-headless \
 jre-headless \
 jre-openjdk-headless \
 jsse \
-libawt.so()(64bit) \
-libawt_headless.so()(64bit) \
-libdt_socket.so()(64bit) \
-libextnet.so()(64bit) \
-libfontmanager.so()(64bit) \
-libinstrument.so()(64bit) \
-libj2gss.so()(64bit) \
-libj2pcsc.so()(64bit) \
-libj2pkcs11.so()(64bit) \
-libjaas.so()(64bit) \
-libjava.so()(64bit) \
-libjavajpeg.so()(64bit) \
-libjdwp.so()(64bit) \
-libjimage.so()(64bit) \
-libjli.so()(64bit) \
-libjsig.so()(64bit) \
-libjsound.so()(64bit) \
-libjvm.so()(64bit) \
-liblcms.so()(64bit) \
-libmanagement.so()(64bit) \
-libmanagement_agent.so()(64bit) \
-libmanagement_ext.so()(64bit) \
-libmlib_image.so()(64bit) \
-libnet.so()(64bit) \
-libnio.so()(64bit) \
-libprefs.so()(64bit) \
-librmi.so()(64bit) \
-libsctp.so()(64bit) \
-libsyslookup.so()(64bit) \
-libsystemconf.so()(64bit) \
-libverify.so()(64bit) \
-libzip.so()(64bit)"
+libawt-headless.so \
+libawt.so \
+libdt-socket.so \
+libextnet.so \
+libfontmanager.so \
+libinstrument.so \
+libj2gss.so \
+libj2pcsc.so \
+libj2pkcs11.so \
+libjaas.so \
+libjava.so \
+libjavajpeg.so \
+libjdwp.so \
+libjimage.so \
+libjli.so \
+libjsig.so \
+libjsound.so \
+libjvm.so \
+liblcms.so \
+libmanagement-agent.so \
+libmanagement-ext.so \
+libmanagement.so \
+libmlib-image.so \
+libnet.so \
+libnio.so \
+libprefs.so \
+librmi.so \
+libsctp.so \
+libsyslookup.so \
+libsystemconf.so \
+libverify.so \
+libzip.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-ca-certificates \
 jpackage-utils \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpcsclite.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+libm.so.6 \
+libpcsclite.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
 mozilla-nss \
-rtld(GNU_HASH) \
+rtld-GNU-HASH \
 update-alternatives"
 
 inherit rpm

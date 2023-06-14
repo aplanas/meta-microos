@@ -10,19 +10,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-plugin-lqr-lang \
 gimp-plugin-lqr-lang-all \
-locale(gimp-plugin-lqr:de) \
-locale(gimp-plugin-lqr:es_AR) \
-locale(gimp-plugin-lqr:es_ES) \
-locale(gimp-plugin-lqr:fr) \
-locale(gimp-plugin-lqr:hu) \
-locale(gimp-plugin-lqr:it) \
-locale(gimp-plugin-lqr:nb_NO) \
-locale(gimp-plugin-lqr:pt_BR) \
-locale(gimp-plugin-lqr:ro) \
-locale(gimp-plugin-lqr:ru) \
-locale(gimp-plugin-lqr:sr) \
-locale(gimp-plugin-lqr:zh_CN) \
-locale(gimp-plugin-lqr:zh_TW)"
+locale-gimp-plugin-lqr-de \
+locale-gimp-plugin-lqr-es-AR \
+locale-gimp-plugin-lqr-es-ES \
+locale-gimp-plugin-lqr-fr \
+locale-gimp-plugin-lqr-hu \
+locale-gimp-plugin-lqr-it \
+locale-gimp-plugin-lqr-nb-NO \
+locale-gimp-plugin-lqr-pt-BR \
+locale-gimp-plugin-lqr-ro \
+locale-gimp-plugin-lqr-ru \
+locale-gimp-plugin-lqr-sr \
+locale-gimp-plugin-lqr-zh-CN \
+locale-gimp-plugin-lqr-zh-TW"
 
 RDEPENDS:${PN} += "gimp-plugin-lqr"
 

@@ -8,11 +8,11 @@ RPM_NAME = "python39-pysmb-1.2.9.1-1.3.noarch.rpm"
 RPM_HASH = "668f634eb5d5e2cc632b162135244ff5844aca6eb22f12c9a908828ad35fc3c145f144a058869f4d9afa2d91340d91a0d288f02b9a4454b36d0ff0cd749fab78"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pysmb) \
+RPROVIDES:${PN} += "python3.9dist-pysmb \
 python39-pysmb \
-python3dist(pysmb)"
+python3dist-pysmb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pyasn1"
 
 inherit rpm

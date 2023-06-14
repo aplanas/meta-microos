@@ -11,7 +11,7 @@ RPM_NAME = "texlive-slantsc-2023.201.2.11svn25007-57.1.noarch.rpm"
 RPM_HASH = "f408f90470520733a85966f9a409c91a0590a90fc3b300f2479747d55826305f68e64254cef0ba6b9cf1b683ee508004aa2d32aba3f7349887dfe880fb2a3e4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(slantsc.sty) \
+RPROVIDES:${PN} += "tex-slantsc.sty \
 texlive-slantsc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

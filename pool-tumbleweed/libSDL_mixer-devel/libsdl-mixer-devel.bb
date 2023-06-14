@@ -9,17 +9,16 @@ PV = "1.2.12"
 RPM_NAME = "libSDL_mixer-devel-1.2.12-8.29.aarch64.rpm"
 RPM_HASH = "747eddd0b0e45ca6bb0ba6d421c92ad7de5643803777191ae58f4ac3e58c44e28bfc66fec0536aada72d5c2b8a66a076785565ad4155cb87638d59fbc8bcd1e2"
 
-RPROVIDES:${PN} += "SDL_mixer-devel \
-libSDL_mixer-devel \
-libSDL_mixer-devel(aarch-64) \
-pkgconfig(SDL_mixer)"
+RPROVIDES:${PN} += "SDL-mixer-devel \
+libSDL-mixer-devel \
+pkgconfig-SDL-mixer"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libSDL_mixer-1_2-0 \
-libc.so.6()(64bit) \
-pkgconfig(sdl)"
+ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-mixer-1-2-0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6 \
+pkgconfig-sdl"
 
 inherit rpm

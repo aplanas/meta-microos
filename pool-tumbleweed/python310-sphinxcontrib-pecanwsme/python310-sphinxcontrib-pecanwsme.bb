@@ -9,11 +9,11 @@ RPM_HASH = "5a59749b9ba1da1ad9e0f34ea58894b4f484077118a1b39aa5d2f3e81de277cf823b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-pecanwsme \
-python3.10dist(sphinxcontrib-pecanwsme) \
+python3.10dist-sphinxcontrib-pecanwsme \
 python310-sphinxcontrib-pecanwsme \
-python3dist(sphinxcontrib-pecanwsme)"
+python3dist-sphinxcontrib-pecanwsme"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-sphinxcontrib-httpdomain"
 
 inherit rpm

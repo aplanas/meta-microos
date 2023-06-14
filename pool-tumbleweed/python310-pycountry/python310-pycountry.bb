@@ -13,11 +13,11 @@ RPM_HASH = "3593a852a14e52c5251ba17893a421a6af7104f1acb8ee956fd19322a3da901ab8f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycountry \
-python3.10dist(pycountry) \
+python3.10dist-pycountry \
 python310-pycountry \
-python3dist(pycountry)"
+python3dist-pycountry"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml"
 
 inherit rpm

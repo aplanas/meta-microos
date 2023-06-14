@@ -12,7 +12,7 @@ RPM_NAME = "texlive-dotseqn-2023.201.1.1svn17195-52.1.noarch.rpm"
 RPM_HASH = "b81bc95fb189f1c2a12c16038886ac1619403b104db3999d4461c714c7c0709613affa6081abab5647f6d3b45628e5fc81cfb6938fd55b4e1a773b4ed05119a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dotseqn.sty) \
+RPROVIDES:${PN} += "tex-dotseqn.sty \
 texlive-dotseqn"
 
 RDEPENDS:${PN} += "/bin/sh \

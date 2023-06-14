@@ -11,24 +11,24 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "LaTeXML"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Archive::Zip) \
-perl(DB_File) \
-perl(File::Which) \
-perl(Getopt::Long) \
-perl(IO::String) \
-perl(Image::Size) \
-perl(JSON::XS) \
-perl(LWP::Protocol::https) \
-perl(LaTeXML) \
-perl(Parse::RecDescent) \
-perl(Pod::Find) \
-perl(Test::Simple) \
-perl(Text::Unidecode) \
-perl(Time::HiRes) \
-perl(URI) \
-perl(UUID::Tiny) \
-perl(XML::LibXML) \
-perl(XML::LibXSLT)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Archive--Zip \
+perl-DB-File \
+perl-File--Which \
+perl-Getopt--Long \
+perl-IO--String \
+perl-Image--Size \
+perl-JSON--XS \
+perl-LWP--Protocol--https \
+perl-LaTeXML \
+perl-Parse--RecDescent \
+perl-Pod--Find \
+perl-Test--Simple \
+perl-Text--Unidecode \
+perl-Time--HiRes \
+perl-URI \
+perl-UUID--Tiny \
+perl-XML--LibXML \
+perl-XML--LibXSLT"
 
 inherit rpm

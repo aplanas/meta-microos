@@ -11,13 +11,13 @@ RPM_HASH = "d444f6db86b10020c879319aec4be224d947c172bb66f1a3dc8eaeb10dc6df03fbcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-platformio \
-python3.10dist(platformio) \
+python3.10dist-platformio \
 python310-platformio \
-python3dist(platformio)"
+python3dist-platformio"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiofiles \
 python310-ajsonrpc \
 python310-bottle \
@@ -27,7 +27,7 @@ python310-marshmallow \
 python310-pyelftools \
 python310-pyserial \
 python310-requests \
-python310-semantic_version \
+python310-semantic-version \
 python310-starlette \
 python310-tabulate \
 python310-uvicorn \

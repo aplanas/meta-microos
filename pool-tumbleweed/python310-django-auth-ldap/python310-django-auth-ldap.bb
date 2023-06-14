@@ -11,11 +11,11 @@ RPM_HASH = "c50cb1e4861c85dd99f011821a28cdfe76392b7de68a8bde02db9c593d11bd1337ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-auth-ldap \
-python3.10dist(django-auth-ldap) \
+python3.10dist-django-auth-ldap \
 python310-django-auth-ldap \
-python3dist(django-auth-ldap)"
+python3dist-django-auth-ldap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-ldap"
 

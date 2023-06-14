@@ -11,11 +11,11 @@ RPM_HASH = "a7b0a86153dbb52e804f7af4d5eaea7355ebc439b8c2d7faa4d19c39f902fbdb3867
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-parsimonious \
-python3.10dist(parsimonious) \
+python3.10dist-parsimonious \
 python310-parsimonious \
-python3dist(parsimonious)"
+python3dist-parsimonious"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-regex"
 
 inherit rpm

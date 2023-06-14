@@ -9,62 +9,51 @@ RPM_HASH = "097645782d21a6b2361f0f26676da70f77d1cfb59f78f37f5753c2cf169d6bfd6261
 
 RPROVIDES:${PN} += "kde-odf-thumbnail \
 kfileaudiopreview \
-kio-extras5 \
-kio-extras5(aarch-64)"
+kio-extras5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Activities.so.5()(64bit) \
-libKF5ActivitiesStats.so.1()(64bit) \
-libKF5Archive.so.5()(64bit) \
-libKF5Bookmarks.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5DNSSD.so.5()(64bit) \
-libKF5GuiAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KExiv2.so.15.0.0()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOFileWidgets.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5Solid.so.5()(64bit) \
-libKF5SyntaxHighlighting.so.5()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libimobiledevice-1.0.so.6()(64bit) \
-libkdsoap.so.2()(64bit) \
-libkioarchive.so.5()(64bit) \
-libmtp.so.9()(64bit) \
-libphonon4qt5.so.4()(64bit) \
-libplist-2.0.so.3()(64bit) \
-libsmbclient.so.0()(64bit) \
-libssh.so.4()(64bit) \
-libssh.so.4(LIBSSH_4_5_0)(64bit) \
-libssh.so.4(LIBSSH_4_7_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5Activities.so.5 \
+libKF5ActivitiesStats.so.1 \
+libKF5Archive.so.5 \
+libKF5Bookmarks.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5DNSSD.so.5 \
+libKF5GuiAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KExiv2.so.15.0.0 \
+libKF5KIOCore.so.5 \
+libKF5KIOFileWidgets.so.5 \
+libKF5KIOGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5Service.so.5 \
+libKF5Solid.so.5 \
+libKF5SyntaxHighlighting.so.5 \
+libOpenEXR-3-1.so.30 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Sql.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libimobiledevice-1.0.so.6 \
+libkdsoap.so.2 \
+libkioarchive.so.5 \
+libmtp.so.9 \
+libphonon4qt5.so.4 \
+libplist-2.0.so.3 \
+libsmbclient.so.0 \
+libssh.so.4 \
+libstdc++.so.6 \
+libtag.so.1"
 
 inherit rpm

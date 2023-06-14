@@ -29,11 +29,11 @@ RPM_HASH = "b33600b61b1ccfab0b3a6f3c890dcb581620575c0580e300a7a1ebe5664c3e39e863
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-seaborn \
-python3.10dist(seaborn) \
+python3.10dist-seaborn \
 python310-seaborn \
-python3dist(seaborn)"
+python3dist-seaborn"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-pandas"

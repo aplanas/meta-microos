@@ -14,15 +14,14 @@ PV = "0.21"
 RPM_NAME = "perl-Net-Pcap-0.21-1.3.aarch64.rpm"
 RPM_HASH = "6d261d50432932a23ef5b655f699cccdd45717f0d034ee8a29783e0aecb3105c946a37290b0c942441791f79af925fd1fe38f95afe2f4b7bf37af43e0d7f3e12"
 
-RPROVIDES:${PN} += "perl(Net::Pcap) \
-perl-Net-Pcap \
-perl-Net-Pcap(aarch-64)"
+RPROVIDES:${PN} += "perl-Net--Pcap \
+perl-Net-Pcap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcap.so.1()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Hexdumper) \
-perl(NetPacket)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcap.so.1 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Hexdumper \
+perl-NetPacket"
 
 inherit rpm

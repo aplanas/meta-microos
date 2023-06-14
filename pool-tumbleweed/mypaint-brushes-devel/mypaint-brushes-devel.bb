@@ -10,7 +10,7 @@ RPM_HASH = "f8db0d06273380d25544451d978327bc07f0fbc18af8b74688738dbbdce49c0e8c9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypaint-brushes-devel \
-pkgconfig(mypaint-brushes-2.0)"
+pkgconfig-mypaint-brushes-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mypaint-brushes"

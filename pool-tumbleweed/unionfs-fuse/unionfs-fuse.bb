@@ -13,11 +13,10 @@ PV = "2.1"
 RPM_NAME = "unionfs-fuse-2.1-1.8.aarch64.rpm"
 RPM_HASH = "9343f974581c132d176cb1ee7af334feb0f850de458227b45e5828c6fbf27609b44cb6af093ab0d48498852c1e4fac969ccd82ed5c39e75fea11ca945ca67e25"
 
-RPROVIDES:${PN} += "unionfs-fuse \
-unionfs-fuse(aarch-64)"
+RPROVIDES:${PN} += "unionfs-fuse"
 
 RDEPENDS:${PN} += "fuse \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit)"
+libc.so.6 \
+libfuse.so.2"
 
 inherit rpm

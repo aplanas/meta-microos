@@ -17,8 +17,8 @@ RPM_NAME = "texlive-media9-2023.201.1.25svn64047-52.1.noarch.rpm"
 RPM_HASH = "3ba2173f620eb9b84f5454c2550ccf27dea4d38c6c96ba09347d40ac1c2d0d1a605cf9330e7b425fc8074fdbb2257f20f9a84f9a48a9cf1a73ea221d50dad294"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(media9.sty) \
-tex(pdfbase.sty) \
+RPROVIDES:${PN} += "tex-media9.sty \
+tex-pdfbase.sty \
 texlive-media9"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ocgbase.sty) \
-tex(tikz.sty) \
+tex-ocgbase.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

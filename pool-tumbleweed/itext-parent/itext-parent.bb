@@ -9,7 +9,7 @@ RPM_HASH = "2e4671e3b6174b1da587d3fa49106dc320f2ee262f0ee7a8162fd66804a70739ffb5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itext-parent \
-mvn(com.itextpdf:itext-parent:pom:)"
+mvn-com.itextpdf-itext-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

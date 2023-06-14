@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "nemo-extension-nextcloud"
 RDEPENDS:${PN} += "nemo \
 nextcloud-desktop \
 python-nemo \
-typelib(GObject) \
-typelib(Nemo)"
+typelib-GObject \
+typelib-Nemo"
 
 inherit rpm

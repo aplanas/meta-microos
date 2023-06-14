@@ -12,11 +12,11 @@ RPROVIDES:${PN} += "libreoffice-help-hi \
 libreoffice-help-hi-IN \
 libreoffice-l10n-hi \
 libreoffice-l10n-hi-IN \
-locale(libreoffice:hi)"
+locale-libreoffice-hi"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \
-myspell-hi_IN"
+myspell-hi-IN"
 
 inherit rpm

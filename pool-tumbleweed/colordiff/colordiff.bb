@@ -11,7 +11,7 @@ RPM_HASH = "51caef57d096c5ed41cd545693e03a23a41ebb0081e07243445341940b38548da5f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colordiff \
-config(colordiff)"
+config-colordiff"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"

@@ -16,11 +16,11 @@ RPM_HASH = "a9f73a0eb98d75a0e76115c2f1a9b61141eff03bff904b8604c1b12c82b89ddb25c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-expect \
-python3.10dist(pytest-expect) \
+python3.10dist-pytest-expect \
 python310-pytest-expect \
-python3dist(pytest-expect)"
+python3dist-pytest-expect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-six \
 python310-u-msgpack-python"

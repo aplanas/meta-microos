@@ -13,12 +13,11 @@ PV = "2022.10.16"
 RPM_NAME = "schily-ctags-2022.10.16-47.3.aarch64.rpm"
 RPM_HASH = "f37f59b5a82d983c8c50ed740095cae02e13a11cce33bde1e0218ebea5f4c1ad82a59160842170bd3b85acad85fa1fb51a76cdc2d1bb9506bc0033c99126bf08"
 
-RPROVIDES:${PN} += "schily-ctags \
-schily-ctags(aarch-64)"
+RPROVIDES:${PN} += "schily-ctags"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 update-alternatives"
 
 inherit rpm

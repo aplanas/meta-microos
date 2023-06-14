@@ -10,13 +10,12 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-module-mmnormalize-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "c3ecbd1343662ffadaf6bd6acbb92c8fa32417ddee59e04919f46cf89f541d210751c529a75ed0b5defb97c73d6ea10269ceb1dd1558c35cb8bddf660b1cf6de"
 
-RPROVIDES:${PN} += "rsyslog-module-mmnormalize \
-rsyslog-module-mmnormalize(aarch-64)"
+RPROVIDES:${PN} += "rsyslog-module-mmnormalize"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfastjson.so.4()(64bit) \
-liblognorm.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfastjson.so.4 \
+liblognorm.so.5 \
 rsyslog"
 
 inherit rpm

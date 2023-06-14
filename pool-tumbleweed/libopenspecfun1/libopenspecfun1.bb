@@ -14,16 +14,14 @@ PV = "0.5.5"
 RPM_NAME = "libopenspecfun1-0.5.5-1.3.aarch64.rpm"
 RPM_HASH = "a09d92cfd9cf6fd40e84f9a8a2ce53998a225aafc30d9425d746a6437ceac1ab44ab0d1f5603cfe72db0488cfd18f02f337c9d29f000c1ec69290e90d04db8d9"
 
-RPROVIDES:${PN} += "libopenspecfun.so.1()(64bit) \
-libopenspecfun1 \
-libopenspecfun1(aarch-64)"
+RPROVIDES:${PN} += "libopenspecfun.so.1 \
+libopenspecfun1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6"
 
 inherit rpm

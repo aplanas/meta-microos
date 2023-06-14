@@ -11,11 +11,11 @@ RPM_HASH = "bbb851939b07c398bc15a1f287b38e5207670f1cd0900b11c88990a0ef987d1a6881
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-twisted \
-python3.10dist(pytest-twisted) \
+python3.10dist-pytest-twisted \
 python310-pytest-twisted \
-python3dist(pytest-twisted)"
+python3dist-pytest-twisted"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Twisted \
 python310-decorator \
 python310-greenlet \

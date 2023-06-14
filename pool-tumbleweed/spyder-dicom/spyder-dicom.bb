@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "spyder-dicom \
 spyder3-dicom"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-pydicom \
 spyder"
 

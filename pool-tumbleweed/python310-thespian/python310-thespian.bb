@@ -28,11 +28,11 @@ RPM_HASH = "dae0822ce505376e090b2581bacfe6eb6fcf76ac9678ed5ce1e4c1585c8f4e1cce16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-thespian \
-python3.10dist(thespian) \
+python3.10dist-thespian \
 python310-thespian \
-python3dist(thespian)"
+python3dist-thespian"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setproctitle"
 
 inherit rpm

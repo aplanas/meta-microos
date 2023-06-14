@@ -21,11 +21,11 @@ RPM_HASH = "c3c2211283e876fe1c584635002ca9a262ac3e43b8d55971459895c9f2089e7f7845
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-discid \
-python3.10dist(discid) \
+python3.10dist-discid \
 python310-discid \
-python3dist(discid)"
+python3dist-discid"
 
 RDEPENDS:${PN} += "libdiscid0 \
-python(abi)"
+python-abi"
 
 inherit rpm

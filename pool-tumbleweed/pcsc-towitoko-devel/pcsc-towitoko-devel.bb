@@ -14,8 +14,7 @@ PV = "2.0.8"
 RPM_NAME = "pcsc-towitoko-devel-2.0.8-1.2.aarch64.rpm"
 RPM_HASH = "63a08ca8ef99627d3c62f78a1d3d7a7361e320462666a4f2ef75e2620f755cf4bbf6eb4a197e5144167b9d28a9947a2fdadd1c1176c4d663765663812ec47eb1"
 
-RPROVIDES:${PN} += "pcsc-towitoko-devel \
-pcsc-towitoko-devel(aarch-64)"
+RPROVIDES:${PN} += "pcsc-towitoko-devel"
 
 RDEPENDS:${PN} += "libtowitoko2"
 

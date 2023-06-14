@@ -13,12 +13,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyX \
 python3-pyx \
-python3.10dist(pyx) \
+python3.10dist-pyx \
 python310-PyX \
 python310-pyx \
-python3dist(pyx)"
+python3dist-pyx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 texlive-latex-bin-bin \
 texlive-tex-bin \
 texlive-texware-bin"

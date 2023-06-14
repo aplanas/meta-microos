@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dictpath \
 python3-pathable \
-python3.10dist(pathable) \
+python3.10dist-pathable \
 python310-dictpath \
 python310-pathable \
-python3dist(pathable)"
+python3dist-pathable"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

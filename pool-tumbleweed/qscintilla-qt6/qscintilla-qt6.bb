@@ -10,19 +10,16 @@ PV = "2.13.4"
 RPM_NAME = "qscintilla-qt6-2.13.4-1.5.aarch64.rpm"
 RPM_HASH = "942e839b28c508cd48fcb1c77552a4890204444b74a8e92841bf2e4ea3818ced76c75b091c597d8bb6beb68e0070d61b9262a96e9e63f87a81db6ac756a0727d"
 
-RPROVIDES:${PN} += "libqscintillaplugin.so()(64bit) \
+RPROVIDES:${PN} += "libqscintillaplugin.so \
 qscintilla-qt6 \
-qscintilla-qt6(aarch-64) \
-qscintilla2_qt6"
+qscintilla2-qt6"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libqscintilla2_qt6.so.15()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libqscintilla2-qt6.so.15 \
+libstdc++.so.6"
 
 inherit rpm

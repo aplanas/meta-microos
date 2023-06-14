@@ -8,15 +8,14 @@ PV = "2.13.0"
 RPM_NAME = "ftsdf-2.13.0-4.1.aarch64.rpm"
 RPM_HASH = "1f7d30fc39582694975ff614f2490a40a9af13e6b6cc24d7713809350240706f7ce65670c11a61717b747f7f31259945dd98852bcd097e469d49985dbe62408f"
 
-RPROVIDES:${PN} += "ftsdf \
-ftsdf(aarch-64)"
+RPROVIDES:${PN} += "ftsdf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfreetype.so.6()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-librsvg-2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libfreetype.so.6 \
+libgobject-2.0.so.0 \
+librsvg-2.so.2"
 
 inherit rpm

@@ -10,30 +10,26 @@ PV = "1.0.27"
 RPM_NAME = "gnome-genius-1.0.27-1.9.aarch64.rpm"
 RPM_HASH = "ea26353d592c4bbe962c1e924238cffe64b7e28246dc42076fc855d2033fbfc6e8e2c904557d7c2d4b64fc3238cd03274035af956f0c0c03b1cc055f255d38f1"
 
-RPROVIDES:${PN} += "application() \
-application(gnome-genius.desktop) \
-gnome-genius \
-gnome-genius(aarch-64) \
-mimehandler(text/x-genius)"
+RPROVIDES:${PN} += "gnome-genius"
 
 RDEPENDS:${PN} += "genius \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgmp.so.10()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtksourceview-4.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmpfr.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libreadline.so.8()(64bit) \
-libvte-2.91.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgmp.so.10 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtksourceview-4.so.0 \
+libm.so.6 \
+libmpfr.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libreadline.so.8 \
+libvte-2.91.so.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "6d7efce64c6a3c73c68a027e1a98f37dddd9f07d85ada5771660f9637963115e0d5d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-casttube \
-python3.10dist(casttube) \
+python3.10dist-casttube \
 python310-casttube \
-python3dist(casttube)"
+python3dist-casttube"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

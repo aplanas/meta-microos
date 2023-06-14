@@ -14,34 +14,33 @@ RPM_HASH = "bce4317651d0972d94594d4fe228aa42a5f4f3afa562ff5bcf102400323e0f6985bd
 
 RPROVIDES:${PN} += "python3-wxPython \
 python3-wxWidgets \
-python3.10dist(wxpython) \
+python3.10dist-wxpython \
 python310-wxPython \
-python310-wxPython(aarch-64) \
 python310-wxWidgets \
-python3dist(wxpython)"
+python3dist-wxpython"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_net-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_gl-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_media-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_propgrid-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_ribbon-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_richtext-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_stc-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_webview-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_xrc-suse.so.9.0.0()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-net-suse.so.9.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-gtk3u-aui-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-gl-suse.so.9.0.0 \
+libwx-gtk3u-html-suse.so.9.0.0 \
+libwx-gtk3u-media-suse.so.9.0.0 \
+libwx-gtk3u-propgrid-suse.so.9.0.0 \
+libwx-gtk3u-ribbon-suse.so.9.0.0 \
+libwx-gtk3u-richtext-suse.so.9.0.0 \
+libwx-gtk3u-stc-suse.so.9.0.0 \
+libwx-gtk3u-webview-suse.so.9.0.0 \
+libwx-gtk3u-xrc-suse.so.9.0.0 \
+python-abi \
 python310-six \
 update-alternatives"
 

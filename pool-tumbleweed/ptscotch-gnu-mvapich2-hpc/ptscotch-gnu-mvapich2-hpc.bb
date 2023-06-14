@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ptscotch-gnu-mvapich2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ptscotch_6_1_0-gnu-mvapich2-hpc"
+ptscotch-6-1-0-gnu-mvapich2-hpc"
 
 inherit rpm

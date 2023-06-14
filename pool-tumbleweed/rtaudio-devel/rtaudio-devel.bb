@@ -10,14 +10,13 @@ PV = "5.1.0"
 RPM_NAME = "rtaudio-devel-5.1.0-1.15.aarch64.rpm"
 RPM_HASH = "886fe14af9e8360b5148f6d1461d18e6432a9088b70268112adcbfc949e3ecf6b3f7b3b33b0184f681cf70a377ffba3633236d8fd98515dbec29f1dd64a745ef"
 
-RPROVIDES:${PN} += "pkgconfig(rtaudio) \
-rtaudio-devel \
-rtaudio-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-rtaudio \
+rtaudio-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librtaudio6 \
-pkgconfig(alsa) \
-pkgconfig(jack) \
-pkgconfig(libpulse-simple)"
+pkgconfig-alsa \
+pkgconfig-jack \
+pkgconfig-libpulse-simple"
 
 inherit rpm

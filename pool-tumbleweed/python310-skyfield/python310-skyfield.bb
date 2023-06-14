@@ -10,11 +10,11 @@ RPM_HASH = "5309cbf20bfde5ed872c8073ddc0a980c57d0ee01bff0cd00a3074961b6369b46a84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-skyfield \
-python3.10dist(skyfield) \
+python3.10dist-skyfield \
 python310-skyfield \
-python3dist(skyfield)"
+python3dist-skyfield"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-astropy \
 python310-beautifulsoup4 \
 python310-certifi \

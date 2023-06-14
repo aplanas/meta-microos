@@ -32,14 +32,13 @@ RPM_NAME = "ghc-safe-0.3.19-4.3.aarch64.rpm"
 RPM_HASH = "a43cd6394eac407b5f5c8d53f880c93269514f4f58e3391f32c0eee6e5126f2f8217a8c5afdb02ad0be8afc7b79f93b652f43fedba2f86b6010d6aa0ce0607dc"
 
 RPROVIDES:${PN} += "ghc-safe \
-ghc-safe(aarch-64) \
-libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so()(64bit)"
+libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
-libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
-libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
+libHSghc-bignum-1.3-ghc9.4.5.so \
+libHSghc-prim-0.9.0-ghc9.4.5.so \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6"
 
 inherit rpm

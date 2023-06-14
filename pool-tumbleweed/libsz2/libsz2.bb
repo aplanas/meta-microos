@@ -8,12 +8,11 @@ PV = "1.0.6"
 RPM_NAME = "libsz2-1.0.6-1.7.aarch64.rpm"
 RPM_HASH = "e559ddb785cb7882628638720bdc3af1a3bff7578875a327a8a195d56a3888d7f917b2e04189e3765c11b030058d10fe52928d883edcf77684557c316f99d0aa"
 
-RPROVIDES:${PN} += "libsz.so.2()(64bit) \
-libsz2 \
-libsz2(aarch-64)"
+RPROVIDES:${PN} += "libsz.so.2 \
+libsz2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

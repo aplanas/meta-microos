@@ -11,7 +11,7 @@ RPM_NAME = "texlive-subfigmat-2023.201.1.0svn20308-57.1.noarch.rpm"
 RPM_HASH = "3738cd68fde5ca9d3400f8009a5c328b58fd79dbfdefdb685b845ed73461f3cab73a1ac34ce2ab50b08c1a52c6faebbfd20ea1beb8ce07b1d761e3567dd54cca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(subfigmat.sty) \
+RPROVIDES:${PN} += "tex-subfigmat.sty \
 texlive-subfigmat"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(subfigure.sty) \
+tex-subfigure.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

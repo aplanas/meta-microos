@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "slurm-sjstat"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
+perl--MODULE-COMPAT-5.36.0 \
 slurm"
 
 inherit rpm

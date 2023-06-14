@@ -10,10 +10,10 @@ RPM_HASH = "9c5ebea977726af7ee02e8e82c3289885b969657d2a45ad873b5c61c5d70f906cb4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-extraphrase-devel \
-pkgconfig(ibus-table-extraphrase)"
+pkgconfig-ibus-table-extraphrase"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ibus-table-extraphrase \
-pkgconfig(ibus-table)"
+pkgconfig-ibus-table"
 
 inherit rpm

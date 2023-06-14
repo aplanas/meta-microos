@@ -8,15 +8,14 @@ PV = "0.10.1"
 RPM_NAME = "lirc-drv-ftdi-0.10.1-10.1.aarch64.rpm"
 RPM_HASH = "33df61436a3eca3c6402f01544dee05b2205d641c5accc8276cbeb4cc2ab9062a32b939a71da2ef56e6f8170076a6de362dd88afe65b95f761cad47ef7f77a64"
 
-RPROVIDES:${PN} += "lirc-drv-ftdi \
-lirc-drv-ftdi(aarch-64)"
+RPROVIDES:${PN} += "lirc-drv-ftdi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libftdi1.so.2()(64bit) \
-liblirc.so.0()(64bit) \
-liblirc_driver.so.0()(64bit) \
-libusb-1.0.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libftdi1.so.2 \
+liblirc-driver.so.0 \
+liblirc.so.0 \
+libusb-1.0.so.0 \
 lirc-core"
 
 inherit rpm

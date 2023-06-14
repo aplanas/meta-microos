@@ -20,7 +20,7 @@ RPM_NAME = "texlive-pdfcolmk-2023.201.2.0svn52912-51.1.noarch.rpm"
 RPM_HASH = "91c86f2b9b553c84a7a23f3c0b4791453a8fefabf9d11adf9ad7f6c6354cf4767ad1b534623fc3a8a569559e70f2fac56f81d6e8aeda18edf1d9bfee8454b93c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfcolmk.sty) \
+RPROVIDES:${PN} += "tex-pdfcolmk.sty \
 texlive-pdfcolmk"
 
 RDEPENDS:${PN} += "/bin/sh \

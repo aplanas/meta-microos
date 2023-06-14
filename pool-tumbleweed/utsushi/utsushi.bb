@@ -13,41 +13,39 @@ PV = "1638580181.839d06a"
 RPM_NAME = "utsushi-1638580181.839d06a-2.9.aarch64.rpm"
 RPM_HASH = "026e763432404bd5d2183cc3367cf1e751b46ea7ef42f2b95b334d999e8b4a50ce756725798044dd3532af674bae664d001f508c81fd38742ac9d17108a0f987"
 
-RPROVIDES:${PN} += "config(utsushi) \
+RPROVIDES:${PN} += "config-utsushi \
 imagescan \
-libcnx-hexdump.so()(64bit) \
-libcnx-usb.so()(64bit) \
-libdrv-combo.so()(64bit) \
-libdrv-esci.so()(64bit) \
-libflt-all.so()(64bit) \
-libsane.so.1()(64bit) \
-libutsushi-gtkmm.so()(64bit) \
-libutsushi.so()(64bit) \
-utsushi \
-utsushi(aarch-64)"
+libcnx-hexdump.so \
+libcnx-usb.so \
+libdrv-combo.so \
+libdrv-esci.so \
+libflt-all.so \
+libsane.so.1 \
+libutsushi-gtkmm.so \
+libutsushi.so \
+utsushi"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libMagick++-7.Q16HDRI.so.5()(64bit) \
-libatkmm-1.6.so.1()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdkmm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtkmm-2.4.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libltdl.so.7()(64bit) \
-libm.so.6()(64bit) \
-libpangomm-1.4.so.1()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libMagick++-7.Q16HDRI.so.5 \
+libatkmm-1.6.so.1 \
+libboost-filesystem.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdkmm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgobject-2.0.so.0 \
+libgtkmm-2.4.so.1 \
+libjpeg.so.8 \
+libltdl.so.7 \
+libm.so.6 \
+libpangomm-1.4.so.1 \
+libsigc-2.0.so.0 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libudev.so.1 \
+libusb-1.0.so.0"
 
 inherit rpm

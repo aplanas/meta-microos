@@ -11,11 +11,11 @@ RPM_HASH = "607b358bee568f69b1f87be8e7922cb73016e426fc9562035a60aac66eafd6eed321
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-servicemanagement-legacy \
-python3.10dist(azure-servicemanagement-legacy) \
+python3.10dist-azure-servicemanagement-legacy \
 python310-azure-servicemanagement-legacy \
-python3dist(azure-servicemanagement-legacy)"
+python3dist-azure-servicemanagement-legacy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-requests"

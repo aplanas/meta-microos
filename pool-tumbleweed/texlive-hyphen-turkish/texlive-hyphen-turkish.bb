@@ -14,9 +14,9 @@ RPM_NAME = "texlive-hyphen-turkish-2023.201.svn58652-52.1.noarch.rpm"
 RPM_HASH = "e7f6847f64319dcaba24c8221783aaaba4081254e2c904fc31e903965f18c7761e09714436bbfca20e5ea1f595ac47f641135758977feda22c24cdb81efddad8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hyph-tr.ec.tex) \
-tex(hyph-tr.tex) \
-tex(loadhyph-tr.tex) \
+RPROVIDES:${PN} += "tex-hyph-tr.ec.tex \
+tex-hyph-tr.tex \
+tex-loadhyph-tr.tex \
 texlive-hyphen-turkish"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

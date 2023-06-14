@@ -8,12 +8,11 @@ PV = "1.0.3_git201003141408"
 RPM_NAME = "lockdev-1.0.3_git201003141408-31.20.aarch64.rpm"
 RPM_HASH = "f593710d7d9dead764c33c9670af8ce6ba1c02b4d479900c8aafac7e90199d7b63e1dffe904bd0c324a458ae620d0b7819d2ba6ea952b27274674b5873fc3674"
 
-RPROVIDES:${PN} += "lockdev \
-lockdev(aarch-64)"
+RPROVIDES:${PN} += "lockdev"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6()(64bit) \
-liblockdev.so.1()(64bit) \
+libc.so.6 \
+liblockdev.so.1 \
 permissions \
 pwdutils"
 

@@ -12,18 +12,17 @@ PV = "2.4.12.0"
 RPM_NAME = "OpenImageIO-2.4.12.0-1.1.aarch64.rpm"
 RPM_HASH = "63dc5db5ea171058d1757cbd6d3f41cedcacc27357b4d940752697979d53a51eceeff4fe2254feb76aba61fba51b9d91d631880e1c7037594988534c35178c7f"
 
-RPROVIDES:${PN} += "OpenImageIO \
-OpenImageIO(aarch-64)"
+RPROVIDES:${PN} += "OpenImageIO"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libIlmThread-3_1.so.30()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libOpenImageIO.so.2.4()(64bit) \
-libOpenImageIO_Util.so.2.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libIlmThread-3-1.so.30 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libOpenImageIO-Util.so.2.4 \
+libOpenImageIO.so.2.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

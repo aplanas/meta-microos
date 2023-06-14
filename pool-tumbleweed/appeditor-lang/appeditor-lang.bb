@@ -10,17 +10,17 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appeditor-lang \
 appeditor-lang-all \
-locale(appeditor:ca) \
-locale(appeditor:de) \
-locale(appeditor:es) \
-locale(appeditor:fr) \
-locale(appeditor:it) \
-locale(appeditor:ja) \
-locale(appeditor:lt) \
-locale(appeditor:pt) \
-locale(appeditor:pt_BR) \
-locale(appeditor:ru) \
-locale(appeditor:tr)"
+locale-appeditor-ca \
+locale-appeditor-de \
+locale-appeditor-es \
+locale-appeditor-fr \
+locale-appeditor-it \
+locale-appeditor-ja \
+locale-appeditor-lt \
+locale-appeditor-pt \
+locale-appeditor-pt-BR \
+locale-appeditor-ru \
+locale-appeditor-tr"
 
 RDEPENDS:${PN} += "appeditor"
 

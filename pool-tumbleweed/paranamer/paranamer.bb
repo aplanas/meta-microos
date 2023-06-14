@@ -12,9 +12,9 @@ RPM_NAME = "paranamer-2.8-2.10.noarch.rpm"
 RPM_HASH = "8505b27763f5219e2487956f0f4b3146d15435f350b077d1998a8e34b450d833e45be67fa923af210a419ce7d25e53fe1ead781de3382c61bd29bc90bbf6deb5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.thoughtworks.paranamer:paranamer) \
-mvn(com.thoughtworks.paranamer:paranamer:pom:) \
-osgi(com.thoughtworks.paranamer) \
+RPROVIDES:${PN} += "mvn-com.thoughtworks.paranamer-paranamer \
+mvn-com.thoughtworks.paranamer-paranamer-pom- \
+osgi-com.thoughtworks.paranamer \
 paranamer"
 
 RDEPENDS:${PN} += "java-headless \

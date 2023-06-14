@@ -10,9 +10,9 @@ RPM_NAME = "texlive-yafoot-2023.201.1.1svn48568-52.1.noarch.rpm"
 RPM_HASH = "cfa9b4e67441e9c1f96c771935bc494f8bcc9e7e6be04879c828c5e5fc2ca38a2acf8acf693f2215ed9e127bde954d88b756c124815a48b652eccb2d7562a145"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dblfnote.sty) \
-tex(fnpos.sty) \
-tex(pfnote.sty) \
+RPROVIDES:${PN} += "tex-dblfnote.sty \
+tex-fnpos.sty \
+tex-pfnote.sty \
 texlive-yafoot"
 
 RDEPENDS:${PN} += "/bin/sh \

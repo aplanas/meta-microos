@@ -15,8 +15,7 @@ RPM_NAME = "libiir-devel-1.9.4-1.3.aarch64.rpm"
 RPM_HASH = "375f9ac0a50b7295e3b952b768513fd3ec36d9de2f947807849111ec0e146427a6f1e350932a61ab92c3806592c95597ab6025a6690e8936cd7bb24007596755"
 
 RPROVIDES:${PN} += "libiir-devel \
-libiir-devel(aarch-64) \
-pkgconfig(iir)"
+pkgconfig-iir"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libiir1"

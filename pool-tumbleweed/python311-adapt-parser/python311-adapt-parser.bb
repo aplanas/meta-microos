@@ -10,10 +10,10 @@ RPM_NAME = "python311-adapt-parser-1.0.0-2.3.noarch.rpm"
 RPM_HASH = "ded439fe405217c81db51c215e2facb9e3fe0478feec046f9c28115152f8b92352b6e798b6b2c7473e2f67ffac46a816bc8cf62fc9f3f81c88efd2c672a5da78"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(adapt-parser) \
+RPROVIDES:${PN} += "python3.11dist-adapt-parser \
 python311-adapt-parser \
-python3dist(adapt-parser)"
+python3dist-adapt-parser"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -10,13 +10,12 @@ PV = "9.24.61"
 RPM_NAME = "dracut-kiwi-verity-9.24.61-1.1.aarch64.rpm"
 RPM_HASH = "68fa06ee4700d2196186518ed3d08f82ffe59b243c04307b49db1085cc4bada93478f33ff4f00974c3f9bcf66bdb76d98dc24411779d69e836132558df0738df"
 
-RPROVIDES:${PN} += "dracut-kiwi-verity \
-dracut-kiwi-verity(aarch-64)"
+RPROVIDES:${PN} += "dracut-kiwi-verity"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dracut \
 dracut-kiwi-lib \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

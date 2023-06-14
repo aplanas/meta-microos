@@ -10,10 +10,10 @@ RPM_NAME = "perl-App-Rad-Plugin-MoreHelp-0.0001-2.23.noarch.rpm"
 RPM_HASH = "582aaea7130b7a2b3729d8ca58542785bd9eaccc4a5e51571b8c88f76cb35dce3ae060f942933a672edf7eb1a05c489ae3ad2c21dedf3a4b77a09a4564258bea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(App::Rad::Plugin::MoreHelp) \
+RPROVIDES:${PN} += "perl-App--Rad--Plugin--MoreHelp \
 perl-App-Rad-Plugin-MoreHelp"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(App::Rad)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-App--Rad"
 
 inherit rpm

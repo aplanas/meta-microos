@@ -12,13 +12,12 @@ PV = "1.23"
 RPM_NAME = "lzip-1.23-1.7.aarch64.rpm"
 RPM_HASH = "f04fcc585c18465a4c31fb2cfb0de6928c9a63dadf78aa0280fc4d7d85c8375d24a9895f1885e06f6560838c377b0a39727f92d5d624d081f2d1d8049138e30c"
 
-RPROVIDES:${PN} += "lzip \
-lzip(aarch-64)"
+RPROVIDES:${PN} += "lzip"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

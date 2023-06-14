@@ -14,13 +14,12 @@ RPM_NAME = "msitools-devel-0.101-1.10.aarch64.rpm"
 RPM_HASH = "b7a5befd8ec3fa63d430fcd5421e817ee969ab7dfda59555ca073655eb54a728ce0be247ee817721bd99bbb2e438aade813f87679016bcbcd414b5038c968c54"
 
 RPROVIDES:${PN} += "msitools-devel \
-msitools-devel(aarch-64) \
-pkgconfig(libmsi-1.0)"
+pkgconfig-libmsi-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmsi0 \
 msitools \
-pkgconfig(gio-2.0) \
-typelib-1_0-Libmsi-1_0"
+pkgconfig-gio-2.0 \
+typelib-1-0-Libmsi-1-0"
 
 inherit rpm

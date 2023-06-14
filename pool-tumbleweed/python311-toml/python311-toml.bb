@@ -21,10 +21,10 @@ RPM_NAME = "python311-toml-0.10.2-3.1.noarch.rpm"
 RPM_HASH = "f0fdce4bb6e4abef281d9b23ab992d486864639b2e4ac5155330c6b428f312c745a66e0e7cb2919630777e13d615f45d650e7b7440f1cbaa2b8dfa96b9087775"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(toml) \
+RPROVIDES:${PN} += "python3.11dist-toml \
 python311-toml \
-python3dist(toml)"
+python3dist-toml"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

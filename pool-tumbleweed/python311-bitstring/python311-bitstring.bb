@@ -15,10 +15,10 @@ RPM_NAME = "python311-bitstring-3.1.9-1.6.noarch.rpm"
 RPM_HASH = "aaabc7aca4cf1e24cfc39dde61402fe81e82c54bc70dd13b531f181090ccfb0dc1030b764e45eab68b008046bf29cfcf0820a7014105365cce78ab7a64da9027"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(bitstring) \
+RPROVIDES:${PN} += "python3.11dist-bitstring \
 python311-bitstring \
-python3dist(bitstring)"
+python3dist-bitstring"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

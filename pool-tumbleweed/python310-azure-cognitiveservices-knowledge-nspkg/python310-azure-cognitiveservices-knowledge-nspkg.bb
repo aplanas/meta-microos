@@ -13,9 +13,9 @@ RPM_HASH = "b9d196fff0bb6c44a9acd643927138591d66a3083a7bd2200c1b3316c4930e01c3f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-knowledge-nspkg \
-python3.10dist(azure-cognitiveservices-knowledge-nspkg) \
+python3.10dist-azure-cognitiveservices-knowledge-nspkg \
 python310-azure-cognitiveservices-knowledge-nspkg \
-python3dist(azure-cognitiveservices-knowledge-nspkg)"
+python3dist-azure-cognitiveservices-knowledge-nspkg"
 
 RDEPENDS:${PN} += "python310-azure-cognitiveservices-nspkg \
 python310-azure-nspkg"

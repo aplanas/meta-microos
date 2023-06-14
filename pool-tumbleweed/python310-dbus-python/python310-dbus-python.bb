@@ -10,16 +10,14 @@ RPM_HASH = "fa101f86639c1435ecbd628cd5e58c659ed8b01fb4aa685ab699b7e74a7f3d82ee1a
 RPROVIDES:${PN} += "dbus-1-python3 \
 dbus-1-python310 \
 python3-dbus-python \
-python310-dbus-python \
-python310-dbus-python(aarch-64)"
+python310-dbus-python"
 
 RDEPENDS:${PN} += "dbus-1 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libglib-2.0.so.0()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libglib-2.0.so.0 \
+python-abi \
 python310-gobject \
 python310-xml"
 

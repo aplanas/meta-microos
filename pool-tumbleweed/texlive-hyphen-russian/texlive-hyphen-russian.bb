@@ -14,9 +14,9 @@ RPM_NAME = "texlive-hyphen-russian-2023.201.svn58609-52.1.noarch.rpm"
 RPM_HASH = "375c0e133601adda1680ecab7d50d5ac470ba009b0136e5f913757e6a236320f505b07f3bb6dd7eeb994f2cfbe56da4f9758e37116c0bad992c416e7adbf6a7e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hyph-ru.t2a.tex) \
-tex(hyph-ru.tex) \
-tex(loadhyph-ru.tex) \
+RPROVIDES:${PN} += "tex-hyph-ru.t2a.tex \
+tex-hyph-ru.tex \
+tex-loadhyph-ru.tex \
 texlive-hyphen-russian"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

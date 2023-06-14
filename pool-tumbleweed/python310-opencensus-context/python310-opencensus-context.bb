@@ -11,10 +11,10 @@ RPM_HASH = "c9fc78ffbc7f22a570174915b2d9d35fd92775a2aa3e1cb6eadd3d5e05ea07c7fa4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opencensus-context \
-python3.10dist(opencensus-context) \
+python3.10dist-opencensus-context \
 python310-opencensus-context \
-python3dist(opencensus-context)"
+python3dist-opencensus-context"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

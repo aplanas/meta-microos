@@ -10,7 +10,7 @@ RPM_NAME = "texlive-tkz-fct-2023.201.1.7csvn61949-52.1.noarch.rpm"
 RPM_HASH = "aa2e9b59cf554cc7487046d271c95f2646910a4649ac663a29d3074fd75cc20424c621d553db440340de6af0a4221e893b144add2544d5794909c9a07a80b620"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tkz-fct.sty) \
+RPROVIDES:${PN} += "tex-tkz-fct.sty \
 texlive-tkz-fct"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(fp.sty) \
-tex(tkz-base.sty) \
+tex-fp.sty \
+tex-tkz-base.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

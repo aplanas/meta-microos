@@ -7,19 +7,18 @@ PV = "4.5"
 RPM_NAME = "perftest-4.5-2.3.aarch64.rpm"
 RPM_HASH = "36537265de1882c1ac97365085d5ac622781fad5c4a0819a1eee96ce82718d3e3f0ec17541b4ce65d3213c6fa1614b45e2f36b61155c25af2c96d20e16772d38"
 
-RPROVIDES:${PN} += "perftest \
-perftest(aarch-64)"
+RPROVIDES:${PN} += "perftest"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libefa.so.1()(64bit) \
-libibumad.so.3()(64bit) \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmlx5.so.1()(64bit) \
-libpci.so.3()(64bit) \
-librdmacm.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libefa.so.1 \
+libibumad.so.3 \
+libibverbs.so.1 \
+libm.so.6 \
+libmlx5.so.1 \
+libpci.so.3 \
+librdmacm.so.1"
 
 inherit rpm

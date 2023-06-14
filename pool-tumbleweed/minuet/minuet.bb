@@ -15,29 +15,21 @@ PV = "23.04.1"
 RPM_NAME = "minuet-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "b3cb48e09e7c199e8f1d843e26143c6fe8e7136e5b4f4828a9b809253e3029e463183cd3b068167fb27c9d39ed00971fcf238913511de2aa2fce910457eb0f46"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.minuet.desktop) \
-libminuetinterfaces.so.0.3.0()(64bit) \
-metainfo() \
-metainfo(org.kde.minuet.appdata.xml) \
-minuet \
-minuet(aarch-64)"
+RPROVIDES:${PN} += "libminuetinterfaces.so.0.3.0 \
+minuet"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libfluidsynth.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5I18n.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libc.so.6 \
+libfluidsynth.so.3 \
+libgcc-s.so.1 \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

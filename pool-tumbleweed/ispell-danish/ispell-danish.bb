@@ -12,9 +12,8 @@ RPM_HASH = "6781665d0225fbb17a87ac8009304421ac3a00a3ba6346715b143a56a98e8a707ac0
 
 RPROVIDES:${PN} += "idanish \
 ispell-danish \
-ispell-danish(aarch-64) \
-ispell_dictionary \
-locale(ispell:da)"
+ispell-dictionary \
+locale-ispell-da"
 
 RDEPENDS:${PN} += ""
 

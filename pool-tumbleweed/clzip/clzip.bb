@@ -14,12 +14,11 @@ PV = "1.13"
 RPM_NAME = "clzip-1.13-1.7.aarch64.rpm"
 RPM_HASH = "4d0832ca54aab57acbfee1bef3f01899ca9b158603d03a415dc00ab260d2ed5b05e35b6238dd7a31ab6d060c5db15be06259f92d882d400469817fb38e039e55"
 
-RPROVIDES:${PN} += "clzip \
-clzip(aarch-64)"
+RPROVIDES:${PN} += "clzip"
 
 RDEPENDS:${PN} += "/bin/sh \
 info \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

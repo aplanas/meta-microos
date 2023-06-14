@@ -10,12 +10,11 @@ PV = "7.5.0+r278197"
 RPM_NAME = "libgomp1-gcc7-7.5.0+r278197-14.3.aarch64.rpm"
 RPM_HASH = "e72cd59d968258442811277cab1045080a8b8bac0fb1350a6f44f15d02e6197e2190e882a9fce842ae1540a43aee9d53e0d5d1c1f422cc72083e1b2225498131"
 
-RPROVIDES:${PN} += "libgomp.so.1()(64bit) \
+RPROVIDES:${PN} += "libgomp.so.1 \
 libgomp1 \
-libgomp1-gcc7 \
-libgomp1-gcc7(aarch-64)"
+libgomp1-gcc7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

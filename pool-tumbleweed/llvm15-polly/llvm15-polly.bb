@@ -13,13 +13,12 @@ RPM_NAME = "llvm15-polly-15.0.7-2.4.aarch64.rpm"
 RPM_HASH = "cb51d4acda9a5bbd7a08842e12d863b4e961ffa6ce924cc0eea699c63cd0945fc3026ce0f662d5fc6c36b4bc18e0ee3b966c26358cbaf97241fac88b413436c2"
 
 RPROVIDES:${PN} += "llvm-polly-provider \
-llvm15-polly \
-llvm15-polly(aarch-64)"
+llvm15-polly"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -14,14 +14,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "innotop"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(DBD::mysql) \
-perl(DBI) \
-perl(File::Basename) \
-perl(File::Temp) \
-perl(Getopt::Long) \
-perl(List::Util) \
-perl(Term::ReadKey) \
-perl(Time::HiRes)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-DBD--mysql \
+perl-DBI \
+perl-File--Basename \
+perl-File--Temp \
+perl-Getopt--Long \
+perl-List--Util \
+perl-Term--ReadKey \
+perl-Time--HiRes"
 
 inherit rpm

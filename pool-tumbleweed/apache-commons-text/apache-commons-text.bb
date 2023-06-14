@@ -9,12 +9,12 @@ RPM_HASH = "43400675e8e53cfca8ec84170644d777ad0b3bea30d8643345ce86d486d1b800d6b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-text \
-mvn(org.apache.commons:commons-text) \
-mvn(org.apache.commons:commons-text:pom:) \
-osgi(org.apache.commons.commons-text)"
+mvn-org.apache.commons-commons-text \
+mvn-org.apache.commons-commons-text-pom- \
+osgi-org.apache.commons.commons-text"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.commons:commons-lang3)"
+mvn-org.apache.commons-commons-lang3"
 
 inherit rpm

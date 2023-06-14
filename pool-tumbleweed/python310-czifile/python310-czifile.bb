@@ -9,13 +9,13 @@ RPM_HASH = "553de9c159d60b1673c4cd27ec05f380740b48cf367ef626ed8a90ffb0e1dd9d7edf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-czifile \
-python3.10dist(czifile) \
+python3.10dist-czifile \
 python310-czifile \
-python3dist(czifile)"
+python3dist-czifile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-imagecodecs \
 python310-numpy \
 python310-scipy \

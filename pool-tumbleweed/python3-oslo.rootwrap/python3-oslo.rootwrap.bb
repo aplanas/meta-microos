@@ -12,10 +12,10 @@ RPM_HASH = "b1cde539662cec061ed1063f38dc318798c23337c8876c0fb9da381d8540832ca015
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.rootwrap \
-python3.10dist(oslo.rootwrap) \
-python3dist(oslo.rootwrap)"
+python3.10dist-oslo.rootwrap \
+python3dist-oslo.rootwrap"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

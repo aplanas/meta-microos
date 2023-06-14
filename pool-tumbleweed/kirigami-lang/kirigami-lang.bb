@@ -10,21 +10,21 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami-lang \
 kirigami-lang-all \
-locale(kirigami:ca) \
-locale(kirigami:ca@valencia) \
-locale(kirigami:cs) \
-locale(kirigami:de) \
-locale(kirigami:en_GB) \
-locale(kirigami:es) \
-locale(kirigami:nl) \
-locale(kirigami:pl) \
-locale(kirigami:pt) \
-locale(kirigami:pt_BR) \
-locale(kirigami:sk) \
-locale(kirigami:sl) \
-locale(kirigami:sv) \
-locale(kirigami:uk) \
-locale(kirigami:zh_TW)"
+locale-kirigami-ca \
+locale-kirigami-ca@valencia \
+locale-kirigami-cs \
+locale-kirigami-de \
+locale-kirigami-en-GB \
+locale-kirigami-es \
+locale-kirigami-nl \
+locale-kirigami-pl \
+locale-kirigami-pt \
+locale-kirigami-pt-BR \
+locale-kirigami-sk \
+locale-kirigami-sl \
+locale-kirigami-sv \
+locale-kirigami-uk \
+locale-kirigami-zh-TW"
 
 RDEPENDS:${PN} += "kirigami"
 

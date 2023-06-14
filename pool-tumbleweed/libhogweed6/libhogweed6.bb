@@ -11,17 +11,13 @@ PV = "3.9"
 RPM_NAME = "libhogweed6-3.9-1.1.aarch64.rpm"
 RPM_HASH = "f870b1e26769e3c8d96cb1172bfb3f5d2240690f94d4d2d3a4b0815606d95735c8320e6313b783dfe269325018d3ce050c8cadecb3801d5dd1b16da502b64978"
 
-RPROVIDES:${PN} += "libhogweed.so.6()(64bit) \
-libhogweed.so.6(HOGWEED_6)(64bit) \
-libhogweed.so.6(HOGWEED_INTERNAL_6_7)(64bit) \
-libhogweed6 \
-libhogweed6(aarch-64)"
+RPROVIDES:${PN} += "libhogweed.so.6 \
+libhogweed6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libnettle.so.8()(64bit) \
-libnettle.so.8(NETTLE_8)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgmp.so.10 \
+libnettle.so.8"
 
 inherit rpm

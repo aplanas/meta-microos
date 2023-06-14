@@ -19,7 +19,7 @@ RPM_NAME = "texlive-perltex-2023.201.2.2svn52162-51.1.noarch.rpm"
 RPM_HASH = "47d754f208cfc32c2799d307adb7fc9de29592a6a73d3051182a8be01226651570e01f639f66ce25f467b78071322cd39eb7e911866fe1ad6d0e34629f272730"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(perltex.sty) \
+RPROVIDES:${PN} += "tex-perltex.sty \
 texlive-perltex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,17 +28,17 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Fcntl) \
-perl(File::Basename) \
-perl(File::Spec) \
-perl(Getopt::Long) \
-perl(IO::Handle) \
-perl(Opcode) \
-perl(POSIX) \
-perl(Pod::Usage) \
-perl(Safe) \
-perl(strict) \
-perl(warnings) \
+perl-Fcntl \
+perl-File--Basename \
+perl-File--Spec \
+perl-Getopt--Long \
+perl-IO--Handle \
+perl-Opcode \
+perl-POSIX \
+perl-Pod--Usage \
+perl-Safe \
+perl-strict \
+perl-warnings \
 sed \
 texlive \
 texlive-filesystem \

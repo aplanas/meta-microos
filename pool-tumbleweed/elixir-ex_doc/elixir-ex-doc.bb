@@ -7,8 +7,7 @@ PV = "0.7.2"
 RPM_NAME = "elixir-ex_doc-0.7.2-1.15.aarch64.rpm"
 RPM_HASH = "c19ae236c1c3ba85ef58bcd6c1ceee9df258fe18ebfce09b390bec140c9b74039deb9c0ae4a2158d7e3a0c41145eaff5c58ad178d4cfabce73e0928a4925710e"
 
-RPROVIDES:${PN} += "elixir-ex_doc \
-elixir-ex_doc(aarch-64)"
+RPROVIDES:${PN} += "elixir-ex-doc"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 elixir"

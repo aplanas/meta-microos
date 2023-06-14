@@ -11,13 +11,13 @@ RPM_HASH = "c0e7496b973cbabcef85cf5efc80a7b772d80ddca107fca2b40c2be5efb1e1d5f30e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sat-stac \
-python3.10dist(sat-stac) \
+python3.10dist-sat-stac \
 python310-sat-stac \
-python3dist(sat-stac)"
+python3dist-sat-stac"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-python-dateutil \
 python310-requests \
 update-alternatives"

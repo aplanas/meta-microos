@@ -18,14 +18,14 @@ RPM_NAME = "texlive-minim-2023.201.2023_1.2svn66395-54.1.noarch.rpm"
 RPM_HASH = "4c3ccc201d880b8547a122ce152d6a41c39b387bec8926796c7cc5565cd9ffe614bfcc395a60a6b1275fb8469b970cf84186b576f11035596b7d71adb41888db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minim-alloc.tex) \
-tex(minim-doc.sty) \
-tex(minim-etex.tex) \
-tex(minim-hooks.tex) \
-tex(minim-lmodern.tex) \
-tex(minim-pdfresources.tex) \
-tex(minim-plain.tex) \
-tex(minim.tex) \
+RPROVIDES:${PN} += "tex-minim-alloc.tex \
+tex-minim-doc.sty \
+tex-minim-etex.tex \
+tex-minim-hooks.tex \
+tex-minim-lmodern.tex \
+tex-minim-pdfresources.tex \
+tex-minim-plain.tex \
+tex-minim.tex \
 texlive-minim"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -34,7 +34,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(luaotfload.sty) \
+tex-luaotfload.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

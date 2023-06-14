@@ -16,6 +16,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-libvoikko"
 
 RDEPENDS:${PN} += "libvoikko1 \
-python(abi)"
+python-abi"
 
 inherit rpm

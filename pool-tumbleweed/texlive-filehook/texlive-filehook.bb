@@ -13,14 +13,14 @@ RPM_NAME = "texlive-filehook-2023.201.0.0.8bsvn64822-52.1.noarch.rpm"
 RPM_HASH = "deb0a9b1ba6f3f66667941015c0d1bbeaa8de343ab8e7b254b72477151fceeb33bb92f00d3b47d62162096fe5b3c2ce5cc6a2f4550ef440b5be78f01aa031a2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(filehook-2019.sty) \
-tex(filehook-2020.sty) \
-tex(filehook-fink.sty) \
-tex(filehook-listings.sty) \
-tex(filehook-memoir.sty) \
-tex(filehook-scrlfile.sty) \
-tex(filehook.sty) \
-tex(pgf-filehook.sty) \
+RPROVIDES:${PN} += "tex-filehook-2019.sty \
+tex-filehook-2020.sty \
+tex-filehook-fink.sty \
+tex-filehook-listings.sty \
+tex-filehook-memoir.sty \
+tex-filehook-scrlfile.sty \
+tex-filehook.sty \
+tex-pgf-filehook.sty \
 texlive-filehook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,9 +29,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(currfile.sty) \
-tex(kvoptions.sty) \
-tex(pgfkeys.sty) \
+tex-currfile.sty \
+tex-kvoptions.sty \
+tex-pgfkeys.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,10 +11,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-user-theme"
 
-RDEPENDS:${PN} += "typelib(Adw) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk)"
+RDEPENDS:${PN} += "typelib-Adw \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk"
 
 inherit rpm

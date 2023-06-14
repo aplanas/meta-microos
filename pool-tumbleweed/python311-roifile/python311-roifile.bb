@@ -11,13 +11,13 @@ RPM_NAME = "python311-roifile-2020.11.28-1.8.noarch.rpm"
 RPM_HASH = "83e8038bffa2a312c7d1a30633d4207059a507c21ca2ee2b640376096b29127c8a298fcfe0dea5c300272c732b4c4415b7eb1891c84a770dfb734615efc36a74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(roifile) \
+RPROVIDES:${PN} += "python3.11dist-roifile \
 python311-roifile \
-python3dist(roifile)"
+python3dist-roifile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-matplotlib \
 python311-numpy \
 python311-tifffile \

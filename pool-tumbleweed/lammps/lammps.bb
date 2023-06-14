@@ -17,20 +17,17 @@ PV = "20201029"
 RPM_NAME = "lammps-20201029-5.1.aarch64.rpm"
 RPM_HASH = "87102f9745196ec4d21367d2ac05d9601b0e9bec7d6229a59e28ba82ec55870141345b6ad7a4b05d714834b4e7b14f441e1bdc568f5b46102e0792a3ba4573ef"
 
-RPROVIDES:${PN} += "lammps \
-lammps(aarch-64)"
+RPROVIDES:${PN} += "lammps"
 
 RDEPENDS:${PN} += "lammps-data \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-liblammps.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmpi.so.40()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+liblammps.so.0 \
+libm.so.6 \
+libmpi.so.40 \
+libreadline.so.8 \
+libstdc++.so.6"
 
 inherit rpm

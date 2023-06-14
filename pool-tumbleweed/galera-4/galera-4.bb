@@ -15,11 +15,10 @@ PV = "26.4.14"
 RPM_NAME = "galera-4-26.4.14-1.1.aarch64.rpm"
 RPM_HASH = "bca095b1403296df52885acacfe966cbe3338f3136388ba0e1650b2643247b30a998dea04d1fc61919777dd8015e7816ad4a49e3e606576c1abfef21dfd48336"
 
-RPROVIDES:${PN} += "config(galera-4) \
+RPROVIDES:${PN} += "config-galera-4 \
 galera-4 \
-galera-4(aarch-64) \
-group(garb) \
-user(garb)"
+group-garb \
+user-garb"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -27,14 +26,14 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/touch \
 fillup \
 galera-4-wsrep-provider \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libssl.so.3 \
+libstdc++.so.6 \
 sysuser-shadow"
 
 inherit rpm

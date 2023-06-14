@@ -10,26 +10,26 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grisbi-lang \
 grisbi-lang-all \
-locale(grisbi:cs) \
-locale(grisbi:da) \
-locale(grisbi:de) \
-locale(grisbi:el) \
-locale(grisbi:en_GB) \
-locale(grisbi:en_US) \
-locale(grisbi:eo) \
-locale(grisbi:es) \
-locale(grisbi:fa) \
-locale(grisbi:fr) \
-locale(grisbi:he) \
-locale(grisbi:it) \
-locale(grisbi:lv) \
-locale(grisbi:nl) \
-locale(grisbi:pl) \
-locale(grisbi:pt_BR) \
-locale(grisbi:ro) \
-locale(grisbi:ru) \
-locale(grisbi:sv) \
-locale(grisbi:zh_CN)"
+locale-grisbi-cs \
+locale-grisbi-da \
+locale-grisbi-de \
+locale-grisbi-el \
+locale-grisbi-en-GB \
+locale-grisbi-en-US \
+locale-grisbi-eo \
+locale-grisbi-es \
+locale-grisbi-fa \
+locale-grisbi-fr \
+locale-grisbi-he \
+locale-grisbi-it \
+locale-grisbi-lv \
+locale-grisbi-nl \
+locale-grisbi-pl \
+locale-grisbi-pt-BR \
+locale-grisbi-ro \
+locale-grisbi-ru \
+locale-grisbi-sv \
+locale-grisbi-zh-CN"
 
 RDEPENDS:${PN} += "grisbi"
 

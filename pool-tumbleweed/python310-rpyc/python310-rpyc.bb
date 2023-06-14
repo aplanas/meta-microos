@@ -14,13 +14,13 @@ RPM_HASH = "59ceb0cc472b55995269fae6270149956a7c2e421763ac6e8aa343aa2a851965ac8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rpyc \
-python3.10dist(rpyc) \
+python3.10dist-rpyc \
 python310-rpyc \
-python3dist(rpyc)"
+python3dist-rpyc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-plumbum \
 update-alternatives"
 

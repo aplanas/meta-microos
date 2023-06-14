@@ -13,17 +13,16 @@ PV = "3.5"
 RPM_NAME = "mpiP_3_5-gnu-openmpi2-hpc-3.5-3.3.aarch64.rpm"
 RPM_HASH = "5810164d7e8cea62ffee760d5b41c7a22761ae5558f427b887246dfe4f05684777b73d96077fee33e5eb3222047feea39be7480ba4ee9b7f3cea61f5113519ad"
 
-RPROVIDES:${PN} += "mpiP_3_5-gnu-openmpi2-hpc \
-mpiP_3_5-gnu-openmpi2-hpc(aarch-64)"
+RPROVIDES:${PN} += "mpiP-3-5-gnu-openmpi2-hpc"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
 gnu-compilers-hpc \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+libc.so.6 \
+libm.so.6 \
 libopenmpi2-gnu-hpc \
-libunwind.so.8()(64bit) \
+libunwind.so.8 \
 lua-lmod"
 
 inherit rpm

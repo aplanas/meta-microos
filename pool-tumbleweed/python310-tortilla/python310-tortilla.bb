@@ -10,11 +10,11 @@ RPM_HASH = "69c85bd53c40a71e764b14d6024b34b0580b65e1377d04176f5bd0bb5fd69f3810f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tortilla \
-python3.10dist(tortilla) \
+python3.10dist-tortilla \
 python310-tortilla \
-python3dist(tortilla)"
+python3dist-tortilla"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-colorama \
 python310-formats \
 python310-httpretty \

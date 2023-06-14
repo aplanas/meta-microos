@@ -11,11 +11,11 @@ RPM_HASH = "9c5a0a0a23ec3394e370c17dbcf67b924fa7119870eb17ffda168f0e4a7e10d6c106
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-tagging \
-python3.10dist(django-tagging) \
+python3.10dist-django-tagging \
 python310-django-tagging \
-python3dist(django-tagging)"
+python3dist-django-tagging"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

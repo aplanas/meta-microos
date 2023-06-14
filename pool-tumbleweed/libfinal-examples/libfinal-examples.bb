@@ -13,14 +13,13 @@ PV = "0.9.0"
 RPM_NAME = "libfinal-examples-0.9.0-1.1.aarch64.rpm"
 RPM_HASH = "e6e224e6b47ccdfc533ef81c6c3b4e8d68f2701c41f82bf45090e06efb31be7d988a5a63b4217c92d42dfd2f7082d3234f0ec767ee9169c2660a881d519f2c64"
 
-RPROVIDES:${PN} += "libfinal-examples \
-libfinal-examples(aarch-64)"
+RPROVIDES:${PN} += "libfinal-examples"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfinal.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfinal.so.0 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

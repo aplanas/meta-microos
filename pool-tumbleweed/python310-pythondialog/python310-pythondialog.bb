@@ -10,11 +10,11 @@ RPM_HASH = "aa9be04643563b0dd2168b7272e64ec3f8d20ccd298e30c173069ea2dddfbffafd47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythondialog \
-python3.10dist(pythondialog) \
+python3.10dist-pythondialog \
 python310-pythondialog \
-python3dist(pythondialog)"
+python3dist-pythondialog"
 
 RDEPENDS:${PN} += "dialog \
-python(abi)"
+python-abi"
 
 inherit rpm

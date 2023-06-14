@@ -9,7 +9,7 @@ RPM_HASH = "7be2e236c990d80e3b18dae55fbd496f2e69aa48dca5292643a3721eb0d99e96def4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diff-so-fancy \
-perl(DiffHighlight)"
+perl-DiffHighlight"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"

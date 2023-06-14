@@ -21,33 +21,33 @@ RPM_NAME = "perl-Config-MVP-2.200013-1.2.noarch.rpm"
 RPM_HASH = "fc4b100d8b763d706e8cfb57c0593693a9bce2b01608ddce1d51d37cf62dbda7c33b93cb7b5e9a18cd4836ae51f5bb70e0414abd47a2b070a55bd5b6a195cddc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::MVP) \
-perl(Config::MVP::Assembler) \
-perl(Config::MVP::Assembler::WithBundles) \
-perl(Config::MVP::Error) \
-perl(Config::MVP::Reader) \
-perl(Config::MVP::Reader::Findable) \
-perl(Config::MVP::Reader::Findable::ByExtension) \
-perl(Config::MVP::Reader::Finder) \
-perl(Config::MVP::Reader::Hash) \
-perl(Config::MVP::Section) \
-perl(Config::MVP::Sequence) \
+RPROVIDES:${PN} += "perl-Config--MVP \
+perl-Config--MVP--Assembler \
+perl-Config--MVP--Assembler--WithBundles \
+perl-Config--MVP--Error \
+perl-Config--MVP--Reader \
+perl-Config--MVP--Reader--Findable \
+perl-Config--MVP--Reader--Findable--ByExtension \
+perl-Config--MVP--Reader--Finder \
+perl-Config--MVP--Reader--Hash \
+perl-Config--MVP--Section \
+perl-Config--MVP--Sequence \
 perl-Config-MVP"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Load) \
-perl(Module::Pluggable::Object) \
-perl(Moose) \
-perl(Moose::Role) \
-perl(Moose::Util::TypeConstraints) \
-perl(MooseX::OneArgNew) \
-perl(Params::Util) \
-perl(Role::HasMessage) \
-perl(Role::Identifiable::HasIdent) \
-perl(StackTrace::Auto) \
-perl(Test::More) \
-perl(Throwable) \
-perl(Tie::IxHash) \
-perl(Try::Tiny)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Load \
+perl-Module--Pluggable--Object \
+perl-Moose \
+perl-Moose--Role \
+perl-Moose--Util--TypeConstraints \
+perl-MooseX--OneArgNew \
+perl-Params--Util \
+perl-Role--HasMessage \
+perl-Role--Identifiable--HasIdent \
+perl-StackTrace--Auto \
+perl-Test--More \
+perl-Throwable \
+perl-Tie--IxHash \
+perl-Try--Tiny"
 
 inherit rpm

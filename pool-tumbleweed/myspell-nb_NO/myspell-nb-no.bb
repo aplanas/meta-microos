@@ -8,10 +8,10 @@ RPM_NAME = "myspell-nb_NO-20221012-1.2.noarch.rpm"
 RPM_HASH = "d290a068730a9fcecd580cd8e234fcb960ff4657288325a2774541336ea279726334c9527aedd5ce12b5f397ef435822b794b2e9579c1ab7f0bdcbba10fdc6ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:nb_NO) \
-locale(seamonkey-spellchecker:nb_NO) \
+RPROVIDES:${PN} += "locale-libreoffice-nb-NO \
+locale-seamonkey-spellchecker-nb-NO \
 myspell-dictionary \
-myspell-nb_NO \
+myspell-nb-NO \
 myspell-norsk-bokmaal"
 
 RDEPENDS:${PN} += "myspell-dictionaries \

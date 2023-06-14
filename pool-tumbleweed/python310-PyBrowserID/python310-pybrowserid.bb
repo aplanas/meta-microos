@@ -10,11 +10,11 @@ RPM_HASH = "2295caf538e7e052e61b22b7d08e5a3a35227c73948cdf92be5d50a82ee0cd774f57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyBrowserID \
-python3.10dist(pybrowserid) \
+python3.10dist-pybrowserid \
 python310-PyBrowserID \
-python3dist(pybrowserid)"
+python3dist-pybrowserid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

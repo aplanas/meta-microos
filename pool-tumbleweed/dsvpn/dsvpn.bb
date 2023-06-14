@@ -24,12 +24,11 @@ PV = "0.1.4"
 RPM_NAME = "dsvpn-0.1.4-1.14.aarch64.rpm"
 RPM_HASH = "0818638d9648f77984626477e7738c5267ea1031a3a43db42957f0011f7dd1284e8c954fa40e86a4c3af9a0848467b012d315024fc956f7e64c1dc36e2d1dcc3"
 
-RPROVIDES:${PN} += "dsvpn \
-dsvpn(aarch-64)"
+RPROVIDES:${PN} += "dsvpn"
 
 RDEPENDS:${PN} += "iproute2 \
 iptables \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

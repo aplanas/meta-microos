@@ -12,13 +12,12 @@ RPM_NAME = "python311-jupyter-ydoc-0.2.4-1.2.noarch.rpm"
 RPM_HASH = "232edebf850ffd0065d56cdeec91742bff5384aaad7d1b55e0592e67ac1b53cf9d8c42a1c584bae654a04b0db339682012795a3bf1783f4b47801460935d39ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jupyter-ydoc) \
+RPROVIDES:${PN} += "python3.11dist-jupyter-ydoc \
 python311-jupyter-ydoc \
-python311-jupyter_ydoc \
-python3dist(jupyter-ydoc)"
+python3dist-jupyter-ydoc"
 
-RDEPENDS:${PN} += "(python311-importlib-metadata >= 3.6 if python311-base < 3.10) \
-(python311-y-py >= 0.5.3 with python311-y-py < 0.6.0) \
-python(abi)"
+RDEPENDS:${PN} += "-python311-importlib-metadata >= 3.6 if python311-base < 3.10 \
+-python311-y-py >= 0.5.3 with python311-y-py < 0.6.0 \
+python-abi"
 
 inherit rpm

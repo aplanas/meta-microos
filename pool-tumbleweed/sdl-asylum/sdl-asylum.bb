@@ -12,17 +12,14 @@ PV = "0.3.2"
 RPM_NAME = "sdl-asylum-0.3.2-3.19.aarch64.rpm"
 RPM_HASH = "ddf499ce7c516e50686b806185dc4e38cb2a201e1f896e45298281181d5b3e0d82423de6ba3a641e7a59c85ecdb5ad05732df03abf9b041190ac2d6732ce25f9"
 
-RPROVIDES:${PN} += "application() \
-application(sdl-asylum.desktop) \
-config(sdl-asylum) \
-sdl-asylum \
-sdl-asylum(aarch-64)"
+RPROVIDES:${PN} += "config-sdl-asylum \
+sdl-asylum"
 
-RDEPENDS:${PN} += "libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libGL.so.1 \
+libGLU.so.1 \
+libSDL-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

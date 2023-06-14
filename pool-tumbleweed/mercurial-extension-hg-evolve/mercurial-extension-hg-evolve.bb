@@ -9,10 +9,10 @@ RPM_HASH = "9c2bcaa2ce55e3a492874c5771ed47a12e7646e71a469cfd18d76126d6847934b81d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mercurial-extension-hg-evolve \
-python3.10dist(hg-evolve) \
-python3dist(hg-evolve)"
+python3.10dist-hg-evolve \
+python3dist-hg-evolve"
 
 RDEPENDS:${PN} += "mercurial \
-python(abi)"
+python-abi"
 
 inherit rpm

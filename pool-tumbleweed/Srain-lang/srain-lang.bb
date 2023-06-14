@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Srain-lang \
 Srain-lang-all \
-locale(Srain:fr) \
-locale(Srain:nl) \
-locale(Srain:ru) \
-locale(Srain:uk) \
-locale(Srain:zh_CN)"
+locale-Srain-fr \
+locale-Srain-nl \
+locale-Srain-ru \
+locale-Srain-uk \
+locale-Srain-zh-CN"
 
 RDEPENDS:${PN} += "Srain"
 

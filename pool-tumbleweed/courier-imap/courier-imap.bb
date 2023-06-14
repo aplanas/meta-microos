@@ -31,27 +31,26 @@ PV = "5.2.4"
 RPM_NAME = "courier-imap-5.2.4-1.1.aarch64.rpm"
 RPM_HASH = "08117c2e3f50c5bc3ba70c33c9f2beb30b388c1c95b65bf599b1b7df5b64e106f6492a3b3c897cbaba4c9c98eecc5bb62cc58162cabb6eeb00f7b171537109c1"
 
-RPROVIDES:${PN} += "config(courier-imap) \
-courier-imap \
-courier-imap(aarch-64)"
+RPROVIDES:${PN} += "config-courier-imap \
+courier-imap"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \
 courier-authlib \
 gdbm \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcourier-unicode.so.7()(64bit) \
-libcourierauth.so.0()(64bit) \
-libcourierauthsasl.so.0()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdbm.so.6()(64bit) \
-libidn2.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcourier-unicode.so.7 \
+libcourierauth.so.0 \
+libcourierauthsasl.so.0 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libgdbm.so.6 \
+libidn2.so.0 \
+libpcre2-8.so.0 \
+libssl.so.3 \
+libstdc++.so.6 \
 openssl \
 systemd"
 

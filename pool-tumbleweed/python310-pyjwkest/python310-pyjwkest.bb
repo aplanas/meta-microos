@@ -12,13 +12,13 @@ RPM_HASH = "5ccbb353736d04cd44a343cb60ddb2088d7006e7934b27f0c515011b6c39e0a5558d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyjwkest \
-python3.10dist(pyjwkest) \
+python3.10dist-pyjwkest \
 python310-pyjwkest \
-python3dist(pyjwkest)"
+python3dist-pyjwkest"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-future \
 python310-pycryptodomex \
 python310-requests \

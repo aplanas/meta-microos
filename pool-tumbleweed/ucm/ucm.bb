@@ -10,14 +10,13 @@ PV = "0.3"
 RPM_NAME = "ucm-0.3-542.19.aarch64.rpm"
 RPM_HASH = "b58d8a86816557786d00dc986ca5ec095fcb0e55b1957f959852d2bdb0f21789e5d92632daa83c311a4bdf54cbb63be852573da9f9f8890cb17806314d457e58"
 
-RPROVIDES:${PN} += "ucm \
-ucm(aarch-64)"
+RPROVIDES:${PN} += "ucm"
 
 RDEPENDS:${PN} += "gnu-unifont \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXmu.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit)"
+libX11.so.6 \
+libXaw.so.7 \
+libXmu.so.6 \
+libXt.so.6 \
+libc.so.6"
 
 inherit rpm

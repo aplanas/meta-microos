@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-mgmt-automation-1.1.0b2-1.3.noarch.rpm"
 RPM_HASH = "9058a91a608176808808354b0b0324088d728b2e269e1d2795b78a1a2fbbb064973c9a392e2e5dfad249d369ae880a06462a03be274e1365ffa786641042b0a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-automation) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-automation \
 python311-azure-mgmt-automation \
-python3dist(azure-mgmt-automation)"
+python3dist-azure-mgmt-automation"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

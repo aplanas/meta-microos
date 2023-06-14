@@ -8,8 +8,7 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "ceph-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "93d70d97d09ba4cd5db8945b22c671d977181ac66b5986acd42f916dd11a63781aedbc667a28870c0f74febfcad3d9a8dbffb8b157e75e9ba9d24bab4d1ddf14"
 
-RPROVIDES:${PN} += "ceph \
-ceph(aarch-64)"
+RPROVIDES:${PN} += "ceph"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \

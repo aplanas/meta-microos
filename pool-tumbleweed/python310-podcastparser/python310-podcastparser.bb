@@ -10,11 +10,11 @@ RPM_HASH = "5254ec275e40a65225c1193014c922a67eb166cbc9cad3413a6bdac6c47344bd381b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-podcastparser \
-python3.10dist(podcastparser) \
+python3.10dist-podcastparser \
 python310-podcastparser \
-python3dist(podcastparser)"
+python3dist-podcastparser"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-xml"
 
 inherit rpm

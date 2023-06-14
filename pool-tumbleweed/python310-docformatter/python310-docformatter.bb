@@ -26,13 +26,13 @@ RPM_HASH = "358ce8fd2a7f93fd137993351efe803a7cc6059eeb83acb7a64f1b5c38f2eac547e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docformatter \
-python3.10dist(docformatter) \
+python3.10dist-docformatter \
 python310-docformatter \
-python3dist(docformatter)"
+python3dist-docformatter"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 python310-untokenize \
 update-alternatives"

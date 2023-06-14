@@ -13,7 +13,7 @@ RPM_NAME = "texlive-lua-check-hyphen-2023.201.0.0.7asvn47527-52.1.noarch.rpm"
 RPM_HASH = "e4340eabe776be771599e5d666adb98a8332fbbaa13be9019aff2b3e299728ce1961e51cb7006f23f87fff6ee2bd3d74a51336254ba9c037aa1168cd44697655"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lua-check-hyphen.sty) \
+RPROVIDES:${PN} += "tex-lua-check-hyphen.sty \
 texlive-lua-check-hyphen"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifluatex.sty) \
-tex(keyval.sty) \
-tex(luatexbase.sty) \
+tex-ifluatex.sty \
+tex-keyval.sty \
+tex-luatexbase.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

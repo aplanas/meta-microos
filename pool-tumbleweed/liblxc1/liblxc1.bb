@@ -7,24 +7,21 @@ PV = "5.0.2"
 RPM_NAME = "liblxc1-5.0.2-1.1.aarch64.rpm"
 RPM_HASH = "43f8dec5401cd8711b1bcdc70ca7cdd758d51833b988fd5c132b4c447ace9dce213ba2d2ba9b65a1cc7ea2e7f5c72f60da3e5cacf1f978b6d425a2d2864fdec4"
 
-RPROVIDES:${PN} += "config(liblxc1) \
-liblxc.so.1()(64bit) \
-liblxc1 \
-liblxc1(aarch-64)"
+RPROVIDES:${PN} += "config-liblxc1 \
+liblxc.so.1 \
+liblxc1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 findutils \
-ld-linux-aarch64.so.1()(64bit) \
-libapparmor.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libseccomp.so.2()(64bit) \
-libselinux.so.1()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_221)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_237)(64bit) \
+ld-linux-aarch64.so.1 \
+libapparmor.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libgcc-s.so.1 \
+libseccomp.so.2 \
+libselinux.so.1 \
+libsystemd.so.0 \
 permissions"
 
 inherit rpm

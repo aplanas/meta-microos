@@ -10,14 +10,14 @@ RPM_HASH = "1af55b071e9cdc9b9cb4794a9d557d8e678086c2fbd778b0a4a02059fad543e490a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-o2sclpy \
-python3.10dist(o2sclpy) \
+python3.10dist-o2sclpy \
 python310-o2sclpy \
-python3dist(o2sclpy)"
+python3dist-o2sclpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 o2scl-devel \
-python(abi) \
+python-abi \
 python310-h5py \
 python310-matplotlib \
 python310-numpy \

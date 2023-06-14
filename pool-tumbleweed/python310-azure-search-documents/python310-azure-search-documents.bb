@@ -14,16 +14,16 @@ RPM_HASH = "c1fc283b305ced9cb98bb41cf9c5a44b9c4fa036531f8ac55a79f50488bce2156364
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-search-documents \
-python3.10dist(azure-search-documents) \
+python3.10dist-azure-search-documents \
 python310-azure-search-documents \
-python3dist(azure-search-documents)"
+python3dist-azure-search-documents"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-search-nspkg \
 python310-msrest \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

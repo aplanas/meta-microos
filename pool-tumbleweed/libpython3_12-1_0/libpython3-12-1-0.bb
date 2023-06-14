@@ -13,14 +13,13 @@ PV = "3.12.0b1"
 RPM_NAME = "libpython3_12-1_0-3.12.0b1-1.2.aarch64.rpm"
 RPM_HASH = "00c33bae6e63c1803dd3286b7dff458758f617379fef779e492ccc6b650e0f3b7be49ccf505dff5847ed734f610a209fc32f1b1fdfc729ff7d63f89d5e833f2a"
 
-RPROVIDES:${PN} += "libpython3.12.so.1.0()(64bit) \
-libpython3_12-1_0 \
-libpython3_12-1_0(aarch-64)"
+RPROVIDES:${PN} += "libpython3-12-1-0 \
+libpython3.12.so.1.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
 python312-base"
 
 inherit rpm

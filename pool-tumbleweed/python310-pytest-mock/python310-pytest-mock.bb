@@ -11,11 +11,11 @@ RPM_HASH = "95e75eac0e52919bd7e2221065628fae9fe1c1f3b538dec3fdc477827f46a5b9a4c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-mock \
-python3.10dist(pytest-mock) \
+python3.10dist-pytest-mock \
 python310-pytest-mock \
-python3dist(pytest-mock)"
+python3dist-pytest-mock"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-py \
 python310-pytest"
 

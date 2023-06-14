@@ -11,15 +11,14 @@ RPM_HASH = "f2b3af3e89320fd003383097500f5058f0161e67d0674b97640b59d8d8abd4295d2f
 
 RPROVIDES:${PN} += "libwmf \
 libwmf-tools \
-libwmf-tools(aarch-64) \
 wmf-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libwmf-0.2.so.7()(64bit) \
-libwmflite-0.2.so.7()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libwmf-0.2.so.7 \
+libwmflite-0.2.so.7 \
+libz.so.1"
 
 inherit rpm

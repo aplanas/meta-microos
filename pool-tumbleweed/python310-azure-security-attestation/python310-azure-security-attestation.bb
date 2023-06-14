@@ -30,11 +30,11 @@ RPM_HASH = "cc0932d7359409d22fa98a536b4427b5fb14ae13a852f7febc4fde87cc2a4db87384
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-security-attestation \
-python3.10dist(azure-security-attestation) \
+python3.10dist-azure-security-attestation \
 python310-azure-security-attestation \
-python3dist(azure-security-attestation)"
+python3dist-azure-security-attestation"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-security-nspkg \

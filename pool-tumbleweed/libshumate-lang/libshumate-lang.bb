@@ -10,41 +10,41 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libshumate-lang \
 libshumate-lang-all \
-locale(libshumate:bg) \
-locale(libshumate:ca) \
-locale(libshumate:cs) \
-locale(libshumate:da) \
-locale(libshumate:de) \
-locale(libshumate:es) \
-locale(libshumate:eu) \
-locale(libshumate:fa) \
-locale(libshumate:fi) \
-locale(libshumate:fr) \
-locale(libshumate:fur) \
-locale(libshumate:gl) \
-locale(libshumate:he) \
-locale(libshumate:hr) \
-locale(libshumate:hu) \
-locale(libshumate:id) \
-locale(libshumate:it) \
-locale(libshumate:ka) \
-locale(libshumate:kk) \
-locale(libshumate:ko) \
-locale(libshumate:lt) \
-locale(libshumate:lv) \
-locale(libshumate:ne) \
-locale(libshumate:nl) \
-locale(libshumate:oc) \
-locale(libshumate:pl) \
-locale(libshumate:pt) \
-locale(libshumate:pt_BR) \
-locale(libshumate:ru) \
-locale(libshumate:sl) \
-locale(libshumate:sr) \
-locale(libshumate:sv) \
-locale(libshumate:tr) \
-locale(libshumate:uk) \
-locale(libshumate:zh_CN)"
+locale-libshumate-bg \
+locale-libshumate-ca \
+locale-libshumate-cs \
+locale-libshumate-da \
+locale-libshumate-de \
+locale-libshumate-es \
+locale-libshumate-eu \
+locale-libshumate-fa \
+locale-libshumate-fi \
+locale-libshumate-fr \
+locale-libshumate-fur \
+locale-libshumate-gl \
+locale-libshumate-he \
+locale-libshumate-hr \
+locale-libshumate-hu \
+locale-libshumate-id \
+locale-libshumate-it \
+locale-libshumate-ka \
+locale-libshumate-kk \
+locale-libshumate-ko \
+locale-libshumate-lt \
+locale-libshumate-lv \
+locale-libshumate-ne \
+locale-libshumate-nl \
+locale-libshumate-oc \
+locale-libshumate-pl \
+locale-libshumate-pt \
+locale-libshumate-pt-BR \
+locale-libshumate-ru \
+locale-libshumate-sl \
+locale-libshumate-sr \
+locale-libshumate-sv \
+locale-libshumate-tr \
+locale-libshumate-uk \
+locale-libshumate-zh-CN"
 
 RDEPENDS:${PN} += "libshumate"
 

@@ -18,7 +18,7 @@ RPM_HASH = "7d52d653bb6fc9cf919a87e94bf0f26c4e4f9f3d5d0ba7f2d86dcba5157706a6a1aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmdict \
-locale(ja)"
+locale-ja"
 
 RDEPENDS:${PN} += ""
 

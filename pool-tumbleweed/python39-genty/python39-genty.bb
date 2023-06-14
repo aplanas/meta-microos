@@ -10,11 +10,11 @@ RPM_NAME = "python39-genty-1.3.2-5.1.noarch.rpm"
 RPM_HASH = "e24cf51841e0b4d583a97079c7b65cf4d66d36a1e038804caa01947859bddb573eb71d3f93665b8a734e31f5c16fa36c88f17d7d3b506a7b55895c63a6e834da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(genty) \
+RPROVIDES:${PN} += "python3.9dist-genty \
 python39-genty \
-python3dist(genty)"
+python3dist-genty"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-six"
 
 inherit rpm

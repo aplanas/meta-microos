@@ -9,15 +9,13 @@ RPM_HASH = "f9138e0a2ebfdbeaa68941e83f613eac5482648b5856eb7c1fc3d8550bf9a59bff4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-validate-pyproject \
-python3-validate_pyproject \
-python3.10dist(validate-pyproject) \
+python3.10dist-validate-pyproject \
 python310-validate-pyproject \
-python310-validate_pyproject \
-python3dist(validate-pyproject)"
+python3dist-validate-pyproject"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-fastjsonschema \
 update-alternatives"
 

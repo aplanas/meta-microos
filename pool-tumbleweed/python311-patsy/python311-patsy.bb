@@ -12,11 +12,11 @@ RPM_NAME = "python311-patsy-0.5.3-1.3.noarch.rpm"
 RPM_HASH = "50e2da3960bf97a1d8fe4fc6604cce6f156484a628fd8fbc6769704e306038f5b90f10d6a8c313623da517131b0d316083103e61d6d799a6d56ded979e18c8fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(patsy) \
+RPROVIDES:${PN} += "python3.11dist-patsy \
 python311-patsy \
-python3dist(patsy)"
+python3dist-patsy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-numpy \
 python311-six"
 

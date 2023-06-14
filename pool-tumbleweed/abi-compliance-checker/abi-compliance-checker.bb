@@ -20,7 +20,7 @@ RPM_HASH = "0c3e79955376f945108fae4ecf83b3a66e51954b1a107fe3bd0ca1d11e1e6e596942
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-compliance-checker \
-perl(In)"
+perl-In"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 abi-dumper \

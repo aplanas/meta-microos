@@ -19,13 +19,13 @@ RPM_HASH = "11c8d7abed683e101dcb065506a547288f60a2c0059a4358b68db602ecdea71fbf3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "py3status \
-python3.9dist(py3status) \
+python3.9dist-py3status \
 python39-py3status \
-python3dist(py3status)"
+python3dist-py3status"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

@@ -10,13 +10,12 @@ PV = "3.1.1"
 RPM_NAME = "libshine3-3.1.1-1.6.aarch64.rpm"
 RPM_HASH = "8cd7c48a0004a27096d3aa9ffe3c235ef821010d2256320343d369696f9eca75335b63c6c5487ec07c03a8a060b3f4f6d07f6a23412878c566912c670afba545"
 
-RPROVIDES:${PN} += "libshine.so.3()(64bit) \
-libshine3 \
-libshine3(aarch-64)"
+RPROVIDES:${PN} += "libshine.so.3 \
+libshine3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

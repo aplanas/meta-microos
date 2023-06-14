@@ -21,11 +21,11 @@ RPM_NAME = "python39-dfVFS-0~20221224-2.1.noarch.rpm"
 RPM_HASH = "e9e86921a2d275caabe18cdb9109e290216e3324d7665ba40d324872827091264d52c2dfd997c70035b8c2cf38f428414cb2ad16a845891ab1e90448fcf5418b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dfvfs) \
+RPROVIDES:${PN} += "python3.9dist-dfvfs \
 python39-dfVFS \
-python3dist(dfvfs)"
+python3dist-dfvfs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-PyYAML \
 python39-construct \
 python39-cryptography \

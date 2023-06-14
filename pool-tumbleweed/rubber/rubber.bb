@@ -15,14 +15,14 @@ RPM_NAME = "rubber-1.6.0-1.9.noarch.rpm"
 RPM_HASH = "05760c8ff9c28a858c7aeca5e5ed2fe31c63e97e67a9c025338f7505f76dfcb2419255782f024595b1db6f6ebf69ecc5896bf161fa8a20e6b3ab25db02117d9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(rubber) \
-python3dist(rubber) \
+RPROVIDES:${PN} += "python3.10dist-rubber \
+python3dist-rubber \
 rubber"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 info \
-python(abi) \
+python-abi \
 python3 \
 texlive-latex"
 

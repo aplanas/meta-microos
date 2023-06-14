@@ -11,13 +11,12 @@ PV = "2.23"
 RPM_NAME = "gengetopt-2.23-1.13.aarch64.rpm"
 RPM_HASH = "8efbcc671b378b39444592a6beb6ff9367977befa2a09461f1e8c781de7590339b9bc066d977e2222e7a623c48b228f36e4e5760c631c5933f6f3234af62ad31"
 
-RPROVIDES:${PN} += "gengetopt \
-gengetopt(aarch-64)"
+RPROVIDES:${PN} += "gengetopt"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

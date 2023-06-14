@@ -45,21 +45,20 @@ RPROVIDES:${PN} += "/bin/cat \
 /bin/uname \
 coreutils \
 coreutils-single \
-coreutils-single(aarch-64) \
 fileutils \
-libstdbuf.so()(64bit) \
+libstdbuf.so \
 mktemp \
 sh-utils \
 stat \
 textutils"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libattr.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libgmp.so.10()(64bit) \
-libselinux.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libattr.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libgmp.so.10 \
+libselinux.so.1"
 
 inherit rpm

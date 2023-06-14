@@ -10,12 +10,12 @@ RPM_HASH = "b444c8a731b1ac0d9629872ecb10a221ce94a764796e66ba07954318a1ccef850cc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyterlab-pygments \
-python3.10dist(jupyterlab-pygments) \
+python3.10dist-jupyterlab-pygments \
 python310-jupyterlab-pygments \
-python3dist(jupyterlab-pygments)"
+python3dist-jupyterlab-pygments"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab-pygments \
-python(abi) \
+python-abi \
 python310-pygments"
 
 inherit rpm

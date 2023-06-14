@@ -17,7 +17,7 @@ RPM_NAME = "texlive-verbatimbox-2023.201.3.13svn33197-53.1.noarch.rpm"
 RPM_HASH = "d8e90b06b4c5364a534f56c31e1a9a307ccb490053fb28358d830f6d7462490ccce05a076945a0c6874dc212c1873e690b0106fda99d61391a19ba7c38b04c16"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(verbatimbox.sty) \
+RPROVIDES:${PN} += "tex-verbatimbox.sty \
 texlive-verbatimbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(readarray.sty) \
-tex(verbatim.sty) \
+tex-readarray.sty \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

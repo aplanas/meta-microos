@@ -9,10 +9,9 @@ PV = "20230411"
 RPM_NAME = "fd0ssh-20230411-1.1.aarch64.rpm"
 RPM_HASH = "dd8ef4fb6762314f08481f962c328cf64aa005175a03b6af5b5d47328f99542da45a10165ce93c0fd258f6ea2fb4fb86fd0fbf4ac2f4c431ef3a07efba4c42a3"
 
-RPROVIDES:${PN} += "fd0ssh \
-fd0ssh(aarch-64)"
+RPROVIDES:${PN} += "fd0ssh"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

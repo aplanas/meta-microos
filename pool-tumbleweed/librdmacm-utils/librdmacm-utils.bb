@@ -8,12 +8,11 @@ RPM_NAME = "librdmacm-utils-45.0-1.1.aarch64.rpm"
 RPM_HASH = "db9dda707a115ab64f6f7b7852c495a5b03a36bc4d9be791046e9557bd6031fdb3df49355e972cd66be57e9e7d7be6925630394e60b3ea20b0db7f8598a5278f"
 
 RPROVIDES:${PN} += "librdmacm-tools \
-librdmacm-utils \
-librdmacm-utils(aarch-64)"
+librdmacm-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libibverbs.so.1()(64bit) \
-librdmacm.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libibverbs.so.1 \
+librdmacm.so.1"
 
 inherit rpm

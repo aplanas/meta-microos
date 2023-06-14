@@ -15,11 +15,11 @@ RPM_HASH = "3e72c755dedbe19ffe773d2dfa0c96f10cff62ee43f4f70979e09ec23f810108c61d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ansiwrap \
-python3.10dist(ansiwrap) \
+python3.10dist-ansiwrap \
 python310-ansiwrap \
-python3dist(ansiwrap)"
+python3dist-ansiwrap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-textwrap3"
 
 inherit rpm

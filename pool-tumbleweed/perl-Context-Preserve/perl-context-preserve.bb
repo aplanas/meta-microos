@@ -21,9 +21,9 @@ RPM_NAME = "perl-Context-Preserve-0.03-1.20.noarch.rpm"
 RPM_HASH = "834b65d308cede4a39546e79bcf038f7134ed7ca760ed17105d219345173d6cd45c2604a1c948bf3933fb4f30088b472e8baa511f57f33a617951ea3ad59d853"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Context::Preserve) \
+RPROVIDES:${PN} += "perl-Context--Preserve \
 perl-Context-Preserve"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

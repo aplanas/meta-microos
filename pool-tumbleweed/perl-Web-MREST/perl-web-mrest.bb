@@ -21,42 +21,42 @@ RPM_NAME = "perl-Web-MREST-0.288-1.19.noarch.rpm"
 RPM_HASH = "d3da987d9a33615bad56791913b289f741009c167cda909135bf4afec51746f1e0ce07cdc74e0c64349f0da2d03f7a17b2a933fc307748a424ed22ae46a154c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Web::MREST) \
-perl(Web::MREST::Dispatch) \
-perl(Web::MREST::Entity) \
-perl(Web::MREST::InitRouter) \
-perl(Web::MREST::Resource) \
-perl(Web::MREST::Test) \
-perl(Web::MREST::Test::503) \
-perl(Web::MREST::Test::Forbidden) \
-perl(Web::MREST::Test::Unauthorized) \
-perl(Web::MREST::Util) \
-perl(Web::MREST::WebServicesIntro) \
+RPROVIDES:${PN} += "perl-Web--MREST \
+perl-Web--MREST--Dispatch \
+perl-Web--MREST--Entity \
+perl-Web--MREST--InitRouter \
+perl-Web--MREST--Resource \
+perl-Web--MREST--Test \
+perl-Web--MREST--Test--503 \
+perl-Web--MREST--Test--Forbidden \
+perl-Web--MREST--Test--Unauthorized \
+perl-Web--MREST--Util \
+perl-Web--MREST--WebServicesIntro \
 perl-Web-MREST"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(App::CELL) \
-perl(File::ShareDir) \
-perl(HTTP::Request) \
-perl(HTTP::Request::Common) \
-perl(JSON) \
-perl(LWP::Protocol::https) \
-perl(LWP::UserAgent) \
-perl(Module::Runtime) \
-perl(Params::Validate) \
-perl(Path::Router) \
-perl(Plack::Middleware::LogErrors) \
-perl(Plack::Middleware::Session) \
-perl(Plack::Middleware::StackTrace) \
-perl(Plack::Runner) \
-perl(Pod::Simple::HTML) \
-perl(Pod::Simple::Text) \
-perl(Test::Deep::NoTest) \
-perl(Try::Tiny) \
-perl(URI::Escape) \
-perl(Web::MREST::CLI) \
-perl(Web::Machine)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-App--CELL \
+perl-File--ShareDir \
+perl-HTTP--Request \
+perl-HTTP--Request--Common \
+perl-JSON \
+perl-LWP--Protocol--https \
+perl-LWP--UserAgent \
+perl-Module--Runtime \
+perl-Params--Validate \
+perl-Path--Router \
+perl-Plack--Middleware--LogErrors \
+perl-Plack--Middleware--Session \
+perl-Plack--Middleware--StackTrace \
+perl-Plack--Runner \
+perl-Pod--Simple--HTML \
+perl-Pod--Simple--Text \
+perl-Test--Deep--NoTest \
+perl-Try--Tiny \
+perl-URI--Escape \
+perl-Web--MREST--CLI \
+perl-Web--Machine"
 
 inherit rpm

@@ -9,19 +9,16 @@ RPM_NAME = "libvirt-daemon-driver-storage-mpath-9.4.0-1.1.aarch64.rpm"
 RPM_HASH = "8580c7627182a88bbe488988cd3bed4e6b2142271bad60cefda54cc537865c24a2110bd598b8eed1b6b166bc4159435bcc144174071204fbfdb442ae226295ed"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-mpath \
-libvirt-daemon-driver-storage-mpath(aarch-64) \
-libvirt_storage_backend_mpath.so()(64bit)"
+libvirt-storage-backend-mpath.so"
 
 RDEPENDS:${PN} += "device-mapper \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdevmapper.so.1.03()(64bit) \
-libdevmapper.so.1.03(Base)(64bit) \
-libdevmapper.so.1.03(DM_1_02_97)(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdevmapper.so.1.03 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
 libvirt-daemon-driver-storage-core \
 libvirt-libs \
-libvirt.so.0()(64bit)"
+libvirt.so.0"
 
 inherit rpm

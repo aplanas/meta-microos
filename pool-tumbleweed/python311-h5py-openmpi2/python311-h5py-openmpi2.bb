@@ -11,17 +11,16 @@ PV = "3.8.0"
 RPM_NAME = "python311-h5py-openmpi2-3.8.0-2.5.aarch64.rpm"
 RPM_HASH = "cb2507d5d7b96e10ffe647b11cc736fe6ae06999cb268800e5ae56119818880151282890c90969b95f7d0059e86fdedd2a1137826944cefad0a2dfb1fcec447a"
 
-RPROVIDES:${PN} += "python3.11dist(h5py) \
+RPROVIDES:${PN} += "python3.11dist-h5py \
 python311-h5py-openmpi2 \
-python311-h5py-openmpi2(aarch-64) \
-python3dist(h5py)"
+python3dist-h5py"
 
 RDEPENDS:${PN} += "hdf5-openmpi2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_hl.so.200()(64bit) \
-libmpi.so.20()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhdf5-hl.so.200 \
+libhdf5.so.200 \
+libmpi.so.20 \
 python311-mpi4py \
 python311-numpy"
 

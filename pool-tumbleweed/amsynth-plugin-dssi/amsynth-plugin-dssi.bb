@@ -27,33 +27,30 @@ PV = "1.13.2"
 RPM_NAME = "amsynth-plugin-dssi-1.13.2-1.4.aarch64.rpm"
 RPM_HASH = "344bf75662dfaf27e263de08e7131744042a4258662086cfa8645e83fa064c9051b968bf1b424b6403367d452a4fb49d490d689326cef6f15abd811eba2a8e2f"
 
-RPROVIDES:${PN} += "amsynth-plugin-dssi \
-amsynth-plugin-dssi(aarch-64) \
-metainfo() \
-metainfo(dssi-amsynth-plugin.metainfo.xml)"
+RPROVIDES:${PN} += "amsynth-plugin-dssi"
 
 RDEPENDS:${PN} += "amsynth \
 dssi \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libharfbuzz.so.0()(64bit) \
-liblo.so.7()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpangoft2-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libharfbuzz.so.0 \
+liblo.so.7 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpangoft2-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

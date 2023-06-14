@@ -10,14 +10,12 @@ RPM_HASH = "e73b554904e16af46ea56b659f35f7788f6ada440b16bfa5a68d7c06b4ade7a6ec80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-kernel-test \
-python3-jupyter_kernel_test \
-python3.10dist(jupyter-kernel-test) \
+python3.10dist-jupyter-kernel-test \
 python310-jupyter-kernel-test \
-python310-jupyter_kernel_test \
-python3dist(jupyter-kernel-test)"
+python3dist-jupyter-kernel-test"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jsonschema \
-python310-jupyter_client"
+python310-jupyter-client"
 
 inherit rpm

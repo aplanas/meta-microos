@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-mvapich2-hpc-doc"
 
-RDEPENDS:${PN} += "mumps_5_3_5-gnu-mvapich2-hpc-doc"
+RDEPENDS:${PN} += "mumps-5-3-5-gnu-mvapich2-hpc-doc"
 
 inherit rpm

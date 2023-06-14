@@ -18,18 +18,17 @@ PV = "0.6.8"
 RPM_NAME = "python311-pivy-0.6.8-1.4.aarch64.rpm"
 RPM_HASH = "21e61941c1b667b511c435ecb68ef602c507d49c50dc940ff6fe4adf27db83fd3cd328b0ad1bd4183e5a282521f15e8b6d8c8562e91988596292d3973fd23460"
 
-RPROVIDES:${PN} += "python3.11dist(pivy) \
+RPROVIDES:${PN} += "python3.11dist-pivy \
 python311-pivy \
-python311-pivy(aarch-64) \
-python3dist(pivy)"
+python3dist-pivy"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libCoin.so.80()(64bit) \
-libSoQt.so.20()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libCoin.so.80 \
+libSoQt.so.20 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

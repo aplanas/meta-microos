@@ -20,12 +20,12 @@ RPM_NAME = "python311-Werkzeug-2.2.3-2.1.noarch.rpm"
 RPM_HASH = "8c1e53646f72b670fe8cd488b49a121f727374b5674ee17b48fb49826528ce6ef2f31c588a1926b4e0a95d8e54668d7ccf050b9daf62484370c0b6c7fb04995e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(werkzeug) \
+RPROVIDES:${PN} += "python3.11dist-werkzeug \
 python311-Werkzeug \
 python311-Werkzeug-doc \
-python3dist(werkzeug)"
+python3dist-werkzeug"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-MarkupSafe"
 
 inherit rpm

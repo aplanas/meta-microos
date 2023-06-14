@@ -10,37 +10,37 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "byzanz-lang \
 byzanz-lang-all \
-locale(byzanz:ar) \
-locale(byzanz:ca) \
-locale(byzanz:cs) \
-locale(byzanz:da) \
-locale(byzanz:de) \
-locale(byzanz:dz) \
-locale(byzanz:el) \
-locale(byzanz:en_GB) \
-locale(byzanz:es) \
-locale(byzanz:fi) \
-locale(byzanz:fr) \
-locale(byzanz:gl) \
-locale(byzanz:hu) \
-locale(byzanz:id) \
-locale(byzanz:it) \
-locale(byzanz:ja) \
-locale(byzanz:lv) \
-locale(byzanz:nb) \
-locale(byzanz:oc) \
-locale(byzanz:pl) \
-locale(byzanz:pt_BR) \
-locale(byzanz:ro) \
-locale(byzanz:ru) \
-locale(byzanz:sl) \
-locale(byzanz:sr) \
-locale(byzanz:sr@latin) \
-locale(byzanz:sv) \
-locale(byzanz:tr) \
-locale(byzanz:uk) \
-locale(byzanz:vi) \
-locale(byzanz:zh_CN)"
+locale-byzanz-ar \
+locale-byzanz-ca \
+locale-byzanz-cs \
+locale-byzanz-da \
+locale-byzanz-de \
+locale-byzanz-dz \
+locale-byzanz-el \
+locale-byzanz-en-GB \
+locale-byzanz-es \
+locale-byzanz-fi \
+locale-byzanz-fr \
+locale-byzanz-gl \
+locale-byzanz-hu \
+locale-byzanz-id \
+locale-byzanz-it \
+locale-byzanz-ja \
+locale-byzanz-lv \
+locale-byzanz-nb \
+locale-byzanz-oc \
+locale-byzanz-pl \
+locale-byzanz-pt-BR \
+locale-byzanz-ro \
+locale-byzanz-ru \
+locale-byzanz-sl \
+locale-byzanz-sr \
+locale-byzanz-sr@latin \
+locale-byzanz-sv \
+locale-byzanz-tr \
+locale-byzanz-uk \
+locale-byzanz-vi \
+locale-byzanz-zh-CN"
 
 RDEPENDS:${PN} += "byzanz"
 

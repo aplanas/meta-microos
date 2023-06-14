@@ -9,11 +9,11 @@ RPM_HASH = "457d291d102d5d459f935234ffbebf394debca67a07df08b0f4dad1893eaeea1ac53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dragonmapper \
-python3.10dist(dragonmapper) \
+python3.10dist-dragonmapper \
 python310-dragonmapper \
-python3dist(dragonmapper)"
+python3dist-dragonmapper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-hanzidentifier \
 python310-zhon"
 

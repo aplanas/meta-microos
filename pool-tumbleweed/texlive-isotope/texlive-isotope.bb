@@ -11,7 +11,7 @@ RPM_NAME = "texlive-isotope-2023.201.0.0.3svn23711-55.1.noarch.rpm"
 RPM_HASH = "32004929c9b6c446b67578cda93fa89a3f90c2a8af2ab826a5c51dba92bdf86efbbbf2c555c28e3365b9fc23aee643723372611850d26527c2b18f068ab7e758"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(isotope.sty) \
+RPROVIDES:${PN} += "tex-isotope.sty \
 texlive-isotope"
 
 RDEPENDS:${PN} += "/bin/sh \

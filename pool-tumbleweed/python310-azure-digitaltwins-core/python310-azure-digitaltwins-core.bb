@@ -10,11 +10,11 @@ RPM_HASH = "f4e5b127c946fac83d22faf617aac3efb3d6327f1801a3ca05fa497e4b6e6733d879
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-digitaltwins-core \
-python3.10dist(azure-digitaltwins-core) \
+python3.10dist-azure-digitaltwins-core \
 python310-azure-digitaltwins-core \
-python3dist(azure-digitaltwins-core)"
+python3dist-azure-digitaltwins-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-digitaltwins-nspkg \
 python310-azure-nspkg \

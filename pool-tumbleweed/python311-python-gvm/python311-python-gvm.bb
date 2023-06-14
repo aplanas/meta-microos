@@ -12,11 +12,11 @@ RPM_NAME = "python311-python-gvm-23.2.0-1.2.noarch.rpm"
 RPM_HASH = "e0cb834b66017de786547e615c7f2f206f58dc2a9139e870411553ae68997b9e602b6557ee96df07b30c1100a0984bd4b5be29f006b88d2032d5f22085762c28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(python-gvm) \
+RPROVIDES:${PN} += "python3.11dist-python-gvm \
 python311-python-gvm \
-python3dist(python-gvm)"
+python3dist-python-gvm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-defusedxml \
 python311-lxml \
 python311-paramiko"

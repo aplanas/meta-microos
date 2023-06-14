@@ -11,11 +11,11 @@ RPM_HASH = "26cc4319f1a2e15f036a917186cf8e7acb7b0ae11a03e0479e3bbc6b9620d32eb19b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-graphrbac \
-python3.10dist(azure-graphrbac) \
+python3.10dist-azure-graphrbac \
 python310-azure-graphrbac \
-python3dist(azure-graphrbac)"
+python3dist-azure-graphrbac"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-msrest \

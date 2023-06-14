@@ -9,9 +9,8 @@ PV = "1.10"
 RPM_NAME = "dnstracer-1.10-1.8.aarch64.rpm"
 RPM_HASH = "66b8a68414de50d7745d492fe6687116b0b695d0603dc37e2a68e37bfe4357a44a1ef79aa1a3290b48171c8348b7223cc1083a60f86f8cb9c82dc31a04cb2610"
 
-RPROVIDES:${PN} += "dnstracer \
-dnstracer(aarch-64)"
+RPROVIDES:${PN} += "dnstracer"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

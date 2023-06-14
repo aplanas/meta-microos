@@ -7,20 +7,19 @@ PV = "3.1.3"
 RPM_NAME = "ocaml-lablgtk3-3.1.3-2.3.aarch64.rpm"
 RPM_HASH = "b211cb434bbe6a27f7b87626dcc078520a2c8ca67e037cfabf429682996a4443c5ed9dfca712cf100420bed811207106d7a888134dd855023e0e5018ba3965ca"
 
-RPROVIDES:${PN} += "ocaml-lablgtk3 \
-ocaml-lablgtk3(aarch-64)"
+RPROVIDES:${PN} += "ocaml-lablgtk3"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtksourceview-3.0.so.1()(64bit) \
-libgtkspell3-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtksourceview-3.0.so.1 \
+libgtkspell3-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0"
 
 inherit rpm

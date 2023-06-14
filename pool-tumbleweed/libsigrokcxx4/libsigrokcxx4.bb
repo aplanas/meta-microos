@@ -9,19 +9,18 @@ PV = "0.5.2"
 RPM_NAME = "libsigrokcxx4-0.5.2-4.12.aarch64.rpm"
 RPM_HASH = "551d7828853c16c553fe61f8bff5bacf582362b0183518260db51351a7741a5da67a096471aba01803f908465832864df071292417125fb159160962edb5eebb"
 
-RPROVIDES:${PN} += "libsigrokcxx.so.4()(64bit) \
-libsigrokcxx4 \
-libsigrokcxx4(aarch-64)"
+RPROVIDES:${PN} += "libsigrokcxx.so.4 \
+libsigrokcxx4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
 libsigrok-data \
-libsigrok.so.4()(64bit) \
+libsigrok.so.4 \
 libsigrok4 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

@@ -46,25 +46,25 @@ RPM_NAME = "perl-MouseX-Getopt-0.38-1.10.noarch.rpm"
 RPM_HASH = "af0298ba8cf139a58a08355326a3e9b80ec47b6250008dd3f65dc1040ce388467e6ddd87c51a6f282f8f8447268edd1104979a9772f5126b1c14557ad52b8194"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MouseX::Getopt) \
-perl(MouseX::Getopt::Basic) \
-perl(MouseX::Getopt::Dashes) \
-perl(MouseX::Getopt::GLD) \
-perl(MouseX::Getopt::Meta::Attribute) \
-perl(MouseX::Getopt::Meta::Attribute::NoGetopt) \
-perl(MouseX::Getopt::Meta::Attribute::Trait) \
-perl(MouseX::Getopt::Meta::Attribute::Trait::NoGetopt) \
-perl(MouseX::Getopt::OptionTypeMap) \
-perl(MouseX::Getopt::Strict) \
+RPROVIDES:${PN} += "perl-MouseX--Getopt \
+perl-MouseX--Getopt--Basic \
+perl-MouseX--Getopt--Dashes \
+perl-MouseX--Getopt--GLD \
+perl-MouseX--Getopt--Meta--Attribute \
+perl-MouseX--Getopt--Meta--Attribute--NoGetopt \
+perl-MouseX--Getopt--Meta--Attribute--Trait \
+perl-MouseX--Getopt--Meta--Attribute--Trait--NoGetopt \
+perl-MouseX--Getopt--OptionTypeMap \
+perl-MouseX--Getopt--Strict \
 perl-MouseX-Getopt \
 perl-mousex-getopt"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Getopt::Long) \
-perl(Getopt::Long::Descriptive) \
-perl(Mouse) \
-perl(Mouse::Meta::Attribute) \
-perl(Mouse::Role) \
-perl(Mouse::Util::TypeConstraints)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Getopt--Long \
+perl-Getopt--Long--Descriptive \
+perl-Mouse \
+perl-Mouse--Meta--Attribute \
+perl-Mouse--Role \
+perl-Mouse--Util--TypeConstraints"
 
 inherit rpm

@@ -23,17 +23,16 @@ RPM_NAME = "python310-pysndfile-1.4.4-1.5.aarch64.rpm"
 RPM_HASH = "e5139862fc557aea357b6e47305158b4662b23ee3f3fc0b4aa9d3bcf8400f25532bae5cca781f7bf49dcbe2d06e32583698e93c3decbba6777b071b743d0d557"
 
 RPROVIDES:${PN} += "python3-pysndfile \
-python3.10dist(pysndfile) \
+python3.10dist-pysndfile \
 python310-pysndfile \
-python310-pysndfile(aarch-64) \
-python3dist(pysndfile)"
+python3dist-pysndfile"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsndfile.so.1 \
+libstdc++.so.6 \
+python-abi \
 python310-numpy"
 
 inherit rpm

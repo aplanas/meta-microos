@@ -15,13 +15,7 @@ RPM_NAME = "phoronix-test-suite-10.8.4-3.2.noarch.rpm"
 RPM_HASH = "cc73416aa52693f3143755c559987fdf1c2df4a89f96b2c52be3460f40aaa99b17cad1a1aa84de3296e7fb554fbac160ae7924d3885b7afd9bee73f250879a95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(phoronix-test-suite-launcher.desktop) \
-application(phoronix-test-suite.desktop) \
-config(phoronix-test-suite) \
-metainfo() \
-metainfo(phoronix-test-suite.appdata.xml) \
-mimehandler(application/x-openbenchmarking) \
+RPROVIDES:${PN} += "config-phoronix-test-suite \
 phoronix-test-suite"
 
 RDEPENDS:${PN} += "/bin/bash \

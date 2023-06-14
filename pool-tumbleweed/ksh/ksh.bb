@@ -18,20 +18,19 @@ RPM_NAME = "ksh-93vu-6.2.aarch64.rpm"
 RPM_HASH = "295e9e629bd489c21e2da3aefe38434415f4c01d8aebff6434c1df65b205297e0d911b025ba7df9b6705863946652f7feeccc941a4b89e955783b75653fcfa00"
 
 RPROVIDES:${PN} += "ksh \
-ksh(aarch-64) \
-libast.so.5()(64bit) \
-libcmd.so.1()(64bit) \
-libdll.so.1()(64bit) \
-libshell.so.1()(64bit)"
+libast.so.5 \
+libcmd.so.1 \
+libdll.so.1 \
+libshell.so.1"
 
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \
 /bin/sh \
 /bin/true \
 /etc/bash.bashrc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
 update-alternatives"
 
 inherit rpm

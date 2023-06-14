@@ -8,18 +8,16 @@ PV = "0.1.21"
 RPM_NAME = "libnice10-0.1.21-2.1.aarch64.rpm"
 RPM_HASH = "e137daa8532327cab368fb78eb636b545288f962cb17b2445bb835dc71e7d8a2ba8706141bd9f88db479d8b6673e5abf77e4ddc217e483c63804dbc6bd978eba"
 
-RPROVIDES:${PN} += "libnice.so.10()(64bit) \
-libnice10 \
-libnice10(aarch-64)"
+RPROVIDES:${PN} += "libnice.so.10 \
+libnice10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgupnp-igd-1.6.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgnutls.so.30 \
+libgobject-2.0.so.0 \
+libgupnp-igd-1.6.so.0"
 
 inherit rpm

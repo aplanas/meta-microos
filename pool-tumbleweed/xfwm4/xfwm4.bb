@@ -13,43 +13,38 @@ PV = "4.18.0"
 RPM_NAME = "xfwm4-4.18.0-1.3.aarch64.rpm"
 RPM_HASH = "faa0eb92b765a4efefefc82eec0c5bbcf4e3f4d472f7a66f4be9163ac235c9785f56ae6154baa8dd02ee431a4b728be8859caa458f478a8fa894ecd0557a2ff5"
 
-RPROVIDES:${PN} += "application() \
-application(xfce-wm-settings.desktop) \
-application(xfce-wmtweaks-settings.desktop) \
-application(xfce-workspaces-settings.desktop) \
-windowmanager \
+RPROVIDES:${PN} += "windowmanager \
 xfwm4 \
-xfwm4(aarch-64) \
 xfwm4-doc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXRes.so.1()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXinerama.so.1()(64bit) \
-libXpresent.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libepoxy.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libstartup-notification-1.so.0()(64bit) \
-libwnck-3.so.0()(64bit) \
-libxfce4kbd-private-3.so.0()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit) \
-libxfconf-0.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXRes.so.1 \
+libXcomposite.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXinerama.so.1 \
+libXpresent.so.1 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libepoxy.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libstartup-notification-1.so.0 \
+libwnck-3.so.0 \
+libxfce4kbd-private-3.so.0 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7 \
+libxfconf-0.so.3"
 
 inherit rpm

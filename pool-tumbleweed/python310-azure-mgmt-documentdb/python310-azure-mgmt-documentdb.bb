@@ -14,11 +14,11 @@ RPM_HASH = "cf499a3c3b26d302f50fd890a90fb0d88008666b5fd2b835bf6d4f4fcfe78ceada28
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-documentdb \
-python3.10dist(azure-mgmt-documentdb) \
+python3.10dist-azure-mgmt-documentdb \
 python310-azure-mgmt-documentdb \
-python3dist(azure-mgmt-documentdb)"
+python3dist-azure-mgmt-documentdb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \

@@ -9,11 +9,11 @@ RPM_HASH = "1384b1b157a61c012c2d5f88ceebf0aca9f1d3d098dc6eb101c7c652f14511057853
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dateutils \
-python3.10dist(dateutils) \
+python3.10dist-dateutils \
 python310-dateutils \
-python3dist(dateutils)"
+python3dist-dateutils"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil \
 python310-pytz"
 

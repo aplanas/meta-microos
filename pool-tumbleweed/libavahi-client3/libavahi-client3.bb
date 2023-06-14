@@ -8,15 +8,13 @@ PV = "0.8"
 RPM_NAME = "libavahi-client3-0.8-23.1.aarch64.rpm"
 RPM_HASH = "4c166a31fc2a2340d496f8f585dc71745a58391cf6d11e21184d7b7289bee3475af8214501449c89a378469eb3fb770ccc2c0bc941710f21c31c3b1691cf0076"
 
-RPROVIDES:${PN} += "libavahi-client.so.3()(64bit) \
-libavahi-client3 \
-libavahi-client3(aarch-64)"
+RPROVIDES:${PN} += "libavahi-client.so.3 \
+libavahi-client3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libavahi-common.so.3()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit)"
+ld-linux-aarch64.so.1 \
+libavahi-common.so.3 \
+libc.so.6 \
+libdbus-1.so.3"
 
 inherit rpm

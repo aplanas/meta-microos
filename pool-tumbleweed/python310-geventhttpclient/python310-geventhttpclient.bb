@@ -16,14 +16,13 @@ RPM_NAME = "python310-geventhttpclient-2.0.9-1.1.aarch64.rpm"
 RPM_HASH = "8729d35f667cea66cc608538eefa921aa0dc5583a2b9e75440defb96d63d2ec4781e9d6ee68375674b58d8c72fc771ec43a9e6bd8df1a8df9c512eb32285f254"
 
 RPROVIDES:${PN} += "python3-geventhttpclient \
-python3.10dist(geventhttpclient) \
+python3.10dist-geventhttpclient \
 python310-geventhttpclient \
-python310-geventhttpclient(aarch-64) \
-python3dist(geventhttpclient)"
+python3dist-geventhttpclient"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-Brotli \
 python310-certifi \
 python310-gevent"

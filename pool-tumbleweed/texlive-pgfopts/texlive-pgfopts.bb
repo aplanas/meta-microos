@@ -14,7 +14,7 @@ RPM_NAME = "texlive-pgfopts-2023.201.2.1asvn56615-51.1.noarch.rpm"
 RPM_HASH = "497d447a4ef1d62da40a6019ca394a49091d83924ddcfee280aad87d11c5399f0e6169a544f30f16a606d126167b6277676a25b17052ebccf5c7be16d7e29eaa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pgfopts.sty) \
+RPROVIDES:${PN} += "tex-pgfopts.sty \
 texlive-pgfopts"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pgfkeys.sty) \
+tex-pgfkeys.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,14 +13,13 @@ PV = "4.5.4"
 RPM_NAME = "libsqlcipher-3_41_2-0-4.5.4-1.1.aarch64.rpm"
 RPM_HASH = "ae6ffb7c6ed17181317d9e3309e31b211c84f1bac09a7201417ec02e09210aa02571c49139cbbb273a3c1acd74690ea841917ca37eba9b048ec5c38719067ea5"
 
-RPROVIDES:${PN} += "libsqlcipher-3.41.2.so.0()(64bit) \
-libsqlcipher-3_41_2-0 \
-libsqlcipher-3_41_2-0(aarch-64)"
+RPROVIDES:${PN} += "libsqlcipher-3-41-2-0 \
+libsqlcipher-3.41.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6"
 
 inherit rpm

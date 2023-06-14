@@ -26,17 +26,15 @@ PV = "3.9.3"
 RPM_NAME = "kid3-cli-3.9.3-1.3.aarch64.rpm"
 RPM_HASH = "46e6a7d3944a5db5e291ef18a30e6de8654c883abe39b864ed6500e22b5f0e2e0017afae80a3a40892a2e3420ad19f0e2e2ee6d9ccb49096c8e761442824e628"
 
-RPROVIDES:${PN} += "kid3-cli \
-kid3-cli(aarch-64)"
+RPROVIDES:${PN} += "kid3-cli"
 
 RDEPENDS:${PN} += "kid3-core \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkid3-core.so()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkid3-core.so \
+libreadline.so.8 \
+libstdc++.so.6"
 
 inherit rpm

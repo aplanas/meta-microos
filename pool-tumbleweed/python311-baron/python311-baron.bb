@@ -12,11 +12,11 @@ RPM_NAME = "python311-baron-0.10.1-1.7.noarch.rpm"
 RPM_HASH = "6aed8d4a3e5ee47d001cfcdbdef14f72fb8863ed58b3fc2deacdb7883fb8bc0fc0eb2570cd000bec505bc6fd452408e67c845658c2bc5b9494921fae43c9e31e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(baron) \
+RPROVIDES:${PN} += "python3.11dist-baron \
 python311-baron \
-python3dist(baron)"
+python3dist-baron"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-rply"
 
 inherit rpm

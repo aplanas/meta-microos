@@ -11,13 +11,13 @@ RPM_HASH = "730fba272813e1f0c157053acaf477fda8783b8d8dc5fbf62d485be4c97f4bf2a6cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-genfire \
-python3.10dist(genfire) \
+python3.10dist-genfire \
 python310-genfire \
-python3dist(genfire)"
+python3dist-genfire"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-PyQt5 \
 python310-numpy \

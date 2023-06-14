@@ -18,12 +18,12 @@ RPM_HASH = "a07d0066e6a60458a2f4049281f8bd378a58d1498d9196f79e9b3e193f268e7c64af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pystache \
-python3.10dist(pystache) \
+python3.10dist-pystache \
 python310-pystache \
-python3dist(pystache)"
+python3dist-pystache"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

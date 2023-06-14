@@ -12,11 +12,10 @@ PV = "1.49.3"
 RPM_NAME = "help2man-1.49.3-1.3.aarch64.rpm"
 RPM_HASH = "d23eb9cd48fc69a250b7c20d677e3625fab3582442b0fcae9fb7eebe63fcda2b6ae8f6b03b8a818b689b8d15c6dd581277d7355dc82ffd6e0bd36059f963cd02"
 
-RPROVIDES:${PN} += "help2man \
-help2man(aarch-64)"
+RPROVIDES:${PN} += "help2man"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libc.so.6()(64bit) \
+libc.so.6 \
 perl-gettext"
 
 inherit rpm

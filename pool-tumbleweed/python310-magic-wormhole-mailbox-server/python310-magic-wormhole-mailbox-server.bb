@@ -12,11 +12,11 @@ RPM_HASH = "73e01600ed224aa783521f73443fc548f24da752ca0fe5765dfdace57669b97b3196
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-magic-wormhole-mailbox-server \
-python3.10dist(magic-wormhole-mailbox-server) \
+python3.10dist-magic-wormhole-mailbox-server \
 python310-magic-wormhole-mailbox-server \
-python3dist(magic-wormhole-mailbox-server)"
+python3dist-magic-wormhole-mailbox-server"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Twisted-tls \
 python310-attrs \
 python310-autobahn"

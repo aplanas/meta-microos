@@ -10,11 +10,11 @@ RPM_HASH = "46d38490604889579711cbdde9ea54a348d513defbedd874baea4a446d5152f0f996
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-calmjs.parse \
-python3.10dist(calmjs.parse) \
+python3.10dist-calmjs.parse \
 python310-calmjs.parse \
-python3dist(calmjs.parse)"
+python3dist-calmjs.parse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ply \
 python310-setuptools"
 

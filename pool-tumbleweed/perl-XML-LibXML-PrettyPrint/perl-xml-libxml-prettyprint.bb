@@ -21,13 +21,13 @@ RPM_NAME = "perl-XML-LibXML-PrettyPrint-0.006-1.15.noarch.rpm"
 RPM_HASH = "f9cba42fc30eb04e5ec8d6a67ee5c462b6d4a1e31acdf429c0665a40f838c01e250eecc1ec8ba216a4c459b4fb445ebbe82976239ec78535293198c961cbf4f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::LibXML::PrettyPrint) \
+RPROVIDES:${PN} += "perl-XML--LibXML--PrettyPrint \
 perl-XML-LibXML-PrettyPrint"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Exporter::Tiny) \
-perl(XML::LibXML) \
-perl(XML::Simple)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Exporter--Tiny \
+perl-XML--LibXML \
+perl-XML--Simple"
 
 inherit rpm

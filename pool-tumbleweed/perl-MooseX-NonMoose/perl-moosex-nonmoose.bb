@@ -51,18 +51,18 @@ RPM_NAME = "perl-MooseX-NonMoose-0.26-3.25.noarch.rpm"
 RPM_HASH = "80b53cad0f268e1c6a78eeb8f508992c82fb50f825505609e6bad66218f56be2b17d3375c01e56014633a7a6c2764936c3b8269a43e9f44fca68eece20d78df3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::NonMoose) \
-perl(MooseX::NonMoose::InsideOut) \
-perl(MooseX::NonMoose::Meta::Role::Class) \
-perl(MooseX::NonMoose::Meta::Role::Constructor) \
+RPROVIDES:${PN} += "perl-MooseX--NonMoose \
+perl-MooseX--NonMoose--InsideOut \
+perl-MooseX--NonMoose--Meta--Role--Class \
+perl-MooseX--NonMoose--Meta--Role--Constructor \
 perl-MooseX-NonMoose"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(List::MoreUtils) \
-perl(Module::Runtime) \
-perl(Moose::Exporter) \
-perl(Moose::Role) \
-perl(Moose::Util) \
-perl(Try::Tiny)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-List--MoreUtils \
+perl-Module--Runtime \
+perl-Moose--Exporter \
+perl-Moose--Role \
+perl-Moose--Util \
+perl-Try--Tiny"
 
 inherit rpm

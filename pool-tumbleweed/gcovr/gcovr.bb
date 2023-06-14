@@ -17,12 +17,12 @@ RPM_HASH = "c4a3194eb67ae168bf1c9bf5ce7519a4df130bee701482ca74a0133e1ef0f989fe0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcovr \
-python3.10dist(gcovr) \
-python3dist(gcovr)"
+python3.10dist-gcovr \
+python3dist-gcovr"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gcc \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-lxml"
 

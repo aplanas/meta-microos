@@ -10,14 +10,13 @@ RPM_HASH = "cff615222b9efb51314932b13c7d04196da2e60ab266621ec696c3cb7b43d0765e07
 
 RPROVIDES:${PN} += "python3-bcrypt \
 python3-py-bcrypt \
-python3.10dist(bcrypt) \
+python3.10dist-bcrypt \
 python310-bcrypt \
-python310-bcrypt(aarch-64) \
 python310-py-bcrypt \
-python3dist(bcrypt)"
+python3dist-bcrypt"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+python-abi"
 
 inherit rpm

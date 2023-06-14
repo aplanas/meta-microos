@@ -13,7 +13,7 @@ RPM_NAME = "texlive-rgltxdoc-2023.201.1.3svn53858-53.1.noarch.rpm"
 RPM_HASH = "eb73f38413093f68653e780d0c0a2f3e5d13e049ae3b8ee5cb769f7824d0da56263c3c37dd11d84684cd3b15e0eac9d5837ee6ee1be2974d902dc0259c988b94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rgltxdoc.sty) \
+RPROVIDES:${PN} += "tex-rgltxdoc.sty \
 texlive-rgltxdoc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,32 +22,32 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(babel.sty) \
-tex(calc.sty) \
-tex(cleveref.sty) \
-tex(csquotes.sty) \
-tex(doc.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(fontenc.sty) \
-tex(fontspec.sty) \
-tex(geometry.sty) \
-tex(hologo.sty) \
-tex(hypdoc.sty) \
-tex(idxlayout.sty) \
-tex(ifluatex.sty) \
-tex(inputenc.sty) \
-tex(keyvaltable.sty) \
-tex(lmodern.sty) \
-tex(luainputenc.sty) \
-tex(microtype.sty) \
-tex(pbox.sty) \
-tex(polyglossia.sty) \
-tex(showexpl.sty) \
-tex(typearea.sty) \
-tex(varioref.sty) \
-tex(xkeyval.sty) \
+tex-amsmath.sty \
+tex-babel.sty \
+tex-calc.sty \
+tex-cleveref.sty \
+tex-csquotes.sty \
+tex-doc.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-fontenc.sty \
+tex-fontspec.sty \
+tex-geometry.sty \
+tex-hologo.sty \
+tex-hypdoc.sty \
+tex-idxlayout.sty \
+tex-ifluatex.sty \
+tex-inputenc.sty \
+tex-keyvaltable.sty \
+tex-lmodern.sty \
+tex-luainputenc.sty \
+tex-microtype.sty \
+tex-pbox.sty \
+tex-polyglossia.sty \
+tex-showexpl.sty \
+tex-typearea.sty \
+tex-varioref.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

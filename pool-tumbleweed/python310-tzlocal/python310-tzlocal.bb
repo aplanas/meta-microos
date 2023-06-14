@@ -22,11 +22,11 @@ RPM_HASH = "a34aab1712047a9921abc474164153457c5b00a26e08e3ca124deafcdb093e1e6a3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tzlocal \
-python3.10dist(tzlocal) \
+python3.10dist-tzlocal \
 python310-tzlocal \
-python3dist(tzlocal)"
+python3dist-tzlocal"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytz \
 python310-pytz-deprecation-shim"
 

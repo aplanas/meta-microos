@@ -12,21 +12,21 @@ RPM_NAME = "perl-GD-Barcode-1.15-25.26.noarch.rpm"
 RPM_HASH = "5f15f69119c37cc0698795c310eaa60c76f3e1d881cda66d927f2ef4f4eefadcdd1470e0fa1aecd08496a2590fa1a64a638b100c65ad93473b314b9d7c4c352b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(GD::Barcode) \
-perl(GD::Barcode::COOP2of5) \
-perl(GD::Barcode::Code39) \
-perl(GD::Barcode::EAN13) \
-perl(GD::Barcode::EAN8) \
-perl(GD::Barcode::IATA2of5) \
-perl(GD::Barcode::ITF) \
-perl(GD::Barcode::Industrial2of5) \
-perl(GD::Barcode::Matrix2of5) \
-perl(GD::Barcode::NW7) \
-perl(GD::Barcode::QRcode) \
-perl(GD::Barcode::UPCA) \
-perl(GD::Barcode::UPCE) \
+RPROVIDES:${PN} += "perl-GD--Barcode \
+perl-GD--Barcode--COOP2of5 \
+perl-GD--Barcode--Code39 \
+perl-GD--Barcode--EAN13 \
+perl-GD--Barcode--EAN8 \
+perl-GD--Barcode--IATA2of5 \
+perl-GD--Barcode--ITF \
+perl-GD--Barcode--Industrial2of5 \
+perl-GD--Barcode--Matrix2of5 \
+perl-GD--Barcode--NW7 \
+perl-GD--Barcode--QRcode \
+perl-GD--Barcode--UPCA \
+perl-GD--Barcode--UPCE \
 perl-GD-Barcode"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

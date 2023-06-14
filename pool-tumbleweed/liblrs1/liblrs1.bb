@@ -11,13 +11,12 @@ PV = "7.2"
 RPM_NAME = "liblrs1-7.2-1.3.aarch64.rpm"
 RPM_HASH = "4a21b3a19502f95f771485894631cc678d65bd68329c4ebb30aa06138636051ca944941b682c105347f760da82e53a73301addb1702ea3562a521aee40c694ae"
 
-RPROVIDES:${PN} += "liblrs.so.1()(64bit) \
-liblrs1 \
-liblrs1(aarch-64)"
+RPROVIDES:${PN} += "liblrs.so.1 \
+liblrs1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgmp.so.10"
 
 inherit rpm

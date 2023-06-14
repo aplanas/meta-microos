@@ -9,14 +9,14 @@ RPM_HASH = "661acecb8efb46290f5f086b6ca898001d226bce63c70c1c773db3c7cdc08b3102af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-websocket-common \
-mvn(org.eclipse.jetty.websocket:websocket-common) \
-mvn(org.eclipse.jetty.websocket:websocket-common:pom:) \
-osgi(org.eclipse.jetty.websocket.common)"
+mvn-org.eclipse.jetty.websocket-websocket-common \
+mvn-org.eclipse.jetty.websocket-websocket-common-pom- \
+osgi-org.eclipse.jetty.websocket.common"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.eclipse.jetty.websocket:websocket-api) \
-mvn(org.eclipse.jetty:jetty-io) \
-mvn(org.eclipse.jetty:jetty-util)"
+mvn-org.eclipse.jetty-jetty-io \
+mvn-org.eclipse.jetty-jetty-util \
+mvn-org.eclipse.jetty.websocket-websocket-api"
 
 inherit rpm

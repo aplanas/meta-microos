@@ -8,25 +8,19 @@ PV = "0.8"
 RPM_NAME = "qt6ct-0.8-1.2.aarch64.rpm"
 RPM_HASH = "047b6a8418c26cca74250caf034396253823800a7b8353883c8d87d84da57ddb27e3d61a85346ffa8fcd7587dc51201dd67688a496aafdf2e64241e19e577fcb"
 
-RPROVIDES:${PN} += "application() \
-application(qt6ct.desktop) \
-libqt6ct-common.so.0.8()(64bit) \
-libqt6ct-style.so()(64bit) \
-libqt6ct.so()(64bit) \
-qt6ct \
-qt6ct(aarch-64)"
+RPROVIDES:${PN} += "libqt6ct-common.so.0.8 \
+libqt6ct-style.so \
+libqt6ct.so \
+qt6ct"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libQt6Svg6 \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt6Widgets.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

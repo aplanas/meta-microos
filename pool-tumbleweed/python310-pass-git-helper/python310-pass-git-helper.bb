@@ -9,13 +9,13 @@ RPM_HASH = "c5984ec82318129c11d851cc7ad06ff7b2bf96f0913de11dbbdcf06a5ab3d705b433
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pass-git-helper \
-python3.10dist(pass-git-helper) \
+python3.10dist-pass-git-helper \
 python310-pass-git-helper \
-python3dist(pass-git-helper)"
+python3dist-pass-git-helper"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pyxdg \
 update-alternatives"
 

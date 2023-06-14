@@ -19,11 +19,11 @@ RPM_NAME = "python39-aioeventlet-0.5.2-4.3.noarch.rpm"
 RPM_HASH = "76604330645e1fb305455d920b25cd45383a726dd220be24a986c57e062b56fe6062143babebdb7d321d6b13bc3903d210e2896ae1e475c3bf749ea5bba7e1e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(aioeventlet) \
+RPROVIDES:${PN} += "python3.9dist-aioeventlet \
 python39-aioeventlet \
-python3dist(aioeventlet)"
+python3dist-aioeventlet"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-eventlet"
 
 inherit rpm

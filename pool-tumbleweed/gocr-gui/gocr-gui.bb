@@ -12,9 +12,7 @@ RPM_NAME = "gocr-gui-0.52-3.2.noarch.rpm"
 RPM_HASH = "8a3917affb23f52fb90e2ea39ac5374cf23fe6f6687225382b4fb32f39f6407f637faaed35aad1d5674538c24651491f563f1cef532a55a5b6bcbfdaaae3f683"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(gocr.desktop) \
-gocr-gui"
+RPROVIDES:${PN} += "gocr-gui"
 
 RDEPENDS:${PN} += "/bin/sh \
 gocr \

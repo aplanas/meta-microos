@@ -7,15 +7,14 @@ PV = "1.32~git.20210408.46bb4c0"
 RPM_NAME = "rkdeveloptool-1.32~git.20210408.46bb4c0-2.8.aarch64.rpm"
 RPM_HASH = "1b1ca63264cd411775001ae6b1b45a1879e426638b1238d334213b0cb25eded78eab36edea4758c8cedd35a528b3074803481a765b614502e029ba38fdd9feef"
 
-RPROVIDES:${PN} += "rkdeveloptool \
-rkdeveloptool(aarch-64)"
+RPROVIDES:${PN} += "rkdeveloptool"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libusb-1.0.so.0 \
 udev"
 
 inherit rpm

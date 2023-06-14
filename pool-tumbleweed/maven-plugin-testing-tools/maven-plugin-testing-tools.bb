@@ -9,13 +9,13 @@ RPM_HASH = "80122e9671097ac87dfabef92231b1d770f9cea2453730456f0056392cf1fa677137
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-testing-tools \
-mvn(org.apache.maven.plugin-testing:maven-plugin-testing-tools) \
-mvn(org.apache.maven.plugin-testing:maven-plugin-testing-tools:pom:) \
-mvn(org.apache.maven.shared:maven-plugin-testing-tools) \
-mvn(org.apache.maven.shared:maven-plugin-testing-tools:pom:)"
+mvn-org.apache.maven.plugin-testing-maven-plugin-testing-tools \
+mvn-org.apache.maven.plugin-testing-maven-plugin-testing-tools-pom- \
+mvn-org.apache.maven.shared-maven-plugin-testing-tools \
+mvn-org.apache.maven.shared-maven-plugin-testing-tools-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-invoker)"
+mvn-org.apache.maven.shared-maven-invoker"
 
 inherit rpm

@@ -9,8 +9,8 @@ RPM_HASH = "06c3c1433c9ecacf4a1fb7062b5437b29420690f8340abbf8f010b207dbd93ca0984
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-modules \
-mvn(org.jboss.modules:jboss-modules) \
-mvn(org.jboss.modules:jboss-modules:pom:)"
+mvn-org.jboss.modules-jboss-modules \
+mvn-org.jboss.modules-jboss-modules-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

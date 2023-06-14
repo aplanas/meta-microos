@@ -12,7 +12,7 @@ RPM_HASH = "70c2aa7c181ad95a48bfc1a1d762acac70df99a5fd8cba61c9c46a2ce5db11e56cb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-utils \
-config(apparmor-utils)"
+config-apparmor-utils"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

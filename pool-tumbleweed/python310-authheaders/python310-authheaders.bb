@@ -9,11 +9,11 @@ RPM_HASH = "c2a82c302760320315de7db1798350f9a35cfbb3df2e846e92f80f91c4d4d44ae15f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-authheaders \
-python3.10dist(authheaders) \
+python3.10dist-authheaders \
 python310-authheaders \
-python3dist(authheaders)"
+python3dist-authheaders"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-authres \
 python310-dkimpy \
 python310-dnspython \

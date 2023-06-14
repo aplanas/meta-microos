@@ -10,11 +10,11 @@ RPM_HASH = "7bc45ccfcd85259e39150713452abf2ba18aab2f192e52928c78f2de48834463c347
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asyncssh \
-python3.10dist(asyncssh) \
+python3.10dist-asyncssh \
 python310-asyncssh \
-python3dist(asyncssh)"
+python3dist-asyncssh"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-bcrypt \
 python310-cryptography \
 python310-gssapi \

@@ -14,10 +14,9 @@ PV = "2.6.1"
 RPM_NAME = "scrub-2.6.1-1.27.aarch64.rpm"
 RPM_HASH = "ae9dcf1edda4a878184a5441dd7ca1e8d8a095d7eab8dd660276b8f99ed7553ded774dc8d8b5d0d6b121969566a91fbab6457d253aeb9bb844ae263997a6c02d"
 
-RPROVIDES:${PN} += "scrub \
-scrub(aarch-64)"
+RPROVIDES:${PN} += "scrub"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

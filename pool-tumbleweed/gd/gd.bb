@@ -11,12 +11,11 @@ RPM_NAME = "gd-2.3.3-3.3.aarch64.rpm"
 RPM_HASH = "de9fb1d59fecee2be418b7ac211e840dcce4f121f3d42326dde03b63f1f31cfc573eb98dde6c760f41f32075d4c9ff6a9d00a69cfc342349bcdc28a5fdeb6fd4"
 
 RPROVIDES:${PN} += "gd \
-gd(aarch-64) \
 gdlib"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgd.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgd.so.3"
 
 inherit rpm

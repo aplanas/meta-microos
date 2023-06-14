@@ -9,13 +9,13 @@ RPM_HASH = "27a0e8c4659ddf45264aa6c3b0e9ee546cdf8cfe78adfcdf08e682807d55b34b5d04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ldapdomaindump \
-python3.10dist(ldapdomaindump) \
+python3.10dist-ldapdomaindump \
 python310-ldapdomaindump \
-python3dist(ldapdomaindump)"
+python3dist-ldapdomaindump"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dnspython \
 python310-future \
 python310-ldap3"

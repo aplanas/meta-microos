@@ -9,11 +9,11 @@ RPM_HASH = "2544dcba4019a31b329b7aa8937cdc24fb7f8d08175c2f1c0ec936ab7aa3563261f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-djangorestframework-simplejwt \
-python3.10dist(djangorestframework-simplejwt) \
+python3.10dist-djangorestframework-simplejwt \
 python310-djangorestframework-simplejwt \
-python3dist(djangorestframework-simplejwt)"
+python3dist-djangorestframework-simplejwt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-djangorestframework"
 

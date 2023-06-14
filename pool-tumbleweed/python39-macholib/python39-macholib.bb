@@ -15,13 +15,13 @@ RPM_NAME = "python39-macholib-1.16.2-1.4.noarch.rpm"
 RPM_HASH = "69686de23ffefc5a5e922501526223843d524e5033b33bb45b98532e2bf6757213cffd3b397962ad5b01863ccf49bda006b80d842dcca9a50555c4ecbfaf0c9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(macholib) \
+RPROVIDES:${PN} += "python3.9dist-macholib \
 python39-macholib \
-python3dist(macholib)"
+python3dist-macholib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-altgraph \
 python39-setuptools \
 update-alternatives"

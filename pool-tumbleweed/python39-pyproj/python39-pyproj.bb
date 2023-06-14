@@ -25,17 +25,16 @@ PV = "3.5.0"
 RPM_NAME = "python39-pyproj-3.5.0-1.1.aarch64.rpm"
 RPM_HASH = "a9135f73b63cf694274f2a8d16842338b40253926c271b4243cb8ee75d176f1a2239fce58576f165cb65465086485f68674aa3efeb8afffe16ad981d0101f95e"
 
-RPROVIDES:${PN} += "python3.9dist(pyproj) \
+RPROVIDES:${PN} += "python3.9dist-pyproj \
 python39-pyproj \
-python39-pyproj(aarch-64) \
-python3dist(pyproj)"
+python3dist-pyproj"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libproj.so.25()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libproj.so.25 \
+python-abi \
 python39-certifi \
 update-alternatives"
 

@@ -8,32 +8,27 @@ RPM_NAME = "kosmindoormap-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "72159adc6857d5d8db08ea5c3b004530d01ab0248618d36cc6eb06f243144d796065bc60903ca7b6554a105602d170007baaa1bbdaf8883d14f4ec74d1347d35"
 
 RPROVIDES:${PN} += "kosmindoormap \
-kosmindoormap(aarch-64) \
-libkosmindoormap_kpublictransport_integration_plugin.so()(64bit) \
-libkosmindoormapquickplugin.so()(64bit) \
-qt5qmlimport(org.kde.kosmindoormap.1) \
-qt5qmlimport(org.kde.kosmindoormap.kpublictransport.1)"
+libkosmindoormap-kpublictransport-integration-plugin.so \
+libkosmindoormapquickplugin.so \
+qt5qmlimport-org.kde.kosmindoormap.1 \
+qt5qmlimport-org.kde.kosmindoormap.kpublictransport.1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5I18nLocaleData.so.5()(64bit) \
-libKOSM.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5I18n.so.5 \
+libKF5I18nLocaleData.so.5 \
+libKOSM.so.1 \
 libKOSM1 \
-libKOSMIndoorMap.so.1()(64bit) \
-libKPublicTransport.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.2) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(org.kde.kosmindoormap.1)"
+libKOSMIndoorMap.so.1 \
+libKPublicTransport.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.2 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-org.kde.kosmindoormap.1"
 
 inherit rpm

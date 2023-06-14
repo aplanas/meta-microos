@@ -16,13 +16,12 @@ PV = "8.9p1"
 RPM_NAME = "openssh-common-8.9p1-9.2.aarch64.rpm"
 RPM_HASH = "2a2230738ecbe3036307341e7b84316235bf522c9144253adc299f21f6f49d32a16c7bdaa15f6a2680368cad3b678131ee216bd888ed7c3fbf16a4dcc6936f15"
 
-RPROVIDES:${PN} += "openssh-common \
-openssh-common(aarch-64)"
+RPROVIDES:${PN} += "openssh-common"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libselinux.so.1()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libselinux.so.1 \
+libz.so.1"
 
 inherit rpm

@@ -14,15 +14,14 @@ RPM_NAME = "libgwengui-gtk3-79-5.10.1-1.4.aarch64.rpm"
 RPM_HASH = "4735ef49218a9f4927978a0125a03bd9416b32440a330e4c774b3e043f402af0357bb323df47c1fdda7d49423715fedf6be6e5ede930829f6450dcd5af26038a"
 
 RPROVIDES:${PN} += "libgwengui-gtk3-79 \
-libgwengui-gtk3-79(aarch-64) \
-libgwengui-gtk3.so.79()(64bit)"
+libgwengui-gtk3.so.79"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgwenhywfar.so.79()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgwenhywfar.so.79"
 
 inherit rpm

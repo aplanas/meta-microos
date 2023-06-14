@@ -14,13 +14,13 @@ RPM_NAME = "python311-awkward-2.1.4-2.1.noarch.rpm"
 RPM_HASH = "0923d37c341ecdab7d66f36675a41c71e807bbb0e11bc8880f74ce1ef3fb1fb5e928afcd843de44d0e9c6ee9a37ba5e89566b77289cf7d7829ecf8c57ddf23d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(awkward) \
+RPROVIDES:${PN} += "python3.11dist-awkward \
 python311-awkward \
-python3dist(awkward)"
+python3dist-awkward"
 
-RDEPENDS:${PN} += "(python311-importlib-resources if python311-base < 3.9) \
-(python311-typing-extensions >= 4.1.0 if python311-base < 3.11) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-importlib-resources if python311-base < 3.9 \
+-python311-typing-extensions >= 4.1.0 if python311-base < 3.11 \
+python-abi \
 python311-awkward-cpp \
 python311-numpy \
 python311-packaging"

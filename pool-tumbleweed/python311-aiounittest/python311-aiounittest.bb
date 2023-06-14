@@ -13,11 +13,11 @@ RPM_NAME = "python311-aiounittest-1.4.2-2.1.noarch.rpm"
 RPM_HASH = "184ec397573089944db953dcdd8ceb3d22b8506063bb1cc19a4b69e7d49368be6886f9a24281129ef0fa144083261bd35c69bc802b44d85b35e476d103e0a176"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(aiounittest) \
+RPROVIDES:${PN} += "python3.11dist-aiounittest \
 python311-aiounittest \
-python3dist(aiounittest)"
+python3dist-aiounittest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-wrapt"
 
 inherit rpm

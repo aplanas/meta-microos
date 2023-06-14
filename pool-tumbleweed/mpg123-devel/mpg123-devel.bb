@@ -10,10 +10,9 @@ RPM_NAME = "mpg123-devel-1.31.3-1.2.aarch64.rpm"
 RPM_HASH = "a1df71d1d4775e5ed81e4edac2b34c11f9285d220e53918d396a609a4b604870e6b9407016b23a7168d91c95e0d8af62ddc15b5bbefe2d1d55d0b9bf0d8dd2e0"
 
 RPROVIDES:${PN} += "mpg123-devel \
-mpg123-devel(aarch-64) \
-pkgconfig(libmpg123) \
-pkgconfig(libout123) \
-pkgconfig(libsyn123)"
+pkgconfig-libmpg123 \
+pkgconfig-libout123 \
+pkgconfig-libsyn123"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpg123-0 \

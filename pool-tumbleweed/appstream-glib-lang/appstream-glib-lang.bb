@@ -10,38 +10,38 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appstream-glib-lang \
 appstream-glib-lang-all \
-locale(appstream-glib:ca) \
-locale(appstream-glib:cs) \
-locale(appstream-glib:da) \
-locale(appstream-glib:de) \
-locale(appstream-glib:en_GB) \
-locale(appstream-glib:es) \
-locale(appstream-glib:fa) \
-locale(appstream-glib:fi) \
-locale(appstream-glib:fr) \
-locale(appstream-glib:fur) \
-locale(appstream-glib:gl) \
-locale(appstream-glib:hr) \
-locale(appstream-glib:hu) \
-locale(appstream-glib:id) \
-locale(appstream-glib:it) \
-locale(appstream-glib:ka) \
-locale(appstream-glib:ko) \
-locale(appstream-glib:lt) \
-locale(appstream-glib:oc) \
-locale(appstream-glib:pl) \
-locale(appstream-glib:pt) \
-locale(appstream-glib:pt_BR) \
-locale(appstream-glib:ru) \
-locale(appstream-glib:sk) \
-locale(appstream-glib:sl) \
-locale(appstream-glib:sr) \
-locale(appstream-glib:sr@latin) \
-locale(appstream-glib:sv) \
-locale(appstream-glib:tr) \
-locale(appstream-glib:uk) \
-locale(appstream-glib:zh_CN) \
-locale(appstream-glib:zh_TW)"
+locale-appstream-glib-ca \
+locale-appstream-glib-cs \
+locale-appstream-glib-da \
+locale-appstream-glib-de \
+locale-appstream-glib-en-GB \
+locale-appstream-glib-es \
+locale-appstream-glib-fa \
+locale-appstream-glib-fi \
+locale-appstream-glib-fr \
+locale-appstream-glib-fur \
+locale-appstream-glib-gl \
+locale-appstream-glib-hr \
+locale-appstream-glib-hu \
+locale-appstream-glib-id \
+locale-appstream-glib-it \
+locale-appstream-glib-ka \
+locale-appstream-glib-ko \
+locale-appstream-glib-lt \
+locale-appstream-glib-oc \
+locale-appstream-glib-pl \
+locale-appstream-glib-pt \
+locale-appstream-glib-pt-BR \
+locale-appstream-glib-ru \
+locale-appstream-glib-sk \
+locale-appstream-glib-sl \
+locale-appstream-glib-sr \
+locale-appstream-glib-sr@latin \
+locale-appstream-glib-sv \
+locale-appstream-glib-tr \
+locale-appstream-glib-uk \
+locale-appstream-glib-zh-CN \
+locale-appstream-glib-zh-TW"
 
 RDEPENDS:${PN} += "appstream-glib"
 

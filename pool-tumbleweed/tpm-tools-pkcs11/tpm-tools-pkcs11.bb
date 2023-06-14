@@ -17,12 +17,11 @@ PV = "1.3.9.2"
 RPM_NAME = "tpm-tools-pkcs11-1.3.9.2-3.6.aarch64.rpm"
 RPM_HASH = "1a46e06b5792f73041edb17266d7bbb0fb6b9ffc0a4b62fb7e50fa6fe43c448295c3ff5cd7a65dd88278b592fdf07ad8cd2aed13d1f6068b98ec608983d5bf5e"
 
-RPROVIDES:${PN} += "tpm-tools-pkcs11 \
-tpm-tools-pkcs11(aarch-64)"
+RPROVIDES:${PN} += "tpm-tools-pkcs11"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libtspi.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libtspi.so.1"
 
 inherit rpm

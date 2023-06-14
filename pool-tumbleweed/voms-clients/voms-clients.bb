@@ -14,18 +14,17 @@ PV = "2.1.0~rc3"
 RPM_NAME = "voms-clients-2.1.0~rc3-1.3.aarch64.rpm"
 RPM_HASH = "3b8a3cc052af48c5654d3e3dbf98f477015d0c5beb9dfcc8421b7e4c8b9a61dced1e9cf643f8a5b05f2ce0016fccfbb6df36d33cc40b586e03cc7b2a4b48a3d6"
 
-RPROVIDES:${PN} += "voms-clients \
-voms-clients(aarch-64)"
+RPROVIDES:${PN} += "voms-clients"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libvomsapi.so.1()(64bit) \
-libvomsapi1(aarch-64) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libssl.so.3 \
+libstdc++.so.6 \
+libvomsapi.so.1 \
+libvomsapi1 \
 update-alternatives"
 
 inherit rpm

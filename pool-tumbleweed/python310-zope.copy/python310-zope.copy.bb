@@ -11,11 +11,11 @@ RPM_HASH = "49a315ff6ecd6c734d4f110065854a07c51d80382d303ea6121eb99e27e48a206dd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.copy \
-python3.10dist(zope.copy) \
+python3.10dist-zope.copy \
 python310-zope.copy \
-python3dist(zope.copy)"
+python3dist-zope.copy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-zope.interface"
 
 inherit rpm

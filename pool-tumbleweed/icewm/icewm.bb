@@ -12,7 +12,6 @@ RPM_NAME = "icewm-3.3.5-1.1.aarch64.rpm"
 RPM_HASH = "6122e836e0658b82d3e3cd8a6e4eda6aacd8099606b6198a60722aafcc931346f2bdaf1258f03b8f145bc37f377907ac0a7c21f830bdc7f5d61c4ec8c251fa42"
 
 RPROVIDES:${PN} += "icewm \
-icewm(aarch-64) \
 icewm-gnome \
 windowmanager"
 

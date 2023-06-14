@@ -11,7 +11,7 @@ RPM_NAME = "texlive-makecmds-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "6d359a7c49cc7e1abc255c1f03148b48d19275c7c8792b0d79c4fa1a4576ccd14d891b91dcc9db16e57caba047a7551de2019496df06f518ce52643fd1f7ca4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(makecmds.sty) \
+RPROVIDES:${PN} += "tex-makecmds.sty \
 texlive-makecmds"
 
 RDEPENDS:${PN} += "/bin/sh \

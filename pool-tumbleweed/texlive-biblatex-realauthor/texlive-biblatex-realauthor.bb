@@ -10,7 +10,7 @@ RPM_NAME = "texlive-biblatex-realauthor-2023.201.2.7.1asvn45865-53.1.noarch.rpm"
 RPM_HASH = "391b293c85e262e81385d6fbe9900d9b30f5b3eb649a151900285462f14ccf9a90a3f30a649a1d49a9f59b13b8af86f87b3886b1229fad1433d240979f844cb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(realauthor.bbx) \
+RPROVIDES:${PN} += "tex-realauthor.bbx \
 texlive-biblatex-realauthor"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xpatch.sty) \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

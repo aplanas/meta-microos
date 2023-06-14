@@ -15,7 +15,7 @@ RPM_NAME = "texlive-pst-dbicons-2023.201.0.0.16svn17556-52.1.noarch.rpm"
 RPM_HASH = "b9f4fa2decd477d49ff59ffc8f4f0a7f063a0abf80640e956387d4d09e88ecd0e494f30c02db56a3b6f547c2c08cca461468ea4da055ec78356e15ad8004edd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-dbicons.sty) \
+RPROVIDES:${PN} += "tex-pst-dbicons.sty \
 texlive-pst-dbicons"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -14,30 +14,29 @@ RPM_NAME = "profanity-standard-0.13.1-1.4.aarch64.rpm"
 RPM_HASH = "a66ba066ef6b8afa3851818bd44bca9cb992beea0b19903751c8b57bb8575f885593f0c052a73ebf026f76b9eb6538e13019c707ce4fb6038a5b728700d04f03"
 
 RPROVIDES:${PN} += "profanity-binary \
-profanity-standard \
-profanity-standard(aarch-64)"
+profanity-standard"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgpgme.so.11()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libnotify.so.4()(64bit) \
-libotr.so.5()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libreadline.so.8()(64bit) \
-libsignal-protocol-c.so.2()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstrophe.so.0()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libgcrypt.so.20 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgpgme.so.11 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libncursesw.so.6 \
+libnotify.so.4 \
+libotr.so.5 \
+libpython3.10.so.1.0 \
+libreadline.so.8 \
+libsignal-protocol-c.so.2 \
+libsqlite3.so.0 \
+libstrophe.so.0 \
+libtinfo.so.6 \
 profanity \
 update-alternatives"
 

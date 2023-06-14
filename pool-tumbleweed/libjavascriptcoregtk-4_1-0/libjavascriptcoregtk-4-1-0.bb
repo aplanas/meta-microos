@@ -13,22 +13,20 @@ PV = "2.40.2"
 RPM_NAME = "libjavascriptcoregtk-4_1-0-2.40.2-1.1.aarch64.rpm"
 RPM_HASH = "600d9b7642966c36f457a3c17136bd2f8aaa27d60a7485b175db074bb28edd5a91ff8c6f89fb2c1ef8823e871121296365d65b703bdbcaa1bae152f2954e5fff"
 
-RPROVIDES:${PN} += "libjavascriptcoregtk-4.1.so.0()(64bit) \
-libjavascriptcoregtk-4_1-0 \
-libjavascriptcoregtk-4_1-0(aarch-64)"
+RPROVIDES:${PN} += "libjavascriptcoregtk-4-1-0 \
+libjavascriptcoregtk-4.1.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libm.so.6 \
+libstdc++.so.6 \
+libsystemd.so.0"
 
 inherit rpm

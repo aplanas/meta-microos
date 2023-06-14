@@ -12,27 +12,25 @@ PV = "1.5.0"
 RPM_NAME = "svxlink-server-1.5.0-5.9.aarch64.rpm"
 RPM_HASH = "9a7eaf805e9166f08de06e5c09abac8c68acf192aeb345262b2f22982bf23ea5e3c3c59b642dc4cb7c1c10c2254fb4150e3cc6e63046f348e15beda29014a379"
 
-RPROVIDES:${PN} += "config(svxlink-server) \
-svxlink-server \
-svxlink-server(aarch-64)"
+RPROVIDES:${PN} += "config-svxlink-server \
+svxlink-server"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libasyncaudio.so.1.6()(64bit) \
-libasynccore.so.1.6()(64bit) \
-libasynccpp.so.1.6()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libecholib.so.1.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgsm.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
+ld-linux-aarch64.so.1 \
+libasyncaudio.so.1.6 \
+libasynccore.so.1.6 \
+libasynccpp.so.1.6 \
+libc.so.6 \
+libcurl.so.4 \
+libecholib.so.1.3 \
+libgcc-s.so.1 \
+libgcrypt.so.20 \
+libgsm.so.1 \
+libm.so.6 \
+libpopt.so.0 \
+libsigc-2.0.so.0 \
+libstdc++.so.6 \
+libtcl8.6.so \
 logrotate \
 shadow"
 

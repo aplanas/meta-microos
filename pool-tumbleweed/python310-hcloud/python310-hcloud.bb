@@ -9,11 +9,11 @@ RPM_HASH = "0bbd68ce89d4bae1822dde269f0124b9506a37586d1790e0e3f90e1f504a5ee9c8d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hcloud \
-python3.10dist(hcloud) \
+python3.10dist-hcloud \
 python310-hcloud \
-python3dist(hcloud)"
+python3dist-hcloud"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-python-dateutil \
 python310-requests"

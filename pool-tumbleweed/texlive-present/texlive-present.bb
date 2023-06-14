@@ -15,7 +15,7 @@ RPM_NAME = "texlive-present-2023.201.2.2.1svn50048-52.1.noarch.rpm"
 RPM_HASH = "9d8e591365f40d8b5f3c721bb70ec9c44ddd42f854d507f1a81d0f6f53a7c14788d9b05083ff46e87becf2326c055d8ed241dfa4f750b9bf64cafdb5eac84fa8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(present.tex) \
+RPROVIDES:${PN} += "tex-present.tex \
 texlive-present"
 
 RDEPENDS:${PN} += "/bin/sh \

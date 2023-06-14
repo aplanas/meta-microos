@@ -21,17 +21,14 @@ PV = "2.15.5"
 RPM_NAME = "7kaa-2.15.5-1.7.aarch64.rpm"
 RPM_HASH = "b46228ab0b855db27767d9c612c5de48beda9298e7320b241ef12498a6dceb0e2377a0b396e9402d6bac7e67c82a60ae00225b65d8f61c8c02ba66489f6bcc11"
 
-RPROVIDES:${PN} += "7kaa \
-7kaa(aarch-64) \
-application() \
-application(7kaa.desktop)"
+RPROVIDES:${PN} += "7kaa"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopenal.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopenal.so.1 \
+libstdc++.so.6"
 
 inherit rpm

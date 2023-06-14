@@ -10,30 +10,30 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "heaptrack-lang \
 heaptrack-lang-all \
-locale(heaptrack:ast) \
-locale(heaptrack:ca) \
-locale(heaptrack:ca@valencia) \
-locale(heaptrack:cs) \
-locale(heaptrack:da) \
-locale(heaptrack:de) \
-locale(heaptrack:en_GB) \
-locale(heaptrack:es) \
-locale(heaptrack:fr) \
-locale(heaptrack:gl) \
-locale(heaptrack:ia) \
-locale(heaptrack:ko) \
-locale(heaptrack:nl) \
-locale(heaptrack:nn) \
-locale(heaptrack:pl) \
-locale(heaptrack:pt) \
-locale(heaptrack:pt_BR) \
-locale(heaptrack:ru) \
-locale(heaptrack:sk) \
-locale(heaptrack:sl) \
-locale(heaptrack:sv) \
-locale(heaptrack:tr) \
-locale(heaptrack:uk) \
-locale(heaptrack:zh_CN)"
+locale-heaptrack-ast \
+locale-heaptrack-ca \
+locale-heaptrack-ca@valencia \
+locale-heaptrack-cs \
+locale-heaptrack-da \
+locale-heaptrack-de \
+locale-heaptrack-en-GB \
+locale-heaptrack-es \
+locale-heaptrack-fr \
+locale-heaptrack-gl \
+locale-heaptrack-ia \
+locale-heaptrack-ko \
+locale-heaptrack-nl \
+locale-heaptrack-nn \
+locale-heaptrack-pl \
+locale-heaptrack-pt \
+locale-heaptrack-pt-BR \
+locale-heaptrack-ru \
+locale-heaptrack-sk \
+locale-heaptrack-sl \
+locale-heaptrack-sv \
+locale-heaptrack-tr \
+locale-heaptrack-uk \
+locale-heaptrack-zh-CN"
 
 RDEPENDS:${PN} += "heaptrack"
 

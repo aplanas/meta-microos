@@ -9,11 +9,11 @@ RPM_HASH = "47e3f43c8f59f056f5d96f2e6a941cc6251659cabfba567e7e391d93aa71be48d29a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-beniget \
-python3.10dist(beniget) \
+python3.10dist-beniget \
 python310-beniget \
-python3dist(beniget)"
+python3dist-beniget"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-gast"
 
 inherit rpm

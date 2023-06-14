@@ -10,14 +10,14 @@ RPM_HASH = "737b1c05aedefff410a4099e2b6f31d984b734fae4267f1f181bc6726239cc692314
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcasgen-maven-plugin \
-mvn(org.apache.uima:jcasgen-maven-plugin) \
-mvn(org.apache.uima:jcasgen-maven-plugin:pom:)"
+mvn-org.apache.uima-jcasgen-maven-plugin \
+mvn-org.apache.uima-jcasgen-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.uima:uimaj-tools) \
-mvn(org.sonatype.plexus:plexus-build-api)"
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.uima-uimaj-tools \
+mvn-org.sonatype.plexus-plexus-build-api"
 
 inherit rpm

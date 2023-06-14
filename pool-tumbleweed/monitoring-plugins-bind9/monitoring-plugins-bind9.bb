@@ -17,8 +17,8 @@ nagios-plugins-bind9"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 bind-utils \
-perl(Getopt::Long) \
-perl(IO::File) \
-perl(IO::Handle)"
+perl-Getopt--Long \
+perl-IO--File \
+perl-IO--Handle"
 
 inherit rpm

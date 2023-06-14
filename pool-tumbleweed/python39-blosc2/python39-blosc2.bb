@@ -19,15 +19,14 @@ PV = "2.2.2"
 RPM_NAME = "python39-blosc2-2.2.2-1.1.aarch64.rpm"
 RPM_HASH = "046f3435ad4e2a22893c9f487f8f7fd63b1d6e68733743b00c984356dfc6794f1dcf65e9b14204223d71d71fbaf129de7b2965fe5b7ac94c27f6883cc8de8685"
 
-RPROVIDES:${PN} += "python3.9dist(blosc2) \
+RPROVIDES:${PN} += "python3.9dist-blosc2 \
 python39-blosc2 \
-python39-blosc2(aarch-64) \
-python3dist(blosc2)"
+python3dist-blosc2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libblosc2.so.2()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libblosc2.so.2 \
+libc.so.6 \
+python-abi \
 python39-msgpack \
 python39-ndindex \
 python39-numpy \

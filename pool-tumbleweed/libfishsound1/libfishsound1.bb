@@ -20,16 +20,15 @@ PV = "1.0.0"
 RPM_NAME = "libfishsound1-1.0.0-2.23.aarch64.rpm"
 RPM_HASH = "e174764032967e613b0fd122ed4c6040f1feb7971d6a316f50f2e3f304b545d0c8320d3dfefd0ac0841ddf08dd856df6c6b48611e166dae0eb79d40dbbaac74a"
 
-RPROVIDES:${PN} += "libfishsound.so.1()(64bit) \
-libfishsound1 \
-libfishsound1(aarch-64)"
+RPROVIDES:${PN} += "libfishsound.so.1 \
+libfishsound1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libFLAC.so.12()(64bit) \
-libc.so.6()(64bit) \
-libspeex.so.1()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisenc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libFLAC.so.12 \
+libc.so.6 \
+libspeex.so.1 \
+libvorbis.so.0 \
+libvorbisenc.so.2"
 
 inherit rpm

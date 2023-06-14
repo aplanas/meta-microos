@@ -8,12 +8,12 @@ RPM_NAME = "myspell-kmr_Latn_TR-20221012-1.2.noarch.rpm"
 RPM_HASH = "cc3488b7be61a0c3df14921e13f15629c89da13c614262d529576accf7efad80f1d039114a50d5fabb194b7777da1afecf4583f4dc1276477acf63f809b7c366"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:kmr_Latn_TR) \
-locale(seamonkey-spellchecker:kmr_Latn_TR) \
+RPROVIDES:${PN} += "locale-libreoffice-kmr-Latn-TR \
+locale-seamonkey-spellchecker-kmr-Latn-TR \
 myspell-dictionary \
-myspell-kmr_Latn_TR"
+myspell-kmr-Latn-TR"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
-myspell-kmr_Latn"
+myspell-kmr-Latn"
 
 inherit rpm

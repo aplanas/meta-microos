@@ -12,17 +12,15 @@ PV = "0.103.8"
 RPM_NAME = "clamav-milter-0.103.8-1.3.aarch64.rpm"
 RPM_HASH = "16b6e63cb70e9524908666790af79a3f97fbd05ba45aebb61f31326bf87577df74b9c54557af32b7e2ace4588f2b9ad95ad1df932d52cb41c73d735ee74251fa"
 
-RPROVIDES:${PN} += "clamav-milter \
-clamav-milter(aarch-64) \
-clamav:/usr/sbin/clamav-milter \
-config(clamav-milter)"
+RPROVIDES:${PN} += "clamav-/usr/sbin/clamav-milter \
+clamav-milter \
+config-clamav-milter"
 
 RDEPENDS:${PN} += "/bin/sh \
 clamav \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libclamav.so.9()(64bit) \
-libclamav.so.9(CLAMAV_PRIVATE)(64bit) \
-libmilter.so.1.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libclamav.so.9 \
+libmilter.so.1.0"
 
 inherit rpm

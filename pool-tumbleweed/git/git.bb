@@ -15,8 +15,7 @@ PV = "2.40.1"
 RPM_NAME = "git-2.40.1-1.1.aarch64.rpm"
 RPM_HASH = "8a3606b585e17ebf266454ceb0e98f26eb9cac55fd07b0380218f8780c9bc2e27c6a646a85baae44e738e2a65fb0bee6bd56ecc7eab175b0c1a8ee6f4388cdbf"
 
-RPROVIDES:${PN} += "git \
-git(aarch-64)"
+RPROVIDES:${PN} += "git"
 
 RDEPENDS:${PN} += "git-core \
 perl-Git"

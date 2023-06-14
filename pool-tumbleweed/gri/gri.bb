@@ -20,15 +20,14 @@ PV = "2.12.23"
 RPM_NAME = "gri-2.12.23-23.13.aarch64.rpm"
 RPM_HASH = "7e02ca828c17f5abc01542865e26364365869557fc53f68f5c691cd2aee63fc8b71a0dbaaea66955cc13e244825df235952bf64c16e9b4b798c5c9b2b26fad47"
 
-RPROVIDES:${PN} += "gri \
-gri(aarch-64)"
+RPROVIDES:${PN} += "gri"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libreadline.so.8 \
+libstdc++.so.6"
 
 inherit rpm

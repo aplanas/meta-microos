@@ -13,12 +13,11 @@ PV = "2.8.0"
 RPM_NAME = "libutf8proc2-2.8.0-1.2.aarch64.rpm"
 RPM_HASH = "2e4ab0aceba07fc8ede5d29566d53956e2c2173c58eca74eb2c82342e3dffdf34e9ba38058ed576172842e875159c35a18046f9767caa6e470d037a635151db9"
 
-RPROVIDES:${PN} += "libutf8proc.so.2()(64bit) \
-libutf8proc2 \
-libutf8proc2(aarch-64)"
+RPROVIDES:${PN} += "libutf8proc.so.2 \
+libutf8proc2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

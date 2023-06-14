@@ -11,10 +11,9 @@ PV = "1.3.0"
 RPM_NAME = "yasm-1.3.0-7.3.aarch64.rpm"
 RPM_HASH = "9f3b08b0c8c54f638baade2040f7e7cd5b1bd50fd7130d91e8439c2be1d167025079f9f2a8c4027d402fb8d9717acf8078c8fc3ae247f7b3fd1a8a43a8faaf97"
 
-RPROVIDES:${PN} += "yasm \
-yasm(aarch-64)"
+RPROVIDES:${PN} += "yasm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

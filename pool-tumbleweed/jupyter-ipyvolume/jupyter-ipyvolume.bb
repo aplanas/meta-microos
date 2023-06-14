@@ -16,6 +16,6 @@ RDEPENDS:${PN} += "jupyter-ipywebrtc \
 jupyter-ipywidgets \
 jupyter-notebook \
 jupyter-pythreejs \
-python3dist(ipyvolume)"
+python3dist-ipyvolume"
 
 inherit rpm

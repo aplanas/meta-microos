@@ -9,23 +9,23 @@ RPM_HASH = "f2fb924d0be4ca8ad1065d5592e4aca256eb58842c8e60aac053f0a584cb86a53960
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-configuration \
-mvn(org.glassfish.hk2:hk2-configuration-hub) \
-mvn(org.glassfish.hk2:hk2-configuration-hub:pom:) \
-mvn(org.glassfish.hk2:hk2-configuration-integration) \
-mvn(org.glassfish.hk2:hk2-configuration-integration:pom:) \
-mvn(org.glassfish.hk2:hk2-configuration-persistence:pom:) \
-mvn(org.glassfish.hk2:hk2-configuration:pom:) \
-mvn(org.glassfish.hk2:hk2-property-file) \
-mvn(org.glassfish.hk2:hk2-property-file:pom:) \
-osgi(org.glassfish.hk2.configuration-hub) \
-osgi(org.glassfish.hk2.configuration-integration) \
-osgi(org.glassfish.hk2.property-file)"
+mvn-org.glassfish.hk2-hk2-configuration-hub \
+mvn-org.glassfish.hk2-hk2-configuration-hub-pom- \
+mvn-org.glassfish.hk2-hk2-configuration-integration \
+mvn-org.glassfish.hk2-hk2-configuration-integration-pom- \
+mvn-org.glassfish.hk2-hk2-configuration-persistence-pom- \
+mvn-org.glassfish.hk2-hk2-configuration-pom- \
+mvn-org.glassfish.hk2-hk2-property-file \
+mvn-org.glassfish.hk2-hk2-property-file-pom- \
+osgi-org.glassfish.hk2.configuration-hub \
+osgi-org.glassfish.hk2.configuration-integration \
+osgi-org.glassfish.hk2.property-file"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.annotation:javax.annotation-api) \
-mvn(org.glassfish.hk2:hk2-api) \
-mvn(org.glassfish.hk2:hk2-locator) \
-mvn(org.glassfish.hk2:hk2-utils)"
+mvn-javax.annotation-javax.annotation-api \
+mvn-org.glassfish.hk2-hk2-api \
+mvn-org.glassfish.hk2-hk2-locator \
+mvn-org.glassfish.hk2-hk2-utils"
 
 inherit rpm

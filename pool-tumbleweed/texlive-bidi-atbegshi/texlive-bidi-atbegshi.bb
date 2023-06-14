@@ -12,7 +12,7 @@ RPM_NAME = "texlive-bidi-atbegshi-2023.201.0.0.2svn62009-53.1.noarch.rpm"
 RPM_HASH = "6a85684d498e77b97a6a21fcb98be7cd54bebc258f3cc301c5c4105f5f8a887391708e03128828086c942ab133b99c8e589c457347a18fa0814d09f753a55772"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bidi-atbegshi.sty) \
+RPROVIDES:${PN} += "tex-bidi-atbegshi.sty \
 texlive-bidi-atbegshi"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(atbegshi-ltx.sty) \
+tex-atbegshi-ltx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

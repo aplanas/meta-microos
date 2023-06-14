@@ -13,12 +13,11 @@ RPM_NAME = "brltty-driver-espeak-6.5-2.4.aarch64.rpm"
 RPM_HASH = "229d89aa94a03df7f250b7fffc46aa277f1c07611482b2a9efb869b2b8f86b7c3576bb9537b56c0508f2f604443f161cac73f78b4b70eb37b0f01a764d3f9d50"
 
 RPROVIDES:${PN} += "brltty-driver-espeak \
-brltty-driver-espeak(aarch-64) \
-libbrlttyses.so()(64bit)"
+libbrlttyses.so"
 
 RDEPENDS:${PN} += "brltty \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libespeak-ng.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libespeak-ng.so.1"
 
 inherit rpm

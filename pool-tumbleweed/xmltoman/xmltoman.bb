@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "xmltoman"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(XML::Parser)"
+perl-XML--Parser"
 
 inherit rpm

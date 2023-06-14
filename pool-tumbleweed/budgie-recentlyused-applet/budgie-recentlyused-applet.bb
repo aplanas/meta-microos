@@ -8,19 +8,18 @@ RPM_NAME = "budgie-recentlyused-applet-1.6.0-1.1.aarch64.rpm"
 RPM_HASH = "61077deb96b8574f58b846d0a0b1255e7ac2f87bce27297438b1bc71b71d91d8c3d93388de2af0f44d828c40af2c79720acf91da3792f213dd8f2efe9c6fe215"
 
 RPROVIDES:${PN} += "budgie-recentlyused-applet \
-budgie-recentlyused-applet(aarch-64) \
-libbudgie-recentlyused.so()(64bit)"
+libbudgie-recentlyused.so"
 
 RDEPENDS:${PN} += "budgie-extras-lang \
-ld-linux-aarch64.so.1()(64bit) \
-libbudgie-plugin.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libbudgie-plugin.so.0 \
+libc.so.6 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpeas-1.0.so.0 \
 xdg-utils"
 
 inherit rpm

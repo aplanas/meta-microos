@@ -11,7 +11,7 @@ RPM_NAME = "texlive-ffcode-2023.201.0.0.8.0svn65170-52.1.noarch.rpm"
 RPM_HASH = "e04bb6492957b976a702869947086ab24171182603889e4638e04b0674de464e6fb0125af7f2ed8b1b9766c453b2db3a7040b37c2e59e16d49eb64edd1142466"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ffcode.sty) \
+RPROVIDES:${PN} += "tex-ffcode.sty \
 texlive-ffcode"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,9 +20,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(minted.sty) \
-tex(pgfopts.sty) \
-tex(tcolorbox.sty) \
+tex-minted.sty \
+tex-pgfopts.sty \
+tex-tcolorbox.sty \
 texlive \
 texlive-environ \
 texlive-filesystem \

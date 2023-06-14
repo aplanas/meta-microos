@@ -9,9 +9,8 @@ PV = "0.11.1"
 RPM_NAME = "popeye-0.11.1-1.4.aarch64.rpm"
 RPM_HASH = "e24658d9bd3d760c199982aa7c3e27e783ecfaed42466da69cea7671e7cba51a8fd64e4c5d7a91419569ec75140884967f84061bf0223c399248e2d2e02787e3"
 
-RPROVIDES:${PN} += "popeye \
-popeye(aarch-64)"
+RPROVIDES:${PN} += "popeye"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

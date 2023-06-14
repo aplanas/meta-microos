@@ -20,18 +20,17 @@ PV = "2.1.6"
 RPM_NAME = "openmpi_2_1_6-gnu-hpc-devel-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "fc27cd09722bdfb565b410abe474f5b95555ffbf12ccdd73a86879f46a25bda8cb71d77f056bb845c5adb8909b945d878705b02af8ceefcdb1118060c617746f"
 
-RPROVIDES:${PN} += "openmpi_2_1_6-gnu-hpc-devel \
-openmpi_2_1_6-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi-2-1-6-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libibumad-devel \
 libibverbs-devel \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-librdmacm.so.1()(64bit) \
-libucp.so.0()(64bit) \
-openmpi_2_1_6-gnu-hpc"
+libibverbs.so.1 \
+libm.so.6 \
+librdmacm.so.1 \
+libucp.so.0 \
+openmpi-2-1-6-gnu-hpc"
 
 inherit rpm

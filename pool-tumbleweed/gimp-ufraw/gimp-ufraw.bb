@@ -12,36 +12,34 @@ RPM_HASH = "7dd63c0eac189e0c85b9137d93e17a9692e91a282d2a55aefcd6424c57920462a777
 
 RPROVIDES:${PN} += "gimp-2.0-dcraw-plugin \
 gimp-ufraw \
-gimp-ufraw(aarch-64) \
 rawphoto \
 ufraw-gimp"
 
-RDEPENDS:${PN} += "gimp(abi) \
-gimp(api) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libexiv2.so.27()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgegl-0.4.so.0()(64bit) \
-libgimp-2.0.so.0()(64bit) \
-libgimpbase-2.0.so.0()(64bit) \
-libgimpui-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgomp.so.1()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libgtkimageview.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-liblensfun.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "gimp-abi \
+gimp-api \
+libbz2.so.1 \
+libc.so.6 \
+libcfitsio.so.10 \
+libexiv2.so.27 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgegl-0.4.so.0 \
+libgimp-2.0.so.0 \
+libgimpbase-2.0.so.0 \
+libgimpui-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgomp.so.1 \
+libgtk-x11-2.0.so.0 \
+libgtkimageview.so.0 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+liblensfun.so.1 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libz.so.1"
 
 inherit rpm

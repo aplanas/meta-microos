@@ -13,51 +13,44 @@ PV = "9.2.6"
 RPM_NAME = "vtk-openmpi2-qt-9.2.6-2.2.aarch64.rpm"
 RPM_HASH = "f1bc944f4554e71c993960127080dd58ebdb39847f1109de62c0b6e3b84c5f39e93bf9c341f1db927a773ccac749d46b6845671c64e5afbcb44a3f2f64051299"
 
-RPROVIDES:${PN} += "libqmlvtkplugin.so()(64bit) \
-libvtkGUISupportQt.so.1()(64bit) \
-libvtkGUISupportQtQuick.so.1()(64bit) \
-libvtkGUISupportQtSQL.so.1()(64bit) \
-libvtkRenderingQt.so.1()(64bit) \
-libvtkViewsQt.so.1()(64bit) \
-vtk-openmpi2-qt \
-vtk-openmpi2-qt(aarch-64)"
+RPROVIDES:${PN} += "libqmlvtkplugin.so \
+libvtkGUISupportQt.so.1 \
+libvtkGUISupportQtQuick.so.1 \
+libvtkGUISupportQtSQL.so.1 \
+libvtkRenderingQt.so.1 \
+libvtkViewsQt.so.1 \
+vtk-openmpi2-qt"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGLESv2.so.2()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libGLESv2.so.2 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 libvtk1-openmpi2 \
-libvtkCommonCore.so.1()(64bit) \
-libvtkCommonDataModel.so.1()(64bit) \
-libvtkCommonExecutionModel.so.1()(64bit) \
-libvtkCommonSystem.so.1()(64bit) \
-libvtkFiltersExtraction.so.1()(64bit) \
-libvtkFiltersSources.so.1()(64bit) \
-libvtkFiltersTexture.so.1()(64bit) \
-libvtkIOSQL.so.1()(64bit) \
-libvtkInfovisCore.so.1()(64bit) \
-libvtkInteractionStyle.so.1()(64bit) \
-libvtkInteractionWidgets.so.1()(64bit) \
-libvtkRenderingCore.so.1()(64bit) \
-libvtkRenderingLabel.so.1()(64bit) \
-libvtkRenderingOpenGL2.so.1()(64bit) \
-libvtkViewsCore.so.1()(64bit) \
-libvtkViewsInfovis.so.1()(64bit) \
-libvtksys.so.1()(64bit)"
+libvtkCommonCore.so.1 \
+libvtkCommonDataModel.so.1 \
+libvtkCommonExecutionModel.so.1 \
+libvtkCommonSystem.so.1 \
+libvtkFiltersExtraction.so.1 \
+libvtkFiltersSources.so.1 \
+libvtkFiltersTexture.so.1 \
+libvtkIOSQL.so.1 \
+libvtkInfovisCore.so.1 \
+libvtkInteractionStyle.so.1 \
+libvtkInteractionWidgets.so.1 \
+libvtkRenderingCore.so.1 \
+libvtkRenderingLabel.so.1 \
+libvtkRenderingOpenGL2.so.1 \
+libvtkViewsCore.so.1 \
+libvtkViewsInfovis.so.1 \
+libvtksys.so.1"
 
 inherit rpm

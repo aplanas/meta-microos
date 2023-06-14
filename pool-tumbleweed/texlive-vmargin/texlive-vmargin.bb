@@ -15,7 +15,7 @@ RPM_NAME = "texlive-vmargin-2023.201.2.5svn15878-53.1.noarch.rpm"
 RPM_HASH = "3d57e8f4ccd550f75add7781094d441ea56570f4114669c1eca090aa9af7c2866da986cede531daa2e216f6067a0262c2911586e3319a9785c452127a40544de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(vmargin.sty) \
+RPROVIDES:${PN} += "tex-vmargin.sty \
 texlive-vmargin"
 
 RDEPENDS:${PN} += "/bin/sh \

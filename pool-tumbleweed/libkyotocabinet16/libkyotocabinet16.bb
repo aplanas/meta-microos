@@ -27,16 +27,15 @@ RPM_NAME = "libkyotocabinet16-1.2.77-3.1.aarch64.rpm"
 RPM_HASH = "e447f9bb0cf75ec85d46d9891b08ba204fd28718cc579e48595190953b4960432a4179abf331401511e11c26e820540d03efad29d8a93449e5bf3ed1450beff0"
 
 RPROVIDES:${PN} += "libkyotocabinet \
-libkyotocabinet.so.16()(64bit) \
-libkyotocabinet16 \
-libkyotocabinet16(aarch-64)"
+libkyotocabinet.so.16 \
+libkyotocabinet16"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

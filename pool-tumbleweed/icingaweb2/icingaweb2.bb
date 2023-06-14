@@ -11,10 +11,10 @@ RPM_NAME = "icingaweb2-2.11.4-2.1.noarch.rpm"
 RPM_HASH = "013ea902f5eb7543f1e74439633191c935796f72b93616d1a954dc205eb60229ae207e76624c23565e494ce71395e2a90bca18c1a42d73fcd2faa7691c73466f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(icingaweb2) \
+RPROVIDES:${PN} += "config-icingaweb2 \
 icingaweb2"
 
-RDEPENDS:${PN} += "(mod_php_any >= 7.3.0 or php-fpm) \
+RDEPENDS:${PN} += "-mod-php-any >= 7.3.0 or php-fpm \
 /bin/sh \
 apache2 \
 icinga-l10n \

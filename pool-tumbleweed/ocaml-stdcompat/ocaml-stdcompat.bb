@@ -7,8 +7,7 @@ PV = "19"
 RPM_NAME = "ocaml-stdcompat-19-2.4.aarch64.rpm"
 RPM_HASH = "30b2f0d095641a7dcb494aeb38344117130a71b97e5d4ae4c184542a31b53dcbc9cff92610818704d0d58faa98bd55ad79c9721b987bbdc4b0b6acb93233520a"
 
-RPROVIDES:${PN} += "ocaml-stdcompat \
-ocaml-stdcompat(aarch-64)"
+RPROVIDES:${PN} += "ocaml-stdcompat"
 
 RDEPENDS:${PN} += ""
 

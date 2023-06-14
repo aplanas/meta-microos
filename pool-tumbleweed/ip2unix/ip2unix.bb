@@ -13,13 +13,12 @@ RPM_NAME = "ip2unix-2.1.4-4.1.aarch64.rpm"
 RPM_HASH = "c08f01030a9c8a20c5356f7bbf42fd56070357ac66c34052e05e9bd2f2a0b622df425f234a5abc3bb3f13d3cbb7a49ac2c2ce7c684dee6c7105835ee93235b87"
 
 RPROVIDES:${PN} += "ip2unix \
-ip2unix(aarch-64) \
-libip2unix.so()(64bit)"
+libip2unix.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libyaml-cpp.so.0.7()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libyaml-cpp.so.0.7"
 
 inherit rpm

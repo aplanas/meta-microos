@@ -11,11 +11,11 @@ RPM_HASH = "aedaf023c5ded577b642a14d2d4fd21472d5242899d7f053b7fc7540092a8d056058
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyquery \
-python3.10dist(pyquery) \
+python3.10dist-pyquery \
 python310-pyquery \
-python3dist(pyquery)"
+python3dist-pyquery"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cssselect \
 python310-lxml"
 

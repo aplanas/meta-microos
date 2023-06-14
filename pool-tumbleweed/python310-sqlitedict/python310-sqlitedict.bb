@@ -10,11 +10,11 @@ RPM_HASH = "02b7465eeba96966288a628d53a217dd58296a7f40b7c4726437e6c18cb5ba13d7ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sqlitedict \
-python3.10dist(sqlitedict) \
+python3.10dist-sqlitedict \
 python310-sqlitedict \
-python3dist(sqlitedict)"
+python3dist-sqlitedict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310"
 
 inherit rpm

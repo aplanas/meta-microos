@@ -8,9 +8,9 @@ RPM_NAME = "texlive-glossaries-magyar-2023.201.1.0svn35665-53.1.noarch.rpm"
 RPM_HASH = "fd9da4d7ed2a015114fda92dc0d95c7f17ee9e1e0b886dbb3cee6acb73f6c461198e694b36ea1a443deb39846288f220cfee0022beaa6c2e0063aa84bb289c50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(glossaries-magyar-noenc.ldf) \
-tex(glossaries-magyar-utf8.ldf) \
-tex(glossaries-magyar.ldf) \
+RPROVIDES:${PN} += "tex-glossaries-magyar-noenc.ldf \
+tex-glossaries-magyar-utf8.ldf \
+tex-glossaries-magyar.ldf \
 texlive-glossaries-magyar"
 
 RDEPENDS:${PN} += "/bin/sh \

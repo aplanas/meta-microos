@@ -14,10 +14,10 @@ RPM_HASH = "17d1f38a6e17806a1cbdac61c5fa4d27f46191069da067431a46b3c571da29b9e630
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Trololio \
-python3.10dist(trololio) \
+python3.10dist-trololio \
 python310-Trololio \
-python3dist(trololio)"
+python3dist-trololio"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

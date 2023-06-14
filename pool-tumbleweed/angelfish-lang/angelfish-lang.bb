@@ -10,43 +10,43 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "angelfish-lang \
 angelfish-lang-all \
-locale(angelfish:az) \
-locale(angelfish:ca) \
-locale(angelfish:ca@valencia) \
-locale(angelfish:cs) \
-locale(angelfish:da) \
-locale(angelfish:de) \
-locale(angelfish:el) \
-locale(angelfish:en_GB) \
-locale(angelfish:es) \
-locale(angelfish:et) \
-locale(angelfish:eu) \
-locale(angelfish:fi) \
-locale(angelfish:fr) \
-locale(angelfish:gl) \
-locale(angelfish:hu) \
-locale(angelfish:ia) \
-locale(angelfish:id) \
-locale(angelfish:it) \
-locale(angelfish:ja) \
-locale(angelfish:ka) \
-locale(angelfish:ko) \
-locale(angelfish:lt) \
-locale(angelfish:nl) \
-locale(angelfish:nn) \
-locale(angelfish:pa) \
-locale(angelfish:pl) \
-locale(angelfish:pt) \
-locale(angelfish:pt_BR) \
-locale(angelfish:ru) \
-locale(angelfish:sk) \
-locale(angelfish:sl) \
-locale(angelfish:sv) \
-locale(angelfish:ta) \
-locale(angelfish:tr) \
-locale(angelfish:uk) \
-locale(angelfish:zh_CN) \
-locale(angelfish:zh_TW)"
+locale-angelfish-az \
+locale-angelfish-ca \
+locale-angelfish-ca@valencia \
+locale-angelfish-cs \
+locale-angelfish-da \
+locale-angelfish-de \
+locale-angelfish-el \
+locale-angelfish-en-GB \
+locale-angelfish-es \
+locale-angelfish-et \
+locale-angelfish-eu \
+locale-angelfish-fi \
+locale-angelfish-fr \
+locale-angelfish-gl \
+locale-angelfish-hu \
+locale-angelfish-ia \
+locale-angelfish-id \
+locale-angelfish-it \
+locale-angelfish-ja \
+locale-angelfish-ka \
+locale-angelfish-ko \
+locale-angelfish-lt \
+locale-angelfish-nl \
+locale-angelfish-nn \
+locale-angelfish-pa \
+locale-angelfish-pl \
+locale-angelfish-pt \
+locale-angelfish-pt-BR \
+locale-angelfish-ru \
+locale-angelfish-sk \
+locale-angelfish-sl \
+locale-angelfish-sv \
+locale-angelfish-ta \
+locale-angelfish-tr \
+locale-angelfish-uk \
+locale-angelfish-zh-CN \
+locale-angelfish-zh-TW"
 
 RDEPENDS:${PN} += "angelfish"
 

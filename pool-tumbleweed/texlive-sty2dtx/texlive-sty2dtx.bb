@@ -28,10 +28,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(File::Basename) \
-perl(Pod::Usage) \
-perl(strict) \
-perl(warnings) \
+perl-File--Basename \
+perl-Pod--Usage \
+perl-strict \
+perl-warnings \
 sed \
 texlive \
 texlive-filesystem \

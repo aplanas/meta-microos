@@ -15,9 +15,9 @@ RPM_NAME = "texlive-newlfm-2023.201.9.4svn15878-54.1.noarch.rpm"
 RPM_HASH = "4be3a89fe1ad6a421f235cc8a87751bdf974326f78770e2a30300966378bd9b96e814fa313eca7db6bda51195c2500950c6890856e43e0f0551aebd45d57d579"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(addrset.sty) \
-tex(newlfm.cls) \
-tex(setdim.sty) \
+RPROVIDES:${PN} += "tex-addrset.sty \
+tex-newlfm.cls \
+tex-setdim.sty \
 texlive-newlfm"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,19 +26,19 @@ ed \
 findutils \
 grep \
 sed \
-tex(afterpage.sty) \
-tex(calc.sty) \
-tex(envlab.sty) \
-tex(eso-pic.sty) \
-tex(fancyhdr.sty) \
-tex(graphicx.sty) \
-tex(ifpdf.sty) \
-tex(ifthen.sty) \
-tex(keyval.sty) \
-tex(lastpage.sty) \
-tex(letter.cls) \
-tex(rotating.sty) \
-tex(setspace.sty) \
+tex-afterpage.sty \
+tex-calc.sty \
+tex-envlab.sty \
+tex-eso-pic.sty \
+tex-fancyhdr.sty \
+tex-graphicx.sty \
+tex-ifpdf.sty \
+tex-ifthen.sty \
+tex-keyval.sty \
+tex-lastpage.sty \
+tex-letter.cls \
+tex-rotating.sty \
+tex-setspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

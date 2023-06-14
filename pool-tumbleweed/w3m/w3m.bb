@@ -26,19 +26,18 @@ RPM_NAME = "w3m-0.5.3+git20230121-1.1.aarch64.rpm"
 RPM_HASH = "84b6685731f3ba7b8cff6443fc2428fa1e6fb7a5104d5f9000cd644d94b48a28770e66efaf403e6c90f6aa90dec05b445d2b488bacec5243f5d4ad0970dc016c"
 
 RPROVIDES:${PN} += "w3m \
-w3m(aarch-64) \
-w3m_ssl \
-web_browser"
+w3m-ssl \
+web-browser"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgc.so.1()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libtinfo.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgc.so.1 \
+libm.so.6 \
+libssl.so.3 \
+libtinfo.so.6 \
+libz.so.1"
 
 inherit rpm

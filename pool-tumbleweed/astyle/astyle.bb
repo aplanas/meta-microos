@@ -10,11 +10,10 @@ PV = "3.3.1"
 RPM_NAME = "astyle-3.3.1-1.1.aarch64.rpm"
 RPM_HASH = "52c0b2fb88806910e0a6651468d05905589e17e2d22058035a7ed74a6086f0bf0f4e3f903a9b1ae1c6b8fade414bdf95f87a2029f7b81e1e35f55f19f3341e8b"
 
-RPROVIDES:${PN} += "astyle \
-astyle(aarch-64)"
+RPROVIDES:${PN} += "astyle"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

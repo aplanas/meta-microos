@@ -10,8 +10,7 @@ PV = "6.0.0"
 RPM_NAME = "libgda-6_0-doc-6.0.0-6.7.aarch64.rpm"
 RPM_HASH = "55fed8f7a97f5a94e778700ade6cd28a43821bcc0362204de0651cbd075dc067210f1bc5ba0df4c69702e613ad4aff387b2496cc5e80dc70c1313f4027b353a6"
 
-RPROVIDES:${PN} += "libgda-6_0-doc \
-libgda-6_0-doc(aarch-64) \
+RPROVIDES:${PN} += "libgda-6-0-doc \
 libgda-doc"
 
 RDEPENDS:${PN} += ""

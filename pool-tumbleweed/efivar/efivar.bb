@@ -7,12 +7,11 @@ PV = "38"
 RPM_NAME = "efivar-38-1.3.aarch64.rpm"
 RPM_HASH = "036a9c9e20fa3414121a6ba8388d3799400ca7d6e3578a90aabbe7c4bb41123ada4000d12d991fb0d7c3410992be8d5900fa7d2c842f0a5c1590cd2c571c2ffd"
 
-RPROVIDES:${PN} += "efivar \
-efivar(aarch-64)"
+RPROVIDES:${PN} += "efivar"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libefisec.so.1()(64bit) \
-libefivar.so.1()(64bit) \
+RDEPENDS:${PN} += "libc.so.6 \
+libefisec.so.1 \
+libefivar.so.1 \
 libefivar1"
 
 inherit rpm

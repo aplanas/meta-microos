@@ -11,12 +11,11 @@ PV = "2022.10.16"
 RPM_NAME = "libscg-devel-2022.10.16-47.3.aarch64.rpm"
 RPM_HASH = "75ad2b0de68bf8946e256d19c3f68a0280d2ef693f882f214b2dffd2998692afac05a3364710e40c52aedb3e991a81b4eca8991a97a4397edc080eaa384dce7a"
 
-RPROVIDES:${PN} += "libscg-devel \
-libscg-devel(aarch-64)"
+RPROVIDES:${PN} += "libscg-devel"
 
-RDEPENDS:${PN} += "librscg1_0 \
-libscg1_0 \
-libscgcmd1_0 \
+RDEPENDS:${PN} += "librscg1-0 \
+libscg1-0 \
+libscgcmd1-0 \
 libschily-devel"
 
 inherit rpm

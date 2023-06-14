@@ -11,11 +11,11 @@ RPM_HASH = "c79797480ed0c924b8636fe8c12a3fb09f60d275f9763461d356d8c24732e5dea70f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-hybridkubernetes \
-python3.10dist(azure-mgmt-hybridkubernetes) \
+python3.10dist-azure-mgmt-hybridkubernetes \
 python310-azure-mgmt-hybridkubernetes \
-python3dist(azure-mgmt-hybridkubernetes)"
+python3dist-azure-mgmt-hybridkubernetes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

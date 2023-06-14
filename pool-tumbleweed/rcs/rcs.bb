@@ -10,12 +10,11 @@ PV = "5.10.1"
 RPM_NAME = "rcs-5.10.1-2.7.aarch64.rpm"
 RPM_HASH = "453fbdd6d5ecef12969bbb98f697f4aa0ebde6ae801eab7798af1ec597d9ee61919b850b24fa94710798abce1bb65797903d575b724fd18340246c3c55bf58c9"
 
-RPROVIDES:${PN} += "rcs \
-rcs(aarch-64)"
+RPROVIDES:${PN} += "rcs"
 
 RDEPENDS:${PN} += "/bin/sh \
 diffutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

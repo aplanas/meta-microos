@@ -8,12 +8,11 @@ PV = "2.3.21"
 RPM_NAME = "libart_lgpl-devel-2.3.21-25.3.aarch64.rpm"
 RPM_HASH = "3a78233ee2979a0fa59601bfd6b7f9bdf040bce9e9e88cad03e7348008e81664d0ed177f9f86a06c7726a7e4aabc221ee01bfeaabcbd6c9bab4c82eef4cc1c73"
 
-RPROVIDES:${PN} += "libart_lgpl-devel \
-libart_lgpl-devel(aarch-64) \
-pkgconfig(libart-2.0)"
+RPROVIDES:${PN} += "libart-lgpl-devel \
+pkgconfig-libart-2.0"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
-libart_lgpl_2-2"
+libart-lgpl-2-2"
 
 inherit rpm

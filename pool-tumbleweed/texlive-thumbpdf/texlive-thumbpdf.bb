@@ -13,8 +13,8 @@ RPM_NAME = "texlive-thumbpdf-2023.201.3.17svn62518-54.1.noarch.rpm"
 RPM_HASH = "98509902be9d3fb564304eeea900abdd692769a4c874808dd56b533f1616eb87f92010033554cba3bbd3e1a960da6872b364d62abc684edc22ed1378245d9717"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(thumbpdf.sty) \
-tex(thumbpdf.tex) \
+RPROVIDES:${PN} += "tex-thumbpdf.sty \
+tex-thumbpdf.tex \
 texlive-thumbpdf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,11 +23,11 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Config) \
-perl(Getopt::Long) \
-perl(strict) \
+perl-Config \
+perl-Getopt--Long \
+perl-strict \
 sed \
-tex(ifluatex.sty) \
+tex-ifluatex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -7,15 +7,14 @@ PV = "2.2.3"
 RPM_NAME = "lsyncd-2.2.3-3.7.aarch64.rpm"
 RPM_HASH = "927ea2259de9ce7a990175b2157d1baabb49875c98f2e8c83a4b06b42020750bc7071891ce7610e9c7e15dacc9126cc471ddc62ef623fca903d3fbb9f450867e"
 
-RPROVIDES:${PN} += "config(lsyncd) \
-lsyncd \
-lsyncd(aarch-64)"
+RPROVIDES:${PN} += "config-lsyncd \
+lsyncd"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblua5.4.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblua5.4.so.5 \
 logrotate \
 rsync \
 systemd"

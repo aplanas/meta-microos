@@ -19,10 +19,10 @@ RPM_NAME = "perl-XML-Generator-PerlData-0.95-1.25.noarch.rpm"
 RPM_HASH = "95d1bee08b71ee8de0f4d5eac9d31a10467f0602b5f2fc1bf51045c8cf8e072ecee4a6f1186dcdc3db325f14f88fb6a52511a2b0fe9394dbd0b083dbef9d6be1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Generator::PerlData) \
+RPROVIDES:${PN} += "perl-XML--Generator--PerlData \
 perl-XML-Generator-PerlData"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(XML::SAX::Base)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-XML--SAX--Base"
 
 inherit rpm

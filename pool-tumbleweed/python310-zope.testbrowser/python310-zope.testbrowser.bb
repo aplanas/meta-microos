@@ -12,11 +12,11 @@ RPM_HASH = "71af020bb7582e309855dce9ed88e2f884b5a66faa84dc2c575d09a18ae9dc9fc5f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.testbrowser \
-python3.10dist(zope.testbrowser) \
+python3.10dist-zope.testbrowser \
 python310-zope.testbrowser \
-python3dist(zope.testbrowser)"
+python3dist-zope.testbrowser"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WSGIProxy2 \
 python310-WebTest \
 python310-beautifulsoup4 \

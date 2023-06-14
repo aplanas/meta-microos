@@ -9,9 +9,8 @@ RPM_NAME = "libkyotocabinet-devel-1.2.77-3.1.aarch64.rpm"
 RPM_HASH = "2c6c17ac75d28a35bf665db9ef89cf8616fd32a8cfa8d0f24f2e838e2f87e8b3ad586b5a32d5b5df1b44380955a0e7c37f1fad1154a61a9e976f326379adadf8"
 
 RPROVIDES:${PN} += "libkyotocabinet-devel \
-libkyotocabinet-devel(aarch-64) \
 libkyotocabinet16-devel \
-pkgconfig(kyotocabinet)"
+pkgconfig-kyotocabinet"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkyotocabinet16"

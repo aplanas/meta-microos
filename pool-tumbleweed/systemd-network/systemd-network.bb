@@ -25,25 +25,23 @@ PV = "253.4"
 RPM_NAME = "systemd-network-253.4-2.1.aarch64.rpm"
 RPM_HASH = "ddb5f36bdb26941cbe93911894d1c19cc8424a605b83a33eb4b7428667ed497d7a91d47f79b40bb69af2a9f12b05f99c43aa8f3f527c5f2a0843567dba11440e"
 
-RPROVIDES:${PN} += "config(systemd-network) \
-libnss_resolve.so.2()(64bit) \
+RPROVIDES:${PN} += "config-systemd-network \
+libnss-resolve.so.2 \
 nss-resolve \
-systemd-network \
-systemd-network(aarch-64) \
-systemd:/usr/lib/systemd/systemd-networkd \
-systemd:/usr/lib/systemd/systemd-resolved"
+systemd-/usr/lib/systemd/systemd-networkd \
+systemd-/usr/lib/systemd/systemd-resolved \
+systemd-network"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgpg-error.so.0()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libsystemd-shared-253.so()(64bit) \
-libsystemd-shared-253.so(SD_SHARED)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libgcrypt.so.20 \
+libgpg-error.so.0 \
+libm.so.6 \
+libssl.so.3 \
+libsystemd-shared-253.so \
 systemd"
 
 inherit rpm

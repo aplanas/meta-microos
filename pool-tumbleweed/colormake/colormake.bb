@@ -14,6 +14,6 @@ RPROVIDES:${PN} += "colormake"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

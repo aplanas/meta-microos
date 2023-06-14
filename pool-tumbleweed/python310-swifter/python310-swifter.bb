@@ -10,11 +10,11 @@ RPM_HASH = "792a663b34200e15a224b0df5616e8deb4386d3caadd0102c7089b45f425b4f916e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-swifter \
-python3.10dist(swifter) \
+python3.10dist-swifter \
 python310-swifter \
-python3dist(swifter)"
+python3dist-swifter"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-bleach \
 python310-cloudpickle \
 python310-dask-dataframe \

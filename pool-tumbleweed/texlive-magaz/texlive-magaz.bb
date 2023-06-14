@@ -10,7 +10,7 @@ RPM_NAME = "texlive-magaz-2023.201.0.0.4svn24694-52.1.noarch.rpm"
 RPM_HASH = "212fbe60b8f42041709cea593af7a768629662c59aec2e253ef54462c27f57741f26b585be8a9102b636864633d74cb5d7137bc879b58811f6d9b4b3abe73010"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(magaz.sty) \
+RPROVIDES:${PN} += "tex-magaz.sty \
 texlive-magaz"
 
 RDEPENDS:${PN} += "/bin/sh \

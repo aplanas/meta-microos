@@ -9,7 +9,7 @@ RPM_NAME = "texlive-undolabl-2023.201.1.0msvn65846-53.1.noarch.rpm"
 RPM_HASH = "71d1d078f6cd6e7e41002cd839ed025f390b0b33a95ed525f7e9e15ba06361300014948e441210f55f28d96c2a6f53ceec0fe2fad4efc9906aaf50ae433cfaa5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(undolabl.sty) \
+RPROVIDES:${PN} += "tex-undolabl.sty \
 texlive-undolabl"
 
 RDEPENDS:${PN} += "/bin/sh \

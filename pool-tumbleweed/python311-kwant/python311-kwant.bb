@@ -15,15 +15,14 @@ PV = "1.4.3"
 RPM_NAME = "python311-kwant-1.4.3-1.1.aarch64.rpm"
 RPM_HASH = "d980cc15a5cdb4540e46aedc89922e6e5d98172ef4c659de13781ff1f9098337bc44f82bd9eeeb661bb187e09edcf6e429e9919c5e84cf318be7d0db99aa05af"
 
-RPROVIDES:${PN} += "python3.11dist(kwant) \
+RPROVIDES:${PN} += "python3.11dist-kwant \
 python311-kwant \
-python311-kwant(aarch-64) \
-python3dist(kwant)"
+python3dist-kwant"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libzmumps_seq.so.5.3.5()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libzmumps-seq.so.5.3.5 \
+python-abi \
 python311-numpy \
 python311-scipy \
 python311-tinyarray"

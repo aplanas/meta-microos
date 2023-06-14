@@ -15,7 +15,7 @@ RPM_NAME = "firehol-3.1.7-2.6.noarch.rpm"
 RPM_HASH = "d761fc4c8ab12151c7312d5c6f06b5f79164a9ac3404793bbd005a4e080548719f3fc49b377d4cc163929fa9a667571c77b4bfe5fce5db37ac4c17d606261659"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(firehol) \
+RPROVIDES:${PN} += "config-firehol \
 firehol"
 
 RDEPENDS:${PN} += "/bin/bash \

@@ -16,13 +16,12 @@ RPM_HASH = "2112e6e15576e8ab1ff2a19ac500a8f5ff88537afbb79fac7438bec50920969d9e01
 
 RPROVIDES:${PN} += "libXScrnSaver-devel \
 libXss-devel \
-libXss-devel(aarch-64) \
-pkgconfig(xscrnsaver)"
+pkgconfig-xscrnsaver"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXss1 \
-pkgconfig(scrnsaverproto) \
-pkgconfig(x11) \
-pkgconfig(xext)"
+pkgconfig-scrnsaverproto \
+pkgconfig-x11 \
+pkgconfig-xext"
 
 inherit rpm

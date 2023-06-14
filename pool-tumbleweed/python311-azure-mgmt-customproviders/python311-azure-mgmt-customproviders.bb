@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-mgmt-customproviders-1.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "6c3a5f46b76cb49862b5123b68ce4b3f8c5fee45267d14fd1b25feee9adcddc7da744b58810c336dfa4e78a38a941b649d11f60ddc3f369d626e76aa7585688d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-customproviders) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-customproviders \
 python311-azure-mgmt-customproviders \
-python3dist(azure-mgmt-customproviders)"
+python3dist-azure-mgmt-customproviders"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

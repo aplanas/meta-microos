@@ -14,9 +14,9 @@ RPM_NAME = "perl-Test-Fork-0.02-1.7.noarch.rpm"
 RPM_HASH = "5780cafc69a03b539bcce9fe7ebf4bae400a6967aa096baa88bc1da5c04ba801847de73bbe8db495aad2764f7185c61b73cfad7cab3a06e193773c55c0d228e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Fork) \
+RPROVIDES:${PN} += "perl-Test--Fork \
 perl-Test-Fork"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_NAME = "texlive-sfmath-2023.201.0.0.8svn15878-53.1.noarch.rpm"
 RPM_HASH = "63e6331bdbf3d29d86a3c3b59d223154365be41f6fe6e7d05bc2941637082c60bab406db7673812c6bec411e558cfac6344bfc068aacd9f894dd3599942bfab5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sfmath.sty) \
+RPROVIDES:${PN} += "tex-sfmath.sty \
 texlive-sfmath"
 
 RDEPENDS:${PN} += "/bin/sh \

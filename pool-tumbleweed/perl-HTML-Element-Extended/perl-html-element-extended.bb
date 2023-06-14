@@ -25,20 +25,20 @@ RPM_NAME = "perl-HTML-Element-Extended-1.18-14.26.noarch.rpm"
 RPM_HASH = "503f2f29ad952184eaaa41e99028adc9405791a276ba426a6c682ca9f5fe3dac3073911d70319a10c329f2d34891cacf4b8e4c864e06f2bf872c0d55bdc6969b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::ElementGlob) \
-perl(HTML::ElementRaw) \
-perl(HTML::ElementSuper) \
-perl(HTML::ElementSuper::ContentWatchdog) \
-perl(HTML::ElementTable) \
-perl(HTML::ElementTable::DataElement) \
-perl(HTML::ElementTable::Element) \
-perl(HTML::ElementTable::HeaderElement) \
-perl(HTML::ElementTable::RowElement) \
-perl(HTML::ElementTable::RowGlob) \
+RPROVIDES:${PN} += "perl-HTML--ElementGlob \
+perl-HTML--ElementRaw \
+perl-HTML--ElementSuper \
+perl-HTML--ElementSuper--ContentWatchdog \
+perl-HTML--ElementTable \
+perl-HTML--ElementTable--DataElement \
+perl-HTML--ElementTable--Element \
+perl-HTML--ElementTable--HeaderElement \
+perl-HTML--ElementTable--RowElement \
+perl-HTML--ElementTable--RowGlob \
 perl-HTML-Element-Extended"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Dumper) \
-perl(HTML::Element)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Dumper \
+perl-HTML--Element"
 
 inherit rpm

@@ -14,16 +14,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-macros \
 kernel-subpackage-macros \
-rpm_macro(_kernel_module_package) \
-rpm_macro(cpu_arch) \
-rpm_macro(kernel_build_shell_package) \
-rpm_macro(kernel_module_directory) \
-rpm_macro(kernel_module_package) \
-rpm_macro(kernel_module_package_buildreqs) \
-rpm_macro(kernel_module_package_release) \
-rpm_macro(linux_arch) \
-rpm_macro(linux_make_arch) \
-rpm_macro(suse_kernel_module_package)"
+rpm-macro--kernel-module-package \
+rpm-macro-cpu-arch \
+rpm-macro-kernel-build-shell-package \
+rpm-macro-kernel-module-directory \
+rpm-macro-kernel-module-package \
+rpm-macro-kernel-module-package-buildreqs \
+rpm-macro-kernel-module-package-release \
+rpm-macro-linux-arch \
+rpm-macro-linux-make-arch \
+rpm-macro-suse-kernel-module-package"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh"

@@ -11,11 +11,11 @@ RPM_HASH = "8f6b4e292c2c2da187b22aee465c46870db2f422efc1e3cf1c888512fd4de43cbdf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Principal \
-python3.10dist(flask-principal) \
+python3.10dist-flask-principal \
 python310-Flask-Principal \
-python3dist(flask-principal)"
+python3dist-flask-principal"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-blinker"
 

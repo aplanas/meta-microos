@@ -9,13 +9,13 @@ RPM_HASH = "90f185aae660c8c56a41fc706de2109579b0339aa18df9a9afccd274186ec4fd965b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xerox \
-python3.10dist(xerox) \
+python3.10dist-xerox \
 python310-xerox \
-python3dist(xerox)"
+python3dist-xerox"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives \
 xclip"
 

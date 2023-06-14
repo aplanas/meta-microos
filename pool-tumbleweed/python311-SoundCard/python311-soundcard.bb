@@ -15,12 +15,12 @@ RPM_NAME = "python311-SoundCard-0.4.2-1.3.noarch.rpm"
 RPM_HASH = "7876c48be9628038c8b119ff1561beaa4786cb6ae69133cda7707a2aebc2932e241941b55253a5e50a4a343fb69f74a910758a0417a26990d65e807716e2f2d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(soundcard) \
+RPROVIDES:${PN} += "python3.11dist-soundcard \
 python311-SoundCard \
-python3dist(soundcard)"
+python3dist-soundcard"
 
 RDEPENDS:${PN} += "pulseaudio-daemon \
-python(abi) \
+python-abi \
 python311-cffi \
 python311-numpy"
 

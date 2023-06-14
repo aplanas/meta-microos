@@ -10,20 +10,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdbm-lang \
 gdbm-lang-all \
-locale(gdbm:da) \
-locale(gdbm:de) \
-locale(gdbm:eo) \
-locale(gdbm:es) \
-locale(gdbm:fi) \
-locale(gdbm:fr) \
-locale(gdbm:ja) \
-locale(gdbm:pl) \
-locale(gdbm:pt_BR) \
-locale(gdbm:ru) \
-locale(gdbm:sr) \
-locale(gdbm:sv) \
-locale(gdbm:uk) \
-locale(gdbm:vi)"
+locale-gdbm-da \
+locale-gdbm-de \
+locale-gdbm-eo \
+locale-gdbm-es \
+locale-gdbm-fi \
+locale-gdbm-fr \
+locale-gdbm-ja \
+locale-gdbm-pl \
+locale-gdbm-pt-BR \
+locale-gdbm-ru \
+locale-gdbm-sr \
+locale-gdbm-sv \
+locale-gdbm-uk \
+locale-gdbm-vi"
 
 RDEPENDS:${PN} += "gdbm"
 

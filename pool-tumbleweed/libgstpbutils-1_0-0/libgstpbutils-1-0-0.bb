@@ -11,20 +11,19 @@ PV = "1.22.3"
 RPM_NAME = "libgstpbutils-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "56225367e6318c164cab68708816ccbb49fe56a2433852c22311bd8d62f6e9fa50a1bd08f1cd68f81fa1323398019f1cbdbf333c6afd407ca4d51eff5be6cef3"
 
-RPROVIDES:${PN} += "libgstpbutils-1.0.so.0()(64bit) \
-libgstpbutils-1_0-0 \
-libgstpbutils-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstpbutils-1-0-0 \
+libgstpbutils-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstaudio-1.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgsttag-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstaudio-1.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgsttag-1.0.so.0 \
+libgstvideo-1.0.so.0"
 
 inherit rpm

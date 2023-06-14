@@ -10,10 +10,9 @@ PV = "2.10"
 RPM_NAME = "zoo-2.10-1027.12.aarch64.rpm"
 RPM_HASH = "b3cd17aa842c35f2de7eff8a624adf37cc3ba2b50293f4976ce5a29ff79c6102aacf6f014217c5496868f621352db7d9826561ae6e6c61c906fefd10cb068c4b"
 
-RPROVIDES:${PN} += "zoo \
-zoo(aarch-64)"
+RPROVIDES:${PN} += "zoo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

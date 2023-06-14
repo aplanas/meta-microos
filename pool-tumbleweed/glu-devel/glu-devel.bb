@@ -18,11 +18,10 @@ RPM_HASH = "a5dc165970bc3f5fab108f117b9ae8d53fcec2bb3ac8ce15d7f884c04e2950fc6adb
 
 RPROVIDES:${PN} += "Mesa-libGLU-devel \
 glu-devel \
-glu-devel(aarch-64) \
-pkgconfig(glu)"
+pkgconfig-glu"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGLU1 \
-pkgconfig(gl)"
+pkgconfig-gl"
 
 inherit rpm

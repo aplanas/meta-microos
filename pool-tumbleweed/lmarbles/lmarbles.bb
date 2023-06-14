@@ -14,14 +14,11 @@ PV = "1.0.8"
 RPM_NAME = "lmarbles-1.0.8-2.23.aarch64.rpm"
 RPM_HASH = "5c57fe047103b5c7f5d06169fb3ca5c6d3fa785a474784ec2ad73f05ebb0547aed34fb63d932f9d59ba1a117249ccf80980f92017305091665c3845ca9c74dc2"
 
-RPROVIDES:${PN} += "application() \
-application(lmarbles.desktop) \
-lmarbles \
-lmarbles(aarch-64)"
+RPROVIDES:${PN} += "lmarbles"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6"
 
 inherit rpm

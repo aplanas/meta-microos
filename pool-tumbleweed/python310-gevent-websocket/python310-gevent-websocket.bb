@@ -9,11 +9,11 @@ RPM_HASH = "22618c938a35c61b0d04e95b7bc40958f857c1e4c2866575bb18b9bbe31ba01cdea0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gevent-websocket \
-python3.10dist(gevent-websocket) \
+python3.10dist-gevent-websocket \
 python310-gevent-websocket \
-python3dist(gevent-websocket)"
+python3dist-gevent-websocket"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-gevent"
 
 inherit rpm

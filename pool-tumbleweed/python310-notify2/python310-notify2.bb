@@ -12,11 +12,11 @@ RPM_HASH = "d1d88d95f7724e604a58a21279db950294ce85cc17ba408d8122e725d11f97bc8459
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-notify2 \
-python3.10dist(notify2) \
+python3.10dist-notify2 \
 python310-notify2 \
-python3dist(notify2)"
+python3dist-notify2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dbus-python"
 
 inherit rpm

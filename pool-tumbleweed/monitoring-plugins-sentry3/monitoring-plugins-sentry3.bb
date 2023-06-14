@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "monitoring-plugins-sentry3 \
 nagios-plugins-sentry3"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Nagios::Plugin) \
-perl(Net::SNMP)"
+perl-Nagios--Plugin \
+perl-Net--SNMP"
 
 inherit rpm

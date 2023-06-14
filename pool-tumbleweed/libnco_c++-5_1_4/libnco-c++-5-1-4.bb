@@ -12,17 +12,16 @@ PV = "5.1.4"
 RPM_NAME = "libnco_c++-5_1_4-5.1.4-1.4.aarch64.rpm"
 RPM_HASH = "c2c75d2c8ee63d099127d1c50141c18be66a8bb059703ce254d1d334c26a6a7b34d5d9eb6f69abe703e78616a78807bfc6e115634b13047b260b090cbc107a4a"
 
-RPROVIDES:${PN} += "libnco_c++ \
-libnco_c++-5 \
-libnco_c++-5.1.4.so()(64bit) \
-libnco_c++-5_1_4 \
-libnco_c++-5_1_4(aarch-64)"
+RPROVIDES:${PN} += "libnco-c++ \
+libnco-c++-5 \
+libnco-c++-5-1-4 \
+libnco-c++-5.1.4.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnetcdf.so.19()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnetcdf.so.19 \
+libstdc++.so.6"
 
 inherit rpm

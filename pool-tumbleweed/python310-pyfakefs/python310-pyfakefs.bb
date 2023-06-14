@@ -12,11 +12,11 @@ RPM_HASH = "06f5571ccd2eb4c599c15084051ef81d1ba385cf17fa930260bd1dbf33719615c2d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyfakefs \
-python3.10dist(pyfakefs) \
+python3.10dist-pyfakefs \
 python310-pyfakefs \
-python3dist(pyfakefs)"
+python3dist-pyfakefs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310"
 
 inherit rpm

@@ -12,10 +12,10 @@ RPM_NAME = "python39-ipy-1.01-1.10.noarch.rpm"
 RPM_HASH = "7e393d63695579dcfa840dd397b5c7e1a7b9b25cf62e3b4571181fddfea0ecfc2d2dc8842ef36c4bec378b4fd19f37850e7df3e18487d181ce16bdd24ca92536"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ipy) \
+RPROVIDES:${PN} += "python3.9dist-ipy \
 python39-ipy \
-python3dist(ipy)"
+python3dist-ipy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -11,18 +11,16 @@ RPM_NAME = "sleuthkit-4.12.0-1.3.aarch64.rpm"
 RPM_HASH = "9ea1797fb98d77e98ab2322e3941d0231ba8700457b54737a4810fb375b77014b4baf9fddedb214b12439568bcdb774100d3ebbb2ab08849d16b886ea57b33fb"
 
 RPROVIDES:${PN} += "fiwalk \
-sleuthkit \
-sleuthkit(aarch-64)"
+sleuthkit"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 file \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libewf.so.3()(64bit) \
-libewf.so.3(V_20230212)(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtsk.so.19()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libewf.so.3 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libtsk.so.19 \
 libtsk19 \
 mac-robber"
 

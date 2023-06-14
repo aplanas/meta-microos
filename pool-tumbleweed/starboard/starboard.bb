@@ -7,9 +7,8 @@ PV = "0.15.12"
 RPM_NAME = "starboard-0.15.12-1.2.aarch64.rpm"
 RPM_HASH = "7934e7604165401958cfe2dafd26b67c87ce48a3444da0addce9428beccb546b740d6e6723247aa3c046ed0547caf22eb1ed56ac08f01c433a360637fd014499"
 
-RPROVIDES:${PN} += "starboard \
-starboard(aarch-64)"
+RPROVIDES:${PN} += "starboard"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

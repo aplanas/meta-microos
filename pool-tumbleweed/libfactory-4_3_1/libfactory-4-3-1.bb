@@ -14,19 +14,18 @@ PV = "4.3.1.p3"
 RPM_NAME = "libfactory-4_3_1-4.3.1.p3-1.3.aarch64.rpm"
 RPM_HASH = "b8482ab424d99246799c7c3b6c3cd7751e0844925a62ffa1de2b26ebe9936c0fbaa2a9535489207dd36d876b5fc2f14dcc81d858f94fe4ef69f0c95b24789af1"
 
-RPROVIDES:${PN} += "libfactory-4.3.1.p3.so()(64bit) \
-libfactory-4_3_1 \
-libfactory-4_3_1(aarch-64)"
+RPROVIDES:${PN} += "libfactory-4-3-1 \
+libfactory-4.3.1.p3.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libflint.so.17()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libntl.so.44()(64bit) \
-libomalloc-4.3.1.p3.so()(64bit) \
-libsingular_resources-4.3.1.p3.so()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libflint.so.17 \
+libgmp.so.10 \
+libm.so.6 \
+libntl.so.44 \
+libomalloc-4.3.1.p3.so \
+libsingular-resources-4.3.1.p3.so \
+libstdc++.so.6"
 
 inherit rpm

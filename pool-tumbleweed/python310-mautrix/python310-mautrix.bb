@@ -9,11 +9,11 @@ RPM_HASH = "95a339fe2eaecba14e7d3d300106038c5722ab0deb871f7afea2886a31e7bb5f72f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mautrix \
-python3.10dist(mautrix) \
+python3.10dist-mautrix \
 python310-mautrix \
-python3dist(mautrix)"
+python3dist-mautrix"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aiohttp \
 python310-attrs \
 python310-yarl"

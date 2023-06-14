@@ -9,7 +9,6 @@ RPM_NAME = "u-boot-firefly-rk3399-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "5ab09634d915b76ee67dbcb8521b3a0fee812a579d104e701cc70c323ee28a5ba8e9d5d10e73fca9e4d75f0783ac79366005785959f61b7e2a85f7806e55303b"
 
 RPROVIDES:${PN} += "u-boot-firefly-rk3399 \
-u-boot-firefly-rk3399(aarch-64) \
 u-boot-loader"
 
 RDEPENDS:${PN} += ""

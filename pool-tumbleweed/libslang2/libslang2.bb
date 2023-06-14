@@ -11,14 +11,12 @@ PV = "2.3.3"
 RPM_NAME = "libslang2-2.3.3-1.3.aarch64.rpm"
 RPM_HASH = "a8032b6a1b7f8aee329d442a76a2dcdc23d343582856cb8af8f616b1cfaf317537373ecc3e0aef2caa132b5bc2d6882506cfc5fbb37be5dc75abba2d5216647a"
 
-RPROVIDES:${PN} += "libslang.so.2()(64bit) \
-libslang.so.2(SLANG2)(64bit) \
-libslang2 \
-libslang2(aarch-64)"
+RPROVIDES:${PN} += "libslang.so.2 \
+libslang2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -8,18 +8,14 @@ PV = "6.5.1"
 RPM_NAME = "qt6-opcua-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "d7ab1d9b4db18ffbaee2b3dc0af5335cc51dc4ce90cc1f055b0b517eda89d94e86dbdbf25aaf7edc53f583a5c4a1b64ba35acd9c69e6564eb8a2fa909b4d992f"
 
-RPROVIDES:${PN} += "libopen62541_backend.so()(64bit) \
-libopen62541_backend.so(Qt_6)(64bit) \
-qt6-opcua \
-qt6-opcua(aarch-64)"
+RPROVIDES:${PN} += "libopen62541-backend.so \
+qt6-opcua"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6OpcUa.so.6()(64bit) \
-libQt6OpcUa.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6OpcUa.so.6 \
+libc.so.6 \
+libcrypto.so.3 \
+libstdc++.so.6"
 
 inherit rpm

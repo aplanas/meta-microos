@@ -21,11 +21,11 @@ RPM_HASH = "7e3efaf4b69fec6d1e85285fa41f560c4712ed56e40f59e8eff725088d160ac3cc76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-timeout \
-python3.10dist(pytest-timeout) \
+python3.10dist-pytest-timeout \
 python310-pytest-timeout \
-python3dist(pytest-timeout)"
+python3dist-pytest-timeout"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest"
 
 inherit rpm

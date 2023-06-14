@@ -22,16 +22,16 @@ RPM_NAME = "perl-Statistics-Descriptive-3.0800-1.12.noarch.rpm"
 RPM_HASH = "ae5b264562601d379f243d706677ae2e5a42e6c18d8279f67d1a12e66b6ff59237e1168a4e03aa2ad956e3fce893db17d7f300d33156930dc3eca987ddc3f04f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Statistics::Descriptive) \
-perl(Statistics::Descriptive::Full) \
-perl(Statistics::Descriptive::Smoother) \
-perl(Statistics::Descriptive::Smoother::Exponential) \
-perl(Statistics::Descriptive::Smoother::Weightedexponential) \
-perl(Statistics::Descriptive::Sparse) \
+RPROVIDES:${PN} += "perl-Statistics--Descriptive \
+perl-Statistics--Descriptive--Full \
+perl-Statistics--Descriptive--Smoother \
+perl-Statistics--Descriptive--Smoother--Exponential \
+perl-Statistics--Descriptive--Smoother--Weightedexponential \
+perl-Statistics--Descriptive--Sparse \
 perl-Statistics-Descriptive"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(List::MoreUtils) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-List--MoreUtils \
+perl-parent"
 
 inherit rpm

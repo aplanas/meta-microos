@@ -14,14 +14,12 @@ RPM_HASH = "da8beb39f9a55764006a5073709125e2c26c1182c5bf76981de04316b471b9f176f8
 
 RPROVIDES:${PN} += "libburnia-tools \
 libburnia-tools-x11 \
-xorriso \
-xorriso(aarch-64)"
+xorriso"
 
 RDEPENDS:${PN} += "/bin/sh \
 info \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libisoburn.so.1()(64bit) \
-libisoburn.so.1(LIBISOBURN1)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libisoburn.so.1"
 
 inherit rpm

@@ -11,14 +11,13 @@ PV = "4.5.4"
 RPM_NAME = "sqlcipher-4.5.4-1.1.aarch64.rpm"
 RPM_HASH = "aab35202bce59124fd0d4ffb71740643b4781d3d8aa69396bbff6defc2c7085060a0244f3e703e20a4da274d9bb5063f0a1c11e1bd0cfc02516f196d792d9b13"
 
-RPROVIDES:${PN} += "sqlcipher \
-sqlcipher(aarch-64)"
+RPROVIDES:${PN} += "sqlcipher"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libreadline.so.8 \
+libz.so.1"
 
 inherit rpm

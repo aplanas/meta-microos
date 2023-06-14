@@ -12,21 +12,17 @@ PV = "0.7"
 RPM_NAME = "kajaani-kombat-0.7-4.6.aarch64.rpm"
 RPM_HASH = "f19d3378737203bc0355ac0a8570bc7c449ca9c368bd257b211963b2c3bc954e0d7e8c3bdea4e224119e1a2add80bfce1b55c4af530405c682581b5ba0c34fd2"
 
-RPROVIDES:${PN} += "application() \
-application(kajaani-kombat-fullscreen.desktop) \
-application(kajaani-kombat.desktop) \
-kajaani-kombat \
-kajaani-kombat(aarch-64)"
+RPROVIDES:${PN} += "kajaani-kombat"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libSDL_net-1.2.so.0()(64bit) \
-libSDL_ttf-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libSDL-net-1.2.so.0 \
+libSDL-ttf-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

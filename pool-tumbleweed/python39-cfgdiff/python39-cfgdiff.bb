@@ -18,13 +18,13 @@ RPM_HASH = "d6203a0bc05681deed11e31391ed9462eb799bc6d93e8749b8fbb9b308d22c2666ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfgdiff \
-python3.9dist(cfgdiff) \
+python3.9dist-cfgdiff \
 python39-cfgdiff \
-python3dist(cfgdiff)"
+python3dist-cfgdiff"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-PyYAML \
 python39-configobj \
 python39-dnspython \

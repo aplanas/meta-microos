@@ -26,11 +26,11 @@ RPM_HASH = "4932e7e7bcb59799b51cb30edd5a322b1ad697be3995c5a32b804d014632aeb49427
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-debug-toolbar \
-python3.10dist(django-debug-toolbar) \
+python3.10dist-django-debug-toolbar \
 python310-django-debug-toolbar \
-python3dist(django-debug-toolbar)"
+python3dist-django-debug-toolbar"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-jinja \
 python310-sqlparse"

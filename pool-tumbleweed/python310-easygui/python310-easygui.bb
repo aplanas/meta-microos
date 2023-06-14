@@ -11,10 +11,10 @@ RPM_HASH = "518d5bc011630d57821e556ec1eaf153f52cd8a2d3e34b7e53c2b13a943b86a6ad35
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-easygui \
-python3.10dist(easygui) \
+python3.10dist-easygui \
 python310-easygui \
-python3dist(easygui)"
+python3dist-easygui"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

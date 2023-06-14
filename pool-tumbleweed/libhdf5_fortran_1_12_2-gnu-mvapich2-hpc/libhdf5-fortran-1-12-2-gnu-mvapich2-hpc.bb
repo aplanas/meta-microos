@@ -10,15 +10,13 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_fortran_1_12_2-gnu-mvapich2-hpc-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "e70007da6eecb654d9ca986a01efabc620e9c443c7cc30ecf924623e3562f197808839e2f79728f0378df6c7ad3e52bf11ef91d36db22f88ac7a838ef0290849"
 
-RPROVIDES:${PN} += "libhdf5_fortran_1_12_2-gnu-mvapich2-hpc \
-libhdf5_fortran_1_12_2-gnu-mvapich2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-fortran-1-12-2-gnu-mvapich2-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-hdf5_1_12_2-gnu-mvapich2-hpc-module \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit)"
+hdf5-1-12-2-gnu-mvapich2-hpc-module \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5"
 
 inherit rpm

@@ -11,15 +11,15 @@ RPM_NAME = "prewikka-5.2.0-2.7.noarch.rpm"
 RPM_HASH = "83675c9697d8f907ee4c3b383aaf6df177861d73eda5b292bf458b61c51c4d72c9ef26647a7aed15ff9f07b82ad6820f7cd12438ec81c2c44c20e049f3b6b1b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(prewikka) \
+RPROVIDES:${PN} += "config-prewikka \
 prewikka \
 prewikka-core \
-python3.10dist(prewikka) \
-python3dist(prewikka)"
+python3.10dist-prewikka \
+python3dist-prewikka"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 prewikka-lang \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-Mako \
 python3-PyYAML \

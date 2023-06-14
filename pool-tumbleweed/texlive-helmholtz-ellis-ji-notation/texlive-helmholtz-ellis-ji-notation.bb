@@ -22,7 +22,7 @@ RPM_NAME = "texlive-helmholtz-ellis-ji-notation-2023.201.1.1svn55213-53.1.noarch
 RPM_HASH = "83c01cebcea551c86f6c9c188c58a79a13fd4b23e2fb3d372af473a9aba6f408a594742f71301ec9dabc871c9de72cef569d02a14ce9aebedae718a78943fd40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(helmholtz-ellis-ji-notation.sty) \
+RPROVIDES:${PN} += "tex-helmholtz-ellis-ji-notation.sty \
 texlive-helmholtz-ellis-ji-notation"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,7 +31,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(fontspec.sty) \
+tex-fontspec.sty \
 texlive \
 texlive-filesystem \
 texlive-helmholtz-ellis-ji-notation-fonts \

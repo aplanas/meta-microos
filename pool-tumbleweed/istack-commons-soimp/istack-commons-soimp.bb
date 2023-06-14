@@ -9,12 +9,12 @@ RPM_HASH = "b1d58ebe61e339b0dc1025e549056527c2c4d2e3bbd86eb386a931ce7e2976acdbe5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-soimp \
-mvn(com.sun.istack:istack-commons-soimp) \
-mvn(com.sun.istack:istack-commons-soimp:pom:)"
+mvn-com.sun.istack-istack-commons-soimp \
+mvn-com.sun.istack-istack-commons-soimp-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(args4j:args4j) \
-mvn(org.apache.ant:ant)"
+mvn-args4j-args4j \
+mvn-org.apache.ant-ant"
 
 inherit rpm

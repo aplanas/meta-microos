@@ -11,8 +11,8 @@ RPM_NAME = "texlive-uni-wtal-ger-2023.201.0.0.2svn31541-53.1.noarch.rpm"
 RPM_HASH = "2b0e307182accf1d483c75f4c78318efd7fbd2741b9a56ac2351bc13ce4b73114ddd08822f19dc01422fae68d2a855afa571d3c819c6ed3d44491dfeac83077f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(uni-wtal-ger.bbx) \
-tex(uni-wtal-ger.cbx) \
+RPROVIDES:${PN} += "tex-uni-wtal-ger.bbx \
+tex-uni-wtal-ger.cbx \
 texlive-uni-wtal-ger"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,8 +21,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(authortitle-dw.bbx) \
-tex(authortitle-dw.cbx) \
+tex-authortitle-dw.bbx \
+tex-authortitle-dw.cbx \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

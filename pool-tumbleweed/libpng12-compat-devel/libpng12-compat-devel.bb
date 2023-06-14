@@ -12,8 +12,7 @@ RPM_HASH = "040dcb68fcca6bb0482e870f845d1518b7ac9f1d05b83ec5a0ab282c9aafb044eba1
 
 RPROVIDES:${PN} += "libpng-devel \
 libpng12-compat-devel \
-libpng12-compat-devel(aarch-64) \
-pkgconfig(libpng)"
+pkgconfig-libpng"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpng12-devel"

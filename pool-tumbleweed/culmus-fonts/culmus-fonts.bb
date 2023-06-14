@@ -13,10 +13,10 @@ RPM_HASH = "37ea49e643f52f01e7b104595682e0cbbb4db045a3e569770cab20d4b71fbb18f1aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "culmus-fonts \
-locale(he)"
+locale-he"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

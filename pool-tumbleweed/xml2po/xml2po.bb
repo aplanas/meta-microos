@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "xml2po"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

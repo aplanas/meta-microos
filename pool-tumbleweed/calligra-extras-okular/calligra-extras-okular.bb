@@ -7,55 +7,30 @@ PV = "3.2.1"
 RPM_NAME = "calligra-extras-okular-3.2.1-7.17.aarch64.rpm"
 RPM_HASH = "da11e853ffd836af38b2be4d283b0f7d3700c0952e8601bf3dac222c2599b89c3e01e9caac86f0f9219d0fbd35276b53b344168a4308fb1cf2b19ee4360edbd7"
 
-RPROVIDES:${PN} += "application() \
-application(okularApplication_doc_calligra.desktop) \
-application(okularApplication_docx_calligra.desktop) \
-application(okularApplication_odp_calligra.desktop) \
-application(okularApplication_odt_calligra.desktop) \
-application(okularApplication_powerpoint_calligra.desktop) \
-application(okularApplication_pptx_calligra.desktop) \
-application(okularApplication_rtf_calligra.desktop) \
-application(okularApplication_wpd_calligra.desktop) \
-calligra-extras-okular \
-calligra-extras-okular(aarch-64) \
-libkookularGenerator_odp.so.17()(64bit) \
-libkookularGenerator_odt.so.17()(64bit) \
-mimehandler(application/msword) \
-mimehandler(application/rtf) \
-mimehandler(application/vnd.ms-powerpoint) \
-mimehandler(application/vnd.oasis.opendocument.presentation) \
-mimehandler(application/vnd.oasis.opendocument.presentation-template) \
-mimehandler(application/vnd.oasis.opendocument.text) \
-mimehandler(application/vnd.oasis.opendocument.text-template) \
-mimehandler(application/vnd.openxmlformats-officedocument.presentationml.presentation) \
-mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.document) \
-mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.template) \
-mimehandler(application/vnd.wordperfect) \
-mimehandler(text/rtf)"
+RPROVIDES:${PN} += "calligra-extras-okular \
+libkookularGenerator-odp.so.17 \
+libkookularGenerator-odt.so.17"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libOkular5Core.so.10()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libflake.so.17()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkomain.so.17()(64bit) \
-libkoodf.so.17()(64bit) \
-libkopageapp.so.17()(64bit) \
-libkotext.so.17()(64bit) \
-libkotextlayout.so.17()(64bit) \
-libkowidgets.so.17()(64bit) \
-libstdc++.so.6()(64bit) \
-libwordsprivate.so.17()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libOkular5Core.so.10 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libflake.so.17 \
+libgcc-s.so.1 \
+libkomain.so.17 \
+libkoodf.so.17 \
+libkopageapp.so.17 \
+libkotext.so.17 \
+libkotextlayout.so.17 \
+libkowidgets.so.17 \
+libstdc++.so.6 \
+libwordsprivate.so.17 \
 okular"
 
 inherit rpm

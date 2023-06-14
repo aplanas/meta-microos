@@ -11,11 +11,11 @@ RPM_HASH = "c5437a91b8f29ee114cc499426a58b55b811e257805188ca408d8e59f98235dc53ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-doctestplus \
-python3.10dist(pytest-doctestplus) \
+python3.10dist-pytest-doctestplus \
 python310-pytest-doctestplus \
-python3dist(pytest-doctestplus)"
+python3dist-pytest-doctestplus"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-packaging \
 python310-pytest \
 python310-setuptools"

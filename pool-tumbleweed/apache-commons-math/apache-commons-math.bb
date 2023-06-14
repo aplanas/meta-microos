@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-math \
 apache-commons-math3 \
-mvn(org.apache.commons:commons-math3) \
-mvn(org.apache.commons:commons-math3:pom:) \
-osgi(org.apache.commons.math3)"
+mvn-org.apache.commons-commons-math3 \
+mvn-org.apache.commons-commons-math3-pom- \
+osgi-org.apache.commons.math3"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

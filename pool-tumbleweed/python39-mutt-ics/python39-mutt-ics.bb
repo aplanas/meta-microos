@@ -9,14 +9,13 @@ RPM_HASH = "eb99fd12d028942849bd7ddbe7275548875e33f7727aadae6cfd91e87fcef0dfd468
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mutt-ics \
-mutt_ics \
-python3.9dist(mutt-ics) \
+python3.9dist-mutt-ics \
 python39-mutt-ics \
-python3dist(mutt-ics)"
+python3dist-mutt-ics"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-icalendar \
 python39-setuptools \
 update-alternatives"

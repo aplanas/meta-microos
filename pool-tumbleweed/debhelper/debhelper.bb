@@ -13,28 +13,28 @@ RPM_NAME = "debhelper-13.11.4-1.2.noarch.rpm"
 RPM_HASH = "0164ddf944e03540f0407fd3b802752ff3ff5f8e61121ccfb21d8247452f7f4be71b388fa1539dcb9a053afe8c0b64fee98c122222b7940a8a229dc7cb9bb8b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "deb:/usr/bin/dh_install \
+RPROVIDES:${PN} += "deb-/usr/bin/dh-install \
 debhelper \
-perl(Debian::Debhelper::Buildsystem) \
-perl(Debian::Debhelper::Buildsystem::ant) \
-perl(Debian::Debhelper::Buildsystem::autoconf) \
-perl(Debian::Debhelper::Buildsystem::cmake) \
-perl(Debian::Debhelper::Buildsystem::makefile) \
-perl(Debian::Debhelper::Buildsystem::meson) \
-perl(Debian::Debhelper::Buildsystem::ninja) \
-perl(Debian::Debhelper::Buildsystem::perl_build) \
-perl(Debian::Debhelper::Buildsystem::perl_makemaker) \
-perl(Debian::Debhelper::Buildsystem::python_distutils) \
-perl(Debian::Debhelper::Buildsystem::qmake) \
-perl(Debian::Debhelper::Buildsystem::qmake_qt4) \
-perl(Debian::Debhelper::DH::AddonAPI) \
-perl(Debian::Debhelper::DH::SequenceState) \
-perl(Debian::Debhelper::Dh_Buildsystems) \
-perl(Debian::Debhelper::Dh_Getopt) \
-perl(Debian::Debhelper::Dh_Lib) \
-perl(Debian::Debhelper::Dh_Version) \
-perl(Debian::Debhelper::Sequence) \
-perl(Debian::Debhelper::SequencerUtil)"
+perl-Debian--Debhelper--Buildsystem \
+perl-Debian--Debhelper--Buildsystem--ant \
+perl-Debian--Debhelper--Buildsystem--autoconf \
+perl-Debian--Debhelper--Buildsystem--cmake \
+perl-Debian--Debhelper--Buildsystem--makefile \
+perl-Debian--Debhelper--Buildsystem--meson \
+perl-Debian--Debhelper--Buildsystem--ninja \
+perl-Debian--Debhelper--Buildsystem--perl-build \
+perl-Debian--Debhelper--Buildsystem--perl-makemaker \
+perl-Debian--Debhelper--Buildsystem--python-distutils \
+perl-Debian--Debhelper--Buildsystem--qmake \
+perl-Debian--Debhelper--Buildsystem--qmake-qt4 \
+perl-Debian--Debhelper--DH--AddonAPI \
+perl-Debian--Debhelper--DH--SequenceState \
+perl-Debian--Debhelper--Dh-Buildsystems \
+perl-Debian--Debhelper--Dh-Getopt \
+perl-Debian--Debhelper--Dh-Lib \
+perl-Debian--Debhelper--Dh-Version \
+perl-Debian--Debhelper--Sequence \
+perl-Debian--Debhelper--SequencerUtil"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 dh-autoreconf \

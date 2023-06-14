@@ -12,7 +12,7 @@ RPM_NAME = "texlive-numerica-tables-2023.201.2.0.0svn61288-54.1.noarch.rpm"
 RPM_HASH = "bee5f6f0b293cf623dc96f9d258114a74a7c24d226af282944b704b21138552b2fb883e1b73ca5c84be02a22c756fdc09a60d569ddf854633a279fb0844f531b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(numerica-tables.sty) \
+RPROVIDES:${PN} += "tex-numerica-tables.sty \
 texlive-numerica-tables"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,8 +21,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(booktabs.sty) \
-tex(numerica.sty) \
+tex-booktabs.sty \
+tex-numerica.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

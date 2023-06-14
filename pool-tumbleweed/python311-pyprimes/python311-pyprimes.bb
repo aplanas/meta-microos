@@ -27,10 +27,10 @@ RPM_NAME = "python311-pyprimes-0.2.2a-1.20.noarch.rpm"
 RPM_HASH = "4e0afe9b617dd1ee0d2b430210f961c78c3d38c2a2c9c70a95ced6fc30191267bee6644d4fa1cfbc88a6bba044fb77e8cb5a6453e3d90a787f730a2a15cca1d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyprimes) \
+RPROVIDES:${PN} += "python3.11dist-pyprimes \
 python311-pyprimes \
-python3dist(pyprimes)"
+python3dist-pyprimes"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

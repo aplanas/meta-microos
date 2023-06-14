@@ -14,12 +14,12 @@ RPM_HASH = "ce685c41ce2f8a57ed8a0c28a78c69369b16c04c4f89b788ad105800b1c83275f584
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-cosmosdb \
-python3.10dist(azure-mgmt-cosmosdb) \
+python3.10dist-azure-mgmt-cosmosdb \
 python310-azure-mgmt-cosmosdb \
-python3dist(azure-mgmt-cosmosdb)"
+python3dist-azure-mgmt-cosmosdb"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

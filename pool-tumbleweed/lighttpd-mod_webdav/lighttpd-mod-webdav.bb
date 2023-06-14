@@ -19,15 +19,14 @@ PV = "1.4.71"
 RPM_NAME = "lighttpd-mod_webdav-1.4.71-1.1.aarch64.rpm"
 RPM_HASH = "52d664b01f58c4764ff6b7a99a7c5dfbb9e8f14b48ee51e381fd7c29692e79220fd467aa0608487b249df404cc9046b705841a10e526c8e5d70cfa1005b85b4f"
 
-RPROVIDES:${PN} += "config(lighttpd-mod_webdav) \
-lighttpd-mod_webdav \
-lighttpd-mod_webdav(aarch-64)"
+RPROVIDES:${PN} += "config-lighttpd-mod-webdav \
+lighttpd-mod-webdav"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libuuid.so.1()(64bit) \
-libxml2.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsqlite3.so.0 \
+libuuid.so.1 \
+libxml2.so.2 \
 lighttpd"
 
 inherit rpm

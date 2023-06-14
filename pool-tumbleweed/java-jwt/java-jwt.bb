@@ -9,12 +9,12 @@ RPM_HASH = "ba5e80d183520e64a66b51d9707e0c6e250dc483a166c1187e5e7a8bc73c2269a6c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-jwt \
-mvn(com.auth0:java-jwt) \
-mvn(com.auth0:java-jwt:pom:)"
+mvn-com.auth0-java-jwt \
+mvn-com.auth0-java-jwt-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(commons-codec:commons-codec)"
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-commons-codec-commons-codec"
 
 inherit rpm

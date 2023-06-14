@@ -17,12 +17,12 @@ RPM_HASH = "57e289aea2675f0bd8a8e00b23df4cf3e5550b64ff74f640ec234679349fb25fb078
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "binwalk \
-python3.10dist(binwalk) \
-python3dist(binwalk)"
+python3.10dist-binwalk \
+python3dist-binwalk"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 file \
-python(abi) \
+python-abi \
 python3-curses \
 ssdeep"
 

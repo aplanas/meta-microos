@@ -11,14 +11,13 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstInsertBin-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "7cf93551bd4617154a182c33941dbafb2ad3f0e10670a28d4eafeb14e4844b12dd6109eaf8042f67c5d43d3dcb20bbd2fe3b1cb13fe028d44f05a134a62f33be"
 
-RPROVIDES:${PN} += "typelib(GstInsertBin) \
-typelib-1_0-GstInsertBin-1_0 \
-typelib-1_0-GstInsertBin-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstInsertBin-1-0 \
+typelib-GstInsertBin"
 
-RDEPENDS:${PN} += "libgstinsertbin-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gst)"
+RDEPENDS:${PN} += "libgstinsertbin-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gst"
 
 inherit rpm

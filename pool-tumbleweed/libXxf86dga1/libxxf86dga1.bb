@@ -10,14 +10,13 @@ PV = "1.1.6"
 RPM_NAME = "libXxf86dga1-1.1.6-1.2.aarch64.rpm"
 RPM_HASH = "7d2f688832cd1a161a0648d7b4f18273a2aa3d3426ab837cec623bd521cb51e4f001288c066e1f20d1532d43a877968fd1035706c072ab6d2d3d39d6561dbd0e"
 
-RPROVIDES:${PN} += "libXxf86dga.so.1()(64bit) \
-libXxf86dga1 \
-libXxf86dga1(aarch-64)"
+RPROVIDES:${PN} += "libXxf86dga.so.1 \
+libXxf86dga1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libc.so.6"
 
 inherit rpm

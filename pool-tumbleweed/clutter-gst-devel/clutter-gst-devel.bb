@@ -12,19 +12,18 @@ RPM_HASH = "5242b59e95e3355817202b22dbee61fc08f2ed97332d677cb843233f0fecbd4cdede
 
 RPROVIDES:${PN} += "clutter-doc \
 clutter-gst-devel \
-clutter-gst-devel(aarch-64) \
-pkgconfig(clutter-gst-3.0)"
+pkgconfig-clutter-gst-3.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-plugin-cluttergst3 \
-libclutter-gst-3_0-0 \
-pkgconfig(clutter-1.0) \
-pkgconfig(cogl-2.0-experimental) \
-pkgconfig(gio-2.0) \
-pkgconfig(gstreamer-1.0) \
-pkgconfig(gstreamer-base-1.0) \
-pkgconfig(gstreamer-plugins-base-1.0) \
-pkgconfig(gstreamer-video-1.0) \
-typelib-1_0-ClutterGst-3_0"
+libclutter-gst-3-0-0 \
+pkgconfig-clutter-1.0 \
+pkgconfig-cogl-2.0-experimental \
+pkgconfig-gio-2.0 \
+pkgconfig-gstreamer-1.0 \
+pkgconfig-gstreamer-base-1.0 \
+pkgconfig-gstreamer-plugins-base-1.0 \
+pkgconfig-gstreamer-video-1.0 \
+typelib-1-0-ClutterGst-3-0"
 
 inherit rpm

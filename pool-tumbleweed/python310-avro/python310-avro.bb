@@ -10,13 +10,13 @@ RPM_HASH = "ceb597dbfec12fee4dd39166d9612c2f365bd7e2ec6e61fff059d16dbfb8d9e0e3ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avro \
-python3.10dist(avro) \
+python3.10dist-avro \
 python310-avro \
-python3dist(avro)"
+python3dist-avro"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Twisted \
 python310-zope.interface \
 update-alternatives"

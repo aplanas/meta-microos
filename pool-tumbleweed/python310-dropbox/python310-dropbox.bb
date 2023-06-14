@@ -9,11 +9,11 @@ RPM_HASH = "d5ccf2705412803acc2b9b34ab7329f8541fa45759a9b36dc0dfba318a1d9aa36501
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dropbox \
-python3.10dist(dropbox) \
+python3.10dist-dropbox \
 python310-dropbox \
-python3dist(dropbox)"
+python3dist-dropbox"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-six"
 

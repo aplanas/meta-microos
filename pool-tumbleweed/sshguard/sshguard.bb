@@ -9,16 +9,15 @@ PV = "2.4.2"
 RPM_NAME = "sshguard-2.4.2-6.3.aarch64.rpm"
 RPM_HASH = "822dc3a495a460f59e53fd444632f502502277a9db282ff2ef040bd28f24290484147dbcbe9182642dd129048e2fe1c9613373e64d6bd74617bfe122372a6f3e"
 
-RPROVIDES:${PN} += "config(sshguard) \
-sshguard \
-sshguard(aarch-64)"
+RPROVIDES:${PN} += "config-sshguard \
+sshguard"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 openssh \
 systemd"
 

@@ -9,13 +9,13 @@ RPM_HASH = "b7d477185c925f66f3c6bd5a3c88207d2aa3208c1e75459b8ded71c5c8ad5313030a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-upgrade \
-python3.10dist(django-upgrade) \
+python3.10dist-django-upgrade \
 python310-django-upgrade \
-python3dist(django-upgrade)"
+python3dist-django-upgrade"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-tokenize-rt \
 update-alternatives"
 

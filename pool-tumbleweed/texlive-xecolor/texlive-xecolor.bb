@@ -10,7 +10,7 @@ RPM_NAME = "texlive-xecolor-2023.201.0.0.1svn29660-52.1.noarch.rpm"
 RPM_HASH = "46f50cf1439d9eb031788cacd9d7e56c706346b7d149dd288d689bca77926ed397d568ef4a726fd6796360b56ba816c7133d1cf1cfa28592dbfc0d6264a887d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xecolor.sty) \
+RPROVIDES:${PN} += "tex-xecolor.sty \
 texlive-xecolor"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(fontspec.sty) \
-tex(iftex.sty) \
+tex-fontspec.sty \
+tex-iftex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

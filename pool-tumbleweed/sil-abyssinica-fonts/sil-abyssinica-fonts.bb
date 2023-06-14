@@ -20,12 +20,12 @@ RPM_NAME = "sil-abyssinica-fonts-2.200-1.2.noarch.rpm"
 RPM_HASH = "9f01f2cc95bc454c21b057b267d671cd33b85c11790f31743df80850eb58f86e1b524582fccc863f7f4fab4dfc65a22e61255459ff86e5127cb0ee6499bbf889"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(so) \
+RPROVIDES:${PN} += "locale-so \
 sil-abyssinica \
 sil-abyssinica-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -9,12 +9,12 @@ RPM_HASH = "97d0771cd625ba40271ad817338506d39038dd91750d59d4f36e0ea5bec56e4ff3bf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jul-to-slf4j \
-mvn(org.slf4j:jul-to-slf4j) \
-mvn(org.slf4j:jul-to-slf4j:pom:) \
-osgi(jul.to.slf4j)"
+mvn-org.slf4j-jul-to-slf4j \
+mvn-org.slf4j-jul-to-slf4j-pom- \
+osgi-jul.to.slf4j"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.slf4j:slf4j-api)"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

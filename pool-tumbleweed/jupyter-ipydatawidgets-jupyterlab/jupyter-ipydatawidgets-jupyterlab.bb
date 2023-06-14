@@ -12,8 +12,7 @@ RPM_HASH = "5d65350a65022b7fae6b8561d62ad2ecfa1fd5d9b55ffa05184b50084c182e6a2f4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-datawidgets-jupyterlab \
-jupyter-ipydatawidgets-jupyterlab \
-jupyter_ipydatawidgets_jupyterlab"
+jupyter-ipydatawidgets-jupyterlab"
 
 RDEPENDS:${PN} += "jupyter-ipydatawidgets \
 jupyter-jupyterlab"

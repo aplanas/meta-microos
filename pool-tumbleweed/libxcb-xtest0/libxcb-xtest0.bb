@@ -14,13 +14,12 @@ PV = "1.15"
 RPM_NAME = "libxcb-xtest0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "52fadb187150394d83f37cc3229eda15f82660bf25eb205a4f791d26add4ef3eb7027705bd44fcb98c1bf9003199942146a95ef9532891867e473c3c7ad6f7fa"
 
-RPROVIDES:${PN} += "libxcb-xtest.so.0()(64bit) \
-libxcb-xtest0 \
-libxcb-xtest0(aarch-64)"
+RPROVIDES:${PN} += "libxcb-xtest.so.0 \
+libxcb-xtest0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

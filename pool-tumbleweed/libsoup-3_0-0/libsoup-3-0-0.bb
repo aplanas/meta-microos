@@ -18,24 +18,22 @@ RPM_NAME = "libsoup-3_0-0-3.4.2-1.1.aarch64.rpm"
 RPM_HASH = "9e3f92c7af6614962ee393f2559db0a6c8692d32a3f7d80ba5b70055cecff5ff929e0234a7853b7bbf0364118b9f5b4f55f55afc197502438ec512e648aebe19"
 
 RPROVIDES:${PN} += "libsoup \
-libsoup-3.0.so.0()(64bit) \
-libsoup-3_0-0 \
-libsoup-3_0-0(aarch-64)"
+libsoup-3-0-0 \
+libsoup-3.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glib-networking \
-ld-linux-aarch64.so.1()(64bit) \
-libbrotlidec.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libnghttp2.so.14()(64bit) \
-libpsl.so.5()(64bit) \
-libsqlite3.so.0()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbrotlidec.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgssapi-krb5.so.2 \
+libnghttp2.so.14 \
+libpsl.so.5 \
+libsqlite3.so.0 \
+libz.so.1"
 
 inherit rpm

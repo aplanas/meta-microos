@@ -8,9 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-uitools-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "5724a954c3abde58655ed5ef3008a7b6281debfc074a87a816dfb045957a899f212b567c0da37d6bf7bb53f0ce9d62e89b2f9a4c152b7455b4bf46cf94e712fb"
 
-RPROVIDES:${PN} += "qt6-uitools-private-devel \
-qt6-uitools-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-uitools-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6UiTools)"
+RDEPENDS:${PN} += "cmake-Qt6UiTools"
 
 inherit rpm

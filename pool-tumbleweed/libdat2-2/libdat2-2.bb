@@ -13,12 +13,11 @@ RPM_HASH = "e8a5a2c757c04ead76138b1b5a133aab10a677674859719559ae5612c637faf5189f
 
 RPROVIDES:${PN} += "dapl2 \
 libdat2-2 \
-libdat2-2(aarch-64) \
-libdat2.so.2()(64bit)"
+libdat2.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dapl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

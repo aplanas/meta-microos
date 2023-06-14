@@ -9,11 +9,11 @@ RPM_HASH = "1c51cbe108a2951cea5558af3ba07b6727841ea29ecaf866f035dfad1bb832dca97b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-mailman3 \
-python3.10dist(django-mailman3) \
+python3.10dist-django-mailman3 \
 python310-django-mailman3 \
-python3dist(django-mailman3)"
+python3dist-django-mailman3"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-allauth \
 python310-django-gravatar2 \

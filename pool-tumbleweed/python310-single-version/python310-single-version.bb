@@ -9,11 +9,11 @@ RPM_HASH = "c0c67c12fac46588c145ac8d96cb60db659edf45a7619d73ea20fc46f7e825cfc3ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-single-version \
-python3.10dist(single-version) \
+python3.10dist-single-version \
 python310-single-version \
-python3dist(single-version)"
+python3dist-single-version"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-first \
 python310-importlib-metadata"
 

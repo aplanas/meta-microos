@@ -10,14 +10,14 @@ RPM_HASH = "92dff10cca86acb77dfb529156ec821f36d5e978dff0143d90d9226e64f2f9ccbf8f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-pw \
-python3.9dist(git-pw) \
+python3.9dist-git-pw \
 python39-git-pw \
-python3dist(git-pw)"
+python3dist-git-pw"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 git-core \
-python(abi) \
+python-abi \
 python39-arrow \
 python39-click \
 python39-pyaml \

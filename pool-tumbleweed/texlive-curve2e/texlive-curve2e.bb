@@ -14,8 +14,8 @@ RPM_NAME = "texlive-curve2e-2023.204.2.2.22svn65469-54.1.noarch.rpm"
 RPM_HASH = "6b7acf1af019cd91f1f0ed7113975c023b46954cc0c7808468da53130f6b7b212e8664a3cf42719f97bff69557823f025ae2c8716b4dc5e15514710ea24b22bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(curve2e-v161.sty) \
-tex(curve2e.sty) \
+RPROVIDES:${PN} += "tex-curve2e-v161.sty \
+tex-curve2e.sty \
 texlive-curve2e"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,11 +24,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(graphicx.sty) \
-tex(pict2e.sty) \
-tex(xfp.sty) \
-tex(xparse.sty) \
+tex-color.sty \
+tex-graphicx.sty \
+tex-pict2e.sty \
+tex-xfp.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,8 +11,8 @@ RPM_HASH = "85f107a91dc2bef8833e3103c5f9d48d1d3953237266c34a1cd94b1418f57c16f74b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleylm \
-mvn(edu.berkeley.nlp:berkeleylm) \
-mvn(edu.berkeley.nlp:berkeleylm:pom:)"
+mvn-edu.berkeley.nlp-berkeleylm \
+mvn-edu.berkeley.nlp-berkeleylm-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -13,45 +13,44 @@ RPM_HASH = "c879bbe00dc58d6050eae1b99e230a328cabb36b0afceff4e335de79e81b778a573a
 
 RPROVIDES:${PN} += "gail-devel \
 gtk2-devel \
-gtk2-devel(aarch-64) \
 gtk2-doc \
-libferret.so()(64bit) \
-pkgconfig(gail) \
-pkgconfig(gdk-2.0) \
-pkgconfig(gdk-x11-2.0) \
-pkgconfig(gtk+-2.0) \
-pkgconfig(gtk+-unix-print-2.0) \
-pkgconfig(gtk+-x11-2.0) \
-rpm_macro(gtk2_immodule_post) \
-rpm_macro(gtk2_immodule_postun) \
-rpm_macro(gtk2_immodule_requires)"
+libferret.so \
+pkgconfig-gail \
+pkgconfig-gdk-2.0 \
+pkgconfig-gdk-x11-2.0 \
+pkgconfig-gtk+-2.0 \
+pkgconfig-gtk+-unix-print-2.0 \
+pkgconfig-gtk+-x11-2.0 \
+rpm-macro-gtk2-immodule-post \
+rpm-macro-gtk2-immodule-postun \
+rpm-macro-gtk2-immodule-requires"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-2_0-0 \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-pkgconfig(atk) \
-pkgconfig(cairo) \
-pkgconfig(gdk-pixbuf-2.0) \
-pkgconfig(gdk-x11-2.0) \
-pkgconfig(gio-2.0) \
-pkgconfig(gtk+-2.0) \
-pkgconfig(gtk+-x11-2.0) \
-pkgconfig(pango) \
-pkgconfig(pangocairo) \
-pkgconfig(pangoft2) \
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-2-0-0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+pkgconfig-atk \
+pkgconfig-cairo \
+pkgconfig-gdk-pixbuf-2.0 \
+pkgconfig-gdk-x11-2.0 \
+pkgconfig-gio-2.0 \
+pkgconfig-gtk+-2.0 \
+pkgconfig-gtk+-x11-2.0 \
+pkgconfig-pango \
+pkgconfig-pangocairo \
+pkgconfig-pangoft2 \
 python3-xml \
-typelib-1_0-Gtk-2_0"
+typelib-1-0-Gtk-2-0"
 
 inherit rpm

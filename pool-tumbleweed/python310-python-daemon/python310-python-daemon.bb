@@ -14,11 +14,11 @@ RPM_HASH = "03f12005286dd9b611b0ca4a60c5bc7532f7f9629516281b3ac453cf9095cb6ba811
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-daemon \
-python3.10dist(python-daemon) \
+python3.10dist-python-daemon \
 python310-python-daemon \
-python3dist(python-daemon)"
+python3dist-python-daemon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lockfile"
 
 inherit rpm

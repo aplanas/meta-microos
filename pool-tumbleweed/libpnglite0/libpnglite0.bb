@@ -11,12 +11,11 @@ PV = "0.1.17"
 RPM_NAME = "libpnglite0-0.1.17-1.23.aarch64.rpm"
 RPM_HASH = "27bcec14940f68c9826a82c9763a608cb3495c06723c0de9edf5dba694034037a75d9dca885de166e5d8fe2570674ea7fb2a73c80a718132e476eec7765b992d"
 
-RPROVIDES:${PN} += "libpnglite.so.0()(64bit) \
-libpnglite0 \
-libpnglite0(aarch-64)"
+RPROVIDES:${PN} += "libpnglite.so.0 \
+libpnglite0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

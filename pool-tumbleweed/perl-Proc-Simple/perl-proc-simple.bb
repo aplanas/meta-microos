@@ -56,9 +56,9 @@ RPM_NAME = "perl-Proc-Simple-1.32-1.25.noarch.rpm"
 RPM_HASH = "33ba2363a85b76a2777a538de5e12a3b43be253acdded663ac9b3c230d59277817308d02a30fe8ce97a23d0a98723961cbbced1a97ca25d0589333d8f76b923a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Proc::Simple) \
+RPROVIDES:${PN} += "perl-Proc--Simple \
 perl-Proc-Simple"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

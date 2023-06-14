@@ -13,7 +13,7 @@ RPM_NAME = "texlive-match_parens-2023.201.1.43svn36270-52.1.noarch.rpm"
 RPM_HASH = "c9235be6acc5a374b9fd071ee630521e3a0bc73eb2f662849e87e98fb5080c954f5c03d046432a160c3075dde183ac9226eaa92fa6de2b17d751838201670636"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-match_parens"
+RPROVIDES:${PN} += "texlive-match-parens"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby \
@@ -26,7 +26,7 @@ texlive \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-match_parens-bin \
+texlive-match-parens-bin \
 texlive-scripts \
 texlive-scripts-bin"
 

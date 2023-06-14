@@ -10,9 +10,9 @@ RPM_NAME = "perl-HTTP-MultiPartParser-0.02-1.14.noarch.rpm"
 RPM_HASH = "d8682c57fd154896ca62fa356c2c537422ef27b516f44060ac397e35427e390aabd459611bd637a766008dc8d4104bc3aac2259dfca147a24ed53b3169b6756a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::MultiPartParser) \
+RPROVIDES:${PN} += "perl-HTTP--MultiPartParser \
 perl-HTTP-MultiPartParser"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

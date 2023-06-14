@@ -11,7 +11,7 @@ RPM_NAME = "texlive-uri-2023.201.2.0bsvn48602-53.1.noarch.rpm"
 RPM_HASH = "ce527bf69e656814a44e2a1c092551ed06fcffa29705f302053a2a534a7dabeb5433a317d0a5f9052fdef7a966e92fcef931e258c7866932189dd3c63bb8a17d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(uri.sty) \
+RPROVIDES:${PN} += "tex-uri.sty \
 texlive-uri"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
-tex(url.sty) \
+tex-kvoptions.sty \
+tex-url.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

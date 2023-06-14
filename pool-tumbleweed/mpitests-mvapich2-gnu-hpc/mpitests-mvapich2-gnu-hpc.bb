@@ -7,15 +7,14 @@ PV = "3.2"
 RPM_NAME = "mpitests-mvapich2-gnu-hpc-3.2-11.3.aarch64.rpm"
 RPM_HASH = "b92de52b0b1b8303a97bda6ee447035f0bf513d7d05974599befbe4b8614169bbdb3fcc0ba9bfeed99eee2c07e44d7fe59c915633fa6b4e015ae861663fc0416"
 
-RPROVIDES:${PN} += "mpitests-mvapich2-gnu-hpc \
-mpitests-mvapich2-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "mpitests-mvapich2-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpi.so.12()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpi.so.12 \
+libstdc++.so.6 \
 mpitests \
 mvapich2-gnu-hpc"
 

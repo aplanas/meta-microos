@@ -16,27 +16,26 @@ RPM_NAME = "Mesa-libEGL1-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "dec0d864cc7ec6ce8b506f866f2084c4ca3d68676ab27393fb0c5bc70f23d2ecac52626b5aadd5d848449d2e245d189e7a82df4b5843253f4b1909b49d03e865"
 
 RPROVIDES:${PN} += "Mesa-libEGL1 \
-Mesa-libEGL1(aarch-64) \
-libEGL_mesa.so.0()(64bit)"
+libEGL-mesa.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11-xcb.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdrm.so.2()(64bit) \
-libgbm.so.1()(64bit) \
-libglapi.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11-xcb.so.1 \
+libc.so.6 \
+libdrm.so.2 \
+libgbm.so.1 \
+libglapi.so.0 \
 libglvnd \
-libm.so.6()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-server.so.0()(64bit) \
-libxcb-dri2.so.0()(64bit) \
-libxcb-dri3.so.0()(64bit) \
-libxcb-present.so.0()(64bit) \
-libxcb-randr.so.0()(64bit) \
-libxcb-sync.so.1()(64bit) \
-libxcb-xfixes.so.0()(64bit) \
-libxcb.so.1()(64bit) \
-libxshmfence.so.1()(64bit)"
+libm.so.6 \
+libwayland-client.so.0 \
+libwayland-server.so.0 \
+libxcb-dri2.so.0 \
+libxcb-dri3.so.0 \
+libxcb-present.so.0 \
+libxcb-randr.so.0 \
+libxcb-sync.so.1 \
+libxcb-xfixes.so.0 \
+libxcb.so.1 \
+libxshmfence.so.1"
 
 inherit rpm

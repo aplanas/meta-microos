@@ -15,7 +15,7 @@ RPM_NAME = "texlive-jmb-2023.201.1.21svn52718-55.1.noarch.rpm"
 RPM_HASH = "5dc802bf0c9f5ebd0d502f086842f8b2b949204faad9b6434653e321861c7475fed70e2765b1b0ad52adb938a0ce453f7126f303b54faa807bd13e20292afcdc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(jmb.sty) \
+RPROVIDES:${PN} += "tex-jmb.sty \
 texlive-jmb"
 
 RDEPENDS:${PN} += "/bin/sh \

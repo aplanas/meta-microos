@@ -9,7 +9,7 @@ RPM_NAME = "texlive-ehhline-2023.201.1.1svn54676-53.1.noarch.rpm"
 RPM_HASH = "c386d9c53a6f9f15c71dea29b26bc983647224899e4e2416d1937efbb49ee4886a0fdc9b347ab8c17fa2797fcee924930964b286f22732cf9597073e099c6207"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ehhline.sty) \
+RPROVIDES:${PN} += "tex-ehhline.sty \
 texlive-ehhline"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,8 +18,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(hhline.sty) \
+tex-etoolbox.sty \
+tex-hhline.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

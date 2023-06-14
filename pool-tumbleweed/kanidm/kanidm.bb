@@ -8,8 +8,7 @@ PV = "1.1.0~alpha12~git0.bcdbb18"
 RPM_NAME = "kanidm-1.1.0~alpha12~git0.bcdbb18-1.1.aarch64.rpm"
 RPM_HASH = "adf71370fd6a9b8f81cdf16f27f4eb893a7e4e81d4f7ed9c78f0b3127ab53b91d08af13785e9553047ab235301bb051c08a90246361d148c9c7b3f176c12adc2"
 
-RPROVIDES:${PN} += "kanidm \
-kanidm(aarch-64)"
+RPROVIDES:${PN} += "kanidm"
 
 RDEPENDS:${PN} += "kanidm-clients \
 kanidm-unixd-clients"

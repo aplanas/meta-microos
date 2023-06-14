@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-caca"
 
 RDEPENDS:${PN} += "libcaca \
-python(abi)"
+python-abi"
 
 inherit rpm

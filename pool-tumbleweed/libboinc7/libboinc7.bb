@@ -8,16 +8,15 @@ PV = "7.22.2"
 RPM_NAME = "libboinc7-7.22.2-1.1.aarch64.rpm"
 RPM_HASH = "d0ee0c1d88a98fcd3184101d65937a7c6e7afd0df2704b955176bdcfeef36fcc50d1067f083c6fb0ac914547724dbb74d0f63297b96b089a9c2a941477d0163c"
 
-RPROVIDES:${PN} += "libboinc.so.7()(64bit) \
-libboinc7 \
-libboinc7(aarch-64) \
-libboinc_crypt.so.7()(64bit)"
+RPROVIDES:${PN} += "libboinc-crypt.so.7 \
+libboinc.so.7 \
+libboinc7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

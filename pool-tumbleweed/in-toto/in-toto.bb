@@ -9,11 +9,11 @@ RPM_HASH = "8342816e2a0c74d5fd654ec51d90e60de50dd7bb084860f8f61263cd638063c0ce04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "in-toto \
-python3.10dist(in-toto) \
-python3dist(in-toto)"
+python3.10dist-in-toto \
+python3dist-in-toto"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-attrs \
 python3-iso8601 \
 python3-pathspec \

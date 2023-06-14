@@ -14,13 +14,13 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-compress \
 commons-compress \
 jakarta-commons-compress \
-mvn(commons-compress:commons-compress) \
-mvn(commons-compress:commons-compress:pom:) \
-mvn(commons:commons-compress) \
-mvn(commons:commons-compress:pom:) \
-mvn(org.apache.commons:commons-compress) \
-mvn(org.apache.commons:commons-compress:pom:) \
-osgi(org.apache.commons.compress)"
+mvn-commons-commons-compress \
+mvn-commons-commons-compress-pom- \
+mvn-commons-compress-commons-compress \
+mvn-commons-compress-commons-compress-pom- \
+mvn-org.apache.commons-commons-compress \
+mvn-org.apache.commons-commons-compress-pom- \
+osgi-org.apache.commons.compress"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

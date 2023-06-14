@@ -26,11 +26,11 @@ RPM_NAME = "python39-django-pglocks-1.0.4-1.13.noarch.rpm"
 RPM_HASH = "a6600d7448a40d4a94fc96bc32682b3f4496b000cc7de71c2445e0332d4023dd38a4ceaf1942697dddd9572300f1fea5daa6137908b84bad11ed0ac91d4a2f29"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(django-pglocks) \
+RPROVIDES:${PN} += "python3.9dist-django-pglocks \
 python39-django-pglocks \
-python3dist(django-pglocks)"
+python3dist-django-pglocks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Django \
 python39-psycopg2"
 

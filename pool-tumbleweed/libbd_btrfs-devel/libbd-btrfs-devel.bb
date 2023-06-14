@@ -8,12 +8,11 @@ PV = "2.28"
 RPM_NAME = "libbd_btrfs-devel-2.28-1.4.aarch64.rpm"
 RPM_HASH = "3e1dc724a6e564e97b9bd05f6e7e62da636c42e90523fd07c12a8cc3f53771f005b1534e67073855896ff2bc20e6876ece1e48ac93df966901f3e547dac36315"
 
-RPROVIDES:${PN} += "libbd_btrfs-devel \
-libbd_btrfs-devel(aarch-64) \
+RPROVIDES:${PN} += "libbd-btrfs-devel \
 libblockdev-btrfs-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd_btrfs2 \
-libbd_utils-devel"
+libbd-btrfs2 \
+libbd-utils-devel"
 
 inherit rpm

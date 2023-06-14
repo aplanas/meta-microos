@@ -9,11 +9,11 @@ RPM_HASH = "259b88bacbd11d4349a7085f0d58256f049fa51d925c8f8c27f5a99900a97765ce08
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-seed \
-python3.10dist(django-seed) \
+python3.10dist-django-seed \
 python310-django-seed \
-python3dist(django-seed)"
+python3dist-django-seed"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Faker"
 

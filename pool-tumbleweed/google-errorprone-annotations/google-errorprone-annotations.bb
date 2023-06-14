@@ -12,8 +12,8 @@ RPM_HASH = "7af846a96cfad5c99e7cc84e94ab97ea35ad5d3411e41de80c85e5dbd8e1577bd3d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-errorprone-annotations \
-mvn(com.google.errorprone:error_prone_annotations) \
-mvn(com.google.errorprone:error_prone_annotations:pom:)"
+mvn-com.google.errorprone-error-prone-annotations \
+mvn-com.google.errorprone-error-prone-annotations-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

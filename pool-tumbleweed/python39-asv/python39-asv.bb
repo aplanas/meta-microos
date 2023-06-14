@@ -13,18 +13,17 @@ PV = "0.5.1"
 RPM_NAME = "python39-asv-0.5.1-1.5.aarch64.rpm"
 RPM_HASH = "44438c5c5104229e959c1461661e66a4a2961520f23512aa6515a4d3a6113b7391c96af785bce5b1cad4cc974147c633403492193949049de625c26f9b5c86bb"
 
-RPROVIDES:${PN} += "python3.9dist(asv) \
+RPROVIDES:${PN} += "python3.9dist-asv \
 python39-asv \
-python39-asv(aarch-64) \
-python3dist(asv)"
+python3dist-asv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python39-six \
 update-alternatives"
 

@@ -21,23 +21,23 @@ RPM_NAME = "perl-XML-Twig-3.52-2.13.noarch.rpm"
 RPM_HASH = "d8fa09529e8efc8e3fd44013da02b84e04fe850f7cc45602b72ea00d9df11bfe38d4a402bc20dc0184eb67ac2946ff20cb0e243bb026963d4b47036bbe88a533"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Twig) \
-perl(XML::Twig::Elt) \
-perl(XML::Twig::Entity) \
-perl(XML::Twig::Entity_list) \
-perl(XML::Twig::Notation) \
-perl(XML::Twig::Notation_list) \
-perl(XML::Twig::XPath) \
-perl(XML::Twig::XPath::Attribute) \
-perl(XML::Twig::XPath::Elt) \
-perl(XML::Twig::XPath::Namespace) \
+RPROVIDES:${PN} += "perl-XML--Twig \
+perl-XML--Twig--Elt \
+perl-XML--Twig--Entity \
+perl-XML--Twig--Entity-list \
+perl-XML--Twig--Notation \
+perl-XML--Twig--Notation-list \
+perl-XML--Twig--XPath \
+perl-XML--Twig--XPath--Attribute \
+perl-XML--Twig--XPath--Elt \
+perl-XML--Twig--XPath--Namespace \
 perl-XML-Twig"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 expat \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Encode) \
-perl(XML::Parser) \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Encode \
+perl-XML--Parser \
 perl-XML-Parser"
 
 inherit rpm

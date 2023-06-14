@@ -19,9 +19,9 @@ RPM_NAME = "perl-Text-Roman-3.5-1.24.noarch.rpm"
 RPM_HASH = "092ca31f7ba0f0ed67f8dcbf552c60a8cd345fa83774cf3641308cd4b4f7b364e8a6c9c6c1468742eff36698d22b00bac18aa751d71fe09e6264e3e93d302273"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Roman) \
+RPROVIDES:${PN} += "perl-Text--Roman \
 perl-Text-Roman"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

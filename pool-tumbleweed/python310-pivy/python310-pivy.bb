@@ -19,18 +19,17 @@ RPM_NAME = "python310-pivy-0.6.8-1.4.aarch64.rpm"
 RPM_HASH = "6669dabe4374d4c214cf29b182dc0cae20c61188883982480fc61a028c8735711c34b59004620e3fd83bb6806c3d647e283c53aab915fe66ddaf31bf37895f45"
 
 RPROVIDES:${PN} += "python3-pivy \
-python3.10dist(pivy) \
+python3.10dist-pivy \
 python310-pivy \
-python310-pivy(aarch-64) \
-python3dist(pivy)"
+python3dist-pivy"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libCoin.so.80()(64bit) \
-libSoQt.so.20()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libCoin.so.80 \
+libSoQt.so.20 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

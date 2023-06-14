@@ -9,9 +9,9 @@ RPM_NAME = "texlive-tufte-latex-2023.201.3.5.2svn37649-52.1.noarch.rpm"
 RPM_HASH = "57756316694d3e15a666e2907fdd4b7e27b12e1cece5016ef98da5154c299ef2353c4ebb01239894326dbf848897e3873de34a7890148229811fa5cad910523c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tufte-book.cls) \
-tex(tufte-common.def) \
-tex(tufte-handout.cls) \
+RPROVIDES:${PN} += "tex-tufte-book.cls \
+tex-tufte-common.def \
+tex-tufte-handout.cls \
 texlive-tufte-latex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,39 +20,39 @@ ed \
 findutils \
 grep \
 sed \
-tex(beramono.sty) \
-tex(bibentry.sty) \
-tex(bidi.sty) \
-tex(changepage.sty) \
-tex(chngpage.sty) \
-tex(fancyhdr.sty) \
-tex(fontenc.sty) \
-tex(fontspec.sty) \
-tex(geometry.sty) \
-tex(hardwrap.sty) \
-tex(helvet.sty) \
-tex(hyperref.sty) \
-tex(ifluatex.sty) \
-tex(ifpdf.sty) \
-tex(ifxetex.sty) \
-tex(letterspace.sty) \
-tex(mathpazo.sty) \
-tex(multicol.sty) \
-tex(natbib.sty) \
-tex(optparams.sty) \
-tex(paralist.sty) \
-tex(placeins.sty) \
-tex(ragged2e.sty) \
-tex(setspace.sty) \
-tex(soul.sty) \
-tex(textcase.sty) \
-tex(textcomp.sty) \
-tex(titlesec.sty) \
-tex(titletoc.sty) \
-tex(xcolor.sty) \
-tex(xifthen.sty) \
-tex(xkeyval.sty) \
-tex(xltxtra.sty) \
+tex-beramono.sty \
+tex-bibentry.sty \
+tex-bidi.sty \
+tex-changepage.sty \
+tex-chngpage.sty \
+tex-fancyhdr.sty \
+tex-fontenc.sty \
+tex-fontspec.sty \
+tex-geometry.sty \
+tex-hardwrap.sty \
+tex-helvet.sty \
+tex-hyperref.sty \
+tex-ifluatex.sty \
+tex-ifpdf.sty \
+tex-ifxetex.sty \
+tex-letterspace.sty \
+tex-mathpazo.sty \
+tex-multicol.sty \
+tex-natbib.sty \
+tex-optparams.sty \
+tex-paralist.sty \
+tex-placeins.sty \
+tex-ragged2e.sty \
+tex-setspace.sty \
+tex-soul.sty \
+tex-textcase.sty \
+tex-textcomp.sty \
+tex-titlesec.sty \
+tex-titletoc.sty \
+tex-xcolor.sty \
+tex-xifthen.sty \
+tex-xkeyval.sty \
+tex-xltxtra.sty \
 texlive \
 texlive-changepage \
 texlive-filesystem \

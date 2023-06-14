@@ -9,11 +9,10 @@ PV = "1.0.9"
 RPM_NAME = "iceauth-1.0.9-1.6.aarch64.rpm"
 RPM_HASH = "6cb7d3ca040e50bc060a5269d25295fd58cd2a22a432cfb1f34d8ee83a831007722df635fbbc57c2025cdcd9fd8ad192d47035df1e96b3e9aac06323d42ddff6"
 
-RPROVIDES:${PN} += "iceauth \
-iceauth(aarch-64)"
+RPROVIDES:${PN} += "iceauth"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libc.so.6"
 
 inherit rpm

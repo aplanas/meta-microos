@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "obs-service-appimage"
 
 RDEPENDS:${PN} += "git-core \
-obs-service-obs_scm-common"
+obs-service-obs-scm-common"
 
 inherit rpm

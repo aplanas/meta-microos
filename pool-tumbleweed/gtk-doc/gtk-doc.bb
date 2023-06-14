@@ -12,15 +12,14 @@ RPM_NAME = "gtk-doc-1.33.2-1.5.aarch64.rpm"
 RPM_HASH = "439efadb108dcded226e483735418e9599258d10643db93db4107fcf4c7c121050c360c294d48dc2749c5f579484898c021609689697978205153b41a1d406fb"
 
 RPROVIDES:${PN} += "gtk-doc \
-gtk-doc(aarch-64) \
 gtkdoc \
-pkgconfig(gtk-doc)"
+pkgconfig-gtk-doc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \
+docbook-4 \
 docbook-xsl-stylesheets \
-docbook_4 \
 glib2-devel \
 libxml2-tools \
 python3-pygments \

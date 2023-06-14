@@ -15,13 +15,13 @@ RPM_HASH = "f7c17d69a7fd8c81468453906eaee387168710ee26637cc7e7f1d70a3499b098bda8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "b4 \
-python3.10dist(b4) \
-python3dist(b4)"
+python3.10dist-b4 \
+python3dist-b4"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
 git-filter-repo \
-python(abi) \
+python-abi \
 python3-dkimpy \
 python3-dnspython \
 python3-patatt \

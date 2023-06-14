@@ -9,11 +9,11 @@ RPM_HASH = "f96ddd6130f8bafab67a642ad54a63d96b30907e921c66a7d98cf8f39a5af4b6b6cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-weblate-schemas \
-python3.10dist(weblate-schemas) \
+python3.10dist-weblate-schemas \
 python310-weblate-schemas \
-python3dist(weblate-schemas)"
+python3dist-weblate-schemas"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jsonschema"
 
 inherit rpm

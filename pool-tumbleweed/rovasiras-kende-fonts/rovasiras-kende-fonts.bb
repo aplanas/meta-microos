@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "rovasiras-kende-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

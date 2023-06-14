@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libepc-lang \
 libepc-lang-all \
-locale(libepc:ar) \
-locale(libepc:bs) \
-locale(libepc:ca) \
-locale(libepc:cs) \
-locale(libepc:da) \
-locale(libepc:de) \
-locale(libepc:el) \
-locale(libepc:en_GB) \
-locale(libepc:es) \
-locale(libepc:fi) \
-locale(libepc:fr) \
-locale(libepc:gl) \
-locale(libepc:hu) \
-locale(libepc:id) \
-locale(libepc:it) \
-locale(libepc:ja) \
-locale(libepc:lv) \
-locale(libepc:nb) \
-locale(libepc:oc) \
-locale(libepc:pl) \
-locale(libepc:pt) \
-locale(libepc:pt_BR) \
-locale(libepc:ro) \
-locale(libepc:ru) \
-locale(libepc:sl) \
-locale(libepc:sr) \
-locale(libepc:sr@latin) \
-locale(libepc:sv) \
-locale(libepc:th) \
-locale(libepc:zh_CN)"
+locale-libepc-ar \
+locale-libepc-bs \
+locale-libepc-ca \
+locale-libepc-cs \
+locale-libepc-da \
+locale-libepc-de \
+locale-libepc-el \
+locale-libepc-en-GB \
+locale-libepc-es \
+locale-libepc-fi \
+locale-libepc-fr \
+locale-libepc-gl \
+locale-libepc-hu \
+locale-libepc-id \
+locale-libepc-it \
+locale-libepc-ja \
+locale-libepc-lv \
+locale-libepc-nb \
+locale-libepc-oc \
+locale-libepc-pl \
+locale-libepc-pt \
+locale-libepc-pt-BR \
+locale-libepc-ro \
+locale-libepc-ru \
+locale-libepc-sl \
+locale-libepc-sr \
+locale-libepc-sr@latin \
+locale-libepc-sv \
+locale-libepc-th \
+locale-libepc-zh-CN"
 
 RDEPENDS:${PN} += "libepc"
 

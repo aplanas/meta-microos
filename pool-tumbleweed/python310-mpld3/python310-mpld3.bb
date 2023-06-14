@@ -15,11 +15,11 @@ RPM_HASH = "8c59be6b8cafff57e344c75e2c71b9e537f462e75127496d674af9ec45b4eaa065e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mpld3 \
-python3.10dist(mpld3) \
+python3.10dist-mpld3 \
 python310-mpld3 \
-python3dist(mpld3)"
+python3dist-mpld3"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-matplotlib"
 

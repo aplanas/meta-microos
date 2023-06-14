@@ -10,9 +10,7 @@ RPM_NAME = "tlp-1.5.0-1.3.noarch.rpm"
 RPM_HASH = "669aa7f712b0c32c5b718a9c289d98b19fd73764d859be14694c4c280af8a7fb3bc2f84cca3b40db513926720eee64f1ed4919e5f087010805593fda6be468c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(tlp) \
-metainfo() \
-metainfo(de.linrunner.tlp.metainfo.xml) \
+RPROVIDES:${PN} += "config-tlp \
 tlp"
 
 RDEPENDS:${PN} += "/bin/sh \

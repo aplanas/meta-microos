@@ -9,10 +9,10 @@ RPM_NAME = "perl-Test-Pod-1.52-1.17.noarch.rpm"
 RPM_HASH = "3d1fdcf9e06471a00f2ed40b25342dabf43947f4a1f25bdff636bc51e2ba86540c4f6283fbbceffd2eee46908b694a3cff39c045265ab6566720d70459cd05b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Pod) \
+RPROVIDES:${PN} += "perl-Test--Pod \
 perl-Test-Pod"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Pod::Simple)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Pod--Simple"
 
 inherit rpm

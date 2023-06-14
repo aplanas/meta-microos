@@ -20,24 +20,23 @@ PV = "4.1.4"
 RPM_NAME = "openmpi_4_1_4-gnu-hpc-devel-4.1.4-2.2.aarch64.rpm"
 RPM_HASH = "740aa52a7fd9949ba51bcd5c7faa55ba6b0857a2593a62aa54a06c58fbbe42e564938fdc718537668903c31797914582583b3b6d8e6bcc6bad1f7ab53731e03e"
 
-RPROVIDES:${PN} += "openmpi_4_1_4-gnu-hpc-devel \
-openmpi_4_1_4-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi-4-1-4-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libfabric.so.1()(64bit) \
-libhwloc.so.15()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libfabric.so.1 \
+libhwloc.so.15 \
 libibumad-devel \
 libibverbs-devel \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpmix.so.2()(64bit) \
-librdmacm.so.1()(64bit) \
-libucp.so.0()(64bit) \
-libucs.so.0()(64bit) \
-libz.so.1()(64bit) \
-openmpi_4_1_4-gnu-hpc"
+libibverbs.so.1 \
+libm.so.6 \
+libpmix.so.2 \
+librdmacm.so.1 \
+libucp.so.0 \
+libucs.so.0 \
+libz.so.1 \
+openmpi-4-1-4-gnu-hpc"
 
 inherit rpm

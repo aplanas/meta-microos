@@ -15,10 +15,10 @@ RPM_HASH = "09d267c9d449f48c13bd1c111bf56f78ca7607e483906b0fffc2d943a0da418b7635
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ftputil \
-python3.10dist(ftputil) \
+python3.10dist-ftputil \
 python310-ftputil \
-python3dist(ftputil)"
+python3dist-ftputil"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

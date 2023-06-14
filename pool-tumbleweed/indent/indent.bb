@@ -10,10 +10,9 @@ PV = "2.2.13"
 RPM_NAME = "indent-2.2.13-1.1.aarch64.rpm"
 RPM_HASH = "26247ec1e5bd7e8b450805ccfdb9362c9dd8fdf916983f60f42a177c89ed84b7d8b3da808dfb3e480e64050970bc6f578261c3ce37c54ecce5ec831d3b027d42"
 
-RPROVIDES:${PN} += "indent \
-indent(aarch-64)"
+RPROVIDES:${PN} += "indent"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

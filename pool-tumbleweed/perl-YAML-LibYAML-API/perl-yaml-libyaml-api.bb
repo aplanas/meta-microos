@@ -19,14 +19,13 @@ PV = "0.013"
 RPM_NAME = "perl-YAML-LibYAML-API-0.013-1.8.aarch64.rpm"
 RPM_HASH = "4996d4739e24ac1b2f6f4bc0b5fb810e339457e1ee57a82a3d635793bb25de9076a6e403f528c6b5e939d8e6f510620d7df4c51b78db234484ac3d7a116d4785"
 
-RPROVIDES:${PN} += "perl(YAML::LibYAML::API) \
-perl(YAML::LibYAML::API::XS) \
-perl-YAML-LibYAML-API \
-perl-YAML-LibYAML-API(aarch-64)"
+RPROVIDES:${PN} += "perl-YAML--LibYAML--API \
+perl-YAML--LibYAML--API--XS \
+perl-YAML-LibYAML-API"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(YAML::PP::Common)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-YAML--PP--Common"
 
 inherit rpm

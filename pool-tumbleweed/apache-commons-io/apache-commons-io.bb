@@ -13,11 +13,11 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-io \
 commons-io \
 jakarta-commons-io \
-mvn(commons-io:commons-io) \
-mvn(commons-io:commons-io:pom:) \
-mvn(org.apache.commons:commons-io) \
-mvn(org.apache.commons:commons-io:pom:) \
-osgi(org.apache.commons.io)"
+mvn-commons-io-commons-io \
+mvn-commons-io-commons-io-pom- \
+mvn-org.apache.commons-commons-io \
+mvn-org.apache.commons-commons-io-pom- \
+osgi-org.apache.commons.io"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

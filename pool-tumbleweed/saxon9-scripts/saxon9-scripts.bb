@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "saxon9-scripts"
 
 RDEPENDS:${PN} += "/bin/sh \
-jaxp_parser_impl \
+jaxp-parser-impl \
 saxon9 \
 xml-commons-apis"
 

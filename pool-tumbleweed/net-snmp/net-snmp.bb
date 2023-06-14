@@ -20,26 +20,25 @@ PV = "5.9.3"
 RPM_NAME = "net-snmp-5.9.3-4.6.aarch64.rpm"
 RPM_HASH = "effa79a9166a905795448c9910483fa7c978d26a6a0772d77d40f4899bd0e5df3512e747757e1505bdbfe0994298985cac00717e361cb78ea43f0711cecf5197"
 
-RPROVIDES:${PN} += "config(net-snmp) \
-net-snmp \
-net-snmp(aarch-64)"
+RPROVIDES:${PN} += "config-net-snmp \
+net-snmp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libnetsnmp.so.40()(64bit) \
-libnetsnmpagent.so.40()(64bit) \
-libnetsnmpmibs.so.40()(64bit) \
-libnetsnmptrapd.so.40()(64bit) \
-libtinfo.so.6()(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libncurses.so.6 \
+libnetsnmp.so.40 \
+libnetsnmpagent.so.40 \
+libnetsnmpmibs.so.40 \
+libnetsnmptrapd.so.40 \
+libtinfo.so.6 \
+libwrap.so.0 \
 logrotate \
 perl-SNMP \
 perl-TermReadKey \

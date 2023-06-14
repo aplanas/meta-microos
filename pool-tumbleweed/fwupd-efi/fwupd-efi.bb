@@ -12,8 +12,7 @@ PV = "1.3"
 RPM_NAME = "fwupd-efi-1.3-1.1.aarch64.rpm"
 RPM_HASH = "e3d437c876e0351b91395ef5e9d5eba5a8f36e79a3e008a01939ea73e05d304d5610a30958520cf1a11c5a18ef91f53126f9e9f3c48ea34230f6d9dbc56ef9bc"
 
-RPROVIDES:${PN} += "fwupd-efi \
-fwupd-efi(aarch-64)"
+RPROVIDES:${PN} += "fwupd-efi"
 
 RDEPENDS:${PN} += "/bin/sh \
 shim"

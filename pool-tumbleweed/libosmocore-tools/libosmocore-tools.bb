@@ -13,14 +13,13 @@ RPM_NAME = "libosmocore-tools-1.8.0-1.1.aarch64.rpm"
 RPM_HASH = "f6eb76c0b266489a97fa4a493e6e088b499c14d707fc079d054ddf23c379b2463146d54a9946405823472c1b9152d8292020702bbb165fb4e3114bab8abcb98f"
 
 RPROVIDES:${PN} += "libosmocore-tools \
-libosmocore-tools(aarch-64) \
 libosmocore-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmogsm.so.18()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmocore.so.20 \
+libosmogsm.so.18 \
+libtalloc.so.2"
 
 inherit rpm

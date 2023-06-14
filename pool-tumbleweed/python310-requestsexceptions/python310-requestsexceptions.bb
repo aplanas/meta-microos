@@ -14,10 +14,10 @@ RPM_HASH = "d90cc2ba5c76516315ea66b040bc858543c094c89cb44cc14e0fb4717877c51cce57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requestsexceptions \
-python3.10dist(requestsexceptions) \
+python3.10dist-requestsexceptions \
 python310-requestsexceptions \
-python3dist(requestsexceptions)"
+python3dist-requestsexceptions"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

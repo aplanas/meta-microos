@@ -10,13 +10,13 @@ RPM_HASH = "577610fd1ea6acd84056ec839896c6fc50392df03283f632be8751a6a5979a7dc4e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jedihttp \
-python3.10dist(jedihttp) \
+python3.10dist-jedihttp \
 python310-jedihttp \
-python3dist(jedihttp)"
+python3dist-jedihttp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-bottle \
 python310-jedi \
 python310-waitress \

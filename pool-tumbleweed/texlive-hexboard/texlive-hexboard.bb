@@ -11,7 +11,7 @@ RPM_NAME = "texlive-hexboard-2023.201.1.0svn62102-53.1.noarch.rpm"
 RPM_HASH = "2f5a760ffd17279667de259fc016592d9960a17b5d335ccaed6b032238692f50fa5dbfceea4ea7c27070c40dac22a245ab07e6a776f08945f2b2981f48f9a371"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hexboard.sty) \
+RPROVIDES:${PN} += "tex-hexboard.sty \
 texlive-hexboard"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
-tex(xstring.sty) \
+tex-tikz.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

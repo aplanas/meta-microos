@@ -9,13 +9,13 @@ RPM_HASH = "debbc82eb2352aaee5e828db7309d64575b2e026a7d2c5d47514f388f3a1c255bcaa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-version-maven-plugin \
-mvn(org.eclipse.jetty.toolchain:jetty-version-maven-plugin) \
-mvn(org.eclipse.jetty.toolchain:jetty-version-maven-plugin:pom:)"
+mvn-org.eclipse.jetty.toolchain-jetty-version-maven-plugin \
+mvn-org.eclipse.jetty.toolchain-jetty-version-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.commons:commons-lang3) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-project)"
+mvn-org.apache.commons-commons-lang3 \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-project"
 
 inherit rpm

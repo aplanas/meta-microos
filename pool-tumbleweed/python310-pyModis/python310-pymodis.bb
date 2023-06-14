@@ -14,13 +14,13 @@ RPM_HASH = "e6b441138ede6d8f3f67594152b3d80d7610f1ff1b81073e30300e104b4ecce8e837
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyModis \
-python3.10dist(pymodis) \
+python3.10dist-pymodis \
 python310-pyModis \
-python3dist(pymodis)"
+python3dist-pymodis"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

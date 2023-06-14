@@ -11,12 +11,10 @@ RPM_HASH = "5384d8067d9eb52b935629cf4b5800e69691657fead27d835c8bcb6ce1326b72acc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "SourceCodePro-fonts \
-adobe-sourcecodepro-fonts \
-metainfo() \
-metainfo(adobe-sourcecodepro-fonts.metainfo.xml)"
+adobe-sourcecodepro-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

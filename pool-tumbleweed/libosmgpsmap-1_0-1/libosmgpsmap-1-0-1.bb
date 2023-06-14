@@ -12,20 +12,19 @@ PV = "1.2.0"
 RPM_NAME = "libosmgpsmap-1_0-1-1.2.0-1.7.aarch64.rpm"
 RPM_HASH = "6a46b43f7190af2cf67cb9f7d7deab6ab0824ea4a041e2954d7b0727e32aa96c9a43c6687da075fe883131a6e0c7b1408d0d5a3697b31f3cbcafd7fe85ac6a65"
 
-RPROVIDES:${PN} += "libosmgpsmap-1.0.so.1()(64bit) \
-libosmgpsmap-1_0-1 \
-libosmgpsmap-1_0-1(aarch-64)"
+RPROVIDES:${PN} += "libosmgpsmap-1-0-1 \
+libosmgpsmap-1.0.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libsoup-2.4.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libsoup-2.4.so.1"
 
 inherit rpm

@@ -13,10 +13,9 @@ PV = "20190702"
 RPM_NAME = "argon2-20190702-2.6.aarch64.rpm"
 RPM_HASH = "c738871520a89bc507d6d09371773ab5eda5474dfb6bff8143b3b165bc3d755bf31c3067359c870a6de5aa1d5a3e15182b2b61086bba7f467bf0c50b6d911bd9"
 
-RPROVIDES:${PN} += "argon2 \
-argon2(aarch-64)"
+RPROVIDES:${PN} += "argon2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

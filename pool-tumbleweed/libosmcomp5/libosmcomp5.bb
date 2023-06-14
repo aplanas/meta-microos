@@ -7,12 +7,11 @@ PV = "3.3.24"
 RPM_NAME = "libosmcomp5-3.3.24-3.7.aarch64.rpm"
 RPM_HASH = "9c02b425de61a08a78719e57032b16fac0f72949e59b9ef30eaf7df6815458f7ffe10608a96e37e87f2617ae7dfd6275361101c8c71f4efb4742e734fd4cd307"
 
-RPROVIDES:${PN} += "libosmcomp.so.5()(64bit) \
-libosmcomp5 \
-libosmcomp5(aarch-64)"
+RPROVIDES:${PN} += "libosmcomp.so.5 \
+libosmcomp5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

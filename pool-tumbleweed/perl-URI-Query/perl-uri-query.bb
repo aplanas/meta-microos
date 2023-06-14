@@ -14,12 +14,12 @@ RPM_NAME = "perl-URI-Query-0.16-1.10.noarch.rpm"
 RPM_HASH = "3eb2a0756b131ea0c06803e1e7e2227ba3084efffce5c0dfca19d77b6032950f028862e7acc43dbffc125e4861018bd16ceddb7308b049229a877961a83a0ea2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(URI::Query) \
+RPROVIDES:${PN} += "perl-URI--Query \
 perl-URI-Query"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Clone) \
-perl(URI::Escape) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Clone \
+perl-URI--Escape \
+perl-parent"
 
 inherit rpm

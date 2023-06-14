@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami-gallery-lang \
 kirigami-gallery-lang-all \
-locale(kirigami-gallery:ca) \
-locale(kirigami-gallery:ca@valencia) \
-locale(kirigami-gallery:cs) \
-locale(kirigami-gallery:da) \
-locale(kirigami-gallery:de) \
-locale(kirigami-gallery:el) \
-locale(kirigami-gallery:en_GB) \
-locale(kirigami-gallery:es) \
-locale(kirigami-gallery:et) \
-locale(kirigami-gallery:eu) \
-locale(kirigami-gallery:fi) \
-locale(kirigami-gallery:fr) \
-locale(kirigami-gallery:gl) \
-locale(kirigami-gallery:it) \
-locale(kirigami-gallery:ja) \
-locale(kirigami-gallery:ka) \
-locale(kirigami-gallery:ko) \
-locale(kirigami-gallery:lt) \
-locale(kirigami-gallery:nl) \
-locale(kirigami-gallery:nn) \
-locale(kirigami-gallery:pa) \
-locale(kirigami-gallery:pl) \
-locale(kirigami-gallery:pt) \
-locale(kirigami-gallery:pt_BR) \
-locale(kirigami-gallery:ro) \
-locale(kirigami-gallery:ru) \
-locale(kirigami-gallery:sk) \
-locale(kirigami-gallery:sl) \
-locale(kirigami-gallery:sv) \
-locale(kirigami-gallery:tr) \
-locale(kirigami-gallery:uk) \
-locale(kirigami-gallery:zh_CN) \
-locale(kirigami-gallery:zh_TW)"
+locale-kirigami-gallery-ca \
+locale-kirigami-gallery-ca@valencia \
+locale-kirigami-gallery-cs \
+locale-kirigami-gallery-da \
+locale-kirigami-gallery-de \
+locale-kirigami-gallery-el \
+locale-kirigami-gallery-en-GB \
+locale-kirigami-gallery-es \
+locale-kirigami-gallery-et \
+locale-kirigami-gallery-eu \
+locale-kirigami-gallery-fi \
+locale-kirigami-gallery-fr \
+locale-kirigami-gallery-gl \
+locale-kirigami-gallery-it \
+locale-kirigami-gallery-ja \
+locale-kirigami-gallery-ka \
+locale-kirigami-gallery-ko \
+locale-kirigami-gallery-lt \
+locale-kirigami-gallery-nl \
+locale-kirigami-gallery-nn \
+locale-kirigami-gallery-pa \
+locale-kirigami-gallery-pl \
+locale-kirigami-gallery-pt \
+locale-kirigami-gallery-pt-BR \
+locale-kirigami-gallery-ro \
+locale-kirigami-gallery-ru \
+locale-kirigami-gallery-sk \
+locale-kirigami-gallery-sl \
+locale-kirigami-gallery-sv \
+locale-kirigami-gallery-tr \
+locale-kirigami-gallery-uk \
+locale-kirigami-gallery-zh-CN \
+locale-kirigami-gallery-zh-TW"
 
 RDEPENDS:${PN} += "kirigami-gallery"
 

@@ -10,11 +10,11 @@ RPM_NAME = "python311-liblarch-3.0-2.15.noarch.rpm"
 RPM_HASH = "efb55e0c95e4284f72ff5231d3e2113e976991e8d3868c36b6c63ae8d178d31211ab63e8d254fb36aa5c29b5095758883473a326c178d06c9846fc14ee24a817"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(liblarch) \
+RPROVIDES:${PN} += "python3.11dist-liblarch \
 python311-liblarch \
-python3dist(liblarch)"
+python3dist-liblarch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-gobject"
 
 inherit rpm

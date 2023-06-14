@@ -9,10 +9,9 @@ PV = "19980713"
 RPM_NAME = "csindex-19980713-678.27.aarch64.rpm"
 RPM_HASH = "9f6ebf4f2805cb440fb6586abfe7f0a3afdd8c13d85cd78392fb016d03a1f785c036dbb4c821ac1d08ccd0577f7f9d8062291d5092fc8c56d82239202915250b"
 
-RPROVIDES:${PN} += "csindex \
-csindex(aarch-64)"
+RPROVIDES:${PN} += "csindex"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

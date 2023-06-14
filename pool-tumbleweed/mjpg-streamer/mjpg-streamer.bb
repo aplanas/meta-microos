@@ -18,17 +18,15 @@ PV = "1.0.0"
 RPM_NAME = "mjpg-streamer-1.0.0-1.1.aarch64.rpm"
 RPM_HASH = "1bca7a530541d2b9a55ba358a20063c26e57197090a7f80c65d1bde7c566390b341c745ff1eb910ff7a537d83e1dd2373661b612c0236c4a5f269933fa2623d6"
 
-RPROVIDES:${PN} += "mjpg-streamer \
-mjpg-streamer(aarch-64)"
+RPROVIDES:${PN} += "mjpg-streamer"
 
 RDEPENDS:${PN} += "/bin/sh \
-libSDL-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgphoto2.so.6()(64bit) \
-libgphoto2_port.so.12()(64bit) \
-libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
-libjpeg.so.8()(64bit) \
-libprotobuf-c.so.1()(64bit) \
-libzmq.so.5()(64bit)"
+libSDL-1.2.so.0 \
+libc.so.6 \
+libgphoto2-port.so.12 \
+libgphoto2.so.6 \
+libjpeg.so.8 \
+libprotobuf-c.so.1 \
+libzmq.so.5"
 
 inherit rpm

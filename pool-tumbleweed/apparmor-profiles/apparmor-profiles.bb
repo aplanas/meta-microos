@@ -15,11 +15,11 @@ RPM_HASH = "fa84197683bb778a8f918b2737238ac201256ac72312d371088609ff8581217b7513
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-profiles \
-config(apparmor-profiles) \
+config-apparmor-profiles \
 subdomain-profiles"
 
 RDEPENDS:${PN} += "/bin/sh \
 apparmor-abstractions \
-apparmor-parser(CAP_SYSLOG)"
+apparmor-parser-CAP-SYSLOG"
 
 inherit rpm

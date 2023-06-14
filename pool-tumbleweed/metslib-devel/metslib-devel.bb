@@ -20,7 +20,7 @@ RPM_HASH = "a1726d4bbec25118bf50314c00485d69721a290c40d7c2598ac00383eb42e7117ab5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metslib-devel \
-pkgconfig(metslib)"
+pkgconfig-metslib"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

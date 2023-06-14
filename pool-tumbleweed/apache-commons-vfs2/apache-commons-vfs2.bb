@@ -25,12 +25,12 @@ RPM_HASH = "b861a8b6eeeff99c8d50a2f8ca06296d850a0c1758d870282f044a31651357760615
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-vfs2 \
-mvn(org.apache.commons:commons-vfs2) \
-mvn(org.apache.commons:commons-vfs2:pom:) \
-osgi(org.apache.commons.commons-vfs2)"
+mvn-org.apache.commons-commons-vfs2 \
+mvn-org.apache.commons-commons-vfs2-pom- \
+osgi-org.apache.commons.commons-vfs2"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-logging:commons-logging)"
+mvn-commons-logging-commons-logging"
 
 inherit rpm

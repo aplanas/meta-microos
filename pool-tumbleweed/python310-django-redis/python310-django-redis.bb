@@ -9,11 +9,11 @@ RPM_HASH = "58d1db2e726c6e055d36e86a56a4f2ce711c3bd370e11666b9e2266dd04623c24e49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-redis \
-python3.10dist(django-redis) \
+python3.10dist-django-redis \
 python310-django-redis \
-python3dist(django-redis)"
+python3dist-django-redis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-lz4 \
 python310-msgpack \

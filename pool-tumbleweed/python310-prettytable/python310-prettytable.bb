@@ -14,12 +14,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PrettyTable \
 python3-prettytable \
-python3.10dist(prettytable) \
+python3.10dist-prettytable \
 python310-PrettyTable \
 python310-prettytable \
-python3dist(prettytable)"
+python3dist-prettytable"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-wcwidth"
 
 inherit rpm

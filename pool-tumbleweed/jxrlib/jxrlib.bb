@@ -9,11 +9,10 @@ PV = "1.1"
 RPM_NAME = "jxrlib-1.1-4.9.aarch64.rpm"
 RPM_HASH = "8d754ca21190554a218c982ee80a81051664332e8fbe27835d5999c9b2d26f08c0ffd5522253cab367fd69eea3217fa82f899bea94b2c72c714f6491dbeca1ff"
 
-RPROVIDES:${PN} += "jxrlib \
-jxrlib(aarch-64)"
+RPROVIDES:${PN} += "jxrlib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjxrglue.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjxrglue.so.0"
 
 inherit rpm

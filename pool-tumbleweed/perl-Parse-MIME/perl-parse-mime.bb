@@ -11,9 +11,9 @@ RPM_NAME = "perl-Parse-MIME-1.006-1.2.noarch.rpm"
 RPM_HASH = "cf4ca358efaee572d3b5ae6365f3859080dd9529810b64ec32de9baa8603a732e8b00c0ca72f8a18e726604fbd276f5178bee4fd8e68c485d18f66c34ed6b122"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parse::MIME) \
+RPROVIDES:${PN} += "perl-Parse--MIME \
 perl-Parse-MIME"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

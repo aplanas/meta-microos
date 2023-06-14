@@ -14,14 +14,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glances \
 python3-Glances \
 python3-glances \
-python3.10dist(glances) \
+python3.10dist-glances \
 python310-Glances \
 python310-glances \
-python3dist(glances)"
+python3dist-glances"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-bottle \
 python310-defusedxml \
 python310-future \

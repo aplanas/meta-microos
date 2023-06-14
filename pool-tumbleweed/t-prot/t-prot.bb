@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "t-prot"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Getopt::Long) \
-perl(Locale::gettext)"
+perl-Getopt--Long \
+perl-Locale--gettext"
 
 inherit rpm

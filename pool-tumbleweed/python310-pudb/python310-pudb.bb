@@ -11,13 +11,13 @@ RPM_HASH = "2770e621b106ed4e4b4de7fb3753a90406786e38297bd81418da43852814c3005528
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pudb \
-python3.10dist(pudb) \
+python3.10dist-pudb \
 python310-pudb \
-python3dist(pudb)"
+python3dist-pudb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pygments \
 python310-urwid \
 update-alternatives"

@@ -16,16 +16,15 @@ PV = "0.2.2"
 RPM_NAME = "python39-python-poppler-0.2.2-3.11.aarch64.rpm"
 RPM_HASH = "1dd853c2da43ec86589e35c62ecccb666b73febca31323f57bd1335a1ae5449cd99c8e4518573819fc0b9f8df0f40599638c24ea54e091df0a0b807e8c1c3867"
 
-RPROVIDES:${PN} += "python3.9dist(python-poppler) \
+RPROVIDES:${PN} += "python3.9dist-python-poppler \
 python39-python-poppler \
-python39-python-poppler(aarch-64) \
-python3dist(python-poppler)"
+python3dist-python-poppler"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpoppler-cpp.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpoppler-cpp.so.0 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

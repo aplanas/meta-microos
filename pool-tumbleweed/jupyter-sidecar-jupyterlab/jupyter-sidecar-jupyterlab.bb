@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-sidecar-jupyterlab"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab \
-python3dist(sidecar)"
+python3dist-sidecar"
 
 inherit rpm

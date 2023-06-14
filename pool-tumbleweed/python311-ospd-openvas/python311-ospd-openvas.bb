@@ -9,14 +9,14 @@ RPM_HASH = "d097948b9422713ad49023a8eb1286c234e4c43b875a3ec7d5b06e3569b66227f132
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ospd-openvas \
-python3.11dist(ospd-openvas) \
+python3.11dist-ospd-openvas \
 python311-ospd \
 python311-ospd-openvas \
-python3dist(ospd-openvas)"
+python3dist-ospd-openvas"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-defusedxml \
 python311-gnupg \
 python311-lxml \

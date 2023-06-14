@@ -12,26 +12,24 @@ RPM_NAME = "budgie-applications-menu-applet-1.6.0-1.1.aarch64.rpm"
 RPM_HASH = "0a497b47d666e415cd594308cc6ad00fda7f0450b11d582a4780bea7bb26bbd9de82e06e15bfe852afd0673bd8aeb589fa67cae1cbc3c88193790d38bfd2da6d"
 
 RPROVIDES:${PN} += "budgie-applications-menu-applet \
-budgie-applications-menu-applet(aarch-64) \
-libslingshot.so()(64bit)"
+libslingshot.so"
 
 RDEPENDS:${PN} += "budgie-extras-lang \
 gnome-menus \
-ld-linux-aarch64.so.1()(64bit) \
-libbudgie-plugin.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgranite.so.6()(64bit) \
-libgtk-3.so.0()(64bit) \
-libhandy-1.so.0()(64bit) \
-libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libplank.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbudgie-plugin.so.0 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgranite.so.6 \
+libgtk-3.so.0 \
+libhandy-1.so.0 \
+libjson-glib-1.0.so.0 \
+libpeas-1.0.so.0 \
+libplank.so.1"
 
 inherit rpm

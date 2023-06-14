@@ -10,11 +10,11 @@ RPM_HASH = "6baef67fb56cac02b039bdce6727399aa6b468b648ca26314809c6030099f3374db5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-webpack-loader \
-python3.10dist(django-webpack-loader) \
+python3.10dist-django-webpack-loader \
 python310-django-webpack-loader \
-python3dist(django-webpack-loader)"
+python3dist-django-webpack-loader"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

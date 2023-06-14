@@ -10,12 +10,12 @@ RPM_HASH = "26d13dd1b049ce05219c512cba6a0ab4062b14916f849696756a0ea8d74ed4b772ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-codemodel-annotation-compiler \
-mvn(org.glassfish.jaxb:codemodel-annotation-compiler) \
-mvn(org.glassfish.jaxb:codemodel-annotation-compiler:pom:)"
+mvn-org.glassfish.jaxb-codemodel-annotation-compiler \
+mvn-org.glassfish.jaxb-codemodel-annotation-compiler-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.istack:istack-commons-tools) \
-mvn(org.glassfish.jaxb:codemodel)"
+mvn-com.sun.istack-istack-commons-tools \
+mvn-org.glassfish.jaxb-codemodel"
 
 inherit rpm

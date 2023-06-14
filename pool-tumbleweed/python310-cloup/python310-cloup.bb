@@ -10,11 +10,11 @@ RPM_HASH = "32a230e2e401aabf04678f497af2c528a390f54731e6a0234ec99fb9f23d800b9a67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cloup \
-python3.10dist(cloup) \
+python3.10dist-cloup \
 python310-cloup \
-python3dist(cloup)"
+python3dist-cloup"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-click"
 
 inherit rpm

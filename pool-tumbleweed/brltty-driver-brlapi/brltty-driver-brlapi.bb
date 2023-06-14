@@ -13,12 +13,11 @@ RPM_NAME = "brltty-driver-brlapi-6.5-2.4.aarch64.rpm"
 RPM_HASH = "8bfcd6b07104ed88293ea0b6154a6be2c80e19ba43af84dce59443fb7210fe57f1e29f1f7ca74abc814f07a60a953b469141111975444db854a68ac385ab3389"
 
 RPROVIDES:${PN} += "brltty-driver-brlapi \
-brltty-driver-brlapi(aarch-64) \
-libbrlttybba.so()(64bit)"
+libbrlttybba.so"
 
 RDEPENDS:${PN} += "brltty \
-ld-linux-aarch64.so.1()(64bit) \
-libbrlapi.so.0.8()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbrlapi.so.0.8 \
+libc.so.6"
 
 inherit rpm

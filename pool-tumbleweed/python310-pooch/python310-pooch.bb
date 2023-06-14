@@ -11,11 +11,11 @@ RPM_HASH = "c1ad9012c1d58673d59334f6bebe6b5ca1615dde4c84117203fed5bfc65d5d095470
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pooch \
-python3.10dist(pooch) \
+python3.10dist-pooch \
 python310-pooch \
-python3dist(pooch)"
+python3dist-pooch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-appdirs \
 python310-packaging \
 python310-requests"

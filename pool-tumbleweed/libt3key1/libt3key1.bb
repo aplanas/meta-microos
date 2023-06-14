@@ -9,14 +9,13 @@ PV = "0.2.10"
 RPM_NAME = "libt3key1-0.2.10-1.14.aarch64.rpm"
 RPM_HASH = "6e8b93691925ca61ec1e9560080ace67556824f8c7d4dac02236fb0042b3d15f9eaee140d1857e60e67d4c6302cc89e12c2b4d44df2a7e0286dfff4de8226ef1"
 
-RPROVIDES:${PN} += "libt3key.so.1()(64bit) \
-libt3key1 \
-libt3key1(aarch-64)"
+RPROVIDES:${PN} += "libt3key.so.1 \
+libt3key1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libt3config.so.0()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libt3config.so.0 \
+libtinfo.so.6"
 
 inherit rpm

@@ -19,23 +19,23 @@ RPM_NAME = "perl-Pod-Parser-1.66-1.1.noarch.rpm"
 RPM_HASH = "261ed75a2c311cc6eb781b4c95b742b45c20266d7f74e1c93db9f5869764b5a36a024f3dff33538b06952d9682e2dc8835c31e1a61a26cd23ae297f9bbc4dcd5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Pod::Cache) \
-perl(Pod::Cache::Item) \
-perl(Pod::Find) \
-perl(Pod::Hyperlink) \
-perl(Pod::InputObjects) \
-perl(Pod::InputSource) \
-perl(Pod::InteriorSequence) \
-perl(Pod::List) \
-perl(Pod::Paragraph) \
-perl(Pod::ParseTree) \
-perl(Pod::ParseUtils) \
-perl(Pod::Parser) \
-perl(Pod::PlainText) \
-perl(Pod::Select) \
+RPROVIDES:${PN} += "perl-Pod--Cache \
+perl-Pod--Cache--Item \
+perl-Pod--Find \
+perl-Pod--Hyperlink \
+perl-Pod--InputObjects \
+perl-Pod--InputSource \
+perl-Pod--InteriorSequence \
+perl-Pod--List \
+perl-Pod--Paragraph \
+perl-Pod--ParseTree \
+perl-Pod--ParseUtils \
+perl-Pod--Parser \
+perl-Pod--PlainText \
+perl-Pod--Select \
 perl-Pod-Parser"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

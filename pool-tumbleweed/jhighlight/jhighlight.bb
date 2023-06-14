@@ -13,10 +13,10 @@ RPM_HASH = "d4caa7d7dd767f8b43df46933ba2e9dd29ee227b4c78fb9ea998d5acfd2a8c2faf23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jhighlight \
-mvn(com.uwyn:jhighlight) \
-mvn(com.uwyn:jhighlight:pom:) \
-mvn(org.codelibs:jhighlight) \
-mvn(org.codelibs:jhighlight:pom:)"
+mvn-com.uwyn-jhighlight \
+mvn-com.uwyn-jhighlight-pom- \
+mvn-org.codelibs-jhighlight \
+mvn-org.codelibs-jhighlight-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

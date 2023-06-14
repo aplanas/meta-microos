@@ -11,16 +11,16 @@ RPM_HASH = "bd571cdb9612b9967c0df65f26678d49ff7ca594e1f983f5360e1e7b55ec7b56a6ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-web \
-config(collectd-web)"
+config-collectd-web"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 apache2 \
 perl \
-perl(CGI) \
-perl(Data::Dumper) \
-perl(HTML::Entities) \
-perl(RRDs) \
-perl(URI::Escape) \
+perl-CGI \
+perl-Data--Dumper \
+perl-HTML--Entities \
+perl-RRDs \
+perl-URI--Escape \
 rrdtool"
 
 inherit rpm

@@ -20,15 +20,14 @@ PV = "4.2.0"
 RPM_NAME = "syslog-ng-4.2.0-1.1.aarch64.rpm"
 RPM_HASH = "be81a611304770c2fb61803193d3842aeab4c582d8dd5fa2a90f4a03388e088d7c3d494ef2a96dda7dbbb8d468dfc7c6fc125c4455dbe60b859d3bc8bdb83339"
 
-RPROVIDES:${PN} += "config(syslog-ng) \
-libloggen_helper-4.2.so.0()(64bit) \
-libloggen_plugin-4.2.so.0()(64bit) \
-libsecret-storage.so.0()(64bit) \
-libsyslog-ng-4.2.so.0()(64bit) \
+RPROVIDES:${PN} += "config-syslog-ng \
+libloggen-helper-4.2.so.0 \
+libloggen-plugin-4.2.so.0 \
+libsecret-storage.so.0 \
+libsyslog-ng-4.2.so.0 \
 syslog \
 syslog-ng \
-syslog-ng(aarch-64) \
-sysvinit(syslog)"
+sysvinit-syslog"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -36,21 +35,19 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libevtlog-4.2.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libjson-c.so.5()(64bit) \
-libnet.so.9()(64bit) \
-libpcre.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_245)(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libevtlog-4.2.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libjson-c.so.5 \
+libnet.so.9 \
+libpcre.so.1 \
+libssl.so.3 \
+libsystemd.so.0 \
+libwrap.so.0 \
 syslog-service"
 
 inherit rpm

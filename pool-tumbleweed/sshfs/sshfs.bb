@@ -11,13 +11,12 @@ PV = "3.7.3"
 RPM_NAME = "sshfs-3.7.3-1.4.aarch64.rpm"
 RPM_HASH = "78ff3283814664659f2c0aa7e13f3577e9e4f2cb000ee9556e42a5ddf693b1d3a52b392e8bd6af1e7db8fe593e85537ba3df9e5fcd3996396aa32af2abfb7f74"
 
-RPROVIDES:${PN} += "sshfs \
-sshfs(aarch-64)"
+RPROVIDES:${PN} += "sshfs"
 
 RDEPENDS:${PN} += "fuse3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfuse3.so.3()(64bit) \
-libglib-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfuse3.so.3 \
+libglib-2.0.so.0"
 
 inherit rpm

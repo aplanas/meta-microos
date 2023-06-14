@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "/bin/sh \
 pacemaker \
 procps \
 psmisc \
-python(abi) \
+python-abi \
 python3 \
 python3-pacemaker \
 python3-psutil"

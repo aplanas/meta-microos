@@ -11,18 +11,17 @@ PV = "1.22.3"
 RPM_NAME = "libgstwebrtcnice-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "a8a7b6d35e37451fcba2b3c4817ee3109f20fab384d0142bf1b69fd6695197b53f1f481bffd4af5abba0b056bb3e39476d2864e84973d525d12a0b1b4a648f05"
 
-RPROVIDES:${PN} += "libgstwebrtcnice-1.0.so.0()(64bit) \
-libgstwebrtcnice-1_0-0 \
-libgstwebrtcnice-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstwebrtcnice-1-0-0 \
+libgstwebrtcnice-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstwebrtc-1.0.so.0()(64bit) \
-libnice.so.10()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstwebrtc-1.0.so.0 \
+libnice.so.10"
 
 inherit rpm

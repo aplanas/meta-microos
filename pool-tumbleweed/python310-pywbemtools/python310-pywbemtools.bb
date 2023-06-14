@@ -16,13 +16,13 @@ RPM_HASH = "8bfec74a2337dfdc9359f6839874675a9f9fd2688f2b5c18b86940cb32444f06bf51
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pywbemtools \
-python3.10dist(pywbemtools) \
+python3.10dist-pywbemtools \
 python310-pywbemtools \
-python3dist(pywbemtools)"
+python3dist-pywbemtools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-asciitree \
 python310-click \
@@ -31,7 +31,7 @@ python310-click-spinner \
 python310-nocasedict \
 python310-nocaselist \
 python310-packaging \
-python310-prompt_toolkit \
+python310-prompt-toolkit \
 python310-psutil \
 python310-pyparsing \
 python310-pywbem \

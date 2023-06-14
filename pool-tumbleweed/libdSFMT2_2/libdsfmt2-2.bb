@@ -14,11 +14,10 @@ PV = "2.2.5"
 RPM_NAME = "libdSFMT2_2-2.2.5-1.8.aarch64.rpm"
 RPM_HASH = "ca148c212ca51fcd745aa7dd9336b263324a5f50d51d46bb4cd019f873a9f6e0fb1707fe35eff706336b3c99c120160479d4e98dd06ef9dc5d3e5e62759dedc2"
 
-RPROVIDES:${PN} += "libdSFMT.so.2.2()(64bit) \
-libdSFMT2_2 \
-libdSFMT2_2(aarch-64)"
+RPROVIDES:${PN} += "libdSFMT.so.2.2 \
+libdSFMT2-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

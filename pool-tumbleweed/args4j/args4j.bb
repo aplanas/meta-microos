@@ -16,9 +16,9 @@ RPM_HASH = "cff5515b53b19430139669d45bf8c3a9a5afb23a9545615ff85f5c2e514a3c3c9a6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "args4j \
-mvn(args4j:args4j) \
-mvn(args4j:args4j:pom:) \
-osgi(org.kohsuke.args4j)"
+mvn-args4j-args4j \
+mvn-args4j-args4j-pom- \
+osgi-org.kohsuke.args4j"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

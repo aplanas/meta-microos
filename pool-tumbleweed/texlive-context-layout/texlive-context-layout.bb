@@ -10,7 +10,7 @@ RPM_NAME = "texlive-context-layout-2023.204.svn47085-54.1.noarch.rpm"
 RPM_HASH = "5361d45b78c9b9d4f45f6f6f90beb6b99adb3286496701cfc91dc006029a124dd2e170f0e1ed010b97b6f0d2f56f0a30b5cf1fe3f1bf083b98a5c618842a9d26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(t-layout.tex) \
+RPROVIDES:${PN} += "tex-t-layout.tex \
 texlive-context-layout"
 
 RDEPENDS:${PN} += "/bin/sh \

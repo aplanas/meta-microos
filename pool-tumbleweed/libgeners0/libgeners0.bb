@@ -9,16 +9,15 @@ PV = "1.12.0"
 RPM_NAME = "libgeners0-1.12.0-1.14.aarch64.rpm"
 RPM_HASH = "18ef6d83b181b4556f3ee6733b29c024e47329ca9c5bfc442dea36ed13a9120db7aa1b90622e658400b1134d0ae326739c89a754d63e88a634bcc33d815b8af4"
 
-RPROVIDES:${PN} += "libgeners.so.0()(64bit) \
-libgeners0 \
-libgeners0(aarch-64)"
+RPROVIDES:${PN} += "libgeners.so.0 \
+libgeners0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

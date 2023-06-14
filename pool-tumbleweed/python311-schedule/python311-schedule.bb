@@ -10,10 +10,10 @@ RPM_NAME = "python311-schedule-1.1.0-3.6.noarch.rpm"
 RPM_HASH = "ebdb4d77aeb8376238351cb43fae6840f3e70917897e155f95271783be5be5deacd5f2f7a12a0459818cde2fa73305705fa8fcd107bbf10c681f2f35ae8fe392"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(schedule) \
+RPROVIDES:${PN} += "python3.11dist-schedule \
 python311-schedule \
-python3dist(schedule)"
+python3dist-schedule"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

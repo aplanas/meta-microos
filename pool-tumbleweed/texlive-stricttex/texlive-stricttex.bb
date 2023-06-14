@@ -14,7 +14,7 @@ RPM_NAME = "texlive-stricttex-2023.201.0.0.2betasvn56320-57.1.noarch.rpm"
 RPM_HASH = "a103f2ab362dbb163dcbb52d62441577733221b4f14d4bf731ab377916bfacb748b0318afbd3f6f241d8789df0080698b9a9a10b250fa84cff14b1b87efb007b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(stricttex.sty) \
+RPROVIDES:${PN} += "tex-stricttex.sty \
 texlive-stricttex"
 
 RDEPENDS:${PN} += "/bin/sh \

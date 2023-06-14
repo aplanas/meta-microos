@@ -13,7 +13,7 @@ RPM_NAME = "texlive-mtgreek-2023.201.1.1+svn17967-54.1.noarch.rpm"
 RPM_HASH = "d4e4e2634b23afa5b547a0ca70215117ac7cf995fb3f4ef97a7339e1aa83e640c76b3db74b002779eed7de82104624ac3e80e4924d3835a5e9b885169302021f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mtgreek.sty) \
+RPROVIDES:${PN} += "tex-mtgreek.sty \
 texlive-mtgreek"
 
 RDEPENDS:${PN} += "/bin/sh \

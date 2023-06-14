@@ -15,7 +15,7 @@ RPM_NAME = "texlive-photo-2023.201.svn18739-51.1.noarch.rpm"
 RPM_HASH = "392672f893bcf958cf88035523188b00545bd3e1e491dca5e2ada78eda457dc15df43b6731da2154b83803f7174fecb274583ced26440fc370ec4c61e5cbfcaf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(photo.sty) \
+RPROVIDES:${PN} += "tex-photo.sty \
 texlive-photo"
 
 RDEPENDS:${PN} += "/bin/sh \

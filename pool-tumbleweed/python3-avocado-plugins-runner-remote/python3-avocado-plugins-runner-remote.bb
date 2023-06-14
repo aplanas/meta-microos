@@ -10,10 +10,10 @@ RPM_HASH = "10d41d30576fb61dd8a13fbab8399d13ece93991f051be1b0ac26e4643a87a797949
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-runner-remote \
-python3.10dist(avocado-framework-plugin-runner-remote) \
-python3dist(avocado-framework-plugin-runner-remote)"
+python3.10dist-avocado-framework-plugin-runner-remote \
+python3dist-avocado-framework-plugin-runner-remote"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-Fabric \
 python3-avocado"
 

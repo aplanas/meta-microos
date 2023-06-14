@@ -16,28 +16,27 @@ PV = "2023.03.0+386"
 RPM_NAME = "rstudio-server-2023.03.0+386-1.2.aarch64.rpm"
 RPM_HASH = "ce66076588c479070ee7d8aab7a3070f2b6e03696902522d2d2be561be64cc865aa8b46013e5409dc8b17b34cf8c7cb313449169d2cd97f29d143f137d0ac7aa"
 
-RPROVIDES:${PN} += "config(rstudio-server) \
-group(rstudio-server) \
+RPROVIDES:${PN} += "config-rstudio-server \
+group-rstudio-server \
 rstudio-server \
-rstudio-server(aarch-64) \
-user(rstudio-server)"
+user-rstudio-server"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_iostreams.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpam.so.0()(64bit) \
-libsoci_core.so.4.0()(64bit) \
-libsoci_postgresql.so.4.0()(64bit) \
-libsoci_sqlite3.so.4.0()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libboost-filesystem.so.1.82.0 \
+libboost-iostreams.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libpam.so.0 \
+libsoci-core.so.4.0 \
+libsoci-postgresql.so.4.0 \
+libsoci-sqlite3.so.4.0 \
+libssl.so.3 \
+libstdc++.so.6 \
+libuuid.so.1 \
 rstudio \
 sysuser-shadow"
 

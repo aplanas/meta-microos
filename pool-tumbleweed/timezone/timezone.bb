@@ -8,12 +8,11 @@ PV = "2023c"
 RPM_NAME = "timezone-2023c-1.1.aarch64.rpm"
 RPM_HASH = "28fd13538bd21acddef11eb1d07d9936dfc500afed3fa33dea03f74e913a602e9959d2c8a41ca04de202e4af7ec3f0e50337a7131a20423e4201faeda1a41420"
 
-RPROVIDES:${PN} += "config(timezone) \
-timezone \
-timezone(aarch-64)"
+RPROVIDES:${PN} += "config-timezone \
+timezone"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

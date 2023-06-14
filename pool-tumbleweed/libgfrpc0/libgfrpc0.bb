@@ -8,15 +8,14 @@ PV = "11.0"
 RPM_NAME = "libgfrpc0-11.0-2.1.aarch64.rpm"
 RPM_HASH = "27e12ec9311c5f8a276edd7005d53c38230fc300985b8259d9c523a414fd6c179d25db2a1ba3e5b8ff0b056866e27330e4e72ce234b64f493ff14c2977f3936c"
 
-RPROVIDES:${PN} += "libgfrpc.so.0()(64bit) \
-libgfrpc0 \
-libgfrpc0(aarch-64)"
+RPROVIDES:${PN} += "libgfrpc.so.0 \
+libgfrpc0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfxdr.so.0()(64bit) \
-libglusterfs.so.0()(64bit) \
-libtirpc.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfxdr.so.0 \
+libglusterfs.so.0 \
+libtirpc.so.3"
 
 inherit rpm

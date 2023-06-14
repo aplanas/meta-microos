@@ -17,10 +17,10 @@ RPM_HASH = "70016acf999b27e13f8ddd7ce64b5a885430a24da9b601aa16a7c024976a3f8ce0a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-smmap \
-python3.10dist(smmap) \
+python3.10dist-smmap \
 python310-smmap \
-python3dist(smmap)"
+python3dist-smmap"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

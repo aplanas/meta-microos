@@ -13,13 +13,12 @@ PV = "0.0.7+2"
 RPM_NAME = "dcatools-0.0.7+2-1.2.aarch64.rpm"
 RPM_HASH = "9e55057776bf1cd6de705ed87db3e2f95c697df128b421e2df208dc2bcff1549e668f230908ec668ab328155e41fe40c020c696c0a93b5241893dd93fd5422fb"
 
-RPROVIDES:${PN} += "dcatools \
-dcatools(aarch-64)"
+RPROVIDES:${PN} += "dcatools"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdca.so.0()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdca.so.0 \
+libm.so.6"
 
 inherit rpm

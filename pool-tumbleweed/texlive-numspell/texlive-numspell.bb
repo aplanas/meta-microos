@@ -11,13 +11,13 @@ RPM_NAME = "texlive-numspell-2023.201.1.5svn61132-54.1.noarch.rpm"
 RPM_HASH = "dd22e3b7350ae16849134b83c298320b0e4983e90fc375078c3d38113a7a76bac78a324ba7cc4add083fa090ea0cb6dcc185496602857995d0e01da0287c77e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(numspell-english.sty) \
-tex(numspell-french.sty) \
-tex(numspell-german.sty) \
-tex(numspell-italian.sty) \
-tex(numspell-latin.sty) \
-tex(numspell-magyar.sty) \
-tex(numspell.sty) \
+RPROVIDES:${PN} += "tex-numspell-english.sty \
+tex-numspell-french.sty \
+tex-numspell-german.sty \
+tex-numspell-italian.sty \
+tex-numspell-latin.sty \
+tex-numspell-magyar.sty \
+tex-numspell.sty \
 texlive-numspell"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(iflang.sty) \
-tex(xstring.sty) \
+tex-iflang.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

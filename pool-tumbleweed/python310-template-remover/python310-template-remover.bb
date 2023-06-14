@@ -13,13 +13,13 @@ RPM_HASH = "06b1b26c95936cb56bbc4f3a3b77eb756d815fd967b7b514423ee13ab5b98fba5ab2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-template-remover \
-python3.10dist(template-remover) \
+python3.10dist-template-remover \
 python310-template-remover \
-python3dist(template-remover)"
+python3dist-template-remover"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-docopt \
 update-alternatives"
 

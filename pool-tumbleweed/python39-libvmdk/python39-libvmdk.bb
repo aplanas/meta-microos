@@ -7,17 +7,13 @@ PV = "20221124"
 RPM_NAME = "python39-libvmdk-20221124-3.7.aarch64.rpm"
 RPM_HASH = "90b5c45c61b56c647a5580c604fce41290a3953219928d0c4e5e17f893feea1dea024960d4e3bb31d2f8519da9d4d80db4061b7e8254df1804a8a09ecff9e953"
 
-RPROVIDES:${PN} += "python39-libvmdk \
-python39-libvmdk(aarch-64)"
+RPROVIDES:${PN} += "python39-libvmdk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libvmdk.so.1()(64bit) \
-libvmdk.so.1(V_20221124)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libvmdk.so.1 \
+python-abi"
 
 inherit rpm

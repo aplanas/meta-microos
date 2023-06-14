@@ -20,13 +20,13 @@ RPM_NAME = "python39-pip-run-8.8.2-2.1.noarch.rpm"
 RPM_HASH = "c4ff8879d270cde3a60774622d29b4bf3912fdb099a612719bc8c969f5ce45c5acaccd8eed7831474fbfee70d965f6bfb5c71956c367fa1620ea33e814d2678b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pip-run) \
+RPROVIDES:${PN} += "python3.9dist-pip-run \
 python39-pip-run \
-python3dist(pip-run)"
+python3dist-pip-run"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-autocommand \
 python39-packaging \
 python39-path \

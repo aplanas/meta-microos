@@ -18,25 +18,24 @@ PV = "5.9.3"
 RPM_NAME = "libsnmp40-5.9.3-4.6.aarch64.rpm"
 RPM_HASH = "9592c28ff6322f1458e066a28a1e6f6ff019f7a7ec643e5e15714e62bfdba44b847181cb1d948bb91f7d37794d1e8b108fa7dc0f8fd1158445785400a106f098"
 
-RPROVIDES:${PN} += "libnetsnmp.so.40()(64bit) \
-libnetsnmpagent.so.40()(64bit) \
-libnetsnmphelpers.so.40()(64bit) \
-libnetsnmpmibs.so.40()(64bit) \
-libnetsnmptrapd.so.40()(64bit) \
-libsnmp.so.40()(64bit) \
-libsnmp40 \
-libsnmp40(aarch-64)"
+RPROVIDES:${PN} += "libnetsnmp.so.40 \
+libnetsnmpagent.so.40 \
+libnetsnmphelpers.so.40 \
+libnetsnmpmibs.so.40 \
+libnetsnmptrapd.so.40 \
+libsnmp.so.40 \
+libsnmp40"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libperl.so()(64bit) \
-librpm.so.9()(64bit) \
-librpmio.so.9()(64bit) \
-libsensors.so.4()(64bit) \
-libssl.so.3()(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libperl.so \
+librpm.so.9 \
+librpmio.so.9 \
+libsensors.so.4 \
+libssl.so.3 \
+libwrap.so.0 \
 perl-base \
 snmp-mibs"
 

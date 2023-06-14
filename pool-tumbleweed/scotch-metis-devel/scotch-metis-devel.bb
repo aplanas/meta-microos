@@ -8,8 +8,7 @@ PV = "6.1.0"
 RPM_NAME = "scotch-metis-devel-6.1.0-2.9.aarch64.rpm"
 RPM_HASH = "e5bda5be0e232d3218639ce13ccba72a4a95baf85ab6a655bc9c54b62d9df6b5909eee52f1abafbaf4c98b4f7df0118b45d6f805548aa27962d222696b5bf8f2"
 
-RPROVIDES:${PN} += "scotch-metis-devel \
-scotch-metis-devel(aarch-64)"
+RPROVIDES:${PN} += "scotch-metis-devel"
 
 RDEPENDS:${PN} += "libscotch0 \
 scotch-devel"

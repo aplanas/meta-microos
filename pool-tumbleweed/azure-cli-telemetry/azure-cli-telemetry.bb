@@ -15,11 +15,11 @@ RPM_HASH = "a0252e324aeb593482cde556fd5243547cccc3f8cfc09cec6d93e0b62381f78ee3cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-telemetry \
-python3.10dist(azure-cli-telemetry) \
-python3dist(azure-cli-telemetry)"
+python3.10dist-azure-cli-telemetry \
+python3dist-azure-cli-telemetry"
 
 RDEPENDS:${PN} += "azure-cli-nspkg \
-python(abi) \
+python-abi \
 python3-applicationinsights \
 python3-azure-nspkg \
 python3-portalocker"

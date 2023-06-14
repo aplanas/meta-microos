@@ -20,28 +20,28 @@ python311-notebook-filesystem \
 python311-notebook-macros-devel \
 python39-notebook-filesystem \
 python39-notebook-macros-devel \
-rpm_macro(_jupyter_nb_auth_confdir) \
-rpm_macro(_jupyter_nb_base_confdir) \
-rpm_macro(_jupyter_nb_bidi_confdir) \
-rpm_macro(_jupyter_nb_confdir) \
-rpm_macro(_jupyter_nb_custom_confdir) \
-rpm_macro(_jupyter_nb_edit_confdir) \
-rpm_macro(_jupyter_nb_notebook_confdir) \
-rpm_macro(_jupyter_nb_services_confdir) \
-rpm_macro(_jupyter_nb_style_confdir) \
-rpm_macro(_jupyter_nb_terminal_confdir) \
-rpm_macro(_jupyter_nb_tree_confdir) \
-rpm_macro(_jupyter_nbextension_confdir) \
-rpm_macro(_jupyter_nbextension_dir) \
-rpm_macro(_jupyter_server_confdir) \
-rpm_macro(_jupyter_servextension_confdir) \
-rpm_macro(jupyter_nbextension_disable) \
-rpm_macro(jupyter_nbextension_enable) \
-rpm_macro(jupyter_nbextension_install) \
-rpm_macro(jupyter_serverextension_disable) \
-rpm_macro(jupyter_serverextension_enable)"
+rpm-macro--jupyter-nb-auth-confdir \
+rpm-macro--jupyter-nb-base-confdir \
+rpm-macro--jupyter-nb-bidi-confdir \
+rpm-macro--jupyter-nb-confdir \
+rpm-macro--jupyter-nb-custom-confdir \
+rpm-macro--jupyter-nb-edit-confdir \
+rpm-macro--jupyter-nb-notebook-confdir \
+rpm-macro--jupyter-nb-services-confdir \
+rpm-macro--jupyter-nb-style-confdir \
+rpm-macro--jupyter-nb-terminal-confdir \
+rpm-macro--jupyter-nb-tree-confdir \
+rpm-macro--jupyter-nbextension-confdir \
+rpm-macro--jupyter-nbextension-dir \
+rpm-macro--jupyter-server-confdir \
+rpm-macro--jupyter-servextension-confdir \
+rpm-macro-jupyter-nbextension-disable \
+rpm-macro-jupyter-nbextension-enable \
+rpm-macro-jupyter-nbextension-install \
+rpm-macro-jupyter-serverextension-disable \
+rpm-macro-jupyter-serverextension-enable"
 
-RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem \
+RDEPENDS:${PN} += "jupyter-jupyter-core-filesystem \
 python-rpm-macros"
 
 inherit rpm

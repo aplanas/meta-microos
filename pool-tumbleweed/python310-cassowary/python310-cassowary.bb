@@ -11,10 +11,10 @@ RPM_HASH = "39ec29ce35594e3878f8869809db5e8e1e63e34c2e7b41c6378d298745789a2a040e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cassowary \
-python3.10dist(cassowary) \
+python3.10dist-cassowary \
 python310-cassowary \
-python3dist(cassowary)"
+python3dist-cassowary"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

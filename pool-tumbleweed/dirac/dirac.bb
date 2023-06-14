@@ -16,17 +16,16 @@ PV = "1.0.2"
 RPM_NAME = "dirac-1.0.2-33.27.aarch64.rpm"
 RPM_HASH = "0a689d8ad336afe50facf1be9f759463be8f55e52b7e34b0570cc84ff0f69c495725a693120616a4d40b2dc8d9b386697acc529a498434c2f98a7d3c839f485d"
 
-RPROVIDES:${PN} += "dirac \
-dirac(aarch-64)"
+RPROVIDES:${PN} += "dirac"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcppunit-1.15.so.1()(64bit) \
-libdirac_decoder.so.0()(64bit) \
-libdirac_encoder.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcppunit-1.15.so.1 \
+libdirac-decoder.so.0 \
+libdirac-encoder.so.0 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

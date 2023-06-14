@@ -8,7 +8,6 @@ RPM_NAME = "libostree-grub2-2023.2-2.1.aarch64.rpm"
 RPM_HASH = "3e5caadc6e383fd4f23e968c9f216b3ef623d7db4a8f559e91e0608fea439eef272ae8309bbfe297ba92eabe5116e9fcf57d40478fb6388b8156f2e30ae109ea"
 
 RPROVIDES:${PN} += "libostree-grub2 \
-libostree-grub2(aarch-64) \
 ostree-grub2"
 
 RDEPENDS:${PN} += "/bin/sh \

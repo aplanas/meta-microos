@@ -10,9 +10,8 @@ RPM_HASH = "b9df56185ed2a9f630409529974bd981c6e72612da2319b6fbe929f25110ab8b17a2
 
 RPROVIDES:${PN} += "a52dec-devel \
 liba52-devel \
-liba52-devel(aarch-64) \
 liba52dec-devel \
-pkgconfig(liba52)"
+pkgconfig-liba52"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liba52-0"

@@ -8,14 +8,13 @@ RPM_NAME = "python310-xkbcommon-0.8-1.4.aarch64.rpm"
 RPM_HASH = "1f94620ec2046190b80f5997a42320f4d0682c330ff65375b015f87a75d86b421628b9a4007c1698f933298bf1f4f38e43a389af82a369cb3cae1d533a508394"
 
 RPROVIDES:${PN} += "python3-xkbcommon \
-python3.10dist(xkbcommon) \
+python3.10dist-xkbcommon \
 python310-xkbcommon \
-python310-xkbcommon(aarch-64) \
-python3dist(xkbcommon)"
+python3dist-xkbcommon"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxkbcommon.so.0()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxkbcommon.so.0 \
+python-abi"
 
 inherit rpm

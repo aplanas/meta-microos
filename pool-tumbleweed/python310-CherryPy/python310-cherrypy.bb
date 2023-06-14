@@ -19,14 +19,14 @@ RPM_HASH = "26d9e6c4e323f89d56f44e2180ce28d58729a46c2cb319806ae4d0d729739ecfd1b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-CherryPy \
-python3.10dist(cherrypy) \
+python3.10dist-cherrypy \
 python310-CherryPy \
-python3dist(cherrypy)"
+python3dist-cherrypy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-cheroot \
 python310-jaraco.collections \
 python310-more-itertools \

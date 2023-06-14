@@ -10,12 +10,11 @@ RPM_HASH = "060b5ca18009964128d9d7cf9ff5a9b90a68e74878b8fd3364ce47b00b97791216cd
 
 RPROVIDES:${PN} += "python3-e-antic \
 python3-pyeantic \
-python3.10dist(pyeantic) \
+python3.10dist-pyeantic \
 python310-e-antic \
-python310-e-antic(aarch-64) \
 python310-pyeantic \
-python3dist(pyeantic)"
+python3dist-pyeantic"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

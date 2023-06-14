@@ -13,11 +13,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-review \
 python3-git-review \
-python3.10dist(git-review) \
-python3dist(git-review)"
+python3.10dist-git-review \
+python3dist-git-review"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python3-requests"
 
 inherit rpm

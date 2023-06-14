@@ -9,8 +9,8 @@ RPM_HASH = "dfb7cb8cc103e2f9912dbaf6ac1966401e7122ae29f6e54f935d0f5367f2d3c8e691
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-collections-testframework \
-mvn(commons-collections:commons-collections-testframework) \
-mvn(org.apache.commons:commons-collections-testframework)"
+mvn-commons-collections-commons-collections-testframework \
+mvn-org.apache.commons-commons-collections-testframework"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

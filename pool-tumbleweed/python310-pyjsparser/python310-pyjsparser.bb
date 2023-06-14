@@ -10,10 +10,10 @@ RPM_HASH = "9f19b3156b42e3450796a36a1cf42f99b23890ca811934ac4772b578df367d2db913
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyjsparser \
-python3.10dist(pyjsparser) \
+python3.10dist-pyjsparser \
 python310-pyjsparser \
-python3dist(pyjsparser)"
+python3dist-pyjsparser"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

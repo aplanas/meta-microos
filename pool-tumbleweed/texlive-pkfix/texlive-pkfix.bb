@@ -18,8 +18,8 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(strict) \
+perl-Getopt--Long \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

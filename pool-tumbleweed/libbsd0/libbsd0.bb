@@ -10,13 +10,12 @@ PV = "0.11.7"
 RPM_NAME = "libbsd0-0.11.7-2.1.aarch64.rpm"
 RPM_HASH = "f9f76644c15be1038153cfb5c1dc9b48b06680120303bab2123d409f59d45d1f53237ebd5be8d07a4bd5bc5ffabc6838eac1fec639ab0dbfb97cb475c5bf1222"
 
-RPROVIDES:${PN} += "libbsd.so.0()(64bit) \
-libbsd0 \
-libbsd0(aarch-64)"
+RPROVIDES:${PN} += "libbsd.so.0 \
+libbsd0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmd.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmd.so.0"
 
 inherit rpm

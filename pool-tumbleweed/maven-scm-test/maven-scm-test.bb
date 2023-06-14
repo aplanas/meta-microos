@@ -9,23 +9,23 @@ RPM_HASH = "7ed81a4aa54cb058aa41a0a82f188eaa6187805585420711f242fbb79525cad4e08f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-scm-test \
-mvn(org.apache.maven.scm:maven-scm-provider-cvstest) \
-mvn(org.apache.maven.scm:maven-scm-provider-cvstest:pom:) \
-mvn(org.apache.maven.scm:maven-scm-provider-gittest) \
-mvn(org.apache.maven.scm:maven-scm-provider-gittest:pom:) \
-mvn(org.apache.maven.scm:maven-scm-provider-svntest) \
-mvn(org.apache.maven.scm:maven-scm-provider-svntest:pom:) \
-mvn(org.apache.maven.scm:maven-scm-test) \
-mvn(org.apache.maven.scm:maven-scm-test:pom:)"
+mvn-org.apache.maven.scm-maven-scm-provider-cvstest \
+mvn-org.apache.maven.scm-maven-scm-provider-cvstest-pom- \
+mvn-org.apache.maven.scm-maven-scm-provider-gittest \
+mvn-org.apache.maven.scm-maven-scm-provider-gittest-pom- \
+mvn-org.apache.maven.scm-maven-scm-provider-svntest \
+mvn-org.apache.maven.scm-maven-scm-provider-svntest-pom- \
+mvn-org.apache.maven.scm-maven-scm-test \
+mvn-org.apache.maven.scm-maven-scm-test-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 maven-scm \
-mvn(junit:junit) \
-mvn(org.apache.maven.scm:maven-scm-api) \
-mvn(org.apache.maven.scm:maven-scm-manager-plexus) \
-mvn(org.apache.maven.scm:maven-scm-provider-git-commons) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.sonatype.plexus:plexus-sec-dispatcher)"
+mvn-junit-junit \
+mvn-org.apache.maven.scm-maven-scm-api \
+mvn-org.apache.maven.scm-maven-scm-manager-plexus \
+mvn-org.apache.maven.scm-maven-scm-provider-git-commons \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.sonatype.plexus-plexus-sec-dispatcher"
 
 inherit rpm

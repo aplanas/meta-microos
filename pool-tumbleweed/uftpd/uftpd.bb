@@ -9,13 +9,12 @@ PV = "2.15"
 RPM_NAME = "uftpd-2.15-1.7.aarch64.rpm"
 RPM_HASH = "29adf398526810d86c55110c944de8975567342cbb80fe6a86953e0cf7feeaed737f6655955e66b18dff4cd31a68af80d5001970b96c9ecba4b40fbd6d480f6b"
 
-RPROVIDES:${PN} += "tftp(server) \
-uftpd \
-uftpd(aarch-64)"
+RPROVIDES:${PN} += "tftp-server \
+uftpd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libite.so.5()(64bit) \
-libuev.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libite.so.5 \
+libuev.so.3"
 
 inherit rpm

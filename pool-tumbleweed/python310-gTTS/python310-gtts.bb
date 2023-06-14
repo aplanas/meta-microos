@@ -12,13 +12,13 @@ RPM_HASH = "65e3b2bdcc5e089141e5f85cce5f8ef885e6c3dae3f616e3671efa12741aacfe44e6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gTTS \
-python3.10dist(gtts) \
+python3.10dist-gtts \
 python310-gTTS \
-python3dist(gtts)"
+python3dist-gtts"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-beautifulsoup4 \
 python310-click \
 python310-gTTS-token \

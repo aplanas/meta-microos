@@ -12,7 +12,7 @@ RPM_NAME = "texlive-francais-bst-2023.201.1.1svn38922-52.1.noarch.rpm"
 RPM_HASH = "1e76cd99104f147e76d5abf2017f662d4a105a7cc9d85c5b6483080e9d89de4d34ec5e7b6d596c8ebfc3c18ce96ca49f83cba294e12bba8011ee39b35278e77f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(francaisbst.tex) \
+RPROVIDES:${PN} += "tex-francaisbst.tex \
 texlive-francais-bst"
 
 RDEPENDS:${PN} += "/bin/sh \

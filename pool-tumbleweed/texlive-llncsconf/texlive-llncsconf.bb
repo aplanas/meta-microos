@@ -13,7 +13,7 @@ RPM_NAME = "texlive-llncsconf-2023.201.1.2.0svn63136-54.1.noarch.rpm"
 RPM_HASH = "3da7673d531dd32fa27f96511dac5560d5f5e05faf675743aca2b148b9184ed78e4980e14581ab02cd082b20acaa2f31152cec9f277b0125884987cc8b1fcf8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(llncsconf.sty) \
+RPROVIDES:${PN} += "tex-llncsconf.sty \
 texlive-llncsconf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,11 +22,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(eso-pic.sty) \
-tex(hyperref.sty) \
-tex(ifthen.sty) \
-tex(rcsinfo.sty) \
-tex(svninfo.sty) \
+tex-eso-pic.sty \
+tex-hyperref.sty \
+tex-ifthen.sty \
+tex-rcsinfo.sty \
+tex-svninfo.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,10 +10,10 @@ RPM_HASH = "8d49b2cef2ee2238b83584fc62ae0d5ccc46d6ef96de45583ec8ddca200d3673b464
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wurlitzer \
-python3.10dist(wurlitzer) \
+python3.10dist-wurlitzer \
 python310-wurlitzer \
-python3dist(wurlitzer)"
+python3dist-wurlitzer"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

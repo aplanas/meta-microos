@@ -12,15 +12,14 @@ RPM_HASH = "d33e7087b2b1427ca36c2de86bc6775305255074feb34367572d6cf76ed7caadaf3c
 
 RPROVIDES:${PN} += "dbus-1-python3-devel \
 dbus-1-python310-devel \
-pkgconfig(dbus-python-3.10) \
+pkgconfig-dbus-python-3.10 \
 python3-dbus-python-devel \
-python310-dbus-python-devel \
-python310-dbus-python-devel(aarch-64)"
+python310-dbus-python-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1 \
 dbus-1-devel \
-pkgconfig(dbus-1) \
+pkgconfig-dbus-1 \
 python310-dbus-python \
 python310-dbus-python-common-devel \
 python310-devel"

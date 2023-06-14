@@ -11,12 +11,12 @@ RPM_HASH = "7404958224323a51b44fa044c4099424ff354b21b983186b793be13a0f7b04c1f48e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-workloadmonitor \
-python3.10dist(azure-mgmt-workloadmonitor) \
+python3.10dist-azure-mgmt-workloadmonitor \
 python310-azure-mgmt-workloadmonitor \
-python3dist(azure-mgmt-workloadmonitor)"
+python3dist-azure-mgmt-workloadmonitor"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

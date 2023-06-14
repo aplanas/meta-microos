@@ -10,13 +10,12 @@ RPM_HASH = "f3a33272925deee5c69b2ce8e9b9a7ffb62be3d57e10d0a83b64cfddadcba1aca100
 
 RPROVIDES:${PN} += "alsa-plugins-lavcrate \
 alsa-plugins-lavrate \
-alsa-plugins-lavrate(aarch-64) \
-libasound_module_rate_lavrate.so()(64bit)"
+libasound-module-rate-lavrate.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libswresample.so.4()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libavutil.so.58 \
+libc.so.6 \
+libswresample.so.4"
 
 inherit rpm

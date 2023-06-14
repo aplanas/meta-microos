@@ -19,11 +19,11 @@ RPM_HASH = "e709d48844fbd9f23644c552a0d24255fcda6e907ba844a069b2e29ee9a6ed805693
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ciscoconfparse \
-python3.10dist(ciscoconfparse) \
+python3.10dist-ciscoconfparse \
 python310-ciscoconfparse \
-python3dist(ciscoconfparse)"
+python3dist-ciscoconfparse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dnspython \
 python310-loguru \
 python310-toml"

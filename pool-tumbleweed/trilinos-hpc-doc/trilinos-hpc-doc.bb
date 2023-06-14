@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trilinos-hpc-doc"
 
-RDEPENDS:${PN} += "trilinos_14_0_0-hpc-doc"
+RDEPENDS:${PN} += "trilinos-14-0-0-hpc-doc"
 
 inherit rpm

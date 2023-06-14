@@ -20,12 +20,12 @@ RPM_NAME = "perl-Tie-Hash-DBD-0.24-1.1.noarch.rpm"
 RPM_HASH = "cfbd4d9695e650d0bf31c7d2471f33733d96c27be2fbaae2886b6ea088b9d3546df24821c54b2c2ce60979bf0ea23db0882df51380d2eb490dc464d25b10dc15"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tie::Array::DBD) \
-perl(Tie::Hash::DBD) \
+RPROVIDES:${PN} += "perl-Tie--Array--DBD \
+perl-Tie--Hash--DBD \
 perl-Tie-Hash-DBD"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DBI) \
-perl(Test::More)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DBI \
+perl-Test--More"
 
 inherit rpm

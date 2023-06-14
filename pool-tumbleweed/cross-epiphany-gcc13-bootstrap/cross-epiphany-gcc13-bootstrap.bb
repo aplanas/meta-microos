@@ -15,7 +15,6 @@ RPM_NAME = "cross-epiphany-gcc13-bootstrap-13.1.1+git7364-1.1.aarch64.rpm"
 RPM_HASH = "1a0ec8917eeeb53f0e41727ada751122431b274e75231a659e35e1f0712d855f291905f4366bd2d029137c71ec45dedc17d7f9dd384bf46adb9b9b337ce356d9"
 
 RPROVIDES:${PN} += "cross-epiphany-gcc13-bootstrap \
-cross-epiphany-gcc13-bootstrap(aarch-64) \
 epiphany-elf-gcc"
 
 RDEPENDS:${PN} += "/bin/sh \

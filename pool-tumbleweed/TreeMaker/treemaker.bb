@@ -16,22 +16,16 @@ PV = "5.0.1"
 RPM_NAME = "TreeMaker-5.0.1-1.2.aarch64.rpm"
 RPM_HASH = "4aa7b345c66e3f2debe34c5e79b18883f76d501bfd08e1bf9131a7b17f0e41ce4c4a7da6d0a1563aa48a52cb5e2c8c4218e8faf13d53878fa128add47b56ba8a"
 
-RPROVIDES:${PN} += "TreeMaker \
-TreeMaker(aarch-64) \
-application() \
-application(com.langorigami.TreeMaker.desktop) \
-metainfo() \
-metainfo(com.langorigami.TreeMaker.metainfo.xml) \
-mimehandler(model/x-tmd5)"
+RPROVIDES:${PN} += "TreeMaker"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgtk-3.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-html-suse.so.9.0.0"
 
 inherit rpm

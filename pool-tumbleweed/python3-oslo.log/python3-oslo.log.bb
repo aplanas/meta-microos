@@ -13,11 +13,11 @@ RPM_HASH = "256377a551d4c1525b66a8ebda40945dc8ef345a64f53445ddcc3351c576c5acb580
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.log \
-python3.10dist(oslo.log) \
-python3dist(oslo.log)"
+python3.10dist-oslo.log \
+python3dist-oslo.log"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-debtcollector \
 python3-monotonic \
 python3-oslo.config \

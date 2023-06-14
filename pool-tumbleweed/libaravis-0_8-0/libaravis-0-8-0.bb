@@ -12,19 +12,18 @@ PV = "0.8.26"
 RPM_NAME = "libaravis-0_8-0-0.8.26-1.1.aarch64.rpm"
 RPM_HASH = "0af0e1ba052e6e2b3576f0d6f9d0945f9eb9d590f7007f4bf5c57ccd2e980bfc3f14494073058ea2f8436cc1806be71c9942cb67d2e2d3f7f0c387d71fe48c82"
 
-RPROVIDES:${PN} += "libaravis-0.8.so.0()(64bit) \
-libaravis-0_8-0 \
-libaravis-0_8-0(aarch-64)"
+RPROVIDES:${PN} += "libaravis-0-8-0 \
+libaravis-0.8.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libusb-1.0.so.0 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

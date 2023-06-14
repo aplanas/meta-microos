@@ -10,13 +10,12 @@ PV = "1.3"
 RPM_NAME = "libcangjie2-1.3-1.20.aarch64.rpm"
 RPM_HASH = "903d52928d363460321e7db370ff3bad251033d48fdd8e73d1eff2f53ab1cf30a059e38179b581d5ac72003cfc542480ed911b05c3e8446c26f2d8884e9e127a"
 
-RPROVIDES:${PN} += "libcangjie.so.2()(64bit) \
-libcangjie2 \
-libcangjie2(aarch-64)"
+RPROVIDES:${PN} += "libcangjie.so.2 \
+libcangjie2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsqlite3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsqlite3.so.0"
 
 inherit rpm

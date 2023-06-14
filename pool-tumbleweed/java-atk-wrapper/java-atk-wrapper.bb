@@ -15,16 +15,15 @@ RPM_NAME = "java-atk-wrapper-0.38.0-3.7.aarch64.rpm"
 RPM_HASH = "2c531a1b3603cd1545006daa2b30c308706adc2f1302ec2f49fa66e0d3f65376061fd754728ed002bbb4008a51baaed405409e8734cbaec5230ff90c4ae58eac"
 
 RPROVIDES:${PN} += "java-atk-wrapper \
-java-atk-wrapper(aarch-64) \
-libatk-wrapper.so()(64bit)"
+libatk-wrapper.so"
 
 RDEPENDS:${PN} += "java \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libatk-bridge-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libatk-bridge-2.0.so.0 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
 xprop"
 
 inherit rpm

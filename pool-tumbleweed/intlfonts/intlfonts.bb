@@ -37,7 +37,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "intlfnts \
 intlfonts"
 
-RDEPENDS:${PN} += "aaa_base \
+RDEPENDS:${PN} += "aaa-base \
 coreutils \
 perl"
 

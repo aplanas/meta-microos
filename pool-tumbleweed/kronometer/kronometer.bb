@@ -19,31 +19,22 @@ PV = "2.2.3"
 RPM_NAME = "kronometer-2.2.3-2.11.aarch64.rpm"
 RPM_HASH = "3dee93e286462334a0f86e495c018d63f912f9783fcb0259f4bff430b764945720cefc457f4eacd047afacf80e3def5c08a82d6e42588dda5f835d980f737506"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.kronometer.desktop) \
-kronometer \
-kronometer(aarch-64) \
-metainfo() \
-metainfo(org.kde.kronometer.appdata.xml)"
+RPROVIDES:${PN} += "kronometer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5I18n.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

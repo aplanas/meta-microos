@@ -11,9 +11,9 @@ RPM_NAME = "texlive-chemarrow-2023.201.0.0.9svn17146-53.1.noarch.rpm"
 RPM_HASH = "7113ae25bc0b249a4aea17b18d054a32cfb9c1dd641dc05cc7dbd5baf5fef132cde38bc90f3536cd6927b571005d0e95d1f9c1b7068d1bf6e0acf977600c2a33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arrow.tfm) \
-tex(chemarrow.map) \
-tex(chemarrow.sty) \
+RPROVIDES:${PN} += "tex-arrow.tfm \
+tex-chemarrow.map \
+tex-chemarrow.sty \
 texlive-chemarrow"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
+tex-updmap.cfg \
 texlive \
 texlive-chemarrow-fonts \
 texlive-filesystem \

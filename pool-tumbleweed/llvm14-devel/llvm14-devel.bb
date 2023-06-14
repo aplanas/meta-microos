@@ -8,35 +8,34 @@ PV = "14.0.6"
 RPM_NAME = "llvm14-devel-14.0.6-9.1.aarch64.rpm"
 RPM_HASH = "f987e99503a0c392dc8b8a2a2a8e32b8339a08a7fa302c4dbbbce04a71c441b062560316e2597dbbb4fe8dd47dc870583c7f876402bb9b130d4327bd8430d139"
 
-RPROVIDES:${PN} += "cmake(LLVM) \
-cmake(LLVM-) \
+RPROVIDES:${PN} += "cmake-LLVM \
+cmake-LLVM- \
 libLTO.so \
 llvm-devel-provider \
 llvm14-devel \
-llvm14-devel(aarch-64) \
-rpm_macro(_libclang_sonum) \
-rpm_macro(_libcxx_sonum) \
-rpm_macro(_llvm_minorver) \
-rpm_macro(_llvm_relver) \
-rpm_macro(_llvm_sonum) \
-rpm_macro(_llvm_version) \
-rpm_macro(_llvm_with_ffi) \
-rpm_macro(_llvm_with_libcxx) \
-rpm_macro(_llvm_with_lldb) \
-rpm_macro(_llvm_with_openmp) \
-rpm_macro(_llvm_with_oprofile) \
-rpm_macro(_llvm_with_valgrind)"
+rpm-macro--libclang-sonum \
+rpm-macro--libcxx-sonum \
+rpm-macro--llvm-minorver \
+rpm-macro--llvm-relver \
+rpm-macro--llvm-sonum \
+rpm-macro--llvm-version \
+rpm-macro--llvm-with-ffi \
+rpm-macro--llvm-with-libcxx \
+rpm-macro--llvm-with-lldb \
+rpm-macro--llvm-with-openmp \
+rpm-macro--llvm-with-oprofile \
+rpm-macro--llvm-with-valgrind"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
 libLLVM14 \
 libLTO14 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
 libomp14-devel \
 libstdc++-devel \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 libtool \
 llvm14 \
 llvm14-gold \

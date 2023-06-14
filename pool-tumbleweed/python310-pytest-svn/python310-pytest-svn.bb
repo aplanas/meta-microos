@@ -9,11 +9,11 @@ RPM_HASH = "efbbed4c724acd1c138945b751f16bd7e8c18956717db9e51abac9ba652508d08124
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-svn \
-python3.10dist(pytest-svn) \
+python3.10dist-pytest-svn \
 python310-pytest-svn \
-python3dist(pytest-svn)"
+python3dist-pytest-svn"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-pytest-shutil \
 subversion"

@@ -12,11 +12,10 @@ RPM_NAME = "perl-Net-IP-1.26-8.15.noarch.rpm"
 RPM_HASH = "6369f5ff7732729e9d9c7a8ba545d3e113cb10779227e18e397d87038191dd55326378bcb7567a8bfa8a6adf8d9d3e5fc9dadf3d1e838c76bcb687b41bec6330"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::IP) \
-perl-Net-IP \
-perl_Net-IP"
+RPROVIDES:${PN} += "perl-Net--IP \
+perl-Net-IP"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

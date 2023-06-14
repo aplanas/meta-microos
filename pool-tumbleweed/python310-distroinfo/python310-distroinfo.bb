@@ -10,11 +10,11 @@ RPM_HASH = "127ca08d954fafc07262cdd2056ea1c463449987e986d3116660c33544c6024fee4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-distroinfo \
-python3.10dist(distroinfo) \
+python3.10dist-distroinfo \
 python310-distroinfo \
-python3dist(distroinfo)"
+python3dist-distroinfo"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-pbr \
 python310-requests \

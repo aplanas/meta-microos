@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "superlu-gnu-hpc-doc"
 
-RDEPENDS:${PN} += "superlu_6_0_0-gnu-hpc-doc"
+RDEPENDS:${PN} += "superlu-6-0-0-gnu-hpc-doc"
 
 inherit rpm

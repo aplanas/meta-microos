@@ -12,14 +12,13 @@ PV = "0.4.6"
 RPM_NAME = "voro++-0.4.6-1.24.aarch64.rpm"
 RPM_HASH = "8558eead56474c6ae66f3353b31b4bb53fe8b5f920e1f58c05480916fa6a4405e4675ba6f0feb9be10b7a7bb21cd08d35af64b303a025a0d81d39494bf6c2ffc"
 
-RPROVIDES:${PN} += "voro++ \
-voro++(aarch-64)"
+RPROVIDES:${PN} += "voro++"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libvoro++.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libvoro++.so.0"
 
 inherit rpm

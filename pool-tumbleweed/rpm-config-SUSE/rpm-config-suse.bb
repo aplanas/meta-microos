@@ -10,21 +10,21 @@ RPM_HASH = "0048b4f385ef887fc5b04fc1515f91e5c50945c12368084605487951b4de65b101a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-config-SUSE \
-rpm_macro(_binarychangelogtrim) \
-rpm_macro(_vpath_builddir) \
-rpm_macro(_vpath_srcdir) \
-rpm_macro(ext_info) \
-rpm_macro(ext_man) \
-rpm_macro(ldconfig) \
-rpm_macro(ldconfig_post) \
-rpm_macro(ldconfig_postun) \
-rpm_macro(ldconfig_scriptlets) \
-rpm_macro(regenerate_initrd_post) \
-rpm_macro(regenerate_initrd_posttrans) \
-rpm_macro(sbat_distro) \
-rpm_macro(sbat_distro_summary) \
-rpm_macro(sbat_distro_url) \
-rpm_macro(user_group_add)"
+rpm-macro--binarychangelogtrim \
+rpm-macro--vpath-builddir \
+rpm-macro--vpath-srcdir \
+rpm-macro-ext-info \
+rpm-macro-ext-man \
+rpm-macro-ldconfig \
+rpm-macro-ldconfig-post \
+rpm-macro-ldconfig-postun \
+rpm-macro-ldconfig-scriptlets \
+rpm-macro-regenerate-initrd-post \
+rpm-macro-regenerate-initrd-posttrans \
+rpm-macro-sbat-distro \
+rpm-macro-sbat-distro-summary \
+rpm-macro-sbat-distro-url \
+rpm-macro-user-group-add"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

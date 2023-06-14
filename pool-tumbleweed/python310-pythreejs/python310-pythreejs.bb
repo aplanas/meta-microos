@@ -12,12 +12,12 @@ RPM_HASH = "292fc7e0bb92ac1209d0a659ea93f16fe8e5d7f2093a083d25336a525e5df374bca6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythreejs \
-python3.10dist(pythreejs) \
+python3.10dist-pythreejs \
 python310-pythreejs \
-python3dist(pythreejs)"
+python3dist-pythreejs"
 
 RDEPENDS:${PN} += "jupyter-threejs \
-python(abi) \
+python-abi \
 python310-ipydatawidgets \
 python310-ipywidgets \
 python310-numpy \

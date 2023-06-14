@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ini2toml-lite \
 python310-ini2toml-lite"
 
-RDEPENDS:${PN} += "(python310-importlib-metadata if python310-base < 3.8) \
-(python310-tomli-w >= 0.4.0 with python310-tomli-w < 2) \
+RDEPENDS:${PN} += "-python310-importlib-metadata if python310-base < 3.8 \
+-python310-tomli-w >= 0.4.0 with python310-tomli-w < 2 \
 python310-ini2toml"
 
 inherit rpm

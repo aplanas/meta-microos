@@ -10,13 +10,13 @@ RPM_HASH = "ff751aa160d9ac58d2d187422bc7ae1daf992622cfa094ea9297c94aadffcad3f1b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-managesieve \
-python3.10dist(managesieve) \
+python3.10dist-managesieve \
 python310-managesieve \
-python3dist(managesieve)"
+python3dist-managesieve"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

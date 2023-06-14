@@ -9,11 +9,11 @@ RPM_NAME = "python39-wolframalpha-5.0.0-2.3.noarch.rpm"
 RPM_HASH = "bb1b9c8c4a7b79b0549003be06b8eedc66d927116c57274dd4340c62e620a821793caee593823cb770d9a2425e3da3a2f2bd09d0057ae58ce6431686e3256695"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(wolframalpha) \
+RPROVIDES:${PN} += "python3.9dist-wolframalpha \
 python39-wolframalpha \
-python3dist(wolframalpha)"
+python3dist-wolframalpha"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-jaraco.context \
 python39-more-itertools \
 python39-xmltodict"

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-overpic-2023.201.1.3svn53889-51.1.noarch.rpm"
 RPM_HASH = "cc518b433f8931fb820ad5d819e867766508acbdf0f512e120b19e5da484e48641680df62c68c12515c2597abd27e683c2d22a25eb023f394d9b8af5c2ca9e5d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(overpic.sty) \
+RPROVIDES:${PN} += "tex-overpic.sty \
 texlive-overpic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,8 +21,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(epic.sty) \
-tex(graphicx.sty) \
+tex-epic.sty \
+tex-graphicx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

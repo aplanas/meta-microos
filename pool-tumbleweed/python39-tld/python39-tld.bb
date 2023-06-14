@@ -10,13 +10,13 @@ RPM_NAME = "python39-tld-0.12.6-2.5.noarch.rpm"
 RPM_HASH = "aba4c00c694ed15e06b6c1358874bcd3c45a30ac0c8c57f1c8533d5ad1095fd2569b3c68cfdc22ef8c5cb5082064aa899f15605c3347724eb5bd0329eaddaa02"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(tld) \
+RPROVIDES:${PN} += "python3.9dist-tld \
 python39-tld \
-python3dist(tld)"
+python3dist-tld"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

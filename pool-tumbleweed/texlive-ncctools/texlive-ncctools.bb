@@ -24,31 +24,31 @@ RPM_NAME = "texlive-ncctools-2023.201.3.5.3svn51810-54.1.noarch.rpm"
 RPM_HASH = "921a2a3e4920ba69604f37ff83ef2697125e7a47e7f7cd15920b68596c67b7a9dd6574a937898c152e8d71181a4db3f1554ab7701a386dbaed10af91309c9ef8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(afterpackage.sty) \
-tex(dcounter.sty) \
-tex(desclist.sty) \
-tex(extdash.sty) \
-tex(manyfoot.sty) \
-tex(mboxfill.sty) \
-tex(nccbbb.sty) \
-tex(nccboxes.sty) \
-tex(ncccomma.sty) \
-tex(ncccropbox.sty) \
-tex(ncccropmark.sty) \
-tex(nccfancyhdr.sty) \
-tex(nccfloats.sty) \
-tex(nccfoots.sty) \
-tex(nccmath.sty) \
-tex(nccparskip.sty) \
-tex(nccpic.sty) \
-tex(nccrules.sty) \
-tex(nccsect.sty) \
-tex(nccstretch.sty) \
-tex(nccthm.sty) \
-tex(textarea.sty) \
-tex(tocenter.sty) \
-tex(topsection.sty) \
-tex(watermark.sty) \
+RPROVIDES:${PN} += "tex-afterpackage.sty \
+tex-dcounter.sty \
+tex-desclist.sty \
+tex-extdash.sty \
+tex-manyfoot.sty \
+tex-mboxfill.sty \
+tex-nccbbb.sty \
+tex-nccboxes.sty \
+tex-ncccomma.sty \
+tex-ncccropbox.sty \
+tex-ncccropmark.sty \
+tex-nccfancyhdr.sty \
+tex-nccfloats.sty \
+tex-nccfoots.sty \
+tex-nccmath.sty \
+tex-nccparskip.sty \
+tex-nccpic.sty \
+tex-nccrules.sty \
+tex-nccsect.sty \
+tex-nccstretch.sty \
+tex-nccthm.sty \
+tex-textarea.sty \
+tex-tocenter.sty \
+tex-topsection.sty \
+tex-watermark.sty \
 texlive-ncctools"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -57,10 +57,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsgen.sty) \
-tex(amsmath.sty) \
-tex(graphicx.sty) \
-tex(perpage.sty) \
+tex-amsgen.sty \
+tex-amsmath.sty \
+tex-graphicx.sty \
+tex-perpage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

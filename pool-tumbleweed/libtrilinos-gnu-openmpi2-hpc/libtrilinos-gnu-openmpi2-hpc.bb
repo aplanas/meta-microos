@@ -9,10 +9,9 @@ PV = "14.0.0"
 RPM_NAME = "libtrilinos-gnu-openmpi2-hpc-14.0.0-1.2.aarch64.rpm"
 RPM_HASH = "575dfa81638df55cf724bffd322af7b3f2d486e8ba5e0e4febda612f02fd5984cdbf9632b2af5f0e8919b203ef325bb92ea0a905c1957e2e7fa28e67e475a71d"
 
-RPROVIDES:${PN} += "libtrilinos-gnu-openmpi2-hpc \
-libtrilinos-gnu-openmpi2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libtrilinos-gnu-openmpi2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-libtrilinos_14_0_0-gnu-openmpi2-hpc"
+libtrilinos-14-0-0-gnu-openmpi2-hpc"
 
 inherit rpm

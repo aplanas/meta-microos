@@ -17,7 +17,7 @@ RPM_NAME = "texlive-appendix-2023.201.1.2csvn53718-54.1.noarch.rpm"
 RPM_HASH = "6143d16b4913453607ae179acd9666b169aa37f1a371f499212692878070cf33e7b1f72aafa579798f5f15ce9b3773e38ddca018c40f29946c920a637009ace4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(appendix.sty) \
+RPROVIDES:${PN} += "tex-appendix.sty \
 texlive-appendix"
 
 RDEPENDS:${PN} += "/bin/sh \

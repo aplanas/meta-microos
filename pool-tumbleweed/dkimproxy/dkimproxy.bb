@@ -14,11 +14,11 @@ RPM_HASH = "663da0b36130ce1e255a09803c7a8162112852afce617f746f5baf623ef861230424
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dkimproxy \
-perl(LookupMap) \
-perl(MSDW::SMTP::Client) \
-perl(MSDW::SMTP::Server) \
-perl(MySmtpProxyServer) \
-perl(MySmtpServer)"
+perl-LookupMap \
+perl-MSDW--SMTP--Client \
+perl-MSDW--SMTP--Server \
+perl-MySmtpProxyServer \
+perl-MySmtpServer"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
@@ -26,7 +26,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 git-core \
-perl(IO::Socket::INET6) \
+perl-IO--Socket--INET6 \
 perl-Mail-DKIM \
 perl-Net-Server \
 pwdutils"

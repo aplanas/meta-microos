@@ -7,10 +7,9 @@ PV = "8.0.2"
 RPM_NAME = "qemu-audio-oss-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "a0ea3634767d9fce086c3cd16d9d7cd03e3190066e649a1cef4ca67f6c19e3d6d3f258e65a37e557693d6cbae0f7e2fec6bf3a4ef97bf3ae0a67910961f09062"
 
-RPROVIDES:${PN} += "qemu-audio-oss \
-qemu-audio-oss(aarch-64)"
+RPROVIDES:${PN} += "qemu-audio-oss"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

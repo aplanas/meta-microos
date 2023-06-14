@@ -10,26 +10,26 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cryptsetup-lang \
 cryptsetup-lang-all \
-locale(cryptsetup:cs) \
-locale(cryptsetup:da) \
-locale(cryptsetup:de) \
-locale(cryptsetup:es) \
-locale(cryptsetup:fi) \
-locale(cryptsetup:fr) \
-locale(cryptsetup:id) \
-locale(cryptsetup:it) \
-locale(cryptsetup:ja) \
-locale(cryptsetup:ka) \
-locale(cryptsetup:nl) \
-locale(cryptsetup:pl) \
-locale(cryptsetup:pt_BR) \
-locale(cryptsetup:ro) \
-locale(cryptsetup:ru) \
-locale(cryptsetup:sr) \
-locale(cryptsetup:sv) \
-locale(cryptsetup:uk) \
-locale(cryptsetup:vi) \
-locale(cryptsetup:zh_CN)"
+locale-cryptsetup-cs \
+locale-cryptsetup-da \
+locale-cryptsetup-de \
+locale-cryptsetup-es \
+locale-cryptsetup-fi \
+locale-cryptsetup-fr \
+locale-cryptsetup-id \
+locale-cryptsetup-it \
+locale-cryptsetup-ja \
+locale-cryptsetup-ka \
+locale-cryptsetup-nl \
+locale-cryptsetup-pl \
+locale-cryptsetup-pt-BR \
+locale-cryptsetup-ro \
+locale-cryptsetup-ru \
+locale-cryptsetup-sr \
+locale-cryptsetup-sv \
+locale-cryptsetup-uk \
+locale-cryptsetup-vi \
+locale-cryptsetup-zh-CN"
 
 RDEPENDS:${PN} += "cryptsetup"
 

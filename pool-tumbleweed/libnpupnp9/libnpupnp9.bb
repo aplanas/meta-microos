@@ -7,17 +7,16 @@ PV = "5.0.0"
 RPM_NAME = "libnpupnp9-5.0.0-1.4.aarch64.rpm"
 RPM_HASH = "9825363addad8dbff479f10c018b7c5244311cda40371a98346d95b90164838c296b0e2c94eaa408c728a80da0ad0c609fc4fa886d83d5513a341eec2de4c315"
 
-RPROVIDES:${PN} += "libnpupnp.so.9()(64bit) \
-libnpupnp9 \
-libnpupnp9(aarch-64)"
+RPROVIDES:${PN} += "libnpupnp.so.9 \
+libnpupnp9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libexpat.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmicrohttpd.so.12()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libexpat.so.1 \
+libgcc-s.so.1 \
+libmicrohttpd.so.12 \
+libstdc++.so.6"
 
 inherit rpm

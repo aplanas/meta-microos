@@ -28,38 +28,38 @@ RPM_NAME = "perl-Apache-Session-1.94-1.12.noarch.rpm"
 RPM_HASH = "5e06e280ea6cc867059d5028529c32a86806bd619848fc7d9109397f36525ee714f075a108c3dd72a9924a6a165b56d1c2f16364f27364fafbdb4e53ff1370b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Apache::Session) \
-perl(Apache::Session::DB_File) \
-perl(Apache::Session::File) \
-perl(Apache::Session::Flex) \
-perl(Apache::Session::Generate::MD5) \
-perl(Apache::Session::Generate::ModUniqueId) \
-perl(Apache::Session::Generate::ModUsertrack) \
-perl(Apache::Session::Informix) \
-perl(Apache::Session::Lock::File) \
-perl(Apache::Session::Lock::MySQL) \
-perl(Apache::Session::Lock::Null) \
-perl(Apache::Session::Lock::Semaphore) \
-perl(Apache::Session::Lock::Sybase) \
-perl(Apache::Session::MySQL) \
-perl(Apache::Session::MySQL::NoLock) \
-perl(Apache::Session::Oracle) \
-perl(Apache::Session::Postgres) \
-perl(Apache::Session::Serialize::Base64) \
-perl(Apache::Session::Serialize::Storable) \
-perl(Apache::Session::Serialize::Sybase) \
-perl(Apache::Session::Serialize::UUEncode) \
-perl(Apache::Session::Store::DBI) \
-perl(Apache::Session::Store::DB_File) \
-perl(Apache::Session::Store::File) \
-perl(Apache::Session::Store::Informix) \
-perl(Apache::Session::Store::MySQL) \
-perl(Apache::Session::Store::Oracle) \
-perl(Apache::Session::Store::Postgres) \
-perl(Apache::Session::Store::Sybase) \
-perl(Apache::Session::Sybase) \
+RPROVIDES:${PN} += "perl-Apache--Session \
+perl-Apache--Session--DB-File \
+perl-Apache--Session--File \
+perl-Apache--Session--Flex \
+perl-Apache--Session--Generate--MD5 \
+perl-Apache--Session--Generate--ModUniqueId \
+perl-Apache--Session--Generate--ModUsertrack \
+perl-Apache--Session--Informix \
+perl-Apache--Session--Lock--File \
+perl-Apache--Session--Lock--MySQL \
+perl-Apache--Session--Lock--Null \
+perl-Apache--Session--Lock--Semaphore \
+perl-Apache--Session--Lock--Sybase \
+perl-Apache--Session--MySQL \
+perl-Apache--Session--MySQL--NoLock \
+perl-Apache--Session--Oracle \
+perl-Apache--Session--Postgres \
+perl-Apache--Session--Serialize--Base64 \
+perl-Apache--Session--Serialize--Storable \
+perl-Apache--Session--Serialize--Sybase \
+perl-Apache--Session--Serialize--UUEncode \
+perl-Apache--Session--Store--DB-File \
+perl-Apache--Session--Store--DBI \
+perl-Apache--Session--Store--File \
+perl-Apache--Session--Store--Informix \
+perl-Apache--Session--Store--MySQL \
+perl-Apache--Session--Store--Oracle \
+perl-Apache--Session--Store--Postgres \
+perl-Apache--Session--Store--Sybase \
+perl-Apache--Session--Sybase \
 perl-Apache-Session"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

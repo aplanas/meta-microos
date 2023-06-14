@@ -16,13 +16,13 @@ RPM_NAME = "transifex-client-0.14.4-1.4.noarch.rpm"
 RPM_HASH = "d544672a4507079b0e796545d57f051c4a2c00fa091066d0f460a7f2f3231c3394ffc617843a65f2a21dba7f57550e9d94f908d853b09d12321c03585e2ecaf4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(transifex-client) \
-python3dist(transifex-client) \
+RPROVIDES:${PN} += "python3.10dist-transifex-client \
+python3dist-transifex-client \
 transifex-client"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-python-slugify \
 python3-requests \
 python3-setuptools \

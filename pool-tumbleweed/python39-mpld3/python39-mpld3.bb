@@ -14,11 +14,11 @@ RPM_NAME = "python39-mpld3-0.5.9-1.3.noarch.rpm"
 RPM_HASH = "0e74bf50c5ad0e7938862a2e49847c4742b01515f58341cbbf8b74453a5c1c0006d788d2459245ea364d5918135c2a528df8d7e4847c2d608c64c5a70ee48511"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(mpld3) \
+RPROVIDES:${PN} += "python3.9dist-mpld3 \
 python39-mpld3 \
-python3dist(mpld3)"
+python3dist-mpld3"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Jinja2 \
 python39-matplotlib"
 

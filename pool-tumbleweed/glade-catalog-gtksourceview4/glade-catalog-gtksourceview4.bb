@@ -15,8 +15,7 @@ RPM_NAME = "glade-catalog-gtksourceview4-4.8.4-1.3.aarch64.rpm"
 RPM_HASH = "11d4c6a093f0d81cde6fb1694b5b6f94279871fa3d88f6527fc868edfb44e2692a6979d52705f84f922abac3485720835a89f52098664d43b94fce73bed56af7"
 
 RPROVIDES:${PN} += "glade-catalog-gtksourceview \
-glade-catalog-gtksourceview4 \
-glade-catalog-gtksourceview4(aarch-64)"
+glade-catalog-gtksourceview4"
 
 RDEPENDS:${PN} += "glade \
 libgtksourceview-4-0"

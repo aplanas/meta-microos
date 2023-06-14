@@ -21,20 +21,19 @@ RPM_NAME = "python310-healpy-1.16.2-1.1.aarch64.rpm"
 RPM_HASH = "1aa117a353de66373cf0a2931dbd29ecb16a6049dfdeaa7a7cad1dadec2f51c7c52845fff8d4d47ee2d60260dd1ba770872b8e3f299713b9a11781a48e27adcf"
 
 RPROVIDES:${PN} += "python3-healpy \
-python3.10dist(healpy) \
+python3.10dist-healpy \
 python310-healpy \
-python310-healpy(aarch-64) \
-python3dist(healpy)"
+python3dist-healpy"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhealpix_cxx.so.3()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhealpix-cxx.so.3 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-astropy \
 python310-matplotlib \
 python310-numpy \

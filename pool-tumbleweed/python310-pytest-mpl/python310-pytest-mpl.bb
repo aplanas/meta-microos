@@ -9,11 +9,11 @@ RPM_HASH = "401c7d54059d6094f0a3da05abd06d13900c22256e668b9f216912dcb6b980da60a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-mpl \
-python3.10dist(pytest-mpl) \
+python3.10dist-pytest-mpl \
 python310-pytest-mpl \
-python3dist(pytest-mpl)"
+python3dist-pytest-mpl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-matplotlib \
 python310-pytest"

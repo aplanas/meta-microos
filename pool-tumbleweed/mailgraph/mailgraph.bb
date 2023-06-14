@@ -11,7 +11,7 @@ RPM_HASH = "1ea9c08f32cb634cd6ab6ccf59c33596949b244856dfcc635322f03d3430ac7c65f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/srv/www/htdocs/css \
-config(mailgraph) \
+config-mailgraph \
 mailgraph"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 fillup \
 logrotate \
-perl(File::Tail) \
-perl(RRDs) \
+perl-File--Tail \
+perl-RRDs \
 postfix \
 rrdtool \
 systemd"

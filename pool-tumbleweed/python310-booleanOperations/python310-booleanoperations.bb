@@ -9,11 +9,11 @@ RPM_HASH = "324a4a36426d02b655c2af7ff5138131b29dcae6e4b62395c54e9b0c146c41108d54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-booleanOperations \
-python3.10dist(booleanoperations) \
+python3.10dist-booleanoperations \
 python310-booleanOperations \
-python3dist(booleanoperations)"
+python3dist-booleanoperations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-FontTools \
 python310-pyclipper"
 

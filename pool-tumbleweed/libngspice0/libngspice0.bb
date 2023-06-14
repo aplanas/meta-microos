@@ -9,20 +9,19 @@ PV = "40"
 RPM_NAME = "libngspice0-40-1.1.aarch64.rpm"
 RPM_HASH = "e0cccb4e041b9941640488c711a5e2425cc92c9df1962c37fff4a644534974e0914acd3381043aeeeea2a0d841653e2f2da8b273447f31a286b5c7ef9b24abe4"
 
-RPROVIDES:${PN} += "libngspice.so.0()(64bit) \
-libngspice0 \
-libngspice0(aarch-64)"
+RPROVIDES:${PN} += "libngspice.so.0 \
+libngspice0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libreadline.so.8 \
+libstdc++.so.6 \
+libtinfo.so.6 \
 ngspice-scripts \
 ngspice-xspice-cm"
 

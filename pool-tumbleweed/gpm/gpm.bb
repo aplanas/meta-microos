@@ -11,9 +11,8 @@ PV = "1.20.7"
 RPM_NAME = "gpm-1.20.7-19.14.aarch64.rpm"
 RPM_HASH = "2c504774dcf60cbc480fcf3892abe7e22a96408c27eeaedec56a8d6b0366ad44511db35573a989a22329b97e6591f82af3b97aa70b5d962dca15424530fa122a"
 
-RPROVIDES:${PN} += "config(gpm) \
+RPROVIDES:${PN} += "config-gpm \
 gpm \
-gpm(aarch-64) \
 select"
 
 RDEPENDS:${PN} += "/bin/sed \
@@ -21,9 +20,9 @@ RDEPENDS:${PN} += "/bin/sed \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgpm.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgpm.so.2 \
 systemd"
 
 inherit rpm

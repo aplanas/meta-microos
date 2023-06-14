@@ -13,7 +13,7 @@ RPM_HASH = "2a88e4466b7c4116bfa580a56278ef1bf20d460b97873363dde7836b12d01a0fdf06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-grafana-dashboards \
-config(ceph-grafana-dashboards)"
+config-ceph-grafana-dashboards"
 
 RDEPENDS:${PN} += ""
 

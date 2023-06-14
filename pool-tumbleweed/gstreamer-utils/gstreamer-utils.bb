@@ -12,16 +12,15 @@ PV = "1.22.3"
 RPM_NAME = "gstreamer-utils-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "07e02102a7250183ad9f8da86189562a71684859d91da0d771219fc7510d04d6c0453abf3e4c2b97c2135ef05303286cd507e31d4ca2f0ca67c493524cb54ac8"
 
-RPROVIDES:${PN} += "gstreamer-utils \
-gstreamer-utils(aarch-64) \
-gstreamer-utils_versioned \
-gstreamer:/usr/bin/gst-launch-1.0"
+RPROVIDES:${PN} += "gstreamer-/usr/bin/gst-launch-1.0 \
+gstreamer-utils \
+gstreamer-utils-versioned"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0"
 
 inherit rpm

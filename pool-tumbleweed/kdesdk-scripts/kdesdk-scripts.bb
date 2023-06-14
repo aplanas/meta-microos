@@ -9,7 +9,6 @@ RPM_HASH = "4bc2c4df7bbf3bbeb5190bc73e43feaaf6221a3703cd69716ef17206b74f20be6f53
 
 RPROVIDES:${PN} += "kde-dev-scripts \
 kdesdk-scripts \
-kdesdk-scripts(aarch-64) \
 kdesdk4-scripts"
 
 RDEPENDS:${PN} += "/bin/bash \

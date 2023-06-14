@@ -16,12 +16,11 @@ PV = "2.0.15"
 RPM_NAME = "mosquitto-clients-2.0.15-1.4.aarch64.rpm"
 RPM_HASH = "580f0bd9956409c31b44573aa2e4e437696c5fac1f8dd9254f5c05ddd0d11e2e65a2bed3b3b2bedb99417ac57eb74edc4d0556e2943af728d01451ffd2e1355e"
 
-RPROVIDES:${PN} += "mosquitto-clients \
-mosquitto-clients(aarch-64)"
+RPROVIDES:${PN} += "mosquitto-clients"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcjson.so.1()(64bit) \
-libmosquitto.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcjson.so.1 \
+libmosquitto.so.1"
 
 inherit rpm

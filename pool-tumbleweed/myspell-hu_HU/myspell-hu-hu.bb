@@ -9,10 +9,10 @@ RPM_HASH = "8136fbd136fd7525dc61ce776bfcaaa311c0b93d88cd9421e4ca8e25f0ffa6f2b47e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-hu \
-locale(libreoffice:hu_HU) \
-locale(seamonkey-spellchecker:hu_HU) \
+locale-libreoffice-hu-HU \
+locale-seamonkey-spellchecker-hu-HU \
 myspell-dictionary \
-myspell-hu_HU \
+myspell-hu-HU \
 myspell-hungarian"
 
 RDEPENDS:${PN} += "myspell-dictionaries"

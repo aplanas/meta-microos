@@ -11,15 +11,14 @@ PV = "2.2.1"
 RPM_NAME = "liblavfile-2_2-0-2.2.1-2.5.aarch64.rpm"
 RPM_HASH = "2a9149e2eca258c2edce68677455ce6dccf3fe4f035e84e9c6662460a69d783457d976208aa7d57136a62625b26b676824a1dc2d7a2528f24b55ccfede485db9"
 
-RPROVIDES:${PN} += "liblavfile-2.2.so.0()(64bit) \
-liblavfile-2_2-0 \
-liblavfile-2_2-0(aarch-64)"
+RPROVIDES:${PN} += "liblavfile-2-2-0 \
+liblavfile-2.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdv.so.4()(64bit) \
-libmjpegutils-2.2.so.0()(64bit) \
-libquicktime.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdv.so.4 \
+libmjpegutils-2.2.so.0 \
+libquicktime.so.0"
 
 inherit rpm

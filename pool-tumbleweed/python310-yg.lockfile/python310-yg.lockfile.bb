@@ -10,11 +10,11 @@ RPM_HASH = "21ec7651d25c5341f65a63326207253e9ebd1d7206d90e3483f6bf3f65123694f1f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yg.lockfile \
-python3.10dist(yg.lockfile) \
+python3.10dist-yg.lockfile \
 python310-yg.lockfile \
-python3dist(yg.lockfile)"
+python3dist-yg.lockfile"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jaraco.functools \
 python310-tempora \
 python310-zc.lockfile"

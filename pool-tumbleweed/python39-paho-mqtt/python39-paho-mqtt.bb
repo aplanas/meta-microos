@@ -18,10 +18,10 @@ RPM_NAME = "python39-paho-mqtt-1.6.1-2.10.noarch.rpm"
 RPM_HASH = "936daacdc12a8f82aaeb6d4e7f36e7d113036b2b7637d78e0238af397656a70fa1cc19b6cc0e96c46073a7f9156df6b990b096779699506e4d8e3dadaad5faff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(paho-mqtt) \
+RPROVIDES:${PN} += "python3.9dist-paho-mqtt \
 python39-paho-mqtt \
-python3dist(paho-mqtt)"
+python3dist-paho-mqtt"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

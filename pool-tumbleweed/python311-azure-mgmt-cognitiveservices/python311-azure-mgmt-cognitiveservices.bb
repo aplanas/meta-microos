@@ -13,12 +13,12 @@ RPM_NAME = "python311-azure-mgmt-cognitiveservices-13.4.0-1.3.noarch.rpm"
 RPM_HASH = "fcf83b9e27057c9b37737a2fe96ff2f8ded38b8c41bcf5f240252bb2b9cbae675a3c7dcc45addf6a2e0479f4f3dc63da1bd73094de98bbb14813a5f7b215f24d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-cognitiveservices) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-cognitiveservices \
 python311-azure-mgmt-cognitiveservices \
-python3dist(azure-mgmt-cognitiveservices)"
+python3dist-azure-mgmt-cognitiveservices"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

@@ -11,14 +11,13 @@ PV = "1.5.1"
 RPM_NAME = "klogd-1.5.1-802.3.aarch64.rpm"
 RPM_HASH = "70c8185ac1c336d5dbc25cc3d066b22a508aece265ba5d03daffc557bb3cdbbc0b43a4808f284039b252652b6a1720493c9a7c03243ba5c445f9857f5a5c3bfa"
 
-RPROVIDES:${PN} += "klogd \
-klogd(aarch-64)"
+RPROVIDES:${PN} += "klogd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

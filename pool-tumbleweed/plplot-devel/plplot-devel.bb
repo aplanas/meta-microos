@@ -15,24 +15,23 @@ PV = "5.15.0"
 RPM_NAME = "plplot-devel-5.15.0-16.2.aarch64.rpm"
 RPM_HASH = "ed6d2d1927b6ce154481b4cccc85722ce340ff8aa05fa9a957322a06e6efe90d96dc0b41fe142c44320a014068565643ce8e75dd885d97a0c6e60fc0fc0da377"
 
-RPROVIDES:${PN} += "cmake(plplot) \
-pkgconfig(plplot) \
+RPROVIDES:${PN} += "cmake-plplot \
+pkgconfig-plplot \
 plplot \
-plplot-devel \
-plplot-devel(aarch-64)"
+plplot-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/pkg-config \
 gcc-c++ \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcsirocsa0 \
 libcsironn0 \
 libplplot17 \
 libqsastime0 \
 pkgconfig \
-pkgconfig(freetype2) \
+pkgconfig-freetype2 \
 plplot-common"
 
 inherit rpm

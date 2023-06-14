@@ -8,15 +8,14 @@ PV = "2.20.0"
 RPM_NAME = "hypre_2_20_0-gnu-openmpi4-hpc-devel-2.20.0-1.22.aarch64.rpm"
 RPM_HASH = "fb1fbec9d884f584997adde65aeaef86bc3bbc7d431293c3cec271118ea6c3919dd02ddc7b46673789039cd1402237b83367fa4527e20c1181d41f329ed648a1"
 
-RPROVIDES:${PN} += "hypre_2_20_0-gnu-openmpi4-hpc-devel \
-hypre_2_20_0-gnu-openmpi4-hpc-devel(aarch-64) \
-pkgconfig(hypre)"
+RPROVIDES:${PN} += "hypre-2-20-0-gnu-openmpi4-hpc-devel \
+pkgconfig-hypre"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libHYPRE_2_20_0-gnu-openmpi4-hpc \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libHYPRE-2-20-0-gnu-openmpi4-hpc \
+libc.so.6 \
 libopenblas-gnu-hpc-devel \
 openmpi4-gnu-hpc-devel \
 superlu-gnu-hpc-devel"

@@ -18,6 +18,6 @@ RDEPENDS:${PN} += "/bin/bash \
 fillup \
 logrotate \
 syslog \
-sysvinit(network)"
+sysvinit-network"
 
 inherit rpm

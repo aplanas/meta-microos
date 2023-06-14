@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gluster"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

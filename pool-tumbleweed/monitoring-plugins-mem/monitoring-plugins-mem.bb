@@ -12,7 +12,7 @@ RPM_NAME = "monitoring-plugins-mem-20120618-102.10.noarch.rpm"
 RPM_HASH = "5f46d34676c797ebad7dd9f0cba0f8c513100b25742926b5e72beab969fde1af78a3c4211a5cf1f92d9a78697d1a773a0aa236097ad49df8c7f09038c994c30d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(monitoring-plugins-mem) \
+RPROVIDES:${PN} += "config-monitoring-plugins-mem \
 monitoring-plugins-mem \
 nagios-plugins-mem"
 

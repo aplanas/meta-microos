@@ -10,11 +10,10 @@ PV = "3.10.0.rc3"
 RPM_NAME = "libgnuradio-funcube-devel-3.10.0.rc3-1.1.aarch64.rpm"
 RPM_HASH = "fd9ec6ff29551339019aeb0f3ca02d8ec4c698180cc1ac9c21adb29db00354163ba3b229e1fbdbbedeb2eb4f217ddf79227ebb3e1afbebc8e3a2e1abfa102f53"
 
-RPROVIDES:${PN} += "cmake(funcube) \
-cmake(gnuradio-funcube) \
-libgnuradio-funcube-devel \
-libgnuradio-funcube-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-funcube \
+cmake-gnuradio-funcube \
+libgnuradio-funcube-devel"
 
-RDEPENDS:${PN} += "libgnuradio-funcube3_10_0"
+RDEPENDS:${PN} += "libgnuradio-funcube3-10-0"
 
 inherit rpm

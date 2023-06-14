@@ -10,11 +10,11 @@ RPM_HASH = "d52306a0a84c955d24efbdd4db7259bf70ca6eeede69c0a10dcc6c157849c182d617
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-txZMQ \
-python3.10dist(txzmq) \
+python3.10dist-txzmq \
 python310-txZMQ \
-python3dist(txzmq)"
+python3dist-txzmq"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Twisted \
 python310-pyzmq"
 

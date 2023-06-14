@@ -10,8 +10,7 @@ PV = "40"
 RPM_NAME = "ngspice-scripts-40-1.1.aarch64.rpm"
 RPM_HASH = "1c9421e5916fe28e20a88cc79b670145dbc38f5b9a099c6ed18dfd5bb1cc34da13e46df1f5aafd0f142ae81ab3146b8b9429d6f6e9933e1439fa694f7ad6a99d"
 
-RPROVIDES:${PN} += "ngspice-scripts \
-ngspice-scripts(aarch-64)"
+RPROVIDES:${PN} += "ngspice-scripts"
 
 RDEPENDS:${PN} += ""
 

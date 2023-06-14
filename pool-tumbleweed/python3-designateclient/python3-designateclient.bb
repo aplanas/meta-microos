@@ -11,10 +11,10 @@ RPM_HASH = "e376148b6a75c229b47d592f7ebd7f9db16b9205c774fa5676f05bb6b1da01909082
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-designateclient \
-python3.10dist(python-designateclient) \
-python3dist(python-designateclient)"
+python3.10dist-python-designateclient \
+python3dist-python-designateclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-cliff \
 python3-debtcollector \
 python3-jsonschema \

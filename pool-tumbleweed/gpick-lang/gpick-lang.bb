@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpick-lang \
 gpick-lang-all \
-locale(gpick:es) \
-locale(gpick:lt) \
-locale(gpick:ru)"
+locale-gpick-es \
+locale-gpick-lt \
+locale-gpick-ru"
 
 RDEPENDS:${PN} += "gpick"
 

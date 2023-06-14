@@ -10,14 +10,13 @@ PV = "0.15.6"
 RPM_NAME = "python311-pyzstd-0.15.6-1.1.aarch64.rpm"
 RPM_HASH = "1b1bee10be13848959d9ab4ed8700c2ad130e23a4cdec1e36f66fba6622c838569be7b206c52985520b8f08dd7eec1620cc6d63078d9e72f22dbc15279557440"
 
-RPROVIDES:${PN} += "python3.11dist(pyzstd) \
+RPROVIDES:${PN} += "python3.11dist-pyzstd \
 python311-pyzstd \
-python311-pyzstd(aarch-64) \
-python3dist(pyzstd)"
+python3dist-pyzstd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libzstd.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libzstd.so.1 \
+python-abi"
 
 inherit rpm

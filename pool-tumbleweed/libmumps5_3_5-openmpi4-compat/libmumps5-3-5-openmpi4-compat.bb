@@ -13,9 +13,8 @@ PV = "5.3.5"
 RPM_NAME = "libmumps5_3_5-openmpi4-compat-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "c144e8702037fcc9156901ad3d83aa666ea730944286c97b1a98e864a5de6a443d6c8656659ce80b1c370a512f2f38f7c2faac549ee9db441f9cb4b0b1cb5d87"
 
-RPROVIDES:${PN} += "libmumps5_3_5-openmpi4-compat \
-libmumps5_3_5-openmpi4-compat(aarch-64)"
+RPROVIDES:${PN} += "libmumps5-3-5-openmpi4-compat"
 
-RDEPENDS:${PN} += "libmumps5_3_5"
+RDEPENDS:${PN} += "libmumps5-3-5"
 
 inherit rpm

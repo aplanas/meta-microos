@@ -10,13 +10,13 @@ RPM_NAME = "python39-myst-parser-0.17.2-2.10.noarch.rpm"
 RPM_HASH = "8e0ca478d759d36b096b0dfb63ffa3a01a4860035e029d47e5ee00ce84c8cc9142681009d5896580ee0d96bf7e04fb0243c6efb8821b1950962bc07d02832c0b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(myst-parser) \
+RPROVIDES:${PN} += "python3.9dist-myst-parser \
 python39-myst-parser \
-python3dist(myst-parser)"
+python3dist-myst-parser"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Jinja2 \
 python39-PyYAML \
 python39-Sphinx \

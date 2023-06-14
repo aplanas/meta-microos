@@ -15,7 +15,7 @@ RPM_NAME = "texlive-uwa-pcf-2023.201.1.0.1svn64491-53.1.noarch.rpm"
 RPM_HASH = "2f5ee61752e2bdc253d1f3fb34c492ae0696669363c99fbf16957a19d82ace4fe7234096e1f1bd318b41506c3c4c6ff1562ed069ffc2da65b01d9dad5bc285d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(uwa-pcf.cls) \
+RPROVIDES:${PN} += "tex-uwa-pcf.cls \
 texlive-uwa-pcf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,12 +24,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(anyfontsize.sty) \
-tex(article.cls) \
-tex(fontspec.sty) \
-tex(titlesec.sty) \
-tex(uwa-letterhead.sty) \
-tex(xcolor.sty) \
+tex-anyfontsize.sty \
+tex-article.cls \
+tex-fontspec.sty \
+tex-titlesec.sty \
+tex-uwa-letterhead.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

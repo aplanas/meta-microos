@@ -10,12 +10,11 @@ PV = "0~g23"
 RPM_NAME = "nginx-module-zstd-0~g23-1.2.aarch64.rpm"
 RPM_HASH = "1e8a6ecf61ed003d5a626cb44ff49570dfa64f915b40751b8be04b1b7b6f645af050753e607d698b92555102d3ec136bf0cd16b41e425ea1b31e1ecf88495f22"
 
-RPROVIDES:${PN} += "nginx-module-zstd \
-nginx-module-zstd(aarch-64)"
+RPROVIDES:${PN} += "nginx-module-zstd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libzstd.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libzstd.so.1 \
 nginx"
 
 inherit rpm

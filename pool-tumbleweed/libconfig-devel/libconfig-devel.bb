@@ -13,8 +13,7 @@ RPM_NAME = "libconfig-devel-1.7.3-1.8.aarch64.rpm"
 RPM_HASH = "936768d0095d662fb6633f89ec1079d9219d177095af17c8b6cf5980a3b16678baae0f68a579c4e33d9e6b14f7dc9acbbbc8f0e4b1c778666d01e7481e28d27e"
 
 RPROVIDES:${PN} += "libconfig-devel \
-libconfig-devel(aarch-64) \
-pkgconfig(libconfig)"
+pkgconfig-libconfig"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libconfig11"

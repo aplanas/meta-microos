@@ -16,11 +16,11 @@ RPM_NAME = "python311-thLib-0.12.2-5.8.noarch.rpm"
 RPM_HASH = "834f476ab47f9dacce29d27860adc30748c2b6a86cba1c06c58c0cf16556d54ed8dfd76da8fa80efaafeed2deffb0948721711a648d3efdb95f7722d5eb00280"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(thlib) \
+RPROVIDES:${PN} += "python3.11dist-thlib \
 python311-thLib \
-python3dist(thlib)"
+python3dist-thlib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \
 python311-numpy \
 python311-pandas \

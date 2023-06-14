@@ -10,15 +10,14 @@ PV = "8.1.19"
 RPM_NAME = "php8-openssl-8.1.19-2.2.aarch64.rpm"
 RPM_HASH = "ffd63b8012b78fd89ca950c4630614983c1134489ead9debfcc375f7f99cc19f76db3ff1fa4553c0a81f182e827e44f3ebcf2ddcb1e472723c927a74063e607e"
 
-RPROVIDES:${PN} += "config(php8-openssl) \
+RPROVIDES:${PN} += "config-php8-openssl \
 php-openssl \
-php8-openssl \
-php8-openssl(aarch-64)"
+php8-openssl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
 php"
 
 inherit rpm

@@ -15,17 +15,16 @@ PV = "3.5"
 RPM_NAME = "libsemanage2-3.5-1.4.aarch64.rpm"
 RPM_HASH = "8fb0c6a20d4009f6d393f111844b4409e8fb43f291c2304b5c06934d45d7e9ebd7dfd9d2b01b06dba7159d64bcc55c7cc35570bc71f90a66259c16373cddd1a4"
 
-RPROVIDES:${PN} += "libsemanage.so.2()(64bit) \
-libsemanage2 \
-libsemanage2(aarch-64)"
+RPROVIDES:${PN} += "libsemanage.so.2 \
+libsemanage2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libaudit.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libselinux.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libaudit.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libselinux.so.1 \
 libsemanage-conf \
-libsepol.so.2()(64bit)"
+libsepol.so.2"
 
 inherit rpm

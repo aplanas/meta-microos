@@ -9,13 +9,13 @@ RPM_HASH = "126c449e9c9721673e398870090e44f0d5aa8f78d81f282ea4517b3596181266d11d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flynt \
-python3.10dist(flynt) \
+python3.10dist-flynt \
 python310-flynt \
-python3dist(flynt)"
+python3dist-flynt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-astor \
 python310-tomli"
 

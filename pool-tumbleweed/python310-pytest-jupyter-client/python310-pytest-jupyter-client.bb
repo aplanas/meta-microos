@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-jupyter-client \
 python310-pytest-jupyter-client"
 
 RDEPENDS:${PN} += "python310-ipykernel \
-python310-jupyter_client \
+python310-jupyter-client \
 python310-pytest-jupyter"
 
 inherit rpm

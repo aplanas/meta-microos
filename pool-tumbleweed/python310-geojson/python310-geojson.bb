@@ -11,10 +11,10 @@ RPM_HASH = "f64125471143b31f7175c2c31eda0b7767445274bc507317c0e4ff2f40160c6559f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geojson \
-python3.10dist(geojson) \
+python3.10dist-geojson \
 python310-geojson \
-python3dist(geojson)"
+python3dist-geojson"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

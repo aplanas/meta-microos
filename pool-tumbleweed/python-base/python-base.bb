@@ -13,31 +13,30 @@ PV = "2.7.18"
 RPM_NAME = "python-base-2.7.18-34.1.aarch64.rpm"
 RPM_HASH = "0d55eb8bb74477d61a69d8903812198ddaf803ae41fb1bd286a17273669ce4d7e1dde584039d501a50db07729b3bd4173ae7bf92d1cdf3b86a34ad40074a1c1b"
 
-RPROVIDES:${PN} += "python(abi) \
+RPROVIDES:${PN} += "python-abi \
 python-argparse \
 python-base \
-python-base(aarch-64) \
 python-ctypes \
 python2-argparse \
 python2-base \
-rpm_macro(have_python2) \
-rpm_macro(py_compile) \
-rpm_macro(py_incdir) \
-rpm_macro(py_libdir) \
-rpm_macro(py_prefix) \
-rpm_macro(py_requires) \
-rpm_macro(py_sitedir) \
-rpm_macro(python2_package_prefix)"
+rpm-macro-have-python2 \
+rpm-macro-py-compile \
+rpm-macro-py-incdir \
+rpm-macro-py-libdir \
+rpm-macro-py-prefix \
+rpm-macro-py-requires \
+rpm-macro-py-sitedir \
+rpm-macro-python2-package-prefix"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libffi.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpython2.7.so.1.0()(64bit) \
-libpython2_7-1_0 \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libffi.so.8 \
+libm.so.6 \
+libpython2-7-1-0 \
+libpython2.7.so.1.0 \
+libz.so.1"
 
 inherit rpm

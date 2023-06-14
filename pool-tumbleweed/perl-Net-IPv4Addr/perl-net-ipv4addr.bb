@@ -15,9 +15,8 @@ RPM_NAME = "perl-Net-IPv4Addr-0.10-166.24.aarch64.rpm"
 RPM_HASH = "2d6653328341da9a2d4829ad3df169e90491a0d03420f9784551a1caee6a35bff07b9dffe305d6588078f6e42e3663bd7c84cbb806bfdf84103a87da31ca032a"
 
 RPROVIDES:${PN} += "Net \
-perl(Net::IPv4Addr) \
-perl-Net-IPv4Addr \
-perl-Net-IPv4Addr(aarch-64)"
+perl-Net--IPv4Addr \
+perl-Net-IPv4Addr"
 
 RDEPENDS:${PN} += "/usr/bin/perl"
 

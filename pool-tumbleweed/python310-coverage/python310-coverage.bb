@@ -10,16 +10,15 @@ RPM_NAME = "python310-coverage-7.2.5-1.1.aarch64.rpm"
 RPM_HASH = "b2e1f681912b24858feb65b30d0bfeacdb00af67ec4d870ec1d519448bd25bebc4347ee3b26dd558d8793585c96c837e1fa3f963cb2a49c4784ea65016f9ec59"
 
 RPROVIDES:${PN} += "python3-coverage \
-python3.10dist(coverage) \
+python3.10dist-coverage \
 python310-coverage \
-python310-coverage(aarch-64) \
-python3dist(coverage)"
+python3dist-coverage"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310 \
 update-alternatives"
 

@@ -10,9 +10,9 @@ RPM_HASH = "c7b09359ec34abcb9e14f1b05fb01db6b1d11e51812b302632cab8ab3e3976d276de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-constants \
-mvn(com.github.jnr:jnr-constants) \
-mvn(com.github.jnr:jnr-constants:pom:) \
-osgi(com.github.jnr.constants)"
+mvn-com.github.jnr-jnr-constants \
+mvn-com.github.jnr-jnr-constants-pom- \
+osgi-com.github.jnr.constants"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

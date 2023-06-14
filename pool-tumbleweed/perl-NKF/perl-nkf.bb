@@ -13,12 +13,10 @@ PV = "2.1.5"
 RPM_NAME = "perl-NKF-2.1.5-1.18.aarch64.rpm"
 RPM_HASH = "bf3e1693b4fded50e83b4ae96776872c7fbf39b0ac44b24af07e4a5d09e9ee59e2481c148659f855c0fd9af9efe8f2013fe879f0dc4f5062c091733feaaa0743"
 
-RPROVIDES:${PN} += "perl(NKF) \
-perl-NKF \
-perl-NKF(aarch-64)"
+RPROVIDES:${PN} += "perl-NKF"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 perl"
 
 inherit rpm

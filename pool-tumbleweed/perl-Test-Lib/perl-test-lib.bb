@@ -12,9 +12,9 @@ RPM_NAME = "perl-Test-Lib-0.003-1.4.noarch.rpm"
 RPM_HASH = "fbdfd712c5708702bbd1d45f84b93136bf2b9d83440492cb3ac5231fa910667b06703ba9ed9559ea3682bd649197e6b73c209f67f1fb606c67a577beaf813b2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Lib) \
+RPROVIDES:${PN} += "perl-Test--Lib \
 perl-Test-Lib"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

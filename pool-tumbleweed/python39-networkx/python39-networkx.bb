@@ -17,11 +17,11 @@ RPM_NAME = "python39-networkx-2.8.8-1.3.noarch.rpm"
 RPM_HASH = "9b1f83cafaf7b2184c43cc30cd106cd30b12d0d4ce8a1608ebe67f1e841cff83982bbed82e09a8d993732d08969388f0589d25430fbb576f19937c00215633ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(networkx) \
+RPROVIDES:${PN} += "python3.9dist-networkx \
 python39-networkx \
-python3dist(networkx)"
+python3dist-networkx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-matplotlib \
 python39-numpy \
 python39-pandas \

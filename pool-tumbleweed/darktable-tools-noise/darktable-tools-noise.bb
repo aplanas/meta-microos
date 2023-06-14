@@ -11,14 +11,13 @@ PV = "4.2.1"
 RPM_NAME = "darktable-tools-noise-4.2.1-1.4.aarch64.rpm"
 RPM_HASH = "f7b0cc08bd33906626528e3c3beb32a460e8d0b6785956edf85816b99e55f800ea0d681284a4bded51cd6b846455e6a01cf2b54e40f2fc3836e1d4562f33e358"
 
-RPROVIDES:${PN} += "darktable-tools-noise \
-darktable-tools-noise(aarch-64)"
+RPROVIDES:${PN} += "darktable-tools-noise"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/convert \
 ghostscript \
 gnuplot \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

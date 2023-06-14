@@ -13,11 +13,11 @@ RPM_NAME = "python39-ipython_genutils-0.2.0-3.11.noarch.rpm"
 RPM_HASH = "fb850037ecdb0a15689d152c566ad8b053ee2ad2c828ce9eb9dbc0841c6df0e0be2b11931227ec1d9435d573c112ff2053a7cc95326fc859ce47b4fa0df8622f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ipython-genutils) \
-python39-ipython_genutils \
-python3dist(ipython-genutils)"
+RPROVIDES:${PN} += "python3.9dist-ipython-genutils \
+python39-ipython-genutils \
+python3dist-ipython-genutils"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39 \
 python39-pytest"
 

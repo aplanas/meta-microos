@@ -11,13 +11,12 @@ PV = "1.4.1"
 RPM_NAME = "SVT-AV1-1.4.1-2.1.aarch64.rpm"
 RPM_HASH = "e8984cd140a31949c76a4de7d2f9f9a7c05fa17b3ab3bec9421bb83f3213df54fd5dfa57027bcb2fa2601c2589d2751107ad95120c6c7ab7c3bab23439dadeaa"
 
-RPROVIDES:${PN} += "SVT-AV1 \
-SVT-AV1(aarch-64)"
+RPROVIDES:${PN} += "SVT-AV1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSvtAv1Dec.so.0()(64bit) \
-libSvtAv1Enc.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSvtAv1Dec.so.0 \
+libSvtAv1Enc.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

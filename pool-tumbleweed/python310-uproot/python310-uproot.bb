@@ -13,11 +13,11 @@ RPM_HASH = "3ae2d89b3384c7417fafcc8465699634aed2bef74e81425f6282350d7a65f6a35ea9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-uproot \
-python3.10dist(uproot) \
+python3.10dist-uproot \
 python310-uproot \
-python3dist(uproot)"
+python3dist-uproot"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-packaging"
 

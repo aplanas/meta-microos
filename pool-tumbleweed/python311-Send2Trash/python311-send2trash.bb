@@ -14,15 +14,15 @@ RPM_NAME = "python311-Send2Trash-1.8.0-1.9.noarch.rpm"
 RPM_HASH = "e230b56c650cefe04996ff4ac1c5630cd7d7cdf4ade88aa592b943cb8b56cd8649954117760cbd303f2ce6a3e1e14c8a9910263b30bae27f40e4de2ed2541349"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(send2trash) \
+RPROVIDES:${PN} += "python3.11dist-send2trash \
 python311-Send2Trash \
-python3dist(send2trash)"
+python3dist-send2trash"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
-typelib(GObject) \
-typelib(Gio) \
+python-abi \
+typelib-GObject \
+typelib-Gio \
 update-alternatives"
 
 inherit rpm

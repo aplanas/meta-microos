@@ -10,14 +10,14 @@ RPM_HASH = "dc4d93de7998d03412699a124d917814a8db7df88e66e77070654d20deff0aa8832d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyannotate \
-python3.10dist(pyannotate) \
+python3.10dist-pyannotate \
 python310-pyannotate \
-python3dist(pyannotate)"
+python3dist-pyannotate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
-python310-mypy_extensions \
+python-abi \
+python310-mypy-extensions \
 python310-six \
 python310-typing \
 update-alternatives"

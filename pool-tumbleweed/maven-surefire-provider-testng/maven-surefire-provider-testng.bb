@@ -9,16 +9,16 @@ RPM_HASH = "2fdc7ccadf1bb5699d8e51169b76982ba0cb48385d6bc5dc35796ec94354691f874c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire-provider-testng \
-mvn(org.apache.maven.surefire:surefire-testng) \
-mvn(org.apache.maven.surefire:surefire-testng-utils) \
-mvn(org.apache.maven.surefire:surefire-testng-utils:pom:) \
-mvn(org.apache.maven.surefire:surefire-testng:pom:)"
+mvn-org.apache.maven.surefire-surefire-testng \
+mvn-org.apache.maven.surefire-surefire-testng-pom- \
+mvn-org.apache.maven.surefire-surefire-testng-utils \
+mvn-org.apache.maven.surefire-surefire-testng-utils-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven.surefire:common-java5) \
-mvn(org.apache.maven.surefire:surefire-api) \
-mvn(org.apache.maven.surefire:surefire-grouper)"
+mvn-org.apache.maven.shared-maven-shared-utils \
+mvn-org.apache.maven.surefire-common-java5 \
+mvn-org.apache.maven.surefire-surefire-api \
+mvn-org.apache.maven.surefire-surefire-grouper"
 
 inherit rpm

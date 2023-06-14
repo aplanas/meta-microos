@@ -15,12 +15,12 @@ RPM_NAME = "python311-azure-keyvault-secrets-4.7.0-1.2.noarch.rpm"
 RPM_HASH = "d98e7a855a555e7d7f0819dddc0dcd7baf92fa13d2c7e6cd8049ae0990be0cfd203bc14307c3cf55f0bcc788bcbe16d6e85ce1ddc19eedf43948fb6d649fbb06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-keyvault-secrets) \
+RPROVIDES:${PN} += "python3.11dist-azure-keyvault-secrets \
 python311-azure-keyvault-secrets \
-python3dist(azure-keyvault-secrets)"
+python3dist-azure-keyvault-secrets"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.0.1 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.0.1 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-core \
 python311-azure-keyvault-nspkg \

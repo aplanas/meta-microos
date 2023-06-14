@@ -9,23 +9,18 @@ PV = "3.38.2"
 RPM_NAME = "gnome-klotski-3.38.2-1.13.aarch64.rpm"
 RPM_HASH = "2106cc891559e6d5fa2bbbc40012746c385a25c658b439c7f88a13cb7fcf777b9d7c66c5ce8e90b3cff43cec18a3e8e56dcd5b1e9e1f81ca155062cb29d39662"
 
-RPROVIDES:${PN} += "application() \
-application(org.gnome.Klotski.desktop) \
-gnome-klotski \
-gnome-klotski(aarch-64) \
-metainfo() \
-metainfo(org.gnome.Klotski.appdata.xml)"
+RPROVIDES:${PN} += "gnome-klotski"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnome-games-support-1.so.3()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-librsvg-2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgnome-games-support-1.so.3 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+librsvg-2.so.2"
 
 inherit rpm

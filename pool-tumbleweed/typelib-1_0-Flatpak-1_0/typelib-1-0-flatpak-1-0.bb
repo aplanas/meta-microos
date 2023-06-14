@@ -9,13 +9,12 @@ PV = "1.14.4"
 RPM_NAME = "typelib-1_0-Flatpak-1_0-1.14.4-1.2.aarch64.rpm"
 RPM_HASH = "3e728f01de6508e22997896e42ebec0fa7c09a70ace3bf32981241e7ce8170274dbf4131edeebbfe92dc8120f7353ed65e1541cdb5b4344c7d1c8dff3c3622c6"
 
-RPROVIDES:${PN} += "typelib(Flatpak) \
-typelib-1_0-Flatpak-1_0 \
-typelib-1_0-Flatpak-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Flatpak-1-0 \
+typelib-Flatpak"
 
-RDEPENDS:${PN} += "libflatpak.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libflatpak.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

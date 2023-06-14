@@ -8,9 +8,8 @@ PV = "5.2.5"
 RPM_NAME = "pcp-pmda-openmetrics-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "36552729ed11b602c4c07848aae3d069776970d348d55fa05c8d7f77665a908abc893634699690f5903718ecac3dfa2c2e86a9a4569c6efe7551d99b6a8a5d5e"
 
-RPROVIDES:${PN} += "config(pcp-pmda-openmetrics) \
+RPROVIDES:${PN} += "config-pcp-pmda-openmetrics \
 pcp-pmda-openmetrics \
-pcp-pmda-openmetrics(aarch-64) \
 pcp-pmda-prometheus"
 
 RDEPENDS:${PN} += "/bin/sh \

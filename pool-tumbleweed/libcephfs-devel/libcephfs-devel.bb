@@ -9,7 +9,6 @@ RPM_NAME = "libcephfs-devel-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "5114f26f8a32c9425c924fbbeb1fad985d37b199a59e38320bf5ded03bb91dfa8fc884beb38ef911e8abcee88bb9ebdc6e175bac39c6d1f8077768563f3ac3dc"
 
 RPROVIDES:${PN} += "libcephfs-devel \
-libcephfs-devel(aarch-64) \
 libcephfs2-devel"
 
 RDEPENDS:${PN} += "libcephfs2 \

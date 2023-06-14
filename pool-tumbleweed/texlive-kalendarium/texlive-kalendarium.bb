@@ -14,7 +14,7 @@ RPM_NAME = "texlive-kalendarium-2023.201.1.0svn48744-55.1.noarch.rpm"
 RPM_HASH = "d019f792fbc617479593669817f90f710529d68496bb38c4486c69e8af9f9668e472555e811a63b3872782fe423274a27a86a9a561d201787836eff1abe64a3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(kalendarium.sty) \
+RPROVIDES:${PN} += "tex-kalendarium.sty \
 texlive-kalendarium"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(l3keys2e.sty) \
-tex(xparse.sty) \
+tex-l3keys2e.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

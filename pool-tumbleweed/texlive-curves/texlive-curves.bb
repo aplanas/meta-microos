@@ -15,8 +15,8 @@ RPM_NAME = "texlive-curves-2023.204.1.55svn45255-54.1.noarch.rpm"
 RPM_HASH = "d6f1f7cf9e22e6ebfc17bc6bc214d88a9ed75d0c15601314cc205203f902d0885415642d79bcf1a41b4723f01f4bac79fbafc4c30886388dc4f186c0e13b855b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(curves.sty) \
-tex(curvesls.sty) \
+RPROVIDES:${PN} += "tex-curves.sty \
+tex-curvesls.sty \
 texlive-curves"
 
 RDEPENDS:${PN} += "/bin/sh \

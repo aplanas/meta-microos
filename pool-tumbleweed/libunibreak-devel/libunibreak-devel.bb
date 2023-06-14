@@ -10,8 +10,7 @@ RPM_HASH = "7a60dbb94507500c25408af0baa128d6751bb4cc91954609dd8dd40652642798d814
 
 RPROVIDES:${PN} += "liblinebreak-devel \
 libunibreak-devel \
-libunibreak-devel(aarch-64) \
-pkgconfig(libunibreak)"
+pkgconfig-libunibreak"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libunibreak5 \

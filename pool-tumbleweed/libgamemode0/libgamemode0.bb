@@ -11,16 +11,14 @@ PV = "1.7"
 RPM_NAME = "libgamemode0-1.7-3.1.aarch64.rpm"
 RPM_HASH = "8f4f8bc405ab443709282b9a7e5b046185b307cd12c967c0d0d7f561b5dd6233c60fa08c75fe2c3a2339728cbf80849a912dc8c41adc704353e6265d7b84578b"
 
-RPROVIDES:${PN} += "libgamemode.so.0()(64bit) \
-libgamemode0 \
-libgamemode0(aarch-64)"
+RPROVIDES:${PN} += "libgamemode.so.0 \
+libgamemode0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gamemoded \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
 systemd"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "1fa331d2f60127bd4efe3babb819e889a0c7d3231b98739ca1f27612d06d5c1c5e6e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit5-bom \
-mvn(org.junit:junit-bom:pom:)"
+mvn-org.junit-junit-bom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

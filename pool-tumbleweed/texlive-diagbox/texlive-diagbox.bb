@@ -15,7 +15,7 @@ RPM_NAME = "texlive-diagbox-2023.201.2.4svn54080-52.1.noarch.rpm"
 RPM_HASH = "13ed4cf914bdec010fd73991c26af7540176e087711ee7b6231b3a5baf700cb70054d2b7b0ccec8fe112583dd04c5d5125af28c50b023cf528adeb6a558cc4d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(diagbox.sty) \
+RPROVIDES:${PN} += "tex-diagbox.sty \
 texlive-diagbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,11 +24,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(calc.sty) \
-tex(fp.sty) \
-tex(keyval.sty) \
-tex(pict2e.sty) \
+tex-array.sty \
+tex-calc.sty \
+tex-fp.sty \
+tex-keyval.sty \
+tex-pict2e.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

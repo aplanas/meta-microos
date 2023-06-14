@@ -16,9 +16,9 @@ RPM_NAME = "texlive-phaistos-2023.201.1.0svn18651-51.1.noarch.rpm"
 RPM_HASH = "88bcc305dca79a5697e77e8354e0aa5d5f48c130c7aad3b650aee0b5029ac04403a59b6b572e220cf7fd8585c24199fb45970aa3f6f91f4dee798fbc9bbc9f1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(phaistos.map) \
-tex(phaistos.sty) \
-tex(phaistos.tfm) \
+RPROVIDES:${PN} += "tex-phaistos.map \
+tex-phaistos.sty \
+tex-phaistos.tfm \
 texlive-phaistos"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
+tex-updmap.cfg \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

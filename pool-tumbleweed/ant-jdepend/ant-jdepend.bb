@@ -11,15 +11,15 @@ RPM_HASH = "996e0704c85abb1e5d6095c5ea512fccb40c5bc1bb1c8c01dd9f3ae1eeca71228ec5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jdepend \
-config(ant-jdepend) \
-mvn(org.apache.ant:ant-jdepend) \
-mvn(org.apache.ant:ant-jdepend:pom:)"
+config-ant-jdepend \
+mvn-org.apache.ant-ant-jdepend \
+mvn-org.apache.ant-ant-jdepend-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
 jdepend \
-mvn(jdepend:jdepend) \
-mvn(org.apache.ant:ant)"
+mvn-jdepend-jdepend \
+mvn-org.apache.ant-ant"
 
 inherit rpm

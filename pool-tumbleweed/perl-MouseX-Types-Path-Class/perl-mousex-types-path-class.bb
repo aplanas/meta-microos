@@ -15,12 +15,12 @@ RPM_NAME = "perl-MouseX-Types-Path-Class-0.07-4.19.noarch.rpm"
 RPM_HASH = "b3c9f2bc91f980225b4c26f2a1ea7d41283ce08d723218c6209f812c70c0766d58bab4c7b437686549b711e592171bdb90127f7ebf92a4c8debf05fcff5ab59b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MouseX::Types::Path::Class) \
+RPROVIDES:${PN} += "perl-MouseX--Types--Path--Class \
 perl-MouseX-Types-Path-Class"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Mouse) \
-perl(MouseX::Types) \
-perl(Path::Class)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Mouse \
+perl-MouseX--Types \
+perl-Path--Class"
 
 inherit rpm

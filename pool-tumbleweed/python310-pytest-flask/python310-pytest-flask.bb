@@ -10,11 +10,11 @@ RPM_HASH = "a8f7025a0cc0341af658dee3b72c30ad6a5e66daff58bbaf5e0396bca25df76ce3cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-flask \
-python3.10dist(pytest-flask) \
+python3.10dist-pytest-flask \
 python310-pytest-flask \
-python3dist(pytest-flask)"
+python3dist-pytest-flask"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-Werkzeug \
 python310-pytest"

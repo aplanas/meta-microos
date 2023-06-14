@@ -9,46 +9,37 @@ PV = "0.99.55"
 RPM_NAME = "cherrytree-0.99.55-1.3.aarch64.rpm"
 RPM_HASH = "e9ee34b62f0c2214100e4685e49d1650cfc16da66c697d6c07d9ed88db7f454e6d2da5a2de74f9a2b9ab990e049c68fa9690847556f15673eb2489163acb8d4f"
 
-RPROVIDES:${PN} += "application() \
-application(cherrytree.desktop) \
-cherrytree \
-cherrytree(aarch-64) \
-metainfo() \
-metainfo(net.giuspen.cherrytree.metainfo.xml) \
-mimehandler(application/cherrytree-ctb) \
-mimehandler(application/cherrytree-ctd) \
-mimehandler(application/cherrytree-ctx) \
-mimehandler(application/cherrytree-ctz)"
+RPROVIDES:${PN} += "cherrytree"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatkmm-1.6.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcairomm-1.0.so.1()(64bit) \
-libcurl.so.4()(64bit) \
-libfmt.so.9()(64bit) \
-libfribidi.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdkmm-3.0.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgspell-1.so.2()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkmm-3.0.so.1()(64bit) \
-libgtksourceviewmm-3.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangomm-1.4.so.1()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libuchardet.so.0()(64bit) \
-libvte-2.91.so.0()(64bit) \
-libxml++-2.6.so.2()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatkmm-1.6.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libcairomm-1.0.so.1 \
+libcurl.so.4 \
+libfmt.so.9 \
+libfribidi.so.0 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdkmm-3.0.so.1 \
+libgio-2.0.so.0 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgobject-2.0.so.0 \
+libgspell-1.so.2 \
+libgtk-3.so.0 \
+libgtkmm-3.0.so.1 \
+libgtksourceviewmm-3.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangomm-1.4.so.1 \
+libsigc-2.0.so.0 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libuchardet.so.0 \
+libvte-2.91.so.0 \
+libxml++-2.6.so.2 \
+libxml2.so.2"
 
 inherit rpm

@@ -11,11 +11,11 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl-Spreadsheet-Read-scripts"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(HTML::Entities) \
-perl(Spreadsheet::Read) \
-perl(Term::ReadKey) \
-perl(Text::CSV_XS) \
-perl(Tk) \
-perl(Tk::TableMatrix::Spreadsheet)"
+perl-HTML--Entities \
+perl-Spreadsheet--Read \
+perl-Term--ReadKey \
+perl-Text--CSV-XS \
+perl-Tk \
+perl-Tk--TableMatrix--Spreadsheet"
 
 inherit rpm

@@ -13,25 +13,18 @@ PV = "0.17"
 RPM_NAME = "ratbagd-0.17-2.1.aarch64.rpm"
 RPM_HASH = "798a163536d5ce789fd173ec2446be436f2c9652578c02ee2807edf8a6d3d48cf296e5abde27862de71d29304bde551637f1d52d5d71d79906d03e2048ef1152"
 
-RPROVIDES:${PN} += "ratbagd \
-ratbagd(aarch-64)"
+RPROVIDES:${PN} += "ratbagd"
 
 RDEPENDS:${PN} += "/bin/sh \
-group(games) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevdev.so.2()(64bit) \
-libevdev.so.2(LIBEVDEV_1)(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_221)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_222)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_227)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_243)(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libunistring.so.5()(64bit)"
+group-games \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevdev.so.2 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libsystemd.so.0 \
+libudev.so.1 \
+libunistring.so.5"
 
 inherit rpm

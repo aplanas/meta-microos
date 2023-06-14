@@ -20,7 +20,7 @@ RPM_HASH = "3acf8257acebd529da4d6fec730f31d4a6691bd2b2dbb776c343a844224fbf7b1a44
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arphic-ukai-fonts \
-locale(zh_TW;zh_HK;zh_CN;zh_SG;zh_MO) \
+locale-zh-TW;zh-HK;zh-CN;zh-SG;zh-MO \
 scalable-font-zh-CN \
 scalable-font-zh-HK \
 scalable-font-zh-MO \
@@ -29,7 +29,7 @@ scalable-font-zh-TW \
 ttf-arphic-ukai"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

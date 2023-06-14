@@ -11,7 +11,7 @@ RPM_NAME = "texlive-subtext-2023.201.1.1svn51273-57.1.noarch.rpm"
 RPM_HASH = "b88923daaf0a1bef23fcd0a0f04f338c5f1e812643428e21011eee7e8f8d6b5bc749b748a28a6ece61d23b3864f345667c44492d36c0c16a4e8389263ce57e3c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(subtext.sty) \
+RPROVIDES:${PN} += "tex-subtext.sty \
 texlive-subtext"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(amstext.sty) \
+tex-amstext.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,8 +13,7 @@ RPM_HASH = "22d02991e96649eb247bb0fc26e3f2dbf4e166e3c9cb9b89f0579742981b15f8938f
 
 RPROVIDES:${PN} += "fox-devel \
 fox16-devel \
-fox16-devel(aarch-64) \
-pkgconfig(fox)"
+pkgconfig-fox"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
@@ -23,25 +22,25 @@ cups-devel \
 cups-libs \
 expat \
 glibc-devel \
-libFOX-1_6-0 \
+libFOX-1-6-0 \
 libbz2-devel \
-libc.so.6()(64bit) \
+libc.so.6 \
 libexpat-devel \
 libjpeg-devel \
 libpng-devel \
 libtiff-devel \
-pkgconfig(fontconfig) \
-pkgconfig(freetype2) \
-pkgconfig(gl) \
-pkgconfig(glu) \
-pkgconfig(x11) \
-pkgconfig(xcursor) \
-pkgconfig(xext) \
-pkgconfig(xft) \
-pkgconfig(xi) \
-pkgconfig(xproto) \
-pkgconfig(xrandr) \
-pkgconfig(xrender) \
+pkgconfig-fontconfig \
+pkgconfig-freetype2 \
+pkgconfig-gl \
+pkgconfig-glu \
+pkgconfig-x11 \
+pkgconfig-xcursor \
+pkgconfig-xext \
+pkgconfig-xft \
+pkgconfig-xi \
+pkgconfig-xproto \
+pkgconfig-xrandr \
+pkgconfig-xrender \
 zlib-devel"
 
 inherit rpm

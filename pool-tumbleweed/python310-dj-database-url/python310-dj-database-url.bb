@@ -23,12 +23,12 @@ RPM_HASH = "0fb03580082e235078696baf95976c55c6b33dc8f9791e6872e5cd49432049976b6e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dj-database-url \
-python3.10dist(dj-database-url) \
+python3.10dist-dj-database-url \
 python310-dj-database-url \
-python3dist(dj-database-url)"
+python3dist-dj-database-url"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

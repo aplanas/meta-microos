@@ -11,7 +11,7 @@ RPM_NAME = "texlive-loops-2023.201.1.3svn30704-54.1.noarch.rpm"
 RPM_HASH = "6fce6bff057b9aa19c4c5de59391edb860d27d23dc6766dfdbb86e62fd5bcaca967f82e0b08e8ea8ad9c7751ec855c97681716bf06c900b89220f38b5a0d88a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(loops.sty) \
+RPROVIDES:${PN} += "tex-loops.sty \
 texlive-loops"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(skeyval.sty) \
+tex-skeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

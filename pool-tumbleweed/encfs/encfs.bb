@@ -23,19 +23,18 @@ RPM_NAME = "encfs-1.9.5-2.16.aarch64.rpm"
 RPM_HASH = "c8df014214939e39f760d7093c9dcab0241a3ad75a81408a23cfbb3ccfd514f13527e74f8c67da4811245a52d3e14f194b38d48b00b4d2125c79894aa0a77198"
 
 RPROVIDES:${PN} += "encfs \
-encfs(aarch-64) \
-libencfs.so.1.9()(64bit)"
+libencfs.so.1.9"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 fuse \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libfuse.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinyxml2.so.9()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libfuse.so.2 \
+libgcc-s.so.1 \
+libssl.so.3 \
+libstdc++.so.6 \
+libtinyxml2.so.9"
 
 inherit rpm

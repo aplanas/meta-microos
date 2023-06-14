@@ -15,15 +15,14 @@ PV = "3.11.3"
 RPM_NAME = "python311-devel-3.11.3-1.2.aarch64.rpm"
 RPM_HASH = "da679079aeeb53fb32c153909bcd4520c201171aaedf2428f106a092f08cc5edcbae857845740dfa334727bd27bedca98d1d5b16760663589509cf9225872157"
 
-RPROVIDES:${PN} += "pkgconfig(python-3.11) \
-pkgconfig(python-3.11-embed) \
-python311-devel \
-python311-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-python-3.11 \
+pkgconfig-python-3.11-embed \
+python311-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-base"
 
 inherit rpm

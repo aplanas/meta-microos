@@ -22,8 +22,7 @@ RPM_NAME = "libevtlog-devel-0.2.13-2.23.aarch64.rpm"
 RPM_HASH = "0629afc1c88a97c1514fafcf0098dd51449c5e6a14c615fdaed06e7efab6087d006c5a67401921f7fca3ef6eef978750c091d5be77393d009d3658cd02399741"
 
 RPROVIDES:${PN} += "libevtlog-devel \
-libevtlog-devel(aarch-64) \
-pkgconfig(eventlog)"
+pkgconfig-eventlog"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

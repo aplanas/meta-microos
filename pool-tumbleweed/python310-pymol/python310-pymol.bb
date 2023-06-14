@@ -22,26 +22,24 @@ RPM_HASH = "76aa0bc4e3feb1d2f3c100fef4a0ff3a7617044ee505de0cd907797a0dc7ca5232d5
 
 RPROVIDES:${PN} += "pymol \
 python3-pymol \
-python3.10dist(pymol) \
+python3.10dist-pymol \
 python310-pymol \
-python310-pymol(aarch-64) \
-python3dist(pymol)"
+python3dist-pymol"
 
 RDEPENDS:${PN} += "/bin/csh \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnetcdf.so.19()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libnetcdf.so.19 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libxml2.so.2 \
+python-abi \
 python310-numpy \
 python310-qt5 \
 update-alternatives"

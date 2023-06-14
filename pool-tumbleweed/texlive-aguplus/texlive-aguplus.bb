@@ -12,9 +12,9 @@ RPM_NAME = "texlive-aguplus-2023.201.1.6bsvn17156-54.1.noarch.rpm"
 RPM_HASH = "8848005abb337e050d8896f748a6371e2cfe52abb546ce854d7bc50346c345811dc22e77e4e67cd3387a2a36befcd45051f9a5056d7b9e14c948511927489225"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(aguplus.cls) \
-tex(aguplus.sty) \
-tex(agupp.sty) \
+RPROVIDES:${PN} += "tex-aguplus.cls \
+tex-aguplus.sty \
+tex-agupp.sty \
 texlive-aguplus"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
+tex-article.cls \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

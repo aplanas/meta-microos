@@ -9,16 +9,14 @@ PV = "1.8.2"
 RPM_NAME = "python311-gssapi-1.8.2-2.1.aarch64.rpm"
 RPM_HASH = "0a55efb9f50ac15b6fb7f210668b5ae35bcdb374a864406cdd8391a5439f06d9b571106133b0606c6b7aeebb7c0e34c7b87345c7709979daddbd19306896f39b"
 
-RPROVIDES:${PN} += "python3.11dist(gssapi) \
+RPROVIDES:${PN} += "python3.11dist-gssapi \
 python311-gssapi \
-python311-gssapi(aarch-64) \
-python3dist(gssapi)"
+python3dist-gssapi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgssapi-krb5.so.2 \
+python-abi \
 python311-decorator"
 
 inherit rpm

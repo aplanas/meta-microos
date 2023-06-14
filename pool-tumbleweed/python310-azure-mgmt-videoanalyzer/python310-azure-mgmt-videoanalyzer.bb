@@ -11,11 +11,11 @@ RPM_HASH = "420ba290c8ac7132c6b2470f9a9f9f8621eab4d8a51d5808d98b5a7b7f41cf201ef1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-videoanalyzer \
-python3.10dist(azure-mgmt-videoanalyzer) \
+python3.10dist-azure-mgmt-videoanalyzer \
 python310-azure-mgmt-videoanalyzer \
-python3dist(azure-mgmt-videoanalyzer)"
+python3dist-azure-mgmt-videoanalyzer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

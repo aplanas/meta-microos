@@ -9,14 +9,13 @@ RPM_NAME = "librados-devel-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "3bc80cc0ef0bda9ca131c9d87173d1fa6fab32627dfae0ed8b33d416f24d71ccf8adbe33b78d09899f863ca45b3d6ed4f7c17dbac4bf9331e200205b51781c1f"
 
 RPROVIDES:${PN} += "librados-devel \
-librados-devel(aarch-64) \
 librados2-devel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-librados.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+librados.so.2 \
 librados2 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

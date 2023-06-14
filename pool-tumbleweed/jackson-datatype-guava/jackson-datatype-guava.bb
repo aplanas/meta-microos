@@ -10,14 +10,14 @@ RPM_HASH = "26c86f4d15e858cda04baf93cbd546b944e5d843a0441a4fdee2cb3dd1c953331601
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatype-guava \
-mvn(com.fasterxml.jackson.datatype:jackson-datatype-guava) \
-mvn(com.fasterxml.jackson.datatype:jackson-datatype-guava:pom:) \
-osgi(com.fasterxml.jackson.datatype.jackson-datatype-guava)"
+mvn-com.fasterxml.jackson.datatype-jackson-datatype-guava \
+mvn-com.fasterxml.jackson.datatype-jackson-datatype-guava-pom- \
+osgi-com.fasterxml.jackson.datatype.jackson-datatype-guava"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(com.google.guava:guava)"
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-com.google.guava-guava"
 
 inherit rpm

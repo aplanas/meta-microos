@@ -10,14 +10,13 @@ PV = "2.0.0"
 RPM_NAME = "libUnitTest++-2_0_0-2.0.0-2.3.aarch64.rpm"
 RPM_HASH = "052dca11623d5faf0e7889fd98423dfd088c31bec710870a7b9d406b6b5c25cf153f0285a103a09178492a64e71dc1307291f1cb983ebc4e327b4edbbc247758"
 
-RPROVIDES:${PN} += "libUnitTest++-2.0.0.so()(64bit) \
-libUnitTest++-2_0_0 \
-libUnitTest++-2_0_0(aarch-64)"
+RPROVIDES:${PN} += "libUnitTest++-2-0-0 \
+libUnitTest++-2.0.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -14,11 +14,11 @@ RPM_HASH = "96bce209eef8d93d5daa5d034cb01670382eac06fa33106a1277c2f3df23fbc83f83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-databricks \
-python3.10dist(azure-mgmt-databricks) \
+python3.10dist-azure-mgmt-databricks \
 python310-azure-mgmt-databricks \
-python3dist(azure-mgmt-databricks)"
+python3dist-azure-mgmt-databricks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

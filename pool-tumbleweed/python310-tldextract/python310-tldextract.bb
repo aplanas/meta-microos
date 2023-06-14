@@ -13,13 +13,13 @@ RPM_HASH = "e6b1e9cf762a48d9ecddabb34914245ed3a9cb2b9f015f7aa405e9cd620897a40c09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tldextract \
-python3.10dist(tldextract) \
+python3.10dist-tldextract \
 python310-tldextract \
-python3dist(tldextract)"
+python3dist-tldextract"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-filelock \
 python310-idna \
 python310-requests \

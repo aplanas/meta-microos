@@ -9,17 +9,16 @@ PV = "3.0"
 RPM_NAME = "libphodav-3_0-0-3.0-1.3.aarch64.rpm"
 RPM_HASH = "24679a7fd55227a65b58942cd1259e91c36537b14f1c20580607dd360e1b70d6f934322916369e8f18f267a76dea8c1714b1fbc13834aacc9857c23f0a76c4cc"
 
-RPROVIDES:${PN} += "libphodav-3.0.so.0()(64bit) \
-libphodav-3_0-0 \
-libphodav-3_0-0(aarch-64)"
+RPROVIDES:${PN} += "libphodav-3-0-0 \
+libphodav-3.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libsoup-3.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

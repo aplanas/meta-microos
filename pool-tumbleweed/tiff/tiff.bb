@@ -8,12 +8,11 @@ PV = "4.5.0"
 RPM_NAME = "tiff-4.5.0-3.3.aarch64.rpm"
 RPM_HASH = "ab105f55b496fc60f1f5771b525c382444ed8853ebd765cd009166b42c4aececf93a62fd4073188a432e399b422db19e5a93fe3ecbd2f8fda94ceffaff9deeae"
 
-RPROVIDES:${PN} += "tiff \
-tiff(aarch-64)"
+RPROVIDES:${PN} += "tiff"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libtiff.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libtiff.so.6"
 
 inherit rpm

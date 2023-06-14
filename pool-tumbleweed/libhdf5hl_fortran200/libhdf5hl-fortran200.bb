@@ -11,18 +11,16 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5hl_fortran200-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "62b48bbd37e558034874cd62969066765a97594baae309909ebee531ac4b644669b29d09515edfcf8cdb12c604df71b9ca6d1bec77990c24830111d0e42c750d"
 
-RPROVIDES:${PN} += "libhdf5hl_fortran \
-libhdf5hl_fortran.so.200()(64bit) \
-libhdf5hl_fortran200 \
-libhdf5hl_fortran200(aarch-64)"
+RPROVIDES:${PN} += "libhdf5hl-fortran \
+libhdf5hl-fortran.so.200 \
+libhdf5hl-fortran200"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_fortran.so.200()(64bit) \
-libhdf5_hl.so.200()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfortran.so.5 \
+libhdf5-fortran.so.200 \
+libhdf5-hl.so.200 \
+libhdf5.so.200"
 
 inherit rpm

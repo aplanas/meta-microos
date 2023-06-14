@@ -12,9 +12,8 @@ PV = "1.20.0"
 RPM_NAME = "libqgpgmeqt6-devel-1.20.0-1.1.aarch64.rpm"
 RPM_HASH = "83ef97ce27842cf9f28df9be01d2daee297d097bda02a8d008158a9fa9915f44fb13e8116e19d9baf6b09eaa5319d5aac4ac3952b671f26a34c53a89a422478c"
 
-RPROVIDES:${PN} += "cmake(QGpgmeQt6) \
-libqgpgmeqt6-devel \
-libqgpgmeqt6-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-QGpgmeQt6 \
+libqgpgmeqt6-devel"
 
 RDEPENDS:${PN} += "libgpgme-devel \
 libgpgmepp-devel \

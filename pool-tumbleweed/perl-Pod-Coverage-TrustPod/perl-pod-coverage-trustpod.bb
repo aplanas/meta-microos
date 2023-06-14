@@ -63,12 +63,12 @@ RPM_NAME = "perl-Pod-Coverage-TrustPod-0.100006-1.2.noarch.rpm"
 RPM_HASH = "c30ce950d6e863e3e88c78defb1940f7f651c8005dc686cb451c35d84f08ea3b03a3b208b6322fec9f56ec9771043b609915ef7fd94a51315579675974adab87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Pod::Coverage::TrustPod) \
+RPROVIDES:${PN} += "perl-Pod--Coverage--TrustPod \
 perl-Pod-Coverage-TrustPod"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Pod::Coverage::CountParents) \
-perl(Pod::Eventual::Simple) \
-perl(Pod::Find)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Pod--Coverage--CountParents \
+perl-Pod--Eventual--Simple \
+perl-Pod--Find"
 
 inherit rpm

@@ -12,11 +12,11 @@ RPM_HASH = "4603a4b70f430933c5d3563f7b7d096c258d4642e15c401ce790e677c444e6d3bfff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-iot-deviceupdate \
-python3.10dist(azure-iot-deviceupdate) \
+python3.10dist-azure-iot-deviceupdate \
 python310-azure-iot-deviceupdate \
-python3dist(azure-iot-deviceupdate)"
+python3dist-azure-iot-deviceupdate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-iot-nspkg \
 python310-isodate"

@@ -11,10 +11,10 @@ RPM_HASH = "303b1592440331d1060fcb58f5ef669d1bc7c244a69dea94b66d842deb236816798d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-weblate-language-data \
-python3.10dist(weblate-language-data) \
+python3.10dist-weblate-language-data \
 python310-weblate-language-data \
-python3dist(weblate-language-data)"
+python3dist-weblate-language-data"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

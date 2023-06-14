@@ -10,12 +10,12 @@ RPM_HASH = "9bab47aae3e126ae9c6acb34838195cf2c34f866014f720d63c46aef6662a40ce50a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-augeas \
-python3.10dist(python-augeas) \
+python3.10dist-python-augeas \
 python310-augeas \
-python3dist(python-augeas)"
+python3dist-python-augeas"
 
 RDEPENDS:${PN} += "augeas \
 augeas-lenses \
-python(abi)"
+python-abi"
 
 inherit rpm

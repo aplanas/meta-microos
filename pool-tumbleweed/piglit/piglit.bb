@@ -16,29 +16,27 @@ PV = "1~20210326.6a4be9e99"
 RPM_NAME = "piglit-1~20210326.6a4be9e99-3.3.aarch64.rpm"
 RPM_HASH = "31d2f95ff4729a735fa57ce536c9ef87111d81f25cb60cd2d6bf44ba57003746d89184ca42f0fcd44fa4a6a3186859c8d3b6fd56f555ab08e351ba41af6a9668"
 
-RPROVIDES:${PN} += "libpiglitutil.so.0()(64bit) \
-libpiglitutil_gles1.so.0()(64bit) \
-libpiglitutil_gles2.so.0()(64bit) \
-libpiglitutil_gles3.so.0()(64bit) \
-piglit \
-piglit(aarch-64)"
+RPROVIDES:${PN} += "libpiglitutil-gles1.so.0 \
+libpiglitutil-gles2.so.0 \
+libpiglitutil-gles3.so.0 \
+libpiglitutil.so.0 \
+piglit"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libdrm.so.2()(64bit) \
-libdrm_intel.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libwaffle-1.so.0()(64bit) \
-libxcb-dri2.so.0()(64bit) \
-libxcb.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libdrm-intel.so.1 \
+libdrm.so.2 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libwaffle-1.so.0 \
+libxcb-dri2.so.0 \
+libxcb.so.1 \
 python3 \
 python3-Mako \
 python3-numpy \

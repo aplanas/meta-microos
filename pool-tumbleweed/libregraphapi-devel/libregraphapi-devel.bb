@@ -9,9 +9,8 @@ PV = "1.0.4"
 RPM_NAME = "libregraphapi-devel-1.0.4-1.1.aarch64.rpm"
 RPM_HASH = "5730d9e4754766ea72d3de92e867d3b44f870a2879dee217d9fecac49851283182d6c383b0e79ac353312b4ea31b4a951ea02b89d394ffab6fb7b7b98f0b5f94"
 
-RPROVIDES:${PN} += "cmake(LibreGraphAPI) \
-libregraphapi-devel \
-libregraphapi-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-LibreGraphAPI \
+libregraphapi-devel"
 
 RDEPENDS:${PN} += "libLibreGraphAPI1"
 

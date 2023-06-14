@@ -11,22 +11,22 @@ RPM_HASH = "850a9eb546ecbdcd8e55c90707a4bf11dab6691f244cceb3da8b07d1826a668b4167
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-xjc \
-mvn(com.sun.xml.bind:jaxb-xjc) \
-mvn(com.sun.xml.bind:jaxb-xjc:pom:) \
-mvn(org.glassfish.jaxb:jaxb-xjc) \
-mvn(org.glassfish.jaxb:jaxb-xjc-jdk9) \
-mvn(org.glassfish.jaxb:jaxb-xjc-jdk9:pom:) \
-mvn(org.glassfish.jaxb:jaxb-xjc:pom:)"
+mvn-com.sun.xml.bind-jaxb-xjc \
+mvn-com.sun.xml.bind-jaxb-xjc-pom- \
+mvn-org.glassfish.jaxb-jaxb-xjc \
+mvn-org.glassfish.jaxb-jaxb-xjc-jdk9 \
+mvn-org.glassfish.jaxb-jaxb-xjc-jdk9-pom- \
+mvn-org.glassfish.jaxb-jaxb-xjc-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.istack:istack-commons-runtime) \
-mvn(com.sun.istack:istack-commons-tools) \
-mvn(com.sun.xml.bind.external:relaxng-datatype) \
-mvn(com.sun.xml.bind.external:rngom) \
-mvn(com.sun.xml.dtd-parser:dtd-parser) \
-mvn(org.glassfish.jaxb:codemodel) \
-mvn(org.glassfish.jaxb:jaxb-runtime) \
-mvn(org.glassfish.jaxb:xsom)"
+mvn-com.sun.istack-istack-commons-runtime \
+mvn-com.sun.istack-istack-commons-tools \
+mvn-com.sun.xml.bind.external-relaxng-datatype \
+mvn-com.sun.xml.bind.external-rngom \
+mvn-com.sun.xml.dtd-parser-dtd-parser \
+mvn-org.glassfish.jaxb-codemodel \
+mvn-org.glassfish.jaxb-jaxb-runtime \
+mvn-org.glassfish.jaxb-xsom"
 
 inherit rpm

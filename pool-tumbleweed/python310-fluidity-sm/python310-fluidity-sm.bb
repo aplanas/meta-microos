@@ -15,10 +15,10 @@ RPM_HASH = "98122153b9aeaa026783975012ade2ac1192b3146c13c1252859c52a22ada4eeae1e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fluidity-sm \
-python3.10dist(fluidity-sm) \
+python3.10dist-fluidity-sm \
 python310-fluidity-sm \
-python3dist(fluidity-sm)"
+python3dist-fluidity-sm"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

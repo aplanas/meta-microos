@@ -12,18 +12,16 @@ PV = "11.0.1"
 RPM_NAME = "llvm11-11.0.1-13.1.aarch64.rpm"
 RPM_HASH = "52367c10bfefc87c149707231f37c16cdc993acd2123452358e92c849766f18b44cf1c773d2800bbd3a581270f30efece57a46f580342cf7b683bafaed7ff7e5"
 
-RPROVIDES:${PN} += "llvm11 \
-llvm11(aarch-64)"
+RPROVIDES:${PN} += "llvm11"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.11()(64bit) \
-libLLVM.so.11(LLVM_11)(64bit) \
+ld-linux-aarch64.so.1 \
+libLLVM.so.11 \
 libLLVM11 \
-libLLVMTableGen.so.11()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+libLLVMTableGen.so.11 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6 \
 update-alternatives"
 
 inherit rpm

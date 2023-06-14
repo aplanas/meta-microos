@@ -10,18 +10,17 @@ RPM_NAME = "guile-devel-3.0.9-1.1.aarch64.rpm"
 RPM_HASH = "94107494dac9e62952f933513ee57a3c688af8f2cb9587bd579d38ac42e645c383199e525ee2c71295e6d5d13e9cabcf6b7591bb38b16d6b60acbdc22437ee42"
 
 RPROVIDES:${PN} += "guile-devel \
-guile-devel(aarch-64) \
-pkgconfig(guile-3.0)"
+pkgconfig-guile-3.0"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 gmp-devel \
 guile \
 libffi-devel \
-libguile-3_0-1 \
+libguile-3-0-1 \
 libunistring-devel \
 ncurses-devel \
-pkgconfig(bdw-gc) \
+pkgconfig-bdw-gc \
 readline-devel"
 
 inherit rpm

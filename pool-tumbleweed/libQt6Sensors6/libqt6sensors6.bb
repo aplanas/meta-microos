@@ -7,16 +7,13 @@ PV = "6.5.1"
 RPM_NAME = "libQt6Sensors6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "f2fa60d8d07353fd1bb199ca1f1ee3bde8238ddb669efc1aada7407ec73fe65be9ad30ff27925e2712be485c7befdb2d8e8b5a780da50990070f278a4dfd2a0b"
 
-RPROVIDES:${PN} += "libQt6Sensors.so.6()(64bit) \
-libQt6Sensors.so.6(Qt_6)(64bit) \
-libQt6Sensors6 \
-libQt6Sensors6(aarch-64)"
+RPROVIDES:${PN} += "libQt6Sensors.so.6 \
+libQt6Sensors6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

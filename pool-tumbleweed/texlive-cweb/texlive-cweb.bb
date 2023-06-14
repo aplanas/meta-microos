@@ -21,24 +21,24 @@ RPM_NAME = "texlive-cweb-2023.204.svn66186-54.1.noarch.rpm"
 RPM_HASH = "c6b89002fbe405b6ff345826a4eadca70642df6e804e6f441093ac61fdc49c10954470c11b1491146b931696e9d2f6c7c4a9e001f8c2a8aa90c5a1beee223b6e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(Xcwebmac.tex) \
-tex(ctproofmac.tex) \
-tex(cttwinxmac.tex) \
-tex(ctwimac.tex) \
-tex(cweb_ecma94.sty) \
-tex(cweb_hp8.sty) \
-tex(cweb_mac8.sty) \
-tex(cweb_pc850.sty) \
-tex(cwebmac.tex) \
-tex(dctproofmac.tex) \
-tex(dctwimac.tex) \
-tex(dcwebmac.tex) \
-tex(dcwebstrings.tex) \
-tex(fcwebmac.tex) \
-tex(icwebmac.tex) \
-tex(pdfctwimac.tex) \
-tex(pdfwebtocfront.tex) \
-tex(twinx-startup.tex) \
+RPROVIDES:${PN} += "tex-Xcwebmac.tex \
+tex-ctproofmac.tex \
+tex-cttwinxmac.tex \
+tex-ctwimac.tex \
+tex-cweb-ecma94.sty \
+tex-cweb-hp8.sty \
+tex-cweb-mac8.sty \
+tex-cweb-pc850.sty \
+tex-cwebmac.tex \
+tex-dctproofmac.tex \
+tex-dctwimac.tex \
+tex-dcwebmac.tex \
+tex-dcwebstrings.tex \
+tex-fcwebmac.tex \
+tex-icwebmac.tex \
+tex-pdfctwimac.tex \
+tex-pdfwebtocfront.tex \
+tex-twinx-startup.tex \
 texlive-cweb"
 
 RDEPENDS:${PN} += "/bin/sh \

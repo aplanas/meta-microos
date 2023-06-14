@@ -11,11 +11,11 @@ RPM_HASH = "8fc25a25f9ca9422f46971ed77fb70990b58c49f4f4f91370591b6493948dcef3248
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-redfish \
-python3.10dist(redfish) \
+python3.10dist-redfish \
 python310-redfish \
-python3dist(redfish)"
+python3dist-redfish"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jsonpatch \
 python310-jsonpath-rw \
 python310-jsonpointer \

@@ -9,19 +9,17 @@ PV = "45.0"
 RPM_NAME = "rdma-core-45.0-1.1.aarch64.rpm"
 RPM_HASH = "fed2e3fad95bac8dbdb77c2be5f2bc89f0fe8ea2f8b64360a0077ad31cab0016278943abc601c81c4f44cbc53c370fb2180e366e4829ae19911eb5e9a702df48"
 
-RPROVIDES:${PN} += "config(rdma-core) \
+RPROVIDES:${PN} += "config-rdma-core \
 ofed \
 rdma \
-rdma-core \
-rdma-core(aarch-64)"
+rdma-core"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 kmod \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnl-3.so.200 \
 systemd \
 udev"
 

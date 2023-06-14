@@ -8,22 +8,21 @@ PV = "2.28"
 RPM_NAME = "libbd_fs2-2.28-1.4.aarch64.rpm"
 RPM_HASH = "ec87fe23bd343780cb52f4bef1277b5fa44a198a856c9d3b59d0598f5de93d9c3f1b827b23da591c8b4eb8484fce3a67627eda3df2365f1c8d7124c89d4976e0"
 
-RPROVIDES:${PN} += "libbd_fs.so.2()(64bit) \
-libbd_fs2 \
-libbd_fs2(aarch-64) \
+RPROVIDES:${PN} += "libbd-fs.so.2 \
+libbd-fs2 \
 libblockdev-fs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 device-mapper \
-ld-linux-aarch64.so.1()(64bit) \
-libbd_part_err.so.2()(64bit) \
-libbd_utils.so.2()(64bit) \
-libbd_utils2 \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libmount.so.1()(64bit) \
-libparted-fs-resize.so.0()(64bit) \
-libparted.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libbd-part-err.so.2 \
+libbd-utils.so.2 \
+libbd-utils2 \
+libblkid.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libmount.so.1 \
+libparted-fs-resize.so.0 \
+libparted.so.2"
 
 inherit rpm

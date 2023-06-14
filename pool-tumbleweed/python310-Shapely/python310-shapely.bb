@@ -14,17 +14,16 @@ RPM_HASH = "0d31973b757ee4e9b8f01156cc4af5e4d6fb685fa4bb8e2f92425276466968137e17
 
 RPROVIDES:${PN} += "python3-Shapely \
 python3-shapely \
-python3.10dist(shapely) \
+python3.10dist-shapely \
 python310-Shapely \
-python310-Shapely(aarch-64) \
 python310-shapely \
-python3dist(shapely)"
+python3dist-shapely"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgeos3_11_2 \
-libgeos_c.so.1()(64bit) \
-libgeos_c1 \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgeos-c.so.1 \
+libgeos-c1 \
+libgeos3-11-2 \
+python-abi"
 
 inherit rpm

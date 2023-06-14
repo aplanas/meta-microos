@@ -9,12 +9,12 @@ RPM_HASH = "afb819e34ab041ced9d77cbd800980fd2fd2fd96d2b822bd09021ea356e0de22bae9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-server-mathjax \
-python3.10dist(jupyter-server-mathjax) \
+python3.10dist-jupyter-server-mathjax \
 python310-jupyter-server-mathjax \
-python3dist(jupyter-server-mathjax)"
+python3dist-jupyter-server-mathjax"
 
 RDEPENDS:${PN} += "jupyter-server-mathjax \
-python(abi) \
-python310-jupyter_server"
+python-abi \
+python310-jupyter-server"
 
 inherit rpm

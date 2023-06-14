@@ -9,11 +9,11 @@ RPM_HASH = "b70b1492078f5eb4c80c86db6272f86f1eea9ef68298af96cd8861f2ecee7b676630
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-box \
-python3.10dist(python-box) \
+python3.10dist-python-box \
 python310-python-box \
-python3dist(python-box)"
+python3dist-python-box"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-msgpack \
 python310-ruamel.yaml \
 python310-toml"

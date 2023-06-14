@@ -24,12 +24,11 @@ PV = "1.6.2"
 RPM_NAME = "libossp-uuid_dce16-1.6.2-19.45.aarch64.rpm"
 RPM_HASH = "905f1780053875936c3baebf1e858a0a0f492f7523266494b307c902dcab0d4429908867b32883573747c58d3943fea3e6b2294bff918c62a833ebaa182d2499"
 
-RPROVIDES:${PN} += "libossp-uuid_dce.so.16()(64bit) \
-libossp-uuid_dce16 \
-libossp-uuid_dce16(aarch-64)"
+RPROVIDES:${PN} += "libossp-uuid-dce.so.16 \
+libossp-uuid-dce16"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

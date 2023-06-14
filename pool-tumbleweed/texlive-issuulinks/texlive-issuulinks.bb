@@ -16,7 +16,7 @@ RPM_NAME = "texlive-issuulinks-2023.201.1.1svn25742-55.1.noarch.rpm"
 RPM_HASH = "40770fe4f8183816d7d47feea05f3807e7f622e10c6f1da845b69c465d419189344d347965d48b6fce7681b0050282f7b2afcc43174e07228e6af29a7eadb4e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(issuulinks.sty) \
+RPROVIDES:${PN} += "tex-issuulinks.sty \
 texlive-issuulinks"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,7 +25,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xkeyval.sty) \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

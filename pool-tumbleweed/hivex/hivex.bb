@@ -9,18 +9,17 @@ PV = "1.3.23"
 RPM_NAME = "hivex-1.3.23-2.3.aarch64.rpm"
 RPM_HASH = "28a913443e3afc862e6a26a7e6b421932192bd03fa200520568a0533f7570f29de2165f6da6277743adbec0688fc32500c36a2b504e357409027515641944037"
 
-RPROVIDES:${PN} += "hivex \
-hivex(aarch-64)"
+RPROVIDES:${PN} += "hivex"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhivex.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-perl(Getopt::Long) \
-perl(Pod::Usage) \
-perl(Win::Hivex) \
-perl(Win::Hivex::Regedit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhivex.so.0 \
+libxml2.so.2 \
+perl-Getopt--Long \
+perl-Pod--Usage \
+perl-Win--Hivex \
+perl-Win--Hivex--Regedit"
 
 inherit rpm

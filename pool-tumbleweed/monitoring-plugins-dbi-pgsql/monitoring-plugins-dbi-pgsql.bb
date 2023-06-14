@@ -12,9 +12,8 @@ PV = "2.3.1"
 RPM_NAME = "monitoring-plugins-dbi-pgsql-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "44c124bd5c034fe145b8359a3f160ee924bfc21d93a1054e3b4bc8cd602522bab195b9b699e4f6233cb25a5614440694f77dee29b77a0cf31e4466150c525fea"
 
-RPROVIDES:${PN} += "monitoring-plugins-dbi-pgsql \
-monitoring-plugins-dbi-pgsql(aarch-64) \
-monitoring-plugins-dbi_backend \
+RPROVIDES:${PN} += "monitoring-plugins-dbi-backend \
+monitoring-plugins-dbi-pgsql \
 nagios-plugins-dbi-pgsql"
 
 RDEPENDS:${PN} += "libdbi-drivers-dbd-pgsql \

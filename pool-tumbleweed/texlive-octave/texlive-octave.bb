@@ -13,7 +13,7 @@ RPM_NAME = "texlive-octave-2023.201.svn66115-54.1.noarch.rpm"
 RPM_HASH = "a2db0e0f572079b0d6ed57e47659906b078ab1eee0561651a0bfe3d494b605100fafad4f97a7b61c8d3f436fb2954797a2adae9984e6c4e4842c3900bca25824"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(octave.sty) \
+RPROVIDES:${PN} += "tex-octave.sty \
 texlive-octave"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xparse.sty) \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

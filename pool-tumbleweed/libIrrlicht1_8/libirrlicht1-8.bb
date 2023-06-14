@@ -10,21 +10,19 @@ PV = "1.8.5"
 RPM_NAME = "libIrrlicht1_8-1.8.5-1.9.aarch64.rpm"
 RPM_HASH = "82053338a496e858a36e5a3b5b0521358010cacd4b11ba7a246927ae304eb7c949b6907486a7aa125578a602fafadce6df721884aa0c1878cd7e2441115ea9fe"
 
-RPROVIDES:${PN} += "libIrrlicht.so.1.8()(64bit) \
-libIrrlicht1_8 \
-libIrrlicht1_8(aarch-64)"
+RPROVIDES:${PN} += "libIrrlicht.so.1.8 \
+libIrrlicht1-8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXxf86vm.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXxf86vm.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

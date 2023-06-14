@@ -18,22 +18,22 @@ RDEPENDS:${PN} += "deepin-gir-generator \
 golang-github-linuxdeepin-go-dbus-factory \
 golang-github-linuxdeepin-go-lib \
 golang-github-linuxdeepin-go-x11-client \
-pkgconfig(alsa) \
-pkgconfig(cairo-ft) \
-pkgconfig(gdk-pixbuf-xlib-2.0) \
-pkgconfig(gio-2.0) \
-pkgconfig(glib-2.0) \
-pkgconfig(gtk+-3.0) \
-pkgconfig(gudev-1.0) \
-pkgconfig(libcanberra) \
-pkgconfig(libpulse-simple) \
-pkgconfig(librsvg-2.0) \
-pkgconfig(polkit-qt5-1) \
-pkgconfig(poppler-glib) \
-pkgconfig(systemd) \
-pkgconfig(x11) \
-pkgconfig(xcursor) \
-pkgconfig(xfixes) \
-pkgconfig(xi)"
+pkgconfig-alsa \
+pkgconfig-cairo-ft \
+pkgconfig-gdk-pixbuf-xlib-2.0 \
+pkgconfig-gio-2.0 \
+pkgconfig-glib-2.0 \
+pkgconfig-gtk+-3.0 \
+pkgconfig-gudev-1.0 \
+pkgconfig-libcanberra \
+pkgconfig-libpulse-simple \
+pkgconfig-librsvg-2.0 \
+pkgconfig-polkit-qt5-1 \
+pkgconfig-poppler-glib \
+pkgconfig-systemd \
+pkgconfig-x11 \
+pkgconfig-xcursor \
+pkgconfig-xfixes \
+pkgconfig-xi"
 
 inherit rpm

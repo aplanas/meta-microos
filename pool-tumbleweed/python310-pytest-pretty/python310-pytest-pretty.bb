@@ -10,11 +10,11 @@ RPM_HASH = "2e4ff0fd8d47b655189684578ecb62806e2f246ce652a7607e7b3ce51878ef306801
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-pretty \
-python3.10dist(pytest-pretty) \
+python3.10dist-pytest-pretty \
 python310-pytest-pretty \
-python3dist(pytest-pretty)"
+python3dist-pytest-pretty"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-rich"
 

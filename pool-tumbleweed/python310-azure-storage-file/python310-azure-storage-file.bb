@@ -12,11 +12,11 @@ RPM_HASH = "4dc96b5babf7f18af39074d74953bea61c39a5480e2e5eb60bda7afd8b1500a6ab77
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-storage-file \
-python3.10dist(azure-storage-file) \
+python3.10dist-azure-storage-file \
 python310-azure-storage-file \
-python3dist(azure-storage-file)"
+python3dist-azure-storage-file"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-azure-storage-common \

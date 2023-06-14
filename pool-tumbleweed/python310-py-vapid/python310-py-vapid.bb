@@ -9,13 +9,13 @@ RPM_HASH = "c4b042d88e0ba095021c9f2e7585ad054e179715094cef4c6c3f364979afc851be45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py-vapid \
-python3.10dist(py-vapid) \
+python3.10dist-py-vapid \
 python310-py-vapid \
-python3dist(py-vapid)"
+python3dist-py-vapid"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cryptography \
 update-alternatives"
 

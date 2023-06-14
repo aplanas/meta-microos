@@ -13,14 +13,13 @@ RPM_NAME = "libpng16-devel-1.6.39-4.1.aarch64.rpm"
 RPM_HASH = "06663b505e5511b3c8bb18992586d0e42f33133d950cd00fda71ac71aa9e7efe741166aef46f3d220ec08d3e23e72506ad019543d5f2424add6d12a040ed8a5c"
 
 RPROVIDES:${PN} += "libpng16-devel \
-libpng16-devel(aarch-64) \
-pkgconfig(libpng16)"
+pkgconfig-libpng16"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \
 libpng16-16 \
 pkgconfig \
-pkgconfig(zlib)"
+pkgconfig-zlib"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "0391c7242936fcc390c6b7f7b8cc34261a918f48b758b0def59fa72b4ea5a5f0493a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-telepot \
-python3.10dist(telepot) \
+python3.10dist-telepot \
 python310-telepot \
-python3dist(telepot)"
+python3dist-telepot"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-aiohttp \
 python310-urllib3"
 

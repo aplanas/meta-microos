@@ -9,11 +9,11 @@ RPM_HASH = "85317f384c8d8f967940d7395e3746f0b0e532f4e221ca095fd4fa483b2744c3a119
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cornice \
-python3.10dist(cornice) \
+python3.10dist-cornice \
 python310-cornice \
-python3dist(cornice)"
+python3dist-cornice"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyramid \
 python310-venusian"
 

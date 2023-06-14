@@ -14,11 +14,11 @@ RPM_HASH = "6c6ea1b52aa19d5d8e194f8de1b43f6180881f0d037eedbd484bf2555259100b2eed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-eventgrid \
-python3.10dist(azure-mgmt-eventgrid) \
+python3.10dist-azure-mgmt-eventgrid \
 python310-azure-mgmt-eventgrid \
-python3dist(azure-mgmt-eventgrid)"
+python3dist-azure-mgmt-eventgrid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

@@ -9,11 +9,11 @@ RPM_HASH = "47002e6b122173c0ec1ea1ea5cd70b12ab284c40607f276bc24e0ecc752a50c9518f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-intervals \
-python3.10dist(intervals) \
+python3.10dist-intervals \
 python310-intervals \
-python3dist(intervals)"
+python3dist-intervals"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-infinity"
 
 inherit rpm

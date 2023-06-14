@@ -9,11 +9,11 @@ RPM_HASH = "2dc166773a81e3b3144c5fc004ab6aa3aa3ec4c9030c1ff4a0e151a99c118f5f1888
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytzdata \
-python3.10dist(pytzdata) \
+python3.10dist-pytzdata \
 python310-pytzdata \
-python3dist(pytzdata)"
+python3dist-pytzdata"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 timezone"
 
 inherit rpm

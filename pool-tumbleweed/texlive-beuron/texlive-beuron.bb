@@ -13,12 +13,12 @@ RPM_NAME = "texlive-beuron-2023.201.1.3svn46374-53.1.noarch.rpm"
 RPM_HASH = "dd0089cd3930f95d4bf6571d57f1d2b9d98be686cb298601eceba7c530aaceb57ea4f042e720ca9d567ae9d1bc29eeb8c86000fe919264ee2f2bb1fad03badf4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beuron.map) \
-tex(beuron.sty) \
-tex(beuron.tfm) \
-tex(beuronc.tfm) \
-tex(beuronx.tfm) \
-tex(t1beuron.fd) \
+RPROVIDES:${PN} += "tex-beuron.map \
+tex-beuron.sty \
+tex-beuron.tfm \
+tex-beuronc.tfm \
+tex-beuronx.tfm \
+tex-t1beuron.fd \
 texlive-beuron"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,10 +27,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(fontspec.sty) \
-tex(updmap.cfg) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-fontspec.sty \
+tex-updmap.cfg \
+tex-xparse.sty \
 texlive \
 texlive-beuron-fonts \
 texlive-filesystem \

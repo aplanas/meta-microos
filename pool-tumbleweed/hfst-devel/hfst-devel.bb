@@ -13,8 +13,7 @@ RPM_NAME = "hfst-devel-3.15.4-1.3.aarch64.rpm"
 RPM_HASH = "5882cfb79c5310ff7c4ea04a95b67f4f9d08a911fe39b96f326b15e471cf5df9ddf6fc1cc646873e6a1a9e125aac00ede46afc5e084368d720e43f72c66ea588"
 
 RPROVIDES:${PN} += "hfst-devel \
-hfst-devel(aarch-64) \
-pkgconfig(hfst)"
+pkgconfig-hfst"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhfst53"

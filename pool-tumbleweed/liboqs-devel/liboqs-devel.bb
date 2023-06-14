@@ -8,9 +8,8 @@ PV = "0.7.1"
 RPM_NAME = "liboqs-devel-0.7.1-6.1.aarch64.rpm"
 RPM_HASH = "0624a6bec31cfcb1ba33e2ea09026e4f931eb57e8a5d5a2d94df3a8f95f5fd58442e5a6855ffd669a58ecb114be72c3a06feef8aa1cc13c917206d802b908dee"
 
-RPROVIDES:${PN} += "cmake(liboqs) \
-liboqs-devel \
-liboqs-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-liboqs \
+liboqs-devel"
 
 RDEPENDS:${PN} += "liboqs0"
 

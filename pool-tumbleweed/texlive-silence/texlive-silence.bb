@@ -14,7 +14,7 @@ RPM_NAME = "texlive-silence-2023.201.1.5bsvn27028-53.1.noarch.rpm"
 RPM_HASH = "4d0f90bcb55819a3257e44f5047e03a05d17e47f396794f4e7fe6c9b4a497fec7c0da100cfed118791ecd35f86160cf290c0de3ca5c15c416a685a324a2f75ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(silence.sty) \
+RPROVIDES:${PN} += "tex-silence.sty \
 texlive-silence"
 
 RDEPENDS:${PN} += "/bin/sh \

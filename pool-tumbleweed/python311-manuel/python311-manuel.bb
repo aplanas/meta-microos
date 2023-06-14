@@ -11,10 +11,10 @@ RPM_NAME = "python311-manuel-1.12.4-4.1.noarch.rpm"
 RPM_HASH = "6cc2864d984da24b75652a46e755f5da3cc1ee074919e0de992f49533372dfde1d968e47693cbe70d0930620bf8a510ce39c312050688617c4862e929d3bbb96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(manuel) \
+RPROVIDES:${PN} += "python3.11dist-manuel \
 python311-manuel \
-python3dist(manuel)"
+python3dist-manuel"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

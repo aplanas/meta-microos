@@ -30,7 +30,7 @@ RPM_NAME = "texlive-thermodynamics-2023.201.1.00svn63188-54.1.noarch.rpm"
 RPM_HASH = "e4159490898ae847a0e144f28dbf5e1d7af390b8f28f454b1d175609e3f2e25904145cbe6a024d40a6f1cbf5e805835b36bcd79f292d17357ebc45f087901912"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(thermodynamics.sty) \
+RPROVIDES:${PN} += "tex-thermodynamics.sty \
 texlive-thermodynamics"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -39,7 +39,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(amstext.sty) \
+tex-amstext.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

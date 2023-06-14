@@ -10,11 +10,11 @@ RPM_HASH = "d314c6d87089f68d6cc098cd87d706513231de4a9cd25ba1b86dac6a606118bb078e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-googlemaps \
-python3.10dist(googlemaps) \
+python3.10dist-googlemaps \
 python310-googlemaps \
-python3dist(googlemaps)"
+python3dist-googlemaps"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

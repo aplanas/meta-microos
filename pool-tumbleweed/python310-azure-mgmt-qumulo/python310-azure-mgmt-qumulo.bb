@@ -11,12 +11,12 @@ RPM_HASH = "e7b14a8bf27421b21bf1c883606915319077cd720801bf2fde2af870171e7bd46eec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-qumulo \
-python3.10dist(azure-mgmt-qumulo) \
+python3.10dist-azure-mgmt-qumulo \
 python310-azure-mgmt-qumulo \
-python3dist(azure-mgmt-qumulo)"
+python3dist-azure-mgmt-qumulo"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

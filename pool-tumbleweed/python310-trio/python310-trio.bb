@@ -16,12 +16,12 @@ RPM_HASH = "df91443567fa97db04eb1955c711c0c3c140fda48c83b2a977c81100d1a477c43df5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-trio \
-python3.10dist(trio) \
+python3.10dist-trio \
 python310-trio \
-python3dist(trio)"
+python3dist-trio"
 
-RDEPENDS:${PN} += "python(abi) \
-python310-async_generator \
+RDEPENDS:${PN} += "python-abi \
+python310-async-generator \
 python310-attrs \
 python310-exceptiongroup \
 python310-idna \

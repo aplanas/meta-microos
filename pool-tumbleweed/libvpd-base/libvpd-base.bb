@@ -8,8 +8,7 @@ PV = "2.2.9"
 RPM_NAME = "libvpd-base-2.2.9-3.3.aarch64.rpm"
 RPM_HASH = "0a91589961a6da5a95c3bf90494110569d770951804c04ae1910d52bf45225b1e1e7961d5a4af9295162b9ec940c0fbb0cd4bf771ebfcd17ff20e4722968809f"
 
-RPROVIDES:${PN} += "libvpd-base \
-libvpd-base(aarch-64)"
+RPROVIDES:${PN} += "libvpd-base"
 
 RDEPENDS:${PN} += ""
 

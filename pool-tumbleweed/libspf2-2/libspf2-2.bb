@@ -17,12 +17,11 @@ RPM_NAME = "libspf2-2-1.2.11-6.12.aarch64.rpm"
 RPM_HASH = "d6f06e9954aa3ccf06c1b92c8b7d13778a72e5c1667bd6ee9ba4c0488d43f7b953fa4b9e4f47fa68dc98f618fd94f4116c5757164d442299571319af604dd41d"
 
 RPROVIDES:${PN} += "libspf2-2 \
-libspf2-2(aarch-64) \
-libspf2.so.2()(64bit)"
+libspf2.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libresolv.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libresolv.so.2"
 
 inherit rpm

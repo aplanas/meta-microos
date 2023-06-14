@@ -9,14 +9,11 @@ PV = "5.19"
 RPM_NAME = "iw-5.19-1.4.aarch64.rpm"
 RPM_HASH = "90d5ff0faa1de3fad753ebac1e31dc28cc793ae07c6cb02211fdd313ac9c28ae9941910a3441ea7db96d66b0723b902ef0e5f28150f849354ee53734f34fa193"
 
-RPROVIDES:${PN} += "iw \
-iw(aarch-64)"
+RPROVIDES:${PN} += "iw"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-genl-3.so.200()(64bit) \
-libnl-genl-3.so.200(libnl_3)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnl-3.so.200 \
+libnl-genl-3.so.200"
 
 inherit rpm

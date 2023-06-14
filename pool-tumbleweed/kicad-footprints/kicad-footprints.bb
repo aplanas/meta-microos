@@ -11,7 +11,7 @@ RPM_HASH = "6ea9a6cbc4a233b0e55c6268748746b3319ec9857f0a590efb25c5bbcf7a4e85f003
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-footprints \
-kicad-library:/usr/share/kicad/template/fp-lib-table"
+kicad-library-/usr/share/kicad/template/fp-lib-table"
 
 RDEPENDS:${PN} += ""
 

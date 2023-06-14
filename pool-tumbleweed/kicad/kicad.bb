@@ -15,78 +15,62 @@ PV = "7.0.5"
 RPM_NAME = "kicad-7.0.5-1.1.aarch64.rpm"
 RPM_HASH = "eab54956fad873d26df37aa9d593449d7217f797550059913d194397895256908af14d9ec4e77152922ae02c6457781204f5428f61b2f8d6448504390363594d"
 
-RPROVIDES:${PN} += "application() \
-application(org.kicad.bitmap2component.desktop) \
-application(org.kicad.eeschema.desktop) \
-application(org.kicad.gerbview.desktop) \
-application(org.kicad.kicad.desktop) \
-application(org.kicad.pcbcalculator.desktop) \
-application(org.kicad.pcbnew.desktop) \
-kicad \
-kicad(aarch-64) \
-libkicad_3dsg.so.2.0.0()(64bit) \
-libs3d_plugin_idf.so()(64bit) \
-libs3d_plugin_oce.so()(64bit) \
-libs3d_plugin_vrml.so()(64bit) \
-metainfo() \
-metainfo(org.kicad.kicad.metainfo.xml) \
-mimehandler(application/x-excellon) \
-mimehandler(application/x-gerber) \
-mimehandler(application/x-gerber-job) \
-mimehandler(application/x-kicad-pcb) \
-mimehandler(application/x-kicad-project) \
-mimehandler(application/x-kicad-schematic)"
+RPROVIDES:${PN} += "kicad \
+libkicad-3dsg.so.2.0.0 \
+libs3d-plugin-idf.so \
+libs3d-plugin-oce.so \
+libs3d-plugin-vrml.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kicad-footprints \
 kicad-symbols \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libGLU.so.1()(64bit) \
-libTKBO.so.7.7()(64bit) \
-libTKBRep.so.7.7()(64bit) \
-libTKCDF.so.7.7()(64bit) \
-libTKIGES.so.7.7()(64bit) \
-libTKLCAF.so.7.7()(64bit) \
-libTKMath.so.7.7()(64bit) \
-libTKMesh.so.7.7()(64bit) \
-libTKPrim.so.7.7()(64bit) \
-libTKSTEP.so.7.7()(64bit) \
-libTKTopAlgo.so.7.7()(64bit) \
-libTKXCAF.so.7.7()(64bit) \
-libTKXDEIGES.so.7.7()(64bit) \
-libTKXDESTEP.so.7.7()(64bit) \
-libTKXSBase.so.7.7()(64bit) \
-libTKernel.so.7.7()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcurl.so.4()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libGLU.so.1 \
+libTKBO.so.7.7 \
+libTKBRep.so.7.7 \
+libTKCDF.so.7.7 \
+libTKIGES.so.7.7 \
+libTKLCAF.so.7.7 \
+libTKMath.so.7.7 \
+libTKMesh.so.7.7 \
+libTKPrim.so.7.7 \
+libTKSTEP.so.7.7 \
+libTKTopAlgo.so.7.7 \
+libTKXCAF.so.7.7 \
+libTKXDEIGES.so.7.7 \
+libTKXDESTEP.so.7.7 \
+libTKXSBase.so.7.7 \
+libTKernel.so.7.7 \
+libc.so.6 \
+libcairo.so.2 \
+libcurl.so.4 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libharfbuzz.so.0 \
+libm.so.6 \
 libngspice0 \
-libodbc.so.2()(64bit) \
-libpixman-1.so.0()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_net-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_gl-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_propgrid-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_stc-suse.so.9.0.0()(64bit) \
-libz.so.1()(64bit) \
-python(abi)"
+libodbc.so.2 \
+libpixman-1.so.0 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
+libwx-baseu-net-suse.so.9.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-gtk3u-aui-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-gl-suse.so.9.0.0 \
+libwx-gtk3u-html-suse.so.9.0.0 \
+libwx-gtk3u-propgrid-suse.so.9.0.0 \
+libwx-gtk3u-stc-suse.so.9.0.0 \
+libz.so.1 \
+python-abi"
 
 inherit rpm

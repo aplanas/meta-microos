@@ -14,40 +14,30 @@ RPM_HASH = "ed9ec1ef0246d4320bb3fce43381aab96a9d6575c0bd4a818709f62e1dfcc9e2b50c
 
 RPROVIDES:${PN} += "ffmpeg \
 ffmpeg-4 \
-ffmpeg-4(aarch-64) \
 ffmpeg-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libavcodec.so.58.134()(64bit) \
-libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
-libavcodec58_134 \
-libavdevice.so.58.13()(64bit) \
-libavdevice.so.58.13(LIBAVDEVICE_58)(64bit) \
-libavdevice58_13 \
-libavfilter.so.7.110()(64bit) \
-libavfilter.so.7.110(LIBAVFILTER_7)(64bit) \
-libavfilter7_110 \
-libavformat.so.58.76()(64bit) \
-libavformat.so.58.76(LIBAVFORMAT_58)(64bit) \
-libavformat58_76 \
-libavresample.so.4.0()(64bit) \
-libavresample.so.4.0(LIBAVRESAMPLE_4)(64bit) \
-libavresample4_0 \
-libavutil.so.56.70()(64bit) \
-libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libavutil56_70 \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpostproc.so.55.9()(64bit) \
-libpostproc.so.55.9(LIBPOSTPROC_55)(64bit) \
-libpostproc55_9 \
-libswresample.so.3.9()(64bit) \
-libswresample.so.3.9(LIBSWRESAMPLE_3)(64bit) \
-libswresample3_9 \
-libswscale.so.5.9()(64bit) \
-libswscale.so.5.9(LIBSWSCALE_5)(64bit) \
-libswscale5_9 \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libavcodec.so.58.134 \
+libavcodec58-134 \
+libavdevice.so.58.13 \
+libavdevice58-13 \
+libavfilter.so.7.110 \
+libavfilter7-110 \
+libavformat.so.58.76 \
+libavformat58-76 \
+libavresample.so.4.0 \
+libavresample4-0 \
+libavutil.so.56.70 \
+libavutil56-70 \
+libc.so.6 \
+libm.so.6 \
+libpostproc.so.55.9 \
+libpostproc55-9 \
+libswresample.so.3.9 \
+libswresample3-9 \
+libswscale.so.5.9 \
+libswscale5-9 \
+libz.so.1"
 
 inherit rpm

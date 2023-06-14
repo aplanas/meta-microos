@@ -12,12 +12,11 @@ PV = "1.4.2"
 RPM_NAME = "flac-1.4.2-2.3.aarch64.rpm"
 RPM_HASH = "45359c7ed13cd58ed40c228fad91e777fe25dcb4d9934affdb2993d79a515bc177f4e82c492726eb0b88cf55c1b9791db7de0e9bc88bedf0dd37ba51939d9574"
 
-RPROVIDES:${PN} += "flac \
-flac(aarch-64)"
+RPROVIDES:${PN} += "flac"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libFLAC.so.12()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFLAC.so.12 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-imtekda-2023.201.1.7svn17667-52.1.noarch.rpm"
 RPM_HASH = "430afec77799af4c29ded9833a6eda2394504dacc14a7a4c7fda59147818297e2e99bdccf14544a96c8ff27d4993d51737ab12767fed9d123cabbd10ebb54a35"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(IMTEKda.cls) \
+RPROVIDES:${PN} += "tex-IMTEKda.cls \
 texlive-imtekda"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(graphicx.sty) \
-tex(scrbook.cls) \
-tex(textpos.sty) \
+tex-calc.sty \
+tex-graphicx.sty \
+tex-scrbook.cls \
+tex-textpos.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

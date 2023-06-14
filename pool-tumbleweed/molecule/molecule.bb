@@ -14,12 +14,12 @@ RPM_HASH = "88fd6dec37fc18d56fb7a4d6302b931526399251e1b1d69b2767ecd1ddca4d490c9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "molecule \
-python3.10dist(molecule) \
-python3dist(molecule)"
+python3.10dist-molecule \
+python3dist-molecule"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ansible-core \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-PyYAML \
 python3-ansible-compat \

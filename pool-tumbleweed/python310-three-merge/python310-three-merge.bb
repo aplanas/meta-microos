@@ -11,11 +11,11 @@ RPM_HASH = "43b56fe047ae6cec0cc9503157bc504ccff465ca79dd04140226fa94017e7c965614
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-three-merge \
-python3.10dist(three-merge) \
+python3.10dist-three-merge \
 python310-three-merge \
-python3dist(three-merge)"
+python3dist-three-merge"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-diff-match-patch"
 
 inherit rpm

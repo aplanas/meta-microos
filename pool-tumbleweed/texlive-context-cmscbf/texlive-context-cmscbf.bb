@@ -10,7 +10,7 @@ RPM_NAME = "texlive-context-cmscbf-2023.204.svn47085-54.1.noarch.rpm"
 RPM_HASH = "c393b4f64db694ad959c6edbc23fc867a22ee544ce50044ab4c8f6cb6bb99781c92e4390844d47a7ba9fdf480ca7bf5048bbbe0df7f79770e5bcfabfd604714a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(t-cmscbf.tex) \
+RPROVIDES:${PN} += "tex-t-cmscbf.tex \
 texlive-context-cmscbf"
 
 RDEPENDS:${PN} += "/bin/sh \

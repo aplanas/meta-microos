@@ -9,16 +9,13 @@ PV = "6.5.1"
 RPM_NAME = "libQt6WebView6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "4f7073d52e2e0a1ea395b7b6a56b2e621a3e880a25b0762a99c5a86a48fa367596b933762162ca53ae24839e2339607c787aa035ac49017ab4c57c313f0875ec"
 
-RPROVIDES:${PN} += "libQt6WebView.so.6()(64bit) \
-libQt6WebView.so.6(Qt_6)(64bit) \
-libQt6WebView6 \
-libQt6WebView6(aarch-64)"
+RPROVIDES:${PN} += "libQt6WebView.so.6 \
+libQt6WebView6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

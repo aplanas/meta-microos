@@ -12,20 +12,17 @@ PV = "5.2.8.0"
 RPM_NAME = "liballegro_audio5_2-5.2.8.0-1.3.aarch64.rpm"
 RPM_HASH = "41abc4790c1f368f80f3e39bee51d1cc53d0ef7f0e7f42635fc472042a257f8262037a4009b351d01210419634fb76561582bcb1ebe2a00d5624ec613e8ff49c"
 
-RPROVIDES:${PN} += "liballegro_audio.so.5.2()(64bit) \
-liballegro_audio5_2 \
-liballegro_audio5_2(aarch-64)"
+RPROVIDES:${PN} += "liballegro-audio.so.5.2 \
+liballegro-audio5-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-liballegro.so.5.2()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libopenal.so.1()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit)"
+ld-linux-aarch64.so.1 \
+liballegro.so.5.2 \
+libasound.so.2 \
+libc.so.6 \
+libm.so.6 \
+libopenal.so.1 \
+libpulse-simple.so.0 \
+libpulse.so.0"
 
 inherit rpm

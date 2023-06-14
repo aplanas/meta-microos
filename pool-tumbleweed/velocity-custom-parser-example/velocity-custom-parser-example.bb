@@ -29,19 +29,19 @@ RPM_NAME = "velocity-custom-parser-example-2.3-3.9.noarch.rpm"
 RPM_HASH = "d97d2673c85d8649cea584e4fee92236b1bf3d45ea56c3b6314d2cf527d9d71d9eb9dbd8eda68af5d849fa743a35e8980cb5767d218a73d3c71e33362435b74d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-custom-parser-example:pom:) \
+RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-custom-parser-example-pom- \
 velocity-custom-parser-example"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.code.maven-replacer-plugin:replacer) \
-mvn(commons-io:commons-io) \
-mvn(org.apache.felix:maven-bundle-plugin) \
-mvn(org.apache.maven.plugins:maven-dependency-plugin) \
-mvn(org.apache.maven.plugins:maven-resources-plugin) \
-mvn(org.apache.maven.plugins:maven-surefire-plugin) \
-mvn(org.apache.velocity:velocity-engine-core) \
-mvn(org.apache.velocity:velocity-engine-parent:pom:) \
-mvn(org.codehaus.mojo:javacc-maven-plugin)"
+mvn-com.google.code.maven-replacer-plugin-replacer \
+mvn-commons-io-commons-io \
+mvn-org.apache.felix-maven-bundle-plugin \
+mvn-org.apache.maven.plugins-maven-dependency-plugin \
+mvn-org.apache.maven.plugins-maven-resources-plugin \
+mvn-org.apache.maven.plugins-maven-surefire-plugin \
+mvn-org.apache.velocity-velocity-engine-core \
+mvn-org.apache.velocity-velocity-engine-parent-pom- \
+mvn-org.codehaus.mojo-javacc-maven-plugin"
 
 inherit rpm

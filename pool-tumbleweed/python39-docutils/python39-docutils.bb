@@ -10,13 +10,13 @@ RPM_NAME = "python39-docutils-0.19-4.1.noarch.rpm"
 RPM_HASH = "24654657ee4bd7cdd87d69a6f48d1a2e051c470488863504f25595c12dffa9582342f92e067517eb3ae9d3eced9a2ec322d076f5574f39f405b116d720e7f5c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(docutils) \
+RPROVIDES:${PN} += "python3.9dist-docutils \
 python39-docutils \
-python3dist(docutils)"
+python3dist-docutils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-packaging \
 python39-xml \
 update-alternatives"

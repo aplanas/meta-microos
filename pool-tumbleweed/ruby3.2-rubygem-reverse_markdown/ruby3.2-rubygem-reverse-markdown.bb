@@ -8,18 +8,17 @@ PV = "2.1.1"
 RPM_NAME = "ruby3.2-rubygem-reverse_markdown-2.1.1-1.10.aarch64.rpm"
 RPM_HASH = "46f92331db27d1475254ada39c1273acc24c138dcc933a4ada93dad8e5287d347d660dbd2da52afbe776c25655a9582c06e4834e35b386d41f11176158949c84"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-reverse_markdown \
-ruby3.2-rubygem-reverse_markdown(aarch-64) \
-rubygem(reverse_markdown) \
-rubygem(ruby:3.2.0:reverse_markdown) \
-rubygem(ruby:3.2.0:reverse_markdown:2) \
-rubygem(ruby:3.2.0:reverse_markdown:2.1) \
-rubygem(ruby:3.2.0:reverse_markdown:2.1.1)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-reverse-markdown \
+rubygem-reverse-markdown \
+rubygem-ruby-3.2.0-reverse-markdown \
+rubygem-ruby-3.2.0-reverse-markdown-2 \
+rubygem-ruby-3.2.0-reverse-markdown-2.1 \
+rubygem-ruby-3.2.0-reverse-markdown-2.1.1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
-ruby(abi) \
-rubygem(ruby:3.2.0:nokogiri) \
+ruby-abi \
+rubygem-ruby-3.2.0-nokogiri \
 update-alternatives"
 
 inherit rpm

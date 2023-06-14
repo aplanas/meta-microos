@@ -10,11 +10,11 @@ RPM_HASH = "d26d8acaac8adcd3411e72e5eff2600105ecbf1fd66081eea45198c59afc99d33b2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-appconf \
-python3.10dist(django-appconf) \
+python3.10dist-django-appconf \
 python310-django-appconf \
-python3dist(django-appconf)"
+python3dist-django-appconf"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

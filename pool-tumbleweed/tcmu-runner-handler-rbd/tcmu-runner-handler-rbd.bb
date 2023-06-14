@@ -9,13 +9,12 @@ PV = "1.6.0"
 RPM_NAME = "tcmu-runner-handler-rbd-1.6.0-1.3.aarch64.rpm"
 RPM_HASH = "aa480aab7221db5d03031e1f67ca6fe50ce09c470f4d146d95cde72d3c81548bc9388a106994380c474f2ffc2c0f4e1db7b2a11b4d65ac5690cfb9b710ae2ca1"
 
-RPROVIDES:${PN} += "tcmu-runner-handler-rbd \
-tcmu-runner-handler-rbd(aarch-64)"
+RPROVIDES:${PN} += "tcmu-runner-handler-rbd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-librbd.so.1()(64bit) \
-libtcmalloc.so.4()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+librbd.so.1 \
+libtcmalloc.so.4 \
 tcmu-runner"
 
 inherit rpm

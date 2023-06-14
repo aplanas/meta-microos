@@ -10,25 +10,24 @@ PV = "2.83"
 RPM_NAME = "asymptote-2.83-1.4.aarch64.rpm"
 RPM_HASH = "d863cbc143e902a89caded9a006078bc45848577d14ad53d523dbe59ade949fe9a4140ed916140ec971e1ac6de91808a497bedf9464a52a714c1c08a5e84364d"
 
-RPROVIDES:${PN} += "asymptote \
-asymptote(aarch-64)"
+RPROVIDES:${PN} += "asymptote"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLX.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgc.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglut.so.3()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libtirpc.so.3()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLX.so.0 \
+libc.so.6 \
+libfftw3.so.3 \
+libgc.so.1 \
+libgcc-s.so.1 \
+libglut.so.3 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
+libreadline.so.8 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+libtirpc.so.3 \
+libz.so.1"
 
 inherit rpm

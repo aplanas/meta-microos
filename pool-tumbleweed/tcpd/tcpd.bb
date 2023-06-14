@@ -9,12 +9,11 @@ PV = "7.6"
 RPM_NAME = "tcpd-7.6-895.3.aarch64.rpm"
 RPM_HASH = "31110d03c6169d4ad1536a1abff0e0fcbe9db3235491e03a1e86ef8a67b0f965211e7c4efddd2a618889f5005894338f52117fcdc0745ee674cc61b2e006e11c"
 
-RPROVIDES:${PN} += "nkitb:/usr/sbin/tcpd \
-tcpd \
-tcpd(aarch-64)"
+RPROVIDES:${PN} += "nkitb-/usr/sbin/tcpd \
+tcpd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libwrap.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libwrap.so.0"
 
 inherit rpm

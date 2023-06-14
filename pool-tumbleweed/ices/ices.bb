@@ -10,18 +10,17 @@ PV = "2.0.3"
 RPM_NAME = "ices-2.0.3-1.8.aarch64.rpm"
 RPM_HASH = "da6912bc30c29e4392d1a561494696a9ba43a974133b770ac8f93818e79aa79585448c582ce54fc46975786eec6226f2c6e81ace15c203f48903af5080a15ada"
 
-RPROVIDES:${PN} += "ices \
-ices(aarch-64)"
+RPROVIDES:${PN} += "ices"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libshout.so.3()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisenc.so.2()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libm.so.6 \
+libogg.so.0 \
+libshout.so.3 \
+libvorbis.so.0 \
+libvorbisenc.so.2 \
+libxml2.so.2"
 
 inherit rpm

@@ -14,22 +14,21 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-Gst-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "a0644102f75652200b1e96cfe76eee273f7618212cd31c975260a663690c074c7cb8242edd180459d3d3b8b9139de9346e492c9543c6682eb1f11b408e735955"
 
-RPROVIDES:${PN} += "typelib(Gst) \
-typelib(GstBase) \
-typelib(GstCheck) \
-typelib(GstController) \
-typelib(GstNet) \
-typelib-1_0-Gst-1_0 \
-typelib-1_0-Gst-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Gst-1-0 \
+typelib-Gst \
+typelib-GstBase \
+typelib-GstCheck \
+typelib-GstController \
+typelib-GstNet"
 
-RDEPENDS:${PN} += "libgstbase-1.0.so.0()(64bit) \
-libgstcheck-1.0.so.0()(64bit) \
-libgstcontroller-1.0.so.0()(64bit) \
-libgstnet-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libgstbase-1.0.so.0 \
+libgstcheck-1.0.so.0 \
+libgstcontroller-1.0.so.0 \
+libgstnet-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

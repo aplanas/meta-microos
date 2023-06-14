@@ -10,16 +10,15 @@ RPM_HASH = "00e17b905bb45912de291f638a9561dc9291a4099ccd5117475303fadb21c03762e2
 
 RPROVIDES:${PN} += "audaspace-fileplugin \
 audaspace-plugin-ffmpeg \
-audaspace-plugin-ffmpeg(aarch-64) \
-libaudffmpeg.so()(64bit)"
+libaudffmpeg.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libaudaspace.so.1.4()(64bit) \
-libavcodec.so.60()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaudaspace.so.1.4 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

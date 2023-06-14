@@ -9,10 +9,9 @@ PV = "1.5"
 RPM_NAME = "compsize-1.5-1.9.aarch64.rpm"
 RPM_HASH = "9f08414f1293d6d2176ac2b94fb6a4b77b0ead4b81a9b8be01193f44ececa5dd343a9fce6ce9da090c97b2a23d1f694bc7787fbf16a46756b6f275deacf56204"
 
-RPROVIDES:${PN} += "compsize \
-compsize(aarch-64)"
+RPROVIDES:${PN} += "compsize"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

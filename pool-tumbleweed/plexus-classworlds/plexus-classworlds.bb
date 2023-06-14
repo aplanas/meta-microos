@@ -16,11 +16,11 @@ RPM_HASH = "b1797bf0ed1c700d3c13fdd526c9c6985298287ccdd26374bdabc64c0728276478b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "classworlds \
-mvn(classworlds:classworlds) \
-mvn(classworlds:classworlds:pom:) \
-mvn(org.codehaus.plexus:plexus-classworlds) \
-mvn(org.codehaus.plexus:plexus-classworlds:pom:) \
-osgi(org.codehaus.plexus.classworlds) \
+mvn-classworlds-classworlds \
+mvn-classworlds-classworlds-pom- \
+mvn-org.codehaus.plexus-plexus-classworlds \
+mvn-org.codehaus.plexus-plexus-classworlds-pom- \
+osgi-org.codehaus.plexus.classworlds \
 plexus-classworlds"
 
 RDEPENDS:${PN} += "java-headless \

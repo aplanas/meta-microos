@@ -10,10 +10,10 @@ RPM_HASH = "7a279206695d0f14dd77160a1ffb5617a22901425ccb9fae7e0ae4a631f42aee3da4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-TagStats \
-python3.10dist(tagstats) \
+python3.10dist-tagstats \
 python310-TagStats \
-python3dist(tagstats)"
+python3dist-tagstats"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

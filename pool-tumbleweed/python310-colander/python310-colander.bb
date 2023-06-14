@@ -15,11 +15,11 @@ RPM_HASH = "c09b885c116e41e6567eed40e20a4712edadf2717a928257fad04358a184d9227426
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-colander \
-python3.10dist(colander) \
+python3.10dist-colander \
 python310-colander \
-python3dist(colander)"
+python3dist-colander"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-iso8601 \
 python310-translationstring"
 

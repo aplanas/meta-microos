@@ -14,13 +14,13 @@ RPM_HASH = "5ae3eea5ca3d917db3437a31028e15e9dd72e248aa7c606d79e951992c947189aef9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-louvain \
-python3.10dist(python-louvain) \
+python3.10dist-python-louvain \
 python310-python-louvain \
-python3dist(python-louvain)"
+python3dist-python-louvain"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-networkx \
 python310-numpy \
 update-alternatives"

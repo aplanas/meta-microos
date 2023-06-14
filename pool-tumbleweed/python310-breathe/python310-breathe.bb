@@ -11,14 +11,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-breathe \
 python3-sphinxcontrib-breathe \
-python3.10dist(breathe) \
+python3.10dist-breathe \
 python310-breathe \
 python310-sphinxcontrib-breathe \
-python3dist(breathe)"
+python3dist-breathe"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Sphinx \
 python310-docutils \
 update-alternatives"

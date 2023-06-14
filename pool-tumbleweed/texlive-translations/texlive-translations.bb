@@ -16,7 +16,7 @@ RPM_NAME = "texlive-translations-2023.201.1.12svn61896-52.1.noarch.rpm"
 RPM_HASH = "7748548065380da2af72787ca7dec21def8e455ae1caef5adf6681a03e56080d4456968f84624d83ee09e361a07f324af11e66e62d6edda5d94be6bbddd217d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(translations.sty) \
+RPROVIDES:${PN} += "tex-translations.sty \
 texlive-translations"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,8 +25,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(pdftexcmds.sty) \
+tex-etoolbox.sty \
+tex-pdftexcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

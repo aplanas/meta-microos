@@ -18,7 +18,7 @@ RPM_NAME = "texlive-filecontentsdef-2023.201.1.5svn52208-52.1.noarch.rpm"
 RPM_HASH = "a856f1f27583f50b097311224208d69204291e7d9cc1ec5c8b2aacded5a27147451352172157a6b31e4dd2be35bb9503902d6ddb3ad634ba741e2381b60351d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(filecontentsdef.sty) \
+RPROVIDES:${PN} += "tex-filecontentsdef.sty \
 texlive-filecontentsdef"
 
 RDEPENDS:${PN} += "/bin/sh \

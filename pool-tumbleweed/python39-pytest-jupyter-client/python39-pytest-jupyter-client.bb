@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python39-pytest-jupyter-client"
 
 RDEPENDS:${PN} += "python39-ipykernel \
-python39-jupyter_client \
+python39-jupyter-client \
 python39-pytest-jupyter"
 
 inherit rpm

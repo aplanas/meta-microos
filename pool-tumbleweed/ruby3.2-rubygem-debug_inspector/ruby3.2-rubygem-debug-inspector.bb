@@ -16,17 +16,16 @@ PV = "1.1.0"
 RPM_NAME = "ruby3.2-rubygem-debug_inspector-1.1.0-1.13.aarch64.rpm"
 RPM_HASH = "36336b57e15e39dcf6509e82d88133c80cbe80cba114a330c62be684757835e376aac31314b675165a662fab29505492f0b8609177042bb571f1c98fcbe039f1"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-debug_inspector \
-ruby3.2-rubygem-debug_inspector(aarch-64) \
-rubygem(debug_inspector) \
-rubygem(ruby:3.2.0:debug_inspector) \
-rubygem(ruby:3.2.0:debug_inspector:1) \
-rubygem(ruby:3.2.0:debug_inspector:1.1) \
-rubygem(ruby:3.2.0:debug_inspector:1.1.0)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-debug-inspector \
+rubygem-debug-inspector \
+rubygem-ruby-3.2.0-debug-inspector \
+rubygem-ruby-3.2.0-debug-inspector-1 \
+rubygem-ruby-3.2.0-debug-inspector-1.1 \
+rubygem-ruby-3.2.0-debug-inspector-1.1.0"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libruby3.2.so.3.2()(64bit) \
-ruby(abi)"
+RDEPENDS:${PN} += "libc.so.6 \
+libm.so.6 \
+libruby3.2.so.3.2 \
+ruby-abi"
 
 inherit rpm

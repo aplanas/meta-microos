@@ -9,10 +9,10 @@ RPM_HASH = "54bdb640e6a2247ab4f050facdd4ee54f50def6d3f38af1b00263ed305c08c242a1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-timeout-decorator \
-python3.10dist(timeout-decorator) \
+python3.10dist-timeout-decorator \
 python310-timeout-decorator \
-python3dist(timeout-decorator)"
+python3dist-timeout-decorator"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

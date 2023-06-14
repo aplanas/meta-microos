@@ -11,26 +11,21 @@ PV = "3.2.8a"
 RPM_NAME = "xfig-3.2.8a-3.8.aarch64.rpm"
 RPM_HASH = "bb00dd96e7864fe9b8e98ca363ab381dd6ea45f941467e16e3852e903e849a0b3bca565a9cb4c522629b1ab0e171615ddb4ad57b4be65b1edb8be5a2bea512e8"
 
-RPROVIDES:${PN} += "application() \
-application(xfig.desktop) \
-mimehandler(application/x-xfig) \
-xfig \
-xfig(aarch-64) \
+RPROVIDES:${PN} += "xfig \
 xfig.3.2.3d"
 
 RDEPENDS:${PN} += "efont-unicode \
 ghostscript-fonts-std \
 ifnteuro \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw3d.so.8()(64bit) \
-libXpm.so.4()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw3d.so.8 \
+libXpm.so.4 \
+libXt.so.6 \
+libc.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
 mkfontdir \
 mkfontscale \
 netpbm \

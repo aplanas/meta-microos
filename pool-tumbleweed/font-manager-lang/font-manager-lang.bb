@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-manager-lang \
 font-manager-lang-all \
-locale(font-manager:ar) \
-locale(font-manager:ca) \
-locale(font-manager:de) \
-locale(font-manager:eo) \
-locale(font-manager:es) \
-locale(font-manager:fr) \
-locale(font-manager:hr) \
-locale(font-manager:id) \
-locale(font-manager:it) \
-locale(font-manager:ja) \
-locale(font-manager:nb_NO) \
-locale(font-manager:nl) \
-locale(font-manager:oc) \
-locale(font-manager:pl) \
-locale(font-manager:pt_BR) \
-locale(font-manager:ro) \
-locale(font-manager:ru) \
-locale(font-manager:si) \
-locale(font-manager:sl) \
-locale(font-manager:sv) \
-locale(font-manager:tr) \
-locale(font-manager:uk) \
-locale(font-manager:zh_CN) \
-locale(font-manager:zh_HK) \
-locale(font-manager:zh_TW)"
+locale-font-manager-ar \
+locale-font-manager-ca \
+locale-font-manager-de \
+locale-font-manager-eo \
+locale-font-manager-es \
+locale-font-manager-fr \
+locale-font-manager-hr \
+locale-font-manager-id \
+locale-font-manager-it \
+locale-font-manager-ja \
+locale-font-manager-nb-NO \
+locale-font-manager-nl \
+locale-font-manager-oc \
+locale-font-manager-pl \
+locale-font-manager-pt-BR \
+locale-font-manager-ro \
+locale-font-manager-ru \
+locale-font-manager-si \
+locale-font-manager-sl \
+locale-font-manager-sv \
+locale-font-manager-tr \
+locale-font-manager-uk \
+locale-font-manager-zh-CN \
+locale-font-manager-zh-HK \
+locale-font-manager-zh-TW"
 
 RDEPENDS:${PN} += "font-manager"
 

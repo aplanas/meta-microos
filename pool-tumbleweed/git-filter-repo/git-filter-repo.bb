@@ -16,6 +16,6 @@ RPROVIDES:${PN} += "git-filter-repo"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
-python(abi)"
+python-abi"
 
 inherit rpm

@@ -34,17 +34,17 @@ RPM_NAME = "perl-Test-Most-0.38-1.2.noarch.rpm"
 RPM_HASH = "67143c26fa567b6af6b2810610a6c36dac5e8f7aff7ae2ebe7fcea9c64bf83869e24dae530332179e478db234d3483bf688c9a5522c1d71d187f03e1f01f8cf0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Most) \
-perl(Test::Most::Exception) \
+RPROVIDES:${PN} += "perl-Test--Most \
+perl-Test--Most--Exception \
 perl-Test-Most"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exception::Class) \
-perl(Test::Deep) \
-perl(Test::Differences) \
-perl(Test::Exception) \
-perl(Test::Harness) \
-perl(Test::More) \
-perl(Test::Warn)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exception--Class \
+perl-Test--Deep \
+perl-Test--Differences \
+perl-Test--Exception \
+perl-Test--Harness \
+perl-Test--More \
+perl-Test--Warn"
 
 inherit rpm

@@ -19,14 +19,14 @@ RPM_HASH = "cf9bbc9af5ca5a2abe69b8129510fa95efa5e932c319b1adc7cdd84b81a169fd94ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtrx \
-python3.10dist(dtrx) \
-python3dist(dtrx)"
+python3.10dist-dtrx \
+python3dist-dtrx"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 bzip2 \
 cpio \
 gzip \
-python(abi) \
+python-abi \
 tar \
 unzip"
 

@@ -12,11 +12,11 @@ RPM_HASH = "7b434585cb83cce328be1e3a7a264f9b848243a2b4acd357be1606c13fb02ae0e74a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-freezerclient \
-python3.10dist(python-freezerclient) \
-python3dist(python-freezerclient)"
+python3.10dist-python-freezerclient \
+python3dist-python-freezerclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cliff \
 python3-keystoneauth1 \
 python3-oslo.serialization \

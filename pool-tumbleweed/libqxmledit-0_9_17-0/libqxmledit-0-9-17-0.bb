@@ -10,36 +10,25 @@ PV = "0.9.17"
 RPM_NAME = "libqxmledit-0_9_17-0-0.9.17-1.5.aarch64.rpm"
 RPM_HASH = "a520e5260c950d1b89537dfda61c60e19b16b72c8abcc72c23b364e1fe82b0a877a7b2edd1d83a20ac7fb9fc4696d595bec4fda288a1d421067b638aa12f72d5"
 
-RPROVIDES:${PN} += "libQXmlEditSessions.so.0()(64bit) \
-libQXmlEditWidget.so.0()(64bit) \
-libqxmledit-0_9_17-0 \
-libqxmledit-0_9_17-0(aarch-64)"
+RPROVIDES:${PN} += "libQXmlEditSessions.so.0 \
+libQXmlEditWidget.so.0 \
+libqxmledit-0-9-17-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libQt5XmlPatterns.so.5()(64bit) \
-libQt5XmlPatterns.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Qml.so.5 \
+libQt5Sql.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libQt5XmlPatterns.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

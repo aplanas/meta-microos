@@ -9,16 +9,15 @@ PV = "1.6.8"
 RPM_NAME = "SampleICC-1.6.8-4.8.aarch64.rpm"
 RPM_HASH = "44ed198bee22f21384194ddd8cc47428393f055583d398352bb44d70556003b184af9b2d15681d9451e66c83257e66211b0c1f0c06f63a65236cd9fff2b933f4"
 
-RPROVIDES:${PN} += "SampleICC \
-SampleICC(aarch-64)"
+RPROVIDES:${PN} += "SampleICC"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libICC_utils.so.2()(64bit) \
-libSampleICC.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libICC-utils.so.2 \
+libSampleICC.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libtiff.so.6"
 
 inherit rpm

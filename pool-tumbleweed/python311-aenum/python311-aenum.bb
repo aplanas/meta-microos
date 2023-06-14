@@ -29,10 +29,10 @@ RPM_NAME = "python311-aenum-3.1.11-1.3.noarch.rpm"
 RPM_HASH = "f9bbf980862ac1f59a750dd7ca1980cd6425382372e92fbf882b2a7fc6539d1074cdf24dfcecb09474502a0eabce4cd107850ac14f10596f50f69014f651a0c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(aenum) \
+RPROVIDES:${PN} += "python3.11dist-aenum \
 python311-aenum \
-python3dist(aenum)"
+python3dist-aenum"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

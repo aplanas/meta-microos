@@ -17,10 +17,9 @@ RPM_HASH = "2229328651666f7cb713dbb4ab542cbe2f2cfb5fe7906f4ae4734286a1c5b5f0ee3a
 
 RPROVIDES:${PN} += "can-utils \
 canutils \
-canutils(aarch-64) \
 canutils-linuxcan"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

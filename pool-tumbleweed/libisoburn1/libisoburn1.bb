@@ -13,21 +13,15 @@ PV = "1.5.4"
 RPM_NAME = "libisoburn1-1.5.4-1.10.aarch64.rpm"
 RPM_HASH = "1cf0765e0b278b877987f4b88362b18eb732c7bca646b5fc63f66c7bbe25ccd68c9734645276360dade3ed671f0b68ab93f6694e0ebc4142fb611c1111b9ba6c"
 
-RPROVIDES:${PN} += "libisoburn.so.1()(64bit) \
-libisoburn.so.1(LIBISOBURN1)(64bit) \
-libisoburn1 \
-libisoburn1(aarch-64)"
+RPROVIDES:${PN} += "libisoburn.so.1 \
+libisoburn1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libburn.so.4()(64bit) \
-libburn.so.4(LIBBURN4)(64bit) \
-libc.so.6()(64bit) \
-libisofs.so.6()(64bit) \
-libisofs.so.6(LIBISOFS6)(64bit) \
-libjte.so.2()(64bit) \
-libjte.so.2(LIBJTE1)(64bit) \
-libjte.so.2(LIBJTE2)(64bit) \
-libreadline.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libburn.so.4 \
+libc.so.6 \
+libisofs.so.6 \
+libjte.so.2 \
+libreadline.so.8"
 
 inherit rpm

@@ -10,18 +10,17 @@ PV = "7.5.0+r278197"
 RPM_NAME = "cross-x86_64-gcc7-7.5.0+r278197-14.1.aarch64.rpm"
 RPM_HASH = "e6c5b6334ae42b52c266d90dd805ff26a890dc57b39f03c65edd146df173148e3945b64585e5cb598ac4a64ae2b4aa8fc4e7606369b550a6de10078d6861abc1"
 
-RPROVIDES:${PN} += "cross-x86_64-gcc7 \
-cross-x86_64-gcc7(aarch-64) \
-liblto_plugin.so.0()(64bit)"
+RPROVIDES:${PN} += "cross-x86-64-gcc7 \
+liblto-plugin.so.0"
 
 RDEPENDS:${PN} += "/bin/sh \
-cross-x86_64-binutils \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmpc.so.3()(64bit) \
-libmpfr.so.6()(64bit) \
-libz.so.1()(64bit) \
+cross-x86-64-binutils \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
 update-alternatives"
 
 inherit rpm

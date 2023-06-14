@@ -9,11 +9,11 @@ RPM_HASH = "e889adf3a4ac7fb239f61cd8b467c5e171800d832edc6f513274c3b0f01af78c51e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyJWT \
-python3.10dist(pyjwt) \
+python3.10dist-pyjwt \
 python310-PyJWT \
-python3dist(pyjwt)"
+python3dist-pyjwt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-typing-extensions \
 update-alternatives"

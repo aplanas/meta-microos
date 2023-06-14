@@ -12,9 +12,9 @@ RPM_HASH = "b535dbd7515a9dfd49d6893c2c6e3bf2c06528dc9a77050e240850ed47ff4742e4e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-activation \
-mvn(jakarta.activation:jakarta.activation-api) \
-mvn(jakarta.activation:jakarta.activation-api:pom:) \
-osgi(jakarta.activation-api)"
+mvn-jakarta.activation-jakarta.activation-api \
+mvn-jakarta.activation-jakarta.activation-api-pom- \
+osgi-jakarta.activation-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

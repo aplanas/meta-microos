@@ -10,23 +10,23 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-extras-lang \
 budgie-extras-lang-all \
-locale(budgie-extras:ca) \
-locale(budgie-extras:de_DE) \
-locale(budgie-extras:en_GB) \
-locale(budgie-extras:es) \
-locale(budgie-extras:fr) \
-locale(budgie-extras:he) \
-locale(budgie-extras:it) \
-locale(budgie-extras:ja) \
-locale(budgie-extras:lt) \
-locale(budgie-extras:oc) \
-locale(budgie-extras:pl) \
-locale(budgie-extras:pt_BR) \
-locale(budgie-extras:pt_PT) \
-locale(budgie-extras:ru) \
-locale(budgie-extras:sq) \
-locale(budgie-extras:tr) \
-locale(budgie-extras:zh_CN)"
+locale-budgie-extras-ca \
+locale-budgie-extras-de-DE \
+locale-budgie-extras-en-GB \
+locale-budgie-extras-es \
+locale-budgie-extras-fr \
+locale-budgie-extras-he \
+locale-budgie-extras-it \
+locale-budgie-extras-ja \
+locale-budgie-extras-lt \
+locale-budgie-extras-oc \
+locale-budgie-extras-pl \
+locale-budgie-extras-pt-BR \
+locale-budgie-extras-pt-PT \
+locale-budgie-extras-ru \
+locale-budgie-extras-sq \
+locale-budgie-extras-tr \
+locale-budgie-extras-zh-CN"
 
 RDEPENDS:${PN} += "budgie-extras"
 

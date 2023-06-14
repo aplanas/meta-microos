@@ -9,11 +9,11 @@ RPM_HASH = "50369c773968e04f41d9ad5ab708851f6c9071cb91132243750463bca86443c7fde7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-maps-route \
-python3.10dist(azure-maps-route) \
+python3.10dist-azure-maps-route \
 python310-azure-maps-route \
-python3dist(azure-maps-route)"
+python3dist-azure-maps-route"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-nspkg \

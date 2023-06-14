@@ -9,16 +9,16 @@ RPM_HASH = "f4dc64ebc7a1d7c5d51f6d8a1318f7da72e40305b13d9aa8c12910661d8f396ca846
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-audio-tab \
-python3.10dist(nemo-audio-tab) \
-python3dist(nemo-audio-tab)"
+python3.10dist-nemo-audio-tab \
+python3dist-nemo-audio-tab"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
 python3-mutagen \
 python3-nemo \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Nemo)"
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
+typelib-Nemo"
 
 inherit rpm

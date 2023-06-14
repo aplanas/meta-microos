@@ -10,23 +10,23 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "foliate-lang \
 foliate-lang-all \
-locale(foliate:cs) \
-locale(foliate:de) \
-locale(foliate:es) \
-locale(foliate:eu) \
-locale(foliate:fr) \
-locale(foliate:id) \
-locale(foliate:it) \
-locale(foliate:ko) \
-locale(foliate:nb) \
-locale(foliate:nl) \
-locale(foliate:nn) \
-locale(foliate:pt_BR) \
-locale(foliate:ru) \
-locale(foliate:sv) \
-locale(foliate:uk) \
-locale(foliate:zh_CN) \
-locale(foliate:zh_TW)"
+locale-foliate-cs \
+locale-foliate-de \
+locale-foliate-es \
+locale-foliate-eu \
+locale-foliate-fr \
+locale-foliate-id \
+locale-foliate-it \
+locale-foliate-ko \
+locale-foliate-nb \
+locale-foliate-nl \
+locale-foliate-nn \
+locale-foliate-pt-BR \
+locale-foliate-ru \
+locale-foliate-sv \
+locale-foliate-uk \
+locale-foliate-zh-CN \
+locale-foliate-zh-TW"
 
 RDEPENDS:${PN} += "foliate"
 

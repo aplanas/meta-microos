@@ -20,11 +20,11 @@ python3-ec2imgutils \
 python3-ec2publishimg \
 python3-ec2uploadimg \
 python3-ec2utilsbase \
-python3.10dist(ec2imgutils) \
-python3dist(ec2imgutils)"
+python3.10dist-ec2imgutils \
+python3dist-ec2imgutils"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3 \
 python3-boto3 \
 python3-dateutil \

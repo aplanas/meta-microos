@@ -12,15 +12,15 @@ RPM_HASH = "87402bf79be3e03e7368846b4fd1f1cb4411649070872649e0581894a64b091ddd9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-gson \
-mvn(com.google.code.gson:gson) \
-mvn(com.google.code.gson:gson-extras) \
-mvn(com.google.code.gson:gson-extras:pom:) \
-mvn(com.google.code.gson:gson-parent:pom:) \
-mvn(com.google.code.gson:gson:pom:) \
-osgi(com.google.gson)"
+mvn-com.google.code.gson-gson \
+mvn-com.google.code.gson-gson-extras \
+mvn-com.google.code.gson-gson-extras-pom- \
+mvn-com.google.code.gson-gson-parent-pom- \
+mvn-com.google.code.gson-gson-pom- \
+osgi-com.google.gson"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.annotation:jsr250-api)"
+mvn-javax.annotation-jsr250-api"
 
 inherit rpm

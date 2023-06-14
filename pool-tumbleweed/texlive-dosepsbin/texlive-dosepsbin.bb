@@ -25,9 +25,9 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(Pod::Usage) \
-perl(strict) \
+perl-Getopt--Long \
+perl-Pod--Usage \
+perl-strict \
 sed \
 texlive \
 texlive-dosepsbin-bin \

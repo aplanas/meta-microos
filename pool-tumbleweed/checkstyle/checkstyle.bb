@@ -9,20 +9,20 @@ RPM_HASH = "e6a80daa66b9208b7f4e92340ad6df6d30dd2d6e16c6f2f588c05a2644f492daf992
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checkstyle \
-config(checkstyle) \
-mvn(com.puppycrawl.tools:checkstyle) \
-mvn(com.puppycrawl.tools:checkstyle:pom:)"
+config-checkstyle \
+mvn-com.puppycrawl.tools-checkstyle \
+mvn-com.puppycrawl.tools-checkstyle-pom-"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(antlr:antlr) \
-mvn(com.google.guava:guava) \
-mvn(commons-beanutils:commons-beanutils) \
-mvn(commons-cli:commons-cli) \
-mvn(javax.xml.bind:jaxb-api) \
-mvn(org.antlr:antlr4-runtime)"
+mvn-antlr-antlr \
+mvn-com.google.guava-guava \
+mvn-commons-beanutils-commons-beanutils \
+mvn-commons-cli-commons-cli \
+mvn-javax.xml.bind-jaxb-api \
+mvn-org.antlr-antlr4-runtime"
 
 inherit rpm

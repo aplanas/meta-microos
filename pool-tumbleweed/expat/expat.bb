@@ -9,11 +9,10 @@ PV = "2.5.0"
 RPM_NAME = "expat-2.5.0-2.3.aarch64.rpm"
 RPM_HASH = "e6ce940a324392afd9ad8cb801764a2b2d19c90295b9de132ea830c8b5fa8306919aabbe6b5652385292946244939b4ddbf89f0ac2dcbd8007cdb0701310d213"
 
-RPROVIDES:${PN} += "expat \
-expat(aarch-64)"
+RPROVIDES:${PN} += "expat"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexpat.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexpat.so.1"
 
 inherit rpm

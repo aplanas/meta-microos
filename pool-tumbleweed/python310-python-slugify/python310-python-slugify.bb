@@ -9,13 +9,13 @@ RPM_HASH = "90685267c9846a4ed3b26a3a043ce00780f4d44324cfc2b2100375787401b39ca21c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-slugify \
-python3.10dist(python-slugify) \
+python3.10dist-python-slugify \
 python310-python-slugify \
-python3dist(python-slugify)"
+python3dist-python-slugify"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 python310-text-unidecode \
 update-alternatives"

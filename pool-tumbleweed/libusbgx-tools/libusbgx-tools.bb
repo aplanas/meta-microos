@@ -11,11 +11,10 @@ PV = "0.2.0"
 RPM_NAME = "libusbgx-tools-0.2.0-1.13.aarch64.rpm"
 RPM_HASH = "ff2c188565c11363f8a6e3119c26ae0b12087e35827ab7e864ecfa135d8ee5847eda4e382327a79ee8caf66a943b8e4f89859ebd6f043f4ab9133dfcf4dd105b"
 
-RPROVIDES:${PN} += "libusbgx-tools \
-libusbgx-tools(aarch-64)"
+RPROVIDES:${PN} += "libusbgx-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusbgx.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusbgx.so.2"
 
 inherit rpm

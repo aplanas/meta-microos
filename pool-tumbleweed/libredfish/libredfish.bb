@@ -7,12 +7,11 @@ PV = "1.3.6.4+git.a0788d4"
 RPM_NAME = "libredfish-1.3.6.4+git.a0788d4-1.2.aarch64.rpm"
 RPM_HASH = "b70e18e498f0d6af0ebaf085e8a26dc396751cc299a09e93782469993785cb6fe06f4af87ed73e650ca60513521aa120454f6307c0449db7f55f06c2502375e3"
 
-RPROVIDES:${PN} += "libredfish \
-libredfish(aarch-64)"
+RPROVIDES:${PN} += "libredfish"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libredfish.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libredfish.so.1 \
 readline"
 
 inherit rpm

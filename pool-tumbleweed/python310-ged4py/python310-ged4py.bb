@@ -9,11 +9,11 @@ RPM_HASH = "b6bcd96ffc73219e7d403996c8fab2c8bd2788725002da9ce2566d3cfb50a8538c45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ged4py \
-python3.10dist(ged4py) \
+python3.10dist-ged4py \
 python310-ged4py \
-python3dist(ged4py)"
+python3dist-ged4py"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ansel"
 
 inherit rpm

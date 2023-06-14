@@ -11,12 +11,10 @@ RPM_HASH = "5310aec945bae8ee7affd447616552c43092aaa72a91fcbf66672835b4120e5006c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lazy-loader \
-python3-lazy_loader \
-python3.10dist(lazy-loader) \
+python3.10dist-lazy-loader \
 python310-lazy-loader \
-python310-lazy_loader \
-python3dist(lazy-loader)"
+python3dist-lazy-loader"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,17 +9,17 @@ RPM_HASH = "3e59521d3577f19a3f0c31d33b4aef736b152cf9fffcbaebd06a7e7244649c51c5eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-locator \
-mvn(org.glassfish.hk2:hk2-locator) \
-mvn(org.glassfish.hk2:hk2-locator:pom:) \
-osgi(org.glassfish.hk2.locator)"
+mvn-org.glassfish.hk2-hk2-locator \
+mvn-org.glassfish.hk2-hk2-locator-pom- \
+osgi-org.glassfish.hk2.locator"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(aopalliance:aopalliance) \
-mvn(javax.annotation:javax.annotation-api) \
-mvn(javax.inject:javax.inject) \
-mvn(org.glassfish.hk2:hk2-api) \
-mvn(org.glassfish.hk2:hk2-utils) \
-mvn(org.javassist:javassist)"
+mvn-aopalliance-aopalliance \
+mvn-javax.annotation-javax.annotation-api \
+mvn-javax.inject-javax.inject \
+mvn-org.glassfish.hk2-hk2-api \
+mvn-org.glassfish.hk2-hk2-utils \
+mvn-org.javassist-javassist"
 
 inherit rpm

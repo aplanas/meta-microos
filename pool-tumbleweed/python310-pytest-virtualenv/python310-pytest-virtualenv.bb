@@ -11,11 +11,11 @@ RPM_HASH = "32ed25dbdd905d1b6cd1aff0644f7dc2b6f92a03f6b8ae21c56f943a38bf8f4f7a6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-virtualenv \
-python3.10dist(pytest-virtualenv) \
+python3.10dist-pytest-virtualenv \
 python310-pytest-virtualenv \
-python3dist(pytest-virtualenv)"
+python3dist-pytest-virtualenv"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-path.py \
 python310-pytest-fixture-config \
 python310-pytest-shutil \

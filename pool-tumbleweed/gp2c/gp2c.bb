@@ -13,11 +13,10 @@ PV = "0.0.13"
 RPM_NAME = "gp2c-0.0.13-1.3.aarch64.rpm"
 RPM_HASH = "c541f988fe7335dd43d1380bfbdea141740889fb84234d6a957f5c059b7becc61c135720d22af47456d99395a5aa342319ab33280c5e535fe164eef493a8add5"
 
-RPROVIDES:${PN} += "gp2c \
-gp2c(aarch-64)"
+RPROVIDES:${PN} += "gp2c"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

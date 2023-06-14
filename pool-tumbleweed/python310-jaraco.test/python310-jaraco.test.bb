@@ -9,11 +9,11 @@ RPM_HASH = "4003e24246b9c8b047894dfc559f8af94f1284f7d3b3d71140bc1338c4a29fb84b5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.test \
-python3.10dist(jaraco.test) \
+python3.10dist-jaraco.test \
 python310-jaraco.test \
-python3dist(jaraco.test)"
+python3dist-jaraco.test"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jaraco.context \
 python310-jaraco.functools"
 

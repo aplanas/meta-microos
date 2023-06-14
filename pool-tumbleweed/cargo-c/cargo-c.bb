@@ -12,14 +12,13 @@ PV = "0.9.15~git0.2d3044b"
 RPM_NAME = "cargo-c-0.9.15~git0.2d3044b-2.3.aarch64.rpm"
 RPM_HASH = "04dd635a89b70009887c825670cfdc0ea94709833db71721067176b739e0e0a4bbe809eac3e9e08a5ee05d47fc7b264209c5fd48180b9a155d76cf0ee7a36099"
 
-RPROVIDES:${PN} += "cargo-c \
-cargo-c(aarch-64)"
+RPROVIDES:${PN} += "cargo-c"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libssl.so.3 \
+libz.so.1"
 
 inherit rpm

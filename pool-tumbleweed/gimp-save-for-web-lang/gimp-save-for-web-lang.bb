@@ -10,16 +10,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-save-for-web-lang \
 gimp-save-for-web-lang-all \
-locale(gimp-save-for-web:ca) \
-locale(gimp-save-for-web:es) \
-locale(gimp-save-for-web:fr) \
-locale(gimp-save-for-web:it) \
-locale(gimp-save-for-web:ja) \
-locale(gimp-save-for-web:ko) \
-locale(gimp-save-for-web:pt_BR) \
-locale(gimp-save-for-web:ru) \
-locale(gimp-save-for-web:sk) \
-locale(gimp-save-for-web:sv)"
+locale-gimp-save-for-web-ca \
+locale-gimp-save-for-web-es \
+locale-gimp-save-for-web-fr \
+locale-gimp-save-for-web-it \
+locale-gimp-save-for-web-ja \
+locale-gimp-save-for-web-ko \
+locale-gimp-save-for-web-pt-BR \
+locale-gimp-save-for-web-ru \
+locale-gimp-save-for-web-sk \
+locale-gimp-save-for-web-sv"
 
 RDEPENDS:${PN} += "gimp-save-for-web"
 

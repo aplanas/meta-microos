@@ -15,10 +15,10 @@ RPM_NAME = "python39-ptyprocess-0.7.0-2.1.noarch.rpm"
 RPM_HASH = "00df9b104a2cdc75701fdb8dfe11d570441b806b65636b6af5432e0db6e96465548657c27d93289b6f26614826245860666d7bf86930bd97ae0b12a25d3474d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ptyprocess) \
+RPROVIDES:${PN} += "python3.9dist-ptyprocess \
 python39-ptyprocess \
-python3dist(ptyprocess)"
+python3dist-ptyprocess"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

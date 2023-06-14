@@ -9,13 +9,12 @@ RPM_HASH = "5cb232858dc908dfb8eb45e0d7a8644e76abf76e41cc54bd096abfa844aac73576ca
 
 RPROVIDES:${PN} += "libpurple-meanwhile \
 libpurple-plugin-sametime \
-libpurple-plugin-sametime(aarch-64) \
-libsametime.so()(64bit)"
+libsametime.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libmeanwhile.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libmeanwhile.so.1 \
 libpurple"
 
 inherit rpm

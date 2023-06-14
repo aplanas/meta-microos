@@ -10,10 +10,9 @@ PV = "2.5.4"
 RPM_NAME = "libseccomp-tools-2.5.4-2.8.aarch64.rpm"
 RPM_HASH = "0869d4e8e01f05473d5c2b87b8fe840058e8c629940a4dddd281248140edafd2e607b2a3c2629cf060867737045fd9ea8a9d138b79a665409ab9e629c3061035"
 
-RPROVIDES:${PN} += "libseccomp-tools \
-libseccomp-tools(aarch-64)"
+RPROVIDES:${PN} += "libseccomp-tools"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libseccomp.so.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libseccomp.so.2"
 
 inherit rpm

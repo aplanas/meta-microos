@@ -9,10 +9,10 @@ RPM_HASH = "859897942ebf35631d72744f3c65df7444757a692cdc8e35266091ceece70d7aff50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dash-renderer \
-python3.10dist(dash-renderer) \
+python3.10dist-dash-renderer \
 python310-dash-renderer \
-python3dist(dash-renderer)"
+python3dist-dash-renderer"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

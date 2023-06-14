@@ -17,9 +17,8 @@ PV = "1.54.3"
 RPM_NAME = "fortio-1.54.3-1.2.aarch64.rpm"
 RPM_HASH = "514f070e4585526ad07c09688c768a4d5758b71e949761b55d1820aa5d8928fffb921ae1a0e623aeafe0950020821c12dd0b244c9c8fc1cdc8399a00d97808c2"
 
-RPROVIDES:${PN} += "fortio \
-fortio(aarch-64)"
+RPROVIDES:${PN} += "fortio"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

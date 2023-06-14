@@ -11,75 +11,51 @@ PV = "1.9.5"
 RPM_NAME = "deadbeef-1.9.5-2.1.aarch64.rpm"
 RPM_HASH = "efcb4c0ca0334874545ff3bbccdda6aeb885daaa841d5263a5f7f05d6780fabf899d78193f1ba47b1d2352b1383296cd88dc2a2db5315497f996985df9dc4291"
 
-RPROVIDES:${PN} += "application() \
-application(deadbeef.desktop) \
-deadbeef \
-deadbeef(aarch-64) \
-metainfo() \
-metainfo(deadbeef.appdata.xml) \
-mimehandler(application/ogg) \
-mimehandler(application/x-cue) \
-mimehandler(application/x-ogg) \
-mimehandler(audio/mp3) \
-mimehandler(audio/mpeg) \
-mimehandler(audio/prs.sid) \
-mimehandler(audio/x-flac) \
-mimehandler(audio/x-it) \
-mimehandler(audio/x-mod) \
-mimehandler(audio/x-mpeg) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-s3m) \
-mimehandler(audio/x-scpls) \
-mimehandler(audio/x-vorbis+ogg) \
-mimehandler(audio/x-xm)"
+RPROVIDES:${PN} += "deadbeef"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libBlocksRuntime.so.1.3()(64bit) \
-libFLAC.so.12()(64bit) \
-libX11.so.6()(64bit) \
-libasound.so.2()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libavcodec.so.60()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcddb.so.2()(64bit) \
-libcdio.so.19()(64bit) \
-libcdio.so.19(CDIO_19)(64bit) \
-libcurl.so.4()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdispatch.so.1.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libjansson.so.4()(64bit) \
-libm.so.6()(64bit) \
-libmad.so.0()(64bit) \
-libmpg123.so.0()(64bit) \
-libogg.so.0()(64bit) \
-libopusfile.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpipewire-0.3.so.0()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libsamplerate.so.0()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisfile.so.3()(64bit) \
-libwavpack.so.1()(64bit) \
-libz.so.1()(64bit) \
-libzip.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libBlocksRuntime.so.1.3 \
+libFLAC.so.12 \
+libX11.so.6 \
+libasound.so.2 \
+libatk-1.0.so.0 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libcairo.so.2 \
+libcddb.so.2 \
+libcdio.so.19 \
+libcurl.so.4 \
+libdbus-1.so.3 \
+libdispatch.so.1.3 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtk-x11-2.0.so.0 \
+libjansson.so.4 \
+libm.so.6 \
+libmad.so.0 \
+libmpg123.so.0 \
+libogg.so.0 \
+libopusfile.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpipewire-0.3.so.0 \
+libpulse-simple.so.0 \
+libpulse.so.0 \
+libsamplerate.so.0 \
+libsndfile.so.1 \
+libstdc++.so.6 \
+libvorbis.so.0 \
+libvorbisfile.so.3 \
+libwavpack.so.1 \
+libz.so.1 \
+libzip.so.5"
 
 inherit rpm

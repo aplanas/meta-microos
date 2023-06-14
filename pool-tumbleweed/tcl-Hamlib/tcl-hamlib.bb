@@ -8,13 +8,12 @@ PV = "4.5.5"
 RPM_NAME = "tcl-Hamlib-4.5.5-2.1.aarch64.rpm"
 RPM_HASH = "b77b275783d8ff965dca42ce443ebb7dbf85728eba9fe6e75d617081ad50b1cc86a81cd167f897cede53ea6087f5c85e26256045ebeb896f18c288bc314daa71"
 
-RPROVIDES:${PN} += "tcl-Hamlib \
-tcl-Hamlib(aarch-64)"
+RPROVIDES:${PN} += "tcl-Hamlib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhamlib.so.4()(64bit) \
-libtcl8.6.so()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhamlib.so.4 \
+libtcl8.6.so \
 tcl"
 
 inherit rpm

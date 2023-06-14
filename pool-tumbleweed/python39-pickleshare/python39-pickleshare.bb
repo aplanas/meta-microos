@@ -21,10 +21,10 @@ RPM_NAME = "python39-pickleshare-0.7.5-5.1.noarch.rpm"
 RPM_HASH = "de9417ffdb055abc8296d5d479a157e1e555206c01d860126fca7a7ef2ce5c90e4affa7b1b9480c3bbce32b4f2f27cb59c6d2adbded5bcffd8fd84fc649b8b6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pickleshare) \
+RPROVIDES:${PN} += "python3.9dist-pickleshare \
 python39-pickleshare \
-python3dist(pickleshare)"
+python3dist-pickleshare"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

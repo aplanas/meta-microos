@@ -8,18 +8,17 @@ PV = "1.54.06"
 RPM_NAME = "libxmlrpc_server_cgi++8-1.54.06-1.3.aarch64.rpm"
 RPM_HASH = "730d7d41a8bbfd95bb51c5f654726359eeed4a1390fc9cc0deaf8b7333bf319ad4408dce1078ca6fae3ad1e73e1a6b170b00b0635842b252713e8bc5ad282808"
 
-RPROVIDES:${PN} += "libxmlrpc_server_cgi++.so.8()(64bit) \
-libxmlrpc_server_cgi++8 \
-libxmlrpc_server_cgi++8(aarch-64)"
+RPROVIDES:${PN} += "libxmlrpc-server-cgi++.so.8 \
+libxmlrpc-server-cgi++8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxmlrpc++.so.8()(64bit) \
-libxmlrpc.so.3()(64bit) \
-libxmlrpc_server++.so.8()(64bit) \
-libxmlrpc_util++.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxmlrpc++.so.8 \
+libxmlrpc-server++.so.8 \
+libxmlrpc-util++.so.8 \
+libxmlrpc.so.3"
 
 inherit rpm

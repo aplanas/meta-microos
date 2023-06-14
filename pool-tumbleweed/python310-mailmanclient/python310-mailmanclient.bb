@@ -9,11 +9,11 @@ RPM_HASH = "8d5e4eee347596ff79d1185eedf5cf36b91709cf3ff18f58a82a4f57cfa061c75c11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mailmanclient \
-python3.10dist(mailmanclient) \
+python3.10dist-mailmanclient \
 python310-mailmanclient \
-python3dist(mailmanclient)"
+python3dist-mailmanclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

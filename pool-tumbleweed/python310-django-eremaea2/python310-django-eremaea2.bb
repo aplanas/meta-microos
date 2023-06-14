@@ -10,14 +10,14 @@ RPM_HASH = "87f2e96a65d5ab0185c52361040894751196bd439b2e4e997f9520ca84b3a69e2965
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-eremaea2 \
-python3.10dist(django-eremaea2) \
+python3.10dist-django-eremaea2 \
 python310-django-eremaea2 \
-python3dist(django-eremaea2)"
+python3dist-django-eremaea2"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 eremaea \
-python(abi) \
+python-abi \
 python310-Django \
 python310-cmdln \
 python310-djangorestframework \

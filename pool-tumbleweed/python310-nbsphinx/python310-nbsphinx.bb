@@ -14,14 +14,14 @@ RPM_HASH = "45e09ae48ef0dead5730505962a2278cb8fcb5cc1421682ade39af57d3d9e4292ed4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbsphinx \
-python3-jupyter_nbsphinx \
+python3-jupyter-nbsphinx \
 python3-nbsphinx \
-python3.10dist(nbsphinx) \
-python310-jupyter_nbsphinx \
+python3.10dist-nbsphinx \
+python310-jupyter-nbsphinx \
 python310-nbsphinx \
-python3dist(nbsphinx)"
+python3dist-nbsphinx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-Sphinx \
 python310-docutils \

@@ -9,11 +9,11 @@ RPM_HASH = "4a35d8690284a2a44aaa12fb8183309b870226ddc7e74f44e08f5d84001f7fadf98a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libusb1 \
-python3.10dist(libusb1) \
+python3.10dist-libusb1 \
 python310-libusb1 \
-python3dist(libusb1)"
+python3dist-libusb1"
 
-RDEPENDS:${PN} += "libusb-1_0-0 \
-python(abi)"
+RDEPENDS:${PN} += "libusb-1-0-0 \
+python-abi"
 
 inherit rpm

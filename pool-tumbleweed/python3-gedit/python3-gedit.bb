@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gedit"
 
-RDEPENDS:${PN} += "python(abi) \
-typelib(GObject)"
+RDEPENDS:${PN} += "python-abi \
+typelib-GObject"
 
 inherit rpm

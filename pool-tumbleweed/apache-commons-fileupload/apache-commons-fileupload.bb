@@ -15,14 +15,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-fileupload \
 commons-fileupload \
 jakarta-commons-fileupload \
-mvn(commons-fileupload:commons-fileupload) \
-mvn(commons-fileupload:commons-fileupload:pom:) \
-mvn(org.apache.commons:commons-fileupload) \
-mvn(org.apache.commons:commons-fileupload:pom:) \
-osgi(org.apache.commons.fileupload)"
+mvn-commons-fileupload-commons-fileupload \
+mvn-commons-fileupload-commons-fileupload-pom- \
+mvn-org.apache.commons-commons-fileupload \
+mvn-org.apache.commons-commons-fileupload-pom- \
+osgi-org.apache.commons.fileupload"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io)"
+mvn-commons-io-commons-io"
 
 inherit rpm

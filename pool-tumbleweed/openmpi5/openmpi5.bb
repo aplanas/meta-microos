@@ -25,18 +25,17 @@ RPM_NAME = "openmpi5-5.0.0-2.3.aarch64.rpm"
 RPM_HASH = "02c3cb9bceffbb3ab1bf3ed7fa4c3bf67c05c288b0e6bd335301677fe96b9bd111e53b0be4f0d7e8cf5ddbe252db9e55bd33d70fba9ff324b103d6d517278705"
 
 RPROVIDES:${PN} += "mpi \
-openmpi5 \
-openmpi5(aarch-64)"
+openmpi5"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libhwloc.so.15()(64bit) \
-libmpi.so.80()(64bit) \
-libopen-pal.so.80()(64bit) \
-liboshmem.so.80()(64bit) \
-libprrte.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libhwloc.so.15 \
+libmpi.so.80 \
+libopen-pal.so.80 \
+liboshmem.so.80 \
+libprrte.so.2 \
 mpi-selector \
 openmpi-runtime-config \
 openmpi5-libs \

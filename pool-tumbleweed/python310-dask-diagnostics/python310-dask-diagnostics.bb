@@ -22,8 +22,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-dask-diagnostics \
 python310-dask-diagnostics"
 
-RDEPENDS:${PN} += "(python310-bokeh >= 2.4.2 with python310-bokeh < 3) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-bokeh >= 2.4.2 with python310-bokeh < 3 \
+python-abi \
 python310-Jinja2 \
 python310-dask"
 

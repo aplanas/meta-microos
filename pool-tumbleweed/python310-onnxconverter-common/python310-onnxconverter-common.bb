@@ -12,11 +12,11 @@ RPM_HASH = "c9d2fa854f26afab7469064431d723aa52bb4b09c2231b42139a9eea89cddbc5bc26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-onnxconverter-common \
-python3.10dist(onnxconverter-common) \
+python3.10dist-onnxconverter-common \
 python310-onnxconverter-common \
-python3dist(onnxconverter-common)"
+python3dist-onnxconverter-common"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-onnx \
 python310-protobuf"

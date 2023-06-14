@@ -22,19 +22,18 @@ PV = "1.07"
 RPM_NAME = "uucp-1.07-4.3.aarch64.rpm"
 RPM_HASH = "6f2e1f3336135925dc46781bb74ddbcb2f961b12b90bb5d90fefcc7775d6ad19ef157228b0463c907cfe2147679583497b26795d6bda11dfa2fc0f37a228e641"
 
-RPROVIDES:${PN} += "config(uucp) \
-uucp \
-uucp(aarch-64)"
+RPROVIDES:${PN} += "config-uucp \
+uucp"
 
 RDEPENDS:${PN} += "/bin/sh \
 ca-certificates \
 filesystem \
 fileutils \
-group(uucp) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblockdev.so.1()(64bit) \
-libnss_usrfiles2 \
+group-uucp \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblockdev.so.1 \
+libnss-usrfiles2 \
 logrotate \
 netcfg \
 openssl \
@@ -42,6 +41,6 @@ permissions \
 rmail \
 stunnel \
 systemd \
-user(uucp)"
+user-uucp"
 
 inherit rpm

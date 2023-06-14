@@ -18,7 +18,7 @@ RPM_HASH = "c66318cb323bf3bd1d8ee2a62723f865066d68ec1189e03295884ec40a91b46f5fbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "livedtd \
-perl(OASIS::Catalog)"
+perl-OASIS--Catalog"
 
 RDEPENDS:${PN} += "/usr/bin/perl"
 

@@ -11,20 +11,19 @@ PV = "2.1.2"
 RPM_NAME = "libOpenColorIO2_1-2.1.2-3.1.aarch64.rpm"
 RPM_HASH = "8ffeb56975743fa7983a7cc21b077bb7325d2536f866826ab0e26999e3ebeb027b110a92bc8023ecdf5fa87a25d9ed35ffe0bb45dded9500fd51702491fec1cd"
 
-RPROVIDES:${PN} += "libOpenColorIO.so.2.1()(64bit) \
-libOpenColorIO2_1 \
-libOpenColorIO2_1(aarch-64)"
+RPROVIDES:${PN} += "libOpenColorIO.so.2.1 \
+libOpenColorIO2-1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libc.so.6()(64bit) \
-libexpat.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpystring.so.0.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libyaml-cpp.so.0.7()(64bit) \
-libyaml-cpp0_7"
+ld-linux-aarch64.so.1 \
+libImath-3-1.so.29 \
+libc.so.6 \
+libexpat.so.1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpystring.so.0.0 \
+libstdc++.so.6 \
+libyaml-cpp.so.0.7 \
+libyaml-cpp0-7"
 
 inherit rpm

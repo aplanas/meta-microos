@@ -14,7 +14,7 @@ RPM_NAME = "gnu_parallel-20230422-1.1.noarch.rpm"
 RPM_HASH = "272a4ecb1beda0c56cdb0ca9709d3ea9da2ed474aa5f236e6185161469c934bebfa199b2b8e30edeb5cf6084697b8f7ac44736132c29cc6bb1c31a5c144f3a4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gnu_parallel"
+RPROVIDES:${PN} += "gnu-parallel"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl"

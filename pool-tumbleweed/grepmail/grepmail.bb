@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "grepmail"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Date::Parse) \
-perl(Mail::Mbox::MessageParser) \
-perl(Time::Local)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Date--Parse \
+perl-Mail--Mbox--MessageParser \
+perl-Time--Local"
 
 inherit rpm

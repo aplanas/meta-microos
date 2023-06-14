@@ -9,11 +9,11 @@ RPM_HASH = "7e14a84b1ce35f993227d31ecf6b470e8c469aa9bbf8f9f05b735658a2af99013433
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-croniter \
-python3.10dist(croniter) \
+python3.10dist-croniter \
 python310-croniter \
-python3dist(croniter)"
+python3dist-croniter"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil"
 
 inherit rpm

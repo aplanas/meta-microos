@@ -10,7 +10,7 @@ RPM_NAME = "texlive-mecaso-2023.201.1.0svn60346-52.1.noarch.rpm"
 RPM_HASH = "3d58fe786b29f6f4fdc2f817f922fba22ff65e76e47ade873f9771a53ff580e5f6370f27d182493750d29088c32cdb87157fb7e8f119a9ba5deb40699b55fd55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mecaso.sty) \
+RPROVIDES:${PN} += "tex-mecaso.sty \
 texlive-mecaso"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,9 +19,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(mathrsfs.sty) \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-mathrsfs.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

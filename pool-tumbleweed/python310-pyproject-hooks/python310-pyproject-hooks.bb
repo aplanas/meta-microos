@@ -15,11 +15,11 @@ RPM_HASH = "57cbda4bb139e2457272bcb2b5e01fb4fe46964cb4c5e98718e8af0868229b838a09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyproject-hooks \
-python3.10dist(pyproject-hooks) \
+python3.10dist-pyproject-hooks \
 python310-pyproject-hooks \
-python3dist(pyproject-hooks)"
+python3dist-pyproject-hooks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tomli"
 
 inherit rpm

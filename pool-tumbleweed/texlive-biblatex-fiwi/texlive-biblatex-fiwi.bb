@@ -14,11 +14,11 @@ RPM_NAME = "texlive-biblatex-fiwi-2023.201.1.7svn45876-53.1.noarch.rpm"
 RPM_HASH = "b8273937add7a63e0694132479ab7cdb6fc9acdf67b41d864c950196aaf8d0add4e3642c163eda1e08b81560196e8fe6cb0ea0a8e74d985012c0d7124e090b09"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fiwi-yearbeginning.bbx) \
-tex(fiwi.bbx) \
-tex(fiwi.cbx) \
-tex(fiwi2.bbx) \
-tex(fiwi2.cbx) \
+RPROVIDES:${PN} += "tex-fiwi-yearbeginning.bbx \
+tex-fiwi.bbx \
+tex-fiwi.cbx \
+tex-fiwi2.bbx \
+tex-fiwi2.cbx \
 texlive-biblatex-fiwi"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ragged2e.sty) \
-tex(standard.bbx) \
+tex-ragged2e.sty \
+tex-standard.bbx \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

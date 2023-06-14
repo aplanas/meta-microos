@@ -11,10 +11,10 @@ RPM_HASH = "c8ca6896f4454fdb4e1c301e336a8c8813a3b2c2b15f3c6ce61712026288e0213f40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-EditorConfig \
-python3.10dist(editorconfig) \
+python3.10dist-editorconfig \
 python310-EditorConfig \
-python3dist(editorconfig)"
+python3dist-editorconfig"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

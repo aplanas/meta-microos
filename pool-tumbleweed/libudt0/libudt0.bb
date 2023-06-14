@@ -15,15 +15,14 @@ PV = "4.11"
 RPM_NAME = "libudt0-4.11-1.22.aarch64.rpm"
 RPM_HASH = "73fbb2578711e1018c6f78a1bfd9153588e344a07c34623497825d6fe43167c1368ca7d06d54b3834b4b1cd7ca7e897a9e9ec9a89dddeaf5bdf0ff727038a35a"
 
-RPROVIDES:${PN} += "libudt.so.0()(64bit) \
-libudt0 \
-libudt0(aarch-64)"
+RPROVIDES:${PN} += "libudt.so.0 \
+libudt0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_NAME = "texlive-canoniclayout-2023.201.1.0svn64889-52.1.noarch.rpm"
 RPM_HASH = "601c13e4d5df12686df8c44cf2a07028dc8a34752dd1031e8a2a707e7f11bd0dd8ff803e7c42ca05c9a04ee32de23ed289c3a5dfda80aa9f21fe9bad7f7b195c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(canoniclayout.sty) \
+RPROVIDES:${PN} += "tex-canoniclayout.sty \
 texlive-canoniclayout"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,9 +19,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(pict2e.sty) \
-tex(xcolor.sty) \
+tex-etoolbox.sty \
+tex-pict2e.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-cognitiveservices-search-newssearch-2.0.0-2.11.noarc
 RPM_HASH = "53a69f88d6a4547da921973876289456df88d13731f3171236090f4ea351238b0faf9b0d11df1137daf34e6cdee9be9e4832ac78c8f4d9224a420771a1829e7c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-search-newssearch) \
+RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-newssearch \
 python311-azure-cognitiveservices-search-newssearch \
-python3dist(azure-cognitiveservices-search-newssearch)"
+python3dist-azure-cognitiveservices-search-newssearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-cognitiveservices-search-nspkg \
 python311-azure-common \

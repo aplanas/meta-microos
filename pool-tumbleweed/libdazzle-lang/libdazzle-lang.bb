@@ -10,13 +10,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdazzle-lang \
 libdazzle-lang-all \
-locale(libdazzle:de) \
-locale(libdazzle:es) \
-locale(libdazzle:eu) \
-locale(libdazzle:pl) \
-locale(libdazzle:sv) \
-locale(libdazzle:uk) \
-locale(libdazzle:zh_CN)"
+locale-libdazzle-de \
+locale-libdazzle-es \
+locale-libdazzle-eu \
+locale-libdazzle-pl \
+locale-libdazzle-sv \
+locale-libdazzle-uk \
+locale-libdazzle-zh-CN"
 
 RDEPENDS:${PN} += "libdazzle"
 

@@ -9,11 +9,11 @@ RPM_NAME = "python311-flake8-pyi-23.1.2-1.2.noarch.rpm"
 RPM_HASH = "6b42349a21de4b5de419832eaf01fedf68a0cfca6bf1a0a72e8bd23f430507b0c825931d148c92e647dc3a9bcc757a116b748fe901f1515e4c434dd0ab9261ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(flake8-pyi) \
+RPROVIDES:${PN} += "python3.11dist-flake8-pyi \
 python311-flake8-pyi \
-python3dist(flake8-pyi)"
+python3dist-flake8-pyi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-attrs \
 python311-base \
 python311-flake8 \

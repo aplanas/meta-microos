@@ -9,13 +9,12 @@ PV = "1.0.1"
 RPM_NAME = "ocr_1_0_1-gnu-mpich-hpc-1.0.1-5.9.aarch64.rpm"
 RPM_HASH = "68529712913458d8431966ed2db1845b57a613edf96746bbedfb2f22381f50ecc3c581ae26ddf234d7a718fa3be46bf86837385b528af4092d2791f90ca531d0"
 
-RPROVIDES:${PN} += "ocr_1_0_1-gnu-mpich-hpc \
-ocr_1_0_1-gnu-mpich-hpc(aarch-64)"
+RPROVIDES:${PN} += "ocr-1-0-1-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 gnu-compilers-hpc \
-libc.so.6()(64bit) \
+libc.so.6 \
 lua-lmod \
 mpich-gnu-hpc"
 

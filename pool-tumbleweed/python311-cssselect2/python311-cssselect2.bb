@@ -14,11 +14,11 @@ RPM_NAME = "python311-cssselect2-0.7.0-2.1.noarch.rpm"
 RPM_HASH = "7860a5cb88ca15231b6f61e73be09c3855d462e9d47c8edfd19f91fb463060378815827ff25bcd0471bf667744ccbbfa772ba0d23f9bcf468266aa15c66a54c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(cssselect2) \
+RPROVIDES:${PN} += "python3.11dist-cssselect2 \
 python311-cssselect2 \
-python3dist(cssselect2)"
+python3dist-cssselect2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-tinycss2 \
 python311-webencodings"
 

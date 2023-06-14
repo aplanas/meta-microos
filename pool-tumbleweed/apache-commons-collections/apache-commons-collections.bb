@@ -27,10 +27,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-collections \
 commons-collections \
 jakarta-commons-collections \
-mvn(commons-collections:commons-collections) \
-mvn(commons-collections:commons-collections:pom:) \
-mvn(org.apache.commons:commons-collections) \
-mvn(org.apache.commons:commons-collections:pom:)"
+mvn-commons-collections-commons-collections \
+mvn-commons-collections-commons-collections-pom- \
+mvn-org.apache.commons-commons-collections \
+mvn-org.apache.commons-commons-collections-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -11,22 +11,21 @@ RPM_HASH = "ed52f3f3e316da25ca523040cc7ee7a68facb88c22956890e15394ffff12ed5471fa
 
 RPROVIDES:${PN} += "librsvg \
 librsvg-2-2 \
-librsvg-2-2(aarch-64) \
-librsvg-2.so.2()(64bit) \
+librsvg-2.so.2 \
 librsvg2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

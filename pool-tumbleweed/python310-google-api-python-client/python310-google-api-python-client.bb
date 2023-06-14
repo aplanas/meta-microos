@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-api-python-client \
 python3-google-api-python-client \
-python3.10dist(google-api-python-client) \
+python3.10dist-google-api-python-client \
 python310-google-api-python-client \
-python3dist(google-api-python-client)"
+python3dist-google-api-python-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-api-core \
 python310-google-auth \
 python310-google-auth-httplib2 \

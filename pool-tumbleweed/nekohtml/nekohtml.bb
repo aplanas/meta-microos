@@ -18,20 +18,20 @@ RPM_NAME = "nekohtml-1.9.22.noko2-1.4.noarch.rpm"
 RPM_HASH = "6301a18655fb534753a542dbd73cdefe05c2034fef6b2ac6a4c1c44ab3289d6f1ed599287870e24c8f542a153ff7962c7127af379fec9299cc34cf84cb3e2979"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(nekohtml:nekohtml) \
-mvn(nekohtml:nekohtml:pom:) \
-mvn(net.sourceforge.nekohtml:nekohtml) \
-mvn(net.sourceforge.nekohtml:nekohtml-xni) \
-mvn(net.sourceforge.nekohtml:nekohtml:pom:) \
+RPROVIDES:${PN} += "mvn-nekohtml-nekohtml \
+mvn-nekohtml-nekohtml-pom- \
+mvn-net.sourceforge.nekohtml-nekohtml \
+mvn-net.sourceforge.nekohtml-nekohtml-pom- \
+mvn-net.sourceforge.nekohtml-nekohtml-xni \
 nekohtml \
-osgi(org.cyberneko.html)"
+osgi-org.cyberneko.html"
 
 RDEPENDS:${PN} += "/bin/bash \
 bcel \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(xerces:xercesImpl) \
+mvn-xerces-xercesImpl \
 xerces-j2 \
 xml-apis"
 

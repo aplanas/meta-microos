@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-log4j \
 ant-jakarta-log4j \
-config(ant-apache-log4j) \
-mvn(org.apache.ant:ant-apache-log4j) \
-mvn(org.apache.ant:ant-apache-log4j:pom:)"
+config-ant-apache-log4j \
+mvn-org.apache.ant-ant-apache-log4j \
+mvn-org.apache.ant-ant-apache-log4j-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(log4j:log4j) \
-mvn(org.apache.ant:ant) \
+mvn-log4j-log4j \
+mvn-org.apache.ant-ant \
 reload4j"
 
 inherit rpm

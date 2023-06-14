@@ -10,16 +10,15 @@ PV = "2.7.1"
 RPM_NAME = "python39-nlopt-2.7.1-3.14.aarch64.rpm"
 RPM_HASH = "048e6c43f54cc55332cb68ac0b527bbd6cf6a06718ff5882b42d1bcd7b2de7ecced4741967490569df3fd7ea0d9605e44951d1647fd0af71ce3bc83b9a662b8d"
 
-RPROVIDES:${PN} += "python39-nlopt \
-python39-nlopt(aarch-64)"
+RPROVIDES:${PN} += "python39-nlopt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnlopt.so.0()(64bit) \
-libpython3.9.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnlopt.so.0 \
+libpython3.9.so.1.0 \
+libstdc++.so.6 \
+python-abi \
 python39-numpy"
 
 inherit rpm

@@ -8,15 +8,14 @@ PV = "3.11.3"
 RPM_NAME = "python311-curses-3.11.3-1.1.aarch64.rpm"
 RPM_HASH = "3fe6aef0c746a4ce586fdcbb3a6dc347f888ff3cd74c9fc5db51783ed0a55cbabe693252a97f603e0c462ab80fa9ddacfc03b25756961f862eb44b485ba8be11"
 
-RPROVIDES:${PN} += "python311-curses \
-python311-curses(aarch-64)"
+RPROVIDES:${PN} += "python311-curses"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libpanelw.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libpanelw.so.6 \
+libtinfo.so.6 \
+python-abi \
 python311"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "ccace02c64cb461e65739bb70c5baaa223fe99038bc5394030d70db095522a1f898c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msrest \
-python3.10dist(msrest) \
+python3.10dist-msrest \
 python310-msrest \
-python3dist(msrest)"
+python3dist-msrest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-certifi \
 python310-isodate \

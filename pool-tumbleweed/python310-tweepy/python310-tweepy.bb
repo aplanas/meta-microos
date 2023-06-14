@@ -10,13 +10,13 @@ RPM_HASH = "bb7c32b58a8512896f3045cd19015d36270f27d764573057818d2a75bbbcea79b18f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tweepy \
-python3.10dist(tweepy) \
+python3.10dist-tweepy \
 python310-tweepy \
-python3dist(tweepy)"
+python3dist-tweepy"
 
-RDEPENDS:${PN} += "(python3.10dist(oauthlib) < 4 with python3.10dist(oauthlib) >= 3.2) \
-(python3.10dist(requests) < 3 with python3.10dist(requests) >= 2.27) \
-(python3.10dist(requests-oauthlib) < 2 with python3.10dist(requests-oauthlib) >= 1.2) \
-python(abi)"
+RDEPENDS:${PN} += "-python3.10dist(oauthlib) < 4 with python3.10dist(oauthlib) >= 3.2 \
+-python3.10dist(requests) < 3 with python3.10dist(requests) >= 2.27 \
+-python3.10dist(requests-oauthlib) < 2 with python3.10dist(requests-oauthlib) >= 1.2 \
+python-abi"
 
 inherit rpm

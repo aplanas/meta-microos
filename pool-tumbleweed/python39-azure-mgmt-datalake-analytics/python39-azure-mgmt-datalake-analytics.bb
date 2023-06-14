@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-datalake-analytics-0.6.0-4.11.noarch.rpm"
 RPM_HASH = "3db5e3859704b95e1315beb2cef06b608458341a40dfc2151bab60ff4d3fde3c85de2fa84dd65f3ad9f4063619f4d8d382de6c5d5195ce38f272f4af89229310"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-datalake-analytics) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datalake-analytics \
 python39-azure-mgmt-datalake-analytics \
-python3dist(azure-mgmt-datalake-analytics)"
+python3dist-azure-mgmt-datalake-analytics"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-datalake-nspkg \
 python39-azure-mgmt-nspkg \

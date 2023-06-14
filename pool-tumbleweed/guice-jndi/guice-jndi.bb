@@ -10,11 +10,11 @@ RPM_HASH = "45109a28dd93e548208c9d283932605961e1945e9e99531476f383046591ff298247
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-jndi \
-mvn(com.google.inject.extensions:guice-jndi) \
-mvn(com.google.inject.extensions:guice-jndi:pom:) \
-mvn(org.sonatype.sisu.inject:guice-jndi) \
-mvn(org.sonatype.sisu.inject:guice-jndi:pom:) \
-osgi(com.google.inject.jndi)"
+mvn-com.google.inject.extensions-guice-jndi \
+mvn-com.google.inject.extensions-guice-jndi-pom- \
+mvn-org.sonatype.sisu.inject-guice-jndi \
+mvn-org.sonatype.sisu.inject-guice-jndi-pom- \
+osgi-com.google.inject.jndi"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -22,20 +22,20 @@ RPM_NAME = "texlive-expkv-bundle-2023.201.svn65623-52.1.noarch.rpm"
 RPM_HASH = "55852b063d73833fb6c108cf6dd82741785d2422d7f32587d3dc957c27f4799c9e7018254e666fc5409240846a043bdc684734a8f1c8cb1884ce9dd37798b457"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(expkv-cs.sty) \
-tex(expkv-cs.tex) \
-tex(expkv-def.sty) \
-tex(expkv-def.tex) \
-tex(expkv-opt-2020-10-10.sty) \
-tex(expkv-opt.sty) \
-tex(expkv-pop.sty) \
-tex(expkv-pop.tex) \
-tex(expkv.sty) \
-tex(expkv.tex) \
-tex(t-expkv-cs.tex) \
-tex(t-expkv-def.tex) \
-tex(t-expkv-pop.tex) \
-tex(t-expkv.tex) \
+RPROVIDES:${PN} += "tex-expkv-cs.sty \
+tex-expkv-cs.tex \
+tex-expkv-def.sty \
+tex-expkv-def.tex \
+tex-expkv-opt-2020-10-10.sty \
+tex-expkv-opt.sty \
+tex-expkv-pop.sty \
+tex-expkv-pop.tex \
+tex-expkv.sty \
+tex-expkv.tex \
+tex-t-expkv-cs.tex \
+tex-t-expkv-def.tex \
+tex-t-expkv-pop.tex \
+tex-t-expkv.tex \
 texlive-expkv-bundle"
 
 RDEPENDS:${PN} += "/bin/sh \

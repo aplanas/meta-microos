@@ -9,14 +9,13 @@ PV = "6.18.1"
 RPM_NAME = "libcsound64-6_0-6.18.1-3.1.aarch64.rpm"
 RPM_HASH = "eec392545d07e02572b35dc36468efe843470b37190e261830c29e3992ea581c879e756015b8cb2046c71b3293378649ca88e7fb7fa915354dbfb1dcbdba9928"
 
-RPROVIDES:${PN} += "libcsound64-6_0 \
-libcsound64-6_0(aarch-64) \
-libcsound64.so.6.0()(64bit)"
+RPROVIDES:${PN} += "libcsound64-6-0 \
+libcsound64.so.6.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libsndfile.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libsndfile.so.1"
 
 inherit rpm

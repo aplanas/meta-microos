@@ -12,11 +12,11 @@ RPM_HASH = "47b17cda5c3befd6309d7d04c7704ab3aaf33dc11a594e13307552c1ff91ce2c2c55
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fido2 \
-python3.10dist(fido2) \
+python3.10dist-fido2 \
 python310-fido2 \
-python3dist(fido2)"
+python3dist-fido2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography"
 
 inherit rpm

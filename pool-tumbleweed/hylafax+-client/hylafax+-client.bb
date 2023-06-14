@@ -9,16 +9,15 @@ PV = "7.0.7"
 RPM_NAME = "hylafax+-client-7.0.7-1.4.aarch64.rpm"
 RPM_HASH = "d8f1d39f195d623307b1163a97c0311f337bd95e437d402902e4d45c82aba083893b65a1ead999a73c4217357bd710b11c4db51701737560ec2686bb22e3fa3c"
 
-RPROVIDES:${PN} += "config(hylafax+-client) \
+RPROVIDES:${PN} += "config-hylafax+-client \
 hylafax+-client \
-hylafax+-client(aarch-64) \
 hylafax-client"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfaxutil.so.7.0.7()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfaxutil.so.7.0.7 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

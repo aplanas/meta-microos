@@ -11,14 +11,13 @@ PV = "0.3.16"
 RPM_NAME = "typelib-1_0-Grl-0_3-0.3.16-1.1.aarch64.rpm"
 RPM_HASH = "be06d45c331ba17e980db4398a2d4bdf54c948b635b07a7cfeb4a389bc12f453abdd9df857704fb55396067063e8ab5774d13d76edb69273817927ec85c1c475"
 
-RPROVIDES:${PN} += "typelib(Grl) \
-typelib-1_0-Grl-0_3 \
-typelib-1_0-Grl-0_3(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Grl-0-3 \
+typelib-Grl"
 
-RDEPENDS:${PN} += "libgrilo-0.3.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libgrilo-0.3.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

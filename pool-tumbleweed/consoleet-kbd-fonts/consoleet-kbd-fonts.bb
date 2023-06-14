@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "consoleet-kbd-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

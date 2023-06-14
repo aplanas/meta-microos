@@ -9,11 +9,7 @@ RPM_NAME = "yast2-adsi-1.6-1.14.noarch.rpm"
 RPM_HASH = "03488eaee9ea017c153cafcdd02f2703b2d12562ec022801abb6e3f46b7770aa01340559d44ef66097b2e5786f77b189f4db448e2fc9f91eb74b0d9725d4998f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(org.opensuse.yast.ADSI.desktop) \
-metainfo() \
-metainfo(org.opensuse.yast.ADSI.metainfo.xml) \
-yast2-adsi"
+RPROVIDES:${PN} += "yast2-adsi"
 
 RDEPENDS:${PN} += "krb5-client \
 python3-ldap \

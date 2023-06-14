@@ -9,14 +9,14 @@ RPM_HASH = "6238d81d22ba28e5ac7813909d1dcdc43c24ebbaeda4352afcce3a901244e39ea898
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-file-management \
-mvn(org.apache.maven.shared:file-management) \
-mvn(org.apache.maven.shared:file-management:pom:)"
+mvn-org.apache.maven.shared-file-management \
+mvn-org.apache.maven.shared-file-management-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-shared-io) \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.shared-maven-shared-io \
+mvn-org.apache.maven.shared-maven-shared-utils \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

@@ -10,14 +10,14 @@ RPM_HASH = "460b451b569c56d2b3d9d15410a7b4457478de3dea89347a131bd56025fb2a6a1860
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-papermill \
-python3.10dist(papermill) \
+python3.10dist-papermill \
 python310-papermill \
-python3dist(papermill)"
+python3dist-papermill"
 
-RDEPENDS:${PN} += "(python310-typing_extensions if python310-azure-storage-blob) \
+RDEPENDS:${PN} += "-python310-typing-extensions if python310-azure-storage-blob \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-ansiwrap \
 python310-click \

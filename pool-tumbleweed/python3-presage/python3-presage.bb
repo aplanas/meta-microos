@@ -13,16 +13,15 @@ RPM_HASH = "060e9afbc3d8809805ea7537e7218c92f2d1891cdb4fd4ef62813dad4129b9902fd5
 
 RPROVIDES:${PN} += "python-presage \
 python3-presage \
-python3-presage(aarch-64) \
-python3.10dist(python-presage) \
-python3dist(python-presage)"
+python3.10dist-python-presage \
+python3dist-python-presage"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpresage.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpresage.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

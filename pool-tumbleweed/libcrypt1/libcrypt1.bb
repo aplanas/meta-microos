@@ -12,13 +12,12 @@ PV = "4.4.34"
 RPM_NAME = "libcrypt1-4.4.34-1.1.aarch64.rpm"
 RPM_HASH = "b66bdb256a01a3f07c37a510707e95981a3cc9a00396215b8dea98feefcfd1a8536950df80185f0e2d9682d925df70c4d56774ff6791903729de96269b2dc4eb"
 
-RPROVIDES:${PN} += "libcrypt.so.1()(64bit) \
+RPROVIDES:${PN} += "libcrypt.so.1 \
 libcrypt1 \
-libcrypt1(aarch-64) \
-libowcrypt.so.1()(64bit)"
+libowcrypt.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

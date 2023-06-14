@@ -17,20 +17,20 @@ RPM_NAME = "texlive-euenc-2023.201.0.0.1hsvn19795-52.1.noarch.rpm"
 RPM_HASH = "a10068dfa3c2f940604da434b887a5c86f5ecc7271c79658c12a61f323e0cca845b44f50965396175df470c2813f5d1903b254cbb628f9d1330acf9c24a3cbb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(eu1enc.def) \
-tex(eu1lmdh.fd) \
-tex(eu1lmr.fd) \
-tex(eu1lmss.fd) \
-tex(eu1lmssq.fd) \
-tex(eu1lmtt.fd) \
-tex(eu1lmvtt.fd) \
-tex(eu2enc.def) \
-tex(eu2lmdh.fd) \
-tex(eu2lmr.fd) \
-tex(eu2lmss.fd) \
-tex(eu2lmssq.fd) \
-tex(eu2lmtt.fd) \
-tex(eu2lmvtt.fd) \
+RPROVIDES:${PN} += "tex-eu1enc.def \
+tex-eu1lmdh.fd \
+tex-eu1lmr.fd \
+tex-eu1lmss.fd \
+tex-eu1lmssq.fd \
+tex-eu1lmtt.fd \
+tex-eu1lmvtt.fd \
+tex-eu2enc.def \
+tex-eu2lmdh.fd \
+tex-eu2lmr.fd \
+tex-eu2lmss.fd \
+tex-eu2lmssq.fd \
+tex-eu2lmtt.fd \
+tex-eu2lmvtt.fd \
 texlive-euenc"
 
 RDEPENDS:${PN} += "/bin/sh \

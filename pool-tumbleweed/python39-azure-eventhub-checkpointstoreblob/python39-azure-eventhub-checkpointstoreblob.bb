@@ -14,11 +14,11 @@ RPM_NAME = "python39-azure-eventhub-checkpointstoreblob-1.1.4-1.8.noarch.rpm"
 RPM_HASH = "139a80982da178aa61ba2c2a3155a2e4ce0f483005d7ab4bce0e4c6d1451f321429f4742657e40ad8d8bcfd2b53558b08e39ab5171c5b12b4131981535da0504"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-eventhub-checkpointstoreblob) \
+RPROVIDES:${PN} += "python3.9dist-azure-eventhub-checkpointstoreblob \
 python39-azure-eventhub-checkpointstoreblob \
-python3dist(azure-eventhub-checkpointstoreblob)"
+python3dist-azure-eventhub-checkpointstoreblob"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-core \
 python39-azure-eventhub \
 python39-azure-nspkg \

@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icon-naming-utils \
 icon-naming-utils-devel \
-pkgconfig(icon-naming-utils)"
+pkgconfig-icon-naming-utils"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \

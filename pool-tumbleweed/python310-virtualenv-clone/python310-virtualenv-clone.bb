@@ -39,13 +39,13 @@ RPM_HASH = "f969a93c126d4e0e34ead31db1cb1e91288e97ddc3a4b51e4748dcb34b7a55e37a25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtualenv-clone \
-python3.10dist(virtualenv-clone) \
+python3.10dist-virtualenv-clone \
 python310-virtualenv-clone \
-python3dist(virtualenv-clone)"
+python3dist-virtualenv-clone"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-virtualenv \
 update-alternatives"
 

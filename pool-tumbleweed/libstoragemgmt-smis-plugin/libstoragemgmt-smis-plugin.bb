@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "libstoragemgmt-smis-plugin"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-libstoragemgmt \
 python3-pywbem"
 

@@ -15,7 +15,7 @@ RPM_NAME = "texlive-addfont-2023.201.1.1svn58559-54.1.noarch.rpm"
 RPM_HASH = "6ed7e0c1d75bf0fe0f21526673b8235ca949cfd4c115dfcfa9341bc512cb921723f7746b73e4f26db7bf9ccf60c3cf3737bd306a254345c4cfb3fd90576f4821"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(addfont.sty) \
+RPROVIDES:${PN} += "tex-addfont.sty \
 texlive-addfont"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(twoopt.sty) \
+tex-ifthen.sty \
+tex-twoopt.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

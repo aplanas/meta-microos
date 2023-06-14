@@ -10,13 +10,12 @@ PV = "5.15.0"
 RPM_NAME = "plplot-driver-xfig-5.15.0-16.2.aarch64.rpm"
 RPM_HASH = "fa5047710fbf9605663395274ff1e3d5e4033095d5857544a598dcedb533b3802bae2d26e6a163e843f1a37582c654b22143a8bfe8fe1c1b893551761195a7d1"
 
-RPROVIDES:${PN} += "plplot-driver-xfig \
-plplot-driver-xfig(aarch-64)"
+RPROVIDES:${PN} += "plplot-driver-xfig"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libplplot.so.17()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libplplot.so.17 \
 plplot-common"
 
 inherit rpm

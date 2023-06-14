@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-scheduler-2.0.0-4.11.noarch.rpm"
 RPM_HASH = "15905e1b2c9ae92e690ef2ce89de1fc82cdf6de19309ae0fcc76811b135dd9a07ddbbaab2e19e4561ff281e7559312a23c09a6f9e1d6a9c3b3f14cbe53fa9de1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-scheduler) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-scheduler \
 python39-azure-mgmt-scheduler \
-python3dist(azure-mgmt-scheduler)"
+python3dist-azure-mgmt-scheduler"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-nspkg \
 python39-azure-nspkg \

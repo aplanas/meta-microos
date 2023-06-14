@@ -7,8 +7,7 @@ PV = "1.2.2"
 RPM_NAME = "ntpsec-utils-1.2.2-1.3.aarch64.rpm"
 RPM_HASH = "13adbb9c267662093581d28b2d4bb0a4b3a61b31f26780c096d17555bcb5ba71377ec2f8e7179539f6b496ac042cc57e0b90a3b60ebae18dfcc58b70354109c3"
 
-RPROVIDES:${PN} += "ntpsec-utils \
-ntpsec-utils(aarch-64)"
+RPROVIDES:${PN} += "ntpsec-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \

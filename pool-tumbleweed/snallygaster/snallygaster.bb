@@ -13,8 +13,8 @@ RPM_NAME = "snallygaster-0.0.12-1.6.noarch.rpm"
 RPM_HASH = "cadfda516a03fc0e403d1efa1843f0a23ff4dd4b21b2f1b449db58cdfa09aabd8743197689ce64ed237c1d644bd5cc000b051f5ec3882c57e161357dffefb99f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(snallygaster) \
-python3dist(snallygaster) \
+RPROVIDES:${PN} += "python3.10dist-snallygaster \
+python3dist-snallygaster \
 snallygaster"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

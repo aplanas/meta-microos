@@ -9,25 +9,17 @@ PV = "20221124"
 RPM_NAME = "libqcow-tools-20221124-3.9.aarch64.rpm"
 RPM_HASH = "1114c0c75d7da361607326976159218d3705ed4b6693384044979231cbc241a79305f9e824df116602915090ed20a33890e52492fc944a1540e087d9b02afad9"
 
-RPROVIDES:${PN} += "libqcow-tools \
-libqcow-tools(aarch-64)"
+RPROVIDES:${PN} += "libqcow-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcdata.so.1()(64bit) \
-libcdata.so.1(V_20230108)(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcnotify.so.1()(64bit) \
-libcnotify.so.1(V_20220108)(64bit) \
-libcpath.so.1()(64bit) \
-libcpath.so.1(V_20220108)(64bit) \
-libfuse.so.2()(64bit) \
-libqcow.so.1()(64bit) \
-libqcow.so.1(V_20221124)(64bit) \
-libuna.so.1()(64bit) \
-libuna.so.1(V_20220611)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcdata.so.1 \
+libcerror.so.1 \
+libclocale.so.1 \
+libcnotify.so.1 \
+libcpath.so.1 \
+libfuse.so.2 \
+libqcow.so.1 \
+libuna.so.1"
 
 inherit rpm

@@ -13,25 +13,19 @@ PV = "5.2.5"
 RPM_NAME = "gsequencer-5.2.5-1.1.aarch64.rpm"
 RPM_HASH = "a9e883f05cac4dd3d5bbd1cff30bf05eb7a6c31275733fb8701091afc9835d9b06f413e4f34c9aada71af88ebbabd4550329c3cc4cdebb71739d0aee4fc78fac"
 
-RPROVIDES:${PN} += "application() \
-application(gsequencer.desktop) \
-gsequencer \
-gsequencer(aarch-64) \
-metainfo() \
-metainfo(org.nongnu.gsequencer.gsequencer.appdata.xml) \
-mimehandler(application/xml)"
+RPROVIDES:${PN} += "gsequencer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libags.so.5()(64bit) \
-libags_audio.so.5()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsequencer.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libinstpatch-1.0.so.2()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libags-audio.so.5 \
+libags.so.5 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgsequencer.so.0 \
+libgstreamer-1.0.so.0 \
+libgtk-4.so.1 \
+libinstpatch-1.0.so.2 \
+libxml2.so.2"
 
 inherit rpm

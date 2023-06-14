@@ -16,13 +16,12 @@ RPM_NAME = "libdmapsharing3-devel-2.9.39-1.16.aarch64.rpm"
 RPM_HASH = "cdd36cb4720501e791498462df38182299fa72af551f0dc96e8adc3e19814288fb176ee60e0c417014211253d1c6952655f33b2e2c0e68e3a9585746e11d2a0c"
 
 RPROVIDES:${PN} += "libdmapsharing3-devel \
-libdmapsharing3-devel(aarch-64) \
-pkgconfig(libdmapsharing-3.0)"
+pkgconfig-libdmapsharing-3.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libdmapsharing-3_0-2 \
-pkgconfig(glib-2.0) \
-pkgconfig(gstreamer-1.0) \
-pkgconfig(libsoup-2.4)"
+libdmapsharing-3-0-2 \
+pkgconfig-glib-2.0 \
+pkgconfig-gstreamer-1.0 \
+pkgconfig-libsoup-2.4"
 
 inherit rpm

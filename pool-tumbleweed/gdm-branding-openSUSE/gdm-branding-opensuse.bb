@@ -11,7 +11,7 @@ RPM_NAME = "gdm-branding-openSUSE-15.1-3.1.noarch.rpm"
 RPM_HASH = "9ba4bec54256ae08efebf728dc03b5994747c87fb4fefe17e0308a5712aeb9e6a5d6daaecf54a17084c42b8ad0bc4b28e3f1ce379e0fbf720f1a8d7a18703aba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(gdm-branding-openSUSE) \
+RPROVIDES:${PN} += "config-gdm-branding-openSUSE \
 gdm-branding \
 gdm-branding-openSUSE"
 

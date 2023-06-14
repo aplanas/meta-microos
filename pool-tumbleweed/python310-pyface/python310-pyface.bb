@@ -15,11 +15,11 @@ RPM_HASH = "b7c0a21942faa4e219984b0c9507ef92a6ac9fbc789b33c04e3648203025a53148d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyface \
-python3.10dist(pyface) \
+python3.10dist-pyface \
 python310-pyface \
-python3dist(pyface)"
+python3dist-pyface"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-importlib-metadata \
 python310-importlib-resources \
 python310-traits"

@@ -19,8 +19,8 @@ RPM_NAME = "texlive-typeface-2023.201.0.0.1svn27046-52.1.noarch.rpm"
 RPM_HASH = "b4d00da661b6d3e1322bb572650658b910dfb2e7a69c89b8304cc5b180d4a04a1a52a4f5dd320fa24fa9ceb13dcc130724e59cc7e3034f8dc82208d32a75010c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(typeface.cfg) \
-tex(typeface.sty) \
+RPROVIDES:${PN} += "tex-typeface.cfg \
+tex-typeface.sty \
 texlive-typeface"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,22 +29,22 @@ ed \
 findutils \
 grep \
 sed \
-tex(anyfontsize.sty) \
-tex(array.sty) \
-tex(etexcmds.sty) \
-tex(etoolbox.sty) \
-tex(fix-cm.sty) \
-tex(fixmath.sty) \
-tex(fontenc.sty) \
-tex(ifetex.sty) \
-tex(ifpdf.sty) \
-tex(iftex.sty) \
-tex(ifthenx.sty) \
-tex(mathtools.sty) \
-tex(nfssext-cfr.sty) \
-tex(scalefnt.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-anyfontsize.sty \
+tex-array.sty \
+tex-etexcmds.sty \
+tex-etoolbox.sty \
+tex-fix-cm.sty \
+tex-fixmath.sty \
+tex-fontenc.sty \
+tex-ifetex.sty \
+tex-ifpdf.sty \
+tex-iftex.sty \
+tex-ifthenx.sty \
+tex-mathtools.sty \
+tex-nfssext-cfr.sty \
+tex-scalefnt.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

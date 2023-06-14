@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kasts-lang \
 kasts-lang-all \
-locale(kasts:ca) \
-locale(kasts:ca@valencia) \
-locale(kasts:cs) \
-locale(kasts:de) \
-locale(kasts:en_GB) \
-locale(kasts:es) \
-locale(kasts:fi) \
-locale(kasts:fr) \
-locale(kasts:it) \
-locale(kasts:ja) \
-locale(kasts:ka) \
-locale(kasts:ko) \
-locale(kasts:lt) \
-locale(kasts:nl) \
-locale(kasts:pa) \
-locale(kasts:pl) \
-locale(kasts:pt) \
-locale(kasts:pt_BR) \
-locale(kasts:sk) \
-locale(kasts:sl) \
-locale(kasts:sv) \
-locale(kasts:tr) \
-locale(kasts:uk) \
-locale(kasts:zh_CN) \
-locale(kasts:zh_TW)"
+locale-kasts-ca \
+locale-kasts-ca@valencia \
+locale-kasts-cs \
+locale-kasts-de \
+locale-kasts-en-GB \
+locale-kasts-es \
+locale-kasts-fi \
+locale-kasts-fr \
+locale-kasts-it \
+locale-kasts-ja \
+locale-kasts-ka \
+locale-kasts-ko \
+locale-kasts-lt \
+locale-kasts-nl \
+locale-kasts-pa \
+locale-kasts-pl \
+locale-kasts-pt \
+locale-kasts-pt-BR \
+locale-kasts-sk \
+locale-kasts-sl \
+locale-kasts-sv \
+locale-kasts-tr \
+locale-kasts-uk \
+locale-kasts-zh-CN \
+locale-kasts-zh-TW"
 
 RDEPENDS:${PN} += "kasts"
 

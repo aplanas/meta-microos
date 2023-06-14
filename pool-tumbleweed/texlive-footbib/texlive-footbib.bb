@@ -17,7 +17,7 @@ RPM_NAME = "texlive-footbib-2023.201.2.0.7svn17115-52.1.noarch.rpm"
 RPM_HASH = "0f8944dcf8c6b7211a9612d81ab2df5d0cf04b2885c9deca5181c1b63953ca6fd00b0b5978eb7d98266fbbe20a21efe2b40f06ca577ac321c520b909536317b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(footbib.sty) \
+RPROVIDES:${PN} += "tex-footbib.sty \
 texlive-footbib"
 
 RDEPENDS:${PN} += "/bin/sh \

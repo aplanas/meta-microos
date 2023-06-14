@@ -11,13 +11,12 @@ PV = "3.5.3"
 RPM_NAME = "typelib-1_0-Tracker-3_0-3.5.3-1.1.aarch64.rpm"
 RPM_HASH = "26dde279dee9dfa174d5b523e97eaa6ab27d9fbaa3f5dc8ac0c40b386997138b01cdc81b298b0b1fe43ccbdf1b15f64d07a745b3144d5064ea41a54de832fd19"
 
-RPROVIDES:${PN} += "typelib(Tracker) \
-typelib-1_0-Tracker-3_0 \
-typelib-1_0-Tracker-3_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Tracker-3-0 \
+typelib-Tracker"
 
-RDEPENDS:${PN} += "libtracker-sparql-3.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libtracker-sparql-3.0.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

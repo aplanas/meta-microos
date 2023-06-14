@@ -14,11 +14,11 @@ RPM_HASH = "04a3c95c57cb5718b1479781026d42cdf33992305d85f28e4c1e44e153a0fdb2bafb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-unyt \
-python3.10dist(unyt) \
+python3.10dist-unyt \
 python310-unyt \
-python3dist(unyt)"
+python3dist-unyt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-packaging \
 python310-sympy"

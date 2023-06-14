@@ -16,13 +16,13 @@ RPM_HASH = "5f52f0b2950831df989563ad859c203085f1d80cc21d32aae842ca378a5f12da24ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Sphinx \
-python3.10dist(sphinx) \
+python3.10dist-sphinx \
 python310-Sphinx \
-python3dist(sphinx)"
+python3dist-sphinx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Babel \
 python310-Jinja2 \
 python310-Pygments \
@@ -33,7 +33,7 @@ python310-packaging \
 python310-requests \
 python310-setuptools \
 python310-snowballstemmer \
-python310-sphinx_rtd_theme \
+python310-sphinx-rtd-theme \
 python310-sphinxcontrib-applehelp \
 python310-sphinxcontrib-devhelp \
 python310-sphinxcontrib-htmlhelp \

@@ -17,15 +17,15 @@ RPM_HASH = "219fc4d53543673c4cf18bcd6b67b0e1faa145bc5f4c319fbf2a8402cf493804e809
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-textanalytics \
-python3.10dist(azure-ai-textanalytics) \
+python3.10dist-azure-ai-textanalytics \
 python310-azure-ai-textanalytics \
-python3dist(azure-ai-textanalytics)"
+python3dist-azure-ai-textanalytics"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-ai-nspkg \
 python310-azure-common \
 python310-azure-core \
 python310-msrest \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

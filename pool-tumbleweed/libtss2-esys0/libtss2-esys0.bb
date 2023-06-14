@@ -12,15 +12,14 @@ PV = "4.0.1"
 RPM_NAME = "libtss2-esys0-4.0.1-1.3.aarch64.rpm"
 RPM_HASH = "4b3ddba0b3288d952b009d964fbb3fba046711e54eae9cfa16ab6bee147e083fce1be330cd8c13eeadf798d7f9325e83300f40dabe92cf9b640d653f5ada7eab"
 
-RPROVIDES:${PN} += "libtss2-esys.so.0()(64bit) \
-libtss2-esys0 \
-libtss2-esys0(aarch-64)"
+RPROVIDES:${PN} += "libtss2-esys.so.0 \
+libtss2-esys0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libtss2-mu.so.0()(64bit) \
-libtss2-sys.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libtss2-mu.so.0 \
+libtss2-sys.so.1"
 
 inherit rpm

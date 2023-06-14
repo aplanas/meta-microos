@@ -12,10 +12,10 @@ RPM_HASH = "222b360c1a9aa417dbfbcbd8f04e4f50fe5ef52a51ebff2d7ac52c15436b4a30c3b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-masakariclient \
-python3.10dist(python-masakariclient) \
-python3dist(python-masakariclient)"
+python3.10dist-python-masakariclient \
+python3dist-python-masakariclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-openstacksdk \
 python3-oslo.i18n \
 python3-oslo.serialization \

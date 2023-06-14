@@ -9,12 +9,12 @@ RPM_HASH = "3931fe7dc8ee38d9ba6bfcd4917aeecc23ecd44fbcacad31662342c8cedd6bc559fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ajsonrpc \
-python3.10dist(ajsonrpc) \
+python3.10dist-ajsonrpc \
 python310-ajsonrpc \
-python3dist(ajsonrpc)"
+python3dist-ajsonrpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

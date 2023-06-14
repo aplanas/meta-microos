@@ -15,11 +15,11 @@ RPM_NAME = "perl-HTML-Stream-1.60-1.19.noarch.rpm"
 RPM_HASH = "b6d0ff4849e63b03f7e08f438e096314358fcc09298414beebed63023067d134be3d7c1e0aec3b808090c00a763d29be26ebc9677724ce4c200062c8d5868322"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::Stream) \
-perl(HTML::Stream::FileHandle) \
-perl(HTML::Stream::Latin1) \
+RPROVIDES:${PN} += "perl-HTML--Stream \
+perl-HTML--Stream--FileHandle \
+perl-HTML--Stream--Latin1 \
 perl-HTML-Stream"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

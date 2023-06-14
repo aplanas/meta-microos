@@ -43,34 +43,34 @@ RPM_NAME = "perl-Test-Magpie-0.11-1.11.noarch.rpm"
 RPM_HASH = "cfe3ae8586decb621a2d6fad787f39f7c0da43c8944e33395d1d9078836b80c877416160fc65e4a72f5d8650a268ecf8498ef2934fe7ebbded2fedb099e00835"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Magpie) \
-perl(Test::Magpie::ArgumentMatcher) \
-perl(Test::Magpie::Inspect) \
-perl(Test::Magpie::Invocation) \
-perl(Test::Magpie::Meta::Class) \
-perl(Test::Magpie::Mock) \
-perl(Test::Magpie::Role::HasMock) \
-perl(Test::Magpie::Role::MethodCall) \
-perl(Test::Magpie::Stub) \
-perl(Test::Magpie::Types) \
-perl(Test::Magpie::Util) \
-perl(Test::Magpie::Verify) \
-perl(Test::Magpie::When) \
+RPROVIDES:${PN} += "perl-Test--Magpie \
+perl-Test--Magpie--ArgumentMatcher \
+perl-Test--Magpie--Inspect \
+perl-Test--Magpie--Invocation \
+perl-Test--Magpie--Meta--Class \
+perl-Test--Magpie--Mock \
+perl-Test--Magpie--Role--HasMock \
+perl-Test--Magpie--Role--MethodCall \
+perl-Test--Magpie--Stub \
+perl-Test--Magpie--Types \
+perl-Test--Magpie--Util \
+perl-Test--Magpie--Verify \
+perl-Test--Magpie--When \
 perl-Test-Magpie"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Devel::PartialDump) \
-perl(Moose) \
-perl(Moose::Meta::Class) \
-perl(Moose::Role) \
-perl(Moose::Util) \
-perl(MooseX::Types) \
-perl(MooseX::Types::Moose) \
-perl(MooseX::Types::Structured) \
-perl(Set::Object) \
-perl(UNIVERSAL::ref) \
-perl(aliased) \
-perl(experimental) \
-perl(namespace::autoclean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Devel--PartialDump \
+perl-Moose \
+perl-Moose--Meta--Class \
+perl-Moose--Role \
+perl-Moose--Util \
+perl-MooseX--Types \
+perl-MooseX--Types--Moose \
+perl-MooseX--Types--Structured \
+perl-Set--Object \
+perl-UNIVERSAL--ref \
+perl-aliased \
+perl-experimental \
+perl-namespace--autoclean"
 
 inherit rpm

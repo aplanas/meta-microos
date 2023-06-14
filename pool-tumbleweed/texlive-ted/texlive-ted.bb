@@ -18,7 +18,7 @@ RPM_NAME = "texlive-ted-2023.201.1.06svn15878-54.1.noarch.rpm"
 RPM_HASH = "0cdf77ebc5778b2716d277c5f954576d1e80c9fff6a7ca721a9bcd7728ef01c4b39ab72b5e24a84f57facc9c2dd5052c1920dbadaec5b5e5dd4cd677598b996a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ted.sty) \
+RPROVIDES:${PN} += "tex-ted.sty \
 texlive-ted"
 
 RDEPENDS:${PN} += "/bin/sh \

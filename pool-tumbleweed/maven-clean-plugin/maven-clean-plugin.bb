@@ -10,12 +10,12 @@ RPM_HASH = "d400727b49b2e9578eaf43ef33625f3387af85fa8f5dcf6b4029e6b33509f96e7b20
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-clean-plugin \
-mvn(org.apache.maven.plugins:maven-clean-plugin) \
-mvn(org.apache.maven.plugins:maven-clean-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-clean-plugin \
+mvn-org.apache.maven.plugins-maven-clean-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven:maven-plugin-api)"
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.shared-maven-shared-utils"
 
 inherit rpm

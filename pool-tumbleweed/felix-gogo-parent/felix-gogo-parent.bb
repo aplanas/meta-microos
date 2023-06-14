@@ -10,10 +10,10 @@ RPM_HASH = "149b755bd07470546284fc1a2f0e9a311f1739005b80d2e46f39f7f80a63388e7811
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-parent \
-mvn(org.apache.felix:gogo-parent:pom:)"
+mvn-org.apache.felix-gogo-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.felix:felix-parent:pom:)"
+mvn-org.apache.felix-felix-parent-pom-"
 
 inherit rpm

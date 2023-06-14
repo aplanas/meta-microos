@@ -11,14 +11,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-CacheControl \
 python3-cachecontrol \
-python3.10dist(cachecontrol) \
+python3.10dist-cachecontrol \
 python310-CacheControl \
 python310-cachecontrol \
-python3dist(cachecontrol)"
+python3dist-cachecontrol"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-msgpack \
 python310-requests \
 update-alternatives"

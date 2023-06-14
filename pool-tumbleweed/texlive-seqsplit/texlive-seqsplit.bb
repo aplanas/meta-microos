@@ -15,7 +15,7 @@ RPM_NAME = "texlive-seqsplit-2023.201.0.0.1svn15878-53.1.noarch.rpm"
 RPM_HASH = "d94191fd9ef84b592fc4dc9bba0cc1e60710d507ccaa3112fecd47c920498871c1ebb62fdef5c51b74040bdba3be853477a4d42c04cd7bd7c7bcba15876d2e90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(seqsplit.sty) \
+RPROVIDES:${PN} += "tex-seqsplit.sty \
 texlive-seqsplit"
 
 RDEPENDS:${PN} += "/bin/sh \

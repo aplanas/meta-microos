@@ -9,11 +9,11 @@ RPM_HASH = "7629c1948de538ab6a1426ef9f62ae9b2a2523f71bf15ddbd8f913ef98e5674ab565
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-profiling \
-python3.10dist(pytest-profiling) \
+python3.10dist-pytest-profiling \
 python310-pytest-profiling \
-python3dist(pytest-profiling)"
+python3dist-pytest-profiling"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-gprof2dot \
 python310-pytest"
 

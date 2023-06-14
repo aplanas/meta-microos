@@ -11,8 +11,8 @@ RPM_HASH = "a8a11d2c193ef9f194e9ffe3c95433d13acbfd98bce219615a2b034a1d123d0c60dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ini4j \
-mvn(org.ini4j:ini4j) \
-mvn(org.ini4j:ini4j:pom:)"
+mvn-org.ini4j-ini4j \
+mvn-org.ini4j-ini4j-pom-"
 
 RDEPENDS:${PN} += "java \
 java-headless \

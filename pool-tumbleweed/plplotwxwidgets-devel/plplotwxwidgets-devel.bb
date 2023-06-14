@@ -11,23 +11,22 @@ PV = "5.15.0"
 RPM_NAME = "plplotwxwidgets-devel-5.15.0-16.2.aarch64.rpm"
 RPM_HASH = "ea5a5f841f8d252b7664d15ca0888a5bf74e39bf3f1589a4e66b53810356efe60fdf0c63a8663b6132c07e8e7919cc828059fba49405a09b5efa66996e0466d3"
 
-RPROVIDES:${PN} += "pkgconfig(plplot-wxwidgets) \
+RPROVIDES:${PN} += "pkgconfig-plplot-wxwidgets \
 plplot-wxwidgets-devel \
-plplotwxwidgets-devel \
-plplotwxwidgets-devel(aarch-64)"
+plplotwxwidgets-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libplplot.so.17()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libplplot.so.17 \
 libplplotwxwidgets1 \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0 \
 pkgconfig \
-pkgconfig(plplot-c++) \
+pkgconfig-plplot-c++ \
 plplot-common \
 plplot-devel \
 wxWidgets-devel"

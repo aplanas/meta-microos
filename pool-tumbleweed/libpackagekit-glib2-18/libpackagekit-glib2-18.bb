@@ -13,14 +13,13 @@ RPM_HASH = "2f33135d1b1be835866fdeec63b558dde0b7b70096034f8bc009a1e1f68b3e2aee21
 
 RPROVIDES:${PN} += "libpackagekit-glib12 \
 libpackagekit-glib2-18 \
-libpackagekit-glib2-18(aarch-64) \
-libpackagekit-glib2.so.18()(64bit)"
+libpackagekit-glib2.so.18"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

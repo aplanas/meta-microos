@@ -42,9 +42,9 @@ RPM_NAME = "perl-Safe-Isa-1.000010-1.17.noarch.rpm"
 RPM_HASH = "5e3213957a08623afee24e3b500a0121506c695566a93f8ae93eccfdc0169b6c293ef1c1ec729114b95656385b3d1f08a9360400a6a7a28ef4e6b666bdb250cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Safe::Isa) \
+RPROVIDES:${PN} += "perl-Safe--Isa \
 perl-Safe-Isa"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

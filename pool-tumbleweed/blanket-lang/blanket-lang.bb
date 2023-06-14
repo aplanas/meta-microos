@@ -10,40 +10,40 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blanket-lang \
 blanket-lang-all \
-locale(blanket:ar) \
-locale(blanket:ca) \
-locale(blanket:cs) \
-locale(blanket:de) \
-locale(blanket:eo) \
-locale(blanket:es) \
-locale(blanket:eu) \
-locale(blanket:fa) \
-locale(blanket:fi) \
-locale(blanket:fr) \
-locale(blanket:ga) \
-locale(blanket:gl) \
-locale(blanket:hi) \
-locale(blanket:hr) \
-locale(blanket:hu) \
-locale(blanket:id) \
-locale(blanket:it) \
-locale(blanket:ja) \
-locale(blanket:ka) \
-locale(blanket:ko) \
-locale(blanket:ne) \
-locale(blanket:nl) \
-locale(blanket:oc) \
-locale(blanket:pl) \
-locale(blanket:pt) \
-locale(blanket:pt_BR) \
-locale(blanket:ru_RU) \
-locale(blanket:sk) \
-locale(blanket:sr) \
-locale(blanket:sv) \
-locale(blanket:ta) \
-locale(blanket:tr) \
-locale(blanket:uk) \
-locale(blanket:zh_CN)"
+locale-blanket-ar \
+locale-blanket-ca \
+locale-blanket-cs \
+locale-blanket-de \
+locale-blanket-eo \
+locale-blanket-es \
+locale-blanket-eu \
+locale-blanket-fa \
+locale-blanket-fi \
+locale-blanket-fr \
+locale-blanket-ga \
+locale-blanket-gl \
+locale-blanket-hi \
+locale-blanket-hr \
+locale-blanket-hu \
+locale-blanket-id \
+locale-blanket-it \
+locale-blanket-ja \
+locale-blanket-ka \
+locale-blanket-ko \
+locale-blanket-ne \
+locale-blanket-nl \
+locale-blanket-oc \
+locale-blanket-pl \
+locale-blanket-pt \
+locale-blanket-pt-BR \
+locale-blanket-ru-RU \
+locale-blanket-sk \
+locale-blanket-sr \
+locale-blanket-sv \
+locale-blanket-ta \
+locale-blanket-tr \
+locale-blanket-uk \
+locale-blanket-zh-CN"
 
 RDEPENDS:${PN} += "blanket"
 

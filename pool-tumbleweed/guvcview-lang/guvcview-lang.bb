@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guvcview-lang \
 guvcview-lang-all \
-locale(guvcview:bg) \
-locale(guvcview:bs) \
-locale(guvcview:cs) \
-locale(guvcview:da) \
-locale(guvcview:de) \
-locale(guvcview:en_AU) \
-locale(guvcview:es) \
-locale(guvcview:eu) \
-locale(guvcview:fr) \
-locale(guvcview:gl) \
-locale(guvcview:he) \
-locale(guvcview:hr) \
-locale(guvcview:it) \
-locale(guvcview:ja) \
-locale(guvcview:lv) \
-locale(guvcview:nl) \
-locale(guvcview:pl) \
-locale(guvcview:pt) \
-locale(guvcview:pt_BR) \
-locale(guvcview:ru) \
-locale(guvcview:si) \
-locale(guvcview:sr) \
-locale(guvcview:tr) \
-locale(guvcview:uk) \
-locale(guvcview:zh_TW)"
+locale-guvcview-bg \
+locale-guvcview-bs \
+locale-guvcview-cs \
+locale-guvcview-da \
+locale-guvcview-de \
+locale-guvcview-en-AU \
+locale-guvcview-es \
+locale-guvcview-eu \
+locale-guvcview-fr \
+locale-guvcview-gl \
+locale-guvcview-he \
+locale-guvcview-hr \
+locale-guvcview-it \
+locale-guvcview-ja \
+locale-guvcview-lv \
+locale-guvcview-nl \
+locale-guvcview-pl \
+locale-guvcview-pt \
+locale-guvcview-pt-BR \
+locale-guvcview-ru \
+locale-guvcview-si \
+locale-guvcview-sr \
+locale-guvcview-tr \
+locale-guvcview-uk \
+locale-guvcview-zh-TW"
 
 RDEPENDS:${PN} += "guvcview"
 

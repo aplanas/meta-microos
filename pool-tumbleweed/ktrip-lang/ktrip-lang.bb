@@ -10,34 +10,34 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktrip-lang \
 ktrip-lang-all \
-locale(ktrip:ca) \
-locale(ktrip:ca@valencia) \
-locale(ktrip:cs) \
-locale(ktrip:de) \
-locale(ktrip:en_GB) \
-locale(ktrip:es) \
-locale(ktrip:et) \
-locale(ktrip:fi) \
-locale(ktrip:fr) \
-locale(ktrip:ia) \
-locale(ktrip:it) \
-locale(ktrip:ja) \
-locale(ktrip:ka) \
-locale(ktrip:ko) \
-locale(ktrip:lt) \
-locale(ktrip:nl) \
-locale(ktrip:nn) \
-locale(ktrip:pl) \
-locale(ktrip:pt) \
-locale(ktrip:pt_BR) \
-locale(ktrip:ru) \
-locale(ktrip:sk) \
-locale(ktrip:sl) \
-locale(ktrip:sv) \
-locale(ktrip:tr) \
-locale(ktrip:uk) \
-locale(ktrip:zh_CN) \
-locale(ktrip:zh_TW)"
+locale-ktrip-ca \
+locale-ktrip-ca@valencia \
+locale-ktrip-cs \
+locale-ktrip-de \
+locale-ktrip-en-GB \
+locale-ktrip-es \
+locale-ktrip-et \
+locale-ktrip-fi \
+locale-ktrip-fr \
+locale-ktrip-ia \
+locale-ktrip-it \
+locale-ktrip-ja \
+locale-ktrip-ka \
+locale-ktrip-ko \
+locale-ktrip-lt \
+locale-ktrip-nl \
+locale-ktrip-nn \
+locale-ktrip-pl \
+locale-ktrip-pt \
+locale-ktrip-pt-BR \
+locale-ktrip-ru \
+locale-ktrip-sk \
+locale-ktrip-sl \
+locale-ktrip-sv \
+locale-ktrip-tr \
+locale-ktrip-uk \
+locale-ktrip-zh-CN \
+locale-ktrip-zh-TW"
 
 RDEPENDS:${PN} += "ktrip"
 

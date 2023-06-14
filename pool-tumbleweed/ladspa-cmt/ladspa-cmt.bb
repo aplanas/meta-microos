@@ -10,13 +10,12 @@ PV = "1.18"
 RPM_NAME = "ladspa-cmt-1.18-1.8.aarch64.rpm"
 RPM_HASH = "94ecfe11f30e42c5084581b1ded9dc48ef80d619268fbd43630cd522819b70abacb3c3b1d78cf22cb058619bf9e560239282bb3bfa20d4801d7d6d6920b0dfe6"
 
-RPROVIDES:${PN} += "ladspa-cmt \
-ladspa-cmt(aarch-64)"
+RPROVIDES:${PN} += "ladspa-cmt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

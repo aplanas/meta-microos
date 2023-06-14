@@ -14,17 +14,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-client \
 jupyter-jupyter-client-doc \
-jupyter-jupyter_client \
-python3.9dist(jupyter-client) \
+python3.9dist-jupyter-client \
 python39-jupyter-client \
-python39-jupyter_client \
-python3dist(jupyter-client)"
+python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "(python39-importlib-metadata >= 4.8.3 if python39-base < 3.10) \
-(python39-jupyter-core >= 5.1 or (python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0)) \
+RDEPENDS:${PN} += "-python39-importlib-metadata >= 4.8.3 if python39-base < 3.10 \
+-python39-jupyter-core >= 5.1 or (python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0) \
 /bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-entrypoints \
 python39-python-dateutil \
 python39-pyzmq \

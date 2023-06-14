@@ -12,8 +12,7 @@ RPM_NAME = "libpipeline-devel-1.5.7-1.2.aarch64.rpm"
 RPM_HASH = "162b93624782dea63e94d7c6619f6dc4f3e54a090a4ef20e6b4522de283b69cfa0f3b358ec801e4f0ff41cd38f0c01e183269f098995ebd339326c9331fab87d"
 
 RPROVIDES:${PN} += "libpipeline-devel \
-libpipeline-devel(aarch-64) \
-pkgconfig(libpipeline)"
+pkgconfig-libpipeline"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpipeline1"

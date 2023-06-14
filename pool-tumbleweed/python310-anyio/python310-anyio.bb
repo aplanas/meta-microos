@@ -10,11 +10,11 @@ RPM_HASH = "df5471ebaf9e78d3d2c3ec0c2ffd3a8125152d87e2a8c6cb4aeec332fdeef6ba47ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-anyio \
-python3.10dist(anyio) \
+python3.10dist-anyio \
 python310-anyio \
-python3dist(anyio)"
+python3dist-anyio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-idna \
 python310-sniffio"
 

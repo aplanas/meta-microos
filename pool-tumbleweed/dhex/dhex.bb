@@ -8,12 +8,11 @@ PV = "0.69"
 RPM_NAME = "dhex-0.69-1.17.aarch64.rpm"
 RPM_HASH = "6cb7b573500e787745ee45b5c813f1dc7886a3b4b7ce0b56c214b904b0811f0e47b795116a4221ab596bb79a2bd06233bdb47a295956106b722507d0f9c3c3eb"
 
-RPROVIDES:${PN} += "dhex \
-dhex(aarch-64)"
+RPROVIDES:${PN} += "dhex"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

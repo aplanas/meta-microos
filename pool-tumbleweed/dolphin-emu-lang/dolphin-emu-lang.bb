@@ -10,34 +10,34 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dolphin-emu-lang \
 dolphin-emu-lang-all \
-locale(dolphin-emu:ar) \
-locale(dolphin-emu:ca) \
-locale(dolphin-emu:cs) \
-locale(dolphin-emu:da) \
-locale(dolphin-emu:de) \
-locale(dolphin-emu:el) \
-locale(dolphin-emu:en) \
-locale(dolphin-emu:es) \
-locale(dolphin-emu:fa) \
-locale(dolphin-emu:fr) \
-locale(dolphin-emu:hr) \
-locale(dolphin-emu:hu) \
-locale(dolphin-emu:it) \
-locale(dolphin-emu:ja) \
-locale(dolphin-emu:ko) \
-locale(dolphin-emu:ms) \
-locale(dolphin-emu:nb) \
-locale(dolphin-emu:nl) \
-locale(dolphin-emu:pl) \
-locale(dolphin-emu:pt) \
-locale(dolphin-emu:pt_BR) \
-locale(dolphin-emu:ro) \
-locale(dolphin-emu:ru) \
-locale(dolphin-emu:sr) \
-locale(dolphin-emu:sv) \
-locale(dolphin-emu:tr) \
-locale(dolphin-emu:zh_CN) \
-locale(dolphin-emu:zh_TW)"
+locale-dolphin-emu-ar \
+locale-dolphin-emu-ca \
+locale-dolphin-emu-cs \
+locale-dolphin-emu-da \
+locale-dolphin-emu-de \
+locale-dolphin-emu-el \
+locale-dolphin-emu-en \
+locale-dolphin-emu-es \
+locale-dolphin-emu-fa \
+locale-dolphin-emu-fr \
+locale-dolphin-emu-hr \
+locale-dolphin-emu-hu \
+locale-dolphin-emu-it \
+locale-dolphin-emu-ja \
+locale-dolphin-emu-ko \
+locale-dolphin-emu-ms \
+locale-dolphin-emu-nb \
+locale-dolphin-emu-nl \
+locale-dolphin-emu-pl \
+locale-dolphin-emu-pt \
+locale-dolphin-emu-pt-BR \
+locale-dolphin-emu-ro \
+locale-dolphin-emu-ru \
+locale-dolphin-emu-sr \
+locale-dolphin-emu-sv \
+locale-dolphin-emu-tr \
+locale-dolphin-emu-zh-CN \
+locale-dolphin-emu-zh-TW"
 
 RDEPENDS:${PN} += "dolphin-emu"
 

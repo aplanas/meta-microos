@@ -11,12 +11,11 @@ PV = "14.2"
 RPM_NAME = "cdecl-14.2-1.1.aarch64.rpm"
 RPM_HASH = "6806e82ee011fc9244ae6152e207d823f89e9f39110366f9766f83c4ee718bf0f49fb11cbcc45cf79633d80f684231c5f4d92f7fa8f047f8573769b324f7dd3d"
 
-RPROVIDES:${PN} += "cdecl \
-cdecl(aarch-64)"
+RPROVIDES:${PN} += "cdecl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8 \
+libtinfo.so.6"
 
 inherit rpm

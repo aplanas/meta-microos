@@ -14,10 +14,10 @@ RPM_HASH = "3ed76b79f0ebe364ce26f29f93cba6bf7225114bf3a278bb2dd13fd1ea60b2646a94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cirq-web \
-python3.10dist(cirq-web) \
+python3.10dist-cirq-web \
 python310-cirq-web \
-python3dist(cirq-web)"
+python3dist-cirq-web"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "62a30adea1a4873eb3fcf2582054ab521dea61e705b347a1b6a1bc0bee6203abd67b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openidc-client \
-python3.10dist(openidc-client) \
+python3.10dist-openidc-client \
 python310-openidc-client \
-python3dist(openidc-client)"
+python3dist-openidc-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

@@ -9,8 +9,8 @@ RPM_HASH = "f685bf092da4ec2ccbce95bd5d1422be2892357d5e871189ef4c9d1ac1ce286edba6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-ro \
-locale(libreoffice:ro) \
-locale(seamonkey-spellchecker:ro) \
+locale-libreoffice-ro \
+locale-seamonkey-spellchecker-ro \
 myspell-dictionary \
 myspell-ro \
 myspell-romanian"

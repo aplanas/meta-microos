@@ -10,15 +10,14 @@ PV = "3.1.6"
 RPM_NAME = "python311-opengl-accelerate-3.1.6-1.9.aarch64.rpm"
 RPM_HASH = "2e74c61a0a2dd5d5017191c6b7a74d46246263445e5c43420d43dd49fb17d0b0d4708f9ec20039a92d293515047e67d570ffd9e0c26170b41a1b0a09b80bde7b"
 
-RPROVIDES:${PN} += "python3.11dist(pyopengl-accelerate) \
-python311-PyOpenGL_accelerate \
+RPROVIDES:${PN} += "python3.11dist-pyopengl-accelerate \
+python311-PyOpenGL-accelerate \
 python311-opengl-accelerate \
-python311-opengl-accelerate(aarch-64) \
-python3dist(pyopengl-accelerate)"
+python3dist-pyopengl-accelerate"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python311-opengl"
 
 inherit rpm

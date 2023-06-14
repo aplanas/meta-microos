@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "python3-cairocffi-pixbuf \
 python310-cairocffi-pixbuf"
 
 RDEPENDS:${PN} += "gdk-pixbuf \
-python(abi) \
+python-abi \
 python310-cairocffi"
 
 inherit rpm

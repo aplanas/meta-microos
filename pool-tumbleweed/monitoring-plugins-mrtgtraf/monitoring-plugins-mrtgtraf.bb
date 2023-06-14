@@ -13,10 +13,9 @@ RPM_NAME = "monitoring-plugins-mrtgtraf-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "3f8c00c5ca8f5e799f205a7bc833fb9c30814653f6a0e03e27cfd10d0eec81f3031ff5b1b3018db9034863a1202a3ad8cc8550a5f5f103061f54ee59ce2c8812"
 
 RPROVIDES:${PN} += "monitoring-plugins-mrtgtraf \
-monitoring-plugins-mrtgtraf(aarch-64) \
 nagios-plugins-mrtgtraf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

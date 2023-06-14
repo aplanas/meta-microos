@@ -11,23 +11,20 @@ PV = "1.0.1"
 RPM_NAME = "fillets-ng-1.0.1-4.18.aarch64.rpm"
 RPM_HASH = "b753dd44c517c111c3d46e0447935554d268a0022fc172300ecfb4b43ff1d5aaf3486f849583634732a739c540d4a901e63a719b4548a7ef80fb3f650e721da0"
 
-RPROVIDES:${PN} += "application() \
-application(fillets-ng.desktop) \
-fillets-ng \
-fillets-ng(aarch-64)"
+RPROVIDES:${PN} += "fillets-ng"
 
 RDEPENDS:${PN} += "fillets-ng-data \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libSDL_ttf-2.0.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfribidi.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.1.so.5()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libSDL-ttf-2.0.so.0 \
+libX11.so.6 \
+libc.so.6 \
+libfribidi.so.0 \
+libgcc-s.so.1 \
+liblua5.1.so.5 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

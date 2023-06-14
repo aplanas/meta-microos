@@ -24,9 +24,7 @@ RPM_NAME = "treeline-3.1.5-1.3.noarch.rpm"
 RPM_HASH = "9c42d759992cc2f1e3141095c356dce24da97b235dc0625b53b7fb485372f25f6c1ffcdda9bb639d29eac1dd27433a0a8572cba80d4bdd2a4257f2353fc91087"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(treeline.desktop) \
-treeline"
+RPROVIDES:${PN} += "treeline"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \

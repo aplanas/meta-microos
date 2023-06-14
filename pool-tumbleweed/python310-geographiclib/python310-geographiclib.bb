@@ -12,10 +12,10 @@ RPM_HASH = "3fb6304c0b523b8bd58eb1c5a960b5329aac4710208a230ecdcfe8e37a39a9b7c206
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geographiclib \
-python3.10dist(geographiclib) \
+python3.10dist-geographiclib \
 python310-geographiclib \
-python3dist(geographiclib)"
+python3dist-geographiclib"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -14,16 +14,15 @@ RPM_NAME = "kernel-default-devel-6.3.4-1.1.aarch64.rpm"
 RPM_HASH = "7b389716a7d58bed515542cf4e65b2bdfad7ebe3c72ecd8ddf8b4c0896a66171e65c800e534860b3adb012405414649839fbbb4795871fa620aa9a178a237252"
 
 RPROVIDES:${PN} += "kernel-default-devel \
-kernel-default-devel(aarch-64) \
-multiversion(kernel)"
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 dwarves \
 kernel-devel \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
+libc.so.6 \
+libcrypto.so.3 \
 libelf-devel \
-libelf.so.1()(64bit)"
+libelf.so.1"
 
 inherit rpm

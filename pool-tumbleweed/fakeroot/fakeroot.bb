@@ -12,12 +12,11 @@ RPM_NAME = "fakeroot-1.29-2.2.aarch64.rpm"
 RPM_HASH = "37c21fdaedcf297e1695813d90c3c296ee78aa32f280b8df5fe619a7a05f1c4e5260c792b9beade225e2c33d13a5f30cd8a7487ace0ca9386bda1dee54f0c5d2"
 
 RPROVIDES:${PN} += "fakeroot \
-fakeroot(aarch-64) \
-libfakeroot-0.so()(64bit)"
+libfakeroot-0.so"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 update-alternatives"
 
 inherit rpm

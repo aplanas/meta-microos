@@ -12,16 +12,15 @@ RPM_HASH = "a46397e8e61d05c01d85fe778ba914269408e1341e895067eae6b926936f200cfb1f
 
 RPROVIDES:${PN} += "caja-dropbox \
 caja-extension-dropbox \
-caja-extension-dropbox(aarch-64) \
-libcaja-dropbox.so()(64bit)"
+libcaja-dropbox.so"
 
 RDEPENDS:${PN} += "caja \
 dropbox \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcaja-extension.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcaja-extension.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

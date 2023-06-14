@@ -10,13 +10,13 @@ RPM_HASH = "d65d66cde2fbe20ffb5ca1fc0295bb56e27b978752d242d0f8a268c4a9747fc75334
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keyring \
-python3.10dist(keyring) \
+python3.10dist-keyring \
 python310-keyring \
-python3dist(keyring)"
+python3dist-keyring"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-SecretStorage \
 python310-importlib-metadata \
 python310-jaraco.classes \

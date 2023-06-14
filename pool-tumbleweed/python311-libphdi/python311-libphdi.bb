@@ -9,17 +9,13 @@ PV = "20221025"
 RPM_NAME = "python311-libphdi-20221025-3.8.aarch64.rpm"
 RPM_HASH = "2b00bb17f2f5eb5f87a9becce72a13fc64e25060a0436af2ecc03f2d369630bf1171bc5bb0d9cef6f9141254a2c23df7f8b52fb671bd1a8c34cab3751053f484"
 
-RPROVIDES:${PN} += "python311-libphdi \
-python311-libphdi(aarch-64)"
+RPROVIDES:${PN} += "python311-libphdi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libphdi.so.1()(64bit) \
-libphdi.so.1(V_20221025)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libphdi.so.1 \
+python-abi"
 
 inherit rpm

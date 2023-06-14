@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-wayland-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6WaylandEglClientHwIntegrationPrivate) \
-cmake(Qt6WaylandEglCompositorHwIntegrationPrivate) \
-cmake(Qt6WlShellIntegrationPrivate) \
+RDEPENDS:${PN} += "cmake-Qt6WaylandEglClientHwIntegrationPrivate \
+cmake-Qt6WaylandEglCompositorHwIntegrationPrivate \
+cmake-Qt6WlShellIntegrationPrivate \
 qt6-waylandclient-private-devel \
 qt6-waylandcompositor-private-devel"
 

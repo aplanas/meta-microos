@@ -10,9 +10,8 @@ PV = "1.3.1"
 RPM_NAME = "radcli-1.3.1-1.3.aarch64.rpm"
 RPM_HASH = "909eb86a3ae600396bfa0cc4e0d36110f724d8b98d7e18ef8efa4d8b633f7d5f3d58455c1ca5b1ec9c7116f8b20b03fca82a272fea1c97e5fcc51f2be36d4fe1"
 
-RPROVIDES:${PN} += "config(radcli) \
-radcli \
-radcli(aarch-64)"
+RPROVIDES:${PN} += "config-radcli \
+radcli"
 
 RDEPENDS:${PN} += ""
 

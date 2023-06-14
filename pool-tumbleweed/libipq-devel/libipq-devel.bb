@@ -14,8 +14,7 @@ RPM_NAME = "libipq-devel-1.8.9-1.3.aarch64.rpm"
 RPM_HASH = "d34825c03f661cfce288f9f93e0b2898457fe02b2b8c75a46dd528fc86531a2ed054fe741e96d541ae56581d02a87739c2bbb9c448737fe540d091fa50f495bc"
 
 RPROVIDES:${PN} += "libipq-devel \
-libipq-devel(aarch-64) \
-pkgconfig(libipq)"
+pkgconfig-libipq"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libipq0"

@@ -21,17 +21,17 @@ RPROVIDES:${PN} += "apache-commons-httpclient \
 commons-httpclient \
 jakarta-commons-httpclient \
 jakarta-commons-httpclient3 \
-mvn(apache:commons-httpclient) \
-mvn(apache:commons-httpclient:pom:) \
-mvn(commons-httpclient:commons-httpclient) \
-mvn(commons-httpclient:commons-httpclient:pom:) \
-osgi(org.apache.commons.httpclient)"
+mvn-apache-commons-httpclient \
+mvn-apache-commons-httpclient-pom- \
+mvn-commons-httpclient-commons-httpclient \
+mvn-commons-httpclient-commons-httpclient-pom- \
+osgi-org.apache.commons.httpclient"
 
 RDEPENDS:${PN} += "commons-codec \
 commons-logging \
 java-headless \
 javapackages-filesystem \
-mvn(commons-codec:commons-codec) \
-mvn(commons-logging:commons-logging)"
+mvn-commons-codec-commons-codec \
+mvn-commons-logging-commons-logging"
 
 inherit rpm

@@ -33,68 +33,57 @@ PV = "0.48.0~rc9"
 RPM_NAME = "openmw-0.48.0~rc9-1.3.aarch64.rpm"
 RPM_HASH = "081b18556a12ee3679c7dfb1a7414d5d8e5d4f8b5204ed3be9120f3e7c3f605ba8bc506cbc9890621b57af525c343c799ab405464e9eaf0ebbb077ba5ddb0e8c"
 
-RPROVIDES:${PN} += "application() \
-application(org.openmw.cs.desktop) \
-application(org.openmw.launcher.desktop) \
-config(openmw) \
-metainfo() \
-metainfo(openmw.appdata.xml) \
-openmw \
-openmw(aarch-64)"
+RPROVIDES:${PN} += "config-openmw \
+openmw"
 
 RDEPENDS:${PN} += "/bin/sh \
 OpenSceneGraph-plugins \
 desktop-file-utils \
-ld-linux-aarch64.so.1()(64bit) \
-libBulletCollision.so.3.17()(64bit) \
-libDebugUtils.so.1()(64bit) \
-libDetour.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libLinearMath.so.3.17()(64bit) \
-libMyGUIEngine.so.3.4.1()(64bit) \
-libOpenThreads.so.21()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5OpenGL.so.5()(64bit) \
-libQt5OpenGL.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libRecast.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libavcodec.so.60()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_iostreams.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libluajit-5.1.so.2()(64bit) \
-liblz4.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopenal.so.1()(64bit) \
-libosg.so.161()(64bit) \
-libosgAnimation.so.161()(64bit) \
-libosgDB.so.161()(64bit) \
-libosgFX.so.161()(64bit) \
-libosgGA.so.161()(64bit) \
-libosgParticle.so.161()(64bit) \
-libosgShadow.so.161()(64bit) \
-libosgText.so.161()(64bit) \
-libosgUtil.so.161()(64bit) \
-libosgViewer.so.161()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libswresample.so.4()(64bit) \
-libswscale.so.7()(64bit) \
-libtinyxml.so.0()(64bit) \
-libunshield.so.0()(64bit) \
-libyaml-cpp.so.0.7()(64bit)"
+ld-linux-aarch64.so.1 \
+libBulletCollision.so.3.17 \
+libDebugUtils.so.1 \
+libDetour.so.1 \
+libGL.so.1 \
+libLinearMath.so.3.17 \
+libMyGUIEngine.so.3.4.1 \
+libOpenThreads.so.21 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5OpenGL.so.5 \
+libQt5Widgets.so.5 \
+libRecast.so.1 \
+libSDL2-2.0.so.0 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
+libboost-filesystem.so.1.82.0 \
+libboost-iostreams.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libluajit-5.1.so.2 \
+liblz4.so.1 \
+libm.so.6 \
+libopenal.so.1 \
+libosg.so.161 \
+libosgAnimation.so.161 \
+libosgDB.so.161 \
+libosgFX.so.161 \
+libosgGA.so.161 \
+libosgParticle.so.161 \
+libosgShadow.so.161 \
+libosgText.so.161 \
+libosgUtil.so.161 \
+libosgViewer.so.161 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libswresample.so.4 \
+libswscale.so.7 \
+libtinyxml.so.0 \
+libunshield.so.0 \
+libyaml-cpp.so.0.7"
 
 inherit rpm

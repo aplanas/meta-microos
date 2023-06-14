@@ -14,24 +14,23 @@ PV = "0.72"
 RPM_NAME = "perl-Crypt-SSLeay-0.72-4.20.aarch64.rpm"
 RPM_HASH = "128a434313b5598cc49d23c71a4418de5e88aff557adea6a7517587f908137a6988f3473361ceccf7f5fcf7156b15b62326cf9f8d066b7d9d3e14459c6f971da"
 
-RPROVIDES:${PN} += "perl(Crypt::SSLeay) \
-perl(Crypt::SSLeay::CTX) \
-perl(Crypt::SSLeay::Conn) \
-perl(Crypt::SSLeay::Err) \
-perl(Crypt::SSLeay::MainContext) \
-perl(Crypt::SSLeay::Version) \
-perl(Crypt::SSLeay::X509) \
-perl(DB) \
-perl(Net::SSL) \
+RPROVIDES:${PN} += "perl-Crypt--SSLeay \
+perl-Crypt--SSLeay--CTX \
+perl-Crypt--SSLeay--Conn \
+perl-Crypt--SSLeay--Err \
+perl-Crypt--SSLeay--MainContext \
+perl-Crypt--SSLeay--Version \
+perl-Crypt--SSLeay--X509 \
 perl-Crypt-SSLeay \
-perl-Crypt-SSLeay(aarch-64)"
+perl-DB \
+perl-Net--SSL"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
 openssl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(LWP::Protocol::https)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-LWP--Protocol--https"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "1f35a0679bb0abe22f1f66a206f8300ed7f4f4d2e76a2176d4cf61c1a06ff74c0ceb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-enxio \
-mvn(com.github.jnr:jnr-enxio) \
-mvn(com.github.jnr:jnr-enxio:pom:) \
-osgi(com.github.jnr.enxio)"
+mvn-com.github.jnr-jnr-enxio \
+mvn-com.github.jnr-jnr-enxio-pom- \
+osgi-com.github.jnr.enxio"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.github.jnr:jnr-constants) \
-mvn(com.github.jnr:jnr-ffi)"
+mvn-com.github.jnr-jnr-constants \
+mvn-com.github.jnr-jnr-ffi"
 
 inherit rpm

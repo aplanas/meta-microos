@@ -9,10 +9,10 @@ RPM_HASH = "9de67f04c86b3b90fe01b52918d4ff115d6a44bd4873250e0dcc11d7f571ee41e12e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonlines \
-python3.10dist(jsonlines) \
+python3.10dist-jsonlines \
 python310-jsonlines \
-python3dist(jsonlines)"
+python3dist-jsonlines"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

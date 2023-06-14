@@ -9,15 +9,14 @@ PV = "1.12.10.0"
 RPM_NAME = "liboslquery1_12-1.12.10.0-2.1.aarch64.rpm"
 RPM_HASH = "f0e819d7d2b3a3617b144fbacfba3257cb7d6c4f3e0488f0a317d45d6f3068d83862a91d1d87e45745c04f89252aabd1d60f02c50e59e7709236dd5be350df2d"
 
-RPROVIDES:${PN} += "liboslquery.so.1.12()(64bit) \
-liboslquery1_12 \
-liboslquery1_12(aarch-64)"
+RPROVIDES:${PN} += "liboslquery.so.1.12 \
+liboslquery1-12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenImageIO_Util.so.2.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenImageIO-Util.so.2.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

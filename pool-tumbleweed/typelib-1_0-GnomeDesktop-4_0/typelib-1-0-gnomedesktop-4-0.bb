@@ -12,16 +12,15 @@ PV = "44.0"
 RPM_NAME = "typelib-1_0-GnomeDesktop-4_0-44.0-1.1.aarch64.rpm"
 RPM_HASH = "70421f8bfa1fa9de2e282a914529a958a31b9224c8f3ec2cc3007af210f00bdc219e1058dd1c798bc764dc44384caddeb76f5e54fde6d3afd10df6b57a826afb"
 
-RPROVIDES:${PN} += "typelib(GnomeDesktop) \
-typelib-1_0-GnomeDesktop-4_0 \
-typelib-1_0-GnomeDesktop-4_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GnomeDesktop-4-0 \
+typelib-GnomeDesktop"
 
-RDEPENDS:${PN} += "libgnome-desktop-4.so.2()(64bit) \
-typelib(GDesktopEnums) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(GdkPixbuf) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libgnome-desktop-4.so.2 \
+typelib-GDesktopEnums \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-GdkPixbuf \
+typelib-Gio"
 
 inherit rpm

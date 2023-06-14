@@ -11,9 +11,8 @@ RPM_HASH = "47114739f96904f4d114eb5ded63c1530760fecfbbc9439e612f3be3d2b021ba5437
 RPROVIDES:${PN} += "jack-audio-connection-kit-devel \
 jack-devel \
 libjack-devel \
-libjack-devel(aarch-64) \
 libjack2-devel \
-pkgconfig(jack)"
+pkgconfig-jack"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjack0 \

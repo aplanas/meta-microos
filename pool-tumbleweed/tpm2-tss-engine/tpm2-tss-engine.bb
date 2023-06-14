@@ -11,15 +11,14 @@ PV = "1.2.0"
 RPM_NAME = "tpm2-tss-engine-1.2.0-2.1.aarch64.rpm"
 RPM_HASH = "b590c334564c3ee59bb9eced5cc751e7b92c0c771b1f48ac80d722c264ef0dc8a4b588be0c9ca86f132eeaee2b289b3a1e4404165d0ad24a44b4e881c7b298ce"
 
-RPROVIDES:${PN} += "libtpm2tss.so()(64bit) \
-tpm2-tss-engine \
-tpm2-tss-engine(aarch-64)"
+RPROVIDES:${PN} += "libtpm2tss.so \
+tpm2-tss-engine"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libtss2-esys.so.0()(64bit) \
-libtss2-mu.so.0()(64bit) \
-libtss2-tctildr.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libtss2-esys.so.0 \
+libtss2-mu.so.0 \
+libtss2-tctildr.so.0"
 
 inherit rpm

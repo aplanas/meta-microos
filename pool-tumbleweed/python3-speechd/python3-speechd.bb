@@ -14,10 +14,9 @@ PV = "0.11.4"
 RPM_NAME = "python3-speechd-0.11.4-1.3.aarch64.rpm"
 RPM_HASH = "6c88e5e0d03b31dca3bb51043bda123924c07bbec72acb4db895e189f09f4c73cc2b87c7d8bf7c09cc0365105adaaf109b4a010a180819df2a42eacbe90082e7"
 
-RPROVIDES:${PN} += "python3-speechd \
-python3-speechd(aarch-64)"
+RPROVIDES:${PN} += "python3-speechd"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 speech-dispatcher"
 
 inherit rpm

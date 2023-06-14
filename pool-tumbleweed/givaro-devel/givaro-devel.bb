@@ -16,8 +16,7 @@ RPM_NAME = "givaro-devel-4.2.0-2.1.aarch64.rpm"
 RPM_HASH = "29be90152b8a4b278fb6283b17b57418b9f8ad459a7a9ca93ff5e98af276c720be02748e7c921a4fc18011229ad19c8b1b94019119308974a0a4c41bfc095a9d"
 
 RPROVIDES:${PN} += "givaro-devel \
-givaro-devel(aarch-64) \
-pkgconfig(givaro)"
+pkgconfig-givaro"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

@@ -7,11 +7,10 @@ PV = "8.0.2"
 RPM_NAME = "qemu-audio-jack-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "e722370420107277119bf26372afe41f1014ca7971167ab34eb26351fcb1662f377bfa16ddbef5744b5612928f57cdf105c483ead7d5b69988b8f8326a537fa9"
 
-RPROVIDES:${PN} += "qemu-audio-jack \
-qemu-audio-jack(aarch-64)"
+RPROVIDES:${PN} += "qemu-audio-jack"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjack.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjack.so.0"
 
 inherit rpm

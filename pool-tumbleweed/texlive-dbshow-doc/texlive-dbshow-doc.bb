@@ -9,7 +9,7 @@ RPM_HASH = "fd5a8f8add24ef3a1caaddd730039b93aa1a3fdeba582d6eddcd16069174a7669089
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \
-locale(texlive-dbshow-doc:zh \
+locale(texlive-dbshow-doc-zh \
 texlive-dbshow-doc"
 
 RDEPENDS:${PN} += ""

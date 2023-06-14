@@ -16,13 +16,13 @@ RPM_HASH = "cf5ea312788f8761b3f7ee4e2e46f2d91a581c0f95db365538a3ba0e84ef0af11b5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-QtPy \
-python3.10dist(qtpy) \
+python3.10dist-qtpy \
 python310-QtPy \
-python3dist(qtpy)"
+python3dist-qtpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-packaging \
 update-alternatives"
 

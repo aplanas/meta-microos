@@ -8,7 +8,7 @@ RPM_NAME = "texlive-collection-pstricks-2023.208.svn65367-58.1.noarch.rpm"
 RPM_HASH = "389271fa7d70a83e4e9c68ef84b27c00e1ce585e5fc853e42264216c36cf36875fe90af46330bd6aa267bfa6f90313469d417439e942142e27c0585591c6c976"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pstricks) \
+RPROVIDES:${PN} += "tex-pstricks \
 texlive-collection-pstricks"
 
 RDEPENDS:${PN} += "texlive-auto-pst-pdf \
@@ -121,7 +121,7 @@ texlive-pst-vowel \
 texlive-pst2pdf \
 texlive-pstricks \
 texlive-pstricks-add \
-texlive-pstricks_calcnotes \
+texlive-pstricks-calcnotes \
 texlive-uml \
 texlive-vaucanson-g \
 texlive-vocaltract"

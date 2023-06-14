@@ -9,11 +9,11 @@ RPM_HASH = "45263e22779668ca0863323861d9a6907e3f05465800e2babaca4e89b2ea6a6365fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-orange-canvas-core \
-python3.10dist(orange-canvas-core) \
+python3.10dist-orange-canvas-core \
 python310-orange-canvas-core \
-python3dist(orange-canvas-core)"
+python3dist-orange-canvas-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-AnyQt \
 python310-CacheControl \
 python310-commonmark \

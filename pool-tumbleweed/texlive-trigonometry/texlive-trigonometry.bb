@@ -11,7 +11,7 @@ RPM_NAME = "texlive-trigonometry-2023.201.svn43006-52.1.noarch.rpm"
 RPM_HASH = "4146c2324c5cf50d1d793f3a32b0be038a2eb27a5df26fcff986de125ac74ca34ca2c16ece6ebded821d6afd8d9231a0e9c46ac2718cb4baece461e9c03be4a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(trigonometry.tex) \
+RPROVIDES:${PN} += "tex-trigonometry.tex \
 texlive-trigonometry"
 
 RDEPENDS:${PN} += "/bin/sh \

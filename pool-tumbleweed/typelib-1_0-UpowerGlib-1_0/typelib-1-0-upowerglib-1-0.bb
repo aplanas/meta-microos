@@ -14,13 +14,12 @@ PV = "1.90.0"
 RPM_NAME = "typelib-1_0-UpowerGlib-1_0-1.90.0-1.4.aarch64.rpm"
 RPM_HASH = "01cf2d40ee2271dd5a368ca2792088543180442b9bcfe6ee7932925f4ce660e05036883be66a111853a345e1a6cdd5bed26daaf41a7a967f4dd83d9b4f5aa9f3"
 
-RPROVIDES:${PN} += "typelib(UPowerGlib) \
-typelib-1_0-UpowerGlib-1_0 \
-typelib-1_0-UpowerGlib-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-UpowerGlib-1-0 \
+typelib-UPowerGlib"
 
-RDEPENDS:${PN} += "libupower-glib.so.3()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libupower-glib.so.3 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

@@ -8,14 +8,12 @@ PV = "5.106.0"
 RPM_NAME = "syntax-highlighting-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "ce08377bb1dc06e6d388ac0f9493291e208653f5a78f64bd07ef4958eac471e1648377fc2ff620ebd661bf9fdfdab9a856d4999c1b4e276c2b0e3bc6da9c0831"
 
-RPROVIDES:${PN} += "syntax-highlighting \
-syntax-highlighting(aarch-64)"
+RPROVIDES:${PN} += "syntax-highlighting"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5SyntaxHighlighting.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5SyntaxHighlighting.so.5 \
+libQt5Core.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

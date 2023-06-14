@@ -10,12 +10,12 @@ RPM_HASH = "9438bb6000e850a6ead31326a54f0644dc52e16e12eb2568a68c4510a0749bc80e10
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jfreechart \
-mvn(org.jfree:jfreechart) \
-mvn(org.jfree:jfreechart:pom:) \
-osgi(org.jfree.jfreechart)"
+mvn-org.jfree-jfreechart \
+mvn-org.jfree-jfreechart-pom- \
+osgi-org.jfree.jfreechart"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.jfree:jcommon)"
+mvn-org.jfree-jcommon"
 
 inherit rpm

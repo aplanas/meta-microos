@@ -9,15 +9,14 @@ PV = "3.0"
 RPM_NAME = "libcxxtools-http10-3.0-4.5.aarch64.rpm"
 RPM_HASH = "f9d7da034a7dbd20b8ce282d5230eeae9aba5baafc360645911913bcb1087570d86ac5a3fdeb9ad32ac3eb3ce78cbf61ec9bf5c7c805e415267a88279fbe5e4f"
 
-RPROVIDES:${PN} += "libcxxtools-http.so.10()(64bit) \
-libcxxtools-http10 \
-libcxxtools-http10(aarch-64)"
+RPROVIDES:${PN} += "libcxxtools-http.so.10 \
+libcxxtools-http10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcxxtools.so.10()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcxxtools.so.10 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

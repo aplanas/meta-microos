@@ -15,14 +15,12 @@ PV = "3.10.0"
 RPM_NAME = "pciutils-3.10.0-1.1.aarch64.rpm"
 RPM_HASH = "2cb3b128bb3c40a4b97368811c8a85d4dba4beec8738e5fdf9de631e45c080e2d85c4c8861f1d20b75c34a2cd8479949c07eaf3d8d4b15eb79ac5bb338843f87"
 
-RPROVIDES:${PN} += "pciutils \
-pciutils(aarch-64)"
+RPROVIDES:${PN} += "pciutils"
 
 RDEPENDS:${PN} += "hwdata \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libkmod.so.2()(64bit) \
-libkmod.so.2(LIBKMOD_5)(64bit) \
-libpci.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libkmod.so.2 \
+libpci.so.3"
 
 inherit rpm

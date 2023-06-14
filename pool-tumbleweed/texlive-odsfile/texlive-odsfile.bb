@@ -12,7 +12,7 @@ RPM_NAME = "texlive-odsfile-2023.201.0.0.7svn65268-54.1.noarch.rpm"
 RPM_HASH = "87a5bffb12cdf099a36316a18c098248a083528756bd09a0732b7fc5d66d2dcdbdff6ea28659c314254e2eda0fd580e28809b9f9e9d9c62f98bec059e3166dd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(odsfile.sty) \
+RPROVIDES:${PN} += "tex-odsfile.sty \
 texlive-odsfile"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(luacode.sty) \
-tex(xkeyval.sty) \
-tex(xparse.sty) \
+tex-luacode.sty \
+tex-xkeyval.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

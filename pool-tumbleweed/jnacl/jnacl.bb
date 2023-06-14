@@ -10,9 +10,9 @@ RPM_HASH = "247f7aaf8d9d50f6faaf08033ff77618a6f88b789477dfe13086d2e6a0d51fa07fba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnacl \
-mvn(eu.neilalexander:jnacl) \
-mvn(eu.neilalexander:jnacl:pom:) \
-osgi(eu.neilalexander.jnacl)"
+mvn-eu.neilalexander-jnacl \
+mvn-eu.neilalexander-jnacl-pom- \
+osgi-eu.neilalexander.jnacl"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

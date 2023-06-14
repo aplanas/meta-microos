@@ -11,9 +11,9 @@ RPM_HASH = "3d1110942b006fa0c5f771bc940cc348b7d4c1425ca2dcd56244c8defa7f648a6fd6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-osgi-resource-locator \
-mvn(org.glassfish.hk2:osgi-resource-locator) \
-mvn(org.glassfish.hk2:osgi-resource-locator:pom:) \
-osgi(org.glassfish.hk2.osgi-resource-locator) \
+mvn-org.glassfish.hk2-osgi-resource-locator \
+mvn-org.glassfish.hk2-osgi-resource-locator-pom- \
+osgi-org.glassfish.hk2.osgi-resource-locator \
 osgi-resource-locator"
 
 RDEPENDS:${PN} += "java-headless \

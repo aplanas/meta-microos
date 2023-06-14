@@ -9,11 +9,11 @@ RPM_HASH = "b059b3bb2c2966d18690965b1727e18efaa309aeb9aba255731cd47ccd8e61e2acdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-subscene-api \
-python3.10dist(subscene-api) \
+python3.10dist-subscene-api \
 python310-subscene-api \
-python3dist(subscene-api)"
+python3dist-subscene-api"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-beautifulsoup4"
 
 inherit rpm

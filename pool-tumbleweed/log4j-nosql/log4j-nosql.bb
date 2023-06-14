@@ -9,13 +9,13 @@ RPM_HASH = "4bffc9feb4943e4b9b171ab41adcb8950a3a92733ee16e38a3ba9fcba765094daa1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-nosql \
-mvn(org.apache.logging.log4j:log4j-couchdb) \
-mvn(org.apache.logging.log4j:log4j-couchdb:pom:) \
-osgi(org.apache.logging.log4j.couchdb)"
+mvn-org.apache.logging.log4j-log4j-couchdb \
+mvn-org.apache.logging.log4j-log4j-couchdb-pom- \
+osgi-org.apache.logging.log4j.couchdb"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.logging.log4j:log4j-core) \
-mvn(org.lightcouch:lightcouch)"
+mvn-org.apache.logging.log4j-log4j-core \
+mvn-org.lightcouch-lightcouch"
 
 inherit rpm

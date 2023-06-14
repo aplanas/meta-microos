@@ -9,13 +9,13 @@ RPM_HASH = "edc6e7f9a2de32e69c25d555e6f829e8380fb07843c12c6f0eaea713381204b9bf3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ase \
-python3.10dist(ase) \
+python3.10dist-ase \
 python310-ase \
-python3dist(ase)"
+python3dist-ase"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-scipy"

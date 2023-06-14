@@ -11,7 +11,7 @@ RPM_HASH = "5c7f6b92d50160d215c03216f4d94a268b58c608e531288eade8de358655202ab0eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-serif-tc-fonts \
-locale(zh_TW) \
+locale-zh-TW \
 noto-serif-tc-fonts \
 scalable-font-zh-TW"
 

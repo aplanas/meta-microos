@@ -11,19 +11,18 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstPlay-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "0b534f6b1e5dc233be1b3ee0a2907ed4c098b4167abdebfc98807b805b1daa1c1a35079183213393c523790127e8cb076acb18af3d5e54c160f733fbd49ea3ae"
 
-RPROVIDES:${PN} += "typelib(GstPlay) \
-typelib-1_0-GstPlay-1_0 \
-typelib-1_0-GstPlay-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstPlay-1-0 \
+typelib-GstPlay"
 
-RDEPENDS:${PN} += "libgstplay-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gst) \
-typelib(GstAudio) \
-typelib(GstBase) \
-typelib(GstPbutils) \
-typelib(GstTag) \
-typelib(GstVideo)"
+RDEPENDS:${PN} += "libgstplay-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gst \
+typelib-GstAudio \
+typelib-GstBase \
+typelib-GstPbutils \
+typelib-GstTag \
+typelib-GstVideo"
 
 inherit rpm

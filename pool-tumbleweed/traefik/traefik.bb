@@ -12,9 +12,8 @@ PV = "2.9.6"
 RPM_NAME = "traefik-2.9.6-1.3.aarch64.rpm"
 RPM_HASH = "fea9c75a10fce6fa080464674824ee96fd053d50bdff8eb14eaa54fdf7c2492ef787d0c2e12e3428ea4a155db4863e4ce0bfd7004a733ddd351c699505a1533e"
 
-RPROVIDES:${PN} += "config(traefik) \
-traefik \
-traefik(aarch-64)"
+RPROVIDES:${PN} += "config-traefik \
+traefik"
 
 RDEPENDS:${PN} += "/bin/sh \
 systemd"

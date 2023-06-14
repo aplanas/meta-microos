@@ -38,23 +38,21 @@ PV = "253.4"
 RPM_NAME = "systemd-experimental-253.4-2.1.aarch64.rpm"
 RPM_HASH = "4491bfb67515268c5873891100b6e2c2c32015a3860baa96bf9166d7e8be4d006d16f2a7471abfe94c61d045194bd6a00d0b91a4184c2a2f584986add09b032f"
 
-RPROVIDES:${PN} += "config(systemd-experimental) \
-systemd-experimental \
-systemd-experimental(aarch-64)"
+RPROVIDES:${PN} += "config-systemd-experimental \
+systemd-experimental"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libfdisk.so.1()(64bit) \
-libm.so.6()(64bit) \
-libp11-kit.so.0()(64bit) \
-libpam.so.0()(64bit) \
-libsystemd-shared-253.so()(64bit) \
-libsystemd-shared-253.so(SD_SHARED)(64bit) \
+ld-linux-aarch64.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libfdisk.so.1 \
+libm.so.6 \
+libp11-kit.so.0 \
+libpam.so.0 \
+libsystemd-shared-253.so \
 python3-pefile \
 systemd"
 

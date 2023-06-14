@@ -27,8 +27,7 @@ PV = "1.13.0"
 RPM_NAME = "QtAV-1.13.0-3.25.aarch64.rpm"
 RPM_HASH = "116d1a5d5938d7a428087d70ebd2e869d14bab54e26fc9dd9614d4ba697e2edcbd2be0bb6ea9c596db9f46393b04c588a590f0a9cd3b0b0444e36fb091891950"
 
-RPROVIDES:${PN} += "QtAV \
-QtAV(aarch-64)"
+RPROVIDES:${PN} += "QtAV"
 
 RDEPENDS:${PN} += "QtAV-players"
 

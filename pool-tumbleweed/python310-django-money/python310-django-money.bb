@@ -9,11 +9,11 @@ RPM_HASH = "efe26f9fb643d9d8a4886939036340f65f7e53fe7af3669e45ba1f0ee7ff7a3ff72b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-money \
-python3.10dist(django-money) \
+python3.10dist-django-money \
 python310-django-money \
-python3dist(django-money)"
+python3dist-django-money"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-py-moneyed \
 python310-setuptools"

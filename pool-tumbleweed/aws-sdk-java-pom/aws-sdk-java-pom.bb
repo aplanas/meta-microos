@@ -9,7 +9,7 @@ RPM_HASH = "62d128fdc3fae9fb66d2819d78f7fb50e267940a10219eba24ad69243a50060437c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-pom \
-mvn(com.amazonaws:aws-java-sdk-pom:pom:)"
+mvn-com.amazonaws-aws-java-sdk-pom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

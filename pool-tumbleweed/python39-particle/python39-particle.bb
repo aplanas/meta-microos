@@ -9,11 +9,11 @@ RPM_NAME = "python39-particle-0.22.0-1.1.noarch.rpm"
 RPM_HASH = "92d34ff4c9446d706ff30edd3debd11ca6b13f9aecfd230ba91d8170034f2b8d44d2746fcc54f270ebd6ea0010d69cd5f852acc1264f3b67031892ae5f66e47c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(particle) \
+RPROVIDES:${PN} += "python3.9dist-particle \
 python39-particle \
-python3dist(particle)"
+python3dist-particle"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-attrs \
 python39-hepunits"
 

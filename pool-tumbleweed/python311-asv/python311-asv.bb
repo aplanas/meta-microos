@@ -13,18 +13,17 @@ PV = "0.5.1"
 RPM_NAME = "python311-asv-0.5.1-1.5.aarch64.rpm"
 RPM_HASH = "0e3191d3a10899cc2f31142d3ecf336b439f0e5d849fb4cafc217aa971d1af01d0c7f3b2bdb364df129c3d0d8fb757698deb63f0182649e5e0be9902e9bfc758"
 
-RPROVIDES:${PN} += "python3.11dist(asv) \
+RPROVIDES:${PN} += "python3.11dist-asv \
 python311-asv \
-python311-asv(aarch-64) \
-python3dist(asv)"
+python3dist-asv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python311-six \
 update-alternatives"
 

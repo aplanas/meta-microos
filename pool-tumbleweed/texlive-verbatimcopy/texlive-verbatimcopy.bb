@@ -12,7 +12,7 @@ RPM_NAME = "texlive-verbatimcopy-2023.201.0.0.06svn15878-53.1.noarch.rpm"
 RPM_HASH = "b3c5c6c622b93bafd3c04a1ac37d6fcf66e6935284cb00aeb817d26e6429d2f19d55b0441daec25ffaaba516b35e9c85301d3488d13f67fc8cc3455181a1a8d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(verbatimcopy.sty) \
+RPROVIDES:${PN} += "tex-verbatimcopy.sty \
 texlive-verbatimcopy"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(verbatim.sty) \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

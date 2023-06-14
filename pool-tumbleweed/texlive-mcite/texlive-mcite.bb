@@ -11,7 +11,7 @@ RPM_NAME = "texlive-mcite-2023.201.1.6svn18173-52.1.noarch.rpm"
 RPM_HASH = "34fdffe9e1beda9656bf207048641f79755ac6b50cd20d8ab6a2b651d78f780fd95b963985088a110c2efa30ecdeaff891c49730d90f78ff071865ba0b3d6232"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mcite.sty) \
+RPROVIDES:${PN} += "tex-mcite.sty \
 texlive-mcite"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -8,16 +8,15 @@ PV = "8.1.19"
 RPM_NAME = "php8-pgsql-8.1.19-2.2.aarch64.rpm"
 RPM_HASH = "4860a8990be69fb754fbd6a38038222e71dce5c843bf3931de2769b4b527a8cce34512c9cdc8bc5d87fa989dd90b7d31c27bcfc9616121a87db48804b8aa24a5"
 
-RPROVIDES:${PN} += "config(php8-pgsql) \
-php-pdo_pgsql \
+RPROVIDES:${PN} += "config-php8-pgsql \
+php-any-db \
+php-pdo-pgsql \
 php-pgsql \
-php8-pgsql \
-php8-pgsql(aarch-64) \
-php_any_db"
+php8-pgsql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpq.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpq.so.5 \
 php \
 php-pdo"
 

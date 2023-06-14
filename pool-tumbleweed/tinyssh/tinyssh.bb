@@ -13,10 +13,9 @@ PV = "20230101"
 RPM_NAME = "tinyssh-20230101-1.2.aarch64.rpm"
 RPM_HASH = "53e179939094be2831b3b0c0cb0b92de903ad871eff23b416f4e798f64c3e92330376160601ba850bbded5774e0836f91dbb45b52c1053f6d58838aed946daf4"
 
-RPROVIDES:${PN} += "tinyssh \
-tinyssh(aarch-64)"
+RPROVIDES:${PN} += "tinyssh"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

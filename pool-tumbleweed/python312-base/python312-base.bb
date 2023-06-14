@@ -15,28 +15,27 @@ PV = "3.12.0b1"
 RPM_NAME = "python312-base-3.12.0b1-1.2.aarch64.rpm"
 RPM_HASH = "64405f400140d0821012fd6b648513656a45febc58ed87999982c2d9f457416e91099da350d4386a3c78bc78307b94f37d74725bb04c070717d0e0267bbe19ab"
 
-RPROVIDES:${PN} += "python(abi) \
+RPROVIDES:${PN} += "python-abi \
 python312-asyncio \
 python312-base \
-python312-base(aarch-64) \
 python312-typing \
 python312-xml"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libexpat.so.1()(64bit) \
-libffi.so.8()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libmpdec.so.3()(64bit) \
-libpython3.12.so.1.0()(64bit) \
-libpython3_12-1_0 \
-libssl.so.3()(64bit) \
-libuuid.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libexpat.so.1 \
+libffi.so.8 \
+liblzma.so.5 \
+libm.so.6 \
+libmpdec.so.3 \
+libpython3-12-1-0 \
+libpython3.12.so.1.0 \
+libssl.so.3 \
+libuuid.so.1 \
+libz.so.1"
 
 inherit rpm

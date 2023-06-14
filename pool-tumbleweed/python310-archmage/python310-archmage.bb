@@ -10,13 +10,13 @@ RPM_HASH = "6543bb0a6bd18db3514e157fc58fc339652cecda7a3b043cb391c663dafe6c2056c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-archmage \
-python3.10dist(archmage) \
+python3.10dist-archmage \
 python310-archmage \
-python3dist(archmage)"
+python3dist-archmage"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-beautifulsoup4 \
 python310-pychm \
 python310-sgmllib3k \

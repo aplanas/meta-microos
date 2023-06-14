@@ -15,16 +15,15 @@ PV = "2.6.1"
 RPM_NAME = "gensio-2.6.1-1.4.aarch64.rpm"
 RPM_HASH = "22af987659467797194af80b2844f0f98b0508819699432a1055925df9ae449a690d83afe3a4d0bca843018fe513932ed04ecc53f5a5dea4516d56e55dd34258"
 
-RPROVIDES:${PN} += "gensio \
-gensio(aarch-64)"
+RPROVIDES:${PN} += "gensio"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgensio.so.4()(64bit) \
-libgensiomdns.so.0()(64bit) \
-libgensioosh.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgensio.so.4 \
+libgensiomdns.so.0 \
+libgensioosh.so.0"
 
 inherit rpm

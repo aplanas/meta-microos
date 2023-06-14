@@ -13,14 +13,14 @@ RPM_HASH = "a3641e12af15caafe21a683031aaf222b6da7af7b3e480dd510a55cd79fcc6107f65
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-glean \
-python3.10dist(glean) \
+python3.10dist-glean \
 python310-glean \
-python3dist(glean)"
+python3dist-glean"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

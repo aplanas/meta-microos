@@ -9,13 +9,12 @@ PV = "8.45"
 RPM_NAME = "pcre-tools-8.45-2.6.aarch64.rpm"
 RPM_HASH = "0df54ef5742e73cbe8bf69ee9bd816173057ee6341e649498cfb7bb22b1d0346e86e404ff0f0b2d2075c2f2b04bce27629648af0a659e4a8f85bf994f06f29d1"
 
-RPROVIDES:${PN} += "pcre-tools \
-pcre-tools(aarch-64)"
+RPROVIDES:${PN} += "pcre-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcre.so.1()(64bit) \
-libpcre16.so.0()(64bit) \
-libpcreposix.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcre.so.1 \
+libpcre16.so.0 \
+libpcreposix.so.0"
 
 inherit rpm

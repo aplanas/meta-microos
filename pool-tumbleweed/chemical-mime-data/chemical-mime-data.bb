@@ -14,11 +14,11 @@ RPM_HASH = "66539772f75548da695bcac01966a81d122b16d2d3e140512a5eb57a16528f662733
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chemical-mime-data \
-pkgconfig(chemical-mime-data)"
+pkgconfig-chemical-mime-data"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 hicolor-icon-theme \
-pkgconfig(shared-mime-info) \
+pkgconfig-shared-mime-info \
 shared-mime-info"
 
 inherit rpm

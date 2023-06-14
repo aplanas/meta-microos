@@ -10,11 +10,11 @@ RPM_NAME = "python311-pyscreenshot-3.0-2.3.noarch.rpm"
 RPM_HASH = "ea3185941909ea7d9f69a9ffd068d1a982ac27abd4753a732efba64c9b8111cf9581daef85cdb71d98b775e5b23bb1533db439532cfe7662b425ac914ce7379c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyscreenshot) \
+RPROVIDES:${PN} += "python3.11dist-pyscreenshot \
 python311-pyscreenshot \
-python3dist(pyscreenshot)"
+python3dist-pyscreenshot"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-EasyProcess \
 python311-entrypoint2 \
 python311-jeepney \

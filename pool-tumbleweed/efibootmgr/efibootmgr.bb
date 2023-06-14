@@ -10,14 +10,12 @@ PV = "18"
 RPM_NAME = "efibootmgr-18-1.2.aarch64.rpm"
 RPM_HASH = "f2a7a5e292cc3edf03ac19c6b690fd8960de182f52eea2b4d0d72b41975055fffe79c51780f7c75851a86b7b9839a83a7b4da6e582b641c766061a18dbd66205"
 
-RPROVIDES:${PN} += "efibootmgr \
-efibootmgr(aarch-64)"
+RPROVIDES:${PN} += "efibootmgr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libefiboot.so.1()(64bit) \
-libefivar.so.1()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libefiboot.so.1 \
+libefivar.so.1 \
+libpopt.so.0"
 
 inherit rpm

@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amsynth-lang \
 amsynth-lang-all \
-locale(amsynth:de) \
-locale(amsynth:fr)"
+locale-amsynth-de \
+locale-amsynth-fr"
 
 RDEPENDS:${PN} += "amsynth"
 

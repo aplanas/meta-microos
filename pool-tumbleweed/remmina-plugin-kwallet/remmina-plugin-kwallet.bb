@@ -7,16 +7,14 @@ PV = "1.4.30"
 RPM_NAME = "remmina-plugin-kwallet-1.4.30-1.1.aarch64.rpm"
 RPM_HASH = "9db5e02df7d18a8530a0719980cd3e82b8090c5ce3ff57f528194a3b04ce2c37fdef732820c8946f5d2bd0470509e81cfb6a2c2056c7be0d5e978250fc8a51f3"
 
-RPROVIDES:${PN} += "remmina-plugin-kwallet \
-remmina-plugin-kwallet(aarch-64)"
+RPROVIDES:${PN} += "remmina-plugin-kwallet"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5Wallet.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5Wallet.so.5 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
 remmina"
 
 inherit rpm

@@ -14,15 +14,14 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstTag-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "3d2dcfda5c736bf58329c9a5c57741ece67ab968f4221c092899bf1f7cae80eceb8df96a8ea9b7ab8980e7102483fa6abca0eddb8e2aa141811fb36fb7952d3f"
 
-RPROVIDES:${PN} += "typelib(GstTag) \
-typelib-1_0-GstTag-1_0 \
-typelib-1_0-GstTag-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstTag-1-0 \
+typelib-GstTag"
 
-RDEPENDS:${PN} += "libgsttag-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gst) \
-typelib(GstBase)"
+RDEPENDS:${PN} += "libgsttag-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gst \
+typelib-GstBase"
 
 inherit rpm

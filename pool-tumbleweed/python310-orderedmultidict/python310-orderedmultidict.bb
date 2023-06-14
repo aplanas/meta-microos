@@ -9,11 +9,11 @@ RPM_HASH = "9e43560179465963d7bec373115ebb3b191a094bfac00b8602b33979a0f323ea0e7c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-orderedmultidict \
-python3.10dist(orderedmultidict) \
+python3.10dist-orderedmultidict \
 python310-orderedmultidict \
-python3dist(orderedmultidict)"
+python3dist-orderedmultidict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

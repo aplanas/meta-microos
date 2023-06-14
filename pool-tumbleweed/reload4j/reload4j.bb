@@ -14,16 +14,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j12 \
 log4j12-mini \
-mvn(ch.qos.reload4j:reload4j) \
-mvn(ch.qos.reload4j:reload4j:pom:) \
-mvn(log4j:log4j) \
-mvn(log4j:log4j:1.2.12) \
-mvn(log4j:log4j:1.2.14) \
-mvn(log4j:log4j:1.2.16) \
-mvn(log4j:log4j:1.2.17) \
-mvn(log4j:log4j:12) \
-mvn(log4j:log4j:pom:) \
-osgi(org.apache.log4j) \
+mvn-ch.qos.reload4j-reload4j \
+mvn-ch.qos.reload4j-reload4j-pom- \
+mvn-log4j-log4j \
+mvn-log4j-log4j-1.2.12 \
+mvn-log4j-log4j-1.2.14 \
+mvn-log4j-log4j-1.2.16 \
+mvn-log4j-log4j-1.2.17 \
+mvn-log4j-log4j-12 \
+mvn-log4j-log4j-pom- \
+osgi-org.apache.log4j \
 reload4j"
 
 RDEPENDS:${PN} += "java-headless \

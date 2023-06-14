@@ -14,14 +14,13 @@ RPM_NAME = "python310-python-prctl-1.8.1-2.4.aarch64.rpm"
 RPM_HASH = "4614dce9e99b2dcf29823612220267d7db0fd84b9a1e54ddd3e55326cc05106c85f5d3eff48f2d32361d816bb7b0d5d485581c6996957ef2f3fa4a16a7fce9b3"
 
 RPROVIDES:${PN} += "python3-python-prctl \
-python3.10dist(python-prctl) \
+python3.10dist-python-prctl \
 python310-python-prctl \
-python310-python-prctl(aarch-64) \
-python3dist(python-prctl)"
+python3dist-python-prctl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+python-abi"
 
 inherit rpm

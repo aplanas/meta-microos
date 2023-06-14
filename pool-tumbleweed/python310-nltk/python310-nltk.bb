@@ -11,13 +11,13 @@ RPM_HASH = "f04934762e1ead113fcb7516d5faf7eb0027e6b6a5d9bdfbb8eebc069197f792204d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nltk \
-python3.10dist(nltk) \
+python3.10dist-nltk \
 python310-nltk \
-python3dist(nltk)"
+python3dist-nltk"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-regex \
 update-alternatives"
 

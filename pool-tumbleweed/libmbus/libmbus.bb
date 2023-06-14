@@ -9,12 +9,11 @@ PV = "0.9.0+59"
 RPM_NAME = "libmbus-0.9.0+59-1.3.aarch64.rpm"
 RPM_HASH = "c92eaaf5d77f20271456ca75c179e21c579dc69c963e683a61ec43934924efaecbc9c68f770fbef10eed95d9e62f643e7f2854cbee79e262cc3d15d118e59884"
 
-RPROVIDES:${PN} += "libmbus \
-libmbus(aarch-64)"
+RPROVIDES:${PN} += "libmbus"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libmbus.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libmbus.so.0"
 
 inherit rpm

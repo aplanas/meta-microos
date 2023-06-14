@@ -9,11 +9,10 @@ PV = "0.7.D001"
 RPM_NAME = "fstrcmp-0.7.D001-1.15.aarch64.rpm"
 RPM_HASH = "3b04cfd29f151daa7175395bc2954ddae0267fb38996a280a70c013ff3d528f2094a4c9d5400f18fc77f94b85841d3e40854891aa18850742cfa1291a0185aea"
 
-RPROVIDES:${PN} += "fstrcmp \
-fstrcmp(aarch-64)"
+RPROVIDES:${PN} += "fstrcmp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfstrcmp.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfstrcmp.so.0"
 
 inherit rpm

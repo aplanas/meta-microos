@@ -12,13 +12,13 @@ RPM_HASH = "449a780f9cde6723eedb70216c2ab189e976963f43cbb1b7491760b3ce5bdce8b0b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jwnl \
-mvn(jwnl:jwnl) \
-mvn(jwnl:jwnl:pom:) \
-mvn(net.sf.jwordnet:jwnl) \
-mvn(net.sf.jwordnet:jwnl:pom:)"
+mvn-jwnl-jwnl \
+mvn-jwnl-jwnl-pom- \
+mvn-net.sf.jwordnet-jwnl \
+mvn-net.sf.jwordnet-jwnl-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-logging:commons-logging)"
+mvn-commons-logging-commons-logging"
 
 inherit rpm

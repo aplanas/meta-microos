@@ -11,15 +11,15 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-Django \
 python3-South \
 python3-django \
-python3.10dist(django) \
+python3.10dist-django \
 python310-Django \
 python310-South \
 python310-django \
-python3dist(django)"
+python3dist-django"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310 \
 python310-Pillow \
 python310-argon2-cffi \

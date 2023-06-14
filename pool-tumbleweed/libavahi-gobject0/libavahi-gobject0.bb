@@ -8,16 +8,15 @@ PV = "0.8"
 RPM_NAME = "libavahi-gobject0-0.8-23.1.aarch64.rpm"
 RPM_HASH = "0f35b596761bf89bc835d43504be31435e12d17bfa9e9606d39d59426834f3f8ad57bf20cfe50d412c7c2856bf9bdf111cdf52cdcd3163ab67fba6169dd4786d"
 
-RPROVIDES:${PN} += "libavahi-gobject.so.0()(64bit) \
-libavahi-gobject0 \
-libavahi-gobject0(aarch-64)"
+RPROVIDES:${PN} += "libavahi-gobject.so.0 \
+libavahi-gobject0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libavahi-glib.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libavahi-glib.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

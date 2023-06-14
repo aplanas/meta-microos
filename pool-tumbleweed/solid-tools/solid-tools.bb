@@ -9,16 +9,13 @@ PV = "5.106.0"
 RPM_NAME = "solid-tools-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "59b47e8eae648cacd02df670ddcc1f13b5fb3dbdc601769a86a6b297959901992437a13aca234eaf7bb0e463ed46743d6d2999e938cd0a0df44fe9718c6da0fe"
 
-RPROVIDES:${PN} += "solid-tools \
-solid-tools(aarch-64)"
+RPROVIDES:${PN} += "solid-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5Solid.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5Solid.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

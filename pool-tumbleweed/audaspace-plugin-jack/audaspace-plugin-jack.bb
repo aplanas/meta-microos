@@ -10,14 +10,13 @@ RPM_HASH = "4db5cd2bba7e52ec0a5996d9fb1ad72cc39ed439d9f2fcb8f9212edbaecd8be7ef36
 
 RPROVIDES:${PN} += "audaspace-deviceplugin \
 audaspace-plugin-jack \
-audaspace-plugin-jack(aarch-64) \
-libaudjack.so()(64bit)"
+libaudjack.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libaudaspace.so.1.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaudaspace.so.1.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -15,13 +15,13 @@ RPM_NAME = "python311-unearth-0.7.0-1.4.noarch.rpm"
 RPM_HASH = "311107b47fb7600da43cd072e8a048b1c1d433bd969ac8358fa1937f96eeb0b15e4ed4df60073d92006c7def7ce9ad08c7c8d1f804792027b647e66fd84ee98a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(unearth) \
+RPROVIDES:${PN} += "python3.11dist-unearth \
 python311-unearth \
-python3dist(unearth)"
+python3dist-unearth"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-packaging \
 python311-requests \
 update-alternatives"

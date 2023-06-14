@@ -8,8 +8,7 @@ PV = "5.0"
 RPM_NAME = "debugedit-5.0-5.3.aarch64.rpm"
 RPM_HASH = "c4938e9a5ded0e4f36caa47f9a7e547d15917f81fb302205f517867d376dc53cd47e39335ad5ffb3ad6c299ab689551dab0f7e8ddc5ec2bf158254b5eaae9fc4"
 
-RPROVIDES:${PN} += "debugedit \
-debugedit(aarch-64)"
+RPROVIDES:${PN} += "debugedit"
 
 RDEPENDS:${PN} += "/bin/bash \
 binutils \
@@ -19,10 +18,10 @@ elfutils \
 findutils \
 gawk \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdw.so.1()(64bit) \
-libelf.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdw.so.1 \
+libelf.so.1 \
 sed \
 xz"
 

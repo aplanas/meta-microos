@@ -14,11 +14,11 @@ RPM_HASH = "cddecd606a79813c168341821fc157aa830cc0e947cef1a1c99659967332feaee3ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyChromecast \
-python3.10dist(pychromecast) \
+python3.10dist-pychromecast \
 python310-PyChromecast \
-python3dist(pychromecast)"
+python3dist-pychromecast"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-casttube \
 python310-protobuf \
 python310-zeroconf"

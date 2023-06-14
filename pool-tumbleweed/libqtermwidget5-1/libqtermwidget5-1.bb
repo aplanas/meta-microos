@@ -15,20 +15,16 @@ RPM_NAME = "libqtermwidget5-1-1.3.0-1.1.aarch64.rpm"
 RPM_HASH = "bcfe3748d5e5206d6659f30cfff9dda48a0195957b31326e17b05a2c4edce19a32e46967a32a29e2b5ede88613ddbdd41a8fe1764d723238e50fcc867bfbf708"
 
 RPROVIDES:${PN} += "libqtermwidget5-1 \
-libqtermwidget5-1(aarch-64) \
-libqtermwidget5.so.1()(64bit)"
+libqtermwidget5.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libutf8proc.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+libutf8proc.so.2 \
 qtermwidget-qt5-data"
 
 inherit rpm

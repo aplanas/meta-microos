@@ -12,10 +12,9 @@ PV = "3.13"
 RPM_NAME = "iperf-devel-3.13-1.2.aarch64.rpm"
 RPM_HASH = "c3ef4ed01d26de17598fb1bf7a2c30efc652e8ce35ac8d70d4c66d17f75906ad25350d0089a328466d4608d96d970e04ee832972d560a5300799b776a13694a9"
 
-RPROVIDES:${PN} += "iperf-devel \
-iperf-devel(aarch-64)"
+RPROVIDES:${PN} += "iperf-devel"
 
 RDEPENDS:${PN} += "libiperf0 \
-pkgconfig(uuid)"
+pkgconfig-uuid"
 
 inherit rpm

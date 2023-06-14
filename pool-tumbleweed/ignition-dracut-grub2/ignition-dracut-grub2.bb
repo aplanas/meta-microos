@@ -9,8 +9,7 @@ PV = "2.15.0"
 RPM_NAME = "ignition-dracut-grub2-2.15.0-2.4.aarch64.rpm"
 RPM_HASH = "149a60b3a64cf4e737149b016c9e75316db0f32fbee69226ba2325f1394b93f8d76e8e318182f778f510598c738116f87910ce1dc7a4e32d1af00b9a02b1203f"
 
-RPROVIDES:${PN} += "ignition-dracut-grub2 \
-ignition-dracut-grub2(aarch-64)"
+RPROVIDES:${PN} += "ignition-dracut-grub2"
 
 RDEPENDS:${PN} += "/bin/sh \
 grub2 \

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-ccaption-2023.201.3.2csvn23443-52.1.noarch.rpm"
 RPM_HASH = "f410580640ec7676532407a26f4e8a0be9996590542f39e42d23071226013d9594c43520122bfaeec2ccd4fa769bf843072dbb8c39c39e2176fa836b2f136045"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ccaption.sty) \
+RPROVIDES:${PN} += "tex-ccaption.sty \
 texlive-ccaption"
 
 RDEPENDS:${PN} += "/bin/sh \

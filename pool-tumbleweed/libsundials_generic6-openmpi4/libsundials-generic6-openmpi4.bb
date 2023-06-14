@@ -10,13 +10,12 @@ PV = "6.3.0"
 RPM_NAME = "libsundials_generic6-openmpi4-6.3.0-2.4.aarch64.rpm"
 RPM_HASH = "d5d14a113d68429a337565a699500c98c98f44d686b9a2ca7c3ea1dd07068f1f219206b617c5f147625f0541e2716325813de2022497bfcbb479b39a1f012898"
 
-RPROVIDES:${PN} += "libsundials_generic.so.6()(64bit) \
-libsundials_generic6-openmpi4 \
-libsundials_generic6-openmpi4(aarch-64)"
+RPROVIDES:${PN} += "libsundials-generic.so.6 \
+libsundials-generic6-openmpi4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

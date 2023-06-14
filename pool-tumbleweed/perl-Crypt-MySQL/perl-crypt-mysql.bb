@@ -9,13 +9,12 @@ PV = "0.04"
 RPM_NAME = "perl-Crypt-MySQL-0.04-1.35.aarch64.rpm"
 RPM_HASH = "7f4fd263ca74c56dd7b8be7b7ba4a62ab6c694d88dfff7e2b74a3118f5efeb25de75defcc1e407a617b9c5676360096d41d173be237c53f7224c657b40ca862e"
 
-RPROVIDES:${PN} += "perl(Crypt::MySQL) \
-perl-Crypt-MySQL \
-perl-Crypt-MySQL(aarch-64)"
+RPROVIDES:${PN} += "perl-Crypt--MySQL \
+perl-Crypt-MySQL"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Digest::SHA1)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Digest--SHA1"
 
 inherit rpm

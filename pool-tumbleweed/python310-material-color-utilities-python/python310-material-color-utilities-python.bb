@@ -9,10 +9,10 @@ RPM_HASH = "3c85e9498e6ea3124750de7f9a1599b6f9d5acf640e5e4aacbb67f6e82c7c226a45d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-material-color-utilities-python \
-python3.10dist(material-color-utilities-python) \
+python3.10dist-material-color-utilities-python \
 python310-material-color-utilities-python \
-python3dist(material-color-utilities-python)"
+python3dist-material-color-utilities-python"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

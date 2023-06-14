@@ -9,11 +9,9 @@ RPM_HASH = "bbf6c3bedfbb1d39bfa1066b797de47677a01043cbd8f690e71f72ce5f149df01875
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-chainsaw \
-application() \
-application(chainsaw.desktop) \
 chainsaw \
-mvn(log4j:apache-chainsaw) \
-mvn(log4j:apache-chainsaw:pom:)"
+mvn-log4j-apache-chainsaw \
+mvn-log4j-apache-chainsaw-pom-"
 
 RDEPENDS:${PN} += "/bin/bash \
 apache-commons-logging \
@@ -24,13 +22,13 @@ javapackages-filesystem \
 javapackages-tools \
 jmdns \
 jsch \
-mvn(com.jcraft:jsch) \
-mvn(com.thoughtworks.xstream:xstream) \
-mvn(commons-logging:commons-logging) \
-mvn(javax.jmdns:jmdns) \
-mvn(log4j:apache-log4j-extras) \
-mvn(log4j:log4j) \
-mvn(org.apache.commons:commons-vfs2) \
+mvn-com.jcraft-jsch \
+mvn-com.thoughtworks.xstream-xstream \
+mvn-commons-logging-commons-logging \
+mvn-javax.jmdns-jmdns \
+mvn-log4j-apache-log4j-extras \
+mvn-log4j-log4j \
+mvn-org.apache.commons-commons-vfs2 \
 reload4j \
 slf4j \
 xpp3 \

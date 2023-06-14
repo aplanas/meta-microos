@@ -11,14 +11,14 @@ RPM_HASH = "f45dfcc8a0982d4d2d7e41d169244cb4739118d28a39a639f0f4317c5dffa33c74da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-deepdiff \
-python3.10dist(deepdiff) \
+python3.10dist-deepdiff \
 python310-deepdiff \
-python3dist(deepdiff)"
+python3dist-deepdiff"
 
-RDEPENDS:${PN} += "(python310-ordered-set >= 4.1.0 with python310-ordered-set < 4.2) \
+RDEPENDS:${PN} += "-python310-ordered-set >= 4.1.0 with python310-ordered-set < 4.2 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -14,20 +14,19 @@ PV = "0.2.3"
 RPM_NAME = "lxappearance-obconf-0.2.3-1.26.aarch64.rpm"
 RPM_HASH = "dbe85cce9b7216126e8936a7226137591ead1e6e12d9cd8128c7ccbb981c658ce01c43b4ac7fb08f38a1e05b1986d3a67095a16ddd0737b1a62b68361b94d0e5"
 
-RPROVIDES:${PN} += "lxappearance-obconf \
-lxappearance-obconf(aarch-64)"
+RPROVIDES:${PN} += "lxappearance-obconf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libobrender.so.32()(64bit) \
-libobt.so.2()(64bit) \
-libxml2.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libobrender.so.32 \
+libobt.so.2 \
+libxml2.so.2 \
 lxappearance \
 openbox"
 

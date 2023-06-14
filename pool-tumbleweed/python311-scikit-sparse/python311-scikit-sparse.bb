@@ -14,15 +14,14 @@ PV = "0.4.5"
 RPM_NAME = "python311-scikit-sparse-0.4.5-1.12.aarch64.rpm"
 RPM_HASH = "097d3334925e927627b19594eed27aba334b4df7f85de7bde9bd4a0c04a36ab625d88d5809821b0ebb14713ba0cba445dde0a869c8223f916de6854dfd601abe"
 
-RPROVIDES:${PN} += "python3.11dist(scikit-sparse) \
+RPROVIDES:${PN} += "python3.11dist-scikit-sparse \
 python311-scikit-sparse \
-python311-scikit-sparse(aarch-64) \
-python3dist(scikit-sparse)"
+python3dist-scikit-sparse"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcholmod.so.3()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcholmod.so.3 \
+python-abi \
 python311-numpy \
 python311-scipy"
 

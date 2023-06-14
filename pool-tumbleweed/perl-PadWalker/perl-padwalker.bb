@@ -16,12 +16,10 @@ PV = "2.5"
 RPM_NAME = "perl-PadWalker-2.5-1.15.aarch64.rpm"
 RPM_HASH = "507c4ec0fe1415b2ea4b433836f31fed4b8715f5f99a1b2836992cbb9fff085540752f4ec3ae3d7328c15bc0f089abf7147c3d19d22a6212bc7ff8f05b511822"
 
-RPROVIDES:${PN} += "perl(PadWalker) \
-perl-PadWalker \
-perl-PadWalker(aarch-64)"
+RPROVIDES:${PN} += "perl-PadWalker"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

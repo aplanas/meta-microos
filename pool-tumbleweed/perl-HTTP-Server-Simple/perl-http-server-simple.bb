@@ -31,13 +31,13 @@ RPM_NAME = "perl-HTTP-Server-Simple-0.52-1.23.noarch.rpm"
 RPM_HASH = "6330a0fd9bbabb5cbb26adee5322bfbc2772ad897fda64c707df595d43aee3ba63b474bbb9b99230edb15c48b70a286841294da2fe741735558414c8cdd13947"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Server::Simple) \
-perl(HTTP::Server::Simple::CGI) \
-perl(HTTP::Server::Simple::CGI::Environment) \
+RPROVIDES:${PN} += "perl-HTTP--Server--Simple \
+perl-HTTP--Server--Simple--CGI \
+perl-HTTP--Server--Simple--CGI--Environment \
 perl-HTTP-Server-Simple"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(CGI) \
-perl(Socket)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-CGI \
+perl-Socket"
 
 inherit rpm

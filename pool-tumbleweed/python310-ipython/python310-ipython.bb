@@ -36,31 +36,29 @@ RPM_HASH = "a9e5dc392f7295ed5c5520b080b6bb0a1e2c2fb1e8cd6fc06509018d89819e5d85a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "IPython3 \
-application() \
-application(ipython-3.10.desktop) \
 jupyter-ipython \
 python3-IPython \
 python3-ipython \
 python3-ipython-doc \
-python3-jupyter_ipython \
-python3-jupyter_ipython-doc \
-python3-jupyter_ipython-doc-html \
-python3-jupyter_ipython-doc-pdf \
-python3.10dist(ipython) \
+python3-jupyter-ipython \
+python3-jupyter-ipython-doc \
+python3-jupyter-ipython-doc-html \
+python3-jupyter-ipython-doc-pdf \
+python3.10dist-ipython \
 python310-IPython \
 python310-ipython \
 python310-ipython-doc \
-python310-jupyter_ipython \
-python310-jupyter_ipython-doc \
-python310-jupyter_ipython-doc-html \
-python310-jupyter_ipython-doc-pdf \
-python3dist(ipython)"
+python310-jupyter-ipython \
+python310-jupyter-ipython-doc \
+python310-jupyter-ipython-doc-html \
+python310-jupyter-ipython-doc-pdf \
+python3dist-ipython"
 
-RDEPENDS:${PN} += "(python310-prompt_toolkit >= 3.0.38 with python310-prompt_toolkit < 3.1) \
+RDEPENDS:${PN} += "-python310-prompt-toolkit >= 3.0.38 with python310-prompt-toolkit < 3.1 \
 /bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310 \
 python310-backcall \
 python310-decorator \

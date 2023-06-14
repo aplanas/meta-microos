@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mailgraph-apache"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-apache2-mod_perl \
+apache2-mod-perl \
 mailgraph"
 
 inherit rpm

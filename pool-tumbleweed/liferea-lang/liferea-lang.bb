@@ -10,44 +10,44 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liferea-lang \
 liferea-lang-all \
-locale(liferea:ar) \
-locale(liferea:ast) \
-locale(liferea:be@latin) \
-locale(liferea:bg) \
-locale(liferea:ca) \
-locale(liferea:cs) \
-locale(liferea:da) \
-locale(liferea:de) \
-locale(liferea:el) \
-locale(liferea:en_GB) \
-locale(liferea:es) \
-locale(liferea:eu) \
-locale(liferea:fi) \
-locale(liferea:fr) \
-locale(liferea:gl) \
-locale(liferea:he) \
-locale(liferea:hu) \
-locale(liferea:id) \
-locale(liferea:it) \
-locale(liferea:ja) \
-locale(liferea:ko) \
-locale(liferea:lt) \
-locale(liferea:lv) \
-locale(liferea:mk) \
-locale(liferea:nl) \
-locale(liferea:pl) \
-locale(liferea:pt) \
-locale(liferea:pt_BR) \
-locale(liferea:ro) \
-locale(liferea:ru) \
-locale(liferea:sk) \
-locale(liferea:sq) \
-locale(liferea:sv) \
-locale(liferea:tr) \
-locale(liferea:uk) \
-locale(liferea:vi) \
-locale(liferea:zh_CN) \
-locale(liferea:zh_TW)"
+locale-liferea-ar \
+locale-liferea-ast \
+locale-liferea-be@latin \
+locale-liferea-bg \
+locale-liferea-ca \
+locale-liferea-cs \
+locale-liferea-da \
+locale-liferea-de \
+locale-liferea-el \
+locale-liferea-en-GB \
+locale-liferea-es \
+locale-liferea-eu \
+locale-liferea-fi \
+locale-liferea-fr \
+locale-liferea-gl \
+locale-liferea-he \
+locale-liferea-hu \
+locale-liferea-id \
+locale-liferea-it \
+locale-liferea-ja \
+locale-liferea-ko \
+locale-liferea-lt \
+locale-liferea-lv \
+locale-liferea-mk \
+locale-liferea-nl \
+locale-liferea-pl \
+locale-liferea-pt \
+locale-liferea-pt-BR \
+locale-liferea-ro \
+locale-liferea-ru \
+locale-liferea-sk \
+locale-liferea-sq \
+locale-liferea-sv \
+locale-liferea-tr \
+locale-liferea-uk \
+locale-liferea-vi \
+locale-liferea-zh-CN \
+locale-liferea-zh-TW"
 
 RDEPENDS:${PN} += "liferea"
 

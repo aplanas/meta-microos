@@ -13,11 +13,10 @@ PV = "1.19"
 RPM_NAME = "ed-1.19-1.3.aarch64.rpm"
 RPM_HASH = "9fda36f95d396cf076b24387593fb85d9451efbc47f61538cedbe07d76b3683e0038845f6118cebc6dd2cf6a0e79859191095e2204ac849e411a9a52b2393361"
 
-RPROVIDES:${PN} += "ed \
-ed(aarch-64)"
+RPROVIDES:${PN} += "ed"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

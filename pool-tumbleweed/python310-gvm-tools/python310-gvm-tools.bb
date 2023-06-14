@@ -18,13 +18,13 @@ RPM_HASH = "0ee2f9ed5f177157c796a357f5c4e0eba981d2ebb592e1b870b2e1cf852548b30a37
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gvm-tools \
-python3.10dist(gvm-tools) \
+python3.10dist-gvm-tools \
 python310-gvm-tools \
-python3dist(gvm-tools)"
+python3dist-gvm-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-python-gvm \
 update-alternatives"
 

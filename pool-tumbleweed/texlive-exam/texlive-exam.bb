@@ -29,7 +29,7 @@ RPM_NAME = "texlive-exam-2023.201.2.7svn64134-52.1.noarch.rpm"
 RPM_HASH = "6bd856eb1b48ed4ecb5859a27fdf60e5d113b19f4f83d75e4adeaba78ba4a87beca9b4874656036b0a8741e7a1740df237f84292f006810f4cb29eda4cb31b15"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exam.cls) \
+RPROVIDES:${PN} += "tex-exam.cls \
 texlive-exam"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -38,9 +38,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(color.sty) \
-tex(ifthen.sty) \
+tex-article.cls \
+tex-color.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

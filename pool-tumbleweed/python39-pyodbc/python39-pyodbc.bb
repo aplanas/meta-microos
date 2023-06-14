@@ -12,17 +12,16 @@ PV = "4.0.39"
 RPM_NAME = "python39-pyodbc-4.0.39-1.1.aarch64.rpm"
 RPM_HASH = "3e37022000bb64bd158d888a9bdfeb70a62be089810c66a49ada97c1f489dd28b79918384bf1aae39bf2ddf1ed002fa0504558f5eea246414ba932f6740ee502"
 
-RPROVIDES:${PN} += "python3.9dist(pyodbc) \
+RPROVIDES:${PN} += "python3.9dist-pyodbc \
 python39-pyodbc \
-python39-pyodbc(aarch-64) \
-python3dist(pyodbc)"
+python3dist-pyodbc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libodbc.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libodbc.so.2 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

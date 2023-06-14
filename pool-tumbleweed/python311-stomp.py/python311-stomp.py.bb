@@ -8,15 +8,15 @@ RPM_NAME = "python311-stomp.py-8.1.0-1.3.noarch.rpm"
 RPM_HASH = "425fe35d1c89107f639e0bc6cd4b955850f3917a6661313cdfcc11a9012743da54b38ce26e0220f987bd6c6e33b39515b05925e42302977ecffb5988e14bf2cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(stomp-py) \
+RPROVIDES:${PN} += "python3.11dist-stomp-py \
 python311-stomp.py \
-python3dist(stomp-py)"
+python3dist-stomp-py"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
-python3.11dist(docopt) \
-python3.11dist(websocket-client) \
+python-abi \
+python3.11dist-docopt \
+python3.11dist-websocket-client \
 update-alternatives"
 
 inherit rpm

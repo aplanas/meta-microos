@@ -11,7 +11,7 @@ RPM_HASH = "5657c008a46cabb79e7c55cf6636cc05a525396afbc493afecd3acb4c2ab10b3ced9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arphic-gkai00mp-fonts \
-config(arphic-gkai00mp-fonts) \
+config-arphic-gkai00mp-fonts \
 ttf-arphic-gkai00mp"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -9,13 +9,13 @@ RPM_HASH = "e18023bce56f9ebb16357429cf8edd5aaf120f25324fae4942b18830765bd135a67d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-svglib \
-python3.10dist(svglib) \
+python3.10dist-svglib \
 python310-svglib \
-python3dist(svglib)"
+python3dist-svglib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cssselect2 \
 python310-lxml \
 python310-reportlab \

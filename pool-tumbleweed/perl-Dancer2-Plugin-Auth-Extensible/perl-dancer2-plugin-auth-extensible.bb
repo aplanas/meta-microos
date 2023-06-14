@@ -20,33 +20,33 @@ RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-0.710-1.9.noarch.rpm"
 RPM_HASH = "15c502c53fec61e489f17bc5dede22876d0ef2c1e4fadc202eb4f81140b91c2cfddb76cb491dd61617182e7b880ee518e598c78f9f1c085cf12910dc49b08caa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Dancer2::Plugin::Auth::Extensible) \
-perl(Dancer2::Plugin::Auth::Extensible::Provider::Config) \
-perl(Dancer2::Plugin::Auth::Extensible::Provider::Example) \
-perl(Dancer2::Plugin::Auth::Extensible::Provider::Unix) \
-perl(Dancer2::Plugin::Auth::Extensible::Role::Provider) \
-perl(Dancer2::Plugin::Auth::Extensible::Test) \
-perl(Dancer2::Plugin::Auth::Extensible::Test::App) \
+RPROVIDES:${PN} += "perl-Dancer2--Plugin--Auth--Extensible \
+perl-Dancer2--Plugin--Auth--Extensible--Provider--Config \
+perl-Dancer2--Plugin--Auth--Extensible--Provider--Example \
+perl-Dancer2--Plugin--Auth--Extensible--Provider--Unix \
+perl-Dancer2--Plugin--Auth--Extensible--Role--Provider \
+perl-Dancer2--Plugin--Auth--Extensible--Test \
+perl-Dancer2--Plugin--Auth--Extensible--Test--App \
 perl-Dancer2-Plugin-Auth-Extensible"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Crypt::SaltedHash) \
-perl(Dancer2) \
-perl(Dancer2::Core::Types) \
-perl(Dancer2::FileUtils) \
-perl(Dancer2::Plugin) \
-perl(Dancer2::Template::Tiny) \
-perl(File::Share) \
-perl(HTTP::BrowserDetect) \
-perl(Module::Runtime) \
-perl(Moo) \
-perl(Moo::Role) \
-perl(Plack) \
-perl(Session::Token) \
-perl(Try::Tiny) \
-perl(URI::Escape) \
-perl(YAML) \
-perl(namespace::clean)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Crypt--SaltedHash \
+perl-Dancer2 \
+perl-Dancer2--Core--Types \
+perl-Dancer2--FileUtils \
+perl-Dancer2--Plugin \
+perl-Dancer2--Template--Tiny \
+perl-File--Share \
+perl-HTTP--BrowserDetect \
+perl-Module--Runtime \
+perl-Moo \
+perl-Moo--Role \
+perl-Plack \
+perl-Session--Token \
+perl-Try--Tiny \
+perl-URI--Escape \
+perl-YAML \
+perl-namespace--clean"
 
 inherit rpm

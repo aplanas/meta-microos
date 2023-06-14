@@ -10,14 +10,13 @@ PV = "2.0.7"
 RPM_NAME = "python311-pyscard-2.0.7-1.1.aarch64.rpm"
 RPM_HASH = "5f3e968fa815b7661e641c7f4d3dfc5f94a1bbf1dfb9bc36f5e93ac37eb4745a7b7841ad5c1a0fdfef64e29f91b1ee8081809fd6ad8ba07147896fd23e6ed504"
 
-RPROVIDES:${PN} += "python3.11dist(pyscard) \
+RPROVIDES:${PN} += "python3.11dist-pyscard \
 python311-pyscard \
-python311-pyscard(aarch-64) \
-python3dist(pyscard)"
+python3dist-pyscard"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 pcsc-ccid \
-python(abi)"
+python-abi"
 
 inherit rpm

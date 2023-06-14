@@ -29,11 +29,11 @@ RPM_NAME = "perl-Module-Signature-0.88-1.7.noarch.rpm"
 RPM_HASH = "e943c0f17b37c278fc232f9ec0a00480c4d461766e5dfe227bc028af024245710c12b2220ef1c3af5c9907c8bdb2d0eb9346658a15362e5b517842b5e8fa7f37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Signature) \
+RPROVIDES:${PN} += "perl-Module--Signature \
 perl-Module-Signature"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 gpg \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "c55b6b4a73bbc4a62bfb9ab89921b26595490f682bf423d530c2a61433b93b8f337f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dotmap \
-python3.10dist(dotmap) \
+python3.10dist-dotmap \
 python310-dotmap \
-python3dist(dotmap)"
+python3dist-dotmap"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

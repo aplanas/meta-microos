@@ -39,23 +39,22 @@ PV = "3.78"
 RPM_NAME = "pstoedit-3.78-2.5.aarch64.rpm"
 RPM_HASH = "df073909d82dd0776f9a9aac14c402c9918e6b98a4c2034af08d75e6ce5ca7d79b540a49a25bbe99df6ebf9205a5c9a82d0dadc270d0887ebb6981d504e067d3"
 
-RPROVIDES:${PN} += "libp2edrvlplot.so()(64bit) \
-libp2edrvpptx.so()(64bit) \
-libp2edrvstd.so()(64bit) \
-libp2edrvwmf.so()(64bit) \
-libpstoedit.so.0()(64bit) \
-pstoedit \
-pstoedit(aarch-64)"
+RPROVIDES:${PN} += "libp2edrvlplot.so \
+libp2edrvpptx.so \
+libp2edrvstd.so \
+libp2edrvwmf.so \
+libpstoedit.so.0 \
+pstoedit"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ghostscript \
-ld-linux-aarch64.so.1()(64bit) \
-libEMF.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libplotter.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libzip.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libEMF.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libplotter.so.2 \
+libstdc++.so.6 \
+libzip.so.5"
 
 inherit rpm

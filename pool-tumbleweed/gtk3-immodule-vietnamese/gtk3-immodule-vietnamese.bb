@@ -12,14 +12,13 @@ RPM_NAME = "gtk3-immodule-vietnamese-3.24.38-1.1.aarch64.rpm"
 RPM_HASH = "324449988624b8a6daf6ed66b79bc0f186b170e6fcf4ce9d12412d4a17127a11ca97b8626335e56a5c0665cf64934ecec0c9631a4419a138e87e5554b16588c2"
 
 RPROVIDES:${PN} += "gtk3-immodule-vietnamese \
-gtk3-immodule-vietnamese(aarch-64) \
-locale(gtk3:vi)"
+locale-gtk3-vi"
 
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

@@ -14,10 +14,10 @@ RPM_HASH = "dd864be8b1ab6758fef81fa2d7b50ab2f1ad2f186ad679b882d50a09beebbe999be7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-portalocker \
-python3.10dist(portalocker) \
+python3.10dist-portalocker \
 python310-portalocker \
-python3dist(portalocker)"
+python3dist-portalocker"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

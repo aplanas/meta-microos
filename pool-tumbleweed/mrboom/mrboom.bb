@@ -8,17 +8,14 @@ PV = "4.9"
 RPM_NAME = "mrboom-4.9-1.15.aarch64.rpm"
 RPM_HASH = "54660543dded1f30b068393c8abd714de404896c4edd19fda08722a6b762cbf42347ec952249a4d56ff28f162262c66138d3938fa77838bdaa8df20aca25f304"
 
-RPROVIDES:${PN} += "application() \
-application(mrboom.desktop) \
-mrboom \
-mrboom(aarch-64)"
+RPROVIDES:${PN} += "mrboom"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libminizip.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libminizip.so.1 \
+libstdc++.so.6"
 
 inherit rpm

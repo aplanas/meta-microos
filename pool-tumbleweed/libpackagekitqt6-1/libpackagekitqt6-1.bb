@@ -12,17 +12,14 @@ RPM_NAME = "libpackagekitqt6-1-1.1.1-1.1.aarch64.rpm"
 RPM_HASH = "e28a7fcc4d7e8c44d296ed07c2b5c12ea3a1b4b7c20e8d03fdb71a67b5391d70888a34bd7a804e20f0dbd08c14d7934d83660158350c5df1c9b3f4ba80365b50"
 
 RPROVIDES:${PN} += "libpackagekitqt6-1 \
-libpackagekitqt6-1(aarch-64) \
-libpackagekitqt6.so.1()(64bit)"
+libpackagekitqt6.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6DBus.so.6()(64bit) \
-libQt6DBus.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

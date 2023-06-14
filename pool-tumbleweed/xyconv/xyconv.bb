@@ -27,13 +27,12 @@ PV = "1.6"
 RPM_NAME = "xyconv-1.6-1.15.aarch64.rpm"
 RPM_HASH = "9ddb2169c6cb257c8f7fc524905522d65a8e8f7dc056a0fbb3767eb62e1a6061f8895dd767303db907f47386ba9ec236ac4106cadf8aa0387ee2cb197e260607"
 
-RPROVIDES:${PN} += "xyconv \
-xyconv(aarch-64)"
+RPROVIDES:${PN} += "xyconv"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxy.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxy.so.3"
 
 inherit rpm

@@ -10,14 +10,13 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_cpp_1_12_2-gnu-mpich-hpc-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "3bed00482f27f237d87d5900f72675202e9562d7ec3661f772eff8a8911c328b29bc0383280eb2d9063883f0eed43052dd25452a3dde34bcdca1ef94a2eddefc"
 
-RPROVIDES:${PN} += "libhdf5_cpp_1_12_2-gnu-mpich-hpc \
-libhdf5_cpp_1_12_2-gnu-mpich-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-cpp-1-12-2-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-hdf5_1_12_2-gnu-mpich-hpc-module \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+hdf5-1-12-2-gnu-mpich-hpc-module \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

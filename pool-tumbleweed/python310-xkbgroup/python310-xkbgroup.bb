@@ -9,13 +9,13 @@ RPM_HASH = "bca882357eda3296bc1699b859ad7ff5800174f52056add04ebe3bd2cd56c14cf55a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xkbgroup \
-python3.10dist(xkbgroup) \
+python3.10dist-xkbgroup \
 python310-xkbgroup \
-python3dist(xkbgroup)"
+python3dist-xkbgroup"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives \
 xorg-x11-server"
 

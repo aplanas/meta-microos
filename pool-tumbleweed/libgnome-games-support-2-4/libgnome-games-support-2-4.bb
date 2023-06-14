@@ -11,16 +11,15 @@ RPM_HASH = "85a152588f9d921530e97c443a473dd06a3a87076763ba08f07df9296d1b49a98151
 
 RPROVIDES:${PN} += "libgnome-games-support \
 libgnome-games-support-2-4 \
-libgnome-games-support-2-4(aarch-64) \
-libgnome-games-support-2.so.4()(64bit)"
+libgnome-games-support-2.so.4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1"
 
 inherit rpm

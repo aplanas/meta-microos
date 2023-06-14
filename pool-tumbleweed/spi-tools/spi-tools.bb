@@ -8,11 +8,10 @@ PV = "1.0.2"
 RPM_NAME = "spi-tools-1.0.2-1.2.aarch64.rpm"
 RPM_HASH = "8b33eac1a682d2f6ee84511e4371dee13184e697baaa83dbca2203ceee8e1c11f2ca8f2b41b585768ce39ff0c6fa274ec20cd5d964f27686908dba44077eaa80"
 
-RPROVIDES:${PN} += "spi-tools \
-spi-tools(aarch-64)"
+RPROVIDES:${PN} += "spi-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 udev"
 
 inherit rpm

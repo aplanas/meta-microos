@@ -11,11 +11,10 @@ RPM_NAME = "xautolock-2.2-2.22.aarch64.rpm"
 RPM_HASH = "6a385306d4008ad9ce206f19b67b6d5bae97c27c27799de5f69ef224a5bb1caad0f0712771dd96b3b71af9bbe618f85e9361e958acd7918058180320a2d4b757"
 
 RPROVIDES:${PN} += "xautolck \
-xautolock \
-xautolock(aarch-64)"
+xautolock"
 
-RDEPENDS:${PN} += "libX11.so.6()(64bit) \
-libXss.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libX11.so.6 \
+libXss.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -17,9 +17,8 @@ PV = "7.3"
 RPM_NAME = "smartmontools-7.3-3.3.aarch64.rpm"
 RPM_HASH = "d4a1e63e192c1bd2a1c7fcc539396775ac9eaeb2c584c7e46cc393e1b8be0e5f9487028389237fca341f24f42944c47f26524ccbc6779437f72659099029fdb9"
 
-RPROVIDES:${PN} += "config(smartmontools) \
-smartmontools \
-smartmontools(aarch-64)"
+RPROVIDES:${PN} += "config-smartmontools \
+smartmontools"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -27,14 +26,13 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/touch \
 coreutils \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap-ng.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libselinux.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap-ng.so.0 \
+libgcc-s.so.1 \
+libselinux.so.1 \
+libstdc++.so.6 \
+libsystemd.so.0 \
 systemd"
 
 inherit rpm

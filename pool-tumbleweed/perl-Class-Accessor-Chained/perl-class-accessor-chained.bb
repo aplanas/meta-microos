@@ -17,12 +17,11 @@ RPM_HASH = "0da020b624e557d4e6a1cd685dd21fdc5ad60b5f4e723f3f8b07fa327025ba2e100a
 
 RPROVIDES:${PN} += "Class-Accessor-Chained \
 Class-Accessor-Chained-Fast \
-perl(Class::Accessor::Chained) \
-perl(Class::Accessor::Chained::Fast) \
-perl-Class-Accessor-Chained \
-perl-Class-Accessor-Chained(aarch-64)"
+perl-Class--Accessor--Chained \
+perl-Class--Accessor--Chained--Fast \
+perl-Class-Accessor-Chained"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Accessor)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Accessor"
 
 inherit rpm

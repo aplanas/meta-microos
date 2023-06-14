@@ -11,13 +11,13 @@ RPM_HASH = "c7b224c9cc1ee1b973321c31fb1ba87e8d488cb99755b44aa29e7169927fc87fffe0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-morecvutils \
-python3.10dist(morecvutils) \
-python3dist(morecvutils)"
+python3.10dist-morecvutils \
+python3dist-morecvutils"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
 gstreamer-plugins-good \
-python(abi) \
+python-abi \
 python3-imageio \
 python3-imageio-ffmpeg \
 python3-numpy \

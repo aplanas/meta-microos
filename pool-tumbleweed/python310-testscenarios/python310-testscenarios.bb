@@ -13,11 +13,11 @@ RPM_HASH = "7255e05b6d47c02463984d0d08ffdafb55a0c50bc294cac2de2e6e8e3a49524f8e9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-testscenarios \
-python3.10dist(testscenarios) \
+python3.10dist-testscenarios \
 python310-testscenarios \
-python3dist(testscenarios)"
+python3dist-testscenarios"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pbr \
 python310-testtools"
 

@@ -11,18 +11,17 @@ PV = "1.12.2"
 RPM_NAME = "hdf5-mvapich2-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "e323cb1b1cba8ee58d88d77ab8de287dbd0d3c57f56d970e4165fb3ca8a32399e8bd7780da74e7e8dac2a4f06028f505e918a59b356bf34106baa1c27f0ffe7a"
 
-RPROVIDES:${PN} += "hdf5-mvapich2 \
-hdf5-mvapich2(aarch-64)"
+RPROVIDES:${PN} += "hdf5-mvapich2"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libhdf5-200 \
-libhdf5.so.200()(64bit) \
-libhdf5_fortran200 \
-libhdf5_hl200 \
-libhdf5hl_fortran200 \
-libm.so.6()(64bit) \
-libmpi.so.12()(64bit)"
+libhdf5-fortran200 \
+libhdf5-hl200 \
+libhdf5.so.200 \
+libhdf5hl-fortran200 \
+libm.so.6 \
+libmpi.so.12"
 
 inherit rpm

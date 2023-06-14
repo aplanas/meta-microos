@@ -13,20 +13,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cobbler \
 cobbler-nsupdate \
-config(cobbler) \
-python3.10dist(cobbler) \
-python3dist(cobbler)"
+config-cobbler \
+python3.10dist-cobbler \
+python3dist-cobbler"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/service \
 /usr/bin/python3 \
 apache2 \
-apache2-mod_wsgi-python3 \
-createrepo_c \
+apache2-mod-wsgi-python3 \
+createrepo-c \
 dosfstools \
 fence-agents \
-python(abi) \
+python-abi \
 python3-Cheetah3 \
 python3-PyYAML \
 python3-distro \

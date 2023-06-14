@@ -11,14 +11,13 @@ RPM_HASH = "22d6383e80db03ee2f36344c9f9e7ebf714b1a26ab51fd7faf4c495c88107a1ced56
 RPROVIDES:${PN} += "blasbench \
 cachebench \
 llcbench \
-llcbench(aarch-64) \
 mpbench"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libmpi.so.40()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+libm.so.6 \
+libmpi.so.40 \
 openmpi4-libs"
 
 inherit rpm

@@ -21,13 +21,13 @@ RPM_NAME = "python39-urllib3_1-1.26.16-1.1.noarch.rpm"
 RPM_HASH = "10a5bbf0941c30ae689443b6604bec84b8f10e0441d516e311ad3132551663ee67d19b065af7017424b41df3d665b2d068cfeb084b5564d145dab3b87fba10e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(urllib3) \
+RPROVIDES:${PN} += "python3.9dist-urllib3 \
 python39-urllib3 \
-python39-urllib3_1 \
-python3dist(urllib3)"
+python39-urllib3-1 \
+python3dist-urllib3"
 
 RDEPENDS:${PN} += "ca-certificates-mozilla \
-python(abi) \
+python-abi \
 python39-certifi \
 python39-cryptography \
 python39-idna \

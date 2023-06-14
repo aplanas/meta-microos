@@ -14,19 +14,15 @@ RPM_NAME = "python-onionshare-2.6-2.1.noarch.rpm"
 RPM_HASH = "ea60867a561176583b8e46dc610e18f057a7e484d1016be3d52175c976f39d6d4e55e3a3707dad084e07261bfdea242a41839508dc370d9c3caf6099e639e4d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(org.onionshare.OnionShare.desktop) \
-metainfo() \
-metainfo(org.onionshare.OnionShare.metainfo.xml) \
-python-onionshare \
+RPROVIDES:${PN} += "python-onionshare \
 python-onionshare-2.6 \
-python3.10dist(onionshare) \
-python3.10dist(onionshare-cli) \
-python3dist(onionshare) \
-python3dist(onionshare-cli)"
+python3.10dist-onionshare \
+python3.10dist-onionshare-cli \
+python3dist-onionshare \
+python3dist-onionshare-cli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Flask \
 python3-Flask-SocketIO \
 python3-PyNaCl \

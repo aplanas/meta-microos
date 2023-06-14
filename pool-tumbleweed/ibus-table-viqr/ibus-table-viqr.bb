@@ -10,7 +10,7 @@ RPM_HASH = "7ba0c4b5eb468094331d1cbbfe32b12917ead8afbaa9a2946e037cbc37f6b6b877c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-viqr \
-locale(ibus:vi)"
+locale-ibus-vi"
 
 RDEPENDS:${PN} += "ibus-table"
 

@@ -9,12 +9,11 @@ RPM_NAME = "tar-rmt-1.34-10.3.aarch64.rpm"
 RPM_HASH = "bc3d2980cd51a2ecc26d05bde9702d23eb39c812171f8ccb0914664c1292ec97df0adebde4144cc5c09dda4547da30e04846dd84a8c5ebdcf4b8b055b6b2add4"
 
 RPROVIDES:${PN} += "rmt \
-tar-rmt \
-tar-rmt(aarch-64)"
+tar-rmt"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 update-alternatives"
 
 inherit rpm

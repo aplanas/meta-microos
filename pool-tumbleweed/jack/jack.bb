@@ -18,26 +18,23 @@ RPM_NAME = "jack-1.9.22-2.1.aarch64.rpm"
 RPM_HASH = "b38e97c59fa468bc92c7dfd10b70a2c0624751e733fe3703738f4ab1b3d91f65c1e56ac837c372c9b87f5281abcb92e8bfd6a97618cf3db4791bd6c34e152038"
 
 RPROVIDES:${PN} += "jack \
-jack(aarch-64) \
 jack-audio-connection-kit \
 jack-daemon \
 jack2"
 
 RDEPENDS:${PN} += "jack-dbus \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcelt0.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libffado.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjackserver.so.0()(64bit) \
-libm.so.6()(64bit) \
-libopus.so.0()(64bit) \
-libsamplerate.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libcelt0.so.2 \
+libdbus-1.so.3 \
+libffado.so.2 \
+libgcc-s.so.1 \
+libjackserver.so.0 \
+libm.so.6 \
+libopus.so.0 \
+libsamplerate.so.0 \
+libstdc++.so.6 \
+libsystemd.so.0"
 
 inherit rpm

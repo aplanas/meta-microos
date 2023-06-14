@@ -14,7 +14,7 @@ RPM_NAME = "texlive-codehigh-2023.201.2023asvn65787-53.1.noarch.rpm"
 RPM_HASH = "04ebb68764cc80eb3837b3a7d2647082e720a1b3577daf5b0382c4b6037b7cd3a50a1c30e6800256ba83503b05890f929c2b1ac934254439cc2e6cf96214e043"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(codehigh.sty) \
+RPROVIDES:${PN} += "tex-codehigh.sty \
 texlive-codehigh"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,13 +23,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(catchfile.sty) \
-tex(expl3.sty) \
-tex(iftex.sty) \
-tex(luatexbase.sty) \
-tex(ninecolors.sty) \
-tex(varwidth.sty) \
-tex(xcolor.sty) \
+tex-catchfile.sty \
+tex-expl3.sty \
+tex-iftex.sty \
+tex-luatexbase.sty \
+tex-ninecolors.sty \
+tex-varwidth.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

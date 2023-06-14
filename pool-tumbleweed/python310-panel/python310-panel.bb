@@ -11,15 +11,15 @@ RPM_HASH = "fbca07215e5f62b8da408d8f6c859d094180f7eca530f827f0a0aff577d43009c724
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-panel \
-python3.10dist(panel) \
+python3.10dist-panel \
 python310-panel \
-python3dist(panel)"
+python3dist-panel"
 
-RDEPENDS:${PN} += "(python310-bokeh >= 2.4.3 with python310-bokeh < 2.5) \
+RDEPENDS:${PN} += "-python310-bokeh >= 2.4.3 with python310-bokeh < 2.5 \
 /bin/sh \
 /usr/bin/python3.10 \
 jupyter-panel \
-python(abi) \
+python-abi \
 python310-Markdown \
 python310-bleach \
 python310-param \
@@ -28,7 +28,7 @@ python310-pyviz-comms \
 python310-requests \
 python310-setuptools \
 python310-tqdm \
-python310-typing_extensions \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

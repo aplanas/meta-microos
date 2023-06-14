@@ -25,8 +25,8 @@ RPM_NAME = "texlive-talk-2023.201.1.1svn42428-54.1.noarch.rpm"
 RPM_HASH = "1c6a43ab56cd1391e4e875a5f08707d1f3933083f242294810088fa4f205c605205f46578a8a73b2817027b98b32c31f99797ab90f2f35a6e4e6c83847898400"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sidebars.sty) \
-tex(talk.cls) \
+RPROVIDES:${PN} += "tex-sidebars.sty \
+tex-talk.cls \
 texlive-talk"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -35,12 +35,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(article.cls) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(multido.sty) \
-tex(pgf.sty) \
+tex-amsmath.sty \
+tex-article.cls \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-multido.sty \
+tex-pgf.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -17,7 +17,7 @@ RPM_NAME = "texlive-studenthandouts-2023.201.1.0svn43516-57.1.noarch.rpm"
 RPM_HASH = "a656c8db782551cc4554c587a043e23f843bd7242fca8be197a8f5088705ead2053fccddbe82397f186f2c31608de378a15544c30881d6ca7a5c8341ef34f17f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(studenthandouts.sty) \
+RPROVIDES:${PN} += "tex-studenthandouts.sty \
 texlive-studenthandouts"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,12 +26,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(changepage.sty) \
-tex(fancyhdr.sty) \
-tex(fmtcount.sty) \
-tex(geometry.sty) \
-tex(ifthen.sty) \
-tex(tocloft.sty) \
+tex-changepage.sty \
+tex-fancyhdr.sty \
+tex-fmtcount.sty \
+tex-geometry.sty \
+tex-ifthen.sty \
+tex-tocloft.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

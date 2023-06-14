@@ -8,14 +8,13 @@ PV = "2.39"
 RPM_NAME = "mingw64-cross-binutils-2.39-4.3.aarch64.rpm"
 RPM_HASH = "200eb10be175601f9aadcf2921c291882608f5a8882fc510cfe954aa431d9c5e9a557edf29dbe419d7600c881eaf76f0df3dc10d9366c5f9070428bb9a53d341"
 
-RPROVIDES:${PN} += "libdep.so()(64bit) \
-mingw64-cross-binutils \
-mingw64-cross-binutils(aarch-64)"
+RPROVIDES:${PN} += "libdep.so \
+mingw64-cross-binutils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfl.so.2()(64bit) \
-libm.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfl.so.2 \
+libm.so.6 \
 mingw64-cross-binutils-utils \
 mingw64-filesystem"
 

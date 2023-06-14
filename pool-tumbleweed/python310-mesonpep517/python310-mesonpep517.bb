@@ -10,12 +10,12 @@ RPM_HASH = "37236d030b21feee29df4fb002c75d518e8561c7e3531806d70ae95cca258e7f1093
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mesonpep517 \
-python3.10dist(mesonpep517) \
+python3.10dist-mesonpep517 \
 python310-mesonpep517 \
-python3dist(mesonpep517)"
+python3dist-mesonpep517"
 
 RDEPENDS:${PN} += "meson \
-python(abi) \
+python-abi \
 python310-setuptools \
 python310-toml \
 python310-wheel"

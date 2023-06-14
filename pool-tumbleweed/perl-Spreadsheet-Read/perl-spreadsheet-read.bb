@@ -20,18 +20,18 @@ RPM_NAME = "perl-Spreadsheet-Read-0.87-1.1.noarch.rpm"
 RPM_HASH = "b9ccd4f58494a3e77077d71b588893da05401ffaadcd3919f62d8933142e4cbf5cf4a1f99a11c8434e490f3a37f2ebddbb5e4bab40103157bf28395a24238328"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Spreadsheet::Read) \
-perl(Spreadsheet::Read::Attribute) \
-perl(Spreadsheet::Read::Sheet) \
-perl(Z10::Just::For::Testing) \
-perl(Z20::Just::For::Testing) \
-perl-Spreadsheet-Read"
+RPROVIDES:${PN} += "perl-Spreadsheet--Read \
+perl-Spreadsheet--Read--Attribute \
+perl-Spreadsheet--Read--Sheet \
+perl-Spreadsheet-Read \
+perl-Z10--Just--For--Testing \
+perl-Z20--Just--For--Testing"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Peek) \
-perl(File::Temp) \
-perl(IO::Scalar) \
-perl(Test::More) \
-perl(Test::NoWarnings)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Peek \
+perl-File--Temp \
+perl-IO--Scalar \
+perl-Test--More \
+perl-Test--NoWarnings"
 
 inherit rpm

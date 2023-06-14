@@ -12,20 +12,19 @@ PV = "2.0.2"
 RPM_NAME = "libindiAlignmentDriver2-2.0.2-1.1.aarch64.rpm"
 RPM_HASH = "d221f5a50b8d2c6a3adbf30d885ae375f576c05fbce80613abfad0d4f40ec547ecefaea1a6fe4ae995d0dc7775c0a5a346328ac7ee03a30cd02e88870699b060"
 
-RPROVIDES:${PN} += "libindiAlignmentDriver.so.2()(64bit) \
-libindiAlignmentDriver2 \
-libindiAlignmentDriver2(aarch-64)"
+RPROVIDES:${PN} += "libindiAlignmentDriver.so.2 \
+libindiAlignmentDriver2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libindiclient.so.2()(64bit) \
-libm.so.6()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libindiclient.so.2 \
+libm.so.6 \
+libnova-0.15.so.0 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

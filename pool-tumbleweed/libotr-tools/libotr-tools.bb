@@ -16,12 +16,11 @@ PV = "4.1.1"
 RPM_NAME = "libotr-tools-4.1.1-4.2.aarch64.rpm"
 RPM_HASH = "2002f6f624a564e4dcec5e917308035b1d2a1e30e98f5c0a42e970138ba4b72cc3745e25f4c2ade46256d5e7c21a748c7a34f064123f2470a5b6a5c4c8f2761a"
 
-RPROVIDES:${PN} += "libotr-tools \
-libotr-tools(aarch-64)"
+RPROVIDES:${PN} += "libotr-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit) \
-libotr.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20 \
+libotr.so.5"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_HASH = "3d487a2cc22e0ddf8492152012dd6ea0002073e0253010425b7cefc2fe1d3c34a3c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-error-for-skips \
-python3.10dist(pytest-error-for-skips) \
+python3.10dist-pytest-error-for-skips \
 python310-pytest-error-for-skips \
-python3dist(pytest-error-for-skips)"
+python3dist-pytest-error-for-skips"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest"
 
 inherit rpm

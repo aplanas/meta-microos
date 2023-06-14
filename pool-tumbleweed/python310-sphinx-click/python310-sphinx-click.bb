@@ -9,13 +9,13 @@ RPM_HASH = "79d7cfbbd89188fce8e22b09fe3e4a6d6227a0839860e7227c6690548d869ada7c94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-click \
-python3.10dist(sphinx-click) \
+python3.10dist-sphinx-click \
 python310-sphinx-click \
-python3dist(sphinx-click)"
+python3dist-sphinx-click"
 
-RDEPENDS:${PN} += "python(abi) \
-python3.10dist(click) \
-python3.10dist(docutils) \
-python3.10dist(sphinx)"
+RDEPENDS:${PN} += "python-abi \
+python3.10dist-click \
+python3.10dist-docutils \
+python3.10dist-sphinx"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "478ad99f0a9b6c479df49eb044a43167d15d8e48970961606a2443469c1f90dbbb98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-freezegun \
-python3.10dist(pytest-freezegun) \
+python3.10dist-pytest-freezegun \
 python310-pytest-freezegun \
-python3dist(pytest-freezegun)"
+python3dist-pytest-freezegun"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-freezegun \
 python310-pytest"
 

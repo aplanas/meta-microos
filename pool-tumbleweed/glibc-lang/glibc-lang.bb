@@ -10,43 +10,43 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-lang \
 glibc-lang-all \
-locale(glibc:be) \
-locale(glibc:bg) \
-locale(glibc:ca) \
-locale(glibc:cs) \
-locale(glibc:da) \
-locale(glibc:de) \
-locale(glibc:el) \
-locale(glibc:en_GB) \
-locale(glibc:eo) \
-locale(glibc:es) \
-locale(glibc:fi) \
-locale(glibc:fr) \
-locale(glibc:gl) \
-locale(glibc:hr) \
-locale(glibc:hu) \
-locale(glibc:ia) \
-locale(glibc:id) \
-locale(glibc:it) \
-locale(glibc:ja) \
-locale(glibc:ka) \
-locale(glibc:ko) \
-locale(glibc:lt) \
-locale(glibc:nb) \
-locale(glibc:nl) \
-locale(glibc:pl) \
-locale(glibc:pt) \
-locale(glibc:pt_BR) \
-locale(glibc:ru) \
-locale(glibc:sk) \
-locale(glibc:sl) \
-locale(glibc:sr) \
-locale(glibc:sv) \
-locale(glibc:tr) \
-locale(glibc:uk) \
-locale(glibc:vi) \
-locale(glibc:zh_CN) \
-locale(glibc:zh_TW)"
+locale-glibc-be \
+locale-glibc-bg \
+locale-glibc-ca \
+locale-glibc-cs \
+locale-glibc-da \
+locale-glibc-de \
+locale-glibc-el \
+locale-glibc-en-GB \
+locale-glibc-eo \
+locale-glibc-es \
+locale-glibc-fi \
+locale-glibc-fr \
+locale-glibc-gl \
+locale-glibc-hr \
+locale-glibc-hu \
+locale-glibc-ia \
+locale-glibc-id \
+locale-glibc-it \
+locale-glibc-ja \
+locale-glibc-ka \
+locale-glibc-ko \
+locale-glibc-lt \
+locale-glibc-nb \
+locale-glibc-nl \
+locale-glibc-pl \
+locale-glibc-pt \
+locale-glibc-pt-BR \
+locale-glibc-ru \
+locale-glibc-sk \
+locale-glibc-sl \
+locale-glibc-sr \
+locale-glibc-sv \
+locale-glibc-tr \
+locale-glibc-uk \
+locale-glibc-vi \
+locale-glibc-zh-CN \
+locale-glibc-zh-TW"
 
 RDEPENDS:${PN} += "glibc"
 

@@ -9,24 +9,23 @@ RPM_HASH = "098d197226b44457b74f1e6667bdf6bf3f927553624be713838dd167270055dc197d
 
 RPROVIDES:${PN} += "java-17-devel \
 java-17-openjdk-devel \
-java-17-openjdk-devel(aarch-64) \
 java-devel \
 java-devel-openjdk \
 java-sdk \
 java-sdk-17 \
 java-sdk-17-openjdk \
 java-sdk-openjdk \
-libattach.so()(64bit) \
-libsaproc.so()(64bit)"
+libattach.so \
+libsaproc.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-17-openjdk \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjava.so()(64bit) \
-libjli.so()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjava.so \
+libjli.so \
+libstdc++.so.6 \
 update-alternatives"
 
 inherit rpm

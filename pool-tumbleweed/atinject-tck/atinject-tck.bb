@@ -9,16 +9,16 @@ RPM_HASH = "8fc420fd1cb35291d8054e7ebe0478fd27cafca11a6313566597dce3e26514e5a89a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atinject-tck \
-mvn(javax.inject:javax.inject-tck) \
-mvn(javax.inject:javax.inject-tck:pom:) \
-osgi(com.google.code.atinject.tck)"
+mvn-javax.inject-javax.inject-tck \
+mvn-javax.inject-javax.inject-tck-pom- \
+osgi-com.google.code.atinject.tck"
 
 RDEPENDS:${PN} += "atinject \
 java-headless \
 javapackages-filesystem \
 junit \
-mvn(javax.inject:javax.inject) \
-mvn(junit:junit) \
-osgi(org.junit)"
+mvn-javax.inject-javax.inject \
+mvn-junit-junit \
+osgi-org.junit"
 
 inherit rpm

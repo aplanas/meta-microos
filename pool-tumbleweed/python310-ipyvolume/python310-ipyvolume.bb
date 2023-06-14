@@ -27,12 +27,12 @@ RPM_HASH = "95cbf9cd14c5f58f3a5bfe37e80edababf9403b90cd8a289b57a42078efabc79c71e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyvolume \
-python3.10dist(ipyvolume) \
+python3.10dist-ipyvolume \
 python310-ipyvolume \
-python3dist(ipyvolume)"
+python3dist-ipyvolume"
 
 RDEPENDS:${PN} += "jupyter-ipyvolume \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-bqplot \
 python310-ipyvue \

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-vtable-2023.201.1.0svn51126-53.1.noarch.rpm"
 RPM_HASH = "e1dfffd8565aaee26c9a9e5b1ff50502f05cdca923ec17c6c1fd3dfe19d2038465844c47190207b3c95f5af1e9ca959bbed062ffd2c5fe6c937aa29147b27041"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(vtable.sty) \
+RPROVIDES:${PN} += "tex-vtable.sty \
 texlive-vtable"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,15 +21,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(alphalph.sty) \
-tex(array.sty) \
-tex(calc.sty) \
-tex(dashrule.sty) \
-tex(etoolbox.sty) \
-tex(forloop.sty) \
-tex(graphicx.sty) \
-tex(varwidth.sty) \
-tex(xparse.sty) \
+tex-alphalph.sty \
+tex-array.sty \
+tex-calc.sty \
+tex-dashrule.sty \
+tex-etoolbox.sty \
+tex-forloop.sty \
+tex-graphicx.sty \
+tex-varwidth.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

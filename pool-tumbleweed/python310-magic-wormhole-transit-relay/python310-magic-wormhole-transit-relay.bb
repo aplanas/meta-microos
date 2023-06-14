@@ -9,11 +9,11 @@ RPM_HASH = "fa2b566ecfbb1cd4e3f04f129a40abed892f55eb28edb1f5e0c5912bd1dde35386cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-magic-wormhole-transit-relay \
-python3.10dist(magic-wormhole-transit-relay) \
+python3.10dist-magic-wormhole-transit-relay \
 python310-magic-wormhole-transit-relay \
-python3dist(magic-wormhole-transit-relay)"
+python3dist-magic-wormhole-transit-relay"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Twisted"
 
 inherit rpm

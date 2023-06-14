@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xslide"
 
-RDEPENDS:${PN} += "emacs_program \
+RDEPENDS:${PN} += "emacs-program \
 psgml"
 
 inherit rpm

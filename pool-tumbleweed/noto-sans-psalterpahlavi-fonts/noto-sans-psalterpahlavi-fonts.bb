@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-psalterpahlavi \
 noto-sans-psalterpahlavi-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

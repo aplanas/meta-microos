@@ -9,13 +9,12 @@ PV = "0.17"
 RPM_NAME = "talk-0.17-721.13.aarch64.rpm"
 RPM_HASH = "6c60969f54c712b98f895bc4e433c5cb34f462807411c36af94a79f7664bc722852c56887022840f32ab3fe519c212e013b9df840f226151e658a02399be9542"
 
-RPROVIDES:${PN} += "nkitb:/usr/bin/talk \
-talk \
-talk(aarch-64)"
+RPROVIDES:${PN} += "nkitb-/usr/bin/talk \
+talk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

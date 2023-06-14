@@ -9,11 +9,11 @@ RPM_HASH = "fe0565af4d107307ff6144f43c8ea2553a1745597ba5392363a3d6499e28702fb6a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-silk \
-python3.10dist(django-silk) \
+python3.10dist-django-silk \
 python310-django-silk \
-python3dist(django-silk)"
+python3dist-django-silk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Jinja2 \
 python310-Pillow \

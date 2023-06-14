@@ -9,11 +9,11 @@ RPM_HASH = "8395e4d4248dba59f53610f3b017beeba9bc17e50b41cd130e4e31dea774e8ba905a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-github3.py \
-python3.10dist(github3.py) \
+python3.10dist-github3.py \
 python310-github3.py \
-python3dist(github3.py)"
+python3dist-github3.py"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-jwcrypto \
 python310-python-dateutil \

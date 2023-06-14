@@ -20,9 +20,9 @@ RPM_HASH = "26cc5d8a8f21e6bd202f25bb2b26a137e4836c9b0558ad50872b58b002832c694400
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-util \
-mvn(org.eclipse.jetty:jetty-util) \
-mvn(org.eclipse.jetty:jetty-util:pom:) \
-osgi(org.eclipse.jetty.util)"
+mvn-org.eclipse.jetty-jetty-util \
+mvn-org.eclipse.jetty-jetty-util-pom- \
+osgi-org.eclipse.jetty.util"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

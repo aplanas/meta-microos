@@ -11,12 +11,11 @@ RPM_NAME = "libv4l-1.24.1-1.3.aarch64.rpm"
 RPM_HASH = "19b0d476621b9ce1a2a1ca652618fdbe7ed3e147d3c354a21667bdc5d9a9fabe9e348c32d26c3ffa675242a4f896067e2b1aa297db1e36e439cf6f67bd087714"
 
 RPROVIDES:${PN} += "libv4l \
-libv4l(aarch-64) \
-libv4l-mplane.so()(64bit)"
+libv4l-mplane.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libv4l1.so.0()(64bit) \
-libv4l2.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libv4l1.so.0 \
+libv4l2.so.0"
 
 inherit rpm

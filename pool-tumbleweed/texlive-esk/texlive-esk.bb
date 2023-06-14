@@ -16,7 +16,7 @@ RPM_NAME = "texlive-esk-2023.201.1.0svn18115-53.1.noarch.rpm"
 RPM_HASH = "63754a79d61f2c259748155147e0c6b5a024c7a7a08acc536557bb589162b6d77fc47adde491ad89e3337176a4c1456ca210d73a052cbf23d843fc4a4643f8e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(esk.sty) \
+RPROVIDES:${PN} += "tex-esk.sty \
 texlive-esk"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,8 +25,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvsetkeys.sty) \
-tex(verbatim.sty) \
+tex-kvsetkeys.sty \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -16,16 +16,15 @@ PV = "0.11.4"
 RPM_NAME = "speech-dispatcher-module-espeak-0.11.4-1.3.aarch64.rpm"
 RPM_HASH = "3eb9d11589cdb2d86f12ad2f8ddbcdb9df046bf3ead2f5abb0ddab19927a9840bc2b1c2fb87ddfad92f41098c73ad7592712edecdb1dabcbfc2557e76b44327a"
 
-RPROVIDES:${PN} += "config(speech-dispatcher-module-espeak) \
-speech-dispatcher-module-espeak \
-speech-dispatcher-module-espeak(aarch-64)"
+RPROVIDES:${PN} += "config-speech-dispatcher-module-espeak \
+speech-dispatcher-module-espeak"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdotconf.so.0()(64bit) \
-libespeak-ng.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libltdl.so.7()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdotconf.so.0 \
+libespeak-ng.so.1 \
+libglib-2.0.so.0 \
+libltdl.so.7 \
 speech-dispatcher"
 
 inherit rpm

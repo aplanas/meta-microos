@@ -12,19 +12,16 @@ PV = "4.5.3"
 RPM_NAME = "netcdf-fortran_4_5_3-gnu-openmpi1-hpc-devel-4.5.3-4.5.aarch64.rpm"
 RPM_HASH = "35c54ca7ffcc5cf71d2469d1b5a032edf4d24a8062e97feb315ab1b8d52b983f2d6df75d935fcd2ac771bb949de0879b3282da292dc3b2fa08220dd72e483a41"
 
-RPROVIDES:${PN} += "netcdf-fortran_4_5_3-gnu-openmpi1-hpc \
-netcdf-fortran_4_5_3-gnu-openmpi1-hpc-devel \
-netcdf-fortran_4_5_3-gnu-openmpi1-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "netcdf-fortran-4-5-3-gnu-openmpi1-hpc \
+netcdf-fortran-4-5-3-gnu-openmpi1-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcurl-devel \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc \
+libgfortran.so.5 \
+libnetcdf-fortran-4-5-3-gnu-openmpi1-hpc \
 netcdf-gnu-openmpi1-hpc-devel \
 openmpi1-gnu-hpc-devel \
 pkgconfig \

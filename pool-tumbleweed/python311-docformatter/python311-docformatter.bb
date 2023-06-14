@@ -25,13 +25,13 @@ RPM_NAME = "python311-docformatter-1.4-1.9.noarch.rpm"
 RPM_HASH = "8442cd029c6842bbffb89f3f10ff978c2e40f07b4312ffa578e8aa231b7cfe8c6873164f14b0f8328020370993a13fdfa2de5f2fe8bbea435b1195035e0ef879"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(docformatter) \
+RPROVIDES:${PN} += "python3.11dist-docformatter \
 python311-docformatter \
-python3dist(docformatter)"
+python3dist-docformatter"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-setuptools \
 python311-untokenize \
 update-alternatives"

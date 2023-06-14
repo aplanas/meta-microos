@@ -9,21 +9,18 @@ RPM_HASH = "b821fc76e4e217067d18bf9e3e3c06d32860e7139bf1d9d3a7b7711f2ea7d92b066f
 
 RPROVIDES:${PN} += "fcitx-chewing \
 fcitx5-chewing \
-fcitx5-chewing(aarch-64) \
-libchewing.so()(64bit) \
-metainfo() \
-metainfo(org.fcitx.Fcitx5.Addon.Chewing.metainfo.xml)"
+libchewing.so"
 
 RDEPENDS:${PN} += "chewing-data \
 chewing-utils \
 fcitx5 \
-ld-linux-aarch64.so.1()(64bit) \
-libFcitx5Config.so.6()(64bit) \
-libFcitx5Core.so.7()(64bit) \
-libFcitx5Utils.so.2()(64bit) \
-libc.so.6()(64bit) \
-libchewing.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libFcitx5Config.so.6 \
+libFcitx5Core.so.7 \
+libFcitx5Utils.so.2 \
+libc.so.6 \
+libchewing.so.3 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

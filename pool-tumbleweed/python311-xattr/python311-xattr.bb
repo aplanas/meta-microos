@@ -12,16 +12,15 @@ PV = "0.10.1"
 RPM_NAME = "python311-xattr-0.10.1-1.4.aarch64.rpm"
 RPM_HASH = "5ef708bd88d63c029f4c7acbb24f3bdab96c45f12b294262321cebdd4906c7bec4e675ad19dc04b5cf65d51c237202eebcc2a24e2002bf84ae8a85780e59c7b5"
 
-RPROVIDES:${PN} += "python3.11dist(xattr) \
+RPROVIDES:${PN} += "python3.11dist-xattr \
 python311-xattr \
-python311-xattr(aarch-64) \
-python3dist(xattr)"
+python3dist-xattr"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python311-cffi \
 python311-setuptools \
 update-alternatives"

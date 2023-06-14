@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 binutils \
 elfutils \
 gcc-c++ \
-perl(Storable) \
+perl-Storable \
 vtable-dumper"
 
 inherit rpm

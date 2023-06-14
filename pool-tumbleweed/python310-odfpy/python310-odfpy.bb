@@ -33,13 +33,13 @@ RPM_HASH = "b9437cb9ba56bb8e0baeb789d383645cbcb9d5a6c0b72ee8640c79049c9848ce0191
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-odfpy \
-python3.10dist(odfpy) \
+python3.10dist-odfpy \
 python310-odfpy \
-python3dist(odfpy)"
+python3dist-odfpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-defusedxml \
 update-alternatives"
 

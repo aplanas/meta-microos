@@ -13,14 +13,14 @@ RPM_NAME = "ndesk-dbus-0.6.1a-1.6.noarch.rpm"
 RPM_HASH = "9484c5598abdfd8576202ac0ef91cf38398cc51f4a0920a79862844326474ef3e5da57f9f202422ef46aa62c8af8fbec1b644ce2c03423a55fa3b0549eacdee5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mono(NDesk.DBus) \
+RPROVIDES:${PN} += "mono-NDesk.DBus \
 ndesk-dbus \
 ndesk-dbus-devel \
-pkgconfig(ndesk-dbus-1.0)"
+pkgconfig-ndesk-dbus-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-mono(System) \
-mono(System.Xml) \
-mono(mscorlib)"
+mono-System \
+mono-System.Xml \
+mono-mscorlib"
 
 inherit rpm

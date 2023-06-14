@@ -32,22 +32,20 @@ PV = "2.1.0"
 RPM_NAME = "libscalapack2_2_1_0-gnu-mvapich2-hpc-2.1.0-9.20.aarch64.rpm"
 RPM_HASH = "2cf415a8d017e9ba9379fd6810f1bb8f08798780cdf4c6484cced4ab158d5db9bd55abc0386b0cf88140b850a6d933f90790e6329d4dfa737aba3579491b7b0a"
 
-RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-mvapich2-hpc \
-libscalapack2_2_1_0-gnu-mvapich2-hpc \
-libscalapack2_2_1_0-gnu-mvapich2-hpc(aarch-64) \
-scalapack_2_1_0-gnu-mvapich2-hpc"
+RPROVIDES:${PN} += "libblacs2-2-1-0-gnu-mvapich2-hpc \
+libscalapack2-2-1-0-gnu-mvapich2-hpc \
+scalapack-2-1-0-gnu-mvapich2-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 libopenblas-gnu-hpc \
 lua-lmod \
 mvapich2-gnu-hpc \
-scalapack_2_1_0-gnu-mvapich2-hpc-module"
+scalapack-2-1-0-gnu-mvapich2-hpc-module"
 
 inherit rpm

@@ -14,13 +14,12 @@ PV = "3.36.1"
 RPM_NAME = "typelib-1_0-Template-1_0-3.36.1-1.3.aarch64.rpm"
 RPM_HASH = "7660cc08844428fdc1a881235b6b2f0dba086953566a33470636062dc53cb6ceed1aca922c41ce0b6bfb490fd4de1f460a6029bc8c6d688a59f6c2fd60b640a2"
 
-RPROVIDES:${PN} += "typelib(Template) \
-typelib-1_0-Template-1_0 \
-typelib-1_0-Template-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Template-1-0 \
+typelib-Template"
 
-RDEPENDS:${PN} += "libtemplate_glib-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libtemplate-glib-1.0.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

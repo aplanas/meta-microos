@@ -17,12 +17,11 @@ RPM_NAME = "libfactory-devel-4.3.1.p3-1.3.aarch64.rpm"
 RPM_HASH = "90b5623986b1c35ffa068a15eacfd1e90c071dbb83511393340d4f79bffaec0730a62218fdf17a8a55b2ee56da5709f2c8068152879acb47f92bc3c606998b14"
 
 RPROVIDES:${PN} += "libfactory-devel \
-libfactory-devel(aarch-64) \
-pkgconfig(factory)"
+pkgconfig-factory"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libfactory-4_3_1 \
-pkgconfig(omalloc) \
-pkgconfig(singular_resources)"
+libfactory-4-3-1 \
+pkgconfig-omalloc \
+pkgconfig-singular-resources"
 
 inherit rpm

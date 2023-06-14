@@ -11,11 +11,11 @@ RPM_HASH = "c684c4a1390db3d538818a978109213318a95f99598433814c496c7da4b5263785e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fusepy \
-python3.10dist(fusepy) \
+python3.10dist-fusepy \
 python310-fusepy \
-python3dist(fusepy)"
+python3dist-fusepy"
 
 RDEPENDS:${PN} += "libfuse2 \
-python(abi)"
+python-abi"
 
 inherit rpm

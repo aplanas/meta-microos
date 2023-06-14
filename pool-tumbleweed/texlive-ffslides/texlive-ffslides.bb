@@ -17,7 +17,7 @@ RPM_NAME = "texlive-ffslides-2023.201.svn38895-52.1.noarch.rpm"
 RPM_HASH = "316a635da465816a6e0e196f92def0128089474c1d0ac11ef3f5ffe53f23c6760956c6f2388cc70efc5be8e72a12dfd5eb9a6ca5adb4cdfade6d6f0d2ea9d5c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ffslides.cls) \
+RPROVIDES:${PN} += "tex-ffslides.cls \
 texlive-ffslides"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,15 +26,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(calc.sty) \
-tex(geometry.sty) \
-tex(graphics.sty) \
-tex(hyperref.sty) \
-tex(ifthen.sty) \
-tex(lastpage.sty) \
-tex(pstricks.sty) \
-tex(twoopt.sty) \
+tex-article.cls \
+tex-calc.sty \
+tex-geometry.sty \
+tex-graphics.sty \
+tex-hyperref.sty \
+tex-ifthen.sty \
+tex-lastpage.sty \
+tex-pstricks.sty \
+tex-twoopt.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

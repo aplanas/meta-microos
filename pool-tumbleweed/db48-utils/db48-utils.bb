@@ -12,13 +12,12 @@ RPM_NAME = "db48-utils-4.8.30-41.1.aarch64.rpm"
 RPM_HASH = "077509e05e0c7af1545b66ec98fc4cb8c454cfe203da15583509a8e601ea79e134fed70ea822bedacc7bf79746ed5664b4d8720778859765cf082fcf768f74ba"
 
 RPROVIDES:${PN} += "db-utils \
-db48-utils \
-db48-utils(aarch-64)"
+db48-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdb-4.8.so()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdb-4.8.so \
 update-alternatives"
 
 inherit rpm

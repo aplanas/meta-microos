@@ -13,11 +13,11 @@ RPM_HASH = "e28deb18ef3979fed11a9895de8ee9500cf87acc2aacb107d123966ad7cc5fee28f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-netdb \
-mvn(com.github.jnr:jnr-netdb) \
-mvn(com.github.jnr:jnr-netdb:pom:)"
+mvn-com.github.jnr-jnr-netdb \
+mvn-com.github.jnr-jnr-netdb-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.github.jnr:jnr-ffi)"
+mvn-com.github.jnr-jnr-ffi"
 
 inherit rpm

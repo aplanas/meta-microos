@@ -11,17 +11,14 @@ RPM_NAME = "libqimageblitz5-1-0.0.6+svn1515099-4.13.aarch64.rpm"
 RPM_HASH = "1ccff7dc799d0ea884a35c2436349283c009913f2f3ff17612ecbee9630bdb3ed075b5bd33346a954db5ccca496a2cd013f22e1de22893d2f88a5e869747daea"
 
 RPROVIDES:${PN} += "libqimageblitz5-1 \
-libqimageblitz5-1(aarch-64) \
-libqimageblitz5.so.1()(64bit)"
+libqimageblitz5.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

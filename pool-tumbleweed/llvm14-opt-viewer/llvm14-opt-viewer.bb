@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "llvm14-opt-viewer \
 opt-viewer"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-Pygments"
 

@@ -14,21 +14,20 @@ RPM_NAME = "adios-openmpi2-1.13.1-5.12.aarch64.rpm"
 RPM_HASH = "a7f96d0ad9d2214427ca2bde9eae134b8c9a83f73da3c33470003f1fdc883191d329f3eac1b5185b99cddadc5ea8638272cb171271347b5189c84bdee59d465e"
 
 RPROVIDES:${PN} += "adios-openmpi2 \
-adios-openmpi2(aarch-64) \
-config(adios-openmpi2)"
+config-adios-openmpi2"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_hl.so.200()(64bit) \
-liblz4.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmpi.so.20()(64bit) \
-libnetcdf.so.19()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libhdf5-hl.so.200 \
+libhdf5.so.200 \
+liblz4.so.1 \
+libm.so.6 \
+libmpi.so.20 \
+libnetcdf.so.19 \
+libz.so.1 \
 python3-PyYAML \
 python3-xml"
 

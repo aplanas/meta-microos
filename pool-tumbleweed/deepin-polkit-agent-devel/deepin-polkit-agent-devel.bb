@@ -8,8 +8,7 @@ PV = "5.5.21"
 RPM_NAME = "deepin-polkit-agent-devel-5.5.21-1.2.aarch64.rpm"
 RPM_HASH = "18c7f2b4db44b48a0f1cbf3a7386d05cbeb3b089e22834c8939405ce4004ee64718e2f609fd6247fdce62cd38c759fee3973a03bf7e22bb25ca67f99f89f91cb"
 
-RPROVIDES:${PN} += "deepin-polkit-agent-devel \
-deepin-polkit-agent-devel(aarch-64)"
+RPROVIDES:${PN} += "deepin-polkit-agent-devel"
 
 RDEPENDS:${PN} += "deepin-polkit-agent"
 

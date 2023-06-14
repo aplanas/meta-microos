@@ -8,8 +8,7 @@ PV = "2.1.0+2.0.22+git6"
 RPM_NAME = "mISDNuser-devel-2.1.0+2.0.22+git6-2.6.aarch64.rpm"
 RPM_HASH = "bbd52ac2f2e94c42c7e658d9251c8b9bd8a14ad3ef358b2868d71095acde3d37c5e0d6fbce8fe897a96e2b6751efcc6a32b55a5ee405891c7e340ea3e0d67bff"
 
-RPROVIDES:${PN} += "mISDNuser-devel \
-mISDNuser-devel(aarch-64)"
+RPROVIDES:${PN} += "mISDNuser-devel"
 
 RDEPENDS:${PN} += "libmisdn1"
 

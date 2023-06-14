@@ -10,10 +10,10 @@ RPM_HASH = "582c09e7bf2fc55d4b9fb53b1596bd581cd2c8b968ee63db27339889182ea4cc9825
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cepces \
-python3.10dist(cepces) \
-python3dist(cepces)"
+python3.10dist-cepces \
+python3dist-cepces"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-cryptography \
 python3-requests \
 python3-requests-gssapi"

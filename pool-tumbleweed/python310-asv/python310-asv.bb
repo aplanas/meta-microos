@@ -14,18 +14,17 @@ RPM_NAME = "python310-asv-0.5.1-1.5.aarch64.rpm"
 RPM_HASH = "2e022af78c058707ca1384b2dacabb278aadcd69f40f29d98c0257d0d6507f43c3d0f086073f787fd2318bc9421ebc3c7e56e79993e3e17d39218c70e46bc875"
 
 RPROVIDES:${PN} += "python3-asv \
-python3.10dist(asv) \
+python3.10dist-asv \
 python310-asv \
-python310-asv(aarch-64) \
-python3dist(asv)"
+python3dist-asv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python310-six \
 update-alternatives"
 

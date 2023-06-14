@@ -13,20 +13,20 @@ RPM_NAME = "python39-nbclassic-0.5.6-1.1.noarch.rpm"
 RPM_HASH = "7709fd5e7ef9baa289746d235acf9b7d1b1a60188b5be1bfc221e1412d233052291beead7f261174b696cc74f4fa29756b296479aed9ed27c7905272ea9fa5eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(nbclassic) \
+RPROVIDES:${PN} += "python3.9dist-nbclassic \
 python39-nbclassic \
-python3dist(nbclassic)"
+python3dist-nbclassic"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \
 jupyter-nbclassic \
-python(abi) \
+python-abi \
 python39-Jinja2 \
 python39-Send2Trash \
 python39-argon2-cffi \
 python39-ipykernel \
-python39-ipython_genutils \
+python39-ipython-genutils \
 python39-jupyter-client \
 python39-jupyter-core \
 python39-nbconvert \

@@ -10,7 +10,7 @@ RPM_NAME = "texlive-mmap-2023.201.1.03svn15878-54.1.noarch.rpm"
 RPM_HASH = "5a6181af9cb65518aa5cf8d049775e4ba47fe74f2874bc1a7bc6911ea0150fe4dc07dd7048deda0f3d247070ba9adc74b97f42c9fd2975b114efad10987881ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mmap.sty) \
+RPROVIDES:${PN} += "tex-mmap.sty \
 texlive-mmap"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(cmap.sty) \
-tex(ifpdf.sty) \
+tex-cmap.sty \
+tex-ifpdf.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

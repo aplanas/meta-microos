@@ -14,15 +14,14 @@ PV = "3.0"
 RPM_NAME = "wordnet-3.0-35.1.aarch64.rpm"
 RPM_HASH = "99281984fd34ecba412b0f8c8b773e65d2a5710533d2f49552fc32c0dcec12c1eca0ab7bbe82a18481144b4eca4706d5c6053be2e550730081e5c29843e575f1"
 
-RPROVIDES:${PN} += "wordnet \
-wordnet(aarch-64)"
+RPROVIDES:${PN} += "wordnet"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libWN.so.3()(64bit) \
-libc.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
-libtk8.6.so()(64bit) \
+ld-linux-aarch64.so.1 \
+libWN.so.3 \
+libc.so.6 \
+libtcl8.6.so \
+libtk8.6.so \
 tcl \
 tk"
 

@@ -8,17 +8,13 @@ PV = "1.3.2"
 RPM_NAME = "lxshortcut-1.3.2-1.12.aarch64.rpm"
 RPM_HASH = "085521904c809a2f50c7e733a49f2767f63e1aaef5ddc88304a87ecc15ce85555b8fcab67b44ed222fa5d3e1681e4630881b4ff718915d68ae7749bb4c19cdfd"
 
-RPROVIDES:${PN} += "application() \
-application(lxshortcut.desktop) \
-lxshortcut \
-lxshortcut(aarch-64) \
-mimehandler(application/x-desktop)"
+RPROVIDES:${PN} += "lxshortcut"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfm-gtk.so.4()(64bit) \
-libfm.so.4()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfm-gtk.so.4 \
+libfm.so.4 \
+libglib-2.0.so.0 \
+libgtk-x11-2.0.so.0"
 
 inherit rpm

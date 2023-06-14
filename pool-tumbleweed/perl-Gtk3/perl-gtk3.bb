@@ -20,13 +20,12 @@ RPM_NAME = "perl-Gtk3-0.038-1.11.noarch.rpm"
 RPM_HASH = "f87fbb101904a70587a4cf0f1f257afa40b3ab934db6ab63ed023dfb8203c5dbd7eb02d0130fd9d354092a41c80d5030c0d70c9ab106684ba43af398f61be3fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Gtk3) \
-perl(Gtk3::Gdk::EventMask) \
-perl-Gtk3"
+RPROVIDES:${PN} += "perl-Gtk3 \
+perl-Gtk3--Gdk--EventMask"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Cairo::GObject) \
-perl(Glib::Object::Introspection) \
-perl(Test::Simple)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Cairo--GObject \
+perl-Glib--Object--Introspection \
+perl-Test--Simple"
 
 inherit rpm

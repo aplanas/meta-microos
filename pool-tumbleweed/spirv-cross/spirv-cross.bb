@@ -17,12 +17,11 @@ PV = "1.3.243.0"
 RPM_NAME = "spirv-cross-1.3.243.0-1.1.aarch64.rpm"
 RPM_HASH = "5c097b3a7fa6737f6ff87e5faeacd9e89f094f3df789243166eb87521c566e300bbd59cd306b24c81d7de901eda5cc030cf1f07ab7cf3859a9e79cb0275546c0"
 
-RPROVIDES:${PN} += "spirv-cross \
-spirv-cross(aarch-64)"
+RPROVIDES:${PN} += "spirv-cross"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

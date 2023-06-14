@@ -11,8 +11,7 @@ PV = "1.12.2"
 RPM_NAME = "hdf5_1_12_2-gnu-openmpi2-hpc-module-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "e8cb7b24ed9ebdfc7c50a8887245e37edaea393b7068e55a55c7171fe69dc6f2ddcf1e075785cc415c4f557a23a5fe120483750230dc12f861e24a2952f23c89"
 
-RPROVIDES:${PN} += "hdf5_1_12_2-gnu-openmpi2-hpc-module \
-hdf5_1_12_2-gnu-openmpi2-hpc-module(aarch-64)"
+RPROVIDES:${PN} += "hdf5-1-12-2-gnu-openmpi2-hpc-module"
 
 RDEPENDS:${PN} += "/bin/sh \
 lua-lmod"

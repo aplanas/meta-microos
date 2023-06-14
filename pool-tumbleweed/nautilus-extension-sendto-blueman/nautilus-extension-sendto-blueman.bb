@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "nautilus-extension-sendto-blueman"
 
 RDEPENDS:${PN} += "blueman \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Nautilus)"
+typelib-GObject \
+typelib-Gio \
+typelib-Nautilus"
 
 inherit rpm

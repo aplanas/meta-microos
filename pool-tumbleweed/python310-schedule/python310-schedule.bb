@@ -11,10 +11,10 @@ RPM_HASH = "a8a5862dae1e408c2de20cacc289e7a7f9c0d56f5b5587f2d83be8621e1175c6ffff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-schedule \
-python3.10dist(schedule) \
+python3.10dist-schedule \
 python310-schedule \
-python3dist(schedule)"
+python3dist-schedule"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

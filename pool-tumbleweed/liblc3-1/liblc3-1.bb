@@ -11,12 +11,11 @@ RPM_NAME = "liblc3-1-1.0.3-1.1.aarch64.rpm"
 RPM_HASH = "43dd7e8fc656faa84f220f992ef4f7d6cb911b51ab535cfff7181d79dcfdcef59cc6819932c24843914025917a230f1e6e6294e768d80a790217db8afc0738bc"
 
 RPROVIDES:${PN} += "liblc3-1 \
-liblc3-1(aarch-64) \
-liblc3.so.1()(64bit)"
+liblc3.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -12,9 +12,8 @@ RPM_HASH = "98027c6bf62a38988df5f1b6f8f19d31f74b78aa56e29f21e32d3b7bd3c72da53427
 
 RPROVIDES:${PN} += "icatalan \
 ispell-catalan \
-ispell-catalan(aarch-64) \
-ispell_dictionary \
-locale(ispell:ca)"
+ispell-dictionary \
+locale-ispell-ca"
 
 RDEPENDS:${PN} += ""
 

@@ -9,11 +9,11 @@ RPM_HASH = "a9f7b6a3fe2995d03b0537716f6f7554d394e528f389cb2b7d7502d3c3502318795e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-rest-framework-braces \
-python3.10dist(django-rest-framework-braces) \
+python3.10dist-django-rest-framework-braces \
 python310-django-rest-framework-braces \
-python3dist(django-rest-framework-braces)"
+python3dist-django-rest-framework-braces"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-dateutils \
 python310-djangorestframework \

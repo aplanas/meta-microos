@@ -10,10 +10,10 @@ RPM_HASH = "b7ea8e4613a99d11ab488eb6acfb21621998ae1a07023694fe761f7be62f73e33557
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyparallel \
-python3.10dist(pyparallel) \
+python3.10dist-pyparallel \
 python310-pyparallel \
-python3dist(pyparallel)"
+python3dist-pyparallel"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

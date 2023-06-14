@@ -15,8 +15,7 @@ PV = "1.4.10"
 RPM_NAME = "libkrun-devel-1.4.10-1.4.aarch64.rpm"
 RPM_HASH = "9878bcee09dc578ff83394656820229e2396ba7e64cd1bec434d874536f85869c98074fae344f7f426ff7f14337234205ca1969ff19f7ad03fa06d5c6c1e77c4"
 
-RPROVIDES:${PN} += "libkrun-devel \
-libkrun-devel(aarch-64)"
+RPROVIDES:${PN} += "libkrun-devel"
 
 RDEPENDS:${PN} += "libkrun1"
 

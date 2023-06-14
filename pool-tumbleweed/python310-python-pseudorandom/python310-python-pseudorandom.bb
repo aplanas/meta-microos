@@ -10,11 +10,11 @@ RPM_HASH = "1f35672677c5e874d35e7ba6158302b1c6c9c67ea7a60360fb27b89b68c3d8ab3b86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-pseudorandom \
-python3.10dist(python-pseudorandom) \
+python3.10dist-python-pseudorandom \
 python310-python-pseudorandom \
-python3dist(python-pseudorandom)"
+python3dist-python-pseudorandom"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-datamatrix"
 
 inherit rpm

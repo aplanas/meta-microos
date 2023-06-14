@@ -22,12 +22,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Werkzeug \
 python3-Werkzeug-doc \
-python3.10dist(werkzeug) \
+python3.10dist-werkzeug \
 python310-Werkzeug \
 python310-Werkzeug-doc \
-python3dist(werkzeug)"
+python3dist-werkzeug"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-MarkupSafe"
 
 inherit rpm

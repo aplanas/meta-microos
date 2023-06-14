@@ -9,9 +9,8 @@ PV = "3.3.10"
 RPM_NAME = "libfftw3-gnu-openmpi4-hpc-3.3.10-3.5.aarch64.rpm"
 RPM_HASH = "8879fc1420a8f85a38c8a1618d5a40ded3a807a5082715ceba0e1d7f8cb2c8b64b3b4d3fb6e17168960479444fcae5296017162f3948fe565db856a7ebfc96c3"
 
-RPROVIDES:${PN} += "libfftw3-gnu-openmpi4-hpc \
-libfftw3-gnu-openmpi4-hpc(aarch-64)"
+RPROVIDES:${PN} += "libfftw3-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "libfftw3_3_3_10-gnu-openmpi4-hpc"
+RDEPENDS:${PN} += "libfftw3-3-3-10-gnu-openmpi4-hpc"
 
 inherit rpm

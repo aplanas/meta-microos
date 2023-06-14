@@ -9,13 +9,13 @@ RPM_HASH = "635e786ecffc243ab573e26c8823ce78fd9e58e0c929e68c1cdfd4c347ff371bb166
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flit \
-python3.10dist(flit) \
+python3.10dist-flit \
 python310-flit \
-python3dist(flit)"
+python3dist-flit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-docutils \
 python310-flit-core \
 python310-requests \

@@ -12,11 +12,10 @@ PV = "0.26"
 RPM_NAME = "perl-WWW-Form-UrlEncoded-0.26-1.12.aarch64.rpm"
 RPM_HASH = "1b9dae4fcee19596fded1e864c726a80a3e5c68203cc15040ad3db61eaa85d49136f5d40de2e16dbcb8f9613e78cf23c419c5b1718e389b5560171689b216765"
 
-RPROVIDES:${PN} += "perl(WWW::Form::UrlEncoded) \
-perl(WWW::Form::UrlEncoded::PP) \
-perl-WWW-Form-UrlEncoded \
-perl-WWW-Form-UrlEncoded(aarch-64)"
+RPROVIDES:${PN} += "perl-WWW--Form--UrlEncoded \
+perl-WWW--Form--UrlEncoded--PP \
+perl-WWW-Form-UrlEncoded"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

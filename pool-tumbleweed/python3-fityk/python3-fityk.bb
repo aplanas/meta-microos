@@ -11,14 +11,13 @@ PV = "1.3.2"
 RPM_NAME = "python3-fityk-1.3.2-1.4.aarch64.rpm"
 RPM_HASH = "315c095d92372d93db476bab40ae6241f92cab8b0fc9bbae367aa475b69794e8494da9b0a35e278d36a6e1ba64ce9ad3b9e64789e6d4b6fbb573d39a3bf96278"
 
-RPROVIDES:${PN} += "python3-fityk \
-python3-fityk(aarch-64)"
+RPROVIDES:${PN} += "python3-fityk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfityk.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfityk.so.4 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

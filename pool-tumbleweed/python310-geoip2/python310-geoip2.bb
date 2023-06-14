@@ -10,11 +10,11 @@ RPM_HASH = "1fec1347084a34f153b7b494cc47609da897bdecc861641c245cbaf58a215f2d5ace
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geoip2 \
-python3.10dist(geoip2) \
+python3.10dist-geoip2 \
 python310-geoip2 \
-python3dist(geoip2)"
+python3dist-geoip2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-maxminddb \
 python310-requests"
 

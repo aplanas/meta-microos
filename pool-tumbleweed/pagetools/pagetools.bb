@@ -11,15 +11,14 @@ PV = "0.1"
 RPM_NAME = "pagetools-0.1-2.14.aarch64.rpm"
 RPM_HASH = "a020eb1d08026ef4e750b7519ee883b432b2f55e9633d629d43639af38190de02277f2c728d400337fe002008df6302ac94c7d920a1594f1c1fbd84843934f14"
 
-RPROVIDES:${PN} += "pagetools \
-pagetools(aarch-64)"
+RPROVIDES:${PN} += "pagetools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnetpbm.so.11()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libnetpbm.so.11 \
+libstdc++.so.6 \
+libtiff.so.6"
 
 inherit rpm

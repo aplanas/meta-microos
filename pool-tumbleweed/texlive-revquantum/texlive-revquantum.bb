@@ -14,7 +14,7 @@ RPM_NAME = "texlive-revquantum-2023.201.0.0.11svn43505-53.1.noarch.rpm"
 RPM_HASH = "6361ca41288e22b8ce9a13c553fd5d654c67e89c949543ea5fb08fa5f17e1366530551b556a19260c290901e0f5ae489c2f409f5a98209f709bcef5bfea73691"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(revquantum.sty) \
+RPROVIDES:${PN} += "tex-revquantum.sty \
 texlive-revquantum"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,29 +23,29 @@ ed \
 findutils \
 grep \
 sed \
-tex(algorithm.sty) \
-tex(algpseudocode.sty) \
-tex(amsbsy.sty) \
-tex(amsfonts.sty) \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(amsthm.sty) \
-tex(babel.sty) \
-tex(braket.sty) \
-tex(color.sty) \
-tex(etoolbox.sty) \
-tex(fontspec.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(iftex.sty) \
-tex(ifthen.sty) \
-tex(letltxmacro.sty) \
-tex(listings.sty) \
-tex(mathpazo.sty) \
-tex(sourcecodepro.sty) \
-tex(stmaryrd.sty) \
-tex(textcomp.sty) \
-tex(xcolor.sty) \
+tex-algorithm.sty \
+tex-algpseudocode.sty \
+tex-amsbsy.sty \
+tex-amsfonts.sty \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-amsthm.sty \
+tex-babel.sty \
+tex-braket.sty \
+tex-color.sty \
+tex-etoolbox.sty \
+tex-fontspec.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-iftex.sty \
+tex-ifthen.sty \
+tex-letltxmacro.sty \
+tex-listings.sty \
+tex-mathpazo.sty \
+tex-sourcecodepro.sty \
+tex-stmaryrd.sty \
+tex-textcomp.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,17 +10,17 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oci \
 python3-oci-sdk \
-python3.10dist(oci) \
+python3.10dist-oci \
 python310-oci \
 python310-oci-sdk \
-python3dist(oci)"
+python3dist-oci"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-certifi \
 python310-circuitbreaker \
 python310-cryptography \
-python310-httpsig_cffi \
+python310-httpsig-cffi \
 python310-pyOpenSSL \
 python310-python-dateutil \
 python310-pytz \

@@ -23,12 +23,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linkchecker \
 python3-linkchecker \
-python3.10dist(linkchecker) \
-python3dist(linkchecker)"
+python3.10dist-linkchecker \
+python3dist-linkchecker"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-beautifulsoup4 \
 python3-dnspython \
 python3-pyxdg \

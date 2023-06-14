@@ -13,11 +13,11 @@ RPM_HASH = "a0683801c2d736de3527e5aa13ba4065ca67baf336d0c564edc4fe1ad08d62f1bf7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pep8-naming \
-python3.10dist(pep8-naming) \
+python3.10dist-pep8-naming \
 python310-pep8-naming \
-python3dist(pep8-naming)"
+python3dist-pep8-naming"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flake8 \
 python310-flake8-polyfill \
 python310-setuptools"

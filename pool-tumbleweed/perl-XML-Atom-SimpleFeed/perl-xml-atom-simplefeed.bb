@@ -14,9 +14,9 @@ RPM_NAME = "perl-XML-Atom-SimpleFeed-0.905-1.2.noarch.rpm"
 RPM_HASH = "d674391557a20c20015cb457073378fefc95af6296e91583e0885e0857bbfd496822d8360a2eaaaf032ba3a254a2639e7556fe0c18d1c8d855b79f285e91e3f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Atom::SimpleFeed) \
+RPROVIDES:${PN} += "perl-XML--Atom--SimpleFeed \
 perl-XML-Atom-SimpleFeed"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

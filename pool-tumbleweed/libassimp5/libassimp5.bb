@@ -11,17 +11,16 @@ PV = "5.2.5"
 RPM_NAME = "libassimp5-5.2.5-2.1.aarch64.rpm"
 RPM_HASH = "146500244a030edc7f86da1f1875c4ff2a1c882834daa18ed457b1792847992a26a3c8aabbc98588d016f846fae02c8e3057d633a9e20553eb549d0c8418649e"
 
-RPROVIDES:${PN} += "libassimp.so.5()(64bit) \
-libassimp5 \
-libassimp5(aarch-64)"
+RPROVIDES:${PN} += "libassimp.so.5 \
+libassimp5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libminizip.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libminizip.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

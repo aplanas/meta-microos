@@ -12,13 +12,13 @@ RPM_HASH = "c1b159a6c5e2cf0affd873d9c50905bcde251c06d3130aa5e668a711e8488fd22b8b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-seqdiag \
-python3.10dist(seqdiag) \
+python3.10dist-seqdiag \
 python310-seqdiag \
-python3dist(seqdiag)"
+python3dist-seqdiag"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-blockdiag \
 python310-setuptools \
 update-alternatives"

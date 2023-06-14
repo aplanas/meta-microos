@@ -15,12 +15,12 @@ RPM_HASH = "441d3a00bae9bbc0289704f0aef95d978bda3949edb1fb92b9aba314f15b3a82c457
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rpy2 \
-python3.10dist(rpy2) \
+python3.10dist-rpy2 \
 python310-rpy2 \
-python3dist(rpy2)"
+python3dist-rpy2"
 
 RDEPENDS:${PN} += "R-base \
-python(abi) \
+python-abi \
 python310-cffi \
 python310-numpy \
 readline"

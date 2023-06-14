@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beust-jcommander \
 jcommander \
-mvn(com.beust:jcommander) \
-mvn(com.beust:jcommander:pom:) \
-osgi(com.beust.jcommander)"
+mvn-com.beust-jcommander \
+mvn-com.beust-jcommander-pom- \
+osgi-com.beust.jcommander"
 
 RDEPENDS:${PN} += "java \
 java-headless \

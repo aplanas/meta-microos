@@ -11,21 +11,20 @@ PV = "3.89"
 RPM_NAME = "mozilla-nss-3.89-2.1.aarch64.rpm"
 RPM_HASH = "b8ea44f40c9618755461c17442b492b5d184de4141a9b15dab6b6bc0f9867a1c75398e2881947476fdb6ae2e0fb3eb3261ef00310b8c2d8e6d3c3d01f48889a1"
 
-RPROVIDES:${PN} += "libnss3.so()(64bit) \
-libnssutil3.so()(64bit) \
-libsmime3.so()(64bit) \
-libssl3.so()(64bit) \
-mozilla-nss \
-mozilla-nss(aarch-64)"
+RPROVIDES:${PN} += "libnss3.so \
+libnssutil3.so \
+libsmime3.so \
+libssl3.so \
+mozilla-nss"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libfreebl3 \
-libnspr4.so()(64bit) \
-libnssckbi.so()(64bit) \
-libplc4.so()(64bit) \
-libplds4.so()(64bit) \
+libnspr4.so \
+libnssckbi.so \
+libplc4.so \
+libplds4.so \
 libsoftokn3 \
 mozilla-nspr"
 

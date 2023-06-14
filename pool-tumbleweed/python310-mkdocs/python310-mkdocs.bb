@@ -11,25 +11,25 @@ RPM_HASH = "49e24cb13ab6ce2c533a84518dc2d1e1b206ba28bb789d71cf7e3389cdb2465625e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mkdocs \
-python3.10dist(mkdocs) \
+python3.10dist-mkdocs \
 python310-mkdocs \
-python3dist(mkdocs)"
+python3dist-mkdocs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 fontawesome-fonts \
 fontawesome-fonts-web \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-Markdown \
 python310-MarkupSafe \
 python310-PyYAML \
 python310-click \
 python310-ghp-import \
-python310-importlib_metadata \
+python310-importlib-metadata \
 python310-mergedeep \
 python310-packaging \
-python310-pyyaml_env_tag \
+python310-pyyaml-env-tag \
 python310-watchdog \
 update-alternatives"
 

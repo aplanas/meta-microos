@@ -13,11 +13,11 @@ RPM_HASH = "ee8d2cf3e16465ed9bb38682e79989639263849f2b4e54e3252fc1e2bde65f7769e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-telemetry \
-python3.10dist(jupyter-telemetry) \
+python3.10dist-jupyter-telemetry \
 python310-jupyter-telemetry \
-python3dist(jupyter-telemetry)"
+python3dist-jupyter-telemetry"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jsonschema \
 python310-python-json-logger \
 python310-ruamel.yaml \

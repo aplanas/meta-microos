@@ -10,7 +10,7 @@ RPM_HASH = "28bbd60105507e3744b37c263cecf9bac2e75da6db27f3943c9277450cad4f4e110a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptec-firmware \
-firmware(aic94xx-seq.fw)"
+firmware-aic94xx-seq.fw"
 
 RDEPENDS:${PN} += ""
 

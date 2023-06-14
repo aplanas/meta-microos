@@ -10,11 +10,10 @@ RPM_HASH = "5c7571c530bb4e4c21dc67d84bf8f5bf7ddfadd3f252a2e49ffc365db52ca09968b9
 RPROVIDES:${PN} += "openmpi-macros-devel \
 openmpi-macros-provider \
 openmpi4-macros-devel \
-openmpi4-macros-devel(aarch-64) \
-rpm_macro(openmpi_devel_requires) \
-rpm_macro(openmpi_prefix) \
-rpm_macro(openmpi_requires) \
-rpm_macro(setup_openmpi)"
+rpm-macro-openmpi-devel-requires \
+rpm-macro-openmpi-prefix \
+rpm-macro-openmpi-requires \
+rpm-macro-setup-openmpi"
 
 RDEPENDS:${PN} += "openmpi4-devel"
 

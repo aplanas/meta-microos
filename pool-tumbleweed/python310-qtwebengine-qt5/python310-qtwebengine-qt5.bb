@@ -11,30 +11,22 @@ RPM_HASH = "16a3c377d11939071c5377dbf03c023aa6549c71ba77d37a5c54e0fe1a37f4005ff1
 
 RPROVIDES:${PN} += "python3-PyQtWebEngine \
 python3-qtwebengine-qt5 \
-python3.10dist(pyqtwebengine) \
+python3.10dist-pyqtwebengine \
 python310-PyQtWebEngine \
 python310-qtwebengine-qt5 \
-python310-qtwebengine-qt5(aarch-64) \
-python3dist(pyqtwebengine)"
+python3dist-pyqtwebengine"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5WebEngine.so.5()(64bit) \
-libQt5WebEngine.so.5(Qt_5)(64bit) \
-libQt5WebEngineCore.so.5()(64bit) \
-libQt5WebEngineCore.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5WebEngine.so.5 \
+libQt5WebEngineCore.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-qt5 \
 python310-qt5-sip"
 

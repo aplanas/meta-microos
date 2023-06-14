@@ -13,21 +13,19 @@ PV = "2.3.6"
 RPM_NAME = "qca-qt6-plugins-2.3.6-1.1.aarch64.rpm"
 RPM_HASH = "f783004f421d74462cf1cacad85f3ef9260fa729f7bb63b2e820475983f0ef346171f510d5fcd421f934d924d2c9cd4d7979cc21849164bfbfe7f6a7c17bba12"
 
-RPROVIDES:${PN} += "libqca-cyrus-sasl.so()(64bit) \
-libqca-nss.so()(64bit) \
-libqca-pkcs11.so()(64bit) \
-qca-qt6-plugins \
-qca-qt6-plugins(aarch-64)"
+RPROVIDES:${PN} += "libqca-cyrus-sasl.so \
+libqca-nss.so \
+libqca-pkcs11.so \
+qca-qt6-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnss3.so()(64bit) \
-libpkcs11-helper.so.1()(64bit) \
-libqca-qt6.so.2()(64bit) \
-libsasl2.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnss3.so \
+libpkcs11-helper.so.1 \
+libqca-qt6.so.2 \
+libsasl2.so.3 \
+libstdc++.so.6"
 
 inherit rpm

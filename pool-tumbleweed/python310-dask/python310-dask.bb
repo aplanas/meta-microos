@@ -19,14 +19,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dask \
 python3-dask-multiprocessing \
-python3.10dist(dask) \
+python3.10dist-dask \
 python310-dask \
 python310-dask-multiprocessing \
-python3dist(dask)"
+python3dist-dask"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-click \
 python310-cloudpickle \

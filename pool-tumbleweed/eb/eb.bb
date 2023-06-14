@@ -12,14 +12,13 @@ PV = "4.4.3"
 RPM_NAME = "eb-4.4.3-3.28.aarch64.rpm"
 RPM_HASH = "5c2b44d57039438b222b6d3e79e13c78eda867a559cd05d79ff0f4d7ce65aa8041c3aeb4933eb2231fa987961e6a5e94f4f40fc61942140301ba313f77d94451"
 
-RPROVIDES:${PN} += "config(eb) \
-eb \
-eb(aarch-64)"
+RPROVIDES:${PN} += "config-eb \
+eb"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libeb.so.16()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libeb.so.16 \
+libz.so.1"
 
 inherit rpm

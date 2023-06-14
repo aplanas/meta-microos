@@ -12,13 +12,13 @@ RPM_NAME = "python39-jupyter_latex_envs-1.4.6-5.7.noarch.rpm"
 RPM_HASH = "42c769fe753e65bf79d6944dfc429cbae4410c0843d27f92d86a4ed06860976bb5a3d91d854c8398ce2dcac3f6c2ccd451c8340e835579128d950e4fcd00f840"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(jupyter-latex-envs) \
-python39-jupyter_latex_envs \
-python3dist(jupyter-latex-envs)"
+RPROVIDES:${PN} += "python3.9dist-jupyter-latex-envs \
+python39-jupyter-latex-envs \
+python3dist-jupyter-latex-envs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-ipython \
-python39-jupyter_core \
+python39-jupyter-core \
 python39-nbconvert \
 python39-notebook \
 python39-traitlets"

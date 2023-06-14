@@ -9,8 +9,7 @@ PV = "23.04.1"
 RPM_NAME = "mailimporter-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "a5bac42634480b960e1d7cab617535a802a3387690b857def01a8fc9dc57fed34fe53f9e7ebf6bf820be743e4f34ca9ca44a1f6d9e2d03127e4c81e30aad075b"
 
-RPROVIDES:${PN} += "mailimporter \
-mailimporter(aarch-64)"
+RPROVIDES:${PN} += "mailimporter"
 
 RDEPENDS:${PN} += ""
 

@@ -9,20 +9,19 @@ PV = "4.1.4"
 RPM_NAME = "python39-yt-4.1.4-1.5.aarch64.rpm"
 RPM_HASH = "ebc48c36ddfd41ea44587461141bb0d7b1cc3908db081b6d55cab5ed5459475d31e93a07d379f920d8ac6ae14444f90b9dea3330cb7a2ce23e26b051d19a5a75"
 
-RPROVIDES:${PN} += "python3.9dist(yt) \
+RPROVIDES:${PN} += "python3.9dist-yt \
 python39-yt \
-python39-yt(aarch-64) \
-python3dist(yt)"
+python3dist-yt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-ipython \
 python39-matplotlib \
 python39-more-itertools \

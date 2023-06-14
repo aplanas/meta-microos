@@ -9,25 +9,22 @@ PV = "3.18.5"
 RPM_NAME = "petsc_3_18_5-gnu-mpich-hpc-devel-3.18.5-1.1.aarch64.rpm"
 RPM_HASH = "9de350f70cd9764fdb3db01bacae616adc8faf688a11876ce89a731ffca049305b1a08f565a794441f1ecf24da0db990b2a7b8c1ca931a3d5eb582297f465c16"
 
-RPROVIDES:${PN} += "petsc_3_18_5-gnu-mpich-hpc-devel \
-petsc_3_18_5-gnu-mpich-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "petsc-3-18-5-gnu-mpich-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-gnu-mpich-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 libopenblas-gnu-hpc-devel \
-libpetsc_3_18_5-gnu-mpich-hpc \
+libpetsc-3-18-5-gnu-mpich-hpc \
 libscalapack2-gnu-mpich-hpc-devel \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 mpich-gnu-hpc-devel"
 
 inherit rpm

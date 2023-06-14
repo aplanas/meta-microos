@@ -11,10 +11,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libopenssl-devel \
 openssl-devel \
-pkgconfig(libcrypto) \
-pkgconfig(libopenssl) \
-pkgconfig(libssl) \
-pkgconfig(openssl)"
+pkgconfig-libcrypto \
+pkgconfig-libopenssl \
+pkgconfig-libssl \
+pkgconfig-openssl"
 
 RDEPENDS:${PN} += "libopenssl-3-devel \
 libopenssl3 \

@@ -10,8 +10,7 @@ PV = "8.9p1"
 RPM_NAME = "openssh-server-config-rootlogin-8.9p1-9.2.aarch64.rpm"
 RPM_HASH = "5e785f926c105144112c41075d68be1647e79296c6267fd95193457831e673993744ba8c6c336cc6ab7fbe04f982a54f723a0e3d0002e067d8e1cb77f512f095"
 
-RPROVIDES:${PN} += "openssh-server-config-rootlogin \
-openssh-server-config-rootlogin(aarch-64)"
+RPROVIDES:${PN} += "openssh-server-config-rootlogin"
 
 RDEPENDS:${PN} += "openssh-server"
 

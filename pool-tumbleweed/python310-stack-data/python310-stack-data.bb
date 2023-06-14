@@ -9,11 +9,11 @@ RPM_HASH = "a3d91a2320b23e1bd054489a7322ff6fa3c92580d05bcc05659b948eb739aaf4ade0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stack-data \
-python3.10dist(stack-data) \
+python3.10dist-stack-data \
 python310-stack-data \
-python3dist(stack-data)"
+python3dist-stack-data"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-asttokens \
 python310-executing \
 python310-pure-eval"

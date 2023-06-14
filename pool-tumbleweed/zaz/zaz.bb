@@ -15,26 +15,23 @@ PV = "1.0.1"
 RPM_NAME = "zaz-1.0.1-2.3.aarch64.rpm"
 RPM_HASH = "421ae71ae4325660152dd0b452fb7b16066b8b88b6a47a5645f86e187464968f9fb14030827b05f485943a1431a9735e2b502a07b35285a36bd94e2d77818fb2"
 
-RPROVIDES:${PN} += "application() \
-application(zaz.desktop) \
-zaz \
-zaz(aarch-64)"
+RPROVIDES:${PN} += "zaz"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libftgl.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtheoradec.so.1()(64bit) \
-libtheoraenc.so.1()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisenc.so.2()(64bit) \
-libvorbisfile.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libc.so.6 \
+libftgl.so.2 \
+libgcc-s.so.1 \
+libm.so.6 \
+libogg.so.0 \
+libstdc++.so.6 \
+libtheoradec.so.1 \
+libtheoraenc.so.1 \
+libvorbis.so.0 \
+libvorbisenc.so.2 \
+libvorbisfile.so.3 \
 opengl-games-utils"
 
 inherit rpm

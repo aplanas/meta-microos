@@ -14,17 +14,16 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstRtsp-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "e05635bd54b5e594bf3439cd31b870b5df1b1011f252ea5b92513c03567ea2ff19ba3636fafa7dfe1e3b81f4ba4fbc654723b9aee771e15a42da828c136d490a"
 
-RPROVIDES:${PN} += "typelib(GstRtsp) \
-typelib-1_0-GstRtsp-1_0 \
-typelib-1_0-GstRtsp-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstRtsp-1-0 \
+typelib-GstRtsp"
 
-RDEPENDS:${PN} += "libgstrtsp-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(GstBase) \
-typelib(GstSdp)"
+RDEPENDS:${PN} += "libgstrtsp-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio \
+typelib-Gst \
+typelib-GstBase \
+typelib-GstSdp"
 
 inherit rpm

@@ -16,13 +16,12 @@ RPM_NAME = "postgresql13-timescaledb-2.10.2-1.2.aarch64.rpm"
 RPM_HASH = "82027230fbd5fef5726aa98c4735048699ef5f7218694d3c0fc8db1e983b7e647d40f3b5ff07bddd8bd2fa8bfdbfd25a09b0e1b836320932bbf98640fd28dcab"
 
 RPROVIDES:${PN} += "postgresql13-timescaledb \
-postgresql13-timescaledb(aarch-64) \
 postgresql13-timescaledb-llvmjit"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
 postgresql13-server"
 
 inherit rpm

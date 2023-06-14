@@ -13,13 +13,12 @@ PV = "1.15"
 RPM_NAME = "libxcb-randr0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "4f7ba8f5d90a514d56caf833055f7add9b8f745aadaae34040993e4eae70e005557f195ef8f6a7dc23a68629c87b4a6c152d707ef29ddb9270ff4959c9853fc6"
 
-RPROVIDES:${PN} += "libxcb-randr.so.0()(64bit) \
-libxcb-randr0 \
-libxcb-randr0(aarch-64)"
+RPROVIDES:${PN} += "libxcb-randr.so.0 \
+libxcb-randr0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

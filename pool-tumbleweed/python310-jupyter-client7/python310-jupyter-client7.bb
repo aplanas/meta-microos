@@ -15,19 +15,16 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-jupyter-client \
 jupyter-jupyter-client-doc \
 jupyter-jupyter-client7 \
-jupyter-jupyter_client \
 python3-jupyter-client \
 python3-jupyter-client7 \
-python3-jupyter_client \
-python3.10dist(jupyter-client) \
+python3.10dist-jupyter-client \
 python310-jupyter-client \
 python310-jupyter-client7 \
-python310-jupyter_client \
-python3dist(jupyter-client)"
+python3dist-jupyter-client"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-entrypoints \
 python310-jupyter-core \
 python310-nest-asyncio \

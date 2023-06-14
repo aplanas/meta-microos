@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-cognitiveservices-formrecognizer-0.1.1-2.11.noarch.rp
 RPM_HASH = "ff5b1c39b866c471769d91794804462b1e610ec7765b4d56c8177f6d04f8ab0ead18329bf57212681f34cea908092bc0c329b8e7519a90dd8c8676290f82e256"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-formrecognizer) \
+RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-formrecognizer \
 python39-azure-cognitiveservices-formrecognizer \
-python3dist(azure-cognitiveservices-formrecognizer)"
+python3dist-azure-cognitiveservices-formrecognizer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-cognitiveservices-nspkg \
 python39-azure-common \
 python39-azure-nspkg \

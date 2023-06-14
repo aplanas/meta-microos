@@ -12,8 +12,7 @@ RPM_NAME = "libsocketcan-devel-0.0.12-1.6.aarch64.rpm"
 RPM_HASH = "8b3f58d4ec2c9d8173cef06944a322a176bd727322edf6cfa488729ed5d3a50280419506c8fb691eab93bc0a21a9a501b53e3eef91d618dc44d9997df8521e00"
 
 RPROVIDES:${PN} += "libsocketcan-devel \
-libsocketcan-devel(aarch-64) \
-pkgconfig(libsocketcan)"
+pkgconfig-libsocketcan"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsocketcan2"

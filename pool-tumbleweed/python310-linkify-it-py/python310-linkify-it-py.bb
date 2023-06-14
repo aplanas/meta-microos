@@ -14,11 +14,11 @@ RPM_HASH = "36902e4fe8552c48aebfbaa68d92ee7957113ecc9c93ed4476e743c40f1b829d965b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-linkify-it-py \
-python3.10dist(linkify-it-py) \
+python3.10dist-linkify-it-py \
 python310-linkify-it-py \
-python3dist(linkify-it-py)"
+python3dist-linkify-it-py"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-uc-micro-py"
 
 inherit rpm

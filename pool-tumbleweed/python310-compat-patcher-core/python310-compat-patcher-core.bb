@@ -9,11 +9,11 @@ RPM_HASH = "e485e573d28bc5a02f91d41afb3a7a263e4023d84640097aeb726dd0d50aba861659
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-compat-patcher-core \
-python3.10dist(compat-patcher-core) \
+python3.10dist-compat-patcher-core \
 python310-compat-patcher-core \
-python3dist(compat-patcher-core)"
+python3dist-compat-patcher-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami-addons-lang \
 kirigami-addons-lang-all \
-locale(kirigami-addons:ar) \
-locale(kirigami-addons:az) \
-locale(kirigami-addons:bg) \
-locale(kirigami-addons:ca) \
-locale(kirigami-addons:ca@valencia) \
-locale(kirigami-addons:cs) \
-locale(kirigami-addons:de) \
-locale(kirigami-addons:el) \
-locale(kirigami-addons:en_GB) \
-locale(kirigami-addons:es) \
-locale(kirigami-addons:eu) \
-locale(kirigami-addons:fi) \
-locale(kirigami-addons:fr) \
-locale(kirigami-addons:hi) \
-locale(kirigami-addons:hu) \
-locale(kirigami-addons:it) \
-locale(kirigami-addons:ka) \
-locale(kirigami-addons:ko) \
-locale(kirigami-addons:nl) \
-locale(kirigami-addons:nn) \
-locale(kirigami-addons:pl) \
-locale(kirigami-addons:pt) \
-locale(kirigami-addons:pt_BR) \
-locale(kirigami-addons:ro) \
-locale(kirigami-addons:ru) \
-locale(kirigami-addons:sk) \
-locale(kirigami-addons:sl) \
-locale(kirigami-addons:sv) \
-locale(kirigami-addons:ta) \
-locale(kirigami-addons:tr) \
-locale(kirigami-addons:uk) \
-locale(kirigami-addons:zh_CN) \
-locale(kirigami-addons:zh_TW)"
+locale-kirigami-addons-ar \
+locale-kirigami-addons-az \
+locale-kirigami-addons-bg \
+locale-kirigami-addons-ca \
+locale-kirigami-addons-ca@valencia \
+locale-kirigami-addons-cs \
+locale-kirigami-addons-de \
+locale-kirigami-addons-el \
+locale-kirigami-addons-en-GB \
+locale-kirigami-addons-es \
+locale-kirigami-addons-eu \
+locale-kirigami-addons-fi \
+locale-kirigami-addons-fr \
+locale-kirigami-addons-hi \
+locale-kirigami-addons-hu \
+locale-kirigami-addons-it \
+locale-kirigami-addons-ka \
+locale-kirigami-addons-ko \
+locale-kirigami-addons-nl \
+locale-kirigami-addons-nn \
+locale-kirigami-addons-pl \
+locale-kirigami-addons-pt \
+locale-kirigami-addons-pt-BR \
+locale-kirigami-addons-ro \
+locale-kirigami-addons-ru \
+locale-kirigami-addons-sk \
+locale-kirigami-addons-sl \
+locale-kirigami-addons-sv \
+locale-kirigami-addons-ta \
+locale-kirigami-addons-tr \
+locale-kirigami-addons-uk \
+locale-kirigami-addons-zh-CN \
+locale-kirigami-addons-zh-TW"
 
 RDEPENDS:${PN} += "kirigami-addons"
 

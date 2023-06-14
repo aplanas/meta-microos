@@ -9,12 +9,12 @@ RPM_HASH = "40ebece0ccee418c6b2b8fb7dca2827f75e9c17682a5d0b6145dc132a4a7fdc16b86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-elasticsearch-dsl \
-python3.10dist(elasticsearch-dsl) \
+python3.10dist-elasticsearch-dsl \
 python310-elasticsearch-dsl \
-python3dist(elasticsearch-dsl)"
+python3dist-elasticsearch-dsl"
 
-RDEPENDS:${PN} += "(python310-elasticsearch >= 7.0.0 with python310-elasticsearch < 8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-elasticsearch >= 7.0.0 with python310-elasticsearch < 8 \
+python-abi \
 python310-python-dateutil"
 
 inherit rpm

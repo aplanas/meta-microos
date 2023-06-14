@@ -28,12 +28,11 @@ RPM_NAME = "nmon-16n-1.6.aarch64.rpm"
 RPM_HASH = "9823b7b7f6ef61ae6302eb61b8ccf28b8843485561d7f43b05cce75b0f078091053e4e3fbf9f8d6e9955e28e12e3fbb7570cf90a3090e36811335591672cadee"
 
 RPROVIDES:${PN} += "lmon \
-nmon \
-nmon(aarch-64)"
+nmon"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -9,8 +9,8 @@ RPM_HASH = "22a4c4fd6cd1755a4d7460953d0b43afdeeb19d1d7f3708c9c3ae3f6d3ef8913fa80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-triggerd \
-perl(Kanku::Daemon::TriggerD) \
-perl(Kanku::Listener::RabbitMQ)"
+perl-Kanku--Daemon--TriggerD \
+perl-Kanku--Listener--RabbitMQ"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \

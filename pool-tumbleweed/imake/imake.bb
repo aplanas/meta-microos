@@ -15,13 +15,12 @@ PV = "1.0.9"
 RPM_NAME = "imake-1.0.9-1.2.aarch64.rpm"
 RPM_HASH = "b6c8c19eb11ade97e1c55c86b4abfb4401e0098f8ccf7b562fde1a2dc30c1a6346790a93cbc59088f081d1001adc7f54c55071e3b1520b1c5998da72bf0385b6"
 
-RPROVIDES:${PN} += "imake \
-imake(aarch-64)"
+RPROVIDES:${PN} += "imake"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 xorg-cf-files"
 
 inherit rpm

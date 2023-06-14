@@ -11,17 +11,16 @@ RPM_HASH = "822483d973fd16001980ea7425539d279dae1ef818981503799c8c6bc23ecdf1b90c
 
 RPROVIDES:${PN} += "python3-python-qpid-proton \
 python3-qpid-proton \
-python3.10dist(python-qpid-proton) \
+python3.10dist-python-qpid-proton \
 python310-python-qpid-proton \
-python310-python-qpid-proton(aarch-64) \
 python310-qpid-proton \
-python3dist(python-qpid-proton)"
+python3dist-python-qpid-proton"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
 libqpid-proton11 \
-libssl.so.3()(64bit) \
-python(abi)"
+libssl.so.3 \
+python-abi"
 
 inherit rpm

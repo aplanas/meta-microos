@@ -8,14 +8,13 @@ PV = "1.6"
 RPM_NAME = "isight-firmware-tools-1.6-17.29.aarch64.rpm"
 RPM_HASH = "6b7776ff532938df93fdb43de76a50b74099783529f23b08156c56c74b9e444babf5957229a2a69387066a0fe56d7004bc0c8760fa442b8324f8e34a1622a141"
 
-RPROVIDES:${PN} += "isight-firmware-tools \
-isight-firmware-tools(aarch-64)"
+RPROVIDES:${PN} += "isight-firmware-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libusb-0.1.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libusb-0.1.so.4 \
 systemd"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPM_NAME = "texlive-texdate-2023.201.2.0svn49362-54.1.noarch.rpm"
 RPM_HASH = "30044effb8331e9d910d8b329d2537f786ec356b0226c126dbde2517b9da799f8e7a1869e149ff3ef66d4951780fd11db0b3f539b3646c271ed1cd29ada4cc54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texdate.sty) \
+RPROVIDES:${PN} += "tex-texdate.sty \
 texlive-texdate"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(iflang.sty) \
-tex(modulus.sty) \
-tex(padcount.sty) \
+tex-iflang.sty \
+tex-modulus.sty \
+tex-padcount.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

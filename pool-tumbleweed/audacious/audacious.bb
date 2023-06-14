@@ -10,52 +10,16 @@ PV = "4.3"
 RPM_NAME = "audacious-4.3-1.3.aarch64.rpm"
 RPM_HASH = "efd1972c6c087c23c81143b24767d88601baf33540f3113e04925964e2afef592326bd3ecf9e91cc6e90d67a7482914e62f1a2b01c972c1671f1b619da8f8834"
 
-RPROVIDES:${PN} += "application() \
-application(audacious.desktop) \
-audacious \
-audacious(aarch-64) \
-metainfo() \
-metainfo(audacious.appdata.xml) \
-mimehandler(application/ogg) \
-mimehandler(application/x-cue) \
-mimehandler(application/x-ogg) \
-mimehandler(application/xspf+xml) \
-mimehandler(audio/aac) \
-mimehandler(audio/flac) \
-mimehandler(audio/midi) \
-mimehandler(audio/mp3) \
-mimehandler(audio/mp4) \
-mimehandler(audio/mpeg) \
-mimehandler(audio/mpegurl) \
-mimehandler(audio/ogg) \
-mimehandler(audio/prs.sid) \
-mimehandler(audio/wav) \
-mimehandler(audio/x-flac) \
-mimehandler(audio/x-it) \
-mimehandler(audio/x-mod) \
-mimehandler(audio/x-mp3) \
-mimehandler(audio/x-mpeg) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-ms-asx) \
-mimehandler(audio/x-ms-wma) \
-mimehandler(audio/x-musepack) \
-mimehandler(audio/x-s3m) \
-mimehandler(audio/x-scpls) \
-mimehandler(audio/x-stm) \
-mimehandler(audio/x-vorbis+ogg) \
-mimehandler(audio/x-wav) \
-mimehandler(audio/x-wavpack) \
-mimehandler(audio/x-xm) \
-mimehandler(x-content/audio-cdda)"
+RPROVIDES:${PN} += "audacious"
 
-RDEPENDS:${PN} += "audacious-plugins(aarch-64) \
-ld-linux-aarch64.so.1()(64bit) \
-libaudcore.so.5()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "audacious-plugins \
+ld-linux-aarch64.so.1 \
+libaudcore.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

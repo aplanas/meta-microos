@@ -11,20 +11,19 @@ PV = "2.2.0"
 RPM_NAME = "pfscalibration-2.2.0-3.14.aarch64.rpm"
 RPM_HASH = "4db6cb5a9170abb6c6bba98452c2cbfce0d50dc1eb0c7178f4fb4f768f2740c3d362bfc3f7a0932e7ad81ea5f8175f1eb827220aa5eec897891f0122a6aaf96c"
 
-RPROVIDES:${PN} += "pfscalibration \
-pfscalibration(aarch-64)"
+RPROVIDES:${PN} += "pfscalibration"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 dcraw \
 jhead \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpfs.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpfs.so.2 \
+libstdc++.so.6 \
 perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

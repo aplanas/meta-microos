@@ -17,7 +17,7 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(strict) \
+perl-strict \
 sed \
 texlive \
 texlive-dviinfox-bin \

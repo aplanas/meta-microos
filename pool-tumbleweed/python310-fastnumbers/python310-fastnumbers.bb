@@ -17,13 +17,12 @@ RPM_NAME = "python310-fastnumbers-3.2.1-1.8.aarch64.rpm"
 RPM_HASH = "90ac52903fa6e56e37bde0b4b9f76a6016d473868df1b0773ab5ed7302f1107c27487f1fe997c5c76dec2af9ac659058f01d47a65ced0bcd9010e095aa23d213"
 
 RPROVIDES:${PN} += "python3-fastnumbers \
-python3.10dist(fastnumbers) \
+python3.10dist-fastnumbers \
 python310-fastnumbers \
-python310-fastnumbers(aarch-64) \
-python3dist(fastnumbers)"
+python3dist-fastnumbers"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

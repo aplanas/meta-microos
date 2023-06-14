@@ -13,15 +13,14 @@ PV = "1.3.0.1"
 RPM_NAME = "librsb-devel-1.3.0.1-1.5.aarch64.rpm"
 RPM_HASH = "91b9cf2a10906213ea48c41f10e0e1df25274916d87f4c034fd76a7e02d409d9a3fdd604e8b2aa8c340d3c9240a94cc7095160444f8e22c6e1932432aa47002a"
 
-RPROVIDES:${PN} += "librsb-devel \
-librsb-devel(aarch-64)"
+RPROVIDES:${PN} += "librsb-devel"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-librsb.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgomp.so.1 \
+libm.so.6 \
+librsb.so.0 \
 librsb0"
 
 inherit rpm

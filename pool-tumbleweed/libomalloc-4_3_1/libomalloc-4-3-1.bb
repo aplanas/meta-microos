@@ -7,13 +7,12 @@ PV = "4.3.1.p3"
 RPM_NAME = "libomalloc-4_3_1-4.3.1.p3-1.3.aarch64.rpm"
 RPM_HASH = "4e14911aef317642e2b50a36abe7ed671d932d1a731e1965d68e7672acb94eea6ac4e8238054ca89a65bd51efc128e6f5e988b38519bbe85d4339473ca4d6a49"
 
-RPROVIDES:${PN} += "libomalloc-4.3.1.p3.so()(64bit) \
-libomalloc-4_3_1 \
-libomalloc-4_3_1(aarch-64)"
+RPROVIDES:${PN} += "libomalloc-4-3-1 \
+libomalloc-4.3.1.p3.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

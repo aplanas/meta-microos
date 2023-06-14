@@ -10,11 +10,11 @@ RPM_HASH = "1abe91e1824f3c7c3137a3625fb82a1c59a680956ed543390f7f950e0881f05b8eab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-axolotl \
-python3.10dist(python-axolotl) \
+python3.10dist-python-axolotl \
 python310-axolotl \
-python3dist(python-axolotl)"
+python3dist-python-axolotl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-axolotl-curve25519 \
 python310-cryptography \
 python310-protobuf"

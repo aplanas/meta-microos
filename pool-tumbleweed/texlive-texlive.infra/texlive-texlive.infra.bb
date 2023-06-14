@@ -12,20 +12,20 @@ RPM_NAME = "texlive-texlive.infra-2023.201.svn66512-54.1.noarch.rpm"
 RPM_HASH = "56063696c730a7b9b4fc99b6e61178396f05531ce98377a339482224eb5a589dc80be07f561beccd60cfa175e456b279112aa7e62c4018ffefd9ba4a1870d879"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(TeXLive::TLConfFile) \
-perl(TeXLive::TLConfig) \
-perl(TeXLive::TLCrypto) \
-perl(TeXLive::TLPDB) \
-perl(TeXLive::TLPOBJ) \
-perl(TeXLive::TLPSRC) \
-perl(TeXLive::TLPaper) \
-perl(TeXLive::TLTREE) \
-perl(TeXLive::TLUtils) \
-perl(TeXLive::TLWinGoo) \
-perl(TeXLive::TeXCatalogue) \
-perl(TeXLive::TeXCatalogue::Entry) \
-tex(fmtutil-hdr.cnf) \
-tex(updmap-hdr.cfg) \
+RPROVIDES:${PN} += "perl-TeXLive--TLConfFile \
+perl-TeXLive--TLConfig \
+perl-TeXLive--TLCrypto \
+perl-TeXLive--TLPDB \
+perl-TeXLive--TLPOBJ \
+perl-TeXLive--TLPSRC \
+perl-TeXLive--TLPaper \
+perl-TeXLive--TLTREE \
+perl-TeXLive--TLUtils \
+perl-TeXLive--TLWinGoo \
+perl-TeXLive--TeXCatalogue \
+perl-TeXLive--TeXCatalogue--Entry \
+tex-fmtutil-hdr.cnf \
+tex-updmap-hdr.cfg \
 texlive-texlive.infra"
 
 RDEPENDS:${PN} += "/bin/sh \

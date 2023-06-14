@@ -9,11 +9,10 @@ RPM_NAME = "perl-Device-SerialPort-1.04-26.37.aarch64.rpm"
 RPM_HASH = "83e2a2735cc0ffc417a6efaa83e9e4e3bccb66cdb0967d4c5937874271bf1303dfd3403189765c33de309bacc6803e6b14f4f90268f6bf026c82ff3748907b3b"
 
 RPROVIDES:${PN} += "Device-SerialPort \
-perl(Device::SerialPort) \
-perl-Device-SerialPort \
-perl-Device-SerialPort(aarch-64)"
+perl-Device--SerialPort \
+perl-Device-SerialPort"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

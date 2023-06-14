@@ -10,7 +10,7 @@ RPM_NAME = "fonehome-server-1.2.2-1.4.noarch.rpm"
 RPM_HASH = "a94acd31dcd015520f7e91628e7bfe52a63dda8cabfbc38edee517bcf3a2ee471377b575947c53eb05b679d7b6c4ac2fb90b4a1a15e580af2d0306444d72fe2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(fonehome-server) \
+RPROVIDES:${PN} += "config-fonehome-server \
 fonehome-server"
 
 RDEPENDS:${PN} += "/bin/bash \

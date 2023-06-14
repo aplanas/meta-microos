@@ -19,11 +19,11 @@ RPM_NAME = "python39-wsproto-1.2.0-3.1.noarch.rpm"
 RPM_HASH = "e89935367ed29f0962587ca644b0a73ffbdc7793a0ac0847201d2fd709cccc13316c09cb8806ec3c1db6714144171b21d721d488a5e191771e88dbf79f157a99"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(wsproto) \
+RPROVIDES:${PN} += "python3.9dist-wsproto \
 python39-wsproto \
-python3dist(wsproto)"
+python3dist-wsproto"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-h11"
 
 inherit rpm

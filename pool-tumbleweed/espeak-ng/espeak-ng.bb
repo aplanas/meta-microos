@@ -12,15 +12,14 @@ PV = "1.51"
 RPM_NAME = "espeak-ng-1.51-1.8.aarch64.rpm"
 RPM_HASH = "96a95436653fc8ad3067b1b316023f3e71943fc39027e18c827658ab897ad72738ae2e69a85a1b1515ff3c6b32d18973044f9654d00b32fc40724aeebb4d9324"
 
-RPROVIDES:${PN} += "espeak-ng \
-espeak-ng(aarch-64)"
+RPROVIDES:${PN} += "espeak-ng"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libespeak-ng.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpcaudio.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libespeak-ng.so.1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpcaudio.so.0 \
+libstdc++.so.6"
 
 inherit rpm

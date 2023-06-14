@@ -16,14 +16,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "fonttools \
 python3-FontTools \
 python3-fonttools \
-python3.10dist(fonttools) \
+python3.10dist-fonttools \
 python310-FontTools \
 python310-fonttools \
-python3dist(fonttools)"
+python3dist-fonttools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-fs \
 update-alternatives"
 

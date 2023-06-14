@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-rpm-macros"
 
-RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem \
+RDEPENDS:${PN} += "jupyter-jupyter-core-filesystem \
 jupyter-jupyterlab-filesystem \
 jupyter-notebook-filesystem"
 

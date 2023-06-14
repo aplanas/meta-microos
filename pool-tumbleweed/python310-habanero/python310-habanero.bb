@@ -9,11 +9,11 @@ RPM_HASH = "5a896562f01aeee9ce8ba6c170249aa30b0615ebcea0da40e364d9448f36e9b51445
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-habanero \
-python3.10dist(habanero) \
+python3.10dist-habanero \
 python310-habanero \
-python3dist(habanero)"
+python3dist-habanero"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-tqdm"
 

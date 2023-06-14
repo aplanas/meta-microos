@@ -18,7 +18,7 @@ RPM_NAME = "texlive-url-2023.201.3.4svn32528-53.1.noarch.rpm"
 RPM_HASH = "bd283c992813d98bd00a197630d04ba066fb0bebc83afdcd47abc1d2268f09d4a938ffc569aea5724c8e20ad2c4075958cc7158cb5b974aaf6a2cd91c0f9145a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(url.sty) \
+RPROVIDES:${PN} += "tex-url.sty \
 texlive-url"
 
 RDEPENDS:${PN} += "/bin/sh \

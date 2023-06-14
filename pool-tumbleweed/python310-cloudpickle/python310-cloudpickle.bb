@@ -18,10 +18,10 @@ RPM_HASH = "ed81413c7abe9990f220403a87b4129c558e12d9eeabdb593441cb2d2dcc90c3653c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cloudpickle \
-python3.10dist(cloudpickle) \
+python3.10dist-cloudpickle \
 python310-cloudpickle \
-python3dist(cloudpickle)"
+python3dist-cloudpickle"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

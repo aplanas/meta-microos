@@ -11,10 +11,9 @@ PV = "2.1.0"
 RPM_NAME = "libpaper-2.1.0-1.1.aarch64.rpm"
 RPM_HASH = "9ef5c0dcd925d820240f38ddd574d00cb39d804251e97932c822b2fa74f2da6baf9a0c057f3fea6a47fc1e9f5ae2b0d5ffa8c545ac4af1a5889d8c7cec4ddd90"
 
-RPROVIDES:${PN} += "config(libpaper) \
+RPROVIDES:${PN} += "config-libpaper \
 libpaper \
-libpaper(aarch-64) \
-paper:/etc/paperspecs"
+paper-/etc/paperspecs"
 
 RDEPENDS:${PN} += ""
 

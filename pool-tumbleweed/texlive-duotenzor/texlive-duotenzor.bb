@@ -10,7 +10,7 @@ RPM_NAME = "texlive-duotenzor-2023.201.1.00svn18728-52.1.noarch.rpm"
 RPM_HASH = "3e25036d9e30ff2b4a490f7b1dbb941e89aa2bf001ae514309fc6e28de7989b1204376929f5e2e0220e792ddf37028ac21e4a1ea9cc9a109ee4dadec81e7b026"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(duotenzor.sty) \
+RPROVIDES:${PN} += "tex-duotenzor.sty \
 texlive-duotenzor"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
-tex(xspace.sty) \
+tex-tikz.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,15 +11,14 @@ RPM_HASH = "eb75019168b30a4fe58ed7d08415e35d964eebe735e8e4ad19ac6cebd24b3cf356bf
 
 RPROVIDES:${PN} += "gtkspell3 \
 libgtkspell3-3-0 \
-libgtkspell3-3-0(aarch-64) \
-libgtkspell3-3.so.0()(64bit)"
+libgtkspell3-3.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libenchant-2.so.2()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libenchant-2.so.2 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

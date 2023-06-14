@@ -35,10 +35,10 @@ RPM_NAME = "perl-Test-Object-0.08-1.19.noarch.rpm"
 RPM_HASH = "8a770fe641ac42f0011e4dc21dd7d7724a19db6868a8e399ae0d45195bcf6b6daa5c99a745e90936854e5f886ed377d6ae8041586e76bd66e07780227d0dcf77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Object) \
-perl(Test::Object::Test) \
+RPROVIDES:${PN} += "perl-Test--Object \
+perl-Test--Object--Test \
 perl-Test-Object"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

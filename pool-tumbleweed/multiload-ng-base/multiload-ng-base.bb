@@ -19,20 +19,16 @@ PV = "git20210103.743885d"
 RPM_NAME = "multiload-ng-base-git20210103.743885d-1.7.aarch64.rpm"
 RPM_HASH = "74b1009d706afa7ab4fb73b892d2b134bed411d2057debd00b31adcbe69bc1dde31fcc505abded0917d3e6aeafb2a7bf5ca78f2c5e5e842b19c4feb25619ddbb"
 
-RPROVIDES:${PN} += "application() \
-application(multiload-ng-standalone.desktop) \
-application(multiload-ng-systray.desktop) \
-multiload-ng-base \
-multiload-ng-base(aarch-64)"
+RPROVIDES:${PN} += "multiload-ng-base"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6"
 
 inherit rpm

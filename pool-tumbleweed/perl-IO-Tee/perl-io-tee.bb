@@ -107,10 +107,10 @@ RPM_NAME = "perl-IO-Tee-0.66-1.13.noarch.rpm"
 RPM_HASH = "cd390ec564a3d64f24a2d5323eb870691602e0d100088bb342261143aea9da387e849d216956e0bcc7b9a7faf7c7464de2f5fe4d2d9634c039644894e10837f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::Tee) \
+RPROVIDES:${PN} += "perl-IO--Tee \
 perl-IO-Tee"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-parent"
 
 inherit rpm

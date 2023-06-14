@@ -9,10 +9,10 @@ RPM_HASH = "4584fd3e012e89b2158c43136b07746952f64b48244d930fa824b0a48ee91730bf5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-bom \
-mvn(org.glassfish.jaxb:jaxb-bom:pom:)"
+mvn-org.glassfish.jaxb-jaxb-bom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(net.java:jvnet-parent:pom:)"
+mvn-net.java-jvnet-parent-pom-"
 
 inherit rpm

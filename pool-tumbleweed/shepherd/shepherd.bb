@@ -13,11 +13,10 @@ PV = "0.8.1"
 RPM_NAME = "shepherd-0.8.1-1.9.aarch64.rpm"
 RPM_HASH = "1ea0d385f6cc7c00d0e065effc4b9341cb0a668629a17ce932fd9ba6027e7c2a0516a133516574a00a1498c06074d051b316359f0e4ff813e6f95fb1c9ededae"
 
-RPROVIDES:${PN} += "shepherd \
-shepherd(aarch-64)"
+RPROVIDES:${PN} += "shepherd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/guile \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

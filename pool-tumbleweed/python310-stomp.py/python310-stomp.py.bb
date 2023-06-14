@@ -9,15 +9,15 @@ RPM_HASH = "c65aee470580b4bf53b6251142b5310da658349d27e122385ac9d65bffee2bcc5055
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stomp.py \
-python3.10dist(stomp-py) \
+python3.10dist-stomp-py \
 python310-stomp.py \
-python3dist(stomp-py)"
+python3dist-stomp-py"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
-python3.10dist(docopt) \
-python3.10dist(websocket-client) \
+python-abi \
+python3.10dist-docopt \
+python3.10dist-websocket-client \
 update-alternatives"
 
 inherit rpm

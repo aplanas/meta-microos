@@ -9,10 +9,9 @@ PV = "0.03.01"
 RPM_NAME = "forkstat-0.03.01-1.2.aarch64.rpm"
 RPM_HASH = "31429db39c38a4ac5ea770eb551b34da3294f2854cd412799e97df849010255e2a248eda26edba170a321d257335407e7392e565d185cb4376a98ec7b13bc999"
 
-RPROVIDES:${PN} += "forkstat \
-forkstat(aarch-64)"
+RPROVIDES:${PN} += "forkstat"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

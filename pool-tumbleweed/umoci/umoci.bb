@@ -9,9 +9,8 @@ PV = "0.4.7"
 RPM_NAME = "umoci-0.4.7-3.2.aarch64.rpm"
 RPM_HASH = "57ff8d28701a868e1a24a14329dc585bf4b93967fa53f32039f9e1097c7883749e328efd968c1681e52995519fa19db1dfd9fa5c20397d736aa6daf3f551603f"
 
-RPROVIDES:${PN} += "umoci \
-umoci(aarch-64)"
+RPROVIDES:${PN} += "umoci"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

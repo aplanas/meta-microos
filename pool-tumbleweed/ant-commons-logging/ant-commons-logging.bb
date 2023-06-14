@@ -11,15 +11,15 @@ RPM_HASH = "03f58525285b2304488b660607e990332f0b7c141c4efecc09df227b924d81ea2381
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-commons-logging \
-config(ant-commons-logging) \
-mvn(org.apache.ant:ant-commons-logging) \
-mvn(org.apache.ant:ant-commons-logging:pom:)"
+config-ant-commons-logging \
+mvn-org.apache.ant-ant-commons-logging \
+mvn-org.apache.ant-ant-commons-logging-pom-"
 
 RDEPENDS:${PN} += "ant \
 apache-commons-logging \
 java-headless \
 javapackages-filesystem \
-mvn(commons-logging:commons-logging-api) \
-mvn(org.apache.ant:ant)"
+mvn-commons-logging-commons-logging-api \
+mvn-org.apache.ant-ant"
 
 inherit rpm

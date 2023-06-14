@@ -17,13 +17,13 @@ RPM_HASH = "82cd919cf399446519bb14b8f1190d1d5aafcc68db1da0894f1741ca47d792a31a23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pyro4 \
-python3.10dist(pyro4) \
+python3.10dist-pyro4 \
 python310-Pyro4 \
-python3dist(pyro4)"
+python3dist-pyro4"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-serpent \
 update-alternatives"
 

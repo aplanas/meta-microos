@@ -15,14 +15,13 @@ RPM_HASH = "ad0028f5f95c7fd3aa7ed7a2282f33f243aa893cc99a005ebed456efcd7b351dd1f6
 
 RPROVIDES:${PN} += "GraphicsMagick-C++-devel \
 libGraphicsMagick++-devel \
-libGraphicsMagick++-devel(aarch-64) \
-pkgconfig(GraphicsMagick++)"
+pkgconfig-GraphicsMagick++"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 GraphicsMagick-devel \
-c++_compiler \
+c++-compiler \
 libGraphicsMagick++-Q16-12 \
-pkgconfig(GraphicsMagick)"
+pkgconfig-GraphicsMagick"
 
 inherit rpm

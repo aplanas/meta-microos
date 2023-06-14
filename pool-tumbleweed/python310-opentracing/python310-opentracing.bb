@@ -10,10 +10,10 @@ RPM_HASH = "7ede5590ba48e0ff22f3b174d28571eee4088b04fc38e1de5a882f3ad8d7ec289e5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opentracing \
-python3.10dist(opentracing) \
+python3.10dist-opentracing \
 python310-opentracing \
-python3dist(opentracing)"
+python3dist-opentracing"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

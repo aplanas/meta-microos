@@ -13,21 +13,20 @@ RPM_NAME = "SoQt-devel-1.6.0-2.8.aarch64.rpm"
 RPM_HASH = "28b27987c6f913b6ccd34393d0a372c65a2395adaa95e33ec8b5c538a86668d0cb158290e03b86c01651406a98f04036ccc874e8ec27c1c932314183b839104a"
 
 RPROVIDES:${PN} += "SoQt-devel \
-SoQt-devel(aarch-64) \
-cmake(soqt) \
-pkgconfig(SoQt)"
+cmake-soqt \
+pkgconfig-SoQt"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-cmake(Qt5Gui) \
-cmake(Qt5OpenGL) \
-cmake(Qt5Widgets) \
-cmake(coin) \
+cmake-Qt5Gui \
+cmake-Qt5OpenGL \
+cmake-Qt5Widgets \
+cmake-coin \
 libSoQt20 \
 libpng-devel \
-pkgconfig(Coin) \
-pkgconfig(Qt5Core) \
-pkgconfig(Qt5Gui) \
-pkgconfig(Qt5OpenGL) \
-pkgconfig(Qt5Widgets)"
+pkgconfig-Coin \
+pkgconfig-Qt5Core \
+pkgconfig-Qt5Gui \
+pkgconfig-Qt5OpenGL \
+pkgconfig-Qt5Widgets"
 
 inherit rpm

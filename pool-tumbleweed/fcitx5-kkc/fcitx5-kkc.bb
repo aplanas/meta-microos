@@ -9,29 +9,23 @@ RPM_HASH = "2529db5ca0828eb6a3829988f6ec29b54badd3af91109c51302646775c053798a1e9
 
 RPROVIDES:${PN} += "fcitx-kkc \
 fcitx5-kkc \
-fcitx5-kkc(aarch-64) \
-libfcitx5-kkc-config.so()(64bit) \
-metainfo() \
-metainfo(org.fcitx.Fcitx5.Addon.Kkc.metainfo.xml)"
+libfcitx5-kkc-config.so"
 
 RDEPENDS:${PN} += "fcitx5 \
 kkc-data \
-ld-linux-aarch64.so.1()(64bit) \
-libFcitx5Config.so.6()(64bit) \
-libFcitx5Core.so.7()(64bit) \
-libFcitx5Qt5WidgetsAddons.so.2()(64bit) \
-libFcitx5Utils.so.2()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libkkc.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libFcitx5Config.so.6 \
+libFcitx5Core.so.7 \
+libFcitx5Qt5WidgetsAddons.so.2 \
+libFcitx5Utils.so.2 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libkkc.so.2 \
+libstdc++.so.6"
 
 inherit rpm

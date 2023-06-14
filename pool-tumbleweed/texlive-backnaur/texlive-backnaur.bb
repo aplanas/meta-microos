@@ -11,7 +11,7 @@ RPM_NAME = "texlive-backnaur-2023.201.3.1svn54080-53.1.noarch.rpm"
 RPM_HASH = "d61d6fcfe356b7ab70cb88b0876d66309f9c171f6cd22cf3814699db7d645666eccc97c2785c8f4028d4011aeb68f0f51a9eece17654e3ec17a608461fc6f620"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(backnaur.sty) \
+RPROVIDES:${PN} += "tex-backnaur.sty \
 texlive-backnaur"
 
 RDEPENDS:${PN} += "/bin/sh \

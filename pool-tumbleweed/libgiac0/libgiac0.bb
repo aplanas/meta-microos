@@ -9,32 +9,30 @@ PV = "1.9.0.27"
 RPM_NAME = "libgiac0-1.9.0.27-4.5.aarch64.rpm"
 RPM_HASH = "5064bcbe8114cf79953888aa495055685262b6033667933ee2228135ed5423bb8a864894bf9f3dffc7e984147cda650a2b7c9738d8b73215e3af0ac6f1fc1a64"
 
-RPROVIDES:${PN} += "libgiac.so.0()(64bit) \
-libgiac0 \
-libgiac0(aarch-64)"
+RPROVIDES:${PN} += "libgiac.so.0 \
+libgiac0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libao.so.4()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libecm.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglpk.so.40()(64bit) \
-libgmp.so.10()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libmpfi.so.0()(64bit) \
-libmpfr.so.6()(64bit) \
-libnauty-2.8.6.so()(64bit) \
-libntl.so.44()(64bit) \
-libpari-gmp-tls.so.8()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsamplerate.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libao.so.4 \
+libblas.so.3 \
+libc.so.6 \
+libcurl.so.4 \
+libecm.so.1 \
+libgcc-s.so.1 \
+libglpk.so.40 \
+libgmp.so.10 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+liblapack.so.3 \
+libm.so.6 \
+libmpfi.so.0 \
+libmpfr.so.6 \
+libnauty-2.8.6.so \
+libntl.so.44 \
+libpari-gmp-tls.so.8 \
+libpng16.so.16 \
+libsamplerate.so.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -9,12 +9,12 @@ RPM_HASH = "d588adab43b7aa03f4a682dc73e2f91cbf8e5e4e22d62194488cdfeb9b8bcac72ea9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pywal \
-python3.10dist(pywal) \
+python3.10dist-pywal \
 python310-pywal \
-python3dist(pywal)"
+python3dist-pywal"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

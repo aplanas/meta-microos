@@ -10,15 +10,14 @@ PV = "0.18.0"
 RPM_NAME = "libgav1-tools-0.18.0-2.1.aarch64.rpm"
 RPM_HASH = "3916c76b2b1b90be61f57806ffad0786fd0db0f861c3a26895d60df595dc930f223a65992b6bde084b36f695211b273c825329b01d19985f03f2c7d7a2bab7a3"
 
-RPROVIDES:${PN} += "libgav1-tools \
-libgav1-tools(aarch-64)"
+RPROVIDES:${PN} += "libgav1-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libabsl_strings.so.2301.0.0()(64bit) \
-libabsl_time.so.2301.0.0()(64bit) \
-libc.so.6()(64bit) \
-libgav1.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libabsl-strings.so.2301.0.0 \
+libabsl-time.so.2301.0.0 \
+libc.so.6 \
+libgav1.so.1 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

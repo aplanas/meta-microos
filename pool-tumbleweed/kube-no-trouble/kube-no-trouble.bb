@@ -17,9 +17,8 @@ PV = "0.7.0"
 RPM_NAME = "kube-no-trouble-0.7.0-1.4.aarch64.rpm"
 RPM_HASH = "fe36834fe798c3e85dd5cfb66b7541533af20321ea397896652d686851bd46972236d291d258e50b590a23ad2fcff97d71f2195b0ba5e80f2e8af72f1b558d43"
 
-RPROVIDES:${PN} += "kube-no-trouble \
-kube-no-trouble(aarch-64)"
+RPROVIDES:${PN} += "kube-no-trouble"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

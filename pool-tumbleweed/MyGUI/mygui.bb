@@ -20,13 +20,12 @@ PV = "3.4.1"
 RPM_NAME = "MyGUI-3.4.1-2.1.aarch64.rpm"
 RPM_HASH = "b443bcd346a102f46a9d4d3e838db7e30d912cd6e99b8de937cdf297d8bbc6a4a1ddf29a953782414853e635e15205d1715b7f1cb47af862336054014f663396"
 
-RPROVIDES:${PN} += "MyGUI \
-MyGUI(aarch-64)"
+RPROVIDES:${PN} += "MyGUI"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libMyGUIEngine.so.3.4.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libMyGUIEngine.so.3.4.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

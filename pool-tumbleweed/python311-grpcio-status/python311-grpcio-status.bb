@@ -11,12 +11,11 @@ PV = "1.44.0"
 RPM_NAME = "python311-grpcio-status-1.44.0-1.5.aarch64.rpm"
 RPM_HASH = "9f5a3b68a2ba78e8e60cabfc2992fac6bac0cff6564ddc3cea6ba5fdf032f72b12a1b2eb8127d492dd9684247a412fefae81945a1703221af01dac8060db5a5c"
 
-RPROVIDES:${PN} += "python3.11dist(grpcio-status) \
+RPROVIDES:${PN} += "python3.11dist-grpcio-status \
 python311-grpcio-status \
-python311-grpcio-status(aarch-64) \
-python3dist(grpcio-status)"
+python3dist-grpcio-status"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-googleapis-common-protos \
 python311-grpcio \
 python311-protobuf"

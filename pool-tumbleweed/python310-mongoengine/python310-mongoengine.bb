@@ -11,11 +11,11 @@ RPM_HASH = "3f2980bc017669af055f74c8bcdcee8f0acf5dc172ad5ee499f6de8374fd38e1a1e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mongoengine \
-python3.10dist(mongoengine) \
+python3.10dist-mongoengine \
 python310-mongoengine \
-python3dist(mongoengine)"
+python3dist-mongoengine"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-blinker \
 python310-pymongo"
 

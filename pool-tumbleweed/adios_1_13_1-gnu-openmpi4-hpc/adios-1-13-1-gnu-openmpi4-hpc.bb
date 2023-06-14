@@ -13,20 +13,19 @@ PV = "1.13.1"
 RPM_NAME = "adios_1_13_1-gnu-openmpi4-hpc-1.13.1-5.14.aarch64.rpm"
 RPM_HASH = "38ad6d5add0c02b791a9267a1d5d91c2e5d534166e7e377ba87ce4d8762f509c179a4bcec3111ac7eb372601268bb40fd481eaa05c507848a3f37ee4196103f8"
 
-RPROVIDES:${PN} += "adios_1_13_1-gnu-openmpi4-hpc \
-adios_1_13_1-gnu-openmpi4-hpc(aarch-64)"
+RPROVIDES:${PN} += "adios-1-13-1-gnu-openmpi4-hpc"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblz4.so.1()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+liblz4.so.1 \
+libm.so.6 \
 libopenmpi4-gnu-hpc \
-libz.so.1()(64bit) \
+libz.so.1 \
 lua-lmod \
 python3-PyYAML \
 python3-xml"

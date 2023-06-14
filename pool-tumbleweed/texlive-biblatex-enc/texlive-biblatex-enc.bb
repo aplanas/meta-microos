@@ -13,8 +13,8 @@ RPM_NAME = "texlive-biblatex-enc-2023.201.1.0svn44627-53.1.noarch.rpm"
 RPM_HASH = "0f20668b24d6fed4f2d689df55accc3f474f5c2d732409e6282ef1628f427c1887a32cc6b68af11db07829bea23981e855277ec9814c5ce6c0c64fd3cc89aa68"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(enc.bbx) \
-tex(enc.cbx) \
+RPROVIDES:${PN} += "tex-enc.bbx \
+tex-enc.cbx \
 texlive-biblatex-enc"
 
 RDEPENDS:${PN} += "/bin/sh \

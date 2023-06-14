@@ -12,7 +12,7 @@ RPM_NAME = "texlive-pygmentex-2023.201.0.0.11svn64131-53.1.noarch.rpm"
 RPM_HASH = "d93858b616d8befe11e135ce2f34b25741e683cc917c71380cc8a03f25c518f5e8c624dbc5de3503441b588d56a94a201491b90a169d39217248ac0ed67b8843"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pygmentex.sty) \
+RPROVIDES:${PN} += "tex-pygmentex.sty \
 texlive-pygmentex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,14 +22,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(caption.sty) \
-tex(color.sty) \
-tex(efbox.sty) \
-tex(fancyvrb.sty) \
-tex(ifthen.sty) \
-tex(mdframed.sty) \
-tex(pgfkeys.sty) \
-tex(shellesc.sty) \
+tex-caption.sty \
+tex-color.sty \
+tex-efbox.sty \
+tex-fancyvrb.sty \
+tex-ifthen.sty \
+tex-mdframed.sty \
+tex-pgfkeys.sty \
+tex-shellesc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

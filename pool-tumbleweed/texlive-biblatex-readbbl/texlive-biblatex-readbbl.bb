@@ -13,7 +13,7 @@ RPM_NAME = "texlive-biblatex-readbbl-2023.201.0.0.01svn61549-53.1.noarch.rpm"
 RPM_HASH = "5578499a5b9bfb46363fe809f11f0f5f79193e5a4974cba95c8f0b14ed4366ae6baa37bcacaa03c787de24852088420d3ce0457041f75c6f6cacc4708fed7901"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(biblatex-readbbl.sty) \
+RPROVIDES:${PN} += "tex-biblatex-readbbl.sty \
 texlive-biblatex-readbbl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xkeyval.sty) \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

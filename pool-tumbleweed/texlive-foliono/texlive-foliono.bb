@@ -14,7 +14,7 @@ RPM_NAME = "texlive-foliono-2023.201.1.000svn58877-52.1.noarch.rpm"
 RPM_HASH = "75ad137c48a273e943c6043e2355e2e1954af8a60bd49026aff92d61f721a6a3f168bdf0f8687fc9aacd60dcd86a98361a4fb0fde8a5230343f249ee8d228017"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(foliono.sty) \
+RPROVIDES:${PN} += "tex-foliono.sty \
 texlive-foliono"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
+tex-calc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

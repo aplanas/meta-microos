@@ -21,11 +21,11 @@ RPM_NAME = "python39-pytest-arraydiff-0.5.0-1.3.noarch.rpm"
 RPM_HASH = "57e02d39599d1a2bd81d949d8469517d681aa7fcb851ee77d22fa9a3e633ef187e42eede5be5b031cea365cf30b0323cf325c694511b7c36c19a4c0c4e078786"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-arraydiff) \
+RPROVIDES:${PN} += "python3.9dist-pytest-arraydiff \
 python39-pytest-arraydiff \
-python3dist(pytest-arraydiff)"
+python3dist-pytest-arraydiff"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numpy \
 python39-pytest"
 

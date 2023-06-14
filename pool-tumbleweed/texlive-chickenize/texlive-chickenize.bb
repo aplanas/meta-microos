@@ -14,8 +14,8 @@ RPM_NAME = "texlive-chickenize-2023.201.0.0.3svn57325-53.1.noarch.rpm"
 RPM_HASH = "578180c25cf63a37e7bf747f191fad61dcdf39cacca3f7a4d9e0670706072cae2a2afe73225d777b67b93309e66226b33f9dc8ad89b33a4627d25b47eaa56d37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chickenize.sty) \
-tex(chickenize.tex) \
+RPROVIDES:${PN} += "tex-chickenize.sty \
+tex-chickenize.tex \
 texlive-chickenize"
 
 RDEPENDS:${PN} += "/bin/sh \

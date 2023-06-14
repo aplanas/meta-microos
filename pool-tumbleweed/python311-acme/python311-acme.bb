@@ -9,11 +9,11 @@ RPM_NAME = "python311-acme-1.31.0-1.3.noarch.rpm"
 RPM_HASH = "1a28864b53a2be6c2b017167b1efefcbc8fbabe99f01dafca3cd88efe99be960dc5184bd30a61bd73bf3bc1a6efa4c38c7a4806b07fb8b637bcf6548f4501d90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(acme) \
+RPROVIDES:${PN} += "python3.11dist-acme \
 python311-acme \
-python3dist(acme)"
+python3dist-acme"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-cryptography \
 python311-josepy \
 python311-pyOpenSSL \

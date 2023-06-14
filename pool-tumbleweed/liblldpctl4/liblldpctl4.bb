@@ -13,13 +13,12 @@ PV = "1.0.17"
 RPM_NAME = "liblldpctl4-1.0.17-1.1.aarch64.rpm"
 RPM_HASH = "aa6a72ef33320405dc5e8aee30bc434e1dfec541416a437ff112b9333e9af2d40bd5c3a819cfb1048820ebe4f374699989a1d86d5b9ee9f967d5b4b005607069"
 
-RPROVIDES:${PN} += "liblldpctl.so.4()(64bit) \
-liblldpctl4 \
-liblldpctl4(aarch-64)"
+RPROVIDES:${PN} += "liblldpctl.so.4 \
+liblldpctl4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbsd.so.0()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbsd.so.0 \
+libc.so.6"
 
 inherit rpm

@@ -18,7 +18,7 @@ RPM_NAME = "texlive-etsvthor-2023.201.1.0svn48186-52.1.noarch.rpm"
 RPM_HASH = "75f22d398ef31f89a52843089dc16f9ee60223faba4791a6e2ec1d8e1c580d66df11656dea024ae16f74a0447855f74c414f85d80cce1b4dbaf793ae0e2401bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(etsvthor.sty) \
+RPROVIDES:${PN} += "tex-etsvthor.sty \
 texlive-etsvthor"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(epsfig.sty) \
-tex(graphicx.sty) \
+tex-epsfig.sty \
+tex-graphicx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

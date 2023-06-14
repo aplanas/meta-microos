@@ -9,7 +9,7 @@ RPM_NAME = "texlive-mathcomp-2023.201.0.0.1fsvn15878-52.1.noarch.rpm"
 RPM_HASH = "6799ef3635c1acec1fe079d0d50a2c1cd37e3b738801a6b109104e963fe79b7ac81ff737d57722fb7cb43670ad7809a9c7999da1930f7028ad2315d019387292"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mathcomp.sty) \
+RPROVIDES:${PN} += "tex-mathcomp.sty \
 texlive-mathcomp"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,7 +18,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(textcomp.sty) \
+tex-textcomp.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

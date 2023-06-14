@@ -11,13 +11,13 @@ RPM_HASH = "3e10ce4a8625d884fd266ed161347e4f0fff82412aff0a8d38949f03d9b5b19d2443
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-urlgrabber \
-python3.10dist(urlgrabber) \
+python3.10dist-urlgrabber \
 python310-urlgrabber \
-python3dist(urlgrabber)"
+python3dist-urlgrabber"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pycurl \
 update-alternatives"
 

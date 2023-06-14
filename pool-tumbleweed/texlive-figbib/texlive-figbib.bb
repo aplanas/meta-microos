@@ -14,7 +14,7 @@ RPM_NAME = "texlive-figbib-2023.201.svn19388-52.1.noarch.rpm"
 RPM_HASH = "940564fea323c2ae8ed86c1859474e3f35f8a5641c2defae2bee36b1b41e74fcb52a194a4d6ac55b22ae78bbf49bfc97af1656c08cdc2ec25c8693727f14e660"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(figbib.sty) \
+RPROVIDES:${PN} += "tex-figbib.sty \
 texlive-figbib"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(epsfig.sty) \
+tex-epsfig.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,13 +9,13 @@ RPM_HASH = "c77f8540605e973c13ce8e35040083e937325a72794d72b54ab30ee6e066e20f6c07
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyCondor \
-python3.10dist(pycondor) \
+python3.10dist-pycondor \
 python310-PyCondor \
-python3dist(pycondor)"
+python3dist-pycondor"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "1453c691430db762a2d6198728639987ce7b258dfb78c6b46a6e44b63fba4ccb6e6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-jsonfield \
-python3.10dist(jsonfield) \
+python3.10dist-jsonfield \
 python310-django-jsonfield \
-python3dist(jsonfield)"
+python3dist-jsonfield"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

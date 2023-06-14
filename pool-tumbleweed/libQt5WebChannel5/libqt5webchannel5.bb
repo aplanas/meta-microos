@@ -14,19 +14,15 @@ PV = "5.15.9+kde3"
 RPM_NAME = "libQt5WebChannel5-5.15.9+kde3-1.1.aarch64.rpm"
 RPM_HASH = "a23d2dfa716f05099450ce167363f0727156b6fde14dd6a4a4012983d1f155b803ff22de56ed1e276103bb5181539f938de8ee423815a4ac2c5a62fe6973094a"
 
-RPROVIDES:${PN} += "libQt5WebChannel.so.5()(64bit) \
-libQt5WebChannel.so.5(Qt_5)(64bit) \
-libQt5WebChannel5 \
-libQt5WebChannel5(aarch-64)"
+RPROVIDES:${PN} += "libQt5WebChannel.so.5 \
+libQt5WebChannel5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Qml.so.5 \
 libQtQuick5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

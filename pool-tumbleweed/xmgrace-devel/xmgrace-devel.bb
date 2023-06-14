@@ -12,8 +12,7 @@ PV = "5.1.25"
 RPM_NAME = "xmgrace-devel-5.1.25-4.6.aarch64.rpm"
 RPM_HASH = "106ac200c3df202676ba21698615188a47a160b8bf140550ee7762f5f3f0672c29ac4065b642fec1a30081c143b86f98ed4139fe8a7e33fe8d91e01edcc792dd"
 
-RPROVIDES:${PN} += "xmgrace-devel \
-xmgrace-devel(aarch-64)"
+RPROVIDES:${PN} += "xmgrace-devel"
 
 RDEPENDS:${PN} += ""
 

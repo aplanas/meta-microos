@@ -15,20 +15,19 @@ PV = "7.93"
 RPM_NAME = "nmap-7.93-1.3.aarch64.rpm"
 RPM_HASH = "2e864f318859587fd40e2019d7bd70764f2a6b88d7d846495c224c641951f78f146ba899cc55265e79434978e5e772305c1948aaacb8f799c1d3f239b2ba5423"
 
-RPROVIDES:${PN} += "nmap \
-nmap(aarch-64)"
+RPROVIDES:${PN} += "nmap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.3.so.5()(64bit) \
-libm.so.6()(64bit) \
-libpcap.so.1()(64bit) \
-libpcre.so.1()(64bit) \
-libssh2.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+liblua5.3.so.5 \
+libm.so.6 \
+libpcap.so.1 \
+libpcre.so.1 \
+libssh2.so.1 \
+libssl.so.3 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

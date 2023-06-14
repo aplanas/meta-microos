@@ -10,19 +10,15 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt5NetworkAuth5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "e12abe7e847b51a99e12e94081e531010f1fa3f40d32444d42b3c82b8beb9582fac8a1b6d7902a8d3e142a2f635957e2c4ef265c127dde000d656e8b2a18d911"
 
-RPROVIDES:${PN} += "libQt5NetworkAuth.so.5()(64bit) \
-libQt5NetworkAuth.so.5(Qt_5)(64bit) \
-libQt5NetworkAuth5 \
-libQt5NetworkAuth5(aarch-64)"
+RPROVIDES:${PN} += "libQt5NetworkAuth.so.5 \
+libQt5NetworkAuth5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Network.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

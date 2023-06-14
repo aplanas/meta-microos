@@ -8,22 +8,21 @@ PV = "3.2.2.1"
 RPM_NAME = "libwx_gtk2u_media-suse9_0_0-3.2.2.1-3.1.aarch64.rpm"
 RPM_HASH = "2b69b8f3ef81b400b03a116626e7124a713a8424f1e24ed2795aa1b86adea59957907d93798013d79b7418cc8c4461d5da8faf4777f1da27a582dffe533db3fa"
 
-RPROVIDES:${PN} += "libwx_gtk2u_media-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_media-suse9_0_0 \
-libwx_gtk2u_media-suse9_0_0(aarch-64)"
+RPROVIDES:${PN} += "libwx-gtk2u-media-suse.so.9.0.0 \
+libwx-gtk2u-media-suse9-0-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0"
 
 inherit rpm

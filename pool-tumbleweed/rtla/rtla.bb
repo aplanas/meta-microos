@@ -11,12 +11,11 @@ PV = "6.3.4"
 RPM_NAME = "rtla-6.3.4-5.3.aarch64.rpm"
 RPM_HASH = "39dbcda1af9b54c5a3fb3fa9758326a0a4b464c0ffb8dd27c936facc955f94103240dc8fc72667be99f12c2e3920d55a50483908c4f2101cd3c88f841c5b4dc1"
 
-RPROVIDES:${PN} += "rtla \
-rtla(aarch-64)"
+RPROVIDES:${PN} += "rtla"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtraceevent.so.1()(64bit) \
-libtracefs.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtraceevent.so.1 \
+libtracefs.so.1"
 
 inherit rpm

@@ -9,8 +9,7 @@ RPM_NAME = "u-boot-mvebumcbin-88f8040-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "66ef73c30330a6cf3e1e777ebf7277bf40f83782b668acb3f2b65c747f972b8d19b1db128f70d729188cacb1ac94da9e6476047ebbaa7eb78d8066fcb2dc91eb"
 
 RPROVIDES:${PN} += "u-boot-loader \
-u-boot-mvebumcbin-88f8040 \
-u-boot-mvebumcbin-88f8040(aarch-64)"
+u-boot-mvebumcbin-88f8040"
 
 RDEPENDS:${PN} += ""
 

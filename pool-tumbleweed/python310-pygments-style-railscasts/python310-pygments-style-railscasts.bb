@@ -9,11 +9,11 @@ RPM_HASH = "f9c08c6513f717e39a19c53fdd0b3f632a53cbcd2ba5fa78299478417f04ad1faf06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pygments-style-railscasts \
-python3.10dist(pygments-style-railscasts) \
+python3.10dist-pygments-style-railscasts \
 python310-pygments-style-railscasts \
-python3dist(pygments-style-railscasts)"
+python3dist-pygments-style-railscasts"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pygments"
 
 inherit rpm

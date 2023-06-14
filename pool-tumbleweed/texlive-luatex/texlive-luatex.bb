@@ -14,9 +14,9 @@ RPM_NAME = "texlive-luatex-2023.201.svn66546-52.1.noarch.rpm"
 RPM_HASH = "7b27e65e68198ffcb4531851c8a4fdd6e7db162ee7508a4fc38b1b6dc93271a9692de6fa34d869661495fe7c66cde88b004937a7cf8a14d653d0b88157ce2583"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(texlive-luatex) \
-tex(luatex-unicode-letters.tex) \
-tex(luatexiniconfig.tex) \
+RPROVIDES:${PN} += "config-texlive-luatex \
+tex-luatex-unicode-letters.tex \
+tex-luatexiniconfig.tex \
 texlive-luatex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,12 +25,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
-tex(load-unicode-data.tex) \
-tex(luatexconfig.tex) \
-tex(null.tex) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
+tex-load-unicode-data.tex \
+tex-luatexconfig.tex \
+tex-null.tex \
 texlive \
 texlive-cm \
 texlive-etex \

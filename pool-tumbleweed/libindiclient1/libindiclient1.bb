@@ -12,17 +12,16 @@ PV = "1.9.9"
 RPM_NAME = "libindiclient1-1.9.9-2.2.aarch64.rpm"
 RPM_HASH = "b59753dced94a30dcaa5962b053643c0eb92815c4ca8301bd43cbd5a2ab70e7f4dc2016459e19a6074349c426345340fc9b9d1bbe936e05225eebc1b3e05a70d"
 
-RPROVIDES:${PN} += "libindiclient.so.1()(64bit) \
-libindiclient1 \
-libindiclient1(aarch-64)"
+RPROVIDES:${PN} += "libindiclient.so.1 \
+libindiclient1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libnova-0.15.so.0 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

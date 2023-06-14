@@ -11,15 +11,10 @@ PV = "6.17.0"
 RPM_NAME = "calibre-6.17.0-1.2.aarch64.rpm"
 RPM_HASH = "97ba46fc6100862652530050ace9776f16fc1f01eaf4a9ea49e72ab3cc9528e76972690c0a2027f364aaa086f3981956b41ee4a98418f2fda25715703a156a89"
 
-RPROVIDES:${PN} += "application() \
-application(calibre-gui.desktop) \
-calibre \
-calibre(aarch-64) \
-libheadless.so()(64bit) \
-libmtp.so()(64bit) \
-libusb.so()(64bit) \
-metainfo() \
-metainfo(calibre-gui.metainfo.xml)"
+RPROVIDES:${PN} += "calibre \
+libheadless.so \
+libmtp.so \
+libusb.so"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
@@ -27,37 +22,34 @@ bzip2 \
 chmlib \
 expat \
 findutils \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libc.so.6 \
+libcrypto.so.3 \
 liberation-fonts \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libhyphen.so.0()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libmtp.so.9()(64bit) \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libhunspell-1.7.so.0 \
+libhyphen.so.0 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libm.so.6 \
+libmtp.so.9 \
 libmtp9 \
 libpng16-16 \
-libpodofo.so.0.9.8()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libstemmer.so.0d()(64bit) \
-libuchardet.so.0()(64bit) \
-libusb-1.0.so.0()(64bit) \
+libpodofo.so.0.9.8 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
+libstemmer.so.0d \
+libuchardet.so.0 \
+libusb-1.0.so.0 \
 libwmf \
 optipng \
 podofo \
 poppler-tools \
-python(abi) \
+python-abi \
 python3 \
 python3-Brotli \
 python3-FontTools \

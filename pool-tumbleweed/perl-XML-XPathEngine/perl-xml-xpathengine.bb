@@ -29,19 +29,19 @@ RPM_NAME = "perl-XML-XPathEngine-0.14-5.26.noarch.rpm"
 RPM_HASH = "69391c9f138ec99791aeb7b0243f295df250bcff5c8b70fea8b26d55a31fa7a05e8d3f6dccb945aebf578150c052e0cb3d70f811fd52fb1f22904ac2852cb288"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::XPathEngine) \
-perl(XML::XPathEngine::Boolean) \
-perl(XML::XPathEngine::Expr) \
-perl(XML::XPathEngine::Function) \
-perl(XML::XPathEngine::Literal) \
-perl(XML::XPathEngine::LocationPath) \
-perl(XML::XPathEngine::NodeSet) \
-perl(XML::XPathEngine::Number) \
-perl(XML::XPathEngine::Root) \
-perl(XML::XPathEngine::Step) \
-perl(XML::XPathEngine::Variable) \
+RPROVIDES:${PN} += "perl-XML--XPathEngine \
+perl-XML--XPathEngine--Boolean \
+perl-XML--XPathEngine--Expr \
+perl-XML--XPathEngine--Function \
+perl-XML--XPathEngine--Literal \
+perl-XML--XPathEngine--LocationPath \
+perl-XML--XPathEngine--NodeSet \
+perl-XML--XPathEngine--Number \
+perl-XML--XPathEngine--Root \
+perl-XML--XPathEngine--Step \
+perl-XML--XPathEngine--Variable \
 perl-XML-XPathEngine"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

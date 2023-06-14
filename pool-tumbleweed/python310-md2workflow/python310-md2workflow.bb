@@ -12,13 +12,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "md2workfow \
 python3-md2workflow \
-python3.10dist(md2workflow) \
+python3.10dist-md2workflow \
 python310-md2workflow \
-python3dist(md2workflow)"
+python3dist-md2workflow"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-icalendar \
 python310-md2workflow-common \
 update-alternatives"

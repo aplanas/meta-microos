@@ -9,11 +9,11 @@ RPM_HASH = "f799bda051e76529cbae0e30c0b0a3a956494ac2feaa7a9767b95d0fb1f6aa291a59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-inflect \
-python3.10dist(inflect) \
+python3.10dist-inflect \
 python310-inflect \
-python3dist(inflect)"
+python3dist-inflect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pydantic \
 python310-toml"
 

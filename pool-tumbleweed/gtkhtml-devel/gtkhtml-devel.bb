@@ -13,27 +13,26 @@ RPM_NAME = "gtkhtml-devel-4.10.0-7.3.aarch64.rpm"
 RPM_HASH = "3d26e02e0a159ba327fa48bd0d3b5c942c0cc91e802609eb6726ce00bba2a1cec9666045dc8ac4f88061dbeb467839462e6fe6ca3265910538dd2b9038e35157"
 
 RPROVIDES:${PN} += "gtkhtml-devel \
-gtkhtml-devel(aarch-64) \
 gtkhtml2-devel \
-pkgconfig(gtkhtml-editor-4.0) \
-pkgconfig(libgtkhtml-4.0)"
+pkgconfig-gtkhtml-editor-4.0 \
+pkgconfig-libgtkhtml-4.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkhtml-4.0.so.0()(64bit) \
-libgtkhtml-4_0-0 \
-libgtkhtml-editor-4.0.so.0()(64bit) \
-libgtkhtml-editor-4_0-0 \
-pkgconfig(cairo) \
-pkgconfig(enchant) \
-pkgconfig(gsettings-desktop-schemas) \
-pkgconfig(gtk+-3.0) \
-pkgconfig(iso-codes) \
-pkgconfig(libgtkhtml-4.0)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtkhtml-4-0-0 \
+libgtkhtml-4.0.so.0 \
+libgtkhtml-editor-4-0-0 \
+libgtkhtml-editor-4.0.so.0 \
+pkgconfig-cairo \
+pkgconfig-enchant \
+pkgconfig-gsettings-desktop-schemas \
+pkgconfig-gtk+-3.0 \
+pkgconfig-iso-codes \
+pkgconfig-libgtkhtml-4.0"
 
 inherit rpm

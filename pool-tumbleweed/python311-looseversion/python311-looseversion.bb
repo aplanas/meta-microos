@@ -12,10 +12,10 @@ RPM_NAME = "python311-looseversion-1.1.2-1.2.noarch.rpm"
 RPM_HASH = "e74457d3a8ddde58d528fa00208155089f5a4c646dd660c1e99d479664ed905f05b33dcc0e47db668880cde500a0eef2ebe976336195588fa9eba6eade273e8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(looseversion) \
+RPROVIDES:${PN} += "python3.11dist-looseversion \
 python311-looseversion \
-python3dist(looseversion)"
+python3dist-looseversion"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

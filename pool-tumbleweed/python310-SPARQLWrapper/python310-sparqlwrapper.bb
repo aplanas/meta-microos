@@ -11,11 +11,11 @@ RPM_HASH = "6250d8dadf14b160e3b2ed0a1d70186a78fae2266a258c6e28ef626f074c90282523
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-SPARQLWrapper \
-python3.10dist(sparqlwrapper) \
+python3.10dist-sparqlwrapper \
 python310-SPARQLWrapper \
-python3dist(sparqlwrapper)"
+python3dist-sparqlwrapper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-rdflib"
 
 inherit rpm

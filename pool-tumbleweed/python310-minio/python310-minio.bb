@@ -9,11 +9,11 @@ RPM_HASH = "8bc834ec47f432173e7f9a5ab7860bf24ba73de52bf451fb7e6a1005d4cc1f5724b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-minio \
-python3.10dist(minio) \
+python3.10dist-minio \
 python310-minio \
-python3dist(minio)"
+python3dist-minio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-certifi \
 python310-future \
 python310-python-dateutil \

@@ -9,16 +9,15 @@ RPM_NAME = "python310-dulwich-0.21.5-1.1.aarch64.rpm"
 RPM_HASH = "0417996ee3d8428b49e91af80e5fc96098cdec7d687c684e64e62fd5879bc5efb8f61710f98a6840ed84f5cd8824bd73bbc238aaa80dde1ef602295b817333bf"
 
 RPROVIDES:${PN} += "python3-dulwich \
-python3.10dist(dulwich) \
+python3.10dist-dulwich \
 python310-dulwich \
-python310-dulwich(aarch-64) \
-python3dist(dulwich)"
+python3dist-dulwich"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-urllib3 \
 update-alternatives"
 

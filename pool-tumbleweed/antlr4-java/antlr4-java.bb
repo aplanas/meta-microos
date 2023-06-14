@@ -11,10 +11,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr4-java \
 antlr4-runtime \
-mvn(org.antlr:antlr4-master:pom:) \
-mvn(org.antlr:antlr4-runtime) \
-mvn(org.antlr:antlr4-runtime:pom:) \
-osgi(org.antlr.antlr4-runtime)"
+mvn-org.antlr-antlr4-master-pom- \
+mvn-org.antlr-antlr4-runtime \
+mvn-org.antlr-antlr4-runtime-pom- \
+osgi-org.antlr.antlr4-runtime"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

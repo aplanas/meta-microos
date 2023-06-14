@@ -17,14 +17,14 @@ RPM_NAME = "python39-dask-2023.3.2-3.1.noarch.rpm"
 RPM_HASH = "385dc7517019620b5da14d75947827e63ae9d1ce9bd8d9296535c415c5bbe7c9bc693b2401a4b5de1335907c61704ad11791529758d46f737f799e83b6672248"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dask) \
+RPROVIDES:${PN} += "python3.9dist-dask \
 python39-dask \
 python39-dask-multiprocessing \
-python3dist(dask)"
+python3dist-dask"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-PyYAML \
 python39-click \
 python39-cloudpickle \

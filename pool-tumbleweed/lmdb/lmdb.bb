@@ -13,11 +13,10 @@ PV = "0.9.30"
 RPM_NAME = "lmdb-0.9.30-1.1.aarch64.rpm"
 RPM_HASH = "d1f50b59dc5b9cfca6542bc3a88bdd7ea8551e71bf2da676bc19500a108e667f478a79ec6e1eb3084e4697a020e14d06631fe27a526dcd5f228ec942f1d8fce9"
 
-RPROVIDES:${PN} += "lmdb \
-lmdb(aarch-64)"
+RPROVIDES:${PN} += "lmdb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblmdb-0.9.30.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblmdb-0.9.30.so"
 
 inherit rpm

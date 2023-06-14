@@ -9,13 +9,12 @@ PV = "0.6.4"
 RPM_NAME = "python39-wsaccel-0.6.4-1.5.aarch64.rpm"
 RPM_HASH = "d98558c5f9ce58f721f8f122f6e365d2a5d733761c2c41602dae2a59317d2f3bdff75a92f0b49f5b88b6555f991b16d0386f63e75209017dce500d6159e61bee"
 
-RPROVIDES:${PN} += "python3.9dist(wsaccel) \
+RPROVIDES:${PN} += "python3.9dist-wsaccel \
 python39-wsaccel \
-python39-wsaccel(aarch-64) \
-python3dist(wsaccel)"
+python3dist-wsaccel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

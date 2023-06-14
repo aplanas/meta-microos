@@ -11,19 +11,19 @@ RPM_NAME = "python310-nbconvert-7.3.1-2.1.noarch.rpm"
 RPM_HASH = "ef2293605ef21842ccac9b50eadbc5278056540b6f10af60310efe796a806b040b69a2cbe24dc9acda4688fc97c9fd7c1fb2de98c2d243c8d5dcafd82f720337"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter_nbconvert \
+RPROVIDES:${PN} += "python3-jupyter-nbconvert \
 python3-nbconvert \
-python3.10dist(nbconvert) \
-python310-jupyter_nbconvert \
+python3.10dist-nbconvert \
+python310-jupyter-nbconvert \
 python310-nbconvert \
-python3dist(nbconvert)"
+python3dist-nbconvert"
 
-RDEPENDS:${PN} += "(python310-mistune >= 2.0.3 with python310-mistune < 3) \
+RDEPENDS:${PN} += "-python310-mistune >= 2.0.3 with python310-mistune < 3 \
 /bin/sh \
 /usr/bin/python3.10 \
 alts \
 jupyter-nbconvert \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-MarkupSafe \
 python310-Pygments \

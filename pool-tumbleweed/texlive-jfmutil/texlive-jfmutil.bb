@@ -24,10 +24,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Encode) \
-perl(IPC::Open3) \
-perl(constant) \
-perl(strict) \
+perl-Encode \
+perl-IPC--Open3 \
+perl-constant \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

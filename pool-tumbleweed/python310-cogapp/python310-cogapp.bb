@@ -11,13 +11,13 @@ RPM_HASH = "9dca01b7c839b3ba0ce5b0ebc9ff9941d24948b7cdad577aa13ce18545486f259d60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cogapp \
-python3.10dist(cogapp) \
+python3.10dist-cogapp \
 python310-cogapp \
-python3dist(cogapp)"
+python3dist-cogapp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

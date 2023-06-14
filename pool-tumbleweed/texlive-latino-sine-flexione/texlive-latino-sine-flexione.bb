@@ -20,7 +20,7 @@ RPM_NAME = "texlive-latino-sine-flexione-2023.201.1.2svn53485-54.1.noarch.rpm"
 RPM_HASH = "e8194183af4cd30910c816c24da2bb0db153d49a5812e355b88f68ce9632f1b416d9cff420b06e4c8c12659e0c6693a2d9c0cd541ebe9a370a8858965b28af0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(latino-sine-flexione.sty) \
+RPROVIDES:${PN} += "tex-latino-sine-flexione.sty \
 texlive-latino-sine-flexione"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,8 +29,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(datetime.sty) \
-tex(fontenc.sty) \
+tex-datetime.sty \
+tex-fontenc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

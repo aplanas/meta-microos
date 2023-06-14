@@ -17,7 +17,7 @@ RPM_NAME = "texlive-mathastext-2023.201.1.3ysvn64930-52.1.noarch.rpm"
 RPM_HASH = "ec269d83d7bdc7cbea3f2b24014732fc15fc8a865a811ef227938e0135540a58dc0e22a1ea19943e86f2483a4629f800121c609cb06f238f63b8ffb6e3378c1f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mathastext.sty) \
+RPROVIDES:${PN} += "tex-mathastext.sty \
 texlive-mathastext"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ncccomma.sty) \
+tex-ncccomma.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

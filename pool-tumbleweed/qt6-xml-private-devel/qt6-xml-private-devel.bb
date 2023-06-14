@@ -8,10 +8,9 @@ PV = "6.5.1"
 RPM_NAME = "qt6-xml-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "b7e987b692e034ee78c8ab1bde78f35d35e8ba0e648aa0084d42b4aff86c6d2ca82146ecf37c20f8f872fcd56a2af4bab08f6649979d5361368303985dd929a0"
 
-RPROVIDES:${PN} += "qt6-xml-private-devel \
-qt6-xml-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-xml-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6Xml) \
+RDEPENDS:${PN} += "cmake-Qt6Xml \
 qt6-core-private-devel"
 
 inherit rpm

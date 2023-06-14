@@ -12,15 +12,14 @@ RPM_NAME = "python310-iwlib-1.6.2-1.20.aarch64.rpm"
 RPM_HASH = "b2166a593a6c3744689ee6953ff62c637b44dd96b8bb2c4ed2357dd51d82b39b72cb77668761be008d243af806889336eb52a745f26260f2771a181f0eb774a4"
 
 RPROVIDES:${PN} += "python3-iwlib \
-python3.10dist(iwlib) \
+python3.10dist-iwlib \
 python310-iwlib \
-python310-iwlib(aarch-64) \
-python3dist(iwlib)"
+python3dist-iwlib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libiw.so.30()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libiw.so.30 \
+python-abi \
 python310-cffi"
 
 inherit rpm

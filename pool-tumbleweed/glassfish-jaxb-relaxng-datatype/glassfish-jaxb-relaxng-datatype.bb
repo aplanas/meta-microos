@@ -9,8 +9,8 @@ RPM_HASH = "f89c58ff1ca854a9acc4583f15b4575974a885150aafce788227d31a32e0c504a3e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-relaxng-datatype \
-mvn(com.sun.xml.bind.external:relaxng-datatype) \
-mvn(com.sun.xml.bind.external:relaxng-datatype:pom:)"
+mvn-com.sun.xml.bind.external-relaxng-datatype \
+mvn-com.sun.xml.bind.external-relaxng-datatype-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

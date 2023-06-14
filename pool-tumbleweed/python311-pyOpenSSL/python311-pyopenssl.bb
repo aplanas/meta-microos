@@ -15,12 +15,12 @@ RPM_HASH = "ad54945dbf462e2ad66e604d076bf7aa8aeae4c14f79611e00a80292dc2f5d20d06b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyOpenSSL \
-python3.11dist(pyopenssl) \
+python3.11dist-pyopenssl \
 python311-pyOpenSSL \
-python3dist(pyopenssl)"
+python3dist-pyopenssl"
 
-RDEPENDS:${PN} += "(python311-cryptography >= 38.0.0 with python311-cryptography < 41) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-cryptography >= 38.0.0 with python311-cryptography < 41 \
+python-abi \
 python311-cffi"
 
 inherit rpm

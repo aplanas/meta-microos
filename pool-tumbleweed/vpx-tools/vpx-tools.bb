@@ -14,14 +14,13 @@ PV = "1.13.0"
 RPM_NAME = "vpx-tools-1.13.0-1.3.aarch64.rpm"
 RPM_HASH = "f92dfee437662c6682f0a7bd5014add4af5e75065338a166a270099bebe76e4a2753dc3ce6aa21783023f53e8ea100288177d9637e2e1e1aaddc785b2b44aec7"
 
-RPROVIDES:${PN} += "vpx-tools \
-vpx-tools(aarch-64)"
+RPROVIDES:${PN} += "vpx-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libvpx.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libvpx.so.8"
 
 inherit rpm

@@ -40,16 +40,16 @@ RPM_NAME = "xom-1.2b1-39.6.noarch.rpm"
 RPM_HASH = "a96cbbfca04c1e67e3795eea74b7e2c884133ff02c3dffa2d60b1145ee7aca5df195ef0c03e188c9f7dbc8a28b2d7f0cfd55dfc2f820ca5e534fd120dc5ae2bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.io7m.xom:xom) \
-mvn(com.io7m.xom:xom:pom:) \
-mvn(xom:xom) \
-mvn(xom:xom:pom:) \
+RPROVIDES:${PN} += "mvn-com.io7m.xom-xom \
+mvn-com.io7m.xom-xom-pom- \
+mvn-xom-xom \
+mvn-xom-xom-pom- \
 xom"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(xalan:xalan) \
-mvn(xerces:xercesImpl) \
-mvn(xml-apis:xml-apis)"
+mvn-xalan-xalan \
+mvn-xerces-xercesImpl \
+mvn-xml-apis-xml-apis"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "0e46f862c6f4d7817336a83c6ddef37306db48726e5aa825addbdd22bbd6ed1fdf2d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flit-scm \
-python3.10dist(flit-scm) \
+python3.10dist-flit-scm \
 python310-flit-scm \
-python3dist(flit-scm)"
+python3dist-flit-scm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flit-core \
-python310-setuptools_scm \
+python310-setuptools-scm \
 python310-tomli"
 
 inherit rpm

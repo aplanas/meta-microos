@@ -10,17 +10,17 @@ RPM_HASH = "51561f6955096ea4fcc083ba8dd205156477746273a8ea9fd54312f03d4509e6489d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-anyedit \
-mvn(de.loskutov:AnyEditTools) \
-mvn(de.loskutov:de.loskutov.anyedit.AnyEditTools) \
-osgi(AnyEditTools) \
-osgi(de.loskutov.anyedit.AnyEditTools)"
+mvn-de.loskutov-AnyEditTools \
+mvn-de.loskutov-de.loskutov.anyedit.AnyEditTools \
+osgi-AnyEditTools \
+osgi-de.loskutov.anyedit.AnyEditTools"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-osgi(org.eclipse.jdt.annotation) \
-osgi(org.eclipse.jdt.core) \
-osgi(org.eclipse.jdt.launching) \
-osgi(org.eclipse.jdt.ui) \
-osgi(org.junit)"
+osgi-org.eclipse.jdt.annotation \
+osgi-org.eclipse.jdt.core \
+osgi-org.eclipse.jdt.launching \
+osgi-org.eclipse.jdt.ui \
+osgi-org.junit"
 
 inherit rpm

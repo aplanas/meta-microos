@@ -11,17 +11,16 @@ PV = "4.9.0"
 RPM_NAME = "screen-4.9.0-2.3.aarch64.rpm"
 RPM_HASH = "11cd363368e7eb451509eb373887358305ab59ecdbc2ac68129cf55dd47159c9632b36a81295027d36de50aa946ea464b5938e8455aee64260defbee9f1050b9"
 
-RPROVIDES:${PN} += "config(screen) \
-screen \
-screen(aarch-64)"
+RPROVIDES:${PN} += "config-screen \
+screen"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libpam.so.0()(64bit) \
-libtinfo.so.6()(64bit) \
-libutempter.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libpam.so.0 \
+libtinfo.so.6 \
+libutempter.so.0 \
 permissions \
 terminfo-base"
 

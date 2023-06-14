@@ -16,11 +16,10 @@ PV = "1.3.5"
 RPM_NAME = "ucpp-1.3.5-2.18.aarch64.rpm"
 RPM_HASH = "3d2cd56234e4ffd5a665ddc409d0a40ca61846a99536b2ae8a6cc8b35d7eaafb0d4ce9cdc21e79191489c4384b76648c4a44537643e1525cfd5b3c2431c34288"
 
-RPROVIDES:${PN} += "ucpp \
-ucpp(aarch-64)"
+RPROVIDES:${PN} += "ucpp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libucpp.so.13()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libucpp.so.13"
 
 inherit rpm

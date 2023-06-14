@@ -9,11 +9,11 @@ RPM_HASH = "e71f9ea38aee9ec4ce72a37f7032f5e097090eee003979f0be5bb3d24f1a73b8cfaf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-contextvars \
-python3.10dist(contextvars) \
+python3.10dist-contextvars \
 python310-contextvars \
-python3dist(contextvars)"
+python3dist-contextvars"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-immutables"
 
 inherit rpm

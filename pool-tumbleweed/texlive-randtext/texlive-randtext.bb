@@ -14,7 +14,7 @@ RPM_NAME = "texlive-randtext-2023.201.svn15878-53.1.noarch.rpm"
 RPM_HASH = "3fa5f29da739563c89b3417b34ca9275846652c8416368f91dddd4bdb68f07cec6862c3bf5457f53c9039a8849ca0d273bab0335ff707c593137651f763d448b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(randtext.sty) \
+RPROVIDES:${PN} += "tex-randtext.sty \
 texlive-randtext"
 
 RDEPENDS:${PN} += "/bin/sh \

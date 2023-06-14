@@ -12,7 +12,7 @@ RPM_HASH = "707abc9f2f9956f7d0b5d4d63475fd46e1033463a5b244dc6fc495e0f345a58b987e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "automake \
-config(automake)"
+config-automake"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \

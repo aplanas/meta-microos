@@ -19,23 +19,20 @@ PV = "5.106.0"
 RPM_NAME = "kconfig-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "3ce674e9a092a702e841c30def461a9c0c48c1f5408269b5f088f1839ff3557966d1b9a82475c85d03f9b92d649b68303eb5bffde5cb9fac052feb52ff0e13cd"
 
-RPROVIDES:${PN} += "cmake(KF5Config) \
-kconfig-devel \
-kconfig-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5Config \
+kconfig-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5DBus) \
-cmake(Qt5Xml) \
+RDEPENDS:${PN} += "cmake-Qt5DBus \
+cmake-Qt5Xml \
 extra-cmake-modules \
-kconf_update5 \
-ld-linux-aarch64.so.1()(64bit) \
+kconf-update5 \
+ld-linux-aarch64.so.1 \
 libKF5ConfigCore5 \
 libKF5ConfigGui5 \
 libKF5ConfigQml5 \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -16,13 +16,13 @@ RPM_HASH = "8cf4d527ed7c3731b0e5c14a4200cb163ece6c4651f34b15f24d973b5b71ea75c8bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-macholib \
-python3.10dist(macholib) \
+python3.10dist-macholib \
 python310-macholib \
-python3dist(macholib)"
+python3dist-macholib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-altgraph \
 python310-setuptools \
 update-alternatives"

@@ -11,9 +11,9 @@ RPM_NAME = "texlive-datetime2-usorbian-2023.201.1.1svn52375-52.1.noarch.rpm"
 RPM_HASH = "204cb6fb62442b207cc50332620d61d05bf0c13cf4d5a12abda24b00ab87da49d6201bae2de9d5f01eefcdccaad0c180f03f8804ad0aa407f5e986d6cf7f21b0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-usorbian-ascii.ldf) \
-tex(datetime2-usorbian-utf8.ldf) \
-tex(datetime2-usorbian.ldf) \
+RPROVIDES:${PN} += "tex-datetime2-usorbian-ascii.ldf \
+tex-datetime2-usorbian-utf8.ldf \
+tex-datetime2-usorbian.ldf \
 texlive-datetime2-usorbian"
 
 RDEPENDS:${PN} += "/bin/sh \

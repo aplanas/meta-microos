@@ -11,15 +11,14 @@ RPM_HASH = "71362251ffa226686d99edc8f14922f5a9690efaeb0c80bbb32229937287ddf2085d
 RPROVIDES:${PN} += "pygdmod \
 python-dbm \
 python-gdbm \
-python-gdbm(aarch-64) \
 python2-dbm \
 python2-gdbm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdbm.so.6()(64bit) \
-libgdbm_compat.so.4()(64bit) \
-libpython2.7.so.1.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdbm-compat.so.4 \
+libgdbm.so.6 \
+libpython2.7.so.1.0 \
 python-base"
 
 inherit rpm

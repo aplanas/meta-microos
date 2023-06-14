@@ -10,8 +10,7 @@ RPM_NAME = "openSUSE-build-key-1.0-48.1.aarch64.rpm"
 RPM_HASH = "d58b4f28fff2788eb24bdcf411c6e60ce3d7c8c366bbb463130dc60bc825da6b3f24e005dbe20a887d1af19960f02734a4e3beeaaaea7c5fb0d6c9fe779777d5"
 
 RPROVIDES:${PN} += "build-key \
-openSUSE-build-key \
-openSUSE-build-key(aarch-64)"
+openSUSE-build-key"
 
 RDEPENDS:${PN} += ""
 

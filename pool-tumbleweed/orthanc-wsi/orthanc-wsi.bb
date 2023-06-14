@@ -10,32 +10,30 @@ PV = "1.1"
 RPM_NAME = "orthanc-wsi-1.1-2.11.aarch64.rpm"
 RPM_HASH = "2c58a3d5ff4656e668c30ef927590abf42cc50d6f384db3f87a6ac7cfb7387818cc5aade91c8d91afd903cd1acb4b05e8edaf76683cee7d567fc6e779250fe47"
 
-RPROVIDES:${PN} += "libOrthancWSI.so.1.1()(64bit) \
-orthanc-wsi \
-orthanc-wsi(aarch-64)"
+RPROVIDES:${PN} += "libOrthancWSI.so.1.1 \
+orthanc-wsi"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_iostreams.so.1.82.0()(64bit) \
-libboost_locale.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libdcmdata.so.17()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libjsoncpp.so.25()(64bit) \
-libofstd.so.17()(64bit) \
-libopenjp2.so.7()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libuuid.so.1()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libboost-filesystem.so.1.82.0 \
+libboost-iostreams.so.1.82.0 \
+libboost-locale.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libdcmdata.so.17 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libjsoncpp.so.25 \
+libofstd.so.17 \
+libopenjp2.so.7 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libuuid.so.1 \
+libz.so.1 \
 orthanc"
 
 inherit rpm

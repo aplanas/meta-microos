@@ -19,15 +19,14 @@ RPM_NAME = "python39-3.9.16-8.1.aarch64.rpm"
 RPM_HASH = "ac23f25b4c94e418e09958a67f8752d5ed140cf8f5bd8ddee2c6457850ab3f134143478f2907a442301a5ba52186adfc4a64103701a79b9a8190c13a297033f1"
 
 RPROVIDES:${PN} += "python39 \
-python39(aarch-64) \
 python39-readline \
 python39-sqlite3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libsqlite3.so.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8 \
+libsqlite3.so.0 \
+python-abi \
 python39-base"
 
 inherit rpm

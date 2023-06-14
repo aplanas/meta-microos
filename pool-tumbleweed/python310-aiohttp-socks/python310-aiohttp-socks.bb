@@ -9,11 +9,11 @@ RPM_HASH = "9bb54b51375d572c24b2a975dc383e4c921b21759bbe964213cd1bedaac0c24b8af2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiohttp-socks \
-python3.10dist(aiohttp-socks) \
+python3.10dist-aiohttp-socks \
 python310-aiohttp-socks \
-python3dist(aiohttp-socks)"
+python3dist-aiohttp-socks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aiohttp \
 python310-attrs \
 python310-python-socks"

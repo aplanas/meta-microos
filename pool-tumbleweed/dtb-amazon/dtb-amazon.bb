@@ -9,8 +9,7 @@ RPM_HASH = "61722b06a691ad488834a968629bbcf3c6c694ce80a980efb96f110e5c764bfcabab
 
 RPROVIDES:${PN} += "dtb-al \
 dtb-amazon \
-dtb-amazon(aarch-64) \
-multiversion(dtb)"
+multiversion-dtb"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"

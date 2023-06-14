@@ -16,14 +16,13 @@ PV = "2.0"
 RPM_NAME = "azove-2.0-2.13.aarch64.rpm"
 RPM_HASH = "6d6f14eaa5f7ed4f1f53539c528e3e61fb3f68f3304e6066e506222c926b2cb70f5164bed19cf40b144de73c4ab362fc94d99da17d89fc42549fab28f19b6b17"
 
-RPROVIDES:${PN} += "azove \
-azove(aarch-64)"
+RPROVIDES:${PN} += "azove"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgmpxx.so.4()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgmpxx.so.4 \
+libstdc++.so.6"
 
 inherit rpm

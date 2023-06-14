@@ -12,8 +12,7 @@ PV = "5.3.5"
 RPM_NAME = "mumps-openmpi2-devel-static-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "aa47a930cf2064ad708d44103bc286e22ba361c0f4232f83abc68c0f5021c7fe44b21919577c2a04aeae2b04faf6273cd81578daf02b19efcb79e497e3cb38fb"
 
-RPROVIDES:${PN} += "mumps-openmpi2-devel-static \
-mumps-openmpi2-devel-static(aarch-64)"
+RPROVIDES:${PN} += "mumps-openmpi2-devel-static"
 
 RDEPENDS:${PN} += "mumps-openmpi2-devel"
 

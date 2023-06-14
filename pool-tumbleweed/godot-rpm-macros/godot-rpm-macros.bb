@@ -10,8 +10,8 @@ RPM_HASH = "2722cfc0fb1c77fffeba6196e3f620cb05dfbef447d557e154482dc67369e528e38f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "godot-rpm-macros \
-rpm_macro(godot_export) \
-rpm_macro(godot_prep)"
+rpm-macro-godot-export \
+rpm-macro-godot-prep"
 
 RDEPENDS:${PN} += "coreutils"
 

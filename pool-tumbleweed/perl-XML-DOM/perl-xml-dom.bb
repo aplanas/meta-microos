@@ -49,42 +49,42 @@ RPM_NAME = "perl-XML-DOM-1.46-1.4.noarch.rpm"
 RPM_HASH = "6cc5b3b1b0cdab2ceecac7901118858e4da257d23097fa494e7d6f2ad84888f3f5cdb44516e0c0fbfbcb9044b57201920e265f6127a6f140387152f5fb82d08b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::DOM) \
-perl(XML::DOM::AttDef) \
-perl(XML::DOM::AttlistDecl) \
-perl(XML::DOM::Attr) \
-perl(XML::DOM::CDATASection) \
-perl(XML::DOM::CharacterData) \
-perl(XML::DOM::Comment) \
-perl(XML::DOM::DOMException) \
-perl(XML::DOM::DOMImplementation) \
-perl(XML::DOM::Document) \
-perl(XML::DOM::DocumentFragment) \
-perl(XML::DOM::DocumentType) \
-perl(XML::DOM::Element) \
-perl(XML::DOM::ElementDecl) \
-perl(XML::DOM::Entity) \
-perl(XML::DOM::EntityReference) \
-perl(XML::DOM::NamedNodeMap) \
-perl(XML::DOM::Node) \
-perl(XML::DOM::NodeList) \
-perl(XML::DOM::Notation) \
-perl(XML::DOM::Parser) \
-perl(XML::DOM::PerlSAX) \
-perl(XML::DOM::PrintToFileHandle) \
-perl(XML::DOM::PrintToString) \
-perl(XML::DOM::ProcessingInstruction) \
-perl(XML::DOM::Text) \
-perl(XML::DOM::XMLDecl) \
-perl(XML::Handler::BuildDOM) \
-perl(XML::Parser::Dom) \
-perl(XML::XQL::Node) \
+RPROVIDES:${PN} += "perl-XML--DOM \
+perl-XML--DOM--AttDef \
+perl-XML--DOM--AttlistDecl \
+perl-XML--DOM--Attr \
+perl-XML--DOM--CDATASection \
+perl-XML--DOM--CharacterData \
+perl-XML--DOM--Comment \
+perl-XML--DOM--DOMException \
+perl-XML--DOM--DOMImplementation \
+perl-XML--DOM--Document \
+perl-XML--DOM--DocumentFragment \
+perl-XML--DOM--DocumentType \
+perl-XML--DOM--Element \
+perl-XML--DOM--ElementDecl \
+perl-XML--DOM--Entity \
+perl-XML--DOM--EntityReference \
+perl-XML--DOM--NamedNodeMap \
+perl-XML--DOM--Node \
+perl-XML--DOM--NodeList \
+perl-XML--DOM--Notation \
+perl-XML--DOM--Parser \
+perl-XML--DOM--PerlSAX \
+perl-XML--DOM--PrintToFileHandle \
+perl-XML--DOM--PrintToString \
+perl-XML--DOM--ProcessingInstruction \
+perl-XML--DOM--Text \
+perl-XML--DOM--XMLDecl \
+perl-XML--Handler--BuildDOM \
+perl-XML--Parser--Dom \
+perl-XML--XQL--Node \
 perl-XML-DOM"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(LWP::UserAgent) \
-perl(XML::Parser) \
-perl(XML::Parser::PerlSAX) \
-perl(XML::RegExp)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-LWP--UserAgent \
+perl-XML--Parser \
+perl-XML--Parser--PerlSAX \
+perl-XML--RegExp"
 
 inherit rpm

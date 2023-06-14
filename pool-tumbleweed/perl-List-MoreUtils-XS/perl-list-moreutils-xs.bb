@@ -10,13 +10,12 @@ PV = "0.430"
 RPM_NAME = "perl-List-MoreUtils-XS-0.430-1.16.aarch64.rpm"
 RPM_HASH = "1912713011fcd94d37746e507d9ca25aafd05d021a769265815657c0ab6731fbc4995836db74e3d8304d8629c38010127da8b0286346a5599184cd140d41aeff"
 
-RPROVIDES:${PN} += "perl(List::MoreUtils::XS) \
-perl-List-MoreUtils-XS \
-perl-List-MoreUtils-XS(aarch-64)"
+RPROVIDES:${PN} += "perl-List--MoreUtils--XS \
+perl-List-MoreUtils-XS"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(XSLoader)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-XSLoader"
 
 inherit rpm

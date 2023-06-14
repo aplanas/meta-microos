@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-regexp \
 ant-jakarta-regexp \
-config(ant-apache-regexp) \
-mvn(org.apache.ant:ant-apache-regexp) \
-mvn(org.apache.ant:ant-apache-regexp:pom:)"
+config-ant-apache-regexp \
+mvn-org.apache.ant-ant-apache-regexp \
+mvn-org.apache.ant-ant-apache-regexp-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(jakarta-regexp:jakarta-regexp) \
-mvn(org.apache.ant:ant) \
+mvn-jakarta-regexp-jakarta-regexp \
+mvn-org.apache.ant-ant \
 regexp"
 
 inherit rpm

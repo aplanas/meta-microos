@@ -12,14 +12,13 @@ PV = "1.3"
 RPM_NAME = "mpibash-1.3-3.8.aarch64.rpm"
 RPM_HASH = "ba7c49052ce4e14622a7605f66db15dc3079d9f5b74d7caa71f25ade36c44772109c093e9f37e30890acc3fded6d54391497fde4260ef50a761ecd5e86e7eead"
 
-RPROVIDES:${PN} += "mpibash \
-mpibash(aarch-64)"
+RPROVIDES:${PN} += "mpibash"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcircle.so.2()(64bit) \
-libmpi.so.40()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcircle.so.2 \
+libmpi.so.40 \
 openmpi4-libs"
 
 inherit rpm

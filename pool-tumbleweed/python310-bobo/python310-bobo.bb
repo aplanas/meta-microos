@@ -17,13 +17,13 @@ RPM_HASH = "1fa66742627db389cdb5279015d2b47307f2cde7283a41cb19a33181d9123424bab7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bobo \
-python3.10dist(bobo) \
+python3.10dist-bobo \
 python310-bobo \
-python3dist(bobo)"
+python3dist-bobo"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-WebOb \
 python310-six \
 update-alternatives"

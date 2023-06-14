@@ -11,8 +11,7 @@ RPM_NAME = "libmdmp-devel-20210420-3.4.aarch64.rpm"
 RPM_HASH = "2924111681ab6a651def4616a34e5ef80fd47d5e2ebb508c0d0a184b3a0c2e7d73931c3943cb2b949005222b8ec64aadcb62f471aa267bef1587dc7b4e0c2b6c"
 
 RPROVIDES:${PN} += "libmdmp-devel \
-libmdmp-devel(aarch-64) \
-pkgconfig(libmdmp)"
+pkgconfig-libmdmp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \

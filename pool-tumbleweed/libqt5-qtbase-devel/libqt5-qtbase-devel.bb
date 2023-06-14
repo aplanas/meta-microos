@@ -10,8 +10,7 @@ PV = "5.15.9+kde154"
 RPM_NAME = "libqt5-qtbase-devel-5.15.9+kde154-1.2.aarch64.rpm"
 RPM_HASH = "d2b1e8d0ae321b44fa4b855d18acc11a267bbc5b6c2cb72a945e735e7e72753f40b6140c2ff966cc48d9b3afefb98e6d0de3ec3ca385f8f81b0e40767a6d628a"
 
-RPROVIDES:${PN} += "libqt5-qtbase-devel \
-libqt5-qtbase-devel(aarch-64)"
+RPROVIDES:${PN} += "libqt5-qtbase-devel"
 
 RDEPENDS:${PN} += "libQt5Concurrent-devel \
 libQt5Core-devel \

@@ -14,12 +14,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-igwn-auth-utils \
 python3-igwn-auth-utils-requests \
-python3.10dist(igwn-auth-utils) \
+python3.10dist-igwn-auth-utils \
 python310-igwn-auth-utils \
 python310-igwn-auth-utils-requests \
-python3dist(igwn-auth-utils)"
+python3dist-igwn-auth-utils"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-requests \
 python310-safe-netrc \

@@ -9,11 +9,11 @@ RPM_HASH = "01770230dac1503b8ac86457f816aab73ee6b892c2e49a88f47d32e688b0c90c9ae3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-click-completion \
-python3.10dist(click-completion) \
+python3.10dist-click-completion \
 python310-click-completion \
-python3dist(click-completion)"
+python3dist-click-completion"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-click \
 python310-shellingham \

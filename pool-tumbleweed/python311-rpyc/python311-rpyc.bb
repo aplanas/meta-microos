@@ -13,14 +13,14 @@ RPM_NAME = "python311-rpyc-5.3.0-2.3.noarch.rpm"
 RPM_HASH = "1f4f567fe0181159c8370593acff53ad8082746e308aef04056a6fc974c4d0c140b22697e29307dc163e8d2e4b3c2a9d40a11104fb712e73f0f66370aa394994"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(rpyc) \
+RPROVIDES:${PN} += "python3.11dist-rpyc \
 python311-rpyc \
-python3dist(rpyc)"
+python3dist-rpyc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-plumbum \
 update-alternatives"
 

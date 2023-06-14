@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "florence-lang \
 florence-lang-all \
-locale(florence:fr) \
-locale(florence:it) \
-locale(florence:ru)"
+locale-florence-fr \
+locale-florence-it \
+locale-florence-ru"
 
 RDEPENDS:${PN} += "florence"
 

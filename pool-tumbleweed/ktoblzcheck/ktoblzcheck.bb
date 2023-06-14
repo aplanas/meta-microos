@@ -12,13 +12,12 @@ PV = "1.53"
 RPM_NAME = "ktoblzcheck-1.53-1.4.aarch64.rpm"
 RPM_HASH = "82fbe386745baf29f2279f4a4eb273c3a2f5970d1ff5f26f4d53bc888ccbd1adeaafbea55fbdea69855cbd1ce5ffe736e0d24939d9c3a2950e0eb64c6eeea58e"
 
-RPROVIDES:${PN} += "ktoblzcheck \
-ktoblzcheck(aarch-64)"
+RPROVIDES:${PN} += "ktoblzcheck"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libktoblzcheck.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libktoblzcheck.so.1 \
+libstdc++.so.6"
 
 inherit rpm

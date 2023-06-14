@@ -14,18 +14,17 @@ PV = "1.4.1"
 RPM_NAME = "libosmoabis10-1.4.1-1.1.aarch64.rpm"
 RPM_HASH = "f4a9d662fdad7cb2cc7523cc2f2f0a2600ebc1a7b5d28f9a4701670b9c4bdc362c02a7f27e801c7ee9901bafd70e43a43122bd1aa079921b76cb6ea602d25cfd"
 
-RPROVIDES:${PN} += "libosmoabis.so.10()(64bit) \
-libosmoabis10 \
-libosmoabis10(aarch-64)"
+RPROVIDES:${PN} += "libosmoabis.so.10 \
+libosmoabis10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmo-e1d.so.1()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmogsm.so.18()(64bit) \
-libosmoisdn.so.0()(64bit) \
-libosmovty.so.9()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmo-e1d.so.1 \
+libosmocore.so.20 \
+libosmogsm.so.18 \
+libosmoisdn.so.0 \
+libosmovty.so.9 \
+libtalloc.so.2"
 
 inherit rpm

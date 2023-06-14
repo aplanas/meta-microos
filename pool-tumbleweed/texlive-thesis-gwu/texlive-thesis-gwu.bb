@@ -12,7 +12,7 @@ RPM_NAME = "texlive-thesis-gwu-2023.201.1.7.0svn54287-54.1.noarch.rpm"
 RPM_HASH = "b6dde2ed8cfce00cf828987b477c801a18c1db0fc49ee9571215b8f0dfcd412547c856af0e4713192d7223516e44c4f06fc55497b2fecd4f96956de33c19c738"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(thesis-gwu.cls) \
+RPROVIDES:${PN} += "tex-thesis-gwu.cls \
 texlive-thesis-gwu"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(report.cls) \
+tex-report.cls \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

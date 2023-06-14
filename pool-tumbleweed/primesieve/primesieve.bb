@@ -10,14 +10,13 @@ PV = "11.1"
 RPM_NAME = "primesieve-11.1-1.1.aarch64.rpm"
 RPM_HASH = "9744bdb9941e97b20c2e214e2ecce6c318537d4def392c3c8c4cd117e410b40d58d3e44c4175b3ff2a361a8e606f86e4f6a5f1ca6fa275c753914396ebc7fbb4"
 
-RPROVIDES:${PN} += "primesieve \
-primesieve(aarch-64)"
+RPROVIDES:${PN} += "primesieve"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libprimesieve.so.11()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libprimesieve.so.11 \
+libstdc++.so.6"
 
 inherit rpm

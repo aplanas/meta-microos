@@ -13,25 +13,24 @@ PV = "3.16"
 RPM_NAME = "mailutils-delivery-3.16-1.2.aarch64.rpm"
 RPM_HASH = "6c059b1d591a96041bb7bd17cf7da7c9bbf63d62f15a0213b31b87f169add41103d31370255d7988eecbbd71972bfeef8337a9b9d7dc84730f82c58f8c51d028"
 
-RPROVIDES:${PN} += "mailutils-delivery \
-mailutils-delivery(aarch-64)"
+RPROVIDES:${PN} += "mailutils-delivery"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libguile-3.0.so.1()(64bit) \
-libmailutils.so.9()(64bit) \
-libmu_auth.so.9()(64bit) \
-libmu_dbm.so.9()(64bit) \
-libmu_dotmail.so.9()(64bit) \
-libmu_imap.so.9()(64bit) \
-libmu_maildir.so.9()(64bit) \
-libmu_mailer.so.9()(64bit) \
-libmu_mbox.so.9()(64bit) \
-libmu_mh.so.9()(64bit) \
-libmu_pop.so.9()(64bit) \
-libmu_py.so.9()(64bit) \
-libmu_scm.so.9()(64bit) \
-libmu_sieve.so.9()(64bit) \
-libwrap.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libguile-3.0.so.1 \
+libmailutils.so.9 \
+libmu-auth.so.9 \
+libmu-dbm.so.9 \
+libmu-dotmail.so.9 \
+libmu-imap.so.9 \
+libmu-maildir.so.9 \
+libmu-mailer.so.9 \
+libmu-mbox.so.9 \
+libmu-mh.so.9 \
+libmu-pop.so.9 \
+libmu-py.so.9 \
+libmu-scm.so.9 \
+libmu-sieve.so.9 \
+libwrap.so.0"
 
 inherit rpm

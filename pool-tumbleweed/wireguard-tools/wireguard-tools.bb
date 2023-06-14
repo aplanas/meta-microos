@@ -18,12 +18,11 @@ PV = "1.0.20210914"
 RPM_NAME = "wireguard-tools-1.0.20210914-6.3.aarch64.rpm"
 RPM_HASH = "3826ac0209e6ffd4f5b374533f6095e8dc3958ef79d03e561bb6021742de92fb9557678160fb1bed1aa2331150b7afa6b19c98007f9de3728435b0e7c8fa1d10"
 
-RPROVIDES:${PN} += "wireguard-tools \
-wireguard-tools(aarch-64)"
+RPROVIDES:${PN} += "wireguard-tools"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

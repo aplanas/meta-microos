@@ -14,11 +14,11 @@ RPM_NAME = "texlive-uptex-2023.201.svn66381-53.1.noarch.rpm"
 RPM_HASH = "2804fec5a0d1218061abeea6ed75fb51bf7b81264923eb7768d01229501dcb31577a0dbf4348b7da79b87d1bea25e90713fc52ab9bd0e430560c1adf9f1cfe1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(euptex.1) \
-man(upbibtex.1) \
-man(uppltotf.1) \
-man(uptex.1) \
-man(uptftopl.1) \
+RPROVIDES:${PN} += "man-euptex.1 \
+man-upbibtex.1 \
+man-uppltotf.1 \
+man-uptex.1 \
+man-uptftopl.1 \
 texlive-uptex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,10 +27,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
-tex(updmap.cfg) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
+tex-updmap.cfg \
 texlive \
 texlive-cm \
 texlive-etex \

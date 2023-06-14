@@ -15,11 +15,11 @@ RPM_HASH = "8310beef23a3faab1db11db5be7e10624566abe3ecb39e92836747d782414b7f7d58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tinycss2 \
-python3.10dist(tinycss2) \
+python3.10dist-tinycss2 \
 python310-tinycss2 \
-python3dist(tinycss2)"
+python3dist-tinycss2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-webencodings"
 
 inherit rpm

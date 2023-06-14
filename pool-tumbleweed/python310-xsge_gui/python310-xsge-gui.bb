@@ -13,12 +13,12 @@ RPM_NAME = "python310-xsge_gui-1.2.1-2.7.noarch.rpm"
 RPM_HASH = "6ae46f4fc62332a3c726daf2788d4326e70b21d1a3307f3537216c8e81b9eb9dd53022fb93f83acb853cde13feb40eeca285248a5ed61435640c6f2b37fdf5a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xsge_gui \
-python3.10dist(xsge-gui) \
-python310-xsge_gui \
-python3dist(xsge-gui)"
+RPROVIDES:${PN} += "python3-xsge-gui \
+python3.10dist-xsge-gui \
+python310-xsge-gui \
+python3dist-xsge-gui"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-sge-pygame \
 python310-six"
 

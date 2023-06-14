@@ -11,8 +11,7 @@ PV = "2.3"
 RPM_NAME = "urxvt-perls-2.3-1.4.aarch64.rpm"
 RPM_HASH = "37d05e277f8b107cd9ead35430d1faf8e5be4da26cc48bc0450da9740206580d9400c7a7f8d8b5dd6ab6ea23c53f65a100e52406d1b479992ed534b4ee770faf"
 
-RPROVIDES:${PN} += "urxvt-perls \
-urxvt-perls(aarch-64)"
+RPROVIDES:${PN} += "urxvt-perls"
 
 RDEPENDS:${PN} += "xsel"
 

@@ -13,9 +13,8 @@ PV = "9.2.6"
 RPM_NAME = "vtk-openmpi4-java-devel-9.2.6-2.2.aarch64.rpm"
 RPM_HASH = "2553866053e9f3c0933c8d45fc4ae14c3cfb5d41f63e22609bf97018842fd9ed3a54d4911c1d692bc57bab68273342473f817ae0f52aa10dce1ae7ea88613ff3"
 
-RPROVIDES:${PN} += "vtk-openmpi4-devel:/usr/lib64/mpi/gcc/openmpi4/lib64//libvtkJava.so \
-vtk-openmpi4-java-devel \
-vtk-openmpi4-java-devel(aarch-64)"
+RPROVIDES:${PN} += "vtk-openmpi4-devel-/usr/lib64/mpi/gcc/openmpi4/lib64//libvtkJava.so \
+vtk-openmpi4-java-devel"
 
 RDEPENDS:${PN} += "java-devel \
 vtk-openmpi4-devel \

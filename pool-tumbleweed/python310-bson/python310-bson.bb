@@ -9,11 +9,11 @@ RPM_HASH = "5bfd2c1aea7bc96d7d82591c84e262eceea10017e024c01e9f03faf7694bb626588e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bson \
-python3.10dist(bson) \
+python3.10dist-bson \
 python310-bson \
-python3dist(bson)"
+python3dist-bson"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil"
 
 inherit rpm

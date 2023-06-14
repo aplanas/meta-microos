@@ -25,7 +25,7 @@ RPM_NAME = "texlive-moreenum-2023.201.1.03svn24479-54.1.noarch.rpm"
 RPM_HASH = "25199002d515717ccfcf53b1a5b60a4301aa1b2c54116f440b79c4725f97d9550483ffff84beb75933eaa983349c0520d571ab9f1bd59d3b24e3abaad6a82dcd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(moreenum.sty) \
+RPROVIDES:${PN} += "tex-moreenum.sty \
 texlive-moreenum"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -34,10 +34,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(alphalph.sty) \
-tex(amsmath.sty) \
-tex(enumitem.sty) \
-tex(fmtcount.sty) \
+tex-alphalph.sty \
+tex-amsmath.sty \
+tex-enumitem.sty \
+tex-fmtcount.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

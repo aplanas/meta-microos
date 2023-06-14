@@ -10,34 +10,25 @@ PV = "23.04.1"
 RPM_NAME = "kspaceduel-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "ec72d6684a39ed9d779bf0210028a7b10c5483218ba6fb813551c404bc624b8cff868b58417e309deb8f092d0ae9121786b0d5e1202c95c4b962173da332ad52"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.kspaceduel.desktop) \
-kspaceduel \
-kspaceduel(aarch-64) \
-kspaceduel5 \
-metainfo() \
-metainfo(org.kde.kspaceduel.appdata.xml)"
+RPROVIDES:${PN} += "kspaceduel \
+kspaceduel5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KDEGames.so.7()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KDEGames.so.7 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -21,29 +21,24 @@ PV = "1.6.1"
 RPM_NAME = "nitrogen-1.6.1-1.22.aarch64.rpm"
 RPM_HASH = "81ee5bb60d45b81f518270236bb9b5baff8ab3806a5841217a6f40d83ea0ad24d44ac6c2e7037420e7b319302b003d65c61272b1cadc9258ecc10e99ce92e98f"
 
-RPROVIDES:${PN} += "application() \
-application(nitrogen.desktop) \
-metainfo() \
-metainfo(nitrogen.appdata.xml) \
-nitrogen \
-nitrogen(aarch-64)"
+RPROVIDES:${PN} += "nitrogen"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libatkmm-1.6.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdkmm-2.4.so.1()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtkmm-2.4.so.1()(64bit) \
-libpangomm-1.4.so.1()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXinerama.so.1 \
+libatkmm-1.6.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdk-x11-2.0.so.0 \
+libgdkmm-2.4.so.1 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgobject-2.0.so.0 \
+libgtkmm-2.4.so.1 \
+libpangomm-1.4.so.1 \
+libsigc-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

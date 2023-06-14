@@ -14,10 +14,10 @@ RPM_NAME = "python39-subprocess-tee-0.4.1-4.1.noarch.rpm"
 RPM_HASH = "97874bb8bfa8f2aa4a30b3dd1d2442ad0e487d9cee6ccd56c2a1ec7f2cf64b22da2c9f9ab63d2e646d9b689c56c8f9c95e70b4a50d13cb9a69a1c47b0362b772"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(subprocess-tee) \
+RPROVIDES:${PN} += "python3.9dist-subprocess-tee \
 python39-subprocess-tee \
-python3dist(subprocess-tee)"
+python3dist-subprocess-tee"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

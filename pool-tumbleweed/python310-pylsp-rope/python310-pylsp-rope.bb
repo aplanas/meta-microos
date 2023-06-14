@@ -11,11 +11,11 @@ RPM_HASH = "d085bbc5f687cc34fbf091f08f4c82e42b57c7a394bab8f6f807457425c300ac7d48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylsp-rope \
-python3.10dist(pylsp-rope) \
+python3.10dist-pylsp-rope \
 python310-pylsp-rope \
-python3dist(pylsp-rope)"
+python3dist-pylsp-rope"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-lsp-server \
 python310-rope"
 

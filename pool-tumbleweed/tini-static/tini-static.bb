@@ -13,8 +13,7 @@ PV = "0.19.0"
 RPM_NAME = "tini-static-0.19.0-2.1.aarch64.rpm"
 RPM_HASH = "a610392d44e88c6f8c0d3ce8c3105e51a53712002f983960c6e28ae7584182b03373c27ba2afb69baf43b581472f836cdaaa8ec80c71eaa4c794dd7ec9610048"
 
-RPROVIDES:${PN} += "tini-static \
-tini-static(aarch-64)"
+RPROVIDES:${PN} += "tini-static"
 
 RDEPENDS:${PN} += ""
 

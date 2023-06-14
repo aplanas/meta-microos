@@ -16,9 +16,9 @@ RPM_NAME = "perl-Mozilla-CA-20221114-1.1.noarch.rpm"
 RPM_HASH = "fb11111f74dfba23c09117c15ac6d76a5ed0ea9406b197833066a94be888ee13a668d6af0b4464d191e76cab7917fd2f828b1a99527f365fbb43b7df08cfa4ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mozilla::CA) \
+RPROVIDES:${PN} += "perl-Mozilla--CA \
 perl-Mozilla-CA"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

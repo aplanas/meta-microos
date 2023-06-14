@@ -22,13 +22,13 @@ RPM_HASH = "d40245eef15116c6eafae52b686afcf716b491da074c24d32023317736e9e7204f19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ZConfig \
-python3.10dist(zconfig) \
+python3.10dist-zconfig \
 python310-ZConfig \
-python3dist(zconfig)"
+python3dist-zconfig"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

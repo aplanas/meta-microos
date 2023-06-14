@@ -15,7 +15,7 @@ RPM_NAME = "raspberrypi-firmware-config-2023.04.25-2.1.noarch.rpm"
 RPM_HASH = "6d58f82689da5c73effbeee840526c00bcff9a3c7c84441e2e970a00c8ce31c12ef7632093bdfc36ac5ce0f0b9983ee2fc4a0213382bec9408d5744c1cb9c08c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(raspberrypi-firmware-config) \
+RPROVIDES:${PN} += "config-raspberrypi-firmware-config \
 raspberrypi-firmware-branding-openSUSE \
 raspberrypi-firmware-config \
 raspberrypi-firmware-config-rpi \

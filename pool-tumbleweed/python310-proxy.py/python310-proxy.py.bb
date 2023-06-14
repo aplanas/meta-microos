@@ -12,13 +12,13 @@ RPM_HASH = "c108a40e8fbe59a70dccde231cbb79cfef05e66c97f16468385d1314fef193c332d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-proxy.py \
-python3.10dist(proxy.py) \
+python3.10dist-proxy.py \
 python310-proxy.py \
-python3dist(proxy.py)"
+python3dist-proxy.py"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

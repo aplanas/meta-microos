@@ -10,13 +10,13 @@ RPM_HASH = "9ea0356b8e704a593862e500d6ea2b40497641de3ae3bb9d99c2967d483addcc485d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mygpoclient \
-python3.10dist(mygpoclient) \
+python3.10dist-mygpoclient \
 python310-mygpoclient \
-python3dist(mygpoclient)"
+python3dist-mygpoclient"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-simplejson \
 update-alternatives"
 

@@ -15,11 +15,11 @@ RPM_HASH = "3c7aa11ac53ec270e5abd4f379867d5e7fa42ea52b5517523727a86d023e68d80e11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jwcrypto \
-python3.10dist(jwcrypto) \
+python3.10dist-jwcrypto \
 python310-jwcrypto \
-python3dist(jwcrypto)"
+python3dist-jwcrypto"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Deprecated \
 python310-cryptography"
 

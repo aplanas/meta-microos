@@ -7,23 +7,18 @@ PV = "0.0.5"
 RPM_NAME = "deepin-turbo-0.0.5-2.9.aarch64.rpm"
 RPM_HASH = "22a5d1a3098de8a5db6181839462306c05a972e74e3862c2e9a2058cbc9535c184a3a28f61def1c02e04fdedf2c17acddd405a0e6b5dbc761046384418dbdb52"
 
-RPROVIDES:${PN} += "deepin-turbo \
-deepin-turbo(aarch-64)"
+RPROVIDES:${PN} += "deepin-turbo"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdeepin-turbo.so.0()(64bit) \
-libdtkwidget.so.5()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libdbus-1.so.3 \
+libdeepin-turbo.so.0 \
+libdtkwidget.so.5 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

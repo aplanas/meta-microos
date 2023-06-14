@@ -28,23 +28,23 @@ RPM_NAME = "perl-Net-SSLGlue-1.058-1.23.noarch.rpm"
 RPM_HASH = "a160f83116c1d7e6060e1f64084c28964945afe29d5b8017bd400cd00b9a631d27f3edfce8928fd371363da571b0f7fa4edbf129a339eca00ae2452b9cff1356"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::SSLGlue) \
-perl(Net::SSLGlue::FTP) \
-perl(Net::SSLGlue::FTP::SingleSessionCache) \
-perl(Net::SSLGlue::LDAP) \
-perl(Net::SSLGlue::LWP) \
-perl(Net::SSLGlue::LWP::Socket) \
-perl(Net::SSLGlue::POP3) \
-perl(Net::SSLGlue::POP3::_SSL_Socket) \
-perl(Net::SSLGlue::POP3::_SSLified) \
-perl(Net::SSLGlue::SMTP) \
-perl(Net::SSLGlue::SMTP::_SSL_Socket) \
-perl(Net::SSLGlue::SMTP::_SSLified) \
-perl(Net::SSLGlue::Socket) \
-perl(Net::SSLGlue::Socket::HANDLE) \
+RPROVIDES:${PN} += "perl-Net--SSLGlue \
+perl-Net--SSLGlue--FTP \
+perl-Net--SSLGlue--FTP--SingleSessionCache \
+perl-Net--SSLGlue--LDAP \
+perl-Net--SSLGlue--LWP \
+perl-Net--SSLGlue--LWP--Socket \
+perl-Net--SSLGlue--POP3 \
+perl-Net--SSLGlue--POP3---SSL-Socket \
+perl-Net--SSLGlue--POP3---SSLified \
+perl-Net--SSLGlue--SMTP \
+perl-Net--SSLGlue--SMTP---SSL-Socket \
+perl-Net--SSLGlue--SMTP---SSLified \
+perl-Net--SSLGlue--Socket \
+perl-Net--SSLGlue--Socket--HANDLE \
 perl-Net-SSLGlue"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(IO::Socket::SSL)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-IO--Socket--SSL"
 
 inherit rpm

@@ -12,10 +12,9 @@ PV = "0.1.2"
 RPM_NAME = "libxcvt-0.1.2-1.3.aarch64.rpm"
 RPM_HASH = "34d1327cc81f28fdfb87a36321e333585d8e857df9d5ed08ee42faab3f7e61dd380f89d360cd3e2a54c47f63798840e63f3bad8f3a86dbf5a3e560c2f7e8d3a8"
 
-RPROVIDES:${PN} += "libxcvt \
-libxcvt(aarch-64)"
+RPROVIDES:${PN} += "libxcvt"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libxcvt.so.0()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libxcvt.so.0"
 
 inherit rpm

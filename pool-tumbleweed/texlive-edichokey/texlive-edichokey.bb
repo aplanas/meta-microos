@@ -11,7 +11,7 @@ RPM_NAME = "texlive-edichokey-2023.201.2.01ysvn56223-53.1.noarch.rpm"
 RPM_HASH = "c8856819360e1ecd1628c8494c68383554d8924126ddc7dd34a3dcbca8fdedd3b3d7274bb628027e2f3a0627b00042cb8fb7a4af1c0d0ac54ebcb8013f1369dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(edichokey.sty) \
+RPROVIDES:${PN} += "tex-edichokey.sty \
 texlive-edichokey"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(hyperref.sty) \
+tex-hyperref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

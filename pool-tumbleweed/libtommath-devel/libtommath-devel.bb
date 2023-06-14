@@ -14,9 +14,8 @@ RPM_NAME = "libtommath-devel-1.2.0-2.2.aarch64.rpm"
 RPM_HASH = "0c30e4633ea45fd61214846b9f353bba78e10481ad796e6135d6b77827dc982bc167321011b67bf3c7330aa9b4d074247b93bd8bfd05f7066d722f960ba904b5"
 
 RPROVIDES:${PN} += "libtommath-devel \
-libtommath-devel(aarch-64) \
 libtommath0-devel \
-pkgconfig(libtommath)"
+pkgconfig-libtommath"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtommath1"

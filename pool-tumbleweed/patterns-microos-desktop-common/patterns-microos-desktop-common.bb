@@ -7,12 +7,11 @@ PV = "5.0"
 RPM_NAME = "patterns-microos-desktop-common-5.0-70.1.aarch64.rpm"
 RPM_HASH = "3ba0e85b5302bb5e2c268f22b8f312cbc082f0f31dbd6a488be090f6699f10e1899913b61156f4b58bc7b993c7ce0c29490aea993ef2298e2a1bc9c5e58e0204"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-patterns-microos-desktop-common \
-patterns-microos-desktop-common(aarch-64)"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+patterns-microos-desktop-common"
 
 RDEPENDS:${PN} += "OpenPrintingPPDs \
 avahi \
@@ -33,7 +32,7 @@ hplip-hpijs \
 kernel-firmware-all \
 ntfs-3g \
 ntfsprogs \
-pattern() \
+pattern- \
 pipewire-alsa \
 pipewire-pulseaudio \
 policycoreutils-python-utils \

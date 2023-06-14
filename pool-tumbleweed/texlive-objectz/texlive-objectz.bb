@@ -9,7 +9,7 @@ RPM_NAME = "texlive-objectz-2023.201.svn61719-54.1.noarch.rpm"
 RPM_HASH = "764a186a0c59b6ce954fdfa8d18bde8c44596f03ce15a1954b8cc84de24f5d581ecb982182f1c216a5effb7bd8884a997dfae8e10a5557bfd0dc6f389fd8ba1f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(oz.sty) \
+RPROVIDES:${PN} += "tex-oz.sty \
 texlive-objectz"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,7 +18,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
+tex-calc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

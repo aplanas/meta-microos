@@ -9,11 +9,11 @@ RPM_HASH = "383692e5882ce47fac7e023a24e42b987df8c50c349aca702329b4f5940cec86e204
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-markdown-math \
-python3.10dist(python-markdown-math) \
+python3.10dist-python-markdown-math \
 python310-markdown-math \
-python3dist(python-markdown-math)"
+python3dist-python-markdown-math"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Markdown"
 
 inherit rpm

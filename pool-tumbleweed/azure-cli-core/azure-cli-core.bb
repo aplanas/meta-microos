@@ -9,12 +9,12 @@ RPM_HASH = "176c7eab1352692696935ed4168d71569f33b69b336362ca9edf132d725ae6754897
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-core \
-python3.10dist(azure-cli-core) \
-python3dist(azure-cli-core)"
+python3.10dist-azure-cli-core \
+python3dist-azure-cli-core"
 
 RDEPENDS:${PN} += "azure-cli-nspkg \
 azure-cli-telemetry \
-python(abi) \
+python-abi \
 python3-PyJWT \
 python3-argcomplete \
 python3-azure-mgmt-core \

@@ -10,19 +10,15 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt53DLogic5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "f2c4201c24ac39d1f572dfcf08e26533ad5e4fa5f63202615b8913f89ec952e3effd10e5c0037798685c23ce8c7343e882332d00828ec65d381f998e5c5c9ca8"
 
-RPROVIDES:${PN} += "libQt53DLogic.so.5()(64bit) \
-libQt53DLogic.so.5(Qt_5)(64bit) \
-libQt53DLogic5 \
-libQt53DLogic5(aarch-64)"
+RPROVIDES:${PN} += "libQt53DLogic.so.5 \
+libQt53DLogic5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt53DCore.so.5()(64bit) \
-libQt53DCore.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt53DCore.so.5 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

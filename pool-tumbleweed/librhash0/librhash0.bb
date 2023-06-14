@@ -12,12 +12,11 @@ PV = "1.4.3"
 RPM_NAME = "librhash0-1.4.3-1.5.aarch64.rpm"
 RPM_HASH = "291e73d3806da098386fd9ed266732f5f130507240561982f70668b04aa811f6ede07adf270aa1a362c88635e72b8ea38f6f0fa375ecc0e00cf6c62a4bfdbe51"
 
-RPROVIDES:${PN} += "librhash.so.0()(64bit) \
-librhash0 \
-librhash0(aarch-64)"
+RPROVIDES:${PN} += "librhash.so.0 \
+librhash0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

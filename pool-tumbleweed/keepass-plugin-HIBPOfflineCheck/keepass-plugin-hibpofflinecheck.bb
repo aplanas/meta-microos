@@ -11,13 +11,13 @@ RPM_HASH = "2a4019b6dc66e59dbac5f5c947caf6ba3120a0f0df188810fe476bed2f7f295e7b40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepass-plugin-HIBPOfflineCheck \
-mono(HIBPOfflineCheck)"
+mono-HIBPOfflineCheck"
 
 RDEPENDS:${PN} += "keepass \
-mono(KeePass) \
-mono(System) \
-mono(System.Drawing) \
-mono(System.Windows.Forms) \
-mono(mscorlib)"
+mono-KeePass \
+mono-System \
+mono-System.Drawing \
+mono-System.Windows.Forms \
+mono-mscorlib"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "f4634a36fbd77ebf78f769b53a9a481b653ee90614682eea1fe8d3d9326b073a96da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certipy \
-python3.10dist(certipy) \
+python3.10dist-certipy \
 python310-certipy \
-python3dist(certipy)"
+python3dist-certipy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pyOpenSSL \
 update-alternatives"
 

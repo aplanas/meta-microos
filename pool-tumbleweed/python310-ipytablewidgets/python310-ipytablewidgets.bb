@@ -19,11 +19,11 @@ RPM_HASH = "8817b0dfd62e643b44333cb9271295be4af14e683f1a82ff0e1060661f44889532a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipytablewidgets \
-python3.10dist(ipytablewidgets) \
+python3.10dist-ipytablewidgets \
 python310-ipytablewidgets \
-python3dist(ipytablewidgets)"
+python3dist-ipytablewidgets"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipywidgets \
 python310-lz4 \
 python310-numpy \

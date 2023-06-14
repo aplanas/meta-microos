@@ -17,11 +17,11 @@ RPM_NAME = "python311-cluster-1.4.1.post2-2.8.noarch.rpm"
 RPM_HASH = "cca8318fc486f909055f0d4425e9f54564e8748a488038cb38de8e01149744b65203169bf08088756a361da5d1b41ba3c3caad5d99884584def2c0486117c5a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(cluster) \
+RPROVIDES:${PN} += "python3.11dist-cluster \
 python311-cluster \
-python3dist(cluster)"
+python3dist-cluster"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \
 python311-numpy \
 python311-scipy"

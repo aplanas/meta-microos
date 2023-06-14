@@ -14,15 +14,15 @@ RPM_NAME = "texlive-tikz-trackschematic-2023.201.0.0.7.1svn63480-52.1.noarch.rpm
 RPM_HASH = "f9b6867b037e17d74f9c2cf1c71c2257ca999e92a59a16d8c7d6713747f4b0d790499836aa8b15ae2708847342017de4e3b7bf83d75e11add316b68ca95d197d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikz-trackschematic.sty) \
-tex(tikzlibrarytrackschematic.code.tex) \
-tex(tikzlibrarytrackschematic.constructions.code.tex) \
-tex(tikzlibrarytrackschematic.electrics.code.tex) \
-tex(tikzlibrarytrackschematic.measures.code.tex) \
-tex(tikzlibrarytrackschematic.symbology.code.tex) \
-tex(tikzlibrarytrackschematic.topology.code.tex) \
-tex(tikzlibrarytrackschematic.trafficcontrol.code.tex) \
-tex(tikzlibrarytrackschematic.vehicles.code.tex) \
+RPROVIDES:${PN} += "tex-tikz-trackschematic.sty \
+tex-tikzlibrarytrackschematic.code.tex \
+tex-tikzlibrarytrackschematic.constructions.code.tex \
+tex-tikzlibrarytrackschematic.electrics.code.tex \
+tex-tikzlibrarytrackschematic.measures.code.tex \
+tex-tikzlibrarytrackschematic.symbology.code.tex \
+tex-tikzlibrarytrackschematic.topology.code.tex \
+tex-tikzlibrarytrackschematic.trafficcontrol.code.tex \
+tex-tikzlibrarytrackschematic.vehicles.code.tex \
 texlive-tikz-trackschematic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,9 +31,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(tikz.sty) \
-tex(xkeyval.sty) \
+tex-etoolbox.sty \
+tex-tikz.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

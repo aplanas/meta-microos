@@ -9,43 +9,42 @@ PV = "43.0"
 RPM_NAME = "totem-plugins-43.0-2.3.aarch64.rpm"
 RPM_HASH = "442d2b537581280cbd3ec690eaef8673ebd65fa7d443cfa6f842e0e219fe0bee4cce2ebfb86c42f12f206c3bac3df5f0c086dd4669eeaaf2025b86923630e730"
 
-RPROVIDES:${PN} += "libapple-trailers.so()(64bit) \
-libautoload-subtitles.so()(64bit) \
-libmovie-properties.so()(64bit) \
-libmpris.so()(64bit) \
-libopen-directory.so()(64bit) \
-librecent.so()(64bit) \
-librotation.so()(64bit) \
-libsave-file.so()(64bit) \
-libscreensaver.so()(64bit) \
-libscreenshot.so()(64bit) \
-libskipto.so()(64bit) \
-libtotem-im-status.so()(64bit) \
-libvariable-rate.so()(64bit) \
-libvimeo.so()(64bit) \
-totem-plugins \
-totem-plugins(aarch-64)"
+RPROVIDES:${PN} += "libapple-trailers.so \
+libautoload-subtitles.so \
+libmovie-properties.so \
+libmpris.so \
+libopen-directory.so \
+librecent.so \
+librotation.so \
+libsave-file.so \
+libscreensaver.so \
+libscreenshot.so \
+libskipto.so \
+libtotem-im-status.so \
+libvariable-rate.so \
+libvimeo.so \
+totem-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libportal-gtk3.so.1()(64bit) \
-libportal.so.1()(64bit) \
-libtotem.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpeas-1.0.so.0 \
+libportal-gtk3.so.1 \
+libportal.so.1 \
+libtotem.so.0 \
 totem \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Pango) \
-typelib(Peas) \
-typelib(Totem)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-Pango \
+typelib-Peas \
+typelib-Totem"
 
 inherit rpm

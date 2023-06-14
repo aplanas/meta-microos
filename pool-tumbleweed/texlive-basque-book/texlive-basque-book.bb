@@ -11,7 +11,7 @@ RPM_NAME = "texlive-basque-book-2023.201.1.20svn32924-53.1.noarch.rpm"
 RPM_HASH = "309f143bbf4c77ace9eec4e846fec620be415ad8c5aa0f8b79678f23b9abdd26c30d94f27702f1ae2822d91cd6d7f7576b6680bbe5594677769e79170a1b0303"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(basque-book.cls) \
+RPROVIDES:${PN} += "tex-basque-book.cls \
 texlive-basque-book"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(basque-date.sty) \
+tex-basque-date.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

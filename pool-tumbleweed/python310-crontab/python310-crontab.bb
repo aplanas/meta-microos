@@ -12,11 +12,11 @@ RPM_HASH = "8fe2ef84e1daa24fea29faa387a549b6e1c1a454cb88797a50da403c75939c5a7f5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-crontab \
-python3.10dist(crontab) \
+python3.10dist-crontab \
 python310-crontab \
-python3dist(crontab)"
+python3dist-crontab"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil \
 python310-pytz"
 

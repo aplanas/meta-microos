@@ -10,16 +10,15 @@ RPM_NAME = "aqbanking-6.5.4-1.1.aarch64.rpm"
 RPM_HASH = "c04dea8bd7aba5e12fa8cd705fffdef0e55a3b3a51abdb155c40dd91d088ec08ed2fda49db2331e63c44b9339255b86116c82d021a7b45c1be2669c57cfc17d6"
 
 RPROVIDES:${PN} += "aqbanking \
-aqbanking(aarch-64) \
-libaqbanking.so.44()(64bit)"
+libaqbanking.so.44"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libgwenhywfar.so.79()(64bit) \
-libxml2.so.2()(64bit) \
-libxmlsec1.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgmp.so.10 \
+libgwenhywfar.so.79 \
+libxml2.so.2 \
+libxmlsec1.so.1 \
+libz.so.1"
 
 inherit rpm

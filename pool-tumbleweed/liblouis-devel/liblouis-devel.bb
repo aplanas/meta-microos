@@ -13,8 +13,7 @@ RPM_NAME = "liblouis-devel-3.25.0-1.1.aarch64.rpm"
 RPM_HASH = "3b419cf4802c1610df3bcd5b228dc5cb1b5093f30e7ac06c5558802f1aae65806f0b0303ae95d98dc6b4416d9316f40dba64c63b452d45b9411a92bb853dc11b"
 
 RPROVIDES:${PN} += "liblouis-devel \
-liblouis-devel(aarch-64) \
-pkgconfig(liblouis)"
+pkgconfig-liblouis"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblouis20"

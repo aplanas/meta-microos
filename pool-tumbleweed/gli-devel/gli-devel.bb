@@ -17,9 +17,8 @@ PV = "0.8.2.0"
 RPM_NAME = "gli-devel-0.8.2.0-4.3.aarch64.rpm"
 RPM_HASH = "29d72d7005c18dc336d67d27eef12fbcafbb77a49b68f659f87f875c31b229d62150032660bd58f3e9d31930a0a36a0f328e5f6571283ca5df72010b7981ef34"
 
-RPROVIDES:${PN} += "cmake(gli) \
-gli-devel \
-gli-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-gli \
+gli-devel"
 
 RDEPENDS:${PN} += ""
 

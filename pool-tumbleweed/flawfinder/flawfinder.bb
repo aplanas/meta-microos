@@ -11,11 +11,11 @@ RPM_HASH = "46ada77416d8601c94275d2adc057aebe96463ba79262296e009cb39e2fa9ef65bf9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flawfinder \
-python3.10dist(flawfinder) \
-python3dist(flawfinder)"
+python3.10dist-flawfinder \
+python3dist-flawfinder"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

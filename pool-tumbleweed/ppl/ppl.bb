@@ -17,15 +17,14 @@ PV = "1.2"
 RPM_NAME = "ppl-1.2-3.1.aarch64.rpm"
 RPM_HASH = "0116619c6a660d8f1d7f62171f86795ca799a154cb2b092b0798acc969218c117b70c6c3f2843dc6657be9bbbad93c85b6dda5ceb0bf95068905cccaf321d388"
 
-RPROVIDES:${PN} += "ppl \
-ppl(aarch-64)"
+RPROVIDES:${PN} += "ppl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgmpxx.so.4()(64bit) \
-libppl.so.14()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgmpxx.so.4 \
+libppl.so.14 \
+libstdc++.so.6"
 
 inherit rpm

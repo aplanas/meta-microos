@@ -10,25 +10,19 @@ PV = "23.04.1"
 RPM_NAME = "markdownpart-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "e52a6c432742f831f6e0a26d425f47368f100e3d75bf3f6e1cba0873ee381b425a779a4754facff10ae639b6375f1043bf3f1b887d65a7e80f548148b92f66dc"
 
-RPROVIDES:${PN} += "markdownpart \
-markdownpart(aarch-64) \
-metainfo() \
-metainfo(org.kde.markdownpart.metainfo.xml)"
+RPROVIDES:${PN} += "markdownpart"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5Parts.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

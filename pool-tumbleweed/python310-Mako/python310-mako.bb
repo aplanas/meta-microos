@@ -16,15 +16,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Mako \
 python3-mako \
-python3.10dist(mako) \
+python3.10dist-mako \
 python310-Mako \
 python310-mako \
-python3dist(mako)"
+python3dist-mako"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-MarkupSafe \
 python310-setuptools"
 

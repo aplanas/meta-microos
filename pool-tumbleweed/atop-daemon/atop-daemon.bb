@@ -19,12 +19,11 @@ RPM_NAME = "atop-daemon-2.9.0-1.1.aarch64.rpm"
 RPM_HASH = "bae2a0ab54ab40e9d68952a6febe4b41b09463b62ddd1b8b32c50886a47abc5a522b312275140279813a588fb09c1c1051c0eb5a66ca4ee15979f90a45594fde"
 
 RPROVIDES:${PN} += "atop-daemon \
-atop-daemon(aarch-64) \
-config(atop-daemon)"
+config-atop-daemon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 atop \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

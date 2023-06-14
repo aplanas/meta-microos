@@ -9,11 +9,11 @@ RPM_HASH = "9200106b9fd01ac09f242afbd78a5654f0de893c5647856ccf3d323636f8c5806dd5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sidpy \
-python3.10dist(sidpy) \
+python3.10dist-sidpy \
 python310-sidpy \
-python3dist(sidpy)"
+python3dist-sidpy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ase \
 python310-cytoolz \
 python310-dask \

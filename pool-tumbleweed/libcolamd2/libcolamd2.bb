@@ -18,15 +18,14 @@ PV = "2.9.6"
 RPM_NAME = "libcolamd2-2.9.6-49.1.aarch64.rpm"
 RPM_HASH = "821586c8865d37bb1002cea42e1d7ddc343ecbc996e593c74ea47bb53be3197884c400b0a987d2b3a68fd430833ae9acf1c214c167b9a3dfbc80996a0f9b9982"
 
-RPROVIDES:${PN} += "libcolamd-2_9_6 \
-libcolamd.so.2()(64bit) \
-libcolamd2 \
-libcolamd2(aarch-64)"
+RPROVIDES:${PN} += "libcolamd-2-9-6 \
+libcolamd.so.2 \
+libcolamd2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libsuitesparseconfig.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libsuitesparseconfig.so.5"
 
 inherit rpm

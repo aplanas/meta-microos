@@ -10,7 +10,7 @@ RPM_NAME = "texlive-tipfr-2023.201.1.5svn38646-52.1.noarch.rpm"
 RPM_HASH = "05ffe2d32e5b1a9158d202a6fee93923c754a6f2afab3fde7425bebe9cb64fd81b2d99da2852e7c5d8d8b84dc6e1200101de18a28a61048726b7934e631f8517"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tipfr.sty) \
+RPROVIDES:${PN} += "tex-tipfr.sty \
 texlive-tipfr"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,14 +19,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(ifthen.sty) \
-tex(mathtools.sty) \
-tex(multido.sty) \
-tex(newtxtt.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-amssymb.sty \
+tex-ifthen.sty \
+tex-mathtools.sty \
+tex-multido.sty \
+tex-newtxtt.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

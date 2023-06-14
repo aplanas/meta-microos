@@ -12,24 +12,22 @@ PV = "1.44"
 RPM_NAME = "perl-Curses-1.44-1.2.aarch64.rpm"
 RPM_HASH = "f3265c28378f387fad17b918e454f3b5abe4d8ddce7cba6c3ca702818f9fc285570b616903ca2f9025f58fcc5c1b14410a617d4410bdbfd12ddcf8d5ac8c4734"
 
-RPROVIDES:${PN} += "perl(Curses) \
-perl(Curses::Field) \
-perl(Curses::Form) \
-perl(Curses::Item) \
-perl(Curses::Menu) \
-perl(Curses::Panel) \
-perl(Curses::Screen) \
-perl(Curses::Window) \
-perl-Curses \
-perl-Curses(aarch-64)"
+RPROVIDES:${PN} += "perl-Curses \
+perl-Curses--Field \
+perl-Curses--Form \
+perl-Curses--Item \
+perl-Curses--Menu \
+perl-Curses--Panel \
+perl-Curses--Screen \
+perl-Curses--Window"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libform.so.5()(64bit) \
-libmenu.so.5()(64bit) \
-libncursesw.so.5()(64bit) \
-libpanel.so.5()(64bit) \
-libtinfo.so.5()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libform.so.5 \
+libmenu.so.5 \
+libncursesw.so.5 \
+libpanel.so.5 \
+libtinfo.so.5 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

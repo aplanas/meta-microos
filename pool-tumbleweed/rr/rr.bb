@@ -9,20 +9,19 @@ PV = "5.6.0"
 RPM_NAME = "rr-5.6.0-3.2.aarch64.rpm"
 RPM_HASH = "381041e685dc1cead659a37ff02f3415ca876d28c3440a997751abbec9d96120315f6765403ff834d72b71c435813d904cf5eda0810d36ac855d19cefbcc7535"
 
-RPROVIDES:${PN} += "librraudit.so()(64bit) \
-librrpreload.so()(64bit) \
-rr \
-rr(aarch-64)"
+RPROVIDES:${PN} += "librraudit.so \
+librrpreload.so \
+rr"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcapnp-0.10.3.so()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkj-0.10.3.so()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcapnp-0.10.3.so \
+libgcc-s.so.1 \
+libkj-0.10.3.so \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

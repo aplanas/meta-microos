@@ -12,8 +12,8 @@ RPM_NAME = "saxpath-1.0_FCS-39.6.noarch.rpm"
 RPM_HASH = "0b2ec080ad392aaee26941c4afe3085973edb828e35b09c9dc7a228584157a6b30c44409296d2421521baa5562b397e217a0f2e7b56640f2dd19e3e4674b0843"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(saxpath:saxpath) \
-mvn(saxpath:saxpath:pom:) \
+RPROVIDES:${PN} += "mvn-saxpath-saxpath \
+mvn-saxpath-saxpath-pom- \
 saxpath"
 
 RDEPENDS:${PN} += "java-headless \

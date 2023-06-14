@@ -9,11 +9,11 @@ RPM_HASH = "bab3deb01c81aa6fedf071563fa9afe95d82f44817b9d4d49a07093f91de97c7b9b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-orange-widget-base \
-python3.10dist(orange-widget-base) \
+python3.10dist-orange-widget-base \
 python310-orange-widget-base \
-python3dist(orange-widget-base)"
+python3dist-orange-widget-base"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-AnyQt \
 python310-matplotlib \
 python310-orange-canvas-core \

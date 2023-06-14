@@ -14,52 +14,48 @@ RPM_NAME = "gnome-settings-daemon-44.1-1.1.aarch64.rpm"
 RPM_HASH = "2d6bc8011e62d36d312d2a1db4d99d85022fc9ca817a4e9f8ecbd11570bfab577356d29bc742cc7527e02483890523cdac19a96e2c65283707b4152ed0e3fc42"
 
 RPROVIDES:${PN} += "gnome-settings-daemon \
-gnome-settings-daemon(aarch-64) \
-libgsd.so()(64bit)"
+libgsd.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
 gsettings-desktop-schemas \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcanberra-gtk3.so.0()(64bit) \
-libcanberra.so.0()(64bit) \
-libcolord.so.2()(64bit) \
-libcups.so.2()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgcr-4.so.4()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgeoclue-2.so.0()(64bit) \
-libgeocode-glib-2.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnome-desktop-3.so.20()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libgweather-4.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmm-glib.so.0()(64bit) \
-libnm.so.0()(64bit) \
-libnm.so.0(libnm_1_0_0)(64bit) \
-libnotify.so.4()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpolkit-gobject-1.so.0()(64bit) \
-libpulse-mainloop-glib.so.0()(64bit) \
-libpulse-mainloop-glib.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libupower-glib.so.3()(64bit) \
-libwacom.so.9()(64bit) \
-libwayland-client.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libasound.so.2 \
+libc.so.6 \
+libcairo.so.2 \
+libcanberra-gtk3.so.0 \
+libcanberra.so.0 \
+libcolord.so.2 \
+libcups.so.2 \
+libfontconfig.so.1 \
+libgcr-4.so.4 \
+libgdk-3.so.0 \
+libgeoclue-2.so.0 \
+libgeocode-glib-2.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgnome-desktop-3.so.20 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgudev-1.0.so.0 \
+libgweather-4.so.0 \
+libm.so.6 \
+libmm-glib.so.0 \
+libnm.so.0 \
+libnotify.so.4 \
+libnspr4.so \
+libnss3.so \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpolkit-gobject-1.so.0 \
+libpulse-mainloop-glib.so.0 \
+libpulse.so.0 \
+libupower-glib.so.3 \
+libwacom.so.9 \
+libwayland-client.so.0"
 
 inherit rpm

@@ -15,9 +15,9 @@ RPM_NAME = "texlive-bxwareki-2023.201.0.0.6svn51286-52.1.noarch.rpm"
 RPM_HASH = "d10561fe50ede2bed580868bc427e009f90beed54eeadced3b1e5a46891c5d31e4d332def924ac41a194d6d581e21fb19fff3928079c8bfe8ec8c6a67782ccd5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxwareki-cd.def) \
-tex(bxwareki.sty) \
-tex(bxwareki2019.def) \
+RPROVIDES:${PN} += "tex-bxwareki-cd.def \
+tex-bxwareki.sty \
+tex-bxwareki2019.def \
 texlive-bxwareki"
 
 RDEPENDS:${PN} += "/bin/sh \

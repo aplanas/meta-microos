@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-malayalam \
 noto-sans-malayalam-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

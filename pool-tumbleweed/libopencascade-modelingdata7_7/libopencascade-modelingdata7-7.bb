@@ -9,20 +9,19 @@ PV = "7.7.0"
 RPM_NAME = "libopencascade-modelingdata7_7-7.7.0-1.3.aarch64.rpm"
 RPM_HASH = "c9bd2643cec41d6777714317f26fa66f8785dcec7b041e129f2f2a84809cddf3cc6930108c3f1d66bbd4547e289b1a12d799160e249d111466ee3f143b086819"
 
-RPROVIDES:${PN} += "libTKBRep.so.7.7()(64bit) \
-libTKG2d.so.7.7()(64bit) \
-libTKG3d.so.7.7()(64bit) \
-libTKGeomBase.so.7.7()(64bit) \
-libopencascade-modelingdata7_7 \
-libopencascade-modelingdata7_7(aarch-64)"
+RPROVIDES:${PN} += "libTKBRep.so.7.7 \
+libTKG2d.so.7.7 \
+libTKG3d.so.7.7 \
+libTKGeomBase.so.7.7 \
+libopencascade-modelingdata7-7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libTKMath.so.7.7()(64bit) \
-libTKernel.so.7.7()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libTKMath.so.7.7 \
+libTKernel.so.7.7 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

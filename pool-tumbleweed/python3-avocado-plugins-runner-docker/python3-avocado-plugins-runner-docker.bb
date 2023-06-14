@@ -11,10 +11,10 @@ RPM_HASH = "5915678e631fdf800c31e564b994316ace426503525c6a55683f7e462a949381c507
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-runner-docker \
-python3.10dist(avocado-framework-plugin-runner-docker) \
-python3dist(avocado-framework-plugin-runner-docker)"
+python3.10dist-avocado-framework-plugin-runner-docker \
+python3dist-avocado-framework-plugin-runner-docker"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-aexpect \
 python3-avocado \
 python3-avocado-plugins-runner-remote"

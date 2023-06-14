@@ -20,13 +20,13 @@ RPM_NAME = "python311-pyct-0.5.0-1.3.noarch.rpm"
 RPM_HASH = "0227cdbfd6d3edc4e7ca55e3bb145ba63739dd5d89d9a534bac03e0c45c5dcfa47b33a9f4ae3440ae08bfdb06b8f78f44eed6afb8f89458c5abbee30db9259b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyct) \
+RPROVIDES:${PN} += "python3.11dist-pyct \
 python311-pyct \
-python3dist(pyct)"
+python3dist-pyct"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-PyYAML \
 python311-param \
 python311-requests \

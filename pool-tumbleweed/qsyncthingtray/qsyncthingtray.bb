@@ -21,30 +21,19 @@ PV = "0.5.8"
 RPM_NAME = "qsyncthingtray-0.5.8-2.26.aarch64.rpm"
 RPM_HASH = "7d59f79706d314dc21c2029ac0f93fd17d47f3c163bc17936340b60dacc55fd110a4c9635434d1f219a1fc7c0821fc24ba9c7cb2d0a8ef46a7cb5ccb927ed03c"
 
-RPROVIDES:${PN} += "application() \
-application(qsyncthingtray.desktop) \
-metainfo() \
-metainfo(qsyncthingtray.appdata.xml) \
-qsyncthingtray \
-qsyncthingtray(aarch-64)"
+RPROVIDES:${PN} += "qsyncthingtray"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 syncthing"
 
 inherit rpm

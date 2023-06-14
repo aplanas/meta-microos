@@ -10,11 +10,11 @@ RPM_NAME = "python311-uncertainties-3.1.7-1.4.noarch.rpm"
 RPM_HASH = "193fc592a359a41a4695133c1a695bb8f1056fb23d030aac4d1fd0a5196b46ad24eaa963af3c98d928bb541749c99a6326e82e543e0fe80ee2fc16e533f6f6bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(uncertainties) \
+RPROVIDES:${PN} += "python3.11dist-uncertainties \
 python311-uncertainties \
-python3dist(uncertainties)"
+python3dist-uncertainties"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-future"
 
 inherit rpm

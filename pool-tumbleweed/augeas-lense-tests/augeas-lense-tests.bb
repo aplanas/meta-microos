@@ -8,8 +8,7 @@ PV = "1.13.0"
 RPM_NAME = "augeas-lense-tests-1.13.0-2.1.aarch64.rpm"
 RPM_HASH = "f3e9270023b944eb17568c1c6104c914f33acec46ffddc20be7213a351a35c9e687451336451e44fc588f80c350cf5135034100e2dcb6176ca7038de2069dd73"
 
-RPROVIDES:${PN} += "augeas-lense-tests \
-augeas-lense-tests(aarch-64)"
+RPROVIDES:${PN} += "augeas-lense-tests"
 
 RDEPENDS:${PN} += "augeas-lenses"
 

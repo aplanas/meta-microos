@@ -12,14 +12,13 @@ PV = "0.2.4"
 RPM_NAME = "extundelete-0.2.4-2.19.aarch64.rpm"
 RPM_HASH = "f69344a3e7bed654c7acfe6a79e219b28e96db649d1c84d34bb327c34baeb9879844c0a42dcb233a229ec534ad00fe2cbdd15186faa8dabf7a1a3d6016982e62"
 
-RPROVIDES:${PN} += "extundelete \
-extundelete(aarch-64)"
+RPROVIDES:${PN} += "extundelete"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit) \
-libext2fs.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcom-err.so.2 \
+libext2fs.so.2 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

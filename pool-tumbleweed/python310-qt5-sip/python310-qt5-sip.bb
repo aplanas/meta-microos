@@ -15,14 +15,13 @@ RPM_HASH = "86411f99c337f55056ea52428809aaabe0dd1fd5a16e4fb23ce78eb8189fb8f9c025
 
 RPROVIDES:${PN} += "python3-PyQt5-sip \
 python3-qt5-sip \
-python3.10dist(pyqt5-sip) \
+python3.10dist-pyqt5-sip \
 python310-PyQt5-sip \
 python310-qt5-sip \
-python310-qt5-sip(aarch-64) \
-python3dist(pyqt5-sip)"
+python3dist-pyqt5-sip"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

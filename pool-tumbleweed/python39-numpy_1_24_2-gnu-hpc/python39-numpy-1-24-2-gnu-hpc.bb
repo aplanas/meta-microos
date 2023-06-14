@@ -16,15 +16,14 @@ PV = "1.24.2"
 RPM_NAME = "python39-numpy_1_24_2-gnu-hpc-1.24.2-3.1.aarch64.rpm"
 RPM_HASH = "e5f43788eedadfe7db7a12195b4044f129a7c6201a174926f2e46b2d9cd9d05420720afee1b09476178a3e84033cd9345e37716063da93ef63ed92377de6e242"
 
-RPROVIDES:${PN} += "python3.9dist(numpy) \
-python39-numpy_1_24_2-gnu-hpc \
-python39-numpy_1_24_2-gnu-hpc(aarch-64) \
-python3dist(numpy)"
+RPROVIDES:${PN} += "python3.9dist-numpy \
+python39-numpy-1-24-2-gnu-hpc \
+python3dist-numpy"
 
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
 libopenblas-gnu-hpc"
 
 inherit rpm

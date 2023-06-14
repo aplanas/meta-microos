@@ -23,11 +23,10 @@ RPM_NAME = "pingtunnel-0.72-1.27.aarch64.rpm"
 RPM_HASH = "5c3fd4a2508268e53039fb5db50960599da216efab0e0708f5babec097a66f157f38ba9e28081ed6dfb35b475abe7fb1aa64bbfc8b1d7121558844407c64a926"
 
 RPROVIDES:${PN} += "pingtunnel \
-pingtunnel(aarch-64) \
 ptunnel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcap.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcap.so.1"
 
 inherit rpm

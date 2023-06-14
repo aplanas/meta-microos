@@ -12,8 +12,8 @@ RPM_NAME = "pam-manpages-1.5.3-1.1.noarch.rpm"
 RPM_HASH = "449905512fa48b6c0615cd2a8b78e1046432ca5d150a723f82a8cebd8635aafd0a167df8ba32ba0ab6b09ddd10e0f5c70070ea410bcc04d9e957296b06fb44d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pam-manpages \
-pam://usr/share/man/man8/PAM.8.gz"
+RPROVIDES:${PN} += "pam-//usr/share/man/man8/PAM.8.gz \
+pam-manpages"
 
 RDEPENDS:${PN} += ""
 

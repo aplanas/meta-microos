@@ -16,16 +16,15 @@ RPM_HASH = "819233a734f77ef0430e29cfed1e0449b05f35fef48126e99ce6e226858462b0ecbd
 RPROVIDES:${PN} += "python3-SQLAlchemy \
 python3-SQLAlchemy1 \
 python3-sqlalchemy \
-python3.10dist(sqlalchemy) \
+python3.10dist-sqlalchemy \
 python310-SQLAlchemy \
 python310-SQLAlchemy1 \
-python310-SQLAlchemy1(aarch-64) \
 python310-sqlalchemy \
-python3dist(sqlalchemy)"
+python3dist-sqlalchemy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310 \
 python310-greenlet"
 

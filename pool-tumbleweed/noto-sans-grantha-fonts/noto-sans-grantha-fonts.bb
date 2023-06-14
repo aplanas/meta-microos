@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-grantha \
 noto-sans-grantha-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

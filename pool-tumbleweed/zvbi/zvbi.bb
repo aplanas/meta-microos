@@ -12,12 +12,11 @@ PV = "0.2.41"
 RPM_NAME = "zvbi-0.2.41-2.1.aarch64.rpm"
 RPM_HASH = "77899c069d5396791b46b8e713bdf2dbfa020334c5cbc30e8751aa8ee55a4e78a87b175c9e8c1b1aff9080aa0ee2173b63e6c4fabfe228441c79906236ec9ed4"
 
-RPROVIDES:${PN} += "zvbi \
-zvbi(aarch-64)"
+RPROVIDES:${PN} += "zvbi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libzvbi.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libzvbi.so.0"
 
 inherit rpm

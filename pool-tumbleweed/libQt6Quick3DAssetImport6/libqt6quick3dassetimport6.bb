@@ -7,16 +7,13 @@ PV = "6.5.1"
 RPM_NAME = "libQt6Quick3DAssetImport6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "4ac988628a01a274500dac8115ed8cd715de5e48f7f9def6bd55cc9660516db57ea6311733cd2864ff1f6190c11bd736271d4097d2e1d3e5337bb5dac9ba050a"
 
-RPROVIDES:${PN} += "libQt6Quick3DAssetImport.so.6()(64bit) \
-libQt6Quick3DAssetImport.so.6(Qt_6)(64bit) \
-libQt6Quick3DAssetImport6 \
-libQt6Quick3DAssetImport6(aarch-64)"
+RPROVIDES:${PN} += "libQt6Quick3DAssetImport.so.6 \
+libQt6Quick3DAssetImport6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

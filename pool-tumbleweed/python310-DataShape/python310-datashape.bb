@@ -10,11 +10,11 @@ RPM_HASH = "77f61f1c87cda01f2bdc88e89f0d0cbe632a99b34f131d1469e601616c4442a55fc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-DataShape \
-python3.10dist(datashape) \
+python3.10dist-datashape \
 python310-DataShape \
-python3dist(datashape)"
+python3dist-datashape"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-multipledispatch \
 python310-numpy \
 python310-python-dateutil"

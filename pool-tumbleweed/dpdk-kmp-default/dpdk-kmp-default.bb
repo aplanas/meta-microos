@@ -10,10 +10,9 @@ RPM_HASH = "ed91172903f43430a2b256f928c595660aa3aff149d307295cb0a8ca6d03f23d41a9
 
 RPROVIDES:${PN} += "dpdk-kmp \
 dpdk-kmp-default \
-dpdk-kmp-default(aarch-64) \
-dpdk-kmp-default-k6.3.4_1 \
-kmod(rte_kni.ko) \
-multiversion(kernel)"
+dpdk-kmp-default-k6.3.4-1 \
+kmod-rte-kni.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

@@ -8,8 +8,7 @@ RPM_NAME = "libsynce-devel-0.15.1-13.29.aarch64.rpm"
 RPM_HASH = "edfbfcea34eb4112cb162a4f477da539dc91c47dd8d3352ac31fac03a71bb93ea0624e0c6508eeb321f12caa40351b0cf7d1756b9143b55c53c640c508c8a522"
 
 RPROVIDES:${PN} += "libsynce-devel \
-libsynce-devel(aarch-64) \
-pkgconfig(libsynce)"
+pkgconfig-libsynce"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1-glib-devel \

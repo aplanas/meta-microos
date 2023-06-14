@@ -11,13 +11,11 @@ RPM_HASH = "056216d3d91e6a12a2e1c2c5588de561fcd7a04c01025f8c185276c2b9f61bae8168
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-compressor \
-python3-django_compressor \
-python3.10dist(django-compressor) \
+python3.10dist-django-compressor \
 python310-django-compressor \
-python310-django_compressor \
-python3dist(django-compressor)"
+python3dist-django-compressor"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Jinja2 \
 python310-beautifulsoup4 \

@@ -10,14 +10,11 @@ PV = "1.2.1"
 RPM_NAME = "ballerburg-1.2.1-1.4.aarch64.rpm"
 RPM_HASH = "08343294095bd8e8f574b789150c2d86b47159e4a084b903152601ea1dd7ff8fd1f9238aa3126491c4e4a3bbe01001c711fd215abc5b47cdbd32765261cdee93"
 
-RPROVIDES:${PN} += "application() \
-application(ballerburg.desktop) \
-ballerburg \
-ballerburg(aarch-64)"
+RPROVIDES:${PN} += "ballerburg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

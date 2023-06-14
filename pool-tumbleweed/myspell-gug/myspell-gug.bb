@@ -8,8 +8,8 @@ RPM_NAME = "myspell-gug-20221012-1.2.noarch.rpm"
 RPM_HASH = "29ab539a8add8fabe2cf7e3f2bf3ac257fae7e651d1e1d63d69eb0a94620d7e7fe7da7545ec9ab96317302b57b713078783caaca63bc6ce16163841c033d7228"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:gug) \
-locale(seamonkey-spellchecker:gug) \
+RPROVIDES:${PN} += "locale-libreoffice-gug \
+locale-seamonkey-spellchecker-gug \
 myspell-dictionary \
 myspell-gug"
 

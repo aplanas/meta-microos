@@ -7,8 +7,7 @@ PV = "4.3.0"
 RPM_NAME = "R-datasets-4.3.0-45.2.aarch64.rpm"
 RPM_HASH = "231d740cf056b991cc82b94c04fc685e2b630820236a4e4c11dc310cb571aaae0614aea02b10d5c7853db04c50450aa1c4af567cf14921c1b5df9a01b72b5813"
 
-RPROVIDES:${PN} += "R-datasets \
-R-datasets(aarch-64)"
+RPROVIDES:${PN} += "R-datasets"
 
 RDEPENDS:${PN} += "R-base"
 

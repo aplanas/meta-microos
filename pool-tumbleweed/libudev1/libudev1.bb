@@ -8,19 +8,12 @@ PV = "253.4"
 RPM_NAME = "libudev1-253.4-2.1.aarch64.rpm"
 RPM_HASH = "b23fa0fd86897d7e7fd8ac94fc6cd729978a08d81258ecb805bf690125eecf6315d84de415b3ce831a3d61c9649c1d754924744ac30e8da45fa9a4c6f8a03c93"
 
-RPROVIDES:${PN} += "libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libudev.so.1(LIBUDEV_189)(64bit) \
-libudev.so.1(LIBUDEV_196)(64bit) \
-libudev.so.1(LIBUDEV_199)(64bit) \
-libudev.so.1(LIBUDEV_215)(64bit) \
-libudev.so.1(LIBUDEV_247)(64bit) \
-libudev1 \
-libudev1(aarch-64)"
+RPROVIDES:${PN} += "libudev.so.1 \
+libudev1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2"
 
 inherit rpm

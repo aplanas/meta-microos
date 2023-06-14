@@ -9,7 +9,7 @@ RPM_HASH = "b4bf3d98bba897f9bec3df5ab55a014c38054b304211e962b7a067e18219dd9ee982
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sendmail \
-smtp_daemon"
+smtp-daemon"
 
 RDEPENDS:${PN} += "busybox"
 

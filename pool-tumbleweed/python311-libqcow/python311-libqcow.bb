@@ -9,17 +9,13 @@ PV = "20221124"
 RPM_NAME = "python311-libqcow-20221124-3.9.aarch64.rpm"
 RPM_HASH = "73e3a15a72fca566bdb050fb868b920be56ba44ecd5167c20dabfa923e4c313fb148959f34a9be3776490b8fb3952c7522c33c797a99040898cb55d3a4e32012"
 
-RPROVIDES:${PN} += "python311-libqcow \
-python311-libqcow(aarch-64)"
+RPROVIDES:${PN} += "python311-libqcow"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libqcow.so.1()(64bit) \
-libqcow.so.1(V_20221124)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libqcow.so.1 \
+python-abi"
 
 inherit rpm

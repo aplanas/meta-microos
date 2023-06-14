@@ -10,14 +10,13 @@ PV = "2.0.26"
 RPM_NAME = "kexec-tools-2.0.26-3.1.aarch64.rpm"
 RPM_HASH = "6c25b94053f9a120f115d976c25b0dd7f3f26d1e1632c3dcc06895d97fefbd18a0cf73028eb1ce4123dfd26ab9ad2803629436906ec2b90d9bcbc5c97f4c30ac"
 
-RPROVIDES:${PN} += "kexec-tools \
-kexec-tools(aarch-64)"
+RPROVIDES:${PN} += "kexec-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1 \
 perl-Bootloader \
 suse-module-tools \
 systemd"

@@ -8,15 +8,13 @@ PV = "4.2.0"
 RPM_NAME = "syslog-ng-sql-4.2.0-1.1.aarch64.rpm"
 RPM_HASH = "60ce2cc3dce903ccb83638d50f3ccf5105332d2497556d2396cf99e7f9434496c1e754ee01e54fe9f72bcf2c392328177c220134e3bdc2ded5a651e032360574"
 
-RPROVIDES:${PN} += "syslog-ng-sql \
-syslog-ng-sql(aarch-64)"
+RPROVIDES:${PN} += "syslog-ng-sql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libdbi.so.3()(64bit) \
-libdbi.so.3(ABI_3)(64bit) \
-libsyslog-ng-4.2.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libdbi.so.3 \
+libsyslog-ng-4.2.so.0 \
 syslog-ng"
 
 inherit rpm

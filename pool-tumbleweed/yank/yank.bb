@@ -10,10 +10,9 @@ PV = "1.3.0"
 RPM_NAME = "yank-1.3.0-1.3.aarch64.rpm"
 RPM_HASH = "911d78516e92dc5cc2ee00594fb0a0f66d92596c1946954220c2776db39e61f78e5851bcc17ccb56b5e7143aceb13a86753a23e4c3b80932ab1483fb317b823f"
 
-RPROVIDES:${PN} += "yank \
-yank(aarch-64)"
+RPROVIDES:${PN} += "yank"
 
 RDEPENDS:${PN} += "bash \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

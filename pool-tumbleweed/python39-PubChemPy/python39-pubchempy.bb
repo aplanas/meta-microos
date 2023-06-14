@@ -11,10 +11,10 @@ RPM_NAME = "python39-PubChemPy-1.0.4-1.12.noarch.rpm"
 RPM_HASH = "9bd147a74d1da2f869559f070f48efb62e385ff512a248f1531576afc38bbb59de038e893ffc572c401fa15652b1c3019738ccd30e2f5a2d47b214dc5fc84bf1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pubchempy) \
+RPROVIDES:${PN} += "python3.9dist-pubchempy \
 python39-PubChemPy \
-python3dist(pubchempy)"
+python3dist-pubchempy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

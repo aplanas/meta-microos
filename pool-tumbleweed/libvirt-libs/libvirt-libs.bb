@@ -7,40 +7,36 @@ PV = "9.4.0"
 RPM_NAME = "libvirt-libs-9.4.0-1.1.aarch64.rpm"
 RPM_HASH = "6581a698809dc359af54696d47f1a5d599d74cba694d74ba162f06ea1dd621f65986a3e539d93f53ce6fe2146f342f82f3bd3f47755083ef40b0070d853da2af"
 
-RPROVIDES:${PN} += "config(libvirt-libs) \
-libvirt-admin.so.0()(64bit) \
+RPROVIDES:${PN} += "config-libvirt-libs \
+libvirt-admin.so.0 \
 libvirt-libs \
-libvirt-libs(aarch-64) \
-libvirt-lxc.so.0()(64bit) \
-libvirt-qemu.so.0()(64bit) \
-libvirt.so.0()(64bit)"
+libvirt-lxc.so.0 \
+libvirt-qemu.so.0 \
+libvirt.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cyrus-sasl-digestmd5 \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libapparmor.so.1()(64bit) \
-libaudit.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap-ng.so.0()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnuma.so.1()(64bit) \
-libsasl2.so.3()(64bit) \
-libselinux.so.1()(64bit) \
-libssh.so.4()(64bit) \
-libssh.so.4(LIBSSH_4_5_0)(64bit) \
-libssh2.so.1()(64bit) \
-libtirpc.so.3()(64bit) \
-libxml2.so.2()(64bit) \
-libyajl.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libapparmor.so.1 \
+libaudit.so.1 \
+libc.so.6 \
+libcap-ng.so.0 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgnutls.so.30 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libnl-3.so.200 \
+libnuma.so.1 \
+libsasl2.so.3 \
+libselinux.so.1 \
+libssh.so.4 \
+libssh2.so.1 \
+libtirpc.so.3 \
+libxml2.so.2 \
+libyajl.so.2"
 
 inherit rpm

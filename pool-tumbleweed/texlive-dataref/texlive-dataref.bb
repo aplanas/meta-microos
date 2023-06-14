@@ -11,7 +11,7 @@ RPM_NAME = "texlive-dataref-2023.204.0.0.7svn62942-54.1.noarch.rpm"
 RPM_HASH = "fbfa13d13575e83a0fc3ba3d46f166d8c6a6b15c158dd1a49b8d08a35ff069f640a0f3193e9b02edd1ca6c7fa589fcfd63c43e644493e8519d8c42f80b41a7a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dataref.sty) \
+RPROVIDES:${PN} += "tex-dataref.sty \
 texlive-dataref"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,15 +20,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(booktabs.sty) \
-tex(etoolbox.sty) \
-tex(iftex.sty) \
-tex(import.sty) \
-tex(kvoptions.sty) \
-tex(pdfcomment.sty) \
-tex(pgf.sty) \
-tex(xfp.sty) \
-tex(xtab.sty) \
+tex-booktabs.sty \
+tex-etoolbox.sty \
+tex-iftex.sty \
+tex-import.sty \
+tex-kvoptions.sty \
+tex-pdfcomment.sty \
+tex-pgf.sty \
+tex-xfp.sty \
+tex-xtab.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

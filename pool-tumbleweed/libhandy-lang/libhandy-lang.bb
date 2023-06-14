@@ -10,35 +10,35 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libhandy-lang \
 libhandy-lang-all \
-locale(libhandy:ca) \
-locale(libhandy:cs) \
-locale(libhandy:de) \
-locale(libhandy:en_GB) \
-locale(libhandy:es) \
-locale(libhandy:eu) \
-locale(libhandy:fa) \
-locale(libhandy:fi) \
-locale(libhandy:fr) \
-locale(libhandy:fur) \
-locale(libhandy:gl) \
-locale(libhandy:hr) \
-locale(libhandy:hu) \
-locale(libhandy:id) \
-locale(libhandy:ka) \
-locale(libhandy:ko) \
-locale(libhandy:nl) \
-locale(libhandy:oc) \
-locale(libhandy:pl) \
-locale(libhandy:pt) \
-locale(libhandy:pt_BR) \
-locale(libhandy:ro) \
-locale(libhandy:ru) \
-locale(libhandy:sl) \
-locale(libhandy:sr) \
-locale(libhandy:sv) \
-locale(libhandy:tr) \
-locale(libhandy:uk) \
-locale(libhandy:zh_CN)"
+locale-libhandy-ca \
+locale-libhandy-cs \
+locale-libhandy-de \
+locale-libhandy-en-GB \
+locale-libhandy-es \
+locale-libhandy-eu \
+locale-libhandy-fa \
+locale-libhandy-fi \
+locale-libhandy-fr \
+locale-libhandy-fur \
+locale-libhandy-gl \
+locale-libhandy-hr \
+locale-libhandy-hu \
+locale-libhandy-id \
+locale-libhandy-ka \
+locale-libhandy-ko \
+locale-libhandy-nl \
+locale-libhandy-oc \
+locale-libhandy-pl \
+locale-libhandy-pt \
+locale-libhandy-pt-BR \
+locale-libhandy-ro \
+locale-libhandy-ru \
+locale-libhandy-sl \
+locale-libhandy-sr \
+locale-libhandy-sv \
+locale-libhandy-tr \
+locale-libhandy-uk \
+locale-libhandy-zh-CN"
 
 RDEPENDS:${PN} += "libhandy"
 

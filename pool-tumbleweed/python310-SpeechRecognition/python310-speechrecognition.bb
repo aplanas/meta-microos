@@ -13,13 +13,13 @@ RPM_HASH = "2ff68136e13ca10b3d3b41ac869098ef163c0a9c11ff14dbc7fee2a0eb07514c82ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-SpeechRecognition \
-python3.10dist(speechrecognition) \
+python3.10dist-speechrecognition \
 python310-SpeechRecognition \
-python3dist(speechrecognition)"
+python3dist-speechrecognition"
 
 RDEPENDS:${PN} += "flac \
-python(abi) \
 python-SpeechRecognition-common-en-US \
+python-abi \
 python310-PyAudio \
 python310-google-cloud-speech"
 

@@ -14,15 +14,14 @@ PV = "2.0.0.3"
 RPM_NAME = "python311-pyerfa-2.0.0.3-1.1.aarch64.rpm"
 RPM_HASH = "139ccb04c6910f4735f25b643db425792294956ffad70591f6895fe81b9e177779f40e49e80f953ad83a88e4f0c96f80f2df51ae1a26e603a45d04c81fc497fe"
 
-RPROVIDES:${PN} += "python3.11dist(pyerfa) \
+RPROVIDES:${PN} += "python3.11dist-pyerfa \
 python311-pyerfa \
-python311-pyerfa(aarch-64) \
-python3dist(pyerfa)"
+python3dist-pyerfa"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liberfa.so.1()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liberfa.so.1 \
+python-abi \
 python311-numpy"
 
 inherit rpm

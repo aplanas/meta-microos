@@ -38,13 +38,13 @@ RPM_NAME = "python39-virtualenv-clone-0.5.7-1.4.noarch.rpm"
 RPM_HASH = "f7ea43171f4d77ed3fc61dc3b6cd4c28e3b457f27c560a3539ce8c974ff4c16aa33759d98ef135edf7f2b488018fb3a0dbcbc040f345c26ed5c262179ec6c31c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(virtualenv-clone) \
+RPROVIDES:${PN} += "python3.9dist-virtualenv-clone \
 python39-virtualenv-clone \
-python3dist(virtualenv-clone)"
+python3dist-virtualenv-clone"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-virtualenv \
 update-alternatives"
 

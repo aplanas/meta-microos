@@ -9,12 +9,12 @@ RPM_HASH = "3e422f5aedb0d7a975b60c910ed77a274bdfd1f55c622222a70752e79f907a8f99a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-confpy \
-python3.10dist(confpy) \
+python3.10dist-confpy \
 python310-confpy \
-python3dist(confpy)"
+python3dist-confpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

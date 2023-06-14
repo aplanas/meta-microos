@@ -26,7 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-dask-dataframe"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-dask \
 python311-dask-array \
 python311-dask-bag \

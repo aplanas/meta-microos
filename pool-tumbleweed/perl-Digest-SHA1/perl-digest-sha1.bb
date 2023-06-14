@@ -16,12 +16,11 @@ PV = "2.13"
 RPM_NAME = "perl-Digest-SHA1-2.13-19.37.aarch64.rpm"
 RPM_HASH = "5558fa8232fed0f0a190991d54850d8f7bf9d0ceb791afbd0f1c6a0d3dc3db03b5a1996692b4d140905c0b91583b0a2e6328228c13495521543c4a49c3f1a4aa"
 
-RPROVIDES:${PN} += "perl(Digest::SHA1) \
-perl-Digest-SHA1 \
-perl-Digest-SHA1(aarch-64)"
+RPROVIDES:${PN} += "perl-Digest--SHA1 \
+perl-Digest-SHA1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

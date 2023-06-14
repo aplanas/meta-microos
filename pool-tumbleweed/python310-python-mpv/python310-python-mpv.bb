@@ -11,11 +11,11 @@ RPM_HASH = "e7a2815b8a3c38f08e43b29d2a94762151d913ffc88f0fc5e0ddbb54af30ae8000d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-mpv \
-python3.10dist(python-mpv) \
+python3.10dist-python-mpv \
 python310-python-mpv \
-python3dist(python-mpv)"
+python3dist-python-mpv"
 
 RDEPENDS:${PN} += "libmpv2 \
-python(abi)"
+python-abi"
 
 inherit rpm

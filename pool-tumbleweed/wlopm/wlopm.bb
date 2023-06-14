@@ -9,10 +9,9 @@ PV = "0.1.0"
 RPM_NAME = "wlopm-0.1.0-1.3.aarch64.rpm"
 RPM_HASH = "b0b7d204d75c2354a03c88a83f834cdf6ee36b4ac419d5f7b8250b21c3805e746a8ed8bcc29ad4bd2d11c5987826f859b0e3eab07f27fbc272763da8913f9942"
 
-RPROVIDES:${PN} += "wlopm \
-wlopm(aarch-64)"
+RPROVIDES:${PN} += "wlopm"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libwayland-client.so.0()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libwayland-client.so.0"
 
 inherit rpm

@@ -7,13 +7,12 @@ PV = "8.0.2"
 RPM_NAME = "qemu-hw-display-qxl-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "3efc18ffe7b8ce860291e9d57a1c036ca7a903294547bf5a8e4600cc27f5f10b2cccb951bc3d9364657a7ff651dd0d70b97a4b1f0d40ff290c72f40f255cee77"
 
-RPROVIDES:${PN} += "qemu-hw-display-qxl \
-qemu-hw-display-qxl(aarch-64)"
+RPROVIDES:${PN} += "qemu-hw-display-qxl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpixman-1.so.0()(64bit) \
-libspice-server.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpixman-1.so.0 \
+libspice-server.so.1 \
 qemu-ui-spice-core"
 
 inherit rpm

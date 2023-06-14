@@ -12,16 +12,15 @@ PV = "5.1.6"
 RPM_NAME = "libchipcard-5.1.6-1.11.aarch64.rpm"
 RPM_HASH = "5216224ea90891c960fddfe4c3daf91c3e6b992eb30081547b9583d7d3fed736fe769415bef038b24c50a8077ab5920f6d1aa2a60b64e4c651a822be74c8e451"
 
-RPROVIDES:${PN} += "config(libchipcard) \
-libchipcard \
-libchipcard(aarch-64)"
+RPROVIDES:${PN} += "config-libchipcard \
+libchipcard"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libchipcard.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgwenhywfar.so.79()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libchipcard.so.6 \
+libgcc-s.so.1 \
+libgwenhywfar.so.79 \
+libstdc++.so.6"
 
 inherit rpm

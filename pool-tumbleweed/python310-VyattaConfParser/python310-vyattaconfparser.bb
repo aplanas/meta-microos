@@ -9,10 +9,10 @@ RPM_HASH = "3e1e596ecc811483e7d8014fa8058e8f39b1fd9417f9f843cb2ed26634f58745f26f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-VyattaConfParser \
-python3.10dist(vyattaconfparser) \
+python3.10dist-vyattaconfparser \
 python310-VyattaConfParser \
-python3dist(vyattaconfparser)"
+python3dist-vyattaconfparser"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

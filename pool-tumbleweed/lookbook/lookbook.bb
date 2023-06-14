@@ -9,23 +9,17 @@ PV = "1.2.0"
 RPM_NAME = "lookbook-1.2.0-1.10.aarch64.rpm"
 RPM_HASH = "fe769a1224a632036ad477883479dd31a09d7783bd5cdec9e5c472e912ec87deebc5fd2f1c1acbd55b708c716cbeb159786b2a8aa57ae8505d58b86cfca35e45"
 
-RPROVIDES:${PN} += "application() \
-application(com.github.danrabbit.lookbook.desktop) \
-lookbook \
-lookbook(aarch-64) \
-metainfo() \
-metainfo(com.github.danrabbit.lookbook.appdata.xml)"
+RPROVIDES:${PN} += "lookbook"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgranite.so.6()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtksourceview-4.so.0()(64bit) \
-libhandy-1.so.0()(64bit) \
-libhandy-1.so.0(LIBHANDY_1_0)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgranite.so.6 \
+libgtk-3.so.0 \
+libgtksourceview-4.so.0 \
+libhandy-1.so.0"
 
 inherit rpm

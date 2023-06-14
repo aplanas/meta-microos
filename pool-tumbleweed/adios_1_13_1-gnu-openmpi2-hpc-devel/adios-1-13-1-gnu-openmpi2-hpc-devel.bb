@@ -12,11 +12,10 @@ PV = "1.13.1"
 RPM_NAME = "adios_1_13_1-gnu-openmpi2-hpc-devel-1.13.1-5.14.aarch64.rpm"
 RPM_HASH = "933c4d1e5ec1798c352780131b59ac4a99cc1db1af93457497a8b968bcd7841f218c2f94e69118af78f5941e51ba83363063558d79a3e4dc130b6e8adf1e4b91"
 
-RPROVIDES:${PN} += "adios_1_13_1-gnu-openmpi2-hpc-devel \
-adios_1_13_1-gnu-openmpi2-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "adios-1-13-1-gnu-openmpi2-hpc-devel"
 
-RDEPENDS:${PN} += "adios_1_13_1-gnu-openmpi2-hpc \
-adios_1_13_1-gnu-openmpi2-hpc-devel-static \
+RDEPENDS:${PN} += "adios-1-13-1-gnu-openmpi2-hpc \
+adios-1-13-1-gnu-openmpi2-hpc-devel-static \
 gnu-compilers-hpc-devel \
 hdf5-gnu-openmpi2-hpc-devel \
 lua-lmod \

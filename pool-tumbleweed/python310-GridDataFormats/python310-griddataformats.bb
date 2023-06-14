@@ -12,11 +12,11 @@ RPM_HASH = "91a8a59c57cbaa78e27aee03902c1b1a1b78dc82455f5767092bd15f712572ec0a9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-GridDataFormats \
-python3.10dist(griddataformats) \
+python3.10dist-griddataformats \
 python310-GridDataFormats \
-python3dist(griddataformats)"
+python3dist-griddataformats"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-mrcfile \
 python310-numpy \
 python310-scipy"

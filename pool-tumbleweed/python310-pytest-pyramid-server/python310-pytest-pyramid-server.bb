@@ -9,11 +9,11 @@ RPM_HASH = "d59ecba2f3e7a474bc0c64771e79cd899a77958d94329aee392f87516e452e4a4f60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-pyramid-server \
-python3.10dist(pytest-pyramid-server) \
+python3.10dist-pytest-pyramid-server \
 python310-pytest-pyramid-server \
-python3dist(pytest-pyramid-server)"
+python3dist-pytest-pyramid-server"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyramid \
 python310-pytest-server-fixtures \
 python310-six \

@@ -15,13 +15,7 @@ RPM_NAME = "autoyast2-4.6.2-1.1.noarch.rpm"
 RPM_HASH = "64c86838aa13cf9987c17a129e8d7ac2510ef0f76d753576d89733f691c67a842e2e62a10a2d06722b3a74fa78d1b38bec9ced0832259ab6833926d21582708f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(org.opensuse.yast.AutoYaST.desktop) \
-application(org.opensuse.yast.CloneSystem.desktop) \
-autoyast2 \
-metainfo() \
-metainfo(org.opensuse.yast.AutoYaST.metainfo.xml) \
-metainfo(org.opensuse.yast.CloneSystem.metainfo.xml) \
+RPROVIDES:${PN} += "autoyast2 \
 yast2-config-autoinst \
 yast2-lib-autoinst \
 yast2-module-autoinst"

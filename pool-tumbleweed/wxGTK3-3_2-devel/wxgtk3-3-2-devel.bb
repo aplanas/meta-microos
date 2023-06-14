@@ -16,34 +16,33 @@ PV = "3.2.2.1"
 RPM_NAME = "wxGTK3-3_2-devel-3.2.2.1-3.1.aarch64.rpm"
 RPM_HASH = "b71f64aa4b7a54795b027ee7addfadca0f86fc69679067de8d2ceae6d4f664e58babbcc837a2089d43dda78bbfd81fb1faa32cdde73d2c6c25ea7027a2f14d23"
 
-RPROVIDES:${PN} += "wxGTK3-3_2-devel \
-wxGTK3-3_2-devel(aarch-64) \
+RPROVIDES:${PN} += "wxGTK3-3-2-devel \
 wxGTK3-devel \
 wxWidgets-any-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_base-suse-devel \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_adv-suse9_0_0 \
-libwx_gtk3u_aui-suse9_0_0 \
-libwx_gtk3u_core-suse9_0_0 \
-libwx_gtk3u_gl-suse9_0_0 \
-libwx_gtk3u_html-suse9_0_0 \
-libwx_gtk3u_media-suse9_0_0 \
-libwx_gtk3u_propgrid-suse9_0_0 \
-libwx_gtk3u_qa-suse9_0_0 \
-libwx_gtk3u_ribbon-suse9_0_0 \
-libwx_gtk3u_richtext-suse9_0_0 \
-libwx_gtk3u_stc-suse9_0_0 \
-libwx_gtk3u_webview-suse9_0_0 \
-libwx_gtk3u_xrc-suse9_0_0 \
-pkgconfig(gl) \
-pkgconfig(glu) \
-pkgconfig(gtk+-3.0)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwx-base-suse-devel \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-gtk3u-adv-suse9-0-0 \
+libwx-gtk3u-aui-suse9-0-0 \
+libwx-gtk3u-core-suse9-0-0 \
+libwx-gtk3u-gl-suse9-0-0 \
+libwx-gtk3u-html-suse9-0-0 \
+libwx-gtk3u-media-suse9-0-0 \
+libwx-gtk3u-propgrid-suse9-0-0 \
+libwx-gtk3u-qa-suse9-0-0 \
+libwx-gtk3u-ribbon-suse9-0-0 \
+libwx-gtk3u-richtext-suse9-0-0 \
+libwx-gtk3u-stc-suse9-0-0 \
+libwx-gtk3u-webview-suse9-0-0 \
+libwx-gtk3u-xrc-suse9-0-0 \
+pkgconfig-gl \
+pkgconfig-glu \
+pkgconfig-gtk+-3.0"
 
 inherit rpm

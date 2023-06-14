@@ -12,11 +12,11 @@ RPM_HASH = "935eeb5ec4ebb15d6e57f16553cf4048375f6415cc1355b05e744b6012ce1751d0a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msgpack-numpy \
-python3.10dist(msgpack-numpy) \
+python3.10dist-msgpack-numpy \
 python310-msgpack-numpy \
-python3dist(msgpack-numpy)"
+python3dist-msgpack-numpy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-msgpack \
 python310-numpy"
 

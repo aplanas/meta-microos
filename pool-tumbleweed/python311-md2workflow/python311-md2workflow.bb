@@ -11,13 +11,13 @@ RPM_HASH = "29e50218f7cf1a3017b1a650d5747a75c3d1302d0c810767116f08b4dcc2fe243e68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "md2workfow \
-python3.11dist(md2workflow) \
+python3.11dist-md2workflow \
 python311-md2workflow \
-python3dist(md2workflow)"
+python3dist-md2workflow"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-icalendar \
 python311-md2workflow-common \
 update-alternatives"

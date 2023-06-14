@@ -16,14 +16,13 @@ RPM_NAME = "pnetcdf-openmpi1-1.12.3-1.3.aarch64.rpm"
 RPM_HASH = "d7b6b43840202184307860fba8a07d17120cf199038ea6d36929e2e6f5c4bfc8f4f00e855d99814e4c25fcd8ba757392a967686835683daed77651804c75a7fd"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi1 \
-pnetcdf-openmpi1 \
-pnetcdf-openmpi1(aarch-64)"
+pnetcdf-openmpi1"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmpi.so.12()(64bit) \
-libpnetcdf.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmpi.so.12 \
+libpnetcdf.so.4 \
 libpnetcdf4-openmpi1 \
 openmpi1"
 

@@ -13,10 +13,10 @@ RPM_HASH = "db23b7171aa85ccbbfc44522f530fef89f97840ae1f6fe6ea9d17769b383554241a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cliff \
-python3.10dist(cliff) \
-python3dist(cliff)"
+python3.10dist-cliff \
+python3dist-cliff"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-PrettyTable \
 python3-PyYAML \
 python3-autopage \

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-unitn-bimrep-2023.201.svn45581-53.1.noarch.rpm"
 RPM_HASH = "b092ac47d346c4787b0058f93604adacf2d600358236d3395bde527318800354893c303c2eb0b23125db7224d349585eedf58a865f25c8ec0d8a0b5542504df9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unitn-bimrep.cls) \
+RPROVIDES:${PN} += "tex-unitn-bimrep.cls \
 texlive-unitn-bimrep"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,14 +21,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(babel.sty) \
-tex(biblatex.sty) \
-tex(fontenc.sty) \
-tex(framed.sty) \
-tex(graphicx.sty) \
-tex(libertine.sty) \
-tex(report.cls) \
+tex-array.sty \
+tex-babel.sty \
+tex-biblatex.sty \
+tex-fontenc.sty \
+tex-framed.sty \
+tex-graphicx.sty \
+tex-libertine.sty \
+tex-report.cls \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

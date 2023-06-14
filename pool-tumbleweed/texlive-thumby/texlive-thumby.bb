@@ -15,7 +15,7 @@ RPM_NAME = "texlive-thumby-2023.201.0.0.1svn16736-54.1.noarch.rpm"
 RPM_HASH = "e3d633ebd8acb23f0846718b95075698022f1cad4ee67d91e2a3fb2176d3f7468315ea7b7f5efaee4f40aa2efc1ed95c85dc94dd93bbdc9011ae308839220ea2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(thumby.sty) \
+RPROVIDES:${PN} += "tex-thumby.sty \
 texlive-thumby"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(bophook.sty) \
-tex(perltex.sty) \
-tex(tikz.sty) \
+tex-bophook.sty \
+tex-perltex.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

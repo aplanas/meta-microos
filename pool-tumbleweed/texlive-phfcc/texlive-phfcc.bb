@@ -16,7 +16,7 @@ RPM_NAME = "texlive-phfcc-2023.201.2.0svn60731-51.1.noarch.rpm"
 RPM_HASH = "48517ac1cad79209e18d26c49aef29cc7c38d94a2584108d46b4024742e0e7396e3fc3869e414c30a0d9f3c5379b60e57688db6d54bd809797d6e5cca38f9c98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(phfcc.sty) \
+RPROVIDES:${PN} += "tex-phfcc.sty \
 texlive-phfcc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,13 +25,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(kvoptions.sty) \
-tex(lua-ul.sty) \
-tex(marginnote.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
-tex(xparse.sty) \
+tex-etoolbox.sty \
+tex-kvoptions.sty \
+tex-lua-ul.sty \
+tex-marginnote.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

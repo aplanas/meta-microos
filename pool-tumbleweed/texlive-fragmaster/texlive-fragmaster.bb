@@ -18,10 +18,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Cwd) \
-perl(File::Temp) \
-perl(Pod::Usage) \
-perl(strict) \
+perl-Cwd \
+perl-File--Temp \
+perl-Pod--Usage \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

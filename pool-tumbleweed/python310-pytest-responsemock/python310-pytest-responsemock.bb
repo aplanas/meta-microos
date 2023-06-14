@@ -9,11 +9,11 @@ RPM_HASH = "7531917fc23a15560a6fb4a88fc50c72a00f72d619ec3b83600e5666a783a78cc27a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-responsemock \
-python3.10dist(pytest-responsemock) \
+python3.10dist-pytest-responsemock \
 python310-pytest-responsemock \
-python3dist(pytest-responsemock)"
+python3dist-pytest-responsemock"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-responses"
 

@@ -13,22 +13,21 @@ RPM_NAME = "mediastreamer2-devel-5.2.49-1.2.aarch64.rpm"
 RPM_HASH = "5bd8b04644158b30c0d66df7ca912016e0276022f4b11ca278b2b3855f6ba522f78fd7e148ba43dd480a742e1bfe933598f4f182089366e1b47762d18f5d5097"
 
 RPROVIDES:${PN} += "mediastreamer2-devel \
-mediastreamer2-devel(aarch-64) \
-pkgconfig(mediastreamer)"
+pkgconfig-mediastreamer"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 bcmatroska2-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libbctoolbox-tester.so.1()(64bit) \
-libbctoolbox.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmediastreamer.so.11()(64bit) \
+ld-linux-aarch64.so.1 \
+libbctoolbox-tester.so.1 \
+libbctoolbox.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmediastreamer.so.11 \
 libmediastreamer11 \
-libortp.so.15()(64bit) \
-libstdc++.so.6()(64bit) \
+libortp.so.15 \
+libstdc++.so.6 \
 mediastreamer2 \
-pkgconfig(bctoolbox) \
-pkgconfig(ortp)"
+pkgconfig-bctoolbox \
+pkgconfig-ortp"
 
 inherit rpm

@@ -23,7 +23,7 @@ RPM_NAME = "texlive-crossword-2023.204.1.11svn64375-54.1.noarch.rpm"
 RPM_HASH = "a54453925ad05503a1bd5e33955d79958ca09cbb639c8b3a829ece1d26a3c88d733f4d5d0a45fbb25b712184ccdfb50a1f42e036295af1bc85d289d353142897"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cwpuzzle.sty) \
+RPROVIDES:${PN} += "tex-cwpuzzle.sty \
 texlive-crossword"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -32,7 +32,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
+tex-amssymb.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

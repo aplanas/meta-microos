@@ -21,23 +21,22 @@ PV = "0.57.0"
 RPM_NAME = "python39-numba-0.57.0-1.1.aarch64.rpm"
 RPM_HASH = "e7618449861ccdfa52e7cfcff83e7dacdbac04b26a220f2b37d939932348fd9b7e3b6ccf4edc386e9de198cd0bd85fa59e3e5b0bf3bbb825dd2fafefe57ddf24"
 
-RPROVIDES:${PN} += "python3.9dist(numba) \
+RPROVIDES:${PN} += "python3.9dist-numba \
 python39-numba \
-python39-numba(aarch-64) \
-python3dist(numba)"
+python3dist-numba"
 
-RDEPENDS:${PN} += "(python39-llvmlite >= 0.40 with python39-llvmlite < 0.41) \
-(python39-numpy >= 1.21 with python39-numpy < 1.25) \
+RDEPENDS:${PN} += "-python39-llvmlite >= 0.40 with python39-llvmlite < 0.41 \
+-python39-numpy >= 1.21 with python39-numpy < 1.25 \
 /bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtbb.so.12()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libtbb.so.12 \
+python-abi \
 update-alternatives"
 
 inherit rpm

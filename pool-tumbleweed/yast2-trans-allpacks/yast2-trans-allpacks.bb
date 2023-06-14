@@ -25,7 +25,7 @@ yast2-trans-cy \
 yast2-trans-da \
 yast2-trans-de \
 yast2-trans-el \
-yast2-trans-en_GB \
+yast2-trans-en-GB \
 yast2-trans-es \
 yast2-trans-et \
 yast2-trans-fa \
@@ -56,7 +56,7 @@ yast2-trans-nn \
 yast2-trans-pa \
 yast2-trans-pl \
 yast2-trans-pt \
-yast2-trans-pt_BR \
+yast2-trans-pt-BR \
 yast2-trans-ro \
 yast2-trans-ru \
 yast2-trans-si \
@@ -73,8 +73,8 @@ yast2-trans-uk \
 yast2-trans-vi \
 yast2-trans-wa \
 yast2-trans-xh \
-yast2-trans-zh_CN \
-yast2-trans-zh_TW \
+yast2-trans-zh-CN \
+yast2-trans-zh-TW \
 yast2-trans-zu"
 
 inherit rpm

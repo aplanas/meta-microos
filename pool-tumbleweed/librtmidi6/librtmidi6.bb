@@ -11,16 +11,15 @@ PV = "5.0.0"
 RPM_NAME = "librtmidi6-5.0.0-1.7.aarch64.rpm"
 RPM_HASH = "9702e76f0998a7ab2cf62d26bb9cdaa47b551b31a6df90b554021192feeea8c70fa4fd3cb382fd020b280d9421ca0313ce64ca8d34652e04918a3c9351a1a2dd"
 
-RPROVIDES:${PN} += "librtmidi.so.6()(64bit) \
-librtmidi6 \
-librtmidi6(aarch-64)"
+RPROVIDES:${PN} += "librtmidi.so.6 \
+librtmidi6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libstdc++.so.6"
 
 inherit rpm

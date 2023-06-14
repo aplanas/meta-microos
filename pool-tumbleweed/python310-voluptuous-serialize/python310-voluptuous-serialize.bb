@@ -9,11 +9,11 @@ RPM_HASH = "cd63d9bf1dad94c68d1380daa1cd69e4d8474ed327c4b9ddce63833287e5b1973743
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-voluptuous-serialize \
-python3.10dist(voluptuous-serialize) \
+python3.10dist-voluptuous-serialize \
 python310-voluptuous-serialize \
-python3dist(voluptuous-serialize)"
+python3dist-voluptuous-serialize"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-voluptuous"
 
 inherit rpm

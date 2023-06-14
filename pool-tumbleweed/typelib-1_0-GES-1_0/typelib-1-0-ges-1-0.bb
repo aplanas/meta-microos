@@ -24,19 +24,18 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GES-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "51adc59309832c743d2d62d1310dc16fae5e4f97269b444087f68814499b75cf7889b02ab30e8869080318e19510dc24dce61f982b5713d0136c11eb9157d509"
 
-RPROVIDES:${PN} += "typelib(GES) \
-typelib-1_0-GES-1_0 \
-typelib-1_0-GES-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GES-1-0 \
+typelib-GES"
 
-RDEPENDS:${PN} += "libges-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(GstAudio) \
-typelib(GstBase) \
-typelib(GstPbutils) \
-typelib(GstVideo)"
+RDEPENDS:${PN} += "libges-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio \
+typelib-Gst \
+typelib-GstAudio \
+typelib-GstBase \
+typelib-GstPbutils \
+typelib-GstVideo"
 
 inherit rpm

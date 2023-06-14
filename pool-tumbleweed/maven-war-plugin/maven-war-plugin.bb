@@ -10,20 +10,20 @@ RPM_HASH = "86337b4fc0de89198d2495360787466029985b5e624017fadf6bec40d50e470a1c87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-war-plugin \
-mvn(org.apache.maven.plugins:maven-war-plugin) \
-mvn(org.apache.maven.plugins:maven-war-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-war-plugin \
+mvn-org.apache.maven.plugins-maven-war-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.thoughtworks.xstream:xstream) \
-mvn(commons-io:commons-io) \
-mvn(org.apache.maven.shared:maven-filtering) \
-mvn(org.apache.maven.shared:maven-mapping) \
-mvn(org.apache.maven:maven-archiver) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-archiver) \
-mvn(org.codehaus.plexus:plexus-interpolation) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-com.thoughtworks.xstream-xstream \
+mvn-commons-io-commons-io \
+mvn-org.apache.maven-maven-archiver \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.shared-maven-filtering \
+mvn-org.apache.maven.shared-maven-mapping \
+mvn-org.codehaus.plexus-plexus-archiver \
+mvn-org.codehaus.plexus-plexus-interpolation \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

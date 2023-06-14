@@ -10,7 +10,7 @@ RPM_NAME = "texlive-quotchap-2023.201.1.3svn56926-53.1.noarch.rpm"
 RPM_HASH = "e43c1a1825fb7a44b7db820f27b2fd69d2fdb1ff93cb98eab05e4313e70a3f42db42c55e2be367d76610627d043649bfe2361b0b5b62e168c2a26ba26347116c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(quotchap.sty) \
+RPROVIDES:${PN} += "tex-quotchap.sty \
 texlive-quotchap"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
+tex-color.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

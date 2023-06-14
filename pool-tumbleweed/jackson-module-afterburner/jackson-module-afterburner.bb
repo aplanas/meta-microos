@@ -11,14 +11,14 @@ RPM_HASH = "4a465b1880fead8fe97fd4e4a28a6a6926a02eb99c0943f611ae211808c158d432d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-afterburner \
-mvn(com.fasterxml.jackson.module:jackson-module-afterburner) \
-mvn(com.fasterxml.jackson.module:jackson-module-afterburner:pom:) \
-osgi(com.fasterxml.jackson.module.jackson-module-afterburner)"
+mvn-com.fasterxml.jackson.module-jackson-module-afterburner \
+mvn-com.fasterxml.jackson.module-jackson-module-afterburner-pom- \
+osgi-com.fasterxml.jackson.module.jackson-module-afterburner"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(org.ow2.asm:asm)"
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-org.ow2.asm-asm"
 
 inherit rpm

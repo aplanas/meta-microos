@@ -13,9 +13,7 @@ RPM_NAME = "rescue-1.0.5-1.1.noarch.rpm"
 RPM_HASH = "8115607b5b0833b8e1213ff06c37c22211e30cbeb6881c207354b2492986edbe07afdf3a9fa2832ca7d0ff6b033548d423440d42b4b8272abf9fae08f5630b46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(rescue.desktop) \
-rescue"
+RPROVIDES:${PN} += "rescue"
 
 RDEPENDS:${PN} += "/bin/sh \
 jre"

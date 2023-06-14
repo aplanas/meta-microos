@@ -12,15 +12,14 @@ RPM_HASH = "50b42a7dd7f6e8740f8590f8f4bd4f5f877f7553e107275bd62abfccf5cd454e40ab
 
 RPROVIDES:${PN} += "python3-cocotools \
 python3-pycocotools \
-python3.10dist(pycocotools) \
+python3.10dist-pycocotools \
 python310-cocotools \
 python310-pycocotools \
-python310-pycocotools(aarch-64) \
-python3dist(pycocotools)"
+python3dist-pycocotools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-Cython \
 python310-matplotlib \
 python310-setuptools"

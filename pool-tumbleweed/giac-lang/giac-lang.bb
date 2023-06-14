@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "giac-lang \
 giac-lang-all \
-locale(giac:de) \
-locale(giac:el) \
-locale(giac:en) \
-locale(giac:es) \
-locale(giac:fr) \
-locale(giac:it) \
-locale(giac:pt) \
-locale(giac:zh)"
+locale-giac-de \
+locale-giac-el \
+locale-giac-en \
+locale-giac-es \
+locale-giac-fr \
+locale-giac-it \
+locale-giac-pt \
+locale-giac-zh"
 
 RDEPENDS:${PN} += "giac"
 

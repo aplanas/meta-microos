@@ -10,17 +10,16 @@ RPM_NAME = "ruby3.2-rubygem-gli-2.21.0-1.7.aarch64.rpm"
 RPM_HASH = "88ba8e9f5a2801e5fb0660962fb07ce3a1c7796d853d13697586625f73eb1b6917d7d209a3c6bafccb113fc0ac4328d7bb143ff655c5ce919bf77782de150520"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-gli \
-ruby3.2-rubygem-gli(aarch-64) \
-rubygem(gli) \
-rubygem(ruby:3.2.0:gli) \
-rubygem(ruby:3.2.0:gli:2) \
-rubygem(ruby:3.2.0:gli:2.21) \
-rubygem(ruby:3.2.0:gli:2.21.0)"
+rubygem-gli \
+rubygem-ruby-3.2.0-gli \
+rubygem-ruby-3.2.0-gli-2 \
+rubygem-ruby-3.2.0-gli-2.21 \
+rubygem-ruby-3.2.0-gli-2.21.0"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \
-ruby(abi) \
+ruby-abi \
 update-alternatives"
 
 inherit rpm

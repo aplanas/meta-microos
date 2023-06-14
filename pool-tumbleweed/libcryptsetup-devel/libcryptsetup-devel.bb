@@ -13,17 +13,16 @@ RPM_HASH = "4450b81bf3ce7c3f05ad7084fd4a52372b46a07f05896cd377f7464bfa0b757728a4
 
 RPROVIDES:${PN} += "cryptsetup-devel \
 libcryptsetup-devel \
-libcryptsetup-devel(aarch-64) \
-pkgconfig(libcryptsetup)"
+pkgconfig-libcryptsetup"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libcryptsetup12 \
-pkgconfig(blkid) \
-pkgconfig(devmapper) \
-pkgconfig(json-c) \
-pkgconfig(libargon2) \
-pkgconfig(openssl) \
-pkgconfig(uuid)"
+pkgconfig-blkid \
+pkgconfig-devmapper \
+pkgconfig-json-c \
+pkgconfig-libargon2 \
+pkgconfig-openssl \
+pkgconfig-uuid"
 
 inherit rpm

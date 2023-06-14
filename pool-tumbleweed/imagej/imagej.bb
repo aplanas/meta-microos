@@ -26,9 +26,7 @@ RPM_NAME = "imagej-1.53t-1.2.noarch.rpm"
 RPM_HASH = "0ce8421f9b087d67fb8eb0e742477c1f465f5e7e66d0dc5711fb1e2d8bc45644f8458be0f3812d13fab4ab04b94b14e841a2690425e82308c10a6e0487e3f611"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(imagej.desktop) \
-imagej"
+RPROVIDES:${PN} += "imagej"
 
 RDEPENDS:${PN} += "/bin/sh \
 java"

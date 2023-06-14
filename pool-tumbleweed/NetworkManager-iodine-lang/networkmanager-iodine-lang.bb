@@ -10,27 +10,27 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-iodine-lang \
 NetworkManager-iodine-lang-all \
-locale(NetworkManager-iodine:bs) \
-locale(NetworkManager-iodine:ca) \
-locale(NetworkManager-iodine:cs) \
-locale(NetworkManager-iodine:de) \
-locale(NetworkManager-iodine:el) \
-locale(NetworkManager-iodine:es) \
-locale(NetworkManager-iodine:hu) \
-locale(NetworkManager-iodine:id) \
-locale(NetworkManager-iodine:it) \
-locale(NetworkManager-iodine:ja) \
-locale(NetworkManager-iodine:lt) \
-locale(NetworkManager-iodine:lv) \
-locale(NetworkManager-iodine:pa) \
-locale(NetworkManager-iodine:pl) \
-locale(NetworkManager-iodine:pt) \
-locale(NetworkManager-iodine:pt_BR) \
-locale(NetworkManager-iodine:sl) \
-locale(NetworkManager-iodine:sr) \
-locale(NetworkManager-iodine:sr@latin) \
-locale(NetworkManager-iodine:sv) \
-locale(NetworkManager-iodine:tr)"
+locale-NetworkManager-iodine-bs \
+locale-NetworkManager-iodine-ca \
+locale-NetworkManager-iodine-cs \
+locale-NetworkManager-iodine-de \
+locale-NetworkManager-iodine-el \
+locale-NetworkManager-iodine-es \
+locale-NetworkManager-iodine-hu \
+locale-NetworkManager-iodine-id \
+locale-NetworkManager-iodine-it \
+locale-NetworkManager-iodine-ja \
+locale-NetworkManager-iodine-lt \
+locale-NetworkManager-iodine-lv \
+locale-NetworkManager-iodine-pa \
+locale-NetworkManager-iodine-pl \
+locale-NetworkManager-iodine-pt \
+locale-NetworkManager-iodine-pt-BR \
+locale-NetworkManager-iodine-sl \
+locale-NetworkManager-iodine-sr \
+locale-NetworkManager-iodine-sr@latin \
+locale-NetworkManager-iodine-sv \
+locale-NetworkManager-iodine-tr"
 
 RDEPENDS:${PN} += "NetworkManager-iodine"
 

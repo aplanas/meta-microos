@@ -10,9 +10,9 @@ RPM_HASH = "df19322bd1f049dd3a45cfa016c35962113713430b20b6f485d487502b7e3498dc1f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jopt-simple \
-mvn(net.sf.jopt-simple:jopt-simple) \
-mvn(net.sf.jopt-simple:jopt-simple:pom:) \
-osgi(net.sf.jopt-simple.jopt-simple)"
+mvn-net.sf.jopt-simple-jopt-simple \
+mvn-net.sf.jopt-simple-jopt-simple-pom- \
+osgi-net.sf.jopt-simple.jopt-simple"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

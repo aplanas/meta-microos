@@ -11,7 +11,7 @@ RPM_NAME = "texlive-tablefootnote-2023.201.1.1csvn32804-57.1.noarch.rpm"
 RPM_HASH = "c1e7090b36d28c0c3ff8ce78388feed52911f916177710147421ff0a717db147c317e2bf8d525bde735cbecf652e825fb899a3fffb7c733e9f0a3785a0fc2652"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tablefootnote.sty) \
+RPROVIDES:${PN} += "tex-tablefootnote.sty \
 texlive-tablefootnote"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,10 +20,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(letltxmacro.sty) \
-tex(ltxcmds.sty) \
-tex(xifthen.sty) \
+tex-etoolbox.sty \
+tex-letltxmacro.sty \
+tex-ltxcmds.sty \
+tex-xifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

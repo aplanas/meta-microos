@@ -14,12 +14,12 @@ RPM_NAME = "perl-File-Find-Rule-Perl-1.16-1.6.noarch.rpm"
 RPM_HASH = "cc0a0418d3fe6bd75f27c4569b45051588224ca60d6ee09acb7efe4fb10ca2b8564020c45befbefeb4189519d663199de175b6cb4ee2af315e48aaace9322ed9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Find::Rule::Perl) \
+RPROVIDES:${PN} += "perl-File--Find--Rule--Perl \
 perl-File-Find-Rule-Perl"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(File::Find::Rule) \
-perl(Params::Util) \
-perl(Parse::CPAN::Meta)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-File--Find--Rule \
+perl-Params--Util \
+perl-Parse--CPAN--Meta"
 
 inherit rpm

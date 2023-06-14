@@ -9,10 +9,10 @@ RPM_HASH = "9457c3bfcc548254467eaeaa8d904dbc015c9b8f149fa292e03bfa8a84daf18ef8ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sushy \
-python3.10dist(sushy) \
-python3dist(sushy)"
+python3.10dist-sushy \
+python3dist-sushy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-pbr \
 python3-python-dateutil \
 python3-requests \

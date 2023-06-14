@@ -12,21 +12,20 @@ RPM_HASH = "cef27c245bb3c7debc792690970f54ebad3d5ba10e22724ddf18acd0712728962419
 RPROVIDES:${PN} += "fcitx-config-gtk \
 fcitx-config-gtk2 \
 fcitx-config-gtk3 \
-fcitx-config-gtk3(aarch-64) \
 fcitx-configtool \
-locale(libgnome:ko;zh_CN;zh_SG)"
+locale-libgnome-ko;zh-CN;zh-SG"
 
 RDEPENDS:${PN} += "fcitx \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfcitx-config.so.4()(64bit) \
-libfcitx-core.so.0()(64bit) \
-libfcitx-gclient.so.1()(64bit) \
-libfcitx-utils.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfcitx-config.so.4 \
+libfcitx-core.so.0 \
+libfcitx-gclient.so.1 \
+libfcitx-utils.so.0 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

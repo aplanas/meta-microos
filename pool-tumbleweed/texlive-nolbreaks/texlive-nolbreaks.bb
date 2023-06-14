@@ -12,7 +12,7 @@ RPM_NAME = "texlive-nolbreaks-2023.201.1.2svn26786-54.1.noarch.rpm"
 RPM_HASH = "60ec734210e83ae55588ecabc15a58c35b85784f2f642ec1f2c50ee3ebfcb9c033beb7b35207b673e90943f9c681e9a81df135ebc6f7f9c15be4e154f30f9a3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nolbreaks.sty) \
+RPROVIDES:${PN} += "tex-nolbreaks.sty \
 texlive-nolbreaks"
 
 RDEPENDS:${PN} += "/bin/sh \

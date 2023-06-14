@@ -10,11 +10,11 @@ RPM_HASH = "3ae5d4fd127c26c2d9cf454692bd74b290450a196dd6c3863749772e6e81cf617deb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-allauth \
-python3.10dist(django-allauth) \
+python3.10dist-django-allauth \
 python310-django-allauth \
-python3dist(django-allauth)"
+python3dist-django-allauth"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-python3-openid \
 python310-requests \

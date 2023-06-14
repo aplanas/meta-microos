@@ -16,7 +16,7 @@ RPM_NAME = "texlive-minorrevision-2023.201.1.1svn32165-54.1.noarch.rpm"
 RPM_HASH = "21cce3c5f13095e6fbaa9ee465356989dd898f8ee0685ebc153c4c9ab94e0e7df0c8bf1ed9354d1f89827fc741a7eb71da53feac82816931a91e40be35190fa3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minorrevision.sty) \
+RPROVIDES:${PN} += "tex-minorrevision.sty \
 texlive-minorrevision"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(lineno.sty) \
-tex(xkeyval.sty) \
-tex(xr.sty) \
+tex-lineno.sty \
+tex-xkeyval.sty \
+tex-xr.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

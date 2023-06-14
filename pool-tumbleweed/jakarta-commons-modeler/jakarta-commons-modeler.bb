@@ -18,8 +18,8 @@ RDEPENDS:${PN} += "jakarta-commons-beanutils \
 jakarta-commons-collections \
 jakarta-commons-digester \
 jakarta-commons-logging \
-jaxp_parser_impl \
-jaxp_transform_impl \
+jaxp-parser-impl \
+jaxp-transform-impl \
 mx4j \
 xml-commons-apis"
 

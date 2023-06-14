@@ -11,16 +11,15 @@ PV = "5.10.1"
 RPM_NAME = "gwenhywfar-devel-5.10.1-1.4.aarch64.rpm"
 RPM_HASH = "5b88638ab0945eba86ea2ed032778354205d03a3bf4a905f5c68cee0ea286180e76397b0ab0a82dcdbbeb382ac90c5fe51185b26c2879a7de651b7066c53bc75"
 
-RPROVIDES:${PN} += "cmake(gwengui-cpp) \
-cmake(gwengui-qt5) \
-cmake(gwenhywfar) \
+RPROVIDES:${PN} += "cmake-gwengui-cpp \
+cmake-gwengui-qt5 \
+cmake-gwenhywfar \
 gwenhywfar-devel \
-gwenhywfar-devel(aarch-64) \
-pkgconfig(gwengui-fox16) \
-pkgconfig(gwengui-gtk2) \
-pkgconfig(gwengui-gtk3) \
-pkgconfig(gwengui-qt5) \
-pkgconfig(gwenhywfar)"
+pkgconfig-gwengui-fox16 \
+pkgconfig-gwengui-gtk2 \
+pkgconfig-gwengui-gtk3 \
+pkgconfig-gwengui-qt5 \
+pkgconfig-gwenhywfar"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

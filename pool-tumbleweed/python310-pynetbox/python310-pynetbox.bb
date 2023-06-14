@@ -9,11 +9,11 @@ RPM_HASH = "6ca6b0d3dfbfe9f4a7ec3600c5831824b6bbbb006df07b4ebbff7510ee2243a6bfe5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pynetbox \
-python3.10dist(pynetbox) \
+python3.10dist-pynetbox \
 python310-pynetbox \
-python3dist(pynetbox)"
+python3dist-pynetbox"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-netaddr \
 python310-requests"
 

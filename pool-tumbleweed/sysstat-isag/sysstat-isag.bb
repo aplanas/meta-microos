@@ -9,10 +9,7 @@ PV = "12.6.2"
 RPM_NAME = "sysstat-isag-12.6.2-2.1.aarch64.rpm"
 RPM_HASH = "40eda3b7f5f386a1fa17b3b3b9d43e5a6009ad4de5cca31ff09f996ad860d1ed75691827dd55fea6d6c4c98db70c47b90b1f1b4e64001c94587b83fdd67c2264"
 
-RPROVIDES:${PN} += "application() \
-application(isag.desktop) \
-sysstat-isag \
-sysstat-isag(aarch-64)"
+RPROVIDES:${PN} += "sysstat-isag"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnuplot \

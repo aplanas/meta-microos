@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkam-lang \
 gtkam-lang-all \
-locale(gtkam:be) \
-locale(gtkam:cs) \
-locale(gtkam:da) \
-locale(gtkam:de) \
-locale(gtkam:eo) \
-locale(gtkam:es) \
-locale(gtkam:fi) \
-locale(gtkam:fr) \
-locale(gtkam:hu) \
-locale(gtkam:id) \
-locale(gtkam:is) \
-locale(gtkam:it) \
-locale(gtkam:ja) \
-locale(gtkam:nb) \
-locale(gtkam:nl) \
-locale(gtkam:pa) \
-locale(gtkam:pl) \
-locale(gtkam:pt) \
-locale(gtkam:pt_BR) \
-locale(gtkam:ru) \
-locale(gtkam:sk) \
-locale(gtkam:sl) \
-locale(gtkam:sr) \
-locale(gtkam:sv) \
-locale(gtkam:uk) \
-locale(gtkam:vi) \
-locale(gtkam:zh_CN)"
+locale-gtkam-be \
+locale-gtkam-cs \
+locale-gtkam-da \
+locale-gtkam-de \
+locale-gtkam-eo \
+locale-gtkam-es \
+locale-gtkam-fi \
+locale-gtkam-fr \
+locale-gtkam-hu \
+locale-gtkam-id \
+locale-gtkam-is \
+locale-gtkam-it \
+locale-gtkam-ja \
+locale-gtkam-nb \
+locale-gtkam-nl \
+locale-gtkam-pa \
+locale-gtkam-pl \
+locale-gtkam-pt \
+locale-gtkam-pt-BR \
+locale-gtkam-ru \
+locale-gtkam-sk \
+locale-gtkam-sl \
+locale-gtkam-sr \
+locale-gtkam-sv \
+locale-gtkam-uk \
+locale-gtkam-vi \
+locale-gtkam-zh-CN"
 
 RDEPENDS:${PN} += "gtkam"
 

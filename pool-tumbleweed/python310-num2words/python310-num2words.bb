@@ -11,13 +11,13 @@ RPM_HASH = "d5ebbbcc42edfc9eea07633b61cf1d84a81e59f843166398c5212b55c88af7294d70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-num2words \
-python3.10dist(num2words) \
+python3.10dist-num2words \
 python310-num2words \
-python3dist(num2words)"
+python3dist-num2words"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-docopt \
 update-alternatives"
 

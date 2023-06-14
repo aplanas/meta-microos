@@ -48,25 +48,25 @@ RPM_NAME = "texlive-shipunov-2023.201.1.2svn52334-53.1.noarch.rpm"
 RPM_HASH = "e1fab41c961a1185d29d1d8374e00fab6d9f108738815bed946728a26be51cab25480182703d9cf97e25d445f920312c1f3cfb8e2ed3c2bd92d39ed9161f4c0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(add2-shipunov.sty) \
-tex(altverse.sty) \
-tex(autolist.sty) \
-tex(biokey.sty) \
-tex(biolist.sty) \
-tex(boldline.sty) \
-tex(cassete.cls) \
-tex(classif2.sty) \
-tex(dline-shipunov.sty) \
-tex(drcaps.sty) \
-tex(etiketka.cls) \
-tex(flower.sty) \
-tex(isyntax.sty) \
-tex(numerus.sty) \
-tex(punct.sty) \
-tex(qqru-shipunov.sty) \
-tex(sltables.sty) \
-tex(starfn.sty) \
-tex(textfrac-shipunov.sty) \
+RPROVIDES:${PN} += "tex-add2-shipunov.sty \
+tex-altverse.sty \
+tex-autolist.sty \
+tex-biokey.sty \
+tex-biolist.sty \
+tex-boldline.sty \
+tex-cassete.cls \
+tex-classif2.sty \
+tex-dline-shipunov.sty \
+tex-drcaps.sty \
+tex-etiketka.cls \
+tex-flower.sty \
+tex-isyntax.sty \
+tex-numerus.sty \
+tex-punct.sty \
+tex-qqru-shipunov.sty \
+tex-sltables.sty \
+tex-starfn.sty \
+tex-textfrac-shipunov.sty \
 texlive-shipunov"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -75,15 +75,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(article.cls) \
-tex(calc.sty) \
-tex(footnpag.sty) \
-tex(ifthen.sty) \
-tex(lineno.sty) \
-tex(syntonly.sty) \
-tex(xspace.sty) \
-tex(xtab.sty) \
+tex-array.sty \
+tex-article.cls \
+tex-calc.sty \
+tex-footnpag.sty \
+tex-ifthen.sty \
+tex-lineno.sty \
+tex-syntonly.sty \
+tex-xspace.sty \
+tex-xtab.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clutter-gtk-lang \
 clutter-gtk-lang-all \
-locale(clutter-gtk:ja) \
-locale(clutter-gtk:pl) \
-locale(clutter-gtk:zh_CN)"
+locale-clutter-gtk-ja \
+locale-clutter-gtk-pl \
+locale-clutter-gtk-zh-CN"
 
 RDEPENDS:${PN} += "clutter-gtk"
 

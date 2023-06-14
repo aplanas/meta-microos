@@ -15,17 +15,17 @@ RPM_NAME = "perl-Mojo-Pg-4.27-1.7.noarch.rpm"
 RPM_HASH = "b634d0f4ec3b145eb0e1bc3f3e9884904680ca1c6b7fe915f093802ad4da8e1b262a8ac728a3336151e6fc249af6968875333dac91adef7bd3922be1a08ce84f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mojo::Pg) \
-perl(Mojo::Pg::Database) \
-perl(Mojo::Pg::Migrations) \
-perl(Mojo::Pg::PubSub) \
-perl(Mojo::Pg::Results) \
-perl(Mojo::Pg::Transaction) \
+RPROVIDES:${PN} += "perl-Mojo--Pg \
+perl-Mojo--Pg--Database \
+perl-Mojo--Pg--Migrations \
+perl-Mojo--Pg--PubSub \
+perl-Mojo--Pg--Results \
+perl-Mojo--Pg--Transaction \
 perl-Mojo-Pg"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DBD::Pg) \
-perl(Mojolicious) \
-perl(SQL::Abstract::Pg)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DBD--Pg \
+perl-Mojolicious \
+perl-SQL--Abstract--Pg"
 
 inherit rpm

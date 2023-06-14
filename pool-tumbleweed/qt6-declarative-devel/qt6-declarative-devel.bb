@@ -10,20 +10,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-declarative-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6Qml) \
-cmake(Qt6QmlCore) \
-cmake(Qt6QmlLocalStorage) \
-cmake(Qt6QmlModels) \
-cmake(Qt6QmlWorkerScript) \
-cmake(Qt6Quick) \
-cmake(Qt6QuickControls2) \
-cmake(Qt6QuickControls2Impl) \
-cmake(Qt6QuickDialogs2) \
-cmake(Qt6QuickDialogs2QuickImpl) \
-cmake(Qt6QuickDialogs2Utils) \
-cmake(Qt6QuickLayouts) \
-cmake(Qt6QuickTemplates2) \
-cmake(Qt6QuickTest) \
-cmake(Qt6QuickWidgets)"
+RDEPENDS:${PN} += "cmake-Qt6Qml \
+cmake-Qt6QmlCore \
+cmake-Qt6QmlLocalStorage \
+cmake-Qt6QmlModels \
+cmake-Qt6QmlWorkerScript \
+cmake-Qt6Quick \
+cmake-Qt6QuickControls2 \
+cmake-Qt6QuickControls2Impl \
+cmake-Qt6QuickDialogs2 \
+cmake-Qt6QuickDialogs2QuickImpl \
+cmake-Qt6QuickDialogs2Utils \
+cmake-Qt6QuickLayouts \
+cmake-Qt6QuickTemplates2 \
+cmake-Qt6QuickTest \
+cmake-Qt6QuickWidgets"
 
 inherit rpm

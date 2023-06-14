@@ -13,9 +13,8 @@ RPM_HASH = "f731fb67fc70661b27ee2ae2d20eeb09b0127fee9745a20a3cb3d0aa8893b8b29e06
 
 RPROVIDES:${PN} += "coredns-for-k8s \
 coredns-for-k8s1.26 \
-coredns-for-k8s1.26(aarch-64) \
-dns_daemon"
+dns-daemon"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

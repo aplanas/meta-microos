@@ -14,18 +14,17 @@ PV = "0.11.0"
 RPM_NAME = "python311-exiv2-0.11.0-1.7.aarch64.rpm"
 RPM_HASH = "09cdf5b6ed58cda821088036da569f4ca442512a0b090f3aa3fa33cd0efaf532960852fcfc17d6a3e0a4ae818b6033cc7f14d233b5a87089a597763a0acc7b02"
 
-RPROVIDES:${PN} += "libexiv2python.cpython-311-aarch64-linux-gnu.so()(64bit) \
-python3.11dist(py3exiv2) \
+RPROVIDES:${PN} += "libexiv2python.cpython-311-aarch64-linux-gnu.so \
+python3.11dist-py3exiv2 \
 python311-exiv2 \
-python311-exiv2(aarch-64) \
-python3dist(py3exiv2)"
+python3dist-py3exiv2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libboost_python-py3.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libexiv2.so.27()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libboost-python-py3.so.1.82.0 \
+libc.so.6 \
+libexiv2.so.27 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

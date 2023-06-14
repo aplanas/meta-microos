@@ -21,12 +21,12 @@ RPM_NAME = "html2ps-1.0b5-248.14.noarch.rpm"
 RPM_HASH = "4a4776547c6fff2fa832c84cf618a0b01332593fc3a0ffe4b1e8011b737140afda70d9407eaa326e27d2652af1a5181621e8aa43296c0a826662735bd68d7b24"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(html2ps) \
+RPROVIDES:${PN} += "config-html2ps \
 html2ps"
 
 RDEPENDS:${PN} += "/usr/bin/wish \
 ImageMagick \
-ghostscript_any \
+ghostscript-any \
 netpbm \
 perl \
 perl-libwww-perl"

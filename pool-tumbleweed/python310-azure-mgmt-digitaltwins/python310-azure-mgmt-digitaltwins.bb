@@ -11,12 +11,12 @@ RPM_HASH = "210c69b6bd2ca1cd3ce0c24d519edf632c8d520b22f608e49c7da7804ae5b72e4ad7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-digitaltwins \
-python3.10dist(azure-mgmt-digitaltwins) \
+python3.10dist-azure-mgmt-digitaltwins \
 python310-azure-mgmt-digitaltwins \
-python3dist(azure-mgmt-digitaltwins)"
+python3dist-azure-mgmt-digitaltwins"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

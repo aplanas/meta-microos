@@ -9,19 +9,17 @@ RPM_NAME = "glibc-locale-base-2.37-4.1.aarch64.rpm"
 RPM_HASH = "78e0f74fe2518cc99abc8dc406e21222a64a2ec8fce6ae0c6e2a416571d930bdfd55e483ebc173cd28fbe5e08176d411d7e0ef7f7aa2d0a6bc375c5d7e57016c"
 
 RPROVIDES:${PN} += "glibc-locale-base \
-glibc-locale-base(aarch-64) \
-libCNS.so()(64bit) \
-libGB.so()(64bit) \
-libISOIR165.so()(64bit) \
-libJIS.so()(64bit) \
-libJISX0213.so()(64bit) \
-libKSC.so()(64bit)"
+libCNS.so \
+libGB.so \
+libISOIR165.so \
+libJIS.so \
+libJISX0213.so \
+libKSC.so"
 
 RDEPENDS:${PN} += "/bin/cat \
 /bin/sh \
 glibc \
-ld-linux-aarch64.so.1()(64bit) \
-ld-linux-aarch64.so.1(GLIBC_PRIVATE)(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

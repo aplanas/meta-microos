@@ -12,17 +12,17 @@ RPM_NAME = "perl-PPIx-Utilities-1.001000-14.15.noarch.rpm"
 RPM_HASH = "e23045ec6e99a24e3b61c3ea51c0cc2dbf30ec48fd1870dd1e1328c5d2fad28b32f19f98c8e5cb0af9c727bf915484ae396a40b7169985309d58c5e0a54b182d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(PPIx::Utilities) \
-perl(PPIx::Utilities::Exception::Bug) \
-perl(PPIx::Utilities::Node) \
-perl(PPIx::Utilities::Statement) \
+RPROVIDES:${PN} += "perl-PPIx--Utilities \
+perl-PPIx--Utilities--Exception--Bug \
+perl-PPIx--Utilities--Node \
+perl-PPIx--Utilities--Statement \
 perl-PPIx-Utilities"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exception::Class) \
-perl(PPI) \
-perl(PPI::Document::Fragment) \
-perl(Readonly) \
-perl(Task::Weaken)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exception--Class \
+perl-PPI \
+perl-PPI--Document--Fragment \
+perl-Readonly \
+perl-Task--Weaken"
 
 inherit rpm

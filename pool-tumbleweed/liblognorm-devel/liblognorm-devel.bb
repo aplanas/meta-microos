@@ -28,11 +28,10 @@ RPM_NAME = "liblognorm-devel-2.0.6-2.17.aarch64.rpm"
 RPM_HASH = "60bba3b994443b5d8e5768781aecdd4515ed3d2c70b37034caffdb8ed2616746f35b880d2796bcef6e2410054eb83398e4b8ffaa1ed1894ded4a58c03af7cd52"
 
 RPROVIDES:${PN} += "liblognorm-devel \
-liblognorm-devel(aarch-64) \
-pkgconfig(lognorm)"
+pkgconfig-lognorm"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblognorm5 \
-pkgconfig(libfastjson)"
+pkgconfig-libfastjson"
 
 inherit rpm

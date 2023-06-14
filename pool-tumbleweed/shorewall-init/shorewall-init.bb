@@ -23,7 +23,7 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/sbin/service \
 fillup \
 logrotate \
-shoreline_firewall \
+shoreline-firewall \
 systemd"
 
 inherit rpm

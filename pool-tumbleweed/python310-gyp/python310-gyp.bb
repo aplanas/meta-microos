@@ -13,14 +13,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gyp \
 python3-gyp \
-python3.10dist(gyp) \
+python3.10dist-gyp \
 python310-gyp \
-python3dist(gyp)"
+python3dist-gyp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ninja \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

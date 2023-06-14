@@ -9,8 +9,8 @@ RPM_HASH = "22548796890491b1fae25d8b2d6cae2f2b5f7f7e662bfd9cbd77af8d5785555105e6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aho-corasick-double-array-trie \
-mvn(com.hankcs:aho-corasick-double-array-trie) \
-mvn(com.hankcs:aho-corasick-double-array-trie:pom:)"
+mvn-com.hankcs-aho-corasick-double-array-trie \
+mvn-com.hankcs-aho-corasick-double-array-trie-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

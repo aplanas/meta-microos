@@ -15,12 +15,11 @@ RPM_NAME = "liboping0-1.10.0-1.18.aarch64.rpm"
 RPM_HASH = "771aedc11f7001c68da6918721d571ce7f8c8ba6751fc4a101da4d0445edea6356145d51f49fc9cc61d27f65e83ae26bdb7e95f42ccf1d74174cc87f1293e0f4"
 
 RPROVIDES:${PN} += "liboping \
-liboping.so.0()(64bit) \
-liboping0 \
-liboping0(aarch-64)"
+liboping.so.0 \
+liboping0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

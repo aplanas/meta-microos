@@ -15,12 +15,11 @@ PV = "1.12.3"
 RPM_NAME = "pnetcdf_1_12_3-gnu-mpich-hpc-1.12.3-1.3.aarch64.rpm"
 RPM_HASH = "4e3d19a7051aa658df8a4da0916260809e27ac4320701261c56d061f3479cdc389da135ef71ad5501070092f7069706209414c621aeaf57b607472da897ad0af"
 
-RPROVIDES:${PN} += "pnetcdf_1_12_3-gnu-mpich-hpc \
-pnetcdf_1_12_3-gnu-mpich-hpc(aarch-64)"
+RPROVIDES:${PN} += "pnetcdf-1-12-3-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpnetcdf_1_12_3-gnu-mpich-hpc"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpnetcdf-1-12-3-gnu-mpich-hpc"
 
 inherit rpm

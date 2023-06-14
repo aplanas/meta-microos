@@ -16,13 +16,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-altair-widgets \
 python3-altair-widgets \
-python3-jupyter_altair-widgets \
-python3.10dist(altair-widgets) \
+python3-jupyter-altair-widgets \
+python3.10dist-altair-widgets \
 python310-altair-widgets \
-python310-jupyter_altair-widgets \
-python3dist(altair-widgets)"
+python310-jupyter-altair-widgets \
+python3dist-altair-widgets"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-altair \
 python310-ipython \
 python310-ipywidgets \

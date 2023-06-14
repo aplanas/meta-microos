@@ -22,14 +22,13 @@ PV = "2.28"
 RPM_NAME = "perl-Compress-Bzip2-2.28-1.16.aarch64.rpm"
 RPM_HASH = "5f12fa40123e41951145c53802fdc439284099a31a997bedb0182917ad04849f8ea79eecda42b96970c1d557c0724815e1e90e2484625d164d47f7b7d9ba0d4c"
 
-RPROVIDES:${PN} += "perl(Compress::Bzip2) \
-perl-Compress-Bzip2 \
-perl-Compress-Bzip2(aarch-64)"
+RPROVIDES:${PN} += "perl-Compress--Bzip2 \
+perl-Compress-Bzip2"
 
 RDEPENDS:${PN} += "bzip2 \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

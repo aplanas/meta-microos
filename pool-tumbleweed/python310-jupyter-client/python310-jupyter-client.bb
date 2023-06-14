@@ -14,19 +14,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-client \
 jupyter-jupyter-client-doc \
-jupyter-jupyter_client \
 python3-jupyter-client \
-python3-jupyter_client \
-python3.10dist(jupyter-client) \
+python3.10dist-jupyter-client \
 python310-jupyter-client \
-python310-jupyter_client \
-python3dist(jupyter-client)"
+python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "(python310-importlib-metadata >= 4.8.3 if python310-base < 3.10) \
-(python310-jupyter-core >= 5.1 or (python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0)) \
+RDEPENDS:${PN} += "-python310-importlib-metadata >= 4.8.3 if python310-base < 3.10 \
+-python310-jupyter-core >= 5.1 or (python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-entrypoints \
 python310-python-dateutil \
 python310-pyzmq \

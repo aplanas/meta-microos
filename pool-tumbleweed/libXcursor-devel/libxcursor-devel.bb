@@ -14,14 +14,13 @@ RPM_NAME = "libXcursor-devel-1.2.1-1.6.aarch64.rpm"
 RPM_HASH = "561bab6b029e86893f790ecc132e450ce4a7354d620600f815e990b6231ec74d1090156086aad881c049cc56a95be5ef8db29a33c34fad1bd4366b25f8601b3b"
 
 RPROVIDES:${PN} += "libXcursor-devel \
-libXcursor-devel(aarch-64) \
-pkgconfig(xcursor)"
+pkgconfig-xcursor"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXcursor1 \
-pkgconfig(x11) \
-pkgconfig(xfixes) \
-pkgconfig(xproto) \
-pkgconfig(xrender)"
+pkgconfig-x11 \
+pkgconfig-xfixes \
+pkgconfig-xproto \
+pkgconfig-xrender"
 
 inherit rpm

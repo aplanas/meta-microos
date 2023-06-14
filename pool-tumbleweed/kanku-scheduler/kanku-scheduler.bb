@@ -9,7 +9,7 @@ RPM_HASH = "15caff9f845358f452f0d34c533a4c5016a6bfad778d218778d077b0ea7026f2bd56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-scheduler \
-perl(Kanku::Daemon::Scheduler)"
+perl-Kanku--Daemon--Scheduler"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \

@@ -11,11 +11,11 @@ RPM_HASH = "6ed5ebf51cab3da2455ed7126bfa448bc470c5712d324eca3efa03af62c78b631e82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-osmviz \
-python3.10dist(osmviz) \
+python3.10dist-osmviz \
 python310-osmviz \
-python3dist(osmviz)"
+python3dist-osmviz"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pygame"
 
 inherit rpm

@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abook-lang \
 abook-lang-all \
-locale(abook:de) \
-locale(abook:fr) \
-locale(abook:it) \
-locale(abook:ja) \
-locale(abook:sv)"
+locale-abook-de \
+locale-abook-fr \
+locale-abook-it \
+locale-abook-ja \
+locale-abook-sv"
 
 RDEPENDS:${PN} += "abook"
 

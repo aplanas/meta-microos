@@ -12,14 +12,13 @@ RPM_NAME = "libdc1394-25-2.2.6-3.13.aarch64.rpm"
 RPM_HASH = "c7f8bcfa986fa5cb3b3dc08db1526989c1db209e257086c168047505310cd60ae110911707f63447ecaba8c918952fa5303bf4202f2056f97cdbb543340bf650"
 
 RPROVIDES:${PN} += "libdc1394-25 \
-libdc1394-25(aarch-64) \
-libdc1394.so.25()(64bit)"
+libdc1394.so.25"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libraw1394.so.11()(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libraw1394.so.11 \
+libusb-1.0.so.0"
 
 inherit rpm

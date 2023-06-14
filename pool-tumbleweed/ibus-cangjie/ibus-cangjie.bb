@@ -9,17 +9,11 @@ RPM_NAME = "ibus-cangjie-2.4-2.14.noarch.rpm"
 RPM_HASH = "bfab526f99a4e92229ff01ab38ee740a71e55aac0220244eabe70d5a6941341763c1f7149bba3ba9d25dd2f44023af9382ca72aa8aae676fe42885220ab97155"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(ibus-setup-cangjie.desktop) \
-application(ibus-setup-quick.desktop) \
-ibus-cangjie \
-metainfo() \
-metainfo(cangjie.appdata.xml) \
-metainfo(quick.appdata.xml)"
+RPROVIDES:${PN} += "ibus-cangjie"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ibus \
-python(abi) \
+python-abi \
 python3 \
 python3-cangjie \
 python3-gobject"

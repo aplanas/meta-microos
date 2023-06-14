@@ -10,20 +10,15 @@ PV = "1.0"
 RPM_NAME = "blobby-1.0-2.12.aarch64.rpm"
 RPM_HASH = "e2a23fcbed3db90e7f54e6cb6e11b4201bbf37154d9b2a9a5946b057843538276d511b09ff01de03bf4dcffbbcb6a31a9efb399f0d537dfa785282e0336412a5"
 
-RPROVIDES:${PN} += "application() \
-application(blobby.desktop) \
-blobby \
-blobby(aarch-64) \
-metainfo() \
-metainfo(blobby.appdata.xml)"
+RPROVIDES:${PN} += "blobby"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libphysfs.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libphysfs.so.1 \
+libstdc++.so.6"
 
 inherit rpm

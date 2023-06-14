@@ -7,18 +7,17 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "rbd-fuse-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "74729b9f4c2e847c5848fc1523a402a3477e969b15cbb809a993dd7365dd26e5f40f53bc7308afcbe812b8e7f4a6aecdfd65dee586f4d94b4abb910b01af11c2"
 
-RPROVIDES:${PN} += "rbd-fuse \
-rbd-fuse(aarch-64)"
+RPROVIDES:${PN} += "rbd-fuse"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libceph-common.so.2()(64bit) \
-libfuse.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-librados.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libceph-common.so.2 \
+libfuse.so.2 \
+libgcc-s.so.1 \
+librados.so.2 \
 librados2 \
-librbd.so.1()(64bit) \
+librbd.so.1 \
 librbd1 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_NAME = "kvm_stat-6.3.4-22.21.noarch.rpm"
 RPM_HASH = "3bb139a56b2d126ce123e7e145dccfd28dcfb6e44ded7066e28f61d7c304323008687fb153e25ab746b488593f2d5a3a7d37a46fd93c3b281ac97e84d1442799"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "kvm_stat"
+RPROVIDES:${PN} += "kvm-stat"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \

@@ -10,22 +10,18 @@ RPM_HASH = "d717ffe5a583da9d2c67f92bc4bd2dcc4d9d17dd42f32feb1fe87bb6a2b027959171
 
 RPROVIDES:${PN} += "python3-PyQtDataVisualization \
 python3-qtdatavis3d-qt5 \
-python3.10dist(pyqtdatavisualization) \
+python3.10dist-pyqtdatavisualization \
 python310-PyQtDataVisualization \
 python310-qtdatavis3d-qt5 \
-python310-qtdatavis3d-qt5(aarch-64) \
-python3dist(pyqtdatavisualization)"
+python3dist-pyqtdatavisualization"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DataVisualization.so.5()(64bit) \
-libQt5DataVisualization.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DataVisualization.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-qt5 \
 python310-qt5-sip"
 

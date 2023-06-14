@@ -14,11 +14,11 @@ RPM_HASH = "0cef103f3d0bf381803a00c5355cf567f4ea70b8e8eeaf46270b5cd10406b431bf18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Paranoid \
-python3.10dist(flask-paranoid) \
+python3.10dist-flask-paranoid \
 python310-Flask-Paranoid \
-python3dist(flask-paranoid)"
+python3dist-flask-paranoid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask"
 
 inherit rpm

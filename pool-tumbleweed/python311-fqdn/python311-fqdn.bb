@@ -15,10 +15,10 @@ RPM_NAME = "python311-fqdn-1.5.1-2.1.noarch.rpm"
 RPM_HASH = "0c8475e4a08e37330eb87de0cfccaa4ded5c42c9ded7f105a48927b7ec7a3397b665396de58f120d6abce02e73b2be559e1a0f67aa6cf29e64c1ba5dd5857f9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(fqdn) \
+RPROVIDES:${PN} += "python3.11dist-fqdn \
 python311-fqdn \
-python3dist(fqdn)"
+python3dist-fqdn"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

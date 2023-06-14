@@ -13,11 +13,11 @@ RPM_NAME = "python39-strict-rfc3339-0.7-4.1.noarch.rpm"
 RPM_HASH = "1f2fd4fcdf5bad1f5b573711bca551495bd5f857f22df7ae84267aa40eaef1dfeca1a89c70e5d03f90eaeca35b0ed4d4053c1755a10dae152c585dc8d3c4227c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(strict-rfc3339) \
+RPROVIDES:${PN} += "python3.9dist-strict-rfc3339 \
 python39-strict-rfc3339 \
-python3dist(strict-rfc3339)"
+python3dist-strict-rfc3339"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 timezone"
 
 inherit rpm

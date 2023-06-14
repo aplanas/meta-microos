@@ -13,11 +13,11 @@ RPM_HASH = "445cff839fc52a1d451660af5bfa4063ada329cbe3008d47873abe5142ff1284b4cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-colormap \
-python3.10dist(colormap) \
+python3.10dist-colormap \
 python310-colormap \
-python3dist(colormap)"
+python3dist-colormap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-easydev \
 python310-matplotlib"
 

@@ -9,10 +9,9 @@ RPM_HASH = "610e68ebe3d6c94ceefb702decce82cbc5600fe1b11f69468e0f511a507c292cc47f
 
 RPROVIDES:${PN} += "cmpi-bindings \
 cmpi-bindings-ruby \
-cmpi-bindings-ruby(aarch-64) \
-librbCmpiProvider.so()(64bit)"
+librbCmpiProvider.so"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libruby3.2.so.3.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libruby3.2.so.3.2"
 
 inherit rpm

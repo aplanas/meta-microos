@@ -9,23 +9,22 @@ PV = "3.8.5"
 RPM_NAME = "sanlock-3.8.5-1.3.aarch64.rpm"
 RPM_HASH = "e6a085e3aee2d286548bc021acdc161cc383184c35a4afe3f5f4b55bbf297969eb1d8415da33cab2b808ab4c7b95b054426aa0d442635a1aaf720afd15b3dafd"
 
-RPROVIDES:${PN} += "config(sanlock) \
+RPROVIDES:${PN} += "config-sanlock \
 python2-sanlock \
-sanlock \
-sanlock(aarch-64)"
+sanlock"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-group(disk) \
-ld-linux-aarch64.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsanlock.so.1()(64bit) \
-libuuid.so.1()(64bit) \
-libwdmd.so.1()(64bit) \
+group-disk \
+ld-linux-aarch64.so.1 \
+libaio.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libsanlock.so.1 \
+libuuid.so.1 \
+libwdmd.so.1 \
 shadow \
 systemd"
 

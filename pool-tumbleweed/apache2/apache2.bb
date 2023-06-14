@@ -11,22 +11,21 @@ PV = "2.4.57"
 RPM_NAME = "apache2-2.4.57-1.1.aarch64.rpm"
 RPM_HASH = "206d09bd1d6aab325b6e5e3eba158684522a02bfc7e981ac074da492021ced17722e3711b980659e940e423d154b0965929ba2763f22075fe1bb23cf11931c85"
 
-RPROVIDES:${PN} += "apache2 \
-apache2(aarch-64) \
-apache_mmn_20120211 \
-config(apache2) \
-http_daemon \
+RPROVIDES:${PN} += "apache-mmn-20120211 \
+apache2 \
+config-apache2 \
+http-daemon \
 httpd \
-suse_maintenance_mmn_0"
+suse-maintenance-mmn-0"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /etc/mime.types \
 apache2-MPM \
-group(www) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+group-www \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 logrotate \
-user(wwwrun)"
+user-wwwrun"
 
 inherit rpm

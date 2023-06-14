@@ -35,17 +35,16 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf19-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "59f0fd44de33a7919ace9f2106b066abf707545b8351a886ab09904cbcf6db8e35d7456a0bd6e9a75fbcbbf4b5a7ade20e3659af75e417207efe725b178570b4"
 
-RPROVIDES:${PN} += "libnetcdf.so.19()(64bit) \
-libnetcdf19 \
-libnetcdf19(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf.so.19 \
+libnetcdf19"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_hl.so.200()(64bit) \
-libm.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libhdf5-hl.so.200 \
+libhdf5.so.200 \
+libm.so.6 \
+libxml2.so.2"
 
 inherit rpm

@@ -14,11 +14,10 @@ RPM_NAME = "cvsps-2.1-182.28.aarch64.rpm"
 RPM_HASH = "ac729d5764c2f8be436dd8499fa66d1ac643af4ab5a39aca51580749a9ae48ac29e22c3f1562e4b9be80958e3fcf43480881cf8c0a3fb990774f3d738fdef7e7"
 
 RPROVIDES:${PN} += "cvsps \
-cvsps(aarch-64) \
 cvsps2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1"
 
 inherit rpm

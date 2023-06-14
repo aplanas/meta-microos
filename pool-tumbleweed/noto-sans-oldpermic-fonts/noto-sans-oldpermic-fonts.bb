@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-oldpermic \
 noto-sans-oldpermic-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

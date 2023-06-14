@@ -10,7 +10,7 @@ RPM_HASH = "827bccc742bcaf7a6a4de23049b41d29ab17b056e021bc2289687d63c541f99972da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cephadm \
-config(cephadm)"
+config-cephadm"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \

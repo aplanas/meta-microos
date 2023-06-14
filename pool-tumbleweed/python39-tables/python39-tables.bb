@@ -13,22 +13,21 @@ PV = "3.8.0"
 RPM_NAME = "python39-tables-3.8.0-2.1.aarch64.rpm"
 RPM_HASH = "a26fccd15b03d843459368de949b6c656473d996b85681f8e9e80edd0217f572c931f0eab61eb6b21b87f0bd60d4057f943cf55d3986a894e405910667939bb5"
 
-RPROVIDES:${PN} += "python3.9dist(tables) \
+RPROVIDES:${PN} += "python3.9dist-tables \
 python39-tables \
-python39-tables(aarch-64) \
-python3dist(tables)"
+python3dist-tables"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 hdf5 \
-ld-linux-aarch64.so.1()(64bit) \
-libblosc.so.1()(64bit) \
-libblosc2.so.2()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit) \
-liblzo2.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libblosc.so.1 \
+libblosc2.so.2 \
+libbz2.so.1 \
+libc.so.6 \
+libhdf5.so.200 \
+liblzo2.so.2 \
+python-abi \
 python39-Cython \
 python39-numexpr \
 python39-numpy \

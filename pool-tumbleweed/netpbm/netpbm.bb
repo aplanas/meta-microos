@@ -17,21 +17,19 @@ RPM_NAME = "netpbm-10.96.4-5.3.aarch64.rpm"
 RPM_HASH = "86a349ada18e4c60d26f6136178aa801275044791a6f162426e1a5bf622dbf8b4f424903de345d370bf449a1e2349b02422fce0561e5fcad3cb1c1c2d70dd9f3"
 
 RPROVIDES:${PN} += "netpbm \
-netpbm(aarch-64) \
 pbmplus"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libnetpbm.so.11()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libtiff.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libnetpbm.so.11 \
+libpng16.so.16 \
+libtiff.so.6 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

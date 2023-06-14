@@ -15,7 +15,7 @@ RPM_NAME = "texlive-showcharinbox-2023.201.0.0.1svn29803-53.1.noarch.rpm"
 RPM_HASH = "5d5d9bad945aa09c4cd9684f008bccf968776497b52f85c76823eafe1c75340c919a09e40710adfe211cf46decd544a9263c913d4f5bb8d18822119d0f36a5b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(showcharinbox.sty) \
+RPROVIDES:${PN} += "tex-showcharinbox.sty \
 texlive-showcharinbox"
 
 RDEPENDS:${PN} += "/bin/sh \

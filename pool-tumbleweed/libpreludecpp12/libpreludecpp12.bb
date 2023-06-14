@@ -12,15 +12,14 @@ PV = "5.2.0"
 RPM_NAME = "libpreludecpp12-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "81383b53513776c968beb1478bc3e6036d9dee72450010e063816551a733588246520aa6d1002d3d6e31f9e0560cb74ec9b608532035c2e652a8981622b6c09b"
 
-RPROVIDES:${PN} += "libpreludecpp.so.12()(64bit) \
-libpreludecpp12 \
-libpreludecpp12(aarch-64)"
+RPROVIDES:${PN} += "libpreludecpp.so.12 \
+libpreludecpp12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprelude.so.28()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprelude.so.28 \
+libstdc++.so.6"
 
 inherit rpm

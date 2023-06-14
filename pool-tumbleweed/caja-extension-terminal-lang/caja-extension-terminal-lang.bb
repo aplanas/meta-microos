@@ -10,25 +10,25 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-terminal-lang \
 caja-extension-terminal-lang-all \
-locale(caja-extension-terminal:bg) \
-locale(caja-extension-terminal:ca) \
-locale(caja-extension-terminal:cs) \
-locale(caja-extension-terminal:de) \
-locale(caja-extension-terminal:es) \
-locale(caja-extension-terminal:fr) \
-locale(caja-extension-terminal:he) \
-locale(caja-extension-terminal:hu) \
-locale(caja-extension-terminal:it) \
-locale(caja-extension-terminal:lv) \
-locale(caja-extension-terminal:nb) \
-locale(caja-extension-terminal:nl) \
-locale(caja-extension-terminal:pl) \
-locale(caja-extension-terminal:pt) \
-locale(caja-extension-terminal:pt_BR) \
-locale(caja-extension-terminal:ro) \
-locale(caja-extension-terminal:ru) \
-locale(caja-extension-terminal:sv) \
-locale(caja-extension-terminal:tr)"
+locale-caja-extension-terminal-bg \
+locale-caja-extension-terminal-ca \
+locale-caja-extension-terminal-cs \
+locale-caja-extension-terminal-de \
+locale-caja-extension-terminal-es \
+locale-caja-extension-terminal-fr \
+locale-caja-extension-terminal-he \
+locale-caja-extension-terminal-hu \
+locale-caja-extension-terminal-it \
+locale-caja-extension-terminal-lv \
+locale-caja-extension-terminal-nb \
+locale-caja-extension-terminal-nl \
+locale-caja-extension-terminal-pl \
+locale-caja-extension-terminal-pt \
+locale-caja-extension-terminal-pt-BR \
+locale-caja-extension-terminal-ro \
+locale-caja-extension-terminal-ru \
+locale-caja-extension-terminal-sv \
+locale-caja-extension-terminal-tr"
 
 RDEPENDS:${PN} += "caja-extension-terminal"
 

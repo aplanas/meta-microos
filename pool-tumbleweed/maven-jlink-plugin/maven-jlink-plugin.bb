@@ -10,16 +10,16 @@ RPM_HASH = "5d90728170ddd9146c4a1a0f53e0599d431b3740f54eb0853d312888db8647f2bd40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-jlink-plugin \
-mvn(org.apache.maven.plugins:maven-jlink-plugin) \
-mvn(org.apache.maven.plugins:maven-jlink-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-jlink-plugin \
+mvn-org.apache.maven.plugins-maven-jlink-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.commons:commons-lang3) \
-mvn(org.apache.maven:maven-archiver) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-archiver) \
-mvn(org.codehaus.plexus:plexus-java)"
+mvn-org.apache.commons-commons-lang3 \
+mvn-org.apache.maven-maven-archiver \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.codehaus.plexus-plexus-archiver \
+mvn-org.codehaus.plexus-plexus-java"
 
 inherit rpm

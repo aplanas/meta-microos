@@ -22,19 +22,18 @@ PV = "1.42.0"
 RPM_NAME = "gammu-1.42.0-4.6.aarch64.rpm"
 RPM_HASH = "7bb48690dbb902712aa504a542db573f3e6d43d04570122400024ddd1e39d4b6a1dd374398187a7a811629b5f4460ff86611d0351a981704fb4d1b78b46a604e"
 
-RPROVIDES:${PN} += "gammu \
-gammu(aarch-64)"
+RPROVIDES:${PN} += "gammu"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dialog \
-ld-linux-aarch64.so.1()(64bit) \
-libGammu.so.8()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libGammu.so.8 \
+libbluetooth.so.3 \
+libc.so.6 \
+libcurl.so.4 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgudev-1.0.so.0"
 
 inherit rpm

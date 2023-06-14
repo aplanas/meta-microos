@@ -11,13 +11,13 @@ RPM_HASH = "4c4dc9417f889de0680b4bf8fe30094d619acd204f4e6402bf1b078fe9bd53df68fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-deps \
-python3.10dist(git-deps) \
-python3dist(git-deps)"
+python3.10dist-git-deps \
+python3dist-git-deps"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 npm \
-python(abi) \
+python-abi \
 python3-Flask \
 python3-pygit2"
 

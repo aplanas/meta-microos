@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiskaltdcpp-common"
 
-RDEPENDS:${PN} += "libeiskaltdcpp2_4"
+RDEPENDS:${PN} += "libeiskaltdcpp2-4"
 
 inherit rpm

@@ -10,12 +10,11 @@ PV = "2022_08_R1"
 RPM_NAME = "kismet-capture-nrf-51822-2022_08_R1-2.3.aarch64.rpm"
 RPM_HASH = "d041e0fe30093d5fd2824d34fd8e015ef0f883f7b85d05ab028293461eed00426051d76e0ddcbb3bddc30510e96ee18eeafef5e6d6766bc33947a37cff5b8a8c"
 
-RPROVIDES:${PN} += "kismet-capture-nrf-51822 \
-kismet-capture-nrf-51822(aarch-64)"
+RPROVIDES:${PN} += "kismet-capture-nrf-51822"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libprotobuf-c.so.1()(64bit) \
-libwebsockets.so.19()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libprotobuf-c.so.1 \
+libwebsockets.so.19"
 
 inherit rpm

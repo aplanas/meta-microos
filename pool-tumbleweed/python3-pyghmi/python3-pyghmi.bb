@@ -14,11 +14,11 @@ RPM_HASH = "db2e0afffcbe99029cf3757be3e3e44fff6f73629336d96bdfd8e48ab1088c7cc2d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyghmi \
-python3.10dist(pyghmi) \
-python3dist(pyghmi)"
+python3.10dist-pyghmi \
+python3dist-pyghmi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cryptography \
 python3-python-dateutil \
 python3-six"

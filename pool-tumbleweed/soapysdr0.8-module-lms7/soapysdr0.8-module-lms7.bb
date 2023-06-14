@@ -8,16 +8,15 @@ PV = "22.09.1"
 RPM_NAME = "soapysdr0.8-module-lms7-22.09.1-2.2.aarch64.rpm"
 RPM_HASH = "e1968146e996e7c005b45e1910d189d6f55f5f9ddbff7658115017332f33c4fb0a51b45ce26426daed96419e49745e58ffeeaacd54fb6fe582018f15141b392d"
 
-RPROVIDES:${PN} += "libLMS7Support.so()(64bit) \
-soapysdr0.8-module-lms7 \
-soapysdr0.8-module-lms7(aarch-64)"
+RPROVIDES:${PN} += "libLMS7Support.so \
+soapysdr0.8-module-lms7"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libLimeSuite.so.22.09-1()(64bit) \
-libSoapySDR.so.0.8()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libLimeSuite.so.22.09-1 \
+libSoapySDR.so.0.8 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

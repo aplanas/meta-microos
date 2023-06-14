@@ -10,11 +10,11 @@ RPM_HASH = "1c3253a7baa70235f8fb2b337cd851cd58827bc5f9d8fdf9b533d572635b73ea5663
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-arabic-reshaper \
-python3.10dist(arabic-reshaper) \
+python3.10dist-arabic-reshaper \
 python310-arabic-reshaper \
-python3dist(arabic-reshaper)"
+python3dist-arabic-reshaper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future"
 
 inherit rpm

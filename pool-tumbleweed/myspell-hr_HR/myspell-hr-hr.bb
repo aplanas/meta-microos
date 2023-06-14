@@ -8,11 +8,11 @@ RPM_NAME = "myspell-hr_HR-20221012-1.2.noarch.rpm"
 RPM_HASH = "e53413e2173c7b34395b94d635adf60c4eaa28bbbc7ff4342ac35990a25c72f9b88a86218fade2e489f673b9c105a3ec6730df837d35d91ba8b863be785408b0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:hr_HR) \
-locale(seamonkey-spellchecker:hr_HR) \
+RPROVIDES:${PN} += "locale-libreoffice-hr-HR \
+locale-seamonkey-spellchecker-hr-HR \
 myspell-croatian \
 myspell-dictionary \
-myspell-hr_HR"
+myspell-hr-HR"
 
 RDEPENDS:${PN} += "myspell-dictionaries"
 

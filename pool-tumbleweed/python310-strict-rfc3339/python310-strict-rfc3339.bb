@@ -14,11 +14,11 @@ RPM_HASH = "a2308cd5854ea6e17e5b1b69617910f2a7771f2596eaa4a9f2ea85f6561c46d78bd4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-strict-rfc3339 \
-python3.10dist(strict-rfc3339) \
+python3.10dist-strict-rfc3339 \
 python310-strict-rfc3339 \
-python3dist(strict-rfc3339)"
+python3dist-strict-rfc3339"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 timezone"
 
 inherit rpm

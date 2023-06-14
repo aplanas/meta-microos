@@ -14,10 +14,10 @@ RPM_HASH = "40194b03de4f676dde9a18e466e9c393c0507c2ccf325a3d15f2ed8ce47e69a31d5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-java \
-mvn(antlr:antlr) \
-mvn(antlr:antlr:pom:) \
-mvn(antlr:antlrall) \
-mvn(antlr:antlrall:pom:)"
+mvn-antlr-antlr \
+mvn-antlr-antlr-pom- \
+mvn-antlr-antlrall \
+mvn-antlr-antlrall-pom-"
 
 RDEPENDS:${PN} += "java \
 java-headless \

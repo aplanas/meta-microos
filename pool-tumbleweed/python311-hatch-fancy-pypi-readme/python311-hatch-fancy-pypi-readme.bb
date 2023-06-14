@@ -20,15 +20,14 @@ RPM_NAME = "python311-hatch-fancy-pypi-readme-23.1.0-1.1.noarch.rpm"
 RPM_HASH = "0aa14b6917c68cceb347f33d902730f2f9ce85b3c07651f33445692667b1dd2e06ca6552e5a1f1c49193c4f49a5223ca216cc8f09e061e501683f5153bee9582"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(hatch-fancy-pypi-readme) \
+RPROVIDES:${PN} += "python3.11dist-hatch-fancy-pypi-readme \
 python311-hatch-fancy-pypi-readme \
-python311-hatch_fancy_pypi_readme \
-python3dist(hatch-fancy-pypi-readme)"
+python3dist-hatch-fancy-pypi-readme"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
-python3.11dist(hatchling) \
+python-abi \
+python3.11dist-hatchling \
 update-alternatives"
 
 inherit rpm

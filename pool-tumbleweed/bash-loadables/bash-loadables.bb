@@ -57,10 +57,9 @@ PV = "5.2.15"
 RPM_NAME = "bash-loadables-5.2.15-8.3.aarch64.rpm"
 RPM_HASH = "e8522f9c06d1407f57aa0d2ba2416700a9a0b654bcd98fd6d01f36df8e79cc0332814545c7a6256371441694eecf31a804b55347aa47d5453eafa1b8379c3b44"
 
-RPROVIDES:${PN} += "bash-loadables \
-bash-loadables(aarch-64)"
+RPROVIDES:${PN} += "bash-loadables"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

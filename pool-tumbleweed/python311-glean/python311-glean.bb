@@ -12,14 +12,14 @@ RPM_NAME = "python311-glean-1.19.0-1.9.noarch.rpm"
 RPM_HASH = "9b2457b2c6c3ee4f60ad1d20431c38d375a550dab76b9a257828a7f86bb59499b216f30fbf13804921021ed3a8026dfb410f176002c6fdddefb8410b3c1bf81d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(glean) \
+RPROVIDES:${PN} += "python3.11dist-glean \
 python311-glean \
-python3dist(glean)"
+python3dist-glean"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -19,14 +19,14 @@ RPM_HASH = "b19cd247b70d7d4f347329f6cb4994f9502078e66d4bc4e0ec440421b6c76b26745a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbval \
-python3-jupyter_nbval \
+python3-jupyter-nbval \
 python3-nbval \
-python3.10dist(nbval) \
-python310-jupyter_nbval \
+python3.10dist-nbval \
+python310-jupyter-nbval \
 python310-nbval \
-python3dist(nbval)"
+python3dist-nbval"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-coverage \
 python310-ipykernel \
 python310-jupyter-client \

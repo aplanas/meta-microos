@@ -11,13 +11,13 @@ RPM_HASH = "772275f56dedd6581fe6d544e0f6276889e89ba430fa837087a3cf7df52d24998f91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Scrapy \
-python3.10dist(scrapy) \
+python3.10dist-scrapy \
 python310-Scrapy \
-python3dist(scrapy)"
+python3dist-scrapy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Protego \
 python310-PyDispatcher \
 python310-Twisted \
@@ -29,7 +29,7 @@ python310-lxml \
 python310-parsel \
 python310-pyOpenSSL \
 python310-queuelib \
-python310-service_identity \
+python310-service-identity \
 python310-setuptools \
 python310-tldextract \
 python310-w3lib \

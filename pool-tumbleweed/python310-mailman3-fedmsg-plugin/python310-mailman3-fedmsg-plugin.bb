@@ -9,10 +9,10 @@ RPM_HASH = "d5ecdb1a263de670954b36cee08dd387c7207185d9d218e068a59cc1d1d15ad65224
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mailman3-fedmsg-plugin \
-python3.10dist(mailman3-fedmsg-plugin) \
+python3.10dist-mailman3-fedmsg-plugin \
 python310-mailman3-fedmsg-plugin \
-python3dist(mailman3-fedmsg-plugin)"
+python3dist-mailman3-fedmsg-plugin"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

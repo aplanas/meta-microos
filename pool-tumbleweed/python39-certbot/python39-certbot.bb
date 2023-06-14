@@ -10,13 +10,13 @@ RPM_HASH = "685758ebcae7a5b55c717cf7a3a87b21af80c80497c44a2d9edc3b3e246241278281
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "certbot \
-python3.9dist(certbot) \
+python3.9dist-certbot \
 python39-certbot \
-python3dist(certbot)"
+python3dist-certbot"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-acme \
 python39-configargparse \
 python39-configobj \

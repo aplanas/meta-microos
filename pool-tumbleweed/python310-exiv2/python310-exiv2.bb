@@ -14,19 +14,18 @@ PV = "0.11.0"
 RPM_NAME = "python310-exiv2-0.11.0-1.7.aarch64.rpm"
 RPM_HASH = "b46566eee0f6587e1d8e7c4202a463be5c847db9d1cf91a2060ef6910640f7f1cf4a9913efc63f55ca464fdd5f46c4e8d6ffa5d15acf8a7881d9a671a6c3da16"
 
-RPROVIDES:${PN} += "libexiv2python.cpython-310-aarch64-linux-gnu.so()(64bit) \
+RPROVIDES:${PN} += "libexiv2python.cpython-310-aarch64-linux-gnu.so \
 python3-exiv2 \
-python3.10dist(py3exiv2) \
+python3.10dist-py3exiv2 \
 python310-exiv2 \
-python310-exiv2(aarch-64) \
-python3dist(py3exiv2)"
+python3dist-py3exiv2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libboost_python-py3.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libexiv2.so.27()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libboost-python-py3.so.1.82.0 \
+libc.so.6 \
+libexiv2.so.27 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

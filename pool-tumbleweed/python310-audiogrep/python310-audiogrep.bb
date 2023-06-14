@@ -10,15 +10,15 @@ RPM_HASH = "28bca5cea679eddaf143a33c464195f98cf398f3df2ece761954a2ed626c9c4885d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-audiogrep \
-python3.10dist(audiogrep) \
+python3.10dist-audiogrep \
 python310-audiogrep \
-python3dist(audiogrep)"
+python3dist-audiogrep"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ffmpeg \
 pocketsphinx \
-python(abi) \
+python-abi \
 python310-pydub \
 update-alternatives"
 

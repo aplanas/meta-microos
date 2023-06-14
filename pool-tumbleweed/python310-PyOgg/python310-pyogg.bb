@@ -10,10 +10,10 @@ RPM_HASH = "b647863c884999da31ba3b262c51db940939c26be9b2e154093d0fdf5e5cbdbbd801
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyOgg \
-python3.10dist(pyogg) \
+python3.10dist-pyogg \
 python310-PyOgg \
-python3dist(pyogg)"
+python3dist-pyogg"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

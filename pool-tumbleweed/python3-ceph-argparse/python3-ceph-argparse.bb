@@ -10,9 +10,8 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "python3-ceph-argparse-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "2a4fa92c5a49764ea7ab7dcc3941d52ee1d27ab4666ff8c93b612d7158f72b68622171a974852964e886b6980c00a0f7c50e3a98e2d5f70e5a9770473806cc06"
 
-RPROVIDES:${PN} += "python3-ceph-argparse \
-python3-ceph-argparse(aarch-64)"
+RPROVIDES:${PN} += "python3-ceph-argparse"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

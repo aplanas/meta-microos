@@ -12,13 +12,13 @@ RPM_HASH = "a4cf1369f6d1a08e4d1eb792973b448227479c04a4e5cb9aef51574a086e531c0f9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dbus-deviation \
-python3.10dist(dbus-deviation) \
+python3.10dist-dbus-deviation \
 python310-dbus-deviation \
-python3dist(dbus-deviation)"
+python3dist-dbus-deviation"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-lxml"
 
 inherit rpm

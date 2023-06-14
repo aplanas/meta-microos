@@ -9,13 +9,13 @@ RPM_HASH = "0d3bbfe2858ce19699b6b196aeff55aac1a937f8a1918fbf8edfbdfa9721f0dffe51
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "indriya \
-mvn(tech.units:indriya) \
-mvn(tech.units:indriya:pom:) \
-osgi(tech.units.indriya)"
+mvn-tech.units-indriya \
+mvn-tech.units-indriya-pom- \
+osgi-tech.units.indriya"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.measure:unit-api) \
-mvn(tech.uom.lib:uom-lib-common)"
+mvn-javax.measure-unit-api \
+mvn-tech.uom.lib-uom-lib-common"
 
 inherit rpm

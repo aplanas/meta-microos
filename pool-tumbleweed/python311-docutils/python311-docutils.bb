@@ -10,13 +10,13 @@ RPM_NAME = "python311-docutils-0.19-4.1.noarch.rpm"
 RPM_HASH = "7800320b9a220997016607e2e7e49f2a12376fc59c5daf1e7664ce33770f990aa84acf2372e299dbc899af3519d782b5a43f761fa06fd9a529b7076037b3650f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(docutils) \
+RPROVIDES:${PN} += "python3.11dist-docutils \
 python311-docutils \
-python3dist(docutils)"
+python3dist-docutils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-packaging \
 python311-xml \
 update-alternatives"

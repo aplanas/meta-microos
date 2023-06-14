@@ -14,7 +14,7 @@ RPM_NAME = "texlive-poetry-2023.201.2.2svn53129-52.1.noarch.rpm"
 RPM_HASH = "c4bed0f7fc92f477a286c4b9e9d05a9b7ccb2b5b6e7821d83a6be98369096360696aec0f5f7caea9c32395f6d0853e331f9d1419b79c3b43b7bc4229d00fd0a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(poetry.sty) \
+RPROVIDES:${PN} += "tex-poetry.sty \
 texlive-poetry"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(imakeidx.sty) \
-tex(modulus.sty) \
+tex-imakeidx.sty \
+tex-modulus.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

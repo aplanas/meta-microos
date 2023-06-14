@@ -9,11 +9,11 @@ RPM_HASH = "9c9145b802b9aadecbbc23832d7ff1ecd6cee34480ee97879e3aa0b0b7ae4027aeb5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydata-sphinx-theme \
-python3.10dist(pydata-sphinx-theme) \
+python3.10dist-pydata-sphinx-theme \
 python310-pydata-sphinx-theme \
-python3dist(pydata-sphinx-theme)"
+python3dist-pydata-sphinx-theme"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx \
 python310-beautifulsoup4 \
 python310-docutils \

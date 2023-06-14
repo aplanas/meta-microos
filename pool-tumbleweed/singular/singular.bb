@@ -26,21 +26,18 @@ PV = "4.3.1.p3"
 RPM_NAME = "singular-4.3.1.p3-1.3.aarch64.rpm"
 RPM_HASH = "843c82257928776a3e80ff87c7021d9ffa9296a85ab1f0244d26692725ff1e33e33a856dc4ca936cd9d9dde447f13ea6522a23d7722a8376f384645e79bd8233"
 
-RPROVIDES:${PN} += "application() \
-application(Singular.desktop) \
-singular \
-singular(aarch-64)"
+RPROVIDES:${PN} += "singular"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libSingular-4.3.1.p3.so()(64bit) \
-libc.so.6()(64bit) \
-libfactory-4.3.1.p3.so()(64bit) \
-libgmp.so.10()(64bit) \
-libomalloc-4.3.1.p3.so()(64bit) \
-libpolys-4.3.1.p3.so()(64bit) \
-libsingular_resources-4.3.1.p3.so()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libSingular-4.3.1.p3.so \
+libc.so.6 \
+libfactory-4.3.1.p3.so \
+libgmp.so.10 \
+libomalloc-4.3.1.p3.so \
+libpolys-4.3.1.p3.so \
+libsingular-resources-4.3.1.p3.so \
+libstdc++.so.6"
 
 inherit rpm

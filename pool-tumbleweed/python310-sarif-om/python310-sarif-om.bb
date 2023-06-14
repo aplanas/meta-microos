@@ -9,11 +9,11 @@ RPM_HASH = "9e1577aee11edd84d6bd169f53f367f64d6797be87613c8c717600f745713eeabcdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sarif-om \
-python3.10dist(sarif-om) \
+python3.10dist-sarif-om \
 python310-sarif-om \
-python3dist(sarif-om)"
+python3dist-sarif-om"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-pbr"
 

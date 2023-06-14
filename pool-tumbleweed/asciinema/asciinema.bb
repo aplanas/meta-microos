@@ -9,10 +9,10 @@ RPM_HASH = "168a65bf02cd1cb913fdfeb387dd5fe44407b20f31075b5b654d6e0a291fefc585ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciinema \
-python3.10dist(asciinema) \
-python3dist(asciinema)"
+python3.10dist-asciinema \
+python3dist-asciinema"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

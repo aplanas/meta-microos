@@ -15,23 +15,22 @@ RPM_NAME = "gtk2-engine-oxygen-1.4.6-5.19.aarch64.rpm"
 RPM_HASH = "c9533aeaa64bfa3690dded551f74e442c7f40fd2ce6545f6d6ad4107cdff76674db0068b537f9fe682bfd036056afa5fd18415f62e38e77658ed46896ed10a9d"
 
 RPROVIDES:${PN} += "gtk2-engine-oxygen \
-gtk2-engine-oxygen(aarch-64) \
-liboxygen-gtk.so()(64bit)"
+liboxygen-gtk.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

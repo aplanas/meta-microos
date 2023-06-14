@@ -11,9 +11,9 @@ RPM_HASH = "398e4c5127d36034766eda1298e60753111d864205882cb52216f1b7bce58c05af07
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-futurist \
-python3.10dist(futurist) \
-python3dist(futurist)"
+python3.10dist-futurist \
+python3dist-futurist"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

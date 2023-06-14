@@ -11,17 +11,16 @@ PV = "1.7.2"
 RPM_NAME = "hunspell-1.7.2-1.3.aarch64.rpm"
 RPM_HASH = "657d574ee53797dc65d6f78987d6a7f7ae343d43fde1f4dabc42933eb2842f27a101fc3a9e0304fb86cfd309289dbeecf834d35d6b49589afe06cfa6f4b77a61"
 
-RPROVIDES:${PN} += "hunspell \
-hunspell(aarch-64)"
+RPROVIDES:${PN} += "hunspell"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libncursesw.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-myspell-en_US"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhunspell-1.7.so.0 \
+libncursesw.so.6 \
+libreadline.so.8 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+myspell-en-US"
 
 inherit rpm

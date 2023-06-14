@@ -14,11 +14,11 @@ RPM_NAME = "texlive-beamer-fuberlin-2023.201.0.0.02bsvn63161-53.1.noarch.rpm"
 RPM_HASH = "be9c213bae9af85d14d7e23b80e6687058f0f0d29d1045d618a6eb86ccd58951bc6c1c77f12c3a70b5840859d217ea7fd5fed365a36fd2d14aefb8bbc0340cd8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(FUbeamer.cls) \
-tex(beamercolorthemeBerlinFU.sty) \
-tex(beamerfontthemeBerlinFU.sty) \
-tex(beamerouterthemeBerlinFU.sty) \
-tex(beamerthemeBerlinFU.sty) \
+RPROVIDES:${PN} += "tex-FUbeamer.cls \
+tex-beamercolorthemeBerlinFU.sty \
+tex-beamerfontthemeBerlinFU.sty \
+tex-beamerouterthemeBerlinFU.sty \
+tex-beamerthemeBerlinFU.sty \
 texlive-beamer-fuberlin"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,13 +27,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
-tex(beamer.cls) \
-tex(fontenc.sty) \
-tex(graphicx-psmin.sty) \
-tex(graphicx.sty) \
-tex(helvet.sty) \
-tex(tabularx.sty) \
+tex-babel.sty \
+tex-beamer.cls \
+tex-fontenc.sty \
+tex-graphicx-psmin.sty \
+tex-graphicx.sty \
+tex-helvet.sty \
+tex-tabularx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

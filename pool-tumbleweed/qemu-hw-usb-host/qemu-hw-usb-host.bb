@@ -7,11 +7,10 @@ PV = "8.0.2"
 RPM_NAME = "qemu-hw-usb-host-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "a567ac4056df6fc44c3ab2a9fe4d808e063c04bd16224a437e39b5d8bc6700b5cd5bdc41858cab5d2d8022afd414bbca3c6c9ba95e5be2fb244036f295fe820c"
 
-RPROVIDES:${PN} += "qemu-hw-usb-host \
-qemu-hw-usb-host(aarch-64)"
+RPROVIDES:${PN} += "qemu-hw-usb-host"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusb-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusb-1.0.so.0"
 
 inherit rpm

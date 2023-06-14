@@ -11,15 +11,15 @@ RPM_HASH = "8e62c30bf76de1daf8501b9e34d1790d5f888d8771955084905a0db84b7737c1bc4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyparallel \
-python3-jupyter_ipyparallel \
-python3.10dist(ipyparallel) \
+python3-jupyter-ipyparallel \
+python3.10dist-ipyparallel \
 python310-ipyparallel \
-python310-jupyter_ipyparallel \
-python3dist(ipyparallel)"
+python310-jupyter-ipyparallel \
+python3dist-ipyparallel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-decorator \
 python310-entrypoints \
 python310-ipykernel \

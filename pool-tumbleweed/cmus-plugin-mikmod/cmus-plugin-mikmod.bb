@@ -7,12 +7,11 @@ PV = "2.10.0"
 RPM_NAME = "cmus-plugin-mikmod-2.10.0-2.1.aarch64.rpm"
 RPM_HASH = "08beb27943969c1fb4d59a85c17275ac29b5f1a1dec2938ddec7fdea8aea33b8a76efdf23dd027a8362b62b167c5f57dc7df6b43e615f44fa562cbc5483f8239"
 
-RPROVIDES:${PN} += "cmus-plugin-mikmod \
-cmus-plugin-mikmod(aarch-64)"
+RPROVIDES:${PN} += "cmus-plugin-mikmod"
 
 RDEPENDS:${PN} += "cmus \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmikmod.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmikmod.so.3"
 
 inherit rpm

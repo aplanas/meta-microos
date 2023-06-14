@@ -9,12 +9,11 @@ RPM_NAME = "procinfo-18-225.11.aarch64.rpm"
 RPM_HASH = "1d798961f0a180de34d8177040733e403f93e5ca9425f52c6015ed58108a423392c6b0ffe141e5f8e8fba5d55f90370b55f19efa174b49823523cf0ee87b47cc"
 
 RPROVIDES:${PN} += "procinfo \
-procinfo(aarch-64) \
-ps:/usr/bin/lsdev"
+ps-/usr/bin/lsdev"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6"
 
 inherit rpm

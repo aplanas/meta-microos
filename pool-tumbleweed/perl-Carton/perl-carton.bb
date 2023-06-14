@@ -15,43 +15,42 @@ RPM_NAME = "perl-Carton-1.0.35-1.6.noarch.rpm"
 RPM_HASH = "97c52109be46feb79a594d730c9f14b90e96f0666f8c2d44189420746ccf175534c71aacb91e644d83226ff3b698c124e141a78998fd3e18b5ce86077dc60435"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Carton) \
-perl(Carton::Builder) \
-perl(Carton::CLI) \
-perl(Carton::CPANfile) \
-perl(Carton::Dependency) \
-perl(Carton::Dist) \
-perl(Carton::Dist::Core) \
-perl(Carton::Environment) \
-perl(Carton::Error) \
-perl(Carton::Error::CPANfileNotFound) \
-perl(Carton::Error::CommandExit) \
-perl(Carton::Error::CommandNotFound) \
-perl(Carton::Error::SnapshotNotFound) \
-perl(Carton::Error::SnapshotParseError) \
-perl(Carton::Index) \
-perl(Carton::Mirror) \
-perl(Carton::Package) \
-perl(Carton::Packer) \
-perl(Carton::Snapshot) \
-perl(Carton::Snapshot::Emitter) \
-perl(Carton::Snapshot::Parser) \
-perl(Carton::Tree) \
-perl(Carton::Util) \
-perl-Carton"
+RPROVIDES:${PN} += "perl-Carton \
+perl-Carton--Builder \
+perl-Carton--CLI \
+perl-Carton--CPANfile \
+perl-Carton--Dependency \
+perl-Carton--Dist \
+perl-Carton--Dist--Core \
+perl-Carton--Environment \
+perl-Carton--Error \
+perl-Carton--Error--CPANfileNotFound \
+perl-Carton--Error--CommandExit \
+perl-Carton--Error--CommandNotFound \
+perl-Carton--Error--SnapshotNotFound \
+perl-Carton--Error--SnapshotParseError \
+perl-Carton--Index \
+perl-Carton--Mirror \
+perl-Carton--Package \
+perl-Carton--Packer \
+perl-Carton--Snapshot \
+perl-Carton--Snapshot--Emitter \
+perl-Carton--Snapshot--Parser \
+perl-Carton--Tree \
+perl-Carton--Util"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(CPAN::Meta) \
-perl(CPAN::Meta::Requirements) \
-perl(Class::Tiny) \
-perl(Getopt::Long) \
-perl(JSON::PP) \
-perl(Menlo::CLI::Compat) \
-perl(Module::CPANfile) \
-perl(Module::CoreList) \
-perl(Path::Tiny) \
-perl(Try::Tiny) \
-perl(parent)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-CPAN--Meta \
+perl-CPAN--Meta--Requirements \
+perl-Class--Tiny \
+perl-Getopt--Long \
+perl-JSON--PP \
+perl-Menlo--CLI--Compat \
+perl-Module--CPANfile \
+perl-Module--CoreList \
+perl-Path--Tiny \
+perl-Try--Tiny \
+perl-parent"
 
 inherit rpm

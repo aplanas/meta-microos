@@ -9,18 +9,17 @@ PV = "8.0.1"
 RPM_NAME = "libmgl-glut8-8.0.1-3.3.aarch64.rpm"
 RPM_HASH = "03208d8b1d2ac9bfe850064cbbe2700978e4ac51965b82f84665ea3e4a16b9aa1e449b2e5d11cc5f361cf446462ca88946fef4cce0f423a74cf526e5f5537598"
 
-RPROVIDES:${PN} += "libmgl-glut.so.8()(64bit) \
-libmgl-glut8 \
-libmgl-glut8(aarch-64)"
+RPROVIDES:${PN} += "libmgl-glut.so.8 \
+libmgl-glut8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglut.so.3()(64bit) \
-libm.so.6()(64bit) \
-libmgl.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglut.so.3 \
+libm.so.6 \
+libmgl.so.8 \
+libstdc++.so.6"
 
 inherit rpm

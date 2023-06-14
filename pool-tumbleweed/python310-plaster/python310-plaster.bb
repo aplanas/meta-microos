@@ -15,10 +15,10 @@ RPM_HASH = "d764ec12db603a75d71a6d3f7dfd2c285f37ddcfcc06b4d3089a6a66d5aacec4f4b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-plaster \
-python3.10dist(plaster) \
+python3.10dist-plaster \
 python310-plaster \
-python3dist(plaster)"
+python3dist-plaster"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

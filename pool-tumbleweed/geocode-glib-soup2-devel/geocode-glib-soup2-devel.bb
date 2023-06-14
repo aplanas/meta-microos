@@ -16,12 +16,11 @@ RPM_NAME = "geocode-glib-soup2-devel-3.26.4-1.4.aarch64.rpm"
 RPM_HASH = "23252e820950b39fcb5644911e44f163c60e77a3dacd949ee9c37f51afb897b4fceabeff217e33fac17651554883020ac57862d96b0eb24d7774c9806f419bfb"
 
 RPROVIDES:${PN} += "geocode-glib-soup2-devel \
-geocode-glib-soup2-devel(aarch-64) \
-pkgconfig(geocode-glib-1.0)"
+pkgconfig-geocode-glib-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgeocode-glib0 \
-pkgconfig(gio-2.0) \
-typelib-1_0-GeocodeGlib-1_0"
+pkgconfig-gio-2.0 \
+typelib-1-0-GeocodeGlib-1-0"
 
 inherit rpm

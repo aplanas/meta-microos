@@ -11,13 +11,13 @@ RPM_HASH = "5b434be2ee8af64d415dbfcff1b461bfe8cae4eb675ae193a2580374b007033e27e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-jackson \
-mvn(org.json4s:json4s-jackson_2.10) \
-mvn(org.json4s:json4s-jackson_2.10:pom:)"
+mvn-org.json4s-json4s-jackson-2.10 \
+mvn-org.json4s-json4s-jackson-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(org.json4s:json4s-core_2.10) \
-mvn(org.scala-lang:scala-library)"
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-org.json4s-json4s-core-2.10 \
+mvn-org.scala-lang-scala-library"
 
 inherit rpm

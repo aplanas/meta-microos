@@ -9,7 +9,7 @@ RPM_HASH = "c3cae30ebecead5f68ee5a1ab8defcd16d075015d7d4fbf48104fb0c558fd780ea4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \
-locale(texlive-mcmthesis-doc:zh \
+locale(texlive-mcmthesis-doc-zh \
 texlive-mcmthesis-doc"
 
 RDEPENDS:${PN} += ""

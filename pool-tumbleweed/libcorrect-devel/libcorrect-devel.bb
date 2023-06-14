@@ -14,10 +14,9 @@ RPM_NAME = "libcorrect-devel-0.0.0+git.20180109-3.8.aarch64.rpm"
 RPM_HASH = "ebfbfadecee2f803b8174579832f1feb0a012cc9976312371649a1592f9d382253b406157e920573e7d0c99173bacdc25e7591245d63109c4642aa48b105659b"
 
 RPROVIDES:${PN} += "libcorrect-devel \
-libcorrect-devel(aarch-64) \
-pkgconfig(libcorrect)"
+pkgconfig-libcorrect"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcorrect0_0_0"
+libcorrect0-0-0"
 
 inherit rpm

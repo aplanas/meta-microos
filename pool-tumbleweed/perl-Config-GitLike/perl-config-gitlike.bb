@@ -41,13 +41,13 @@ RPM_NAME = "perl-Config-GitLike-1.18-1.13.noarch.rpm"
 RPM_HASH = "6cabbbd44d8b52ac05f09798109908c557a63752fa360a8f4507da1e6e89a0b7d34f30f21150868ad860544f8b6278b6f423974a0fb3072cecb30124714d2ea2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Config::GitLike) \
-perl(Config::GitLike::Cascaded) \
-perl(Config::GitLike::Git) \
+RPROVIDES:${PN} += "perl-Config--GitLike \
+perl-Config--GitLike--Cascaded \
+perl-Config--GitLike--Git \
 perl-Config-GitLike"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Moo) \
-perl(MooX::Types::MooseLike)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Moo \
+perl-MooX--Types--MooseLike"
 
 inherit rpm

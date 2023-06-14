@@ -10,15 +10,14 @@ RPM_NAME = "openal-soft-makemhr-1.22.2-1.4.aarch64.rpm"
 RPM_HASH = "6c8f558e75be0719151ca1070991c01a583c83a1cc430789ee57cf8ed8ca746073c7351218a868879e7b8b6db034c311a6ccd5499d154a777ed21b4e661cd2e2"
 
 RPROVIDES:${PN} += "makehrtf \
-openal-soft-devel:/usr/bin/makehrtf \
-openal-soft-makemhr \
-openal-soft-makemhr(aarch-64)"
+openal-soft-devel-/usr/bin/makehrtf \
+openal-soft-makemhr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmysofa.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libmysofa.so.1 \
+libstdc++.so.6"
 
 inherit rpm

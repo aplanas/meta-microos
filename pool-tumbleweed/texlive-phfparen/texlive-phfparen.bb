@@ -12,7 +12,7 @@ RPM_NAME = "texlive-phfparen-2023.201.1.0svn41859-51.1.noarch.rpm"
 RPM_HASH = "50c8561e87269170c035910252ca669ed39cc95fab607cc7b7d41907cdfaa09d8c35606aa6a9ea88491fab64a6215e919f7459fb6f03a4de2da3918a91dd9f70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(phfparen.sty) \
+RPROVIDES:${PN} += "tex-phfparen.sty \
 texlive-phfparen"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,12 +21,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(etoolbox.sty) \
-tex(kvoptions.sty) \
-tex(mathtools.sty) \
-tex(xparse.sty) \
-tex(xstring.sty) \
+tex-amsmath.sty \
+tex-etoolbox.sty \
+tex-kvoptions.sty \
+tex-mathtools.sty \
+tex-xparse.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

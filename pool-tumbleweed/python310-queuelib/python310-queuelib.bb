@@ -12,11 +12,11 @@ RPM_HASH = "2023fc8a40dba6a78166360514a684e0f368afcf3b5cc4005dc0e272de9850360aee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-queuelib \
-python3.10dist(queuelib) \
+python3.10dist-queuelib \
 python310-queuelib \
-python3dist(queuelib)"
+python3dist-queuelib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310"
 
 inherit rpm

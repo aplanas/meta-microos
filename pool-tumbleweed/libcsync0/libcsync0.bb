@@ -9,14 +9,13 @@ PV = "0.50.0"
 RPM_NAME = "libcsync0-0.50.0-11.9.aarch64.rpm"
 RPM_HASH = "f4553482a87b7f041eb00d7670ec1860c677b9c3b8ca76f927ceaa125d86490b0ca3b1df133a4df20a31cc8e8eb55152be7e97d8b4d55fbb7d964f362178e1aa"
 
-RPROVIDES:${PN} += "config(libcsync0) \
-libcsync.so.0()(64bit) \
-libcsync0 \
-libcsync0(aarch-64)"
+RPROVIDES:${PN} += "config-libcsync0 \
+libcsync.so.0 \
+libcsync0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsqlite3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsqlite3.so.0"
 
 inherit rpm

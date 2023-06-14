@@ -10,7 +10,7 @@ RPM_NAME = "texlive-eiad-ltx-2023.201.1.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "b8e425f8029d875dd40a6a9fa805d169a655c682dafab0d34fb386e0a1ff28668971d68fb896b613322ed9d02e489997f5157371fa8aeb8bc087bb18b90e6be5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(eiad.sty) \
+RPROVIDES:${PN} += "tex-eiad.sty \
 texlive-eiad-ltx"
 
 RDEPENDS:${PN} += "/bin/sh \

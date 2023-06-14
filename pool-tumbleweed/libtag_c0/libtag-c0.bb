@@ -10,15 +10,14 @@ PV = "1.13"
 RPM_NAME = "libtag_c0-1.13-1.3.aarch64.rpm"
 RPM_HASH = "f2e36284a6dd18b5439d50bd88bb46f33bb068d3c61de68c9c4aa2903183c8f0bdb2cf7eab104691aa2756401def2437d02c9ebfbecc086048c02d27c3ae6385"
 
-RPROVIDES:${PN} += "libtag_c.so.0()(64bit) \
-libtag_c0 \
-libtag_c0(aarch-64)"
+RPROVIDES:${PN} += "libtag-c.so.0 \
+libtag-c0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libtag.so.1"
 
 inherit rpm

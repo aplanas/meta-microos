@@ -9,11 +9,11 @@ RPM_HASH = "143955e84c0fbba2489b510fbbb1267cf11f369968de82a6e143c2099096eb8f835f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-selection \
-python3.10dist(selection) \
+python3.10dist-selection \
 python310-selection \
-python3dist(selection)"
+python3dist-selection"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-six \
 python310-weblib"

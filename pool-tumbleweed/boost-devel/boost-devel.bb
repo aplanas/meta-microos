@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-devel"
 
-RDEPENDS:${PN} += "libboost_headers1_82_0-devel"
+RDEPENDS:${PN} += "libboost-headers1-82-0-devel"
 
 inherit rpm

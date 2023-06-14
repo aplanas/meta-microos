@@ -9,11 +9,11 @@ RPM_HASH = "91ced466d1f0b22e6e9394634d64cd9f4c62172f10b657a27b19696b96fddac44386
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-import-export \
-python3.10dist(django-import-export) \
+python3.10dist-django-import-export \
 python310-django-import-export \
-python3dist(django-import-export)"
+python3dist-django-import-export"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-diff-match-patch \
 python310-tablib"

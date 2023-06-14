@@ -10,20 +10,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kamerka-lang \
 kamerka-lang-all \
-locale(kamerka:cs) \
-locale(kamerka:de) \
-locale(kamerka:es) \
-locale(kamerka:nl) \
-locale(kamerka:pl) \
-locale(kamerka:pt) \
-locale(kamerka:ru) \
-locale(kamerka:sr) \
-locale(kamerka:sr@ijekavian) \
-locale(kamerka:sr@ijekavianlatin) \
-locale(kamerka:sr@latin) \
-locale(kamerka:uk) \
-locale(kamerka:zh_CN) \
-locale(kamerka:zh_TW)"
+locale-kamerka-cs \
+locale-kamerka-de \
+locale-kamerka-es \
+locale-kamerka-nl \
+locale-kamerka-pl \
+locale-kamerka-pt \
+locale-kamerka-ru \
+locale-kamerka-sr \
+locale-kamerka-sr@ijekavian \
+locale-kamerka-sr@ijekavianlatin \
+locale-kamerka-sr@latin \
+locale-kamerka-uk \
+locale-kamerka-zh-CN \
+locale-kamerka-zh-TW"
 
 RDEPENDS:${PN} += "kamerka"
 

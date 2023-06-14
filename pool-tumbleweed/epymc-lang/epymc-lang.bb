@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epymc-lang \
 epymc-lang-all \
-locale(epymc:de) \
-locale(epymc:fi) \
-locale(epymc:it) \
-locale(epymc:ru)"
+locale-epymc-de \
+locale-epymc-fi \
+locale-epymc-it \
+locale-epymc-ru"
 
 RDEPENDS:${PN} += "epymc"
 

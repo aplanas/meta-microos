@@ -8,11 +8,11 @@ RPM_NAME = "python39-rt-3.0.4-1.4.noarch.rpm"
 RPM_HASH = "d321f591d74723f5a1d42bed1a2b8c6f32e286d880788114e663b04977c378c095137d52c21010f5566b3439683446d16d1a191af0b9909b4de1e7ee6064a553"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(rt) \
+RPROVIDES:${PN} += "python3.9dist-rt \
 python39-rt \
-python3dist(rt)"
+python3dist-rt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-requests \
 python39-six"
 

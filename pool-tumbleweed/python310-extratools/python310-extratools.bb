@@ -11,13 +11,13 @@ RPM_HASH = "fe97c6ec3d077a62f17570bcdd470d6d8c5ae346fc18f2adfa92d2fd977371ee5ce7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-extratools \
-python3.10dist(extratools) \
+python3.10dist-extratools \
 python310-extratools \
-python3dist(extratools)"
+python3dist-extratools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-RegexOrder \
 python310-TagStats \
 python310-sh \

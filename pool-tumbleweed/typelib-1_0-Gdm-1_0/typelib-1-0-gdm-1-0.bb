@@ -11,13 +11,12 @@ PV = "44.1"
 RPM_NAME = "typelib-1_0-Gdm-1_0-44.1-1.1.aarch64.rpm"
 RPM_HASH = "3f43b35ba32c5c1ac31b78a04e43482d2a90b97aa5435b514fc9f61037b77f4258799ba2f43f6130b8e4774439ce3ff1b4c4d740c2ce97b385982f61d07a43a5"
 
-RPROVIDES:${PN} += "typelib(Gdm) \
-typelib-1_0-Gdm-1_0 \
-typelib-1_0-Gdm-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Gdm-1-0 \
+typelib-Gdm"
 
-RDEPENDS:${PN} += "libgdm.so.1()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libgdm.so.1 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

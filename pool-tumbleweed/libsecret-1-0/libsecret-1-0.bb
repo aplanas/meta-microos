@@ -10,15 +10,14 @@ RPM_HASH = "b89a45eaa371f5037d95493c5404a107ce136cffbd9989b62a3de082f7c0f21add2c
 
 RPROVIDES:${PN} += "libsecret \
 libsecret-1-0 \
-libsecret-1-0(aarch-64) \
-libsecret-1.so.0()(64bit)"
+libsecret-1.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

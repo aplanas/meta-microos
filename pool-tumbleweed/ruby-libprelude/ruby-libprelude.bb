@@ -7,17 +7,16 @@ PV = "5.2.0"
 RPM_NAME = "ruby-libprelude-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "0e6dca1b06a4509d104c0b7cd6bcc8d890eaab2ca1a909e66f35ba9ff019c2a6c6db205b5cf9a990645715043e8622e7eff82bab58061e14ace728dfcbf882a0"
 
-RPROVIDES:${PN} += "ruby-libprelude \
-ruby-libprelude(aarch-64)"
+RPROVIDES:${PN} += "ruby-libprelude"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprelude.so.28()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprelude.so.28 \
 libprelude28 \
-libpreludecpp.so.12()(64bit) \
-libruby3.2.so.3.2()(64bit) \
-libstdc++.so.6()(64bit) \
+libpreludecpp.so.12 \
+libruby3.2.so.3.2 \
+libstdc++.so.6 \
 ruby"
 
 inherit rpm

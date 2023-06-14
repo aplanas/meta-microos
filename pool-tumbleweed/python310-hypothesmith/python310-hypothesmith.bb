@@ -9,11 +9,11 @@ RPM_HASH = "4dee5af3c9ab965d48a96db04eb4df84bc8128fb67870bbbc5350f5c085931db2f68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hypothesmith \
-python3.10dist(hypothesmith) \
+python3.10dist-hypothesmith \
 python310-hypothesmith \
-python3dist(hypothesmith)"
+python3dist-hypothesmith"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-base \
 python310-hypothesis \
 python310-lark \

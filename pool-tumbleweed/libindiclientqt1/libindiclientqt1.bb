@@ -12,21 +12,18 @@ PV = "1.9.9"
 RPM_NAME = "libindiclientqt1-1.9.9-2.2.aarch64.rpm"
 RPM_HASH = "697d990b52bb5531c1a9b4383cad9f8e9a44465b5043985dd6dd244c17fc6857ebcd7f839ae7a5fd9e57fde3708db0654c4cd848861d83540330ba0f1daa1003"
 
-RPROVIDES:${PN} += "libindiclientqt.so.1()(64bit) \
-libindiclientqt1 \
-libindiclientqt1(aarch-64)"
+RPROVIDES:${PN} += "libindiclientqt.so.1 \
+libindiclientqt1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libnova-0.15.so.0 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

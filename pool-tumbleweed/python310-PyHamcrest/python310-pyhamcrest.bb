@@ -12,11 +12,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyHamcrest \
 python3-hamcrest \
-python3.10dist(pyhamcrest) \
+python3.10dist-pyhamcrest \
 python310-PyHamcrest \
 python310-hamcrest \
-python3dist(pyhamcrest)"
+python3dist-pyhamcrest"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

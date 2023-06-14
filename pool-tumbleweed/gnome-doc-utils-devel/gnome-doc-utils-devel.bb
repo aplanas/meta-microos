@@ -12,11 +12,11 @@ RPM_HASH = "4882b411cca048156f72ae874e14de68ec1b4b56c7ad8f862efecf31adf77ba46727
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-doc-utils-devel \
-pkgconfig(gnome-doc-utils)"
+pkgconfig-gnome-doc-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
-docbook_4 \
+docbook-4 \
 gnome-doc-utils \
 xml2po-devel"
 

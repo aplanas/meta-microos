@@ -12,11 +12,11 @@ RPM_HASH = "eb582ce979bbdb9bc48812f1553dba05aec94157e3c38d719718b961a28b1ddbc881
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-remoto \
-python3.10dist(remoto) \
+python3.10dist-remoto \
 python310-remoto \
-python3dist(remoto)"
+python3dist-remoto"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-execnet"
 
 inherit rpm

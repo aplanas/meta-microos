@@ -11,12 +11,12 @@ RPM_HASH = "ef48c2f50671a7c5ce2df4494de7d0ab8c09e9616517e5430d5953567980232b97d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-osgi \
-mvn(org.apache.maven.shared:maven-osgi) \
-mvn(org.apache.maven.shared:maven-osgi:pom:)"
+mvn-org.apache.maven.shared-maven-osgi \
+mvn-org.apache.maven.shared-maven-osgi-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(biz.aQute:bndlib) \
-mvn(org.apache.maven:maven-project)"
+mvn-biz.aQute-bndlib \
+mvn-org.apache.maven-maven-project"
 
 inherit rpm

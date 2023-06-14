@@ -13,7 +13,7 @@ RPM_NAME = "texlive-pdfmsym-2023.201.1.1.0svn65324-51.1.noarch.rpm"
 RPM_HASH = "f5389e2acc50e1e63edd5169576752852981ddfc4f4d79a75e701af2d9a030ce5caa16a3dd04e3bc2f95aef2c190c6ee15c33b57c3747118d08722795a040d5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfmsym.tex) \
+RPROVIDES:${PN} += "tex-pdfmsym.tex \
 texlive-pdfmsym"
 
 RDEPENDS:${PN} += "/bin/sh \

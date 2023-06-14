@@ -17,24 +17,22 @@ RPM_NAME = "telepathy-sipe-1.25.0-2.10.aarch64.rpm"
 RPM_HASH = "3525bc604c65e70fdf6ad29fc5e88200ff1e3d877d302d203929be8834255e7444b92faa8f63e9c8a989220f1ff86546c34819df8416b552a73e0c01aaceca54"
 
 RPROVIDES:${PN} += "telepathy-plugin-sipe \
-telepathy-sipe \
-telepathy-sipe(aarch-64)"
+telepathy-sipe"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libfreerdp-shadow-subsystem2.so.2()(64bit) \
-libfreerdp-shadow2.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmime-3.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libsmime3.so()(64bit) \
-libtelepathy-glib.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-glib-1.so.2 \
+libfreerdp-shadow-subsystem2.so.2 \
+libfreerdp-shadow2.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmime-3.0.so.0 \
+libgobject-2.0.so.0 \
+libgssapi-krb5.so.2 \
+libnspr4.so \
+libnss3.so \
+libsmime3.so \
+libtelepathy-glib.so.0 \
+libxml2.so.2"
 
 inherit rpm

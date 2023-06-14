@@ -14,8 +14,6 @@ RPM_NAME = "php8-8.1.19-2.2.aarch64.rpm"
 RPM_HASH = "667032e6a40c8b6bbffb6dc3857fb7e30af14948c0835b8500675ccc71f5c0553b38ce6f51cfe8cc93afb39a41ce003dc3bebaa6a2323eb87fa9dd694eb7026b"
 
 RPROVIDES:${PN} += "php \
-php(api) \
-php(zend-abi) \
 php-api \
 php-date \
 php-filter \
@@ -29,7 +27,6 @@ php-spl \
 php-xml \
 php-zend-abi \
 php8 \
-php8(aarch-64) \
 zend"
 
 RDEPENDS:${PN} += "php-sapi \

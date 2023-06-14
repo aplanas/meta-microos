@@ -9,13 +9,13 @@ RPM_HASH = "dcbf1bec17271f44f47e19ad06fae287bd5957fedfdc4de50548accf1ca70bcb9636
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rethinkdb \
-python3.10dist(rethinkdb) \
+python3.10dist-rethinkdb \
 python310-rethinkdb \
-python3dist(rethinkdb)"
+python3dist-rethinkdb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-six \
 update-alternatives"
 

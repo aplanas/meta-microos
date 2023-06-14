@@ -11,7 +11,7 @@ RPM_NAME = "texlive-lilyglyphs-2023.201.0.0.2.4svn56473-54.1.noarch.rpm"
 RPM_HASH = "9d04a56229ed5b05790478e46a44cb6b67e9d180e59673e02d6b5ec4c55b83438326185bf4ace6adc89fc86b9e2f2b15873c91115a498896500c51a6d5151887"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lilyglyphs.sty) \
+RPROVIDES:${PN} += "tex-lilyglyphs.sty \
 texlive-lilyglyphs"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(adjustbox.sty) \
-tex(keyval.sty) \
-tex(pgf.sty) \
+tex-adjustbox.sty \
+tex-keyval.sty \
+tex-pgf.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

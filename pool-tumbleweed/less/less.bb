@@ -10,15 +10,14 @@ PV = "633"
 RPM_NAME = "less-633-2.1.aarch64.rpm"
 RPM_HASH = "b92417b164794113efa12ed7b49a3c817e9b83b87880a8b3614a00e4a75a8ffec2a117ef7e2a8fbd4f80f954cf968fa20aba2f4cf6e09e32929cad016b3416eb"
 
-RPROVIDES:${PN} += "less \
-less(aarch-64)"
+RPROVIDES:${PN} += "less"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/which \
 file \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6"
 
 inherit rpm

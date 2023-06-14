@@ -19,15 +19,14 @@ RPM_NAME = "python312-3.12.0b1-1.1.aarch64.rpm"
 RPM_HASH = "1f47faa03011981af239341c3b73e2902d94d9d7655c595f90bb5ade4d6ff76fec47a6ffac8882e58695259779eef3841508b859dc1ef61c0d8a52ba397eae26"
 
 RPROVIDES:${PN} += "python312 \
-python312(aarch-64) \
 python312-readline \
 python312-sqlite3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libsqlite3.so.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8 \
+libsqlite3.so.0 \
+python-abi \
 python312-base"
 
 inherit rpm

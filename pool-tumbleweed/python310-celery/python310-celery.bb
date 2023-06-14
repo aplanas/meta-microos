@@ -11,13 +11,13 @@ RPM_HASH = "15a7a7eac0b3817b0d458666f3926d68d82c0788fcabf56a668b94e4e6af3c4e0bb8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-celery \
-python3.10dist(celery) \
+python3.10dist-celery \
 python310-celery \
-python3dist(celery)"
+python3dist-celery"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-billiard \
 python310-click \
 python310-click-didyoumean \

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-biblatex-subseries-2023.201.1.2.0svn43330-53.1.noarch.rpm"
 RPM_HASH = "2494b78a62d1b75f338c8198a45a7874f0dcfdd1e751ccd7996fbd2c9ffe1f40d5fd2ef36505bdd4cf38ae3b7bd621b2687ceddbef77a7cceb285e64601f65c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(subseries.bbx) \
+RPROVIDES:${PN} += "tex-subseries.bbx \
 texlive-biblatex-subseries"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xpatch.sty) \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

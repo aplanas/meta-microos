@@ -24,9 +24,9 @@ RPM_NAME = "perl-Module-Runtime-0.016-1.19.noarch.rpm"
 RPM_HASH = "0b5619c7362709800c82241dea118b0099335501437454e31ade96ad760f2d2a8261c03aa928340f712320c0caebf1ea9aaed1249ba20e86f5b629ae2f6a417c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Runtime) \
+RPROVIDES:${PN} += "perl-Module--Runtime \
 perl-Module-Runtime"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

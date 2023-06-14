@@ -8,10 +8,10 @@ RPM_NAME = "myspell-sr_Latn_CS-20221012-1.2.noarch.rpm"
 RPM_HASH = "44bea390ac3910a1158f764d5d2aee66bacbee7c76e52cc077c5375eef67bdf0c85bbb13537d6f5bb6d3a520e9e7746d2247582f024f75f501695722b0edd606"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:sr_Latn_CS) \
-locale(seamonkey-spellchecker:sr_Latn_CS) \
+RPROVIDES:${PN} += "locale-libreoffice-sr-Latn-CS \
+locale-seamonkey-spellchecker-sr-Latn-CS \
 myspell-dictionary \
-myspell-sr_Latn_CS"
+myspell-sr-Latn-CS"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-sr"

@@ -9,11 +9,11 @@ RPM_NAME = "geronimo-qname-1_1-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "3b7191915d87f6cc25222f128f05edfbc3f500ba0732e67ce0393d2e1c360993f5b895118d277e239130fcd83ca4088e9707541d4d0c53b402d227772e41c366"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "geronimo-qname-1_1-api \
-mvn(org.apache.geronimo.specs:geronimo-qname_1.1_spec) \
-mvn(org.apache.geronimo.specs:geronimo-qname_1.1_spec:pom:) \
-qname_1_1_api \
-qname_api"
+RPROVIDES:${PN} += "geronimo-qname-1-1-api \
+mvn-org.apache.geronimo.specs-geronimo-qname-1.1-spec \
+mvn-org.apache.geronimo.specs-geronimo-qname-1.1-spec-pom- \
+qname-1-1-api \
+qname-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \

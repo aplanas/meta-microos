@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rtslib \
 python3-rtslib-fb \
-python3.10dist(rtslib-fb) \
+python3.10dist-rtslib-fb \
 python310-rtslib \
 python310-rtslib-fb \
-python3dist(rtslib-fb)"
+python3dist-rtslib-fb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python-rtslib-fb-common \
 python310-pyudev"
 

@@ -9,15 +9,14 @@ PV = "4.99.11"
 RPM_NAME = "nfswatch-4.99.11-2.16.aarch64.rpm"
 RPM_HASH = "eb0e4ff769e2c52da9a130f5e4af06232f27bb5a077d4e807a2a4122977c4c9464fb213692d44e4dff48b0ee7a58e9943e1736c97f4dd59764e2097e2674a62f"
 
-RPROVIDES:${PN} += "nfswatch \
-nfswatch(aarch-64)"
+RPROVIDES:${PN} += "nfswatch"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libpcap.so.1()(64bit) \
-libtinfo.so.6()(64bit) \
-libtirpc.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncurses.so.6 \
+libpcap.so.1 \
+libtinfo.so.6 \
+libtirpc.so.3"
 
 inherit rpm

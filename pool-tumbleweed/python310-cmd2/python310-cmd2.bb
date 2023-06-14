@@ -25,11 +25,11 @@ RPM_HASH = "f7ca763fe006954c04cd8951c0d9d77e5524a71c1178ff7006a7e5e62687fe90103a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cmd2 \
-python3.10dist(cmd2) \
+python3.10dist-cmd2 \
 python310-cmd2 \
-python3dist(cmd2)"
+python3dist-cmd2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310 \
 python310-attrs \
 python310-pyperclip \

@@ -22,18 +22,17 @@ RPM_NAME = "libevent-2_1-7-2.1.12-3.4.aarch64.rpm"
 RPM_HASH = "df96f6ad963569961ce47f9efa7cb69b85d9b734a1b9758cf0ebcbda21180fedbad6a07f29d733e24b3793ebc97dbb714f3ae0b6580921f3464b658f4d3a6b43"
 
 RPROVIDES:${PN} += "libevent \
-libevent-2.1.so.7()(64bit) \
-libevent-2_1-7 \
-libevent-2_1-7(aarch-64) \
-libevent_core-2.1.so.7()(64bit) \
-libevent_extra-2.1.so.7()(64bit) \
-libevent_openssl-2.1.so.7()(64bit) \
-libevent_pthreads-2.1.so.7()(64bit)"
+libevent-2-1-7 \
+libevent-2.1.so.7 \
+libevent-core-2.1.so.7 \
+libevent-extra-2.1.so.7 \
+libevent-openssl-2.1.so.7 \
+libevent-pthreads-2.1.so.7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

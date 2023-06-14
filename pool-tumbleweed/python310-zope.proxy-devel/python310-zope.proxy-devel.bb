@@ -10,8 +10,7 @@ RPM_HASH = "3cefa1095ad2461d8eb0fce048599673f975234a06f43de669c488bfc1e3db325092
 RPROVIDES:${PN} += "python3-zope-proxy \
 python3-zope.proxy-devel \
 python310-zope-proxy \
-python310-zope.proxy-devel \
-python310-zope.proxy-devel(aarch-64)"
+python310-zope.proxy-devel"
 
 RDEPENDS:${PN} += "python310-zope.proxy"
 

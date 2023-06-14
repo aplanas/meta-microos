@@ -9,12 +9,10 @@ RPM_HASH = "6690e6348bdce2ac41b1073838c8886900d9781a60e824895d2372b4bbf68811eeaf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-async-timeout \
-python3-async_timeout \
-python3.10dist(async-timeout) \
+python3.10dist-async-timeout \
 python310-async-timeout \
-python310-async_timeout \
-python3dist(async-timeout)"
+python3dist-async-timeout"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

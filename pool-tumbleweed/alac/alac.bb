@@ -13,13 +13,12 @@ PV = "0.0+git.20160511"
 RPM_NAME = "alac-0.0+git.20160511-3.13.aarch64.rpm"
 RPM_HASH = "0f1f0bfd734cee2dcca52932b892fd12b8020cf7812b6cfdfefcc5ddee7675c05ee4446c1fb7bc45c87b6a8f59aa03c367efd8c8dd1251af80608599a2abedb8"
 
-RPROVIDES:${PN} += "alac \
-alac(aarch-64)"
+RPROVIDES:${PN} += "alac"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libalac.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libalac.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

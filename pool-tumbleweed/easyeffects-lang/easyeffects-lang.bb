@@ -10,34 +10,34 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easyeffects-lang \
 easyeffects-lang-all \
-locale(easyeffects:af) \
-locale(easyeffects:bg) \
-locale(easyeffects:cs) \
-locale(easyeffects:da) \
-locale(easyeffects:de) \
-locale(easyeffects:es) \
-locale(easyeffects:es_CO) \
-locale(easyeffects:es_MX) \
-locale(easyeffects:es_VE) \
-locale(easyeffects:fr_FR) \
-locale(easyeffects:gl) \
-locale(easyeffects:hr) \
-locale(easyeffects:it_IT) \
-locale(easyeffects:ja) \
-locale(easyeffects:ka) \
-locale(easyeffects:km) \
-locale(easyeffects:ko) \
-locale(easyeffects:nb_NO) \
-locale(easyeffects:nl) \
-locale(easyeffects:pl) \
-locale(easyeffects:pt_BR) \
-locale(easyeffects:ro) \
-locale(easyeffects:ru) \
-locale(easyeffects:sk) \
-locale(easyeffects:sv) \
-locale(easyeffects:th) \
-locale(easyeffects:tr) \
-locale(easyeffects:zh_CN)"
+locale-easyeffects-af \
+locale-easyeffects-bg \
+locale-easyeffects-cs \
+locale-easyeffects-da \
+locale-easyeffects-de \
+locale-easyeffects-es \
+locale-easyeffects-es-CO \
+locale-easyeffects-es-MX \
+locale-easyeffects-es-VE \
+locale-easyeffects-fr-FR \
+locale-easyeffects-gl \
+locale-easyeffects-hr \
+locale-easyeffects-it-IT \
+locale-easyeffects-ja \
+locale-easyeffects-ka \
+locale-easyeffects-km \
+locale-easyeffects-ko \
+locale-easyeffects-nb-NO \
+locale-easyeffects-nl \
+locale-easyeffects-pl \
+locale-easyeffects-pt-BR \
+locale-easyeffects-ro \
+locale-easyeffects-ru \
+locale-easyeffects-sk \
+locale-easyeffects-sv \
+locale-easyeffects-th \
+locale-easyeffects-tr \
+locale-easyeffects-zh-CN"
 
 RDEPENDS:${PN} += "easyeffects"
 

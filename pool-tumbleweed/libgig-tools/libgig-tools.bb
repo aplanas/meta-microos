@@ -13,16 +13,15 @@ RPM_NAME = "libgig-tools-4.3.0-1.9.aarch64.rpm"
 RPM_HASH = "07bb8eb655a9519383791a1e9a3b5f11231e6bf701d03d2a1e2a447b68baa065725ff4f7f86bc4d2d9284793ad4c4f6243f19774eecd9d99faa9dae5657bfb30"
 
 RPROVIDES:${PN} += "libgig-tools \
-libgig-tools(aarch-64) \
 libgig6-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libakai.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgig.so.10()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libakai.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgig.so.10 \
 libgig10 \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libsndfile.so.1 \
+libstdc++.so.6"
 
 inherit rpm

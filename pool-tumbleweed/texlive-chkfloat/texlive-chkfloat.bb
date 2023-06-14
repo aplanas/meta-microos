@@ -10,7 +10,7 @@ RPM_NAME = "texlive-chkfloat-2023.201.0.0.1svn27473-53.1.noarch.rpm"
 RPM_HASH = "43b835b68660c002b634537401df62e085b6da680a63b15cd1c2a8c2ff4eaa61a71386eda570a19c0c2745106bb5059a8658a9835c472c5d149924531987e091"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chkfloat.sty) \
+RPROVIDES:${PN} += "tex-chkfloat.sty \
 texlive-chkfloat"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

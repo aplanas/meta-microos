@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdispatch-devel"
 
-RDEPENDS:${PN} += "libdispatch1_3"
+RDEPENDS:${PN} += "libdispatch1-3"
 
 inherit rpm

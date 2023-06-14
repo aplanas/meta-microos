@@ -14,13 +14,13 @@ RPM_HASH = "4ad261040511fdd55ef7a5f47f3b6edab464567640175e6c363bd92fe93c4da61d01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-qt \
-python3.10dist(pytest-qt) \
+python3.10dist-pytest-qt \
 python310-pytest-qt \
-python3dist(pytest-qt)"
+python3dist-pytest-qt"
 
-RDEPENDS:${PN} += "(python310-qt5 or python310-PyQt6 or python3-pyside2 or python3-pyside6) \
+RDEPENDS:${PN} += "-python310-qt5 or python310-PyQt6 or python3-pyside2 or python3-pyside6 \
 bitstream-vera-fonts \
-python(abi) \
+python-abi \
 python310-pytest"
 
 inherit rpm

@@ -12,11 +12,10 @@ RPM_NAME = "libpcre16-0-8.45-2.6.aarch64.rpm"
 RPM_HASH = "ff0a47d6ab1ee1beb3ad5ab4081a4afd241c1be15b18964678a116e11843ec5f47b4d4aa8b3a27ed001f2e269d9a18321018894b7745669b983e3def55a60a56"
 
 RPROVIDES:${PN} += "libpcre16-0 \
-libpcre16-0(aarch-64) \
-libpcre16.so.0()(64bit)"
+libpcre16.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

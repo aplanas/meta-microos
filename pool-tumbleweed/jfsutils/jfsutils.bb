@@ -17,11 +17,10 @@ RPM_NAME = "jfsutils-1.1.15-20.5.aarch64.rpm"
 RPM_HASH = "0302c51635e622650c046740c09e1d80c47b8ac15a75bb526120e7e49eba5c26d328f58f2d7d373770cbb459da76fdb2b6db72b6d7b4df27f9bc6629fb1ed29c"
 
 RPROVIDES:${PN} += "jfsprogs \
-jfsutils \
-jfsutils(aarch-64)"
+jfsutils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libuuid.so.1"
 
 inherit rpm

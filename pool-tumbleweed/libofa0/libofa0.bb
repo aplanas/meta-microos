@@ -13,16 +13,15 @@ RPM_NAME = "libofa0-0.9.3-104.15.aarch64.rpm"
 RPM_HASH = "e8f7af6b85b5526c2355da100ac69d022f2f4a25013d001dcab3dd6e38018edb774e2e9222124cbb0adb686666af23dcc383ac3376c2ec8d5aecd00b3bab733e"
 
 RPROVIDES:${PN} += "libofa \
-libofa.so.0()(64bit) \
-libofa0 \
-libofa0(aarch-64)"
+libofa.so.0 \
+libofa0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

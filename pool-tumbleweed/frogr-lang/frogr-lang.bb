@@ -10,42 +10,42 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "frogr-lang \
 frogr-lang-all \
-locale(frogr:bs) \
-locale(frogr:ca) \
-locale(frogr:cs) \
-locale(frogr:da) \
-locale(frogr:de) \
-locale(frogr:el) \
-locale(frogr:en_GB) \
-locale(frogr:es) \
-locale(frogr:eu) \
-locale(frogr:fi) \
-locale(frogr:fr) \
-locale(frogr:fur) \
-locale(frogr:gl) \
-locale(frogr:hu) \
-locale(frogr:id) \
-locale(frogr:is) \
-locale(frogr:it) \
-locale(frogr:ja) \
-locale(frogr:lv) \
-locale(frogr:nb) \
-locale(frogr:nl) \
-locale(frogr:nn) \
-locale(frogr:oc) \
-locale(frogr:pl) \
-locale(frogr:pt) \
-locale(frogr:pt_BR) \
-locale(frogr:ro) \
-locale(frogr:ru) \
-locale(frogr:sl) \
-locale(frogr:sr) \
-locale(frogr:sr@latin) \
-locale(frogr:sv) \
-locale(frogr:te) \
-locale(frogr:tr) \
-locale(frogr:uk) \
-locale(frogr:zh_CN)"
+locale-frogr-bs \
+locale-frogr-ca \
+locale-frogr-cs \
+locale-frogr-da \
+locale-frogr-de \
+locale-frogr-el \
+locale-frogr-en-GB \
+locale-frogr-es \
+locale-frogr-eu \
+locale-frogr-fi \
+locale-frogr-fr \
+locale-frogr-fur \
+locale-frogr-gl \
+locale-frogr-hu \
+locale-frogr-id \
+locale-frogr-is \
+locale-frogr-it \
+locale-frogr-ja \
+locale-frogr-lv \
+locale-frogr-nb \
+locale-frogr-nl \
+locale-frogr-nn \
+locale-frogr-oc \
+locale-frogr-pl \
+locale-frogr-pt \
+locale-frogr-pt-BR \
+locale-frogr-ro \
+locale-frogr-ru \
+locale-frogr-sl \
+locale-frogr-sr \
+locale-frogr-sr@latin \
+locale-frogr-sv \
+locale-frogr-te \
+locale-frogr-tr \
+locale-frogr-uk \
+locale-frogr-zh-CN"
 
 RDEPENDS:${PN} += "frogr"
 

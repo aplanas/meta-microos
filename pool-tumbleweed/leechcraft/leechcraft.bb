@@ -18,55 +18,40 @@ PV = "0.6.70+git.14794.g33744ae6ce"
 RPM_NAME = "leechcraft-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
 RPM_HASH = "8757949ca0e63aa20ab8edcd5c7e1063528ffca4af23b642eac40aac85c41040fa1fe65d11151c10004c213f152e1e26b24edab68c22536bbe90a9babbf7dc5a"
 
-RPROVIDES:${PN} += "application() \
-application(leechcraft-qt5.desktop) \
-leechcraft \
-leechcraft(aarch-64) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-xsd-qt5.so.0.6.75.2()(64bit)"
+RPROVIDES:${PN} += "leechcraft \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-xsd-qt5.so.0.6.75.2"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Concurrent.so.5()(64bit) \
-libQt5Concurrent.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Script.so.5()(64bit) \
-libQt5Script.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-db-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-gui-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-network-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-qml-qt5.so.0.6.75.2()(64bit) \
-libleechcraft-util-shortcuts-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sll-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-sys-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-tags-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Concurrent.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5Script.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libQt5Xml.so.5 \
+libX11.so.6 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-db-qt5.so.0.6.75.1 \
+libleechcraft-util-gui-qt5.so.0.6.75.1 \
+libleechcraft-util-network-qt5.so.0.6.75.1 \
+libleechcraft-util-qml-qt5.so.0.6.75.2 \
+libleechcraft-util-shortcuts-qt5.so.0.6.75 \
+libleechcraft-util-sll-qt5.so.0.6.75.1 \
+libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-tags-qt5.so.0.6.75.1 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libstdc++.so.6 \
 oxygen-icon-theme \
-qt5qmlimport(QtQuick.2)"
+qt5qmlimport-QtQuick.2"
 
 inherit rpm

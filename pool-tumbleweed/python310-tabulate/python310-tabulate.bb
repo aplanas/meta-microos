@@ -19,13 +19,13 @@ RPM_HASH = "ebe9cb93a063fd212a5f2659b96e006c21ed46611d39f6ac3b7a45ca95b7183a736b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tabulate \
-python3.10dist(tabulate) \
+python3.10dist-tabulate \
 python310-tabulate \
-python3dist(tabulate)"
+python3dist-tabulate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

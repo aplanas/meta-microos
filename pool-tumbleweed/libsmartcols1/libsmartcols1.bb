@@ -7,12 +7,11 @@ PV = "2.38.1"
 RPM_NAME = "libsmartcols1-2.38.1-13.1.aarch64.rpm"
 RPM_HASH = "d747dcdea4ecb172262e25c89549c633c8697c2987a33c1ddf3e3d313c786eac0c0ddb8548bd154ca3bbcdbbcecc639eab3e610879f6336a5648e21de6c0c5e5"
 
-RPROVIDES:${PN} += "libsmartcols.so.1()(64bit) \
-libsmartcols1 \
-libsmartcols1(aarch-64)"
+RPROVIDES:${PN} += "libsmartcols.so.1 \
+libsmartcols1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

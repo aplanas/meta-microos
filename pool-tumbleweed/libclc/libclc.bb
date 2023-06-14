@@ -9,8 +9,8 @@ RPM_HASH = "138c83a2a491aea89eda7670129c80ac8801097fb24e3aaaca0d93bed604f19a0e7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libclc \
-libclc(llvm16) \
-pkgconfig(libclc)"
+libclc-llvm16 \
+pkgconfig-libclc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

@@ -10,9 +10,9 @@ RPM_HASH = "6bb13e74fae5e1d6ce664b311fb08ef4f561a01832e388aea0ef3f4984000381d4da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hicolor-icon-theme \
-rpm_macro(icon_theme_cache_create_ghost) \
-rpm_macro(icon_theme_cache_post) \
-rpm_macro(icon_theme_cache_postun)"
+rpm-macro-icon-theme-cache-create-ghost \
+rpm-macro-icon-theme-cache-post \
+rpm-macro-icon-theme-cache-postun"
 
 RDEPENDS:${PN} += ""
 

@@ -16,14 +16,14 @@ RPM_HASH = "b936a709539e1e47ea0763dd4644cc49772e613ad12c961bd96727952870e6a41bfe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-spyder-kernels \
-python3.10dist(spyder-kernels) \
+python3.10dist-spyder-kernels \
 python310-spyder-kernels \
-python3dist(spyder-kernels)"
+python3dist-spyder-kernels"
 
-RDEPENDS:${PN} += "(python310-ipykernel >= 6.16.1 with python310-ipykernel < 7) \
-(python310-ipython >= 7.31.1 with python310-ipython < 9) \
-(python310-jupyter_client >= 7.4.9 with python310-jupyter_client < 9) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-ipykernel >= 6.16.1 with python310-ipykernel < 7 \
+-python310-ipython >= 7.31.1 with python310-ipython < 9 \
+-python310-jupyter-client >= 7.4.9 with python310-jupyter-client < 9 \
+python-abi \
 python310-cloudpickle \
 python310-pyzmq \
 python310-wurlitzer"

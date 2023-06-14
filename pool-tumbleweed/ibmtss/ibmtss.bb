@@ -12,13 +12,12 @@ PV = "1.6.0"
 RPM_NAME = "ibmtss-1.6.0-4.4.aarch64.rpm"
 RPM_HASH = "bf92fdde4ae0adfd78192a0e36c7c453c5a3cfa7ad2612cbc8f8bd0ec1c9a44bf38debe09c3e50433d29438cb81b40af7a810f7b7c4755387f39a2ddcabead48"
 
-RPROVIDES:${PN} += "ibmtss \
-ibmtss(aarch-64)"
+RPROVIDES:${PN} += "ibmtss"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libibmtss.so.1()(64bit) \
-libibmtssutils.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libibmtss.so.1 \
+libibmtssutils.so.1"
 
 inherit rpm

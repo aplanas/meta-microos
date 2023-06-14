@@ -15,22 +15,19 @@ PV = "1.11"
 RPM_NAME = "blobAndConquer-1.11-2.23.aarch64.rpm"
 RPM_HASH = "2b52c7cba87c4bdc5d4ecd35394d3be3eb17c47259e473a2ed4fdbc0acaf1dee90236994d772bd01174580b0fca0aeaa96d601ba12da5ca105d88bffdf5074f6"
 
-RPROVIDES:${PN} += "application() \
-application(blobAndConquer.desktop) \
-blobAndConquer \
-blobAndConquer(aarch-64)"
+RPROVIDES:${PN} += "blobAndConquer"
 
-RDEPENDS:${PN} += "libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libSDL_ttf-2.0.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "libGL.so.1 \
+libGLU.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libSDL-ttf-2.0.so.0 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

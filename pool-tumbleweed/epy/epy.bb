@@ -23,11 +23,11 @@ RPM_HASH = "2e10c834aab1396691fc2f9d662ce0d3ba1e0f797cdbfa5d6139cc694f76c66e9def
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epy \
-python3.10dist(epy-reader) \
-python3dist(epy-reader)"
+python3.10dist-epy-reader \
+python3dist-epy-reader"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-curses \
 python3-mobi"
 

@@ -22,13 +22,13 @@ RPM_NAME = "perl-MooseX-ConfigFromFile-0.14-1.23.noarch.rpm"
 RPM_HASH = "eca49d47e054483958e7434a77b9e34d69ac10f139cf75de3853cbd8c6d8c05523c666f146c00e1ff6c94e516e593fcce66ec23fd6420bd9a7473bca844d72ee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::ConfigFromFile) \
+RPROVIDES:${PN} += "perl-MooseX--ConfigFromFile \
 perl-MooseX-ConfigFromFile"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Moose::Role) \
-perl(MooseX::Types::Moose) \
-perl(MooseX::Types::Path::Tiny) \
-perl(namespace::autoclean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Moose--Role \
+perl-MooseX--Types--Moose \
+perl-MooseX--Types--Path--Tiny \
+perl-namespace--autoclean"
 
 inherit rpm

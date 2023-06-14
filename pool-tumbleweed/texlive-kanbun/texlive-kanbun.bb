@@ -12,7 +12,7 @@ RPM_NAME = "texlive-kanbun-2023.201.1.2svn62026-55.1.noarch.rpm"
 RPM_HASH = "c916e7e6c73945dc1f794006d278e22a2cf60b86db4c00cfa739453fc55cc271d28a1a1c1eceb1c3df1c379a81268b585a0922b148b3fdc902dd0cdb320c8aac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(kanbun.sty) \
+RPROVIDES:${PN} += "tex-kanbun.sty \
 texlive-kanbun"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,10 +21,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(ifluatex.sty) \
-tex(l3keys2e.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-ifluatex.sty \
+tex-l3keys2e.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

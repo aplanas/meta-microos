@@ -11,12 +11,12 @@ RPM_NAME = "python311-PyX-0.15-2.11.noarch.rpm"
 RPM_HASH = "202d7ffe762b5e662f5055e15828c1ec5deebee6635b0e394ef90b6e4067a11d3f0f27a353de50e0adabe9b61344d770509aeb25f973406bcff9fd017fcd50bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyx) \
+RPROVIDES:${PN} += "python3.11dist-pyx \
 python311-PyX \
 python311-pyx \
-python3dist(pyx)"
+python3dist-pyx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 texlive-latex-bin-bin \
 texlive-tex-bin \
 texlive-texware-bin"

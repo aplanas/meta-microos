@@ -14,13 +14,13 @@ RPM_HASH = "c81cee403b5f22418383eb61925a630e5c6bbf799e8aa1141340cd728325529fcad8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nibabel \
-python3.10dist(nibabel) \
+python3.10dist-nibabel \
 python310-nibabel \
-python3dist(nibabel)"
+python3dist-nibabel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-numpy \
 update-alternatives"
 

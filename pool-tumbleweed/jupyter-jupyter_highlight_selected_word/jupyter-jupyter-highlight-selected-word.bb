@@ -12,9 +12,9 @@ RPM_NAME = "jupyter-jupyter_highlight_selected_word-0.2.0-8.5.noarch.rpm"
 RPM_HASH = "16c23529369ac4d1c1421204e3578c886589857c38d450a6c593f138628544d09bae50ed2708a0ee41fb7775062f20da68f6b95e87c5753e67c433c2bd6d5750"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter_highlight_selected_word"
+RPROVIDES:${PN} += "jupyter-jupyter-highlight-selected-word"
 
 RDEPENDS:${PN} += "jupyter-notebook \
-python3-jupyter_highlight_selected_word"
+python3-jupyter-highlight-selected-word"
 
 inherit rpm

@@ -7,89 +7,54 @@ PV = "6.5.0"
 RPM_NAME = "python311-PyQt6-6.5.0-1.2.aarch64.rpm"
 RPM_HASH = "0e3eff34076cb4c8ddd5697f9ec0e9e0e7699e1b7b0b356bdd21be9792795db1f390685da4661267e5c02d4d38dc8e2bc6dce165ba26e0173aec2cfba107e978"
 
-RPROVIDES:${PN} += "libpy3.11qt6qmlplugin.so()(64bit) \
-python3.11dist(pyqt6) \
+RPROVIDES:${PN} += "libpy3.11qt6qmlplugin.so \
+python3.11dist-pyqt6 \
 python311-PyQt6 \
-python311-PyQt6(aarch-64) \
 python311-qt6 \
-python3dist(pyqt6)"
+python3dist-pyqt6"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGLESv2.so.2()(64bit) \
-libQt6Bluetooth.so.6()(64bit) \
-libQt6Bluetooth.so.6(Qt_6)(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6DBus.so.6()(64bit) \
-libQt6DBus.so.6(Qt_6)(64bit) \
-libQt6Designer.so.6()(64bit) \
-libQt6Designer.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Help.so.6()(64bit) \
-libQt6Help.so.6(Qt_6)(64bit) \
-libQt6Multimedia.so.6()(64bit) \
-libQt6Multimedia.so.6(Qt_6)(64bit) \
-libQt6MultimediaWidgets.so.6()(64bit) \
-libQt6MultimediaWidgets.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libQt6Nfc.so.6()(64bit) \
-libQt6Nfc.so.6(Qt_6)(64bit) \
-libQt6OpenGL.so.6()(64bit) \
-libQt6OpenGL.so.6(Qt_6)(64bit) \
-libQt6OpenGLWidgets.so.6()(64bit) \
-libQt6OpenGLWidgets.so.6(Qt_6)(64bit) \
-libQt6Pdf.so.6()(64bit) \
-libQt6Pdf.so.6(Qt_6)(64bit) \
-libQt6PdfWidgets.so.6()(64bit) \
-libQt6PdfWidgets.so.6(Qt_6)(64bit) \
-libQt6Positioning.so.6()(64bit) \
-libQt6Positioning.so.6(Qt_6)(64bit) \
-libQt6PrintSupport.so.6()(64bit) \
-libQt6PrintSupport.so.6(Qt_6)(64bit) \
-libQt6Qml.so.6()(64bit) \
-libQt6Qml.so.6(Qt_6)(64bit) \
-libQt6Quick.so.6()(64bit) \
-libQt6Quick.so.6(Qt_6)(64bit) \
-libQt6Quick3D.so.6()(64bit) \
-libQt6Quick3D.so.6(Qt_6)(64bit) \
-libQt6QuickWidgets.so.6()(64bit) \
-libQt6QuickWidgets.so.6(Qt_6)(64bit) \
-libQt6RemoteObjects.so.6()(64bit) \
-libQt6RemoteObjects.so.6(Qt_6)(64bit) \
-libQt6Sensors.so.6()(64bit) \
-libQt6Sensors.so.6(Qt_6)(64bit) \
-libQt6SerialPort.so.6()(64bit) \
-libQt6SerialPort.so.6(Qt_6)(64bit) \
-libQt6SpatialAudio.so.6()(64bit) \
-libQt6SpatialAudio.so.6(Qt_6)(64bit) \
-libQt6Sql.so.6()(64bit) \
-libQt6Sql.so.6(Qt_6)(64bit) \
-libQt6Svg.so.6()(64bit) \
-libQt6Svg.so.6(Qt_6)(64bit) \
-libQt6SvgWidgets.so.6()(64bit) \
-libQt6SvgWidgets.so.6(Qt_6)(64bit) \
-libQt6Test.so.6()(64bit) \
-libQt6Test.so.6(Qt_6)(64bit) \
-libQt6TextToSpeech.so.6()(64bit) \
-libQt6TextToSpeech.so.6(Qt_6)(64bit) \
-libQt6WebChannel.so.6()(64bit) \
-libQt6WebChannel.so.6(Qt_6)(64bit) \
-libQt6WebSockets.so.6()(64bit) \
-libQt6WebSockets.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libQt6Xml.so.6()(64bit) \
-libQt6Xml.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpython3.11.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGLESv2.so.2 \
+libQt6Bluetooth.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Designer.so.6 \
+libQt6Gui.so.6 \
+libQt6Help.so.6 \
+libQt6Multimedia.so.6 \
+libQt6MultimediaWidgets.so.6 \
+libQt6Network.so.6 \
+libQt6Nfc.so.6 \
+libQt6OpenGL.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Pdf.so.6 \
+libQt6PdfWidgets.so.6 \
+libQt6Positioning.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6Quick3D.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6RemoteObjects.so.6 \
+libQt6Sensors.so.6 \
+libQt6SerialPort.so.6 \
+libQt6SpatialAudio.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Test.so.6 \
+libQt6TextToSpeech.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebSockets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
+libc.so.6 \
+libdbus-1.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpython3.11.so.1.0 \
+libstdc++.so.6 \
+python-abi \
 python311-PyQt6-sip \
 python311-dbus-python"
 

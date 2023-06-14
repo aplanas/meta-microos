@@ -13,7 +13,7 @@ RPM_NAME = "texlive-elzcards-2023.201.1.60svn51894-53.1.noarch.rpm"
 RPM_HASH = "03b16b1b29964a5fb8baec5af83c884e00aee5ca286240dbf2bdbef88fb2b88173885a41c041e36b388e466390ce51f325e2408510b6e9af05ec192b6bcf98c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(elzcards.sty) \
+RPROVIDES:${PN} += "tex-elzcards.sty \
 texlive-elzcards"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(keyval.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-calc.sty \
+tex-keyval.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

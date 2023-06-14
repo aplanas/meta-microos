@@ -11,12 +11,12 @@ RPM_HASH = "ed770ce1200b035628b26d730e91370212da0c0591c8c14d77103cc7df2c0ca3b6d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-nginx \
-python3.10dist(azure-mgmt-nginx) \
+python3.10dist-azure-mgmt-nginx \
 python310-azure-mgmt-nginx \
-python3dist(azure-mgmt-nginx)"
+python3dist-azure-mgmt-nginx"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

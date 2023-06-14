@@ -11,7 +11,7 @@ RPM_NAME = "texlive-frpseudocode-2023.201.0.0.3.0svn56088-52.1.noarch.rpm"
 RPM_HASH = "3f70ecf70453f09c10bb37e3778c41a5a2d570c82ee20ef60ea2782a1c278617cab88c9d7b9e8b2bd1690b14341bc2dc64e8cc91d7686bccd37a7fde5b0875d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(frpseudocode.sty) \
+RPROVIDES:${PN} += "tex-frpseudocode.sty \
 texlive-frpseudocode"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(algpseudocode.sty) \
+tex-algpseudocode.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

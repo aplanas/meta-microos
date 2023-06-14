@@ -8,22 +8,18 @@ PV = "1.5.1615+0"
 RPM_NAME = "psi+-plugins-videostatusplugin-1.5.1615+0-3.1.aarch64.rpm"
 RPM_HASH = "2c980aa98ad53128d639dc4b1dcef35f0c9b43f7a3d876a1b75a71ce53e5122b3f8bee9ef67b93c30a46cd9bc35399774bc08bdb36a5d2b702c8f9fe735c8bca"
 
-RPROVIDES:${PN} += "libvideostatusplugin.so()(64bit) \
-psi+-plugins-videostatusplugin \
-psi+-plugins-videostatusplugin(aarch-64)"
+RPROVIDES:${PN} += "libvideostatusplugin.so \
+psi+-plugins-videostatusplugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxcb.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Widgets.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxcb.so.1 \
 psi+"
 
 inherit rpm

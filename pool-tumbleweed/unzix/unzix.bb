@@ -8,11 +8,10 @@ PV = "0.4.0"
 RPM_NAME = "unzix-0.4.0-2.14.aarch64.rpm"
 RPM_HASH = "6aa69a82a30b484a840a2811758058b170e381a890b6bf40c0d7c5b3f5f4ec766a96eeca1404ac5ed83ecddab837b36d606a267187b2858fd40b5f50ffb6ee73"
 
-RPROVIDES:${PN} += "unzix \
-unzix(aarch-64)"
+RPROVIDES:${PN} += "unzix"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1"
 
 inherit rpm

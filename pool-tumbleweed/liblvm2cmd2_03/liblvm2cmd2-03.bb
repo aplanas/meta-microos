@@ -8,23 +8,17 @@ PV = "2.03.16"
 RPM_NAME = "liblvm2cmd2_03-2.03.16-6.3.aarch64.rpm"
 RPM_HASH = "b2973a8a4253fbd83337d7219c769edf08343bc53a980b2c61023b44b40e0e5ab57fabce5d9db15b0a8d7d3713ac50014e7d1439ed0c965b49f8c6ea30b64724"
 
-RPROVIDES:${PN} += "liblvm2cmd.so.2.03()(64bit) \
-liblvm2cmd.so.2.03(Base)(64bit) \
-liblvm2cmd2_03 \
-liblvm2cmd2_03(aarch-64)"
+RPROVIDES:${PN} += "liblvm2cmd.so.2.03 \
+liblvm2cmd2-03"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdevmapper-event.so.1.03()(64bit) \
-libdevmapper-event.so.1.03(Base)(64bit) \
-libselinux.so.1()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_233)(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit)"
+ld-linux-aarch64.so.1 \
+libaio.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libdevmapper-event.so.1.03 \
+libselinux.so.1 \
+libsystemd.so.0 \
+libudev.so.1"
 
 inherit rpm

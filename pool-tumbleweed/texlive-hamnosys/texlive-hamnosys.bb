@@ -12,7 +12,7 @@ RPM_NAME = "texlive-hamnosys-2023.201.1.0.3svn61941-53.1.noarch.rpm"
 RPM_HASH = "3ed6590c6e0cd185f9a232bf2fb602f45dd42dc8153b2b63cfc1383d5dd0e9de3aa90bc826cda0dca875e4110f291b972f4bf3eea351f080aa82a7e48631008f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hamnosys.sty) \
+RPROVIDES:${PN} += "tex-hamnosys.sty \
 texlive-hamnosys"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,11 +21,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(fontspec.sty) \
-tex(iftex.sty) \
-tex(ifthen.sty) \
-tex(kvoptions.sty) \
-tex(ucharclasses.sty) \
+tex-fontspec.sty \
+tex-iftex.sty \
+tex-ifthen.sty \
+tex-kvoptions.sty \
+tex-ucharclasses.sty \
 texlive \
 texlive-filesystem \
 texlive-hamnosys-fonts \

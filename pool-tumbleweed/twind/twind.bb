@@ -24,17 +24,14 @@ PV = "1.1.0"
 RPM_NAME = "twind-1.1.0-3.26.aarch64.rpm"
 RPM_HASH = "3918ffe647ca4335b2fe4580a947031cf2e08aa2546a9d837f1716fcd11e60aadc9af7cd94fdc42274b348a18412c43caadbb746d5ca43ca545f42d3ced58cbd"
 
-RPROVIDES:${PN} += "application() \
-application(twind.desktop) \
-twind \
-twind(aarch-64)"
+RPROVIDES:${PN} += "twind"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

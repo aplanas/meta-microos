@@ -14,12 +14,12 @@ RPM_HASH = "b9e1e5e9250b859bf21b050057bb70b2d0cf257e3d8c9be9f6e9b1c2cada280740fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-policyinsights \
-python3.10dist(azure-mgmt-policyinsights) \
+python3.10dist-azure-mgmt-policyinsights \
 python310-azure-mgmt-policyinsights \
-python3dist(azure-mgmt-policyinsights)"
+python3dist-azure-mgmt-policyinsights"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

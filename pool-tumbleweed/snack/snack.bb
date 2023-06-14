@@ -21,18 +21,17 @@ PV = "2.2.10"
 RPM_NAME = "snack-2.2.10-215.8.aarch64.rpm"
 RPM_HASH = "49c218a7b83487ee6700bd815870774bc8e63fc7ede05ae3ba1bd9d02a3cf99eaa3579bf1fd2f8c4d3e501f749991fbaa6516b5f830705d2f230824dc545d4f6"
 
-RPROVIDES:${PN} += "libsnack.so()(64bit) \
-libsnackogg.so()(64bit) \
-libsound.so()(64bit) \
-snack \
-snack(aarch-64)"
+RPROVIDES:${PN} += "libsnack.so \
+libsnackogg.so \
+libsound.so \
+snack"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisenc.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libogg.so.0 \
+libvorbis.so.0 \
+libvorbisenc.so.2 \
 tcl \
 tk"
 

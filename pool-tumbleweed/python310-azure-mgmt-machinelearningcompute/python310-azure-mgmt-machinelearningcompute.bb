@@ -14,11 +14,11 @@ RPM_HASH = "3ec0911111a4d8b3c28f974c3a84afd3e61ff73f9238e5938d02ff9dce74d81a3aa7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-machinelearningcompute \
-python3.10dist(azure-mgmt-machinelearningcompute) \
+python3.10dist-azure-mgmt-machinelearningcompute \
 python310-azure-mgmt-machinelearningcompute \
-python3dist(azure-mgmt-machinelearningcompute)"
+python3dist-azure-mgmt-machinelearningcompute"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \

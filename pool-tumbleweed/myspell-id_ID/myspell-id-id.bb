@@ -8,10 +8,10 @@ RPM_NAME = "myspell-id_ID-20221012-1.2.noarch.rpm"
 RPM_HASH = "7e0741b35db33b003c74bca399b16caa952f71735bd4144e631471d974e72385c121966507624d16a1f5304607d1ea195d9e88ebe46272cc81e9fc74f1bed94e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:id_ID) \
-locale(seamonkey-spellchecker:id_ID) \
+RPROVIDES:${PN} += "locale-libreoffice-id-ID \
+locale-seamonkey-spellchecker-id-ID \
 myspell-dictionary \
-myspell-id_ID"
+myspell-id-ID"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-id"

@@ -7,14 +7,13 @@ PV = "1.4"
 RPM_NAME = "tntdb-replicate-1.4-1.12.aarch64.rpm"
 RPM_HASH = "9e33751d1c6f758461def69c6e5c7fd4efb9e770d13e21aaed84d8bc1af2e4eaac9172a78cbdddf16baf48b8512ba885120bdc8e3df95fa919488e5a3912ed12"
 
-RPROVIDES:${PN} += "tntdb-replicate \
-tntdb-replicate(aarch-64)"
+RPROVIDES:${PN} += "tntdb-replicate"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcxxtools.so.10()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtntdb.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcxxtools.so.10 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libtntdb.so.5"
 
 inherit rpm

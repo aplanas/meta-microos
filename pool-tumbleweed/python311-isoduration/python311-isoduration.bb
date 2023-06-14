@@ -21,11 +21,11 @@ RPM_NAME = "python311-isoduration-20.11.0-2.1.noarch.rpm"
 RPM_HASH = "b9a8a5b318737b18a3bc8a45dfc7041619a5aa802784fa3aa2895adcdf0dba6c7d78facd65b4f208ff2bfe56541054b2ffcbc282edc38c46ebdc8ef0f8b22e64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(isoduration) \
+RPROVIDES:${PN} += "python3.11dist-isoduration \
 python311-isoduration \
-python3dist(isoduration)"
+python3dist-isoduration"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-arrow"
 
 inherit rpm

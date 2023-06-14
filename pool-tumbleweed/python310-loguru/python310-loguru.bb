@@ -10,10 +10,10 @@ RPM_HASH = "d05ccd0365a49d30ff0b853df7e34a4cfdd8deebca2039c31d46b2877935b3d7f2dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-loguru \
-python3.10dist(loguru) \
+python3.10dist-loguru \
 python310-loguru \
-python3dist(loguru)"
+python3dist-loguru"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

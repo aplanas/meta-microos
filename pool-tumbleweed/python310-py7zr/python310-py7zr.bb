@@ -9,14 +9,14 @@ RPM_HASH = "fa863d461996558e62f6efd567b9bbf7c4526452b4e121b2b9635da152d2b71de45f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py7zr \
-python3.10dist(py7zr) \
+python3.10dist-py7zr \
 python310-py7zr \
-python3dist(py7zr)"
+python3dist-py7zr"
 
-RDEPENDS:${PN} += "(python310-pyppmd >= 0.18.1 with python310-pyppmd < 1.1.0) \
+RDEPENDS:${PN} += "-python310-pyppmd >= 0.18.1 with python310-pyppmd < 1.1.0 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Brotli \
 python310-inflate64 \
 python310-multivolumefile \

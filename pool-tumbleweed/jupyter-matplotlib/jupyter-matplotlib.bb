@@ -14,6 +14,6 @@ RPROVIDES:${PN} += "jupyter-ipympl \
 jupyter-matplotlib"
 
 RDEPENDS:${PN} += "jupyter-notebook \
-python3dist(ipympl)"
+python3dist-ipympl"
 
 inherit rpm

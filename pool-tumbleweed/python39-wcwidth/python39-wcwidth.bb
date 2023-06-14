@@ -18,10 +18,10 @@ RPM_NAME = "python39-wcwidth-0.2.6-2.1.noarch.rpm"
 RPM_HASH = "a9d8253f5fdec98e3e61a5460630cc677be7ea90b78d047ccc5d56f1a1ed646759eef72886bdc8a49226c05e7870eaab499d47ddc946d78e79a592c616ffd4f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(wcwidth) \
+RPROVIDES:${PN} += "python3.9dist-wcwidth \
 python39-wcwidth \
-python3dist(wcwidth)"
+python3dist-wcwidth"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

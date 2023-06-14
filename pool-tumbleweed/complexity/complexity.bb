@@ -9,14 +9,13 @@ PV = "1.10"
 RPM_NAME = "complexity-1.10-5.6.aarch64.rpm"
 RPM_HASH = "9831c04677b3cb94bcaabbf86061964c559b00409735be9c8b48c7eddb8c2753b55a3f1fbdbfe01346b6d96691966957ac3119b565b1b47baffaf562c1cf99ac"
 
-RPROVIDES:${PN} += "complexity \
-complexity(aarch-64)"
+RPROVIDES:${PN} += "complexity"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libopts.so.25()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libopts.so.25"
 
 inherit rpm

@@ -17,7 +17,7 @@ RPM_NAME = "texlive-marginfix-2023.201.1.2svn55064-52.1.noarch.rpm"
 RPM_HASH = "e00757e3349bf65a54702fe1578c6dfcaba3c8fc8dfaa90af3f81e20764fda106e900e0091bb8d9e1e017abf3c1fe5aebd05011df69a61e11651b69da823cf59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(marginfix.sty) \
+RPROVIDES:${PN} += "tex-marginfix.sty \
 texlive-marginfix"
 
 RDEPENDS:${PN} += "/bin/sh \

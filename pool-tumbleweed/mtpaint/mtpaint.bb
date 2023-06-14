@@ -11,58 +11,30 @@ PV = "3.50"
 RPM_NAME = "mtpaint-3.50-1.10.aarch64.rpm"
 RPM_HASH = "4d506be00915dacc0695a1434ed73e116541d60871b58c5dc96abc93f639c08782c33380b9f71713a5513360100cd956bd39b3a00884c6649f2ffb5fc1b6afae"
 
-RPROVIDES:${PN} += "application() \
-application(mtpaint.desktop) \
-mimehandler(image/bmp) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/jpg) \
-mimehandler(image/pjpeg) \
-mimehandler(image/png) \
-mimehandler(image/svg) \
-mimehandler(image/svg+xml) \
-mimehandler(image/tiff) \
-mimehandler(image/x-bmp) \
-mimehandler(image/x-ms-bmp) \
-mimehandler(image/x-pcx) \
-mimehandler(image/x-png) \
-mimehandler(image/x-portable-anymap) \
-mimehandler(image/x-portable-bitmap) \
-mimehandler(image/x-portable-graymap) \
-mimehandler(image/x-portable-pixmap) \
-mimehandler(image/x-tga) \
-mimehandler(image/x-xbitmap) \
-mimehandler(image/x-xbm) \
-mimehandler(image/x-xpixmap) \
-mimehandler(image/x-xpm) \
-mimehandler(image/xbm) \
-mimehandler(image/xpm) \
-mtpaint \
-mtpaint(aarch-64)"
+RPROVIDES:${PN} += "mtpaint"
 
 RDEPENDS:${PN} += "/bin/sh \
 ImageMagick \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfreetype.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgif.so.7()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libopenjp2.so.7()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libtiff.so.6()(64bit) \
-libwebp.so.7()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libfreetype.so.6 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgif.so.7 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+libm.so.6 \
+libopenjp2.so.7 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpng16.so.16 \
+libtiff.so.6 \
+libwebp.so.7 \
+libz.so.1"
 
 inherit rpm

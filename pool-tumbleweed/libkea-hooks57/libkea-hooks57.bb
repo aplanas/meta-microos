@@ -15,18 +15,17 @@ PV = "2.2.0"
 RPM_NAME = "libkea-hooks57-2.2.0-2.4.aarch64.rpm"
 RPM_HASH = "e0df318683056375c7d692ded9f89bfd8a86b25437a75b721808f9d197e3e11e4fa08a134ec20df220122fd1660a5cdfd4cdf1a8cd3ee7da2fac757694675b28"
 
-RPROVIDES:${PN} += "libkea-hooks.so.57()(64bit) \
-libkea-hooks57 \
-libkea-hooks57(aarch-64)"
+RPROVIDES:${PN} += "libkea-hooks.so.57 \
+libkea-hooks57"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkea-cc.so.39()(64bit) \
-libkea-exceptions.so.13()(64bit) \
-libkea-log.so.35()(64bit) \
-libkea-util.so.52()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkea-cc.so.39 \
+libkea-exceptions.so.13 \
+libkea-log.so.35 \
+libkea-util.so.52 \
+libstdc++.so.6"
 
 inherit rpm

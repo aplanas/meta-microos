@@ -18,8 +18,8 @@ RPM_NAME = "texlive-libgreek-2023.201.1.1svn65004-54.1.noarch.rpm"
 RPM_HASH = "06e22c6e5f862f82a5dd063100914bfe6bfabf250dec06f6c2e5b7551e3b139dbab2f15713ef53b787e0d3f5e5cf5615fec7c917080757e3f0b0fde3ab0008da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(libgreek-legacy.sty) \
-tex(libgreek.sty) \
+RPROVIDES:${PN} += "tex-libgreek-legacy.sty \
+tex-libgreek.sty \
 texlive-libgreek"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,7 +28,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

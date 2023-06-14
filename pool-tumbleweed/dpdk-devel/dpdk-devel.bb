@@ -10,21 +10,20 @@ RPM_HASH = "a9f61e0b7c253f74f8ccb030accc4bb4e60c7f6b43d7e874e5962caa06348c716e5a
 
 RPROVIDES:${PN} += "dpdk-any-devel \
 dpdk-devel \
-dpdk-devel(aarch-64) \
-pkgconfig(libdpdk) \
-pkgconfig(libdpdk-libs)"
+pkgconfig-libdpdk \
+pkgconfig-libdpdk-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 libdpdk-23 \
-pkgconfig(jansson) \
-pkgconfig(libcrypto) \
-pkgconfig(libdpdk-libs) \
-pkgconfig(libelf) \
-pkgconfig(libibverbs) \
-pkgconfig(libmlx4) \
-pkgconfig(libmlx5) \
-pkgconfig(libpcap) \
-pkgconfig(zlib)"
+pkgconfig-jansson \
+pkgconfig-libcrypto \
+pkgconfig-libdpdk-libs \
+pkgconfig-libelf \
+pkgconfig-libibverbs \
+pkgconfig-libmlx4 \
+pkgconfig-libmlx5 \
+pkgconfig-libpcap \
+pkgconfig-zlib"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "c23c2014504ee4047b00add3b780b30b44dd902e1e967f0e8d8fc22376b9631481b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyinstaller-hooks-contrib \
-python3.10dist(pyinstaller-hooks-contrib) \
+python3.10dist-pyinstaller-hooks-contrib \
 python310-pyinstaller-hooks-contrib \
-python3dist(pyinstaller-hooks-contrib)"
+python3dist-pyinstaller-hooks-contrib"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

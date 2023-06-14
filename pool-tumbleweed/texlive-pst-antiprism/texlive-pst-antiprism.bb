@@ -10,8 +10,8 @@ RPM_NAME = "texlive-pst-antiprism-2023.201.0.0.02svn46643-52.1.noarch.rpm"
 RPM_HASH = "30c6df61b6d717ba71873a114b28bbc82571ece53187e280711bad0583a17958dd6306dfde7db72bdad2d89306cbb5280b6b2ee1ff5027631092cd52e2f32420"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-antiprism.sty) \
-tex(pst-antiprism.tex) \
+RPROVIDES:${PN} += "tex-pst-antiprism.sty \
+tex-pst-antiprism.tex \
 texlive-pst-antiprism"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(pst-solides3d.sty) \
-tex(pstricks.sty) \
+tex-pst-solides3d.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

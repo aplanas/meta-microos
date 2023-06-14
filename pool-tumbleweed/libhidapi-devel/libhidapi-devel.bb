@@ -9,15 +9,14 @@ RPM_NAME = "libhidapi-devel-0.13.1-1.2.aarch64.rpm"
 RPM_HASH = "143cfd08aeffc832fc55032e66f915afa32bba0f186b60d0314f21e5991d3293c8282ab6f6410e79cd1d5d7e23ccd53a115954a7e52b2a1d2a34aeac79437bf5"
 
 RPROVIDES:${PN} += "libhidapi-devel \
-libhidapi-devel(aarch-64) \
-pkgconfig(hidapi-hidraw) \
-pkgconfig(hidapi-libusb)"
+pkgconfig-hidapi-hidraw \
+pkgconfig-hidapi-libusb"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libhidapi-hidraw0 \
 libhidapi-libusb0 \
 libudev-devel \
-libusb-1_0-devel"
+libusb-1-0-devel"
 
 inherit rpm

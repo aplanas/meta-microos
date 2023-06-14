@@ -12,10 +12,10 @@ RPM_HASH = "05bcfececc3161a55b06a080d509aaa770016b296707f7fe3de2f311c9e64d1500e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checkbashisms \
-deb:/usr/bin/checkbashisms \
-devscripts:/usr/bin/checkbashisms"
+deb-/usr/bin/checkbashisms \
+devscripts-/usr/bin/checkbashisms"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

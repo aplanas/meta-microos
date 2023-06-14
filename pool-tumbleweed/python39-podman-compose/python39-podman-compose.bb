@@ -18,14 +18,14 @@ RPM_HASH = "636393a213763b35161a2ddf940adc892c91bcdd9a3a211409aad357fcdfec34716a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-compose \
-python3.9dist(podman-compose) \
+python3.9dist-podman-compose \
 python39-podman-compose \
-python3dist(podman-compose)"
+python3dist-podman-compose"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 podman \
-python(abi) \
+python-abi \
 python39-PyYAML \
 python39-python-dotenv \
 python39-setuptools \

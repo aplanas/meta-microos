@@ -10,12 +10,12 @@ RPM_HASH = "a042d8a7c373af20a90ae21e1e6d414b25a6d7cb94acf714c932911b22169713836f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-reno \
-python3.10dist(reno) \
-python3dist(reno)"
+python3.10dist-reno \
+python3dist-reno"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-Sphinx \
 python3-docutils \

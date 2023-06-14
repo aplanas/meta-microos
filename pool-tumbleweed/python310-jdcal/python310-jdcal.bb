@@ -15,10 +15,10 @@ RPM_HASH = "cbb553e3d8868baec61b5814122605ba2340993285df3712581fe2ae3f92e1c7ea8b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jdcal \
-python3.10dist(jdcal) \
+python3.10dist-jdcal \
 python310-jdcal \
-python3dist(jdcal)"
+python3dist-jdcal"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

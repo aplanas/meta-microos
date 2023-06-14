@@ -9,12 +9,11 @@ PV = "0.4.2+hg.20120726"
 RPM_NAME = "libmicro-0.4.2+hg.20120726-3.13.aarch64.rpm"
 RPM_HASH = "e43490231942dc17f80d632917b294ca1b4909309c2aabd4ec5366f02aeed2ff9e3189b859693030ebddaed8d1585f9ede9eeecee5cbdb0950bf2c830f145f91"
 
-RPROVIDES:${PN} += "libmicro \
-libmicro(aarch-64)"
+RPROVIDES:${PN} += "libmicro"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

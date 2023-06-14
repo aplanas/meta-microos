@@ -12,8 +12,7 @@ PV = "6.3.0"
 RPM_NAME = "xfsprogs-devel-6.3.0-1.1.aarch64.rpm"
 RPM_HASH = "1668fa3275ef2b35b923d65daf6f680516d04e4c24f845652f440aa18acacb9504d32609b2ff4a3788ad2efc0014e7f2f36bec8d59ef10ab054084fd9e4e80c8"
 
-RPROVIDES:${PN} += "xfsprogs-devel \
-xfsprogs-devel(aarch-64)"
+RPROVIDES:${PN} += "xfsprogs-devel"
 
 RDEPENDS:${PN} += "libhandle1 \
 libuuid-devel \

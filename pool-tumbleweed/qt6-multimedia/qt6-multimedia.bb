@@ -9,44 +9,37 @@ PV = "6.5.1"
 RPM_NAME = "qt6-multimedia-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "beb9690a540f6da9405c0228da4b4377b073aff5b33008e9fe47845ddd330bc54a68da3b7c5822c5fa60b3035fd2bbb64f5264d1149d06f9996b564239e9459b"
 
-RPROVIDES:${PN} += "libffmpegmediaplugin.so()(64bit) \
-libffmpegmediaplugin.so(Qt_6)(64bit) \
-libgstreamermediaplugin.so()(64bit) \
-libgstreamermediaplugin.so(Qt_6)(64bit) \
-qt6-multimedia \
-qt6-multimedia(aarch-64)"
+RPROVIDES:${PN} += "libffmpegmediaplugin.so \
+libgstreamermediaplugin.so \
+qt6-multimedia"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libGLESv2.so.2()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Multimedia.so.6()(64bit) \
-libQt6Multimedia.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libavcodec.so.60()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstallocators-1.0.so.0()(64bit) \
-libgstapp-1.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstgl-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstphotography-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libswresample.so.4()(64bit) \
-libswscale.so.7()(64bit) \
-libva.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libGLESv2.so.2 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libX11.so.6 \
+libXext.so.6 \
+libXrandr.so.2 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstallocators-1.0.so.0 \
+libgstapp-1.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstgl-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstphotography-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libstdc++.so.6 \
+libswresample.so.4 \
+libswscale.so.7 \
+libva.so.2"
 
 inherit rpm

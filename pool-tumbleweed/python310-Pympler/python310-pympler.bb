@@ -15,11 +15,11 @@ RPM_HASH = "4da0c4cfaa5ef702abe87dd172130d66e82b4f6041322f39fb24c6bd8e9e10b927c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pympler \
-python3.10dist(pympler) \
+python3.10dist-pympler \
 python310-Pympler \
-python3dist(pympler)"
+python3dist-pympler"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tk"
 
 inherit rpm

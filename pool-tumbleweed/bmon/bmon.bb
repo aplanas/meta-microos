@@ -12,21 +12,16 @@ PV = "4.0"
 RPM_NAME = "bmon-4.0-1.25.aarch64.rpm"
 RPM_HASH = "4e11ef28b7f08a4af449f337e8d3ca27359eec9bf318b6000253ec8b086eccee6ef1fef26c4ea0184d9da598bd64dca57b65fd61daef582aa36eb3a00795c5a2"
 
-RPROVIDES:${PN} += "application() \
-application(bmon.desktop) \
-bmon \
-bmon(aarch-64) \
-config(bmon)"
+RPROVIDES:${PN} += "bmon \
+config-bmon"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libconfuse.so.2()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-route-3.so.200()(64bit) \
-libnl-route-3.so.200(libnl_3)(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libconfuse.so.2 \
+libm.so.6 \
+libncursesw.so.6 \
+libnl-3.so.200 \
+libnl-route-3.so.200 \
+libtinfo.so.6"
 
 inherit rpm

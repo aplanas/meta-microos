@@ -11,7 +11,7 @@ RPM_HASH = "97fc7854adb6c7d7fa8fb47274dfc69279e4cfb3d10691f2e6ee7d4c663571ef5606
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpi \
-openmpi_4_1_4-gnu-hpc-testsuite"
+openmpi-4-1-4-gnu-hpc-testsuite"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc \
 lua-lmod \

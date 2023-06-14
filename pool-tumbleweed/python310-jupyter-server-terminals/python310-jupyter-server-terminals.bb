@@ -9,14 +9,12 @@ RPM_HASH = "238ea918f0469ab2ecdfec5f01d46954422532227a0f747ffa0eefa04ce46f2be98f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-server-terminals \
-python3-jupyter_server_terminals \
-python3.10dist(jupyter-server-terminals) \
+python3.10dist-jupyter-server-terminals \
 python310-jupyter-server-terminals \
-python310-jupyter_server_terminals \
-python3dist(jupyter-server-terminals)"
+python3dist-jupyter-server-terminals"
 
 RDEPENDS:${PN} += "jupyter-server-terminals \
-python(abi) \
+python-abi \
 python310-terminado"
 
 inherit rpm

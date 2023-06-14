@@ -9,14 +9,13 @@ RPM_HASH = "18567981871d2845628de1c29d9fc9b579a435a367764b8d15036d88af2652069d66
 
 RPROVIDES:${PN} += "pyalsa \
 python3-alsa \
-python3.10dist(pyalsa) \
+python3.10dist-pyalsa \
 python310-alsa \
-python310-alsa(aarch-64) \
-python3dist(pyalsa)"
+python3dist-pyalsa"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

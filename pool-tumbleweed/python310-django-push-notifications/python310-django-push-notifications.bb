@@ -10,11 +10,11 @@ RPM_HASH = "4502d164ae4f3596d0a62784231b9c590907979a66dfde8a3dc4b5e763f07f236ea3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-push-notifications \
-python3.10dist(django-push-notifications) \
+python3.10dist-django-push-notifications \
 python310-django-push-notifications \
-python3dist(django-push-notifications)"
+python3dist-django-push-notifications"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-pywebpush"
 

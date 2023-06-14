@@ -9,14 +9,13 @@ PV = "0.17"
 RPM_NAME = "talk-server-0.17-721.13.aarch64.rpm"
 RPM_HASH = "e4fdb133add0c378f41112a84a40f29d1682dc88fadbb3def77bb99aa1da6107a7bd7b053d718fbd35f6635ccd6c3a3aeb673810db119ae451342b259ace0a61"
 
-RPROVIDES:${PN} += "nkitserv:/usr/sbin/in.talkd \
-talk-server \
-talk-server(aarch-64)"
+RPROVIDES:${PN} += "nkitserv-/usr/sbin/in.talkd \
+talk-server"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnss_usrfiles2 \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnss-usrfiles2 \
 net-tools \
 netcfg \
 systemd"

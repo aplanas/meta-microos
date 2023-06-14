@@ -11,68 +11,63 @@ PV = "0.35.1+git.20230315.e1727553"
 RPM_NAME = "libmpv2-0.35.1+git.20230315.e1727553-1.4.aarch64.rpm"
 RPM_HASH = "e069c38b8700490c338a9b0fc2fd6cb7730f0161e2288b53763f973d38c35a5acf75240f48094420a2fb9a81dca4cba1f78fa045d8aaf22fb6f5587d9fb090bf"
 
-RPROVIDES:${PN} += "libmpv.so.2()(64bit) \
-libmpv2 \
-libmpv2(aarch-64)"
+RPROVIDES:${PN} += "libmpv.so.2 \
+libmpv2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXpresent.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXss.so.1()(64bit) \
-libXv.so.1()(64bit) \
-libarchive.so.13()(64bit) \
-libasound.so.2()(64bit) \
-libass.so.9()(64bit) \
-libavcodec.so.60()(64bit) \
-libavdevice.so.60()(64bit) \
-libavfilter.so.9()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libbluray.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcaca.so.0()(64bit) \
-libcdio.so.19()(64bit) \
-libcdio.so.19(CDIO_19)(64bit) \
-libcdio_cdda.so.2()(64bit) \
-libcdio_cdda.so.2(CDIO_CDDA_2)(64bit) \
-libcdio_paranoia.so.2()(64bit) \
-libcdio_paranoia.so.2(CDIO_PARANOIA_2)(64bit) \
-libdrm.so.2()(64bit) \
-libdvdnav.so.4()(64bit) \
-libgbm.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-liblua5.1.so.5()(64bit) \
-libm.so.6()(64bit) \
-libopenal.so.1()(64bit) \
-libpipewire-0.3.so.0()(64bit) \
-libplacebo.so.264()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-librubberband.so.2()(64bit) \
-libshaderc_shared.so.1()(64bit) \
-libsixel.so.1()(64bit) \
-libswresample.so.4()(64bit) \
-libswscale.so.7()(64bit) \
-libuchardet.so.0()(64bit) \
-libva-drm.so.2()(64bit) \
-libva-wayland.so.2()(64bit) \
-libva-x11.so.2()(64bit) \
-libva.so.2()(64bit) \
-libvapoursynth-script.so.0()(64bit) \
-libvdpau.so.1()(64bit) \
-libvulkan.so.1()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-cursor.so.0()(64bit) \
-libwayland-egl.so.1()(64bit) \
-libxkbcommon.so.0()(64bit) \
-libz.so.1()(64bit) \
-libzimg.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXinerama.so.1 \
+libXpresent.so.1 \
+libXrandr.so.2 \
+libXss.so.1 \
+libXv.so.1 \
+libarchive.so.13 \
+libasound.so.2 \
+libass.so.9 \
+libavcodec.so.60 \
+libavdevice.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
+libbluray.so.2 \
+libc.so.6 \
+libcaca.so.0 \
+libcdio-cdda.so.2 \
+libcdio-paranoia.so.2 \
+libcdio.so.19 \
+libdrm.so.2 \
+libdvdnav.so.4 \
+libgbm.so.1 \
+libjack.so.0 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+liblua5.1.so.5 \
+libm.so.6 \
+libopenal.so.1 \
+libpipewire-0.3.so.0 \
+libplacebo.so.264 \
+libpulse.so.0 \
+librubberband.so.2 \
+libshaderc-shared.so.1 \
+libsixel.so.1 \
+libswresample.so.4 \
+libswscale.so.7 \
+libuchardet.so.0 \
+libva-drm.so.2 \
+libva-wayland.so.2 \
+libva-x11.so.2 \
+libva.so.2 \
+libvapoursynth-script.so.0 \
+libvdpau.so.1 \
+libvulkan.so.1 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0 \
+libwayland-egl.so.1 \
+libxkbcommon.so.0 \
+libz.so.1 \
+libzimg.so.2"
 
 inherit rpm

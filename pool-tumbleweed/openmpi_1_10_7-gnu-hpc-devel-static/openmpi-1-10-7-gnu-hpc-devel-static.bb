@@ -14,9 +14,8 @@ PV = "1.10.7"
 RPM_NAME = "openmpi_1_10_7-gnu-hpc-devel-static-1.10.7-7.5.aarch64.rpm"
 RPM_HASH = "9fad9921b5ea9f9f56d9f3041284f65457ea80238eeb90a93d6701504ff580869694cccdbece80800a9d0b2252f81febb27015e02369f3a023780738926b7a6d"
 
-RPROVIDES:${PN} += "openmpi_1_10_7-gnu-hpc-devel-static \
-openmpi_1_10_7-gnu-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "openmpi-1-10-7-gnu-hpc-devel-static"
 
-RDEPENDS:${PN} += "openmpi_1_10_7-gnu-hpc-devel"
+RDEPENDS:${PN} += "openmpi-1-10-7-gnu-hpc-devel"
 
 inherit rpm

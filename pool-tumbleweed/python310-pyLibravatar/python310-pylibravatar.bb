@@ -10,11 +10,11 @@ RPM_HASH = "e2f3861fe5009ee29a39cc68005b757615189be2c32e8ff3dd8b31b94f448df56452
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyLibravatar \
-python3.10dist(pylibravatar) \
+python3.10dist-pylibravatar \
 python310-pyLibravatar \
-python3dist(pylibravatar)"
+python3dist-pylibravatar"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-py3dns"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "c118129cb576500a7cbf9e3eb591c247cae73ab551fe6fabca7b9c0729789976a335
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dasbus \
-python3.10dist(dasbus) \
+python3.10dist-dasbus \
 python310-dasbus \
-python3dist(dasbus)"
+python3dist-dasbus"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-gobject \
-typelib(GLib) \
-typelib(Gio)"
+typelib-GLib \
+typelib-Gio"
 
 inherit rpm

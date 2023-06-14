@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "efl-lang \
 efl-lang-all \
-locale(efl:ar) \
-locale(efl:ca) \
-locale(efl:cs) \
-locale(efl:da) \
-locale(efl:de) \
-locale(efl:el) \
-locale(efl:eo) \
-locale(efl:es) \
-locale(efl:fa) \
-locale(efl:fi) \
-locale(efl:fr) \
-locale(efl:gl) \
-locale(efl:he) \
-locale(efl:hu) \
-locale(efl:it) \
-locale(efl:ja) \
-locale(efl:ko) \
-locale(efl:lt) \
-locale(efl:nl) \
-locale(efl:pl) \
-locale(efl:pt) \
-locale(efl:ru) \
-locale(efl:sl) \
-locale(efl:sr) \
-locale(efl:tr) \
-locale(efl:vi) \
-locale(efl:zh_CN)"
+locale-efl-ar \
+locale-efl-ca \
+locale-efl-cs \
+locale-efl-da \
+locale-efl-de \
+locale-efl-el \
+locale-efl-eo \
+locale-efl-es \
+locale-efl-fa \
+locale-efl-fi \
+locale-efl-fr \
+locale-efl-gl \
+locale-efl-he \
+locale-efl-hu \
+locale-efl-it \
+locale-efl-ja \
+locale-efl-ko \
+locale-efl-lt \
+locale-efl-nl \
+locale-efl-pl \
+locale-efl-pt \
+locale-efl-ru \
+locale-efl-sl \
+locale-efl-sr \
+locale-efl-tr \
+locale-efl-vi \
+locale-efl-zh-CN"
 
 RDEPENDS:${PN} += "efl"
 

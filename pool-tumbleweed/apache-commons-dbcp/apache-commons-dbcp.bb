@@ -16,19 +16,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-dbcp \
 commons-dbcp2 \
-hibernate_jdbc_cache \
+hibernate-jdbc-cache \
 jakarta-commons-dbcp2 \
-mvn(org.apache.commons:commons-dbcp2) \
-mvn(org.apache.commons:commons-dbcp2:pom:)"
+mvn-org.apache.commons-commons-dbcp2 \
+mvn-org.apache.commons-commons-dbcp2-pom-"
 
 RDEPENDS:${PN} += "/bin/sh \
 commons-collections \
 commons-pool2 \
 java-headless \
 javapackages-filesystem \
-jta_api \
-mvn(commons-logging:commons-logging) \
-mvn(org.apache.commons:commons-pool2) \
+jta-api \
+mvn-commons-logging-commons-logging \
+mvn-org.apache.commons-commons-pool2 \
 update-alternatives"
 
 inherit rpm

@@ -16,11 +16,11 @@ RPM_HASH = "602df21f5b19941c43625a4f47fee00ca57c45729cdc2fdf6aff54fc135436154762
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-httpbin \
-python3.10dist(httpbin) \
+python3.10dist-httpbin \
 python310-httpbin \
-python3dist(httpbin)"
+python3dist-httpbin"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Brotli \
 python310-Flask \
 python310-MarkupSafe \

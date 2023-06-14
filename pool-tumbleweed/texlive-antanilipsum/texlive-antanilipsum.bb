@@ -10,7 +10,7 @@ RPM_NAME = "texlive-antanilipsum-2023.201.0.0.8.1svn55250-54.1.noarch.rpm"
 RPM_HASH = "f2489e0deaa2e0ace12f84464be9722aa8a69f215b0c6bb1f20a299e54a32b564c906afdfabb95018b5a9523cf3634829bce141d3d3dad2d230b262893790baf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(antanilipsum.sty) \
+RPROVIDES:${PN} += "tex-antanilipsum.sty \
 texlive-antanilipsum"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

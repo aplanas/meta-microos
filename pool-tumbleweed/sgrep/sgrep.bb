@@ -9,11 +9,10 @@ PV = "1.94a"
 RPM_NAME = "sgrep-1.94a-1.12.aarch64.rpm"
 RPM_HASH = "91931a0bfab0e0c7ce73aaebdfb379cf42f76685197ed910da1ea488d8d8f115e4e7f4c3b7648cecd40811141dc5ec0796e17ebeaac152c4cfac588db67941d6"
 
-RPROVIDES:${PN} += "config(sgrep) \
-sgrep \
-sgrep(aarch-64)"
+RPROVIDES:${PN} += "config-sgrep \
+sgrep"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

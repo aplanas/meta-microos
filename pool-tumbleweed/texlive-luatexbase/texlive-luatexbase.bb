@@ -15,14 +15,14 @@ RPM_NAME = "texlive-luatexbase-2023.201.1.3svn52663-52.1.noarch.rpm"
 RPM_HASH = "1a7fb1ba7c8185e1fdde4f48ddb451220bd7c5a414f2ac656c61dba15d42530f6f9bfa77fd56bc53fce316e268525bc5394bbaff7b46ea6402884ee02d97cf5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luatexbase-attr.sty) \
-tex(luatexbase-cctb.sty) \
-tex(luatexbase-compat.sty) \
-tex(luatexbase-loader.sty) \
-tex(luatexbase-mcb.sty) \
-tex(luatexbase-modutils.sty) \
-tex(luatexbase-regs.sty) \
-tex(luatexbase.sty) \
+RPROVIDES:${PN} += "tex-luatexbase-attr.sty \
+tex-luatexbase-cctb.sty \
+tex-luatexbase-compat.sty \
+tex-luatexbase-loader.sty \
+tex-luatexbase-mcb.sty \
+tex-luatexbase-modutils.sty \
+tex-luatexbase-regs.sty \
+tex-luatexbase.sty \
 texlive-luatexbase"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,7 +31,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ctablestack.sty) \
+tex-ctablestack.sty \
 texlive \
 texlive-ctablestack \
 texlive-filesystem \

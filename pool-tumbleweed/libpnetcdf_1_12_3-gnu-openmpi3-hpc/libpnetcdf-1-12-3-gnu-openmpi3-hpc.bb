@@ -13,19 +13,16 @@ PV = "1.12.3"
 RPM_NAME = "libpnetcdf_1_12_3-gnu-openmpi3-hpc-1.12.3-1.2.aarch64.rpm"
 RPM_HASH = "b7ab72276695ad2ef8f0c0e8cbcbe63d3d42c59ee5e4aab32420ad5ab5a4fb242087a742003af639134562f3a97b0ba2890421a62eebca385ce2b1246c51078c"
 
-RPROVIDES:${PN} += "libpnetcdf_1_12_3-gnu-openmpi3-hpc \
-libpnetcdf_1_12_3-gnu-openmpi3-hpc(aarch-64)"
+RPROVIDES:${PN} += "libpnetcdf-1-12-3-gnu-openmpi3-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
 libopenmpi3-gnu-hpc \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 lua-lmod"
 
 inherit rpm

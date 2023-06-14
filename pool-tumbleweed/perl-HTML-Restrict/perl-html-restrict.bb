@@ -10,20 +10,20 @@ RPM_NAME = "perl-HTML-Restrict-3.0.2-1.1.noarch.rpm"
 RPM_HASH = "ec9b7bb3a132899c27e4b57ddf75e9385d676e1adcc65628d6c2805aaa3940144e15b09052836c00db0cdb0805f731de54a5e384c550a06037a21de23b5f2ce0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::Restrict) \
+RPROVIDES:${PN} += "perl-HTML--Restrict \
 perl-HTML-Restrict"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Dump) \
-perl(HTML::Entities) \
-perl(HTML::Parser) \
-perl(List::Util) \
-perl(Moo) \
-perl(Sub::Quote) \
-perl(Type::Tiny) \
-perl(Types::Standard) \
-perl(URI) \
-perl(namespace::clean) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Dump \
+perl-HTML--Entities \
+perl-HTML--Parser \
+perl-List--Util \
+perl-Moo \
+perl-Sub--Quote \
+perl-Type--Tiny \
+perl-Types--Standard \
+perl-URI \
+perl-namespace--clean \
+perl-version"
 
 inherit rpm

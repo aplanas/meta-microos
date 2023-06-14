@@ -19,21 +19,20 @@ PV = "12.0.0"
 RPM_NAME = "python39-pyarrow-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "03d7d446c07b2856bfe64ed8d8881e4a9cbf9c0f6ee573393a920c2126165808978342ea1ff0be51bf05d52ae190a0d9e74f55b57273f085711db77caa6b3a1c"
 
-RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so()(64bit) \
-libarrow_python.so()(64bit) \
-python3.9dist(pyarrow) \
+RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so \
+libarrow-python.so \
+python3.9dist-pyarrow \
 python39-pyarrow \
-python39-pyarrow(aarch-64) \
-python3dist(pyarrow)"
+python3dist-pyarrow"
 
-RDEPENDS:${PN} += "libarrow.so.1200()(64bit) \
-libarrow_acero.so.1200()(64bit) \
-libarrow_dataset.so.1200()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libparquet.so.1200()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "libarrow-acero.so.1200 \
+libarrow-dataset.so.1200 \
+libarrow.so.1200 \
+libc.so.6 \
+libgcc-s.so.1 \
+libparquet.so.1200 \
+libstdc++.so.6 \
+python-abi \
 python39-numpy"
 
 inherit rpm

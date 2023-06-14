@@ -10,9 +10,8 @@ RPM_HASH = "a8ccf1b41196ac528fbf1b56d3e648fa2148b3766164738fcfe19df39c0df29fc2f2
 
 RPROVIDES:${PN} += "lzma-alpha-devel \
 lzma-devel \
-pkgconfig(liblzma) \
-xz-devel \
-xz-devel(aarch-64)"
+pkgconfig-liblzma \
+xz-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblzma5"

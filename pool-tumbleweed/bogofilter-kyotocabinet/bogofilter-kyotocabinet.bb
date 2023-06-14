@@ -9,17 +9,16 @@ RPM_HASH = "c63c1bbbd5b822b31720303cff163fde41b788ba338997dbf8db397664bfbaf775a0
 
 RPROVIDES:${PN} += "bogofilter-backend \
 bogofilter-kyotocabinet \
-bogofilter-kyotocabinet(aarch-64) \
 bogofilter-tokyocabinet"
 
 RDEPENDS:${PN} += "/bin/sh \
 bogofilter-common \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libkyotocabinet.so.16()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libkyotocabinet.so.16 \
+libm.so.6 \
 update-alternatives"
 
 inherit rpm

@@ -16,8 +16,7 @@ RPM_NAME = "libp11-devel-0.4.12-2.3.aarch64.rpm"
 RPM_HASH = "c959dae4b6a09924561b098b1b146b399448cd0b68067ec91832513c3d83bd49b008deeb19c2d64f4e7623beccec5b8c0c3d64d428df16b6913c1c33b3fb1706"
 
 RPROVIDES:${PN} += "libp11-devel \
-libp11-devel(aarch-64) \
-pkgconfig(libp11)"
+pkgconfig-libp11"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libp11-3 \

@@ -12,12 +12,12 @@ RPM_NAME = "texlive-dviljk-2023.201.svn66186-53.1.noarch.rpm"
 RPM_HASH = "316624dd4e99dc432b12bfd5139dbcf0dcc14b51edbb7ded90d347cef0dd52e5445a70646a151dca0f3e9ac59ff74d4dd47e39ec90336bf44d1ef8867c97aa1d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(dvihp.1) \
-man(dvilj.1) \
-man(dvilj2p.1) \
-man(dvilj4.1) \
-man(dvilj4l.1) \
-man(dvilj6.1) \
+RPROVIDES:${PN} += "man-dvihp.1 \
+man-dvilj.1 \
+man-dvilj2p.1 \
+man-dvilj4.1 \
+man-dvilj4l.1 \
+man-dvilj6.1 \
 texlive-dviljk"
 
 RDEPENDS:${PN} += "/bin/sh \

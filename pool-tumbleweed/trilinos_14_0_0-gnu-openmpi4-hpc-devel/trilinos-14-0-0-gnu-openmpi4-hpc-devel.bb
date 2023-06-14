@@ -14,8 +14,7 @@ PV = "14.0.0"
 RPM_NAME = "trilinos_14_0_0-gnu-openmpi4-hpc-devel-14.0.0-1.2.aarch64.rpm"
 RPM_HASH = "92328a407b60cffacce648f910455aff734bf0de912f4881fa8553b444a2c60591e96ae5c2230e339d9737d4afd54e2e6dcb44df5f7de16304a90171574663e6"
 
-RPROVIDES:${PN} += "trilinos_14_0_0-gnu-openmpi4-hpc-devel \
-trilinos_14_0_0-gnu-openmpi4-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "trilinos-14-0-0-gnu-openmpi4-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -23,14 +22,14 @@ RDEPENDS:${PN} += "/bin/bash \
 gnu-compilers-hpc \
 gnu-compilers-hpc-devel \
 hdf5-gnu-openmpi4-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
 libopenblas-gnu-hpc-devel \
-libstdc++.so.6()(64bit) \
-libtrilinos_14_0_0-gnu-openmpi4-hpc \
+libstdc++.so.6 \
+libtrilinos-14-0-0-gnu-openmpi4-hpc \
 netcdf-gnu-openmpi4-hpc-devel \
 openmpi4-gnu-hpc \
 openmpi4-gnu-hpc-devel"

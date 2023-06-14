@@ -13,7 +13,7 @@ RPM_NAME = "texlive-zwpagelayout-2023.201.1.4esvn63074-52.1.noarch.rpm"
 RPM_HASH = "fefa31693c26947c124291f7b779b6256e49732b02eb99838e995520eff38a360230f6aa1c760066023998d9220606533e5b5675c8e21462289e092e540f7922"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zwpagelayout.sty) \
+RPROVIDES:${PN} += "tex-zwpagelayout.sty \
 texlive-zwpagelayout"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(iftex.sty) \
-tex(kvoptions.sty) \
-tex(luatex85.sty) \
+tex-iftex.sty \
+tex-kvoptions.sty \
+tex-luatex85.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

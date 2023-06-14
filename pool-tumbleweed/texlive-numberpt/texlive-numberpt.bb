@@ -17,7 +17,7 @@ RPM_NAME = "texlive-numberpt-2023.201.1.0svn51640-54.1.noarch.rpm"
 RPM_HASH = "e943ab827fd91f50095a7d364e23bd53fae2018cb4baf709077b32b8bb5e1771919cf485729f9329dfdb622875f7529114ded219316958d27b447d9cf1c4a04e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(numberpt.sty) \
+RPROVIDES:${PN} += "tex-numberpt.sty \
 texlive-numberpt"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

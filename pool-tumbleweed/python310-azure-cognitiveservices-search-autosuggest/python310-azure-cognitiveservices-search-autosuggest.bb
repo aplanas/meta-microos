@@ -11,11 +11,11 @@ RPM_HASH = "74c52037e82ad838449458f494f4bb65283ed0b1106fafcbc052ccda9653bafd1a7e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-autosuggest \
-python3.10dist(azure-cognitiveservices-search-autosuggest) \
+python3.10dist-azure-cognitiveservices-search-autosuggest \
 python310-azure-cognitiveservices-search-autosuggest \
-python3dist(azure-cognitiveservices-search-autosuggest)"
+python3dist-azure-cognitiveservices-search-autosuggest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-cognitiveservices-search-nspkg \
 python310-azure-common \

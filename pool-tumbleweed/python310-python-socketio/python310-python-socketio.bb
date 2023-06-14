@@ -9,11 +9,11 @@ RPM_HASH = "c49488624c6f53bdf33dc545947321b23ac91e99702dff3f5e9b4642f367706f4229
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-socketio \
-python3.10dist(python-socketio) \
+python3.10dist-python-socketio \
 python310-python-socketio \
-python3dist(python-socketio)"
+python3dist-python-socketio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-bidict \
 python310-python-engineio"
 

@@ -12,11 +12,11 @@ RPM_HASH = "70676b1f8b4f1b1029a25e1b4443737a9b0136cd31f5c364d61f5a16497f6b233b3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-WSME \
-python3.10dist(wsme) \
+python3.10dist-wsme \
 python310-WSME \
-python3dist(wsme)"
+python3dist-wsme"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WebOb \
 python310-netaddr \
 python310-pytz \

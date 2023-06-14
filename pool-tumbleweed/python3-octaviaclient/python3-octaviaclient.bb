@@ -12,10 +12,10 @@ RPM_HASH = "b3c714fd2b329d65452791ae93b91d9116b15f03487472d996501c9734167986a633
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-octaviaclient \
-python3.10dist(python-octaviaclient) \
-python3dist(python-octaviaclient)"
+python3.10dist-python-octaviaclient \
+python3dist-python-octaviaclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-Babel \
 python3-cliff \
 python3-keystoneauth1 \

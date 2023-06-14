@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "instsource-susedata"
 RDEPENDS:${PN} += "/usr/bin/perl \
 inst-source-utils \
 package-EULAs \
-perl(Locale::gettext) \
-perl(URI::Escape) \
-perl(XML::Structured)"
+perl-Locale--gettext \
+perl-URI--Escape \
+perl-XML--Structured"
 
 inherit rpm

@@ -15,9 +15,8 @@ PV = "4.4.2.P1"
 RPM_NAME = "dhcp-client-4.4.2.P1-14.3.aarch64.rpm"
 RPM_HASH = "55d06c362f2569f9fa6279c49bec55d63ce574ed7756e7cfa88c2a7905e1f70cc19fb00f2d3e3c21c9a64010ff894729cdb6902f5a6f588a8d62894494cef056"
 
-RPROVIDES:${PN} += "config(dhcp-client) \
-dhcp-client \
-dhcp-client(aarch-64)"
+RPROVIDES:${PN} += "config-dhcp-client \
+dhcp-client"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/getent \
@@ -25,7 +24,7 @@ RDEPENDS:${PN} += "/bin/bash \
 dhcp \
 iproute2 \
 iputils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-bibcop-2023.201.0.0.0.9svn65816-53.1.noarch.rpm"
 RPM_HASH = "e6c2f29c402e98780476bc92aea5154779d48530738b7134352eb55c3bd926b0117c053d86e74dae5418a222ad7cf0fde2984fe74d08f0a6a136a2be7d5a1eae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bibcop.sty) \
+RPROVIDES:${PN} += "tex-bibcop.sty \
 texlive-bibcop"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,11 +22,11 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(strict) \
-perl(warnings) \
+perl-strict \
+perl-warnings \
 sed \
-tex(iexec.sty) \
-tex(pgfopts.sty) \
+tex-iexec.sty \
+tex-pgfopts.sty \
 texlive \
 texlive-bibcop-bin \
 texlive-filesystem \

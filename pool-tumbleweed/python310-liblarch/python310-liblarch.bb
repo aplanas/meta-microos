@@ -11,11 +11,11 @@ RPM_HASH = "e0063d616afeada48854337070f1de262bd2309d8d0719731acd9ad478a6fd5f7173
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-liblarch \
-python3.10dist(liblarch) \
+python3.10dist-liblarch \
 python310-liblarch \
-python3dist(liblarch)"
+python3dist-liblarch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-gobject"
 
 inherit rpm

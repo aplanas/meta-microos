@@ -13,7 +13,7 @@ RPM_NAME = "texlive-mailmerge-2023.201.1.0svn15878-52.1.noarch.rpm"
 RPM_HASH = "53dcc5377035415526e31048fc52899236f6a8ad33939f06fb2468610245da8bcfeab5d41cffde8f18e116b5202b27c5efae767270e64ca3cc56f55dff8754d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mailmerge.sty) \
+RPROVIDES:${PN} += "tex-mailmerge.sty \
 texlive-mailmerge"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

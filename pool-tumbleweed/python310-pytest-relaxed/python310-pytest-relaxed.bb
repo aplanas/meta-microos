@@ -9,11 +9,11 @@ RPM_HASH = "8f31b4691b9e8260cd7a3922b5942a935e3ac08d8947f2456c42a3cc76f6a9e02cae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-relaxed \
-python3.10dist(pytest-relaxed) \
+python3.10dist-pytest-relaxed \
 python310-pytest-relaxed \
-python3dist(pytest-relaxed)"
+python3dist-pytest-relaxed"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-decorator \
 python310-pytest"
 

@@ -11,17 +11,15 @@ PV = "0.1.0"
 RPM_NAME = "libSILLY1-0.1.0-1.8.aarch64.rpm"
 RPM_HASH = "314e724ae7fb9a578604916c6fd882edcd0e6d86caa525ff5dd3caa44d059d8280cd9a35c304790eef5ea984c51ea04ae6e517a36f968f937592a7b56606168e"
 
-RPROVIDES:${PN} += "libSILLY.so.1()(64bit) \
-libSILLY1 \
-libSILLY1(aarch-64)"
+RPROVIDES:${PN} += "libSILLY.so.1 \
+libSILLY1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libpng16.so.16 \
+libstdc++.so.6"
 
 inherit rpm

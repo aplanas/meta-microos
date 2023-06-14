@@ -12,11 +12,11 @@ RPM_HASH = "4b22bafe3bf884fd3d3bab62ef0775c116d02a87044bc5db2511b10748e3252d1b23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flickrapi \
-python3.10dist(flickrapi) \
+python3.10dist-flickrapi \
 python310-flickrapi \
-python3dist(flickrapi)"
+python3dist-flickrapi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-requests-oauthlib \
 python310-requests-toolbelt"

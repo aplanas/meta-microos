@@ -10,12 +10,11 @@ PV = "5.44"
 RPM_NAME = "file-5.44-2.1.aarch64.rpm"
 RPM_HASH = "66bd77f8cd5db1ffc036d5dd31be73faa1a9b33c7d71e5c12168993715f01c1c7add1c5f695bf510f3f9038a734c61df58f73b722cc25dc3eef9849680e39360"
 
-RPROVIDES:${PN} += "file \
-file(aarch-64)"
+RPROVIDES:${PN} += "file"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmagic.so.1()(64bit) \
-libseccomp.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmagic.so.1 \
+libseccomp.so.2"
 
 inherit rpm

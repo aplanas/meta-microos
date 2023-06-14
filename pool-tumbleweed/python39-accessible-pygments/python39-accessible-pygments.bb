@@ -8,11 +8,11 @@ RPM_NAME = "python39-accessible-pygments-0.0.4-1.2.noarch.rpm"
 RPM_HASH = "2160fa16a214394be7e77c5a7354aa0a8063dbf6dcc294b82c6de9cc9da50d72a1d50470be6d400f0bae5382d68f102c20ad8095531ab3f7eedec20d14908d42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(accessible-pygments) \
+RPROVIDES:${PN} += "python3.9dist-accessible-pygments \
 python39-accessible-pygments \
-python3dist(accessible-pygments)"
+python3dist-accessible-pygments"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pygments"
 
 inherit rpm

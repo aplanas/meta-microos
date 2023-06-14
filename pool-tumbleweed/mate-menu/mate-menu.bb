@@ -14,15 +14,15 @@ RPM_HASH = "ad07bf85414bfc7bcd79ab307ec8a06ff274bcc91d4bb7eb9c8f729e01e58e9ff4fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-menu \
-python3.10dist(mate-menu) \
-python3dist(mate-menu)"
+python3.10dist-mate-menu \
+python3dist-mate-menu"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 glib2-tools \
 gvfs \
 mate-menus \
 mozo \
-python(abi) \
+python-abi \
 python3-Unidecode \
 python3-configobj \
 python3-gobject \
@@ -30,16 +30,16 @@ python3-gobject-Gdk \
 python3-pyxdg \
 python3-setproctitle \
 python3-xlib \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(GdkX11) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(MateMenu) \
-typelib(MatePanelApplet) \
-typelib(Pango) \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-GdkX11 \
+typelib-Gio \
+typelib-Gtk \
+typelib-MateMenu \
+typelib-MatePanelApplet \
+typelib-Pango \
 xdg-utils"
 
 inherit rpm

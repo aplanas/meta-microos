@@ -19,11 +19,10 @@ PV = "3.0.3"
 RPM_NAME = "python311-application-3.0.3-2.10.aarch64.rpm"
 RPM_HASH = "75b95d314ff145ab809db9a22338e682b48ac5ee7adac4fbce74cf2199a4a17804a19f657152006d08be7af4620637771cc400e95dd0d96ac430bc9875e7bd41"
 
-RPROVIDES:${PN} += "python3.11dist(python3-application) \
+RPROVIDES:${PN} += "python3.11dist-python3-application \
 python311-application \
-python311-application(aarch-64) \
-python3dist(python3-application)"
+python3dist-python3-application"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

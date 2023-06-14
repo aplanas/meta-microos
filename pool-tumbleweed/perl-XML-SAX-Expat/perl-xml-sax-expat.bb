@@ -16,14 +16,14 @@ RPM_NAME = "perl-XML-SAX-Expat-0.51-4.16.noarch.rpm"
 RPM_HASH = "9b967f6730d2c467af9fa8e8d49d8b2fb1c8d417c7af5e349da981d2c7616f7331def261dede76db955355db5f24e16f7263332dd156125768cf186289cb1389"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::SAX::Expat) \
+RPROVIDES:${PN} += "perl-XML--SAX--Expat \
 perl-XML-SAX-Expat"
 
 RDEPENDS:${PN} += "/bin/sh \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(XML::NamespaceSupport) \
-perl(XML::Parser) \
-perl(XML::SAX) \
-perl(XML::SAX::Base)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-XML--NamespaceSupport \
+perl-XML--Parser \
+perl-XML--SAX \
+perl-XML--SAX--Base"
 
 inherit rpm

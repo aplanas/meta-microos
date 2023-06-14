@@ -10,7 +10,7 @@ RPM_NAME = "texlive-dashbox-2023.204.1.14svn23425-54.1.noarch.rpm"
 RPM_HASH = "7358643c79c97bf22a37a29659c4d7921fee64f611fca1af47db36918222c336d826ba152c79bf588f412d5ad395bea6155e8a2bc763d92068706e55df0c8e79"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dashbox.sty) \
+RPROVIDES:${PN} += "tex-dashbox.sty \
 texlive-dashbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(ifthen.sty) \
+tex-calc.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

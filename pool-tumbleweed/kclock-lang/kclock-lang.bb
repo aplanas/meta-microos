@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kclock-lang \
 kclock-lang-all \
-locale(kclock:ar) \
-locale(kclock:ca) \
-locale(kclock:ca@valencia) \
-locale(kclock:cs) \
-locale(kclock:de) \
-locale(kclock:el) \
-locale(kclock:en_GB) \
-locale(kclock:es) \
-locale(kclock:eu) \
-locale(kclock:fi) \
-locale(kclock:fr) \
-locale(kclock:hi) \
-locale(kclock:hu) \
-locale(kclock:it) \
-locale(kclock:ja) \
-locale(kclock:ka) \
-locale(kclock:ko) \
-locale(kclock:lt) \
-locale(kclock:nl) \
-locale(kclock:nn) \
-locale(kclock:pa) \
-locale(kclock:pl) \
-locale(kclock:pt) \
-locale(kclock:pt_BR) \
-locale(kclock:ro) \
-locale(kclock:ru) \
-locale(kclock:sk) \
-locale(kclock:sl) \
-locale(kclock:sv) \
-locale(kclock:tr) \
-locale(kclock:uk) \
-locale(kclock:zh_CN) \
-locale(kclock:zh_TW)"
+locale-kclock-ar \
+locale-kclock-ca \
+locale-kclock-ca@valencia \
+locale-kclock-cs \
+locale-kclock-de \
+locale-kclock-el \
+locale-kclock-en-GB \
+locale-kclock-es \
+locale-kclock-eu \
+locale-kclock-fi \
+locale-kclock-fr \
+locale-kclock-hi \
+locale-kclock-hu \
+locale-kclock-it \
+locale-kclock-ja \
+locale-kclock-ka \
+locale-kclock-ko \
+locale-kclock-lt \
+locale-kclock-nl \
+locale-kclock-nn \
+locale-kclock-pa \
+locale-kclock-pl \
+locale-kclock-pt \
+locale-kclock-pt-BR \
+locale-kclock-ro \
+locale-kclock-ru \
+locale-kclock-sk \
+locale-kclock-sl \
+locale-kclock-sv \
+locale-kclock-tr \
+locale-kclock-uk \
+locale-kclock-zh-CN \
+locale-kclock-zh-TW"
 
 RDEPENDS:${PN} += "kclock"
 

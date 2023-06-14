@@ -9,12 +9,12 @@ RPM_HASH = "165f4be8fb565c2f5e645b90c540a103966c40f3cfbe347a7b930045ce6c3dfbcf31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pass-import \
-python3.10dist(pass-import) \
-python3dist(pass-import)"
+python3.10dist-pass-import \
+python3dist-pass-import"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML"
 
 inherit rpm

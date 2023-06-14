@@ -16,11 +16,11 @@ RPM_HASH = "a3748da07bbf1c5a012b31c7da9c2ed82f042a464066767826d3b4c74eec7d99dc97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyMySQL \
-python3.10dist(pymysql) \
+python3.10dist-pymysql \
 python310-PyMySQL \
-python3dist(pymysql)"
+python3dist-pymysql"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography"
 
 inherit rpm

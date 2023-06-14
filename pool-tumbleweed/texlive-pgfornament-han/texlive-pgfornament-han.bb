@@ -18,11 +18,11 @@ RPM_NAME = "texlive-pgfornament-han-2023.201.svn54191-51.1.noarch.rpm"
 RPM_HASH = "c88882e1e3292bead9e2b093b575625e3c45b0f14de055e327362e6161d595e07a20ba07a49fbca04d7396ca9194f82751b727a403099b5b8c9b2244372dc239"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamerthemeHeavenlyClouds.sty) \
-tex(beamerthemeXiaoshan.sty) \
-tex(cncolours.sty) \
-tex(pgflibraryhan.code.tex) \
-tex(pgfornament-han.sty) \
+RPROVIDES:${PN} += "tex-beamerthemeHeavenlyClouds.sty \
+tex-beamerthemeXiaoshan.sty \
+tex-cncolours.sty \
+tex-pgflibraryhan.code.tex \
+tex-pgfornament-han.sty \
 texlive-pgfornament-han"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,13 +31,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(needspace.sty) \
-tex(pgfmath.sty) \
-tex(pgfornament.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
-tex(xpatch.sty) \
+tex-calc.sty \
+tex-needspace.sty \
+tex-pgfmath.sty \
+tex-pgfornament.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

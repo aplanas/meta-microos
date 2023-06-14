@@ -8,8 +8,7 @@ PV = "1.26"
 RPM_NAME = "renderdoc-devel-1.26-1.1.aarch64.rpm"
 RPM_HASH = "b7eaaf5011fa5c6d26ca4b04a20c0403f080cc3ab26bf9c72e3588f65a813221652fa2cf36bbab76104ee864e53a95334cd926c169a5552314bebfce77a45e5f"
 
-RPROVIDES:${PN} += "renderdoc-devel \
-renderdoc-devel(aarch-64)"
+RPROVIDES:${PN} += "renderdoc-devel"
 
 RDEPENDS:${PN} += "renderdoc"
 

@@ -8,21 +8,20 @@ PV = "1.5.12+git.0684c1b"
 RPM_NAME = "libftdi1-devel-1.5.12+git.0684c1b-2.1.aarch64.rpm"
 RPM_HASH = "60ef0313157bb4d6bd1381d8d5648ef97b369b15eb8df6769bc6db4871424f62ff8c461fdbd02a3dd5fa65ac97f9a970fce12a891abb28e2baf92812e71dfabc"
 
-RPROVIDES:${PN} += "cmake(LibFTDI1) \
+RPROVIDES:${PN} += "cmake-LibFTDI1 \
 libftdi1-devel \
-libftdi1-devel(aarch-64) \
-pkgconfig(libftdi1) \
-pkgconfig(libftdipp1)"
+pkgconfig-libftdi1 \
+pkgconfig-libftdipp1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libconfuse.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libconfuse.so.2 \
 libftdi1-2 \
-libftdi1.so.2()(64bit) \
-libusb-1.0.so.0()(64bit) \
-pkgconfig(libftdi1) \
-pkgconfig(libusb-1.0)"
+libftdi1.so.2 \
+libusb-1.0.so.0 \
+pkgconfig-libftdi1 \
+pkgconfig-libusb-1.0"
 
 inherit rpm

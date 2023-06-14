@@ -10,13 +10,13 @@ RPM_HASH = "7cbd1669348a16eaf7b7f46a7f61965b7bdf1fd206f4dd57786bfc91a18a91355343
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requre \
-python3.10dist(requre) \
+python3.10dist-requre \
 python310-requre \
-python3dist(requre)"
+python3dist-requre"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-GitPython \
 python310-PyYAML \
 python310-click \

@@ -11,15 +11,15 @@ RPM_NAME = "xml-security-2.1.7-3.10.noarch.rpm"
 RPM_HASH = "dabc4fea7988d2c7d057e62dc2dc87824255016c04d4f9d931da595a1b512834722aa02b58307691d58194cdf66065eb8051df8cf4272e1d4269f0ba6df5c4cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.apache.santuario:xmlsec) \
-mvn(org.apache.santuario:xmlsec:pom:) \
-osgi(org.apache.santuario.xmlsec) \
+RPROVIDES:${PN} += "mvn-org.apache.santuario-xmlsec \
+mvn-org.apache.santuario-xmlsec-pom- \
+osgi-org.apache.santuario.xmlsec \
 xml-security"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.woodstox:woodstox-core) \
-mvn(commons-codec:commons-codec) \
-mvn(org.slf4j:slf4j-api)"
+mvn-com.fasterxml.woodstox-woodstox-core \
+mvn-commons-codec-commons-codec \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

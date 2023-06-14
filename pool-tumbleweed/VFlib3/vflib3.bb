@@ -15,14 +15,13 @@ PV = "3.7.2"
 RPM_NAME = "VFlib3-3.7.2-1.9.aarch64.rpm"
 RPM_HASH = "aca52968accb822c82c270f032904158b9ab90a8c585ed3365561fe8988ed8a0abebfb8ded26b86e91b6980cc817a0e425b0ea56c31d57e88b7fbd707418fc7d"
 
-RPROVIDES:${PN} += "VFlib3 \
-VFlib3(aarch-64)"
+RPROVIDES:${PN} += "VFlib3"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libVFlib3.so.10()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libkpathsea.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libVFlib3.so.10 \
+libX11.so.6 \
+libc.so.6 \
+libkpathsea.so.6"
 
 inherit rpm

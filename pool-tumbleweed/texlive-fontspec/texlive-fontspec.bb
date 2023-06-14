@@ -12,10 +12,10 @@ RPM_NAME = "texlive-fontspec-2023.201.2.8asvn63386-52.1.noarch.rpm"
 RPM_HASH = "0a10c9cbbe222794a6a2996eebccae5b85918b1c161c7d314d87ea323cf0fcafcff6d264bd16385da0775f1b0009a0387ec30c2d319df43085b4fccf8cc39680"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fontspec-luatex.sty) \
-tex(fontspec-xetex.sty) \
-tex(fontspec.cfg) \
-tex(fontspec.sty) \
+RPROVIDES:${PN} += "tex-fontspec-luatex.sty \
+tex-fontspec-xetex.sty \
+tex-fontspec.cfg \
+tex-fontspec.sty \
 texlive-fontspec"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,10 +24,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(fontenc.sty) \
-tex(luaotfload.sty) \
-tex(xparse.sty) \
-tex(xunicode.sty) \
+tex-fontenc.sty \
+tex-luaotfload.sty \
+tex-xparse.sty \
+tex-xunicode.sty \
 texlive \
 texlive-euenc \
 texlive-filesystem \

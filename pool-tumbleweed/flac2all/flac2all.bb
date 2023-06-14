@@ -11,11 +11,11 @@ RPM_HASH = "f453e3a2db9ce282248319079d0ede17845bb224ee5b911adb2ca982cd9e6f376b42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flac2all \
-python3.10dist(flac2all) \
-python3dist(flac2all)"
+python3.10dist-flac2all \
+python3dist-flac2all"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-curses"
 
 inherit rpm

@@ -15,13 +15,13 @@ RPM_NAME = "snakeyaml-1.33-1.2.noarch.rpm"
 RPM_HASH = "3f71025c77bea201a2eb5928ef99939eae37c50268cfd576ae3eb8214b3673d672870a28ab188ee49e40e4ca42cb20807aadb686c8b465487581a9596192169a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.yaml:snakeyaml) \
-mvn(org.yaml:snakeyaml:pom:) \
-osgi(org.yaml.snakeyaml) \
+RPROVIDES:${PN} += "mvn-org.yaml-snakeyaml \
+mvn-org.yaml-snakeyaml-pom- \
+osgi-org.yaml.snakeyaml \
 snakeyaml"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-codec:commons-codec)"
+mvn-commons-codec-commons-codec"
 
 inherit rpm

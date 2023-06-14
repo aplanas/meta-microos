@@ -15,13 +15,13 @@ RPM_HASH = "6f4f1c2a54bb24f699888a580f48c743ad062d3bb4ec60c7d65669b7b707f834367c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyroma \
-python3.10dist(pyroma) \
+python3.10dist-pyroma \
 python310-pyroma \
-python3dist(pyroma)"
+python3dist-pyroma"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pygments \
 python310-docutils \
 python310-setuptools \

@@ -10,11 +10,11 @@ RPM_HASH = "4fe9c9d69573ba1047618b80966a59c913836ace27794cdf2a841b3847c8d6724d0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-RSTPages \
-python3.10dist(flask-rstpages) \
+python3.10dist-flask-rstpages \
 python310-Flask-RSTPages \
-python3dist(flask-rstpages)"
+python3dist-flask-rstpages"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-Pygments \
 python310-docutils"

@@ -15,12 +15,12 @@ RPM_HASH = "c1707ac98c08be6fed81a774a917ff8abfbf41a2c1f9e6d14e8ca0e76f6636ac5df0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdom2 \
-mvn(org.jdom:jdom2) \
-mvn(org.jdom:jdom2-contrib) \
-mvn(org.jdom:jdom2-contrib:pom:) \
-mvn(org.jdom:jdom2-junit) \
-mvn(org.jdom:jdom2-junit:pom:) \
-mvn(org.jdom:jdom2:pom:)"
+mvn-org.jdom-jdom2 \
+mvn-org.jdom-jdom2-contrib \
+mvn-org.jdom-jdom2-contrib-pom- \
+mvn-org.jdom-jdom2-junit \
+mvn-org.jdom-jdom2-junit-pom- \
+mvn-org.jdom-jdom2-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

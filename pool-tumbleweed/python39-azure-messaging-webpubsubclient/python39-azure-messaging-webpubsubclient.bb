@@ -22,12 +22,12 @@ RPM_NAME = "python39-azure-messaging-webpubsubclient-1.0.0~b1-1.1.noarch.rpm"
 RPM_HASH = "6de54ddbcbf346b895a0e439d20a669b74546ef0ea0d5b67750a3b04c632aa6ff392922a57944fdf3547b6bc7ce5d50338d83843fec88c9ebadc05e312128d71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-messaging-webpubsubclient) \
+RPROVIDES:${PN} += "python3.9dist-azure-messaging-webpubsubclient \
 python39-azure-messaging-webpubsubclient \
-python3dist(azure-messaging-webpubsubclient)"
+python3dist-azure-messaging-webpubsubclient"
 
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
+python-abi \
 python39-azure-core \
 python39-azure-messaging-nspkg \
 python39-azure-nspkg \

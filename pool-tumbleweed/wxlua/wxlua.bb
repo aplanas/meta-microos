@@ -8,20 +8,16 @@ PV = "3.1.0.0+42"
 RPM_NAME = "wxlua-3.1.0.0+42-2.2.aarch64.rpm"
 RPM_HASH = "56863577ff14a96ceee5967dac77e87f57f28b8f7dc9b2e888ba9960fe669c2065732a335747760e97c6fb8a9382c7d1b16b93eb6c93764cc281dde492932321"
 
-RPROVIDES:${PN} += "application() \
-application(wxlua.desktop) \
-mimehandler(application/lua) \
-wxlua \
-wxlua(aarch-64)"
+RPROVIDES:${PN} += "wxlua"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.4.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwxlua-wx32gtk3u-3.1.0.0.so()(64bit) \
-libwxlua_bind-wx32gtk3u-3.1.0.0.so()(64bit) \
-libwxlua_debugger-wx32gtk3u-3.1.0.0.so()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+liblua5.4.so.5 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwxlua-bind-wx32gtk3u-3.1.0.0.so \
+libwxlua-debugger-wx32gtk3u-3.1.0.0.so \
+libwxlua-wx32gtk3u-3.1.0.0.so"
 
 inherit rpm

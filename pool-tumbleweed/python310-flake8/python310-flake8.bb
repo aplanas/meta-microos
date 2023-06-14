@@ -16,16 +16,16 @@ RPM_HASH = "2cd095090b40b24c0e3d5ffe8971b937e851972b819ce1dc2b5b1d73e9b8a5b156e6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8 \
-python3.10dist(flake8) \
+python3.10dist-flake8 \
 python310-flake8 \
-python3dist(flake8)"
+python3dist-flake8"
 
-RDEPENDS:${PN} += "(python310-mccabe >= 0.7.0 with python310-mccabe < 0.8.0) \
-(python310-pycodestyle >= 2.10.0 with python310-pycodestyle < 2.11.0) \
-(python310-pyflakes >= 3.0.0 with python310-pyflakes < 3.1.0) \
+RDEPENDS:${PN} += "-python310-mccabe >= 0.7.0 with python310-mccabe < 0.8.0 \
+-python310-pycodestyle >= 2.10.0 with python310-pycodestyle < 2.11.0 \
+-python310-pyflakes >= 3.0.0 with python310-pyflakes < 3.1.0 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

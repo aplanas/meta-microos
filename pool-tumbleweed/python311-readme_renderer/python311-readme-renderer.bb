@@ -10,11 +10,11 @@ RPM_NAME = "python311-readme_renderer-37.3-3.1.noarch.rpm"
 RPM_HASH = "118e2ec94f09920c115024dc83de867ed2180b8f6e47e9ff669aef1da1164570002636b2e80827c1f4619b30abbc1571c74840f31826e56eb19ffaa0c8fb5e05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(readme-renderer) \
-python311-readme_renderer \
-python3dist(readme-renderer)"
+RPROVIDES:${PN} += "python3.11dist-readme-renderer \
+python311-readme-renderer \
+python3dist-readme-renderer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Pygments \
 python311-bleach \
 python311-docutils"

@@ -12,16 +12,15 @@ RPM_NAME = "sensord-3.6.0-8.7.aarch64.rpm"
 RPM_HASH = "4bd470eaf70dae8a1da4faddb8bb389dc0a7d07055a99e96a54f74e3410f2f25cb8e4543bfa52ed5ef08ba1515fa1d9d785ed398834ec36c1a15ce9b8f2ef115"
 
 RPROVIDES:${PN} += "sensord \
-sensord(aarch-64) \
-sensors:/usr/sbin/sensord"
+sensors-/usr/sbin/sensord"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-librrd.so.8()(64bit) \
-libsensors.so.4()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+librrd.so.8 \
+libsensors.so.4"
 
 inherit rpm

@@ -17,8 +17,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-sip4-common \
 python310-sip4-common \
 python39-sip4-common \
-rpm_macro(python_sip_api_ver) \
-rpm_macro(requires_python3_sip_api)"
+rpm-macro-python-sip-api-ver \
+rpm-macro-requires-python3-sip-api"
 
 RDEPENDS:${PN} += ""
 

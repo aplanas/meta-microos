@@ -10,10 +10,10 @@ RPM_HASH = "7217883491d49956d2234ea8ecc816410b6da9adbfa631c431236e94d53cc8266df9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-requests-debug-toolbar \
-python3.10dist(django-requests-debug-toolbar) \
+python3.10dist-django-requests-debug-toolbar \
 python310-django-requests-debug-toolbar \
-python3dist(django-requests-debug-toolbar)"
+python3dist-django-requests-debug-toolbar"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

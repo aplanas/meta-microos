@@ -12,40 +12,40 @@ RPM_NAME = "texlive-babel-hebrew-2023.201.2.3hsvn30273-53.1.noarch.rpm"
 RPM_HASH = "d25de00517c6e5523dbec50b85f6cafa21d7b5d4a1b49b7e3e080684ac4bd24c5ec39e391b0f909838c2a9dc20565fd569dd05d361bb9a8910fb1e504cb13cc7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(8859-8.def) \
-tex(cp1255.def) \
-tex(cp862.def) \
-tex(he8OmegaHebrew.fd) \
-tex(he8aharoni.fd) \
-tex(he8cmr.fd) \
-tex(he8cmss.fd) \
-tex(he8cmtt.fd) \
-tex(he8david.fd) \
-tex(he8drugulin.fd) \
-tex(he8enc.def) \
-tex(he8frankruehl.fd) \
-tex(he8miriam.fd) \
-tex(he8nachlieli.fd) \
-tex(he8yad.fd) \
-tex(hebcal.sty) \
-tex(hebfont.sty) \
-tex(hebrew.ldf) \
-tex(hebrew_newcode.sty) \
-tex(hebrew_oldcode.sty) \
-tex(hebrew_p.sty) \
-tex(lheclas.fd) \
-tex(lhecmr.fd) \
-tex(lhecmss.fd) \
-tex(lhecmtt.fd) \
-tex(lhecrml.fd) \
-tex(lheenc.def) \
-tex(lhefr.fd) \
-tex(lheredis.fd) \
-tex(lheshold.fd) \
-tex(lheshscr.fd) \
-tex(lheshstk.fd) \
-tex(rlbabel.def) \
-tex(si960.def) \
+RPROVIDES:${PN} += "tex-8859-8.def \
+tex-cp1255.def \
+tex-cp862.def \
+tex-he8OmegaHebrew.fd \
+tex-he8aharoni.fd \
+tex-he8cmr.fd \
+tex-he8cmss.fd \
+tex-he8cmtt.fd \
+tex-he8david.fd \
+tex-he8drugulin.fd \
+tex-he8enc.def \
+tex-he8frankruehl.fd \
+tex-he8miriam.fd \
+tex-he8nachlieli.fd \
+tex-he8yad.fd \
+tex-hebcal.sty \
+tex-hebfont.sty \
+tex-hebrew-newcode.sty \
+tex-hebrew-oldcode.sty \
+tex-hebrew-p.sty \
+tex-hebrew.ldf \
+tex-lheclas.fd \
+tex-lhecmr.fd \
+tex-lhecmss.fd \
+tex-lhecmtt.fd \
+tex-lhecrml.fd \
+tex-lheenc.def \
+tex-lhefr.fd \
+tex-lheredis.fd \
+tex-lheshold.fd \
+tex-lheshscr.fd \
+tex-lheshstk.fd \
+tex-rlbabel.def \
+tex-si960.def \
 texlive-babel-hebrew"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -54,8 +54,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
-tex(inputenc.sty) \
+tex-babel.sty \
+tex-inputenc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

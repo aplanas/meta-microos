@@ -7,21 +7,20 @@ PV = "0.8.18"
 RPM_NAME = "libcompizconfig-0.8.18-2.11.aarch64.rpm"
 RPM_HASH = "39e31fcabebdff9332c1b79dc2e901fbcbd87af921bb025a8f7952f6cafc0a6b238c2fde815404143f0018cf4180a95a64f67b5ff67515572149f3f01c0c1599"
 
-RPROVIDES:${PN} += "config(libcompizconfig) \
-libccp.so()(64bit) \
+RPROVIDES:${PN} += "config-libcompizconfig \
+libccp.so \
 libcompizconfig \
-libcompizconfig(aarch-64) \
-libcompizconfig.so.0()(64bit) \
-libini.so()(64bit)"
+libcompizconfig.so.0 \
+libini.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 compiz \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprotobuf-3.21.12.so \
+libstdc++.so.6 \
+libxml2.so.2"
 
 inherit rpm

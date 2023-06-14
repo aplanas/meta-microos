@@ -9,13 +9,13 @@ RPM_HASH = "676f89c181bf7b444af9ce228cf5706c3cff35073e46a03e183d16dcbe75d0c5e280
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-asyncclient-cache \
-mvn(org.apache.httpcomponents:httpasyncclient-cache) \
-mvn(org.apache.httpcomponents:httpasyncclient-cache:pom:) \
-osgi(org.apache.httpcomponents.httpasyncclient-cache)"
+mvn-org.apache.httpcomponents-httpasyncclient-cache \
+mvn-org.apache.httpcomponents-httpasyncclient-cache-pom- \
+osgi-org.apache.httpcomponents.httpasyncclient-cache"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.httpcomponents:httpasyncclient) \
-mvn(org.apache.httpcomponents:httpclient-cache)"
+mvn-org.apache.httpcomponents-httpasyncclient \
+mvn-org.apache.httpcomponents-httpclient-cache"
 
 inherit rpm

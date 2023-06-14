@@ -13,18 +13,17 @@ RPM_HASH = "5f87f09c4e12c1e0dc433da9d38adf3dc854c00ff14c23cef60f9b8eee1846e54d14
 RPROVIDES:${PN} += "python-glue \
 python3-glue \
 python3-lscsoft-glue \
-python3.10dist(lscsoft-glue) \
+python3.10dist-lscsoft-glue \
 python310-glue \
 python310-lscsoft-glue \
-python310-lscsoft-glue(aarch-64) \
-python3dist(lscsoft-glue)"
+python3dist-lscsoft-glue"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 lscsoft-glue-data \
-python(abi) \
+python-abi \
 python310-ligo-segments \
 python310-numpy \
 python310-pyRXP \

@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ifntasia \
 intlfonts-asian-bitmap-fonts \
-locale(xorg-x11:km;th;vi)"
+locale-xorg-x11-km;th;vi"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

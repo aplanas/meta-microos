@@ -19,10 +19,9 @@ PV = "1.0rc12+git.20191116"
 RPM_NAME = "tcpser-1.0rc12+git.20191116-1.13.aarch64.rpm"
 RPM_HASH = "1ab8468f9212afd6278ebc9a48398a0b13cd70bc1f70a2e17a7ccaaa3258d52e9cda0f574971357ee99b94186810a615b65c42559f71538a7fbe0c08c4332664"
 
-RPROVIDES:${PN} += "tcpser \
-tcpser(aarch-64)"
+RPROVIDES:${PN} += "tcpser"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

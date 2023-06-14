@@ -13,17 +13,16 @@ PV = "1.16"
 RPM_NAME = "htsfile-1.16-1.3.aarch64.rpm"
 RPM_HASH = "bdf74363f97dcbf3260bf07447ed7fd3f57a5445c4db0de16479aab484e39bdc042bded3ac733ffcfde81d6fc0021c96e86f48f35129f2012df5ea89df48736d"
 
-RPROVIDES:${PN} += "htsfile \
-htsfile(aarch-64)"
+RPROVIDES:${PN} += "htsfile"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcurl.so.4 \
 libhts3 \
-libhtscodecs.so.2()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit)"
+libhtscodecs.so.2 \
+liblzma.so.5 \
+libm.so.6 \
+libz.so.1"
 
 inherit rpm

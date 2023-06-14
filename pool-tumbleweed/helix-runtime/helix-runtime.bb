@@ -10,10 +10,9 @@ PV = "23.05"
 RPM_NAME = "helix-runtime-23.05-1.1.aarch64.rpm"
 RPM_HASH = "164d084fd1dfb65a7276fe06b0d1506cb41376005dde7518f7f67d2076e1c893e15a3958a314d37e6835cdf12aea951b6cb7075dd570bd860b1868280242e3ca"
 
-RPROVIDES:${PN} += "helix-runtime \
-helix-runtime(aarch-64)"
+RPROVIDES:${PN} += "helix-runtime"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

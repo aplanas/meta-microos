@@ -66,10 +66,10 @@ RPM_NAME = "perl-ExtUtils-Depends-0.8001-1.9.noarch.rpm"
 RPM_HASH = "8ebb8127078ee772ea0e331bb1b3ac090b03a8cdc8857c7fd5665f319966b54c47db5e08e8be28627b776f02b265a8995393f37b2c172dc40feefafb2f804196"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(ExtUtils::Depends) \
+RPROVIDES:${PN} += "perl-ExtUtils--Depends \
 perl-ExtUtils-Depends"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(ExtUtils::MakeMaker)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-ExtUtils--MakeMaker"
 
 inherit rpm

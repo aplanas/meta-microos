@@ -11,20 +11,18 @@ PV = "4.4.4"
 RPM_NAME = "libavutil56_70-4.4.4-1.2.aarch64.rpm"
 RPM_HASH = "cf5a06bc911dfb494198db46ecee4eb7b764e1470f4c0d0687f8136aab62f684f0eb05fb4e9b9e1d0e48e4d934b7c9e3a4b81a1a17410fb2ae76184be6de197a"
 
-RPROVIDES:${PN} += "libavutil.so.56.70()(64bit) \
-libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libavutil56_70 \
-libavutil56_70(aarch-64)"
+RPROVIDES:${PN} += "libavutil.so.56.70 \
+libavutil56-70"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libdrm.so.2()(64bit) \
-libm.so.6()(64bit) \
-libva-drm.so.2()(64bit) \
-libva.so.2()(64bit) \
-libvdpau.so.1()(64bit) \
-libvulkan.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libdrm.so.2 \
+libm.so.6 \
+libva-drm.so.2 \
+libva.so.2 \
+libvdpau.so.1 \
+libvulkan.so.1"
 
 inherit rpm

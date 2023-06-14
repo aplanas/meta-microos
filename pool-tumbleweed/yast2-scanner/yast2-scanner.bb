@@ -16,16 +16,11 @@ PV = "4.6.0"
 RPM_NAME = "yast2-scanner-4.6.0-1.2.aarch64.rpm"
 RPM_HASH = "2f80f6adc53101ab92b79e255c3dfbd9b4db1777444f2fca42cd7c466e1b414de4339582869bd7bba770c5555a6f4c146233130ab628a71e5837ba2cdc260961"
 
-RPROVIDES:${PN} += "application() \
-application(org.opensuse.yast.Scanner.desktop) \
-metainfo() \
-metainfo(org.opensuse.yast.Scanner.metainfo.xml) \
-yast2-scanner \
-yast2-scanner(aarch-64)"
+RPROVIDES:${PN} += "yast2-scanner"
 
 RDEPENDS:${PN} += "/bin/bash \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
+libX11.so.6 \
+libc.so.6 \
 yast2 \
 yast2-ruby-bindings"
 

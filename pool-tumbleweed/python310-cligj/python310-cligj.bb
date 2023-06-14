@@ -9,11 +9,11 @@ RPM_HASH = "7d3cad71b24926bc8ed95d11903180b78d8842ec33132b44b23e27af7f8a8da0bf6e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cligj \
-python3.10dist(cligj) \
+python3.10dist-cligj \
 python310-cligj \
-python3dist(cligj)"
+python3dist-cligj"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-click"
 
 inherit rpm

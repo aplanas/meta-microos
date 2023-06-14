@@ -14,11 +14,11 @@ RPM_HASH = "32e381aea6804f1269d74e06bca3136c7f8c972b1f4a35b28d8032a4c818182cb703
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-edgegateway \
-python3.10dist(azure-mgmt-edgegateway) \
+python3.10dist-azure-mgmt-edgegateway \
 python310-azure-mgmt-edgegateway \
-python3dist(azure-mgmt-edgegateway)"
+python3dist-azure-mgmt-edgegateway"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \

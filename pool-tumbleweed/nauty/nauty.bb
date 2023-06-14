@@ -16,14 +16,13 @@ PV = "2.8.6"
 RPM_NAME = "nauty-2.8.6-1.3.aarch64.rpm"
 RPM_HASH = "1ff48e553178d0f1528df2ae65424d925d08cee7c98b25761e30f6859c22972fd7aed336ff03bb6f31f5d9d09d941157f0bf0eebaf6653132b8920d26025353d"
 
-RPROVIDES:${PN} += "nauty \
-nauty(aarch-64)"
+RPROVIDES:${PN} += "nauty"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libnauty-2.8.6.so()(64bit) \
-libnautyL1-2.8.6.so()(64bit) \
-libnautyW1-2.8.6.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libnauty-2.8.6.so \
+libnautyL1-2.8.6.so \
+libnautyW1-2.8.6.so"
 
 inherit rpm

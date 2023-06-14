@@ -10,7 +10,7 @@ RPM_NAME = "texlive-readablecv-2023.201.3.0svn61719-53.1.noarch.rpm"
 RPM_HASH = "33552b07ae2d98bffbb3b552e751d1521a7ff7622cbe9fe9df3d0531f90f4061ae3aa3aba08b2b27d9beb986722da2b7202a5fd98adecdbd03ae302d3ac64f6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ReadableCV.cls) \
+RPROVIDES:${PN} += "tex-ReadableCV.cls \
 texlive-readablecv"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,17 +19,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(datetime.sty) \
-tex(etoolbox.sty) \
-tex(fontenc.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(marvosym.sty) \
-tex(memoir.cls) \
-tex(multicol.sty) \
-tex(roboto.sty) \
-tex(xcolor.sty) \
-tex(xstring.sty) \
+tex-datetime.sty \
+tex-etoolbox.sty \
+tex-fontenc.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-marvosym.sty \
+tex-memoir.cls \
+tex-multicol.sty \
+tex-roboto.sty \
+tex-xcolor.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

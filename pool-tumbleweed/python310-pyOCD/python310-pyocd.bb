@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyOCD \
 python3-pyocd \
-python3.10dist(pyocd) \
+python3.10dist-pyocd \
 python310-pyOCD \
 python310-pyocd \
-python3dist(pyocd)"
+python3dist-pyocd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-usb \
 update-alternatives"
 

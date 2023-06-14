@@ -13,10 +13,9 @@ RPM_HASH = "770c3f6f8a52c36f54703e68a7643df051056239b457dac4b7e6acbffd5613dd0fb1
 
 RPROVIDES:${PN} += "ibritish \
 ispell-british \
-ispell-british(aarch-64) \
-ispell_dictionary \
-ispell_english_dictionary \
-locale(ispell:en_GB)"
+ispell-dictionary \
+ispell-english-dictionary \
+locale-ispell-en-GB"
 
 RDEPENDS:${PN} += "/bin/sh \
 bash \

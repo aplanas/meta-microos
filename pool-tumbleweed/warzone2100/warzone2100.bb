@@ -21,36 +21,30 @@ PV = "4.3.5"
 RPM_NAME = "warzone2100-4.3.5-1.1.aarch64.rpm"
 RPM_HASH = "ad7bc91cce80046cace6b029f75378a38dbf4881613f2de922e24b1bda6ab50776db4fe36fef931e6d53927afce8547fe0fcc16f9789a73e4742c33dbfa200b0"
 
-RPROVIDES:${PN} += "application() \
-application(warzone2100.desktop) \
-metainfo() \
-metainfo(warzone2100.appdata.xml) \
-warzone2100 \
-warzone2100(aarch-64)"
+RPROVIDES:${PN} += "warzone2100"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libfreetype.so.6()(64bit) \
-libfribidi.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libm.so.6()(64bit) \
-libminiupnpc.so.17()(64bit) \
-libogg.so.0()(64bit) \
-libopenal.so.1()(64bit) \
-libopus.so.0()(64bit) \
-libphysfs.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsodium.so.23()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtheoradec.so.1()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisfile.so.3()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libcurl.so.4 \
+libfreetype.so.6 \
+libfribidi.so.0 \
+libgcc-s.so.1 \
+libharfbuzz.so.0 \
+libm.so.6 \
+libminiupnpc.so.17 \
+libogg.so.0 \
+libopenal.so.1 \
+libopus.so.0 \
+libphysfs.so.1 \
+libpng16.so.16 \
+libsodium.so.23 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libtheoradec.so.1 \
+libvorbis.so.0 \
+libvorbisfile.so.3 \
+libz.so.1 \
 warzone2100-data"
 
 inherit rpm

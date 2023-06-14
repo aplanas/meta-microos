@@ -14,35 +14,35 @@ RPM_NAME = "perl-DBM-Deep-2.0016-1.17.noarch.rpm"
 RPM_HASH = "54b88e7869e268f7c4d73c1782418b2ed1f8fbec489f157281b2bde5403e161b7371b84f75a478aab0bc47f124fce8b4033805f573ce97f662fd50ae08be0e52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DBM::Deep) \
-perl(DBM::Deep::Array) \
-perl(DBM::Deep::ConfigData) \
-perl(DBM::Deep::Engine) \
-perl(DBM::Deep::Engine::DBI) \
-perl(DBM::Deep::Engine::File) \
-perl(DBM::Deep::Hash) \
-perl(DBM::Deep::Iterator) \
-perl(DBM::Deep::Iterator::DBI) \
-perl(DBM::Deep::Iterator::File) \
-perl(DBM::Deep::Iterator::File::BucketList) \
-perl(DBM::Deep::Iterator::File::Index) \
-perl(DBM::Deep::Null) \
-perl(DBM::Deep::Sector) \
-perl(DBM::Deep::Sector::DBI) \
-perl(DBM::Deep::Sector::DBI::Reference) \
-perl(DBM::Deep::Sector::DBI::Scalar) \
-perl(DBM::Deep::Sector::File) \
-perl(DBM::Deep::Sector::File::BucketList) \
-perl(DBM::Deep::Sector::File::Data) \
-perl(DBM::Deep::Sector::File::Index) \
-perl(DBM::Deep::Sector::File::Null) \
-perl(DBM::Deep::Sector::File::Reference) \
-perl(DBM::Deep::Sector::File::Scalar) \
-perl(DBM::Deep::Storage) \
-perl(DBM::Deep::Storage::DBI) \
-perl(DBM::Deep::Storage::File) \
+RPROVIDES:${PN} += "perl-DBM--Deep \
+perl-DBM--Deep--Array \
+perl-DBM--Deep--ConfigData \
+perl-DBM--Deep--Engine \
+perl-DBM--Deep--Engine--DBI \
+perl-DBM--Deep--Engine--File \
+perl-DBM--Deep--Hash \
+perl-DBM--Deep--Iterator \
+perl-DBM--Deep--Iterator--DBI \
+perl-DBM--Deep--Iterator--File \
+perl-DBM--Deep--Iterator--File--BucketList \
+perl-DBM--Deep--Iterator--File--Index \
+perl-DBM--Deep--Null \
+perl-DBM--Deep--Sector \
+perl-DBM--Deep--Sector--DBI \
+perl-DBM--Deep--Sector--DBI--Reference \
+perl-DBM--Deep--Sector--DBI--Scalar \
+perl-DBM--Deep--Sector--File \
+perl-DBM--Deep--Sector--File--BucketList \
+perl-DBM--Deep--Sector--File--Data \
+perl-DBM--Deep--Sector--File--Index \
+perl-DBM--Deep--Sector--File--Null \
+perl-DBM--Deep--Sector--File--Reference \
+perl-DBM--Deep--Sector--File--Scalar \
+perl-DBM--Deep--Storage \
+perl-DBM--Deep--Storage--DBI \
+perl-DBM--Deep--Storage--File \
 perl-DBM-Deep"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

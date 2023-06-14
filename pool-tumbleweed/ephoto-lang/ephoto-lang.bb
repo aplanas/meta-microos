@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ephoto-lang \
 ephoto-lang-all \
-locale(ephoto:cs) \
-locale(ephoto:de) \
-locale(ephoto:fr) \
-locale(ephoto:it) \
-locale(ephoto:sk) \
-locale(ephoto:sl)"
+locale-ephoto-cs \
+locale-ephoto-de \
+locale-ephoto-fr \
+locale-ephoto-it \
+locale-ephoto-sk \
+locale-ephoto-sl"
 
 RDEPENDS:${PN} += "ephoto"
 

@@ -10,11 +10,11 @@ RPM_HASH = "2a6907a864eaaba3e20c5a76dbf44188c2013225fb273459391dcbc98c0717459e67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-googleapis-common-protos \
-python3.10dist(googleapis-common-protos) \
+python3.10dist-googleapis-common-protos \
 python310-googleapis-common-protos \
-python3dist(googleapis-common-protos)"
+python3dist-googleapis-common-protos"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-protobuf"
 
 inherit rpm

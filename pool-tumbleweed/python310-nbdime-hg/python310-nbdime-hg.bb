@@ -12,9 +12,9 @@ RPM_HASH = "da93c4bbdc3cc7024d539e32ccefd8c5f955b48c62d82bb38e6cb4a62f61597c864a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbdime-hg \
-python3-jupyter_nbdime-hg \
+python3-jupyter-nbdime-hg \
 python3-nbdime-hg \
-python310-jupyter_nbdime-hg \
+python310-jupyter-nbdime-hg \
 python310-nbdime-hg"
 
 RDEPENDS:${PN} += "/bin/sh \

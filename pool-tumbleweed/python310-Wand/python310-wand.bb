@@ -9,11 +9,11 @@ RPM_HASH = "376992b8c7fbe6728e44ac475f60c129c51dfb1a6869ea160d5a4b8e648ecbc01c59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Wand \
-python3.10dist(wand) \
+python3.10dist-wand \
 python310-Wand \
-python3dist(wand)"
+python3dist-wand"
 
 RDEPENDS:${PN} += "ImageMagick \
-python(abi)"
+python-abi"
 
 inherit rpm

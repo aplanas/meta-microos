@@ -11,20 +11,18 @@ PV = "1.10.1"
 RPM_NAME = "python311-scipy_1_10_1-gnu-hpc-1.10.1-2.4.aarch64.rpm"
 RPM_HASH = "984640e45016dde2ba0aeda0f773b4165b47c1b49f846aa92799cac5e4dd2926aa2804842bf1d15177c5f2da9d9d73a83265a1085df81abd4fa8cf68de74232b"
 
-RPROVIDES:${PN} += "python3.11dist(scipy) \
-python311-scipy_1_10_1-gnu-hpc \
-python311-scipy_1_10_1-gnu-hpc(aarch-64) \
-python3dist(scipy)"
+RPROVIDES:${PN} += "python3.11dist-scipy \
+python311-scipy-1-10-1-gnu-hpc \
+python3dist-scipy"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 libopenblas-gnu-hpc \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 python311-numpy-gnu-hpc"
 
 inherit rpm

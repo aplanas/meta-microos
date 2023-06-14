@@ -9,34 +9,22 @@ RPM_HASH = "ce5b296893de642210e492f2f5275e5418bdb8e9a0447489e11d4459c48dbd5ecd72
 
 RPROVIDES:${PN} += "libnma \
 libnma-data \
-libnma.so.0()(64bit) \
-libnma.so.0(libnma_1_2_0)(64bit) \
-libnma.so.0(libnma_1_8_0)(64bit) \
-libnma.so.0(libnma_1_8_12)(64bit) \
-libnma.so.0(libnma_1_8_20)(64bit) \
-libnma.so.0(libnma_1_8_22)(64bit) \
-libnma.so.0(libnma_1_8_28)(64bit) \
-libnma.so.0(libnma_1_8_36)(64bit) \
+libnma.so.0 \
 libnma0 \
-libnma0(aarch-64) \
 nma-data"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgck-2.so.2()(64bit) \
-libgcr-4.so.4()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libnm.so.0()(64bit) \
-libnm.so.0(libnm_1_0_0)(64bit) \
-libnm.so.0(libnm_1_2_0)(64bit) \
-libnm.so.0(libnm_1_6_0)(64bit) \
-libnm.so.0(libnm_1_8_0)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgck-2.so.2 \
+libgcr-4.so.4 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libnm.so.0 \
 libnma-glib-schema \
 mobile-broadband-provider-info"
 

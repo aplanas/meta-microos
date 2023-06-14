@@ -18,14 +18,13 @@ PV = "0.49.1"
 RPM_NAME = "lbdb-0.49.1-1.7.aarch64.rpm"
 RPM_HASH = "6d1dd913f34776ed2271419393b0d6079ec9df07b8a17959a4ed36305b04ef3682c6e37565e1ecf1a8141a0a949601ba276fd4c47fb5ed977a6eb7b2f05be4ab"
 
-RPROVIDES:${PN} += "config(lbdb) \
-lbdb \
-lbdb(aarch-64)"
+RPROVIDES:${PN} += "config-lbdb \
+lbdb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -10,16 +10,15 @@ RPM_NAME = "courier-authlib-pgsql-0.72.0-1.4.aarch64.rpm"
 RPM_HASH = "c722331f4869ea43ee4c79b18c950ec3dc555d5f22040e45f9c8d848e863592fe74fd735647d4d23480b88f25b2da2b1f97c914a15d42368cc8725c5fb9b171c"
 
 RPROVIDES:${PN} += "courier-authlib-pgsql \
-courier-authlib-pgsql(aarch-64) \
-libauthpgsql.so.0()(64bit)"
+libauthpgsql.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcourierauth.so.0()(64bit) \
-libcourierauthcommon.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpq.so.5()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcourierauth.so.0 \
+libcourierauthcommon.so.0 \
+libgcc-s.so.1 \
+libpq.so.5 \
+libstdc++.so.6"
 
 inherit rpm

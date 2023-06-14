@@ -17,15 +17,14 @@ PV = "1.82.0"
 RPM_NAME = "boost_1_82_0-gnu-openmpi3-hpc-1.82.0-1.1.aarch64.rpm"
 RPM_HASH = "e7f8629bdcfd22ab3a3ba6e39dcee660df13c501c6d57783b99615696bd3d907d39142715782f64dfd205cd9a682b3d7f5a6df3438b74b1ddd22032d1f197695"
 
-RPROVIDES:${PN} += "boost_1_82_0-gnu-openmpi3-hpc \
-boost_1_82_0-gnu-openmpi3-hpc(aarch-64)"
+RPROVIDES:${PN} += "boost-1-82-0-gnu-openmpi3-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+libc.so.6 \
+libgcc-s.so.1 \
 libopenmpi3-gnu-hpc \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 lua-lmod \
 openmpi3-gnu-hpc"
 

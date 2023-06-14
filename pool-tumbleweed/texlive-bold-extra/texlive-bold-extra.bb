@@ -11,7 +11,7 @@ RPM_NAME = "texlive-bold-extra-2023.201.0.0.1svn17076-52.1.noarch.rpm"
 RPM_HASH = "d9c78d2f72398db69f9bd0778e9822ad12ece9bf332b27b9c200f6fc24beb2ed05415631b075e565dc0fb8e1903ca83c4efb3c43e2b72c6e273cc2b297fb793b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bold-extra.sty) \
+RPROVIDES:${PN} += "tex-bold-extra.sty \
 texlive-bold-extra"
 
 RDEPENDS:${PN} += "/bin/sh \

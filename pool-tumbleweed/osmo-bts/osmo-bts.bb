@@ -7,21 +7,20 @@ PV = "1.4.0"
 RPM_NAME = "osmo-bts-1.4.0-1.10.aarch64.rpm"
 RPM_HASH = "8971839fb5738729decdaeeda9ae76a00b4fb78dbd708709a05ecc592386d0fe3391aea6209f0394bf7b829918790fc98dd8376c9638357edb4422bbed5c3583"
 
-RPROVIDES:${PN} += "config(osmo-bts) \
-osmo-bts \
-osmo-bts(aarch-64)"
+RPROVIDES:${PN} += "config-osmo-bts \
+osmo-bts"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmoabis.so.10()(64bit) \
-libosmocodec.so.0()(64bit) \
-libosmocoding.so.0()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmoctrl.so.0()(64bit) \
-libosmogsm.so.18()(64bit) \
-libosmotrau.so.2()(64bit) \
-libosmovty.so.9()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmoabis.so.10 \
+libosmocodec.so.0 \
+libosmocoding.so.0 \
+libosmocore.so.20 \
+libosmoctrl.so.0 \
+libosmogsm.so.18 \
+libosmotrau.so.2 \
+libosmovty.so.9 \
+libtalloc.so.2"
 
 inherit rpm

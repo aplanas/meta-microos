@@ -32,18 +32,16 @@ PV = "2.1.0"
 RPM_NAME = "libscalapack2-openmpi2-2.1.0-9.11.aarch64.rpm"
 RPM_HASH = "46f63cdf99a7124bd7af6add4f928c601f6a6ab148c2ca33bfaa17e40b8e496e5ffa0e7bb60be907cfa81f4f99011bea2453c4805d8ca9ef581365f79cc75eec"
 
-RPROVIDES:${PN} += "libscalapack.so.2.1.0()(64bit) \
+RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
 libscalapack2-openmpi2 \
-libscalapack2-openmpi2(aarch-64) \
 scalapack-openmpi2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
-libmpi.so.20()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
+libmpi.so.20"
 
 inherit rpm

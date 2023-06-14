@@ -12,7 +12,7 @@ RPM_NAME = "texlive-conv-xkv-2023.204.svn43558-54.1.noarch.rpm"
 RPM_HASH = "9ef874e87e5b1d166b882c92c97dc29789c5ce4a8b14c5cd16b40ee1467a4490a500faea2cc1cf55c3141b36f71702dd2cf162280d4ee98277bda174d24c9a28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(conv-xkv.sty) \
+RPROVIDES:${PN} += "tex-conv-xkv.sty \
 texlive-conv-xkv"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xkeyval.sty) \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

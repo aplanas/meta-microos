@@ -16,14 +16,13 @@ PV = "6.0.2"
 RPM_NAME = "cec-client-6.0.2-2.9.aarch64.rpm"
 RPM_HASH = "d27f26aac5a244c25e02e90c1e0c0dc8eb5e6288e1a57d0f6b992f4cc69b03932396ff166f3d7917980912eb1adfba46ca6e70cdc6dfeeaca0c9ddc3434442fe"
 
-RPROVIDES:${PN} += "cec-client \
-cec-client(aarch-64)"
+RPROVIDES:${PN} += "cec-client"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcec6 \
-libgcc_s.so.1()(64bit) \
-libp8-platform.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libgcc-s.so.1 \
+libp8-platform.so.2 \
+libstdc++.so.6"
 
 inherit rpm

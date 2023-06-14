@@ -9,10 +9,10 @@ RPM_HASH = "70d6e67ca00d393ebc765e1fd6ade35167b89c0174091b0e85c98874030f20f6abba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proteus \
-python3.10dist(proteus) \
-python3dist(proteus)"
+python3.10dist-proteus \
+python3dist-proteus"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-dateutil \
 trytond"
 

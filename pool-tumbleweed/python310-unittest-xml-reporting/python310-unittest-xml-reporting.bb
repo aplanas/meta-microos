@@ -12,11 +12,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-unittest-xml-reporting \
 python3-xmlrunner \
-python3.10dist(unittest-xml-reporting) \
+python3.10dist-unittest-xml-reporting \
 python310-unittest-xml-reporting \
 python310-xmlrunner \
-python3dist(unittest-xml-reporting)"
+python3dist-unittest-xml-reporting"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

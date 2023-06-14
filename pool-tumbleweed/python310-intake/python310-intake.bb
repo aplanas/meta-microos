@@ -9,13 +9,13 @@ RPM_HASH = "9ec8cc7ed55dc256ad15966f145a4a4f4d40044b3dec788fd9c57c24eb1bafbf68e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-intake \
-python3.10dist(intake) \
+python3.10dist-intake \
 python310-intake \
-python3dist(intake)"
+python3dist-intake"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-PyYAML \
 python310-appdirs \

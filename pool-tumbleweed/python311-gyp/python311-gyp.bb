@@ -12,14 +12,14 @@ RPM_HASH = "61daeefffa8d841d4187f0c07a71b3f355ee627e3eb70cc1d32ac45f68d6d84b6c99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gyp \
-python3.11dist(gyp) \
+python3.11dist-gyp \
 python311-gyp \
-python3dist(gyp)"
+python3dist-gyp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ninja \
-python(abi) \
+python-abi \
 python311-setuptools \
 update-alternatives"
 

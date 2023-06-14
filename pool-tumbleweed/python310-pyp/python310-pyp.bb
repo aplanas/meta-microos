@@ -11,13 +11,13 @@ RPM_HASH = "a0d4da34a9396a769f4d7b2e3e196acfb52fbf7e4453011e00125227bd7c0f68afb8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyp \
-python3.10dist(pypyp) \
+python3.10dist-pypyp \
 python310-pyp \
-python3dist(pypyp)"
+python3dist-pypyp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-astunparse \
 update-alternatives"
 

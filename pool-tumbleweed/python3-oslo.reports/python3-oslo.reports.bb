@@ -10,10 +10,10 @@ RPM_HASH = "65a4cf3637ac6ffc039ec32397b88d4d7be9af86b6d1f47ce9ad706d10f41ff82192
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.reports \
-python3.10dist(oslo.reports) \
-python3dist(oslo.reports)"
+python3.10dist-oslo.reports \
+python3dist-oslo.reports"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-Jinja2 \
 python3-oslo.i18n \
 python3-oslo.serialization \

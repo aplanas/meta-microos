@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Routes \
 python3-routes \
-python3.10dist(routes) \
+python3.10dist-routes \
 python310-Routes \
 python310-routes \
-python3dist(routes)"
+python3dist-routes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-repoze.lru \
 python310-six"
 

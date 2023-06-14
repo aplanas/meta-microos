@@ -7,32 +7,27 @@ PV = "5.27.5"
 RPM_NAME = "kcm_flatpak-5.27.5-1.1.aarch64.rpm"
 RPM_HASH = "fad4bfd0da59dbe7e906bc8db6fc10ef58fc881a9757ad5a72bb7eb913dfe6192575932d081ed16bacfc3baf6614c49355c83fbc29babbe85b2145af24e3f90c"
 
-RPROVIDES:${PN} += "application() \
-application(kcm_flatpak.desktop) \
-kcm_flatpak \
-kcm_flatpak(aarch-64)"
+RPROVIDES:${PN} += "kcm-flatpak"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5QuickAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libflatpak.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.2) \
-qt5qmlimport(QtQuick.Dialogs.1) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(org.kde.kcm.1) \
-qt5qmlimport(org.kde.kirigami.2) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5QuickAddons.so.5 \
+libQt5Core.so.5 \
+libQt5Qml.so.5 \
+libc.so.6 \
+libflatpak.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.2 \
+qt5qmlimport-QtQuick.Dialogs.1 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-org.kde.kcm.1 \
+qt5qmlimport-org.kde.kirigami.2 \
 systemsettings5"
 
 inherit rpm

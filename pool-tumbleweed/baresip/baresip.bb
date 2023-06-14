@@ -21,37 +21,33 @@ PV = "2.10.0"
 RPM_NAME = "baresip-2.10.0-1.8.aarch64.rpm"
 RPM_HASH = "96fa48cab5b17d75ee6d85f15ba8ec7eaf6f938d8931116629acf0491a649e5ff129050aa5e40d86c1b031198c6cafb1541c9390b6a513f3f4ecba6ea414b9f0"
 
-RPROVIDES:${PN} += "baresip \
-baresip(aarch-64)"
+RPROVIDES:${PN} += "baresip"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libbaresip.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcodec2.so.1.1()(64bit) \
-libfdk-aac.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libjack.so.0()(64bit) \
-libmosquitto.so.1()(64bit) \
-libmp3lame.so.0()(64bit) \
-libmpg123.so.0()(64bit) \
-libopus.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libportaudio.so.2()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libre.so.12()(64bit) \
-libsndfile.so.1()(64bit) \
-libspandsp.so.3()(64bit) \
-libspeexdsp.so.1()(64bit) \
-libtwolame.so.0()(64bit) \
-libwebrtc_audio_processing.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libbaresip.so.2 \
+libc.so.6 \
+libcodec2.so.1.1 \
+libfdk-aac.so.2 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libjack.so.0 \
+libmosquitto.so.1 \
+libmp3lame.so.0 \
+libmpg123.so.0 \
+libopus.so.0 \
+libpng16.so.16 \
+libportaudio.so.2 \
+libpulse-simple.so.0 \
+libpulse.so.0 \
+libre.so.12 \
+libsndfile.so.1 \
+libspandsp.so.3 \
+libspeexdsp.so.1 \
+libtwolame.so.0 \
+libwebrtc-audio-processing.so.1"
 
 inherit rpm

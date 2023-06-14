@@ -13,15 +13,14 @@ RPM_HASH = "705d73ecc23f8c53c2386a23cd16cfe1349eefc5409d124a2435af040ad8e7ba4178
 
 RPROVIDES:${PN} += "libpackagekit-glib12-devel \
 libpackagekit-glib2-devel \
-libpackagekit-glib2-devel(aarch-64) \
-pkgconfig(packagekit-glib2)"
+pkgconfig-packagekit-glib2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpackagekit-glib2-18 \
-pkgconfig(gio-2.0) \
-pkgconfig(gio-unix-2.0) \
-pkgconfig(glib-2.0) \
-pkgconfig(gobject-2.0) \
-typelib-1_0-PackageKitGlib-1_0"
+pkgconfig-gio-2.0 \
+pkgconfig-gio-unix-2.0 \
+pkgconfig-glib-2.0 \
+pkgconfig-gobject-2.0 \
+typelib-1-0-PackageKitGlib-1-0"
 
 inherit rpm

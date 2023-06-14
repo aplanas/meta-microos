@@ -9,11 +9,11 @@ RPM_HASH = "7dd453df6590580a19b77fd1f5a2b9196fe25ea7eb1bcdd8171625a6d55d36e97292
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-retry \
-python3.10dist(retry) \
+python3.10dist-retry \
 python310-retry \
-python3dist(retry)"
+python3dist-retry"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-decorator \
 python310-py"
 

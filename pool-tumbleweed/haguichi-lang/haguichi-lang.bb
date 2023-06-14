@@ -10,26 +10,26 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "haguichi-lang \
 haguichi-lang-all \
-locale(haguichi:ast) \
-locale(haguichi:bg) \
-locale(haguichi:cs) \
-locale(haguichi:de) \
-locale(haguichi:es) \
-locale(haguichi:fr) \
-locale(haguichi:id) \
-locale(haguichi:it) \
-locale(haguichi:ja) \
-locale(haguichi:kk) \
-locale(haguichi:lt) \
-locale(haguichi:nl) \
-locale(haguichi:pl) \
-locale(haguichi:pt) \
-locale(haguichi:pt_BR) \
-locale(haguichi:ru) \
-locale(haguichi:sk) \
-locale(haguichi:sv) \
-locale(haguichi:tr) \
-locale(haguichi:uk)"
+locale-haguichi-ast \
+locale-haguichi-bg \
+locale-haguichi-cs \
+locale-haguichi-de \
+locale-haguichi-es \
+locale-haguichi-fr \
+locale-haguichi-id \
+locale-haguichi-it \
+locale-haguichi-ja \
+locale-haguichi-kk \
+locale-haguichi-lt \
+locale-haguichi-nl \
+locale-haguichi-pl \
+locale-haguichi-pt \
+locale-haguichi-pt-BR \
+locale-haguichi-ru \
+locale-haguichi-sk \
+locale-haguichi-sv \
+locale-haguichi-tr \
+locale-haguichi-uk"
 
 RDEPENDS:${PN} += "haguichi"
 

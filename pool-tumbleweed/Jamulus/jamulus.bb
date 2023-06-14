@@ -11,9 +11,6 @@ RPM_NAME = "Jamulus-3.9.1-1.3.aarch64.rpm"
 RPM_HASH = "a69e864f50892e1d415f2c9805c872000aac6e641c0dfe53ad4582d1f657efc694e974a61659d5c64ac9b78d66e8a2b2b055f9c50febb04a796628208d083387"
 
 RPROVIDES:${PN} += "Jamulus \
-Jamulus(aarch-64) \
-application() \
-application(Jamulus.desktop) \
 jamulus \
 llcon"
 
@@ -21,27 +18,21 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-group(nogroup) \
+group-nogroup \
 jack \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libm.so.6()(64bit) \
-libopus.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libm.so.6 \
+libopus.so.0 \
+libstdc++.so.6 \
 shadow \
 systemd"
 

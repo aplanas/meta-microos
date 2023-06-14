@@ -11,14 +11,14 @@ RPM_NAME = "geronimo-jaf-1_1-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "60203d24c2e58c9c1c58d46ddb349361707dba4bbb8400d5302baea55fb7142de8dcd719c3bd9cf4a3cffd75fb5074837273b5879d6144080b81de721a69b10f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "activation_1_1_api \
-activation_api \
-geronimo-jaf-1_1-api \
+RPROVIDES:${PN} += "activation-1-1-api \
+activation-api \
+geronimo-jaf-1-1-api \
 jaf \
-jaf_1_1_api \
-jaf_api \
-mvn(org.apache.geronimo.specs:geronimo-activation_1.1_spec) \
-mvn(org.apache.geronimo.specs:geronimo-activation_1.1_spec:pom:)"
+jaf-1-1-api \
+jaf-api \
+mvn-org.apache.geronimo.specs-geronimo-activation-1.1-spec \
+mvn-org.apache.geronimo.specs-geronimo-activation-1.1-spec-pom-"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \

@@ -19,14 +19,12 @@ PV = "0.7.8.6"
 RPM_NAME = "iscsiuio-0.7.8.6-99.1.aarch64.rpm"
 RPM_HASH = "5c029830e0f178765b25f3dda5f15198f75ca5230be23fd1045f468a1991f6e2367fc12ea13d0d8b511d12898ee85fe85454c165e0bfec69b1fbea8b8f7efaba"
 
-RPROVIDES:${PN} += "iscsiuio \
-iscsiuio(aarch-64)"
+RPROVIDES:${PN} += "iscsiuio"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsystemd.so.0 \
 logrotate"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "75e5e08983fe672cb5bb2242b4ab524509d7745eeb3a0e6c0b9450878a6da8bd708d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-josepy \
-python3.10dist(josepy) \
+python3.10dist-josepy \
 python310-josepy \
-python3dist(josepy)"
+python3dist-josepy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-pyOpenSSL"
 

@@ -29,61 +29,30 @@ PV = "1.3.99.1"
 RPM_NAME = "pragha-1.3.99.1-3.3.aarch64.rpm"
 RPM_HASH = "de87d8fc2b740080edaf2730cd7148316d3fe8aaea9db33ef4a706d565edf7dcc99af9227d80dd0117eea08bcaf1255be6b25af6bbbc91eb580a54834a9d2273"
 
-RPROVIDES:${PN} += "application() \
-application(pragha.desktop) \
-libpragha.so()(64bit) \
-metainfo() \
-metainfo(io.github.pragha_music_player.metainfo.xml) \
-mimehandler(application/ogg) \
-mimehandler(application/x-ape) \
-mimehandler(application/x-flac) \
-mimehandler(application/x-ogg) \
-mimehandler(application/xspf+xml) \
-mimehandler(audio/ape) \
-mimehandler(audio/flac) \
-mimehandler(audio/mp3) \
-mimehandler(audio/mpeg) \
-mimehandler(audio/mpeg3) \
-mimehandler(audio/mpegurl) \
-mimehandler(audio/ogg) \
-mimehandler(audio/vorbis) \
-mimehandler(audio/x-ape) \
-mimehandler(audio/x-flac) \
-mimehandler(audio/x-m4a) \
-mimehandler(audio/x-mp3) \
-mimehandler(audio/x-mpeg) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-ms-wax) \
-mimehandler(audio/x-ms-wma) \
-mimehandler(audio/x-ogg) \
-mimehandler(audio/x-scpls) \
-mimehandler(audio/x-vorbis) \
-mimehandler(audio/x-wav) \
-mimehandler(video/x-ms-asf) \
-pragha \
-pragha(aarch-64)"
+RPROVIDES:${PN} += "libpragha.so \
+pragha"
 
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstaudio-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libpeas-gtk-1.0.so.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libtag_c.so.0()(64bit) \
-libtotem-plparser.so.18()(64bit) \
-libxfce4ui-2.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstaudio-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgtk-3.so.0 \
+libgudev-1.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpeas-1.0.so.0 \
+libpeas-gtk-1.0.so.0 \
+libsqlite3.so.0 \
+libtag-c.so.0 \
+libtotem-plparser.so.18 \
+libxfce4ui-2.so.0"
 
 inherit rpm

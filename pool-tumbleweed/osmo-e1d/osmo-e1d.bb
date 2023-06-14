@@ -14,18 +14,17 @@ PV = "0.5.0"
 RPM_NAME = "osmo-e1d-0.5.0-1.1.aarch64.rpm"
 RPM_HASH = "3d59f0a8977bd4cd1d57f8f339517c89c808f9d2be49ee98a77306714ddc8b9298a1b51c814f2cb79aa6ddadcf1361811b470be977591d47da6114e6117bf519"
 
-RPROVIDES:${PN} += "osmo-e1d \
-osmo-e1d(aarch-64)"
+RPROVIDES:${PN} += "osmo-e1d"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmo-e1d.so.1()(64bit) \
-libosmo-octoi.so.1()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmousb.so.0()(64bit) \
-libosmovty.so.9()(64bit) \
-libtalloc.so.2()(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmo-e1d.so.1 \
+libosmo-octoi.so.1 \
+libosmocore.so.20 \
+libosmousb.so.0 \
+libosmovty.so.9 \
+libtalloc.so.2 \
+libusb-1.0.so.0"
 
 inherit rpm

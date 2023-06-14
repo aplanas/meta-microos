@@ -14,10 +14,9 @@ PV = "2.40.0"
 RPM_NAME = "typelib-1_0-GTop-2_0-2.40.0-4.3.aarch64.rpm"
 RPM_HASH = "e40c682511b80eead8eb80ba466368224f623632b31d7f5a68af3aee2d1ac61bd6fd12a0d39f6e059cc8659787d88a7d72f04c0c7e98225a8c6120f8403a3b44"
 
-RPROVIDES:${PN} += "typelib(GTop) \
-typelib-1_0-GTop-2_0 \
-typelib-1_0-GTop-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GTop-2-0 \
+typelib-GTop"
 
-RDEPENDS:${PN} += "libgtop-2.0.so.11()(64bit)"
+RDEPENDS:${PN} += "libgtop-2.0.so.11"
 
 inherit rpm

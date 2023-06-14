@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "caja-extension-nextcloud"
 RDEPENDS:${PN} += "caja \
 nextcloud-desktop \
 python-caja \
-typelib(Caja) \
-typelib(GObject)"
+typelib-Caja \
+typelib-GObject"
 
 inherit rpm

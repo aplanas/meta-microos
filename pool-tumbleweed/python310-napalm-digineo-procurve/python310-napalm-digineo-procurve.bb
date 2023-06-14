@@ -9,11 +9,11 @@ RPM_HASH = "9095dac7de6c497996aa605f7b4c8d4014d5f4107cf895187fb42377800dfa089a61
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-napalm-digineo-procurve \
-python3.10dist(napalm-digineo-procurve) \
+python3.10dist-napalm-digineo-procurve \
 python310-napalm-digineo-procurve \
-python3dist(napalm-digineo-procurve)"
+python3dist-napalm-digineo-procurve"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-napalm"
 
 inherit rpm

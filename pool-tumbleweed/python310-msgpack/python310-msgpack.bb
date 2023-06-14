@@ -12,14 +12,13 @@ RPM_HASH = "25629857a375da811473d1b38d8cc32356882a10d2648035b8a37bcd99e37f5878cc
 
 RPROVIDES:${PN} += "python3-msgpack \
 python3-msgpack-python \
-python3.10dist(msgpack) \
+python3.10dist-msgpack \
 python310-msgpack \
-python310-msgpack(aarch-64) \
 python310-msgpack-python \
-python3dist(msgpack)"
+python3dist-msgpack"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

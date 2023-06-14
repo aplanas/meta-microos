@@ -19,23 +19,23 @@ RPM_NAME = "texlive-polski-2023.201.1.3.6svn60322-52.1.noarch.rpm"
 RPM_HASH = "88d620d60b7ec859d437c2cc574849160d1167deea72c511586bdaa15fec1e9884b12a2db018af166eee606625330639272499fad1e1a8230590fce689c26201"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(amigapl.def) \
-tex(mazovia.def) \
-tex(omlplcm.fd) \
-tex(omlplm.fd) \
-tex(omsplsy.fd) \
-tex(omxplex.fd) \
-tex(ot1patch.sty) \
-tex(ot4ccr.fd) \
-tex(ot4cmdh.fd) \
-tex(ot4cmfib.fd) \
-tex(ot4cmfr.fd) \
-tex(ot4cmr.fd) \
-tex(ot4cmss.fd) \
-tex(ot4cmtt.fd) \
-tex(plprefix.sty) \
-tex(polski.sty) \
-tex(qxenc.def) \
+RPROVIDES:${PN} += "tex-amigapl.def \
+tex-mazovia.def \
+tex-omlplcm.fd \
+tex-omlplm.fd \
+tex-omsplsy.fd \
+tex-omxplex.fd \
+tex-ot1patch.sty \
+tex-ot4ccr.fd \
+tex-ot4cmdh.fd \
+tex-ot4cmfib.fd \
+tex-ot4cmfr.fd \
+tex-ot4cmr.fd \
+tex-ot4cmss.fd \
+tex-ot4cmtt.fd \
+tex-plprefix.sty \
+tex-polski.sty \
+tex-qxenc.def \
 texlive-polski"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -44,7 +44,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ot4enc.def) \
+tex-ot4enc.def \
 texlive \
 texlive-filesystem \
 texlive-hyphen-polish \

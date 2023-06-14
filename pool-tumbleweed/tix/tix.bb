@@ -13,13 +13,12 @@ PV = "8.4.3"
 RPM_NAME = "tix-8.4.3-72.17.aarch64.rpm"
 RPM_HASH = "4b5b7b75f899fb9bb0c2b087a435b3267097116a30244eac80d322e0801ee3ba1454e1068556c864d26d51b22e012949f24554f50bf4887d106a9fa353279815"
 
-RPROVIDES:${PN} += "libTix8.4.3.so()(64bit) \
-tix \
-tix(aarch-64)"
+RPROVIDES:${PN} += "libTix8.4.3.so \
+tix"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
 tcl \
 tk"
 

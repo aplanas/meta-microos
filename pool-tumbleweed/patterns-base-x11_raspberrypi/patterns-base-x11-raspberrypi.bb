@@ -7,13 +7,12 @@ PV = "20200505"
 RPM_NAME = "patterns-base-x11_raspberrypi-20200505-41.1.aarch64.rpm"
 RPM_HASH = "8f0cfafdf482b31c5f1a97a4009a540203b0343ef5f92328ba453da82ae5e4af34fdd057cdfc74bf447551547ac9ae02bcaa97a6e6b1d2dea6a66558ad0578a7"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-pattern-visible() \
-patterns-base-x11_raspberrypi \
-patterns-base-x11_raspberrypi(aarch-64)"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+pattern-visible- \
+patterns-base-x11-raspberrypi"
 
 RDEPENDS:${PN} += "gconf2 \
 gtk2-metatheme-adwaita \
@@ -26,7 +25,7 @@ libyui-ncurses-pkg \
 libyui-qt-pkg \
 mutt \
 mutt-lang \
-pattern() \
+pattern- \
 polkit-default-privs \
 polkit-gnome-lang \
 x11-tools \

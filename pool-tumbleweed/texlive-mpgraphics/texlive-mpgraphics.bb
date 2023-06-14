@@ -13,7 +13,7 @@ RPM_NAME = "texlive-mpgraphics-2023.201.0.0.3svn29776-54.1.noarch.rpm"
 RPM_HASH = "67a7b8beb86e5e2c156218b633b895ebe6fec7db0aea6f9631e1a90bc5ac79898802bebb2351f47bd798166e8658b684b7edf8261eb45ec2a4d53c987d295d35"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mpgraphics.sty) \
+RPROVIDES:${PN} += "tex-mpgraphics.sty \
 texlive-mpgraphics"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,14 +22,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.cfg) \
-tex(color.sty) \
-tex(graphicx.sty) \
-tex(ifpdf.sty) \
-tex(ifplatform.sty) \
-tex(iftex.sty) \
-tex(moreverb.sty) \
-tex(xkeyval.sty) \
+tex-color.cfg \
+tex-color.sty \
+tex-graphicx.sty \
+tex-ifpdf.sty \
+tex-ifplatform.sty \
+tex-iftex.sty \
+tex-moreverb.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

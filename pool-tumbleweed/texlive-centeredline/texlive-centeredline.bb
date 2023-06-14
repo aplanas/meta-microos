@@ -13,7 +13,7 @@ RPM_NAME = "texlive-centeredline-2023.201.1.2svn64672-52.1.noarch.rpm"
 RPM_HASH = "298b2cfd5709e8dbb66c6ba44c3371e3dc6cbcb8b4b926147b7f56d65c536e3b9bb797031bdfa7f704a5fb94893cd3132a59ffdf823f02af12d38e519e301a2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(centeredline.sty) \
+RPROVIDES:${PN} += "tex-centeredline.sty \
 texlive-centeredline"
 
 RDEPENDS:${PN} += "/bin/sh \

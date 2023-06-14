@@ -12,20 +12,17 @@ RPM_NAME = "xf86-input-synaptics-1.9.2-1.3.aarch64.rpm"
 RPM_HASH = "c8672483131124176898f82154465d8eecd36358519e8713ff839d39a340fbdc3ab706b81803c7838241af5089e172f797c68f99dc98132b373c0cead366a4c2"
 
 RPROVIDES:${PN} += "x11-input-synaptics \
-xf86-input-synaptics \
-xf86-input-synaptics(aarch-64)"
+xf86-input-synaptics"
 
 RDEPENDS:${PN} += "/bin/sh \
-X11_ABI_XINPUT \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXtst.so.6()(64bit) \
-libc.so.6()(64bit) \
-libevdev.so.2()(64bit) \
-libevdev.so.2(LIBEVDEV_1)(64bit) \
-libevdev.so.2(LIBEVDEV_1_3)(64bit) \
-libm.so.6()(64bit) \
+X11-ABI-XINPUT \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXi.so.6 \
+libXtst.so.6 \
+libc.so.6 \
+libevdev.so.2 \
+libm.so.6 \
 udev"
 
 inherit rpm

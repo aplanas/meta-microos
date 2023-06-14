@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aldusleaf-crimson-text-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

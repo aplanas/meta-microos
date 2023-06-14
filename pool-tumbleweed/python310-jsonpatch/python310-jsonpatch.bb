@@ -9,14 +9,14 @@ RPM_HASH = "44dc0cc99115d56aa261d0aa58bc11234417717cfef9e31676203595bffd36e59e56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonpatch \
-python3.10dist(jsonpatch) \
+python3.10dist-jsonpatch \
 python310-jsonpatch \
-python3dist(jsonpatch)"
+python3dist-jsonpatch"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-jsonpointer"
 
 inherit rpm

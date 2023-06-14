@@ -13,11 +13,11 @@ RPM_HASH = "68326e3ae34420b29511bad6f134b05af172815f63849cd6c6ef7456a4c824e834ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-purview-nspkg \
-python3.10dist(azure-purview-nspkg) \
+python3.10dist-azure-purview-nspkg \
 python310-azure-purview-nspkg \
-python3dist(azure-purview-nspkg)"
+python3dist-azure-purview-nspkg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg"
 
 inherit rpm

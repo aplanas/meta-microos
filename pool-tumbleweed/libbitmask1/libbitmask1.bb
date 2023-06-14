@@ -10,12 +10,11 @@ PV = "2.0"
 RPM_NAME = "libbitmask1-2.0-29.7.aarch64.rpm"
 RPM_HASH = "39333fc453364026ed39346cde2a7d085542ca84d9d30f47a2c13db0cbee096f4d132e7ff13063e5043df497246c8817f971f0aacd94da254d46cbd6ce2137d1"
 
-RPROVIDES:${PN} += "libbitmask.so.1()(64bit) \
-libbitmask1 \
-libbitmask1(aarch-64)"
+RPROVIDES:${PN} += "libbitmask.so.1 \
+libbitmask1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

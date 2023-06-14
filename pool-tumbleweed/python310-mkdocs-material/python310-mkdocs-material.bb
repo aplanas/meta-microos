@@ -9,11 +9,11 @@ RPM_HASH = "969e5f4e369c9fcbc2f963289a7125505322e55d9f03bca8626fe1552ccb928fb5d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mkdocs-material \
-python3.10dist(mkdocs-material) \
+python3.10dist-mkdocs-material \
 python310-mkdocs-material \
-python3dist(mkdocs-material)"
+python3dist-mkdocs-material"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Markdown \
 python310-colorama \
 python310-jinja2 \

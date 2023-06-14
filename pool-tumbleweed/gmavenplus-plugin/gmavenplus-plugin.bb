@@ -11,19 +11,19 @@ RPM_HASH = "695ef04ba3011f0df5b44e57ecc1ea62c6f93811dd58f2bbcc69f3a78feb20385230
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmavenplus-plugin \
-mvn(org.codehaus.gmavenplus:gmavenplus-plugin) \
-mvn(org.codehaus.gmavenplus:gmavenplus-plugin:pom:)"
+mvn-org.codehaus.gmavenplus-gmavenplus-plugin \
+mvn-org.codehaus.gmavenplus-gmavenplus-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(jline:jline) \
-mvn(org.apache.ant:ant) \
-mvn(org.apache.ivy:ivy) \
-mvn(org.apache.maven.shared:file-management) \
-mvn(org.apache.maven:maven-archiver) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.fusesource.jansi:jansi)"
+mvn-jline-jline \
+mvn-org.apache.ant-ant \
+mvn-org.apache.ivy-ivy \
+mvn-org.apache.maven-maven-archiver \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.shared-file-management \
+mvn-org.fusesource.jansi-jansi"
 
 inherit rpm

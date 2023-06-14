@@ -13,12 +13,11 @@ RPM_NAME = "glade-catalog-gtkhtml-4.10.0-7.3.aarch64.rpm"
 RPM_HASH = "bc9013bd1b0076634ec7c00272124a0acf0eb7517c7cbaeb843032d83cd87eea68c74f952971d863de064d550acb8bf6ff112c8066c37e128cc52e47aca1c7d4"
 
 RPROVIDES:${PN} += "glade-catalog-gtkhtml \
-glade-catalog-gtkhtml(aarch-64) \
-libglade-gtkhtml-editor.so()(64bit)"
+libglade-gtkhtml-editor.so"
 
 RDEPENDS:${PN} += "glade \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgtkhtml-editor-4_0-0"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgtkhtml-editor-4-0-0"
 
 inherit rpm

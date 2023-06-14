@@ -10,13 +10,13 @@ RPM_HASH = "e6c4f637713d4b5d17527ebb5465248cb64f232c21fd52b26fb991c0463a596e0ffb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyglet \
-python3.10dist(pyglet) \
+python3.10dist-pyglet \
 python310-pyglet \
-python3dist(pyglet)"
+python3dist-pyglet"
 
 RDEPENDS:${PN} += "Mesa-dri \
 libxcb-glx0 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-future \
 python310-pypng"

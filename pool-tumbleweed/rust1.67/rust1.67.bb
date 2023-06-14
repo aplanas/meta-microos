@@ -18,27 +18,25 @@ PV = "1.67.1"
 RPM_NAME = "rust1.67-1.67.1-2.1.aarch64.rpm"
 RPM_HASH = "0478559180cceca1a6fcf89d7a4819040eb5fba53a64fbe623e14333bfd9b5f423841e42e1b89740fbf99ac9509946b9ed59683b19e131faa30adfc306a26734"
 
-RPROVIDES:${PN} += "librustc_driver-3715f284eb20f049.so()(64bit) \
-libstd-e8f18da332925d29.so()(64bit) \
-libtest-ec57ec8b09da6e8f.so()(64bit) \
+RPROVIDES:${PN} += "librustc-driver-3715f284eb20f049.so \
+libstd-e8f18da332925d29.so \
+libtest-ec57ec8b09da6e8f.so \
 rust+rustc \
 rust-gdb \
 rust-std \
 rust-std-static \
-rust1.67 \
-rust1.67(aarch-64)"
+rust1.67"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gcc13 \
 glibc-devel \
-libLLVM.so.15()(64bit) \
-libLLVM.so.15(LLVM_15)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+libLLVM.so.15 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1 \
 lld15"
 
 inherit rpm

@@ -7,15 +7,13 @@ PV = "12.3.0+git1204"
 RPM_NAME = "libstdc++6-gcc12-12.3.0+git1204-1.1.aarch64.rpm"
 RPM_HASH = "9d7f1ca7f70b33249d2f1a5e26422b972529827390eb99c033cd8610302b56a0e6e5658ff404e7e891403e2af9f64367948e14c7593d4eec70eb6c750554a6d1"
 
-RPROVIDES:${PN} += "libstdc++.so.6()(64bit) \
-libstdc++.so.6(CXXABI_TM_1)(64bit) \
+RPROVIDES:${PN} += "libstdc++.so.6 \
 libstdc++6 \
-libstdc++6-gcc12 \
-libstdc++6-gcc12(aarch-64)"
+libstdc++6-gcc12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
 
 inherit rpm

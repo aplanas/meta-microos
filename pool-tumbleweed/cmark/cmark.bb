@@ -15,11 +15,10 @@ PV = "0.30.3"
 RPM_NAME = "cmark-0.30.3-1.2.aarch64.rpm"
 RPM_HASH = "f50b777844658f7bd6fe2a76cdba1cd9b3938cd6b66fc707cc38919a0ad74c9317b79703402e735c3a94cc2c6d4863f3ef48ce311a74f5134b2cde52e4ac8d3a"
 
-RPROVIDES:${PN} += "cmark \
-cmark(aarch-64)"
+RPROVIDES:${PN} += "cmark"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcmark.so.0.30.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcmark.so.0.30.3"
 
 inherit rpm

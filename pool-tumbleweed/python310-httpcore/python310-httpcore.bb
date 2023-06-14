@@ -9,14 +9,14 @@ RPM_HASH = "c5dd7cc9335c757297a17f4aff97e75a96878912c2098f6ef85ccce264da3745eb8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-httpcore \
-python3.10dist(httpcore) \
+python3.10dist-httpcore \
 python310-httpcore \
-python3dist(httpcore)"
+python3dist-httpcore"
 
-RDEPENDS:${PN} += "(python310-anyio >= 3 with python310-anyio < 5) \
-(python310-h11 >= 0.13.0 with python310-h11 < 0.15) \
-(python310-sniffio >= 1.0 with python310-sniffio < 2) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-anyio >= 3 with python310-anyio < 5 \
+-python310-h11 >= 0.13.0 with python310-h11 < 0.15 \
+-python310-sniffio >= 1.0 with python310-sniffio < 2 \
+python-abi \
 python310-certifi"
 
 inherit rpm

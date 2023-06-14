@@ -13,14 +13,13 @@ PV = "1.8.0"
 RPM_NAME = "libosmocodec0-1.8.0-1.1.aarch64.rpm"
 RPM_HASH = "07c89afc71695074935ee0c287e75975c77ced9fd306644b144188f6c0eaec1be732af29b23f978077aaec13a6e40c83c3d5c668bb307021be0420d2573bd61a"
 
-RPROVIDES:${PN} += "libosmocodec.so.0()(64bit) \
-libosmocodec0 \
-libosmocodec0(aarch-64)"
+RPROVIDES:${PN} += "libosmocodec.so.0 \
+libosmocodec0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmocore.so.20()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmocore.so.20 \
+libtalloc.so.2"
 
 inherit rpm

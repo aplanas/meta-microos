@@ -9,12 +9,12 @@ RPM_HASH = "7515e54f6e58e5481dd75cf301ed433dac538c1a226c657e84781d165eb97b8f0bf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-elastic-transport \
-python3.10dist(elastic-transport) \
+python3.10dist-elastic-transport \
 python310-elastic-transport \
-python3dist(elastic-transport)"
+python3dist-elastic-transport"
 
-RDEPENDS:${PN} += "(python310-urllib3 >= 1.26.2) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-urllib3 >= 1.26.2 \
+python-abi \
 python310-certifi"
 
 inherit rpm

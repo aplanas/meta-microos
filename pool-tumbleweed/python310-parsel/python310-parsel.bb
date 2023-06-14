@@ -10,11 +10,11 @@ RPM_HASH = "befa40a9d49203393c4fa98370dae1cba55693199527672bf33bc61abc44932a7244
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-parsel \
-python3.10dist(parsel) \
+python3.10dist-parsel \
 python310-parsel \
-python3dist(parsel)"
+python3dist-parsel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cssselect \
 python310-lxml \
 python310-w3lib"

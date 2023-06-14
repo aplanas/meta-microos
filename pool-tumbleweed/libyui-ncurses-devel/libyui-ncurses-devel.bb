@@ -12,8 +12,7 @@ RPM_NAME = "libyui-ncurses-devel-4.6.0-1.1.aarch64.rpm"
 RPM_HASH = "dd8ebd0f679b6cfa2df21c31d04c3d3fa11393db6f4187f07532000da5bb4b6942a9bdc6ce65b7a4272ae07565d481f4f16b1e9262df52819fc705993f51ad3d"
 
 RPROVIDES:${PN} += "libyui-ncurses-devel \
-libyui-ncurses-devel(aarch-64) \
-pkgconfig(libyui-ncurses)"
+pkgconfig-libyui-ncurses"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 boost-devel \

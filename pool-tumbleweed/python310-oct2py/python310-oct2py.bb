@@ -11,11 +11,11 @@ RPM_HASH = "13107ee146f60d45dff539cb50e9484edf4363e1547967ba7ebdf4325c7821ac1228
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oct2py \
-python3.10dist(oct2py) \
+python3.10dist-oct2py \
 python310-oct2py \
-python3dist(oct2py)"
+python3dist-oct2py"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-octave-kernel \
 python310-scipy"

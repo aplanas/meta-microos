@@ -12,14 +12,14 @@ RPM_HASH = "164db75500f6aa04825642db7a2d305062eaf16fefd7fb2f8c6c9a1ddae6537054c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vobject \
-python3.10dist(vobject) \
+python3.10dist-vobject \
 python310-vobject \
-python3dist(vobject) \
+python3dist-vobject \
 vobject"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-python-dateutil \
 python310-six \
 update-alternatives"

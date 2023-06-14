@@ -9,11 +9,11 @@ RPM_HASH = "35f36f3878644d3e73c5be02b8c5420c21fb56716afb036e1945c41194b899a59641
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-web.py \
-python3.10dist(web.py) \
+python3.10dist-web.py \
 python310-web.py \
-python3dist(web.py)"
+python3dist-web.py"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cheroot"
 
 inherit rpm

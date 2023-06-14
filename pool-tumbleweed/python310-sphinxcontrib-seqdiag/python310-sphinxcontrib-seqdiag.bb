@@ -11,11 +11,11 @@ RPM_HASH = "62c992c7da4eef0715b351b25f2c8a8038a52f6eeb785a5fc502a2f8767438c8e06b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-seqdiag \
-python3.10dist(sphinxcontrib-seqdiag) \
+python3.10dist-sphinxcontrib-seqdiag \
 python310-sphinxcontrib-seqdiag \
-python3dist(sphinxcontrib-seqdiag)"
+python3dist-sphinxcontrib-seqdiag"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx \
 python310-blockdiag \
 python310-seqdiag"

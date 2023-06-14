@@ -13,8 +13,8 @@ RPM_HASH = "0d885933ca8f2aecafa1a503af0272159390ac488287eb4ecbf5967f4c7060392f27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible \
-python3.10dist(ansible) \
-python3dist(ansible)"
+python3.10dist-ansible \
+python3dist-ansible"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ansible-core \

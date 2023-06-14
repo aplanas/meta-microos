@@ -10,19 +10,15 @@ PV = "6.5.1"
 RPM_NAME = "qt6-sql-postgresql-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "e93048e41e948113a86af5840f9611fb87bc7f3e35ac58d5203f1bcea1b279be4e697aebc6167e9e53cabc400505b22e69ab6a74b7c738b382ebf5999938fdd1"
 
-RPROVIDES:${PN} += "libqsqlpsql.so()(64bit) \
-libqsqlpsql.so(Qt_6)(64bit) \
-qt6-sql-postgresql \
-qt6-sql-postgresql(aarch-64)"
+RPROVIDES:${PN} += "libqsqlpsql.so \
+qt6-sql-postgresql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Sql.so.6()(64bit) \
-libQt6Sql.so.6(Qt_6)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Sql.so.6 \
 libQt6Sql6 \
-libc.so.6()(64bit) \
-libpq.so.5()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libpq.so.5 \
+libstdc++.so.6"
 
 inherit rpm

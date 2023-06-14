@@ -14,11 +14,10 @@ RPM_NAME = "ffmpeg-4-libavutil-devel-4.4.4-1.2.aarch64.rpm"
 RPM_HASH = "60fb83d44b58605a06af00f56a9205e85bf2c78cb7c5d896f579524f8470d635571e00fc01c5f0eb0e7f5b30bd6c7652c938bc3135851e220cc8dd61a2efe6ff"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavutil-devel \
-ffmpeg-4-libavutil-devel(aarch-64) \
 libavutil-devel \
-pkgconfig(libavutil)"
+pkgconfig-libavutil"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libavutil56_70"
+libavutil56-70"
 
 inherit rpm

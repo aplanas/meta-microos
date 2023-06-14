@@ -10,44 +10,36 @@ PV = "4.18.2"
 RPM_NAME = "xfce4-screensaver-4.18.2-1.1.aarch64.rpm"
 RPM_HASH = "5f6e8b631eb7b3b3bddb715a7ec3cc60ce214e20e496ba05f56a190b6798fa32434f4b0395442c818de3be5540e6902336c25867a97f0f905066c502181f66dd"
 
-RPROVIDES:${PN} += "application() \
-application(xfce-floaters.desktop) \
-application(xfce-personal-slideshow.desktop) \
-application(xfce-popsquares.desktop) \
-application(xfce4-screensaver-preferences.desktop) \
-config(xfce4-screensaver) \
-xfce4-screensaver \
-xfce4-screensaver(aarch-64)"
+RPROVIDES:${PN} += "config-xfce4-screensaver \
+xfce4-screensaver"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXss.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libgarcon-1.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libwnck-3.so.0()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit) \
-libxfconf-0.so.3()(64bit) \
-libxklavier.so.16()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXss.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-1.so.3 \
+libdbus-glib-1.so.2 \
+libgarcon-1.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpam.so.0 \
+libpango-1.0.so.0 \
+libsystemd.so.0 \
+libwnck-3.so.0 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7 \
+libxfconf-0.so.3 \
+libxklavier.so.16 \
 xfconf"
 
 inherit rpm

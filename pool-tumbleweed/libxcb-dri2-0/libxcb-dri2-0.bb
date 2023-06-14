@@ -10,12 +10,11 @@ RPM_NAME = "libxcb-dri2-0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "353acebf05d40ceecccc45ca457d7aab4c92c0308b2331d2e387fa4b64c7fdd00c5293e6a979d40d1a2e10cadb602b1e59acbfe81ab93a9f364f332923bf1a9c"
 
 RPROVIDES:${PN} += "libxcb-dri2-0 \
-libxcb-dri2-0(aarch-64) \
-libxcb-dri2.so.0()(64bit)"
+libxcb-dri2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

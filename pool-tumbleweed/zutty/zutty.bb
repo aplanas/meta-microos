@@ -11,18 +11,17 @@ PV = "0.14"
 RPM_NAME = "zutty-0.14-1.1.aarch64.rpm"
 RPM_HASH = "6168351a31c24536f4e1e5db31a0784f36bdfbc8baa4e025c25ff5ffb01a75871b6af989c1b6874a8da1e3d30080234458678f5690eaa37828dc5ef9f9565a78"
 
-RPROVIDES:${PN} += "zutty \
-zutty(aarch-64)"
+RPROVIDES:${PN} += "zutty"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libGLESv2.so.2()(64bit) \
-libX11.so.6()(64bit) \
-libXmu.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libGLESv2.so.2 \
+libX11.so.6 \
+libXmu.so.6 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

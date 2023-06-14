@@ -9,7 +9,7 @@ RPM_HASH = "665e623e38ec5aa8b5a0fadf08f018ca37ff12b1e1752c3533088a663180f71947ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \
-locale(texlive-asternote-doc:en \
+locale(texlive-asternote-doc-en \
 texlive-asternote-doc"
 
 RDEPENDS:${PN} += ""

@@ -7,11 +7,10 @@ PV = "6.5.1"
 RPM_NAME = "qt6-wayland-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "8c403288c57d014477412972b225562e8d2166f125b2f22118124415481a7baf8c482b328fb67feabff1aedd1d08189ad65655eec93834d2f1f4f80954811ba7"
 
-RPROVIDES:${PN} += "qt6-wayland-devel \
-qt6-wayland-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-wayland-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6WaylandClient) \
-cmake(Qt6WaylandCompositor) \
-cmake(Qt6WaylandGlobalPrivate)"
+RDEPENDS:${PN} += "cmake-Qt6WaylandClient \
+cmake-Qt6WaylandCompositor \
+cmake-Qt6WaylandGlobalPrivate"
 
 inherit rpm

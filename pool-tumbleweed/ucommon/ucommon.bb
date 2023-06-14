@@ -14,14 +14,13 @@ RPM_NAME = "ucommon-7.0.1-1.9.aarch64.rpm"
 RPM_HASH = "cde670eea9e88e575018e3071845f33c8908d965f006477a5b6972913b7a68cbd7cdfdf99f24171bc0b8d307100ed2a3458322d4935538cac3c0ffad36164417"
 
 RPROVIDES:${PN} += "ucommon \
-ucommon(aarch-64) \
 ucommon-bin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libucommon.so.8()(64bit) \
-libusecure.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libucommon.so.8 \
+libusecure.so.8"
 
 inherit rpm

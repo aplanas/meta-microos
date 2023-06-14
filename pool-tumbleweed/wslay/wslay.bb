@@ -25,15 +25,13 @@ PV = "1.1.1"
 RPM_NAME = "wslay-1.1.1-2.8.aarch64.rpm"
 RPM_HASH = "41c9b435e81cfc5c45390873fed8b4a83967235e19019bc630a6e26281d6916e859fc924992e4d5c5499eb36b7e9c713efb8cfc3fb5c4343fd57a8c22ba833ba"
 
-RPROVIDES:${PN} += "wslay \
-wslay(aarch-64)"
+RPROVIDES:${PN} += "wslay"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnettle.so.8()(64bit) \
-libnettle.so.8(NETTLE_8)(64bit) \
-libstdc++.so.6()(64bit) \
-libwslay.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnettle.so.8 \
+libstdc++.so.6 \
+libwslay.so.0"
 
 inherit rpm

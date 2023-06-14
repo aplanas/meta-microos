@@ -21,15 +21,14 @@ PV = "3.2.2"
 RPM_NAME = "freeglut-devel-3.2.2-1.7.aarch64.rpm"
 RPM_HASH = "ed1869da9639e6d4059dabe6e70589387c7bdc5b8443de618e2abd7027a5a37c06580a3014d0cb87052365f62fc757bcfe81fa3ffda185f83df201e281b9eb07"
 
-RPROVIDES:${PN} += "cmake(FreeGLUT) \
+RPROVIDES:${PN} += "cmake-FreeGLUT \
 freeglut-devel \
-freeglut-devel(aarch-64) \
 mesaglut-devel \
-pkgconfig(glut)"
+pkgconfig-glut"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglut3 \
-pkgconfig(gl) \
-pkgconfig(glu)"
+pkgconfig-gl \
+pkgconfig-glu"
 
 inherit rpm

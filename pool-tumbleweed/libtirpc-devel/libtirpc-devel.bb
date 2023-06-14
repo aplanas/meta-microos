@@ -11,8 +11,7 @@ RPM_NAME = "libtirpc-devel-1.3.3-1.6.aarch64.rpm"
 RPM_HASH = "856162fc6bfce280780a8573c8050cfccf3fde4da91e59d1da68d128ee51972368471c50c3418f01f598c58d249de1f70571c2ad1c1cafb71772cd9bf648a7df"
 
 RPROVIDES:${PN} += "libtirpc-devel \
-libtirpc-devel(aarch-64) \
-pkgconfig(libtirpc)"
+pkgconfig-libtirpc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

@@ -27,11 +27,11 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(File::Basename) \
-perl(File::Temp) \
-perl(Getopt::Long) \
+perl-File--Basename \
+perl-File--Temp \
+perl-Getopt--Long \
 sed \
-tex(epstopdf-base.sty) \
+tex-epstopdf-base.sty \
 texlive \
 texlive-epstopdf-bin \
 texlive-filesystem \

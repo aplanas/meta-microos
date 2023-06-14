@@ -11,8 +11,7 @@ PV = "0.4.0"
 RPM_NAME = "guile-gcrypt-0.4.0-1.2.aarch64.rpm"
 RPM_HASH = "360dfc70560f7ac8441ed8fbeefbc6e4520cf970b3e28b843f4adbb213eebcdbca293f70bfce0dd7441235ee24c1919300f13bb5bcb0bf01a40dac9a04aad29c"
 
-RPROVIDES:${PN} += "guile-gcrypt \
-guile-gcrypt(aarch-64)"
+RPROVIDES:${PN} += "guile-gcrypt"
 
 RDEPENDS:${PN} += "/bin/sh \
 guile \

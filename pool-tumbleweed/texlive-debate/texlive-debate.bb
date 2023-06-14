@@ -9,7 +9,7 @@ RPM_NAME = "texlive-debate-2023.201.0.0.2.1svn64846-52.1.noarch.rpm"
 RPM_HASH = "4af9af33600f671eff8b33c88140b0d13165f73ce59ed51e4418507bf653a15c3549d6d78b221631f4b404b7464247b76e0107f5d38f190a51b9ade1c6df43bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(debate.sty) \
+RPROVIDES:${PN} += "tex-debate.sty \
 texlive-debate"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,9 +18,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(tcolorbox.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-tcolorbox.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

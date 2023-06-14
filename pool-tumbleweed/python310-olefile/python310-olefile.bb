@@ -14,10 +14,10 @@ RPM_HASH = "8a28dc4212dc127944717d89c2f94917b08b6fdc0ba708612f5800f6b1a15c495505
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-olefile \
-python3.10dist(olefile) \
+python3.10dist-olefile \
 python310-olefile \
-python3dist(olefile)"
+python3dist-olefile"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

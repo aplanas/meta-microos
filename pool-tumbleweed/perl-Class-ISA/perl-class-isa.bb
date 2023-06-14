@@ -23,9 +23,9 @@ RPM_NAME = "perl-Class-ISA-0.36-10.26.noarch.rpm"
 RPM_HASH = "9c7c31f164f8147b78ee155fcd21011ddd976c4f4a8d2a13cc28086b3ef98fc1cee21d52ba4bfacd290b7841b7b43de9a3fd2a505d9c32c2f65ba48b50e67279"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::ISA) \
+RPROVIDES:${PN} += "perl-Class--ISA \
 perl-Class-ISA"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

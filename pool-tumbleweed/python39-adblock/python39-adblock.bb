@@ -7,13 +7,12 @@ PV = "0.6.0"
 RPM_NAME = "python39-adblock-0.6.0-2.2.aarch64.rpm"
 RPM_HASH = "f43f07a12c3109bb77001606e39bb474fdddbe323d9841cd30464413cb62456c78bd6101e833f280ea5e36385abfaa96c2a196ab999a15368b0dd46a7f4d854f"
 
-RPROVIDES:${PN} += "python3.9dist(adblock) \
+RPROVIDES:${PN} += "python3.9dist-adblock \
 python39-adblock \
-python39-adblock(aarch-64) \
-python3dist(adblock)"
+python3dist-adblock"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+python-abi"
 
 inherit rpm

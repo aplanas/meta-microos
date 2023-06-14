@@ -16,13 +16,13 @@ RPM_HASH = "0a857e91c6f894de1d4a5211d13d3f3109af8797ea6cdfc88d3ef09c3e35264a170a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fmpp \
-mvn(net.sourceforge.fmpp:fmpp) \
-mvn(net.sourceforge.fmpp:fmpp:pom:)"
+mvn-net.sourceforge.fmpp-fmpp \
+mvn-net.sourceforge.fmpp-fmpp-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.beanshell:bsh) \
-mvn(org.freemarker:freemarker) \
-mvn(xml-resolver:xml-resolver)"
+mvn-org.beanshell-bsh \
+mvn-org.freemarker-freemarker \
+mvn-xml-resolver-xml-resolver"
 
 inherit rpm

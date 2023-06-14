@@ -8,12 +8,11 @@ PV = "6.5.1"
 RPM_NAME = "qt6-designercomponents-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "1efe68a3dfd476e6457aee9ca2a603df09b8b0591e1165fbd39c05579b7d47e68d917ff55080758bedf8ca834bad28fad1264b7cc45a677f32c1fb20c29b3244"
 
-RPROVIDES:${PN} += "cmake(Qt6DesignerComponentsPrivate) \
-qt6-designercomponents-private-devel \
-qt6-designercomponents-private-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-Qt6DesignerComponentsPrivate \
+qt6-designercomponents-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6Core) \
-cmake(Qt6Xml) \
+RDEPENDS:${PN} += "cmake-Qt6Core \
+cmake-Qt6Xml \
 libQt6DesignerComponents6 \
 qt6-designer-private-devel \
 qt6-gui-private-devel \

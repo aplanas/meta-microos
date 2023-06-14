@@ -12,9 +12,9 @@ RPM_NAME = "perl-CGI-FastTemplate-1.09-21.17.noarch.rpm"
 RPM_HASH = "561234436aac0292e9e8d86e8233277a0b0921a75cc448c11d9edfa017e676b4dcb6fcd0ae1e4e32cb11649899a78504ec446f705d7e5651960ccbf0a7d1bda2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CGI::FastTemplate) \
+RPROVIDES:${PN} += "perl-CGI--FastTemplate \
 perl-CGI-FastTemplate"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

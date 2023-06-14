@@ -10,16 +10,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "k4dirstat-lang \
 k4dirstat-lang-all \
-locale(k4dirstat:ca) \
-locale(k4dirstat:de) \
-locale(k4dirstat:es_AR) \
-locale(k4dirstat:fr) \
-locale(k4dirstat:hu) \
-locale(k4dirstat:it) \
-locale(k4dirstat:ja) \
-locale(k4dirstat:lt) \
-locale(k4dirstat:lv) \
-locale(k4dirstat:nl)"
+locale-k4dirstat-ca \
+locale-k4dirstat-de \
+locale-k4dirstat-es-AR \
+locale-k4dirstat-fr \
+locale-k4dirstat-hu \
+locale-k4dirstat-it \
+locale-k4dirstat-ja \
+locale-k4dirstat-lt \
+locale-k4dirstat-lv \
+locale-k4dirstat-nl"
 
 RDEPENDS:${PN} += "k4dirstat"
 

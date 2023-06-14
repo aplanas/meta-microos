@@ -12,8 +12,7 @@ RPM_NAME = "pmdk-1.11.1-1.8.aarch64.rpm"
 RPM_HASH = "01f0da2e248fe367f2920daaf2429aa0e171398b6b26a40daab34733684597e2754fa595de94e777fe9a843ca90a0b006d7a22e6af613f769f3179addd56b012"
 
 RPROVIDES:${PN} += "nvml \
-pmdk \
-pmdk(aarch-64)"
+pmdk"
 
 RDEPENDS:${PN} += ""
 

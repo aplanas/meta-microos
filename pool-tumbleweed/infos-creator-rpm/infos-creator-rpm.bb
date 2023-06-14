@@ -10,7 +10,7 @@ RPM_HASH = "e159d346cb7f940d38bf49c7d2731836e872ab796de7b80fc46c2bcd3b95d09e4c24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "infos-creator-rpm \
-kiwi_post_run"
+kiwi-post-run"
 
 RDEPENDS:${PN} += "/bin/sh \
 qemu-tools \

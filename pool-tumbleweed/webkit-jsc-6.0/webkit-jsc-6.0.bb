@@ -14,13 +14,12 @@ PV = "2.40.2"
 RPM_NAME = "webkit-jsc-6.0-2.40.2-1.1.aarch64.rpm"
 RPM_HASH = "b02b097d843e30b708b35988447dce0a9d5f5e0807440a8211e42fb04c9413fae96938cf5d7a3723a71a293f1e05898fc7c982ea3cbe6e804a755120e2639bcb"
 
-RPROVIDES:${PN} += "webkit-jsc-6.0 \
-webkit-jsc-6.0(aarch-64)"
+RPROVIDES:${PN} += "webkit-jsc-6.0"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjavascriptcoregtk-6.0.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjavascriptcoregtk-6.0.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

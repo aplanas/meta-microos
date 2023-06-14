@@ -10,11 +10,11 @@ RPM_HASH = "43103baf178df110d6bfd6ebfe3545ef58388fd30a4e6b3bba6eebdb4f274b18d5b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hyperlink \
-python3.10dist(hyperlink) \
+python3.10dist-hyperlink \
 python310-hyperlink \
-python3dist(hyperlink)"
+python3dist-hyperlink"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-idna"
 
 inherit rpm

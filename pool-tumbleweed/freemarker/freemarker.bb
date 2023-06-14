@@ -13,9 +13,9 @@ RPM_HASH = "0e51abfe6eb1820cae8d0079a4e651bdc21126ccd1b7e342cd160c6c36c6b54d6897
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freemarker \
-mvn(org.freemarker:freemarker) \
-mvn(org.freemarker:freemarker:pom:) \
-osgi(org.freemarker.freemarker)"
+mvn-org.freemarker-freemarker \
+mvn-org.freemarker-freemarker-pom- \
+osgi-org.freemarker.freemarker"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

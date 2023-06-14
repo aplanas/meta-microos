@@ -11,11 +11,11 @@ RPM_NAME = "python311-Flask-Bootstrap-3.3.7.1-1.16.noarch.rpm"
 RPM_HASH = "675b49569e58d6d383732d9ea91064f13d268b79642994b8a900c0d06383b9f849a8e4dbe3613962aaf32372ce57cc49ccc1a0635f62989c3986db29f028ed78"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(flask-bootstrap) \
+RPROVIDES:${PN} += "python3.11dist-flask-bootstrap \
 python311-Flask-Bootstrap \
-python3dist(flask-bootstrap)"
+python3dist-flask-bootstrap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Flask \
 python311-dominate \
 python311-visitor"

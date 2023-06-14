@@ -9,11 +9,11 @@ RPM_HASH = "4c8b8165f1c3b138de8e5c030948a5405c9ec9b25efbaa43d2845b148196a84a512e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-parent \
-mvn(org.apache.felix:felix-parent:pom:) \
-mvn(org.apache.felix:felix:pom:)"
+mvn-org.apache.felix-felix-parent-pom- \
+mvn-org.apache.felix-felix-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache:apache:pom:)"
+mvn-org.apache-apache-pom-"
 
 inherit rpm

@@ -17,16 +17,16 @@ RPM_NAME = "python311-stdeb-0.10.0-1.6.noarch.rpm"
 RPM_HASH = "5b224ad42ed4edf1e5809793147f5ebf7a38e1e5f054dedf9d9d6e0316e4cbe9ac117f4328c1d8c16b72ff51aa2de2b5769f4176ceffbde67929a4e3c3166b0a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(stdeb) \
+RPROVIDES:${PN} += "python3.11dist-stdeb \
 python311-stdeb \
-python3dist(stdeb)"
+python3dist-stdeb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 debhelper \
 dpkg \
 fakeroot \
-python(abi) \
+python-abi \
 python311-requests \
 update-alternatives"
 

@@ -7,12 +7,11 @@ PV = "0.4+git.20201105"
 RPM_NAME = "libnest2d-devel-0.4+git.20201105-1.8.aarch64.rpm"
 RPM_HASH = "b3321f38e5d37e2cedcb52151e2c68075195fe5089ad638b9b958444955f0eac79f47a89d60c485043e6f2d203b51e4a2585c027ecfc146c590ee27b5b4d5177"
 
-RPROVIDES:${PN} += "cmake(Libnest2D) \
-libnest2d-devel \
-libnest2d-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-Libnest2D \
+libnest2d-devel"
 
-RDEPENDS:${PN} += "libboost_headers-devel \
+RDEPENDS:${PN} += "libboost-headers-devel \
 libpolyclipping-devel \
-pkgconfig(nlopt)"
+pkgconfig-nlopt"
 
 inherit rpm

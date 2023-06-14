@@ -20,23 +20,19 @@ PV = "5.106.0"
 RPM_NAME = "kssl-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "c301cb587a753934c30a25f750d99c221baf25fa654167433d76679fdd5858760da6339ff0c82419646a6ebda39b80e1ee04e8a49513248d94fe99b4f46cdbc0"
 
-RPROVIDES:${PN} += "kssl \
-kssl(aarch-64)"
+RPROVIDES:${PN} += "kssl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

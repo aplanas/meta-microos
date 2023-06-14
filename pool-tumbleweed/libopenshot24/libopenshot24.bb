@@ -23,36 +23,27 @@ PV = "0.3.1"
 RPM_NAME = "libopenshot24-0.3.1-1.1.aarch64.rpm"
 RPM_HASH = "f0a3955eef1dc5496490cefe94afff9f2ecb1660a2b153a1f0e00e0b416f2763089bb3c8f0581052787a57702f4d6a1c6bc524ceb610be1f5a717defbf4f078b"
 
-RPROVIDES:${PN} += "libopenshot.so.24()(64bit) \
-libopenshot24 \
-libopenshot24(aarch-64)"
+RPROVIDES:${PN} += "libopenshot.so.24 \
+libopenshot24"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libMagick++-7.Q16HDRI.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libavcodec.so.58.134()(64bit) \
-libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
-libavformat.so.58.76()(64bit) \
-libavformat.so.58.76(LIBAVFORMAT_58)(64bit) \
-libavutil.so.56.70()(64bit) \
-libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libjsoncpp.so.25()(64bit) \
-libm.so.6()(64bit) \
-libopenshot-audio.so.9()(64bit) \
-libstdc++.so.6()(64bit) \
-libswresample.so.3.9()(64bit) \
-libswresample.so.3.9(LIBSWRESAMPLE_3)(64bit) \
-libswscale.so.5.9()(64bit) \
-libswscale.so.5.9(LIBSWSCALE_5)(64bit) \
-libzmq.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libMagick++-7.Q16HDRI.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libavcodec.so.58.134 \
+libavformat.so.58.76 \
+libavutil.so.56.70 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libjsoncpp.so.25 \
+libm.so.6 \
+libopenshot-audio.so.9 \
+libstdc++.so.6 \
+libswresample.so.3.9 \
+libswscale.so.5.9 \
+libzmq.so.5"
 
 inherit rpm

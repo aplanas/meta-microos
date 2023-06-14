@@ -8,94 +8,48 @@ PV = "7.5.4.1"
 RPM_NAME = "libreoffice-calc-7.5.4.1-1.1.aarch64.rpm"
 RPM_HASH = "4016a801dc4c98c7b8c3121387dcb19932b221275f56686747ca1d816df38eb7c076514d78de9af966a5fe6d2d3e633328806e1142dca1c9a4964ed93ec08e37"
 
-RPROVIDES:${PN} += "application() \
-application(libreoffice-calc.desktop) \
-libanalysislo.so()(64bit) \
-libcalclo.so()(64bit) \
-libdatelo.so()(64bit) \
-libpricinglo.so()(64bit) \
+RPROVIDES:${PN} += "libanalysislo.so \
+libcalclo.so \
+libdatelo.so \
+libpricinglo.so \
 libreoffice-calc \
-libreoffice-calc(aarch-64) \
-libscdlo.so()(64bit) \
-libscfiltlo.so()(64bit) \
-libsclo.so()(64bit) \
-libscuilo.so()(64bit) \
-libsolverlo.so()(64bit) \
-libvbaobjlo.so()(64bit) \
-libwpftcalclo.so()(64bit) \
-metainfo() \
-metainfo(libreoffice-calc.appdata.xml) \
-mimehandler(application/clarisworks) \
-mimehandler(application/csv) \
-mimehandler(application/excel) \
-mimehandler(application/msexcel) \
-mimehandler(application/tab-separated-values) \
-mimehandler(application/vnd.apple.numbers) \
-mimehandler(application/vnd.lotus-1-2-3) \
-mimehandler(application/vnd.ms-excel) \
-mimehandler(application/vnd.ms-excel.sheet.binary.macroEnabled.12) \
-mimehandler(application/vnd.ms-excel.sheet.macroEnabled.12) \
-mimehandler(application/vnd.ms-excel.template.macroEnabled.12) \
-mimehandler(application/vnd.ms-works) \
-mimehandler(application/vnd.oasis.opendocument.chart) \
-mimehandler(application/vnd.oasis.opendocument.chart-template) \
-mimehandler(application/vnd.oasis.opendocument.spreadsheet) \
-mimehandler(application/vnd.oasis.opendocument.spreadsheet-flat-xml) \
-mimehandler(application/vnd.oasis.opendocument.spreadsheet-template) \
-mimehandler(application/vnd.openxmlformats-officedocument.spreadsheetml.sheet) \
-mimehandler(application/vnd.openxmlformats-officedocument.spreadsheetml.template) \
-mimehandler(application/vnd.sun.xml.calc) \
-mimehandler(application/vnd.sun.xml.calc.template) \
-mimehandler(application/x-123) \
-mimehandler(application/x-dbase) \
-mimehandler(application/x-dbf) \
-mimehandler(application/x-dos_ms_excel) \
-mimehandler(application/x-excel) \
-mimehandler(application/x-iwork-numbers-sffnumbers) \
-mimehandler(application/x-ms-excel) \
-mimehandler(application/x-msexcel) \
-mimehandler(application/x-quattropro) \
-mimehandler(application/x-starcalc) \
-mimehandler(text/comma-separated-values) \
-mimehandler(text/csv) \
-mimehandler(text/spreadsheet) \
-mimehandler(text/tab-separated-values) \
-mimehandler(text/x-comma-separated-values) \
-mimehandler(text/x-csv)"
+libscdlo.so \
+libscfiltlo.so \
+libsclo.so \
+libscuilo.so \
+libsolverlo.so \
+libvbaobjlo.so \
+libwpftcalclo.so"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libclewlo.so()(64bit) \
-libetonyek-0.1.so.1()(64bit) \
-libfilelo.so()(64bit) \
-libgcc_s.so.1()(64bit) \
-libi18nlangtag.so()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-liblpsolve55.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmergedlo.so()(64bit) \
-libmwaw-0.3.so.3()(64bit) \
-libodfgen-0.1.so.1()(64bit) \
-libooxlo.so()(64bit) \
-liborcus-0.17.so.0()(64bit) \
-liborcus-parser-0.17.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libclewlo.so \
+libetonyek-0.1.so.1 \
+libfilelo.so \
+libgcc-s.so.1 \
+libi18nlangtag.so \
+libicui18n.so.73 \
+libicuuc.so.73 \
+liblpsolve55.so.0 \
+libm.so.6 \
+libmergedlo.so \
+libmwaw-0.3.so.3 \
+libodfgen-0.1.so.1 \
+libooxlo.so \
+liborcus-0.17.so.0 \
+liborcus-parser-0.17.so.0 \
 libreoffice \
-librevenge-0.0.so.0()(64bit) \
-libstaroffice-0.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libuno_cppu.so.3()(64bit) \
-libuno_cppu.so.3(UDK_3_0_0)(64bit) \
-libuno_cppuhelpergcc3.so.3()(64bit) \
-libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit) \
-libuno_sal.so.3()(64bit) \
-libuno_sal.so.3(UDK_3_0_0)(64bit) \
-libuno_salhelpergcc3.so.3()(64bit) \
-libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit) \
-libwps-0.4.so.4()(64bit) \
-libwriterperfectlo.so()(64bit) \
-libxml2.so.2()(64bit) \
-rtld(GNU_HASH)"
+librevenge-0.0.so.0 \
+libstaroffice-0.0.so.0 \
+libstdc++.so.6 \
+libuno-cppu.so.3 \
+libuno-cppuhelpergcc3.so.3 \
+libuno-sal.so.3 \
+libuno-salhelpergcc3.so.3 \
+libwps-0.4.so.4 \
+libwriterperfectlo.so \
+libxml2.so.2 \
+rtld-GNU-HASH"
 
 inherit rpm

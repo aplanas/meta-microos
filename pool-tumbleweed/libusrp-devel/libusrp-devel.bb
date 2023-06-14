@@ -11,11 +11,10 @@ RPM_NAME = "libusrp-devel-3.4.7-1.4.aarch64.rpm"
 RPM_HASH = "bc5361b21e6a30c8c456df440087d80616cfe82b42b1590ac3420bfb0a55378616fff26c7ff62ff2c07b42b29ab8489ae189ad2a2ec8d31bd43817d5d0bd72d9"
 
 RPROVIDES:${PN} += "libusrp-devel \
-libusrp-devel(aarch-64) \
-pkgconfig(usrp)"
+pkgconfig-usrp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libusrp1 \
-pkgconfig(libusb-1.0)"
+pkgconfig-libusb-1.0"
 
 inherit rpm

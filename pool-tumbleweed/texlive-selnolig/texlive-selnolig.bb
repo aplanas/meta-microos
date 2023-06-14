@@ -25,11 +25,11 @@ RPM_NAME = "texlive-selnolig-2023.201.0.0.302svn38721-53.1.noarch.rpm"
 RPM_HASH = "1260aeaad8d2bae8a370f0fa75d009af9a72a8d92c129d05e603065683991d173e80faec849216fd13a9b120ff0f95fce6bffd086598fd8d4e8a7047d53895cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(selnolig-english-hyphex.sty) \
-tex(selnolig-english-patterns.sty) \
-tex(selnolig-german-hyphex.sty) \
-tex(selnolig-german-patterns.sty) \
-tex(selnolig.sty) \
+RPROVIDES:${PN} += "tex-selnolig-english-hyphex.sty \
+tex-selnolig-english-patterns.sty \
+tex-selnolig-german-hyphex.sty \
+tex-selnolig-german-patterns.sty \
+tex-selnolig.sty \
 texlive-selnolig"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -38,8 +38,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifluatex.sty) \
-tex(luatexbase.sty) \
+tex-ifluatex.sty \
+tex-luatexbase.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

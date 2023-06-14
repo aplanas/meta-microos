@@ -11,10 +11,10 @@ RPM_HASH = "8ff89d1313ab3013d5e3e366a0f23e7c365c5c80c8a491ba779881f00d1089da63e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cachetools \
-python3.10dist(cachetools) \
+python3.10dist-cachetools \
 python310-cachetools \
-python3dist(cachetools)"
+python3dist-cachetools"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

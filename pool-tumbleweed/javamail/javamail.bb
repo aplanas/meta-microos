@@ -12,34 +12,34 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "javamail \
 javamail-monolithic \
 javax.mail \
-mvn(com.sun.mail:all:pom:) \
-mvn(com.sun.mail:dsn) \
-mvn(com.sun.mail:dsn:pom:) \
-mvn(com.sun.mail:gimap) \
-mvn(com.sun.mail:gimap:pom:) \
-mvn(com.sun.mail:imap) \
-mvn(com.sun.mail:imap:pom:) \
-mvn(com.sun.mail:jakarta.mail) \
-mvn(com.sun.mail:jakarta.mail:pom:) \
-mvn(com.sun.mail:javax.mail) \
-mvn(com.sun.mail:javax.mail:pom:) \
-mvn(com.sun.mail:mailapi) \
-mvn(com.sun.mail:mailapi:pom:) \
-mvn(com.sun.mail:pop3) \
-mvn(com.sun.mail:pop3:pom:) \
-mvn(com.sun.mail:smtp) \
-mvn(com.sun.mail:smtp:pom:) \
-mvn(javax.mail:javax.mail-api) \
-mvn(javax.mail:javax.mail-api:pom:) \
-mvn(javax.mail:mail) \
-mvn(javax.mail:mail:pom:) \
-mvn(javax.mail:mailapi) \
-mvn(javax.mail:mailapi:pom:) \
-mvn(org.eclipse.jetty.orbit:javax.mail.glassfish) \
-mvn(org.eclipse.jetty.orbit:javax.mail.glassfish:pom:)"
+mvn-com.sun.mail-all-pom- \
+mvn-com.sun.mail-dsn \
+mvn-com.sun.mail-dsn-pom- \
+mvn-com.sun.mail-gimap \
+mvn-com.sun.mail-gimap-pom- \
+mvn-com.sun.mail-imap \
+mvn-com.sun.mail-imap-pom- \
+mvn-com.sun.mail-jakarta.mail \
+mvn-com.sun.mail-jakarta.mail-pom- \
+mvn-com.sun.mail-javax.mail \
+mvn-com.sun.mail-javax.mail-pom- \
+mvn-com.sun.mail-mailapi \
+mvn-com.sun.mail-mailapi-pom- \
+mvn-com.sun.mail-pop3 \
+mvn-com.sun.mail-pop3-pom- \
+mvn-com.sun.mail-smtp \
+mvn-com.sun.mail-smtp-pom- \
+mvn-javax.mail-javax.mail-api \
+mvn-javax.mail-javax.mail-api-pom- \
+mvn-javax.mail-mail \
+mvn-javax.mail-mail-pom- \
+mvn-javax.mail-mailapi \
+mvn-javax.mail-mailapi-pom- \
+mvn-org.eclipse.jetty.orbit-javax.mail.glassfish \
+mvn-org.eclipse.jetty.orbit-javax.mail.glassfish-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.activation:activation)"
+mvn-javax.activation-activation"
 
 inherit rpm

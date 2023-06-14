@@ -30,8 +30,8 @@ RPM_NAME = "saxon6-6.5.5-16.6.noarch.rpm"
 RPM_HASH = "11152ca98b4e9365e13699c52fe35f1aaf5ec5fd9b636f4114277232edef2e114047963563247265518a118816fce2d354fc344a4ea8b3c529f6de2be68c2533"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jaxp_transform_impl \
-mvn(saxon:saxon) \
+RPROVIDES:${PN} += "jaxp-transform-impl \
+mvn-saxon-saxon \
 saxon \
 saxon6"
 
@@ -39,6 +39,6 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/update-alternatives \
 java-headless \
 javapackages-filesystem \
-jaxp_parser_impl"
+jaxp-parser-impl"
 
 inherit rpm

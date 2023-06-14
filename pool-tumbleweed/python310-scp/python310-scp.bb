@@ -11,11 +11,11 @@ RPM_HASH = "7dc0974e1e3fbe4eab0bef87069293aa02f3a2f60960ba127e1a93d5b73e40b73ad4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scp \
-python3.10dist(scp) \
+python3.10dist-scp \
 python310-scp \
-python3dist(scp)"
+python3dist-scp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-paramiko"
 
 inherit rpm

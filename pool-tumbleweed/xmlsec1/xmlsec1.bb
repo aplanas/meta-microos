@@ -9,12 +9,11 @@ PV = "1.2.37"
 RPM_NAME = "xmlsec1-1.2.37-2.2.aarch64.rpm"
 RPM_HASH = "7788e370510d68e65422cf3a9fd84f0716b17f5f49c5b699822b8a18c2802f7a47c5cd0e97cf37c4a5af453516cbaedf62557595c1c313db46748957f71fe81c"
 
-RPROVIDES:${PN} += "xmlsec1 \
-xmlsec1(aarch-64)"
+RPROVIDES:${PN} += "xmlsec1"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-libxmlsec1.so.1()(64bit) \
-libxslt.so.1()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libxml2.so.2 \
+libxmlsec1.so.1 \
+libxslt.so.1"
 
 inherit rpm

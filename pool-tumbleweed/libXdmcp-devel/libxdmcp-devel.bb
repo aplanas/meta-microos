@@ -17,12 +17,11 @@ RPM_NAME = "libXdmcp-devel-1.1.4-1.2.aarch64.rpm"
 RPM_HASH = "4eb8b081d84006a250ef92e3d4e8dd0bb59e4a4ef233256476bc13b57209e859f7a00d5fc01db5309b2a12a3c325710641979d87733d953a39e9d341f15df2fc"
 
 RPROVIDES:${PN} += "libXdmcp-devel \
-libXdmcp-devel(aarch-64) \
-pkgconfig(xdmcp) \
+pkgconfig-xdmcp \
 xorg-x11-libXdmcp-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXdmcp6 \
-pkgconfig(xproto)"
+pkgconfig-xproto"
 
 inherit rpm

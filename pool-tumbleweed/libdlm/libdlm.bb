@@ -8,18 +8,17 @@ PV = "4.1.0"
 RPM_NAME = "libdlm-4.1.0-2.4.aarch64.rpm"
 RPM_HASH = "c01019cbb793b87839b4eb7f0b556532a3a18ab88b114df200add8eba1927c182dc81f8bf809aeab57f7f1dc656ddb86341b5f267e30e28120b63aae04344cab"
 
-RPROVIDES:${PN} += "libdlm \
-libdlm(aarch-64)"
+RPROVIDES:${PN} += "libdlm"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcfg.so.6()(64bit) \
-libcmap.so.4()(64bit) \
-libcpg.so.4()(64bit) \
-libdlm.so.3()(64bit) \
-libdlmcontrol.so.3()(64bit) \
-libquorum.so.5()(64bit) \
-libuuid.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcfg.so.6 \
+libcmap.so.4 \
+libcpg.so.4 \
+libdlm.so.3 \
+libdlmcontrol.so.3 \
+libquorum.so.5 \
+libuuid.so.1"
 
 inherit rpm

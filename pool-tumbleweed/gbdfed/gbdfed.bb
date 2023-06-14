@@ -12,20 +12,17 @@ PV = "1.6"
 RPM_NAME = "gbdfed-1.6-10.31.aarch64.rpm"
 RPM_HASH = "0ed8038fb6070bc2467f44ee7325e76812578d6418634aa7958a19f299d31ca68da948e33035db51005315e95efb70901847ed4168590d763bfc051cb7040dbb"
 
-RPROVIDES:${PN} += "application() \
-application(gbdfed.desktop) \
-gbdfed \
-gbdfed(aarch-64)"
+RPROVIDES:${PN} += "gbdfed"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libfreetype.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpango-1.0.so.0"
 
 inherit rpm

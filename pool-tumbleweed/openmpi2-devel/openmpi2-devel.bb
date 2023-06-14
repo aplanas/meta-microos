@@ -20,14 +20,13 @@ PV = "2.1.6"
 RPM_NAME = "openmpi2-devel-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "d097cb47f7c3f5499c6ffa7a7decb7cd38c09e0b06d6b85bf59cf165f10cf080a9698827b98f1bcd9fa16981f317ea283c5bd659df1cf60ec23cc092cc2f1754"
 
-RPROVIDES:${PN} += "openmpi2-devel \
-openmpi2-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi2-devel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libibumad-devel \
 libibverbs-devel \
-libopen-pal.so.20()(64bit) \
+libopen-pal.so.20 \
 libstdc++-devel \
 openmpi2"
 

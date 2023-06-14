@@ -10,8 +10,8 @@ RPM_HASH = "e83d928c0d0513c12d7a8e955c1451b36df440315e83c195c51a579841ac6d533953
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcip-annotations \
-mvn(net.jcip:jcip-annotations) \
-mvn(net.jcip:jcip-annotations:pom:)"
+mvn-net.jcip-jcip-annotations \
+mvn-net.jcip-jcip-annotations-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

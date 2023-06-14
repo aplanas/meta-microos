@@ -16,7 +16,7 @@ RPM_NAME = "texlive-context-vim-2023.204.svn62071-54.1.noarch.rpm"
 RPM_HASH = "eecba56de1ff6f9d0c6fb55a2e01772e409fb7aa27518a5e13ac357714885783116792f5488931a040212953b719166446f34257da4b955ffae4fbea7c7a5dc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(t-vim.tex) \
+RPROVIDES:${PN} += "tex-t-vim.tex \
 texlive-context-vim"
 
 RDEPENDS:${PN} += "/bin/sh \

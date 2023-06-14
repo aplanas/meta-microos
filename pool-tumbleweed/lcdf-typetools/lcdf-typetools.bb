@@ -45,13 +45,12 @@ PV = "2.108"
 RPM_NAME = "lcdf-typetools-2.108-1.10.aarch64.rpm"
 RPM_HASH = "34ee45d1495c909702bc7c9f828b2394add9af874022774f56c88a6f227e89b9ed98c946d014fe5bb14c31112d8011d74e65a4182a0492fce3e189d6bbe3960f"
 
-RPROVIDES:${PN} += "lcdf-typetools \
-lcdf-typetools(aarch-64)"
+RPROVIDES:${PN} += "lcdf-typetools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

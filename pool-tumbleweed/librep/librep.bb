@@ -15,15 +15,14 @@ PV = "0.92.7"
 RPM_NAME = "librep-0.92.7-1.26.aarch64.rpm"
 RPM_HASH = "7884ed96349fefa8922647ed659a63f0fdd011e642cfa008ede7edeed10e978a4410527e5355672292a41bc93458dd7f8907a6ff16b8bc401652e34cac06bf13"
 
-RPROVIDES:${PN} += "librep \
-librep(aarch-64)"
+RPROVIDES:${PN} += "librep"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdbm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-librep.so.16()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdbm.so.6 \
+libreadline.so.8 \
+librep.so.16"
 
 inherit rpm

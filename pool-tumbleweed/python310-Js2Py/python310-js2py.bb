@@ -11,11 +11,11 @@ RPM_HASH = "924b986bfa44c5f68deed936c4f2de01d6918c3ded039da5bc0bccc39f8db68810ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Js2Py \
-python3.10dist(js2py) \
+python3.10dist-js2py \
 python310-Js2Py \
-python3dist(js2py)"
+python3dist-js2py"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyjsparser \
 python310-six \
 python310-tzlocal"

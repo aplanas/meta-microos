@@ -14,19 +14,17 @@ RPM_NAME = "google-roboto-slab-fonts-0~git20200304-1.9.noarch.rpm"
 RPM_HASH = "043b93ec92ba2734b604281cbf6920dd21d543ea4124837b00e26cdc6f861778e717ad5d69e9e2efa3114568610b45757c939a27e48f22c1eb3bd22307496e8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-roboto-fonts:/usr/share/appdata/google-roboto-slab.metainfo.xml \
-google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Black.ttf \
-google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Bold.ttf \
-google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Light.ttf \
-google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Medium.ttf \
-google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Regular.ttf \
-google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Thin.ttf \
-google-roboto-slab-fonts \
-metainfo() \
-metainfo(google-roboto-slab.metainfo.xml)"
+RPROVIDES:${PN} += "google-roboto-fonts-/usr/share/appdata/google-roboto-slab.metainfo.xml \
+google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Black.ttf \
+google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Bold.ttf \
+google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Light.ttf \
+google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Medium.ttf \
+google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Regular.ttf \
+google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Thin.ttf \
+google-roboto-slab-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

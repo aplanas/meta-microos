@@ -12,16 +12,15 @@ PV = "1.5.0"
 RPM_NAME = "python39-plyvel-1.5.0-1.5.aarch64.rpm"
 RPM_HASH = "5f8840e4d9d86939e23f6bac3c7b6231bbc4eaaefb75558b39cfbe2f9276b5d52827a81387ef89d58cb692ce5055365b91a72c97bff4c0925377fb3423296e12"
 
-RPROVIDES:${PN} += "python3.9dist(plyvel) \
+RPROVIDES:${PN} += "python3.9dist-plyvel \
 python39-plyvel \
-python39-plyvel(aarch-64) \
-python3dist(plyvel)"
+python3dist-plyvel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleveldb.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleveldb.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

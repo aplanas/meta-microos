@@ -36,11 +36,10 @@ PV = "1.10.0"
 RPM_NAME = "python39-scandir-1.10.0-4.1.aarch64.rpm"
 RPM_HASH = "d4c8da3f6795fbcc2287b7587d2b976297bed19c009c279a125281c0a6761f556f0e616da3255b87c9ab2bf967c0cfd0599321c975ac6c56f2deabda4b3edf2f"
 
-RPROVIDES:${PN} += "python3.9dist(scandir) \
+RPROVIDES:${PN} += "python3.9dist-scandir \
 python39-scandir \
-python39-scandir(aarch-64) \
-python3dist(scandir)"
+python3dist-scandir"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

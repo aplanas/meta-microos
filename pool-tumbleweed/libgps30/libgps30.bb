@@ -8,19 +8,17 @@ PV = "3.25"
 RPM_NAME = "libgps30-3.25-1.3.aarch64.rpm"
 RPM_HASH = "ff74f52f8647865580bac43f245a281e62bd9643bdc4513a25a0592266adb462831122392e0a27cccf1a533c511e75759e2d793f3c43b7674a876dd35e05b0c3"
 
-RPROVIDES:${PN} += "libgps.so.30()(64bit) \
+RPROVIDES:${PN} += "libgps.so.30 \
 libgps30 \
-libgps30(aarch-64) \
-libgpsdpacket.so.30()(64bit)"
+libgpsdpacket.so.30"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbluetooth.so.3 \
+libc.so.6 \
+libdbus-1.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

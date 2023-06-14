@@ -11,13 +11,12 @@ PV = "2.48.3"
 RPM_NAME = "typelib-1_0-Atspi-2_0-2.48.3-1.1.aarch64.rpm"
 RPM_HASH = "feaf61461f9a8a1ff29c05a39232cf0e47bc24855ae16306b407aacbba2a02bdce6a88853044c1ee36891ae562d07be970b7f1963b7546ce7e6228ddb82ee7a3"
 
-RPROVIDES:${PN} += "typelib(Atspi) \
-typelib-1_0-Atspi-2_0 \
-typelib-1_0-Atspi-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Atspi-2-0 \
+typelib-Atspi"
 
-RDEPENDS:${PN} += "libatspi.so.0()(64bit) \
-typelib(DBus) \
-typelib(GLib) \
-typelib(GObject)"
+RDEPENDS:${PN} += "libatspi.so.0 \
+typelib-DBus \
+typelib-GLib \
+typelib-GObject"
 
 inherit rpm

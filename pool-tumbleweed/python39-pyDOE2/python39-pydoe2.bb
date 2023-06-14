@@ -13,11 +13,11 @@ RPM_NAME = "python39-pyDOE2-1.3.0-2.9.noarch.rpm"
 RPM_HASH = "7144e5b4ed2b4bc222bbc36a4351a56b9f198be71d177b4a04944516d697022dcbf5c62fb662aa34295da0046c855afe0ee1dd4c972ff46fbdacca1c60d89c21"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pydoe2) \
+RPROVIDES:${PN} += "python3.9dist-pydoe2 \
 python39-pyDOE2 \
-python3dist(pydoe2)"
+python3dist-pydoe2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numpy \
 python39-scipy"
 

@@ -9,26 +9,24 @@ PV = "4.18.1+git.298.4ccf830b2a4"
 RPM_NAME = "ctdb-pcp-pmda-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
 RPM_HASH = "f20aed872bac51670cb282579e6bab7303f2f039760072d6e061ec62544777774edaf371405df8a3e5d3046a537ba3a320a77d9993e5db0eff844da2477c2c32"
 
-RPROVIDES:${PN} += "ctdb-pcp-pmda \
-ctdb-pcp-pmda(aarch-64)"
+RPROVIDES:${PN} += "ctdb-pcp-pmda"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libiov-buf-samba4.so()(64bit) \
-libpcp.so.3()(64bit) \
-libpcp_pmda.so.3()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libreplace-samba4.so()(64bit) \
-libsamba-debug-samba4.so()(64bit) \
-libsamba-util.so.0()(64bit) \
-libsocket-blocking-samba4.so()(64bit) \
-libsys-rw-samba4.so()(64bit) \
-libtalloc.so.2()(64bit) \
-libtdb-wrap-samba4.so()(64bit) \
-libtdb.so.1()(64bit) \
-libtevent-util.so.0()(64bit) \
-libtevent.so.0()(64bit) \
-libtime-basic-samba4.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libiov-buf-samba4.so \
+libpcp-pmda.so.3 \
+libpcp.so.3 \
+libpopt.so.0 \
+libreplace-samba4.so \
+libsamba-debug-samba4.so \
+libsamba-util.so.0 \
+libsocket-blocking-samba4.so \
+libsys-rw-samba4.so \
+libtalloc.so.2 \
+libtdb-wrap-samba4.so \
+libtdb.so.1 \
+libtevent-util.so.0 \
+libtevent.so.0 \
+libtime-basic-samba4.so"
 
 inherit rpm

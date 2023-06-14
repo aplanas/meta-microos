@@ -12,11 +12,11 @@ RPM_NAME = "python39-colormap-1.0.4-1.3.noarch.rpm"
 RPM_HASH = "6907c5aa086b7a06b94cd505ed882720bb32d18a893c11d97482f2324e99591685f4c123e6cc2126659fdb031f8624accd3d4146c463ea8a9efc368d0abc8fcd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(colormap) \
+RPROVIDES:${PN} += "python3.9dist-colormap \
 python39-colormap \
-python3dist(colormap)"
+python3dist-colormap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-easydev \
 python39-matplotlib"
 

@@ -18,8 +18,8 @@ RPM_NAME = "texlive-refstyle-2023.201.0.0.5svn20318-53.1.noarch.rpm"
 RPM_HASH = "797342148e706f979dc1b6bfbe36681134af811062c6328a1754eb57aa57e284f5acb05ac69ff593a5087dd5e00bc41663ed9309c55ed0614864b4a3f4cd3ea4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(refstyle.cfg) \
-tex(refstyle.sty) \
+RPROVIDES:${PN} += "tex-refstyle.cfg \
+tex-refstyle.sty \
 texlive-refstyle"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,7 +28,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

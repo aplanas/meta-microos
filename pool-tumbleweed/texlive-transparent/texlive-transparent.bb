@@ -12,8 +12,8 @@ RPM_NAME = "texlive-transparent-2023.201.1.5svn64852-52.1.noarch.rpm"
 RPM_HASH = "8dba22d36ff7fef3a47b80559c7ccca2559c3686177232634fde2be0ee69ca5d41322b6f573a5596e430c48da27b77c03fd74bab64fa87fb554331a89007932e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(transparent-nometadata.sty) \
-tex(transparent.sty) \
+RPROVIDES:${PN} += "tex-transparent-nometadata.sty \
+tex-transparent.sty \
 texlive-transparent"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(auxhook.sty) \
-tex(iftex.sty) \
-tex(l3opacity.sty) \
+tex-auxhook.sty \
+tex-iftex.sty \
+tex-l3opacity.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

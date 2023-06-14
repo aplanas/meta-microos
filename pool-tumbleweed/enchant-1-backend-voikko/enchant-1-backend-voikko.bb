@@ -11,15 +11,14 @@ RPM_HASH = "80b336a4c2a2c5094863f0bd62dd099521e5339385db831bb158936b4b5f94473e6f
 
 RPROVIDES:${PN} += "enchant-1-backend \
 enchant-1-backend-voikko \
-enchant-1-backend-voikko(aarch-64) \
-libenchant_voikko.so()(64bit) \
-locale(enchant-1:fi)"
+libenchant-voikko.so \
+locale-enchant-1-fi"
 
 RDEPENDS:${PN} += "enchant-1-backends \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libenchant.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libvoikko.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libenchant.so.1 \
+libglib-2.0.so.0 \
+libvoikko.so.1"
 
 inherit rpm

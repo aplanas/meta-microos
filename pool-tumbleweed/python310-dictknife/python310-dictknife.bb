@@ -13,13 +13,13 @@ RPM_HASH = "e2e244dc00c0d3f7adc204a574f6fe957c0c63e60a795a3280ef43d908d374a380c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dictknife \
-python3.10dist(dictknife) \
+python3.10dist-dictknife \
 python310-dictknife \
-python3dist(dictknife)"
+python3dist-dictknife"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

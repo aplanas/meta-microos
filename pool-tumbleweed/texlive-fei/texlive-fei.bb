@@ -20,7 +20,7 @@ RPM_NAME = "texlive-fei-2023.201.4.10.4svn65352-52.1.noarch.rpm"
 RPM_HASH = "cbc94ae35718741f96cf91ca027361d983433a0b0e7d8e8216b170f5ced8bf3854577c99742167cf5e37cb11aaef8841bf5ee6105c4dfd7191a9f503d990b12e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fei.cls) \
+RPROVIDES:${PN} += "tex-fei.cls \
 texlive-fei"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,31 +29,31 @@ ed \
 findutils \
 grep \
 sed \
-tex(algorithm2e.sty) \
-tex(amsthm.sty) \
-tex(arimo.sty) \
-tex(babel.sty) \
-tex(csquotes.sty) \
-tex(enumitem.sty) \
-tex(fontenc.sty) \
-tex(glossaries-extra.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(icomma.sty) \
-tex(ifthen.sty) \
-tex(imakeidx.sty) \
-tex(indentfirst.sty) \
-tex(inputenc.sty) \
-tex(kvoptions.sty) \
-tex(lmodern.sty) \
-tex(mathtools.sty) \
-tex(memoir.cls) \
-tex(microtype.sty) \
-tex(morewrites.sty) \
-tex(newtxtext.sty) \
-tex(pdfpages.sty) \
-tex(pdfx.sty) \
-tex(thmtools.sty) \
+tex-algorithm2e.sty \
+tex-amsthm.sty \
+tex-arimo.sty \
+tex-babel.sty \
+tex-csquotes.sty \
+tex-enumitem.sty \
+tex-fontenc.sty \
+tex-glossaries-extra.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-icomma.sty \
+tex-ifthen.sty \
+tex-imakeidx.sty \
+tex-indentfirst.sty \
+tex-inputenc.sty \
+tex-kvoptions.sty \
+tex-lmodern.sty \
+tex-mathtools.sty \
+tex-memoir.cls \
+tex-microtype.sty \
+tex-morewrites.sty \
+tex-newtxtext.sty \
+tex-pdfpages.sty \
+tex-pdfx.sty \
+tex-thmtools.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

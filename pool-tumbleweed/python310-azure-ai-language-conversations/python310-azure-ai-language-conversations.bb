@@ -15,11 +15,11 @@ RPM_HASH = "28ef3af292273029f29b45cb9263f7f489e32205c3eabfd2170b3e07eb234753f6d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-language-conversations \
-python3.10dist(azure-ai-language-conversations) \
+python3.10dist-azure-ai-language-conversations \
 python310-azure-ai-language-conversations \
-python3dist(azure-ai-language-conversations)"
+python3dist-azure-ai-language-conversations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-ai-language-nspkg \
 python310-azure-ai-nspkg \
 python310-azure-common \

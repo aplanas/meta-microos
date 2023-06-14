@@ -16,20 +16,19 @@ PV = "10.11"
 RPM_NAME = "hiawatha-10.11-4.7.aarch64.rpm"
 RPM_HASH = "f9d604342f54b0f0fd6dae903489ca1ebd73c66b6a826a13ee7994092fc4fe06164a67030a8e4577071275f6512fa62948b965ee65dd764903888d90fa966cc9"
 
-RPROVIDES:${PN} += "config(hiawatha) \
-hiawatha \
-hiawatha(aarch-64)"
+RPROVIDES:${PN} += "config-hiawatha \
+hiawatha"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libmbedcrypto.so.7()(64bit) \
-libmbedtls.so.14()(64bit) \
-libmbedx509.so.1()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libmbedcrypto.so.7 \
+libmbedtls.so.14 \
+libmbedx509.so.1 \
+libxml2.so.2 \
+libxslt.so.1 \
+libz.so.1 \
 logrotate \
 systemd"
 

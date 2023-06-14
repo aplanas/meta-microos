@@ -7,13 +7,12 @@ PV = "8.60"
 RPM_NAME = "libsignon-qt5-devel-8.60-2.18.aarch64.rpm"
 RPM_HASH = "edac879822af85849acd03d8dc4cdeaf5752e563bed0332fd1cb5afe136dac6787d41f6885333718600b76893d5835fe41f4cbb3cc1a6fa2812e1cbd98f1436f"
 
-RPROVIDES:${PN} += "cmake(SignOnQt5) \
+RPROVIDES:${PN} += "cmake-SignOnQt5 \
 libsignon-qt5-devel \
-libsignon-qt5-devel(aarch-64) \
-pkgconfig(libsignon-qt5)"
+pkgconfig-libsignon-qt5"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsignon-qt5-1 \
-pkgconfig(Qt5Core)"
+pkgconfig-Qt5Core"
 
 inherit rpm

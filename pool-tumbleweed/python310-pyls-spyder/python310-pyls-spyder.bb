@@ -9,11 +9,11 @@ RPM_HASH = "946acdfd380478eba655f630673b3500911fa1a2f05756fe22d0142a104c88ebf04b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyls-spyder \
-python3.10dist(pyls-spyder) \
+python3.10dist-pyls-spyder \
 python310-pyls-spyder \
-python3dist(pyls-spyder)"
+python3dist-pyls-spyder"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-lsp-server"
 
 inherit rpm

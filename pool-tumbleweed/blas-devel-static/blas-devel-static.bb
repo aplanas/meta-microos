@@ -11,8 +11,7 @@ PV = "3.9.0"
 RPM_NAME = "blas-devel-static-3.9.0-9.1.aarch64.rpm"
 RPM_HASH = "e97a7d4ebd13781775506172a46033f92d188820e90d59d84a00c68e124dd26ba61d13d7eb71d4e9d1416ed884a4a1383c797e83a01da543324de884910b155a"
 
-RPROVIDES:${PN} += "blas-devel-static \
-blas-devel-static(aarch-64)"
+RPROVIDES:${PN} += "blas-devel-static"
 
 RDEPENDS:${PN} += "blas-devel"
 

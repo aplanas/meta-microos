@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "png++-devel"
 
-RDEPENDS:${PN} += "pkgconfig(libpng)"
+RDEPENDS:${PN} += "pkgconfig-libpng"
 
 inherit rpm

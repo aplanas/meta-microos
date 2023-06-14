@@ -10,19 +10,18 @@ RPM_NAME = "python3-pcp-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "1b7da0d24c7a20018b1abcf2b7587efbf80b965475672e7cc9166f4071f981b6607b53e4809f9d17f70e4a3439402aae29eb61d5f4d9f0628d6a92a4935aafc7"
 
 RPROVIDES:${PN} += "python3-pcp \
-python3-pcp(aarch-64) \
-python3.10dist(pcp) \
-python3dist(pcp)"
+python3.10dist-pcp \
+python3dist-pcp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcp.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcp-gui2 \
+libpcp-import1 \
+libpcp-mmv1 \
+libpcp-pmda.so.3 \
+libpcp.so.3 \
 libpcp3 \
-libpcp_gui2 \
-libpcp_import1 \
-libpcp_mmv1 \
-libpcp_pmda.so.3()(64bit) \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

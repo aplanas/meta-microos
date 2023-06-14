@@ -17,7 +17,7 @@ RPM_HASH = "33ee9ff8f2bf4590b312fadd0e58f7b027ffef8e0a72db4c04fb3a77c280a8f194cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectl \
-config(collectl)"
+config-collectl"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \

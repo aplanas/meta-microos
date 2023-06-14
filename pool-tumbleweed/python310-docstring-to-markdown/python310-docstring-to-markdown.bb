@@ -13,12 +13,10 @@ RPM_HASH = "651bac3218ff0ad2550295b0304f34c79201974f47fb809f3e05a7e3cc23a8724878
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docstring-to-markdown \
-python3-docstring_to_markdown \
-python3.10dist(docstring-to-markdown) \
+python3.10dist-docstring-to-markdown \
 python310-docstring-to-markdown \
-python310-docstring_to_markdown \
-python3dist(docstring-to-markdown)"
+python3dist-docstring-to-markdown"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

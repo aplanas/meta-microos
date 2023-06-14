@@ -11,17 +11,16 @@ RPM_NAME = "cross-mips-gcc7-7.5.0+r278197-14.1.aarch64.rpm"
 RPM_HASH = "e4a9869a72564397580c39d58144d4c2433d05bf8af4101a979760a044d91717487551f1076ca4048e0187c82aa5724307c4cae8919e9deb4ef6cc103a1a0763"
 
 RPROVIDES:${PN} += "cross-mips-gcc7 \
-cross-mips-gcc7(aarch-64) \
-liblto_plugin.so.0()(64bit)"
+liblto-plugin.so.0"
 
 RDEPENDS:${PN} += "/bin/sh \
 cross-mips-binutils \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmpc.so.3()(64bit) \
-libmpfr.so.6()(64bit) \
-libz.so.1()(64bit) \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
 update-alternatives"
 
 inherit rpm

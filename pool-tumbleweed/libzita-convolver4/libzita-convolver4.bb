@@ -18,15 +18,14 @@ PV = "4.0.3"
 RPM_NAME = "libzita-convolver4-4.0.3-1.15.aarch64.rpm"
 RPM_HASH = "81c3857a3d332e98485c99e63da101291bb80ea919224e3c02205dade94245e21bfd79ca2d6b5791591e91014e501672bb4d5f9edbab21e91db04663ccbfe252"
 
-RPROVIDES:${PN} += "libzita-convolver.so.4()(64bit) \
-libzita-convolver4 \
-libzita-convolver4(aarch-64)"
+RPROVIDES:${PN} += "libzita-convolver.so.4 \
+libzita-convolver4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

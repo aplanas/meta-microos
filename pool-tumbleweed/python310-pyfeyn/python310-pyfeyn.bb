@@ -14,13 +14,13 @@ RPM_HASH = "0e7a6c35b9eb01930d11971444bcaf9986fc7fee2677c71398b31595c61a71001f32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyfeyn \
-python3.10dist(pyfeyn) \
+python3.10dist-pyfeyn \
 python310-pyfeyn \
-python3dist(pyfeyn)"
+python3dist-pyfeyn"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyX \
 update-alternatives"
 

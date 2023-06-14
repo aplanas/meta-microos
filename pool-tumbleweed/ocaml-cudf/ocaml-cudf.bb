@@ -7,10 +7,9 @@ PV = "0.9"
 RPM_NAME = "ocaml-cudf-0.9-2.15.aarch64.rpm"
 RPM_HASH = "5d1eed4ac767aea646dfeab3dd5fa0a5f5e294b9b6be2fe3ce944d96a1d112740f99042e666946376906e7c9c541d7fb9a15eb1b140d50d49db528e70a9b2259"
 
-RPROVIDES:${PN} += "ocaml-cudf \
-ocaml-cudf(aarch-64)"
+RPROVIDES:${PN} += "ocaml-cudf"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libm.so.6"
 
 inherit rpm

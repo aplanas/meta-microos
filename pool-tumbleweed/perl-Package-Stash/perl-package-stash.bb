@@ -24,14 +24,14 @@ RPM_NAME = "perl-Package-Stash-0.40-1.7.noarch.rpm"
 RPM_HASH = "1f20e9ff82fa2e68e9cf527963d706b1843c57b127430c37a000f0e5422cf6f9a53dfb08c76305858af3fb906283cc5da3b7ed89a7978602d7d05a43a7fc77d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Package::Stash) \
-perl(Package::Stash::PP) \
+RPROVIDES:${PN} += "perl-Package--Stash \
+perl-Package--Stash--PP \
 perl-Package-Stash"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Dist::CheckConflicts) \
-perl(Module::Implementation) \
-perl(Package::Stash::XS)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Dist--CheckConflicts \
+perl-Module--Implementation \
+perl-Package--Stash--XS"
 
 inherit rpm

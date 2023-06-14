@@ -53,64 +53,63 @@ PV = "1.40"
 RPM_NAME = "perl-Devel-Cover-1.40-1.1.aarch64.rpm"
 RPM_HASH = "4b4b688788d4f64e32a30c1306610dae2495c54b3c7ab0bbbea9048ae09ac212aac69094cd4564f0538111ed6c733e4ddf07d72d00b4f9e98cc2a571adedb65e"
 
-RPROVIDES:${PN} += "perl(Devel::Cover) \
-perl(Devel::Cover::Annotation::Git) \
-perl(Devel::Cover::Annotation::Random) \
-perl(Devel::Cover::Annotation::Svk) \
-perl(Devel::Cover::Branch) \
-perl(Devel::Cover::Collection) \
-perl(Devel::Cover::Collection::Template::Provider) \
-perl(Devel::Cover::Condition) \
-perl(Devel::Cover::Condition_and_2) \
-perl(Devel::Cover::Condition_and_3) \
-perl(Devel::Cover::Condition_or_2) \
-perl(Devel::Cover::Condition_or_3) \
-perl(Devel::Cover::Condition_xor_4) \
-perl(Devel::Cover::Criterion) \
-perl(Devel::Cover::DB) \
-perl(Devel::Cover::DB::Criterion) \
-perl(Devel::Cover::DB::Digests) \
-perl(Devel::Cover::DB::File) \
-perl(Devel::Cover::DB::IO) \
-perl(Devel::Cover::DB::IO::Base) \
-perl(Devel::Cover::DB::IO::JSON) \
-perl(Devel::Cover::DB::IO::Sereal) \
-perl(Devel::Cover::DB::IO::Storable) \
-perl(Devel::Cover::DB::Run) \
-perl(Devel::Cover::DB::Structure) \
-perl(Devel::Cover::Html_Common) \
-perl(Devel::Cover::Inc) \
-perl(Devel::Cover::Op) \
-perl(Devel::Cover::Pod) \
-perl(Devel::Cover::Report::Compilation) \
-perl(Devel::Cover::Report::Html) \
-perl(Devel::Cover::Report::Html_basic) \
-perl(Devel::Cover::Report::Html_basic::Template::Provider) \
-perl(Devel::Cover::Report::Html_minimal) \
-perl(Devel::Cover::Report::Html_subtle) \
-perl(Devel::Cover::Report::Html_subtle::Template::Provider) \
-perl(Devel::Cover::Report::Json) \
-perl(Devel::Cover::Report::Sort) \
-perl(Devel::Cover::Report::Text) \
-perl(Devel::Cover::Report::Text2) \
-perl(Devel::Cover::Report::Vim) \
-perl(Devel::Cover::Report::Vim::Template::Provider) \
-perl(Devel::Cover::Statement) \
-perl(Devel::Cover::Subroutine) \
-perl(Devel::Cover::Test) \
-perl(Devel::Cover::Time) \
-perl(Devel::Cover::Truth_Table) \
-perl(Devel::Cover::Truth_Table::Row) \
-perl(Devel::Cover::Util) \
-perl(Devel::Cover::Web) \
-perl-Devel-Cover \
-perl-Devel-Cover(aarch-64)"
+RPROVIDES:${PN} += "perl-Devel--Cover \
+perl-Devel--Cover--Annotation--Git \
+perl-Devel--Cover--Annotation--Random \
+perl-Devel--Cover--Annotation--Svk \
+perl-Devel--Cover--Branch \
+perl-Devel--Cover--Collection \
+perl-Devel--Cover--Collection--Template--Provider \
+perl-Devel--Cover--Condition \
+perl-Devel--Cover--Condition-and-2 \
+perl-Devel--Cover--Condition-and-3 \
+perl-Devel--Cover--Condition-or-2 \
+perl-Devel--Cover--Condition-or-3 \
+perl-Devel--Cover--Condition-xor-4 \
+perl-Devel--Cover--Criterion \
+perl-Devel--Cover--DB \
+perl-Devel--Cover--DB--Criterion \
+perl-Devel--Cover--DB--Digests \
+perl-Devel--Cover--DB--File \
+perl-Devel--Cover--DB--IO \
+perl-Devel--Cover--DB--IO--Base \
+perl-Devel--Cover--DB--IO--JSON \
+perl-Devel--Cover--DB--IO--Sereal \
+perl-Devel--Cover--DB--IO--Storable \
+perl-Devel--Cover--DB--Run \
+perl-Devel--Cover--DB--Structure \
+perl-Devel--Cover--Html-Common \
+perl-Devel--Cover--Inc \
+perl-Devel--Cover--Op \
+perl-Devel--Cover--Pod \
+perl-Devel--Cover--Report--Compilation \
+perl-Devel--Cover--Report--Html \
+perl-Devel--Cover--Report--Html-basic \
+perl-Devel--Cover--Report--Html-basic--Template--Provider \
+perl-Devel--Cover--Report--Html-minimal \
+perl-Devel--Cover--Report--Html-subtle \
+perl-Devel--Cover--Report--Html-subtle--Template--Provider \
+perl-Devel--Cover--Report--Json \
+perl-Devel--Cover--Report--Sort \
+perl-Devel--Cover--Report--Text \
+perl-Devel--Cover--Report--Text2 \
+perl-Devel--Cover--Report--Vim \
+perl-Devel--Cover--Report--Vim--Template--Provider \
+perl-Devel--Cover--Statement \
+perl-Devel--Cover--Subroutine \
+perl-Devel--Cover--Test \
+perl-Devel--Cover--Time \
+perl-Devel--Cover--Truth-Table \
+perl-Devel--Cover--Truth-Table--Row \
+perl-Devel--Cover--Util \
+perl-Devel--Cover--Web \
+perl-Devel-Cover"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(HTML::Entities) \
-perl-B-Debug"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-B-Debug \
+perl-HTML--Entities"
 
 inherit rpm

@@ -12,8 +12,7 @@ RPM_HASH = "eb431723ee73f8abf0581529fe940ccb4d28464093ed3ffbecd39e84c3ac8cf4f52f
 
 RPROVIDES:${PN} += "curl-devel \
 libcurl-devel \
-libcurl-devel(aarch-64) \
-pkgconfig(libcurl)"
+pkgconfig-libcurl"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

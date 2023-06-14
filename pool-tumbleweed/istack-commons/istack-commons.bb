@@ -9,11 +9,11 @@ RPM_HASH = "315e3f0574ecf98ad8fc95541f5c3fe0b4dea11e9eb3026e2f84556190ef2b535374
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons \
-mvn(com.sun.istack:istack-commons:pom:)"
+mvn-com.sun.istack-istack-commons-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(net.java:jvnet-parent:pom:) \
-mvn(org.apache.felix:maven-bundle-plugin)"
+mvn-net.java-jvnet-parent-pom- \
+mvn-org.apache.felix-maven-bundle-plugin"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "c212fb27b5a632e53112c13a596edc17f0ff2776a7797749a1d8475050fb249219b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-servicefabric \
-python3.10dist(azure-servicefabric) \
+python3.10dist-azure-servicefabric \
 python310-azure-servicefabric \
-python3dist(azure-servicefabric)"
+python3dist-azure-servicefabric"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-msrest"

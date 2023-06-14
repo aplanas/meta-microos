@@ -11,14 +11,13 @@ RPM_HASH = "d746be14210d803afa621b0cac9d58279d663901d9273a4d9bdd00d212ebf3cb3b9b
 
 RPROVIDES:${PN} += "fftw3 \
 libfftw3-3 \
-libfftw3-3(aarch-64) \
-libfftw3.so.3()(64bit) \
-libfftw3f.so.3()(64bit) \
-libfftw3l.so.3()(64bit)"
+libfftw3.so.3 \
+libfftw3f.so.3 \
+libfftw3l.so.3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

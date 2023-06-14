@@ -19,11 +19,11 @@ RPM_NAME = "texlive-dvipdfmx-2023.201.svn66203-53.1.noarch.rpm"
 RPM_HASH = "9f140f775a27e5f9238cef6b86df0cea2c549a2e7c471935b28cc9d7e5762ec9acab232720f409f48b2e307d8c98c867cc793da481dce2e5ba38bc68e19b1c48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(texlive-dvipdfmx) \
-tex(cid-x.map) \
-tex(ckx.map) \
-tex(dvipdfmx-unsafe.cfg) \
-tex(dvipdfmx.cfg) \
+RPROVIDES:${PN} += "config-texlive-dvipdfmx \
+tex-cid-x.map \
+tex-ckx.map \
+tex-dvipdfmx-unsafe.cfg \
+tex-dvipdfmx.cfg \
 texlive-dvipdfm \
 texlive-dvipdfmx"
 
@@ -34,9 +34,9 @@ findutils \
 ghostscript \
 grep \
 perl \
-perl(TeXLive::TLUtils) \
+perl-TeXLive--TLUtils \
 sed \
-tex(texmf.cnf) \
+tex-texmf.cnf \
 texlive \
 texlive-dvipdfmx-bin \
 texlive-filesystem \

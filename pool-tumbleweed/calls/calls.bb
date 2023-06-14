@@ -9,41 +9,30 @@ PV = "44.1"
 RPM_NAME = "calls-44.1-1.1.aarch64.rpm"
 RPM_HASH = "ca192b276f7fe5e068792fb1e9afdbfb893320e0a61057a967de2b8f791efc6123f4e9d34b8a1909b4c1cd611e9be8d342fcbf8668e405e20f482cbe1dedba6c"
 
-RPROVIDES:${PN} += "application() \
-application(org.gnome.Calls.desktop) \
-calls \
-calls(aarch-64) \
-libdummy.so()(64bit) \
-libmm.so()(64bit) \
-libsip.so()(64bit) \
-metainfo() \
-metainfo(org.gnome.Calls.metainfo.xml) \
-mimehandler(x-scheme-handler/sip) \
-mimehandler(x-scheme-handler/sips) \
-mimehandler(x-scheme-handler/tel)"
+RPROVIDES:${PN} += "calls \
+libdummy.so \
+libmm.so \
+libsip.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcallaudio-0.1.so.0()(64bit) \
-libcallaudio-0.1.so.0(LIBCALLAUDIO_0_0_0)(64bit) \
-libebook-contacts-1.2.so.4()(64bit) \
-libfeedback-0.0.so.0()(64bit) \
-libfeedback-0.0.so.0(LIBFEEDBACK_0_0_0)(64bit) \
-libfolks.so.26()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgom-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libhandy-1.so.0()(64bit) \
-libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
-libmm-glib.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libsecret-1.so.0()(64bit) \
-libsofia-sip-ua-glib.so.3()(64bit) \
-libsofia-sip-ua.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcallaudio-0.1.so.0 \
+libebook-contacts-1.2.so.4 \
+libfeedback-0.0.so.0 \
+libfolks.so.26 \
+libgdk-3.so.0 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgom-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgtk-3.so.0 \
+libhandy-1.so.0 \
+libmm-glib.so.0 \
+libpeas-1.0.so.0 \
+libsecret-1.so.0 \
+libsofia-sip-ua-glib.so.3 \
+libsofia-sip-ua.so.0"
 
 inherit rpm

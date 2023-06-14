@@ -13,13 +13,13 @@ RPM_HASH = "6503206bc6f2f01bd4e64c35bf9d00b86b022f0e2c265824f50d9ca57f7ac7ce1eae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycha \
-python3.10dist(pycha) \
+python3.10dist-pycha \
 python310-pycha \
-python3dist(pycha)"
+python3dist-pycha"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cairocffi \
 update-alternatives"
 

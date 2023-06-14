@@ -20,15 +20,15 @@ RPM_NAME = "perl-DBIx-Simple-1.37-1.20.noarch.rpm"
 RPM_HASH = "f436813f7da488cf50e6afc63ff3c810102da8aa23e2d2ead5f09f58ad9c0491c904c7570a924024d8e0b8699ff0b7963b7863c3778e14ea80e76028db857f2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DBIx::Simple) \
-perl(DBIx::Simple::DeadObject) \
-perl(DBIx::Simple::Dummy) \
-perl(DBIx::Simple::Result) \
-perl(DBIx::Simple::Result::RowObject) \
-perl(DBIx::Simple::Statement) \
+RPROVIDES:${PN} += "perl-DBIx--Simple \
+perl-DBIx--Simple--DeadObject \
+perl-DBIx--Simple--Dummy \
+perl-DBIx--Simple--Result \
+perl-DBIx--Simple--Result--RowObject \
+perl-DBIx--Simple--Statement \
 perl-DBIx-Simple"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DBI)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DBI"
 
 inherit rpm

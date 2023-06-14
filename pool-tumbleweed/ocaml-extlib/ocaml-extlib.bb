@@ -12,8 +12,7 @@ PV = "1.7.9"
 RPM_NAME = "ocaml-extlib-1.7.9-2.4.aarch64.rpm"
 RPM_HASH = "67ff60c4822a0abb3883e412a21ba122b67350b1e8d536e0a75c86aa8f0642b75a809a4707c90d94f2ef18a73783e093e863dbb5a40c9aab1c2e8dae1cc86f05"
 
-RPROVIDES:${PN} += "ocaml-extlib \
-ocaml-extlib(aarch-64)"
+RPROVIDES:${PN} += "ocaml-extlib"
 
 RDEPENDS:${PN} += ""
 

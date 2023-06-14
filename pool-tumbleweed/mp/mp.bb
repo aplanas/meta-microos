@@ -33,24 +33,17 @@ PV = "5.2.13"
 RPM_NAME = "mp-5.2.13-1.26.aarch64.rpm"
 RPM_HASH = "17a3266a381700568f39ab4393f0bc9dc25f249e7159863c1400b9fbd3cf83595c6f67885894d61eac04d2d609d3d9f9a6286bd2acb83cf99db0e4bb1cb4521c"
 
-RPROVIDES:${PN} += "application() \
-application(mp-5.desktop) \
-mimehandler(text/plain) \
-mp \
-mp(aarch-64)"
+RPROVIDES:${PN} += "mp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libncursesw.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

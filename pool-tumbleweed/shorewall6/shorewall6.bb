@@ -10,8 +10,8 @@ RPM_NAME = "shorewall6-5.2.8-4.2.noarch.rpm"
 RPM_HASH = "c6257269541d614667ed9c241b5d101607a5ba80c0ad8740e37327201f53f027e0b1262f1340a2f74fa0220ae90e4fcb7e21d6def96cad192aad6d9213defc24"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(shorewall6) \
-shoreline_firewall \
+RPROVIDES:${PN} += "config-shorewall6 \
+shoreline-firewall \
 shorewall6"
 
 RDEPENDS:${PN} += "/bin/sh \

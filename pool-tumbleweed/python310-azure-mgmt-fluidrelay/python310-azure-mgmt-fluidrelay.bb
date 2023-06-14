@@ -11,11 +11,11 @@ RPM_HASH = "1732639e265d279b96e3129e8d5f8efd7c88e86a5501ae58c7e0791d50363309d3c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-fluidrelay \
-python3.10dist(azure-mgmt-fluidrelay) \
+python3.10dist-azure-mgmt-fluidrelay \
 python310-azure-mgmt-fluidrelay \
-python3dist(azure-mgmt-fluidrelay)"
+python3dist-azure-mgmt-fluidrelay"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

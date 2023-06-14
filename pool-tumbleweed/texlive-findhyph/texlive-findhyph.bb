@@ -19,8 +19,8 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Std) \
-perl(warnings) \
+perl-Getopt--Std \
+perl-warnings \
 sed \
 texlive \
 texlive-filesystem \

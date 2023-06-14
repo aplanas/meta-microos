@@ -10,16 +10,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dico-lang \
 dico-lang-all \
-locale(dico:da) \
-locale(dico:de) \
-locale(dico:es) \
-locale(dico:fi) \
-locale(dico:fr) \
-locale(dico:pl) \
-locale(dico:pt_BR) \
-locale(dico:sr) \
-locale(dico:sv) \
-locale(dico:uk)"
+locale-dico-da \
+locale-dico-de \
+locale-dico-es \
+locale-dico-fi \
+locale-dico-fr \
+locale-dico-pl \
+locale-dico-pt-BR \
+locale-dico-sr \
+locale-dico-sv \
+locale-dico-uk"
 
 RDEPENDS:${PN} += "dico"
 

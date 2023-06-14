@@ -10,29 +10,28 @@ RPM_HASH = "4fbb4cd23ba2c8dcd39303f3b5795ddbae18cd51cd277707695cc025ee01f8bc163f
 
 RPROVIDES:${PN} += "corosync-devel \
 libcorosync-devel \
-libcorosync-devel(aarch-64) \
-pkgconfig(corosync) \
-pkgconfig(libcfg) \
-pkgconfig(libcmap) \
-pkgconfig(libcorosync_common) \
-pkgconfig(libcpg) \
-pkgconfig(libquorum) \
-pkgconfig(libsam) \
-pkgconfig(libtotem_pg) \
-pkgconfig(libvotequorum)"
+pkgconfig-corosync \
+pkgconfig-libcfg \
+pkgconfig-libcmap \
+pkgconfig-libcorosync-common \
+pkgconfig-libcpg \
+pkgconfig-libquorum \
+pkgconfig-libsam \
+pkgconfig-libtotem-pg \
+pkgconfig-libvotequorum"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 libcfg6 \
 libcmap4 \
-libcorosync_common4 \
+libcorosync-common4 \
 libcpg4 \
 libqb-devel \
 libquorum5 \
 libsam4 \
-libtotem_pg5 \
+libtotem-pg5 \
 libvotequorum8 \
 pkgconfig \
-pkgconfig(libqb)"
+pkgconfig-libqb"
 
 inherit rpm

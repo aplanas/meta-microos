@@ -16,7 +16,7 @@ RPM_NAME = "texlive-udes-genie-these-2023.201.3.0.1svn65039-53.1.noarch.rpm"
 RPM_HASH = "5399faf4371ffbb9a27ca4a024745db2153339110331cea8dd451e587c8c75cf2b8d8c03ce16466258f9d543ddb4cbe8d301a42e5bde6b1918f64ab10aa9e994"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(udes-genie-these.cls) \
+RPROVIDES:${PN} += "tex-udes-genie-these.cls \
 texlive-udes-genie-these"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,15 +25,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
-tex(book.cls) \
-tex(caption.sty) \
-tex(fancyhdr.sty) \
-tex(flafter.sty) \
-tex(geometry.sty) \
-tex(l3keys2e.sty) \
-tex(parskip.sty) \
-tex(setspace.sty) \
+tex-babel.sty \
+tex-book.cls \
+tex-caption.sty \
+tex-fancyhdr.sty \
+tex-flafter.sty \
+tex-geometry.sty \
+tex-l3keys2e.sty \
+tex-parskip.sty \
+tex-setspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

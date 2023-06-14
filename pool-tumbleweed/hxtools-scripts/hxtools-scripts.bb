@@ -30,11 +30,11 @@ RPROVIDES:${PN} += "hxtools-scripts"
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 hxtools \
-perl(Data::Dumper) \
-perl(File::Find) \
-perl(File::Find::Rule) \
-perl(Getopt::Long) \
-perl(IPC::Open2) \
-perl(Text::CSV_XS)"
+perl-Data--Dumper \
+perl-File--Find \
+perl-File--Find--Rule \
+perl-Getopt--Long \
+perl-IPC--Open2 \
+perl-Text--CSV-XS"
 
 inherit rpm

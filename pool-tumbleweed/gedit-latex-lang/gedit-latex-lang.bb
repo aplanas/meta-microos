@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-latex-lang \
 gedit-latex-lang-all \
-locale(gedit-latex:bs) \
-locale(gedit-latex:ca) \
-locale(gedit-latex:cs) \
-locale(gedit-latex:da) \
-locale(gedit-latex:de) \
-locale(gedit-latex:el) \
-locale(gedit-latex:eo) \
-locale(gedit-latex:es) \
-locale(gedit-latex:eu) \
-locale(gedit-latex:fr) \
-locale(gedit-latex:gl) \
-locale(gedit-latex:hu) \
-locale(gedit-latex:id) \
-locale(gedit-latex:it) \
-locale(gedit-latex:ko) \
-locale(gedit-latex:lv) \
-locale(gedit-latex:nb) \
-locale(gedit-latex:oc) \
-locale(gedit-latex:pl) \
-locale(gedit-latex:pt) \
-locale(gedit-latex:pt_BR) \
-locale(gedit-latex:ro) \
-locale(gedit-latex:ru) \
-locale(gedit-latex:sl) \
-locale(gedit-latex:sr) \
-locale(gedit-latex:sr@latin) \
-locale(gedit-latex:sv) \
-locale(gedit-latex:th) \
-locale(gedit-latex:zh_CN) \
-locale(gedit-latex:zh_TW)"
+locale-gedit-latex-bs \
+locale-gedit-latex-ca \
+locale-gedit-latex-cs \
+locale-gedit-latex-da \
+locale-gedit-latex-de \
+locale-gedit-latex-el \
+locale-gedit-latex-eo \
+locale-gedit-latex-es \
+locale-gedit-latex-eu \
+locale-gedit-latex-fr \
+locale-gedit-latex-gl \
+locale-gedit-latex-hu \
+locale-gedit-latex-id \
+locale-gedit-latex-it \
+locale-gedit-latex-ko \
+locale-gedit-latex-lv \
+locale-gedit-latex-nb \
+locale-gedit-latex-oc \
+locale-gedit-latex-pl \
+locale-gedit-latex-pt \
+locale-gedit-latex-pt-BR \
+locale-gedit-latex-ro \
+locale-gedit-latex-ru \
+locale-gedit-latex-sl \
+locale-gedit-latex-sr \
+locale-gedit-latex-sr@latin \
+locale-gedit-latex-sv \
+locale-gedit-latex-th \
+locale-gedit-latex-zh-CN \
+locale-gedit-latex-zh-TW"
 
 RDEPENDS:${PN} += "gedit-latex"
 

@@ -19,17 +19,16 @@ PV = "3.2.1"
 RPM_NAME = "octave-forge-interval-3.2.1-1.8.aarch64.rpm"
 RPM_HASH = "7cbc307155772224dd08c5e2a2391f346bfc9b4c2b5fcdde0bda6b760fecc374923fc786f23b267ec3775d80286daafbe2875261a2c328601e0531444fa370e1"
 
-RPROVIDES:${PN} += "octave-forge-interval \
-octave-forge-interval(aarch-64)"
+RPROVIDES:${PN} += "octave-forge-interval"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmpfr.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libmpfr.so.6 \
+libstdc++.so.6 \
 octave-cli"
 
 inherit rpm

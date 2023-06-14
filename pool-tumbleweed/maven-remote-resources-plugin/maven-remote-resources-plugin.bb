@@ -14,24 +14,24 @@ RPM_HASH = "fb491839620ba0fa759c77d021383ee3e5480f8442157d8daaa1834d62d2e5a7c9f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-remote-resources-plugin \
-mvn(org.apache.maven.plugins:maven-remote-resources-plugin) \
-mvn(org.apache.maven.plugins:maven-remote-resources-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-remote-resources-plugin \
+mvn-org.apache.maven.plugins-maven-remote-resources-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.apache.maven.shared:maven-common-artifact-filters) \
-mvn(org.apache.maven.shared:maven-filtering) \
-mvn(org.apache.maven:maven-archiver) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-compat) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-settings) \
-mvn(org.apache.velocity:velocity) \
-mvn(org.codehaus.plexus:plexus-interpolation) \
-mvn(org.codehaus.plexus:plexus-resources) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-commons-io-commons-io \
+mvn-org.apache.maven-maven-archiver \
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-compat \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-settings \
+mvn-org.apache.maven.shared-maven-common-artifact-filters \
+mvn-org.apache.maven.shared-maven-filtering \
+mvn-org.apache.velocity-velocity \
+mvn-org.codehaus.plexus-plexus-interpolation \
+mvn-org.codehaus.plexus-plexus-resources \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

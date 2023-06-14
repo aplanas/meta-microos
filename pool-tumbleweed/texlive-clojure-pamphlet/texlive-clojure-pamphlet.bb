@@ -17,7 +17,7 @@ RPM_NAME = "texlive-clojure-pamphlet-2023.201.1.3svn60981-53.1.noarch.rpm"
 RPM_HASH = "b228fd7006bcf16a0a2adecae89b8b5a1ede12c0520d413385b248d55e9ce9fcea281fc0c6ee24d7880852aafe30a310d120c4f5c4d63e206f3c23fd48c198e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(clojure-pamphlet.sty) \
+RPROVIDES:${PN} += "tex-clojure-pamphlet.sty \
 texlive-clojure-pamphlet"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,14 +26,14 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(Pod::Usage) \
-perl(strict) \
-perl(vars) \
-perl(warnings) \
+perl-Getopt--Long \
+perl-Pod--Usage \
+perl-strict \
+perl-vars \
+perl-warnings \
 sed \
-tex(hyperref.sty) \
-tex(listings.sty) \
+tex-hyperref.sty \
+tex-listings.sty \
 texlive \
 texlive-clojure-pamphlet-bin \
 texlive-filesystem \

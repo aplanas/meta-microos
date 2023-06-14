@@ -10,11 +10,11 @@ RPM_HASH = "46568ef9f48630527bf0272567c68c2e9e00fcaeaae4b58c7d41e6bb6ab74b810c9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-coreschema \
-python3.10dist(coreschema) \
+python3.10dist-coreschema \
 python310-coreschema \
-python3dist(coreschema)"
+python3dist-coreschema"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2"
 
 inherit rpm

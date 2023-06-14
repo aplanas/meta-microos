@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-bengali \
 noto-serif-bengali-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

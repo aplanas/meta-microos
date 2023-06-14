@@ -22,12 +22,12 @@ RPM_NAME = "perl-Digest-HMAC-1.04-1.10.noarch.rpm"
 RPM_HASH = "fcbd92ac7791a1945d041d89b8107f1dfd70c12b6920ae329864ad0e0e250054f9c4a0605a281686bc4ca9366ef4d43081dc480857c0ee7eaedf3f470dc75b4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Digest::HMAC) \
-perl(Digest::HMAC_MD5) \
-perl(Digest::HMAC_SHA1) \
+RPROVIDES:${PN} += "perl-Digest--HMAC \
+perl-Digest--HMAC-MD5 \
+perl-Digest--HMAC-SHA1 \
 perl-Digest-HMAC"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Digest::SHA)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Digest--SHA"
 
 inherit rpm

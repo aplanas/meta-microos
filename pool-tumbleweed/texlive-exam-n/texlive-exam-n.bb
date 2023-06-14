@@ -15,7 +15,7 @@ RPM_NAME = "texlive-exam-n-2023.201.1.4.0svn64674-52.1.noarch.rpm"
 RPM_HASH = "431809e76fcc9289d763908887e399dd4dfca3782cba9359f52f976a3b786158ca44be2725d3ace41b73db3f12e25871646b99214db77fd423887734380cb00c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exam-n.cls) \
+RPROVIDES:${PN} += "tex-exam-n.cls \
 texlive-exam-n"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,19 +24,19 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(article.cls) \
-tex(babel.sty) \
-tex(fancyhdr.sty) \
-tex(fontenc.sty) \
-tex(helvet.sty) \
-tex(mathptm.sty) \
-tex(siunitx.sty) \
-tex(stix2.sty) \
-tex(textcomp.sty) \
-tex(times.sty) \
-tex(unicode-math.sty) \
-tex(xcolor.sty) \
+tex-amsmath.sty \
+tex-article.cls \
+tex-babel.sty \
+tex-fancyhdr.sty \
+tex-fontenc.sty \
+tex-helvet.sty \
+tex-mathptm.sty \
+tex-siunitx.sty \
+tex-stix2.sty \
+tex-textcomp.sty \
+tex-times.sty \
+tex-unicode-math.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

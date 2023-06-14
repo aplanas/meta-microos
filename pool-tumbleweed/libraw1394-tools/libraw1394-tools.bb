@@ -9,11 +9,10 @@ RPM_NAME = "libraw1394-tools-2.1.2-1.11.aarch64.rpm"
 RPM_HASH = "8131aa3f7a0fb74d79f05604738ec01a49830a79e51e2092c9e17412436d269b638fc734254a59b49f9521bb2fd5dbfa5af82aaa2a5d9b30a3b08572ce1d683f"
 
 RPROVIDES:${PN} += "libraw1394 \
-libraw1394-tools \
-libraw1394-tools(aarch-64)"
+libraw1394-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libraw1394.so.11()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libraw1394.so.11"
 
 inherit rpm

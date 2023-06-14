@@ -13,14 +13,13 @@ PV = "3.4.0"
 RPM_NAME = "libmbedtls19-3.4.0-3.1.aarch64.rpm"
 RPM_HASH = "eba5c675c60c96e8786c5538a4fe940744c74cdca7c0c122e54b2b9dd2bf3d94f5740fc67c242a4e98c10b9ed0a98d6c05765cd455c3cd76fcfb9e95f98044da"
 
-RPROVIDES:${PN} += "libmbedtls.so.19()(64bit) \
-libmbedtls19 \
-libmbedtls19(aarch-64)"
+RPROVIDES:${PN} += "libmbedtls.so.19 \
+libmbedtls19"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmbedcrypto.so.14()(64bit) \
-libmbedx509.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmbedcrypto.so.14 \
+libmbedx509.so.5"
 
 inherit rpm

@@ -14,10 +14,10 @@ RPM_HASH = "8d9cca952437012bae6ac63456df047f089c69ab1b5c5d655146d2afded32fbd64a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-structlog \
-python3.10dist(structlog) \
+python3.10dist-structlog \
 python310-structlog \
-python3dist(structlog)"
+python3dist-structlog"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -13,9 +13,9 @@ RPM_NAME = "texlive-adrconv-2023.201.1.4svn46817-54.1.noarch.rpm"
 RPM_HASH = "46015e9376cb9dcc80fd9b6d1b049cbb18ff956c2256777a0f4f8f57bc42618e05ef03cf3a14e33bfff76051338ab40a3f4754c63de0e0363a59b8256adf8d18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(adrdir.cfg) \
-tex(adrplaner.cfg) \
-tex(adrsmall.cfg) \
+RPROVIDES:${PN} += "tex-adrdir.cfg \
+tex-adrplaner.cfg \
+tex-adrsmall.cfg \
 texlive-adrconv"
 
 RDEPENDS:${PN} += "/bin/sh \

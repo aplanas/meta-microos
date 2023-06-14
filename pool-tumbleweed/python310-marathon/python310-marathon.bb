@@ -9,11 +9,11 @@ RPM_HASH = "90a2afea83f28cfab202339bead8d0ceb99b9658c5d130f304582d8493543b200c4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-marathon \
-python3.10dist(marathon) \
+python3.10dist-marathon \
 python310-marathon \
-python3dist(marathon)"
+python3dist-marathon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-requests-toolbelt"
 

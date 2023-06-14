@@ -9,11 +9,11 @@ RPM_HASH = "d3542b10265bc28965b9713d5f36d019df2216c234bf06f9b0b59ffbb68dfd821095
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vsts-cd-manager \
-python3.10dist(vsts-cd-manager) \
+python3.10dist-vsts-cd-manager \
 python310-vsts-cd-manager \
-python3dist(vsts-cd-manager)"
+python3dist-vsts-cd-manager"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-msrest"
 
 inherit rpm

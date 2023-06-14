@@ -12,27 +12,26 @@ RPM_HASH = "2b6affaea934e34ccf77caa5daebb28befe48966183a42a9502c0b95814292420ffa
 
 RPROVIDES:${PN} += "pygtk2 \
 python-gtk \
-python-gtk(aarch-64) \
 python2-gtk"
 
 RDEPENDS:${PN} += "atk \
 glib2 \
 gtk2 \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglade-2.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglade-2.0.so.0 \
 libglade2 \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
 pango \
-python(abi) \
+python-abi \
 python-cairo \
 python-gobject2"
 

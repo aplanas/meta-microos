@@ -12,7 +12,7 @@ RPM_NAME = "texlive-errata-2023.201.0.0.3svn42428-53.1.noarch.rpm"
 RPM_HASH = "25ac7bb9d0a5209b1636dd5f6eb530ca268d04daf54f79ebf21bc571662b5eeacd9ff89f9414a6304565e418e7fd7d43686a7f693db37f51d68d468b8379fb00"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(errata.sty) \
+RPROVIDES:${PN} += "tex-errata.sty \
 texlive-errata"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,11 +9,11 @@ RPM_HASH = "51dfaea7f132adf152826c78fd619b43a7f17a016cb5ef9232df153658d16c5ba376
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-forked \
-python3.10dist(pytest-forked) \
+python3.10dist-pytest-forked \
 python310-pytest-forked \
-python3dist(pytest-forked)"
+python3dist-pytest-forked"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-py \
 python310-pytest"
 

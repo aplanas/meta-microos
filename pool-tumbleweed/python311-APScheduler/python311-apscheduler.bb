@@ -26,11 +26,11 @@ RPM_NAME = "python311-APScheduler-3.10.1-1.3.noarch.rpm"
 RPM_HASH = "93a18d914ab1ace7a8f0a49270347d098ddd3788bf1bc8dabeea38869d41ae8c4e56e1d60edb4f4f26c066dbe81a71d7718fb110ac1530ec127baf6010370f52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(apscheduler) \
+RPROVIDES:${PN} += "python3.11dist-apscheduler \
 python311-APScheduler \
-python3dist(apscheduler)"
+python3dist-apscheduler"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pytz \
 python311-six \
 python311-tzlocal"

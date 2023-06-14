@@ -10,14 +10,13 @@ PV = "3.2"
 RPM_NAME = "poke-3.2-1.1.aarch64.rpm"
 RPM_HASH = "07ee92ad7de063ccb900c9ba51d4f32666240558e042b48ff332fdf8a89188d3d9a0bd7261bdf96dd281e74a737c7b56b90fee589e14d9b9413c5123c6a8d66a"
 
-RPROVIDES:${PN} += "poke \
-poke(aarch-64)"
+RPROVIDES:${PN} += "poke"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpoke.so.0()(64bit) \
-libreadline.so.8()(64bit) \
-libtextstyle.so.0()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpoke.so.0 \
+libreadline.so.8 \
+libtextstyle.so.0 \
+libtinfo.so.6"
 
 inherit rpm

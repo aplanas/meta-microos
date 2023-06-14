@@ -10,18 +10,18 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "barrel-lang \
 barrel-lang-all \
-locale(barrel:ca) \
-locale(barrel:cs) \
-locale(barrel:da) \
-locale(barrel:de) \
-locale(barrel:es) \
-locale(barrel:fr) \
-locale(barrel:it) \
-locale(barrel:ja) \
-locale(barrel:mk) \
-locale(barrel:pt_BR) \
-locale(barrel:zh_CN) \
-locale(barrel:zh_TW)"
+locale-barrel-ca \
+locale-barrel-cs \
+locale-barrel-da \
+locale-barrel-de \
+locale-barrel-es \
+locale-barrel-fr \
+locale-barrel-it \
+locale-barrel-ja \
+locale-barrel-mk \
+locale-barrel-pt-BR \
+locale-barrel-zh-CN \
+locale-barrel-zh-TW"
 
 RDEPENDS:${PN} += ""
 

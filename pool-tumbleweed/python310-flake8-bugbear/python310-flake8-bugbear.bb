@@ -11,11 +11,11 @@ RPM_HASH = "a7f29d0727dd2cee4d395fc5489abd881a5e6fcea912b8d3343950703af5afbe6e80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-bugbear \
-python3.10dist(flake8-bugbear) \
+python3.10dist-flake8-bugbear \
 python310-flake8-bugbear \
-python3dist(flake8-bugbear)"
+python3dist-flake8-bugbear"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-flake8"
 

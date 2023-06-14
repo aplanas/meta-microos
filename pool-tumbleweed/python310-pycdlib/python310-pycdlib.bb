@@ -15,14 +15,14 @@ RPM_HASH = "2b867f73c8b4bd4d73fcd9560acd5300c6ed4cc19b51ba6a767ed6d9d9ec764ad800
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycdlib \
-python3.10dist(pycdlib) \
+python3.10dist-pycdlib \
 python310-pycdlib \
-python3dist(pycdlib)"
+python3dist-pycdlib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 mkisofs \
-python(abi) \
+python-abi \
 python3-pycdlib-common"
 
 inherit rpm

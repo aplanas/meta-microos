@@ -10,32 +10,32 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-directory-thumbnailer-lang \
 gnome-directory-thumbnailer-lang-all \
-locale(gnome-directory-thumbnailer:bs) \
-locale(gnome-directory-thumbnailer:cs) \
-locale(gnome-directory-thumbnailer:da) \
-locale(gnome-directory-thumbnailer:de) \
-locale(gnome-directory-thumbnailer:el) \
-locale(gnome-directory-thumbnailer:es) \
-locale(gnome-directory-thumbnailer:fr) \
-locale(gnome-directory-thumbnailer:fur) \
-locale(gnome-directory-thumbnailer:hr) \
-locale(gnome-directory-thumbnailer:hu) \
-locale(gnome-directory-thumbnailer:id) \
-locale(gnome-directory-thumbnailer:it) \
-locale(gnome-directory-thumbnailer:lt) \
-locale(gnome-directory-thumbnailer:nb) \
-locale(gnome-directory-thumbnailer:nl) \
-locale(gnome-directory-thumbnailer:oc) \
-locale(gnome-directory-thumbnailer:pl) \
-locale(gnome-directory-thumbnailer:pt) \
-locale(gnome-directory-thumbnailer:pt_BR) \
-locale(gnome-directory-thumbnailer:ru) \
-locale(gnome-directory-thumbnailer:sk) \
-locale(gnome-directory-thumbnailer:sl) \
-locale(gnome-directory-thumbnailer:sr) \
-locale(gnome-directory-thumbnailer:sr@latin) \
-locale(gnome-directory-thumbnailer:sv) \
-locale(gnome-directory-thumbnailer:tr)"
+locale-gnome-directory-thumbnailer-bs \
+locale-gnome-directory-thumbnailer-cs \
+locale-gnome-directory-thumbnailer-da \
+locale-gnome-directory-thumbnailer-de \
+locale-gnome-directory-thumbnailer-el \
+locale-gnome-directory-thumbnailer-es \
+locale-gnome-directory-thumbnailer-fr \
+locale-gnome-directory-thumbnailer-fur \
+locale-gnome-directory-thumbnailer-hr \
+locale-gnome-directory-thumbnailer-hu \
+locale-gnome-directory-thumbnailer-id \
+locale-gnome-directory-thumbnailer-it \
+locale-gnome-directory-thumbnailer-lt \
+locale-gnome-directory-thumbnailer-nb \
+locale-gnome-directory-thumbnailer-nl \
+locale-gnome-directory-thumbnailer-oc \
+locale-gnome-directory-thumbnailer-pl \
+locale-gnome-directory-thumbnailer-pt \
+locale-gnome-directory-thumbnailer-pt-BR \
+locale-gnome-directory-thumbnailer-ru \
+locale-gnome-directory-thumbnailer-sk \
+locale-gnome-directory-thumbnailer-sl \
+locale-gnome-directory-thumbnailer-sr \
+locale-gnome-directory-thumbnailer-sr@latin \
+locale-gnome-directory-thumbnailer-sv \
+locale-gnome-directory-thumbnailer-tr"
 
 RDEPENDS:${PN} += "gnome-directory-thumbnailer"
 

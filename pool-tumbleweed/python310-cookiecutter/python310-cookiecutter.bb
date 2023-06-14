@@ -14,16 +14,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cookiecutter \
 python3-cookiecutter \
-python3.10dist(cookiecutter) \
+python3.10dist-cookiecutter \
 python310-cookiecutter \
-python3dist(cookiecutter)"
+python3dist-cookiecutter"
 
-RDEPENDS:${PN} += "(python310-Jinja2 >= 2.7 with python310-Jinja2 < 4) \
-(python310-click >= 7 with python310-click < 9) \
+RDEPENDS:${PN} += "-python310-Jinja2 >= 2.7 with python310-Jinja2 < 4 \
+-python310-click >= 7 with python310-click < 9 \
 /bin/sh \
 /usr/bin/python3.10 \
 git-core \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-binaryornot \
 python310-future \

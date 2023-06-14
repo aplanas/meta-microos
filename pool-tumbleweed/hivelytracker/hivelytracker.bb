@@ -21,19 +21,16 @@ PV = "1.9"
 RPM_NAME = "hivelytracker-1.9-1.2.aarch64.rpm"
 RPM_HASH = "ad070605cabd05f3e01b26fac5be5a7e97cba302db5e9fa7f30658db3d56054f39cd067c677d4a1145494adb3a1869c3f2cd8c8f9af990a0a3aac4eab3ea18c0"
 
-RPROVIDES:${PN} += "application() \
-application(hivelytracker.desktop) \
-hivelytracker \
-hivelytracker(aarch-64)"
+RPROVIDES:${PN} += "hivelytracker"
 
-RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_ttf-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
+RDEPENDS:${PN} += "libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-ttf-2.0.so.0 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
 texlive-dejavu-fonts"
 
 inherit rpm

@@ -13,16 +13,14 @@ RPM_HASH = "1e8d0abde979ea14c02a06688dfcc65b295f00ce0318b95c771f19c5d4e97f02d970
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-events \
-python3-jupyter_events \
-python3.10dist(jupyter-events) \
+python3.10dist-jupyter-events \
 python310-jupyter-events \
-python310-jupyter_events \
-python3dist(jupyter-events)"
+python3dist-jupyter-events"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-jsonschema-format-nongpl \
 python310-python-json-logger \

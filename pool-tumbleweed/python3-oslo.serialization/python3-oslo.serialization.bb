@@ -12,10 +12,10 @@ RPM_HASH = "00d59101613a95bfcaa97f0e7965c8717983af1f69778f330ea832bc50b985ac6930
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.serialization \
-python3.10dist(oslo.serialization) \
-python3dist(oslo.serialization)"
+python3.10dist-oslo.serialization \
+python3dist-oslo.serialization"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-msgpack \
 python3-oslo.utils \
 python3-pytz"

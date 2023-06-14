@@ -10,13 +10,13 @@ RPM_HASH = "7c9b328c5e1ae85239ef27849ef9120686523ed0f9d8bdf63506e1198a91e46a5555
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-analyzers-stempel \
-mvn(org.apache.lucene:lucene-analyzers-stempel) \
-mvn(org.apache.lucene:lucene-analyzers-stempel:pom:) \
-osgi(org.apache.lucene.analyzers-stempel)"
+mvn-org.apache.lucene-lucene-analyzers-stempel \
+mvn-org.apache.lucene-lucene-analyzers-stempel-pom- \
+osgi-org.apache.lucene.analyzers-stempel"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.lucene:lucene-analyzers-common) \
-mvn(org.apache.lucene:lucene-core)"
+mvn-org.apache.lucene-lucene-analyzers-common \
+mvn-org.apache.lucene-lucene-core"
 
 inherit rpm

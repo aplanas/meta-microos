@@ -15,7 +15,7 @@ RPM_NAME = "texlive-tabto-ltx-2023.201.1.4svn54080-54.1.noarch.rpm"
 RPM_HASH = "c95fc21ba4fced37674279d992cffb19b3bb3b4fdd4786407e563785ca5a5a5e827cbbc02e94f0bf7f53aa13b004f5667a13e1a3bd1b72122815b1b48bba533a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tabto.sty) \
+RPROVIDES:${PN} += "tex-tabto.sty \
 texlive-tabto-ltx"
 
 RDEPENDS:${PN} += "/bin/sh \

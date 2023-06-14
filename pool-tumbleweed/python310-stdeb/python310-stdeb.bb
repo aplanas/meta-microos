@@ -18,16 +18,16 @@ RPM_HASH = "d2ca4e7d17e9440dd7c95ffd2c559060636da733f54c631a95c909f90e490fb5d1cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stdeb \
-python3.10dist(stdeb) \
+python3.10dist-stdeb \
 python310-stdeb \
-python3dist(stdeb)"
+python3dist-stdeb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 debhelper \
 dpkg \
 fakeroot \
-python(abi) \
+python-abi \
 python310-requests \
 update-alternatives"
 

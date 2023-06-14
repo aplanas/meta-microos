@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnonograms-lang \
 gnonograms-lang-all \
-locale(gnonograms:fr) \
-locale(gnonograms:nl) \
-locale(gnonograms:pt)"
+locale-gnonograms-fr \
+locale-gnonograms-nl \
+locale-gnonograms-pt"
 
 RDEPENDS:${PN} += "gnonograms"
 

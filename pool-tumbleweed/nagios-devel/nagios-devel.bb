@@ -15,8 +15,7 @@ PV = "4.4.7"
 RPM_NAME = "nagios-devel-4.4.7-2.4.aarch64.rpm"
 RPM_HASH = "a8e5338deb7e13f1ffc5e76c4467333f57b7c020eb977a21195e5b90de83543de9618057d234854023d4934104cbfa75b6bee75ce5402b7c49c7e2d95b5cff37"
 
-RPROVIDES:${PN} += "nagios-devel \
-nagios-devel(aarch-64)"
+RPROVIDES:${PN} += "nagios-devel"
 
 RDEPENDS:${PN} += "gcc \
 nagios"

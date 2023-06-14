@@ -13,7 +13,6 @@ RPM_NAME = "HepMC-devel-3.2.5-2.5.aarch64.rpm"
 RPM_HASH = "417c402bd71fd1aed23264b6111fde8ba92cf313d024be1a19de1b8aab6547dac266b18df2259cc897dafea2d78b1c6e35f46a6d690b6a8203a408d217910169"
 
 RPROVIDES:${PN} += "HepMC-devel \
-HepMC-devel(aarch-64) \
 HepMC3-devel"
 
 RDEPENDS:${PN} += "/bin/bash \

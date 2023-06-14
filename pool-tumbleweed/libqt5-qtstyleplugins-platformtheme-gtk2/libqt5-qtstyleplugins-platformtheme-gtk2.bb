@@ -7,31 +7,26 @@ PV = "5.0.0+git20170311"
 RPM_NAME = "libqt5-qtstyleplugins-platformtheme-gtk2-5.0.0+git20170311-10.11.aarch64.rpm"
 RPM_HASH = "8835c8cf2402cdca5eda785d6f8cd49680cc645d2a95a3363896718bde49ebb0249364b4e200f526f024fc6e76a809b7e93269c1a04cf05183548f01aa36b5f7"
 
-RPROVIDES:${PN} += "libqgtk2.so()(64bit) \
-libqgtk2style.so()(64bit) \
-libqt5-qtstyleplugins-platformtheme-gtk2 \
-libqt5-qtstyleplugins-platformtheme-gtk2(aarch-64)"
+RPROVIDES:${PN} += "libqgtk2.so \
+libqgtk2style.so \
+libqt5-qtstyleplugins-platformtheme-gtk2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
 libQt5Gui5 \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Widgets.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

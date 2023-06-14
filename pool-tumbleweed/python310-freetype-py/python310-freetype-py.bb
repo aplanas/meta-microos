@@ -10,11 +10,11 @@ RPM_HASH = "9341b2f139a27f190d5143dc07e3812bce40f5e3e06dd091c8434a7aa4d3c4e8ffe5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-freetype-py \
-python3.10dist(freetype-py) \
+python3.10dist-freetype-py \
 python310-freetype-py \
-python3dist(freetype-py)"
+python3dist-freetype-py"
 
 RDEPENDS:${PN} += "freetype2 \
-python(abi)"
+python-abi"
 
 inherit rpm

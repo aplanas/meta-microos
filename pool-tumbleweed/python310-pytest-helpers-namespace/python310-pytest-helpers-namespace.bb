@@ -9,11 +9,11 @@ RPM_HASH = "8c09aae0acb7a89c8854ee8fa8396e4ab59d577122109f198a6396687f741e8c47ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-helpers-namespace \
-python3.10dist(pytest-helpers-namespace) \
+python3.10dist-pytest-helpers-namespace \
 python310-pytest-helpers-namespace \
-python3dist(pytest-helpers-namespace)"
+python3dist-pytest-helpers-namespace"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest"
 
 inherit rpm

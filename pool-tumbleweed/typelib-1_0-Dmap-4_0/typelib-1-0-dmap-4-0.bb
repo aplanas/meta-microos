@@ -13,16 +13,15 @@ PV = "3.9.12"
 RPM_NAME = "typelib-1_0-Dmap-4_0-3.9.12-1.1.aarch64.rpm"
 RPM_HASH = "f56315233d64fb226e68dc44607771c608c0678027bae71fda5a39d6e37d435c116f7d6b542ba4feca69c75630115557adb07657b63a813895f86e1a1df303b9"
 
-RPROVIDES:${PN} += "typelib(Dmap) \
-typelib-1_0-Dmap-4_0 \
-typelib-1_0-Dmap-4_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Dmap-4-0 \
+typelib-Dmap"
 
-RDEPENDS:${PN} += "libdmapsharing-4.0.so.3()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(Soup)"
+RDEPENDS:${PN} += "libdmapsharing-4.0.so.3 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gio \
+typelib-Gst \
+typelib-Soup"
 
 inherit rpm

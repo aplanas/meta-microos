@@ -9,7 +9,7 @@ RPM_NAME = "texlive-coursepaper-2023.204.2.0svn15878-54.1.noarch.rpm"
 RPM_HASH = "8ca7424477f84ceecde12d23f2602fc21ff70ddbc26a0e9a3fde347597ecab3dfac59fd91b3b5b8d4deb821761103e0a48cc516b26b3adde6e094affe98e45aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(coursepaper.cls) \
+RPROVIDES:${PN} += "tex-coursepaper.cls \
 texlive-coursepaper"
 
 RDEPENDS:${PN} += "/bin/sh \

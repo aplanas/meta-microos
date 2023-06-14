@@ -25,12 +25,11 @@ PV = "1.0+git.20180412"
 RPM_NAME = "meabo-1.0+git.20180412-2.11.aarch64.rpm"
 RPM_HASH = "7eb799da97e135ceb6af979dc11fb979645b8ee968182f364d3dc25941439e43f6013a9f4676bacb7cc6cf074f09776b0aa8b19349cb387b400e75270125da90"
 
-RPROVIDES:${PN} += "meabo \
-meabo(aarch-64)"
+RPROVIDES:${PN} += "meabo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgomp.so.1 \
+libm.so.6"
 
 inherit rpm

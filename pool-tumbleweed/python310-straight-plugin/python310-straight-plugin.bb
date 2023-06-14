@@ -18,10 +18,10 @@ RPM_HASH = "723ad8e9e6e54323f406f70a1816e5d5ab4872a56597ae44d5a19a1db07b9f6e5a18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-straight-plugin \
-python3.10dist(straight.plugin) \
+python3.10dist-straight.plugin \
 python310-straight-plugin \
-python3dist(straight.plugin)"
+python3dist-straight.plugin"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

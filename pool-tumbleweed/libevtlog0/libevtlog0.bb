@@ -22,12 +22,11 @@ PV = "0.2.13"
 RPM_NAME = "libevtlog0-0.2.13-2.23.aarch64.rpm"
 RPM_HASH = "dcf2a38b3c0555d74afc3b2f5e607b5d5d186e055581ae1cbfb6eb6daee0a2992c10d506004d5fcc1b3b4587584c41418d8708d56b524caee8b79a60634f73e5"
 
-RPROVIDES:${PN} += "libevtlog.so.0()(64bit) \
-libevtlog0 \
-libevtlog0(aarch-64)"
+RPROVIDES:${PN} += "libevtlog.so.0 \
+libevtlog0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

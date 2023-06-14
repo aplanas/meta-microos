@@ -9,11 +9,11 @@ RPM_NAME = "nanum-fonts-20110907-23.26.noarch.rpm"
 RPM_HASH = "9d08e2b5903c1eda25cc4e787b44f977957c7076514d971b85937c5aeb018b91b79ed59c63e61825e26d6ff4b5eae613d33c6b2f0b82085b2d14e87fbc28a814"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(ko) \
+RPROVIDES:${PN} += "locale-ko \
 nanum-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

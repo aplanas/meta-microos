@@ -9,14 +9,14 @@ RPM_HASH = "cbf62654c7af11ecff6a346ea03c1cc1902909664e9f754bb770dc7b7cf9bb913156
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-usocket-jna \
-mvn(com.jcraft:jsch.agentproxy.usocket-jna) \
-mvn(com.jcraft:jsch.agentproxy.usocket-jna:pom:) \
-osgi(com.jcraft.jsch.agentproxy.usocket-jna)"
+mvn-com.jcraft-jsch.agentproxy.usocket-jna \
+mvn-com.jcraft-jsch.agentproxy.usocket-jna-pom- \
+osgi-com.jcraft.jsch.agentproxy.usocket-jna"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.jcraft:jsch.agentproxy.core) \
-mvn(net.java.dev.jna:jna) \
-mvn(net.java.dev.jna:platform)"
+mvn-com.jcraft-jsch.agentproxy.core \
+mvn-net.java.dev.jna-jna \
+mvn-net.java.dev.jna-platform"
 
 inherit rpm

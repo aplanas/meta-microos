@@ -12,23 +12,21 @@ PV = "2.5.9"
 RPM_NAME = "libmupen64plus2-2.5.9-2.8.aarch64.rpm"
 RPM_HASH = "548150ad210c3cd249cda6bf6ec0b46c8ebbf892c8e581d757851f96de129ce891c6c29d29ddac5e624acc08347b392372794dd879035372171a094db1ad56e5"
 
-RPROVIDES:${PN} += "libmupen64plus.so.2()(64bit) \
-libmupen64plus2 \
-libmupen64plus2(aarch-64)"
+RPROVIDES:${PN} += "libmupen64plus.so.2 \
+libmupen64plus2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dejavu \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-liblirc_client.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLU.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libfreetype.so.6 \
+liblirc-client.so.0 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

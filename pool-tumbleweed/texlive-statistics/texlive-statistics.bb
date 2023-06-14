@@ -19,7 +19,7 @@ RPM_NAME = "texlive-statistics-2023.201.2.2svn52212-57.1.noarch.rpm"
 RPM_HASH = "0deb4df728d462e633797e9422609411db2677e0352796f28421b89f20781a0ec3ae68d06fdf39988a572c9ff30944f3a5b1e4a4c09b1118a54df2ae626bd09d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(statistics.sty) \
+RPROVIDES:${PN} += "tex-statistics.sty \
 texlive-statistics"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,11 +28,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(expl3.sty) \
-tex(siunitx.sty) \
-tex(tikz.sty) \
-tex(xparse.sty) \
+tex-etoolbox.sty \
+tex-expl3.sty \
+tex-siunitx.sty \
+tex-tikz.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

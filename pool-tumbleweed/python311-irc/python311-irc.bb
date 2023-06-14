@@ -11,12 +11,12 @@ RPM_NAME = "python311-irc-19.0.1-1.8.noarch.rpm"
 RPM_HASH = "4238910d0f24a8a27daf924d1c9fcbe4192f8ee5c0ddfe51807429f598d6777be8fbeb4432b825aa7a228ebbc2b549eb1cba67f93f8fc12c00b2f28c6fedd608"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(irc) \
+RPROVIDES:${PN} += "python3.11dist-irc \
 python311-irc \
 python311-irclib \
-python3dist(irc)"
+python3dist-irc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-importlib-metadata \
 python311-jaraco.collections \
 python311-jaraco.functools \

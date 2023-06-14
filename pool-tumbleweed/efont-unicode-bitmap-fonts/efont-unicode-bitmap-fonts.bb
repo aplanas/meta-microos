@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "efont-unicode \
 efont-unicode-bitmap-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 mkfontdir \
 perl"

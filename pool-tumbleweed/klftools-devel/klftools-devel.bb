@@ -14,7 +14,6 @@ RPM_HASH = "f04e7426467bf2967585f818bf2253c882e89fd6a12409ba92b19cea74fe61e11897
 
 RPROVIDES:${PN} += "klatexformula-devel \
 klftools-devel \
-klftools-devel(aarch-64) \
 libklftools-devel"
 
 RDEPENDS:${PN} += "libklftools"

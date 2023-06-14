@@ -23,14 +23,13 @@ PV = "0.37"
 RPM_NAME = "vorbisgain-0.37-3.1.aarch64.rpm"
 RPM_HASH = "babe732da8084cf66a66638ede71fefd5d46cda2cf9c13fc04eb3f9e43b7c69baae6b38494b3e36d0ca9d9c859d8e218df77802fc5b84fb8f1396230284d9868"
 
-RPROVIDES:${PN} += "vorbisgain \
-vorbisgain(aarch-64)"
+RPROVIDES:${PN} += "vorbisgain"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisfile.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libogg.so.0 \
+libvorbis.so.0 \
+libvorbisfile.so.3"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "61a5de7f1c4b395760c1e80ab3dd1adda2bcc17db68b2467cf9be0f20f019bb3fdeb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-project \
-mvn(org.apache.httpcomponents:httpcomponents-parent:pom:) \
-mvn(org.apache.httpcomponents:project:pom:)"
+mvn-org.apache.httpcomponents-httpcomponents-parent-pom- \
+mvn-org.apache.httpcomponents-project-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache:apache:pom:)"
+mvn-org.apache-apache-pom-"
 
 inherit rpm

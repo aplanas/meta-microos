@@ -14,23 +14,17 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-launcher \
 jupyter-jupyterlab-server \
-jupyter-jupyterlab_launcher \
-jupyter-jupyterlab_server \
+python3-jupyter-jupyterlab-launcher \
 python3-jupyter-jupyterlab-server \
-python3-jupyter_jupyterlab_launcher \
-python3-jupyter_jupyterlab_server \
 python3-jupyterlab-server \
-python3-jupyterlab_server \
-python3.10dist(jupyterlab-server) \
+python3.10dist-jupyterlab-server \
+python310-jupyter-jupyterlab-launcher \
 python310-jupyter-jupyterlab-server \
-python310-jupyter_jupyterlab_launcher \
-python310-jupyter_jupyterlab_server \
 python310-jupyterlab-server \
-python310-jupyterlab_server \
-python3dist(jupyterlab-server)"
+python3dist-jupyterlab-server"
 
-RDEPENDS:${PN} += "(python310-jupyter-server >= 1.21 with python310-jupyter-server < 3) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-jupyter-server >= 1.21 with python310-jupyter-server < 3 \
+python-abi \
 python310-Babel \
 python310-Jinja2 \
 python310-json5 \

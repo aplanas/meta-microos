@@ -14,13 +14,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc \
 python3-osc \
-python3.10dist(osc) \
-python3dist(osc) \
-rpm_macro(osc_plugin_dir)"
+python3.10dist-osc \
+python3dist-osc \
+rpm-macro-osc-plugin-dir"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cryptography \
 python3-rpm \
 python3-urllib3"

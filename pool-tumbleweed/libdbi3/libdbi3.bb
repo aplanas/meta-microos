@@ -10,13 +10,11 @@ PV = "0.9.0.g33"
 RPM_NAME = "libdbi3-0.9.0.g33-4.10.aarch64.rpm"
 RPM_HASH = "3cdb28748e5a9dacbfd087237f27faa0f2dc74462feae869c13dfd1f0fede070157733b02fae2d1651a2dd118f68441429ca00ae1972aa6e6ee88d4a5a1a146e"
 
-RPROVIDES:${PN} += "libdbi.so.3()(64bit) \
-libdbi.so.3(ABI_3)(64bit) \
-libdbi3 \
-libdbi3(aarch-64)"
+RPROVIDES:${PN} += "libdbi.so.3 \
+libdbi3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

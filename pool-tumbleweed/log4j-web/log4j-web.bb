@@ -9,13 +9,13 @@ RPM_HASH = "d3cea65bb77b65f1150b53aff60a26ebeb962199d10aa6112a71d3af9e32627fdc16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-web \
-mvn(org.apache.logging.log4j:log4j-web) \
-mvn(org.apache.logging.log4j:log4j-web:pom:) \
-osgi(org.apache.logging.log4j.web)"
+mvn-org.apache.logging.log4j-log4j-web \
+mvn-org.apache.logging.log4j-log4j-web-pom- \
+osgi-org.apache.logging.log4j.web"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.logging.log4j:log4j-api) \
-mvn(org.apache.logging.log4j:log4j-core)"
+mvn-org.apache.logging.log4j-log4j-api \
+mvn-org.apache.logging.log4j-log4j-core"
 
 inherit rpm

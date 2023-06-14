@@ -9,9 +9,8 @@ PV = "1.11.0"
 RPM_NAME = "helm-docs-1.11.0-1.6.aarch64.rpm"
 RPM_HASH = "78e6fddfb8b65355f481e9b47e19e32e5c08d749c85a0fde98db6bbf22447f97b20f1109a308f34c712cfa506201209939481b865a8c84343231613249d9601f"
 
-RPROVIDES:${PN} += "helm-docs \
-helm-docs(aarch-64)"
+RPROVIDES:${PN} += "helm-docs"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

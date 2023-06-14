@@ -13,13 +13,13 @@ RPM_NAME = "perl-Email-Valid-1.203-1.2.noarch.rpm"
 RPM_HASH = "55c55d6375afc381f234fbb50ef34e931b17f5784ccccfbb02397a9c5a873edbc7bf302af87cc296ddf88e5fd125d0c80e8f5ebd78e5c9545912b008e96192d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Email::Valid) \
+RPROVIDES:${PN} += "perl-Email--Valid \
 perl-Email-Valid"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(IO::CaptureOutput) \
-perl(Mail::Address) \
-perl(Net::DNS) \
-perl(Net::Domain::TLD)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-IO--CaptureOutput \
+perl-Mail--Address \
+perl-Net--DNS \
+perl-Net--Domain--TLD"
 
 inherit rpm

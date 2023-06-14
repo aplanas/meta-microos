@@ -15,15 +15,14 @@ PV = "0.6.3"
 RPM_NAME = "libmpfrcx1-0.6.3-1.6.aarch64.rpm"
 RPM_HASH = "7ff3df6dddb02259e9756e926c083a2ee53700b5d12b6bdba2b1f36cab9db619ac1e066881276121b3bda029e2545c814da11dc1c6eb9dfec2ed4460bf919792"
 
-RPROVIDES:${PN} += "libmpfrcx.so.1()(64bit) \
-libmpfrcx1 \
-libmpfrcx1(aarch-64)"
+RPROVIDES:${PN} += "libmpfrcx.so.1 \
+libmpfrcx1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libmpc.so.3()(64bit) \
-libmpfr.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgmp.so.10 \
+libmpc.so.3 \
+libmpfr.so.6"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "71e71e1640d9360db9e6574946a63d3c5181d91947192ddd9b465c959583ea7e3bfc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zarr \
-python3.10dist(zarr) \
+python3.10dist-zarr \
 python310-zarr \
-python3dist(zarr)"
+python3dist-zarr"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310 \
 python310-asciitree \
 python310-dbm \

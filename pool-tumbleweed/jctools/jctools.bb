@@ -18,9 +18,9 @@ RPM_HASH = "ab313dfaf7e5cdcecff92f0f4870e8dace3464a022b31ac4bbaee884f74914e42497
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jctools \
-mvn(org.jctools:jctools-core) \
-mvn(org.jctools:jctools-core:pom:) \
-osgi(org.jctools.core)"
+mvn-org.jctools-jctools-core \
+mvn-org.jctools-jctools-core-pom- \
+osgi-org.jctools.core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

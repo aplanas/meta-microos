@@ -15,9 +15,8 @@ PV = "23.02.2"
 RPM_NAME = "slurm-testsuite-23.02.2-1.1.aarch64.rpm"
 RPM_HASH = "471188ca9509e4af843f8ee1eb9ce602b70cf3b3055cde6e5089d2e722c372ec669944e69fccf771b5c4dd6928680c4a072f55eb8eabae722b278fe89c77ce88"
 
-RPROVIDES:${PN} += "config(slurm-testsuite) \
-slurm-testsuite \
-slurm-testsuite(aarch-64)"
+RPROVIDES:${PN} += "config-slurm-testsuite \
+slurm-testsuite"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

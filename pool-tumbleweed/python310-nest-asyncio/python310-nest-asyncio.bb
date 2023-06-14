@@ -20,10 +20,10 @@ RPM_HASH = "a85b0811ac8743df42e0c07f8aa373872e3b34c737be2a0a0d5c1fb2fdab7d0c1689
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nest-asyncio \
-python3.10dist(nest-asyncio) \
+python3.10dist-nest-asyncio \
 python310-nest-asyncio \
-python3dist(nest-asyncio)"
+python3dist-nest-asyncio"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

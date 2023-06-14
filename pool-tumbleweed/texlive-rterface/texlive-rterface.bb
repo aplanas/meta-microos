@@ -10,7 +10,7 @@ RPM_NAME = "texlive-rterface-2023.201.svn30084-53.1.noarch.rpm"
 RPM_HASH = "31c64f7e798105f281431ec7ff805c2a729495d9e493aff8b4317b08fffc61d4c860735ef33b27e0062d081c30be1ecaab6dacf810f687056eaee20ad6063002"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rterface.sty) \
+RPROVIDES:${PN} += "tex-rterface.sty \
 texlive-rterface"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(newfile.sty) \
+tex-newfile.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

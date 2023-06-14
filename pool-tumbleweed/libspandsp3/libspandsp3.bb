@@ -11,15 +11,14 @@ PV = "3.0.0.g15"
 RPM_NAME = "libspandsp3-3.0.0.g15-3.1.aarch64.rpm"
 RPM_HASH = "491169199c8c0336077226ca21833c795cbd4e1d455ced38faf9b29719af6e62c1bd839279c23319963fe93d4673ecc24442d7118b5c51f2bd21cdb69f3367ee"
 
-RPROVIDES:${PN} += "libspandsp.so.3()(64bit) \
-libspandsp3 \
-libspandsp3(aarch-64)"
+RPROVIDES:${PN} += "libspandsp.so.3 \
+libspandsp3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libtiff.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libtiff.so.6"
 
 inherit rpm

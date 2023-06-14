@@ -14,11 +14,11 @@ RPM_NAME = "python311-pytest-console-scripts-1.4.1-1.1.noarch.rpm"
 RPM_HASH = "20a0c6247950db0b401990ee2e633b955549ce2208891aeda5654401f321203401a132c407a739e3466207626fa79db5c730719095b1194be1f7964c672e9954"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-console-scripts) \
+RPROVIDES:${PN} += "python3.11dist-pytest-console-scripts \
 python311-pytest-console-scripts \
-python3dist(pytest-console-scripts)"
+python3dist-pytest-console-scripts"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pytest"
 
 inherit rpm

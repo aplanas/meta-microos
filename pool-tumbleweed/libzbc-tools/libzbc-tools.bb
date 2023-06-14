@@ -8,13 +8,10 @@ PV = "5.13.0"
 RPM_NAME = "libzbc-tools-5.13.0-1.3.aarch64.rpm"
 RPM_HASH = "c1be376898e7f04809e6298f09c19189c285c6178a2c8bc8cad512cda0861d9e95e23012f381986306087c70fbfac551fc62637791e84d763ce6af3210ffe2d3"
 
-RPROVIDES:${PN} += "libzbc-tools \
-libzbc-tools(aarch-64)"
+RPROVIDES:${PN} += "libzbc-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libzbc.so.5()(64bit) \
-libzbc.so.5(ZBC_GLOBAL)(64bit) \
-libzbc.so.5(ZBC_PRIVATE)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libzbc.so.5"
 
 inherit rpm

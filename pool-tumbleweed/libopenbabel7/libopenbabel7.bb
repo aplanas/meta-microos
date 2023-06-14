@@ -12,20 +12,19 @@ PV = "3.1.1"
 RPM_NAME = "libopenbabel7-3.1.1-1.4.aarch64.rpm"
 RPM_HASH = "59c8763dc25452c7126914217d37cd81a00a6c0d032b88f5c94b711f0b4746ad0dfcdf508870990936645345873553fdd67819cec3ee0e64c42459dc76705094"
 
-RPROVIDES:${PN} += "libopenbabel.so.7()(64bit) \
-libopenbabel7 \
-libopenbabel7(aarch-64)"
+RPROVIDES:${PN} += "libopenbabel.so.7 \
+libopenbabel7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libinchi.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmaeparser.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libinchi.so.1 \
+libm.so.6 \
+libmaeparser.so.1 \
+libstdc++.so.6 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

@@ -9,13 +9,12 @@ RPM_HASH = "29cb087a0538522cb629c5a19521775129b536fb0d0c420a5bbcc654dacaab40c376
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sw-TZ \
-libreoffice-help-sw_TZ \
-libreoffice-l10n-sw_TZ \
-locale(libreoffice:sw_TZ)"
+libreoffice-l10n-sw-TZ \
+locale-libreoffice-sw-TZ"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \
-myspell-sw_TZ"
+myspell-sw-TZ"
 
 inherit rpm

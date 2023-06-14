@@ -9,38 +9,36 @@ RPM_NAME = "libqt5-qtbase-common-devel-5.15.9+kde154-1.2.aarch64.rpm"
 RPM_HASH = "5dc850cc630544623d3b45c291e31841633c22dafead5f51869dd5a952b935733f8f26a678ce38c0028eb02ac54cd0c52f5e6dd82cdaec88066445fed5ffa34a"
 
 RPROVIDES:${PN} += "libqt5-qtbase-common-devel \
-libqt5-qtbase-common-devel(aarch-64) \
-rpm_macro(_libqt5_archdatadir) \
-rpm_macro(_libqt5_bindir) \
-rpm_macro(_libqt5_datadir) \
-rpm_macro(_libqt5_docdir) \
-rpm_macro(_libqt5_examplesdir) \
-rpm_macro(_libqt5_importdir) \
-rpm_macro(_libqt5_includedir) \
-rpm_macro(_libqt5_libdir) \
-rpm_macro(_libqt5_libexecdir) \
-rpm_macro(_libqt5_plugindir) \
-rpm_macro(_libqt5_prefix) \
-rpm_macro(_libqt5_qmake) \
-rpm_macro(_libqt5_sysconfdir) \
-rpm_macro(_libqt5_translationdir) \
-rpm_macro(make_jobs) \
-rpm_macro(qmake5) \
-rpm_macro(qmake5_install)"
+rpm-macro--libqt5-archdatadir \
+rpm-macro--libqt5-bindir \
+rpm-macro--libqt5-datadir \
+rpm-macro--libqt5-docdir \
+rpm-macro--libqt5-examplesdir \
+rpm-macro--libqt5-importdir \
+rpm-macro--libqt5-includedir \
+rpm-macro--libqt5-libdir \
+rpm-macro--libqt5-libexecdir \
+rpm-macro--libqt5-plugindir \
+rpm-macro--libqt5-prefix \
+rpm-macro--libqt5-qmake \
+rpm-macro--libqt5-sysconfdir \
+rpm-macro--libqt5-translationdir \
+rpm-macro-make-jobs \
+rpm-macro-qmake5 \
+rpm-macro-qmake5-install"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 cmake \
 gcc-c++ \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1 \
+libzstd.so.1 \
 pkg-config"
 
 inherit rpm

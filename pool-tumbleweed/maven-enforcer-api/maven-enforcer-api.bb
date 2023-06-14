@@ -10,12 +10,12 @@ RPM_HASH = "636b7c202f14ebfa59f36c6d3a6069f86b6957e6b4bd37d567f888a866d732863377
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-enforcer-api \
-mvn(org.apache.maven.enforcer:enforcer-api) \
-mvn(org.apache.maven.enforcer:enforcer-api:pom:)"
+mvn-org.apache.maven.enforcer-enforcer-api \
+mvn-org.apache.maven.enforcer-enforcer-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-container-default)"
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.codehaus.plexus-plexus-container-default"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "3d7a79d899841728e9a3ff969330fb862fea2a65e0e94bb4eb2e12f00a28f475a3b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-external-parent \
-mvn(com.sun.xml.bind.mvn:jaxb-external-parent:pom:)"
+mvn-com.sun.xml.bind.mvn-jaxb-external-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.xml.bind.mvn:jaxb-parent:pom:)"
+mvn-com.sun.xml.bind.mvn-jaxb-parent-pom-"
 
 inherit rpm

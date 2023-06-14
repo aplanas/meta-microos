@@ -12,21 +12,20 @@ PV = "2.6.4"
 RPM_NAME = "libglade-2_0-0-2.6.4-28.3.aarch64.rpm"
 RPM_HASH = "67108cc66badb8ecba2b73936b33382de8042d053d2fcc7bdb73aabc39c3b69f43d844cf1ab055719784c6ea9b74851d7a6eb25e76020398d955d2cce5f25b5a"
 
-RPROVIDES:${PN} += "libglade-2.0.so.0()(64bit) \
-libglade-2_0-0 \
-libglade-2_0-0(aarch-64) \
+RPROVIDES:${PN} += "libglade-2-0-0 \
+libglade-2.0.so.0 \
 libglade2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpango-1.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

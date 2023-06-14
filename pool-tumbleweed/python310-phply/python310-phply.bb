@@ -9,13 +9,13 @@ RPM_HASH = "55afeb4696d2bb42c073259f57754784631cf4c636bf9132bd1859735575228bb756
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-phply \
-python3.10dist(phply) \
+python3.10dist-phply \
 python310-phply \
-python3dist(phply)"
+python3dist-phply"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-ply \
 update-alternatives"
 

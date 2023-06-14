@@ -10,13 +10,13 @@ RPM_HASH = "3d4ffcd83cf4ae87943f2da16cac425f53720437edceea24a46466f959467d0e1d26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-subliminal \
-python3.10dist(subliminal) \
-python3dist(subliminal) \
+python3.10dist-subliminal \
+python3dist-subliminal \
 subliminal"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-appdirs \
 python3-babelfish \
 python3-beautifulsoup4 \

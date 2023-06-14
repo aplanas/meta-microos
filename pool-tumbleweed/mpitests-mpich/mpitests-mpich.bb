@@ -7,15 +7,14 @@ PV = "3.2"
 RPM_NAME = "mpitests-mpich-3.2-11.3.aarch64.rpm"
 RPM_HASH = "693fdcb6ea9e2dd11bbd617f80f6f70eeb78624d92f98fec0058f4071800018dd47b3e257ed3f478639f6877eef5ba4d0c18eb379118ab218d55a3519dcb4e89"
 
-RPROVIDES:${PN} += "mpitests-mpich \
-mpitests-mpich(aarch-64)"
+RPROVIDES:${PN} += "mpitests-mpich"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpi.so.12()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpi.so.12 \
+libstdc++.so.6 \
 mpich \
 mpitests"
 

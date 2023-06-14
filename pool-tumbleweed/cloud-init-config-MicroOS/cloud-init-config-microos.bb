@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-init-config \
 cloud-init-config-MicroOS \
-config(cloud-init-config-MicroOS)"
+config-cloud-init-config-MicroOS"
 
 RDEPENDS:${PN} += "cloud-init"
 

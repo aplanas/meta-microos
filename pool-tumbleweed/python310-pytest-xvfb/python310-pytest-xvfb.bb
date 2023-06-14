@@ -21,11 +21,11 @@ RPM_HASH = "300d9a31aab058e0348612ae4b0b69f8810667a096af9bb663307d9f2053408a65d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-xvfb \
-python3.10dist(pytest-xvfb) \
+python3.10dist-pytest-xvfb \
 python310-pytest-xvfb \
-python3dist(pytest-xvfb)"
+python3dist-pytest-xvfb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyVirtualDisplay \
 python310-pytest \
 xdpyinfo"

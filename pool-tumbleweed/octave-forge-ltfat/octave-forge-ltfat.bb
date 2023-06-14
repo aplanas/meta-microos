@@ -13,20 +13,19 @@ PV = "2.5.0"
 RPM_NAME = "octave-forge-ltfat-2.5.0-1.4.aarch64.rpm"
 RPM_HASH = "0c558bf03b8d064986d82c8bd8977cf2d9966988182e82fe81f3356dfc9a3f0459f734b6a7d1e3526f12ccf5e4255ca5c9b2d445becdd029bfad619c3248db23"
 
-RPROVIDES:${PN} += "octave-forge-ltfat \
-octave-forge-ltfat(aarch-64)"
+RPROVIDES:${PN} += "octave-forge-ltfat"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopenblas.so.0()(64bit) \
-libportaudio.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopenblas.so.0 \
+libportaudio.so.2 \
+libstdc++.so.6 \
 octave-cli"
 
 inherit rpm

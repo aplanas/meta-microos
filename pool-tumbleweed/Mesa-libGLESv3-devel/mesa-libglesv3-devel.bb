@@ -13,10 +13,9 @@ PV = "23.0.3"
 RPM_NAME = "Mesa-libGLESv3-devel-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "f0cb972d9d7b838af71e18ebaa55d61bc67aba3e7e132afb965da509d966ce8a3f183b24f4fa0f4713bb6d7c2959b9573c3c67470ed42173640c8d2d381cf001"
 
-RPROVIDES:${PN} += "Mesa-libGLESv3-devel \
-Mesa-libGLESv3-devel(aarch-64)"
+RPROVIDES:${PN} += "Mesa-libGLESv3-devel"
 
 RDEPENDS:${PN} += "Mesa-KHR-devel \
-pkgconfig(egl)"
+pkgconfig-egl"
 
 inherit rpm

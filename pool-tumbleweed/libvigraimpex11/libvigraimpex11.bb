@@ -12,25 +12,23 @@ PV = "1.11.1"
 RPM_NAME = "libvigraimpex11-1.11.1-4.5.aarch64.rpm"
 RPM_HASH = "70602c3543b6f85999b0039caabe02013f134a00aca42a73af5290e6d56572ab487bb883e1cfcf2cd3528046dccc5c8edd2eda693d691513d75407a76b31eb43"
 
-RPROVIDES:${PN} += "libvigraimpex.so.11()(64bit) \
+RPROVIDES:${PN} += "libvigraimpex.so.11 \
 libvigraimpex11 \
-libvigraimpex11(aarch-64) \
 vigra"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_hl.so.200()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhdf5-hl.so.200 \
+libhdf5.so.200 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libz.so.1"
 
 inherit rpm

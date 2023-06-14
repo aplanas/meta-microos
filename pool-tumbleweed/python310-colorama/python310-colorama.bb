@@ -21,10 +21,10 @@ RPM_HASH = "a55aa463e8502d9a1e2da5f7f6847390af6e1dcc63e492320764c64a140a43d8043a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-colorama \
-python3.10dist(colorama) \
+python3.10dist-colorama \
 python310-colorama \
-python3dist(colorama)"
+python3dist-colorama"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

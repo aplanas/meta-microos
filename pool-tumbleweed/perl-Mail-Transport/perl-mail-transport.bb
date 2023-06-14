@@ -16,17 +16,17 @@ RPM_NAME = "perl-Mail-Transport-3.005-1.11.noarch.rpm"
 RPM_HASH = "f278e42ca7cf92891c52416576b9a820b1e6342e0b959a0c2ec55229aea64f7b0c86ab3fabad5088958bf3a3823555fddf6733247de22bd765a8299c8f78a8e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mail::Transport) \
-perl(Mail::Transport::Exim) \
-perl(Mail::Transport::Mailx) \
-perl(Mail::Transport::Qmail) \
-perl(Mail::Transport::Receive) \
-perl(Mail::Transport::SMTP) \
-perl(Mail::Transport::Send) \
-perl(Mail::Transport::Sendmail) \
+RPROVIDES:${PN} += "perl-Mail--Transport \
+perl-Mail--Transport--Exim \
+perl-Mail--Transport--Mailx \
+perl-Mail--Transport--Qmail \
+perl-Mail--Transport--Receive \
+perl-Mail--Transport--SMTP \
+perl-Mail--Transport--Send \
+perl-Mail--Transport--Sendmail \
 perl-Mail-Transport"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Mail::Reporter)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Mail--Reporter"
 
 inherit rpm

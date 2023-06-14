@@ -15,13 +15,12 @@ RPM_NAME = "python310-pyrsistent-0.19.3-2.1.aarch64.rpm"
 RPM_HASH = "960b30d54cedf984e42ebafac31cc0f1759414f6be954e4d729ea7ad0142fd4494669254df04b4d22f7e55529915f0fd28dee1c996ab935f74562ba9acbb88d1"
 
 RPROVIDES:${PN} += "python3-pyrsistent \
-python3.10dist(pyrsistent) \
+python3.10dist-pyrsistent \
 python310-pyrsistent \
-python310-pyrsistent(aarch-64) \
-python3dist(pyrsistent)"
+python3dist-pyrsistent"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

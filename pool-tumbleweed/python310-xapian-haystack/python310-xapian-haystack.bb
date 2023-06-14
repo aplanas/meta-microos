@@ -9,11 +9,11 @@ RPM_HASH = "01ecd29e0ce2c677a7a7a840b5d61f840c18a58ab8a882350aa2b82b831b1649cca2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xapian-haystack \
-python3.10dist(xapian-haystack) \
+python3.10dist-xapian-haystack \
 python310-xapian-haystack \
-python3dist(xapian-haystack)"
+python3dist-xapian-haystack"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-haystack"
 

@@ -10,11 +10,10 @@ PV = "0.03.02"
 RPM_NAME = "powerstat-0.03.02-1.1.aarch64.rpm"
 RPM_HASH = "b861253159d43dfc51011f4315c9c9193b998c616f9f1e50e19cf6d8d55cc0d44b2b8416f42382d23d36581b21485ebdb3be5b4051b825bd2f81e12356694544"
 
-RPROVIDES:${PN} += "powerstat \
-powerstat(aarch-64)"
+RPROVIDES:${PN} += "powerstat"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

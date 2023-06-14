@@ -13,15 +13,15 @@ RPM_HASH = "e5a5a0224362b18bf33ad7a772acd48de49cea204496b022e8c6649dcfea6abd4d13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-navigator \
-python3.10dist(ansible-navigator) \
-python3dist(ansible-navigator)"
+python3.10dist-ansible-navigator \
+python3dist-ansible-navigator"
 
-RDEPENDS:${PN} += "(podman or docker) \
+RDEPENDS:${PN} += "-podman or docker \
 /usr/bin/python3.10 \
 ansible-builder \
 ansible-core \
 ansible-runner \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-PyYAML \
 python3-curses \

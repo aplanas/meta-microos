@@ -9,10 +9,10 @@ RPM_HASH = "1a06edcdf33b48dd177491a62239a2c0fa0ae912249d464ae80a7fec2493386c7851
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydicom-data \
-python3.10dist(pydicom-data) \
+python3.10dist-pydicom-data \
 python310-pydicom-data \
-python3dist(pydicom-data)"
+python3dist-pydicom-data"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-mgmt-labservices-2.0.0-1.3.noarch.rpm"
 RPM_HASH = "e4baa9d501e9f06606a91fdfa9ddcf9c696f09df31db9b85a462e3de7e0e3a30ca87967a97f03ba7be904b9b78f5fb62154572afb3f77f8c9677136945738795"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-labservices) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-labservices \
 python311-azure-mgmt-labservices \
-python3dist(azure-mgmt-labservices)"
+python3dist-azure-mgmt-labservices"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

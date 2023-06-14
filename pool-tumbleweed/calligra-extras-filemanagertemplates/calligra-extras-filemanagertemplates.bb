@@ -9,8 +9,7 @@ PV = "3.2.1"
 RPM_NAME = "calligra-extras-filemanagertemplates-3.2.1-7.17.aarch64.rpm"
 RPM_HASH = "6b9bd3652ab192710106bcafbff13a98907e5e8077bb9dc2a1d0c105428b12be9e5f684e1a7eef49e8fdb915a6a00d1554dc0abe3dd2c625c5efdb4eba3eea73"
 
-RPROVIDES:${PN} += "calligra-extras-filemanagertemplates \
-calligra-extras-filemanagertemplates(aarch-64)"
+RPROVIDES:${PN} += "calligra-extras-filemanagertemplates"
 
 RDEPENDS:${PN} += ""
 

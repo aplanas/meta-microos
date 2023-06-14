@@ -11,8 +11,7 @@ RPM_NAME = "libirman-devel-0.5.2-5.12.aarch64.rpm"
 RPM_HASH = "2dc54df8b6147d5bb7d052212778aa8dc22e1c3294b7c3af3e79d2451eda1d0f0ccb41d6ebb13ac6b23bc05ec34c5176c9ee9dd4577a0ca274c28275d399ec78"
 
 RPROVIDES:${PN} += "libirman-devel \
-libirman-devel(aarch-64) \
-pkgconfig(libirman)"
+pkgconfig-libirman"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libirman0"

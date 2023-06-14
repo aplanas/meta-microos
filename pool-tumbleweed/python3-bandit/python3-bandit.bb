@@ -12,12 +12,12 @@ RPM_HASH = "9fa810e390e89e9899105929874f2e55f61f02cb7939e1150a8e446875b340832ca4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bandit \
-python3.10dist(bandit) \
-python3dist(bandit)"
+python3.10dist-bandit \
+python3dist-bandit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-GitPython \
 python3-PyYAML \
 python3-stestr \

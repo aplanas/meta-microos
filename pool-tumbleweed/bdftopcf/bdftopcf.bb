@@ -12,10 +12,9 @@ PV = "1.1.1"
 RPM_NAME = "bdftopcf-1.1.1-1.2.aarch64.rpm"
 RPM_HASH = "d042a72d806e8018259736bcbf8477c014b7e97f69cfe41703d9ebac7ab1f2f018811c34f84fbbbfe1f389e8702d6315d14bfa384d7b460c9458c0d15be5fc9e"
 
-RPROVIDES:${PN} += "bdftopcf \
-bdftopcf(aarch-64)"
+RPROVIDES:${PN} += "bdftopcf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

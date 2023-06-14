@@ -15,10 +15,10 @@ RPM_NAME = "python39-tinyrpc-1.1.6-1.1.noarch.rpm"
 RPM_HASH = "aa279a38bb6b040c726a7e44fa08a22dda50bf16947321b19f4cafee3ab7340240a1153780b485f5b04088f742eb3e06b305ebd77551aa11374f47fd50b2a1c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(tinyrpc) \
+RPROVIDES:${PN} += "python3.9dist-tinyrpc \
 python39-tinyrpc \
-python3dist(tinyrpc)"
+python3dist-tinyrpc"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

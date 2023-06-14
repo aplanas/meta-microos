@@ -20,12 +20,11 @@ PV = "1.78s"
 RPM_NAME = "opmsg-1.78s-1.11.aarch64.rpm"
 RPM_HASH = "8438076f7b799932bd49fa24f36bad4a20638e33dfa155a121bb72e43910b96f4ece6ff2bfcf76651999cc8699004aa81d7239a9880b6892b7d2856a236a4477"
 
-RPROVIDES:${PN} += "opmsg \
-opmsg(aarch-64)"
+RPROVIDES:${PN} += "opmsg"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

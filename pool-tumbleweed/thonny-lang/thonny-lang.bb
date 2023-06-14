@@ -8,44 +8,44 @@ RPM_NAME = "thonny-lang-4.0.2-1.3.noarch.rpm"
 RPM_HASH = "5940ba6c48b60910d4567203440f86c37c86b7d988e5379814ff56714321ec9ea47fd1dd975ddee9de639de8785c050497b9de0979522672e8f1b5f71b7e56b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(thonny:ar_AR) \
-locale(thonny:cs_CZ) \
-locale(thonny:de_DE) \
-locale(thonny:el_GR) \
-locale(thonny:en_US) \
-locale(thonny:es_ES) \
-locale(thonny:et_EE) \
-locale(thonny:fa_IR) \
-locale(thonny:fi_FI) \
-locale(thonny:fr_FR) \
-locale(thonny:hu_HU) \
-locale(thonny:hy_AM) \
-locale(thonny:it_IT) \
-locale(thonny:ja_JP) \
-locale(thonny:ko_KR) \
-locale(thonny:lt_LT) \
-locale(thonny:nb_NO) \
-locale(thonny:nl_NL) \
-locale(thonny:nn_NO) \
-locale(thonny:pl_PL) \
-locale(thonny:pt_BR) \
-locale(thonny:pt_PT) \
-locale(thonny:ro_RO) \
-locale(thonny:ru_RU) \
-locale(thonny:sk_SK) \
-locale(thonny:sl_SI) \
-locale(thonny:sq_AL) \
-locale(thonny:sv_SE) \
-locale(thonny:ta_IN) \
-locale(thonny:th_TH) \
-locale(thonny:tr_TR) \
-locale(thonny:uk_UA) \
-locale(thonny:vi_VN) \
-locale(thonny:zh_CN) \
-locale(thonny:zh_TW) \
+RPROVIDES:${PN} += "locale-thonny-ar-AR \
+locale-thonny-cs-CZ \
+locale-thonny-de-DE \
+locale-thonny-el-GR \
+locale-thonny-en-US \
+locale-thonny-es-ES \
+locale-thonny-et-EE \
+locale-thonny-fa-IR \
+locale-thonny-fi-FI \
+locale-thonny-fr-FR \
+locale-thonny-hu-HU \
+locale-thonny-hy-AM \
+locale-thonny-it-IT \
+locale-thonny-ja-JP \
+locale-thonny-ko-KR \
+locale-thonny-lt-LT \
+locale-thonny-nb-NO \
+locale-thonny-nl-NL \
+locale-thonny-nn-NO \
+locale-thonny-pl-PL \
+locale-thonny-pt-BR \
+locale-thonny-pt-PT \
+locale-thonny-ro-RO \
+locale-thonny-ru-RU \
+locale-thonny-sk-SK \
+locale-thonny-sl-SI \
+locale-thonny-sq-AL \
+locale-thonny-sv-SE \
+locale-thonny-ta-IN \
+locale-thonny-th-TH \
+locale-thonny-tr-TR \
+locale-thonny-uk-UA \
+locale-thonny-vi-VN \
+locale-thonny-zh-CN \
+locale-thonny-zh-TW \
 thonny-lang"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 thonny"
 
 inherit rpm

@@ -8,17 +8,16 @@ PV = "2.28"
 RPM_NAME = "libbd_crypto2-2.28-1.4.aarch64.rpm"
 RPM_HASH = "96fcb38c18054e89eb3acd3477ab3ed38d2cd3d5eb6f1bf9f84eb10b95f31914b69dfee3c9e9b67e993143d37f439424e4e60b474020aabb564d96ef63ed8643"
 
-RPROVIDES:${PN} += "libbd_crypto.so.2()(64bit) \
-libbd_crypto2 \
-libbd_crypto2(aarch-64) \
+RPROVIDES:${PN} += "libbd-crypto.so.2 \
+libbd-crypto2 \
 libblockdev-crypto"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbd_utils.so.2()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcryptsetup.so.12()(64bit) \
-libglib-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libbd-utils.so.2 \
+libblkid.so.1 \
+libc.so.6 \
+libcryptsetup.so.12 \
+libglib-2.0.so.0"
 
 inherit rpm

@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krb5-auth-dialog-lang \
 krb5-auth-dialog-lang-all \
-locale(krb5-auth-dialog:bs) \
-locale(krb5-auth-dialog:cs) \
-locale(krb5-auth-dialog:da) \
-locale(krb5-auth-dialog:de) \
-locale(krb5-auth-dialog:el) \
-locale(krb5-auth-dialog:es) \
-locale(krb5-auth-dialog:eu) \
-locale(krb5-auth-dialog:fi) \
-locale(krb5-auth-dialog:fr) \
-locale(krb5-auth-dialog:gl) \
-locale(krb5-auth-dialog:hu) \
-locale(krb5-auth-dialog:id) \
-locale(krb5-auth-dialog:nb) \
-locale(krb5-auth-dialog:pa) \
-locale(krb5-auth-dialog:pl) \
-locale(krb5-auth-dialog:pt) \
-locale(krb5-auth-dialog:pt_BR) \
-locale(krb5-auth-dialog:ro) \
-locale(krb5-auth-dialog:sl) \
-locale(krb5-auth-dialog:sr) \
-locale(krb5-auth-dialog:sr@latin) \
-locale(krb5-auth-dialog:sv) \
-locale(krb5-auth-dialog:tr) \
-locale(krb5-auth-dialog:uk) \
-locale(krb5-auth-dialog:zh_CN) \
-locale(krb5-auth-dialog:zh_HK) \
-locale(krb5-auth-dialog:zh_TW)"
+locale-krb5-auth-dialog-bs \
+locale-krb5-auth-dialog-cs \
+locale-krb5-auth-dialog-da \
+locale-krb5-auth-dialog-de \
+locale-krb5-auth-dialog-el \
+locale-krb5-auth-dialog-es \
+locale-krb5-auth-dialog-eu \
+locale-krb5-auth-dialog-fi \
+locale-krb5-auth-dialog-fr \
+locale-krb5-auth-dialog-gl \
+locale-krb5-auth-dialog-hu \
+locale-krb5-auth-dialog-id \
+locale-krb5-auth-dialog-nb \
+locale-krb5-auth-dialog-pa \
+locale-krb5-auth-dialog-pl \
+locale-krb5-auth-dialog-pt \
+locale-krb5-auth-dialog-pt-BR \
+locale-krb5-auth-dialog-ro \
+locale-krb5-auth-dialog-sl \
+locale-krb5-auth-dialog-sr \
+locale-krb5-auth-dialog-sr@latin \
+locale-krb5-auth-dialog-sv \
+locale-krb5-auth-dialog-tr \
+locale-krb5-auth-dialog-uk \
+locale-krb5-auth-dialog-zh-CN \
+locale-krb5-auth-dialog-zh-HK \
+locale-krb5-auth-dialog-zh-TW"
 
 RDEPENDS:${PN} += "krb5-auth-dialog"
 

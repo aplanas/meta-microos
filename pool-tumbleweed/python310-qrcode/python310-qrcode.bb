@@ -10,13 +10,13 @@ RPM_HASH = "0e3840ab4cefb7ec7c35c3f34f5eee8722e5b7ac0e65b86f08ee4eecf9b05b6d49b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-qrcode \
-python3.10dist(qrcode) \
+python3.10dist-qrcode \
 python310-qrcode \
-python3dist(qrcode)"
+python3dist-qrcode"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

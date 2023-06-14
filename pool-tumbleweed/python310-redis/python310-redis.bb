@@ -9,11 +9,11 @@ RPM_HASH = "0008c4036a0754304074a6cad36a56571fae795586c586692fca07a899a6bcb3ffbb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-redis \
-python3.10dist(redis) \
+python3.10dist-redis \
 python310-redis \
-python3dist(redis)"
+python3dist-redis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-async-timeout \
 redis"
 

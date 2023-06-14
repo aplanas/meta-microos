@@ -8,15 +8,14 @@ PV = "8.2"
 RPM_NAME = "dump1090-fa-8.2-1.3.aarch64.rpm"
 RPM_HASH = "769f48e4f2e4ef54879c86a2d73b1a08652240441cb2667ef1e48dc63d6f42652db9dd279da0f65ec251a910bf71107a87e5587d90cf38d689974c2dc65ebaac"
 
-RPROVIDES:${PN} += "dump1090-fa \
-dump1090-fa(aarch-64)"
+RPROVIDES:${PN} += "dump1090-fa"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbladeRF.so.2()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-librtlsdr.so.0()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbladeRF.so.2 \
+libc.so.6 \
+libm.so.6 \
+libncurses.so.6 \
+librtlsdr.so.0 \
+libtinfo.so.6"
 
 inherit rpm

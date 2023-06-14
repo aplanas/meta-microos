@@ -11,14 +11,14 @@ RPM_NAME = "texlive-pxbase-2023.201.1.4svn66187-53.1.noarch.rpm"
 RPM_HASH = "827231d7639b290c3e98c3c650ea0f8b5716f2588621ab4a6ad3c4ecd263d09f4907ddfca009566f4198871dd42819396e25c9470848d58acf9d446627cd5cfa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pxbabel.sty) \
-tex(pxbase.def) \
-tex(pxbase.sty) \
-tex(pxbasenc.def) \
-tex(pxbsjc.def) \
-tex(pxbsjc1.def) \
-tex(pxjsfenc.def) \
-tex(upkcat.sty) \
+RPROVIDES:${PN} += "tex-pxbabel.sty \
+tex-pxbase.def \
+tex-pxbase.sty \
+tex-pxbasenc.def \
+tex-pxbsjc.def \
+tex-pxbsjc1.def \
+tex-pxjsfenc.def \
+tex-upkcat.sty \
 texlive-pxbase"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,11 +27,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
-tex(bxbase.sty) \
-tex(ifptex.sty) \
-tex(ifuptex.sty) \
-tex(rlbabel.def) \
+tex-babel.sty \
+tex-bxbase.sty \
+tex-ifptex.sty \
+tex-ifuptex.sty \
+tex-rlbabel.def \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

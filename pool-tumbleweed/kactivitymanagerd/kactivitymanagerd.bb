@@ -10,33 +10,27 @@ RPM_HASH = "fcdaee81b43376525b438ea31a93670394542c73da2a88416049cc4afb5528da2b8f
 RPROVIDES:${PN} += "kactivities4 \
 kactivities5 \
 kactivitymanagerd \
-kactivitymanagerd(aarch-64) \
-libkactivitymanagerd_plugin.so()(64bit)"
+libkactivitymanagerd-plugin.so"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5GlobalAccel.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5GlobalAccel.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5Service.so.5 \
+libKF5WindowSystem.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Sql.so.5 \
 libQt5Sql5-sqlite \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Widgets.so.5 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

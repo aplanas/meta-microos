@@ -12,14 +12,13 @@ RPM_NAME = "gtk3-immodule-inuktitut-3.24.38-1.1.aarch64.rpm"
 RPM_HASH = "db0340a7b11543f12498f806a780dd046735dc9710a9b0247b11160191200980c391a276108dd758fc9bcc959298bf1f576ce7658701a0306b272fd37efa4572"
 
 RPROVIDES:${PN} += "gtk3-immodule-inuktitut \
-gtk3-immodule-inuktitut(aarch-64) \
-locale(gtk3:iu)"
+locale-gtk3-iu"
 
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

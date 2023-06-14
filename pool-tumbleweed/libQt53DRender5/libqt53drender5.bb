@@ -10,36 +10,28 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt53DRender5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "9257da4a551e7b3a45f18ac707d53bbb9ad57fe17915c739e18a0262cac479406cdc0e2148a37e197fc585692e8b8fe8a1dfd9c28e79d976db0aa40fa13cc962"
 
-RPROVIDES:${PN} += "libQt53DRender.so.5()(64bit) \
-libQt53DRender.so.5(Qt_5)(64bit) \
+RPROVIDES:${PN} += "libQt53DRender.so.5 \
 libQt53DRender5 \
-libQt53DRender5(aarch-64) \
 libQt53DRenderer5 \
-libassimpsceneimport.so()(64bit) \
-libdefaultgeometryloader.so()(64bit) \
-libgltfgeometryloader.so()(64bit) \
-libgltfsceneexport.so()(64bit) \
-libgltfsceneimport.so()(64bit) \
-libopenglrenderer.so()(64bit)"
+libassimpsceneimport.so \
+libdefaultgeometryloader.so \
+libgltfgeometryloader.so \
+libgltfsceneexport.so \
+libgltfsceneimport.so \
+libopenglrenderer.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt53DAnimation.so.5()(64bit) \
-libQt53DAnimation.so.5(Qt_5)(64bit) \
-libQt53DCore.so.5()(64bit) \
-libQt53DCore.so.5(Qt_5)(64bit) \
-libQt53DExtras.so.5()(64bit) \
-libQt53DExtras.so.5(Qt_5)(64bit) \
-libQt5Concurrent.so.5()(64bit) \
-libQt5Concurrent.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt53DAnimation.so.5 \
+libQt53DCore.so.5 \
+libQt53DExtras.so.5 \
+libQt5Concurrent.so.5 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libassimp.so.5()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Gui.so.5 \
+libassimp.so.5 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

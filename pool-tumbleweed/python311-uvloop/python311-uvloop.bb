@@ -9,14 +9,13 @@ PV = "0.17.0"
 RPM_NAME = "python311-uvloop-0.17.0-1.5.aarch64.rpm"
 RPM_HASH = "0c1bd9d6f028cc58f982663229e729230c442cc6d61b751a9ae183d31635604b93f577cdf27358f81dd103ba7abae54b8f4794d95682712befb6e45654db9078"
 
-RPROVIDES:${PN} += "python3.11dist(uvloop) \
+RPROVIDES:${PN} += "python3.11dist-uvloop \
 python311-uvloop \
-python311-uvloop(aarch-64) \
-python3dist(uvloop)"
+python3dist-uvloop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libuv.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libuv.so.1 \
+python-abi"
 
 inherit rpm

@@ -25,11 +25,11 @@ RPM_NAME = "python311-pytest-randomly-3.12.0-1.1.noarch.rpm"
 RPM_HASH = "3a567aa4cd08261436db6fdc3930173dd7204e388c8bfdd19fdb553c9ac9e5e58ed7228fbd962cfa4e01472a50c17705610cca04c4ed60e21b15bbb3d12cd5d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-randomly) \
+RPROVIDES:${PN} += "python3.11dist-pytest-randomly \
 python311-pytest-randomly \
-python3dist(pytest-randomly)"
+python3dist-pytest-randomly"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-importlib-metadata \
 python311-pytest"
 

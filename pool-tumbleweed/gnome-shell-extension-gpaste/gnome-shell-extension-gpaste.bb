@@ -15,11 +15,11 @@ RPROVIDES:${PN} += "gnome-shell-extension-gpaste"
 
 RDEPENDS:${PN} += "gnome-shell \
 gpaste \
-typelib(GLib) \
-typelib(GObject) \
-typelib(GPaste) \
-typelib(GPasteGtk) \
-typelib(Gio) \
-typelib(Pango)"
+typelib-GLib \
+typelib-GObject \
+typelib-GPaste \
+typelib-GPasteGtk \
+typelib-Gio \
+typelib-Pango"
 
 inherit rpm

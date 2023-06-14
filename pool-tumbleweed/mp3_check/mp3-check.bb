@@ -11,10 +11,9 @@ PV = "1.98"
 RPM_NAME = "mp3_check-1.98-3.11.aarch64.rpm"
 RPM_HASH = "1de83347b95da1a3db43ed2fd0c3d0c3a7c7a67cf2c3197469cfefe361604735731c12125c23bb27ce67e9b2762bf90db94bd024c623b56e2d988e8bd3b7af93"
 
-RPROVIDES:${PN} += "mp3_check \
-mp3_check(aarch-64)"
+RPROVIDES:${PN} += "mp3-check"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

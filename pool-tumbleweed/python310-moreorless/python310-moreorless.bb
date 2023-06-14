@@ -9,11 +9,11 @@ RPM_HASH = "f8991c159bab31b381c03e3d4903e94744e6c5aba834b2eb3939828519d66190f1ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-moreorless \
-python3.10dist(moreorless) \
+python3.10dist-moreorless \
 python310-moreorless \
-python3dist(moreorless)"
+python3dist-moreorless"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-click \
 python310-volatile"
 

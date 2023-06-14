@@ -12,12 +12,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-synapse \
 python3-azure-synapse-monitoring \
-python3.10dist(azure-synapse-monitoring) \
+python3.10dist-azure-synapse-monitoring \
 python310-azure-synapse \
 python310-azure-synapse-monitoring \
-python3dist(azure-synapse-monitoring)"
+python3dist-azure-synapse-monitoring"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-core \
 python310-azure-nspkg \

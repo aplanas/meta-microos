@@ -11,24 +11,23 @@ PV = "1.26.1"
 RPM_NAME = "typelib-1_0-Pluma-1_0-1.26.1-1.1.aarch64.rpm"
 RPM_HASH = "993ec50316ec736f0ad5d552a01f98db50ba844954ac1fd52365353e3479e476736af73d5064a5648821dd7749db68fb74fffa5ba259c36a85439fc8414bd519"
 
-RPROVIDES:${PN} += "typelib(Pluma) \
-typelib-1_0-Pluma-1_0 \
-typelib-1_0-Pluma-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Pluma-1-0 \
+typelib-Pluma"
 
 RDEPENDS:${PN} += "pluma \
-typelib(Atk) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(GtkSource) \
-typelib(HarfBuzz) \
-typelib(Pango) \
-typelib(cairo) \
-typelib(freetype2) \
-typelib(xlib)"
+typelib-Atk \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-GtkSource \
+typelib-HarfBuzz \
+typelib-Pango \
+typelib-cairo \
+typelib-freetype2 \
+typelib-xlib"
 
 inherit rpm

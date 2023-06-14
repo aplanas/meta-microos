@@ -10,11 +10,11 @@ RPM_HASH = "f730cb1b1570385f1fae678e4e8b7cca6d3fb2e3cfd60b03ffc2ff0a51db2766fceb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-retryrequests \
-python3.10dist(retryrequests) \
+python3.10dist-retryrequests \
 python310-retryrequests \
-python3dist(retryrequests)"
+python3dist-retryrequests"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-setuptools"
 

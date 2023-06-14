@@ -16,13 +16,12 @@ PV = "0.9.9"
 RPM_NAME = "smooth-0.9.9-1.5.aarch64.rpm"
 RPM_HASH = "875a796fe5b1e7607113de9600cced3dc35dfaa9d1d38020a542af229a35a277a400b288a0631196fe5c6ccb8005a5860ffb17f483b597bd68985f9468b94f64"
 
-RPROVIDES:${PN} += "smooth \
-smooth(aarch-64)"
+RPROVIDES:${PN} += "smooth"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsmooth-0.9.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsmooth-0.9.so.0 \
+libstdc++.so.6"
 
 inherit rpm

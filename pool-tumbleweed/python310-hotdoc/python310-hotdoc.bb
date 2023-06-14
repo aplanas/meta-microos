@@ -15,22 +15,21 @@ RPM_HASH = "e9190e15eb3329d21178f65b76515f9109079525617338238a68387cc39066e609ef
 
 RPROVIDES:${PN} += "hotdoc \
 python3-hotdoc \
-python3.10dist(hotdoc) \
+python3.10dist-hotdoc \
 python310-hotdoc \
-python310-hotdoc(aarch-64) \
-python3dist(hotdoc)"
+python3dist-hotdoc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 /usr/bin/sh \
 clang-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libjson-glib-1.0.so.0 \
+libxml2.so.2 \
 llvm-devel \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-appdirs \
 python310-cchardet \

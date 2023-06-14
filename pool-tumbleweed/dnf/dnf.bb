@@ -10,28 +10,28 @@ RPM_HASH = "6e3afd0c1ae4485a57d8bcbff8540a3d9cbcbbdfd34a1453814f38cfd01cdaf60ba3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf \
-dnf-command(autoremove) \
-dnf-command(check-update) \
-dnf-command(clean) \
-dnf-command(distro-sync) \
-dnf-command(downgrade) \
-dnf-command(group) \
-dnf-command(history) \
-dnf-command(info) \
-dnf-command(install) \
-dnf-command(list) \
-dnf-command(makecache) \
-dnf-command(mark) \
-dnf-command(provides) \
-dnf-command(reinstall) \
-dnf-command(remove) \
-dnf-command(repolist) \
-dnf-command(repoquery) \
-dnf-command(repository-packages) \
-dnf-command(search) \
-dnf-command(updateinfo) \
-dnf-command(upgrade) \
-dnf-command(upgrade-to)"
+dnf-command-autoremove \
+dnf-command-check-update \
+dnf-command-clean \
+dnf-command-distro-sync \
+dnf-command-downgrade \
+dnf-command-group \
+dnf-command-history \
+dnf-command-info \
+dnf-command-install \
+dnf-command-list \
+dnf-command-makecache \
+dnf-command-mark \
+dnf-command-provides \
+dnf-command-reinstall \
+dnf-command-remove \
+dnf-command-repolist \
+dnf-command-repoquery \
+dnf-command-repository-packages \
+dnf-command-search \
+dnf-command-updateinfo \
+dnf-command-upgrade \
+dnf-command-upgrade-to"
 
 RDEPENDS:${PN} += "/bin/sh \
 python3-dnf"

@@ -11,8 +11,7 @@ RPM_NAME = "flxmlrpc-devel-1.0.1-1.8.aarch64.rpm"
 RPM_HASH = "13327bcea23ec7c4b552a9973f3f9df8d71db98262f79cc222b4ec3a537fdcf33538cd030198c759ecd8f4d4e8a712774b0959dfe9d8ddd735b48dfdf010b438"
 
 RPROVIDES:${PN} += "flxmlrpc-devel \
-flxmlrpc-devel(aarch-64) \
-pkgconfig(flxmlrpc)"
+pkgconfig-flxmlrpc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libflxmlrpc1"

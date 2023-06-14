@@ -10,12 +10,11 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-module-elasticsearch-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "bc72f57ce24eb8354e95b17079dfb5f439faedeea4f96517e7580717bc7ec033f474d837e96000554be1ab4b8f31c9abbbaa31566026b597abada3f621c08854"
 
-RPROVIDES:${PN} += "rsyslog-module-elasticsearch \
-rsyslog-module-elasticsearch(aarch-64)"
+RPROVIDES:${PN} += "rsyslog-module-elasticsearch"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
 rsyslog"
 
 inherit rpm

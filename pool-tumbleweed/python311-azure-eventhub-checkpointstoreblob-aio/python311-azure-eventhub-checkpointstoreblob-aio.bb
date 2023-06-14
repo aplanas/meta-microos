@@ -14,11 +14,11 @@ RPM_NAME = "python311-azure-eventhub-checkpointstoreblob-aio-1.1.4-1.8.noarch.rp
 RPM_HASH = "0bb06521f280eeb62de5e2999ce63f44632f7bbf98073bc475a67f94c4600c51aed5d45e9ef8f14b39f57cf099a6a3aa2afcf066cd80b341287dc6547929bc4f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-eventhub-checkpointstoreblob-aio) \
+RPROVIDES:${PN} += "python3.11dist-azure-eventhub-checkpointstoreblob-aio \
 python311-azure-eventhub-checkpointstoreblob-aio \
-python3dist(azure-eventhub-checkpointstoreblob-aio)"
+python3dist-azure-eventhub-checkpointstoreblob-aio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-aiohttp \
 python311-azure-core \
 python311-azure-eventhub \

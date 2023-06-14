@@ -15,14 +15,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-reCommonMark \
 python3-recommonmark \
-python3.10dist(recommonmark) \
+python3.10dist-recommonmark \
 python310-reCommonMark \
 python310-recommonmark \
-python3dist(recommonmark)"
+python3dist-recommonmark"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-CommonMark \
 python310-Sphinx \
 python310-docutils \

@@ -7,49 +7,38 @@ PV = "23.04.1"
 RPM_NAME = "khangman-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "90a2a4198af427227ed3300bc0b2f1a9a6ed0043f8f81034eaf3b49acd0935371019893867ee3378e755dd6b1406ff6e7650ea13935904461d8d9918d2a6f221"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.khangman.desktop) \
-config(khangman) \
+RPROVIDES:${PN} += "config-khangman \
 khangman \
-khangman(aarch-64) \
-khangman5 \
-metainfo() \
-metainfo(org.kde.khangman.appdata.xml)"
+khangman5"
 
 RDEPENDS:${PN} += "kdeedu-data \
-ld-linux-aarch64.so.1()(64bit) \
-libKEduVocDocument.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5NewStuff.so.5()(64bit) \
-libKF5NewStuffCore.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5QuickWidgets.so.5()(64bit) \
-libQt5QuickWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtGraphicalEffects.1) \
-qt5qmlimport(QtMultimedia.5) \
-qt5qmlimport(QtQml.2) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.1) \
-qt5qmlimport(QtQuick.Controls.Styles.1) \
-qt5qmlimport(QtQuick.Dialogs.1) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(QtQuick.Window.2) \
-qt5qmlimport(org.kde.newstuff.1)"
+ld-linux-aarch64.so.1 \
+libKEduVocDocument.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5I18n.so.5 \
+libKF5NewStuff.so.5 \
+libKF5NewStuffCore.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5QuickWidgets.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+qt5qmlimport-QtGraphicalEffects.1 \
+qt5qmlimport-QtMultimedia.5 \
+qt5qmlimport-QtQml.2 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.1 \
+qt5qmlimport-QtQuick.Controls.Styles.1 \
+qt5qmlimport-QtQuick.Dialogs.1 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-QtQuick.Window.2 \
+qt5qmlimport-org.kde.newstuff.1"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-vithkuqi \
 noto-serif-vithkuqi-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

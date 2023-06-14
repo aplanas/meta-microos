@@ -24,8 +24,7 @@ PV = "3.0.2"
 RPM_NAME = "VirtualGL-devel-3.0.2-1.3.aarch64.rpm"
 RPM_HASH = "9eda29969f25a839eb4519aeaf9996fd38169397f880a761bf0186ac5313cfb65b3b5b9bc50e41c204affd8ab6349dfa94cfbbfcedc98626a09130c82a8eb20f"
 
-RPROVIDES:${PN} += "VirtualGL-devel \
-VirtualGL-devel(aarch-64)"
+RPROVIDES:${PN} += "VirtualGL-devel"
 
 RDEPENDS:${PN} += "VirtualGL"
 

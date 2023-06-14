@@ -11,11 +11,10 @@ RPM_HASH = "dba4426d515d46cfbded911765c2a3f5695648a6177471366cad0257a008e2fcb07b
 
 RPROVIDES:${PN} += "drbd-kmp \
 drbd-kmp-default \
-drbd-kmp-default(aarch-64) \
-drbd-kmp-default-k6.3.4_1 \
-kmod(drbd.ko) \
-kmod(drbd_transport_tcp.ko) \
-multiversion(kernel)"
+drbd-kmp-default-k6.3.4-1 \
+kmod-drbd-transport-tcp.ko \
+kmod-drbd.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

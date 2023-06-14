@@ -11,11 +11,11 @@ RPM_NAME = "python311-WTForms-3.0.1-2.6.noarch.rpm"
 RPM_HASH = "5552d31e7611ffe3231479c4275abef71312904570d7acd401ae85f800592f01e25196606078f1897bff0c9b3e037300caa4094ef13a02b81058270b5c776920"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(wtforms) \
+RPROVIDES:${PN} += "python3.11dist-wtforms \
 python311-WTForms \
-python3dist(wtforms)"
+python3dist-wtforms"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-MarkupSafe \
 python311-email-validator"
 

@@ -11,7 +11,7 @@ RPM_HASH = "22d35b65f713cc48531536a312dd42846ced537dd5f8e1120c24fad70f20962dbd83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-underscore \
-npm(underscore)"
+npm-underscore"
 
 RDEPENDS:${PN} += ""
 

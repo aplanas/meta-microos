@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eigen3-devel \
 libeigen3-devel \
-pkgconfig(eigen3)"
+pkgconfig-eigen3"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

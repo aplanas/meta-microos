@@ -8,10 +8,9 @@ PV = "6.5.1"
 RPM_NAME = "qt6-quick3dutils-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "7381ba7e57757bad588061d9a12b83188faa4402050d3fb6b57a92cfd9611aafefb840806f5a75143d4e5f1311c34d938bd3bef093a0f78364315f0e7acabbec"
 
-RPROVIDES:${PN} += "qt6-quick3dutils-private-devel \
-qt6-quick3dutils-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-quick3dutils-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6Quick3DUtils) \
+RDEPENDS:${PN} += "cmake-Qt6Quick3DUtils \
 qt6-core-private-devel \
 qt6-gui-private-devel"
 

@@ -17,7 +17,7 @@ RPM_NAME = "texlive-luagcd-2023.201.1.0svn65396-52.1.noarch.rpm"
 RPM_HASH = "e9ec6548f777caa807cd77c863137bf2948050f9b97622e4fbbad3136dfbfa28b7be0252b1347cb8d78285e6830757d9bf7805c54665fc81081c7516354d906b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luagcd.sty) \
+RPROVIDES:${PN} += "tex-luagcd.sty \
 texlive-luagcd"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(luacode.sty) \
+tex-luacode.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

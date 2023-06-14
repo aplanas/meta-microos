@@ -18,13 +18,13 @@ RPM_HASH = "92ef38a19ef938e94571087a839fd46fb4bbef0e766488db99c335677531b427058e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-holoviews \
-python3.10dist(holoviews) \
+python3.10dist-holoviews \
 python310-holoviews \
-python3dist(holoviews)"
+python3dist-holoviews"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-colorcet \
 python310-numpy \
 python310-packaging \

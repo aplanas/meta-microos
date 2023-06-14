@@ -9,11 +9,11 @@ RPM_HASH = "f38fe795c52d79f785450cc64317ffe3f58b4f000872e499d3ea5551671a0ac14991
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fissix \
-python3.10dist(fissix) \
+python3.10dist-fissix \
 python310-fissix \
-python3dist(fissix)"
+python3dist-fissix"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-appdirs"
 
 inherit rpm

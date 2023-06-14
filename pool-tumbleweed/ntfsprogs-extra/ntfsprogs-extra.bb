@@ -12,11 +12,10 @@ PV = "2022.10.3"
 RPM_NAME = "ntfsprogs-extra-2022.10.3-2.3.aarch64.rpm"
 RPM_HASH = "f4adb9e59ebe215ad52506b9ca89aa1701a948ee2ade2848080d043906bfe34737ff72ca4fd6b0aa3ed4c19ae2df52d3cca619a4b8d8d792da3bcb96c42c27e2"
 
-RPROVIDES:${PN} += "ntfsprogs-extra \
-ntfsprogs-extra(aarch-64)"
+RPROVIDES:${PN} += "ntfsprogs-extra"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libntfs-3g.so.89()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libntfs-3g.so.89"
 
 inherit rpm

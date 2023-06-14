@@ -10,23 +10,16 @@ PV = "02_00"
 RPM_NAME = "sudoku-sensei-02_00-3.9.aarch64.rpm"
 RPM_HASH = "969004d86749a1ce79cd0b2f06bc706cf816d2cd09b49e79d849d3b6b4cffc1b1230f9083456f5c8c82aa7f9639ef89054a69ac534eecd5a6e8d96cd9a316404"
 
-RPROVIDES:${PN} += "application() \
-application(sudoku-sensei.desktop) \
-sudoku-sensei \
-sudoku-sensei(aarch-64)"
+RPROVIDES:${PN} += "sudoku-sensei"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

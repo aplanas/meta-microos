@@ -12,15 +12,14 @@ RPM_NAME = "tcsh-6.24.10-1.1.aarch64.rpm"
 RPM_HASH = "42f0761b910be5ead2e2184cf4ab4c38bdd16640da23caa375ec736a5f8ce3ea7a93e8c0aa8718174c401f411dbe813542aca842c8806155cca79e1f6f460030"
 
 RPROVIDES:${PN} += "/bin/csh \
-config(tcsh) \
-tcsh \
-tcsh(aarch-64)"
+config-tcsh \
+tcsh"
 
 RDEPENDS:${PN} += "gawk \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libtinfo.so.6 \
 textutils"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPM_NAME = "texlive-texapi-2023.201.1.04svn54080-54.1.noarch.rpm"
 RPM_HASH = "edf0ec091940e1c3498edb0b19375a83c882583047bbf5b7d37d089aeec1d97002f401837c750a59a98f9891793e50f619b5e64daa5e75c463ffe40972ebd039"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texapi.tex) \
+RPROVIDES:${PN} += "tex-texapi.tex \
 texlive-texapi"
 
 RDEPENDS:${PN} += "/bin/sh \

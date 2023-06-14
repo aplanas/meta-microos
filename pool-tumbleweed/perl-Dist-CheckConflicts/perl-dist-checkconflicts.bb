@@ -60,10 +60,10 @@ RPM_NAME = "perl-Dist-CheckConflicts-0.11-1.25.noarch.rpm"
 RPM_HASH = "a843b7846c177fdf8355c5fdb2d30d3e62c09c80e091d18fd88559dc27df8ebf11fdbbaa495e05ee0a64e22f82140f29ab98879d63be714caa6f2ed9c42d845f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Dist::CheckConflicts) \
+RPROVIDES:${PN} += "perl-Dist--CheckConflicts \
 perl-Dist-CheckConflicts"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Module::Runtime)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Module--Runtime"
 
 inherit rpm

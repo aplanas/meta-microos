@@ -29,23 +29,15 @@ PV = "2.10"
 RPM_NAME = "qgit-2.10-1.7.aarch64.rpm"
 RPM_HASH = "a687687e073748a5c9d1cf7b78e3efcc833983e7029adc8563162ea0c4404565f91bec4afe972bf4eb9691358f5ec49de383adaca57229eb7bd1834595b6ce4f"
 
-RPROVIDES:${PN} += "application() \
-application(qgit.desktop) \
-metainfo() \
-metainfo(qgit.appdata.xml) \
-qgit \
-qgit(aarch-64)"
+RPROVIDES:${PN} += "qgit"
 
 RDEPENDS:${PN} += "git-core \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

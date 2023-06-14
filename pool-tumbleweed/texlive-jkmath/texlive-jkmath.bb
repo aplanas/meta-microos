@@ -11,7 +11,7 @@ RPM_NAME = "texlive-jkmath-2023.201.0.0.1svn47109-55.1.noarch.rpm"
 RPM_HASH = "9a45ba60ea9f01eec04c91dae27e24e91aa5be6d80e1709f7f2394a29b01c679b2673c2e99e07383b9e3a156acc4cb27939948d2a315854048df7889454b72e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(jkmath.sty) \
+RPROVIDES:${PN} += "tex-jkmath.sty \
 texlive-jkmath"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,10 +20,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(array.sty) \
-tex(physics.sty) \
-tex(xparse.sty) \
+tex-amsmath.sty \
+tex-array.sty \
+tex-physics.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

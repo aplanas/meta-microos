@@ -10,19 +10,16 @@ RPM_HASH = "42bd1af8715593db92c1cc3d100ce2e1ae9fe853e8f38e44d85b9083e196b727cb2d
 
 RPROVIDES:${PN} += "liblightdm-qt-3-0 \
 liblightdm-qt5-3-0 \
-liblightdm-qt5-3-0(aarch-64) \
-liblightdm-qt5-3.so.0()(64bit)"
+liblightdm-qt5-3.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-liblightdm-gobject-1.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgobject-2.0.so.0 \
+liblightdm-gobject-1.so.0 \
+libstdc++.so.6"
 
 inherit rpm

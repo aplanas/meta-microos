@@ -9,19 +9,19 @@ RPM_HASH = "f0edd5b186faa1717d39972bc7eea174ea092a0c3ab043280e87255ab30a8d46ab41
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-http \
-mvn(org.apache.maven.wagon:wagon-http) \
-mvn(org.apache.maven.wagon:wagon-http::shaded:) \
-mvn(org.apache.maven.wagon:wagon-http:pom:) \
-mvn(org.apache.maven.wagon:wagon-http:pom:shaded:)"
+mvn-org.apache.maven.wagon-wagon-http \
+mvn-org.apache.maven.wagon-wagon-http--shaded- \
+mvn-org.apache.maven.wagon-wagon-http-pom- \
+mvn-org.apache.maven.wagon-wagon-http-pom-shaded-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.httpcomponents:httpclient) \
-mvn(org.apache.httpcomponents:httpcore) \
-mvn(org.apache.maven.wagon:wagon-http-shared) \
-mvn(org.apache.maven.wagon:wagon-provider-api) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.slf4j:jcl-over-slf4j) \
-mvn(org.slf4j:slf4j-simple)"
+mvn-org.apache.httpcomponents-httpclient \
+mvn-org.apache.httpcomponents-httpcore \
+mvn-org.apache.maven.wagon-wagon-http-shared \
+mvn-org.apache.maven.wagon-wagon-provider-api \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.slf4j-jcl-over-slf4j \
+mvn-org.slf4j-slf4j-simple"
 
 inherit rpm

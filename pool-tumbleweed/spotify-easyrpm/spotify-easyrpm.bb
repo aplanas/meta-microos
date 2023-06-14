@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "spotify-easyrpm"
 
 RDEPENDS:${PN} += "/bin/bash \
-createrepo_c \
+createrepo-c \
 jq \
 rpm-build \
 squashfs \

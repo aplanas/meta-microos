@@ -16,7 +16,7 @@ RPM_NAME = "texlive-latexbangla-2023.201.0.0.2svn55475-54.1.noarch.rpm"
 RPM_HASH = "949966e2b7f773064bd0cfa3656b6cf512a195b386d338d2b7feeaba9aa1ca4611bdc86795e098f935c8d0a13a99754f96f44e0f7cd72ab76acdfc311b5e8cd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(latexbangla.sty) \
+RPROVIDES:${PN} += "tex-latexbangla.sty \
 texlive-latexbangla"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,20 +25,20 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsfonts.sty) \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(amsthm.sty) \
-tex(chngcntr.sty) \
-tex(enumerate.sty) \
-tex(fontspec.sty) \
-tex(hyperref.sty) \
-tex(ifxetex.sty) \
-tex(polyglossia.sty) \
-tex(titlesec.sty) \
-tex(ucharclasses.sty) \
-tex(xkeyval.sty) \
-tex(xpatch.sty) \
+tex-amsfonts.sty \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-amsthm.sty \
+tex-chngcntr.sty \
+tex-enumerate.sty \
+tex-fontspec.sty \
+tex-hyperref.sty \
+tex-ifxetex.sty \
+tex-polyglossia.sty \
+tex-titlesec.sty \
+tex-ucharclasses.sty \
+tex-xkeyval.sty \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

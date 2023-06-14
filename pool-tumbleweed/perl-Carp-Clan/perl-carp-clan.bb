@@ -52,9 +52,9 @@ RPM_NAME = "perl-Carp-Clan-6.08-1.15.noarch.rpm"
 RPM_HASH = "43a959884583efa1919f363bf08410b7167628266514607f5f659538df52283c0f4b1ab5c4917f34b34d7b45e71fbf938fc61d33a4587a8bb4ff4eeb518c1bb8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Carp::Clan) \
+RPROVIDES:${PN} += "perl-Carp--Clan \
 perl-Carp-Clan"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

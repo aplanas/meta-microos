@@ -7,12 +7,11 @@ PV = "1.1.0"
 RPM_NAME = "lua51-cyrussasl-1.1.0-3.2.aarch64.rpm"
 RPM_HASH = "102c7b192756ef70bbabf97613fbad3f04c7557b6d0d8fa5409152488a2c0215c910a27bd8b07bda633712bb87405666044e6167f7f03d58c589f0ecb74d118b"
 
-RPROVIDES:${PN} += "lua51-cyrussasl \
-lua51-cyrussasl(aarch-64)"
+RPROVIDES:${PN} += "lua51-cyrussasl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsasl2.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsasl2.so.3 \
 lua51"
 
 inherit rpm

@@ -11,13 +11,13 @@ RPM_NAME = "python39-bqplot-0.12.31-3.30.noarch.rpm"
 RPM_HASH = "466b58916d7e27bf8ea6c5ffabbcec3f22e34b130145cbdc08c3faa8ee799edb3a642f58b614ceec26c4b8c39a9da3fe53abce0d1d2862ebf3600b942b2a2323"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(bqplot) \
+RPROVIDES:${PN} += "python3.9dist-bqplot \
 python39-bqplot \
-python39-jupyter_bqplot \
-python3dist(bqplot)"
+python39-jupyter-bqplot \
+python3dist-bqplot"
 
 RDEPENDS:${PN} += "jupyter-bqplot-notebook \
-python(abi) \
+python-abi \
 python39-ipywidgets \
 python39-numpy \
 python39-pandas \

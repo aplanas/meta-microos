@@ -15,13 +15,12 @@ PV = "2.6"
 RPM_NAME = "python39-zodbpickle-2.6-1.5.aarch64.rpm"
 RPM_HASH = "19d4b186adb73997baed0daa2516b3d75caaf2809c44777677633098146e4258455f4aac2d1c01052dca357ba07b909475178ba86a912bb2185ea84490bd65c8"
 
-RPROVIDES:${PN} += "python3.9dist(zodbpickle) \
+RPROVIDES:${PN} += "python3.9dist-zodbpickle \
 python39-zodbpickle \
-python39-zodbpickle(aarch-64) \
-python3dist(zodbpickle)"
+python3dist-zodbpickle"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

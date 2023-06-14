@@ -12,27 +12,22 @@ RPM_HASH = "0c0cd5a5c0e21e297c7408d406a464d7f8409bcfa39fc2fe1ed85ccc830b02ab4fbe
 
 RPROVIDES:${PN} += "phonon4qt5-backend \
 phonon4qt5-backend-gstreamer \
-phonon4qt5-backend-gstreamer(aarch-64) \
-phonon4qt5-backend-gstreamer-0_10"
+phonon4qt5-backend-gstreamer-0-10"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstapp-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstapp-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
 libphonon4qt5 \
-libphonon4qt5.so.4()(64bit) \
-libstdc++.so.6()(64bit)"
+libphonon4qt5.so.4 \
+libstdc++.so.6"
 
 inherit rpm

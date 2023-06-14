@@ -13,11 +13,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pykka \
 python3-pykka \
-python3.10dist(pykka) \
+python3.10dist-pykka \
 python310-Pykka \
 python310-pykka \
-python3dist(pykka)"
+python3dist-pykka"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

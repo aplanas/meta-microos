@@ -9,11 +9,11 @@ RPM_HASH = "7c9af695fa4907e1a5a465a46301910a6719dae459ba5202c6d24be1f10999d3aad8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-rest-knox \
-python3.10dist(django-rest-knox) \
+python3.10dist-django-rest-knox \
 python310-django-rest-knox \
-python3dist(django-rest-knox)"
+python3dist-django-rest-knox"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-cryptography \
 python310-djangorestframework"

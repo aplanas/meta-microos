@@ -15,7 +15,7 @@ RPM_NAME = "texlive-unbtex-2023.201.1.2svn64634-53.1.noarch.rpm"
 RPM_HASH = "74fc2b5a4df2d2b55263d1bd954d416fe1ff8f5767179b83f244a137b211aef87b0c80945e7d4eb75903b2301b0696b0ee36c2b4394d1acb83aef42534ab7c56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unbtex.cls) \
+RPROVIDES:${PN} += "tex-unbtex.cls \
 texlive-unbtex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,31 +24,31 @@ ed \
 findutils \
 grep \
 sed \
-tex(abntex2.cls) \
-tex(algorithm.sty) \
-tex(algpseudocode.sty) \
-tex(amsfonts.sty) \
-tex(amsmath.sty) \
-tex(amsthm.sty) \
-tex(caption.sty) \
-tex(eso-pic.sty) \
-tex(fontenc.sty) \
-tex(graphicx.sty) \
-tex(helvet.sty) \
-tex(icomma.sty) \
-tex(indentfirst.sty) \
-tex(inputenc.sty) \
-tex(listings.sty) \
-tex(mathrsfs.sty) \
-tex(mathtools.sty) \
-tex(mdframed.sty) \
-tex(microtype.sty) \
-tex(multirow.sty) \
-tex(stix2.sty) \
-tex(subcaption.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
-tex(xstring.sty) \
+tex-abntex2.cls \
+tex-algorithm.sty \
+tex-algpseudocode.sty \
+tex-amsfonts.sty \
+tex-amsmath.sty \
+tex-amsthm.sty \
+tex-caption.sty \
+tex-eso-pic.sty \
+tex-fontenc.sty \
+tex-graphicx.sty \
+tex-helvet.sty \
+tex-icomma.sty \
+tex-indentfirst.sty \
+tex-inputenc.sty \
+tex-listings.sty \
+tex-mathrsfs.sty \
+tex-mathtools.sty \
+tex-mdframed.sty \
+tex-microtype.sty \
+tex-multirow.sty \
+tex-stix2.sty \
+tex-subcaption.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

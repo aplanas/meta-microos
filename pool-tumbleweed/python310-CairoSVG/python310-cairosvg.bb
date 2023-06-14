@@ -12,13 +12,13 @@ RPM_HASH = "3c141ddf0038fff44cc34199599d20eb5832d0adfeeb3973da49c120ac6335ffa114
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-CairoSVG \
-python3.10dist(cairosvg) \
+python3.10dist-cairosvg \
 python310-CairoSVG \
-python3dist(cairosvg)"
+python3dist-cairosvg"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-cairocffi \
 python310-cssselect2 \

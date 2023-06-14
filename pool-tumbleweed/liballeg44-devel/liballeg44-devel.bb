@@ -12,19 +12,18 @@ RPM_HASH = "a466b302d6ba2393b80675a57647f9b3c4e756c116d4e437909eb9faece3ec52f087
 RPROVIDES:${PN} += "allegro-devel \
 liballeg-devel \
 liballeg44-devel \
-liballeg44-devel(aarch-64) \
-pkgconfig(allegro)"
+pkgconfig-allegro"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 allegro44 \
-ld-linux-aarch64.so.1()(64bit) \
-liballeg4_4 \
-libc.so.6()(64bit) \
-pkgconfig(x11) \
-pkgconfig(xcursor) \
-pkgconfig(xext) \
-pkgconfig(xproto) \
-pkgconfig(xxf86vm)"
+ld-linux-aarch64.so.1 \
+liballeg4-4 \
+libc.so.6 \
+pkgconfig-x11 \
+pkgconfig-xcursor \
+pkgconfig-xext \
+pkgconfig-xproto \
+pkgconfig-xxf86vm"
 
 inherit rpm

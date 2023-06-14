@@ -8,9 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-datavisualization-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "c9a1404dfb85ec51cc0488144b28a2aaa1634769c4cc29fe12aa8eca0aa0cfedde6fa979ab995616f06a5aeb6d4a96979f78772d8a4d3de5bb6e40d396be8de5"
 
-RPROVIDES:${PN} += "qt6-datavisualization-private-devel \
-qt6-datavisualization-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-datavisualization-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6DataVisualization)"
+RDEPENDS:${PN} += "cmake-Qt6DataVisualization"
 
 inherit rpm

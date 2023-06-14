@@ -16,7 +16,7 @@ RPM_NAME = "texlive-zref-clever-2023.201.0.0.3.6svn66021-52.1.noarch.rpm"
 RPM_HASH = "8419bbaf0f561fda318963ba907232ef12b1f41def1dd71b085b5679a27c37a61f4f9eb1c0d1c1a3158de9ee44d39b30feeb3e0bf71659443f361194a4ab5a89"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zref-clever.sty) \
+RPROVIDES:${PN} += "tex-zref-clever.sty \
 texlive-zref-clever"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,11 +25,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifdraft.sty) \
-tex(zref-abspage.sty) \
-tex(zref-base.sty) \
-tex(zref-hyperref.sty) \
-tex(zref-user.sty) \
+tex-ifdraft.sty \
+tex-zref-abspage.sty \
+tex-zref-base.sty \
+tex-zref-hyperref.sty \
+tex-zref-user.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

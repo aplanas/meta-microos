@@ -9,11 +9,11 @@ RPM_HASH = "635affc11bf5a12c765d4e168241568bbdea3dcf5436506094d6cf8cb4a9a108d4cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydub \
-python3.10dist(pydub) \
+python3.10dist-pydub \
 python310-pydub \
-python3dist(pydub)"
+python3dist-pydub"
 
 RDEPENDS:${PN} += "ffmpeg \
-python(abi)"
+python-abi"
 
 inherit rpm

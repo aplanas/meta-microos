@@ -13,11 +13,11 @@ RPM_HASH = "15fbb91cfb619f95afb5ddf7a1adc3043ea904382958fd9976c736183277d54f1083
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymdown-extensions \
-python3.10dist(pymdown-extensions) \
+python3.10dist-pymdown-extensions \
 python310-pymdown-extensions \
-python3dist(pymdown-extensions)"
+python3dist-pymdown-extensions"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Markdown \
 python310-PyYAML"
 

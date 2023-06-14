@@ -7,14 +7,13 @@ PV = "0.8.20"
 RPM_NAME = "python39-scrypt-0.8.20-1.7.aarch64.rpm"
 RPM_HASH = "bb3bca3b12a211bafbe0d59c1930277da7979d62b675355919ff5bbc178a14b1b518a1aa289204712184e26636abc9150f9e9f3a44fc0ab10f64065de9e2ad46"
 
-RPROVIDES:${PN} += "python3.9dist(scrypt) \
+RPROVIDES:${PN} += "python3.9dist-scrypt \
 python39-scrypt \
-python39-scrypt(aarch-64) \
-python3dist(scrypt)"
+python3dist-scrypt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+python-abi"
 
 inherit rpm

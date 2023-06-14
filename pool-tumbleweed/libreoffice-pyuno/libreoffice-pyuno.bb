@@ -16,28 +16,23 @@ PV = "7.5.4.1"
 RPM_NAME = "libreoffice-pyuno-7.5.4.1-1.1.aarch64.rpm"
 RPM_HASH = "5b747d7a5448f1e50d33a3029ffaad8a412096e68aaf2655719b823ea799811eb8d1e14da777b6ecd71019a5e5d45e501e54bfb48a40e864128de50f846960d2"
 
-RPROVIDES:${PN} += "config(libreoffice-pyuno) \
-libpythonloaderlo.so()(64bit) \
-libpyuno.so()(64bit) \
-libreoffice-pyuno \
-libreoffice-pyuno(aarch-64)"
+RPROVIDES:${PN} += "config-libreoffice-pyuno \
+libpythonloaderlo.so \
+libpyuno.so \
+libreoffice-pyuno"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpython3.10.so.1.0 \
 libreoffice \
-libstdc++.so.6()(64bit) \
-libuno_cppu.so.3()(64bit) \
-libuno_cppu.so.3(UDK_3_0_0)(64bit) \
-libuno_cppuhelpergcc3.so.3()(64bit) \
-libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit) \
-libuno_sal.so.3()(64bit) \
-libuno_sal.so.3(UDK_3_0_0)(64bit) \
-libuno_salhelpergcc3.so.3()(64bit) \
-libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit) \
-python(abi) \
-rtld(GNU_HASH)"
+libstdc++.so.6 \
+libuno-cppu.so.3 \
+libuno-cppuhelpergcc3.so.3 \
+libuno-sal.so.3 \
+libuno-salhelpergcc3.so.3 \
+python-abi \
+rtld-GNU-HASH"
 
 inherit rpm

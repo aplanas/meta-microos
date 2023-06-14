@@ -9,10 +9,10 @@ RPM_HASH = "16500b08102f1eee68d3af947ed8c50a41c10fd0b9d74821e07725e6d3cd973f2d85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetbrains-annotations \
-mvn(com.intellij:annotations) \
-mvn(com.intellij:annotations:pom:) \
-mvn(org.jetbrains:annotations) \
-mvn(org.jetbrains:annotations:pom:)"
+mvn-com.intellij-annotations \
+mvn-com.intellij-annotations-pom- \
+mvn-org.jetbrains-annotations \
+mvn-org.jetbrains-annotations-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

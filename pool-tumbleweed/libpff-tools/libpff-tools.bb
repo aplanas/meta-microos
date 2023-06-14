@@ -10,31 +10,20 @@ PV = "20230325"
 RPM_NAME = "libpff-tools-20230325-1.4.aarch64.rpm"
 RPM_HASH = "5d29121b173e967928be39819ed68aefc9666b9d62b88ca28b72821801c7be6c8e4ea64dab03264879918703291df0150d43c1080060507ac997652a02e1b54b"
 
-RPROVIDES:${PN} += "libpff-tools \
-libpff-tools(aarch-64)"
+RPROVIDES:${PN} += "libpff-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libcfile.so.1()(64bit) \
-libcfile.so.1(V_20220106)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcnotify.so.1()(64bit) \
-libcnotify.so.1(V_20220108)(64bit) \
-libcpath.so.1()(64bit) \
-libcpath.so.1(V_20220108)(64bit) \
-libfdatetime.so.1()(64bit) \
-libfdatetime.so.1(V_20220112)(64bit) \
-libfguid.so.1()(64bit) \
-libfguid.so.1(V_20220113)(64bit) \
-libfmapi.so.1()(64bit) \
-libfmapi.so.1(V_20230408)(64bit) \
-libfvalue.so.1()(64bit) \
-libfvalue.so.1(V_20220120)(64bit) \
-libpff.so.1()(64bit) \
-libpff.so.1(V_20230325)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libcfile.so.1 \
+libclocale.so.1 \
+libcnotify.so.1 \
+libcpath.so.1 \
+libfdatetime.so.1 \
+libfguid.so.1 \
+libfmapi.so.1 \
+libfvalue.so.1 \
+libpff.so.1 \
 libpff1"
 
 inherit rpm

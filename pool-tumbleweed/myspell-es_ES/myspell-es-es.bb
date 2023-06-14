@@ -8,10 +8,10 @@ RPM_NAME = "myspell-es_ES-20221012-1.2.noarch.rpm"
 RPM_HASH = "68289e70e4a5bd726218490a365d510147b5b6cc13a02b791afc3d0a3a15feaa77189d469d775320f2fcaf41b0527d2171853fa78d817c116b4397c83a11b34f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_ES) \
-locale(seamonkey-spellchecker:es_ES) \
+RPROVIDES:${PN} += "locale-libreoffice-es-ES \
+locale-seamonkey-spellchecker-es-ES \
 myspell-dictionary \
-myspell-es_ES \
+myspell-es-ES \
 myspell-spanish"
 
 RDEPENDS:${PN} += "myspell-dictionaries \

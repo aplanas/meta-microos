@@ -11,18 +11,17 @@ RPM_NAME = "python311-lscsoft-glue-3.0.1-1.4.aarch64.rpm"
 RPM_HASH = "3410080a099f02cabcd25cd606a3eb766a8924696af945777adc4aec07cdf0cdffdaeaddcbe094e4a61c142c34aee98771fb8d91e3039e7710937825e6708297"
 
 RPROVIDES:${PN} += "python-glue \
-python3.11dist(lscsoft-glue) \
+python3.11dist-lscsoft-glue \
 python311-glue \
 python311-lscsoft-glue \
-python311-lscsoft-glue(aarch-64) \
-python3dist(lscsoft-glue)"
+python3dist-lscsoft-glue"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 lscsoft-glue-data \
-python(abi) \
+python-abi \
 python311-ligo-segments \
 python311-numpy \
 python311-pyRXP \

@@ -16,11 +16,11 @@ RPM_NAME = "python39-azure-ai-ml-1.7.2-1.1.noarch.rpm"
 RPM_HASH = "2615571563767687bf36c8b08b7e560c0c38a63d676de03b43eb4ed38150fc186cd9fb9e0c9a7fdf21635fdc3197788568292edb11767c34b9250ff20c40b5b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-ai-ml) \
+RPROVIDES:${PN} += "python3.9dist-azure-ai-ml \
 python39-azure-ai-ml \
-python3dist(azure-ai-ml)"
+python3dist-azure-ai-ml"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-PyJWT \
 python39-PyYAML \
 python39-applicationinsights \

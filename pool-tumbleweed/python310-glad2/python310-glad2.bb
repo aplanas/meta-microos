@@ -9,14 +9,14 @@ RPM_HASH = "3a1f761443f2ceb6cd5d94395e23a574b0744b65efbc53e1363e0564ba7a5a449870
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-glad2 \
-python3.10dist(glad2) \
+python3.10dist-glad2 \
 python310-glad2 \
-python3dist(glad2)"
+python3dist-glad2"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 /usr/sbin/update-alternatives \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-setuptools"
 

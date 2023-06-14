@@ -11,15 +11,14 @@ PV = "0.0.5"
 RPM_NAME = "librevenge-generators-0_0-0-0.0.5-1.3.aarch64.rpm"
 RPM_HASH = "4e5003ac24b573a3f8537a4512964fb99b942ad63a93da8e1142ae76d001561000610f7dd98235321e92ae35e82882a13b43f4b35501885b1f7b91d394a3921f"
 
-RPROVIDES:${PN} += "librevenge-generators-0.0.so.0()(64bit) \
-librevenge-generators-0_0-0 \
-librevenge-generators-0_0-0(aarch-64)"
+RPROVIDES:${PN} += "librevenge-generators-0-0-0 \
+librevenge-generators-0.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-librevenge-0.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+librevenge-0.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

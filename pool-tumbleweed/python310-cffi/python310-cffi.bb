@@ -9,15 +9,14 @@ RPM_NAME = "python310-cffi-1.15.1-4.1.aarch64.rpm"
 RPM_HASH = "6c155acc2b02bf697a710f67d80a45a3df82e1fc16a28010b171db42c4e0d2809aef2ba7e3cc8acc5dd6581d74470c362343da3709314e59a18340917bca072e"
 
 RPROVIDES:${PN} += "python3-cffi \
-python3.10dist(cffi) \
+python3.10dist-cffi \
 python310-cffi \
-python310-cffi(aarch-64) \
-python3dist(cffi)"
+python3dist-cffi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libffi.so.8 \
+python-abi \
 python310-pycparser"
 
 inherit rpm

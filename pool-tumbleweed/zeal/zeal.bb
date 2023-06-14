@@ -14,45 +14,29 @@ PV = "2.7.0~git20200517.404c3aa"
 RPM_NAME = "zeal-2.7.0~git20200517.404c3aa-2.14.aarch64.rpm"
 RPM_HASH = "a04a627a0f6aaf32e1fec77da7d0cee65c34cc7cae8b54069dd1c0aee7b0552c9ead27e39189bc5e64b1ac4430b5d4d158b066233aa115b8861387feb7d01e43"
 
-RPROVIDES:${PN} += "application() \
-application(org.zealdocs.Zeal.desktop) \
-metainfo() \
-metainfo(org.zealdocs.Zeal.appdata.xml) \
-mimehandler(x-scheme-handler/dash) \
-mimehandler(x-scheme-handler/dash-plugin) \
-zeal \
-zeal(aarch-64)"
+RPROVIDES:${PN} += "zeal"
 
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Concurrent.so.5()(64bit) \
-libQt5Concurrent.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Concurrent.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
 libQt5Sql5-sqlite \
-libQt5WebChannel.so.5()(64bit) \
-libQt5WebChannel.so.5(Qt_5)(64bit) \
-libQt5WebEngineCore.so.5()(64bit) \
-libQt5WebEngineCore.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libarchive.so.13()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libxcb-keysyms.so.1()(64bit) \
-libxcb.so.1()(64bit) \
+libQt5WebChannel.so.5 \
+libQt5WebEngineCore.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libX11.so.6 \
+libarchive.so.13 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libxcb-keysyms.so.1 \
+libxcb.so.1 \
 update-desktop-files"
 
 inherit rpm

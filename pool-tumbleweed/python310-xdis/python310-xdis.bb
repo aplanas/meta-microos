@@ -9,13 +9,13 @@ RPM_HASH = "8756ba319de5886f68b76148539685bb554856f96f7b7308e6d2b6fb2ed4c887878b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xdis \
-python3.10dist(xdis) \
+python3.10dist-xdis \
 python310-xdis \
-python3dist(xdis)"
+python3dist-xdis"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-setuptools \
 python310-six \

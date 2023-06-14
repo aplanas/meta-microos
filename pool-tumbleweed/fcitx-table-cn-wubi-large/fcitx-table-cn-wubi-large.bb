@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-wubi-large \
 fcitx-table-extra \
-locale(fcitx-table:zh_CN;)"
+locale-fcitx-table-zh-CN;"
 
 RDEPENDS:${PN} += "fcitx-table"
 

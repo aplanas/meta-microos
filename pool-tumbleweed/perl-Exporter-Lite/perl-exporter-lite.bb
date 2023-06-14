@@ -33,9 +33,9 @@ RPM_NAME = "perl-Exporter-Lite-0.09-1.7.noarch.rpm"
 RPM_HASH = "dcd4577ae115e9ca92708abd6c46180e2cd563fff88cb44d334be50ba864bb6ef572601c8bf69fd624245896bee6af436549c50a742e9ed6482836ff01c614ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Exporter::Lite) \
+RPROVIDES:${PN} += "perl-Exporter--Lite \
 perl-Exporter-Lite"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

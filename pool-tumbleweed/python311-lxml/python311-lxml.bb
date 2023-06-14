@@ -10,17 +10,16 @@ PV = "4.9.2"
 RPM_NAME = "python311-lxml-4.9.2-7.1.aarch64.rpm"
 RPM_HASH = "8466401ace19e8c74e37799ba5acc8b3aa722593db490fa76c5220fea387861a5abc1a9b137b3cd835b612a15ceadd691aadc7c70e641ce1f1de1fe2a42f74b3"
 
-RPROVIDES:${PN} += "python3.11dist(lxml) \
+RPROVIDES:${PN} += "python3.11dist-lxml \
 python311-lxml \
-python311-lxml(aarch-64) \
-python3dist(lxml)"
+python3dist-lxml"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexslt.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexslt.so.0 \
+libxml2.so.2 \
+libxslt.so.1 \
+python-abi \
 python311-cssselect"
 
 inherit rpm

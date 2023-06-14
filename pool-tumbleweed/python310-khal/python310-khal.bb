@@ -10,13 +10,13 @@ RPM_HASH = "a9fd8edb87b48ae670aab73736d5a55db0a4029080a1ff1871193d0c31ece288fb47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-khal \
-python3.10dist(khal) \
+python3.10dist-khal \
 python310-khal \
-python3dist(khal)"
+python3dist-khal"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-atomicwrites \
 python310-click \
 python310-click-log \

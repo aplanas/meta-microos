@@ -9,11 +9,11 @@ RPM_HASH = "ce8a4ea489a95d0e9ac47b82c52220a44968420b41ed7b06ce89e22c135ab4e00483
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-s3transfer \
-python3.10dist(s3transfer) \
+python3.10dist-s3transfer \
 python310-s3transfer \
-python3dist(s3transfer)"
+python3dist-s3transfer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-botocore \
 python310-requests"
 

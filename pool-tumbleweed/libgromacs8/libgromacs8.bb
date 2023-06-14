@@ -10,21 +10,20 @@ PV = "2023"
 RPM_NAME = "libgromacs8-2023-1.1.aarch64.rpm"
 RPM_HASH = "917f383caeda88caae562c1fa4d626f8f821dbed986c849bc7a92149ac9ebbdd8a59dda2a4bd25806f267bd628eeb7bef213a2b0da99df06979ab3e59d90a1dd"
 
-RPROVIDES:${PN} += "libgromacs.so.8()(64bit) \
-libgromacs8 \
-libgromacs8(aarch-64)"
+RPROVIDES:${PN} += "libgromacs.so.8 \
+libgromacs8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libmuparser.so.2.3.4()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+liblapack.so.3 \
+libm.so.6 \
+libmuparser.so.2.3.4 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

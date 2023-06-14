@@ -11,15 +11,15 @@ RPM_HASH = "5ba02c8760d206ea2ec01e081fdab42cd333a5af0d4268a3e95ba05e76ae314f45e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jakartamail \
-config(ant-jakartamail) \
-mvn(org.apache.ant:ant-jakartamail) \
-mvn(org.apache.ant:ant-jakartamail:pom:)"
+config-ant-jakartamail \
+mvn-org.apache.ant-ant-jakartamail \
+mvn-org.apache.ant-ant-jakartamail-pom-"
 
 RDEPENDS:${PN} += "ant \
 jakarta-mail \
 java-headless \
 javapackages-filesystem \
-mvn(com.sun.mail:jakarta.mail) \
-mvn(org.apache.ant:ant)"
+mvn-com.sun.mail-jakarta.mail \
+mvn-org.apache.ant-ant"
 
 inherit rpm

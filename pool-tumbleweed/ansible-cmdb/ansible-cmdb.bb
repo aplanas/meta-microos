@@ -14,12 +14,12 @@ RPM_HASH = "e91552a26d325e43c9314d338ad7560f8cf77b2fd2ff2852253f4d6ab85e0c50ac6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-cmdb \
-python3.10dist(ansible-cmdb) \
-python3dist(ansible-cmdb)"
+python3.10dist-ansible-cmdb \
+python3dist-ansible-cmdb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Mako \
 python3-PyYAML \
 python3-jsonxs"

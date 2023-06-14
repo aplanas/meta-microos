@@ -16,7 +16,7 @@ RPM_NAME = "texlive-simpler-wick-2023.201.1.0.0svn39074-53.1.noarch.rpm"
 RPM_HASH = "7dccf60d692b846a7ce0d47121b954723e72507e633dbc346be021b72644f54bf3a3d865b171275dbad1cb5d7643efbe41506e2239ad58aad1801ab1bdbfcecb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(simpler-wick.sty) \
+RPROVIDES:${PN} += "tex-simpler-wick.sty \
 texlive-simpler-wick"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,8 +25,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(pgfopts.sty) \
-tex(tikz.sty) \
+tex-pgfopts.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

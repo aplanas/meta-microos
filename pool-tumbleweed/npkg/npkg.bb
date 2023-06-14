@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "npkg"
 RDEPENDS:${PN} += "/usr/bin/env \
 nodejs-packaging \
 ruby \
-rubygem(json) \
-rubygem(nokogiri)"
+rubygem-json \
+rubygem-nokogiri"
 
 inherit rpm

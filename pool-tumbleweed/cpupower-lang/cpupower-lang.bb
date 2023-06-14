@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpupower-lang \
 cpupower-lang-all \
-locale(cpupower:cs) \
-locale(cpupower:de) \
-locale(cpupower:fr) \
-locale(cpupower:it) \
-locale(cpupower:pt)"
+locale-cpupower-cs \
+locale-cpupower-de \
+locale-cpupower-fr \
+locale-cpupower-it \
+locale-cpupower-pt"
 
 RDEPENDS:${PN} += "cpupower"
 

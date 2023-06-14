@@ -18,14 +18,13 @@ PV = "1.1.3"
 RPM_NAME = "libpystring0_0-1.1.3-1.8.aarch64.rpm"
 RPM_HASH = "ec503f3dd93aed22230ee047cf7ee6276fe1bf2cc4c3a4e8424267548536c51ba9d3fe7492efbea87ef34de96a290ef049549e9329636aa306cdc8a98becc452"
 
-RPROVIDES:${PN} += "libpystring.so.0.0()(64bit) \
-libpystring0_0 \
-libpystring0_0(aarch-64)"
+RPROVIDES:${PN} += "libpystring.so.0.0 \
+libpystring0-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stp"
 
-RDEPENDS:${PN} += "libstp2_3 \
-python(abi)"
+RDEPENDS:${PN} += "libstp2-3 \
+python-abi"
 
 inherit rpm

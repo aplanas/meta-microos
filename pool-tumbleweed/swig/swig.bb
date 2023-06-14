@@ -14,13 +14,12 @@ PV = "4.1.1"
 RPM_NAME = "swig-4.1.1-2.3.aarch64.rpm"
 RPM_HASH = "07f06fba52781e32ba2bb45b08f84b6ebde62f093c5fe9f924f0e467c9cc8ae7c71946555e23d30d0efac59a9179d0cfde7ca463e9da965141213e8162a6243a"
 
-RPROVIDES:${PN} += "swig \
-swig(aarch-64)"
+RPROVIDES:${PN} += "swig"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpcre2-8.so.0 \
+libstdc++.so.6"
 
 inherit rpm

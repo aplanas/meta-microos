@@ -9,10 +9,10 @@ RPM_HASH = "31e78dce57058690305e12a16ac73420c4c31885bf56e72ee4eff5183b690050ee01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto-service-aggregator \
-mvn(com.google.auto.service:auto-service-aggregator:pom:)"
+mvn-com.google.auto.service-auto-service-aggregator-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.sonatype.oss:oss-parent:pom:)"
+mvn-org.sonatype.oss-oss-parent-pom-"
 
 inherit rpm

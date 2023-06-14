@@ -14,29 +14,26 @@ PV = "13.11"
 RPM_NAME = "postgresql13-server-13.11-1.2.aarch64.rpm"
 RPM_HASH = "ebe172e9eca8c83abce00c057a71a43b1106342c56bddb6e3917a69e843454faff533aa84a7eaa3a0694a7ee8c72d7f273e130d33df20603b373a06143002db8"
 
-RPROVIDES:${PN} += "libpqwalreceiver.so()(64bit) \
+RPROVIDES:${PN} += "libpqwalreceiver.so \
 postgresql-server-implementation \
-postgresql13-server \
-postgresql13-server(aarch-64)"
+postgresql13-server"
 
 RDEPENDS:${PN} += "/bin/sh \
 glibc-locale \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libldap.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libpq.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgssapi-krb5.so.2 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libldap.so.2 \
+libm.so.6 \
+libpam.so.0 \
+libpq.so.5 \
 libpq5 \
-libssl.so.3()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libxml2.so.2()(64bit) \
+libssl.so.3 \
+libsystemd.so.0 \
+libxml2.so.2 \
 postgresql \
 postgresql-noarch \
 postgresql-server-noarch \

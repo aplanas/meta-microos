@@ -10,11 +10,11 @@ RPM_HASH = "5fd0044fcb94beccda2695182d0bb94dfafc946128ca3cef6a908ac2fda6a017c021
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-preggy \
-python3.10dist(preggy) \
+python3.10dist-preggy \
 python310-preggy \
-python3dist(preggy)"
+python3dist-preggy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Unidecode \
 python310-six"
 

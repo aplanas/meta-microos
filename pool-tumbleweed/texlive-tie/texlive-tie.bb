@@ -11,7 +11,7 @@ RPM_NAME = "texlive-tie-2023.201.2.4svn66186-54.1.noarch.rpm"
 RPM_HASH = "6c55b824b1498d3cbece679c62ef97a760fc31ce47a4c2ae33c2b794e6c5e3ce12d5ee9b44e1cc2461a9dda183ec2d8d2406bcd8c59a0188599b3eef13b4cd8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(tie.1) \
+RPROVIDES:${PN} += "man-tie.1 \
 texlive-tie"
 
 RDEPENDS:${PN} += "/bin/sh \

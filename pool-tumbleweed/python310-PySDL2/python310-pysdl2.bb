@@ -12,15 +12,15 @@ RPM_HASH = "4ff1a2bd86eca0f76994afa3001907b9808e563658eb15262b8120c47c4e9dd1fab2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PySDL2 \
-python3.10dist(pysdl2) \
+python3.10dist-pysdl2 \
 python310-PySDL2 \
-python3dist(pysdl2)"
+python3dist-pysdl2"
 
 RDEPENDS:${PN} += "SDL2 \
-SDL2_gfx \
-SDL2_image \
-SDL2_mixer \
-SDL2_ttf \
-python(abi)"
+SDL2-gfx \
+SDL2-image \
+SDL2-mixer \
+SDL2-ttf \
+python-abi"
 
 inherit rpm

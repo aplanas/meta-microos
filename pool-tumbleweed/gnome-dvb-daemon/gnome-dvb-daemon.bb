@@ -9,19 +9,18 @@ PV = "0.2.90"
 RPM_NAME = "gnome-dvb-daemon-0.2.90-4.10.aarch64.rpm"
 RPM_HASH = "92d6d0fa25a637f0262a2054e86949fabcb25ea7ccf3f139706837f06c60f09447705899ba363b685e2c4a3a36e11401304cfa2044e12cb17b07fbf084c2602a"
 
-RPROVIDES:${PN} += "gnome-dvb-daemon \
-gnome-dvb-daemon(aarch-64)"
+RPROVIDES:${PN} += "gnome-dvb-daemon"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstmpegts-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstrtspserver-1.0.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libsqlite3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstmpegts-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstrtspserver-1.0.so.0 \
+libgudev-1.0.so.0 \
+libsqlite3.so.0"
 
 inherit rpm

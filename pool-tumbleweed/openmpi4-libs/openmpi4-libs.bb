@@ -19,38 +19,37 @@ PV = "4.1.4"
 RPM_NAME = "openmpi4-libs-4.1.4-2.3.aarch64.rpm"
 RPM_HASH = "493a1d519a38426507ee1d07e04a4c44aa0de20939684583b263c192d4c6c119ebcdad812f4ff88f970c8dfca3bd01723894fc547259fc6fb181d56df09c7195"
 
-RPROVIDES:${PN} += "libmca_common_dstore.so.1()(64bit) \
-libmca_common_monitoring.so.50()(64bit) \
-libmca_common_ofi.so.10()(64bit) \
-libmca_common_ompio.so.41()(64bit) \
-libmca_common_sm.so.40()(64bit) \
-libmca_common_ucx.so.40()(64bit) \
-libmca_common_verbs.so.40()(64bit) \
-libmpi.so.40()(64bit) \
-libmpi_mpifh.so.40()(64bit) \
-libmpi_usempi_ignore_tkr.so.40()(64bit) \
-libmpi_usempif08.so.40()(64bit) \
-libompi_dbg_msgq.so()(64bit) \
-libompitrace.so.40()(64bit) \
-libopen-pal.so.40()(64bit) \
-libopen-rte.so.40()(64bit) \
-liboshmem.so.40()(64bit) \
+RPROVIDES:${PN} += "libmca-common-dstore.so.1 \
+libmca-common-monitoring.so.50 \
+libmca-common-ofi.so.10 \
+libmca-common-ompio.so.41 \
+libmca-common-sm.so.40 \
+libmca-common-ucx.so.40 \
+libmca-common-verbs.so.40 \
+libmpi-mpifh.so.40 \
+libmpi-usempi-ignore-tkr.so.40 \
+libmpi-usempif08.so.40 \
+libmpi.so.40 \
+libompi-dbg-msgq.so \
+libompitrace.so.40 \
+libopen-pal.so.40 \
+libopen-rte.so.40 \
+liboshmem.so.40 \
 openmpi-libs \
-openmpi4-libs \
-openmpi4-libs(aarch-64)"
+openmpi4-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libevent_pthreads-2.1.so.7()(64bit) \
-libfabric.so.1()(64bit) \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-librdmacm.so.1()(64bit) \
-libucm.so.0()(64bit) \
-libucp.so.0()(64bit) \
-libucs.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libevent-pthreads-2.1.so.7 \
+libfabric.so.1 \
+libibverbs.so.1 \
+libm.so.6 \
+librdmacm.so.1 \
+libucm.so.0 \
+libucp.so.0 \
+libucs.so.0 \
 openmpi4"
 
 inherit rpm

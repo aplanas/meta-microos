@@ -9,10 +9,9 @@ PV = "0.20.1"
 RPM_NAME = "ocaml-ctypes-0.20.1-2.1.aarch64.rpm"
 RPM_HASH = "ad5cf577d558ca9860f05b31febe1ecfd0129e6d63289ff8606c10ca6a7cb6b21eb26d2b31589ac832f86141090d2400248ff40707babd29f87fd741d022fa74"
 
-RPROVIDES:${PN} += "ocaml-ctypes \
-ocaml-ctypes(aarch-64)"
+RPROVIDES:${PN} += "ocaml-ctypes"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libffi.so.8()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libffi.so.8"
 
 inherit rpm

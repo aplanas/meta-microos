@@ -17,12 +17,12 @@ RPM_HASH = "544090e83f8b8f16e9cb1428da37e3c9573544a2039f1e5b5eb68117c77929d6a0d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipysheet \
-python3.10dist(ipysheet) \
+python3.10dist-ipysheet \
 python310-ipysheet \
-python3dist(ipysheet)"
+python3dist-ipysheet"
 
-RDEPENDS:${PN} += "(python310-ipywidgets >= 7.5.0 with python310-ipywidgets < 9) \
+RDEPENDS:${PN} += "-python310-ipywidgets >= 7.5.0 with python310-ipywidgets < 9 \
 jupyter-ipysheet \
-python(abi)"
+python-abi"
 
 inherit rpm

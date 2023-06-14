@@ -29,50 +29,46 @@ PV = "1.28.15"
 RPM_NAME = "cups-filters-1.28.15-3.1.aarch64.rpm"
 RPM_HASH = "b319c2905e4b0b54caac2462c34bea5629bb8ebc4cf3f0b5b328a1dd293c4047b4416368626f70f0925f67302a5c87c3155b8582c98f2c27924682e56eaec5d4"
 
-RPROVIDES:${PN} += "config(cups-filters) \
+RPROVIDES:${PN} += "config-cups-filters \
 cups-browsed \
 cups-filters \
-cups-filters(aarch-64) \
 cups-filters-cups-browsed \
 cups-filters-foomatic-rip \
 cups-filters-ghostscript \
 foomatic-filters \
 foomatic-rip \
 gstoraster \
-libcupsfilters.so.1()(64bit) \
-libfontembed.so.1()(64bit) \
-postscriptdriver(fuji_xerox;docuprint_cm305_df;) \
-postscriptdriver(generic;pdf_printer;) \
-postscriptdriver(hewlett-packard;hp_color_laserjet_cm3530_mfp;) \
-postscriptdriver(ricoh;pdf_printer;)"
+libcupsfilters.so.1 \
+libfontembed.so.1 \
+postscriptdriver-fuji-xerox;docuprint-cm305-df; \
+postscriptdriver-generic;pdf-printer; \
+postscriptdriver-hewlett-packard;hp-color-laserjet-cm3530-mfp; \
+postscriptdriver-ricoh;pdf-printer;"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 cups \
-ld-linux-aarch64.so.1()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libavahi-glib.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcups.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libfontconfig.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libpoppler-cpp.so.0()(64bit) \
-libqpdf.so.29()(64bit) \
-libqpdf.so.29(LIBQPDF_29)(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libavahi-glib.so.1 \
+libc.so.6 \
+libcups.so.2 \
+libdbus-1.so.3 \
+libfontconfig.so.1 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+libm.so.6 \
+libpng16.so.16 \
+libpoppler-cpp.so.0 \
+libqpdf.so.29 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libz.so.1 \
 systemd"
 
 inherit rpm

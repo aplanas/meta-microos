@@ -12,14 +12,14 @@ RPM_NAME = "python39-pdfminer.six-20200726-3.1.noarch.rpm"
 RPM_HASH = "913f95374c69a0b496e5e706d2ac4c31e3005f72ce6d868a5eefb899d25586aa17e151b2dabb1cca69478589f1619234bfa331a70399ae1ffcb9551565d7c527"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pdfminer.six) \
+RPROVIDES:${PN} += "python3.9dist-pdfminer.six \
 python39-pdfminer.six \
 python39-pdfminer3k \
-python3dist(pdfminer.six)"
+python3dist-pdfminer.six"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-chardet \
 python39-cryptography \
 python39-sortedcontainers \

@@ -14,10 +14,10 @@ RPM_HASH = "4c36599e73bea4ea53f1fbb09d863a90a48308b27faca5101aaa3b6d742a7703d31a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keystonemiddleware \
-python3.10dist(keystonemiddleware) \
-python3dist(keystonemiddleware)"
+python3.10dist-keystonemiddleware \
+python3dist-keystonemiddleware"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-WebOb \
 python3-keystoneauth1 \
 python3-keystoneclient \

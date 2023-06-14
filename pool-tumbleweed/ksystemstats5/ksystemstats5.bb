@@ -7,33 +7,26 @@ PV = "5.27.5"
 RPM_NAME = "ksystemstats5-5.27.5-1.1.aarch64.rpm"
 RPM_HASH = "31c7f5c538353e2ab1a1cb64e39c9cdcfeaf8423fe61187a725385234b109dca9995c47e8287b3628781260fb0eb1f64c4e31129297c1e2f6365750e7b488fae"
 
-RPROVIDES:${PN} += "ksystemstats5 \
-ksystemstats5(aarch-64)"
+RPROVIDES:${PN} += "ksystemstats5"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5NetworkManagerQt.so.6()(64bit) \
-libKF5Solid.so.5()(64bit) \
-libKSysGuardFormatter.so.1()(64bit) \
-libKSysGuardSystemStats.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-route-3.so.200()(64bit) \
-libnl-route-3.so.200(libnl_3)(64bit) \
-libsensors.so.4()(64bit) \
-libstdc++.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5NetworkManagerQt.so.6 \
+libKF5Solid.so.5 \
+libKSysGuardFormatter.so.1 \
+libKSysGuardSystemStats.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Network.so.5 \
+libc.so.6 \
+libnl-3.so.200 \
+libnl-route-3.so.200 \
+libsensors.so.4 \
+libstdc++.so.6 \
+libudev.so.1"
 
 inherit rpm

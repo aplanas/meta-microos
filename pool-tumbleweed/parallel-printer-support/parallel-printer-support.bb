@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "parallel-printer-support"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
-group(lp) \
+aaa-base \
+group-lp \
 systemd \
 udev"
 

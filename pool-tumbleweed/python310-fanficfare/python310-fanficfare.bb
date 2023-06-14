@@ -17,13 +17,13 @@ RPM_HASH = "5495ecbbfe2941706aef1bc9e3c1c26b7058817e98f30da160e5166140f2d50b4bf5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fanficfare \
-python3.10dist(fanficfare) \
+python3.10dist-fanficfare \
 python310-fanficfare \
-python3dist(fanficfare)"
+python3dist-fanficfare"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-beautifulsoup4 \
 python310-chardet \
 python310-cloudscraper \

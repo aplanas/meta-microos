@@ -13,15 +13,15 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-digester \
 commons-digester \
 jakarta-commons-digester \
-mvn(commons-digester:commons-digester) \
-mvn(commons-digester:commons-digester:pom:) \
-mvn(org.apache.commons:commons-digester) \
-mvn(org.apache.commons:commons-digester:pom:) \
-osgi(org.apache.commons.commons-digester)"
+mvn-commons-digester-commons-digester \
+mvn-commons-digester-commons-digester-pom- \
+mvn-org.apache.commons-commons-digester \
+mvn-org.apache.commons-commons-digester-pom- \
+osgi-org.apache.commons.commons-digester"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-beanutils:commons-beanutils) \
-mvn(commons-logging:commons-logging)"
+mvn-commons-beanutils-commons-beanutils \
+mvn-commons-logging-commons-logging"
 
 inherit rpm

@@ -11,13 +11,12 @@ RPM_NAME = "libssh2-1-1.10.0-1.9.aarch64.rpm"
 RPM_HASH = "e57d3042137ccaee5d541639bc4d1c380743be0d386982b46b190441fe41bf08daa9d75f0eba0e0a225bb61b37d979edd192c41f1a3851eaf6932031951798ea"
 
 RPROVIDES:${PN} += "libssh2-1 \
-libssh2-1(aarch-64) \
-libssh2.so.1()(64bit)"
+libssh2.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libz.so.1"
 
 inherit rpm

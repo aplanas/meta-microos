@@ -8,11 +8,11 @@ RPM_NAME = "myspell-et_EE-20221012-1.2.noarch.rpm"
 RPM_HASH = "000dd608c44c686b6b983cd5dd6accdc55748e01bca240ca36c27186be47b663fef4209204323c7d8ce83eaaf3dd88cabd9c7e9e9cc5110ba1a472eda8c3bd62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:et_EE) \
-locale(seamonkey-spellchecker:et_EE) \
+RPROVIDES:${PN} += "locale-libreoffice-et-EE \
+locale-seamonkey-spellchecker-et-EE \
 myspell-dictionary \
 myspell-estonian \
-myspell-et_EE"
+myspell-et-EE"
 
 RDEPENDS:${PN} += "myspell-dictionaries"
 

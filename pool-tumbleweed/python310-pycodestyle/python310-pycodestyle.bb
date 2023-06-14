@@ -14,14 +14,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pep8 \
 python3-pycodestyle \
-python3.10dist(pycodestyle) \
+python3.10dist-pycodestyle \
 python310-pep8 \
 python310-pycodestyle \
-python3dist(pycodestyle)"
+python3dist-pycodestyle"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

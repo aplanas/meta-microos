@@ -8,8 +8,8 @@ RPM_NAME = "myspell-eo-20221012-1.2.noarch.rpm"
 RPM_HASH = "f06b3e21041a7b47359e1d7a01ee4c2ec757dc7af0a407ae87d36aecb6e3f4ea63b8e89753d5b55689addf4a614466d307eb031017d375c1f49190b5182978ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:eo) \
-locale(seamonkey-spellchecker:eo) \
+RPROVIDES:${PN} += "locale-libreoffice-eo \
+locale-seamonkey-spellchecker-eo \
 myspell-dictionary \
 myspell-eo"
 

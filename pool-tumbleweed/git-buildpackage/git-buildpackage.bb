@@ -15,6 +15,6 @@ RDEPENDS:${PN} += "/bin/bash \
 devscripts \
 dpkg \
 git-buildpackage-common \
-python(abi)"
+python-abi"
 
 inherit rpm

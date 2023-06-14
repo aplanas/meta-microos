@@ -11,12 +11,12 @@ RPM_NAME = "streamlink-5.3.1-1.1.noarch.rpm"
 RPM_HASH = "e1a6ed8833dfe40e709c9ab9f7400f2426636504aa4d452e87ba855c2f1d04d49608dcaffb728dcc717c4a2267555f03abfc68caace6b4cfe9b0bbfc2155aaea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(streamlink) \
-python3dist(streamlink) \
+RPROVIDES:${PN} += "python3.10dist-streamlink \
+python3dist-streamlink \
 streamlink"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python3-PySocks \
 python3-certifi \
 python3-isodate \

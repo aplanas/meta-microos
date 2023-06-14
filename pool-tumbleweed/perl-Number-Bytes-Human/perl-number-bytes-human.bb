@@ -13,9 +13,9 @@ RPM_NAME = "perl-Number-Bytes-Human-0.11-1.8.noarch.rpm"
 RPM_HASH = "69fb62e00503b6d53ae1b6a26cb00981e08a65fd136bce58308a7062885ba6b67cfc3ba46d8e246b286aea97bb2893805f986aabcc7484b1439320e4ef2b21d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Number::Bytes::Human) \
+RPROVIDES:${PN} += "perl-Number--Bytes--Human \
 perl-Number-Bytes-Human"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

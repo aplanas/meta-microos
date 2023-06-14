@@ -14,10 +14,10 @@ RPM_HASH = "b7eaf344b39783b91f3bee3b5ae4ed73b3ee5e1129e06ebc890db1750748736baa25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.middleware \
-python3.10dist(oslo.middleware) \
-python3dist(oslo.middleware)"
+python3.10dist-oslo.middleware \
+python3dist-oslo.middleware"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-Jinja2 \
 python3-WebOb \
 python3-bcrypt \

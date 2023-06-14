@@ -10,7 +10,7 @@ RPM_NAME = "texlive-intcalc-2023.201.1.3svn53168-52.1.noarch.rpm"
 RPM_HASH = "8afde2dfa59da729acafe6529c7cd3c03c628f85e6e08021a9e3acb5f868f02fdab9aef661a1682290cba254b5bf3d5e11a32b27a22368dc95a9f7d46799da85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(intcalc.sty) \
+RPROVIDES:${PN} += "tex-intcalc.sty \
 texlive-intcalc"
 
 RDEPENDS:${PN} += "/bin/sh \

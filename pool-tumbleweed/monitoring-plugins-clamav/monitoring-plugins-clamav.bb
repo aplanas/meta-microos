@@ -17,7 +17,7 @@ nagios-plugins-clamav"
 RDEPENDS:${PN} += "/usr/bin/perl \
 clamav \
 monitoring-plugins-common \
-perl(File::Basename) \
-perl(Net::DNS)"
+perl-File--Basename \
+perl-Net--DNS"
 
 inherit rpm

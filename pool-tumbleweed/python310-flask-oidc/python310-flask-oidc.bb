@@ -12,13 +12,13 @@ RPM_HASH = "24a023e09138bac6688b5cb804a95c337e0f14ca265dd3da04f63748ab175a0c6301
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flask-oidc \
-python3.10dist(flask-oidc) \
+python3.10dist-flask-oidc \
 python310-flask-oidc \
-python3dist(flask-oidc)"
+python3dist-flask-oidc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Authlib \
 python310-Flask \
 python310-requests \

@@ -17,7 +17,7 @@ RPM_NAME = "texlive-dashrule-2023.204.1.3svn29579-54.1.noarch.rpm"
 RPM_HASH = "4c2add4be87afa81c34141779598624ab7fe48c41416c6155c55973ce1fb0322e55177102ca9d87e0a207bb6b32bd9cfdf55f2ac819b6806d059c4babe705588"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dashrule.sty) \
+RPROVIDES:${PN} += "tex-dashrule.sty \
 texlive-dashrule"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifmtarg.sty) \
+tex-ifmtarg.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

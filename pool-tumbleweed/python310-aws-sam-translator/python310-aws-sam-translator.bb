@@ -10,13 +10,13 @@ RPM_HASH = "69823b136294c8c1f3cbbd0c5611cefaebf35bf71e3c62cc0981f4996d2e54227a7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aws-sam-translator \
-python3.10dist(aws-sam-translator) \
+python3.10dist-aws-sam-translator \
 python310-aws-sam-translator \
-python3dist(aws-sam-translator)"
+python3dist-aws-sam-translator"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-boto3 \
 python310-jsonschema \
 update-alternatives"

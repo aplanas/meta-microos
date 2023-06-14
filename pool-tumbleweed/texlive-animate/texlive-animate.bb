@@ -12,7 +12,7 @@ RPM_NAME = "texlive-animate-2023.201.svn64401-54.1.noarch.rpm"
 RPM_HASH = "35e326a895cffc1017a528e733e1cf0ee90efdb1c3958bd6220dbb50b0cbfc356eb40bb669bb13480c9002cc821c204df6e050320ef4ec79cba46a460cf61548"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(animate.sty) \
+RPROVIDES:${PN} += "tex-animate.sty \
 texlive-animate"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,14 +21,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(graphics.sty) \
-tex(ifdraft.sty) \
-tex(iftex.sty) \
-tex(ifthen.sty) \
-tex(ocgbase.sty) \
-tex(pdfbase.sty) \
-tex(zref-abspage.sty) \
+tex-calc.sty \
+tex-graphics.sty \
+tex-ifdraft.sty \
+tex-iftex.sty \
+tex-ifthen.sty \
+tex-ocgbase.sty \
+tex-pdfbase.sty \
+tex-zref-abspage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

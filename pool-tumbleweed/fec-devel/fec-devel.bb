@@ -13,8 +13,7 @@ RPM_NAME = "fec-devel-3.0.0+git.20160910-5.3.aarch64.rpm"
 RPM_HASH = "9f857ab946d38ae918d951fbdc6c03c1595f96d7f5d7dec5702093bb07f4e2568add199e36d093d4b1bebdcbb5407d3b4117b44e992060030460f96cae937b82"
 
 RPROVIDES:${PN} += "fec-devel \
-fec-devel(aarch-64) \
-pkgconfig(libfec)"
+pkgconfig-libfec"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfec3"

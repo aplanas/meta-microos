@@ -12,21 +12,20 @@ PV = "1.3.2"
 RPM_NAME = "libfm-1.3.2-1.12.aarch64.rpm"
 RPM_HASH = "728d5b2def9f6e8b77bed67c143350cbbea078d358dabd761e816e41dccfec5ca4cbc7b69e2145c9fb81b134229878a8aa8e4e0bd018c5d8f95396ed9939dcaf"
 
-RPROVIDES:${PN} += "config(libfm) \
-libfm \
-libfm(aarch-64)"
+RPROVIDES:${PN} += "config-libfm \
+libfm"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfm-extra.so.4()(64bit) \
-libfm-gtk.so.4()(64bit) \
-libfm.so.4()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libmenu-cache.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfm-extra.so.4 \
+libfm-gtk.so.4 \
+libfm.so.4 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libmenu-cache.so.3"
 
 inherit rpm

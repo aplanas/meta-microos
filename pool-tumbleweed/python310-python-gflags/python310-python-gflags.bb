@@ -19,12 +19,12 @@ RPM_HASH = "ba3ef0148af0ae80ceae35d87a13c873b7ec464fdb4e84ca3759fb04a8833edf0155
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-gflags \
-python3.10dist(python-gflags) \
+python3.10dist-python-gflags \
 python310-python-gflags \
-python3dist(python-gflags)"
+python3dist-python-gflags"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

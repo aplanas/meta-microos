@@ -9,11 +9,11 @@ RPM_HASH = "c111b6e5557cd231db5cd6e02c48f056a3dce6033b18980d52e301b2d32bf10bf6fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openapi-codec \
-python3.10dist(openapi-codec) \
+python3.10dist-openapi-codec \
 python310-openapi-codec \
-python3dist(openapi-codec)"
+python3dist-openapi-codec"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-coreapi"
 
 inherit rpm

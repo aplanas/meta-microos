@@ -15,13 +15,12 @@ RPM_NAME = "libXevie-devel-1.0.3-13.1.aarch64.rpm"
 RPM_HASH = "def908e35010d42cdc004709dcd248d8dbee44b7c2ad128afae66a1a2948290712a5c53a9e66378c2edbf71f5d2ffd319f14a9204c5ddeb6da999b4104a19cae"
 
 RPROVIDES:${PN} += "libXevie-devel \
-libXevie-devel(aarch-64) \
-pkgconfig(xevie)"
+pkgconfig-xevie"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXevie1 \
-pkgconfig(x11) \
-pkgconfig(xext) \
-pkgconfig(xproto)"
+pkgconfig-x11 \
+pkgconfig-xext \
+pkgconfig-xproto"
 
 inherit rpm

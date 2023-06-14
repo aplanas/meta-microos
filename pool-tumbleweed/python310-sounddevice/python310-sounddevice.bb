@@ -10,12 +10,12 @@ RPM_HASH = "dcc04f34283bb832476941388b43313e326d8f2d899d59700abe6e2289bf9612e448
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sounddevice \
-python3.10dist(sounddevice) \
+python3.10dist-sounddevice \
 python310-sounddevice \
-python3dist(sounddevice)"
+python3dist-sounddevice"
 
 RDEPENDS:${PN} += "portaudio \
-python(abi) \
+python-abi \
 python310-cffi"
 
 inherit rpm

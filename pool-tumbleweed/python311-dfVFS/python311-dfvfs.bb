@@ -21,11 +21,11 @@ RPM_NAME = "python311-dfVFS-0~20221224-2.1.noarch.rpm"
 RPM_HASH = "15d44af030da347a4d2de2bcc85407a3d63d96d3ac09fad4743883f8a76fe52bfd94987dbff9e7eca1cc7a0f34cdd3cd1884b3a68161ab1023608dfb97120742"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dfvfs) \
+RPROVIDES:${PN} += "python3.11dist-dfvfs \
 python311-dfVFS \
-python3dist(dfvfs)"
+python3dist-dfvfs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-PyYAML \
 python311-construct \
 python311-cryptography \

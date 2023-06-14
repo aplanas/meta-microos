@@ -9,13 +9,13 @@ RPM_HASH = "f6cb89e803c67cab8b6a45db2e1e6479db1a783eea2aa2cd7bdbd95992d53ecdffa4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-weblib \
-python3.10dist(weblib) \
+python3.10dist-weblib \
 python310-weblib \
-python3dist(weblib)"
+python3dist-weblib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytils \
 python310-six \
-python310-user_agent"
+python310-user-agent"
 
 inherit rpm

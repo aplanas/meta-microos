@@ -10,35 +10,31 @@ PV = "5.1.3"
 RPM_NAME = "libavdevice59-5.1.3-1.2.aarch64.rpm"
 RPM_HASH = "d2b0fceb55876e48187626b9ce78cdb8c2bc6159b3b41e781a33665e5b33fc67926c035c4ef62d54c547f541b160916584790013a1aa87f0890982ac2f90829a"
 
-RPROVIDES:${PN} += "libavdevice.so.59()(64bit) \
-libavdevice59 \
-libavdevice59(aarch-64)"
+RPROVIDES:${PN} += "libavdevice.so.59 \
+libavdevice59"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libasound.so.2()(64bit) \
-libavcodec.so.59()(64bit) \
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libasound.so.2 \
+libavcodec.so.59 \
 libavcodec59 \
-libavfilter.so.8()(64bit) \
+libavfilter.so.8 \
 libavfilter8 \
-libavformat.so.59()(64bit) \
+libavformat.so.59 \
 libavformat59 \
-libavutil.so.57()(64bit) \
+libavutil.so.57 \
 libavutil57 \
-libc.so.6()(64bit) \
-libcdio_cdda.so.2()(64bit) \
-libcdio_cdda.so.2(CDIO_CDDA_2)(64bit) \
-libcdio_paranoia.so.2()(64bit) \
-libcdio_paranoia.so.2(CDIO_PARANOIA_2)(64bit) \
-libdc1394.so.25()(64bit) \
-libdrm.so.2()(64bit) \
-libjack.so.0()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libxcb-shape.so.0()(64bit) \
-libxcb-shm.so.0()(64bit) \
-libxcb-xfixes.so.0()(64bit) \
-libxcb.so.1()(64bit)"
+libc.so.6 \
+libcdio-cdda.so.2 \
+libcdio-paranoia.so.2 \
+libdc1394.so.25 \
+libdrm.so.2 \
+libjack.so.0 \
+libpulse.so.0 \
+libxcb-shape.so.0 \
+libxcb-shm.so.0 \
+libxcb-xfixes.so.0 \
+libxcb.so.1"
 
 inherit rpm

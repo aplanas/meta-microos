@@ -10,42 +10,42 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffutils-lang \
 diffutils-lang-all \
-locale(diffutils:bg) \
-locale(diffutils:ca) \
-locale(diffutils:cs) \
-locale(diffutils:da) \
-locale(diffutils:de) \
-locale(diffutils:el) \
-locale(diffutils:eo) \
-locale(diffutils:es) \
-locale(diffutils:fi) \
-locale(diffutils:fr) \
-locale(diffutils:ga) \
-locale(diffutils:gl) \
-locale(diffutils:he) \
-locale(diffutils:hr) \
-locale(diffutils:hu) \
-locale(diffutils:id) \
-locale(diffutils:it) \
-locale(diffutils:ja) \
-locale(diffutils:ka) \
-locale(diffutils:ko) \
-locale(diffutils:lv) \
-locale(diffutils:ms) \
-locale(diffutils:nb) \
-locale(diffutils:nl) \
-locale(diffutils:pl) \
-locale(diffutils:pt) \
-locale(diffutils:pt_BR) \
-locale(diffutils:ro) \
-locale(diffutils:ru) \
-locale(diffutils:sr) \
-locale(diffutils:sv) \
-locale(diffutils:tr) \
-locale(diffutils:uk) \
-locale(diffutils:vi) \
-locale(diffutils:zh_CN) \
-locale(diffutils:zh_TW)"
+locale-diffutils-bg \
+locale-diffutils-ca \
+locale-diffutils-cs \
+locale-diffutils-da \
+locale-diffutils-de \
+locale-diffutils-el \
+locale-diffutils-eo \
+locale-diffutils-es \
+locale-diffutils-fi \
+locale-diffutils-fr \
+locale-diffutils-ga \
+locale-diffutils-gl \
+locale-diffutils-he \
+locale-diffutils-hr \
+locale-diffutils-hu \
+locale-diffutils-id \
+locale-diffutils-it \
+locale-diffutils-ja \
+locale-diffutils-ka \
+locale-diffutils-ko \
+locale-diffutils-lv \
+locale-diffutils-ms \
+locale-diffutils-nb \
+locale-diffutils-nl \
+locale-diffutils-pl \
+locale-diffutils-pt \
+locale-diffutils-pt-BR \
+locale-diffutils-ro \
+locale-diffutils-ru \
+locale-diffutils-sr \
+locale-diffutils-sv \
+locale-diffutils-tr \
+locale-diffutils-uk \
+locale-diffutils-vi \
+locale-diffutils-zh-CN \
+locale-diffutils-zh-TW"
 
 RDEPENDS:${PN} += "diffutils"
 

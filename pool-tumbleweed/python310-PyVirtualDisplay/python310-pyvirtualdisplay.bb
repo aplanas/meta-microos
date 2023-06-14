@@ -9,11 +9,11 @@ RPM_HASH = "3a41a431de1fb8f06b6cb8a1d000d43a1c94125b39015c6fc2ce08787c377fabb6be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyVirtualDisplay \
-python3.10dist(pyvirtualdisplay) \
+python3.10dist-pyvirtualdisplay \
 python310-PyVirtualDisplay \
-python3dist(pyvirtualdisplay)"
+python3dist-pyvirtualdisplay"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-EasyProcess \
 xorg-x11-Xvfb"
 

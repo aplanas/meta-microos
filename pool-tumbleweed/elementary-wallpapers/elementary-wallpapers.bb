@@ -9,8 +9,6 @@ RPM_HASH = "ac0af2c1d0401d1e00f5334ded63246fe65c92987fea91d032726b7b420f2daa60c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elementary-wallpapers \
-metainfo() \
-metainfo(io.elementary.wallpapers.appdata.xml) \
 pantheon-wallpapers"
 
 RDEPENDS:${PN} += ""

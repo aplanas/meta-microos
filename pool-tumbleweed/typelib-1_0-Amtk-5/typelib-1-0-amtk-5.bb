@@ -11,23 +11,22 @@ PV = "5.6.1"
 RPM_NAME = "typelib-1_0-Amtk-5-5.6.1-1.1.aarch64.rpm"
 RPM_HASH = "f47345e333bf3c061593f3d4a0ac5c7087a7f5ec31d17f8184fbb34a0b28a66240dec0b9587b08c7a34fcba421d0cc7c5b3506266f868e2c9cc5f8d788778854"
 
-RPROVIDES:${PN} += "typelib(Amtk) \
-typelib-1_0-Amtk-5 \
-typelib-1_0-Amtk-5(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Amtk-5 \
+typelib-Amtk"
 
-RDEPENDS:${PN} += "libamtk-5.so.0()(64bit) \
-typelib(Atk) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(HarfBuzz) \
-typelib(Pango) \
-typelib(cairo) \
-typelib(freetype2) \
-typelib(xlib)"
+RDEPENDS:${PN} += "libamtk-5.so.0 \
+typelib-Atk \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-HarfBuzz \
+typelib-Pango \
+typelib-cairo \
+typelib-freetype2 \
+typelib-xlib"
 
 inherit rpm

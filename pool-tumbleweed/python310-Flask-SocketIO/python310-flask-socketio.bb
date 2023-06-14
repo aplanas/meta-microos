@@ -9,11 +9,11 @@ RPM_HASH = "7d275bf2c9318ba6d9c4351caf3b0fce18cb8cabdb33eacae65023a9809636c15241
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-SocketIO \
-python3.10dist(flask-socketio) \
+python3.10dist-flask-socketio \
 python310-Flask-SocketIO \
-python3dist(flask-socketio)"
+python3dist-flask-socketio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-python-socketio"
 

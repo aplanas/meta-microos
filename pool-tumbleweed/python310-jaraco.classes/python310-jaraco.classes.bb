@@ -9,11 +9,11 @@ RPM_HASH = "bc00b71f25a965a90e187173fcbaa4c6e5339da98c477e63cc808e8d8f04e596fc22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.classes \
-python3.10dist(jaraco.classes) \
+python3.10dist-jaraco.classes \
 python310-jaraco.classes \
-python3dist(jaraco.classes)"
+python3dist-jaraco.classes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-more-itertools"
 
 inherit rpm

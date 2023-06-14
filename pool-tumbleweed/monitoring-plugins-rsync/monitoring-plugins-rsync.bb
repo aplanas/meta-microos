@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "monitoring-plugins-rsync \
 nagios-plugins-rsync"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Getopt::Long) \
+perl-Getopt--Long \
 rsync"
 
 inherit rpm

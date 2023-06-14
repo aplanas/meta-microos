@@ -12,16 +12,15 @@ PV = "3.44.0"
 RPM_NAME = "libjsonrpc-glib-1_0-1-3.44.0-1.1.aarch64.rpm"
 RPM_HASH = "22178cbb8236075254cbda23885d7eabec9dacf8a638961880619124dcbf3f15e932149ff6ac743693a3c9414833a9ec4edcef035c3fb93be094edd9afdb3060"
 
-RPROVIDES:${PN} += "libjsonrpc-glib-1.0.so.1()(64bit) \
-libjsonrpc-glib-1_0-1 \
-libjsonrpc-glib-1_0-1(aarch-64)"
+RPROVIDES:${PN} += "libjsonrpc-glib-1-0-1 \
+libjsonrpc-glib-1.0.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjson-glib-1.0.so.0"
 
 inherit rpm

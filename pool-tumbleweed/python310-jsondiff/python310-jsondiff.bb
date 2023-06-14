@@ -9,13 +9,13 @@ RPM_HASH = "1df1cc47581ebc258b61c927de953b590cde4195759d132d39b5581ec6f379e7270c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsondiff \
-python3.10dist(jsondiff) \
+python3.10dist-jsondiff \
 python310-jsondiff \
-python3dist(jsondiff)"
+python3dist-jsondiff"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

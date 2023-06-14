@@ -12,7 +12,7 @@ RPM_NAME = "texlive-darkmode-2023.204.1.0.1svn64271-54.1.noarch.rpm"
 RPM_HASH = "1b94cfee5b83cea83378e4ea1ffdd086418221d9f7a53376419be2ee7ce0b4ecce4a438cd4f1a8bf1f083defd27d0b8e6f2bf6ecc6a27d7f966d4c6110639d9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(darkmode.sty) \
+RPROVIDES:${PN} += "tex-darkmode.sty \
 texlive-darkmode"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,10 +21,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(l3keys2e.sty) \
-tex(pagecolor.sty) \
-tex(xcolor.sty) \
+tex-expl3.sty \
+tex-l3keys2e.sty \
+tex-pagecolor.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

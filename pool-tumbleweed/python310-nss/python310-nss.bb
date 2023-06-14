@@ -12,17 +12,16 @@ RPM_NAME = "python310-nss-1.0.1-4.8.aarch64.rpm"
 RPM_HASH = "2a89d212e279526c3a4cc6430e437eda6970dbcec3b2e46f92ef269f4444c0e677ee2387d7ad495769a511c540d68e0e445e9ac5b209626dd393b3755d1763b2"
 
 RPROVIDES:${PN} += "python3-nss \
-python3.10dist(python-nss) \
+python3.10dist-python-nss \
 python310-nss \
-python310-nss(aarch-64) \
-python3dist(python-nss)"
+python3dist-python-nss"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libsmime3.so()(64bit) \
-libssl3.so()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnspr4.so \
+libnss3.so \
+libsmime3.so \
+libssl3.so \
+python-abi"
 
 inherit rpm

@@ -14,10 +14,9 @@ PV = "0.12.6"
 RPM_NAME = "libeditorconfig-devel-0.12.6-1.1.aarch64.rpm"
 RPM_HASH = "14125f71e8de699b2727c3a78a8ec4dd09286c3591fec12823ff535e1b033c3e327b64befc93b016d2b5f1f6e20bb24a2af36788c2035e3546c8491117fee416"
 
-RPROVIDES:${PN} += "cmake(EditorConfig) \
+RPROVIDES:${PN} += "cmake-EditorConfig \
 libeditorconfig-devel \
-libeditorconfig-devel(aarch-64) \
-pkgconfig(editorconfig)"
+pkgconfig-editorconfig"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libeditorconfig0"

@@ -10,20 +10,18 @@ PV = "0.4.44"
 RPM_NAME = "libgegl-0_4-0-0.4.44-1.2.aarch64.rpm"
 RPM_HASH = "17a3c175791d94f8ca265c5fffb1a2b24502f6f43b33c82d59aca912523d59e126b8eab494037a16e4eaca880e80d8dc0dc5906285435d19176b25e7208385bc"
 
-RPROVIDES:${PN} += "libgegl-0.4.so.0()(64bit) \
-libgegl-0_4-0 \
-libgegl-0_4-0(aarch-64)"
+RPROVIDES:${PN} += "libgegl-0-4-0 \
+libgegl-0.4.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-gegl-0_4 \
-ld-linux-aarch64.so.1()(64bit) \
-libbabl-0.1.so.0()(64bit) \
-libbabl-0.1.so.0(V0_1_0)(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit)"
+gegl-0-4 \
+ld-linux-aarch64.so.1 \
+libbabl-0.1.so.0 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6"
 
 inherit rpm

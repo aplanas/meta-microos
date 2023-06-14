@@ -17,12 +17,12 @@ RPM_NAME = "perl-Package-Variant-1.003002-1.25.noarch.rpm"
 RPM_HASH = "1861cf250f39d75fe8671ab3160028a2998d38da2eda615d0e69cb5ec971f0b80e366cd3b544159d6a4e40213a6e2ffeac437efb1be2ae539484616e00fbd3a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Package::Variant) \
+RPROVIDES:${PN} += "perl-Package--Variant \
 perl-Package-Variant"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Import::Into) \
-perl(Module::Runtime) \
-perl(strictures)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Import--Into \
+perl-Module--Runtime \
+perl-strictures"
 
 inherit rpm

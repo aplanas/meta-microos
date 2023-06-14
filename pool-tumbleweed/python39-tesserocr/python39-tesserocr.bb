@@ -13,19 +13,18 @@ PV = "2.6.0"
 RPM_NAME = "python39-tesserocr-2.6.0-1.4.aarch64.rpm"
 RPM_HASH = "76eceab5e1be012d2e92c9b5a04c2127c87dd81e78466c5b15af5af6bf285d83fe675e706d72a37cd522d30dab04827f35454fafe6122f12dbf0ce94040d6856"
 
-RPROVIDES:${PN} += "python3.9dist(tesserocr) \
+RPROVIDES:${PN} += "python3.9dist-tesserocr \
 python39-tesserocr \
-python39-tesserocr(aarch-64) \
-python3dist(tesserocr)"
+python3dist-tesserocr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleptonica.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtesseract.so.5.3.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleptonica.so.6 \
+libstdc++.so.6 \
+libtesseract.so.5.3.0 \
+python-abi \
 tesseract-ocr-traineddata-english \
-tesseract-ocr-traineddata-orientation_and_script_detection"
+tesseract-ocr-traineddata-orientation-and-script-detection"
 
 inherit rpm

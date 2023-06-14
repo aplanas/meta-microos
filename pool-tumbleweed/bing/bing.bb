@@ -9,11 +9,10 @@ PV = "1.0.5"
 RPM_NAME = "bing-1.0.5-162.18.aarch64.rpm"
 RPM_HASH = "1a921d3f3f2a84f2aedde3519287327953b9d33c77a12ccc1bf24db93bccddb490a36c07b51149ff655d46d569a5272c08005404b2507506fdd75215b38096ca"
 
-RPROVIDES:${PN} += "bing \
-bing(aarch-64)"
+RPROVIDES:${PN} += "bing"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 permissions"
 
 inherit rpm

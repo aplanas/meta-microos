@@ -17,11 +17,11 @@ RPM_NAME = "python311-pytest-attrib-0.1.3-3.33.noarch.rpm"
 RPM_HASH = "dfb3a02eff5afa1f296a99ccc7884e5638773d5dd0fe8d67fd854d5ac34a6b81a26ab47f3858ca96416db99b09f85314240abe8e5fea776be93bd2938ab2da26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-attrib) \
+RPROVIDES:${PN} += "python3.11dist-pytest-attrib \
 python311-pytest-attrib \
-python3dist(pytest-attrib)"
+python3dist-pytest-attrib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pytest"
 
 inherit rpm

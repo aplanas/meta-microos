@@ -12,26 +12,18 @@ PV = "1.4.4"
 RPM_NAME = "quimup-1.4.4-1.24.aarch64.rpm"
 RPM_HASH = "db58d31a0cffbcd7af788f0b0d10f968a35dd652e53d3413a98e92145b1fc5ef6cd5c2ea28eb776e3b6d4f85478cf620a1627863257e12e9ea59bb1eaa1fc91e"
 
-RPROVIDES:${PN} += "application() \
-application(quimup.desktop) \
-quimup \
-quimup(aarch-64)"
+RPROVIDES:${PN} += "quimup"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpdclient.so.2()(64bit) \
-libmpdclient.so.2(libmpdclient2)(64bit) \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpdclient.so.2 \
+libstdc++.so.6 \
+libtag.so.1 \
 mpd"
 
 inherit rpm

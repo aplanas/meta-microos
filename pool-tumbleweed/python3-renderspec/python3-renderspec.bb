@@ -11,11 +11,11 @@ RPM_HASH = "08e5c4d36690823f401fd344edcc048b608dd334fe9d24c268fdede03ccbffe4a083
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-renderspec \
-python3.10dist(renderspec) \
-python3dist(renderspec)"
+python3.10dist-renderspec \
+python3dist-renderspec"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-PyYAML \
 python3-packaging \

@@ -11,12 +11,11 @@ RPM_NAME = "wbxml2-tools-0.11.8-1.2.aarch64.rpm"
 RPM_HASH = "869d25ad44c2a3d6cedb6c5cb49921712572570455b1a5bf192d3afe44d4abab9a60d5e8981961ea1eb634914a343b4639ae54e831a6e2696044bbcf33bcf7e5"
 
 RPROVIDES:${PN} += "wbxml2 \
-wbxml2-tools \
-wbxml2-tools(aarch-64)"
+wbxml2-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libwbxml2-1 \
-libwbxml2.so.1()(64bit)"
+libwbxml2.so.1"
 
 inherit rpm

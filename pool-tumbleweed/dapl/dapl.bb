@@ -10,20 +10,19 @@ PV = "2.1.10"
 RPM_NAME = "dapl-2.1.10-5.1.aarch64.rpm"
 RPM_HASH = "74915ad7c43c522bd58528e3c03778c647f262b61d30779591e2cb7ed3beb3fe4e00f05a595f70d1174ee6666548840c2790a05831b79a23322da3a1ff4ee900"
 
-RPROVIDES:${PN} += "config(dapl) \
+RPROVIDES:${PN} += "config-dapl \
 dapl \
-dapl(aarch-64) \
-libdaplofa.so.2()(64bit) \
-libdaploscm.so.2()(64bit) \
-libdaploucm.so.2()(64bit)"
+libdaplofa.so.2 \
+libdaploscm.so.2 \
+libdaploucm.so.2"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libibverbs.so.1()(64bit) \
-librdmacm.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libibverbs.so.1 \
+librdmacm.so.1 \
 sed"
 
 inherit rpm

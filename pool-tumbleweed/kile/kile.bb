@@ -27,59 +27,46 @@ PV = "2.9.93"
 RPM_NAME = "kile-2.9.93-2.21.aarch64.rpm"
 RPM_HASH = "0e8a002a31851b4912168e3c3f02668576c59d81115bf48fc86f6d75495022afccac0f51fd441fc8678e7e2c6b17f4d8af89e057b02d4e6b22c671f264ebeb15"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.kile.desktop) \
-kile \
-kile(aarch-64) \
+RPROVIDES:${PN} += "kile \
 kile5 \
-libkdeinit5_kile.so()(64bit) \
-metainfo() \
-metainfo(org.kde.kile.appdata.xml) \
-mimehandler(text/x-kilepr) \
-mimehandler(text/x-tex)"
+libkdeinit5-kile.so"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 konsole-part \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Codecs.so.5()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5GuiAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5JobWidgets.so.5()(64bit) \
-libKF5KHtml.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOFileWidgets.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5TextEditor.so.5()(64bit) \
-libKF5TextWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Script.so.5()(64bit) \
-libQt5Script.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpoppler-qt5.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5Codecs.so.5 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5GuiAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5IconThemes.so.5 \
+libKF5JobWidgets.so.5 \
+libKF5KHtml.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOFileWidgets.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5Parts.so.5 \
+libKF5Service.so.5 \
+libKF5TextEditor.so.5 \
+libKF5TextWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5WindowSystem.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Script.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpoppler-qt5.so.1 \
+libstdc++.so.6 \
 okular \
 shared-mime-info \
 texlive-context \

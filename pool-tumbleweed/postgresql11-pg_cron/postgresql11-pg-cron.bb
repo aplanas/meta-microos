@@ -10,14 +10,13 @@ PV = "1.5.2"
 RPM_NAME = "postgresql11-pg_cron-1.5.2-1.2.aarch64.rpm"
 RPM_HASH = "bd876ebc7c4a8925e97dd0848d955d6f7ed777d5f0e25d2edc871d89e6a406545144ffe60f95cab23095c70f96d01c4f6b9ff9a8a8ef9492f0f3da8b0ce8946b"
 
-RPROVIDES:${PN} += "postgresql11-pg_cron \
-postgresql11-pg_cron(aarch-64) \
-postgresql11-pg_cron-llvmjit"
+RPROVIDES:${PN} += "postgresql11-pg-cron \
+postgresql11-pg-cron-llvmjit"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpq.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpq.so.5 \
 postgresql11-server"
 
 inherit rpm

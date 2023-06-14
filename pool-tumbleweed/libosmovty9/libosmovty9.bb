@@ -11,14 +11,13 @@ PV = "1.8.0"
 RPM_NAME = "libosmovty9-1.8.0-1.1.aarch64.rpm"
 RPM_HASH = "efd570a435f16ae451a5c3edddbf894ddff20344fbc70bb696c54015511e51cdcb5d148f118b8fad7bffecf1659570bba751889e7bdae6217c3ee1114422f70d"
 
-RPROVIDES:${PN} += "libosmovty.so.9()(64bit) \
-libosmovty9 \
-libosmovty9(aarch-64)"
+RPROVIDES:${PN} += "libosmovty.so.9 \
+libosmovty9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmocore.so.20()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmocore.so.20 \
+libtalloc.so.2"
 
 inherit rpm

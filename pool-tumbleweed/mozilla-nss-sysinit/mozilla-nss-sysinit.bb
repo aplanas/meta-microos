@@ -10,19 +10,18 @@ PV = "3.89"
 RPM_NAME = "mozilla-nss-sysinit-3.89-2.1.aarch64.rpm"
 RPM_HASH = "b16062b65e00bdac6ad6c2129cfbf2989312510ef409994b546213d34395291f9a23e30f6212393f41f08b93bef3bd3ff2ac3c0df70b88ac6374901295ee7db9"
 
-RPROVIDES:${PN} += "config(mozilla-nss-sysinit) \
-libnsssysinit.so()(64bit) \
-mozilla-nss-sysinit \
-mozilla-nss-sysinit(aarch-64)"
+RPROVIDES:${PN} += "config-mozilla-nss-sysinit \
+libnsssysinit.so \
+mozilla-nss-sysinit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnspr4.so()(64bit) \
-libnssutil3.so()(64bit) \
-libplc4.so()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnspr4.so \
+libnssutil3.so \
+libplc4.so \
 mozilla-nss"
 
 inherit rpm

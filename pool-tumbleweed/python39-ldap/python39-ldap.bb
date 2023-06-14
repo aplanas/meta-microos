@@ -10,17 +10,16 @@ PV = "3.4.3"
 RPM_NAME = "python39-ldap-3.4.3-1.5.aarch64.rpm"
 RPM_HASH = "d9cdc636498f28e2ab75b755a5ef8e0951aa69dcfa64807cacc9ed6c9ec284e6238ec2e32b93f9d90cee5fd66ab7a6db67d3e35fad3d6de221cdee0c51a9d7f2"
 
-RPROVIDES:${PN} += "python3.9dist(python-ldap) \
+RPROVIDES:${PN} += "python3.9dist-python-ldap \
 python39-ldap \
-python39-ldap(aarch-64) \
-python3dist(python-ldap)"
+python3dist-python-ldap"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblber.so.2 \
+libldap.so.2 \
+python-abi \
 python39-pyasn1 \
 python39-pyasn1-modules"
 

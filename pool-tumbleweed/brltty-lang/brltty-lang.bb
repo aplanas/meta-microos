@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brltty-lang \
 brltty-lang-all \
-locale(brltty:ar) \
-locale(brltty:de) \
-locale(brltty:fr) \
-locale(brltty:it) \
-locale(brltty:ru) \
-locale(brltty:zh)"
+locale-brltty-ar \
+locale-brltty-de \
+locale-brltty-fr \
+locale-brltty-it \
+locale-brltty-ru \
+locale-brltty-zh"
 
 RDEPENDS:${PN} += "brltty"
 

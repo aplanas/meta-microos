@@ -13,7 +13,7 @@ RPM_NAME = "texlive-spelling-2023.201.0.0.41svn30715-57.1.noarch.rpm"
 RPM_HASH = "3298ee7317d0b5251a63fa13db3eca51860232838f36772a19e6e480c63d20fff9355680d40548c4baeabaebf381d459c31a5e4d1dbe5ad751c65b2bba440300"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(spelling.sty) \
+RPROVIDES:${PN} += "tex-spelling.sty \
 texlive-spelling"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,11 +23,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(atbegshi.sty) \
-tex(ifluatex.sty) \
-tex(luatexbase-attr.sty) \
-tex(luatexbase-mcb.sty) \
-tex(luatexbase-modutils.sty) \
+tex-atbegshi.sty \
+tex-ifluatex.sty \
+tex-luatexbase-attr.sty \
+tex-luatexbase-mcb.sty \
+tex-luatexbase-modutils.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

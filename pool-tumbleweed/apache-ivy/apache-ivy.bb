@@ -14,11 +14,11 @@ RPM_HASH = "e2c7dc2063a33bcb13f672a2cadbb9f7ac8e5ca436652b28cda8aabfb37af7d0fc25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-ivy \
-config(apache-ivy) \
+config-apache-ivy \
 ivy \
-mvn(org.apache.ivy:ivy) \
-mvn(org.apache.ivy:ivy:pom:) \
-osgi(org.apache.ivy)"
+mvn-org.apache.ivy-ivy \
+mvn-org.apache.ivy-ivy-pom- \
+osgi-org.apache.ivy"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \

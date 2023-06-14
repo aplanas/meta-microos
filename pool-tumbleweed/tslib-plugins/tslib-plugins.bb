@@ -12,11 +12,10 @@ PV = "1.22"
 RPM_NAME = "tslib-plugins-1.22-1.9.aarch64.rpm"
 RPM_HASH = "fddf4e39ba955f8b624b20196cc3ab5fed3fcf0ba78fb79b5893ccac98d60f2fa473f23c3ac0397f9241f080ceb7e55f148aab554cea3d81f2317818b67d6196"
 
-RPROVIDES:${PN} += "tslib-plugins \
-tslib-plugins(aarch-64)"
+RPROVIDES:${PN} += "tslib-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libts.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libts.so.0"
 
 inherit rpm

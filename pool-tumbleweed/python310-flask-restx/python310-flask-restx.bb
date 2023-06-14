@@ -13,11 +13,11 @@ RPM_HASH = "2b4180a0eec36361786af0706c9bedb9a70c476bf18e7cb3a00adc166a7eeed2917f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flask-restx \
-python3.10dist(flask-restx) \
+python3.10dist-flask-restx \
 python310-flask-restx \
-python3dist(flask-restx)"
+python3dist-flask-restx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-aniso8601 \
 python310-jsonschema \

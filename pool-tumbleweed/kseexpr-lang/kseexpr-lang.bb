@@ -10,29 +10,29 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kseexpr-lang \
 kseexpr-lang-all \
-locale(kseexpr:ca) \
-locale(kseexpr:ca@valencia) \
-locale(kseexpr:cs) \
-locale(kseexpr:de) \
-locale(kseexpr:en_GB) \
-locale(kseexpr:es) \
-locale(kseexpr:fr) \
-locale(kseexpr:it) \
-locale(kseexpr:ja) \
-locale(kseexpr:ko) \
-locale(kseexpr:lt) \
-locale(kseexpr:nl) \
-locale(kseexpr:nn) \
-locale(kseexpr:pl) \
-locale(kseexpr:pt) \
-locale(kseexpr:pt_BR) \
-locale(kseexpr:ru) \
-locale(kseexpr:sk) \
-locale(kseexpr:sl) \
-locale(kseexpr:sv) \
-locale(kseexpr:uk) \
-locale(kseexpr:zh_CN) \
-locale(kseexpr:zh_TW)"
+locale-kseexpr-ca \
+locale-kseexpr-ca@valencia \
+locale-kseexpr-cs \
+locale-kseexpr-de \
+locale-kseexpr-en-GB \
+locale-kseexpr-es \
+locale-kseexpr-fr \
+locale-kseexpr-it \
+locale-kseexpr-ja \
+locale-kseexpr-ko \
+locale-kseexpr-lt \
+locale-kseexpr-nl \
+locale-kseexpr-nn \
+locale-kseexpr-pl \
+locale-kseexpr-pt \
+locale-kseexpr-pt-BR \
+locale-kseexpr-ru \
+locale-kseexpr-sk \
+locale-kseexpr-sl \
+locale-kseexpr-sv \
+locale-kseexpr-uk \
+locale-kseexpr-zh-CN \
+locale-kseexpr-zh-TW"
 
 RDEPENDS:${PN} += "kseexpr"
 

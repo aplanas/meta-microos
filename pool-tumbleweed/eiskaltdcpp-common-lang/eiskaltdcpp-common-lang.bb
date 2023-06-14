@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiskaltdcpp-common-lang \
 eiskaltdcpp-common-lang-all \
-locale(eiskaltdcpp-common:be) \
-locale(eiskaltdcpp-common:bg) \
-locale(eiskaltdcpp-common:cs) \
-locale(eiskaltdcpp-common:da) \
-locale(eiskaltdcpp-common:de) \
-locale(eiskaltdcpp-common:el) \
-locale(eiskaltdcpp-common:en) \
-locale(eiskaltdcpp-common:es) \
-locale(eiskaltdcpp-common:eu) \
-locale(eiskaltdcpp-common:fr) \
-locale(eiskaltdcpp-common:hu) \
-locale(eiskaltdcpp-common:it) \
-locale(eiskaltdcpp-common:pl) \
-locale(eiskaltdcpp-common:pt_BR) \
-locale(eiskaltdcpp-common:ru) \
-locale(eiskaltdcpp-common:sk) \
-locale(eiskaltdcpp-common:sr) \
-locale(eiskaltdcpp-common:sr@latin) \
-locale(eiskaltdcpp-common:tr) \
-locale(eiskaltdcpp-common:uk) \
-locale(eiskaltdcpp-common:vi) \
-locale(eiskaltdcpp-common:zh_CN)"
+locale-eiskaltdcpp-common-be \
+locale-eiskaltdcpp-common-bg \
+locale-eiskaltdcpp-common-cs \
+locale-eiskaltdcpp-common-da \
+locale-eiskaltdcpp-common-de \
+locale-eiskaltdcpp-common-el \
+locale-eiskaltdcpp-common-en \
+locale-eiskaltdcpp-common-es \
+locale-eiskaltdcpp-common-eu \
+locale-eiskaltdcpp-common-fr \
+locale-eiskaltdcpp-common-hu \
+locale-eiskaltdcpp-common-it \
+locale-eiskaltdcpp-common-pl \
+locale-eiskaltdcpp-common-pt-BR \
+locale-eiskaltdcpp-common-ru \
+locale-eiskaltdcpp-common-sk \
+locale-eiskaltdcpp-common-sr \
+locale-eiskaltdcpp-common-sr@latin \
+locale-eiskaltdcpp-common-tr \
+locale-eiskaltdcpp-common-uk \
+locale-eiskaltdcpp-common-vi \
+locale-eiskaltdcpp-common-zh-CN"
 
 RDEPENDS:${PN} += "eiskaltdcpp-common"
 

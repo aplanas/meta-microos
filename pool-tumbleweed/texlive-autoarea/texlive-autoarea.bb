@@ -12,7 +12,7 @@ RPM_NAME = "texlive-autoarea-2023.201.0.0.3asvn59552-53.1.noarch.rpm"
 RPM_HASH = "6e2d721a72be4d149994619fdb8c2e72821db2bba4c6849c45b72e594b9d97b9eef86f2829ae70abcc62ce99e518291abe3d05fa99d57a0bb71d87f7933211d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(autoarea.sty) \
+RPROVIDES:${PN} += "tex-autoarea.sty \
 texlive-autoarea"
 
 RDEPENDS:${PN} += "/bin/sh \

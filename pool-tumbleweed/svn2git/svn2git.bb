@@ -8,21 +8,19 @@ PV = "1.0.16"
 RPM_NAME = "svn2git-1.0.16-1.21.aarch64.rpm"
 RPM_HASH = "2daf2857bbc9124864a4e9de5cb4e840ebf63440cf6c6c9dc3167b350f26d3c414f392a4e7ab285ba5eadb4aaa09a6987770dec9d23eff7093937b48cb0fdbd3"
 
-RPROVIDES:${PN} += "svn2git \
-svn2git(aarch-64)"
+RPROVIDES:${PN} += "svn2git"
 
 RDEPENDS:${PN} += "git \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libapr-1.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libsvn_fs-1.so.0()(64bit) \
-libsvn_repos-1.so.0()(64bit) \
-libsvn_subr-1.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libapr-1.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libsvn-fs-1.so.0 \
+libsvn-repos-1.so.0 \
+libsvn-subr-1.so.0 \
 subversion"
 
 inherit rpm

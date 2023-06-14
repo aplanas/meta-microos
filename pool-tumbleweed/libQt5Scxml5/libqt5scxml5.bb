@@ -14,19 +14,15 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt5Scxml5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "479496b66eebd673ce372f8558cd1e988c222f1645ef4b9c4ff923544683fa5c239da9e220a450fb9dbd93eb823f590497aac0c7317e94f5062735df1d12c574"
 
-RPROVIDES:${PN} += "libQt5Scxml.so.5()(64bit) \
-libQt5Scxml.so.5(Qt_5)(64bit) \
-libQt5Scxml5 \
-libQt5Scxml5(aarch-64)"
+RPROVIDES:${PN} += "libQt5Scxml.so.5 \
+libQt5Scxml5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Qml.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

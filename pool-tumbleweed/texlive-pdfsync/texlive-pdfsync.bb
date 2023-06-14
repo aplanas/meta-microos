@@ -11,7 +11,7 @@ RPM_NAME = "texlive-pdfsync-2023.201.svn20373-51.1.noarch.rpm"
 RPM_HASH = "17e2558600203e428a624d2d7dbfac67538ae39dc66a7715d9aa466646b2df82aec03802fb94c8f6ee098e48763d6664bf1063439a19d270a16d3529c2c5e292"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfsync.sty) \
+RPROVIDES:${PN} += "tex-pdfsync.sty \
 texlive-pdfsync"
 
 RDEPENDS:${PN} += "/bin/sh \

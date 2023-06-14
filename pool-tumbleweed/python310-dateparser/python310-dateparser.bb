@@ -9,13 +9,13 @@ RPM_HASH = "2c796c051c4f3e5dab2b2d03411ec79104a549f14c0a81c9ae915a38a19a46320eca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dateparser \
-python3.10dist(dateparser) \
+python3.10dist-dateparser \
 python310-dateparser \
-python3dist(dateparser)"
+python3dist-dateparser"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-python-dateutil \
 python310-pytz \
 python310-regex \

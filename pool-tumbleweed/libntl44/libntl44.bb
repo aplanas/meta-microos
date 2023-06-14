@@ -9,17 +9,16 @@ PV = "11.5.1"
 RPM_NAME = "libntl44-11.5.1-1.8.aarch64.rpm"
 RPM_HASH = "97ac800d52135f3e75f5827487979bff8b4cc5da3857223cb6f9c79cdff3d7663839e081b621484abf95222830a1b86fc1fc6e4b8ebf8912abcb26ab49c1b376"
 
-RPROVIDES:${PN} += "libntl.so.44()(64bit) \
-libntl44 \
-libntl44(aarch-64)"
+RPROVIDES:${PN} += "libntl.so.44 \
+libntl44"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgf2x.so.3()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgf2x.so.3 \
+libgmp.so.10 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

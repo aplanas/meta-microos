@@ -13,7 +13,7 @@ RPM_HASH = "233d30de9e4667baa723203a70a2d9eae2afeb2da1cc7ec4c6a86d8eb7fa2091bf7c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp-devel \
-pkgconfig(dbus-sharp-1.0)"
+pkgconfig-dbus-sharp-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-sharp"

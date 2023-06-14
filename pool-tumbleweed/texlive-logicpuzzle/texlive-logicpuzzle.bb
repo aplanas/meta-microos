@@ -32,8 +32,8 @@ RPM_NAME = "texlive-logicpuzzle-2023.201.2.5svn34491-54.1.noarch.rpm"
 RPM_HASH = "b50976c6c8138ec2d61624f8c7c97cd03dd80b6e013dd182cbac6148bad42e1388e6710cc49120c1a687676234074ed96c40cf2de01103ac50b6dc56654fab91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(logicpuzzle.sty) \
-tex(lpenv.sty) \
+RPROVIDES:${PN} += "tex-logicpuzzle.sty \
+tex-lpenv.sty \
 texlive-logicpuzzle"
 
 RDEPENDS:${PN} += "/bin/bash \
@@ -43,11 +43,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(marginnote.sty) \
-tex(ragged2e.sty) \
-tex(tikz.sty) \
-tex(xkeyval.sty) \
+tex-ifthen.sty \
+tex-marginnote.sty \
+tex-ragged2e.sty \
+tex-tikz.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

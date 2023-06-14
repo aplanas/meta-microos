@@ -41,13 +41,13 @@ RPM_NAME = "python39-scspell3k-2.2-4.13.noarch.rpm"
 RPM_HASH = "22bd5dee094593d532d6bad4ae924a9db1da8523f99d9eae7a5ea2329304430b295181b52d0f96780524541dfa465133ecd2bac1f8954c485766b6f8daccc256"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(scspell3k) \
+RPROVIDES:${PN} += "python3.9dist-scspell3k \
 python39-scspell3k \
-python3dist(scspell3k)"
+python3dist-scspell3k"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

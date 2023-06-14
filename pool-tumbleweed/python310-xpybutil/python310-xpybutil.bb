@@ -9,11 +9,11 @@ RPM_HASH = "2f5bcea16b124ab404eabffeca88986848cc8551a3dac34a9cf6832cbd7e0f422b7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xpybutil \
-python3.10dist(xpybutil) \
+python3.10dist-xpybutil \
 python310-xpybutil \
-python3dist(xpybutil)"
+python3dist-xpybutil"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-xcffib"
 
 inherit rpm

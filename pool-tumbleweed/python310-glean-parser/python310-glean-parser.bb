@@ -9,13 +9,13 @@ RPM_HASH = "549ef11c25601c3cd092f2a7012a2f49eb061db38bfda04fd72a0bbc8979d247fc79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-glean-parser \
-python3.10dist(glean-parser) \
+python3.10dist-glean-parser \
 python310-glean-parser \
-python3dist(glean-parser)"
+python3dist-glean-parser"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-MarkupSafe \
 python310-PyYAML \

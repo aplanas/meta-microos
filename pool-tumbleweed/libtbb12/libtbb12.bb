@@ -12,16 +12,15 @@ PV = "2021.8.0"
 RPM_NAME = "libtbb12-2021.8.0-1.5.aarch64.rpm"
 RPM_HASH = "19b3b5a2362401039a50cb2b61c76e598efb9d4b8b1524c906e512419608506dc46edb96e2b515df681b7a05002d23bf73d95953cf419f977b0bc3396193e5e6"
 
-RPROVIDES:${PN} += "libtbb.so.12()(64bit) \
+RPROVIDES:${PN} += "libtbb.so.12 \
 libtbb12 \
-libtbb12(aarch-64) \
 tbb"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

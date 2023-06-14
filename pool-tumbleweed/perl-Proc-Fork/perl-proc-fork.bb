@@ -31,10 +31,10 @@ RPM_NAME = "perl-Proc-Fork-0.808-1.2.noarch.rpm"
 RPM_HASH = "3a5e904edc370f48db8381c972cef30c787d1a603d50359cefc6c7201aa7844970e001c3538d0c9c9b4f2651148d7949de5994115c509105a1a6c8033c418944"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Proc::Fork) \
+RPROVIDES:${PN} += "perl-Proc--Fork \
 perl-Proc-Fork"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exporter::Tidy)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exporter--Tidy"
 
 inherit rpm

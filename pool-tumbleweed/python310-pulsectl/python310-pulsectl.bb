@@ -12,12 +12,12 @@ RPM_HASH = "8dae99e49e1e7154d3ae9b067e3764b6152b8d4041c24cd04493843c3dba58451100
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pulsectl \
-python3.10dist(pulsectl) \
+python3.10dist-pulsectl \
 python310-pulsectl \
-python3dist(pulsectl)"
+python3dist-pulsectl"
 
 RDEPENDS:${PN} += "pulseaudio-daemon \
-python(abi) \
+python-abi \
 python310-setuptools"
 
 inherit rpm

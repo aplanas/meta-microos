@@ -14,13 +14,12 @@ PV = "1.17.8"
 RPM_NAME = "libcairo-gobject2-1.17.8-1.1.aarch64.rpm"
 RPM_HASH = "8d719606cfb635b2f113cb29051e582c2ce84f6093e7b22e865afeaa01a112619b16daceb5e342cdb7fe06cc512ef3da762e55499e4dc8af461c3f4f29f85626"
 
-RPROVIDES:${PN} += "libcairo-gobject.so.2()(64bit) \
-libcairo-gobject2 \
-libcairo-gobject2(aarch-64)"
+RPROVIDES:${PN} += "libcairo-gobject.so.2 \
+libcairo-gobject2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libcairo.so.2()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+libcairo.so.2 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

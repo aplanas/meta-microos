@@ -7,18 +7,17 @@ PV = "2.1.18"
 RPM_NAME = "python39-cchardet-2.1.18-1.4.aarch64.rpm"
 RPM_HASH = "7c00456fa2066bb75fd82438d27b7537d21d3c6b42dce4191e83fdc0dbc918192b19bbeac43585ac9cbb86697876d6bd6a6ba277888a46776cf8fa243e089d9c"
 
-RPROVIDES:${PN} += "python3.9dist(faust-cchardet) \
+RPROVIDES:${PN} += "python3.9dist-faust-cchardet \
 python39-cchardet \
-python39-cchardet(aarch-64) \
-python3dist(faust-cchardet)"
+python3dist-faust-cchardet"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 update-alternatives"
 
 inherit rpm

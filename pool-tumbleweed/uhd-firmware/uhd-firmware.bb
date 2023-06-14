@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uhd-firmware"
 
-RDEPENDS:${PN} += "libuhd4_4_0"
+RDEPENDS:${PN} += "libuhd4-4-0"
 
 inherit rpm

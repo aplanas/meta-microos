@@ -9,8 +9,8 @@ RPM_HASH = "a47dc5cd53a26ef30fa788bdf2e4622ff74085e893d5a372cab80d4f9e5242c913ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archetype-packaging \
-mvn(org.apache.maven.archetype:archetype-packaging) \
-mvn(org.apache.maven.archetype:archetype-packaging:pom:)"
+mvn-org.apache.maven.archetype-archetype-packaging \
+mvn-org.apache.maven.archetype-archetype-packaging-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

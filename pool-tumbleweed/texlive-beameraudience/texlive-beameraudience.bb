@@ -11,7 +11,7 @@ RPM_NAME = "texlive-beameraudience-2023.201.0.0.1svn23427-53.1.noarch.rpm"
 RPM_HASH = "31166ae4d1df5d710e1419ae99ba5cadfe84d478dea7b0000c155e7e8c2ccc297fa02d3bbc85810e0d2245b9aaf59c385d6552249fb5a26d0df18cdabefd3e91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beameraudience.sty) \
+RPROVIDES:${PN} += "tex-beameraudience.sty \
 texlive-beameraudience"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,9 +20,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(cprotect.sty) \
-tex(ifthen.sty) \
-tex(kvoptions.sty) \
+tex-cprotect.sty \
+tex-ifthen.sty \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

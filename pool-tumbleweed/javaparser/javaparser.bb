@@ -11,21 +11,21 @@ RPM_HASH = "ef8b93583c996c3a0662133e57207a1de9427931aca618b3ebfc0a23e7e4d102b381
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaparser \
-mvn(com.github.javaparser:javaparser-core) \
-mvn(com.github.javaparser:javaparser-core:pom:) \
-mvn(com.github.javaparser:javaparser-parent:pom:) \
-mvn(com.github.javaparser:javaparser-symbol-solver-core) \
-mvn(com.github.javaparser:javaparser-symbol-solver-core:pom:) \
-mvn(com.github.javaparser:javaparser-symbol-solver-testing) \
-mvn(com.github.javaparser:javaparser-symbol-solver-testing:pom:) \
-mvn(com.google.code.javaparser:javaparser) \
-mvn(com.google.code.javaparser:javaparser:pom:) \
-osgi(com.github.javaparser.javaparser-core)"
+mvn-com.github.javaparser-javaparser-core \
+mvn-com.github.javaparser-javaparser-core-pom- \
+mvn-com.github.javaparser-javaparser-parent-pom- \
+mvn-com.github.javaparser-javaparser-symbol-solver-core \
+mvn-com.github.javaparser-javaparser-symbol-solver-core-pom- \
+mvn-com.github.javaparser-javaparser-symbol-solver-testing \
+mvn-com.github.javaparser-javaparser-symbol-solver-testing-pom- \
+mvn-com.google.code.javaparser-javaparser \
+mvn-com.google.code.javaparser-javaparser-pom- \
+osgi-com.github.javaparser.javaparser-core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.guava:guava) \
-mvn(org.checkerframework:checker-qual) \
-mvn(org.javassist:javassist)"
+mvn-com.google.guava-guava \
+mvn-org.checkerframework-checker-qual \
+mvn-org.javassist-javassist"
 
 inherit rpm

@@ -8,8 +8,7 @@ RPM_NAME = "dpdk-tools-22.11.1-2.4.aarch64.rpm"
 RPM_HASH = "174a429cc7e8864386828706de494c531101c7daa3111b22a611f885b5f35dbac97027dab586db3e7f12a3601ea743302cb916a3fc867d5b7436188d6e36e183"
 
 RPROVIDES:${PN} += "dpdk-any-tools \
-dpdk-tools \
-dpdk-tools(aarch-64)"
+dpdk-tools"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dpdk \

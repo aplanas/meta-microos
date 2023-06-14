@@ -12,17 +12,16 @@ RPM_NAME = "cntlm-0.92.3-11.7.aarch64.rpm"
 RPM_HASH = "733a7958aad985177ecc19b5d1d66da45e21920cf12bcaa992c91e49a06474455a0404fc9c68090d35daf80b65f4072d5acfb26113287185bce85115c154153c"
 
 RPROVIDES:${PN} += "cntlm \
-cntlm(aarch-64) \
-config(cntlm)"
+config-cntlm"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
 grep \
-group(nogroup) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+group-nogroup \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 pwdutils \
 systemd"
 

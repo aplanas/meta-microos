@@ -16,11 +16,11 @@ RPM_NAME = "python311-pytest-astropy-0.10.0-1.5.noarch.rpm"
 RPM_HASH = "50fb5fe8b9b9322009d04963d390f6fe402020ffbb8e87202bc6b1b4d744342ff351a8faf19c71a663aab63215a479cb3c0e11f4a37af870fbda08a40bcdf10f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-astropy) \
+RPROVIDES:${PN} += "python3.11dist-pytest-astropy \
 python311-pytest-astropy \
-python3dist(pytest-astropy)"
+python3dist-pytest-astropy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-attrs \
 python311-hypothesis \
 python311-pytest \

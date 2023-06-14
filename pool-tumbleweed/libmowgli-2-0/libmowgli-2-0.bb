@@ -15,13 +15,12 @@ RPM_NAME = "libmowgli-2-0-2.1.3-2.12.aarch64.rpm"
 RPM_HASH = "5bb80d43032d2ef008128cb5ee9d80941c58a87df7b986e6e591a9f050f84ad750b596bae58cdc2c6689902ac2330ee24bab9313924a4321302109fad52ba51c"
 
 RPROVIDES:${PN} += "libmowgli-2-0 \
-libmowgli-2-0(aarch-64) \
-libmowgli-2.so.0()(64bit)"
+libmowgli-2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

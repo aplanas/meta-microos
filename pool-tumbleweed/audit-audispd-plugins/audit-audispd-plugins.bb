@@ -9,14 +9,13 @@ RPM_NAME = "audit-audispd-plugins-3.0.9-1.3.aarch64.rpm"
 RPM_HASH = "6776d165f1a0e04d052c3c1a3a919970b3859e4c92606d58cf23a5d723c32ae787910c036f6c5f0b4ac34fe5d9548c024defd74942a6e128e0e1b44c8b4d6adc"
 
 RPROVIDES:${PN} += "audit-audispd-plugins \
-audit-audispd-plugins(aarch-64) \
-config(audit-audispd-plugins)"
+config-audit-audispd-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libauparse.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcap-ng.so.0()(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libauparse.so.0 \
+libc.so.6 \
+libcap-ng.so.0 \
+liblber.so.2 \
+libldap.so.2"
 
 inherit rpm

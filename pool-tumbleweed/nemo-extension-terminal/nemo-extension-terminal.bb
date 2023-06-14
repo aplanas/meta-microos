@@ -13,22 +13,22 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-terminal \
 nemo-terminal \
-python3.10dist(nemo-terminal) \
-python3dist(nemo-terminal)"
+python3.10dist-nemo-terminal \
+python3dist-nemo-terminal"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
-python(abi) \
+python-abi \
 python3-gobject \
 python3-gobject-Gdk \
 python3-nemo \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Nemo) \
-typelib(Vte) \
-typelib(XApp)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-Nemo \
+typelib-Vte \
+typelib-XApp"
 
 inherit rpm

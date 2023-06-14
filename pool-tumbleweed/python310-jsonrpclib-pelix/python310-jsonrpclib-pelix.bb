@@ -9,10 +9,10 @@ RPM_HASH = "edeaecd8117f86210bde7df22e4892dfb9aec5be629362aa8400f6f1a0d8dd4f1cf1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonrpclib-pelix \
-python3.10dist(jsonrpclib-pelix) \
+python3.10dist-jsonrpclib-pelix \
 python310-jsonrpclib-pelix \
-python3dist(jsonrpclib-pelix)"
+python3dist-jsonrpclib-pelix"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

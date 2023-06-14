@@ -53,15 +53,15 @@ RPM_NAME = "perl-Contextual-Return-0.004014-1.23.noarch.rpm"
 RPM_HASH = "d98dfa7d20cb7cb8c4a258b6fa6ea955ba8870e30a59a5012b2daa20d1dfda1879f889b9f483aafa9b63ca18539dc694575720bf5a5914e6862bcebbd297e2af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Contextual::Return) \
-perl(Contextual::Return::Failure) \
-perl(Contextual::Return::Lvalue) \
-perl(Contextual::Return::Value) \
-perl(DB) \
-perl-Contextual-Return"
+RPROVIDES:${PN} += "perl-Contextual--Return \
+perl-Contextual--Return--Failure \
+perl-Contextual--Return--Lvalue \
+perl-Contextual--Return--Value \
+perl-Contextual-Return \
+perl-DB"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Want) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Want \
+perl-version"
 
 inherit rpm

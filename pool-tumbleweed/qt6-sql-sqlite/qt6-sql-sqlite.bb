@@ -12,19 +12,15 @@ PV = "6.5.1"
 RPM_NAME = "qt6-sql-sqlite-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "0c09b5d853b58673354012dbbbccf0ac6f7097f45b20f0169b9e90589bf1d62a7f4ff9ce1c93d9d1e425badaf95940c076941793971a7479cdffb100db6fd227"
 
-RPROVIDES:${PN} += "libqsqlite.so()(64bit) \
-libqsqlite.so(Qt_6)(64bit) \
-qt6-sql-sqlite \
-qt6-sql-sqlite(aarch-64)"
+RPROVIDES:${PN} += "libqsqlite.so \
+qt6-sql-sqlite"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Sql.so.6()(64bit) \
-libQt6Sql.so.6(Qt_6)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Sql.so.6 \
 libQt6Sql6 \
-libc.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libsqlite3.so.0 \
+libstdc++.so.6"
 
 inherit rpm

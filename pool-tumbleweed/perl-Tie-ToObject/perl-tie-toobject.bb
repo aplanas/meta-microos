@@ -20,10 +20,10 @@ RPM_NAME = "perl-Tie-ToObject-0.03-13.26.noarch.rpm"
 RPM_HASH = "ef54a37b5afff197a46942c3a7613b160c1b44fd950440543c89067a6f58f69bcb1d017ffbcc0b9a5abd564d75d82ea449f89f05693d3bd732acedced09b55f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tie::ToObject) \
+RPROVIDES:${PN} += "perl-Tie--ToObject \
 perl-Tie-ToObject"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Test::use::ok)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Test--use--ok"
 
 inherit rpm

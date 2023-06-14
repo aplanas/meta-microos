@@ -19,18 +19,17 @@ PV = "7.1.1.11"
 RPM_NAME = "libMagick++-7_Q16HDRI5-7.1.1.11-1.1.aarch64.rpm"
 RPM_HASH = "0e6b220dcecde40b1707ea595cbccfc71c22c9e34e2747ba7ad9654c2c7710bb5259342ee172d81107664bff8fe23398bde5cc04debea8d5e9000d39e1479c00"
 
-RPROVIDES:${PN} += "libMagick++-7.Q16HDRI.so.5()(64bit) \
-libMagick++-7_Q16HDRI5 \
-libMagick++-7_Q16HDRI5(aarch-64)"
+RPROVIDES:${PN} += "libMagick++-7-Q16HDRI5 \
+libMagick++-7.Q16HDRI.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ImageMagick \
-ld-linux-aarch64.so.1()(64bit) \
-libMagickCore-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libMagickCore-7.Q16HDRI.so.10 \
+libMagickWand-7.Q16HDRI.so.10 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

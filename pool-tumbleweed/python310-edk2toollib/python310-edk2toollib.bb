@@ -9,11 +9,11 @@ RPM_HASH = "a29f3e86922ea6dab762bdfabcf76c66edcb5ccdaaca95b65d27d577aae3d0ce4595
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-edk2toollib \
-python3.10dist(edk2-pytool-library) \
+python3.10dist-edk2-pytool-library \
 python310-edk2toollib \
-python3dist(edk2-pytool-library)"
+python3dist-edk2-pytool-library"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi)"
+python-abi"
 
 inherit rpm

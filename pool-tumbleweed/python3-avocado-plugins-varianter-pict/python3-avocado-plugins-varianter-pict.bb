@@ -10,10 +10,10 @@ RPM_HASH = "0ffb2edd3776ce785d4e483c3da69569e9df3e362dc234cdb419503e2403d23c7740
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-varianter-pict \
-python3.10dist(avocado-framework-plugin-varianter-pict) \
-python3dist(avocado-framework-plugin-varianter-pict)"
+python3.10dist-avocado-framework-plugin-varianter-pict \
+python3dist-avocado-framework-plugin-varianter-pict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-avocado"
 
 inherit rpm

@@ -10,17 +10,17 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-3d-devel"
 
-RDEPENDS:${PN} += "cmake(Qt63DAnimation) \
-cmake(Qt63DCore) \
-cmake(Qt63DExtras) \
-cmake(Qt63DInput) \
-cmake(Qt63DLogic) \
-cmake(Qt63DQuick) \
-cmake(Qt63DQuickAnimation) \
-cmake(Qt63DQuickExtras) \
-cmake(Qt63DQuickInput) \
-cmake(Qt63DQuickRender) \
-cmake(Qt63DQuickScene2D) \
-cmake(Qt63DRender)"
+RDEPENDS:${PN} += "cmake-Qt63DAnimation \
+cmake-Qt63DCore \
+cmake-Qt63DExtras \
+cmake-Qt63DInput \
+cmake-Qt63DLogic \
+cmake-Qt63DQuick \
+cmake-Qt63DQuickAnimation \
+cmake-Qt63DQuickExtras \
+cmake-Qt63DQuickInput \
+cmake-Qt63DQuickRender \
+cmake-Qt63DQuickScene2D \
+cmake-Qt63DRender"
 
 inherit rpm

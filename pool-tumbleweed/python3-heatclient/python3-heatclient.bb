@@ -11,11 +11,11 @@ RPM_HASH = "3a1b5ca5c9e0a93e560205456a5a8c7e0dbbca2e1163f56a4c995843871effbb8212
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-heatclient \
-python3.10dist(python-heatclient) \
-python3dist(python-heatclient)"
+python3.10dist-python-heatclient \
+python3dist-python-heatclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-PrettyTable \
 python3-PyYAML \

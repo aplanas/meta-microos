@@ -8,14 +8,13 @@ PV = "4.2.3"
 RPM_NAME = "yp-tools-4.2.3-3.11.aarch64.rpm"
 RPM_HASH = "dad28a9a51cd8d3e10809cc8249e117ea1297e65a1cd065ed3f88877553581a32fe22c9006c1462df0f03a74676a30c47cbc9dd5b37533ad0de2fd8925fe2659"
 
-RPROVIDES:${PN} += "yp-tools \
-yp-tools(aarch-64)"
+RPROVIDES:${PN} += "yp-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libnsl.so.3()(64bit) \
-libtirpc.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libnsl.so.3 \
+libtirpc.so.3"
 
 inherit rpm

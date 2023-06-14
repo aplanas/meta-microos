@@ -7,26 +7,21 @@ PV = "5.15.9+kde55"
 RPM_NAME = "libQt5WaylandClient5-5.15.9+kde55-1.1.aarch64.rpm"
 RPM_HASH = "3efdfee2d788392fd8dd7a383de40487cb6f49a8524185ca1220ba377bec7b4df4f2b26dd0c1b593ded915fc5665e9267eab63d7ad71caa3b897f31ea877b512"
 
-RPROVIDES:${PN} += "libQt5WaylandClient.so.5()(64bit) \
-libQt5WaylandClient.so.5(Qt_5)(64bit) \
-libQt5WaylandClient5 \
-libQt5WaylandClient5(aarch-64)"
+RPROVIDES:${PN} += "libQt5WaylandClient.so.5 \
+libQt5WaylandClient5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-cursor.so.0()(64bit) \
-libxkbcommon.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libglib-2.0.so.0 \
+libstdc++.so.6 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0 \
+libxkbcommon.so.0"
 
 inherit rpm

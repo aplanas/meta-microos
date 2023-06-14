@@ -9,16 +9,15 @@ PV = "0.3.0"
 RPM_NAME = "hyprpaper-0.3.0-1.1.aarch64.rpm"
 RPM_HASH = "93150bd07e6d3419a336588da7b3204272c5fe4b1dc12407f8508f7518b7a8069ce696dd10b1ef9a61bf8a3f71477969184ee9b051f89e519b94296d29d307fa"
 
-RPROVIDES:${PN} += "hyprpaper \
-hyprpaper(aarch-64)"
+RPROVIDES:${PN} += "hyprpaper"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-cursor.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libstdc++.so.6 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0"
 
 inherit rpm

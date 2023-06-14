@@ -10,13 +10,13 @@ RPM_HASH = "ee59c3689100be19f804f153073f0a0a1736d7fe52629c65ec16fc53fc52b57b51db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-netpbmfile \
-python3.10dist(netpbmfile) \
+python3.10dist-netpbmfile \
 python310-netpbmfile \
-python3dist(netpbmfile)"
+python3dist-netpbmfile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-matplotlib \
 python310-numpy \
 update-alternatives"

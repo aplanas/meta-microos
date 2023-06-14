@@ -15,21 +15,18 @@ RPM_NAME = "leechcraft-azoth-modnok-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm
 RPM_HASH = "a85f19fa9ea80eca18bcea16fe80b3ce7aefec589a316940b87fb78e62900e703400adb0af71d8d058ea7a4a26e1bacabd948a09258687f08d59924c6a37e7bd"
 
 RPROVIDES:${PN} += "leechcraft-azoth-modnok \
-leechcraft-azoth-modnok(aarch-64) \
-libleechcraft_azoth_modnok.so()(64bit)"
+libleechcraft-azoth-modnok.so"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sys-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-xsd-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-xsd-qt5.so.0.6.75.2 \
+libstdc++.so.6"
 
 inherit rpm

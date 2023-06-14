@@ -15,7 +15,7 @@ RPM_NAME = "texlive-bashful-2023.201.0.0.93svn25597-53.1.noarch.rpm"
 RPM_HASH = "d0541f884a1d43435451b807b8bef115fdcbfaaf8900b87b35760a3b85befa90333a0b65696fc42df2b7b32f7f3ac88fc8eb2658e8a349f1471215d13a7e035f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bashful.sty) \
+RPROVIDES:${PN} += "tex-bashful.sty \
 texlive-bashful"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,11 +24,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(catchfile.sty) \
-tex(listings.sty) \
-tex(textcomp.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-catchfile.sty \
+tex-listings.sty \
+tex-textcomp.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -8,27 +8,23 @@ PV = "2.9.0"
 RPM_NAME = "sssd-krb5-common-2.9.0-1.1.aarch64.rpm"
 RPM_HASH = "88895ee04dfb177eb16612399d096195cbd5226b08da255d4f75c3eff05c9310989d768bf2149c60f481e54ea431d51a550a46babc6a65d39dc6906b0100c6fe"
 
-RPROVIDES:${PN} += "libsss_krb5_common.so()(64bit) \
-sssd-krb5-common \
-sssd-krb5-common(aarch-64)"
+RPROVIDES:${PN} += "libsss-krb5-common.so \
+sssd-krb5-common"
 
 RDEPENDS:${PN} += "cyrus-sasl-gssapi \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdhash.so.1()(64bit) \
-libjansson.so.4()(64bit) \
-libkeyutils.so.1()(64bit) \
-libkrb5.so.3()(64bit) \
-libkrb5.so.3(krb5_3_MIT)(64bit) \
-libldb.so.2()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libsss_child.so()(64bit) \
-libsss_debug.so()(64bit) \
-libsss_util.so()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libtalloc.so.2()(64bit) \
-libtevent.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdhash.so.1 \
+libjansson.so.4 \
+libkeyutils.so.1 \
+libkrb5.so.3 \
+libldb.so.2 \
+libpopt.so.0 \
+libsss-child.so \
+libsss-debug.so \
+libsss-util.so \
+libsystemd.so.0 \
+libtalloc.so.2 \
+libtevent.so.0"
 
 inherit rpm

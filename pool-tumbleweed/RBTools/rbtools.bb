@@ -22,11 +22,11 @@ RPM_HASH = "c2450e2b16ab733b4dce90a857ec1e96f1e6d37d5ccadc93b0589c4324c9a9dce238
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "RBTools \
-python3.10dist(rbtools) \
-python3dist(rbtools)"
+python3.10dist-rbtools \
+python3dist-rbtools"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-colorama \
 python3-setuptools \
 python3-six \

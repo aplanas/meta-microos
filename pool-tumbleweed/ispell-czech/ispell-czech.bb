@@ -12,9 +12,8 @@ RPM_HASH = "792e82a26c8b5df5a37bae534e9ae8fb60cfd2a7796bd5d459b75db854e2dbb6c2a7
 
 RPROVIDES:${PN} += "iczech \
 ispell-czech \
-ispell-czech(aarch-64) \
-ispell_dictionary \
-locale(ispell:cs;sk)"
+ispell-dictionary \
+locale-ispell-cs;sk"
 
 RDEPENDS:${PN} += ""
 

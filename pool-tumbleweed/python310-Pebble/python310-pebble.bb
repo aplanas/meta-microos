@@ -10,10 +10,10 @@ RPM_HASH = "e159efb63a587ee7d76400986e2b87f74b7481c4a2f5fdf9bebee34cfbea93e0b323
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pebble \
-python3.10dist(pebble) \
+python3.10dist-pebble \
 python310-Pebble \
-python3dist(pebble)"
+python3dist-pebble"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

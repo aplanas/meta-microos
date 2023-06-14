@@ -20,11 +20,11 @@ RPM_HASH = "ca1839cb744b2521ff784f6340f2e8dd4001481c0c9581e575fc7004a37f3fb40722
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyeapi \
-python3.10dist(pyeapi) \
+python3.10dist-pyeapi \
 python310-pyeapi \
-python3dist(pyeapi)"
+python3dist-pyeapi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-netaddr"
 
 inherit rpm

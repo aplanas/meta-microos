@@ -14,11 +14,11 @@ RPM_NAME = "texlive-cbcoptic-2023.201.0.0.2svn16666-52.1.noarch.rpm"
 RPM_HASH = "969143534772261e2c302c0f5a5e71f816106baac5a2ea0f97013adc146a028bf611d0bdeb2c2c15cf0b7eedb6b4c8e73ed0212a7600a382090863963c40e60f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(copti.tfm) \
-tex(coptic.sty) \
-tex(copto.tfm) \
-tex(lcopcoptic.fd) \
-tex(prnthyph.sty) \
+RPROVIDES:${PN} += "tex-copti.tfm \
+tex-coptic.sty \
+tex-copto.tfm \
+tex-lcopcoptic.fd \
+tex-prnthyph.sty \
 texlive-cbcoptic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(textcomp.sty) \
+tex-textcomp.sty \
 texlive \
 texlive-cbcoptic-fonts \
 texlive-filesystem \

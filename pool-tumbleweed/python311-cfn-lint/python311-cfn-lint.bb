@@ -11,15 +11,15 @@ RPM_HASH = "29e5fa83eb1b11e0bdf0c96d6e274405a36aa005ab7fe50d0a80b0e904d0574fd0a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfn-lint \
-python3.11dist(cfn-lint) \
+python3.11dist-cfn-lint \
 python311-cfn-lint \
-python3dist(cfn-lint)"
+python3dist-cfn-lint"
 
-RDEPENDS:${PN} += "(python311-jsonschema > 3.0 with python311-jsonschema < 5) \
+RDEPENDS:${PN} += "-python311-jsonschema > 3.0 with python311-jsonschema < 5 \
 /bin/sh \
 /usr/bin/python3.11 \
 git-core \
-python(abi) \
+python-abi \
 python311-PyYAML \
 python311-aws-sam-translator \
 python311-jschema-to-python \

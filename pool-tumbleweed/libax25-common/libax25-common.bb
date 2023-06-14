@@ -12,7 +12,7 @@ RPM_NAME = "libax25-common-0.0.12~rc5-1.9.noarch.rpm"
 RPM_HASH = "7e303f30b6c1d4f2bc18a46ce33e7d0af87067806167a41ee1d60c6cf58062b02cc9bdfba9b8aeb0fe283c16f0eaf5bb57bab174f600cb4a3c1a2a405981f718"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(libax25-common) \
+RPROVIDES:${PN} += "config-libax25-common \
 libax25-common"
 
 RDEPENDS:${PN} += ""

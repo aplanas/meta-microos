@@ -15,13 +15,12 @@ PV = "1.3"
 RPM_NAME = "libdotconf0-1.3-16.8.aarch64.rpm"
 RPM_HASH = "43cb409cb32f38ddf85c803d2c2d6b0db7cb79012ba6f33a842bbf4f515fdee781eecb090772e726f9a7a0ad7ecf93f1174439a971ccb4dd170d533c44671971"
 
-RPROVIDES:${PN} += "libdotconf-1_0-0 \
-libdotconf.so.0()(64bit) \
-libdotconf0 \
-libdotconf0(aarch-64)"
+RPROVIDES:${PN} += "libdotconf-1-0-0 \
+libdotconf.so.0 \
+libdotconf0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

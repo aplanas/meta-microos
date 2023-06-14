@@ -10,9 +10,9 @@ RPM_HASH = "50a9a9a3629551aefa8645033c834e508628870d31fa8bb82327a0c132050d26f465
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checker-qual \
-mvn(org.checkerframework:checker-qual) \
-mvn(org.checkerframework:checker-qual:pom:) \
-osgi(checker-qual)"
+mvn-org.checkerframework-checker-qual \
+mvn-org.checkerframework-checker-qual-pom- \
+osgi-checker-qual"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

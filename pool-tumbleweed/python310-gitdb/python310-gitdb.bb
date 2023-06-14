@@ -9,13 +9,12 @@ RPM_HASH = "0be98e929b54cce19401ac70f92d0eaff5d93d7b083b07531185efdfcf519abad24a
 
 RPROVIDES:${PN} += "python3-gitdb \
 python3-gitdb2 \
-python3.10dist(gitdb) \
+python3.10dist-gitdb \
 python310-gitdb \
-python310-gitdb(aarch-64) \
 python310-gitdb2 \
-python3dist(gitdb)"
+python3dist-gitdb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-smmap"
 
 inherit rpm

@@ -17,16 +17,16 @@ RPM_HASH = "c9d5d7eb204c2e000c4945eca8ad4e3f4f7e28191d91f3e29fd019055d5b4dbbf56c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-invocations \
-python3.10dist(invocations) \
+python3.10dist-invocations \
 python310-invocations \
-python3dist(invocations)"
+python3dist-invocations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-blessings \
 python310-invoke \
 python310-lexicon \
 python310-releases \
-python310-semantic_version \
+python310-semantic-version \
 python310-six \
 python310-tabulate \
 python310-tqdm \

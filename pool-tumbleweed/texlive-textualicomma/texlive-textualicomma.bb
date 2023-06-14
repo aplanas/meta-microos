@@ -12,7 +12,7 @@ RPM_NAME = "texlive-textualicomma-2023.201.1.1svn48474-54.1.noarch.rpm"
 RPM_HASH = "a35ae36f69e8235b5d6473023be0c9f07c688c9db4db01da822ae60c7a4d98ba2edaca46e59b895d1e8a6fc6fd0793c4b73dae47025cf61a99103374d70096fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(textualicomma.sty) \
+RPROVIDES:${PN} += "tex-textualicomma.sty \
 texlive-textualicomma"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(amstext.sty) \
+tex-amstext.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,11 +9,11 @@ RPM_HASH = "4e10075f690d1741aea3afb627f58c0e260047b254bc1a136c87e1c20c00f67a663d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-click \
-python3.10dist(pytest-click) \
+python3.10dist-pytest-click \
 python310-pytest-click \
-python3dist(pytest-click)"
+python3dist-pytest-click"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-click \
 python310-pytest"
 

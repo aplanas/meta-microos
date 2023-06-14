@@ -22,8 +22,8 @@ RPM_NAME = "texlive-psfragx-2023.201.1.1svn26243-52.1.noarch.rpm"
 RPM_HASH = "c6595ced1f6a67ba47ea75c2150ad6295ca88a4326708895789e8501070fca443644eaa904e7cd8c5e1e526720cd2c26ee2a60dfab7ff62dd3ba310d9bb8c564"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(psfragx.cfg) \
-tex(psfragx.sty) \
+RPROVIDES:${PN} += "tex-psfragx.cfg \
+tex-psfragx.sty \
 texlive-psfragx"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -32,9 +32,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphicx.sty) \
-tex(overpic.sty) \
-tex(psfrag.sty) \
+tex-graphicx.sty \
+tex-overpic.sty \
+tex-psfrag.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

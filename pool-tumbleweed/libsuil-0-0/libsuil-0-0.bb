@@ -18,11 +18,10 @@ RPM_NAME = "libsuil-0-0-0.10.18-1.1.aarch64.rpm"
 RPM_HASH = "d01e96ca6accf5cd32ca4e70160590c56311e59c4c8ebc8b2b45c28346dd8afdc8758f79411a82a88c6d2f8a72371568865bb0a5a5f4659db8e1581b1e8f4600"
 
 RPROVIDES:${PN} += "libsuil-0-0 \
-libsuil-0-0(aarch-64) \
-libsuil-0.so.0()(64bit)"
+libsuil-0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

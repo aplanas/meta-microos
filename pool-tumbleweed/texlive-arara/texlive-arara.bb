@@ -12,7 +12,7 @@ RPM_NAME = "texlive-arara-2023.201.7.0.4svn63760-54.1.noarch.rpm"
 RPM_HASH = "d2abe872eabe20d14ca7ebf05352f9e91afa347acb84643b71adea8a7009b51b208c16740130217c656ff1f15cd70f8b09777d7c0d1d757eb9898a69e498359f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arara.jar) \
+RPROVIDES:${PN} += "tex-arara.jar \
 texlive-arara"
 
 RDEPENDS:${PN} += "/bin/sh \

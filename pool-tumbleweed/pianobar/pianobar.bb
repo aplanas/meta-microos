@@ -14,18 +14,17 @@ PV = "2022.04.01"
 RPM_NAME = "pianobar-2022.04.01-1.5.aarch64.rpm"
 RPM_HASH = "182a4054bbcdfe799a3c7c3e9a332cb2c91a4508ca5d380771f9773a459a1b343bdff2a28c84820230d83a058cf8848205eb150b7010a4adb2fc0c80c5b1840e"
 
-RPROVIDES:${PN} += "pianobar \
-pianobar(aarch-64)"
+RPROVIDES:${PN} += "pianobar"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libao.so.4()(64bit) \
-libavcodec.so.60()(64bit) \
-libavfilter.so.9()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcrypt.so.20()(64bit) \
-libjson-c.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libao.so.4 \
+libavcodec.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libcurl.so.4 \
+libgcrypt.so.20 \
+libjson-c.so.5"
 
 inherit rpm

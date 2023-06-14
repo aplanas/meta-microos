@@ -10,41 +10,41 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "almanah-lang \
 almanah-lang-all \
-locale(almanah:ar) \
-locale(almanah:bs) \
-locale(almanah:ca) \
-locale(almanah:cs) \
-locale(almanah:da) \
-locale(almanah:de) \
-locale(almanah:el) \
-locale(almanah:en_GB) \
-locale(almanah:eo) \
-locale(almanah:es) \
-locale(almanah:eu) \
-locale(almanah:fi) \
-locale(almanah:fr) \
-locale(almanah:fur) \
-locale(almanah:gl) \
-locale(almanah:hu) \
-locale(almanah:id) \
-locale(almanah:lv) \
-locale(almanah:ms) \
-locale(almanah:nb) \
-locale(almanah:nl) \
-locale(almanah:oc) \
-locale(almanah:pl) \
-locale(almanah:pt) \
-locale(almanah:pt_BR) \
-locale(almanah:ro) \
-locale(almanah:ru) \
-locale(almanah:sl) \
-locale(almanah:sr) \
-locale(almanah:sr@latin) \
-locale(almanah:sv) \
-locale(almanah:th) \
-locale(almanah:tr) \
-locale(almanah:uk) \
-locale(almanah:zh_CN)"
+locale-almanah-ar \
+locale-almanah-bs \
+locale-almanah-ca \
+locale-almanah-cs \
+locale-almanah-da \
+locale-almanah-de \
+locale-almanah-el \
+locale-almanah-en-GB \
+locale-almanah-eo \
+locale-almanah-es \
+locale-almanah-eu \
+locale-almanah-fi \
+locale-almanah-fr \
+locale-almanah-fur \
+locale-almanah-gl \
+locale-almanah-hu \
+locale-almanah-id \
+locale-almanah-lv \
+locale-almanah-ms \
+locale-almanah-nb \
+locale-almanah-nl \
+locale-almanah-oc \
+locale-almanah-pl \
+locale-almanah-pt \
+locale-almanah-pt-BR \
+locale-almanah-ro \
+locale-almanah-ru \
+locale-almanah-sl \
+locale-almanah-sr \
+locale-almanah-sr@latin \
+locale-almanah-sv \
+locale-almanah-th \
+locale-almanah-tr \
+locale-almanah-uk \
+locale-almanah-zh-CN"
 
 RDEPENDS:${PN} += "almanah"
 

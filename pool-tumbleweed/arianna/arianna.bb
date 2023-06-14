@@ -9,49 +9,33 @@ PV = "1.0.1"
 RPM_NAME = "arianna-1.0.1-1.1.aarch64.rpm"
 RPM_HASH = "109a078892a9a0b76629f33f54e20092e5067dd5eb4d17124ee067daf84af870a1f154b3af58485df5c7d4995d9e92e0c5430b282a4e7307ddacb47807de0032"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.arianna.desktop) \
-arianna \
-arianna(aarch-64) \
-metainfo() \
-metainfo(org.kde.arianna.appdata.xml) \
-mimehandler(application/epub+zip)"
+RPROVIDES:${PN} += "arianna"
 
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Archive.so.5()(64bit) \
-libKF5Baloo.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5FileMetaData.so.3()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5Archive.so.5 \
+libKF5Baloo.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5FileMetaData.so.3 \
+libKF5I18n.so.5 \
+libKF5WindowSystem.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5QuickControls2.so.5 \
+libQt5Sql.so.5 \
 libQt5Sql5-sqlite \
-libQt5WebEngine.so.5()(64bit) \
-libQt5WebEngine.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
+libQt5WebEngine.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

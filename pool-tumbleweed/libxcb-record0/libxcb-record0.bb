@@ -12,13 +12,12 @@ PV = "1.15"
 RPM_NAME = "libxcb-record0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "265fb241f19e0ee65b2b9a979c489d0aff4b36d674282d5eeda6dd678c76dddede44ef4b561316352a04d1e9a5eb52a0ffd533aad4f50aaac649931499952043"
 
-RPROVIDES:${PN} += "libxcb-record.so.0()(64bit) \
-libxcb-record0 \
-libxcb-record0(aarch-64)"
+RPROVIDES:${PN} += "libxcb-record.so.0 \
+libxcb-record0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

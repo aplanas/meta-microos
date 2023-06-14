@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "entangle-lang \
 entangle-lang-all \
-locale(entangle:bg) \
-locale(entangle:ca) \
-locale(entangle:cs) \
-locale(entangle:de) \
-locale(entangle:en_GB) \
-locale(entangle:es) \
-locale(entangle:eu) \
-locale(entangle:fa) \
-locale(entangle:fr) \
-locale(entangle:he) \
-locale(entangle:hu) \
-locale(entangle:it) \
-locale(entangle:ja) \
-locale(entangle:nb_NO) \
-locale(entangle:nl) \
-locale(entangle:pl) \
-locale(entangle:pt_BR) \
-locale(entangle:sv) \
-locale(entangle:tr) \
-locale(entangle:uk) \
-locale(entangle:zh_CN) \
-locale(entangle:zh_TW)"
+locale-entangle-bg \
+locale-entangle-ca \
+locale-entangle-cs \
+locale-entangle-de \
+locale-entangle-en-GB \
+locale-entangle-es \
+locale-entangle-eu \
+locale-entangle-fa \
+locale-entangle-fr \
+locale-entangle-he \
+locale-entangle-hu \
+locale-entangle-it \
+locale-entangle-ja \
+locale-entangle-nb-NO \
+locale-entangle-nl \
+locale-entangle-pl \
+locale-entangle-pt-BR \
+locale-entangle-sv \
+locale-entangle-tr \
+locale-entangle-uk \
+locale-entangle-zh-CN \
+locale-entangle-zh-TW"
 
 RDEPENDS:${PN} += "entangle"
 

@@ -24,10 +24,10 @@ RPM_NAME = "hsqldb-2.7.1-1.2.noarch.rpm"
 RPM_HASH = "8dc98172131cb9ae05ebca6be90d57906d765e1f1a1107c1f5c5993da2190254d927dc1cb83cfc699cabc315800c317c0864a72904cecb64a87ff256d44d3ae7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(hsqldb) \
+RPROVIDES:${PN} += "config-hsqldb \
 hsqldb \
-mvn(org.hsqldb:hsqldb) \
-mvn(org.hsqldb:hsqldb:pom:)"
+mvn-org.hsqldb-hsqldb \
+mvn-org.hsqldb-hsqldb-pom-"
 
 RDEPENDS:${PN} += "/bin/sh \
 java \

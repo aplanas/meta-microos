@@ -8,31 +8,29 @@ PV = "2.9.0"
 RPM_NAME = "sssd-tools-2.9.0-1.1.aarch64.rpm"
 RPM_HASH = "b3039b0f66f87639be0fb3014ca3372eac7be7bc0d456dacc655611729280dce714ec70d76b3b1c7c36f15efb30237ae07a9cc6e6a224e8215490ebec0db3960"
 
-RPROVIDES:${PN} += "sssd-tools \
-sssd-tools(aarch-64)"
+RPROVIDES:${PN} += "sssd-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdhash.so.1()(64bit) \
-libifp_iface_sync.so()(64bit) \
-libldb.so.2()(64bit) \
-libpam.so.0()(64bit) \
-libpam_misc.so.0()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libref_array.so.1()(64bit) \
-libsss_certmap.so.0()(64bit) \
-libsss_crypt.so()(64bit) \
-libsss_debug.so()(64bit) \
-libsss_iface.so()(64bit) \
-libsss_iface_sync.so()(64bit) \
-libsss_sbus.so()(64bit) \
-libsss_sbus_sync.so()(64bit) \
-libsss_util.so()(64bit) \
-libtalloc.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdhash.so.1 \
+libifp-iface-sync.so \
+libldb.so.2 \
+libpam-misc.so.0 \
+libpam.so.0 \
+libpopt.so.0 \
+libref-array.so.1 \
+libsss-certmap.so.0 \
+libsss-crypt.so \
+libsss-debug.so \
+libsss-iface-sync.so \
+libsss-iface.so \
+libsss-sbus-sync.so \
+libsss-sbus.so \
+libsss-util.so \
+libtalloc.so.2 \
+python-abi \
 python3-sssd-config \
 sssd"
 

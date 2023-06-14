@@ -7,34 +7,25 @@ PV = "2.23.0"
 RPM_NAME = "dlt-viewer-2.23.0-1.3.aarch64.rpm"
 RPM_HASH = "e1ec4a21f69038a7ed86b0e32e7fc1b0f4f9c7dbc2702ac8bd92b494f963cce9a17fca6669ae8c1213549972bf83a59682a8d99ffee49f1a650e5768c6ee2828"
 
-RPROVIDES:${PN} += "application() \
-application(org.genivi.DLTViewer.desktop) \
-dlt-viewer \
-dlt-viewer(aarch-64) \
-libdltdbusplugin.so()(64bit) \
-libdltlogstorageplugin.so()(64bit) \
-libdltsystemviewerplugin.so()(64bit) \
-libdlttestrobotplugin.so()(64bit) \
-libdltviewerplugin.so()(64bit) \
-libfiletransferplugin.so()(64bit) \
-libnonverboseplugin.so()(64bit) \
-libqdlt.so()(64bit)"
+RPROVIDES:${PN} += "dlt-viewer \
+libdltdbusplugin.so \
+libdltlogstorageplugin.so \
+libdltsystemviewerplugin.so \
+libdlttestrobotplugin.so \
+libdltviewerplugin.so \
+libfiletransferplugin.so \
+libnonverboseplugin.so \
+libqdlt.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5SerialPort.so.5()(64bit) \
-libQt5SerialPort.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5SerialPort.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

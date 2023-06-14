@@ -12,19 +12,18 @@ PV = "4.9.2"
 RPM_NAME = "netcdf_4_9_2-gnu-mpich-hpc-devel-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "caca2aded3a8f92393aa44e480b8d73631238a519ff1ba55179017395fd92c253a2180206c2cd6815eb4c251397f902c6d70847842810b644f8729341b1cff21"
 
-RPROVIDES:${PN} += "netcdf_4_9_2-gnu-mpich-hpc-devel \
-netcdf_4_9_2-gnu-mpich-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "netcdf-4-9-2-gnu-mpich-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-gnu-mpich-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcurl-devel \
-libcurl.so.4()(64bit) \
-libm.so.6()(64bit) \
-libnetcdf_4_9_2-gnu-mpich-hpc \
-libxml2.so.2()(64bit) \
+libcurl.so.4 \
+libm.so.6 \
+libnetcdf-4-9-2-gnu-mpich-hpc \
+libxml2.so.2 \
 mpich-gnu-hpc-devel \
 pkgconfig \
 zlib-devel"

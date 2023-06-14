@@ -9,11 +9,11 @@ RPM_NAME = "python311-python-lsp-jsonrpc-1.0.0-1.8.noarch.rpm"
 RPM_HASH = "7ac9e5bb4a7d82b9cbabb3314664da9cc09ea212b8dd7aeece649dfa52fca8cfa63ee6284c1cbd916070ec432c8c65864c811f7414791150cf42c460139ec28b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(python-lsp-jsonrpc) \
+RPROVIDES:${PN} += "python3.11dist-python-lsp-jsonrpc \
 python311-python-lsp-jsonrpc \
-python3dist(python-lsp-jsonrpc)"
+python3dist-python-lsp-jsonrpc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-ujson"
 
 inherit rpm

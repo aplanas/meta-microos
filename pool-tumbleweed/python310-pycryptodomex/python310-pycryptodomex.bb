@@ -41,13 +41,12 @@ RPM_NAME = "python310-pycryptodomex-3.18.0-1.1.aarch64.rpm"
 RPM_HASH = "9c0515188beee55e65ae76c2ed9735136921457af15bc6ca316f1ec1b3f7a23331d5293f44ba5364dcf0d72348eb9946aa767afcc90094515739971342191b5f"
 
 RPROVIDES:${PN} += "python3-pycryptodomex \
-python3.10dist(pycryptodomex) \
+python3.10dist-pycryptodomex \
 python310-pycryptodomex \
-python310-pycryptodomex(aarch-64) \
-python3dist(pycryptodomex)"
+python3dist-pycryptodomex"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-pdf14-2023.201.0.0.1svn17583-51.1.noarch.rpm"
 RPM_HASH = "b73d69d6cc117f6eda0391042d3726b5c550610c8a7d262f7c75dfda1424336c7a8ec7683af2f7885dc592f623b5016d5e6e3e40353dabf4b1a32a615ad0e661"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdf14.sty) \
+RPROVIDES:${PN} += "tex-pdf14.sty \
 texlive-pdf14"
 
 RDEPENDS:${PN} += "/bin/sh \

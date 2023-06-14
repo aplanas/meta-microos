@@ -14,10 +14,10 @@ RPM_HASH = "dab3b31fee6f57c8ab0ac4bfbd835d2739486214a267ceb568e32c0bbfd20621a08c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.context \
-python3.10dist(oslo.context) \
-python3dist(oslo.context)"
+python3.10dist-oslo.context \
+python3dist-oslo.context"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-debtcollector"
 
 inherit rpm

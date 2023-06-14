@@ -13,7 +13,7 @@ RPM_NAME = "texlive-babelbib-2023.201.1.34svn57349-53.1.noarch.rpm"
 RPM_HASH = "0be2223b82ac210d12906ee50ae5b6c3b04e97ab185c97e85c75eab6654680235c049f24ab32dd455187be1f89c043934993b9b92baa21f1b0c62b65da8cbb98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(babelbib.sty) \
+RPROVIDES:${PN} += "tex-babelbib.sty \
 texlive-babelbib"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
+tex-babel.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

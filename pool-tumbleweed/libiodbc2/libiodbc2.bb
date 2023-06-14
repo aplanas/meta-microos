@@ -12,13 +12,12 @@ PV = "3.52.14"
 RPM_NAME = "libiodbc2-3.52.14-2.6.aarch64.rpm"
 RPM_HASH = "ef0f9f08040cfbe6f0059870f2f67f608bbff0f3c7ae6c324b0254c5f20c7e425095676dc733a65101452d548743d038882fcab84db36d9e2769a5902257cfb6"
 
-RPROVIDES:${PN} += "libiodbc.so.2()(64bit) \
+RPROVIDES:${PN} += "libiodbc.so.2 \
 libiodbc2 \
-libiodbc2(aarch-64) \
-libiodbcinst.so.2()(64bit)"
+libiodbcinst.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

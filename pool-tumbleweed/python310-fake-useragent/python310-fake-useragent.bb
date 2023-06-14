@@ -9,11 +9,11 @@ RPM_HASH = "6fb0f2f7ce49e56e903ab02933c85fcdfd5ce26e9dba51a9e338865239141adbb9ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fake-useragent \
-python3.10dist(fake-useragent) \
+python3.10dist-fake-useragent \
 python310-fake-useragent \
-python3dist(fake-useragent)"
+python3dist-fake-useragent"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-importlib-resources"
 
 inherit rpm

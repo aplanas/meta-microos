@@ -13,11 +13,11 @@ RPM_HASH = "3eb4551ca727d0668d3c71e5ad35d92829b95130555511b4bd3b6ce3b333a5ac553e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cinderclient \
-python3.10dist(python-cinderclient) \
-python3dist(python-cinderclient)"
+python3.10dist-python-cinderclient \
+python3dist-python-cinderclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-PrettyTable \
 python3-keystoneauth1 \

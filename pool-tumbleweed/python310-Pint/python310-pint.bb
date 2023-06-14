@@ -16,14 +16,14 @@ RPM_HASH = "2c267276f77605faf08a108c5f4e859c8d5583194ac6643c8fe6de00eb60e36e727c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pint \
-python3.10dist(pint) \
+python3.10dist-pint \
 python310-Pint \
-python3dist(pint)"
+python3dist-pint"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-importlib-metadata \
 python310-importlib-resources \
 python310-packaging \

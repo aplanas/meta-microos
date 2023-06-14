@@ -15,7 +15,7 @@ RPM_HASH = "f83d91e969a98dde4b5aa61220be6b8cefe277fd653c471592148691ca4187212637
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clustershell \
-config(clustershell) \
+config-clustershell \
 vim-clustershell"
 
 RDEPENDS:${PN} += "python3-clustershell \

@@ -17,13 +17,12 @@ RPM_NAME = "sqlite3-3.42.0-1.1.aarch64.rpm"
 RPM_HASH = "2abe0ae6b101dce00dfb0b68875b2e641d6432b7235685e81ae32cfe6c61c9cf92010985a79e304cf0f7fa61680775c5a8e87970bf8294f4a8dfba1aa9c7ca86"
 
 RPROVIDES:${PN} += "sqlite \
-sqlite3 \
-sqlite3(aarch-64)"
+sqlite3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libreadline.so.8 \
+libz.so.1"
 
 inherit rpm

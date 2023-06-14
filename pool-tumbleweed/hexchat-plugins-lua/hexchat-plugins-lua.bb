@@ -7,13 +7,12 @@ PV = "2.16.1"
 RPM_NAME = "hexchat-plugins-lua-2.16.1-2.4.aarch64.rpm"
 RPM_HASH = "857f892dd5456f1a6b05c67e73b0b56724a448a1ab3518121ee6ad9561121aa791afdc2483448b349599027e2d8f146f2de94a3a1284831dcaa9dd3b33187e6c"
 
-RPROVIDES:${PN} += "hexchat-plugins-lua \
-hexchat-plugins-lua(aarch-64)"
+RPROVIDES:${PN} += "hexchat-plugins-lua"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-liblua5.4.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+liblua5.4.so.5 \
 lua"
 
 inherit rpm

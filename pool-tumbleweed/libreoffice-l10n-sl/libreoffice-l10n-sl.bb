@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sl \
 libreoffice-l10n-sl \
-locale(libreoffice:sl)"
+locale-libreoffice-sl"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \
-myspell-sl_SI"
+myspell-sl-SI"
 
 inherit rpm

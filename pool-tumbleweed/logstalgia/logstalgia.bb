@@ -13,24 +13,22 @@ PV = "1.1.4"
 RPM_NAME = "logstalgia-1.1.4-1.4.aarch64.rpm"
 RPM_HASH = "da9b9238f4a700849e878d62198c5177f6edda5ae2c6aa328671f66e517bc4aa52f6077160fdb66fae91801bf3fe232ce906d457d6299280ec0a7935cc144238"
 
-RPROVIDES:${PN} += "logstalgia \
-logstalgia(aarch-64)"
+RPROVIDES:${PN} += "logstalgia"
 
 RDEPENDS:${PN} += "freefont \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libGLU.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libGLU.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libboost-filesystem.so.1.82.0 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpcre2-8.so.0 \
+libpng16.so.16 \
+libstdc++.so.6"
 
 inherit rpm

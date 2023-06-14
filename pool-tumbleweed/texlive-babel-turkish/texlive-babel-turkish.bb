@@ -9,7 +9,7 @@ RPM_NAME = "texlive-babel-turkish-2023.201.1.4svn51560-53.1.noarch.rpm"
 RPM_HASH = "a737d002cf11322ae40a56c29287c2c726ef48deddc888b83ad0dfc78ff3dc418af5755637eae1fe9c422767c64119a5b4c40f552d868c7af3c8c0bc35dad229"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(turkish.ldf) \
+RPROVIDES:${PN} += "tex-turkish.ldf \
 texlive-babel-turkish"
 
 RDEPENDS:${PN} += "/bin/sh \

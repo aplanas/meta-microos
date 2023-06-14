@@ -12,11 +12,10 @@ RPM_NAME = "uriparser-0.9.7-1.3.aarch64.rpm"
 RPM_HASH = "29c86258f33fb00d0148be27cde6d5f437cedd85b463d503601cbf82eb0969753c81446430e5da30089e33b83a4749bf3ceaf2dcb100124f40ee2a5385221ad4"
 
 RPROVIDES:${PN} += "uriparse \
-uriparser \
-uriparser(aarch-64)"
+uriparser"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liburiparser.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liburiparser.so.1"
 
 inherit rpm

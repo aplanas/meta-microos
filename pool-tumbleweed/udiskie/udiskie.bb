@@ -19,24 +19,24 @@ RPM_NAME = "udiskie-2.4.2-1.6.noarch.rpm"
 RPM_HASH = "479a88907c93f3d8a7a5ec7404edca96305799dad12ca31feb4a090b998be0f59efe250902f31d01cf27110ee10d326ffaed5f17f4d0802b1cf11d4e2daf80dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(udiskie) \
-python3dist(udiskie) \
+RPROVIDES:${PN} += "python3.10dist-udiskie \
+python3dist-udiskie \
 udiskie"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gdk-pixbuf-loader-rsvg \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-docopt \
 python3-gobject \
 python3-setuptools \
 python3-xml \
-typelib(AppIndicator3) \
-typelib(AyatanaAppIndicator3) \
-typelib(GLib) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Notify) \
+typelib-AppIndicator3 \
+typelib-AyatanaAppIndicator3 \
+typelib-GLib \
+typelib-Gio \
+typelib-Gtk \
+typelib-Notify \
 udisks2"
 
 inherit rpm

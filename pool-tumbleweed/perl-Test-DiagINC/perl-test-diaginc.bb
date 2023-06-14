@@ -12,9 +12,9 @@ RPM_NAME = "perl-Test-DiagINC-0.010-1.3.noarch.rpm"
 RPM_HASH = "7b13876909698deb0fe647541fffad6c2414f7603914ef2045ccab5a3168e2c260e4ec9db131c47cfd2b7dcd969814a6dee1453de75efd1b95e8a312d6750e1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::DiagINC) \
+RPROVIDES:${PN} += "perl-Test--DiagINC \
 perl-Test-DiagINC"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -10,25 +10,25 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clapper-lang \
 clapper-lang-all \
-locale(clapper:ar) \
-locale(clapper:ca) \
-locale(clapper:cs) \
-locale(clapper:de) \
-locale(clapper:es) \
-locale(clapper:eu) \
-locale(clapper:fr) \
-locale(clapper:he) \
-locale(clapper:hu) \
-locale(clapper:it) \
-locale(clapper:ja) \
-locale(clapper:nl) \
-locale(clapper:pl) \
-locale(clapper:pt) \
-locale(clapper:pt_BR) \
-locale(clapper:ru) \
-locale(clapper:sv) \
-locale(clapper:tr) \
-locale(clapper:zh_CN)"
+locale-clapper-ar \
+locale-clapper-ca \
+locale-clapper-cs \
+locale-clapper-de \
+locale-clapper-es \
+locale-clapper-eu \
+locale-clapper-fr \
+locale-clapper-he \
+locale-clapper-hu \
+locale-clapper-it \
+locale-clapper-ja \
+locale-clapper-nl \
+locale-clapper-pl \
+locale-clapper-pt \
+locale-clapper-pt-BR \
+locale-clapper-ru \
+locale-clapper-sv \
+locale-clapper-tr \
+locale-clapper-zh-CN"
 
 RDEPENDS:${PN} += "clapper"
 

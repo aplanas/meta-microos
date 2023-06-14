@@ -13,7 +13,7 @@ RPM_NAME = "texlive-rrgtrees-2023.201.1.1svn27322-53.1.noarch.rpm"
 RPM_HASH = "81ef03eb2825ee35dea07eec38db6efa4ae380f7ffcd9c9245d251bea4a20f8f3ca60f0abaca51fbb8c086bc8151213238651da3dd2ec8f6bfc395b1d54f438a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rrgtrees.sty) \
+RPROVIDES:${PN} += "tex-rrgtrees.sty \
 texlive-rrgtrees"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(pst-node.sty) \
-tex(pst-tree.sty) \
+tex-pst-node.sty \
+tex-pst-tree.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -8,15 +8,14 @@ PV = "0.12.2"
 RPM_NAME = "python39-vispy-0.12.2-1.2.aarch64.rpm"
 RPM_HASH = "172703db7877e1d97db08429448b9a30bae3178618e159ae1aa3ef33e2f1b52edf64ca0707ed4f35e72c746365e132eae937b1ae23f1bb500792f87fd9da53d6"
 
-RPROVIDES:${PN} += "python3.9dist(vispy) \
+RPROVIDES:${PN} += "python3.9dist-vispy \
 python39-vispy \
-python39-vispy(aarch-64) \
-python3dist(vispy)"
+python3dist-vispy"
 
 RDEPENDS:${PN} += "fontconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python39-cassowary \
 python39-decorator \
 python39-freetype-py \

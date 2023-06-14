@@ -16,13 +16,13 @@ RPM_HASH = "19963c158c00faedc0d0d5d8eaad368cafee223611d65e589c8792be514357a65541
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pywinrm \
-python3.10dist(pywinrm) \
+python3.10dist-pywinrm \
 python310-pywinrm \
-python3dist(pywinrm)"
+python3dist-pywinrm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
-python310-requests_ntlm \
+python310-requests-ntlm \
 python310-six \
 python310-xmltodict"
 

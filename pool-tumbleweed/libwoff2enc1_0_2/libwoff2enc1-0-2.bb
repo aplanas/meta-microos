@@ -13,16 +13,15 @@ PV = "1.0.2"
 RPM_NAME = "libwoff2enc1_0_2-1.0.2-4.3.aarch64.rpm"
 RPM_HASH = "1aa9d85948bf52ccd5804389acab945eb7f21a7c3b84222ea46d24c3a6023dfff7de1b3e0b16b93207fbcc7596e67e694e50e908f546248f06bec03f1e898355"
 
-RPROVIDES:${PN} += "libwoff2enc.so.1.0.2()(64bit) \
-libwoff2enc1_0_2 \
-libwoff2enc1_0_2(aarch-64)"
+RPROVIDES:${PN} += "libwoff2enc.so.1.0.2 \
+libwoff2enc1-0-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbrotlienc.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwoff2common.so.1.0.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libbrotlienc.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwoff2common.so.1.0.2"
 
 inherit rpm

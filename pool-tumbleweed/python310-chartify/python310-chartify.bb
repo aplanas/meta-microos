@@ -9,19 +9,19 @@ RPM_HASH = "88b850d9e17063e1b58981ad5960d4648d49988ba5f9714e4152d3dacf3772bd7041
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-chartify \
-python3.10dist(chartify) \
+python3.10dist-chartify \
 python310-chartify \
-python3dist(chartify)"
+python3dist-chartify"
 
-RDEPENDS:${PN} += "(python3.10dist(bokeh) < 2.5 with python3.10dist(bokeh) >= 2) \
-(python3.10dist(pandas) < 2 with python3.10dist(pandas) >= 1) \
-(python3.10dist(scipy) < 2 with python3.10dist(scipy) >= 1) \
-python(abi) \
-python3.10dist(ipykernel) \
-python3.10dist(ipython) \
-python3.10dist(jinja2) \
-python3.10dist(pillow) \
-python3.10dist(pyyaml) \
-python3.10dist(selenium)"
+RDEPENDS:${PN} += "-python3.10dist(bokeh) < 2.5 with python3.10dist(bokeh) >= 2 \
+-python3.10dist(pandas) < 2 with python3.10dist(pandas) >= 1 \
+-python3.10dist(scipy) < 2 with python3.10dist(scipy) >= 1 \
+python-abi \
+python3.10dist-ipykernel \
+python3.10dist-ipython \
+python3.10dist-jinja2 \
+python3.10dist-pillow \
+python3.10dist-pyyaml \
+python3.10dist-selenium"
 
 inherit rpm

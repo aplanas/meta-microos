@@ -14,9 +14,8 @@ RPM_NAME = "pnetcdf-mvapich2-devel-1.12.3-1.3.aarch64.rpm"
 RPM_HASH = "6766e4d604568b4ff84c75d8984cccc67883a3830740e1ebd27689699045f76c041df4202d8272b01482e02f33c62d2a9b9f02290d566bd0bb8472c87ddbe8ae"
 
 RPROVIDES:${PN} += "parallel-netcdf-mvapich2-devel \
-pkgconfig(pnetcdf) \
-pnetcdf-mvapich2-devel \
-pnetcdf-mvapich2-devel(aarch-64)"
+pkgconfig-pnetcdf \
+pnetcdf-mvapich2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpnetcdf4-mvapich2 \

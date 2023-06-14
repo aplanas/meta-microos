@@ -14,25 +14,24 @@ RPM_HASH = "1bce9e83caa2a301d0de56713c1e3ecdc6398606c0cceae0ed62d2a487f44b41add7
 
 RPROVIDES:${PN} += "gimp-2.0-devel \
 gimp-devel \
-gimp-devel(aarch-64) \
 gimp-doc \
-pkgconfig(gimp-2.0) \
-pkgconfig(gimpthumb-2.0) \
-pkgconfig(gimpui-2.0) \
-rpm_macro(gimp_abi_version) \
-rpm_macro(gimp_api_version)"
+pkgconfig-gimp-2.0 \
+pkgconfig-gimpthumb-2.0 \
+pkgconfig-gimpui-2.0 \
+rpm-macro-gimp-abi-version \
+rpm-macro-gimp-api-version"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgimp-2_0-0 \
-libgimpbase-2.0.so.0()(64bit) \
-libgimpui-2_0-0 \
-libglib-2.0.so.0()(64bit) \
-pkgconfig(cairo) \
-pkgconfig(gdk-pixbuf-2.0) \
-pkgconfig(gegl-0.4) \
-pkgconfig(gimp-2.0) \
-pkgconfig(gtk+-2.0)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgimp-2-0-0 \
+libgimpbase-2.0.so.0 \
+libgimpui-2-0-0 \
+libglib-2.0.so.0 \
+pkgconfig-cairo \
+pkgconfig-gdk-pixbuf-2.0 \
+pkgconfig-gegl-0.4 \
+pkgconfig-gimp-2.0 \
+pkgconfig-gtk+-2.0"
 
 inherit rpm

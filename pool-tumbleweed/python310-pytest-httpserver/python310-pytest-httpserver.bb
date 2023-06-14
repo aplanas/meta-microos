@@ -12,11 +12,11 @@ RPM_HASH = "0bb72631ee5236ceaf26e48c95987da5d9d783dfcc27aec974a7dfcaeb3fb8d6797a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-httpserver \
-python3.10dist(pytest-httpserver) \
+python3.10dist-pytest-httpserver \
 python310-pytest-httpserver \
-python3dist(pytest-httpserver)"
+python3dist-pytest-httpserver"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Werkzeug \
 python310-pytest"
 

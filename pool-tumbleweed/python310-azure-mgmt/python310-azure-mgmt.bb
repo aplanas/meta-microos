@@ -17,9 +17,9 @@ RPM_HASH = "90dc3f2583f1a05feb288bd5b07815d66ef7f0acb672f7367a7eb485a04670ba94db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt \
-python3.10dist(azure-mgmt) \
+python3.10dist-azure-mgmt \
 python310-azure-mgmt \
-python3dist(azure-mgmt)"
+python3dist-azure-mgmt"
 
 RDEPENDS:${PN} += "python310-azure-mgmt-advisor \
 python310-azure-mgmt-agfood \

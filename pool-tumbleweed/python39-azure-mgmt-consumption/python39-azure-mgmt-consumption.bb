@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-consumption-10.0.0-1.4.noarch.rpm"
 RPM_HASH = "7891aa26955575e179c8b0638d390470db79f307a82f1407ae7720336452373f89cb1b2a8063bfad5ae8899095815bf74d4cd946502d09f7f982cd6d1bc54f92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-consumption) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-consumption \
 python39-azure-mgmt-consumption \
-python3dist(azure-mgmt-consumption)"
+python3dist-azure-mgmt-consumption"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

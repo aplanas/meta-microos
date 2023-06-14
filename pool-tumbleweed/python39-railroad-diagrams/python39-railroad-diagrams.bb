@@ -14,10 +14,10 @@ RPM_NAME = "python39-railroad-diagrams-3.0.1-1.1.noarch.rpm"
 RPM_HASH = "b68ffbc5bf5f38e76f2ea69d894e4c6f53ba6ed4b06f3bd4d649fb624a99aafa013cc410bd2baeda044690d18ee239178f72bef15ed67e8d96ca09d6446816f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(railroad-diagrams) \
+RPROVIDES:${PN} += "python3.9dist-railroad-diagrams \
 python39-railroad-diagrams \
-python3dist(railroad-diagrams)"
+python3dist-railroad-diagrams"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

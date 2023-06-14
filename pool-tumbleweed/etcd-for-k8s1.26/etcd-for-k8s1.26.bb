@@ -10,10 +10,9 @@ RPM_NAME = "etcd-for-k8s1.26-3.5.6-1.3.aarch64.rpm"
 RPM_HASH = "4e0beccb7577c7404d46a7d1242e588049ef303235235b60adc810562d34b5bba3022c11e5a88fde94aadf5b79f4019260d18cf20c5982991391a2a6d6927dde"
 
 RPROVIDES:${PN} += "etcd-for-k8s \
-etcd-for-k8s1.26 \
-etcd-for-k8s1.26(aarch-64)"
+etcd-for-k8s1.26"
 
 RDEPENDS:${PN} += "/bin/bash \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

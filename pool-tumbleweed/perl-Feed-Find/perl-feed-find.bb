@@ -20,13 +20,13 @@ RPM_NAME = "perl-Feed-Find-0.13-1.2.noarch.rpm"
 RPM_HASH = "8df23a1e0bfeea0ce5fd0057a60bd3a0ed21beeace83a2fba0ed7cb0458ddfce32c588702b130d9bdc7f54c548e8be1865e56d2387911b246cff45a0fb66372f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Feed::Find) \
+RPROVIDES:${PN} += "perl-Feed--Find \
 perl-Feed-Find"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::ErrorHandler) \
-perl(HTML::Parser) \
-perl(LWP) \
-perl(URI)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--ErrorHandler \
+perl-HTML--Parser \
+perl-LWP \
+perl-URI"
 
 inherit rpm

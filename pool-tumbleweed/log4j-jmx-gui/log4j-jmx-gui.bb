@@ -10,15 +10,15 @@ RPM_HASH = "3624ba997feb2006c3168f24586a5644f3143dceb1321c859357d4b403e80128b954
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-jmx-gui \
-mvn(org.apache.logging.log4j:log4j-jmx-gui) \
-mvn(org.apache.logging.log4j:log4j-jmx-gui:pom:) \
-osgi(org.apache.logging.log4j.jmx-gui)"
+mvn-org.apache.logging.log4j-log4j-jmx-gui \
+mvn-org.apache.logging.log4j-log4j-jmx-gui-pom- \
+osgi-org.apache.logging.log4j.jmx-gui"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-devel \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.logging.log4j:log4j-api) \
-mvn(org.apache.logging.log4j:log4j-core)"
+mvn-org.apache.logging.log4j-log4j-api \
+mvn-org.apache.logging.log4j-log4j-core"
 
 inherit rpm

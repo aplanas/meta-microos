@@ -8,24 +8,21 @@ RPM_NAME = "libksysguard5-plugins-5.27.5-1.1.aarch64.rpm"
 RPM_HASH = "89aeb517900b61e0b6bcaa64e2ffc980793d7ce1b5760dcde5632a2229bf9110590894183d2f7b816282e04ce6263a13ef4e4c3b49e07f11743506eb3afdd0b1"
 
 RPROVIDES:${PN} += "libksysguard5-helper \
-libksysguard5-plugins \
-libksysguard5-plugins(aarch-64)"
+libksysguard5-plugins"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5AuthCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5AuthCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
 libksysguard5 \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libpcap.so.1()(64bit) \
-libprocesscore.so.9()(64bit) \
-libstdc++.so.6()(64bit) \
+libnl-3.so.200 \
+libpcap.so.1 \
+libprocesscore.so.9 \
+libstdc++.so.6 \
 permissions"
 
 inherit rpm

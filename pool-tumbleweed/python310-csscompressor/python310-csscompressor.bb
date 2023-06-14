@@ -9,10 +9,10 @@ RPM_HASH = "c82de6d3fd4ecfb2e451f1c800ced347f749d648ed94d62623cf88799c3d1d2baecd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-csscompressor \
-python3.10dist(csscompressor) \
+python3.10dist-csscompressor \
 python310-csscompressor \
-python3dist(csscompressor)"
+python3dist-csscompressor"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

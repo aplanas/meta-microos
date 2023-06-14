@@ -8,13 +8,13 @@ RPM_NAME = "texlive-latex-bin-dev-2023.201.svn66186-55.1.noarch.rpm"
 RPM_HASH = "7dcb5e218bfe36fc2ba289c1e48c73b0f7460352d8f8d618fa92af639a630c3bf65a4ea8c21fbef240b5caeaa4dfa35fc9f4b0b575bb4d0d5ef0808858ebc644"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(dvilualatex-dev.1) \
-man(latex-dev.1) \
-man(lualatex-dev.1) \
-man(pdflatex-dev.1) \
-man(platex-dev.1) \
-man(uplatex-dev.1) \
-man(xelatex-dev.1) \
+RPROVIDES:${PN} += "man-dvilualatex-dev.1 \
+man-latex-dev.1 \
+man-lualatex-dev.1 \
+man-pdflatex-dev.1 \
+man-platex-dev.1 \
+man-uplatex-dev.1 \
+man-xelatex-dev.1 \
 texlive-latex-bin-dev"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-atbegshi \
 texlive-atveryend \

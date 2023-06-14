@@ -15,8 +15,7 @@ RPM_NAME = "liboping-devel-1.10.0-1.18.aarch64.rpm"
 RPM_HASH = "7a6d40c1d651e2dc6fba6a440ae70fcf697ccb69e703524194c0a24869abf0debb9e5bec72adb3bd2b880b52d985e9c5f5d7715edda02208e2080c7f0d9679c3"
 
 RPROVIDES:${PN} += "liboping-devel \
-liboping-devel(aarch-64) \
-pkgconfig(liboping)"
+pkgconfig-liboping"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liboping"

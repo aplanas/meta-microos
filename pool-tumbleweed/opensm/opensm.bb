@@ -10,20 +10,19 @@ PV = "3.3.24"
 RPM_NAME = "opensm-3.3.24-3.7.aarch64.rpm"
 RPM_HASH = "0903de6e5a866f4a64767e2c99b7639565893239feb05825b9497de9819b04258bb48ebd3e1761d124812d3cb293a4e1adf0996fab6585b29f10668836ac6151"
 
-RPROVIDES:${PN} += "config(opensm) \
-opensm \
-opensm(aarch-64)"
+RPROVIDES:${PN} += "config-opensm \
+opensm"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libopensm.so.9()(64bit) \
-libosmcomp.so.5()(64bit) \
-libosmvendor.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libopensm.so.9 \
+libosmcomp.so.5 \
+libosmvendor.so.5 \
 logrotate \
 systemd"
 

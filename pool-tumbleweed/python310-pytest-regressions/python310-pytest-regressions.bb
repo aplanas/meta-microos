@@ -9,11 +9,11 @@ RPM_HASH = "cb3cc8f6c863d214501bac1369b93f89ef0a4f0632f32bc2d105a7cb6238cbba27c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-regressions \
-python3.10dist(pytest-regressions) \
+python3.10dist-pytest-regressions \
 python310-pytest-regressions \
-python3dist(pytest-regressions)"
+python3dist-pytest-regressions"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-pytest \
 python310-pytest-datadir"

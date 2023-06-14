@@ -18,7 +18,7 @@ RPM_NAME = "texlive-actuarialsymbol-2023.201.1.1svn54080-54.1.noarch.rpm"
 RPM_HASH = "852737bedfa5fac076132f6606e27d46581ad8ab2f86d6dbb0c8dac124ee1a87ae8149d5b176684b88aa6e91f3673843e96106db0b15580d4542cd032bebd798"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(actuarialsymbol.sty) \
+RPROVIDES:${PN} += "tex-actuarialsymbol.sty \
 texlive-actuarialsymbol"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(actuarialangle.sty) \
-tex(amsmath.sty) \
+tex-actuarialangle.sty \
+tex-amsmath.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,11 +11,11 @@ RPM_HASH = "577f241259c0afbbf0a092acda503d99d276c730defdd836fbe5c6092eb7cfb0d647
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dqsegdb2 \
-python3.10dist(dqsegdb2) \
+python3.10dist-dqsegdb2 \
 python310-dqsegdb2 \
-python3dist(dqsegdb2)"
+python3dist-dqsegdb2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-gwdatafind \
 python310-igwn-auth-utils \
 python310-ligo-segments"

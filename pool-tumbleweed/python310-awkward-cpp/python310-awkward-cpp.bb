@@ -16,20 +16,17 @@ PV = "15"
 RPM_NAME = "python310-awkward-cpp-15-1.1.aarch64.rpm"
 RPM_HASH = "ad77814af8d9e6f67ea52704e4e39320736bb87506670624f18ccd561121c4998af1906515ac622fa469e3ff7d32ec93ed3bb8c15d3992869726a06d0f1d6abc"
 
-RPROVIDES:${PN} += "libawkward-cpu-kernels.so()(64bit) \
-libawkward.so()(64bit) \
+RPROVIDES:${PN} += "libawkward-cpu-kernels.so \
+libawkward.so \
 python3-awkward-cpp \
-python3-awkward_cpp \
-python3.10dist(awkward-cpp) \
+python3.10dist-awkward-cpp \
 python310-awkward-cpp \
-python310-awkward-cpp(aarch-64) \
-python310-awkward_cpp \
-python3dist(awkward-cpp)"
+python3dist-awkward-cpp"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python310-numpy"
 
 inherit rpm

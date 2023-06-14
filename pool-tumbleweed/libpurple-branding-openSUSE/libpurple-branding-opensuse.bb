@@ -16,7 +16,7 @@ RPM_NAME = "libpurple-branding-openSUSE-42.2-1.23.noarch.rpm"
 RPM_HASH = "b61c4de4788dab90ccfe1402fe6185aad2bbb478823490dd54cb62028b44ff3eea055ca5d0efcdcd265e6cf71ffefa1ce0e97a47c3a24d5c81f93de937bad7de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(libpurple-branding-openSUSE) \
+RPROVIDES:${PN} += "config-libpurple-branding-openSUSE \
 libpurple-branding \
 libpurple-branding-openSUSE \
 pidgin-branding-openSUSE"

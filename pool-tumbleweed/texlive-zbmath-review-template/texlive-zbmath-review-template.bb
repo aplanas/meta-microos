@@ -15,8 +15,8 @@ RPM_NAME = "texlive-zbmath-review-template-2023.201.2.1svn59693-52.1.noarch.rpm"
 RPM_HASH = "4c0ab38ea9aad4e372de363a96c49fdafb2abed3478fe82159c07b033e6171d65231fc7c3e666ea36fc636a1780add7e3ce97bd3ae389f7585fe73d00a7635d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zb-basics.sty) \
-tex(zbMATH.cls) \
+RPROVIDES:${PN} += "tex-zb-basics.sty \
+tex-zbMATH.cls \
 texlive-zbmath-review-template"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,26 +25,26 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsfonts.sty) \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(babel.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(fontspec.sty) \
-tex(gensymb.sty) \
-tex(geometry.sty) \
-tex(graphicx.sty) \
-tex(mathrsfs.sty) \
-tex(mathtools.sty) \
-tex(scrartcl.cls) \
-tex(scrlayer-scrpage.sty) \
-tex(stmaryrd.sty) \
-tex(textcomp.sty) \
-tex(tikz-cd.sty) \
-tex(url.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-amsfonts.sty \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-babel.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-fontspec.sty \
+tex-gensymb.sty \
+tex-geometry.sty \
+tex-graphicx.sty \
+tex-mathrsfs.sty \
+tex-mathtools.sty \
+tex-scrartcl.cls \
+tex-scrlayer-scrpage.sty \
+tex-stmaryrd.sty \
+tex-textcomp.sty \
+tex-tikz-cd.sty \
+tex-url.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

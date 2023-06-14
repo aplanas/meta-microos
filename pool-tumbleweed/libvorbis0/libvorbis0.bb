@@ -12,14 +12,13 @@ PV = "1.3.7"
 RPM_NAME = "libvorbis0-1.3.7-4.1.aarch64.rpm"
 RPM_HASH = "c1f78891f3269ea5c713c7a614e0cfe93726cf6077861691765c4dcfc015729dfd1b516c5cb32fb87c0161de3aa602c47771bd3df35e59736bf034fd01b29178"
 
-RPROVIDES:${PN} += "libvorbis.so.0()(64bit) \
-libvorbis0 \
-libvorbis0(aarch-64)"
+RPROVIDES:${PN} += "libvorbis.so.0 \
+libvorbis0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libogg.so.0"
 
 inherit rpm

@@ -10,10 +10,10 @@ RPM_HASH = "2b30edb1731251dcdbbddabc71fc75c498a92b42d27489c13fbc9c69c85724ac925a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydash \
-python3.10dist(pydash) \
+python3.10dist-pydash \
 python310-pydash \
-python3dist(pydash)"
+python3dist-pydash"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

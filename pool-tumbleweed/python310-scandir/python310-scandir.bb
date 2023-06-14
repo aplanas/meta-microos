@@ -37,11 +37,10 @@ RPM_NAME = "python310-scandir-1.10.0-4.1.aarch64.rpm"
 RPM_HASH = "ad1bb5d0c1e17110d126a8ebf1a05af496667671d244cc7df89502aab10d9c9d83f0e0cd1ee14fc0ea6205ea1cf613f7707bc3c7a7a939201b2b4d7d31d7315f"
 
 RPROVIDES:${PN} += "python3-scandir \
-python3.10dist(scandir) \
+python3.10dist-scandir \
 python310-scandir \
-python310-scandir(aarch-64) \
-python3dist(scandir)"
+python3dist-scandir"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

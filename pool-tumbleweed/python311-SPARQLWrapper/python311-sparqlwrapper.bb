@@ -10,11 +10,11 @@ RPM_NAME = "python311-SPARQLWrapper-1.8.5-2.6.noarch.rpm"
 RPM_HASH = "9ed1b7ade9db61bfc36e3dedfa84e3c0b7f330a2827cffaf4aa348a77a0b158882301a0dd1f9ff75a2db82d247016f7bd426f29fc33c7ab374e93ba1ab56c827"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sparqlwrapper) \
+RPROVIDES:${PN} += "python3.11dist-sparqlwrapper \
 python311-SPARQLWrapper \
-python3dist(sparqlwrapper)"
+python3dist-sparqlwrapper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-rdflib"
 
 inherit rpm

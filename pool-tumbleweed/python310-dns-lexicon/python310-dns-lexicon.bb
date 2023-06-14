@@ -13,13 +13,13 @@ RPM_HASH = "3adf95e29f6590b14fdf272643a8f0103d940638ec7d95ae3379bfcd433df90b686b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dns-lexicon \
-python3.10dist(dns-lexicon) \
+python3.10dist-dns-lexicon \
 python310-dns-lexicon \
-python3dist(dns-lexicon)"
+python3dist-dns-lexicon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-beautifulsoup4 \
 python310-cryptography \

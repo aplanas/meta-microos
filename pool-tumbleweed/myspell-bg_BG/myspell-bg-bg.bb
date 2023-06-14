@@ -9,9 +9,9 @@ RPM_HASH = "22152a1019e31807a27c02a1bfe3e44584cbbb306b517fc383f472527e1baf3d9d2d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-bg \
-locale(libreoffice:bg_BG) \
-locale(seamonkey-spellchecker:bg_BG) \
-myspell-bg_BG \
+locale-libreoffice-bg-BG \
+locale-seamonkey-spellchecker-bg-BG \
+myspell-bg-BG \
 myspell-bulgarian \
 myspell-dictionary"
 

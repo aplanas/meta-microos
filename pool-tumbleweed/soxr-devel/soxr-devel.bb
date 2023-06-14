@@ -9,10 +9,9 @@ PV = "0.1.3"
 RPM_NAME = "soxr-devel-0.1.3-2.15.aarch64.rpm"
 RPM_HASH = "7b0f2e8462a589eb2f578aca3c6e29c9f21deb415bd2f28e329b731026e74449a22b5799abfe412adc9da6264ea24da772026a2e5fa9a2d261bab0722bca07ed"
 
-RPROVIDES:${PN} += "pkgconfig(soxr) \
-pkgconfig(soxr-lsr) \
-soxr-devel \
-soxr-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-soxr \
+pkgconfig-soxr-lsr \
+soxr-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoxr-lsr0 \

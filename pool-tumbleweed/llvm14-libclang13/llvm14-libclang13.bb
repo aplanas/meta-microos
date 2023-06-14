@@ -11,18 +11,15 @@ PV = "14.0.6"
 RPM_NAME = "llvm14-libclang13-14.0.6-9.1.aarch64.rpm"
 RPM_HASH = "356456b0e2f62d9d76b31c8fe2cd6eb9ea238af1a1b3f9632855dce0e4e741a4201dd0136a922c74764858fb0ba5fece9efef37e201a834bc7371c9fbdcb3234"
 
-RPROVIDES:${PN} += "libclang.so.13()(64bit) \
-libclang.so.13(LLVM_13)(64bit) \
+RPROVIDES:${PN} += "libclang.so.13 \
 libclang13 \
-llvm14-libclang13 \
-llvm14-libclang13(aarch-64)"
+llvm14-libclang13"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.14()(64bit) \
-libLLVM.so.14(LLVM_14)(64bit) \
-libc.so.6()(64bit) \
-libclang-cpp.so.14()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libLLVM.so.14 \
+libc.so.6 \
+libclang-cpp.so.14 \
+libstdc++.so.6"
 
 inherit rpm

@@ -13,14 +13,14 @@ RPM_HASH = "152d544a3f09568dfe642153ab383ae1eb9f4df1ab51d47f2e8f377407774008a8d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-moban \
-python3.10dist(moban) \
+python3.10dist-moban \
 python310-moban \
-python3dist(moban)"
+python3dist-moban"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-appdirs \
 python310-crayons \

@@ -8,15 +8,14 @@ PV = "9.0.16"
 RPM_NAME = "htcondor-credmon-oauth-9.0.16-1.3.aarch64.rpm"
 RPM_HASH = "f3ce6eb9425e43963a456110ebbc128ae86d2f9ba55210c718053d23c8831ff9946e769e9bfde1a74bd633d8ca4e86384746faf99d0fe46ce3890e1f938a4389"
 
-RPROVIDES:${PN} += "config(htcondor-credmon-oauth) \
-htcondor-credmon-oauth \
-htcondor-credmon-oauth(aarch-64)"
+RPROVIDES:${PN} += "config-htcondor-credmon-oauth \
+htcondor-credmon-oauth"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 htcondor \
 httpd \
-mod_wsgi \
+mod-wsgi \
 python3-Flask \
 python3-condor \
 python3-cryptography \

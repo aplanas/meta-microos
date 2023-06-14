@@ -11,7 +11,7 @@ RPM_NAME = "texlive-formular-2023.201.1.0asvn15878-52.1.noarch.rpm"
 RPM_HASH = "9d8e3835ef78f738d996c78c636b8660a7838832b7180bf4cebe1bc4b0613143bab881df0f617711ff42d37cf23997aa5923a8748c08c124a28aaa5d583dee86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(formular.sty) \
+RPROVIDES:${PN} += "tex-formular.sty \
 texlive-formular"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xspace.sty) \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

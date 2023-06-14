@@ -20,9 +20,9 @@ RPM_HASH = "61ea98569281e2e034aa49e26b79d5704882e3b53a4e2a19781641bffcae9dbd8818
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-continuation \
-mvn(org.eclipse.jetty:jetty-continuation) \
-mvn(org.eclipse.jetty:jetty-continuation:pom:) \
-osgi(org.eclipse.jetty.continuation)"
+mvn-org.eclipse.jetty-jetty-continuation \
+mvn-org.eclipse.jetty-jetty-continuation-pom- \
+osgi-org.eclipse.jetty.continuation"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

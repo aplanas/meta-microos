@@ -10,7 +10,7 @@ RPM_NAME = "texlive-physics-2023.201.1.3svn28590-51.1.noarch.rpm"
 RPM_HASH = "47f033b784baf64b5116f94ca73c8dc67ca67d8970d3c6dbfafd6c16df41c9f2098702d657d6b473a758657b0956f1c80cd466122b6e2f3e2d7a6e84339d207f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(physics.sty) \
+RPROVIDES:${PN} += "tex-physics.sty \
 texlive-physics"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(xparse.sty) \
+tex-amsmath.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

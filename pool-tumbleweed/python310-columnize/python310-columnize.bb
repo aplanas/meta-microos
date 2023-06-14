@@ -9,10 +9,10 @@ RPM_HASH = "fafdf0173113f8b15d8f1f30084cd0874f97db1ea74155d299a4348e5e265a8e7810
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-columnize \
-python3.10dist(columnize) \
+python3.10dist-columnize \
 python310-columnize \
-python3dist(columnize)"
+python3dist-columnize"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

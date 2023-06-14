@@ -11,10 +11,10 @@ RPM_HASH = "3598d73d7676bdec9e228571d91c80c5d15b6f768c8b8a8e195e4fa06128a35c3c11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ovsdbapp \
-python3.10dist(ovsdbapp) \
-python3dist(ovsdbapp)"
+python3.10dist-ovsdbapp \
+python3dist-ovsdbapp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-fixtures \
 python3-netaddr \
 python3-ovs \

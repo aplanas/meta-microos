@@ -19,14 +19,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-compose \
 python3-podman-compose \
-python3.10dist(podman-compose) \
+python3.10dist-podman-compose \
 python310-podman-compose \
-python3dist(podman-compose)"
+python3dist-podman-compose"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 podman \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-python-dotenv \
 python310-setuptools \

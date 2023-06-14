@@ -12,8 +12,8 @@ RPM_HASH = "27538e8ad87bb427a41bdc28759846bb549a86b9834f5c1db53a1a4409a04617b7d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdeparser \
-mvn(org.jboss.jdeparser:jdeparser) \
-mvn(org.jboss.jdeparser:jdeparser:pom:)"
+mvn-org.jboss.jdeparser-jdeparser \
+mvn-org.jboss.jdeparser-jdeparser-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

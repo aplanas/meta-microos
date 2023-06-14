@@ -16,16 +16,15 @@ PV = "1.24.2"
 RPM_NAME = "python310-numpy_1_24_2-gnu-hpc-1.24.2-3.1.aarch64.rpm"
 RPM_HASH = "3ed7ffaca3b8dec4e72d0db70df73abcdb658c37d1c71be67bd74a2c2018c0b977365e360efe9574f76d145ec6a67e7a8716028185a9840ee38a152413be7292"
 
-RPROVIDES:${PN} += "python3-numpy_1_24_2-gnu-hpc \
-python3.10dist(numpy) \
-python310-numpy_1_24_2-gnu-hpc \
-python310-numpy_1_24_2-gnu-hpc(aarch-64) \
-python3dist(numpy)"
+RPROVIDES:${PN} += "python3-numpy-1-24-2-gnu-hpc \
+python3.10dist-numpy \
+python310-numpy-1-24-2-gnu-hpc \
+python3dist-numpy"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
 libopenblas-gnu-hpc"
 
 inherit rpm

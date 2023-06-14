@@ -13,9 +13,9 @@ RPM_HASH = "f38ea6498195f44dbc982814ec61e611817a32297b6fd5f4e0c82235efe722dc0861
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apiguardian \
-mvn(org.apiguardian:apiguardian-api) \
-mvn(org.apiguardian:apiguardian-api:pom:) \
-osgi(org.apiguardian)"
+mvn-org.apiguardian-apiguardian-api \
+mvn-org.apiguardian-apiguardian-api-pom- \
+osgi-org.apiguardian"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

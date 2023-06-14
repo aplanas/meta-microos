@@ -10,12 +10,11 @@ RPM_NAME = "libgpg-error0-1.47-1.1.aarch64.rpm"
 RPM_HASH = "073c92001645a0aed16f28323ce8d85ccc9d1a01355b1f1942be6691809e7742fe5f474ad85885fb0b587fa7fc520bf8314805c0d336e34c8dbc5eda6c4b84bf"
 
 RPROVIDES:${PN} += "libgpg-error \
-libgpg-error.so.0()(64bit) \
-libgpg-error0 \
-libgpg-error0(aarch-64)"
+libgpg-error.so.0 \
+libgpg-error0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

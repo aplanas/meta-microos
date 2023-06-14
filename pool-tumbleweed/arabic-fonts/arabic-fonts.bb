@@ -11,11 +11,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-fonts \
 fonts-arabic \
-locale(ar) \
+locale-ar \
 scalable-font-ar"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 arabic-ae-fonts \
 arabic-bitmap-fonts \
 arabic-kacst-fonts \

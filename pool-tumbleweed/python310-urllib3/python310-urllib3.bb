@@ -22,12 +22,12 @@ RPM_HASH = "dd0eaed58c5f6b80cb62af126cf5f9773a542f4e03538e14d0f0cb58f92474405fb2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-urllib3 \
-python3.10dist(urllib3) \
+python3.10dist-urllib3 \
 python310-urllib3 \
-python3dist(urllib3)"
+python3dist-urllib3"
 
 RDEPENDS:${PN} += "ca-certificates-mozilla \
-python(abi) \
+python-abi \
 python310-certifi \
 python310-cryptography \
 python310-idna \

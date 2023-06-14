@@ -17,17 +17,16 @@ RPM_HASH = "1c59b3ded1ac980fea925a021a3a905d62265a60cd2bcf2f1f6b0b42a7057ca6cd8f
 RPROVIDES:${PN} += "postgresql-server-devel \
 postgresql-server-devel-exclusive \
 postgresql-server-devel-implementation \
-postgresql12-server-devel \
-postgresql12-server-devel(aarch-64)"
+postgresql12-server-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libselinux-devel \
 libxslt-devel \
 openssl-devel \
 pam-devel \
-pkgconfig(krb5) \
+pkgconfig-krb5 \
 postgresql-server-devel-noarch \
 postgresql12-devel \
 postgresql12-server \

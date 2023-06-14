@@ -9,11 +9,11 @@ RPM_HASH = "ddb10928ecd9b025daa2eaa9d4f55b31b5e1ebc90e8ba6554a598b23422582a2609c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-versiontag \
-python3.10dist(versiontag) \
+python3.10dist-versiontag \
 python310-versiontag \
-python3dist(versiontag)"
+python3dist-versiontag"
 
 RDEPENDS:${PN} += "git-core \
-python(abi)"
+python-abi"
 
 inherit rpm

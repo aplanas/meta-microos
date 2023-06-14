@@ -9,11 +9,11 @@ RPM_HASH = "0e435244ab131150b3e3b73f847c1fa1669f16c4168c6af325a5c8e1570554252d1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-tagulous \
-python3.10dist(django-tagulous) \
+python3.10dist-django-tagulous \
 python310-django-tagulous \
-python3dist(django-tagulous)"
+python3dist-django-tagulous"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

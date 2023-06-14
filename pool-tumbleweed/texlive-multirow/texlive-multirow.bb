@@ -11,9 +11,9 @@ RPM_NAME = "texlive-multirow-2023.201.2.8svn58396-54.1.noarch.rpm"
 RPM_HASH = "a9a260461542a98f2c4c4c47326f5c8fc34cc08232b1be6bcfd1c378d2f2f8e8ff2287ac093ae4c9f9b50ca30427f668f7ab7b08dd44fe703b94b5df3a645342"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bigdelim.sty) \
-tex(bigstrut.sty) \
-tex(multirow.sty) \
+RPROVIDES:${PN} += "tex-bigdelim.sty \
+tex-bigstrut.sty \
+tex-multirow.sty \
 texlive-multirow"
 
 RDEPENDS:${PN} += "/bin/sh \

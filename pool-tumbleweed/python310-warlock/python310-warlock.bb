@@ -9,11 +9,11 @@ RPM_HASH = "b157b148abe4c6412580130ca3ee96d2c52f21d9fd7b5542546e523e9903dd07790f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-warlock \
-python3.10dist(warlock) \
+python3.10dist-warlock \
 python310-warlock \
-python3dist(warlock)"
+python3dist-warlock"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jsonpatch \
 python310-jsonschema"
 

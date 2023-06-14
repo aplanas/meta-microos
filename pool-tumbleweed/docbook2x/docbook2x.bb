@@ -7,11 +7,10 @@ PV = "0.8.8"
 RPM_NAME = "docbook2x-0.8.8-127.14.aarch64.rpm"
 RPM_HASH = "765c931266854ff051f1ec58554d5af21e9b4cbef9af987695c51ceeaf590cf1f5c968b956e66f6e6a14a33a021e17c27cb4757447bb893c95acddaaf26fb076"
 
-RPROVIDES:${PN} += "config(docbook2x) \
+RPROVIDES:${PN} += "config-docbook2x \
 db2x \
 docbook2X \
-docbook2x \
-docbook2x(aarch-64)"
+docbook2x"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/edit-xml-catalog \
@@ -19,10 +18,10 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog \
 /usr/bin/xmlcatalog \
 awk \
-docbook_4 \
+docbook-4 \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 openjade \
 opensp \
 perl-URI \

@@ -9,11 +9,11 @@ RPM_HASH = "2442bd0df641c8512adf4dd1153ff2efc2f2ce607f1454bf423afd98efebbea917e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ufoProcessor \
-python3.10dist(ufoprocessor) \
+python3.10dist-ufoprocessor \
 python310-ufoProcessor \
-python3dist(ufoprocessor)"
+python3dist-ufoprocessor"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-FontTools \
 python310-defcon \
 python310-fontMath \

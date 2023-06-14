@@ -12,12 +12,12 @@ RPM_HASH = "2150b452daad05b139fa4a564c4d07a0ebac03e4b6787d816b01209572c59f181eae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-graphql-relay \
-python3.10dist(graphql-relay) \
+python3.10dist-graphql-relay \
 python310-graphql-relay \
-python3dist(graphql-relay)"
+python3dist-graphql-relay"
 
-RDEPENDS:${PN} += "(python310-graphql-core >= 3.2) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-graphql-core >= 3.2 \
+python-abi \
 python310-promise"
 
 inherit rpm

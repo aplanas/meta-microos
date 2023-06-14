@@ -13,8 +13,7 @@ PV = "3.1.0"
 RPM_NAME = "libgle-devel-3.1.0-152.28.aarch64.rpm"
 RPM_HASH = "04da692327559c9d3d654850812a4e8f2ad7f2ef621e37e814f1a1357018921cf32354f57295286be586bd122875073e55fbc9b8f96301007c1ac9b37dff7efd"
 
-RPROVIDES:${PN} += "libgle-devel \
-libgle-devel(aarch-64)"
+RPROVIDES:${PN} += "libgle-devel"
 
 RDEPENDS:${PN} += "libgle3"
 

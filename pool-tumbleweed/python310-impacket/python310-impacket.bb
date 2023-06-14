@@ -16,13 +16,13 @@ RPM_HASH = "f590f62416536707c9387b86e7324f92ecd61ac47bff9c3d8585abc42ff6d17862d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-impacket \
-python3.10dist(impacket) \
+python3.10dist-impacket \
 python310-impacket \
-python3dist(impacket)"
+python3dist-impacket"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Flask \
 python310-chardet \
 python310-future \

@@ -13,12 +13,11 @@ PV = "0.1.1"
 RPM_NAME = "libserialport0-0.1.1-2.12.aarch64.rpm"
 RPM_HASH = "3af9cb4fdcf3fdd326321178cff63d47e5587b08a58ed342166181a66d00b1e163e047b502d466a30f44303f7b51560b030447752ec41555541835ade178335d"
 
-RPROVIDES:${PN} += "libserialport.so.0()(64bit) \
-libserialport0 \
-libserialport0(aarch-64)"
+RPROVIDES:${PN} += "libserialport.so.0 \
+libserialport0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

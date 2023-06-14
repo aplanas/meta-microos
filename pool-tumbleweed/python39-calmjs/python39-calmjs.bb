@@ -9,13 +9,13 @@ RPM_NAME = "python39-calmjs-3.4.4-1.1.noarch.rpm"
 RPM_HASH = "c255736d7cacec9f9cb3dcd7816ef16ae50775b5ac84d6cca80e9ecc5003d09869d36aef8b11c630b8b59a4af855f915a2eb77dbcf210bd09a312cd419570079"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(calmjs) \
+RPROVIDES:${PN} += "python3.9dist-calmjs \
 python39-calmjs \
-python3dist(calmjs)"
+python3dist-calmjs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-calmjs.parse \
 python39-calmjs.types \
 update-alternatives"

@@ -11,17 +11,16 @@ PV = "1.4"
 RPM_NAME = "libtntdb5-1.4-1.12.aarch64.rpm"
 RPM_HASH = "a248bb45fd0c547b50c767f24922f53c05075f065500ad6dbf18ffc014b1ce3966f8fdda3d96b351c07cc0dbc21ac05bae7f88819931c9f116b45d381286390f"
 
-RPROVIDES:${PN} += "libtntdb.so.5()(64bit) \
+RPROVIDES:${PN} += "libtntdb.so.5 \
 libtntdb5 \
-libtntdb5(aarch-64) \
 tntdb"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcxxtools.so.10()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcxxtools.so.10 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_NAME = "python39-testtools-2.6.0-1.1.noarch.rpm"
 RPM_HASH = "271ea7e21c7716fc3903c5d8d42d4fff365ed7eb2f13463ebb8463908ea7244b50d0406d144e5cba95fef36b1779790e0101781b2d2ab2333977166e54273180"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(testtools) \
+RPROVIDES:${PN} += "python3.9dist-testtools \
 python39-testtools \
-python3dist(testtools)"
+python3dist-testtools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pbr \
 python39-python-mimeparse \
 python39-traceback2"

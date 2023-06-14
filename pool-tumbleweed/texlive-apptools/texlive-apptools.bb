@@ -12,7 +12,7 @@ RPM_NAME = "texlive-apptools-2023.201.1.0svn28400-54.1.noarch.rpm"
 RPM_HASH = "0bec00ce718b31434674b8db735e64d20c5f0ea97ac27785c17844fc0d87063d25f59448834a8f7f404278f10805f95d9a58a44ba7764b8233bfa9c784c5c6e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(apptools.sty) \
+RPROVIDES:${PN} += "tex-apptools.sty \
 texlive-apptools"
 
 RDEPENDS:${PN} += "/bin/sh \

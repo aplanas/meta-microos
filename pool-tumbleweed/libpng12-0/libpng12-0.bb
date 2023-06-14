@@ -10,14 +10,12 @@ RPM_HASH = "02ab22c3b3fa72e3a53a90d8fe49deb7b8a6af3a6ebc3d57aa50079953e40bf6cc25
 
 RPROVIDES:${PN} += "libpng \
 libpng12-0 \
-libpng12-0(aarch-64) \
-libpng12.so.0()(64bit) \
-libpng12.so.0(PNG12_0)(64bit)"
+libpng12.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libz.so.1"
 
 inherit rpm

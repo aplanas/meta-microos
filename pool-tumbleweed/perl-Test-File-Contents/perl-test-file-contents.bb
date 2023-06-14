@@ -11,11 +11,11 @@ RPM_NAME = "perl-Test-File-Contents-0.242-1.2.noarch.rpm"
 RPM_HASH = "3cc50769d2191abb0ec5ee04b10d53ff6170f5deb833fa83411dc18ce935e412402f61fb5860f975a4449f18c14e0187a6d205090eb3d674092ce66290d7b7e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::File::Contents) \
+RPROVIDES:${PN} += "perl-Test--File--Contents \
 perl-Test-File-Contents"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Test::Builder) \
-perl(Text::Diff)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Test--Builder \
+perl-Text--Diff"
 
 inherit rpm

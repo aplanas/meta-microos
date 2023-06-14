@@ -12,10 +12,9 @@ PV = "0.3"
 RPM_NAME = "gpart-0.3-1.24.aarch64.rpm"
 RPM_HASH = "b2158a19fce56e4651ea180be047a70293f2511ab2dcb7cfb7e954689a1a83e0f1921c480da748c4ee39877d04a428755f0958f33cc3f97ba135f5af53ba2d34"
 
-RPROVIDES:${PN} += "gpart \
-gpart(aarch-64)"
+RPROVIDES:${PN} += "gpart"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

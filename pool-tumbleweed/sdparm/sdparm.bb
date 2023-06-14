@@ -15,13 +15,12 @@ PV = "1.12"
 RPM_NAME = "sdparm-1.12-2.4.aarch64.rpm"
 RPM_HASH = "696fab98dd2520fb8e05c4610f03118ded1753e32cd50aa54126ce3dff1ba78c61f85d8c6ff985a879a1f1bf9d826fd7b421e4df966a730cffc36161da1b94b2"
 
-RPROVIDES:${PN} += "scsi:/sbin/sdparm \
-sdparm \
-sdparm(aarch-64)"
+RPROVIDES:${PN} += "scsi-/sbin/sdparm \
+sdparm"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsgutils2-1.48.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsgutils2-1.48.so.2"
 
 inherit rpm

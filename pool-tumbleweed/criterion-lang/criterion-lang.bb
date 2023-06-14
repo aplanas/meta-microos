@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "criterion-lang \
 criterion-lang-all \
-locale(criterion:de) \
-locale(criterion:fr)"
+locale-criterion-de \
+locale-criterion-fr"
 
 RDEPENDS:${PN} += "criterion"
 

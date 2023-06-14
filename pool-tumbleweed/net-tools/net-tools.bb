@@ -10,12 +10,11 @@ PV = "2.10"
 RPM_NAME = "net-tools-2.10-2.1.aarch64.rpm"
 RPM_HASH = "350396140a40526b08f4c2737d669a3ababa2d62e3ef264187d769a749b42030d18a914bf71be8405f91323080640d642c6753fadc731970d7332e33b815a710"
 
-RPROVIDES:${PN} += "net-tools \
-net-tools(aarch-64) \
-net_tool"
+RPROVIDES:${PN} += "net-tool \
+net-tools"
 
 RDEPENDS:${PN} += "hostname \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

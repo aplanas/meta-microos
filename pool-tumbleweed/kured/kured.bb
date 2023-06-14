@@ -17,9 +17,8 @@ PV = "1.10.2"
 RPM_NAME = "kured-1.10.2-1.4.aarch64.rpm"
 RPM_HASH = "f61e9ae06133e5d0fb5984a3b1865eb8b7b2c6b57881f0bba65e6e2b7cb5b9bdc725c7bf2eea4fb2b17b89a33d612ed6dc9e30195621fb472747ab7245fa0bf2"
 
-RPROVIDES:${PN} += "kured \
-kured(aarch-64)"
+RPROVIDES:${PN} += "kured"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

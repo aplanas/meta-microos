@@ -12,8 +12,7 @@ PV = "1.13.1"
 RPM_NAME = "adios_1_13_1-gnu-openmpi4-hpc-devel-static-1.13.1-5.14.aarch64.rpm"
 RPM_HASH = "e21f624b7325a3e3c20ffaaa9bf56735cbe8ecdb6d1fd274d7a8aca25396e7f2f40142486e20d3eb575d373694be8026bc58c3d45a81fe406364a159d79fb164"
 
-RPROVIDES:${PN} += "adios_1_13_1-gnu-openmpi4-hpc-devel-static \
-adios_1_13_1-gnu-openmpi4-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "adios-1-13-1-gnu-openmpi4-hpc-devel-static"
 
 RDEPENDS:${PN} += ""
 

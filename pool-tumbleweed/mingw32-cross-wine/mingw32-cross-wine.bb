@@ -11,10 +11,10 @@ RPM_HASH = "ea7296f49c1e22c7e1a78310a5e4135669b96d24836ed8077ff5621e72d86e155016
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-cross-wine \
-rpm_macro(_mingw32_cross_wine_enable_dns) \
-rpm_macro(_mingw32_cross_wine_init) \
-rpm_macro(_mingw32_cross_wine_run) \
-rpm_macro(_mingw32_cross_wine_start_session)"
+rpm-macro--mingw32-cross-wine-enable-dns \
+rpm-macro--mingw32-cross-wine-init \
+rpm-macro--mingw32-cross-wine-run \
+rpm-macro--mingw32-cross-wine-start-session"
 
 RDEPENDS:${PN} += "mingw32-filesystem \
 wget \

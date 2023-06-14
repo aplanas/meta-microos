@@ -7,17 +7,16 @@ PV = "0.8.1"
 RPM_NAME = "libgtk-layer-shell0-0.8.1-1.1.aarch64.rpm"
 RPM_HASH = "4754a654d3b8bce052734164c62a330dca1aeab8979312cd187a2318855f40003f0b7690c1b5ab166ccc8334ea74d9dc55d61314946f695541dfff993574c202"
 
-RPROVIDES:${PN} += "libgtk-layer-shell.so.0()(64bit) \
-libgtk-layer-shell0 \
-libgtk-layer-shell0(aarch-64)"
+RPROVIDES:${PN} += "libgtk-layer-shell.so.0 \
+libgtk-layer-shell0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libwayland-client.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libwayland-client.so.0"
 
 inherit rpm

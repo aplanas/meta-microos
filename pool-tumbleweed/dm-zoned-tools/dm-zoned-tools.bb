@@ -10,18 +10,14 @@ PV = "2.2.0"
 RPM_NAME = "dm-zoned-tools-2.2.0-1.8.aarch64.rpm"
 RPM_HASH = "b5240b6c362dcf33c8a2e865c339bd2c353bb0206132234dc0f9e2ce6a55aa5b24b7682b8deb00a514f4e673a299dc1bf535dea1cbd376d215f9359ee05c1e97"
 
-RPROVIDES:${PN} += "dm-zoned-tools \
-dm-zoned-tools(aarch-64)"
+RPROVIDES:${PN} += "dm-zoned-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdevmapper.so.1.03()(64bit) \
-libdevmapper.so.1.03(Base)(64bit) \
-libkmod.so.2()(64bit) \
-libkmod.so.2(LIBKMOD_5)(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libuuid.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libdevmapper.so.1.03 \
+libkmod.so.2 \
+libudev.so.1 \
+libuuid.so.1"
 
 inherit rpm

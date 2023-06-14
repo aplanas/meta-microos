@@ -15,20 +15,19 @@ RPM_NAME = "xmonad-0.17.2-1.3.aarch64.rpm"
 RPM_HASH = "351868412735d887e36ec79ebed58bd46fc6098483307818842a34d0c843868d6ce262db67e172b056fdc1d63b81703b6feab9fdf8facfe04b35b3cdd2c63f17"
 
 RPROVIDES:${PN} += "windowmanager \
-xmonad \
-xmonad(aarch-64)"
+xmonad"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXss.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXss.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libnuma.so.1"
 
 inherit rpm

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-innerscript-2023.201.1.1svn57672-52.1.noarch.rpm"
 RPM_HASH = "69562b5f647d2db87bf8c5efc94f88d6d4c52483eafba1270f64510d6a6485e2a5efcc3f923cffc66784104a91e9cc33171b8fc954940168e2d4d2c69f813235"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(innerscript.sty) \
+RPROVIDES:${PN} += "tex-innerscript.sty \
 texlive-innerscript"
 
 RDEPENDS:${PN} += "/bin/sh \

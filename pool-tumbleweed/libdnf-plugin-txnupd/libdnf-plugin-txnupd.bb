@@ -9,20 +9,19 @@ PV = "0.1.3"
 RPM_NAME = "libdnf-plugin-txnupd-0.1.3-1.12.aarch64.rpm"
 RPM_HASH = "b162244db489b04a919fab516d4a424859969cf44c7d99173d9c5b4c685f0765ef53f8938e7e7bb168fc3d64af6cf9d8f532f9af092152663912c77a3cfae95d"
 
-RPROVIDES:${PN} += "libdnf-plugin-txnupd \
-libdnf-plugin-txnupd(aarch-64)"
+RPROVIDES:${PN} += "libdnf-plugin-txnupd"
 
-RDEPENDS:${PN} += "(PackageKit-backend-dnf if PackageKit) \
-(microdnf or PackageKit) \
+RDEPENDS:${PN} += "-PackageKit-backend-dnf if PackageKit \
+-microdnf or PackageKit \
 dnf-data \
 dracut-transactional-update \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdnf.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdnf.so.2 \
 libdnf2 \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtukit.so.4()(64bit) \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libtukit.so.4 \
 libtukit4"
 
 inherit rpm

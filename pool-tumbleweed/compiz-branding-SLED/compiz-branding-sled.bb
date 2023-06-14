@@ -12,8 +12,7 @@ RPM_HASH = "9fe0d5be9b1cbc02b44c4a5501ad6eabcc581493b08e7bc7b0b835056970cf5fdb07
 
 RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-SLE \
-compiz-branding-SLED \
-compiz-branding-SLED(aarch-64)"
+compiz-branding-SLED"
 
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \

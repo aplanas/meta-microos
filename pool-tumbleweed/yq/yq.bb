@@ -10,9 +10,8 @@ PV = "4.33.3"
 RPM_NAME = "yq-4.33.3-1.2.aarch64.rpm"
 RPM_HASH = "87d0f8b738eb775dcad076b9a60374162ed377af9138cef76c4f37512d006a633923af0cef3c702afb2a0e1398de1430ff7f07f82fef62fce03092cb549fbf66"
 
-RPROVIDES:${PN} += "yq \
-yq(aarch-64)"
+RPROVIDES:${PN} += "yq"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

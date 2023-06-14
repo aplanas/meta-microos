@@ -10,11 +10,11 @@ RPM_HASH = "7f48a9d13eee28093f116c2d491b667dc752a7d6f049a9f075d14cdcf3b17145fbfd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-betamax-matchers \
-python3.10dist(betamax-matchers) \
+python3.10dist-betamax-matchers \
 python310-betamax-matchers \
-python3dist(betamax-matchers)"
+python3dist-betamax-matchers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-betamax \
 python310-requests-toolbelt"
 

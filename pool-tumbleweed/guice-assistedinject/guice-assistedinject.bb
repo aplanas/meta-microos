@@ -10,14 +10,14 @@ RPM_HASH = "1ed76acee63f243aab0140c8811b1a1b40f29804be1dff9a0707ba75ae9ef1cb3067
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-assistedinject \
-mvn(com.google.inject.extensions:guice-assistedinject) \
-mvn(com.google.inject.extensions:guice-assistedinject:pom:) \
-mvn(org.sonatype.sisu.inject:guice-assistedinject) \
-mvn(org.sonatype.sisu.inject:guice-assistedinject:pom:) \
-osgi(com.google.inject.assistedinject)"
+mvn-com.google.inject.extensions-guice-assistedinject \
+mvn-com.google.inject.extensions-guice-assistedinject-pom- \
+mvn-org.sonatype.sisu.inject-guice-assistedinject \
+mvn-org.sonatype.sisu.inject-guice-assistedinject-pom- \
+osgi-com.google.inject.assistedinject"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.truth:truth)"
+mvn-com.google.truth-truth"
 
 inherit rpm

@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkchart-lang \
 libkchart-lang-all \
-locale(libkchart:ar) \
-locale(libkchart:ast) \
-locale(libkchart:bs) \
-locale(libkchart:ca) \
-locale(libkchart:ca@valencia) \
-locale(libkchart:cs) \
-locale(libkchart:de) \
-locale(libkchart:el) \
-locale(libkchart:en_GB) \
-locale(libkchart:es) \
-locale(libkchart:et) \
-locale(libkchart:eu) \
-locale(libkchart:fi) \
-locale(libkchart:fr) \
-locale(libkchart:gl) \
-locale(libkchart:it) \
-locale(libkchart:ko) \
-locale(libkchart:nl) \
-locale(libkchart:nn) \
-locale(libkchart:pl) \
-locale(libkchart:pt) \
-locale(libkchart:pt_BR) \
-locale(libkchart:ro) \
-locale(libkchart:ru) \
-locale(libkchart:sk) \
-locale(libkchart:sv) \
-locale(libkchart:tr) \
-locale(libkchart:uk) \
-locale(libkchart:zh_CN) \
-locale(libkchart:zh_TW)"
+locale-libkchart-ar \
+locale-libkchart-ast \
+locale-libkchart-bs \
+locale-libkchart-ca \
+locale-libkchart-ca@valencia \
+locale-libkchart-cs \
+locale-libkchart-de \
+locale-libkchart-el \
+locale-libkchart-en-GB \
+locale-libkchart-es \
+locale-libkchart-et \
+locale-libkchart-eu \
+locale-libkchart-fi \
+locale-libkchart-fr \
+locale-libkchart-gl \
+locale-libkchart-it \
+locale-libkchart-ko \
+locale-libkchart-nl \
+locale-libkchart-nn \
+locale-libkchart-pl \
+locale-libkchart-pt \
+locale-libkchart-pt-BR \
+locale-libkchart-ro \
+locale-libkchart-ru \
+locale-libkchart-sk \
+locale-libkchart-sv \
+locale-libkchart-tr \
+locale-libkchart-uk \
+locale-libkchart-zh-CN \
+locale-libkchart-zh-TW"
 
 RDEPENDS:${PN} += "libkchart"
 

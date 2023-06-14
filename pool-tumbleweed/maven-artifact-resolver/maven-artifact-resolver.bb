@@ -9,11 +9,11 @@ RPM_HASH = "1f8a001031d69cea4c54159899da00989d112f98c6110e4547b2533ef27b7f1f0573
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-artifact-resolver \
-mvn(org.apache.maven.shared:maven-artifact-resolver) \
-mvn(org.apache.maven.shared:maven-artifact-resolver:pom:)"
+mvn-org.apache.maven.shared-maven-artifact-resolver \
+mvn-org.apache.maven.shared-maven-artifact-resolver-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-compat)"
+mvn-org.apache.maven-maven-compat"
 
 inherit rpm

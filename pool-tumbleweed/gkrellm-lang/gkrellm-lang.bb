@@ -10,22 +10,22 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gkrellm-lang \
 gkrellm-lang-all \
-locale(gkrellm:bg) \
-locale(gkrellm:cs) \
-locale(gkrellm:da) \
-locale(gkrellm:de) \
-locale(gkrellm:es) \
-locale(gkrellm:fr) \
-locale(gkrellm:it) \
-locale(gkrellm:ja) \
-locale(gkrellm:nl) \
-locale(gkrellm:pl) \
-locale(gkrellm:pt) \
-locale(gkrellm:pt_BR) \
-locale(gkrellm:ru) \
-locale(gkrellm:sl) \
-locale(gkrellm:sv) \
-locale(gkrellm:uk)"
+locale-gkrellm-bg \
+locale-gkrellm-cs \
+locale-gkrellm-da \
+locale-gkrellm-de \
+locale-gkrellm-es \
+locale-gkrellm-fr \
+locale-gkrellm-it \
+locale-gkrellm-ja \
+locale-gkrellm-nl \
+locale-gkrellm-pl \
+locale-gkrellm-pt \
+locale-gkrellm-pt-BR \
+locale-gkrellm-ru \
+locale-gkrellm-sl \
+locale-gkrellm-sv \
+locale-gkrellm-uk"
 
 RDEPENDS:${PN} += "gkrellm"
 

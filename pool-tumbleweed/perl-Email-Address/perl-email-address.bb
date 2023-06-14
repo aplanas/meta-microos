@@ -23,9 +23,9 @@ RPM_NAME = "perl-Email-Address-1.913-1.1.noarch.rpm"
 RPM_HASH = "4fdd3146b949560f02da1d5db3b3e74515d16023033bd174d342e94c8005f18612c75f2c8715ba4419b40abf3a63c2768dce05c728f8a1d2962d41ff4c57e2c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Email::Address) \
+RPROVIDES:${PN} += "perl-Email--Address \
 perl-Email-Address"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

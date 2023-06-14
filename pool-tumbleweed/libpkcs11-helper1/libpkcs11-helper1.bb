@@ -11,13 +11,12 @@ PV = "1.29.0"
 RPM_NAME = "libpkcs11-helper1-1.29.0-1.3.aarch64.rpm"
 RPM_HASH = "d5f356645029dabad6aded7ba376c3aa9d2bdec468d798cbb9db2549c355121ea19d64d8e4be29eef556ae08850f7b7538ee0324c5ceda838d17311768261c60"
 
-RPROVIDES:${PN} += "libpkcs11-helper.so.1()(64bit) \
-libpkcs11-helper1 \
-libpkcs11-helper1(aarch-64)"
+RPROVIDES:${PN} += "libpkcs11-helper.so.1 \
+libpkcs11-helper1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3"
 
 inherit rpm

@@ -19,7 +19,7 @@ python3-dnf-plugins-extras-repoclosure \
 python3-dnf-plugins-extras-repograph \
 python3-dnf-plugins-extras-repomanage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-dateutil \
 python3-dbus-python \
 python3-distro \

@@ -9,11 +9,11 @@ RPM_HASH = "9eed745f74b3d7d5e8943ef87e9abde087d23464d14fd831f3ce596bfe85cd2be1bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opencensus-ext-azure \
-python3.10dist(opencensus-ext-azure) \
+python3.10dist-opencensus-ext-azure \
 python310-opencensus-ext-azure \
-python3dist(opencensus-ext-azure)"
+python3dist-opencensus-ext-azure"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-identity \
 python310-opencensus \

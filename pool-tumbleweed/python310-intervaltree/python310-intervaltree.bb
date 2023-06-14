@@ -13,11 +13,11 @@ RPM_HASH = "f8de16689fda5d42d357622794e18ac11fc665fb299db5458fba06dc6376259b79b0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-intervaltree \
-python3.10dist(intervaltree) \
+python3.10dist-intervaltree \
 python310-intervaltree \
-python3dist(intervaltree)"
+python3dist-intervaltree"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-sortedcontainers"
 
 inherit rpm

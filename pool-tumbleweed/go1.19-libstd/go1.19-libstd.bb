@@ -9,9 +9,8 @@ RPM_HASH = "b1768b03c6e9556cbdbdd751922dda07ba824f51808b4a2f8b707887b7bf13292878
 
 RPROVIDES:${PN} += "go-libstd \
 go1.19-libstd \
-go1.19-libstd(aarch-64) \
-libstd.so()(64bit)"
+libstd.so"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

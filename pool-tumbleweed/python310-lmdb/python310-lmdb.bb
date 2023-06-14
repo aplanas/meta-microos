@@ -23,14 +23,13 @@ RPM_NAME = "python310-lmdb-1.4.1-1.1.aarch64.rpm"
 RPM_HASH = "cea9ea382cac18cbe4b035c4d2ff0255bf3911294a08d3352ca6486e879da7e13b6ace78f91968fbac0dd2ac3737a3ae2acae63e53eec3386028c149a3ecb6b9"
 
 RPROVIDES:${PN} += "python3-lmdb \
-python3.10dist(lmdb) \
+python3.10dist-lmdb \
 python310-lmdb \
-python310-lmdb(aarch-64) \
-python3dist(lmdb)"
+python3dist-lmdb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblmdb-0.9.30.so()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblmdb-0.9.30.so \
+python-abi"
 
 inherit rpm

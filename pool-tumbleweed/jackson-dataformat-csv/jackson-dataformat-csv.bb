@@ -11,14 +11,14 @@ RPM_HASH = "17ad3c18821f79116bbb4ef0c82a3805d99e16af523f10abded77816cc671ec85faf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-csv \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-csv) \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-csv:pom:) \
-osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-csv)"
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-csv \
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-csv-pom- \
+osgi-com.fasterxml.jackson.dataformat.jackson-dataformat-csv"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-annotations) \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind)"
+mvn-com.fasterxml.jackson.core-jackson-annotations \
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind"
 
 inherit rpm

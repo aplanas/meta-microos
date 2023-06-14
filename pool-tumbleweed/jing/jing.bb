@@ -21,19 +21,19 @@ RPM_HASH = "52ecab51a118a745145efe425106f1281085e8bdca0b908aac2f5e59efd197152ea8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jing \
-mvn(com.thaiopensource:jing) \
-mvn(org.relaxng:jing) \
-mvn(org.relaxng:jing:pom:)"
+mvn-com.thaiopensource-jing \
+mvn-org.relaxng-jing \
+mvn-org.relaxng-jing-pom-"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \
 jpackage-utils \
-mvn(com.github.relaxng:relaxngDatatype) \
-mvn(isorelax:isorelax) \
-mvn(net.sf.saxon:saxon) \
-mvn(xerces:xercesImpl) \
-mvn(xml-apis:xml-apis) \
-mvn(xml-resolver:xml-resolver)"
+mvn-com.github.relaxng-relaxngDatatype \
+mvn-isorelax-isorelax \
+mvn-net.sf.saxon-saxon \
+mvn-xerces-xercesImpl \
+mvn-xml-apis-xml-apis \
+mvn-xml-resolver-xml-resolver"
 
 inherit rpm

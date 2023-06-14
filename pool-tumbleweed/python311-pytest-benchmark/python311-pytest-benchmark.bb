@@ -9,13 +9,13 @@ RPM_NAME = "python311-pytest-benchmark-4.0.0-4.1.noarch.rpm"
 RPM_HASH = "ab97ee3287e56a78d5f922a8246e6cc1337ba24d4e4dd02e9e0619fc65d7dfcc4f3fafeca7c55a49fe23f3115b9c1502be7f72788e3e606984a426e32ae0bc05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-benchmark) \
+RPROVIDES:${PN} += "python3.11dist-pytest-benchmark \
 python311-pytest-benchmark \
-python3dist(pytest-benchmark)"
+python3dist-pytest-benchmark"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-py-cpuinfo \
 python311-pytest \
 update-alternatives"

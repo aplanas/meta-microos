@@ -13,10 +13,10 @@ RPM_HASH = "4756509a01bf677db55b292020cc6e3e2d0ed1df9d035f212a0b74521bb9eeec8533
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-concurrentloghandler \
-python3.10dist(concurrent-log-handler) \
+python3.10dist-concurrent-log-handler \
 python310-concurrentloghandler \
-python3dist(concurrent-log-handler)"
+python3dist-concurrent-log-handler"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

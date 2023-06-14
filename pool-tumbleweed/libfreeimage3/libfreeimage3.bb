@@ -9,27 +9,25 @@ PV = "3.18.0"
 RPM_NAME = "libfreeimage3-3.18.0-6.3.aarch64.rpm"
 RPM_HASH = "816402a059f5bf2d998f830389e79d6ee43c2125d1732560bd2f6419e5a4aec5c521d41996e9a4f7f322c3e0404a4b917f544dd758febc382442c12fd7712176"
 
-RPROVIDES:${PN} += "libfreeimage.so.3()(64bit) \
-libfreeimage3 \
-libfreeimage3(aarch-64)"
+RPROVIDES:${PN} += "libfreeimage.so.3 \
+libfreeimage3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libIex-3_1.so.30()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libjxrglue.so.0()(64bit) \
-libopenjp2.so.7()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libraw.so.23()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libwebp.so.7()(64bit) \
-libwebpmux.so.3()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libIex-3-1.so.30 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libjxrglue.so.0 \
+libopenjp2.so.7 \
+libpng16.so.16 \
+libraw.so.23 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libwebp.so.7 \
+libwebpmux.so.3 \
+libz.so.1"
 
 inherit rpm

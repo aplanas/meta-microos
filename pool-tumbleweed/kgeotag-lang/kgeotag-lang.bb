@@ -10,29 +10,29 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgeotag-lang \
 kgeotag-lang-all \
-locale(kgeotag:ca) \
-locale(kgeotag:ca@valencia) \
-locale(kgeotag:cs) \
-locale(kgeotag:de) \
-locale(kgeotag:en_GB) \
-locale(kgeotag:es) \
-locale(kgeotag:fi) \
-locale(kgeotag:fr) \
-locale(kgeotag:it) \
-locale(kgeotag:ko) \
-locale(kgeotag:nl) \
-locale(kgeotag:nn) \
-locale(kgeotag:pa) \
-locale(kgeotag:pl) \
-locale(kgeotag:pt) \
-locale(kgeotag:pt_BR) \
-locale(kgeotag:ru) \
-locale(kgeotag:sk) \
-locale(kgeotag:sl) \
-locale(kgeotag:sv) \
-locale(kgeotag:tr) \
-locale(kgeotag:uk) \
-locale(kgeotag:zh_CN)"
+locale-kgeotag-ca \
+locale-kgeotag-ca@valencia \
+locale-kgeotag-cs \
+locale-kgeotag-de \
+locale-kgeotag-en-GB \
+locale-kgeotag-es \
+locale-kgeotag-fi \
+locale-kgeotag-fr \
+locale-kgeotag-it \
+locale-kgeotag-ko \
+locale-kgeotag-nl \
+locale-kgeotag-nn \
+locale-kgeotag-pa \
+locale-kgeotag-pl \
+locale-kgeotag-pt \
+locale-kgeotag-pt-BR \
+locale-kgeotag-ru \
+locale-kgeotag-sk \
+locale-kgeotag-sl \
+locale-kgeotag-sv \
+locale-kgeotag-tr \
+locale-kgeotag-uk \
+locale-kgeotag-zh-CN"
 
 RDEPENDS:${PN} += "kgeotag"
 

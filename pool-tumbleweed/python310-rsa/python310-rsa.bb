@@ -11,15 +11,15 @@ RPM_HASH = "c1212460d9822bd9f68e94225c544f2d56d810686de32ab53db8e9119f97d280456a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rsa \
-python3.10dist(rsa) \
+python3.10dist-rsa \
 python310-rsa \
-python3dist(rsa)"
+python3dist-rsa"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
 coreutils \
-python(abi) \
+python-abi \
 python310-pyasn1"
 
 inherit rpm

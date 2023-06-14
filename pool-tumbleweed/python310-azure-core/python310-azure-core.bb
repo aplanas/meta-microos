@@ -17,12 +17,12 @@ RPM_HASH = "0c2a27b3f1dce8e38943942f101748aaf6691547d2ea2e854f877518d13ee74543d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-core \
-python3.10dist(azure-core) \
+python3.10dist-azure-core \
 python310-azure-core \
-python3dist(azure-core)"
+python3dist-azure-core"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-aiohttp \
 python310-azure-nspkg \
 python310-requests"

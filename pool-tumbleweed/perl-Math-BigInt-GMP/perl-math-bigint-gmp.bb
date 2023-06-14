@@ -14,14 +14,13 @@ PV = "1.6012"
 RPM_NAME = "perl-Math-BigInt-GMP-1.6012-1.1.aarch64.rpm"
 RPM_HASH = "00a95c7290bb8d072af1ba7f6a990376cb5debd1703c3a66728bb4a4cdc4e4c22c96904d00312f932ae4d231bad50122e01d8713f4c4f537dd620b2573a52b58"
 
-RPROVIDES:${PN} += "perl(Math::BigInt::GMP) \
-perl-Math-BigInt-GMP \
-perl-Math-BigInt-GMP(aarch-64)"
+RPROVIDES:${PN} += "perl-Math--BigInt--GMP \
+perl-Math-BigInt-GMP"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Carp) \
-perl(Math::BigInt)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgmp.so.10 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Carp \
+perl-Math--BigInt"
 
 inherit rpm

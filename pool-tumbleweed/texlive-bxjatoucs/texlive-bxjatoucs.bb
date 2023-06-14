@@ -13,9 +13,9 @@ RPM_NAME = "texlive-bxjatoucs-2023.201.0.0.2svn52509-52.1.noarch.rpm"
 RPM_HASH = "b77efd3025598a0d1e07dd10762216a966e17a505b1d9f9d4345c8ae3ef94e33638a4912ee113c186930fb4a8376203ce21688b060608d809d8f2620b6481642"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxjatoucs-cid.tfm) \
-tex(bxjatoucs-jis.tfm) \
-tex(bxjatoucs.sty) \
+RPROVIDES:${PN} += "tex-bxjatoucs-cid.tfm \
+tex-bxjatoucs-jis.tfm \
+tex-bxjatoucs.sty \
 texlive-bxjatoucs"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(infwarerr.sty) \
-tex(ltxcmds.sty) \
+tex-infwarerr.sty \
+tex-ltxcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,13 +10,13 @@ RPM_HASH = "40d2a1e4ba2c00fdcdc722f3f203fe6b225b15c814feaee73b5a858ec0e566214a5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mrcfile \
-python3.10dist(mrcfile) \
+python3.10dist-mrcfile \
 python310-mrcfile \
-python3dist(mrcfile)"
+python3dist-mrcfile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-numpy \
 update-alternatives"
 

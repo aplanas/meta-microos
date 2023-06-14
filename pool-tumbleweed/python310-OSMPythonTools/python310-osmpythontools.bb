@@ -9,11 +9,11 @@ RPM_HASH = "b167c200651c26bdd0dcd11c42321d12e96012a3e7ba483fe2c15821a233a59f3e14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-OSMPythonTools \
-python3.10dist(osmpythontools) \
+python3.10dist-osmpythontools \
 python310-OSMPythonTools \
-python3dist(osmpythontools)"
+python3dist-osmpythontools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-beautifulsoup4 \
 python310-geojson \
 python310-lxml \

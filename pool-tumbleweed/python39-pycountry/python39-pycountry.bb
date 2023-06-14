@@ -12,11 +12,11 @@ RPM_NAME = "python39-pycountry-22.3.5-2.1.noarch.rpm"
 RPM_HASH = "a334a4d23df646bbee999255dda0ceb779f3a3f3f9f38fb134cd48c50c3fb14633d8b28bdeb395f4dcce77dcd29b3023622de799ecee50813d99156b9b08c59e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pycountry) \
+RPROVIDES:${PN} += "python3.9dist-pycountry \
 python39-pycountry \
-python3dist(pycountry)"
+python3dist-pycountry"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-lxml"
 
 inherit rpm

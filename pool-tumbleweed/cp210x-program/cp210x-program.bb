@@ -11,11 +11,11 @@ RPM_HASH = "46c226463434da530a809961c96260f9a27df89b6716301e950c0db594f06cf25c58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cp210x-program \
-python3.10dist(cp210x-program) \
-python3dist(cp210x-program)"
+python3.10dist-cp210x-program \
+python3dist-cp210x-program"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-pyusb"
 
 inherit rpm

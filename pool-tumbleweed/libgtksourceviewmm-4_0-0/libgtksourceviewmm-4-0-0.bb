@@ -7,26 +7,25 @@ PV = "3.91.1"
 RPM_NAME = "libgtksourceviewmm-4_0-0-3.91.1-1.16.aarch64.rpm"
 RPM_HASH = "bf101c2a6341ac7942ec0ffb1ea7736509ed92ed53a41dacd9ee98e0df4ab6e712ae0ed368569620ff0c027a88d93e03be2554c7ab43d7f8cee75165b9d67c31"
 
-RPROVIDES:${PN} += "libgtksourceviewmm-4.0.so.0()(64bit) \
-libgtksourceviewmm-4_0-0 \
-libgtksourceviewmm-4_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgtksourceviewmm-4-0-0 \
+libgtksourceviewmm-4.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libatkmm-1.6.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairomm-1.0.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdkmm-3.0.so.1()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkmm-3.0.so.1()(64bit) \
-libgtksourceview-4.so.0()(64bit) \
-libpangomm-1.4.so.1()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libatkmm-1.6.so.1 \
+libc.so.6 \
+libcairomm-1.0.so.1 \
+libgcc-s.so.1 \
+libgdkmm-3.0.so.1 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtkmm-3.0.so.1 \
+libgtksourceview-4.so.0 \
+libpangomm-1.4.so.1 \
+libsigc-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

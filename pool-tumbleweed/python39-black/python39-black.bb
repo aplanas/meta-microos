@@ -16,23 +16,23 @@ RPM_NAME = "python39-black-23.3.0-2.1.noarch.rpm"
 RPM_HASH = "59f38ff9494a64fc35d7da2fc9590028a9b77dd7e41a8e84611bea34517df21b5226f77779e7d4aee9463eeac8195558c9585717e6f6bb2517252ed98edc4ca4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(black) \
+RPROVIDES:${PN} += "python3.9dist-black \
 python39-black \
-python3dist(black)"
+python3dist-black"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-aiohttp \
-python39-aiohttp_cors \
+python39-aiohttp-cors \
 python39-attrs \
 python39-click \
-python39-mypy_extensions \
+python39-mypy-extensions \
 python39-packaging \
 python39-pathspec \
 python39-platformdirs \
 python39-tomli \
-python39-typing_extensions \
+python39-typing-extensions \
 update-alternatives"
 
 inherit rpm

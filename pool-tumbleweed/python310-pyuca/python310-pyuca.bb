@@ -11,10 +11,10 @@ RPM_HASH = "90fb87bd3c7026624b4ba36b884c4777b34cc1468392ae5e1964b49a78c0a0588568
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyuca \
-python3.10dist(pyuca) \
+python3.10dist-pyuca \
 python310-pyuca \
-python3dist(pyuca)"
+python3dist-pyuca"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

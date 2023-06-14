@@ -9,18 +9,18 @@ RPM_HASH = "fb7d538410e8de65c7ca9caa0b6d77258a9f0c7cab6f7a85c45008a0abc4ef0a547f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-maven-plugin \
-mvn(com.sun.istack:istack-commons-maven-plugin) \
-mvn(com.sun.istack:istack-commons-maven-plugin:pom:)"
+mvn-com.sun.istack-istack-commons-maven-plugin \
+mvn-com.sun.istack-istack-commons-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.codemodel:codemodel) \
-mvn(org.apache.maven.resolver:maven-resolver-impl) \
-mvn(org.apache.maven.shared:file-management) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-archiver) \
-mvn(org.codehaus.plexus:plexus-io) \
-mvn(org.tukaani:xz)"
+mvn-com.sun.codemodel-codemodel \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.resolver-maven-resolver-impl \
+mvn-org.apache.maven.shared-file-management \
+mvn-org.codehaus.plexus-plexus-archiver \
+mvn-org.codehaus.plexus-plexus-io \
+mvn-org.tukaani-xz"
 
 inherit rpm

@@ -9,15 +9,14 @@ PV = "1.4.2"
 RPM_NAME = "octave-forge-mapping-1.4.2-1.10.aarch64.rpm"
 RPM_HASH = "9db4008dfb13454673ccc6e399969291dfdc37cc27b235f55fabea5dfc1f2ed4bdc25b95e6abb21a4d3ddfa10188ee0cacc80e755c8dbf11f153fbd23fb21527"
 
-RPROVIDES:${PN} += "octave-forge-mapping \
-octave-forge-mapping(aarch-64)"
+RPROVIDES:${PN} += "octave-forge-mapping"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdal.so.32()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdal.so.32 \
+libstdc++.so.6 \
 octave-cli \
 octave-forge-geometry \
 octave-forge-io"

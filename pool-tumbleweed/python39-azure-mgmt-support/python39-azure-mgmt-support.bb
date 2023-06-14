@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-mgmt-support-6.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "8c5cd42e9a8b33365a8a00028eba98cf3ae5b40d41f5b982ea128552629331be00ddc2b1407cc231d2e4e918f8c6bf2f14f59aac675f41281df01886390fe913"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-support) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-support \
 python39-azure-mgmt-support \
-python3dist(azure-mgmt-support)"
+python3dist-azure-mgmt-support"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

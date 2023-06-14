@@ -14,14 +14,13 @@ PV = "1.26"
 RPM_NAME = "libflickcurl0-1.26-3.24.aarch64.rpm"
 RPM_HASH = "79e133ee78883d3a2ba6a1d6791ab072db968583a6294fe127e18e3bc8bb1a902dbd96e228ed7dd43a81358ba170c2f78ba486e185194a9b3e5ac314f9c6b115"
 
-RPROVIDES:${PN} += "libflickcurl.so.0()(64bit) \
-libflickcurl0 \
-libflickcurl0(aarch-64)"
+RPROVIDES:${PN} += "libflickcurl.so.0 \
+libflickcurl0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libxml2.so.2"
 
 inherit rpm

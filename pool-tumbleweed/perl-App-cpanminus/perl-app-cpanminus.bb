@@ -13,33 +13,33 @@ RPM_HASH = "dfaaba4916f2c6e712395301d0797a18811a6b9cd23b3f6761e2812af17377f0d122
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpanm \
-perl(App::cpanminus) \
-perl(App::cpanminus::Dependency) \
-perl(App::cpanminus::fatscript) \
-perl(App::cpanminus::script) \
-perl(ModuleBuildSkipMan) \
-perl-App-cpanminus"
+perl-App--cpanminus \
+perl-App--cpanminus--Dependency \
+perl-App--cpanminus--fatscript \
+perl-App--cpanminus--script \
+perl-App-cpanminus \
+perl-ModuleBuildSkipMan"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(CPAN::DistnameInfo) \
-perl(CPAN::Meta) \
-perl(CPAN::Meta::Check) \
-perl(CPAN::Meta::Prereqs) \
-perl(CPAN::Meta::YAML) \
-perl(Digest::SHA) \
-perl(ExtUtils::Install) \
-perl(ExtUtils::MakeMaker) \
-perl(ExtUtils::Manifest) \
-perl(File::pushd) \
-perl(HTTP::Tiny) \
-perl(Module::Build) \
-perl(Module::CPANfile) \
-perl(Module::CoreList) \
-perl(Module::Metadata) \
-perl(Parse::PMFile) \
-perl(String::ShellQuote) \
-perl(YAML) \
-perl(local::lib)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-CPAN--DistnameInfo \
+perl-CPAN--Meta \
+perl-CPAN--Meta--Check \
+perl-CPAN--Meta--Prereqs \
+perl-CPAN--Meta--YAML \
+perl-Digest--SHA \
+perl-ExtUtils--Install \
+perl-ExtUtils--MakeMaker \
+perl-ExtUtils--Manifest \
+perl-File--pushd \
+perl-HTTP--Tiny \
+perl-Module--Build \
+perl-Module--CPANfile \
+perl-Module--CoreList \
+perl-Module--Metadata \
+perl-Parse--PMFile \
+perl-String--ShellQuote \
+perl-YAML \
+perl-local--lib"
 
 inherit rpm

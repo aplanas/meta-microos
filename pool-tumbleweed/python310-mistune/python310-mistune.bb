@@ -10,10 +10,10 @@ RPM_HASH = "7d507aee31b3556b84aee1bbe606abbe4e265dec025e5ff3929e38d69cd53a88a4a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mistune \
-python3.10dist(mistune) \
+python3.10dist-mistune \
 python310-mistune \
-python3dist(mistune)"
+python3dist-mistune"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

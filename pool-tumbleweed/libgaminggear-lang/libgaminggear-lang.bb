@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgaminggear-lang \
 libgaminggear-lang-all \
-locale(libgaminggear:de) \
-locale(libgaminggear:en)"
+locale-libgaminggear-de \
+locale-libgaminggear-en"
 
 RDEPENDS:${PN} += "libgaminggear"
 

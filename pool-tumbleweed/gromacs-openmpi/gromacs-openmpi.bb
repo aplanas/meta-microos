@@ -10,15 +10,14 @@ PV = "2023"
 RPM_NAME = "gromacs-openmpi-2023-1.1.aarch64.rpm"
 RPM_HASH = "693995b32d13cfab6f277f7c1a8d03ad01f80ae672fb5a77449add5e0922ea8d6b688970f8fe565ed0155a1220bc9e5da058c5a41a52c7524e7ab36156f8130b"
 
-RPROVIDES:${PN} += "gromacs-openmpi \
-gromacs-openmpi(aarch-64)"
+RPROVIDES:${PN} += "gromacs-openmpi"
 
 RDEPENDS:${PN} += "gromacs-data \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgromacs_mpi.so.8()(64bit) \
-libmpi.so.40()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgromacs-mpi.so.8 \
+libmpi.so.40 \
+libstdc++.so.6"
 
 inherit rpm

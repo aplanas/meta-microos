@@ -9,11 +9,11 @@ RPM_HASH = "ac20ab841c33ee7e63991f20b680680a19afbff08f7839594b6b629809badc66682f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-matrix-nio \
-python3.10dist(matrix-nio) \
+python3.10dist-matrix-nio \
 python310-matrix-nio \
-python3dist(matrix-nio)"
+python3dist-matrix-nio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Logbook \
 python310-aiofiles \
 python310-aiohttp \

@@ -31,13 +31,13 @@ RPM_HASH = "2032e0a1455de7780d0b7a4887ef8f3d4590533f814828695bdba8841e1b4e88e6d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sortinghat \
-python3.10dist(sortinghat) \
+python3.10dist-sortinghat \
 python310-sortinghat \
-python3dist(sortinghat)"
+python3dist-sortinghat"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-PyMySQL \
 python310-PyYAML \

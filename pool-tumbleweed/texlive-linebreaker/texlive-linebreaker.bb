@@ -12,7 +12,7 @@ RPM_NAME = "texlive-linebreaker-2023.201.0.0.1bsvn66461-54.1.noarch.rpm"
 RPM_HASH = "a933f30e756878f50c8a3e3c708328871570cb6f083f0d24cf9cd53e3ee790470212d970fe2d2da6839b7f41fef7bda1ef53d66cb47872549761f5f2b1fd58a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(linebreaker.sty) \
+RPROVIDES:${PN} += "tex-linebreaker.sty \
 texlive-linebreaker"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(luatexbase.sty) \
+tex-luatexbase.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,10 +9,10 @@ RPM_HASH = "14f3d992974efe814f9c2ab53e6129f98825b349add979249b59e2ce65637cd3aadf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-screeninfo \
-python3.10dist(screeninfo) \
+python3.10dist-screeninfo \
 python310-screeninfo \
-python3dist(screeninfo)"
+python3dist-screeninfo"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

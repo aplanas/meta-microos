@@ -9,30 +9,28 @@ PV = "0.4.2"
 RPM_NAME = "libfife0_4_2-0.4.2-5.16.aarch64.rpm"
 RPM_HASH = "aae1c5b22c7a24e038d349ee70d5287a82fcf0f17457aaa5af5958f4fcc4dee3465259e82056c133ae1e87ff313ddde347dd0b642a897561f37e404b445f1bbe"
 
-RPROVIDES:${PN} += "libfife.so.0.4.2()(64bit) \
-libfife0_4_2 \
-libfife0_4_2(aarch-64)"
+RPROVIDES:${PN} += "libfife.so.0.4.2 \
+libfife0-4-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libSDL2_ttf-2.0.so.0()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libfifechan.so.0.1.5()(64bit) \
-libfifechan_opengl.so.0.1.5()(64bit) \
-libfifechan_sdl.so.0.1.5()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopenal.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtinyxml.so.0()(64bit) \
-libvorbisfile.so.3()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libSDL2-ttf-2.0.so.0 \
+libboost-filesystem.so.1.82.0 \
+libc.so.6 \
+libfifechan-opengl.so.0.1.5 \
+libfifechan-sdl.so.0.1.5 \
+libfifechan.so.0.1.5 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopenal.so.1 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtinyxml.so.0 \
+libvorbisfile.so.3 \
+libz.so.1"
 
 inherit rpm

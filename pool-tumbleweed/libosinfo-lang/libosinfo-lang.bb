@@ -10,25 +10,25 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libosinfo-lang \
 libosinfo-lang-all \
-locale(libosinfo:ca) \
-locale(libosinfo:cs) \
-locale(libosinfo:de) \
-locale(libosinfo:es) \
-locale(libosinfo:eu) \
-locale(libosinfo:fi) \
-locale(libosinfo:fr) \
-locale(libosinfo:fur) \
-locale(libosinfo:id) \
-locale(libosinfo:it) \
-locale(libosinfo:ja) \
-locale(libosinfo:ko) \
-locale(libosinfo:pl) \
-locale(libosinfo:pt_BR) \
-locale(libosinfo:pt_PT) \
-locale(libosinfo:ru) \
-locale(libosinfo:si) \
-locale(libosinfo:tr) \
-locale(libosinfo:uk)"
+locale-libosinfo-ca \
+locale-libosinfo-cs \
+locale-libosinfo-de \
+locale-libosinfo-es \
+locale-libosinfo-eu \
+locale-libosinfo-fi \
+locale-libosinfo-fr \
+locale-libosinfo-fur \
+locale-libosinfo-id \
+locale-libosinfo-it \
+locale-libosinfo-ja \
+locale-libosinfo-ko \
+locale-libosinfo-pl \
+locale-libosinfo-pt-BR \
+locale-libosinfo-pt-PT \
+locale-libosinfo-ru \
+locale-libosinfo-si \
+locale-libosinfo-tr \
+locale-libosinfo-uk"
 
 RDEPENDS:${PN} += "libosinfo"
 

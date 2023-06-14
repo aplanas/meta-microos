@@ -9,9 +9,9 @@ RPM_HASH = "f8fdbb8f098d8d81cd665fb76ceb106591ea6aad041d0e3ba2330405e444d97bff92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-da \
-locale(libreoffice:da_DK) \
-locale(seamonkey-spellchecker:da_DK) \
-myspell-da_DK \
+locale-libreoffice-da-DK \
+locale-seamonkey-spellchecker-da-DK \
+myspell-da-DK \
 myspell-danish \
 myspell-dictionary"
 

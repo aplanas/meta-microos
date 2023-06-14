@@ -27,32 +27,31 @@ libsmbldap-devel \
 libtevent-util-devel \
 libwbclient-devel \
 libwbclient0-devel \
-pkgconfig(dcerpc) \
-pkgconfig(dcerpc_samr) \
-pkgconfig(dcerpc_server) \
-pkgconfig(ndr) \
-pkgconfig(ndr_krb5pac) \
-pkgconfig(ndr_nbt) \
-pkgconfig(ndr_standard) \
-pkgconfig(netapi) \
-pkgconfig(samba-credentials) \
-pkgconfig(samba-hostconfig) \
-pkgconfig(samba-util) \
-pkgconfig(samdb) \
-pkgconfig(smbclient) \
-pkgconfig(wbclient) \
+pkgconfig-dcerpc \
+pkgconfig-dcerpc-samr \
+pkgconfig-dcerpc-server \
+pkgconfig-ndr \
+pkgconfig-ndr-krb5pac \
+pkgconfig-ndr-nbt \
+pkgconfig-ndr-standard \
+pkgconfig-netapi \
+pkgconfig-samba-credentials \
+pkgconfig-samba-hostconfig \
+pkgconfig-samba-util \
+pkgconfig-samdb \
+pkgconfig-smbclient \
+pkgconfig-wbclient \
 samba-core-devel \
-samba-devel \
-samba-devel(aarch-64)"
+samba-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkgconfig(dcerpc) \
-pkgconfig(krb5) \
-pkgconfig(ndr) \
-pkgconfig(ndr_standard) \
-pkgconfig(samba-util) \
-pkgconfig(talloc) \
-pkgconfig(tevent) \
+pkgconfig-dcerpc \
+pkgconfig-krb5 \
+pkgconfig-ndr \
+pkgconfig-ndr-standard \
+pkgconfig-samba-util \
+pkgconfig-talloc \
+pkgconfig-tevent \
 samba-ad-dc-libs \
 samba-client-libs \
 samba-libs \

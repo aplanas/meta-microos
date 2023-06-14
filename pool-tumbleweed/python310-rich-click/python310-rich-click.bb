@@ -9,13 +9,13 @@ RPM_HASH = "42469d5a14e6226433657ef45484baa1f46717902f5af46877f171542d234ef6a19c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rich-click \
-python3.10dist(rich-click) \
+python3.10dist-rich-click \
 python310-rich-click \
-python3dist(rich-click)"
+python3dist-rich-click"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-rich"
 

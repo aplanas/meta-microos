@@ -9,17 +9,16 @@ RPM_HASH = "c1670e91baa68c82d64d587ae33dd97afb21665d5672e159c66c42527c30911feb19
 
 RPROVIDES:${PN} += "bogofilter \
 bogofilter-backend \
-bogofilter-db \
-bogofilter-db(aarch-64)"
+bogofilter-db"
 
 RDEPENDS:${PN} += "/bin/sh \
 bogofilter-common \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdb-4.8.so()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdb-4.8.so \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
 update-alternatives"
 
 inherit rpm

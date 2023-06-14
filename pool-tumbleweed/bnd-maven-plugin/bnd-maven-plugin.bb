@@ -9,15 +9,15 @@ RPM_HASH = "7c660e205c8e404d1563568b54cbd2d6c5ca2439bf546b2324669141f2ea1602a25c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bnd-maven-plugin \
-mvn(biz.aQute.bnd:bnd-maven-plugin) \
-mvn(biz.aQute.bnd:bnd-maven-plugin:pom:) \
-mvn(biz.aQute.bnd:bnd-plugin-parent:pom:)"
+mvn-biz.aQute.bnd-bnd-maven-plugin \
+mvn-biz.aQute.bnd-bnd-maven-plugin-pom- \
+mvn-biz.aQute.bnd-bnd-plugin-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(biz.aQute.bnd:biz.aQute.bndlib) \
-mvn(org.apache.maven.shared:maven-mapping) \
-mvn(org.slf4j:slf4j-api) \
-mvn(org.sonatype.plexus:plexus-build-api)"
+mvn-biz.aQute.bnd-biz.aQute.bndlib \
+mvn-org.apache.maven.shared-maven-mapping \
+mvn-org.slf4j-slf4j-api \
+mvn-org.sonatype.plexus-plexus-build-api"
 
 inherit rpm

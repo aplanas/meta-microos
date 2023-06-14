@@ -9,16 +9,15 @@ PV = "4.0"
 RPM_NAME = "rp-pppoe-4.0-2.1.aarch64.rpm"
 RPM_HASH = "cdd50728208f08c201e9c1a982a638bd9d3a6dec16c44537ff66a9600feeb40aa8d8cbde77298dc68508a873767327aeb4929b0d5b492f25a0198ba3e7738520"
 
-RPROVIDES:${PN} += "config(rp-pppoe) \
-rp-pppoe \
-rp-pppoe(aarch-64)"
+RPROVIDES:${PN} += "config-rp-pppoe \
+rp-pppoe"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-group(dialout) \
+group-dialout \
 iproute2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 permissions \
 ppp"
 

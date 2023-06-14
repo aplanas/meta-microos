@@ -19,10 +19,10 @@ RPM_HASH = "b1ea150479eaf38ac022c1065cbed1604856d44d3aa769d9a769ba26f4a9b71d333c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-debtcollector \
-python3.10dist(debtcollector) \
-python3dist(debtcollector)"
+python3.10dist-debtcollector \
+python3dist-debtcollector"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-importlib-metadata \
 python3-pbr \
 python3-six \

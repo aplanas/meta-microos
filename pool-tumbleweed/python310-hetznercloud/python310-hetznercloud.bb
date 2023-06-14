@@ -9,11 +9,11 @@ RPM_HASH = "422ad7ee946582407a03b273119bd323883d87cbcb0d525d3cbf7cff7d0d557477e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hetznercloud \
-python3.10dist(hetznercloud) \
+python3.10dist-hetznercloud \
 python310-hetznercloud \
-python3dist(hetznercloud)"
+python3dist-hetznercloud"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

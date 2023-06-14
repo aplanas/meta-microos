@@ -60,9 +60,9 @@ RPM_NAME = "perl-Sort-Naturally-1.03-5.26.noarch.rpm"
 RPM_HASH = "2e9f00a045218546fda9491e11a56f325c10f2c9d3e64c80d5e63c39bbb30470254284607ff369921a8ef04630ffcd2baa24363d7104da665e7f88c1a4ba4c9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sort::Naturally) \
+RPROVIDES:${PN} += "perl-Sort--Naturally \
 perl-Sort-Naturally"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

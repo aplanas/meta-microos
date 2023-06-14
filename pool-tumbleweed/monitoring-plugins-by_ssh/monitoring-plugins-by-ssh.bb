@@ -15,12 +15,11 @@ PV = "2.3.1"
 RPM_NAME = "monitoring-plugins-by_ssh-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "79935279cdfd8d7858f5cb9de36b875fb89866712f734fa033ab9ca97f182a410dc354041dedf2aa302affd07f984181854df58effe30db4b735ac4e7a44f71a"
 
-RPROVIDES:${PN} += "monitoring-plugins-by_ssh \
-monitoring-plugins-by_ssh(aarch-64) \
-nagios-plugins-by_ssh"
+RPROVIDES:${PN} += "monitoring-plugins-by-ssh \
+nagios-plugins-by-ssh"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 openssh"
 
 inherit rpm

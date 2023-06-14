@@ -11,7 +11,7 @@ RPM_HASH = "31a55ae772df8b432341fc5e38a8931e2908e838d9b34b9577837cf4570fb81b01ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-serif-jp-fonts \
-locale(ja) \
+locale-ja \
 noto-serif-jp-fonts \
 scalable-font-ja"
 

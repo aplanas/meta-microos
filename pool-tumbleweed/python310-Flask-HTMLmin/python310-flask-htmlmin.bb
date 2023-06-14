@@ -9,11 +9,11 @@ RPM_HASH = "2bacb0dcbc83168fa6b7ee41f252578d5b36428463078ae080a0d1e5972b3e121596
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-HTMLmin \
-python3.10dist(flask-htmlmin) \
+python3.10dist-flask-htmlmin \
 python310-Flask-HTMLmin \
-python3dist(flask-htmlmin)"
+python3dist-flask-htmlmin"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-cssmin \
 python310-htmlmin"

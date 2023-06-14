@@ -11,12 +11,11 @@ PV = "0.16"
 RPM_NAME = "kelbt-0.16-2.11.aarch64.rpm"
 RPM_HASH = "df75b7bb07729a2e0db5459309af521fbd9fccc883621924d6c0a9bc5e7e9c8a2cecba8fcaaecf72bfe59fdf5bfb28c2acac3f9db1c0ba4f9e39e6ddf082f011"
 
-RPROVIDES:${PN} += "kelbt \
-kelbt(aarch-64)"
+RPROVIDES:${PN} += "kelbt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

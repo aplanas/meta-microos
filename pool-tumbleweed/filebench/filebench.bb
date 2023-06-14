@@ -13,11 +13,10 @@ PV = "1.4.9.1"
 RPM_NAME = "filebench-1.4.9.1-4.10.aarch64.rpm"
 RPM_HASH = "e2b69a055fd92c64c336f052e7ba27fd555a3cbc942d62859141d006b6c58af12290273e6eb4b17a7fa954ce88b04205c7394f4dcbfe49ebd32556742d9aa8e4"
 
-RPROVIDES:${PN} += "filebench \
-filebench(aarch-64)"
+RPROVIDES:${PN} += "filebench"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

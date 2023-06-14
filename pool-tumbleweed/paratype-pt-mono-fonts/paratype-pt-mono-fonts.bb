@@ -19,11 +19,11 @@ RPM_NAME = "paratype-pt-mono-fonts-1.003OFL-3.17.noarch.rpm"
 RPM_HASH = "e126acc91e182151c405123a6756c25b2b49b878ae357df2b2dfe128199499a06ba48c9192facf3d1f57f121902749e69490d9b512c8c7c4d21b9c4f23fbc4ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(be;ru;uk) \
+RPROVIDES:${PN} += "locale-be;ru;uk \
 paratype-pt-mono-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

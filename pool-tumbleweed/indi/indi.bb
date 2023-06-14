@@ -12,23 +12,22 @@ PV = "1.9.9"
 RPM_NAME = "indi-1.9.9-2.2.aarch64.rpm"
 RPM_HASH = "3ffe106fd02860c8ec966f63902c08a89426d6d66569088d248009ca642cf59fd70e840a0fb6d4e72a63c0a9bb41a131da547141034aaf6ca3ea05884f4cb3fb"
 
-RPROVIDES:${PN} += "indi \
-indi(aarch-64)"
+RPROVIDES:${PN} += "indi"
 
 RDEPENDS:${PN} += "indi-plugins \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libcurl.so.4()(64bit) \
-libev.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libindiAlignmentDriver.so.1()(64bit) \
-libindiclient.so.1()(64bit) \
-libindidriver.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcfitsio.so.10 \
+libcurl.so.4 \
+libev.so.4 \
+libgcc-s.so.1 \
+libindiAlignmentDriver.so.1 \
+libindiclient.so.1 \
+libindidriver.so.1 \
+libm.so.6 \
+libnova-0.15.so.0 \
+libstdc++.so.6 \
+libusb-1.0.so.0 \
+libz.so.1"
 
 inherit rpm

@@ -14,10 +14,10 @@ RPM_NAME = "perl-Test-SubCalls-1.10-1.19.noarch.rpm"
 RPM_HASH = "296c9c0f1c1ec456bfb3ab662744b748323c92f070dfc6f1f99ac99e061c6c069251f8bb13c08b4617713f6161e27005b715d545055851e3a50c54dd1a0789c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::SubCalls) \
+RPROVIDES:${PN} += "perl-Test--SubCalls \
 perl-Test-SubCalls"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Hook::LexWrap)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Hook--LexWrap"
 
 inherit rpm

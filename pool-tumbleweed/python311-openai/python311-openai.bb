@@ -16,13 +16,13 @@ RPM_NAME = "python311-openai-0.26.2-1.5.noarch.rpm"
 RPM_HASH = "485fdb040af05a830d85968eebda9311dbf5889283b7d6bc54400f3891206a2b8b9d90874eece95877464304eaa8fbbf420d1b79b3fbe4208070280a7384f1f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(openai) \
+RPROVIDES:${PN} += "python3.11dist-openai \
 python311-openai \
-python3dist(openai)"
+python3dist-openai"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-aiohttp \
 python311-requests \
 python311-tqdm \

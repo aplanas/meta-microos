@@ -10,7 +10,7 @@ RPM_NAME = "texlive-dvidvi-2023.201.svn65952-53.1.noarch.rpm"
 RPM_HASH = "37f426fa11e5bacc3427e7d9e7998bd2a4b46220c2cdfffe8274dcb40653794b5c28de8d22f215d7880f473f50af9afc5fbeaf4778372264047bb7d439a45817"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(dvidvi.1) \
+RPROVIDES:${PN} += "man-dvidvi.1 \
 texlive-dvidvi"
 
 RDEPENDS:${PN} += "/bin/sh \

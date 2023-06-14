@@ -18,12 +18,12 @@ RPM_NAME = "python39-python-gflags-3.1.2-2.19.noarch.rpm"
 RPM_HASH = "2f5e1d98e1279c835533984281b85181992c6896df9797055993fbe8fdf5e33d20679634f0cd686073a7c2b56bbcb80b44905ab112859ae9a547a2361ea31465"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-gflags) \
+RPROVIDES:${PN} += "python3.9dist-python-gflags \
 python39-python-gflags \
-python3dist(python-gflags)"
+python3dist-python-gflags"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

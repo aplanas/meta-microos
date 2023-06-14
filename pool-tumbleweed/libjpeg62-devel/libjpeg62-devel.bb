@@ -11,8 +11,7 @@ RPM_HASH = "83c8d6362e86fe493fefb273ac1f96b78a03a73ede9362064455e4c2f7a1d19fa817
 
 RPROVIDES:${PN} += "libjpeg-devel \
 libjpeg62-devel \
-libjpeg62-devel(aarch-64) \
-pkgconfig(libjpeg)"
+pkgconfig-libjpeg"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpeg62"

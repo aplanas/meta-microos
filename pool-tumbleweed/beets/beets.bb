@@ -35,11 +35,11 @@ RPM_HASH = "5db267afc214dc4513303dc4ea5d726c091ae90b284d455a643bdd75e110aa20cff7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beets \
-python3.10dist(beets) \
-python3dist(beets)"
+python3.10dist-beets \
+python3dist-beets"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-Unidecode \
 python3-confuse \

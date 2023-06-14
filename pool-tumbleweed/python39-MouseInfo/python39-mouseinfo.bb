@@ -10,11 +10,11 @@ RPM_NAME = "python39-MouseInfo-0.1.3-1.12.noarch.rpm"
 RPM_HASH = "5cada19e0970376400c8b892fcb02e96c7b9909865a9fc5cf2327332cb2d10aec85f14ba22353d473cf8cae9db7f7227e3ce07a0c1a7fa209e4964d99f236c82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(mouseinfo) \
+RPROVIDES:${PN} += "python3.9dist-mouseinfo \
 python39-MouseInfo \
-python3dist(mouseinfo)"
+python3dist-mouseinfo"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Pillow \
 python39-pyperclip"
 

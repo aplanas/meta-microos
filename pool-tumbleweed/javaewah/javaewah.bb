@@ -17,9 +17,9 @@ RPM_HASH = "077a8bdb62adbffd2982557266ad01b212db81b57fc8d472b2fdb6c602df98e386a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaewah \
-mvn(com.googlecode.javaewah:JavaEWAH) \
-mvn(com.googlecode.javaewah:JavaEWAH:pom:) \
-osgi(com.googlecode.javaewah.JavaEWAH)"
+mvn-com.googlecode.javaewah-JavaEWAH \
+mvn-com.googlecode.javaewah-JavaEWAH-pom- \
+osgi-com.googlecode.javaewah.JavaEWAH"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

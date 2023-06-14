@@ -10,11 +10,11 @@ RPM_NAME = "python39-quantum-blackbird-0.5.0-1.3.noarch.rpm"
 RPM_HASH = "c62bafcfd2e7d0726a4fd8f48ab9e6b47ee6cd70b08b6f093d872204556257e73b1fc2e9a97be2ad73b9596f0328941d943b537f73e018dd2cbea583baf69fd5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(quantum-blackbird) \
+RPROVIDES:${PN} += "python3.9dist-quantum-blackbird \
 python39-quantum-blackbird \
-python3dist(quantum-blackbird)"
+python3dist-quantum-blackbird"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-antlr4-python3-runtime \
 python39-networkx \
 python39-numpy \

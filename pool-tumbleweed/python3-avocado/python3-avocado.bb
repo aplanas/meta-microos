@@ -11,15 +11,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado \
 python3-avocado \
-python3.10dist(avocado-framework) \
-python3dist(avocado-framework)"
+python3.10dist-avocado-framework \
+python3dist-avocado-framework"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 avocado-common \
 gdb \
 procps \
-python(abi) \
+python-abi \
 python3-Fabric \
 python3-requests \
 python3-setuptools \

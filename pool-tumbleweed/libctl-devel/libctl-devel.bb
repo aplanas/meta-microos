@@ -12,8 +12,7 @@ PV = "4.5.1"
 RPM_NAME = "libctl-devel-4.5.1-1.7.aarch64.rpm"
 RPM_HASH = "f2ba7b35578243a49880ffc0e2b3f3687299c9bb48241f1d3c0d06c7dd7ec755d6534e87c07f4162b8cb1613ccb3ca8f9afc6aa4fefe6d6a65894a0fb13850e5"
 
-RPROVIDES:${PN} += "libctl-devel \
-libctl-devel(aarch-64)"
+RPROVIDES:${PN} += "libctl-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 libctl7"

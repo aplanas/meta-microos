@@ -12,12 +12,12 @@ RPM_NAME = "texlive-umlaute-2023.201.2.1svn15878-53.1.noarch.rpm"
 RPM_HASH = "f2114db5398cbe28ae12f2d5ae4254ee2f029ba35ae2abff6ae18c2ce3029b3c50a27fddab8705c93c8634a76b61ade7054316533aa600dbb281449b4c55d2e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(atari.def) \
-tex(isolatin.def) \
-tex(mac.def) \
-tex(pc850.def) \
-tex(roman8.def) \
-tex(umlaute.sty) \
+RPROVIDES:${PN} += "tex-atari.def \
+tex-isolatin.def \
+tex-mac.def \
+tex-pc850.def \
+tex-roman8.def \
+tex-umlaute.sty \
 texlive-umlaute"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,10 +26,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(applemac.def) \
-tex(cp850.def) \
-tex(inputenc.sty) \
-tex(latin1.def) \
+tex-applemac.def \
+tex-cp850.def \
+tex-inputenc.sty \
+tex-latin1.def \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

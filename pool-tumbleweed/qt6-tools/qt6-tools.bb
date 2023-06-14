@@ -10,21 +10,16 @@ PV = "6.5.1"
 RPM_NAME = "qt6-tools-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "56e116568c0bd0cc88403c5d5c504c51e028e752822f233af47b9c6aaf24aceada47b5b3e0ed95d936371c14206d8ae096b0a00dbd6594f009b137af26edb483"
 
-RPROVIDES:${PN} += "qt6-tools \
-qt6-tools(aarch-64)"
+RPROVIDES:${PN} += "qt6-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libQt6Quick.so.6()(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Quick.so.6 \
+libQt6Widgets.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
 qt6-tools-helpgenerators \
 qt6-tools-qdoc"
 

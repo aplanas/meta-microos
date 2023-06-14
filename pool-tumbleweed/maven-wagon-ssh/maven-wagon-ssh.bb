@@ -9,18 +9,18 @@ RPM_HASH = "4c7c3cd56e2ae122ef58f0e7148d1f866a410385bba48f1840fab7dbbf31588bde0e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-ssh \
-mvn(org.apache.maven.wagon:wagon-ssh) \
-mvn(org.apache.maven.wagon:wagon-ssh:pom:)"
+mvn-org.apache.maven.wagon-wagon-ssh \
+mvn-org.apache.maven.wagon-wagon-ssh-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.jcraft:jsch) \
-mvn(com.jcraft:jsch.agentproxy.connector-factory) \
-mvn(com.jcraft:jsch.agentproxy.jsch) \
-mvn(org.apache.maven.wagon:wagon-provider-api) \
-mvn(org.apache.maven.wagon:wagon-ssh-common) \
-mvn(org.codehaus.plexus:plexus-interactivity-api) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.slf4j:slf4j-simple)"
+mvn-com.jcraft-jsch \
+mvn-com.jcraft-jsch.agentproxy.connector-factory \
+mvn-com.jcraft-jsch.agentproxy.jsch \
+mvn-org.apache.maven.wagon-wagon-provider-api \
+mvn-org.apache.maven.wagon-wagon-ssh-common \
+mvn-org.codehaus.plexus-plexus-interactivity-api \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.slf4j-slf4j-simple"
 
 inherit rpm

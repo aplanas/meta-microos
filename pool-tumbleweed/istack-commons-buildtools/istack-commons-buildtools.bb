@@ -9,12 +9,12 @@ RPM_HASH = "c6af5afff1f0a51b7260db0023ffc68422b0ba740552663bb79e1d758a70ff1334db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-buildtools \
-mvn(com.sun.istack:istack-commons-buildtools) \
-mvn(com.sun.istack:istack-commons-buildtools:pom:)"
+mvn-com.sun.istack-istack-commons-buildtools \
+mvn-com.sun.istack-istack-commons-buildtools-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.codemodel:codemodel) \
-mvn(org.apache.ant:ant)"
+mvn-com.sun.codemodel-codemodel \
+mvn-org.apache.ant-ant"
 
 inherit rpm

@@ -20,14 +20,13 @@ RPM_NAME = "libsplinter-3-0-3.0-2.22.aarch64.rpm"
 RPM_HASH = "f8cea8b885e776a66ae1d4a1e3f8453fc64c89046c54e9a5f98cf884e98288f7f482740cd5585f822f26e9a8df05acef64dcb5e1d166dcdc0ef753c57e91e7d6"
 
 RPROVIDES:${PN} += "libsplinter-3-0 \
-libsplinter-3-0(aarch-64) \
-libsplinter-3-0.so()(64bit)"
+libsplinter-3-0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

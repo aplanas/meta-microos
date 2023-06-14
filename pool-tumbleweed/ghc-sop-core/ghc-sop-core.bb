@@ -21,16 +21,15 @@ RPM_NAME = "ghc-sop-core-0.5.0.2-4.3.aarch64.rpm"
 RPM_HASH = "7392eb34babbe753fdd520df36a6b7820d82b3f58840e8ea191dd45fc695f1d34a7475fa58d448b6eced09340681a6cb531b649e4e3a538e518962f9d42c72a0"
 
 RPROVIDES:${PN} += "ghc-sop-core \
-ghc-sop-core(aarch-64) \
-libHSsop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe-ghc9.4.5.so()(64bit)"
+libHSsop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
-libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
-libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
-libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
+libHSbase-4.17.1.0-ghc9.4.5.so \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so \
+libHSghc-bignum-1.3-ghc9.4.5.so \
+libHSghc-prim-0.9.0-ghc9.4.5.so \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6"
 
 inherit rpm

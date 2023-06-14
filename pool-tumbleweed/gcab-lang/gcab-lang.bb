@@ -10,40 +10,40 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcab-lang \
 gcab-lang-all \
-locale(gcab:bs) \
-locale(gcab:cs) \
-locale(gcab:da) \
-locale(gcab:de) \
-locale(gcab:el) \
-locale(gcab:en_GB) \
-locale(gcab:es) \
-locale(gcab:eu) \
-locale(gcab:fi) \
-locale(gcab:fr) \
-locale(gcab:fur) \
-locale(gcab:gl) \
-locale(gcab:hr) \
-locale(gcab:hu) \
-locale(gcab:id) \
-locale(gcab:ja) \
-locale(gcab:ka) \
-locale(gcab:lt) \
-locale(gcab:lv) \
-locale(gcab:nb) \
-locale(gcab:nl) \
-locale(gcab:oc) \
-locale(gcab:pl) \
-locale(gcab:pt) \
-locale(gcab:pt_BR) \
-locale(gcab:ro) \
-locale(gcab:ru) \
-locale(gcab:sl) \
-locale(gcab:sr) \
-locale(gcab:sr@latin) \
-locale(gcab:sv) \
-locale(gcab:tr) \
-locale(gcab:uk) \
-locale(gcab:zh_CN)"
+locale-gcab-bs \
+locale-gcab-cs \
+locale-gcab-da \
+locale-gcab-de \
+locale-gcab-el \
+locale-gcab-en-GB \
+locale-gcab-es \
+locale-gcab-eu \
+locale-gcab-fi \
+locale-gcab-fr \
+locale-gcab-fur \
+locale-gcab-gl \
+locale-gcab-hr \
+locale-gcab-hu \
+locale-gcab-id \
+locale-gcab-ja \
+locale-gcab-ka \
+locale-gcab-lt \
+locale-gcab-lv \
+locale-gcab-nb \
+locale-gcab-nl \
+locale-gcab-oc \
+locale-gcab-pl \
+locale-gcab-pt \
+locale-gcab-pt-BR \
+locale-gcab-ro \
+locale-gcab-ru \
+locale-gcab-sl \
+locale-gcab-sr \
+locale-gcab-sr@latin \
+locale-gcab-sv \
+locale-gcab-tr \
+locale-gcab-uk \
+locale-gcab-zh-CN"
 
 RDEPENDS:${PN} += "gcab"
 

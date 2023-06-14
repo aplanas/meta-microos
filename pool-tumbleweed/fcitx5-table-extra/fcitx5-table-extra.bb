@@ -29,9 +29,7 @@ fcitx-table-tw-quick-classic \
 fcitx-table-tw-quick3 \
 fcitx-table-tw-quick5 \
 fcitx-table-tw-smart-cangjie6 \
-fcitx5-table-extra \
-metainfo() \
-metainfo(org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml)"
+fcitx5-table-extra"
 
 RDEPENDS:${PN} += "fcitx5"
 

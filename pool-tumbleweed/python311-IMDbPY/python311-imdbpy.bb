@@ -12,13 +12,13 @@ RPM_NAME = "python311-IMDbPY-2021.4.18-1.12.noarch.rpm"
 RPM_HASH = "c7a77556b74bad9cec4a1e2719402ea6452596d2a4493394154bfaa4d905b58702c22fc99699b1bc2ff7b7859862db28fd1746cb84aec3342d9d3f385d600d4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(imdbpy) \
+RPROVIDES:${PN} += "python3.11dist-imdbpy \
 python311-IMDbPY \
-python3dist(imdbpy)"
+python3dist-imdbpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-SQLAlchemy \
 python311-lxml \
 update-alternatives"

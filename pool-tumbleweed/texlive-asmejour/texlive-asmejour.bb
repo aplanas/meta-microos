@@ -19,7 +19,7 @@ RPM_NAME = "texlive-asmejour-2023.201.1.20svn65405-53.1.noarch.rpm"
 RPM_HASH = "2dc32bd2e299513e65f88ba04b96953a3c9504d2e65de9b68bb737ccc7364dc472988141ecb22d30452056d94438d26f0fef29b4377d3390661c05650f99d81e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(asmejour.cls) \
+RPROVIDES:${PN} += "tex-asmejour.cls \
 texlive-asmejour"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,46 +28,46 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(babel.sty) \
-tex(bm.sty) \
-tex(bookmark.sty) \
-tex(booktabs.sty) \
-tex(caption.sty) \
-tex(dcolumn.sty) \
-tex(doi.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(extarticle.cls) \
-tex(fancyhdr.sty) \
-tex(flushend.sty) \
-tex(fnpos.sty) \
-tex(fontenc.sty) \
-tex(geometry.sty) \
-tex(glyphtounicode.tex) \
-tex(graphicx.sty) \
-tex(hologo.sty) \
-tex(hyperref.sty) \
-tex(hyperxmp.sty) \
-tex(iftex.sty) \
-tex(ifthen.sty) \
-tex(inconsolata.sty) \
-tex(inputenc.sty) \
-tex(kvoptions.sty) \
-tex(lineno.sty) \
-tex(mathalfa.sty) \
-tex(mathtools.sty) \
-tex(metalogo.sty) \
-tex(natbib.sty) \
-tex(newtxmath.sty) \
-tex(newtxtext.sty) \
-tex(pdfmanagement-testphase.sty) \
-tex(subcaption.sty) \
-tex(titlesec.sty) \
-tex(totcount.sty) \
-tex(xcoffins.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-array.sty \
+tex-babel.sty \
+tex-bm.sty \
+tex-bookmark.sty \
+tex-booktabs.sty \
+tex-caption.sty \
+tex-dcolumn.sty \
+tex-doi.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-extarticle.cls \
+tex-fancyhdr.sty \
+tex-flushend.sty \
+tex-fnpos.sty \
+tex-fontenc.sty \
+tex-geometry.sty \
+tex-glyphtounicode.tex \
+tex-graphicx.sty \
+tex-hologo.sty \
+tex-hyperref.sty \
+tex-hyperxmp.sty \
+tex-iftex.sty \
+tex-ifthen.sty \
+tex-inconsolata.sty \
+tex-inputenc.sty \
+tex-kvoptions.sty \
+tex-lineno.sty \
+tex-mathalfa.sty \
+tex-mathtools.sty \
+tex-metalogo.sty \
+tex-natbib.sty \
+tex-newtxmath.sty \
+tex-newtxtext.sty \
+tex-pdfmanagement-testphase.sty \
+tex-subcaption.sty \
+tex-titlesec.sty \
+tex-totcount.sty \
+tex-xcoffins.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

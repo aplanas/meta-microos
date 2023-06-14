@@ -9,7 +9,6 @@ RPM_NAME = "ghc-devel-9.4.5-3.1.aarch64.rpm"
 RPM_HASH = "feb8346c18b6cfacda69ffef4f304663fed099b5d38a1d5d39810618ec2337f16dfab683c6bde07a2f46b16622606494a395393f5d853e2d3c29cad544eb2585"
 
 RPROVIDES:${PN} += "ghc-devel \
-ghc-devel(aarch-64) \
 ghc-libraries"
 
 RDEPENDS:${PN} += "ghc-Cabal-devel \

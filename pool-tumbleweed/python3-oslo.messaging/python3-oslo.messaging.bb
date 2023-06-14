@@ -12,11 +12,11 @@ RPM_HASH = "d1b01b08dafca37c48c5b1fa7f21b9cf316fe1d4af7f6982de3acd96ac3ff3204a1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.messaging \
-python3.10dist(oslo.messaging) \
-python3dist(oslo.messaging)"
+python3.10dist-oslo.messaging \
+python3dist-oslo.messaging"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-WebOb \
 python3-amqp \

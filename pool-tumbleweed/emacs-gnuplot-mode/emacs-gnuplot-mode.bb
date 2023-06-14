@@ -11,7 +11,7 @@ RPM_HASH = "8946c087563e4e4da2755dbd267764fccee4766278305b6c7689d2f1a17a5b460c71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-gnuplot-mode \
-gnuplot:/usr/share/emacs/site-lisp/gnuplot.el"
+gnuplot-/usr/share/emacs/site-lisp/gnuplot.el"
 
 RDEPENDS:${PN} += "emacs \
 gnuplot"

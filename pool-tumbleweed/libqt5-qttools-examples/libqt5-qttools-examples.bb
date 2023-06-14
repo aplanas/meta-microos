@@ -7,19 +7,14 @@ PV = "5.15.9+kde1"
 RPM_NAME = "libqt5-qttools-examples-5.15.9+kde1-1.1.aarch64.rpm"
 RPM_HASH = "6434f384edd7b6d39b6d28d491cf2c3d08d73f7eb04dee26e908f4ddd845c7ec4a0090bc57b3d0e3c288354ca3a80d0937f60d8b11fa89c30ad130d853794bca"
 
-RPROVIDES:${PN} += "libqt5-qttools-examples \
-libqt5-qttools-examples(aarch-64)"
+RPROVIDES:${PN} += "libqt5-qttools-examples"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Help.so.5()(64bit) \
-libQt5Help.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Help.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

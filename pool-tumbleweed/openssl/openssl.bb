@@ -15,7 +15,7 @@ RPM_HASH = "8162722e78c9a7787937f52fbbd232907e411d2a95e1d5516d251abdf2069d1bf8c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openssl \
-openssl(cli)"
+openssl-cli"
 
 RDEPENDS:${PN} += "openssl-3"
 

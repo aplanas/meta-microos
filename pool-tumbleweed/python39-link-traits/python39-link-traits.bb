@@ -8,11 +8,11 @@ RPM_NAME = "python39-link-traits-1.0.3-1.11.noarch.rpm"
 RPM_HASH = "ad07ca98752cdc14afedcb79c5064baeea5d5462d63c04462045e279a35dbde215807ab7596d714d43fa192422632f2daf544307dc0b56bb9dac32802376bec3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(link-traits) \
+RPROVIDES:${PN} += "python3.9dist-link-traits \
 python39-link-traits \
-python3dist(link-traits)"
+python3dist-link-traits"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-traits"
 
 inherit rpm

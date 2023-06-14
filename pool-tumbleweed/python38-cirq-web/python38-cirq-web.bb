@@ -13,10 +13,10 @@ RPM_NAME = "python38-cirq-web-0.13.1-1.5.noarch.rpm"
 RPM_HASH = "af00a8d1f2cc1ae2e77c5ae27b8e13d617fbf82b71f669aaed93bc240a294e1565383e5ec403fd70d824a072d218e241234dc54ab2103e5b5781b87939166d92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.8dist(cirq-web) \
+RPROVIDES:${PN} += "python3.8dist-cirq-web \
 python38-cirq-web \
-python3dist(cirq-web)"
+python3dist-cirq-web"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

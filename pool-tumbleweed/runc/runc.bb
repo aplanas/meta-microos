@@ -12,10 +12,9 @@ RPM_HASH = "60e9bddb19bf817a1899ed9a961cda46c60d39f89f0c76805b7086b8d925956e02f0
 
 RPROVIDES:${PN} += "docker-runc \
 docker-runc-kubic \
-runc \
-runc(aarch-64)"
+runc"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libseccomp.so.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libseccomp.so.2"
 
 inherit rpm

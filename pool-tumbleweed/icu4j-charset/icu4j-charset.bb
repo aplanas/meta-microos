@@ -9,13 +9,13 @@ RPM_HASH = "668b8f5cbf7d78c3ca1e969986b756869be9e66f4aeff56112eea66648c1263cac9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icu4j-charset \
-mvn(com.ibm.icu:icu4j-charset) \
-mvn(com.ibm.icu:icu4j-charset:pom:) \
-osgi(com.ibm.icu.charset)"
+mvn-com.ibm.icu-icu4j-charset \
+mvn-com.ibm.icu-icu4j-charset-pom- \
+osgi-com.ibm.icu.charset"
 
 RDEPENDS:${PN} += "icu4j \
 java-headless \
 javapackages-filesystem \
-mvn(com.ibm.icu:icu4j)"
+mvn-com.ibm.icu-icu4j"
 
 inherit rpm

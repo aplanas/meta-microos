@@ -10,7 +10,7 @@ RPM_NAME = "texlive-grid-system-2023.201.0.0.3.0svn32981-53.1.noarch.rpm"
 RPM_HASH = "612695a163150814b763e04a00bea4d48e5148ad37495e97d5467e38dc235d3f1becfe72f87a7ee887382fa397d2bcbfb454cc9ef4fd416653e9616740bfdd6b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(grid-system.sty) \
+RPROVIDES:${PN} += "tex-grid-system.sty \
 texlive-grid-system"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,11 +19,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(environ.sty) \
-tex(forloop.sty) \
-tex(ifthen.sty) \
-tex(xkeyval.sty) \
+tex-calc.sty \
+tex-environ.sty \
+tex-forloop.sty \
+tex-ifthen.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

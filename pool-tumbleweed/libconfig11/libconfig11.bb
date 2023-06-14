@@ -12,12 +12,11 @@ PV = "1.7.3"
 RPM_NAME = "libconfig11-1.7.3-1.8.aarch64.rpm"
 RPM_HASH = "adda9b815c6a4e47f4729c811655757afb06248499d83105f3a3df24b8336148a93a1674a03f4d29a10d62662dc095a0b2bd723c4b843b4f691043f3d8cd99cb"
 
-RPROVIDES:${PN} += "libconfig.so.11()(64bit) \
-libconfig11 \
-libconfig11(aarch-64)"
+RPROVIDES:${PN} += "libconfig.so.11 \
+libconfig11"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

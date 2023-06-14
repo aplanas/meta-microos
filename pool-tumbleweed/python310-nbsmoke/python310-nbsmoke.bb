@@ -10,14 +10,14 @@ RPM_HASH = "98bfea6bb90895cfc5547fb8821c63e370267a7fa0505a27646bb06899cb6a08b08d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbsmoke \
-python3-jupyter_nbsmoke \
+python3-jupyter-nbsmoke \
 python3-nbsmoke \
-python3.10dist(nbsmoke) \
-python310-jupyter_nbsmoke \
+python3.10dist-nbsmoke \
+python310-jupyter-nbsmoke \
 python310-nbsmoke \
-python3dist(nbsmoke)"
+python3dist-nbsmoke"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipykernel \
 python310-jupyter-client \
 python310-nbconvert \

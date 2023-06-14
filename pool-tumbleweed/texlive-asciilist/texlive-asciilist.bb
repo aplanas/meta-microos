@@ -14,7 +14,7 @@ RPM_NAME = "texlive-asciilist-2023.201.2.2bsvn49060-53.1.noarch.rpm"
 RPM_HASH = "787a7a8372af2bf54c7602b00db4cd71ee92f3c6595cbc255f875dd67f71340146a98ae44e462abdf994e83c62f930ce1e395bb28fa0aac9657ecc77826a36c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(asciilist.sty) \
+RPROVIDES:${PN} += "tex-asciilist.sty \
 texlive-asciilist"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(trimspaces.sty) \
+tex-etoolbox.sty \
+tex-trimspaces.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

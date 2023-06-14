@@ -11,11 +11,11 @@ RPM_HASH = "3c41023f57eb297cfbffeb69e62b517af4dc7e78931194902375d249252945865af3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-binaryornot \
-python3.10dist(binaryornot) \
+python3.10dist-binaryornot \
 python310-binaryornot \
-python3dist(binaryornot)"
+python3dist-binaryornot"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-chardet"
 
 inherit rpm

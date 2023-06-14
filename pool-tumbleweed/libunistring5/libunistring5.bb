@@ -11,12 +11,11 @@ PV = "1.1"
 RPM_NAME = "libunistring5-1.1-2.1.aarch64.rpm"
 RPM_HASH = "d5df4dde1cb97c71761c961fb53353e2ab8045719b573b90f589f9fd7c9e2d48beefab974e23d37c3664127db90b6caa05b96d38949ca3f41c1627a86bac3c6a"
 
-RPROVIDES:${PN} += "libunistring.so.5()(64bit) \
-libunistring5 \
-libunistring5(aarch-64)"
+RPROVIDES:${PN} += "libunistring.so.5 \
+libunistring5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

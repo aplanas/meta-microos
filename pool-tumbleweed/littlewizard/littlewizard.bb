@@ -11,23 +11,19 @@ PV = "1.2.2"
 RPM_NAME = "littlewizard-1.2.2-17.16.aarch64.rpm"
 RPM_HASH = "6844f70828b12d30b365cd5b11416cd702700f91ee6c2752d55c2ddf3f0fa571ddf2ebd5a0c34115badca3dda144abefa8b4b3ec362e692e157a3887b6a8d1a9"
 
-RPROVIDES:${PN} += "application() \
-application(littlewizard.desktop) \
-liblanguage.so.0()(64bit) \
-liblw.so.0()(64bit) \
-littlewizard \
-littlewizard(aarch-64) \
-mimehandler(application/x-littlewizard)"
+RPROVIDES:${PN} += "liblanguage.so.0 \
+liblw.so.0 \
+littlewizard"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libstdc++.so.6 \
+libxml2.so.2"
 
 inherit rpm

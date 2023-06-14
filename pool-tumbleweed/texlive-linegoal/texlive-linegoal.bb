@@ -15,7 +15,7 @@ RPM_NAME = "texlive-linegoal-2023.201.2.9svn21523-54.1.noarch.rpm"
 RPM_HASH = "a8dcb44515add23123c997dc89fac27b2e157982441629dfd024499bb73a2046ffed4342de85221504b9cc0d22b224cbf1cfd8247b265134db10179a1d6e1f34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(linegoal.sty) \
+RPROVIDES:${PN} += "tex-linegoal.sty \
 texlive-linegoal"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
-tex(zref-savepos.sty) \
-tex(zref.sty) \
+tex-etex.sty \
+tex-zref-savepos.sty \
+tex-zref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

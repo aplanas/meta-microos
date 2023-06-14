@@ -14,10 +14,10 @@ RPM_NAME = "python311-flaky-3.7.0-3.1.noarch.rpm"
 RPM_HASH = "da31335c8c812e305c00ea9cfdaaba55178d17f84a86733449efbaee160ac93bd6bda3d39b2363489ab44adc0a809ab33468363fe2d98cf64a0d446d8df06992"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(flaky) \
+RPROVIDES:${PN} += "python3.11dist-flaky \
 python311-flaky \
-python3dist(flaky)"
+python3dist-flaky"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

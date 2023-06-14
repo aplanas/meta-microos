@@ -13,7 +13,7 @@ RPM_NAME = "texlive-detex-2023.201.svn66186-52.1.noarch.rpm"
 RPM_HASH = "41bf16d167e490bea992685e2c43f5de8a893c949436259ffdcb6233137df4d93d178c02fa40b950a0962eb079f46d705e25ff214109c732977751178afee068"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(detex.1) \
+RPROVIDES:${PN} += "man-detex.1 \
 texlive-detex"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -21,16 +21,15 @@ PV = "3.2.1"
 RPM_NAME = "php8-xdebug-3.2.1-2.3.aarch64.rpm"
 RPM_HASH = "db504eab314e8fe770136552859c0887b225b50415a2b696f2d2d5f24b3a5fd9550785be33fe95c52612f65ed682c6efaa6920820ae8ec0dc32081009d097302"
 
-RPROVIDES:${PN} += "config(php8-xdebug) \
+RPROVIDES:${PN} += "config-php8-xdebug \
 php-xdebug \
-php8-xdebug \
-php8-xdebug(aarch-64)"
+php8-xdebug"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit) \
-php(api) \
-php(zend-abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libz.so.1 \
+php-api \
+php-zend-abi"
 
 inherit rpm

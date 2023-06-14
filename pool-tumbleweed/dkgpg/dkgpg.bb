@@ -27,17 +27,16 @@ PV = "1.1.3"
 RPM_NAME = "dkgpg-1.1.3-1.15.aarch64.rpm"
 RPM_HASH = "16900b4eadd4e3ed23495ba929b1061ce145087f22a4de1cdf9b1c3d39050023355d3981fe7b9bc9e317292f5ce02acd71e24033e9c6cc3cff485d02eaabacce"
 
-RPROVIDES:${PN} += "dkgpg \
-dkgpg(aarch-64)"
+RPROVIDES:${PN} += "dkgpg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libTMCG.so.18()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgmp.so.10()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libTMCG.so.18 \
+libbz2.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgcrypt.so.20 \
+libgmp.so.10 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

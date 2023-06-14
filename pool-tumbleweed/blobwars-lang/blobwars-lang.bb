@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blobwars-lang \
 blobwars-lang-all \
-locale(blobwars:ca) \
-locale(blobwars:da) \
-locale(blobwars:de) \
-locale(blobwars:es) \
-locale(blobwars:fr) \
-locale(blobwars:nl) \
-locale(blobwars:pl) \
-locale(blobwars:sv)"
+locale-blobwars-ca \
+locale-blobwars-da \
+locale-blobwars-de \
+locale-blobwars-es \
+locale-blobwars-fr \
+locale-blobwars-nl \
+locale-blobwars-pl \
+locale-blobwars-sv"
 
 RDEPENDS:${PN} += "blobwars"
 

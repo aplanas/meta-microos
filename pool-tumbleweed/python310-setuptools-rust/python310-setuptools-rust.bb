@@ -13,15 +13,15 @@ RPM_HASH = "b451487b746a9601d44264f18ffe8c61b38eec3fa7afe638825b7bf15ae6f8051921
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-setuptools-rust \
-python3.10dist(setuptools-rust) \
+python3.10dist-setuptools-rust \
 python310-setuptools-rust \
-python3dist(setuptools-rust)"
+python3dist-setuptools-rust"
 
 RDEPENDS:${PN} += "cargo \
-python(abi) \
-python310-semantic_version \
+python-abi \
+python310-semantic-version \
 python310-setuptools \
-python310-typing_extensions \
+python310-typing-extensions \
 rust"
 
 inherit rpm

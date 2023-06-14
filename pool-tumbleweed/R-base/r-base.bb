@@ -9,8 +9,7 @@ RPM_NAME = "R-base-4.3.0-45.2.aarch64.rpm"
 RPM_HASH = "efdde58e04101d8cfd5a158600aaf6521fed53cab4683ca19be3ff1bfb5dcb24b254c7273bcb476db940042d9071087a3ef52f59a7ccba46c9dfb65f8fe7e951"
 
 RPROVIDES:${PN} += "R \
-R-base \
-R-base(aarch-64)"
+R-base"
 
 RDEPENDS:${PN} += "R-base-devel \
 R-core \

@@ -10,9 +10,9 @@ RPM_NAME = "texlive-scsnowman-2023.201.1.3csvn66115-53.1.noarch.rpm"
 RPM_HASH = "13f9089357d25dd978805fc066f360f4d73bd7387b28d9c01069012063c97a883f849f8713fd0c325a4f460ecdd8f474e7c3d43b38c6d76cd7befd0e87eaa9b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(scsnowman-normal.def) \
-tex(scsnowman.sty) \
-tex(sctkzsym-base.sty) \
+RPROVIDES:${PN} += "tex-scsnowman-normal.def \
+tex-scsnowman.sty \
+tex-sctkzsym-base.sty \
 texlive-scsnowman"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(pxeveryshi.sty) \
-tex(tikz.sty) \
+tex-keyval.sty \
+tex-pxeveryshi.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

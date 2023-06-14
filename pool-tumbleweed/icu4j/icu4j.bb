@@ -21,9 +21,9 @@ RPM_HASH = "54cff71e7bdd58b83cf5972e59a1da4f4b48dccf05eb4dbbcac493e40b0ff0c4b982
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icu4j \
-mvn(com.ibm.icu:icu4j) \
-mvn(com.ibm.icu:icu4j:pom:) \
-osgi(com.ibm.icu)"
+mvn-com.ibm.icu-icu4j \
+mvn-com.ibm.icu-icu4j-pom- \
+osgi-com.ibm.icu"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

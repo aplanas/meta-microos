@@ -24,12 +24,12 @@ RPM_HASH = "0b40bea4b338d03f957c3c5d67238da7da1630e73265ad3550d5e1db6dc821b33130
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cfscrape \
-python3.10dist(cfscrape) \
+python3.10dist-cfscrape \
 python310-cfscrape \
-python3dist(cfscrape)"
+python3dist-cfscrape"
 
 RDEPENDS:${PN} += "nodejs \
-python(abi) \
+python-abi \
 python310-requests"
 
 inherit rpm

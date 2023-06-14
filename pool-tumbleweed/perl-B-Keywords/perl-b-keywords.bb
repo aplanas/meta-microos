@@ -26,9 +26,9 @@ RPM_NAME = "perl-B-Keywords-1.24-1.7.noarch.rpm"
 RPM_HASH = "6c1208863539504629fc56cb72a9a6e797ad2fb7a0b2739542aaf82b85118ce60b873813bb69e917eb7cc84c193838385ad269a744ab5cc1438f759fb2cd05ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(B::Keywords) \
+RPROVIDES:${PN} += "perl-B--Keywords \
 perl-B-Keywords"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

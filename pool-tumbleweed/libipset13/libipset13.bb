@@ -11,13 +11,12 @@ PV = "7.17"
 RPM_NAME = "libipset13-7.17-1.2.aarch64.rpm"
 RPM_HASH = "eba032412713e287f458f8aba2bfb88cd23f77c4437c2d9f9c29a9cf692f6565d771f27d6139d8870fe3a846dd0257bbcad462cec5554127b88beb7890ffa8c9"
 
-RPROVIDES:${PN} += "libipset.so.13()(64bit) \
-libipset13 \
-libipset13(aarch-64)"
+RPROVIDES:${PN} += "libipset.so.13 \
+libipset13"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmnl.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmnl.so.0"
 
 inherit rpm

@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "inter-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

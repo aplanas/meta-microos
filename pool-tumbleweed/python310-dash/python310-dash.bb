@@ -14,13 +14,13 @@ RPM_HASH = "d747d442ab99e72a8673815768b2d03ae0cb1d91e02ec446fc7abef8c7f01d1e793a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dash \
-python3.10dist(dash) \
+python3.10dist-dash \
 python310-dash \
-python3dist(dash)"
+python3dist-dash"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Flask \
 python310-Flask-Compress \
 python310-beautifulsoup4 \

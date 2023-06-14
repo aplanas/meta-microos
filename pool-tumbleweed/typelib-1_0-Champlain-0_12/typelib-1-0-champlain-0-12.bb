@@ -11,31 +11,30 @@ PV = "0.12.21"
 RPM_NAME = "typelib-1_0-Champlain-0_12-0.12.21-1.3.aarch64.rpm"
 RPM_HASH = "261b9d31c067dbaaa4843779c85ed7ac3c11bd6feba1ffa50235deeb721aeb4d83cc16835e6841b113a86d0dea5999c9d784442bb324110e33e74ff595998aba"
 
-RPROVIDES:${PN} += "typelib(Champlain) \
-typelib(GtkChamplain) \
-typelib-1_0-Champlain-0_12 \
-typelib-1_0-Champlain-0_12(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Champlain-0-12 \
+typelib-Champlain \
+typelib-GtkChamplain"
 
-RDEPENDS:${PN} += "libchamplain-0.12.so.0()(64bit) \
-libchamplain-gtk-0.12.so.0()(64bit) \
-typelib(Atk) \
-typelib(Clutter) \
-typelib(Cogl) \
-typelib(CoglPango) \
-typelib(GL) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(HarfBuzz) \
-typelib(Json) \
-typelib(Pango) \
-typelib(PangoCairo) \
-typelib(cairo) \
-typelib(freetype2) \
-typelib(xlib)"
+RDEPENDS:${PN} += "libchamplain-0.12.so.0 \
+libchamplain-gtk-0.12.so.0 \
+typelib-Atk \
+typelib-Clutter \
+typelib-Cogl \
+typelib-CoglPango \
+typelib-GL \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-HarfBuzz \
+typelib-Json \
+typelib-Pango \
+typelib-PangoCairo \
+typelib-cairo \
+typelib-freetype2 \
+typelib-xlib"
 
 inherit rpm

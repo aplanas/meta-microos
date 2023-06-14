@@ -21,11 +21,11 @@ RPM_NAME = "perl-Pod-Eventual-0.094003-1.2.noarch.rpm"
 RPM_HASH = "98bf13c37edcd63d4633290d6c75a6ea2d8ea982e5c607169e198a35c3e67ac6ddf3f3afef05c660f77d6a0ba3c936e11c9cc1744bc1fb7342735c1d51c3c08d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Pod::Eventual) \
-perl(Pod::Eventual::Simple) \
+RPROVIDES:${PN} += "perl-Pod--Eventual \
+perl-Pod--Eventual--Simple \
 perl-Pod-Eventual"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Mixin::Linewise::Readers)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Mixin--Linewise--Readers"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "ac145216cd9af437b49f1b499f657b7e4dc2f6dcb6237316141c5f8be3be4a839be9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-latex \
-python3-jupyter_jupyterlab_latex \
+python3-jupyter-jupyterlab-latex \
 python3-jupyterlab-latex \
-python3.10dist(jupyterlab-latex) \
-python3dist(jupyterlab-latex)"
+python3.10dist-jupyterlab-latex \
+python3dist-jupyterlab-latex"
 
 RDEPENDS:${PN} += "jupyter-notebook \
-python(abi) \
+python-abi \
 texlive-latex-bin"
 
 inherit rpm

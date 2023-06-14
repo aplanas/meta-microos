@@ -15,25 +15,23 @@ PV = "1.29.0"
 RPM_NAME = "libgnustep-base1_29-1.29.0-1.5.aarch64.rpm"
 RPM_HASH = "f9a79a860c44f0a08270f2337f297bee45325ede4cc3b791f2d9f48ff660ae3599142e8af2060a7314fa4ade21d147cb39456faa0b895864c043dbc826a16a3c"
 
-RPROVIDES:${PN} += "libgnustep-base.so.1.29()(64bit) \
-libgnustep-base1_29 \
-libgnustep-base1_29(aarch-64)"
+RPROVIDES:${PN} += "libgnustep-base.so.1.29 \
+libgnustep-base1-29"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libobjc.so.4()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libc.so.6 \
+libffi.so.8 \
+libgcc-s.so.1 \
+libgnutls.so.30 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libm.so.6 \
+libobjc.so.4 \
+libxml2.so.2 \
+libxslt.so.1 \
+libz.so.1"
 
 inherit rpm

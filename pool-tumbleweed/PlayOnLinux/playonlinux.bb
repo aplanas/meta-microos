@@ -12,9 +12,7 @@ RPM_NAME = "PlayOnLinux-4.4.0-2.3.noarch.rpm"
 RPM_HASH = "5dd964a37b70cfddb97c1c1a97e8364d4a939c16478de52886b338ed9a2d00ca8c978f05cae8c182e1c20a23203e579ca1399648528aefd06de5fe4408c3fdf9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "PlayOnLinux \
-application() \
-application(PlayOnLinux.desktop)"
+RPROVIDES:${PN} += "PlayOnLinux"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

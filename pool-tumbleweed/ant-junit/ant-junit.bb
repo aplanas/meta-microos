@@ -11,17 +11,17 @@ RPM_HASH = "031a4a49f1f9e03be95695b8cd361baacafc2e5140efc09967518255b7c96a974db9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-junit \
-config(ant-junit) \
-mvn(org.apache.ant:ant-junit) \
-mvn(org.apache.ant:ant-junit4) \
-mvn(org.apache.ant:ant-junit4:pom:) \
-mvn(org.apache.ant:ant-junit:pom:)"
+config-ant-junit \
+mvn-org.apache.ant-ant-junit \
+mvn-org.apache.ant-ant-junit-pom- \
+mvn-org.apache.ant-ant-junit4 \
+mvn-org.apache.ant-ant-junit4-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
 junit4 \
-mvn(junit:junit) \
-mvn(org.apache.ant:ant)"
+mvn-junit-junit \
+mvn-org.apache.ant-ant"
 
 inherit rpm

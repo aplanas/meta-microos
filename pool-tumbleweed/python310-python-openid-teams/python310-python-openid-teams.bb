@@ -9,10 +9,10 @@ RPM_HASH = "4f441658faa9baf7282f542a9dc1de9997d5d6294ccdf259a330a76e8e65199e52fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-openid-teams \
-python3.10dist(python-openid-teams) \
+python3.10dist-python-openid-teams \
 python310-python-openid-teams \
-python3dist(python-openid-teams)"
+python3dist-python-openid-teams"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

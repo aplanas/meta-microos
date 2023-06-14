@@ -10,25 +10,25 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gummi-lang \
 gummi-lang-all \
-locale(gummi:ar) \
-locale(gummi:ca) \
-locale(gummi:cs) \
-locale(gummi:da) \
-locale(gummi:de) \
-locale(gummi:el) \
-locale(gummi:es) \
-locale(gummi:fr) \
-locale(gummi:hu) \
-locale(gummi:it) \
-locale(gummi:nl) \
-locale(gummi:pl) \
-locale(gummi:pt) \
-locale(gummi:pt_BR) \
-locale(gummi:ro) \
-locale(gummi:ru) \
-locale(gummi:sv) \
-locale(gummi:zh_CN) \
-locale(gummi:zh_TW)"
+locale-gummi-ar \
+locale-gummi-ca \
+locale-gummi-cs \
+locale-gummi-da \
+locale-gummi-de \
+locale-gummi-el \
+locale-gummi-es \
+locale-gummi-fr \
+locale-gummi-hu \
+locale-gummi-it \
+locale-gummi-nl \
+locale-gummi-pl \
+locale-gummi-pt \
+locale-gummi-pt-BR \
+locale-gummi-ro \
+locale-gummi-ru \
+locale-gummi-sv \
+locale-gummi-zh-CN \
+locale-gummi-zh-TW"
 
 RDEPENDS:${PN} += "gummi"
 

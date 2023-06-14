@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-calendar-applet-lang \
 budgie-calendar-applet-lang-all \
-locale(budgie-calendar-applet:ca) \
-locale(budgie-calendar-applet:de) \
-locale(budgie-calendar-applet:el_GR) \
-locale(budgie-calendar-applet:es) \
-locale(budgie-calendar-applet:fr) \
-locale(budgie-calendar-applet:lt) \
-locale(budgie-calendar-applet:pt_PT) \
-locale(budgie-calendar-applet:tr) \
-locale(budgie-calendar-applet:uk)"
+locale-budgie-calendar-applet-ca \
+locale-budgie-calendar-applet-de \
+locale-budgie-calendar-applet-el-GR \
+locale-budgie-calendar-applet-es \
+locale-budgie-calendar-applet-fr \
+locale-budgie-calendar-applet-lt \
+locale-budgie-calendar-applet-pt-PT \
+locale-budgie-calendar-applet-tr \
+locale-budgie-calendar-applet-uk"
 
 RDEPENDS:${PN} += "budgie-calendar-applet"
 

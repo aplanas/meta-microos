@@ -10,11 +10,11 @@ RPM_HASH = "c8d268cbff2a53b2c55f07386b67046078cb6bd77285a18d57f8d6dc92aaa6021e35
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ncclient \
-python3.10dist(ncclient) \
+python3.10dist-ncclient \
 python310-ncclient \
-python3dist(ncclient)"
+python3dist-ncclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-paramiko \
 python310-setuptools \

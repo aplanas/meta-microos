@@ -31,12 +31,11 @@ PV = "1.2.0"
 RPM_NAME = "pcsc-eco5000-1.2.0-88.25.aarch64.rpm"
 RPM_HASH = "0b5bd69171a6a7c6e94c13e2edca73dde62d8f2e919325c4c9abe4817883dc79f3f927f228663798c3441047a420612f847d4ca06540f8cdd1364f13bbce2759"
 
-RPROVIDES:${PN} += "libcteco5000.so.0()(64bit) \
-pcsc-eco5000 \
-pcsc-eco5000(aarch-64)"
+RPROVIDES:${PN} += "libcteco5000.so.0 \
+pcsc-eco5000"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 pcsc-lite"
 
 inherit rpm

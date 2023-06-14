@@ -10,13 +10,13 @@ RPM_HASH = "6311779c8e5659dcd3c6900a8e81c0203a73f56dfb0b458aca88656cdc899028912d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Morfessor \
-python3.10dist(morfessor) \
+python3.10dist-morfessor \
 python310-Morfessor \
-python3dist(morfessor)"
+python3dist-morfessor"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

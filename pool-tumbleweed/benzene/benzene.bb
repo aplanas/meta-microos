@@ -11,10 +11,9 @@ PV = "20130630"
 RPM_NAME = "benzene-20130630-1.10.aarch64.rpm"
 RPM_HASH = "18a4b0d144c7f89dc5cdaeb03e312777efff3a310e9d3dab0b098e07f072280983751e41d8c48eff216fa036146f1379006e198adca9165df357ebe31949e71d"
 
-RPROVIDES:${PN} += "benzene \
-benzene(aarch-64)"
+RPROVIDES:${PN} += "benzene"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

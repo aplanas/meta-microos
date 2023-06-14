@@ -15,10 +15,10 @@ RPM_HASH = "e35498cbeec4b2f6d7603e9ca73fb252a532184acf5c3e6b76597fc02d8ad33d57e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-snowballstemmer \
-python3.10dist(snowballstemmer) \
+python3.10dist-snowballstemmer \
 python310-snowballstemmer \
-python3dist(snowballstemmer)"
+python3dist-snowballstemmer"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

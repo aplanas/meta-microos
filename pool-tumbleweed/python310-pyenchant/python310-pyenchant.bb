@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-enchant \
 python3-pyenchant \
-python3.10dist(pyenchant) \
+python3.10dist-pyenchant \
 python310-enchant \
 python310-pyenchant \
-python3dist(pyenchant)"
+python3dist-pyenchant"
 
 RDEPENDS:${PN} += "enchant-2-backend-hunspell \
-python(abi)"
+python-abi"
 
 inherit rpm

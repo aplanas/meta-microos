@@ -10,7 +10,7 @@ RPM_NAME = "texlive-iffont-2023.201.1.0.0svn38823-52.1.noarch.rpm"
 RPM_HASH = "a1fdfd91139ce52ab34ad5358be1f4481c390363b68370c24fab45d30349f2ba52eae0c72ac8272ae0fe9265ad857208c0100f43af5705ad29ebde12d6c22543"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(iffont.sty) \
+RPROVIDES:${PN} += "tex-iffont.sty \
 texlive-iffont"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(fontspec.sty) \
+tex-etoolbox.sty \
+tex-fontspec.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

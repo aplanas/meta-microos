@@ -7,37 +7,21 @@ PV = "1.0.3a+git20221107.8ad0a11"
 RPM_NAME = "qimgv-1.0.3a+git20221107.8ad0a11-1.3.aarch64.rpm"
 RPM_HASH = "6de49783a53e1679709d7c1607b31b2456e81043f2ca935ef9436d556226f21d862b097ac9e048fcc995c380ac72ffe51b4fae21ac430dab4cada7cfa44a8523"
 
-RPROVIDES:${PN} += "application() \
-application(qimgv.desktop) \
-metainfo() \
-metainfo(qimgv.appdata.xml) \
-mimehandler(image/bmp) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/png) \
-mimehandler(image/webp) \
-mimehandler(video/webm) \
-qimgv \
-qimgv(aarch-64)"
+RPROVIDES:${PN} += "qimgv"
 
-RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libexiv2.so.27()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmpv.so.2()(64bit) \
-libopencv_core.so.407()(64bit) \
-libopencv_imgproc.so.407()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libexiv2.so.27 \
+libgcc-s.so.1 \
+libm.so.6 \
+libmpv.so.2 \
+libopencv-core.so.407 \
+libopencv-imgproc.so.407 \
+libstdc++.so.6 \
 mpv"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-qtree-2023.201.3.1bsvn15878-53.1.noarch.rpm"
 RPM_HASH = "a723d7d40f442671b429e44bddb9b837bbe21e1736020b82c580ca8089d027ef7f51d7e17c2d3eb10d6b70de7815d533f9762589bab753c57f38f41a49f8388b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(qtree.sty) \
+RPROVIDES:${PN} += "tex-qtree.sty \
 texlive-qtree"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pict2e.sty) \
+tex-pict2e.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

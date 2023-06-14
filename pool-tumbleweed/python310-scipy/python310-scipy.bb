@@ -12,20 +12,18 @@ RPM_NAME = "python310-scipy-1.10.1-2.4.aarch64.rpm"
 RPM_HASH = "11c38fedbf2d172ed968612d89c12c5519fc5f90624df25026bdf8aa3f0c0caa646836c06c040407ba3e303ed91f16977e7e4698988a423ea45194bcd1819226"
 
 RPROVIDES:${PN} += "python3-scipy \
-python3.10dist(scipy) \
+python3.10dist-scipy \
 python310-scipy \
-python310-scipy(aarch-64) \
-python3dist(scipy)"
+python3dist-scipy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
-libopenblas.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
+libopenblas.so.0 \
+libstdc++.so.6 \
+python-abi \
 python310-numpy \
 python310-pybind11"
 

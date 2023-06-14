@@ -13,7 +13,7 @@ RPM_NAME = "texlive-soulpos-2023.201.1.2svn60772-57.1.noarch.rpm"
 RPM_HASH = "d8b2b1238919036f38226a6df59e93136461b25448ae2a34ea22ae3c9bd98dc0c9fb17a3cec21596b2ad3a5be517263a4c903bfdfe972b19941283be337a6751"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(soulpos.sty) \
+RPROVIDES:${PN} += "tex-soulpos.sty \
 texlive-soulpos"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(soulutf8.sty) \
+tex-keyval.sty \
+tex-soulutf8.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

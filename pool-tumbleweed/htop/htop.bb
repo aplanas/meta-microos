@@ -8,20 +8,15 @@ PV = "3.2.2"
 RPM_NAME = "htop-3.2.2-1.3.aarch64.rpm"
 RPM_HASH = "e0db5061446be8c6a046c578b1ce9034888b6940f18c184606a6ea2cfe00d4662e99b02db08ce97386396d9bb053e02ff1a67952f023d1ba62806c7e277300df"
 
-RPROVIDES:${PN} += "application() \
-application(htop.desktop) \
-htop \
-htop(aarch-64)"
+RPROVIDES:${PN} += "htop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-genl-3.so.200()(64bit) \
-libnl-genl-3.so.200(libnl_3)(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libm.so.6 \
+libncursesw.so.6 \
+libnl-3.so.200 \
+libnl-genl-3.so.200 \
+libtinfo.so.6"
 
 inherit rpm

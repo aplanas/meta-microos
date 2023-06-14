@@ -11,11 +11,11 @@ RPM_HASH = "731416228f8f684a78b91b7e9472aa4677aad429944d3fba32e76b5658a537e89ab6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-ecr \
-mvn(com.amazonaws:aws-java-sdk-ecr) \
-mvn(com.amazonaws:aws-java-sdk-ecr:pom:)"
+mvn-com.amazonaws-aws-java-sdk-ecr \
+mvn-com.amazonaws-aws-java-sdk-ecr-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.amazonaws:aws-java-sdk-core)"
+mvn-com.amazonaws-aws-java-sdk-core"
 
 inherit rpm

@@ -11,22 +11,17 @@ PV = "6.5.1"
 RPM_NAME = "libQt6PrintSupport6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "c9197bb73dac5ea757bfae8f6e1bf0a93421dad7a40f93b9d892dc68bbb974a787d73097761d28a048a7a754c41aa0c81cc0e20429e9f2e1efcf2a892d44c453"
 
-RPROVIDES:${PN} += "libQt6PrintSupport.so.6()(64bit) \
-libQt6PrintSupport.so.6(Qt_6)(64bit) \
-libQt6PrintSupport6 \
-libQt6PrintSupport6(aarch-64)"
+RPROVIDES:${PN} += "libQt6PrintSupport.so.6 \
+libQt6PrintSupport6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libQt6Widgets6 \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

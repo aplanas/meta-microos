@@ -10,30 +10,30 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hivex-lang \
 hivex-lang-all \
-locale(hivex:ca) \
-locale(hivex:cs) \
-locale(hivex:de) \
-locale(hivex:es) \
-locale(hivex:eu) \
-locale(hivex:fr) \
-locale(hivex:gu) \
-locale(hivex:hi) \
-locale(hivex:hu) \
-locale(hivex:ja) \
-locale(hivex:ka) \
-locale(hivex:kn) \
-locale(hivex:ml) \
-locale(hivex:mr) \
-locale(hivex:nl) \
-locale(hivex:or) \
-locale(hivex:pl) \
-locale(hivex:pt) \
-locale(hivex:pt_BR) \
-locale(hivex:ru) \
-locale(hivex:si) \
-locale(hivex:sr) \
-locale(hivex:uk) \
-locale(hivex:zh_CN)"
+locale-hivex-ca \
+locale-hivex-cs \
+locale-hivex-de \
+locale-hivex-es \
+locale-hivex-eu \
+locale-hivex-fr \
+locale-hivex-gu \
+locale-hivex-hi \
+locale-hivex-hu \
+locale-hivex-ja \
+locale-hivex-ka \
+locale-hivex-kn \
+locale-hivex-ml \
+locale-hivex-mr \
+locale-hivex-nl \
+locale-hivex-or \
+locale-hivex-pl \
+locale-hivex-pt \
+locale-hivex-pt-BR \
+locale-hivex-ru \
+locale-hivex-si \
+locale-hivex-sr \
+locale-hivex-uk \
+locale-hivex-zh-CN"
 
 RDEPENDS:${PN} += "hivex"
 

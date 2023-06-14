@@ -13,6 +13,6 @@ RPROVIDES:${PN} += "monitoring-plugins-bl \
 nagios-plugins-bl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Net::DNS)"
+perl-Net--DNS"
 
 inherit rpm

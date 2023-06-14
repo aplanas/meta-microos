@@ -9,14 +9,13 @@ PV = "2.3.1"
 RPM_NAME = "yubico-piv-tool-2.3.1-1.2.aarch64.rpm"
 RPM_HASH = "4bcf8d51fcdd587236eb76583dbd7cef72de954a9b501b4cb99b5b7baf068e9e9d192958a338dfb0512d3e2912ee26121254b5a605650c0b38691e01791d34a4"
 
-RPROVIDES:${PN} += "yubico-piv-tool \
-yubico-piv-tool(aarch-64)"
+RPROVIDES:${PN} += "yubico-piv-tool"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
 libykcs11-2 \
-libykpiv.so.2()(64bit) \
+libykpiv.so.2 \
 libykpiv2"
 
 inherit rpm

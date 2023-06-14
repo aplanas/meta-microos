@@ -14,11 +14,10 @@ PV = "20230301"
 RPM_NAME = "mbuffer-20230301-1.1.aarch64.rpm"
 RPM_HASH = "2eff577780d8f9a5337a98ef942f1b4a29dbd807d80972d79e9f5b68939c9fcd3e0985b3937ab14e355fb76d170074a17a876996ab816c49af97bc4187a5f3c5"
 
-RPROVIDES:${PN} += "mbuffer \
-mbuffer(aarch-64)"
+RPROVIDES:${PN} += "mbuffer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3"
 
 inherit rpm

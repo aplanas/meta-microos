@@ -19,17 +19,16 @@ PV = "4.06c"
 RPM_NAME = "afl-4.06c-1.1.aarch64.rpm"
 RPM_HASH = "5ae823ca09563653f628dce6763a95afd4ad21c53606b73f5476111da8c916cef06b07e59dbc202879b7c8910290e3c3ea9c5ee3f7eaadbabd9b43660129de06"
 
-RPROVIDES:${PN} += "afl \
-afl(aarch-64)"
+RPROVIDES:${PN} += "afl"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
 lld"
 
 inherit rpm

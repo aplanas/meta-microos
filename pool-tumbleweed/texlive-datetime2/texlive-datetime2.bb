@@ -18,8 +18,8 @@ RPM_NAME = "texlive-datetime2-2023.204.1.5.7svn63102-54.1.noarch.rpm"
 RPM_HASH = "46267078828b631f474ac61aeda3953278dfa03c909504cc6cfb358b77c26ff6f5ae43b11d6cbebc94406fcbdecd08c0dced8225e7aadfb4ac728824732d9add"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-calc.sty) \
-tex(datetime2.sty) \
+RPROVIDES:${PN} += "tex-datetime2-calc.sty \
+tex-datetime2.sty \
 texlive-datetime2"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,11 +28,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(pgfcalendar.sty) \
-tex(pgfkeys.sty) \
-tex(tracklang.sty) \
-tex(xkeyval.sty) \
+tex-etoolbox.sty \
+tex-pgfcalendar.sty \
+tex-pgfkeys.sty \
+tex-tracklang.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-etoolbox \
 texlive-filesystem \

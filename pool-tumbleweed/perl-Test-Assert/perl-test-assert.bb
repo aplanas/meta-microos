@@ -23,13 +23,13 @@ RPM_NAME = "perl-Test-Assert-0.0504-9.24.noarch.rpm"
 RPM_HASH = "2d66a1e414290a845826368bea1e2643564979c6c7a46f7e7fe9c7dd75eac4aedbe120cc0816ed92694d4b1ba37056335e955c54ac196fc566c7c75933c6f579"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Exception::Assertion) \
-perl(Test::Assert) \
+RPROVIDES:${PN} += "perl-Exception--Assertion \
+perl-Test--Assert \
 perl-Test-Assert"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exception::Base) \
-perl(Symbol::Util) \
-perl(constant::boolean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exception--Base \
+perl-Symbol--Util \
+perl-constant--boolean"
 
 inherit rpm

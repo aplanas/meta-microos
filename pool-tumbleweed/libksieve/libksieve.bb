@@ -8,8 +8,7 @@ PV = "23.04.1"
 RPM_NAME = "libksieve-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "2e6a8f01807e451f4a5ff196b924259155802ad41cbee4245937bd9bacb91255f45e9a7e64706abb554aacf623bd70714258a5352aa0e8ae55e16e92f4ac1d14"
 
-RPROVIDES:${PN} += "libksieve \
-libksieve(aarch-64)"
+RPROVIDES:${PN} += "libksieve"
 
 RDEPENDS:${PN} += ""
 

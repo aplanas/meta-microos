@@ -13,34 +13,22 @@ PV = "23.04.1"
 RPM_NAME = "kjournald-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "29cd34943597ffd5e264f9d1b3ba175da0cc760400ff9b99bbcd533ec52456653c91c62b7d7ce4ec7d4b1883ddd5a6845efa4282bcd4a527816e4819c4813127"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.kjournaldbrowser.desktop) \
-kjournald \
-kjournald(aarch-64) \
-libkjournald.so.23()(64bit) \
-metainfo() \
-metainfo(org.kde.kjournaldbrowser.appdata.xml)"
+RPROVIDES:${PN} += "kjournald \
+libkjournald.so.23"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5QuickControls2.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_246)(64bit)"
+libstdc++.so.6 \
+libsystemd.so.0"
 
 inherit rpm

@@ -20,8 +20,7 @@ PV = "2.1.0"
 RPM_NAME = "sirocco-devel-2.1.0-1.8.aarch64.rpm"
 RPM_HASH = "d0d48911ebdd52d0c28213c52cd02fa8aaaa280752966556bd306b1dc29b71866d05fd922d91e6119b3b4b2ee45b049689ed0d9631dff7f6d6c2dbc7f3c19d15"
 
-RPROVIDES:${PN} += "sirocco-devel \
-sirocco-devel(aarch-64)"
+RPROVIDES:${PN} += "sirocco-devel"
 
 RDEPENDS:${PN} += "libsirocco0"
 

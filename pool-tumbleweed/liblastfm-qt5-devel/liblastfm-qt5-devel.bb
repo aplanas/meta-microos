@@ -11,15 +11,14 @@ PV = "1.1.0"
 RPM_NAME = "liblastfm-qt5-devel-1.1.0-1.10.aarch64.rpm"
 RPM_HASH = "bd8c3c60c79910068735f08137e7dae31e677d7698e47f282f6a9513afdd81c73efbb538b4c5cfa7a1dda7b632c1ef470f04b238788b1286a23c26880be87a5c"
 
-RPROVIDES:${PN} += "liblastfm-qt5-devel \
-liblastfm-qt5-devel(aarch-64)"
+RPROVIDES:${PN} += "liblastfm-qt5-devel"
 
-RDEPENDS:${PN} += "liblastfm5-1 \
-liblastfm_fingerprint5-1 \
+RDEPENDS:${PN} += "liblastfm-fingerprint5-1 \
+liblastfm5-1 \
 pkgconfig \
-pkgconfig(Qt5Core) \
-pkgconfig(Qt5DBus) \
-pkgconfig(Qt5Network) \
-pkgconfig(Qt5Xml)"
+pkgconfig-Qt5Core \
+pkgconfig-Qt5DBus \
+pkgconfig-Qt5Network \
+pkgconfig-Qt5Xml"
 
 inherit rpm

@@ -9,13 +9,11 @@ RPM_HASH = "a029da45208eb12038942d0ab706b77a1a0d8c84afc72b8b44a8d7c7853d3239037e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mpl-animators \
-python3-mpl_animators \
-python3.10dist(mpl-animators) \
+python3.10dist-mpl-animators \
 python310-mpl-animators \
-python310-mpl_animators \
-python3dist(mpl-animators)"
+python3dist-mpl-animators"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy"
 

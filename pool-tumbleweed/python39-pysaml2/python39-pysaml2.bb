@@ -9,14 +9,13 @@ PV = "7.2.1"
 RPM_NAME = "python39-pysaml2-7.2.1-2.4.aarch64.rpm"
 RPM_HASH = "13ac131a383eef7f1960d7f90bc97490c5e9659ce7db3c6834809dec7e1eba80439e9e088e970e893beda5c54cab473529ced44ff7cfed5e6a72ff9c99fd1228"
 
-RPROVIDES:${PN} += "python3.9dist(pysaml2) \
+RPROVIDES:${PN} += "python3.9dist-pysaml2 \
 python39-pysaml2 \
-python39-pysaml2(aarch-64) \
-python3dist(pysaml2)"
+python3dist-pysaml2"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Paste \
 python39-cryptography \
 python39-defusedxml \

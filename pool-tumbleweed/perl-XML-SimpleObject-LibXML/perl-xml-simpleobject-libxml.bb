@@ -18,10 +18,10 @@ RPM_NAME = "perl-XML-SimpleObject-LibXML-0.60-126.26.noarch.rpm"
 RPM_HASH = "cb05add414bd0bb1307a9d5aae23271a6b906ac729b240b71585f8daea3edf98483efd9ee05058a41bd0f77be14c65aeca84f64b3fad0ffa446ac7b4294c79ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::SimpleObject::LibXML) \
+RPROVIDES:${PN} += "perl-XML--SimpleObject--LibXML \
 perl-XML-SimpleObject-LibXML"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(XML::LibXML)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-XML--LibXML"
 
 inherit rpm

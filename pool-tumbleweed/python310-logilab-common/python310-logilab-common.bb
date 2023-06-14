@@ -17,10 +17,10 @@ RPM_HASH = "644f47d5b21ae86fa52f3a50b887f51f3b4866bf5944baed5af79c44255deb283fc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-logilab-common \
-python3.10dist(logilab-common) \
+python3.10dist-logilab-common \
 python310-logilab-common \
-python3dist(logilab-common)"
+python3dist-logilab-common"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

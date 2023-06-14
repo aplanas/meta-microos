@@ -16,7 +16,7 @@ RPM_NAME = "texlive-songproj-2023.201.1.0.1svn64966-57.1.noarch.rpm"
 RPM_HASH = "5b7348026613babd35ff8d75bd682ad5700812d7c1896632ae0384197f45949de0b13ccfe0de241032225c017357e8ef76ef07815c99cd2f34d51246f84eec57"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(songproj.sty) \
+RPROVIDES:${PN} += "tex-songproj.sty \
 texlive-songproj"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(verse.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-verse.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,7 +9,7 @@ RPM_HASH = "bc9d8c23391e8f3cda1ac93f01032b4c8bd8ee4fa6981f09cdfc4d2e2e93f94813d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-equ \
-tesseract-ocr-traineddata-math_equation"
+tesseract-ocr-traineddata-math-equation"
 
 RDEPENDS:${PN} += "tesseract-ocr"
 

@@ -12,12 +12,11 @@ PV = "0.31.1"
 RPM_NAME = "libautotrace3-0.31.1-646.3.aarch64.rpm"
 RPM_HASH = "6a899c60501257406ba295d36982f5ee0f7f461f99dc8c6955c1ace4f9db64d161dc0ba1d7fe99c6ecc66f1fcb7aacba09824e1d57ad78024cd5b2a0addda058"
 
-RPROVIDES:${PN} += "libautotrace.so.3()(64bit) \
-libautotrace3 \
-libautotrace3(aarch-64)"
+RPROVIDES:${PN} += "libautotrace.so.3 \
+libautotrace3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

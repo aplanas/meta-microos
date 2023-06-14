@@ -12,18 +12,13 @@ PV = "8.20"
 RPM_NAME = "yamagi-quake2-8.20-1.3.aarch64.rpm"
 RPM_HASH = "2e0fdaa302335d217a9e0f7e00ec948c64a3339bb27840b806d238ce2b9fdd3ab3178dcc6b26ad5468dc83c2ff4fdd4eaa9fb27ad2f7352ac20e29e9fc9d199d"
 
-RPROVIDES:${PN} += "application() \
-application(yquake2.desktop) \
-metainfo() \
-metainfo(yamagi-quake2.appdata.xml) \
-yamagi-quake2 \
-yamagi-quake2(aarch-64)"
+RPROVIDES:${PN} += "yamagi-quake2"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenGL.so.0()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenGL.so.0 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

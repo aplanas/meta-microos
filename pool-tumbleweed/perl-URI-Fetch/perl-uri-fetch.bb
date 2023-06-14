@@ -51,13 +51,13 @@ RPM_NAME = "perl-URI-Fetch-0.15-1.9.noarch.rpm"
 RPM_HASH = "dedf62ea6734678135315d8ab968faaa855989a7af2ec1139f58caf6c45a21e3306433dcb79458865a4213f67a8c48d3d071fb54a0c656a327f18cf1fd75d6ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(URI::Fetch) \
-perl(URI::Fetch::Response) \
+RPROVIDES:${PN} += "perl-URI--Fetch \
+perl-URI--Fetch--Response \
 perl-URI-Fetch"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::ErrorHandler) \
-perl(LWP::UserAgent) \
-perl(URI)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--ErrorHandler \
+perl-LWP--UserAgent \
+perl-URI"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "cb16f67d96f6442f8d65591f96e6cdead53c2dbc8fb867f697c98f96c14db03a7387
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-graphene-django \
-python3.10dist(graphene-django) \
+python3.10dist-graphene-django \
 python310-graphene-django \
-python3dist(graphene-django)"
+python3dist-graphene-django"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-graphene \
 python310-graphql-core \

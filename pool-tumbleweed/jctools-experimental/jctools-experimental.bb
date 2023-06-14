@@ -10,13 +10,13 @@ RPM_HASH = "6fbb340ebba6e5c6f8b6aa4dfd144bcee333b3685b080c0e5483a5f3dd0b509959d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jctools-experimental \
-mvn(org.jctools:jctools-experimental) \
-mvn(org.jctools:jctools-experimental:pom:)"
+mvn-org.jctools-jctools-experimental \
+mvn-org.jctools-jctools-experimental-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.jctools:jctools-channels) \
-mvn(org.jctools:jctools-core) \
-mvn(org.ow2.asm:asm-all)"
+mvn-org.jctools-jctools-channels \
+mvn-org.jctools-jctools-core \
+mvn-org.ow2.asm-asm-all"
 
 inherit rpm

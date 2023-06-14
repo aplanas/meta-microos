@@ -12,21 +12,18 @@ PV = "0.0.4"
 RPM_NAME = "libcamera0_0_4-0.0.4-2.3.aarch64.rpm"
 RPM_HASH = "5c306dd5e4ef7c8cdb13ff22447402c6b4076dacfcd5582fb14f653188de46089219400b8055bce092511ad909f97cec34a8e0db65e40c2e86f701a9800a4aaa"
 
-RPROVIDES:${PN} += "libcamera.so.0.0.4()(64bit) \
-libcamera0_0_4 \
-libcamera0_0_4(aarch-64)"
+RPROVIDES:${PN} += "libcamera.so.0.0.4 \
+libcamera0-0-4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcamera-base.so.0.0.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libyaml-0.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcamera-base.so.0.0.4 \
+libgcc-s.so.1 \
+libgnutls.so.30 \
+libm.so.6 \
+libstdc++.so.6 \
+libudev.so.1 \
+libyaml-0.so.2"
 
 inherit rpm

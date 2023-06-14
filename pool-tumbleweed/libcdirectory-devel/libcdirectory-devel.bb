@@ -11,8 +11,7 @@ RPM_NAME = "libcdirectory-devel-20220105-2.4.aarch64.rpm"
 RPM_HASH = "1d025481d6ed6d706aa96d42ff9bd7f1d7b57efc1ce2aadf253dc801067f60dbe3f1e05521d238e9bc71a845c4624e88b91679fde6fcf5fee23b3318908906ed"
 
 RPROVIDES:${PN} += "libcdirectory-devel \
-libcdirectory-devel(aarch-64) \
-pkgconfig(libcdirectory)"
+pkgconfig-libcdirectory"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcdirectory1"

@@ -12,9 +12,8 @@ RPM_NAME = "go-1.20-1.1.aarch64.rpm"
 RPM_HASH = "443b5e9c9fb99e7f163f58f17819a879445db0e06d626137a11f4dd963a540b3d731da2d7619361747db79cfe0ab7a879cdafa76ecfd30c49830b630c94362a1"
 
 RPROVIDES:${PN} += "go \
-go(aarch-64) \
 golang \
-golang(API)"
+golang-API"
 
 RDEPENDS:${PN} += "go1.20"
 

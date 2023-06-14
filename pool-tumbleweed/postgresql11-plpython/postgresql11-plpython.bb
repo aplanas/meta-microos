@@ -18,12 +18,11 @@ RPM_NAME = "postgresql11-plpython-11.20-1.2.aarch64.rpm"
 RPM_HASH = "349c53dd0c3f357e557014e5620c9df050fd39721e92dec7e3b71ba8723c5c542ad16657d02244c8e03b9b301c48b23dfb5ebe2b76f52a2f429d149d7f4bad0d"
 
 RPROVIDES:${PN} += "postgresql-plpython-implementation \
-postgresql11-plpython \
-postgresql11-plpython(aarch-64)"
+postgresql11-plpython"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpython3.10.so.1.0 \
 postgresql-plpython-noarch \
 postgresql11-server \
 python3"

@@ -16,10 +16,10 @@ RPM_HASH = "4a7f51439141df9835165f6b9bdabd1b0ed52f52114d766e97fe53ab7be569feeec2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.versionedobjects \
-python3.10dist(oslo.versionedobjects) \
-python3dist(oslo.versionedobjects)"
+python3.10dist-oslo.versionedobjects \
+python3dist-oslo.versionedobjects"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-WebOb \
 python3-iso8601 \
 python3-netaddr \

@@ -10,11 +10,7 @@ RPM_NAME = "yast2-nfs-server-4.6.0-1.1.noarch.rpm"
 RPM_HASH = "d37a00db7a6df31f968e10a3e15affdfed974b1c406d3d77c1d9f9cc43096f75266a34fc8f7eb95293060fc1bab3e68fdacd9d89128b7b9be9c59126f183fdbd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(org.opensuse.yast.NFSServer.desktop) \
-metainfo() \
-metainfo(org.opensuse.yast.NFSServer.metainfo.xml) \
-yast2-nfs-server"
+RPROVIDES:${PN} += "yast2-nfs-server"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 yast2 \

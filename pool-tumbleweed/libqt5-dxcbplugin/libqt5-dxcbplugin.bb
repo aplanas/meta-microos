@@ -8,31 +8,25 @@ PV = "5.6.12"
 RPM_NAME = "libqt5-dxcbplugin-5.6.12-1.1.aarch64.rpm"
 RPM_HASH = "9183858c2fe293e80e3870f5e2a6ff16531424c4e5a5dbab404bd88eba5d01a964665c3ef24ab2940420b6ea3583e4c367dde5465361cba1c7072d59ffe61294"
 
-RPROVIDES:${PN} += "libdxcb.so()(64bit) \
-libqt5-dxcbplugin \
-libqt5-dxcbplugin(aarch-64)"
+RPROVIDES:${PN} += "libdxcb.so \
+libqt5-dxcbplugin"
 
-RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libQt5XcbQpa.so.5()(64bit) \
-libX11.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxcb-composite.so.0()(64bit) \
-libxcb-damage.so.0()(64bit) \
-libxcb-icccm.so.4()(64bit) \
-libxcb-shape.so.0()(64bit) \
-libxcb-xfixes.so.0()(64bit) \
-libxcb.so.1()(64bit)"
+RDEPENDS:${PN} += "libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libQt5XcbQpa.so.5 \
+libX11.so.6 \
+libXi.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxcb-composite.so.0 \
+libxcb-damage.so.0 \
+libxcb-icccm.so.4 \
+libxcb-shape.so.0 \
+libxcb-xfixes.so.0 \
+libxcb.so.1"
 
 inherit rpm

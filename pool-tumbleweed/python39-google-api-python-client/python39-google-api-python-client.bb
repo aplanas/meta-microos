@@ -9,11 +9,11 @@ RPM_HASH = "659c317391d8c38425c263e05751d995afbff534a329f0ec98354f93d080095ae13c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-api-python-client \
-python3.9dist(google-api-python-client) \
+python3.9dist-google-api-python-client \
 python39-google-api-python-client \
-python3dist(google-api-python-client)"
+python3dist-google-api-python-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-google-api-core \
 python39-google-auth \
 python39-google-auth-httplib2 \

@@ -10,13 +10,11 @@ RPM_HASH = "6b61d8b22e61c7bce1bb6510cbb386fac01a902aefca3ea1fd75a55f4807cf32f37c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-importlib-metadata \
-python3-importlib_metadata \
-python3.10dist(importlib-metadata) \
+python3.10dist-importlib-metadata \
 python310-importlib-metadata \
-python310-importlib_metadata \
-python3dist(importlib-metadata)"
+python3dist-importlib-metadata"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-zipp"
 
 inherit rpm

@@ -7,8 +7,7 @@ PV = "2.8.8"
 RPM_NAME = "hyphen-2.8.8-2.26.aarch64.rpm"
 RPM_HASH = "0e1a74ed430339c6a26a7a848fd08a5b5152b11846505e4120865a375670941a6264299b3eb0ed4719f3edae279382aef1ed295f047376c5b0a950c73963a259"
 
-RPROVIDES:${PN} += "hyphen \
-hyphen(aarch-64)"
+RPROVIDES:${PN} += "hyphen"
 
 RDEPENDS:${PN} += ""
 

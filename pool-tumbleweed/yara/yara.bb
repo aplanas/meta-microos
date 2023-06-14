@@ -11,11 +11,10 @@ PV = "4.3.0"
 RPM_NAME = "yara-4.3.0-1.1.aarch64.rpm"
 RPM_HASH = "476193039889983818bd27735d0c503f736f00905cdc4db74a62e1d0cd150f73533a98b5ac0ea907f921c709192d0ff0c5adb346e3ab8857b8166fc38ee6f7b2"
 
-RPROVIDES:${PN} += "yara \
-yara(aarch-64)"
+RPROVIDES:${PN} += "yara"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libyara.so.10()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libyara.so.10"
 
 inherit rpm

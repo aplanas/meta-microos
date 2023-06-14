@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "o2locktop"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

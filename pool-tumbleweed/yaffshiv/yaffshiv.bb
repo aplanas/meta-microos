@@ -15,8 +15,8 @@ RPM_NAME = "yaffshiv-0.1+git.20160105-1.9.noarch.rpm"
 RPM_HASH = "00ffb87148b31223ad7bdeffabd14afac50cf15625b6942638f8452b8e27f364f3cfecf22e05e8495aed5be7af51e89b02be5172a87eb6bc58b021b10413ead9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(yaffshiv) \
-python3dist(yaffshiv) \
+RPROVIDES:${PN} += "python3.10dist-yaffshiv \
+python3dist-yaffshiv \
 yaffshiv"
 
 RDEPENDS:${PN} += "/usr/bin/python3"

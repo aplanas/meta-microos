@@ -13,14 +13,13 @@ PV = "4.5.4"
 RPM_NAME = "tcl-sqlcipher-4.5.4-1.1.aarch64.rpm"
 RPM_HASH = "14cc4808f7da7b089b3a81ccaef1069d72b90661fc35928bfe3daf6c550af5a712a7e17c119ba76427945a8b1b3dec7b82d3e8174171b6dadf56620f279dbb9d"
 
-RPROVIDES:${PN} += "libtclsqlite3.so()(64bit) \
+RPROVIDES:${PN} += "libtclsqlite3.so \
 sqlcipher-tcl \
-tcl-sqlcipher \
-tcl-sqlcipher(aarch-64)"
+tcl-sqlcipher"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsqlcipher-3.41.2.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsqlcipher-3.41.2.so.0 \
 tcl"
 
 inherit rpm

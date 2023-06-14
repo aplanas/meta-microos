@@ -14,33 +14,24 @@ PV = "3.0.0"
 RPM_NAME = "boomaga-3.0.0-3.11.aarch64.rpm"
 RPM_HASH = "40cc76029d0be103b22e34f270b772a49df9712832e4f95b881bfcf737ee95eb0eb977992907812038f5db45b0436e91bfbc7785c76ece11f2880ed60fd3c0ff"
 
-RPROVIDES:${PN} += "application() \
-application(boomaga.desktop) \
-boomaga \
-boomaga(aarch-64) \
-mimehandler(application/x-boomaga-boo) \
-postscriptdriver(generic;boomaga_printer;)"
+RPROVIDES:${PN} += "boomaga \
+postscriptdriver-generic;boomaga-printer;"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/lpadmin \
 ghostscript \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libcups.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpoppler-cpp.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libcups.so.2 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpoppler-cpp.so.0 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

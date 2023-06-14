@@ -9,11 +9,11 @@ RPM_HASH = "9f8e1ccd79adb58e0c70a2466d97ebf69fcc36f29a426eaab688f9710ff4c0719aa2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-taskw \
-python3.10dist(taskw) \
+python3.10dist-taskw \
 python310-taskw \
-python3dist(taskw)"
+python3dist-taskw"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-kitchen \
 python310-python-dateutil \
 python310-pytz \

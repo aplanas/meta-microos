@@ -17,6 +17,6 @@ python310-Twisted-tls"
 RDEPENDS:${PN} += "python310-Twisted \
 python310-idna \
 python310-pyOpenSSL \
-python310-service_identity"
+python310-service-identity"
 
 inherit rpm

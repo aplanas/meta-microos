@@ -16,13 +16,13 @@ RPM_NAME = "python39-openai-0.26.2-1.5.noarch.rpm"
 RPM_HASH = "632b06da68fd622bb505005a48981ba020aa55cebf44feaf2644e92b464be328c420ec35cff27361076d7b7000e27533a45c5a193cebfc9aa1ee104174e041e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(openai) \
+RPROVIDES:${PN} += "python3.9dist-openai \
 python39-openai \
-python3dist(openai)"
+python3dist-openai"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-aiohttp \
 python39-requests \
 python39-tqdm \

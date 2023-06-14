@@ -37,14 +37,14 @@ RPM_NAME = "perl-Task-Kensho-XML-0.41-1.9.noarch.rpm"
 RPM_HASH = "0ab8447c2f25281d5d20a0eaf6d3131810d18c51dca3140ae0b2d9c79ae5e582c87e5e71cd2ea548fcec5c4d262d2d8fde70d82ea048318b8bcc9b64298aca45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::XML) \
+RPROVIDES:${PN} += "perl-Task--Kensho--XML \
 perl-Task-Kensho-XML"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(XML::Generator::PerlData) \
-perl(XML::LibXML) \
-perl(XML::LibXSLT) \
-perl(XML::SAX) \
-perl(XML::SAX::Writer)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-XML--Generator--PerlData \
+perl-XML--LibXML \
+perl-XML--LibXSLT \
+perl-XML--SAX \
+perl-XML--SAX--Writer"
 
 inherit rpm

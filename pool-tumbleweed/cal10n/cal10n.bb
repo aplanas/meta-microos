@@ -17,12 +17,12 @@ RPM_HASH = "f7f98a0b2855d13a88524d5656eb4c0d772cfa30241ac4d362d454314884e98a6984
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cal10n \
-mvn(ch.qos.cal10n:cal10n-ant-task) \
-mvn(ch.qos.cal10n:cal10n-ant-task:pom:) \
-mvn(ch.qos.cal10n:cal10n-api) \
-mvn(ch.qos.cal10n:cal10n-api:pom:) \
-mvn(ch.qos.cal10n:cal10n-parent:pom:) \
-osgi(cal10n.api)"
+mvn-ch.qos.cal10n-cal10n-ant-task \
+mvn-ch.qos.cal10n-cal10n-ant-task-pom- \
+mvn-ch.qos.cal10n-cal10n-api \
+mvn-ch.qos.cal10n-cal10n-api-pom- \
+mvn-ch.qos.cal10n-cal10n-parent-pom- \
+osgi-cal10n.api"
 
 RDEPENDS:${PN} += "java \
 java-headless \

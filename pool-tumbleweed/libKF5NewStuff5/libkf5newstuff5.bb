@@ -9,37 +9,31 @@ PV = "5.106.0"
 RPM_NAME = "libKF5NewStuff5-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "5ead92695f7c531418c5c3404b890b3d81050a8c7e57a3b77c7d804073cc3e8c2eb3d6dd6160595666b9f49485f9429369dd66fb7ebc68f378a4b1033140f0e4"
 
-RPROVIDES:${PN} += "libKF5NewStuff.so.5()(64bit) \
-libKF5NewStuff5 \
-libKF5NewStuff5(aarch-64)"
+RPROVIDES:${PN} += "libKF5NewStuff.so.5 \
+libKF5NewStuff5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 knewstuff \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5ItemViews.so.5()(64bit) \
-libKF5JobWidgets.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5NewStuffCore.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5IconThemes.so.5 \
+libKF5ItemViews.so.5 \
+libKF5JobWidgets.so.5 \
+libKF5KIOGui.so.5 \
+libKF5NewStuffCore.so.5 \
+libKF5Service.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

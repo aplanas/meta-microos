@@ -9,9 +9,8 @@ PV = "0.9"
 RPM_NAME = "extrace-0.9-1.2.aarch64.rpm"
 RPM_HASH = "a20b53f2e89a1747f5a450b273100faafc91445d40a299e015d39917a45814b03806697d01aad2738845e8ccac90692924f326735f0d2b747806d8c78f6bfca2"
 
-RPROVIDES:${PN} += "extrace \
-extrace(aarch-64)"
+RPROVIDES:${PN} += "extrace"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -30,14 +30,13 @@ PV = "2.0"
 RPM_NAME = "ipv6toolkit-2.0-3.12.aarch64.rpm"
 RPM_HASH = "d018c91c617400b013d538bf37700211185a75a1c8b21999d20aa5289841fe09cd21337ea31d6d75b879c664a2f64fd5b592516d1b4aefce96d3333c5c567b42"
 
-RPROVIDES:${PN} += "config(ipv6toolkit) \
-ipv6toolkit \
-ipv6toolkit(aarch-64)"
+RPROVIDES:${PN} += "config-ipv6toolkit \
+ipv6toolkit"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpcap.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libpcap.so.1"
 
 inherit rpm

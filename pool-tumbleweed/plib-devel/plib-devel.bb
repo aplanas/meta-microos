@@ -13,11 +13,10 @@ PV = "1.8.5+svn.2173"
 RPM_NAME = "plib-devel-1.8.5+svn.2173-6.8.aarch64.rpm"
 RPM_HASH = "82f676a52dc083b23536c612e960a71cca617b35faa8db6c0a019909be7fa11c82a37776b8a392e06295d9c1ecc2504b84e65f3ee18d1cc291474fd4843707b4"
 
-RPROVIDES:${PN} += "plib-devel \
-plib-devel(aarch-64)"
+RPROVIDES:${PN} += "plib-devel"
 
 RDEPENDS:${PN} += "glibc-devel \
 libplib0 \
-pkgconfig(gl)"
+pkgconfig-gl"
 
 inherit rpm

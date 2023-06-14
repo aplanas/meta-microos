@@ -17,12 +17,11 @@ PV = "1.6.3"
 RPM_NAME = "python311-astunparse-1.6.3-5.1.aarch64.rpm"
 RPM_HASH = "5a2cda21a7136558bedc9e4f0f97a63aa5d6962a645e004252c39bf22132db6b488fc5988ce9c4e42b5926ac8b1dea0f019952eab8a99b81f3a0011c055df437"
 
-RPROVIDES:${PN} += "python3.11dist(astunparse) \
+RPROVIDES:${PN} += "python3.11dist-astunparse \
 python311-astunparse \
-python311-astunparse(aarch-64) \
-python3dist(astunparse)"
+python3dist-astunparse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-six \
 python311-wheel"
 

@@ -7,27 +7,22 @@ PV = "3.22.29"
 RPM_NAME = "aisleriot-3.22.29-1.1.aarch64.rpm"
 RPM_HASH = "94b6f1018f93524dea0835e6bebee646e0a384f74c00ab7a70d3d0c71ef38830bf50ad9b09aac3a1b434452b57969f94fb21c9a54c700ad31fe308a2c79fb992"
 
-RPROVIDES:${PN} += "aisleriot \
-aisleriot(aarch-64) \
-application() \
-application(sol.desktop) \
-metainfo() \
-metainfo(sol.metainfo.xml)"
+RPROVIDES:${PN} += "aisleriot"
 
 RDEPENDS:${PN} += "guile \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcanberra-gtk3.so.0()(64bit) \
-libcanberra.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libguile-3.0.so.1()(64bit) \
-librsvg-2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libcanberra-gtk3.so.0 \
+libcanberra.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libguile-3.0.so.1 \
+librsvg-2.so.2"
 
 inherit rpm

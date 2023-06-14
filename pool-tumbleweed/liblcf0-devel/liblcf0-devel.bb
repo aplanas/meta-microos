@@ -8,14 +8,13 @@ PV = "0.6.2"
 RPM_NAME = "liblcf0-devel-0.6.2-2.12.aarch64.rpm"
 RPM_HASH = "e21e5a3495fced2f7d5719fe2f538490f2a3bd029400458037ce50ec28d71a1ec1e6cd2a65de9c9c1a8daa4f37f793b3915a1156ca732297e56b6e0d867159df"
 
-RPROVIDES:${PN} += "cmake(liblcf) \
+RPROVIDES:${PN} += "cmake-liblcf \
 liblcf0-devel \
-liblcf0-devel(aarch-64) \
-pkgconfig(liblcf)"
+pkgconfig-liblcf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblcf0 \
-pkgconfig(expat) \
-pkgconfig(icu-i18n)"
+pkgconfig-expat \
+pkgconfig-icu-i18n"
 
 inherit rpm

@@ -9,14 +9,14 @@ RPM_HASH = "cfc952a8b66baf0be58d17772032e22edd71f59bde7412b92b54e059989ea6cfe09f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pre-commit \
-python3.10dist(pre-commit) \
+python3.10dist-pre-commit \
 python310-pre-commit \
-python3dist(pre-commit)"
+python3dist-pre-commit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-cfgv \
 python310-identify \

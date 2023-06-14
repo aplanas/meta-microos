@@ -9,13 +9,13 @@ RPM_HASH = "863350277f3a51c214cd8becfdc358841e9a11b23fc95eaacd0ad3c6bafb2a063320
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lib3to6 \
-python3.10dist(lib3to6) \
+python3.10dist-lib3to6 \
 python310-lib3to6 \
-python3dist(lib3to6)"
+python3dist-lib3to6"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-astor \
 python310-click \
 python310-typing \

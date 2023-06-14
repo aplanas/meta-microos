@@ -10,16 +10,14 @@ RPM_HASH = "b061abf7927efdeda79c559a66bb862366dc78e7c43ae217295fc313ec33b32dd0f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hatch-jupyter-builder \
-python3-hatch_jupyter_builder \
-python3.10dist(hatch-jupyter-builder) \
+python3.10dist-hatch-jupyter-builder \
 python310-hatch-jupyter-builder \
-python310-hatch_jupyter_builder \
-python3dist(hatch-jupyter-builder)"
+python3dist-hatch-jupyter-builder"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-hatchling"
 
 inherit rpm

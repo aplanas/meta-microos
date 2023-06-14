@@ -16,8 +16,7 @@ RPM_NAME = "libgavl-devel-1.4.0rsvn4256-2.30.aarch64.rpm"
 RPM_HASH = "3f455b49b0323c38f28040630097b269d099ca44075a36fce6ae001eb8c721c18878ed5078af5cf3d7ebba5489ca0d2416820101f4a1bd4bf792920a3b0cbbb6"
 
 RPROVIDES:${PN} += "libgavl-devel \
-libgavl-devel(aarch-64) \
-pkgconfig(gavl)"
+pkgconfig-gavl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgavl1"

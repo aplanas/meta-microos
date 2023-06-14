@@ -9,13 +9,11 @@ RPM_HASH = "f16044145f8a79a486ebefc1ca6ff8e7f1273271ce52016fda691111b95ec302492e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-url-normalize \
-python3-url_normalize \
-python3.10dist(url-normalize) \
+python3.10dist-url-normalize \
 python310-url-normalize \
-python310-url_normalize \
-python3dist(url-normalize)"
+python3dist-url-normalize"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

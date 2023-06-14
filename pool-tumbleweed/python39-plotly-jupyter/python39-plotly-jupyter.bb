@@ -19,9 +19,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python39-jupyterlab-plotly \
 python39-plotly-jupyter"
 
-RDEPENDS:${PN} += "(python39-jupyterlab >= 3 or python39-notebook >= 5.3) \
+RDEPENDS:${PN} += "-python39-jupyterlab >= 3 or python39-notebook >= 5.3 \
 jupyter-plotly \
-python(abi) \
+python-abi \
 python39-ipywidgets \
 python39-plotly"
 

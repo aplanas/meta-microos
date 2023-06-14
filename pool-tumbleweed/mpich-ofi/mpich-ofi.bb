@@ -18,25 +18,22 @@ PV = "4.0.2"
 RPM_NAME = "mpich-ofi-4.0.2-3.3.aarch64.rpm"
 RPM_HASH = "9f0c96fa2878c7d12ef9616bb7c28e4987a9ddecb0a6ad529847995e190272b9eb2ee383fd71e44a9099dd1ac81a8ee0eaea4d1dfa941e7f98a4876b85c77dff"
 
-RPROVIDES:${PN} += "libmpi.so.12()(64bit) \
-libmpicxx.so.12()(64bit) \
-libmpifort.so.12()(64bit) \
+RPROVIDES:${PN} += "libmpi.so.12 \
+libmpicxx.so.12 \
+libmpifort.so.12 \
 mpi \
-mpich-ofi \
-mpich-ofi(aarch-64)"
+mpich-ofi"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfabric.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libgfortran.so.5(GFORTRAN_9)(64bit) \
-libjson-c.so.5()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfabric.so.1 \
+libgfortran.so.5 \
+libjson-c.so.5 \
+libm.so.6 \
+libstdc++.so.6 \
 mpi-selector"
 
 inherit rpm

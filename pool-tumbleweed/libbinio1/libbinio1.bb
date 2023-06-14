@@ -10,15 +10,14 @@ PV = "1.5"
 RPM_NAME = "libbinio1-1.5-1.2.aarch64.rpm"
 RPM_HASH = "9aae8ce531f82187c02c1d96399cc20ccc322159f20583ce175396fd0a5a60230bb4540b447be007507217ff1e8a6170a3949ebe9c20c21619a7298b9bd6aa73"
 
-RPROVIDES:${PN} += "libbinio.so.1()(64bit) \
-libbinio1 \
-libbinio1(aarch-64)"
+RPROVIDES:${PN} += "libbinio.so.1 \
+libbinio1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

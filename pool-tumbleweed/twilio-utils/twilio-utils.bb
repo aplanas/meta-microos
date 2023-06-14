@@ -15,14 +15,13 @@ PV = "1.2.2"
 RPM_NAME = "twilio-utils-1.2.2-1.1.aarch64.rpm"
 RPM_HASH = "d5e3cfcbf630f24f605bd9a036f5e414b6760c0fbf67b9ad41cd39b0488efed83b4f1611d6b0f8cde57a130d8977a12bdf721616da954a5f77c44539e6f3a3b5"
 
-RPROVIDES:${PN} += "config(twilio-utils) \
-twilio-utils \
-twilio-utils(aarch-64)"
+RPROVIDES:${PN} += "config-twilio-utils \
+twilio-utils"
 
 RDEPENDS:${PN} += "/bin/bash \
 curl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libxslt-tools \
 php-cli \
 util-linux-systemd \

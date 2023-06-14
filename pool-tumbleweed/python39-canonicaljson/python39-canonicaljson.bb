@@ -17,14 +17,14 @@ RPM_NAME = "python39-canonicaljson-2.0.0-1.1.noarch.rpm"
 RPM_HASH = "2ad17386e208359400466ea34abbdeb2dd958dae59bc1cd1d7b9ab28c7daf17442b6a59bf05841f1563fd866fd619b0df426afbc245a14ef65fc994f0a10e18e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(canonicaljson) \
+RPROVIDES:${PN} += "python3.9dist-canonicaljson \
 python39-canonicaljson \
-python3dist(canonicaljson)"
+python3dist-canonicaljson"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-frozendict \
 python39-simplejson \
 python39-six \
-python39-typing_extensions"
+python39-typing-extensions"
 
 inherit rpm

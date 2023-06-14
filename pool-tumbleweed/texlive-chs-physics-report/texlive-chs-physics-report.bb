@@ -16,7 +16,7 @@ RPM_NAME = "texlive-chs-physics-report-2023.201.svn54512-53.1.noarch.rpm"
 RPM_HASH = "0b87975b6bd14b2b1e946419b9654875df2065c7e02c896ede8d1336c90fe1362a740b6eba1889845e142ddffbbb3edc587626caa7413be5a88e26aec82cd13a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chs-physics-report.sty) \
+RPROVIDES:${PN} += "tex-chs-physics-report.sty \
 texlive-chs-physics-report"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,16 +25,16 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(calc.sty) \
-tex(color.sty) \
-tex(fancyhdr.sty) \
-tex(geometry.sty) \
-tex(graphicx.sty) \
-tex(letltxmacro.sty) \
-tex(titlesec.sty) \
-tex(transparent.sty) \
-tex(xcolor.sty) \
+tex-amsmath.sty \
+tex-calc.sty \
+tex-color.sty \
+tex-fancyhdr.sty \
+tex-geometry.sty \
+tex-graphicx.sty \
+tex-letltxmacro.sty \
+tex-titlesec.sty \
+tex-transparent.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -14,11 +14,11 @@ RPM_HASH = "ce4f3a236a4f88bcc4de5c0f32288ee867e0fb498322bfc5c8dad076e77921cd18d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-commerce \
-python3.10dist(azure-mgmt-commerce) \
+python3.10dist-azure-mgmt-commerce \
 python310-azure-mgmt-commerce \
-python3dist(azure-mgmt-commerce)"
+python3dist-azure-mgmt-commerce"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

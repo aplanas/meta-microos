@@ -12,11 +12,11 @@ RPM_HASH = "112f586412a69594c4e5234406adfc1d21480c5b55f3134528b2b3065ed790c03fe8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mistralclient \
-python3.10dist(python-mistralclient) \
-python3dist(python-mistralclient)"
+python3.10dist-python-mistralclient \
+python3dist-python-mistralclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-cliff \
 python3-keystoneclient \

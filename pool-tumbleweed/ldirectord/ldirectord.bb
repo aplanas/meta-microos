@@ -11,10 +11,9 @@ PV = "4.12.0+git30.7fd7c8fa"
 RPM_NAME = "ldirectord-4.12.0+git30.7fd7c8fa-1.1.aarch64.rpm"
 RPM_HASH = "cb24ab2606b0f1eed13c9a55e525337ab8d91876107a84d039c92169091695e82e19bf4a57d658b07e073a079ed1cc895257e487a0c0eb4ccd5952845cdf9ec6"
 
-RPROVIDES:${PN} += "config(ldirectord) \
+RPROVIDES:${PN} += "config-ldirectord \
 heartbeat-ldirectord \
-ldirectord \
-ldirectord(aarch-64)"
+ldirectord"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \

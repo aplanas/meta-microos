@@ -9,13 +9,13 @@ RPM_HASH = "3d6f0b74452567f8fcaf4250ba8272356850613aae57fed8c70b58d9ed34e8827a27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vncdotool \
-python3.10dist(vncdotool) \
+python3.10dist-vncdotool \
 python310-vncdotool \
-python3dist(vncdotool)"
+python3dist-vncdotool"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-Twisted \
 update-alternatives"

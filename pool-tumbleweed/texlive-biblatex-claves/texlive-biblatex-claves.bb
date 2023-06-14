@@ -19,7 +19,7 @@ RPM_NAME = "texlive-biblatex-claves-2023.201.1.2.1svn43723-53.1.noarch.rpm"
 RPM_HASH = "a79632cc480ada92228da9af58741ecd4ee1bb252bfdd0cf2ab3a293bad0126e6e567bdc14eac1a8304b03ece8e1535cb34abe0e4318e3f0a5f2514356a67ba9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(claves.bbx) \
+RPROVIDES:${PN} += "tex-claves.bbx \
 texlive-biblatex-claves"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,7 +28,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xpatch.sty) \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

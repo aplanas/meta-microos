@@ -9,31 +9,20 @@ PV = "20210429"
 RPM_NAME = "libagdb1-20210429-3.5.aarch64.rpm"
 RPM_HASH = "e62870a95bb618204b5630dc96c11df01825cb12cfd04a71a409ab701064ce4a12d4c6699c7d34bfe9d9472f619eda9ce5ee8eb7ec4eed1065375b89331a84df"
 
-RPROVIDES:${PN} += "libagdb.so.1()(64bit) \
-libagdb.so.1(V_20210429)(64bit) \
-libagdb1 \
-libagdb1(aarch-64)"
+RPROVIDES:${PN} += "libagdb.so.1 \
+libagdb1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcdata.so.1()(64bit) \
-libcdata.so.1(V_20230108)(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcnotify.so.1()(64bit) \
-libcnotify.so.1(V_20220108)(64bit) \
-libfcache.so.1()(64bit) \
-libfcache.so.1(V_20230115)(64bit) \
-libfdata.so.1()(64bit) \
-libfdata.so.1(V_20230319)(64bit) \
-libfwnt.so.1()(64bit) \
-libfwnt.so.1(V_20220922)(64bit) \
-libuna.so.1()(64bit) \
-libuna.so.1(V_20220611)(64bit)"
+ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcdata.so.1 \
+libcerror.so.1 \
+libclocale.so.1 \
+libcnotify.so.1 \
+libfcache.so.1 \
+libfdata.so.1 \
+libfwnt.so.1 \
+libuna.so.1"
 
 inherit rpm

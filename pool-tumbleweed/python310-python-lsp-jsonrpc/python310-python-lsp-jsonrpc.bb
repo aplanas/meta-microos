@@ -10,11 +10,11 @@ RPM_HASH = "de9267a7aa67832691642143be102404b4a92d636cf065f29a3345e4e0297a8a74b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-lsp-jsonrpc \
-python3.10dist(python-lsp-jsonrpc) \
+python3.10dist-python-lsp-jsonrpc \
 python310-python-lsp-jsonrpc \
-python3dist(python-lsp-jsonrpc)"
+python3dist-python-lsp-jsonrpc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ujson"
 
 inherit rpm

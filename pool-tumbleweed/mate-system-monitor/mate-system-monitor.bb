@@ -10,38 +10,32 @@ PV = "1.26.0"
 RPM_NAME = "mate-system-monitor-1.26.0-1.9.aarch64.rpm"
 RPM_HASH = "3b9f3699b8fda5312bfa61303a093096b4a24e55d0f0fe6dd8110a9fb8f046bb8d254103031f9c5ef22947fe44c78ae3fd7f14328ef63f74b93c7bb43aa7e396"
 
-RPROVIDES:${PN} += "application() \
-application(mate-system-monitor.desktop) \
-mate-system-monitor \
-mate-system-monitor(aarch-64) \
-metainfo() \
-metainfo(mate-system-monitor.appdata.xml)"
+RPROVIDES:${PN} += "mate-system-monitor"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkmm-3.0.so.1()(64bit) \
-libgtop-2.0.so.11()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-librsvg-2.so.2()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libxml2.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtkmm-3.0.so.1 \
+libgtop-2.0.so.11 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+librsvg-2.so.2 \
+libsigc-2.0.so.0 \
+libstdc++.so.6 \
+libsystemd.so.0 \
+libxml2.so.2 \
 polkit"
 
 inherit rpm

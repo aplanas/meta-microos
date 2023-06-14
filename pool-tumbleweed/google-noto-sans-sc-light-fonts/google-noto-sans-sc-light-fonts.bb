@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "google-noto-sans-sc-light-fonts \
 noto-sans-sc-light-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

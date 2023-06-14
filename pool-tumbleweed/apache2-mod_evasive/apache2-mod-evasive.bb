@@ -12,14 +12,13 @@ PV = "1.10.1"
 RPM_NAME = "apache2-mod_evasive-1.10.1-17.5.aarch64.rpm"
 RPM_HASH = "51b24483e3723911df297625127b330a1c2848ac693be8693ac03aa200b27448fc076eea4b7ca9fb0bbb597971a799b39520bb087c9f84e71a73cf874dd00819"
 
-RPROVIDES:${PN} += "apache2-mod_evasive \
-apache2-mod_evasive(aarch-64) \
-config(apache2-mod_evasive)"
+RPROVIDES:${PN} += "apache2-mod-evasive \
+config-apache2-mod-evasive"
 
-RDEPENDS:${PN} += "apache2 \
-apache_mmn_20120211 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-suse_maintenance_mmn_0"
+RDEPENDS:${PN} += "apache-mmn-20120211 \
+apache2 \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+suse-maintenance-mmn-0"
 
 inherit rpm

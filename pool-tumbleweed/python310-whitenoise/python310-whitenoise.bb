@@ -9,10 +9,10 @@ RPM_HASH = "081276e1f21c4b18b234226250145ce83e8cb04d7f54e6662410b7a88ed91ba75049
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-whitenoise \
-python3.10dist(whitenoise) \
+python3.10dist-whitenoise \
 python310-whitenoise \
-python3dist(whitenoise)"
+python3dist-whitenoise"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

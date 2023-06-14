@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kosmindoormap-lang \
 kosmindoormap-lang-all \
-locale(kosmindoormap:ca) \
-locale(kosmindoormap:ca@valencia) \
-locale(kosmindoormap:cs) \
-locale(kosmindoormap:de) \
-locale(kosmindoormap:en_GB) \
-locale(kosmindoormap:es) \
-locale(kosmindoormap:fi) \
-locale(kosmindoormap:fr) \
-locale(kosmindoormap:it) \
-locale(kosmindoormap:ja) \
-locale(kosmindoormap:ka) \
-locale(kosmindoormap:ko) \
-locale(kosmindoormap:lt) \
-locale(kosmindoormap:nl) \
-locale(kosmindoormap:pl) \
-locale(kosmindoormap:pt) \
-locale(kosmindoormap:pt_BR) \
-locale(kosmindoormap:ru) \
-locale(kosmindoormap:sk) \
-locale(kosmindoormap:sl) \
-locale(kosmindoormap:sv) \
-locale(kosmindoormap:tr) \
-locale(kosmindoormap:uk) \
-locale(kosmindoormap:zh_CN) \
-locale(kosmindoormap:zh_TW)"
+locale-kosmindoormap-ca \
+locale-kosmindoormap-ca@valencia \
+locale-kosmindoormap-cs \
+locale-kosmindoormap-de \
+locale-kosmindoormap-en-GB \
+locale-kosmindoormap-es \
+locale-kosmindoormap-fi \
+locale-kosmindoormap-fr \
+locale-kosmindoormap-it \
+locale-kosmindoormap-ja \
+locale-kosmindoormap-ka \
+locale-kosmindoormap-ko \
+locale-kosmindoormap-lt \
+locale-kosmindoormap-nl \
+locale-kosmindoormap-pl \
+locale-kosmindoormap-pt \
+locale-kosmindoormap-pt-BR \
+locale-kosmindoormap-ru \
+locale-kosmindoormap-sk \
+locale-kosmindoormap-sl \
+locale-kosmindoormap-sv \
+locale-kosmindoormap-tr \
+locale-kosmindoormap-uk \
+locale-kosmindoormap-zh-CN \
+locale-kosmindoormap-zh-TW"
 
 RDEPENDS:${PN} += "kosmindoormap"
 

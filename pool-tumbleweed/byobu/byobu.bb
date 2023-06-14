@@ -11,10 +11,8 @@ RPM_NAME = "byobu-5.133-2.12.noarch.rpm"
 RPM_HASH = "ee6bbc9f246aed3c317fa1797f7d7c61027ac8dd749447cb2cac60afbda01bfdaea4d146bb60a643bdf8ae5f46e8b6ff6634155f220d8c04d2b3a79aa4ebf887"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(byobu.desktop) \
-byobu \
-config(byobu)"
+RPROVIDES:${PN} += "byobu \
+config-byobu"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -24,7 +22,7 @@ coreutils \
 gawk \
 gettext-runtime \
 net-tools \
-perl(:MODULE_COMPAT_5.36.0) \
+perl--MODULE-COMPAT-5.36.0 \
 python3-newt \
 snack"
 

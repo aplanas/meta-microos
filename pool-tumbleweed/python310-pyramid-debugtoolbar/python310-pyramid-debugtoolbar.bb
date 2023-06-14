@@ -15,11 +15,11 @@ RPM_HASH = "a0f0ee759886ea86b6305ed871038ef997b9f6516acb91c56b93f809ab4b60fb4696
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyramid-debugtoolbar \
-python3.10dist(pyramid-debugtoolbar) \
+python3.10dist-pyramid-debugtoolbar \
 python310-pyramid-debugtoolbar \
-python3dist(pyramid-debugtoolbar)"
+python3dist-pyramid-debugtoolbar"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pygments \
 python310-pyramid \
 python310-pyramid-mako"

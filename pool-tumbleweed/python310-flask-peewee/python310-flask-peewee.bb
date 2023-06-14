@@ -9,11 +9,11 @@ RPM_HASH = "22653dfa36b2e1cacda8e27188a085fde5dac14b0bff6cf07ec1bbb229db4f288ce4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flask-peewee \
-python3.10dist(flask-peewee) \
+python3.10dist-flask-peewee \
 python310-flask-peewee \
-python3dist(flask-peewee)"
+python3dist-flask-peewee"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-Jinja2 \
 python310-WTForms \

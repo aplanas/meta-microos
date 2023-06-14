@@ -12,11 +12,10 @@ PV = "3.2"
 RPM_NAME = "dhcpd-pools-3.2-1.2.aarch64.rpm"
 RPM_HASH = "0b5a6e574c588afb3d339f196e8fe3617cedbddd154556b7977c4e68d55b940693961a19ae2af4bc1b466d503303208b89466baf5271cf9b31f4e6cd45136d91"
 
-RPROVIDES:${PN} += "dhcpd-pools \
-dhcpd-pools(aarch-64)"
+RPROVIDES:${PN} += "dhcpd-pools"
 
 RDEPENDS:${PN} += "dhcp-server \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

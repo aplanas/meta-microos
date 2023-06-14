@@ -11,13 +11,13 @@ RPM_NAME = "python39-rdflib-6.1.1-1.12.noarch.rpm"
 RPM_HASH = "9823e478d58e5b298799ec3da1cbef241ec321cb0379f963ade87bdfed9ca09f1932f18c5aa036cf0a22a76ab3d92eae80a5430f935de94c662adeef4c3b94ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(rdflib) \
+RPROVIDES:${PN} += "python3.9dist-rdflib \
 python39-rdflib \
-python3dist(rdflib)"
+python3dist-rdflib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-html5lib \
 python39-isodate \
 python39-pyparsing \

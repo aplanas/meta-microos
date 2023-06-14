@@ -11,31 +11,29 @@ PV = "2.10.34"
 RPM_NAME = "libgimp-2_0-0-2.10.34-4.1.aarch64.rpm"
 RPM_HASH = "afd1989fa901a254e61d70f4f087baf3c1261b08f1eaf9a21a70af0f877e9b6b19bb305c71f4a1ea55ef2d6c45e896885c9563125625af65c94e05d47ffabbd3"
 
-RPROVIDES:${PN} += "libgimp-2.0.so.0()(64bit) \
-libgimp-2_0-0 \
-libgimp-2_0-0(aarch-64) \
-libgimpbase-2.0.so.0()(64bit) \
-libgimpcolor-2.0.so.0()(64bit) \
-libgimpconfig-2.0.so.0()(64bit) \
-libgimpmath-2.0.so.0()(64bit) \
-libgimpmodule-2.0.so.0()(64bit)"
+RPROVIDES:${PN} += "libgimp-2-0-0 \
+libgimp-2.0.so.0 \
+libgimpbase-2.0.so.0 \
+libgimpcolor-2.0.so.0 \
+libgimpconfig-2.0.so.0 \
+libgimpmath-2.0.so.0 \
+libgimpmodule-2.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbabl-0.1.so.0()(64bit) \
-libbabl-0.1.so.0(V0_1_0)(64bit) \
-libbabl-0_1-0 \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgegl-0.4.so.0()(64bit) \
-libgegl-0_4-0 \
-libgexiv2.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbabl-0-1-0 \
+libbabl-0.1.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgegl-0-4-0 \
+libgegl-0.4.so.0 \
+libgexiv2.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+liblcms2.so.2 \
+libm.so.6"
 
 inherit rpm

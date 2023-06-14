@@ -10,13 +10,12 @@ PV = "5.2.122"
 RPM_NAME = "libpgm-5_2-0-5.2.122-10.8.aarch64.rpm"
 RPM_HASH = "8a77bc8a97a85bfec548636439d175e12cb302925e510d34bd97f8b598292140bbf95768c66b10c410ddcf252cb6fb5e0cbdd8014d271df7b5c80e912da7f05f"
 
-RPROVIDES:${PN} += "libpgm-5.2.so.0()(64bit) \
-libpgm-5_2-0 \
-libpgm-5_2-0(aarch-64)"
+RPROVIDES:${PN} += "libpgm-5-2-0 \
+libpgm-5.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

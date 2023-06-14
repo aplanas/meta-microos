@@ -10,14 +10,14 @@ RPM_HASH = "bd8ca32c0cd61b58e9e94940bad4bcf93c64afd1204cc519ac3835104fac61fbc429
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask \
-python3.10dist(flask) \
+python3.10dist-flask \
 python310-Flask \
-python3dist(flask)"
+python3dist-flask"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-Werkzeug \
 python310-click \

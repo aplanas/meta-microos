@@ -12,8 +12,8 @@ RPM_NAME = "texlive-lstaddons-2023.201.0.0.1svn64967-52.1.noarch.rpm"
 RPM_HASH = "4efc54f4233bff27544b542cc8d7c8ba86936df149dc72231b7cf2f090526736a68a084e239969176d5f3f026f67bb68071c52a3ba7affc4d33c04d2bf014a51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lstautogobble.sty) \
-tex(lstlinebgrd.sty) \
+RPROVIDES:${PN} += "tex-lstautogobble.sty \
+tex-lstlinebgrd.sty \
 texlive-lstaddons"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(listings.sty) \
-tex(xcolor.sty) \
+tex-listings.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

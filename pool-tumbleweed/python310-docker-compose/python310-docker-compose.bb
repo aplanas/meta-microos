@@ -18,14 +18,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-compose \
 python3-docker-compose \
-python3.10dist(docker-compose) \
+python3.10dist-docker-compose \
 python310-docker-compose \
-python3dist(docker-compose)"
+python3dist-docker-compose"
 
-RDEPENDS:${PN} += "(docker or podman >= 3.0) \
+RDEPENDS:${PN} += "-docker or podman >= 3.0 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PySocks \
 python310-PyYAML \
 python310-cached-property \

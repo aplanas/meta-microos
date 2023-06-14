@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-transaction"
 
-RDEPENDS:${PN} += "geronimo-jta-1_1-api \
+RDEPENDS:${PN} += "geronimo-jta-1-1-api \
 jakarta-commons-codec \
 reload4j \
 xerces-j2 \

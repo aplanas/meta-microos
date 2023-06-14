@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "busybox-adduser"
 
 RDEPENDS:${PN} += "busybox \
-group(nogroup)"
+group-nogroup"
 
 inherit rpm

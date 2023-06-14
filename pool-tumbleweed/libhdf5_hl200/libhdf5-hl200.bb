@@ -11,14 +11,13 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_hl200-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "9fa3288c0b6ac48ee606f9ce6edf48ca05d751336431f58035d4b31d9a0924a558787b9fc7ca2afbd2a543adb0df6b9570e95fb0ef5b91d2c91724c1c2b177d7"
 
-RPROVIDES:${PN} += "libhdf5_hl \
-libhdf5_hl.so.200()(64bit) \
-libhdf5_hl200 \
-libhdf5_hl200(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-hl \
+libhdf5-hl.so.200 \
+libhdf5-hl200"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhdf5.so.200"
 
 inherit rpm

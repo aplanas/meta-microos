@@ -10,11 +10,11 @@ RPM_HASH = "f1383df7401fcc6d686c048bf1b787e6b64eb2b3de88fbcec2bd8b4591525f91da14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-daiquiri \
-python3.10dist(daiquiri) \
+python3.10dist-daiquiri \
 python310-daiquiri \
-python3dist(daiquiri)"
+python3dist-daiquiri"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-json-logger"
 
 inherit rpm

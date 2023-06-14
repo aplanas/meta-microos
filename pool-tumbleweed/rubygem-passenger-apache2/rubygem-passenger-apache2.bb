@@ -11,19 +11,18 @@ PV = "6.0.17"
 RPM_NAME = "rubygem-passenger-apache2-6.0.17-1.5.aarch64.rpm"
 RPM_HASH = "a10bd6093a4454c5a6cfcebe72725c0d5b60abd9cd4b19294c825474b0f2a289ee944671bf21059018d8eda380ff881844d85f1eac6f8c672f0b9c3fd908e4eb"
 
-RPROVIDES:${PN} += "config(rubygem-passenger-apache2) \
-rubygem-passenger-apache2 \
-rubygem-passenger-apache2(aarch-64)"
+RPROVIDES:${PN} += "config-rubygem-passenger-apache2 \
+rubygem-passenger-apache2"
 
-RDEPENDS:${PN} += "apache2 \
-apache_mmn_20120211 \
-ld-linux-aarch64.so.1()(64bit) \
-libapr-1.so.0()(64bit) \
-libaprutil-1.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "apache-mmn-20120211 \
+apache2 \
+ld-linux-aarch64.so.1 \
+libapr-1.so.0 \
+libaprutil-1.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 rubygem-passenger"
 
 inherit rpm

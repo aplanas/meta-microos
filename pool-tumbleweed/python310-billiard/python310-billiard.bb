@@ -13,10 +13,10 @@ RPM_HASH = "45e5e1e1ea4bae4101b585eee39d429a4692726b5fc1efa00c801cad4bfd9b6109cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-billiard \
-python3.10dist(billiard) \
+python3.10dist-billiard \
 python310-billiard \
-python3dist(billiard)"
+python3dist-billiard"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

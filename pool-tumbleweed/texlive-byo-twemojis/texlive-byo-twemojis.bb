@@ -12,7 +12,7 @@ RPM_NAME = "texlive-byo-twemojis-2023.201.1.0svn58917-52.1.noarch.rpm"
 RPM_HASH = "97af9b0e672859f393ff721e7f604ae5a5feede2f755aa5c9385b6b49acd4559e6c3f439adde927aa5db9cd0f129c8d387fe1c0acc1c8b66247be217472a275e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(byo-twemojis.sty) \
+RPROVIDES:${PN} += "tex-byo-twemojis.sty \
 texlive-byo-twemojis"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(tikz.sty) \
-tex(xstring.sty) \
+tex-etoolbox.sty \
+tex-tikz.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

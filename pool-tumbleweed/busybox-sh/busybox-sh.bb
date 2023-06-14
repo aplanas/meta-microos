@@ -9,7 +9,7 @@ RPM_HASH = "b5266322fbfac29e8c37ab6972a4808cae29542d858988f882511bbcaf4c2e60170e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/sh \
-alternative(sh) \
+alternative-sh \
 busybox-sh"
 
 RDEPENDS:${PN} += "busybox"

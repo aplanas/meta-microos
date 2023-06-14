@@ -7,25 +7,24 @@ PV = "12.2.0"
 RPM_NAME = "open-vm-tools-containerinfo-12.2.0-3.1.aarch64.rpm"
 RPM_HASH = "6ea2df3ec9da20af32ed44605b9585e540e6ccd3b007ce417e42e6400135b39d07ccdde1b436da6cca58922c3e8d16eb3ff21c03bfcb7f8ffc3b98085ef8ce24"
 
-RPROVIDES:${PN} += "libcontainerInfo.so()(64bit) \
-open-vm-tools-containerinfo \
-open-vm-tools-containerinfo(aarch-64)"
+RPROVIDES:${PN} += "libcontainerInfo.so \
+open-vm-tools-containerinfo"
 
 RDEPENDS:${PN} += "/bin/sh \
 curl \
-ld-linux-aarch64.so.1()(64bit) \
-libabsl_synchronization.so.2301.0.0()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgpr.so.31()(64bit) \
-libgrpc++.so.1.54()(64bit) \
-libgrpc.so.31()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libstdc++.so.6()(64bit) \
-libvmtools.so.0()(64bit) \
-open-vm-tools(aarch-64)"
+ld-linux-aarch64.so.1 \
+libabsl-synchronization.so.2301.0.0 \
+libc.so.6 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgpr.so.31 \
+libgrpc++.so.1.54 \
+libgrpc.so.31 \
+libprotobuf-3.21.12.so \
+libstdc++.so.6 \
+libvmtools.so.0 \
+open-vm-tools"
 
 inherit rpm

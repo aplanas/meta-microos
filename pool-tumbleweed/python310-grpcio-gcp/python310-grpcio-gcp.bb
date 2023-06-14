@@ -9,11 +9,11 @@ RPM_HASH = "cb3e671d9e8efa3d9e6047f84e2f8ca80bbcdcf18fd2a4daa5ba6723667adbc2fa46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-grpcio-gcp \
-python3.10dist(grpcio-gcp) \
+python3.10dist-grpcio-gcp \
 python310-grpcio-gcp \
-python3dist(grpcio-gcp)"
+python3dist-grpcio-gcp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-grpcio"
 
 inherit rpm

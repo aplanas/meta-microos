@@ -17,16 +17,16 @@ RPM_NAME = "perl-Test-Class-0.52-1.10.noarch.rpm"
 RPM_HASH = "bf62d68cf86695a946611552d72eb3fe0f16d27b227810a059716cc115d71631d989c077c172df7d4a6806e632d91ea7e9266c414a657b7c55d3b985a8de7705"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Class) \
-perl(Test::Class::Load) \
-perl(Test::Class::MethodInfo) \
+RPROVIDES:${PN} += "perl-Test--Class \
+perl-Test--Class--Load \
+perl-Test--Class--MethodInfo \
 perl-Test-Class"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(MRO::Compat) \
-perl(Module::Runtime) \
-perl(Test::Builder) \
-perl(Test::Simple) \
-perl(Try::Tiny)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-MRO--Compat \
+perl-Module--Runtime \
+perl-Test--Builder \
+perl-Test--Simple \
+perl-Try--Tiny"
 
 inherit rpm

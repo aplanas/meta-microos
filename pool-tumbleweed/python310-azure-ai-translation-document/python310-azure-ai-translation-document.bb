@@ -16,11 +16,11 @@ RPM_HASH = "07edd170338db69aa95ea7c440b3b686c993f2a11af8855436a9618ea3be122342af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-translation-document \
-python3.10dist(azure-ai-translation-document) \
+python3.10dist-azure-ai-translation-document \
 python310-azure-ai-translation-document \
-python3dist(azure-ai-translation-document)"
+python3dist-azure-ai-translation-document"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-ai-nspkg \
 python310-azure-ai-translation-nspkg \
 python310-azure-core \

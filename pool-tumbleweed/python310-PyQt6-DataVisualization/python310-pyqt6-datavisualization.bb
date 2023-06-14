@@ -10,22 +10,18 @@ RPM_HASH = "5a6470fda6f0edf6fb31c6b0a4c28e32b67f83fe2b9aa1ceecedf48a669e289a1aec
 
 RPROVIDES:${PN} += "python3-PyQt6-DataVisualization \
 python3-qtdatavisualization-qt6 \
-python3.10dist(pyqt6-datavisualization) \
+python3.10dist-pyqt6-datavisualization \
 python310-PyQt6-DataVisualization \
-python310-PyQt6-DataVisualization(aarch-64) \
 python310-qtdatavisualization-qt6 \
-python3dist(pyqt6-datavisualization)"
+python3dist-pyqt6-datavisualization"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6DataVisualization.so.6()(64bit) \
-libQt6DataVisualization.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6DataVisualization.so.6 \
+libQt6Gui.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-PyQt6"
 
 inherit rpm

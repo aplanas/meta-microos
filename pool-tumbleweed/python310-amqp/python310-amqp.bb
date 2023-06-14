@@ -12,11 +12,11 @@ RPM_HASH = "a4eb40d8efe91bc92329cbac353085995178cb5b7f984ec00ce8a02750fee177fb97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-amqp \
-python3.10dist(amqp) \
+python3.10dist-amqp \
 python310-amqp \
-python3dist(amqp)"
+python3dist-amqp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-vine"
 
 inherit rpm

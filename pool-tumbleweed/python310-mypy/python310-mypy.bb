@@ -18,16 +18,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypy \
 python3-mypy \
-python3.10dist(mypy) \
+python3.10dist-mypy \
 python310-mypy \
-python3dist(mypy)"
+python3dist-mypy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
-python310-mypy_extensions \
+python-abi \
+python310-mypy-extensions \
 python310-tomli \
-python310-typing_extensions \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

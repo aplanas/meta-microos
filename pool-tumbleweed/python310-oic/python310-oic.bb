@@ -11,13 +11,13 @@ RPM_HASH = "14628facbb3ce86cc669c52e253b3fc0d7f2628720e739514d78868ced71cec6488d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oic \
-python3.10dist(oic) \
+python3.10dist-oic \
 python310-oic \
-python3dist(oic)"
+python3dist-oic"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Beaker \
 python310-Mako \
 python310-cryptography \
@@ -27,6 +27,6 @@ python310-pycryptodomex \
 python310-pyjwkest \
 python310-requests \
 python310-typing \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

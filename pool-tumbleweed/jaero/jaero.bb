@@ -15,35 +15,26 @@ PV = "1.0.4.13"
 RPM_NAME = "jaero-1.0.4.13-1.9.aarch64.rpm"
 RPM_HASH = "8d5f97fbd0fa5c6869aa2b75b5cfe1ac8dc6fe72c5c5a15b78efed209eb96458674da7eb6bd708290d6d29d620e8cf1a6d4ee450684341594f3b06eb1bd259bc"
 
-RPROVIDES:${PN} += "application() \
-application(jaero.desktop) \
-jaero \
-jaero(aarch-64)"
+RPROVIDES:${PN} += "jaero"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libacars.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcorrect.so.0.0.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libqcustomplot.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisenc.so.2()(64bit) \
-libzmq.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
+libQt5Network.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libacars.so.1 \
+libc.so.6 \
+libcorrect.so.0.0.0 \
+libgcc-s.so.1 \
+libm.so.6 \
+libogg.so.0 \
+libqcustomplot.so.2 \
+libstdc++.so.6 \
+libvorbis.so.0 \
+libvorbisenc.so.2 \
+libzmq.so.5 \
 unzip"
 
 inherit rpm

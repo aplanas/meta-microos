@@ -20,38 +20,28 @@ PV = "3.2.0"
 RPM_NAME = "owncloud-client-3.2.0-2.3.aarch64.rpm"
 RPM_HASH = "498fdda4a8bb9c340018918a3b89e098601e58c2cdc38c417d549eca82dab16adec9ac94472d52f1c028105fe1e9530a47aab07780770f58fce357f4e85204c0"
 
-RPROVIDES:${PN} += "application() \
-application(owncloud.desktop) \
-config(owncloud-client) \
-mimehandler(application/vnd.owncloud) \
-owncloud-client \
-owncloud-client(aarch-64)"
+RPROVIDES:${PN} += "config-owncloud-client \
+owncloud-client"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libLibreGraphAPI.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libcloudproviders.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libowncloudResources.so.0()(64bit) \
-libowncloud_csync.so.0()(64bit) \
-libowncloudsync.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libLibreGraphAPI.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libcloudproviders.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libowncloud-csync.so.0 \
+libowncloudResources.so.0 \
+libowncloudsync.so.0 \
 libowncloudsync0 \
-libqt5keychain.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libqt5keychain.so.1 \
+libstdc++.so.6"
 
 inherit rpm

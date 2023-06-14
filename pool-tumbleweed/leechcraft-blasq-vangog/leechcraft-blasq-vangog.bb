@@ -10,27 +10,21 @@ RPM_HASH = "6889ccf5a54275115fa63c74899db68eeaf1973a9cb61da6bf7e4185cbae47efc390
 
 RPROVIDES:${PN} += "leechcraft-blasq-subplugin \
 leechcraft-blasq-vangog \
-leechcraft-blasq-vangog(aarch-64) \
-libleechcraft_blasq_vangog.so()(64bit)"
+libleechcraft-blasq-vangog.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-blasq \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-gui-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sll-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-gui-qt5.so.0.6.75.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-sll-qt5.so.0.6.75.1 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libstdc++.so.6"
 
 inherit rpm

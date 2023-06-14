@@ -10,15 +10,14 @@ RPM_HASH = "d2c645bbb8cb2ac3576aad9a64c8a4552a4f34fb33024aa1028fcfcc9bbcd3b7bc8d
 
 RPROVIDES:${PN} += "python-cephfs \
 python3-cephfs \
-python3-cephfs(aarch-64) \
-python3.10dist(cephfs) \
-python3dist(cephfs)"
+python3.10dist-cephfs \
+python3dist-cephfs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcephfs.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcephfs.so.2 \
 libcephfs2 \
-python(abi) \
+python-abi \
 python3-ceph-argparse \
 python3-rados"
 

@@ -11,10 +11,10 @@ RPM_HASH = "f6a54dac0fdc1e6044a1090cc83e58e271b08ce11a5d47d055d30e915b54f802d7c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycadf \
-python3.10dist(pycadf) \
-python3dist(pycadf)"
+python3.10dist-pycadf \
+python3dist-pycadf"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python-pycadf-common \
 python3-debtcollector \
 python3-oslo.config \

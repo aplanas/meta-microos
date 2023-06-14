@@ -9,13 +9,12 @@ RPM_HASH = "49bd6292b443bced975f65bf3ae0bb54b7690a0bf0ed6a71a624f21929cfa5032b9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ca-valencia \
-libreoffice-help-ca_valencia \
-libreoffice-l10n-ca_valencia \
-locale(libreoffice:ca_valencia)"
+libreoffice-l10n-ca-valencia \
+locale-libreoffice-ca-valencia"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \
-myspell-ca_ES_valencia"
+myspell-ca-ES-valencia"
 
 inherit rpm

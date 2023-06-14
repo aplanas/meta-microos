@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "emojione-color-font"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

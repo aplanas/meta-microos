@@ -15,9 +15,9 @@ RPM_NAME = "texlive-eplain-2023.201.3.13svn64721-53.1.noarch.rpm"
 RPM_HASH = "2473709a3799dbc16369a897f3523f010de23690f48589b282ced576021ccd0f19e09d31cb2fcced38c2c0cf7a6793076972df87e428a495b7ee3e7bb5db4b3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arrow.tex) \
-tex(btxmac.tex) \
-tex(eplain.tex) \
+RPROVIDES:${PN} += "tex-arrow.tex \
+tex-btxmac.tex \
+tex-eplain.tex \
 texlive-eplain"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,9 +26,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-atbegshi \
 texlive-atveryend \

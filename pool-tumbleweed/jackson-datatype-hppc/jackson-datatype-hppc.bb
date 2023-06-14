@@ -11,14 +11,14 @@ RPM_HASH = "e9d06f23b72fd87792917ad9bbf56793bbc2eecd955ef9a26f802d9da1dfb087bbad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatype-hppc \
-mvn(com.fasterxml.jackson.datatype:jackson-datatype-hppc) \
-mvn(com.fasterxml.jackson.datatype:jackson-datatype-hppc:pom:) \
-osgi(com.fasterxml.jackson.datatype.jackson-datatype-hppc)"
+mvn-com.fasterxml.jackson.datatype-jackson-datatype-hppc \
+mvn-com.fasterxml.jackson.datatype-jackson-datatype-hppc-pom- \
+osgi-com.fasterxml.jackson.datatype.jackson-datatype-hppc"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.carrotsearch:hppc) \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind)"
+mvn-com.carrotsearch-hppc \
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind"
 
 inherit rpm

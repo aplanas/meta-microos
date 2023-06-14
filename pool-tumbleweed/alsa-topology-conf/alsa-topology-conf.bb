@@ -9,7 +9,7 @@ RPM_HASH = "ed9a5193f777ca456b609d7bb10d818a1552f490e806cd0dac58768147522054d1e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alsa-topology-conf \
-firmware(skl_hda_dsp_generic-tplg.bin)"
+firmware-skl-hda-dsp-generic-tplg.bin"
 
 RDEPENDS:${PN} += ""
 

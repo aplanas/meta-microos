@@ -18,7 +18,7 @@ RPM_NAME = "texlive-perfectcut-2023.201.2.3svn54080-51.1.noarch.rpm"
 RPM_HASH = "dc49ff2696aaccc5b50019fe566fee7cb56f96487dd60d8e08a764131eb93443d0a69cc38cd16ed430a1db5becde67744b10dc0ffe5dc32ba8661b994a4946d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(perfectcut.sty) \
+RPROVIDES:${PN} += "tex-perfectcut.sty \
 texlive-perfectcut"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,10 +27,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(graphicx.sty) \
-tex(mathstyle.sty) \
-tex(scalerel.sty) \
+tex-calc.sty \
+tex-graphicx.sty \
+tex-mathstyle.sty \
+tex-scalerel.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

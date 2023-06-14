@@ -12,11 +12,11 @@ RPM_NAME = "python39-fs-2.4.16-2.1.noarch.rpm"
 RPM_HASH = "18915b3eff00e92389d75971ab284751ed9a28fea02c6e74b9e4e5a01657fdd105f348f0a970dfba1eb4dbd1454f4286eef2e38c02382d13d28aeb5acee77f2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fs) \
+RPROVIDES:${PN} += "python3.9dist-fs \
 python39-fs \
-python3dist(fs)"
+python3dist-fs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-appdirs \
 python39-psutil \
 python39-pytz \

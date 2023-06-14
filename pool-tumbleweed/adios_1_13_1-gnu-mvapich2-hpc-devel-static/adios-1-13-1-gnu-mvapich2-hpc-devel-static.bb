@@ -12,8 +12,7 @@ PV = "1.13.1"
 RPM_NAME = "adios_1_13_1-gnu-mvapich2-hpc-devel-static-1.13.1-5.14.aarch64.rpm"
 RPM_HASH = "61cb072ed854d34aff4de2afd87773d74b07af4df7810b34e1b91f8a565177b9bf0b3a2f608348ebc47b9e9c782b65f8e66120289df70447f3d6f2f4caf7aa4c"
 
-RPROVIDES:${PN} += "adios_1_13_1-gnu-mvapich2-hpc-devel-static \
-adios_1_13_1-gnu-mvapich2-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "adios-1-13-1-gnu-mvapich2-hpc-devel-static"
 
 RDEPENDS:${PN} += ""
 

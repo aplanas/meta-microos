@@ -12,13 +12,13 @@ RPM_HASH = "76d3da78078182654ebd288246856c24944cba2b1f402f3b0301ec3d2c5b75aa4806
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-parfive \
-python3.10dist(parfive) \
+python3.10dist-parfive \
 python310-parfive \
-python3dist(parfive)"
+python3dist-parfive"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiohttp \
 python310-tqdm \
 update-alternatives"

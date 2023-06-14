@@ -10,11 +10,10 @@ PV = "0.14.1"
 RPM_NAME = "python3-gexiv2-0.14.1-1.1.aarch64.rpm"
 RPM_HASH = "e1f1275df87f0cd403efad27755c986e5491169af4c5e70519439d25d0e2f7dbf7bb47a4dbd2023db1d1df7f177cdd135ee576f725914ebc0d535ea290cc6412"
 
-RPROVIDES:${PN} += "python3-gexiv2 \
-python3-gexiv2(aarch-64)"
+RPROVIDES:${PN} += "python3-gexiv2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-gobject \
-typelib(GExiv2)"
+typelib-GExiv2"
 
 inherit rpm

@@ -19,12 +19,12 @@ python-caja \
 python3-gobject \
 python3-gobject-Gdk \
 python3-pyxdg \
-typelib(Caja) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gtk) \
-typelib(Pango) \
-typelib(Vte)"
+typelib-Caja \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gtk \
+typelib-Pango \
+typelib-Vte"
 
 inherit rpm

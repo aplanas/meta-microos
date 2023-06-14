@@ -12,7 +12,7 @@ RPM_NAME = "texlive-lcg-2023.201.1.3svn31474-54.1.noarch.rpm"
 RPM_HASH = "9c3e268140f57c84bef2d4ddfbdb585d6d22366d55091242a777419a944bf3ad8ebca80814d04c1f76a0d7893f6055cd46f0b529566ab4f78d535317acfbb72c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lcg.sty) \
+RPROVIDES:${PN} += "tex-lcg.sty \
 texlive-lcg"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

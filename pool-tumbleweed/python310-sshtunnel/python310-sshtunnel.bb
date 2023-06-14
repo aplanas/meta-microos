@@ -12,14 +12,14 @@ RPM_HASH = "4333cc4794f4ade6e3a82b21a86d2050538d7a6e74cb4c507e3d6b5a99e8dd6f219b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sshtunnel \
-python3.10dist(sshtunnel) \
+python3.10dist-sshtunnel \
 python310-sshtunnel \
-python3dist(sshtunnel)"
+python3dist-sshtunnel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 openssh \
-python(abi) \
+python-abi \
 python310-paramiko"
 
 inherit rpm

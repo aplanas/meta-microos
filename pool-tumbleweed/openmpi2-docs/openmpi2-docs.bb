@@ -18,8 +18,7 @@ PV = "2.1.6"
 RPM_NAME = "openmpi2-docs-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "7cd10897c123717cdf995b240aa1bed60c5f9f037c63a4304dfa4a25180a6c586bec9a3cfe6193a7b022ef96d40ebf24efc63248a1552d7afd3e0e9f6e88aaa5"
 
-RPROVIDES:${PN} += "openmpi2-docs \
-openmpi2-docs(aarch-64)"
+RPROVIDES:${PN} += "openmpi2-docs"
 
 RDEPENDS:${PN} += "openmpi2"
 

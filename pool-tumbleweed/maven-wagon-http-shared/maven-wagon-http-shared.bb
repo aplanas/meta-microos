@@ -9,18 +9,18 @@ RPM_HASH = "6221ff010b2fdc609df57016306a9f691dc8b0a84f4877bbea5c8fcd0266b297b10c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-http-shared \
-mvn(org.apache.maven.wagon:wagon-http-shared) \
-mvn(org.apache.maven.wagon:wagon-http-shared:pom:)"
+mvn-org.apache.maven.wagon-wagon-http-shared \
+mvn-org.apache.maven.wagon-wagon-http-shared-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.apache.httpcomponents:httpclient) \
-mvn(org.apache.httpcomponents:httpcore) \
-mvn(org.apache.maven.wagon:wagon-provider-api) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.jsoup:jsoup) \
-mvn(org.slf4j:slf4j-api) \
-mvn(org.slf4j:slf4j-simple)"
+mvn-commons-io-commons-io \
+mvn-org.apache.httpcomponents-httpclient \
+mvn-org.apache.httpcomponents-httpcore \
+mvn-org.apache.maven.wagon-wagon-provider-api \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.jsoup-jsoup \
+mvn-org.slf4j-slf4j-api \
+mvn-org.slf4j-slf4j-simple"
 
 inherit rpm

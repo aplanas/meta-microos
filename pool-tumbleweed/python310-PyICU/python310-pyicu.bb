@@ -11,18 +11,17 @@ RPM_HASH = "a4ec7d01a4b02a48446ecba01a4e39c5729866f4fb81c789c6aca92b31b17e30c6f7
 RPROVIDES:${PN} += "PyICU \
 python3-ICU \
 python3-PyICU \
-python3.10dist(pyicu) \
+python3.10dist-pyicu \
 python310-ICU \
 python310-PyICU \
-python310-PyICU(aarch-64) \
-python3dist(pyicu)"
+python3dist-pyicu"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

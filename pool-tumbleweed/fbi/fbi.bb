@@ -10,23 +10,21 @@ PV = "2.14"
 RPM_NAME = "fbi-2.14-4.1.aarch64.rpm"
 RPM_HASH = "41097c20c1d6b4c13ff174027704ea679637d2952a621c4814f3cd4c3059b517df00f83ab1b1b35530c0cf37d5ecb39f369173312047f1f8fa316ab0f6a25f2d"
 
-RPROVIDES:${PN} += "fbi \
-fbi(aarch-64)"
+RPROVIDES:${PN} += "fbi"
 
 RDEPENDS:${PN} += "/bin/sh \
 ghostscript-library \
-libc.so.6()(64bit) \
-libdrm.so.2()(64bit) \
-libexif.so.12()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgif.so.7()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpcd.so.2()(64bit) \
-libpixman-1.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libtiff.so.6()(64bit)"
+libc.so.6 \
+libdrm.so.2 \
+libexif.so.12 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libgif.so.7 \
+libjpeg.so.8 \
+libm.so.6 \
+libpcd.so.2 \
+libpixman-1.so.0 \
+libpng16.so.16 \
+libtiff.so.6"
 
 inherit rpm

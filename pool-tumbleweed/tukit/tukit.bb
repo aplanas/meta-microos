@@ -8,17 +8,16 @@ PV = "4.2.1"
 RPM_NAME = "tukit-4.2.1-1.1.aarch64.rpm"
 RPM_HASH = "23010a02e13201a5a56f32c2ae901ba5b642c39883877255b89134c24cfa4e2376c5d7bd88fecc8d40cf7543be8507351c1b2dadd6d994b198513728e227ea26"
 
-RPROVIDES:${PN} += "tukit \
-tukit(aarch-64)"
+RPROVIDES:${PN} += "tukit"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-librpm.so.9()(64bit) \
-libselinux.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtukit.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+librpm.so.9 \
+libselinux.so.1 \
+libstdc++.so.6 \
+libtukit.so.4 \
 libtukit4"
 
 inherit rpm

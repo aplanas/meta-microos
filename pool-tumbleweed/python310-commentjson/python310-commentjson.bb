@@ -11,11 +11,11 @@ RPM_HASH = "aeda4ec76d83e41fabe2a198ff0d1541d8ab6661d7103bb8d02da62ff40a08dbcb74
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-commentjson \
-python3.10dist(commentjson) \
+python3.10dist-commentjson \
 python310-commentjson \
-python3dist(commentjson)"
+python3dist-commentjson"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lark \
 python310-six"
 

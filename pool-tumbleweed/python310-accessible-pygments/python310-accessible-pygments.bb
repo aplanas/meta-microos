@@ -9,11 +9,11 @@ RPM_HASH = "2b8aa1265f4192c58093fef8a26ffb3d1dcdf52bd85f15838bbd50d1ef54ad06d186
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-accessible-pygments \
-python3.10dist(accessible-pygments) \
+python3.10dist-accessible-pygments \
 python310-accessible-pygments \
-python3dist(accessible-pygments)"
+python3dist-accessible-pygments"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pygments"
 
 inherit rpm

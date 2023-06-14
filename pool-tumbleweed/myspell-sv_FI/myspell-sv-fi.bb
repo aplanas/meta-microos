@@ -8,12 +8,12 @@ RPM_NAME = "myspell-sv_FI-20221012-1.2.noarch.rpm"
 RPM_HASH = "1805d6d1a9bd453ae91e25f14d2bf9a5df956d6b8ebb5bbdfc11da695df481c348f7ecb84101b4ea8c24a8fb8f4960632d5a15f7d3b0a593bf5a9f2d74677160"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:sv_FI) \
-locale(seamonkey-spellchecker:sv_FI) \
+RPROVIDES:${PN} += "locale-libreoffice-sv-FI \
+locale-seamonkey-spellchecker-sv-FI \
 myspell-dictionary \
-myspell-sv_FI"
+myspell-sv-FI"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
-myspell-sv_SE"
+myspell-sv-SE"
 
 inherit rpm

@@ -12,16 +12,15 @@ PV = "6.5.4"
 RPM_NAME = "python311-LHAPDF-6.5.4-1.1.aarch64.rpm"
 RPM_HASH = "751f650db59f04c7f98433ffd4410c4b64102e3769be86d491fc18034fe7af4181d78b7560296b9ed4cf0ad0aae2ea8d5ca2eec4649904c676bfdb317884cdfb"
 
-RPROVIDES:${PN} += "python311-LHAPDF \
-python311-LHAPDF(aarch-64)"
+RPROVIDES:${PN} += "python311-LHAPDF"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libLHAPDF-6.5.4.so()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpython3.11.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libLHAPDF-6.5.4.so \
+libc.so.6 \
+libgcc-s.so.1 \
+libpython3.11.so.1.0 \
+libstdc++.so.6 \
+python-abi \
 update-alternatives"
 
 inherit rpm

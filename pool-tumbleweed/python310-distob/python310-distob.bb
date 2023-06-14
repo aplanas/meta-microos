@@ -23,11 +23,11 @@ RPM_HASH = "0714abc0340aebf3c6d22140d8a7e355f9ee1ca3cef79d7953fe816f843b8f66441c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-distob \
-python3.10dist(distob) \
+python3.10dist-distob \
 python310-distob \
-python3dist(distob)"
+python3dist-distob"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dill \
 python310-ipyparallel \
 python310-pyzmq"

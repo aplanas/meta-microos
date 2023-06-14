@@ -15,15 +15,13 @@ RPM_NAME = "systemd-sysvcompat-253.4-2.1.aarch64.rpm"
 RPM_HASH = "7b2f0c7a1cba63cee9c627b8915d538b841fc9612947ea055e25718ea5928325addb0d5c7b4ace117425624a3e6a3edf81df1d68e046d0c08a86c1b7620cc242"
 
 RPROVIDES:${PN} += "systemd-sysvcompat \
-systemd-sysvcompat(aarch-64) \
-systemd-sysvinit:/usr/sbin/runlevel \
-systemd-sysvinit:/usr/sbin/telinit"
+systemd-sysvinit-/usr/sbin/runlevel \
+systemd-sysvinit-/usr/sbin/telinit"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsystemd-shared-253.so()(64bit) \
-libsystemd-shared-253.so(SD_SHARED)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsystemd-shared-253.so \
 systemd"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPM_NAME = "mumps_5_3_5-gnu-openmpi1-hpc-doc-5.3.5-3.3.noarch.rpm"
 RPM_HASH = "8630f382dd07682b8d9b31cd00d5fd4b9bbb34a1277d4f1ad1aba052e0ddcb62cabb454a658ca79dd164a96cd8f9997295fb2970f764a3887dcc4659bea9f324"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mumps_5_3_5-gnu-openmpi1-hpc-doc"
+RPROVIDES:${PN} += "mumps-5-3-5-gnu-openmpi1-hpc-doc"
 
 RDEPENDS:${PN} += ""
 

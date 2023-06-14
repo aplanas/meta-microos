@@ -20,18 +20,17 @@ PV = "6.3.2"
 RPM_NAME = "python311-tornado6-6.3.2-1.1.aarch64.rpm"
 RPM_HASH = "897503fdeb0d1e522cf8d502e0a02f250fb020a845016ff6d424f2f6b38cc2bfe7fab272a82e491182622ae8ae996b7ad0e11dc20b05b44549ac41d72f9d0f64"
 
-RPROVIDES:${PN} += "python3.11dist(tornado) \
+RPROVIDES:${PN} += "python3.11dist-tornado \
 python311-tornado \
 python311-tornado-impl \
 python311-tornado6 \
-python311-tornado6(aarch-64) \
 python311-toro \
-python3dist(tornado)"
+python3dist-tornado"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python311"
 
 inherit rpm

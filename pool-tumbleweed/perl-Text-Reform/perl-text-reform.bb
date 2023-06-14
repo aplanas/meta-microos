@@ -13,10 +13,10 @@ RPM_NAME = "perl-Text-Reform-1.20-24.24.noarch.rpm"
 RPM_HASH = "21719e207d50c6452f7528ed890e3c39fbd2317e71cb4bbcf988a41c9b0a93aa89c8ada2760f93b3b759939b3e7b37bbc1d76ba5f3f3d38beac761fa9bfa02c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Reform) \
+RPROVIDES:${PN} += "perl-Text--Reform \
 perl-Text-Reform"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exporter)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exporter"
 
 inherit rpm

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "aegean-fonts \
 gdouros-aegean-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

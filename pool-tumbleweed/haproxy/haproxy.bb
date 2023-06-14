@@ -15,25 +15,23 @@ PV = "2.8.0+git0.fdd8154ed"
 RPM_NAME = "haproxy-2.8.0+git0.fdd8154ed-1.1.aarch64.rpm"
 RPM_HASH = "81b91d5bc734224d998c0c5acc0fcd6c0ae1fe4f514154f7abd3300a616dd3d4bac4ee93467035f0839f493dc94338dd5e76a7f9a9d8afb5b31daaa77b2ab93c"
 
-RPROVIDES:${PN} += "config(haproxy) \
-group(haproxy) \
+RPROVIDES:${PN} += "config-haproxy \
+group-haproxy \
 haproxy \
-haproxy(aarch-64) \
 haproxy-1.5 \
 haproxy-doc \
-user(haproxy)"
+user-haproxy"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-liblua5.4.so.5()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+liblua5.4.so.5 \
+libpcre2-8.so.0 \
+libssl.so.3 \
+libsystemd.so.0 \
+libz.so.1 \
 sysuser-shadow"
 
 inherit rpm

@@ -10,13 +10,12 @@ PV = "4.1"
 RPM_NAME = "gcal-4.1-3.4.aarch64.rpm"
 RPM_HASH = "8cd1ad795f17623520cf105c99d03fedaeedbd01482d15cd2d1a744bc10b672a011a8acaf5053f98fd2c37d4cc4108da696d365775725e8bd0d0b58e26cdbcce"
 
-RPROVIDES:${PN} += "gcal \
-gcal(aarch-64)"
+RPROVIDES:${PN} += "gcal"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libtinfo.so.6"
 
 inherit rpm

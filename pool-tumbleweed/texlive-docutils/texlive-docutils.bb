@@ -12,7 +12,7 @@ RPM_NAME = "texlive-docutils-2023.201.svn56594-52.1.noarch.rpm"
 RPM_HASH = "d98bc80bec0bf7901fbfc2c8d4281cd47a1ea23682c58595a3406068d27326d024efba6891c4920b489dea0b215bda1ffc852f7f7af8efb6949000c4cf83534d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(docutils.sty) \
+RPROVIDES:${PN} += "tex-docutils.sty \
 texlive-docutils"
 
 RDEPENDS:${PN} += "/bin/sh \

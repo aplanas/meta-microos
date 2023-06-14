@@ -7,8 +7,7 @@ PV = "17.0.7.0"
 RPM_NAME = "java-17-openjdk-src-17.0.7.0-3.1.aarch64.rpm"
 RPM_HASH = "556c54ff9ac353f824eebc4ac208b0f6514fea3871015d02355b78dcb5de8649506fdd40ec12d19ae4996841c51e95a3d54ce9e3dd864f7384a2203ba0fa801a"
 
-RPROVIDES:${PN} += "java-17-openjdk-src \
-java-17-openjdk-src(aarch-64)"
+RPROVIDES:${PN} += "java-17-openjdk-src"
 
 RDEPENDS:${PN} += "java-17-openjdk"
 

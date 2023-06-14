@@ -11,9 +11,9 @@ RPM_HASH = "dcd6bdc048217af43850a846ef56e60f924db76a0bcc4a62f33d13d433d1a64d0f3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-shijian \
-python3.10dist(shijian) \
+python3.10dist-shijian \
 python310-shijian \
-python3dist(shijian)"
+python3dist-shijian"
 
 RDEPENDS:${PN} += "python310-matplotlib \
 python310-numpy \

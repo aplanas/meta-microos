@@ -8,20 +8,18 @@ RPM_NAME = "python310-slycot-0.5.4-1.1.aarch64.rpm"
 RPM_HASH = "a5f4738ae629775a82e51b3800cf51908427165dbab47b12eb41fbc32ad22d0145c12af6be95b5cc356da7ff5200615f59dfa5841ad6896d624e643a26a3aa03"
 
 RPROVIDES:${PN} += "python3-slycot \
-python3.10dist(slycot) \
+python3.10dist-slycot \
 python310-slycot \
-python310-slycot(aarch-64) \
-python3dist(slycot)"
+python3dist-slycot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+liblapack.so.3 \
+libm.so.6 \
+python-abi \
 python310-numpy"
 
 inherit rpm

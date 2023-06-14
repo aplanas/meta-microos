@@ -12,19 +12,18 @@ RPM_NAME = "ruby3.2-rubygem-raindrops-0.20.0-1.12.aarch64.rpm"
 RPM_HASH = "6d36c438953dd1649abfc07cea61441d9c7162897348aa66c245f536cb065fc8df4a8a8f8aec7f6f93c92a8416a87b59f9689fd82afd51bb7532873b6b5a2958"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-raindrops \
-ruby3.2-rubygem-raindrops(aarch-64) \
-rubygem(raindrops) \
-rubygem(ruby:3.2.0:raindrops) \
-rubygem(ruby:3.2.0:raindrops:0) \
-rubygem(ruby:3.2.0:raindrops:0.20) \
-rubygem(ruby:3.2.0:raindrops:0.20.0)"
+rubygem-raindrops \
+rubygem-ruby-3.2.0-raindrops \
+rubygem-ruby-3.2.0-raindrops-0 \
+rubygem-ruby-3.2.0-raindrops-0.20 \
+rubygem-ruby-3.2.0-raindrops-0.20.0"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libruby3.2.so.3.2()(64bit) \
-ruby(abi)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libruby3.2.so.3.2 \
+ruby-abi"
 
 inherit rpm

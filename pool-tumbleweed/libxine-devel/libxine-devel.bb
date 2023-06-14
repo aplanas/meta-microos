@@ -28,9 +28,8 @@ RPM_NAME = "libxine-devel-1.2.13-2.2.aarch64.rpm"
 RPM_HASH = "6e872823050a65718495b3934755faa2ef039de48d05b9f3ecb08b03d3293f1f5807352e80cfcbbf8cd7bdaa6ec9667623f7fb46c100ed5755edb5d80b909788"
 
 RPROVIDES:${PN} += "libxine-devel \
-libxine-devel(aarch-64) \
 libxine2-devel \
-pkgconfig(libxine) \
+pkgconfig-libxine \
 xine-devel \
 xine-lib2-devel"
 

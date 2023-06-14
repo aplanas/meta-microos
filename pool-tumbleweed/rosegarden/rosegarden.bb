@@ -12,18 +12,8 @@ PV = "22.12.1"
 RPM_NAME = "rosegarden-22.12.1-2.1.aarch64.rpm"
 RPM_HASH = "7d6bd9c12edaf7dbac9fa0229ee7bced9fc3a80fb5432170ac787611598698afa009a1ec5b67e08282b9d8960a35d97d9611241969a42bf6a0b692c2d6743d10"
 
-RPROVIDES:${PN} += "application() \
-application(com.rosegardenmusic.rosegarden.desktop) \
-librosegardenprivate.so()(64bit) \
-metainfo() \
-metainfo(rosegarden.appdata.xml) \
-mimehandler(audio/midi) \
-mimehandler(audio/x-rosegarden-composition) \
-mimehandler(audio/x-rosegarden-device) \
-mimehandler(audio/x-rosegarden-project) \
-mimehandler(audio/x-rosegarden-template) \
-rosegarden \
-rosegarden(aarch-64)"
+RPROVIDES:${PN} += "librosegardenprivate.so \
+rosegarden"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -33,28 +23,24 @@ RDEPENDS:${PN} += "/bin/bash \
 dssi \
 ladspa \
 ladspa-swh-plugins \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-liblirc_client.so.0()(64bit) \
-liblo.so.7()(64bit) \
-liblrdf.so.2()(64bit) \
-libm.so.6()(64bit) \
-libsamplerate.so.0()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libasound.so.2 \
+libc.so.6 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libjack.so.0 \
+liblirc-client.so.0 \
+liblo.so.7 \
+liblrdf.so.2 \
+libm.so.6 \
+libsamplerate.so.0 \
+libsndfile.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
 lilypond-fonts-common \
 xsynth-dssi"
 

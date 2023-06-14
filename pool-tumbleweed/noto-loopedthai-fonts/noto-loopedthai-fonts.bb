@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-loopedthai \
 noto-loopedthai-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

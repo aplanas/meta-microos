@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-hpc-doc"
 
-RDEPENDS:${PN} += "pnetcdf_1_12_3-hpc-doc"
+RDEPENDS:${PN} += "pnetcdf-1-12-3-hpc-doc"
 
 inherit rpm

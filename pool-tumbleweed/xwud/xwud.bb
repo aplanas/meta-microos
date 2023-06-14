@@ -8,11 +8,10 @@ PV = "1.0.6"
 RPM_NAME = "xwud-1.0.6-1.3.aarch64.rpm"
 RPM_HASH = "24d557e695ea23b215d40a2e56456216d9583d9ee7a40c178a862096c88cfbb740647474cf366da9664043a281271cb266d94499b5c08ca65aff46aea208c41b"
 
-RPROVIDES:${PN} += "xwud \
-xwud(aarch-64)"
+RPROVIDES:${PN} += "xwud"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6"
 
 inherit rpm

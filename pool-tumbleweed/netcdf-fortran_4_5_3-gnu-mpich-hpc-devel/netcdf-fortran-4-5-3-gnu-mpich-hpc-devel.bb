@@ -12,19 +12,16 @@ PV = "4.5.3"
 RPM_NAME = "netcdf-fortran_4_5_3-gnu-mpich-hpc-devel-4.5.3-4.5.aarch64.rpm"
 RPM_HASH = "20422da7bd8c52e817bf698e8d4418b8b7309eac6d9705281e560486e1eef9be39e514c78bdd7ed85c16279819f2ee755eec7edce992c7744d55b719747fc4ef"
 
-RPROVIDES:${PN} += "netcdf-fortran_4_5_3-gnu-mpich-hpc \
-netcdf-fortran_4_5_3-gnu-mpich-hpc-devel \
-netcdf-fortran_4_5_3-gnu-mpich-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "netcdf-fortran-4-5-3-gnu-mpich-hpc \
+netcdf-fortran-4-5-3-gnu-mpich-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcurl-devel \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libnetcdf-fortran_4_5_3-gnu-mpich-hpc \
+libgfortran.so.5 \
+libnetcdf-fortran-4-5-3-gnu-mpich-hpc \
 mpich-gnu-hpc-devel \
 netcdf-gnu-mpich-hpc-devel \
 pkgconfig \

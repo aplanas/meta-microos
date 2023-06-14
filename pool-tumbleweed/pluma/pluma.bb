@@ -15,54 +15,48 @@ PV = "1.26.1"
 RPM_NAME = "pluma-1.26.1-1.1.aarch64.rpm"
 RPM_HASH = "cd1ad90a59433e48443cc020c9b1b793346b746c476e5ae3acb264000ddb87cf95439e4d10b1692adc321a4125e8db310c4acdce9c2557c8cc00ab1d48ca3daf"
 
-RPROVIDES:${PN} += "application() \
-application(pluma.desktop) \
-libdocinfo.so()(64bit) \
-libfilebrowser.so()(64bit) \
-libmodelines.so()(64bit) \
-libsort.so()(64bit) \
-libspell.so()(64bit) \
-libtaglist.so()(64bit) \
-libtime.so()(64bit) \
-libtrailsave.so()(64bit) \
-metainfo() \
-metainfo(pluma.appdata.xml) \
-mimehandler(text/plain) \
-pluma \
-pluma(aarch-64)"
+RPROVIDES:${PN} += "libdocinfo.so \
+libfilebrowser.so \
+libmodelines.so \
+libsort.so \
+libspell.so \
+libtaglist.so \
+libtime.so \
+libtrailsave.so \
+pluma"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libenchant.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libgirepository-1.0.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtksourceview-4.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libpeas-gtk-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libSM.so.6 \
+libX11.so.6 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libenchant.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libgirepository-1.0.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtksourceview-4.so.0 \
+libpango-1.0.so.0 \
+libpeas-1.0.so.0 \
+libpeas-gtk-1.0.so.0 \
+libxml2.so.2 \
 mate-desktop-gsettings-schemas \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(GtkSource) \
-typelib(Pango) \
-typelib(Peas) \
-typelib(PeasGtk) \
-typelib(Pluma)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-GtkSource \
+typelib-Pango \
+typelib-Peas \
+typelib-PeasGtk \
+typelib-Pluma"
 
 inherit rpm

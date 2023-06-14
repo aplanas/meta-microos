@@ -10,16 +10,13 @@ PV = "1.1.4"
 RPM_NAME = "rockdodger-1.1.4-1.11.aarch64.rpm"
 RPM_HASH = "27159896f7a129d6362a71a5bbf9419f17baa6360171087ab29181e86daa27747396bda7d7141d169ee86f35a82e9919c52c464351e3dd7d6187437417fe7115"
 
-RPROVIDES:${PN} += "application() \
-application(rockdodger.desktop) \
-rockdodger \
-rockdodger(aarch-64)"
+RPROVIDES:${PN} += "rockdodger"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

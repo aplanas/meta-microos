@@ -9,11 +9,11 @@ RPM_NAME = "python311-cov-core-1.15.0-4.14.noarch.rpm"
 RPM_HASH = "f62fded567f6899e0130d3c7bc9eba6b3515a353c4920800d72ec5120895597bef56394254262e38874a38a635d824774a881c2f7837f3e9460cfaa3253660c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(cov-core) \
+RPROVIDES:${PN} += "python3.11dist-cov-core \
 python311-cov-core \
-python3dist(cov-core)"
+python3dist-cov-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-coverage"
 
 inherit rpm

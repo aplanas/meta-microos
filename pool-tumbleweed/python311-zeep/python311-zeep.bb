@@ -8,11 +8,11 @@ RPM_NAME = "python311-zeep-4.1.0-4.7.noarch.rpm"
 RPM_HASH = "d0ffd20ed47857633165011f05756132bfcd46e1ee018cdadd8b7576bc2ce4a550d5eec74587394d0ba9a2764cd7c37e3883ebb20bbb0d8a58ac8193c3f8a42b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(zeep) \
+RPROVIDES:${PN} += "python3.11dist-zeep \
 python311-zeep \
-python3dist(zeep)"
+python3dist-zeep"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-attrs \
 python311-cached-property \
 python311-isodate \

@@ -9,12 +9,12 @@ RPM_HASH = "e8d04a349d1f68774c9429dd195e6769e153ca77588bd4785c785c5426aafc398a39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-runtime \
-mvn(com.sun.istack:istack-commons-runtime) \
-mvn(com.sun.istack:istack-commons-runtime:pom:) \
-osgi(com.sun.istack.commons-runtime)"
+mvn-com.sun.istack-istack-commons-runtime \
+mvn-com.sun.istack-istack-commons-runtime-pom- \
+osgi-com.sun.istack.commons-runtime"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.activation:javax.activation-api)"
+mvn-javax.activation-javax.activation-api"
 
 inherit rpm

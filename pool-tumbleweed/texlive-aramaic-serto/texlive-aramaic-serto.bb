@@ -15,16 +15,16 @@ RPM_NAME = "texlive-aramaic-serto-2023.201.1.0svn30042-54.1.noarch.rpm"
 RPM_HASH = "5edd702234d69c2e26412da0ed7b1cab586c0d6db8a3c82eb623a5cf73b2b9f03458a36f4cbf8a225eafd3896a9f9ef7710ae02a826b28785e4751140635c1b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(assy.tfm) \
-tex(assyr.sty) \
-tex(assyrb10.tfm) \
-tex(serto.sty) \
-tex(serto10.tfm) \
-tex(sertob10.tfm) \
-tex(syriac.map) \
-tex(syriac.sty) \
-tex(uassyr.fd) \
-tex(userto.fd) \
+RPROVIDES:${PN} += "tex-assy.tfm \
+tex-assyr.sty \
+tex-assyrb10.tfm \
+tex-serto.sty \
+tex-serto10.tfm \
+tex-sertob10.tfm \
+tex-syriac.map \
+tex-syriac.sty \
+tex-uassyr.fd \
+tex-userto.fd \
 texlive-aramaic-serto"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -33,7 +33,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
+tex-updmap.cfg \
 texlive \
 texlive-aramaic-serto-fonts \
 texlive-filesystem \

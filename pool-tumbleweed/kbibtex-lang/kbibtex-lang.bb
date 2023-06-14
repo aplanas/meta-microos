@@ -10,34 +10,34 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbibtex-lang \
 kbibtex-lang-all \
-locale(kbibtex:ast) \
-locale(kbibtex:bs) \
-locale(kbibtex:ca) \
-locale(kbibtex:ca@valencia) \
-locale(kbibtex:cs) \
-locale(kbibtex:de) \
-locale(kbibtex:en_GB) \
-locale(kbibtex:es) \
-locale(kbibtex:et) \
-locale(kbibtex:fi) \
-locale(kbibtex:fr) \
-locale(kbibtex:gl) \
-locale(kbibtex:hu) \
-locale(kbibtex:ia) \
-locale(kbibtex:it) \
-locale(kbibtex:ko) \
-locale(kbibtex:lt) \
-locale(kbibtex:nb) \
-locale(kbibtex:nl) \
-locale(kbibtex:pl) \
-locale(kbibtex:pt) \
-locale(kbibtex:pt_BR) \
-locale(kbibtex:ru) \
-locale(kbibtex:sk) \
-locale(kbibtex:sv) \
-locale(kbibtex:tr) \
-locale(kbibtex:uk) \
-locale(kbibtex:zh_CN)"
+locale-kbibtex-ast \
+locale-kbibtex-bs \
+locale-kbibtex-ca \
+locale-kbibtex-ca@valencia \
+locale-kbibtex-cs \
+locale-kbibtex-de \
+locale-kbibtex-en-GB \
+locale-kbibtex-es \
+locale-kbibtex-et \
+locale-kbibtex-fi \
+locale-kbibtex-fr \
+locale-kbibtex-gl \
+locale-kbibtex-hu \
+locale-kbibtex-ia \
+locale-kbibtex-it \
+locale-kbibtex-ko \
+locale-kbibtex-lt \
+locale-kbibtex-nb \
+locale-kbibtex-nl \
+locale-kbibtex-pl \
+locale-kbibtex-pt \
+locale-kbibtex-pt-BR \
+locale-kbibtex-ru \
+locale-kbibtex-sk \
+locale-kbibtex-sv \
+locale-kbibtex-tr \
+locale-kbibtex-uk \
+locale-kbibtex-zh-CN"
 
 RDEPENDS:${PN} += "kbibtex"
 

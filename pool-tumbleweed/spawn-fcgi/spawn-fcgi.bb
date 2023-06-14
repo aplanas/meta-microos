@@ -12,10 +12,9 @@ PV = "1.6.4"
 RPM_NAME = "spawn-fcgi-1.6.4-1.27.aarch64.rpm"
 RPM_HASH = "55c40304ace320bb9fa47e782641af51eb63cefa6b5ffe8413d249896fcacd419b9e688e91d2c6c24fce87e2bca9edba2f57647019b6a7bce223c72859dcfae7"
 
-RPROVIDES:${PN} += "spawn-fcgi \
-spawn-fcgi(aarch-64)"
+RPROVIDES:${PN} += "spawn-fcgi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

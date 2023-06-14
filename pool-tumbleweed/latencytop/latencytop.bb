@@ -11,13 +11,12 @@ PV = "0.5"
 RPM_NAME = "latencytop-0.5-25.24.aarch64.rpm"
 RPM_HASH = "b4ad7826d4597758f38e3789d5b4e806022270e105c2f87bf9ebae1335fd39c3af3516522a439753f22101b7b8293bbaf168c2e5b7722b1a546a22fbdfd3193f"
 
-RPROVIDES:${PN} += "latencytop \
-latencytop(aarch-64)"
+RPROVIDES:${PN} += "latencytop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

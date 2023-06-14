@@ -15,11 +15,11 @@ RPM_NAME = "python39-PyMySQL-1.0.3-1.1.noarch.rpm"
 RPM_HASH = "8ad9397b87c362b58977d15e857f9199003e79ddab9658db3efc525f3b5bd38c6900444bd9de2b339fc88a1e6c1f3143f59487a20e32838fd0a451df7c93178b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pymysql) \
+RPROVIDES:${PN} += "python3.9dist-pymysql \
 python39-PyMySQL \
-python3dist(pymysql)"
+python3dist-pymysql"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-cryptography"
 
 inherit rpm

@@ -22,15 +22,14 @@ RPM_NAME = "libpythia8-8.307-1.14.aarch64.rpm"
 RPM_HASH = "0116277c8fe5eec86851e54275493f8910f8cd02010fa6233b71318db6454761bd54fd008944459eb4f932238191be5b00cf35f50acb92c3764d13994b1b7ba8"
 
 RPROVIDES:${PN} += "libpythia8 \
-libpythia8(aarch-64) \
-libpythia8.so()(64bit)"
+libpythia8.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

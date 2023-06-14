@@ -11,23 +11,19 @@ PV = "5.106.0"
 RPM_NAME = "libKF5Style5-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "4edf4cf7447387e089ba4f35aa96c2c5f620a188a39665ecd239fd67e0f4846e39dbbb344d208c1cacdf3f6b3e5de8fcbadec90ed834c02836242aa3a60ce875"
 
-RPROVIDES:${PN} += "libKF5Style.so.5()(64bit) \
-libKF5Style5 \
-libKF5Style5(aarch-64)"
+RPROVIDES:${PN} += "libKF5Style.so.5 \
+libKF5Style5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5IconThemes.so.5 \
+libKF5WidgetsAddons.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

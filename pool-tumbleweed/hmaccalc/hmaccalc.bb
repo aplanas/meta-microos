@@ -9,12 +9,11 @@ PV = "0.9.14"
 RPM_NAME = "hmaccalc-0.9.14-2.18.aarch64.rpm"
 RPM_HASH = "739c0c29a014c12d5bb604c3c13a94c66e87fcb91f35acc8bbcd8d2cedbb4124d4e31aa0c5dd100bf1670835ec598aade6ac3303332b8d58f5bd7d189b759747"
 
-RPROVIDES:${PN} += "hmaccalc \
-hmaccalc(aarch-64)"
+RPROVIDES:${PN} += "hmaccalc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnspr4.so \
+libnss3.so"
 
 inherit rpm

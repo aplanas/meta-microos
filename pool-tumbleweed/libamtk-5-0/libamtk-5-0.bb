@@ -13,15 +13,14 @@ RPM_HASH = "ad9d24e17883bc9408e7b8207f1383ff6b7ca19463bc411348bfcc38884c1b7c2598
 
 RPROVIDES:${PN} += "amtk-5 \
 libamtk-5-0 \
-libamtk-5-0(aarch-64) \
-libamtk-5.so.0()(64bit)"
+libamtk-5.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

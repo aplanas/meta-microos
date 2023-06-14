@@ -13,18 +13,16 @@ RPM_NAME = "libmozjs-78-0-78.15.0-2.8.aarch64.rpm"
 RPM_HASH = "3caba36d00603a35b907d8001b4e390fa7501df07bee9ddb4ae61ffd176b31bd95a429d0bfcef8da83ba4e666f25083031b44edb0d40a4a9fb226a34d449a0a0"
 
 RPROVIDES:${PN} += "libmozjs-78-0 \
-libmozjs-78-0(aarch-64) \
-libmozjs-78.so.0()(64bit) \
-libmozjs-78.so.0(mozjs_78)(64bit)"
+libmozjs-78.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

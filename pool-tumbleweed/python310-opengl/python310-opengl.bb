@@ -11,12 +11,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyOpenGL \
 python3-opengl \
-python3.10dist(pyopengl) \
+python3.10dist-pyopengl \
 python310-PyOpenGL \
 python310-opengl \
-python3dist(pyopengl)"
+python3dist-pyopengl"
 
 RDEPENDS:${PN} += "Mesa-dri \
-python(abi)"
+python-abi"
 
 inherit rpm

@@ -9,8 +9,8 @@ RPM_NAME = "texlive-pst-geometrictools-2023.201.1.3svn61430-52.1.noarch.rpm"
 RPM_HASH = "29ffad872cf1eac684667bb206dd78036f95a7a6c227515fc7cd68cee1d7c3f8bfb03fad7836e07bcd9da63ddc87dce47fb358ce00c8dd1dc8e65604d07f4bd4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-geometrictools.sty) \
-tex(pst-geometrictools.tex) \
+RPROVIDES:${PN} += "tex-pst-geometrictools.sty \
+tex-pst-geometrictools.tex \
 texlive-pst-geometrictools"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

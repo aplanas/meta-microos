@@ -15,12 +15,11 @@ PV = "5.18.16"
 RPM_NAME = "libopts25-5.18.16-7.6.aarch64.rpm"
 RPM_HASH = "feff0813b9c1297a6e3d77c280d97f53c6da7159d6f8b76ccc3c2b0b92a305a5eddfd4fd7778db4af153723a6427c589d5f4330f5a56cb635fbbb99acbecea67"
 
-RPROVIDES:${PN} += "libopts.so.25()(64bit) \
-libopts25 \
-libopts25(aarch-64)"
+RPROVIDES:${PN} += "libopts.so.25 \
+libopts25"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

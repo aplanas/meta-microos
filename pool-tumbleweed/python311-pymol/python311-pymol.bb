@@ -21,26 +21,24 @@ RPM_NAME = "python311-pymol-2.4.0-3.19.aarch64.rpm"
 RPM_HASH = "737a14f2293a0e12d95a0d8cd96170f390510587abaa057828f09032908e1600202a8648768c373ff706fa62474af8e320883107bf3c064600cb9e2ea286d474"
 
 RPROVIDES:${PN} += "pymol \
-python3.11dist(pymol) \
+python3.11dist-pymol \
 python311-pymol \
-python311-pymol(aarch-64) \
-python3dist(pymol)"
+python3dist-pymol"
 
 RDEPENDS:${PN} += "/bin/csh \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnetcdf.so.19()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libnetcdf.so.19 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libxml2.so.2 \
+python-abi \
 python311-numpy \
 python311-qt5 \
 update-alternatives"

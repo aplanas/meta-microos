@@ -8,25 +8,21 @@ PV = "2.4"
 RPM_NAME = "libstellarsolver2-2.4-2.3.aarch64.rpm"
 RPM_HASH = "1cc1999a841a1c26c8551b2ebaa3f92174d9053f9d8c2ad53142d88992163e171ddd33e7637f35237389d074cf0dba7af4e57cf216f95e63058d1e01dc980fc0"
 
-RPROVIDES:${PN} += "libstellarsolver.so.2()(64bit) \
-libstellarsolver2 \
-libstellarsolver2(aarch-64)"
+RPROVIDES:${PN} += "libstellarsolver.so.2 \
+libstellarsolver2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwcs.so.7()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libcfitsio.so.10 \
+libgcc-s.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libwcs.so.7"
 
 inherit rpm

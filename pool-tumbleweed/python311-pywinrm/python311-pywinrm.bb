@@ -15,13 +15,13 @@ RPM_NAME = "python311-pywinrm-0.4.3-2.1.noarch.rpm"
 RPM_HASH = "0a50be1a353475da3c0d0cbfa3aa41f48ab5a19e1f35b4a628fc9cf58a7ab3b2019fda8b8be379973b395744a355958d06b76e1add1ab543043b6df065cb6203"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pywinrm) \
+RPROVIDES:${PN} += "python3.11dist-pywinrm \
 python311-pywinrm \
-python3dist(pywinrm)"
+python3dist-pywinrm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-requests \
-python311-requests_ntlm \
+python311-requests-ntlm \
 python311-six \
 python311-xmltodict"
 

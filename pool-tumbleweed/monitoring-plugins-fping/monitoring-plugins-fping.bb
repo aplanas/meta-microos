@@ -9,11 +9,10 @@ RPM_NAME = "monitoring-plugins-fping-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "1f4c09662a17056051305c69bb5c86527b836a9461638a2b2df6bea81610855ed70b4fc081a6a053768cb7d027ba76b14e2a0c726aea371d2ebac3a4c97b4066"
 
 RPROVIDES:${PN} += "monitoring-plugins-fping \
-monitoring-plugins-fping(aarch-64) \
 nagios-plugins-fping"
 
 RDEPENDS:${PN} += "fping \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

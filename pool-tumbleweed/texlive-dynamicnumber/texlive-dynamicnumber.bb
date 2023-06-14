@@ -17,7 +17,7 @@ RPM_NAME = "texlive-dynamicnumber-2023.201.0.0.1.3svn38726-53.1.noarch.rpm"
 RPM_HASH = "87c979715bd37bf615eaef856a4f3a931822ef0f09547df30c213de91dbb3bd38194bad6f9d4b61d4d30289f83a5926069404fbb42e530dbdb63aaf9c3ca40cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dynamicnumber.sty) \
+RPROVIDES:${PN} += "tex-dynamicnumber.sty \
 texlive-dynamicnumber"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(pgfkeys.sty) \
-tex(xparse.sty) \
+tex-pgfkeys.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

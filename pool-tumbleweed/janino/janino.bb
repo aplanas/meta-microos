@@ -12,16 +12,16 @@ RPM_HASH = "ccc13778153e81703cecc7fac1e9d62c506f3e4e66ceee7149383828dd6cc05bd033
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "janino \
-mvn(org.codehaus.janino:janino) \
-mvn(org.codehaus.janino:janino:pom:) \
-osgi(org.codehaus.janino.janino)"
+mvn-org.codehaus.janino-janino \
+mvn-org.codehaus.janino-janino-pom- \
+osgi-org.codehaus.janino.janino"
 
 RDEPENDS:${PN} += "/bin/bash \
 commons-compiler \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(org.codehaus.janino:commons-compiler) \
-osgi(org.codehaus.janino.commons-compiler)"
+mvn-org.codehaus.janino-commons-compiler \
+osgi-org.codehaus.janino.commons-compiler"
 
 inherit rpm

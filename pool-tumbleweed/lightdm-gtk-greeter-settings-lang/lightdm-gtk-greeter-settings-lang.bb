@@ -10,29 +10,29 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-gtk-greeter-settings-lang \
 lightdm-gtk-greeter-settings-lang-all \
-locale(lightdm-gtk-greeter-settings:ar) \
-locale(lightdm-gtk-greeter-settings:br) \
-locale(lightdm-gtk-greeter-settings:ca) \
-locale(lightdm-gtk-greeter-settings:cs) \
-locale(lightdm-gtk-greeter-settings:da) \
-locale(lightdm-gtk-greeter-settings:de) \
-locale(lightdm-gtk-greeter-settings:el) \
-locale(lightdm-gtk-greeter-settings:es) \
-locale(lightdm-gtk-greeter-settings:fi) \
-locale(lightdm-gtk-greeter-settings:fr) \
-locale(lightdm-gtk-greeter-settings:hr) \
-locale(lightdm-gtk-greeter-settings:it) \
-locale(lightdm-gtk-greeter-settings:ja) \
-locale(lightdm-gtk-greeter-settings:kk) \
-locale(lightdm-gtk-greeter-settings:lt) \
-locale(lightdm-gtk-greeter-settings:nl) \
-locale(lightdm-gtk-greeter-settings:pl) \
-locale(lightdm-gtk-greeter-settings:pt) \
-locale(lightdm-gtk-greeter-settings:pt_BR) \
-locale(lightdm-gtk-greeter-settings:ru) \
-locale(lightdm-gtk-greeter-settings:sr) \
-locale(lightdm-gtk-greeter-settings:sv) \
-locale(lightdm-gtk-greeter-settings:zh_CN)"
+locale-lightdm-gtk-greeter-settings-ar \
+locale-lightdm-gtk-greeter-settings-br \
+locale-lightdm-gtk-greeter-settings-ca \
+locale-lightdm-gtk-greeter-settings-cs \
+locale-lightdm-gtk-greeter-settings-da \
+locale-lightdm-gtk-greeter-settings-de \
+locale-lightdm-gtk-greeter-settings-el \
+locale-lightdm-gtk-greeter-settings-es \
+locale-lightdm-gtk-greeter-settings-fi \
+locale-lightdm-gtk-greeter-settings-fr \
+locale-lightdm-gtk-greeter-settings-hr \
+locale-lightdm-gtk-greeter-settings-it \
+locale-lightdm-gtk-greeter-settings-ja \
+locale-lightdm-gtk-greeter-settings-kk \
+locale-lightdm-gtk-greeter-settings-lt \
+locale-lightdm-gtk-greeter-settings-nl \
+locale-lightdm-gtk-greeter-settings-pl \
+locale-lightdm-gtk-greeter-settings-pt \
+locale-lightdm-gtk-greeter-settings-pt-BR \
+locale-lightdm-gtk-greeter-settings-ru \
+locale-lightdm-gtk-greeter-settings-sr \
+locale-lightdm-gtk-greeter-settings-sv \
+locale-lightdm-gtk-greeter-settings-zh-CN"
 
 RDEPENDS:${PN} += "lightdm-gtk-greeter-settings"
 

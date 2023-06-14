@@ -11,22 +11,20 @@ PV = "1.003002"
 RPM_NAME = "perl-TryCatch-1.003002-6.26.aarch64.rpm"
 RPM_HASH = "493ac92a8157710dc5ec214a61a18488293e60b8c0e129474df239b6ce627309f0ec4f32cd53b4309686e4f557542fd0c878ce2d2477297948b068a3b369a674"
 
-RPROVIDES:${PN} += "perl(TryCatch) \
-perl-TryCatch \
-perl-TryCatch(aarch-64)"
+RPROVIDES:${PN} += "perl-TryCatch"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(B::Hooks::EndOfScope) \
-perl(B::Hooks::OP::Check) \
-perl(B::Hooks::OP::PPAddr) \
-perl(Devel::Declare) \
-perl(Moose) \
-perl(MooseX::Types) \
-perl(Parse::Method::Signatures) \
-perl(Scope::Upper) \
-perl(Sub::Exporter) \
-perl(Variable::Magic) \
-perl(namespace::clean)"
+RDEPENDS:${PN} += "libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-B--Hooks--EndOfScope \
+perl-B--Hooks--OP--Check \
+perl-B--Hooks--OP--PPAddr \
+perl-Devel--Declare \
+perl-Moose \
+perl-MooseX--Types \
+perl-Parse--Method--Signatures \
+perl-Scope--Upper \
+perl-Sub--Exporter \
+perl-Variable--Magic \
+perl-namespace--clean"
 
 inherit rpm

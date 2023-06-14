@@ -9,15 +9,12 @@ PV = "20230115"
 RPM_NAME = "libcdatetime1-20230115-1.2.aarch64.rpm"
 RPM_HASH = "85495e8df16719823ee4ea8b877f6e4f91babbfbe31d71a55d4cc34299e144c72d3a9149100796bf772cf638ed25728080dbd440810891a3292c861b8abc3a9d"
 
-RPROVIDES:${PN} += "libcdatetime.so.1()(64bit) \
-libcdatetime.so.1(V_20230115)(64bit) \
-libcdatetime1 \
-libcdatetime1(aarch-64)"
+RPROVIDES:${PN} += "libcdatetime.so.1 \
+libcdatetime1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcerror.so.1"
 
 inherit rpm

@@ -14,17 +14,17 @@ RPM_NAME = "texlive-urcls-2023.201.2.1svn49903-53.1.noarch.rpm"
 RPM_HASH = "ad3fb5b455afb7c696e0d8aba10656f886323d4b1581337bd0fc13bb7ef2144a187796e217b45359fef04d23336b3cfbc4448ce88a81e3092ffa84c6cbdca5d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(URbeamer.cls) \
-tex(URcolors.sty) \
-tex(URletter.cls) \
-tex(URoptions.sty) \
-tex(URpagestyles.sty) \
-tex(URrules.sty) \
-tex(URspecialopts.sty) \
-tex(beamercolorthemeUR.sty) \
-tex(beamerfontthemeUR.sty) \
-tex(beamerouterthemeUR.sty) \
-tex(beamerthemeUR.sty) \
+RPROVIDES:${PN} += "tex-URbeamer.cls \
+tex-URcolors.sty \
+tex-URletter.cls \
+tex-URoptions.sty \
+tex-URpagestyles.sty \
+tex-URrules.sty \
+tex-URspecialopts.sty \
+tex-beamercolorthemeUR.sty \
+tex-beamerfontthemeUR.sty \
+tex-beamerouterthemeUR.sty \
+tex-beamerthemeUR.sty \
 texlive-urcls"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -33,17 +33,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(beamer.cls) \
-tex(expl3.sty) \
-tex(iftex.sty) \
-tex(inputenc.sty) \
-tex(l3keys2e.sty) \
-tex(scrlayer-scrpage.sty) \
-tex(scrlttr2.cls) \
-tex(textcase.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-beamer.cls \
+tex-expl3.sty \
+tex-iftex.sty \
+tex-inputenc.sty \
+tex-l3keys2e.sty \
+tex-scrlayer-scrpage.sty \
+tex-scrlttr2.cls \
+tex-textcase.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

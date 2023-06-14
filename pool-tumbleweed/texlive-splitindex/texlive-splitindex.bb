@@ -16,8 +16,8 @@ RPM_NAME = "texlive-splitindex-2023.201.1.2csvn39766-57.1.noarch.rpm"
 RPM_HASH = "d38c3d2b36ea17e13e666f7724d7c9474cb782f82d226bcd34ecdade335ff1948d264de3dd71136db4641318d32f2baa5fefcbfa3ec24d77a4a833dd7e877fd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(splitidx.sty) \
-tex(splitindex.tex) \
+RPROVIDES:${PN} += "tex-splitidx.sty \
+tex-splitindex.tex \
 texlive-splitindex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(strict) \
+perl-Getopt--Long \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

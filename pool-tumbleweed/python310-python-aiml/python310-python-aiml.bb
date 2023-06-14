@@ -15,14 +15,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiml \
 python3-python-aiml \
-python3.10dist(python-aiml) \
+python3.10dist-python-aiml \
 python310-aiml \
 python310-python-aiml \
-python3dist(python-aiml)"
+python3dist-python-aiml"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

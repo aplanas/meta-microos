@@ -17,14 +17,14 @@ gnome-shell-extension-hamster-time-tracker"
 
 RDEPENDS:${PN} += "gnome-shell \
 hamster-time-tracker \
-typelib(Clutter) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Meta) \
-typelib(Shell) \
-typelib(St)"
+typelib-Clutter \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-Meta \
+typelib-Shell \
+typelib-St"
 
 inherit rpm

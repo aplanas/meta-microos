@@ -22,11 +22,11 @@ RPM_HASH = "ed3a49e3ce711cc0668c8b1cc7a4428a714ad6abcf3bf353ba8e7566ca662e14796c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-logreduce \
-python3.10dist(logreduce) \
-python3dist(logreduce)"
+python3.10dist-logreduce \
+python3dist-logreduce"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-CherryPy \
 python3-PyYAML \
 python3-SQLAlchemy \

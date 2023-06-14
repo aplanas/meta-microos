@@ -10,12 +10,12 @@ RPM_HASH = "d6367788eaea375dedbd33bee7b89bb5963549563aff574e70e0cc331cc56deae85d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jatl \
-mvn(com.googlecode.jatl:jatl) \
-mvn(com.googlecode.jatl:jatl:pom:) \
-osgi(com.googlecode.jatl)"
+mvn-com.googlecode.jatl-jatl \
+mvn-com.googlecode.jatl-jatl-pom- \
+osgi-com.googlecode.jatl"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-lang:commons-lang)"
+mvn-commons-lang-commons-lang"
 
 inherit rpm

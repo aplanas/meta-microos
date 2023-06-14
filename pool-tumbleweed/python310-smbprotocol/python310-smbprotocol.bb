@@ -23,11 +23,11 @@ RPM_HASH = "f5467783f604f48b998c070ee1a641c08ea2c6987568b2d78a08e09da7b7d56c4b87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-smbprotocol \
-python3.10dist(smbprotocol) \
+python3.10dist-smbprotocol \
 python310-smbprotocol \
-python3dist(smbprotocol)"
+python3dist-smbprotocol"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-pyspnego"
 

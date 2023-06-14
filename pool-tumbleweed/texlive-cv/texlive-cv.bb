@@ -12,7 +12,7 @@ RPM_NAME = "texlive-cv-2023.204.svn15878-54.1.noarch.rpm"
 RPM_HASH = "bbfe59e7853515ecca4b22ae22422ce85e208f724873cd38a25288ccd7a89b7cc460b7538d7c3789bab10c8f95a9b55a8423d50365d6acf8a731341464302a9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(CV.sty) \
+RPROVIDES:${PN} += "tex-CV.sty \
 texlive-cv"
 
 RDEPENDS:${PN} += "/bin/sh \

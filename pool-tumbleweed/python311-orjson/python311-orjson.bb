@@ -8,13 +8,12 @@ PV = "3.8.10"
 RPM_NAME = "python311-orjson-3.8.10-1.1.aarch64.rpm"
 RPM_HASH = "af93a0edee75e1557ee273bd580426dcc63439ebc7b679947533e11e2aed18a6c6074f79edd9ab2590931f9874170cf9d3c15701fdeaf8552cbde07007f70336"
 
-RPROVIDES:${PN} += "python3.11dist(orjson) \
+RPROVIDES:${PN} += "python3.11dist-orjson \
 python311-orjson \
-python311-orjson(aarch-64) \
-python3dist(orjson)"
+python3dist-orjson"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+python-abi"
 
 inherit rpm

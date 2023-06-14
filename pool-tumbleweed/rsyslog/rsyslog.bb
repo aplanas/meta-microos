@@ -13,32 +13,29 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "72560eca70d67c927fab5e89a87e62c63f7af373fea3baa8e4d6ad96d6a9ae17972c132e9b527a58ef174bc84151dc3386017b0f97cecfa326abdc2d70674018"
 
-RPROVIDES:${PN} += "config(rsyslog) \
+RPROVIDES:${PN} += "config-rsyslog \
 rsyslog \
-rsyslog(aarch-64) \
 syslog \
-sysvinit(syslog)"
+sysvinit-syslog"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libestr.so.0()(64bit) \
-libfastjson.so.4()(64bit) \
-liblogging-rfc3195.so.0()(64bit) \
-liblognorm.so.5()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libestr.so.0 \
+libfastjson.so.4 \
+liblogging-rfc3195.so.0 \
+liblognorm.so.5 \
+libm.so.6 \
 librdkafka1 \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_246)(64bit) \
-libuuid.so.1()(64bit) \
-libz.so.1()(64bit) \
+libsystemd.so.0 \
+libuuid.so.1 \
+libz.so.1 \
 syslog-service"
 
 inherit rpm

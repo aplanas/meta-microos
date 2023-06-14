@@ -28,44 +28,42 @@ PV = "12.2.0"
 RPM_NAME = "open-vm-tools-12.2.0-3.1.aarch64.rpm"
 RPM_HASH = "c7a4aa945632bbdaaa2469d8ad0efd20adb7ef816da17b2fc16f495d7a98e281ba95830068cd63e2647abc2e1d0daa8f9017dab8345f081a00b54fa9f3d2d5c3"
 
-RPROVIDES:${PN} += "config(open-vm-tools) \
-libappInfo.so()(64bit) \
-libcomponentMgr.so()(64bit) \
-libdeployPkgPlugin.so()(64bit) \
-libgdp.so()(64bit) \
-libguestInfo.so()(64bit) \
-libguestStore.so()(64bit) \
-libhgfsServer.so()(64bit) \
-libpowerOps.so()(64bit) \
-libresolutionKMS.so()(64bit) \
-libtimeSync.so()(64bit) \
-libvix.so()(64bit) \
-libvmbackup.so()(64bit) \
-open-vm-tools \
-open-vm-tools(aarch-64)"
+RPROVIDES:${PN} += "config-open-vm-tools \
+libappInfo.so \
+libcomponentMgr.so \
+libdeployPkgPlugin.so \
+libgdp.so \
+libguestInfo.so \
+libguestStore.so \
+libhgfsServer.so \
+libpowerOps.so \
+libresolutionKMS.so \
+libtimeSync.so \
+libvix.so \
+libvmbackup.so \
+open-vm-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libDeployPkg.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libdrm.so.2()(64bit) \
-libfuse3.so.3()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libguestlib.so.0()(64bit) \
-libhgfs.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libtirpc.so.3()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libvgauth.so.0()(64bit) \
-libvmtools.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libDeployPkg.so.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libdrm.so.2 \
+libfuse3.so.3 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libguestlib.so.0 \
+libhgfs.so.0 \
+libssl.so.3 \
+libtirpc.so.3 \
+libudev.so.1 \
+libvgauth.so.0 \
+libvmtools.so.0 \
 libvmtools0 \
-libxml2.so.2()(64bit) \
+libxml2.so.2 \
 libxmlsec1-openssl1 \
-libxmlsec1.so.1()(64bit) \
+libxmlsec1.so.1 \
 net-tools \
 tar \
 which"

@@ -9,15 +9,14 @@ PV = "0.10.1"
 RPM_NAME = "libmesode0-0.10.1-1.11.aarch64.rpm"
 RPM_HASH = "f2d488fe57ea08cacdcac4a898f69603deda76eed3298633347ae0edbac8c4148772544d8954b8206ccf5124077139a93dc01f41aaf093af70020d12c0874c99"
 
-RPROVIDES:${PN} += "libmesode.so.0()(64bit) \
-libmesode0 \
-libmesode0(aarch-64)"
+RPROVIDES:${PN} += "libmesode.so.0 \
+libmesode0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libexpat.so.1()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libexpat.so.1 \
+libssl.so.3"
 
 inherit rpm

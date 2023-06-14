@@ -7,23 +7,18 @@ PV = "1.5.1615+0"
 RPM_NAME = "psi+-plugins-openpgpplugin-1.5.1615+0-3.1.aarch64.rpm"
 RPM_HASH = "b94b1fc2ae4f48fd56a1d1f1874c4b7ce59aa8722655ac49de5ddebbce6d6f0301c5677cb50ee15992e3b719ce1858e91eaf1bcd3b1edf95a56235d7182e4da0"
 
-RPROVIDES:${PN} += "libopenpgpplugin.so()(64bit) \
+RPROVIDES:${PN} += "libopenpgpplugin.so \
 plugins-gnupgplugin \
-psi+-plugins-openpgpplugin \
-psi+-plugins-openpgpplugin(aarch-64)"
+psi+-plugins-openpgpplugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 psi+"
 
 inherit rpm

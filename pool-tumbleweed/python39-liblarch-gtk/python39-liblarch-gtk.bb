@@ -14,9 +14,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-liblarch-gtk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-gobject \
 python39-liblarch \
-typelib(Gtk)"
+typelib-Gtk"
 
 inherit rpm

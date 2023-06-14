@@ -14,7 +14,7 @@ RPM_NAME = "texlive-listings-ext-2023.201.67svn29349-54.1.noarch.rpm"
 RPM_HASH = "200ad6fe0122bc08dbce77b0ce4543cd4f7c00631898ca85c0f3d003f9f7e5d66bbe49aaaec7abee68e40db779076e77c3404fe2e138d9bdf1afaa05320ec919"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(listings-ext.sty) \
+RPROVIDES:${PN} += "tex-listings-ext.sty \
 texlive-listings-ext"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(listings.sty) \
-tex(xkeyval.sty) \
+tex-listings.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,25 +10,24 @@ RPM_HASH = "92891604e0ce918db9f708a7b93c4ec16e0965807c23cb6e0641f0144df2028112b9
 
 RPROVIDES:${PN} += "libwnck \
 libwnck-3-0 \
-libwnck-3-0(aarch-64) \
-libwnck-3.so.0()(64bit)"
+libwnck-3.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXRes.so.1()(64bit) \
-libXrender.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libstartup-notification-1.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXRes.so.1 \
+libXrender.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libstartup-notification-1.so.0"
 
 inherit rpm

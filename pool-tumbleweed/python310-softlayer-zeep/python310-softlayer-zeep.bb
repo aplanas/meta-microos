@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-softlayer-zeep \
 python3-zeep \
-python3.10dist(softlayer-zeep) \
+python3.10dist-softlayer-zeep \
 python310-softlayer-zeep \
 python310-zeep \
-python3dist(softlayer-zeep)"
+python3dist-softlayer-zeep"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-isodate \
 python310-lxml \

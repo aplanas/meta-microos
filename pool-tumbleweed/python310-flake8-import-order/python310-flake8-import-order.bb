@@ -9,11 +9,11 @@ RPM_HASH = "5bcc9bc8dc43dd4c73f3204c06ec52fceeaf29fe8732d17206e22ec77aa8b3ed4580
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-import-order \
-python3.10dist(flake8-import-order) \
+python3.10dist-flake8-import-order \
 python310-flake8-import-order \
-python3dist(flake8-import-order)"
+python3dist-flake8-import-order"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flake8 \
 python310-pycodestyle"
 

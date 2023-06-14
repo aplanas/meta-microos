@@ -17,13 +17,13 @@ RPM_NAME = "python311-pako-0.3.1-1.4.noarch.rpm"
 RPM_HASH = "2f540a7f917a369548039fab2821ff27f62ef0c17e52cdb2454ddb989473d32dae47942184889567daea6f11017d029a5eb8ced13644a0df74856891c809b86a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pako) \
+RPROVIDES:${PN} += "python3.11dist-pako \
 python311-pako \
-python3dist(pako)"
+python3dist-pako"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-appdirs \
 update-alternatives"
 

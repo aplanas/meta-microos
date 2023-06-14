@@ -12,7 +12,7 @@ RPM_NAME = "texlive-unisugar-2023.201.0.0.92svn22357-53.1.noarch.rpm"
 RPM_HASH = "898263d3aa5dc062e4a431f95f0ea80052b27f73179b20d3f8c32c22c2b9eff5fe6abb71b58738cf703ca1cc5ebd259681bc56ace0d5e5e0c3de395a65c0b735"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unisugar.sty) \
+RPROVIDES:${PN} += "tex-unisugar.sty \
 texlive-unisugar"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifxetex.sty) \
+tex-ifxetex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

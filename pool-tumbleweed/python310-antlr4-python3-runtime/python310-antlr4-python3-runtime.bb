@@ -12,13 +12,13 @@ RPM_HASH = "d33d7bf618f3f89b6fb326a01b4f463f77f0e50e700630eaf9ff31849b6d21d090a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-antlr4-python3-runtime \
-python3.10dist(antlr4-python3-runtime) \
+python3.10dist-antlr4-python3-runtime \
 python310-antlr4-python3-runtime \
-python3dist(antlr4-python3-runtime)"
+python3dist-antlr4-python3-runtime"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

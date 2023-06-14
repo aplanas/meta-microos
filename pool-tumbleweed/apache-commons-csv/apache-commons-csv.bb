@@ -9,9 +9,9 @@ RPM_HASH = "2537d3925063e2f44addfc7417c90b67275b01c150b154323cbdccb1104cb452981d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-csv \
-mvn(org.apache.commons:commons-csv) \
-mvn(org.apache.commons:commons-csv:pom:) \
-osgi(org.apache.commons.commons-csv)"
+mvn-org.apache.commons-commons-csv \
+mvn-org.apache.commons-commons-csv-pom- \
+osgi-org.apache.commons.commons-csv"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

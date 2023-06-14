@@ -26,12 +26,12 @@ RPM_HASH = "9e7df633814f65ee7aa6807e97a668faa27a10587d89031ea7e1a3515356ca160459
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcsp \
-mvn(org.codehaus.jcsp:jcsp) \
-mvn(org.codehaus.jcsp:jcsp:pom:) \
-osgi(org.codehaus.jcsp)"
+mvn-org.codehaus.jcsp-jcsp \
+mvn-org.codehaus.jcsp-jcsp-pom- \
+osgi-org.codehaus.jcsp"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.osgi:osgi.core)"
+mvn-org.osgi-osgi.core"
 
 inherit rpm

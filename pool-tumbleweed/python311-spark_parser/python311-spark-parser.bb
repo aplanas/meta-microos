@@ -14,13 +14,13 @@ RPM_NAME = "python311-spark_parser-1.8.9-3.13.noarch.rpm"
 RPM_HASH = "42d087e938e97df7e8217666bebdd61c6664d42210b72a0ff505afd2b2c10ca452979fa89df216f5ddf7b2592f9d4c8254cb170ab20854e2e669dfaf62342a82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(spark-parser) \
-python311-spark_parser \
-python3dist(spark-parser)"
+RPROVIDES:${PN} += "python3.11dist-spark-parser \
+python311-spark-parser \
+python3dist-spark-parser"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-click \
 update-alternatives"
 

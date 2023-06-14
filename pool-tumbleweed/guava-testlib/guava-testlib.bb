@@ -9,13 +9,13 @@ RPM_HASH = "6bb0113277e748a0b1245a6f931a5ad36e39da80df715054ed53e2c3c32de2ebeac3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guava-testlib \
-mvn(com.google.guava:guava-testlib) \
-mvn(com.google.guava:guava-testlib:pom:)"
+mvn-com.google.guava-guava-testlib \
+mvn-com.google.guava-guava-testlib-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.code.findbugs:jsr305) \
-mvn(com.google.guava:guava) \
-mvn(junit:junit)"
+mvn-com.google.code.findbugs-jsr305 \
+mvn-com.google.guava-guava \
+mvn-junit-junit"
 
 inherit rpm

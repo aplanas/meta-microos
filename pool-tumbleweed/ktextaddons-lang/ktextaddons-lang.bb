@@ -10,35 +10,35 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktextaddons-lang \
 ktextaddons-lang-all \
-locale(ktextaddons:ar) \
-locale(ktextaddons:az) \
-locale(ktextaddons:bg) \
-locale(ktextaddons:ca) \
-locale(ktextaddons:ca@valencia) \
-locale(ktextaddons:cs) \
-locale(ktextaddons:da) \
-locale(ktextaddons:de) \
-locale(ktextaddons:en_GB) \
-locale(ktextaddons:es) \
-locale(ktextaddons:et) \
-locale(ktextaddons:eu) \
-locale(ktextaddons:fi) \
-locale(ktextaddons:fr) \
-locale(ktextaddons:gl) \
-locale(ktextaddons:ia) \
-locale(ktextaddons:it) \
-locale(ktextaddons:ka) \
-locale(ktextaddons:ko) \
-locale(ktextaddons:nl) \
-locale(ktextaddons:pl) \
-locale(ktextaddons:pt) \
-locale(ktextaddons:pt_BR) \
-locale(ktextaddons:ru) \
-locale(ktextaddons:sk) \
-locale(ktextaddons:sl) \
-locale(ktextaddons:sv) \
-locale(ktextaddons:tr) \
-locale(ktextaddons:uk)"
+locale-ktextaddons-ar \
+locale-ktextaddons-az \
+locale-ktextaddons-bg \
+locale-ktextaddons-ca \
+locale-ktextaddons-ca@valencia \
+locale-ktextaddons-cs \
+locale-ktextaddons-da \
+locale-ktextaddons-de \
+locale-ktextaddons-en-GB \
+locale-ktextaddons-es \
+locale-ktextaddons-et \
+locale-ktextaddons-eu \
+locale-ktextaddons-fi \
+locale-ktextaddons-fr \
+locale-ktextaddons-gl \
+locale-ktextaddons-ia \
+locale-ktextaddons-it \
+locale-ktextaddons-ka \
+locale-ktextaddons-ko \
+locale-ktextaddons-nl \
+locale-ktextaddons-pl \
+locale-ktextaddons-pt \
+locale-ktextaddons-pt-BR \
+locale-ktextaddons-ru \
+locale-ktextaddons-sk \
+locale-ktextaddons-sl \
+locale-ktextaddons-sv \
+locale-ktextaddons-tr \
+locale-ktextaddons-uk"
 
 RDEPENDS:${PN} += "ktextaddons"
 

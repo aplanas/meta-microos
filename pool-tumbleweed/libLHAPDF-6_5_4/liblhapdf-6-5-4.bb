@@ -15,15 +15,14 @@ RPM_NAME = "libLHAPDF-6_5_4-6.5.4-1.1.aarch64.rpm"
 RPM_HASH = "c8716c97281c308dcc6bee9e1742a60e3264a869c8d6d997e93aed5e444880a60526aa4d87be5009bc7cce2a0617e125e38009604dfe23a6805f4c0264032080"
 
 RPROVIDES:${PN} += "libLHAPDF \
-libLHAPDF-6.5.4.so()(64bit) \
-libLHAPDF-6_5_4 \
-libLHAPDF-6_5_4(aarch-64)"
+libLHAPDF-6-5-4 \
+libLHAPDF-6.5.4.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

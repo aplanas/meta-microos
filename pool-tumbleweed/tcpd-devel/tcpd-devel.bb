@@ -8,8 +8,7 @@ PV = "7.6"
 RPM_NAME = "tcpd-devel-7.6-895.3.aarch64.rpm"
 RPM_HASH = "9d8138706fd9b718c5d9f479fb8e41a74cd4c207c35ffc0ad72fdbbcb7f293fe63ee9dbf46d629b9d89094de9d2662ad6d3cc8a8e59c1a59b3dbd9dd7805e192"
 
-RPROVIDES:${PN} += "tcpd-devel \
-tcpd-devel(aarch-64)"
+RPROVIDES:${PN} += "tcpd-devel"
 
 RDEPENDS:${PN} += "glibc-devel \
 libwrap0"

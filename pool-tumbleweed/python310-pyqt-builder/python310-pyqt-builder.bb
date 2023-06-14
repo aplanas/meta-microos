@@ -16,14 +16,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyQt-builder \
 python3-pyqt-builder \
-python3.10dist(pyqt-builder) \
+python3.10dist-pyqt-builder \
 python310-PyQt-builder \
 python310-pyqt-builder \
-python3dist(pyqt-builder)"
+python3dist-pyqt-builder"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-packaging \
 python310-sip-devel \
 update-alternatives"

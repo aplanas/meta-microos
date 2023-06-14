@@ -13,11 +13,11 @@ RPM_HASH = "539fbf6bc4d10fa53475fe27375e1a1c41fc3ffd080f723f2378f682ee31c6a7f70e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pacemaker \
-python3.10dist(pacemaker) \
-python3dist(pacemaker)"
+python3.10dist-pacemaker \
+python3dist-pacemaker"
 
 RDEPENDS:${PN} += "pacemaker-libs \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

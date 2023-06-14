@@ -8,19 +8,17 @@ PV = "0.34.7"
 RPM_NAME = "oddjob-0.34.7-1.5.aarch64.rpm"
 RPM_HASH = "580eac1663d22b4572590fcb69684141eb6c8c691d9885bbe4b1cea5845d559fafddffd1503737635d38b61aee356c6ce895def9b01e783eb69aede12a36561e"
 
-RPROVIDES:${PN} += "config(oddjob) \
-oddjob \
-oddjob(aarch-64)"
+RPROVIDES:${PN} += "config-oddjob \
+oddjob"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dbus-1 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libselinux.so.1()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libselinux.so.1 \
+libxml2.so.2 \
 psmisc \
 systemd"
 

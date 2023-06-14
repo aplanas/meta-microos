@@ -11,7 +11,7 @@ RPM_HASH = "80357de580d33749d831ac525347fa6da2955a3bcaf59cc46553e8cbca2ce7d9f3b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldas-tools-cmake \
-pkgconfig(ldastoolscmake)"
+pkgconfig-ldastoolscmake"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

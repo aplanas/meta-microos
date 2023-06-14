@@ -15,7 +15,7 @@ RPM_NAME = "texlive-tikz-relay-2023.201.1.3svn64072-52.1.noarch.rpm"
 RPM_HASH = "c01ff347c08df969c4e22d206a5f579770d0b8559db051c0197fd74610ae63277570083717fcfd824457642a9451026fe75a82ab37e4e3d65155d763fd5498cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibrarycircuits.ee.IEC.relay.code.tex) \
+RPROVIDES:${PN} += "tex-tikzlibrarycircuits.ee.IEC.relay.code.tex \
 texlive-tikz-relay"
 
 RDEPENDS:${PN} += "/bin/sh \

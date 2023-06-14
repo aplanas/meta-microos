@@ -9,9 +9,8 @@ PV = "3006.0"
 RPM_NAME = "salt-cloud-3006.0-1.1.aarch64.rpm"
 RPM_HASH = "cadb1bdadad91a846d51f41f22ab9b986e87421b2ece5859ae0d2675e43a21b5f9fee9424761e4b890f31166936879671dee9c327777e5281e54048998688927"
 
-RPROVIDES:${PN} += "config(salt-cloud) \
-salt-cloud \
-salt-cloud(aarch-64)"
+RPROVIDES:${PN} += "config-salt-cloud \
+salt-cloud"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-apache-libcloud \

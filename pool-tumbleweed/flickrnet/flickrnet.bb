@@ -9,12 +9,12 @@ RPM_HASH = "4a2ff1d4fa7fd9373522656d03099bc0daae0cbb6677d53821e9fdaa3fd480695dbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flickrnet \
-mono(FlickrNet)"
+mono-FlickrNet"
 
-RDEPENDS:${PN} += "mono(System) \
-mono(System.Configuration) \
-mono(System.Drawing) \
-mono(System.Xml) \
-mono(mscorlib)"
+RDEPENDS:${PN} += "mono-System \
+mono-System.Configuration \
+mono-System.Drawing \
+mono-System.Xml \
+mono-mscorlib"
 
 inherit rpm

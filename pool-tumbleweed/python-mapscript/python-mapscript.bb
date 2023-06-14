@@ -10,16 +10,15 @@ RPM_HASH = "7508a69cf05bfa575bcf7a27b19d5928e66ad28a0770619693c8b19e0c9725edba08
 
 RPROVIDES:${PN} += "mapserver-python \
 python-mapscript \
-python-mapscript(aarch-64) \
-python3.10dist(mapscript) \
-python3dist(mapscript)"
+python3.10dist-mapscript \
+python3dist-mapscript"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmapserver.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmapserver.so.2 \
 libmapserver2 \
-libpython3.10.so.1.0()(64bit) \
-python(abi) \
+libpython3.10.so.1.0 \
+python-abi \
 python3-base"
 
 inherit rpm

@@ -16,9 +16,9 @@ RPM_NAME = "python39-azure-mgmt-4.0.0-23.5.noarch.rpm"
 RPM_HASH = "460453594dcd28f86a9f4fbd8ed6bc293c27020b4613c766f506c2cb00227dd25c40e17f62d0756105502ad8485a5d01773cb5da9d4cf411943559fa4120ca14"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt \
 python39-azure-mgmt \
-python3dist(azure-mgmt)"
+python3dist-azure-mgmt"
 
 RDEPENDS:${PN} += "python39-azure-mgmt-advisor \
 python39-azure-mgmt-agfood \

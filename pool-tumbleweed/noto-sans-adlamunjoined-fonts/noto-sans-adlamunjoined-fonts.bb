@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-adlamunjoined \
 noto-sans-adlamunjoined-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

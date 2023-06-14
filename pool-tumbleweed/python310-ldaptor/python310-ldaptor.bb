@@ -15,13 +15,13 @@ RPM_HASH = "08e644c4ff05a66bb3022f45b26e0cd545d644e94bf81c667f035f6dd5f0c6503ef6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ldaptor \
-python3.10dist(ldaptor) \
+python3.10dist-ldaptor \
 python310-ldaptor \
-python3dist(ldaptor)"
+python3dist-ldaptor"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Twisted-tls \
 python310-passlib \
 python310-pyparsing \

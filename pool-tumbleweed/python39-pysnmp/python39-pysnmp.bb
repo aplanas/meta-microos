@@ -17,11 +17,11 @@ RPM_NAME = "python39-pysnmp-4.4.12-2.13.noarch.rpm"
 RPM_HASH = "c62468c830ca38c60cbfcea82b27d3cec19e665903b433f6b65f192c4d4c8f20c49e9af28af8a2e25f6209ad7b560406830f75f6f7c8644e5c274f286d0a72de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pysnmp) \
+RPROVIDES:${PN} += "python3.9dist-pysnmp \
 python39-pysnmp \
-python3dist(pysnmp)"
+python3dist-pysnmp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pyasn1 \
 python39-pycryptodome \
 python39-pysmi"

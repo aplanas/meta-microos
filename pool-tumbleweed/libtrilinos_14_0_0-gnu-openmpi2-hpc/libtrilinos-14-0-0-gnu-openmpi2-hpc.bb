@@ -13,21 +13,20 @@ PV = "14.0.0"
 RPM_NAME = "libtrilinos_14_0_0-gnu-openmpi2-hpc-14.0.0-1.2.aarch64.rpm"
 RPM_HASH = "a0a91dac779f60acf645c6a7a6e6d902a3a220744ce927967197f0c2179ec58f71b662174018fd0d7387b7a24d5df4897d341331b87ba1e892229ac0f157c834"
 
-RPROVIDES:${PN} += "libtrilinos_14_0_0-gnu-openmpi2-hpc \
-libtrilinos_14_0_0-gnu-openmpi2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libtrilinos-14-0-0-gnu-openmpi2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
 libhdf5-gnu-openmpi2-hpc \
-libm.so.6()(64bit) \
+libm.so.6 \
 libnetcdf-gnu-openmpi2-hpc \
 libopenblas-gnu-hpc \
 libopenmpi2-gnu-hpc \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 lua-lmod \
 openmpi2-gnu-hpc"
 

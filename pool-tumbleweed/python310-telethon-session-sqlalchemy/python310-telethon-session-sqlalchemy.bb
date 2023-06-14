@@ -9,11 +9,11 @@ RPM_HASH = "fb7bb9675f20fe8a90650b9b0a55309279bebb3b1b54c3e17c4aa0a0752de2cf1630
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-telethon-session-sqlalchemy \
-python3.10dist(telethon-session-sqlalchemy) \
+python3.10dist-telethon-session-sqlalchemy \
 python310-telethon-session-sqlalchemy \
-python3dist(telethon-session-sqlalchemy)"
+python3dist-telethon-session-sqlalchemy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-SQLAlchemy"
 
 inherit rpm

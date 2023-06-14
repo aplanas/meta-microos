@@ -13,7 +13,7 @@ RPM_HASH = "071533f6386f4510c1e5a65a56e1da20799f3a29736fbf44e9e6e8d777e23fa582b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javahelp2 \
-mvn(javax.help:javahelp)"
+mvn-javax.help-javahelp"
 
 RDEPENDS:${PN} += "/bin/bash \
 glassfish-jsp-api \

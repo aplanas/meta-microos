@@ -10,11 +10,11 @@ RPM_HASH = "b5dad966da3f8b05a1aac50820aa7c540322d48a8731c8ec3945ea4d4e138384ca80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-adal \
-python3.10dist(adal) \
+python3.10dist-adal \
 python310-adal \
-python3dist(adal)"
+python3dist-adal"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-cryptography \
 python310-python-dateutil \

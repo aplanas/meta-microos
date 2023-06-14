@@ -11,11 +11,11 @@ RPM_HASH = "2e8d6d0faebef5912a4e797c895f25671fce535d67df1a90b1bee638d092cceb62d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Migrate \
-python3.10dist(flask-migrate) \
+python3.10dist-flask-migrate \
 python310-Flask-Migrate \
-python3dist(flask-migrate)"
+python3dist-flask-migrate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-Flask-SQLAlchemy \
 python310-alembic"

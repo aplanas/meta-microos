@@ -11,15 +11,15 @@ RPM_HASH = "939eb33c20d4f01f352c71073461852bafdc91f231292a263722fbc24ad154e06385
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-resolver \
-config(ant-apache-resolver) \
-mvn(org.apache.ant:ant-apache-resolver) \
-mvn(org.apache.ant:ant-apache-resolver:pom:)"
+config-ant-apache-resolver \
+mvn-org.apache.ant-ant-apache-resolver \
+mvn-org.apache.ant-ant-apache-resolver-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(xml-resolver:xml-resolver) \
+mvn-org.apache.ant-ant \
+mvn-xml-resolver-xml-resolver \
 xml-resolver"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-palmyrene \
 noto-sans-palmyrene-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

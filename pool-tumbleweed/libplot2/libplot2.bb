@@ -13,19 +13,17 @@ PV = "2.6"
 RPM_NAME = "libplot2-2.6-29.3.aarch64.rpm"
 RPM_HASH = "921266fc07f8da568b7c93cddc9423535cf903c6471f392468ac540d974cf478d80b4fff43416550a5f912e594c2445b55e859c533ba26eeecd2efcb5e400e95"
 
-RPROVIDES:${PN} += "libplot.so.2()(64bit) \
-libplot2 \
-libplot2(aarch-64)"
+RPROVIDES:${PN} += "libplot.so.2 \
+libplot2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXext.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXext.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libm.so.6 \
+libpng16.so.16"
 
 inherit rpm

@@ -10,18 +10,12 @@ RPM_HASH = "b4c786d09d1a1142d428888457cc97c33e1576e427e0b233a6ada6e60cd14f383449
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ReText \
-application() \
-application(me.mitya57.ReText.desktop) \
-metainfo() \
-metainfo(me.mitya57.ReText.appdata.xml) \
-mimehandler(text/markdown) \
-mimehandler(text/x-rst) \
-python3.10dist(retext) \
-python3dist(retext) \
+python3.10dist-retext \
+python3dist-retext \
 retext"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Markdown \
 python3-Markups \
 python3-docutils \

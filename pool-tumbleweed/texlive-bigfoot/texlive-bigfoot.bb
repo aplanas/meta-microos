@@ -18,9 +18,9 @@ RPM_NAME = "texlive-bigfoot-2023.201.2.1svn38248-53.1.noarch.rpm"
 RPM_HASH = "4fe72770a6eee9be6e0343af850b92512aab1702eb34ace0fca1c65ab32e1e9d1a3f28f279ae443e4e65488b4b12c99123acdfb74066e111f71af7f072216ee2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bigfoot.sty) \
-tex(perpage.sty) \
-tex(suffix.sty) \
+RPROVIDES:${PN} += "tex-bigfoot.sty \
+tex-perpage.sty \
+tex-suffix.sty \
 texlive-bigfoot"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,8 +29,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
-tex(manyfoot.sty) \
+tex-etex.sty \
+tex-manyfoot.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

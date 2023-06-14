@@ -11,12 +11,11 @@ PV = "3.0.3"
 RPM_NAME = "logfilegen-3.0.3-1.1.aarch64.rpm"
 RPM_HASH = "f6249f678e267c82c81a1a340835f2601ffb06f4d14867bbfaa9b5c9d446e11891899492cc146d8f81f42b693d70fb2eecb441fdf1dc28f5c974144e4f7a0c31"
 
-RPROVIDES:${PN} += "logfilegen \
-logfilegen(aarch-64)"
+RPROVIDES:${PN} += "logfilegen"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

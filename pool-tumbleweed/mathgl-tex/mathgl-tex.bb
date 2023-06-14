@@ -13,7 +13,7 @@ RPM_HASH = "e8ae49d2b968c7e5dbb4c7196bd5e19732ab20d0e57903628a8be36ea32cce2e931b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex \
-tex(mgltex.sty)"
+tex-mgltex.sty"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

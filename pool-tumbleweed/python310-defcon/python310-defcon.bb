@@ -9,11 +9,11 @@ RPM_HASH = "17af8edee56a1feec9218cb584ce88eddaaa5bb360133ca09e5d1f09f997e6fc30c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-defcon \
-python3.10dist(defcon) \
+python3.10dist-defcon \
 python310-defcon \
-python3dist(defcon)"
+python3dist-defcon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-FontTools \
 python310-fs"
 

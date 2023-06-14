@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmirage-lang \
 libmirage-lang-all \
-locale(libmirage:ru) \
-locale(libmirage:sl)"
+locale-libmirage-ru \
+locale-libmirage-sl"
 
 RDEPENDS:${PN} += ""
 

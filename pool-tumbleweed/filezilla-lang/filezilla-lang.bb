@@ -10,40 +10,40 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "filezilla-lang \
 filezilla-lang-all \
-locale(filezilla:ar) \
-locale(filezilla:az) \
-locale(filezilla:ca) \
-locale(filezilla:cs_CZ) \
-locale(filezilla:cy) \
-locale(filezilla:da) \
-locale(filezilla:de) \
-locale(filezilla:el) \
-locale(filezilla:es) \
-locale(filezilla:et) \
-locale(filezilla:eu) \
-locale(filezilla:fi_FI) \
-locale(filezilla:fr) \
-locale(filezilla:hr) \
-locale(filezilla:is) \
-locale(filezilla:it) \
-locale(filezilla:ka) \
-locale(filezilla:nb_NO) \
-locale(filezilla:ne) \
-locale(filezilla:nl) \
-locale(filezilla:nn_NO) \
-locale(filezilla:oc) \
-locale(filezilla:pl_PL) \
-locale(filezilla:pt_BR) \
-locale(filezilla:pt_PT) \
-locale(filezilla:ru) \
-locale(filezilla:sl_SI) \
-locale(filezilla:sr) \
-locale(filezilla:sv) \
-locale(filezilla:ta) \
-locale(filezilla:tr) \
-locale(filezilla:uk_UA) \
-locale(filezilla:zh_CN) \
-locale(filezilla:zh_TW)"
+locale-filezilla-ar \
+locale-filezilla-az \
+locale-filezilla-ca \
+locale-filezilla-cs-CZ \
+locale-filezilla-cy \
+locale-filezilla-da \
+locale-filezilla-de \
+locale-filezilla-el \
+locale-filezilla-es \
+locale-filezilla-et \
+locale-filezilla-eu \
+locale-filezilla-fi-FI \
+locale-filezilla-fr \
+locale-filezilla-hr \
+locale-filezilla-is \
+locale-filezilla-it \
+locale-filezilla-ka \
+locale-filezilla-nb-NO \
+locale-filezilla-ne \
+locale-filezilla-nl \
+locale-filezilla-nn-NO \
+locale-filezilla-oc \
+locale-filezilla-pl-PL \
+locale-filezilla-pt-BR \
+locale-filezilla-pt-PT \
+locale-filezilla-ru \
+locale-filezilla-sl-SI \
+locale-filezilla-sr \
+locale-filezilla-sv \
+locale-filezilla-ta \
+locale-filezilla-tr \
+locale-filezilla-uk-UA \
+locale-filezilla-zh-CN \
+locale-filezilla-zh-TW"
 
 RDEPENDS:${PN} += "filezilla"
 

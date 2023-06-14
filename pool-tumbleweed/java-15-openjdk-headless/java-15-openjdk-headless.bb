@@ -7,11 +7,10 @@ PV = "15.0.10.0"
 RPM_NAME = "java-15-openjdk-headless-15.0.10.0-2.3.aarch64.rpm"
 RPM_HASH = "659007eb9b63f6567a849f5d310d169431fb3a810f885c515f5106ac5dc989c669b16a9e4466a3c045cde9ac510959d66d777073134243469919b5cd20b21b89"
 
-RPROVIDES:${PN} += "config(java-15-openjdk-headless) \
+RPROVIDES:${PN} += "config-java-15-openjdk-headless \
 jaas \
 java-15-headless \
 java-15-openjdk-headless \
-java-15-openjdk-headless(aarch-64) \
 java-headless \
 java-openjdk-headless \
 java-sasl \
@@ -27,51 +26,51 @@ jre-15-openjdk-headless \
 jre-headless \
 jre-openjdk-headless \
 jsse \
-libawt.so()(64bit) \
-libawt_headless.so()(64bit) \
-libdt_socket.so()(64bit) \
-libextnet.so()(64bit) \
-libfontmanager.so()(64bit) \
-libinstrument.so()(64bit) \
-libj2gss.so()(64bit) \
-libj2pcsc.so()(64bit) \
-libj2pkcs11.so()(64bit) \
-libjaas.so()(64bit) \
-libjava.so()(64bit) \
-libjavajpeg.so()(64bit) \
-libjdwp.so()(64bit) \
-libjimage.so()(64bit) \
-libjli.so()(64bit) \
-libjsig.so()(64bit) \
-libjsound.so()(64bit) \
-libjvm.so()(64bit) \
-liblcms.so()(64bit) \
-libmanagement.so()(64bit) \
-libmanagement_agent.so()(64bit) \
-libmanagement_ext.so()(64bit) \
-libmlib_image.so()(64bit) \
-libnet.so()(64bit) \
-libnio.so()(64bit) \
-libprefs.so()(64bit) \
-librmi.so()(64bit) \
-libsctp.so()(64bit) \
-libsunec.so()(64bit) \
-libverify.so()(64bit) \
-libzip.so()(64bit)"
+libawt-headless.so \
+libawt.so \
+libdt-socket.so \
+libextnet.so \
+libfontmanager.so \
+libinstrument.so \
+libj2gss.so \
+libj2pcsc.so \
+libj2pkcs11.so \
+libjaas.so \
+libjava.so \
+libjavajpeg.so \
+libjdwp.so \
+libjimage.so \
+libjli.so \
+libjsig.so \
+libjsound.so \
+libjvm.so \
+liblcms.so \
+libmanagement-agent.so \
+libmanagement-ext.so \
+libmanagement.so \
+libmlib-image.so \
+libnet.so \
+libnio.so \
+libprefs.so \
+librmi.so \
+libsctp.so \
+libsunec.so \
+libverify.so \
+libzip.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 jpackage-utils \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpcsclite.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+libm.so.6 \
+libpcsclite.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
 update-alternatives"
 
 inherit rpm

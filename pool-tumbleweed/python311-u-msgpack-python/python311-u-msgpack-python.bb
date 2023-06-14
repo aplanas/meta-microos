@@ -13,10 +13,10 @@ RPM_NAME = "python311-u-msgpack-python-2.7.2-2.1.noarch.rpm"
 RPM_HASH = "85396fa0a3ca1a16dc12be7d49b34d97e610ce53525cd6355ae7b26fd398a59004888864e2c39a214f16a7c46b5833108d4bda136c8e4829c881d7d597adbc4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(u-msgpack-python) \
+RPROVIDES:${PN} += "python3.11dist-u-msgpack-python \
 python311-u-msgpack-python \
-python3dist(u-msgpack-python)"
+python3dist-u-msgpack-python"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "e20bccb0cf732875663a748a8b52eac4b4c997402ff3fbfc70f443a3ea660e664e2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pywbem \
-python3.10dist(pywbem) \
+python3.10dist-pywbem \
 python310-pywbem \
-python3dist(pywbem)"
+python3dist-pywbem"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-nocasedict \
 python310-nocaselist \

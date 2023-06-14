@@ -12,8 +12,7 @@ RPM_HASH = "3ac26a6fabceaf2bc6c56c7b14782e39441886b9c8c16753655dc158551b3b277b66
 
 RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-dft \
-terminology-theme-upstream \
-terminology-theme-upstream(aarch-64)"
+terminology-theme-upstream"
 
 RDEPENDS:${PN} += ""
 

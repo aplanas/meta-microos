@@ -11,12 +11,11 @@ RPM_HASH = "a0c58ee401d8593757f91c3970c3ef0dad9164a43e1b804bf45da43dd0a9a90cac18
 
 RPROVIDES:${PN} += "lib3ds \
 lib3ds-1-3 \
-lib3ds-1-3(aarch-64) \
-lib3ds-1.so.3()(64bit)"
+lib3ds-1.so.3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

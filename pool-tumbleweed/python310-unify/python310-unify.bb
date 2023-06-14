@@ -12,13 +12,13 @@ RPM_HASH = "fc38d184cd416255b2be29f5f43ef74f913d176cbb8f9fa901fde6ed187126cd189e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-unify \
-python3.10dist(unify) \
+python3.10dist-unify \
 python310-unify \
-python3dist(unify)"
+python3dist-unify"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 python310-untokenize \
 update-alternatives"

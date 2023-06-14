@@ -14,18 +14,17 @@ RPM_HASH = "bf1f8a19939c142d95d3850c8590019bbcb1dfe9028450224b93f3ea8ec23e7a0f82
 
 RPROVIDES:${PN} += "atril-caja \
 caja-extension-atril \
-caja-extension-atril(aarch-64) \
-libatril-properties-page.so()(64bit) \
+libatril-properties-page.so \
 mate-document-viewer-caja"
 
 RDEPENDS:${PN} += "atril \
 caja \
-ld-linux-aarch64.so.1()(64bit) \
-libatrildocument.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcaja-extension.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libatrildocument.so.3 \
+libc.so.6 \
+libcaja-extension.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

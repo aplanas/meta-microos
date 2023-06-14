@@ -13,12 +13,11 @@ PV = "1.4g"
 RPM_NAME = "autossh-1.4g-2.13.aarch64.rpm"
 RPM_HASH = "7c88d1c10a4ab341272eeec704f52554ff5ac582fe1d27e43d890ad86a1ddf16e4b06087c0992a1549c42c30dc64fe3f6640e265317719ec38ba30a17dfd49a1"
 
-RPROVIDES:${PN} += "autossh \
-autossh(aarch-64)"
+RPROVIDES:${PN} += "autossh"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 openssh"
 
 inherit rpm

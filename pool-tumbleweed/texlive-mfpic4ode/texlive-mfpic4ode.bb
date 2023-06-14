@@ -16,8 +16,8 @@ RPM_NAME = "texlive-mfpic4ode-2023.201.0.0.4svn17745-54.1.noarch.rpm"
 RPM_HASH = "a936e6d2f1035b51b956189cfb337866bdb92d64651521992fa2cde39503112107b841ed27722c67c520014a48127fc407ee1828609e699f3bbb7ba7a7e7384a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mfpic4ode.sty) \
-tex(mfpic4ode.tex) \
+RPROVIDES:${PN} += "tex-mfpic4ode.sty \
+tex-mfpic4ode.tex \
 texlive-mfpic4ode"
 
 RDEPENDS:${PN} += "/bin/sh \

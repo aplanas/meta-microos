@@ -17,11 +17,11 @@ RPM_NAME = "python311-kombu-5.2.4-4.1.noarch.rpm"
 RPM_HASH = "243e1a3f1e74006c59684e7bce77a91e7d1ad5f6629bb77c21b2bd66bd7fd8fb1da8194a5d451c73806341c27051248dbfd2c772380e800db2eff4b4cd798cec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(kombu) \
+RPROVIDES:${PN} += "python3.11dist-kombu \
 python311-kombu \
-python3dist(kombu)"
+python3dist-kombu"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-amqp \
 python311-cached-property \
 python311-importlib-metadata \

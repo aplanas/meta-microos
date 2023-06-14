@@ -9,16 +9,16 @@ RPM_HASH = "3bcd94801aa472488e4b6fd5721f02c2253ca0cb7f742e441d4f353fa678620d4bbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythran \
-python3.10dist(pythran) \
+python3.10dist-pythran \
 python310-pythran \
-python3dist(pythran)"
+python3dist-pythran"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 boost-devel \
 gcc-c++ \
 openblas-devel \
-python(abi) \
+python-abi \
 python310-beniget \
 python310-devel \
 python310-gast \

@@ -13,8 +13,8 @@ RPM_NAME = "texlive-everypage-2023.201.2.0bsvn56694-52.1.noarch.rpm"
 RPM_HASH = "6b7c4226e8d3bd7407af321edf920ba37039082603dc058cd425830a07f18c40e458fa826b308934fa23218ccc28b3ba9af370b03c1f289dccb44299ac36dc56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(everypage-1x.sty) \
-tex(everypage.sty) \
+RPROVIDES:${PN} += "tex-everypage-1x.sty \
+tex-everypage.sty \
 texlive-everypage"
 
 RDEPENDS:${PN} += "/bin/sh \

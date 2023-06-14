@@ -16,13 +16,12 @@ RPM_NAME = "dovecot23-fts-squat-2.3.20-3.2.aarch64.rpm"
 RPM_HASH = "23184393644f85d3f60eb74ddb9975672941883ac9fc54ac721f75a86b248ea72dccaa4780e158276d426cdef1c4a6797ecdfecbb9c53f1e5ee174a5bb0e2395"
 
 RPROVIDES:${PN} += "dovecot23-fts-squat \
-dovecot23-fts-squat(aarch-64) \
-lib21_fts_squat_plugin.so()(64bit)"
+lib21-fts-squat-plugin.so"
 
 RDEPENDS:${PN} += "dovecot23 \
 dovecot23-fts \
-ld-linux-aarch64.so.1()(64bit) \
-lib20_fts_plugin.so()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+lib20-fts-plugin.so \
+libc.so.6"
 
 inherit rpm

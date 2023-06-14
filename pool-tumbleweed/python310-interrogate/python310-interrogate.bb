@@ -9,13 +9,13 @@ RPM_HASH = "8955e5451200a7ea5f99658aced545c613bd6777cee7ca445fb39d0956703643c78c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-interrogate \
-python3.10dist(interrogate) \
+python3.10dist-interrogate \
 python310-interrogate \
-python3dist(interrogate)"
+python3dist-interrogate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-attrs \
 python310-click \
 python310-colorama \

@@ -8,19 +8,14 @@ PV = "20210625"
 RPM_NAME = "python311-libcreg-20210625-5.7.aarch64.rpm"
 RPM_HASH = "3cfc36e983ace4a4b426f76206d0aaecbb464467673c012acdf9a6db7cc99088a2b213e79ff903dbdfc6d79dcb35927a18857a87995c6d96b38d9b37ea3c3074"
 
-RPROVIDES:${PN} += "python311-libcreg \
-python311-libcreg(aarch-64)"
+RPROVIDES:${PN} += "python311-libcreg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcreg.so.1()(64bit) \
-libcreg.so.1(V_20210625)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libclocale.so.1 \
+libcreg.so.1 \
+python-abi"
 
 inherit rpm

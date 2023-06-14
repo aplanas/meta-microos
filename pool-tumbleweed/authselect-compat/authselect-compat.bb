@@ -11,11 +11,10 @@ RPM_NAME = "authselect-compat-1.4.0+git.0.2c30265-3.2.aarch64.rpm"
 RPM_HASH = "9c5f56aec9bd82a4b7c019713d617ba6ed8f3cecb9142fb0e1f7f8a332054e7bc2b5e2d5b34ca76e1254f729ea47339e823ea1a88ba753da75234f9741fb19ed"
 
 RPROVIDES:${PN} += "authconfig \
-authselect-compat \
-authselect-compat(aarch-64)"
+authselect-compat"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-authselect(aarch-64) \
-python(abi)"
+authselect \
+python-abi"
 
 inherit rpm

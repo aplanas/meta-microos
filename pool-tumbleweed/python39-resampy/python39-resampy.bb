@@ -14,11 +14,11 @@ RPM_NAME = "python39-resampy-0.4.2-2.1.noarch.rpm"
 RPM_HASH = "7936381a3255cf26f6efc13aba1962c5da5658df2619d7a22b0556d6381c7fa9f6cbe0c1e67a23e01c175e7764a9acddfdbe781d28b2804e5396f444a8f072f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(resampy) \
+RPROVIDES:${PN} += "python3.9dist-resampy \
 python39-resampy \
-python3dist(resampy)"
+python3dist-resampy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numba \
 python39-numpy"
 

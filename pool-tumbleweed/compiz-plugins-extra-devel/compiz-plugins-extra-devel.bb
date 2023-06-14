@@ -13,21 +13,20 @@ RPM_HASH = "7e1a037b8ec843583b5482bb337216e58e7b105f799d4d0791b403c36e0cd184e877
 
 RPROVIDES:${PN} += "compiz-fusion-plugins-extra-devel \
 compiz-plugins-extra-devel \
-compiz-plugins-extra-devel(aarch-64) \
-pkgconfig(compiz-animationaddon)"
+pkgconfig-compiz-animationaddon"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 compiz-plugins-extra \
 pkgconfig \
-pkgconfig(bcop) \
-pkgconfig(cairo) \
-pkgconfig(compiz) \
-pkgconfig(compiz-animation) \
-pkgconfig(compiz-cube) \
-pkgconfig(compiz-mousepoll) \
-pkgconfig(compiz-scale) \
-pkgconfig(compiz-text) \
-pkgconfig(gl) \
-pkgconfig(libnotify)"
+pkgconfig-bcop \
+pkgconfig-cairo \
+pkgconfig-compiz \
+pkgconfig-compiz-animation \
+pkgconfig-compiz-cube \
+pkgconfig-compiz-mousepoll \
+pkgconfig-compiz-scale \
+pkgconfig-compiz-text \
+pkgconfig-gl \
+pkgconfig-libnotify"
 
 inherit rpm

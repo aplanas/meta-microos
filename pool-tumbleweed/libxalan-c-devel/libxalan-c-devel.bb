@@ -14,11 +14,10 @@ RPM_NAME = "libxalan-c-devel-1.12-1.11.aarch64.rpm"
 RPM_HASH = "75cc5b1b37d2e23c1b1e08ddd8544300be6473be453a032bbb972282aff351177a4c0a913e81f3dd5c6c4f5dbe23b5373fbbc63d5c20314c3a074f98e1bfa005"
 
 RPROVIDES:${PN} += "Xalan-c-devel \
-cmake(XalanC) \
+cmake-XalanC \
 libXalan-c-devel \
 libxalan-c-devel \
-libxalan-c-devel(aarch-64) \
-pkgconfig(xalan-c)"
+pkgconfig-xalan-c"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxalan-c112"

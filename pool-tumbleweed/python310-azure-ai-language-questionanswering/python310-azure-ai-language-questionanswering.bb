@@ -14,11 +14,11 @@ RPM_HASH = "43a1c0c3c6a301d912e6ee35b3d82e6b8168769ab01c1ca3e2ef9d59874f71da24a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-language-questionanswering \
-python3.10dist(azure-ai-language-questionanswering) \
+python3.10dist-azure-ai-language-questionanswering \
 python310-azure-ai-language-questionanswering \
-python3dist(azure-ai-language-questionanswering)"
+python3dist-azure-ai-language-questionanswering"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-ai-language-nspkg \
 python310-azure-ai-nspkg \
 python310-azure-core \

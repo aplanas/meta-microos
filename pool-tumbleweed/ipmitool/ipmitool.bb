@@ -20,16 +20,15 @@ PV = "1.8.19.0.g19d7878"
 RPM_NAME = "ipmitool-1.8.19.0.g19d7878-1.4.aarch64.rpm"
 RPM_HASH = "b7928c9362a0034aebfbea38d53d57f4e370f693bbbf955de6eaf7995e168168dac73d5189268abcda5676caf9bc7f1e4f9f20a5bfe4363c7cde60c8b3bf3cd5"
 
-RPROVIDES:${PN} += "config(ipmitool) \
-ipmitool \
-ipmitool(aarch-64)"
+RPROVIDES:${PN} += "config-ipmitool \
+ipmitool"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libfreeipmi.so.17()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libfreeipmi.so.17 \
+libm.so.6 \
+libreadline.so.8"
 
 inherit rpm

@@ -16,10 +16,10 @@ RPM_HASH = "41662864058d5e4d8bc4e4337241fb06ab871623da2155f5451447e6da8158cdd92d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-verboselogs \
-python3.10dist(verboselogs) \
+python3.10dist-verboselogs \
 python310-verboselogs \
-python3dist(verboselogs)"
+python3dist-verboselogs"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

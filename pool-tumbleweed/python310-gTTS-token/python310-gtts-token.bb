@@ -11,11 +11,11 @@ RPM_HASH = "cf78c8d44ac08e5920510d48eaf3e2ce609d2edb673f0b4d17b17cc9d75d34d4b205
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gTTS-token \
-python3.10dist(gtts-token) \
+python3.10dist-gtts-token \
 python310-gTTS-token \
-python3dist(gtts-token)"
+python3dist-gtts-token"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

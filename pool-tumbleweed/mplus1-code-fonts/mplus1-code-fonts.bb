@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mplus1-code-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

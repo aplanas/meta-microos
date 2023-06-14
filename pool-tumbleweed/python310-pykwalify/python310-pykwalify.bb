@@ -13,13 +13,13 @@ RPM_HASH = "4f17164a04ad27930cb450a70fa7bb52e9d625251900ff4058b790581034fb34c5af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pykwalify \
-python3.10dist(pykwalify) \
+python3.10dist-pykwalify \
 python310-pykwalify \
-python3dist(pykwalify)"
+python3dist-pykwalify"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-docopt \
 python310-python-dateutil \

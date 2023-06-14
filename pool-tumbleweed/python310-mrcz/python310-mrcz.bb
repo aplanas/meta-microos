@@ -13,11 +13,11 @@ RPM_HASH = "b8f9ae3e6b7da88bb2a6e2b1f079feea9f9d6d7ee353c2db7dcfef9b3a1f6585e17a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mrcz \
-python3.10dist(mrcz) \
+python3.10dist-mrcz \
 python310-mrcz \
-python3dist(mrcz)"
+python3dist-mrcz"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-blosc \
 python310-numpy"
 

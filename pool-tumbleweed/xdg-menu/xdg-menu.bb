@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "xdg-menu"
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 desktop-data \
-perl(Locale::gettext) \
+perl-Locale--gettext \
 perl-XML-Parser \
 xterm-bin"
 

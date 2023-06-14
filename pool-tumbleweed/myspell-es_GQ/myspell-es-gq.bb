@@ -8,10 +8,10 @@ RPM_NAME = "myspell-es_GQ-20221012-1.2.noarch.rpm"
 RPM_HASH = "c50b11fdf44ef93115b0fd3a021870da14e32c71e7c424c9cc3fb1434f6dd6929f4141317022981801529633b85809fa2d023aabcb1ac691169e10bed5a82a6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_GQ) \
-locale(seamonkey-spellchecker:es_GQ) \
+RPROVIDES:${PN} += "locale-libreoffice-es-GQ \
+locale-seamonkey-spellchecker-es-GQ \
 myspell-dictionary \
-myspell-es_GQ"
+myspell-es-GQ"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"

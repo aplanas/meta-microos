@@ -17,29 +17,26 @@ RPM_NAME = "libpurple-plugin-sipe-1.25.0-2.10.aarch64.rpm"
 RPM_HASH = "f3b583c9401fd4dd412ceef8900d9421f0d3dffa378cf91ee5d66b97c541550b6677a09321bd546878ad78c58f4b0d0258a05a808974049c91731ecb60da7941"
 
 RPROVIDES:${PN} += "libpurple-plugin-sipe \
-libpurple-plugin-sipe(aarch-64) \
-libsipe.so()(64bit)"
+libsipe.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libfarstream-0.2.so.5()(64bit) \
-libfreerdp-shadow-subsystem2.so.2()(64bit) \
-libfreerdp-shadow2.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmime-3.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstrtp-1.0.so.0()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libpurple.so.0()(64bit) \
-libsmime3.so()(64bit) \
-libwinpr2.so.2()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libfarstream-0.2.so.5 \
+libfreerdp-shadow-subsystem2.so.2 \
+libfreerdp-shadow2.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmime-3.0.so.0 \
+libgobject-2.0.so.0 \
+libgssapi-krb5.so.2 \
+libgstreamer-1.0.so.0 \
+libgstrtp-1.0.so.0 \
+libnspr4.so \
+libnss3.so \
+libpurple.so.0 \
+libsmime3.so \
+libwinpr2.so.2 \
+libxml2.so.2"
 
 inherit rpm

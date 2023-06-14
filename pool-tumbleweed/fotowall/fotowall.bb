@@ -15,31 +15,20 @@ PV = "1.0"
 RPM_NAME = "fotowall-1.0-4.15.aarch64.rpm"
 RPM_HASH = "3788c55416fccceaadc221cb6d2005a5354c30e6735f62069c882845d967abb48c394eb900cd18b340eea6bc2f82ab63d6773e0607f09b862d50b73f9ecebc19"
 
-RPROVIDES:${PN} += "application() \
-application(fotowall.desktop) \
-fotowall \
-fotowall(aarch-64)"
+RPROVIDES:${PN} += "fotowall"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5OpenGL.so.5()(64bit) \
-libQt5OpenGL.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5OpenGL.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

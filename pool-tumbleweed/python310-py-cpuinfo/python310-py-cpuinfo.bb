@@ -23,13 +23,13 @@ RPM_HASH = "d7f97f108e501c0a33fb64a62797d7153e99ae6d0d52b8d73edf2373a2b2340d6127
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py-cpuinfo \
-python3.10dist(py-cpuinfo) \
+python3.10dist-py-cpuinfo \
 python310-py-cpuinfo \
-python3dist(py-cpuinfo)"
+python3dist-py-cpuinfo"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

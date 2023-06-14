@@ -12,14 +12,13 @@ PV = "1.5"
 RPM_NAME = "gcab-1.5-1.5.aarch64.rpm"
 RPM_HASH = "88584747cf2dd81db0f460891691d0b9c7e13b088e53c989acc3369d521e79884a878f08af8f12cb8f2f15656da99f3dce299b530237c5bb1d83200497f89dbe"
 
-RPROVIDES:${PN} += "gcab \
-gcab(aarch-64)"
+RPROVIDES:${PN} += "gcab"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcab-1.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcab-1.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

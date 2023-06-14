@@ -12,7 +12,7 @@ RPM_NAME = "texlive-pictex2-2023.201.svn15878-51.1.noarch.rpm"
 RPM_HASH = "c5620eb92d20d6aa68f639b2c71c2cba17dcd43c85446fb5396e038d390f9ddf3fc36dacc84901e3e439026b06eb2917dbd7ebe949de55d244ed4aca8ebe9d18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pictex2.sty) \
+RPROVIDES:${PN} += "tex-pictex2.sty \
 texlive-pictex2"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pictex.sty) \
+tex-pictex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

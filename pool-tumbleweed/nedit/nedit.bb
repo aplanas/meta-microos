@@ -10,33 +10,15 @@ PV = "5.7"
 RPM_NAME = "nedit-5.7-2.26.aarch64.rpm"
 RPM_HASH = "1ea84cd59ef858dec22000d741f56733778f5ffdc7901dfb0344f7dd4fa2ade9eb4290c3cd71a743d49b0134e7fe127dbc22e5ce345d222f70cc04b9c38ab763"
 
-RPROVIDES:${PN} += "application() \
-application(nedit.desktop) \
-mimehandler(application/x-shellscript) \
-mimehandler(text/english) \
-mimehandler(text/plain) \
-mimehandler(text/x-c) \
-mimehandler(text/x-c++) \
-mimehandler(text/x-c++hdr) \
-mimehandler(text/x-c++src) \
-mimehandler(text/x-chdr) \
-mimehandler(text/x-csrc) \
-mimehandler(text/x-java) \
-mimehandler(text/x-makefile) \
-mimehandler(text/x-moc) \
-mimehandler(text/x-pascal) \
-mimehandler(text/x-tcl) \
-mimehandler(text/x-tex) \
-nedit \
-nedit(aarch-64)"
+RPROVIDES:${PN} += "nedit"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXm.so.4()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXm.so.4 \
+libXt.so.6 \
+libc.so.6 \
+libm.so.6 \
 update-desktop-files"
 
 inherit rpm

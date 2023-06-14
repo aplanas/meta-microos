@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "superlu-gnu-hpc-examples"
 
 RDEPENDS:${PN} += "/bin/sh \
-superlu_6_0_0-gnu-hpc-examples"
+superlu-6-0-0-gnu-hpc-examples"
 
 inherit rpm

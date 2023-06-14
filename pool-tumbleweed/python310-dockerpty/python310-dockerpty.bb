@@ -10,11 +10,11 @@ RPM_HASH = "ef9db585757dd875310ba973bb9eefa118c4dadb058d099e99e85ff830e5291a7764
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dockerpty \
-python3.10dist(dockerpty) \
+python3.10dist-dockerpty \
 python310-dockerpty \
-python3dist(dockerpty)"
+python3dist-dockerpty"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-docker \
 python310-six"
 

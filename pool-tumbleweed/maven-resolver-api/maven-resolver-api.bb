@@ -9,11 +9,11 @@ RPM_HASH = "a0f56f5adfe98559512ec1638a6860922ce2b81b3b143bf86557532bdcefaa907dc7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-api \
-mvn(org.apache.maven.resolver:maven-resolver-api) \
-mvn(org.apache.maven.resolver:maven-resolver-api:pom:) \
-mvn(org.eclipse.aether:aether-api) \
-mvn(org.eclipse.aether:aether-api:pom:) \
-osgi(org.apache.maven.resolver.api)"
+mvn-org.apache.maven.resolver-maven-resolver-api \
+mvn-org.apache.maven.resolver-maven-resolver-api-pom- \
+mvn-org.eclipse.aether-aether-api \
+mvn-org.eclipse.aether-aether-api-pom- \
+osgi-org.apache.maven.resolver.api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

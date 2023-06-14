@@ -10,15 +10,14 @@ PV = "2.0.2"
 RPM_NAME = "python39-greenlet-2.0.2-1.1.aarch64.rpm"
 RPM_HASH = "34e012263e2c1007ef60b1c6c9ce698ac96757ba7c1b9bbf9e0574057374502e971d686374770adac005ea0e44c089ec426dacd35ac1537bd44c4f4dad6c1f5c"
 
-RPROVIDES:${PN} += "python3.9dist(greenlet) \
+RPROVIDES:${PN} += "python3.9dist-greenlet \
 python39-greenlet \
-python39-greenlet(aarch-64) \
-python3dist(greenlet)"
+python3dist-greenlet"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

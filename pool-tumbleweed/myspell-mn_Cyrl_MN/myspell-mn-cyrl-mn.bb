@@ -8,12 +8,12 @@ RPM_NAME = "myspell-mn_Cyrl_MN-20221012-1.2.noarch.rpm"
 RPM_HASH = "b1f77be0f51e946cef19ee0d0eb713645294bb23eb72ed42ccdf4f67ba8bc1828a1bc13c6521d6fcf436d01b5537562efe448dffa75c65c522c8a22c4de2977b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:mn_Cyrl_MN) \
-locale(seamonkey-spellchecker:mn_Cyrl_MN) \
+RPROVIDES:${PN} += "locale-libreoffice-mn-Cyrl-MN \
+locale-seamonkey-spellchecker-mn-Cyrl-MN \
 myspell-dictionary \
-myspell-mn_Cyrl_MN"
+myspell-mn-Cyrl-MN"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
-myspell-mn_MN"
+myspell-mn-MN"
 
 inherit rpm

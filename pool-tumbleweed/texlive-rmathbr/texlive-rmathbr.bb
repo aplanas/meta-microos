@@ -14,7 +14,7 @@ RPM_NAME = "texlive-rmathbr-2023.201.1.1.1svn57173-53.1.noarch.rpm"
 RPM_HASH = "8cd1bc6607c3d71d3a6f40b26da9299cb113123d601b4f7687c461fb27b75c1f1cad0470eb2835ac41c3feb2aee7d7b35cb16c3058e49ec202691456be3c10b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rmathbr.sty) \
+RPROVIDES:${PN} += "tex-rmathbr.sty \
 texlive-rmathbr"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,10 +23,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(ifetex.sty) \
-tex(ifluatex.sty) \
-tex(xkeyval.sty) \
+tex-expl3.sty \
+tex-ifetex.sty \
+tex-ifluatex.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

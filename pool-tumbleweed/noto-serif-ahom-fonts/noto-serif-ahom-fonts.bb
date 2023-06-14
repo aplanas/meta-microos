@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-ahom \
 noto-serif-ahom-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

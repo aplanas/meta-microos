@@ -13,12 +13,12 @@ RPM_HASH = "d2ad0e2be2e40dace92cbfb1b54d336c3882ad102d9d1aa0f11710d8be00116b1c8c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certifi \
-python3.10dist(certifi) \
+python3.10dist-certifi \
 python310-certifi \
-python3dist(certifi)"
+python3dist-certifi"
 
 RDEPENDS:${PN} += "ca-certificates \
 ca-certificates-mozilla \
-python(abi)"
+python-abi"
 
 inherit rpm

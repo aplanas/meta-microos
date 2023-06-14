@@ -11,14 +11,14 @@ RPM_HASH = "da0b2b8db2e7d891219d8273f655dec69bd2c0106642086b260625dec740c31973ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2 \
-mvn(org.glassfish.hk2:hk2-bom:pom:) \
-mvn(org.glassfish.hk2:hk2-parent:pom:)"
+mvn-org.glassfish.hk2-hk2-bom-pom- \
+mvn-org.glassfish.hk2-hk2-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.felix:maven-bundle-plugin) \
-mvn(org.apache.maven.plugins:maven-compiler-plugin) \
-mvn(org.apache.maven.plugins:maven-jar-plugin) \
-mvn(org.apache.maven.plugins:maven-surefire-plugin)"
+mvn-org.apache.felix-maven-bundle-plugin \
+mvn-org.apache.maven.plugins-maven-compiler-plugin \
+mvn-org.apache.maven.plugins-maven-jar-plugin \
+mvn-org.apache.maven.plugins-maven-surefire-plugin"
 
 inherit rpm

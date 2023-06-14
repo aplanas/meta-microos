@@ -12,10 +12,10 @@ RPM_HASH = "dd1165dbc7192ad041729ad818bf7383a4d04a7e1abe56b3643da4c1374c5de66157
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-XStatic-tv4 \
-python3.10dist(xstatic-tv4) \
+python3.10dist-xstatic-tv4 \
 python310-XStatic-tv4 \
-python3dist(xstatic-tv4)"
+python3dist-xstatic-tv4"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

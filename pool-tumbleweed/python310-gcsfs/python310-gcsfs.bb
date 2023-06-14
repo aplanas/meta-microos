@@ -9,11 +9,11 @@ RPM_HASH = "1939151b702c4ecf332a1c3516982b0e50e4163d5cb4dcba8e5b27b58117a6909ca6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gcsfs \
-python3.10dist(gcsfs) \
+python3.10dist-gcsfs \
 python310-gcsfs \
-python3dist(gcsfs)"
+python3dist-gcsfs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aiohttp \
 python310-decorator \
 python310-fsspec \

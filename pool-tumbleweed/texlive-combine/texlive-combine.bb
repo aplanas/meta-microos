@@ -13,10 +13,10 @@ RPM_NAME = "texlive-combine-2023.201.0.0.7asvn19361-53.1.noarch.rpm"
 RPM_HASH = "0a46e5c482cb9bdc68614ad73850f67a6755185d0b683acfbd516a83475db3b4520501416c94a0186f204d1750108f9af0de5d604bd37a7c434cadcb6671373d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(combcite.sty) \
-tex(combine.cls) \
-tex(combinet.sty) \
-tex(combnat.sty) \
+RPROVIDES:${PN} += "tex-combcite.sty \
+tex-combine.cls \
+tex-combinet.sty \
+tex-combnat.sty \
 texlive-combine"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(cite.sty) \
-tex(keyval.sty) \
-tex(natbib.sty) \
+tex-cite.sty \
+tex-keyval.sty \
+tex-natbib.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

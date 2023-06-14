@@ -9,9 +9,8 @@ PV = "5.106.0"
 RPM_NAME = "knewstuff-quick-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "f56ead5a10cb7139811192ca9d33611fcd73d3ac0c123cea9de276d2096bc15ea021263f0ff78f351c6067f24e60f32f5e66d996c527fae2b79510306a702c49"
 
-RPROVIDES:${PN} += "cmake(KF5NewStuffQuick) \
-knewstuff-quick-devel \
-knewstuff-quick-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5NewStuffQuick \
+knewstuff-quick-devel"
 
 RDEPENDS:${PN} += "extra-cmake-modules \
 knewstuff-core-devel \

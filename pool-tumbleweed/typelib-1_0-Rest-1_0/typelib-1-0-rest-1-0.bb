@@ -12,16 +12,15 @@ PV = "0.9.1"
 RPM_NAME = "typelib-1_0-Rest-1_0-0.9.1-3.1.aarch64.rpm"
 RPM_HASH = "c862b4eb987293aa0cb3ea37c4821a75b90a48ea640ed503842aeb638d8b2eb2213eeb20762917f2dbc0d87c230819ff6f5a2ec68b50db111374b76022f310d6"
 
-RPROVIDES:${PN} += "typelib(Rest) \
-typelib(RestExtras) \
-typelib-1_0-Rest-1_0 \
-typelib-1_0-Rest-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Rest-1-0 \
+typelib-Rest \
+typelib-RestExtras"
 
-RDEPENDS:${PN} += "librest-1.0.so.0()(64bit) \
-librest-extras-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Soup)"
+RDEPENDS:${PN} += "librest-1.0.so.0 \
+librest-extras-1.0.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-Soup"
 
 inherit rpm

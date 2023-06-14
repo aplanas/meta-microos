@@ -10,30 +10,30 @@ RPM_HASH = "c1b9acb3dce3f7d09436701ff753f9cc37eee129b592759270b080a52452d2dd3d7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openstack-macros \
-rpm_macro(_defaultlicensedir) \
-rpm_macro(apache_conf_dir) \
-rpm_macro(apache_group) \
-rpm_macro(apache_name) \
-rpm_macro(apache_site_dir) \
-rpm_macro(apache_user) \
-rpm_macro(gpgverify) \
-rpm_macro(http_dashboard_dir) \
-rpm_macro(openstack_pre_user_group_create) \
-rpm_macro(openstack_stestr_run) \
-rpm_macro(openstack_test_package_dir) \
-rpm_macro(openstack_test_package_install) \
-rpm_macro(py2_build) \
-rpm_macro(py2_entrypoint) \
-rpm_macro(py2_install) \
-rpm_macro(py2_shbang_opts) \
-rpm_macro(py_build) \
-rpm_macro(py_req_cleanup) \
-rpm_macro(py_setup) \
-rpm_macro(py_shbang_opts) \
-rpm_macro(pycached) \
-rpm_macro(python2_sitearch) \
-rpm_macro(python2_sitelib) \
-rpm_macro(sphinx_build)"
+rpm-macro--defaultlicensedir \
+rpm-macro-apache-conf-dir \
+rpm-macro-apache-group \
+rpm-macro-apache-name \
+rpm-macro-apache-site-dir \
+rpm-macro-apache-user \
+rpm-macro-gpgverify \
+rpm-macro-http-dashboard-dir \
+rpm-macro-openstack-pre-user-group-create \
+rpm-macro-openstack-stestr-run \
+rpm-macro-openstack-test-package-dir \
+rpm-macro-openstack-test-package-install \
+rpm-macro-py-build \
+rpm-macro-py-req-cleanup \
+rpm-macro-py-setup \
+rpm-macro-py-shbang-opts \
+rpm-macro-py2-build \
+rpm-macro-py2-entrypoint \
+rpm-macro-py2-install \
+rpm-macro-py2-shbang-opts \
+rpm-macro-pycached \
+rpm-macro-python2-sitearch \
+rpm-macro-python2-sitelib \
+rpm-macro-sphinx-build"
 
 RDEPENDS:${PN} += ""
 

@@ -8,9 +8,8 @@ PV = "0.90.0"
 RPM_NAME = "sysconfig-0.90.0-3.2.aarch64.rpm"
 RPM_HASH = "69a02a387033c1034cc37ded3fd9a273624bf5a36badeb3729a2b33074d8b7f364aea10a92a568996a7427449766a9f1a3abb6f38ada227e84d57fe867f74f3b"
 
-RPROVIDES:${PN} += "config(sysconfig) \
-sysconfig \
-sysconfig(aarch-64)"
+RPROVIDES:${PN} += "config-sysconfig \
+sysconfig"
 
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \

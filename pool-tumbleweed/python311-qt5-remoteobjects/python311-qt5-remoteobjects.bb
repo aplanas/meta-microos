@@ -9,17 +9,14 @@ PV = "5.15.9"
 RPM_NAME = "python311-qt5-remoteobjects-5.15.9-1.4.aarch64.rpm"
 RPM_HASH = "8aea7b4f6537e4ef00fa6e43b77a9b9a62ddcf1822b2cdd776021a5827514430515968026791ec318b7e3721d5b719c9a6d93682888986f7b3a55e9a9dc39f40"
 
-RPROVIDES:${PN} += "python311-qt5-remoteobjects \
-python311-qt5-remoteobjects(aarch-64)"
+RPROVIDES:${PN} += "python311-qt5-remoteobjects"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5RemoteObjects.so.5()(64bit) \
-libQt5RemoteObjects.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5RemoteObjects.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python311-qt5"
 
 inherit rpm

@@ -10,10 +10,10 @@ RPM_HASH = "c1b3b18d0c44c712dcacc2c4f92b9ad997bcf3f1916631c879bec29af6eaa914855b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-glib \
-python3.10dist(avocado-framework-plugin-glib) \
-python3dist(avocado-framework-plugin-glib)"
+python3.10dist-avocado-framework-plugin-glib \
+python3dist-avocado-framework-plugin-glib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-avocado"
 
 inherit rpm

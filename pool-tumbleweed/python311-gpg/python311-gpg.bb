@@ -12,14 +12,13 @@ PV = "1.20.0"
 RPM_NAME = "python311-gpg-1.20.0-1.1.aarch64.rpm"
 RPM_HASH = "f71770e60e78a17dad7bbe8047070db3cd20a32b007084dbe45a6d280d93d836e5b1710dc5ef15a2a551b954f3ef48b3339e9358bda439fb573d73931e9a3e60"
 
-RPROVIDES:${PN} += "python3.11dist(gpg) \
+RPROVIDES:${PN} += "python3.11dist-gpg \
 python311-gpg \
-python311-gpg(aarch-64) \
-python3dist(gpg)"
+python3dist-gpg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgpgme.so.11()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgpgme.so.11 \
+python-abi"
 
 inherit rpm

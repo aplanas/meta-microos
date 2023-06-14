@@ -8,12 +8,11 @@ PV = "0.6.0"
 RPM_NAME = "rtl-sdr-0.6.0-2.8.aarch64.rpm"
 RPM_HASH = "e643d9ad08f278bf7fdc5dbcc64ccf7e9fbbf2bc8ac3250d14b5a647535bca39e22dbaa6294343326f9afc1ae44865651dfed1c84b8315f014227ebb358d192e"
 
-RPROVIDES:${PN} += "rtl-sdr \
-rtl-sdr(aarch-64)"
+RPROVIDES:${PN} += "rtl-sdr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-librtlsdr.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+librtlsdr.so.0"
 
 inherit rpm

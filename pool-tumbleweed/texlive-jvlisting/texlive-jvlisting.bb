@@ -16,7 +16,7 @@ RPM_NAME = "texlive-jvlisting-2023.201.0.0.7svn24638-55.1.noarch.rpm"
 RPM_HASH = "cfa181bc40f68040bffebe9246d32a5cf74cbd1516f8fa8045276b1d04abf70c4e7d446431d6ff5164b83045036bfebb58f6a5dab5fdd8bd3b7eea244d26b893"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(jvlisting.sty) \
+RPROVIDES:${PN} += "tex-jvlisting.sty \
 texlive-jvlisting"
 
 RDEPENDS:${PN} += "/bin/sh \

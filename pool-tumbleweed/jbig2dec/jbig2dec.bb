@@ -9,13 +9,11 @@ PV = "0.19"
 RPM_NAME = "jbig2dec-0.19-1.11.aarch64.rpm"
 RPM_HASH = "7435d5d9dd569e4de415800972064c5c46eab6910740b42c88ea2888e616d3b3be9849c241462d6f907f24466e98f2e6d1921d41289fbd687ee9467cc9faa596"
 
-RPROVIDES:${PN} += "jbig2dec \
-jbig2dec(aarch-64)"
+RPROVIDES:${PN} += "jbig2dec"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjbig2dec.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjbig2dec.so.0 \
+libpng16.so.16"
 
 inherit rpm

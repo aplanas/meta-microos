@@ -14,13 +14,12 @@ RPM_NAME = "libsigrokdecode-devel-0.5.3-2.4.aarch64.rpm"
 RPM_HASH = "b23b81783a357514efd335aaf6f17c3023c0a334978e633609eb17edff2e0908b2a563d634de27880eae7849c07cb6a607f8b63508d32187203b6b759dd31ea3"
 
 RPROVIDES:${PN} += "libsigrokdecode-devel \
-libsigrokdecode-devel(aarch-64) \
-pkgconfig(libsigrokdecode)"
+pkgconfig-libsigrokdecode"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsigrokdecode4 \
-pkgconfig(glib-2.0) \
-pkgconfig(python3-embed) \
+pkgconfig-glib-2.0 \
+pkgconfig-python3-embed \
 python3-devel"
 
 inherit rpm

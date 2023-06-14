@@ -9,7 +9,7 @@ RPM_HASH = "65934b33ef66982a95e940c9b8debb60bcdaec8f2c95388fac7551d16b5a586a554a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-vfs2-ant \
-config(apache-commons-vfs2-ant)"
+config-apache-commons-vfs2-ant"
 
 RDEPENDS:${PN} += "apache-commons-vfs2"
 

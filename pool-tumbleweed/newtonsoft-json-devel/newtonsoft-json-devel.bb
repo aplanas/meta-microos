@@ -9,7 +9,7 @@ RPM_HASH = "e5dee5ddaa5b9447560d99023fa9e9d5293ef6659726115ee17646b14af21ce43259
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "newtonsoft-json-devel \
-pkgconfig(newtonsoft-json)"
+pkgconfig-newtonsoft-json"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 newtonsoft-json"

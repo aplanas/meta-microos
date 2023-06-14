@@ -33,13 +33,13 @@ RPM_NAME = "perl-Path-Tiny-0.144-1.2.noarch.rpm"
 RPM_HASH = "70ee9c18f833a7990ecc28a355c2979f248f55c4c091532f39e6675e3fdd39860cf4b4446e871002bf3411431c188c0b2a0151397184c7e2aa14bb12aa9bfab9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Path::Tiny) \
-perl(Path::Tiny::Error) \
+RPROVIDES:${PN} += "perl-Path--Tiny \
+perl-Path--Tiny--Error \
 perl-Path-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Digest::SHA) \
-perl(File::Path) \
-perl(File::Temp)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Digest--SHA \
+perl-File--Path \
+perl-File--Temp"
 
 inherit rpm

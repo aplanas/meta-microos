@@ -9,7 +9,7 @@ RPM_NAME = "texlive-collection-xetex-2023.208.svn64951-58.1.noarch.rpm"
 RPM_HASH = "41e54ead55b9fc7a8446278a70615d30791f4e64cf90452bbf82beeb2a42257bd0b06d8814971f1553b02eb36694e467177ca324ecf2164b54360cce394f984f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xetex) \
+RPROVIDES:${PN} += "tex-xetex \
 texlive-collection-xetex"
 
 RDEPENDS:${PN} += "texlive-arabxetex \

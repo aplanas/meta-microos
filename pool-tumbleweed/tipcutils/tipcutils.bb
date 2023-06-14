@@ -13,13 +13,12 @@ PV = "3.0.6"
 RPM_NAME = "tipcutils-3.0.6-1.2.aarch64.rpm"
 RPM_HASH = "fab3c4a2fa41f2f48a5451cea2f49384b92201a00aff5cf5f616ad2274170b7a1368fbf858fa6330c2aaca11cab962c842207e2299ceb680f4fd129f188d3a5a"
 
-RPROVIDES:${PN} += "tipcutils \
-tipcutils(aarch-64)"
+RPROVIDES:${PN} += "tipcutils"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdaemon.so.0()(64bit) \
-libmnl.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdaemon.so.0 \
+libmnl.so.0"
 
 inherit rpm

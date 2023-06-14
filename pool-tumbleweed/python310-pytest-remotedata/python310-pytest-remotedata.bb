@@ -10,11 +10,11 @@ RPM_HASH = "182ad86509081744f92b5dd8c6d49cb3f04cbcae31dee8075f7b956f90399cd98d03
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-remotedata \
-python3.10dist(pytest-remotedata) \
+python3.10dist-pytest-remotedata \
 python310-pytest-remotedata \
-python3dist(pytest-remotedata)"
+python3dist-pytest-remotedata"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-packaging \
 python310-pytest"
 

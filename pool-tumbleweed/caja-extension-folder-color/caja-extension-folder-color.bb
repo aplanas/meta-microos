@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-folder-color \
 folder-color-caja \
-python3.10dist(folder-color-caja) \
-python3dist(folder-color-caja)"
+python3.10dist-folder-color-caja \
+python3dist-folder-color-caja"
 
 RDEPENDS:${PN} += "caja \
 folder-color-common \

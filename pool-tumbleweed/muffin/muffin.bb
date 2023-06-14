@@ -8,43 +8,40 @@ PV = "5.2.1"
 RPM_NAME = "muffin-5.2.1-1.1.aarch64.rpm"
 RPM_HASH = "6ac300e8a7423949fae58206bd1dad6f6b7870b0f871547ca9118e1411a5683ac6d80bb549a707dd0af51a175c820c1f08581fa7e1b1fa8ba9a440553e6f88ea"
 
-RPROVIDES:${PN} += "application() \
-application(muffin.desktop) \
-libmuffin-clutter-0.so()(64bit) \
-libmuffin-cogl-0.so()(64bit) \
-libmuffin-cogl-pango-0.so()(64bit) \
-libmuffin-cogl-path-0.so()(64bit) \
+RPROVIDES:${PN} += "libmuffin-clutter-0.so \
+libmuffin-cogl-0.so \
+libmuffin-cogl-pango-0.so \
+libmuffin-cogl-path-0.so \
 muffin \
-muffin(aarch-64) \
 windowmanager"
 
 RDEPENDS:${PN} += "cinnamon-gschemas \
-ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libXtst.so.6()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmuffin.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpangoft2-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libXrandr.so.2 \
+libXtst.so.6 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libfontconfig.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjson-glib-1.0.so.0 \
+libm.so.6 \
+libmuffin.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpangoft2-1.0.so.0 \
 zenity"
 
 inherit rpm

@@ -11,12 +11,11 @@ PV = "1.9.2"
 RPM_NAME = "scheme48-1.9.2-2.18.aarch64.rpm"
 RPM_HASH = "6ff81b4986c8366f76d204ff54c973b5fee3787d187bffbe1bdaff700362c9b10ecbf6f206d18e137de92886bc187037c395184034861cfbfb27b71e185faa2b"
 
-RPROVIDES:${PN} += "scheme48 \
-scheme48(aarch-64)"
+RPROVIDES:${PN} += "scheme48"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 scheme48-vm"
 
 inherit rpm

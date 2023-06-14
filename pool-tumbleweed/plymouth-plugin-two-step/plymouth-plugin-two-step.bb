@@ -10,17 +10,16 @@ PV = "22.02.122+94.4bd41a3"
 RPM_NAME = "plymouth-plugin-two-step-22.02.122+94.4bd41a3-5.1.aarch64.rpm"
 RPM_HASH = "f56b6e62577932193d09848c7da2215b1140018d35bd48d826d8ab16486f6cb72f9f3e4eacd01e6c863dc8de2505593e6f40342bedba333fcef49dd3f969d1b0"
 
-RPROVIDES:${PN} += "plymouth-plugin-two-step \
-plymouth-plugin-two-step(aarch-64)"
+RPROVIDES:${PN} += "plymouth-plugin-two-step"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libply-splash-core.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libply-splash-core.so.5 \
 libply-splash-core5 \
-libply-splash-graphics.so.5()(64bit) \
+libply-splash-graphics.so.5 \
 libply-splash-graphics5 \
-libply.so.5()(64bit) \
+libply.so.5 \
 libply5 \
 plymouth-plugin-label"
 

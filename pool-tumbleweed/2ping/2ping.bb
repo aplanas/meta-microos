@@ -11,12 +11,12 @@ RPM_HASH = "0201ab4add472c058d2379ad105ec489803cad9e47c5c17000b5234c7777b5c967b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "2ping \
-python3.10dist(2ping) \
-python3dist(2ping)"
+python3.10dist-2ping \
+python3dist-2ping"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3 \
 systemd"
 

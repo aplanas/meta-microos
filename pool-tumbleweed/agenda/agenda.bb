@@ -8,21 +8,16 @@ RPM_NAME = "agenda-1.1.2-1.10.aarch64.rpm"
 RPM_HASH = "a8cbc4c610cf5b9619b202f08aa21c18819ef39819ecdefcbf192abd27761af76c72597ff12892e6597cc893aab46f0cb2ec2e014298a87248a667fd29b9cde9"
 
 RPROVIDES:${PN} += "agenda \
-agenda(aarch-64) \
-agenda-tasks \
-application() \
-application(com.github.dahenson.agenda.desktop) \
-metainfo() \
-metainfo(com.github.dahenson.agenda.appdata.xml)"
+agenda-tasks"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgee-0.8.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgranite.so.6()(64bit) \
-libgtk-3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgee-0.8.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgranite.so.6 \
+libgtk-3.so.0"
 
 inherit rpm

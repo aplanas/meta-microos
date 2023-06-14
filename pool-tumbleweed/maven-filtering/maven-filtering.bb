@@ -11,20 +11,20 @@ RPM_HASH = "73e2c7c11c8190f85dd7dd9d9b3149dd313d41df0bd4becca3b16e3891203a13ac4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-filtering \
-mvn(org.apache.maven.shared:maven-filtering) \
-mvn(org.apache.maven.shared:maven-filtering:pom:)"
+mvn-org.apache.maven.shared-maven-filtering \
+mvn-org.apache.maven.shared-maven-filtering-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-settings) \
-mvn(org.codehaus.plexus:plexus-component-annotations) \
-mvn(org.codehaus.plexus:plexus-interpolation) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.eclipse.sisu:org.eclipse.sisu.plexus) \
-mvn(org.sonatype.plexus:plexus-build-api)"
+mvn-commons-io-commons-io \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-settings \
+mvn-org.apache.maven.shared-maven-shared-utils \
+mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-interpolation \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.eclipse.sisu-org.eclipse.sisu.plexus \
+mvn-org.sonatype.plexus-plexus-build-api"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_HASH = "87d396b396e754a3b4172a1d8246afacde46b297db1a12fc90cee7668e3bb4149c87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyOpenAL \
-python3.10dist(pyopenal) \
+python3.10dist-pyopenal \
 python310-PyOpenAL \
-python3dist(pyopenal)"
+python3dist-pyopenal"
 
 RDEPENDS:${PN} += "libopenal1 \
-python(abi)"
+python-abi"
 
 inherit rpm

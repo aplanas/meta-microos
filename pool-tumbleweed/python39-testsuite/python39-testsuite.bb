@@ -9,14 +9,13 @@ PV = "3.9.16"
 RPM_NAME = "python39-testsuite-3.9.16-8.1.aarch64.rpm"
 RPM_HASH = "c070d3462c423e05a8716689022197cbcd15311773d2871f21ce0113744402bca3a4a090f1a66f2b29e185189b61f5b8863004d611a193368391509fe68e1f9a"
 
-RPROVIDES:${PN} += "python39-testsuite \
-python39-testsuite(aarch-64)"
+RPROVIDES:${PN} += "python39-testsuite"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+python-abi \
 python39 \
 python39-tk"
 

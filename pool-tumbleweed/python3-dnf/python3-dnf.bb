@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3-dnf"
 RDEPENDS:${PN} += "/usr/bin/python3 \
 deltarpm \
 dnf-data \
-python(abi) \
+python-abi \
 python3-curses \
 python3-gpg \
 python3-hawkey \

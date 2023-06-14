@@ -38,13 +38,12 @@ RPM_NAME = "ruby3.2-rubygem-inifile-3.0.0-1.31.aarch64.rpm"
 RPM_HASH = "0301a8cf9dabbacfbed0f61f4c47fa423d49e9481b8ce0a865cab86fb835a944e944f6effed1f85e7d6fa104cf5e1c314cea185d3be0593be4591867cb9ed563"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-inifile \
-ruby3.2-rubygem-inifile(aarch-64) \
-rubygem(inifile) \
-rubygem(ruby:3.2.0:inifile) \
-rubygem(ruby:3.2.0:inifile:3) \
-rubygem(ruby:3.2.0:inifile:3.0) \
-rubygem(ruby:3.2.0:inifile:3.0.0)"
+rubygem-inifile \
+rubygem-ruby-3.2.0-inifile \
+rubygem-ruby-3.2.0-inifile-3 \
+rubygem-ruby-3.2.0-inifile-3.0 \
+rubygem-ruby-3.2.0-inifile-3.0.0"
 
-RDEPENDS:${PN} += "ruby(abi)"
+RDEPENDS:${PN} += "ruby-abi"
 
 inherit rpm

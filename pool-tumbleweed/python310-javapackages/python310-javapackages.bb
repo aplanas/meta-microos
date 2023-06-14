@@ -10,11 +10,11 @@ RPM_HASH = "8f5cba484b88a2ae8dd81f8fda67afc1b89b1b7545385f2b794a11953260cab273bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-javapackages \
-python3.10dist(javapackages) \
+python3.10dist-javapackages \
 python310-javapackages \
-python3dist(javapackages)"
+python3dist-javapackages"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-xml"
 

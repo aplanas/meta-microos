@@ -37,9 +37,9 @@ RPM_NAME = "perl-IPC-System-Simple-1.30-1.13.noarch.rpm"
 RPM_HASH = "e2a66180ea5fe94a9a42912c9e99c8d6b72f9ecd843fd296f55e70489ebe68bf8346f0302bb6f11b93c3170c1d8696bf0b337bde489eb8260dab629ea65287e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IPC::System::Simple) \
+RPROVIDES:${PN} += "perl-IPC--System--Simple \
 perl-IPC-System-Simple"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

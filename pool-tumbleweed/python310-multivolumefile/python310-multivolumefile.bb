@@ -10,10 +10,10 @@ RPM_HASH = "5134142d25ae1138157d40941ef4b437a4ee82dc84a74e12db5c274ca897a754c20c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-multivolumefile \
-python3.10dist(multivolumefile) \
+python3.10dist-multivolumefile \
 python310-multivolumefile \
-python3dist(multivolumefile)"
+python3dist-multivolumefile"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

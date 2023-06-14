@@ -12,9 +12,9 @@ RPM_NAME = "obs-service-source_validator-0.30-1.1.noarch.rpm"
 RPM_HASH = "91a88c1d2adc0dbce735adf094d9f164b39bdce6d189b07fd7692884c1e66091894e49d7495b3fc9fe3cfedce2fbeb2430b0ee518418fcdf7445648a887a28a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "obs-service-source_validator \
-osc-source_validator \
-perl(DebianSourceChangesValidator)"
+RPROVIDES:${PN} += "obs-service-source-validator \
+osc-source-validator \
+perl-DebianSourceChangesValidator"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \

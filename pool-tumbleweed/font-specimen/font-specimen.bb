@@ -9,11 +9,10 @@ PV = "20150202"
 RPM_NAME = "font-specimen-20150202-3.17.aarch64.rpm"
 RPM_HASH = "4328e1b6042e775b0a3cac7b450caf3545ad516541d1b4aabc805ad31361274344e9cceb2f152fb0467e66fa42cbe8c6bbc5cbcd795ec755d3ac90b9168e46b7"
 
-RPROVIDES:${PN} += "font-specimen \
-font-specimen(aarch-64)"
+RPROVIDES:${PN} += "font-specimen"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfont-specimen.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfont-specimen.so.0"
 
 inherit rpm

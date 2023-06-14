@@ -8,22 +8,18 @@ PV = "5.15.5"
 RPM_NAME = "python39-qtdatavis3d-qt5-5.15.5-1.5.aarch64.rpm"
 RPM_HASH = "a8c956bad5b18436742dcf3fce5ccbe3d69ddc3591239bc8088dd01150cff7035a492fa81389cb0c730fb5352c1c75658b3edc799022306b122e79f142fcf66b"
 
-RPROVIDES:${PN} += "python3.9dist(pyqtdatavisualization) \
+RPROVIDES:${PN} += "python3.9dist-pyqtdatavisualization \
 python39-PyQtDataVisualization \
 python39-qtdatavis3d-qt5 \
-python39-qtdatavis3d-qt5(aarch-64) \
-python3dist(pyqtdatavisualization)"
+python3dist-pyqtdatavisualization"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DataVisualization.so.5()(64bit) \
-libQt5DataVisualization.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DataVisualization.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-qt5 \
 python39-qt5-sip"
 

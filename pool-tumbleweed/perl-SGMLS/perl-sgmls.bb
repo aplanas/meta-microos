@@ -9,18 +9,16 @@ PV = "1.1"
 RPM_NAME = "perl-SGMLS-1.1-1.17.aarch64.rpm"
 RPM_HASH = "92942f49bb30d141a62d18b46bfae3cba0e1e36a4db0df83941ead6b42daa15f0a4f1b50722ae2d846131f37d6762cc3fd3c05df4ab4ebb663deb7b837dd94d8"
 
-RPROVIDES:${PN} += "perl(SGMLS) \
-perl(SGMLS::Output) \
-perl(SGMLS::Refs) \
-perl(SGMLS_Attribute) \
-perl(SGMLS_Element) \
-perl(SGMLS_Entity) \
-perl(SGMLS_Event) \
-perl(SGMLS_Notation) \
-perl-SGMLS \
-perl-SGMLS(aarch-64)"
+RPROVIDES:${PN} += "perl-SGMLS \
+perl-SGMLS--Output \
+perl-SGMLS--Refs \
+perl-SGMLS-Attribute \
+perl-SGMLS-Element \
+perl-SGMLS-Entity \
+perl-SGMLS-Event \
+perl-SGMLS-Notation"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

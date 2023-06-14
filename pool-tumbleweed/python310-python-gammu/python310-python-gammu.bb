@@ -10,16 +10,15 @@ RPM_HASH = "e0f6dddc7450c41ddfacb7bef1278273573f5d46ee292a5ab0f9e07f012e755f009c
 
 RPROVIDES:${PN} += "python3-gammu \
 python3-python-gammu \
-python3.10dist(python-gammu) \
+python3.10dist-python-gammu \
 python310-gammu \
 python310-python-gammu \
-python310-python-gammu(aarch-64) \
-python3dist(python-gammu)"
+python3dist-python-gammu"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGammu.so.8()(64bit) \
-libc.so.6()(64bit) \
-libgsmsd.so.8()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGammu.so.8 \
+libc.so.6 \
+libgsmsd.so.8 \
+python-abi"
 
 inherit rpm

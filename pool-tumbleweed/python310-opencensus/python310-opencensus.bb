@@ -13,11 +13,11 @@ RPM_HASH = "231f935fc80cf64e9a58649d813290f0a2d06fdc702d48714497fb61c74ea81a9f63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opencensus \
-python3.10dist(opencensus) \
+python3.10dist-opencensus \
 python310-opencensus \
-python3dist(opencensus)"
+python3dist-opencensus"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-api-core \
 python310-opencensus-context"
 

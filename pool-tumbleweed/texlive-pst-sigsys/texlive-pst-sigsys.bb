@@ -16,8 +16,8 @@ RPM_NAME = "texlive-pst-sigsys-2023.201.1.4svn21667-53.1.noarch.rpm"
 RPM_HASH = "9741557ec8ff76e135c6e5b767d841393346db27eaff03b7c1adf534ec85e60168f6537d983068dcb897b804b865f19af8ea81d141d48f8274a681992b9014d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-sigsys.sty) \
-tex(pst-sigsys.tex) \
+RPROVIDES:${PN} += "tex-pst-sigsys.sty \
+tex-pst-sigsys.tex \
 texlive-pst-sigsys"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

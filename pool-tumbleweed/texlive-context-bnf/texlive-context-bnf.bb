@@ -14,7 +14,7 @@ RPM_NAME = "texlive-context-bnf-2023.204.svn47085-54.1.noarch.rpm"
 RPM_HASH = "0309d41fb1660086dcf25f45522435552d68f40befcadb966a7758565fe4f4c40f669a5a6588e477bc4f55a5184468c922fa6e480b8193cff74a7d8d56e3abcc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(t-bnf.tex) \
+RPROVIDES:${PN} += "tex-t-bnf.tex \
 texlive-context-bnf"
 
 RDEPENDS:${PN} += "/bin/sh \

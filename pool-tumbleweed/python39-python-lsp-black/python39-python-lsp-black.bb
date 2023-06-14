@@ -16,11 +16,11 @@ RPM_NAME = "python39-python-lsp-black-1.2.1-1.4.noarch.rpm"
 RPM_HASH = "96307f0b05114fdc4143a6477dc115b42405a59a82a17f33cc2e46f8e10dd33224b66dc3c1874cf65fc5f674af455e04ff8ecc77d0ff52b127037a4cb42ca375"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-lsp-black) \
+RPROVIDES:${PN} += "python3.9dist-python-lsp-black \
 python39-python-lsp-black \
-python3dist(python-lsp-black)"
+python3dist-python-lsp-black"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-black \
 python39-python-lsp-server \
 python39-toml"

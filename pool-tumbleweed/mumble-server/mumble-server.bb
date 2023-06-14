@@ -10,36 +10,28 @@ PV = "1.5.517"
 RPM_NAME = "mumble-server-1.5.517-1.1.aarch64.rpm"
 RPM_HASH = "401494ff00a0920e899c34f05d47fcbc98a423bf22bdd34f1dfd98bae9e85187204b0d073b4856ac5db84cc7c14d0d2a579076409fddc38d6ed387e8655d37d9"
 
-RPROVIDES:${PN} += "config(mumble-server) \
-group(_mumble-server) \
-metainfo() \
-metainfo(info.mumble.Mumble.appdata.xml) \
+RPROVIDES:${PN} += "config-mumble-server \
+group--mumble-server \
 mumble-server \
-mumble-server(aarch-64) \
-user(_mumble-server)"
+user--mumble-server"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/useradd \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libdns_sd.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Network.so.5 \
+libQt5Sql.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libdns-sd.so.1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libprotobuf-3.21.12.so \
+libssl.so.3 \
+libstdc++.so.6 \
 lsb-release \
 systemd"
 

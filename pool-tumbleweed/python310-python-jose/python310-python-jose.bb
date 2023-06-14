@@ -16,11 +16,11 @@ RPM_HASH = "4fb44e8c2fdc4a043c7db967b3dd73a6bcdbc26f6721c5d17bcca23e166dbe4db034
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-jose \
-python3.10dist(python-jose) \
+python3.10dist-python-jose \
 python310-python-jose \
-python3dist(python-jose)"
+python3dist-python-jose"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ecdsa \
 python310-pyasn1 \
 python310-rsa"

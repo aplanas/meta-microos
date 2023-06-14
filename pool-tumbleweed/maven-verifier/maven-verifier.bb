@@ -9,12 +9,12 @@ RPM_HASH = "ad9e68fc3da641aa385fe1d7115d9db659fe0aec25404aa6ac58012a4de015c996d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-verifier \
-mvn(org.apache.maven.shared:maven-verifier) \
-mvn(org.apache.maven.shared:maven-verifier:pom:)"
+mvn-org.apache.maven.shared-maven-verifier \
+mvn-org.apache.maven.shared-maven-verifier-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(junit:junit) \
-mvn(org.apache.maven.shared:maven-shared-utils)"
+mvn-junit-junit \
+mvn-org.apache.maven.shared-maven-shared-utils"
 
 inherit rpm

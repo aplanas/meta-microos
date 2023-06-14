@@ -11,11 +11,11 @@ RPM_HASH = "3876bf08755060f1e33b0f864e17d926ba05c8a14002a05e70fa2358584357be7fe9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-dj-inmemorystorage \
-python3.10dist(dj-inmemorystorage) \
+python3.10dist-dj-inmemorystorage \
 python310-django-dj-inmemorystorage \
-python3dist(dj-inmemorystorage)"
+python3dist-dj-inmemorystorage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-six"
 

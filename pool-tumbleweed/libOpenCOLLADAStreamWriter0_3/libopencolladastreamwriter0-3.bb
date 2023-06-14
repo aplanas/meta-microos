@@ -11,16 +11,15 @@ PV = "1.6.68"
 RPM_NAME = "libOpenCOLLADAStreamWriter0_3-1.6.68-1.12.aarch64.rpm"
 RPM_HASH = "0620203c2569eea5e392c7b476e2229e9b15d6546fbb472e66073ca0a1df4c5397ff076ccd8ac8ab8948f283d467a3e82fa861117646c6aa6fbfa614906dbd5c"
 
-RPROVIDES:${PN} += "libOpenCOLLADAStreamWriter.so.0.3()(64bit) \
-libOpenCOLLADAStreamWriter0_3 \
-libOpenCOLLADAStreamWriter0_3(aarch-64)"
+RPROVIDES:${PN} += "libOpenCOLLADAStreamWriter.so.0.3 \
+libOpenCOLLADAStreamWriter0-3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenCOLLADABaseUtils.so.0.3()(64bit) \
-libbuffer.so.0.3()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenCOLLADABaseUtils.so.0.3 \
+libbuffer.so.0.3 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

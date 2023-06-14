@@ -8,8 +8,7 @@ PV = "3.22.6.0"
 RPM_NAME = "inotify-tools-devel-3.22.6.0-1.4.aarch64.rpm"
 RPM_HASH = "f0c951a97137ab8800e9c09c37cb2643c53a63d964774460666516bd38465778429fdcc5e818f11fac073110c0dc84e35133d03a868aee9a788c6f9738a98aef"
 
-RPROVIDES:${PN} += "inotify-tools-devel \
-inotify-tools-devel(aarch-64)"
+RPROVIDES:${PN} += "inotify-tools-devel"
 
 RDEPENDS:${PN} += "libinotifytools0"
 

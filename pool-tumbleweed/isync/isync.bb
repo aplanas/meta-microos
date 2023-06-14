@@ -15,16 +15,15 @@ PV = "1.4.4"
 RPM_NAME = "isync-1.4.4-2.3.aarch64.rpm"
 RPM_HASH = "b22329ec1b7b401b743f3f54362fe3f32c14f7f05c47e1a2d3dbfdbe674baf4a83adfb212317a22ca05419511ef2633132c8e71f83e6badc817f8504bc61542c"
 
-RPROVIDES:${PN} += "isync \
-isync(aarch-64)"
+RPROVIDES:${PN} += "isync"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libdb-4.8.so()(64bit) \
-libsasl2.so.3()(64bit) \
-libssl.so.3()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libdb-4.8.so \
+libsasl2.so.3 \
+libssl.so.3 \
+libz.so.1"
 
 inherit rpm

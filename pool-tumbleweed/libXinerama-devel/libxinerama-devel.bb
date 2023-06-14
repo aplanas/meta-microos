@@ -13,13 +13,12 @@ RPM_NAME = "libXinerama-devel-1.1.5-1.2.aarch64.rpm"
 RPM_HASH = "e633d7edc0c5a57024d1b9986f2d38546737964b7bce69ac54c4423e0929dfff0178d12c9066c8d280fc950698075892fecd03737ba883da3c4abba5fe1d86ea"
 
 RPROVIDES:${PN} += "libXinerama-devel \
-libXinerama-devel(aarch-64) \
-pkgconfig(xinerama)"
+pkgconfig-xinerama"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXinerama1 \
-pkgconfig(x11) \
-pkgconfig(xext) \
-pkgconfig(xineramaproto)"
+pkgconfig-x11 \
+pkgconfig-xext \
+pkgconfig-xineramaproto"
 
 inherit rpm

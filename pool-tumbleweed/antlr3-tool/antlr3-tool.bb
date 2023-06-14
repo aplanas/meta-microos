@@ -13,21 +13,21 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr3-bootstrap-tool \
 antlr3-tool \
-config(antlr3-tool) \
-mvn(org.antlr:antlr) \
-mvn(org.antlr:antlr3-maven-plugin) \
-mvn(org.antlr:antlr3-maven-plugin:pom:) \
-mvn(org.antlr:antlr:pom:)"
+config-antlr3-tool \
+mvn-org.antlr-antlr \
+mvn-org.antlr-antlr-pom- \
+mvn-org.antlr-antlr3-maven-plugin \
+mvn-org.antlr-antlr3-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(org.antlr:ST4) \
-mvn(org.antlr:antlr-runtime) \
-mvn(org.codehaus.plexus:plexus-compiler-api) \
-mvn(org.slf4j:slf4j-api) \
-mvn(org.slf4j:slf4j-simple) \
-mvn(org.sonatype.plexus:plexus-build-api)"
+mvn-org.antlr-ST4 \
+mvn-org.antlr-antlr-runtime \
+mvn-org.codehaus.plexus-plexus-compiler-api \
+mvn-org.slf4j-slf4j-api \
+mvn-org.slf4j-slf4j-simple \
+mvn-org.sonatype.plexus-plexus-build-api"
 
 inherit rpm

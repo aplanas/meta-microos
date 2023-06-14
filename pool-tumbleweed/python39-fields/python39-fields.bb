@@ -14,10 +14,10 @@ RPM_NAME = "python39-fields-5.0.0-4.1.noarch.rpm"
 RPM_HASH = "515866ac6e8a395edfd4c0ee12b4b517797efe3c3af29e33dc10350d7327f4c24ee9499f5748b86d3e09e426d8c6ea40e638f74eb8cd07794618e3c3036c8fab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fields) \
+RPROVIDES:${PN} += "python3.9dist-fields \
 python39-fields \
-python3dist(fields)"
+python3dist-fields"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

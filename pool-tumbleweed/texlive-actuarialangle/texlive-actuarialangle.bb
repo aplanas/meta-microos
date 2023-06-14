@@ -12,7 +12,7 @@ RPM_NAME = "texlive-actuarialangle-2023.201.2.1svn51376-54.1.noarch.rpm"
 RPM_HASH = "dad869b2e145534b24d5480ef942f57ef40faf456288bd2b4312136d218f71096067da2a105f63fecec247bc848993e102ffdff8d5879eaa2fc16e41d9122da5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(actuarialangle.sty) \
+RPROVIDES:${PN} += "tex-actuarialangle.sty \
 texlive-actuarialangle"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pict2e.sty) \
+tex-pict2e.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -12,8 +12,7 @@ PV = "0.14.9"
 RPM_NAME = "sile-0.14.9-1.2.aarch64.rpm"
 RPM_HASH = "263006ae6c21fd336b3d76bd045996bd92f6726878ef194f55ca14ca667362ba4bec0660b703b54dcf03e2990e5daffa640b59bc79c3d6930cba7ab57ffa554a"
 
-RPROVIDES:${PN} += "sile \
-sile(aarch-64)"
+RPROVIDES:${PN} += "sile"
 
 RDEPENDS:${PN} += "/usr/bin/lua \
 fontconfig \
@@ -21,16 +20,16 @@ freetype2 \
 git-core \
 glibc \
 icu \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libharfbuzz-subset.so.0()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-liblua5.4.so.5()(64bit) \
-libm.so.6()(64bit) \
-libtexpdf.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfontconfig.so.1 \
+libharfbuzz-subset.so.0 \
+libharfbuzz.so.0 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+liblua5.4.so.5 \
+libm.so.6 \
+libtexpdf.so.0 \
 lua54 \
 lua54-bit32 \
 lua54-cassowary \

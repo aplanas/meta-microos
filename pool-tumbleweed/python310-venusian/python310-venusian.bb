@@ -15,10 +15,10 @@ RPM_HASH = "258cd942e7290aab9d17632a88958ba789465c845ba6b9baa858ae214f7959085e5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-venusian \
-python3.10dist(venusian) \
+python3.10dist-venusian \
 python310-venusian \
-python3dist(venusian)"
+python3dist-venusian"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

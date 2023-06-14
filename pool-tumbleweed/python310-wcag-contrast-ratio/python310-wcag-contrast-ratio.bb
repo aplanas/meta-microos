@@ -9,10 +9,10 @@ RPM_HASH = "a6d7256c669cc9d4ff6371193d4d0c6ba081ccfa19d94769826ba3fce4a7b6fe85ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wcag-contrast-ratio \
-python3.10dist(wcag-contrast-ratio) \
+python3.10dist-wcag-contrast-ratio \
 python310-wcag-contrast-ratio \
-python3dist(wcag-contrast-ratio)"
+python3dist-wcag-contrast-ratio"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

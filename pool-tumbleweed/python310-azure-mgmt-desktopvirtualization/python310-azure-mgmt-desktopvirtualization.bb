@@ -11,12 +11,12 @@ RPM_HASH = "425041fb93874bbbe313130adb9e1bac34e235a4e1d58d89fb010715955ddf0fd000
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-desktopvirtualization \
-python3.10dist(azure-mgmt-desktopvirtualization) \
+python3.10dist-azure-mgmt-desktopvirtualization \
 python310-azure-mgmt-desktopvirtualization \
-python3dist(azure-mgmt-desktopvirtualization)"
+python3dist-azure-mgmt-desktopvirtualization"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

@@ -10,11 +10,11 @@ RPM_HASH = "744f5e08fcf74e907caaf952b669934fae51f4f9007a7e0ab39cdfdb1e34a94a32d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fire \
-python3.10dist(fire) \
+python3.10dist-fire \
 python310-fire \
-python3dist(fire)"
+python3dist-fire"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six \
 python310-termcolor"
 

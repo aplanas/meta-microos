@@ -16,15 +16,14 @@ PV = "0.86"
 RPM_NAME = "squidview-0.86-1.22.aarch64.rpm"
 RPM_HASH = "bdb922fd7536a1f36664831e027c117f406d4e05b40da0743516193c7f8b818a588c62d22e965615732fdf3407d186b975406554f2c7add282ea5adf77777e63"
 
-RPROVIDES:${PN} += "squidview \
-squidview(aarch-64)"
+RPROVIDES:${PN} += "squidview"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libncurses.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

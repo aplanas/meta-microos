@@ -9,11 +9,11 @@ RPM_HASH = "6e5b45a65db110e1d14e66b0a8c007137853ab81ad0806a17ab2ac502747a0137aa0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-streamz \
-python3.10dist(streamz) \
+python3.10dist-streamz \
 python310-streamz \
-python3dist(streamz)"
+python3dist-streamz"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools \
 python310-six \
 python310-toolz \

@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "indent-lang \
 indent-lang-all \
-locale(indent:bg) \
-locale(indent:ca) \
-locale(indent:cs) \
-locale(indent:da) \
-locale(indent:de) \
-locale(indent:el) \
-locale(indent:eo) \
-locale(indent:es) \
-locale(indent:et) \
-locale(indent:eu) \
-locale(indent:fi) \
-locale(indent:fr) \
-locale(indent:ga) \
-locale(indent:gl) \
-locale(indent:hr) \
-locale(indent:hu) \
-locale(indent:id) \
-locale(indent:it) \
-locale(indent:ja) \
-locale(indent:ko) \
-locale(indent:nl) \
-locale(indent:pl) \
-locale(indent:pt_BR) \
-locale(indent:ro) \
-locale(indent:ru) \
-locale(indent:sk) \
-locale(indent:sr) \
-locale(indent:sv) \
-locale(indent:tr) \
-locale(indent:uk) \
-locale(indent:vi) \
-locale(indent:zh_CN) \
-locale(indent:zh_TW)"
+locale-indent-bg \
+locale-indent-ca \
+locale-indent-cs \
+locale-indent-da \
+locale-indent-de \
+locale-indent-el \
+locale-indent-eo \
+locale-indent-es \
+locale-indent-et \
+locale-indent-eu \
+locale-indent-fi \
+locale-indent-fr \
+locale-indent-ga \
+locale-indent-gl \
+locale-indent-hr \
+locale-indent-hu \
+locale-indent-id \
+locale-indent-it \
+locale-indent-ja \
+locale-indent-ko \
+locale-indent-nl \
+locale-indent-pl \
+locale-indent-pt-BR \
+locale-indent-ro \
+locale-indent-ru \
+locale-indent-sk \
+locale-indent-sr \
+locale-indent-sv \
+locale-indent-tr \
+locale-indent-uk \
+locale-indent-vi \
+locale-indent-zh-CN \
+locale-indent-zh-TW"
 
 RDEPENDS:${PN} += "indent"
 

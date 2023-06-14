@@ -11,14 +11,14 @@ RPM_HASH = "2cd747f189f7c1507b2f691bb35d8a4d872ce8fe0022fe3d838419b58343124a7332
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-calysto \
-python3-jupyter_calysto \
-python3.10dist(calysto) \
+python3-jupyter-calysto \
+python3.10dist-calysto \
 python310-calysto \
-python310-jupyter_calysto \
-python3dist(calysto)"
+python310-jupyter-calysto \
+python3dist-calysto"
 
 RDEPENDS:${PN} += "jupyter-calysto \
-python(abi) \
+python-abi \
 python310-CairoSVG \
 python310-ipython \
 python310-ipywidgets \

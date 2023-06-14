@@ -10,13 +10,11 @@ RPM_HASH = "c0541ba7459d5b45375847c2555f49ca982e5aa257fcaed6511fa4dddd0358ebd449
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-packaging \
-python3-jupyter_packaging \
-python3.10dist(jupyter-packaging) \
+python3.10dist-jupyter-packaging \
 python310-jupyter-packaging \
-python310-jupyter_packaging \
-python3dist(jupyter-packaging)"
+python3dist-jupyter-packaging"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-deprecation \
 python310-packaging \
 python310-setuptools \

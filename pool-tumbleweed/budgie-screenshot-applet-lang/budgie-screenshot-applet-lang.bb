@@ -10,17 +10,17 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-screenshot-applet-lang \
 budgie-screenshot-applet-lang-all \
-locale(budgie-screenshot-applet:ca) \
-locale(budgie-screenshot-applet:da) \
-locale(budgie-screenshot-applet:de) \
-locale(budgie-screenshot-applet:es) \
-locale(budgie-screenshot-applet:fi) \
-locale(budgie-screenshot-applet:fr) \
-locale(budgie-screenshot-applet:id) \
-locale(budgie-screenshot-applet:lt) \
-locale(budgie-screenshot-applet:nl_BE) \
-locale(budgie-screenshot-applet:pl_PL) \
-locale(budgie-screenshot-applet:sv)"
+locale-budgie-screenshot-applet-ca \
+locale-budgie-screenshot-applet-da \
+locale-budgie-screenshot-applet-de \
+locale-budgie-screenshot-applet-es \
+locale-budgie-screenshot-applet-fi \
+locale-budgie-screenshot-applet-fr \
+locale-budgie-screenshot-applet-id \
+locale-budgie-screenshot-applet-lt \
+locale-budgie-screenshot-applet-nl-BE \
+locale-budgie-screenshot-applet-pl-PL \
+locale-budgie-screenshot-applet-sv"
 
 RDEPENDS:${PN} += "budgie-screenshot-applet"
 

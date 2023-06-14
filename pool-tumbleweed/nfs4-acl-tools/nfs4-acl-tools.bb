@@ -9,10 +9,9 @@ PV = "0.3.7"
 RPM_NAME = "nfs4-acl-tools-0.3.7-2.6.aarch64.rpm"
 RPM_HASH = "dc2d5d8db576c3ba4c751f553717a64c49d61882fdf867736ffe8dfacada0aa5e5c2c95b989e1d93edc2382c92ad9bcf3c5ffe945ea3bc49bad27b3ebe76b260"
 
-RPROVIDES:${PN} += "nfs4-acl-tools \
-nfs4-acl-tools(aarch-64)"
+RPROVIDES:${PN} += "nfs4-acl-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

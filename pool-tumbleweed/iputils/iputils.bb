@@ -10,14 +10,13 @@ RPM_HASH = "6db465f3e7e2258b39facde2e5c39c913874629b73890bab31f5d23dde58e80a5325
 
 RPROVIDES:${PN} += "/bin/ping \
 /sbin/arping \
-iputils \
-iputils(aarch-64)"
+iputils"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libidn2.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libidn2.so.0 \
 permissions"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "7387dc53b38e260086689c15eca146b745b175eebc3e486e76d4bbe3ab9b84227ba0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-ckeditor \
-python3.10dist(django-ckeditor) \
+python3.10dist-django-ckeditor \
 python310-django-ckeditor \
-python3dist(django-ckeditor)"
+python3dist-django-ckeditor"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-django-js-asset"
 

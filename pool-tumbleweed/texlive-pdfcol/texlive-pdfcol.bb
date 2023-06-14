@@ -12,7 +12,7 @@ RPM_NAME = "texlive-pdfcol-2023.201.1.7svn64469-51.1.noarch.rpm"
 RPM_HASH = "44af44dde498cdaa171f7998dff861cfd0d9d4052e6851368789d34b4fa7e0d00a47970bac1041f9c7db83ddc53732c4a94cf1aedb8db90a3213d587fb1993ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfcol.sty) \
+RPROVIDES:${PN} += "tex-pdfcol.sty \
 texlive-pdfcol"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
+tex-color.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

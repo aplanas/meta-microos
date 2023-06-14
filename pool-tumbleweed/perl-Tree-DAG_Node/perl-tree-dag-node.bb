@@ -14,10 +14,10 @@ RPM_NAME = "perl-Tree-DAG_Node-1.32-1.10.noarch.rpm"
 RPM_HASH = "357bbe358552b2382f5169998f0418988c030c64f7b3ba4697c06ca117b170eb57f69939721e9967b56a7aeec3050478551702b144d61a9208842219c18d05f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tree::DAG_Node) \
-perl-Tree-DAG_Node"
+RPROVIDES:${PN} += "perl-Tree--DAG-Node \
+perl-Tree-DAG-Node"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(File::Slurp::Tiny)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-File--Slurp--Tiny"
 
 inherit rpm

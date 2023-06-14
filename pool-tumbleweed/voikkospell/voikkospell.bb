@@ -11,15 +11,14 @@ PV = "4.3.1"
 RPM_NAME = "voikkospell-4.3.1-1.10.aarch64.rpm"
 RPM_HASH = "6785872f05fa6bf041b36f7cae3091a3dc1238492d26e394c6dabaf1551aaef288da9c5acf769ed1a1f186d388c6fe866a7502554df516cd73493ccfc317d5b4"
 
-RPROVIDES:${PN} += "voikkospell \
-voikkospell(aarch-64)"
+RPROVIDES:${PN} += "voikkospell"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libvoikko.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libvoikko.so.1 \
 libvoikko1"
 
 inherit rpm

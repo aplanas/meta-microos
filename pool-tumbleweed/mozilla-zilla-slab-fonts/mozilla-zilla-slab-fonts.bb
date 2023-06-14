@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mozilla-zilla-slab-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

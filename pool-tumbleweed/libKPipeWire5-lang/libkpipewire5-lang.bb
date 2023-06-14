@@ -10,37 +10,37 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPipeWire5-lang \
 libKPipeWire5-lang-all \
-locale(libKPipeWire5:ar) \
-locale(libKPipeWire5:ca) \
-locale(libKPipeWire5:ca@valencia) \
-locale(libKPipeWire5:cs) \
-locale(libKPipeWire5:de) \
-locale(libKPipeWire5:en_GB) \
-locale(libKPipeWire5:es) \
-locale(libKPipeWire5:eu) \
-locale(libKPipeWire5:fi) \
-locale(libKPipeWire5:fr) \
-locale(libKPipeWire5:gl) \
-locale(libKPipeWire5:it) \
-locale(libKPipeWire5:ja) \
-locale(libKPipeWire5:ka) \
-locale(libKPipeWire5:ko) \
-locale(libKPipeWire5:nl) \
-locale(libKPipeWire5:nn) \
-locale(libKPipeWire5:pa) \
-locale(libKPipeWire5:pl) \
-locale(libKPipeWire5:pt) \
-locale(libKPipeWire5:pt_BR) \
-locale(libKPipeWire5:ro) \
-locale(libKPipeWire5:ru) \
-locale(libKPipeWire5:sk) \
-locale(libKPipeWire5:sl) \
-locale(libKPipeWire5:sv) \
-locale(libKPipeWire5:ta) \
-locale(libKPipeWire5:tr) \
-locale(libKPipeWire5:uk) \
-locale(libKPipeWire5:zh_CN) \
-locale(libKPipeWire5:zh_TW)"
+locale-libKPipeWire5-ar \
+locale-libKPipeWire5-ca \
+locale-libKPipeWire5-ca@valencia \
+locale-libKPipeWire5-cs \
+locale-libKPipeWire5-de \
+locale-libKPipeWire5-en-GB \
+locale-libKPipeWire5-es \
+locale-libKPipeWire5-eu \
+locale-libKPipeWire5-fi \
+locale-libKPipeWire5-fr \
+locale-libKPipeWire5-gl \
+locale-libKPipeWire5-it \
+locale-libKPipeWire5-ja \
+locale-libKPipeWire5-ka \
+locale-libKPipeWire5-ko \
+locale-libKPipeWire5-nl \
+locale-libKPipeWire5-nn \
+locale-libKPipeWire5-pa \
+locale-libKPipeWire5-pl \
+locale-libKPipeWire5-pt \
+locale-libKPipeWire5-pt-BR \
+locale-libKPipeWire5-ro \
+locale-libKPipeWire5-ru \
+locale-libKPipeWire5-sk \
+locale-libKPipeWire5-sl \
+locale-libKPipeWire5-sv \
+locale-libKPipeWire5-ta \
+locale-libKPipeWire5-tr \
+locale-libKPipeWire5-uk \
+locale-libKPipeWire5-zh-CN \
+locale-libKPipeWire5-zh-TW"
 
 RDEPENDS:${PN} += "libKPipeWire5"
 

@@ -11,10 +11,10 @@ RPM_HASH = "291f6652ba069bc9ad44095957b226ea61b2ef956c352d97d5e14056a8e80009e3fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pysol-cards \
-python3.10dist(pysol-cards) \
-python3dist(pysol-cards)"
+python3.10dist-pysol-cards \
+python3dist-pysol-cards"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-random2 \
 python3-six"
 

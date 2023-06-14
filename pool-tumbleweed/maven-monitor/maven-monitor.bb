@@ -9,8 +9,8 @@ RPM_HASH = "84b2e60ccad1003bae84757d22878e9fa330e285d30415d4b9ead8c242fb202bb84e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-monitor \
-mvn(org.apache.maven:maven-monitor) \
-mvn(org.apache.maven:maven-monitor:pom:)"
+mvn-org.apache.maven-maven-monitor \
+mvn-org.apache.maven-maven-monitor-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

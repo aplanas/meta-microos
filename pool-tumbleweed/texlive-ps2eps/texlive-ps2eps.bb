@@ -26,7 +26,7 @@ RPM_HASH = "b5a9ab08ba148839e82093bbbc6ae1aa7eb0f2a94b774ecac5f4d6e765ed2869e4fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ps2eps \
-texlive-pstools:/usr/share/texmf/scripts/ps2eps/ps2eps.pl"
+texlive-pstools-/usr/share/texmf/scripts/ps2eps/ps2eps.pl"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
@@ -34,8 +34,8 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(POSIX) \
+perl-Getopt--Long \
+perl-POSIX \
 sed \
 texlive \
 texlive-filesystem \

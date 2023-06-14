@@ -12,11 +12,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-path \
 python3-path.py \
-python3.10dist(path) \
+python3.10dist-path \
 python310-path \
 python310-path.py \
-python3dist(path)"
+python3dist-path"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,17 +9,16 @@ PV = "0.9.6"
 RPM_NAME = "cwstudio-0.9.6-1.18.aarch64.rpm"
 RPM_HASH = "83068a174e3631e2ff0c45ecb331e36a7b919948d69b3f5085f5ef616d807d0a7ddf385c47d30a4251baa72eb139361d324b8ed83412a2b59f988c424765eb1c"
 
-RPROVIDES:${PN} += "cwstudio \
-cwstudio(aarch-64)"
+RPROVIDES:${PN} += "cwstudio"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libncursesw.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0"
 
 inherit rpm

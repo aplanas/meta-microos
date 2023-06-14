@@ -18,11 +18,10 @@ RPM_NAME = "deepin-gir-generator-2.1.0-1.10.aarch64.rpm"
 RPM_HASH = "eea34aab4cee078458105850ee0eaf8c4019be5c72bf28eac6a1027c0fb5ab0466b8968e7ed89796d68b1d7b98f1d6ea92020b5f4a53db24741a24d2658669b7"
 
 RPROVIDES:${PN} += "deepin-gir-generator \
-deepin-gir-generator(aarch-64) \
 go-gir-generator"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgirepository-1.0.so.1()(64bit) \
-libglib-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgirepository-1.0.so.1 \
+libglib-2.0.so.0"
 
 inherit rpm

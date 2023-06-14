@@ -21,11 +21,11 @@ RPM_NAME = "python311-pyosf-1.0.5-5.8.noarch.rpm"
 RPM_HASH = "421541d9d251a95c8aeea6da6a04d58f43e4a16594d36dd55c5a9af3bd56d1c588122216fe78ddab94516df69d93bd56ebaf709fcfdca606121a3d4e6dc60095"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyosf) \
+RPROVIDES:${PN} += "python3.11dist-pyosf \
 python311-pyosf \
-python3dist(pyosf)"
+python3dist-pyosf"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-requests"
 
 inherit rpm

@@ -12,15 +12,12 @@ PV = "0.92.1"
 RPM_NAME = "statgrab-0.92.1-1.6.aarch64.rpm"
 RPM_HASH = "5410679f1648001b041581cdaa4ba2b0c93e6ea7bd5db2129d8b7a5b120875cd3c3cee37c57b5387107061a057ecb4248077291df714c98e188682928942d620"
 
-RPROVIDES:${PN} += "application() \
-application(statgrab.desktop) \
-statgrab \
-statgrab(aarch-64)"
+RPROVIDES:${PN} += "statgrab"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstatgrab.so.10()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstatgrab.so.10 \
 libstatgrab10"
 
 inherit rpm

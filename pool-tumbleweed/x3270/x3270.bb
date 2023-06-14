@@ -53,27 +53,24 @@ PV = "4.2"
 RPM_NAME = "x3270-4.2-2.1.aarch64.rpm"
 RPM_HASH = "cba5feb90db8afce9ac511e04e578f5f7e5b45ceed77db0933b80e76ad405e40cf1d2f4f1f77f49fc18afb0e826a292262fb433f4f1657d2bfc634f99028c233"
 
-RPROVIDES:${PN} += "application() \
-application(x3270.desktop) \
-config(x3270) \
-x3270 \
-x3270(aarch-64)"
+RPROVIDES:${PN} += "config-x3270 \
+x3270"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXmu.so.6()(64bit) \
-libXpm.so.4()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libexpat.so.1()(64bit) \
-libncursesw.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libssl.so.3()(64bit) \
-libtcl8.6.so()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXmu.so.6 \
+libXpm.so.4 \
+libXt.so.6 \
+libc.so.6 \
+libcrypto.so.3 \
+libexpat.so.1 \
+libncursesw.so.6 \
+libreadline.so.8 \
+libssl.so.3 \
+libtcl8.6.so \
+libtinfo.so.6"
 
 inherit rpm

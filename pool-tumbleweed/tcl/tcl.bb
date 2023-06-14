@@ -16,28 +16,27 @@ RPM_NAME = "tcl-8.6.13-5.1.aarch64.rpm"
 RPM_HASH = "4e166a78d11fb8a3ebaf48d1a85133b4a9fac9b7b21d01f3d9d36e8258d4d9d62a753d51a6137057926fc95be74047515b51b2e4dc99759938eafe46d32e2db3"
 
 RPROVIDES:${PN} += "itcl \
-libitcl4.2.3.so()(64bit) \
-libtcl8.6.so()(64bit) \
-libtdbc1.1.5.so()(64bit) \
-libtdbcmysql1.1.5.so()(64bit) \
-libtdbcodbc1.1.5.so()(64bit) \
-libtdbcpostgres1.1.5.so()(64bit) \
-libthread2.8.8.so()(64bit) \
-rpm_macro(tcl_archdir) \
-rpm_macro(tcl_noarchdir) \
-rpm_macro(tcl_version) \
-rpm_macro(tclscriptdir) \
+libitcl4.2.3.so \
+libtcl8.6.so \
+libtdbc1.1.5.so \
+libtdbcmysql1.1.5.so \
+libtdbcodbc1.1.5.so \
+libtdbcpostgres1.1.5.so \
+libthread2.8.8.so \
+rpm-macro-tcl-archdir \
+rpm-macro-tcl-noarchdir \
+rpm-macro-tcl-version \
+rpm-macro-tclscriptdir \
 tcl \
-tcl(aarch-64) \
 tclsh \
 tclsh8.6"
 
 RDEPENDS:${PN} += "/bin/rm \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libz.so.1 \
 sqlite3-tcl"
 
 inherit rpm

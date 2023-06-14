@@ -10,12 +10,12 @@ RPM_HASH = "9432ec49d75defbc53a0e31dda476a9a582129c21dce2f717c3dca7adf8159c6ac87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-memory \
-mvn(org.apache.lucene:lucene-memory) \
-mvn(org.apache.lucene:lucene-memory:pom:) \
-osgi(org.apache.lucene.memory)"
+mvn-org.apache.lucene-lucene-memory \
+mvn-org.apache.lucene-lucene-memory-pom- \
+osgi-org.apache.lucene.memory"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.lucene:lucene-core)"
+mvn-org.apache.lucene-lucene-core"
 
 inherit rpm

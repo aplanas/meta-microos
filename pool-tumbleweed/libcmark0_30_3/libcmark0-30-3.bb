@@ -12,12 +12,11 @@ PV = "0.30.3"
 RPM_NAME = "libcmark0_30_3-0.30.3-1.2.aarch64.rpm"
 RPM_HASH = "380499ec1a84be9e5bbf6681495b94222f59f36dac887e62913d4cf07f83f87a42f113d44e84c731fd0b4f690d1966d7fbb59479e68bfe384001498fa36422f9"
 
-RPROVIDES:${PN} += "libcmark.so.0.30.3()(64bit) \
-libcmark0_30_3 \
-libcmark0_30_3(aarch-64)"
+RPROVIDES:${PN} += "libcmark.so.0.30.3 \
+libcmark0-30-3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

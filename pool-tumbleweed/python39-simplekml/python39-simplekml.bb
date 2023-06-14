@@ -12,10 +12,10 @@ RPM_NAME = "python39-simplekml-1.3.6-1.3.noarch.rpm"
 RPM_HASH = "64ce112429d01f6f2828f5338b08d2a46e93f3b2d8c222f83aac91ba7412b8b9dd13320f121535cbe335325f93972f138ee2b9eff50437618c425838123e0795"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(simplekml) \
+RPROVIDES:${PN} += "python3.9dist-simplekml \
 python39-simplekml \
-python3dist(simplekml)"
+python3dist-simplekml"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

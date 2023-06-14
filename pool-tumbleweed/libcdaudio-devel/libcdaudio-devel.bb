@@ -10,8 +10,7 @@ RPM_NAME = "libcdaudio-devel-0.99.12p2-2.8.aarch64.rpm"
 RPM_HASH = "1507a037596c5cab7e99b124947fb09fe79da1ef76657f6c396bf6ef8c7e081c8f547298f5ffe88fb825882166a8e9c8a7ce1fc3842e54136aa05cf444303376"
 
 RPROVIDES:${PN} += "libcdaudio-devel \
-libcdaudio-devel(aarch-64) \
-pkgconfig(libcdaudio)"
+pkgconfig-libcdaudio"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

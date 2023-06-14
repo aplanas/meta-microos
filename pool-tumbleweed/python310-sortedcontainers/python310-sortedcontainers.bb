@@ -21,10 +21,10 @@ RPM_HASH = "e396b80a7150166dcb0066b4afe6574ac4f7a392656bd64c318ad0c574cd7d267d1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sortedcontainers \
-python3.10dist(sortedcontainers) \
+python3.10dist-sortedcontainers \
 python310-sortedcontainers \
-python3dist(sortedcontainers)"
+python3dist-sortedcontainers"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

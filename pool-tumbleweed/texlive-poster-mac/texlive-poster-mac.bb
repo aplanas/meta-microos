@@ -15,8 +15,8 @@ RPM_NAME = "texlive-poster-mac-2023.201.1.1svn18305-52.1.noarch.rpm"
 RPM_HASH = "0c03326e1c5504f995738fc44ae1029d233846a4ac4696d8e4f3a751aca9685bdf8dc216bd1955589504de64fdba1011e3018f41c26a2c0be14ec00796a2ab51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(poster.sty) \
-tex(poster.tex) \
+RPROVIDES:${PN} += "tex-poster.sty \
+tex-poster.tex \
 texlive-poster-mac"
 
 RDEPENDS:${PN} += "/bin/sh \

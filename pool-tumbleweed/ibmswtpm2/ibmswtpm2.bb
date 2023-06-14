@@ -15,11 +15,10 @@ PV = "1682"
 RPM_NAME = "ibmswtpm2-1682-2.3.aarch64.rpm"
 RPM_HASH = "65df5e77d01e84bc81d5e5c2df465c4e5e80c71cf0708c7f1aae8ea1fc662f1fbf56f72e7654a541ad86fa94f468fd36b3731b78fe18fb1ec855316d80305693"
 
-RPROVIDES:${PN} += "ibmswtpm2 \
-ibmswtpm2(aarch-64)"
+RPROVIDES:${PN} += "ibmswtpm2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3"
 
 inherit rpm

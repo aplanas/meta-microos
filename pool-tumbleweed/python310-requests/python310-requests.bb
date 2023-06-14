@@ -24,12 +24,12 @@ RPM_HASH = "9ed5996f479a6c4b75da684ff92b7e0e5101e046f88069ee9d9fb58f807dfd9e0f15
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests \
-python3.10dist(requests) \
+python3.10dist-requests \
 python310-requests \
-python3dist(requests)"
+python3dist-requests"
 
 RDEPENDS:${PN} += "ca-certificates \
-python(abi) \
+python-abi \
 python310 \
 python310-certifi \
 python310-charset-normalizer \

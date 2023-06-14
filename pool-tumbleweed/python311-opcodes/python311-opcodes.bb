@@ -16,10 +16,10 @@ RPM_NAME = "python311-opcodes-0.3.14-2.13.noarch.rpm"
 RPM_HASH = "7670ef527c4a6f80403fd3d19fc3be6b6dfde3c6dd450ff2dbbf161a363c13e22eeba392c550be53174122fd3d779a13e880b6410f1a93e2c54bf1717f4b2a4a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(opcodes) \
+RPROVIDES:${PN} += "python3.11dist-opcodes \
 python311-opcodes \
-python3dist(opcodes)"
+python3dist-opcodes"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "7b05be846eb0be7903ea591daee894e098ac59b57dd387711fb2cfdc3a9b62b28b9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ipa-ex-gothic-fonts \
-locale(ja) \
+locale-ja \
 scalable-font-ja"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -9,11 +9,11 @@ RPM_HASH = "b7f0acaacc1757a5f51bead7208c5d09b828f6fd2c956a13e11ca6347fd338fbbaae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fastapi \
-python3.10dist(fastapi) \
+python3.10dist-fastapi \
 python310-fastapi \
-python3dist(fastapi)"
+python3dist-fastapi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pydantic \
 python310-starlette"
 

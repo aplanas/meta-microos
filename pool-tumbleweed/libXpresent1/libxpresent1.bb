@@ -13,13 +13,12 @@ PV = "1.0.1"
 RPM_NAME = "libXpresent1-1.0.1-1.3.aarch64.rpm"
 RPM_HASH = "4a7af9fb77f6bd72d1fadf113ead9113be577e6b918a25f0a5df822ee8a87b21778f54a1bc49be6bd32aad55ac12a825f830a2b9359352c46caccbf59fa719fa"
 
-RPROVIDES:${PN} += "libXpresent.so.1()(64bit) \
-libXpresent1 \
-libXpresent1(aarch-64)"
+RPROVIDES:${PN} += "libXpresent.so.1 \
+libXpresent1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6"
 
 inherit rpm

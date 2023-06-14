@@ -13,7 +13,7 @@ RPM_NAME = "texlive-tabbing-2023.201.svn59715-57.1.noarch.rpm"
 RPM_HASH = "6c65cd104af039501069d1118e8a272ae9a42cb9afced295f3a951f543e9be52532825d5babb7fb98a9a8789ccb45636b934b330ea6d2d1add74bd70f96b716a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(Tabbing.sty) \
+RPROVIDES:${PN} += "tex-Tabbing.sty \
 texlive-tabbing"
 
 RDEPENDS:${PN} += "/bin/sh \

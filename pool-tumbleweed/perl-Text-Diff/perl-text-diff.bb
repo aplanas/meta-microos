@@ -30,13 +30,13 @@ RPM_NAME = "perl-Text-Diff-1.45-1.21.noarch.rpm"
 RPM_HASH = "57840a951b6e75e3f5cc858bc47a8bec85e43a973b52a90dc3c77dced53fdcc9c6fd2b663f2be1506c6b60782cbf42a6bc59910520976836631c57af9138915b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Diff) \
-perl(Text::Diff::Base) \
-perl(Text::Diff::Config) \
-perl(Text::Diff::Table) \
+RPROVIDES:${PN} += "perl-Text--Diff \
+perl-Text--Diff--Base \
+perl-Text--Diff--Config \
+perl-Text--Diff--Table \
 perl-Text-Diff"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Algorithm::Diff)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Algorithm--Diff"
 
 inherit rpm

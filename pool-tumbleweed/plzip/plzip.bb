@@ -16,14 +16,13 @@ PV = "1.10"
 RPM_NAME = "plzip-1.10-1.7.aarch64.rpm"
 RPM_HASH = "04603859a6c3882acfb728978d462e31e16b9bb2aaf5f12e48652a7b1a761562374161df47cc4b83845b37ccac6961ea2d1833d5732e9720b178d772e82671ba"
 
-RPROVIDES:${PN} += "plzip \
-plzip(aarch-64)"
+RPROVIDES:${PN} += "plzip"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblz.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+liblz.so.1 \
+libstdc++.so.6"
 
 inherit rpm

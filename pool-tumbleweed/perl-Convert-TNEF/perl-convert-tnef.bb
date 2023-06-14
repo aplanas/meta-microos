@@ -93,12 +93,12 @@ RPM_NAME = "perl-Convert-TNEF-0.18-5.26.noarch.rpm"
 RPM_HASH = "86950c133ed6d25f857d6740b946718450ee860b9f4c8ef78e2add08d6c4152e1cb05b9a800981a29459c934065c51da96700d0939ca92954b139b5541f6b577"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Convert::TNEF) \
-perl(Convert::TNEF::Data) \
+RPROVIDES:${PN} += "perl-Convert--TNEF \
+perl-Convert--TNEF--Data \
 perl-Convert-TNEF"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(IO::Wrap) \
-perl(MIME::Body)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-IO--Wrap \
+perl-MIME--Body"
 
 inherit rpm

@@ -14,18 +14,17 @@ RPM_NAME = "libt3widget-devel-1.2.2-1.5.aarch64.rpm"
 RPM_HASH = "08f19719dc5f2d8948fefc89ad32c9ec69384fa51192e4820b4758075d9e85f17f14045c8274d49bb3ff648a33027f935c585a974899c84623956199ed93e057"
 
 RPROVIDES:${PN} += "libt3widget-devel \
-libt3widget-devel(aarch-64) \
-pkgconfig(libt3widget)"
+pkgconfig-libt3widget"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 libt3widget2 \
-libxcb.so.1()(64bit) \
-pkgconfig(libpcre2-8) \
-pkgconfig(libt3key) \
-pkgconfig(libt3window) \
-pkgconfig(libtranscript)"
+libxcb.so.1 \
+pkgconfig-libpcre2-8 \
+pkgconfig-libt3key \
+pkgconfig-libt3window \
+pkgconfig-libtranscript"
 
 inherit rpm

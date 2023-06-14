@@ -16,7 +16,7 @@ RPM_NAME = "texlive-tucv-2023.201.1.0svn20680-52.1.noarch.rpm"
 RPM_HASH = "c0094f3f791db9ec04cc7d0e9fde41d773ca0a8fcd46a1bed26316df2a814ff973f737f771656e2ad0775281b84e21fa7840e602b31cc6e06632725925b99146"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tucv.sty) \
+RPROVIDES:${PN} += "tex-tucv.sty \
 texlive-tucv"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,11 +25,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(calc.sty) \
-tex(color.sty) \
-tex(fancyhdr.sty) \
-tex(xparse.sty) \
+tex-array.sty \
+tex-calc.sty \
+tex-color.sty \
+tex-fancyhdr.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

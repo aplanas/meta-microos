@@ -12,14 +12,14 @@ RPM_HASH = "e968dcc78a282bcc318cc5af90491a82c6d4ed0c3fe65114f26e9c0a285623e6adc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scour \
-python3.10dist(scour) \
+python3.10dist-scour \
 python310-scour \
-python3dist(scour) \
+python3dist-scour \
 scour"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 python310-six \
 update-alternatives"

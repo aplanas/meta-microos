@@ -11,7 +11,7 @@ RPM_NAME = "texlive-multienv-2023.201.1.0svn64967-54.1.noarch.rpm"
 RPM_HASH = "5c1c0a357d0d677a3d3127eebdcfa095ad80105a5004c3087b880a00702c7eb70aeafb729b275185192df1807f4d4e87806b316633aeb674833f81c7a2d3684f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(multienv.sty) \
+RPROVIDES:${PN} += "tex-multienv.sty \
 texlive-multienv"
 
 RDEPENDS:${PN} += "/bin/sh \

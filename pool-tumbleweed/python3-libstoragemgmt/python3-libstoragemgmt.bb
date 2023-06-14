@@ -18,15 +18,14 @@ PV = "1.9.8"
 RPM_NAME = "python3-libstoragemgmt-1.9.8-1.1.aarch64.rpm"
 RPM_HASH = "45f418dee14845295e0d9363c9138ca62b03e55930b9c61f403f15b4ec185ec80f8939ef3057788e5dc30e8cfdb6ef35b544c47cc362edbe6746b9cb2bbf827e"
 
-RPROVIDES:${PN} += "config(python3-libstoragemgmt) \
-python3-libstoragemgmt \
-python3-libstoragemgmt(aarch-64)"
+RPROVIDES:${PN} += "config-python3-libstoragemgmt \
+python3-libstoragemgmt"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstoragemgmt(aarch-64) \
-libstoragemgmt.so.1()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstoragemgmt \
+libstoragemgmt.so.1 \
+python-abi"
 
 inherit rpm

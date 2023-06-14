@@ -12,7 +12,7 @@ RPM_HASH = "7729440840f873e0bff0feeaf156fd94eca7b1eb10313c854fb9ab286ad1e9c45346
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bodr \
-pkgconfig(bodr)"
+pkgconfig-bodr"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

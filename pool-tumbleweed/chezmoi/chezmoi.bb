@@ -10,9 +10,8 @@ PV = "2.33.6"
 RPM_NAME = "chezmoi-2.33.6-1.1.aarch64.rpm"
 RPM_HASH = "d5a35176870f65c0ace70854655dfcc4f0ee46a03cc6ffcaa4a98d4ac557b62ed4b2f0f651314121cb67ae4d4e92a1aadeeea6d62b01affa5d80f96c4c5c5efd"
 
-RPROVIDES:${PN} += "chezmoi \
-chezmoi(aarch-64)"
+RPROVIDES:${PN} += "chezmoi"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

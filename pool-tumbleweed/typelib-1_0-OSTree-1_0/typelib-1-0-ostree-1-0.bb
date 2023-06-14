@@ -12,13 +12,12 @@ PV = "2023.2"
 RPM_NAME = "typelib-1_0-OSTree-1_0-2023.2-2.1.aarch64.rpm"
 RPM_HASH = "e5c13c3bc2c9d7dfe77163c5cb7a2e42bc9776c3b000054e8f470b361d8f5b825c469b01db7ffdc975dbf198993f0344a81d3e8fd4c8c9396c7dbe48b53e0d8b"
 
-RPROVIDES:${PN} += "typelib(OSTree) \
-typelib-1_0-OSTree-1_0 \
-typelib-1_0-OSTree-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-OSTree-1-0 \
+typelib-OSTree"
 
-RDEPENDS:${PN} += "libostree-1.so.1()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libostree-1.so.1 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

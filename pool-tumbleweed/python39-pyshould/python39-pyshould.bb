@@ -19,11 +19,11 @@ RPM_NAME = "python39-pyshould-0.7.1-6.12.noarch.rpm"
 RPM_HASH = "65cd8a7e27429c38d3c894cdbe4680d179207e1ae2aabc8145bf2c2c380201e0241b7e2947de689ad1a9ee10df64cb633ed95d1b45324e40b159b508f5828829"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyshould) \
+RPROVIDES:${PN} += "python3.9dist-pyshould \
 python39-pyshould \
-python3dist(pyshould)"
+python3dist-pyshould"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-hamcrest"
 
 inherit rpm

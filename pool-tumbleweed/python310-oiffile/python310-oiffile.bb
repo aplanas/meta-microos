@@ -11,11 +11,11 @@ RPM_HASH = "9e7723fca4bce06402f670051f4ca7abc276c779cc6bf92fed82269b6ce64607fb05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oiffile \
-python3.10dist(oiffile) \
+python3.10dist-oiffile \
 python310-oiffile \
-python3dist(oiffile)"
+python3dist-oiffile"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-tifffile"
 

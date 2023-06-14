@@ -8,8 +8,7 @@ PV = "1.0.1"
 RPM_NAME = "qore-linenoise-module-doc-1.0.1-1.2.aarch64.rpm"
 RPM_HASH = "6917c85a3c5b37f167aadf90ced93678425d3a377ecaf6a3ad7f49a41febd7ff8591dfc7aff1a0482f4a0dae1acd7e608775666c3f20b8cf028580d5f12c736d"
 
-RPROVIDES:${PN} += "qore-linenoise-module-doc \
-qore-linenoise-module-doc(aarch-64)"
+RPROVIDES:${PN} += "qore-linenoise-module-doc"
 
 RDEPENDS:${PN} += "qore-linenoise-module"
 

@@ -12,11 +12,10 @@ RPM_NAME = "monitoring-plugins-dns-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "c0b0d810ec1cbaf075f3ee9917c174ceec1a445181fdc9a65de1b25332de0859373465b24bc68ba793bfdc849fd95641c51b090e508aab1c2335513397631898"
 
 RPROVIDES:${PN} += "monitoring-plugins-dns \
-monitoring-plugins-dns(aarch-64) \
 nagios-plugins-dns"
 
 RDEPENDS:${PN} += "/usr/bin/nslookup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

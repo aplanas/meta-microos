@@ -9,12 +9,11 @@ RPM_HASH = "8e97179633aa55fb339dff525e5d0f595bcac4a1852ecd85ce192f1d3b032b01257d
 
 RPROVIDES:${PN} += "python3-openvswitch \
 python3-ovs \
-python3-ovs(aarch-64) \
-python3.10dist(ovs) \
-python3dist(ovs)"
+python3.10dist-ovs \
+python3dist-ovs"
 
-RDEPENDS:${PN} += "libopenvswitch-3_1-0 \
-python(abi) \
+RDEPENDS:${PN} += "libopenvswitch-3-1-0 \
+python-abi \
 python3 \
 python3-sortedcontainers"
 

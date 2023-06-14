@@ -12,17 +12,16 @@ PV = "2.1.5"
 RPM_NAME = "python311-gmpy2-2.1.5-2.1.aarch64.rpm"
 RPM_HASH = "8afae136f80d83ce03f2107525f0d852ab49d72805b8925352b18e9decf2bebd25df6443cd952f9282260e61b77e7f9968ce86b491ffba9c8752bed627847d14"
 
-RPROVIDES:${PN} += "python3.11dist(gmpy2) \
+RPROVIDES:${PN} += "python3.11dist-gmpy2 \
 python311-gmpy2 \
-python311-gmpy2(aarch-64) \
-python3dist(gmpy2)"
+python3dist-gmpy2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmpc.so.3()(64bit) \
-libmpfr.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+python-abi"
 
 inherit rpm

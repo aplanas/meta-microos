@@ -7,22 +7,19 @@ PV = "2.03.16"
 RPM_NAME = "lvm2-lockd-2.03.16-6.3.aarch64.rpm"
 RPM_HASH = "b76a4bbb92da8def7e7d644efacc82af32831002b60ade4af9db95ab8e6c42d12a4e228696afb93a473f801f6b18fb60c70a33ad1190d49e6d6816e4fadf97dd"
 
-RPROVIDES:${PN} += "lvm2-lockd \
-lvm2-lockd(aarch-64)"
+RPROVIDES:${PN} += "lvm2-lockd"
 
 RDEPENDS:${PN} += "/bin/sh \
 corosync \
 device-mapper \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libdlm \
-libdlm_lt.so.3()(64bit) \
-libdlmcontrol.so.3()(64bit) \
-libsanlock_client.so.1()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
+libdlm-lt.so.3 \
+libdlmcontrol.so.3 \
+libsanlock-client.so.1 \
+libsystemd.so.0 \
+libudev.so.1 \
 lvm2 \
 sanlock \
 systemd"

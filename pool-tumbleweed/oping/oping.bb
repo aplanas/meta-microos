@@ -9,12 +9,11 @@ PV = "1.10.0"
 RPM_NAME = "oping-1.10.0-1.18.aarch64.rpm"
 RPM_HASH = "cca2e62391ea7841a99115e091b5399c2d4bc440844dde0ed7cee2e14e33ee861cea2f78ef74bcb5ff34d407bb5ba89bf6ccdb7c9eee8cf492dd83425f8fc02e"
 
-RPROVIDES:${PN} += "oping \
-oping(aarch-64)"
+RPROVIDES:${PN} += "oping"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 liboping \
-liboping.so.0()(64bit)"
+liboping.so.0"
 
 inherit rpm

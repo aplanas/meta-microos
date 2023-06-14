@@ -11,13 +11,13 @@ RPM_HASH = "5835896b68804a3a56a2c500ec8d222083cdfd2bb81efd0ec78a05e39c9ae4d3f798
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gunicorn \
-python3.10dist(gunicorn) \
+python3.10dist-gunicorn \
 python310-gunicorn \
-python3dist(gunicorn)"
+python3dist-gunicorn"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

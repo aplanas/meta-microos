@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gobby-lang \
 gobby-lang-all \
-locale(gobby:ca) \
-locale(gobby:de) \
-locale(gobby:el_GR) \
-locale(gobby:en_GB) \
-locale(gobby:fr) \
-locale(gobby:it_IT) \
-locale(gobby:ja) \
-locale(gobby:pt_BR) \
-locale(gobby:zh_TW)"
+locale-gobby-ca \
+locale-gobby-de \
+locale-gobby-el-GR \
+locale-gobby-en-GB \
+locale-gobby-fr \
+locale-gobby-it-IT \
+locale-gobby-ja \
+locale-gobby-pt-BR \
+locale-gobby-zh-TW"
 
 RDEPENDS:${PN} += "gobby"
 

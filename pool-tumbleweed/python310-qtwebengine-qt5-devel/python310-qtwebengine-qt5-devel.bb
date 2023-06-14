@@ -14,10 +14,9 @@ python3-qtwebengine-qt5-devel \
 python3-qtwebengine-qt5-sip \
 python310-qtwebengine-qt5-api \
 python310-qtwebengine-qt5-devel \
-python310-qtwebengine-qt5-devel(aarch-64) \
 python310-qtwebengine-qt5-sip"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-qt5-devel"
 
 inherit rpm

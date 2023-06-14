@@ -10,11 +10,10 @@ PV = "1.26.3"
 RPM_NAME = "telegraf-1.26.3-1.1.aarch64.rpm"
 RPM_HASH = "22b72da1bca423b92e9598b8293f6d9498f28a1cad2828f251e72c1bcef44658820036f955f217f2351aa7998efc5b5620eb2a334d58dfa1775f8b0f1ff20142"
 
-RPROVIDES:${PN} += "config(telegraf) \
-telegraf \
-telegraf(aarch-64)"
+RPROVIDES:${PN} += "config-telegraf \
+telegraf"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

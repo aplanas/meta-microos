@@ -11,11 +11,11 @@ RPM_HASH = "c0045b0e1ce800f610fc9acdea5a9895d524ed49936541fc8d4522489d7240541139
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-typogrify \
-python3.10dist(typogrify) \
+python3.10dist-typogrify \
 python310-typogrify \
-python3dist(typogrify)"
+python3dist-typogrify"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-smartypants"
 
 inherit rpm

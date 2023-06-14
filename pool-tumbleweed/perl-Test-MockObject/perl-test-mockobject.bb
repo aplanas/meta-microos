@@ -18,12 +18,12 @@ RPM_NAME = "perl-Test-MockObject-1.20200122-1.13.noarch.rpm"
 RPM_HASH = "26adc0be37d40bed96706717eba623a0079644f7ac658f655484c21db9e9b2142261431c0088c2a833fa4fb7a1b4f5e5a5d6f7d8f662d9b47604df44f9021d2b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::MockObject) \
-perl(Test::MockObject::Extends) \
+RPROVIDES:${PN} += "perl-Test--MockObject \
+perl-Test--MockObject--Extends \
 perl-Test-MockObject"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(UNIVERSAL::can) \
-perl(UNIVERSAL::isa)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-UNIVERSAL--can \
+perl-UNIVERSAL--isa"
 
 inherit rpm

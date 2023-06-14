@@ -13,6 +13,6 @@ RPROVIDES:${PN} += "subunit-filters"
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-junitxml \
 python3-python-subunit \
-typelib-1_0-Gtk-3_0"
+typelib-1-0-Gtk-3-0"
 
 inherit rpm

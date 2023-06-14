@@ -18,15 +18,15 @@ RPM_HASH = "47162e32469af5de85810e5158704c305c1b6151b9b9c2976c093a7ecd8a7e73497e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Radicale \
-config(Radicale) \
-group(radicale) \
-python3.10dist(radicale) \
-python3dist(radicale) \
-user(radicale)"
+config-Radicale \
+group-radicale \
+python3.10dist-radicale \
+python3dist-radicale \
+user-radicale"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3 \
 python3-defusedxml \
 python3-python-dateutil \

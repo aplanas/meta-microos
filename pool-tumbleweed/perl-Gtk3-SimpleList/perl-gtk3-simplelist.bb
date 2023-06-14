@@ -22,12 +22,12 @@ RPM_NAME = "perl-Gtk3-SimpleList-0.21-2.12.noarch.rpm"
 RPM_HASH = "27891a7b5f65a081b1704f7c8593645d703dd8b2ea9ca509be86f399dfd5b79c5111118cb38c776d326166edc7a76e9f5aead63c71c03b4eb85b8f3d6e9675d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Gtk3::SimpleList) \
-perl(Gtk3::SimpleList::TiedList) \
-perl(Gtk3::SimpleList::TiedRow) \
+RPROVIDES:${PN} += "perl-Gtk3--SimpleList \
+perl-Gtk3--SimpleList--TiedList \
+perl-Gtk3--SimpleList--TiedRow \
 perl-Gtk3-SimpleList"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Gtk3)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Gtk3"
 
 inherit rpm

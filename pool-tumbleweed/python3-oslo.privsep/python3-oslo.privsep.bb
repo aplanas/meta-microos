@@ -9,11 +9,11 @@ RPM_HASH = "994beaf63db8ffb4973c0564195cc088e51dbc6a3f69b3a700caacf9a0750c0da2fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.privsep \
-python3.10dist(oslo.privsep) \
-python3dist(oslo.privsep)"
+python3.10dist-oslo.privsep \
+python3dist-oslo.privsep"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cffi \
 python3-eventlet \
 python3-greenlet \

@@ -14,14 +14,14 @@ RPM_NAME = "python311-SoundFile-0.12.1-1.2.noarch.rpm"
 RPM_HASH = "400c01ef419b8b6d7a03bf6fb4d0e8674058682218d2aa34561f6584d1e199f0e9e4df8a0d949ae154ab0d348d7ef1212484d278cb8f850b4314c89bee5c75c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(soundfile) \
+RPROVIDES:${PN} += "python3.11dist-soundfile \
 python311-PySoundFile \
 python311-SoundFile \
 python311-soundfile \
-python3dist(soundfile)"
+python3dist-soundfile"
 
 RDEPENDS:${PN} += "libsndfile1 \
-python(abi) \
+python-abi \
 python311-cffi"
 
 inherit rpm

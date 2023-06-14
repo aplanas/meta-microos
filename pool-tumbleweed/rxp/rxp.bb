@@ -24,10 +24,9 @@ PV = "1.4.8"
 RPM_NAME = "rxp-1.4.8-93.28.aarch64.rpm"
 RPM_HASH = "3a47103407c9017fde414ae220dd4b5ce2bb99d5c6d9864996873f27457f8956a71b7ef7838ea91666dac29552346496ea03765da0484c4023c8c5513c1c6d51"
 
-RPROVIDES:${PN} += "rxp \
-rxp(aarch-64)"
+RPROVIDES:${PN} += "rxp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -17,11 +17,10 @@ PV = "0.4.0"
 RPM_NAME = "xf86-video-fbturbo-0.4.0-4.8.aarch64.rpm"
 RPM_HASH = "078e1215f21a6e5ff8fb2bd2a0558e4da178ad0378818981cd3cef813a0b45640cd69a090738b3b6eb16fd6849ed157f5c4b81853fa26b110f35b8c611a81712"
 
-RPROVIDES:${PN} += "xf86-video-fbturbo \
-xf86-video-fbturbo(aarch-64)"
+RPROVIDES:${PN} += "xf86-video-fbturbo"
 
-RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "X11-ABI-VIDEODRV \
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

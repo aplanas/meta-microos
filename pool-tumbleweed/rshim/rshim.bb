@@ -9,13 +9,12 @@ PV = "2.0.7.0"
 RPM_NAME = "rshim-2.0.7.0-1.1.aarch64.rpm"
 RPM_HASH = "89b5e277a3b0dd95ecef15e2daf9ddc318f0d1c80bac8a38a248220761486b5497b79b5e395c59eda18c7aeeecae15ef34bdd460a949d2b839ca9fd746687954"
 
-RPROVIDES:${PN} += "rshim \
-rshim(aarch-64)"
+RPROVIDES:${PN} += "rshim"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit) \
-libpci.so.3()(64bit) \
-libusb-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfuse.so.2 \
+libpci.so.3 \
+libusb-1.0.so.0"
 
 inherit rpm

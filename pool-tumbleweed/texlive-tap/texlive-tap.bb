@@ -12,7 +12,7 @@ RPM_NAME = "texlive-tap-2023.201.0.0.77svn31731-54.1.noarch.rpm"
 RPM_HASH = "ec800aa8fe8657f6d204ddcba88d040e80d302d3e0e27afd3b5e9de45cbe250ec52992448b210d8b7bd19754287e5696bd5d427ab2b0a6b1b87adc5eb2eaf635"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tap.tex) \
+RPROVIDES:${PN} += "tex-tap.tex \
 texlive-tap"
 
 RDEPENDS:${PN} += "/bin/sh \

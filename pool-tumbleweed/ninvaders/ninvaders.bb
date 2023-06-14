@@ -7,12 +7,11 @@ PV = "0.1.1"
 RPM_NAME = "ninvaders-0.1.1-2.11.aarch64.rpm"
 RPM_HASH = "5645fd53aecf718fb69092d314f7e36754ba21786457c1050d76eefdf60d3cdfd5b09cffb3a13ba1c13df686437634c0adcacb3e2d86d59ab96680ec97d046e8"
 
-RPROVIDES:${PN} += "ninvaders \
-ninvaders(aarch-64)"
+RPROVIDES:${PN} += "ninvaders"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

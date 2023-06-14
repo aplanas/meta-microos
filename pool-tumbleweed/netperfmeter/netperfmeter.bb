@@ -12,15 +12,13 @@ PV = "1.9.0"
 RPM_NAME = "netperfmeter-1.9.0-1.9.aarch64.rpm"
 RPM_HASH = "83341d775b06896ddf165c8b0f4b9d183522d7bc3fe666c9e7adab85adb9fc7b8ad0de1d8d0b5109a59ad91fe120e79f4acf98e0db6083d94bc884141a784ace"
 
-RPROVIDES:${PN} += "netperfmeter \
-netperfmeter(aarch-64)"
+RPROVIDES:${PN} += "netperfmeter"
 
-RDEPENDS:${PN} += "libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libsctp.so.1()(64bit) \
-libsctp.so.1(VERS_1)(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libbz2.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libsctp.so.1 \
+libstdc++.so.6"
 
 inherit rpm

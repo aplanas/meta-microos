@@ -15,11 +15,11 @@ RPM_NAME = "python39-portend-3.1.0-2.1.noarch.rpm"
 RPM_HASH = "9f692e0050feeaf6e8d71a11bd3de1c47884bf07f152d432ff099fcd19cd033d7b67411ae4c0e8d77b6613155558816733b2ef631aec8efb32cf1dd53a8da34d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(portend) \
+RPROVIDES:${PN} += "python3.9dist-portend \
 python39-portend \
-python3dist(portend)"
+python3dist-portend"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-tempora"
 
 inherit rpm

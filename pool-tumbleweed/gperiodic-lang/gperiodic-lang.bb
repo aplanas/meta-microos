@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gperiodic-lang \
 gperiodic-lang-all \
-locale(gperiodic:ast) \
-locale(gperiodic:be) \
-locale(gperiodic:bg) \
-locale(gperiodic:ca) \
-locale(gperiodic:cs) \
-locale(gperiodic:da) \
-locale(gperiodic:de) \
-locale(gperiodic:es) \
-locale(gperiodic:fi) \
-locale(gperiodic:fr) \
-locale(gperiodic:gl) \
-locale(gperiodic:id) \
-locale(gperiodic:is) \
-locale(gperiodic:it) \
-locale(gperiodic:lt) \
-locale(gperiodic:ms) \
-locale(gperiodic:nl) \
-locale(gperiodic:oc) \
-locale(gperiodic:pl) \
-locale(gperiodic:pt) \
-locale(gperiodic:pt_BR) \
-locale(gperiodic:ru) \
-locale(gperiodic:sr) \
-locale(gperiodic:sv) \
-locale(gperiodic:tr) \
-locale(gperiodic:uk) \
-locale(gperiodic:zh_CN)"
+locale-gperiodic-ast \
+locale-gperiodic-be \
+locale-gperiodic-bg \
+locale-gperiodic-ca \
+locale-gperiodic-cs \
+locale-gperiodic-da \
+locale-gperiodic-de \
+locale-gperiodic-es \
+locale-gperiodic-fi \
+locale-gperiodic-fr \
+locale-gperiodic-gl \
+locale-gperiodic-id \
+locale-gperiodic-is \
+locale-gperiodic-it \
+locale-gperiodic-lt \
+locale-gperiodic-ms \
+locale-gperiodic-nl \
+locale-gperiodic-oc \
+locale-gperiodic-pl \
+locale-gperiodic-pt \
+locale-gperiodic-pt-BR \
+locale-gperiodic-ru \
+locale-gperiodic-sr \
+locale-gperiodic-sv \
+locale-gperiodic-tr \
+locale-gperiodic-uk \
+locale-gperiodic-zh-CN"
 
 RDEPENDS:${PN} += "gperiodic"
 

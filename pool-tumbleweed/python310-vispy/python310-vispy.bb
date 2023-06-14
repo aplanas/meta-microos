@@ -9,15 +9,14 @@ RPM_NAME = "python310-vispy-0.12.2-1.2.aarch64.rpm"
 RPM_HASH = "177e3dab92b7f0c6f3edc3e90fc9d47f02b9965767a354ddf57360c06ff38d2ca583c78c1a195d27727da1ec1300e2f8ac8bc6db4f09890837ed431c25666e70"
 
 RPROVIDES:${PN} += "python3-vispy \
-python3.10dist(vispy) \
+python3.10dist-vispy \
 python310-vispy \
-python310-vispy(aarch-64) \
-python3dist(vispy)"
+python3dist-vispy"
 
 RDEPENDS:${PN} += "fontconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-cassowary \
 python310-decorator \
 python310-freetype-py \

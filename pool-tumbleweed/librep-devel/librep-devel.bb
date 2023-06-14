@@ -16,14 +16,13 @@ RPM_NAME = "librep-devel-0.92.7-1.26.aarch64.rpm"
 RPM_HASH = "c22dad61df5dd8df2dfce62c8854e78839f73cf9fd62dc0dee0c11ade3bba907bc191dab673df2cd20940758d2166b81221123d136ed79110f46415d3c253271"
 
 RPROVIDES:${PN} += "librep-devel \
-librep-devel(aarch-64) \
-pkgconfig(librep)"
+pkgconfig-librep"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/rep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdbm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdbm.so.6 \
 librep \
 librep16"
 

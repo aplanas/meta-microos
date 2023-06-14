@@ -11,36 +11,27 @@ PV = "5.10.8"
 RPM_NAME = "libdmr0_1-5.10.8-1.5.aarch64.rpm"
 RPM_HASH = "9bfbba74dc9cb802b29bffc31bb71184749a627bc405464937af4ea72605273eb13af474057caa42a6b5a31abdb5febab24a7de616be21bf02ed025242dd8cc2"
 
-RPROVIDES:${PN} += "libdmr.so.0.1()(64bit) \
-libdmr0_1 \
-libdmr0_1(aarch-64)"
+RPROVIDES:${PN} += "libdmr.so.0.1 \
+libdmr0-1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libdtkcore.so.5()(64bit) \
-libdtkgui.so.5()(64bit) \
-libdtkwidget.so.5()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsettings-qt.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
+libQt5Network.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libc.so.6 \
+libdtkcore.so.5 \
+libdtkgui.so.5 \
+libdtkwidget.so.5 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgsettings-qt.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "c7e5fe3afcc4b69977c3357ecccbc65707f65ef5cdf9629f63f4ff2aea770c7cdf86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyGithub \
-python3.10dist(pygithub) \
+python3.10dist-pygithub \
 python310-PyGithub \
-python3dist(pygithub)"
+python3dist-pygithub"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Deprecated \
 python310-PyJWT \
 python310-PyNaCl \

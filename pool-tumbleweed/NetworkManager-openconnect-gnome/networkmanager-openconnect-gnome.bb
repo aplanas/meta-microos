@@ -10,38 +10,26 @@ RPM_HASH = "fb8cffa90dddba19a0574d16f9d056a1773c0087d3de4f55304fff44e7218713bbfb
 
 RPROVIDES:${PN} += "NetworkManager-openconnect-frontend \
 NetworkManager-openconnect-gnome \
-NetworkManager-openconnect-gnome(aarch-64) \
-libnm-gtk4-vpn-plugin-openconnect-editor.so()(64bit) \
-libnm-vpn-plugin-openconnect-editor.so()(64bit) \
-metainfo() \
-metainfo(network-manager-openconnect.metainfo.xml)"
+libnm-gtk4-vpn-plugin-openconnect-editor.so \
+libnm-vpn-plugin-openconnect-editor.so"
 
 RDEPENDS:${PN} += "NetworkManager-openconnect \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcr-base-3.so.1()(64bit) \
-libgcr-ui-3.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libnm.so.0()(64bit) \
-libnm.so.0(libnm_1_0_0)(64bit) \
-libnm.so.0(libnm_1_2_0)(64bit) \
-libnma-gtk4.so.0()(64bit) \
-libnma-gtk4.so.0(libnma_1_8_0)(64bit) \
-libnma.so.0()(64bit) \
-libnma.so.0(libnma_1_8_0)(64bit) \
-libopenconnect.so.5()(64bit) \
-libopenconnect.so.5(OPENCONNECT_5_2)(64bit) \
-libopenconnect.so.5(OPENCONNECT_5_3)(64bit) \
-libopenconnect.so.5(OPENCONNECT_5_5)(64bit) \
-libopenconnect.so.5(OPENCONNECT_5_7)(64bit) \
-libopenconnect.so.5(OPENCONNECT_5_8)(64bit) \
-libsecret-1.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit) \
-libwebkit2gtk-4.1.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcr-base-3.so.1 \
+libgcr-ui-3.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtk-4.so.1 \
+libnm.so.0 \
+libnma-gtk4.so.0 \
+libnma.so.0 \
+libopenconnect.so.5 \
+libsecret-1.so.0 \
+libsoup-3.0.so.0 \
+libwebkit2gtk-4.1.so.0 \
+libxml2.so.2"
 
 inherit rpm

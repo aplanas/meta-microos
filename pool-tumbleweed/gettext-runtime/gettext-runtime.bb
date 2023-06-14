@@ -14,17 +14,16 @@ RPM_HASH = "a4e4cb27584dfe51a365aa14106a4f58eae95470f684c9078bd21f9aa2b0854ab034
 
 RPROVIDES:${PN} += "gettext \
 gettext-runtime \
-gettext-runtime(aarch-64) \
-libasprintf.so.0()(64bit) \
-libgettextlib-0.21.1.so()(64bit) \
-libgettextsrc-0.21.1.so()(64bit)"
+libasprintf.so.0 \
+libgettextlib-0.21.1.so \
+libgettextsrc-0.21.1.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtextstyle.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstdc++.so.6 \
+libtextstyle.so.0 \
+libxml2.so.2"
 
 inherit rpm

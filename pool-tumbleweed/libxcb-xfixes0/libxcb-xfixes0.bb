@@ -12,13 +12,12 @@ PV = "1.15"
 RPM_NAME = "libxcb-xfixes0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "9fb757c5e9bb7c411cb5786a6277126a43e956612b7a6a03d0a5df4114e0a0dfe734287bff9904e0bc03b4265fff23d5e261060e9b78eae8121abfe5cbfb456a"
 
-RPROVIDES:${PN} += "libxcb-xfixes.so.0()(64bit) \
-libxcb-xfixes0 \
-libxcb-xfixes0(aarch-64)"
+RPROVIDES:${PN} += "libxcb-xfixes.so.0 \
+libxcb-xfixes0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

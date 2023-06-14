@@ -9,11 +9,11 @@ RPM_HASH = "80093e3dc5bac7c133f66b341681dbcde052043586fa7640a3d02db61584da33d762
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-bootstrap4 \
-python3.10dist(django-bootstrap4) \
+python3.10dist-django-bootstrap4 \
 python310-django-bootstrap4 \
-python3dist(django-bootstrap4)"
+python3dist-django-bootstrap4"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-beautifulsoup4"
 

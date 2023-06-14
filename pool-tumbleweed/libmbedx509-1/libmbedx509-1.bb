@@ -10,12 +10,11 @@ RPM_NAME = "libmbedx509-1-2.28.3-2.1.aarch64.rpm"
 RPM_HASH = "ab430bcd84fd6c2a43c9be9bbdf512cbff965b5339cbd940351021bb585f90d1e16057dcc696872841a08460e24c01e85e62a9645e2e52a32141c2bdd2103498"
 
 RPROVIDES:${PN} += "libmbedx509-1 \
-libmbedx509-1(aarch-64) \
-libmbedx509.so.1()(64bit)"
+libmbedx509.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmbedcrypto.so.7()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmbedcrypto.so.7"
 
 inherit rpm

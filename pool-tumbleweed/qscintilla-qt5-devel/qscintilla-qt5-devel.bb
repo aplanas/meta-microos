@@ -13,14 +13,12 @@ RPM_NAME = "qscintilla-qt5-devel-2.13.4-1.5.aarch64.rpm"
 RPM_HASH = "4de8244de3ac838a641c3c7e16160c30ffc7d8cc456823f5171dc447b17d717c0a10825df60bb8d4fce09ecbe0f969c20bcfd2c549c13f4df1ed6435855483f0"
 
 RPROVIDES:${PN} += "libqscintilla-qt5-devel \
-libqscintilla2_qt5-devel \
-libqscintilla_qt5-devel \
-qscintilla-qt5-devel \
-qscintilla-qt5-devel(aarch-64)"
+libqscintilla2-qt5-devel \
+qscintilla-qt5-devel"
 
 RDEPENDS:${PN} += "libqscintilla2-qt5-15 \
-pkgconfig(Qt5Core) \
-pkgconfig(Qt5PrintSupport) \
-pkgconfig(Qt5Widgets)"
+pkgconfig-Qt5Core \
+pkgconfig-Qt5PrintSupport \
+pkgconfig-Qt5Widgets"
 
 inherit rpm

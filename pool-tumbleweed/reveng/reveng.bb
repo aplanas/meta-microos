@@ -15,10 +15,9 @@ PV = "3.0.5"
 RPM_NAME = "reveng-3.0.5-1.2.aarch64.rpm"
 RPM_HASH = "8b2107a08eb14307791c7a101b5cf7e3795f91552980540c8f9c672937cbc0b8cc23d4e4c4322a01bc0b582f91e25f63c4588b04456193e17ee3e3738db5a8f6"
 
-RPROVIDES:${PN} += "reveng \
-reveng(aarch-64)"
+RPROVIDES:${PN} += "reveng"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

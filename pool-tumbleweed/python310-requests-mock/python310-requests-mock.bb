@@ -10,11 +10,11 @@ RPM_HASH = "19f3d1878471c571fe1233b2ad87dfe605872211d9eb2a067e56f8681acef908cc00
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-mock \
-python3.10dist(requests-mock) \
+python3.10dist-requests-mock \
 python310-requests-mock \
-python3dist(requests-mock)"
+python3dist-requests-mock"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dbm \
 python310-requests \
 python310-six"

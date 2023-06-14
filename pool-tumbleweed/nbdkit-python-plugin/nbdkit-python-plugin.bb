@@ -7,12 +7,11 @@ PV = "1.32.2"
 RPM_NAME = "nbdkit-python-plugin-1.32.2-1.3.aarch64.rpm"
 RPM_HASH = "bfde118156c10519095df04a6182f37dc49db4eabcf699da1df6577bbefc228765e049e1f50f2d53f33eddebb43f897e10f8c02b046bd63227d0a9c73aa9a709"
 
-RPROVIDES:${PN} += "nbdkit-python-plugin \
-nbdkit-python-plugin(aarch-64)"
+RPROVIDES:${PN} += "nbdkit-python-plugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpython3.10.so.1.0 \
 nbdkit-server"
 
 inherit rpm

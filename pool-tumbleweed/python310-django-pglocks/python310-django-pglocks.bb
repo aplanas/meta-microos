@@ -27,11 +27,11 @@ RPM_HASH = "26ac48b6bb164a4a08c3e3bf8a0f561d42c515f11885abbfe1b5f48c6397953128c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-pglocks \
-python3.10dist(django-pglocks) \
+python3.10dist-django-pglocks \
 python310-django-pglocks \
-python3dist(django-pglocks)"
+python3dist-django-pglocks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-psycopg2"
 

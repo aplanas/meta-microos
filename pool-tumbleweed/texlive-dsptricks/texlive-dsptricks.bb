@@ -16,9 +16,9 @@ RPM_NAME = "texlive-dsptricks-2023.201.1.0svn34724-52.1.noarch.rpm"
 RPM_HASH = "48309a1e295f1545ce4f8ca6854a110742a9dea53cf79188270560912e417740d92cd2fd42eefd34800ba3b3d5ae9c98a7c44491ab908693da8ed43103548842"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dspblocks.sty) \
-tex(dspfunctions.sty) \
-tex(dsptricks.sty) \
+RPROVIDES:${PN} += "tex-dspblocks.sty \
+tex-dspfunctions.sty \
+tex-dsptricks.sty \
 texlive-dsptricks"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,13 +27,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(fmtcount.sty) \
-tex(fp.sty) \
-tex(ifthen.sty) \
-tex(pst-xkey.sty) \
-tex(pstricks-add.sty) \
-tex(pstricks.sty) \
+tex-calc.sty \
+tex-fmtcount.sty \
+tex-fp.sty \
+tex-ifthen.sty \
+tex-pst-xkey.sty \
+tex-pstricks-add.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

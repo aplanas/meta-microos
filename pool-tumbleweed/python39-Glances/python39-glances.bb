@@ -12,14 +12,14 @@ RPM_HASH = "b1f7f05740e08280bab2bb0b4fc6277618809319b344eb50c796c3738581be228b4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances \
-python3.9dist(glances) \
+python3.9dist-glances \
 python39-Glances \
 python39-glances \
-python3dist(glances)"
+python3dist-glances"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-bottle \
 python39-defusedxml \
 python39-future \

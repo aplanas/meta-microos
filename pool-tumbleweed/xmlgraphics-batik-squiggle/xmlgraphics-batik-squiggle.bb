@@ -10,12 +10,12 @@ RPM_HASH = "62d39e84d67e89c3a04373c9fcbeca2c018bfb881fc498b033e88b7ecd3ae117c62a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-squiggle \
-mvn(org.apache.xmlgraphics:batik-squiggle) \
-mvn(org.apache.xmlgraphics:batik-squiggle-ext) \
-mvn(org.apache.xmlgraphics:batik-squiggle-ext:pom:) \
-mvn(org.apache.xmlgraphics:batik-squiggle:pom:) \
-osgi(org.apache.batik.squiggle) \
-osgi(org.apache.batik.squiggle-ext) \
+mvn-org.apache.xmlgraphics-batik-squiggle \
+mvn-org.apache.xmlgraphics-batik-squiggle-ext \
+mvn-org.apache.xmlgraphics-batik-squiggle-ext-pom- \
+mvn-org.apache.xmlgraphics-batik-squiggle-pom- \
+osgi-org.apache.batik.squiggle \
+osgi-org.apache.batik.squiggle-ext \
 xmlgraphics-batik-squiggle"
 
 RDEPENDS:${PN} += "/bin/bash \

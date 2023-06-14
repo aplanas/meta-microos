@@ -11,7 +11,7 @@ RPM_NAME = "texlive-warning-2023.201.0.0.01svn22028-53.1.noarch.rpm"
 RPM_HASH = "6d6cf0749d3e1bfcb768ff474d7c7b73994fca8419e400ea1fc062b97e01539fb0e4b0dfc7e357aa195f46f4365c753295d83dd10835c92b990235de722a7a3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(warning.sty) \
+RPROVIDES:${PN} += "tex-warning.sty \
 texlive-warning"
 
 RDEPENDS:${PN} += "/bin/sh \

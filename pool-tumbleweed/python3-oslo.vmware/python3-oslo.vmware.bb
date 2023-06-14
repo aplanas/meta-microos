@@ -16,10 +16,10 @@ RPM_HASH = "6c3a91b35e02e62a5a34771cf66ae33f8ce939a51b50ef7e5eff64c30cd37911be4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.vmware \
-python3.10dist(oslo.vmware) \
-python3dist(oslo.vmware)"
+python3.10dist-oslo.vmware \
+python3dist-oslo.vmware"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-PyYAML \
 python3-eventlet \
 python3-lxml \

@@ -10,13 +10,13 @@ RPM_NAME = "trytond_party-6.0.3-1.4.noarch.rpm"
 RPM_HASH = "1b83ba6c3cd071c54cf00fd91d923fcf4f91b46554926f4deeb5113a2e592bd31bcc29f511fa9d88cd5c9bc82dcfdf470cbd8c9860a82ec8def4c27de0e279e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(trytond-party) \
-python3dist(trytond-party) \
-trytond_party"
+RPROVIDES:${PN} += "python3.10dist-trytond-party \
+python3dist-trytond-party \
+trytond-party"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-python-stdnum \
 trytond \
-trytond_country"
+trytond-country"
 
 inherit rpm

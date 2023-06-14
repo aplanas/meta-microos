@@ -12,14 +12,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Supybot \
 python3-limnoria \
-python3.10dist(limnoria) \
+python3.10dist-limnoria \
 python310-limnoria \
-python3dist(limnoria)"
+python3dist-limnoria"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 procps \
-python(abi) \
+python-abi \
 python310 \
 python310-PySocks \
 python310-chardet \

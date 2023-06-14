@@ -9,10 +9,10 @@ RPM_HASH = "20b29fbd27c63d062ea0b1d560b9897e7868a455cc6738ec269e225c5e86620dcd4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-trove-classifiers \
-python3.10dist(trove-classifiers) \
+python3.10dist-trove-classifiers \
 python310-trove-classifiers \
-python3dist(trove-classifiers)"
+python3dist-trove-classifiers"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

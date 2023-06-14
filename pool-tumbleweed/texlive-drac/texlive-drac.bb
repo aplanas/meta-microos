@@ -14,7 +14,7 @@ RPM_NAME = "texlive-drac-2023.201.1svn15878-52.1.noarch.rpm"
 RPM_HASH = "9105038b4c28817ffefcd437d8231c02e13420cd7dfce3c392f0e15428343d4269e52ae6aed3b4ed361b23a16ca57a284527623167c18492c803a16a9c88be66"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(drac.sty) \
+RPROVIDES:${PN} += "tex-drac.sty \
 texlive-drac"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -14,13 +14,12 @@ PV = "1.1.1"
 RPM_NAME = "extractpdfmark-1.1.1-1.3.aarch64.rpm"
 RPM_HASH = "6566c830f9d1a53034832b9bccd342127672e1d36e753cd0b3391ad018524ba9ac1af86ba9bea7e7e1ab9265dad418d9107fe1c2341464f563ad28af113cbbe7"
 
-RPROVIDES:${PN} += "extractpdfmark \
-extractpdfmark(aarch-64)"
+RPROVIDES:${PN} += "extractpdfmark"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpoppler-cpp.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpoppler-cpp.so.0 \
+libstdc++.so.6"
 
 inherit rpm

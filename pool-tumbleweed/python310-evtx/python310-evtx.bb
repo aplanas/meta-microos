@@ -15,14 +15,14 @@ RPM_HASH = "2ec051cbbe9f1e8f8245816542fddd6fcfb0557ee12b94797a93205240833557effa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-evtx \
-python3.10dist(python-evtx) \
+python3.10dist-python-evtx \
 python310-evtx \
-python3dist(python-evtx)"
+python3dist-python-evtx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-hexdump \
 python310-lxml \
 python310-six"

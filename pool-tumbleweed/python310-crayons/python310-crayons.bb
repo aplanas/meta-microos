@@ -11,11 +11,11 @@ RPM_HASH = "82b6727794b672be3945ff0da08b15f05a6f2e7d5199722f2b55b1ba0b5b681ed607
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-crayons \
-python3.10dist(crayons) \
+python3.10dist-crayons \
 python310-crayons \
-python3dist(crayons)"
+python3dist-crayons"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-colorama"
 
 inherit rpm

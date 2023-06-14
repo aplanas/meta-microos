@@ -18,14 +18,13 @@ PV = "2.5"
 RPM_NAME = "xquarto-2.5-814.23.aarch64.rpm"
 RPM_HASH = "390d34de10053d40121f88abc468c74568b0de0f7a30c0fa6d8c3d0849f6b94e102c6787fb73404e7ff83d8ac117b789d25c560dd478ad0fcc5f65ee65d6c8c6"
 
-RPROVIDES:${PN} += "xquarto \
-xquarto(aarch-64)"
+RPROVIDES:${PN} += "xquarto"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXpm.so.4()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXpm.so.4 \
+libXt.so.6 \
+libc.so.6"
 
 inherit rpm

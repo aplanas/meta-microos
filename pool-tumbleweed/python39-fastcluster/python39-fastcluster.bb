@@ -19,17 +19,16 @@ PV = "1.2.6"
 RPM_NAME = "python39-fastcluster-1.2.6-1.5.aarch64.rpm"
 RPM_HASH = "3f7a3afdf13f7d1419767a01220b0ae3cd687def7e95045167e0f188f3e0f36cd9df06b0909135bb9a413601d374d4b2454e65a11d5c353da4f7c442f8e66f2b"
 
-RPROVIDES:${PN} += "python3.9dist(fastcluster) \
+RPROVIDES:${PN} += "python3.9dist-fastcluster \
 python39-fastcluster \
-python39-fastcluster(aarch-64) \
-python3dist(fastcluster)"
+python3dist-fastcluster"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-numpy \
 python39-scipy"
 

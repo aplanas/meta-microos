@@ -10,7 +10,7 @@ RPM_NAME = "texlive-beamerthemenirma-2023.201.0.0.1svn20765-53.1.noarch.rpm"
 RPM_HASH = "9830a592c08efcdc8fe78797fedc66091350f5ee58100bbf9ec48f56b19b3f9ad527e61d08bfe3ca1675fd86d0728e813d782bdc9f5909a6246bec896542e35c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamerthemenirma.sty) \
+RPROVIDES:${PN} += "tex-beamerthemenirma.sty \
 texlive-beamerthemenirma"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(beamerbasethemes.sty) \
-tex(pgf.sty) \
+tex-beamerbasethemes.sty \
+tex-pgf.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

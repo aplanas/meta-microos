@@ -14,7 +14,7 @@ RPM_NAME = "texlive-biblatex-source-division-2023.201.2.4.2svn45379-53.1.noarch.
 RPM_HASH = "48da32b3ad332ed7e11a016e0f51226c836d553d0535a96e5923ec94ff6a7d4f50d69848e097f99f86f79fdd221c8144b8fefc5d8276dec7d0c4e22a71a82e71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(biblatex-source-division.sty) \
+RPROVIDES:${PN} += "tex-biblatex-source-division.sty \
 texlive-biblatex-source-division"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
-tex(xpatch.sty) \
+tex-kvoptions.sty \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

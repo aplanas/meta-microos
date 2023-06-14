@@ -9,31 +9,26 @@ RPM_NAME = "kpublictransport-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "f7e03eeb3264da92edc71c447fe6911f89224cce80f6bb0fbd79cae62c10b8b5b6201ab9af29c7fbf21a791a80bf309f6a37a1cb3b077d62a9c03abd599723dc"
 
 RPROVIDES:${PN} += "kpublictransport \
-kpublictransport(aarch-64) \
-libkpublictransportonboardqmlplugin.so()(64bit) \
-libkpublictransportqmlplugin.so()(64bit) \
-libkpublictransportquickplugin.so()(64bit) \
-qt5qmlimport(org.kde.kpublictransport.1) \
-qt5qmlimport(org.kde.kpublictransport.onboard.1) \
-qt5qmlimport(org.kde.kpublictransport.ui.1)"
+libkpublictransportonboardqmlplugin.so \
+libkpublictransportqmlplugin.so \
+libkpublictransportquickplugin.so \
+qt5qmlimport-org.kde.kpublictransport.1 \
+qt5qmlimport-org.kde.kpublictransport.onboard.1 \
+qt5qmlimport-org.kde.kpublictransport.ui.1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKPublicTransport.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKPublicTransport.so.1 \
 libKPublicTransport1 \
-libKPublicTransportOnboard.so.1()(64bit) \
+libKPublicTransportOnboard.so.1 \
 libKPublicTransportOnboard1 \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(org.kde.kpublictransport.1) \
-qt5qmlimport(org.kde.kpublictransport.ui.1)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-org.kde.kpublictransport.1 \
+qt5qmlimport-org.kde.kpublictransport.ui.1"
 
 inherit rpm

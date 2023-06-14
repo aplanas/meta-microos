@@ -11,17 +11,16 @@ RPM_NAME = "libgovirt2-0.3.9-1.3.aarch64.rpm"
 RPM_HASH = "c769a56d54329cd6ceb8374d32581d186e56ef887187f3050baa169b4bd83ed9d5f35e16ca5eaa1f14d9da9a9ed72349c4245adacf7836b1cb97a6c0ad6fbeb9"
 
 RPROVIDES:${PN} += "libgovirt \
-libgovirt.so.2()(64bit) \
-libgovirt2 \
-libgovirt2(aarch-64)"
+libgovirt.so.2 \
+libgovirt2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-librest-1.0.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+librest-1.0.so.0 \
+libsoup-3.0.so.0"
 
 inherit rpm

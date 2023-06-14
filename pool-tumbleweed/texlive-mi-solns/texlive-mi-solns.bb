@@ -11,7 +11,7 @@ RPM_NAME = "texlive-mi-solns-2023.201.0.0.6svn49651-54.1.noarch.rpm"
 RPM_HASH = "9a850780af3e1e668b7ee6f94099c600a2db6849cd498965ab86a92ef44c0a4cf62f4f42edbac27d30bf6e54b824f23945847f4a1d5478088d326f8474fcc18b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mi-solns.sty) \
+RPROVIDES:${PN} += "tex-mi-solns.sty \
 texlive-mi-solns"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(shellesc.sty) \
+tex-shellesc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

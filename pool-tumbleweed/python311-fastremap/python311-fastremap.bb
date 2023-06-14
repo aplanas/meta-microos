@@ -7,16 +7,15 @@ PV = "1.13.5"
 RPM_NAME = "python311-fastremap-1.13.5-1.1.aarch64.rpm"
 RPM_HASH = "8e1ac57bd248e656b2d9026f133d5166ef0fbb2baadb631a4fadd32b40b07b3a203e105f7a4704b0d152073e690aba65d7ef6656750f3e2da1ab01d328097aa7"
 
-RPROVIDES:${PN} += "python3.11dist(fastremap) \
+RPROVIDES:${PN} += "python3.11dist-fastremap \
 python311-fastremap \
-python311-fastremap(aarch-64) \
-python3dist(fastremap)"
+python3dist-fastremap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python311-numpy"
 
 inherit rpm

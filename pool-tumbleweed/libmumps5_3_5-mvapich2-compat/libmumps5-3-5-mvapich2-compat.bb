@@ -13,9 +13,8 @@ PV = "5.3.5"
 RPM_NAME = "libmumps5_3_5-mvapich2-compat-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "e1bbc5738941f8dd0dfa755411dadb85f6072ea42c57a0eb40744ec4f8b58aace5bb7851d5d6e76a65e600a0eb8521916bedea50a7515f49462309f48ce68715"
 
-RPROVIDES:${PN} += "libmumps5_3_5-mvapich2-compat \
-libmumps5_3_5-mvapich2-compat(aarch-64)"
+RPROVIDES:${PN} += "libmumps5-3-5-mvapich2-compat"
 
-RDEPENDS:${PN} += "libmumps5_3_5"
+RDEPENDS:${PN} += "libmumps5-3-5"
 
 inherit rpm

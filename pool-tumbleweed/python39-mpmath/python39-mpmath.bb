@@ -16,11 +16,11 @@ RPM_NAME = "python39-mpmath-1.2.1-3.3.noarch.rpm"
 RPM_HASH = "5313dd7efd3deb7512d281f374888d6b0ee23d6f3227514a0bf8c1a9574b559c1bb557ef5564396c19c50640f3f9b196ac375ed2bf26cf2337d629729f326602"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(mpmath) \
+RPROVIDES:${PN} += "python3.9dist-mpmath \
 python39-mpmath \
-python3dist(mpmath)"
+python3dist-mpmath"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-gmpy2"
 
 inherit rpm

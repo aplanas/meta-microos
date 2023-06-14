@@ -12,13 +12,13 @@ RPM_HASH = "9f2446011e2ae4e3b4a86a582e958be3ccfbb2a1416a97bd7fa7a9136f156a777915
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bokeh \
-python3.10dist(bokeh) \
+python3.10dist-bokeh \
 python310-bokeh \
-python3dist(bokeh)"
+python3dist-bokeh"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-Pillow \
 python310-PyYAML \

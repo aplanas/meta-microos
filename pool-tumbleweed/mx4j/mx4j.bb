@@ -11,20 +11,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmx \
 jmxri \
-mvn(mx4j:mx4j) \
-mvn(mx4j:mx4j-impl) \
-mvn(mx4j:mx4j-impl:pom:) \
-mvn(mx4j:mx4j-jmx) \
-mvn(mx4j:mx4j-jmx:pom:) \
-mvn(mx4j:mx4j-remote) \
-mvn(mx4j:mx4j-remote:pom:) \
-mvn(mx4j:mx4j-rimpl) \
-mvn(mx4j:mx4j-rimpl:pom:) \
-mvn(mx4j:mx4j-rjmx) \
-mvn(mx4j:mx4j-rjmx:pom:) \
-mvn(mx4j:mx4j-tools) \
-mvn(mx4j:mx4j-tools:pom:) \
-mvn(mx4j:mx4j:pom:) \
+mvn-mx4j-mx4j \
+mvn-mx4j-mx4j-impl \
+mvn-mx4j-mx4j-impl-pom- \
+mvn-mx4j-mx4j-jmx \
+mvn-mx4j-mx4j-jmx-pom- \
+mvn-mx4j-mx4j-pom- \
+mvn-mx4j-mx4j-remote \
+mvn-mx4j-mx4j-remote-pom- \
+mvn-mx4j-mx4j-rimpl \
+mvn-mx4j-mx4j-rimpl-pom- \
+mvn-mx4j-mx4j-rjmx \
+mvn-mx4j-mx4j-rjmx-pom- \
+mvn-mx4j-mx4j-tools \
+mvn-mx4j-mx4j-tools-pom- \
 mx4j \
 openjmx"
 

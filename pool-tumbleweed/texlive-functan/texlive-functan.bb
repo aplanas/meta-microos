@@ -13,7 +13,7 @@ RPM_NAME = "texlive-functan-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "d67b633ee09d9266dd91c195a15e3320936a45ed78c971e87ca68c4a7807d3c55c3bd448e476ef98f980b86f528162bd07d5be3efbc75e2036e2c208c5f957fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(functan.sty) \
+RPROVIDES:${PN} += "tex-functan.sty \
 texlive-functan"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
+tex-amsmath.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

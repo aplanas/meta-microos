@@ -18,12 +18,12 @@ RPM_NAME = "python311-nbval-0.10.0-1.3.noarch.rpm"
 RPM_HASH = "ff5508ea2d41a6b63006239ce679604906669302782f045746fe7559bff2d0ed30ba2db1b97f3da22785ac1b4814e4b51e0878ff7a508652abce9deb778c0915"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(nbval) \
-python311-jupyter_nbval \
+RPROVIDES:${PN} += "python3.11dist-nbval \
+python311-jupyter-nbval \
 python311-nbval \
-python3dist(nbval)"
+python3dist-nbval"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-coverage \
 python311-ipykernel \
 python311-jupyter-client \

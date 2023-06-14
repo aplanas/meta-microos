@@ -11,14 +11,14 @@ RPM_HASH = "36e29cf3b0e347bd1dc903d4b01167375d8a7c28ab5c886e07118655e63ceda46f6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asdf \
-python3.10dist(asdf) \
+python3.10dist-asdf \
 python310-asdf \
-python3dist(asdf)"
+python3dist-asdf"
 
-RDEPENDS:${PN} += "(python310-jsonschema >= 4.0.1 with python310-jsonschema < 4.18) \
+RDEPENDS:${PN} += "-python310-jsonschema >= 4.0.1 with python310-jsonschema < 4.18 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-asdf-standard \
 python310-asdf-transform-schemas \
@@ -27,7 +27,7 @@ python310-importlib-metadata \
 python310-jmespath \
 python310-numpy \
 python310-packaging \
-python310-semantic_version \
+python310-semantic-version \
 update-alternatives"
 
 inherit rpm

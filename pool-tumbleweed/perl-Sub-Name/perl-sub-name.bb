@@ -7,12 +7,11 @@ PV = "0.27"
 RPM_NAME = "perl-Sub-Name-0.27-1.1.aarch64.rpm"
 RPM_HASH = "d9d9084b92fd0b3a14cc57d8328c6921cdb1631a929e298c59fefca6ed35d1de3883bed11e18f4d18041bac734c1f0b4882e862268132ac69f59ab3357028a96"
 
-RPROVIDES:${PN} += "perl(Sub::Name) \
-perl-Sub-Name \
-perl-Sub-Name(aarch-64)"
+RPROVIDES:${PN} += "perl-Sub--Name \
+perl-Sub-Name"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

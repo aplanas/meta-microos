@@ -20,9 +20,8 @@ PV = "1.1.1"
 RPM_NAME = "perl-libconfigfile-1.1.1-164.26.aarch64.rpm"
 RPM_HASH = "df740c386292e2c268fb34f5eb02b2b967627d2f042bfc9fdc8354a25f2a3f19468d3747bee9df6e050f1bbf46d7aeb1be6627790cde4e5627ccbe9300c9655d"
 
-RPROVIDES:${PN} += "perl(ConfigFile) \
-perl-libconfigfile \
-perl-libconfigfile(aarch-64)"
+RPROVIDES:${PN} += "perl-ConfigFile \
+perl-libconfigfile"
 
 RDEPENDS:${PN} += ""
 

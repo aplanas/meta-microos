@@ -9,11 +9,11 @@ RPM_HASH = "80e795d9817d19f59d20b62227a47ec208fa2c5f98c809b7d303e5e2b0ff99788351
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-resumable-media \
-python3.10dist(google-resumable-media) \
+python3.10dist-google-resumable-media \
 python310-google-resumable-media \
-python3dist(google-resumable-media)"
+python3dist-google-resumable-media"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-crc32c"
 
 inherit rpm

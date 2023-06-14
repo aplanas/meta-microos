@@ -9,11 +9,11 @@ RPM_HASH = "b88c072988ca495e02f09b07361c74e9011139a6d1506e6d6f4d29d702054bcb4d11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-localzone \
-python3.10dist(localzone) \
+python3.10dist-localzone \
 python310-localzone \
-python3dist(localzone)"
+python3dist-localzone"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dnspython"
 
 inherit rpm

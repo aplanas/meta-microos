@@ -11,14 +11,13 @@ RPM_NAME = "python310-bsddb3-6.2.9-1.13.aarch64.rpm"
 RPM_HASH = "0050384074729ea22c56695244437917ba2b3a0ca7a5dd5ab99c12567a3cec777f63a612dfdf24f7b5d683929ae848ab08e22b52045ed6cd8694ebc711fce9a1"
 
 RPROVIDES:${PN} += "python3-bsddb3 \
-python3.10dist(bsddb3) \
+python3.10dist-bsddb3 \
 python310-bsddb3 \
-python310-bsddb3(aarch-64) \
-python3dist(bsddb3)"
+python3dist-bsddb3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdb-4.8.so()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdb-4.8.so \
+python-abi"
 
 inherit rpm

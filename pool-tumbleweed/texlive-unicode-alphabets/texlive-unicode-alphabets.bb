@@ -16,7 +16,7 @@ RPM_NAME = "texlive-unicode-alphabets-2023.201.svn66225-53.1.noarch.rpm"
 RPM_HASH = "f9e33fbd052d3f93218c7a9dfdea7fdb7da84e67b9d4c8a1f0ea30fed6374b7fc4a40cb6a7cec8be0df8408333c808e9f16da197ba0858b0f6bf48071e1528ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unicode-alphabets.sty) \
+RPROVIDES:${PN} += "tex-unicode-alphabets.sty \
 texlive-unicode-alphabets"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,12 +25,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(csvsimple.sty) \
-tex(etoolbox.sty) \
-tex(pgfkeys.sty) \
-tex(pgfopts.sty) \
-tex(stringstrings.sty) \
-tex(xparse.sty) \
+tex-csvsimple.sty \
+tex-etoolbox.sty \
+tex-pgfkeys.sty \
+tex-pgfopts.sty \
+tex-stringstrings.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

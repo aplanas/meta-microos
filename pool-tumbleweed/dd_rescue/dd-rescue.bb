@@ -22,14 +22,13 @@ PV = "1.99.13"
 RPM_NAME = "dd_rescue-1.99.13-2.2.aarch64.rpm"
 RPM_HASH = "f842e6524f328933c631be5d8ca845a5ef3ff34ede0a8cd195df4234b33e7045dbc2c34419421f539b6aabfe7453db08ff5692b63cf59f067f2d91fc386d0c1b"
 
-RPROVIDES:${PN} += "dd_rescue \
-dd_rescue(aarch-64) \
+RPROVIDES:${PN} += "dd-rescue \
 ddrescue \
-libddr_hash.so()(64bit) \
-libddr_null.so()(64bit)"
+libddr-hash.so \
+libddr-null.so"
 
 RDEPENDS:${PN} += "bc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

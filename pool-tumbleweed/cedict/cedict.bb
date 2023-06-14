@@ -17,7 +17,7 @@ RPM_HASH = "ad2935e806ffb4f967e4c8fb2581e42282d1df14ca04d80c6ae0eefac8c54abd1eb4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cedict \
-locale(gjiten:zh)"
+locale-gjiten-zh"
 
 RDEPENDS:${PN} += ""
 

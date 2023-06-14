@@ -10,13 +10,13 @@ RPM_HASH = "9d4ee35520e7ee3f2f3fbdc75246d52f88162dd7e931ffcfcaf2b59e1e890e95f992
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xmlschema \
-python3.10dist(xmlschema) \
+python3.10dist-xmlschema \
 python310-xmlschema \
-python3dist(xmlschema)"
+python3dist-xmlschema"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-elementpath \
 python310-lxml \
 update-alternatives"

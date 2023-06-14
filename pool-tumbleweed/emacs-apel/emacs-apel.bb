@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "apel \
 emacs-apel"
 
 RDEPENDS:${PN} += "emacs \
-emacs_program"
+emacs-program"
 
 inherit rpm

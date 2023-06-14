@@ -12,7 +12,6 @@ RPM_NAME = "python-mpi4py-common-devel-3.1.4-2.5.aarch64.rpm"
 RPM_HASH = "b71db21501122c5cc0e7a87fb89d7478e8cd26463d4dbb087552c9e8c1534741024951d02c7d79c7df51bc35168aaa656f3d16d44f05767aa3f4b1171c8219b6"
 
 RPROVIDES:${PN} += "python-mpi4py-common-devel \
-python-mpi4py-common-devel(aarch-64) \
 python310-mpi4py-common-devel \
 python311-mpi4py-common-devel \
 python39-mpi4py-common-devel"

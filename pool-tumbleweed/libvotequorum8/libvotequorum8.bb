@@ -12,14 +12,13 @@ PV = "2.4.6"
 RPM_NAME = "libvotequorum8-2.4.6-1.3.aarch64.rpm"
 RPM_HASH = "508397a6ebed7f05ab3a377f22b80c8df9fb5f361badbc1bf033e70dddeb3a1d3cb337ecb81ca9a3ab097e07889a1f32b43d696d942318e731634c39d1f92fb3"
 
-RPROVIDES:${PN} += "libvotequorum.so.8()(64bit) \
-libvotequorum8 \
-libvotequorum8(aarch-64)"
+RPROVIDES:${PN} += "libvotequorum.so.8 \
+libvotequorum8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcorosync_common.so.4()(64bit) \
-libqb.so.100()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcorosync-common.so.4 \
+libqb.so.100"
 
 inherit rpm

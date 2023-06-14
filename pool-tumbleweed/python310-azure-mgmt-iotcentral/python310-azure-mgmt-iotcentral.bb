@@ -14,12 +14,12 @@ RPM_HASH = "dfa9e2e5dee0803d439395584bc86490f7eac3468882a0fdb1b957ab83f9e3192dbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-iotcentral \
-python3.10dist(azure-mgmt-iotcentral) \
+python3.10dist-azure-mgmt-iotcentral \
 python310-azure-mgmt-iotcentral \
-python3dist(azure-mgmt-iotcentral)"
+python3dist-azure-mgmt-iotcentral"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-msrest"

@@ -9,13 +9,13 @@ RPM_HASH = "5d1a5b965cf8859ac58b96cd42e54c843a90a5df184e17823192e791c4f67a3a3ed2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sqlite-utils \
-python3.10dist(sqlite-utils) \
+python3.10dist-sqlite-utils \
 python310-sqlite-utils \
-python3dist(sqlite-utils)"
+python3dist-sqlite-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-click-default-group \
 python310-sqlite-fts4 \

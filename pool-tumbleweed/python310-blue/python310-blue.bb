@@ -17,13 +17,13 @@ RPM_HASH = "0f0aebf46635976143485d5da4eddadf3adc891ccc7702342b9b7fa412cefe7b1994
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-blue \
-python3.10dist(blue) \
+python3.10dist-blue \
 python310-blue \
-python3dist(blue)"
+python3dist-blue"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-black \
 python310-flake8 \
 update-alternatives"

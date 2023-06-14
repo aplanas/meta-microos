@@ -11,11 +11,11 @@ RPM_HASH = "12afdf1716bccc5f2650160229d4932a6238b8275a52ec3f66f618e6ec5dc514ece5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-arviz \
-python3.10dist(arviz) \
+python3.10dist-arviz \
 python310-arviz \
-python3dist(arviz)"
+python3dist-arviz"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-h5netcdf \
 python310-matplotlib \
 python310-numpy \
@@ -23,7 +23,7 @@ python310-packaging \
 python310-pandas \
 python310-scipy \
 python310-setuptools \
-python310-typing_extensions \
+python310-typing-extensions \
 python310-xarray \
 python310-xarray-einstats"
 

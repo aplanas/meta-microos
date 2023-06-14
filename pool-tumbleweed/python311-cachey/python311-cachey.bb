@@ -21,11 +21,11 @@ RPM_NAME = "python311-cachey-0.2.1-2.3.noarch.rpm"
 RPM_HASH = "e0220b1f8a6e85441a32577c3342a9efd58f5d978197b4b1bcafd20d16122ccc21da660a9f972d3cf43b1a90e638287a785db0555ce3bc01d079d1540bdffe29"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(cachey) \
+RPROVIDES:${PN} += "python3.11dist-cachey \
 python311-cachey \
-python3dist(cachey)"
+python3dist-cachey"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-HeapDict"
 
 inherit rpm

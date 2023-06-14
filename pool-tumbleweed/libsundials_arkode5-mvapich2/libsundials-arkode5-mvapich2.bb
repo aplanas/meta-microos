@@ -10,13 +10,12 @@ PV = "6.3.0"
 RPM_NAME = "libsundials_arkode5-mvapich2-6.3.0-2.4.aarch64.rpm"
 RPM_HASH = "9f8a2e6611c2e07246a922dffe5cc12d5ea6b1b6963cecc27ebbc7f0c511e61deff103a851054b7b27f85ee2436953d708011330b269b1d326031d71aa2c053f"
 
-RPROVIDES:${PN} += "libsundials_arkode.so.5()(64bit) \
-libsundials_arkode5-mvapich2 \
-libsundials_arkode5-mvapich2(aarch-64)"
+RPROVIDES:${PN} += "libsundials-arkode.so.5 \
+libsundials-arkode5-mvapich2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -9,22 +9,18 @@ PV = "5.15.5"
 RPM_NAME = "python39-qtnetworkauth-qt5-5.15.5-1.14.aarch64.rpm"
 RPM_HASH = "a5cb94d72bc7363bdbe0a69e6622884064e5625ee5270162064c093910649f489e23c37f373c1018ca6a7aba77419401913dcd0e68e11793cd274da796de7205"
 
-RPROVIDES:${PN} += "python3.9dist(pyqtnetworkauth) \
+RPROVIDES:${PN} += "python3.9dist-pyqtnetworkauth \
 python39-PyQtNetworkAuth \
 python39-qtnetworkauth-qt5 \
-python39-qtnetworkauth-qt5(aarch-64) \
-python3dist(pyqtnetworkauth)"
+python3dist-pyqtnetworkauth"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5NetworkAuth.so.5()(64bit) \
-libQt5NetworkAuth.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5NetworkAuth.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-qt5 \
 python39-qt5-sip"
 

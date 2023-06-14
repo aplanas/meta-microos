@@ -11,11 +11,11 @@ RPM_HASH = "da5c4a5e3b7134589d2eb8d136072e85edf2c4359f7ecb519464083f066e7d1d98b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyaes \
-python3.10dist(pyaes) \
+python3.10dist-pyaes \
 python310-pyaes \
-python3dist(pyaes)"
+python3dist-pyaes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pycryptodome"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "38fccbf6b85c3e071b45b8c7499dff7e445673a3a80a4a7d8bb73bdadefe62e173c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiohttp-asgi \
-python3.10dist(aiohttp-asgi) \
+python3.10dist-aiohttp-asgi \
 python310-aiohttp-asgi \
-python3dist(aiohttp-asgi)"
+python3dist-aiohttp-asgi"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiohttp"
 
 inherit rpm

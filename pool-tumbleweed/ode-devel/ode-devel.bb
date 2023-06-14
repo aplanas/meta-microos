@@ -15,8 +15,7 @@ RPM_HASH = "d29dd135a66e152099f7dc5df2200a0e1ab6469d0a189c94f0b73873bda9f423e7d6
 
 RPROVIDES:${PN} += "libode-devel \
 ode-devel \
-ode-devel(aarch-64) \
-pkgconfig(ode)"
+pkgconfig-ode"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

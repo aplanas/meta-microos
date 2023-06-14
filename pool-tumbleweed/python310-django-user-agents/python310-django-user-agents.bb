@@ -11,11 +11,11 @@ RPM_HASH = "51a79daa2d2b85b55314e0b7ecd8354362c8bfe459721a80b8d86cd356e10eccdd76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-user-agents \
-python3.10dist(django-user-agents) \
+python3.10dist-django-user-agents \
 python310-django-user-agents \
-python3dist(django-user-agents)"
+python3dist-django-user-agents"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-user-agents"
 

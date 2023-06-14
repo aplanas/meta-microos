@@ -10,13 +10,13 @@ RPM_HASH = "df91409b7968a9d04d94d5d0ddb33efff436e38071f5d535f1ab8e264db4d3677d1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ftfy \
-python3.10dist(ftfy) \
+python3.10dist-ftfy \
 python310-ftfy \
-python3dist(ftfy)"
+python3dist-ftfy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-wcwidth \
 update-alternatives"
 

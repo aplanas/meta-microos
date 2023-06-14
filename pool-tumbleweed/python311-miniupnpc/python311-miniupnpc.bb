@@ -8,14 +8,13 @@ PV = "2.2.4"
 RPM_NAME = "python311-miniupnpc-2.2.4-1.4.aarch64.rpm"
 RPM_HASH = "90bad9850468203c5876843692630a4cdd999d0e4fb3d2d87ea5225f5284769ba286bd8e4958fd68368c37022407a5a00d9bf463e17945b0fb74196c3575abf6"
 
-RPROVIDES:${PN} += "python3.11dist(miniupnpc) \
+RPROVIDES:${PN} += "python3.11dist-miniupnpc \
 python311-miniupnpc \
-python311-miniupnpc(aarch-64) \
-python3dist(miniupnpc)"
+python3dist-miniupnpc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libminiupnpc17 \
-python(abi)"
+python-abi"
 
 inherit rpm

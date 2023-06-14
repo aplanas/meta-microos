@@ -13,7 +13,7 @@ RPM_NAME = "texlive-japanese-mathformulas-2023.201.1.0.2svn64678-55.1.noarch.rpm
 RPM_HASH = "5ee97d3f3327e1f177992289ef71dafcefc9b520d70e0d7191bfebaaaaf4749be5f58b641fd5a738cd99607bf1302fcc1f6a03cfba4cce4f5f391108ebd99580"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(japanese-mathformulas.sty) \
+RPROVIDES:${PN} += "tex-japanese-mathformulas.sty \
 texlive-japanese-mathformulas"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,16 +22,16 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(esvect.sty) \
-tex(graphics.sty) \
-tex(ifthen.sty) \
-tex(luatexja-fontspec.sty) \
-tex(luatexja-otf.sty) \
-tex(luatexja.sty) \
-tex(mathtools.sty) \
-tex(tikz.sty) \
-tex(xparse.sty) \
+tex-amssymb.sty \
+tex-esvect.sty \
+tex-graphics.sty \
+tex-ifthen.sty \
+tex-luatexja-fontspec.sty \
+tex-luatexja-otf.sty \
+tex-luatexja.sty \
+tex-mathtools.sty \
+tex-tikz.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

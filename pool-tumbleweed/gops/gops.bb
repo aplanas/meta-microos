@@ -10,9 +10,8 @@ PV = "0.3.25"
 RPM_NAME = "gops-0.3.25-1.6.aarch64.rpm"
 RPM_HASH = "e69f4b2f5e5bb609a7b8bc0e0e6ede3ddf0afdf188ff7e9ae90cd27ca5156ef8a1dc665a9f26c42bfbfdb15f5180c98dae6d3c85854d312df623f0b62c9e898c"
 
-RPROVIDES:${PN} += "gops \
-gops(aarch-64)"
+RPROVIDES:${PN} += "gops"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

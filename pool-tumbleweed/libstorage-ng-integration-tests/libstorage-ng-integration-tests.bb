@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "libstorage-ng-integration-tests"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libstorage-ng-python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

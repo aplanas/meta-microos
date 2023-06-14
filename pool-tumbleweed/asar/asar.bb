@@ -12,22 +12,22 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asar \
 nodejs-asar \
-npm(@electron/asar) \
-own(balanced-match) \
-own(brace-expansion) \
-own(chromium-pickle-js) \
-own(commander) \
-own(concat-map) \
-own(fs.realpath) \
-own(glob) \
-own(inflight) \
-own(inherits) \
-own(minimatch) \
-own(once) \
-own(path-is-absolute) \
-own(wrappy)"
+npm-@electron/asar \
+own-balanced-match \
+own-brace-expansion \
+own-chromium-pickle-js \
+own-commander \
+own-concat-map \
+own-fs.realpath \
+own-glob \
+own-inflight \
+own-inherits \
+own-minimatch \
+own-once \
+own-path-is-absolute \
+own-wrappy"
 
 RDEPENDS:${PN} += "/usr/bin/node \
-nodejs(engine)"
+nodejs-engine"
 
 inherit rpm

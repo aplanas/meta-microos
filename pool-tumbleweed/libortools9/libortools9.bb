@@ -7,49 +7,48 @@ PV = "9.6"
 RPM_NAME = "libortools9-9.6-1.1.aarch64.rpm"
 RPM_HASH = "994a223ab5782f3372a2b4e5759c5f84c1569f732464e1d49081de33dee6e4e7758b0bf62aa54c59228ef8158c3691faed9b8900fc000d630f12d82c292140ee"
 
-RPROVIDES:${PN} += "libortools.so.9()(64bit) \
-libortools9 \
-libortools9(aarch-64)"
+RPROVIDES:${PN} += "libortools.so.9 \
+libortools9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libabsl_die_if_null.so.2301.0.0()(64bit) \
-libabsl_flags_internal.so.2301.0.0()(64bit) \
-libabsl_flags_marshalling.so.2301.0.0()(64bit) \
-libabsl_flags_parse.so.2301.0.0()(64bit) \
-libabsl_flags_reflection.so.2301.0.0()(64bit) \
-libabsl_flags_usage.so.2301.0.0()(64bit) \
-libabsl_hash.so.2301.0.0()(64bit) \
-libabsl_int128.so.2301.0.0()(64bit) \
-libabsl_leak_check.so.2301.0.0()(64bit) \
-libabsl_log_flags.so.2301.0.0()(64bit) \
-libabsl_log_globals.so.2301.0.0()(64bit) \
-libabsl_log_initialize.so.2301.0.0()(64bit) \
-libabsl_log_internal_check_op.so.2301.0.0()(64bit) \
-libabsl_log_internal_conditions.so.2301.0.0()(64bit) \
-libabsl_log_internal_message.so.2301.0.0()(64bit) \
-libabsl_log_internal_nullguard.so.2301.0.0()(64bit) \
-libabsl_random_distributions.so.2301.0.0()(64bit) \
-libabsl_random_internal_pool_urbg.so.2301.0.0()(64bit) \
-libabsl_random_internal_randen.so.2301.0.0()(64bit) \
-libabsl_random_internal_randen_hwaes_impl.so.2301.0.0()(64bit) \
-libabsl_random_internal_randen_slow.so.2301.0.0()(64bit) \
-libabsl_random_internal_seed_material.so.2301.0.0()(64bit) \
-libabsl_raw_hash_set.so.2301.0.0()(64bit) \
-libabsl_status.so.2301.0.0()(64bit) \
-libabsl_statusor.so.2301.0.0()(64bit) \
-libabsl_str_format_internal.so.2301.0.0()(64bit) \
-libabsl_strings.so.2301.0.0()(64bit) \
-libabsl_strings_internal.so.2301.0.0()(64bit) \
-libabsl_synchronization.so.2301.0.0()(64bit) \
-libabsl_throw_delegate.so.2301.0.0()(64bit) \
-libabsl_time.so.2301.0.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libre2.so.10()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libabsl-die-if-null.so.2301.0.0 \
+libabsl-flags-internal.so.2301.0.0 \
+libabsl-flags-marshalling.so.2301.0.0 \
+libabsl-flags-parse.so.2301.0.0 \
+libabsl-flags-reflection.so.2301.0.0 \
+libabsl-flags-usage.so.2301.0.0 \
+libabsl-hash.so.2301.0.0 \
+libabsl-int128.so.2301.0.0 \
+libabsl-leak-check.so.2301.0.0 \
+libabsl-log-flags.so.2301.0.0 \
+libabsl-log-globals.so.2301.0.0 \
+libabsl-log-initialize.so.2301.0.0 \
+libabsl-log-internal-check-op.so.2301.0.0 \
+libabsl-log-internal-conditions.so.2301.0.0 \
+libabsl-log-internal-message.so.2301.0.0 \
+libabsl-log-internal-nullguard.so.2301.0.0 \
+libabsl-random-distributions.so.2301.0.0 \
+libabsl-random-internal-pool-urbg.so.2301.0.0 \
+libabsl-random-internal-randen-hwaes-impl.so.2301.0.0 \
+libabsl-random-internal-randen-slow.so.2301.0.0 \
+libabsl-random-internal-randen.so.2301.0.0 \
+libabsl-random-internal-seed-material.so.2301.0.0 \
+libabsl-raw-hash-set.so.2301.0.0 \
+libabsl-status.so.2301.0.0 \
+libabsl-statusor.so.2301.0.0 \
+libabsl-str-format-internal.so.2301.0.0 \
+libabsl-strings-internal.so.2301.0.0 \
+libabsl-strings.so.2301.0.0 \
+libabsl-synchronization.so.2301.0.0 \
+libabsl-throw-delegate.so.2301.0.0 \
+libabsl-time.so.2301.0.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libprotobuf-3.21.12.so \
+libre2.so.10 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

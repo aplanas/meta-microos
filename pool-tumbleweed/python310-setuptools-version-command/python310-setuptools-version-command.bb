@@ -9,11 +9,11 @@ RPM_HASH = "bfe33c4285d36cc8767e66614a882fe5a7644ca99143502603f335d3cf102e5dfc43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-setuptools-version-command \
-python3.10dist(setuptools-version-command) \
+python3.10dist-setuptools-version-command \
 python310-setuptools-version-command \
-python3dist(setuptools-version-command)"
+python3dist-setuptools-version-command"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

@@ -25,92 +25,47 @@ PV = "1.4.0~rc2"
 RPM_NAME = "clementine-1.4.0~rc2-1.12.aarch64.rpm"
 RPM_HASH = "14122d4f7f5aef5f4a6a28f65c5141f8ec833ede35499331787cc10d5605e132363adbdfcd98d093cc9104db73c54dbcc4fbc5b191312cac5528d838589975af"
 
-RPROVIDES:${PN} += "application() \
-application(org.clementine_player.Clementine.desktop) \
-clementine \
-clementine(aarch-64) \
-clementine-kde \
-metainfo() \
-metainfo(org.clementine_player.Clementine.appdata.xml) \
-mimehandler(application/ogg) \
-mimehandler(application/x-ogg) \
-mimehandler(application/x-ogm-audio) \
-mimehandler(audio/aac) \
-mimehandler(audio/mp4) \
-mimehandler(audio/mpeg) \
-mimehandler(audio/mpegurl) \
-mimehandler(audio/ogg) \
-mimehandler(audio/vnd.rn-realaudio) \
-mimehandler(audio/vorbis) \
-mimehandler(audio/x-flac) \
-mimehandler(audio/x-mp3) \
-mimehandler(audio/x-mpeg) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-ms-wma) \
-mimehandler(audio/x-musepack) \
-mimehandler(audio/x-oggflac) \
-mimehandler(audio/x-pn-realaudio) \
-mimehandler(audio/x-scpls) \
-mimehandler(audio/x-speex) \
-mimehandler(audio/x-vorbis) \
-mimehandler(audio/x-vorbis+ogg) \
-mimehandler(audio/x-wav) \
-mimehandler(video/x-ms-asf) \
-mimehandler(x-content/audio-player) \
-mimehandler(x-scheme-handler/feed) \
-mimehandler(x-scheme-handler/itms) \
-mimehandler(x-scheme-handler/itpc) \
-mimehandler(x-scheme-handler/zune)"
+RPROVIDES:${PN} += "clementine \
+clementine-kde"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Concurrent.so.5()(64bit) \
-libQt5Concurrent.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5OpenGL.so.5()(64bit) \
-libQt5OpenGL.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcdio.so.19()(64bit) \
-libcdio.so.19(CDIO_19)(64bit) \
-libchromaprint.so.1()(64bit) \
-libcryptopp.so.8.7.0()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgpod.so.4()(64bit) \
-libgstapp-1.0.so.0()(64bit) \
-libgstaudio-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgsttag-1.0.so.0()(64bit) \
-liblastfm5.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmtp.so.9()(64bit) \
-libmygpo-qt5.so.1()(64bit) \
-libprojectM.so.3()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libqxtglobalshortcut.so.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Concurrent.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5OpenGL.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libasound.so.2 \
+libc.so.6 \
+libcdio.so.19 \
+libchromaprint.so.1 \
+libcryptopp.so.8.7.0 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgpod.so.4 \
+libgstapp-1.0.so.0 \
+libgstaudio-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgsttag-1.0.so.0 \
+liblastfm5.so.1 \
+libm.so.6 \
+libmtp.so.9 \
+libmygpo-qt5.so.1 \
+libprojectM.so.3 \
+libprotobuf-3.21.12.so \
+libpulse.so.0 \
+libqxtglobalshortcut.so.0 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libtag.so.1 \
 libtag1 \
-libz.so.1()(64bit)"
+libz.so.1"
 
 inherit rpm

@@ -30,31 +30,31 @@ RPM_NAME = "perl-XML-Stream-1.24-1.24.noarch.rpm"
 RPM_HASH = "2129633ad2a12c10e0ee46712722e13707cf81a6dcd50d88333fa36d7b76393be6b6d2b894b4b1914ca3e7220d78281591d3cecf6b3436546996e2664374ec5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Stream) \
-perl(XML::Stream::IO::Select::Win32) \
-perl(XML::Stream::Namespace) \
-perl(XML::Stream::Node) \
-perl(XML::Stream::Parser) \
-perl(XML::Stream::Parser::DTD) \
-perl(XML::Stream::Tools) \
-perl(XML::Stream::Tree) \
-perl(XML::Stream::XPath) \
-perl(XML::Stream::XPath::AllOp) \
-perl(XML::Stream::XPath::AndOp) \
-perl(XML::Stream::XPath::AttributeOp) \
-perl(XML::Stream::XPath::ContextOp) \
-perl(XML::Stream::XPath::EqualOp) \
-perl(XML::Stream::XPath::FunctionOp) \
-perl(XML::Stream::XPath::NodeOp) \
-perl(XML::Stream::XPath::NotEqualOp) \
-perl(XML::Stream::XPath::Op) \
-perl(XML::Stream::XPath::OrOp) \
-perl(XML::Stream::XPath::PositionOp) \
-perl(XML::Stream::XPath::Query) \
-perl(XML::Stream::XPath::Value) \
+RPROVIDES:${PN} += "perl-XML--Stream \
+perl-XML--Stream--IO--Select--Win32 \
+perl-XML--Stream--Namespace \
+perl-XML--Stream--Node \
+perl-XML--Stream--Parser \
+perl-XML--Stream--Parser--DTD \
+perl-XML--Stream--Tools \
+perl-XML--Stream--Tree \
+perl-XML--Stream--XPath \
+perl-XML--Stream--XPath--AllOp \
+perl-XML--Stream--XPath--AndOp \
+perl-XML--Stream--XPath--AttributeOp \
+perl-XML--Stream--XPath--ContextOp \
+perl-XML--Stream--XPath--EqualOp \
+perl-XML--Stream--XPath--FunctionOp \
+perl-XML--Stream--XPath--NodeOp \
+perl-XML--Stream--XPath--NotEqualOp \
+perl-XML--Stream--XPath--Op \
+perl-XML--Stream--XPath--OrOp \
+perl-XML--Stream--XPath--PositionOp \
+perl-XML--Stream--XPath--Query \
+perl-XML--Stream--XPath--Value \
 perl-XML-Stream"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Authen::SASL)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Authen--SASL"
 
 inherit rpm

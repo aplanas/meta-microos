@@ -17,9 +17,8 @@ PV = "2.2.5"
 RPM_NAME = "dSFMT-devel-2.2.5-1.8.aarch64.rpm"
 RPM_HASH = "c5f1979355cb8998b0068e3c691df561dcf44cf68575f8d88500bf7774684663eda78b4626980dd7ad549eae2234622bb7f6670bd6e7d66cd6fd3dfd9d2d52d7"
 
-RPROVIDES:${PN} += "dSFMT-devel \
-dSFMT-devel(aarch-64)"
+RPROVIDES:${PN} += "dSFMT-devel"
 
-RDEPENDS:${PN} += "libdSFMT2_2"
+RDEPENDS:${PN} += "libdSFMT2-2"
 
 inherit rpm

@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "nemo-extension-sendto-blueman"
 
 RDEPENDS:${PN} += "blueman \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Nemo)"
+typelib-GObject \
+typelib-Gio \
+typelib-Nemo"
 
 inherit rpm

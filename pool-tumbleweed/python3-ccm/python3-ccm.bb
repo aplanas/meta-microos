@@ -9,25 +9,25 @@ RPM_HASH = "76363cc325d8648c63584410cb8f84642dfcba7107abb5a72d2ab2ad362f79fb6ed4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ccm \
-python3.10dist(ccsm) \
-python3dist(ccsm)"
+python3.10dist-ccsm \
+python3dist-ccsm"
 
 RDEPENDS:${PN} += "compiz \
 compizconfig-settings-manager-common \
-python(abi) \
+python-abi \
 python3-cairo \
 python3-compizconfig \
 python3-gobject \
 python3-gobject-Gdk \
 python3-gobject-cairo \
 python3-xml \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Pango) \
-typelib(PangoCairo)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-Pango \
+typelib-PangoCairo"
 
 inherit rpm

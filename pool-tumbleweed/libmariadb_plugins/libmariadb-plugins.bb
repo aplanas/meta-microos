@@ -10,14 +10,12 @@ PV = "3.3.5"
 RPM_NAME = "libmariadb_plugins-3.3.5-1.1.aarch64.rpm"
 RPM_HASH = "cb4c3f0264f4584d043c938c16d3ab3483a52777c7a0c016ac26587a345ddd753a93218ae13448574d5c1653a66183a32515291c9f8e76e24005f1a5f597dc52"
 
-RPROVIDES:${PN} += "libmariadb_plugins \
-libmariadb_plugins(aarch-64)"
+RPROVIDES:${PN} += "libmariadb-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libgssapi-krb5.so.2"
 
 inherit rpm

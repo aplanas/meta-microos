@@ -19,48 +19,46 @@ PV = "1.12.0"
 RPM_NAME = "orthanc-1.12.0-1.2.aarch64.rpm"
 RPM_HASH = "a180ab465ebce064a41aadaab27c436b0f2a8dbc5911c3ac06b339e17245e6fef298d455c277b114f0caf3190555584e1d2d5430ae9552dff67a8aca18a6ee90"
 
-RPROVIDES:${PN} += "config(orthanc) \
-libConnectivityChecks.so.1.12.0()(64bit) \
-libDelayedDeletion.so.1.12.0()(64bit) \
-libHousekeeper.so.1.12.0()(64bit) \
-libModalityWorklists.so.1.12.0()(64bit) \
-libMultitenantDicom.so.1.12.0()(64bit) \
-libServeFolders.so.1.12.0()(64bit) \
-orthanc \
-orthanc(aarch-64)"
+RPROVIDES:${PN} += "config-orthanc \
+libConnectivityChecks.so.1.12.0 \
+libDelayedDeletion.so.1.12.0 \
+libHousekeeper.so.1.12.0 \
+libModalityWorklists.so.1.12.0 \
+libMultitenantDicom.so.1.12.0 \
+libServeFolders.so.1.12.0 \
+orthanc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 dcmtk \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_iostreams.so.1.82.0()(64bit) \
-libboost_locale.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcivetweb.so.1.15.0()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libdcmdata.so.17()(64bit) \
-libdcmimage.so.17()(64bit) \
-libdcmjpeg.so.17()(64bit) \
-libdcmjpls.so.17()(64bit) \
-libdcmnet.so.17()(64bit) \
-libdcmtls.so.17()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libjsoncpp.so.25()(64bit) \
-liblua5.1.so.5()(64bit) \
-liboflog.so.17()(64bit) \
-libofstd.so.17()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libpugixml.so.1()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libboost-filesystem.so.1.82.0 \
+libboost-iostreams.so.1.82.0 \
+libboost-locale.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcivetweb.so.1.15.0 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libdcmdata.so.17 \
+libdcmimage.so.17 \
+libdcmjpeg.so.17 \
+libdcmjpls.so.17 \
+libdcmnet.so.17 \
+libdcmtls.so.17 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libjsoncpp.so.25 \
+liblua5.1.so.5 \
+liboflog.so.17 \
+libofstd.so.17 \
+libpng16.so.16 \
+libprotobuf-3.21.12.so \
+libpugixml.so.1 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libuuid.so.1 \
+libz.so.1"
 
 inherit rpm

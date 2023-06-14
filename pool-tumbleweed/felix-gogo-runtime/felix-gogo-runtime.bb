@@ -10,9 +10,9 @@ RPM_HASH = "332bcd1f4a9750a166c279ab2782ba560956f80f96ce89843166bdac9783deb59678
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-runtime \
-mvn(org.apache.felix:org.apache.felix.gogo.runtime) \
-mvn(org.apache.felix:org.apache.felix.gogo.runtime:pom:) \
-osgi(org.apache.felix.gogo.runtime)"
+mvn-org.apache.felix-org.apache.felix.gogo.runtime \
+mvn-org.apache.felix-org.apache.felix.gogo.runtime-pom- \
+osgi-org.apache.felix.gogo.runtime"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

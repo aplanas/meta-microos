@@ -13,7 +13,7 @@ RPM_NAME = "texlive-mpostinl-2023.201.1.5svn49559-54.1.noarch.rpm"
 RPM_HASH = "6158ccca00fbeaaed4913cb7a8f396224a445fb380375342250dc0eb34be167044be15bf63f87a9292720d0dc5fd7502bc4dbee071e174bfd69c7a35ab8398ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mpostinl.sty) \
+RPROVIDES:${PN} += "tex-mpostinl.sty \
 texlive-mpostinl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphicx.sty) \
-tex(keyval.sty) \
-tex(verbatim.sty) \
+tex-graphicx.sty \
+tex-keyval.sty \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

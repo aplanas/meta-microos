@@ -15,11 +15,11 @@ RPM_NAME = "python39-zope.schema-7.0.1-2.1.noarch.rpm"
 RPM_HASH = "47011771dfd2448494dd4b12a93f7e90e7945b90094eb6f0f99cd1618840e452bc1f8ca60cb8bb7d0ddaac42beb3870ddd0974f94aa7bfe2248ac1e9cbd63f59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(zope.schema) \
+RPROVIDES:${PN} += "python3.9dist-zope.schema \
 python39-zope.schema \
-python3dist(zope.schema)"
+python3dist-zope.schema"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-zope.event \
 python39-zope.interface"
 

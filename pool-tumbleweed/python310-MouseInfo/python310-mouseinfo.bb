@@ -11,11 +11,11 @@ RPM_HASH = "a609297f469c79c58379c5458def6d07195d278d85f99941399e58739eaee55ca590
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-MouseInfo \
-python3.10dist(mouseinfo) \
+python3.10dist-mouseinfo \
 python310-MouseInfo \
-python3dist(mouseinfo)"
+python3dist-mouseinfo"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-pyperclip"
 

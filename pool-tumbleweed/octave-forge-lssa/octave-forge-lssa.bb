@@ -10,15 +10,14 @@ PV = "0.1.4"
 RPM_NAME = "octave-forge-lssa-0.1.4-1.12.aarch64.rpm"
 RPM_HASH = "cce06b1e915dd3e182885b42cc77f3839ba15fac8e1a805ac2a1ca6719234ebc2517cb5384d9dd30d669adce8d20721bb93fce85ed679957948a4e0ad8239aaf"
 
-RPROVIDES:${PN} += "octave-forge-lssa \
-octave-forge-lssa(aarch-64)"
+RPROVIDES:${PN} += "octave-forge-lssa"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 octave-cli"
 
 inherit rpm

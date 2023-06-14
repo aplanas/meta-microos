@@ -9,7 +9,7 @@ RPM_NAME = "firewalld-1.3.2-2.1.noarch.rpm"
 RPM_HASH = "776ed9a8e8652714a8e77002cb97db4691b8e529fc980614f062c1571b3e0e70f97c47ffe677fe8672e222fadbb950f75e3edd68fccd4112e021ae5d8ad1ca4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(firewalld) \
+RPROVIDES:${PN} += "config-firewalld \
 firewalld \
 firewalld-prometheus-config"
 
@@ -22,6 +22,6 @@ nftables \
 python3-firewall \
 python3-gobject \
 python3-nftables \
-typelib(GObject)"
+typelib-GObject"
 
 inherit rpm

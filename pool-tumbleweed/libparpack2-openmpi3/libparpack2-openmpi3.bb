@@ -9,20 +9,18 @@ PV = "3.9.0"
 RPM_NAME = "libparpack2-openmpi3-3.9.0-1.3.aarch64.rpm"
 RPM_HASH = "11da8c9abacd6ab4ba1d2e47c4d2a510ac44560c0f8afdf69b5f602c7be439e02fa43acc7bc09b24186198e8d3479c5877abf43ae86e0128b6e3b314591eea0e"
 
-RPROVIDES:${PN} += "libparpack.so.2()(64bit) \
-libparpack2-openmpi3 \
-libparpack2-openmpi3(aarch-64)"
+RPROVIDES:${PN} += "libparpack.so.2 \
+libparpack2-openmpi3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libarpack.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
-libmpi_mpifh.so.40()(64bit) \
-libopenblas.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libarpack.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
+libmpi-mpifh.so.40 \
+libopenblas.so.0 \
 openmpi3-libs"
 
 inherit rpm

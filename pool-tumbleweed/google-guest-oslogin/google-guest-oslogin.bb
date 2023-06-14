@@ -9,19 +9,18 @@ RPM_HASH = "a51edda3d4246d1d3c444ca03c01add00f0aaffa27c45d068f21b641ddb06cf2b257
 
 RPROVIDES:${PN} += "google-compute-engine-oslogin \
 google-guest-oslogin \
-google-guest-oslogin(aarch-64) \
-libnss_cache_oslogin.so.2()(64bit) \
-libnss_oslogin.so.2()(64bit)"
+libnss-cache-oslogin.so.2 \
+libnss-oslogin.so.2"
 
 RDEPENDS:${PN} += "/bin/sh \
 glibc \
 google-guest-configs \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjson-c.so.5()(64bit) \
-libpam.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
+libc.so.6 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libjson-c.so.5 \
+libpam.so.0 \
+libstdc++.so.6 \
 openssh \
 pam"
 

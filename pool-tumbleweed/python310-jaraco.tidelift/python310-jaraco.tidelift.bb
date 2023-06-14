@@ -9,11 +9,11 @@ RPM_HASH = "13d57a1f21f9a54557a96f2fe896fcb4adf7ae3e6cab01da7601947b7a46bd1733da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.tidelift \
-python3.10dist(jaraco.tidelift) \
+python3.10dist-jaraco.tidelift \
 python310-jaraco.tidelift \
-python3dist(jaraco.tidelift)"
+python3dist-jaraco.tidelift"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-autocommand \
 python310-importlib-resources \
 python310-keyring \

@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ibmtss-base"
 
 RDEPENDS:${PN} += "/bin/sh \
-user(tss)"
+user-tss"
 
 inherit rpm

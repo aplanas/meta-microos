@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-extra-lang \
 fcitx-table-extra-lang-all \
-locale(fcitx-table-extra:ca) \
-locale(fcitx-table-extra:da) \
-locale(fcitx-table-extra:de) \
-locale(fcitx-table-extra:ja) \
-locale(fcitx-table-extra:ko) \
-locale(fcitx-table-extra:ru) \
-locale(fcitx-table-extra:tr) \
-locale(fcitx-table-extra:zh_CN) \
-locale(fcitx-table-extra:zh_TW)"
+locale-fcitx-table-extra-ca \
+locale-fcitx-table-extra-da \
+locale-fcitx-table-extra-de \
+locale-fcitx-table-extra-ja \
+locale-fcitx-table-extra-ko \
+locale-fcitx-table-extra-ru \
+locale-fcitx-table-extra-tr \
+locale-fcitx-table-extra-zh-CN \
+locale-fcitx-table-extra-zh-TW"
 
 RDEPENDS:${PN} += "fcitx-table-extra"
 

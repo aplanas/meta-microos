@@ -14,17 +14,16 @@ PV = "73.1"
 RPM_NAME = "icu-73.1-1.1.aarch64.rpm"
 RPM_HASH = "d32b96c37f2e3159b480c2c54401dfce06226e25a29c2eeacab5855ac4e0e75a5cf4d53807d487d045b5e15339df66165ee7c50472a94162f4410333c14368ab"
 
-RPROVIDES:${PN} += "bundled(timezone) \
-icu \
-icu(aarch-64)"
+RPROVIDES:${PN} += "bundled-timezone \
+icu"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuio.so.73()(64bit) \
-libicutu.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuio.so.73 \
+libicutu.so.73 \
+libicuuc.so.73 \
+libstdc++.so.6"
 
 inherit rpm

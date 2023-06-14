@@ -10,16 +10,16 @@ RPM_HASH = "157117647a148802252edbe55cbe1fda7a7ece81ad5997177df8fc9ffc8cb887d16d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ejb \
-ejb_2_1_api \
-ejb_api \
-geronimo-ejb-2_1-api \
-mvn(org.apache.geronimo.specs:geronimo-ejb_2.1_spec) \
-mvn(org.apache.geronimo.specs:geronimo-ejb_2.1_spec:pom:)"
+ejb-2-1-api \
+ejb-api \
+geronimo-ejb-2-1-api \
+mvn-org.apache.geronimo.specs-geronimo-ejb-2.1-spec \
+mvn-org.apache.geronimo.specs-geronimo-ejb-2.1-spec-pom-"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \
-jta_1_0_1B_api \
+jta-1-0-1B-api \
 update-alternatives"
 
 inherit rpm

@@ -22,34 +22,27 @@ PV = "3.64.0"
 RPM_NAME = "filezilla-3.64.0-1.1.aarch64.rpm"
 RPM_HASH = "a96aa1e07ef8d3983d1354cd719791b258a21340f3139db75cfdedbecea76f10570c8fa38351022d3690feb49d606bcdc3a902ac9d853d91185f198592356750"
 
-RPROVIDES:${PN} += "application() \
-application(filezilla.desktop) \
-filezilla \
-filezilla(aarch-64) \
-libfzclient-commonui-private-3.64.0.so()(64bit) \
-libfzclient-private-3.64.0.so()(64bit) \
-metainfo() \
-metainfo(filezilla.appdata.xml)"
+RPROVIDES:${PN} += "filezilla \
+libfzclient-commonui-private-3.64.0.so \
+libfzclient-private-3.64.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libfilezilla.so.36()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnettle.so.8()(64bit) \
-libnettle.so.8(NETTLE_8)(64bit) \
-libpugixml.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libfilezilla.so.36 \
+libgcc-s.so.1 \
+libgdk-x11-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libnettle.so.8 \
+libpugixml.so.1 \
 libpugixml1 \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_xrc-suse.so.9.0.0()(64bit)"
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-aui-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0 \
+libwx-gtk2u-xrc-suse.so.9.0.0"
 
 inherit rpm

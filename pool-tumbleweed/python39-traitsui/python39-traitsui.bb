@@ -14,11 +14,11 @@ RPM_NAME = "python39-traitsui-7.2.1-1.6.noarch.rpm"
 RPM_HASH = "c41deb1d1bb74e89c0acf3868b0fd6415703f109b02246178152c815eb6529b7055b2cec17bcf3a61603e0c4f933f19a64662caa8d288659e4ab65ead8b7c9fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(traitsui) \
+RPROVIDES:${PN} += "python3.9dist-traitsui \
 python39-traitsui \
-python3dist(traitsui)"
+python3dist-traitsui"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pyface \
 python39-traits"
 

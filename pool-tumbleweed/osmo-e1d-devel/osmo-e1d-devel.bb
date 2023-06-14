@@ -10,13 +10,12 @@ RPM_HASH = "e596f5188043239f4164afbf3a2106b70490f11076edbc06b44f2b3b68ed6c679a32
 
 RPROVIDES:${PN} += "libosmo-e1d-devel \
 osmo-e1d-devel \
-osmo-e1d-devel(aarch-64) \
-pkgconfig(libosmo-e1d) \
-pkgconfig(libosmo-octoi)"
+pkgconfig-libosmo-e1d \
+pkgconfig-libosmo-octoi"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-e1d1 \
 libosmo-octoi1 \
-pkgconfig(libosmocore)"
+pkgconfig-libosmocore"
 
 inherit rpm

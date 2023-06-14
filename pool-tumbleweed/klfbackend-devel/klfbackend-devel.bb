@@ -15,7 +15,6 @@ RPM_NAME = "klfbackend-devel-4.1.0-1.13.aarch64.rpm"
 RPM_HASH = "2932364dbe775b91d4ebc57c832c5b181008af04d77af10b4cb072bde70f38f685de91ed5e22ec1121a2a979ea8d72298ca7f891a1ad851fffb13da1b219a642"
 
 RPROVIDES:${PN} += "klfbackend-devel \
-klfbackend-devel(aarch-64) \
 libklfbackend-devel"
 
 RDEPENDS:${PN} += "libklfbackend"

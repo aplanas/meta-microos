@@ -14,7 +14,7 @@ RPM_NAME = "texlive-ptolemaicastronomy-2023.201.1.0svn50810-53.1.noarch.rpm"
 RPM_HASH = "05b1ab0608c4125e796f25319da622f8289f8bf8dc0e0f621e9ccd5ee6c3207ba77bd73c8b3b51866409a1412e494bbcc9090fb64e20f98c028cbffa57657045"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ptolemaicastronomy.sty) \
+RPROVIDES:${PN} += "tex-ptolemaicastronomy.sty \
 texlive-ptolemaicastronomy"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

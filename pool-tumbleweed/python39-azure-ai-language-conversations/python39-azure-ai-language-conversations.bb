@@ -14,11 +14,11 @@ RPM_NAME = "python39-azure-ai-language-conversations-1.1.0b1-1.5.noarch.rpm"
 RPM_HASH = "d0d006f0397a5521b5da1e303cef46aef0db17199b6cdea4b232d451c5fcc4f44c57d04cb3e0a57e7e826f874417d19f19ebcb83b055675cdda6df7623c794ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-ai-language-conversations) \
+RPROVIDES:${PN} += "python3.9dist-azure-ai-language-conversations \
 python39-azure-ai-language-conversations \
-python3dist(azure-ai-language-conversations)"
+python3dist-azure-ai-language-conversations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-ai-language-nspkg \
 python39-azure-ai-nspkg \
 python39-azure-common \

@@ -11,13 +11,12 @@ PV = "2.7.1"
 RPM_NAME = "gsl-2.7.1-1.3.aarch64.rpm"
 RPM_HASH = "41235d00297e7be5af6d6d9e57624f9f384d278747dcb5357b340a17fa2ddfb25e92fa578ca96b5c64ba54515341cc9b0ea1c12843be0c54fd7e9bdbaf0c051a"
 
-RPROVIDES:${PN} += "gsl \
-gsl(aarch-64)"
+RPROVIDES:${PN} += "gsl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgsl.so.27 \
+libgslcblas.so.0 \
 update-alternatives"
 
 inherit rpm

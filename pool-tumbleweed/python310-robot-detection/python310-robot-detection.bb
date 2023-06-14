@@ -9,11 +9,11 @@ RPM_HASH = "7f0824d4a8af86a05a2592e02dfe863731acd875160372a20f0ae44e5baf496ba4e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-robot-detection \
-python3.10dist(robot-detection) \
+python3.10dist-robot-detection \
 python310-robot-detection \
-python3dist(robot-detection)"
+python3dist-robot-detection"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

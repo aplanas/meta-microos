@@ -11,10 +11,10 @@ RPM_HASH = "e49ab3bf05078905971cf378f40fdb94ca485962e1f2dc644d02b20726e617f2f135
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyMeeus \
-python3.10dist(pymeeus) \
+python3.10dist-pymeeus \
 python310-PyMeeus \
-python3dist(pymeeus)"
+python3dist-pymeeus"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

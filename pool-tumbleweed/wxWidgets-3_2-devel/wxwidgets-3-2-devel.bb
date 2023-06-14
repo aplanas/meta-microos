@@ -18,33 +18,32 @@ RPM_HASH = "80d070b1e46dd26b6dd0d3b639d8033c6478c2ef270776256359649692b012651fdf
 
 RPROVIDES:${PN} += "wxGTK-devel \
 wxGTK2-devel \
-wxWidgets-3_2-devel \
-wxWidgets-3_2-devel(aarch-64) \
+wxWidgets-3-2-devel \
 wxWidgets-any-devel \
 wxWidgets-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gtk2-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_base-suse-devel \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_adv-suse9_0_0 \
-libwx_gtk2u_aui-suse9_0_0 \
-libwx_gtk2u_core-suse9_0_0 \
-libwx_gtk2u_gl-suse9_0_0 \
-libwx_gtk2u_html-suse9_0_0 \
-libwx_gtk2u_media-suse9_0_0 \
-libwx_gtk2u_propgrid-suse9_0_0 \
-libwx_gtk2u_qa-suse9_0_0 \
-libwx_gtk2u_ribbon-suse9_0_0 \
-libwx_gtk2u_richtext-suse9_0_0 \
-libwx_gtk2u_stc-suse9_0_0 \
-libwx_gtk2u_xrc-suse9_0_0 \
-pkgconfig(gl) \
-pkgconfig(glu)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwx-base-suse-devel \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-gtk2u-adv-suse9-0-0 \
+libwx-gtk2u-aui-suse9-0-0 \
+libwx-gtk2u-core-suse9-0-0 \
+libwx-gtk2u-gl-suse9-0-0 \
+libwx-gtk2u-html-suse9-0-0 \
+libwx-gtk2u-media-suse9-0-0 \
+libwx-gtk2u-propgrid-suse9-0-0 \
+libwx-gtk2u-qa-suse9-0-0 \
+libwx-gtk2u-ribbon-suse9-0-0 \
+libwx-gtk2u-richtext-suse9-0-0 \
+libwx-gtk2u-stc-suse9-0-0 \
+libwx-gtk2u-xrc-suse9-0-0 \
+pkgconfig-gl \
+pkgconfig-glu"
 
 inherit rpm

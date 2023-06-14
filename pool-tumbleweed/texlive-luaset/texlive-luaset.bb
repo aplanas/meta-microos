@@ -17,7 +17,7 @@ RPM_NAME = "texlive-luaset-2023.201.1.0svn65376-52.1.noarch.rpm"
 RPM_HASH = "200ecf1f68b06d6625fe543e649716f82aa17e2b89d7b8539ea779fc35a9c39f538a45f013f65b6c733a7df6765cdc15472bd8f3e5199498e622c5b3d594adb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luaset.sty) \
+RPROVIDES:${PN} += "tex-luaset.sty \
 texlive-luaset"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,10 +26,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(luacode.sty) \
-tex(luamaths.sty) \
-tex(xkeyval.sty) \
+tex-amsmath.sty \
+tex-luacode.sty \
+tex-luamaths.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

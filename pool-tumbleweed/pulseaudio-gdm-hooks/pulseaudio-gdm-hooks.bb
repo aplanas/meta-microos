@@ -11,8 +11,7 @@ PV = "16.1"
 RPM_NAME = "pulseaudio-gdm-hooks-16.1-3.1.aarch64.rpm"
 RPM_HASH = "3d9ea39ed5c14acd5c27447abc85770ed54b25a3bf7943191467dcaef5248d294c0073c45c4d6ce82b56797639c14e0c0baf3eec609f4812917dcc5506ff7ec6"
 
-RPROVIDES:${PN} += "pulseaudio-gdm-hooks \
-pulseaudio-gdm-hooks(aarch-64)"
+RPROVIDES:${PN} += "pulseaudio-gdm-hooks"
 
 RDEPENDS:${PN} += "/bin/sh \
 gdm \

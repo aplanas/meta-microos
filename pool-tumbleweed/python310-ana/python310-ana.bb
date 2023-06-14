@@ -9,11 +9,11 @@ RPM_HASH = "d5c295cc63429c0110f9192ca75e5ee2045a3eca4617d3d32349c91553c52430ea63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ana \
-python3.10dist(ana) \
+python3.10dist-ana \
 python310-ana \
-python3dist(ana)"
+python3dist-ana"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future"
 
 inherit rpm

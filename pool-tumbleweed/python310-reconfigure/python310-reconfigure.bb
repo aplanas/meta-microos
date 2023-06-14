@@ -9,11 +9,11 @@ RPM_HASH = "17add9bf38f37c08a5997f556c773906bd0a0426c170cb9dc83cdd2f09d42df8616b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-reconfigure \
-python3.10dist(reconfigure) \
+python3.10dist-reconfigure \
 python310-reconfigure \
-python3dist(reconfigure)"
+python3dist-reconfigure"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-chardet"
 
 inherit rpm

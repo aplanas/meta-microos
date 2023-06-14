@@ -9,15 +9,14 @@ PV = "0.40.0"
 RPM_NAME = "dconf-0.40.0-3.3.aarch64.rpm"
 RPM_HASH = "a17659174e81815f432846da0e66493db38c87f69b805b9c06c6831c726f48a7351b3376cb6c93a79ce866f4d7248bd62f5e6a030783933fc7603059a3ef9077"
 
-RPROVIDES:${PN} += "dconf \
-dconf(aarch-64)"
+RPROVIDES:${PN} += "dconf"
 
 RDEPENDS:${PN} += "dbus-1 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdconf.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdconf.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mumps-gnu-openmpi2-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-mumps_5_3_5-gnu-openmpi2-hpc-devel"
+mumps-5-3-5-gnu-openmpi2-hpc-devel"
 
 inherit rpm

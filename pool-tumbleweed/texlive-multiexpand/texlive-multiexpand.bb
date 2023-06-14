@@ -13,7 +13,7 @@ RPM_NAME = "texlive-multiexpand-2023.201.1.5svn45943-54.1.noarch.rpm"
 RPM_HASH = "e9633766c6a11281f745b8049da6c75756673f1681bb0aee4fa5814223a6abb0febc52f8c1adfc2d51dd8ac53a7f7e603df694bb10ce17d37f858d57bc4604f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(multiexpand.sty) \
+RPROVIDES:${PN} += "tex-multiexpand.sty \
 texlive-multiexpand"
 
 RDEPENDS:${PN} += "/bin/sh \

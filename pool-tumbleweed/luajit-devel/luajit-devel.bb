@@ -9,11 +9,10 @@ RPM_HASH = "aaf098faa9758bf4f013a32ceec5b3ff344fc80e4be0c451f5e79fc3e05cc5ce1319
 
 RPROVIDES:${PN} += "libluajit-devel \
 luajit-devel \
-luajit-devel(aarch-64) \
-pkgconfig(luajit)"
+pkgconfig-luajit"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 luajit \
-luajit-5_1-2"
+luajit-5-1-2"
 
 inherit rpm

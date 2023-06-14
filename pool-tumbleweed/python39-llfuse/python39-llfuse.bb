@@ -11,14 +11,13 @@ PV = "1.4.2"
 RPM_NAME = "python39-llfuse-1.4.2-1.6.aarch64.rpm"
 RPM_HASH = "0f9ba662cd0efffdb3e278359088e744862806e796aad64126a336980be575c1286117670a02134652aa4c91b099ca16274279f7051718d60b9872c2f9c6cb26"
 
-RPROVIDES:${PN} += "python3.9dist(llfuse) \
+RPROVIDES:${PN} += "python3.9dist-llfuse \
 python39-llfuse \
-python39-llfuse(aarch-64) \
-python3dist(llfuse)"
+python3dist-llfuse"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfuse.so.2 \
+python-abi"
 
 inherit rpm

@@ -16,9 +16,9 @@ RPM_NAME = "perl-Sub-Delete-1.00002-1.15.noarch.rpm"
 RPM_HASH = "3176704350a190e09616190c01d679408b52e2883f56e0851e15ec499629f51d638d372621f3bb754643a9a31165156a2c5a443c5d436bd04b2ecef0ec514175"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Sub::Delete) \
+RPROVIDES:${PN} += "perl-Sub--Delete \
 perl-Sub-Delete"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -14,15 +14,14 @@ PV = "1.4.0"
 RPM_NAME = "pam_passwdqc-1.4.0-2.7.aarch64.rpm"
 RPM_HASH = "33683752ff448b7f86355c951676c932e188078db47a8197c36e987aab3745947c10a5daa3543495c7ffc2c10b1444426bcdb47add0805ef40960a7caffbdb1c"
 
-RPROVIDES:${PN} += "pam-modules:/usr/lib64/security/pam_passwdqc.so \
-pam_passwdqc \
-pam_passwdqc(aarch-64)"
+RPROVIDES:${PN} += "pam-modules-/usr/lib64/security/pam-passwdqc.so \
+pam-passwdqc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libpam.so.0()(64bit) \
-libpasswdqc.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libpam.so.0 \
+libpasswdqc.so.0 \
 pam"
 
 inherit rpm

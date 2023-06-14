@@ -15,10 +15,9 @@ PV = "2013_01_03"
 RPM_NAME = "fxload-2013_01_03-2.2.aarch64.rpm"
 RPM_HASH = "55365d46f634819e001a0693bd3f020ac8ed1f76b2cb82ef15e352313b347c6bafa1aa2e2bdb3af643e96892297c48f9521c71709e4954f14e7eec8315a88a20"
 
-RPROVIDES:${PN} += "fxload \
-fxload(aarch-64)"
+RPROVIDES:${PN} += "fxload"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

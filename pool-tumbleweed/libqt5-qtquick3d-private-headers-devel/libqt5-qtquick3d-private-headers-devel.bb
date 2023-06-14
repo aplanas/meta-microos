@@ -8,8 +8,7 @@ PV = "5.15.9+kde1"
 RPM_NAME = "libqt5-qtquick3d-private-headers-devel-5.15.9+kde1-1.1.aarch64.rpm"
 RPM_HASH = "5a63b9d649c7a0c9283f74ef925e1d9c87c2bf9fc5eb5760137c6060b1143e2d74a7a4ae44677c676f587f42ffa072e625d10586efb22afaae331057be1782aa"
 
-RPROVIDES:${PN} += "libqt5-qtquick3d-private-headers-devel \
-libqt5-qtquick3d-private-headers-devel(aarch-64)"
+RPROVIDES:${PN} += "libqt5-qtquick3d-private-headers-devel"
 
 RDEPENDS:${PN} += "libqt5-qtquick3d-devel"
 

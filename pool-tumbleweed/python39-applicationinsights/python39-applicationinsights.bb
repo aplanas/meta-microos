@@ -14,10 +14,10 @@ RPM_NAME = "python39-applicationinsights-0.11.10-1.8.noarch.rpm"
 RPM_HASH = "13c915dd03de6040e45dec2ff923366bd17df36cc6a7fcc239732440568cec12fb6827690319650a5efdcd488b853fc1d197bb491f6195f449214a5195d141fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(applicationinsights) \
+RPROVIDES:${PN} += "python3.9dist-applicationinsights \
 python39-applicationinsights \
-python3dist(applicationinsights)"
+python3dist-applicationinsights"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

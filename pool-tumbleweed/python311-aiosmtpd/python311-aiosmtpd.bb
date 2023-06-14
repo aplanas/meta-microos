@@ -19,16 +19,16 @@ RPM_NAME = "python311-aiosmtpd-1.4.4.post2-1.4.noarch.rpm"
 RPM_HASH = "e3fa74c39d56dc2812db2aee0cddc2ec0d2c2b5e51b89fa81168caf6bc002a14f0d968b87251d35a85f8395c2aae5f7b005b250ca9d6d484bf01a8664eca552c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(aiosmtpd) \
+RPROVIDES:${PN} += "python3.11dist-aiosmtpd \
 python311-aiosmtpd \
-python3dist(aiosmtpd)"
+python3dist-aiosmtpd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-atpublic \
 python311-attrs \
 update-alternatives \
-user(nobody)"
+user-nobody"
 
 inherit rpm

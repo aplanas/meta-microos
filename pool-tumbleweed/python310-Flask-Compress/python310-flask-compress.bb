@@ -14,11 +14,11 @@ RPM_HASH = "99b0aaab33eecb0065f37cda17de64cdfd5fe6acda69d6a3cbe72086878e728a332c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Compress \
-python3.10dist(flask-compress) \
+python3.10dist-flask-compress \
 python310-Flask-Compress \
-python3dist(flask-compress)"
+python3dist-flask-compress"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Brotli \
 python310-Flask"
 

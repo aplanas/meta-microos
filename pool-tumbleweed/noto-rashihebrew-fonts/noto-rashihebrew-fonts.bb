@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-rashihebrew \
 noto-rashihebrew-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

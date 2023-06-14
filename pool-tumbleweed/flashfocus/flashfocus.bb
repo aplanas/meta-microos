@@ -9,12 +9,12 @@ RPM_HASH = "b992e3f25dec8431d0c04ef5c724bc88ff4870506c442cc1a6aa775b4e5a8b39bf29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flashfocus \
-python3.10dist(flashfocus) \
-python3dist(flashfocus)"
+python3.10dist-flashfocus \
+python3dist-flashfocus"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-cffi \
 python3-click \

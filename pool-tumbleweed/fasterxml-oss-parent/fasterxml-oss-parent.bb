@@ -16,14 +16,14 @@ RPM_HASH = "6beb8d5aac01ff08a7007bddc1446159f06142b197efab6e6cdd2c215cd2f7c38c88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fasterxml-oss-parent \
-mvn(com.fasterxml:oss-parent:pom:)"
+mvn-com.fasterxml-oss-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.felix:maven-bundle-plugin) \
-mvn(org.apache.maven.plugins:maven-compiler-plugin) \
-mvn(org.apache.maven.plugins:maven-jar-plugin) \
-mvn(org.apache.maven.plugins:maven-surefire-plugin) \
-mvn(org.codehaus.mojo:build-helper-maven-plugin)"
+mvn-org.apache.felix-maven-bundle-plugin \
+mvn-org.apache.maven.plugins-maven-compiler-plugin \
+mvn-org.apache.maven.plugins-maven-jar-plugin \
+mvn-org.apache.maven.plugins-maven-surefire-plugin \
+mvn-org.codehaus.mojo-build-helper-maven-plugin"
 
 inherit rpm

@@ -10,16 +10,14 @@ PV = "4.8.0"
 RPM_NAME = "pdns-backend-mysql-4.8.0-1.1.aarch64.rpm"
 RPM_HASH = "1ffcc47e95a6019b68b617f76524b2a72760fbd9e322479e30ad41526bf179e169879a37d1ad82307f42aef767b3fe6083edaefded16ea4bcf5d42e938e7e34e"
 
-RPROVIDES:${PN} += "libgmysqlbackend.so()(64bit) \
-pdns-backend-mysql \
-pdns-backend-mysql(aarch-64)"
+RPROVIDES:${PN} += "libgmysqlbackend.so \
+pdns-backend-mysql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmariadb.so.3 \
+libstdc++.so.6 \
 pdns"
 
 inherit rpm

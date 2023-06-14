@@ -8,16 +8,15 @@ PV = "5.7.0"
 RPM_NAME = "python311-ujson-5.7.0-1.2.aarch64.rpm"
 RPM_HASH = "73cc469bb30d125e8bb5f74f0aaad1bad1e10065a608d415fa366662818231a84d69b6645b55136f01416268a6d862fbf16e528988bd68e454381359483ea0cc"
 
-RPROVIDES:${PN} += "python3.11dist(ujson) \
+RPROVIDES:${PN} += "python3.11dist-ujson \
 python311-ujson \
-python311-ujson(aarch-64) \
-python3dist(ujson)"
+python3dist-ujson"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdouble-conversion.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdouble-conversion.so.3 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

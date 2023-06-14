@@ -9,13 +9,13 @@ RPM_HASH = "13d77d7a5e281b7c729aec580ac3931cfca444a58458b9dc91a64529363343d86fdc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-actdiag \
-python3.10dist(actdiag) \
+python3.10dist-actdiag \
 python310-actdiag \
-python3dist(actdiag)"
+python3dist-actdiag"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-blockdiag \
 python310-setuptools \
 update-alternatives"

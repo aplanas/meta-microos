@@ -10,40 +10,40 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalendar-lang \
 kalendar-lang-all \
-locale(kalendar:ar) \
-locale(kalendar:az) \
-locale(kalendar:ca) \
-locale(kalendar:ca@valencia) \
-locale(kalendar:cs) \
-locale(kalendar:de) \
-locale(kalendar:el) \
-locale(kalendar:en_GB) \
-locale(kalendar:es) \
-locale(kalendar:eu) \
-locale(kalendar:fi) \
-locale(kalendar:fr) \
-locale(kalendar:hu) \
-locale(kalendar:id) \
-locale(kalendar:it) \
-locale(kalendar:ja) \
-locale(kalendar:ka) \
-locale(kalendar:ko) \
-locale(kalendar:lt) \
-locale(kalendar:lv) \
-locale(kalendar:nl) \
-locale(kalendar:nn) \
-locale(kalendar:pl) \
-locale(kalendar:pt) \
-locale(kalendar:pt_BR) \
-locale(kalendar:ru) \
-locale(kalendar:sk) \
-locale(kalendar:sl) \
-locale(kalendar:sv) \
-locale(kalendar:ta) \
-locale(kalendar:tr) \
-locale(kalendar:uk) \
-locale(kalendar:zh_CN) \
-locale(kalendar:zh_TW)"
+locale-kalendar-ar \
+locale-kalendar-az \
+locale-kalendar-ca \
+locale-kalendar-ca@valencia \
+locale-kalendar-cs \
+locale-kalendar-de \
+locale-kalendar-el \
+locale-kalendar-en-GB \
+locale-kalendar-es \
+locale-kalendar-eu \
+locale-kalendar-fi \
+locale-kalendar-fr \
+locale-kalendar-hu \
+locale-kalendar-id \
+locale-kalendar-it \
+locale-kalendar-ja \
+locale-kalendar-ka \
+locale-kalendar-ko \
+locale-kalendar-lt \
+locale-kalendar-lv \
+locale-kalendar-nl \
+locale-kalendar-nn \
+locale-kalendar-pl \
+locale-kalendar-pt \
+locale-kalendar-pt-BR \
+locale-kalendar-ru \
+locale-kalendar-sk \
+locale-kalendar-sl \
+locale-kalendar-sv \
+locale-kalendar-ta \
+locale-kalendar-tr \
+locale-kalendar-uk \
+locale-kalendar-zh-CN \
+locale-kalendar-zh-TW"
 
 RDEPENDS:${PN} += "kalendar"
 

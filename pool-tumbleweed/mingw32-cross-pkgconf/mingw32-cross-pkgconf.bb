@@ -11,11 +11,10 @@ RPM_HASH = "9cfda332afc0e8cd4c21030bae830939b881b3646dc2216421dee0422e7bf5074992
 
 RPROVIDES:${PN} += "mingw32-cross-pkg-config \
 mingw32-cross-pkgconf \
-mingw32-cross-pkgconf(aarch-64) \
 mingw32-cross-pkgconf-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 mingw32-filesystem \
 pkg-config"
 

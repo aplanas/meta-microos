@@ -9,13 +9,12 @@ PV = "1.1.4"
 RPM_NAME = "libpamtest-devel-1.1.4-2.3.aarch64.rpm"
 RPM_HASH = "8e5364b6ee47c4507a5254f264e40b1e509737a725f672f6afdeb738ebb19cee8cf0dcb6dcb075ed5e7656fa3327fb2c7c6f8a983d3887698a556194876dd0e1"
 
-RPROVIDES:${PN} += "cmake(pamtest) \
+RPROVIDES:${PN} += "cmake-pamtest \
 libpamtest-devel \
-libpamtest-devel(aarch-64) \
-pkgconfig(libpamtest)"
+pkgconfig-libpamtest"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpamtest0 \
-pam_wrapper"
+pam-wrapper"
 
 inherit rpm

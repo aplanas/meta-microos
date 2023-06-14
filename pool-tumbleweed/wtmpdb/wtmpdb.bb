@@ -7,15 +7,14 @@ PV = "0.5.0"
 RPM_NAME = "wtmpdb-0.5.0-1.1.aarch64.rpm"
 RPM_HASH = "d34e31c2de00f370d561ddfa411f859f0d6cfe50efdbdd8787c4c7d9e8b8bbfadd8c45bce5f247c380e7f971b3faecd9b8542c08854ed9c10403a00c828576e1"
 
-RPROVIDES:${PN} += "wtmpdb \
-wtmpdb(aarch-64)"
+RPROVIDES:${PN} += "wtmpdb"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libaudit.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libwtmpdb.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libaudit.so.1 \
+libc.so.6 \
+libpam.so.0 \
+libwtmpdb.so.0 \
 pam-config"
 
 inherit rpm

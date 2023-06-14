@@ -11,11 +11,11 @@ RPM_HASH = "01864f5547554416018e3e5b80daffa23c1226150325cec5aadcc8be37756f6d4b22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-repoze.sphinx.autointerface \
-python3.10dist(repoze.sphinx.autointerface) \
+python3.10dist-repoze.sphinx.autointerface \
 python310-repoze.sphinx.autointerface \
-python3dist(repoze.sphinx.autointerface)"
+python3dist-repoze.sphinx.autointerface"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx \
 python310-zope.interface"
 

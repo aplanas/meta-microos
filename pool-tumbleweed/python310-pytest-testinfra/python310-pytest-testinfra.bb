@@ -15,12 +15,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-testinfra \
 python3-testinfra \
-python3.10dist(pytest-testinfra) \
+python3.10dist-pytest-testinfra \
 python310-pytest-testinfra \
 python310-testinfra \
-python3dist(pytest-testinfra)"
+python3dist-pytest-testinfra"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest"
 
 inherit rpm

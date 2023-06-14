@@ -14,13 +14,12 @@ PV = "13.5.1"
 RPM_NAME = "python39-PyQt6-sip-13.5.1-1.1.aarch64.rpm"
 RPM_HASH = "3d8e4348f451ae3cdb344091786a6e2a3d7d8a859c1c379fe69514a58aff63f7bab4f991d0be33971ac9612a9e4a137c094c6d486ec4405f8ada99691bfb9144"
 
-RPROVIDES:${PN} += "python3.9dist(pyqt6-sip) \
+RPROVIDES:${PN} += "python3.9dist-pyqt6-sip \
 python39-PyQt6-sip \
-python39-PyQt6-sip(aarch-64) \
-python3dist(pyqt6-sip)"
+python3dist-pyqt6-sip"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

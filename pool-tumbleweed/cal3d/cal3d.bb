@@ -14,15 +14,14 @@ PV = "0.120"
 RPM_NAME = "cal3d-0.120-3.10.aarch64.rpm"
 RPM_HASH = "f1643f2520943836b8909dc46e1cde719aceb2b0ca2d7b260508552f8df0f5b6fd44b888de09b0857a4bb46d224930479bd7fa9b2263c3b9320c9da36f8f908b"
 
-RPROVIDES:${PN} += "cal3d \
-cal3d(aarch-64)"
+RPROVIDES:${PN} += "cal3d"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcal3d.so.12()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcal3d.so.12 \
 libcal3d12 \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 pkgconfig"
 
 inherit rpm

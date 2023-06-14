@@ -14,8 +14,7 @@ PV = "0.7.0.7.git+24204af"
 RPM_NAME = "rasdaemon-0.7.0.7.git+24204af-1.2.aarch64.rpm"
 RPM_HASH = "40409b04aff9012540a7b2e0c8573a8e969e4ad85113972dc5e10fc63ff429599d004b0287d1d5797fb787dbca6e3f84f6bc7df28b478e973a96bc2cf5a027da"
 
-RPROVIDES:${PN} += "rasdaemon \
-rasdaemon(aarch-64)"
+RPROVIDES:${PN} += "rasdaemon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
@@ -23,10 +22,10 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 dmidecode \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libtraceevent.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsqlite3.so.0 \
+libtraceevent.so.1 \
 perl-DBD-SQLite"
 
 inherit rpm

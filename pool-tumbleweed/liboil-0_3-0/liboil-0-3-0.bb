@@ -13,13 +13,12 @@ PV = "0.3.17"
 RPM_NAME = "liboil-0_3-0-0.3.17-26.7.aarch64.rpm"
 RPM_HASH = "d80767625af2664a24f7093497ccaaf1daf280249e114dbfc2c1f351b626e9dc15197e9c4fb0f13ebe2443596c278f9a7c7a956675fa3bb01277254ee48d3834"
 
-RPROVIDES:${PN} += "liboil-0.3.so.0()(64bit) \
-liboil-0_3-0 \
-liboil-0_3-0(aarch-64)"
+RPROVIDES:${PN} += "liboil-0-3-0 \
+liboil-0.3.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

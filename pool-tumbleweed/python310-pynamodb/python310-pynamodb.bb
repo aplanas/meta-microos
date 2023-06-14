@@ -9,11 +9,11 @@ RPM_HASH = "435b85717962307b5e0d519d69e93ef1a62909d9258ff2658e621d5fee66bd4fe9d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pynamodb \
-python3.10dist(pynamodb) \
+python3.10dist-pynamodb \
 python310-pynamodb \
-python3dist(pynamodb)"
+python3dist-pynamodb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-botocore \
 python310-python-dateutil"
 

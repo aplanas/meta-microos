@@ -15,14 +15,13 @@ RPM_NAME = "consoleet-utils-1.1-1.3.aarch64.rpm"
 RPM_HASH = "050093abb48919faf53ca18210debb6a22fa8f2cc98a6ec859be55f3750c9d4bd669c4ac364e4006c22cf4eefa4493a6d293668200c73e015e1bb721355e71a5"
 
 RPROVIDES:${PN} += "consoleet-utils \
-consoleet-utils(aarch-64) \
 vfontas"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libHX.so.32()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libHX.so.32 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

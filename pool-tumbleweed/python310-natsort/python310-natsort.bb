@@ -11,13 +11,13 @@ RPM_HASH = "0427a0bd8aa906bf1f894576184b206f6db89504d60e1c3dcb836dc92c4bed1a863b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-natsort \
-python3.10dist(natsort) \
+python3.10dist-natsort \
 python310-natsort \
-python3dist(natsort)"
+python3dist-natsort"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

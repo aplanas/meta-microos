@@ -7,15 +7,14 @@ PV = "0.9.2"
 RPM_NAME = "xclass-devel-0.9.2-188.6.aarch64.rpm"
 RPM_HASH = "f23f4b7c108a009ac7e676826b0391cc12b17f8202716657f614dad47ddeb1329493c0ecaa46dad160cf5cb4fbbc0d0a76eeaa7bfc74f04404db7acdc2dbe9a6"
 
-RPROVIDES:${PN} += "xclass-devel \
-xclass-devel(aarch-64)"
+RPROVIDES:${PN} += "xclass-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 libstdc++-devel \
-libxclass-0_9_2 \
+libxclass-0-9-2 \
 pkgconfig \
-pkgconfig(gl) \
-pkgconfig(x11) \
-pkgconfig(xpm)"
+pkgconfig-gl \
+pkgconfig-x11 \
+pkgconfig-xpm"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "2facd7353cfa4c7d5c57c73323b67ce72eaf66682a60113aba418121dac433fb665e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wafw00f \
-python3.10dist(wafw00f) \
+python3.10dist-wafw00f \
 python310-wafw00f \
-python3dist(wafw00f)"
+python3dist-wafw00f"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pluginbase \
 python310-requests"
 

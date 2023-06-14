@@ -13,11 +13,11 @@ RPM_HASH = "a1212ad2c7e8acbcab0d4d4f91657363211a15dd8e3d8b16f82ef721fbf833e7dd58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-apidoc \
-python3.10dist(sphinxcontrib-apidoc) \
+python3.10dist-sphinxcontrib-apidoc \
 python310-sphinxcontrib-apidoc \
-python3dist(sphinxcontrib-apidoc)"
+python3dist-sphinxcontrib-apidoc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx \
 python310-pbr"
 

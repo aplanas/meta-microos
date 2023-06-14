@@ -25,13 +25,13 @@ RPM_NAME = "python311-azure-eventhub-5.11.2-1.2.noarch.rpm"
 RPM_HASH = "b981b04a3e7b6bb897a3d9296782fe2a1748103a36559e728d7a76c07c6ceab1f8997fbc27f1a1f71798855934f389dbad9d3c2b84883c89a7e3a639bd9c78f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-eventhub) \
+RPROVIDES:${PN} += "python3.11dist-azure-eventhub \
 python311-azure-eventhub \
-python3dist(azure-eventhub)"
+python3dist-azure-eventhub"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-nspkg \
-python311-typing_extensions"
+python311-typing-extensions"
 
 inherit rpm

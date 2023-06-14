@@ -18,13 +18,12 @@ RPM_NAME = "lua54-luv-1.43.0~0-3.6.aarch64.rpm"
 RPM_HASH = "e78bd4cee560c2a68f9423b49eec5a7963aedf485f342cc50144f881429c9be81ce4f7de8efca3734feef012e74865e1e4e3f1732bbc691de10886fcda241d9d"
 
 RPROVIDES:${PN} += "lua-luv \
-lua54-luv \
-lua54-luv(aarch-64)"
+lua54-luv"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblua5.4.so.5()(64bit) \
-libuv.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblua5.4.so.5 \
+libuv.so.1 \
 lua54"
 
 inherit rpm

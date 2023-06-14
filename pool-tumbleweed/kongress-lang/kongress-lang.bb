@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kongress-lang \
 kongress-lang-all \
-locale(kongress:ca) \
-locale(kongress:ca@valencia) \
-locale(kongress:cs) \
-locale(kongress:da) \
-locale(kongress:de) \
-locale(kongress:el) \
-locale(kongress:en_GB) \
-locale(kongress:es) \
-locale(kongress:et) \
-locale(kongress:fi) \
-locale(kongress:fr) \
-locale(kongress:gl) \
-locale(kongress:ia) \
-locale(kongress:it) \
-locale(kongress:ja) \
-locale(kongress:ka) \
-locale(kongress:ko) \
-locale(kongress:lt) \
-locale(kongress:nl) \
-locale(kongress:nn) \
-locale(kongress:pa) \
-locale(kongress:pl) \
-locale(kongress:pt) \
-locale(kongress:pt_BR) \
-locale(kongress:ro) \
-locale(kongress:ru) \
-locale(kongress:sk) \
-locale(kongress:sl) \
-locale(kongress:sv) \
-locale(kongress:tr) \
-locale(kongress:uk) \
-locale(kongress:zh_CN) \
-locale(kongress:zh_TW)"
+locale-kongress-ca \
+locale-kongress-ca@valencia \
+locale-kongress-cs \
+locale-kongress-da \
+locale-kongress-de \
+locale-kongress-el \
+locale-kongress-en-GB \
+locale-kongress-es \
+locale-kongress-et \
+locale-kongress-fi \
+locale-kongress-fr \
+locale-kongress-gl \
+locale-kongress-ia \
+locale-kongress-it \
+locale-kongress-ja \
+locale-kongress-ka \
+locale-kongress-ko \
+locale-kongress-lt \
+locale-kongress-nl \
+locale-kongress-nn \
+locale-kongress-pa \
+locale-kongress-pl \
+locale-kongress-pt \
+locale-kongress-pt-BR \
+locale-kongress-ro \
+locale-kongress-ru \
+locale-kongress-sk \
+locale-kongress-sl \
+locale-kongress-sv \
+locale-kongress-tr \
+locale-kongress-uk \
+locale-kongress-zh-CN \
+locale-kongress-zh-TW"
 
 RDEPENDS:${PN} += "kongress"
 

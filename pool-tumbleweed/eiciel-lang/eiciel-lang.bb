@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiciel-lang \
 eiciel-lang-all \
-locale(eiciel:ar) \
-locale(eiciel:ca) \
-locale(eiciel:cs) \
-locale(eiciel:da) \
-locale(eiciel:de) \
-locale(eiciel:en_GB) \
-locale(eiciel:en_US) \
-locale(eiciel:es) \
-locale(eiciel:fa) \
-locale(eiciel:fr) \
-locale(eiciel:hi) \
-locale(eiciel:hu) \
-locale(eiciel:id) \
-locale(eiciel:it) \
-locale(eiciel:ja) \
-locale(eiciel:ko) \
-locale(eiciel:nl) \
-locale(eiciel:nn) \
-locale(eiciel:pl) \
-locale(eiciel:pt_BR) \
-locale(eiciel:ru) \
-locale(eiciel:sv) \
-locale(eiciel:uk) \
-locale(eiciel:zh_CN) \
-locale(eiciel:zh_TW)"
+locale-eiciel-ar \
+locale-eiciel-ca \
+locale-eiciel-cs \
+locale-eiciel-da \
+locale-eiciel-de \
+locale-eiciel-en-GB \
+locale-eiciel-en-US \
+locale-eiciel-es \
+locale-eiciel-fa \
+locale-eiciel-fr \
+locale-eiciel-hi \
+locale-eiciel-hu \
+locale-eiciel-id \
+locale-eiciel-it \
+locale-eiciel-ja \
+locale-eiciel-ko \
+locale-eiciel-nl \
+locale-eiciel-nn \
+locale-eiciel-pl \
+locale-eiciel-pt-BR \
+locale-eiciel-ru \
+locale-eiciel-sv \
+locale-eiciel-uk \
+locale-eiciel-zh-CN \
+locale-eiciel-zh-TW"
 
 RDEPENDS:${PN} += "eiciel"
 

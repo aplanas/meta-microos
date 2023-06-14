@@ -10,11 +10,11 @@ RPM_HASH = "ff05e5165f3b81a784e0ffc08487347469da57c003950f1524be7aefc4e4f3f671fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-manilaclient \
-python3.10dist(python-manilaclient) \
-python3dist(python-manilaclient)"
+python3.10dist-python-manilaclient \
+python3dist-python-manilaclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-PrettyTable \
 python3-debtcollector \

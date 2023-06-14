@@ -9,9 +9,8 @@ PV = "0.git20210122.1cbdbcf"
 RPM_NAME = "rnnoise-devel-0.git20210122.1cbdbcf-1.8.aarch64.rpm"
 RPM_HASH = "93f561c09f7ce7304952f407ca6f399b91590e33a69c2127747758c9cfc9139c82979b0fb7445d145b151b87fb241922124aa931876950a9f44a51e0a11cefdb"
 
-RPROVIDES:${PN} += "pkgconfig(rnnoise) \
-rnnoise-devel \
-rnnoise-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-rnnoise \
+rnnoise-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librnnoise0"

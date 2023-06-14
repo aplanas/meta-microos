@@ -11,8 +11,7 @@ PV = "0.99"
 RPM_NAME = "barcode-devel-0.99-9.6.aarch64.rpm"
 RPM_HASH = "1052a9928c1ee21a1d308213a38cf69fb8d23dc62c1453091c9c55c07efbb5e3db1f70149cc1544bfbfd276f720d5ab82237d3bef35075cac34129f8fd13ca7f"
 
-RPROVIDES:${PN} += "barcode-devel \
-barcode-devel(aarch-64)"
+RPROVIDES:${PN} += "barcode-devel"
 
 RDEPENDS:${PN} += ""
 

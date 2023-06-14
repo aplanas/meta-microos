@@ -13,8 +13,8 @@ RPM_NAME = "libboost_graph-devel-1.82.0-1.1.noarch.rpm"
 RPM_HASH = "b93aca0b3f21aebe3bcc6430b691e157f62c3aa8ce9a29c5169bb907ccf8da1b6bfb5c656d7c648df468c0cdf9ef9b527d42d426dbfd69453bb58c054a09b892"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libboost_graph-devel"
+RPROVIDES:${PN} += "libboost-graph-devel"
 
-RDEPENDS:${PN} += "libboost_graph1_82_0-devel"
+RDEPENDS:${PN} += "libboost-graph1-82-0-devel"
 
 inherit rpm

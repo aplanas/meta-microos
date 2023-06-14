@@ -12,8 +12,8 @@ RPM_HASH = "59147108894eb892b48eabaa483b0a037619ee9fa77402a949f8a839f12eff2295c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ispell-bulgarian \
-ispell_dictionary \
-locale(ispell:bg)"
+ispell-dictionary \
+locale-ispell-bg"
 
 RDEPENDS:${PN} += ""
 

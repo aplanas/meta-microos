@@ -19,15 +19,15 @@ RPM_HASH = "3cd5aea340f9c1f3931ebaae3065efbf37124b29574bb114edcc96e1f90652082af7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-configuration \
-mvn(commons-configuration:commons-configuration) \
-mvn(commons-configuration:commons-configuration:pom:) \
-mvn(org.apache.commons:commons-configuration) \
-mvn(org.apache.commons:commons-configuration:pom:) \
-osgi(org.apache.commons.commons-configuration)"
+mvn-commons-configuration-commons-configuration \
+mvn-commons-configuration-commons-configuration-pom- \
+mvn-org.apache.commons-commons-configuration \
+mvn-org.apache.commons-commons-configuration-pom- \
+osgi-org.apache.commons.commons-configuration"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-lang:commons-lang) \
-mvn(commons-logging:commons-logging)"
+mvn-commons-lang-commons-lang \
+mvn-commons-logging-commons-logging"
 
 inherit rpm

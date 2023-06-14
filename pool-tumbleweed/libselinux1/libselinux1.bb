@@ -13,13 +13,12 @@ PV = "3.5"
 RPM_NAME = "libselinux1-3.5-2.1.aarch64.rpm"
 RPM_HASH = "e5d0667248d78c25d11c19b593dd0e73dcd08cef7b624187f728cbfe05e670c6d94ac6d64d35fb4e463890bcc6e51e50863b5b6ec370ac02de7f473e6d960fa2"
 
-RPROVIDES:${PN} += "libselinux.so.1()(64bit) \
-libselinux1 \
-libselinux1(aarch-64)"
+RPROVIDES:${PN} += "libselinux.so.1 \
+libselinux1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcre2-8.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcre2-8.so.0"
 
 inherit rpm

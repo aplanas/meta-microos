@@ -28,13 +28,13 @@ RPM_HASH = "0c06883ad963bbd792c78af4ec3e5d7289250667bf783d27e203440fb74a849c500d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsf \
-mvn(bsf:bsf) \
-mvn(bsf:bsf:pom:) \
-mvn(org.apache.bsf:bsf) \
-mvn(org.apache.bsf:bsf:pom:)"
+mvn-bsf-bsf \
+mvn-bsf-bsf-pom- \
+mvn-org.apache.bsf-bsf \
+mvn-org.apache.bsf-bsf-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-logging:commons-logging)"
+mvn-commons-logging-commons-logging"
 
 inherit rpm

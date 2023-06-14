@@ -14,13 +14,12 @@ PV = "1.4.4"
 RPM_NAME = "python311-pyahocorasick-1.4.4-1.4.aarch64.rpm"
 RPM_HASH = "502acbe41ec27cdbd3bc8458ad00143ff9c34929f91ed25023720599b1ddd15ac8a2edb8c3c6711ac805c74a10ce78c5ef48ed2edd2e448cfc6921fca9c2247d"
 
-RPROVIDES:${PN} += "python3.11dist(pyahocorasick) \
+RPROVIDES:${PN} += "python3.11dist-pyahocorasick \
 python311-pyahocorasick \
-python311-pyahocorasick(aarch-64) \
-python3dist(pyahocorasick)"
+python3dist-pyahocorasick"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

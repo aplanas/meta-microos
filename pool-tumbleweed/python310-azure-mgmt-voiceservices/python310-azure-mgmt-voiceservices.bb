@@ -11,12 +11,12 @@ RPM_HASH = "5aa6141b295924ea660039e400bd8c21516d54bfb904c288616b9f666aec6fe8690a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-voiceservices \
-python3.10dist(azure-mgmt-voiceservices) \
+python3.10dist-azure-mgmt-voiceservices \
 python310-azure-mgmt-voiceservices \
-python3dist(azure-mgmt-voiceservices)"
+python3dist-azure-mgmt-voiceservices"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

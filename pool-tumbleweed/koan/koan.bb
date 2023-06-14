@@ -11,11 +11,11 @@ RPM_HASH = "331f3a23835b0550c67b98af9edc8c7550076eaf1b5b437d2f22d76238168c188361
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "koan \
-python3.10dist(koan) \
-python3dist(koan)"
+python3.10dist-koan \
+python3dist-koan"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-distro \
 python3-libvirt-python \
 python3-netifaces"

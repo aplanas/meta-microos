@@ -7,8 +7,7 @@ PV = "0.6.0"
 RPM_NAME = "dapper-0.6.0-1.6.aarch64.rpm"
 RPM_HASH = "eec631537bc5b186c27f196694cb729094fb27b1197d8b80616e5e8c11db3a585f9086b73ac63b517269fae73d56487921d92091ab44ad73604350a875b360aa"
 
-RPROVIDES:${PN} += "dapper \
-dapper(aarch-64)"
+RPROVIDES:${PN} += "dapper"
 
 RDEPENDS:${PN} += ""
 

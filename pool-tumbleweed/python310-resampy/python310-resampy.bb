@@ -15,11 +15,11 @@ RPM_HASH = "f68d81eb4ca879ce9eea2514167ae17cbfd7aa65f5987aceaf1cc6028d62ccb6594e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-resampy \
-python3.10dist(resampy) \
+python3.10dist-resampy \
 python310-resampy \
-python3dist(resampy)"
+python3dist-resampy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numba \
 python310-numpy"
 

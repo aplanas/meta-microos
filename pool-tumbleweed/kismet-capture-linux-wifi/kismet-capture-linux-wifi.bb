@@ -10,22 +10,17 @@ PV = "2022_08_R1"
 RPM_NAME = "kismet-capture-linux-wifi-2022_08_R1-2.3.aarch64.rpm"
 RPM_HASH = "d535130499b08f74b78968b03727a682132c17b1351ade985adae3794456e9d7ff99d6804346e6eb111219c5dbd45958f8c1a5fdd3044a39fef42891a3db3bbb"
 
-RPROVIDES:${PN} += "kismet-capture-linux-wifi \
-kismet-capture-linux-wifi(aarch-64)"
+RPROVIDES:${PN} += "kismet-capture-linux-wifi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-genl-3.so.200()(64bit) \
-libnl-genl-3.so.200(libnl_3)(64bit) \
-libnm.so.0()(64bit) \
-libnm.so.0(libnm_1_0_0)(64bit) \
-libnm.so.0(libnm_1_2_0)(64bit) \
-libpcap.so.1()(64bit) \
-libprotobuf-c.so.1()(64bit) \
-libwebsockets.so.19()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libnl-3.so.200 \
+libnl-genl-3.so.200 \
+libnm.so.0 \
+libpcap.so.1 \
+libprotobuf-c.so.1 \
+libwebsockets.so.19"
 
 inherit rpm

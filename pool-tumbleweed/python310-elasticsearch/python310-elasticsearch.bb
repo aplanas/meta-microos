@@ -11,11 +11,11 @@ RPM_HASH = "c40130da2af3ed9297b6242b306a96be012f33ecfb33250e26276966d8c771ef8e4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-elasticsearch \
-python3.10dist(elasticsearch) \
+python3.10dist-elasticsearch \
 python310-elasticsearch \
-python3dist(elasticsearch)"
+python3dist-elasticsearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-elastic-transport"
 
 inherit rpm

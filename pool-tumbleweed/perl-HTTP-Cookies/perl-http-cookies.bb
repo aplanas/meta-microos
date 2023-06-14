@@ -23,14 +23,14 @@ RPM_NAME = "perl-HTTP-Cookies-6.10-1.10.noarch.rpm"
 RPM_HASH = "4c42e4152fa728796f3e8b166cfea4af31c0ab8a12e853bde4b9fe43606393d7587f405cb8122b101da178e4dbc7d62e2ef5502c14897e506adc967e8194073c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Cookies) \
-perl(HTTP::Cookies::Microsoft) \
-perl(HTTP::Cookies::Netscape) \
+RPROVIDES:${PN} += "perl-HTTP--Cookies \
+perl-HTTP--Cookies--Microsoft \
+perl-HTTP--Cookies--Netscape \
 perl-HTTP-Cookies"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(HTTP::Date) \
-perl(HTTP::Headers::Util) \
-perl(HTTP::Request)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-HTTP--Date \
+perl-HTTP--Headers--Util \
+perl-HTTP--Request"
 
 inherit rpm

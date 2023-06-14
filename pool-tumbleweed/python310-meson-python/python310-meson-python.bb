@@ -9,12 +9,12 @@ RPM_HASH = "f5e6cd2f22c4c4a6880a400faf4a887f46df622f6bd0aab4b851837d20c1254eb48b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-meson-python \
-python3.10dist(meson-python) \
+python3.10dist-meson-python \
 python310-meson-python \
-python3dist(meson-python)"
+python3dist-meson-python"
 
 RDEPENDS:${PN} += "meson \
-python(abi) \
+python-abi \
 python310-pyproject-metadata \
 python310-tomli"
 

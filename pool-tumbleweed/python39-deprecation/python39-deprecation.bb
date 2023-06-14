@@ -10,10 +10,10 @@ RPM_NAME = "python39-deprecation-2.1.0-2.12.noarch.rpm"
 RPM_HASH = "5b704272edd62cab9e8ce42968b9837f0b82c5527783223657f60533b3ba90084f146900d81a68cf1e4303e1b58c931ce4c54051cf2becf0252739410bf3c0ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(deprecation) \
+RPROVIDES:${PN} += "python3.9dist-deprecation \
 python39-deprecation \
-python3dist(deprecation)"
+python3dist-deprecation"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

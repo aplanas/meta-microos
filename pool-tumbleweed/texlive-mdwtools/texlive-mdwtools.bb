@@ -14,18 +14,18 @@ RPM_NAME = "texlive-mdwtools-2023.201.1.05.4svn15878-52.1.noarch.rpm"
 RPM_HASH = "e6d5691e6b7370643885a69500f108345f910e76c067a863d4becfdafa02774459022d03e42c9084c8eb54995676154a2d296271b5e9d4af2d61254f6cf60096"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(at.sty) \
-tex(cmtt.sty) \
-tex(doafter.sty) \
-tex(footnote.sty) \
-tex(mTTcmtt.fd) \
-tex(mTTenc.def) \
-tex(mathenv.sty) \
-tex(mdwlist.sty) \
-tex(mdwmath.sty) \
-tex(mdwtab.sty) \
-tex(sverb.sty) \
-tex(syntax.sty) \
+RPROVIDES:${PN} += "tex-at.sty \
+tex-cmtt.sty \
+tex-doafter.sty \
+tex-footnote.sty \
+tex-mTTcmtt.fd \
+tex-mTTenc.def \
+tex-mathenv.sty \
+tex-mdwlist.sty \
+tex-mdwmath.sty \
+tex-mdwtab.sty \
+tex-sverb.sty \
+tex-syntax.sty \
 texlive-mdwtools"
 
 RDEPENDS:${PN} += "/bin/sh \

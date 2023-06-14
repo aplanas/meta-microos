@@ -9,11 +9,11 @@ RPM_HASH = "4b97d30b8acc828cf3e35e4241a53efd1cb5952d4f466d142b6a60537241b93e5331
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-isort \
-python3.10dist(flake8-isort) \
+python3.10dist-flake8-isort \
 python310-flake8-isort \
-python3dist(flake8-isort)"
+python3dist-flake8-isort"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flake8 \
 python310-isort \
 python310-testfixtures"

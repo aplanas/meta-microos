@@ -9,13 +9,13 @@ RPM_HASH = "f2b80b1f624105706298610217da2ffc37eafcb11ff7c86e5ae6f901ec7304f78794
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphobjinv \
-python3.10dist(sphobjinv) \
+python3.10dist-sphobjinv \
 python310-sphobjinv \
-python3dist(sphobjinv)"
+python3dist-sphobjinv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-attrs \
 python310-certifi \
 python310-jsonschema \

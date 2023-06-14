@@ -37,12 +37,12 @@ RPM_NAME = "perl-Task-Kensho-Config-0.41-1.9.noarch.rpm"
 RPM_HASH = "c857a4050b334c3939c0565682c190c5acddb47b975b1f94b19da4bfca930659d4a6566798c1f9305b73d64bad9ffe7de73c6f5d3015adea3cb78dc2903ce5ee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::Config) \
+RPROVIDES:${PN} += "perl-Task--Kensho--Config \
 perl-Task-Kensho-Config"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Config::Any) \
-perl(Config::General) \
-perl(JSON::MaybeXS)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Config--Any \
+perl-Config--General \
+perl-JSON--MaybeXS"
 
 inherit rpm

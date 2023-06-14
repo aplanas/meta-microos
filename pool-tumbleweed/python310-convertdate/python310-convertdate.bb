@@ -11,13 +11,13 @@ RPM_HASH = "9c42a454b2e8e493c7d3cf4bdd088b229c93f49694fdf418436d65d83466634a0b39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-convertdate \
-python3.10dist(convertdate) \
+python3.10dist-convertdate \
 python310-convertdate \
-python3dist(convertdate)"
+python3dist-convertdate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyMeeus \
 update-alternatives"
 

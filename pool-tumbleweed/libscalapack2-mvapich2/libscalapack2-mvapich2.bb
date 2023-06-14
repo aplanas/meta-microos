@@ -32,18 +32,16 @@ PV = "2.1.0"
 RPM_NAME = "libscalapack2-mvapich2-2.1.0-9.11.aarch64.rpm"
 RPM_HASH = "1d5a192ea65921b6d797c36d7cc0bb9626fedb027e5a7700f8da37511408a46d894b4fa108c2211566351166496744825466c83566746e4f317c2ecc3298d500"
 
-RPROVIDES:${PN} += "libscalapack.so.2.1.0()(64bit) \
+RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
 libscalapack2-mvapich2 \
-libscalapack2-mvapich2(aarch-64) \
 scalapack-mvapich2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
-libmpi.so.12()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
+libmpi.so.12"
 
 inherit rpm

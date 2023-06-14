@@ -18,13 +18,13 @@ RPM_HASH = "f7e25b5cef5c66c6d3830c9ec8cff1845f61d8bcad081696a2abca87f2ad19e58e5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bashate \
-python3.10dist(bashate) \
+python3.10dist-bashate \
 python310-bashate \
-python3dist(bashate)"
+python3dist-bashate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Babel \
 python310-pbr \
 update-alternatives"

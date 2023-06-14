@@ -13,7 +13,7 @@ RPM_NAME = "texlive-keycommand-2023.201.3.1415svn18042-55.1.noarch.rpm"
 RPM_HASH = "617cf02ff83016781ceb58f582867093f8fd07eccf5a370293ee1b9b624bacf8070f45d957d913707f724a49b22719eff43ddc8ef8e668b6b768282dfc4322e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(keycommand.sty) \
+RPROVIDES:${PN} += "tex-keycommand.sty \
 texlive-keycommand"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
-tex(etoolbox.sty) \
-tex(kvsetkeys.sty) \
-tex(xkeyval.sty) \
+tex-etex.sty \
+tex-etoolbox.sty \
+tex-kvsetkeys.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

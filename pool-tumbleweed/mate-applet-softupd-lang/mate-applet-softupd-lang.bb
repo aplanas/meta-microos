@@ -8,13 +8,13 @@ RPM_NAME = "mate-applet-softupd-lang-0.4.8-1.9.noarch.rpm"
 RPM_HASH = "b7fadf49a3bade8da001690f4ad61c8c1b8cdab566cd76a8fe20dc7206afa5f7cf100b935c98b353feaff0d2a929352b8e24a9f8fbaf2b9acaa21125417ce590"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(mate-applet-softupd:en_GB) \
-locale(mate-applet-softupd:en_US) \
-locale(mate-applet-softupd:fr_FR) \
-locale(mate-applet-softupd:pt_BR) \
-locale(mate-applet-softupd:pt_PT) \
-locale(mate-applet-softupd:ru_RU) \
-locale(mate-applet-softupd:zh_CN) \
+RPROVIDES:${PN} += "locale-mate-applet-softupd-en-GB \
+locale-mate-applet-softupd-en-US \
+locale-mate-applet-softupd-fr-FR \
+locale-mate-applet-softupd-pt-BR \
+locale-mate-applet-softupd-pt-PT \
+locale-mate-applet-softupd-ru-RU \
+locale-mate-applet-softupd-zh-CN \
 mate-applet-softupd-lang \
 mate-applet-softupd-lang-all"
 

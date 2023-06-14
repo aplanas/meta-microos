@@ -14,16 +14,15 @@ PV = "2.3.3+20220915"
 RPM_NAME = "libstp2_3-2.3.3+20220915-1.3.aarch64.rpm"
 RPM_HASH = "6c3f1da7edb59200283f441fc5d0169dda8afb2af1fcf3e2102f73240d70a7cd6614793b727e0171db2a0a2de76716e6f21410ee272514eac4bfd13db650abd8"
 
-RPROVIDES:${PN} += "libstp.so.2.3()(64bit) \
-libstp2_3 \
-libstp2_3(aarch-64)"
+RPROVIDES:${PN} += "libstp.so.2.3 \
+libstp2-3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libminisat.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libminisat.so.2 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "ef9b0bc15f3d415fbb72d96eb337ac1aee0091ae64ca5231cf89a29dc6a3b3af5806
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rich \
-python3.10dist(rich) \
+python3.10dist-rich \
 python310-rich \
-python3dist(rich)"
+python3dist-rich"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-markdown-it-py \
 python310-pygments"
 

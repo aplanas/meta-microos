@@ -12,14 +12,14 @@ RPM_HASH = "1816989efbb068b26cf09e42a7c249ca747d400969627d735762684ab19460d3bc1e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-versioningit \
-python3.10dist(versioningit) \
+python3.10dist-versioningit \
 python310-versioningit \
-python3dist(versioningit)"
+python3dist-versioningit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-packaging \
 python310-setuptools \
 python310-tomli"

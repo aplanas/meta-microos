@@ -13,35 +13,34 @@ PV = "11.0"
 RPM_NAME = "glusterfs-11.0-2.1.aarch64.rpm"
 RPM_HASH = "ee408f343f0509a4a46f6502a562ef43acdfb695044dbeba17d0978de1322a07a4b4c5f6b74a37a5300df82074bf865300cd61bb9688ed81cf07248d42d0fd0e"
 
-RPROVIDES:${PN} += "config(glusterfs) \
-glusterfs \
-glusterfs(aarch-64)"
+RPROVIDES:${PN} += "config-glusterfs \
+glusterfs"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgfapi.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libaio.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgfapi.so.0 \
 libgfapi0 \
-libgfchangelog.so.0()(64bit) \
+libgfchangelog.so.0 \
 libgfchangelog0 \
-libgfrpc.so.0()(64bit) \
+libgfrpc.so.0 \
 libgfrpc0 \
-libgfxdr.so.0()(64bit) \
+libgfxdr.so.0 \
 libgfxdr0 \
-libglusterfs.so.0()(64bit) \
+libglusterfs.so.0 \
 libglusterfs0 \
-libreadline.so.8()(64bit) \
-libssl.so.3()(64bit) \
-libtirpc.so.3()(64bit) \
-liburcu-bp.so.8()(64bit) \
-liburing.so.2()(64bit) \
-libuuid.so.1()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+libreadline.so.8 \
+libssl.so.3 \
+libtirpc.so.3 \
+liburcu-bp.so.8 \
+liburing.so.2 \
+libuuid.so.1 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

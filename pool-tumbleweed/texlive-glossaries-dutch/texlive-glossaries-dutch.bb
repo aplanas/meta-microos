@@ -8,7 +8,7 @@ RPM_NAME = "texlive-glossaries-dutch-2023.201.1.1svn35685-53.1.noarch.rpm"
 RPM_HASH = "dc928280a1993baab771cde7de36bae5fddff90c1722fc5fbd2ebae330b8b2eae0a473a81d7d83250d34dc2bd6fbe72f565da11e6275248364cc1230f730bbf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(glossaries-dutch.ldf) \
+RPROVIDES:${PN} += "tex-glossaries-dutch.ldf \
 texlive-glossaries-dutch"
 
 RDEPENDS:${PN} += "/bin/sh \

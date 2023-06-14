@@ -9,12 +9,11 @@ PV = "2.2.0"
 RPM_NAME = "libplist-2_0-devel-2.2.0-4.7.aarch64.rpm"
 RPM_HASH = "babd056776d90333360997fa6e1c79b7652ee028e51f052ab97e613780077fc0160846bb7263363ef70ecf62767322a7da3bc2b9d7417667d9d36bba8bd1ebae"
 
-RPROVIDES:${PN} += "libplist-2_0-devel \
-libplist-2_0-devel(aarch-64) \
+RPROVIDES:${PN} += "libplist-2-0-devel \
 libplist-devel \
-pkgconfig(libplist-2.0)"
+pkgconfig-libplist-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libplist-2_0-3"
+libplist-2-0-3"
 
 inherit rpm

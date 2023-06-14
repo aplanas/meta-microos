@@ -11,10 +11,10 @@ RPM_HASH = "2aacf99e07d6fd5ffd8d395f31ae699678845ceaae4c9c91990b4e944ec70503ffcc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sievelib \
-python3.10dist(sievelib) \
+python3.10dist-sievelib \
 python310-sievelib \
-python3dist(sievelib)"
+python3dist-sievelib"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

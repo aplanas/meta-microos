@@ -9,8 +9,7 @@ RPM_HASH = "02504277d288daab962b92854d74f4666c06ea274c6c45d4d841d7d840562dd8f3ff
 
 RPROVIDES:${PN} += "OCE-devel \
 OpenCASCADE-devel \
-oce-devel \
-oce-devel(aarch-64)"
+oce-devel"
 
 RDEPENDS:${PN} += "oce"
 

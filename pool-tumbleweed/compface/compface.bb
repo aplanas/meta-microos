@@ -13,13 +13,12 @@ RPM_NAME = "compface-1.5.2-158.27.aarch64.rpm"
 RPM_HASH = "27a3b33615382981e54a26181f562c9ab3bbc83fd44a3356a713d411285572135c30f07cd11521441a2e59d8ddee57661cef72ecb92c6a0ffc5b963591228e0c"
 
 RPROVIDES:${PN} += "compface \
-compface(aarch-64) \
-libcompface.so.1()(64bit)"
+libcompface.so.1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

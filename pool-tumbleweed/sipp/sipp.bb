@@ -10,22 +10,20 @@ PV = "3.6.1"
 RPM_NAME = "sipp-3.6.1-1.14.aarch64.rpm"
 RPM_HASH = "6f779b1311742ca38f7c3f29118eb693cbb1b7494bbd34d4c1185a6b9ed000f6faa13ba568c57c4fc3577a67df830b805728e9a4ee6f9a5c57e743e84c67eee5"
 
-RPROVIDES:${PN} += "sipp \
-sipp(aarch-64)"
+RPROVIDES:${PN} += "sipp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libpcap.so.1()(64bit) \
-libsctp.so.1()(64bit) \
-libsctp.so.1(VERS_1)(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
+libncursesw.so.6 \
+libpcap.so.1 \
+libsctp.so.1 \
+libssl.so.3 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

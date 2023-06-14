@@ -14,7 +14,7 @@ RPM_NAME = "texlive-bondgraphs-2023.201.1.0.1svn36605-52.1.noarch.rpm"
 RPM_HASH = "a2c8da88c3ffc053b93cba33ae65138554b5e874deecc616d69a2bb3f634581d4ac13192335a69b837d324734b280319dc960764551e3969f360bfb4cec888ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bondgraphs.sty) \
+RPROVIDES:${PN} += "tex-bondgraphs.sty \
 texlive-bondgraphs"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,10 +23,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsfonts.sty) \
-tex(bm.sty) \
-tex(kvoptions.sty) \
-tex(tikz.sty) \
+tex-amsfonts.sty \
+tex-bm.sty \
+tex-kvoptions.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

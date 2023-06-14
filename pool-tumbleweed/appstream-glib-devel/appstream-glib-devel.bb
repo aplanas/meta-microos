@@ -19,17 +19,16 @@ RPM_HASH = "dc5b50f9c6e5e05a22a87a1b84baf03d277a13fe2726456d2c20d8ad9cff6ac57f24
 
 RPROVIDES:${PN} += "appdata-tools \
 appstream-glib-devel \
-appstream-glib-devel(aarch-64) \
-pkgconfig(appstream-glib)"
+pkgconfig-appstream-glib"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 appstream-glib \
 libappstream-glib8 \
-pkgconfig(gdk-pixbuf-2.0) \
-pkgconfig(glib-2.0) \
-pkgconfig(gobject-2.0) \
-pkgconfig(libarchive) \
-pkgconfig(uuid) \
-typelib-1_0-AppStreamGlib-1_0"
+pkgconfig-gdk-pixbuf-2.0 \
+pkgconfig-glib-2.0 \
+pkgconfig-gobject-2.0 \
+pkgconfig-libarchive \
+pkgconfig-uuid \
+typelib-1-0-AppStreamGlib-1-0"
 
 inherit rpm

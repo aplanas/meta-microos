@@ -11,26 +11,20 @@ PV = "0.9.16.1"
 RPM_NAME = "endless-sky-0.9.16.1-1.1.aarch64.rpm"
 RPM_HASH = "d1796703c6f81aedd302da6e71474f756d6db5f40d5c60899aee582e18972800d849769b58f78f8c0f2508c385ffbe1a5c477ed267771e9d4c5ef9328bbffdb5"
 
-RPROVIDES:${PN} += "application() \
-application(endless-sky.desktop) \
-endless-sky \
-endless-sky(aarch-64) \
-metainfo() \
-metainfo(io.github.endless_sky.endless_sky.appdata.xml)"
+RPROVIDES:${PN} += "endless-sky"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libmad.so.0()(64bit) \
-libopenal.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libm.so.6 \
+libmad.so.0 \
+libopenal.so.1 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libuuid.so.1"
 
 inherit rpm

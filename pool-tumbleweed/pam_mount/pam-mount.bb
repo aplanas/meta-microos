@@ -15,23 +15,22 @@ PV = "2.19"
 RPM_NAME = "pam_mount-2.19-2.3.aarch64.rpm"
 RPM_HASH = "da5f95d2ddd5e763244f90bc620905696b6fead2c8848243f36fa241fd68a77d3cb8ab0bd6194a294f0ad78c9a9feae57131b8b598b7127743912ea63441d5c9"
 
-RPROVIDES:${PN} += "config(pam_mount) \
-pam_mount \
-pam_mount(aarch-64)"
+RPROVIDES:${PN} += "config-pam-mount \
+pam-mount"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 device-mapper \
 fd0ssh \
-ld-linux-aarch64.so.1()(64bit) \
-libHX.so.32()(64bit) \
-libc.so.6()(64bit) \
-libcryptmount.so.0()(64bit) \
-libcryptsetup.so.12()(64bit) \
-libmount.so.1()(64bit) \
-libpam.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libHX.so.32 \
+libc.so.6 \
+libcryptmount.so.0 \
+libcryptsetup.so.12 \
+libmount.so.1 \
+libpam.so.0 \
+libpcre2-8.so.0 \
+libxml2.so.2 \
 ofl \
 perl-XML-Parser \
 perl-XML-Writer \

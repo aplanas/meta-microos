@@ -9,12 +9,11 @@ RPM_HASH = "03bb25802e865e42cfa2519452227702eb65fe15ad1a7a7ef9731acb7a99fa81876d
 
 RPROVIDES:${PN} += "libidn2 \
 libidn2-0 \
-libidn2-0(aarch-64) \
-libidn2.so.0()(64bit)"
+libidn2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libunistring.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libunistring.so.5"
 
 inherit rpm

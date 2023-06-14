@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene \
 lucene-core \
-mvn(org.apache.lucene:lucene-core) \
-mvn(org.apache.lucene:lucene-core:pom:) \
-osgi(org.apache.lucene.core)"
+mvn-org.apache.lucene-lucene-core \
+mvn-org.apache.lucene-lucene-core-pom- \
+osgi-org.apache.lucene.core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

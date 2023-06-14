@@ -9,11 +9,10 @@ PV = "1.2.0"
 RPM_NAME = "xsel-1.2.0-20.1.aarch64.rpm"
 RPM_HASH = "5fd6e4abec6c81a3151f45135154c68e92386c52b3b9f1b658bb4592e304d98c1559808dce64879ee8b8102e89d03e75634687cfef58e0a1a027dbbfa79c8dfc"
 
-RPROVIDES:${PN} += "xsel \
-xsel(aarch-64)"
+RPROVIDES:${PN} += "xsel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6"
 
 inherit rpm

@@ -11,16 +11,12 @@ RPM_NAME = "lonote-3.2.13-3.7.noarch.rpm"
 RPM_HASH = "007e2c7ddf2bc79f6e39ce91cd0d2ee0054055d791ef49f28daf002a18b4ac982d7354968cfe1cc5926222fd1195c315acc3afe6b267c9f9a4fde0ed5c01c6d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(lonote.desktop) \
-lonote \
-metainfo() \
-metainfo(lonote.appdata.xml) \
-python3.10dist(lonote) \
-python3dist(lonote)"
+RPROVIDES:${PN} += "lonote \
+python3.10dist-lonote \
+python3dist-lonote"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-dbm \
 python3-xml"
 

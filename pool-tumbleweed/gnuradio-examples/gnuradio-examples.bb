@@ -13,29 +13,26 @@ PV = "3.10.6.0"
 RPM_NAME = "gnuradio-examples-3.10.6.0-4.2.aarch64.rpm"
 RPM_HASH = "3d1bb74f8e3d5472e34af34762f65694bf33fa5d6667e9e863d458485bb2c72c3e7ea3ba059958783a89fe108c8bc4cf01b97318248a992127791d91304854ff"
 
-RPROVIDES:${PN} += "gnuradio-examples \
-gnuradio-examples(aarch-64)"
+RPROVIDES:${PN} += "gnuradio-examples"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gnuradio \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgnuradio-analog.so.3.10.6()(64bit) \
-libgnuradio-audio.so.3.10.6()(64bit) \
-libgnuradio-blocks.so.3.10.6()(64bit) \
-libgnuradio-pmt.so.3.10.6()(64bit) \
-libgnuradio-qtgui.so.3.10.6()(64bit) \
-libgnuradio-runtime.so.3.10.6()(64bit) \
-libgnuradio-uhd.so.3.10.6()(64bit) \
-libspdlog.so.1.11()(64bit) \
-libstdc++.so.6()(64bit) \
-libuhd.so.4.4.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Widgets.so.5 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+libgnuradio-analog.so.3.10.6 \
+libgnuradio-audio.so.3.10.6 \
+libgnuradio-blocks.so.3.10.6 \
+libgnuradio-pmt.so.3.10.6 \
+libgnuradio-qtgui.so.3.10.6 \
+libgnuradio-runtime.so.3.10.6 \
+libgnuradio-uhd.so.3.10.6 \
+libspdlog.so.1.11 \
+libstdc++.so.6 \
+libuhd.so.4.4.0"
 
 inherit rpm

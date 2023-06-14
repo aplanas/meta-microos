@@ -10,15 +10,14 @@ PV = "0.24.2"
 RPM_NAME = "perl-obexftp-0.24.2-1.22.aarch64.rpm"
 RPM_HASH = "770f41b9bb3648fe215b8b2314b0d39105d213c4f996e811633d2fcf912e7c6aee6ffc1573396a319b514a36f992cbc6d63be4a7ff2106c5238783e0148e598f"
 
-RPROVIDES:${PN} += "perl(OBEXFTP) \
-perl(OBEXFTP::client) \
-perl(OBEXFTPc) \
-perl-obexftp \
-perl-obexftp(aarch-64)"
+RPROVIDES:${PN} += "perl-OBEXFTP \
+perl-OBEXFTP--client \
+perl-OBEXFTPc \
+perl-obexftp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libobexftp.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libobexftp.so.0 \
 obexftp \
 perl-base"
 

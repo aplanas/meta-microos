@@ -13,13 +13,13 @@ RPM_NAME = "python311-pylons-sphinx-themes-1.0.13-1.3.noarch.rpm"
 RPM_HASH = "a8cbd6227677fee24b4d52aaa938421f9a8a4212aa922870e89ad3027247d9ef3a41089686758c954307563b92ad5e174fbdb3e8878d05286861b2a8d80de7bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pylons-sphinx-themes) \
+RPROVIDES:${PN} += "python3.11dist-pylons-sphinx-themes \
+python311-pylons-sphinx-theme \
 python311-pylons-sphinx-themes \
-python311-pylons_sphinx_theme \
-python311-pylons_theme_support \
-python3dist(pylons-sphinx-themes)"
+python311-pylons-theme-support \
+python3dist-pylons-sphinx-themes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Pygments"
 
 inherit rpm

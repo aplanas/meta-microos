@@ -17,14 +17,14 @@ RPM_HASH = "696f32cf955028dba45fdeff2e30e02e62d65b5cb6ed1696c1288a329d85ef5f609c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-json5 \
-python3.10dist(json5) \
+python3.10dist-json5 \
 python310-json5 \
-python3dist(json5)"
+python3dist-json5"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-setuptools"
 
 inherit rpm

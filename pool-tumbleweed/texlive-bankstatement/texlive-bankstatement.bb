@@ -18,13 +18,13 @@ RPM_NAME = "texlive-bankstatement-2023.201.0.0.9.2svn38857-53.1.noarch.rpm"
 RPM_HASH = "cc9996e4112ebd5a557032efd308cf8a3140eef1eb00ddc378c5dc36092a55812254c05b0bc99c7bbf9bef874d67388feb22ff67be6b54ef96531fa8bd2d9318"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bankstatement.cls) \
-tex(csv-camt.def) \
-tex(csv-mt940.def) \
-tex(csv-standard-bank-na.def) \
-tex(stmenglish.def) \
-tex(stmgerman.def) \
-tex(stmnamibian.def) \
+RPROVIDES:${PN} += "tex-bankstatement.cls \
+tex-csv-camt.def \
+tex-csv-mt940.def \
+tex-csv-standard-bank-na.def \
+tex-stmenglish.def \
+tex-stmgerman.def \
+tex-stmnamibian.def \
 texlive-bankstatement"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -33,18 +33,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(booktabs.sty) \
-tex(calc.sty) \
-tex(datatool.sty) \
-tex(graphicx.sty) \
-tex(ifthen.sty) \
-tex(longtable.sty) \
-tex(siunitx.sty) \
-tex(tabularx.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
-tex(xkvltxp.sty) \
+tex-article.cls \
+tex-booktabs.sty \
+tex-calc.sty \
+tex-datatool.sty \
+tex-graphicx.sty \
+tex-ifthen.sty \
+tex-longtable.sty \
+tex-siunitx.sty \
+tex-tabularx.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
+tex-xkvltxp.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

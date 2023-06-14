@@ -13,14 +13,14 @@ RPM_NAME = "python311-txt2tags-3.7-2.9.noarch.rpm"
 RPM_HASH = "fa3a9ec146bb7f3890a39a399b0da6a3ebbc1ad37fe18015f9daeb1d0af5bce85212e4c1e2674283769b3a2c54a9bc80c6f069e19dbc8dcb23c600059f5a8d82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(txt2tags) \
+RPROVIDES:${PN} += "python3.11dist-txt2tags \
 python311-txt2tags \
-python3dist(txt2tags) \
+python3dist-txt2tags \
 txt2tags"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-setuptools \
 update-alternatives"
 

@@ -22,9 +22,9 @@ RPM_NAME = "perl-Tie-Cycle-1.227-1.7.noarch.rpm"
 RPM_HASH = "f7621faf8be482c5b6959790fa24646f6f34ccf40a920579e62134cd343379f1403444240e7d9406b3f8efd4e1d48bcb90e71fa3bd57d1a3e066001ff702f8ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Tie::Cycle) \
+RPROVIDES:${PN} += "perl-Tie--Cycle \
 perl-Tie-Cycle"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "9dc2a09c86dd0901788ab0a2fb1f3612d541592344fd170954aede48fc8309de0387
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-json-provider \
-mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider) \
-mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:pom:) \
-osgi(com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider)"
+mvn-com.fasterxml.jackson.jaxrs-jackson-jaxrs-json-provider \
+mvn-com.fasterxml.jackson.jaxrs-jackson-jaxrs-json-provider-pom- \
+osgi-com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-base) \
-mvn(com.fasterxml.jackson.module:jackson-module-jaxb-annotations)"
+mvn-com.fasterxml.jackson.jaxrs-jackson-jaxrs-base \
+mvn-com.fasterxml.jackson.module-jackson-module-jaxb-annotations"
 
 inherit rpm

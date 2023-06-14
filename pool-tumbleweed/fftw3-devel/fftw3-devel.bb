@@ -10,22 +10,21 @@ RPM_HASH = "4d4960f8ef412e3d3dbbe48550cd7f1d870f80d2237038edd479d91c924d1ba90715
 
 RPROVIDES:${PN} += "fftw-devel \
 fftw3-devel \
-fftw3-devel(aarch-64) \
-pkgconfig(fftw3) \
-pkgconfig(fftw3f) \
-pkgconfig(fftw3l)"
+pkgconfig-fftw3 \
+pkgconfig-fftw3f \
+pkgconfig-fftw3l"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libfftw3-3 \
-libfftw3.so.3()(64bit) \
-libfftw3_threads.so.3()(64bit) \
-libfftw3f.so.3()(64bit) \
-libfftw3f_threads.so.3()(64bit) \
-libfftw3l.so.3()(64bit) \
-libfftw3l_threads.so.3()(64bit)"
+libfftw3-threads.so.3 \
+libfftw3.so.3 \
+libfftw3f-threads.so.3 \
+libfftw3f.so.3 \
+libfftw3l-threads.so.3 \
+libfftw3l.so.3"
 
 inherit rpm

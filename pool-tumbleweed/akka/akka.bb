@@ -11,35 +11,35 @@ RPM_HASH = "517d006732c6f2d0c197dbc9026463dd71852c60c248584d9125ad2056bcdfd7c6c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akka \
-mvn(com.typesafe.akka:akka-actor_2.10) \
-mvn(com.typesafe.akka:akka-actor_2.10:pom:) \
-mvn(com.typesafe.akka:akka-agent_2.10) \
-mvn(com.typesafe.akka:akka-agent_2.10:pom:) \
-mvn(com.typesafe.akka:akka-cluster_2.10) \
-mvn(com.typesafe.akka:akka-cluster_2.10:pom:) \
-mvn(com.typesafe.akka:akka-dataflow_2.10) \
-mvn(com.typesafe.akka:akka-dataflow_2.10:pom:) \
-mvn(com.typesafe.akka:akka-kernel_2.10) \
-mvn(com.typesafe.akka:akka-kernel_2.10:pom:) \
-mvn(com.typesafe.akka:akka-osgi_2.10) \
-mvn(com.typesafe.akka:akka-osgi_2.10:pom:) \
-mvn(com.typesafe.akka:akka-remote_2.10) \
-mvn(com.typesafe.akka:akka-remote_2.10:pom:) \
-mvn(com.typesafe.akka:akka-slf4j_2.10) \
-mvn(com.typesafe.akka:akka-slf4j_2.10:pom:) \
-mvn(com.typesafe.akka:akka-transactor_2.10) \
-mvn(com.typesafe.akka:akka-transactor_2.10:pom:)"
+mvn-com.typesafe.akka-akka-actor-2.10 \
+mvn-com.typesafe.akka-akka-actor-2.10-pom- \
+mvn-com.typesafe.akka-akka-agent-2.10 \
+mvn-com.typesafe.akka-akka-agent-2.10-pom- \
+mvn-com.typesafe.akka-akka-cluster-2.10 \
+mvn-com.typesafe.akka-akka-cluster-2.10-pom- \
+mvn-com.typesafe.akka-akka-dataflow-2.10 \
+mvn-com.typesafe.akka-akka-dataflow-2.10-pom- \
+mvn-com.typesafe.akka-akka-kernel-2.10 \
+mvn-com.typesafe.akka-akka-kernel-2.10-pom- \
+mvn-com.typesafe.akka-akka-osgi-2.10 \
+mvn-com.typesafe.akka-akka-osgi-2.10-pom- \
+mvn-com.typesafe.akka-akka-remote-2.10 \
+mvn-com.typesafe.akka-akka-remote-2.10-pom- \
+mvn-com.typesafe.akka-akka-slf4j-2.10 \
+mvn-com.typesafe.akka-akka-slf4j-2.10-pom- \
+mvn-com.typesafe.akka-akka-transactor-2.10 \
+mvn-com.typesafe.akka-akka-transactor-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.protobuf:protobuf-java) \
-mvn(com.typesafe:config) \
-mvn(io.netty:netty) \
-mvn(org.osgi:osgi.cmpn) \
-mvn(org.osgi:osgi.core) \
-mvn(org.scala-lang:scala-library) \
-mvn(org.scala-stm:scala-stm_2.10) \
-mvn(org.slf4j:slf4j-api) \
-mvn(org.uncommons.maths:uncommons-maths)"
+mvn-com.google.protobuf-protobuf-java \
+mvn-com.typesafe-config \
+mvn-io.netty-netty \
+mvn-org.osgi-osgi.cmpn \
+mvn-org.osgi-osgi.core \
+mvn-org.scala-lang-scala-library \
+mvn-org.scala-stm-scala-stm-2.10 \
+mvn-org.slf4j-slf4j-api \
+mvn-org.uncommons.maths-uncommons-maths"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPM_NAME = "autoyast_xml_validator-1.0.9+gite8164d1-1.6.noarch.rpm"
 RPM_HASH = "96ae83ebdb1ad4417fe328f8a4086f3c340ce201ce6ae45dfbc41c4a5dfabe708b6845ead3957b7c0c303ef1fd2cbff3095ddbb5ebaf61bb50a6190e4b4a4179"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "autoyast_xml_validator"
+RPROVIDES:${PN} += "autoyast-xml-validator"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 jing \

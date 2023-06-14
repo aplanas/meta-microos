@@ -9,11 +9,11 @@ RPM_HASH = "d8bcb1a98272db7699c1d9248193a2d30affb9d2618a4c04ff05d912fe2f9d0d4c4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-consul \
-python3.10dist(python-consul) \
+python3.10dist-python-consul \
 python310-python-consul \
-python3dist(python-consul)"
+python3dist-python-consul"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-six"
 

@@ -11,11 +11,11 @@ RPM_HASH = "c05df3fd7d5f56c72743672d0f212f0c2729ae319144b6511f9d0d5ed9c63241abac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openapi-core \
-python3.10dist(openapi-core) \
+python3.10dist-openapi-core \
 python310-openapi-core \
-python3dist(openapi-core)"
+python3dist-openapi-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Werkzeug \
 python310-isodate \
 python310-jsonschema-spec \

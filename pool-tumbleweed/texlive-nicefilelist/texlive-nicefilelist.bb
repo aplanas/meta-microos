@@ -12,7 +12,7 @@ RPM_NAME = "texlive-nicefilelist-2023.201.0.0.9bsvn65842-54.1.noarch.rpm"
 RPM_HASH = "9eebdcd19f16f5b33da5eb4748e490a8445c07a68aa226716bfb5cc9de62d565be4b541c8aeb79681c25359faf97f0a3d8551c7c0c4c126af55feed4e1fc58bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nicefilelist.sty) \
+RPROVIDES:${PN} += "tex-nicefilelist.sty \
 texlive-nicefilelist"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,10 +21,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(hardwrap.sty) \
-tex(monofill.sty) \
-tex(myfilist.sty) \
-tex(xstring.sty) \
+tex-hardwrap.sty \
+tex-monofill.sty \
+tex-myfilist.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

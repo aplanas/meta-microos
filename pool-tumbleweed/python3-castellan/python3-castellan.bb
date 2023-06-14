@@ -11,11 +11,11 @@ RPM_HASH = "e1ae097a6484b3aac1146f1fa6f67d43452c3bec52524f16ed942cf26f7b744a3436
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-castellan \
-python3.10dist(castellan) \
-python3dist(castellan)"
+python3.10dist-castellan \
+python3dist-castellan"
 
 RDEPENDS:${PN} += "/bin/bash \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-barbicanclient \
 python3-cryptography \

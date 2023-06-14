@@ -15,10 +15,10 @@ RPM_NAME = "python39-sh-2.0.4-1.1.noarch.rpm"
 RPM_HASH = "7a33325367d0ef92ae489697993e235af0c828494128360473a2a85e1d03f11b0c37e8be23b5878418b069a452c1b4cd93f8132f2c82f19e33ccb8dbe5483b1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sh) \
+RPROVIDES:${PN} += "python3.9dist-sh \
 python39-sh \
-python3dist(sh)"
+python3dist-sh"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

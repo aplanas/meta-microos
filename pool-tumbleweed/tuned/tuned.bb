@@ -12,7 +12,7 @@ RPM_NAME = "tuned-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
 RPM_HASH = "252e71b0df1f74a505bfed34f227ef97a723b342b8dc5383980b6c58a28ff5dc587f2c1cd920941edd194c85036e50b989154993b1895d6623a11392a6a5f0f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(tuned) \
+RPROVIDES:${PN} += "config-tuned \
 tuned"
 
 RDEPENDS:${PN} += "/bin/bash \
@@ -23,7 +23,7 @@ ethtool \
 gawk \
 hdparm \
 polkit \
-python(abi) \
+python-abi \
 python3-configobj \
 python3-dbus-python \
 python3-decorator \

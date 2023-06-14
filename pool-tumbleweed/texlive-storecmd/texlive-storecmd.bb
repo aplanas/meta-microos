@@ -11,7 +11,7 @@ RPM_NAME = "texlive-storecmd-2023.201.0.0.0.2svn24431-57.1.noarch.rpm"
 RPM_HASH = "33532ca8820dfc74957a823976effb52ea096a0ba7521d0b5646196d7138072f6492e9a6dd610958548ccc64eb20e2c4e5e3deccc3b3867285ff99ab05e73ee8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(storecmd.sty) \
+RPROVIDES:${PN} += "tex-storecmd.sty \
 texlive-storecmd"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(catoptions.sty) \
-tex(ltxtools.sty) \
+tex-catoptions.sty \
+tex-ltxtools.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

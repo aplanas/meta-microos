@@ -15,7 +15,7 @@ RPM_NAME = "texlive-resolsysteme-2023.201.0.0.1.5svn66192-53.1.noarch.rpm"
 RPM_HASH = "bfb5655eb938ef112fca13222d49047623991691f4732585221eccd8b733cd2328de0a7f370debc8855ce0b0f96742d2f3839b00f2bd8e9f380565db48616325"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ResolSysteme.sty) \
+RPROVIDES:${PN} += "tex-ResolSysteme.sty \
 texlive-resolsysteme"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,14 +24,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(listofitems.sty) \
-tex(nicefrac.sty) \
-tex(nicematrix.sty) \
-tex(siunitx.sty) \
-tex(xintexpr.sty) \
-tex(xinttools.sty) \
-tex(xstring.sty) \
+tex-ifthen.sty \
+tex-listofitems.sty \
+tex-nicefrac.sty \
+tex-nicematrix.sty \
+tex-siunitx.sty \
+tex-xintexpr.sty \
+tex-xinttools.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -22,23 +22,22 @@ RPM_NAME = "python310-numba-0.57.0-1.1.aarch64.rpm"
 RPM_HASH = "dcba5206d30dffdba6cf6c253a7fb5628eba2583b061fb6bfa01996bbd80663eba100b92653cb2028cb30f7771547874963870a842f2c0ac5b8b6c7ca7c890fa"
 
 RPROVIDES:${PN} += "python3-numba \
-python3.10dist(numba) \
+python3.10dist-numba \
 python310-numba \
-python310-numba(aarch-64) \
-python3dist(numba)"
+python3dist-numba"
 
-RDEPENDS:${PN} += "(python310-llvmlite >= 0.40 with python310-llvmlite < 0.41) \
-(python310-numpy >= 1.21 with python310-numpy < 1.25) \
+RDEPENDS:${PN} += "-python310-llvmlite >= 0.40 with python310-llvmlite < 0.41 \
+-python310-numpy >= 1.21 with python310-numpy < 1.25 \
 /bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtbb.so.12()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libtbb.so.12 \
+python-abi \
 update-alternatives"
 
 inherit rpm

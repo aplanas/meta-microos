@@ -12,10 +12,10 @@ RPM_HASH = "7d06034b8c08eedb9992a55437dc27ee9375d645fd331b0d68a911240a05c0ba0158
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docopt \
-python3.10dist(docopt) \
+python3.10dist-docopt \
 python310-docopt \
-python3dist(docopt)"
+python3dist-docopt"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

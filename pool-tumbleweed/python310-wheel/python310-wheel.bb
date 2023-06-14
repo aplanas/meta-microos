@@ -17,13 +17,13 @@ RPM_HASH = "a92e72f580479c1baf505c8f2d21e09c80b9cf9864257afeb33bd13503ca86c85778
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wheel \
-python3.10dist(wheel) \
+python3.10dist-wheel \
 python310-wheel \
-python3dist(wheel)"
+python3dist-wheel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi)"
+python-abi"
 
 inherit rpm

@@ -9,7 +9,7 @@ RPM_NAME = "texlive-fontsize-2023.201.0.0.8.5svn60161-52.1.noarch.rpm"
 RPM_HASH = "519e33c7ab1dc0e75670864d6ef977270c73f062b8891899dc487e532f44fc94edcd2a45302b0ff69cfc38d67eb567540dc92fd91df84eea1c645daea461519c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fontsize.sty) \
+RPROVIDES:${PN} += "tex-fontsize.sty \
 texlive-fontsize"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,8 +18,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(xfp.sty) \
-tex(xkeyval.sty) \
+tex-xfp.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

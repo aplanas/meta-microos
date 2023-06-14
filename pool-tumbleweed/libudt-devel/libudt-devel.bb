@@ -16,7 +16,6 @@ RPM_NAME = "libudt-devel-4.11-1.22.aarch64.rpm"
 RPM_HASH = "266a5bcad202df19c6833081042313020841a83d9cdec7281261c425607ffd1cca56a2dcc93d3dbc28449fc4c6906557057888a259e789db4a05307179ad47c4"
 
 RPROVIDES:${PN} += "libudt-devel \
-libudt-devel(aarch-64) \
 udt-devel"
 
 RDEPENDS:${PN} += "libudt0"

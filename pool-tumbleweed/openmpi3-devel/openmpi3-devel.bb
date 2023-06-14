@@ -20,15 +20,14 @@ PV = "3.1.6"
 RPM_NAME = "openmpi3-devel-3.1.6-7.3.aarch64.rpm"
 RPM_HASH = "b069bb900cb61e649adeadd34de4f93a03e64363ecc4dc21c6ef06e4862ed82010d994bb71942c3cbd9df1bd83537af4fdc7fabddbe79369a75f7f3021c5515a"
 
-RPROVIDES:${PN} += "openmpi3-devel \
-openmpi3-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi3-devel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libibumad-devel \
 libibverbs-devel \
-libmpi.so.40()(64bit) \
-libopen-pal.so.40()(64bit) \
+libmpi.so.40 \
+libopen-pal.so.40 \
 libstdc++-devel \
 openmpi3"
 

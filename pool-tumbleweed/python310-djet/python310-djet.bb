@@ -9,11 +9,11 @@ RPM_HASH = "1282ad7da7b8f332d713e1eaa85b836d9438ab262f9987d5fd025015c265bc4d0eb4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-djet \
-python3.10dist(djet) \
+python3.10dist-djet \
 python310-djet \
-python3dist(djet)"
+python3dist-djet"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Pillow \
 python310-six"

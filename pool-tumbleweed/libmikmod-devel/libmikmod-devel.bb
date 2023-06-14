@@ -15,8 +15,7 @@ RPM_NAME = "libmikmod-devel-3.3.11.1-1.15.aarch64.rpm"
 RPM_HASH = "ab7848d20ae17ef634ed742a05af7cc0693c60f28971116d0c582ee131c8943525aa0e1ad7d6f39aa6ac4f0aeacd59c3d5bf141fc0aaa4bb538379011e6a49ba"
 
 RPROVIDES:${PN} += "libmikmod-devel \
-libmikmod-devel(aarch-64) \
-pkgconfig(libmikmod)"
+pkgconfig-libmikmod"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

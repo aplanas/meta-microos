@@ -25,9 +25,8 @@ PV = "0.8.0"
 RPM_NAME = "git-bug-0.8.0-1.3.aarch64.rpm"
 RPM_HASH = "3b4f3125e00e7f7450afcc676ae8d9abcfdbab69ea1f6b81519bbac4d75e7a75fc4bfa1e7b8bc08a45f8647f22797e7f1ef4ab4633173f7d0d615d840daa66d7"
 
-RPROVIDES:${PN} += "git-bug \
-git-bug(aarch-64)"
+RPROVIDES:${PN} += "git-bug"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -17,21 +17,21 @@ RPM_NAME = "perl-Monitoring-Plugin-0.40-1.15.noarch.rpm"
 RPM_HASH = "50490b55807534007614765b56addaa54f733758d0417d2f18f159caeeb817f4dc203a93bdf0085c19db4bb5ededc799b0366c81e9c5c43c67d17105d4cc4a4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Monitoring::Plugin) \
-perl(Monitoring::Plugin::Config) \
-perl(Monitoring::Plugin::ExitResult) \
-perl(Monitoring::Plugin::Functions) \
-perl(Monitoring::Plugin::Getopt) \
-perl(Monitoring::Plugin::Performance) \
-perl(Monitoring::Plugin::Range) \
-perl(Monitoring::Plugin::Threshold) \
+RPROVIDES:${PN} += "perl-Monitoring--Plugin \
+perl-Monitoring--Plugin--Config \
+perl-Monitoring--Plugin--ExitResult \
+perl-Monitoring--Plugin--Functions \
+perl-Monitoring--Plugin--Getopt \
+perl-Monitoring--Plugin--Performance \
+perl-Monitoring--Plugin--Range \
+perl-Monitoring--Plugin--Threshold \
 perl-Monitoring-Plugin"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Accessor) \
-perl(Config::Tiny) \
-perl(Math::Calc::Units) \
-perl(Params::Validate) \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Accessor \
+perl-Config--Tiny \
+perl-Math--Calc--Units \
+perl-Params--Validate \
 perl-base"
 
 inherit rpm

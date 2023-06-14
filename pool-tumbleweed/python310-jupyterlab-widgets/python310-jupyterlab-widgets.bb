@@ -9,13 +9,11 @@ RPM_HASH = "92ee506e3ef73167f659d3c6e4daf0a775b9d7ce2738799c549beafd5b97fb7266d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyterlab-widgets \
-python3-jupyterlab_widgets \
-python3.10dist(jupyterlab-widgets) \
+python3.10dist-jupyterlab-widgets \
 python310-jupyterlab-widgets \
-python310-jupyterlab_widgets \
-python3dist(jupyterlab-widgets)"
+python3dist-jupyterlab-widgets"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab-widgets \
-python(abi)"
+python-abi"
 
 inherit rpm

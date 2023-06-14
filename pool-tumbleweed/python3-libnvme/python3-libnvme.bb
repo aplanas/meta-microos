@@ -10,14 +10,11 @@ PV = "1.4"
 RPM_NAME = "python3-libnvme-1.4-1.1.aarch64.rpm"
 RPM_HASH = "560f7ac6e52cc50e6d5022f79165b326c2aad8176a8a2f2583607b2a346913652f500585c28bc3f927f340a0fc532d61b46705b3cb02f370962c85d7f28a38e8"
 
-RPROVIDES:${PN} += "python3-libnvme \
-python3-libnvme(aarch-64)"
+RPROVIDES:${PN} += "python3-libnvme"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnvme.so.1()(64bit) \
-libnvme.so.1(LIBNVME_1_0)(64bit) \
-libnvme.so.1(LIBNVME_1_2)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnvme.so.1 \
+python-abi"
 
 inherit rpm

@@ -28,7 +28,7 @@ RPM_NAME = "texlive-tikz-karnaugh-2023.201.1.5svn62040-52.1.noarch.rpm"
 RPM_HASH = "ef10600befb6207dd502373d49b1ed23ee1bbf4da67e599b4bccffb543ad5ed9766ac24b24073a5760d37b6a0a90eb779ca930657cb4fcf0fdbf9c1f96b15c6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibrarykarnaugh.code.tex) \
+RPROVIDES:${PN} += "tex-tikzlibrarykarnaugh.code.tex \
 texlive-tikz-karnaugh"
 
 RDEPENDS:${PN} += "/bin/sh \

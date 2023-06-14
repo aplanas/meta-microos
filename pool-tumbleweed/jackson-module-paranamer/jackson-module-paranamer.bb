@@ -10,13 +10,13 @@ RPM_HASH = "dead045de3858dba3bb328a371c230813294e7deb85bd4db3bf87093e758e015d5e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-paranamer \
-mvn(com.fasterxml.jackson.module:jackson-module-paranamer) \
-mvn(com.fasterxml.jackson.module:jackson-module-paranamer:pom:) \
-osgi(com.fasterxml.jackson.module.jackson-module-paranamer)"
+mvn-com.fasterxml.jackson.module-jackson-module-paranamer \
+mvn-com.fasterxml.jackson.module-jackson-module-paranamer-pom- \
+osgi-com.fasterxml.jackson.module.jackson-module-paranamer"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(com.thoughtworks.paranamer:paranamer)"
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-com.thoughtworks.paranamer-paranamer"
 
 inherit rpm

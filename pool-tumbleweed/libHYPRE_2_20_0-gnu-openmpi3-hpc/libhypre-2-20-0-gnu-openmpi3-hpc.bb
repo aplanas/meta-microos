@@ -13,13 +13,12 @@ PV = "2.20.0"
 RPM_NAME = "libHYPRE_2_20_0-gnu-openmpi3-hpc-2.20.0-1.21.aarch64.rpm"
 RPM_HASH = "bb80f0c2711bc286eaaf0f3d33740a936fe9cac65e7bcf7bee2d8003ed3e2ed6148d3c5c305ea59d817b6a8b0e1a315f77130bd33a8f12f081bbc2ee2e739481"
 
-RPROVIDES:${PN} += "libHYPRE_2_20_0-gnu-openmpi3-hpc \
-libHYPRE_2_20_0-gnu-openmpi3-hpc(aarch-64)"
+RPROVIDES:${PN} += "libHYPRE-2-20-0-gnu-openmpi3-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libopenmpi3-gnu-hpc \
 lua-lmod"
 

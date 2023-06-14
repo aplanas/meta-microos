@@ -9,10 +9,10 @@ RPM_HASH = "e002595ae891dd314f3661c0fb19e9a7453d2f2fc69c5a97954c9551cdabd6eac397
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-babelfish \
-python3.10dist(babelfish) \
+python3.10dist-babelfish \
 python310-babelfish \
-python3dist(babelfish)"
+python3dist-babelfish"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

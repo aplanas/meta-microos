@@ -16,20 +16,19 @@ PV = "1.24.2"
 RPM_NAME = "python39-numpy-1.24.2-3.1.aarch64.rpm"
 RPM_HASH = "8fa7c830aaecab934d231ffcf54a4bfb7925aadbe35c6abcf68ba6e0f64d01f76b63060387506ce981a840c26456422185dbd4d031b1b2628b2c48c0605685bf"
 
-RPROVIDES:${PN} += "python3.9dist(numpy) \
+RPROVIDES:${PN} += "python3.9dist-numpy \
 python39-numpy \
-python39-numpy(aarch-64) \
-python3dist(numpy)"
+python3dist-numpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \
-ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcblas.so.3()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+libcblas.so.3 \
+liblapack.so.3 \
+libm.so.6 \
+python-abi"
 
 inherit rpm

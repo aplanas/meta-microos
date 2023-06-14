@@ -9,11 +9,11 @@ RPM_HASH = "7d6b98ad3ae147278caf2fb018dcbd8a1ac08fa8f2cb09019e34bda6048938b8cf72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyjavaproperties \
-python3.10dist(pyjavaproperties) \
+python3.10dist-pyjavaproperties \
 python310-pyjavaproperties \
-python3dist(pyjavaproperties)"
+python3dist-pyjavaproperties"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-base"
 
 inherit rpm

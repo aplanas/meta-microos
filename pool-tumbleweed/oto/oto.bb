@@ -25,11 +25,10 @@ PV = "0.5"
 RPM_NAME = "oto-0.5-1.12.aarch64.rpm"
 RPM_HASH = "1d6202f5850cf58e0860cc01a76f4c201954bc1140bf2f60d2b945ce421189574f32a5517046847cf2d497cac5883ac14d0616cc90193196e0ce764ef804bca0"
 
-RPROVIDES:${PN} += "oto \
-oto(aarch-64)"
+RPROVIDES:${PN} += "oto"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

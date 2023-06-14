@@ -9,11 +9,11 @@ RPM_HASH = "73500123e0b8d22874b4a3653b2034e564f65ee4377193091740938d1fa214ec143f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-flake8-path \
-python3.10dist(pytest-flake8-path) \
+python3.10dist-pytest-flake8-path \
 python310-pytest-flake8-path \
-python3dist(pytest-flake8-path)"
+python3dist-pytest-flake8-path"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flake8 \
 python310-pytest"
 

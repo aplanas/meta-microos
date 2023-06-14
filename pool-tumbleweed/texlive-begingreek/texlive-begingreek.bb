@@ -11,7 +11,7 @@ RPM_NAME = "texlive-begingreek-2023.201.1.7svn63255-53.1.noarch.rpm"
 RPM_HASH = "f2c49b0cd2d88cd4af7489cc687003b2044f8946b5f84cc2e7c18a1abede737f520211ed542180c62af5db2771c08d43bec9d258969760afe8caa808e23cf3e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(begingreek.sty) \
+RPROVIDES:${PN} += "tex-begingreek.sty \
 texlive-begingreek"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(iftex.sty) \
+tex-iftex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

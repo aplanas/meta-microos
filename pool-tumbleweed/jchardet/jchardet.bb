@@ -13,8 +13,8 @@ RPM_HASH = "608ca752d75f6b26cf7d560e9fd288a3ac2fd3cbb15e6276ad237dff7dd0598c679e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jchardet \
-mvn(net.sourceforge.jchardet:jchardet) \
-mvn(net.sourceforge.jchardet:jchardet:pom:)"
+mvn-net.sourceforge.jchardet-jchardet \
+mvn-net.sourceforge.jchardet-jchardet-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

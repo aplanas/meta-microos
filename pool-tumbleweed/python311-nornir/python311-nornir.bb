@@ -16,13 +16,13 @@ RPM_NAME = "python311-nornir-3.3.0-1.8.noarch.rpm"
 RPM_HASH = "1c16d359896cdda4c05cc5c81d86fd69af82dd111065919471d0bf71cb5ab1e3d2ae669de5aa366b3cff7a5bc266c665754b6a22c391108d343f3b283c3a216b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(nornir) \
+RPROVIDES:${PN} += "python3.11dist-nornir \
 python311-nornir \
-python3dist(nornir)"
+python3dist-nornir"
 
-RDEPENDS:${PN} += "python(abi) \
-python311-mypy_extensions \
+RDEPENDS:${PN} += "python-abi \
+python311-mypy-extensions \
 python311-ruamel.yaml \
-python311-typing_extensions"
+python311-typing-extensions"
 
 inherit rpm

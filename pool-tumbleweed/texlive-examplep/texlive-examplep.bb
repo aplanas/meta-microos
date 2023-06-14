@@ -24,9 +24,9 @@ RPM_NAME = "texlive-examplep-2023.201.0.0.04svn55265-52.1.noarch.rpm"
 RPM_HASH = "f2c2cb3bdce228ccf48d4ffb75d5f18b9508b06a1b1c1bdc0e422f40be07ced6543c118af5f1e6d1f6f1775b88318c3c2202b90aa5026426366a0c9adf0c440d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(codep.sty) \
-tex(examplep.sty) \
-tex(verbfwr.sty) \
+RPROVIDES:${PN} += "tex-codep.sty \
+tex-examplep.sty \
+tex-verbfwr.sty \
 texlive-examplep"
 
 RDEPENDS:${PN} += "/bin/sh \

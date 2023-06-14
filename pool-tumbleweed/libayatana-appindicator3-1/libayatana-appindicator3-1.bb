@@ -11,19 +11,18 @@ RPM_HASH = "add1be32e910a671daaf7bf6386f871b6f42a2f3435479d521680157ab7b3469531f
 
 RPROVIDES:${PN} += "libayatana-appindicator3 \
 libayatana-appindicator3-1 \
-libayatana-appindicator3-1(aarch-64) \
-libayatana-appindicator3.so.1()(64bit)"
+libayatana-appindicator3.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libayatana-indicator3.so.7()(64bit) \
-libc.so.6()(64bit) \
-libdbusmenu-glib.so.4()(64bit) \
-libdbusmenu-gtk3.so.4()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libayatana-indicator3.so.7 \
+libc.so.6 \
+libdbusmenu-glib.so.4 \
+libdbusmenu-gtk3.so.4 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

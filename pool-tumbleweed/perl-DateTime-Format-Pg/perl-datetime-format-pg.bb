@@ -12,12 +12,12 @@ RPM_NAME = "perl-DateTime-Format-Pg-0.16014-1.10.noarch.rpm"
 RPM_HASH = "ca23523e248271021589457bd5bba75ffbad9d4f3c17d1940b36f920d6d8de4099dde79327508b11a6ecc30853abc960b6a6e5193f414c0b3a4b67cca7627acb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DateTime::Format::Pg) \
+RPROVIDES:${PN} += "perl-DateTime--Format--Pg \
 perl-DateTime-Format-Pg"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DateTime) \
-perl(DateTime::Format::Builder) \
-perl(DateTime::TimeZone)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DateTime \
+perl-DateTime--Format--Builder \
+perl-DateTime--TimeZone"
 
 inherit rpm

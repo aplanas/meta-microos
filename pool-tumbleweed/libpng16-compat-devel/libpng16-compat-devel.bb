@@ -12,11 +12,10 @@ RPM_HASH = "7e87bd999f3dd6044eac3e1ea71dbbe751e27aaf87c4eac9e1188f7f0a23d2630c25
 
 RPROVIDES:${PN} += "libpng-devel \
 libpng16-compat-devel \
-libpng16-compat-devel(aarch-64) \
-pkgconfig(libpng)"
+pkgconfig-libpng"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpng16-devel \
-pkgconfig(zlib)"
+pkgconfig-zlib"
 
 inherit rpm

@@ -22,7 +22,7 @@ RPM_NAME = "texlive-jourcl-2023.201.svn65290-55.1.noarch.rpm"
 RPM_HASH = "a3e9ead53675abec3c021a5e2eff6e1335f2ea477302e6263b7c290c27721d6a45765d7984c174734fd3c4643f02a150a146a12c13d16502f8631b56450b6eb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(jourcl.cls) \
+RPROVIDES:${PN} += "tex-jourcl.cls \
 texlive-jourcl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,17 +31,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(babel.sty) \
-tex(fancyhdr.sty) \
-tex(fontawesome5.sty) \
-tex(framed.sty) \
-tex(graphicx.sty) \
-tex(inputenc.sty) \
-tex(isodate.sty) \
-tex(lipsum.sty) \
-tex(orcidlink.sty) \
-tex(parskip.sty) \
+tex-article.cls \
+tex-babel.sty \
+tex-fancyhdr.sty \
+tex-fontawesome5.sty \
+tex-framed.sty \
+tex-graphicx.sty \
+tex-inputenc.sty \
+tex-isodate.sty \
+tex-lipsum.sty \
+tex-orcidlink.sty \
+tex-parskip.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

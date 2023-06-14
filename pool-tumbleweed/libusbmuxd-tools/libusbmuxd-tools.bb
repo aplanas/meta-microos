@@ -19,11 +19,10 @@ RPM_NAME = "libusbmuxd-tools-2.0.2-1.9.aarch64.rpm"
 RPM_HASH = "4ac2322d57af96b1929c78cfb99585aa03cab2beed17d58622ca43d9e822e58a04cbeaea6e7c35faf6464c481f3b40cbe791779dbd331ad5a2f638e7b93a3599"
 
 RPROVIDES:${PN} += "iproxy \
-libusbmuxd-tools \
-libusbmuxd-tools(aarch-64)"
+libusbmuxd-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusbmuxd-2.0.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusbmuxd-2.0.so.6"
 
 inherit rpm

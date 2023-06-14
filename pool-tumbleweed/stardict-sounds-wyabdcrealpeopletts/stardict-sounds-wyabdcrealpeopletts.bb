@@ -10,7 +10,7 @@ RPM_NAME = "stardict-sounds-wyabdcrealpeopletts-2.1.0-15.17.noarch.rpm"
 RPM_HASH = "b864fa7635da04baea395a9833cb3c662c4142408466f9b4fe0a599e568c2527b2ff0a484f55af4dfdce8a6bc27b45e28fc33b7a1331e953c9c8796fbb4aa9d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(stardict:en) \
+RPROVIDES:${PN} += "locale-stardict-en \
 stardict-sounds-wyabdcrealpeopletts"
 
 RDEPENDS:${PN} += ""

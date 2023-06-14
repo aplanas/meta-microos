@@ -9,9 +9,8 @@ PV = "0.12.12"
 RPM_NAME = "k3sup-0.12.12-1.1.aarch64.rpm"
 RPM_HASH = "f8100a037f93fa5de6423f397e7a05eaf6a574f9fea231b19ef1b383de7f357dd4d7b60c8576c0a5a1968574c2775e3e727f6bd69d7d0422c58b92c878b237e4"
 
-RPROVIDES:${PN} += "k3sup \
-k3sup(aarch-64)"
+RPROVIDES:${PN} += "k3sup"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -9,9 +9,8 @@ PV = "0.3.21"
 RPM_NAME = "openblas-pthreads_0_3_21-gnu-hpc-devel-static-0.3.21-5.3.aarch64.rpm"
 RPM_HASH = "e7115dc3426baeed71ffe64aa1cab41645ec4dfc4fef390329a71116da1a3c9f74a36f52bb0643db962500a0f5be9a9ffbe313cd5978f5618af22602d3b7509c"
 
-RPROVIDES:${PN} += "openblas-pthreads_0_3_21-gnu-hpc-devel-static \
-openblas-pthreads_0_3_21-gnu-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "openblas-pthreads-0-3-21-gnu-hpc-devel-static"
 
-RDEPENDS:${PN} += "libopenblas-pthreads_0_3_21-gnu-hpc-devel"
+RDEPENDS:${PN} += "libopenblas-pthreads-0-3-21-gnu-hpc-devel"
 
 inherit rpm

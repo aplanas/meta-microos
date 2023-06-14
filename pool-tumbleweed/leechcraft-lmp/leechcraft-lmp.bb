@@ -13,81 +13,50 @@ PV = "0.6.70+git.14794.g33744ae6ce"
 RPM_NAME = "leechcraft-lmp-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
 RPM_HASH = "e16425608f5f55b2bb2c618431ff944895d3dcb9c126fb9c669e258541c7bddae80b7061afdc6a6b5f93733dfcd18e2115ff98bdc76c23c901aa215f1f54141d"
 
-RPROVIDES:${PN} += "application() \
-application(leechcraft-lmp-qt5.desktop) \
-leechcraft-audioplayer \
+RPROVIDES:${PN} += "leechcraft-audioplayer \
 leechcraft-lmp \
-leechcraft-lmp(aarch-64) \
 leechcraft-soundnotifications \
-libleechcraft_lmp.so()(64bit) \
-mimehandler(application/ogg) \
-mimehandler(application/x-cue) \
-mimehandler(application/x-ogg) \
-mimehandler(audio/flac) \
-mimehandler(audio/mp3) \
-mimehandler(audio/mpeg) \
-mimehandler(audio/x-ape) \
-mimehandler(audio/x-ffmpeg-shorten) \
-mimehandler(audio/x-it) \
-mimehandler(audio/x-mod) \
-mimehandler(audio/x-mp3) \
-mimehandler(audio/x-mpeg) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-ms-wma) \
-mimehandler(audio/x-musepack) \
-mimehandler(audio/x-scpls) \
-mimehandler(audio/x-vorbis+ogg) \
-mimehandler(inode/directory)"
+libleechcraft-lmp.so"
 
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
-ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Concurrent.so.5()(64bit) \
-libQt5Concurrent.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5QuickWidgets.so.5()(64bit) \
-libQt5QuickWidgets.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libguess.so.1()(64bit) \
-libleechcraft-util-db-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-gui-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-models-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-qml-qt5.so.0.6.75.2()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sll-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-sys-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libleechcraft-util-xsd-qt5.so.0.6.75()(64bit) \
-libleechcraft-xsd-qt5.so.0.6.75.2()(64bit) \
-libm.so.6()(64bit) \
+libQt5Concurrent.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5QuickWidgets.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0 \
+libguess.so.1 \
+libleechcraft-util-db-qt5.so.0.6.75.1 \
+libleechcraft-util-gui-qt5.so.0.6.75.1 \
+libleechcraft-util-models-qt5.so.0.6.75.1 \
+libleechcraft-util-qml-qt5.so.0.6.75.2 \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-sll-qt5.so.0.6.75.1 \
+libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-util-xsd-qt5.so.0.6.75 \
+libleechcraft-xsd-qt5.so.0.6.75.2 \
+libm.so.6 \
 libqt5-qtgraphicaleffects \
 libqt5-qtquickcontrols \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit) \
-qt5qmlimport(QtGraphicalEffects.1) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.1) \
-qt5qmlimport(QtQuick.Controls.Styles.1) \
-qt5qmlimport(QtQuick.Layouts.1)"
+libstdc++.so.6 \
+libtag.so.1 \
+qt5qmlimport-QtGraphicalEffects.1 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.1 \
+qt5qmlimport-QtQuick.Controls.Styles.1 \
+qt5qmlimport-QtQuick.Layouts.1"
 
 inherit rpm

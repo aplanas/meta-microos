@@ -10,31 +10,20 @@ PV = "1.7.4"
 RPM_NAME = "rpi-imager-1.7.4-2.1.aarch64.rpm"
 RPM_HASH = "10c67a9a34c6024e2ee2d1eae9ad15114425e8329f37aa5a85d5af8a9c0bbf81d8e287dbeef4347a14d171d41334d89c05acccff653197b29282adb04ee80657"
 
-RPROVIDES:${PN} += "application() \
-application(rpi-imager.desktop) \
-metainfo() \
-metainfo(rpi-imager.metainfo.xml) \
-rpi-imager \
-rpi-imager(aarch-64)"
+RPROVIDES:${PN} += "rpi-imager"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libarchive.so.13()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Widgets.so.5 \
+libarchive.so.13 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

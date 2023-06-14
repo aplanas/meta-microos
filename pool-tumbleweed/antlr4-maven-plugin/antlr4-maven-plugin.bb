@@ -10,15 +10,15 @@ RPM_HASH = "d0250319e98b2e17394a775e76f4acca0dee1eb01eb5717469a3627b96199d1c244c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr4-maven-plugin \
-mvn(org.antlr:antlr4-maven-plugin) \
-mvn(org.antlr:antlr4-maven-plugin:pom:)"
+mvn-org.antlr-antlr4-maven-plugin \
+mvn-org.antlr-antlr4-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.antlr:antlr4) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-project) \
-mvn(org.codehaus.plexus:plexus-compiler-api) \
-mvn(org.sonatype.plexus:plexus-build-api)"
+mvn-org.antlr-antlr4 \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-project \
+mvn-org.codehaus.plexus-plexus-compiler-api \
+mvn-org.sonatype.plexus-plexus-build-api"
 
 inherit rpm

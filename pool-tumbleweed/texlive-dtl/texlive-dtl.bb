@@ -13,8 +13,8 @@ RPM_NAME = "texlive-dtl-2023.201.0.0.6.1svn62387-52.1.noarch.rpm"
 RPM_HASH = "c7e0a7957771164c71e79cb9f5258ff94989af64b47f3fa461b67c048f5ed9ebf46467ef365e6b3deb80f06b2c772c745143da73c3100080db492ff3fab6a73c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(dt2dv.1) \
-man(dv2dt.1) \
+RPROVIDES:${PN} += "man-dt2dv.1 \
+man-dv2dt.1 \
 texlive-dtl"
 
 RDEPENDS:${PN} += "/bin/sh \

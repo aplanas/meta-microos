@@ -19,10 +19,10 @@ RPM_HASH = "7402c6c1e3dfa3b26d5fe47248c9f404f4e3d0c164b97575fef1c4ea2d0d8f7bd04c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-joblib \
-python3.10dist(joblib) \
+python3.10dist-joblib \
 python310-joblib \
-python3dist(joblib)"
+python3dist-joblib"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -13,9 +13,9 @@ RPM_HASH = "f1b62770db99b7b3d7b90c72d9f122e3988bda4892808486f3ce2fcb97f3e2037c96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-datalake-nspkg \
-python3.10dist(azure-mgmt-datalake-nspkg) \
+python3.10dist-azure-mgmt-datalake-nspkg \
 python310-azure-mgmt-datalake-nspkg \
-python3dist(azure-mgmt-datalake-nspkg)"
+python3dist-azure-mgmt-datalake-nspkg"
 
 RDEPENDS:${PN} += "python310-azure-mgmt-nspkg \
 python310-azure-nspkg"

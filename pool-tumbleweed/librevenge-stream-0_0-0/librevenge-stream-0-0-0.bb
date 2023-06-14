@@ -10,15 +10,14 @@ PV = "0.0.5"
 RPM_NAME = "librevenge-stream-0_0-0-0.0.5-1.3.aarch64.rpm"
 RPM_HASH = "2195b61f318b59987730506021a2f33039841d47f677f57bd4578a5c41d3c34a280acd1449c65cf4bd7c10fd68c8ab590e757a88c7093d3aa055d9774f14ac09"
 
-RPROVIDES:${PN} += "librevenge-stream-0.0.so.0()(64bit) \
-librevenge-stream-0_0-0 \
-librevenge-stream-0_0-0(aarch-64)"
+RPROVIDES:${PN} += "librevenge-stream-0-0-0 \
+librevenge-stream-0.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

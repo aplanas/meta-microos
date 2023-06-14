@@ -15,12 +15,11 @@ PV = "7.1.1.11"
 RPM_NAME = "ImageMagick-7.1.1.11-1.1.aarch64.rpm"
 RPM_HASH = "431603feb63834cba3f6b2aa43cf1952808e6c1ced8a24c5c0001fa2b1b6ce4e9ef9a9b7ba49fc0be08de3ab05e079f565075dbaea24fa05d6ad7aeaf3b6db21"
 
-RPROVIDES:${PN} += "ImageMagick \
-ImageMagick(aarch-64)"
+RPROVIDES:${PN} += "ImageMagick"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libMagickCore-7.Q16HDRI.so.10()(64bit) \
-libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libMagickCore-7.Q16HDRI.so.10 \
+libMagickWand-7.Q16HDRI.so.10 \
+libc.so.6"
 
 inherit rpm

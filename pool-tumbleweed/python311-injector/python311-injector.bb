@@ -20,11 +20,11 @@ RPM_NAME = "python311-injector-0.20.1-1.3.noarch.rpm"
 RPM_HASH = "ea7db543e7579d95b81f539571e2cd8883f077f404007f8311a2af8b91416df9b2d1feaba659789de5c2e1b7004453987fe1969ba71295757da7532e3145b21e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(injector) \
+RPROVIDES:${PN} += "python3.11dist-injector \
 python311-injector \
-python3dist(injector)"
+python3dist-injector"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311"
 
 inherit rpm

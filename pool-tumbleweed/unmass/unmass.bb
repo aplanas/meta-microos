@@ -14,12 +14,11 @@ PV = "0.92"
 RPM_NAME = "unmass-0.92-3.13.aarch64.rpm"
 RPM_HASH = "e942f4357d006eac872576a3fcc21d1acef09e669d6fbff491b14a2a4262f7cbbde48c811f24d7b8d51f8298dea2668ae2d32c7f939fb97a751bfa64c6c76cec"
 
-RPROVIDES:${PN} += "unmass \
-unmass(aarch-64)"
+RPROVIDES:${PN} += "unmass"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

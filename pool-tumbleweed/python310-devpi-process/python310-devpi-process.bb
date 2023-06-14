@@ -10,11 +10,11 @@ RPM_HASH = "927cf4bddbbf1681a4f8d191b87598588cc4ff3a545e627c187c52e125a397d64ce7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-devpi-process \
-python3.10dist(devpi-process) \
+python3.10dist-devpi-process \
 python310-devpi-process \
-python3dist(devpi-process)"
+python3dist-devpi-process"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-devpi-client \
 python310-devpi-server"
 

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-testhyphens-2023.201.0.0.7svn38928-54.1.noarch.rpm"
 RPM_HASH = "a513daeb5e4e03d7af63693c20e52a29d0adf27fd64c284f7e555664bb7eb74a1dfedd8b803d21f9d3d3cd6d7ee96827f730e2a9fb5cc009891e28fe6ad3f332"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(testhyphens.sty) \
+RPROVIDES:${PN} += "tex-testhyphens.sty \
 texlive-testhyphens"
 
 RDEPENDS:${PN} += "/bin/sh \

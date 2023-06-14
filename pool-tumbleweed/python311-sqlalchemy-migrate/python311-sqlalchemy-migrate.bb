@@ -13,13 +13,13 @@ RPM_NAME = "python311-sqlalchemy-migrate-0.13.0-5.4.noarch.rpm"
 RPM_HASH = "0c958ec792ddb5e85bd3ed0314e08aecd546fdbe05f208ad421e832f6eb09024b2950a604429f6ebeeb69bdc323a8560359fa9e8d6a6ecc5fc323a69581f9912"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sqlalchemy-migrate) \
+RPROVIDES:${PN} += "python3.11dist-sqlalchemy-migrate \
 python311-sqlalchemy-migrate \
-python3dist(sqlalchemy-migrate)"
+python3dist-sqlalchemy-migrate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-SQLAlchemy \
 python311-Tempita \
 python311-decorator \

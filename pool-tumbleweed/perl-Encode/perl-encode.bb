@@ -29,40 +29,38 @@ PV = "3.19"
 RPM_NAME = "perl-Encode-3.19-1.2.aarch64.rpm"
 RPM_HASH = "55664efced9aa2297a8704bc49d303cb6ea2d6c7b5beb3e3e12b1f427d6efe6f34729808d770e959ee3d1360362203074f013fe506c253bef7cbcf296028ef23"
 
-RPROVIDES:${PN} += "perl(Encode) \
-perl(Encode::Alias) \
-perl(Encode::Byte) \
-perl(Encode::CJKConstants) \
-perl(Encode::CN) \
-perl(Encode::CN::HZ) \
-perl(Encode::Config) \
-perl(Encode::EBCDIC) \
-perl(Encode::Encoder) \
-perl(Encode::Encoding) \
-perl(Encode::GSM0338) \
-perl(Encode::Guess) \
-perl(Encode::JP) \
-perl(Encode::JP::H2Z) \
-perl(Encode::JP::JIS7) \
-perl(Encode::KR) \
-perl(Encode::KR::2022_KR) \
-perl(Encode::MIME::Header) \
-perl(Encode::MIME::Header::ISO_2022_JP) \
-perl(Encode::MIME::Name) \
-perl(Encode::Symbol) \
-perl(Encode::TW) \
-perl(Encode::UTF_EBCDIC) \
-perl(Encode::Unicode) \
-perl(Encode::Unicode::UTF7) \
-perl(Encode::XS) \
-perl(Encode::utf8) \
-perl(encoding) \
-perl-Encode \
-perl-Encode(aarch-64)"
+RPROVIDES:${PN} += "perl-Encode \
+perl-Encode--Alias \
+perl-Encode--Byte \
+perl-Encode--CJKConstants \
+perl-Encode--CN \
+perl-Encode--CN--HZ \
+perl-Encode--Config \
+perl-Encode--EBCDIC \
+perl-Encode--Encoder \
+perl-Encode--Encoding \
+perl-Encode--GSM0338 \
+perl-Encode--Guess \
+perl-Encode--JP \
+perl-Encode--JP--H2Z \
+perl-Encode--JP--JIS7 \
+perl-Encode--KR \
+perl-Encode--KR--2022-KR \
+perl-Encode--MIME--Header \
+perl-Encode--MIME--Header--ISO-2022-JP \
+perl-Encode--MIME--Name \
+perl-Encode--Symbol \
+perl-Encode--TW \
+perl-Encode--UTF-EBCDIC \
+perl-Encode--Unicode \
+perl-Encode--Unicode--UTF7 \
+perl-Encode--XS \
+perl-Encode--utf8 \
+perl-encoding"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(parent)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-parent"
 
 inherit rpm

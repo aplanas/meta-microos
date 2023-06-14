@@ -21,18 +21,16 @@ RPM_HASH = "70ddd9857a5fa25ba869bcbc558ee43d93bf181640fafef33729f7bbe26f51f9aed5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scikit-build-core \
-python3-scikit_build_core \
-python3.10dist(scikit-build-core) \
+python3.10dist-scikit-build-core \
 python310-scikit-build-core \
-python310-scikit_build_core \
-python3dist(scikit-build-core)"
+python3dist-scikit-build-core"
 
-RDEPENDS:${PN} += "(python310-exceptiongroup if python310-base < 3.11) \
-(python310-importlib-resources >= 1.3 if python310-base < 3.9) \
-(python310-tomli >= 1.1 if python310-base < 3.11) \
-(python310-typing-extensions >= 3.10.0 if python310-base < 3.8) \
+RDEPENDS:${PN} += "-python310-exceptiongroup if python310-base < 3.11 \
+-python310-importlib-resources >= 1.3 if python310-base < 3.9 \
+-python310-tomli >= 1.1 if python310-base < 3.11 \
+-python310-typing-extensions >= 3.10.0 if python310-base < 3.8 \
 cmake \
-python(abi) \
+python-abi \
 python310-packaging"
 
 inherit rpm

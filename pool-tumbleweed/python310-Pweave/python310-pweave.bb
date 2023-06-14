@@ -17,20 +17,20 @@ RPM_HASH = "4383e2c7f7f3c9c8084ad9a0e24b6aa4ed2b96f2aec2751799c36b18f283da8e39c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pweave \
-python3.10dist(pweave) \
+python3.10dist-pweave \
 python310-Pweave \
-python3dist(pweave)"
+python3dist-pweave"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Markdown \
 python310-Pygments \
 python310-certifi \
-python310-jupyter_client \
-python310-jupyter_ipykernel \
-python310-jupyter_ipython \
-python310-jupyter_nbconvert \
-python310-jupyter_nbformat"
+python310-jupyter-client \
+python310-jupyter-ipykernel \
+python310-jupyter-ipython \
+python310-jupyter-nbconvert \
+python310-jupyter-nbformat"
 
 inherit rpm

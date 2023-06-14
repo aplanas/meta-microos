@@ -10,13 +10,13 @@ RPM_HASH = "1c457e9e2e90190c7f76aa929b86f70aba753065d6ae33f8b8bf21cf8f7296d5609f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-uvicorn \
-python3.10dist(uvicorn) \
+python3.10dist-uvicorn \
 python310-uvicorn \
-python3dist(uvicorn)"
+python3dist-uvicorn"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-h11 \
 update-alternatives"

@@ -7,29 +7,19 @@ PV = "1.00.1.r0.gf211d93"
 RPM_NAME = "moolticute-1.00.1.r0.gf211d93-1.3.aarch64.rpm"
 RPM_HASH = "fc008cf473a8144b6c4ca38854eff0ca40c0a4b3d5b0f261a11d2c89e2cf92e5a2fa950f44f8d2f53c0203178f6d71e44465fd289c4ec4546d4265f0c9bdc96b"
 
-RPROVIDES:${PN} += "application() \
-application(moolticute.desktop) \
-moolticute \
-moolticute(aarch-64)"
+RPROVIDES:${PN} += "moolticute"
 
 RDEPENDS:${PN} += "/bin/sh \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5WebSockets.so.5()(64bit) \
-libQt5WebSockets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit)"
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5WebSockets.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libudev.so.1"
 
 inherit rpm

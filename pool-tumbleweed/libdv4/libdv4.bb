@@ -11,13 +11,12 @@ PV = "1.0.0"
 RPM_NAME = "libdv4-1.0.0-179.5.aarch64.rpm"
 RPM_HASH = "ad9630adba3d80bf105dbf98682f9356f5ac951403cf7110d7aed02546bf2604e0002bb2999c88dd4eb1adfde0e97b2d47e324e13d030c1c24bd8d27c23f144a"
 
-RPROVIDES:${PN} += "libdv.so.4()(64bit) \
-libdv4 \
-libdv4(aarch-64)"
+RPROVIDES:${PN} += "libdv.so.4 \
+libdv4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

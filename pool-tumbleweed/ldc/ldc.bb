@@ -10,17 +10,15 @@ PV = "1.32.0"
 RPM_NAME = "ldc-1.32.0-1.1.aarch64.rpm"
 RPM_HASH = "a37cad9faefd43b4f4c82477c935b6c7e1afe3aaeabf49744670e8a454af7ee35c706a140f4bc424c5c94ea8ae17ca0f9e1de0ba04de426930d663ec9d506fc8"
 
-RPROVIDES:${PN} += "config(ldc) \
-ldc \
-ldc(aarch-64)"
+RPROVIDES:${PN} += "config-ldc \
+ldc"
 
-RDEPENDS:${PN} += "libLLVM.so.15()(64bit) \
-libLLVM.so.15(LLVM_15)(64bit) \
-libc.so.6()(64bit) \
-libdruntime-ldc-shared.so.102()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libphobos2-ldc-shared.so.102()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libLLVM.so.15 \
+libc.so.6 \
+libdruntime-ldc-shared.so.102 \
+libgcc-s.so.1 \
+libm.so.6 \
+libphobos2-ldc-shared.so.102 \
+libstdc++.so.6"
 
 inherit rpm

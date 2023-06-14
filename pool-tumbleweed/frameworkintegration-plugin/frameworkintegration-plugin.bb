@@ -11,22 +11,19 @@ PV = "5.106.0"
 RPM_NAME = "frameworkintegration-plugin-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "efe5e2aa4affa4fbd07d04888feb2c4c9ecacb5debbdc2ad6354228c948acb8a9cb5b563e919fe6a517c798dd4b10ba2cb704ea7e33c994853d497f46979c1ed"
 
-RPROVIDES:${PN} += "frameworkintegration-plugin \
-frameworkintegration-plugin(aarch-64)"
+RPROVIDES:${PN} += "frameworkintegration-plugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libAppStreamQt.so.2()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5NewStuffCore.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libpackagekitqt5.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libAppStreamQt.so.2 \
+libKF5ConfigCore.so.5 \
+libKF5I18n.so.5 \
+libKF5NewStuffCore.so.5 \
+libKF5Notifications.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libpackagekitqt5.so.1 \
+libstdc++.so.6 \
 plasma5-integration-plugin"
 
 inherit rpm

@@ -12,11 +12,11 @@ RPM_HASH = "a7f7edc43c2146e0f8cd7b9a71cf51f424372cad16e24cabdf56385a2f3fa34a5b5d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-testtools \
-python3.10dist(testtools) \
+python3.10dist-testtools \
 python310-testtools \
-python3dist(testtools)"
+python3dist-testtools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pbr \
 python310-python-mimeparse \
 python310-traceback2"

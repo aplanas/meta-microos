@@ -13,7 +13,7 @@ RPM_NAME = "texlive-pdfxup-2023.201.2.10svn59001-51.1.noarch.rpm"
 RPM_HASH = "7f11ceec9d9dc5728dd295aeae60782ed4385b0ace2d319aac5c362f465bb95ddf6a42ff9681fd3a2d4fd8c0698ebc56f86d9f5f206ac5bbca4fcc5aa783e138"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfxup-template.tex) \
+RPROVIDES:${PN} += "tex-pdfxup-template.tex \
 texlive-pdfxup"
 
 RDEPENDS:${PN} += "/bin/bash \

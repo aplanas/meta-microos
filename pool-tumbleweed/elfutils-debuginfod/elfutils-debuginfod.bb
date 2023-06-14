@@ -12,9 +12,8 @@ RPM_NAME = "elfutils-debuginfod-0.189-3.1.aarch64.rpm"
 RPM_HASH = "66a46eacfadeeb096fb4b43505a453c9d87ff1b6fcaeb8a5e66c2bd7beb768b61b38b0d3e05d65bb58c4bbaaec7fcbdaea8a6f9057165a1880594aff099c1027"
 
 RPROVIDES:${PN} += "elfutils-debuginfod \
-elfutils-debuginfod(aarch-64) \
-group(debuginfod) \
-user(debuginfod)"
+group-debuginfod \
+user-debuginfod"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
@@ -22,16 +21,16 @@ RDEPENDS:${PN} += "/bin/sh \
 debuginfod-client \
 elfutils \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libarchive.so.13()(64bit) \
-libc.so.6()(64bit) \
-libdebuginfod.so.1()(64bit) \
-libdw.so.1()(64bit) \
-libelf.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmicrohttpd.so.12()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libarchive.so.13 \
+libc.so.6 \
+libdebuginfod.so.1 \
+libdw.so.1 \
+libelf.so.1 \
+libgcc-s.so.1 \
+libmicrohttpd.so.12 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
 sysuser-shadow"
 
 inherit rpm

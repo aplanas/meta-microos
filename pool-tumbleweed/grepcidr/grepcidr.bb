@@ -12,10 +12,9 @@ PV = "2.0"
 RPM_NAME = "grepcidr-2.0-1.10.aarch64.rpm"
 RPM_HASH = "1608f3117215e37b77c73d1e8bce025c0827ec5a865439f83b5dab9c886be1ea7a13663e930e4eb60a4d7b5c2fbfa9ec8e2f2ee099651f2cfc8a76911ab30bad"
 
-RPROVIDES:${PN} += "grepcidr \
-grepcidr(aarch-64)"
+RPROVIDES:${PN} += "grepcidr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -17,13 +17,12 @@ RPM_NAME = "libGraphicsMagickWand-Q16-2-1.3.40-2.3.aarch64.rpm"
 RPM_HASH = "534b3134e6bd572dd4641bfacb2d726a7fd78d5152f35e0802f8852a189b77f77a6d323277b7a194fb14a3e449e95eccfda7a6480dd657bacf0e384eaaa90fd7"
 
 RPROVIDES:${PN} += "libGraphicsMagickWand-Q16-2 \
-libGraphicsMagickWand-Q16-2(aarch-64) \
-libGraphicsMagickWand-Q16.so.2()(64bit)"
+libGraphicsMagickWand-Q16.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGraphicsMagick-Q16.so.3()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGraphicsMagick-Q16.so.3 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -9,12 +9,11 @@ PV = "1.0"
 RPM_NAME = "libRaTools0-1.0-20.10.aarch64.rpm"
 RPM_HASH = "cdd7df9060e75ea31b1486645951e2b6621a84d8f621cab4d894a5150dc2d0e15d9e112f39828855fe9080340cfd95de7731ee03b17899a49926e469e863c93a"
 
-RPROVIDES:${PN} += "libRaTools.so.0()(64bit) \
-libRaTools0 \
-libRaTools0(aarch-64)"
+RPROVIDES:${PN} += "libRaTools.so.0 \
+libRaTools0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

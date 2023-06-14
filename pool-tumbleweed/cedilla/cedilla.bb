@@ -30,7 +30,7 @@ RPM_HASH = "c87c2345876df5b81203427480b13c4ce2e57d2b26c86acc5b976413ed966563301c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cedilla \
-config(cedilla)"
+config-cedilla"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/clisp \

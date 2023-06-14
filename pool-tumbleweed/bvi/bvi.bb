@@ -10,12 +10,11 @@ PV = "1.4.2"
 RPM_NAME = "bvi-1.4.2-1.1.aarch64.rpm"
 RPM_HASH = "cd60aaf330b5e2f171155e63af4db8028cad27b6df4028d06ab432bd8c569fd8677e99bc96075fa2a7451799697d452613cb8679be866da03bec7966f1c594da"
 
-RPROVIDES:${PN} += "bvi \
-bvi(aarch-64)"
+RPROVIDES:${PN} += "bvi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -10,13 +10,12 @@ PV = "0.0.5"
 RPM_NAME = "arptables-0.0.5-1.13.aarch64.rpm"
 RPM_HASH = "3829da56ac19af261b175034872fc156b69e2915073d5c36a033ef52c2692a8a477701b42e64020d13639fa99f49b21f1d350094a42dc700b68c8ad346d381de"
 
-RPROVIDES:${PN} += "arptables \
-arptables(aarch-64)"
+RPROVIDES:${PN} += "arptables"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 update-alternatives"
 
 inherit rpm

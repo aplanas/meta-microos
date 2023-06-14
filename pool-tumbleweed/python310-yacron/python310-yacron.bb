@@ -9,13 +9,13 @@ RPM_HASH = "4325cb0d88a8e41064ed833ef4c62a4978a6036c2c3b560cbd1fe6ebda43f0f03b34
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yacron \
-python3.10dist(yacron) \
+python3.10dist-yacron \
 python310-yacron \
-python3dist(yacron)"
+python3dist-yacron"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-aiohttp \
 python310-aiosmtplib \

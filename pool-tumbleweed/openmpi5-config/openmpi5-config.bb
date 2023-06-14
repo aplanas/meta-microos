@@ -13,10 +13,9 @@ PV = "5.0.0"
 RPM_NAME = "openmpi5-config-5.0.0-2.3.aarch64.rpm"
 RPM_HASH = "1714710e73b6a5fbaa2e7cfd7ae68957763f6d3dcc51062b3f1cabf896559c53dba3486ecb3dcf7809a34c90eea8f631f4bc64986bdef8e9a77ec1473e059ec4"
 
-RPROVIDES:${PN} += "config(openmpi5-config) \
+RPROVIDES:${PN} += "config-openmpi5-config \
 openmpi-runtime-config \
 openmpi5-config \
-openmpi5-config(aarch-64) \
 pmix-runtime-config"
 
 RDEPENDS:${PN} += ""

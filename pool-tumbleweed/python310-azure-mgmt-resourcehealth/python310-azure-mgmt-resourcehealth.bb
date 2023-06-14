@@ -11,12 +11,12 @@ RPM_HASH = "4a52a7ee25c7897ee10dda7656f3d55e5a93c6bede08db60cd2b808144e004b57e96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-resourcehealth \
-python3.10dist(azure-mgmt-resourcehealth) \
+python3.10dist-azure-mgmt-resourcehealth \
 python310-azure-mgmt-resourcehealth \
-python3dist(azure-mgmt-resourcehealth)"
+python3dist-azure-mgmt-resourcehealth"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

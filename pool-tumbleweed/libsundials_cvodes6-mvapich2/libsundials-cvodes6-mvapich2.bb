@@ -10,13 +10,12 @@ PV = "6.3.0"
 RPM_NAME = "libsundials_cvodes6-mvapich2-6.3.0-2.4.aarch64.rpm"
 RPM_HASH = "e3ad59aaa670216cbc9220f1e9ceb2f7b862c5c621f7078fcb945a76a903235f1af1ecb17bfb33b78d0ca285bcf47f4d838aaf0ead08cbc70a265a88e69ca1a3"
 
-RPROVIDES:${PN} += "libsundials_cvodes.so.6()(64bit) \
-libsundials_cvodes6-mvapich2 \
-libsundials_cvodes6-mvapich2(aarch-64)"
+RPROVIDES:${PN} += "libsundials-cvodes.so.6 \
+libsundials-cvodes6-mvapich2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

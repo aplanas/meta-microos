@@ -18,6 +18,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-ipyevents-jupyterlab"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab \
-python3dist(ipyevents)"
+python3dist-ipyevents"
 
 inherit rpm

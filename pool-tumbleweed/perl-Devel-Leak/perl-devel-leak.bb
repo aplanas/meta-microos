@@ -19,12 +19,11 @@ PV = "0.03"
 RPM_NAME = "perl-Devel-Leak-0.03-25.37.aarch64.rpm"
 RPM_HASH = "b1ed599ec1d6f02b61b90e374b8718b408c8383af44efc05317285420edae6686f6a36dbece0a92dd7538cc07f7b4e4fd3b836c4cbfcf5d058392f6e623728e7"
 
-RPROVIDES:${PN} += "perl(Devel::Leak) \
-perl-Devel-Leak \
-perl-Devel-Leak(aarch-64)"
+RPROVIDES:${PN} += "perl-Devel--Leak \
+perl-Devel-Leak"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

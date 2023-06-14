@@ -13,19 +13,16 @@ RPM_NAME = "kim-api-examples-2.3.0-1.8.aarch64.rpm"
 RPM_HASH = "f016dacf491bf91691fd5babfb84099b472f8f114dda82ba958559be024a28470659b1132e778d4b78685ac201bf19bb765c5a30180e0cef5f8ce2d42a07d0f8"
 
 RPROVIDES:${PN} += "kim-api-examples \
-kim-api-examples(aarch-64) \
-libkim-api-model-driver.so()(64bit) \
-libkim-api-portable-model.so()(64bit) \
-libkim-api-simulator-model.so()(64bit)"
+libkim-api-model-driver.so \
+libkim-api-portable-model.so \
+libkim-api-simulator-model.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libkim-api.so.2()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libkim-api.so.2 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

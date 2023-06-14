@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-sambacc \
 python310-sambacc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-pyxattr \
 samba-python3"
 

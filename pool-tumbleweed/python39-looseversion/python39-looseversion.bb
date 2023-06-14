@@ -12,10 +12,10 @@ RPM_NAME = "python39-looseversion-1.1.2-1.2.noarch.rpm"
 RPM_HASH = "5e4e893dbf5ca6e02ab4696d76c03d046b55ea132a71faa89487e839bbf252ea4fa07292cedcc9e9f4ab435772068fb918a1e7ccc2be5aa76a03121705f15b72"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(looseversion) \
+RPROVIDES:${PN} += "python3.9dist-looseversion \
 python39-looseversion \
-python3dist(looseversion)"
+python3dist-looseversion"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

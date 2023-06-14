@@ -9,11 +9,11 @@ RPM_NAME = "perl-URI-Template-0.24-1.15.noarch.rpm"
 RPM_HASH = "5351b871f71e9868e7ceff147706ef301e61916fc3a1c58df776573cd0181b794bbf374c2abf5d1da4e563b0f67da913d08e72c34b921dd0b5069a8d2b2d5551"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(URI::Template) \
+RPROVIDES:${PN} += "perl-URI--Template \
 perl-URI-Template"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(URI) \
-perl(URI::Escape)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-URI \
+perl-URI--Escape"
 
 inherit rpm

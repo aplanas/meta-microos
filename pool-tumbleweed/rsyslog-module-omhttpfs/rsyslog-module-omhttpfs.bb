@@ -10,13 +10,12 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-module-omhttpfs-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "170bcdf04065442d3d52f49262a457953fafc093f93653c2cbb3fe1b51da65af7359f45b180fc482f7ad20525cdf477399da74a6e202a8c52e48db0c9042a469"
 
-RPROVIDES:${PN} += "rsyslog-module-omhttpfs \
-rsyslog-module-omhttpfs(aarch-64)"
+RPROVIDES:${PN} += "rsyslog-module-omhttpfs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libfastjson.so.4()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libfastjson.so.4 \
 rsyslog"
 
 inherit rpm

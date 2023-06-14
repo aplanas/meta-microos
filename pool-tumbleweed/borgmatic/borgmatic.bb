@@ -14,14 +14,14 @@ RPM_HASH = "f7c5a59fed1fc6982665b57c31ae7aa27e173c65e6d1c7705deb58e7eddf5fba6f54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgmatic \
-config(borgmatic) \
-python3.10dist(borgmatic) \
-python3dist(borgmatic)"
+config-borgmatic \
+python3.10dist-borgmatic \
+python3dist-borgmatic"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 borgbackup \
-python(abi) \
+python-abi \
 python3-colorama \
 python3-jsonschema \
 python3-pykwalify \

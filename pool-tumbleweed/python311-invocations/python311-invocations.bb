@@ -16,16 +16,16 @@ RPM_NAME = "python311-invocations-3.0.2-1.1.noarch.rpm"
 RPM_HASH = "e24245ce420ae74e9bceb8a785c884cf3aefb12ed21d6c24e4cc9d7ad54772ab942d0cd65f2c2de46e60675783dac752e41ff70da7387696dc2c1e4f934f6a40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(invocations) \
+RPROVIDES:${PN} += "python3.11dist-invocations \
 python311-invocations \
-python3dist(invocations)"
+python3dist-invocations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-blessings \
 python311-invoke \
 python311-lexicon \
 python311-releases \
-python311-semantic_version \
+python311-semantic-version \
 python311-six \
 python311-tabulate \
 python311-tqdm \

@@ -15,10 +15,10 @@ RPM_NAME = "texlive-xbmks-2023.201.svn53448-52.1.noarch.rpm"
 RPM_HASH = "2ee65074095f473572ee43c51a1a57434ba7fa7ab4e03d65db3be6ae31f31ca633eb6550c34a1c00ec143e6e580af0e97f7c8d28a70ca0d5760d32e690ddb45b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xbmks-pdfmark.def) \
-tex(xbmks-pdftex.def) \
-tex(xbmks-xetex.def) \
-tex(xbmks.sty) \
+RPROVIDES:${PN} += "tex-xbmks-pdfmark.def \
+tex-xbmks-pdftex.def \
+tex-xbmks-xetex.def \
+tex-xbmks.sty \
 texlive-xbmks"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,10 +27,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(hyperref.sty) \
-tex(ifpdf.sty) \
-tex(ifxetex.sty) \
-tex(xkeyval.sty) \
+tex-hyperref.sty \
+tex-ifpdf.sty \
+tex-ifxetex.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

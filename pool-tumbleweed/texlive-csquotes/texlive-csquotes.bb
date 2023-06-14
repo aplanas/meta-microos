@@ -21,10 +21,10 @@ RPM_NAME = "texlive-csquotes-2023.204.5.2nsvn64389-54.1.noarch.rpm"
 RPM_HASH = "601d266a33716f8b992fb0c638876cbba5dd8ad20cbff9236b574af44fb9081a9e473e839423d34f6da3aa0d8b316fa882295ab350662173198e62dc80b9a702"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(csq-compat.def) \
-tex(csquotes.cfg) \
-tex(csquotes.def) \
-tex(csquotes.sty) \
+RPROVIDES:${PN} += "tex-csq-compat.def \
+tex-csquotes.cfg \
+tex-csquotes.def \
+tex-csquotes.sty \
 texlive-csquotes"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -33,9 +33,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(inputenc.sty) \
-tex(keyval.sty) \
+tex-etoolbox.sty \
+tex-inputenc.sty \
+tex-keyval.sty \
 texlive \
 texlive-etoolbox \
 texlive-filesystem \

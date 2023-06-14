@@ -29,13 +29,13 @@ RPM_NAME = "perl-Devel-PartialDump-0.20-1.20.noarch.rpm"
 RPM_HASH = "c419e137c6a584c2cac64e9196b0faa114aebce36491787a0b6bb33845bff85125cd30b6cc761317ce29c71768df185b56e99b9b0574b26a9d768e6567bc9142"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DB) \
-perl(Devel::PartialDump) \
+RPROVIDES:${PN} += "perl-DB \
+perl-Devel--PartialDump \
 perl-Devel-PartialDump"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Tiny) \
-perl(Sub::Exporter) \
-perl(namespace::clean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Tiny \
+perl-Sub--Exporter \
+perl-namespace--clean"
 
 inherit rpm

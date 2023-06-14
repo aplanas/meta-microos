@@ -13,9 +13,9 @@ RPM_NAME = "perl-CPAN-Perl-Releases-5.20230423-1.1.noarch.rpm"
 RPM_HASH = "e06c3f0e17bdb7700bb79550d11be2484de1f9874786425fd245d690877e65a28567850188dbc59fa31c917594a03f00443273941b52f4c8ca9b11b179ca6dda"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CPAN::Perl::Releases) \
+RPROVIDES:${PN} += "perl-CPAN--Perl--Releases \
 perl-CPAN-Perl-Releases"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

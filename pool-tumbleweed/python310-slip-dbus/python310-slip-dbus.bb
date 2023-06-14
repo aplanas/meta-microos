@@ -15,11 +15,11 @@ RPM_HASH = "dddfca619aaaad5ff108b45fa06773fcfecb88b705fdc8268f7ae50106f24d6cddac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-slip-dbus \
-python3.10dist(slip.dbus) \
+python3.10dist-slip.dbus \
 python310-slip-dbus \
-python3dist(slip.dbus)"
+python3dist-slip.dbus"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dbus-python \
 python310-decorator \
 python310-six \

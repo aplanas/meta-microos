@@ -24,13 +24,13 @@ RPM_HASH = "9dc1f4840fa25e2d02e2c477f154af5ace177a08b5ab98e3516c5bec6c4e8a60020e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vulture \
-python3.10dist(vulture) \
+python3.10dist-vulture \
 python310-vulture \
-python3dist(vulture)"
+python3dist-vulture"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-toml \
 update-alternatives"
 

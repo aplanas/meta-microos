@@ -12,28 +12,24 @@ PV = "1.0.4"
 RPM_NAME = "xfce4-terminal-1.0.4-1.4.aarch64.rpm"
 RPM_HASH = "f2dc2befc497adadcc05bb02433da57617bfd2138301d01961f6cfbf7148847dd607afb6bc52afd61ac22e60ad2066d4a4215b1979ed2020ad20128de4ca1117"
 
-RPROVIDES:${PN} += "application() \
-application(xfce4-terminal-settings.desktop) \
-application(xfce4-terminal.desktop) \
-xfce4-terminal \
-xfce4-terminal(aarch-64)"
+RPROVIDES:${PN} += "xfce4-terminal"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libutempter.so.0()(64bit) \
-libvte-2.91.so.0()(64bit) \
-libxfce4kbd-private-3.so.0()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit) \
-libxfconf-0.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0 \
+libutempter.so.0 \
+libvte-2.91.so.0 \
+libxfce4kbd-private-3.so.0 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7 \
+libxfconf-0.so.3"
 
 inherit rpm

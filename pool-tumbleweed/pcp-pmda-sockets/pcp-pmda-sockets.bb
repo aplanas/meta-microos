@@ -8,16 +8,15 @@ PV = "5.2.5"
 RPM_NAME = "pcp-pmda-sockets-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "15536a3ee06c64f3fe56cb9950f61571495ad9da3ab39f4b08a1333dfa605ba1d6ee3c6c9a44ccb80989a2e0e5ec32a711e00a2104fee6264595a78a3668f4e8"
 
-RPROVIDES:${PN} += "pcp-pmda-sockets \
-pcp-pmda-sockets(aarch-64)"
+RPROVIDES:${PN} += "pcp-pmda-sockets"
 
 RDEPENDS:${PN} += "/bin/sh \
 iproute \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcp.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcp-pmda.so.3 \
+libpcp.so.3 \
 libpcp3 \
-libpcp_pmda.so.3()(64bit) \
 pcp"
 
 inherit rpm

@@ -12,19 +12,17 @@ PV = "2.7.2"
 RPM_NAME = "ypbind-2.7.2-2.11.aarch64.rpm"
 RPM_HASH = "27454365e607bd194db392f9b5b34746640799b1f7307e06091a4806365cd54ec681871deae58815f81ed55f7d7f72ad08aebadf738891041b2c07a4bd8b2d2c"
 
-RPROVIDES:${PN} += "config(ypbind) \
-ypbind \
-ypbind(aarch-64)"
+RPROVIDES:${PN} += "config-ypbind \
+ypbind"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/grep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnsl.so.3()(64bit) \
-libnss_nis2 \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libtirpc.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnsl.so.3 \
+libnss-nis2 \
+libsystemd.so.0 \
+libtirpc.so.3 \
 rpcbind \
 yp-tools"
 

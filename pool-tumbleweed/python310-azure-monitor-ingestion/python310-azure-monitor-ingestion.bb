@@ -13,12 +13,12 @@ RPM_HASH = "1ea92103bbb66540843dc371a969e376f99010286983153219502d1975977d7dca3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-monitor-ingestion \
-python3.10dist(azure-monitor-ingestion) \
+python3.10dist-azure-monitor-ingestion \
 python310-azure-monitor-ingestion \
-python3dist(azure-monitor-ingestion)"
+python3dist-azure-monitor-ingestion"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
+python-abi \
 python310-azure-core \
 python310-azure-monitor-nspkg \
 python310-azure-nspkg \

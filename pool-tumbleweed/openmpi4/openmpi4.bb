@@ -26,18 +26,17 @@ RPM_HASH = "08302c6e5ec2a546f67d83ad206ed072a498d917ca86bff7c582d8cdee9e0fec9051
 
 RPROVIDES:${PN} += "mpi \
 openmpi \
-openmpi4 \
-openmpi4(aarch-64)"
+openmpi4"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libmpi.so.40()(64bit) \
-libopen-pal.so.40()(64bit) \
-libopen-rte.so.40()(64bit) \
-liboshmem.so.40()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libmpi.so.40 \
+libopen-pal.so.40 \
+libopen-rte.so.40 \
+liboshmem.so.40 \
 mpi-selector \
 openmpi-runtime-config \
 openmpi4-libs \

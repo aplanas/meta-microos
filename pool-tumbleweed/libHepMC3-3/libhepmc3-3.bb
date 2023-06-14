@@ -13,14 +13,13 @@ RPM_HASH = "e9c493b87bc5a5947609680c645a6ecb8523b8dae1b79159305d90977fd37a407acd
 
 RPROVIDES:${PN} += "HepMC3 \
 libHepMC3-3 \
-libHepMC3-3(aarch-64) \
-libHepMC3.so.3()(64bit)"
+libHepMC3.so.3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

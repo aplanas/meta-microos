@@ -27,22 +27,21 @@ PV = "2.4.3.2"
 RPM_NAME = "cadabra2-2.4.3.2-1.5.aarch64.rpm"
 RPM_HASH = "f8d6954bd0688e939bc044d3efef358c2a92de7b8c5870e1c76c2c694e73b8a745af8d142b8bce7299f94db0a2e996748e38adcadd9abfaded90ed1906aad523"
 
-RPROVIDES:${PN} += "cadabra2 \
-cadabra2(aarch-64)"
+RPROVIDES:${PN} += "cadabra2"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgmpxx.so.4()(64bit) \
-libm.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglibmm-2.4.so.1 \
+libgmp.so.10 \
+libgmpxx.so.4 \
+libm.so.6 \
+libpython3.10.so.1.0 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+python-abi \
 python3"
 
 inherit rpm

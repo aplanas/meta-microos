@@ -16,8 +16,8 @@ RPM_NAME = "texlive-pfarrei-2023.201.r36svn31934-51.1.noarch.rpm"
 RPM_HASH = "5eca0ee1936f9916519ade006a181c182c11c0fd88f828e4c29e48e3524bf4c2c6f631a9b044fab9d5337613f59e26d088360c9fedc2d2b35704391ce8b1e3d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(a5toa4.tex) \
-tex(pfarrei.sty) \
+RPROVIDES:${PN} += "tex-a5toa4.tex \
+tex-pfarrei.sty \
 texlive-pfarrei"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,10 +27,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifpdf.sty) \
-tex(keyval.sty) \
-tex(pdfpages.sty) \
-tex(x.tex) \
+tex-ifpdf.sty \
+tex-keyval.sty \
+tex-pdfpages.sty \
+tex-x.tex \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

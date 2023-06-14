@@ -8,11 +8,11 @@ RPM_NAME = "python311-django-silk-5.0.3-1.4.noarch.rpm"
 RPM_HASH = "b073e1cbd6c82ed655c870e10e6538374f9cf3a934330b7dca9801cb09a6d5c7732a1b3b11289556e164d4eccdbbf150d50a85e89a5aa6b677691bb2a24a6e92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(django-silk) \
+RPROVIDES:${PN} += "python3.11dist-django-silk \
 python311-django-silk \
-python3dist(django-silk)"
+python3dist-django-silk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Django \
 python311-Jinja2 \
 python311-Pillow \

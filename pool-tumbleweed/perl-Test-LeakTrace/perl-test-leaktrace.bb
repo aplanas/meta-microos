@@ -15,13 +15,12 @@ PV = "0.17"
 RPM_NAME = "perl-Test-LeakTrace-0.17-1.12.aarch64.rpm"
 RPM_HASH = "9d942f0123c7e40d2c09ce065370ad23672fbb26afdfb52dc6d8dc6e283c88a593262df25c94944fddc79f2e0271826bcd246c681659240ba405b8adeb6716b6"
 
-RPROVIDES:${PN} += "perl(Test::LeakTrace) \
-perl(Test::LeakTrace::Script) \
-perl-Test-LeakTrace \
-perl-Test-LeakTrace(aarch-64)"
+RPROVIDES:${PN} += "perl-Test--LeakTrace \
+perl-Test--LeakTrace--Script \
+perl-Test-LeakTrace"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -8,12 +8,11 @@ PV = "0.3.1"
 RPM_NAME = "ladspa-REV-0.3.1-4.26.aarch64.rpm"
 RPM_HASH = "de75ce68d1596c3260bcbd0aecb8971f542fcc3298e281c13794212ee759150c07278118264000446bcca678e8a2033e7722b171568375febdba7a62c3589dc2"
 
-RPROVIDES:${PN} += "ladspa-REV \
-ladspa-REV(aarch-64)"
+RPROVIDES:${PN} += "ladspa-REV"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

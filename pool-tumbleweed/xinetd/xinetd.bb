@@ -12,21 +12,20 @@ PV = "2.3.15.4"
 RPM_NAME = "xinetd-2.3.15.4-1.19.aarch64.rpm"
 RPM_HASH = "d426bd7b695a1e311f2d2d8c56bfac91b36cf022a25402e23c30fc02e115ea957d977bed0104948d9f4211259b2305f70e03de49303088ab72df615adbddf5cd"
 
-RPROVIDES:${PN} += "config(xinetd) \
+RPROVIDES:${PN} += "config-xinetd \
 inet-daemon \
-xinetd \
-xinetd(aarch-64)"
+xinetd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libselinux.so.1()(64bit) \
-libtirpc.so.3()(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libselinux.so.1 \
+libtirpc.so.3 \
+libwrap.so.0 \
 systemd"
 
 inherit rpm

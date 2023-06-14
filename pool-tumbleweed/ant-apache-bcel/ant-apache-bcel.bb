@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-bcel \
 ant-jakarta-bcel \
-config(ant-apache-bcel) \
-mvn(org.apache.ant:ant-apache-bcel) \
-mvn(org.apache.ant:ant-apache-bcel:pom:)"
+config-ant-apache-bcel \
+mvn-org.apache.ant-ant-apache-bcel \
+mvn-org.apache.ant-ant-apache-bcel-pom-"
 
 RDEPENDS:${PN} += "ant \
 bcel \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(org.apache.bcel:bcel)"
+mvn-org.apache.ant-ant \
+mvn-org.apache.bcel-bcel"
 
 inherit rpm

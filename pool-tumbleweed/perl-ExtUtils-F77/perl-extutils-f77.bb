@@ -38,10 +38,10 @@ RPM_NAME = "perl-ExtUtils-F77-1.26-1.10.noarch.rpm"
 RPM_HASH = "b5ad74c01103bea37f0dc79f2c22fbb61fb4035056b3e873edb55cabde61848670ee143915fdbdd839f590bbf98d90ddeb51baa1636c533a210585e32a403c50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(ExtUtils::F77) \
+RPROVIDES:${PN} += "perl-ExtUtils--F77 \
 perl-ExtUtils-F77"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(File::Which)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-File--Which"
 
 inherit rpm

@@ -10,21 +10,20 @@ PV = "2.2.20"
 RPM_NAME = "libcxx-gtk-utils-3-2_2-0-2.2.20-1.12.aarch64.rpm"
 RPM_HASH = "e77759777ddc4129ec306127363aedecada0f0c01964c47e448c528d85eb1268697467c2e148bfab1daf9537645b4b9ee65413e85210c87f1104511dab2f3633"
 
-RPROVIDES:${PN} += "libcxx-gtk-utils-3-2.2.so.0()(64bit) \
-libcxx-gtk-utils-3-2_2-0 \
-libcxx-gtk-utils-3-2_2-0(aarch-64)"
+RPROVIDES:${PN} += "libcxx-gtk-utils-3-2-2-0 \
+libcxx-gtk-utils-3-2.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

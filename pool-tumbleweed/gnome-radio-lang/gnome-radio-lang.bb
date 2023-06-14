@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-radio-lang \
 gnome-radio-lang-all \
-locale(gnome-radio:ca) \
-locale(gnome-radio:cs) \
-locale(gnome-radio:da) \
-locale(gnome-radio:de) \
-locale(gnome-radio:el) \
-locale(gnome-radio:es) \
-locale(gnome-radio:eu) \
-locale(gnome-radio:fr) \
-locale(gnome-radio:fur) \
-locale(gnome-radio:hr) \
-locale(gnome-radio:hu) \
-locale(gnome-radio:id) \
-locale(gnome-radio:nb) \
-locale(gnome-radio:nl) \
-locale(gnome-radio:oc) \
-locale(gnome-radio:pl) \
-locale(gnome-radio:pt_BR) \
-locale(gnome-radio:ro) \
-locale(gnome-radio:sk) \
-locale(gnome-radio:sl) \
-locale(gnome-radio:sr) \
-locale(gnome-radio:sv) \
-locale(gnome-radio:tr) \
-locale(gnome-radio:uk) \
-locale(gnome-radio:zh_CN)"
+locale-gnome-radio-ca \
+locale-gnome-radio-cs \
+locale-gnome-radio-da \
+locale-gnome-radio-de \
+locale-gnome-radio-el \
+locale-gnome-radio-es \
+locale-gnome-radio-eu \
+locale-gnome-radio-fr \
+locale-gnome-radio-fur \
+locale-gnome-radio-hr \
+locale-gnome-radio-hu \
+locale-gnome-radio-id \
+locale-gnome-radio-nb \
+locale-gnome-radio-nl \
+locale-gnome-radio-oc \
+locale-gnome-radio-pl \
+locale-gnome-radio-pt-BR \
+locale-gnome-radio-ro \
+locale-gnome-radio-sk \
+locale-gnome-radio-sl \
+locale-gnome-radio-sr \
+locale-gnome-radio-sv \
+locale-gnome-radio-tr \
+locale-gnome-radio-uk \
+locale-gnome-radio-zh-CN"
 
 RDEPENDS:${PN} += "gnome-radio"
 

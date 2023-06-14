@@ -10,13 +10,12 @@ PV = "1.12"
 RPM_NAME = "gzip-1.12-3.3.aarch64.rpm"
 RPM_HASH = "fc1c54abdaf1cb1257bdc13d4783dc204d9ca7a22ad3148300a2698703b6ba797c1c90f6200df2c8f2a4376f20ffac2dc164d13cff469c9a5769b8993613ee6c"
 
-RPROVIDES:${PN} += "alternative(gzip) \
-gzip \
-gzip(aarch-64)"
+RPROVIDES:${PN} += "alternative-gzip \
+gzip"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

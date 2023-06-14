@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colorpicker-lang \
 colorpicker-lang-all \
-locale(colorpicker:bg) \
-locale(colorpicker:ca) \
-locale(colorpicker:de) \
-locale(colorpicker:es) \
-locale(colorpicker:fr) \
-locale(colorpicker:nl) \
-locale(colorpicker:pl) \
-locale(colorpicker:pt_PT) \
-locale(colorpicker:tr)"
+locale-colorpicker-bg \
+locale-colorpicker-ca \
+locale-colorpicker-de \
+locale-colorpicker-es \
+locale-colorpicker-fr \
+locale-colorpicker-nl \
+locale-colorpicker-pl \
+locale-colorpicker-pt-PT \
+locale-colorpicker-tr"
 
 RDEPENDS:${PN} += "colorpicker"
 

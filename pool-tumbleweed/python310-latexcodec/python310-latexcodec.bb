@@ -9,10 +9,10 @@ RPM_HASH = "66643ed8f011e4cea87fd2ef21077c76a1f82d1b8bf67e7525423a3127c028c25d42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-latexcodec \
-python3.10dist(latexcodec) \
+python3.10dist-latexcodec \
 python310-latexcodec \
-python3dist(latexcodec)"
+python3dist-latexcodec"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "99e66800f9a2e8ac9bf8ab3355e56b6f82da74a142ecd4e4b163234b6b25b161740a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-geoposition \
-python3.10dist(django-geoposition) \
+python3.10dist-django-geoposition \
 python310-django-geoposition \
-python3dist(django-geoposition)"
+python3dist-django-geoposition"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

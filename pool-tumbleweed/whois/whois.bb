@@ -14,13 +14,12 @@ RPM_NAME = "whois-5.5.17-1.1.aarch64.rpm"
 RPM_HASH = "3284b7742b02cbd30ef1785ed565c950fa073d120008c6c524fe61a30c2606d4e3939932cd86c63c9089cd8f6b061ed109418c52aa99ab86d8ed00e69cbc1d4b"
 
 RPROVIDES:${PN} += "ripe-whois-tools \
-whois \
-whois(aarch-64)"
+whois"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libidn2.so.0()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libidn2.so.0 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

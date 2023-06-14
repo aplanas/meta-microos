@@ -11,13 +11,12 @@ PV = "1.1.17"
 RPM_NAME = "perl-Class-Date-1.1.17-1.19.aarch64.rpm"
 RPM_HASH = "ce925dce5549fd0d7074b9719b99593779ceb1d196d39063d05ee7b47f9523a4e280f5d32e940fd9fee4e26e7df53823e855cad6bcc1d10c9fea78867e3a065f"
 
-RPROVIDES:${PN} += "perl(Class::Date) \
-perl(Class::Date::Const) \
-perl(Class::Date::Invalid) \
-perl(Class::Date::Rel) \
-perl-Class-Date \
-perl-Class-Date(aarch-64)"
+RPROVIDES:${PN} += "perl-Class--Date \
+perl-Class--Date--Const \
+perl-Class--Date--Invalid \
+perl-Class--Date--Rel \
+perl-Class-Date"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

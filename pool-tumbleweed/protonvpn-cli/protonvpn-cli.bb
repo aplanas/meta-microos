@@ -9,11 +9,11 @@ RPM_HASH = "69c338b19c1865afa4274b7e35c6107e90e3b16a19f144e26b5c747ff79a804a9cd9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "protonvpn-cli \
-python3.10dist(protonvpn-cli) \
-python3dist(protonvpn-cli)"
+python3.10dist-protonvpn-cli \
+python3dist-protonvpn-cli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-protonvpn-nm-lib \
 python3-pythondialog"
 

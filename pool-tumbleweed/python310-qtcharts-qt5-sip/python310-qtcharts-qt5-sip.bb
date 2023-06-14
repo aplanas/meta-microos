@@ -10,8 +10,7 @@ RPM_HASH = "3fd52c438d5ce78f7697527a6a4995f86e3263562cfc3db1e34204be6bdf9ff28870
 
 RPROVIDES:${PN} += "python-qtcharts-qt5-sip \
 python3-qtcharts-qt5-sip \
-python310-qtcharts-qt5-sip \
-python310-qtcharts-qt5-sip(aarch-64)"
+python310-qtcharts-qt5-sip"
 
 RDEPENDS:${PN} += "python310-qt5-devel"
 

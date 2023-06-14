@@ -11,19 +11,18 @@ PV = "2.17"
 RPM_NAME = "bsd-games-2.17-122.20.aarch64.rpm"
 RPM_HASH = "35e8c517a952c3b7a25ef3f523cb1ba69559b731baba6c8850e3cc9ee2c69ee7f1f9022394132d58a82c868707000dcff43c422d0c82cebfa4d1d830c9ac0497"
 
-RPROVIDES:${PN} += "bsd-games \
-bsd-games(aarch-64)"
+RPROVIDES:${PN} += "bsd-games"
 
 RDEPENDS:${PN} += "/bin/sh \
-group(games) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfl.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-user(games)"
+group-games \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfl.so.2 \
+libgcc-s.so.1 \
+libm.so.6 \
+libncursesw.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+user-games"
 
 inherit rpm

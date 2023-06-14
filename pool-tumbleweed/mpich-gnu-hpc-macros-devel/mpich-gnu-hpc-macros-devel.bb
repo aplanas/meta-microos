@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpich-gnu-hpc-macros-devel"
 
-RDEPENDS:${PN} += "mpich_4_0_2-gnu-hpc-macros-devel"
+RDEPENDS:${PN} += "mpich-4-0-2-gnu-hpc-macros-devel"
 
 inherit rpm

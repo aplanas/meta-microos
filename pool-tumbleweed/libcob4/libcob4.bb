@@ -9,18 +9,17 @@ PV = "3.1.2"
 RPM_NAME = "libcob4-3.1.2-1.13.aarch64.rpm"
 RPM_HASH = "49020a579073fd88354d167c60cc7ab02fea15c46af5042facb93fef2559e5e7e9af8dc819022c3ad845b6eb5ac4f19b2895d93467ee9ef31bbc64f9efb0b81c"
 
-RPROVIDES:${PN} += "libcob.so.4()(64bit) \
-libcob4 \
-libcob4(aarch-64)"
+RPROVIDES:${PN} += "libcob.so.4 \
+libcob4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdb-4.8.so()(64bit) \
-libgmp.so.10()(64bit) \
-libjson-c.so.5()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdb-4.8.so \
+libgmp.so.10 \
+libjson-c.so.5 \
+libncursesw.so.6 \
+libtinfo.so.6 \
+libxml2.so.2"
 
 inherit rpm

@@ -29,42 +29,42 @@ RPM_NAME = "perl-YAML-PP-0.036-1.1.noarch.rpm"
 RPM_HASH = "86e08a9d6a45bc338f8203298ee0eb9043465c47f90ce949be689661c156f655bb8811bcd7c2240e8e50f6ea11644b3d2af087504e8239adb8b8b4bce0433363"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(YAML::PP) \
-perl(YAML::PP::Common) \
-perl(YAML::PP::Constructor) \
-perl(YAML::PP::Dumper) \
-perl(YAML::PP::Emitter) \
-perl(YAML::PP::Exception) \
-perl(YAML::PP::Grammar) \
-perl(YAML::PP::Highlight) \
-perl(YAML::PP::Lexer) \
-perl(YAML::PP::Loader) \
-perl(YAML::PP::Parser) \
-perl(YAML::PP::Perl) \
-perl(YAML::PP::Preserve::Array) \
-perl(YAML::PP::Preserve::Hash) \
-perl(YAML::PP::Preserve::Scalar) \
-perl(YAML::PP::Reader) \
-perl(YAML::PP::Reader::File) \
-perl(YAML::PP::Render) \
-perl(YAML::PP::Representer) \
-perl(YAML::PP::Schema) \
-perl(YAML::PP::Schema::Binary) \
-perl(YAML::PP::Schema::Core) \
-perl(YAML::PP::Schema::Failsafe) \
-perl(YAML::PP::Schema::Include) \
-perl(YAML::PP::Schema::JSON) \
-perl(YAML::PP::Schema::Merge) \
-perl(YAML::PP::Schema::Perl) \
-perl(YAML::PP::Schema::Tie::IxHash) \
-perl(YAML::PP::Schema::YAML1_1) \
-perl(YAML::PP::Type::MergeKey) \
-perl(YAML::PP::Writer) \
-perl(YAML::PP::Writer::File) \
+RPROVIDES:${PN} += "perl-YAML--PP \
+perl-YAML--PP--Common \
+perl-YAML--PP--Constructor \
+perl-YAML--PP--Dumper \
+perl-YAML--PP--Emitter \
+perl-YAML--PP--Exception \
+perl-YAML--PP--Grammar \
+perl-YAML--PP--Highlight \
+perl-YAML--PP--Lexer \
+perl-YAML--PP--Loader \
+perl-YAML--PP--Parser \
+perl-YAML--PP--Perl \
+perl-YAML--PP--Preserve--Array \
+perl-YAML--PP--Preserve--Hash \
+perl-YAML--PP--Preserve--Scalar \
+perl-YAML--PP--Reader \
+perl-YAML--PP--Reader--File \
+perl-YAML--PP--Render \
+perl-YAML--PP--Representer \
+perl-YAML--PP--Schema \
+perl-YAML--PP--Schema--Binary \
+perl-YAML--PP--Schema--Core \
+perl-YAML--PP--Schema--Failsafe \
+perl-YAML--PP--Schema--Include \
+perl-YAML--PP--Schema--JSON \
+perl-YAML--PP--Schema--Merge \
+perl-YAML--PP--Schema--Perl \
+perl-YAML--PP--Schema--Tie--IxHash \
+perl-YAML--PP--Schema--YAML1-1 \
+perl-YAML--PP--Type--MergeKey \
+perl-YAML--PP--Writer \
+perl-YAML--PP--Writer--File \
 perl-YAML-PP"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Module::Load)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Module--Load"
 
 inherit rpm

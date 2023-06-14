@@ -15,11 +15,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ConfigUpdater \
 python3-configupdater \
-python3.10dist(configupdater) \
+python3.10dist-configupdater \
 python310-ConfigUpdater \
 python310-configupdater \
-python3dist(configupdater)"
+python3dist-configupdater"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

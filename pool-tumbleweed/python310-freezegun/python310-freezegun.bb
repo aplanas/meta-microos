@@ -10,11 +10,11 @@ RPM_HASH = "056a38e2d36bbd52e71cf8faab01e498e709d006fceb5035dbd47f28b8e99620a214
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-freezegun \
-python3.10dist(freezegun) \
+python3.10dist-freezegun \
 python310-freezegun \
-python3dist(freezegun)"
+python3dist-freezegun"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310 \
 python310-python-dateutil"
 

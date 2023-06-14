@@ -11,17 +11,14 @@ PV = "4.1.0"
 RPM_NAME = "xmp-4.1.0-1.25.aarch64.rpm"
 RPM_HASH = "a48a4d094ad0d94e003d575efb564bab44afa3909349976d3fb406c18c2be1a2c04b0017376f107fa6953396dfd6e0b53aed3826cfa4415d7daaf72389443782"
 
-RPROVIDES:${PN} += "config(xmp) \
-xmp \
-xmp(aarch-64)"
+RPROVIDES:${PN} += "config-xmp \
+xmp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libxmp.so.4()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libpulse-simple.so.0 \
+libpulse.so.0 \
+libxmp.so.4"
 
 inherit rpm

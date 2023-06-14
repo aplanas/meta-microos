@@ -14,8 +14,7 @@ RPM_NAME = "libpff-devel-20230325-1.4.aarch64.rpm"
 RPM_HASH = "2cf27d3b41ae7de496fb955075fa38e49fa387921c1c149406e79237d5c4f28dcb383382bdf513f878a5302e1203176ce2935e5e58e6b2ee4ee4aa625319258b"
 
 RPROVIDES:${PN} += "libpff-devel \
-libpff-devel(aarch-64) \
-pkgconfig(libpff)"
+pkgconfig-libpff"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \

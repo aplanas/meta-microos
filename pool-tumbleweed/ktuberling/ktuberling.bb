@@ -10,42 +10,29 @@ PV = "23.04.1"
 RPM_NAME = "ktuberling-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "515fb0ee0f7f6016a0ede482d147b1d90196ed48a7b7588b5228d72b04702208449edae0c6b0fa65b279ff827f503aadf7c0718c3c0338c1a5c505f8634a2817"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.ktuberling.desktop) \
-ktuberling \
-ktuberling(aarch-64) \
-ktuberling5 \
-metainfo() \
-metainfo(org.kde.ktuberling.appdata.xml) \
-mimehandler(application/x-tuberling)"
+RPROVIDES:${PN} += "ktuberling \
+ktuberling5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KDEGames.so.7()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KDEGames.so.7 \
+libKF5KIOCore.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

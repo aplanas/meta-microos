@@ -11,13 +11,13 @@ RPROVIDES:${PN} += "obs-scm-bridge"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 build \
-perl(Date::Parse) \
-perl(LWP::UserAgent) \
-perl(Net::SSL) \
-perl(Pod::Usage) \
-perl(Time::Zone) \
-perl(URI) \
-perl(XML::Parser) \
-perl(YAML::LibYAML)"
+perl-Date--Parse \
+perl-LWP--UserAgent \
+perl-Net--SSL \
+perl-Pod--Usage \
+perl-Time--Zone \
+perl-URI \
+perl-XML--Parser \
+perl-YAML--LibYAML"
 
 inherit rpm

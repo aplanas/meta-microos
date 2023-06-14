@@ -11,16 +11,16 @@ RPM_HASH = "2e44b50dcddcca39ab62d65880ea71d7491945c6b2b46322953ad8ecc9e1920f6a87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "latex2html \
-perl(L2hos) \
-perl(L2hos::Dos) \
-perl(L2hos::Mac) \
-perl(L2hos::OS2) \
-perl(L2hos::Unix) \
-perl(L2hos::Win32) \
-perl(cfgcache)"
+perl-L2hos \
+perl-L2hos--Dos \
+perl-L2hos--Mac \
+perl-L2hos--OS2 \
+perl-L2hos--Unix \
+perl-L2hos--Win32 \
+perl-cfgcache"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ghostscript_any \
+ghostscript-any \
 latex2html-pngicons \
 netpbm \
 perl \

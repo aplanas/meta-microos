@@ -19,8 +19,7 @@ PV = "5.0.1"
 RPM_NAME = "ocaml-camlp-streams-5.0.1-2.4.aarch64.rpm"
 RPM_HASH = "6694ca467cb053426330f8182c499820c7b861807ef139cd82eb1d1171649c7b7574afcc6e1d171df4efc94f9f93d2cc06fd3a7d59fc6d98aa3215bddec0200b"
 
-RPROVIDES:${PN} += "ocaml-camlp-streams \
-ocaml-camlp-streams(aarch-64)"
+RPROVIDES:${PN} += "ocaml-camlp-streams"
 
 RDEPENDS:${PN} += ""
 

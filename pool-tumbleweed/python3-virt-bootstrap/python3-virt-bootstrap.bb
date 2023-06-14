@@ -10,12 +10,12 @@ RPM_HASH = "58593b274ddedbaf6bcd305bace581ee2f72116ad55418f070f73b88ffdb4f69b327
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virt-bootstrap \
-python3.10dist(virt-bootstrap) \
-python3dist(virt-bootstrap)"
+python3.10dist-virt-bootstrap \
+python3dist-virt-bootstrap"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-libguestfs \
 python3-passlib \
 skopeo \

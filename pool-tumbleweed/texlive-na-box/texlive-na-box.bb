@@ -10,7 +10,7 @@ RPM_NAME = "texlive-na-box-2023.201.1.0svn45130-54.1.noarch.rpm"
 RPM_HASH = "76c1fc8873b92ab569378dd505cca1ff62410bc2f419e63e8d7ae5599b7ea9f6cad7a0c12c2f54e7da4085f79ea86a0ea67a93dd6fa55fc1e2be3a23594278da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(na-box.sty) \
+RPROVIDES:${PN} += "tex-na-box.sty \
 texlive-na-box"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,11 +19,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(enumitem.sty) \
-tex(tikz.sty) \
-tex(xkeyval.sty) \
-tex(xstring.sty) \
+tex-amssymb.sty \
+tex-enumitem.sty \
+tex-tikz.sty \
+tex-xkeyval.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

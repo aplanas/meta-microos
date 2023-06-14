@@ -16,7 +16,7 @@ RPM_NAME = "texlive-media4svg-2023.201.0.0.13svn64686-52.1.noarch.rpm"
 RPM_HASH = "df48f0a2fe94ad6374be71a4cb3b9e1f73a10ce7ec2375f72541a205c490fc87cded87b6dc108b63131f311482945d5c68f1f709d5925d24ac3eb908d52783d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(media4svg.sty) \
+RPROVIDES:${PN} += "tex-media4svg.sty \
 texlive-media4svg"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pdfbase.sty) \
+tex-pdfbase.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,37 +9,35 @@ PV = "1.14.4"
 RPM_NAME = "flatpak-1.14.4-1.2.aarch64.rpm"
 RPM_HASH = "f7073440ae40573ba86f8752dfe0e03f58369554ff6ac1da2028a35795f4446b533950bbe94c4f31a0b6bd11fef7ed3ae3c935cbc2626476334041d2dd04b212"
 
-RPROVIDES:${PN} += "config(flatpak) \
+RPROVIDES:${PN} += "config-flatpak \
 flatpak \
-flatpak(aarch-64) \
 xdg-app"
 
 RDEPENDS:${PN} += "/bin/sh \
 bubblewrap \
-ld-linux-aarch64.so.1()(64bit) \
-libXau.so.6()(64bit) \
-libappstream.so.4()(64bit) \
-libarchive.so.13()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libdconf.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libXau.so.6 \
+libappstream.so.4 \
+libarchive.so.13 \
+libc.so.6 \
+libcurl.so.4 \
+libdconf.so.1 \
 libflatpak0 \
-libfuse3.so.3()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libostree-1.so.1()(64bit) \
-libpolkit-agent-1.so.0()(64bit) \
-libpolkit-gobject-1.so.0()(64bit) \
-libseccomp.so.2()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libxml2.so.2()(64bit) \
-libzstd.so.1()(64bit) \
+libfuse3.so.3 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjson-glib-1.0.so.0 \
+libostree-1.so.1 \
+libpolkit-agent-1.so.0 \
+libpolkit-gobject-1.so.0 \
+libseccomp.so.2 \
+libsystemd.so.0 \
+libxml2.so.2 \
+libzstd.so.1 \
 ostree \
-user(flatpak) \
+user-flatpak \
 xdg-dbus-proxy \
 xdg-desktop-portal"
 

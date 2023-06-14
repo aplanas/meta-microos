@@ -15,10 +15,10 @@ RPM_HASH = "9ece8ae78e97288fc6e1c0d18c2e7c1786b331c3cd542fa3d6e8a79fd1d639e1dc80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-simpleeval \
-python3.10dist(simpleeval) \
+python3.10dist-simpleeval \
 python310-simpleeval \
-python3dist(simpleeval)"
+python3dist-simpleeval"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

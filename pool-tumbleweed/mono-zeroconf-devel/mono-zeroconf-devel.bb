@@ -19,7 +19,7 @@ RPM_HASH = "83cac2a50696806bb6e1f01b312283a11364c6fc12024fe77d366b8fa5d72b658b54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-zeroconf-devel \
-pkgconfig(mono-zeroconf)"
+pkgconfig-mono-zeroconf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono-zeroconf"

@@ -7,24 +7,19 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libqt5-qtwebview-examples-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "dbd8d05d26e6e545334f1ecb8ad18040dc1c3c0278114a8bb5491fd5048135174645e073d9faba5b63ba1401f118bbf3eb975637072b7cb45aa471a6117ccfac"
 
-RPROVIDES:${PN} += "libqt5-qtwebview-examples \
-libqt5-qtwebview-examples(aarch-64)"
+RPROVIDES:${PN} += "libqt5-qtwebview-examples"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5WebView.so.5()(64bit) \
-libQt5WebView.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.1) \
-qt5qmlimport(QtQuick.Controls.Styles.1) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(QtWebView.1)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5WebView.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.1 \
+qt5qmlimport-QtQuick.Controls.Styles.1 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-QtWebView.1"
 
 inherit rpm

@@ -10,19 +10,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hourglass-lang \
 hourglass-lang-all \
-locale(hourglass:bs) \
-locale(hourglass:de) \
-locale(hourglass:es) \
-locale(hourglass:et) \
-locale(hourglass:fr) \
-locale(hourglass:it) \
-locale(hourglass:ja) \
-locale(hourglass:lt) \
-locale(hourglass:pt) \
-locale(hourglass:pt_BR) \
-locale(hourglass:ru) \
-locale(hourglass:sv) \
-locale(hourglass:tr)"
+locale-hourglass-bs \
+locale-hourglass-de \
+locale-hourglass-es \
+locale-hourglass-et \
+locale-hourglass-fr \
+locale-hourglass-it \
+locale-hourglass-ja \
+locale-hourglass-lt \
+locale-hourglass-pt \
+locale-hourglass-pt-BR \
+locale-hourglass-ru \
+locale-hourglass-sv \
+locale-hourglass-tr"
 
 RDEPENDS:${PN} += "hourglass"
 

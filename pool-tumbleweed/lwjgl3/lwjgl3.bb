@@ -11,8 +11,8 @@ RPM_HASH = "14eebd7b0c4664e7db8df70482e707ab464474230127bd45748212b84d0cb601780b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lwjgl3 \
-mvn(org.lwjgl:lwjgl) \
-mvn(org.lwjgl:lwjgl:pom:)"
+mvn-org.lwjgl-lwjgl \
+mvn-org.lwjgl-lwjgl-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

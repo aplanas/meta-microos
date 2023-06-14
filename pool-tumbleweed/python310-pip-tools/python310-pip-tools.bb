@@ -9,13 +9,13 @@ RPM_HASH = "df3c01cf8bc8403ab6331c2152bde3fca9ff0aa02f4114bb964a9f9d5ea2cbb8225b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-tools \
-python3.10dist(pip-tools) \
+python3.10dist-pip-tools \
 python310-pip-tools \
-python3dist(pip-tools)"
+python3dist-pip-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-build \
 python310-click \
 python310-pip \

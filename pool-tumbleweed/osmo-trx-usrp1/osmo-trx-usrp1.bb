@@ -20,20 +20,19 @@ PV = "1.4.0"
 RPM_NAME = "osmo-trx-usrp1-1.4.0-1.15.aarch64.rpm"
 RPM_HASH = "2144d26de35190b24df97599d84630d490d59417d91dbdfb3a223e08a87119ff53ac52d1fa986ac94bb946af3f96272ba1a151106a00dff58bc85f85d691a8af"
 
-RPROVIDES:${PN} += "osmo-trx-usrp1 \
-osmo-trx-usrp1(aarch-64)"
+RPROVIDES:${PN} += "osmo-trx-usrp1"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmoctrl.so.0()(64bit) \
-libosmovty.so.9()(64bit) \
-libstdc++.so.6()(64bit) \
-libtalloc.so.2()(64bit) \
-libusrp.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libosmocore.so.20 \
+libosmoctrl.so.0 \
+libosmovty.so.9 \
+libstdc++.so.6 \
+libtalloc.so.2 \
+libusrp.so.1"
 
 inherit rpm

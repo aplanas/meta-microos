@@ -17,34 +17,34 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-server-devel \
 postgresql-server-devel-noarch \
-rpm_macro(make_pgxs) \
-rpm_macro(make_pgxs_install) \
-rpm_macro(pg_config_bindir) \
-rpm_macro(pg_config_cc) \
-rpm_macro(pg_config_cflags) \
-rpm_macro(pg_config_cflags_sl) \
-rpm_macro(pg_config_configure) \
-rpm_macro(pg_config_cppflags) \
-rpm_macro(pg_config_docdir) \
-rpm_macro(pg_config_htmldir) \
-rpm_macro(pg_config_includedir) \
-rpm_macro(pg_config_includedir_server) \
-rpm_macro(pg_config_ldflags) \
-rpm_macro(pg_config_ldflags_ex) \
-rpm_macro(pg_config_ldflags_sl) \
-rpm_macro(pg_config_libdir) \
-rpm_macro(pg_config_libs) \
-rpm_macro(pg_config_localedir) \
-rpm_macro(pg_config_mandir) \
-rpm_macro(pg_config_pgxs) \
-rpm_macro(pg_config_pkgincludedir) \
-rpm_macro(pg_config_pkglibdir) \
-rpm_macro(pg_config_sharedir) \
-rpm_macro(pg_config_sysconfdir) \
-rpm_macro(pg_obsolete_llvm_subpackage) \
-rpm_macro(pg_server_requires) \
-rpm_macro(pg_version_from_name) \
-rpm_macro(postgresql_has_llvm)"
+rpm-macro-make-pgxs \
+rpm-macro-make-pgxs-install \
+rpm-macro-pg-config-bindir \
+rpm-macro-pg-config-cc \
+rpm-macro-pg-config-cflags \
+rpm-macro-pg-config-cflags-sl \
+rpm-macro-pg-config-configure \
+rpm-macro-pg-config-cppflags \
+rpm-macro-pg-config-docdir \
+rpm-macro-pg-config-htmldir \
+rpm-macro-pg-config-includedir \
+rpm-macro-pg-config-includedir-server \
+rpm-macro-pg-config-ldflags \
+rpm-macro-pg-config-ldflags-ex \
+rpm-macro-pg-config-ldflags-sl \
+rpm-macro-pg-config-libdir \
+rpm-macro-pg-config-libs \
+rpm-macro-pg-config-localedir \
+rpm-macro-pg-config-mandir \
+rpm-macro-pg-config-pgxs \
+rpm-macro-pg-config-pkgincludedir \
+rpm-macro-pg-config-pkglibdir \
+rpm-macro-pg-config-sharedir \
+rpm-macro-pg-config-sysconfdir \
+rpm-macro-pg-obsolete-llvm-subpackage \
+rpm-macro-pg-server-requires \
+rpm-macro-pg-version-from-name \
+rpm-macro-postgresql-has-llvm"
 
 RDEPENDS:${PN} += "postgresql-server-devel-implementation"
 

@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etherape-lang \
 etherape-lang-all \
-locale(etherape:de) \
-locale(etherape:es) \
-locale(etherape:fr) \
-locale(etherape:it) \
-locale(etherape:nl) \
-locale(etherape:ru) \
-locale(etherape:sv) \
-locale(etherape:tr)"
+locale-etherape-de \
+locale-etherape-es \
+locale-etherape-fr \
+locale-etherape-it \
+locale-etherape-nl \
+locale-etherape-ru \
+locale-etherape-sv \
+locale-etherape-tr"
 
 RDEPENDS:${PN} += "etherape"
 

@@ -12,9 +12,9 @@ RPM_HASH = "4d58249cccddf5c6a67ab9eb5b1544a22b0efc7ddea9d8c7389e99abee3e518bb093
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "multiverse \
-mvn(org.multiverse:multiverse-core) \
-mvn(org.multiverse:multiverse-core:pom:) \
-mvn(org.multiverse:multiverse:pom:)"
+mvn-org.multiverse-multiverse-core \
+mvn-org.multiverse-multiverse-core-pom- \
+mvn-org.multiverse-multiverse-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

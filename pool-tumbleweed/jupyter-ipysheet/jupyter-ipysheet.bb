@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipysheet"
 
-RDEPENDS:${PN} += "(jupyter-ipywidgets >= 7.5.0 with jupyter-ipywidgets < 9) \
-(jupyter-jupyterlab or jupyter-notebook) \
+RDEPENDS:${PN} += "-jupyter-ipywidgets >= 7.5.0 with jupyter-ipywidgets < 9 \
+-jupyter-jupyterlab or jupyter-notebook \
 python3-ipysheet"
 
 inherit rpm

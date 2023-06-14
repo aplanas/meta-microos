@@ -15,8 +15,8 @@ RPM_NAME = "texlive-morewrites-2023.201.svn49531-54.1.noarch.rpm"
 RPM_HASH = "6f47babf1f99f35ecb1e60066ab0f57ffd68613e2dd2c99b89ecc531d02a9c357b2bccb8f81e02602576e505b9b76c6119bc7731870d5fea1c947c4ddf44ab90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(morewrites.sty) \
-tex(primargs.sty) \
+RPROVIDES:${PN} += "tex-morewrites.sty \
+tex-primargs.sty \
 texlive-morewrites"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,7 +25,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
+tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

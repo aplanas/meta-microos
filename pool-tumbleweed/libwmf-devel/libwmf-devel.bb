@@ -9,18 +9,17 @@ RPM_NAME = "libwmf-devel-0.2.13-1.1.aarch64.rpm"
 RPM_HASH = "5de6765c58f93965f38c24571a48299e83329fd466f9dd98f9733696a8fff9c24dbb166d2afcfaff1a40a27cbdc25693ca41beec5ee589170257147e69be0ef3"
 
 RPROVIDES:${PN} += "libwmf-devel \
-libwmf-devel(aarch-64) \
-mswordvd:/usr/lib/libwmf.a \
-pkgconfig(libwmf) \
-wv-devel:/usr/lib/libwmf.a"
+mswordvd-/usr/lib/libwmf.a \
+pkgconfig-libwmf \
+wv-devel-/usr/lib/libwmf.a"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
-libwmf-0_2-7 \
+libwmf-0-2-7 \
 libwmf-gnome \
-pkgconfig(freetype2) \
-pkgconfig(x11) \
-pkgconfig(xproto) \
-pkgconfig(zlib)"
+pkgconfig-freetype2 \
+pkgconfig-x11 \
+pkgconfig-xproto \
+pkgconfig-zlib"
 
 inherit rpm

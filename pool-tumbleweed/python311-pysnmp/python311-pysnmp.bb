@@ -17,11 +17,11 @@ RPM_NAME = "python311-pysnmp-4.4.12-2.13.noarch.rpm"
 RPM_HASH = "1179226c3a940d7c7e770e8546568e58339572ddbde73d75cae371a36835737fcd6385ee5bbd358850e0eab1e2c3b2b3dcb41f7c4ddee72b46428aa15e9be330"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pysnmp) \
+RPROVIDES:${PN} += "python3.11dist-pysnmp \
 python311-pysnmp \
-python3dist(pysnmp)"
+python3dist-pysnmp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pyasn1 \
 python311-pycryptodome \
 python311-pysmi"

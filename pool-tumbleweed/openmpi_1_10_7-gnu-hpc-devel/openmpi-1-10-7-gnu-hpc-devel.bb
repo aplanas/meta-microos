@@ -20,23 +20,22 @@ PV = "1.10.7"
 RPM_NAME = "openmpi_1_10_7-gnu-hpc-devel-1.10.7-7.5.aarch64.rpm"
 RPM_HASH = "d6f2946089961cd18a63081d7272086977a4f75d7b27dbae7cf8badd6e45b9eac4a18773e430e99c72a16fbb3062480ebe3d7b98eaaee0cda04a47a113baaf6c"
 
-RPROVIDES:${PN} += "openmpi_1_10_7-gnu-hpc-devel \
-openmpi_1_10_7-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi-1-10-7-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
 libibumad-devel \
 libibverbs-devel \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-librdmacm.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libucp.so.0()(64bit) \
-libz.so.1()(64bit) \
-openmpi_1_10_7-gnu-hpc"
+libibverbs.so.1 \
+libm.so.6 \
+librdmacm.so.1 \
+libstdc++.so.6 \
+libucp.so.0 \
+libz.so.1 \
+openmpi-1-10-7-gnu-hpc"
 
 inherit rpm

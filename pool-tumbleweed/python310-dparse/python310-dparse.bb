@@ -9,11 +9,11 @@ RPM_HASH = "2f74a1bc17fce3fe71d59b3603038ef48ebdf2c8b22973d57f10b04e074374fcef24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dparse \
-python3.10dist(dparse) \
+python3.10dist-dparse \
 python310-dparse \
-python3dist(dparse)"
+python3dist-dparse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-packaging"
 

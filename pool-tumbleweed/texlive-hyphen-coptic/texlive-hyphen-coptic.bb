@@ -11,9 +11,9 @@ RPM_NAME = "texlive-hyphen-coptic-2023.201.svn58652-52.1.noarch.rpm"
 RPM_HASH = "5259caf509b71865e6f964ff247e987c9405b4d5ced872db3a92ee7b5acdbffbfece3f27f3b586e227102502df9c263252bab63cf8c14c68440c7c914c87a200"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(copthyph.tex) \
-tex(hyph-cop.tex) \
-tex(loadhyph-cop.tex) \
+RPROVIDES:${PN} += "tex-copthyph.tex \
+tex-hyph-cop.tex \
+tex-loadhyph-cop.tex \
 texlive-hyphen-coptic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

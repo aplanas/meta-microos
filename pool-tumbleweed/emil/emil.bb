@@ -10,12 +10,11 @@ PV = "2.1.0beta9"
 RPM_NAME = "emil-2.1.0beta9-968.28.aarch64.rpm"
 RPM_HASH = "684de0eb1cd80bce9995ef7def477b75001e169923315877b3f138fa970db914ac125e7772f5caeb1c888a2efa52344d62ed055e63515128b33f8ddc0a19d038"
 
-RPROVIDES:${PN} += "config(emil) \
-emil \
-emil(aarch-64)"
+RPROVIDES:${PN} += "config-emil \
+emil"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libresolv.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libresolv.so.2"
 
 inherit rpm

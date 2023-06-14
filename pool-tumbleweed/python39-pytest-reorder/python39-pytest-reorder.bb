@@ -24,11 +24,11 @@ RPM_NAME = "python39-pytest-reorder-0.1.1-2.7.noarch.rpm"
 RPM_HASH = "a7630da63bd682ac45de4657f6b2719d1cfe9add93eab7444827fc3b70e0cd22733f1a23032d41fddad35b3fc96d0d41564406898722716c603ef89a79284e27"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-reorder) \
+RPROVIDES:${PN} += "python3.9dist-pytest-reorder \
 python39-pytest-reorder \
-python3dist(pytest-reorder)"
+python3dist-pytest-reorder"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pytest"
 
 inherit rpm

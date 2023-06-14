@@ -12,14 +12,13 @@ PV = "1.0.17"
 RPM_NAME = "redland-1.0.17-2.20.aarch64.rpm"
 RPM_HASH = "5afd67de2fd6c4ba696d92e9893e11195ec91527237470bc682d833be5581e0f536d86eeb3675b1e69eea3a31c8acd159890118ddc0424b33d3965e27f19d1e9"
 
-RPROVIDES:${PN} += "librdf_storage_sqlite.so()(64bit) \
-redland \
-redland(aarch-64)"
+RPROVIDES:${PN} += "librdf-storage-sqlite.so \
+redland"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libraptor2.so.0()(64bit) \
-librdf.so.0()(64bit) \
-libsqlite3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libraptor2.so.0 \
+librdf.so.0 \
+libsqlite3.so.0"
 
 inherit rpm

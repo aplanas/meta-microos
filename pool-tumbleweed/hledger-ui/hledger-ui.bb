@@ -15,16 +15,15 @@ PV = "1.28"
 RPM_NAME = "hledger-ui-1.28-2.2.aarch64.rpm"
 RPM_HASH = "b3efdd248d9401a86c8dbab32194b477ca03aac877156c0d0fbd974a26ca228146dd6a7798f746ffe4835376656d3ad0c2f3b7c32f25527321f2a8fddd72ce33"
 
-RPROVIDES:${PN} += "hledger-ui \
-hledger-ui(aarch-64)"
+RPROVIDES:${PN} += "hledger-ui"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libnuma.so.1 \
+libtinfo.so.6"
 
 inherit rpm

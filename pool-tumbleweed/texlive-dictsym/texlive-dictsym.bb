@@ -12,9 +12,9 @@ RPM_NAME = "texlive-dictsym-2023.201.svn20031-52.1.noarch.rpm"
 RPM_HASH = "4ae0e7d8eb34d893f93315657459aca6004af5ef6fabf98a2187467b4903681011e4408704966fcf70a0081555810436fbb78bf0883bc02714e5a3f010bc6fe4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dictsym.map) \
-tex(dictsym.sty) \
-tex(dictsym.tfm) \
+RPROVIDES:${PN} += "tex-dictsym.map \
+tex-dictsym.sty \
+tex-dictsym.tfm \
 texlive-dictsym"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(pifont.sty) \
-tex(updmap.cfg) \
+tex-keyval.sty \
+tex-pifont.sty \
+tex-updmap.cfg \
 texlive \
 texlive-dictsym-fonts \
 texlive-filesystem \

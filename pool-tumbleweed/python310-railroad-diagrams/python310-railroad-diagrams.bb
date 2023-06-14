@@ -15,10 +15,10 @@ RPM_HASH = "378d5ecb4b664a09e6e009bbfee6667b9fd707ff6a76b09cea99008da4ddc3b5135e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-railroad-diagrams \
-python3.10dist(railroad-diagrams) \
+python3.10dist-railroad-diagrams \
 python310-railroad-diagrams \
-python3dist(railroad-diagrams)"
+python3dist-railroad-diagrams"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

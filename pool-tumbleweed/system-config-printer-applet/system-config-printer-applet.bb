@@ -12,7 +12,7 @@ RPM_NAME = "system-config-printer-applet-1.5.18-2.1.noarch.rpm"
 RPM_HASH = "0055a94c7d8bd1e302d9a686fe40b3beac63c5dbd09123e0eb1e50bad3fb05896370d556e7e2dec402ad486a957d81ba4c02ce85f11d633d825e1b1595b1b745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dbus(com.redhat.NewPrinterNotification) \
+RPROVIDES:${PN} += "dbus-com.redhat.NewPrinterNotification \
 system-config-printer-applet"
 
 RDEPENDS:${PN} += "/bin/sh \

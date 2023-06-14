@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cacti \
 cacti-PA \
 cacti-system \
-config(cacti)"
+config-cacti"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
@@ -25,7 +25,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/php \
 httpd \
 logrotate \
-mod_php_any \
+mod-php-any \
 net-snmp \
 php-ctype \
 php-gd \

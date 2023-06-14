@@ -17,13 +17,13 @@ RPM_HASH = "7e2e6d5c73d9a8ec286cd8ccbea7e87867a4293eba54ab597c25051c5cdbb7219333
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wptools \
-python3.10dist(wptools) \
+python3.10dist-wptools \
 python310-wptools \
-python3dist(wptools)"
+python3dist-wptools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-certifi \
 python310-html2text \
 python310-lxml \

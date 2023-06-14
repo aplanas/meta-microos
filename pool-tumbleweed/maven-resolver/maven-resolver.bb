@@ -12,8 +12,8 @@ RPM_HASH = "e311ac152104be365669ef29c412325caf8e01c6eff3c4201ea957689ea7a8e694ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver \
-mvn(org.apache.maven.resolver:maven-resolver:pom:) \
-mvn(org.eclipse.aether:aether:pom:)"
+mvn-org.apache.maven.resolver-maven-resolver-pom- \
+mvn-org.eclipse.aether-aether-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

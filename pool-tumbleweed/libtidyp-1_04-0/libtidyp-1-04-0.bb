@@ -16,12 +16,11 @@ PV = "1.04"
 RPM_NAME = "libtidyp-1_04-0-1.04-16.27.aarch64.rpm"
 RPM_HASH = "cde6686fbedbef80cf0883e7a230f61815a4c9ae03403a26e668365237a95722f586b12cd47342095745d1be5b5a30cce013fe2b1bb56bb8575ebe0a7dc44e83"
 
-RPROVIDES:${PN} += "libtidyp-1.04.so.0()(64bit) \
-libtidyp-1_04-0 \
-libtidyp-1_04-0(aarch-64)"
+RPROVIDES:${PN} += "libtidyp-1-04-0 \
+libtidyp-1.04.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

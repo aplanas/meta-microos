@@ -13,7 +13,6 @@ RPM_NAME = "clang-devel-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "59a77a0a98dc6b73936b8e8b9669354fe99205a166b94f5d3cd471977cc390a30155a671548e99db9cb283fcfc7b82ae005c8d07610485817f8122351626ad47"
 
 RPROVIDES:${PN} += "clang-devel \
-clang-devel(aarch-64) \
 clang-devel-static \
 llvm-clang-devel"
 

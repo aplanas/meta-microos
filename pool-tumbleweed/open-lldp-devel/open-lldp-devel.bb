@@ -12,12 +12,11 @@ RPM_HASH = "7271978fe4d9c142e0de9fa8d0063b051da57495672652796b2244661e0495495d31
 RPROVIDES:${PN} += "dcbd-devel \
 lldpad-devel \
 open-lldp-devel \
-open-lldp-devel(aarch-64) \
-pkgconfig(liblldp_clif) \
-pkgconfig(lldpad)"
+pkgconfig-liblldp-clif \
+pkgconfig-lldpad"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-liblldp_clif1 \
+liblldp-clif1 \
 open-lldp"
 
 inherit rpm

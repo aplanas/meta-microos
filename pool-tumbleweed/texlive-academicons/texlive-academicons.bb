@@ -28,8 +28,8 @@ RPM_NAME = "texlive-academicons-2023.201.1.9.1_2svn62622-54.1.noarch.rpm"
 RPM_HASH = "a553e9104f9cd5c29412a8238608598e22e62e1a516df585a6df885bd58d34a82f8fbd7fa5367f198ab6af7c86f525267de18315875d5aeecd57218af1ad003a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(academicons.sty) \
-tex(tuacademicons.fd) \
+RPROVIDES:${PN} += "tex-academicons.sty \
+tex-tuacademicons.fd \
 texlive-academicons"
 
 RDEPENDS:${PN} += "/bin/sh \

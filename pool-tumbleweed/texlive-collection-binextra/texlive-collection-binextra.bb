@@ -25,8 +25,8 @@ texlive-chktex \
 texlive-clojure-pamphlet \
 texlive-cluttex \
 texlive-collection-basic \
+texlive-ctan-chk \
 texlive-ctan-o-mat \
-texlive-ctan_chk \
 texlive-ctanbib \
 texlive-ctanify \
 texlive-ctanupload \
@@ -68,7 +68,7 @@ texlive-ltxfileinfo \
 texlive-ltximg \
 texlive-luajittex \
 texlive-make4ht \
-texlive-match_parens \
+texlive-match-parens \
 texlive-mflua \
 texlive-mkjobtexmf \
 texlive-optexcount \

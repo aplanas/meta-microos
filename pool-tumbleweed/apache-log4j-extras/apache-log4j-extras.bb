@@ -10,11 +10,11 @@ RPM_HASH = "0afec4a8073b8e0e5d36482dd7506228deb735e6c87aa4ed3db33792a51211cb31c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-log4j-extras \
-mvn(log4j:apache-log4j-extras) \
-mvn(log4j:apache-log4j-extras:pom:)"
+mvn-log4j-apache-log4j-extras \
+mvn-log4j-apache-log4j-extras-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(log4j:log4j)"
+mvn-log4j-log4j"
 
 inherit rpm

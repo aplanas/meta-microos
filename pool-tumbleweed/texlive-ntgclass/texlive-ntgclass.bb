@@ -14,18 +14,18 @@ RPM_NAME = "texlive-ntgclass-2023.201.2.1fsvn65522-54.1.noarch.rpm"
 RPM_HASH = "330b0e5ef9b78ead50cd3eef5f0bab01d993aff28c8501d03e71391efaf3902e67e63bca182b69abae6bd934314416bf1a17a5cf10f8df671a0f0b7dd4e5e3f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(a4.sty) \
-tex(artikel1.cls) \
-tex(artikel2.cls) \
-tex(artikel3.cls) \
-tex(boek.cls) \
-tex(boek3.cls) \
-tex(brief.cls) \
-tex(ntg10.clo) \
-tex(ntg11.clo) \
-tex(ntg12.clo) \
-tex(rapport1.cls) \
-tex(rapport3.cls) \
+RPROVIDES:${PN} += "tex-a4.sty \
+tex-artikel1.cls \
+tex-artikel2.cls \
+tex-artikel3.cls \
+tex-boek.cls \
+tex-boek3.cls \
+tex-brief.cls \
+tex-ntg10.clo \
+tex-ntg11.clo \
+tex-ntg12.clo \
+tex-rapport1.cls \
+tex-rapport3.cls \
 texlive-ntgclass"
 
 RDEPENDS:${PN} += "/bin/sh \

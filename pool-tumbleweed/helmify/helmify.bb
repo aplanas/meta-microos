@@ -11,9 +11,8 @@ PV = "0.4.3"
 RPM_NAME = "helmify-0.4.3-1.2.aarch64.rpm"
 RPM_HASH = "fab9db527a0dfc32057d99d54673ca02db913ee95d697b73c13ae5ff1e9a62b98f87087e29db131a081061a0f764f3d29084856a4d83dd8d39d18d6f3240ae43"
 
-RPROVIDES:${PN} += "helmify \
-helmify(aarch-64)"
+RPROVIDES:${PN} += "helmify"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

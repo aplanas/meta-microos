@@ -25,19 +25,18 @@ PV = "1.5.7.0.2"
 RPM_NAME = "ibutils-1.5.7.0.2-11.8.aarch64.rpm"
 RPM_HASH = "520df13fd88c1ced49721399ca626946d6feeb4799382b38ef8158901bbf976809300b86ddc7520ee35811c13191ef630013b00cbe1c14882eda7a60a1949cfb"
 
-RPROVIDES:${PN} += "ibutils \
-ibutils(aarch-64)"
+RPROVIDES:${PN} += "ibutils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libibdmcom.so.1()(64bit) \
-libopensm.so.9()(64bit) \
-libosmcomp.so.5()(64bit) \
-libosmvendor.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
-libtcl8.6.so()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libibdmcom.so.1 \
+libopensm.so.9 \
+libosmcomp.so.5 \
+libosmvendor.so.5 \
+libstdc++.so.6 \
+libtcl8.6.so"
 
 inherit rpm

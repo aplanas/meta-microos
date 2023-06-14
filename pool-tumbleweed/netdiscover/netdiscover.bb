@@ -14,11 +14,10 @@ PV = "0.10"
 RPM_NAME = "netdiscover-0.10-1.3.aarch64.rpm"
 RPM_HASH = "ffe2e709ce9c32869626f5d6f8bcab494be552f27ff797a785caf6b1cf7246cddd9bcf613f8aa0a01f5639da2efb8f5b70d841b76c562d68c554e55cdaae1cf4"
 
-RPROVIDES:${PN} += "netdiscover \
-netdiscover(aarch-64)"
+RPROVIDES:${PN} += "netdiscover"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpcap.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpcap.so.1"
 
 inherit rpm

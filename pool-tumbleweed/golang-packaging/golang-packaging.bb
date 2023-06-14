@@ -9,27 +9,27 @@ RPM_HASH = "3fd049a7dbbc326ef81d8280003e7521200a1288450063d2a9c734557c90e5f92d2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-packaging \
-rpm_macro(go_api_ver) \
-rpm_macro(go_arch) \
-rpm_macro(go_bindir) \
-rpm_macro(go_contribdir) \
-rpm_macro(go_contribsrcdir) \
-rpm_macro(go_dir) \
-rpm_macro(go_exclusivearch) \
-rpm_macro(go_nostrip) \
-rpm_macro(go_provides) \
-rpm_macro(go_sitearch) \
-rpm_macro(go_sitedir) \
-rpm_macro(go_srcdir) \
-rpm_macro(go_tooldir) \
-rpm_macro(go_ver) \
-rpm_macro(gobuild) \
-rpm_macro(godoc) \
-rpm_macro(gofilelist) \
-rpm_macro(goinstall) \
-rpm_macro(goprep) \
-rpm_macro(gosrc) \
-rpm_macro(gotest)"
+rpm-macro-go-api-ver \
+rpm-macro-go-arch \
+rpm-macro-go-bindir \
+rpm-macro-go-contribdir \
+rpm-macro-go-contribsrcdir \
+rpm-macro-go-dir \
+rpm-macro-go-exclusivearch \
+rpm-macro-go-nostrip \
+rpm-macro-go-provides \
+rpm-macro-go-sitearch \
+rpm-macro-go-sitedir \
+rpm-macro-go-srcdir \
+rpm-macro-go-tooldir \
+rpm-macro-go-ver \
+rpm-macro-gobuild \
+rpm-macro-godoc \
+rpm-macro-gofilelist \
+rpm-macro-goinstall \
+rpm-macro-goprep \
+rpm-macro-gosrc \
+rpm-macro-gotest"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 go"

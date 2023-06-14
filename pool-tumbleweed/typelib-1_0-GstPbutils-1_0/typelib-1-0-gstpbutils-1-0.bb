@@ -14,17 +14,16 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstPbutils-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "b9d52327ac528a8c3919671375ac67b464594c00e9bda93eb7df077dc99960ad4852a7324c5a48cfe82d1697e9ce6f53830bb53385e7441c6ede992628e1a494"
 
-RPROVIDES:${PN} += "typelib(GstPbutils) \
-typelib-1_0-GstPbutils-1_0 \
-typelib-1_0-GstPbutils-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstPbutils-1-0 \
+typelib-GstPbutils"
 
-RDEPENDS:${PN} += "libgstpbutils-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gst) \
-typelib(GstAudio) \
-typelib(GstBase) \
-typelib(GstVideo)"
+RDEPENDS:${PN} += "libgstpbutils-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gst \
+typelib-GstAudio \
+typelib-GstBase \
+typelib-GstVideo"
 
 inherit rpm

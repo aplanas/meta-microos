@@ -11,16 +11,13 @@ RPM_HASH = "5011a560fd1c54d2f0deb552e5425a9de142583e9e9d208e35f734bb5626fc8f13f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenLP \
-application() \
-application(openlp.desktop) \
-mimehandler(application/x-openlp-service) \
-python3.10dist(openlp) \
-python3dist(openlp)"
+python3.10dist-openlp \
+python3dist-openlp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 hicolor-icon-theme \
-python(abi) \
+python-abi \
 python3-Mako \
 python3-SQLAlchemy \
 python3-alembic \

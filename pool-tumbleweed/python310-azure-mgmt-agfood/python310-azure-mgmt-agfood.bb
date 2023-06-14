@@ -11,11 +11,11 @@ RPM_HASH = "e5dc3115edbaa8ba5dd8d952b9e5bbbccdfac9bbabc6e4889b25a81271934d40415e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-agfood \
-python3.10dist(azure-mgmt-agfood) \
+python3.10dist-azure-mgmt-agfood \
 python310-azure-mgmt-agfood \
-python3dist(azure-mgmt-agfood)"
+python3dist-azure-mgmt-agfood"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

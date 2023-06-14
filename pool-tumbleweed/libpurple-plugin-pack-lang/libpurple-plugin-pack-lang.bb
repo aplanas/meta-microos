@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-pack-lang \
 libpurple-plugin-pack-lang-all \
-locale(libpurple-plugin-pack:de) \
-locale(libpurple-plugin-pack:en_AU) \
-locale(libpurple-plugin-pack:es_ES) \
-locale(libpurple-plugin-pack:fr) \
-locale(libpurple-plugin-pack:vi)"
+locale-libpurple-plugin-pack-de \
+locale-libpurple-plugin-pack-en-AU \
+locale-libpurple-plugin-pack-es-ES \
+locale-libpurple-plugin-pack-fr \
+locale-libpurple-plugin-pack-vi"
 
 RDEPENDS:${PN} += "libpurple-plugin-pack"
 

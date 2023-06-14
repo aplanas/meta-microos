@@ -21,16 +21,16 @@ python3-cupshelpers \
 python3-gobject \
 python3-gobject-Gdk \
 python3-smbc \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gtk) \
-typelib(Handy) \
-typelib(Notify) \
-typelib(PackageKitGlib) \
-typelib(Pango) \
-typelib(Polkit) \
-typelib(Secret)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gtk \
+typelib-Handy \
+typelib-Notify \
+typelib-PackageKitGlib \
+typelib-Pango \
+typelib-Polkit \
+typelib-Secret"
 
 inherit rpm

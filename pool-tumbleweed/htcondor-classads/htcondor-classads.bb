@@ -26,14 +26,13 @@ RPM_HASH = "c89505a914251200cd123cc71287408f35c30614fc381b6801a9f6e94147d0b2ab81
 
 RPROVIDES:${PN} += "classads \
 htcondor-classads \
-htcondor-classads(aarch-64) \
-libclassad.so.15()(64bit)"
+libclassad.so.15"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpcre.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpcre.so.1 \
+libstdc++.so.6"
 
 inherit rpm

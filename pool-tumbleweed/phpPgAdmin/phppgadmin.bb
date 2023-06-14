@@ -33,7 +33,7 @@ RPM_NAME = "phpPgAdmin-7.13.0-3.1.noarch.rpm"
 RPM_HASH = "fa3bb0fcbc772667d123efd94a3ce181af9e58b233174b029c8fea65f5282c105fb6c561f359aa659176e6d2fefbd50ea47efb8f4c540bea6f8de35ea774b284"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(phpPgAdmin) \
+RPROVIDES:${PN} += "config-phpPgAdmin \
 phpPgAdmin"
 
 RDEPENDS:${PN} += "php \

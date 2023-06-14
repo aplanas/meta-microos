@@ -36,10 +36,10 @@ RPM_NAME = "python39-cookies-2.2.1-5.1.noarch.rpm"
 RPM_HASH = "2509a350491b842f8ceaf4e263e0346e8c800963bc829fb1c56c11f53bab913e4a3c1fca2940f345fb06005a7cbd248d5a0b8770de007e42b3ef698f739943d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cookies) \
+RPROVIDES:${PN} += "python3.9dist-cookies \
 python39-cookies \
-python3dist(cookies)"
+python3dist-cookies"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

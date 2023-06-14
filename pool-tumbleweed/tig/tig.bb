@@ -14,17 +14,16 @@ PV = "2.5.8"
 RPM_NAME = "tig-2.5.8-1.2.aarch64.rpm"
 RPM_HASH = "ecec609db3310745357d297c0b869e10a43ccdf91f558895fdc9743a373dc3acd336d06b091d72b760c0ed0c11541ec6bc14cd270024b4d10fe23569d41d43fc"
 
-RPROVIDES:${PN} += "config(tig) \
-tig \
-tig(aarch-64)"
+RPROVIDES:${PN} += "config-tig \
+tig"
 
 RDEPENDS:${PN} += "git-core \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libpcre2-posix.so.3()(64bit) \
-libreadline.so.8()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libpcre2-8.so.0 \
+libpcre2-posix.so.3 \
+libreadline.so.8 \
+libtinfo.so.6"
 
 inherit rpm

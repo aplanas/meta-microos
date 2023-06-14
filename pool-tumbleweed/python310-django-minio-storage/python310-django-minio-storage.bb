@@ -9,11 +9,11 @@ RPM_HASH = "60bf8e1b0b0f4c14a10af9e82b153bed4ea3fc3d1a8d2930c7cfd045d0e99ef2eb7c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-minio-storage \
-python3.10dist(django-minio-storage) \
+python3.10dist-django-minio-storage \
 python310-django-minio-storage \
-python3dist(django-minio-storage)"
+python3dist-django-minio-storage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-minio"
 

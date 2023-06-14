@@ -11,13 +11,13 @@ RPM_NAME = "python311-pcodedmp-1.2.6-2.10.noarch.rpm"
 RPM_HASH = "5cd70679db45cbd65e29b4d93afb0c97f5e6d1f960466d3bcc7c9a22558fefa926f0a87e588049b1e2ccb2589ad20b0952577840f4e9504515b4a6de051df6a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pcodedmp) \
+RPROVIDES:${PN} += "python3.11dist-pcodedmp \
 python311-pcodedmp \
-python3dist(pcodedmp)"
+python3dist-pcodedmp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-oletools"
 
 inherit rpm

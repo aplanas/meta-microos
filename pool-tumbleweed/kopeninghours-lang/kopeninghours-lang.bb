@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kopeninghours-lang \
 kopeninghours-lang-all \
-locale(kopeninghours:ca) \
-locale(kopeninghours:ca@valencia) \
-locale(kopeninghours:cs) \
-locale(kopeninghours:de) \
-locale(kopeninghours:en_GB) \
-locale(kopeninghours:es) \
-locale(kopeninghours:eu) \
-locale(kopeninghours:fi) \
-locale(kopeninghours:fr) \
-locale(kopeninghours:gl) \
-locale(kopeninghours:hi) \
-locale(kopeninghours:it) \
-locale(kopeninghours:ja) \
-locale(kopeninghours:ka) \
-locale(kopeninghours:ko) \
-locale(kopeninghours:lt) \
-locale(kopeninghours:nl) \
-locale(kopeninghours:nn) \
-locale(kopeninghours:pl) \
-locale(kopeninghours:pt) \
-locale(kopeninghours:pt_BR) \
-locale(kopeninghours:ro) \
-locale(kopeninghours:ru) \
-locale(kopeninghours:sk) \
-locale(kopeninghours:sl) \
-locale(kopeninghours:sv) \
-locale(kopeninghours:tr) \
-locale(kopeninghours:uk) \
-locale(kopeninghours:zh_CN) \
-locale(kopeninghours:zh_TW)"
+locale-kopeninghours-ca \
+locale-kopeninghours-ca@valencia \
+locale-kopeninghours-cs \
+locale-kopeninghours-de \
+locale-kopeninghours-en-GB \
+locale-kopeninghours-es \
+locale-kopeninghours-eu \
+locale-kopeninghours-fi \
+locale-kopeninghours-fr \
+locale-kopeninghours-gl \
+locale-kopeninghours-hi \
+locale-kopeninghours-it \
+locale-kopeninghours-ja \
+locale-kopeninghours-ka \
+locale-kopeninghours-ko \
+locale-kopeninghours-lt \
+locale-kopeninghours-nl \
+locale-kopeninghours-nn \
+locale-kopeninghours-pl \
+locale-kopeninghours-pt \
+locale-kopeninghours-pt-BR \
+locale-kopeninghours-ro \
+locale-kopeninghours-ru \
+locale-kopeninghours-sk \
+locale-kopeninghours-sl \
+locale-kopeninghours-sv \
+locale-kopeninghours-tr \
+locale-kopeninghours-uk \
+locale-kopeninghours-zh-CN \
+locale-kopeninghours-zh-TW"
 
 RDEPENDS:${PN} += "kopeninghours"
 

@@ -18,14 +18,14 @@ RPM_HASH = "da323a4b9619c09cfac297928d7a1ae85dea2cc760818727f19190ba653a009d0358
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-compose \
-python3.11dist(podman-compose) \
+python3.11dist-podman-compose \
 python311-podman-compose \
-python3dist(podman-compose)"
+python3dist-podman-compose"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 podman \
-python(abi) \
+python-abi \
 python311-PyYAML \
 python311-python-dotenv \
 python311-setuptools \

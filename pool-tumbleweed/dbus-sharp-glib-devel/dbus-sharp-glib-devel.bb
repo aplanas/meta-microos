@@ -10,10 +10,10 @@ RPM_HASH = "c0415b25504ecb1f324d367577d11788a6ab0af14fd2d083bb9d14f44e317fd4c27b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp-glib-devel \
-pkgconfig(dbus-sharp-glib-1.0)"
+pkgconfig-dbus-sharp-glib-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-sharp-glib \
-pkgconfig(dbus-sharp-1.0)"
+pkgconfig-dbus-sharp-1.0"
 
 inherit rpm

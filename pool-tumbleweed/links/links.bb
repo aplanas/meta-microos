@@ -11,27 +11,25 @@ RPM_NAME = "links-2.29-1.1.aarch64.rpm"
 RPM_HASH = "771007b2373aaf603c6b3d9bd1e52d2678fee165f2dc271abe6cf6cc0c74fcf1026a206fea28f50b47849720d6d8121abdccd76b7f14b068c020875a910ced30"
 
 RPROVIDES:${PN} += "links \
-links(aarch-64) \
-web_browser"
+web-browser"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libbrotlidec.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libevent-2.1.so.7()(64bit) \
-libgomp.so.1()(64bit) \
-libgpm.so.2()(64bit) \
-libjpeg.so.8()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libssl.so.3()(64bit) \
-libtiff.so.6()(64bit) \
-libwebp.so.7()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libbrotlidec.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libevent-2.1.so.7 \
+libgomp.so.1 \
+libgpm.so.2 \
+libjpeg.so.8 \
+liblzma.so.5 \
+libm.so.6 \
+libpng16.so.16 \
+libssl.so.3 \
+libtiff.so.6 \
+libwebp.so.7 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

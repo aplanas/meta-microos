@@ -9,7 +9,7 @@ RPM_HASH = "da4f8598c15b418089740170bcc39fb71353253453a975f221bab840cc22b5bd908a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \
-locale(texlive-bewerbung-doc:de;de \
+locale(texlive-bewerbung-doc-de;de \
 texlive-bewerbung-doc"
 
 RDEPENDS:${PN} += ""

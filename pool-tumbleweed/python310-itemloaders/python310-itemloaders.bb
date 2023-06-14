@@ -9,11 +9,11 @@ RPM_HASH = "cd82e0b8a9884c0c3963ef66ff3022b6907a7b77028170224caa5e59f3115680bd22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-itemloaders \
-python3.10dist(itemloaders) \
+python3.10dist-itemloaders \
 python310-itemloaders \
-python3dist(itemloaders)"
+python3dist-itemloaders"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-itemadapter \
 python310-jmespath \
 python310-parsel \

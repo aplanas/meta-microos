@@ -11,18 +11,17 @@ RPM_HASH = "5c2fcdc94081f5f860849fee9be95035aa4a0cef17dd1ced3e9edc128a1d4ff7bc4c
 
 RPROVIDES:${PN} += "enchant-1-backend \
 enchant-1-backend-zemberek \
-enchant-1-backend-zemberek(aarch-64) \
-libenchant_zemberek.so()(64bit) \
-locale(enchant-1:az) \
-locale(enchant-1:tk) \
-locale(enchant-1:tr) \
-locale(enchant-1:tt)"
+libenchant-zemberek.so \
+locale-enchant-1-az \
+locale-enchant-1-tk \
+locale-enchant-1-tr \
+locale-enchant-1-tt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-glib-1.so.2 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

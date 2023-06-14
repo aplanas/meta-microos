@@ -8,18 +8,14 @@ PV = "1.0"
 RPM_NAME = "qmlpluginexports-qt5-1.0-1.16.aarch64.rpm"
 RPM_HASH = "f40b03221091b4586f17e729a7d312dfc13d23cbc53499d9d5703f563cb6ec643754e3801576afb60e0dc610f82eaaf08818a600fcbdfc309e9ac7005aecd408"
 
-RPROVIDES:${PN} += "qmlpluginexports-qt5 \
-qmlpluginexports-qt5(aarch-64)"
+RPROVIDES:${PN} += "qmlpluginexports-qt5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -7,17 +7,16 @@ PV = "2.2.0"
 RPM_NAME = "libkea-dns++30-2.2.0-2.4.aarch64.rpm"
 RPM_HASH = "20a47b99730425604930e6ff02a9d351e7b75076d0a52583ccfddb7258fab5e86fb936496313e8376c63da2d26004f426f21f4c8b36cfdd598b24047a26b55ec"
 
-RPROVIDES:${PN} += "libkea-dns++.so.30()(64bit) \
-libkea-dns++30 \
-libkea-dns++30(aarch-64)"
+RPROVIDES:${PN} += "libkea-dns++.so.30 \
+libkea-dns++30"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkea-cryptolink.so.28()(64bit) \
-libkea-exceptions.so.13()(64bit) \
-libkea-util.so.52()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkea-cryptolink.so.28 \
+libkea-exceptions.so.13 \
+libkea-util.so.52 \
+libstdc++.so.6"
 
 inherit rpm

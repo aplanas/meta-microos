@@ -9,25 +9,19 @@ PV = "3.8"
 RPM_NAME = "weechat-3.8-1.1.aarch64.rpm"
 RPM_HASH = "943c0b5276e08b00f28755118c95cda7a974bd7fa94202f257ded5271f59dccec4ca1bb5973f9f366fbbe93543850cc5ec946403678b337c574c9af6a564c579"
 
-RPROVIDES:${PN} += "application() \
-application(weechat.desktop) \
-mimehandler(x-scheme-handler/irc) \
-mimehandler(x-scheme-handler/ircs) \
-weechat \
-weechat(aarch-64)"
+RPROVIDES:${PN} += "weechat"
 
 RDEPENDS:${PN} += "ca-certificates \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libgcrypt.so.20 \
+libgnutls.so.30 \
+libm.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

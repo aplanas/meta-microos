@@ -12,11 +12,11 @@ RPM_HASH = "8148450ad0b83d416169dc2bf2a4da701cd1eb2d4e04f71732b7562266c353ae0788
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-textfsm \
-python3.10dist(textfsm) \
+python3.10dist-textfsm \
 python310-textfsm \
-python3dist(textfsm)"
+python3dist-textfsm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-six"
 

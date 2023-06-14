@@ -36,13 +36,13 @@ RPM_NAME = "python39-jmespath-1.0.1-2.4.noarch.rpm"
 RPM_HASH = "101955e30aec49b1d41b9067e9b3d5115d38b8230517029b0034984dc89ff00d7d20466c5579804c81df45a033424e749bca9a69896cae0895f23165bc0e9734"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(jmespath) \
+RPROVIDES:${PN} += "python3.9dist-jmespath \
 python39-jmespath \
-python3dist(jmespath)"
+python3dist-jmespath"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-ply \
 update-alternatives"
 

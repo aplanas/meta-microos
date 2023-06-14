@@ -12,11 +12,11 @@ RPM_HASH = "05e0ef95253c071762baefca2d93cfd2e2bb3ad3103166cc12ed331bd622c9a5d56c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yamldoc \
-python3.10dist(python-yamldoc) \
+python3.10dist-python-yamldoc \
 python310-yamldoc \
-python3dist(python-yamldoc)"
+python3dist-python-yamldoc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML"
 
 inherit rpm

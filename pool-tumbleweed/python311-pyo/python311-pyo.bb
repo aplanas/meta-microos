@@ -8,21 +8,20 @@ PV = "1.0.3"
 RPM_NAME = "python311-pyo-1.0.3-1.13.aarch64.rpm"
 RPM_HASH = "91ad1ab213bb96fef17afaeedc06616d93344ba3771cc2f12fad163f4a16f5f74d19528db80d82d7467efd096880105127727e70ce33d0f6a884f5ae927b66e4"
 
-RPROVIDES:${PN} += "python3.11dist(pyo) \
+RPROVIDES:${PN} += "python3.11dist-pyo \
 python311-pyo \
-python311-pyo(aarch-64) \
-python3dist(pyo)"
+python3dist-pyo"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjack.so.0()(64bit) \
-liblo.so.7()(64bit) \
-libm.so.6()(64bit) \
-libportaudio.so.2()(64bit) \
-libportmidi.so.2()(64bit) \
-libsndfile.so.1()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjack.so.0 \
+liblo.so.7 \
+libm.so.6 \
+libportaudio.so.2 \
+libportmidi.so.2 \
+libsndfile.so.1 \
+python-abi"
 
 inherit rpm

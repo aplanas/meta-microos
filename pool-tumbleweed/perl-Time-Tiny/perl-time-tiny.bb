@@ -11,9 +11,9 @@ RPM_NAME = "perl-Time-Tiny-1.08-1.17.noarch.rpm"
 RPM_HASH = "963bfb50137e5396df0a1a0cfa36c1edb59985e97527cba218f749201da0b40951af088e9f06b4c41b7b30dd2c3d70c7705f7ffc6995090ef9c719bcdba10d3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Time::Tiny) \
+RPROVIDES:${PN} += "perl-Time--Tiny \
 perl-Time-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

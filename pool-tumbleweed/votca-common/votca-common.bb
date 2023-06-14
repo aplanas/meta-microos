@@ -14,8 +14,8 @@ RPM_NAME = "votca-common-2022.1-3.6.noarch.rpm"
 RPM_HASH = "463bd9cf6bb6474deeccc8a710116b1c7fbdc61879b31c76f9a0aa7e4cb0614aa079a04bfa3281e5517c65b2499543c7bfdc3f1ee8be9cd3844b1b3521606db6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CsgFunctions) \
-perl(CsgSimplex) \
+RPROVIDES:${PN} += "perl-CsgFunctions \
+perl-CsgSimplex \
 votca-common \
 votca-csg-common \
 votca-xtp-common"

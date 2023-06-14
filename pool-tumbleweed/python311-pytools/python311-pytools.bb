@@ -18,11 +18,11 @@ RPM_NAME = "python311-pytools-2022.1.14-1.2.noarch.rpm"
 RPM_HASH = "a08ef793a79a6b933fcd952583acc966e10c30df54806c4c90120ef77063e550b3257957d37331869fb9d5f3e0e90e21735d7603324f215b26bc3b5f8e7efba7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytools) \
+RPROVIDES:${PN} += "python3.11dist-pytools \
 python311-pytools \
-python3dist(pytools)"
+python3dist-pytools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-numpy \
 python311-platformdirs"
 

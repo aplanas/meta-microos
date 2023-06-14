@@ -12,13 +12,13 @@ RPM_NAME = "texlive-petri-nets-2023.201.svn39165-51.1.noarch.rpm"
 RPM_HASH = "c513d960b4c5d1b1733a763c9a2a7349284e3134d58a41acd0f16584f2a4c51e35f5056c1b1ca92595fb024c0ae7b373de3a6aab3bd08fb3e4a3b07666229f82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pndraw.sty) \
-tex(pndraw.tex) \
-tex(pnets.sty) \
-tex(pnets.tex) \
-tex(pntext.sty) \
-tex(pntext.tex) \
-tex(pnversion.tex) \
+RPROVIDES:${PN} += "tex-pndraw.sty \
+tex-pndraw.tex \
+tex-pnets.sty \
+tex-pnets.tex \
+tex-pntext.sty \
+tex-pntext.tex \
+tex-pnversion.tex \
 texlive-petri-nets"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,13 +27,13 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Digest::MD5) \
-perl(Getopt::Long) \
-perl(strict) \
+perl-Digest--MD5 \
+perl-Getopt--Long \
+perl-strict \
 sed \
-tex(amsfonts.sty) \
-tex(graphicx.sty) \
-tex(ifpdf.sty) \
+tex-amsfonts.sty \
+tex-graphicx.sty \
+tex-ifpdf.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

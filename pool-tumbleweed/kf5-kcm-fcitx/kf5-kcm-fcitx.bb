@@ -9,44 +9,36 @@ PV = "0.5.6"
 RPM_NAME = "kf5-kcm-fcitx-0.5.6-3.13.aarch64.rpm"
 RPM_HASH = "1ed28b377e85f8b5e114e8cb9ea01378a558d9cbb1a409e6f0d293d1a05a997799856d442797f289e6fdfca7b2a0554809b824005e4d4559d776a42d74f1b23b"
 
-RPROVIDES:${PN} += "application() \
-application(kbd-layout-viewer.desktop) \
-fcitx-config-kde5 \
+RPROVIDES:${PN} += "fcitx-config-kde5 \
 fcitx-config-kf5 \
 kf5-kcm-fcitx \
-kf5-kcm-fcitx(aarch-64) \
-locale(plasma5-workspace:ko;zh_CN;zh_SG)"
+locale-plasma5-workspace-ko;zh-CN;zh-SG"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 fcitx-qt5 \
-ld-linux-aarch64.so.1()(64bit) \
-libFcitxQt5DBusAddons.so.1()(64bit) \
-libFcitxQt5WidgetsAddons.so.1()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5ItemViews.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfcitx-config.so.4()(64bit) \
-libfcitx-core.so.0()(64bit) \
-libfcitx-utils.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libxkbfile.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libFcitxQt5DBusAddons.so.1 \
+libFcitxQt5WidgetsAddons.so.1 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5ItemViews.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libfcitx-config.so.4 \
+libfcitx-core.so.0 \
+libfcitx-utils.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libxkbfile.so.1 \
 plasma5-workspace"
 
 inherit rpm

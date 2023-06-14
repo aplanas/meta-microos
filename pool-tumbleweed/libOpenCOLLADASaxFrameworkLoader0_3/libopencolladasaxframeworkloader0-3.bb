@@ -13,19 +13,18 @@ PV = "1.6.68"
 RPM_NAME = "libOpenCOLLADASaxFrameworkLoader0_3-1.6.68-1.12.aarch64.rpm"
 RPM_HASH = "9eb7344998b4373521806b1975760366fa6139d46bf939641c96ad5bdbb39acbb5b457c9afb7c8fd109ba1f91e43ab00b84dc27180bb158d7ddd0163150c08cf"
 
-RPROVIDES:${PN} += "libOpenCOLLADASaxFrameworkLoader.so.0.3()(64bit) \
-libOpenCOLLADASaxFrameworkLoader0_3 \
-libOpenCOLLADASaxFrameworkLoader0_3(aarch-64)"
+RPROVIDES:${PN} += "libOpenCOLLADASaxFrameworkLoader.so.0.3 \
+libOpenCOLLADASaxFrameworkLoader0-3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGeneratedSaxParser.so.0.3()(64bit) \
-libMathMLSolver.so.0.3()(64bit) \
-libOpenCOLLADABaseUtils.so.0.3()(64bit) \
-libOpenCOLLADAFramework.so.0.3()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpcre.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGeneratedSaxParser.so.0.3 \
+libMathMLSolver.so.0.3 \
+libOpenCOLLADABaseUtils.so.0.3 \
+libOpenCOLLADAFramework.so.0.3 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpcre.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "cb90a702761b797b42e1e983e19610720d025e6c7b9dc4fc678d130a183cd6816e0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-micropipenv \
-python3.10dist(micropipenv) \
+python3.10dist-micropipenv \
 python310-micropipenv \
-python3dist(micropipenv)"
+python3dist-micropipenv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pip \
 update-alternatives"
 

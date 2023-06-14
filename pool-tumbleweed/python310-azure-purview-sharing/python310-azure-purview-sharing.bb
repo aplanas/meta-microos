@@ -9,12 +9,12 @@ RPM_HASH = "cdfc6e9ac38759bd64903d5f726baabfe782bd5d995d5e7c10a90b26d90a4d20b826
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-purview-sharing \
-python3.10dist(azure-purview-sharing) \
+python3.10dist-azure-purview-sharing \
 python310-azure-purview-sharing \
-python3dist(azure-purview-sharing)"
+python3dist-azure-purview-sharing"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-purview-nspkg \

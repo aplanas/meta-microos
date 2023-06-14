@@ -9,13 +9,13 @@ RPM_HASH = "2334708f83bf1b347ec82aee77e2e92707cceb48ad9a747bc94f6c1438549e9e0c4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wakeonlan \
-python3.10dist(wakeonlan) \
+python3.10dist-wakeonlan \
 python310-wakeonlan \
-python3dist(wakeonlan)"
+python3dist-wakeonlan"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

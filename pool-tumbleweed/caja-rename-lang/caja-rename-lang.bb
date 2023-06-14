@@ -10,22 +10,22 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-rename-lang \
 caja-rename-lang-all \
-locale(caja-rename:ar) \
-locale(caja-rename:ca) \
-locale(caja-rename:cs) \
-locale(caja-rename:de) \
-locale(caja-rename:el) \
-locale(caja-rename:en_GB) \
-locale(caja-rename:es) \
-locale(caja-rename:fr) \
-locale(caja-rename:hr) \
-locale(caja-rename:lt) \
-locale(caja-rename:nb_NO) \
-locale(caja-rename:nl) \
-locale(caja-rename:oc) \
-locale(caja-rename:pt_BR) \
-locale(caja-rename:sl) \
-locale(caja-rename:zh_Hans)"
+locale-caja-rename-ar \
+locale-caja-rename-ca \
+locale-caja-rename-cs \
+locale-caja-rename-de \
+locale-caja-rename-el \
+locale-caja-rename-en-GB \
+locale-caja-rename-es \
+locale-caja-rename-fr \
+locale-caja-rename-hr \
+locale-caja-rename-lt \
+locale-caja-rename-nb-NO \
+locale-caja-rename-nl \
+locale-caja-rename-oc \
+locale-caja-rename-pt-BR \
+locale-caja-rename-sl \
+locale-caja-rename-zh-Hans"
 
 RDEPENDS:${PN} += "caja-rename"
 

@@ -14,11 +14,11 @@ RPM_HASH = "d321ef372b8e1a2caea761c529e164e75dda13c9f23f10cbd3e632cb81cfc1d64b4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pygerrit2 \
-python3.10dist(pygerrit2) \
+python3.10dist-pygerrit2 \
 python310-pygerrit2 \
-python3dist(pygerrit2)"
+python3dist-pygerrit2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pbr \
 python310-requests"
 

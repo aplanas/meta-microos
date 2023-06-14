@@ -11,11 +11,11 @@ RPM_HASH = "abc97240990f404bbc285262aabbcaf6f2f085684ed022ca5984ca1ad16d49a462b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wirerope \
-python3.10dist(wirerope) \
+python3.10dist-wirerope \
 python310-wirerope \
-python3dist(wirerope)"
+python3dist-wirerope"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

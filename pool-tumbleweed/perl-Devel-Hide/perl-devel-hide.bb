@@ -83,9 +83,9 @@ RPM_NAME = "perl-Devel-Hide-0.0015-1.8.noarch.rpm"
 RPM_HASH = "3cfff812767090c666c2470f45ef782c569c68b0ec29aa51ab02d6e2fad82e68a894bf78d820249fa1be7cc97d476e35d96c06c3a198a6f23b8c4f3211bfe74b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::Hide) \
+RPROVIDES:${PN} += "perl-Devel--Hide \
 perl-Devel-Hide"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

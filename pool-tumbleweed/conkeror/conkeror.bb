@@ -13,24 +13,10 @@ PV = "1.0.4"
 RPM_NAME = "conkeror-1.0.4-1.20.aarch64.rpm"
 RPM_HASH = "2033a87fe93d5557942948c0e7bdfdb72fdad6cebfdc1f0153c4b80ecd2134e3775604a61bafddc905c477a23895b29ad5984b8f17e1cb80095fc328ee0093c1"
 
-RPROVIDES:${PN} += "application() \
-application(conkeror.desktop) \
-conkeror \
-conkeror(aarch-64) \
-mimehandler(application/rdf+xml) \
-mimehandler(application/rss+xml) \
-mimehandler(application/xhtml+xml) \
-mimehandler(application/xml) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/png) \
-mimehandler(text/html) \
-mimehandler(text/xml) \
-mimehandler(x-scheme-handler/http) \
-mimehandler(x-scheme-handler/https)"
+RPROVIDES:${PN} += "conkeror"
 
 RDEPENDS:${PN} += "/bin/sh \
 firefox \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

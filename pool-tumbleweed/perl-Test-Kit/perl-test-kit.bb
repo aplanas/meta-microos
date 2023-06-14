@@ -16,13 +16,13 @@ RPM_NAME = "perl-Test-Kit-2.15-1.15.noarch.rpm"
 RPM_HASH = "fa5b5a094f767505c7a15c3995bf3c4dddc8b3111c32cb91a0ab9611155b6c6f890091388ef39428dac7108ecd1bb8c72658130cfe19c5416aa8d2334fb7c1c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Kit) \
+RPROVIDES:${PN} += "perl-Test--Kit \
 perl-Test-Kit"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Hook::LexWrap) \
-perl(Import::Into) \
-perl(Module::Runtime) \
-perl(Sub::Delete)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Hook--LexWrap \
+perl-Import--Into \
+perl-Module--Runtime \
+perl-Sub--Delete"
 
 inherit rpm

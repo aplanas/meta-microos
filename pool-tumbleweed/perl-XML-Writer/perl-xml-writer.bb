@@ -24,12 +24,12 @@ RPM_NAME = "perl-XML-Writer-0.900-1.12.noarch.rpm"
 RPM_HASH = "03b90308daed6ae60d01d9e5105fb729c503c59da7e112e25b87538fc6efe0da9b945fcfbce7e7a179114e68ddfc1aaac3c4ea327a4b78c31e01902bdf21ddd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Writer) \
-perl(XML::Writer::Namespaces) \
-perl(XML::Writer::_PrintChecker) \
-perl(XML::Writer::_String) \
+RPROVIDES:${PN} += "perl-XML--Writer \
+perl-XML--Writer---PrintChecker \
+perl-XML--Writer---String \
+perl-XML--Writer--Namespaces \
 perl-XML-Writer"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

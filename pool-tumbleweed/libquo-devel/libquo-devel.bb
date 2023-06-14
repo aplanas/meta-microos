@@ -14,12 +14,11 @@ RPM_NAME = "libquo-devel-1.3.1-2.9.aarch64.rpm"
 RPM_HASH = "a0cb251579c8203fa3f7eba035f120686cc892514e5d0b77d27f1d1b899cdf30dec79b8c8226afae46db331fc3e051f70bb94a531f5565328c05f37c477a4f23"
 
 RPROVIDES:${PN} += "libquo-devel \
-libquo-devel(aarch-64) \
-pkgconfig(libquo)"
+pkgconfig-libquo"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libquo7"
 
 inherit rpm

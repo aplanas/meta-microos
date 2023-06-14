@@ -10,11 +10,11 @@ RPM_HASH = "5f75e4c8a43c1a3ee0c6261fa90850ed79b9a664395f2f8f02bc9ee5d148db194f10
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pypuppetdb \
-python3.10dist(pypuppetdb) \
+python3.10dist-pypuppetdb \
 python310-pypuppetdb \
-python3dist(pypuppetdb)"
+python3dist-pypuppetdb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

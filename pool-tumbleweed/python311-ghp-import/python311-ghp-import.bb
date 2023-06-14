@@ -12,13 +12,13 @@ RPM_NAME = "python311-ghp-import-2.1.0-2.3.noarch.rpm"
 RPM_HASH = "66209fd45adb576e7ca5220727096e74eece30c79313db88ab54aac3a18cd11e58f54e41d8c51d9cd11080986933b20fc8744397ca36fb15e3e0a0c9f67cdd59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(ghp-import) \
+RPROVIDES:${PN} += "python3.11dist-ghp-import \
 python311-ghp-import \
-python3dist(ghp-import)"
+python3dist-ghp-import"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-dateutil \
 update-alternatives"
 

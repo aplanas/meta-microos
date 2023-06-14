@@ -26,17 +26,16 @@ RPM_NAME = "python310-pyproj-3.5.0-1.1.aarch64.rpm"
 RPM_HASH = "422a3f5ecb9c73e3a7b0a842de85d6440437ae72ce227aa3acbe4053eabfc01c5b63b2eb15df91486f9340962e6bedf868da79308b2a0ebff6190077f1b663bf"
 
 RPROVIDES:${PN} += "python3-pyproj \
-python3.10dist(pyproj) \
+python3.10dist-pyproj \
 python310-pyproj \
-python310-pyproj(aarch-64) \
-python3dist(pyproj)"
+python3dist-pyproj"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libproj.so.25()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libproj.so.25 \
+python-abi \
 python310-certifi \
 update-alternatives"
 

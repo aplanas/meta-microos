@@ -16,17 +16,16 @@ PV = "0.33"
 RPM_NAME = "perl-XS-Parse-Keyword-0.33-1.3.aarch64.rpm"
 RPM_HASH = "512c444afd56c588492953d15cbd80e04fa25c4e04d8494930466677651e0dc1cf7f98d311f07dba8fe38518cad51da58bc1207d957048b352d8248191348f2d"
 
-RPROVIDES:${PN} += "perl(XS::Parse::Infix) \
-perl(XS::Parse::Infix::Builder) \
-perl(XS::Parse::Infix::Builder_data) \
-perl(XS::Parse::Keyword) \
-perl(XS::Parse::Keyword::Builder) \
-perl(XS::Parse::Keyword::Builder_data) \
-perl-XS-Parse-Keyword \
-perl-XS-Parse-Keyword(aarch-64)"
+RPROVIDES:${PN} += "perl-XS--Parse--Infix \
+perl-XS--Parse--Infix--Builder \
+perl-XS--Parse--Infix--Builder-data \
+perl-XS--Parse--Keyword \
+perl-XS--Parse--Keyword--Builder \
+perl-XS--Parse--Keyword--Builder-data \
+perl-XS-Parse-Keyword"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

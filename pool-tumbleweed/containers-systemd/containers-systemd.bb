@@ -13,7 +13,7 @@ RPM_NAME = "containers-systemd-0.0+git20230324.9cd3b7a-1.1.noarch.rpm"
 RPM_HASH = "ba825f0006e296d3c0c4f457c3b1c4290bcb28004d48c4e8bfbe3f4713e183f1c50404378c39b0054a5cb4d083f91399bb319e5ff05d070ee7fd0642f1ff2d69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(containers-systemd) \
+RPROVIDES:${PN} += "config-containers-systemd \
 containers-systemd"
 
 RDEPENDS:${PN} += "/bin/sh"

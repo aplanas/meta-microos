@@ -12,11 +12,11 @@ RPM_HASH = "ae0670d2f154b506e986398bf95ffc5620c26d8ddad636127311040ae87cecb5467a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vcrpy \
-python3.10dist(vcrpy) \
+python3.10dist-vcrpy \
 python310-vcrpy \
-python3dist(vcrpy)"
+python3dist-vcrpy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-six \
 python310-urllib3 \

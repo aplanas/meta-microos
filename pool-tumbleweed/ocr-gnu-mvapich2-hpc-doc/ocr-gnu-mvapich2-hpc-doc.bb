@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-mvapich2-hpc-doc"
 
-RDEPENDS:${PN} += "ocr_1_0_1-gnu-mvapich2-hpc-doc"
+RDEPENDS:${PN} += "ocr-1-0-1-gnu-mvapich2-hpc-doc"
 
 inherit rpm

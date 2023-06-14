@@ -14,14 +14,13 @@ PV = "0.8.2"
 RPM_NAME = "telepathy-logger-0.8.2-7.9.aarch64.rpm"
 RPM_HASH = "75d82f7fe0f6f3b842f5a302aceafe444811523d92808865868a8bbaadb390819207d20021c89160fee411f6d1b90c35fff20151ff05b18fdf32ca18c5f2ddf6"
 
-RPROVIDES:${PN} += "telepathy-logger \
-telepathy-logger(aarch-64)"
+RPROVIDES:${PN} += "telepathy-logger"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libtelepathy-glib.so.0()(64bit) \
-libtelepathy-logger.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libtelepathy-glib.so.0 \
+libtelepathy-logger.so.3"
 
 inherit rpm

@@ -24,69 +24,68 @@ PV = "1.2.25.5"
 RPM_NAME = "perl-Search-Xapian-1.2.25.5-1.9.aarch64.rpm"
 RPM_HASH = "1fd3b4ba0d7c4719c6dbdf3174cd762a3c710680d1bb89f02d96275d4d768792a4ef34fd95f84185685b3d9101183721f34bcc2b944728e50ef5529a83260397"
 
-RPROVIDES:${PN} += "perl(Search::Xapian) \
-perl(Search::Xapian::AssertionError) \
-perl(Search::Xapian::BM25Weight) \
-perl(Search::Xapian::BoolWeight) \
-perl(Search::Xapian::Database) \
-perl(Search::Xapian::DatabaseClosedError) \
-perl(Search::Xapian::DatabaseCorruptError) \
-perl(Search::Xapian::DatabaseCreateError) \
-perl(Search::Xapian::DatabaseError) \
-perl(Search::Xapian::DatabaseLockError) \
-perl(Search::Xapian::DatabaseModifiedError) \
-perl(Search::Xapian::DatabaseNotFoundError) \
-perl(Search::Xapian::DatabaseOpeningError) \
-perl(Search::Xapian::DatabaseVersionError) \
-perl(Search::Xapian::DocNotFoundError) \
-perl(Search::Xapian::Document) \
-perl(Search::Xapian::ESet) \
-perl(Search::Xapian::ESetIterator) \
-perl(Search::Xapian::Enquire) \
-perl(Search::Xapian::Error) \
-perl(Search::Xapian::FeatureUnavailableError) \
-perl(Search::Xapian::InternalError) \
-perl(Search::Xapian::InvalidArgumentError) \
-perl(Search::Xapian::InvalidOperationError) \
-perl(Search::Xapian::LogicError) \
-perl(Search::Xapian::MSet) \
-perl(Search::Xapian::MSet::Tied) \
-perl(Search::Xapian::MSetIterator) \
-perl(Search::Xapian::MatchSpy) \
-perl(Search::Xapian::MultiValueSorter) \
-perl(Search::Xapian::NetworkError) \
-perl(Search::Xapian::NetworkTimeoutError) \
-perl(Search::Xapian::PerlStopper) \
-perl(Search::Xapian::PositionIterator) \
-perl(Search::Xapian::PostingIterator) \
-perl(Search::Xapian::Query) \
-perl(Search::Xapian::QueryParser) \
-perl(Search::Xapian::QueryParserError) \
-perl(Search::Xapian::RSet) \
-perl(Search::Xapian::RangeError) \
-perl(Search::Xapian::RuntimeError) \
-perl(Search::Xapian::SerialisationError) \
-perl(Search::Xapian::SimpleStopper) \
-perl(Search::Xapian::Stem) \
-perl(Search::Xapian::Stopper) \
-perl(Search::Xapian::TermGenerator) \
-perl(Search::Xapian::TermIterator) \
-perl(Search::Xapian::TradWeight) \
-perl(Search::Xapian::UnimplementedError) \
-perl(Search::Xapian::ValueCountMatchSpy) \
-perl(Search::Xapian::ValueIterator) \
-perl(Search::Xapian::Weight) \
-perl(Search::Xapian::WildcardError) \
-perl(Search::Xapian::WritableDatabase) \
-perl(exception_data) \
+RPROVIDES:${PN} += "perl-Search--Xapian \
+perl-Search--Xapian--AssertionError \
+perl-Search--Xapian--BM25Weight \
+perl-Search--Xapian--BoolWeight \
+perl-Search--Xapian--Database \
+perl-Search--Xapian--DatabaseClosedError \
+perl-Search--Xapian--DatabaseCorruptError \
+perl-Search--Xapian--DatabaseCreateError \
+perl-Search--Xapian--DatabaseError \
+perl-Search--Xapian--DatabaseLockError \
+perl-Search--Xapian--DatabaseModifiedError \
+perl-Search--Xapian--DatabaseNotFoundError \
+perl-Search--Xapian--DatabaseOpeningError \
+perl-Search--Xapian--DatabaseVersionError \
+perl-Search--Xapian--DocNotFoundError \
+perl-Search--Xapian--Document \
+perl-Search--Xapian--ESet \
+perl-Search--Xapian--ESetIterator \
+perl-Search--Xapian--Enquire \
+perl-Search--Xapian--Error \
+perl-Search--Xapian--FeatureUnavailableError \
+perl-Search--Xapian--InternalError \
+perl-Search--Xapian--InvalidArgumentError \
+perl-Search--Xapian--InvalidOperationError \
+perl-Search--Xapian--LogicError \
+perl-Search--Xapian--MSet \
+perl-Search--Xapian--MSet--Tied \
+perl-Search--Xapian--MSetIterator \
+perl-Search--Xapian--MatchSpy \
+perl-Search--Xapian--MultiValueSorter \
+perl-Search--Xapian--NetworkError \
+perl-Search--Xapian--NetworkTimeoutError \
+perl-Search--Xapian--PerlStopper \
+perl-Search--Xapian--PositionIterator \
+perl-Search--Xapian--PostingIterator \
+perl-Search--Xapian--Query \
+perl-Search--Xapian--QueryParser \
+perl-Search--Xapian--QueryParserError \
+perl-Search--Xapian--RSet \
+perl-Search--Xapian--RangeError \
+perl-Search--Xapian--RuntimeError \
+perl-Search--Xapian--SerialisationError \
+perl-Search--Xapian--SimpleStopper \
+perl-Search--Xapian--Stem \
+perl-Search--Xapian--Stopper \
+perl-Search--Xapian--TermGenerator \
+perl-Search--Xapian--TermIterator \
+perl-Search--Xapian--TradWeight \
+perl-Search--Xapian--UnimplementedError \
+perl-Search--Xapian--ValueCountMatchSpy \
+perl-Search--Xapian--ValueIterator \
+perl-Search--Xapian--Weight \
+perl-Search--Xapian--WildcardError \
+perl-Search--Xapian--WritableDatabase \
 perl-Search-Xapian \
-perl-Search-Xapian(aarch-64)"
+perl-exception-data"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxapian.so.30()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxapian.so.30 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

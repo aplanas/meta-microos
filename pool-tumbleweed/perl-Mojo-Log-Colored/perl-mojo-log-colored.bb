@@ -15,11 +15,11 @@ RPM_NAME = "perl-Mojo-Log-Colored-0.04-1.10.noarch.rpm"
 RPM_HASH = "edcfb15d42b6c855a082859cfb184922c34f4052102544e42882be1ad6d8cf19d88c0bd032c1152fe2efa578dadbe3d829bee535b181067ce8e3dc93d548e608"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mojo::Log::Colored) \
+RPROVIDES:${PN} += "perl-Mojo--Log--Colored \
 perl-Mojo-Log-Colored"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Mojolicious) \
-perl(Term::ANSIColor)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Mojolicious \
+perl-Term--ANSIColor"
 
 inherit rpm

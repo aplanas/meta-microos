@@ -9,15 +9,14 @@ PV = "1.20.6"
 RPM_NAME = "libmm-glib0-1.20.6-1.1.aarch64.rpm"
 RPM_HASH = "8c11de9cd12e17703be951877e640db26e8a300dd12b49adca7e8629942246b889f1ca6680c7749e9a51bef9a14e43ace745d7de2469c1e6dff8c2c441096197"
 
-RPROVIDES:${PN} += "libmm-glib.so.0()(64bit) \
-libmm-glib0 \
-libmm-glib0(aarch-64)"
+RPROVIDES:${PN} += "libmm-glib.so.0 \
+libmm-glib0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

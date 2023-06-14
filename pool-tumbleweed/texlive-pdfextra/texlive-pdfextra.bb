@@ -14,8 +14,8 @@ RPM_NAME = "texlive-pdfextra-2023.201.0.0.3svn65184-51.1.noarch.rpm"
 RPM_HASH = "553073034501ab43c4e90eb4be4bb8ac7693920b9cc79d6f51c9a9a1865c8e6100b745068b29d2304d5b1455d9c62b69afa04718f2adf72338383c826d3e1a60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pdfextra.sty) \
-tex(pdfextra.tex) \
+RPROVIDES:${PN} += "tex-pdfextra.sty \
+tex-pdfextra.tex \
 texlive-pdfextra"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -11,13 +11,13 @@ RPM_HASH = "4b103bfaf898e7ae25b562c419eaaee8e5c2122e6feb15306c45bbfd64eb68aaca66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-webassets \
-python3.10dist(webassets) \
+python3.10dist-webassets \
 python310-webassets \
-python3dist(webassets)"
+python3dist-webassets"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

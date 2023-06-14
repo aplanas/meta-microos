@@ -11,8 +11,7 @@ RPM_NAME = "libsmdev-devel-20221028-2.8.aarch64.rpm"
 RPM_HASH = "e41c3abd1203eff41e8d77e1c043772cf005d2a3a43ae39ff0a3992ea60750e084729c6812b4ad3d17d1e49c45da61a8447fdd44e12b43f6f9a73e629bbf5375"
 
 RPROVIDES:${PN} += "libsmdev-devel \
-libsmdev-devel(aarch-64) \
-pkgconfig(libsmdev)"
+pkgconfig-libsmdev"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsmdev1"

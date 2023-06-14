@@ -15,7 +15,7 @@ RPM_NAME = "texlive-fnumprint-2023.201.1.1asvn29173-52.1.noarch.rpm"
 RPM_HASH = "b1cc3d2e15f757922d066e82d9573bca97e67542ed9ac40c9f69375d4812d64ac06842fd41bef977e1b133646ee1f50112acbec5ffbdbb66d83ce2405060c794"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fnumprint.sty) \
+RPROVIDES:${PN} += "tex-fnumprint.sty \
 texlive-fnumprint"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(numprint.sty) \
-tex(xifthen.sty) \
-tex(zahl2string.sty) \
+tex-numprint.sty \
+tex-xifthen.sty \
+tex-zahl2string.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

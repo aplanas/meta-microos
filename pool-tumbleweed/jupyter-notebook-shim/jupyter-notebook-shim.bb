@@ -11,8 +11,8 @@ RPM_HASH = "36ffb76d61c72a5f5573bc8df38d5f55e3f564d9e1cd70fac0e068026e470769ac46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-shim \
-juypter-notebook_shim"
+juypter-notebook-shim"
 
-RDEPENDS:${PN} += "python3dist(notebook-shim)"
+RDEPENDS:${PN} += "python3dist-notebook-shim"
 
 inherit rpm

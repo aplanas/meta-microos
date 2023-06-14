@@ -9,7 +9,7 @@ RPM_NAME = "texlive-collection-latex-2023.208.svn63515-58.1.noarch.rpm"
 RPM_HASH = "439697e57d7e7f29f4a41bcc9d454808011e0a88d6e168b704320d6a0976e7c5abc695bb96c50731f31a5a8fcc3aece0761b3012c8d866f6885efc55192b8ccc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(latex) \
+RPROVIDES:${PN} += "tex-latex \
 texlive-collection-latex"
 
 RDEPENDS:${PN} += "texlive-ae \

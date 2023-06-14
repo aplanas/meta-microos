@@ -20,12 +20,11 @@ PV = "0.77.1"
 RPM_NAME = "uncrustify-0.77.1-1.1.aarch64.rpm"
 RPM_HASH = "26e6bf883493fddc9bce26cf44965b709838cfd687fb51c48abf4e2a93a364401b1e02eb11dfb2206048792ee4109c5afb5042160e9372802d1ad8095380f0be"
 
-RPROVIDES:${PN} += "uncrustify \
-uncrustify(aarch-64)"
+RPROVIDES:${PN} += "uncrustify"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

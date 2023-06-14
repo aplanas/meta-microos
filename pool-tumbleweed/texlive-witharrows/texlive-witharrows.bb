@@ -14,7 +14,7 @@ RPM_NAME = "texlive-witharrows-2023.201.2.8asvn65841-53.1.noarch.rpm"
 RPM_HASH = "9e2ec38c142963fcf84b305105d8f35c847eeba2a1715874eb11d2cbcbe96735550aec7c36735427b2efa830742f7420032d854031688f329a7b5f8ed5c2dd20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(witharrows.sty) \
+RPROVIDES:${PN} += "tex-witharrows.sty \
 texlive-witharrows"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,11 +23,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(footnote.sty) \
-tex(footnotehyper.sty) \
-tex(l3keys2e.sty) \
-tex(tikz.sty) \
-tex(varwidth.sty) \
+tex-footnote.sty \
+tex-footnotehyper.sty \
+tex-l3keys2e.sty \
+tex-tikz.sty \
+tex-varwidth.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

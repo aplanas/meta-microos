@@ -10,13 +10,13 @@ RPM_HASH = "f777f4e5240a34852e7a57bed144baea30efcb96d8b5098fb1b02a007fcfb78afd30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pysrt \
-python3.10dist(pysrt) \
+python3.10dist-pysrt \
 python310-pysrt \
-python3dist(pysrt)"
+python3dist-pysrt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-chardet \
 update-alternatives"
 

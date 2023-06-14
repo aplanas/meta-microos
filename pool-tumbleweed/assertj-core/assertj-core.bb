@@ -10,12 +10,12 @@ RPM_HASH = "848632958090e7665fb7eb87a40c33ea021e607eb13aa2f44183bfc29c118a076ca3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "assertj-core \
-mvn(org.assertj:assertj-core) \
-mvn(org.assertj:assertj-core:pom:) \
-osgi(org.assertj.core)"
+mvn-org.assertj-assertj-core \
+mvn-org.assertj-assertj-core-pom- \
+osgi-org.assertj.core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.mockito:mockito-core)"
+mvn-org.mockito-mockito-core"
 
 inherit rpm

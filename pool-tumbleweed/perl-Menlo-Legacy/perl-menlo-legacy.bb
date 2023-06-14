@@ -15,12 +15,12 @@ RPM_NAME = "perl-Menlo-Legacy-1.9022-1.10.noarch.rpm"
 RPM_HASH = "970e96be59bb9f738fdc36ef78dbb69784559ab7786f3323096b9d1711dc16339fedc432de45f5c017f0e72df953977d34b627d2345a97c252b9c6ea5faca124"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Menlo::CLI::Compat) \
-perl(Menlo::Legacy) \
+RPROVIDES:${PN} += "perl-Menlo--CLI--Compat \
+perl-Menlo--Legacy \
 perl-Menlo-Legacy"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Menlo) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Menlo \
+perl-version"
 
 inherit rpm

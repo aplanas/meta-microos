@@ -16,14 +16,13 @@ PV = "1.0.1"
 RPM_NAME = "python311-pybcj-1.0.1-1.5.aarch64.rpm"
 RPM_HASH = "1cb4f09d6ad3c99fed06c0e8728c021c8960973fe0394be37c3970200ac619602ccbf4270d9c140c0742e4a6b1ace427fa5da5023ee1f94c45053391edcbc68d"
 
-RPROVIDES:${PN} += "python3.11dist(pybcj) \
+RPROVIDES:${PN} += "python3.11dist-pybcj \
 python311-pybcj \
-python311-pybcj(aarch-64) \
-python3dist(pybcj)"
+python3dist-pybcj"
 
-RDEPENDS:${PN} += "(python311-importlib_metadata if python311-base < 3.8) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "-python311-importlib-metadata if python311-base < 3.8 \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

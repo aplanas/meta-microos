@@ -7,14 +7,13 @@ PV = "0.40.0"
 RPM_NAME = "xf86-input-wacom-devel-0.40.0-2.7.aarch64.rpm"
 RPM_HASH = "9a052c458c8db115c7e1598494c03a7c88430d1ba6ad682d4c4d2b8a83ed4cefbab81b3e7710fe4454f336beed2acc1f847577d7835c2a4d5c1f88713dc771e1"
 
-RPROVIDES:${PN} += "pkgconfig(xorg-wacom) \
+RPROVIDES:${PN} += "pkgconfig-xorg-wacom \
 x11-input-wacom-devel \
-xf86-input-wacom-devel \
-xf86-input-wacom-devel(aarch-64)"
+xf86-input-wacom-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 xf86-input-wacom"
 
 inherit rpm

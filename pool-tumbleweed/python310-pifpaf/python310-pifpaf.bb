@@ -12,13 +12,13 @@ RPM_HASH = "b8ee4ad950f27d801e0265512e487e0a4aa8eadfd837e27cf5f0f6fa66b3ae8193fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pifpaf \
-python3.10dist(pifpaf) \
+python3.10dist-pifpaf \
 python310-pifpaf \
-python3dist(pifpaf)"
+python3dist-pifpaf"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-click \
 python310-daiquiri \

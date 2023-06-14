@@ -11,7 +11,7 @@ RPM_NAME = "texlive-xechangebar-2023.201.1.0svn54080-52.1.noarch.rpm"
 RPM_HASH = "f6fa3017dcd1bb29b316c79f46214c42eb9ff51b8e48c7b9eed31efdccf8a675c7ebaef98c10ceaac9ac78e150662944d024b1a2f88659698310dede935021f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xechangebar.sty) \
+RPROVIDES:${PN} += "tex-xechangebar.sty \
 texlive-xechangebar"
 
 RDEPENDS:${PN} += "/bin/sh \

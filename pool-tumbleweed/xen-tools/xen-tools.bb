@@ -20,37 +20,35 @@ PV = "4.17.1_04"
 RPM_NAME = "xen-tools-4.17.1_04-1.1.aarch64.rpm"
 RPM_HASH = "808dc63ad3f2c401c86015b29d61859277be6d9ef6b56e804e9d7ffbcae4098957c6bc1092766074f2f5fce4d2047e64485620cc87dfd6f5ce8b1c59e4583501"
 
-RPROVIDES:${PN} += "config(xen-tools) \
+RPROVIDES:${PN} += "config-xen-tools \
 xen-tools \
-xen-tools(aarch-64) \
 xen-tools-ioemu"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libtinfo.so.6()(64bit) \
-libxencall.so.1()(64bit) \
-libxenctrl.so.4.17()(64bit) \
-libxenevtchn.so.1()(64bit) \
-libxenforeignmemory.so.1()(64bit) \
-libxenfsimage.so.4.17()(64bit) \
-libxengnttab.so.1()(64bit) \
-libxenguest.so.4.17()(64bit) \
-libxenhypfs.so.1()(64bit) \
-libxenlight.so.4.17()(64bit) \
-libxenstat.so.4.17()(64bit) \
-libxenstore.so.4()(64bit) \
-libxentoollog.so.1()(64bit) \
-libxenvchan.so.4.17()(64bit) \
-libxlutil.so.4.17()(64bit) \
-libyajl.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncurses.so.6 \
+libsystemd.so.0 \
+libtinfo.so.6 \
+libxencall.so.1 \
+libxenctrl.so.4.17 \
+libxenevtchn.so.1 \
+libxenforeignmemory.so.1 \
+libxenfsimage.so.4.17 \
+libxengnttab.so.1 \
+libxenguest.so.4.17 \
+libxenhypfs.so.1 \
+libxenlight.so.4.17 \
+libxenstat.so.4.17 \
+libxenstore.so.4 \
+libxentoollog.so.1 \
+libxenvchan.so.4.17 \
+libxlutil.so.4.17 \
+libyajl.so.2 \
+python-abi \
 python3 \
 python3-curses \
 qemu-arm \

@@ -14,13 +14,13 @@ RPM_HASH = "542ac671e55ea0ae14c3875eb53ee7be73544320bc45f67e11bf860e4431da6a441a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bugzilla \
-python3.10dist(python-bugzilla) \
+python3.10dist-python-bugzilla \
 python310-bugzilla \
-python3dist(python-bugzilla)"
+python3dist-python-bugzilla"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-requests \
 update-alternatives"
 

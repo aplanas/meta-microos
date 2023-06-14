@@ -22,51 +22,50 @@ RPM_HASH = "b1dde7d2cf98d33921de43c797792750216202cb8edda1dc05b1a8c1b5e5729f3b44
 
 RPROVIDES:${PN} += "compiz-plugin-photowheel \
 compiz-plugins-experimental \
-compiz-plugins-experimental(aarch-64) \
 compiz-plugins-git \
 compiz-plugins-unsupported \
-libanaglyph.so()(64bit) \
-libanimationsim.so()(64bit) \
-libatlantis.so()(64bit) \
-libcubemodel.so()(64bit) \
-libdialog.so()(64bit) \
-libearth.so()(64bit) \
-libelements.so()(64bit) \
-libfakeargb.so()(64bit) \
-libfireflies.so()(64bit) \
-libfreewins.so()(64bit) \
-libghost.so()(64bit) \
-libmswitch.so()(64bit) \
-libphoto.so()(64bit) \
-libputplus.so()(64bit) \
-libscreensaver.so()(64bit) \
-libsmartput.so()(64bit) \
-libsnow.so()(64bit) \
-libsnowglobe.so()(64bit) \
-libstackswitch.so()(64bit) \
-libstar.so()(64bit) \
-libstatic.so()(64bit) \
-libswap.so()(64bit) \
-libthrow.so()(64bit) \
-libtile.so()(64bit) \
-libtoggledeco.so()(64bit) \
-libwizard.so()(64bit)"
+libanaglyph.so \
+libanimationsim.so \
+libatlantis.so \
+libcubemodel.so \
+libdialog.so \
+libearth.so \
+libelements.so \
+libfakeargb.so \
+libfireflies.so \
+libfreewins.so \
+libghost.so \
+libmswitch.so \
+libphoto.so \
+libputplus.so \
+libscreensaver.so \
+libsmartput.so \
+libsnow.so \
+libsnowglobe.so \
+libstackswitch.so \
+libstar.so \
+libstatic.so \
+libswap.so \
+libthrow.so \
+libtile.so \
+libtoggledeco.so \
+libwizard.so"
 
 RDEPENDS:${PN} += "compiz \
 compiz-plugins-extra \
 compiz-plugins-main \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libGLU.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXss.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLEW.so.2.2 \
+libGLU.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXss.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

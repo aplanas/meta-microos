@@ -14,11 +14,10 @@ PV = "3.0.1"
 RPM_NAME = "onednn-devel-3.0.1-1.2.aarch64.rpm"
 RPM_HASH = "3d958a882cbbda4670c88c0f2011951db3634a966a760d7fd1aeea768fb63047e3105f2dc6b519f438076364e606582545f8e4c7febf33602dbcee069219b993"
 
-RPROVIDES:${PN} += "cmake(dnnl) \
+RPROVIDES:${PN} += "cmake-dnnl \
 mkl-dnn-devel \
 oneDNN-devel \
-onednn-devel \
-onednn-devel(aarch-64)"
+onednn-devel"
 
 RDEPENDS:${PN} += "libdnnl3"
 

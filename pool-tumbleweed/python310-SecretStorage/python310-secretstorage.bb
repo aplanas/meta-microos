@@ -25,11 +25,11 @@ RPM_HASH = "b860dd603ea5da9b7cbfd64ae231be6d8ecd6a2660e2a2e709d50990371696adb569
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-SecretStorage \
-python3.10dist(secretstorage) \
+python3.10dist-secretstorage \
 python310-SecretStorage \
-python3dist(secretstorage)"
+python3dist-secretstorage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-jeepney"
 

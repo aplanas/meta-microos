@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "gnu-unifont \
 gnu-unifont-legacy-bitmap-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -15,14 +15,14 @@ RPM_HASH = "ee7c090684173d8bab7327609a9ab612d06a31d26028b479b087dbfa927c2fcb77cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openstacksdk \
-python3.10dist(openstacksdk) \
-python3dist(openstacksdk)"
+python3.10dist-openstacksdk \
+python3dist-openstacksdk"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
 mkisofs \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-appdirs \
 python3-cryptography \

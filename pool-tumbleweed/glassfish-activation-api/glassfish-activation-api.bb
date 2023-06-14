@@ -16,11 +16,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-activation-api \
 gnu-jaf \
-mvn(javax.activation:activation) \
-mvn(javax.activation:activation:pom:) \
-mvn(javax.activation:javax.activation-api) \
-mvn(javax.activation:javax.activation-api:pom:) \
-osgi(javax.activation-api)"
+mvn-javax.activation-activation \
+mvn-javax.activation-activation-pom- \
+mvn-javax.activation-javax.activation-api \
+mvn-javax.activation-javax.activation-api-pom- \
+osgi-javax.activation-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \

@@ -7,14 +7,13 @@ PV = "20230512.1"
 RPM_NAME = "skelcd-control-openSUSE-20230512.1-1.1.aarch64.rpm"
 RPM_HASH = "32215bf513a5276c698c7f0f1c51f17425c7150d71d728679a3c25007feb12ab191ce134fe4d6691f879416157c9c58dd58327461bba60ec1ebc4d6346c6b16d"
 
-RPROVIDES:${PN} += "product_control \
-skelcd-control-openSUSE \
-skelcd-control-openSUSE(aarch-64)"
+RPROVIDES:${PN} += "product-control \
+skelcd-control-openSUSE"
 
 RDEPENDS:${PN} += "autoyast2 \
 kdump \
 release-notes \
-rubygem(ruby:3.2.0:byebug) \
+rubygem-ruby-3.2.0-byebug \
 yast2-add-on \
 yast2-configuration-management \
 yast2-fcoe-client \

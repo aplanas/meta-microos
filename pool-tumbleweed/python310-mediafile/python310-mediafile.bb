@@ -9,11 +9,11 @@ RPM_HASH = "23ee7562075ef78410e65b85bf1587e8fb06ca471310d682e95876a37f3afd63dfe2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mediafile \
-python3.10dist(mediafile) \
+python3.10dist-mediafile \
 python310-mediafile \
-python3dist(mediafile)"
+python3dist-mediafile"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-mutagen"
 
 inherit rpm

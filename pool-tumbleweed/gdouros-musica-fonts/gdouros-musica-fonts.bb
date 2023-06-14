@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "gdouros-musica-fonts \
 musica-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -10,9 +10,8 @@ RPM_NAME = "cephfs-shell-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "f89d176ca7b3f7ab3fc8b308ec3181b28ddce0a18668d91b513318e32ce55d4f873e8ee8f5830f6466fc6a4cb2cc12cedbed6bbf563050091e544bd6692254b3"
 
 RPROVIDES:${PN} += "cephfs-shell \
-cephfs-shell(aarch-64) \
-python3.10dist(cephfs-shell) \
-python3dist(cephfs-shell)"
+python3.10dist-cephfs-shell \
+python3dist-cephfs-shell"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-cephfs \

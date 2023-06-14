@@ -8,14 +8,14 @@ RPM_NAME = "python311-pecan-1.4.2-3.1.noarch.rpm"
 RPM_HASH = "4035389ca6993daefa9e10a7ff6bc972719a761b1ddfef710497fb5c71bb2de4dfb7220d36b16a13b6fa61a582664bac44f993f4028e8bd7446fba84b8342929"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pecan) \
+RPROVIDES:${PN} += "python3.11dist-pecan \
 python311-pecan \
-python3dist(pecan)"
+python3dist-pecan"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \
-python(abi) \
+python-abi \
 python311-Mako \
 python311-WebOb \
 python311-WebTest \

@@ -12,18 +12,18 @@ RPM_HASH = "0bdaea49a787a33143e06b0169a2c96279a93175a091cd0f78f513f4fb7ec6b89b97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jawn-json4s \
-mvn(org.spire-math:jawn-json4s_2.10) \
-mvn(org.spire-math:jawn-json4s_2.10:pom:) \
-mvn(org.spire-math:json4s-support_2.10) \
-mvn(org.spire-math:json4s-support_2.10:pom:) \
-mvn(org.typelevel:jawn-json4s_2.10) \
-mvn(org.typelevel:jawn-json4s_2.10:pom:)"
+mvn-org.spire-math-jawn-json4s-2.10 \
+mvn-org.spire-math-jawn-json4s-2.10-pom- \
+mvn-org.spire-math-json4s-support-2.10 \
+mvn-org.spire-math-json4s-support-2.10-pom- \
+mvn-org.typelevel-jawn-json4s-2.10 \
+mvn-org.typelevel-jawn-json4s-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.json4s:json4s-ast_2.10) \
-mvn(org.scala-lang:scala-library) \
-mvn(org.typelevel:jawn-parser_2.10) \
-mvn(org.typelevel:jawn-util_2.10)"
+mvn-org.json4s-json4s-ast-2.10 \
+mvn-org.scala-lang-scala-library \
+mvn-org.typelevel-jawn-parser-2.10 \
+mvn-org.typelevel-jawn-util-2.10"
 
 inherit rpm

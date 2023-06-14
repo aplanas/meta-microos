@@ -11,11 +11,10 @@ RPM_NAME = "libavc1394-devel-0.5.4-19.14.aarch64.rpm"
 RPM_HASH = "15b5211bc4aede8b777a3fc4efe18cae7238aff72489c8a6053ed84716f1a76292519d0d81d9da113fec88488054e9da045e6ed2404fedaf07fca0cf5c6b67c2"
 
 RPROVIDES:${PN} += "libavc1394-devel \
-libavc1394-devel(aarch-64) \
-pkgconfig(libavc1394)"
+pkgconfig-libavc1394"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavc1394-0 \
-pkgconfig(libraw1394)"
+pkgconfig-libraw1394"
 
 inherit rpm

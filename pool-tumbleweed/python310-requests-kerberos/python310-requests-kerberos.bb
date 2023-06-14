@@ -11,11 +11,11 @@ RPM_HASH = "aaea42392efeaa140f0dcab58a8346fabd06b73582e99e4c263c552cbe1cc0adb36a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-kerberos \
-python3.10dist(requests-kerberos) \
+python3.10dist-requests-kerberos \
 python310-requests-kerberos \
-python3dist(requests-kerberos)"
+python3dist-requests-kerberos"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyspnego \
 python310-requests"
 

@@ -12,13 +12,13 @@ RPM_NAME = "python311-scitokens-1.7.4-1.1.noarch.rpm"
 RPM_HASH = "bd0971f2cc4da177eba13f6c36cfb874e6aa120c0546ef62fd1f43b760fc5d6e99b40f819a6a656d2de4197da174a8dd1438ef0cd9d13ad75d70a6363aa416f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(scitokens) \
+RPROVIDES:${PN} += "python3.11dist-scitokens \
 python311-scitokens \
-python3dist(scitokens)"
+python3dist-scitokens"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-PyJWT \
 update-alternatives"
 

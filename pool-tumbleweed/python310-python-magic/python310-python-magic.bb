@@ -11,11 +11,11 @@ RPM_HASH = "0f6c533fd8a7a517422385a6340399a54ea9e7696aa9774d7bdd42d73ca693bcfb58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-magic \
-python3.10dist(python-magic) \
+python3.10dist-python-magic \
 python310-python-magic \
-python3dist(python-magic)"
+python3dist-python-magic"
 
 RDEPENDS:${PN} += "file \
-python(abi)"
+python-abi"
 
 inherit rpm

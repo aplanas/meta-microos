@@ -15,13 +15,12 @@ PV = "1.15"
 RPM_NAME = "libxcb-screensaver0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "8c6391cddaf5b34af7197e19ffc73e58259013c4a03e215e121f42205ce288911bdd0ff8bfc3fe1e220bcfbfea248f8af9a3ef5fdd90f1fb0a3c53b2ee13a0b8"
 
-RPROVIDES:${PN} += "libxcb-screensaver.so.0()(64bit) \
-libxcb-screensaver0 \
-libxcb-screensaver0(aarch-64)"
+RPROVIDES:${PN} += "libxcb-screensaver.so.0 \
+libxcb-screensaver0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

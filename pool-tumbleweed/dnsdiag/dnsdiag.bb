@@ -26,11 +26,11 @@ RPM_HASH = "e3c9c9a26a44bf49d1b968e89c3b716129064f10e3f5e378e693f5f21c5d2353fcae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnsdiag \
-python3.10dist(dnsdiag) \
-python3dist(dnsdiag)"
+python3.10dist-dnsdiag \
+python3dist-dnsdiag"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cymruwhois \
 python3-dnspython \
 python3-setuptools"

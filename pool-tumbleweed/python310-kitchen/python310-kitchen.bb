@@ -9,10 +9,10 @@ RPM_HASH = "c3bd7340e211ebc5cd3ed0d8fe23874acf618d6eebf6f6be452cf8f6efa5a55a14d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kitchen \
-python3.10dist(kitchen) \
+python3.10dist-kitchen \
 python310-kitchen \
-python3dist(kitchen)"
+python3dist-kitchen"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

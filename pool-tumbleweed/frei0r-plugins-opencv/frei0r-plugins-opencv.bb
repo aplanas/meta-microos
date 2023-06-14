@@ -9,18 +9,17 @@ PV = "1.8.0"
 RPM_NAME = "frei0r-plugins-opencv-1.8.0-2.4.aarch64.rpm"
 RPM_HASH = "a46f3d138474290fbc64c1f34d911c5aedb7fb4b2c8b71e51ff67d2805fbccfab9b819adc7d3442569a25e10cc15cb2bee2829095d40f3486234507eb86ecc9a"
 
-RPROVIDES:${PN} += "frei0r-plugins-opencv \
-frei0r-plugins-opencv(aarch-64)"
+RPROVIDES:${PN} += "frei0r-plugins-opencv"
 
 RDEPENDS:${PN} += "frei0r-plugins \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopencv_core.so.407()(64bit) \
-libopencv_imgproc.so.407()(64bit) \
-libopencv_objdetect.so.407()(64bit) \
-libopencv_video.so.407()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopencv-core.so.407 \
+libopencv-imgproc.so.407 \
+libopencv-objdetect.so.407 \
+libopencv-video.so.407 \
+libstdc++.so.6"
 
 inherit rpm

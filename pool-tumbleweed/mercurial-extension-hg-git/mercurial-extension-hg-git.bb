@@ -12,11 +12,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mercurial-extension-hg-git \
 python3-hg-git \
-python3.10dist(hg-git) \
-python3dist(hg-git)"
+python3.10dist-hg-git \
+python3dist-hg-git"
 
 RDEPENDS:${PN} += "mercurial \
-python(abi) \
+python-abi \
 python3-dulwich"
 
 inherit rpm

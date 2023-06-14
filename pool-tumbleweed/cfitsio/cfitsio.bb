@@ -14,12 +14,11 @@ PV = "4.2.0"
 RPM_NAME = "cfitsio-4.2.0-2.3.aarch64.rpm"
 RPM_HASH = "3186f283391325e0deae9c4a5ea4d844a934c965c06003942d3d1622a7bb1c3f1f6c229dac549f949ce41b339ce2af5e64da49c7f1b1b380862c52811d080e3e"
 
-RPROVIDES:${PN} += "cfitsio \
-cfitsio(aarch-64)"
+RPROVIDES:${PN} += "cfitsio"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcfitsio.so.10 \
+libm.so.6"
 
 inherit rpm

@@ -14,15 +14,14 @@ RPM_NAME = "libmysqlcppconn8-2-8.0.32-1.3.aarch64.rpm"
 RPM_HASH = "b66a459bcb5f18a0fa255fb6098c8d509ddbb7394e86390e13cf95bbfde1747fb38de5e08aa7e69b5ad1f0c2b0f484ba395439a7ad4baf0f86d518fa72078a70"
 
 RPROVIDES:${PN} += "libmysqlcppconn8-2 \
-libmysqlcppconn8-2(aarch-64) \
-libmysqlcppconn8.so.2()(64bit)"
+libmysqlcppconn8.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libresolv.so.2()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libresolv.so.2 \
+libssl.so.3 \
+libstdc++.so.6"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "06256ea2b3083c68f8400c6b01b7f73971a73358b30dd1d6aa6d25fbf2fda0177d53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-conu \
-python3.10dist(conu) \
+python3.10dist-conu \
 python310-conu \
-python3dist(conu)"
+python3dist-conu"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-docker \
 python310-flexmock \
 python310-kubernetes \

@@ -10,7 +10,7 @@ RPM_NAME = "texlive-hpsdiss-2023.201.1.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "2705fbcd3ff5ce07ff3f2f9164f57a84548a9ce840ef266fdebae45466bd0e71a11e092249c42fe0811ca1a537c2cfa3236018c7540a3d6859cb3d53b11180f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hpsdiss.cls) \
+RPROVIDES:${PN} += "tex-hpsdiss.cls \
 texlive-hpsdiss"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,14 +19,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(book.cls) \
-tex(calc.sty) \
-tex(colordvi.sty) \
-tex(geometry.sty) \
-tex(graphicx.sty) \
-tex(mparhack.sty) \
-tex(ragged2e.sty) \
-tex(rotating.sty) \
+tex-book.cls \
+tex-calc.sty \
+tex-colordvi.sty \
+tex-geometry.sty \
+tex-graphicx.sty \
+tex-mparhack.sty \
+tex-ragged2e.sty \
+tex-rotating.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

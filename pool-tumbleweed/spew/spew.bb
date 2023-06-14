@@ -14,17 +14,15 @@ PV = "1.0.8"
 RPM_NAME = "spew-1.0.8-5.10.aarch64.rpm"
 RPM_HASH = "e9a7949d07461c7584a964858edbc62cd3aa24dfcfa126b04c56bd68d905f083e815012d8d77b6bbf305c0d9a9c7ab46cea780b9489cd0e29412d7f687b1cb56"
 
-RPROVIDES:${PN} += "config(spew) \
-spew \
-spew(aarch-64)"
+RPROVIDES:${PN} += "config-spew \
+spew"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libncurses.so.6()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libncurses.so.6 \
+libpopt.so.0 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

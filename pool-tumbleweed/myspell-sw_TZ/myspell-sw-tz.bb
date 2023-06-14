@@ -8,11 +8,11 @@ RPM_NAME = "myspell-sw_TZ-20221012-1.2.noarch.rpm"
 RPM_HASH = "870b3801bb40ae8de4ebec7668dbf3dd8fe0ecef9469953363750ddfdbe31bcfb6156e96258eb324b75a6be8d2810fe7ad21a0221582bd83db8dd6f4fb72c571"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:sw_TZ) \
-locale(seamonkey-spellchecker:sw_TZ) \
+RPROVIDES:${PN} += "locale-libreoffice-sw-TZ \
+locale-seamonkey-spellchecker-sw-TZ \
 myspell-dictionary \
 myspell-kiswahili \
-myspell-sw_TZ"
+myspell-sw-TZ"
 
 RDEPENDS:${PN} += "myspell-dictionaries"
 

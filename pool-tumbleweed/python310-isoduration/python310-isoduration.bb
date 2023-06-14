@@ -22,11 +22,11 @@ RPM_HASH = "2301f476e93fb3b48ca0c8123b4de8a9273c56ca29769135aa0d90b63d72d801ab32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-isoduration \
-python3.10dist(isoduration) \
+python3.10dist-isoduration \
 python310-isoduration \
-python3dist(isoduration)"
+python3dist-isoduration"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-arrow"
 
 inherit rpm

@@ -12,26 +12,21 @@ PV = "8.0"
 RPM_NAME = "4pane-8.0-1.4.aarch64.rpm"
 RPM_HASH = "06b5c1180f11e007e09bfd5418f5b07c4da9176c442ff382e389c079c0c45dadd78b6be52573f8e62380a4242bf0da6d3e8df3a62b76426e7684882a6dadea17"
 
-RPROVIDES:${PN} += "4pane \
-4pane(aarch-64) \
-application() \
-application(4Pane.desktop) \
-metainfo() \
-metainfo(4Pane.appdata.xml)"
+RPROVIDES:${PN} += "4pane"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_xrc-suse.so.9.0.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0 \
+libwx-gtk2u-html-suse.so.9.0.0 \
+libwx-gtk2u-xrc-suse.so.9.0.0"
 
 inherit rpm

@@ -9,7 +9,7 @@ RPM_HASH = "47ebd13879cf0538756a6369e6a3c17709a0671bb72c7de29b72f6e487debcbf7f33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kohsuke-pom \
-mvn(org.kohsuke:pom:pom:)"
+mvn-org.kohsuke-pom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

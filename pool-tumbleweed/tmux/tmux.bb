@@ -16,17 +16,15 @@ PV = "3.3a"
 RPM_NAME = "tmux-3.3a-4.1.aarch64.rpm"
 RPM_HASH = "b8bd74e1ec11cf3480aaa9a58fbd65e84a8e34eedec93a6328cd9764ab8e1d5b75aa1bb8a667692b820585a7f5f34775e8c11f47fcbf1b65ad94e86d19b3be49"
 
-RPROVIDES:${PN} += "tmux \
-tmux(aarch-64)"
+RPROVIDES:${PN} += "tmux"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libm.so.6()(64bit) \
-libresolv.so.2()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libm.so.6 \
+libresolv.so.2 \
+libsystemd.so.0 \
+libtinfo.so.6"
 
 inherit rpm

@@ -12,8 +12,7 @@ RPM_NAME = "sblim-tools-libra-devel-1.0-20.10.aarch64.rpm"
 RPM_HASH = "e0ff2c1c2dc5d41a9282725525ec38a18a32d6efad629b7d23a9ef56bb12d78fc68c9f43ff6181935f61d054b58b6e4fa672f7681d7648e3e997049e466841d1"
 
 RPROVIDES:${PN} += "libRaTools-devel \
-sblim-tools-libra-devel \
-sblim-tools-libra-devel(aarch-64)"
+sblim-tools-libra-devel"
 
 RDEPENDS:${PN} += "libRaTools0"
 

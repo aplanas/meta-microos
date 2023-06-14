@@ -9,10 +9,10 @@ RPM_HASH = "aca686276b70070d1592ab0c139506b070fd0341f2a008b5fd9e22c3313d707ba607
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mock-open \
-python3.10dist(mock-open) \
+python3.10dist-mock-open \
 python310-mock-open \
-python3dist(mock-open)"
+python3dist-mock-open"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

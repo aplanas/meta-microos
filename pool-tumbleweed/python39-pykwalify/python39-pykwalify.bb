@@ -12,13 +12,13 @@ RPM_NAME = "python39-pykwalify-1.8.0-1.10.noarch.rpm"
 RPM_HASH = "ca76eb2fdd24a1e36154ac5b668372a15179ef3bb9ed775870f09e76b2d9f0f3749e5ad8d8219d837f7629c52147c9a349d861d75f94d763a16e4bc936a5bd26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pykwalify) \
+RPROVIDES:${PN} += "python3.9dist-pykwalify \
 python39-pykwalify \
-python3dist(pykwalify)"
+python3dist-pykwalify"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-PyYAML \
 python39-docopt \
 python39-python-dateutil \

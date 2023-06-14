@@ -14,10 +14,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoyast2-utils \
 inst-source-utils \
-perl(ABStructured) \
-perl(ABStructured::saxparser) \
-perl(ABXML) \
-perl(RPMQ)"
+perl-ABStructured \
+perl-ABStructured--saxparser \
+perl-ABXML \
+perl-RPMQ"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

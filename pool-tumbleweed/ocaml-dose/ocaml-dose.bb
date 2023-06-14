@@ -16,8 +16,7 @@ PV = "7.0.0"
 RPM_NAME = "ocaml-dose-7.0.0-1.12.aarch64.rpm"
 RPM_HASH = "7424c20b3f5f8b565a842a6a0606abafbd1e5cef3a83881bdff8d0bfbfb45d627c1b86f764252f97050e39a71fc2bec22eb6fab9fc31176b4a6722b56c2f880c"
 
-RPROVIDES:${PN} += "ocaml-dose \
-ocaml-dose(aarch-64)"
+RPROVIDES:${PN} += "ocaml-dose"
 
 RDEPENDS:${PN} += ""
 

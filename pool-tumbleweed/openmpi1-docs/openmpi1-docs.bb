@@ -18,8 +18,7 @@ PV = "1.10.7"
 RPM_NAME = "openmpi1-docs-1.10.7-7.5.aarch64.rpm"
 RPM_HASH = "64e43a06698fbf3ad38ff89a67cb3b7b3b8b85de9f814e3b71062570b8b2d03ddd5f18fd93b52dde636676bb1295372234a52fb71d64aa80489a361ca9d5b03a"
 
-RPROVIDES:${PN} += "openmpi1-docs \
-openmpi1-docs(aarch-64)"
+RPROVIDES:${PN} += "openmpi1-docs"
 
 RDEPENDS:${PN} += "openmpi1"
 

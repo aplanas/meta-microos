@@ -20,13 +20,12 @@ PV = "2.204"
 RPM_NAME = "perl-Compress-Raw-Lzma-2.204-1.3.aarch64.rpm"
 RPM_HASH = "2c5df772d908395ef39ea53e09fc3cc8bc12218029a14e7afb51a440bd205367b26d94d3bbc3a0a5297ea7ad8fb517d3871b8b9cd44d3a67b61e43e448924b9c"
 
-RPROVIDES:${PN} += "perl(Compress::Raw::Lzma) \
-perl-Compress-Raw-Lzma \
-perl-Compress-Raw-Lzma(aarch-64)"
+RPROVIDES:${PN} += "perl-Compress--Raw--Lzma \
+perl-Compress-Raw-Lzma"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblzma.so.5()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblzma.so.5 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

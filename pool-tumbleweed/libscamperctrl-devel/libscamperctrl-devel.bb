@@ -14,8 +14,7 @@ PV = "20230302"
 RPM_NAME = "libscamperctrl-devel-20230302-1.3.aarch64.rpm"
 RPM_HASH = "26383f4aa945220afddc366dcf1e27ac3ab3fd3e59fdc0bb2e2225ea94acdea87d1e5f2fc3b62068f196f6fdf426b1b413f90079d0770d220448c8a63582380c"
 
-RPROVIDES:${PN} += "libscamperctrl-devel \
-libscamperctrl-devel(aarch-64)"
+RPROVIDES:${PN} += "libscamperctrl-devel"
 
 RDEPENDS:${PN} += "libscamperctrl1"
 

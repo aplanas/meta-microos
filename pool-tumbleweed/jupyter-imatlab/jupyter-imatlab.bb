@@ -14,12 +14,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-imatlab \
 python3-imatlab \
-python3-jupyter_imatlab_kernel \
-python3.10dist(imatlab) \
-python3dist(imatlab)"
+python3-jupyter-imatlab-kernel \
+python3.10dist-imatlab \
+python3dist-imatlab"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi) \
+python-abi \
 python3-ipykernel \
 python3-nbconvert \
 python3-plotly \

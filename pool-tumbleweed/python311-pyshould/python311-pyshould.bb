@@ -19,11 +19,11 @@ RPM_NAME = "python311-pyshould-0.7.1-6.12.noarch.rpm"
 RPM_HASH = "6f11d0d42a24fe40d59ae0a044ac8fc9da3b221da3465e20430b5870c4298b92c343fcdb0f1fadeba14fca3cc4b2702c06deefcf76a8eb922d93a05d6b4f1f3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyshould) \
+RPROVIDES:${PN} += "python3.11dist-pyshould \
 python311-pyshould \
-python3dist(pyshould)"
+python3dist-pyshould"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-hamcrest"
 
 inherit rpm

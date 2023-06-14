@@ -18,9 +18,9 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(File::Copy) \
-perl(File::Path) \
-perl(Getopt::Std) \
+perl-File--Copy \
+perl-File--Path \
+perl-Getopt--Std \
 sed \
 texlive \
 texlive-filesystem \

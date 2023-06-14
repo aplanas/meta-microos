@@ -9,13 +9,13 @@ RPM_HASH = "ddd17d614b8ad02b5ed0ebf195872a1f078972e78f93452abf594c1ca9b2a568d0f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythonfinder \
-python3.10dist(pythonfinder) \
+python3.10dist-pythonfinder \
 python310-pythonfinder \
-python3dist(pythonfinder)"
+python3dist-pythonfinder"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-attrs \
 python310-cached-property \
 python310-click \

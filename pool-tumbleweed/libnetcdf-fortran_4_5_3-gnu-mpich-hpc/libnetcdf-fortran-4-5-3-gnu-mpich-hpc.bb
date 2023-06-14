@@ -36,16 +36,13 @@ PV = "4.5.3"
 RPM_NAME = "libnetcdf-fortran_4_5_3-gnu-mpich-hpc-4.5.3-4.5.aarch64.rpm"
 RPM_HASH = "6ba5f24e260dee4eb89056f98c933c7c3e10d70692cc8cc0a06b572bd8f6cb77382cc8f371f1b0c791f5385b6b09aac36b17e52a975b239627122db9618c74ec"
 
-RPROVIDES:${PN} += "libnetcdf-fortran_4_5_3-gnu-mpich-hpc \
-libnetcdf-fortran_4_5_3-gnu-mpich-hpc(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf-fortran-4-5-3-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfortran.so.5 \
 lua-lmod \
 mpich-gnu-hpc"
 

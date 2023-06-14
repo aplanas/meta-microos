@@ -9,13 +9,11 @@ RPM_HASH = "c215f9595692860fddab782382f1b2610b1866f9da17fa114596b6a89f54a2decb90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-poetry-plugin-export \
-python3-poetry_plugin_export \
-python3.10dist(poetry-plugin-export) \
+python3.10dist-poetry-plugin-export \
 python310-poetry-plugin-export \
-python310-poetry_plugin_export \
-python3dist(poetry-plugin-export)"
+python3dist-poetry-plugin-export"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-poetry \
 python310-poetry-core"
 

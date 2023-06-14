@@ -10,15 +10,15 @@ RPM_HASH = "bf6c3ff0d26742fc8eec61308e9cbceebcaf8dc631dea3287f293dcde08f8af9ba57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-build \
-python3.10dist(build) \
+python3.10dist-build \
 python310-build \
-python3dist(build)"
+python3dist-build"
 
-RDEPENDS:${PN} += "(python310-importlib-metadata >= 0.22 if python310-base < 3.8) \
-(python310-tomli >= 1.1.0 if python310-base < 3.11) \
+RDEPENDS:${PN} += "-python310-importlib-metadata >= 0.22 if python310-base < 3.8 \
+-python310-tomli >= 1.1.0 if python310-base < 3.11 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-packaging \
 python310-pyproject-hooks \
 update-alternatives"

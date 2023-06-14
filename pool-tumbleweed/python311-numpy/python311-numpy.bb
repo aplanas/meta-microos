@@ -16,20 +16,19 @@ PV = "1.24.2"
 RPM_NAME = "python311-numpy-1.24.2-3.1.aarch64.rpm"
 RPM_HASH = "e9cb420efac8d6eac71b4d5748f30817f3c835b75426f346c7b2d6ad1ea38a52499bf0fe637033abf7f978ae0a469f56ba1838e53597e1b3bf10e2f53580cb5c"
 
-RPROVIDES:${PN} += "python3.11dist(numpy) \
+RPROVIDES:${PN} += "python3.11dist-numpy \
 python311-numpy \
-python311-numpy(aarch-64) \
-python3dist(numpy)"
+python3dist-numpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \
-ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcblas.so.3()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+libcblas.so.3 \
+liblapack.so.3 \
+libm.so.6 \
+python-abi"
 
 inherit rpm

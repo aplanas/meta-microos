@@ -9,39 +9,31 @@ PV = "44.0"
 RPM_NAME = "gnome-system-monitor-44.0-1.1.aarch64.rpm"
 RPM_HASH = "ba89388d4f43e5e561ee8bcdb7172b5c458dba831f3a38cc8c64e096b81f6098b06904e6e8ee7066a43bd351d2bd2bce7a384d2d8d3a1de54cadad2630e7b9f3"
 
-RPROVIDES:${PN} += "application() \
-application(gnome-system-monitor-kde.desktop) \
-application(gnome-system-monitor.desktop) \
-gnome-system-monitor \
-gnome-system-monitor(aarch-64) \
-metainfo() \
-metainfo(gnome-system-monitor.appdata.xml)"
+RPROVIDES:${PN} += "gnome-system-monitor"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgdkmm-3.0.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkmm-3.0.so.1()(64bit) \
-libgtop-2.0.so.11()(64bit) \
-libhandy-1.so.0()(64bit) \
-libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-librsvg-2.so.2()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgdkmm-3.0.so.1 \
+libgio-2.0.so.0 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtkmm-3.0.so.1 \
+libgtop-2.0.so.11 \
+libhandy-1.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+librsvg-2.so.2 \
+libsigc-2.0.so.0 \
+libstdc++.so.6 \
+libsystemd.so.0"
 
 inherit rpm

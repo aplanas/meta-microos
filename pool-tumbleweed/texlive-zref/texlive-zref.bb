@@ -29,27 +29,27 @@ RPM_NAME = "texlive-zref-2023.201.2.34svn62977-52.1.noarch.rpm"
 RPM_HASH = "04bb4fa11b5a65f447d37d2afd209757717ccffdfbcc9d2bb3c61f5af58aa0a44b32da6ac74b548340efb365e0efd5985a96382c3210a68c8ca7d21a21c0d22c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zref-abspage.sty) \
-tex(zref-abspos.sty) \
-tex(zref-base.sty) \
-tex(zref-counter.sty) \
-tex(zref-dotfill.sty) \
-tex(zref-env.sty) \
-tex(zref-hyperref.sty) \
-tex(zref-lastpage.sty) \
-tex(zref-marks.sty) \
-tex(zref-nextpage.sty) \
-tex(zref-pageattr.sty) \
-tex(zref-pagelayout.sty) \
-tex(zref-perpage.sty) \
-tex(zref-runs.sty) \
-tex(zref-savepos.sty) \
-tex(zref-thepage.sty) \
-tex(zref-titleref.sty) \
-tex(zref-totpages.sty) \
-tex(zref-user.sty) \
-tex(zref-xr.sty) \
-tex(zref.sty) \
+RPROVIDES:${PN} += "tex-zref-abspage.sty \
+tex-zref-abspos.sty \
+tex-zref-base.sty \
+tex-zref-counter.sty \
+tex-zref-dotfill.sty \
+tex-zref-env.sty \
+tex-zref-hyperref.sty \
+tex-zref-lastpage.sty \
+tex-zref-marks.sty \
+tex-zref-nextpage.sty \
+tex-zref-pageattr.sty \
+tex-zref-pagelayout.sty \
+tex-zref-perpage.sty \
+tex-zref-runs.sty \
+tex-zref-savepos.sty \
+tex-zref-thepage.sty \
+tex-zref-titleref.sty \
+tex-zref-totpages.sty \
+tex-zref-user.sty \
+tex-zref-xr.sty \
+tex-zref.sty \
 texlive-zref"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -58,21 +58,21 @@ ed \
 findutils \
 grep \
 sed \
-tex(atbegshi.sty) \
-tex(atveryend.sty) \
-tex(auxhook.sty) \
-tex(etexcmds.sty) \
-tex(gettitlestring.sty) \
-tex(iftex.sty) \
-tex(infwarerr.sty) \
-tex(keyval.sty) \
-tex(kvdefinekeys.sty) \
-tex(kvoptions.sty) \
-tex(kvsetkeys.sty) \
-tex(ltxcmds.sty) \
-tex(makerobust.sty) \
-tex(pdftexcmds.sty) \
-tex(uniquecounter.sty) \
+tex-atbegshi.sty \
+tex-atveryend.sty \
+tex-auxhook.sty \
+tex-etexcmds.sty \
+tex-gettitlestring.sty \
+tex-iftex.sty \
+tex-infwarerr.sty \
+tex-keyval.sty \
+tex-kvdefinekeys.sty \
+tex-kvoptions.sty \
+tex-kvsetkeys.sty \
+tex-ltxcmds.sty \
+tex-makerobust.sty \
+tex-pdftexcmds.sty \
+tex-uniquecounter.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -43,11 +43,11 @@ RPM_HASH = "cee3903405f73d0820840acf6109cbae4d65a54003e18b865a45de729f690e0721ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-messaging-webpubsubservice \
-python3.10dist(azure-messaging-webpubsubservice) \
+python3.10dist-azure-messaging-webpubsubservice \
 python310-azure-messaging-webpubsubservice \
-python3dist(azure-messaging-webpubsubservice)"
+python3dist-azure-messaging-webpubsubservice"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-azure-core \
 python310-azure-messaging-nspkg \

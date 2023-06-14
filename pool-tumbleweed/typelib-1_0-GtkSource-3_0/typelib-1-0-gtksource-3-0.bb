@@ -14,23 +14,22 @@ PV = "3.24.11"
 RPM_NAME = "typelib-1_0-GtkSource-3_0-3.24.11-3.9.aarch64.rpm"
 RPM_HASH = "5f0abf0e9bdc1256cd351eb0211854e5f6b4fbb9ea09543351b12070d87cb1696e56c9e8d6e3de1f683ca75ef0658a4d0d1c3caeb6009331407748d18f4b997d"
 
-RPROVIDES:${PN} += "typelib(GtkSource) \
-typelib-1_0-GtkSource-3_0 \
-typelib-1_0-GtkSource-3_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GtkSource-3-0 \
+typelib-GtkSource"
 
-RDEPENDS:${PN} += "libgtksourceview-3.0.so.1()(64bit) \
-typelib(Atk) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(HarfBuzz) \
-typelib(Pango) \
-typelib(cairo) \
-typelib(freetype2) \
-typelib(xlib)"
+RDEPENDS:${PN} += "libgtksourceview-3.0.so.1 \
+typelib-Atk \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-HarfBuzz \
+typelib-Pango \
+typelib-cairo \
+typelib-freetype2 \
+typelib-xlib"
 
 inherit rpm

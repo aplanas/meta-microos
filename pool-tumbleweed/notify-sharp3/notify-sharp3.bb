@@ -15,14 +15,14 @@ RPM_NAME = "notify-sharp3-3.0.3-1.17.noarch.rpm"
 RPM_HASH = "6bb7c4f83fb3a34dee960f1926ea2df49d4f7996fe3312856956db42c4d705c5b25b4add68f53ae90f1e9688af3615122a4f146a7d982c4ca1fb8a55d2ca1118"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mono(notify-sharp) \
+RPROVIDES:${PN} += "mono-notify-sharp \
 notify-sharp3"
 
-RDEPENDS:${PN} += "mono(dbus-sharp) \
-mono(dbus-sharp-glib) \
-mono(gdk-sharp) \
-mono(glib-sharp) \
-mono(gtk-sharp) \
-mono(mscorlib)"
+RDEPENDS:${PN} += "mono-dbus-sharp \
+mono-dbus-sharp-glib \
+mono-gdk-sharp \
+mono-glib-sharp \
+mono-gtk-sharp \
+mono-mscorlib"
 
 inherit rpm

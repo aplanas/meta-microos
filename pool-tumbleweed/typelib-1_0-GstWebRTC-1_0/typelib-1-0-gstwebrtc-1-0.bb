@@ -11,15 +11,14 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstWebRTC-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "4a8fc156552c6fe502a084114f0281b6e8427fe3aebd686e00dc78431bfdb52a4452d4cae42ba8314179af9402ec0d9354cef37b8e668d6c620495d522fb5684"
 
-RPROVIDES:${PN} += "typelib(GstWebRTC) \
-typelib-1_0-GstWebRTC-1_0 \
-typelib-1_0-GstWebRTC-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstWebRTC-1-0 \
+typelib-GstWebRTC"
 
-RDEPENDS:${PN} += "libgstwebrtc-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gst) \
-typelib(GstSdp)"
+RDEPENDS:${PN} += "libgstwebrtc-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gst \
+typelib-GstSdp"
 
 inherit rpm

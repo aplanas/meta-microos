@@ -12,15 +12,14 @@ PV = "1.1.4"
 RPM_NAME = "libmemcachedutil2-1.1.4-2.1.aarch64.rpm"
 RPM_HASH = "9a12bc7389906b147f4d5cfa537af035cee13b8bd85de1dd9779bf5809ea6d96d964ca306f4b201a2c33c6996aa07ff58110a57b39edbc2fdafd0ac5571d160a"
 
-RPROVIDES:${PN} += "libhashkit.so.2()(64bit) \
-libmemcachedutil.so.2()(64bit) \
-libmemcachedutil2 \
-libmemcachedutil2(aarch-64)"
+RPROVIDES:${PN} += "libhashkit.so.2 \
+libmemcachedutil.so.2 \
+libmemcachedutil2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmemcached.so.11()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmemcached.so.11 \
+libstdc++.so.6"
 
 inherit rpm

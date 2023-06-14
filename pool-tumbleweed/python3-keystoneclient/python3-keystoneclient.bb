@@ -9,10 +9,10 @@ RPM_HASH = "4a93ef065b004071dcf47cca59b5c8e746b881020b7cc304673bf1f7cb4814756dd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keystoneclient \
-python3.10dist(python-keystoneclient) \
-python3dist(python-keystoneclient)"
+python3.10dist-python-keystoneclient \
+python3dist-python-keystoneclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-debtcollector \
 python3-keystoneauth1 \
 python3-oslo.config \

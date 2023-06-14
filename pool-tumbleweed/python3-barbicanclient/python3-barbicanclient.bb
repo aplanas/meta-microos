@@ -13,11 +13,11 @@ RPM_HASH = "6269b57a6e9a6cda70d80aadf628cf0fca921e987945e335e8c46b7582412615657b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-barbicanclient \
-python3.10dist(python-barbicanclient) \
-python3dist(python-barbicanclient)"
+python3.10dist-python-barbicanclient \
+python3dist-python-barbicanclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cliff \
 python3-keystoneauth1 \
 python3-oslo.i18n \

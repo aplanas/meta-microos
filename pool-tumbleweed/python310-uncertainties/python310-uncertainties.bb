@@ -11,11 +11,11 @@ RPM_HASH = "bab0c913092777de31a7b56b0591014688829d4034d891faeca04404c4beb8c7b574
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-uncertainties \
-python3.10dist(uncertainties) \
+python3.10dist-uncertainties \
 python310-uncertainties \
-python3dist(uncertainties)"
+python3dist-uncertainties"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future"
 
 inherit rpm

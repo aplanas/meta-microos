@@ -12,7 +12,7 @@ RPM_NAME = "texlive-breakcites-2023.201.svn21014-52.1.noarch.rpm"
 RPM_HASH = "4aaea3f8ce0ed55fd20d5b71284aabcc890b720e6b7227dae4fe3ba8df60905fc23e2d0bf85dd9f3f00161cf5cafe2b43159e8f6c6c354466b3a421977773add"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(breakcites.sty) \
+RPROVIDES:${PN} += "tex-breakcites.sty \
 texlive-breakcites"
 
 RDEPENDS:${PN} += "/bin/sh \

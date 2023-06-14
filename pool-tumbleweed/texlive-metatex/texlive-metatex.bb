@@ -14,7 +14,7 @@ RPM_NAME = "texlive-metatex-2023.201.1.1svn15878-54.1.noarch.rpm"
 RPM_HASH = "eaa1b1ed537bb6234f8199910bd36f4f948b4f905f13c904170f0932274a01b71748027991008972ecebdc9573cfc98aeb320a345ef695b63086707b692a4b2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(metatex.tex) \
+RPROVIDES:${PN} += "tex-metatex.tex \
 texlive-metatex"
 
 RDEPENDS:${PN} += "/bin/sh \

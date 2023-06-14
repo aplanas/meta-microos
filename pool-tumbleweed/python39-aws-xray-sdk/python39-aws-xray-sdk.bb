@@ -19,11 +19,11 @@ RPM_NAME = "python39-aws-xray-sdk-2.12.0-1.1.noarch.rpm"
 RPM_HASH = "e35480553952e6e9e9b902b3b0aa3d33e947715a941ef11442a2425a64be767f282b23590692bb769db205302935fbb5d746cd251f419cad72a0c96c10369de1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(aws-xray-sdk) \
+RPROVIDES:${PN} += "python3.9dist-aws-xray-sdk \
 python39-aws-xray-sdk \
-python3dist(aws-xray-sdk)"
+python3dist-aws-xray-sdk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-botocore \
 python39-wrapt"
 

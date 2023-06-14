@@ -14,12 +14,12 @@ RPM_NAME = "perl-Test-Mock-Time-0.1.7-1.18.noarch.rpm"
 RPM_HASH = "c6ac8be2ec172f2c038be943dd1badc66f1608e65e1814bd887d69fbdadca90a3723abff0667b0e47111b32b1c15de094ac85ee24033d6c9d59f744c6a2feaef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Mock::Time) \
+RPROVIDES:${PN} += "perl-Test--Mock--Time \
 perl-Test-Mock-Time"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Export::Attrs) \
-perl(List::Util) \
-perl(Test::MockModule)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Export--Attrs \
+perl-List--Util \
+perl-Test--MockModule"
 
 inherit rpm

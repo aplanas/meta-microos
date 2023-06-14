@@ -16,13 +16,13 @@ RPM_NAME = "perl-MooseX-SetOnce-0.203-1.2.noarch.rpm"
 RPM_HASH = "690dc2734b2ef35a23ad1cc07a7754666fa828b94e54de741a872504fb04dde69fad91868b44a18f3349cf4fdf31fb0b7ee197900a763eb5180d650b6c54aaf2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Moose::Meta::Attribute::Custom::Trait::SetOnce) \
-perl(MooseX::SetOnce) \
-perl(MooseX::SetOnce::Accessor) \
-perl(MooseX::SetOnce::Attribute) \
+RPROVIDES:${PN} += "perl-Moose--Meta--Attribute--Custom--Trait--SetOnce \
+perl-MooseX--SetOnce \
+perl-MooseX--SetOnce--Accessor \
+perl-MooseX--SetOnce--Attribute \
 perl-MooseX-SetOnce"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Moose::Role)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Moose--Role"
 
 inherit rpm

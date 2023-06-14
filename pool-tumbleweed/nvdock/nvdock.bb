@@ -10,15 +10,12 @@ PV = "1.02"
 RPM_NAME = "nvdock-1.02-14.14.aarch64.rpm"
 RPM_HASH = "f6c426a816d3fff96cc069d1fa3713e2a8e1b3647db2f5922780a2806143048514362bbd67c0305336f7fb09ca5549462ecad2182fcfd984d210b61eb161c8c0"
 
-RPROVIDES:${PN} += "application() \
-application(nvdock.desktop) \
-nvdock \
-nvdock(aarch-64)"
+RPROVIDES:${PN} += "nvdock"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0"
 
 inherit rpm

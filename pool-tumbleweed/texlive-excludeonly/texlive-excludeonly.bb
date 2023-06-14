@@ -13,7 +13,7 @@ RPM_NAME = "texlive-excludeonly-2023.201.1.0svn17262-52.1.noarch.rpm"
 RPM_HASH = "a801c65c00fbb73f39550c4a8731ef7a05ad8de357823418c02c276290920e23ba0e73e97e3cd310c5ebf92bb01149e973b0be0972da616dc1d148a2e56d9820"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(excludeonly.sty) \
+RPROVIDES:${PN} += "tex-excludeonly.sty \
 texlive-excludeonly"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -7,16 +7,14 @@ PV = "6.5.1"
 RPM_NAME = "qt6-shadertools-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "7df29b935816329ddfe47696576ce25b461acfd7cdd2c63281abb52f9eab9c5b9432817c991eaa81d8f84297c8e343b337ffa6f56ab64b3c6dbc8e87cb941265"
 
-RPROVIDES:${PN} += "qt6-shadertools \
-qt6-shadertools(aarch-64)"
+RPROVIDES:${PN} += "qt6-shadertools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6ShaderTools.so.6()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6ShaderTools.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
 spirv-tools"
 
 inherit rpm

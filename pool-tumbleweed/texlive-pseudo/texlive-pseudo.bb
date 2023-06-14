@@ -15,7 +15,7 @@ RPM_NAME = "texlive-pseudo-2023.201.1.2.2svn65690-52.1.noarch.rpm"
 RPM_HASH = "ebccfabffac90d0167f6a1fa32e47d81a4d0e9e6f0adba7d5a4edd52ae9edd9c090f863c10a1fa8603b20c57ebbdd628860fc27506d42ab17f6dfa1af32d88b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pseudo.sty) \
+RPROVIDES:${PN} += "tex-pseudo.sty \
 texlive-pseudo"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,15 +24,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(aliascnt.sty) \
-tex(array.sty) \
-tex(colortbl.sty) \
-tex(etoolbox.sty) \
-tex(expl3.sty) \
-tex(l3keys2e.sty) \
-tex(pgfkeys.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-aliascnt.sty \
+tex-array.sty \
+tex-colortbl.sty \
+tex-etoolbox.sty \
+tex-expl3.sty \
+tex-l3keys2e.sty \
+tex-pgfkeys.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,31 +11,31 @@ RPM_HASH = "779dbefe6b05ae102b5243253627ac19e196d30b0ce6157fb8f5b0238f7fa5bb19ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-invoker-plugin \
-mvn(org.apache.maven.plugins:maven-invoker-plugin) \
-mvn(org.apache.maven.plugins:maven-invoker-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-invoker-plugin \
+mvn-org.apache.maven.plugins-maven-invoker-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.apache-extras.beanshell:bsh) \
-mvn(org.apache.maven.doxia:doxia-core) \
-mvn(org.apache.maven.doxia:doxia-decoration-model) \
-mvn(org.apache.maven.doxia:doxia-sink-api) \
-mvn(org.apache.maven.doxia:doxia-site-renderer) \
-mvn(org.apache.maven.reporting:maven-reporting-api) \
-mvn(org.apache.maven.reporting:maven-reporting-impl) \
-mvn(org.apache.maven.shared:maven-artifact-transfer) \
-mvn(org.apache.maven.shared:maven-common-artifact-filters) \
-mvn(org.apache.maven.shared:maven-invoker) \
-mvn(org.apache.maven.shared:maven-script-interpreter) \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-settings) \
-mvn(org.codehaus.plexus:plexus-i18n) \
-mvn(org.codehaus.plexus:plexus-interpolation) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-commons-io-commons-io \
+mvn-org.apache-extras.beanshell-bsh \
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-settings \
+mvn-org.apache.maven.doxia-doxia-core \
+mvn-org.apache.maven.doxia-doxia-decoration-model \
+mvn-org.apache.maven.doxia-doxia-sink-api \
+mvn-org.apache.maven.doxia-doxia-site-renderer \
+mvn-org.apache.maven.reporting-maven-reporting-api \
+mvn-org.apache.maven.reporting-maven-reporting-impl \
+mvn-org.apache.maven.shared-maven-artifact-transfer \
+mvn-org.apache.maven.shared-maven-common-artifact-filters \
+mvn-org.apache.maven.shared-maven-invoker \
+mvn-org.apache.maven.shared-maven-script-interpreter \
+mvn-org.apache.maven.shared-maven-shared-utils \
+mvn-org.codehaus.plexus-plexus-i18n \
+mvn-org.codehaus.plexus-plexus-interpolation \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

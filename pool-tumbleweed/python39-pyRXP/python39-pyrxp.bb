@@ -8,13 +8,12 @@ PV = "3.0.1"
 RPM_NAME = "python39-pyRXP-3.0.1-2.9.aarch64.rpm"
 RPM_HASH = "febd030f264d0e8f953b52e3f4e4d72a764ca9aa7c4218df7095f7e4ceacdb8c31bf6d68343dcffb02f0a8dd1f02f431f5a25cdbf3acfc01a1c407cedb0cc099"
 
-RPROVIDES:${PN} += "python3.9dist(pyrxp) \
+RPROVIDES:${PN} += "python3.9dist-pyrxp \
 python39-pyRXP \
-python39-pyRXP(aarch-64) \
-python3dist(pyrxp)"
+python3dist-pyrxp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

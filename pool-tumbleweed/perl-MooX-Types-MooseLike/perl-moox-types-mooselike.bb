@@ -14,11 +14,11 @@ RPM_NAME = "perl-MooX-Types-MooseLike-0.29-1.25.noarch.rpm"
 RPM_HASH = "3cbe32462b6ff633660e789ce2a2efd3e9b5ffcd6358e2a8066774bd5b7f775944f4ac286e26ad07c91ea9854f195867cf610fd8e1c422da17ee05eb58b171d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooX::Types::MooseLike) \
-perl(MooX::Types::MooseLike::Base) \
+RPROVIDES:${PN} += "perl-MooX--Types--MooseLike \
+perl-MooX--Types--MooseLike--Base \
 perl-MooX-Types-MooseLike"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Module::Runtime)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Module--Runtime"
 
 inherit rpm

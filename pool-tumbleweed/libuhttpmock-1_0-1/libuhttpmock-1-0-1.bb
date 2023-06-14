@@ -9,16 +9,15 @@ PV = "0.9.0"
 RPM_NAME = "libuhttpmock-1_0-1-0.9.0-1.3.aarch64.rpm"
 RPM_HASH = "068d414f9a79e29aaf707b701edd3631ab589e48d21a7b977e4150247f71fff9fd39ee8b539078da3cd19d14641b4e793997ba74c02ff57371942ecc39e98b47"
 
-RPROVIDES:${PN} += "libuhttpmock-1.0.so.1()(64bit) \
-libuhttpmock-1_0-1 \
-libuhttpmock-1_0-1(aarch-64)"
+RPROVIDES:${PN} += "libuhttpmock-1-0-1 \
+libuhttpmock-1.0.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libsoup-3.0.so.0"
 
 inherit rpm

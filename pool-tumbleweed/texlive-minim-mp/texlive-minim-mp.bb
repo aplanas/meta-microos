@@ -13,7 +13,7 @@ RPM_NAME = "texlive-minim-mp-2023.201.2023_1.2svn66395-54.1.noarch.rpm"
 RPM_HASH = "b3edd6225378163373ec027450be1fe001f41c0e957ffc0ba7d0346c780e1b0ba831df8898dc27939b0299a29d9efd0eb907d73486d0e22cbb69176c2593a305"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minim-mp.tex) \
+RPROVIDES:${PN} += "tex-minim-mp.tex \
 texlive-minim-mp"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -8,9 +8,9 @@ RPM_NAME = "myspell-ar_EG-20221012-1.2.noarch.rpm"
 RPM_HASH = "3bae0907579f45e0c95584fd0303b85489e22b796e2d805af1964dba81ca4022c5685e1cef604e9462604903225f4ffb199995179a7bab4fbc27bc28a2c42396"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:ar_EG) \
-locale(seamonkey-spellchecker:ar_EG) \
-myspell-ar_EG \
+RPROVIDES:${PN} += "locale-libreoffice-ar-EG \
+locale-seamonkey-spellchecker-ar-EG \
+myspell-ar-EG \
 myspell-dictionary"
 
 RDEPENDS:${PN} += "myspell-ar \

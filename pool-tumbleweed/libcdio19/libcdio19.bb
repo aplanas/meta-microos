@@ -12,13 +12,11 @@ PV = "2.1.0"
 RPM_NAME = "libcdio19-2.1.0-7.1.aarch64.rpm"
 RPM_HASH = "d7143607316171a3508f35845064719716627f254aed2754898fd2186969858d3a34c8409eacb25d020986e54bb6f58ddc1dd6d15a897432db842643ddd34a06"
 
-RPROVIDES:${PN} += "libcdio.so.19()(64bit) \
-libcdio.so.19(CDIO_19)(64bit) \
-libcdio19 \
-libcdio19(aarch-64)"
+RPROVIDES:${PN} += "libcdio.so.19 \
+libcdio19"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

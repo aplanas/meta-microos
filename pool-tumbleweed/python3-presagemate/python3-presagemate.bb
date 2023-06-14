@@ -12,13 +12,13 @@ RPROVIDES:${PN} += "python-presagemate \
 python3-presagemate"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-atspi \
 python3-gobject \
 python3-presage \
 python3-xlib \
-typelib(Gdk) \
-typelib(Gtk) \
-typelib(Pango)"
+typelib-Gdk \
+typelib-Gtk \
+typelib-Pango"
 
 inherit rpm

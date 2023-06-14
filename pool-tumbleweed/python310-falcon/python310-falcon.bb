@@ -11,13 +11,13 @@ RPM_HASH = "1532d503fb3a87c1e2d171690c01d683aca22c7ef9a5bfc73ae5c95d8c4390944877
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-falcon \
-python3.10dist(falcon) \
+python3.10dist-falcon \
 python310-falcon \
-python3dist(falcon)"
+python3dist-falcon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

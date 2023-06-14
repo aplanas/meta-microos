@@ -13,14 +13,13 @@ PV = "1.8.0"
 RPM_NAME = "rrdtool-1.8.0-3.1.aarch64.rpm"
 RPM_HASH = "779fa40123dc506e8add6ae6ed42a87fbf08d7749f9935d905b033c72b9503695cf756556f773d858089c559033903fb142ae4e6281cc59a64cc465eda5c0832"
 
-RPROVIDES:${PN} += "rrdtool \
-rrdtool(aarch-64)"
+RPROVIDES:${PN} += "rrdtool"
 
 RDEPENDS:${PN} += "dejavu \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-librrd.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libm.so.6 \
+librrd.so.8"
 
 inherit rpm

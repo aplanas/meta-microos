@@ -13,10 +13,9 @@ PV = "2.1.6"
 RPM_NAME = "openmpi2-config-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "a1bc33df9505e196e65fbee9a784bbdd3fcffe3177b3a1d9f55cb746760055f5a9cde38e525046855a86f1d136faf6098e5e381b7c08c20a148cef5700261279"
 
-RPROVIDES:${PN} += "config(openmpi2-config) \
+RPROVIDES:${PN} += "config-openmpi2-config \
 openmpi-runtime-config \
-openmpi2-config \
-openmpi2-config(aarch-64)"
+openmpi2-config"
 
 RDEPENDS:${PN} += ""
 

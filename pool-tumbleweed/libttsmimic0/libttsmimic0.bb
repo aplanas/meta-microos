@@ -9,31 +9,30 @@ PV = "1.3.0.1"
 RPM_NAME = "libttsmimic0-1.3.0.1-2.3.aarch64.rpm"
 RPM_HASH = "c35077cf9081f52c43a444f9762e7c144b5b3c2cefdf4457cc6668c95e7296e4e95eec57935a2541ad913699442cb6aed48faa46dd40f4b2b4de977cb379dd92"
 
-RPROVIDES:${PN} += "libttsmimic.so.0()(64bit) \
-libttsmimic0 \
-libttsmimic0(aarch-64) \
-libttsmimic_lang_all_langs.so.0()(64bit) \
-libttsmimic_lang_all_voices.so.0()(64bit) \
-libttsmimic_lang_cmu_grapheme_lang.so.0()(64bit) \
-libttsmimic_lang_cmu_grapheme_lex.so.0()(64bit) \
-libttsmimic_lang_cmu_indic_lang.so.0()(64bit) \
-libttsmimic_lang_cmu_indic_lex.so.0()(64bit) \
-libttsmimic_lang_cmu_time_awb.so.0()(64bit) \
-libttsmimic_lang_cmu_us_awb.so.0()(64bit) \
-libttsmimic_lang_cmu_us_kal.so.0()(64bit) \
-libttsmimic_lang_cmu_us_kal16.so.0()(64bit) \
-libttsmimic_lang_cmu_us_rms.so.0()(64bit) \
-libttsmimic_lang_cmu_us_slt.so.0()(64bit) \
-libttsmimic_lang_cmu_us_slt_hts.so.0()(64bit) \
-libttsmimic_lang_cmulex.so.0()(64bit) \
-libttsmimic_lang_usenglish.so.0()(64bit) \
-libttsmimic_lang_vid_gb_ap.so.0()(64bit)"
+RPROVIDES:${PN} += "libttsmimic-lang-all-langs.so.0 \
+libttsmimic-lang-all-voices.so.0 \
+libttsmimic-lang-cmu-grapheme-lang.so.0 \
+libttsmimic-lang-cmu-grapheme-lex.so.0 \
+libttsmimic-lang-cmu-indic-lang.so.0 \
+libttsmimic-lang-cmu-indic-lex.so.0 \
+libttsmimic-lang-cmu-time-awb.so.0 \
+libttsmimic-lang-cmu-us-awb.so.0 \
+libttsmimic-lang-cmu-us-kal.so.0 \
+libttsmimic-lang-cmu-us-kal16.so.0 \
+libttsmimic-lang-cmu-us-rms.so.0 \
+libttsmimic-lang-cmu-us-slt-hts.so.0 \
+libttsmimic-lang-cmu-us-slt.so.0 \
+libttsmimic-lang-cmulex.so.0 \
+libttsmimic-lang-usenglish.so.0 \
+libttsmimic-lang-vid-gb-ap.so.0 \
+libttsmimic.so.0 \
+libttsmimic0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpcre2-8.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libm.so.6 \
+libpcre2-8.so.0"
 
 inherit rpm

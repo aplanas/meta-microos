@@ -17,27 +17,25 @@ PV = "3.1.7"
 RPM_NAME = "robinhood-3.1.7-2.1.aarch64.rpm"
 RPM_HASH = "ba85582d731beb5d418baf9a7a1d06039dd91af267f5764aa67589c421155ce434cd8b4db2cc7ac9ed72f8f62d1e742b95d78d883d06d899f4c7de72eb86f34d"
 
-RPROVIDES:${PN} += "librbh_mod_alerter.so()(64bit) \
-librbh_mod_basic.so()(64bit) \
-librbh_mod_checker.so()(64bit) \
-librbh_mod_common.so()(64bit) \
-librbh_mod_modeguard.so()(64bit) \
-librbh_mod_test.so()(64bit) \
-robinhood \
-robinhood(aarch-64)"
+RPROVIDES:${PN} += "librbh-mod-alerter.so \
+librbh-mod-basic.so \
+librbh-mod-checker.so \
+librbh-mod-common.so \
+librbh-mod-modeguard.so \
+librbh-mod-test.so \
+robinhood"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libjemalloc.so.2()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libjemalloc.so.2 \
+libmariadb.so.3 \
+libz.so.1 \
 systemd \
 which"
 

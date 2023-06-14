@@ -16,7 +16,7 @@ RPM_NAME = "mumps_5_3_5-gnu-mvapich2-hpc-doc-5.3.5-3.3.noarch.rpm"
 RPM_HASH = "160a3e53c6378b75de2e6f7e1312166e132f37390718835e62fa2770e06c8703c5774d103527585357ec8a08fc992c36ef53baaa62bcba857969fb2a30bd731e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mumps_5_3_5-gnu-mvapich2-hpc-doc"
+RPROVIDES:${PN} += "mumps-5-3-5-gnu-mvapich2-hpc-doc"
 
 RDEPENDS:${PN} += ""
 

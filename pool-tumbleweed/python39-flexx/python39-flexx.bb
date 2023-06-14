@@ -15,13 +15,13 @@ RPM_NAME = "python39-flexx-0.8.4-1.5.noarch.rpm"
 RPM_HASH = "981cb43a16b246985cc2b2e6cdb5b56ef73cb11d3ab77100f4ed31219a2e5afae0815a4d631d7cbb1c94b6c3ff124ded1d22ba2513e110d526df768cae2e57a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(flexx) \
+RPROVIDES:${PN} += "python3.9dist-flexx \
 python39-flexx \
-python3dist(flexx)"
+python3dist-flexx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-dialite \
 python39-pscript \
 python39-tornado \

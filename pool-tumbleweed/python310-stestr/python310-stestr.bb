@@ -20,12 +20,12 @@ RPM_HASH = "951905cde9ae6b8c168afdd6062e0a498f001b5297ee98e15b2d211f50375a73892c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stestr \
-python3.10dist(stestr) \
+python3.10dist-stestr \
 python310-stestr \
-python3dist(stestr)"
+python3dist-stestr"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python3-cliff \
 python310-PyYAML \
 python310-dbm \

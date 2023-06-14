@@ -9,13 +9,12 @@ PV = "0.2.1"
 RPM_NAME = "wrapsix-0.2.1-2.6.aarch64.rpm"
 RPM_HASH = "d064912864fc1fcf70eb64471d22ab2622a67c9c82912c662003613d9018d268154439a90beb4d1830c70c9fa440652f65522631660b3d017cf29a9762b2020d"
 
-RPROVIDES:${PN} += "config(wrapsix) \
-wrapsix \
-wrapsix(aarch-64)"
+RPROVIDES:${PN} += "config-wrapsix \
+wrapsix"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 systemd"
 
 inherit rpm

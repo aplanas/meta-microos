@@ -37,8 +37,8 @@ jgroups"
 
 RDEPENDS:${PN} += "apache-commons-logging \
 bsh2 \
-geronimo-jms-1_1-api \
-jaxp_parser_impl \
+geronimo-jms-1-1-api \
+jaxp-parser-impl \
 reload4j"
 
 inherit rpm

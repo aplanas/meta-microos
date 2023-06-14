@@ -8,43 +8,37 @@ PV = "7.0.3"
 RPM_NAME = "easyeffects-7.0.3-1.1.aarch64.rpm"
 RPM_HASH = "e773727735161e34f0c7afb0234a528edafb3ffdea1f4617851d3c04a81711b6ff68f1a894293c3cb634053639e91c84ff7ad00510339dd7497988c32d206a91"
 
-RPROVIDES:${PN} += "application() \
-application(com.github.wwmm.easyeffects.desktop) \
-easyeffects \
-easyeffects(aarch-64) \
-metainfo() \
-metainfo(com.github.wwmm.easyeffects.metainfo.xml)"
+RPROVIDES:${PN} += "easyeffects"
 
 RDEPENDS:${PN} += "dconf \
-ld-linux-aarch64.so.1()(64bit) \
-libadwaita-1.so.0()(64bit) \
-libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libbs2b.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libebur128.so.1()(64bit) \
-libfftw3.so.3()(64bit) \
-libfftw3f.so.3()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-liblilv-0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpipewire-0.3.so.0()(64bit) \
-librnnoise.so.0()(64bit) \
-librubberband.so.2()(64bit) \
-libsamplerate.so.0()(64bit) \
-libsigc-3.0.so.0()(64bit) \
-libsndfile.so.1()(64bit) \
-libspeexdsp.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtbb.so.12()(64bit) \
-libzita-convolver.so.4()(64bit)"
+ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
+libbs2b.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libebur128.so.1 \
+libfftw3.so.3 \
+libfftw3f.so.3 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libgtk-4.so.1 \
+liblilv-0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpipewire-0.3.so.0 \
+librnnoise.so.0 \
+librubberband.so.2 \
+libsamplerate.so.0 \
+libsigc-3.0.so.0 \
+libsndfile.so.1 \
+libspeexdsp.so.1 \
+libstdc++.so.6 \
+libtbb.so.12 \
+libzita-convolver.so.4"
 
 inherit rpm

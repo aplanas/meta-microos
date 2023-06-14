@@ -12,17 +12,15 @@ RPM_HASH = "e0a8336c1150d6bdf757aad6b03ebb39ed50778c96e56221b736f1d1fe37c8c5ea95
 RPROVIDES:${PN} += "python3-MySQL-python \
 python3-mysql \
 python3-mysqlclient \
-python3.10dist(mysqlclient) \
+python3.10dist-mysqlclient \
 python310-MySQL-python \
 python310-mysql \
 python310-mysqlclient \
-python310-mysqlclient(aarch-64) \
-python3dist(mysqlclient)"
+python3dist-mysqlclient"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmariadb.so.3 \
+python-abi"
 
 inherit rpm

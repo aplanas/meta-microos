@@ -21,16 +21,15 @@ PV = "2.8.1"
 RPM_NAME = "nxtvepg-2.8.1-26.12.aarch64.rpm"
 RPM_HASH = "c3e7abc81492ae965f85cd2940fbe83a2678e2750a212cef513d461b10358197d067a10333d4a0ed5c9569936cb1afb5b7e6b2680c8ca3a7621339213bbf908b"
 
-RPROVIDES:${PN} += "nxtvepg \
-nxtvepg(aarch-64)"
+RPROVIDES:${PN} += "nxtvepg"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXmu.so.6()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
-libtk8.6.so()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXmu.so.6 \
+libc.so.6 \
+libm.so.6 \
+libtcl8.6.so \
+libtk8.6.so"
 
 inherit rpm

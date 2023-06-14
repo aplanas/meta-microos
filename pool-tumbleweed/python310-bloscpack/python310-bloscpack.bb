@@ -12,13 +12,13 @@ RPM_HASH = "2d1029791ca5b82041df5f93366b71de9dbace90e142ae0953b71f9ba74f391c91f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bloscpack \
-python3.10dist(bloscpack) \
+python3.10dist-bloscpack \
 python310-bloscpack \
-python3dist(bloscpack)"
+python3dist-bloscpack"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-blosc \
 python310-numpy \
 update-alternatives"

@@ -10,15 +10,15 @@ RPM_HASH = "0577257da3174521cbad8d3e8152fe923d465a19a0f5ae9debad7d95879035c25f5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-classification \
-mvn(org.apache.lucene:lucene-classification) \
-mvn(org.apache.lucene:lucene-classification:pom:) \
-osgi(org.apache.lucene.classification)"
+mvn-org.apache.lucene-lucene-classification \
+mvn-org.apache.lucene-lucene-classification-pom- \
+osgi-org.apache.lucene.classification"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.lucene:lucene-analyzers-common) \
-mvn(org.apache.lucene:lucene-core) \
-mvn(org.apache.lucene:lucene-grouping) \
-mvn(org.apache.lucene:lucene-queries)"
+mvn-org.apache.lucene-lucene-analyzers-common \
+mvn-org.apache.lucene-lucene-core \
+mvn-org.apache.lucene-lucene-grouping \
+mvn-org.apache.lucene-lucene-queries"
 
 inherit rpm

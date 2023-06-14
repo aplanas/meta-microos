@@ -8,24 +8,20 @@ RPM_NAME = "plasma-nm5-ssh-5.27.5-1.1.aarch64.rpm"
 RPM_HASH = "674a29eb203ccf98a830795074fb9aed2fc8906a6159d8889c8f9e9f06d941929e0ab41b057aa21ee00f30b905bf619523742e2c3c9978b4f07a3217b794b047"
 
 RPROVIDES:${PN} += "NetworkManager-ssh-frontend \
-plasma-nm5-ssh \
-plasma-nm5-ssh(aarch-64)"
+plasma-nm5-ssh"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5NetworkManagerQt.so.6()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libplasmanm_editor.so()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5NetworkManagerQt.so.6 \
+libKF5WidgetsAddons.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libplasmanm-editor.so \
+libstdc++.so.6 \
 plasma-nm5"
 
 inherit rpm

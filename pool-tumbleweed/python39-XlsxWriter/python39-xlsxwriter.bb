@@ -12,13 +12,13 @@ RPM_HASH = "858ed56db69aa495028628471044eb308dc508099d567e008448f38ccc386659ef57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xlsxwriter \
-python3.9dist(xlsxwriter) \
+python3.9dist-xlsxwriter \
 python39-XlsxWriter \
-python3dist(xlsxwriter)"
+python3dist-xlsxwriter"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-xifthen-2023.201.1.4.0svn38929-52.1.noarch.rpm"
 RPM_HASH = "f28750b981ba9e286b7726770efead070560f50f3a997b0b824c51b2b2a6758b64e6f77fd76028966a050bb93db738cbc7d573af7d316498095af6f55f8f27ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xifthen.sty) \
+RPROVIDES:${PN} += "tex-xifthen.sty \
 texlive-xifthen"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(ifmtarg.sty) \
-tex(ifthen.sty) \
+tex-calc.sty \
+tex-ifmtarg.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

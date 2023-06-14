@@ -10,7 +10,6 @@ RPM_HASH = "24e7c94d9d8928cc968e6684e800c6b6b86a9df7a764b9416c49407c33f88ee6ca42
 
 RPROVIDES:${PN} += "libXaw.so.8 \
 libXaw8 \
-libXaw8(aarch-64) \
 libXaw8.so.8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

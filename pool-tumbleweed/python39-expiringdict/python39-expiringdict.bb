@@ -12,11 +12,11 @@ RPM_NAME = "python39-expiringdict-1.2.2-1.3.noarch.rpm"
 RPM_HASH = "0ad46240109025321910e4bc391c9804eb8342770b03f081722bb9b19875cd5935800ce522589806f0e6bd27a3ad95a5dd26a8da210aea2c0e028cc4a6c5bc22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(expiringdict) \
+RPROVIDES:${PN} += "python3.9dist-expiringdict \
 python39-expiringdict \
-python3dist(expiringdict)"
+python3dist-expiringdict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-dill \
 python39-typing"
 

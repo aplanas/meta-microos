@@ -13,7 +13,7 @@ RPM_NAME = "texlive-formal-grammar-2023.201.1.2svn61955-52.1.noarch.rpm"
 RPM_HASH = "17811b53bc24b9673ea9b1a46978aa901892297936d73d4e334c5fcb22ebcb1391f77a4f627e182a2bfab784bcef4099575fb078a65c2b6ffcd126601bf29b51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(formal-grammar.sty) \
+RPROVIDES:${PN} += "tex-formal-grammar.sty \
 texlive-formal-grammar"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,11 +22,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(colortbl.sty) \
-tex(newfloat.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-array.sty \
+tex-colortbl.sty \
+tex-newfloat.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

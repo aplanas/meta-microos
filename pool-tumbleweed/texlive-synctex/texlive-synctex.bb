@@ -11,8 +11,8 @@ RPM_NAME = "texlive-synctex-2023.201.svn66203-57.1.noarch.rpm"
 RPM_HASH = "46a4884a134271b85e57099704c696a402a22762f1afa28b04e216f57464a306533b8585a16775ec28e51606feed993da8c843b78822fb13d5193955561c54b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(synctex.1) \
-man(synctex.5) \
+RPROVIDES:${PN} += "man-synctex.1 \
+man-synctex.5 \
 texlive-synctex"
 
 RDEPENDS:${PN} += "/bin/sh \

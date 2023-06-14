@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libglade2-doc"
 
-RDEPENDS:${PN} += "libglade-2_0-0"
+RDEPENDS:${PN} += "libglade-2-0-0"
 
 inherit rpm

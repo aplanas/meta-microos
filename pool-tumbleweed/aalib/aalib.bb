@@ -9,13 +9,12 @@ PV = "1.4.0"
 RPM_NAME = "aalib-1.4.0-513.3.aarch64.rpm"
 RPM_HASH = "54bee63310ee9f63e4c034c4db950b82d65b4bb5cf2f2efb7daad35d62e2cea946fca512359944bb00fadb343b705a00032ee2b2539f9a67cfdfd41453e1b31e"
 
-RPROVIDES:${PN} += "aalib \
-aalib(aarch-64)"
+RPROVIDES:${PN} += "aalib"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libaa.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libaa.so.1 \
+libc.so.6"
 
 inherit rpm

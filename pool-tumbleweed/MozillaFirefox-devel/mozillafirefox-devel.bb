@@ -10,18 +10,18 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MozillaFirefox-devel \
 firefox-devel \
-rpm_macro(firefox_appid) \
-rpm_macro(firefox_ext_install) \
-rpm_macro(firefox_extdir) \
-rpm_macro(firefox_mainver) \
-rpm_macro(firefox_major) \
-rpm_macro(firefox_mozillapath) \
-rpm_macro(firefox_pluginsdir) \
-rpm_macro(firefox_version)"
+rpm-macro-firefox-appid \
+rpm-macro-firefox-ext-install \
+rpm-macro-firefox-extdir \
+rpm-macro-firefox-mainver \
+rpm-macro-firefox-major \
+rpm-macro-firefox-mozillapath \
+rpm-macro-firefox-pluginsdir \
+rpm-macro-firefox-version"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 MozillaFirefox \
-perl(Archive::Zip) \
-perl(XML::Simple)"
+perl-Archive--Zip \
+perl-XML--Simple"
 
 inherit rpm

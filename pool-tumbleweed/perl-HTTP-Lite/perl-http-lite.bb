@@ -34,9 +34,9 @@ RPM_NAME = "perl-HTTP-Lite-2.44-1.26.noarch.rpm"
 RPM_HASH = "49e76ab229e8647bf68d0834dd9f0b1abc30928ae8d9dbe6e1d645a90de42f9e2ceb0006b6ba0b5e790c75d2a5c2c195c2b994b9957451edd02db8daa4b92a3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Lite) \
+RPROVIDES:${PN} += "perl-HTTP--Lite \
 perl-HTTP-Lite"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -16,18 +16,18 @@ RPM_HASH = "c0dbf9f906e8d143b1e6503edfbfb3e46d054129d594aa6af4b23951fd8436e7a736
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-rename \
-python3.10dist(cajarename) \
-python3dist(cajarename)"
+python3.10dist-cajarename \
+python3dist-cajarename"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 caja \
-python(abi) \
+python-abi \
 python-caja \
 python3-gobject \
 python3-gobject-Gdk \
-typelib(Caja) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk)"
+typelib-Caja \
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk"
 
 inherit rpm

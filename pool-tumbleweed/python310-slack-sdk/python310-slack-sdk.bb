@@ -14,11 +14,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-slack-sdk \
 python3-slackclient \
-python3.10dist(slack-sdk) \
+python3.10dist-slack-sdk \
 python310-slack-sdk \
 python310-slackclient \
-python3dist(slack-sdk)"
+python3dist-slack-sdk"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,25 +9,19 @@ PV = "5.15.12"
 RPM_NAME = "libQt5Script5-5.15.12-2.3.aarch64.rpm"
 RPM_HASH = "9aac9ce986c2e9007d43afe2e6feccd6cc2ef15b65572b94f0a48c95e60d13545ef0076287a4f9a66828e37a84cb7cb24db9e98646167987d900560d41a8ce37"
 
-RPROVIDES:${PN} += "libQt5Script.so.5()(64bit) \
-libQt5Script.so.5(Qt_5)(64bit) \
+RPROVIDES:${PN} += "libQt5Script.so.5 \
 libQt5Script5 \
-libQt5Script5(aarch-64) \
-libQt5ScriptTools.so.5()(64bit) \
-libQt5ScriptTools.so.5(Qt_5)(64bit)"
+libQt5ScriptTools.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
 libQt5Widgets5 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -25,25 +25,20 @@ PV = "3.1.66"
 RPM_NAME = "fs-uae-3.1.66-1.8.aarch64.rpm"
 RPM_HASH = "8509feeea3e9b260dd9d44faebd4f3bf3fc2e954fb697c83fb59ede5d04e91fb327f377fd4bcfb9b26c7f89a9e9c49e920cb964eb42fbda03bf581ec3bcdebae"
 
-RPROVIDES:${PN} += "application() \
-application(fs-uae.desktop) \
-fs-uae \
-fs-uae(aarch-64) \
-mimehandler(application/x-adf)"
+RPROVIDES:${PN} += "fs-uae"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmpeg2.so.0()(64bit) \
-libmpeg2convert.so.0()(64bit) \
-libopenal.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libm.so.6 \
+libmpeg2.so.0 \
+libmpeg2convert.so.0 \
+libopenal.so.1 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

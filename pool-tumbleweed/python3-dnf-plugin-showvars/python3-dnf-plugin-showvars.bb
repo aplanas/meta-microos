@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "dnf-plugin-showvars \
 python3-dnf-plugin-showvars \
 python3-dnf-plugins-extras-showvars"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-dnf-plugins-extras-common"
 
 inherit rpm

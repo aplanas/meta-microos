@@ -12,7 +12,7 @@ RPM_NAME = "texlive-lroundrect-2023.201.1.0svn39804-54.1.noarch.rpm"
 RPM_HASH = "5444a989e00b84f605d46d3f4749bda36a30b502a4675c3796c65b18c17cc40f1d5b6dc50bfbd731bbdb3095a49e5ee3787dc164ba1d46eca793a3cefc8a809a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lroundrect.sty) \
+RPROVIDES:${PN} += "tex-lroundrect.sty \
 texlive-lroundrect"
 
 RDEPENDS:${PN} += "/bin/sh \

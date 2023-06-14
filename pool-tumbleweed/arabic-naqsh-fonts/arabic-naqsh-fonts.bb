@@ -9,7 +9,7 @@ RPM_HASH = "317313ede4a1ebcadf1fb475dcfbeec03d5b586fcd2023a8d5255d4e07241df10302
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-naqsh-fonts \
-locale(ar)"
+locale-ar"
 
 RDEPENDS:${PN} += ""
 

@@ -14,7 +14,7 @@ RPM_NAME = "etckeeper-1.18.18-2.2.noarch.rpm"
 RPM_HASH = "c90ed7c881c73275b6e2ded5ed80f41eaa6eb9267173d18474ad50cfe2bd5839cfd0df4ed9ffeddc005b2d640ed3b644c919c6c16b60f13ed3f5116e30c46cd9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(etckeeper) \
+RPROVIDES:${PN} += "config-etckeeper \
 etckeeper"
 
 RDEPENDS:${PN} += "/bin/sh \

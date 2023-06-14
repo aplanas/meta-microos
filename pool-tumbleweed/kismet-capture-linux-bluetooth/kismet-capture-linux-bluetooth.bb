@@ -10,12 +10,11 @@ PV = "2022_08_R1"
 RPM_NAME = "kismet-capture-linux-bluetooth-2022_08_R1-2.3.aarch64.rpm"
 RPM_HASH = "27d5eb9b5bb4c6fb7b202762cfe4a71696dd2a53e076105b8792afbf8e26a8068146c47410640251f9c7bbd19b76e9a5cb6dd0f505172b0cf289f057abbf9a20"
 
-RPROVIDES:${PN} += "kismet-capture-linux-bluetooth \
-kismet-capture-linux-bluetooth(aarch-64)"
+RPROVIDES:${PN} += "kismet-capture-linux-bluetooth"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libprotobuf-c.so.1()(64bit) \
-libwebsockets.so.19()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libprotobuf-c.so.1 \
+libwebsockets.so.19"
 
 inherit rpm

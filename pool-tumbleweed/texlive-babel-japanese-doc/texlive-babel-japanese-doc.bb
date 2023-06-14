@@ -9,7 +9,7 @@ RPM_HASH = "8ddcaa8ea27bab0a62db49b5a891d5a3e1a0912456420dd6c43711e19d9893cb8bad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \
-locale(texlive-babel-japanese-doc:ja;en \
+locale(texlive-babel-japanese-doc-ja;en \
 texlive-babel-japanese-doc"
 
 RDEPENDS:${PN} += ""

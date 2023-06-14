@@ -9,16 +9,15 @@ PV = "0.10.5"
 RPM_NAME = "libofx7-0.10.5-1.6.aarch64.rpm"
 RPM_HASH = "1b99284227d72484cfeca78f202e187af451616c3b598c94eab500c093cfc711f6cd2a40f2f003bb9d8f31466ba57a85688e84e421457aa9de64d0aa8a996621"
 
-RPROVIDES:${PN} += "libofx.so.7()(64bit) \
-libofx7 \
-libofx7(aarch-64)"
+RPROVIDES:${PN} += "libofx.so.7 \
+libofx7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
 libofx \
-libosp.so.5()(64bit) \
-libstdc++.so.6()(64bit)"
+libosp.so.5 \
+libstdc++.so.6"
 
 inherit rpm

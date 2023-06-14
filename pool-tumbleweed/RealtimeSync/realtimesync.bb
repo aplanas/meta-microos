@@ -10,24 +10,21 @@ PV = "12.3"
 RPM_NAME = "RealtimeSync-12.3-1.1.aarch64.rpm"
 RPM_HASH = "8bf6e316f9d7f4db80939391076386ea6525cb672376fdbeb64d078fbdc411178e3785c40224649e7215e996a1375e93ea5a6c1e80d591c43a72af245443365f"
 
-RPROVIDES:${PN} += "RealtimeSync \
-RealtimeSync(aarch-64) \
-application() \
-application(RealTimeSync.desktop)"
+RPROVIDES:${PN} += "RealtimeSync"
 
 RDEPENDS:${PN} += "FreeFileSync \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_richtext-suse.so.9.0.0()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-richtext-suse.so.9.0.0"
 
 inherit rpm

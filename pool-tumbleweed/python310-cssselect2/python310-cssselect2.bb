@@ -15,11 +15,11 @@ RPM_HASH = "9bcff42dcaa1dce84e95222aed61de9b3af68f995be5e333f34a6cf8fd9a03a18b87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cssselect2 \
-python3.10dist(cssselect2) \
+python3.10dist-cssselect2 \
 python310-cssselect2 \
-python3dist(cssselect2)"
+python3dist-cssselect2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tinycss2 \
 python310-webencodings"
 

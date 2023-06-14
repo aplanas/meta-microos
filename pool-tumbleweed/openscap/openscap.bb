@@ -14,8 +14,7 @@ PV = "1.3.7"
 RPM_NAME = "openscap-1.3.7-1.1.aarch64.rpm"
 RPM_HASH = "1b4af609c7df29956cdcd993f8828f6908fbc299c80b6adeb401c3156b91510ff9c906337ce36ac64a672b5018e912eaeac14bcd7630c379615dc54ffbb393bf"
 
-RPROVIDES:${PN} += "openscap \
-openscap(aarch-64)"
+RPROVIDES:${PN} += "openscap"
 
 RDEPENDS:${PN} += ""
 

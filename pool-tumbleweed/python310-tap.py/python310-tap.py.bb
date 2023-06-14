@@ -9,13 +9,13 @@ RPM_HASH = "2e7a0ee80e07cd21e4440c52b5cf0ab510d262ad2513c54f99799e84b8db211becae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tap.py \
-python3.10dist(tap.py) \
+python3.10dist-tap.py \
 python310-tap.py \
-python3dist(tap.py)"
+python3dist-tap.py"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

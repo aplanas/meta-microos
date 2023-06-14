@@ -11,7 +11,6 @@ RPM_HASH = "4bb1f5d11d6110f9647d8840aacf11459cbcbe652d79a98b98cc5a0735015e805b09
 
 RPROVIDES:${PN} += "java-11-devel \
 java-11-openj9-devel \
-java-11-openj9-devel(aarch-64) \
 java-devel \
 java-devel-openj9 \
 java-devel-openjdk \
@@ -21,14 +20,14 @@ java-sdk-11-openj9 \
 java-sdk-11-openjdk \
 java-sdk-openj9 \
 java-sdk-openjdk \
-libattach.so()(64bit)"
+libattach.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-11-openj9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjava.so()(64bit) \
-libjli.so()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjava.so \
+libjli.so \
 update-alternatives"
 
 inherit rpm

@@ -12,23 +12,22 @@ PV = "0.18.2.0"
 RPM_NAME = "monero-utils-0.18.2.0-1.1.aarch64.rpm"
 RPM_HASH = "224cc485f9279b3f46566e8f379eadabad4c2f139ea2380c2fcfd32f68cd87558979cd871189692a27c763e1744b84ad7a207e142843ecabc203172debf1be0c"
 
-RPROVIDES:${PN} += "monero-utils \
-monero-utils(aarch-64)"
+RPROVIDES:${PN} += "monero-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libboost_chrono.so.1.81.0()(64bit) \
-libboost_filesystem.so.1.81.0()(64bit) \
-libboost_program_options.so.1.81.0()(64bit) \
-libboost_serialization.so.1.81.0()(64bit) \
-libboost_thread.so.1.81.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libsodium.so.23()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libunbound.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libboost-chrono.so.1.81.0 \
+libboost-filesystem.so.1.81.0 \
+libboost-program-options.so.1.81.0 \
+libboost-serialization.so.1.81.0 \
+libboost-thread.so.1.81.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libreadline.so.8 \
+libsodium.so.23 \
+libssl.so.3 \
+libstdc++.so.6 \
+libunbound.so.8"
 
 inherit rpm

@@ -24,9 +24,9 @@ RPM_NAME = "perl-Set-IntSpan-1.19-1.13.noarch.rpm"
 RPM_HASH = "9d62f3defdb8ec78c802fde319f6637385ff7d9aa0dd6aec878f3036ea8baef2104fd95d3bd7c9241afd2f8e31b877049c67ab1f58445fecc759e542cd7db8a3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Set::IntSpan) \
+RPROVIDES:${PN} += "perl-Set--IntSpan \
 perl-Set-IntSpan"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_HASH = "633cd3a7361ccd4eb0280348fae8ddb174167a6d16fda45de0358cf17c0b4fdf9bdb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytoml \
-python3.10dist(pytoml) \
+python3.10dist-pytoml \
 python310-pytoml \
-python3dist(pytoml)"
+python3dist-pytoml"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310"
 
 inherit rpm

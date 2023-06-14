@@ -19,10 +19,9 @@ PV = "7.17"
 RPM_NAME = "ipset-7.17-1.2.aarch64.rpm"
 RPM_HASH = "d69c5374df6ba3b70b8c113d1a854ed3790ba4bf268cf2d30ff4a7424eb7dee9904ddfaab61d664ba8684635da0e516b9cf3afb38cf3399cac82b869c2d3ec29"
 
-RPROVIDES:${PN} += "ipset \
-ipset(aarch-64)"
+RPROVIDES:${PN} += "ipset"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libipset.so.13()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libipset.so.13"
 
 inherit rpm

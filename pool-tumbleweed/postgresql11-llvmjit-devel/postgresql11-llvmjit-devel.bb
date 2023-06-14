@@ -17,8 +17,7 @@ RPM_HASH = "6306edd5b9b470efa13f0d01ee88cec04d7eda03564eb6862c0a75ff6d50ceaff395
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel \
 postgresql-llvmjit-devel-implementation \
-postgresql11-llvmjit-devel \
-postgresql11-llvmjit-devel(aarch-64)"
+postgresql11-llvmjit-devel"
 
 RDEPENDS:${PN} += "clang15 \
 llvm15 \

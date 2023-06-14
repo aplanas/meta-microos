@@ -12,8 +12,8 @@ RPM_NAME = "texlive-robustindex-2023.201.svn49877-53.1.noarch.rpm"
 RPM_HASH = "8f24b15ab061c7e55d921bb293b657448f4ee0620b341bffa1d0461f02de771922b890c15992778e0c3e543d8244408952eeea644435a0f8cfc8130228ea512c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(robustglossary.sty) \
-tex(robustindex.sty) \
+RPROVIDES:${PN} += "tex-robustglossary.sty \
+tex-robustindex.sty \
 texlive-robustindex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(makeidx.sty) \
+tex-makeidx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

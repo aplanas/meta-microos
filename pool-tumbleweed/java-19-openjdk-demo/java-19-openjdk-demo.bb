@@ -7,8 +7,7 @@ PV = "19.0.2.0"
 RPM_NAME = "java-19-openjdk-demo-19.0.2.0-3.3.aarch64.rpm"
 RPM_HASH = "b72f9caa3191748916ba93248cc8007619decb981d2add72b2d4932c955c79aaceb360653cdafafbe4a3c3b88db121e6685c02b2ebc672a7c179b0998d2ab715"
 
-RPROVIDES:${PN} += "java-19-openjdk-demo \
-java-19-openjdk-demo(aarch-64)"
+RPROVIDES:${PN} += "java-19-openjdk-demo"
 
 RDEPENDS:${PN} += "java-19-openjdk"
 

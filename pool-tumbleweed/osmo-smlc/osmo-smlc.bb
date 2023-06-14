@@ -9,17 +9,16 @@ PV = "0.2.3"
 RPM_NAME = "osmo-smlc-0.2.3-1.1.aarch64.rpm"
 RPM_HASH = "7d9774d45ea11c9367f3512e5e91d6dcb1d88001b8c8bee2c9ec45371505e71cf4fd0178fd69e665d3ea59769095ef5212f514cb22c5ddb3c2f10dc1ed28f572"
 
-RPROVIDES:${PN} += "osmo-smlc \
-osmo-smlc(aarch-64)"
+RPROVIDES:${PN} += "osmo-smlc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libosmo-sigtran.so.7()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmoctrl.so.0()(64bit) \
-libosmogsm.so.18()(64bit) \
-libosmovty.so.9()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libosmo-sigtran.so.7 \
+libosmocore.so.20 \
+libosmoctrl.so.0 \
+libosmogsm.so.18 \
+libosmovty.so.9 \
+libtalloc.so.2"
 
 inherit rpm

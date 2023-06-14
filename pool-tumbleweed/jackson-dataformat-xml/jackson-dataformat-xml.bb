@@ -14,16 +14,16 @@ RPM_HASH = "a2e64652c6441c69e3221c1c3bbdab20fc46df04de359e8f3201aa8b47878793ec6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-xml \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-xml) \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-xml:pom:) \
-osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-xml)"
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-xml \
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-xml-pom- \
+osgi-com.fasterxml.jackson.dataformat.jackson-dataformat-xml"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-annotations) \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(com.fasterxml.woodstox:woodstox-core) \
-mvn(org.codehaus.woodstox:stax2-api)"
+mvn-com.fasterxml.jackson.core-jackson-annotations \
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-com.fasterxml.woodstox-woodstox-core \
+mvn-org.codehaus.woodstox-stax2-api"
 
 inherit rpm

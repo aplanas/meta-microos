@@ -14,14 +14,13 @@ PV = "1.1.4"
 RPM_NAME = "libdmx1-1.1.4-1.19.aarch64.rpm"
 RPM_HASH = "d91213b8e17820b76579094c940b1bc87ca7afd2436ee4fed51b93269f1a3821e0cd00152228bfec29eece44fda007d7ddfe5b17a847f49b4ff925bc7d94702b"
 
-RPROVIDES:${PN} += "libdmx.so.1()(64bit) \
-libdmx1 \
-libdmx1(aarch-64)"
+RPROVIDES:${PN} += "libdmx.so.1 \
+libdmx1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libc.so.6"
 
 inherit rpm

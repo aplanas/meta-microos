@@ -10,11 +10,11 @@ RPM_NAME = "python311-apiron-7.0.0-1.3.noarch.rpm"
 RPM_HASH = "47a2fc8161fa3df6ded4e80c74495ebfd24fb96771c33f333b8f8b0b0f3e816be4edb63570ae7b6f435279d1d151c260a40242b02cfebb534b6ad484d7ff4865"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(apiron) \
+RPROVIDES:${PN} += "python3.11dist-apiron \
 python311-apiron \
-python3dist(apiron)"
+python3dist-apiron"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-requests"
 
 inherit rpm

@@ -13,10 +13,10 @@ RPM_NAME = "python39-rebulk-3.2.0-1.2.noarch.rpm"
 RPM_HASH = "c3d156034a4f31410dbf7a9296f2d1deec4ca5533b5a179b723ba33904a948d862bcafa9c95c36170f95067da103f2a87a16d0f67fe747463710ec1577aa1c46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(rebulk) \
+RPROVIDES:${PN} += "python3.9dist-rebulk \
 python39-rebulk \
-python3dist(rebulk)"
+python3dist-rebulk"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "049c6de995da754c6bc99d48155b2fe9bfff88f09d3148e18fb83f81d9908bb271eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-djangoapp \
-python3.10dist(pytest-djangoapp) \
+python3.10dist-pytest-djangoapp \
 python310-pytest-djangoapp \
-python3dist(pytest-djangoapp)"
+python3dist-pytest-djangoapp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-pytest"
 

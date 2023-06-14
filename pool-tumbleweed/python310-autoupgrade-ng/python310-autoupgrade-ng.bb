@@ -13,11 +13,11 @@ RPM_HASH = "0a76a642b556c19dbf270cf95988617cc5a265a9111aaae06c0ef92054d8cf8a4f85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-autoupgrade-ng \
-python3.10dist(autoupgrade-ng) \
+python3.10dist-autoupgrade-ng \
 python310-autoupgrade-ng \
-python3dist(autoupgrade-ng)"
+python3dist-autoupgrade-ng"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pip"
 
 inherit rpm

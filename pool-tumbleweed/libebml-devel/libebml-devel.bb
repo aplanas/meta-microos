@@ -8,10 +8,9 @@ PV = "1.4.4"
 RPM_NAME = "libebml-devel-1.4.4-1.3.aarch64.rpm"
 RPM_HASH = "9d5424e9bf2e7408de053d2ef13a6c7b93d023e430293c50df1b22db21b6973d0d8be226ecf6e1984e06ee435c1409698109926a0bdc171600cbb0d0abad6390"
 
-RPROVIDES:${PN} += "cmake(EBML) \
+RPROVIDES:${PN} += "cmake-EBML \
 libebml-devel \
-libebml-devel(aarch-64) \
-pkgconfig(libebml)"
+pkgconfig-libebml"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

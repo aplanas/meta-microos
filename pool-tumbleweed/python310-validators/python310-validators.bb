@@ -9,11 +9,11 @@ RPM_HASH = "f6ae2c546fa4597fe425364e1f5ccbc99a35c2510544efd2ad1132235a8307313b4f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-validators \
-python3.10dist(validators) \
+python3.10dist-validators \
 python310-validators \
-python3dist(validators)"
+python3dist-validators"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-decorator"
 
 inherit rpm

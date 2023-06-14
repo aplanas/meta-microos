@@ -8,14 +8,13 @@ PV = "1.4.30"
 RPM_NAME = "remmina-plugin-exec-1.4.30-1.1.aarch64.rpm"
 RPM_HASH = "d4f68f26db40d8891684c5af3318f1a3b97049eb4d28868b63e5e32a0ce0f2c555b233bb71724eaa645db1b98c784aef825815bebd328a0977f80f319bfb851d"
 
-RPROVIDES:${PN} += "remmina-plugin-exec \
-remmina-plugin-exec(aarch-64)"
+RPROVIDES:${PN} += "remmina-plugin-exec"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
 remmina"
 
 inherit rpm

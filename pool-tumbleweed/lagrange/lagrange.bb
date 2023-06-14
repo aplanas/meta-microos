@@ -10,29 +10,21 @@ PV = "1.16.2"
 RPM_NAME = "lagrange-1.16.2-1.1.aarch64.rpm"
 RPM_HASH = "89805012df44c267c8da9c8ee9f53b8991687f8161dbca712f3e1bb8472bf67a4a548a363b82a99573a77276f58a32a4333f99087d770cb155403ee2025dfc0b"
 
-RPROVIDES:${PN} += "application() \
-application(fi.skyjake.Lagrange.desktop) \
-lagrange \
-lagrange(aarch-64) \
-metainfo() \
-metainfo(fi.skyjake.Lagrange.appdata.xml) \
-mimehandler(x-scheme-handler/gemini) \
-mimehandler(x-scheme-handler/gopher) \
-mimehandler(x-scheme-handler/spartan)"
+RPROVIDES:${PN} += "lagrange"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libfribidi.so.0()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmpg123.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libunistring.so.5()(64bit) \
-libwebp.so.7()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libX11.so.6 \
+libc.so.6 \
+libcrypto.so.3 \
+libfribidi.so.0 \
+libharfbuzz.so.0 \
+libm.so.6 \
+libmpg123.so.0 \
+libpcre2-8.so.0 \
+libssl.so.3 \
+libunistring.so.5 \
+libwebp.so.7 \
+libz.so.1"
 
 inherit rpm

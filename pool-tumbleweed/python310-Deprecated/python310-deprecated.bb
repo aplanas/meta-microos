@@ -11,12 +11,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Deprecated \
 python3-deprecated \
-python3.10dist(deprecated) \
+python3.10dist-deprecated \
 python310-Deprecated \
 python310-deprecated \
-python3dist(deprecated)"
+python3dist-deprecated"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-wrapt"
 
 inherit rpm

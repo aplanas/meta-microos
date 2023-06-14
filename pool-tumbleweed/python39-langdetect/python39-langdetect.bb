@@ -12,11 +12,11 @@ RPM_NAME = "python39-langdetect-1.0.9-2.1.noarch.rpm"
 RPM_HASH = "134f027a2072627bf2bc2191eb005b513904558bfe63b22e383959ea8879f01b976e9adccd7d307996fa5faa1c7882551084d3d92024c96bebf7fbadc147483b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(langdetect) \
+RPROVIDES:${PN} += "python3.9dist-langdetect \
 python39-langdetect \
-python3dist(langdetect)"
+python3dist-langdetect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-six"
 
 inherit rpm

@@ -13,31 +13,30 @@ PV = "0.9.0+17"
 RPM_NAME = "twin-0.9.0+17-3.5.aarch64.rpm"
 RPM_HASH = "b666c9a098c2392163449c1ac739ba832e274287ac4899af5cfea1046ae98252632ad9ade76e9d1f544ea4e9af96ae1c2fd94db0e0586c74e30563aa0fcafc02"
 
-RPROVIDES:${PN} += "libhw_X11-0.9.1.so()(64bit) \
-libhw_display-0.9.1.so()(64bit) \
-libhw_tty-0.9.1.so()(64bit) \
-libhw_twin-0.9.1.so()(64bit) \
-libhw_xft-0.9.1.so()(64bit) \
-librcparse-0.9.1.so()(64bit) \
-libsocket-0.9.1.so()(64bit) \
-libterm-0.9.1.so()(64bit) \
-libwm-0.9.1.so()(64bit) \
-twin \
-twin(aarch-64)"
+RPROVIDES:${PN} += "libhw-X11-0.9.1.so \
+libhw-display-0.9.1.so \
+libhw-tty-0.9.1.so \
+libhw-twin-0.9.1.so \
+libhw-xft-0.9.1.so \
+librcparse-0.9.1.so \
+libsocket-0.9.1.so \
+libterm-0.9.1.so \
+libwm-0.9.1.so \
+twin"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/true \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXft.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libgpm.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libtstl.so.1()(64bit) \
-libtutf.so.1()(64bit) \
-libtw.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXft.so.2 \
+libc.so.6 \
+libcrypt.so.1 \
+libgpm.so.2 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+libtstl.so.1 \
+libtutf.so.1 \
+libtw.so.1 \
+libz.so.1"
 
 inherit rpm

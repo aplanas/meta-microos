@@ -13,15 +13,14 @@ PV = "1.0.36"
 RPM_NAME = "tinc-1.0.36-3.2.aarch64.rpm"
 RPM_HASH = "9031015669c4b6fcf0ad23d3bf4de61138249babd318d6692eabdc9fc5ca837d8845132317eac3288c60f2257c209f0223ae6a4e0740a3b76d00ec6c680da57a"
 
-RPROVIDES:${PN} += "tinc \
-tinc(aarch-64)"
+RPROVIDES:${PN} += "tinc"
 
 RDEPENDS:${PN} += "/bin/sh \
 info \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-liblzo2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+liblzo2.so.2 \
+libz.so.1"
 
 inherit rpm

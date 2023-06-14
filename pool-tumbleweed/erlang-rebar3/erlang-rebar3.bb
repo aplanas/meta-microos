@@ -13,12 +13,11 @@ PV = "3.18.0"
 RPM_NAME = "erlang-rebar3-3.18.0-1.1.aarch64.rpm"
 RPM_HASH = "acf17d04f7480c009e906646ffc0aeca3f87d15f4232651e2dbdf1804a451d8ed412376f8a07a7648ea3991c6a59144e977ec0872f0856e6f1d7b2a4b3ecd453"
 
-RPROVIDES:${PN} += "erlang-rebar3 \
-erlang-rebar3(aarch-64)"
+RPROVIDES:${PN} += "erlang-rebar3"
 
 RDEPENDS:${PN} += "/usr/bin/escript \
 erlang \
-erlang-erlware_commons \
+erlang-erlware-commons \
 erlang-providers"
 
 inherit rpm

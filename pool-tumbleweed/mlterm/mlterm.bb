@@ -32,45 +32,40 @@ PV = "3.9.2"
 RPM_NAME = "mlterm-3.9.2-3.3.aarch64.rpm"
 RPM_HASH = "3caf97a4d868e88ea2f1658c1017d18845a58f891bfe5b9e5b50828c8eed89b89ed7adde48f9fc93960eb784a278d829ac5f1fe1546aa3dae92fb32c08027625"
 
-RPROVIDES:${PN} += "application() \
-application(mlterm.desktop) \
-config(mlterm) \
-libathena.so()(64bit) \
-libim-kbd-wl.so()(64bit) \
-libim-kbd.so()(64bit) \
-libim-skk-wl.so()(64bit) \
-libim-skk.so()(64bit) \
-libmotif.so()(64bit) \
-libmozmodern.so()(64bit) \
-libnext.so()(64bit) \
-libpixmap_engine.so()(64bit) \
-libsample.so()(64bit) \
-libtype_cairo.so()(64bit) \
-libtype_cairo.so(mlterm)(64bit) \
-locale(xorg-x11:ja;ko;zh;ar;he) \
-mlterm \
-mlterm(aarch-64)"
+RPROVIDES:${PN} += "config-mlterm \
+libathena.so \
+libim-kbd-wl.so \
+libim-kbd.so \
+libim-skk-wl.so \
+libim-skk.so \
+libmotif.so \
+libmozmodern.so \
+libnext.so \
+libpixmap-engine.so \
+libsample.so \
+libtype-cairo.so \
+locale-xorg-x11-ja;ko;zh;ar;he \
+mlterm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmef.so.3()(64bit) \
-libmef.so.3(mef)(64bit) \
-libmlterm_coreotl.so()(64bit) \
-libpobl.so.2()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-cursor.so.0()(64bit) \
-libxkbcommon.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libmef.so.3 \
+libmlterm-coreotl.so \
+libpobl.so.2 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0 \
+libxkbcommon.so.0 \
 mlterm-common"
 
 inherit rpm

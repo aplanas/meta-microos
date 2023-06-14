@@ -8,18 +8,18 @@ RPM_NAME = "python310-whois_similarity_distance-1.0.2-8.4.noarch.rpm"
 RPM_HASH = "3f22c8c03f753cb2433abae0f4907c6373c3a2760c8f8cae3fc3f22e845ecd83f07a8b822b914e72ff71da1d9ea6570bf1c097afe8bfef2687a48af43200673b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-whois_similarity_distance \
-python3.10dist(whois-similarity-distance) \
-python310-whois_similarity_distance \
-python3dist(whois-similarity-distance)"
+RPROVIDES:${PN} += "python3-whois-similarity-distance \
+python3.10dist-whois-similarity-distance \
+python310-whois-similarity-distance \
+python3dist-whois-similarity-distance"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Levenshtein \
 python310-certifi \
 python310-chardet \
-python310-ez_setup \
+python310-ez-setup \
 python310-future \
 python310-idna \
 python310-numpy \

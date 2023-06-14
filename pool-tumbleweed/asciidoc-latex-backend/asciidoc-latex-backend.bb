@@ -13,17 +13,17 @@ RPROVIDES:${PN} += "asciidoc-latex-backend"
 
 RDEPENDS:${PN} += "asciidoc \
 dblatex \
-tex(8r.enc) \
-tex(fancybox.sty) \
-tex(mathrsfs.sty) \
-tex(pcrr8c.tfm) \
-tex(phvr8t.tfm) \
-tex(ptmr8t.tfm) \
-tex(ptmri7t.tfm) \
-tex(rsfs10.tfm) \
-tex(upquote.sty) \
-tex(zptmcm7v.tfm) \
-tex(zptmcm7y.tfm) \
+tex-8r.enc \
+tex-fancybox.sty \
+tex-mathrsfs.sty \
+tex-pcrr8c.tfm \
+tex-phvr8t.tfm \
+tex-ptmr8t.tfm \
+tex-ptmri7t.tfm \
+tex-rsfs10.tfm \
+tex-upquote.sty \
+tex-zptmcm7v.tfm \
+tex-zptmcm7y.tfm \
 texlive-metafont-bin"
 
 inherit rpm

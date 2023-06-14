@@ -9,11 +9,11 @@ RPM_HASH = "3feb925664522bb0a808297218a9a775fc7e96dc0d680460bdf22cdf23123fc262d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pygments-pytest \
-python3.10dist(pygments-pytest) \
+python3.10dist-pygments-pytest \
 python310-pygments-pytest \
-python3dist(pygments-pytest)"
+python3dist-pygments-pytest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pygments \
 python310-pytest"
 

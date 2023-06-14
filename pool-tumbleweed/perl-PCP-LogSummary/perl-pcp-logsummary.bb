@@ -12,12 +12,11 @@ PV = "5.2.5"
 RPM_NAME = "perl-PCP-LogSummary-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "de9c6ef62be59bd2fd7a4cc8631015fb8a4df7c4150089f047f4940898292117081d5d61cc7241ed2b1e3fb32c773a66042f51143d1a5ec5e0ef3ab997c8e169"
 
-RPROVIDES:${PN} += "perl(PCP::LogSummary) \
-perl-PCP-LogSummary \
-perl-PCP-LogSummary(aarch-64)"
+RPROVIDES:${PN} += "perl-PCP--LogSummary \
+perl-PCP-LogSummary"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

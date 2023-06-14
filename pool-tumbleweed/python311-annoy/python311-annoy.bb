@@ -11,16 +11,15 @@ PV = "1.17.1"
 RPM_NAME = "python311-annoy-1.17.1-1.5.aarch64.rpm"
 RPM_HASH = "66cd2ff7bf637fc6c06064fb71b5a0ce55aa05b7dc42005e40e9e3dc415f8b01a4ed4051f2c8e0e50705ef4fd6e2428776ce958cda10d31ed0526c64a3454a77"
 
-RPROVIDES:${PN} += "python3.11dist(annoy) \
+RPROVIDES:${PN} += "python3.11dist-annoy \
 python311-annoy \
-python311-annoy(aarch-64) \
-python3dist(annoy)"
+python3dist-annoy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

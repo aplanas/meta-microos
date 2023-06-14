@@ -13,7 +13,7 @@ RPM_NAME = "texlive-mversion-2023.201.1.0.1svn29370-54.1.noarch.rpm"
 RPM_HASH = "7347f6b7d5812a12c8dcc16fc5cbb501a5cc1db81fba4db2f79703cf1a8a01a15258163076aa2c88d7241021a8d7876fb09f5f3d5c5cb4426bf9897ee727d322"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mVersion.sty) \
+RPROVIDES:${PN} += "tex-mVersion.sty \
 texlive-mversion"
 
 RDEPENDS:${PN} += "/bin/sh \

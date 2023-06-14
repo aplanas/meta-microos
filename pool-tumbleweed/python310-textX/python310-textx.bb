@@ -19,13 +19,13 @@ RPM_HASH = "a427b0ca2a2523d216c6ba38c09dfd515e3630f285f1d1cca0adf565594320495643
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-textX \
-python3.10dist(textx) \
+python3.10dist-textx \
 python310-textX \
-python3dist(textx)"
+python3dist-textx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Arpeggio \
 python310-click \
 python310-future \

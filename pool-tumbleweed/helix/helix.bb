@@ -8,28 +8,10 @@ PV = "23.05"
 RPM_NAME = "helix-23.05-1.1.aarch64.rpm"
 RPM_HASH = "818f884860175cee6ad936ad209953f7e1478715f5db8111c044cfb75d4759fc386308d4507a8301d015986b0c743640bc3fca517aa3adeb7780d159686741dc"
 
-RPROVIDES:${PN} += "application() \
-application(helix.desktop) \
-helix \
-helix(aarch-64) \
-mimehandler(application/x-shellscript) \
-mimehandler(text/english) \
-mimehandler(text/plain) \
-mimehandler(text/x-c) \
-mimehandler(text/x-c++) \
-mimehandler(text/x-c++hdr) \
-mimehandler(text/x-c++src) \
-mimehandler(text/x-chdr) \
-mimehandler(text/x-csrc) \
-mimehandler(text/x-java) \
-mimehandler(text/x-makefile) \
-mimehandler(text/x-moc) \
-mimehandler(text/x-pascal) \
-mimehandler(text/x-tcl) \
-mimehandler(text/x-tex)"
+RPROVIDES:${PN} += "helix"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
 
 inherit rpm

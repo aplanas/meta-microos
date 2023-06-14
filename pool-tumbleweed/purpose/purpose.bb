@@ -11,56 +11,50 @@ PV = "5.106.0"
 RPM_NAME = "purpose-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "c5565e8ee55d5980c207dbb7b11c4aa31a0f8d9ccb3669a4bd112f7eefb3ecd9805efd2a6db1af8a434bbb320314dad92500e58ddc8dc6cc29a4d2033cb0bd7d"
 
-RPROVIDES:${PN} += "libPhabricatorHelpers.so.5()(64bit) \
-libReviewboardHelpers.so.5()(64bit) \
-libphabricatorquickplugin.so()(64bit) \
-libpurposequickplugin.so()(64bit) \
-librbpurposequickplugin.so()(64bit) \
+RPROVIDES:${PN} += "libPhabricatorHelpers.so.5 \
+libReviewboardHelpers.so.5 \
+libphabricatorquickplugin.so \
+libpurposequickplugin.so \
+librbpurposequickplugin.so \
 purpose \
-purpose(aarch-64) \
-qt5qmlimport(org.kde.purpose.1) \
-qt5qmlimport(org.kde.purpose.phabricator.1) \
-qt5qmlimport(org.kde.purpose.reviewboard.1)"
+qt5qmlimport-org.kde.purpose.1 \
+qt5qmlimport-org.kde.purpose.phabricator.1 \
+qt5qmlimport-org.kde.purpose.reviewboard.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdeclarative-components \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libKF5Purpose.so.5()(64bit) \
-libKF5PurposeWidgets.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5Notifications.so.5 \
+libKF5Purpose.so.5 \
+libKF5PurposeWidgets.so.5 \
 libKF5QuickAddons5 \
-libKF5Service.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libaccounts-qt5.so.1()(64bit) \
-libc.so.6()(64bit) \
-libkaccounts.so.2()(64bit) \
+libKF5Service.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Widgets.so.5 \
+libaccounts-qt5.so.1 \
+libc.so.6 \
+libkaccounts.so.2 \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.2) \
-qt5qmlimport(QtQuick.Dialogs.1) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(QtQuick.Window.2) \
-qt5qmlimport(org.kde.bluezqt.1) \
-qt5qmlimport(org.kde.kirigami.2) \
-qt5qmlimport(org.kde.kquickcontrolsaddons.2) \
-qt5qmlimport(org.kde.prison.1) \
-qt5qmlimport(org.kde.purpose.1) \
-qt5qmlimport(org.kde.purpose.phabricator.1) \
-qt5qmlimport(org.kde.purpose.reviewboard.1)"
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.2 \
+qt5qmlimport-QtQuick.Dialogs.1 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-QtQuick.Window.2 \
+qt5qmlimport-org.kde.bluezqt.1 \
+qt5qmlimport-org.kde.kirigami.2 \
+qt5qmlimport-org.kde.kquickcontrolsaddons.2 \
+qt5qmlimport-org.kde.prison.1 \
+qt5qmlimport-org.kde.purpose.1 \
+qt5qmlimport-org.kde.purpose.phabricator.1 \
+qt5qmlimport-org.kde.purpose.reviewboard.1"
 
 inherit rpm

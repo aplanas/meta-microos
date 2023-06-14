@@ -19,16 +19,15 @@ PV = "1.1.0"
 RPM_NAME = "jconvolver-1.1.0-1.3.aarch64.rpm"
 RPM_HASH = "c13145f009a0416f800f56ea716b41ea5dab55512af853e70090c52a1c87a3b6805f1ba327826c5008038bb50b74eca4f92cb212261ecafa14c409b1d8c42888"
 
-RPROVIDES:${PN} += "jconvolver \
-jconvolver(aarch-64)"
+RPROVIDES:${PN} += "jconvolver"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libm.so.6()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libzita-convolver.so.4()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libm.so.6 \
+libsndfile.so.1 \
+libstdc++.so.6 \
+libzita-convolver.so.4"
 
 inherit rpm

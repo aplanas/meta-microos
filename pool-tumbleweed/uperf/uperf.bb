@@ -30,15 +30,13 @@ PV = "1.0.7"
 RPM_NAME = "uperf-1.0.7-1.14.aarch64.rpm"
 RPM_HASH = "bc18a38b73cfb422dd90057ec7ff203cd9a991dea79032b082d943dc17e7aea0de2ecce31fa5df2c555aad4f896213d941cfd6936493012441ea5251e730799e"
 
-RPROVIDES:${PN} += "uperf \
-uperf(aarch-64)"
+RPROVIDES:${PN} += "uperf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libsctp.so.1()(64bit) \
-libsctp.so.1(VERS_1)(64bit) \
-libssl.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libsctp.so.1 \
+libssl.so.3"
 
 inherit rpm

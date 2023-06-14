@@ -12,8 +12,7 @@ RPM_NAME = "libpwquality-devel-1.4.5-1.2.aarch64.rpm"
 RPM_HASH = "9801b50bac627798d7f87077618efa9f6d6e04285db54037dffd521caadd71cfc160d71ec8b4b3e23c4011b6810c55d8cf971b597e6b47d332b769c7a16038dd"
 
 RPROVIDES:${PN} += "libpwquality-devel \
-libpwquality-devel(aarch-64) \
-pkgconfig(pwquality)"
+pkgconfig-pwquality"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpwquality1 \

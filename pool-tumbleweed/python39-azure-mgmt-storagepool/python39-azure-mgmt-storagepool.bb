@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-mgmt-storagepool-1.0.0-1.8.noarch.rpm"
 RPM_HASH = "11993ba78be6dc59471dacd8d779f0353909d1501b95ba8058c563519f4914071af5a8c5f6a09ea73f19d9caf995db6bcd48cfdb91c8b354cfa7488c3568bc05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-storagepool) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-storagepool \
 python39-azure-mgmt-storagepool \
-python3dist(azure-mgmt-storagepool)"
+python3dist-azure-mgmt-storagepool"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

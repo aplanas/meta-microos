@@ -11,10 +11,10 @@ RPM_HASH = "aa1a9d3d0165b5eb46727c4655efb5d2a6a2963feafb40d195f8c0935b3952caad6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-poetry-core \
-python3.10dist(poetry-core) \
+python3.10dist-poetry-core \
 python310-poetry-core \
-python3dist(poetry-core)"
+python3dist-poetry-core"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

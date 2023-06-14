@@ -15,13 +15,13 @@ RPM_HASH = "7e2e364dcd9b8b58a579bfba06f9dd87aa0335656b0465f0903ae20abd46ae8ba50c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-marshalling \
-mvn(org.jboss.marshalling:jboss-marshalling) \
-mvn(org.jboss.marshalling:jboss-marshalling-parent:pom:) \
-mvn(org.jboss.marshalling:jboss-marshalling-river) \
-mvn(org.jboss.marshalling:jboss-marshalling-river:pom:) \
-mvn(org.jboss.marshalling:jboss-marshalling-serial) \
-mvn(org.jboss.marshalling:jboss-marshalling-serial:pom:) \
-mvn(org.jboss.marshalling:jboss-marshalling:pom:)"
+mvn-org.jboss.marshalling-jboss-marshalling \
+mvn-org.jboss.marshalling-jboss-marshalling-parent-pom- \
+mvn-org.jboss.marshalling-jboss-marshalling-pom- \
+mvn-org.jboss.marshalling-jboss-marshalling-river \
+mvn-org.jboss.marshalling-jboss-marshalling-river-pom- \
+mvn-org.jboss.marshalling-jboss-marshalling-serial \
+mvn-org.jboss.marshalling-jboss-marshalling-serial-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

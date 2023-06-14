@@ -20,12 +20,12 @@ RPM_HASH = "8baea9544cf4123b9d876fb18d3c54d595635a92c7fccbebe7eaca0ed5a1ed90d68c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-io \
-mvn(org.eclipse.jetty:jetty-io) \
-mvn(org.eclipse.jetty:jetty-io:pom:) \
-osgi(org.eclipse.jetty.io)"
+mvn-org.eclipse.jetty-jetty-io \
+mvn-org.eclipse.jetty-jetty-io-pom- \
+osgi-org.eclipse.jetty.io"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.eclipse.jetty:jetty-util)"
+mvn-org.eclipse.jetty-jetty-util"
 
 inherit rpm

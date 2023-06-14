@@ -11,10 +11,10 @@ RPM_NAME = "python311-logzero-1.7.0-3.8.noarch.rpm"
 RPM_HASH = "365a8fde4785ff56f3c7d773bbdb4b180d783ad95406d6668c7a5da0d16fbabe90b88ecbb32ff039eb7b25c72a05dbad2359dfb5b59858fda6a1d4d670c20d52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(logzero) \
+RPROVIDES:${PN} += "python3.11dist-logzero \
 python311-logzero \
-python3dist(logzero)"
+python3dist-logzero"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

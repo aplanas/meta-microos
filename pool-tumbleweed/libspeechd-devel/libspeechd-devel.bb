@@ -15,13 +15,12 @@ RPM_NAME = "libspeechd-devel-0.11.4-1.3.aarch64.rpm"
 RPM_HASH = "86e9d3d13122ff2de6636365e2ab88b749df122a92b7e834c0e830229d9035c1ee4a94d10337a7423a5791b76e2c553b1e0dd14e88882f4b849c48cdc978f88a"
 
 RPROVIDES:${PN} += "libspeechd-devel \
-libspeechd-devel(aarch-64) \
-pkgconfig(speech-dispatcher) \
+pkgconfig-speech-dispatcher \
 speech-dispatcher-devel \
 speechd-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspeechd2 \
-pkgconfig(glib-2.0)"
+pkgconfig-glib-2.0"
 
 inherit rpm

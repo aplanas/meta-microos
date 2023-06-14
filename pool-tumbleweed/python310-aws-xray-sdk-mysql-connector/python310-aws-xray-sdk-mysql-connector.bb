@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-aws-xray-sdk-mysql-connector \
 python310-aws-xray-sdk-mysql-connector"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aws-xray-sdk \
 python310-mysql-connector-python"
 

@@ -8,8 +8,7 @@ PV = "0.3.3"
 RPM_NAME = "lensfun-tools-0.3.3-1.7.aarch64.rpm"
 RPM_HASH = "de8898f05f728f61753250b5981266ead5dfdfce684810bb39af678ea01de3571fb7de29a8ba70ca45d8f9eaf4b39e41e23fa06dfad87aca07d98a9fcceb4d57"
 
-RPROVIDES:${PN} += "lensfun-tools \
-lensfun-tools(aarch-64)"
+RPROVIDES:${PN} += "lensfun-tools"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \

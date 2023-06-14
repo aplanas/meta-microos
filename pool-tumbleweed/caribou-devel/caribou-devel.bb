@@ -11,16 +11,15 @@ RPM_NAME = "caribou-devel-0.4.21-8.7.aarch64.rpm"
 RPM_HASH = "88ccd066fd64caa2e6d35410b13b24c5ee5289cdc8aab12f36fb2d4960703404485cdd89db1f4a8a30ab7d5d65e43ed132b764bec39eb421025756cf8b7f68d2"
 
 RPROVIDES:${PN} += "caribou-devel \
-caribou-devel(aarch-64) \
-pkgconfig(caribou-1.0)"
+pkgconfig-caribou-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcaribou0 \
-pkgconfig(gdk-x11-3.0) \
-pkgconfig(gee-0.8) \
-pkgconfig(libxklavier) \
-pkgconfig(libxml-2.0) \
-pkgconfig(xtst) \
-typelib-1_0-Caribou-1_0"
+pkgconfig-gdk-x11-3.0 \
+pkgconfig-gee-0.8 \
+pkgconfig-libxklavier \
+pkgconfig-libxml-2.0 \
+pkgconfig-xtst \
+typelib-1-0-Caribou-1-0"
 
 inherit rpm

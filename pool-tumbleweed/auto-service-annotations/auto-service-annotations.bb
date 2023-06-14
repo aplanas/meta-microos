@@ -9,8 +9,8 @@ RPM_HASH = "ab65cd241b0447c3dffc414fce09fdebaaa7c9a8a39a1e30530a8b06eba93bc70447
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto-service-annotations \
-mvn(com.google.auto.service:auto-service-annotations) \
-mvn(com.google.auto.service:auto-service-annotations:pom:)"
+mvn-com.google.auto.service-auto-service-annotations \
+mvn-com.google.auto.service-auto-service-annotations-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

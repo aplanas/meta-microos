@@ -15,13 +15,13 @@ RPM_HASH = "0c878988a608bf1ba9c925687a4eafbbd95e376cc87af8d8b28b9fb53cebf499d532
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gwpy \
-python3.10dist(gwpy) \
+python3.10dist-gwpy \
 python310-gwpy \
-python3dist(gwpy)"
+python3dist-gwpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-astropy \
 python310-dqsegdb2 \
 python310-gwosc \

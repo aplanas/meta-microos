@@ -11,11 +11,11 @@ RPM_HASH = "dfc38a4768192e49c6ae51fe4f73c3e3c71d7ec7b32a74192ec07c835fbcc73e2199
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-translate \
-python3.10dist(google-cloud-translate) \
+python3.10dist-google-cloud-translate \
 python310-google-cloud-translate \
-python3dist(google-cloud-translate)"
+python3dist-google-cloud-translate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-api-core \
 python310-google-cloud-core \
 python310-proto-plus \

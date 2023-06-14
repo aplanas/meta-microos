@@ -14,12 +14,12 @@ RPM_HASH = "08479781b8405861029e69bc130c8971a4befba52fa046a89913bb6051323088e1f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-msi \
-python3.10dist(azure-mgmt-msi) \
+python3.10dist-azure-mgmt-msi \
 python310-azure-mgmt-msi \
-python3dist(azure-mgmt-msi)"
+python3dist-azure-mgmt-msi"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

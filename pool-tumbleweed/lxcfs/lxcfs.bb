@@ -9,15 +9,14 @@ PV = "5.0.2"
 RPM_NAME = "lxcfs-5.0.2-2.2.aarch64.rpm"
 RPM_HASH = "11540f301c54b3ebafdd9eed358547fab43dfcc9082d874ec99ea5855a8adf0ef7704af2b7b242516cbc226de8f9455a48c270c88bfcc1762d06e94efd6ad87f"
 
-RPROVIDES:${PN} += "liblxcfs.so()(64bit) \
-lxcfs \
-lxcfs(aarch-64)"
+RPROVIDES:${PN} += "liblxcfs.so \
+lxcfs"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfuse.so.2 \
+libgcc-s.so.1 \
 systemd"
 
 inherit rpm

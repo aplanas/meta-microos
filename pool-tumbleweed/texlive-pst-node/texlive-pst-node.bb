@@ -15,9 +15,9 @@ RPM_NAME = "texlive-pst-node-2023.201.1.43svn61838-52.1.noarch.rpm"
 RPM_HASH = "99f137b85f7ac563ae50a4d65712b44296aa30cde4b34f3a0a105a3d471a227ad7fac213f5c51d4ee26238a2287cc5fff0b07e8df8f7a7443b757352b4beaf96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-node.sty) \
-tex(pst-node.tex) \
-tex(pst-node97.tex) \
+RPROVIDES:${PN} += "tex-pst-node.sty \
+tex-pst-node.tex \
+tex-pst-node97.tex \
 texlive-pst-node"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

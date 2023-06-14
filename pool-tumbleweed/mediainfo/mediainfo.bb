@@ -23,14 +23,13 @@ RPM_NAME = "mediainfo-23.04-1.2.aarch64.rpm"
 RPM_HASH = "b256c78fdfbbb137193b7c24e0ec2b06b3293be73bc8583e34114df0703cdffc3ed90c8a32f1adc51ba6128ffce9fe968d3181f6a84ad656f25438018669e251"
 
 RPROVIDES:${PN} += "MediaInfo \
-mediainfo \
-mediainfo(aarch-64)"
+mediainfo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmediainfo.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libzen.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmediainfo.so.0 \
+libstdc++.so.6 \
+libzen.so.0"
 
 inherit rpm

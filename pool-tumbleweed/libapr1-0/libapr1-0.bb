@@ -17,13 +17,12 @@ PV = "1.7.4"
 RPM_NAME = "libapr1-0-1.7.4-1.1.aarch64.rpm"
 RPM_HASH = "6eeb132f07ce749b1cd67de8110cd9c3f67762057805b08ac849840313cacd400237ecbb5358697b67e7a3599ae18b6f90718a491ce7966674151a413d8e8224"
 
-RPROVIDES:${PN} += "libapr-1.so.0()(64bit) \
-libapr1-0 \
-libapr1-0(aarch-64)"
+RPROVIDES:${PN} += "libapr-1.so.0 \
+libapr1-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libuuid.so.1"
 
 inherit rpm

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-clrscode-2023.201.1.7svn51136-53.1.noarch.rpm"
 RPM_HASH = "d63412e0cab164157a8355e023099fbc3c4324781891a9361e759c8d2a1634538233bce16de6e17f2d3b59f9552093b2368d3d3c29900d4cd545f215b1dba1ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(clrscode.sty) \
+RPROVIDES:${PN} += "tex-clrscode.sty \
 texlive-clrscode"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(latexsym.sty) \
+tex-latexsym.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,70 +9,59 @@ PV = "3.4.19"
 RPM_NAME = "libopencv3_4-3.4.19-1.1.aarch64.rpm"
 RPM_HASH = "6cb588215f4ffbd060a7f5f784e192cf8423b101c3c0908f8c5e62bd33f2da480764a5e6d881455731f077dd3f57a81998ab4d6e32ae606e282ae22d1d966267"
 
-RPROVIDES:${PN} += "libopencv3_4 \
-libopencv3_4(aarch-64) \
-libopencv_calib3d.so.3.4()(64bit) \
-libopencv_core.so.3.4()(64bit) \
-libopencv_dnn.so.3.4()(64bit) \
-libopencv_face.so.3.4()(64bit) \
-libopencv_features2d.so.3.4()(64bit) \
-libopencv_flann.so.3.4()(64bit) \
-libopencv_highgui.so.3.4()(64bit) \
-libopencv_imgcodecs.so.3.4()(64bit) \
-libopencv_imgproc.so.3.4()(64bit) \
-libopencv_ml.so.3.4()(64bit) \
-libopencv_objdetect.so.3.4()(64bit) \
-libopencv_photo.so.3.4()(64bit) \
-libopencv_plot.so.3.4()(64bit) \
-libopencv_shape.so.3.4()(64bit) \
-libopencv_stitching.so.3.4()(64bit) \
-libopencv_superres.so.3.4()(64bit) \
-libopencv_tracking.so.3.4()(64bit) \
-libopencv_video.so.3.4()(64bit) \
-libopencv_videoio.so.3.4()(64bit) \
-libopencv_videostab.so.3.4()(64bit)"
+RPROVIDES:${PN} += "libopencv-calib3d.so.3.4 \
+libopencv-core.so.3.4 \
+libopencv-dnn.so.3.4 \
+libopencv-face.so.3.4 \
+libopencv-features2d.so.3.4 \
+libopencv-flann.so.3.4 \
+libopencv-highgui.so.3.4 \
+libopencv-imgcodecs.so.3.4 \
+libopencv-imgproc.so.3.4 \
+libopencv-ml.so.3.4 \
+libopencv-objdetect.so.3.4 \
+libopencv-photo.so.3.4 \
+libopencv-plot.so.3.4 \
+libopencv-shape.so.3.4 \
+libopencv-stitching.so.3.4 \
+libopencv-superres.so.3.4 \
+libopencv-tracking.so.3.4 \
+libopencv-video.so.3.4 \
+libopencv-videoio.so.3.4 \
+libopencv-videostab.so.3.4 \
+libopencv3-4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5OpenGL.so.5()(64bit) \
-libQt5OpenGL.so.5(Qt_5)(64bit) \
-libQt5Test.so.5()(64bit) \
-libQt5Test.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libavcodec.so.58.134()(64bit) \
-libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \
-libavformat.so.58.76()(64bit) \
-libavformat.so.58.76(LIBAVFORMAT_58)(64bit) \
-libavutil.so.56.70()(64bit) \
-libavutil.so.56.70(LIBAVUTIL_56)(64bit) \
-libc.so.6()(64bit) \
-libdc1394.so.25()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstapp-1.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstriff-1.0.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libopenblas.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libswscale.so.5.9()(64bit) \
-libswscale.so.5.9(LIBSWSCALE_5)(64bit) \
-libtbb.so.12()(64bit) \
-libtiff.so.6()(64bit) \
-libwebp.so.7()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libOpenEXR-3-1.so.30 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5OpenGL.so.5 \
+libQt5Test.so.5 \
+libQt5Widgets.so.5 \
+libavcodec.so.58.134 \
+libavformat.so.58.76 \
+libavutil.so.56.70 \
+libc.so.6 \
+libdc1394.so.25 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstapp-1.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstriff-1.0.so.0 \
+libjpeg.so.8 \
+libm.so.6 \
+libopenblas.so.0 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libswscale.so.5.9 \
+libtbb.so.12 \
+libtiff.so.6 \
+libwebp.so.7 \
+libz.so.1"
 
 inherit rpm

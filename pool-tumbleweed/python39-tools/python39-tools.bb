@@ -10,11 +10,10 @@ RPM_HASH = "43dd0e81865047d84a6036a1caddb2de72b7fd74c27ee6d0c429c994b104303c9281
 
 RPROVIDES:${PN} += "python39-2to3 \
 python39-demo \
-python39-tools \
-python39-tools(aarch-64)"
+python39-tools"
 
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-base"
 
 inherit rpm

@@ -17,13 +17,13 @@ RPM_HASH = "14e525834e1b462443cecb9530445cb7d67b61d8cfe2480741798a33c4b9ee124c5a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openai \
-python3.10dist(openai) \
+python3.10dist-openai \
 python310-openai \
-python3dist(openai)"
+python3dist-openai"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiohttp \
 python310-requests \
 python310-tqdm \

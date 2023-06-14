@@ -21,8 +21,8 @@ RPM_NAME = "bcel5_3-5.3-21.2.noarch.rpm"
 RPM_HASH = "681414b5039d03bee1c912db809b86d277a55ca5a7807c6fcbaf265dcae399dc52f9603cbc9c7755149c665a1cba371ea1b75617af367e79708e69903aa3f0a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bcel5.3 \
-bcel5_3"
+RPROVIDES:${PN} += "bcel5-3 \
+bcel5.3"
 
 RDEPENDS:${PN} += ""
 

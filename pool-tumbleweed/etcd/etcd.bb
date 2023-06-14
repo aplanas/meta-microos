@@ -13,8 +13,7 @@ PV = "3.5.9"
 RPM_NAME = "etcd-3.5.9-1.1.aarch64.rpm"
 RPM_HASH = "8dc8da2a383733054b61e9578af7bc51f753db0de443355109a6613abb3f275e9300c1f552688dfc8f6fcbaf325e3440956d20bebc44d97b4950ae70a3c580cb"
 
-RPROVIDES:${PN} += "etcd \
-etcd(aarch-64)"
+RPROVIDES:${PN} += "etcd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \

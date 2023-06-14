@@ -14,8 +14,7 @@ PV = "14.0.0"
 RPM_NAME = "trilinos-openmpi2-devel-14.0.0-1.1.aarch64.rpm"
 RPM_HASH = "97f307e933e2289f05bf36e7b14388430a3c9d357eb1b0581ff2cf3dd03b252ad1557469d7921e5cc53efbee55898bdee12b749deab7be2676dff0493cbc0132"
 
-RPROVIDES:${PN} += "trilinos-openmpi2-devel \
-trilinos-openmpi2-devel(aarch-64)"
+RPROVIDES:${PN} += "trilinos-openmpi2-devel"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

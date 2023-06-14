@@ -9,11 +9,11 @@ RPM_HASH = "1f68e2ae82bc2a5cb5ea9d2b2bfd37db87c36851d6746d07e7856ee99b9fa233b3c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-atlassian-python-api \
-python3.10dist(atlassian-python-api) \
+python3.10dist-atlassian-python-api \
 python310-atlassian-python-api \
-python3dist(atlassian-python-api)"
+python3dist-atlassian-python-api"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-kerberos \
 python310-oauthlib \
 python310-requests \

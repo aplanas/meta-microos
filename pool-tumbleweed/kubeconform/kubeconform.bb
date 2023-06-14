@@ -17,9 +17,8 @@ PV = "0.6.1"
 RPM_NAME = "kubeconform-0.6.1-1.2.aarch64.rpm"
 RPM_HASH = "2cde1b7be4ebb3cf9ced6bc9ad3ed8ffc9233c74da927a690f9e504cec22586a2a533b92fd45263b2172eb8235b1f8d046395058497d5778f5e316ec3ee7400d"
 
-RPROVIDES:${PN} += "kubeconform \
-kubeconform(aarch-64)"
+RPROVIDES:${PN} += "kubeconform"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

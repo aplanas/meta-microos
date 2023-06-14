@@ -9,10 +9,10 @@ RPM_HASH = "38940ab089a81c39a66b7c418154eaf108d655d7db37a974c8d9a59166db7a26c010
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-pl \
-locale(libreoffice:pl_PL) \
-locale(seamonkey-spellchecker:pl_PL) \
+locale-libreoffice-pl-PL \
+locale-seamonkey-spellchecker-pl-PL \
 myspell-dictionary \
-myspell-pl_PL \
+myspell-pl-PL \
 myspell-polish"
 
 RDEPENDS:${PN} += "myspell-dictionaries"

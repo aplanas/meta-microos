@@ -8,8 +8,7 @@ PV = "2.0.2"
 RPM_NAME = "libnscd-devel-2.0.2-138.21.aarch64.rpm"
 RPM_HASH = "28c21d4276e90d806ed602d9311b11784cf2976c9a240e821122e7d6647a058f7081f78ae7fdcb9437bcd532998d2641598b70f2fd00d0259e8439ec2a07cb2c"
 
-RPROVIDES:${PN} += "libnscd-devel \
-libnscd-devel(aarch-64)"
+RPROVIDES:${PN} += "libnscd-devel"
 
 RDEPENDS:${PN} += "libnscd1"
 

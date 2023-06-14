@@ -9,14 +9,14 @@ RPM_HASH = "971832d9aa6dc245f3b170bd33123180c44dc25d234c9953ea3da7a58a5fbc79f2eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-ant \
-mvn(org.apache.maven.plugin-tools:maven-plugin-tools-ant) \
-mvn(org.apache.maven.plugin-tools:maven-plugin-tools-ant:pom:)"
+mvn-org.apache.maven.plugin-tools-maven-plugin-tools-ant \
+mvn-org.apache.maven.plugin-tools-maven-plugin-tools-ant-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.plugin-tools:maven-plugin-tools-api) \
-mvn(org.apache.maven.plugin-tools:maven-plugin-tools-model) \
-mvn(org.codehaus.plexus:plexus-component-annotations) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven.plugin-tools-maven-plugin-tools-api \
+mvn-org.apache.maven.plugin-tools-maven-plugin-tools-model \
+mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

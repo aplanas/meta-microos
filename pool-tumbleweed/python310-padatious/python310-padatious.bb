@@ -9,13 +9,13 @@ RPM_HASH = "3bf2a236041870f19968d29da218b84ba52967b64b9a01a4aa3aeea46a38fb017c9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-padatious \
-python3.10dist(padatious) \
+python3.10dist-padatious \
 python310-padatious \
-python3dist(padatious)"
+python3dist-padatious"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-fann2 \
 python310-padaos \
 python310-setuptools \

@@ -12,12 +12,12 @@ RPM_NAME = "python311-hvplot-0.8.3-1.1.noarch.rpm"
 RPM_HASH = "a65c0a4c71e103e16ad7e6e15087e858c768e1791e2d860d6e1fcf853cb2dcdaeb0efaac1f98c2b7c01fbae829e26f5291dfa3e8ab918b5e66def52276bcdc78"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(hvplot) \
+RPROVIDES:${PN} += "python3.11dist-hvplot \
 python311-hvplot \
-python3dist(hvplot)"
+python3dist-hvplot"
 
-RDEPENDS:${PN} += "(python311-bokeh >= 1.0.0 with python311-bokeh < 2.5) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-bokeh >= 1.0.0 with python311-bokeh < 2.5 \
+python-abi \
 python311-colorcet \
 python311-holoviews \
 python311-numpy \

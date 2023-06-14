@@ -10,24 +10,24 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geany-plugins-lang \
 geany-plugins-lang-all \
-locale(geany-plugins:be) \
-locale(geany-plugins:ca) \
-locale(geany-plugins:da) \
-locale(geany-plugins:de) \
-locale(geany-plugins:el) \
-locale(geany-plugins:es) \
-locale(geany-plugins:fr) \
-locale(geany-plugins:gl) \
-locale(geany-plugins:it) \
-locale(geany-plugins:ja) \
-locale(geany-plugins:kk) \
-locale(geany-plugins:nl) \
-locale(geany-plugins:pt) \
-locale(geany-plugins:pt_BR) \
-locale(geany-plugins:ru) \
-locale(geany-plugins:tr) \
-locale(geany-plugins:uk) \
-locale(geany-plugins:zh_CN)"
+locale-geany-plugins-be \
+locale-geany-plugins-ca \
+locale-geany-plugins-da \
+locale-geany-plugins-de \
+locale-geany-plugins-el \
+locale-geany-plugins-es \
+locale-geany-plugins-fr \
+locale-geany-plugins-gl \
+locale-geany-plugins-it \
+locale-geany-plugins-ja \
+locale-geany-plugins-kk \
+locale-geany-plugins-nl \
+locale-geany-plugins-pt \
+locale-geany-plugins-pt-BR \
+locale-geany-plugins-ru \
+locale-geany-plugins-tr \
+locale-geany-plugins-uk \
+locale-geany-plugins-zh-CN"
 
 RDEPENDS:${PN} += "geany-plugins"
 

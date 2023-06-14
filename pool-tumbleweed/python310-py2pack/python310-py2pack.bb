@@ -12,13 +12,13 @@ RPM_HASH = "0d9ea87dfef4cbb7ae34ca55d623bc1e778ab5565cd9de6e2375180918d86ee1c53a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py2pack \
-python3.10dist(py2pack) \
+python3.10dist-py2pack \
 python310-py2pack \
-python3dist(py2pack)"
+python3dist-py2pack"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-metaextract \
 python310-pbr \

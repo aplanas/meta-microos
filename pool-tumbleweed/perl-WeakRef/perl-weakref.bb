@@ -22,11 +22,9 @@ PV = "0.01"
 RPM_NAME = "perl-WeakRef-0.01-149.36.aarch64.rpm"
 RPM_HASH = "3128b60f624abff61165b1645a539c173376752cfa38a9568389df9464a1765bd767558512f46621da0fd63e2844b0780392d066ebaab2009934bbf7e6acb7be"
 
-RPROVIDES:${PN} += "perl(WeakRef) \
-perl-WeakRef \
-perl-WeakRef(aarch-64) \
+RPROVIDES:${PN} += "perl-WeakRef \
 perl-Weakref"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

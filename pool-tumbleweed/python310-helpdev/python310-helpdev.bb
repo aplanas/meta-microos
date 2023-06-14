@@ -9,13 +9,13 @@ RPM_HASH = "8a5589761dc1a2df45b7faabf7e13783acf4f83dff74ba5380695461602fd4386e60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-helpdev \
-python3.10dist(helpdev) \
+python3.10dist-helpdev \
 python310-helpdev \
-python3dist(helpdev)"
+python3dist-helpdev"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-importlib-metadata \
 python310-psutil \
 update-alternatives"

@@ -12,32 +12,19 @@ PV = "3.9.3"
 RPM_NAME = "minitube-3.9.3-1.8.aarch64.rpm"
 RPM_HASH = "2f058ef5ceffb51bca73565de91876a208e16ca0b986000fc25bc484f9856d6a62c631e9956dcf3f23e152f4d152f7837ef773a7b1614a5a67b552bad76a1206"
 
-RPROVIDES:${PN} += "application() \
-application(minitube.desktop) \
-metainfo() \
-metainfo(org.tordini.flavio.minitube.metainfo.xml) \
-minitube \
-minitube(aarch-64)"
+RPROVIDES:${PN} += "minitube"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libmpv.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libc.so.6 \
+libmpv.so.2 \
+libstdc++.so.6"
 
 inherit rpm

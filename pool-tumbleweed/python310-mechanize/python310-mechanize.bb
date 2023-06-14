@@ -11,11 +11,11 @@ RPM_HASH = "a01dba55632c94b2bffcc5a8581cd06db64b17fe4859a37d0bb91f3b9f3b84f9a413
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mechanize \
-python3.10dist(mechanize) \
+python3.10dist-mechanize \
 python310-mechanize \
-python3dist(mechanize)"
+python3dist-mechanize"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-html5lib"
 
 inherit rpm

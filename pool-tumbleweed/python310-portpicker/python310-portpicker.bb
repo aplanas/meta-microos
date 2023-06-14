@@ -11,13 +11,13 @@ RPM_HASH = "b08723bc9aedeed416dcecba4c0683f7bf7177c6bad0f8857e4a48c4b9077296916e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-portpicker \
-python3.10dist(portpicker) \
+python3.10dist-portpicker \
 python310-portpicker \
-python3dist(portpicker)"
+python3dist-portpicker"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

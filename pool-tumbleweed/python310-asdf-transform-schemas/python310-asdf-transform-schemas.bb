@@ -9,13 +9,11 @@ RPM_HASH = "fb10f9561bb0b44044526056a5ad04211e99c78b7401e2b79a4ca80844a9834bc54c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asdf-transform-schemas \
-python3-asdf_transform_schemas \
-python3.10dist(asdf-transform-schemas) \
+python3.10dist-asdf-transform-schemas \
 python310-asdf-transform-schemas \
-python310-asdf_transform_schemas \
-python3dist(asdf-transform-schemas)"
+python3dist-asdf-transform-schemas"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-asdf-standard"
 
 inherit rpm

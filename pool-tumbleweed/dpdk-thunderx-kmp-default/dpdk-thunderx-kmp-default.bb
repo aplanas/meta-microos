@@ -8,10 +8,9 @@ RPM_HASH = "3a3ba23ab43a8efad01157ac6627939f996b0d7b424171ea6492edb47d064f1b5757
 
 RPROVIDES:${PN} += "dpdk-thunderx-kmp \
 dpdk-thunderx-kmp-default \
-dpdk-thunderx-kmp-default(aarch-64) \
-dpdk-thunderx-kmp-default-k6.3.4_1 \
-kmod(rte_kni.ko) \
-multiversion(kernel)"
+dpdk-thunderx-kmp-default-k6.3.4-1 \
+kmod-rte-kni.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

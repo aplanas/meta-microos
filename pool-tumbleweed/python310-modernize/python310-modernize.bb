@@ -9,13 +9,13 @@ RPM_HASH = "943f3caa0e6636db89a45fd2d97131014453f37fe7fc5e357768d723e490eabc78af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-modernize \
-python3.10dist(modernize) \
+python3.10dist-modernize \
 python310-modernize \
-python3dist(modernize)"
+python3dist-modernize"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dbm \
 python310-fissix \
 update-alternatives"

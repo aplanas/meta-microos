@@ -9,12 +9,12 @@ RPM_HASH = "fad6faf64ac932b11b8247ec6d991bf58d1fd5e1e63da75b2b3a40165f9135d45edb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-developer-loadtesting \
-python3.10dist(azure-developer-loadtesting) \
+python3.10dist-azure-developer-loadtesting \
 python310-azure-developer-loadtesting \
-python3dist(azure-developer-loadtesting)"
+python3dist-azure-developer-loadtesting"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-isodate"

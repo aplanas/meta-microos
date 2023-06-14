@@ -11,10 +11,9 @@ RPM_HASH = "c9c12e3e862cd079bda1dfdc47c4c5349211537800b2f62419af653e9cbb07221c03
 
 RPROVIDES:${PN} += "dosfsck \
 dosfstools \
-dosfstools(aarch-64) \
 mkdosfs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

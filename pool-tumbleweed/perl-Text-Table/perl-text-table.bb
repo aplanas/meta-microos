@@ -14,10 +14,10 @@ RPM_NAME = "perl-Text-Table-1.135-1.2.noarch.rpm"
 RPM_HASH = "fc5e14f956f3624075870cc098755189cca9ca46d93e8ee0a49925d0e082d56b60fdc04553fd086a39dfbf8942c5a9e9bee368fafe4ea744ab1201423bee26c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Table) \
+RPROVIDES:${PN} += "perl-Text--Table \
 perl-Text-Table"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Text::Aligner)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Text--Aligner"
 
 inherit rpm

@@ -11,11 +11,10 @@ PV = "0.6+git.20190731"
 RPM_NAME = "interceptty-0.6+git.20190731-1.10.aarch64.rpm"
 RPM_HASH = "e24a1ca8392fa6894a3782e749fcd26f25aba3ffb0f043f3bfaf602d85e2366d85a44862d21cfed5cb52301425277217962c7f56e0ffe8cf45168bb57da407b5"
 
-RPROVIDES:${PN} += "interceptty \
-interceptty(aarch-64)"
+RPROVIDES:${PN} += "interceptty"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

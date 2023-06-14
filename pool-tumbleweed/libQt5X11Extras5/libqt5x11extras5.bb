@@ -10,18 +10,14 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt5X11Extras5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "c3e9e934ea2ceb34331da4f648cf6a1dbfec78590adbfd463561ac873c7bc39b9597a6b266743625adedc1d23685dc0a4c224beccdea271fd9d40237db93b139"
 
-RPROVIDES:${PN} += "libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libQt5X11Extras5 \
-libQt5X11Extras5(aarch-64)"
+RPROVIDES:${PN} += "libQt5X11Extras.so.5 \
+libQt5X11Extras5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
 libQt5Gui5 \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

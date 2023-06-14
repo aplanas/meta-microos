@@ -8,17 +8,17 @@ RPM_NAME = "mailman3-3.3.8-2.1.noarch.rpm"
 RPM_HASH = "2ef10da5b62f6ab89be7a380d9490194ced346f7f8c088ce3c7669b96fc6a5a7e4aa93a1aa35087977e6f4491dc7f552bffc96cf3466f47fecff1073fa076572"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(mailman3) \
+RPROVIDES:${PN} += "config-mailman3 \
 mailman \
 mailman3 \
-python3.9dist(mailman) \
+python3.9dist-mailman \
 python39-mailman \
-python3dist(mailman)"
+python3dist-mailman"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 logrotate \
-python(abi) \
+python-abi \
 python39-SQLAlchemy \
 python39-aiosmtpd \
 python39-alembic \

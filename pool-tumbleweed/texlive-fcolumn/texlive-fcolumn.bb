@@ -12,7 +12,7 @@ RPM_NAME = "texlive-fcolumn-2023.201.1.4.1svn61855-52.1.noarch.rpm"
 RPM_HASH = "60dff175c17c5d382fab0562c2cb6c44d599579c2bbf6edc9a90430eac5f78a4634299442532bf11561a9b84a40385462c4328a1c2df11e326e324880b186abb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fcolumn.sty) \
+RPROVIDES:${PN} += "tex-fcolumn.sty \
 texlive-fcolumn"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
+tex-array.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

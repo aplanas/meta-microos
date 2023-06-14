@@ -12,12 +12,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Security \
 python3-Flask-Security-Too \
-python3.10dist(flask-security-too) \
+python3.10dist-flask-security-too \
 python310-Flask-Security \
 python310-Flask-Security-Too \
-python3dist(flask-security-too)"
+python3dist-flask-security-too"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-Flask-Babel \
 python310-Flask-Login \

@@ -15,13 +15,13 @@ RPM_HASH = "aa84967f2e90aad5fdf15a0e57fc938e2d174ccff0c92c765ace556e40f024b8ae11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-img2pdf \
-python3.10dist(img2pdf) \
+python3.10dist-img2pdf \
 python310-img2pdf \
-python3dist(img2pdf)"
+python3dist-img2pdf"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-pdfrw \
 python310-pikepdf \

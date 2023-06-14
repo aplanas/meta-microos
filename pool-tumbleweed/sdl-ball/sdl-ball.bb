@@ -31,23 +31,18 @@ PV = "1.04"
 RPM_NAME = "sdl-ball-1.04-1.11.aarch64.rpm"
 RPM_HASH = "04c37be4f81bef66c19121336f73665996378539bbd1d0c4cd732617e1ff552fae03df6c69c6b65397c80d1631ee8da3bf240323592d629f6569375f06b1c2cf"
 
-RPROVIDES:${PN} += "application() \
-application(sdl-ball.desktop) \
-metainfo() \
-metainfo(sdl-ball.appdata.xml) \
-sdl-ball \
-sdl-ball(aarch-64)"
+RPROVIDES:${PN} += "sdl-ball"
 
 RDEPENDS:${PN} += "/bin/sh \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libSDL_ttf-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libGL.so.1 \
+libGLU.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libSDL-ttf-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

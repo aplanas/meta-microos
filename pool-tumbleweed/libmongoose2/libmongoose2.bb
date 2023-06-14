@@ -10,16 +10,15 @@ PV = "2.0.4"
 RPM_NAME = "libmongoose2-2.0.4-49.1.aarch64.rpm"
 RPM_HASH = "d57e789ebb995a552ccde7d0857aaaa6eea560689619c52bcfdf5fde637fb35181812969e29629e420c4c5e56b87d956d4c50a8093658f24dedda713cfee6cb0"
 
-RPROVIDES:${PN} += "libldl-2_0_4 \
-libmongoose.so.2()(64bit) \
-libmongoose2 \
-libmongoose2(aarch-64)"
+RPROVIDES:${PN} += "libldl-2-0-4 \
+libmongoose.so.2 \
+libmongoose2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libsuitesparseconfig.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libsuitesparseconfig.so.5"
 
 inherit rpm

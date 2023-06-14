@@ -18,11 +18,11 @@ RPM_NAME = "python311-cli-helpers-2.3.0-1.4.noarch.rpm"
 RPM_HASH = "740ffdb2acba189609d8dd3a221ab825cef4fa3fe433ccc4e8a93cdb59a14bd3ea97241237d1e9fddeae3cf7d0ce6f68fedfe5738a0fde9c61c68b5907bb2b2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(cli-helpers) \
+RPROVIDES:${PN} += "python3.11dist-cli-helpers \
 python311-cli-helpers \
-python3dist(cli-helpers)"
+python3dist-cli-helpers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Pygments \
 python311-configobj \
 python311-tabulate \

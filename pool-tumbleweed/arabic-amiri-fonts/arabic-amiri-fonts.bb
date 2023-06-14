@@ -9,7 +9,7 @@ RPM_HASH = "d6b91a6c89b689759cb74c67e97206c2083037066840df3332d12334f83f25998fc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-amiri-fonts \
-locale(ar)"
+locale-ar"
 
 RDEPENDS:${PN} += ""
 

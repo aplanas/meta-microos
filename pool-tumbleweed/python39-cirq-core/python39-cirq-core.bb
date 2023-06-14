@@ -12,11 +12,11 @@ RPM_NAME = "python39-cirq-core-0.13.1-1.5.noarch.rpm"
 RPM_HASH = "5420fd1a74d03536434a8cb55d2e2ffd3a790e24cb5acfde682c656d12f59072364cd94212b7927c52150916d278fbd09aabba0355a5b7362d495dd6397a1155"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cirq-core) \
+RPROVIDES:${PN} += "python3.9dist-cirq-core \
 python39-cirq-core \
-python3dist(cirq-core)"
+python3dist-cirq-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-duet \
 python39-matplotlib \
 python39-networkx \
@@ -26,6 +26,6 @@ python39-scipy \
 python39-sortedcontainers \
 python39-sympy \
 python39-tqdm \
-python39-typing_extensions"
+python39-typing-extensions"
 
 inherit rpm

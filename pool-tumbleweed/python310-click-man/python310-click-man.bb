@@ -9,13 +9,13 @@ RPM_HASH = "9777213ce96fbc9495dcda0c30a3cbbdd239eb816d8ba224e2c9011260d7ad3e218e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-click-man \
-python3.10dist(click-man) \
+python3.10dist-click-man \
 python310-click-man \
-python3dist(click-man)"
+python3dist-click-man"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click"
 
 inherit rpm

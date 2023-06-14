@@ -10,22 +10,22 @@ RPM_HASH = "5b3ace3e88b6a762ac0bdc0ddc746327d05816724853168ca5ff60bcffadb9caff24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-util \
-mvn(org.bouncycastle:bcutil-jdk15) \
-mvn(org.bouncycastle:bcutil-jdk15:pom:) \
-mvn(org.bouncycastle:bcutil-jdk15on) \
-mvn(org.bouncycastle:bcutil-jdk15on:pom:) \
-mvn(org.bouncycastle:bcutil-jdk15to18) \
-mvn(org.bouncycastle:bcutil-jdk15to18:pom:) \
-mvn(org.bouncycastle:bcutil-jdk16) \
-mvn(org.bouncycastle:bcutil-jdk16:pom:) \
-mvn(org.bouncycastle:bcutil-jdk18) \
-mvn(org.bouncycastle:bcutil-jdk18:pom:) \
-mvn(org.bouncycastle:bcutil-jdk18on) \
-mvn(org.bouncycastle:bcutil-jdk18on:pom:)"
+mvn-org.bouncycastle-bcutil-jdk15 \
+mvn-org.bouncycastle-bcutil-jdk15-pom- \
+mvn-org.bouncycastle-bcutil-jdk15on \
+mvn-org.bouncycastle-bcutil-jdk15on-pom- \
+mvn-org.bouncycastle-bcutil-jdk15to18 \
+mvn-org.bouncycastle-bcutil-jdk15to18-pom- \
+mvn-org.bouncycastle-bcutil-jdk16 \
+mvn-org.bouncycastle-bcutil-jdk16-pom- \
+mvn-org.bouncycastle-bcutil-jdk18 \
+mvn-org.bouncycastle-bcutil-jdk18-pom- \
+mvn-org.bouncycastle-bcutil-jdk18on \
+mvn-org.bouncycastle-bcutil-jdk18on-pom-"
 
 RDEPENDS:${PN} += "bouncycastle \
 java-headless \
 javapackages-filesystem \
-mvn(org.bouncycastle:bcprov-jdk18on)"
+mvn-org.bouncycastle-bcprov-jdk18on"
 
 inherit rpm

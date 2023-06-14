@@ -12,16 +12,15 @@ PV = "1.0.1"
 RPM_NAME = "python311-maturin-1.0.1-1.1.aarch64.rpm"
 RPM_HASH = "9e0a7b9c535e80cb74369b62d57a464e42140ce400d3b5b020dfc911586e6ca6b171f97387ef8404df11296b42a0a00c372ee0d41df7ddd19c76a0feabacc315"
 
-RPROVIDES:${PN} += "python3.11dist(maturin) \
+RPROVIDES:${PN} += "python3.11dist-maturin \
 python311-maturin \
-python311-maturin(aarch-64) \
-python3dist(maturin)"
+python3dist-maturin"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-python(abi) \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+python-abi \
 update-alternatives"
 
 inherit rpm

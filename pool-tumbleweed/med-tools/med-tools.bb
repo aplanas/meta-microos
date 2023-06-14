@@ -10,15 +10,14 @@ PV = "4.1.1"
 RPM_NAME = "med-tools-4.1.1-1.6.aarch64.rpm"
 RPM_HASH = "e2c8f90cacf2f6ef2667c52ddceae18713c943bde20113261a7d0a9bb21005d3619b1bfe4488331a051916aec8e1ecfe556d4f8b5b0d61e7d0e69d7be0a05755"
 
-RPROVIDES:${PN} += "med-tools \
-med-tools(aarch-64)"
+RPROVIDES:${PN} += "med-tools"
 
 RDEPENDS:${PN} += "/usr/bin/wish \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmedC.so.11()(64bit) \
-libmedimport.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmedC.so.11 \
+libmedimport.so.0 \
+libstdc++.so.6"
 
 inherit rpm

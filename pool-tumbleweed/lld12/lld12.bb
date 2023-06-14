@@ -7,15 +7,13 @@ PV = "12.0.1"
 RPM_NAME = "lld12-12.0.1-12.1.aarch64.rpm"
 RPM_HASH = "d2f0d738dcf4ae4dc851bf8627132ef19f5d80ff9aec01dbfa22b64ea635a2807b14f4b95fe38843e4e865ba0c72f408fcf74e503bdfcfab6df5acefd5eaeeae"
 
-RPROVIDES:${PN} += "lld12 \
-lld12(aarch-64)"
+RPROVIDES:${PN} += "lld12"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.12()(64bit) \
-libLLVM.so.12(LLVM_12)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libLLVM.so.12 \
+libc.so.6 \
+libstdc++.so.6 \
 update-alternatives"
 
 inherit rpm

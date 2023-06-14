@@ -14,24 +14,22 @@ PV = "3.2.7"
 RPM_NAME = "rsync-3.2.7-2.1.aarch64.rpm"
 RPM_HASH = "8aabf4b786b11026f51b533773500e10c1128819a9ed4a7465946977347c5605cb9b94fe2fb225624f0bfc82003044718614b0a4eefc9d8dca6e121349516369"
 
-RPROVIDES:${PN} += "config(rsync) \
-rsync \
-rsync(aarch-64)"
+RPROVIDES:${PN} += "config-rsync \
+rsync"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-liblz4.so.1()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libslp.so.1()(64bit) \
-libxxhash.so.0()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+liblz4.so.1 \
+libpopt.so.0 \
+libslp.so.1 \
+libxxhash.so.0 \
+libz.so.1 \
+libzstd.so.1 \
 sed"
 
 inherit rpm

@@ -22,11 +22,10 @@ RPM_NAME = "ossp-uuid-1.6.2-19.45.aarch64.rpm"
 RPM_HASH = "506fb99c3e1873d26102fd30ed5138116058c7d20d7de050f3ec9a32f379c042ee85678b66fc5c02e95755e034db3904393726791d3787210c89a2b56576fd0c"
 
 RPROVIDES:${PN} += "ossp-uuid \
-ossp-uuid(aarch-64) \
 uuid"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libossp-uuid.so.16()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libossp-uuid.so.16"
 
 inherit rpm

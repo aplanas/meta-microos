@@ -15,12 +15,12 @@ RPM_NAME = "python311-trio-0.22.0-2.1.noarch.rpm"
 RPM_HASH = "1b4fb18ad91c591d38913b4aeaeb588f436390a4e9c0ab9c1de372ed0b92be1edba180e586874fd8a62248d6ce7cb585470de7138107941d831a5dabb3909902"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(trio) \
+RPROVIDES:${PN} += "python3.11dist-trio \
 python311-trio \
-python3dist(trio)"
+python3dist-trio"
 
-RDEPENDS:${PN} += "python(abi) \
-python311-async_generator \
+RDEPENDS:${PN} += "python-abi \
+python311-async-generator \
 python311-attrs \
 python311-idna \
 python311-outcome \

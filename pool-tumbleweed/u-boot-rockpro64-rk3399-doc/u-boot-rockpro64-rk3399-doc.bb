@@ -8,8 +8,7 @@ PV = "2023.04"
 RPM_NAME = "u-boot-rockpro64-rk3399-doc-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "fe58794e47e919bb7875c3f71d6ca1ff236b1766cb3a4bdfb135561633deafe8aadd2f68584d6b70b00a671961e1e0251c0a517d7b0ca904f7e483657f9a42e2"
 
-RPROVIDES:${PN} += "u-boot-rockpro64-rk3399-doc \
-u-boot-rockpro64-rk3399-doc(aarch-64)"
+RPROVIDES:${PN} += "u-boot-rockpro64-rk3399-doc"
 
 RDEPENDS:${PN} += ""
 

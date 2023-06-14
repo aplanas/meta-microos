@@ -12,11 +12,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lark \
 python3-lark-parser \
-python3.10dist(lark) \
+python3.10dist-lark \
 python310-lark \
 python310-lark-parser \
-python3dist(lark)"
+python3dist-lark"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

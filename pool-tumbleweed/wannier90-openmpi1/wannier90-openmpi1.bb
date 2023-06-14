@@ -9,17 +9,14 @@ PV = "3.1.0"
 RPM_NAME = "wannier90-openmpi1-3.1.0-2.3.aarch64.rpm"
 RPM_HASH = "804c04b314d2e2d71a78de3b284c8fb2d931a649abb4684b0acc64063e50895130c0409ce44ad36cacd246bf5d9a7a09985d2b59b0269cfd8919a7a0febf36c6"
 
-RPROVIDES:${PN} += "wannier90-openmpi1 \
-wannier90-openmpi1(aarch-64)"
+RPROVIDES:${PN} += "wannier90-openmpi1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libmpi_mpifh.so.12()(64bit)"
+libblas.so.3 \
+libc.so.6 \
+libgfortran.so.5 \
+liblapack.so.3 \
+libm.so.6 \
+libmpi-mpifh.so.12"
 
 inherit rpm

@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyterlab-server-test"
 
-RDEPENDS:${PN} += "(python39-openapi-spec-validator >= 0.5.1 with python39-openapi-spec-validator < 0.6) \
+RDEPENDS:${PN} += "-python39-openapi-spec-validator >= 0.5.1 with python39-openapi-spec-validator < 0.6 \
 python39-Werkzeug \
 python39-ipykernel \
 python39-jupyterlab-server-openapi \

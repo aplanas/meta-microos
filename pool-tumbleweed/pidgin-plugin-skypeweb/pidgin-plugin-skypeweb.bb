@@ -8,8 +8,7 @@ PV = "1.7"
 RPM_NAME = "pidgin-plugin-skypeweb-1.7-1.3.aarch64.rpm"
 RPM_HASH = "358df9682c693353dfb972db67fbe28601437d68b87232beb4920662a154c8dc14c82fea4a4dfeb5b80ba56b71f199f06573dd36c36fa30d816989d23aa098eb"
 
-RPROVIDES:${PN} += "pidgin-plugin-skypeweb \
-pidgin-plugin-skypeweb(aarch-64)"
+RPROVIDES:${PN} += "pidgin-plugin-skypeweb"
 
 RDEPENDS:${PN} += "libpurple-plugin-skypeweb \
 pidgin"

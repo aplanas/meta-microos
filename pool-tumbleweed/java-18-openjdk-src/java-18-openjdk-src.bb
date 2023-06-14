@@ -7,8 +7,7 @@ PV = "18.0.2.0"
 RPM_NAME = "java-18-openjdk-src-18.0.2.0-4.3.aarch64.rpm"
 RPM_HASH = "5cc9174dc4532b52274690785ca881ce33189e5bc352db2c9c736cd98061179aeb225bac18479f1d017073a3cbed220d47d0d62ecab9fb9eb48f0d857f0c4ce2"
 
-RPROVIDES:${PN} += "java-18-openjdk-src \
-java-18-openjdk-src(aarch-64)"
+RPROVIDES:${PN} += "java-18-openjdk-src"
 
 RDEPENDS:${PN} += "java-18-openjdk"
 

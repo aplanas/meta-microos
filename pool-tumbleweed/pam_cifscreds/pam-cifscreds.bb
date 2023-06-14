@@ -14,12 +14,11 @@ PV = "7.0"
 RPM_NAME = "pam_cifscreds-7.0-2.3.aarch64.rpm"
 RPM_HASH = "ade3152b7f1086941977976684847681486e5160e57a3d529fd5d5e82f81bf6925a7dbe80e9d287559cba6b57ba36ea331eb57432e8bcce44690c3da542e0f77"
 
-RPROVIDES:${PN} += "pam_cifscreds \
-pam_cifscreds(aarch-64)"
+RPROVIDES:${PN} += "pam-cifscreds"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libkeyutils.so.1()(64bit) \
-libpam.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libkeyutils.so.1 \
+libpam.so.0"
 
 inherit rpm

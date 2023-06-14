@@ -10,17 +10,16 @@ RPM_NAME = "libctemplate-devel-2.4-1.9.aarch64.rpm"
 RPM_HASH = "f2d3af0b571145d2cc8d7ba7f10d4e7df70134aea9c2aa2b5607105e8686b770730c8d07ac80bfe2e1f8afaf651c16b5bd7ad1139d7bcee9a56db952e4729d31"
 
 RPROVIDES:${PN} += "libctemplate-devel \
-libctemplate-devel(aarch-64) \
-pkgconfig(libctemplate) \
-pkgconfig(libctemplate_nothreads)"
+pkgconfig-libctemplate \
+pkgconfig-libctemplate-nothreads"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libctemplate-nothreads.so.3 \
 libctemplate3 \
-libctemplate_nothreads.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

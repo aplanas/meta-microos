@@ -11,45 +11,35 @@ PV = "23.04.1"
 RPM_NAME = "step-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "ffb06fb07d265ce02716f6d8b4caeb5385195999bec625e9194d962f682a86d5a9de5c8448abf9e3bf574a3a28a09682bdced197ddf58af2a2eeed6f3c0cbffb"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.step.desktop) \
-metainfo() \
-metainfo(org.kde.step.appdata.xml) \
-mimehandler(application/x-step) \
-step \
-step(aarch-64) \
+RPROVIDES:${PN} += "step \
 step5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5JobWidgets.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5NewStuffWidgets.so.5()(64bit) \
-libKF5Plotting.so.5()(64bit) \
-libKF5TextWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
-libqalculate.so.22()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5I18n.so.5 \
+libKF5IconThemes.so.5 \
+libKF5JobWidgets.so.5 \
+libKF5KIOCore.so.5 \
+libKF5NewStuffWidgets.so.5 \
+libKF5Plotting.so.5 \
+libKF5TextWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
+libqalculate.so.22 \
+libstdc++.so.6"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-logbox-2023.201.1.0svn24499-54.1.noarch.rpm"
 RPM_HASH = "2519ae874355fb9eb974842899dd9e2ce8e8bb8bebfbf1df5cea4df4c7af6ffb6f08dd8115c45a226706c4d55abcba06c481344d12d54f49f4810e069c3977cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(logbox.sty) \
+RPROVIDES:${PN} += "tex-logbox.sty \
 texlive-logbox"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -16,8 +16,7 @@ PV = "1.0.22"
 RPM_NAME = "libgsm-devel-1.0.22-1.2.aarch64.rpm"
 RPM_HASH = "6fb7e8216a5e1479e8077146ad31da840a813a9fd5f0aee73555d49575d8238b551ebe322f47f9dca410b859b6ec760f9de493c75f23352baf578c0afa646898"
 
-RPROVIDES:${PN} += "libgsm-devel \
-libgsm-devel(aarch-64)"
+RPROVIDES:${PN} += "libgsm-devel"
 
 RDEPENDS:${PN} += "libgsm1"
 

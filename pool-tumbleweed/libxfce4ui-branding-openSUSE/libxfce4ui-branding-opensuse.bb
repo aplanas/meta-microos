@@ -8,7 +8,7 @@ RPM_NAME = "libxfce4ui-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch.rpm"
 RPM_HASH = "6f146a4b202e1ebf54a44837a17303a67391adb25955917b9eeab63bb85360dd975c687a74dac97e0ba36780668813d7cb2fd0d6aeac708ff27bd57bad80f764"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(libxfce4ui-branding-openSUSE) \
+RPROVIDES:${PN} += "config-libxfce4ui-branding-openSUSE \
 libxfce4ui-branding \
 libxfce4ui-branding-openSUSE"
 

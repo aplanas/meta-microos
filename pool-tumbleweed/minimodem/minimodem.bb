@@ -18,18 +18,15 @@ PV = "0.24"
 RPM_NAME = "minimodem-0.24-1.22.aarch64.rpm"
 RPM_HASH = "4c07525d25ac65bf15db5aa0ee008f1431a676fb808b5ccefbc5fdb3e92b55ce6e3afbf77b2e2297a549669841000348333216a1a2ab6e014989e5ef087d7d35"
 
-RPROVIDES:${PN} += "minimodem \
-minimodem(aarch-64)"
+RPROVIDES:${PN} += "minimodem"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libm.so.6()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libsndfile.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libfftw3f.so.3 \
+libm.so.6 \
+libpulse-simple.so.0 \
+libpulse.so.0 \
+libsndfile.so.1"
 
 inherit rpm

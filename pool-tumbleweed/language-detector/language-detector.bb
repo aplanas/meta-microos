@@ -9,13 +9,13 @@ RPM_HASH = "b69727e01d7739d98f023068accee00f110e595ca80731f87622e4fc965f545fceea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "language-detector \
-mvn(com.optimaize.languagedetector:language-detector) \
-mvn(com.optimaize.languagedetector:language-detector:pom:)"
+mvn-com.optimaize.languagedetector-language-detector \
+mvn-com.optimaize.languagedetector-language-detector-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.guava:guava) \
-mvn(com.intellij:annotations) \
-mvn(org.slf4j:slf4j-api)"
+mvn-com.google.guava-guava \
+mvn-com.intellij-annotations \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

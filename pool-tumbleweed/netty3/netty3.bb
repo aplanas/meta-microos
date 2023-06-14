@@ -19,16 +19,16 @@ RPM_NAME = "netty3-3.10.6-14.10.noarch.rpm"
 RPM_HASH = "625041a9b9f6c814e2b22dffd345ded02da70c207e831e5b8990bd5451341737e0faff5cac393d5e73305cd5006cff2aa88efe80208ee00a8253478341a29460"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(io.netty:netty) \
-mvn(io.netty:netty:pom:) \
-mvn(org.jboss.netty:netty) \
-mvn(org.jboss.netty:netty:pom:) \
+RPROVIDES:${PN} += "mvn-io.netty-netty \
+mvn-io.netty-netty-pom- \
+mvn-org.jboss.netty-netty \
+mvn-org.jboss.netty-netty-pom- \
 netty3 \
-osgi(org.jboss.netty)"
+osgi-org.jboss.netty"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.jcraft:jzlib) \
-mvn(org.bouncycastle:bcprov-jdk16)"
+mvn-com.jcraft-jzlib \
+mvn-org.bouncycastle-bcprov-jdk16"
 
 inherit rpm

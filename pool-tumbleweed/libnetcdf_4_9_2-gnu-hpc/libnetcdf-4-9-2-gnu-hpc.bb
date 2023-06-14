@@ -36,18 +36,17 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf_4_9_2-gnu-hpc-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "495f32427188567e347906d937ae24227fdb9bfa7670948c91bd3fe87f095a528e5565dd426ab2ea642e96a62d1b80976879a5782dca5e0ad32bf57c3756a4c3"
 
-RPROVIDES:${PN} += "libnetcdf_4_9_2-gnu-hpc \
-libnetcdf_4_9_2-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf-4-9-2-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
 libhdf5-gnu-hpc \
-libhdf5_hl-gnu-hpc \
-libm.so.6()(64bit) \
-libxml2.so.2()(64bit) \
+libhdf5-hl-gnu-hpc \
+libm.so.6 \
+libxml2.so.2 \
 lua-lmod"
 
 inherit rpm

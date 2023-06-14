@@ -17,19 +17,18 @@ RPM_HASH = "06ab15cc10eba7578215a5b1156481014d4999f47681906bfd7989661dcb50bed602
 
 RPROVIDES:${PN} += "libunbound-devel \
 libunbound-devel-mini \
-libunbound-devel-mini(aarch-64) \
-libunbound.so.8()(64bit) \
-pkgconfig(libunbound)"
+libunbound.so.8 \
+pkgconfig-libunbound"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libevent-2.1.so.7()(64bit) \
-libsodium.so.23()(64bit) \
-libssl.so.3()(64bit) \
-pkgconfig(libevent) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libevent-2.1.so.7 \
+libsodium.so.23 \
+libssl.so.3 \
+pkgconfig-libevent \
 this-is-only-for-build-envs"
 
 inherit rpm

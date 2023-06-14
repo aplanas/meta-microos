@@ -12,14 +12,13 @@ PV = "5.2.5"
 RPM_NAME = "perl-PCP-MMV-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "afd9f172d3086845d249314ab8110d893db7eda6806329d11d031c3816a5f7a65524cf2b061d4100b5aa06a408accfd88f2ec2e7993f2572e05141ccb6e2c217"
 
-RPROVIDES:${PN} += "perl(PCP::MMV) \
-perl-PCP-MMV \
-perl-PCP-MMV(aarch-64)"
+RPROVIDES:${PN} += "perl-PCP--MMV \
+perl-PCP-MMV"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libpcp3 \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

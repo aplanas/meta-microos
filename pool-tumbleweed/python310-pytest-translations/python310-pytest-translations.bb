@@ -14,11 +14,11 @@ RPM_HASH = "107ff4e847f91210f6f8d50bd7c12a9857e358a8facf03aaadbdc70e1007e8c18cdb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-translations \
-python3.10dist(pytest-translations) \
+python3.10dist-pytest-translations \
 python310-pytest-translations \
-python3dist(pytest-translations)"
+python3dist-pytest-translations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-polib \
 python310-pyenchant"
 

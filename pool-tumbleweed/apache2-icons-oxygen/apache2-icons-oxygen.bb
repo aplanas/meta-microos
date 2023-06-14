@@ -9,7 +9,7 @@ RPM_HASH = "855d54ac22eb69b6c77f2e00ec971bff9726c0680d8821c19210041f71f2af96cd9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache2-icons-oxygen \
-config(apache2-icons-oxygen)"
+config-apache2-icons-oxygen"
 
 RDEPENDS:${PN} += "apache2"
 

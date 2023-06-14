@@ -15,16 +15,16 @@ RPM_HASH = "4f5ab6b964fe21d21070116219330305e1b1e77cb00a79d83678e2b860adb2627ffe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsh2 \
-mvn(bsh:bsh) \
-mvn(bsh:bsh-bsf) \
-mvn(bsh:bsh-bsf:pom:) \
-mvn(bsh:bsh:pom:) \
-mvn(org.apache-extras.beanshell:bsh) \
-mvn(org.apache-extras.beanshell:bsh:pom:) \
-mvn(org.beanshell:bsh) \
-mvn(org.beanshell:bsh2) \
-mvn(org.beanshell:bsh2:pom:) \
-mvn(org.beanshell:bsh:pom:)"
+mvn-bsh-bsh \
+mvn-bsh-bsh-bsf \
+mvn-bsh-bsh-bsf-pom- \
+mvn-bsh-bsh-pom- \
+mvn-org.apache-extras.beanshell-bsh \
+mvn-org.apache-extras.beanshell-bsh-pom- \
+mvn-org.beanshell-bsh \
+mvn-org.beanshell-bsh-pom- \
+mvn-org.beanshell-bsh2 \
+mvn-org.beanshell-bsh2-pom-"
 
 RDEPENDS:${PN} += "bsf \
 java-headless \

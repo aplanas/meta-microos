@@ -9,11 +9,11 @@ RPM_HASH = "f50067b394de9d6aece2a35542db225eb06b6aa405fd22aa5bc1490b95a952bcfee1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-confuse \
-python3.10dist(confuse) \
+python3.10dist-confuse \
 python310-confuse \
-python3dist(confuse)"
+python3dist-confuse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML"
 
 inherit rpm

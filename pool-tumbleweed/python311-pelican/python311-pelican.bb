@@ -26,13 +26,13 @@ RPM_NAME = "python311-pelican-4.8.0-2.4.noarch.rpm"
 RPM_HASH = "86578e45a6d1afe63dc2ebda0d6d167618de41bd66ad7521d913379eb66c01e95ccadd2dfbc5d21a66f11ab8fb89009c4a3a7a867538dcbc11f6cf7b9b2ddb61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pelican) \
+RPROVIDES:${PN} += "python3.11dist-pelican \
 python311-pelican \
-python3dist(pelican)"
+python3dist-pelican"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Jinja2 \
 python311-Pygments \
 python311-Unidecode \

@@ -11,11 +11,11 @@ RPM_HASH = "49b6679737adf59997b779cb1282493212643a81770a45f325d665adedab6831560a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-numpydoc \
-python3.10dist(numpydoc) \
+python3.10dist-numpydoc \
 python310-numpydoc \
-python3dist(numpydoc)"
+python3dist-numpydoc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-Sphinx"
 

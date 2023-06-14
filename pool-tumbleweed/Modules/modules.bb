@@ -26,18 +26,17 @@ RPM_NAME = "Modules-4.8.0-1.7.aarch64.rpm"
 RPM_HASH = "d1df6739eb74229533b01dedb7f57b1b9606da646f82c0da2644bd9d92953132739390c4fd176ce0835321bc2ccf23ce5bcc44e5d8bed28f0d689ca8bddab303"
 
 RPROVIDES:${PN} += "Modules \
-Modules(aarch-64) \
-config(Modules) \
+config-Modules \
 environment-modules \
-libtclenvmodules.so()(64bit)"
+libtclenvmodules.so"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
 /usr/bin/tclsh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtcl8.6.so \
 python3 \
 tcl"
 

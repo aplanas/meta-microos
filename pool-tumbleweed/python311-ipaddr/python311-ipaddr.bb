@@ -10,10 +10,10 @@ RPM_NAME = "python311-ipaddr-2.2.0-1.16.noarch.rpm"
 RPM_HASH = "b193075746ceb48c82cbdb0d291695495b026dd9e802e1c40ab978b82fbf06422a38473442ec770b88d8a37f1538d4813ece8b431e1a3b05f807e1678f12c2fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(ipaddr) \
+RPROVIDES:${PN} += "python3.11dist-ipaddr \
 python311-ipaddr \
-python3dist(ipaddr)"
+python3dist-ipaddr"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

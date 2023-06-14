@@ -10,8 +10,7 @@ RPM_HASH = "ce473195eb7aa2cadfcc5f34d962935c4860236ff265767384b8f003a7a7a56495c8
 
 RPROVIDES:${PN} += "cloud-init-config \
 cloud-init-config-suse \
-cloud-init-config-suse(aarch-64) \
-config(cloud-init-config-suse)"
+config-cloud-init-config-suse"
 
 RDEPENDS:${PN} += ""
 

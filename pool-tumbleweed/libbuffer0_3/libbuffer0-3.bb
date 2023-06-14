@@ -9,16 +9,15 @@ PV = "1.6.68"
 RPM_NAME = "libbuffer0_3-1.6.68-1.12.aarch64.rpm"
 RPM_HASH = "ec0591b034fc78e4581f9ff89171e0a5df770487e91fe5fb3d276c34d11387d7f2608cb29f32931b38da19e6d36602d265712e0ef381397e9e4f002f4001a142"
 
-RPROVIDES:${PN} += "libbuffer.so.0.3()(64bit) \
-libbuffer0_3 \
-libbuffer0_3(aarch-64)"
+RPROVIDES:${PN} += "libbuffer.so.0.3 \
+libbuffer0-3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libUTF.so.0.3()(64bit) \
-libc.so.6()(64bit) \
-libftoa.so.0.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libUTF.so.0.3 \
+libc.so.6 \
+libftoa.so.0.3 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

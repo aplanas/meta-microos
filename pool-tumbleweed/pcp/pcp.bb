@@ -12,9 +12,8 @@ PV = "5.2.5"
 RPM_NAME = "pcp-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "e655ccb97f2291a7b2e1b6ec63c2c2ec00791af43b9f9881defb7d8126ab10b659bd6572479fe796a284a39a2266a8b7f90cca36b00d0e544bc88a401b791b2b"
 
-RPROVIDES:${PN} += "config(pcp) \
+RPROVIDES:${PN} += "config-pcp \
 pcp \
-pcp(aarch-64) \
 pcp-pmda-kvm \
 pcp-webapi"
 
@@ -27,23 +26,23 @@ fileutils \
 findutils \
 gawk \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libpcp.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libncursesw.so.6 \
+libpcp-gui.so.2 \
+libpcp-import.so.1 \
+libpcp-mmv.so.1 \
+libpcp-pmda.so.3 \
+libpcp-trace.so.2 \
+libpcp-web.so.1 \
+libpcp.so.3 \
 libpcp3 \
-libpcp_gui.so.2()(64bit) \
-libpcp_import.so.1()(64bit) \
-libpcp_mmv.so.1()(64bit) \
-libpcp_pmda.so.3()(64bit) \
-libpcp_trace.so.2()(64bit) \
-libpcp_web.so.1()(64bit) \
-libreadline.so.8()(64bit) \
-libssl.so.3()(64bit) \
-libtinfo.so.6()(64bit) \
-libuv.so.1()(64bit) \
+libreadline.so.8 \
+libssl.so.3 \
+libtinfo.so.6 \
+libuv.so.1 \
 perl \
 permissions \
 sed \

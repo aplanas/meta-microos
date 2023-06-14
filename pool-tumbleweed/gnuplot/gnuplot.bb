@@ -10,40 +10,33 @@ PV = "5.4.7"
 RPM_NAME = "gnuplot-5.4.7-1.1.aarch64.rpm"
 RPM_HASH = "a8f75aff5eb8a7b8e7fdb64092def9e4ed97daedd4b8ebdd0b724e152a5795f664267b05883a9b1a4d2671449f9b40704d56ec80b8973c1754c90bb3cdb13a61"
 
-RPROVIDES:${PN} += "gnuplot \
-gnuplot(aarch-64)"
+RPROVIDES:${PN} += "gnuplot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcaca.so.0()(64bit) \
-libcairo.so.2()(64bit) \
-libcerf.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgd.so.3()(64bit) \
-libgdk-3.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-liblua5.4.so.5()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libcaca.so.0 \
+libcairo.so.2 \
+libcerf.so.2 \
+libgcc-s.so.1 \
+libgd.so.3 \
+libgdk-3.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+liblua5.4.so.5 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libreadline.so.8 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0"
 
 inherit rpm

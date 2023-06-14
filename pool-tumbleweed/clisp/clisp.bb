@@ -12,50 +12,48 @@ RPM_NAME = "clisp-2.49.92-5.4.aarch64.rpm"
 RPM_HASH = "b4fd1ff54f630063d86ef3abf4af3b56586208a613bcc7f6a24b8b1bf6a1d3a29541d7e2ce6c882a0cec6f73751d3d4f9fc2e65112bc47c6486f443003d710e7"
 
 RPROVIDES:${PN} += "clisp \
-clisp(aarch-64) \
 clisp-devel \
-lib-bdb.so()(64bit) \
-lib-clx.so()(64bit) \
-lib-dbus.so()(64bit) \
-lib-fastcgi.so()(64bit) \
-lib-gdbm.so()(64bit) \
-lib-gtk.so()(64bit) \
-lib-linux.so()(64bit) \
-lib-pcre.so()(64bit) \
-lib-postgresql.so()(64bit) \
-lib-queens.so()(64bit) \
-lib-rawsock.so()(64bit) \
-lib-zlib.so()(64bit)"
+lib-bdb.so \
+lib-clx.so \
+lib-dbus.so \
+lib-fastcgi.so \
+lib-gdbm.so \
+lib-gtk.so \
+lib-linux.so \
+lib-pcre.so \
+lib-postgresql.so \
+lib-queens.so \
+lib-rawsock.so \
+lib-zlib.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gzip \
 ffcall \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXau.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXpm.so.4()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libdb-4.8.so()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libfcgi.so.0()(64bit) \
-libffcall.so.0()(64bit) \
-libgdbm.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglade-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpcre.so.1()(64bit) \
-libpq.so.5()(64bit) \
-libreadline.so.8()(64bit) \
-libsigsegv.so.2()(64bit) \
-libtinfo.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXau.so.6 \
+libXext.so.6 \
+libXpm.so.4 \
+libc.so.6 \
+libcrypt.so.1 \
+libdb-4.8.so \
+libdbus-1.so.3 \
+libfcgi.so.0 \
+libffcall.so.0 \
+libgdbm.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglade-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libpcre.so.1 \
+libpq.so.5 \
+libreadline.so.8 \
+libsigsegv.so.2 \
+libtinfo.so.6 \
+libz.so.1 \
 vim \
 vim-data"
 

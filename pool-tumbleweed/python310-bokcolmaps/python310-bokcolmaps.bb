@@ -9,11 +9,11 @@ RPM_HASH = "e1473bb256a002809bd51193deecd2cd04898f5b4d3271459ac6bf3e614d002817e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bokcolmaps \
-python3.10dist(bokcolmaps) \
+python3.10dist-bokcolmaps \
 python310-bokcolmaps \
-python3dist(bokcolmaps)"
+python3dist-bokcolmaps"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-bokeh \
 python310-numpy"
 

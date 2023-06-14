@@ -21,11 +21,11 @@ RPM_HASH = "559c77c7f5ab88363ce5a8c237f6706410d3733e79892e0cddc4ae1ce4278910c92c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-agrifood-farming \
-python3.10dist(azure-agrifood-farming) \
+python3.10dist-azure-agrifood-farming \
 python310-azure-agrifood-farming \
-python3dist(azure-agrifood-farming)"
+python3dist-azure-agrifood-farming"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-agrifood-nspkg \
 python310-azure-core \
 python310-azure-nspkg \

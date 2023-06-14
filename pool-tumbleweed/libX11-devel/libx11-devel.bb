@@ -18,18 +18,17 @@ RPM_NAME = "libX11-devel-1.8.5-1.1.aarch64.rpm"
 RPM_HASH = "b956f2c3b74e73e8ff4822a64a78456f85f8046bbb0211cdb34115860c1591f52db44c5c914a09e9f302b015c35972aec42bb4570fdc3102f2e4b8b5e2897435"
 
 RPROVIDES:${PN} += "libX11-devel \
-libX11-devel(aarch-64) \
-pkgconfig(x11) \
-pkgconfig(x11-xcb) \
+pkgconfig-x11 \
+pkgconfig-x11-xcb \
 xorg-x11-libX11-devel \
-xorgproto-devel:/usr/include/X11/extensions/XKBgeom.h"
+xorgproto-devel-/usr/include/X11/extensions/XKBgeom.h"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libX11-6 \
 libX11-xcb1 \
-pkgconfig(kbproto) \
-pkgconfig(x11) \
-pkgconfig(xcb) \
-pkgconfig(xproto)"
+pkgconfig-kbproto \
+pkgconfig-x11 \
+pkgconfig-xcb \
+pkgconfig-xproto"
 
 inherit rpm

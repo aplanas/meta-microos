@@ -17,11 +17,10 @@ RPM_NAME = "libyang-devel-2.1.55-1.1.aarch64.rpm"
 RPM_HASH = "feddf9a6c365bb105ee3b960d10fc7846bff22088cd61cd825a1235f541e57f4d80bb01ec64c09861912e4d4b70e8e4be9330b362e5433398128cb0c0b2e065c"
 
 RPROVIDES:${PN} += "libyang-devel \
-libyang-devel(aarch-64) \
-pkgconfig(libyang)"
+pkgconfig-libyang"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyang2 \
-pkgconfig(libpcre2-8)"
+pkgconfig-libpcre2-8"
 
 inherit rpm

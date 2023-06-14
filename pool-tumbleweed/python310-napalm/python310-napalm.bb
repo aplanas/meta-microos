@@ -10,13 +10,13 @@ RPM_HASH = "207a5fd485e6b057a4bd621d602e7432c9e26c294d5eec2a3ca4570b351326fc5d42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-napalm \
-python3.10dist(napalm) \
+python3.10dist-napalm \
 python310-napalm \
-python3dist(napalm)"
+python3dist-napalm"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-PyYAML \
 python310-cffi \
@@ -36,7 +36,7 @@ python310-setuptools \
 python310-textfsm \
 python310-ttp \
 python310-ttp-templates \
-python310-typing_extensions \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

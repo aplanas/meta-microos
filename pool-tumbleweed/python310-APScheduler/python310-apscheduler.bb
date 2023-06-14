@@ -27,11 +27,11 @@ RPM_HASH = "3897befa7eaec930841e8211163619f05e49c1b66bb4e609e67183738589f69b14fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-APScheduler \
-python3.10dist(apscheduler) \
+python3.10dist-apscheduler \
 python310-APScheduler \
-python3dist(apscheduler)"
+python3dist-apscheduler"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytz \
 python310-six \
 python310-tzlocal"

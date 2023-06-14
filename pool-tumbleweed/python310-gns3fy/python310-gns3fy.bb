@@ -12,11 +12,11 @@ RPM_HASH = "7a673f2ef5099fa3b74fa25b1965dc92ddf02e07f001c193e6fef366d694e930ac21
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gns3fy \
-python3.10dist(gns3fy) \
+python3.10dist-gns3fy \
 python310-gns3fy \
-python3dist(gns3fy)"
+python3dist-gns3fy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pydantic \
 python310-requests"
 

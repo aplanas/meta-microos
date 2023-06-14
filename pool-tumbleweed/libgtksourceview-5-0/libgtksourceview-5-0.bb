@@ -13,24 +13,23 @@ RPM_HASH = "e6f42d702c159ec0ff3c9f0bdd7898ea80d2df92db443419870ee9e4df76f821f84f
 
 RPROVIDES:${PN} += "gtksourceview5 \
 libgtksourceview-5-0 \
-libgtksourceview-5-0(aarch-64) \
-libgtksourceview-5.so.0()(64bit)"
+libgtksourceview-5.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfribidi.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpangoft2-1.0.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libfontconfig.so.1 \
+libfribidi.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpangoft2-1.0.so.0 \
+libpcre2-8.so.0 \
+libxml2.so.2"
 
 inherit rpm

@@ -16,12 +16,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xarray \
 python3-xray \
-python3.10dist(xarray) \
+python3.10dist-xarray \
 python310-xarray \
 python310-xray \
-python3dist(xarray)"
+python3dist-xarray"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-packaging \
 python310-pandas"

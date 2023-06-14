@@ -33,13 +33,12 @@ PV = "0.3.3"
 RPM_NAME = "qemacs-0.3.3-1.8.aarch64.rpm"
 RPM_HASH = "a60ef89e0d07b7d76f1bf5e1d6158c1ffe6f766c0f583d5885204f8512450aa6e00b24c0098f03c014f6e787f6144ffb59ac06f352ce897aaf713c11a850c8b2"
 
-RPROVIDES:${PN} += "qemacs \
-qemacs(aarch-64)"
+RPROVIDES:${PN} += "qemacs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXv.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXv.so.1 \
+libc.so.6"
 
 inherit rpm

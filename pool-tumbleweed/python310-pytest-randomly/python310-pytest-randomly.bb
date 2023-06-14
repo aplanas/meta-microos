@@ -26,11 +26,11 @@ RPM_HASH = "5865bdd6fe7b85d3d5013edc69532e056df524dbedd28e96233fd73079a35a8cb589
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-randomly \
-python3.10dist(pytest-randomly) \
+python3.10dist-pytest-randomly \
 python310-pytest-randomly \
-python3dist(pytest-randomly)"
+python3dist-pytest-randomly"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-importlib-metadata \
 python310-pytest"
 

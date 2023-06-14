@@ -13,7 +13,7 @@ RPM_NAME = "texlive-russ-2023.201.svn25209-53.1.noarch.rpm"
 RPM_HASH = "46ab4b7597574de051bb2abecbfe77840fcea53a6fa12f21e3632be04c6d1d9e6225eeff4d1e5feb016aca051d923fe7f91d43e29073bda21d0f9cacb5a607cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(russ.sty) \
+RPROVIDES:${PN} += "tex-russ.sty \
 texlive-russ"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(inputenc.sty) \
-tex(t2aenc.def) \
-tex(xspace.sty) \
+tex-inputenc.sty \
+tex-t2aenc.def \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

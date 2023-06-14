@@ -14,15 +14,15 @@ RPM_HASH = "2a2ae184224b8b6b94d7be23229ad2abae83749c95a5a6f10ebc75fd1221b2604213
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-txt2tags \
-python3.10dist(txt2tags) \
+python3.10dist-txt2tags \
 python310-txt2tags \
-python3dist(txt2tags) \
+python3dist-txt2tags \
 txt2tags"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

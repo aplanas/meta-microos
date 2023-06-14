@@ -9,7 +9,7 @@ RPM_NAME = "libldap-data-2.6.4-1.1.noarch.rpm"
 RPM_HASH = "01f1d1e50bf133584a165f0abe2fc74fdec1c2541eb5caddee69f0b9598c0e2b8abcb3317af1e626c45972c8f97dea40378fef06ae052f93dbe1ce618cafbdd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(libldap-data) \
+RPROVIDES:${PN} += "config-libldap-data \
 libldap-data"
 
 RDEPENDS:${PN} += ""

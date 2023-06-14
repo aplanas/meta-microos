@@ -12,8 +12,7 @@ PV = "1.13.1"
 RPM_NAME = "adios-openmpi3-devel-1.13.1-5.12.aarch64.rpm"
 RPM_HASH = "85db618a1a8bc5a0eb3cb01f390b041388ffc15b12d0260fd59dc4540ce1b00b53468144535a08088389d4f32d9c94708387d0de691cd87470d074f89b398f17"
 
-RPROVIDES:${PN} += "adios-openmpi3-devel \
-adios-openmpi3-devel(aarch-64)"
+RPROVIDES:${PN} += "adios-openmpi3-devel"
 
 RDEPENDS:${PN} += "adios-openmpi3 \
 adios-openmpi3-devel-static \

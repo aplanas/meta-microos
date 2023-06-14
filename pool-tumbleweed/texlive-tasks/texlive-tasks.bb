@@ -12,8 +12,8 @@ RPM_NAME = "texlive-tasks-2023.201.1.4asvn61541-54.1.noarch.rpm"
 RPM_HASH = "5f9eff48642190fc53674ce0f071aef62f3fbb98559344c8a5063d15c7aa472fdf2b4f7307b5f7f5ecc2946416e6f1a41940bc3fe5783a4a2190b243f07bd15e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tasks.cfg) \
-tex(tasks.sty) \
+RPROVIDES:${PN} += "tex-tasks.cfg \
+tex-tasks.sty \
 texlive-tasks"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(xparse.sty) \
-tex(xtemplate.sty) \
+tex-expl3.sty \
+tex-xparse.sty \
+tex-xtemplate.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

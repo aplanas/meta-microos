@@ -10,13 +10,13 @@ RPM_HASH = "5df5eb9e5b2378f1e2315b2757e62108de62fc984173ce08e165b8fff2ef1f2050bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "html2text \
-python3.9dist(html2text) \
+python3.9dist-html2text \
 python39-html2text \
-python3dist(html2text)"
+python3dist-html2text"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -8,15 +8,15 @@ RPM_NAME = "myspell-en_CA-20221012-1.2.noarch.rpm"
 RPM_HASH = "bc3ac83279e3efd83e121ac75a08b15c26a9587c699a917aaf699ce2716bc7987cf98626d75abe29268902fe099b40b25861960b688038a0d276675671b35a27"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:en_CA) \
-locale(seamonkey-spellchecker:en_CA) \
+RPROVIDES:${PN} += "locale-libreoffice-en-CA \
+locale-seamonkey-spellchecker-en-CA \
 myspell-canadian \
 myspell-dictionary \
-myspell-en_CA"
+myspell-en-CA"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en \
-myspell-en_GB \
-myspell-en_US"
+myspell-en-GB \
+myspell-en-US"
 
 inherit rpm

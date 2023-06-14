@@ -13,15 +13,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hamcrest \
 hamcrest-core \
-mvn(org.hamcrest:hamcrest) \
-mvn(org.hamcrest:hamcrest-all) \
-mvn(org.hamcrest:hamcrest-all:pom:) \
-mvn(org.hamcrest:hamcrest-core) \
-mvn(org.hamcrest:hamcrest-core:pom:) \
-mvn(org.hamcrest:hamcrest-library) \
-mvn(org.hamcrest:hamcrest-library:pom:) \
-mvn(org.hamcrest:hamcrest:pom:) \
-osgi(org.hamcrest)"
+mvn-org.hamcrest-hamcrest \
+mvn-org.hamcrest-hamcrest-all \
+mvn-org.hamcrest-hamcrest-all-pom- \
+mvn-org.hamcrest-hamcrest-core \
+mvn-org.hamcrest-hamcrest-core-pom- \
+mvn-org.hamcrest-hamcrest-library \
+mvn-org.hamcrest-hamcrest-library-pom- \
+mvn-org.hamcrest-hamcrest-pom- \
+osgi-org.hamcrest"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

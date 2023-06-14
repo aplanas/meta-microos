@@ -8,18 +8,17 @@ RPM_NAME = "python310-cchardet-2.1.18-1.4.aarch64.rpm"
 RPM_HASH = "be80345372ebfd741b9ae599a9870285fd113e7d0502f2c3b517272227b4406406c4a90e4958909b80eceac1e00ea2bc50982e0ee75dc2dd348b60a264649b19"
 
 RPROVIDES:${PN} += "python3-cchardet \
-python3.10dist(faust-cchardet) \
+python3.10dist-faust-cchardet \
 python310-cchardet \
-python310-cchardet(aarch-64) \
-python3dist(faust-cchardet)"
+python3dist-faust-cchardet"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 update-alternatives"
 
 inherit rpm

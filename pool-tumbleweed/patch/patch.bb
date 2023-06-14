@@ -8,10 +8,9 @@ PV = "2.7.6"
 RPM_NAME = "patch-2.7.6-6.8.aarch64.rpm"
 RPM_HASH = "c5fe270616d22ff14c00e60ca383867114f1639f831b78c2f922eb48566d302b21ee3ab9efdf7daed0fa622e614494ab47e14d7eb847f1727fea7d19427f7194"
 
-RPROVIDES:${PN} += "patch \
-patch(aarch-64)"
+RPROVIDES:${PN} += "patch"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

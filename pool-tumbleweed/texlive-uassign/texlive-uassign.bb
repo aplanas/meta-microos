@@ -10,7 +10,7 @@ RPM_NAME = "texlive-uassign-2023.201.1.01svn38459-52.1.noarch.rpm"
 RPM_HASH = "f671abc76d68aefec5a03af6f269ef018d5463c26dae45728a27b3c41b3ea254be73589ca1a4bb9829af3bc89b48b95daeda9492f5bcb2625ad5c96552faead9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(uassign.sty) \
+RPROVIDES:${PN} += "tex-uassign.sty \
 texlive-uassign"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,15 +19,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(amsthm.sty) \
-tex(bookmark.sty) \
-tex(color.sty) \
-tex(enumerate.sty) \
-tex(fancyhdr.sty) \
-tex(hyperref.sty) \
-tex(ifthen.sty) \
-tex(titlesec.sty) \
+tex-amsmath.sty \
+tex-amsthm.sty \
+tex-bookmark.sty \
+tex-color.sty \
+tex-enumerate.sty \
+tex-fancyhdr.sty \
+tex-hyperref.sty \
+tex-ifthen.sty \
+tex-titlesec.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

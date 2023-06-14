@@ -10,11 +10,11 @@ RPM_HASH = "0021589debc5e87defd4db4d3c6a7b51abaa9a26e5b35badb616293f03c93aeaf4b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyvmomi \
-python3.10dist(pyvmomi) \
+python3.10dist-pyvmomi \
 python310-pyvmomi \
-python3dist(pyvmomi)"
+python3dist-pyvmomi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-six"
 

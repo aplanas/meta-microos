@@ -11,20 +11,18 @@ PV = "1.10.1"
 RPM_NAME = "python311-scipy-1.10.1-2.4.aarch64.rpm"
 RPM_HASH = "b1d5cb5f8dda36e2c2e5905f9a7845fff36e96f1ff0d19333c75b17ec17069829fe85a4c515ef71066115651e548754b3f9a579b72859b6bb45d6a127fd0c0d1"
 
-RPROVIDES:${PN} += "python3.11dist(scipy) \
+RPROVIDES:${PN} += "python3.11dist-scipy \
 python311-scipy \
-python311-scipy(aarch-64) \
-python3dist(scipy)"
+python3dist-scipy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
-libopenblas.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
+libopenblas.so.0 \
+libstdc++.so.6 \
+python-abi \
 python311-numpy \
 python311-pybind11"
 

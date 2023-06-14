@@ -10,8 +10,8 @@ RPM_NAME = "texlive-tugboat-plain-2023.201.1.27svn63386-52.1.noarch.rpm"
 RPM_HASH = "01a784a30ec81aa22e7708b91b22acc593e63670ac33f73024e9f8bc117c6c454a3a09f83b736049aa36e81d675085a634fc9dd6a666ec1ad682341094b3817c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tugboat.sty) \
-tex(tugproc.sty) \
+RPROVIDES:${PN} += "tex-tugboat.sty \
+tex-tugproc.sty \
 texlive-tugboat-plain"
 
 RDEPENDS:${PN} += "/bin/sh \

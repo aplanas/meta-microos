@@ -9,11 +9,11 @@ RPM_HASH = "2aa0642c188a0835d25c2f6208d88e66b7cb09e23e166b53841712596cf8111920b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mbstrdecoder \
-python3.10dist(mbstrdecoder) \
+python3.10dist-mbstrdecoder \
 python310-mbstrdecoder \
-python3dist(mbstrdecoder)"
+python3dist-mbstrdecoder"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Faker \
 python310-chardet"
 

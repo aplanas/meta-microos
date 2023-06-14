@@ -8,55 +8,54 @@ PV = "2.5"
 RPM_NAME = "ocaml-xml-light-devel-2.5-1.2.aarch64.rpm"
 RPM_HASH = "e6414b92506b40420372627e0b90f59beed98617871b464a5caa68bf2070f0c5fdd251a7f0e8137026564e6a47253ad80b433d6744eb432b5c86426af36d4c7c"
 
-RPROVIDES:${PN} += "ocaml(Dtd) \
-ocaml(Xml) \
-ocaml(XmlParser) \
-ocaml(Xml_lexer) \
-ocaml(Xml_light_dtd_check) \
-ocaml(Xml_light_errors) \
-ocaml(Xml_light_types) \
-ocaml(Xml_light_utils) \
-ocaml(Xml_parser) \
+RPROVIDES:${PN} += "ocaml-Dtd \
+ocaml-Xml \
+ocaml-Xml-lexer \
+ocaml-Xml-light-dtd-check \
+ocaml-Xml-light-errors \
+ocaml-Xml-light-types \
+ocaml-Xml-light-utils \
+ocaml-Xml-parser \
+ocaml-XmlParser \
 ocaml-xml-light-devel \
-ocaml-xml-light-devel(aarch-64) \
-ocamlfind(xml-light) \
-ocamlx(Dtd) \
-ocamlx(Xml) \
-ocamlx(XmlParser) \
-ocamlx(Xml_lexer) \
-ocamlx(Xml_light_dtd_check) \
-ocamlx(Xml_light_errors) \
-ocamlx(Xml_light_utils) \
-ocamlx(Xml_parser)"
+ocamlfind-xml-light \
+ocamlx-Dtd \
+ocamlx-Xml \
+ocamlx-Xml-lexer \
+ocamlx-Xml-light-dtd-check \
+ocamlx-Xml-light-errors \
+ocamlx-Xml-light-utils \
+ocamlx-Xml-parser \
+ocamlx-XmlParser"
 
-RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
-ocaml(Stdlib) \
-ocaml(Stdlib__Buffer) \
-ocaml(Stdlib__Either) \
-ocaml(Stdlib__Filename) \
-ocaml(Stdlib__Hashtbl) \
-ocaml(Stdlib__Int32) \
-ocaml(Stdlib__Lexing) \
-ocaml(Stdlib__List) \
-ocaml(Stdlib__Map) \
-ocaml(Stdlib__Obj) \
-ocaml(Stdlib__Parsing) \
-ocaml(Stdlib__Printf) \
-ocaml(Stdlib__Seq) \
-ocaml(Stdlib__Stack) \
-ocaml(Stdlib__String) \
-ocaml(Stdlib__Uchar) \
+RDEPENDS:${PN} += "ocaml-CamlinternalFormatBasics \
+ocaml-Stdlib \
+ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Either \
+ocaml-Stdlib--Filename \
+ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--Int32 \
+ocaml-Stdlib--Lexing \
+ocaml-Stdlib--List \
+ocaml-Stdlib--Map \
+ocaml-Stdlib--Obj \
+ocaml-Stdlib--Parsing \
+ocaml-Stdlib--Printf \
+ocaml-Stdlib--Seq \
+ocaml-Stdlib--Stack \
+ocaml-Stdlib--String \
+ocaml-Stdlib--Uchar \
 ocaml-xml-light \
-ocamlx(Stdlib) \
-ocamlx(Stdlib__Buffer) \
-ocamlx(Stdlib__Filename) \
-ocamlx(Stdlib__Hashtbl) \
-ocamlx(Stdlib__Lexing) \
-ocamlx(Stdlib__List) \
-ocamlx(Stdlib__Map) \
-ocamlx(Stdlib__Parsing) \
-ocamlx(Stdlib__Printf) \
-ocamlx(Stdlib__Stack) \
-ocamlx(Stdlib__String)"
+ocamlx-Stdlib \
+ocamlx-Stdlib--Buffer \
+ocamlx-Stdlib--Filename \
+ocamlx-Stdlib--Hashtbl \
+ocamlx-Stdlib--Lexing \
+ocamlx-Stdlib--List \
+ocamlx-Stdlib--Map \
+ocamlx-Stdlib--Parsing \
+ocamlx-Stdlib--Printf \
+ocamlx-Stdlib--Stack \
+ocamlx-Stdlib--String"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "059b9345ad9b0ab564403ce1cad135b8e3f9f859346532eec96a6530890242ca1000
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certbot-dns-cloudflare \
-python3.10dist(certbot-dns-cloudflare) \
+python3.10dist-certbot-dns-cloudflare \
 python310-certbot-dns-cloudflare \
-python3dist(certbot-dns-cloudflare)"
+python3dist-certbot-dns-cloudflare"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-acme \
 python310-certbot \
 python310-cloudflare \

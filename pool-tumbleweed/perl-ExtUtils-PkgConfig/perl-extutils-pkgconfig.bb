@@ -14,10 +14,10 @@ RPM_NAME = "perl-ExtUtils-PkgConfig-1.160000-1.23.noarch.rpm"
 RPM_HASH = "f6b4eca66b618ca809fbe156960e16afe2c9586ea332f07943365e95a2c002fc7e7e20d3cf6a277990d4d4c7fce0e16eacaeff0f00c128a1e3bddc1cfe9c580f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(ExtUtils::PkgConfig) \
+RPROVIDES:${PN} += "perl-ExtUtils--PkgConfig \
 perl-ExtUtils-PkgConfig"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
 pkgconfig"
 
 inherit rpm

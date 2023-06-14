@@ -8,18 +8,17 @@ RPM_NAME = "python3-libpreludedb-5.2.0-2.10.aarch64.rpm"
 RPM_HASH = "ef76812954584c31908e6c3d884a44efaf0a509e928955e84627835caa5c62309402729c8095c3c579947fece1816699e745fb29daff20775522964f18f85dfb"
 
 RPROVIDES:${PN} += "python3-libpreludedb \
-python3-libpreludedb(aarch-64) \
-python3.10dist(preludedb) \
-python3dist(preludedb)"
+python3.10dist-preludedb \
+python3dist-preludedb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprelude.so.28()(64bit) \
-libpreludecpp.so.12()(64bit) \
-libpreludedb.so.7()(64bit) \
-libpreludedbcpp.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprelude.so.28 \
+libpreludecpp.so.12 \
+libpreludedb.so.7 \
+libpreludedbcpp.so.2 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

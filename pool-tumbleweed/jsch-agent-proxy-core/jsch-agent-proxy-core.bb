@@ -9,9 +9,9 @@ RPM_HASH = "903cfea20909344fd40ed4416be56e41d667a45ce05201ee7ad24d7590d7e15db796
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-core \
-mvn(com.jcraft:jsch.agentproxy.core) \
-mvn(com.jcraft:jsch.agentproxy.core:pom:) \
-osgi(com.jcraft.jsch.agentproxy.core)"
+mvn-com.jcraft-jsch.agentproxy.core \
+mvn-com.jcraft-jsch.agentproxy.core-pom- \
+osgi-com.jcraft.jsch.agentproxy.core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

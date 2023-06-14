@@ -12,35 +12,22 @@ PV = "5.1.3"
 RPM_NAME = "texmaker-5.1.3-1.11.aarch64.rpm"
 RPM_HASH = "b2bfd8a6ad85faf73e65311b5c9db09115c77bb1cf53546aa2c2750aca5e0e9f67cd73a69cce7b0dd9ee3af20e54b2edf74ef98afb0cebfeaf6432f6f2200f4a"
 
-RPROVIDES:${PN} += "application() \
-application(texmaker.desktop) \
-metainfo() \
-metainfo(texmaker.metainfo.xml) \
-mimehandler(text/x-tex) \
-texmaker \
-texmaker(aarch-64)"
+RPROVIDES:${PN} += "texmaker"
 
 RDEPENDS:${PN} += "hunspell \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Qml.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6 \
 texlive-collection-latexrecommended \
-web_browser \
+web-browser \
 xdg-utils"
 
 inherit rpm

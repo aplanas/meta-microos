@@ -12,11 +12,11 @@ RPM_HASH = "35bcbad5396e4d77b8e61dd3e38926e4e70e6c67d3ce2225b5145bda04c07c056a6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pure-sasl \
-python3.10dist(pure-sasl) \
+python3.10dist-pure-sasl \
 python310-pure-sasl \
-python3dist(pure-sasl)"
+python3dist-pure-sasl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-kerberos"
 
 inherit rpm

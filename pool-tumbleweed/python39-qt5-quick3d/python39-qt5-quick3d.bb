@@ -9,17 +9,14 @@ PV = "5.15.9"
 RPM_NAME = "python39-qt5-quick3d-5.15.9-1.4.aarch64.rpm"
 RPM_HASH = "f9ffa75a7dd63235d9829830093ea90d9cf571f8c73e79e063ea508219301c6bf088760f79deff4ae36ce85d99b0cb73fedc8478419317c45b5161c22ab700a7"
 
-RPROVIDES:${PN} += "python39-qt5-quick3d \
-python39-qt5-quick3d(aarch-64)"
+RPROVIDES:${PN} += "python39-qt5-quick3d"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Quick3D.so.5()(64bit) \
-libQt5Quick3D.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Quick3D.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-qt5"
 
 inherit rpm

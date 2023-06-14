@@ -17,34 +17,19 @@ PV = "26"
 RPM_NAME = "sxiv-26-1.13.aarch64.rpm"
 RPM_HASH = "e10ce87a63bb6b4d82cf0f1a95b9616559450d5642af4a15c9d82cb4678a398e1c0d3ecc3e669d1b6444d00504d1c69b928330950c35d5cc4055696bef5a1277"
 
-RPROVIDES:${PN} += "application() \
-application(sxiv.desktop) \
-mimehandler(image/bmp) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/jpg) \
-mimehandler(image/png) \
-mimehandler(image/tiff) \
-mimehandler(image/x-bmp) \
-mimehandler(image/x-portable-anymap) \
-mimehandler(image/x-portable-bitmap) \
-mimehandler(image/x-portable-graymap) \
-mimehandler(image/x-tga) \
-mimehandler(image/x-xpixmap) \
-sxiv \
-sxiv(aarch-64)"
+RPROVIDES:${PN} += "sxiv"
 
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 hicolor-icon-theme \
 imlib2-loaders \
-ld-linux-aarch64.so.1()(64bit) \
-libImlib2.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXft.so.2()(64bit) \
-libc.so.6()(64bit) \
-libexif.so.12()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgif.so.7()(64bit)"
+ld-linux-aarch64.so.1 \
+libImlib2.so.1 \
+libX11.so.6 \
+libXft.so.2 \
+libc.so.6 \
+libexif.so.12 \
+libfontconfig.so.1 \
+libgif.so.7"
 
 inherit rpm

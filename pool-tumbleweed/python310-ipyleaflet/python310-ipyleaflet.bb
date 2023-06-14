@@ -11,14 +11,14 @@ RPM_HASH = "212685abd30c5a34269c3edc525bc5d6065e2553db14c6c26b4d3c775c3070911307
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyleaflet \
-python3.10dist(ipyleaflet) \
+python3.10dist-ipyleaflet \
 python310-ipyleaflet \
-python3dist(ipyleaflet)"
+python3dist-ipyleaflet"
 
-RDEPENDS:${PN} += "(python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9) \
-(python310-traittypes >= 0.2.1 with python310-traittypes < 3) \
+RDEPENDS:${PN} += "-python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9 \
+-python310-traittypes >= 0.2.1 with python310-traittypes < 3 \
 jupyter-ipyleaflet \
-python(abi) \
+python-abi \
 python310-branca \
 python310-xyzservices"
 

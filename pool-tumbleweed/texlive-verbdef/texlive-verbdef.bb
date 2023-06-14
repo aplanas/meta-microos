@@ -14,7 +14,7 @@ RPM_NAME = "texlive-verbdef-2023.201.0.0.2svn17177-53.1.noarch.rpm"
 RPM_HASH = "a6ed17cd6097ca443547f3ba95e95e88919f0b1dd81ba0e9288ec336d33d0be92248aa3ec136782de38fde5f1b6e330d25b575e719ee47b26dbcc3496bf4b998"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(verbdef.sty) \
+RPROVIDES:${PN} += "tex-verbdef.sty \
 texlive-verbdef"
 
 RDEPENDS:${PN} += "/bin/sh \

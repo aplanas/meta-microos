@@ -10,7 +10,7 @@ RPM_NAME = "texlive-moderntimeline-2023.201.0.0.11svn55518-54.1.noarch.rpm"
 RPM_HASH = "ad7384649e829735290253ff3e3511ebe26a1c6192712156aa6bc9722d97a7f616a9e1a53892664c3745bf4a60ad5116a161da72a33475e9537152a758de7344"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(moderntimeline.sty) \
+RPROVIDES:${PN} += "tex-moderntimeline.sty \
 texlive-moderntimeline"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,8 +19,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
-tex(tikz.sty) \
+tex-kvoptions.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

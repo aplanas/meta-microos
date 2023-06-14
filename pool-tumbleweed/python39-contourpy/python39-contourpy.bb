@@ -13,17 +13,16 @@ PV = "1.0.7"
 RPM_NAME = "python39-contourpy-1.0.7-1.1.aarch64.rpm"
 RPM_HASH = "af7b0dcf2a5f0f700cac442a7e088a776c8ae039b7e89bdf22c73a3d18cda68e89835de68c184964d7b99d1b9f1c34b52fe7f6f6e7c75cf462e30b775223da8c"
 
-RPROVIDES:${PN} += "python3.9dist(contourpy) \
+RPROVIDES:${PN} += "python3.9dist-contourpy \
 python39-contourpy \
-python39-contourpy(aarch-64) \
-python3dist(contourpy)"
+python3dist-contourpy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-numpy"
 
 inherit rpm

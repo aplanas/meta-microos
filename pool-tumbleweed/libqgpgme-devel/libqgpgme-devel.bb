@@ -12,9 +12,8 @@ PV = "1.20.0"
 RPM_NAME = "libqgpgme-devel-1.20.0-1.1.aarch64.rpm"
 RPM_HASH = "898777fba4c58f22deb4ecb71b309a55fa7711ffd8c277df9a8735974dab8f7b168948be83dc168efed5415f1e27bf852f59143a06ae4ee7e78dfa4e79ad2209"
 
-RPROVIDES:${PN} += "cmake(QGpgme) \
-libqgpgme-devel \
-libqgpgme-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-QGpgme \
+libqgpgme-devel"
 
 RDEPENDS:${PN} += "libgpgme-devel \
 libgpgmepp-devel \

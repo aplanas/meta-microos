@@ -9,16 +9,15 @@ PV = "3.0"
 RPM_NAME = "libcxxtools-bin10-3.0-4.5.aarch64.rpm"
 RPM_HASH = "c0353d091d9a1654d17af0d4762f5d5ea0ba6207a4caab76a59a9d071f303a60f5184220fa88bebe767c1375a6ef04abcdbef7398d9190331531a51631b8b00e"
 
-RPROVIDES:${PN} += "libcxxtools-bin.so.10()(64bit) \
-libcxxtools-bin10 \
-libcxxtools-bin10(aarch-64)"
+RPROVIDES:${PN} += "libcxxtools-bin.so.10 \
+libcxxtools-bin10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcxxtools.so.10()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcxxtools.so.10 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

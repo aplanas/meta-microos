@@ -13,10 +13,10 @@ RPM_NAME = "perl-Class-Std-0.013-1.24.noarch.rpm"
 RPM_HASH = "51cf53372182eacbb7cb84866773710f4e4a3681f0e65c054ff61abf578e44ae1efb59e0c217bc4aba72d5c3eee3f5d19394b2e9feb3ccb656607e7aaec21194"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Std) \
-perl(Class::Std::SCR) \
+RPROVIDES:${PN} += "perl-Class--Std \
+perl-Class--Std--SCR \
 perl-Class-Std"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

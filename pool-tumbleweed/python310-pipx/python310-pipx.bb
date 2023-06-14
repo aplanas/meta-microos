@@ -9,13 +9,13 @@ RPM_HASH = "e5826bb2f9daa63f413e505cd2dbbc9d9948d78f61212ce25ba2c6ed77024300e337
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pipx \
-python3.10dist(pipx) \
+python3.10dist-pipx \
 python310-pipx \
-python3dist(pipx)"
+python3dist-pipx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-argcomplete \
 python310-setuptools \
 python310-userpath \

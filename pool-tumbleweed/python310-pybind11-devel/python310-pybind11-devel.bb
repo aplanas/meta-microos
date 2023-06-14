@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pybind11-devel \
 python310-pybind11-devel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-devel \
 python310-pybind11 \
 python310-pybind11-common-devel"

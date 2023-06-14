@@ -13,13 +13,12 @@ PV = "8.0.32"
 RPM_NAME = "libmysqlcppconn9-8.0.32-1.3.aarch64.rpm"
 RPM_HASH = "6e701c78feb8b089439ffb2ed9abd40a95b7ca63cdcc46c8fb2c3ccd3d52ef97f77ec3cda3c9b94ac36a092734f172faf02fdaf4f68896c2b63f5e4b30abae12"
 
-RPROVIDES:${PN} += "libmysqlcppconn.so.9()(64bit) \
-libmysqlcppconn9 \
-libmysqlcppconn9(aarch-64)"
+RPROVIDES:${PN} += "libmysqlcppconn.so.9 \
+libmysqlcppconn9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

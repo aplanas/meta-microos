@@ -11,28 +11,24 @@ PV = "2.0.5"
 RPM_NAME = "grisbi-2.0.5-1.8.aarch64.rpm"
 RPM_HASH = "e36f85b2dc67b0b0e1651de80ab1cf0dad82c750d8140955a210f4ff33da494516fa2280742fdb02b1266cda98500073c6c1fc119387369bf565643faf71a241"
 
-RPROVIDES:${PN} += "application() \
-application(grisbi.desktop) \
-grisbi \
-grisbi(aarch-64) \
-mimehandler(application/x-grisbi)"
+RPROVIDES:${PN} += "grisbi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgoffice-0.10.so.10()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libofx.so.7()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libcrypto.so.3 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgoffice-0.10.so.10 \
+libgtk-3.so.0 \
+libm.so.6 \
+libofx.so.7 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

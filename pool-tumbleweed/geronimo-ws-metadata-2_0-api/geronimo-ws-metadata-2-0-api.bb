@@ -11,11 +11,11 @@ RPM_NAME = "geronimo-ws-metadata-2_0-api-1.2-36.11.noarch.rpm"
 RPM_HASH = "e5aa865d593ae874ef052526cf9b08a3914b95bac324f39145df7abe548dad1abb4a63930b8483cb2e81edf40a929df3f6a4deba0684ef3d6f08cbc442f41098"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "geronimo-ws-metadata-2_0-api \
-mvn(org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec) \
-mvn(org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:pom:) \
-ws_metadata_2_0_api \
-ws_metadata_api"
+RPROVIDES:${PN} += "geronimo-ws-metadata-2-0-api \
+mvn-org.apache.geronimo.specs-geronimo-ws-metadata-2.0-spec \
+mvn-org.apache.geronimo.specs-geronimo-ws-metadata-2.0-spec-pom- \
+ws-metadata-2-0-api \
+ws-metadata-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \

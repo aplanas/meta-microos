@@ -9,15 +9,15 @@ RPM_HASH = "c3756ed47dda62a5a7bc65bafe34b113b00a0c005c3d05f827af4e9ed3e4064f011a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-poetry \
-python3.10dist(poetry) \
+python3.10dist-poetry \
 python310-poetry \
-python3dist(poetry)"
+python3dist-poetry"
 
-RDEPENDS:${PN} += "(python310-requests-toolbelt >= 0.9.1 with python310-requests-toolbelt < 2) \
-(python310-tomlkit >= 0.11.4 with python310-tomlkit < 1.0) \
+RDEPENDS:${PN} += "-python310-requests-toolbelt >= 0.9.1 with python310-requests-toolbelt < 2 \
+-python310-tomlkit >= 0.11.4 with python310-tomlkit < 1.0 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-CacheControl \
 python310-build \
 python310-cleo \

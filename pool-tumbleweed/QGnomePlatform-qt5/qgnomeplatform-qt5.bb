@@ -11,36 +11,30 @@ RPM_HASH = "9aa3a530ec3b0cb51f55c4d12484f6970a6ff8fd732b3e8173ef2c9162588b69abb6
 
 RPROVIDES:${PN} += "QGnomePlatform \
 QGnomePlatform-qt5 \
-QGnomePlatform-qt5(aarch-64) \
-libqgnomeplatform.so()(64bit) \
-libqgnomeplatformdecoration.so()(64bit) \
-libqgnomeplatformtheme.so()(64bit)"
+libqgnomeplatform.so \
+libqgnomeplatformdecoration.so \
+libqgnomeplatformtheme.so"
 
 RDEPENDS:${PN} += "QGnomePlatform-colorschemes \
 adwaita-qt5 \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit) \
-libQt5WaylandClient.so.5()(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libadwaitaqt.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5QuickControls2.so.5 \
+libQt5WaylandClient.so.5 \
+libQt5Widgets.so.5 \
+libX11.so.6 \
+libadwaitaqt.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

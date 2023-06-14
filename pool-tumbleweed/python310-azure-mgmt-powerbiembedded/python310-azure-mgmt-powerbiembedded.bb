@@ -14,11 +14,11 @@ RPM_HASH = "ed1b78ce8d92dbd5b4aa706ad93417eda6774713de722e477277e4615a0dbe0d94d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-powerbiembedded \
-python3.10dist(azure-mgmt-powerbiembedded) \
+python3.10dist-azure-mgmt-powerbiembedded \
 python310-azure-mgmt-powerbiembedded \
-python3dist(azure-mgmt-powerbiembedded)"
+python3dist-azure-mgmt-powerbiembedded"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \

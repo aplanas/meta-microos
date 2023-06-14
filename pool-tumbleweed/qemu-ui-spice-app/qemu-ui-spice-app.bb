@@ -7,13 +7,12 @@ PV = "8.0.2"
 RPM_NAME = "qemu-ui-spice-app-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "ecb8213b8399181a83cf89a3cd7af72adf74161fae70c8b8725d67ce6376618de65388374c2fe2fc73a885ae40a9a9b2640e4258b927c0c05a72436a8580b29c"
 
-RPROVIDES:${PN} += "qemu-ui-spice-app \
-qemu-ui-spice-app(aarch-64)"
+RPROVIDES:${PN} += "qemu-ui-spice-app"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
 qemu-chardev-spice \
 qemu-ui-spice-core"
 

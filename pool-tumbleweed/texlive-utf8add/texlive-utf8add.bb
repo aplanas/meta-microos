@@ -13,8 +13,8 @@ RPM_NAME = "texlive-utf8add-2023.201.svn61074-53.1.noarch.rpm"
 RPM_HASH = "40d60f322850159d1cd69201b5ff45cf5ec88001cd05ef1700094c5d54005898857db0740283ac6e16d6f11f8e47c57b326d5017f86f1660ca1cbb015471ec44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(utf8add.sty) \
-tex(utf8hax.sty) \
+RPROVIDES:${PN} += "tex-utf8add.sty \
+tex-utf8hax.sty \
 texlive-utf8add"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,12 +23,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(gensymb.sty) \
-tex(inputenc.sty) \
-tex(nicefrac.sty) \
-tex(upgreek.sty) \
-tex(xkeyval.sty) \
+tex-amsmath.sty \
+tex-gensymb.sty \
+tex-inputenc.sty \
+tex-nicefrac.sty \
+tex-upgreek.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

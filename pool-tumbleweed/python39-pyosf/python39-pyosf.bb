@@ -21,11 +21,11 @@ RPM_NAME = "python39-pyosf-1.0.5-5.8.noarch.rpm"
 RPM_HASH = "a75e2fc83b3d1685d635552a5921a6a452c75a0496f40c8d0d2159eefeb8873aee9e1f9ec4e8fde27eaebf9f508cd3e4332e87ba0a20af69390000f056496d3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyosf) \
+RPROVIDES:${PN} += "python3.9dist-pyosf \
 python39-pyosf \
-python3dist(pyosf)"
+python3dist-pyosf"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-requests"
 
 inherit rpm

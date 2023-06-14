@@ -15,7 +15,7 @@ RPM_HASH = "ddb9c7dcd3447bd22cb09662488e78e0d92ee880f116559a3c8d13af05bb14d9542b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ee4j \
-mvn(org.eclipse.ee4j:project:pom:)"
+mvn-org.eclipse.ee4j-project-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

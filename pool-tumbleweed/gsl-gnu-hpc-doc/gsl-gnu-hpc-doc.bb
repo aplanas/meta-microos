@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-gnu-hpc-doc"
 
-RDEPENDS:${PN} += "gsl_2_7_1-gnu-hpc-doc"
+RDEPENDS:${PN} += "gsl-2-7-1-gnu-hpc-doc"
 
 inherit rpm

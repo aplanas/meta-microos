@@ -9,11 +9,11 @@ RPM_HASH = "a456e9d10be9495496f11605c8d80bb6c939b75b79c015d21057618c96f6499f894f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-LTTL \
-python3.10dist(lttl) \
+python3.10dist-lttl \
 python310-LTTL \
-python3dist(lttl)"
+python3dist-lttl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-numpy \
 python310-scipy"

@@ -16,11 +16,10 @@ PV = "2.6.4"
 RPM_NAME = "openvpn-down-root-plugin-2.6.4-1.1.aarch64.rpm"
 RPM_HASH = "1cbc0768b26be1d632ebb9ea2006b7e72c8a13224fc405fead3a9b78b0e5bd526019ed6a1582ac831873cc20ddd2778e0af7ed61b13eb6fca77bc53536fe5d4f"
 
-RPROVIDES:${PN} += "openvpn-down-root-plugin \
-openvpn-down-root-plugin(aarch-64)"
+RPROVIDES:${PN} += "openvpn-down-root-plugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 openvpn"
 
 inherit rpm

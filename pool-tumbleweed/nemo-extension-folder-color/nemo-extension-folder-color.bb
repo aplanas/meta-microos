@@ -9,8 +9,8 @@ RPM_HASH = "d88ba89b745a362ca239f543b97dbb6a34661be19857b692ef7b2d61fff59cdda40e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-folder-color \
-python3.10dist(folder-color-nemo) \
-python3dist(folder-color-nemo)"
+python3.10dist-folder-color-nemo \
+python3dist-folder-color-nemo"
 
 RDEPENDS:${PN} += "folder-color-common \
 nemo \

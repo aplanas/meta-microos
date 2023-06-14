@@ -7,11 +7,10 @@ PV = "2.9.0"
 RPM_NAME = "libsss_nss_idmap-devel-2.9.0-1.1.aarch64.rpm"
 RPM_HASH = "62066842ae7d041ae6f37d2b8fcde6aecbb6b171d72fece483f3ce057656a0f659becc7e214139f7d2dd33d0d229479c4abd3e559f06b54176503d9cdcbab587"
 
-RPROVIDES:${PN} += "libsss_nss_idmap-devel \
-libsss_nss_idmap-devel(aarch-64) \
-pkgconfig(sss_nss_idmap)"
+RPROVIDES:${PN} += "libsss-nss-idmap-devel \
+pkgconfig-sss-nss-idmap"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsss_nss_idmap0"
+libsss-nss-idmap0"
 
 inherit rpm

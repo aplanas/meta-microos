@@ -9,14 +9,14 @@ RPM_HASH = "15d3923ae8ca868f6e7807db05d60c22d7632566a10723dbc58e8079853c53e6d1be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-dispatcher \
-perl(Kanku::Daemon::Dispatcher) \
-perl(Kanku::Dispatch::RabbitMQ)"
+perl-Kanku--Daemon--Dispatcher \
+perl-Kanku--Dispatch--RabbitMQ"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 kanku-common \
 kanku-common-server \
-perl(Net::AMQP::RabbitMQ) \
+perl-Net--AMQP--RabbitMQ \
 sudo"
 
 inherit rpm

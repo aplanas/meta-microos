@@ -15,18 +15,17 @@ PV = "6.14.9"
 RPM_NAME = "python39-cx_Freeze-6.14.9-1.1.aarch64.rpm"
 RPM_HASH = "6a039b756c921391c0e1ad2dc11c803f717cddcb2d844bc9a61a985562716d7a81472271a3c1ba81cc594077d496b68edecd70a1ee04c8706807c4121e7eed24"
 
-RPROVIDES:${PN} += "python3.9dist(cx-freeze) \
-python39-cx_Freeze \
-python39-cx_Freeze(aarch-64) \
-python3dist(cx-freeze)"
+RPROVIDES:${PN} += "python3.9dist-cx-freeze \
+python39-cx-Freeze \
+python3dist-cx-freeze"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpython3.9.so.1.0()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpython3.9.so.1.0 \
+python-abi \
 update-alternatives"
 
 inherit rpm

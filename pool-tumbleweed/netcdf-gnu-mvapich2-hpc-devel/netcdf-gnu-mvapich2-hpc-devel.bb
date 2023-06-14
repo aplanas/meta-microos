@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcdf-gnu-mvapich2-hpc-devel"
 
-RDEPENDS:${PN} += "netcdf_4_9_2-gnu-mvapich2-hpc-devel"
+RDEPENDS:${PN} += "netcdf-4-9-2-gnu-mvapich2-hpc-devel"
 
 inherit rpm

@@ -13,13 +13,12 @@ RPM_NAME = "ruby3.2-rubygem-highline-2.0.3-1.17.aarch64.rpm"
 RPM_HASH = "24b9efca063f914a29bea6650808dd3cb57f8a4fc5a8fa000e52a33de474acf4087fc664f18c4a11f5d2302524f63bc5bc5285c358c6f8bd460ecfa8f2b8449c"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-highline \
-ruby3.2-rubygem-highline(aarch-64) \
-rubygem(highline) \
-rubygem(ruby:3.2.0:highline) \
-rubygem(ruby:3.2.0:highline:2) \
-rubygem(ruby:3.2.0:highline:2.0) \
-rubygem(ruby:3.2.0:highline:2.0.3)"
+rubygem-highline \
+rubygem-ruby-3.2.0-highline \
+rubygem-ruby-3.2.0-highline-2 \
+rubygem-ruby-3.2.0-highline-2.0 \
+rubygem-ruby-3.2.0-highline-2.0.3"
 
-RDEPENDS:${PN} += "ruby(abi)"
+RDEPENDS:${PN} += "ruby-abi"
 
 inherit rpm

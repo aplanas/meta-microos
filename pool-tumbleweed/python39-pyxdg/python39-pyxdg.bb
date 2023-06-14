@@ -14,12 +14,12 @@ RPM_NAME = "python39-pyxdg-0.28-2.1.noarch.rpm"
 RPM_HASH = "bb1465b6055affc8c50cfc7436886aae1c91b51d18d1e78c84272eb81dc10f720edb65898e4ebbcfcd9794ea3be85755a73fa033eb304b73d2078a49e92b3ab0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyxdg) \
+RPROVIDES:${PN} += "python3.9dist-pyxdg \
 python39-pyxdg \
-python3dist(pyxdg)"
+python3dist-pyxdg"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-python(abi) \
+python-abi \
 shared-mime-info"
 
 inherit rpm

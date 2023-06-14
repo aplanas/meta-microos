@@ -21,31 +21,20 @@ PV = "3.12.2"
 RPM_NAME = "sqlitebrowser-3.12.2-2.11.aarch64.rpm"
 RPM_HASH = "2a3087e432784b88d2cd662601e156d0dc1ecd551304f6ece65ceda413b1ad29dd701acceff7343cb8a48d9a989a322c1e016978c620a3d0226d13d8eac64caf"
 
-RPROVIDES:${PN} += "application() \
-application(sqlitebrowser.desktop) \
-metainfo() \
-metainfo(sqlitebrowser.desktop.appdata.xml) \
-sqlitebrowser \
-sqlitebrowser(aarch-64)"
+RPROVIDES:${PN} += "sqlitebrowser"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libqscintilla2_qt5.so.15()(64bit) \
-libsqlcipher-3.41.2.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libqscintilla2-qt5.so.15 \
+libsqlcipher-3.41.2.so.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -13,13 +13,12 @@ PV = "1.2.6"
 RPM_NAME = "mda-lv2-1.2.6-1.6.aarch64.rpm"
 RPM_HASH = "3305f37fb0cb8e73436f4045f5c9e7346620347ff1ba5a31052525dc416cde5c488ac9da55061bd241f061cc97f2a04f6c19cd4413d565cac9563f3992243552"
 
-RPROVIDES:${PN} += "mda-lv2 \
-mda-lv2(aarch-64)"
+RPROVIDES:${PN} += "mda-lv2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

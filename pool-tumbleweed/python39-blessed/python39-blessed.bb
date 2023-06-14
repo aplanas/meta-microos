@@ -40,11 +40,11 @@ RPM_NAME = "python39-blessed-1.19.1-2.3.noarch.rpm"
 RPM_HASH = "6054cdc19fb2b377b647aca7d9eb355e2e4e65ee709d40e7ed4b0b92123e7bd376ecd36c10ac5e5d252479d6242d4a94b9421de3e3f2bf69bc2eb0fe5a3356f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(blessed) \
+RPROVIDES:${PN} += "python3.9dist-blessed \
 python39-blessed \
-python3dist(blessed)"
+python3dist-blessed"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-curses \
 python39-six \
 python39-wcwidth"

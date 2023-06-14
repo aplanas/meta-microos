@@ -9,11 +9,11 @@ RPM_HASH = "ca853e6c9a5c4c68bacf7e38714372247a571287bc884d1c3e054d8ea7ce63c2f007
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-sink-api \
-mvn(org.apache.maven.doxia:doxia-sink-api) \
-mvn(org.apache.maven.doxia:doxia-sink-api:pom:)"
+mvn-org.apache.maven.doxia-doxia-sink-api \
+mvn-org.apache.maven.doxia-doxia-sink-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.doxia:doxia-logging-api)"
+mvn-org.apache.maven.doxia-doxia-logging-api"
 
 inherit rpm

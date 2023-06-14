@@ -11,22 +11,18 @@ RPM_HASH = "03d71c64997c82512d82c1cb13f8912ea8b799315aa73d70de3ca2c11cc70df8cda2
 
 RPROVIDES:${PN} += "python3-PyQt6-NetworkAuth \
 python3-qtnetworkauth-qt6 \
-python3.10dist(pyqt6-networkauth) \
+python3.10dist-pyqt6-networkauth \
 python310-PyQt6-NetworkAuth \
-python310-PyQt6-NetworkAuth(aarch-64) \
 python310-qtnetworkauth-qt6 \
-python3dist(pyqt6-networkauth)"
+python3dist-pyqt6-networkauth"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libQt6NetworkAuth.so.6()(64bit) \
-libQt6NetworkAuth.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Network.so.6 \
+libQt6NetworkAuth.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-PyQt6"
 
 inherit rpm

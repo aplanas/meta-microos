@@ -8,8 +8,8 @@ RPM_NAME = "myspell-gl-20221012-1.2.noarch.rpm"
 RPM_HASH = "4dd97494f82b661740f7ce66c8ddfc1f02253f80ae38153c4ce9f6a781b391a0685fec7b4897cf4cbf9e9a75264296dabf123124ce7f0c3dc6a1f17455cccaa6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:gl) \
-locale(seamonkey-spellchecker:gl) \
+RPROVIDES:${PN} += "locale-libreoffice-gl \
+locale-seamonkey-spellchecker-gl \
 myspell-dictionary \
 myspell-galician \
 myspell-gl"

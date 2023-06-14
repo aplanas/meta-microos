@@ -18,9 +18,9 @@ python3-ipaddr \
 python3-libvirt-python \
 python3-libxml2-python \
 python3-pycurl \
-typelib(AppIndicator3) \
-typelib(Libosinfo) \
-typelib(LibvirtGLib) \
+typelib-AppIndicator3 \
+typelib-Libosinfo \
+typelib-LibvirtGLib \
 xorriso"
 
 inherit rpm

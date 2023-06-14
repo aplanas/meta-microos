@@ -8,48 +8,45 @@ PV = "3.46.1"
 RPM_NAME = "metacity-3.46.1-1.1.aarch64.rpm"
 RPM_HASH = "ad0b2fd91b02f039f1dabb09bbea02114bec61e96e2b9c8e788460aae264b171579ab1c10a1607f0d2ed518cb7be26f75c482c56210896dccba30cb96c7336dd"
 
-RPROVIDES:${PN} += "application() \
-application(metacity.desktop) \
-metacity \
-metacity(aarch-64) \
+RPROVIDES:${PN} += "metacity \
 windowmanager"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libXRes.so.1()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXcursor.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXinerama.so.1()(64bit) \
-libXpresent.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libcanberra-gtk3.so.0()(64bit) \
-libcanberra.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgthread-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtop-2.0.so.11()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmetacity.so.3()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libstartup-notification-1.so.0()(64bit) \
-libvulkan.so.1()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libSM.so.6 \
+libX11.so.6 \
+libXRes.so.1 \
+libXcomposite.so.1 \
+libXcursor.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXinerama.so.1 \
+libXpresent.so.1 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libcanberra-gtk3.so.0 \
+libcanberra.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgthread-2.0.so.0 \
+libgtk-3.so.0 \
+libgtop-2.0.so.11 \
+libharfbuzz.so.0 \
+libm.so.6 \
+libmetacity.so.3 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libstartup-notification-1.so.0 \
+libvulkan.so.1 \
+libz.so.1 \
 zenity"
 
 inherit rpm

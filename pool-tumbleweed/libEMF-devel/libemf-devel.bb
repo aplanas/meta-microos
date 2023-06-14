@@ -14,8 +14,7 @@ PV = "1.0.13"
 RPM_NAME = "libEMF-devel-1.0.13-3.3.aarch64.rpm"
 RPM_HASH = "ab84332c140cb455b04e83b9222cc37e39767e99f47ca329f95eb01884d893f950b14d371db7339c526d41b28284afabfff1818963e39d032534a20a01b2a484"
 
-RPROVIDES:${PN} += "libEMF-devel \
-libEMF-devel(aarch-64)"
+RPROVIDES:${PN} += "libEMF-devel"
 
 RDEPENDS:${PN} += "glibc-devel \
 libEMF1"

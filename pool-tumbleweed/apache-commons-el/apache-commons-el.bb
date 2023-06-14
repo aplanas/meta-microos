@@ -12,14 +12,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-el \
 commons-el \
 jakarta-commons-el \
-mvn(commons-el:commons-el) \
-mvn(commons-el:commons-el:pom:) \
-mvn(org.apache.commons:commons-el) \
-mvn(org.apache.commons:commons-el:pom:) \
-osgi(org.apache.commons.el)"
+mvn-commons-el-commons-el \
+mvn-commons-el-commons-el-pom- \
+mvn-org.apache.commons-commons-el \
+mvn-org.apache.commons-commons-el-pom- \
+osgi-org.apache.commons.el"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-logging:commons-logging)"
+mvn-commons-logging-commons-logging"
 
 inherit rpm

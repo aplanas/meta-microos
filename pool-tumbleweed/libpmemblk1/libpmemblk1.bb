@@ -9,20 +9,14 @@ PV = "1.11.1"
 RPM_NAME = "libpmemblk1-1.11.1-1.8.aarch64.rpm"
 RPM_HASH = "95e01d78fe47b49b03074ccb3a81d163c33ad3312c79af3b8fe6f7c91c74f6cfd910f16488561c0a947e1dfafccd9bf8d5b9775fe561f4eaa164daf4d75cbd24"
 
-RPROVIDES:${PN} += "libpmemblk.so.1()(64bit) \
-libpmemblk1 \
-libpmemblk1(aarch-64)"
+RPROVIDES:${PN} += "libpmemblk.so.1 \
+libpmemblk1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdaxctl.so.1()(64bit) \
-libdaxctl.so.1(LIBDAXCTL_2)(64bit) \
-libndctl.so.6()(64bit) \
-libndctl.so.6(LIBNDCTL_1)(64bit) \
-libndctl.so.6(LIBNDCTL_15)(64bit) \
-libndctl.so.6(LIBNDCTL_18)(64bit) \
-libndctl.so.6(LIBNDCTL_3)(64bit) \
-libpmem.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdaxctl.so.1 \
+libndctl.so.6 \
+libpmem.so.1"
 
 inherit rpm

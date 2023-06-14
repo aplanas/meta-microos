@@ -10,32 +10,32 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "galculator-lang \
 galculator-lang-all \
-locale(galculator:cs) \
-locale(galculator:de) \
-locale(galculator:el) \
-locale(galculator:en_AU) \
-locale(galculator:es) \
-locale(galculator:es_MX) \
-locale(galculator:fr) \
-locale(galculator:gl) \
-locale(galculator:hu) \
-locale(galculator:id) \
-locale(galculator:it) \
-locale(galculator:ja) \
-locale(galculator:kk) \
-locale(galculator:lt) \
-locale(galculator:mr) \
-locale(galculator:pl) \
-locale(galculator:pt) \
-locale(galculator:pt_BR) \
-locale(galculator:ro) \
-locale(galculator:ru) \
-locale(galculator:sk) \
-locale(galculator:sv) \
-locale(galculator:tr) \
-locale(galculator:uk) \
-locale(galculator:zh_CN) \
-locale(galculator:zh_TW)"
+locale-galculator-cs \
+locale-galculator-de \
+locale-galculator-el \
+locale-galculator-en-AU \
+locale-galculator-es \
+locale-galculator-es-MX \
+locale-galculator-fr \
+locale-galculator-gl \
+locale-galculator-hu \
+locale-galculator-id \
+locale-galculator-it \
+locale-galculator-ja \
+locale-galculator-kk \
+locale-galculator-lt \
+locale-galculator-mr \
+locale-galculator-pl \
+locale-galculator-pt \
+locale-galculator-pt-BR \
+locale-galculator-ro \
+locale-galculator-ru \
+locale-galculator-sk \
+locale-galculator-sv \
+locale-galculator-tr \
+locale-galculator-uk \
+locale-galculator-zh-CN \
+locale-galculator-zh-TW"
 
 RDEPENDS:${PN} += "galculator"
 

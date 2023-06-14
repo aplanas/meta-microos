@@ -11,7 +11,7 @@ RPM_NAME = "texlive-mleftright-2023.201.1.2svn53021-54.1.noarch.rpm"
 RPM_HASH = "e5a62e12927a1830e1bd3da942087e8ce98333c4f9e3eb43391be712609a1bfa677b2dbb7e5bf238d55b91fddf60fc864b375d3855a7ad9314a3ed912b2018a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mleftright.sty) \
+RPROVIDES:${PN} += "tex-mleftright.sty \
 texlive-mleftright"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(infwarerr.sty) \
-tex(ltxcmds.sty) \
+tex-infwarerr.sty \
+tex-ltxcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

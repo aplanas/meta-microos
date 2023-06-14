@@ -8,12 +8,11 @@ RPM_NAME = "weechat-spell-3.8-1.1.aarch64.rpm"
 RPM_HASH = "1bfe46c1aa7f7e055a29794882b80aa04ffd1b9061f173c685ac0571f2f279b2c7719944eef91265382c5afabd39cabba432b91d335d70dee37af1660bba914c"
 
 RPROVIDES:${PN} += "weechat-aspell \
-weechat-spell \
-weechat-spell(aarch-64)"
+weechat-spell"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libenchant.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libenchant.so.1 \
 weechat"
 
 inherit rpm

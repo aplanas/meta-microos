@@ -23,9 +23,9 @@ RPM_NAME = "w3mir-1.0.10-682.26.noarch.rpm"
 RPM_HASH = "fe3f6e53cf65055500ab502a4502d2690f18baf8332805ad38b60ec4fb5c2fb15326708d6b2b194d102f8a2b7881197c6969b00cc1e9b34068c8f655e206bf66"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(htmlop) \
-perl(w3http) \
-perl(w3pdfuri) \
+RPROVIDES:${PN} += "perl-htmlop \
+perl-w3http \
+perl-w3pdfuri \
 w3mir"
 
 RDEPENDS:${PN} += "/usr/bin/perl \

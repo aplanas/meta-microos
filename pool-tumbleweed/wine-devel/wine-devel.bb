@@ -8,33 +8,32 @@ PV = "8.8"
 RPM_NAME = "wine-devel-8.8-1.2.aarch64.rpm"
 RPM_HASH = "d5e073de5efe82900e0fd7f992d23634ba63afda15e86c1aba3d0653db5e81f9ddc65096c0b4f9a812c88cbfb72d63d973a6ebfa4f2a1684bc0007aa2aa7eb23"
 
-RPROVIDES:${PN} += "wine-devel \
-wine-devel(aarch-64)"
+RPROVIDES:${PN} += "wine-devel"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libOSMesa.so.8()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXcursor.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libXxf86vm.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcups.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgnutls.so.30()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libkrb5.so.3()(64bit) \
-libv4l2.so.0()(64bit) \
-libvulkan.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libOSMesa.so.8 \
+libSDL2-2.0.so.0 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXcursor.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libXxf86vm.so.1 \
+libc.so.6 \
+libcups.so.2 \
+libdbus-1.so.3 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libgnutls.so.30 \
+libgssapi-krb5.so.2 \
+libkrb5.so.3 \
+libv4l2.so.0 \
+libvulkan.so.1"
 
 inherit rpm

@@ -9,24 +9,24 @@ RPM_HASH = "70e0f533084ab7c77177cb89a0e8ce16600462269bee6878667b8db4f26d53bb749a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire-provider-junit \
-mvn(org.apache.maven.surefire:common-junit3) \
-mvn(org.apache.maven.surefire:common-junit3:pom:) \
-mvn(org.apache.maven.surefire:common-junit4) \
-mvn(org.apache.maven.surefire:common-junit48) \
-mvn(org.apache.maven.surefire:common-junit48:pom:) \
-mvn(org.apache.maven.surefire:common-junit4:pom:) \
-mvn(org.apache.maven.surefire:surefire-junit3) \
-mvn(org.apache.maven.surefire:surefire-junit3:pom:) \
-mvn(org.apache.maven.surefire:surefire-junit4) \
-mvn(org.apache.maven.surefire:surefire-junit47) \
-mvn(org.apache.maven.surefire:surefire-junit47:pom:) \
-mvn(org.apache.maven.surefire:surefire-junit4:pom:)"
+mvn-org.apache.maven.surefire-common-junit3 \
+mvn-org.apache.maven.surefire-common-junit3-pom- \
+mvn-org.apache.maven.surefire-common-junit4 \
+mvn-org.apache.maven.surefire-common-junit4-pom- \
+mvn-org.apache.maven.surefire-common-junit48 \
+mvn-org.apache.maven.surefire-common-junit48-pom- \
+mvn-org.apache.maven.surefire-surefire-junit3 \
+mvn-org.apache.maven.surefire-surefire-junit3-pom- \
+mvn-org.apache.maven.surefire-surefire-junit4 \
+mvn-org.apache.maven.surefire-surefire-junit4-pom- \
+mvn-org.apache.maven.surefire-surefire-junit47 \
+mvn-org.apache.maven.surefire-surefire-junit47-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven.surefire:common-java5) \
-mvn(org.apache.maven.surefire:surefire-api) \
-mvn(org.apache.maven.surefire:surefire-grouper)"
+mvn-org.apache.maven.shared-maven-shared-utils \
+mvn-org.apache.maven.surefire-common-java5 \
+mvn-org.apache.maven.surefire-surefire-api \
+mvn-org.apache.maven.surefire-surefire-grouper"
 
 inherit rpm

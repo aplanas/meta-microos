@@ -30,7 +30,7 @@ python3-pyroute2.ipset \
 python3-pyroute2.ndb \
 python3-pyroute2.nftables \
 python3-pyroute2.nslink \
-python3.10dist(pyroute2) \
+python3.10dist-pyroute2 \
 python310-pyroute2 \
 python310-pyroute2.core \
 python310-pyroute2.ethtool \
@@ -39,10 +39,10 @@ python310-pyroute2.ipset \
 python310-pyroute2.ndb \
 python310-pyroute2.nftables \
 python310-pyroute2.nslink \
-python3dist(pyroute2)"
+python3dist-pyroute2"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

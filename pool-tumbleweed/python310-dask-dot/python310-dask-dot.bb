@@ -25,7 +25,7 @@ python310-dask-dot"
 RDEPENDS:${PN} += "graphviz \
 graphviz-gd \
 graphviz-gnome \
-python(abi) \
+python-abi \
 python310-dask \
 python310-graphviz"
 

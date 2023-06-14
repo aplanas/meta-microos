@@ -11,19 +11,18 @@ PV = "8.1.19"
 RPM_NAME = "php8-embed-8.1.19-2.1.aarch64.rpm"
 RPM_HASH = "975a9757546dfd6bc668e8f902d8ba3da482bdc20d128e1af3f5828ebda2c50e4810a3f5cf2f5f87103b6d9a2855f23b27457f831918f9a10c4d894c7277aea4"
 
-RPROVIDES:${PN} += "libphp.so()(64bit) \
+RPROVIDES:${PN} += "libphp.so \
 php-sapi \
-php8-embed \
-php8-embed(aarch-64)"
+php8-embed"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libargon2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libargon2.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libm.so.6 \
+libpcre2-8.so.0 \
+libxml2.so.2 \
 php"
 
 inherit rpm

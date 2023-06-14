@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gsl-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-gsl_2_7_1-gnu-hpc-devel"
+gsl-2-7-1-gnu-hpc-devel"
 
 inherit rpm

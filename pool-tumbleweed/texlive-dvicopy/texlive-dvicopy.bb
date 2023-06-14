@@ -11,7 +11,7 @@ RPM_NAME = "texlive-dvicopy-2023.201.1.5svn66186-53.1.noarch.rpm"
 RPM_HASH = "aa12c1dd8e96f515e60d3a0d9df1686f66f3e847f9b295d08428558e64826fb5f81fd531789c640349d51dac9df2246cd9fd150a4fc97a23de202d2d27d6ce52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(dvicopy.1) \
+RPROVIDES:${PN} += "man-dvicopy.1 \
 texlive-dvicopy"
 
 RDEPENDS:${PN} += "/bin/sh \

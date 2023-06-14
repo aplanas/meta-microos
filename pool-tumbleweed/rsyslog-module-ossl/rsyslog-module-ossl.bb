@@ -11,13 +11,12 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-module-ossl-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "757edd2b802e3fc2e30c1a2704f0e487d909a6fc3bb3e7d377282b850bd2e598f8e3866e1ce8306c6a8874bb4c2c7f75bcf7a211b11a930305f014686ceed432"
 
-RPROVIDES:${PN} += "rsyslog-module-ossl \
-rsyslog-module-ossl(aarch-64)"
+RPROVIDES:${PN} += "rsyslog-module-ossl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
 rsyslog"
 
 inherit rpm

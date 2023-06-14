@@ -13,12 +13,12 @@ RPM_NAME = "python39-azure-mgmt-network-23.1.0-1.1.noarch.rpm"
 RPM_HASH = "95df89a4d40c6a720474833087ca2c1a3e5b2d8cd0ba100161480f168cf013915f8038c129a800974e572e250e450b8065fdc5aa2428649c48cab81893d25110"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-network) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-network \
 python39-azure-mgmt-network \
-python3dist(azure-mgmt-network)"
+python3dist-azure-mgmt-network"
 
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
+python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

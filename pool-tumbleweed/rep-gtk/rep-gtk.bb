@@ -9,16 +9,15 @@ PV = "0.90.8.2"
 RPM_NAME = "rep-gtk-0.90.8.2-1.30.aarch64.rpm"
 RPM_HASH = "a330f96bcf0dd7e03a32ca911c515614c5ed6e2abbec641a685c799f9d8a93db276c18233c95e7b3fdfb53ae6336abade728f023258e887425d80ab8c32ac3f6"
 
-RPROVIDES:${PN} += "rep-gtk \
-rep-gtk(aarch-64)"
+RPROVIDES:${PN} += "rep-gtk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0"
 
 inherit rpm

@@ -18,18 +18,17 @@ RPM_HASH = "aa5b69d4c0535f50fd9bd474a7e96cd3d44c8c035a9d97174f042b92f8037f88ef53
 
 RPROVIDES:${PN} += "postgresql \
 postgresql-implementation \
-postgresql14 \
-postgresql14(aarch-64)"
+postgresql14"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libpq.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libpq.so.5 \
 libpq5 \
-libreadline.so.8()(64bit) \
-libz.so.1()(64bit) \
+libreadline.so.8 \
+libz.so.1 \
 postgresql-noarch"
 
 inherit rpm

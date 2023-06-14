@@ -9,9 +9,8 @@ PV = "3.18.5"
 RPM_NAME = "petsc-gnu-mvapich2-hpc-devel-3.18.5-1.1.aarch64.rpm"
 RPM_HASH = "631ebb8549ccfbda7b6c13219481da0d5b09422ee949d595cbf3923e39fb305752c72075177506e7be6fd895777dfbdd41216220910efe817245d15bb48cad04"
 
-RPROVIDES:${PN} += "petsc-gnu-mvapich2-hpc-devel \
-petsc-gnu-mvapich2-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "petsc-gnu-mvapich2-hpc-devel"
 
-RDEPENDS:${PN} += "petsc_3_18_5-gnu-mvapich2-hpc-devel"
+RDEPENDS:${PN} += "petsc-3-18-5-gnu-mvapich2-hpc-devel"
 
 inherit rpm

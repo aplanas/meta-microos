@@ -7,16 +7,14 @@ PV = "14.0.6"
 RPM_NAME = "lld14-14.0.6-9.1.aarch64.rpm"
 RPM_HASH = "6eeaf6ce74eabe6b11b7473a6d897367e0933dddeaaddd6b8285d4c99e70f2eff77e05786ee74c23accd695f8feba98274287eacacc4970d87548d8da15423e6"
 
-RPROVIDES:${PN} += "lld14 \
-lld14(aarch-64)"
+RPROVIDES:${PN} += "lld14"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.14()(64bit) \
-libLLVM.so.14(LLVM_14)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libLLVM.so.14 \
+libc.so.6 \
+libstdc++.so.6 \
+libz.so.1 \
 update-alternatives"
 
 inherit rpm

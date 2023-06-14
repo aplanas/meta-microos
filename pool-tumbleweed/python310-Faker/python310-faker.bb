@@ -12,13 +12,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Faker \
 python3-fake-factory \
-python3.10dist(faker) \
+python3.10dist-faker \
 python310-Faker \
-python3dist(faker)"
+python3dist-faker"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-python-dateutil \
 python310-text-unidecode \
 update-alternatives"

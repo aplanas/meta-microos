@@ -13,7 +13,7 @@ RPM_NAME = "texlive-tensor-2023.201.2.1svn15878-54.1.noarch.rpm"
 RPM_HASH = "e7eb3b9cf4e494b4928d8ffdd26373d1137adb6feb695186ceda06e7dfcea8215ec304aeab034ab9baa609a6d21cf61e2052ee65762da83c796e61e4e0fc9190"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tensor.sty) \
+RPROVIDES:${PN} += "tex-tensor.sty \
 texlive-tensor"
 
 RDEPENDS:${PN} += "/bin/sh \

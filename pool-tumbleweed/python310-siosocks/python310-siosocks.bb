@@ -24,11 +24,11 @@ RPM_HASH = "c46a84092b658a8b822154e155c0d7591eb23fcee73d72eebf04d1f68b912ffa0142
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-siosocks \
-python3.10dist(siosocks) \
+python3.10dist-siosocks \
 python310-siosocks \
-python3dist(siosocks)"
+python3dist-siosocks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-trio"
 
 inherit rpm

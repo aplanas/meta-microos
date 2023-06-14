@@ -14,21 +14,20 @@ PV = "5.2.50"
 RPM_NAME = "liblinphone++10-5.2.50-1.1.aarch64.rpm"
 RPM_HASH = "a50dc52cd1592f49094795cfe34cc8679902f602e0e3bafe68e75bc7b10b9fe820f7e55ee292c7dba33d6dc19a674744d7ce087e67a04259f7344e99e37b8337"
 
-RPROVIDES:${PN} += "liblinphone++.so.10()(64bit) \
-liblinphone++10 \
-liblinphone++10(aarch-64)"
+RPROVIDES:${PN} += "liblinphone++.so.10 \
+liblinphone++10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbctoolbox.so.1()(64bit) \
-libbellesip.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblime.so.0()(64bit) \
-liblinphone.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmediastreamer.so.11()(64bit) \
-libortp.so.15()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbctoolbox.so.1 \
+libbellesip.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+liblime.so.0 \
+liblinphone.so.10 \
+libm.so.6 \
+libmediastreamer.so.11 \
+libortp.so.15 \
+libstdc++.so.6"
 
 inherit rpm

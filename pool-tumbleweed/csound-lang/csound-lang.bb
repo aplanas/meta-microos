@@ -10,13 +10,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "csound-lang \
 csound-lang-all \
-locale(csound:de) \
-locale(csound:en_US) \
-locale(csound:es) \
-locale(csound:es_CO) \
-locale(csound:fr) \
-locale(csound:it) \
-locale(csound:ru)"
+locale-csound-de \
+locale-csound-en-US \
+locale-csound-es \
+locale-csound-es-CO \
+locale-csound-fr \
+locale-csound-it \
+locale-csound-ru"
 
 RDEPENDS:${PN} += "csound"
 

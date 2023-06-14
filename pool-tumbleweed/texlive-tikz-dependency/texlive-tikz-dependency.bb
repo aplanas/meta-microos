@@ -12,10 +12,10 @@ RPM_NAME = "texlive-tikz-dependency-2023.201.1.2svn54512-54.1.noarch.rpm"
 RPM_HASH = "3be89f45546bf6e40f0e1508ef34d144370c99210ce16269d354b7e090aa3755e40dff7b7b47bc72d0b8df55f7c7a76a369c5e0165c23d371de4765d66b47699"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pgfmanual.code.tex) \
-tex(pgfmanual.pdflinks.code.tex) \
-tex(pgfmanual.prettyprinter.code.tex) \
-tex(tikz-dependency.sty) \
+RPROVIDES:${PN} += "tex-pgfmanual.code.tex \
+tex-pgfmanual.pdflinks.code.tex \
+tex-pgfmanual.prettyprinter.code.tex \
+tex-tikz-dependency.sty \
 texlive-tikz-dependency"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(environ.sty) \
-tex(tikz.sty) \
+tex-environ.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

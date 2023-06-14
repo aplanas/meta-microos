@@ -9,19 +9,18 @@ PV = "1.6.0"
 RPM_NAME = "budgie-takeabreak-applet-1.6.0-1.1.aarch64.rpm"
 RPM_HASH = "ece906fcaf434a123163d94d9360ab405c7d5842226a5a821432b1939cac72bfa372d1f44b5fbad2c4d4139f1b3651e7c6f8209367fb79110b3e86e15adc9eb2"
 
-RPROVIDES:${PN} += "budgie-takeabreak-applet \
-budgie-takeabreak-applet(aarch-64)"
+RPROVIDES:${PN} += "budgie-takeabreak-applet"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 iceauth \
 python3-gobject-Gdk \
 rgb \
 sessreg \
-typelib(Budgie) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
+typelib-Budgie \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
 xcmsdb \
 xgamma \
 xhost \

@@ -9,24 +9,19 @@ RPM_HASH = "e729019aca6db3f0954705c85e264d5773f877f2b1f32a88aa1e33dbff57aa8f32df
 
 RPROVIDES:${PN} += "python3-PyQtChart \
 python3-qtcharts-qt5 \
-python3.10dist(pyqtchart) \
+python3.10dist-pyqtchart \
 python310-PyQtChart \
 python310-qtcharts-qt5 \
-python310-qtcharts-qt5(aarch-64) \
-python3dist(pyqtchart)"
+python3dist-pyqtchart"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Charts.so.5()(64bit) \
-libQt5Charts.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Charts.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-qt5 \
 python310-qt5-sip"
 

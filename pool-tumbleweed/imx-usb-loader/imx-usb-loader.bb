@@ -9,12 +9,11 @@ PV = "0.2~git20180504"
 RPM_NAME = "imx-usb-loader-0.2~git20180504-1.19.aarch64.rpm"
 RPM_HASH = "39cdbd38a409818c1625d61308612af0683e44ea8e12ef885c6dd7e97975a15afd9ab9f0c0a315ca369f688f36ef541de5905a0ebf01a1d165e378b97d421478"
 
-RPROVIDES:${PN} += "config(imx-usb-loader) \
-imx-usb-loader \
-imx-usb-loader(aarch-64)"
+RPROVIDES:${PN} += "config-imx-usb-loader \
+imx-usb-loader"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusb-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusb-1.0.so.0"
 
 inherit rpm

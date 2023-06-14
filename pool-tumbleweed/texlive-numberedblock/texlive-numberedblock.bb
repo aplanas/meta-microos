@@ -11,7 +11,7 @@ RPM_NAME = "texlive-numberedblock-2023.201.1.10svn33109-54.1.noarch.rpm"
 RPM_HASH = "a60f542cea190fbfcb83b38837a8f6a0cef4fb9eb8479b48891f48fde05cae736c6fcea19a3d02c45544aacd1a8b64afb4ee16baeee063533e2257146460579a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(numberedblock.sty) \
+RPROVIDES:${PN} += "tex-numberedblock.sty \
 texlive-numberedblock"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(verbatim.sty) \
-tex(verbatimbox.sty) \
+tex-verbatim.sty \
+tex-verbatimbox.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

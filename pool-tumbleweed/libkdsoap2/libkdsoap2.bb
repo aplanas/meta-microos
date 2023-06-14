@@ -8,18 +8,15 @@ PV = "2.1.1"
 RPM_NAME = "libkdsoap2-2.1.1-1.3.aarch64.rpm"
 RPM_HASH = "b9513e1376840bbe5fc4f2e3eb107149f1f664567851177d10ad91852931e0e75bc0369c65d2edf405c4791cfe2eb5365b8cbbed700f07bea4ac36f21e94e269"
 
-RPROVIDES:${PN} += "libkdsoap.so.2()(64bit) \
-libkdsoap2 \
-libkdsoap2(aarch-64)"
+RPROVIDES:${PN} += "libkdsoap.so.2 \
+libkdsoap2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

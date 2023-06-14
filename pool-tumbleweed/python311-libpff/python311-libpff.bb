@@ -10,19 +10,14 @@ PV = "20230325"
 RPM_NAME = "python311-libpff-20230325-1.4.aarch64.rpm"
 RPM_HASH = "a5e26ba87a21060a8adb4340af0476ed2bcd79633578c687c6a3a188bf45ae67b09ecb4db4b3f6896b56a533b1ff0f91ea395faf96cd623456a94a6a3f9a50b2"
 
-RPROVIDES:${PN} += "python311-libpff \
-python311-libpff(aarch-64)"
+RPROVIDES:${PN} += "python311-libpff"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libpff.so.1()(64bit) \
-libpff.so.1(V_20230325)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libclocale.so.1 \
+libpff.so.1 \
+python-abi"
 
 inherit rpm

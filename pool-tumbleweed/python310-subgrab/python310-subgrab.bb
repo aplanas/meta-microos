@@ -10,13 +10,13 @@ RPM_HASH = "fbc4a509365dbcf41299c0cc83c124191b9fff77393d4f8bb8d0a2e892a8872b3916
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-subgrab \
-python3.10dist(subgrab) \
+python3.10dist-subgrab \
 python310-subgrab \
-python3dist(subgrab)"
+python3dist-subgrab"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-beautifulsoup4 \
 python310-lxml \
 python310-requests \

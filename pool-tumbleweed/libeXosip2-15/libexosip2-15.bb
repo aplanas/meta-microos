@@ -9,16 +9,15 @@ RPM_HASH = "0f6cde6541e073344c0619a2b3cd5edc56b1695c52de06cc5b6126968b8fa4e18138
 
 RPROVIDES:${PN} += "libeXosip2 \
 libeXosip2-15 \
-libeXosip2-15(aarch-64) \
-libeXosip2.so.15()(64bit)"
+libeXosip2.so.15"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcares.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libosip2.so.15()(64bit) \
-libosipparser2.so.15()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcares.so.2 \
+libcrypto.so.3 \
+libosip2.so.15 \
+libosipparser2.so.15 \
+libssl.so.3"
 
 inherit rpm

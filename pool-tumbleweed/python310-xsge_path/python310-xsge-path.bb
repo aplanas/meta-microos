@@ -13,12 +13,12 @@ RPM_NAME = "python310-xsge_path-1.0.2-1.7.noarch.rpm"
 RPM_HASH = "114a6fa3f8bdc43ca99427b200ace250a31af3d1d1d43836e8326c3697428d8f2e52a91d31814fd70e854bddf028ad4d710db237ec4f7d1675d8637d4aa51c23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xsge_path \
-python3.10dist(xsge-path) \
-python310-xsge_path \
-python3dist(xsge-path)"
+RPROVIDES:${PN} += "python3-xsge-path \
+python3.10dist-xsge-path \
+python310-xsge-path \
+python3dist-xsge-path"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-sge-pygame"
 
 inherit rpm

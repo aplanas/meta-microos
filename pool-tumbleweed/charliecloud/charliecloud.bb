@@ -19,14 +19,13 @@ PV = "0.23"
 RPM_NAME = "charliecloud-0.23-1.8.aarch64.rpm"
 RPM_HASH = "69d9f26eec3c7fd29094e0b61fbd035733b6a21a3e0d85421617cc8326976e72d2bd00c4e0773afc6ed8c90d12a06a2ab008afe64ec6deee02087182c44cab94"
 
-RPROVIDES:${PN} += "charliecloud \
-charliecloud(aarch-64)"
+RPROVIDES:${PN} += "charliecloud"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
 fakeroot \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -18,16 +18,15 @@ RPM_NAME = "duplicity-1.2.2-1.2.aarch64.rpm"
 RPM_HASH = "234a159ea84ada7752df8662562e5ddb5cda41847fc72c436e8371a346197f95cca2e077674a327cdc497f6212e6cc2aa353cf371010f757278fd259f50dc0ce"
 
 RPROVIDES:${PN} += "duplicity \
-duplicity(aarch-64) \
-python3.10dist(duplicity) \
-python3dist(duplicity)"
+python3.10dist-duplicity \
+python3dist-duplicity"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gpg \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-librsync.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+librsync.so.2 \
+python-abi \
 python3-fasteners \
 python3-future \
 python3-lockfile"

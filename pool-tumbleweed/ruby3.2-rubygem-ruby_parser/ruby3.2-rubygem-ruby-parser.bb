@@ -30,18 +30,17 @@ PV = "3.19.2"
 RPM_NAME = "ruby3.2-rubygem-ruby_parser-3.19.2-1.4.aarch64.rpm"
 RPM_HASH = "2a5f1b92fd9b4676aa16ea8871d43047d069c1b00c99d040094e3606b70eb5eab3c79ab01e0e3e595e2eff2eaf357b63e549a4b395e4f14155d4d368582d7550"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-ruby_parser \
-ruby3.2-rubygem-ruby_parser(aarch-64) \
-rubygem(ruby:3.2.0:ruby_parser) \
-rubygem(ruby:3.2.0:ruby_parser:3) \
-rubygem(ruby:3.2.0:ruby_parser:3.19) \
-rubygem(ruby:3.2.0:ruby_parser:3.19.2) \
-rubygem(ruby_parser)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-ruby-parser \
+rubygem-ruby-3.2.0-ruby-parser \
+rubygem-ruby-3.2.0-ruby-parser-3 \
+rubygem-ruby-3.2.0-ruby-parser-3.19 \
+rubygem-ruby-3.2.0-ruby-parser-3.19.2 \
+rubygem-ruby-parser"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
-ruby(abi) \
-rubygem(ruby:3.2.0:sexp_processor:4) \
+ruby-abi \
+rubygem-ruby-3.2.0-sexp-processor-4 \
 update-alternatives"
 
 inherit rpm

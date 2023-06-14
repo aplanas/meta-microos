@@ -11,9 +11,9 @@ RPM_HASH = "54161ea644a34fbf62498d8884b2c7a1cdd396c01d7d1309fef8cc42455c3eeb7555
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-svgpp \
-mvn(org.apache.xmlgraphics:batik-svgpp) \
-mvn(org.apache.xmlgraphics:batik-svgpp:pom:) \
-osgi(org.apache.batik.svgpp) \
+mvn-org.apache.xmlgraphics-batik-svgpp \
+mvn-org.apache.xmlgraphics-batik-svgpp-pom- \
+osgi-org.apache.batik.svgpp \
 xmlgraphics-batik-svgpp"
 
 RDEPENDS:${PN} += "/bin/bash \

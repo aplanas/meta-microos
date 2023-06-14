@@ -9,10 +9,9 @@ RPM_HASH = "224163d4e01f606fa08afbadc0662f71412accd3aa3ef00f717aa187504d80b0278d
 
 RPROVIDES:${PN} += "libpmemobj++-devel \
 libpmemobj-cpp-devel \
-libpmemobj-cpp-devel(aarch-64) \
-pkgconfig(libpmemobj++)"
+pkgconfig-libpmemobj++"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkgconfig(libpmemobj)"
+pkgconfig-libpmemobj"
 
 inherit rpm

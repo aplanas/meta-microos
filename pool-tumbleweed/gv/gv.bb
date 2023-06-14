@@ -15,27 +15,20 @@ PV = "3.7.4"
 RPM_NAME = "gv-3.7.4-5.20.aarch64.rpm"
 RPM_HASH = "b8f6549a9b0b529246032675b2cefc9c92a37864976cb0011b4d479265401c921b21bd0fbfd48f068999b73b78f5284c9ea5dfdf26363a0ef4cbd5104e8c924f"
 
-RPROVIDES:${PN} += "application() \
-application(gv.desktop) \
-config(gv) \
-gv \
-gv(aarch-64) \
-mimehandler(application/illustrator) \
-mimehandler(application/pdf) \
-mimehandler(application/postscript) \
-mimehandler(image/x-eps)"
+RPROVIDES:${PN} += "config-gv \
+gv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ghostscript_x11 \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw3d.so.8()(64bit) \
-libXinerama.so.1()(64bit) \
-libXmu.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libzio.so.1()(64bit)"
+ghostscript-x11 \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw3d.so.8 \
+libXinerama.so.1 \
+libXmu.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libm.so.6 \
+libzio.so.1"
 
 inherit rpm

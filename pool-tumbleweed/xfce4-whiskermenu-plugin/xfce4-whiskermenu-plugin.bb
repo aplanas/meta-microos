@@ -11,27 +11,26 @@ PV = "2.7.3"
 RPM_NAME = "xfce4-whiskermenu-plugin-2.7.3-1.1.aarch64.rpm"
 RPM_HASH = "5b1f61866e41b896ed9338de785b6e9276d8baeaa618c667fdb43e5f46a15b59a9c961e11b5d1f5ba9cd47be2c34749c9e7f0f4d3a648b769a0e5e25126d6a09"
 
-RPROVIDES:${PN} += "libwhiskermenu.so()(64bit) \
+RPROVIDES:${PN} += "libwhiskermenu.so \
 xfce4-panel-plugin-whiskermenu \
-xfce4-whiskermenu-plugin \
-xfce4-whiskermenu-plugin(aarch-64)"
+xfce4-whiskermenu-plugin"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libexo-2.so.0()(64bit) \
-libgarcon-1.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libxfce4panel-2.0.so.4()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libexo-2.so.0 \
+libgarcon-1.so.0 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libstdc++.so.6 \
+libxfce4panel-2.0.so.4 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7"
 
 inherit rpm

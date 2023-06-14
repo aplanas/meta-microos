@@ -11,24 +11,24 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdata-sharp \
 google-gdata \
-mono(Google.GData.AccessControl) \
-mono(Google.GData.Apps) \
-mono(Google.GData.Blogger) \
-mono(Google.GData.Calendar) \
-mono(Google.GData.Client) \
-mono(Google.GData.CodeSearch) \
-mono(Google.GData.Contacts) \
-mono(Google.GData.Documents) \
-mono(Google.GData.Extensions) \
-mono(Google.GData.GoogleBase) \
-mono(Google.GData.Health) \
-mono(Google.GData.Photos) \
-mono(Google.GData.Spreadsheets) \
-mono(Google.GData.YouTube)"
+mono-Google.GData.AccessControl \
+mono-Google.GData.Apps \
+mono-Google.GData.Blogger \
+mono-Google.GData.Calendar \
+mono-Google.GData.Client \
+mono-Google.GData.CodeSearch \
+mono-Google.GData.Contacts \
+mono-Google.GData.Documents \
+mono-Google.GData.Extensions \
+mono-Google.GData.GoogleBase \
+mono-Google.GData.Health \
+mono-Google.GData.Photos \
+mono-Google.GData.Spreadsheets \
+mono-Google.GData.YouTube"
 
-RDEPENDS:${PN} += "mono(System) \
-mono(System.Web) \
-mono(System.Xml) \
-mono(mscorlib)"
+RDEPENDS:${PN} += "mono-System \
+mono-System.Web \
+mono-System.Xml \
+mono-mscorlib"
 
 inherit rpm

@@ -10,8 +10,8 @@ RPM_HASH = "ee6d3040b6112cefd9b555619b4d828171826f98b21b83d784c4b2cf82834c8532f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metainf-services \
-mvn(org.kohsuke.metainf-services:metainf-services) \
-mvn(org.kohsuke.metainf-services:metainf-services:pom:)"
+mvn-org.kohsuke.metainf-services-metainf-services \
+mvn-org.kohsuke.metainf-services-metainf-services-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

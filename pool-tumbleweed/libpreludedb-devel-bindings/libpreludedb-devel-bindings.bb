@@ -11,8 +11,7 @@ PV = "5.2.0"
 RPM_NAME = "libpreludedb-devel-bindings-5.2.0-2.10.aarch64.rpm"
 RPM_HASH = "7ff84179dba6b74fdd9b6cc922c0312b431abb5c6b3e0712d4a07db9c669c5633169c84414e12e75d522272237304d654ffd0261d87990497e5859b46fd92972"
 
-RPROVIDES:${PN} += "libpreludedb-devel-bindings \
-libpreludedb-devel-bindings(aarch-64)"
+RPROVIDES:${PN} += "libpreludedb-devel-bindings"
 
 RDEPENDS:${PN} += "libpreludedb-devel \
 python3-devel \

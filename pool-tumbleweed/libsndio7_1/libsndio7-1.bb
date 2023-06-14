@@ -12,14 +12,13 @@ PV = "1.7.0"
 RPM_NAME = "libsndio7_1-1.7.0-1.10.aarch64.rpm"
 RPM_HASH = "c9847e26f72c546109bc9e373f945652e895585aca58e5457e02c21f8e28fc073931b73657c3e66f7fa086d4923122f231deed6ad591690679b489fae59de1ae"
 
-RPROVIDES:${PN} += "libsndio.so.7.1()(64bit) \
-libsndio7_1 \
-libsndio7_1(aarch-64)"
+RPROVIDES:${PN} += "libsndio.so.7.1 \
+libsndio7-1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libbsd.so.0()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libbsd.so.0 \
+libc.so.6"
 
 inherit rpm

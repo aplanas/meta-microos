@@ -10,7 +10,7 @@ RPM_HASH = "b76c5f076c0e0ac76d0d2e436748c3eb6590000b20c3901f9faa305adcb5fdc339f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "memory-constraints \
-rpm_macro(limit_build)"
+rpm-macro-limit-build"
 
 RDEPENDS:${PN} += "/usr/bin/awk \
 coreutils"

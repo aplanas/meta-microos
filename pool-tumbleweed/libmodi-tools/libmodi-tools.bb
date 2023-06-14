@@ -8,21 +8,15 @@ PV = "20221023"
 RPM_NAME = "libmodi-tools-20221023-3.7.aarch64.rpm"
 RPM_HASH = "f9adb680c492dd1f157652ab2190f444f37707e7f40260b0c2f917dcfda4060307919128b72cda36589a996bdc5d492f2c920ccd579ad9d12dc69e1da30589dc"
 
-RPROVIDES:${PN} += "libmodi-tools \
-libmodi-tools(aarch-64)"
+RPROVIDES:${PN} += "libmodi-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcdata.so.1()(64bit) \
-libcdata.so.1(V_20230108)(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcnotify.so.1()(64bit) \
-libcnotify.so.1(V_20220108)(64bit) \
-libfuse.so.2()(64bit) \
-libmodi.so.1()(64bit) \
-libmodi.so.1(V_20221023)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcdata.so.1 \
+libcerror.so.1 \
+libclocale.so.1 \
+libcnotify.so.1 \
+libfuse.so.2 \
+libmodi.so.1"
 
 inherit rpm

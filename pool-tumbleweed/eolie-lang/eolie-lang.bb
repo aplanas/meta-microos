@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eolie-lang \
 eolie-lang-all \
-locale(eolie:ar) \
-locale(eolie:de) \
-locale(eolie:el) \
-locale(eolie:eo) \
-locale(eolie:es) \
-locale(eolie:es_EC) \
-locale(eolie:fa) \
-locale(eolie:fi) \
-locale(eolie:fr) \
-locale(eolie:hr) \
-locale(eolie:hu) \
-locale(eolie:it) \
-locale(eolie:ko) \
-locale(eolie:lt) \
-locale(eolie:nb_NO) \
-locale(eolie:nl) \
-locale(eolie:nl_BE) \
-locale(eolie:pl) \
-locale(eolie:pt) \
-locale(eolie:pt_BR) \
-locale(eolie:pt_PT) \
-locale(eolie:ru) \
-locale(eolie:sv) \
-locale(eolie:tr) \
-locale(eolie:uk) \
-locale(eolie:zh_Hans) \
-locale(eolie:zh_Hant)"
+locale-eolie-ar \
+locale-eolie-de \
+locale-eolie-el \
+locale-eolie-eo \
+locale-eolie-es \
+locale-eolie-es-EC \
+locale-eolie-fa \
+locale-eolie-fi \
+locale-eolie-fr \
+locale-eolie-hr \
+locale-eolie-hu \
+locale-eolie-it \
+locale-eolie-ko \
+locale-eolie-lt \
+locale-eolie-nb-NO \
+locale-eolie-nl \
+locale-eolie-nl-BE \
+locale-eolie-pl \
+locale-eolie-pt \
+locale-eolie-pt-BR \
+locale-eolie-pt-PT \
+locale-eolie-ru \
+locale-eolie-sv \
+locale-eolie-tr \
+locale-eolie-uk \
+locale-eolie-zh-Hans \
+locale-eolie-zh-Hant"
 
 RDEPENDS:${PN} += "eolie"
 

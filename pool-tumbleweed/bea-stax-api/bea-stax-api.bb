@@ -11,10 +11,10 @@ RPM_HASH = "3b939aac81e7cb4c667052d048d255809352a009a9b428cbd9c32e8ee9d19d4cb2da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bea-stax-api \
-mvn(javax.xml.stream:stax-api) \
-mvn(javax.xml.stream:stax-api:pom:) \
-mvn(stax:stax-api) \
-mvn(stax:stax-api:pom:)"
+mvn-javax.xml.stream-stax-api \
+mvn-javax.xml.stream-stax-api-pom- \
+mvn-stax-stax-api \
+mvn-stax-stax-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

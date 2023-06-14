@@ -10,12 +10,11 @@ PV = "0.11"
 RPM_NAME = "dfu-util-0.11-2.3.aarch64.rpm"
 RPM_HASH = "fb8abf556d81eedd8105ce0beba0797af6cdfde6de66bfc1bb48e8e6af867cb4dd745c6a9f74ffa698f8f86fc7208b3f95767756c86bc95002222766cc9023f2"
 
-RPROVIDES:${PN} += "dfu-util \
-dfu-util(aarch-64)"
+RPROVIDES:${PN} += "dfu-util"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusb-1.0.so.0"
 
 inherit rpm

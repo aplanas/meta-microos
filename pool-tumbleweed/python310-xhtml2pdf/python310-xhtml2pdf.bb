@@ -14,13 +14,13 @@ RPM_HASH = "e9f3003138ee09019cd11a1a89e0d152474c23fc7a7fedc948d093151620821d16bf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xhtml2pdf \
-python3.10dist(xhtml2pdf) \
+python3.10dist-xhtml2pdf \
 python310-xhtml2pdf \
-python3dist(xhtml2pdf)"
+python3dist-xhtml2pdf"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-PyPDF3 \
 python310-arabic-reshaper \

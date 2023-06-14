@@ -16,7 +16,7 @@ RPM_NAME = "texlive-ftc-notebook-2023.201.1.1svn50043-52.1.noarch.rpm"
 RPM_HASH = "38ac83549a0b12b96f8c44a75e061af180a22e5acbbd846ddc51d500453d67596ffcd27c0b3d0f3881bf82aa18c35af6a0c82bcc7aff8fb1ef3a03ebbb5292af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ftc-notebook.sty) \
+RPROVIDES:${PN} += "tex-ftc-notebook.sty \
 texlive-ftc-notebook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,42 +25,42 @@ ed \
 findutils \
 grep \
 sed \
-tex(anyfontsize.sty) \
-tex(array.sty) \
-tex(arrayjobx.sty) \
-tex(calc.sty) \
-tex(caption.sty) \
-tex(colortbl.sty) \
-tex(datetime.sty) \
-tex(fancyhdr.sty) \
-tex(float.sty) \
-tex(geometry.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(ifthen.sty) \
-tex(inputenx.sty) \
-tex(kvoptions.sty) \
-tex(listings.sty) \
-tex(longtable.sty) \
-tex(mathptmx.sty) \
-tex(mfirstuc.sty) \
-tex(multido.sty) \
-tex(multirow.sty) \
-tex(needspace.sty) \
-tex(newunicodechar.sty) \
-tex(paralist.sty) \
-tex(subcaption.sty) \
-tex(suffix.sty) \
-tex(t1enc.sty) \
-tex(tabu.sty) \
-tex(textcomp.sty) \
-tex(textpos.sty) \
-tex(tikz.sty) \
-tex(titlesec.sty) \
-tex(tocloft.sty) \
-tex(xcolor.sty) \
-tex(xifthen.sty) \
-tex(xparse.sty) \
+tex-anyfontsize.sty \
+tex-array.sty \
+tex-arrayjobx.sty \
+tex-calc.sty \
+tex-caption.sty \
+tex-colortbl.sty \
+tex-datetime.sty \
+tex-fancyhdr.sty \
+tex-float.sty \
+tex-geometry.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-ifthen.sty \
+tex-inputenx.sty \
+tex-kvoptions.sty \
+tex-listings.sty \
+tex-longtable.sty \
+tex-mathptmx.sty \
+tex-mfirstuc.sty \
+tex-multido.sty \
+tex-multirow.sty \
+tex-needspace.sty \
+tex-newunicodechar.sty \
+tex-paralist.sty \
+tex-subcaption.sty \
+tex-suffix.sty \
+tex-t1enc.sty \
+tex-tabu.sty \
+tex-textcomp.sty \
+tex-textpos.sty \
+tex-tikz.sty \
+tex-titlesec.sty \
+tex-tocloft.sty \
+tex-xcolor.sty \
+tex-xifthen.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

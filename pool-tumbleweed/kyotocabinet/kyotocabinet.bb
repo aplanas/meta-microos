@@ -29,14 +29,13 @@ PV = "1.2.77"
 RPM_NAME = "kyotocabinet-1.2.77-3.1.aarch64.rpm"
 RPM_HASH = "30595e092492f8e73407e9c918ad1ebd6ed1a06ef040cea7d4e2f07004b228e2577eb587f34ba3dae9dbc490d5b73790ac5fc896374e5860cf3b16185c5d769e"
 
-RPROVIDES:${PN} += "kyotocabinet \
-kyotocabinet(aarch-64)"
+RPROVIDES:${PN} += "kyotocabinet"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkyotocabinet.so.16()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkyotocabinet.so.16 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

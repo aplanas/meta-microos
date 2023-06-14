@@ -9,13 +9,13 @@ RPM_HASH = "3ba73077b149e0782b81d146422a5a3760715a6a2e0ea77c885361369e2e18166925
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-copr-cli \
-python3.10dist(copr-cli) \
+python3.10dist-copr-cli \
 python310-copr-cli \
-python3dist(copr-cli)"
+python3dist-copr-cli"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-copr \
 python310-filelock \

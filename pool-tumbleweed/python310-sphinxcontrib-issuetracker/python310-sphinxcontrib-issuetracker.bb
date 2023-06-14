@@ -11,11 +11,11 @@ RPM_HASH = "16a448c8669f4cf6838b618e4b65918e143e2ce7ed314213c5ce3068feca5f119c7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-issuetracker \
-python3.10dist(sphinxcontrib-issuetracker) \
+python3.10dist-sphinxcontrib-issuetracker \
 python310-sphinxcontrib-issuetracker \
-python3dist(sphinxcontrib-issuetracker)"
+python3dist-sphinxcontrib-issuetracker"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx \
 python310-requests"
 

@@ -9,11 +9,11 @@ RPM_HASH = "3b822767ddcf0f985d8f1e24c2d2ae797a782f89ec03ee4adaf8090ff821760ece9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-duet \
-python3.10dist(duet) \
+python3.10dist-duet \
 python310-duet \
-python3dist(duet)"
+python3dist-duet"
 
-RDEPENDS:${PN} += "python(abi) \
-python310-typing_extensions"
+RDEPENDS:${PN} += "python-abi \
+python310-typing-extensions"
 
 inherit rpm

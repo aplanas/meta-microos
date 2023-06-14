@@ -10,41 +10,41 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "agenda-lang \
 agenda-lang-all \
-locale(agenda:af) \
-locale(agenda:ca) \
-locale(agenda:da) \
-locale(agenda:de) \
-locale(agenda:el) \
-locale(agenda:en_GB) \
-locale(agenda:eo) \
-locale(agenda:es) \
-locale(agenda:et) \
-locale(agenda:fi) \
-locale(agenda:fr) \
-locale(agenda:fr_CA) \
-locale(agenda:gl) \
-locale(agenda:he) \
-locale(agenda:id) \
-locale(agenda:it) \
-locale(agenda:ja) \
-locale(agenda:ka) \
-locale(agenda:km) \
-locale(agenda:ko) \
-locale(agenda:lt) \
-locale(agenda:ms) \
-locale(agenda:nb) \
-locale(agenda:nl) \
-locale(agenda:nn) \
-locale(agenda:pl) \
-locale(agenda:pt) \
-locale(agenda:pt_BR) \
-locale(agenda:ru) \
-locale(agenda:sr) \
-locale(agenda:sr@latin) \
-locale(agenda:sv) \
-locale(agenda:tr) \
-locale(agenda:ug) \
-locale(agenda:zh_CN)"
+locale-agenda-af \
+locale-agenda-ca \
+locale-agenda-da \
+locale-agenda-de \
+locale-agenda-el \
+locale-agenda-en-GB \
+locale-agenda-eo \
+locale-agenda-es \
+locale-agenda-et \
+locale-agenda-fi \
+locale-agenda-fr \
+locale-agenda-fr-CA \
+locale-agenda-gl \
+locale-agenda-he \
+locale-agenda-id \
+locale-agenda-it \
+locale-agenda-ja \
+locale-agenda-ka \
+locale-agenda-km \
+locale-agenda-ko \
+locale-agenda-lt \
+locale-agenda-ms \
+locale-agenda-nb \
+locale-agenda-nl \
+locale-agenda-nn \
+locale-agenda-pl \
+locale-agenda-pt \
+locale-agenda-pt-BR \
+locale-agenda-ru \
+locale-agenda-sr \
+locale-agenda-sr@latin \
+locale-agenda-sv \
+locale-agenda-tr \
+locale-agenda-ug \
+locale-agenda-zh-CN"
 
 RDEPENDS:${PN} += "agenda"
 

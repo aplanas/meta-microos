@@ -18,11 +18,11 @@ RPM_HASH = "49ddb172aa199eb0ba9abe6509e65f1b2195497eb2570eac7935690a98731f13ad5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pysnmp \
-python3.10dist(pysnmp) \
+python3.10dist-pysnmp \
 python310-pysnmp \
-python3dist(pysnmp)"
+python3dist-pysnmp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyasn1 \
 python310-pycryptodome \
 python310-pysmi"

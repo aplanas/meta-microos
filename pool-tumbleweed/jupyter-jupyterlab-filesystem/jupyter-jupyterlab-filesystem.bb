@@ -20,10 +20,10 @@ python311-jupyterlab-filesystem \
 python311-jupyterlab-macros-devel \
 python39-jupyterlab-filesystem \
 python39-jupyterlab-macros-devel \
-rpm_macro(_jupyter_lab_dir) \
-rpm_macro(_jupyter_labextensions_dir) \
-rpm_macro(_jupyter_labextensions_dir3)"
+rpm-macro--jupyter-lab-dir \
+rpm-macro--jupyter-labextensions-dir \
+rpm-macro--jupyter-labextensions-dir3"
 
-RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem"
+RDEPENDS:${PN} += "jupyter-jupyter-core-filesystem"
 
 inherit rpm

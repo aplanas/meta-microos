@@ -10,11 +10,11 @@ RPM_HASH = "3886877f0da9617348e3f164d53f44f72befe247f43f68354f79efb4b356b32b7f4f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.functools \
-python3.10dist(jaraco.functools) \
+python3.10dist-jaraco.functools \
 python310-jaraco.functools \
-python3dist(jaraco.functools)"
+python3dist-jaraco.functools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jaraco.packaging \
 python310-more-itertools"
 

@@ -10,11 +10,11 @@ RPM_HASH = "576741ae67e85d0306093809fc2cb19b24977f4223ff5ad3358e380165f1893e556c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wolframalpha \
-python3.10dist(wolframalpha) \
+python3.10dist-wolframalpha \
 python310-wolframalpha \
-python3dist(wolframalpha)"
+python3dist-wolframalpha"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jaraco.context \
 python310-more-itertools \
 python310-xmltodict"

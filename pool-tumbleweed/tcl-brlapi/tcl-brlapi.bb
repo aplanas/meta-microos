@@ -16,14 +16,13 @@ PV = "6.5"
 RPM_NAME = "tcl-brlapi-6.5-2.4.aarch64.rpm"
 RPM_HASH = "cfd75cb1b20218876b8b6d6e9f6b6739b15729ae5a5dff9cda14e4bbb4aaf7519236fb61df4e41995126569ff81322ae0cac6202970689095a436921f11ed81a"
 
-RPROVIDES:${PN} += "libbrlapi_tcl.so.0.8()(64bit) \
-tcl-brlapi \
-tcl-brlapi(aarch-64)"
+RPROVIDES:${PN} += "libbrlapi-tcl.so.0.8 \
+tcl-brlapi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbrlapi.so.0.8()(64bit) \
-libc.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbrlapi.so.0.8 \
+libc.so.6 \
+libtcl8.6.so \
 tcl"
 
 inherit rpm

@@ -9,18 +9,17 @@ RPM_NAME = "vim-small-9.0.1572-1.1.aarch64.rpm"
 RPM_HASH = "f0d3b428e94ddbe401133ed3554481bf419dc088de97ca50472abc6286def6750f612479faea101dd141250ecac67b3300d1c09128e279e85e7b621eb582d454"
 
 RPROVIDES:${PN} += "vi \
-vim-small \
-vim-small(aarch-64) \
-vim_client"
+vim-client \
+vim-small"
 
 RDEPENDS:${PN} += "/bin/sh \
 alts \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libselinux.so.1()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libc.so.6 \
+libm.so.6 \
+libselinux.so.1 \
+libtinfo.so.6 \
 vim-data-common"
 
 inherit rpm

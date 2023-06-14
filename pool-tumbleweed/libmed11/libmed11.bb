@@ -10,9 +10,8 @@ PV = "4.1.1"
 RPM_NAME = "libmed11-4.1.1-1.6.aarch64.rpm"
 RPM_HASH = "6e5d38667552976817d5deef74b56dc482c47ff72bcbec84b9a898426c845583681dbb6c9a0e0282fb1c5bad3cc9a408539a53a398bc5dc5b6b108a846bf7280"
 
-RPROVIDES:${PN} += "libmed.so.11()(64bit) \
-libmed11 \
-libmed11(aarch-64)"
+RPROVIDES:${PN} += "libmed.so.11 \
+libmed11"
 
 RDEPENDS:${PN} += "/sbin/ldconfig"
 

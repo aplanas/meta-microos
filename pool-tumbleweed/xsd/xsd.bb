@@ -13,14 +13,13 @@ PV = "4.1.0"
 RPM_NAME = "xsd-4.1.0-1.13.aarch64.rpm"
 RPM_HASH = "2edfef22c9485530c40a45378ed2395e33c70059393378e2662faeb2a02eabf1d5d9da78ef8d08c1c790cf0e43a005286929194a69d0c14e6990e7b793d4b3a7"
 
-RPROVIDES:${PN} += "xsd \
-xsd(aarch-64)"
+RPROVIDES:${PN} += "xsd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxerces-c-3.2.so()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxerces-c-3.2.so \
 libxerces-c-devel"
 
 inherit rpm

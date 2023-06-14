@@ -27,13 +27,12 @@ RPM_NAME = "irssi-otr-1.0.2-2.2.aarch64.rpm"
 RPM_HASH = "dbe20e989fc2aa9b00a24db69d61fa250d3052b28ac8664756134e1c2b3d00c6d569eaad2d0d393d9fa8506a86315fb334b5b3f5d0fda67b4560c59de835132b"
 
 RPROVIDES:${PN} += "irssi-otr \
-irssi-otr(aarch-64) \
-libotr.so()(64bit)"
+libotr.so"
 
 RDEPENDS:${PN} += "irssi \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit) \
-libotr.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20 \
+libotr.so.5"
 
 inherit rpm

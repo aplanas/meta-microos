@@ -13,18 +13,15 @@ PV = "1.10_svn23"
 RPM_NAME = "vodovod-1.10_svn23-3.24.aarch64.rpm"
 RPM_HASH = "4ff6cd7b246c1b374540dd5f5710233ff1eab96ee42750c3be818707d40b32a3e340d8e2b831ae15f0ce7d556b49ecf93dc867f266ae84e6e1f7dcb74916f222"
 
-RPROVIDES:${PN} += "application() \
-application(vodovod.desktop) \
-vodovod \
-vodovod(aarch-64)"
+RPROVIDES:${PN} += "vodovod"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libSDL_ttf-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libSDL-ttf-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

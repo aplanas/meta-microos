@@ -21,7 +21,7 @@ docbook-dsssl-stylesheets"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog \
-docbook_3 \
-docbook_4"
+docbook-3 \
+docbook-4"
 
 inherit rpm

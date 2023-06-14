@@ -11,19 +11,18 @@ PV = "4.12.1+git.1682325255.86f77326"
 RPM_NAME = "fence-agents-4.12.1+git.1682325255.86f77326-2.1.aarch64.rpm"
 RPM_HASH = "87b7bbbfa9b37c7a98e0974dc627738d6281b6afcd5bebcbe441de41df040bfa06b995ad0f2736ac39e32c42f8ec2c64f7f56c14d2e5e6e8fab5a8b75cfa3de1"
 
-RPROVIDES:${PN} += "fence-agents \
-fence-agents(aarch-64)"
+RPROVIDES:${PN} += "fence-agents"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 net-snmp \
 openssh \
 perl-Net-Telnet \
 python3-pexpect \
 python3-pycurl \
 python3-requests \
-sg3_utils \
+sg3-utils \
 telnet"
 
 inherit rpm

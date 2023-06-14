@@ -10,8 +10,7 @@ RPM_NAME = "geners-devel-1.12.0-1.14.aarch64.rpm"
 RPM_HASH = "a8a2508796ad087870bdab6dc4f84cf085003512e6ad1484d5656b08cfab58fe5dd87b445e56d0f10d3abd9da36a6ae340764eeb832d4dd1016d40290ab95799"
 
 RPROVIDES:${PN} += "geners-devel \
-geners-devel(aarch-64) \
-pkgconfig(geners)"
+pkgconfig-geners"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgeners0"

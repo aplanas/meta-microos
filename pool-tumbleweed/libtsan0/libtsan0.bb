@@ -8,14 +8,13 @@ PV = "7.5.0+r278197"
 RPM_NAME = "libtsan0-7.5.0+r278197-14.3.aarch64.rpm"
 RPM_HASH = "eaa86176832a24f3c21859fe08c095f22e7449ab8df65de40a5cca4e6a7482eaad3d74c3952fd3f428d2b0a4c2ac345a7a9541c3fcaecc3903561cd3a3c46c2e"
 
-RPROVIDES:${PN} += "libtsan.so.0()(64bit) \
-libtsan0 \
-libtsan0(aarch-64)"
+RPROVIDES:${PN} += "libtsan.so.0 \
+libtsan0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

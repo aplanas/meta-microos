@@ -18,7 +18,7 @@ RPM_NAME = "texlive-font-change-xetex-2023.201.2016.1svn40404-52.1.noarch.rpm"
 RPM_HASH = "147bec7daafcea4002aabee1c71b8b414822d7fa6dd8f33199367844374a392735262eb26124b7c23750caad05a9b79080904cdd6bf67053c6f4c4ce07fbd076"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(font-change-xetex.tex) \
+RPROVIDES:${PN} += "tex-font-change-xetex.tex \
 texlive-font-change-xetex"
 
 RDEPENDS:${PN} += "/bin/sh \

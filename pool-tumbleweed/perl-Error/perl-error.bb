@@ -14,12 +14,11 @@ RPM_NAME = "perl-Error-0.17029-1.13.noarch.rpm"
 RPM_HASH = "371437820837c384775eca219a5164ebdda6db3a32c944d8bb945103a751e1e52d9b218f0c1e18ee2645a83ee3bc5963e1ec16408b99989ad1db55b742fed791"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Error) \
-perl(Error::Simple) \
-perl(Error::WarnDie) \
-perl(Error::subs) \
-perl-Error"
+RPROVIDES:${PN} += "perl-Error \
+perl-Error--Simple \
+perl-Error--WarnDie \
+perl-Error--subs"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

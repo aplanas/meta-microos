@@ -9,14 +9,14 @@ RPM_HASH = "514392682c98ffb32d1ca29456577408b69293b1cbf5708b3cbbe5a7fa6dde0fce64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-module-confluence \
-mvn(org.apache.maven.doxia:doxia-module-confluence) \
-mvn(org.apache.maven.doxia:doxia-module-confluence:pom:)"
+mvn-org.apache.maven.doxia-doxia-module-confluence \
+mvn-org.apache.maven.doxia-doxia-module-confluence-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.doxia:doxia-core) \
-mvn(org.apache.maven.doxia:doxia-sink-api) \
-mvn(org.codehaus.plexus:plexus-component-annotations) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven.doxia-doxia-core \
+mvn-org.apache.maven.doxia-doxia-sink-api \
+mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

@@ -12,7 +12,7 @@ RPM_HASH = "de3db5a06d9947ca237acf55885a5f57057b25e216b2a261ed2b979f4ff63edbd16b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado-common \
-config(avocado-common)"
+config-avocado-common"
 
 RDEPENDS:${PN} += "/bin/sh"
 

@@ -9,13 +9,13 @@ RPM_HASH = "33df9ed66553c5db717e02f0a1b4ba6b5d62984b00ef63b5b50ad6efc641f61878be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-npTDMS \
-python3.10dist(nptdms) \
+python3.10dist-nptdms \
 python310-npTDMS \
-python3dist(nptdms)"
+python3dist-nptdms"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-numpy \
 update-alternatives"
 

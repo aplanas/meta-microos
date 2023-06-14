@@ -16,18 +16,17 @@ RPM_NAME = "opensp-1.5.2-202.1.aarch64.rpm"
 RPM_HASH = "61ee0b8d9ed14deb5127aa0559e8262d18ede0e12eb76a7dded05d5be5323673c970b51f02978736f7cae38c244371a7057d222ee2d3c7b61b4c031d5035387b"
 
 RPROVIDES:${PN} += "OpenSP \
-config(opensp) \
-libosp.so.5()(64bit) \
+config-opensp \
+libosp.so.5 \
 opensp \
-opensp(aarch-64) \
 sp \
-sp_libs"
+sp-libs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

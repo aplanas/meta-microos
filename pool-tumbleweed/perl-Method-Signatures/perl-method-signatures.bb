@@ -18,22 +18,22 @@ RPM_NAME = "perl-Method-Signatures-20170211-1.21.noarch.rpm"
 RPM_HASH = "03f7a7bee9e5a3073b52fa1a9ab0e5a7416a7afee83489cd612e091bf5ae61ff0572b7b05359a334781880d55b35e12fec584880b298e2cb51c46bd2c267819e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Method::Signatures) \
-perl(Method::Signatures::Modifiers) \
-perl(Method::Signatures::Parameter) \
-perl(Method::Signatures::Signature) \
-perl(Method::Signatures::Types) \
-perl(Method::Signatures::Utils) \
+RPROVIDES:${PN} += "perl-Method--Signatures \
+perl-Method--Signatures--Modifiers \
+perl-Method--Signatures--Parameter \
+perl-Method--Signatures--Signature \
+perl-Method--Signatures--Types \
+perl-Method--Signatures--Utils \
 perl-Method-Signatures"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Any::Moose) \
-perl(Const::Fast) \
-perl(Devel::Declare) \
-perl(Devel::Declare::MethodInstaller::Simple) \
-perl(Lexical::SealRequireHints) \
-perl(Mouse) \
-perl(PPI) \
-perl(Sub::Name)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Any--Moose \
+perl-Const--Fast \
+perl-Devel--Declare \
+perl-Devel--Declare--MethodInstaller--Simple \
+perl-Lexical--SealRequireHints \
+perl-Mouse \
+perl-PPI \
+perl-Sub--Name"
 
 inherit rpm

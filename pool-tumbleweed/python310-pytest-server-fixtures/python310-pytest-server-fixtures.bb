@@ -9,13 +9,13 @@ RPM_HASH = "33a42e4d0f57bae802ef9c6b3da2a0881f87660deb7ad2ed2b3efba3f165b96108ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-server-fixtures \
-python3.10dist(pytest-server-fixtures) \
+python3.10dist-pytest-server-fixtures \
 python310-pytest-server-fixtures \
-python3dist(pytest-server-fixtures)"
+python3dist-pytest-server-fixtures"
 
 RDEPENDS:${PN} += "lsof \
 net-tools-deprecated \
-python(abi) \
+python-abi \
 python310-future \
 python310-psutil \
 python310-pytest \

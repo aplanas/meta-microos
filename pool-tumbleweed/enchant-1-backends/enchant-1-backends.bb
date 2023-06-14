@@ -12,17 +12,16 @@ RPM_HASH = "3c648731671824df5ad94d30c10b092a0c02f8c228c4bc4fbbec5778d835f97564a1
 
 RPROVIDES:${PN} += "enchant-1-backend \
 enchant-1-backends \
-enchant-1-backends(aarch-64) \
-libenchant1:/usr/lib64/enchant/libenchant_ispell.so \
-libenchant_ispell.so()(64bit) \
-libenchant_myspell.so()(64bit)"
+libenchant-ispell.so \
+libenchant-myspell.so \
+libenchant1-/usr/lib64/enchant/libenchant-ispell.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libenchant.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libenchant.so.1 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libhunspell-1.7.so.0 \
+libstdc++.so.6"
 
 inherit rpm

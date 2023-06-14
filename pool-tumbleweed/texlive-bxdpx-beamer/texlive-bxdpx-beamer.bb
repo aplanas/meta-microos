@@ -11,7 +11,7 @@ RPM_NAME = "texlive-bxdpx-beamer-2023.201.0.0.3svn41813-52.1.noarch.rpm"
 RPM_HASH = "aeec66490c633041f3816df9e7aad45dc14b3d0a11e741fa41231b550b11d4723de260320441be9b2bf0ae3f20c7e68624130638384343255e7311405832e58f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxdpx-beamer.sty) \
+RPROVIDES:${PN} += "tex-bxdpx-beamer.sty \
 texlive-bxdpx-beamer"
 
 RDEPENDS:${PN} += "/bin/sh \

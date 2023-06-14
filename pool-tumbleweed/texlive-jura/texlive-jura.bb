@@ -11,8 +11,8 @@ RPM_NAME = "texlive-jura-2023.201.4.3svn15878-55.1.noarch.rpm"
 RPM_HASH = "603b20a14d997ccd90afc786c5032b81bc83d5bc5c7084dbaf09148879e64087e27a526b0e848494279b2502c54e76456b3ad6e08df88e2c25bd60bb88adaa6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(alphanum.sty) \
-tex(jura.cls) \
+RPROVIDES:${PN} += "tex-alphanum.sty \
+tex-jura.cls \
 texlive-jura"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(report.cls) \
+tex-report.cls \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

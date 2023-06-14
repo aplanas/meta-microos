@@ -9,11 +9,11 @@ RPM_HASH = "d64131945c1e37383a045da8de280d4fcb3e1ef27bf8614d796e6f2ec1e6482bf426
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cloudscraper \
-python3.10dist(cloudscraper) \
+python3.10dist-cloudscraper \
 python310-cloudscraper \
-python3dist(cloudscraper)"
+python3dist-cloudscraper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyparsing \
 python310-requests \
 python310-requests-toolbelt"

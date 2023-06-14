@@ -9,12 +9,12 @@ RPM_NAME = "perl-CPAN-Meta-Check-0.017-1.1.noarch.rpm"
 RPM_HASH = "8416ce3d88dc88346bcec185fa3232acf725287859309d35a8ed1cd3a38669e9923e39734fe29bf78ba020d93a3943b40d84abf255b3990b5418cfc2a9308504"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CPAN::Meta::Check) \
+RPROVIDES:${PN} += "perl-CPAN--Meta--Check \
 perl-CPAN-Meta-Check"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(CPAN::Meta::Prereqs) \
-perl(CPAN::Meta::Requirements) \
-perl(Module::Metadata)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-CPAN--Meta--Prereqs \
+perl-CPAN--Meta--Requirements \
+perl-Module--Metadata"
 
 inherit rpm

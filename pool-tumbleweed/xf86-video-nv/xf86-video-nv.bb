@@ -14,11 +14,10 @@ RPM_NAME = "xf86-video-nv-2.1.22-1.4.aarch64.rpm"
 RPM_HASH = "dfbf56144be857e0d1b92df339b9b3eb2955150b80859624032e5494ede2b1d6d451627c0d667cb26e068207acf49dec1a8d470d2d086ed133324521adbdc8dd"
 
 RPROVIDES:${PN} += "xf86-video-nv \
-xf86-video-nv(aarch-64) \
 xorg-x11-driver-video-nvidia"
 
-RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "X11-ABI-VIDEODRV \
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

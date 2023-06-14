@@ -9,10 +9,10 @@ RPM_HASH = "02d4259b942c4c695e3c2e48a9fd52a79d2aa9bfa29b09fe35d50b7f6a7ee2f14c96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-engineio \
-python3.10dist(python-engineio) \
+python3.10dist-python-engineio \
 python310-python-engineio \
-python3dist(python-engineio)"
+python3dist-python-engineio"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

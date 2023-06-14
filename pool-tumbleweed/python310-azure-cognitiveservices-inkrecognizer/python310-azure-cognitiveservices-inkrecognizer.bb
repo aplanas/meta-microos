@@ -17,11 +17,11 @@ RPM_HASH = "997d15efec07408d2c7286041d76271e34a0b0da495e1f0f80f6734fe7289635660e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-inkrecognizer \
-python3.10dist(azure-cognitiveservices-inkrecognizer) \
+python3.10dist-azure-cognitiveservices-inkrecognizer \
 python310-azure-cognitiveservices-inkrecognizer \
-python3dist(azure-cognitiveservices-inkrecognizer)"
+python3dist-azure-cognitiveservices-inkrecognizer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \
 python310-azure-core"

@@ -13,11 +13,11 @@ RPM_HASH = "4c54ab592012a3c7016da08142de91e667224b76915bf823950566f855669be1a60d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pssh \
-python3.10dist(pssh) \
-python3dist(pssh)"
+python3.10dist-pssh \
+python3dist-pssh"
 
 RDEPENDS:${PN} += "openssh \
-python(abi) \
+python-abi \
 rsync"
 
 inherit rpm

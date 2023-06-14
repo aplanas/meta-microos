@@ -12,14 +12,14 @@ RPM_HASH = "32ce54a871fa84f68a6260f259d4706e88a257196140fc9012a7956b321a81ed0888
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-schemaregistry-avroencoder \
-python3.10dist(azure-schemaregistry-avroencoder) \
+python3.10dist-azure-schemaregistry-avroencoder \
 python310-azure-schemaregistry-avroencoder \
-python3dist(azure-schemaregistry-avroencoder)"
+python3dist-azure-schemaregistry-avroencoder"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-avro \
 python310-azure-nspkg \
 python310-azure-schemaregistry \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

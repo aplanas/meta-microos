@@ -13,13 +13,13 @@ RPM_HASH = "a1db1431f8823da8753416c0fefd8aecfdcce2466eae21ef1944d6e67273ac62065b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-cbor \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-cbor) \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:pom:) \
-osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-cbor)"
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-cbor \
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-cbor-pom- \
+osgi-com.fasterxml.jackson.dataformat.jackson-dataformat-cbor"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind)"
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind"
 
 inherit rpm

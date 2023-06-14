@@ -7,9 +7,8 @@ PV = "8.16.0"
 RPM_NAME = "gitleaks-8.16.0-1.4.aarch64.rpm"
 RPM_HASH = "3b2f1e859f81e275ea6f8471cfb7fca5c460990fcc3637d2a079898aeef183751f39f00d6c3282bdd7a5bd8aa7f88ad8af67ffb0cb7041f8cfc4242503d40794"
 
-RPROVIDES:${PN} += "gitleaks \
-gitleaks(aarch-64)"
+RPROVIDES:${PN} += "gitleaks"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

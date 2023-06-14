@@ -12,11 +12,11 @@ RPM_NAME = "python39-sphinxcontrib-apidoc-0.3.0-2.1.noarch.rpm"
 RPM_HASH = "9fbc491cb41b722b4c8b7d10adccb699192c2921d60fe01f0f724c1e1c4772a067eba7ff895f1ec532558fa85f8f1ac0945eacc6d54d09776cc1a57aed2add12"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-apidoc) \
+RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-apidoc \
 python39-sphinxcontrib-apidoc \
-python3dist(sphinxcontrib-apidoc)"
+python3dist-sphinxcontrib-apidoc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Sphinx \
 python39-pbr"
 

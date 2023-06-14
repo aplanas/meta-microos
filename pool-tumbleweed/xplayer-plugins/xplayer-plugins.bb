@@ -11,50 +11,49 @@ PV = "2.4.4"
 RPM_NAME = "xplayer-plugins-2.4.4-1.3.aarch64.rpm"
 RPM_HASH = "aa272f550cf774dfefabd21891c1d33f9b29ced99a9e76a08a16dc135f4a6341ed63a4cc3fac96b95f83e5e0813dbee24dc5e543e0a20142e1bcbb0076c47c5c"
 
-RPROVIDES:${PN} += "libapple-trailers.so()(64bit) \
-libautoload-subtitles.so()(64bit) \
-libbrasero-disc-recorder.so()(64bit) \
-libchapters.so()(64bit) \
-libgrilo.so()(64bit) \
-libgromit.so()(64bit) \
-liblirc.so()(64bit) \
-libmedia_player_keys.so()(64bit) \
-libmovie-properties.so()(64bit) \
-libontop.so()(64bit) \
-librecent.so()(64bit) \
-librotation.so()(64bit) \
-libscreensaver.so()(64bit) \
-libscreenshot.so()(64bit) \
-libskipto.so()(64bit) \
-libvimeo.so()(64bit) \
-libxplayer-im-status.so()(64bit) \
-xplayer-plugins \
-xplayer-plugins(aarch-64)"
+RPROVIDES:${PN} += "libapple-trailers.so \
+libautoload-subtitles.so \
+libbrasero-disc-recorder.so \
+libchapters.so \
+libgrilo.so \
+libgromit.so \
+liblirc.so \
+libmedia-player-keys.so \
+libmovie-properties.so \
+libontop.so \
+librecent.so \
+librotation.so \
+libscreensaver.so \
+libscreenshot.so \
+libskipto.so \
+libvimeo.so \
+libxplayer-im-status.so \
+xplayer-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgrilo-0.3.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-liblirc_client.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libwayland-server.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxplayer.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Pango) \
-typelib(Peas) \
-typelib(Xplayer) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgrilo-0.3.so.0 \
+libgtk-3.so.0 \
+liblirc-client.so.0 \
+libpango-1.0.so.0 \
+libpeas-1.0.so.0 \
+libwayland-server.so.0 \
+libxml2.so.2 \
+libxplayer.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-Pango \
+typelib-Peas \
+typelib-Xplayer \
 xplayer"
 
 inherit rpm

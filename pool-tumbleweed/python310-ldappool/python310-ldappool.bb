@@ -19,11 +19,11 @@ RPM_HASH = "295ee889e329978ff50461020fda298ed7cc697f7c8d1f9f5217ab2805096eb65c53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ldappool \
-python3.10dist(ldappool) \
+python3.10dist-ldappool \
 python310-ldappool \
-python3dist(ldappool)"
+python3dist-ldappool"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ldap \
 python310-prettytable"
 

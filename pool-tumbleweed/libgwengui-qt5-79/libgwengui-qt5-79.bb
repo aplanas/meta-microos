@@ -15,15 +15,14 @@ RPM_HASH = "0aaec0402133eccbcb8e3db279165c117628f91480ea732677ebf92e428946dff236
 
 RPROVIDES:${PN} += "libgwengui-qt4-0 \
 libgwengui-qt5-79 \
-libgwengui-qt5-79(aarch-64) \
-libgwengui-qt5.so.79()(64bit)"
+libgwengui-qt5.so.79"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgwengui-cpp.so.79()(64bit) \
-libgwenhywfar.so.79()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgwengui-cpp.so.79 \
+libgwenhywfar.so.79 \
+libstdc++.so.6"
 
 inherit rpm

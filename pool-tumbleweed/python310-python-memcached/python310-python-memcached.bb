@@ -15,11 +15,11 @@ RPM_HASH = "43150e2d8eec4cee8c4b464c7c1c3101ef92ca1c2ab49636163297e63e14020fa3dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-memcached \
-python3.10dist(python-memcached) \
+python3.10dist-python-memcached \
 python310-python-memcached \
-python3dist(python-memcached)"
+python3dist-python-memcached"
 
 RDEPENDS:${PN} += "memcached \
-python(abi)"
+python-abi"
 
 inherit rpm

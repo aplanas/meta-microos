@@ -11,10 +11,9 @@ PV = "20170107"
 RPM_NAME = "w_scan-20170107-2.12.aarch64.rpm"
 RPM_HASH = "42561e6917f0954584d4c6e97e106c999697052a46dad8cf4367f1eaaeeda64bf9f08afe9ab3bde546b31a70937f3f3d895d6b3c1694cc48d2be3ebe298773ba"
 
-RPROVIDES:${PN} += "w_scan \
-w_scan(aarch-64)"
+RPROVIDES:${PN} += "w-scan"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

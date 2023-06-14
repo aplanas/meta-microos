@@ -13,10 +13,9 @@ PV = "3.0.0"
 RPM_NAME = "libSDL_bgi-devel-3.0.0-1.3.aarch64.rpm"
 RPM_HASH = "e67c3b8ce88df82f251387e0dfc9eabc5db2e3abf96f5791c5d4893e4253e946a14b24c9ce885d631ce451cede9a82a8a8683564b573488f00ab63c7260dc9dd"
 
-RPROVIDES:${PN} += "SDL_bgi-devel \
-libSDL_bgi-devel \
-libSDL_bgi-devel(aarch-64)"
+RPROVIDES:${PN} += "SDL-bgi-devel \
+libSDL-bgi-devel"
 
-RDEPENDS:${PN} += "libSDL_bgi-suse9"
+RDEPENDS:${PN} += "libSDL-bgi-suse9"
 
 inherit rpm

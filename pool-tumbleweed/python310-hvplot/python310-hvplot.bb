@@ -13,12 +13,12 @@ RPM_HASH = "d738584d67f1568b87543a582005e329668d86527ff7617ee2dcca71ddbf4ebe1e1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hvplot \
-python3.10dist(hvplot) \
+python3.10dist-hvplot \
 python310-hvplot \
-python3dist(hvplot)"
+python3dist-hvplot"
 
-RDEPENDS:${PN} += "(python310-bokeh >= 1.0.0 with python310-bokeh < 2.5) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-bokeh >= 1.0.0 with python310-bokeh < 2.5 \
+python-abi \
 python310-colorcet \
 python310-holoviews \
 python310-numpy \

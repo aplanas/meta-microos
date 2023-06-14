@@ -11,15 +11,14 @@ PV = "2.0.1"
 RPM_NAME = "liblog4shib2-2.0.1-1.9.aarch64.rpm"
 RPM_HASH = "c4a7bb646a5b640566445a4bbb446c569ba183362aad760a7f4efc0cdcc7a29543980c2dff021ddfcfd08fb6ab0c27c6236ca464855a04c31525cf1023aee084"
 
-RPROVIDES:${PN} += "liblog4shib.so.2()(64bit) \
+RPROVIDES:${PN} += "liblog4shib.so.2 \
 liblog4shib2 \
-liblog4shib2(aarch-64) \
 log4shib"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

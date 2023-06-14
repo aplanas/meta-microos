@@ -9,11 +9,11 @@ RPM_HASH = "be8a50fa941d0c648d637f93e734b56e95514805b8095cb661b9b9b79b65b467f359
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-opentracing \
-python3.10dist(django-opentracing) \
+python3.10dist-django-opentracing \
 python310-django-opentracing \
-python3dist(django-opentracing)"
+python3dist-django-opentracing"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-opentracing \
 python310-six"

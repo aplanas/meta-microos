@@ -21,9 +21,9 @@ RPM_HASH = "b1d8e533cc6b514b25d391fded7339ab69b9cade8a5930c0bd90524a74cff5817b48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elixir \
-rpm_macro(elixir_dir) \
-rpm_macro(elixir_libdir) \
-rpm_macro(mix_compile)"
+rpm-macro-elixir-dir \
+rpm-macro-elixir-libdir \
+rpm-macro-mix-compile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \

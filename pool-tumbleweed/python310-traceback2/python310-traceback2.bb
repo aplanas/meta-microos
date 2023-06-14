@@ -9,11 +9,11 @@ RPM_HASH = "108525bac10be9e840b3737fe78e7b83747c3cb2da641db14de4d4e1f7b71e0623d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-traceback2 \
-python3.10dist(traceback2) \
+python3.10dist-traceback2 \
 python310-traceback2 \
-python3dist(traceback2)"
+python3dist-traceback2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-linecache2 \
 python310-pbr"
 

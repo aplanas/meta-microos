@@ -11,20 +11,19 @@ PV = "1.22.3"
 RPM_NAME = "libgstaudio-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "c80a72fafbe28c569b34c48ef19345bf7cdaa5b4feb9cbf6c5181e2b1ba5985a16651a788ea2f21e3d97f5cce2c37ca769b612f47857d6b71c06c432eae73535"
 
-RPROVIDES:${PN} += "libgstaudio-1.0.so.0()(64bit) \
-libgstaudio-1_0-0 \
-libgstaudio-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstaudio-1-0-0 \
+libgstaudio-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgsttag-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-liborc-0.4.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgsttag-1.0.so.0 \
+libm.so.6 \
+liborc-0.4.so.0"
 
 inherit rpm

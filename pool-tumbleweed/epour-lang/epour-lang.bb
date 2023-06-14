@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epour-lang \
 epour-lang-all \
-locale(epour:ko)"
+locale-epour-ko"
 
 RDEPENDS:${PN} += "epour"
 

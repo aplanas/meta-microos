@@ -9,11 +9,7 @@ RPM_NAME = "yast2-iscsi-client-4.6.0-1.1.noarch.rpm"
 RPM_HASH = "3bccc122f846a2cbc1e8c4d387c7ba7c7ea0848c4719bcca3e1d0bb589325d8663db53daf2717ca06ea9e9cbf516958bd391f351901696ea4f464f1a26d52723"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(org.opensuse.yast.iSCSIClient.desktop) \
-metainfo() \
-metainfo(org.opensuse.yast.iSCSIClient.metainfo.xml) \
-yast2-iscsi-client"
+RPROVIDES:${PN} += "yast2-iscsi-client"
 
 RDEPENDS:${PN} += "yast2 \
 yast2-packager \

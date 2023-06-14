@@ -10,20 +10,19 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "ceph-mgr-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "af3e90e1c66875109c0212b697087f05cf87a89bbb1ca61fe2a7ee14e833935e1a816f15b13c91b29bc927ffdb4174fff715cf3c36b0c89a31b5fb9e2e910b6b"
 
-RPROVIDES:${PN} += "ceph-mgr \
-ceph-mgr(aarch-64)"
+RPROVIDES:${PN} += "ceph-mgr"
 
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
 ceph-mgr-modules-core \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libceph-common.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libceph-common.so.2 \
 libcephsqlite \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtcmalloc.so.4()(64bit)"
+libfmt.so.9 \
+libgcc-s.so.1 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
+libtcmalloc.so.4"
 
 inherit rpm

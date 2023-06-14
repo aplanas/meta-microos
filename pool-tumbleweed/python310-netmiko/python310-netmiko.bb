@@ -9,13 +9,13 @@ RPM_HASH = "46ec325281ed7340ff768b25a59e2f6a850d05f2ba48647e0c4f102bb9665b17cfcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-netmiko \
-python3.10dist(netmiko) \
+python3.10dist-netmiko \
 python310-netmiko \
-python3dist(netmiko)"
+python3dist-netmiko"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-paramiko \
 python310-pyserial \

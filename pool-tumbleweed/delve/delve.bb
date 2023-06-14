@@ -11,9 +11,8 @@ PV = "1.20.2"
 RPM_NAME = "delve-1.20.2-1.2.aarch64.rpm"
 RPM_HASH = "09627dadd79b5fd91acae479644d5de2504a9dae7c2f456f949335b23aa6081dc10847f9bf9da2e47cd465744bcf0244f7b51f8b8e4530dd3e9d7e46d3b54ded"
 
-RPROVIDES:${PN} += "delve \
-delve(aarch-64)"
+RPROVIDES:${PN} += "delve"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -10,8 +10,7 @@ PV = "1.25.0"
 RPM_NAME = "crosstool-ng-1.25.0-1.3.aarch64.rpm"
 RPM_HASH = "59fdc2ad3c6a4655f94b967fc6520e9b521204e62c6efbf2569e1bf80130d3a8f3de170b1df0faf200ef33be3a0db592c0190fa8c1284b03e54b170c0786fbcb"
 
-RPROVIDES:${PN} += "crosstool-ng \
-crosstool-ng(aarch-64)"
+RPROVIDES:${PN} += "crosstool-ng"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gmake \
@@ -20,12 +19,12 @@ gcc \
 gcc-c++ \
 glibc-devel-static \
 gzip \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmenuw.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libpanelw.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmenuw.so.6 \
+libncursesw.so.6 \
+libpanelw.so.6 \
+libtinfo.so.6 \
 m4 \
 wget \
 xz"

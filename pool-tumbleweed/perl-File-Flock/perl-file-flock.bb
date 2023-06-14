@@ -23,18 +23,18 @@ RPM_NAME = "perl-File-Flock-2014.01-1.19.noarch.rpm"
 RPM_HASH = "413b0f7e0488bf33617016ed4b1353d5b042080a8123e04bac471a34a2cd84616195c09c1afeed963dced83595274f619eeec11671269080a66a97831a0c943c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Flock) \
-perl(File::Flock::Forking) \
-perl(File::Flock::Subprocess) \
-perl(File::Flock::Subprocess::Connections) \
-perl(File::Flock::Subprocess::Master) \
+RPROVIDES:${PN} += "perl-File--Flock \
+perl-File--Flock--Forking \
+perl-File--Flock--Subprocess \
+perl-File--Flock--Subprocess--Connections \
+perl-File--Flock--Subprocess--Master \
 perl-File-Flock"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(AnyEvent) \
-perl(Data::Structure::Util) \
-perl(File::Slurp) \
-perl(IO::Event) \
-perl(Test::SharedFork)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-AnyEvent \
+perl-Data--Structure--Util \
+perl-File--Slurp \
+perl-IO--Event \
+perl-Test--SharedFork"
 
 inherit rpm

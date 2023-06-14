@@ -9,15 +9,15 @@ RPM_HASH = "d8d7e3cf6bd34e648856e33574acd880224754a9bbcf7aa4d13929e6ef1644419856
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-en-AU \
-locale(libreoffice:en_AU) \
-locale(seamonkey-spellchecker:en_AU) \
+locale-libreoffice-en-AU \
+locale-seamonkey-spellchecker-en-AU \
 myspell-australian \
 myspell-dictionary \
-myspell-en_AU"
+myspell-en-AU"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en \
-myspell-en_GB \
-myspell-en_US"
+myspell-en-GB \
+myspell-en-US"
 
 inherit rpm

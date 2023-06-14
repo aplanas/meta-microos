@@ -12,11 +12,11 @@ RPM_HASH = "c60cff5d56b9ee44c71cbe5dfdea3c08de4e4905ec1a96e9b5c9df8220a1cd07d831
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-buttplug \
-python3.10dist(buttplug) \
+python3.10dist-buttplug \
 python310-buttplug \
-python3dist(buttplug)"
+python3dist-buttplug"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-websockets"
 
 inherit rpm

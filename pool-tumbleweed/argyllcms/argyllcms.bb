@@ -19,23 +19,21 @@ PV = "2.3.1"
 RPM_NAME = "argyllcms-2.3.1-2.5.aarch64.rpm"
 RPM_HASH = "4aa2d1a0ec396596dcdb2032d3e00656987b4cd67c8b213dd33b831dc6fe35265a734d2898fed0b7bcf0a663e56481621adbaa095c427aa2316ff77429195bb5"
 
-RPROVIDES:${PN} += "argyllcms \
-argyllcms(aarch-64)"
+RPROVIDES:${PN} += "argyllcms"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXss.so.1()(64bit) \
-libXxf86vm.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libssl.so.3()(64bit) \
-libtiff.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXss.so.1 \
+libXxf86vm.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libssl.so.3 \
+libtiff.so.6 \
 udev"
 
 inherit rpm

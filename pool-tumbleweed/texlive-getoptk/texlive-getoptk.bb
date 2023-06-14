@@ -12,8 +12,8 @@ RPM_NAME = "texlive-getoptk-2023.201.1.0svn23567-52.1.noarch.rpm"
 RPM_HASH = "70b3e4e1c4a32b9ec7310c3cbe32583097526a3b2e07719933f7b8ff2a8ab5726de099481aa99a9ac5fae8f36280802dea36ac5fc9978719c69c15340f082dab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(getoptk.tex) \
-tex(guide.tex) \
+RPROVIDES:${PN} += "tex-getoptk.tex \
+tex-guide.tex \
 texlive-getoptk"
 
 RDEPENDS:${PN} += "/bin/sh \

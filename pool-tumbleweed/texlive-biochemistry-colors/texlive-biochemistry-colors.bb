@@ -14,7 +14,7 @@ RPM_NAME = "texlive-biochemistry-colors-2023.201.1.00svn54512-53.1.noarch.rpm"
 RPM_HASH = "a114a066d45d7cc4321a50b1e5c5c18c65b2e61c5c4f79161b36db4e8aa7cf637632c036ed28bb0c7c693746634383eacf6efa386d32420208f8cf47c01993df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(Biochemistry-colors.sty) \
+RPROVIDES:${PN} += "tex-Biochemistry-colors.sty \
 texlive-biochemistry-colors"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xcolor.sty) \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

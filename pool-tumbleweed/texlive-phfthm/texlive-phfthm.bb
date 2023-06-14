@@ -13,7 +13,7 @@ RPM_NAME = "texlive-phfthm-2023.201.1.2svn60735-51.1.noarch.rpm"
 RPM_HASH = "34e394f9dbb7a1ea5b07a9d76db7bdf03b6840ce24bc97b619f40ae1f65dd579c6925028da03538d839c67ac3e16ff30dd0bd2c9f7948904ee442ba661fe00d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(phfthm.sty) \
+RPROVIDES:${PN} += "tex-phfthm.sty \
 texlive-phfthm"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,12 +22,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(aliascnt.sty) \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(amsthm.sty) \
-tex(etoolbox.sty) \
-tex(xkeyval.sty) \
+tex-aliascnt.sty \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-amsthm.sty \
+tex-etoolbox.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

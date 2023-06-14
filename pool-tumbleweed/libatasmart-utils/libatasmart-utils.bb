@@ -8,12 +8,11 @@ PV = "0.19"
 RPM_NAME = "libatasmart-utils-0.19-10.12.aarch64.rpm"
 RPM_HASH = "968754f4d257ecd995587473cd6692832c840ec93f3ccbcad00ce36ddb055e441a5a8a919e610679484c7f7555378f39aa081b56ee135d1db0cfd74eee057a10"
 
-RPROVIDES:${PN} += "libatasmart-utils \
-libatasmart-utils(aarch-64)"
+RPROVIDES:${PN} += "libatasmart-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatasmart.so.4()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatasmart.so.4 \
 libatasmart4 \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

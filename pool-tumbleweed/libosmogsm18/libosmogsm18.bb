@@ -14,17 +14,15 @@ PV = "1.8.0"
 RPM_NAME = "libosmogsm18-1.8.0-1.1.aarch64.rpm"
 RPM_HASH = "6917e8f216e29db71ddadd779063dec2129aac2562e6ad0407fa17527c70e8bf7c8c4d0b245f3cf31ddffe700445234b81b34063a1a44e208d22ea72cdab486d"
 
-RPROVIDES:${PN} += "libosmogsm.so.18()(64bit) \
-libosmogsm18 \
-libosmogsm18(aarch-64)"
+RPROVIDES:${PN} += "libosmogsm.so.18 \
+libosmogsm18"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libosmocore.so.20()(64bit) \
-libosmoisdn.so.0()(64bit) \
-libtalloc.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgnutls.so.30 \
+libosmocore.so.20 \
+libosmoisdn.so.0 \
+libtalloc.so.2"
 
 inherit rpm

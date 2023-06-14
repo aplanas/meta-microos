@@ -10,26 +10,26 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdbg-lang \
 kdbg-lang-all \
-locale(kdbg:cs) \
-locale(kdbg:da) \
-locale(kdbg:de) \
-locale(kdbg:es) \
-locale(kdbg:fr) \
-locale(kdbg:hr) \
-locale(kdbg:hu) \
-locale(kdbg:it) \
-locale(kdbg:ja) \
-locale(kdbg:nb) \
-locale(kdbg:nn) \
-locale(kdbg:pl) \
-locale(kdbg:pt) \
-locale(kdbg:ro) \
-locale(kdbg:ru) \
-locale(kdbg:sk) \
-locale(kdbg:sr) \
-locale(kdbg:sv) \
-locale(kdbg:tr) \
-locale(kdbg:zh_CN)"
+locale-kdbg-cs \
+locale-kdbg-da \
+locale-kdbg-de \
+locale-kdbg-es \
+locale-kdbg-fr \
+locale-kdbg-hr \
+locale-kdbg-hu \
+locale-kdbg-it \
+locale-kdbg-ja \
+locale-kdbg-nb \
+locale-kdbg-nn \
+locale-kdbg-pl \
+locale-kdbg-pt \
+locale-kdbg-ro \
+locale-kdbg-ru \
+locale-kdbg-sk \
+locale-kdbg-sr \
+locale-kdbg-sv \
+locale-kdbg-tr \
+locale-kdbg-zh-CN"
 
 RDEPENDS:${PN} += "kdbg"
 

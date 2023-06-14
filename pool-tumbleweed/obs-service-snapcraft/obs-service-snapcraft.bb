@@ -10,9 +10,9 @@ RPM_HASH = "ee2e5121ba98af48e901dc192494d8c0cb6bbddc8e00793c4d4e3f7f209db1490a71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-snapcraft \
-obs-service-tar_scm:/usr/lib/obs/service/snapcraft.service"
+obs-service-tar-scm-/usr/lib/obs/service/snapcraft.service"
 
 RDEPENDS:${PN} += "git-core \
-obs-service-obs_scm-common"
+obs-service-obs-scm-common"
 
 inherit rpm

@@ -15,9 +15,9 @@ RPM_NAME = "perl-Net-CIDR-0.21-1.10.noarch.rpm"
 RPM_HASH = "f60b86c80a9336a4e10b567932710b7c3dde488c692b13fb2dcdc2921ff25520d4672b223c0b9bebde79e7dcc285a8baa7dc47d4d3331d7964f9bbd69dce409b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::CIDR) \
+RPROVIDES:${PN} += "perl-Net--CIDR \
 perl-Net-CIDR"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

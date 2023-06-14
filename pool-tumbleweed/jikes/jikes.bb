@@ -33,13 +33,12 @@ PV = "1.22"
 RPM_NAME = "jikes-1.22-160.23.aarch64.rpm"
 RPM_HASH = "89441f87b05aaeca6baa87a344999e0a40ab50174f24808be681a6e05ab9f19aa85eb7f7159e018f71d753f6e59d521b66d417e3549f68fd1c09b8c01a247c74"
 
-RPROVIDES:${PN} += "jikes \
-jikes(aarch-64)"
+RPROVIDES:${PN} += "jikes"
 
 RDEPENDS:${PN} += "jre \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

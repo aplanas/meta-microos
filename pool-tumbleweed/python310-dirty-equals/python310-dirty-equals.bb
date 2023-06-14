@@ -9,11 +9,11 @@ RPM_HASH = "587b142cd75c1dd67da46d647d4576613fdc41422d15d5b0c9b835e854363afec671
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dirty-equals \
-python3.10dist(dirty-equals) \
+python3.10dist-dirty-equals \
 python310-dirty-equals \
-python3dist(dirty-equals)"
+python3dist-dirty-equals"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytz"
 
 inherit rpm

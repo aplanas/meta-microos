@@ -12,25 +12,20 @@ RPM_HASH = "bb642c85abf057c44b775481e4bcb309e24dbb245012ac655a192f94da591f957bf2
 
 RPROVIDES:${PN} += "libqcustomplot \
 libqcustomplot-2 \
-libqcustomplot.so.2()(64bit) \
+libqcustomplot.so.2 \
 libqcustomplot2 \
-libqcustomplot2(aarch-64) \
 qcustomplot \
 qcustomplot-qt5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

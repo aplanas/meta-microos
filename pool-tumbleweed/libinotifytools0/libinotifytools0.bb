@@ -8,12 +8,11 @@ PV = "3.22.6.0"
 RPM_NAME = "libinotifytools0-3.22.6.0-1.4.aarch64.rpm"
 RPM_HASH = "9c435d3dfcdb970c897e2f7f3b008c062b62e30f1c2f51db6df41cfdeaf24bc5c20511d345d268ae32eccd55000d018039927712701579320da2f9096471c610"
 
-RPROVIDES:${PN} += "libinotifytools.so.0()(64bit) \
-libinotifytools0 \
-libinotifytools0(aarch-64)"
+RPROVIDES:${PN} += "libinotifytools.so.0 \
+libinotifytools0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -13,8 +13,7 @@ PV = "5.1"
 RPM_NAME = "update-test-affects-package-manager-5.1-1.17.aarch64.rpm"
 RPM_HASH = "1b5c2fc6bc3f3335dcc5304a1e0569acb422e79b286f353bf8d8bc7ed92a181c1f3b2720b7b035b8a8add2c3c3b96582719f85c2ea2abff132ffabe43e48fc7a"
 
-RPROVIDES:${PN} += "update-test-affects-package-manager \
-update-test-affects-package-manager(aarch-64)"
+RPROVIDES:${PN} += "update-test-affects-package-manager"
 
 RDEPENDS:${PN} += ""
 

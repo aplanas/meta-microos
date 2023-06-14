@@ -11,45 +11,44 @@ RPM_HASH = "d3cd055e0c8cf0542e70ba07a24ff9323a224c87a53e92214863f318f45bf86af884
 
 RPROVIDES:${PN} += "gail \
 gtk2 \
-libgail.so()(64bit) \
-libgailutil.so.18()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgtk-2_0-0 \
-libgtk-2_0-0(aarch-64) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpixmap.so()(64bit) \
-libprintbackend-cups.so()(64bit) \
-libprintbackend-file.so()(64bit) \
-libprintbackend-lpr.so()(64bit)"
+libgail.so \
+libgailutil.so.18 \
+libgdk-x11-2.0.so.0 \
+libgtk-2-0-0 \
+libgtk-x11-2.0.so.0 \
+libpixmap.so \
+libprintbackend-cups.so \
+libprintbackend-file.so \
+libprintbackend-lpr.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gtk2-tools \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXcursor.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcups.so.2()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpangoft2-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXcursor.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libcups.so.2 \
+libfontconfig.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpangoft2-1.0.so.0"
 
 inherit rpm

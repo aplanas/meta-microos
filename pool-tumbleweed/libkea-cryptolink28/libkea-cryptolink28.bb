@@ -8,16 +8,15 @@ PV = "2.2.0"
 RPM_NAME = "libkea-cryptolink28-2.2.0-2.4.aarch64.rpm"
 RPM_HASH = "ae37e01255ba6fcc03993fa86557fc6fd8a6e4df124619d5a88888ee1f12433b13da6afaa3ff07d29e2786c3f9fec5b24406299c8e60b2c6ee8a4064efcebc66"
 
-RPROVIDES:${PN} += "libkea-cryptolink.so.28()(64bit) \
-libkea-cryptolink28 \
-libkea-cryptolink28(aarch-64)"
+RPROVIDES:${PN} += "libkea-cryptolink.so.28 \
+libkea-cryptolink28"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkea-exceptions.so.13()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libkea-exceptions.so.13 \
+libstdc++.so.6"
 
 inherit rpm

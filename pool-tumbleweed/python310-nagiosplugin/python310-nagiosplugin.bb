@@ -22,11 +22,11 @@ RPM_HASH = "b9fcf91d22744c0925c714178671892a5065983bf9efc99eaf2d8d3fb41f2400c66d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nagiosplugin \
-python3.10dist(nagiosplugin) \
+python3.10dist-nagiosplugin \
 python310-nagiosplugin \
-python3dist(nagiosplugin)"
+python3dist-nagiosplugin"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

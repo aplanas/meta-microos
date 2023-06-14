@@ -13,7 +13,7 @@ RPM_NAME = "texlive-dramatist-2023.201.1.2esvn35866-52.1.noarch.rpm"
 RPM_HASH = "6bae3e9667d67ed462d4440ee19aa3957910f5a57820becf2f2a24cc2c470b61f551c42cd890480b149eb19ad7bb19bc98a0d87390eba861a67f5857d1093215"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dramatist.sty) \
+RPROVIDES:${PN} += "tex-dramatist.sty \
 texlive-dramatist"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xspace.sty) \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

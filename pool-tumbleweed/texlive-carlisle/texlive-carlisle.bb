@@ -16,12 +16,12 @@ RPM_NAME = "texlive-carlisle-2023.201.svn59577-52.1.noarch.rpm"
 RPM_HASH = "24a082c4f6d4f96377190ac7194ab8aef2883e2ee792d9fe4d94766623a3bbd58129c4eb023af41159b1d7bbd2c69cb27bd33096ec3d437d39a9460f34f398b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dotlessj.sty) \
-tex(ltxtable.sty) \
-tex(plain.sty) \
-tex(remreset.sty) \
-tex(scalefnt.sty) \
-tex(slashed.sty) \
+RPROVIDES:${PN} += "tex-dotlessj.sty \
+tex-ltxtable.sty \
+tex-plain.sty \
+tex-remreset.sty \
+tex-scalefnt.sty \
+tex-slashed.sty \
 texlive-carlisle"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,9 +30,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(longtable.sty) \
-tex(tabularx.sty) \
+tex-color.sty \
+tex-longtable.sty \
+tex-tabularx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

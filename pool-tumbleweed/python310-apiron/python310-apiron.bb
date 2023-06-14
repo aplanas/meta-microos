@@ -11,11 +11,11 @@ RPM_HASH = "1fb57267c59408e5f758ba93b5a2182f2b804453bb3bd01622cb42214d423d1a8a9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-apiron \
-python3.10dist(apiron) \
+python3.10dist-apiron \
 python310-apiron \
-python3dist(apiron)"
+python3dist-apiron"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "d0904dbdcd0d5d5b22f256bb40808fa43c7fe5ebb39b1cbbda603ac04a2a45467551
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-quantum-blackbird \
-python3.10dist(quantum-blackbird) \
+python3.10dist-quantum-blackbird \
 python310-quantum-blackbird \
-python3dist(quantum-blackbird)"
+python3dist-quantum-blackbird"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-antlr4-python3-runtime \
 python310-networkx \
 python310-numpy \

@@ -14,13 +14,13 @@ RPM_HASH = "6ec98b398f9f6eeead42d1b270e31230b6b70e03e3f30d57cfbb3557eb4a70a5e9a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mitmproxy \
-python3.10dist(mitmproxy) \
+python3.10dist-mitmproxy \
 python310-mitmproxy \
-python3dist(mitmproxy)"
+python3dist-mitmproxy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Brotli \
 python310-Flask \
 python310-asgiref \

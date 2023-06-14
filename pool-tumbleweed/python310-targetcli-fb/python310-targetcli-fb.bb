@@ -16,15 +16,15 @@ RPM_HASH = "66efd99cfd58a6bf38c43366c7c9f4895d921fec267f8f56d057b76f9e1391957d8f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-targetcli-fb \
-python3.10dist(targetcli-fb) \
+python3.10dist-targetcli-fb \
 python310-targetcli-fb \
-python3dist(targetcli-fb) \
+python3dist-targetcli-fb \
 targetcli \
 targetcli-fb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-configshell-fb \
 python310-dbus-python \
 python310-rtslib-fb \

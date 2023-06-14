@@ -12,11 +12,11 @@ RPM_HASH = "3bf1c8b0e44d9a46b97e93dfa9748dcff909a485fc283a5814e96b806ded0f24e352
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytoolconfig \
-python3.10dist(pytoolconfig) \
+python3.10dist-pytoolconfig \
 python310-pytoolconfig \
-python3dist(pytoolconfig)"
+python3dist-pytoolconfig"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-packaging \
 python310-tomli"
 

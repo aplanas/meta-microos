@@ -8,8 +8,7 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "libradospp-devel-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "a124a2172ed254c3efa820d0b282ca2c7f6e83cffee8a560608fd60882d952ab8cdb381f85509b7cdad5aebcabfb8345fff5d74f8125c43113076ddf76888e71"
 
-RPROVIDES:${PN} += "libradospp-devel \
-libradospp-devel(aarch-64)"
+RPROVIDES:${PN} += "libradospp-devel"
 
 RDEPENDS:${PN} += "librados-devel \
 librados2"

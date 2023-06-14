@@ -12,34 +12,34 @@ RPM_NAME = "perl-Moose-Autobox-0.16-1.22.noarch.rpm"
 RPM_HASH = "68438db0682962a2f7ffe7d95016491c39f034da0db356ad70bd4ed25c6aeb1f15f581114ff807a0d2a974de5b3f354bee8ba9b869699eb3d5990e2f101f9f89"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Moose::Autobox) \
-perl(Moose::Autobox::Array) \
-perl(Moose::Autobox::Code) \
-perl(Moose::Autobox::Defined) \
-perl(Moose::Autobox::Hash) \
-perl(Moose::Autobox::Indexed) \
-perl(Moose::Autobox::Item) \
-perl(Moose::Autobox::List) \
-perl(Moose::Autobox::Number) \
-perl(Moose::Autobox::Ref) \
-perl(Moose::Autobox::Scalar) \
-perl(Moose::Autobox::String) \
-perl(Moose::Autobox::Undef) \
-perl(Moose::Autobox::Value) \
+RPROVIDES:${PN} += "perl-Moose--Autobox \
+perl-Moose--Autobox--Array \
+perl-Moose--Autobox--Code \
+perl-Moose--Autobox--Defined \
+perl-Moose--Autobox--Hash \
+perl-Moose--Autobox--Indexed \
+perl-Moose--Autobox--Item \
+perl-Moose--Autobox--List \
+perl-Moose--Autobox--Number \
+perl-Moose--Autobox--Ref \
+perl-Moose--Autobox--Scalar \
+perl-Moose--Autobox--String \
+perl-Moose--Autobox--Undef \
+perl-Moose--Autobox--Value \
 perl-Moose-Autobox"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(List::MoreUtils) \
-perl(Moose) \
-perl(Moose::Role) \
-perl(Moose::Util) \
-perl(Syntax::Keyword::Junction::All) \
-perl(Syntax::Keyword::Junction::Any) \
-perl(Syntax::Keyword::Junction::None) \
-perl(Syntax::Keyword::Junction::One) \
-perl(autobox) \
-perl(metaclass) \
-perl(namespace::autoclean) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-List--MoreUtils \
+perl-Moose \
+perl-Moose--Role \
+perl-Moose--Util \
+perl-Syntax--Keyword--Junction--All \
+perl-Syntax--Keyword--Junction--Any \
+perl-Syntax--Keyword--Junction--None \
+perl-Syntax--Keyword--Junction--One \
+perl-autobox \
+perl-metaclass \
+perl-namespace--autoclean \
+perl-parent"
 
 inherit rpm

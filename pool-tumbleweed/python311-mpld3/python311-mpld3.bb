@@ -14,11 +14,11 @@ RPM_NAME = "python311-mpld3-0.5.9-1.3.noarch.rpm"
 RPM_HASH = "3579c9770dc3c088241cc15cd7b88e4bc5358a9437aaf48f927f54b303ce3f17756b7a83cb886954628757c0d410eb58b797dc022606f9fb74d3b49615d8e858"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(mpld3) \
+RPROVIDES:${PN} += "python3.11dist-mpld3 \
 python311-mpld3 \
-python3dist(mpld3)"
+python3dist-mpld3"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Jinja2 \
 python311-matplotlib"
 

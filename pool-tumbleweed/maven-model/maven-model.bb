@@ -9,19 +9,19 @@ RPM_HASH = "05ca62c6538916fef0631ef775c586b0185770948c56e3d9fd41fe939b8458829a13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-model \
-mvn(org.apache.maven:maven-model:2.0.2) \
-mvn(org.apache.maven:maven-model:2.0.6) \
-mvn(org.apache.maven:maven-model:2.0.7) \
-mvn(org.apache.maven:maven-model:2.0.8) \
-mvn(org.apache.maven:maven-model:2.2.1) \
-mvn(org.apache.maven:maven-model:pom:2.0.2) \
-mvn(org.apache.maven:maven-model:pom:2.0.6) \
-mvn(org.apache.maven:maven-model:pom:2.0.7) \
-mvn(org.apache.maven:maven-model:pom:2.0.8) \
-mvn(org.apache.maven:maven-model:pom:2.2.1)"
+mvn-org.apache.maven-maven-model-2.0.2 \
+mvn-org.apache.maven-maven-model-2.0.6 \
+mvn-org.apache.maven-maven-model-2.0.7 \
+mvn-org.apache.maven-maven-model-2.0.8 \
+mvn-org.apache.maven-maven-model-2.2.1 \
+mvn-org.apache.maven-maven-model-pom-2.0.2 \
+mvn-org.apache.maven-maven-model-pom-2.0.6 \
+mvn-org.apache.maven-maven-model-pom-2.0.7 \
+mvn-org.apache.maven-maven-model-pom-2.0.8 \
+mvn-org.apache.maven-maven-model-pom-2.2.1"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

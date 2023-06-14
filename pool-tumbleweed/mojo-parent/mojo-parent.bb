@@ -9,11 +9,11 @@ RPM_HASH = "a43aaafca9d58ab807844d1889220f0bb39eca15ac1be973d8af89bf4e10cd695b12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mojo-parent \
-mvn(org.codehaus.mojo:mojo-parent:pom:) \
-mvn(org.codehaus.mojo:mojo:pom:)"
+mvn-org.codehaus.mojo-mojo-parent-pom- \
+mvn-org.codehaus.mojo-mojo-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.junit:junit-bom:pom:)"
+mvn-org.junit-junit-bom-pom-"
 
 inherit rpm

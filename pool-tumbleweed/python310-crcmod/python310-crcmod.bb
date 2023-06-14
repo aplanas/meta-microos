@@ -19,13 +19,12 @@ RPM_NAME = "python310-crcmod-1.7-8.4.aarch64.rpm"
 RPM_HASH = "6cf3451846e7070f11a893d982c1ce56d7ff101da75e0ad3b6a7084e0531e9958dfdaf363fd5ce488a7fd083bc8b45a0f34fc673211b76ab52477b58d4973051"
 
 RPROVIDES:${PN} += "python3-crcmod \
-python3.10dist(crcmod) \
+python3.10dist-crcmod \
 python310-crcmod \
-python310-crcmod(aarch-64) \
-python3dist(crcmod)"
+python3dist-crcmod"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

@@ -12,9 +12,9 @@ RPM_HASH = "e1e51df4ed140ae344bfcb2db1d9b09b2955acbae9d64d80a8f8408a74f0326d69fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jettison \
-mvn(org.codehaus.jettison:jettison) \
-mvn(org.codehaus.jettison:jettison:pom:) \
-osgi(org.codehaus.jettison.jettison)"
+mvn-org.codehaus.jettison-jettison \
+mvn-org.codehaus.jettison-jettison-pom- \
+osgi-org.codehaus.jettison.jettison"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

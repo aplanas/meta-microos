@@ -22,29 +22,26 @@ fcitx-table-cn-wubi \
 fcitx-table-cn-wubi-pinyin \
 fcitx-table-cn-ziran \
 fcitx5-chinese-addons \
-fcitx5-chinese-addons(aarch-64) \
-libchttrans.so()(64bit) \
-libcloudpinyin.so()(64bit) \
-libfullwidth.so()(64bit) \
-libpinyin.so()(64bit) \
-libpinyinhelper.so()(64bit) \
-libpunctuation.so()(64bit) \
-libtable.so()(64bit) \
-metainfo() \
-metainfo(org.fcitx.Fcitx5.Addon.ChineseAddons.metainfo.xml)"
+libchttrans.so \
+libcloudpinyin.so \
+libfullwidth.so \
+libpinyin.so \
+libpinyinhelper.so \
+libpunctuation.so \
+libtable.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libFcitx5Config.so.6()(64bit) \
-libFcitx5Core.so.7()(64bit) \
-libFcitx5Utils.so.2()(64bit) \
-libIMECore.so.0()(64bit) \
-libIMEPinyin.so.0()(64bit) \
-libIMETable.so.0()(64bit) \
-libboost_iostreams.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libopencc.so.1.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFcitx5Config.so.6 \
+libFcitx5Core.so.7 \
+libFcitx5Utils.so.2 \
+libIMECore.so.0 \
+libIMEPinyin.so.0 \
+libIMETable.so.0 \
+libboost-iostreams.so.1.82.0 \
+libc.so.6 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libopencc.so.1.1 \
+libstdc++.so.6"
 
 inherit rpm

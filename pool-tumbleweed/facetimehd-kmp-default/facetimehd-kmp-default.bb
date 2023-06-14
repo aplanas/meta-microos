@@ -9,10 +9,9 @@ RPM_HASH = "d4d1e683a2553e7c810044a812290b4562663054dbea1ee0c3d1576e03a9ad21031a
 
 RPROVIDES:${PN} += "facetimehd-kmp \
 facetimehd-kmp-default \
-facetimehd-kmp-default(aarch-64) \
-facetimehd-kmp-default-k6.3.4_1 \
-kmod(facetimehd.ko) \
-multiversion(kernel)"
+facetimehd-kmp-default-k6.3.4-1 \
+kmod-facetimehd.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

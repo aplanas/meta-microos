@@ -11,12 +11,11 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_hl_1_12_2-gnu-openmpi1-hpc-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "27375b834466a43c3ba873161a807eb1cc92520689815c4dbbf6b87d1c50eccbf2c0dc5675d23343606a73b423b014a9a17e7f7afc2c5dff52d5925ee1c12606"
 
-RPROVIDES:${PN} += "libhdf5_hl_1_12_2-gnu-openmpi1-hpc \
-libhdf5_hl_1_12_2-gnu-openmpi1-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-hl-1-12-2-gnu-openmpi1-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-hdf5_1_12_2-gnu-openmpi1-hpc-module \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+hdf5-1-12-2-gnu-openmpi1-hpc-module \
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

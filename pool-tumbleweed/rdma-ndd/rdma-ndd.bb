@@ -9,16 +9,13 @@ PV = "45.0"
 RPM_NAME = "rdma-ndd-45.0-1.1.aarch64.rpm"
 RPM_HASH = "6ed67dd6bd236e5a9693ba73a55b26f36ba0765578f481563fe23529ea69e9cdac01de4e301a7ab95d0e2626b8c4f158a157d8cca4c8450ac19ed80373722bc6"
 
-RPROVIDES:${PN} += "rdma-ndd \
-rdma-ndd(aarch-64)"
+RPROVIDES:${PN} += "rdma-ndd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsystemd.so.0 \
+libudev.so.1 \
 rdma-core \
 systemd"
 

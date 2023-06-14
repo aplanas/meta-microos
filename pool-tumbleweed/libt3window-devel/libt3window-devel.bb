@@ -14,12 +14,11 @@ RPM_NAME = "libt3window-devel-0.4.1-1.5.aarch64.rpm"
 RPM_HASH = "c377221e6f1e11a92870a6ae37376e7d811a9dd50b54010820107986b1bf16d975e2546b03956dbae36d0db53e77b2031d0d2615ac5b50e4e1922966921897f5"
 
 RPROVIDES:${PN} += "libt3window-devel \
-libt3window-devel(aarch-64) \
-pkgconfig(libt3window)"
+pkgconfig-libt3window"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libt3window0 \
-pkgconfig(libtranscript) \
-pkgconfig(tinfo)"
+pkgconfig-libtranscript \
+pkgconfig-tinfo"
 
 inherit rpm

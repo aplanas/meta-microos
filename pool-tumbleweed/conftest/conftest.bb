@@ -7,9 +7,8 @@ PV = "0.42.1"
 RPM_NAME = "conftest-0.42.1-1.1.aarch64.rpm"
 RPM_HASH = "bbe4dc8c9d92830305cdcf645ae021cbe836c43d23165ad11e4e4271d5136f5d9c0715c5eb5d1a86c0ef115095660a13b8effa58cd079c0ca3e825fb9aa7df41"
 
-RPROVIDES:${PN} += "conftest \
-conftest(aarch-64)"
+RPROVIDES:${PN} += "conftest"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

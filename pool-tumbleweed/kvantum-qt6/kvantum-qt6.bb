@@ -13,22 +13,17 @@ RPM_NAME = "kvantum-qt6-1.0.10-1.1.aarch64.rpm"
 RPM_HASH = "13dcae2cc18e3f0cc619daf0f4e5d1ba4347979addb09bd8a8667a753b0e1244f53f632e5be069cd761a57754c89806f887baf926a05f9fb34de86a3e304d035"
 
 RPROVIDES:${PN} += "kvantum-qt6 \
-kvantum-qt6(aarch-64) \
-libkvantum.so()(64bit)"
+libkvantum.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Svg.so.6()(64bit) \
-libQt6Svg.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -15,8 +15,8 @@ RPM_HASH = "4fe99a28c36471ce4a5c76843d2cc976475e7694f97234600de61dd2462daebe807d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aopalliance \
-mvn(aopalliance:aopalliance) \
-osgi(aopalliance)"
+mvn-aopalliance-aopalliance \
+osgi-aopalliance"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

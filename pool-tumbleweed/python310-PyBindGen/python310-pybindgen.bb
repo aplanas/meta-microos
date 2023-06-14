@@ -9,10 +9,10 @@ RPM_HASH = "b0799b466a903e5dc37286eb8858ccf7b7be81d1f2932f36b9003a878444bfe73a66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyBindGen \
-python3.10dist(pybindgen) \
+python3.10dist-pybindgen \
 python310-PyBindGen \
-python3dist(pybindgen)"
+python3dist-pybindgen"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

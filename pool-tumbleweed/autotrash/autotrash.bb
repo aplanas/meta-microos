@@ -11,11 +11,11 @@ RPM_HASH = "c0d495eaa0fa3448608cde14e2ff4b0312f46294e0aa675bcf1d09e6544fe5b79457
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autotrash \
-python3.10dist(autotrash) \
-python3dist(autotrash)"
+python3.10dist-autotrash \
+python3dist-autotrash"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

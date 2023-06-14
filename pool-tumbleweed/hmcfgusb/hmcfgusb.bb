@@ -11,16 +11,15 @@ PV = "0.103+git23.g7157286"
 RPM_NAME = "hmcfgusb-0.103+git23.g7157286-1.2.aarch64.rpm"
 RPM_HASH = "5f3b817b4a71f3fa2c0b6037ac32fa4c0db9d99e4046f7a0dc29e5ada339717c5868e69ceff40703a6dcea5cdc87714daccb7737603e99cf94739bbf964c3326"
 
-RPROVIDES:${PN} += "config(hmcfgusb) \
-hmcfgusb \
-hmcfgusb(aarch-64)"
+RPROVIDES:${PN} += "config-hmcfgusb \
+hmcfgusb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-libc.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
+libc.so.6 \
+libusb-1.0.so.0 \
 logrotate"
 
 inherit rpm

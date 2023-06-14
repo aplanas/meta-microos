@@ -13,19 +13,18 @@ PV = "4.0.3"
 RPM_NAME = "python310-line_profiler-4.0.3-1.2.aarch64.rpm"
 RPM_HASH = "10b7a4f7f810cec2dcdc8ed6ebc26176998ec97dc1467847ca6c922c8eda0d158874029300afcab4b50898fb28a4688ca7dc1eb7780b8c81840e89bfd967f320"
 
-RPROVIDES:${PN} += "python3-line_profiler \
-python3.10dist(line-profiler) \
-python310-line_profiler \
-python310-line_profiler(aarch-64) \
-python3dist(line-profiler)"
+RPROVIDES:${PN} += "python3-line-profiler \
+python3.10dist-line-profiler \
+python310-line-profiler \
+python3dist-line-profiler"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python310-ipython \
 update-alternatives"
 

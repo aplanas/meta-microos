@@ -10,9 +10,9 @@ RPM_HASH = "a1132246af80a8581dd5ac90347d9852a23a02c2207de0572311cba3f1e66ec0ba61
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-rpm-macros-extra \
-rpm_macro(ghc_lib_subpackage) \
-rpm_macro(ghc_libs_build) \
-rpm_macro(ghc_libs_install)"
+rpm-macro-ghc-lib-subpackage \
+rpm-macro-ghc-libs-build \
+rpm-macro-ghc-libs-install"
 
 RDEPENDS:${PN} += "ghc-rpm-macros"
 

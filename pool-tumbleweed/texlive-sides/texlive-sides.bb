@@ -11,7 +11,7 @@ RPM_NAME = "texlive-sides-2023.201.svn15878-53.1.noarch.rpm"
 RPM_HASH = "aabbb820b3c3098d4d790aa95519bf268295de85c61570dd370aa76706f9f2588d078656f31d298e7a464bac2a2279b6c2a4e5460ed729eaea5111430179edc6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sides.cls) \
+RPROVIDES:${PN} += "tex-sides.cls \
 texlive-sides"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(report.cls) \
+tex-report.cls \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -20,10 +20,10 @@ RPM_NAME = "python311-jsonref-0.2-1.14.noarch.rpm"
 RPM_HASH = "020572e0a78376730852787211313aa1ac0964538f6c54931cf36f67f70fb253afcf950dc8b642bb4d4e7723273c60e32baeac0a05882a4883a5c5a3c2d2f65f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jsonref) \
+RPROVIDES:${PN} += "python3.11dist-jsonref \
 python311-jsonref \
-python3dist(jsonref)"
+python3dist-jsonref"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -12,13 +12,13 @@ RPM_NAME = "python38-gwdatafind-1.1.3-1.1.noarch.rpm"
 RPM_HASH = "1af6f913771fa74b3823bd4327d6e83086d6ea19cabc175f784dabc8ca022db35333ed0dc34f2cff0315a099efb170581ab2eeeb04c952e03fa0b06d43888558"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.8dist(gwdatafind) \
+RPROVIDES:${PN} += "python3.8dist-gwdatafind \
 python38-gwdatafind \
-python3dist(gwdatafind)"
+python3dist-gwdatafind"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.8 \
-python(abi) \
+python-abi \
 python38-igwn-auth-utils-requests \
 python38-ligo-segments \
 update-alternatives"

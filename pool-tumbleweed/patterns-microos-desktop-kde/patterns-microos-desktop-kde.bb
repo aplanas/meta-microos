@@ -7,18 +7,17 @@ PV = "5.0"
 RPM_NAME = "patterns-microos-desktop-kde-5.0-70.1.aarch64.rpm"
 RPM_HASH = "32b86039a81c83d5a228bbe8cb7902bcaa40375ecf77628f57ea6fdd449f1e6a82fe48022bb67930c4cd2111c9becb1f70b8d3a3fbb7011a3d591dcd1d6050f9"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-pattern-visible() \
-patterns-microos-desktop-kde \
-patterns-microos-desktop-kde(aarch-64)"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+pattern-visible- \
+patterns-microos-desktop-kde"
 
-RDEPENDS:${PN} += "(gtk2-metatheme-breeze if gtk2) \
-(gtk3-metatheme-breeze if gtk3) \
-(gtk4-metatheme-breeze if gtk4) \
-(power-profiles-daemon or tlp) \
+RDEPENDS:${PN} += "-gtk2-metatheme-breeze if gtk2 \
+-gtk3-metatheme-breeze if gtk3 \
+-gtk4-metatheme-breeze if gtk4 \
+-power-profiles-daemon or tlp \
 NetworkManager-openvpn \
 baloo5-file \
 bluedevil5 \
@@ -31,8 +30,8 @@ ffmpegthumbs \
 google-noto-coloremoji-fonts \
 google-noto-sans-cjk-fonts \
 kate \
-kcm_flatpak \
-kcm_sddm \
+kcm-flatpak \
+kcm-sddm \
 kde-gtk-config5 \
 kde-gtk-config5-gtk3 \
 kde-print-manager \
@@ -48,7 +47,7 @@ libqt5-qtimageformats \
 noto-sans-math-fonts \
 openvpn-auth-pam-plugin \
 oxygen5-sounds \
-pattern() \
+pattern- \
 phonon4qt5-backend-gstreamer \
 pinentry-qt5 \
 plasma-branding-MicroOS \

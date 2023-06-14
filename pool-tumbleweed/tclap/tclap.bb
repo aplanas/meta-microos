@@ -15,9 +15,8 @@ RPM_HASH = "75d0096fbe62a959fc9ed75d82ad060f66a8a44a1715474bce586179939fc8b7dd64
 
 RPROVIDES:${PN} += "libtclap \
 libtclap-devel \
-pkgconfig(tclap) \
-tclap \
-tclap(aarch-64)"
+pkgconfig-tclap \
+tclap"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

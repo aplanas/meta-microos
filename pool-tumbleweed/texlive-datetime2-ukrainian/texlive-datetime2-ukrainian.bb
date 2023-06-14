@@ -9,9 +9,9 @@ RPM_NAME = "texlive-datetime2-ukrainian-2023.201.1.2asvn47552-52.1.noarch.rpm"
 RPM_HASH = "04213650b80e06cd7d4a1a65ab47ee652ed1c60a9b2aba9c1bac79675749d548e25d1fb279751c2a6098933bc86c11de3f9bc01b481b4a40616d9a3e90497982"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-ukrainian-ascii.ldf) \
-tex(datetime2-ukrainian-utf8.ldf) \
-tex(datetime2-ukrainian.ldf) \
+RPROVIDES:${PN} += "tex-datetime2-ukrainian-ascii.ldf \
+tex-datetime2-ukrainian-utf8.ldf \
+tex-datetime2-ukrainian.ldf \
 texlive-datetime2-ukrainian"
 
 RDEPENDS:${PN} += "/bin/sh \

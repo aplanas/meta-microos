@@ -12,11 +12,11 @@ RPM_HASH = "615c0851234c428a9ad946415689d0a81d07fef713e0f86f833721d5393e0a2e4839
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-WTForms \
-python3.10dist(wtforms) \
+python3.10dist-wtforms \
 python310-WTForms \
-python3dist(wtforms)"
+python3dist-wtforms"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-MarkupSafe \
 python310-email-validator"
 

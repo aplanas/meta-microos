@@ -18,17 +18,16 @@ RPM_NAME = "coolkey-1.1.0-152.5.aarch64.rpm"
 RPM_HASH = "420104b29837722292d2a5d47d9a289460f94e27f0df51412fa27e52a5ad9ed5e3c1004ef3666986a0c8033a21a12303da992c633602c0d07cf9f8119c350dd5"
 
 RPROVIDES:${PN} += "coolkey \
-coolkey(aarch-64) \
-libckyapplet.so.1()(64bit) \
-libcoolkeypk11.so()(64bit)"
+libckyapplet.so.1 \
+libcoolkeypk11.so"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsoftokn3.so()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsoftokn3.so \
+libstdc++.so.6 \
+libz.so.1 \
 pcsc-ccid"
 
 inherit rpm

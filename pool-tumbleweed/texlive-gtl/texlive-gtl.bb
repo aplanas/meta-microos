@@ -13,7 +13,7 @@ RPM_NAME = "texlive-gtl-2023.201.0.0.5svn49527-53.1.noarch.rpm"
 RPM_HASH = "92996c766fcce5f93e9578e316b61b57c7d4ab7cbcbb694636a2402e0a5809d6cdd5b7eef69fecfd03f0120ef24dbbf019c8940632aca53b6e01687786352108"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gtl.sty) \
+RPROVIDES:${PN} += "tex-gtl.sty \
 texlive-gtl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3-generic.tex) \
-tex(expl3.sty) \
+tex-expl3-generic.tex \
+tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

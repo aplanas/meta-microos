@@ -24,16 +24,15 @@ PV = "1.6.2"
 RPM_NAME = "perl-OSSP-uuid-1.6.2-19.45.aarch64.rpm"
 RPM_HASH = "1ad7964137b2db8e276fda605f1301250a0444e4318dd379b568b3089c2abe5a309d243562edc9bec36c107f1bf4064da950d583f241b518cc871102553255b8"
 
-RPROVIDES:${PN} += "perl(Data::UUID) \
-perl(OSSP::uuid) \
-perl(OSSP::uuid::tie) \
+RPROVIDES:${PN} += "perl-Data--UUID \
 perl-Data-UUID \
-perl-OSSP-uuid \
-perl-OSSP-uuid(aarch-64)"
+perl-OSSP--uuid \
+perl-OSSP--uuid--tie \
+perl-OSSP-uuid"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libossp-uuid.so.16()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libossp-uuid.so.16 \
 perl-base"
 
 inherit rpm

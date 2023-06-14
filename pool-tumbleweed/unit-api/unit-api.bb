@@ -19,9 +19,9 @@ RPM_NAME = "unit-api-1.0-1.18.noarch.rpm"
 RPM_HASH = "530e08571c75a565ea3dd588ee974f77e06ffc28652bb098bfeab82dc4121d4b7bd5ce2f38386c0e828f8a442e439c783addcbd025b58b01af5faef6e63101e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(javax.measure:unit-api) \
-mvn(javax.measure:unit-api:pom:) \
-osgi(javax.measure.unit-api) \
+RPROVIDES:${PN} += "mvn-javax.measure-unit-api \
+mvn-javax.measure-unit-api-pom- \
+osgi-javax.measure.unit-api \
 unit-api"
 
 RDEPENDS:${PN} += "java-headless \

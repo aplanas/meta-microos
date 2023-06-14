@@ -51,9 +51,9 @@ RPM_NAME = "perl-Hook-LexWrap-0.26-1.23.noarch.rpm"
 RPM_HASH = "dab73c09f11e5fcc57ee8353d8e40253d22c928cadc3a67dcafd62b8172edf29f8b428fce628b86f2da4e74347a6c1d148cb8e12865e7eb2e0614d7cc2f67f73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Hook::LexWrap) \
+RPROVIDES:${PN} += "perl-Hook--LexWrap \
 perl-Hook-LexWrap"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

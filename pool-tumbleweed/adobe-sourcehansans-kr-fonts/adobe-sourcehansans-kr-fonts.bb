@@ -9,7 +9,7 @@ RPM_HASH = "80cd34ce49bf52357fd22794c80d361028a0040791497a85cdde079c637464cb3b62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehansans-kr-fonts \
-locale(kr) \
+locale-kr \
 scalable-font-kr"
 
 RDEPENDS:${PN} += "/bin/sh"

@@ -19,7 +19,7 @@ RPM_NAME = "texlive-combinedgraphics-2023.201.0.0.2.2svn27198-53.1.noarch.rpm"
 RPM_HASH = "b2bf18cf5902cd14fc7a3dc0a175a29edef585623d2fb6ad4383df8a3abf6672ff71fa9b460ff89c46436795fd9502b75443ce9170931cda83b39044e872f268"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(combinedgraphics.sty) \
+RPROVIDES:${PN} += "tex-combinedgraphics.sty \
 texlive-combinedgraphics"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,10 +28,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.cfg) \
-tex(color.sty) \
-tex(graphicx.sty) \
-tex(keyval.sty) \
+tex-color.cfg \
+tex-color.sty \
+tex-graphicx.sty \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

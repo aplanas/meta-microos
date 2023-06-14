@@ -11,10 +11,10 @@ RPM_NAME = "python39-ntplib-0.4.0-1.3.noarch.rpm"
 RPM_HASH = "f63170e3506cfedefcfe7a40b80fc5094e9f0245713ee443d221f7c19fba597eb35aa7f986584042d5db1baf9a5c622f228b324bfe3cc2f8932dc3940a1184a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ntplib) \
+RPROVIDES:${PN} += "python3.9dist-ntplib \
 python39-ntplib \
-python3dist(ntplib)"
+python3dist-ntplib"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

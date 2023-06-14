@@ -14,15 +14,15 @@ RPM_HASH = "c4050357a8f111fd5f78dab97c625c024b9b5136c87faddfd4366982918b505c87af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-behave \
-python3.10dist(behave) \
+python3.10dist-behave \
 python310-behave \
-python3dist(behave)"
+python3dist-behave"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-parse \
-python310-parse_type \
+python310-parse-type \
 python310-six \
 update-alternatives"
 

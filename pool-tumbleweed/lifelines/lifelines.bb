@@ -9,15 +9,14 @@ PV = "3.1.1+3ad4571"
 RPM_NAME = "lifelines-3.1.1+3ad4571-3.13.aarch64.rpm"
 RPM_HASH = "d00bfbe721a74bf57266d8882cfbacc7979ea938d627a3bde0f25fb534c4ef2b8e3d14824590580fa1934ffe996e462ffb940b1b3caa6ecdf2808a69b91fa0f7"
 
-RPROVIDES:${PN} += "config(lifelines) \
-lifelines \
-lifelines(aarch-64)"
+RPROVIDES:${PN} += "config-lifelines \
+lifelines"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

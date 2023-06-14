@@ -9,9 +9,9 @@ RPM_HASH = "9c2b7838ae67f4ca1861274f7c3076dff76a77dbc2c8dceaa6d45cb811371dcb0c79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-scr \
-mvn(org.apache.felix:org.apache.felix.scr) \
-mvn(org.apache.felix:org.apache.felix.scr:pom:) \
-osgi(org.apache.felix.scr)"
+mvn-org.apache.felix-org.apache.felix.scr \
+mvn-org.apache.felix-org.apache.felix.scr-pom- \
+osgi-org.apache.felix.scr"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

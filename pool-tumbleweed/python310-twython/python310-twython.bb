@@ -26,11 +26,11 @@ RPM_HASH = "ff7b3c5a1853f049d526183b56e00d327f7f5e59c13c962da8a27752f5d453a39d68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-twython \
-python3.10dist(twython) \
+python3.10dist-twython \
 python310-twython \
-python3dist(twython)"
+python3dist-twython"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-requests-oauthlib"
 

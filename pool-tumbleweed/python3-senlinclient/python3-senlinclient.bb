@@ -14,10 +14,10 @@ RPM_HASH = "17bbf7104b0684ec2dd334ce8944aed5b69906dc7bd672e5613efa1dbe504243c728
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-senlinclient \
-python3.10dist(python-senlinclient) \
-python3dist(python-senlinclient)"
+python3.10dist-python-senlinclient \
+python3dist-python-senlinclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-PrettyTable \
 python3-PyYAML \
 python3-heatclient \

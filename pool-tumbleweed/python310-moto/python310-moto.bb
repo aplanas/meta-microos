@@ -9,14 +9,14 @@ RPM_HASH = "12d63b8db2377db294e13ac663f79d16f33f6b1c526b4629951bf4d16852808f1257
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-moto \
-python3.10dist(moto) \
+python3.10dist-moto \
 python310-moto \
-python3dist(moto)"
+python3dist-moto"
 
-RDEPENDS:${PN} += "(python310-python-dateutil >= 2.1 with python310-python-dateutil < 3) \
+RDEPENDS:${PN} += "-python310-python-dateutil >= 2.1 with python310-python-dateutil < 3 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-Werkzeug \
 python310-boto3 \

@@ -13,11 +13,11 @@ RPM_HASH = "452bda8067e6463068cca1ef104e609401b896d2b662a404be16af0879da0b48fff6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpuset \
-python3.10dist(cpuset) \
-python3dist(cpuset)"
+python3.10dist-cpuset \
+python3dist-cpuset"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-future"
 
 inherit rpm

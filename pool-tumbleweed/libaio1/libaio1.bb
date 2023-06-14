@@ -13,12 +13,11 @@ RPM_NAME = "libaio1-0.3.113-3.1.aarch64.rpm"
 RPM_HASH = "bd897346140137aee1d99550e3cb141dfe5d467f3318225a765ef002efd54a0ad88d9a32ef8d13cb1eb995e754a57dedfb8493e5cf753018649f6e5d9cc3570b"
 
 RPROVIDES:${PN} += "libaio \
-libaio.so.1()(64bit) \
-libaio1 \
-libaio1(aarch-64)"
+libaio.so.1 \
+libaio1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

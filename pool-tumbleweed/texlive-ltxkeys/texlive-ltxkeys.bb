@@ -17,7 +17,7 @@ RPM_NAME = "texlive-ltxkeys-2023.201.0.0.0.3csvn28332-52.1.noarch.rpm"
 RPM_HASH = "811b3d9f2a0c1fe30cec2c20e1d417cb7bad3645dc60870ce00982fec7efe493999b503d4330d8debfe9c092e4cbd03f4f5aaf7537fc29717768b90314fca0b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ltxkeys.sty) \
+RPROVIDES:${PN} += "tex-ltxkeys.sty \
 texlive-ltxkeys"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(catoptions.sty) \
+tex-catoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

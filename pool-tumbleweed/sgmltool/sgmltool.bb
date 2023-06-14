@@ -20,23 +20,22 @@ PV = "1.0.9"
 RPM_NAME = "sgmltool-1.0.9-1077.22.aarch64.rpm"
 RPM_HASH = "1029132194ed6b6976d1d55c18745272e02b7e73bdcbea753c0dd580d0d9f038cb3aea976d4ce04b4d434595829cc4fd03cd961802c0bd099add647977e99b4e"
 
-RPROVIDES:${PN} += "perl(SGMLTools) \
-perl(SGMLTools::BackEnd) \
-perl(SGMLTools::CharEnts) \
-perl(SGMLTools::FixRef) \
-perl(SGMLTools::Html2Html) \
-perl(SGMLTools::Lang) \
-perl(SGMLTools::Utils) \
-perl(SGMLTools::Vars) \
-perl(Text::EntityMap) \
-perl(Text::EntityMapGroup) \
+RPROVIDES:${PN} += "perl-SGMLTools \
+perl-SGMLTools--BackEnd \
+perl-SGMLTools--CharEnts \
+perl-SGMLTools--FixRef \
+perl-SGMLTools--Html2Html \
+perl-SGMLTools--Lang \
+perl-SGMLTools--Utils \
+perl-SGMLTools--Vars \
+perl-Text--EntityMap \
+perl-Text--EntityMapGroup \
 sgml-tools \
-sgmltool \
-sgmltool(aarch-64)"
+sgmltool"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libc.so.6()(64bit) \
-libfl.so.2()(64bit) \
+libc.so.6 \
+libfl.so.2 \
 opensp \
 perl"
 

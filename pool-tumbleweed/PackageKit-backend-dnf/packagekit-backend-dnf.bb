@@ -13,19 +13,18 @@ RPM_HASH = "557d4d2abd40cd8370ab2326358ae6e3f1cb684866455d1622c4887af94f3e831020
 
 RPROVIDES:${PN} += "PackageKit-backend \
 PackageKit-backend-dnf \
-PackageKit-backend-dnf(aarch-64) \
-libpk_backend_dnf.so()(64bit)"
+libpk-backend-dnf.so"
 
 RDEPENDS:${PN} += "PackageKit \
-ld-linux-aarch64.so.1()(64bit) \
-libappstream-glib.so.8()(64bit) \
-libc.so.6()(64bit) \
-libdnf.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libappstream-glib.so.8 \
+libc.so.6 \
+libdnf.so.2 \
 libdnf2 \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libpackagekit-glib2.so.18()(64bit) \
-librpmio.so.9()(64bit)"
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libpackagekit-glib2.so.18 \
+librpmio.so.9"
 
 inherit rpm

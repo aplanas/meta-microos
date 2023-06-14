@@ -9,11 +9,11 @@ RPM_HASH = "0b1057983d12bdac120db983d527b721dca6fa5b97bb3f00de95be7590eb2573fffe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-devpi-common \
-python3.10dist(devpi-common) \
+python3.10dist-devpi-common \
 python310-devpi-common \
-python3dist(devpi-common)"
+python3dist-devpi-common"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-packaging \
 python310-py \
 python310-requests"

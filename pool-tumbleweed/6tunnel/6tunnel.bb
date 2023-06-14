@@ -11,10 +11,9 @@ PV = "0.13"
 RPM_NAME = "6tunnel-0.13-2.2.aarch64.rpm"
 RPM_HASH = "be45631876eddf276e1ac42d48bb83366eaf4387c6d9a2084306419de5ccbe751e2e69dea3667cd4f4dbd8e61d9f1384a68389e990d9df4f9149eceb43f73ea7"
 
-RPROVIDES:${PN} += "6tunnel \
-6tunnel(aarch-64)"
+RPROVIDES:${PN} += "6tunnel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

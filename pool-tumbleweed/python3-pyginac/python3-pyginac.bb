@@ -9,17 +9,16 @@ PV = "1.5.5"
 RPM_NAME = "python3-pyginac-1.5.5-2.23.aarch64.rpm"
 RPM_HASH = "5b842296c87495f358256b2378f253e7372f97fd9cd5574e33619d2ab81c92bc45114815150d4ae1428263b6674ae066f0210bb04bf55d1ab73dcf6d439b0076"
 
-RPROVIDES:${PN} += "python3-pyginac \
-python3-pyginac(aarch-64)"
+RPROVIDES:${PN} += "python3-pyginac"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libboost_python-py3.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcln.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libginac.so.11()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libboost-python-py3.so.1.82.0 \
+libc.so.6 \
+libcln.so.6 \
+libgcc-s.so.1 \
+libginac.so.11 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

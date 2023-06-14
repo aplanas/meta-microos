@@ -18,11 +18,10 @@ PV = "0.2.4"
 RPM_NAME = "weggli-0.2.4-2.3.aarch64.rpm"
 RPM_HASH = "c9c54bb5bdb537f9b561f87c1110ee3fc35f330b84d5ed57874616287ca513222f35997783c941c3f4935b32b9183963c2a430f22e0a1b144739cd6ea1e96167"
 
-RPROVIDES:${PN} += "weggli \
-weggli(aarch-64)"
+RPROVIDES:${PN} += "weggli"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

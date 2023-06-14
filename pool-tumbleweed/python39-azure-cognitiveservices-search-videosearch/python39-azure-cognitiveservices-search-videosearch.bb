@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-cognitiveservices-search-videosearch-2.0.0-2.11.noarc
 RPM_HASH = "8e931f744666e3b69b8556d11065b042915a3dbfd09e1c528504f7c70e3072aeaf6f902dd883020dd13c46dbb32c54029e031a5ec3697c5ddb61fbfd461e2ab5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-search-videosearch) \
+RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-search-videosearch \
 python39-azure-cognitiveservices-search-videosearch \
-python3dist(azure-cognitiveservices-search-videosearch)"
+python3dist-azure-cognitiveservices-search-videosearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-cognitiveservices-nspkg \
 python39-azure-cognitiveservices-search-nspkg \
 python39-azure-common \

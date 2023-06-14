@@ -16,15 +16,14 @@ PV = "1.0.2"
 RPM_NAME = "libdirac_encoder0-1.0.2-33.27.aarch64.rpm"
 RPM_HASH = "700fb32abf8321c8fb8e29b6defaf2ec5c72ad2ef2d9104f2d52c81351e4a8e15d7d69c39d4bdd1104c9ad0e736f5a3106c0933be00c274901ca5c8aa4b7a157"
 
-RPROVIDES:${PN} += "libdirac_encoder.so.0()(64bit) \
-libdirac_encoder0 \
-libdirac_encoder0(aarch-64)"
+RPROVIDES:${PN} += "libdirac-encoder.so.0 \
+libdirac-encoder0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

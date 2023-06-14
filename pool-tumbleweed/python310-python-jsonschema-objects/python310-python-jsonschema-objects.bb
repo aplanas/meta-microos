@@ -9,11 +9,11 @@ RPM_HASH = "7a8527ede390873c35bd9740227df159b0c86dd12568334193dec67b9a2866d72b3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-jsonschema-objects \
-python3.10dist(python-jsonschema-objects) \
+python3.10dist-python-jsonschema-objects \
 python310-python-jsonschema-objects \
-python3dist(python-jsonschema-objects)"
+python3dist-python-jsonschema-objects"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Markdown \
 python310-inflection \
 python310-jsonschema \

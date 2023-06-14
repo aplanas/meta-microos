@@ -13,16 +13,15 @@ PV = "2.28"
 RPM_NAME = "libblockdev-2.28-1.4.aarch64.rpm"
 RPM_HASH = "32c0fccc0c66ba3354911ab77cd77285f1c00681e4cabf35ecd035360b1da3895bcd57f033415d57935bb75e33331bdf473c908733f86826437ef6a4f5ee0f02"
 
-RPROVIDES:${PN} += "config(libblockdev) \
-libblockdev \
-libblockdev(aarch-64)"
+RPROVIDES:${PN} += "config-libblockdev \
+libblockdev"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libblockdev-lvm \
-libblockdev.so.2()(64bit) \
+libblockdev.so.2 \
 libblockdev2 \
-libbytesize.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit)"
+libbytesize.so.1 \
+libc.so.6 \
+libglib-2.0.so.0"
 
 inherit rpm

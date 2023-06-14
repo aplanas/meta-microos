@@ -14,8 +14,7 @@ RPM_NAME = "libfinal-devel-0.9.0-1.1.aarch64.rpm"
 RPM_HASH = "8fa102ed6fc960e1ab5311c8165ac017241b35c585e91c8d93e740c74e03a3bad6b02856f2a6a4b054a92e73ee30a5d8df810bfeb1cfe52355a3242d13e78055"
 
 RPROVIDES:${PN} += "libfinal-devel \
-libfinal-devel(aarch-64) \
-pkgconfig(finalcut)"
+pkgconfig-finalcut"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 bdftopcf \

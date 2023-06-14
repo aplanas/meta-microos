@@ -11,7 +11,7 @@ RPM_NAME = "texlive-bytefield-2023.201.2.7svn60265-52.1.noarch.rpm"
 RPM_HASH = "b7456ad4505b335d805763c3f53020d2f19c85f5816c64f3d640ac630bc183369f558d83e45abe1bf413d9548e6203bee1066827b35cb500a7fddbf6106e05c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bytefield.sty) \
+RPROVIDES:${PN} += "tex-bytefield.sty \
 texlive-bytefield"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(keyval.sty) \
+tex-calc.sty \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

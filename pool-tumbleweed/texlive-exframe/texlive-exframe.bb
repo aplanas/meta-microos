@@ -15,7 +15,7 @@ RPM_NAME = "texlive-exframe-2023.201.3.4svn53911-52.1.noarch.rpm"
 RPM_HASH = "3a085f0909faf62cf588457ab009280a0fc1d2414e3c49ed5dffc6695150289b3cd290fa9b7e9e18daa3ac9998a3ae1a24977637108cafe1bf3edc5f0e644841"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exframe.sty) \
+RPROVIDES:${PN} += "tex-exframe.sty \
 texlive-exframe"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,10 +24,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(metastr.sty) \
-tex(verbatim.sty) \
-tex(xkeyval.sty) \
+tex-color.sty \
+tex-metastr.sty \
+tex-verbatim.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

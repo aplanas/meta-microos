@@ -21,17 +21,17 @@ RPM_NAME = "python39-pytest-bdd-5.0.0-1.7.noarch.rpm"
 RPM_HASH = "64da562ad55f0b4cbf2cfb74252629cb911fb954e13caeaa4b6a0ccc73adf7212094c861d5c500efa021818af320b2a7f8b9bdfe2fce861632b3b0caee024ab1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-bdd) \
+RPROVIDES:${PN} += "python3.9dist-pytest-bdd \
 python39-pytest-bdd \
-python3dist(pytest-bdd)"
+python3dist-pytest-bdd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Mako \
 python39-glob2 \
 python39-parse \
-python39-parse_type \
+python39-parse-type \
 python39-py \
 python39-pytest \
 update-alternatives"

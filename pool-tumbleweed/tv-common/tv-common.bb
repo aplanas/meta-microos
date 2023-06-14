@@ -9,20 +9,19 @@ RPM_NAME = "tv-common-3.107-2.10.aarch64.rpm"
 RPM_HASH = "11f24da052c130349fcf3eac109d0b01051fd4ae2bb779fce223a231f0ddd438885db958e54ec1d94b84fd68f80dbc4b5eb743edf02aa58565c6d33cccf12b71"
 
 RPROVIDES:${PN} += "tv-common \
-tv-common(aarch-64) \
-xawtv:/usr/X11R6/lib/X11/fonts/misc/led-iso8859-1.bdf"
+xawtv-/usr/X11R6/lib/X11/fonts/misc/led-iso8859-1.bdf"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXmu.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libdv.so.4()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libquicktime.so.0()(64bit) \
-libv4l2.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXmu.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libdv.so.4 \
+libjpeg.so.8 \
+libm.so.6 \
+libquicktime.so.0 \
+libv4l2.so.0"
 
 inherit rpm

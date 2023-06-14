@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ciano-lang \
 ciano-lang-all \
-locale(ciano:da) \
-locale(ciano:es) \
-locale(ciano:fr) \
-locale(ciano:lt) \
-locale(ciano:nl) \
-locale(ciano:pt) \
-locale(ciano:pt_BR) \
-locale(ciano:tr) \
-locale(ciano:zh_CN)"
+locale-ciano-da \
+locale-ciano-es \
+locale-ciano-fr \
+locale-ciano-lt \
+locale-ciano-nl \
+locale-ciano-pt \
+locale-ciano-pt-BR \
+locale-ciano-tr \
+locale-ciano-zh-CN"
 
 RDEPENDS:${PN} += "ciano"
 

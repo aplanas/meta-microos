@@ -12,13 +12,13 @@ RPM_HASH = "abb22a814a9ee3c1f5fa0ac40c73f95c0f55f006aa8e2dc9ea042887c8f027161a21
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-core \
-config(ansible-core) \
-python3.10dist(ansible-core) \
-python3dist(ansible-core)"
+config-ansible-core \
+python3.10dist-ansible-core \
+python3dist-ansible-core"
 
-RDEPENDS:${PN} += "(python3-resolvelib >= 0.5.3 with python3-resolvelib < 1.1.0) \
+RDEPENDS:${PN} += "-python3-resolvelib >= 0.5.3 with python3-resolvelib < 1.1.0 \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-PyYAML \
 python3-cryptography \

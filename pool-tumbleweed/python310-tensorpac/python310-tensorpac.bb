@@ -10,11 +10,11 @@ RPM_HASH = "d3df8cba7400e6c6b483dfce7f56a299360ee07a6f036e5f5b47cb58c5dffc0cede6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tensorpac \
-python3.10dist(tensorpac) \
+python3.10dist-tensorpac \
 python310-tensorpac \
-python3dist(tensorpac)"
+python3dist-tensorpac"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-joblib \
 python310-numpy \
 python310-scipy"

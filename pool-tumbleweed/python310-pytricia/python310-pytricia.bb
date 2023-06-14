@@ -10,13 +10,12 @@ RPM_NAME = "python310-pytricia-1.0.2-3.12.aarch64.rpm"
 RPM_HASH = "93d50710e541551be9653d181e19f1739ac3ae0edc4e1c6a5ed3c71e8b9a7b914d2292d8919d78807fbab7da59b1b2e7b1b4c4c23877c946bcb41b607a168531"
 
 RPROVIDES:${PN} += "python3-pytricia \
-python3.10dist(pytricia) \
+python3.10dist-pytricia \
 python310-pytricia \
-python310-pytricia(aarch-64) \
-python3dist(pytricia)"
+python3dist-pytricia"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

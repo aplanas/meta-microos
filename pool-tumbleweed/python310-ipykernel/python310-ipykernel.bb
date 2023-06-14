@@ -10,24 +10,21 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipykernel \
 python3-ipykernel \
-python3-jupyter_ipykernel \
-python3.10dist(ipykernel) \
+python3-jupyter-ipykernel \
+python3.10dist-ipykernel \
 python310-ipykernel \
 python310-ipykernel-doc \
+python310-jupyter-ipykernel \
 python310-jupyter-ipykernel-doc \
-python310-jupyter_ipykernel \
-python310-jupyter_ipykernel-doc \
 python311-ipykernel-doc \
 python311-jupyter-ipykernel-doc \
-python311-jupyter_ipykernel-doc \
 python39-ipykernel-doc \
 python39-jupyter-ipykernel-doc \
-python39-jupyter_ipykernel-doc \
-python3dist(ipykernel)"
+python3dist-ipykernel"
 
-RDEPENDS:${PN} += "(python310-jupyter-core >= 5.1 or (python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0)) \
+RDEPENDS:${PN} += "-python310-jupyter-core >= 5.1 or (python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) \
 jupyter-jupyter-client \
-python(abi) \
+python-abi \
 python310-comm \
 python310-debugpy \
 python310-ipython \

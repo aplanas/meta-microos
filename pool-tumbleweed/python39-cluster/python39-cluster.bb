@@ -17,11 +17,11 @@ RPM_NAME = "python39-cluster-1.4.1.post2-2.8.noarch.rpm"
 RPM_HASH = "80d49c55f619c3f6767095d6a092da99bee8a09b0ea9b45ca112bc3e0a4e5733a6184113dd28dddff7fad1705a72836805171017c854aed99226a97a924beb2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cluster) \
+RPROVIDES:${PN} += "python3.9dist-cluster \
 python39-cluster \
-python3dist(cluster)"
+python3dist-cluster"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-matplotlib \
 python39-numpy \
 python39-scipy"

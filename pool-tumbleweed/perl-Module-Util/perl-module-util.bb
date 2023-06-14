@@ -11,10 +11,10 @@ RPM_NAME = "perl-Module-Util-1.09-1.15.noarch.rpm"
 RPM_HASH = "b35b42502e7c4fac838fbf0ee770ef634e8abc0df11c3832ac45004d96d8933ffa9e3a2787adafdf398ff6f85ada0eedcc2d5a601a877cbe5381e5bdb7aa2d31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Util) \
+RPROVIDES:${PN} += "perl-Module--Util \
 perl-Module-Util"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

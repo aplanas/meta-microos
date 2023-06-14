@@ -15,17 +15,16 @@ PV = "40.0.2"
 RPM_NAME = "python39-cryptography-40.0.2-2.1.aarch64.rpm"
 RPM_HASH = "d1a01d035478e0a4c5ea99084914e7e38998b0314f668018f2aa0b192e2c0e15beab801f2cbfb4b95a7fe4eb064c5ae92c3da44f8dde6d659187ca9afb0939dc"
 
-RPROVIDES:${PN} += "python3.9dist(cryptography) \
+RPROVIDES:${PN} += "python3.9dist-cryptography \
 python39-cryptography \
-python39-cryptography(aarch-64) \
-python3dist(cryptography)"
+python3dist-cryptography"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libssl.so.3()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libssl.so.3 \
+python-abi \
 python39 \
 python39-cffi"
 

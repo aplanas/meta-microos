@@ -9,13 +9,12 @@ PV = "1.6.1"
 RPM_NAME = "cronie-anacron-1.6.1-91.3.aarch64.rpm"
 RPM_HASH = "17841e16fc4b57a5dd86541a55cffab72724dcb0c5abb694e11261240ce047eec7840ec9a8f74bc37130fda58df5f674fcfdb587434a5787811d9d514b82398c"
 
-RPROVIDES:${PN} += "config(cronie-anacron) \
-cronie-anacron \
-cronie-anacron(aarch-64)"
+RPROVIDES:${PN} += "config-cronie-anacron \
+cronie-anacron"
 
 RDEPENDS:${PN} += "/bin/sh \
 cronie \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

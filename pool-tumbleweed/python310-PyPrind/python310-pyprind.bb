@@ -14,11 +14,11 @@ RPM_HASH = "cc895e0c756781cc0f7673f106c8a24fc870a8b1034cce44eaea12662b3d812dd6c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyPrind \
-python3.10dist(pyprind) \
+python3.10dist-pyprind \
 python310-PyPrind \
-python3dist(pyprind)"
+python3dist-pyprind"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-psutil"
 
 inherit rpm

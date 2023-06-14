@@ -17,14 +17,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-PySoundFile \
 python3-SoundFile \
 python3-soundfile \
-python3.10dist(soundfile) \
+python3.10dist-soundfile \
 python310-PySoundFile \
 python310-SoundFile \
 python310-soundfile \
-python3dist(soundfile)"
+python3dist-soundfile"
 
 RDEPENDS:${PN} += "libsndfile1 \
-python(abi) \
+python-abi \
 python310-cffi"
 
 inherit rpm

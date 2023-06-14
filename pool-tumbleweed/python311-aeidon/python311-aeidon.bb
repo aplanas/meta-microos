@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aeidon"
 
-RDEPENDS:${PN} += "python(abi) \
-typelib(Gspell)"
+RDEPENDS:${PN} += "python-abi \
+typelib-Gspell"
 
 inherit rpm

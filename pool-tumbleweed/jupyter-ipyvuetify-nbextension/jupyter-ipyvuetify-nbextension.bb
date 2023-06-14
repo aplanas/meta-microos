@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-ipyvuetify-nbextension"
 
 RDEPENDS:${PN} += "jupyter-notebook \
-python3dist(ipyvuetify)"
+python3dist-ipyvuetify"
 
 inherit rpm

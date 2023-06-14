@@ -14,9 +14,9 @@ RPROVIDES:${PN} += "monitoring-plugins-dns.pl \
 nagios-plugins-dns.pl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Getopt::Long) \
-perl(IO::Select) \
-perl(IO::Socket) \
-perl(Socket)"
+perl-Getopt--Long \
+perl-IO--Select \
+perl-IO--Socket \
+perl-Socket"
 
 inherit rpm

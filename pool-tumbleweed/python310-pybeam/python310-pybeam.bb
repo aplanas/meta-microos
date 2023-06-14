@@ -11,11 +11,11 @@ RPM_HASH = "b0320044b288372d749d8fe6979380f8344f67a91e9c33fa43e00a0a2df9ab668faf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pybeam \
-python3.10dist(pybeam) \
+python3.10dist-pybeam \
 python310-pybeam \
-python3dist(pybeam)"
+python3dist-pybeam"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-construct \
 python310-six"
 

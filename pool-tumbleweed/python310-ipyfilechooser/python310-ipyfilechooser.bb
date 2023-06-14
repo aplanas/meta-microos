@@ -9,11 +9,11 @@ RPM_HASH = "6291551008fc4cea5934d3cde6cae2e518884de1a4bdef5bbff5e10fd1fbc62af187
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyfilechooser \
-python3.10dist(ipyfilechooser) \
+python3.10dist-ipyfilechooser \
 python310-ipyfilechooser \
-python3dist(ipyfilechooser)"
+python3dist-ipyfilechooser"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipywidgets"
 
 inherit rpm

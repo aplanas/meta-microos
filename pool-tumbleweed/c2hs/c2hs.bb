@@ -11,14 +11,13 @@ PV = "0.28.8"
 RPM_NAME = "c2hs-0.28.8-4.2.aarch64.rpm"
 RPM_HASH = "70b6e33f4c9163a3868d6316167ad3e311082255b6546bf2a8f25ae117fee1e5c6a82312e7dec662d771aec0dd464c26899438544538a902475c4f48901e450a"
 
-RPROVIDES:${PN} += "c2hs \
-c2hs(aarch-64)"
+RPROVIDES:${PN} += "c2hs"
 
-RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit)"
+RDEPENDS:${PN} += "libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libnuma.so.1"
 
 inherit rpm

@@ -13,12 +13,11 @@ PV = "0.44"
 RPM_NAME = "pcfclock-0.44-269.26.aarch64.rpm"
 RPM_HASH = "03fd91bb5b7bffe2fb618fc1a5b042f7f913071a06163f5d441283a2c641de8489eba17a161ad44fda7f0ae80a6dcd4fb612c5994c7b1e4d11bb952c5f547af9"
 
-RPROVIDES:${PN} += "pcfclock \
-pcfclock(aarch-64)"
+RPROVIDES:${PN} += "pcfclock"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 pcfclock-kmp \
 systemd"
 

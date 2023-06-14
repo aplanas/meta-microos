@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "netcdf-fortran-gnu-mvapich2-hpc \
 netcdf-fortran-gnu-mvapich2-hpc-devel"
 
-RDEPENDS:${PN} += "netcdf-fortran_4_5_3-gnu-mvapich2-hpc-devel"
+RDEPENDS:${PN} += "netcdf-fortran-4-5-3-gnu-mvapich2-hpc-devel"
 
 inherit rpm

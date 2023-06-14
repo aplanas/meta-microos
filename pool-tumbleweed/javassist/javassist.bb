@@ -19,11 +19,11 @@ RPM_HASH = "4b2f6808b8319123494f095204fc147354e061c42bec01de952530ae5464652390b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javassist \
-mvn(javassist:javassist) \
-mvn(javassist:javassist:pom:) \
-mvn(org.javassist:javassist) \
-mvn(org.javassist:javassist:pom:) \
-osgi(javassist)"
+mvn-javassist-javassist \
+mvn-javassist-javassist-pom- \
+mvn-org.javassist-javassist \
+mvn-org.javassist-javassist-pom- \
+osgi-javassist"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

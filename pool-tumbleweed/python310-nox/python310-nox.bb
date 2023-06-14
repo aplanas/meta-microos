@@ -9,13 +9,13 @@ RPM_HASH = "2561efb0bbcb94e9b5109f287dfc8f2e9dc882263c3bca8b9802edc5ae2b8e7acac3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nox \
-python3.10dist(nox) \
+python3.10dist-nox \
 python310-nox \
-python3dist(nox)"
+python3dist-nox"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-argcomplete \
 python310-colorlog \
 python310-setuptools \

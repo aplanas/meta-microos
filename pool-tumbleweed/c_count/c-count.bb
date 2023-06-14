@@ -9,10 +9,9 @@ PV = "7.20"
 RPM_NAME = "c_count-7.20-1.8.aarch64.rpm"
 RPM_HASH = "cc0822c12f5b74a3b1dda34c9d4dad66675f2a74ae5e9ab2d5ccacb192e332bf1a6f7cebbd5274af990f81cd0e7abd4ca2c7eff703501725a6a067d706c2aa32"
 
-RPROVIDES:${PN} += "c_count \
-c_count(aarch-64)"
+RPROVIDES:${PN} += "c-count"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-scale-2023.201.1.1.2svn15878-53.1.noarch.rpm"
 RPM_HASH = "4288005e55f3c12b97079acf1f5c0303dd84688723748f062c51adb78711740cd070177e3912e7d7bca5d7a468f44a84aa6a6b33d18d2063330899f5c7966164"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(scale.sty) \
+RPROVIDES:${PN} += "tex-scale.sty \
 texlive-scale"
 
 RDEPENDS:${PN} += "/bin/sh \

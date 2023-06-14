@@ -15,11 +15,11 @@ RPM_HASH = "ce3bc9563e371d71c595843dcb5b569381813e61ab594ed20630d253f012ae1c1792
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mkosi \
-python3.10dist(mkosi) \
-python3dist(mkosi)"
+python3.10dist-mkosi \
+python3dist-mkosi"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-python(abi) \
+python-abi \
 python3 \
 squashfs \
 tar \

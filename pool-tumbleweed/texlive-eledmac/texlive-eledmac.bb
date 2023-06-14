@@ -14,8 +14,8 @@ RPM_NAME = "texlive-eledmac-2023.201.1.24.12svn45418-53.1.noarch.rpm"
 RPM_HASH = "8f229f53a85366c5cbc98ee290cf89225c5e30732a29b45c8ce7a02254970daf66bbde02b5c1779fbd63a919a596730cbc0414b7aa99299a9adffaa11c40da2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(eledmac.sty) \
-tex(eledpar.sty) \
+RPROVIDES:${PN} += "tex-eledmac.sty \
+tex-eledpar.sty \
 texlive-eledmac"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,16 +24,16 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
-tex(etoolbox.sty) \
-tex(ifluatex.sty) \
-tex(ifxetex.sty) \
-tex(ragged2e.sty) \
-tex(suffix.sty) \
-tex(xargs.sty) \
-tex(xkeyval.sty) \
-tex(xspace.sty) \
-tex(xstring.sty) \
+tex-etex.sty \
+tex-etoolbox.sty \
+tex-ifluatex.sty \
+tex-ifxetex.sty \
+tex-ragged2e.sty \
+tex-suffix.sty \
+tex-xargs.sty \
+tex-xkeyval.sty \
+tex-xspace.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,24 +10,23 @@ PV = "1.8.7"
 RPM_NAME = "ocfs2-tools-1.8.7-7.3.aarch64.rpm"
 RPM_HASH = "c261690e52f4430cc18fb8258ece7509b8d6eb5da42637bdb448d32d7914146473713dbe921565b47609a6baa03d2d717efbb113702918d3fa535ad428175525"
 
-RPROVIDES:${PN} += "ocfs2-tools \
-ocfs2-tools(aarch-64)"
+RPROVIDES:${PN} += "ocfs2-tools"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 e2fsprogs \
 fillup \
 glib2 \
-ld-linux-aarch64.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcmap.so.4()(64bit) \
-libcom_err.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libaio.so.1 \
+libc.so.6 \
+libcmap.so.4 \
+libcom-err.so.2 \
 libdlm \
-libdlm_lt.so.3()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libreadline.so.8()(64bit) \
-libuuid.so.1()(64bit) \
+libdlm-lt.so.3 \
+libglib-2.0.so.0 \
+libreadline.so.8 \
+libuuid.so.1 \
 modutils \
 net-tools"
 

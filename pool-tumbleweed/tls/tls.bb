@@ -10,12 +10,11 @@ PV = "1.7.22"
 RPM_NAME = "tls-1.7.22-2.6.aarch64.rpm"
 RPM_HASH = "0ea8bd91192663a1fb778dc62cc165c2f41a4d8ee5567de51a5bcf6cc462b0915b9b060a3913244f729677f4935b6b70b71d73419d57556df31c95240b53a839"
 
-RPROVIDES:${PN} += "tls \
-tls(aarch-64)"
+RPROVIDES:${PN} += "tls"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

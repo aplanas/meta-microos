@@ -10,7 +10,7 @@ RPM_NAME = "texlive-penlight-2023.201.svn64811-51.1.noarch.rpm"
 RPM_HASH = "da362ad093690f2180f2e70d8e0471ac58f86f38fc7e8d81fedb523006c6fce59bfa0d4452cae1fe93beb8e826618f10496ae00f32adbe567b783704491734ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(penlight.sty) \
+RPROVIDES:${PN} += "tex-penlight.sty \
 texlive-penlight"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(luacode.sty) \
+tex-luacode.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

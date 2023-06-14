@@ -17,13 +17,12 @@ RPM_NAME = "libotr5-4.1.1-4.2.aarch64.rpm"
 RPM_HASH = "48484fe845a05ae4c7b1c2d0c5d4f7dc9c936ea45cc9265cbcb4efc987ff26d8bb6aedc0541c4b8fac5e4d97bc5b4f817f2101e2ef522219470c2bed7d91b02d"
 
 RPROVIDES:${PN} += "libotr \
-libotr.so.5()(64bit) \
-libotr5 \
-libotr5(aarch-64)"
+libotr.so.5 \
+libotr5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20"
 
 inherit rpm

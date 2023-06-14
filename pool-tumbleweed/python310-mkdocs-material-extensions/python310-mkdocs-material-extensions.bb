@@ -9,10 +9,10 @@ RPM_HASH = "8dc969a7dcaf1f80ea46c8b3418cf5a9e1bc3a9255e2ba4d18a175a7c6d421044b25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mkdocs-material-extensions \
-python3.10dist(mkdocs-material-extensions) \
+python3.10dist-mkdocs-material-extensions \
 python310-mkdocs-material-extensions \
-python3dist(mkdocs-material-extensions)"
+python3dist-mkdocs-material-extensions"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

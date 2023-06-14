@@ -11,7 +11,7 @@ RPM_HASH = "0e0ce4695cafe7f4a1fe2d4b093ade50dcdd45e5166aedf99f199b3ce2317bee9dbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-serif-hk-fonts \
-locale(zh_HK;zh_MO) \
+locale-zh-HK;zh-MO \
 noto-serif-hk-fonts \
 scalable-font-zh-HK \
 scalable-font-zh-MO"

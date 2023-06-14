@@ -12,8 +12,8 @@ RPM_NAME = "texlive-was-2023.201.svn64691-53.1.noarch.rpm"
 RPM_HASH = "19960d5d506f4e6b1fa6999088185e3cca5bd19b58a4a8e61747cbd72189d7e58deee4f3982e340e0f925130147b9c8b0aa0b1a92e79ac87cabedb9d20afeb1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(icomma.sty) \
-tex(upgreek.sty) \
+RPROVIDES:${PN} += "tex-icomma.sty \
+tex-upgreek.sty \
 texlive-was"
 
 RDEPENDS:${PN} += "/bin/sh \

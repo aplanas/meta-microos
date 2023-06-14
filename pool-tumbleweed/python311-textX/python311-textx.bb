@@ -18,13 +18,13 @@ RPM_NAME = "python311-textX-3.0.0-1.8.noarch.rpm"
 RPM_HASH = "462be77dd590f9f45d4ab5589e1efb011937e10549edc16786aee3cd8ded2f12b3ee14e790f0f39010b2d12abe58e0c153a49c588e9a90f635a9e90538f98012"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(textx) \
+RPROVIDES:${PN} += "python3.11dist-textx \
 python311-textX \
-python3dist(textx)"
+python3dist-textx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Arpeggio \
 python311-click \
 python311-future \

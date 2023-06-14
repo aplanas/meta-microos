@@ -13,15 +13,14 @@ RPM_NAME = "sg3_utils-1.48~20221101+1.142dace-1.3.aarch64.rpm"
 RPM_HASH = "bf2eb7dc2408f5acd88cd418a78e26d892b86a4c47676193a7fa7e7ef66cc5400536740d50c65baa61b302a0a566de4645aa1e102571fc93b3e4332efe7616c2"
 
 RPROVIDES:${PN} += "scsi \
-sg3_utils \
-sg3_utils(aarch-64) \
-sg_utils"
+sg-utils \
+sg3-utils"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsgutils2-1.48.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsgutils2-1.48.so.2"
 
 inherit rpm

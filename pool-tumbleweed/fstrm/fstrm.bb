@@ -22,12 +22,11 @@ PV = "0.6.1"
 RPM_NAME = "fstrm-0.6.1-1.5.aarch64.rpm"
 RPM_HASH = "6e1d7a1768280ec50fb1b98d2b57fed270e89905ba41a0107a1811e2867c6e857613a27627761fdfd68efedf8def7de24fa7c4654d1b42fb74ba208f341f392f"
 
-RPROVIDES:${PN} += "fstrm \
-fstrm(aarch-64)"
+RPROVIDES:${PN} += "fstrm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent-2.1.so.7()(64bit) \
-libfstrm.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-2.1.so.7 \
+libfstrm.so.0"
 
 inherit rpm

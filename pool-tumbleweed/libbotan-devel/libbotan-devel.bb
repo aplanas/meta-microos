@@ -10,14 +10,13 @@ RPM_HASH = "7cb704a093fdc009e926e512e512e0f50446ff954306279703f83f92350a41352814
 
 RPROVIDES:${PN} += "Botan-devel \
 libbotan-devel \
-libbotan-devel(aarch-64) \
-pkgconfig(botan-2)"
+pkgconfig-botan-2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbotan-2-19 \
 libbz2-devel \
-pkgconfig(liblzma) \
-pkgconfig(sqlite3) \
+pkgconfig-liblzma \
+pkgconfig-sqlite3 \
 trousers-devel"
 
 inherit rpm

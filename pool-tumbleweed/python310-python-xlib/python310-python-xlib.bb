@@ -11,12 +11,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-xlib \
 python3-xlib \
-python3.10dist(python-xlib) \
+python3.10dist-python-xlib \
 python310-python-xlib \
 python310-xlib \
-python3dist(python-xlib)"
+python3dist-python-xlib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

@@ -26,10 +26,10 @@ RPM_NAME = "perl-UNIVERSAL-require-0.19-1.10.noarch.rpm"
 RPM_HASH = "457a04e6bcf6fe581ef2962e7a3f361238e03981cede3877f833adf7871a6fdccd247ce72e101efe2218d9d92cf0c472faf1f39e53d366d92a751cdcb1c58b26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(UNIVERSAL) \
-perl(UNIVERSAL::require) \
+RPROVIDES:${PN} += "perl-UNIVERSAL \
+perl-UNIVERSAL--require \
 perl-UNIVERSAL-require"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "2cb7862d7c14fe2113b44c1a6a64d540b65bfba2dd621b78fc67d36f3f1fdef200ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-communication-chat \
-python3.10dist(azure-communication-chat) \
+python3.10dist-azure-communication-chat \
 python310-azure-communication-chat \
-python3dist(azure-communication-chat)"
+python3dist-azure-communication-chat"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-communication-nspkg \
 python310-azure-core \
 python310-azure-nspkg \

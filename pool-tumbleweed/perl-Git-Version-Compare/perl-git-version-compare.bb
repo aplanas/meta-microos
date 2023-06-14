@@ -15,9 +15,9 @@ RPM_NAME = "perl-Git-Version-Compare-1.005-1.1.noarch.rpm"
 RPM_HASH = "38eb9524da647a23bdabd290c63393293abedadffa63be466594eff07d9f3c0868eec1924da519912f712e8a8290d51194046b12c1140e7af3bbf23fc432fd42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Git::Version::Compare) \
+RPROVIDES:${PN} += "perl-Git--Version--Compare \
 perl-Git-Version-Compare"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

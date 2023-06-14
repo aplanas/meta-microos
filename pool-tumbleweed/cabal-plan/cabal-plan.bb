@@ -35,15 +35,14 @@ PV = "0.7.2.3"
 RPM_NAME = "cabal-plan-0.7.2.3-1.3.aarch64.rpm"
 RPM_HASH = "f4c0fb043972601bcb93b111c0d1fee1dde73fc7a36cb1b7fa7806c1bda884e1bad97259718d2ed16a8f5cae56c1a19dc8f43289a78d3c6f81a1c0449fe41b34"
 
-RPROVIDES:${PN} += "cabal-plan \
-cabal-plan(aarch-64)"
+RPROVIDES:${PN} += "cabal-plan"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libnuma.so.1"
 
 inherit rpm

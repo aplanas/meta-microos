@@ -13,12 +13,11 @@ PV = "5.18.16"
 RPM_NAME = "autoopts-5.18.16-7.6.aarch64.rpm"
 RPM_HASH = "0563effbaa0b0ff010b1bd1fc4359d8814cd77ef62cac7efffbbe7104eab5eb2cdfa01f07d6f4d4e2ec81ccaab024f51a0a4d7285521ee3b42994928fb347ee4"
 
-RPROVIDES:${PN} += "autogen:/usr/bin/autoopts-config \
+RPROVIDES:${PN} += "autogen-/usr/bin/autoopts-config \
 autoopts \
-autoopts(aarch-64) \
 libopts-devel \
-perl(Mdoc) \
-pkgconfig(autoopts)"
+perl-Mdoc \
+pkgconfig-autoopts"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \

@@ -22,7 +22,7 @@ RPM_NAME = "robin-map-devel-1.2.1-1.1.noarch.rpm"
 RPM_HASH = "f4a9591468b39e72aaeea9efe60766480ae873bbbb0b5493fe911a18dcb9bedfe5918cc3b7021a56a1513be14b0c2e3322ea52873348906a104539e1863fd0d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cmake(tsl-robin-map) \
+RPROVIDES:${PN} += "cmake-tsl-robin-map \
 robin-map-devel"
 
 RDEPENDS:${PN} += ""

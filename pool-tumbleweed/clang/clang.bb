@@ -12,7 +12,6 @@ RPM_NAME = "clang-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "0d7f8ad444315164832ee0461c9546d997857a80f0d1f88bea9bf06d996dc1f03e869f6688f2a24139ff1e061be1b309bad7b8f6d8982d1b7d120aeb64466bef"
 
 RPROVIDES:${PN} += "clang \
-clang(aarch-64) \
 llvm-clang \
 llvm-emacs-plugins"
 

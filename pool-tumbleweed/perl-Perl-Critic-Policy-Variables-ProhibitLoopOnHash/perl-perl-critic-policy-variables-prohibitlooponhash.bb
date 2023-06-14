@@ -23,12 +23,12 @@ RPM_NAME = "perl-Perl-Critic-Policy-Variables-ProhibitLoopOnHash-0.008-1.15.noar
 RPM_HASH = "3016330524b4c8310d9fdb2baf04099e2b7ee351d4526f0eec1a068c97c6122fd02bd87b362052e19e59804fe6498850645d3b584167c6d1702b6f32a5cf19dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Perl::Critic::Policy::Variables::ProhibitLoopOnHash) \
+RPROVIDES:${PN} += "perl-Perl--Critic--Policy--Variables--ProhibitLoopOnHash \
 perl-Perl-Critic-Policy-Variables-ProhibitLoopOnHash"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(List::Util) \
-perl(Perl::Critic) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-List--Util \
+perl-Perl--Critic \
+perl-parent"
 
 inherit rpm

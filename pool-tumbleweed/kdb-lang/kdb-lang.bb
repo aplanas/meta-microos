@@ -10,35 +10,35 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdb-lang \
 kdb-lang-all \
-locale(kdb:ast) \
-locale(kdb:ca) \
-locale(kdb:ca@valencia) \
-locale(kdb:cs) \
-locale(kdb:de) \
-locale(kdb:en) \
-locale(kdb:en_GB) \
-locale(kdb:es) \
-locale(kdb:fi) \
-locale(kdb:fr) \
-locale(kdb:gl) \
-locale(kdb:hu) \
-locale(kdb:ia) \
-locale(kdb:it) \
-locale(kdb:ja) \
-locale(kdb:ko) \
-locale(kdb:lt) \
-locale(kdb:nl) \
-locale(kdb:nn) \
-locale(kdb:pl) \
-locale(kdb:pt) \
-locale(kdb:pt_BR) \
-locale(kdb:ru) \
-locale(kdb:sk) \
-locale(kdb:sv) \
-locale(kdb:tr) \
-locale(kdb:uk) \
-locale(kdb:zh_CN) \
-locale(kdb:zh_TW)"
+locale-kdb-ast \
+locale-kdb-ca \
+locale-kdb-ca@valencia \
+locale-kdb-cs \
+locale-kdb-de \
+locale-kdb-en \
+locale-kdb-en-GB \
+locale-kdb-es \
+locale-kdb-fi \
+locale-kdb-fr \
+locale-kdb-gl \
+locale-kdb-hu \
+locale-kdb-ia \
+locale-kdb-it \
+locale-kdb-ja \
+locale-kdb-ko \
+locale-kdb-lt \
+locale-kdb-nl \
+locale-kdb-nn \
+locale-kdb-pl \
+locale-kdb-pt \
+locale-kdb-pt-BR \
+locale-kdb-ru \
+locale-kdb-sk \
+locale-kdb-sv \
+locale-kdb-tr \
+locale-kdb-uk \
+locale-kdb-zh-CN \
+locale-kdb-zh-TW"
 
 RDEPENDS:${PN} += "kdb"
 

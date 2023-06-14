@@ -12,8 +12,8 @@ RPM_NAME = "texlive-multido-2023.201.1.42svn18302-54.1.noarch.rpm"
 RPM_HASH = "8c4411838fc138acf8984f967231840cd736134e81763318877b363d96ff884b821a5bcfa2613bd4378e751c1b99e1e4c96c4809ac6d5a0f206ea95398a4b202"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(multido.sty) \
-tex(multido.tex) \
+RPROVIDES:${PN} += "tex-multido.sty \
+tex-multido.tex \
 texlive-multido"
 
 RDEPENDS:${PN} += "/bin/sh \

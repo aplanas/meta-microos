@@ -9,13 +9,13 @@ RPM_HASH = "99e21102c34e4c8679072be9460ec70a4d9d0a50003fd5f6c180d7ea5c469a7e4c8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geomet \
-python3.10dist(geomet) \
+python3.10dist-geomet \
 python310-geomet \
-python3dist(geomet)"
+python3dist-geomet"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 update-alternatives"
 

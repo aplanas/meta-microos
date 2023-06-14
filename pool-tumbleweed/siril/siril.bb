@@ -9,83 +9,44 @@ PV = "1.0.6"
 RPM_NAME = "siril-1.0.6-1.13.aarch64.rpm"
 RPM_HASH = "e09caa596b336aa7a08c78d617890d184a393776b0047d7bae7d6bef3e9e4cf551f8c86f7ed4cb4a8a751e1aacec2178509bbb12cc047746ec5feb5ac6e530c8"
 
-RPROVIDES:${PN} += "application() \
-application(org.free_astro.siril.desktop) \
-metainfo() \
-metainfo(org.free_astro.siril.appdata.xml) \
-mimehandler(application/bmp) \
-mimehandler(application/fits) \
-mimehandler(application/jpeg) \
-mimehandler(application/pic) \
-mimehandler(application/png) \
-mimehandler(application/tiff) \
-mimehandler(image/bmp) \
-mimehandler(image/fits) \
-mimehandler(image/jpeg) \
-mimehandler(image/pic) \
-mimehandler(image/png) \
-mimehandler(image/tiff) \
-mimehandler(image/x-adobe-dng) \
-mimehandler(image/x-canon-cr2) \
-mimehandler(image/x-canon-crw) \
-mimehandler(image/x-fuji-raf) \
-mimehandler(image/x-kodak-dcr) \
-mimehandler(image/x-kodak-k25) \
-mimehandler(image/x-kodak-kdc) \
-mimehandler(image/x-minolta-mrw) \
-mimehandler(image/x-nikon-nef) \
-mimehandler(image/x-olympus-orf) \
-mimehandler(image/x-panasonic-raw) \
-mimehandler(image/x-panasonic-raw2) \
-mimehandler(image/x-pentax-pef) \
-mimehandler(image/x-portable-pixmap) \
-mimehandler(image/x-sigma-x3f) \
-mimehandler(image/x-sony-arw) \
-mimehandler(image/x-sony-sr2) \
-mimehandler(image/x-sony-srf) \
-mimehandler(image/x-xisf) \
-mimehandler(text/x-seq) \
-mimehandler(video/ser) \
-siril \
-siril(aarch-64)"
+RPROVIDES:${PN} += "siril"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libavcodec.so.59()(64bit) \
-libavformat.so.59()(64bit) \
-libavutil.so.57()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcfitsio.so.10()(64bit) \
-libconfig.so.11()(64bit) \
-libexiv2.so.27()(64bit) \
-libffms2.so.5()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgomp.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libopencv_calib3d.so.407()(64bit) \
-libopencv_core.so.407()(64bit) \
-libopencv_imgproc.so.407()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libraw.so.23()(64bit) \
-librtprocess.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libswresample.so.4.ff5()(64bit) \
-libswscale.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libwcs.so.7()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libavcodec.so.59 \
+libavformat.so.59 \
+libavutil.so.57 \
+libc.so.6 \
+libcairo.so.2 \
+libcfitsio.so.10 \
+libconfig.so.11 \
+libexiv2.so.27 \
+libffms2.so.5 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgomp.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libgtk-3.so.0 \
+libjpeg.so.8 \
+libjson-glib-1.0.so.0 \
+libm.so.6 \
+libopencv-calib3d.so.407 \
+libopencv-core.so.407 \
+libopencv-imgproc.so.407 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpng16.so.16 \
+libraw.so.23 \
+librtprocess.so.0 \
+libstdc++.so.6 \
+libswresample.so.4.ff5 \
+libswscale.so.6 \
+libtiff.so.6 \
+libwcs.so.7"
 
 inherit rpm

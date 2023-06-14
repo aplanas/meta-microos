@@ -10,21 +10,17 @@ RPM_NAME = "leechcraft-sysnotify-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
 RPM_HASH = "cf5d42bc869d79ad99dd6b167f5d31f76ff97de95b1056f80fc5b585cbd46e76ab44830b31ef76cb34f2ab52c91481ffe3b0ccec5799592b6e63b69dfe03eadb"
 
 RPROVIDES:${PN} += "leechcraft-sysnotify \
-leechcraft-sysnotify(aarch-64) \
 leechcraft-visualnotifications \
-libleechcraft_sysnotify.so()(64bit)"
+libleechcraft-sysnotify.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libstdc++.so.6"
 
 inherit rpm

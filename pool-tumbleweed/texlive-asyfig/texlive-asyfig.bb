@@ -14,9 +14,9 @@ RPM_NAME = "texlive-asyfig-2023.201.0.0.1csvn17512-53.1.noarch.rpm"
 RPM_HASH = "461c4e305c1b9a3b47e47438a6a1bfde51a21d1a4b0f463d1270ffea684ef038aad8e667cb796271c8ae0ec33dc79ecc7f3c6001670817987b719b44e57fef37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(asyalign.sty) \
-tex(asyfig.sty) \
-tex(asyprocess.sty) \
+RPROVIDES:${PN} += "tex-asyalign.sty \
+tex-asyfig.sty \
+tex-asyprocess.sty \
 texlive-asyfig"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,13 +25,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(catchfile.sty) \
-tex(color.sty) \
-tex(graphicx.sty) \
-tex(ifmtarg.sty) \
-tex(ifpdf.sty) \
-tex(ifplatform.sty) \
-tex(preview.sty) \
+tex-catchfile.sty \
+tex-color.sty \
+tex-graphicx.sty \
+tex-ifmtarg.sty \
+tex-ifpdf.sty \
+tex-ifplatform.sty \
+tex-preview.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

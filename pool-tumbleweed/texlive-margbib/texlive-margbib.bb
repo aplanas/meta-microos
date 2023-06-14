@@ -9,7 +9,7 @@ RPM_NAME = "texlive-margbib-2023.201.1.0csvn15878-52.1.noarch.rpm"
 RPM_HASH = "3c6e539a7b4398b2ea6bb2892dcbe60dbc1827cb902ef630a686e83c3466d080802e9560edf401072ee9a337c67eed31421fa288f25c30b600fc120b81e35130"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(margbib.sty) \
+RPROVIDES:${PN} += "tex-margbib.sty \
 texlive-margbib"
 
 RDEPENDS:${PN} += "/bin/sh \

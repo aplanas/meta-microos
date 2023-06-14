@@ -18,8 +18,7 @@ PV = "5.0.0"
 RPM_NAME = "openmpi5-docs-5.0.0-2.3.aarch64.rpm"
 RPM_HASH = "08f6f3238c212c744193d8fc88cde838f91a2b72de76c0bf133bcc8674e2b77a1cfb51ccf61afdf927a1d403f17a5a246a16968ea0cc7e6f76668b4acb0ecc69"
 
-RPROVIDES:${PN} += "openmpi5-docs \
-openmpi5-docs(aarch-64)"
+RPROVIDES:${PN} += "openmpi5-docs"
 
 RDEPENDS:${PN} += "openmpi5"
 

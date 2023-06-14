@@ -9,11 +9,11 @@ RPM_HASH = "7700a72e827514ee478f4c5a58c839db36c3113863611bb11c7d30e51af81ed88b7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nxapi-plumbing \
-python3.10dist(nxapi-plumbing) \
+python3.10dist-nxapi-plumbing \
 python310-nxapi-plumbing \
-python3dist(nxapi-plumbing)"
+python3dist-nxapi-plumbing"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-lxml \
 python310-requests \

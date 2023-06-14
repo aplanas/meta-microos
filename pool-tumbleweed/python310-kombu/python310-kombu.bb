@@ -18,11 +18,11 @@ RPM_HASH = "33afe9499abdf5a155cc683c747974c3a84b96a20f92b423a7e64a2d435209657f93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kombu \
-python3.10dist(kombu) \
+python3.10dist-kombu \
 python310-kombu \
-python3dist(kombu)"
+python3dist-kombu"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-amqp \
 python310-cached-property \
 python310-importlib-metadata \

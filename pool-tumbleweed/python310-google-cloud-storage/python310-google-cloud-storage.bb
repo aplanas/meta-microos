@@ -12,11 +12,11 @@ RPM_HASH = "d5681817f1ee0135d18a9a1b44c53e2036c1148666e874b1c846efe17ec5abb16707
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-storage \
-python3.10dist(google-cloud-storage) \
+python3.10dist-google-cloud-storage \
 python310-google-cloud-storage \
-python3dist(google-cloud-storage)"
+python3dist-google-cloud-storage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-api-core \
 python310-google-auth \
 python310-google-cloud-core \

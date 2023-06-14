@@ -8,10 +8,9 @@ PV = "9.4.2"
 RPM_NAME = "deal_II-openmpi3-devel-9.4.2-1.4.aarch64.rpm"
 RPM_HASH = "9b4f4ca63063542f9ba3ac9b5cbcd4ecca76c95d956b9e9df769c673c91b2a993c5208112f361e5945fb274a0651a00b0e5800b6abb0be5c1d1baed45717bf06"
 
-RPROVIDES:${PN} += "deal_II-openmpi3-devel \
-deal_II-openmpi3-devel(aarch-64) \
+RPROVIDES:${PN} += "deal-II-openmpi3-devel \
 dealii-openmpi3-openmpi3-devel"
 
-RDEPENDS:${PN} += "libdeal_II9_4_2-openmpi3"
+RDEPENDS:${PN} += "libdeal-II9-4-2-openmpi3"
 
 inherit rpm

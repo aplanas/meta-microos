@@ -24,12 +24,12 @@ RPM_NAME = "owasp-modsecurity-crs-2.2.9-3.8.noarch.rpm"
 RPM_HASH = "1f2010097744444da90b08ee59ded2f3dc94db60895b503bf6d3447939037b84b91621c4728d799a24d9da1da16fc0d04344eea6874f43aaa6856439f33ac164"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(owasp-modsecurity-crs) \
+RPROVIDES:${PN} += "config-owasp-modsecurity-crs \
 owasp-modsecurity-crs"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/lua \
 /usr/bin/perl \
-apache2-mod_security2"
+apache2-mod-security2"
 
 inherit rpm

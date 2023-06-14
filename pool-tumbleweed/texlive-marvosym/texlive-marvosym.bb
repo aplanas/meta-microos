@@ -15,10 +15,10 @@ RPM_NAME = "texlive-marvosym-2023.201.2.2asvn29349-52.1.noarch.rpm"
 RPM_HASH = "675a9afc5ecd678a24ee0b047381b6c9b3c8515c85dda41904f478c63b67f78397cc59699c4861fe18784f1b4781e33f636416d508ba6de8cf3de8ed09298aca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(marvosym.map) \
-tex(marvosym.sty) \
-tex(umvs.fd) \
-tex(umvs.tfm) \
+RPROVIDES:${PN} += "tex-marvosym.map \
+tex-marvosym.sty \
+tex-umvs.fd \
+tex-umvs.tfm \
 texlive-marvosym"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
+tex-updmap.cfg \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

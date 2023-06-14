@@ -16,10 +16,10 @@ RPROVIDES:${PN} += "gnome-info-collect"
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject \
 python3-requests \
-typelib(AccountsService) \
-typelib(GLib) \
-typelib(Gio) \
-typelib(Goa) \
-typelib(Malcontent)"
+typelib-AccountsService \
+typelib-GLib \
+typelib-Gio \
+typelib-Goa \
+typelib-Malcontent"
 
 inherit rpm

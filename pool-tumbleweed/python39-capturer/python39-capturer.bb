@@ -14,11 +14,11 @@ RPM_NAME = "python39-capturer-3.0-3.1.noarch.rpm"
 RPM_HASH = "3bf16b3512f1bad531bce873aa343fab208dedec2e7f3f5bc19f74d806f52624048a564ba1c9fe751eb6a975d1394c7136dea85f9647357ed9fae223d05a430a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(capturer) \
+RPROVIDES:${PN} += "python3.9dist-capturer \
 python39-capturer \
-python3dist(capturer)"
+python3dist-capturer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-humanfriendly"
 
 inherit rpm

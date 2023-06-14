@@ -14,8 +14,7 @@ RPM_NAME = "flashrom-devel-1.2-4.5.aarch64.rpm"
 RPM_HASH = "3839ecdf93a9c157a2c432394d376f410c971f029522dfb3e2829c240beb9b2b550fb641f86a0f41013199d5adfcb57b4cc39f067e94632ddf20634414a1ae30"
 
 RPROVIDES:${PN} += "flashrom-devel \
-flashrom-devel(aarch-64) \
-pkgconfig(flashrom)"
+pkgconfig-flashrom"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libflashrom1"

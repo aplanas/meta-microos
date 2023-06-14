@@ -11,22 +11,16 @@ PV = "0.3.8"
 RPM_NAME = "jag-editor-0.3.8-2.11.aarch64.rpm"
 RPM_HASH = "4f3fa5c8b4e1a214c10e6695bb88687838dc73fd01219d1506ce654a612f72fde3d7fc14401992c045edc3c24cb9ecc6ba82983a91f3bc147c76d1a4ce61e32f"
 
-RPROVIDES:${PN} += "application() \
-application(jag-editor.desktop) \
-jag-editor \
-jag-editor(aarch-64) \
+RPROVIDES:${PN} += "jag-editor \
 jag-level-editor"
 
 RDEPENDS:${PN} += "jag \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

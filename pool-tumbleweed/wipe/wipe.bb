@@ -10,10 +10,9 @@ PV = "2.3.1"
 RPM_NAME = "wipe-2.3.1-18.9.aarch64.rpm"
 RPM_HASH = "fb59765a16e38657f6b60953fcc9a1c1e872b81c88f634c4a9b8e088269ae11128c339e2cf5e87ddef7ea45b026417402bf78c213b6c7b5290a9470c1684aa7e"
 
-RPROVIDES:${PN} += "wipe \
-wipe(aarch-64)"
+RPROVIDES:${PN} += "wipe"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-md2workflow-plugins-redmine \
 python310-md2workflow-plugins-redmine"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-md2workflow \
 python310-python-redmine"
 

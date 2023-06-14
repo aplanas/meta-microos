@@ -11,10 +11,10 @@ RPM_NAME = "python311-reedsolo-1.6.0-1.3.noarch.rpm"
 RPM_HASH = "70e039e214b7636f53fa85291038e036f66bcdb7ecce5ba10166e0be4208ae992edb8b396467b256939691b286d859be9cf334afc490ff82ecc1176f311643c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(reedsolo) \
+RPROVIDES:${PN} += "python3.11dist-reedsolo \
 python311-reedsolo \
-python3dist(reedsolo)"
+python3dist-reedsolo"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

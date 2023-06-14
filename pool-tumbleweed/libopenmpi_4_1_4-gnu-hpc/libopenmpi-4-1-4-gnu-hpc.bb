@@ -19,24 +19,23 @@ PV = "4.1.4"
 RPM_NAME = "libopenmpi_4_1_4-gnu-hpc-4.1.4-2.2.aarch64.rpm"
 RPM_HASH = "4263de5e87e7d12440a014e39e2681637aa74e157fafe3e7be84b201214bf59deb294acd6649cb7671ad4bd5f125e8d72447f02f3ac186b2244015f2423dd174"
 
-RPROVIDES:${PN} += "libopenmpi_4_1_4-gnu-hpc \
-libopenmpi_4_1_4-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "libopenmpi-4-1-4-gnu-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libfabric.so.1()(64bit) \
-libhwloc.so.15()(64bit) \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpmix.so.2()(64bit) \
-librdmacm.so.1()(64bit) \
-libucp.so.0()(64bit) \
-libucs.so.0()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libfabric.so.1 \
+libhwloc.so.15 \
+libibverbs.so.1 \
+libm.so.6 \
+libpmix.so.2 \
+librdmacm.so.1 \
+libucp.so.0 \
+libucs.so.0 \
+libz.so.1 \
 lua-lmod \
-openmpi_4_1_4-gnu-hpc"
+openmpi-4-1-4-gnu-hpc"
 
 inherit rpm

@@ -57,12 +57,12 @@ RPM_NAME = "perl-String-Formatter-1.235-1.2.noarch.rpm"
 RPM_HASH = "f99073a025316278550c9d2c52f046f1f609213db8dfd30ba52c7c2a8bf48e4ad752a269689aadc73416f11155946af285e85e0b6fc7814b4c10caf37272210d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(String::Formatter) \
-perl(String::Formatter::Cookbook) \
+RPROVIDES:${PN} += "perl-String--Formatter \
+perl-String--Formatter--Cookbook \
 perl-String-Formatter"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Params::Util) \
-perl(Sub::Exporter)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Params--Util \
+perl-Sub--Exporter"
 
 inherit rpm

@@ -10,8 +10,8 @@ RPM_NAME = "texlive-collection-basic-2023.208.svn59159-58.1.noarch.rpm"
 RPM_HASH = "3dae9ce726072d4725e19d402937ac9a704a2b0636097ce41e18cf88b5e5cfaad3f061cc0fb45ac48bba99ee20ced452901a7f7074957e97355cd89fb0e92e2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(basic) \
-tex(tex) \
+RPROVIDES:${PN} += "tex-basic \
+tex-tex \
 texlive-collection-basic"
 
 RDEPENDS:${PN} += "texlive-amsfonts \

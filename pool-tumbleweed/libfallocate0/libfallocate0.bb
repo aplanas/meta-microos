@@ -19,12 +19,11 @@ PV = "0.1.1"
 RPM_NAME = "libfallocate0-0.1.1-17.15.aarch64.rpm"
 RPM_HASH = "66dc3047ca8f0317bd9ad0bfc3c2b34bec840a828775eeeee8fa2dbdddb45ad6989dfc01bc42f644e9218ea0f4e7e8b36184656b52ddeac983b64d42ecc2d331"
 
-RPROVIDES:${PN} += "libfallocate.so.0()(64bit) \
-libfallocate0 \
-libfallocate0(aarch-64)"
+RPROVIDES:${PN} += "libfallocate.so.0 \
+libfallocate0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

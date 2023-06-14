@@ -11,11 +11,11 @@ RPM_HASH = "0e1259bbf20c560fa0fba0d86a3e9068bf51bf39a94a09d9f27dec027c61361b5446
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-qprogedit \
-python3.10dist(python-qprogedit) \
+python3.10dist-python-qprogedit \
 python310-python-qprogedit \
-python3dist(python-qprogedit)"
+python3dist-python-qprogedit"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-QtPy \
 python310-qscintilla-qt5"
 

@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libconfuse-lang \
 libconfuse-lang-all \
-locale(libconfuse:de) \
-locale(libconfuse:fr) \
-locale(libconfuse:sv)"
+locale-libconfuse-de \
+locale-libconfuse-fr \
+locale-libconfuse-sv"
 
 RDEPENDS:${PN} += "libconfuse2"
 

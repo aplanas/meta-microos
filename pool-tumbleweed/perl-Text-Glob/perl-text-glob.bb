@@ -10,9 +10,9 @@ RPM_NAME = "perl-Text-Glob-0.11-1.23.noarch.rpm"
 RPM_HASH = "c632edfd8dcb0e572adf90e401c7c358ea5df7a208b045db2229effa45cefaa57dd2c37eabc1bc7fe05f4a46f4e7f0fe2456da15562bae7809e925d8cf1b8cf5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Glob) \
+RPROVIDES:${PN} += "perl-Text--Glob \
 perl-Text-Glob"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

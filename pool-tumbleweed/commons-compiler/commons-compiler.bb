@@ -10,9 +10,9 @@ RPM_HASH = "3f8eb82cd6fa24d8e4b453f51bebf5865269cb2114a2312d9b357f30a288b0616f77
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-compiler \
-mvn(org.codehaus.janino:commons-compiler) \
-mvn(org.codehaus.janino:commons-compiler:pom:) \
-osgi(org.codehaus.janino.commons-compiler)"
+mvn-org.codehaus.janino-commons-compiler \
+mvn-org.codehaus.janino-commons-compiler-pom- \
+osgi-org.codehaus.janino.commons-compiler"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

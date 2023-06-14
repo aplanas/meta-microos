@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "imb-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-imb_2021_3-gnu-mpich-hpc"
+imb-2021-3-gnu-mpich-hpc"
 
 inherit rpm

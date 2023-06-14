@@ -14,31 +14,25 @@ PV = "0.80.1"
 RPM_NAME = "dosbox-0.80.1-1.4.aarch64.rpm"
 RPM_HASH = "a483ebaffb3388b5e0127b085268a52acb27b931f2416321f806c76517e59591fa6067973ae14d8dc3a7c31bbf8135230122fc3fe53aaa67552d1c4d45250298"
 
-RPROVIDES:${PN} += "application() \
-application(dosbox.desktop) \
-dosbox \
-dosbox(aarch-64) \
-metainfo() \
-metainfo(dosbox.metainfo.xml)"
+RPROVIDES:${PN} += "dosbox"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libSDL2_net-2.0.so.0()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfluidsynth.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libiir.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmt32emu.so.2()(64bit) \
-libopusfile.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libslirp.so.0()(64bit) \
-libspeexdsp.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libSDL2-net-2.0.so.0 \
+libasound.so.2 \
+libc.so.6 \
+libfluidsynth.so.3 \
+libgcc-s.so.1 \
+libiir.so.1 \
+libm.so.6 \
+libmt32emu.so.2 \
+libopusfile.so.0 \
+libpng16.so.16 \
+libslirp.so.0 \
+libspeexdsp.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

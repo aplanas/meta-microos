@@ -13,10 +13,10 @@ RPM_HASH = "223b78118e2c6561c403beccafa8c7be326fb654b0825b72bb26d29e13b10d6ef525
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WALinuxAgent \
-config(python-azure-agent) \
+config-python-azure-agent \
 python-azure-agent \
-python3.10dist(walinuxagent) \
-python3dist(walinuxagent)"
+python3.10dist-walinuxagent \
+python3dist-walinuxagent"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
@@ -28,7 +28,7 @@ logrotate \
 openssh \
 openssl \
 pwdutils \
-python(abi) \
+python-abi \
 python3-distro \
 python3-pyasn1 \
 python3-xml \

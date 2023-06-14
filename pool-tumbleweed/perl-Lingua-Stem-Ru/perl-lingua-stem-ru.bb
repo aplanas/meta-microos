@@ -17,9 +17,9 @@ RPM_NAME = "perl-Lingua-Stem-Ru-0.04-1.24.noarch.rpm"
 RPM_HASH = "0a20be221154504e63b1597e84fc2c43c27bcfe1c8601f3abc8924606804486f921627e60590bfcd8ae0f1b79ebaef1aa11bee7de2d87cb2542ec9ec2bdd2140"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Lingua::Stem::Ru) \
+RPROVIDES:${PN} += "perl-Lingua--Stem--Ru \
 perl-Lingua-Stem-Ru"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

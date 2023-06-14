@@ -7,13 +7,12 @@ PV = "0.5.43"
 RPM_NAME = "libhtp2-0.5.43-1.1.aarch64.rpm"
 RPM_HASH = "ec109a70b1748a23d30e56c287a4e738a598cca3ec315f8158976c4651bdcfa0f5c248f002428148321e7ed23d8a1925deefd99ad09a9d1198d04d6350e1f295"
 
-RPROVIDES:${PN} += "libhtp.so.2()(64bit) \
-libhtp2 \
-libhtp2(aarch-64)"
+RPROVIDES:${PN} += "libhtp.so.2 \
+libhtp2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1"
 
 inherit rpm

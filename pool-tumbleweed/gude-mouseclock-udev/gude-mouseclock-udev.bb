@@ -23,6 +23,6 @@ RPROVIDES:${PN} += "gude-mouseclock-udev"
 
 RDEPENDS:${PN} += "/bin/sh \
 systemd \
-user(ntp)"
+user-ntp"
 
 inherit rpm

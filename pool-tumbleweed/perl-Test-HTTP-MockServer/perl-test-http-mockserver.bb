@@ -30,15 +30,15 @@ RPM_NAME = "perl-Test-HTTP-MockServer-0.0.1-2.10.noarch.rpm"
 RPM_HASH = "7b0769bb5995dbfa344e0bf4c0167054d7c11a50f7a860c18b37583e03c4d1dde61dde2e11b8668d6278f65e630d616aa5eb3839b8e5aca3efd893016f3f9c94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::HTTP::MockServer) \
-perl(Test::HTTP::MockServer::REST) \
+RPROVIDES:${PN} += "perl-Test--HTTP--MockServer \
+perl-Test--HTTP--MockServer--REST \
 perl-Test-HTTP-MockServer"
 
-RDEPENDS:${PN} += "libnss_usrfiles2 \
+RDEPENDS:${PN} += "libnss-usrfiles2 \
 netcfg \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(HTTP::Parser) \
-perl(HTTP::Response) \
-perl(JSON::XS)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-HTTP--Parser \
+perl-HTTP--Response \
+perl-JSON--XS"
 
 inherit rpm

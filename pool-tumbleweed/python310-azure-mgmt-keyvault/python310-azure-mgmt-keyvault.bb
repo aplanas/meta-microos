@@ -14,12 +14,12 @@ RPM_HASH = "c81f139ae7dd691be8fd843486be85a59394e28e545d8d3fc03d878231a32bd19612
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-keyvault \
-python3.10dist(azure-mgmt-keyvault) \
+python3.10dist-azure-mgmt-keyvault \
 python310-azure-mgmt-keyvault \
-python3dist(azure-mgmt-keyvault)"
+python3dist-azure-mgmt-keyvault"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

@@ -14,11 +14,11 @@ RPM_HASH = "a20823137cce5680b976bed1ee8e186511c7552bd5055540bffb0500b403f0e947a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asyncclick \
-python3.10dist(asyncclick) \
+python3.10dist-asyncclick \
 python310-asyncclick \
-python3dist(asyncclick)"
+python3dist-asyncclick"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

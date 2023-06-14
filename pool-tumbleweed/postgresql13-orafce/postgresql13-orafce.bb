@@ -11,11 +11,10 @@ RPM_NAME = "postgresql13-orafce-4.2.6+git0.86d7f4c-1.2.aarch64.rpm"
 RPM_HASH = "794bc1501b101fda6a0c735dd4189e89948ced5c510159655d68f38cc7e03856bf397dba332c306eb868c6eae420a799fce01c42a1d40d57f12639d01df983e3"
 
 RPROVIDES:${PN} += "orafce \
-postgresql13-orafce \
-postgresql13-orafce(aarch-64)"
+postgresql13-orafce"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 postgresql13-server"
 
 inherit rpm

@@ -9,31 +9,30 @@ PV = "9.4.0"
 RPM_NAME = "libvirt-daemon-driver-storage-core-9.4.0-1.1.aarch64.rpm"
 RPM_HASH = "8e7a16e540ddd307896744d60571aaf8bcf9a9ffbd94f80f7f62d3a185c742bd2607984b42c6d4e7e68ad1fead0c2f295bf7d882a800c104201e6a3593df9bb1"
 
-RPROVIDES:${PN} += "config(libvirt-daemon-driver-storage-core) \
+RPROVIDES:${PN} += "config-libvirt-daemon-driver-storage-core \
 libvirt-daemon-driver-storage-core \
-libvirt-daemon-driver-storage-core(aarch-64) \
-libvirt_driver_storage.so()(64bit) \
-libvirt_storage_backend_fs.so()(64bit) \
-libvirt_storage_file_fs.so()(64bit)"
+libvirt-driver-storage.so \
+libvirt-storage-backend-fs.so \
+libvirt-storage-file-fs.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/qemu-img \
-ld-linux-aarch64.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libparted.so.2()(64bit) \
-libselinux.so.1()(64bit) \
-libtirpc.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libparted.so.2 \
+libselinux.so.1 \
+libtirpc.so.3 \
 libvirt-daemon-common \
 libvirt-libs \
-libvirt-lxc.so.0()(64bit) \
-libvirt-qemu.so.0()(64bit) \
-libvirt.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+libvirt-lxc.so.0 \
+libvirt-qemu.so.0 \
+libvirt.so.0 \
+libxml2.so.2 \
 nfs-utils \
 util-linux"
 

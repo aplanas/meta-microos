@@ -10,14 +10,14 @@ RPM_HASH = "6aee4494af0fdcb6f610ff708efcccc7f494c6c97a8833f6a76e2bec81d351aec8a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fonts-thryomanes \
-locale(bg;el;ru) \
+locale-bg;el;ru \
 scalable-font-bg \
 scalable-font-el \
 scalable-font-ru \
 thryomanes-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

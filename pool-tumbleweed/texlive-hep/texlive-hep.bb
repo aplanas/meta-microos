@@ -10,7 +10,7 @@ RPM_NAME = "texlive-hep-2023.201.1.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "f795ec3f8feee1f4854336d9fe0f7350c7a1b956f86789ccf592b62710f636b781ab234bfc86c82985052542fd98b72ffcd7d9cce59baff7374d0c16e2f3b2fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hep.sty) \
+RPROVIDES:${PN} += "tex-hep.sty \
 texlive-hep"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,25 +19,25 @@ ed \
 findutils \
 grep \
 sed \
-tex(afterpage.sty) \
-tex(amsmath.sty) \
-tex(booktabs.sty) \
-tex(braket.sty) \
-tex(cancel.sty) \
-tex(caption.sty) \
-tex(ccaption.sty) \
-tex(cite.sty) \
-tex(fancyhdr.sty) \
-tex(feynmf.sty) \
-tex(hepnicenames.sty) \
-tex(hepunits.sty) \
-tex(hyperref.sty) \
-tex(morefloats.sty) \
-tex(setspace.sty) \
-tex(slashed.sty) \
-tex(subfigure.sty) \
-tex(tocbibind.sty) \
-tex(url.sty) \
+tex-afterpage.sty \
+tex-amsmath.sty \
+tex-booktabs.sty \
+tex-braket.sty \
+tex-cancel.sty \
+tex-caption.sty \
+tex-ccaption.sty \
+tex-cite.sty \
+tex-fancyhdr.sty \
+tex-feynmf.sty \
+tex-hepnicenames.sty \
+tex-hepunits.sty \
+tex-hyperref.sty \
+tex-morefloats.sty \
+tex-setspace.sty \
+tex-slashed.sty \
+tex-subfigure.sty \
+tex-tocbibind.sty \
+tex-url.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

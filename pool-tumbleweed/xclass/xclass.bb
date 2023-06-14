@@ -8,9 +8,8 @@ PV = "0.9.2"
 RPM_NAME = "xclass-0.9.2-188.6.aarch64.rpm"
 RPM_HASH = "897bf709368f5a171472ce8ec5dd3a5c6813c24bbdea3a6084b112fddeb0acb6fcae2a9480a34b815db5ab9e6b7747d0e7a1d422156c40530d259d49433b937e"
 
-RPROVIDES:${PN} += "config(xclass) \
-xclass \
-xclass(aarch-64)"
+RPROVIDES:${PN} += "config-xclass \
+xclass"
 
 RDEPENDS:${PN} += ""
 

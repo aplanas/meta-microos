@@ -11,7 +11,7 @@ RPM_NAME = "texlive-listliketab-2023.201.svn15878-54.1.noarch.rpm"
 RPM_HASH = "60cf8738f00f671cfbd7a895d07f5e8d2333c58eeb080234a6b5526a7d9aab8968fae3c3ce41ef16d530c30b3e78cec3d745903fe897899c7fb0a8d1ab1e28d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(listliketab.sty) \
+RPROVIDES:${PN} += "tex-listliketab.sty \
 texlive-listliketab"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(calc.sty) \
+tex-array.sty \
+tex-calc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

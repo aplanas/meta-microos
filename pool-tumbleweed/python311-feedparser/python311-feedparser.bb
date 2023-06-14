@@ -9,11 +9,11 @@ RPM_NAME = "python311-feedparser-6.0.10-1.5.noarch.rpm"
 RPM_HASH = "53ad6c349de5fd40ada5ad7dbcc1fe8f1aa14bfa3453445960aa6ec9720b1ec5d33594a698f28866f60a48525a1975df0d72021bd7e67994e2ce2870f0bc8418"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(feedparser) \
+RPROVIDES:${PN} += "python3.11dist-feedparser \
 python311-feedparser \
-python3dist(feedparser)"
+python3dist-feedparser"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-sgmllib3k \
 python311-xml"
 

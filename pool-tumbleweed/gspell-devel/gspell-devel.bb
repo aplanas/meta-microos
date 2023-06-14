@@ -12,15 +12,14 @@ RPM_NAME = "gspell-devel-1.12.1-1.2.aarch64.rpm"
 RPM_HASH = "4e2e3738508118db84a62f42e772bd741b96d1cb6667f2de20299d84716dec18512ccaf636292f39bdaeac56b38efdf997f1a578878f4e9af4e3bb83aa28cda6"
 
 RPROVIDES:${PN} += "gspell-devel \
-gspell-devel(aarch-64) \
-pkgconfig(gspell-1)"
+pkgconfig-gspell-1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgspell-1-2 \
-pkgconfig(enchant-2) \
-pkgconfig(glib-2.0) \
-pkgconfig(gtk+-3.0) \
-pkgconfig(icu-uc) \
-typelib-1_0-Gspell-1"
+pkgconfig-enchant-2 \
+pkgconfig-glib-2.0 \
+pkgconfig-gtk+-3.0 \
+pkgconfig-icu-uc \
+typelib-1-0-Gspell-1"
 
 inherit rpm

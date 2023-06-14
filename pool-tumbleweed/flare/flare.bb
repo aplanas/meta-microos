@@ -16,22 +16,19 @@ PV = "1.14"
 RPM_NAME = "flare-1.14-1.3.aarch64.rpm"
 RPM_HASH = "acec35639f9d07d0f60cc19f9aa8bbff8111323450036c1a18887d6e199e90220109b853ff4d90b0c7040bfafe137184071d477308287ef381bbcd41dce772e4"
 
-RPROVIDES:${PN} += "application() \
-application(flare.desktop) \
-flare \
-flare(aarch-64) \
+RPROVIDES:${PN} += "flare \
 flare-engine"
 
 RDEPENDS:${PN} += "flare-game \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libSDL2_ttf-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libSDL2-ttf-2.0.so.0 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6 \
 update-desktop-files"
 
 inherit rpm

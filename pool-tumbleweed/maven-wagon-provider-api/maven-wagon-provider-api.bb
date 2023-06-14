@@ -9,11 +9,11 @@ RPM_HASH = "9888078f3f311ba720d833b7d0247c0ad49b4a069692151e7a8eaaf78a2a5e8e7254
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-provider-api \
-mvn(org.apache.maven.wagon:wagon-provider-api) \
-mvn(org.apache.maven.wagon:wagon-provider-api:pom:)"
+mvn-org.apache.maven.wagon-wagon-provider-api \
+mvn-org.apache.maven.wagon-wagon-provider-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

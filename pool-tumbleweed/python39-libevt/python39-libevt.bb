@@ -9,19 +9,14 @@ PV = "20221022"
 RPM_NAME = "python39-libevt-20221022-3.9.aarch64.rpm"
 RPM_HASH = "a131a2aad2609c0eab0e6c0b3e633f132b156317f6840114a98205cdce636fda6ae9a49b8093c4d15e0d7f51ec819163148db9905fe48250a146eea764b741d6"
 
-RPROVIDES:${PN} += "python39-libevt \
-python39-libevt(aarch-64)"
+RPROVIDES:${PN} += "python39-libevt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libevt.so.1()(64bit) \
-libevt.so.1(V_20221022)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libclocale.so.1 \
+libevt.so.1 \
+python-abi"
 
 inherit rpm

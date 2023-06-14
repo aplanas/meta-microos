@@ -11,7 +11,6 @@ RPM_HASH = "0c014abb08ae62ff109e0a1e6935e8d8340b0ad2154c1cd4eccb152d1d76de796ff4
 
 RPROVIDES:${PN} += "groff-devx \
 groff-full \
-groff-full(aarch-64) \
 jgroff \
 normal-groff"
 
@@ -21,13 +20,13 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ghostscript-library \
 groff \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 netpbm \
 psutils \
 update-alternatives"

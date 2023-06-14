@@ -8,7 +8,7 @@ RPM_NAME = "texlive-scheme-context-2023.208.svn59636-58.1.noarch.rpm"
 RPM_HASH = "5feb306663d4169f27c9c93a485b2894592a9d16201f8948b465827e086e9e71ead18d208b736e510b58a2ee50dc3e0be12e2bb080badabe86df7e05be246a6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(context) \
+RPROVIDES:${PN} += "tex-context \
 texlive-scheme-context"
 
 RDEPENDS:${PN} += "texlive-antt \

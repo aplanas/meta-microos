@@ -11,7 +11,7 @@ RPM_NAME = "lxde-common-branding-upstream-0.99.2-2.17.noarch.rpm"
 RPM_HASH = "1ae4e165ce242eb715111aca57857883ac33d4e3201efe02598ff7055ebc01d156066b8a1e23684926e386dbc55809776571ddddd9948df4e3c0472ec548bab4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(lxde-common-branding-upstream) \
+RPROVIDES:${PN} += "config-lxde-common-branding-upstream \
 lxde-common-branding \
 lxde-common-branding-upstream"
 

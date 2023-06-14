@@ -15,20 +15,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-compare \
 nemo-extension-compare \
-python3.10dist(nemo-compare) \
-python3dist(nemo-compare)"
+python3.10dist-nemo-compare \
+python3dist-nemo-compare"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 meld \
 nemo \
-python(abi) \
+python-abi \
 python3-gobject \
 python3-nemo \
 python3-pyxdg \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Nemo)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
+typelib-Nemo"
 
 inherit rpm

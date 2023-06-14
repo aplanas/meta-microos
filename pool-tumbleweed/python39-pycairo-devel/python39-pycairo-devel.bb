@@ -11,8 +11,7 @@ RPM_NAME = "python39-pycairo-devel-1.23.0-2.1.aarch64.rpm"
 RPM_HASH = "6d0642af719aeec0e968fcd7c25ba87a63aea6d56f33bf2525a000d554347c78acfa0d5ac5bc28727a4115b8e2d57ffc0d1dbea4e018393908b7025932af588c"
 
 RPROVIDES:${PN} += "python39-cairo-devel \
-python39-pycairo-devel \
-python39-pycairo-devel(aarch-64)"
+python39-pycairo-devel"
 
 RDEPENDS:${PN} += "python39-devel \
 python39-pycairo \

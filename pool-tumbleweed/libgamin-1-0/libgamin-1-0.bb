@@ -11,12 +11,11 @@ RPM_HASH = "e05c8614b4672ec1004be426dfa08e587685ba0b5c9a26671bd7d626c7c78b157c74
 
 RPROVIDES:${PN} += "libgamin \
 libgamin-1-0 \
-libgamin-1-0(aarch-64) \
-libgamin-1.so.0()(64bit)"
+libgamin-1.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gamin-server \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

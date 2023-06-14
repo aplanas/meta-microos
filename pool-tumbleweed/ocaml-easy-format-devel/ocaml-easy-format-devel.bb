@@ -8,30 +8,29 @@ PV = "1.3.4"
 RPM_NAME = "ocaml-easy-format-devel-1.3.4-1.4.aarch64.rpm"
 RPM_HASH = "896e5c3adc62a3fb870ef7156734d5a151f65fc08ee489feb9816cd1d04a0a8df0ab3607ecf23355f7df24c48a859ca79c65937cdfa6ca3e0a916d0740462a20"
 
-RPROVIDES:${PN} += "ocaml(Easy_format) \
+RPROVIDES:${PN} += "ocaml-Easy-format \
 ocaml-easy-format-devel \
-ocaml-easy-format-devel(aarch-64) \
-ocamlfind(easy-format) \
-ocamlx(Easy_format)"
+ocamlfind-easy-format \
+ocamlx-Easy-format"
 
-RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
-ocaml(Stdlib) \
-ocaml(Stdlib__Buffer) \
-ocaml(Stdlib__Either) \
-ocaml(Stdlib__Format) \
-ocaml(Stdlib__Hashtbl) \
-ocaml(Stdlib__List) \
-ocaml(Stdlib__Printf) \
-ocaml(Stdlib__Seq) \
-ocaml(Stdlib__String) \
-ocaml(Stdlib__Uchar) \
+RDEPENDS:${PN} += "ocaml-CamlinternalFormatBasics \
+ocaml-Stdlib \
+ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Either \
+ocaml-Stdlib--Format \
+ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--List \
+ocaml-Stdlib--Printf \
+ocaml-Stdlib--Seq \
+ocaml-Stdlib--String \
+ocaml-Stdlib--Uchar \
 ocaml-easy-format \
-ocamlx(Stdlib) \
-ocamlx(Stdlib__Buffer) \
-ocamlx(Stdlib__Format) \
-ocamlx(Stdlib__Hashtbl) \
-ocamlx(Stdlib__List) \
-ocamlx(Stdlib__Printf) \
-ocamlx(Stdlib__String)"
+ocamlx-Stdlib \
+ocamlx-Stdlib--Buffer \
+ocamlx-Stdlib--Format \
+ocamlx-Stdlib--Hashtbl \
+ocamlx-Stdlib--List \
+ocamlx-Stdlib--Printf \
+ocamlx-Stdlib--String"
 
 inherit rpm

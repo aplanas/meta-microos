@@ -12,11 +12,11 @@ RPM_HASH = "c09c414684635f5f09f34a09b0352ae1ac48fb4db16c593b70558f8e2edfd7f8878d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lineup-widget \
-python3.10dist(lineup-widget) \
+python3.10dist-lineup-widget \
 python310-lineup-widget \
-python3dist(lineup-widget)"
+python3dist-lineup-widget"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipywidgets \
 python310-notebook \
 python310-pandas"

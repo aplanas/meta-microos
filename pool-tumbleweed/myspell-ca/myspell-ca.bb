@@ -9,8 +9,8 @@ RPM_HASH = "0063eebe34cf64a7557ad7620d23565c2f86bdf226f48b18b49dadf3e8dca12dc8ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-ca \
-locale(libreoffice:ca) \
-locale(seamonkey-spellchecker:ca) \
+locale-libreoffice-ca \
+locale-seamonkey-spellchecker-ca \
 myspell-ca \
 myspell-catalan \
 myspell-dictionary"

@@ -13,12 +13,12 @@ RPM_HASH = "ca742ec390564f3b6bf0fbdf42b3be923cb971d23235ee7f281f7ef7af924828e48e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-mockito \
-python3.10dist(pytest-mockito) \
+python3.10dist-pytest-mockito \
 python310-pytest-mockito \
-python3dist(pytest-mockito)"
+python3dist-pytest-mockito"
 
 RDEPENDS:${PN} += "ca-certificates \
-python(abi) \
+python-abi \
 python310 \
 python310-mockito \
 python310-pytest"

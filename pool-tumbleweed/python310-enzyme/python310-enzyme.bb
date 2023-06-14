@@ -9,10 +9,10 @@ RPM_HASH = "443a2728ace666ab3ab7f082f856673e50857b185a3696200dbf019478887302f5c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-enzyme \
-python3.10dist(enzyme) \
+python3.10dist-enzyme \
 python310-enzyme \
-python3dist(enzyme)"
+python3dist-enzyme"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -8,15 +8,13 @@ PV = "1.13.2"
 RPM_NAME = "h5utils-1.13.2-1.2.aarch64.rpm"
 RPM_HASH = "afaa81719ca1bfd43283041149e4fc431ac6fc04b9b9d8cc03799500216c3aa071c4bc0faeebe0ca4622e634ce2439e1ca836e60225d589c50a9c170106a4d13"
 
-RPROVIDES:${PN} += "h5utils \
-h5utils(aarch-64)"
+RPROVIDES:${PN} += "h5utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhdf5.so.200 \
+libm.so.6 \
+libpng16.so.16 \
 meep"
 
 inherit rpm

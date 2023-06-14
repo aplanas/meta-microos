@@ -7,15 +7,14 @@ PV = "1.82.0"
 RPM_NAME = "libboost_chrono1_82_0-1.82.0-1.2.aarch64.rpm"
 RPM_HASH = "bdc34904eefe23b2017042b5f421e3e946537c69dd3ef4840ffb09fbc7b5334155ecc84561a0319e71b0aa56543368d1b699cf84270f76fa6276b1404b504a48"
 
-RPROVIDES:${PN} += "libboost_chrono.so.1.82.0()(64bit) \
-libboost_chrono1_82_0 \
-libboost_chrono1_82_0(aarch-64)"
+RPROVIDES:${PN} += "libboost-chrono.so.1.82.0 \
+libboost-chrono1-82-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-boost-license1_82_0 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+boost-license1-82-0 \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

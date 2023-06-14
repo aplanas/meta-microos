@@ -10,13 +10,13 @@ RPM_HASH = "1459e0c72510beeaa5a736a98ed2e099e3e57e370104ac5c2ab2e84cff96932f9d87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-native \
-mvn(org.codehaus.mojo.natives:maven-native-api) \
-mvn(org.codehaus.mojo.natives:maven-native-api:pom:) \
-mvn(org.codehaus.mojo.natives:maven-native:pom:)"
+mvn-org.codehaus.mojo.natives-maven-native-api \
+mvn-org.codehaus.mojo.natives-maven-native-api-pom- \
+mvn-org.codehaus.mojo.natives-maven-native-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.codehaus.plexus:plexus-container-default) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.codehaus.plexus-plexus-container-default \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

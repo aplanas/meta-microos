@@ -12,7 +12,7 @@ RPM_NAME = "texlive-lplfitch-2023.201.0.0.9svn31077-54.1.noarch.rpm"
 RPM_HASH = "ac4700ab8b8ae988e7b19c34320fe67b52dfce37a2a33da77dffa445553b2d4e4fba5462008e39df1c4c6c105feede19a9b337121830a8482a265fa5f4328be7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lplfitch.sty) \
+RPROVIDES:${PN} += "tex-lplfitch.sty \
 texlive-lplfitch"
 
 RDEPENDS:${PN} += "/bin/sh \

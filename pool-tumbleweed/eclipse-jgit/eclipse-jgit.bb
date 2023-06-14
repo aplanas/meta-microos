@@ -9,14 +9,14 @@ RPM_HASH = "ff036a50c65c29205c516e2bfb6a012b450dcd728d01f5295d41f7be679ceee8bd86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-jgit \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.gpg.bc) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.http.apache) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.junit) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.lfs) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.pgm) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.ssh.apache) \
-mvn(org.eclipse.jgit.feature:org.eclipse.jgit.ssh.jsch)"
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.gpg.bc \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.http.apache \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.junit \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.lfs \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.pgm \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.ssh.apache \
+mvn-org.eclipse.jgit.feature-org.eclipse.jgit.ssh.jsch"
 
 RDEPENDS:${PN} += "apache-commons-compress \
 apache-sshd \

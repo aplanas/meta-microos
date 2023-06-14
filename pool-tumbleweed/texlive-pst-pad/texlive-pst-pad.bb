@@ -14,8 +14,8 @@ RPM_NAME = "texlive-pst-pad-2023.201.0.0.3bsvn15878-52.1.noarch.rpm"
 RPM_HASH = "755ca1ada1815b6aaaf04649e43b560d1e4a62479bc573076b31a6b67f3ac90bc85684727dd4f62530b3c5869f36304f4bc6be73db51521a85ae44521f7ce67c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-pad.sty) \
-tex(pst-pad.tex) \
+RPROVIDES:${PN} += "tex-pst-pad.sty \
+tex-pst-pad.tex \
 texlive-pst-pad"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,7 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

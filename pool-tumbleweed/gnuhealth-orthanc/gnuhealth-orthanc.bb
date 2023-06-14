@@ -9,11 +9,11 @@ RPM_HASH = "0cfb53e6a2cc313bc58ba34afb5c9434705c09f10bc69cdea3225435cdb18782b161
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth-orthanc \
-python3.10dist(gnuhealth-orthanc) \
-python3dist(gnuhealth-orthanc)"
+python3.10dist-gnuhealth-orthanc \
+python3dist-gnuhealth-orthanc"
 
 RDEPENDS:${PN} += "gnuhealth \
-python(abi) \
+python-abi \
 python3-beren \
 python3-pendulum"
 

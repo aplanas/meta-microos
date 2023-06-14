@@ -16,7 +16,7 @@ RPM_NAME = "texlive-simplivre-2023.201.svn65475-57.1.noarch.rpm"
 RPM_HASH = "c4e3f4f53601da9298db31d7b172bc14a8eeb0ceb0b0a4ad81dc1eb066a1fe4d9485902b4cab14dc2acaa5e770ca87383aa60be04f8521fa24bc12459fd4ef44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(simplivre.cls) \
+RPROVIDES:${PN} += "tex-simplivre.cls \
 texlive-simplivre"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,27 +25,27 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(caption.sty) \
-tex(ctex.sty) \
-tex(draftwatermark.sty) \
-tex(embrac.sty) \
-tex(float.sty) \
-tex(fontspec.sty) \
-tex(geometry.sty) \
-tex(graphicx.sty) \
-tex(indentfirst.sty) \
-tex(lua-widow-control.sty) \
-tex(mathpazo.sty) \
-tex(minimalist.sty) \
-tex(nowidow.sty) \
-tex(parskip.sty) \
-tex(projlib-font.sty) \
-tex(regexpatch.sty) \
-tex(silence.sty) \
-tex(tikz-cd.sty) \
-tex(unicode-math.sty) \
-tex(wrapfig.sty) \
+tex-amssymb.sty \
+tex-caption.sty \
+tex-ctex.sty \
+tex-draftwatermark.sty \
+tex-embrac.sty \
+tex-float.sty \
+tex-fontspec.sty \
+tex-geometry.sty \
+tex-graphicx.sty \
+tex-indentfirst.sty \
+tex-lua-widow-control.sty \
+tex-mathpazo.sty \
+tex-minimalist.sty \
+tex-nowidow.sty \
+tex-parskip.sty \
+tex-projlib-font.sty \
+tex-regexpatch.sty \
+tex-silence.sty \
+tex-tikz-cd.sty \
+tex-unicode-math.sty \
+tex-wrapfig.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

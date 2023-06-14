@@ -11,22 +11,16 @@ PV = "43.0"
 RPM_NAME = "dconf-editor-43.0-1.3.aarch64.rpm"
 RPM_HASH = "3ae1f71e584478a2f1141a530a7aa302acaf2da8641ed1ebb38eead1846e2e4f30ae9a26814bf9a04f29ff1b4beb70c10aa97eadb13ddd58285410a54760d59e"
 
-RPROVIDES:${PN} += "application() \
-application(ca.desrt.dconf-editor.desktop) \
-dconf-editor \
-dconf-editor(aarch-64) \
-metainfo() \
-metainfo(ca.desrt.dconf-editor.appdata.xml)"
+RPROVIDES:${PN} += "dconf-editor"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdconf.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libhandy-1.so.0()(64bit) \
-libhandy-1.so.0(LIBHANDY_1_0)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdconf.so.1 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libhandy-1.so.0"
 
 inherit rpm

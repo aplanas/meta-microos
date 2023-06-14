@@ -52,26 +52,24 @@ PV = "1.28"
 RPM_NAME = "perl-Event-1.28-1.12.aarch64.rpm"
 RPM_HASH = "bed6e2271d028fd16b4876ebc229ac6e39437e146bc19667bd227da3bce2a37ce082811467fc00b6a0ae0c653ff7d83de988366c7fd61fc224192cb934855ce7"
 
-RPROVIDES:${PN} += "perl(Event) \
-perl(Event::Event::Dataful) \
-perl(Event::Event::Io) \
-perl(Event::MakeMaker) \
-perl(Event::Watcher) \
-perl(Event::Watcher::Tied) \
-perl(Event::generic) \
-perl(Event::generic::Source) \
-perl(Event::group) \
-perl(Event::idle) \
-perl(Event::io) \
-perl(Event::signal) \
-perl(Event::timer) \
-perl(Event::type) \
-perl(Event::var) \
-perl-Event \
-perl-Event(aarch-64)"
+RPROVIDES:${PN} += "perl-Event \
+perl-Event--Event--Dataful \
+perl-Event--Event--Io \
+perl-Event--MakeMaker \
+perl-Event--Watcher \
+perl-Event--Watcher--Tied \
+perl-Event--generic \
+perl-Event--generic--Source \
+perl-Event--group \
+perl-Event--idle \
+perl-Event--io \
+perl-Event--signal \
+perl-Event--timer \
+perl-Event--type \
+perl-Event--var"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

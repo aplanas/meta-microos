@@ -11,11 +11,11 @@ RPM_HASH = "1454851942cbeacf1b7a67f7ed36fc49e6bf2b2132657e889922d750b3c3bb15282a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-textanalytics \
-python3.10dist(azure-cognitiveservices-language-textanalytics) \
+python3.10dist-azure-cognitiveservices-language-textanalytics \
 python310-azure-cognitiveservices-language-textanalytics \
-python3dist(azure-cognitiveservices-language-textanalytics)"
+python3dist-azure-cognitiveservices-language-textanalytics"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-language-nspkg \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \

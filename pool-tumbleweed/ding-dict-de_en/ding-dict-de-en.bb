@@ -10,7 +10,7 @@ RPM_NAME = "ding-dict-de_en-1.9-2.2.noarch.rpm"
 RPM_HASH = "467a6b0d95470f65e7fdff8e4924fc22333f5164aef6794bbf1ab56d8b3f3c404a2b6ecfa582e0fafc7a619b500e6a04982d4c14e0f1ca039b82037606b311b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ding-dict-de_en"
+RPROVIDES:${PN} += "ding-dict-de-en"
 
 RDEPENDS:${PN} += ""
 

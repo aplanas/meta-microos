@@ -20,17 +20,16 @@ PV = "1.03+git1.226f03b"
 RPM_NAME = "vst-rnnoise-1.03+git1.226f03b-1.4.aarch64.rpm"
 RPM_HASH = "4da7eb5d13ac330abedef301856bed3a945ab4b2a93b198243c9fa74970a4e50c8219f0fa64ee7277d4eb630dfa3ee2c9aac438d85f38cfc790fbf4d4ebd847c"
 
-RPROVIDES:${PN} += "librnnoise_mono.so()(64bit) \
-librnnoise_stereo.so()(64bit) \
-vst-rnnoise \
-vst-rnnoise(aarch-64)"
+RPROVIDES:${PN} += "librnnoise-mono.so \
+librnnoise-stereo.so \
+vst-rnnoise"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

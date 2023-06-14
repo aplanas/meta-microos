@@ -12,13 +12,13 @@ RPM_HASH = "6ab6bd6ed71e5171a8e5a911ff6dd16ca004ba8c8c586aeadc647e952930ec2a8f31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-haproxyctl \
-python3.10dist(haproxyctl) \
+python3.10dist-haproxyctl \
 python310-haproxyctl \
-python3dist(haproxyctl)"
+python3dist-haproxyctl"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 haproxy \
-python(abi)"
+python-abi"
 
 inherit rpm

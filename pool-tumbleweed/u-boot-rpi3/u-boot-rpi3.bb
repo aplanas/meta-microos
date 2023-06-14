@@ -9,8 +9,7 @@ RPM_NAME = "u-boot-rpi3-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "9dd817ed7389e6b09478e69d0c9817afca6512ae003159b4ee81c7971fb18ff023f57cd5f991b22a8f830bb61695f4c719fa094eb44e44264af142f5a47ed102"
 
 RPROVIDES:${PN} += "u-boot-loader \
-u-boot-rpi3 \
-u-boot-rpi3(aarch-64)"
+u-boot-rpi3"
 
 RDEPENDS:${PN} += "/bin/sh \
 util-linux"

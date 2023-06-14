@@ -17,17 +17,15 @@ PV = "4.2.1"
 RPM_NAME = "libczmq4-4.2.1-1.8.aarch64.rpm"
 RPM_HASH = "3da1aa61de7afe580a8a5f324efc87ec0fb5bbe4b458b6532bca8720ad0f83af0119c73556c620c3c97659296c12653ce696557fce560c92b9489d615bc572dd"
 
-RPROVIDES:${PN} += "libczmq.so.4()(64bit) \
-libczmq4 \
-libczmq4(aarch-64)"
+RPROVIDES:${PN} += "libczmq.so.4 \
+libczmq4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblz4.so.1()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libuuid.so.1()(64bit) \
-libzmq.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblz4.so.1 \
+libsystemd.so.0 \
+libuuid.so.1 \
+libzmq.so.5"
 
 inherit rpm

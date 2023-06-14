@@ -13,60 +13,47 @@ PV = "2022.0.0"
 RPM_NAME = "hugin-2022.0.0-1.7.aarch64.rpm"
 RPM_HASH = "b619672583212b4d3f5489d5218a35a68ca0d817803efe36f1c56da21e831a497a686d31949992b154f5ebcbbdcecfbcfde0882f368c9578bbe9ff580af361f8"
 
-RPROVIDES:${PN} += "application() \
-application(PTBatcherGUI.desktop) \
-application(calibrate_lens_gui.desktop) \
-application(hugin.desktop) \
-application(pto_gen.desktop) \
-hugin \
-hugin(aarch-64) \
-libceleste.so.0.0()(64bit) \
-libhuginbase.so.0.0()(64bit) \
-libhuginbasewx.so.0.0()(64bit) \
-libicpfindlib.so.0.0()(64bit) \
-liblocalfeatures.so.0.0()(64bit) \
-metainfo() \
-metainfo(PTBatcherGUI.appdata.xml) \
-metainfo(calibrate_lens_gui.appdata.xml) \
-metainfo(hugin.appdata.xml) \
-mimehandler(application/x-ptoptimizer-script) \
-mimehandler(image/jpeg) \
-mimehandler(image/tiff)"
+RPROVIDES:${PN} += "hugin \
+libceleste.so.0.0 \
+libhuginbase.so.0.0 \
+libhuginbasewx.so.0.0 \
+libicpfindlib.so.0.0 \
+liblocalfeatures.so.0.0"
 
 RDEPENDS:${PN} += "enblend-enfuse \
-ld-linux-aarch64.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libGLU.so.1()(64bit) \
-libGLX.so.0()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libOpenGL.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libblas.so.3()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libexiv2.so.27()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-liblapack.so.3()(64bit) \
-liblcms2.so.2()(64bit) \
-liblz4.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpano13.so.3()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libvigraimpex.so.11()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_net-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_gl-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_qa-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_xrc-suse.so.9.0.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libGLEW.so.2.2 \
+libGLU.so.1 \
+libGLX.so.0 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libOpenGL.so.0 \
+libX11.so.6 \
+libblas.so.3 \
+libboost-filesystem.so.1.82.0 \
+libc.so.6 \
+libexiv2.so.27 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+liblapack.so.3 \
+liblcms2.so.2 \
+liblz4.so.1 \
+libm.so.6 \
+libpano13.so.3 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libvigraimpex.so.11 \
+libwx-baseu-net-suse.so.9.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-gtk3u-aui-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-gl-suse.so.9.0.0 \
+libwx-gtk3u-html-suse.so.9.0.0 \
+libwx-gtk3u-qa-suse.so.9.0.0 \
+libwx-gtk3u-xrc-suse.so.9.0.0 \
 make"
 
 inherit rpm

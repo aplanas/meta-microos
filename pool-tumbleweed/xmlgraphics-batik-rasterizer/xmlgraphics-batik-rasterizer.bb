@@ -13,13 +13,13 @@ RPM_HASH = "a08de8288f783a50aed29fff751d285fa78fd4a7f77300b687f4dace517e42acd604
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-rasterizer \
-config(xmlgraphics-batik-rasterizer) \
-mvn(org.apache.xmlgraphics:batik-rasterizer) \
-mvn(org.apache.xmlgraphics:batik-rasterizer-ext) \
-mvn(org.apache.xmlgraphics:batik-rasterizer-ext:pom:) \
-mvn(org.apache.xmlgraphics:batik-rasterizer:pom:) \
-osgi(org.apache.batik.rasterizer) \
-osgi(org.apache.batik.rasterizer-ext) \
+config-xmlgraphics-batik-rasterizer \
+mvn-org.apache.xmlgraphics-batik-rasterizer \
+mvn-org.apache.xmlgraphics-batik-rasterizer-ext \
+mvn-org.apache.xmlgraphics-batik-rasterizer-ext-pom- \
+mvn-org.apache.xmlgraphics-batik-rasterizer-pom- \
+osgi-org.apache.batik.rasterizer \
+osgi-org.apache.batik.rasterizer-ext \
 xmlgraphics-batik-rasterizer"
 
 RDEPENDS:${PN} += "/bin/bash \

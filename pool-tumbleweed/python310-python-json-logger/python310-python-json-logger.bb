@@ -9,11 +9,11 @@ RPM_HASH = "77ef54f5f7f80a57915dcbdd37ad83520b87e835bc9232a85bd69fbaca6f6b5b6c98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-json-logger \
-python3.10dist(python-json-logger) \
+python3.10dist-python-json-logger \
 python310-python-json-logger \
-python3dist(python-json-logger)"
+python3dist-python-json-logger"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

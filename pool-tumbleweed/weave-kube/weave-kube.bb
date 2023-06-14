@@ -15,8 +15,7 @@ PV = "2.8.1"
 RPM_NAME = "weave-kube-2.8.1-3.8.aarch64.rpm"
 RPM_HASH = "370b18b4b5625f6092dc404619d89a3ab6fa2f29db13ffe463bd51f405dce9741b11e840a5ebc0fb2a2eb083e9ff1fbf72b6eff14c4168526bae28fe5465d26e"
 
-RPROVIDES:${PN} += "weave-kube \
-weave-kube(aarch-64)"
+RPROVIDES:${PN} += "weave-kube"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/modprobe \
@@ -27,7 +26,7 @@ curl \
 iproute2 \
 ipset \
 iptables \
-libc.so.6()(64bit) \
-libpcap.so.1()(64bit)"
+libc.so.6 \
+libpcap.so.1"
 
 inherit rpm

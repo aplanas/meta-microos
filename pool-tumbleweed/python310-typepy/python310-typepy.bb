@@ -9,11 +9,11 @@ RPM_HASH = "8582014fcd669672dd6eb769f5c4ffc91d090f3c249819c60d6183c3e192c856e815
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-typepy \
-python3.10dist(typepy) \
+python3.10dist-typepy \
 python310-typepy \
-python3dist(typepy)"
+python3dist-typepy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-mbstrdecoder"
 
 inherit rpm

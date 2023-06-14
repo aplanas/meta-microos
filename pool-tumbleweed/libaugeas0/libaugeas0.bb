@@ -14,14 +14,13 @@ PV = "1.13.0"
 RPM_NAME = "libaugeas0-1.13.0-2.1.aarch64.rpm"
 RPM_HASH = "2a52eb00b1afdb804b28e30e120557b62ef80d1d7944ba2b61dadacee9dfbe4fad8a82fa19b1065659c2014323fa34bebd27db85c008feea63e0e721c19cf962"
 
-RPROVIDES:${PN} += "libaugeas.so.0()(64bit) \
-libaugeas0 \
-libaugeas0(aarch-64)"
+RPROVIDES:${PN} += "libaugeas.so.0 \
+libaugeas0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfa.so.1()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfa.so.1 \
+libxml2.so.2"
 
 inherit rpm

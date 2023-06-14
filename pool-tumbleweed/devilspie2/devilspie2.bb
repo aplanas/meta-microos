@@ -12,17 +12,16 @@ PV = "0.43"
 RPM_NAME = "devilspie2-0.43-3.11.aarch64.rpm"
 RPM_HASH = "2868d5f22ade3beeda9a45c7f7b03abda88a8e9481104d6c1dae33deabc5c5dc2a2d4f736e8538a083d551a37e168a0d6bd4fd3ba06f49c9347571e0cbdc7004"
 
-RPROVIDES:${PN} += "devilspie2 \
-devilspie2(aarch-64)"
+RPROVIDES:${PN} += "devilspie2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-liblua5.1.so.5()(64bit) \
-libwnck-3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+liblua5.1.so.5 \
+libwnck-3.so.0"
 
 inherit rpm

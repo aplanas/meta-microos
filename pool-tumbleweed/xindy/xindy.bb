@@ -17,12 +17,11 @@ PV = "2.5.1"
 RPM_NAME = "xindy-2.5.1-2.24.aarch64.rpm"
 RPM_HASH = "1cc06b2bc582090b4f12130973a6bb97f7f805bc38b9df457d5effb9e8cef47a19c3fa7a62ac0ddd763f9dba6044933a55fe296b735aca83004c73f21ee870cd"
 
-RPROVIDES:${PN} += "xindy \
-xindy(aarch-64)"
+RPROVIDES:${PN} += "xindy"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 clisp \
-libc.so.6()(64bit) \
+libc.so.6 \
 xindy-rules"
 
 inherit rpm

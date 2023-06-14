@@ -11,13 +11,12 @@ RPM_NAME = "python310-pylibfdt-1.6.1-1.8.aarch64.rpm"
 RPM_HASH = "c563b42af2084160dea82cc98a4572f046aca994223d4ff71f4a9430c8d0691bd6b56fd17bc13eae952266ab83bb68a4fb7b79a6f3f642726d769b4d83d0b387"
 
 RPROVIDES:${PN} += "python3-pylibfdt \
-python3.10dist(pylibfdt) \
+python3.10dist-pylibfdt \
 python310-pylibfdt \
-python310-pylibfdt(aarch-64) \
-python3dist(pylibfdt)"
+python3dist-pylibfdt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

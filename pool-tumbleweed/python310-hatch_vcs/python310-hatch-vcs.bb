@@ -9,14 +9,12 @@ RPM_HASH = "8938e6c6de670d8b708cd61c23e6fff7863f025a0baaf743a3141061b2cf20b30636
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hatch-vcs \
-python3-hatch_vcs \
-python3.10dist(hatch-vcs) \
+python3.10dist-hatch-vcs \
 python310-hatch-vcs \
-python310-hatch_vcs \
-python3dist(hatch-vcs)"
+python3dist-hatch-vcs"
 
-RDEPENDS:${PN} += "(python310-setuptools_scm >= 6.4.0) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-setuptools-scm >= 6.4.0 \
+python-abi \
 python310-hatchling"
 
 inherit rpm

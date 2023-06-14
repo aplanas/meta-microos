@@ -14,7 +14,7 @@ RPM_HASH = "90330003fc3ca1032e530f5857aec5993f8cfb1119f70b8fa9265f6219b82e6fa8f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-devel \
-multiversion(kernel)"
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

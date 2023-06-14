@@ -14,10 +14,10 @@ RPM_NAME = "python39-cmdln-2.0.0-3.11.noarch.rpm"
 RPM_HASH = "8961afad2bd4d04010af6e39c55ccda48e45d35223075ce130d7fb0f0b3d3172c8aa5707fdf7c598f839c429400bfe9093d91fb5565ecdb31c5ed898f7a3722a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cmdln) \
+RPROVIDES:${PN} += "python3.9dist-cmdln \
 python39-cmdln \
-python3dist(cmdln)"
+python3dist-cmdln"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

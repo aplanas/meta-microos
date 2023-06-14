@@ -10,7 +10,7 @@ RPM_NAME = "texlive-nomentbl-2023.201.0.0.4svn16549-54.1.noarch.rpm"
 RPM_HASH = "41b45e15de324db31a2dc9a6fdc03c0b056fdae5212ee5d603a50521806ce5d11e2bc7f73f9479c8a802c274f1bf711d721f262816a8404b22a09bf2331f0e48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nomentbl.sty) \
+RPROVIDES:${PN} += "tex-nomentbl.sty \
 texlive-nomentbl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,11 +19,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(calc.sty) \
-tex(ifthen.sty) \
-tex(longtable.sty) \
-tex(nomencl.sty) \
+tex-array.sty \
+tex-calc.sty \
+tex-ifthen.sty \
+tex-longtable.sty \
+tex-nomencl.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

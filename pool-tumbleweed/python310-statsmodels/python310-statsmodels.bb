@@ -14,14 +14,13 @@ RPM_NAME = "python310-statsmodels-0.13.5-2.5.aarch64.rpm"
 RPM_HASH = "20a7eafdb21007fdf7f74d38519836800ee2f4352c5288adff02a6a0dbed5a8beb5916728389baa275fe290f76a8895b2305a993889c974a8ee55b9a227c3392"
 
 RPROVIDES:${PN} += "python3-statsmodels \
-python3.10dist(statsmodels) \
+python3.10dist-statsmodels \
 python310-statsmodels \
-python310-statsmodels(aarch-64) \
-python3dist(statsmodels)"
+python3dist-statsmodels"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-numpy \
 python310-pandas \
 python310-patsy \

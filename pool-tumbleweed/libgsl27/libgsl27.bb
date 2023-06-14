@@ -23,13 +23,12 @@ PV = "2.7.1"
 RPM_NAME = "libgsl27-2.7.1-1.3.aarch64.rpm"
 RPM_HASH = "fd7b2890fe75e853a03717962f9e9bb670d5a4dabdaa065e1a750acb6a46b75680eba0e93af18d7d2dab8ddc2aa79e51e0b533e0974f23b7b154487f93b551bf"
 
-RPROVIDES:${PN} += "libgsl.so.27()(64bit) \
-libgsl27 \
-libgsl27(aarch-64)"
+RPROVIDES:${PN} += "libgsl.so.27 \
+libgsl27"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

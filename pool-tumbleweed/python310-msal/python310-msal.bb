@@ -12,11 +12,11 @@ RPM_HASH = "2b75b6acfffec19723d190a6510917179876d741c39fe5470317b3c4eb16f64fb18a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msal \
-python3.10dist(msal) \
+python3.10dist-msal \
 python310-msal \
-python3dist(msal)"
+python3dist-msal"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-cryptography \
 python310-requests"

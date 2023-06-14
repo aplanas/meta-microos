@@ -14,10 +14,10 @@ RPM_HASH = "4d7b7d434c500902cd4b491aa3746300b938d8dd084563db42fafdfa94f0038e3036
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "findbugs-bcel \
-mvn(com.google.code.findbugs:bcel) \
-mvn(com.google.code.findbugs:bcel-findbugs) \
-mvn(com.google.code.findbugs:bcel-findbugs:pom:) \
-mvn(com.google.code.findbugs:bcel:pom:)"
+mvn-com.google.code.findbugs-bcel \
+mvn-com.google.code.findbugs-bcel-findbugs \
+mvn-com.google.code.findbugs-bcel-findbugs-pom- \
+mvn-com.google.code.findbugs-bcel-pom-"
 
 RDEPENDS:${PN} += "java \
 java-headless \

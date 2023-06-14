@@ -16,10 +16,10 @@ RPM_NAME = "perl-Hash-Merge-Simple-0.051-9.26.noarch.rpm"
 RPM_HASH = "2916c1b4d6fc84b9b3940e4768a3a238a6b06f242ee962c15d46c5fe1daf0f805ba39c2a0071384adc3d61439a888980263dfc06d6d102d2e2a2df53654676cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Hash::Merge::Simple) \
+RPROVIDES:${PN} += "perl-Hash--Merge--Simple \
 perl-Hash-Merge-Simple"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Clone)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Clone"
 
 inherit rpm

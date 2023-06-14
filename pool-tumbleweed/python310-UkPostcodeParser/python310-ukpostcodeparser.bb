@@ -9,11 +9,11 @@ RPM_HASH = "2ca656f0dffb1aff127e7dea7e623a738459ac79df1a476df23901ddd99f0b34102d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-UkPostcodeParser \
-python3.10dist(ukpostcodeparser) \
+python3.10dist-ukpostcodeparser \
 python310-UkPostcodeParser \
-python3dist(ukpostcodeparser)"
+python3dist-ukpostcodeparser"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-base"
 
 inherit rpm

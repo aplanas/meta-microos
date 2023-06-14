@@ -12,10 +12,10 @@ RPM_HASH = "83ed5560160839ece7ed8f8fdc88e4b267914b9a7781c9347afe693b775f9a5161f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gmsh \
-python3.10dist(gmsh) \
-python3dist(gmsh)"
+python3.10dist-gmsh \
+python3dist-gmsh"
 
-RDEPENDS:${PN} += "libgmsh4_11 \
-python(abi)"
+RDEPENDS:${PN} += "libgmsh4-11 \
+python-abi"
 
 inherit rpm

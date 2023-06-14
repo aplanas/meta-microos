@@ -11,13 +11,13 @@ RPM_HASH = "4e46d6f1668eb75d7dcff3ab86c9670a76a3b0f166d9ff67a11b04fdc507f8113f6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-swing \
-config(ant-swing) \
-mvn(org.apache.ant:ant-swing) \
-mvn(org.apache.ant:ant-swing:pom:)"
+config-ant-swing \
+mvn-org.apache.ant-ant-swing \
+mvn-org.apache.ant-ant-swing-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant)"
+mvn-org.apache.ant-ant"
 
 inherit rpm

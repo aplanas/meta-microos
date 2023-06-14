@@ -17,15 +17,15 @@ RPM_NAME = "perl-Path-FindDev-0.5.3-1.22.noarch.rpm"
 RPM_HASH = "599f055e26638f4372d73b06c8024a122696a611fa7a2f35b6651d3a01d477bdebbd84f712eae2b0ad9cdf1c36d9495b80d8330d117bbf37c0f7b801909e8d5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Path::FindDev) \
-perl(Path::FindDev::Object) \
+RPROVIDES:${PN} += "perl-Path--FindDev \
+perl-Path--FindDev--Object \
 perl-Path-FindDev"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Tiny) \
-perl(Path::IsDev) \
-perl(Path::IsDev::Object) \
-perl(Path::Tiny) \
-perl(Sub::Exporter)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Tiny \
+perl-Path--IsDev \
+perl-Path--IsDev--Object \
+perl-Path--Tiny \
+perl-Sub--Exporter"
 
 inherit rpm

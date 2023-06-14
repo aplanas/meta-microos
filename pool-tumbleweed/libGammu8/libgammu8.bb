@@ -22,16 +22,15 @@ PV = "1.42.0"
 RPM_NAME = "libGammu8-1.42.0-4.6.aarch64.rpm"
 RPM_HASH = "50b25b223895c8db4c7157823b9afe86a5c31834b20484222d7d814aceaff162e48009c818e0af56902f07deb01732d788aa42cc5504458500216a8e9586f39b"
 
-RPROVIDES:${PN} += "libGammu.so.8()(64bit) \
-libGammu8 \
-libGammu8(aarch-64)"
+RPROVIDES:${PN} += "libGammu.so.8 \
+libGammu8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libbluetooth.so.3 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libm.so.6 \
+libusb-1.0.so.0"
 
 inherit rpm

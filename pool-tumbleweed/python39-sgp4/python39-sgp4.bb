@@ -17,16 +17,15 @@ PV = "2.22"
 RPM_NAME = "python39-sgp4-2.22-1.1.aarch64.rpm"
 RPM_HASH = "7b3d469e0362c2fb9615d7d310920517385a92b7f17d8addaa3f35a8b6c99a25fbd06b66f8640548760e90be674ff2bda4510a29d56d364c9d61f327f208a6fc"
 
-RPROVIDES:${PN} += "python3.9dist(sgp4) \
+RPROVIDES:${PN} += "python3.9dist-sgp4 \
 python39-sgp4 \
-python39-sgp4(aarch-64) \
-python3dist(sgp4)"
+python3dist-sgp4"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-numpy"
 
 inherit rpm

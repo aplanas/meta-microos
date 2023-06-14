@@ -19,11 +19,11 @@ RPM_HASH = "c68566ea3ffee1f4ce4895fd3294c37f375889d479921a9c50ddd0993272beeaf17b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymacaroons \
-python3.10dist(pymacaroons) \
+python3.10dist-pymacaroons \
 python310-pymacaroons \
-python3dist(pymacaroons)"
+python3dist-pymacaroons"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyNaCl \
 python310-cffi \
 python310-six"

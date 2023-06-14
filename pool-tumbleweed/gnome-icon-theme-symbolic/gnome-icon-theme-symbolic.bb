@@ -17,7 +17,7 @@ RPM_HASH = "fc3535940493318e146d83d4ae995cf020297a92c41f6a406baf18d1eadafc2e369d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-icon-theme-symbolic \
-pkgconfig(gnome-icon-theme-symbolic)"
+pkgconfig-gnome-icon-theme-symbolic"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

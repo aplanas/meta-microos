@@ -12,13 +12,12 @@ RPM_NAME = "goocanvas2-devel-2.0.4-2.9.aarch64.rpm"
 RPM_HASH = "97359ec7ccad7ec483860c78b240a7407dcee3a2cde3c7cdafa9cfecde1ed537257a50110141fa347a94d23ac375fce773a0581de9657498fdb7d46ca8f23bfd"
 
 RPROVIDES:${PN} += "goocanvas2-devel \
-goocanvas2-devel(aarch-64) \
-pkgconfig(goocanvas-2.0)"
+pkgconfig-goocanvas-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libgoocanvas-2_0-9 \
-pkgconfig(cairo) \
-pkgconfig(gtk+-3.0) \
-typelib-1_0-GooCanvas-2_0"
+libgoocanvas-2-0-9 \
+pkgconfig-cairo \
+pkgconfig-gtk+-3.0 \
+typelib-1-0-GooCanvas-2-0"
 
 inherit rpm

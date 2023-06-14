@@ -19,13 +19,12 @@ PV = "6.4.20230520"
 RPM_NAME = "ncurses-utils-6.4.20230520-13.1.aarch64.rpm"
 RPM_HASH = "5af0bf10ac1654a03a8d6dff0641e3a66a316d4f8b6f064af91b81037e39771b639715567dd0936c1d7341348c9fac0038f86e7cbc82fb64852a67dbf4a631ac"
 
-RPROVIDES:${PN} += "ncurses-utils \
-ncurses-utils(aarch-64) \
-ncurses:/usr/bin/tput"
+RPROVIDES:${PN} += "ncurses-/usr/bin/tput \
+ncurses-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libticw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libticw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -9,12 +9,11 @@ PV = "1.7.2"
 RPM_NAME = "python311-libnacl-1.7.2-2.8.aarch64.rpm"
 RPM_HASH = "9c160fd702c9753def0391d256c506a31d28edad99a1a6289fe60b6a129e544eb873001d3f871119b7a07052bbf99a0a0455b930028b0b761e4b8e5a523edcfd"
 
-RPROVIDES:${PN} += "python3.11dist(libnacl) \
+RPROVIDES:${PN} += "python3.11dist-libnacl \
 python311-libnacl \
-python311-libnacl(aarch-64) \
-python3dist(libnacl)"
+python3dist-libnacl"
 
 RDEPENDS:${PN} += "libsodium23 \
-python(abi)"
+python-abi"
 
 inherit rpm

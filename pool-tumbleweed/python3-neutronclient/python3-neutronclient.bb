@@ -12,13 +12,13 @@ RPM_HASH = "85c0512d144bf09482edd84e49be7964244fa150b030e45c7dccc6086c15ade7103c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-neutronclient \
-python3.10dist(python-neutronclient) \
-python3dist(python-neutronclient)"
+python3.10dist-python-neutronclient \
+python3dist-python-neutronclient"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-cliff \
 python3-debtcollector \

@@ -13,11 +13,11 @@ RPM_HASH = "f35783436410de889b6c044a97ad5bffed91576ebb0cc7cc66e6007a653487f4cc87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-agrifood-nspkg \
-python3.10dist(azure-agrifood-nspkg) \
+python3.10dist-azure-agrifood-nspkg \
 python310-azure-agrifood-nspkg \
-python3dist(azure-agrifood-nspkg)"
+python3dist-azure-agrifood-nspkg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg"
 
 inherit rpm

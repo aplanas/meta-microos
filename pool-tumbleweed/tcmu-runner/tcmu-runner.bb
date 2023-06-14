@@ -25,22 +25,20 @@ PV = "1.6.0"
 RPM_NAME = "tcmu-runner-1.6.0-1.3.aarch64.rpm"
 RPM_HASH = "3d8cf3393111a414d4f73e3e3f6126cc1344d054dafe8e2ed12ccfe7eeceb57e82afab4a80cefc4cd362290a4635dd17b19e0113ede337e92096ca333f92c181"
 
-RPROVIDES:${PN} += "config(tcmu-runner) \
-tcmu-runner \
-tcmu-runner(aarch-64)"
+RPROVIDES:${PN} += "config-tcmu-runner \
+tcmu-runner"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libkmod.so.2()(64bit) \
-libkmod.so.2(LIBKMOD_5)(64bit) \
-libtcmalloc.so.4()(64bit) \
-libtcmu.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libkmod.so.2 \
+libtcmalloc.so.4 \
+libtcmu.so.2 \
 libtcmu2 \
-libz.so.1()(64bit) \
+libz.so.1 \
 logrotate \
 systemd"
 

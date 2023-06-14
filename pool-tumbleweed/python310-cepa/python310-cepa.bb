@@ -13,14 +13,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cepa \
 python3-stem \
-python3.10dist(cepa) \
+python3.10dist-cepa \
 python310-cepa \
 python310-stem \
-python3dist(cepa)"
+python3dist-cepa"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cryptography \
 update-alternatives"
 

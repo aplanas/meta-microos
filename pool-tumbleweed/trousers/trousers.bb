@@ -13,14 +13,13 @@ PV = "0.3.15"
 RPM_NAME = "trousers-0.3.15-6.1.aarch64.rpm"
 RPM_HASH = "ac1c3254e91ad4e427ee68a6eeb2a581d9c35b3db00315c6646acc5e98b2c8be21a519bd26589ff01f25ca36881c1318815545d59e5758250fc20f1717305555"
 
-RPROVIDES:${PN} += "config(trousers) \
-trousers \
-trousers(aarch-64)"
+RPROVIDES:${PN} += "config-trousers \
+trousers"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-user(tss)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+user-tss"
 
 inherit rpm

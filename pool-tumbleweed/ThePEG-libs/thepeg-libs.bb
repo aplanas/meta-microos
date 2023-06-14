@@ -11,24 +11,23 @@ RPM_NAME = "ThePEG-libs-2.2.3-1.8.aarch64.rpm"
 RPM_HASH = "6e5fa252719e095934bd2134aa04bc8c87d808501def770e36709e569f60e29dd0697dfd2fc505103ff10fc3885cda2d78c7c08728db134b1f770f17cd46528e"
 
 RPROVIDES:${PN} += "ThePEG-libs \
-ThePEG-libs(aarch-64) \
-config(ThePEG-libs) \
-libThePEG.so.30()(64bit) \
+config-ThePEG-libs \
+libThePEG.so.30 \
 libThePEG24"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libHepMC3.so.3()(64bit) \
-libLHAPDF-6.5.4.so()(64bit) \
-libRivet-3.1.7.so()(64bit) \
-libc.so.6()(64bit) \
-libfastjet.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libHepMC3.so.3 \
+libLHAPDF-6.5.4.so \
+libRivet-3.1.7.so \
+libc.so.6 \
+libfastjet.so.0 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

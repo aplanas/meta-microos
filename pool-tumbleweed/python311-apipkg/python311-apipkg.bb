@@ -15,10 +15,10 @@ RPM_NAME = "python311-apipkg-3.0.1-3.1.noarch.rpm"
 RPM_HASH = "dd71bc05cfbe163157245ee94ef6254780440453064d79ec98b507d55090fd5ea00681b3ee816eb7f8527b873776e13bbf27dc3bff035d851e80f14c723b0bf1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(apipkg) \
+RPROVIDES:${PN} += "python3.11dist-apipkg \
 python311-apipkg \
-python3dist(apipkg)"
+python3dist-apipkg"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

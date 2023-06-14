@@ -13,13 +13,12 @@ PV = "2.2.0"
 RPM_NAME = "rofi-calc-2.2.0-1.1.aarch64.rpm"
 RPM_HASH = "fecb0a69a8342865ee59580bc05bf09a3bc5f55d337dc2989c7c7c9897e8e6e3fcc085b92a250d51bcd90fb42c7fca362a9133c30223eefe5905834884ca575c"
 
-RPROVIDES:${PN} += "rofi-calc \
-rofi-calc(aarch-64)"
+RPROVIDES:${PN} += "rofi-calc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
 qalculate \
 rofi-launcher"
 

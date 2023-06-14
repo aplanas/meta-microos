@@ -10,7 +10,7 @@ RPM_HASH = "874f5a88c24a8bbca120b40a3c6102890fe3c210ea02a6f6f888086eb782998a10e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "forge-parent \
-mvn(org.sonatype.forge:forge-parent:pom:)"
+mvn-org.sonatype.forge-forge-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

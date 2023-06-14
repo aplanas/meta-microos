@@ -14,7 +14,7 @@ RPM_NAME = "texlive-msu-thesis-2023.201.4.0bsvn65462-54.1.noarch.rpm"
 RPM_HASH = "eda82c070b87b3c55953f8501929eb6f7dc5f96690768bfa4728ac70d300f5ffbc8476fab9633e785e06b9f82fd8ad11b9095c5a6ba92f385ed258ebc60148d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(msu-thesis.cls) \
+RPROVIDES:${PN} += "tex-msu-thesis.cls \
 texlive-msu-thesis"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,12 +23,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
-tex(etoolbox.sty) \
-tex(memoir.cls) \
-tex(pdflscape.sty) \
-tex(textpos.sty) \
-tex(tikz.sty) \
+tex-etex.sty \
+tex-etoolbox.sty \
+tex-memoir.cls \
+tex-pdflscape.sty \
+tex-textpos.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

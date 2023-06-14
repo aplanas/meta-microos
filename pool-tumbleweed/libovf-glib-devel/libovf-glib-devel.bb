@@ -11,8 +11,7 @@ PV = "44.1"
 RPM_NAME = "libovf-glib-devel-44.1-1.1.aarch64.rpm"
 RPM_HASH = "a758b25678627c2bdd444a5a30d93c86bb9c80dfe51732b410263c1992bd566f620ab3509d1ec9b81806474d2cef560387226f0f7435bfd5597ad043c213d792"
 
-RPROVIDES:${PN} += "libovf-glib-devel \
-libovf-glib-devel(aarch-64)"
+RPROVIDES:${PN} += "libovf-glib-devel"
 
 RDEPENDS:${PN} += "gnome-boxes"
 

@@ -10,13 +10,13 @@ RPM_HASH = "efac1b362cac10accc729a73531137be22ffd4b57ab8ccb3bc631ddeb702b1e558be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-devpi-server \
-python3.10dist(devpi-server) \
+python3.10dist-devpi-server \
 python310-devpi-server \
-python3dist(devpi-server)"
+python3dist-devpi-server"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiohttp \
 python310-appdirs \
 python310-argon2-cffi \

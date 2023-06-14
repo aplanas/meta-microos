@@ -8,17 +8,14 @@ PV = "5.15.9+kde154"
 RPM_NAME = "libQt5Sql5-5.15.9+kde154-1.2.aarch64.rpm"
 RPM_HASH = "d32bda2bd4390dfa80371de6f28357fec0853a3fcb5e77295add9b9ff8912d9759981423464d138aada0b60f34e194a0186de7282087f0d29f4cf9db676e1733"
 
-RPROVIDES:${PN} += "libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Sql5 \
-libQt5Sql5(aarch-64)"
+RPROVIDES:${PN} += "libQt5Sql.so.5 \
+libQt5Sql5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

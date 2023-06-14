@@ -22,10 +22,10 @@ RPM_HASH = "60fa5491da983d91dad06571f123a3be9468329ae6b3fdb16e113c285c6ed005523b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pickleshare \
-python3.10dist(pickleshare) \
+python3.10dist-pickleshare \
 python310-pickleshare \
-python3dist(pickleshare)"
+python3dist-pickleshare"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

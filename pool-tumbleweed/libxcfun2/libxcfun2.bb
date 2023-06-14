@@ -8,14 +8,13 @@ PV = "2.1.1"
 RPM_NAME = "libxcfun2-2.1.1-1.10.aarch64.rpm"
 RPM_HASH = "2cc67d024eeefa67c6d2df6c97c0599ebcaf4182190c4c6bbd0c4343979b4c608ed0477509d4b1e8ed904690a95633170d9fb45b1fbb8de594188cac2bf11914"
 
-RPROVIDES:${PN} += "libxcfun.so.2()(64bit) \
-libxcfun2 \
-libxcfun2(aarch-64)"
+RPROVIDES:${PN} += "libxcfun.so.2 \
+libxcfun2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

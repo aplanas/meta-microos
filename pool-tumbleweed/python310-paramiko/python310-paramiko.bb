@@ -12,11 +12,11 @@ RPM_HASH = "82461f1f435571545488721a6be2dbd628f32dbd0a623fe2b5950e82b81a56dd254c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-paramiko \
-python3.10dist(paramiko) \
+python3.10dist-paramiko \
 python310-paramiko \
-python3dist(paramiko)"
+python3dist-paramiko"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyNaCl \
 python310-bcrypt \
 python310-cryptography \

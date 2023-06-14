@@ -8,9 +8,9 @@ RPM_NAME = "lunar-date-lang-2.9.3-2.14.noarch.rpm"
 RPM_HASH = "5a42c0445147e4e43ea7d0e3dccaa07f66ade6cc746de254b581e9b4a9f918405bb6e5a7bebe9352e3dfe23349ebb82a380e820426630999c13f28f351a43694"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(lunar-date:zh_CN) \
-locale(lunar-date:zh_HK) \
-locale(lunar-date:zh_TW) \
+RPROVIDES:${PN} += "locale-lunar-date-zh-CN \
+locale-lunar-date-zh-HK \
+locale-lunar-date-zh-TW \
 lunar-date-lang \
 lunar-date-lang-all"
 

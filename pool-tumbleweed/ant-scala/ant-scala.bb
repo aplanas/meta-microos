@@ -11,7 +11,7 @@ RPM_HASH = "c3940f345e0c448b82a007824b7752fa53b23d54e235d8daf2a27365a4eafe2a5fc7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-scala \
-config(ant-scala)"
+config-ant-scala"
 
 RDEPENDS:${PN} += "ant \
 scala"

@@ -10,18 +10,17 @@ PV = "4.7.0"
 RPM_NAME = "libzrtpcpp4-4.7.0-1.11.aarch64.rpm"
 RPM_HASH = "66d06248edd8d3c2ea9d8b3aef5964e7addfc0a234a249afd545f83d44566946544c7c6d2ffad8a9ef3a45c7e181512afff784f182f82e3ff40ae397ccbe560b"
 
-RPROVIDES:${PN} += "libzrtpcpp.so.4()(64bit) \
-libzrtpcpp4 \
-libzrtpcpp4(aarch-64)"
+RPROVIDES:${PN} += "libzrtpcpp.so.4 \
+libzrtpcpp4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libccrtp.so.3()(64bit) \
-libcommoncpp.so.8()(64bit) \
-libcrypto.so.1.0.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libucommon.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libccrtp.so.3 \
+libcommoncpp.so.8 \
+libcrypto.so.1.0.0 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libucommon.so.8"
 
 inherit rpm

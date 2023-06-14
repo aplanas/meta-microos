@@ -9,7 +9,7 @@ RPM_HASH = "859980f800380dfffc4c09d313c4483ff831b7610046be08aaf51b02a33f78737633
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codehaus-parent \
-mvn(org.codehaus:codehaus-parent:pom:)"
+mvn-org.codehaus-codehaus-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

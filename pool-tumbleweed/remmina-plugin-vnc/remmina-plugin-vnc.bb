@@ -7,18 +7,17 @@ PV = "1.4.30"
 RPM_NAME = "remmina-plugin-vnc-1.4.30-1.1.aarch64.rpm"
 RPM_HASH = "826ff5444a1bc068f490e6d8b81bed98a35a649645c7de2c1a39aafbc163ce2ff5526ee27711117af941fb060dd40619aff06f5da8ec33507289b141e175e922"
 
-RPROVIDES:${PN} += "remmina-plugin-vnc \
-remmina-plugin-vnc(aarch-64)"
+RPROVIDES:${PN} += "remmina-plugin-vnc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libvncclient.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libvncclient.so.1 \
 remmina"
 
 inherit rpm

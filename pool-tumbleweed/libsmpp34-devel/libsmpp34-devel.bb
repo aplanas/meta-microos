@@ -12,8 +12,7 @@ RPM_HASH = "efc345d26b9ffcfd75704f62296fc264be22a34bcc7417a126e3485268392585b6a7
 
 RPROVIDES:${PN} += "libsmpp34-0-devel \
 libsmpp34-devel \
-libsmpp34-devel(aarch-64) \
-pkgconfig(libsmpp34)"
+pkgconfig-libsmpp34"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsmpp34-1"

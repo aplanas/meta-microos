@@ -10,33 +10,30 @@ PV = "0.4.6"
 RPM_NAME = "xfce4-pulseaudio-plugin-0.4.6-1.1.aarch64.rpm"
 RPM_HASH = "3e4d45cefd0ba12ca6e03b813d059b5fede59bddfe549d681f075efc6d53e47e9f749c1870fb2c4a258f1b3256fcbb6f2be9a7783503df41f71f3f72d5c6f13f"
 
-RPROVIDES:${PN} += "libpulseaudio-plugin.so()(64bit) \
+RPROVIDES:${PN} += "libpulseaudio-plugin.so \
 xfce4-panel-plugin-pulseaudio \
-xfce4-pulseaudio-plugin \
-xfce4-pulseaudio-plugin(aarch-64)"
+xfce4-pulseaudio-plugin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcanberra.so.0()(64bit) \
-libexo-2.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libkeybinder-3.0.so.0()(64bit) \
-libnotify.so.4()(64bit) \
-libpulse-mainloop-glib.so.0()(64bit) \
-libpulse-mainloop-glib.so.0(PULSE_0)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libwnck-3.so.0()(64bit) \
-libxfce4panel-2.0.so.4()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit) \
-libxfconf-0.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libcanberra.so.0 \
+libexo-2.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libkeybinder-3.0.so.0 \
+libnotify.so.4 \
+libpulse-mainloop-glib.so.0 \
+libpulse.so.0 \
+libwnck-3.so.0 \
+libxfce4panel-2.0.so.4 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7 \
+libxfconf-0.so.3 \
 pulseaudio-daemon \
 xfce4-panel"
 

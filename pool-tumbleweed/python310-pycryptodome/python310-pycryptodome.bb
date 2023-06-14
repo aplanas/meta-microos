@@ -41,14 +41,13 @@ RPM_HASH = "35ffe5b979259f83bc5d6fc667d0bdcf159c615c78ce851d5a13fba0ce0c96e548ab
 
 RPROVIDES:${PN} += "python3-pycrypto \
 python3-pycryptodome \
-python3.10dist(pycryptodome) \
+python3.10dist-pycryptodome \
 python310-pycrypto \
 python310-pycryptodome \
-python310-pycryptodome(aarch-64) \
-python3dist(pycryptodome)"
+python3dist-pycryptodome"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

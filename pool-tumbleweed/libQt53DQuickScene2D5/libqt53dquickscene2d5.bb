@@ -10,27 +10,20 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt53DQuickScene2D5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "79f4f2a68e81e4d7dd20880568d49f2475c4a6cf581697549d9fd3d300a1ba2c3b0cdc4d585563c7e6e4e00fa664523752d42fc35e6b1f235d07baa4a7d1442d"
 
-RPROVIDES:${PN} += "libQt53DQuickScene2D.so.5()(64bit) \
-libQt53DQuickScene2D.so.5(Qt_5)(64bit) \
+RPROVIDES:${PN} += "libQt53DQuickScene2D.so.5 \
 libQt53DQuickScene2D5 \
-libQt53DQuickScene2D5(aarch-64) \
-libscene2d.so()(64bit)"
+libscene2d.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt53DCore.so.5()(64bit) \
-libQt53DCore.so.5(Qt_5)(64bit) \
-libQt53DRender.so.5()(64bit) \
-libQt53DRender.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt53DCore.so.5 \
+libQt53DRender.so.5 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

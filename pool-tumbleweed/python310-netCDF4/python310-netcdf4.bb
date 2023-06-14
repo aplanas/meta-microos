@@ -20,19 +20,18 @@ RPM_NAME = "python310-netCDF4-1.6.2-1.5.aarch64.rpm"
 RPM_HASH = "30db24318ccd0da47e25ffd9deceb90f406d32145fe559e26af454ce5de45843226b34da07da6c27ecb23476343eaf4dee041807a59a6c3a197ebf17b6321d18"
 
 RPROVIDES:${PN} += "python3-netCDF4 \
-python3.10dist(netcdf4) \
+python3.10dist-netcdf4 \
 python310-netCDF4 \
-python310-netCDF4(aarch-64) \
-python3dist(netcdf4)"
+python3dist-netcdf4"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 hdf5 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnetcdf.so.19()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnetcdf.so.19 \
 netcdf \
-python(abi) \
+python-abi \
 python310-cftime \
 python310-numpy \
 update-alternatives"

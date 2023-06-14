@@ -11,12 +11,11 @@ PV = "0.9.1+git.20181118"
 RPM_NAME = "2048-cli-0.9.1+git.20181118-1.16.aarch64.rpm"
 RPM_HASH = "7c6c2b09006b74ef9cdba815deed2acc7ff0a0d42e5d50502697e324cd4ed9123df6cf4f83add47925886b2cb18bb916b69a6f4e1f8152c20420621b68bc1302"
 
-RPROVIDES:${PN} += "2048-cli \
-2048-cli(aarch-64)"
+RPROVIDES:${PN} += "2048-cli"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

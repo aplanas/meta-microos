@@ -19,11 +19,11 @@ RPM_HASH = "cadb9d8505153b37d4b065728659629dc843d96631051fe1315fb2cfed2cffb4095a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jefferson \
-python3.10dist(jefferson) \
-python3dist(jefferson)"
+python3.10dist-jefferson \
+python3dist-jefferson"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cstruct \
 python3-pylzma"
 

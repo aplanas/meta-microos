@@ -9,7 +9,7 @@ RPM_HASH = "32d9ea36ba0ab2a3399d27c1e221798e6f647a8308311d850b237c5499a333d39492
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/sh \
-alternative(sh) \
+alternative-sh \
 zsh-sh"
 
 RDEPENDS:${PN} += "zsh"

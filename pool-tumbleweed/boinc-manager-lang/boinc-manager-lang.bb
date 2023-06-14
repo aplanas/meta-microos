@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boinc-manager-lang \
 boinc-manager-lang-all \
-locale(boinc-manager:bg) \
-locale(boinc-manager:ca) \
-locale(boinc-manager:cs) \
-locale(boinc-manager:da) \
-locale(boinc-manager:de) \
-locale(boinc-manager:es) \
-locale(boinc-manager:fi) \
-locale(boinc-manager:fr) \
-locale(boinc-manager:he) \
-locale(boinc-manager:hu) \
-locale(boinc-manager:it_IT) \
-locale(boinc-manager:ja) \
-locale(boinc-manager:ka) \
-locale(boinc-manager:ko) \
-locale(boinc-manager:lv) \
-locale(boinc-manager:nb) \
-locale(boinc-manager:nl) \
-locale(boinc-manager:pl) \
-locale(boinc-manager:pt_BR) \
-locale(boinc-manager:ro) \
-locale(boinc-manager:ru) \
-locale(boinc-manager:sk) \
-locale(boinc-manager:sv) \
-locale(boinc-manager:tr) \
-locale(boinc-manager:uk) \
-locale(boinc-manager:zh_CN) \
-locale(boinc-manager:zh_TW)"
+locale-boinc-manager-bg \
+locale-boinc-manager-ca \
+locale-boinc-manager-cs \
+locale-boinc-manager-da \
+locale-boinc-manager-de \
+locale-boinc-manager-es \
+locale-boinc-manager-fi \
+locale-boinc-manager-fr \
+locale-boinc-manager-he \
+locale-boinc-manager-hu \
+locale-boinc-manager-it-IT \
+locale-boinc-manager-ja \
+locale-boinc-manager-ka \
+locale-boinc-manager-ko \
+locale-boinc-manager-lv \
+locale-boinc-manager-nb \
+locale-boinc-manager-nl \
+locale-boinc-manager-pl \
+locale-boinc-manager-pt-BR \
+locale-boinc-manager-ro \
+locale-boinc-manager-ru \
+locale-boinc-manager-sk \
+locale-boinc-manager-sv \
+locale-boinc-manager-tr \
+locale-boinc-manager-uk \
+locale-boinc-manager-zh-CN \
+locale-boinc-manager-zh-TW"
 
 RDEPENDS:${PN} += "boinc-manager"
 

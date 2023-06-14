@@ -40,10 +40,10 @@ RPM_NAME = "perl-Data-ShowTable-4.6-3.26.noarch.rpm"
 RPM_HASH = "302d222e886ff553bb6e651029a1c1fe92edbee8e618f158c026036ddb747d6859adfb0896f591c1b96443c90f9db952e12748fac86f0015ebeb29843cadaff2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::ShowTable) \
+RPROVIDES:${PN} += "perl-Data--ShowTable \
 perl-Data-ShowTable"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

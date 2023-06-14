@@ -11,13 +11,12 @@ RPM_HASH = "ff7dcc890443ce47cab9e3024cee00fd4b84d4ae89732747b206cfb1c303d114fb63
 
 RPROVIDES:${PN} += "python3-uwsgi-python3 \
 python310-uwsgi-python3 \
-python310-uwsgi-python3(aarch-64) \
 uwsgi-python3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpython3.10.so.1.0 \
+python-abi \
 uwsgi"
 
 inherit rpm

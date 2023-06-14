@@ -12,11 +12,11 @@ RPM_HASH = "de30a4ab4348cc5359eb24f80e3a848ada95509508ce3dcb8a4bf0745226bc56dd35
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-swiftclient \
-python3.10dist(python-swiftclient) \
-python3dist(python-swiftclient)"
+python3.10dist-python-swiftclient \
+python3dist-python-swiftclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-requests"
 
 inherit rpm

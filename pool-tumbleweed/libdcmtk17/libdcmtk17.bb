@@ -8,51 +8,49 @@ PV = "3.6.7"
 RPM_NAME = "libdcmtk17-3.6.7-2.2.aarch64.rpm"
 RPM_HASH = "c3025a693bb3c008ef440ac26a32a6fe0cd610dbd1597850d8adc0295ffd4ee8d4d32e6a5a9d2875825ff73e1e108be3fa31af0661e797aae19d65079302ebe8"
 
-RPROVIDES:${PN} += "libcmr.so.17()(64bit) \
-libdcmdata.so.17()(64bit) \
-libdcmdsig.so.17()(64bit) \
-libdcmect.so.17()(64bit) \
-libdcmfg.so.17()(64bit) \
-libdcmimage.so.17()(64bit) \
-libdcmimgle.so.17()(64bit) \
-libdcmiod.so.17()(64bit) \
-libdcmjpeg.so.17()(64bit) \
-libdcmjpls.so.17()(64bit) \
-libdcmnet.so.17()(64bit) \
-libdcmpmap.so.17()(64bit) \
-libdcmpstat.so.17()(64bit) \
-libdcmqrdb.so.17()(64bit) \
-libdcmrt.so.17()(64bit) \
-libdcmseg.so.17()(64bit) \
-libdcmsr.so.17()(64bit) \
+RPROVIDES:${PN} += "libcmr.so.17 \
+libdcmdata.so.17 \
+libdcmdsig.so.17 \
+libdcmect.so.17 \
+libdcmfg.so.17 \
+libdcmimage.so.17 \
+libdcmimgle.so.17 \
+libdcmiod.so.17 \
+libdcmjpeg.so.17 \
+libdcmjpls.so.17 \
+libdcmnet.so.17 \
+libdcmpmap.so.17 \
+libdcmpstat.so.17 \
+libdcmqrdb.so.17 \
+libdcmrt.so.17 \
+libdcmseg.so.17 \
+libdcmsr.so.17 \
 libdcmtk17 \
-libdcmtk17(aarch-64) \
-libdcmtk3_6 \
-libdcmtkcharls.so.17()(64bit) \
-libdcmtls.so.17()(64bit) \
-libdcmtract.so.17()(64bit) \
-libdcmwlm.so.17()(64bit) \
-libi2d.so.17()(64bit) \
-libijg12.so.17()(64bit) \
-libijg16.so.17()(64bit) \
-libijg8.so.17()(64bit) \
-liboflog.so.17()(64bit) \
-libofstd.so.17()(64bit)"
+libdcmtk3-6 \
+libdcmtkcharls.so.17 \
+libdcmtls.so.17 \
+libdcmtract.so.17 \
+libdcmwlm.so.17 \
+libi2d.so.17 \
+libijg12.so.17 \
+libijg16.so.17 \
+libijg8.so.17 \
+liboflog.so.17 \
+libofstd.so.17"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libwrap.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libicuuc.so.73 \
+libm.so.6 \
+libpng16.so.16 \
+libssl.so.3 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libwrap.so.0 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

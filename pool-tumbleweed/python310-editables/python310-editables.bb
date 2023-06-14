@@ -14,10 +14,10 @@ RPM_HASH = "2a3a4e8b511053ba1453c31ec10924b5a627f36c0f25000e8d41fd667fd58c9a9816
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-editables \
-python3.10dist(editables) \
+python3.10dist-editables \
 python310-editables \
-python3dist(editables)"
+python3dist-editables"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

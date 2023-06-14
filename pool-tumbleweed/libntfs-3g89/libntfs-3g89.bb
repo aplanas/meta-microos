@@ -9,13 +9,12 @@ PV = "2022.10.3"
 RPM_NAME = "libntfs-3g89-2022.10.3-2.3.aarch64.rpm"
 RPM_HASH = "c1995798427bfd3647c7bdeac1801a38b016366414ce05e047c6457aeaa6f65ffd518c45e3bc5c8e5da61d7d9af74483233ab29619050324e7864f8ef32159bf"
 
-RPROVIDES:${PN} += "libntfs-3g.so.89()(64bit) \
-libntfs-3g89 \
-libntfs-3g89(aarch-64)"
+RPROVIDES:${PN} += "libntfs-3g.so.89 \
+libntfs-3g89"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhd.so.22()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhd.so.22"
 
 inherit rpm

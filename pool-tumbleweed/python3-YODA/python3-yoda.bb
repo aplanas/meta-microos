@@ -12,18 +12,17 @@ RPM_NAME = "python3-YODA-1.9.7-1.3.aarch64.rpm"
 RPM_HASH = "cd71c46e2c2ae4fa20d666722309b6cf3ca0015f8b9dffaf57f283484e84941f5c9977a2fb1ff723c55036f4554992bad697a55610f6871466c8917cc4c48506"
 
 RPROVIDES:${PN} += "python-YODA \
-python3-YODA \
-python3-YODA(aarch-64)"
+python3-YODA"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libYODA-1.9.7.so()(64bit) \
-libYODA-1_9_7 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libYODA-1-9-7 \
+libYODA-1.9.7.so \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

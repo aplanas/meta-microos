@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-kufiarabic \
 noto-kufiarabic-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -13,20 +13,19 @@ RPM_NAME = "cmh-1.1.1-1.4.aarch64.rpm"
 RPM_HASH = "9b9b9bc13d8c51b2e21c4dd662367314468d2fd5cea486829e492c968b1a677346f9e651d1aa0688d3d35932393d108e2bebfd512acf9155aaf0a91706f220df"
 
 RPROVIDES:${PN} += "cmh \
-cmh(aarch-64) \
-libparsepari.so.0()(64bit)"
+libparsepari.so.0"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcmh.so.0()(64bit) \
-libfplll.so.8()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libmpc.so.3()(64bit) \
-libmpfr.so.6()(64bit) \
-libmpfrcx.so.1()(64bit) \
-libpari-gmp-tls.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcmh.so.0 \
+libfplll.so.8 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libmpfrcx.so.1 \
+libpari-gmp-tls.so.8 \
+libstdc++.so.6"
 
 inherit rpm

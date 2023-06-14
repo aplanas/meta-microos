@@ -15,7 +15,6 @@ RPM_NAME = "ffmpeg-4-private-devel-4.4.4-1.2.aarch64.rpm"
 RPM_HASH = "c062bfb1247afe9c903a74c431363b1f191709762e7d63188d7f0ea171167d3a08a17642f52122cb675b11361fa13a8b4772804fe0ef14c2f4e8068f2d48cdce"
 
 RPROVIDES:${PN} += "ffmpeg-4-private-devel \
-ffmpeg-4-private-devel(aarch-64) \
 ffmpeg-private-devel"
 
 RDEPENDS:${PN} += "ffmpeg-4-libavcodec-devel \

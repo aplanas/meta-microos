@@ -15,17 +15,16 @@ RPM_NAME = "libxerces-c-3_2-3.2.4-1.5.aarch64.rpm"
 RPM_HASH = "7ade10f7571b17e4564bead360ff94800d6b82b992508c6d5888260be52585c3b97f2dc0903687f206586a50fa7cd0574cdf56eba745fdc43cf5552a18fac6e3"
 
 RPROVIDES:${PN} += "Xerces-c \
-libxerces-c-3.2.so()(64bit) \
-libxerces-c-3_2 \
-libxerces-c-3_2(aarch-64)"
+libxerces-c-3-2 \
+libxerces-c-3.2.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libicuuc.so.73 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -7,18 +7,14 @@ PV = "6.5.1"
 RPM_NAME = "libQt63DLogic6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "928899cc3a4fbafc94455f5be6ed37a9bff07788b55d92b80ad8951dfbc6227223116355b576843542159ec67f94f7d87ab7f6057643459d6a511502ef30350e"
 
-RPROVIDES:${PN} += "libQt63DLogic.so.6()(64bit) \
-libQt63DLogic.so.6(Qt_6)(64bit) \
-libQt63DLogic6 \
-libQt63DLogic6(aarch-64)"
+RPROVIDES:${PN} += "libQt63DLogic.so.6 \
+libQt63DLogic6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt63DCore.so.6()(64bit) \
-libQt63DCore.so.6(Qt_6)(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt63DCore.so.6 \
+libQt6Core.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

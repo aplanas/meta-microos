@@ -11,14 +11,13 @@ PV = "1.5.0"
 RPM_NAME = "libhtscodecs2-1.5.0-1.1.aarch64.rpm"
 RPM_HASH = "41ca5ebb6482e1f5c2220140faa9e8850c533c3308b6c3cf551b5607a31eff5f568824e3bde591e561d7de78de8c7ba3aa126c045cc55328c22ede0484a2bc85"
 
-RPROVIDES:${PN} += "libhtscodecs.so.2()(64bit) \
-libhtscodecs2 \
-libhtscodecs2(aarch-64)"
+RPROVIDES:${PN} += "libhtscodecs.so.2 \
+libhtscodecs2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

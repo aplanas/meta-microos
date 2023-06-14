@@ -16,12 +16,12 @@ RPM_NAME = "perl-Text-Markdown-1.000031-17.2.noarch.rpm"
 RPM_HASH = "dfb61ddefd99dbf23b0376aeb8d98710df3cf439062856b64c1d191cebeb90c66caab1b183c969a3c9860767f4c5141c900f0ecd030f9fdcf8920e830d8ac9f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Markdown) \
+RPROVIDES:${PN} += "perl-Text--Markdown \
 perl-Text-Markdown"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
-perl(:MODULE_COMPAT_5.36.0) \
+perl--MODULE-COMPAT-5.36.0 \
 update-alternatives"
 
 inherit rpm

@@ -14,13 +14,13 @@ RPM_HASH = "298a9ae6c574781d4579eb2593e75c42b8ec199274e1d9876564337c2664f2a6d211
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyKMIP \
-python3.10dist(pykmip) \
+python3.10dist-pykmip \
 python310-PyKMIP \
-python3dist(pykmip)"
+python3dist-pykmip"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-SQLAlchemy \
 python310-cryptography \
 python310-requests \

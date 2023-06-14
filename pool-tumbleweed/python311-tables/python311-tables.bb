@@ -13,22 +13,21 @@ PV = "3.8.0"
 RPM_NAME = "python311-tables-3.8.0-2.1.aarch64.rpm"
 RPM_HASH = "de6884e90f32b42ace7c54af02dfc0ad9a06b8199f179b183bc39987e3c84c8652fa1e8ca19a2b517309f01ee2936ba3613e212e79b5b324bf75ee1c1fe8c136"
 
-RPROVIDES:${PN} += "python3.11dist(tables) \
+RPROVIDES:${PN} += "python3.11dist-tables \
 python311-tables \
-python311-tables(aarch-64) \
-python3dist(tables)"
+python3dist-tables"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 hdf5 \
-ld-linux-aarch64.so.1()(64bit) \
-libblosc.so.1()(64bit) \
-libblosc2.so.2()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit) \
-liblzo2.so.2()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libblosc.so.1 \
+libblosc2.so.2 \
+libbz2.so.1 \
+libc.so.6 \
+libhdf5.so.200 \
+liblzo2.so.2 \
+python-abi \
 python311-Cython \
 python311-numexpr \
 python311-numpy \

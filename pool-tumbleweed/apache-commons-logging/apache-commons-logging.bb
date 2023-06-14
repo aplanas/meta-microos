@@ -19,27 +19,27 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-logging \
 commons-logging \
 jakarta-commons-logging \
-mvn(apache:commons-logging) \
-mvn(apache:commons-logging-adapters) \
-mvn(apache:commons-logging-adapters:pom:) \
-mvn(apache:commons-logging-api) \
-mvn(apache:commons-logging-api:pom:) \
-mvn(apache:commons-logging:pom:) \
-mvn(commons-logging:commons-logging) \
-mvn(commons-logging:commons-logging-adapters) \
-mvn(commons-logging:commons-logging-adapters:pom:) \
-mvn(commons-logging:commons-logging-api) \
-mvn(commons-logging:commons-logging-api:pom:) \
-mvn(commons-logging:commons-logging:pom:) \
-mvn(org.apache.commons:commons-logging) \
-mvn(org.apache.commons:commons-logging-adapters) \
-mvn(org.apache.commons:commons-logging-adapters:pom:) \
-mvn(org.apache.commons:commons-logging-api) \
-mvn(org.apache.commons:commons-logging-api:pom:) \
-mvn(org.apache.commons:commons-logging:pom:) \
-osgi(org.apache.commons.logging) \
-osgi(org.apache.commons.logging.adapters) \
-osgi(org.apache.commons.logging.api)"
+mvn-apache-commons-logging \
+mvn-apache-commons-logging-adapters \
+mvn-apache-commons-logging-adapters-pom- \
+mvn-apache-commons-logging-api \
+mvn-apache-commons-logging-api-pom- \
+mvn-apache-commons-logging-pom- \
+mvn-commons-logging-commons-logging \
+mvn-commons-logging-commons-logging-adapters \
+mvn-commons-logging-commons-logging-adapters-pom- \
+mvn-commons-logging-commons-logging-api \
+mvn-commons-logging-commons-logging-api-pom- \
+mvn-commons-logging-commons-logging-pom- \
+mvn-org.apache.commons-commons-logging \
+mvn-org.apache.commons-commons-logging-adapters \
+mvn-org.apache.commons-commons-logging-adapters-pom- \
+mvn-org.apache.commons-commons-logging-api \
+mvn-org.apache.commons-commons-logging-api-pom- \
+mvn-org.apache.commons-commons-logging-pom- \
+osgi-org.apache.commons.logging \
+osgi-org.apache.commons.logging.adapters \
+osgi-org.apache.commons.logging.api"
 
 RDEPENDS:${PN} += "java \
 java-headless \

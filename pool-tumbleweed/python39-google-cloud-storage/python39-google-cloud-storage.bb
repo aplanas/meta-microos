@@ -11,11 +11,11 @@ RPM_NAME = "python39-google-cloud-storage-2.8.0-1.2.noarch.rpm"
 RPM_HASH = "8dc06fc85a39577b0dc36a71acf2f4e9aa7e1942843b34b27ad43e77846dbe34557497817f520cd71b4fc89149315d6542c4d8f131f21ca683c3f1b478efc3bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(google-cloud-storage) \
+RPROVIDES:${PN} += "python3.9dist-google-cloud-storage \
 python39-google-cloud-storage \
-python3dist(google-cloud-storage)"
+python3dist-google-cloud-storage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-google-api-core \
 python39-google-auth \
 python39-google-cloud-core \

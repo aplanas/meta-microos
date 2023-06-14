@@ -14,10 +14,10 @@ RPM_HASH = "28200edf084ae8e6d9c75a0e3eb6d5c00d6a1700a618195b9e5cbcd957e30f175db1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-json-rpc \
-python3.10dist(json-rpc) \
+python3.10dist-json-rpc \
 python310-json-rpc \
-python3dist(json-rpc)"
+python3dist-json-rpc"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

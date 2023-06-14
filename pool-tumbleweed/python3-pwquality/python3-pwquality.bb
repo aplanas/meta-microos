@@ -12,13 +12,12 @@ RPM_HASH = "a3029ffe5a9bdf891f1bbcf636bd53488c60e7784d506bb72e145d8a188b0e6b0a2d
 
 RPROVIDES:${PN} += "python-pwquality \
 python3-pwquality \
-python3-pwquality(aarch-64) \
-python3.10dist(pwquality) \
-python3dist(pwquality)"
+python3.10dist-pwquality \
+python3dist-pwquality"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpwquality.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpwquality.so.1 \
+python-abi"
 
 inherit rpm

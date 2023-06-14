@@ -8,33 +8,32 @@ PV = "1.14.2"
 RPM_NAME = "subversion-devel-1.14.2-5.3.aarch64.rpm"
 RPM_HASH = "d57b9683b4d8bd4e79b82dde52479d1139d2034a967ad78d3beaa171c39d6b3e8f65cbc316c43ceb301470e1281c0a96050d1975bb58f21b7800c9a1e3ce62a5"
 
-RPROVIDES:${PN} += "pkgconfig(libsvn_auth_gnome_keyring) \
-pkgconfig(libsvn_auth_kwallet) \
-pkgconfig(libsvn_client) \
-pkgconfig(libsvn_delta) \
-pkgconfig(libsvn_diff) \
-pkgconfig(libsvn_fs) \
-pkgconfig(libsvn_fs_base) \
-pkgconfig(libsvn_fs_fs) \
-pkgconfig(libsvn_fs_util) \
-pkgconfig(libsvn_fs_x) \
-pkgconfig(libsvn_ra) \
-pkgconfig(libsvn_ra_local) \
-pkgconfig(libsvn_ra_serf) \
-pkgconfig(libsvn_ra_svn) \
-pkgconfig(libsvn_repos) \
-pkgconfig(libsvn_subr) \
-pkgconfig(libsvn_wc) \
-subversion-devel \
-subversion-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-libsvn-auth-gnome-keyring \
+pkgconfig-libsvn-auth-kwallet \
+pkgconfig-libsvn-client \
+pkgconfig-libsvn-delta \
+pkgconfig-libsvn-diff \
+pkgconfig-libsvn-fs \
+pkgconfig-libsvn-fs-base \
+pkgconfig-libsvn-fs-fs \
+pkgconfig-libsvn-fs-util \
+pkgconfig-libsvn-fs-x \
+pkgconfig-libsvn-ra \
+pkgconfig-libsvn-ra-local \
+pkgconfig-libsvn-ra-serf \
+pkgconfig-libsvn-ra-svn \
+pkgconfig-libsvn-repos \
+pkgconfig-libsvn-subr \
+pkgconfig-libsvn-wc \
+subversion-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libapr-util1-devel \
-pkgconfig(apr-1) \
-pkgconfig(apr-util-1) \
-pkgconfig(libsecret-1) \
-pkgconfig(serf-1) \
-pkgconfig(sqlite3) \
+pkgconfig-apr-1 \
+pkgconfig-apr-util-1 \
+pkgconfig-libsecret-1 \
+pkgconfig-serf-1 \
+pkgconfig-sqlite3 \
 subversion"
 
 inherit rpm

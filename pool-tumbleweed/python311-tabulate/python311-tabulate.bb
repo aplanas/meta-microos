@@ -18,13 +18,13 @@ RPM_NAME = "python311-tabulate-0.9.0-3.1.noarch.rpm"
 RPM_HASH = "417bd900633b55c49401ddfb3f28f7804df6edacbb5ad0271c373f2382a918663a2822ae1dde8a4ee33ac04df8b2c8ec0f2f69046a5817a7bb82ff6d5a846d87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(tabulate) \
+RPROVIDES:${PN} += "python3.11dist-tabulate \
 python311-tabulate \
-python3dist(tabulate)"
+python3dist-tabulate"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-setuptools \
 update-alternatives"
 

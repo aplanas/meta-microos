@@ -19,11 +19,11 @@ RPM_NAME = "perl-MIME-Types-2.24-1.2.noarch.rpm"
 RPM_HASH = "448d60e60cedebaabefe65ef65cedfa48badff64455d7189e105e7f7bd9d156c166d80db37c3d75bb45b2077ce6e7a1835fbe09509a72c8a584988a419beff53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MIME::Type) \
-perl(MIME::Types) \
-perl(MojoX::MIME::Types) \
-perl-MIME-Types"
+RPROVIDES:${PN} += "perl-MIME--Type \
+perl-MIME--Types \
+perl-MIME-Types \
+perl-MojoX--MIME--Types"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -7,57 +7,56 @@ PV = "2023.03.0+386"
 RPM_NAME = "rstudio-2023.03.0+386-1.2.aarch64.rpm"
 RPM_HASH = "da82155010e351dc3caa13a944635cfc4ce951306b7fd805000250c1908c804609bbc369bb99f76020c9917b573ee08d095c49a5ace7fd22da5c0559b6868fdd"
 
-RPROVIDES:${PN} += "bundled(ace.js) \
-bundled(aopalliance) \
-bundled(datatables) \
-bundled(elemental2) \
-bundled(fast-text-encoding) \
-bundled(focus-visible.js) \
-bundled(fontawesome) \
-bundled(gin) \
-bundled(gsl-lite) \
-bundled(guice) \
-bundled(gwt-rstudio) \
-bundled(gwt-websockets) \
-bundled(highlight.js) \
-bundled(inert-polyfill.js) \
-bundled(jquery.js) \
-bundled(jsbn) \
-bundled(pdf.js) \
-bundled(qtsingleapplication) \
-bundled(quinit.js) \
-bundled(rapidxml) \
-bundled(reveal.js) \
-bundled(sundown) \
-bundled(tree.hh) \
-rstudio \
-rstudio(aarch-64)"
+RPROVIDES:${PN} += "bundled-ace.js \
+bundled-aopalliance \
+bundled-datatables \
+bundled-elemental2 \
+bundled-fast-text-encoding \
+bundled-focus-visible.js \
+bundled-fontawesome \
+bundled-gin \
+bundled-gsl-lite \
+bundled-guice \
+bundled-gwt-rstudio \
+bundled-gwt-websockets \
+bundled-highlight.js \
+bundled-inert-polyfill.js \
+bundled-jquery.js \
+bundled-jsbn \
+bundled-pdf.js \
+bundled-qtsingleapplication \
+bundled-quinit.js \
+bundled-rapidxml \
+bundled-reveal.js \
+bundled-sundown \
+bundled-tree.hh \
+rstudio"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/bash \
 /usr/bin/env \
 R-base \
 R-core-libs \
-ld-linux-aarch64.so.1()(64bit) \
-libR.so()(64bit) \
-libboost_chrono.so.1.82.0()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_iostreams.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libsoci_core.so.4.0()(64bit) \
-libsoci_postgresql.so.4.0()(64bit) \
-libsoci_sqlite3.so.4.0()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit) \
-libyaml-cpp.so.0.7()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libR.so \
+libboost-chrono.so.1.82.0 \
+libboost-filesystem.so.1.82.0 \
+libboost-iostreams.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+libhunspell-1.7.so.0 \
+libsoci-core.so.4.0 \
+libsoci-postgresql.so.4.0 \
+libsoci-sqlite3.so.4.0 \
+libssl.so.3 \
+libstdc++.so.6 \
+libuuid.so.1 \
+libyaml-cpp.so.0.7 \
+libz.so.1 \
 systemd"
 
 inherit rpm

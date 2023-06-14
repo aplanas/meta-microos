@@ -9,11 +9,10 @@ PV = "20220613"
 RPM_NAME = "sunwait-20220613-1.3.aarch64.rpm"
 RPM_HASH = "9e93a4d4db3cd99cb72d5fa4ece1965a4e0a6e287357d62d0c3a747bfd87e553c0b6dd05049a0ea3a3c83d7bad871592bf7d6dd69a558ce3a90329bb21314aa6"
 
-RPROVIDES:${PN} += "sunwait \
-sunwait(aarch-64)"
+RPROVIDES:${PN} += "sunwait"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

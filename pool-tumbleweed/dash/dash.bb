@@ -8,11 +8,10 @@ PV = "0.5.12"
 RPM_NAME = "dash-0.5.12-2.2.aarch64.rpm"
 RPM_HASH = "6b780bbb30c6c55c344c666d422e5b571c77c3f75c6d6421856c44e5255fb5f9d87197fbd7db868a3f18cbe5a0f161a91143ce981e4e27020e8fe42f67f07322"
 
-RPROVIDES:${PN} += "dash \
-dash(aarch-64)"
+RPROVIDES:${PN} += "dash"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libedit.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libedit.so.0"
 
 inherit rpm

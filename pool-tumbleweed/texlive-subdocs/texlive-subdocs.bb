@@ -14,7 +14,7 @@ RPM_NAME = "texlive-subdocs-2023.201.0.0.1svn51480-57.1.noarch.rpm"
 RPM_HASH = "a78925be6cec6074f9a3c63899baf287d02d86d5629c86cfaa350a493a3340c61314dfe43d2db6a2f60610397fa32f09fb06ef5ebe0b792d8c6e09d2e3a83a07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(subdocs.sty) \
+RPROVIDES:${PN} += "tex-subdocs.sty \
 texlive-subdocs"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

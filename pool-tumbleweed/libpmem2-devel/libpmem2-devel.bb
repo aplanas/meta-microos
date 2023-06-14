@@ -16,19 +16,13 @@ RPM_NAME = "libpmem2-devel-1.11.1-1.8.aarch64.rpm"
 RPM_HASH = "b0e8d01448028951c297f70b2d41bcb914af20ca1b6cf210e4146dbf5f0d326a73364f9eb4c5abd904353d85c4b882bca4dab0c662d3bbf2865e49745cfbb251"
 
 RPROVIDES:${PN} += "libpmem2-devel \
-libpmem2-devel(aarch-64) \
-pkgconfig(libpmem2)"
+pkgconfig-libpmem2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdaxctl.so.1()(64bit) \
-libdaxctl.so.1(LIBDAXCTL_2)(64bit) \
-libndctl.so.6()(64bit) \
-libndctl.so.6(LIBNDCTL_1)(64bit) \
-libndctl.so.6(LIBNDCTL_15)(64bit) \
-libndctl.so.6(LIBNDCTL_18)(64bit) \
-libndctl.so.6(LIBNDCTL_3)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdaxctl.so.1 \
+libndctl.so.6 \
 libpmem2-1"
 
 inherit rpm

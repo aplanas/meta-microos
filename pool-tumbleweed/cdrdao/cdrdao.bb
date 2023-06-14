@@ -11,15 +11,14 @@ PV = "1.2.4"
 RPM_NAME = "cdrdao-1.2.4-1.13.aarch64.rpm"
 RPM_HASH = "3cc2d27b59c6ccd139a8d564646e5f0116f9484fa7c1cafaacf98e6e5ac2e281104a60da2ca11510bbce8538f54fb34206486ef43953c67718c0354786e422c4"
 
-RPROVIDES:${PN} += "cdrdao \
-cdrdao(aarch-64)"
+RPROVIDES:${PN} += "cdrdao"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libao.so.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmad.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libvorbisfile.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libao.so.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmad.so.0 \
+libstdc++.so.6 \
+libvorbisfile.so.3"
 
 inherit rpm

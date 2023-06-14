@@ -15,45 +15,45 @@ RPM_HASH = "8ebfa6f29d4d4d398f9c10268c1b85c0b2911bd3759df08a90ba9eb4e25fe697fb48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello \
-mvn(org.codehaus.modello:modello-core) \
-mvn(org.codehaus.modello:modello-core:pom:) \
-mvn(org.codehaus.modello:modello-plugin-converters) \
-mvn(org.codehaus.modello:modello-plugin-converters:pom:) \
-mvn(org.codehaus.modello:modello-plugin-dom4j) \
-mvn(org.codehaus.modello:modello-plugin-dom4j:pom:) \
-mvn(org.codehaus.modello:modello-plugin-java) \
-mvn(org.codehaus.modello:modello-plugin-java:pom:) \
-mvn(org.codehaus.modello:modello-plugin-jdom) \
-mvn(org.codehaus.modello:modello-plugin-jdom:pom:) \
-mvn(org.codehaus.modello:modello-plugin-sax) \
-mvn(org.codehaus.modello:modello-plugin-sax:pom:) \
-mvn(org.codehaus.modello:modello-plugin-stax) \
-mvn(org.codehaus.modello:modello-plugin-stax:pom:) \
-mvn(org.codehaus.modello:modello-plugin-xdoc) \
-mvn(org.codehaus.modello:modello-plugin-xdoc:pom:) \
-mvn(org.codehaus.modello:modello-plugin-xml) \
-mvn(org.codehaus.modello:modello-plugin-xml:pom:) \
-mvn(org.codehaus.modello:modello-plugin-xpp3) \
-mvn(org.codehaus.modello:modello-plugin-xpp3:pom:) \
-mvn(org.codehaus.modello:modello-plugin-xsd) \
-mvn(org.codehaus.modello:modello-plugin-xsd:pom:) \
-mvn(org.codehaus.modello:modello-plugins:pom:) \
-mvn(org.codehaus.modello:modello-test) \
-mvn(org.codehaus.modello:modello-test:pom:) \
-mvn(org.codehaus.modello:modello:pom:)"
+mvn-org.codehaus.modello-modello-core \
+mvn-org.codehaus.modello-modello-core-pom- \
+mvn-org.codehaus.modello-modello-plugin-converters \
+mvn-org.codehaus.modello-modello-plugin-converters-pom- \
+mvn-org.codehaus.modello-modello-plugin-dom4j \
+mvn-org.codehaus.modello-modello-plugin-dom4j-pom- \
+mvn-org.codehaus.modello-modello-plugin-java \
+mvn-org.codehaus.modello-modello-plugin-java-pom- \
+mvn-org.codehaus.modello-modello-plugin-jdom \
+mvn-org.codehaus.modello-modello-plugin-jdom-pom- \
+mvn-org.codehaus.modello-modello-plugin-sax \
+mvn-org.codehaus.modello-modello-plugin-sax-pom- \
+mvn-org.codehaus.modello-modello-plugin-stax \
+mvn-org.codehaus.modello-modello-plugin-stax-pom- \
+mvn-org.codehaus.modello-modello-plugin-xdoc \
+mvn-org.codehaus.modello-modello-plugin-xdoc-pom- \
+mvn-org.codehaus.modello-modello-plugin-xml \
+mvn-org.codehaus.modello-modello-plugin-xml-pom- \
+mvn-org.codehaus.modello-modello-plugin-xpp3 \
+mvn-org.codehaus.modello-modello-plugin-xpp3-pom- \
+mvn-org.codehaus.modello-modello-plugin-xsd \
+mvn-org.codehaus.modello-modello-plugin-xsd-pom- \
+mvn-org.codehaus.modello-modello-plugins-pom- \
+mvn-org.codehaus.modello-modello-pom- \
+mvn-org.codehaus.modello-modello-test \
+mvn-org.codehaus.modello-modello-test-pom-"
 
 RDEPENDS:${PN} += "/bin/bash \
 guava \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(org.codehaus.plexus:plexus-compiler-api) \
-mvn(org.codehaus.plexus:plexus-compiler-javac) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.eclipse.sisu:org.eclipse.sisu.plexus) \
-mvn(org.jsoup:jsoup) \
-mvn(org.sonatype.plexus:plexus-build-api) \
-mvn(org.sonatype.sisu:sisu-guice::no_aop:) \
+mvn-org.codehaus.plexus-plexus-compiler-api \
+mvn-org.codehaus.plexus-plexus-compiler-javac \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.eclipse.sisu-org.eclipse.sisu.plexus \
+mvn-org.jsoup-jsoup \
+mvn-org.sonatype.plexus-plexus-build-api \
+mvn-org.sonatype.sisu-sisu-guice--no-aop- \
 xbean"
 
 inherit rpm

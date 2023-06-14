@@ -12,8 +12,7 @@ PV = "5.3.5"
 RPM_NAME = "mumps-ptscotch-openmpi3-devel-static-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "83d996d3471f3d88dc492f7a51478a82e5370c67738c240c0b2a92d720ce7ff7f9cc5e0c0e54bc301df1031a4efc773a0315876ccf74fdad5be423190386a8cc"
 
-RPROVIDES:${PN} += "mumps-ptscotch-openmpi3-devel-static \
-mumps-ptscotch-openmpi3-devel-static(aarch-64)"
+RPROVIDES:${PN} += "mumps-ptscotch-openmpi3-devel-static"
 
 RDEPENDS:${PN} += "mumps-ptscotch-openmpi3-devel"
 

@@ -17,15 +17,15 @@ RPM_NAME = "texlive-hyphen-latin-2023.201.3.1svn58652-52.1.noarch.rpm"
 RPM_HASH = "a6974c0a608c4d74e35f3fdd067a50a2ce5adcd1dcbef43799ca1dd7f541f677251046ba52b7ecf9a551d21bbc3ce94fa3a29c1f32d7d53395fcc9cf861ec50f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hyph-la-x-classic.ec.tex) \
-tex(hyph-la-x-classic.tex) \
-tex(hyph-la-x-liturgic.ec.tex) \
-tex(hyph-la-x-liturgic.tex) \
-tex(hyph-la.ec.tex) \
-tex(hyph-la.tex) \
-tex(loadhyph-la-x-classic.tex) \
-tex(loadhyph-la-x-liturgic.tex) \
-tex(loadhyph-la.tex) \
+RPROVIDES:${PN} += "tex-hyph-la-x-classic.ec.tex \
+tex-hyph-la-x-classic.tex \
+tex-hyph-la-x-liturgic.ec.tex \
+tex-hyph-la-x-liturgic.tex \
+tex-hyph-la.ec.tex \
+tex-hyph-la.tex \
+tex-loadhyph-la-x-classic.tex \
+tex-loadhyph-la-x-liturgic.tex \
+tex-loadhyph-la.tex \
 texlive-hyphen-latin"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -34,9 +34,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

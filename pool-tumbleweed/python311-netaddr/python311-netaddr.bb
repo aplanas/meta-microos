@@ -22,15 +22,15 @@ RPM_NAME = "python311-netaddr-0.8.0-2.11.noarch.rpm"
 RPM_HASH = "f6ad27a4f4bc2522bd6d63c6ee5e17c892275f5ffb8e7145154e19a9c467c4f0655e3f95622fd294007c29a5348848ec25cea488a4689501791e4f52b1cdc391"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(netaddr) \
+RPROVIDES:${PN} += "python3.11dist-netaddr \
 python311-netaddr \
-python3dist(netaddr)"
+python3dist-netaddr"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-importlib-metadata \
-python311-importlib_resources \
+python311-importlib-resources \
 update-alternatives"
 
 inherit rpm

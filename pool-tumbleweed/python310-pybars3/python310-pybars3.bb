@@ -11,11 +11,11 @@ RPM_HASH = "ff8cceb162fa5638d5db7c4b120107d1cca9698a10be0564e83acdff11b260438ccb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pybars3 \
-python3.10dist(pybars3) \
+python3.10dist-pybars3 \
 python310-pybars3 \
-python3dist(pybars3)"
+python3dist-pybars3"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyMeta3"
 
 inherit rpm

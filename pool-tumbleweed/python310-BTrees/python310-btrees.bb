@@ -16,15 +16,14 @@ RPM_HASH = "e144cd283e708fb311e181aab9c775fae572236512889ed15c5aa2fb75469ee8909e
 
 RPROVIDES:${PN} += "python3-BTrees \
 python3-BTrees-doc \
-python3.10dist(btrees) \
+python3.10dist-btrees \
 python310-BTrees \
-python310-BTrees(aarch-64) \
 python310-BTrees-doc \
-python3dist(btrees)"
+python3dist-btrees"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-persistent \
 python310-zope.interface"
 

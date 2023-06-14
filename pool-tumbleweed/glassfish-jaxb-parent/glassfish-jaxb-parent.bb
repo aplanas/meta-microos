@@ -9,14 +9,14 @@ RPM_HASH = "42c928d95e2bb0a0ff605a00454bc7bcffe7f0cf5bf1b655f44f702b63c8ac76bba4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-parent \
-mvn(com.sun.xml.bind.mvn:jaxb-parent:pom:)"
+mvn-com.sun.xml.bind.mvn-jaxb-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.xml.bind:jaxb-bom-ext:pom:) \
-mvn(org.apache.maven.plugins:maven-compiler-plugin) \
-mvn(org.apache.maven.plugins:maven-dependency-plugin) \
-mvn(org.apache.maven.plugins:maven-enforcer-plugin) \
-mvn(org.codehaus.mojo:build-helper-maven-plugin)"
+mvn-com.sun.xml.bind-jaxb-bom-ext-pom- \
+mvn-org.apache.maven.plugins-maven-compiler-plugin \
+mvn-org.apache.maven.plugins-maven-dependency-plugin \
+mvn-org.apache.maven.plugins-maven-enforcer-plugin \
+mvn-org.codehaus.mojo-build-helper-maven-plugin"
 
 inherit rpm

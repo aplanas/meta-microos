@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcdemu-lang \
 gcdemu-lang-all \
-locale(gcdemu:de) \
-locale(gcdemu:fr) \
-locale(gcdemu:ko) \
-locale(gcdemu:pl) \
-locale(gcdemu:pt_BR) \
-locale(gcdemu:ru) \
-locale(gcdemu:sl) \
-locale(gcdemu:sv) \
-locale(gcdemu:zh_CN)"
+locale-gcdemu-de \
+locale-gcdemu-fr \
+locale-gcdemu-ko \
+locale-gcdemu-pl \
+locale-gcdemu-pt-BR \
+locale-gcdemu-ru \
+locale-gcdemu-sl \
+locale-gcdemu-sv \
+locale-gcdemu-zh-CN"
 
 RDEPENDS:${PN} += "gcdemu"
 

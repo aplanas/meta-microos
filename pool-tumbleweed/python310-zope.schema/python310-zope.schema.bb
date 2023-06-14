@@ -16,11 +16,11 @@ RPM_HASH = "773a4e3767a6f59d91c34c639508ecf2a7af33f436f0ae9757bf1538b5a4695d781e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.schema \
-python3.10dist(zope.schema) \
+python3.10dist-zope.schema \
 python310-zope.schema \
-python3dist(zope.schema)"
+python3dist-zope.schema"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-zope.event \
 python310-zope.interface"
 

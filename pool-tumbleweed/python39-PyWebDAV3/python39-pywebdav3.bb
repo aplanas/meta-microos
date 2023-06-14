@@ -13,13 +13,13 @@ RPM_NAME = "python39-PyWebDAV3-0.9.14-1.16.noarch.rpm"
 RPM_HASH = "fd4d8ea5655322d2c58bdc8256b76af362a1a68717b608e13759e574520449226ddcfbbc68d1af7cc9132a19e7184263c4d298d269940fbd6d196fa8525961f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pywebdav3) \
+RPROVIDES:${PN} += "python3.9dist-pywebdav3 \
 python39-PyWebDAV3 \
-python3dist(pywebdav3)"
+python3dist-pywebdav3"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-six \
 update-alternatives"
 

@@ -12,11 +12,11 @@ RPM_NAME = "python311-visvis-1.13.0-1.13.noarch.rpm"
 RPM_HASH = "62d4765cd407b12385694b056045e32c2bba01b0f9be4f5310bceae2f064ef429964fefdeff113d7f93b7f7253f3882cc18ed488c57ce524fb8c776b142dd5ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(visvis) \
+RPROVIDES:${PN} += "python3.11dist-visvis \
 python311-visvis \
-python3dist(visvis)"
+python3dist-visvis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-numpy \
 python311-opengl \
 python311-qt5"

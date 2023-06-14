@@ -9,9 +9,8 @@ PV = "1.1.1a023.1"
 RPM_NAME = "fwnncom-1.1.1a023.1-4.3.aarch64.rpm"
 RPM_HASH = "4ba7c0ad8fb7a6fa5a0cad61d6d0dc0ff571f41b7fd6d04eb85786a56dc8e08d09fb1df59333e7a3914386d689e9f5af4c8884e8d6287538ebcdfd0436b729f4"
 
-RPROVIDES:${PN} += "config(fwnncom) \
-fwnncom \
-fwnncom(aarch-64)"
+RPROVIDES:${PN} += "config-fwnncom \
+fwnncom"
 
 RDEPENDS:${PN} += "/bin/sh \
 shadow"

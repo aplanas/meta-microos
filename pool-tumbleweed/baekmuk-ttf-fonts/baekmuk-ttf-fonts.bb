@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baekmuk-ttf \
 baekmuk-ttf-fonts \
-config(baekmuk-ttf-fonts) \
-locale(ko) \
+config-baekmuk-ttf-fonts \
+locale-ko \
 scalable-font-ko"
 
 RDEPENDS:${PN} += "/bin/sh"

@@ -10,11 +10,11 @@ RPM_HASH = "3fb68adfc84f001f3a09c9e22ee07d61b38219591734e1b3f7a8b26ef10e9f98ff82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mocket \
-python3.10dist(mocket) \
+python3.10dist-mocket \
 python310-mocket \
-python3dist(mocket)"
+python3dist-mocket"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-decorator \
 python310-httptools \
 python310-python-magic \

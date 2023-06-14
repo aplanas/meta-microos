@@ -11,19 +11,19 @@ RPM_HASH = "a31a921d6e54c5f9af68ad85049e8675e896019339a53d0151d8770797244384f465
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipympl \
-python3-jupyter_ipympl \
-python3.10dist(ipympl) \
+python3-jupyter-ipympl \
+python3.10dist-ipympl \
 python310-ipympl \
-python310-jupyter_ipympl \
-python3dist(ipympl)"
+python310-jupyter-ipympl \
+python3dist-ipympl"
 
-RDEPENDS:${PN} += "(python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9) \
-(python310-matplotlib >= 3.4.0 with python310-matplotlib < 4) \
+RDEPENDS:${PN} += "-python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9 \
+-python310-matplotlib >= 3.4.0 with python310-matplotlib < 4 \
 jupyter-matplotlib \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-ipython \
-python310-ipython_genutils \
+python310-ipython-genutils \
 python310-matplotlib-web \
 python310-numpy \
 python310-traitlets"

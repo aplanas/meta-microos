@@ -13,32 +13,26 @@ PV = "44.0"
 RPM_NAME = "simple-scan-44.0-1.1.aarch64.rpm"
 RPM_HASH = "dc506fbf85f169fc035e13b5afa74606da9bea9ed87037b5ece7038cfd5a39cd0bf242a71f88dc8b040b3b7dcf786a63091d92a4632aa0d21e9b26ac2abff414"
 
-RPROVIDES:${PN} += "application() \
-application(simple-scan.desktop) \
-metainfo() \
-metainfo(simple-scan.appdata.xml) \
-simple-scan \
-simple-scan(aarch-64)"
+RPROVIDES:${PN} += "simple-scan"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcolord.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgusb.so.2()(64bit) \
-libhandy-1.so.0()(64bit) \
-libhandy-1.so.0(LIBHANDY_1_0)(64bit) \
-libm.so.6()(64bit) \
-libpackagekit-glib2.so.18()(64bit) \
-libsane.so.1()(64bit) \
-libwebp.so.7()(64bit) \
-libwebpmux.so.3()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libcolord.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgusb.so.2 \
+libhandy-1.so.0 \
+libm.so.6 \
+libpackagekit-glib2.so.18 \
+libsane.so.1 \
+libwebp.so.7 \
+libwebpmux.so.3 \
+libz.so.1 \
 xdg-utils"
 
 inherit rpm

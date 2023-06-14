@@ -10,18 +10,17 @@ RPM_NAME = "ruby3.2-rubygem-pry-0.14.1-1.12.aarch64.rpm"
 RPM_HASH = "dbc783ad2efad2c3ec667344ee5ac22141e718e4951ec3482275932a99f600914aaa5e3bcefe7b26ebabefbb1d6d89b81ed4b6ccafbf61904fa67ef4fd8a33d5"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-pry \
-ruby3.2-rubygem-pry(aarch-64) \
-rubygem(pry) \
-rubygem(ruby:3.2.0:pry) \
-rubygem(ruby:3.2.0:pry:0) \
-rubygem(ruby:3.2.0:pry:0.14) \
-rubygem(ruby:3.2.0:pry:0.14.1)"
+rubygem-pry \
+rubygem-ruby-3.2.0-pry \
+rubygem-ruby-3.2.0-pry-0 \
+rubygem-ruby-3.2.0-pry-0.14 \
+rubygem-ruby-3.2.0-pry-0.14.1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
-ruby(abi) \
-rubygem(ruby:3.2.0:coderay:1) \
-rubygem(ruby:3.2.0:method_source:1) \
+ruby-abi \
+rubygem-ruby-3.2.0-coderay-1 \
+rubygem-ruby-3.2.0-method-source-1 \
 update-alternatives"
 
 inherit rpm

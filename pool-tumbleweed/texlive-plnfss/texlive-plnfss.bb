@@ -15,8 +15,8 @@ RPM_NAME = "texlive-plnfss-2023.201.1.1svn15878-52.1.noarch.rpm"
 RPM_HASH = "8a120bd3ecabf649fbbc1e79c830ff2c4c9db99b14c60e1d15c9157298bfd36c9ccf9046cdcae88fa5ce618e7e5e6a3ed068e9141000425c4e612d0e12dd2745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(MIKmathf.tex) \
-tex(plnfss.tex) \
+RPROVIDES:${PN} += "tex-MIKmathf.tex \
+tex-plnfss.tex \
 texlive-plnfss"
 
 RDEPENDS:${PN} += "/bin/sh \

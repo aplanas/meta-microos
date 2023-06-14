@@ -13,7 +13,7 @@ RPM_NAME = "texlive-egameps-2023.201.1.1svn15878-53.1.noarch.rpm"
 RPM_HASH = "f6a194f97f8e582c6255120de529e6fec56b464175f03f16a1c7b4b61bbe5882c5c91c0bf0d4b8567165f5365af42e24719ce73c359629797bcb5fc1db270225"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(egameps.sty) \
+RPROVIDES:${PN} += "tex-egameps.sty \
 texlive-egameps"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -8,12 +8,11 @@ PV = "1.0.7"
 RPM_NAME = "xgamma-1.0.7-1.2.aarch64.rpm"
 RPM_HASH = "ad297c610fe78ca5facf00e8fa8862ad2eaa762e3ab296894a77f337c99f00ae4faec1f00e8a10a8e267e73cb01c5b2ae9c31951b1b2db79b59009d24ba27173"
 
-RPROVIDES:${PN} += "xgamma \
-xgamma(aarch-64)"
+RPROVIDES:${PN} += "xgamma"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXxf86vm.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXxf86vm.so.1 \
+libc.so.6"
 
 inherit rpm

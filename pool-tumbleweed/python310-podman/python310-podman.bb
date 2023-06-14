@@ -9,11 +9,11 @@ RPM_HASH = "e5ed6e19df82d547c61024d683fc605b0e4ef8b9a52537c6e7b5f7231c17965a2082
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-podman \
-python3.10dist(podman) \
+python3.10dist-podman \
 python310-podman \
-python3dist(podman)"
+python3dist-podman"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyxdg \
 python310-requests \
 python310-urllib3"

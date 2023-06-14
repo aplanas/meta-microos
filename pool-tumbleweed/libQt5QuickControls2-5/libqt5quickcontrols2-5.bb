@@ -11,22 +11,16 @@ RPM_NAME = "libQt5QuickControls2-5-5.15.9+kde5-1.1.aarch64.rpm"
 RPM_HASH = "dee5c6b87de87d07515ced9495f1902865a40ee42c88a0c09b635a634f420f349b88a2593235c4d160e98ee50eab1db3cedaeb34c6102b082fc0db51dbdec98f"
 
 RPROVIDES:${PN} += "libQt5QuickControls2-5 \
-libQt5QuickControls2-5(aarch-64) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit)"
+libQt5QuickControls2.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5QuickTemplates2.so.5()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5QuickTemplates2.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -18,10 +18,10 @@ RPM_HASH = "1ce669318efd5069582857baacda8c962f01cb270cb72b44c3bb5852c5becae82d9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tenacity \
-python3.10dist(tenacity) \
+python3.10dist-tenacity \
 python310-tenacity \
-python3dist(tenacity)"
+python3dist-tenacity"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

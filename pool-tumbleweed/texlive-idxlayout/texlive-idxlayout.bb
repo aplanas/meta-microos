@@ -13,7 +13,7 @@ RPM_NAME = "texlive-idxlayout-2023.201.0.0.4dsvn25821-52.1.noarch.rpm"
 RPM_HASH = "b1a01628ab0109a424c5a96a4af77b88c61c29f3521e0bfaa2a450af30e43318ed955e0e48f4f33fded4b47e1ad800143cb9d833cd2413c28f7317097a3574f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(idxlayout.sty) \
+RPROVIDES:${PN} += "tex-idxlayout.sty \
 texlive-idxlayout"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(kvoptions.sty) \
-tex(multicol.sty) \
-tex(ragged2e.sty) \
+tex-etoolbox.sty \
+tex-kvoptions.sty \
+tex-multicol.sty \
+tex-ragged2e.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

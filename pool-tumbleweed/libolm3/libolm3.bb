@@ -9,12 +9,11 @@ PV = "3.2.14"
 RPM_NAME = "libolm3-3.2.14-1.5.aarch64.rpm"
 RPM_HASH = "9940c3c4153dba89052011404f300cc5db950dd890cf89d24c0e1fb2a15b9975921eb257914b6141e4a33f7164e328c590895b23096181f7403a78dfbf934871"
 
-RPROVIDES:${PN} += "libolm.so.3()(64bit) \
-libolm3 \
-libolm3(aarch-64)"
+RPROVIDES:${PN} += "libolm.so.3 \
+libolm3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -8,10 +8,9 @@ PV = "0.97"
 RPM_NAME = "perl-BIND-Conf_Parser-0.97-515.29.aarch64.rpm"
 RPM_HASH = "062a6a5b08ed309bb30eb5af049081748443c63ada7c0f7c629a120e4f355875a72b91d053b3f8c4102bf15a326f231e1b5efc50e9bdf5b1bf39cabad48da5ba"
 
-RPROVIDES:${PN} += "perl(BIND::Conf_Parser) \
-perl-BIND-Conf_Parser \
-perl-BIND-Conf_Parser(aarch-64)"
+RPROVIDES:${PN} += "perl-BIND--Conf-Parser \
+perl-BIND-Conf-Parser"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

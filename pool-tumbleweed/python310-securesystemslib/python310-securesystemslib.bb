@@ -9,11 +9,11 @@ RPM_HASH = "519477275ae174f00a754b1f273fd37909117fd2a0d944c80909bf0e8e0c39e6f21b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-securesystemslib \
-python3.10dist(securesystemslib) \
+python3.10dist-securesystemslib \
 python310-securesystemslib \
-python3dist(securesystemslib)"
+python3dist-securesystemslib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyNaCl \
 python310-asn1crypto \
 python310-colorama \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "git-buildpackage-rpm"
 
 RDEPENDS:${PN} += "/bin/sh \
 git-buildpackage-common \
-python(abi) \
+python-abi \
 python3-rpm \
 rpm"
 

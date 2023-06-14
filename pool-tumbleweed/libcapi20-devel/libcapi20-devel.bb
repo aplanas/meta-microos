@@ -10,8 +10,7 @@ RPM_HASH = "efdfe543fb04db8b96462ce7f81b77bd9aa89d2130f46f863c9412a601a8058fe012
 
 RPROVIDES:${PN} += "capi4linux-devel \
 libcapi20-devel \
-libcapi20-devel(aarch-64) \
-pkgconfig(capi20)"
+pkgconfig-capi20"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcapi20-3"

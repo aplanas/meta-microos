@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-QtPy-test"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-QtPy"
 
 inherit rpm

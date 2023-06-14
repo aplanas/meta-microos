@@ -19,8 +19,7 @@ RPM_NAME = "ColorFull-devel-1.1-1.24.aarch64.rpm"
 RPM_HASH = "68d432dc9430138314e2d82b6fe19a60464e435f8348f9cf5dc7519473285e7020968b4cf636c046b08ea52f42acfd0c590902fdc86af76ec8d83853def50c81"
 
 RPROVIDES:${PN} += "ColorFull-devel \
-ColorFull-devel(aarch-64) \
-pkgconfig(ColorFull)"
+pkgconfig-ColorFull"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libColorFull0"

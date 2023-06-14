@@ -12,12 +12,12 @@ RPM_HASH = "1aa3de478ae2ba37482a29eb6a138ac8c85a3e4681e940093d94705a42e564b4e844
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-genson \
-python3.10dist(genson) \
+python3.10dist-genson \
 python310-genson \
-python3dist(genson)"
+python3dist-genson"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi)"
+python-abi"
 
 inherit rpm

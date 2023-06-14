@@ -10,7 +10,7 @@ RPM_HASH = "213416283c63768b2d133881091d6f7f13ce029920193a761b2f39e6d7cb7a304593
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-devel \
-pkgconfig(gnome-keybindings)"
+pkgconfig-gnome-keybindings"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-control-center"

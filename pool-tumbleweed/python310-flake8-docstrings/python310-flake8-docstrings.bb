@@ -9,11 +9,11 @@ RPM_HASH = "0c58720610bd00bac8670eeb82e36c2780fc023af5d0edf4053ae89870168745e5fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-docstrings \
-python3.10dist(flake8-docstrings) \
+python3.10dist-flake8-docstrings \
 python310-flake8-docstrings \
-python3dist(flake8-docstrings)"
+python3dist-flake8-docstrings"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flake8 \
 python310-flake8-polyfill \
 python310-pydocstyle"

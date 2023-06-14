@@ -10,14 +10,14 @@ RPM_HASH = "7d4735c2e0f5e901fdbaf09488d6635a6d1f5d03df28e09f52077fa11b22ca28a807
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmark-python \
-python3.9dist(commonmark) \
+python3.9dist-commonmark \
 python39-CommonMark \
 python39-commonmark \
-python3dist(commonmark)"
+python3dist-commonmark"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-pgf-blur-2023.201.1.02svn54512-51.1.noarch.rpm"
 RPM_HASH = "4f3bc9282b26f158df0370258ff6e20ac1a158a8895ba922f53065c23a94d5601160a54377480582271df821f24e0188d6210dab6e5075af18dbc65286b1b354"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibraryshadows.blur.code.tex) \
+RPROVIDES:${PN} += "tex-tikzlibraryshadows.blur.code.tex \
 texlive-pgf-blur"
 
 RDEPENDS:${PN} += "/bin/sh \

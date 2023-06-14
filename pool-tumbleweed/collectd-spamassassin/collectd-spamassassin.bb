@@ -10,8 +10,8 @@ RPM_HASH = "992e2187c5d3c50a528fdfefb641211551a1d675525fb58451373c9e0b6223aee9de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-spamassassin \
-config(collectd-spamassassin) \
-perl(Mail::SpamAssassin::Plugin::Collectd)"
+config-collectd-spamassassin \
+perl-Mail--SpamAssassin--Plugin--Collectd"
 
 RDEPENDS:${PN} += "collectd \
 perl-spamassassin"

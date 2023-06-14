@@ -15,8 +15,8 @@ RPM_NAME = "docbook_5-5.2cr5-2.1.noarch.rpm"
 RPM_HASH = "a723c2184015e17a0e563ea13ab9ecb04d8b82a7076c767c5daca3d1e4fd99da5f426d08648476e4fbd3974e47e1a59fa6e9b119935724e60e72fea72389f3c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(docbook_5) \
-docbook_5"
+RPROVIDES:${PN} += "config-docbook-5 \
+docbook-5"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \

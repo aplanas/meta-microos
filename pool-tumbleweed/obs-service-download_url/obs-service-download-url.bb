@@ -10,7 +10,7 @@ RPM_NAME = "obs-service-download_url-0.1.3-2.6.noarch.rpm"
 RPM_HASH = "00af842d1de517e557e4ab7b90156032ce613e79f7a3cb700906c8df985667f8f783912690d85df778bae3bfa1b8cf8d423c67aedf13d0f11df81fe74c907c9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "obs-service-download_url"
+RPROVIDES:${PN} += "obs-service-download-url"
 
 RDEPENDS:${PN} += "/bin/bash \
 wget"

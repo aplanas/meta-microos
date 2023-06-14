@@ -12,21 +12,20 @@ RPM_NAME = "v4l-tools-3.107-2.10.aarch64.rpm"
 RPM_HASH = "146129247e76f38f27e1fd7e735eeb913a477c63e4616fbb4ca361d187c5df3a54120397bbe695916bae30d5805942c7687aaf747b7d61db5d63d17085f4893d"
 
 RPROVIDES:${PN} += "v4l-tools \
-v4l-tools(aarch-64) \
-xawtv:/usr/bin/v4lctl"
+xawtv-/usr/bin/v4lctl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXv.so.1()(64bit) \
-libaa.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-liblirc_client.so.0()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libzvbi.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXv.so.1 \
+libaa.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libjpeg.so.8 \
+liblirc-client.so.0 \
+libm.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6 \
+libzvbi.so.0 \
 tv-common \
 v4l-conf"
 

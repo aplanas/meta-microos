@@ -10,8 +10,7 @@ PV = "2.4.3.2"
 RPM_NAME = "cadabra2-examples-2.4.3.2-1.5.aarch64.rpm"
 RPM_HASH = "bb48afbdb1f46656392322c8fafe701711452f55a37271a93c5f5a560ca1435a9a3b5cade7c51902aa2c644d062c0acb2bf2ef6c473f2d88e6b1953ef21e9947"
 
-RPROVIDES:${PN} += "cadabra2-examples \
-cadabra2-examples(aarch-64)"
+RPROVIDES:${PN} += "cadabra2-examples"
 
 RDEPENDS:${PN} += "cadabra2"
 

@@ -10,11 +10,11 @@ RPM_HASH = "0bfc769361472bb8036719f62ddf5d2955e2db5ad30579043e713895d869c97677a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yafe \
-python3.10dist(yafe) \
+python3.10dist-yafe \
 python310-yafe \
-python3dist(yafe)"
+python3dist-yafe"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy"
 
 inherit rpm

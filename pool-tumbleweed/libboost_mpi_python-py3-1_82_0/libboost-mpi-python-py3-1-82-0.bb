@@ -8,15 +8,14 @@ PV = "1.82.0"
 RPM_NAME = "libboost_mpi_python-py3-1_82_0-1.82.0-1.1.aarch64.rpm"
 RPM_HASH = "4da1461c6627bc7d662c395174ff015cfff53049569ebf156b4d5be1b1b204b441d9157dca9a5077487aef6059d2d3a57b255fa3b59927c4f862f69bdfd734f7"
 
-RPROVIDES:${PN} += "libboost_mpi_python-py3-1_82_0 \
-libboost_mpi_python-py3-1_82_0(aarch-64) \
-libboost_mpi_python-py3.so.1.82.0()(64bit)"
+RPROVIDES:${PN} += "libboost-mpi-python-py3-1-82-0 \
+libboost-mpi-python-py3.so.1.82.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-boost-license1_82_0 \
-libboost_python-py3.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+boost-license1-82-0 \
+libboost-python-py3.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

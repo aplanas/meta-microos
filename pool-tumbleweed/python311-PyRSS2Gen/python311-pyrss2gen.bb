@@ -9,10 +9,10 @@ RPM_HASH = "ccef57534efaff2fc1ae98c61f57bfb9ef1c8989a60c3bfba46b4341cc5239ce9b83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyrss2gen \
-python3.11dist(pyrss2gen) \
+python3.11dist-pyrss2gen \
 python311-PyRSS2Gen \
-python3dist(pyrss2gen)"
+python3dist-pyrss2gen"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

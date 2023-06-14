@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghostwriter-lang \
 ghostwriter-lang-all \
-locale(ghostwriter:ca) \
-locale(ghostwriter:ca@valencia) \
-locale(ghostwriter:cs) \
-locale(ghostwriter:de) \
-locale(ghostwriter:en) \
-locale(ghostwriter:en_GB) \
-locale(ghostwriter:es) \
-locale(ghostwriter:eu) \
-locale(ghostwriter:fi) \
-locale(ghostwriter:fr) \
-locale(ghostwriter:id) \
-locale(ghostwriter:it) \
-locale(ghostwriter:ja) \
-locale(ghostwriter:ka) \
-locale(ghostwriter:lt) \
-locale(ghostwriter:nl) \
-locale(ghostwriter:pl) \
-locale(ghostwriter:pt) \
-locale(ghostwriter:ru) \
-locale(ghostwriter:sk) \
-locale(ghostwriter:sl) \
-locale(ghostwriter:tr) \
-locale(ghostwriter:uk) \
-locale(ghostwriter:zh_CN) \
-locale(ghostwriter:zh_TW)"
+locale-ghostwriter-ca \
+locale-ghostwriter-ca@valencia \
+locale-ghostwriter-cs \
+locale-ghostwriter-de \
+locale-ghostwriter-en \
+locale-ghostwriter-en-GB \
+locale-ghostwriter-es \
+locale-ghostwriter-eu \
+locale-ghostwriter-fi \
+locale-ghostwriter-fr \
+locale-ghostwriter-id \
+locale-ghostwriter-it \
+locale-ghostwriter-ja \
+locale-ghostwriter-ka \
+locale-ghostwriter-lt \
+locale-ghostwriter-nl \
+locale-ghostwriter-pl \
+locale-ghostwriter-pt \
+locale-ghostwriter-ru \
+locale-ghostwriter-sk \
+locale-ghostwriter-sl \
+locale-ghostwriter-tr \
+locale-ghostwriter-uk \
+locale-ghostwriter-zh-CN \
+locale-ghostwriter-zh-TW"
 
 RDEPENDS:${PN} += "ghostwriter"
 

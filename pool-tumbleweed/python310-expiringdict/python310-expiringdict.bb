@@ -13,11 +13,11 @@ RPM_HASH = "c8b946d0afb40f49aa7d78f8f82235e99adb643c6f1fec685b7aef35892338d9eb64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-expiringdict \
-python3.10dist(expiringdict) \
+python3.10dist-expiringdict \
 python310-expiringdict \
-python3dist(expiringdict)"
+python3dist-expiringdict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dill \
 python310-typing"
 

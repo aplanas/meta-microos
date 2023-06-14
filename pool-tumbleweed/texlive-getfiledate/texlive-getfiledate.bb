@@ -11,7 +11,7 @@ RPM_NAME = "texlive-getfiledate-2023.201.1.2svn16189-52.1.noarch.rpm"
 RPM_HASH = "3a8bd946b6c4c9a0437a79c7716b2cd448232c23119c41470ded06d15e93d4975c037886481f12306e7047c7b69fd9245e75e1cd80b5122e77906e97e9395264"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(getfiledate.sty) \
+RPROVIDES:${PN} += "tex-getfiledate.sty \
 texlive-getfiledate"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,12 +20,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(boxedminipage.sty) \
-tex(etextools.sty) \
-tex(ltxnew.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-amssymb.sty \
+tex-boxedminipage.sty \
+tex-etextools.sty \
+tex-ltxnew.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

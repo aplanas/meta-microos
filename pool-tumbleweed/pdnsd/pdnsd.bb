@@ -14,12 +14,11 @@ PV = "1.2.9a"
 RPM_NAME = "pdnsd-1.2.9a-10.8.aarch64.rpm"
 RPM_HASH = "fd10e83ec4724ea9a490cc04d3a7b38cec08bfacb2aa3b1636ad1ad5c32dd53db822f0f0975738505c22f24e46ab7fec65344b972245304fbd90847eeda30aa3"
 
-RPROVIDES:${PN} += "config(pdnsd) \
-pdnsd \
-pdnsd(aarch-64)"
+RPROVIDES:${PN} += "config-pdnsd \
+pdnsd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

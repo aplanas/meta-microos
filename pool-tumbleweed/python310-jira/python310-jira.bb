@@ -9,13 +9,13 @@ RPM_HASH = "9e1d332ed2904442c92b5f4041d15d4ef4717979b29505c0696b462caef61586533d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jira \
-python3.10dist(jira) \
+python3.10dist-jira \
 python310-jira \
-python3dist(jira)"
+python3dist-jira"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-defusedxml \
 python310-keyring \
 python310-oauthlib \
@@ -23,7 +23,7 @@ python310-packaging \
 python310-requests \
 python310-requests-oauthlib \
 python310-requests-toolbelt \
-python310-typing_extensions \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

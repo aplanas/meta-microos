@@ -14,6 +14,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-libproxy"
 
 RDEPENDS:${PN} += "libproxy1 \
-python(abi)"
+python-abi"
 
 inherit rpm

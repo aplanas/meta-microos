@@ -15,15 +15,14 @@ PV = "1.4.1"
 RPM_NAME = "python39-PyWavelets-1.4.1-1.5.aarch64.rpm"
 RPM_HASH = "1dbfc242ab1eda73ed26ff1500ede6bf13fed738e1e2d365a7da24db761771475981283733f1d6abdd8404e2a40d1926de5baab75996d0c3e3e2a50cda16f272"
 
-RPROVIDES:${PN} += "python3.9dist(pywavelets) \
+RPROVIDES:${PN} += "python3.9dist-pywavelets \
 python39-PyWavelets \
-python39-PyWavelets(aarch-64) \
 python39-PyWavelets-doc \
-python3dist(pywavelets)"
+python3dist-pywavelets"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python39-numpy"
 
 inherit rpm

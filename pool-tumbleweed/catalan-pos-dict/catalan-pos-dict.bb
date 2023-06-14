@@ -9,12 +9,12 @@ RPM_HASH = "de99c32d123dfc6eef650368c6a665e22f1662a91d075b141b9deec6a004bdb97f54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catalan-pos-dict \
-mvn(org.softcatala:catalan-pos-dict) \
-mvn(org.softcatala:catalan-pos-dict:pom:)"
+mvn-org.softcatala-catalan-pos-dict \
+mvn-org.softcatala-catalan-pos-dict-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.carrot2:morfologik-fsa) \
-mvn(org.carrot2:morfologik-stemming)"
+mvn-org.carrot2-morfologik-fsa \
+mvn-org.carrot2-morfologik-stemming"
 
 inherit rpm

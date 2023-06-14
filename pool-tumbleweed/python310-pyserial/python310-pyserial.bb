@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyserial \
 python3-serial \
-python3.10dist(pyserial) \
+python3.10dist-pyserial \
 python310-pyserial \
 python310-serial \
-python3dist(pyserial)"
+python3dist-pyserial"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

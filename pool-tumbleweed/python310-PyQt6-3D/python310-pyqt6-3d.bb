@@ -11,32 +11,23 @@ RPM_HASH = "24a87a3a6871f666e63adab3d3c4db792beadbad4b4c9967812d005606d8f526784a
 
 RPROVIDES:${PN} += "python3-PyQt6-3D \
 python3-qt3d-qt6 \
-python3.10dist(pyqt6-3d) \
+python3.10dist-pyqt6-3d \
 python310-PyQt6-3D \
-python310-PyQt6-3D(aarch-64) \
 python310-qt3d-qt6 \
-python3dist(pyqt6-3d)"
+python3dist-pyqt6-3d"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt63DAnimation.so.6()(64bit) \
-libQt63DAnimation.so.6(Qt_6)(64bit) \
-libQt63DCore.so.6()(64bit) \
-libQt63DCore.so.6(Qt_6)(64bit) \
-libQt63DExtras.so.6()(64bit) \
-libQt63DExtras.so.6(Qt_6)(64bit) \
-libQt63DInput.so.6()(64bit) \
-libQt63DInput.so.6(Qt_6)(64bit) \
-libQt63DLogic.so.6()(64bit) \
-libQt63DLogic.so.6(Qt_6)(64bit) \
-libQt63DRender.so.6()(64bit) \
-libQt63DRender.so.6(Qt_6)(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt63DAnimation.so.6 \
+libQt63DCore.so.6 \
+libQt63DExtras.so.6 \
+libQt63DInput.so.6 \
+libQt63DLogic.so.6 \
+libQt63DRender.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-PyQt6"
 
 inherit rpm

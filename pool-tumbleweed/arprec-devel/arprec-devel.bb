@@ -13,8 +13,7 @@ PV = "2.2.17"
 RPM_NAME = "arprec-devel-2.2.17-2.27.aarch64.rpm"
 RPM_HASH = "81350c9a915f71b187f92a6d255b7af12ce5697cabb253cb076b78a86d3161f02e392c858e31a4ae5806d3659ecc0553ab6a10c9e34874f730429a32146a0dea"
 
-RPROVIDES:${PN} += "arprec-devel \
-arprec-devel(aarch-64)"
+RPROVIDES:${PN} += "arprec-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 libarprec0"

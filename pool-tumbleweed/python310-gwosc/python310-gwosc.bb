@@ -11,11 +11,11 @@ RPM_HASH = "9188fdd746740f13f91f065fa002588a78d9f94e31fe40cf5b1e44c8d0b44cc9023b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gwosc \
-python3.10dist(gwosc) \
+python3.10dist-gwosc \
 python310-gwosc \
-python3dist(gwosc)"
+python3dist-gwosc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

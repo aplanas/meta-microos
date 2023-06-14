@@ -10,24 +10,24 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dcraw-lang \
 dcraw-lang-all \
-locale(dcraw:ca) \
-locale(dcraw:cs) \
-locale(dcraw:da) \
-locale(dcraw:de) \
-locale(dcraw:eo) \
-locale(dcraw:es) \
-locale(dcraw:fr) \
-locale(dcraw:hu) \
-locale(dcraw:it) \
-locale(dcraw:ja) \
-locale(dcraw:nl) \
-locale(dcraw:pl) \
-locale(dcraw:pt) \
-locale(dcraw:ro) \
-locale(dcraw:ru) \
-locale(dcraw:sv) \
-locale(dcraw:zh_CN) \
-locale(dcraw:zh_TW)"
+locale-dcraw-ca \
+locale-dcraw-cs \
+locale-dcraw-da \
+locale-dcraw-de \
+locale-dcraw-eo \
+locale-dcraw-es \
+locale-dcraw-fr \
+locale-dcraw-hu \
+locale-dcraw-it \
+locale-dcraw-ja \
+locale-dcraw-nl \
+locale-dcraw-pl \
+locale-dcraw-pt \
+locale-dcraw-ro \
+locale-dcraw-ru \
+locale-dcraw-sv \
+locale-dcraw-zh-CN \
+locale-dcraw-zh-TW"
 
 RDEPENDS:${PN} += "dcraw"
 

@@ -14,13 +14,13 @@ RPM_HASH = "2cc20801340c48e9facdc7d8bcaed03794af5e5d912f0fa5bb8c5b6b56ec3205be03
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyWebDAV3 \
-python3.10dist(pywebdav3) \
+python3.10dist-pywebdav3 \
 python310-PyWebDAV3 \
-python3dist(pywebdav3)"
+python3dist-pywebdav3"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-six \
 update-alternatives"
 

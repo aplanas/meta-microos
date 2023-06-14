@@ -10,16 +10,15 @@ RPM_HASH = "aeb511309a30d3c6cab6717d7dc384c9b2423f3ce9adcd7935f39de3dd8c4eef9d51
 
 RPROVIDES:${PN} += "python-setools \
 python3-setools \
-python3.10dist(setools) \
+python3.10dist-setools \
 python310-setools \
-python310-setools(aarch-64) \
-python3dist(setools)"
+python3dist-setools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libselinux.so.1()(64bit) \
-libsepol.so.2()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libselinux.so.1 \
+libsepol.so.2 \
+python-abi \
 python3"
 
 inherit rpm

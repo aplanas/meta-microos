@@ -9,13 +9,12 @@ PV = "4.0.1"
 RPM_NAME = "libtss2-tcti-cmd0-4.0.1-1.3.aarch64.rpm"
 RPM_HASH = "12a4c418dc1a265b34e128a899c6f29a0d4ca278cd687e1f96568006a3be6be454d5413bec4cdc35c73be7457381014b33a2a25a2df76bbf5dcc47f6f02ac445"
 
-RPROVIDES:${PN} += "libtss2-tcti-cmd.so.0()(64bit) \
-libtss2-tcti-cmd0 \
-libtss2-tcti-cmd0(aarch-64)"
+RPROVIDES:${PN} += "libtss2-tcti-cmd.so.0 \
+libtss2-tcti-cmd0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtss2-mu.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtss2-mu.so.0"
 
 inherit rpm

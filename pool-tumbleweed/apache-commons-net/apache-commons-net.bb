@@ -15,9 +15,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-net \
 commons-net \
 jakarta-commons-net \
-mvn(commons-net:commons-net) \
-mvn(commons-net:commons-net:pom:) \
-osgi(org.apache.commons.commons-net)"
+mvn-commons-net-commons-net \
+mvn-commons-net-commons-net-pom- \
+osgi-org.apache.commons.commons-net"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

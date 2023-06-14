@@ -13,13 +13,12 @@ PV = "0.4.14"
 RPM_NAME = "typelib-1_0-Wp-0_4-0.4.14-2.1.aarch64.rpm"
 RPM_HASH = "e643b27a2ab47283d008028b8261eee2f89dd576f68ccb9bc895252a72cff8cdc63322a88de215b43c052f9b43d09b6d40646ec58fe561e0e4492e804b86e271"
 
-RPROVIDES:${PN} += "typelib(Wp) \
-typelib-1_0-Wp-0_4 \
-typelib-1_0-Wp-0_4(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Wp-0-4 \
+typelib-Wp"
 
-RDEPENDS:${PN} += "libwireplumber-0.4.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libwireplumber-0.4.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

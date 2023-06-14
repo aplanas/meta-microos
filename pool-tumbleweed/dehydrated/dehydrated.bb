@@ -16,7 +16,7 @@ RPM_NAME = "dehydrated-0.7.1-1.2.noarch.rpm"
 RPM_HASH = "7d8c22f8c8d40bf1fb8662002f1ffe4fa80dec5543cedca8acf42a7641b22e1652ca89ac40d54c490e8befe4a4e716885545cef838d0c5d42648d1a2c8bf21b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(dehydrated) \
+RPROVIDES:${PN} += "config-dehydrated \
 dehydrated \
 letsencrypt.sh"
 

@@ -15,8 +15,8 @@ RPM_NAME = "texlive-latex2man-2023.201.1.29svn64477-54.1.noarch.rpm"
 RPM_HASH = "ad8cc1b736189515fc1a2644c1176ae1a68678dbb8562a2e2350c2924a8932b6f41dd42e3855c4ee5094b4a64ee570b8418b21bf55fbf554ab241b3c5b080499"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(latex2man.cfg) \
-tex(latex2man.sty) \
+RPROVIDES:${PN} += "tex-latex2man.cfg \
+tex-latex2man.sty \
 texlive-latex2man"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,12 +25,12 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(File::Basename) \
-perl(Getopt::Std) \
+perl-File--Basename \
+perl-Getopt--Std \
 sed \
-tex(fancyhdr.sty) \
-tex(fancyheadings.sty) \
-tex(ifthen.sty) \
+tex-fancyhdr.sty \
+tex-fancyheadings.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

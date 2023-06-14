@@ -13,7 +13,7 @@ RPM_NAME = "texlive-scratch-2023.201.0.0.41svn50073-53.1.noarch.rpm"
 RPM_HASH = "e77a411bc6a2fbfef16561503b4a833c66c9f9ab0ac40953fb9f8240e6f615acedfb147e557a42c20c9616d96f7bd295f7b0b3bb8080ce4de0fab7f5313963ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(scratch.sty) \
+RPROVIDES:${PN} += "tex-scratch.sty \
 texlive-scratch"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(simplekv.sty) \
-tex(tikz.sty) \
+tex-simplekv.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

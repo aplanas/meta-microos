@@ -21,16 +21,15 @@ PV = "0.7.1"
 RPM_NAME = "pidgin-plugin-privacy-please-0.7.1-1.25.aarch64.rpm"
 RPM_HASH = "a0c3234d3db7188367089bd9b17252286f8a47eb0567f0427ab0d5f62c33530d97f80b47882dbb096875d5c83ea40c26787c96b506cc2070c4fae14fa8987d2a"
 
-RPROVIDES:${PN} += "libpidgin_pp.so()(64bit) \
-pidgin-plugin-privacy-please \
-pidgin-plugin-privacy-please(aarch-64)"
+RPROVIDES:${PN} += "libpidgin-pp.so \
+pidgin-plugin-privacy-please"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpurple.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpurple.so.0 \
 pidgin"
 
 inherit rpm

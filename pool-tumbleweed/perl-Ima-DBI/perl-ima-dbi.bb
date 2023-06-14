@@ -23,12 +23,12 @@ RPM_NAME = "perl-Ima-DBI-0.35-5.26.noarch.rpm"
 RPM_HASH = "fe7b74144bc7d14a245aebf3b79ae065e727603b91caf485c1bebca8d346b9ee05e0b3e580a0c9132e822acd2cc4493c7f617eba1d00dfb450d69d742cb1214e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Ima::DBI) \
+RPROVIDES:${PN} += "perl-Ima--DBI \
 perl-Ima-DBI"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Data::Inheritable) \
-perl(DBI) \
-perl(DBIx::ContextualFetch)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Data--Inheritable \
+perl-DBI \
+perl-DBIx--ContextualFetch"
 
 inherit rpm

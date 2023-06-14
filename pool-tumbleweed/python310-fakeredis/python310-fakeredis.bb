@@ -9,11 +9,11 @@ RPM_HASH = "f463a12d8523fd367776163f8763dddbbda850fa1380857069ee02ee7b9fe5f1f6d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fakeredis \
-python3.10dist(fakeredis) \
+python3.10dist-fakeredis \
 python310-fakeredis \
-python3dist(fakeredis)"
+python3dist-fakeredis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-redis \
 python310-sortedcontainers"
 

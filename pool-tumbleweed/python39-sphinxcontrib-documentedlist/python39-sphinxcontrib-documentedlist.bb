@@ -16,11 +16,11 @@ RPM_NAME = "python39-sphinxcontrib-documentedlist-0.6-3.1.noarch.rpm"
 RPM_HASH = "aff2e5fa1d701a8a41299352744a57672e054acbdd5fff9befc5680632a6010f9967ccf4c91cf8be25f81981865e3091412e66a4e71a09ff9b2d8efc7dd7f4c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-documentedlist) \
+RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-documentedlist \
 python39-sphinxcontrib-documentedlist \
-python3dist(sphinxcontrib-documentedlist)"
+python3dist-sphinxcontrib-documentedlist"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Sphinx \
 python39-six"
 

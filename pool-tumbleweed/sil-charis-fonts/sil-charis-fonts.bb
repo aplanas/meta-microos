@@ -23,11 +23,11 @@ RPM_NAME = "sil-charis-fonts-6.200-1.1.noarch.rpm"
 RPM_HASH = "ae1d4b43bd3772997a0219b92dfd120434cc7a910ebd3f18fc633b822c6d6fd7206bdb4c5019597347abf5ed574043185df5910c31426209a34052aab07d5cd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(vi;ru;bg) \
+RPROVIDES:${PN} += "locale-vi;ru;bg \
 sil-charis-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

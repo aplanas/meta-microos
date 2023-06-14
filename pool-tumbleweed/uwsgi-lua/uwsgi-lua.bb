@@ -9,12 +9,11 @@ PV = "2.0.21"
 RPM_NAME = "uwsgi-lua-2.0.21-2.1.aarch64.rpm"
 RPM_HASH = "b9c669fbbe0d38ba92b08c988aba7632ef233414108c40a7ef463a97849d1dbfa5a3dc38d11b7caa2323cddf697a52fc854affb66bd594ff5edd84670e213845"
 
-RPROVIDES:${PN} += "uwsgi-lua \
-uwsgi-lua(aarch-64)"
+RPROVIDES:${PN} += "uwsgi-lua"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblua5.1.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblua5.1.so.5 \
 uwsgi"
 
 inherit rpm

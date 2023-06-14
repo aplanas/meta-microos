@@ -16,7 +16,7 @@ RPM_NAME = "texlive-topiclongtable-2023.201.1.3.2svn54758-52.1.noarch.rpm"
 RPM_HASH = "3dd9808f413aadf281085fe21fe80e595d7dc6aaf607e522c1a9ffd168871e6af2ce09db02cf1e9441caddc56187d5fc9531f226508dedfaef59b47cd8bf9898"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(topiclongtable.sty) \
+RPROVIDES:${PN} += "tex-topiclongtable.sty \
 texlive-topiclongtable"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,12 +25,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(expl3.sty) \
-tex(longtable.sty) \
-tex(multirow.sty) \
-tex(xparse.sty) \
-tex(zref-abspage.sty) \
+tex-array.sty \
+tex-expl3.sty \
+tex-longtable.sty \
+tex-multirow.sty \
+tex-xparse.sty \
+tex-zref-abspage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

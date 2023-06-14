@@ -22,13 +22,13 @@ RPM_HASH = "62db48c8cbaf71c267de98288ed83e3f916679d1e99c351bc5b0f7fd5df3d1b13898
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fvs \
-python3.10dist(fvs) \
+python3.10dist-fvs \
 python310-fvs \
-python3dist(fvs)"
+python3dist-fvs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-orjson \
 update-alternatives"
 

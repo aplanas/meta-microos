@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "papi-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-papi_7_0_0-hpc"
+papi-7-0-0-hpc"
 
 inherit rpm

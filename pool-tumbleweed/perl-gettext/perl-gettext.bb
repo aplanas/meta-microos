@@ -72,11 +72,10 @@ PV = "1.07"
 RPM_NAME = "perl-gettext-1.07-1.58.aarch64.rpm"
 RPM_HASH = "2a270cd932736f26c6dd361db12afc2ecd43592d3cb268adab445d8ba3a22d10237c2010ef1c099b65a6e959d32ab00ec7aafb491eaf1318003d5ff482e91d25"
 
-RPROVIDES:${PN} += "perl(Locale::gettext) \
-perl-gettext \
-perl-gettext(aarch-64)"
+RPROVIDES:${PN} += "perl-Locale--gettext \
+perl-gettext"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

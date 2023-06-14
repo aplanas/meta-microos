@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adriconf-lang \
 adriconf-lang-all \
-locale(adriconf:en) \
-locale(adriconf:hr) \
-locale(adriconf:lv) \
-locale(adriconf:pl) \
-locale(adriconf:pt_BR) \
-locale(adriconf:zh_CN)"
+locale-adriconf-en \
+locale-adriconf-hr \
+locale-adriconf-lv \
+locale-adriconf-pl \
+locale-adriconf-pt-BR \
+locale-adriconf-zh-CN"
 
 RDEPENDS:${PN} += "adriconf"
 

@@ -15,17 +15,17 @@ RPM_HASH = "038c27e99e7392463e3bb44d20f766bcea06f1ac00ef5149889e2b3b4d450eb47eed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mm.mysql \
-mvn(com.mysql:mysql-connector-j) \
-mvn(com.mysql:mysql-connector-j:pom:) \
+mvn-com.mysql-mysql-connector-j \
+mvn-com.mysql-mysql-connector-j-pom- \
 mysql-connector-j \
 mysql-connector-java \
 mysql-connector-java-manual \
-osgi(com.mysql.cj)"
+osgi-com.mysql.cj"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jta \
-mvn(com.google.protobuf:protobuf-java) \
+mvn-com.google.protobuf-protobuf-java \
 reload4j \
 slf4j"
 

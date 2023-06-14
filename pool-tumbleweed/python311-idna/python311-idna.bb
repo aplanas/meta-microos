@@ -16,10 +16,10 @@ RPM_NAME = "python311-idna-3.4-2.1.noarch.rpm"
 RPM_HASH = "0924a2f3ea64ee2a316863e1cb96134dffe5a408688d1d01a54d4fb095201925f3ff48bd26c8acff79b3c813d5761d8bd935d37f31ee3b5d2aec6562684cf402"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(idna) \
+RPROVIDES:${PN} += "python3.11dist-idna \
 python311-idna \
-python3dist(idna)"
+python3dist-idna"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

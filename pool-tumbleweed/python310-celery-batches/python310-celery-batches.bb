@@ -13,11 +13,11 @@ RPM_HASH = "18239b14d86b84dc145dc45263e87c6b7f396b1762cc76f7440effdf391b47c5feb0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-celery-batches \
-python3.10dist(celery-batches) \
+python3.10dist-celery-batches \
 python310-celery-batches \
-python3dist(celery-batches)"
+python3dist-celery-batches"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-celery"
 
 inherit rpm

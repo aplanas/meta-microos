@@ -9,12 +9,12 @@ RPM_HASH = "e3000f5ceb8d2772677580d57b7c18f1a306db62005c8ca1090d94da6f4e9d19c8cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scikit-build \
-python3.10dist(scikit-build) \
+python3.10dist-scikit-build \
 python310-scikit-build \
-python3dist(scikit-build)"
+python3dist-scikit-build"
 
 RDEPENDS:${PN} += "cmake \
-python(abi) \
+python-abi \
 python310-distro \
 python310-packaging \
 python310-setuptools \

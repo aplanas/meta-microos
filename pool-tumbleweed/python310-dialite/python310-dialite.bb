@@ -16,10 +16,10 @@ RPM_HASH = "a4dc40bd371def6154eb10a426eff9e1d03c41f920058a55e1bf20c3e424055a1fe8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dialite \
-python3.10dist(dialite) \
+python3.10dist-dialite \
 python310-dialite \
-python3dist(dialite)"
+python3dist-dialite"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

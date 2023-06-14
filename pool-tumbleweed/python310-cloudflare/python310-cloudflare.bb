@@ -9,13 +9,13 @@ RPM_HASH = "42c8a19e2a8c9f64ecd9e3094f808e535e040f895f7fad979c084e34c7895eb8aac5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cloudflare \
-python3.10dist(cloudflare) \
+python3.10dist-cloudflare \
 python310-cloudflare \
-python3dist(cloudflare)"
+python3dist-cloudflare"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-beautifulsoup4 \
 python310-future \

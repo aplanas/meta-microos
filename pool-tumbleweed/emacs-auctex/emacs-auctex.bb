@@ -21,9 +21,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auc-tex \
 auctex \
-config(emacs-auctex) \
+config-emacs-auctex \
 emacs-auctex \
-ge_auc"
+ge-auc"
 
 RDEPENDS:${PN} += "/bin/sh \
 emacs \

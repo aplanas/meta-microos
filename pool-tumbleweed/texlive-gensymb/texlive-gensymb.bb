@@ -18,7 +18,7 @@ RPM_NAME = "texlive-gensymb-2023.201.1.0.2svn64740-52.1.noarch.rpm"
 RPM_HASH = "dd9c1df24ba019bb746a97448fc21b926e619b2515d3c7db3b44829bbeb8bf2aa0497aa8072814e2577ffb254c192a899cc392f40214ee5ae1734792bc875894"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gensymb.sty) \
+RPROVIDES:${PN} += "tex-gensymb.sty \
 texlive-gensymb"
 
 RDEPENDS:${PN} += "/bin/sh \

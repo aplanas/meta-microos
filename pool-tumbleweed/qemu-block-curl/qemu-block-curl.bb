@@ -8,11 +8,10 @@ PV = "8.0.2"
 RPM_NAME = "qemu-block-curl-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "ad9283f63872ee1be04b79459c46f4d4d0c1efa939726219ed9401e7eef3664ba2ad4a828d364b0220870b909193e2519df6099398e5b14b10da0bc519eadbd8"
 
-RPROVIDES:${PN} += "qemu-block-curl \
-qemu-block-curl(aarch-64)"
+RPROVIDES:${PN} += "qemu-block-curl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4"
 
 inherit rpm

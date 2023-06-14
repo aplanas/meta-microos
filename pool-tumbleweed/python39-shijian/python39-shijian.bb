@@ -10,9 +10,9 @@ RPM_NAME = "python39-shijian-2020.1.29.1857-2.9.noarch.rpm"
 RPM_HASH = "9934f6997cbc536f46daaef43b86006016f726a08fd17fbc4cd3d5d283c5135b5cef7146995b632a509e5e0f425a8eeea3585f1669e5e00e461b7f324546f513"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(shijian) \
+RPROVIDES:${PN} += "python3.9dist-shijian \
 python39-shijian \
-python3dist(shijian)"
+python3dist-shijian"
 
 RDEPENDS:${PN} += "python39-matplotlib \
 python39-numpy \

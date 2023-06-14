@@ -21,16 +21,15 @@ PV = "13.5.3"
 RPM_NAME = "libOgreVolume13_5-13.5.3-1.5.aarch64.rpm"
 RPM_HASH = "03e731e4b49a868a2a832d3106e6543626689764109352bcb8864cb56021ee0085c7709f6042192f91e5e86a74c3636dcfe8462ceca0bfd406fffc74b15fd9f7"
 
-RPROVIDES:${PN} += "libOgreVolume.so.13.5()(64bit) \
-libOgreVolume13_5 \
-libOgreVolume13_5(aarch-64)"
+RPROVIDES:${PN} += "libOgreVolume.so.13.5 \
+libOgreVolume13-5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOgreMain.so.13.5()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOgreMain.so.13.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

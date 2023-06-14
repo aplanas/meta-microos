@@ -14,8 +14,7 @@ RPM_NAME = "audiofile-devel-0.3.6-11.20.aarch64.rpm"
 RPM_HASH = "46b8f184f48bb57e6d16120b1aa0d60e7464aec841311efb5ca6842ba79991a03cbb0bc0eb9ef0e22f7c84bfe8fbb09bb388aee252ec9efde4cc11fbc0383a6f"
 
 RPROVIDES:${PN} += "audiofile-devel \
-audiofile-devel(aarch-64) \
-pkgconfig(audiofile)"
+pkgconfig-audiofile"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaudiofile1"

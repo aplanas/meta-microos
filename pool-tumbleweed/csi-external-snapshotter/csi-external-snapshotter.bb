@@ -7,8 +7,7 @@ PV = "4.0.0"
 RPM_NAME = "csi-external-snapshotter-4.0.0-1.9.aarch64.rpm"
 RPM_HASH = "d79622d7b215b6104e92bd6a025c2381169e5fd5d13a957b24c48346eb92c83e26477130a66da1eed11689a47bd307f50cadfd8e6f11335c692fc613982c6d19"
 
-RPROVIDES:${PN} += "csi-external-snapshotter \
-csi-external-snapshotter(aarch-64)"
+RPROVIDES:${PN} += "csi-external-snapshotter"
 
 RDEPENDS:${PN} += ""
 

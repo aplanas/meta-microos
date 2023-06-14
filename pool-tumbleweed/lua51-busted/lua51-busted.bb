@@ -37,7 +37,7 @@ lua51-luafilesystem \
 lua51-luassert \
 lua51-luasystem \
 lua51-luaterm \
-lua51-mediator_lua \
+lua51-mediator-lua \
 lua51-penlight \
 lua51-say \
 openssl \

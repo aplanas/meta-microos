@@ -9,14 +9,13 @@ RPM_NAME = "python310-biopython-1.81-1.5.aarch64.rpm"
 RPM_HASH = "ae9d9f5ec973979f49d23dd756e00d479cc3060c8fcb43ad6b817bef729ca83dff6a0efad69ce8d33ac79ad6d3986f33081dac62aa1d4c3b45d1cbb6201625fc"
 
 RPROVIDES:${PN} += "python3-biopython \
-python3.10dist(biopython) \
+python3.10dist-biopython \
 python310-biopython \
-python310-biopython(aarch-64) \
-python3dist(biopython)"
+python3dist-biopython"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-numpy \
 python310-xml"
 

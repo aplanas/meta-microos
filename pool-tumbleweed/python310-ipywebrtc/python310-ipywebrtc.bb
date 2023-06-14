@@ -11,12 +11,12 @@ RPM_HASH = "4f4990894b6818deabbd66e803ecd0a3c897c62af3b63283a9b803e767407c5cbed4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipywebrtc \
-python3.10dist(ipywebrtc) \
+python3.10dist-ipywebrtc \
 python310-ipywebrtc \
-python3dist(ipywebrtc)"
+python3dist-ipywebrtc"
 
 RDEPENDS:${PN} += "jupyter-ipywebrtc \
-python(abi) \
+python-abi \
 python310-ipywidgets"
 
 inherit rpm

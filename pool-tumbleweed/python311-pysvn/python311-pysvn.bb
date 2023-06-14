@@ -16,23 +16,22 @@ PV = "1.9.20"
 RPM_NAME = "python311-pysvn-1.9.20-1.6.aarch64.rpm"
 RPM_HASH = "dd92a2763ba2b31b2a69ab6474332dcc194779f844055919a97d314164d15bd7d317d2f898263b16fba4bcb730901c9620f792b7ac585daffbbde2c9fdda18ca"
 
-RPROVIDES:${PN} += "python311-pysvn \
-python311-pysvn(aarch-64)"
+RPROVIDES:${PN} += "python311-pysvn"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libapr-1.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libsvn_client-1.so.0()(64bit) \
-libsvn_diff-1.so.0()(64bit) \
-libsvn_fs-1.so.0()(64bit) \
-libsvn_repos-1.so.0()(64bit) \
-libsvn_subr-1.so.0()(64bit) \
-libsvn_wc-1.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libapr-1.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libsvn-client-1.so.0 \
+libsvn-diff-1.so.0 \
+libsvn-fs-1.so.0 \
+libsvn-repos-1.so.0 \
+libsvn-subr-1.so.0 \
+libsvn-wc-1.so.0 \
 neon \
-python(abi) \
+python-abi \
 subversion"
 
 inherit rpm

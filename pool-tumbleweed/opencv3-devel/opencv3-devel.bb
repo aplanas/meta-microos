@@ -11,17 +11,16 @@ RPM_HASH = "1e111776fb6ea57218c0dbe74d1b6814fd270265d65758f648838fb068e862370120
 
 RPROVIDES:${PN} += "opencv-qt5-devel \
 opencv3-devel \
-opencv3-devel(aarch-64) \
-pkgconfig(opencv)"
+pkgconfig-opencv"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libopencv3_4 \
+libopencv3-4 \
 opencv3 \
-pkgconfig(gl) \
-pkgconfig(glu) \
-pkgconfig(ice) \
-pkgconfig(sm) \
-pkgconfig(x11) \
-pkgconfig(xext)"
+pkgconfig-gl \
+pkgconfig-glu \
+pkgconfig-ice \
+pkgconfig-sm \
+pkgconfig-x11 \
+pkgconfig-xext"
 
 inherit rpm

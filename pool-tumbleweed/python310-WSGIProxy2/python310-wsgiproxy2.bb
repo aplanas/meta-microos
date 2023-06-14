@@ -9,11 +9,11 @@ RPM_HASH = "eaa73f1e2a91d0a37071616957d437e581f2c772c654b9870b00dccf7d8dfec5a816
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-WSGIProxy2 \
-python3.10dist(wsgiproxy2) \
+python3.10dist-wsgiproxy2 \
 python310-WSGIProxy2 \
-python3dist(wsgiproxy2)"
+python3dist-wsgiproxy2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WebOb \
 python310-requests \
 python310-urllib3"

@@ -10,21 +10,20 @@ PV = "2.6.3"
 RPM_NAME = "nfs-kernel-server-2.6.3-39.1.aarch64.rpm"
 RPM_HASH = "b7b5b9ba6035d8b33cad3fd0af3a35b511c387d74fa4afa25d955bdbb0f7323fc39a833044123e80c6ebffae8344d73a6cbf7c2a751fd0b12ed8814b25d91a6d"
 
-RPROVIDES:${PN} += "config(nfs-kernel-server) \
+RPROVIDES:${PN} += "config-nfs-kernel-server \
 nfs-kernel-server \
-nfs-kernel-server(aarch-64) \
 nfs-utils"
 
-RDEPENDS:${PN} += "(kmod(nfsd.ko) if kernel) \
+RDEPENDS:${PN} += "-kmod(nfsd.ko) if kernel \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libnss_usrfiles2 \
-libsqlite3.so.0()(64bit) \
-libtirpc.so.3()(64bit) \
-libuuid.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libnss-usrfiles2 \
+libsqlite3.so.0 \
+libtirpc.so.3 \
+libuuid.so.1 \
 netcfg \
 nfs-client \
 permissions \

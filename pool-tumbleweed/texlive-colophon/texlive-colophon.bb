@@ -17,7 +17,7 @@ RPM_NAME = "texlive-colophon-2023.201.1.1svn47913-53.1.noarch.rpm"
 RPM_HASH = "94e583773699454c443ecdfcad4e2535116c4c544ea22b59cd4e49a3471f646b0aef3a85af103e4f794a96ded5034acec2da8b16431868cb5084cd403f4568a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(colophon.sty) \
+RPROVIDES:${PN} += "tex-colophon.sty \
 texlive-colophon"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xkeyval.sty) \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

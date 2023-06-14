@@ -11,8 +11,7 @@ PV = "5.5.4"
 RPM_NAME = "xrootd-server-devel-5.5.4-1.1.aarch64.rpm"
 RPM_HASH = "d4b7ca93ad8b73f558e8be40e5587880505e286e7e969d0796d9ddd4ff74dcc2fd3b7445b9f8eaf1b159f26336454c206ff05ae6e637d1c4e137b5b5f0f8158f"
 
-RPROVIDES:${PN} += "xrootd-server-devel \
-xrootd-server-devel(aarch-64)"
+RPROVIDES:${PN} += "xrootd-server-devel"
 
 RDEPENDS:${PN} += "xrootd-client-devel \
 xrootd-libs-devel \

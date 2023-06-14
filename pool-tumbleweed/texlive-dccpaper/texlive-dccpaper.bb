@@ -14,10 +14,10 @@ RPM_NAME = "texlive-dccpaper-2023.201.2.3svn61763-52.1.noarch.rpm"
 RPM_HASH = "bb9a5114fe2208af611348662203c41fd062c058532f66a1f6bc4c8ae2c1592ac661690fd435d364d1933ed8460c5eaa5665882668c4ba81f1f10896d6ea5a26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dccpaper-base.sty) \
-tex(idcc.cls) \
-tex(ijdc-v14.cls) \
-tex(ijdc-v9.cls) \
+RPROVIDES:${PN} += "tex-dccpaper-base.sty \
+tex-idcc.cls \
+tex-ijdc-v14.cls \
+tex-ijdc-v9.cls \
 texlive-dccpaper"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,32 +26,32 @@ ed \
 findutils \
 grep \
 sed \
-tex(GoSans.sty) \
-tex(array.sty) \
-tex(article.cls) \
-tex(atbegshi.sty) \
-tex(babel.sty) \
-tex(baskervald.sty) \
-tex(baskervillef.sty) \
-tex(booktabs.sty) \
-tex(calc.sty) \
-tex(color.sty) \
-tex(etoolbox.sty) \
-tex(fontenc.sty) \
-tex(fontspec.sty) \
-tex(footmisc.sty) \
-tex(graphicx.sty) \
-tex(helvet.sty) \
-tex(hyperxmp.sty) \
-tex(ifpdf.sty) \
-tex(iftex.sty) \
-tex(mathptmx.sty) \
-tex(newtxmath.sty) \
-tex(newtxtext.sty) \
-tex(tgheros.sty) \
-tex(titlesec.sty) \
-tex(xcolor.sty) \
-tex(xpatch.sty) \
+tex-GoSans.sty \
+tex-array.sty \
+tex-article.cls \
+tex-atbegshi.sty \
+tex-babel.sty \
+tex-baskervald.sty \
+tex-baskervillef.sty \
+tex-booktabs.sty \
+tex-calc.sty \
+tex-color.sty \
+tex-etoolbox.sty \
+tex-fontenc.sty \
+tex-fontspec.sty \
+tex-footmisc.sty \
+tex-graphicx.sty \
+tex-helvet.sty \
+tex-hyperxmp.sty \
+tex-ifpdf.sty \
+tex-iftex.sty \
+tex-mathptmx.sty \
+tex-newtxmath.sty \
+tex-newtxtext.sty \
+tex-tgheros.sty \
+tex-titlesec.sty \
+tex-xcolor.sty \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

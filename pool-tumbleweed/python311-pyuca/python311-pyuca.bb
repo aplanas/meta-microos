@@ -10,10 +10,10 @@ RPM_NAME = "python311-pyuca-1.2-4.12.noarch.rpm"
 RPM_HASH = "98a499c08b4efd042e974a52b2edf483b77bfe1ac23cdd504421d5eb0e869cadbf614298949659bb3cccf4ded1064f1225330c8413329139495cc292816abb9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyuca) \
+RPROVIDES:${PN} += "python3.11dist-pyuca \
 python311-pyuca \
-python3dist(pyuca)"
+python3dist-pyuca"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

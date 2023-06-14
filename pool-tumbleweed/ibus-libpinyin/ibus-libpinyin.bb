@@ -8,31 +8,24 @@ PV = "1.15.2"
 RPM_NAME = "ibus-libpinyin-1.15.2-1.2.aarch64.rpm"
 RPM_HASH = "14b705884c7b9e36e3092c931668fffa230dde6beaaa5d87d51ca46c5bd1619f4d266f4c25715d058588f7bac34208f0b6c7859b45fb6b89ce86c9ecb75cd7d9"
 
-RPROVIDES:${PN} += "application() \
-application(ibus-setup-libbopomofo.desktop) \
-application(ibus-setup-libpinyin.desktop) \
-ibus-libpinyin \
-ibus-libpinyin(aarch-64) \
-locale(ibus:zh_CN;zh_SG) \
-metainfo() \
-metainfo(libpinyin.appdata.xml)"
+RPROVIDES:${PN} += "ibus-libpinyin \
+locale-ibus-zh-CN;zh-SG"
 
 RDEPENDS:${PN} += "/bin/sh \
 ibus \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libibus-1.0.so.5()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-liblua5.4.so.5()(64bit) \
-libopencc.so.1.1()(64bit) \
-libpinyin.so.15()(64bit) \
-libpinyin.so.15(LIBPINYIN)(64bit) \
-libsoup-2.4.so.1()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libibus-1.0.so.5 \
+libjson-glib-1.0.so.0 \
+liblua5.4.so.5 \
+libopencc.so.1.1 \
+libpinyin.so.15 \
+libsoup-2.4.so.1 \
+libsqlite3.so.0 \
+libstdc++.so.6"
 
 inherit rpm

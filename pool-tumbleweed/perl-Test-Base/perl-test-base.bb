@@ -37,14 +37,14 @@ RPM_NAME = "perl-Test-Base-0.89-1.17.noarch.rpm"
 RPM_HASH = "6393a40f4c1048eaee6c717c9ca1f602996015d5e6ef1568b27480f6f123e53bdc4ac12665774ae51de1a8f5b79a145400d35d116e6633d4d2f8b3de584b17a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Base) \
-perl(Test::Base::Block) \
-perl(Test::Base::Filter) \
-perl(Test::Base::Handle) \
+RPROVIDES:${PN} += "perl-Test--Base \
+perl-Test--Base--Block \
+perl-Test--Base--Filter \
+perl-Test--Base--Handle \
 perl-Test-Base"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Spiffy) \
-perl(Test::More)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Spiffy \
+perl-Test--More"
 
 inherit rpm

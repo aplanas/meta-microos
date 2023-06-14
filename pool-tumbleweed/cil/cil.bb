@@ -11,10 +11,9 @@ RPM_NAME = "cil-3.5-1.2.aarch64.rpm"
 RPM_HASH = "400e9f52fc83668fb460639bcec413c575ad80c6b2935c11f7834cf011e6f5f3eaf68bfde66cf3da22b6f59aa866b87efae58aeca396fe5326301d251e7876ca"
 
 RPROVIDES:${PN} += "cil \
-cil(aarch-64) \
 cil-doc"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libsepol.so.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libsepol.so.2"
 
 inherit rpm

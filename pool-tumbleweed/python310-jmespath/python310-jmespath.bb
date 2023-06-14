@@ -37,13 +37,13 @@ RPM_HASH = "667ce2eee821ef3a854d834d2b77b4f2c466b81d41b2858515919bc435e63b43c7f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jmespath \
-python3.10dist(jmespath) \
+python3.10dist-jmespath \
 python310-jmespath \
-python3dist(jmespath)"
+python3dist-jmespath"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-ply \
 update-alternatives"
 

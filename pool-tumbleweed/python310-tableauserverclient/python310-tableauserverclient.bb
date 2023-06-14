@@ -9,11 +9,11 @@ RPM_HASH = "d91d223d17b65b462f512da78b8695874f71a2b7e45c69f7be77a886f7921854809a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tableauserverclient \
-python3.10dist(tableauserverclient) \
+python3.10dist-tableauserverclient \
 python310-tableauserverclient \
-python3dist(tableauserverclient)"
+python3dist-tableauserverclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

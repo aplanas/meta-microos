@@ -9,26 +9,25 @@ PV = "9.4.0"
 RPM_NAME = "libvirt-daemon-9.4.0-1.1.aarch64.rpm"
 RPM_HASH = "f5020931cfb4189a09d14ca6f6132ce3b2c0655b8ac4d4400f908efeaf8b63a0de9e3ca528c7651ad90f878e9639b381c8d05efb27527ad307c75bde2f0b8180"
 
-RPROVIDES:${PN} += "config(libvirt-daemon) \
-libvirt-daemon \
-libvirt-daemon(aarch-64)"
+RPROVIDES:${PN} += "config-libvirt-daemon \
+libvirt-daemon"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libtirpc.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libtirpc.so.3 \
 libvirt-daemon-common \
 libvirt-daemon-lock \
 libvirt-daemon-log \
 libvirt-daemon-plugin-lockd \
 libvirt-daemon-proxy \
 libvirt-libs \
-libvirt-lxc.so.0()(64bit) \
-libvirt-qemu.so.0()(64bit) \
-libvirt.so.0()(64bit)"
+libvirt-lxc.so.0 \
+libvirt-qemu.so.0 \
+libvirt.so.0"
 
 inherit rpm

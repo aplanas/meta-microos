@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehansans-fonts \
 adobe-sourcehansans-tw-fonts \
-locale(zh_TW) \
-scalable-font-zh_TW"
+locale-zh-TW \
+scalable-font-zh-TW"
 
 RDEPENDS:${PN} += "/bin/sh"
 

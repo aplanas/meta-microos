@@ -9,13 +9,12 @@ PV = "1.0.2"
 RPM_NAME = "python39-pytricia-1.0.2-3.12.aarch64.rpm"
 RPM_HASH = "7c74c2b7ae08e4d88b71f32fa447b4a97136e8bf6b562afc299f474a322c1795d77996551505f432025dabdec87ac4213aec2a4663a31a7d15d7ad665bc311cf"
 
-RPROVIDES:${PN} += "python3.9dist(pytricia) \
+RPROVIDES:${PN} += "python3.9dist-pytricia \
 python39-pytricia \
-python39-pytricia(aarch-64) \
-python3dist(pytricia)"
+python3dist-pytricia"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

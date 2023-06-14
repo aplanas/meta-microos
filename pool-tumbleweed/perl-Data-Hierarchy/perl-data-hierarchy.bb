@@ -41,11 +41,11 @@ RPM_NAME = "perl-Data-Hierarchy-0.34-131.26.noarch.rpm"
 RPM_HASH = "4d182b7447b4e6b87847ae59e5fdaa503638ffaf89a443701b323528dec5125798e65ec9fe26f4a8accc496014c37aea02ebe440d7512fbc14dea7746f673b9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::Hierarchy) \
-perl(Data::Hierarchy::Relative) \
+RPROVIDES:${PN} += "perl-Data--Hierarchy \
+perl-Data--Hierarchy--Relative \
 perl-Data-Hierarchy"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Test::Exception)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Test--Exception"
 
 inherit rpm

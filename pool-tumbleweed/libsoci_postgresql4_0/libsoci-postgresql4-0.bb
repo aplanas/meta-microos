@@ -11,17 +11,16 @@ PV = "4.0.2"
 RPM_NAME = "libsoci_postgresql4_0-4.0.2-4.4.aarch64.rpm"
 RPM_HASH = "c826f486399790c22e499f4d0c3cc0b1515af2fb040436a43b921a65f369e62eb79fb44c53fbbdd7228d4156e78a6c74714fb7effb8557c9a311276068be5e2a"
 
-RPROVIDES:${PN} += "libsoci4_0-backend \
-libsoci_postgresql.so.4.0()(64bit) \
-libsoci_postgresql4_0 \
-libsoci_postgresql4_0(aarch-64)"
+RPROVIDES:${PN} += "libsoci-postgresql.so.4.0 \
+libsoci-postgresql4-0 \
+libsoci4-0-backend"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpq.so.5()(64bit) \
-libsoci_core.so.4.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpq.so.5 \
+libsoci-core.so.4.0 \
+libstdc++.so.6"
 
 inherit rpm

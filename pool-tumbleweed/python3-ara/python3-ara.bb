@@ -11,12 +11,12 @@ RPM_HASH = "f9368e530867cdbfd84c749f467059e470aa855dd1a25b3e09f1feca41a0135cbb5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ara \
-python3.10dist(ara) \
-python3dist(ara)"
+python3.10dist-ara \
+python3dist-ara"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-cliff \
 python3-pbr \
 python3-requests \

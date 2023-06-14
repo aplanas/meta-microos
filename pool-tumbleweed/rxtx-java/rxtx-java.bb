@@ -9,9 +9,8 @@ PV = "2.2~pre2"
 RPM_NAME = "rxtx-java-2.2~pre2-4.3.aarch64.rpm"
 RPM_HASH = "78234baafeb85e732af6f1c029046b2393b20026f7daee0de70505fd79a2a617fa8d13d2eb6b212e944c5e85f9c891ce972958e50ebc2a7eb0d128dc73172fb0"
 
-RPROVIDES:${PN} += "osgi(gnu.io.rxtx) \
-rxtx-java \
-rxtx-java(aarch-64)"
+RPROVIDES:${PN} += "osgi-gnu.io.rxtx \
+rxtx-java"
 
 RDEPENDS:${PN} += "librxtx2"
 

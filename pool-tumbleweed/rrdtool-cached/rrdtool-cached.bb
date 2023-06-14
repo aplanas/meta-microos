@@ -11,18 +11,17 @@ PV = "1.8.0"
 RPM_NAME = "rrdtool-cached-1.8.0-3.1.aarch64.rpm"
 RPM_HASH = "1aa470ddf5bf1d856dee344f730b2f663f9d6c189d9d31ce6a68e6db5e414a28e6820d8922f072c1e8264e8e50d0d387306de1d6f077a19fdc70180d0f2a1b61"
 
-RPROVIDES:${PN} += "rrdtool-cached \
-rrdtool-cached(aarch-64)"
+RPROVIDES:${PN} += "rrdtool-cached"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-librrd.so.8()(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+librrd.so.8 \
+libwrap.so.0 \
 rrdtool \
 shadow"
 

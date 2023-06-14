@@ -10,14 +10,11 @@ PV = "1.12.0"
 RPM_NAME = "skopeo-1.12.0-1.1.aarch64.rpm"
 RPM_HASH = "f58331aa1914d507755edd3561171d69542d9779e44f143e807126f5b919a142a3387b75be05c6c5a10950ff3bb6782588d1058c40fd91280c9075ccbaf64643"
 
-RPROVIDES:${PN} += "skopeo \
-skopeo(aarch-64)"
+RPROVIDES:${PN} += "skopeo"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
+RDEPENDS:${PN} += "libc.so.6 \
 libcontainers-common \
-libdevmapper.so.1.03()(64bit) \
-libdevmapper.so.1.03(Base)(64bit) \
-libdevmapper.so.1.03(DM_1_02_97)(64bit) \
-libgpgme.so.11()(64bit)"
+libdevmapper.so.1.03 \
+libgpgme.so.11"
 
 inherit rpm

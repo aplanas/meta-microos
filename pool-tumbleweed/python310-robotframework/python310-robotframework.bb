@@ -11,13 +11,13 @@ RPM_HASH = "f4a9d3fef1130751e2bbfd51b4c7b95c70521589d7d725dbc3f6271ff342636bf0db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-robotframework \
-python3.10dist(robotframework) \
+python3.10dist-robotframework \
 python310-robotframework \
-python3dist(robotframework)"
+python3dist-robotframework"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

@@ -9,13 +9,13 @@ RPM_HASH = "f883f71a4a936432a451fa31ceb7d3c0c31d62a0633bdfeef26906fe5f07cc4da40c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-exrex \
-python3.10dist(exrex) \
+python3.10dist-exrex \
 python310-exrex \
-python3dist(exrex)"
+python3dist-exrex"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-mgmt-datadog-2.0.0-1.8.noarch.rpm"
 RPM_HASH = "cb19202254792cc7282055b693e2439e5b268855de70e3ba21446be94c16bd67b06f4f4207cb7901bd4baa7b59e1eccbf3e9b2778a5d672f4cdbc3277866434c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-datadog) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-datadog \
 python311-azure-mgmt-datadog \
-python3dist(azure-mgmt-datadog)"
+python3dist-azure-mgmt-datadog"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

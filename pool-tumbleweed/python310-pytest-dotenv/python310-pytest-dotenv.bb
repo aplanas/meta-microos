@@ -9,11 +9,11 @@ RPM_HASH = "2bf9cec911e1c5782eeaab4140aad6674d6e3e0c81366d355753e42aec56e955f8cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-dotenv \
-python3.10dist(pytest-dotenv) \
+python3.10dist-pytest-dotenv \
 python310-pytest-dotenv \
-python3dist(pytest-dotenv)"
+python3dist-pytest-dotenv"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-python-dotenv"
 

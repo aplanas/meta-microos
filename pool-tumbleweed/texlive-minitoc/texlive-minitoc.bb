@@ -17,10 +17,10 @@ RPM_NAME = "texlive-minitoc-2023.201.62svn61719-54.1.noarch.rpm"
 RPM_HASH = "e9c0f735f3c20a4fb88c969dda51985f131b5425b36650873d3dce38da143c5d131ff41f3de5490d9fedf8f79d4eb130e246eea7ae0efb5060f22c11b649c6d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minitoc.sty) \
-tex(mtcmess.sty) \
-tex(mtcoff.sty) \
-tex(mtcpatchmem.sty) \
+RPROVIDES:${PN} += "tex-minitoc.sty \
+tex-mtcmess.sty \
+tex-mtcoff.sty \
+tex-mtcpatchmem.sty \
 texlive-minitoc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,9 +29,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(flafter.sty) \
-tex(notoccite.sty) \
-tex(placeins.sty) \
+tex-flafter.sty \
+tex-notoccite.sty \
+tex-placeins.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

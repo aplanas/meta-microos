@@ -11,10 +11,10 @@ RPM_HASH = "72d99079fddf4737e14976f2d4dc659c5ba48c001ca68195d61bf35c7aa1d242183c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-automaton \
-python3.10dist(automaton) \
-python3dist(automaton)"
+python3.10dist-automaton \
+python3dist-automaton"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-PrettyTable \
 python3-pbr \
 python3-six"

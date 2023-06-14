@@ -15,14 +15,13 @@ PV = "0.9.1"
 RPM_NAME = "libcss0-0.9.1-2.9.aarch64.rpm"
 RPM_HASH = "9a5e666969f6b382b615418bcfae554de5dfce2e6871debe16d7623ca2b34d661fd8ef1605fda051d0984e1dfdd24b37a9d2954c11630f466dbaacfa6c81ef8a"
 
-RPROVIDES:${PN} += "libcss.so.0()(64bit) \
-libcss0 \
-libcss0(aarch-64)"
+RPROVIDES:${PN} += "libcss.so.0 \
+libcss0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libparserutils.so.0()(64bit) \
-libwapcaplet.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libparserutils.so.0 \
+libwapcaplet.so.0"
 
 inherit rpm

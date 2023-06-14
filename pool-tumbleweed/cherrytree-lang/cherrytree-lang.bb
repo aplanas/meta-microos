@@ -10,32 +10,32 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cherrytree-lang \
 cherrytree-lang-all \
-locale(cherrytree:ar) \
-locale(cherrytree:bg) \
-locale(cherrytree:cs) \
-locale(cherrytree:de) \
-locale(cherrytree:el) \
-locale(cherrytree:es) \
-locale(cherrytree:fi) \
-locale(cherrytree:fr) \
-locale(cherrytree:hr) \
-locale(cherrytree:hu) \
-locale(cherrytree:it) \
-locale(cherrytree:ja) \
-locale(cherrytree:ko) \
-locale(cherrytree:lt) \
-locale(cherrytree:nl) \
-locale(cherrytree:pl) \
-locale(cherrytree:pt) \
-locale(cherrytree:pt_BR) \
-locale(cherrytree:ro) \
-locale(cherrytree:ru) \
-locale(cherrytree:sl) \
-locale(cherrytree:sv) \
-locale(cherrytree:tr) \
-locale(cherrytree:uk) \
-locale(cherrytree:zh_CN) \
-locale(cherrytree:zh_TW)"
+locale-cherrytree-ar \
+locale-cherrytree-bg \
+locale-cherrytree-cs \
+locale-cherrytree-de \
+locale-cherrytree-el \
+locale-cherrytree-es \
+locale-cherrytree-fi \
+locale-cherrytree-fr \
+locale-cherrytree-hr \
+locale-cherrytree-hu \
+locale-cherrytree-it \
+locale-cherrytree-ja \
+locale-cherrytree-ko \
+locale-cherrytree-lt \
+locale-cherrytree-nl \
+locale-cherrytree-pl \
+locale-cherrytree-pt \
+locale-cherrytree-pt-BR \
+locale-cherrytree-ro \
+locale-cherrytree-ru \
+locale-cherrytree-sl \
+locale-cherrytree-sv \
+locale-cherrytree-tr \
+locale-cherrytree-uk \
+locale-cherrytree-zh-CN \
+locale-cherrytree-zh-TW"
 
 RDEPENDS:${PN} += "cherrytree"
 

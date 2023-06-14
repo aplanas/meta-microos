@@ -11,11 +11,11 @@ RPM_HASH = "5057119812f41250aab59ba4d1b0a39ba72674a073db1ecb28b3a20d6750b201dcf8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-batch \
-python3.10dist(azure-batch) \
+python3.10dist-azure-batch \
 python310-azure-batch \
-python3dist(azure-batch)"
+python3dist-azure-batch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-msrestazure"

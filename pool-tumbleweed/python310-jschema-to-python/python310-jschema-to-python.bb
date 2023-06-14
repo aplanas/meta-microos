@@ -9,11 +9,11 @@ RPM_HASH = "6d7118f6c6b1d0c775e9f07e5bbb128c1ae23cbf57abb7fed78a1b61a4ebdc94593c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jschema-to-python \
-python3.10dist(jschema-to-python) \
+python3.10dist-jschema-to-python \
 python310-jschema-to-python \
-python3dist(jschema-to-python)"
+python3dist-jschema-to-python"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-jsonpickle \
 python310-pbr"

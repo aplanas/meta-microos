@@ -9,10 +9,9 @@ RPM_HASH = "05bd4f14b83f8290de209e51f2fa8adffb2f5564a68532e7d757ad48ad8c254c636d
 
 RPROVIDES:${PN} += "hdjmod-kmp \
 hdjmod-kmp-default \
-hdjmod-kmp-default(aarch-64) \
-hdjmod-kmp-default-k6.3.4_1 \
-kmod(hdj_mod.ko) \
-multiversion(kernel)"
+hdjmod-kmp-default-k6.3.4-1 \
+kmod-hdj-mod.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

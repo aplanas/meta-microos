@@ -18,13 +18,13 @@ RPM_NAME = "python39-pytools-2022.1.14-1.2.noarch.rpm"
 RPM_HASH = "d5c4898de6ece91244f67964a851e3b6f8be258a617578fe8ab9fdce97e2a01b5030db69f6d17f85e5cac3ac93c96820a4c783123d06ac1c11c7e64e267225f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytools) \
+RPROVIDES:${PN} += "python3.9dist-pytools \
 python39-pytools \
-python3dist(pytools)"
+python3dist-pytools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numpy \
 python39-platformdirs \
-python39-typing_extensions"
+python39-typing-extensions"
 
 inherit rpm

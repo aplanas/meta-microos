@@ -9,13 +9,13 @@ RPM_HASH = "4f0fd640ba8e1dd6e07c17172e7dd217ccebd05d4c5981995f64a1fb68a1f99d1be1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.testrunner \
-python3.10dist(zope.testrunner) \
+python3.10dist-zope.testrunner \
 python310-zope.testrunner \
-python3dist(zope.testrunner)"
+python3dist-zope.testrunner"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-zope.exceptions \
 python310-zope.interface \
 update-alternatives"

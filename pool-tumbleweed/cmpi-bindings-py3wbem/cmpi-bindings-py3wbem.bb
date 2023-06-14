@@ -9,12 +9,11 @@ RPM_HASH = "dcf3ff57e757e03fbf13aae0938eb38d11c888df3736c41869f2fafb8b50ae7d2b26
 
 RPROVIDES:${PN} += "cmpi-bindings \
 cmpi-bindings-py3wbem \
-cmpi-bindings-py3wbem(aarch-64) \
-libpy3CmpiProvider.so()(64bit)"
+libpy3CmpiProvider.so"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "libc.so.6 \
+libpython3.10.so.1.0 \
+python-abi \
 python3"
 
 inherit rpm

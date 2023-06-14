@@ -14,11 +14,11 @@ RPM_HASH = "0e7618645d5b11003bd438626baebcdd4b25c58e994cee9dbd44fdeb2c5d340e1c57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-notificationhubs \
-python3.10dist(azure-mgmt-notificationhubs) \
+python3.10dist-azure-mgmt-notificationhubs \
 python310-azure-mgmt-notificationhubs \
-python3dist(azure-mgmt-notificationhubs)"
+python3dist-azure-mgmt-notificationhubs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

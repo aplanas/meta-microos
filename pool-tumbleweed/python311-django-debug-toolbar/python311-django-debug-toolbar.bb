@@ -25,11 +25,11 @@ RPM_NAME = "python311-django-debug-toolbar-3.6-1.4.noarch.rpm"
 RPM_HASH = "2399ed97a62547ee698c583e7c757e7502d14a50b73db46d14aff3da87ecfb17291f0b7a38e891ee30903fde2ce388a5262c1ff06e28ffb5af29822b75dac358"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(django-debug-toolbar) \
+RPROVIDES:${PN} += "python3.11dist-django-debug-toolbar \
 python311-django-debug-toolbar \
-python3dist(django-debug-toolbar)"
+python3dist-django-debug-toolbar"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Django \
 python311-django-jinja \
 python311-sqlparse"

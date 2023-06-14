@@ -16,7 +16,7 @@ RPM_HASH = "6827dcc402529b5c3c38c787838c49cb4759cdf5aeb85923663657f9dc78daa36e05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edict2 \
-locale(ja)"
+locale-ja"
 
 RDEPENDS:${PN} += ""
 

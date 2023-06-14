@@ -9,27 +9,21 @@ RPM_HASH = "1cfbc35b86ffdaa4807b14b8b9098e4033ff6c974e4f56913700543e7eef5b4ddd2e
 
 RPROVIDES:${PN} += "fcitx-unikey \
 fcitx5-unikey \
-fcitx5-unikey(aarch-64) \
-libfcitx5-unikey-keymap-editor.so()(64bit) \
-libfcitx5-unikey-macro-editor.so()(64bit) \
-libunikey.so()(64bit) \
-metainfo() \
-metainfo(org.fcitx.Fcitx5.Addon.Unikey.metainfo.xml)"
+libfcitx5-unikey-keymap-editor.so \
+libfcitx5-unikey-macro-editor.so \
+libunikey.so"
 
 RDEPENDS:${PN} += "fcitx5 \
-ld-linux-aarch64.so.1()(64bit) \
-libFcitx5Config.so.6()(64bit) \
-libFcitx5Core.so.7()(64bit) \
-libFcitx5Qt5WidgetsAddons.so.2()(64bit) \
-libFcitx5Utils.so.2()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libFcitx5Config.so.6 \
+libFcitx5Core.so.7 \
+libFcitx5Qt5WidgetsAddons.so.2 \
+libFcitx5Utils.so.2 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

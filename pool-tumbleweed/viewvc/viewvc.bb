@@ -16,7 +16,7 @@ RPM_NAME = "viewvc-1.3.0~dev20230104-1.1.noarch.rpm"
 RPM_HASH = "26c3a100b9732bec93ea8298d9fc685fb814329a974fc235cebed01e21334bd762037464ad68900e7c0e42b84d5a6692d45dd6a5486997c3f14f2590211fdd01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(viewvc) \
+RPROVIDES:${PN} += "config-viewvc \
 subversion-viewcvs \
 viewcvs \
 viewvc"

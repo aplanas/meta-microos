@@ -15,7 +15,7 @@ RPM_NAME = "texlive-mathexam-2023.201.1.00svn15878-52.1.noarch.rpm"
 RPM_HASH = "a7d46e270b16b288181ab8d13194b2551418e0be01c686b40ccb142c6ac64a8243f32f02d092e389614035537f053c11a184c343e788f061f90182c35c445228"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mathexam.sty) \
+RPROVIDES:${PN} += "tex-mathexam.sty \
 texlive-mathexam"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(fancyhdr.sty) \
-tex(ifthen.sty) \
-tex(lastpage.sty) \
+tex-fancyhdr.sty \
+tex-ifthen.sty \
+tex-lastpage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

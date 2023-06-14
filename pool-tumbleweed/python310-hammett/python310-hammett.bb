@@ -9,11 +9,11 @@ RPM_HASH = "6c6c8cb6e932e91d2006ef96e0244fbff5613af0d3a6a3c04d4cfcb0919e85e61819
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hammett \
-python3.10dist(hammett) \
+python3.10dist-hammett \
 python310-hammett \
-python3dist(hammett)"
+python3dist-hammett"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-astunparse \
 python310-colorama"
 

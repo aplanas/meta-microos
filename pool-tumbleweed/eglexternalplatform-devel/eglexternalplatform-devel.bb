@@ -13,7 +13,7 @@ RPM_HASH = "ed552d82c493695858d28b7eb2e8ec76fc8066140f9919e56fa3946807ca73237aeb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eglexternalplatform-devel \
-pkgconfig(eglexternalplatform)"
+pkgconfig-eglexternalplatform"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-newfile-2023.201.1.0csvn15878-54.1.noarch.rpm"
 RPM_HASH = "679afca8475bcea20a86deb762f01ec11d1d12a452f06711cce9dab8bbafdcb6f34f6f8fa03a98e2abc2f852ab93f5b00dec6ae6abfc6c9f13d739d667cab3e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(newfile.sty) \
+RPROVIDES:${PN} += "tex-newfile.sty \
 texlive-newfile"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(verbatim.sty) \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

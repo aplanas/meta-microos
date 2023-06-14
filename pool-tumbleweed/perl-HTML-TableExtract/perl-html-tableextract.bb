@@ -63,14 +63,14 @@ RPM_NAME = "perl-HTML-TableExtract-2.15-1.13.noarch.rpm"
 RPM_HASH = "dc4f5d2630826732db1ec9fc3930985d5314942e706ee162e60ebc9fcb2889aec7bc2c8c6218c4838125e9d85f1dc4f410904b1ff22257d7aeaeb7983a799dc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::TableExtract) \
-perl(HTML::TableExtract::Rasterize) \
-perl(HTML::TableExtract::StripHTML) \
-perl(HTML::TableExtract::Table) \
+RPROVIDES:${PN} += "perl-HTML--TableExtract \
+perl-HTML--TableExtract--Rasterize \
+perl-HTML--TableExtract--StripHTML \
+perl-HTML--TableExtract--Table \
 perl-HTML-TableExtract"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(HTML::ElementTable) \
-perl(HTML::Parser)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-HTML--ElementTable \
+perl-HTML--Parser"
 
 inherit rpm

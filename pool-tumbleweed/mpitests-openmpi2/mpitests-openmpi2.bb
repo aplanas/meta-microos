@@ -7,15 +7,14 @@ PV = "3.2"
 RPM_NAME = "mpitests-openmpi2-3.2-11.3.aarch64.rpm"
 RPM_HASH = "190e19142e9012f0e56c6e206687311f5e239c19ac30570160ab32fa50022d2c560cf3872e88682aa6fe3e80b7a7f78e158d2d219b6919dd91376b9a9a8e9d93"
 
-RPROVIDES:${PN} += "mpitests-openmpi2 \
-mpitests-openmpi2(aarch-64)"
+RPROVIDES:${PN} += "mpitests-openmpi2"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpi.so.20()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpi.so.20 \
+libstdc++.so.6 \
 mpitests \
 openmpi2"
 

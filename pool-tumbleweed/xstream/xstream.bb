@@ -25,14 +25,14 @@ RPM_NAME = "xstream-1.4.20-1.3.noarch.rpm"
 RPM_HASH = "c96f9bcc835fe12dab72a2c7f4580e09d20f6626d08b5539b9866560d977bff5dc675ef670e72e2c7eacf042301359e8e87d355d93326ddf935968ead3d531dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(com.thoughtworks.xstream:xstream) \
-mvn(com.thoughtworks.xstream:xstream:pom:) \
-osgi(xstream) \
+RPROVIDES:${PN} += "mvn-com.thoughtworks.xstream-xstream \
+mvn-com.thoughtworks.xstream-xstream-pom- \
+osgi-xstream \
 xstream"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(xpp3:xpp3) \
-mvn(xpp3:xpp3_min)"
+mvn-xpp3-xpp3 \
+mvn-xpp3-xpp3-min"
 
 inherit rpm

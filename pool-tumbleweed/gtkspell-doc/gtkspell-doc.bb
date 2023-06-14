@@ -9,8 +9,7 @@ PV = "2.0.16"
 RPM_NAME = "gtkspell-doc-2.0.16-23.9.aarch64.rpm"
 RPM_HASH = "b79969b187d7dac76a6c41711ed53e5aa0ea7c87533dc583a3947b7d60e5f6814c2961d8a524787ecc0cee58d492447560e57a827f7347b3f2a2ee74fffe40bd"
 
-RPROVIDES:${PN} += "gtkspell-doc \
-gtkspell-doc(aarch-64)"
+RPROVIDES:${PN} += "gtkspell-doc"
 
 RDEPENDS:${PN} += "libgtkspell0"
 

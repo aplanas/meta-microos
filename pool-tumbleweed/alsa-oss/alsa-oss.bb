@@ -11,14 +11,13 @@ RPM_NAME = "alsa-oss-1.1.8-5.2.aarch64.rpm"
 RPM_HASH = "8a923e25df08c1dd96f2cff2f8b63920aecdc0a4ff3ac3d3bd13402ce6ed7c3688600b8f56686fd3814864b29a50c3061b3079b66798ca09061a886cde4ff09e"
 
 RPROVIDES:${PN} += "alsa-oss \
-alsa-oss(aarch-64) \
-libalsatoss.so.0()(64bit) \
-libaoss.so.0()(64bit)"
+libalsatoss.so.0 \
+libaoss.so.0"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6"
 
 inherit rpm

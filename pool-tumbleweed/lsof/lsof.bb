@@ -12,11 +12,10 @@ PV = "4.98.0"
 RPM_NAME = "lsof-4.98.0-2.1.aarch64.rpm"
 RPM_HASH = "aea0d3d9b3216c272e6e36c3d35d7928a13898072d88709bf6c7058650d3f41d3dc529c80a57620712125efbf19e86fb1b8abe3fed20b2d2c7aefb21068031b6"
 
-RPROVIDES:${PN} += "lsof \
-lsof(aarch-64)"
+RPROVIDES:${PN} += "lsof"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libselinux.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libselinux.so.1"
 
 inherit rpm

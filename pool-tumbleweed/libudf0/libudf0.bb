@@ -8,14 +8,12 @@ PV = "2.1.0"
 RPM_NAME = "libudf0-2.1.0-7.1.aarch64.rpm"
 RPM_HASH = "a76ed3f5437177e30e8267e5cd40cfa8946a2177ea79c8ffebb71cc1d1b384aa1b1237b42b566e3521744005177b7fa0ddf72563b93f1cace86295490e851c95"
 
-RPROVIDES:${PN} += "libudf.so.0()(64bit) \
-libudf0 \
-libudf0(aarch-64)"
+RPROVIDES:${PN} += "libudf.so.0 \
+libudf0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcdio.so.19()(64bit) \
-libcdio.so.19(CDIO_19)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcdio.so.19"
 
 inherit rpm

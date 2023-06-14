@@ -18,7 +18,7 @@ RPM_NAME = "texlive-mathpartir-2023.201.1.3.2svn39864-52.1.noarch.rpm"
 RPM_HASH = "88cc5f8076998851326c12b0b43c68aa1dded87fbd5c29140a591ed75183c3c913522d33c6c0fe88fc6416a57a0b2758fbdb3978023b1967e2395e02baae5b99"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mathpartir.sty) \
+RPROVIDES:${PN} += "tex-mathpartir.sty \
 texlive-mathpartir"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

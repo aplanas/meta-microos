@@ -9,12 +9,11 @@ PV = "3.4.0"
 RPM_NAME = "libmbedcrypto14-3.4.0-3.1.aarch64.rpm"
 RPM_HASH = "e6ac9c93ce94bcc78ff81abbbd3d2a97338b70e25531fd19f8adb62b34b2b58a31844c6f34cf7c0e6e3e3ffe0e9b2e6115c543ff09f6b0cd9785bca73f092b0d"
 
-RPROVIDES:${PN} += "libmbedcrypto.so.14()(64bit) \
-libmbedcrypto14 \
-libmbedcrypto14(aarch-64)"
+RPROVIDES:${PN} += "libmbedcrypto.so.14 \
+libmbedcrypto14"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

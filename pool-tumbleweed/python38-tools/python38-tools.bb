@@ -10,11 +10,10 @@ RPM_HASH = "baa7efe1ab36a6cbaf0c785a6e47a478ba9a4238c73d858096634c15f83a2e301500
 
 RPROVIDES:${PN} += "python38-2to3 \
 python38-demo \
-python38-tools \
-python38-tools(aarch-64)"
+python38-tools"
 
 RDEPENDS:${PN} += "/usr/bin/python3.8 \
-python(abi) \
+python-abi \
 python38-base"
 
 inherit rpm

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-catchfilebetweentags-2023.201.1.1svn21476-52.1.noarch.rpm"
 RPM_HASH = "5ef31070747172d8db73d706987a1e32da9568ef4936035e88d24243b00a89b269db5d7043fb71ffd4148c518d30a05aaaeebc6ace07f6d77a93c9fa174ecbcf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(catchfilebetweentags.sty) \
+RPROVIDES:${PN} += "tex-catchfilebetweentags.sty \
 texlive-catchfilebetweentags"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(catchfile.sty) \
-tex(etex.sty) \
-tex(etoolbox.sty) \
-tex(ltxcmds.sty) \
+tex-catchfile.sty \
+tex-etex.sty \
+tex-etoolbox.sty \
+tex-ltxcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

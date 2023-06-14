@@ -7,18 +7,17 @@ PV = "1.82.0"
 RPM_NAME = "python3-boost_parallel_mpi1_82_0-1.82.0-1.1.aarch64.rpm"
 RPM_HASH = "c8e1595b23c28858ba547653dee8fab37fbde705ae2788840e506851a086c2405f27d006cc8d5aef35800079b70da1df33763e051bea4cd60dee68ab56afeac2"
 
-RPROVIDES:${PN} += "python3-boost_parallel_mpi-impl \
-python3-boost_parallel_mpi1_82_0 \
-python3-boost_parallel_mpi1_82_0(aarch-64)"
+RPROVIDES:${PN} += "python3-boost-parallel-mpi-impl \
+python3-boost-parallel-mpi1-82-0"
 
-RDEPENDS:${PN} += "libboost_mpi.so.1.82.0()(64bit) \
-libboost_mpi_python-py3.so.1.82.0()(64bit) \
-libboost_python-py3.so.1.82.0()(64bit) \
-libboost_serialization.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpi.so.40()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "libboost-mpi-python-py3.so.1.82.0 \
+libboost-mpi.so.1.82.0 \
+libboost-python-py3.so.1.82.0 \
+libboost-serialization.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpi.so.40 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

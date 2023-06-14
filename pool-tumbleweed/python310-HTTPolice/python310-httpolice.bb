@@ -11,13 +11,13 @@ RPM_HASH = "8b46661efb6b360b062ed1f7a5a646c3e4f260572bc379a09123631cf1bc63c0c35e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-HTTPolice \
-python3.10dist(httpolice) \
+python3.10dist-httpolice \
 python310-HTTPolice \
-python3dist(httpolice)"
+python3dist-httpolice"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Brotli \
 python310-bitstring \
 python310-defusedxml \

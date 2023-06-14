@@ -24,7 +24,7 @@ RPM_NAME = "texlive-businesscard-qrcode-2023.201.1.2svn61719-52.1.noarch.rpm"
 RPM_HASH = "51b5e3699f55a3369257085c03fff847d22b3e54fe828e04cdd51e5ce1a280ec3073d4075ec2d950356563359d211b82680c6f376e0015e9758ed5550cf808e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(businesscard-qrcode.cls) \
+RPROVIDES:${PN} += "tex-businesscard-qrcode.cls \
 texlive-businesscard-qrcode"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -33,19 +33,19 @@ ed \
 findutils \
 grep \
 sed \
-tex(DejaVuSans.sty) \
-tex(calc.sty) \
-tex(crop.sty) \
-tex(etoolbox.sty) \
-tex(extarticle.cls) \
-tex(fontawesome.sty) \
-tex(fontenc.sty) \
-tex(geometry.sty) \
-tex(kvoptions.sty) \
-tex(marvosym.sty) \
-tex(qrcode.sty) \
-tex(varwidth.sty) \
-tex(wrapfig.sty) \
+tex-DejaVuSans.sty \
+tex-calc.sty \
+tex-crop.sty \
+tex-etoolbox.sty \
+tex-extarticle.cls \
+tex-fontawesome.sty \
+tex-fontenc.sty \
+tex-geometry.sty \
+tex-kvoptions.sty \
+tex-marvosym.sty \
+tex-qrcode.sty \
+tex-varwidth.sty \
+tex-wrapfig.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

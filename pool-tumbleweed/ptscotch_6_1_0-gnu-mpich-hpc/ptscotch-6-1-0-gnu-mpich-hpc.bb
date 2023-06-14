@@ -8,14 +8,13 @@ PV = "6.1.0"
 RPM_NAME = "ptscotch_6_1_0-gnu-mpich-hpc-6.1.0-2.9.aarch64.rpm"
 RPM_HASH = "6fa06ce10bd70edb67b027e6a60963b6d2301adeb5fbe958117e1c33d2f56e841d9a719b20ad489b585ec64c3d51bc812dd88f829c98c838e97e83e6b0b771f3"
 
-RPROVIDES:${PN} += "ptscotch_6_1_0-gnu-mpich-hpc \
-ptscotch_6_1_0-gnu-mpich-hpc(aarch-64)"
+RPROVIDES:${PN} += "ptscotch-6-1-0-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libptscotch_6_1_0-gnu-mpich-hpc \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libm.so.6 \
+libptscotch-6-1-0-gnu-mpich-hpc \
+libz.so.1"
 
 inherit rpm

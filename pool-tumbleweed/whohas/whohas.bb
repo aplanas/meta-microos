@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "whohas"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
-perl(LWP::UserAgent) \
-perl(Thread::Queue) \
-perl(forks)"
+perl-LWP--UserAgent \
+perl-Thread--Queue \
+perl-forks"
 
 inherit rpm

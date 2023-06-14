@@ -17,12 +17,11 @@ PV = "0.62"
 RPM_NAME = "rinetd-0.62-26.8.aarch64.rpm"
 RPM_HASH = "5f1d4f9660b802905f26f1ad82dde6ae7c6899752c1234f0d680fa8acaf4186cda7a8e478977f684ce53a03eb19703fbac4f093f9ec456ac329b1c170b383080"
 
-RPROVIDES:${PN} += "config(rinetd) \
-rinetd \
-rinetd(aarch-64)"
+RPROVIDES:${PN} += "config-rinetd \
+rinetd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

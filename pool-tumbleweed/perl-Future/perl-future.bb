@@ -40,16 +40,15 @@ RPM_NAME = "perl-Future-0.50-1.1.noarch.rpm"
 RPM_HASH = "675e5bca05b80e8bc2b55a6d3bf6a34fe3508b2bbada331d8a7f5136953f4f38b536c03611b1229a4688a386ff598cf336a0fef38498c24cf22bc1982f22085a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Future) \
-perl(Future::Exception) \
-perl(Future::Mutex) \
-perl(Future::PP) \
-perl(Future::Utils) \
-perl(Test::Future) \
-perl(Test::Future::Deferred) \
-perl-Future"
+RPROVIDES:${PN} += "perl-Future \
+perl-Future--Exception \
+perl-Future--Mutex \
+perl-Future--PP \
+perl-Future--Utils \
+perl-Test--Future \
+perl-Test--Future--Deferred"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Carp)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Carp"
 
 inherit rpm

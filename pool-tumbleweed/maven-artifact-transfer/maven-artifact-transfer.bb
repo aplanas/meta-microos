@@ -9,17 +9,17 @@ RPM_HASH = "2c3211e3c0e81dcef1eaa06f465e1f181b8be044e33db339cf7ff604a7fe6926a5f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-artifact-transfer \
-mvn(org.apache.maven.shared:maven-artifact-transfer) \
-mvn(org.apache.maven.shared:maven-artifact-transfer:pom:)"
+mvn-org.apache.maven.shared-maven-artifact-transfer \
+mvn-org.apache.maven.shared-maven-artifact-transfer-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-common-artifact-filters) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.codehaus.plexus:plexus-component-annotations) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.eclipse.aether:aether-util) \
-mvn(org.slf4j:slf4j-api)"
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven.shared-maven-common-artifact-filters \
+mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.eclipse.aether-aether-util \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

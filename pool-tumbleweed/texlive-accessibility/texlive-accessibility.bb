@@ -22,7 +22,7 @@ RPM_NAME = "texlive-accessibility-2023.201.2.0.3svn55777-54.1.noarch.rpm"
 RPM_HASH = "beeea18461b43b8d32f3c18ada4e19b09764dcbe8268487ff3eae29902039678c9b63a36c16ee002d3119e2f56e8a01548f3787424428c0677373304d17166c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(accessibility.sty) \
+RPROVIDES:${PN} += "tex-accessibility.sty \
 texlive-accessibility"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,8 +31,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(xkeyval.sty) \
+tex-ifthen.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

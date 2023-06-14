@@ -16,13 +16,13 @@ RPM_HASH = "0b2814c86c0a1ded3674296c5a873eb41d5734eaca89ff7aa7ce85ee99f64076fd59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyWebDAV3-GNUHealth \
-python3.10dist(pywebdav3-gnuhealth) \
+python3.10dist-pywebdav3-gnuhealth \
 python310-PyWebDAV3-GNUHealth \
-python3dist(pywebdav3-gnuhealth)"
+python3dist-pywebdav3-gnuhealth"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

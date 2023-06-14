@@ -18,10 +18,9 @@ PV = "2.2.11"
 RPM_NAME = "sphinx-2.2.11-7.7.aarch64.rpm"
 RPM_HASH = "ad44e1db98d0b04700cf3e2f5ada37663c2cea7d6c91c70ec3014a058cf57c92a9874a9ca13fb6315c6583082e03926b9cd8db91a5b799a7511528d60e881e4e"
 
-RPROVIDES:${PN} += "config(sphinx) \
+RPROVIDES:${PN} += "config-sphinx \
 searchd \
-sphinx \
-sphinx(aarch-64)"
+sphinx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/getent \
@@ -29,16 +28,15 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/touch \
 /usr/sbin/useradd \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexpat.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libpq.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexpat.so.1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libmariadb.so.3 \
+libpq.so.5 \
+libstdc++.so.6 \
+libz.so.1 \
 logrotate"
 
 inherit rpm

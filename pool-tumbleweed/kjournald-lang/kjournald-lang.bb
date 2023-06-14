@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kjournald-lang \
 kjournald-lang-all \
-locale(kjournald:ca) \
-locale(kjournald:ca@valencia) \
-locale(kjournald:cs) \
-locale(kjournald:de) \
-locale(kjournald:en_GB) \
-locale(kjournald:es) \
-locale(kjournald:eu) \
-locale(kjournald:fi) \
-locale(kjournald:fr) \
-locale(kjournald:it) \
-locale(kjournald:ja) \
-locale(kjournald:ka) \
-locale(kjournald:ko) \
-locale(kjournald:lt) \
-locale(kjournald:nl) \
-locale(kjournald:pl) \
-locale(kjournald:pt) \
-locale(kjournald:ru) \
-locale(kjournald:sk) \
-locale(kjournald:sl) \
-locale(kjournald:sv) \
-locale(kjournald:tr) \
-locale(kjournald:uk) \
-locale(kjournald:zh_CN) \
-locale(kjournald:zh_TW)"
+locale-kjournald-ca \
+locale-kjournald-ca@valencia \
+locale-kjournald-cs \
+locale-kjournald-de \
+locale-kjournald-en-GB \
+locale-kjournald-es \
+locale-kjournald-eu \
+locale-kjournald-fi \
+locale-kjournald-fr \
+locale-kjournald-it \
+locale-kjournald-ja \
+locale-kjournald-ka \
+locale-kjournald-ko \
+locale-kjournald-lt \
+locale-kjournald-nl \
+locale-kjournald-pl \
+locale-kjournald-pt \
+locale-kjournald-ru \
+locale-kjournald-sk \
+locale-kjournald-sl \
+locale-kjournald-sv \
+locale-kjournald-tr \
+locale-kjournald-uk \
+locale-kjournald-zh-CN \
+locale-kjournald-zh-TW"
 
 RDEPENDS:${PN} += "kjournald"
 

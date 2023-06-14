@@ -15,16 +15,16 @@ RPM_HASH = "d8e253ee35e7f7d99c3a17c0f66760763e9f3fea0d48b0f6539c543c250cbf2a1453
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kryo \
-mvn(com.esotericsoftware.kryo:kryo) \
-mvn(com.esotericsoftware.kryo:kryo:pom:) \
-mvn(com.esotericsoftware:kryo) \
-mvn(com.esotericsoftware:kryo:pom:) \
-osgi(com.esotericsoftware.kryo)"
+mvn-com.esotericsoftware-kryo \
+mvn-com.esotericsoftware-kryo-pom- \
+mvn-com.esotericsoftware.kryo-kryo \
+mvn-com.esotericsoftware.kryo-kryo-pom- \
+osgi-com.esotericsoftware.kryo"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.esotericsoftware:minlog) \
-mvn(com.esotericsoftware:reflectasm) \
-mvn(org.objenesis:objenesis)"
+mvn-com.esotericsoftware-minlog \
+mvn-com.esotericsoftware-reflectasm \
+mvn-org.objenesis-objenesis"
 
 inherit rpm

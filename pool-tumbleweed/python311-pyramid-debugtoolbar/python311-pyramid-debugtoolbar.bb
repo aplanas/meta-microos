@@ -14,11 +14,11 @@ RPM_NAME = "python311-pyramid-debugtoolbar-4.10-1.3.noarch.rpm"
 RPM_HASH = "667433e70228953f1f55d0811f02074d09c0731a77c9c586aa1c474813f3e5c6328861f6c17aa409deeab6b7cc80717035eeff20dce6ccfbb4524795a9123729"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyramid-debugtoolbar) \
+RPROVIDES:${PN} += "python3.11dist-pyramid-debugtoolbar \
 python311-pyramid-debugtoolbar \
-python3dist(pyramid-debugtoolbar)"
+python3dist-pyramid-debugtoolbar"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Pygments \
 python311-pyramid \
 python311-pyramid-mako"

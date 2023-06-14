@@ -9,21 +9,8 @@ PV = "2.2.6"
 RPM_NAME = "lazarus-2.2.6-1.3.aarch64.rpm"
 RPM_HASH = "f4e086ea0f65840ffb819d36da3296f15b7ffd38063dc221e900bc581f2c6155a0cbd5e128c990491aeac56d0cc99b21cd29ac0309cf35efa0f253ea06886a7d"
 
-RPROVIDES:${PN} += "application() \
-application(lazarus.desktop) \
-config(lazarus) \
-lazarus \
-lazarus(aarch-64) \
-metainfo() \
-metainfo(lazarus.appdata.xml) \
-mimehandler(text/lazarus-code-inlay) \
-mimehandler(text/lazarus-form) \
-mimehandler(text/lazarus-package) \
-mimehandler(text/lazarus-package-link) \
-mimehandler(text/lazarus-project-information) \
-mimehandler(text/lazarus-project-source) \
-mimehandler(text/lazarus-resource) \
-mimehandler(text/x-pascal)"
+RPROVIDES:${PN} += "config-lazarus \
+lazarus"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -34,21 +21,21 @@ fpc \
 fpc-src \
 gcc \
 gdb \
-libX11.so.6()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgthread-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
+libX11.so.6 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgthread-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
 make \
-pkgconfig(glib-2.0) \
-pkgconfig(gtk+-2.0) \
+pkgconfig-glib-2.0 \
+pkgconfig-gtk+-2.0 \
 shared-mime-info"
 
 inherit rpm

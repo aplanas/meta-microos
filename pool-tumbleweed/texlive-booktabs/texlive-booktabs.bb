@@ -12,7 +12,7 @@ RPM_NAME = "texlive-booktabs-2023.201.1.61803398svn53402-52.1.noarch.rpm"
 RPM_HASH = "04e681642d2561ef56627d6729b0f67efcdf40dd5be59dea447ce2817680b6e46b79a7eef50aeb5a372252cd3b554a7adfe2e2529bc3848f91f2feb0113c4319"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(booktabs.sty) \
+RPROVIDES:${PN} += "tex-booktabs.sty \
 texlive-booktabs"
 
 RDEPENDS:${PN} += "/bin/sh \

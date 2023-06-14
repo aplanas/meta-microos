@@ -46,47 +46,46 @@ PV = "6+git20230220.2a49e32"
 RPM_NAME = "printer-driver-brlaser-6+git20230220.2a49e32-1.1.aarch64.rpm"
 RPM_HASH = "573ec53f5554f144af0f467867040c3456c0a25a581fdb438251a8a915a19751f35e9067a67283291f9e14d21c749b90a6c2ca115dd89582b50d0f1e572d8d08"
 
-RPROVIDES:${PN} += "postscriptdriver(brother;dcp-1510_series;) \
-postscriptdriver(brother;dcp-1600_series;) \
-postscriptdriver(brother;dcp-7030;) \
-postscriptdriver(brother;dcp-7040;) \
-postscriptdriver(brother;dcp-7055;) \
-postscriptdriver(brother;dcp-7055w;) \
-postscriptdriver(brother;dcp-7060d;) \
-postscriptdriver(brother;dcp-7065dn;) \
-postscriptdriver(brother;dcp-7080;) \
-postscriptdriver(brother;dcp-7080d;) \
-postscriptdriver(brother;dcp-l2500d_series;) \
-postscriptdriver(brother;dcp-l2520d_series;) \
-postscriptdriver(brother;dcp-l2520dw_series;) \
-postscriptdriver(brother;dcp-l2540dw_series;) \
-postscriptdriver(brother;hl-1110_series;) \
-postscriptdriver(brother;hl-1200_series;) \
-postscriptdriver(brother;hl-2030_series;) \
-postscriptdriver(brother;hl-2140_series;) \
-postscriptdriver(brother;hl-2220_series;) \
-postscriptdriver(brother;hl-2270dw_series;) \
-postscriptdriver(brother;hl-5030_series;) \
-postscriptdriver(brother;hl-l2300d_series;) \
-postscriptdriver(brother;hl-l2320d_series;) \
-postscriptdriver(brother;hl-l2340d_series;) \
-postscriptdriver(brother;hl-l2360d_series;) \
-postscriptdriver(brother;hl-l2375dw_series;) \
-postscriptdriver(brother;hl-l2390dw;) \
-postscriptdriver(brother;mfc-1910w_series;) \
-postscriptdriver(brother;mfc-7240;) \
-postscriptdriver(brother;mfc-7360n;) \
-postscriptdriver(brother;mfc-7365dn;) \
-postscriptdriver(brother;mfc-7420;) \
-postscriptdriver(brother;mfc-7460dn;) \
-postscriptdriver(brother;mfc-l2710dw_series;) \
-printer-driver-brlaser \
-printer-driver-brlaser(aarch-64)"
+RPROVIDES:${PN} += "postscriptdriver-brother;dcp-1510-series; \
+postscriptdriver-brother;dcp-1600-series; \
+postscriptdriver-brother;dcp-7030; \
+postscriptdriver-brother;dcp-7040; \
+postscriptdriver-brother;dcp-7055; \
+postscriptdriver-brother;dcp-7055w; \
+postscriptdriver-brother;dcp-7060d; \
+postscriptdriver-brother;dcp-7065dn; \
+postscriptdriver-brother;dcp-7080; \
+postscriptdriver-brother;dcp-7080d; \
+postscriptdriver-brother;dcp-l2500d-series; \
+postscriptdriver-brother;dcp-l2520d-series; \
+postscriptdriver-brother;dcp-l2520dw-series; \
+postscriptdriver-brother;dcp-l2540dw-series; \
+postscriptdriver-brother;hl-1110-series; \
+postscriptdriver-brother;hl-1200-series; \
+postscriptdriver-brother;hl-2030-series; \
+postscriptdriver-brother;hl-2140-series; \
+postscriptdriver-brother;hl-2220-series; \
+postscriptdriver-brother;hl-2270dw-series; \
+postscriptdriver-brother;hl-5030-series; \
+postscriptdriver-brother;hl-l2300d-series; \
+postscriptdriver-brother;hl-l2320d-series; \
+postscriptdriver-brother;hl-l2340d-series; \
+postscriptdriver-brother;hl-l2360d-series; \
+postscriptdriver-brother;hl-l2375dw-series; \
+postscriptdriver-brother;hl-l2390dw; \
+postscriptdriver-brother;mfc-1910w-series; \
+postscriptdriver-brother;mfc-7240; \
+postscriptdriver-brother;mfc-7360n; \
+postscriptdriver-brother;mfc-7365dn; \
+postscriptdriver-brother;mfc-7420; \
+postscriptdriver-brother;mfc-7460dn; \
+postscriptdriver-brother;mfc-l2710dw-series; \
+printer-driver-brlaser"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcups.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcups.so.2 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

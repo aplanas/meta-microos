@@ -9,11 +9,11 @@ RPM_HASH = "944dc90bab8343d40c7a75e4d45db29cfa256a945861e3357315e4420ac96deb17d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tox-wheel \
-python3.10dist(tox-wheel) \
+python3.10dist-tox-wheel \
 python310-tox-wheel \
-python3dist(tox-wheel)"
+python3dist-tox-wheel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tox \
 python310-wheel"
 

@@ -12,10 +12,10 @@ RPM_HASH = "af3204f2cafa250bba3187253a2b66b25cc1ba88c7b08b59821427212267e0088a36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-osc-lib \
-python3.10dist(osc-lib) \
-python3dist(osc-lib)"
+python3.10dist-osc-lib \
+python3dist-osc-lib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-cliff \
 python3-keystoneauth1 \
 python3-openstacksdk \

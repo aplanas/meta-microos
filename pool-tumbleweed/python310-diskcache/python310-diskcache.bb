@@ -12,11 +12,11 @@ RPM_HASH = "f9589efe40f42cd08f25c82f96e3446c4aa5f2e3f9cb2fc36924b50405fe25749100
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-diskcache \
-python3.10dist(diskcache) \
+python3.10dist-diskcache \
 python310-diskcache \
-python3dist(diskcache)"
+python3dist-diskcache"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310"
 
 inherit rpm

@@ -8,9 +8,9 @@ RPM_NAME = "myspell-ar_SA-20221012-1.2.noarch.rpm"
 RPM_HASH = "20e765696ddaed1c07f9085cd5e022667f0d705d3744dc26f04a8d50bfafbef72978534246dc707f4da69ea039ae38831849442d3e21858d29a7729880873206"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:ar_SA) \
-locale(seamonkey-spellchecker:ar_SA) \
-myspell-ar_SA \
+RPROVIDES:${PN} += "locale-libreoffice-ar-SA \
+locale-seamonkey-spellchecker-ar-SA \
+myspell-ar-SA \
 myspell-dictionary"
 
 RDEPENDS:${PN} += "myspell-ar \

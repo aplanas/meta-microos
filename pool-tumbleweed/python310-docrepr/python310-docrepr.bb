@@ -11,11 +11,11 @@ RPM_HASH = "e323b387d63dd53719106ed429c18cb6f3af2013609e112790f5ae9557d9a5c4c309
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docrepr \
-python3.10dist(docrepr) \
+python3.10dist-docrepr \
 python310-docrepr \
-python3dist(docrepr)"
+python3dist-docrepr"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-Sphinx \
 python310-docutils"

@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "last-resort-font"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

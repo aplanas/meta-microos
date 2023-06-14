@@ -10,7 +10,7 @@ RPM_NAME = "texlive-blockdraw_mp-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "fc2da715522f5c7827bedb9fc3ab1b9cb9ac8d071992a0ba8379eb9d7695181059c13e407372ae361ed7933580a06410443ef5736bda6d28685b3a1ecd6f8d94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-blockdraw_mp"
+RPROVIDES:${PN} += "texlive-blockdraw-mp"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

@@ -9,13 +9,13 @@ RPM_HASH = "6dfb6a149da33fb93ebd8d467c92ff3adb93dbb6572115770a80e0afc0affbc24d02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-checkdmarc \
-python3.10dist(checkdmarc) \
+python3.10dist-checkdmarc \
 python310-checkdmarc \
-python3dist(checkdmarc)"
+python3dist-checkdmarc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dnspython \
 python310-expiringdict \
 python310-publicsuffix2 \

@@ -17,13 +17,13 @@ RPM_NAME = "python311-testrepository-0.0.20-10.1.noarch.rpm"
 RPM_HASH = "6c5f2724f4b3dcbc0c73c6518f90a7ddc8a918efa2bd35e206493ec9349a8247d6923b9b67be2d222c5535c1f2c4a6da8a37cbf07a52ad795cdc42abfefde642"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(testrepository) \
+RPROVIDES:${PN} += "python3.11dist-testrepository \
 python311-testrepository \
-python3dist(testrepository)"
+python3dist-testrepository"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-dbm \
 python311-extras \
 python311-fixtures \

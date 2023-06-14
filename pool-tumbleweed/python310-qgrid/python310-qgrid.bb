@@ -11,12 +11,12 @@ RPM_HASH = "cd1f57d87b6febaa4ac8bf97197b418bbb5f136ed81fdc7a35e058bf34da938b2c7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-qgrid \
-python3.10dist(qgrid) \
+python3.10dist-qgrid \
 python310-qgrid \
-python3dist(qgrid)"
+python3dist-qgrid"
 
 RDEPENDS:${PN} += "jupyter-qgrid \
-python(abi) \
+python-abi \
 python310-ipywidgets \
 python310-notebook \
 python310-pandas"

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-figchild-2023.201.2.1.1svn62945-52.1.noarch.rpm"
 RPM_HASH = "6ace108ccdd62f30b43ff84c6907cee987deee36539aef822604dcd2fcd004b067f9ed6caa294ff05418b45ec73e81807c988c5870e1f413ad1cea85647fee79"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(figchild.sty) \
+RPROVIDES:${PN} += "tex-figchild.sty \
 texlive-figchild"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
-tex(xcolor.sty) \
+tex-tikz.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

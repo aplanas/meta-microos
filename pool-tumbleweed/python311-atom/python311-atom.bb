@@ -10,15 +10,14 @@ PV = "0.10.0"
 RPM_NAME = "python311-atom-0.10.0-2.1.aarch64.rpm"
 RPM_HASH = "885febb1915ad5b9ea56746e86c08179d125b6dbdded908f84484089766dc7a27a118f1f76ec988b9c61aacd2a355e5a3fe93b339a3bfd0a220fe47d4293441f"
 
-RPROVIDES:${PN} += "python3.11dist(atom) \
+RPROVIDES:${PN} += "python3.11dist-atom \
 python311-atom \
-python311-atom(aarch-64) \
-python3dist(atom)"
+python3dist-atom"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

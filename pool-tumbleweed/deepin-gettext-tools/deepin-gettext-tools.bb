@@ -15,10 +15,10 @@ RPROVIDES:${PN} += "deepin-gettext-tools"
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 gettext \
-perl(Config::Tiny) \
-perl(Exporter::Tiny) \
-perl(XML::LibXML) \
-perl(XML::LibXML::PrettyPrint) \
+perl-Config--Tiny \
+perl-Exporter--Tiny \
+perl-XML--LibXML \
+perl-XML--LibXML--PrettyPrint \
 python3"
 
 inherit rpm

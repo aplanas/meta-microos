@@ -8,15 +8,14 @@ PV = "1.1"
 RPM_NAME = "bloaty-1.1-1.31.aarch64.rpm"
 RPM_HASH = "a44752b5eeb0e126e8a92a22ad512c2871a26072e56e291f3258a1313f8dbaedcea2e4df1351aff83ae4b7288a06162f0fb452771c9d8fb550d2a53eac4c0365"
 
-RPROVIDES:${PN} += "bloaty \
-bloaty(aarch-64)"
+RPROVIDES:${PN} += "bloaty"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcapstone.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libre2.so.10()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libcapstone.so.4 \
+libgcc-s.so.1 \
+libm.so.6 \
+libprotobuf-3.21.12.so \
+libre2.so.10 \
+libstdc++.so.6"
 
 inherit rpm

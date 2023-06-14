@@ -14,28 +14,24 @@ PV = "8.9"
 RPM_NAME = "racket-8.9-1.1.aarch64.rpm"
 RPM_HASH = "1d04577b12106ab124ff5a98a6d9e07ccfe3c8c0cc8292541583bba623bcf715598a6ef8db3c1481c1e37631c1212db6cb2bd116abab6cc9339ce9048e45ecbb"
 
-RPROVIDES:${PN} += "application() \
-application(drracket.desktop) \
-application(slideshow.desktop) \
-config(racket) \
+RPROVIDES:${PN} += "config-racket \
 racket \
-racket(aarch-64) \
 racket-drracket \
 racket-games \
 racket-webserver"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcairo2 \
 libedit0 \
-libglib-2_0-0 \
+libglib-2-0-0 \
 libgtk-3-0 \
-liblz4.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpango-1_0-0 \
+liblz4.so.1 \
+libm.so.6 \
+libpango-1-0-0 \
 libsqlite3-0 \
-libtinfo.so.6()(64bit) \
-libz.so.1()(64bit)"
+libtinfo.so.6 \
+libz.so.1"
 
 inherit rpm

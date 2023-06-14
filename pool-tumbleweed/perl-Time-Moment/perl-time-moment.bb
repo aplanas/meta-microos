@@ -15,13 +15,12 @@ PV = "0.44"
 RPM_NAME = "perl-Time-Moment-0.44-2.2.aarch64.rpm"
 RPM_HASH = "25309b05e7d613157da7c84a3db3705ecd94a497f259a01796cc22dfad0511bcc62b723bc15cded3b144196610761a8f80e63a80ab5029ad61ac028384d79938"
 
-RPROVIDES:${PN} += "perl(Time::Moment) \
-perl(Time::Moment::Adjusters) \
-perl-Time-Moment \
-perl-Time-Moment(aarch-64)"
+RPROVIDES:${PN} += "perl-Time--Moment \
+perl-Time--Moment--Adjusters \
+perl-Time-Moment"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

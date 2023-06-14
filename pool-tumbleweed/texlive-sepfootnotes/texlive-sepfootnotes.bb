@@ -11,7 +11,7 @@ RPM_NAME = "texlive-sepfootnotes-2023.201.0.0.3csvn41732-53.1.noarch.rpm"
 RPM_HASH = "7348b5d3d4d01948cbe092e744c0868dc60ae11bac065623590aab50dfb3da457641c25d6a116c5adc89d2e1abb5e0b333959a380703d99fbe0d4e8c8510466a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sepfootnotes.sty) \
+RPROVIDES:${PN} += "tex-sepfootnotes.sty \
 texlive-sepfootnotes"
 
 RDEPENDS:${PN} += "/bin/sh \

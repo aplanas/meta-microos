@@ -14,9 +14,9 @@ RPM_NAME = "perl-Module-Find-0.16-1.2.noarch.rpm"
 RPM_HASH = "08e67538a670db2102bc7473e1fc6b651fa6bf62d6b557f83cfae15a7504f387709ec6ce35237e81db35fa93b417e4fbab803e50458fc1be9bd75ce85fc731df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Find) \
+RPROVIDES:${PN} += "perl-Module--Find \
 perl-Module-Find"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

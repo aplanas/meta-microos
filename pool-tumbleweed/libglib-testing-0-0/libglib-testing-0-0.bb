@@ -11,14 +11,13 @@ RPM_NAME = "libglib-testing-0-0-0.1.1-1.4.aarch64.rpm"
 RPM_HASH = "f6caaa3e92abf6c16896165336e63bf0bbfdff87554d9c1bcbd27744d2a25f095fc27e0c7bfdacfb9edaaebc79c17b04b6d05a833ee17ab7faea1b2b59d5c8d0"
 
 RPROVIDES:${PN} += "libglib-testing-0-0 \
-libglib-testing-0-0(aarch-64) \
-libglib-testing-0.so.0()(64bit)"
+libglib-testing-0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

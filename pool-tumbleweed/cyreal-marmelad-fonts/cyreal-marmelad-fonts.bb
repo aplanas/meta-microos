@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cyreal-marmelad-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

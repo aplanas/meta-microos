@@ -9,13 +9,13 @@ RPM_HASH = "6100d6c8c852c737746acfe5b174866bdd59e700d85e3d8774b56f801230f5536e49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sqlite3-to-mysql \
-python3.10dist(sqlite3-to-mysql) \
+python3.10dist-sqlite3-to-mysql \
 python310-sqlite3-to-mysql \
-python3dist(sqlite3-to-mysql)"
+python3dist-sqlite3-to-mysql"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-mysql-connector-python \
 python310-packaging \

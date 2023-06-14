@@ -18,9 +18,9 @@ RPM_NAME = "texlive-librarian-2023.201.1.0svn19880-54.1.noarch.rpm"
 RPM_HASH = "671e044e6fc1b869ddee3dc66d29473797d6988bf4f1c01c55a23f4b4e26843e679f3b5b2066e4470c68f40927b126d44c383129d2dae53b851ff15e3539d047"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(librarian.sty) \
-tex(librarian.tex) \
-tex(t-librarian.tex) \
+RPROVIDES:${PN} += "tex-librarian.sty \
+tex-librarian.tex \
+tex-t-librarian.tex \
 texlive-librarian"
 
 RDEPENDS:${PN} += "/bin/sh \

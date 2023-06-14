@@ -11,7 +11,7 @@ RPM_NAME = "suse-prime-0.8.14-2.1.noarch.rpm"
 RPM_HASH = "220022886c715f1b49e189aa8b27f051e0f7da9516cc0068c24da6a1a2e7b33cba73d3eec6e510d04d637d6892cc80a0c279fac65424d4b9b17e5d6092912bd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(suse-prime) \
+RPROVIDES:${PN} += "config-suse-prime \
 suse-prime \
 suse-prime-bbswitch"
 

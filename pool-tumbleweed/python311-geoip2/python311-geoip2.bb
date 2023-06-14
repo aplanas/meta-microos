@@ -9,11 +9,11 @@ RPM_NAME = "python311-geoip2-4.6.0-3.2.noarch.rpm"
 RPM_HASH = "6422488edf9694e3596c94b8509e153c9a36591e7e21ed24e584b5e29680699dadd048ae93fba30ae182fbfd9292205165b1d330c32f0ea396291aed4230545f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(geoip2) \
+RPROVIDES:${PN} += "python3.11dist-geoip2 \
 python311-geoip2 \
-python3dist(geoip2)"
+python3dist-geoip2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-maxminddb \
 python311-requests"
 

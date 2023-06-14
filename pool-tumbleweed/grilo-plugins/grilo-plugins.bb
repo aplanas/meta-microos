@@ -13,48 +13,47 @@ RPM_NAME = "grilo-plugins-0.3.16-1.1.aarch64.rpm"
 RPM_HASH = "5d7a18f80d811d80cc944f70772bb9259006830f4a6cd2b4220de99a0bc95db1168cdfd87fe1c2995a6383f538896df0e87c636bd2cb1c4c795495bd0589a474"
 
 RPROVIDES:${PN} += "grilo-plugins \
-grilo-plugins(aarch-64) \
-libgrlbookmarks.so()(64bit) \
-libgrlchromaprint.so()(64bit) \
-libgrldaap.so()(64bit) \
-libgrldpap.so()(64bit) \
-libgrlfilesystem.so()(64bit) \
-libgrlflickr.so()(64bit) \
-libgrlfreebox.so()(64bit) \
-libgrlgravatar.so()(64bit) \
-libgrllocalmetadata.so()(64bit) \
-libgrlluafactory.so()(64bit) \
-libgrlmagnatune.so()(64bit) \
-libgrlmetadatastore.so()(64bit) \
-libgrlopticalmedia.so()(64bit) \
-libgrlpodcasts.so()(64bit) \
-libgrlraitv.so()(64bit) \
-libgrlshoutcast.so()(64bit) \
-libgrlthetvdb.so()(64bit) \
-libgrltmdb.so()(64bit)"
+libgrlbookmarks.so \
+libgrlchromaprint.so \
+libgrldaap.so \
+libgrldpap.so \
+libgrlfilesystem.so \
+libgrlflickr.so \
+libgrlfreebox.so \
+libgrlgravatar.so \
+libgrllocalmetadata.so \
+libgrlluafactory.so \
+libgrlmagnatune.so \
+libgrlmetadatastore.so \
+libgrlopticalmedia.so \
+libgrlpodcasts.so \
+libgrlraitv.so \
+libgrlshoutcast.so \
+libgrlthetvdb.so \
+libgrltmdb.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libarchive.so.13()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-glib.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdmapsharing-4.0.so.3()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgoa-1.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgom-1.0.so.0()(64bit) \
-libgrilo-0.3.so.0()(64bit) \
-libgrlnet-0.3.so.0()(64bit) \
-libgrlpls-0.3.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-liblua5.4.so.5()(64bit) \
-libmediaart-2.0.so.0()(64bit) \
-liboauth.so.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libtotem-plparser-mini.so.18()(64bit) \
-libtotem-plparser.so.18()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libarchive.so.13 \
+libavahi-client.so.3 \
+libavahi-glib.so.1 \
+libc.so.6 \
+libdmapsharing-4.0.so.3 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgoa-1.0.so.0 \
+libgobject-2.0.so.0 \
+libgom-1.0.so.0 \
+libgrilo-0.3.so.0 \
+libgrlnet-0.3.so.0 \
+libgrlpls-0.3.so.0 \
+libgstreamer-1.0.so.0 \
+libjson-glib-1.0.so.0 \
+liblua5.4.so.5 \
+libmediaart-2.0.so.0 \
+liboauth.so.0 \
+libsqlite3.so.0 \
+libtotem-plparser-mini.so.18 \
+libtotem-plparser.so.18 \
+libxml2.so.2"
 
 inherit rpm

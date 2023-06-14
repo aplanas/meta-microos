@@ -10,24 +10,20 @@ RPM_HASH = "0f3886de191a96e13938351e4d7c93d5e324ab6a2de81ea046fc22a25a5c68099971
 RPROVIDES:${PN} += "NetworkManager-libreswan-frontend \
 plasma-nm-openswan \
 plasma-nm5-libreswan \
-plasma-nm5-libreswan(aarch-64) \
 plasma-nm5-openswan"
 
 RDEPENDS:${PN} += "NetworkManager-libreswan \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5NetworkManagerQt.so.6()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libplasmanm_editor.so()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5NetworkManagerQt.so.6 \
+libKF5WidgetsAddons.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libplasmanm-editor.so \
+libstdc++.so.6 \
 plasma-nm5"
 
 inherit rpm

@@ -8,8 +8,7 @@ PV = "4.2.0"
 RPM_NAME = "syslog-ng-python-modules-4.2.0-1.1.aarch64.rpm"
 RPM_HASH = "18ca8930676e4bcf96ff8f0f4211b814fda4e2aa36b8e5bcd731fcd651a26a11c3715f9fbbfbcffd7fce88d20a79ba4f8b60191d33806add7af445fa7fc4311f"
 
-RPROVIDES:${PN} += "syslog-ng-python-modules \
-syslog-ng-python-modules(aarch-64)"
+RPROVIDES:${PN} += "syslog-ng-python-modules"
 
 RDEPENDS:${PN} += "python3-PyYAML \
 python3-cachetools \

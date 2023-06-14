@@ -22,9 +22,8 @@ PV = "3.7.1"
 RPM_NAME = "toml11-devel-3.7.1-1.1.aarch64.rpm"
 RPM_HASH = "2873207381fc19d6bc7b3313b6d804276aad6aa23bec69e824b14295026c63192f6d23d043dd83089c77f2ab85903dcf24e169e51d1ed209a8d2a513633c614f"
 
-RPROVIDES:${PN} += "cmake(toml11) \
-toml11-devel \
-toml11-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-toml11 \
+toml11-devel"
 
 RDEPENDS:${PN} += ""
 

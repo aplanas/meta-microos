@@ -11,22 +11,18 @@ RPM_HASH = "297f4232bd6c73fb5e8bdae0197a0dd6c77afec4824fdd74078c91df073f238c8749
 
 RPROVIDES:${PN} += "python3-PyQtNetworkAuth \
 python3-qtnetworkauth-qt5 \
-python3.10dist(pyqtnetworkauth) \
+python3.10dist-pyqtnetworkauth \
 python310-PyQtNetworkAuth \
 python310-qtnetworkauth-qt5 \
-python310-qtnetworkauth-qt5(aarch-64) \
-python3dist(pyqtnetworkauth)"
+python3dist-pyqtnetworkauth"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5NetworkAuth.so.5()(64bit) \
-libQt5NetworkAuth.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5NetworkAuth.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-qt5 \
 python310-qt5-sip"
 

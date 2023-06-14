@@ -8,14 +8,13 @@ PV = "1.15.0"
 RPM_NAME = "f2fs-tools-1.15.0-2.3.aarch64.rpm"
 RPM_HASH = "8713d7911be1ad944daefdcdec055b37f6f98c972928a897b1c3317063ba8e3f6525ec69b7490dbf09b2954a13c103eba2eb183cce7d15ff5b9c9d4762d5bb93"
 
-RPROVIDES:${PN} += "f2fs-tools \
-f2fs-tools(aarch-64)"
+RPROVIDES:${PN} += "f2fs-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libf2fs.so.9()(64bit) \
-libselinux.so.1()(64bit) \
-libuuid.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libf2fs.so.9 \
+libselinux.so.1 \
+libuuid.so.1"
 
 inherit rpm

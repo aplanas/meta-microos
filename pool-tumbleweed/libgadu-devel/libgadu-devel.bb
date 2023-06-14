@@ -9,12 +9,11 @@ RPM_NAME = "libgadu-devel-1.12.2-2.18.aarch64.rpm"
 RPM_HASH = "551b5421daa3dde519b32b6f33877b1d8395d79b5efef21815cbf27616361874b7c977be2e43a5145f12aa62f26aeb395237a6d8521583d1e4c9392bdaeebf6f"
 
 RPROVIDES:${PN} += "libgadu-devel \
-libgadu-devel(aarch-64) \
-pkgconfig(libgadu)"
+pkgconfig-libgadu"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libgadu3 \
-pkgconfig(gnutls)"
+pkgconfig-gnutls"
 
 inherit rpm

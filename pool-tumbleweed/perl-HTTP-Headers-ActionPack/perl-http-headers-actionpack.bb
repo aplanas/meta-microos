@@ -17,36 +17,36 @@ RPM_NAME = "perl-HTTP-Headers-ActionPack-0.09-1.24.noarch.rpm"
 RPM_HASH = "3f5f3039f5da2054ec4eed12273201959650b963a7f247ca9d43792371c0c8054aa95d31b52229964e3b8e0181a7033b9400b940d03f8314076b56d2c2a3831f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Headers::ActionPack) \
-perl(HTTP::Headers::ActionPack::AcceptCharset) \
-perl(HTTP::Headers::ActionPack::AcceptLanguage) \
-perl(HTTP::Headers::ActionPack::AuthenticationInfo) \
-perl(HTTP::Headers::ActionPack::Authorization) \
-perl(HTTP::Headers::ActionPack::Authorization::Basic) \
-perl(HTTP::Headers::ActionPack::Authorization::Digest) \
-perl(HTTP::Headers::ActionPack::ContentNegotiation) \
-perl(HTTP::Headers::ActionPack::Core::Base) \
-perl(HTTP::Headers::ActionPack::Core::BaseAuthHeader) \
-perl(HTTP::Headers::ActionPack::Core::BaseHeaderList) \
-perl(HTTP::Headers::ActionPack::Core::BaseHeaderType) \
-perl(HTTP::Headers::ActionPack::Core::BaseHeaderWithParams) \
-perl(HTTP::Headers::ActionPack::DateHeader) \
-perl(HTTP::Headers::ActionPack::LinkHeader) \
-perl(HTTP::Headers::ActionPack::LinkList) \
-perl(HTTP::Headers::ActionPack::MediaType) \
-perl(HTTP::Headers::ActionPack::MediaTypeList) \
-perl(HTTP::Headers::ActionPack::PriorityList) \
-perl(HTTP::Headers::ActionPack::Util) \
-perl(HTTP::Headers::ActionPack::WWWAuthenticate) \
+RPROVIDES:${PN} += "perl-HTTP--Headers--ActionPack \
+perl-HTTP--Headers--ActionPack--AcceptCharset \
+perl-HTTP--Headers--ActionPack--AcceptLanguage \
+perl-HTTP--Headers--ActionPack--AuthenticationInfo \
+perl-HTTP--Headers--ActionPack--Authorization \
+perl-HTTP--Headers--ActionPack--Authorization--Basic \
+perl-HTTP--Headers--ActionPack--Authorization--Digest \
+perl-HTTP--Headers--ActionPack--ContentNegotiation \
+perl-HTTP--Headers--ActionPack--Core--Base \
+perl-HTTP--Headers--ActionPack--Core--BaseAuthHeader \
+perl-HTTP--Headers--ActionPack--Core--BaseHeaderList \
+perl-HTTP--Headers--ActionPack--Core--BaseHeaderType \
+perl-HTTP--Headers--ActionPack--Core--BaseHeaderWithParams \
+perl-HTTP--Headers--ActionPack--DateHeader \
+perl-HTTP--Headers--ActionPack--LinkHeader \
+perl-HTTP--Headers--ActionPack--LinkList \
+perl-HTTP--Headers--ActionPack--MediaType \
+perl-HTTP--Headers--ActionPack--MediaTypeList \
+perl-HTTP--Headers--ActionPack--PriorityList \
+perl-HTTP--Headers--ActionPack--Util \
+perl-HTTP--Headers--ActionPack--WWWAuthenticate \
 perl-HTTP-Headers-ActionPack"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(HTTP::Date) \
-perl(HTTP::Headers::Util) \
-perl(Module::Runtime) \
-perl(Sub::Exporter) \
-perl(Time::Piece) \
-perl(URI::Escape) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-HTTP--Date \
+perl-HTTP--Headers--Util \
+perl-Module--Runtime \
+perl-Sub--Exporter \
+perl-Time--Piece \
+perl-URI--Escape \
+perl-parent"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "2fbd3bdc97f4014f18f6c225d79e392c9148ee171dcbc7e1ba655d34303af97292e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-speech \
-python3.10dist(google-cloud-speech) \
+python3.10dist-google-cloud-speech \
 python310-google-cloud-speech \
-python3dist(google-cloud-speech)"
+python3dist-google-cloud-speech"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-api-core \
 python310-proto-plus \
 python310-protobuf"

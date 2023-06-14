@@ -11,7 +11,7 @@ RPM_NAME = "texlive-options-2023.201.1.0svn39030-54.1.noarch.rpm"
 RPM_HASH = "4f2ca11dfb324cea4fbb5cab208f4e9751e5d98b0aeb7085bc638164839a5632c2e4e06b35f4cf0d4f1c1f973310328647f67fee4724ace2ec3badee06d563dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(options.sty) \
+RPROVIDES:${PN} += "tex-options.sty \
 texlive-options"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(xcolor.sty) \
+tex-etoolbox.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

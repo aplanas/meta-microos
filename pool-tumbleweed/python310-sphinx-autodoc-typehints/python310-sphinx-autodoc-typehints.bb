@@ -10,11 +10,11 @@ RPM_HASH = "0e85367ccad046b803cbb4e6f2430a9e779d2931258c9df60e95bdb30d37b2a578df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-autodoc-typehints \
-python3.10dist(sphinx-autodoc-typehints) \
+python3.10dist-sphinx-autodoc-typehints \
 python310-sphinx-autodoc-typehints \
-python3dist(sphinx-autodoc-typehints)"
+python3dist-sphinx-autodoc-typehints"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx"
 
 inherit rpm

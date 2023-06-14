@@ -11,12 +11,11 @@ PV = "0.1.19"
 RPM_NAME = "python311-hdf5storage-0.1.19-1.1.aarch64.rpm"
 RPM_HASH = "5ee3f7d57bbeb320afcdc90052f80dcf40328b8cdff767b3f277af27e4b771f02490d7a261dbe313a953454fa82cbd04f1c0cd12f44e518f2284604a4dab746e"
 
-RPROVIDES:${PN} += "python3.11dist(hdf5storage) \
+RPROVIDES:${PN} += "python3.11dist-hdf5storage \
 python311-hdf5storage \
-python311-hdf5storage(aarch-64) \
-python3dist(hdf5storage)"
+python3dist-hdf5storage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-h5py \
 python311-numpy"
 

@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sysuser-shadow"
 
-RDEPENDS:${PN} += "(/usr/sbin/useradd or busybox) \
-(systemd >= 238 if systemd) \
+RDEPENDS:${PN} += "-/usr/sbin/useradd or busybox \
+-systemd >= 238 if systemd \
 /bin/sh"
 
 inherit rpm

@@ -12,15 +12,15 @@ RPM_HASH = "c832ccf61061deb4b614d9ee7b341f78691538def8428afffaa779bebe65bc0feaf4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jenkins-json-lib \
-mvn(org.kohsuke.stapler:json-lib) \
-mvn(org.kohsuke.stapler:json-lib:pom:)"
+mvn-org.kohsuke.stapler-json-lib \
+mvn-org.kohsuke.stapler-json-lib-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-beanutils:commons-beanutils) \
-mvn(commons-collections:commons-collections) \
-mvn(commons-lang:commons-lang) \
-mvn(commons-logging:commons-logging) \
-mvn(net.sf.ezmorph:ezmorph)"
+mvn-commons-beanutils-commons-beanutils \
+mvn-commons-collections-commons-collections \
+mvn-commons-lang-commons-lang \
+mvn-commons-logging-commons-logging \
+mvn-net.sf.ezmorph-ezmorph"
 
 inherit rpm

@@ -13,14 +13,13 @@ RPM_NAME = "python310-textile-4.0.2-1.9.aarch64.rpm"
 RPM_HASH = "9f0520beb7ad90b6177d6a6952a6a618cccc2442bb0e4f4bf04e6b48f6c189a1242e26b788499ccd732dac7a784fec23f8cc9594cdf6a893175acb8eb714d176"
 
 RPROVIDES:${PN} += "python3-textile \
-python3.10dist(textile) \
+python3.10dist-textile \
 python310-textile \
-python310-textile(aarch-64) \
-python3dist(textile)"
+python3dist-textile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-html5lib \
 python310-six \

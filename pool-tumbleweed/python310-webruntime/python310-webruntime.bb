@@ -11,13 +11,13 @@ RPM_HASH = "2f92af627d5c054a01726efd977162c9c942538f1311e34bbc3e5ce7d29341c476d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-webruntime \
-python3.10dist(webruntime) \
+python3.10dist-webruntime \
 python310-webruntime \
-python3dist(webruntime)"
+python3dist-webruntime"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dialite \
 update-alternatives"
 

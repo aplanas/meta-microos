@@ -31,16 +31,15 @@ RPM_NAME = "libxspf-devel-1.2.1-1.6.aarch64.rpm"
 RPM_HASH = "da5a584dbec3f6827bcedbff3dc8d02afd97aeba4fc7e83f302b2325f7636820ecc11d6785c94028e0e55fae0e842227aa87726ee30fbf84eee24722cfddc591"
 
 RPROVIDES:${PN} += "libxspf-devel \
-libxspf-devel(aarch-64) \
-pkgconfig(xspf)"
+pkgconfig-xspf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libexpat-devel \
-libgcc_s.so.1()(64bit) \
+libgcc-s.so.1 \
 libstdc++-devel \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 libxspf4"
 
 inherit rpm

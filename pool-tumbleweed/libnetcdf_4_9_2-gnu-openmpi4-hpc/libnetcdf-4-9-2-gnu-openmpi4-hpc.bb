@@ -36,19 +36,18 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf_4_9_2-gnu-openmpi4-hpc-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "b7db00cb498fa1675e33c2b3102f690110c53fe014848835369855b30ea0815b90e5fa446d6e78b3f2c0263e2cd445f091d5b0241daed282b84b690e02c1a08d"
 
-RPROVIDES:${PN} += "libnetcdf_4_9_2-gnu-openmpi4-hpc \
-libnetcdf_4_9_2-gnu-openmpi4-hpc(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf-4-9-2-gnu-openmpi4-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
 libhdf5-gnu-openmpi4-hpc \
-libhdf5_hl-gnu-openmpi4-hpc \
-libm.so.6()(64bit) \
+libhdf5-hl-gnu-openmpi4-hpc \
+libm.so.6 \
 libopenmpi4-gnu-hpc \
-libxml2.so.2()(64bit) \
+libxml2.so.2 \
 lua-lmod"
 
 inherit rpm

@@ -13,8 +13,8 @@ RPM_NAME = "texlive-grffile-2023.201.2.1svn52756-53.1.noarch.rpm"
 RPM_HASH = "3d140d9dd7244177189d8a31641106741adbc323c0c74468abb8bf514fc3866f498d12a8386bff2c2e9e9bb33a38aec70c0d7932529c8f9efc0d33f878643ec1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(grffile-2017-06-30.sty) \
-tex(grffile.sty) \
+RPROVIDES:${PN} += "tex-grffile-2017-06-30.sty \
+tex-grffile.sty \
 texlive-grffile"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,13 +23,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphics.sty) \
-tex(graphicx.sty) \
-tex(ifpdf.sty) \
-tex(ifxetex.sty) \
-tex(kvoptions.sty) \
-tex(pdftexcmds.sty) \
-tex(stringenc.sty) \
+tex-graphics.sty \
+tex-graphicx.sty \
+tex-ifpdf.sty \
+tex-ifxetex.sty \
+tex-kvoptions.sty \
+tex-pdftexcmds.sty \
+tex-stringenc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

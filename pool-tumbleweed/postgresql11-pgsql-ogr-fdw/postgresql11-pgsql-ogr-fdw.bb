@@ -9,13 +9,12 @@ PV = "1.1.0"
 RPM_NAME = "postgresql11-pgsql-ogr-fdw-1.1.0-4.2.aarch64.rpm"
 RPM_HASH = "273b1ebdcc458cbf35c5f70cd6a469c49f2168c4a21f925e0ef30c931aa46676949b3c5c9866947243e95eeef605f7467acb19b360615e076fd0d191d5e29186"
 
-RPROVIDES:${PN} += "postgresql11-pgsql-ogr-fdw \
-postgresql11-pgsql-ogr-fdw(aarch-64)"
+RPROVIDES:${PN} += "postgresql11-pgsql-ogr-fdw"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdal.so.32()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdal.so.32 \
 postgresql11-server"
 
 inherit rpm

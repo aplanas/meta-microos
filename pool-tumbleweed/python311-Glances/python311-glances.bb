@@ -12,14 +12,14 @@ RPM_HASH = "78fb4fd0b8aee840ad505d56f986583dc927f59b2237fb0227ad3967935bc4fd7d8b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances \
-python3.11dist(glances) \
+python3.11dist-glances \
 python311-Glances \
 python311-glances \
-python3dist(glances)"
+python3dist-glances"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-bottle \
 python311-defusedxml \
 python311-future \

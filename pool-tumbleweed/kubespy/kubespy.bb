@@ -9,9 +9,8 @@ PV = "0.6.2"
 RPM_NAME = "kubespy-0.6.2-1.2.aarch64.rpm"
 RPM_HASH = "4b428f3abb7082ffda38780efbeed5937e3fa11e945d790e6f6e0301c22360e6a51d7d5f8875898858f251cf8bad7afba17478c292daeb6a837dcc0441c117c1"
 
-RPROVIDES:${PN} += "kubespy \
-kubespy(aarch-64)"
+RPROVIDES:${PN} += "kubespy"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

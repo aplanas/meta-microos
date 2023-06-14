@@ -25,11 +25,11 @@ RPM_NAME = "python311-dnspython-2.3.0-2.1.noarch.rpm"
 RPM_HASH = "d875ed022a834f465f1d0ee140254aa22d63672d30a2eccf1cab7224cdf259fcf64877408b2cc11881a6a7f2eeeedd9c0ba4de0efe0806c7130f9921f2870212"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dnspython) \
+RPROVIDES:${PN} += "python3.11dist-dnspython \
 python311-dnspython \
-python3dist(dnspython)"
+python3dist-dnspython"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-cryptography \
 python311-httpx \
 python311-idna \

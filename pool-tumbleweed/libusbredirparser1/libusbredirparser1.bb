@@ -10,13 +10,12 @@ PV = "0.13.0"
 RPM_NAME = "libusbredirparser1-0.13.0-1.4.aarch64.rpm"
 RPM_HASH = "63b0ae875d6f69a71ffe47131b0495364840e0f3ac99bf5ed580010451d204e38e61451ae98fd1a764f140948201c3518480bdf80f9755a8496f2d0fa913e349"
 
-RPROVIDES:${PN} += "libusbredirparser.so.1()(64bit) \
+RPROVIDES:${PN} += "libusbredirparser.so.1 \
 libusbredirparser0 \
-libusbredirparser1 \
-libusbredirparser1(aarch-64)"
+libusbredirparser1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "7e532d765259f68db6b7a00e9d9d9429233f8b1b959503a691b6293915bec82131d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyupgrade \
-python3.10dist(pyupgrade) \
+python3.10dist-pyupgrade \
 python310-pyupgrade \
-python3dist(pyupgrade)"
+python3dist-pyupgrade"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-tokenize-rt \
 update-alternatives"
 

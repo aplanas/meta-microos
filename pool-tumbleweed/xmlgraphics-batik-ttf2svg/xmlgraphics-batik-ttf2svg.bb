@@ -12,9 +12,9 @@ RPM_HASH = "82ce1b9a534178f5248573447d180556b0680ccbb1eb693c9c7b32afe24fe9ab5715
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-ttf2svg \
-mvn(org.apache.xmlgraphics:batik-ttf2svg) \
-mvn(org.apache.xmlgraphics:batik-ttf2svg:pom:) \
-osgi(org.apache.batik.ttf2svg) \
+mvn-org.apache.xmlgraphics-batik-ttf2svg \
+mvn-org.apache.xmlgraphics-batik-ttf2svg-pom- \
+osgi-org.apache.batik.ttf2svg \
 xmlgraphics-batik-ttf2svg"
 
 RDEPENDS:${PN} += "/bin/bash \

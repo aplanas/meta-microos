@@ -10,7 +10,7 @@ RPM_HASH = "f5939b0a546296444c64e5aaaeb419e71e3f088a81635304c6281b8c40ea139ac599
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clone-master-clean-up \
-config(clone-master-clean-up)"
+config-clone-master-clean-up"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

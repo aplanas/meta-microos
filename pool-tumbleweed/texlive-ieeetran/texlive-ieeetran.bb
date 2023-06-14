@@ -11,8 +11,8 @@ RPM_NAME = "texlive-ieeetran-2023.201.1.8bsvn59672-52.1.noarch.rpm"
 RPM_HASH = "eb3d4c6462e6c47f936332e3c7be5df4ea999a44da66bb0041dcc62763dd23aadfbb7d3f66dc273ce49de35f1a73cdc81d925645312ffbc578e32dcdbd31506b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(IEEEtran.cls) \
-tex(IEEEtrantools.sty) \
+RPROVIDES:${PN} += "tex-IEEEtran.cls \
+tex-IEEEtrantools.sty \
 texlive-ieeetran"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(newtxmath.sty) \
+tex-newtxmath.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

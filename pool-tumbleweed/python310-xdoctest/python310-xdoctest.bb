@@ -9,13 +9,13 @@ RPM_HASH = "fed02b1d3d98c76d1244d6246f029c0fedf5d1d73419dac7a10021df6f4cf7c3d96a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xdoctest \
-python3.10dist(xdoctest) \
+python3.10dist-xdoctest \
 python310-xdoctest \
-python3dist(xdoctest)"
+python3dist-xdoctest"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-six \
 update-alternatives"
 

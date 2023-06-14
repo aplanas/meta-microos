@@ -18,17 +18,16 @@ PV = "4.17.1_04"
 RPM_NAME = "xen-tools-domU-4.17.1_04-1.1.aarch64.rpm"
 RPM_HASH = "aa2dd9207a26defceb33fe161433e6fc2ae41405b0f278d526995ef02ccc0c181e5ba526f2dc290b82241e00fe5de1e8cf004524b8dfcadeaa0d5caba8cad768"
 
-RPROVIDES:${PN} += "config(xen-tools-domU) \
-xen-tools-domU \
-xen-tools-domU(aarch-64)"
+RPROVIDES:${PN} += "config-xen-tools-domU \
+xen-tools-domU"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxenctrl.so.4.17()(64bit) \
-libxenguest.so.4.17()(64bit) \
-libxenstore.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxenctrl.so.4.17 \
+libxenguest.so.4.17 \
+libxenstore.so.4 \
 xen-libs"
 
 inherit rpm

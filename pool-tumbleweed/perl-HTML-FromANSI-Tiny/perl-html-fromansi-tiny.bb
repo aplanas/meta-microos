@@ -16,11 +16,11 @@ RPM_NAME = "perl-HTML-FromANSI-Tiny-0.105-1.9.noarch.rpm"
 RPM_HASH = "8bd882b931ce8aa92d0dce6928dfe0cbe992788ee50fc5b7c76c35137d78e9700a4cdb0042ac2eaf461f69ffdd2d82b770b01813a9b939d19a6566be56bafc0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::FromANSI::Tiny) \
+RPROVIDES:${PN} += "perl-HTML--FromANSI--Tiny \
 perl-HTML-FromANSI-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(HTML::Entities) \
-perl(Parse::ANSIColor::Tiny)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-HTML--Entities \
+perl-Parse--ANSIColor--Tiny"
 
 inherit rpm

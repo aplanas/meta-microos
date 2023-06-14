@@ -15,13 +15,12 @@ RPM_NAME = "libzck-devel-1.3.0-1.1.aarch64.rpm"
 RPM_HASH = "b4d7d7876bb19634fea589da6fa4963ee5fca5e21039464f067406fa0fcecbaa65bf26ada3006a6cd6ea6cafd83b8722c6f78c0ce56ef215a83fa123e9f2e25f"
 
 RPROVIDES:${PN} += "libzck-devel \
-libzck-devel(aarch-64) \
-pkgconfig(zck) \
+pkgconfig-zck \
 zchunk-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzck1 \
-pkgconfig(libzstd) \
-pkgconfig(openssl)"
+pkgconfig-libzstd \
+pkgconfig-openssl"
 
 inherit rpm

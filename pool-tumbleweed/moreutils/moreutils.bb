@@ -28,10 +28,9 @@ PV = "0.67"
 RPM_NAME = "moreutils-0.67-2.2.aarch64.rpm"
 RPM_HASH = "4184fd455e84c5ff6f8c26155ab170c23b0d0e7df979e8a741e5f020970c8fee4504305dc75414fefa4fdf60bd1033799790c9427da73d8645c0afd6d86a63ab"
 
-RPROVIDES:${PN} += "moreutils \
-moreutils(aarch-64)"
+RPROVIDES:${PN} += "moreutils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

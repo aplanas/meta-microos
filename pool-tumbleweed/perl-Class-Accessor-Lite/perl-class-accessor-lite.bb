@@ -10,9 +10,9 @@ RPM_NAME = "perl-Class-Accessor-Lite-0.08-2.20.noarch.rpm"
 RPM_HASH = "e4f57583b6225b8949f711b2e072cd8edf0c41413743b3ac77bc1bd64f279f7670392207229f889f336c72519580909700ba15def59fba2812de427edf103ed5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Accessor::Lite) \
+RPROVIDES:${PN} += "perl-Class--Accessor--Lite \
 perl-Class-Accessor-Lite"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

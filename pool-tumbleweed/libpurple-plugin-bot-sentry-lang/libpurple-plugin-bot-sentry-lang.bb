@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-bot-sentry-lang \
 libpurple-plugin-bot-sentry-lang-all \
-locale(libpurple-plugin-bot-sentry:ar) \
-locale(libpurple-plugin-bot-sentry:cs) \
-locale(libpurple-plugin-bot-sentry:de) \
-locale(libpurple-plugin-bot-sentry:es) \
-locale(libpurple-plugin-bot-sentry:it) \
-locale(libpurple-plugin-bot-sentry:ru)"
+locale-libpurple-plugin-bot-sentry-ar \
+locale-libpurple-plugin-bot-sentry-cs \
+locale-libpurple-plugin-bot-sentry-de \
+locale-libpurple-plugin-bot-sentry-es \
+locale-libpurple-plugin-bot-sentry-it \
+locale-libpurple-plugin-bot-sentry-ru"
 
 RDEPENDS:${PN} += "libpurple-plugin-bot-sentry"
 

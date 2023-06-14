@@ -11,13 +11,13 @@ RPM_NAME = "python39-gTTS-2.3.1-1.5.noarch.rpm"
 RPM_HASH = "293285bb60addc89ba8a61998180fefeff456c74c80f411f34d42a447a1db44ebe96b948a54a24f51aa95326c08156783fa6efe4bfb76b511f6244ad5c14b68c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(gtts) \
+RPROVIDES:${PN} += "python3.9dist-gtts \
 python39-gTTS \
-python3dist(gtts)"
+python3dist-gtts"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-beautifulsoup4 \
 python39-click \
 python39-gTTS-token \

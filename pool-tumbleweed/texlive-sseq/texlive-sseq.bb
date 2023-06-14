@@ -14,7 +14,7 @@ RPM_NAME = "texlive-sseq-2023.201.2.01svn31585-57.1.noarch.rpm"
 RPM_HASH = "b065b0ea7f9b93fb4c12f0e8dd38887c8d88ba11fbe9dcacfb18f9a8d91840f0475595c73e01161fb88545ed86eaf5dfa6b7e0d964585daaedffca2b8c2228c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sseq.sty) \
+RPROVIDES:${PN} += "tex-sseq.sty \
 texlive-sseq"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,11 +23,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(ifthen.sty) \
-tex(pgf.sty) \
-tex(pifont.sty) \
-tex(xkeyval.sty) \
+tex-calc.sty \
+tex-ifthen.sty \
+tex-pgf.sty \
+tex-pifont.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

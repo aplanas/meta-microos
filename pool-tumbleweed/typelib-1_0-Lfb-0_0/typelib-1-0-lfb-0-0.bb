@@ -11,13 +11,12 @@ PV = "0.1.0"
 RPM_NAME = "typelib-1_0-Lfb-0_0-0.1.0-2.2.aarch64.rpm"
 RPM_HASH = "6d93ce9df0e56fd36405a183acb0b2bf58a741f0fc4e5564cc2a2a8302a4d2cf6c8ae2527248dd06a145cb7a5d088f6a040e25045caf038c336035a38d98b26f"
 
-RPROVIDES:${PN} += "typelib(Lfb) \
-typelib-1_0-Lfb-0_0 \
-typelib-1_0-Lfb-0_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Lfb-0-0 \
+typelib-Lfb"
 
-RDEPENDS:${PN} += "libfeedback-0.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libfeedback-0.0.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

@@ -9,20 +9,17 @@ PV = "5.106.0"
 RPM_NAME = "libKF5CalendarCore5-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "2ab8f614894f9c69ef59ca35617488f88672aaab644325c6c49b12e4b332be01c954756f1f339bf9f74e173f0acd6a1b5750758b9e5c21e30b838a95e4fb15ca"
 
-RPROVIDES:${PN} += "libKF5CalendarCore.so.5()(64bit) \
-libKF5CalendarCore5 \
-libKF5CalendarCore5(aarch-64)"
+RPROVIDES:${PN} += "libKF5CalendarCore.so.5 \
+libKF5CalendarCore5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libical.so.3()(64bit) \
-libicalss.so.3()(64bit) \
-libicalvcal.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libical.so.3 \
+libicalss.so.3 \
+libicalvcal.so.3 \
+libstdc++.so.6"
 
 inherit rpm

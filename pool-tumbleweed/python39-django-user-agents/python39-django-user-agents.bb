@@ -10,11 +10,11 @@ RPM_NAME = "python39-django-user-agents-0.4.0-2.8.noarch.rpm"
 RPM_HASH = "ed823eff91a59de671b9cac1f63361dfd8a178f41bdbd6f8c1654a87653d292c28e32765880a20d30badf137252a867051d5f5d57b32c4fb0dfda128694b6ab2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(django-user-agents) \
+RPROVIDES:${PN} += "python3.9dist-django-user-agents \
 python39-django-user-agents \
-python3dist(django-user-agents)"
+python3dist-django-user-agents"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Django \
 python39-user-agents"
 

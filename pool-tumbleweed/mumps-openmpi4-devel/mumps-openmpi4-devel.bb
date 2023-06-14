@@ -12,10 +12,9 @@ PV = "5.3.5"
 RPM_NAME = "mumps-openmpi4-devel-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "bc04dd8508cc6c4aeb555394c3e6d5dc5806a9c5e3e316df512c913233b064a793ede57e49da6ea61e9c7882df8d936ee04889b2f548c9b627b9f861c51a7fb0"
 
-RPROVIDES:${PN} += "mumps-openmpi4-devel \
-mumps-openmpi4-devel(aarch-64)"
+RPROVIDES:${PN} += "mumps-openmpi4-devel"
 
-RDEPENDS:${PN} += "libmumps5_3_5-openmpi4 \
+RDEPENDS:${PN} += "libmumps5-3-5-openmpi4 \
 mumps-devel \
 openmpi4-devel \
 scalapack-openmpi4-devel"

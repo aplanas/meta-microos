@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mumps-gnu-mpich-hpc-examples"
 
 RDEPENDS:${PN} += "/bin/sh \
-mumps_5_3_5-gnu-mpich-hpc-examples"
+mumps-5-3-5-gnu-mpich-hpc-examples"
 
 inherit rpm

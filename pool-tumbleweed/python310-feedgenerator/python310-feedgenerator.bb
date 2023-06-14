@@ -10,11 +10,11 @@ RPM_HASH = "d7ca9fc93a75d725ec985692013ee729123c677ea060b6b9c820ba93cb47842ac4c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-feedgenerator \
-python3.10dist(feedgenerator) \
+python3.10dist-feedgenerator \
 python310-feedgenerator \
-python3dist(feedgenerator)"
+python3dist-feedgenerator"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytz"
 
 inherit rpm

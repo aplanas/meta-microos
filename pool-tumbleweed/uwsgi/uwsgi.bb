@@ -20,9 +20,8 @@ PV = "2.0.21"
 RPM_NAME = "uwsgi-2.0.21-2.1.aarch64.rpm"
 RPM_HASH = "14f305b98c1ba7f213f54f6cd5eaec792bf341396ddafd5f566716f10560330fb01c2c108a216bc438c4a0f66b9ccbdc13ce75cde15463207cb8a62a618c4708"
 
-RPROVIDES:${PN} += "config(uwsgi) \
+RPROVIDES:${PN} += "config-uwsgi \
 uwsgi \
-uwsgi(aarch-64) \
 uwsgi-carbon \
 uwsgi-cgi \
 uwsgi-fastrouter \
@@ -39,22 +38,21 @@ uwsgi-ugreen \
 uwsgi-zergpool"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libjansson.so.4()(64bit) \
-libm.so.6()(64bit) \
-libpcre.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libuuid.so.1()(64bit) \
-libwrap.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libjansson.so.4 \
+libm.so.6 \
+libpcre.so.1 \
+libssl.so.3 \
+libsystemd.so.0 \
+libuuid.so.1 \
+libwrap.so.0 \
+libxml2.so.2 \
+libz.so.1 \
 systemd"
 
 inherit rpm

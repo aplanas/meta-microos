@@ -8,54 +8,54 @@ RPM_NAME = "perl-Algorithm-CheckDigits-1.3.6-1.8.noarch.rpm"
 RPM_HASH = "05e35cd1061ad37d525daae4a62b5ce530b397de773d002bbc44765da2eb496a3723668b62067dc29f1f04b48021c2484d11d85729b64ade112c3cd55acfdf56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Algorithm::CheckDigits) \
-perl(Algorithm::CheckDigits::M07_001) \
-perl(Algorithm::CheckDigits::M09_001) \
-perl(Algorithm::CheckDigits::M10_001) \
-perl(Algorithm::CheckDigits::M10_002) \
-perl(Algorithm::CheckDigits::M10_003) \
-perl(Algorithm::CheckDigits::M10_004) \
-perl(Algorithm::CheckDigits::M10_005) \
-perl(Algorithm::CheckDigits::M10_006) \
-perl(Algorithm::CheckDigits::M10_008) \
-perl(Algorithm::CheckDigits::M10_009) \
-perl(Algorithm::CheckDigits::M10_010) \
-perl(Algorithm::CheckDigits::M10_011) \
-perl(Algorithm::CheckDigits::M11_001) \
-perl(Algorithm::CheckDigits::M11_002) \
-perl(Algorithm::CheckDigits::M11_003) \
-perl(Algorithm::CheckDigits::M11_004) \
-perl(Algorithm::CheckDigits::M11_006) \
-perl(Algorithm::CheckDigits::M11_007) \
-perl(Algorithm::CheckDigits::M11_008) \
-perl(Algorithm::CheckDigits::M11_009) \
-perl(Algorithm::CheckDigits::M11_010) \
-perl(Algorithm::CheckDigits::M11_011) \
-perl(Algorithm::CheckDigits::M11_012) \
-perl(Algorithm::CheckDigits::M11_013) \
-perl(Algorithm::CheckDigits::M11_015) \
-perl(Algorithm::CheckDigits::M11_016) \
-perl(Algorithm::CheckDigits::M11_017) \
-perl(Algorithm::CheckDigits::M16_001) \
-perl(Algorithm::CheckDigits::M23_001) \
-perl(Algorithm::CheckDigits::M23_002) \
-perl(Algorithm::CheckDigits::M43_001) \
-perl(Algorithm::CheckDigits::M89_001) \
-perl(Algorithm::CheckDigits::M97_001) \
-perl(Algorithm::CheckDigits::M97_002) \
-perl(Algorithm::CheckDigits::MBase_001) \
-perl(Algorithm::CheckDigits::MBase_002) \
-perl(Algorithm::CheckDigits::MBase_003) \
-perl(Algorithm::CheckDigits::MXX_001) \
-perl(Algorithm::CheckDigits::MXX_002) \
-perl(Algorithm::CheckDigits::MXX_003) \
-perl(Algorithm::CheckDigits::MXX_004) \
-perl(Algorithm::CheckDigits::MXX_005) \
-perl(Algorithm::CheckDigits::MXX_006) \
+RPROVIDES:${PN} += "perl-Algorithm--CheckDigits \
+perl-Algorithm--CheckDigits--M07-001 \
+perl-Algorithm--CheckDigits--M09-001 \
+perl-Algorithm--CheckDigits--M10-001 \
+perl-Algorithm--CheckDigits--M10-002 \
+perl-Algorithm--CheckDigits--M10-003 \
+perl-Algorithm--CheckDigits--M10-004 \
+perl-Algorithm--CheckDigits--M10-005 \
+perl-Algorithm--CheckDigits--M10-006 \
+perl-Algorithm--CheckDigits--M10-008 \
+perl-Algorithm--CheckDigits--M10-009 \
+perl-Algorithm--CheckDigits--M10-010 \
+perl-Algorithm--CheckDigits--M10-011 \
+perl-Algorithm--CheckDigits--M11-001 \
+perl-Algorithm--CheckDigits--M11-002 \
+perl-Algorithm--CheckDigits--M11-003 \
+perl-Algorithm--CheckDigits--M11-004 \
+perl-Algorithm--CheckDigits--M11-006 \
+perl-Algorithm--CheckDigits--M11-007 \
+perl-Algorithm--CheckDigits--M11-008 \
+perl-Algorithm--CheckDigits--M11-009 \
+perl-Algorithm--CheckDigits--M11-010 \
+perl-Algorithm--CheckDigits--M11-011 \
+perl-Algorithm--CheckDigits--M11-012 \
+perl-Algorithm--CheckDigits--M11-013 \
+perl-Algorithm--CheckDigits--M11-015 \
+perl-Algorithm--CheckDigits--M11-016 \
+perl-Algorithm--CheckDigits--M11-017 \
+perl-Algorithm--CheckDigits--M16-001 \
+perl-Algorithm--CheckDigits--M23-001 \
+perl-Algorithm--CheckDigits--M23-002 \
+perl-Algorithm--CheckDigits--M43-001 \
+perl-Algorithm--CheckDigits--M89-001 \
+perl-Algorithm--CheckDigits--M97-001 \
+perl-Algorithm--CheckDigits--M97-002 \
+perl-Algorithm--CheckDigits--MBase-001 \
+perl-Algorithm--CheckDigits--MBase-002 \
+perl-Algorithm--CheckDigits--MBase-003 \
+perl-Algorithm--CheckDigits--MXX-001 \
+perl-Algorithm--CheckDigits--MXX-002 \
+perl-Algorithm--CheckDigits--MXX-003 \
+perl-Algorithm--CheckDigits--MXX-004 \
+perl-Algorithm--CheckDigits--MXX-005 \
+perl-Algorithm--CheckDigits--MXX-006 \
 perl-Algorithm-CheckDigits"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(version)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-version"
 
 inherit rpm

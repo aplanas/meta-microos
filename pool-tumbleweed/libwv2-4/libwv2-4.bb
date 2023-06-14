@@ -9,16 +9,15 @@ RPM_NAME = "libwv2-4-0.4.2-25.5.aarch64.rpm"
 RPM_HASH = "d230b4b597abd071b55d8b1355da7933587e650fb95052f08363917847786ffc65b27262078f9581d106345c7e1426dfd63ed13dfc0f3ceec042d440c6b89924"
 
 RPROVIDES:${PN} += "libwv2-4 \
-libwv2-4(aarch-64) \
-libwv2.so.4()(64bit)"
+libwv2.so.4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgsf-1.so.114()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgsf-1.so.114 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "9ec773d401f825372c4f2b3a4a0b57715826979c05aaf4d6487530b12148cb2a9fbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tri.declarative \
-python3.10dist(tri.declarative) \
+python3.10dist-tri.declarative \
 python310-tri.declarative \
-python3dist(tri.declarative)"
+python3dist-tri.declarative"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tri.struct"
 
 inherit rpm

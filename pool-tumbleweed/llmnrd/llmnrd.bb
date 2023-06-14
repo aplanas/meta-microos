@@ -11,12 +11,11 @@ PV = "0.7"
 RPM_NAME = "llmnrd-0.7-4.3.aarch64.rpm"
 RPM_HASH = "da41cca39aeffb59ba4f0015c1baae5d480e1a3fcbad0b82db637ca0e987db5b487fade33dcc47d85294de8d9849793ff813ad0ea5857a8853429779aeb6d7e2"
 
-RPROVIDES:${PN} += "config(llmnrd) \
-llmnrd \
-llmnrd(aarch-64)"
+RPROVIDES:${PN} += "config-llmnrd \
+llmnrd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

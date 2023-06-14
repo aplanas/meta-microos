@@ -13,41 +13,40 @@ RPM_HASH = "3e41314dc774f85f33f88f08c87cebaae0bf9999dbc6904eeca857082715fbe3d054
 
 RPROVIDES:${PN} += "libpacemaker-devel \
 pacemaker-devel \
-pacemaker-devel(aarch-64) \
-pkgconfig(libpacemaker) \
-pkgconfig(pacemaker) \
-pkgconfig(pacemaker-cib) \
-pkgconfig(pacemaker-cluster) \
-pkgconfig(pacemaker-fencing) \
-pkgconfig(pacemaker-lrmd) \
-pkgconfig(pacemaker-pe_rules) \
-pkgconfig(pacemaker-pe_status) \
-pkgconfig(pacemaker-service)"
+pkgconfig-libpacemaker \
+pkgconfig-pacemaker \
+pkgconfig-pacemaker-cib \
+pkgconfig-pacemaker-cluster \
+pkgconfig-pacemaker-fencing \
+pkgconfig-pacemaker-lrmd \
+pkgconfig-pacemaker-pe-rules \
+pkgconfig-pacemaker-pe-status \
+pkgconfig-pacemaker-service"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtool-ltdl-devel \
 pacemaker-libs \
 pkgconfig \
-pkgconfig(bzip2) \
-pkgconfig(corosync) \
-pkgconfig(dbus-1) \
-pkgconfig(glib-2.0) \
-pkgconfig(gnutls) \
-pkgconfig(libcfg) \
-pkgconfig(libcmap) \
-pkgconfig(libcorosync_common) \
-pkgconfig(libcpg) \
-pkgconfig(libqb) \
-pkgconfig(libquorum) \
-pkgconfig(libxml-2.0) \
-pkgconfig(libxslt) \
-pkgconfig(pacemaker) \
-pkgconfig(pacemaker-cib) \
-pkgconfig(pacemaker-fencing) \
-pkgconfig(pacemaker-lrmd) \
-pkgconfig(pacemaker-pe_rules) \
-pkgconfig(pacemaker-pe_status) \
-pkgconfig(pacemaker-service) \
-pkgconfig(uuid)"
+pkgconfig-bzip2 \
+pkgconfig-corosync \
+pkgconfig-dbus-1 \
+pkgconfig-glib-2.0 \
+pkgconfig-gnutls \
+pkgconfig-libcfg \
+pkgconfig-libcmap \
+pkgconfig-libcorosync-common \
+pkgconfig-libcpg \
+pkgconfig-libqb \
+pkgconfig-libquorum \
+pkgconfig-libxml-2.0 \
+pkgconfig-libxslt \
+pkgconfig-pacemaker \
+pkgconfig-pacemaker-cib \
+pkgconfig-pacemaker-fencing \
+pkgconfig-pacemaker-lrmd \
+pkgconfig-pacemaker-pe-rules \
+pkgconfig-pacemaker-pe-status \
+pkgconfig-pacemaker-service \
+pkgconfig-uuid"
 
 inherit rpm

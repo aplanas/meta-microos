@@ -9,15 +9,15 @@ RPM_HASH = "a582898cfa3f260a144a9cf76722c13e38a6a34d5d86be89a250e9896b6c48800d84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-unixsocket \
-mvn(com.github.jnr:jnr-unixsocket) \
-mvn(com.github.jnr:jnr-unixsocket:pom:) \
-osgi(com.github.jnr.unixsocket)"
+mvn-com.github.jnr-jnr-unixsocket \
+mvn-com.github.jnr-jnr-unixsocket-pom- \
+osgi-com.github.jnr.unixsocket"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.github.jnr:jnr-constants) \
-mvn(com.github.jnr:jnr-enxio) \
-mvn(com.github.jnr:jnr-ffi) \
-mvn(com.github.jnr:jnr-posix)"
+mvn-com.github.jnr-jnr-constants \
+mvn-com.github.jnr-jnr-enxio \
+mvn-com.github.jnr-jnr-ffi \
+mvn-com.github.jnr-jnr-posix"
 
 inherit rpm

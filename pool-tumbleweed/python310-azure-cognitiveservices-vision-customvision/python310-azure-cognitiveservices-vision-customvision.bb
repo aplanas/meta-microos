@@ -11,11 +11,11 @@ RPM_HASH = "5186e2e7c1403a505bbf698877952700e11f53ada81f7d9db85edc355661cd413893
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-vision-customvision \
-python3.10dist(azure-cognitiveservices-vision-customvision) \
+python3.10dist-azure-cognitiveservices-vision-customvision \
 python310-azure-cognitiveservices-vision-customvision \
-python3dist(azure-cognitiveservices-vision-customvision)"
+python3dist-azure-cognitiveservices-vision-customvision"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-cognitiveservices-vision-nspkg \
 python310-azure-common \

@@ -10,17 +10,16 @@ PV = "1.7.3"
 RPM_NAME = "makedumpfile-1.7.3-1.1.aarch64.rpm"
 RPM_HASH = "d48900ff0b8dfe976695e550e6f75a8fd0c2e995f98448abb8ab43c93eefeafb31eb0af0500e69e82b281b71017910bd2855ed87303b842b0d7d6d0fbe5a8c8c"
 
-RPROVIDES:${PN} += "makedumpfile \
-makedumpfile(aarch-64)"
+RPROVIDES:${PN} += "makedumpfile"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdw.so.1()(64bit) \
-libelf.so.1()(64bit) \
-liblzo2.so.2()(64bit) \
-libsnappy.so.1()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdw.so.1 \
+libelf.so.1 \
+liblzo2.so.2 \
+libsnappy.so.1 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

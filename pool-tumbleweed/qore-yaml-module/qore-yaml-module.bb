@@ -9,15 +9,14 @@ PV = "0.7.3"
 RPM_NAME = "qore-yaml-module-0.7.3-1.2.aarch64.rpm"
 RPM_HASH = "7b7f9b8d04a0e93ef717e728d707c0f1c4cd1415ee6828e26a17eaa40d95ef2a6a35ea3a398c3693e0a61114137c50536c80053e6d8c3a9c9acdc0089413f321"
 
-RPROVIDES:${PN} += "qore-yaml-module \
-qore-yaml-module(aarch-64)"
+RPROVIDES:${PN} += "qore-yaml-module"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libyaml-0.so.2()(64bit) \
-qore-module(abi)(aarch-64)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libyaml-0.so.2 \
+qore-module-abi"
 
 inherit rpm

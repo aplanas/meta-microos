@@ -18,8 +18,8 @@ RPM_NAME = "texlive-dhua-2023.201.0.0.11svn24035-52.1.noarch.rpm"
 RPM_HASH = "5bf07cf3d1df35b4cafcd4ffcf5c86a4716bcf6a586e94f953f0369b11f43b03563e3b28e3376286cb127f9bd84e67daf892beb3437a53778f228d239d1e5cd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dhua.cfg) \
-tex(dhua.sty) \
+RPROVIDES:${PN} += "tex-dhua.cfg \
+tex-dhua.sty \
 texlive-dhua"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,7 +28,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xspace.sty) \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

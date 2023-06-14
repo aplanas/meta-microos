@@ -11,10 +11,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldap-sdk \
 ldapjdk \
-mvn(ldapjdk:ldapjdk) \
-mvn(ldapjdk:ldapjdk:pom:) \
-mvn(ldapsdk:ldapsdk) \
-mvn(ldapsdk:ldapsdk:pom:)"
+mvn-ldapjdk-ldapjdk \
+mvn-ldapjdk-ldapjdk-pom- \
+mvn-ldapsdk-ldapsdk \
+mvn-ldapsdk-ldapsdk-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \

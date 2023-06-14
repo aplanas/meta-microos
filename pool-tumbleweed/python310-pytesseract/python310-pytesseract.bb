@@ -18,14 +18,14 @@ RPM_HASH = "3fc1656727d8e6af73a5aa61d01d5445e96e7d35797baee50d685d074764ec2ba230
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytesseract \
-python3.10dist(pytesseract) \
+python3.10dist-pytesseract \
 python310-pytesseract \
-python3dist(pytesseract)"
+python3dist-pytesseract"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-pkgconfig(tesseract) \
-python(abi) \
+pkgconfig-tesseract \
+python-abi \
 python310-Pillow \
 python310-setuptools \
 tesseract-ocr-traineddata-deu \

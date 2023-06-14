@@ -25,11 +25,10 @@ PV = "0.12.0"
 RPM_NAME = "renameutils-0.12.0-1.9.aarch64.rpm"
 RPM_HASH = "d9d14792b6c3fa214e4acb40e3ecb356ada81edd39d9150031db1261501b4429f4817944813e01deca321f8f3232cf2d5d2e5fa212d9ee343fc6ae25cd260dbd"
 
-RPROVIDES:${PN} += "renameutils \
-renameutils(aarch-64)"
+RPROVIDES:${PN} += "renameutils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8"
 
 inherit rpm

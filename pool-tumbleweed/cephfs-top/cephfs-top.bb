@@ -10,8 +10,8 @@ RPM_HASH = "5257fdc72776d2dcf3f7c90a67b07ead9dca123c4978e42ef6718fd5545c1e633bfd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cephfs-top \
-python3.10dist(cephfs-top) \
-python3dist(cephfs-top)"
+python3.10dist-cephfs-top \
+python3dist-cephfs-top"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-rados"

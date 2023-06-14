@@ -15,9 +15,8 @@ RPM_HASH = "38a5b9105103dfb578f89256286268ff5b574f2db30a28ab8c05d6d38538a93e62b7
 
 RPROVIDES:${PN} += "gpgme-devel \
 libgpgme-devel \
-libgpgme-devel(aarch-64) \
-pkgconfig(gpgme) \
-pkgconfig(gpgme-glib)"
+pkgconfig-gpgme \
+pkgconfig-gpgme-glib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
@@ -25,8 +24,8 @@ glibc-devel \
 libassuan-devel \
 libgpg-error-devel \
 libgpgme11 \
-pkgconfig(glib-2.0) \
-pkgconfig(gpg-error) \
-pkgconfig(libassuan)"
+pkgconfig-glib-2.0 \
+pkgconfig-gpg-error \
+pkgconfig-libassuan"
 
 inherit rpm

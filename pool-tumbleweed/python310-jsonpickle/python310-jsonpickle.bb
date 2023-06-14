@@ -11,10 +11,10 @@ RPM_HASH = "76ad381df69ac4542309c9406767a56e2c7b47a87f264d5c3196b3b71103ea964f0e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonpickle \
-python3.10dist(jsonpickle) \
+python3.10dist-jsonpickle \
 python310-jsonpickle \
-python3dist(jsonpickle)"
+python3dist-jsonpickle"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

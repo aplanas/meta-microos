@@ -17,9 +17,9 @@ RDEPENDS:${PN} += "/usr/bin/python3 \
 accerciser \
 python3-ipython \
 python3-setuptools \
-typelib(GLib) \
-typelib(Gdk) \
-typelib(Gtk) \
-typelib(Pango)"
+typelib-GLib \
+typelib-Gdk \
+typelib-Gtk \
+typelib-Pango"
 
 inherit rpm

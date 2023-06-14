@@ -10,7 +10,7 @@ RPM_NAME = "texlive-footnotebackref-2023.201.1.0svn27034-52.1.noarch.rpm"
 RPM_HASH = "b3fc4af9e56a691a8787dd889ce69af6fa8f9f9798d5d2a3e1a5c2f69391d53f8ed557a6d8ac8a99851309222702eedf86d1a49db917b69d493fe8920662c10f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(footnotebackref.sty) \
+RPROVIDES:${PN} += "tex-footnotebackref.sty \
 texlive-footnotebackref"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,9 +19,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(hyperref.sty) \
-tex(kvoptions.sty) \
-tex(letltxmacro.sty) \
+tex-hyperref.sty \
+tex-kvoptions.sty \
+tex-letltxmacro.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

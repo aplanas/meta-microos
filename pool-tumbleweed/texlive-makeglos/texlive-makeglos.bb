@@ -10,7 +10,7 @@ RPM_NAME = "texlive-makeglos-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "c92556ac4607a13bfb14336ac9f0a70a323a56cfcbdadc358df0c91915cb2760bb841702bf43a2cf09344d90ef9ec5887acaf28eb4df56c01d6edc68b5bbb707"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(makeglos.sty) \
+RPROVIDES:${PN} += "tex-makeglos.sty \
 texlive-makeglos"
 
 RDEPENDS:${PN} += "/bin/sh \

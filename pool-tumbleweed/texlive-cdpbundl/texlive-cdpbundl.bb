@@ -17,16 +17,16 @@ RPM_NAME = "texlive-cdpbundl-2023.201.0.0.36dsvn61719-52.1.noarch.rpm"
 RPM_HASH = "1991e4c0c0be81d6d90436bf49d20d1d9f7c35dcea18a2d5cc9e734e8e8401497ac41b25536515b9960afb2023707a0acf87cac751d073aa9954a7ba61411be5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(articoletteracdp.cls) \
-tex(cdpaddon.sty) \
-tex(cdpbabel.sty) \
-tex(cdpnamesenglish.ldf) \
-tex(cdpnamesitalian.ldf) \
-tex(cdpshues-example.def) \
-tex(cdpshues.cfg) \
-tex(epson-stylus-740.def) \
-tex(hp-laserjet-4500.def) \
-tex(letteracdp.cls) \
+RPROVIDES:${PN} += "tex-articoletteracdp.cls \
+tex-cdpaddon.sty \
+tex-cdpbabel.sty \
+tex-cdpnamesenglish.ldf \
+tex-cdpnamesitalian.ldf \
+tex-cdpshues-example.def \
+tex-cdpshues.cfg \
+tex-epson-stylus-740.def \
+tex-hp-laserjet-4500.def \
+tex-letteracdp.cls \
 texlive-cdpbundl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -35,10 +35,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
-tex(color.sty) \
-tex(eepic.sty) \
-tex(hyperref.sty) \
+tex-babel.sty \
+tex-color.sty \
+tex-eepic.sty \
+tex-hyperref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

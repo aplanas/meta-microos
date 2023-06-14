@@ -7,13 +7,12 @@ PV = "20170319"
 RPM_NAME = "patterns-media-rest_dvd-20170319-43.1.aarch64.rpm"
 RPM_HASH = "6753174ac86c70714a5120204734b84f874fe5fc6ef47ae08704e4d34b4daf5080e744f31edf05867ebe8c70f6d5c6608fa2391e81ff46275384db90c001be3c"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-patterns-media-rest_dvd \
-patterns-media-rest_dvd(aarch-64) \
-patterns-openSUSE-rest_dvd"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+patterns-media-rest-dvd \
+patterns-openSUSE-rest-dvd"
 
 RDEPENDS:${PN} += "arabic-fonts \
 arphic-uming-fonts \
@@ -23,7 +22,7 @@ indic-fonts \
 ipa-gothic-fonts \
 khmeros-fonts \
 lklug-fonts \
-pattern() \
+pattern- \
 thai-fonts \
 udftools \
 un-fonts \
@@ -38,7 +37,7 @@ yast2-trans-cy \
 yast2-trans-da \
 yast2-trans-de \
 yast2-trans-el \
-yast2-trans-en_GB \
+yast2-trans-en-GB \
 yast2-trans-es \
 yast2-trans-et \
 yast2-trans-fa \
@@ -65,7 +64,7 @@ yast2-trans-nl \
 yast2-trans-pa \
 yast2-trans-pl \
 yast2-trans-pt \
-yast2-trans-pt_BR \
+yast2-trans-pt-BR \
 yast2-trans-ro \
 yast2-trans-ru \
 yast2-trans-si \
@@ -80,8 +79,8 @@ yast2-trans-uk \
 yast2-trans-vi \
 yast2-trans-wa \
 yast2-trans-xh \
-yast2-trans-zh_CN \
-yast2-trans-zh_TW \
+yast2-trans-zh-CN \
+yast2-trans-zh-TW \
 yast2-trans-zu"
 
 inherit rpm

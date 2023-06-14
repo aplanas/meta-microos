@@ -8,9 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-labswavefrontmesh-private-devel-6.5.1-1.2.aarch64.rpm"
 RPM_HASH = "e827528df90b7707ef1eb725a36f518d8db74d1a39837287e584ea42b3b6aecacfca020300ef08df38c4bc7964e9b2fcb10c006f911c3f31c110162c6a7573ab"
 
-RPROVIDES:${PN} += "qt6-labswavefrontmesh-private-devel \
-qt6-labswavefrontmesh-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-labswavefrontmesh-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6LabsWavefrontMesh)"
+RDEPENDS:${PN} += "cmake-Qt6LabsWavefrontMesh"
 
 inherit rpm

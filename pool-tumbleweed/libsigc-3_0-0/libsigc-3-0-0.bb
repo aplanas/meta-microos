@@ -13,14 +13,13 @@ RPM_NAME = "libsigc-3_0-0-3.2.0-1.6.aarch64.rpm"
 RPM_HASH = "fe615f665e6f0d2dded4aaa936f9ba494dfffa55d96b4977331487cbc3f3f8aea2247008bf761e8717799883119266675d77db6c3081db22f844a80dd013f0f0"
 
 RPROVIDES:${PN} += "libsigc++3 \
-libsigc-3.0.so.0()(64bit) \
-libsigc-3_0-0 \
-libsigc-3_0-0(aarch-64)"
+libsigc-3-0-0 \
+libsigc-3.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

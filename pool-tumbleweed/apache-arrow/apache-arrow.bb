@@ -12,20 +12,19 @@ PV = "12.0.0"
 RPM_NAME = "apache-arrow-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "8f16811ef55f8cc44b94e9b3067cb6a47b74f8c0c166036688013ad7711ba228f1f7557b2a037090f09f462783d3bafcfb1b652466b6ceeb78463196b5e079c5"
 
-RPROVIDES:${PN} += "apache-arrow \
-apache-arrow(aarch-64)"
+RPROVIDES:${PN} += "apache-arrow"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbrotlidec.so.1()(64bit) \
-libbrotlienc.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglog.so.0()(64bit) \
-liblz4.so.1()(64bit) \
-libsnappy.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbrotlidec.so.1 \
+libbrotlienc.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglog.so.0 \
+liblz4.so.1 \
+libsnappy.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

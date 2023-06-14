@@ -12,13 +12,13 @@ RPM_NAME = "texlive-elements-2023.201.0.0.4svn61792-53.1.noarch.rpm"
 RPM_HASH = "a6a331f9aa9fa19cc07809bb614395525c675cf35106d45ca8e38870da9b1ab87000b119563e5ecdce3165e5d41745571ddf2765896790db19533b30bf63c18e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(elements.sty) \
-tex(elements_names_brazil.def) \
-tex(elements_names_english.def) \
-tex(elements_names_french.def) \
-tex(elements_names_german.def) \
-tex(elements_names_portuges.def) \
-tex(elements_names_spanish.def) \
+RPROVIDES:${PN} += "tex-elements-names-brazil.def \
+tex-elements-names-english.def \
+tex-elements-names-french.def \
+tex-elements-names-german.def \
+tex-elements-names-portuges.def \
+tex-elements-names-spanish.def \
+tex-elements.sty \
 texlive-elements"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(translations.sty) \
+tex-etoolbox.sty \
+tex-translations.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

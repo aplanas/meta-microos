@@ -9,7 +9,7 @@ RPM_HASH = "d5cebd554a29d113adba7b6b41f655c1ceb7bfdd9b94ac6c433cf2b1fdf33d072f9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \
-locale(texlive-circledtext-doc:zh \
+locale(texlive-circledtext-doc-zh \
 texlive-circledtext-doc"
 
 RDEPENDS:${PN} += "/bin/bash"

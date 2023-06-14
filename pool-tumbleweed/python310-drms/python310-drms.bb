@@ -11,13 +11,13 @@ RPM_HASH = "55949ed096190c11f8d49ff71a468a81da2b3472db97762fafaa82007f3c6d67e229
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-drms \
-python3.10dist(drms) \
+python3.10dist-drms \
 python310-drms \
-python3dist(drms)"
+python3dist-drms"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-numpy \
 python310-pandas \
 update-alternatives"

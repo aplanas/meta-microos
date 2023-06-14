@@ -11,13 +11,13 @@ RPM_HASH = "b0001f7467e9f75d50bc93f60d2b69eaf712b246f7cafde9d4721682e66816e6a1c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyramid \
-python3.10dist(pyramid) \
+python3.10dist-pyramid \
 python310-pyramid \
-python3dist(pyramid)"
+python3dist-pyramid"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PasteDeploy \
 python310-WebOb \
 python310-hupper \

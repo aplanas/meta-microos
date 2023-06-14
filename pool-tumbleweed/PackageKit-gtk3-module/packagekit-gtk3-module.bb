@@ -9,17 +9,16 @@ RPM_NAME = "PackageKit-gtk3-module-1.2.5-9.3.aarch64.rpm"
 RPM_HASH = "fca5c288c345e0688914c8684225ec99b88499c0de3a31ba383052284a48a81683b3a132673709ec3ff4e957ab00ca50be575aed5ba8704e87dfe2f4f2f014ce"
 
 RPROVIDES:${PN} += "PackageKit-gtk3-module \
-PackageKit-gtk3-module(aarch-64) \
-libpk-gtk-module.so()(64bit)"
+libpk-gtk-module.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpangoft2-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfontconfig.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpangoft2-1.0.so.0"
 
 inherit rpm

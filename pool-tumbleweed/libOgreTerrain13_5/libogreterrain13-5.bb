@@ -22,18 +22,17 @@ PV = "13.5.3"
 RPM_NAME = "libOgreTerrain13_5-13.5.3-1.5.aarch64.rpm"
 RPM_HASH = "950cd4836fa4e5334b542d5fdb0814a199c523343d356913f5c85ce4416a969fbbba21800377eb75d0be43549a1b0fbc042f4a4db365760267e6a2b901ad9850"
 
-RPROVIDES:${PN} += "libOgreTerrain.so.13.5()(64bit) \
-libOgreTerrain13_5 \
-libOgreTerrain13_5(aarch-64)"
+RPROVIDES:${PN} += "libOgreTerrain.so.13.5 \
+libOgreTerrain13-5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOgreMain.so.13.5()(64bit) \
-libOgrePaging.so.13.5()(64bit) \
-libOgreRTShaderSystem.so.13.5()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOgreMain.so.13.5 \
+libOgrePaging.so.13.5 \
+libOgreRTShaderSystem.so.13.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

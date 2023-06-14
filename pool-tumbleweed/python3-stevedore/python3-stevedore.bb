@@ -19,10 +19,10 @@ RPM_HASH = "10ac01668db5e84effbafb945d43ecde668cb27d52ef940cdc609c74a4096e8b21c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stevedore \
-python3.10dist(stevedore) \
-python3dist(stevedore)"
+python3.10dist-stevedore \
+python3dist-stevedore"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-importlib-metadata \
 python3-pbr"
 

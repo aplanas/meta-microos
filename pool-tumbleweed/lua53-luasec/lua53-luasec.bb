@@ -9,13 +9,12 @@ PV = "1.2.0"
 RPM_NAME = "lua53-luasec-1.2.0-2.3.aarch64.rpm"
 RPM_HASH = "5ea542a7f2f731c1b433b2abb160554f9700f07ad45b1998cfec3efebed48783e500776116c46baf4d9d52b719c18252a5bbe9a4acf09a30cbf03f3ec4e82d43"
 
-RPROVIDES:${PN} += "lua53-luasec \
-lua53-luasec(aarch-64)"
+RPROVIDES:${PN} += "lua53-luasec"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
 lua53 \
 lua53-luasocket"
 

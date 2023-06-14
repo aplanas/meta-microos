@@ -12,9 +12,9 @@ RPM_NAME = "texlive-ascii-font-2023.201.2.0svn29989-53.1.noarch.rpm"
 RPM_HASH = "59af5a6d8b8c41b5690d399a71a12660b5296589bd19698a75d9f9c57278ca08075c84793254c243dac41cc40c05817b996c427e7f1b528d022375511e4b3be9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ASCII.tfm) \
-tex(ascii.map) \
-tex(ascii.sty) \
+RPROVIDES:${PN} += "tex-ASCII.tfm \
+tex-ascii.map \
+tex-ascii.sty \
 texlive-ascii \
 texlive-ascii-font"
 
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
-tex(xspace.sty) \
+tex-updmap.cfg \
+tex-xspace.sty \
 texlive \
 texlive-ascii-font-fonts \
 texlive-filesystem \

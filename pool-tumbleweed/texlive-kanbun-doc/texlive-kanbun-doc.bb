@@ -9,7 +9,7 @@ RPM_HASH = "b56f1d74d16018b76cc2bfe1a22db4f54a62092e38b5d480739be97a82624ca03a36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \
-locale(texlive-kanbun-doc:zh \
+locale(texlive-kanbun-doc-zh \
 texlive-kanbun-doc"
 
 RDEPENDS:${PN} += ""

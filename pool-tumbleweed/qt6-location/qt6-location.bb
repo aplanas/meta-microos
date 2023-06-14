@@ -8,32 +8,22 @@ PV = "6.5.1"
 RPM_NAME = "qt6-location-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "abfd80982a52663e4043deeca3a47666e3205c318529e32f997a5335694326d66bd4cbb0c1c4734f205042b043f56843897535622dd72e155beaeb929bcbe402"
 
-RPROVIDES:${PN} += "libdeclarative_locationplugin.so()(64bit) \
-libdeclarative_locationplugin.so(Qt_6)(64bit) \
-libqtgeoservices_itemsoverlay.so()(64bit) \
-libqtgeoservices_itemsoverlay.so(Qt_6)(64bit) \
-libqtgeoservices_osm.so()(64bit) \
-libqtgeoservices_osm.so(Qt_6)(64bit) \
+RPROVIDES:${PN} += "libdeclarative-locationplugin.so \
+libqtgeoservices-itemsoverlay.so \
+libqtgeoservices-osm.so \
 qt6-location \
-qt6-location(aarch-64) \
-qt6qmlimport(QtLocation.2) \
-qt6qmlimport(QtLocation.5) \
-qt6qmlimport(QtLocation.6)"
+qt6qmlimport-QtLocation.2 \
+qt6qmlimport-QtLocation.5 \
+qt6qmlimport-QtLocation.6"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Location.so.6()(64bit) \
-libQt6Location.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libQt6Positioning.so.6()(64bit) \
-libQt6Positioning.so.6(Qt_6)(64bit) \
-libQt6Qml.so.6()(64bit) \
-libQt6Qml.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Location.so.6 \
+libQt6Network.so.6 \
+libQt6Positioning.so.6 \
+libQt6Qml.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

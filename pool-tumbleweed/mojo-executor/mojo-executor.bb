@@ -10,12 +10,12 @@ RPM_HASH = "eaa39d879dc839d1f2223625735496efe53fa04b58782cf0b30019915d00041f9d22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mojo-executor \
-mvn(org.twdata.maven:mojo-executor) \
-mvn(org.twdata.maven:mojo-executor-parent:pom:) \
-mvn(org.twdata.maven:mojo-executor:pom:)"
+mvn-org.twdata.maven-mojo-executor \
+mvn-org.twdata.maven-mojo-executor-parent-pom- \
+mvn-org.twdata.maven-mojo-executor-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

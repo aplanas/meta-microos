@@ -10,38 +10,38 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwave-lang \
 kwave-lang-all \
-locale(kwave:bs) \
-locale(kwave:ca) \
-locale(kwave:ca@valencia) \
-locale(kwave:cs) \
-locale(kwave:da) \
-locale(kwave:de) \
-locale(kwave:el) \
-locale(kwave:en_GB) \
-locale(kwave:es) \
-locale(kwave:et) \
-locale(kwave:eu) \
-locale(kwave:fi) \
-locale(kwave:fr) \
-locale(kwave:gl) \
-locale(kwave:ia) \
-locale(kwave:it) \
-locale(kwave:ja) \
-locale(kwave:ka) \
-locale(kwave:ko) \
-locale(kwave:lt) \
-locale(kwave:nl) \
-locale(kwave:pl) \
-locale(kwave:pt) \
-locale(kwave:pt_BR) \
-locale(kwave:ru) \
-locale(kwave:sk) \
-locale(kwave:sl) \
-locale(kwave:sv) \
-locale(kwave:tr) \
-locale(kwave:uk) \
-locale(kwave:zh_CN) \
-locale(kwave:zh_TW)"
+locale-kwave-bs \
+locale-kwave-ca \
+locale-kwave-ca@valencia \
+locale-kwave-cs \
+locale-kwave-da \
+locale-kwave-de \
+locale-kwave-el \
+locale-kwave-en-GB \
+locale-kwave-es \
+locale-kwave-et \
+locale-kwave-eu \
+locale-kwave-fi \
+locale-kwave-fr \
+locale-kwave-gl \
+locale-kwave-ia \
+locale-kwave-it \
+locale-kwave-ja \
+locale-kwave-ka \
+locale-kwave-ko \
+locale-kwave-lt \
+locale-kwave-nl \
+locale-kwave-pl \
+locale-kwave-pt \
+locale-kwave-pt-BR \
+locale-kwave-ru \
+locale-kwave-sk \
+locale-kwave-sl \
+locale-kwave-sv \
+locale-kwave-tr \
+locale-kwave-uk \
+locale-kwave-zh-CN \
+locale-kwave-zh-TW"
 
 RDEPENDS:${PN} += "kwave"
 

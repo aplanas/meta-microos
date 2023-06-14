@@ -11,7 +11,7 @@ RPM_NAME = "texlive-chicago-2023.201.svn15878-53.1.noarch.rpm"
 RPM_HASH = "279e2c87f286e532194f0f14fd861d7e5d65d24e21ed24e6d424b42aa3393e4d77f8e6b404278bd5a6187da26a19b703122109aacedcbcb28d88950433190e14"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chicago.sty) \
+RPROVIDES:${PN} += "tex-chicago.sty \
 texlive-chicago"
 
 RDEPENDS:${PN} += "/bin/sh \

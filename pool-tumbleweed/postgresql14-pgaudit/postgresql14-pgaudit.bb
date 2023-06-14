@@ -17,11 +17,10 @@ RPM_NAME = "postgresql14-pgaudit-1.6.2-4.2.aarch64.rpm"
 RPM_HASH = "d7f78cd842927b2fcd737d6539a5b6781eb9dc837ec41d38ba81becd5e5d741925afdc746a943c8151f6c44121c150a04d4677b14f08a7e30b1a04b086bdfb80"
 
 RPROVIDES:${PN} += "postgresql14-pgaudit \
-postgresql14-pgaudit(aarch-64) \
 postgresql14-pgaudit-llvmjit"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 postgresql14-server"
 
 inherit rpm

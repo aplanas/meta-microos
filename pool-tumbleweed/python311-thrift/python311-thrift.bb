@@ -13,16 +13,15 @@ PV = "0.17.0"
 RPM_NAME = "python311-thrift-0.17.0-1.6.aarch64.rpm"
 RPM_HASH = "0f5f27c3dfab981c56c1438bf83e6ddc1e994e26c9a1cf48d6a31dafaf1f4cdb200b85b0a9efe6294986a566d084af23c1da7e0244ce31246d7f711a563635d0"
 
-RPROVIDES:${PN} += "python3.11dist(thrift) \
+RPROVIDES:${PN} += "python3.11dist-thrift \
 python311-thrift \
-python311-thrift(aarch-64) \
-python3dist(thrift)"
+python3dist-thrift"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python311-six"
 
 inherit rpm

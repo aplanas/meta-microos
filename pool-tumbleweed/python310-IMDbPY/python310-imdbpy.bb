@@ -13,13 +13,13 @@ RPM_HASH = "cb59b09c581cbae804bf9ef1997754c6f29d8f49d5105e30d8583a98983e07dd09d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-IMDbPY \
-python3.10dist(imdbpy) \
+python3.10dist-imdbpy \
 python310-IMDbPY \
-python3dist(imdbpy)"
+python3dist-imdbpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-SQLAlchemy \
 python310-lxml \
 update-alternatives"

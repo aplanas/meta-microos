@@ -10,7 +10,7 @@ RPM_NAME = "texlive-naive-ebnf-2023.201.0.0.0.5svn66017-54.1.noarch.rpm"
 RPM_HASH = "806127cbadd49d0b252bbd0607827e1ce78393c33a2fd35d82b89be7e50223f92b1659113cc04d2075240978e757b9f9e5a390c202d3c4be886f33ed880b0186"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(naive-ebnf.sty) \
+RPROVIDES:${PN} += "tex-naive-ebnf.sty \
 texlive-naive-ebnf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,9 +19,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(pgfopts.sty) \
-tex(xcolor.sty) \
+tex-expl3.sty \
+tex-pgfopts.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filecontentsdef \
 texlive-filesystem \

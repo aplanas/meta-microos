@@ -12,7 +12,7 @@ RPM_NAME = "fluid-soundfont-gs-3.1-5.16.noarch.rpm"
 RPM_HASH = "d8f2f2b596316e4cd4935b6c63c902e44b51ed8567a83122ec2aaadeb853102d4a89ec31491db923eb8cc505ff2b42737418d99e3fcc2de5004c3d27b6b2ba8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(fluid-soundfont-gs) \
+RPROVIDES:${PN} += "config-fluid-soundfont-gs \
 fluid-soundfont-gs"
 
 RDEPENDS:${PN} += "fluid-soundfont-gm"

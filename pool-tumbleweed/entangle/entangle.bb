@@ -11,40 +11,34 @@ PV = "3.0"
 RPM_NAME = "entangle-3.0-2.8.aarch64.rpm"
 RPM_HASH = "454a4515fdd6397127f99bd033e74a0857083b46cd76930654fb0fec0132d3bcc141929a62a1f23972715514bc7ed7051a19a8677d425640f996f2cc9deff76f"
 
-RPROVIDES:${PN} += "application() \
-application(org.entangle_photo.Manager.desktop) \
-entangle \
-entangle(aarch-64) \
-libentangle_backend.so.0()(64bit) \
-libentangle_frontend.so.0()(64bit) \
-metainfo() \
-metainfo(org.entangle_photo.Manager.metainfo.xml)"
+RPROVIDES:${PN} += "entangle \
+libentangle-backend.so.0 \
+libentangle-frontend.so.0"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgexiv2.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libgirepository-1.0.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgphoto2.so.6()(64bit) \
-libgphoto2_port.so.12()(64bit) \
-libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpeas-1.0.so.0()(64bit) \
-libpeas-gtk-1.0.so.0()(64bit) \
-libraw_r.so.23()(64bit)"
+ld-linux-aarch64.so.1 \
+libXext.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgexiv2.so.2 \
+libgio-2.0.so.0 \
+libgirepository-1.0.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgphoto2-port.so.12 \
+libgphoto2.so.6 \
+libgstbase-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgtk-3.so.0 \
+libgudev-1.0.so.0 \
+liblcms2.so.2 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpeas-1.0.so.0 \
+libpeas-gtk-1.0.so.0 \
+libraw-r.so.23"
 
 inherit rpm

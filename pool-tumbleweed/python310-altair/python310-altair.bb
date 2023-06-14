@@ -13,11 +13,11 @@ RPM_HASH = "de3988e7003d319ad613d3227438eabab0cb063d491cfdbd8c7782482e072a98cc4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-altair \
-python3.10dist(altair) \
+python3.10dist-altair \
 python310-altair \
-python3dist(altair)"
+python3dist-altair"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-entrypoints \
 python310-jsonschema \

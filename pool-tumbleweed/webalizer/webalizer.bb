@@ -18,18 +18,17 @@ PV = "2.23"
 RPM_NAME = "webalizer-2.23-26.9.aarch64.rpm"
 RPM_HASH = "6970d79db46ebb35e04f5bbf964ae121faafbcc31e3e9a79433d179a559779716566e80c6a5bffd1fa6ffc0eb5b2a90d66825c3218fdff86c31d7e600e48f72c"
 
-RPROVIDES:${PN} += "config(webalizer) \
-webalizer \
-webalizer(aarch-64)"
+RPROVIDES:${PN} += "config-webalizer \
+webalizer"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdb-4.8.so()(64bit) \
-libgd.so.3()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libdb-4.8.so \
+libgd.so.3 \
+libm.so.6 \
+libz.so.1 \
 webalizer-flags"
 
 inherit rpm

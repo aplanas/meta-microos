@@ -12,24 +12,21 @@ PV = "0.8.8"
 RPM_NAME = "xboxdrv-0.8.8-11.3.aarch64.rpm"
 RPM_HASH = "5e19a4ad9980f280e4cc4c4afde2558a8ee57397659f5f0bdf040d862b5522c8117ba626e8b1017cb48d506b47843b99e7bb68785d2e685aaa890cb4719a8500"
 
-RPROVIDES:${PN} += "config(xboxdrv) \
-xboxdrv \
-xboxdrv(aarch-64)"
+RPROVIDES:${PN} += "config-xboxdrv \
+xboxdrv"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libdbus-1.so.3 \
+libdbus-glib-1.so.2 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libstdc++.so.6 \
+libudev.so.1 \
+libusb-1.0.so.0"
 
 inherit rpm

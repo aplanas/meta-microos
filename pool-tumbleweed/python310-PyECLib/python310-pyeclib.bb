@@ -15,14 +15,13 @@ RPM_NAME = "python310-PyECLib-1.6.1-1.7.aarch64.rpm"
 RPM_HASH = "5d76b2ae61edc94de27c44f5fdbdd7f3661f519b041bf07721aa29561677a8af9778532139098436eb6f90e7c544f9562524b8a9690b84eaa9e715694b8af897"
 
 RPROVIDES:${PN} += "python3-PyECLib \
-python3.10dist(pyeclib) \
+python3.10dist-pyeclib \
 python310-PyECLib \
-python310-PyECLib(aarch-64) \
-python3dist(pyeclib)"
+python3dist-pyeclib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liberasurecode.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liberasurecode.so.1 \
+python-abi"
 
 inherit rpm

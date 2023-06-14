@@ -9,9 +9,8 @@ PV = "20.6"
 RPM_NAME = "deepin-desktop-base-20.6-1.2.aarch64.rpm"
 RPM_HASH = "9404a1ce74fece631679cb838d21ff22a554fb50a033ace0f5cfdfe0dfebbf0df4b3295f965e95eda505534012acb867b1eb42b30780359820696486f3d80c49"
 
-RPROVIDES:${PN} += "config(deepin-desktop-base) \
-deepin-desktop-base \
-deepin-desktop-base(aarch-64)"
+RPROVIDES:${PN} += "config-deepin-desktop-base \
+deepin-desktop-base"
 
 RDEPENDS:${PN} += "distribution-logos"
 

@@ -11,8 +11,7 @@ PV = "0.0.0+git20161122.aa8c435"
 RPM_NAME = "golang-gopkgin-check-0.0.0+git20161122.aa8c435-1.17.aarch64.rpm"
 RPM_HASH = "ab753e4f575eec854ed6a06a2885c88cef289dd28247246cefec78ef6ceed3a4b6ab9a1ac14c1de51f711a9f2263851d4e08226e410a251a39e59e786cb284c5"
 
-RPROVIDES:${PN} += "golang-gopkgin-check \
-golang-gopkgin-check(aarch-64)"
+RPROVIDES:${PN} += "golang-gopkgin-check"
 
 RDEPENDS:${PN} += ""
 

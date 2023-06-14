@@ -16,13 +16,11 @@ RPM_HASH = "e8a28480accbe56052d2d34e00120d34e9f2d15f378721f523d63fbade89cd030034
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hatch-nodejs-version \
-python3-hatch_nodejs_version \
-python3.10dist(hatch-nodejs-version) \
+python3.10dist-hatch-nodejs-version \
 python310-hatch-nodejs-version \
-python310-hatch_nodejs_version \
-python3dist(hatch-nodejs-version)"
+python3dist-hatch-nodejs-version"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-hatchling"
 
 inherit rpm

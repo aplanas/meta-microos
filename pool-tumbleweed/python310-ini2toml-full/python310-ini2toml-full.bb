@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ini2toml-full \
 python310-ini2toml-full"
 
-RDEPENDS:${PN} += "(python310-configupdater >= 3.0.1 with python310-configupdater < 4) \
-(python310-tomlkit >= 0.10 with python310-tomlkit < 2) \
+RDEPENDS:${PN} += "-python310-configupdater >= 3.0.1 with python310-configupdater < 4 \
+-python310-tomlkit >= 0.10 with python310-tomlkit < 2 \
 python310-ini2toml"
 
 inherit rpm

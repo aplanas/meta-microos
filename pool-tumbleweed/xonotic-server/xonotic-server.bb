@@ -10,17 +10,16 @@ PV = "0.8.5"
 RPM_NAME = "xonotic-server-0.8.5-1.5.aarch64.rpm"
 RPM_HASH = "19f6f27e60f1e626839149411d59766bdd7245f5572344e3a7eb4dd16d19ebe64a2104d27e22cc56cce9ccdc8bd064a363be93d44e09fcce3250fa020cc0cb8f"
 
-RPROVIDES:${PN} += "xonotic-server \
-xonotic-server(aarch-64)"
+RPROVIDES:${PN} += "xonotic-server"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libd0_blind_id.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libd0-blind-id.so.0 \
+libjpeg.so.8 \
+libm.so.6 \
+libz.so.1 \
 shadow \
 systemd \
 xonotic-data"

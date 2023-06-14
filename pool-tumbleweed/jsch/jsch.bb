@@ -11,11 +11,11 @@ RPM_HASH = "6a71cddc4d1ae2c807b6b2a8fef9e7bb85b42f5688f0011b13b91de5829fc0d4a340
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch \
-mvn(com.github.mwiede:jsch) \
-mvn(com.github.mwiede:jsch:pom:) \
-mvn(com.jcraft:jsch) \
-mvn(com.jcraft:jsch:pom:) \
-osgi(com.jcraft.jsch)"
+mvn-com.github.mwiede-jsch \
+mvn-com.github.mwiede-jsch-pom- \
+mvn-com.jcraft-jsch \
+mvn-com.jcraft-jsch-pom- \
+osgi-com.jcraft.jsch"
 
 RDEPENDS:${PN} += "java \
 java-headless \

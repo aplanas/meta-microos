@@ -21,16 +21,15 @@ PV = "0.3.0"
 RPM_NAME = "xiccd-0.3.0-1.13.aarch64.rpm"
 RPM_HASH = "0beb56f6c0c12f54368f7e7b1e4c24056329715045ca0911bde46e1baadd2a2bcfe936c39ed91df0144d8a2a001890d52a68274a25e14cce155434b7da267b0c"
 
-RPROVIDES:${PN} += "xiccd \
-xiccd(aarch-64)"
+RPROVIDES:${PN} += "xiccd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcolord.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXrandr.so.2 \
+libc.so.6 \
+libcolord.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

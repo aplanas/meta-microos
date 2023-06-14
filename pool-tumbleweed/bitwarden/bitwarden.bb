@@ -7,23 +7,19 @@ PV = "2023.5.0"
 RPM_NAME = "bitwarden-2023.5.0-1.1.aarch64.rpm"
 RPM_HASH = "758b7fa8a54e5cb1f31cf3ed357012b831cfed53ee6ff5fd47d162a2063e33f3285b286b84fd7af41684d8edbc1481b8b6e936169e8c1922776332c40dd90869"
 
-RPROVIDES:${PN} += "application() \
-application(bitwarden.desktop) \
-bitwarden \
-bitwarden(aarch-64) \
-mimehandler(x-scheme-handler/bitwarden)"
+RPROVIDES:${PN} += "bitwarden"
 
-RDEPENDS:${PN} += "(google-opensans-fonts or open-sans-fonts) \
+RDEPENDS:${PN} += "-google-opensans-fonts or open-sans-fonts \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libargon2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsecret-1.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-nodejs-electron(aarch-64)"
+ld-linux-aarch64.so.1 \
+libargon2.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libsecret-1.so.0 \
+libstdc++.so.6 \
+nodejs-electron"
 
 inherit rpm

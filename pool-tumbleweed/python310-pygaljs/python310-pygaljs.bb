@@ -9,10 +9,10 @@ RPM_HASH = "523998c210aed29e487573b3f0ef01ca41c772597154c10fdb6e5c1858c3e07f7361
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pygaljs \
-python3.10dist(pygaljs) \
+python3.10dist-pygaljs \
 python310-pygaljs \
-python3dist(pygaljs)"
+python3dist-pygaljs"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -20,11 +20,11 @@ RPM_NAME = "python39-pytest-django-4.5.2-4.4.noarch.rpm"
 RPM_HASH = "7824cfadb562ac8045ea9c8b3ebca48835cd923d3818d13bdd4046bed213cb96f33dfc81ccb74c85242cc6ae2599263499c556aa5893a18fd1490efb3e10e7a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-django) \
+RPROVIDES:${PN} += "python3.9dist-pytest-django \
 python39-pytest-django \
-python3dist(pytest-django)"
+python3dist-pytest-django"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Django \
 python39-pytest"
 

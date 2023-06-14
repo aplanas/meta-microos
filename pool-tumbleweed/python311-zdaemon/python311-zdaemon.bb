@@ -11,13 +11,13 @@ RPM_NAME = "python311-zdaemon-4.4-1.4.noarch.rpm"
 RPM_HASH = "60429b10dbbc477364a6c2c6e23c2ef2f513fb82149a8717512ec65b96ad1905f9c7307a94de6518e6e71a952e280f0b6fb799ed5e40fb36683e96538c3f9eb8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(zdaemon) \
+RPROVIDES:${PN} += "python3.11dist-zdaemon \
 python311-zdaemon \
-python3dist(zdaemon)"
+python3dist-zdaemon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-ZConfig \
 update-alternatives"
 

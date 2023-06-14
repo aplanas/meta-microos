@@ -27,25 +27,25 @@ RPM_NAME = "perl-App-MFILE-WWW-0.176-1.19.noarch.rpm"
 RPM_HASH = "6a0ab15b9f3e67d832894c45cb21904a64be5b560d28fb1fef5cd1653b843071ec77c31a4b188dbfc262bbd4236122ca5be1d1a30ed4d5aa2016bbfff1575e41"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(App::MFILE::WWW) \
-perl(App::MFILE::WWW::Dispatch) \
-perl(App::MFILE::WWW::Resource) \
+RPROVIDES:${PN} += "perl-App--MFILE--WWW \
+perl-App--MFILE--WWW--Dispatch \
+perl-App--MFILE--WWW--Resource \
 perl-App-MFILE-WWW"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(App::CELL) \
-perl(File::ShareDir) \
-perl(JSON) \
-perl(LWP::UserAgent) \
-perl(Log::Any::Adapter) \
-perl(Params::Validate) \
-perl(Plack::Builder) \
-perl(Plack::Middleware::Session) \
-perl(Plack::Middleware::StackTrace) \
-perl(Plack::Middleware::Static) \
-perl(Plack::Runner) \
-perl(Try::Tiny) \
-perl(Web::Machine)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-App--CELL \
+perl-File--ShareDir \
+perl-JSON \
+perl-LWP--UserAgent \
+perl-Log--Any--Adapter \
+perl-Params--Validate \
+perl-Plack--Builder \
+perl-Plack--Middleware--Session \
+perl-Plack--Middleware--StackTrace \
+perl-Plack--Middleware--Static \
+perl-Plack--Runner \
+perl-Try--Tiny \
+perl-Web--Machine"
 
 inherit rpm

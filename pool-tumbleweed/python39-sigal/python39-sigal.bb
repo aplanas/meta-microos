@@ -18,13 +18,13 @@ RPM_NAME = "python39-sigal-2.3-1.7.noarch.rpm"
 RPM_HASH = "48f44b6d7ae90280d675a09a47e52c8fd25a0ef8338abfa3e6a636e3636828b644d2cf0570f543c9ad7016cbbd19bc05c90d0328b46862cda680b5468e2439c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sigal) \
+RPROVIDES:${PN} += "python3.9dist-sigal \
 python39-sigal \
-python3dist(sigal)"
+python3dist-sigal"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Jinja2 \
 python39-Markdown \
 python39-Pillow \

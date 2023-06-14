@@ -13,18 +13,15 @@ PV = "5.3.5"
 RPM_NAME = "libmumps_5_3_5-gnu-mvapich2-hpc-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "b204ffb5bc5f8845cd682c2ee2462144f0726110f240702ca6c60236f5d6054960c5d7e7f99b87ea5c7d00f721f65199d0bd2e6b8a25c230c0796e5f23d27133"
 
-RPROVIDES:${PN} += "libmumps_5_3_5-gnu-mvapich2-hpc \
-libmumps_5_3_5-gnu-mvapich2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libmumps-5-3-5-gnu-mvapich2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 lua-lmod \
 mvapich2-gnu-hpc"
 

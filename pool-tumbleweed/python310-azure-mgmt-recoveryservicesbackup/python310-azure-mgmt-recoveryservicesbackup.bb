@@ -14,12 +14,12 @@ RPM_HASH = "5be48fc1418a2fa6d0c8034c4c7a56a15d56d0ad85b125b4a1158eb1987f03a00447
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-recoveryservicesbackup \
-python3.10dist(azure-mgmt-recoveryservicesbackup) \
+python3.10dist-azure-mgmt-recoveryservicesbackup \
 python310-azure-mgmt-recoveryservicesbackup \
-python3dist(azure-mgmt-recoveryservicesbackup)"
+python3dist-azure-mgmt-recoveryservicesbackup"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

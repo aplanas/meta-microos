@@ -9,11 +9,11 @@ RPM_HASH = "9e1686e710c29d89910caa44409a3f7e9871a18d30e442b0ec2d1a5cb2f9bf4a9ffd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-marshmallow-enum \
-python3.10dist(marshmallow-enum) \
+python3.10dist-marshmallow-enum \
 python310-marshmallow-enum \
-python3dist(marshmallow-enum)"
+python3dist-marshmallow-enum"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-marshmallow"
 
 inherit rpm

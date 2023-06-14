@@ -12,7 +12,7 @@ RPM_NAME = "texlive-rccol-2023.201.1.2csvn15878-53.1.noarch.rpm"
 RPM_HASH = "512c91e6959415efbc823e324c34cd4c613bfbe29753cb4a841a65e558613a7d38135e54d4039394a97d279625d55a69cee5a56d6ebf494bd417fb518859554a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rccol.sty) \
+RPROVIDES:${PN} += "tex-rccol.sty \
 texlive-rccol"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,8 +21,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(fltpoint.sty) \
+tex-array.sty \
+tex-fltpoint.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

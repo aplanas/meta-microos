@@ -14,11 +14,11 @@ RPM_NAME = "python311-plotly-5.13.1-1.3.noarch.rpm"
 RPM_HASH = "3e81e15bade9119d35ce5b87a124f0e41aca11b44bd91132ca94eff615e4c3a5f5fe4a9a24c2caf51af9179678d250956617a0eabda1c58ab1c18df379619838"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(plotly) \
+RPROVIDES:${PN} += "python3.11dist-plotly \
 python311-plotly \
-python3dist(plotly)"
+python3dist-plotly"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-tenacity"
 
 inherit rpm

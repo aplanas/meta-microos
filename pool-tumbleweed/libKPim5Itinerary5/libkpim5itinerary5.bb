@@ -9,35 +9,31 @@ PV = "23.04.1"
 RPM_NAME = "libKPim5Itinerary5-23.04.1-1.2.aarch64.rpm"
 RPM_HASH = "cbf797404cff5cffb9f4ad1b5be006f284bdeca4c83c9d18be37d9b5f6637831d2c00d4510a017b0f5862de023349655f8d30be30666d2b279c9a9af7c25e480"
 
-RPROVIDES:${PN} += "libKPim5Itinerary.so.5()(64bit) \
-libKPim5Itinerary5 \
-libKPim5Itinerary5(aarch-64)"
+RPROVIDES:${PN} += "libKPim5Itinerary.so.5 \
+libKPim5Itinerary5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Archive.so.5()(64bit) \
-libKF5CalendarCore.so.5()(64bit) \
-libKF5Codecs.so.5()(64bit) \
-libKF5Contacts.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5I18nLocaleData.so.5()(64bit) \
-libKPim5Mime.so.5()(64bit) \
-libKPim5PkPass.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libZXing.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libphonenumber.so.8()(64bit) \
-libpoppler.so.128()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5Archive.so.5 \
+libKF5CalendarCore.so.5 \
+libKF5Codecs.so.5 \
+libKF5Contacts.so.5 \
+libKF5I18n.so.5 \
+libKF5I18nLocaleData.so.5 \
+libKPim5Mime.so.5 \
+libKPim5PkPass.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libZXing.so.3 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libphonenumber.so.8 \
+libpoppler.so.128 \
+libstdc++.so.6 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

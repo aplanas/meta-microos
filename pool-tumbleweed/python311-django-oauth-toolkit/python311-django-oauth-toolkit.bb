@@ -12,11 +12,11 @@ RPM_NAME = "python311-django-oauth-toolkit-1.7.0-1.6.noarch.rpm"
 RPM_HASH = "934b56cad3ad770ae505ea4764492262a8a72ba1c691ca21f6e3df0e3cea11824d892c0fe20db83806ad82087471001b73ca4b7575416f0dcec164e98d4221f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(django-oauth-toolkit) \
+RPROVIDES:${PN} += "python3.11dist-django-oauth-toolkit \
 python311-django-oauth-toolkit \
-python3dist(django-oauth-toolkit)"
+python3dist-django-oauth-toolkit"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Django \
 python311-jwcrypto \
 python311-oauthlib \

@@ -36,16 +36,13 @@ PV = "4.5.3"
 RPM_NAME = "libnetcdf-fortran_4_5_3-gnu-openmpi4-hpc-4.5.3-4.4.aarch64.rpm"
 RPM_HASH = "65ac2b6f4c91575b59484696bd9d86b536a68373d14389b731f7cdbe5e2f108d7cf9cb1b368455527d06adcec38739b4f74c2bd0bf781125f32e8103b39af301"
 
-RPROVIDES:${PN} += "libnetcdf-fortran_4_5_3-gnu-openmpi4-hpc \
-libnetcdf-fortran_4_5_3-gnu-openmpi4-hpc(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf-fortran-4-5-3-gnu-openmpi4-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfortran.so.5 \
 libopenmpi4-gnu-hpc \
 lua-lmod"
 

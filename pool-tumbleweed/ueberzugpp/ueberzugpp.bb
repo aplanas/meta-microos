@@ -23,28 +23,27 @@ PV = "2.8.5"
 RPM_NAME = "ueberzugpp-2.8.5-1.1.aarch64.rpm"
 RPM_HASH = "945d4f5faefa53082035440f31edccbc5d330a3464c8c7f4f9d6b620a4135de3df5985d588e960dc2e4665576dac0a5565324a7a26964cb22460b3700289418b"
 
-RPROVIDES:${PN} += "ueberzugpp \
-ueberzugpp(aarch-64)"
+RPROVIDES:${PN} += "ueberzugpp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libchafa.so.0()(64bit) \
-libcrypto.so.3()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libopencv_core.so.407()(64bit) \
-libopencv_imgcodecs.so.407()(64bit) \
-libopencv_imgproc.so.407()(64bit) \
-libopencv_videoio.so.407()(64bit) \
-libsixel.so.1()(64bit) \
-libspdlog.so.1.11()(64bit) \
-libstdc++.so.6()(64bit) \
-libtbb.so.12()(64bit) \
-libvips-cpp.so.42()(64bit) \
-libvips.so.42()(64bit) \
-libxcb-image.so.0()(64bit) \
-libxcb.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libchafa.so.0 \
+libcrypto.so.3 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libopencv-core.so.407 \
+libopencv-imgcodecs.so.407 \
+libopencv-imgproc.so.407 \
+libopencv-videoio.so.407 \
+libsixel.so.1 \
+libspdlog.so.1.11 \
+libstdc++.so.6 \
+libtbb.so.12 \
+libvips-cpp.so.42 \
+libvips.so.42 \
+libxcb-image.so.0 \
+libxcb.so.1"
 
 inherit rpm

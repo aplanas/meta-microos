@@ -10,38 +10,32 @@ RPM_HASH = "190edd5f991e26637ec0d667134037485d49a2354193729e887d56f2a42c898306cd
 RPROVIDES:${PN} += "kdevelop4-plugin-python \
 kdevelop4-plugin-python3 \
 kdevelop5-plugin-python3 \
-kdevelop5-plugin-python3(aarch-64) \
-libkdevpythoncompletion.so()(64bit) \
-libkdevpythonduchain.so()(64bit) \
-libkdevpythonparser.so()(64bit) \
-metainfo() \
-metainfo(org.kde.kdev-python.metainfo.xml)"
+libkdevpythoncompletion.so \
+libkdevpythonduchain.so \
+libkdevpythonparser.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdevelop5 \
-ld-linux-aarch64.so.1()(64bit) \
-libKDevPlatformDebugger.so.511()(64bit) \
-libKDevPlatformInterfaces.so.511()(64bit) \
-libKDevPlatformLanguage.so.511()(64bit) \
-libKDevPlatformOutputView.so.511()(64bit) \
-libKDevPlatformSerialization.so.511()(64bit) \
-libKDevPlatformUtil.so.511()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5TextEditor.so.5()(64bit) \
-libKF5ThreadWeaver.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKDevPlatformDebugger.so.511 \
+libKDevPlatformInterfaces.so.511 \
+libKDevPlatformLanguage.so.511 \
+libKDevPlatformOutputView.so.511 \
+libKDevPlatformSerialization.so.511 \
+libKDevPlatformUtil.so.511 \
+libKF5ConfigCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5Parts.so.5 \
+libKF5TextEditor.so.5 \
+libKF5ThreadWeaver.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libpython3.10.so.1.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -14,11 +14,11 @@ RPM_HASH = "6f1cbe0b557817903d58e4006fbfb1382a967db855baf77cf980d36c5ef5a79525b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-boto3 \
-python3.10dist(boto3) \
+python3.10dist-boto3 \
 python310-boto3 \
-python3dist(boto3)"
+python3dist-boto3"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-botocore \
 python310-jmespath \
 python310-s3transfer"

@@ -10,22 +10,22 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "curtail-lang \
 curtail-lang-all \
-locale(curtail:cs) \
-locale(curtail:de) \
-locale(curtail:es) \
-locale(curtail:fr) \
-locale(curtail:gl) \
-locale(curtail:hr) \
-locale(curtail:it) \
-locale(curtail:ko) \
-locale(curtail:nl) \
-locale(curtail:oc) \
-locale(curtail:pl) \
-locale(curtail:pt_BR) \
-locale(curtail:ru) \
-locale(curtail:sk) \
-locale(curtail:sv) \
-locale(curtail:tr)"
+locale-curtail-cs \
+locale-curtail-de \
+locale-curtail-es \
+locale-curtail-fr \
+locale-curtail-gl \
+locale-curtail-hr \
+locale-curtail-it \
+locale-curtail-ko \
+locale-curtail-nl \
+locale-curtail-oc \
+locale-curtail-pl \
+locale-curtail-pt-BR \
+locale-curtail-ru \
+locale-curtail-sk \
+locale-curtail-sv \
+locale-curtail-tr"
 
 RDEPENDS:${PN} += "curtail"
 

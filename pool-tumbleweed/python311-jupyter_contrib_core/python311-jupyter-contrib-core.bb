@@ -13,14 +13,13 @@ RPM_NAME = "python311-jupyter_contrib_core-0.4.2-1.4.noarch.rpm"
 RPM_HASH = "a4010bdcd1d5e4e6ede6420b4dff0916ea009de10f2edc14dd0343bbd5f9c5d900a8a9e00c1347a3fcb1ac0b370b6b6f5708899d88cc03e0a6e2d2477658e1fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jupyter-contrib-core) \
+RPROVIDES:${PN} += "python3.11dist-jupyter-contrib-core \
 python311-jupyter-contrib-core \
-python311-jupyter_contrib_core \
-python3dist(jupyter-contrib-core)"
+python3dist-jupyter-contrib-core"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-jupyter-core \
 python311-notebook \
 python311-setuptools \

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-mailing-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "f9a50850676739e3dcc1c4f399dd866eaf30175b70b282d1c737c6e41d80f9af9210709dab9e9c7e235a72fe81032f1d7305a6f854d254dd6a1e19d7840d8164"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mailing.sty) \
+RPROVIDES:${PN} += "tex-mailing.sty \
 texlive-mailing"
 
 RDEPENDS:${PN} += "/bin/sh \

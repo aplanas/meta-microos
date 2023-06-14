@@ -20,9 +20,7 @@ RPM_HASH = "45c45e099c7f5000fa92dfce4ed26b8747d2befea13e974087abd9c3b9d18d956696
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flare-data \
-flare-game \
-metainfo() \
-metainfo(org.flarerpg.Flare.appdata.xml)"
+flare-game"
 
 RDEPENDS:${PN} += "flare-engine"
 

@@ -16,18 +16,18 @@ RPROVIDES:${PN} += "gnome-shell-extension-desktop-icons"
 RDEPENDS:${PN} += "/usr/bin/gjs \
 gnome-shell \
 nautilus \
-typelib(Clutter) \
-typelib(Cogl) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(GnomeDesktop) \
-typelib(Gtk) \
-typelib(Meta) \
-typelib(Pango) \
-typelib(Shell) \
-typelib(St) \
+typelib-Clutter \
+typelib-Cogl \
+typelib-GLib \
+typelib-GObject \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-GnomeDesktop \
+typelib-Gtk \
+typelib-Meta \
+typelib-Pango \
+typelib-Shell \
+typelib-St \
 xdg-desktop-portal-gtk"
 
 inherit rpm

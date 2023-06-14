@@ -10,11 +10,11 @@ RPM_HASH = "6ecbd737b150bbea95bbb0c7a45cc35f09f18ec60fa83430a196811c11f8304bcb5a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-particle \
-python3.10dist(particle) \
+python3.10dist-particle \
 python310-particle \
-python3dist(particle)"
+python3dist-particle"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-hepunits"
 

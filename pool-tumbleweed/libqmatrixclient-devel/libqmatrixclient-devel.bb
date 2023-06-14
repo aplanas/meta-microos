@@ -8,19 +8,17 @@ PV = "0.5.3.2"
 RPM_NAME = "libqmatrixclient-devel-0.5.3.2-1.17.aarch64.rpm"
 RPM_HASH = "001b6971f738854b502ca94bea03959b0aabc1182fdd3688e4cd4b50bd34cb372f6d0dde700f56c5f970014311ad4b4c3cdc3520c03b6136ec502b3a07d350f2"
 
-RPROVIDES:${PN} += "cmake(QMatrixClient) \
+RPROVIDES:${PN} += "cmake-QMatrixClient \
 libqmatrixclient-devel \
-libqmatrixclient-devel(aarch-64) \
-pkgconfig(QMatrixClient)"
+pkgconfig-QMatrixClient"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libQMatrixClient.so.0.5.3()(64bit) \
-libQMatrixClient0_5_3 \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQMatrixClient.so.0.5.3 \
+libQMatrixClient0-5-3 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

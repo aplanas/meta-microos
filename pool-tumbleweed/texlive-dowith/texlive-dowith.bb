@@ -15,8 +15,8 @@ RPM_NAME = "texlive-dowith-2023.201.r0.32svn38860-52.1.noarch.rpm"
 RPM_HASH = "ba19a3b2351d29f6b3e935058b402dfb63cc8ae8362420d00e515823218857e469726a7491464a3d5dc1a8b7e1b01f954e60dee06d87bfac10edf836a4c854b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(domore.sty) \
-tex(dowith.sty) \
+RPROVIDES:${PN} += "tex-domore.sty \
+tex-dowith.sty \
 texlive-dowith"
 
 RDEPENDS:${PN} += "/bin/sh \

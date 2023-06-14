@@ -10,13 +10,13 @@ RPM_NAME = "python311-portpicker-1.5.2-1.5.noarch.rpm"
 RPM_HASH = "291fe751191e5131c21f67277e4309ab8543afe5edd342a6ce83c49b111c04c793432df300c1ba1eeed41a5ab5dde4f17dc94610d3d50c1f50d7c2899cf8613b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(portpicker) \
+RPROVIDES:${PN} += "python3.11dist-portpicker \
 python311-portpicker \
-python3dist(portpicker)"
+python3dist-portpicker"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

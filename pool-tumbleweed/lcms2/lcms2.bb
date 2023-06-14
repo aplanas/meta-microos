@@ -12,13 +12,12 @@ PV = "2.15"
 RPM_NAME = "lcms2-2.15-1.1.aarch64.rpm"
 RPM_HASH = "247611c8e9066809a23cba96d1900ce202d237ad25369713cef79f824c21c372162c9564a2727aefcf57ce2dd63898819820fddf6bebe6cc2801f92e1f3b1736"
 
-RPROVIDES:${PN} += "lcms2 \
-lcms2(aarch-64)"
+RPROVIDES:${PN} += "lcms2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-libtiff.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+libtiff.so.6"
 
 inherit rpm

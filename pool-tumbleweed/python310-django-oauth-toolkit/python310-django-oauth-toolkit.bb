@@ -13,11 +13,11 @@ RPM_HASH = "df69df3806ee303683a131471c42fc836cc33cff99a1c83e3e06e92759d77190d9c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-oauth-toolkit \
-python3.10dist(django-oauth-toolkit) \
+python3.10dist-django-oauth-toolkit \
 python310-django-oauth-toolkit \
-python3dist(django-oauth-toolkit)"
+python3dist-django-oauth-toolkit"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-jwcrypto \
 python310-oauthlib \

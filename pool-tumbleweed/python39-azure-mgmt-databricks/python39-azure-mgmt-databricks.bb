@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-databricks-1.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "886c906429eb683f5bc76f148a861f41aa76254b5af1ad501b017bc32b75d3d7e30f73978a2ea77ac9e838953d46a59ec75176ca5edbbf5ec8307e33bc34e4f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-databricks) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-databricks \
 python39-azure-mgmt-databricks \
-python3dist(azure-mgmt-databricks)"
+python3dist-azure-mgmt-databricks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

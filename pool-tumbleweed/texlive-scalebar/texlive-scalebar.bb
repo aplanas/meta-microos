@@ -12,7 +12,7 @@ RPM_NAME = "texlive-scalebar-2023.201.1.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "5dadd7e425dbeea210b04d6d6f6d79a4a40917cff9db232afd09b28a185471a64a745be6c63d78a2d648704009cafeefc0e19c7c24c5dd92554319ffe0a6c53a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(scalebar.sty) \
+RPROVIDES:${PN} += "tex-scalebar.sty \
 texlive-scalebar"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(fp.sty) \
-tex(ifthen.sty) \
+tex-calc.sty \
+tex-fp.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

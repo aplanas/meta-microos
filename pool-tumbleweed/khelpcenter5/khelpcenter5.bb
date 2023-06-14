@@ -7,55 +7,42 @@ PV = "23.04.1"
 RPM_NAME = "khelpcenter5-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "4b250340b27042d99e8f32bdbfa5a892b937ca288d8247d1bfcbddb0a15960103ef2a6a031920263f88ffc6f373d56501ea49ac67e91960e2c2182348bca7dca"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.khelpcenter.desktop) \
-khelpcenter5 \
-khelpcenter5(aarch-64) \
-metainfo() \
-metainfo(org.kde.khelpcenter.metainfo.xml) \
-mimehandler(x-scheme-handler/help) \
-mimehandler(x-scheme-handler/info) \
-mimehandler(x-scheme-handler/man) \
-suse_help_viewer"
+RPROVIDES:${PN} += "khelpcenter5 \
+suse-help-viewer"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 kdoctools \
-ld-linux-aarch64.so.1()(64bit) \
-libGrantlee_Templates.so.5()(64bit) \
-libKF5Archive.so.5()(64bit) \
-libKF5Bookmarks.so.5()(64bit) \
-libKF5Codecs.so.5()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5DocTools.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KHtml.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxapian.so.30()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libGrantlee-Templates.so.5 \
+libKF5Archive.so.5 \
+libKF5Bookmarks.so.5 \
+libKF5Codecs.so.5 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5DocTools.so.5 \
+libKF5I18n.so.5 \
+libKF5KHtml.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOGui.so.5 \
+libKF5Parts.so.5 \
+libKF5Service.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5WindowSystem.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxapian.so.30 \
+libxml2.so.2"
 
 inherit rpm

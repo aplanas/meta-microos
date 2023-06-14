@@ -9,15 +9,15 @@ RPM_HASH = "f7a4e9e744967c80cb9172baae31ca55e6abd3dca2665b2c8b331e600bf4a28f158d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-http-lightweight \
-mvn(org.apache.maven.wagon:wagon-http-lightweight) \
-mvn(org.apache.maven.wagon:wagon-http-lightweight:pom:)"
+mvn-org.apache.maven.wagon-wagon-http-lightweight \
+mvn-org.apache.maven.wagon-wagon-http-lightweight-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.apache.maven.wagon:wagon-http-shared) \
-mvn(org.apache.maven.wagon:wagon-provider-api) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.slf4j:slf4j-simple)"
+mvn-commons-io-commons-io \
+mvn-org.apache.maven.wagon-wagon-http-shared \
+mvn-org.apache.maven.wagon-wagon-provider-api \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.slf4j-slf4j-simple"
 
 inherit rpm

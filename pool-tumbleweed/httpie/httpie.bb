@@ -15,11 +15,11 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "httpie \
 python3-httpie \
 python3.10-httpie \
-python3.10dist(httpie) \
-python3dist(httpie)"
+python3.10dist-httpie \
+python3dist-httpie"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PySocks \
 python3-Pygments \
 python3-charset-normalizer \

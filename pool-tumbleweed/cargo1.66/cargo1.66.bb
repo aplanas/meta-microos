@@ -9,16 +9,15 @@ RPM_HASH = "326c450879ce233a4563a52ce776d4ef11c30edfe42bc44bd3648dc45a2c53552a70
 
 RPROVIDES:${PN} += "cargo-vendor \
 cargo1.66 \
-cargo1.66(aarch-64) \
 rust+cargo"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libm.so.6 \
+libssl.so.3 \
+libz.so.1 \
 rust-std"
 
 inherit rpm

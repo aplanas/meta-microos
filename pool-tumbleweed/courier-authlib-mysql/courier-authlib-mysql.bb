@@ -10,17 +10,15 @@ RPM_NAME = "courier-authlib-mysql-0.72.0-1.4.aarch64.rpm"
 RPM_HASH = "32fd3cbec9081c4b2bd2103a1011b4766ff0ca32e53a71a9aef1355b6ecd90ac9f7d0fb244182a8c3172c67f9a42f0a46a5b0aae0de4d0aedb57483682deba34"
 
 RPROVIDES:${PN} += "courier-authlib-mysql \
-courier-authlib-mysql(aarch-64) \
-libauthmysql.so.0()(64bit)"
+libauthmysql.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcourierauth.so.0()(64bit) \
-libcourierauthcommon.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcourierauth.so.0 \
+libcourierauthcommon.so.0 \
+libgcc-s.so.1 \
+libmariadb.so.3 \
+libstdc++.so.6"
 
 inherit rpm

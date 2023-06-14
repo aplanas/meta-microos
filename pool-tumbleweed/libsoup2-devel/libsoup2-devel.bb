@@ -19,22 +19,21 @@ RPM_HASH = "45a0fe1604a28be88480f1b174eabbb51782f6963d5073e82f9bd1ab0bb7c264d367
 
 RPROVIDES:${PN} += "libsoup-doc \
 libsoup2-devel \
-libsoup2-devel(aarch-64) \
-pkgconfig(libsoup-2.4) \
-pkgconfig(libsoup-gnome-2.4)"
+pkgconfig-libsoup-2.4 \
+pkgconfig-libsoup-gnome-2.4"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsoup-2_4-1 \
-pkgconfig(gio-2.0) \
-pkgconfig(glib-2.0) \
-pkgconfig(gmodule-2.0) \
-pkgconfig(gobject-2.0) \
-pkgconfig(libbrotlidec) \
-pkgconfig(libpsl) \
-pkgconfig(libsoup-2.4) \
-pkgconfig(libxml-2.0) \
-pkgconfig(sqlite3) \
-pkgconfig(zlib) \
-typelib-1_0-Soup-2_4"
+libsoup-2-4-1 \
+pkgconfig-gio-2.0 \
+pkgconfig-glib-2.0 \
+pkgconfig-gmodule-2.0 \
+pkgconfig-gobject-2.0 \
+pkgconfig-libbrotlidec \
+pkgconfig-libpsl \
+pkgconfig-libsoup-2.4 \
+pkgconfig-libxml-2.0 \
+pkgconfig-sqlite3 \
+pkgconfig-zlib \
+typelib-1-0-Soup-2-4"
 
 inherit rpm

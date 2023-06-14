@@ -11,15 +11,14 @@ RPM_NAME = "epplet-base-0.10-78.12.aarch64.rpm"
 RPM_HASH = "eca9229ae18277ad48559bb49614d574fe0f86af2f16ee25e689bc25c50e3c38fb24cf04b51231a82b824bd77e6b2734d2e4811d2a90bed27e480936a8443953"
 
 RPROVIDES:${PN} += "epplet-base \
-epplet-base(aarch-64) \
-libepplet.so.2()(64bit)"
+libepplet.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libImlib2.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libImlib2.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

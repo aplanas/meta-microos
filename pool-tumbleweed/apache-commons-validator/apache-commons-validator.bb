@@ -17,10 +17,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-validator \
 commons-validator \
 jakarta-commons-validator \
-mvn(commons-validator:commons-validator) \
-mvn(commons-validator:commons-validator:pom:) \
-mvn(org.apache.commons:commons-validator) \
-mvn(org.apache.commons:commons-validator:pom:)"
+mvn-commons-validator-commons-validator \
+mvn-commons-validator-commons-validator-pom- \
+mvn-org.apache.commons-commons-validator \
+mvn-org.apache.commons-commons-validator-pom-"
 
 RDEPENDS:${PN} += "commons-beanutils \
 commons-collections \
@@ -28,10 +28,10 @@ commons-digester \
 commons-logging \
 java-headless \
 javapackages-filesystem \
-mvn(commons-beanutils:commons-beanutils) \
-mvn(commons-collections:commons-collections) \
-mvn(commons-digester:commons-digester) \
-mvn(commons-logging:commons-logging) \
+mvn-commons-beanutils-commons-beanutils \
+mvn-commons-collections-commons-collections \
+mvn-commons-digester-commons-digester \
+mvn-commons-logging-commons-logging \
 oro"
 
 inherit rpm

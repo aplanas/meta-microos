@@ -16,13 +16,13 @@ RPM_NAME = "python39-sas7bdat-2.2.3-2.13.noarch.rpm"
 RPM_HASH = "34eda369dc49e3ff78263b1c2d4d46c1e1f892168fd7357cfcaaefb874930d1abf35c66c604ff6f2b3d2296508f5a65260c59b1294aae6925fca57e0e09d34c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sas7bdat) \
+RPROVIDES:${PN} += "python3.9dist-sas7bdat \
 python39-sas7bdat \
-python3dist(sas7bdat)"
+python3dist-sas7bdat"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-six \
 update-alternatives"
 

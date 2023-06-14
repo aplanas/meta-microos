@@ -14,11 +14,11 @@ RPM_HASH = "974ec0fd508fbc267227d126d8e0444fcdda018a46834990854e77df9f782829add8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-cov \
-python3.10dist(pytest-cov) \
+python3.10dist-pytest-cov \
 python310-pytest-cov \
-python3dist(pytest-cov)"
+python3dist-pytest-cov"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-coverage \
 python310-pytest"
 

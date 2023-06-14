@@ -19,11 +19,11 @@ RPM_HASH = "c64ca04dc8457676c610cebe72ab099cc96edabdcc81f3d638d9c2265a2351ffb77d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "PTSerif-fonts \
-locale(be;ru;uk) \
+locale-be;ru;uk \
 paratype-pt-serif-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

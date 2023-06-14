@@ -16,9 +16,9 @@ RPM_NAME = "texlive-mfpic-2023.201.1.10svn28444-54.1.noarch.rpm"
 RPM_HASH = "fff6e0982fae66f61a4a86f5355b386ff2d6befa18d2bfe8af02797b9db7de97c2ffdca30acd52fc23b37187fa32af0d8eaaf4b06658e24b40b31acce530f13c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mfpic.sty) \
-tex(mfpic.tex) \
-tex(mfpicdef.tex) \
+RPROVIDES:${PN} += "tex-mfpic.sty \
+tex-mfpic.tex \
+tex-mfpicdef.tex \
 texlive-mfpic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphics.sty) \
+tex-graphics.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -8,24 +8,22 @@ PV = "9.4.0"
 RPM_NAME = "libvirt-client-9.4.0-1.1.aarch64.rpm"
 RPM_HASH = "d28c8faa98961f21a708ef042623d16a40b4addc35913b378034f66c0064da67afea80a1165416013b5f08b485ca415f2e9a486051ab6d228fbe60e4828dfc5b"
 
-RPROVIDES:${PN} += "libvirt-client \
-libvirt-client(aarch-64)"
+RPROVIDES:${PN} += "libvirt-client"
 
 RDEPENDS:${PN} += "/bin/sh \
 bash-completion \
 cyrus-sasl \
 gnutls \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libreadline.so.8()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgnutls.so.30 \
+libreadline.so.8 \
 libvirt-libs \
-libvirt-lxc.so.0()(64bit) \
-libvirt-qemu.so.0()(64bit) \
-libvirt.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+libvirt-lxc.so.0 \
+libvirt-qemu.so.0 \
+libvirt.so.0 \
+libxml2.so.2"
 
 inherit rpm

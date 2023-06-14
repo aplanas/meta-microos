@@ -19,14 +19,14 @@ RPM_HASH = "cdf477e84991194eed1c055ea4e2698d4ef0c99a0618a99023f74a91b27032324aa1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcifs \
-mvn(jcifs:jcifs) \
-mvn(jcifs:jcifs:pom:) \
-mvn(org.samba.jcifs:jcifs) \
-mvn(org.samba.jcifs:jcifs:pom:) \
-osgi(jcifs)"
+mvn-jcifs-jcifs \
+mvn-jcifs-jcifs-pom- \
+mvn-org.samba.jcifs-jcifs \
+mvn-org.samba.jcifs-jcifs-pom- \
+osgi-jcifs"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.servlet:javax.servlet-api)"
+mvn-javax.servlet-javax.servlet-api"
 
 inherit rpm

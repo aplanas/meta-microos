@@ -10,7 +10,7 @@ RPM_NAME = "arm-trusted-firmware-sun50i_a64-2.8.6-1.1.noarch.rpm"
 RPM_HASH = "e690e4820ae9cbb32573294bb6569ed30717a952dd4f30119cfcc34e89ba5f770b5fa12fd7b943e3a68d83f9bfc813ec49cfc6c43ed6adcee51b256190974f35"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "arm-trusted-firmware-sun50i_a64"
+RPROVIDES:${PN} += "arm-trusted-firmware-sun50i-a64"
 
 RDEPENDS:${PN} += ""
 

@@ -16,11 +16,11 @@ RPM_NAME = "python39-envisage-6.1.1-1.3.noarch.rpm"
 RPM_HASH = "44df0dbc9dac727da44eaef3f6abe02fad7a88eb3b162fe58f5840d10d40d2f626d3bee47220127149495574c58ee9eb28859d9a783376541669c7f26b5fd2f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(envisage) \
+RPROVIDES:${PN} += "python3.9dist-envisage \
 python39-envisage \
-python3dist(envisage)"
+python3dist-envisage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-traits"
 
 inherit rpm

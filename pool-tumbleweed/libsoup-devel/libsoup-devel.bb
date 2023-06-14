@@ -18,21 +18,20 @@ RPM_NAME = "libsoup-devel-3.4.2-1.1.aarch64.rpm"
 RPM_HASH = "577a096b4deea14a5ba3c45db3d037615bc2e236a9cb413ece48366a840c05fb49166c3389f81614de82bdf41c04714540d96c073c8b70a406cf0e4fbed1ff6d"
 
 RPROVIDES:${PN} += "libsoup-devel \
-libsoup-devel(aarch-64) \
 libsoup-doc \
-pkgconfig(libsoup-3.0)"
+pkgconfig-libsoup-3.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsoup-3_0-0 \
-pkgconfig(gio-2.0) \
-pkgconfig(glib-2.0) \
-pkgconfig(gmodule-2.0) \
-pkgconfig(gobject-2.0) \
-pkgconfig(libbrotlidec) \
-pkgconfig(libnghttp2) \
-pkgconfig(libpsl) \
-pkgconfig(sqlite3) \
-pkgconfig(zlib) \
-typelib-1_0-Soup-3_0"
+libsoup-3-0-0 \
+pkgconfig-gio-2.0 \
+pkgconfig-glib-2.0 \
+pkgconfig-gmodule-2.0 \
+pkgconfig-gobject-2.0 \
+pkgconfig-libbrotlidec \
+pkgconfig-libnghttp2 \
+pkgconfig-libpsl \
+pkgconfig-sqlite3 \
+pkgconfig-zlib \
+typelib-1-0-Soup-3-0"
 
 inherit rpm

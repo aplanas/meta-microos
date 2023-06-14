@@ -13,13 +13,13 @@ RPM_HASH = "6c9a4ac859029534e5e931ea3c63c954f46884734183118f4ceabe80358db659b109
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-guessit \
-python3.10dist(guessit) \
+python3.10dist-guessit \
 python310-guessit \
-python3dist(guessit)"
+python3dist-guessit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-babelfish \
 python310-importlib-resources \
 python310-python-dateutil \

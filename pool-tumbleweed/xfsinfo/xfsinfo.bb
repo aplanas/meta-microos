@@ -11,11 +11,10 @@ PV = "1.0.7"
 RPM_NAME = "xfsinfo-1.0.7-1.2.aarch64.rpm"
 RPM_HASH = "e0bf77c5c280fd5bca985de2798f8bb35327ef5bead26a3a1eee2a82f1a55f993b3adbb68155ded953d94a07aa50f38ab990411abbe493812ba7184c1904a41b"
 
-RPROVIDES:${PN} += "xfsinfo \
-xfsinfo(aarch-64)"
+RPROVIDES:${PN} += "xfsinfo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libFS.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFS.so.6 \
+libc.so.6"
 
 inherit rpm

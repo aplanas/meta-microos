@@ -21,11 +21,11 @@ RPM_NAME = "python39-glfw-2.5.5-1.4.noarch.rpm"
 RPM_HASH = "31a544a239705243ac13dcb2b8b3e1517fd6020a539fdd5e66f327e1dcb0a7e7f172f6a81fc409974279707eb26145ca765a60457acdf3837f6b25418ebe832c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(glfw) \
+RPROVIDES:${PN} += "python3.9dist-glfw \
 python39-glfw \
-python3dist(glfw)"
+python3dist-glfw"
 
 RDEPENDS:${PN} += "libglfw3 \
-python(abi)"
+python-abi"
 
 inherit rpm

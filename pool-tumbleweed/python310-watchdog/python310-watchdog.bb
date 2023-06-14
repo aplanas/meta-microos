@@ -9,13 +9,13 @@ RPM_HASH = "7a84654eb36ec6783490a174cc3beb0ec4bccd4fbf88d4cab042524a6c94387c2db3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-watchdog \
-python3.10dist(watchdog) \
+python3.10dist-watchdog \
 python310-watchdog \
-python3dist(watchdog)"
+python3dist-watchdog"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-pathtools \
 update-alternatives"

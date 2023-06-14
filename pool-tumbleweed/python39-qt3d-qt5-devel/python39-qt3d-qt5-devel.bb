@@ -12,10 +12,9 @@ RPROVIDES:${PN} += "python-qt3d-qt5-api \
 python-qt3d-qt5-sip \
 python39-qt3d-qt5-api \
 python39-qt3d-qt5-devel \
-python39-qt3d-qt5-devel(aarch-64) \
 python39-qt3d-qt5-sip"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-qt5-devel"
 
 inherit rpm

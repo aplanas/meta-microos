@@ -12,15 +12,15 @@ RPM_NAME = "python39-python-dbusmock-0.24.1-3.1.noarch.rpm"
 RPM_HASH = "cbec3f7a4ab5dafb6412a4a3a5bedaca903894e0ff8dbad1bb268c11c094e00c80bf754b9094f0107d2a84592a8f2138e10571d012f2347c6382a690344ac394"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-dbusmock) \
+RPROVIDES:${PN} += "python3.9dist-python-dbusmock \
 python39-dbusmock \
 python39-python-dbusmock \
-python3dist(python-dbusmock)"
+python3dist-python-dbusmock"
 
 RDEPENDS:${PN} += "dbus-1-x11 \
-python(abi) \
+python-abi \
 python39-dbus-python \
 python39-gobject \
-typelib(GLib)"
+typelib-GLib"
 
 inherit rpm

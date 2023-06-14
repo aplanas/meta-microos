@@ -14,11 +14,11 @@ RPM_HASH = "3ce513c80b14800cd0d8f93211a8bb03ffcdcabc8434cc69cfee88a008652ba2e95c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyDOE2 \
-python3.10dist(pydoe2) \
+python3.10dist-pydoe2 \
 python310-pyDOE2 \
-python3dist(pydoe2)"
+python3dist-pydoe2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-scipy"
 

@@ -9,17 +9,13 @@ PV = "20230318"
 RPM_NAME = "python39-libesedb-20230318-1.2.aarch64.rpm"
 RPM_HASH = "e5f97591527252f711550dec777df4268f759cfd570af06e72f7651d0440ccae0505f3db58eebece73b5357486c53d0518d2041e5372e44e10cc2d2655a9042f"
 
-RPROVIDES:${PN} += "python39-libesedb \
-python39-libesedb(aarch-64)"
+RPROVIDES:${PN} += "python39-libesedb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libesedb.so.1()(64bit) \
-libesedb.so.1(V_20230318)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libesedb.so.1 \
+python-abi"
 
 inherit rpm

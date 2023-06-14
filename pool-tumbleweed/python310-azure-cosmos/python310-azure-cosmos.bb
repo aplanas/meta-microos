@@ -11,11 +11,11 @@ RPM_HASH = "3ead0b66e4497f584cd07ee2dcb2662c1ab89074514ee43bebd1e87c6eee56661f85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cosmos \
-python3.10dist(azure-cosmos) \
+python3.10dist-azure-cosmos \
 python310-azure-cosmos \
-python3dist(azure-cosmos)"
+python3dist-azure-cosmos"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg"
 

@@ -35,13 +35,13 @@ RPM_HASH = "93eaa73bebb98076b5016ef329065bbc7dbc8e192813004b0ed61818f262dcb173ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-chardet \
-python3.10dist(chardet) \
+python3.10dist-chardet \
 python310-chardet \
-python3dist(chardet)"
+python3dist-chardet"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi)"
+python-abi"
 
 inherit rpm

@@ -9,9 +9,9 @@ RPM_HASH = "af1fc7694d877fda75d18b393c341c7094193c2196364839f1bae6facbfbd262985f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-slideshow \
-mvn(org.apache.xmlgraphics:batik-slideshow) \
-mvn(org.apache.xmlgraphics:batik-slideshow:pom:) \
-osgi(org.apache.batik.slideshow) \
+mvn-org.apache.xmlgraphics-batik-slideshow \
+mvn-org.apache.xmlgraphics-batik-slideshow-pom- \
+osgi-org.apache.batik.slideshow \
 xmlgraphics-batik-slideshow"
 
 RDEPENDS:${PN} += "/bin/bash \

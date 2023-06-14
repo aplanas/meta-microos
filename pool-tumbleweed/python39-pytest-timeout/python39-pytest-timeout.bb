@@ -20,11 +20,11 @@ RPM_NAME = "python39-pytest-timeout-2.1.0-2.1.noarch.rpm"
 RPM_HASH = "cc890918969c2cb2aeadb52d018e9186ec207d8231bb818aea3e8530767263364cc9435daa225f778f5dd1a518b3c552546b095b392d37580900e2efe7eb8d6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-timeout) \
+RPROVIDES:${PN} += "python3.9dist-pytest-timeout \
 python39-pytest-timeout \
-python3dist(pytest-timeout)"
+python3dist-pytest-timeout"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pytest"
 
 inherit rpm

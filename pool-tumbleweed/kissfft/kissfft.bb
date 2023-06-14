@@ -9,14 +9,12 @@ PV = "131.1.0"
 RPM_NAME = "kissfft-131.1.0-2.3.aarch64.rpm"
 RPM_HASH = "383040af7b565b789c108f536d7a4eea04a6e389afd9d206a037cf24141042820182e4a8bc1dba166aa4654e0daae20e1294679a5dc9df803af867316dfa48c2"
 
-RPROVIDES:${PN} += "kissfft \
-kissfft(aarch-64)"
+RPROVIDES:${PN} += "kissfft"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libkissfft-float.so.131()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libkissfft-float.so.131 \
+libm.so.6 \
+libpng16.so.16"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "92d4790f9b4b352f35f9e8168a7612db603e35fa113fdd292d59ad56243d7a3a62c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hvac \
-python3.10dist(hvac) \
+python3.10dist-hvac \
 python310-hvac \
-python3dist(hvac)"
+python3dist-hvac"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyhcl \
 python310-requests"
 

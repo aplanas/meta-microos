@@ -10,8 +10,7 @@ PV = "4.1.1"
 RPM_NAME = "flocq-4.1.1-1.3.aarch64.rpm"
 RPM_HASH = "419f7c5298afe3aba2cb1d92f5519b775776a0b67b00446705bcbba4429e50e3520aeaa1c3050961edccc74b6c089186e25176620e42545e2de9a37de245a591"
 
-RPROVIDES:${PN} += "flocq \
-flocq(aarch-64)"
+RPROVIDES:${PN} += "flocq"
 
 RDEPENDS:${PN} += "coq"
 

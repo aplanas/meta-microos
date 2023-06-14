@@ -12,24 +12,21 @@ RPM_NAME = "libreoffice-sdk-7.5.4.1-1.1.aarch64.rpm"
 RPM_HASH = "28842057cc0b5f6760db875f03ace3fdc1e8d74e590732f6370e2e6fb8286f5b12c6a0b9f2ca646e182df5d1e1bffb92fa84080578d4ccf493645158c67cc62f"
 
 RPROVIDES:${PN} += "libreoffice-sdk \
-libreoffice-sdk(aarch-64) \
 libreoffice-ure-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gcc-c++ \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
 libreoffice \
-libstdc++.so.6()(64bit) \
-libuno_sal.so.3()(64bit) \
-libuno_sal.so.3(UDK_3_0_0)(64bit) \
-libuno_salhelpergcc3.so.3()(64bit) \
-libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit) \
-libunoidllo.so()(64bit) \
+libstdc++.so.6 \
+libuno-sal.so.3 \
+libuno-salhelpergcc3.so.3 \
+libunoidllo.so \
 make \
-rtld(GNU_HASH) \
+rtld-GNU-HASH \
 ucpp \
 zip"
 

@@ -188,11 +188,11 @@ RPM_NAME = "perl-Lexical-Persistence-1.023-3.26.noarch.rpm"
 RPM_HASH = "b191484fdcd58c04b7a6000a1d68abafeae98ef779d4cd0c76694c46895d7059c71d0db956cfcb82d9d88d8f13757a4dfb3a99eeba2abd983ea91770010dd37c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Lexical::Persistence) \
+RPROVIDES:${PN} += "perl-Lexical--Persistence \
 perl-Lexical-Persistence"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Devel::LexAlias) \
-perl(PadWalker)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Devel--LexAlias \
+perl-PadWalker"
 
 inherit rpm

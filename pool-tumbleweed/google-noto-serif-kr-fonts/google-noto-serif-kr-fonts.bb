@@ -11,7 +11,7 @@ RPM_HASH = "bf32149b661b5062e7dde0e4b950ba43b8168795ff6cb26f30a3adc28928e06ffb31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-serif-kr-fonts \
-locale(ko) \
+locale-ko \
 noto-serif-kr-fonts \
 scalable-font-ko"
 

@@ -9,14 +9,13 @@ PV = "0.32"
 RPM_NAME = "bup-0.32-2.6.aarch64.rpm"
 RPM_HASH = "21487b5ae25835b2740baa0d2cb8d0b347b6996545f38135bf81335a69ab9c9e70d1662b1d80d1ba50427d20d44014f3dcfe74340102b25958dd10126037e68b"
 
-RPROVIDES:${PN} += "bup \
-bup(aarch-64)"
+RPROVIDES:${PN} += "bup"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 git-core \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 par2 \
 python3 \
 python3-fuse \

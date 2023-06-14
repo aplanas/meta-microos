@@ -11,13 +11,13 @@ RPM_HASH = "04f87bc81a92c934725ee157f26423d72b6fa2cb610dfd7c0b22e408b82ac41efde8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cloudwatchmetrics \
-mvn(com.amazonaws:aws-java-sdk-cloudwatchmetrics) \
-mvn(com.amazonaws:aws-java-sdk-cloudwatchmetrics:pom:)"
+mvn-com.amazonaws-aws-java-sdk-cloudwatchmetrics \
+mvn-com.amazonaws-aws-java-sdk-cloudwatchmetrics-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.amazonaws:aws-java-sdk-cloudwatch) \
-mvn(com.amazonaws:aws-java-sdk-core) \
-mvn(com.amazonaws:aws-java-sdk-dynamodb)"
+mvn-com.amazonaws-aws-java-sdk-cloudwatch \
+mvn-com.amazonaws-aws-java-sdk-core \
+mvn-com.amazonaws-aws-java-sdk-dynamodb"
 
 inherit rpm

@@ -32,9 +32,9 @@ RPM_NAME = "perl-Text-TabularDisplay-1.38-3.26.noarch.rpm"
 RPM_HASH = "4f3a75da95aeab9667bdc85854849915f8fa81071051c663c23cf4f0fc4104af8a2030658d4ddb60892b69f34a069ac31a837d77f1bb4077dbe433457b06fea1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::TabularDisplay) \
+RPROVIDES:${PN} += "perl-Text--TabularDisplay \
 perl-Text-TabularDisplay"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

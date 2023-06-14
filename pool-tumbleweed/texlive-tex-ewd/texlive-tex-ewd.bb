@@ -11,7 +11,7 @@ RPM_NAME = "texlive-tex-ewd-2023.201.svn15878-54.1.noarch.rpm"
 RPM_HASH = "62e88cdf5da249be6bdfb7795f5c57b7536885ceb3ea1255279264ba059394367e036d12f4883a641f0db0604448c9e468769fa688536143e12400b191d2b6dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dotnot.tex) \
+RPROVIDES:${PN} += "tex-dotnot.tex \
 texlive-tex-ewd"
 
 RDEPENDS:${PN} += "/bin/sh \

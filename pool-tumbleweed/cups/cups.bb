@@ -21,31 +21,27 @@ PV = "2.4.2"
 RPM_NAME = "cups-2.4.2-5.1.aarch64.rpm"
 RPM_HASH = "612d6e7f53066c80d50f63c82318b1143fed0dbd9e69741abad78dbbffefadc70a7b8661da4137fcfae4601da767e095c177a2c870297c8bbb323f88eff95e0e"
 
-RPROVIDES:${PN} += "config(cups) \
-cups \
-cups(aarch-64)"
+RPROVIDES:${PN} += "config-cups \
+cups"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/sbin/groupadd \
 coreutils \
 cups-client \
 cups-config \
-ld-linux-aarch64.so.1()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcups.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libgcc_s.so.1()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libm.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libusb-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libc.so.6 \
+libcups.so.2 \
+libdbus-1.so.3 \
+libgcc-s.so.1 \
+libgssapi-krb5.so.2 \
+libm.so.6 \
+libpam.so.0 \
+libstdc++.so.6 \
+libsystemd.so.0 \
+libusb-1.0.so.0 \
 systemd"
 
 inherit rpm

@@ -16,11 +16,10 @@ RPM_NAME = "libOgrePaging-devel-13.5.3-1.5.aarch64.rpm"
 RPM_HASH = "10531bb52974bad7ffd43b6a367963b8be145bd938abeed93849b65543dba01377861c4d8b98c2701350c73b7235fb0939f13affed8cac383e9e7933827c4e75"
 
 RPROVIDES:${PN} += "libOgrePaging-devel \
-libOgrePaging-devel(aarch-64) \
-pkgconfig(OGRE-Paging)"
+pkgconfig-OGRE-Paging"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgrePaging13_5 \
-pkgconfig(OGRE)"
+libOgrePaging13-5 \
+pkgconfig-OGRE"
 
 inherit rpm

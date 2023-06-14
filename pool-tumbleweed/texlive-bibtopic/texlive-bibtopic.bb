@@ -18,7 +18,7 @@ RPM_NAME = "texlive-bibtopic-2023.201.1.1asvn15878-53.1.noarch.rpm"
 RPM_HASH = "b64abdc1229c04604189ea8e9952e8920e4affa52f07b5b6c5200972922fa5fdea13d47989331bca746e559b19f8456dd0d74d8f8356941a38ea3621ef5b0e28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bibtopic.sty) \
+RPROVIDES:${PN} += "tex-bibtopic.sty \
 texlive-bibtopic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

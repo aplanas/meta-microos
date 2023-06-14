@@ -11,39 +11,30 @@ PV = "1.13.1"
 RPM_NAME = "tigervnc-1.13.1-3.1.aarch64.rpm"
 RPM_HASH = "9c78385fe45dd53ca694bf6c05da85a8373c6852da2fd6b0638644aa1ee586ec470ac3b6eaec1002d849dfcca14adc25c9177da3f240599612377b8578c52fea"
 
-RPROVIDES:${PN} += "application() \
-application(vncviewer.desktop) \
-metainfo() \
-metainfo(org.tigervnc.vncviewer.metainfo.xml) \
-tigervnc \
-tigervnc(aarch-64) \
+RPROVIDES:${PN} += "tigervnc \
 tightvnc \
 vnc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfltk.so.1.3()(64bit) \
-libfltk_images.so.1.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libgnutls.so.30(GNUTLS_3_6_3)(64bit) \
-libhogweed.so.6()(64bit) \
-libhogweed.so.6(HOGWEED_6)(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libnettle.so.8()(64bit) \
-libnettle.so.8(NETTLE_8)(64bit) \
-libpixman-1.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXi.so.6 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libc.so.6 \
+libfltk-images.so.1.3 \
+libfltk.so.1.3 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgnutls.so.30 \
+libhogweed.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libnettle.so.8 \
+libpixman-1.so.0 \
+libstdc++.so.6 \
+libz.so.1 \
 update-alternatives"
 
 inherit rpm

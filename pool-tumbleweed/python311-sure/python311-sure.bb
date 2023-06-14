@@ -9,13 +9,13 @@ RPM_NAME = "python311-sure-2.0.0-3.5.noarch.rpm"
 RPM_HASH = "275a864e52bef7afa0f29ebfcf1f1f6e05e6925c3057afac07544d81bca084c420e4d9105a1c04a7d5bc6889c8877d0fd6a9672daac1e054eeac56f5facdb08e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sure) \
+RPROVIDES:${PN} += "python3.11dist-sure \
 python311-sure \
-python3dist(sure)"
+python3dist-sure"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-six \
 update-alternatives"
 

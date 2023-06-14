@@ -9,15 +9,14 @@ PV = "5.9.3"
 RPM_NAME = "python39-net-snmp-5.9.3-4.6.aarch64.rpm"
 RPM_HASH = "31f8e5445ef39ccd5265fac55c85871bcd624e2b8b94449633f5ac4ea5ed3b5e0530f0afe6ad43d7be8acb52f88f5ee8f2d2bd99821e358de0362ba28aad1391"
 
-RPROVIDES:${PN} += "python3.9dist(netsnmp-python) \
+RPROVIDES:${PN} += "python3.9dist-netsnmp-python \
 python39-net-snmp \
-python39-net-snmp(aarch-64) \
-python3dist(netsnmp-python)"
+python3dist-netsnmp-python"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnetsnmp.so.40()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnetsnmp.so.40 \
 libsnmp40 \
-python(abi)"
+python-abi"
 
 inherit rpm

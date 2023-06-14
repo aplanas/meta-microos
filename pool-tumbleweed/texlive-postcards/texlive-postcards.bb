@@ -13,7 +13,7 @@ RPM_NAME = "texlive-postcards-2023.201.svn21641-52.1.noarch.rpm"
 RPM_HASH = "39e6c2f5ea15eadd82a7db7a73be4dbd7d5ca555d99c99a3a2f9b8f3b4c748bfd8a0a0e1d1105ec9d24498511b217bfd050f2db90227dcf8950f5a76cb7d20f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(postcards.cls) \
+RPROVIDES:${PN} += "tex-postcards.cls \
 texlive-postcards"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(letter.cls) \
-tex(mailing.sty) \
+tex-letter.cls \
+tex-mailing.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

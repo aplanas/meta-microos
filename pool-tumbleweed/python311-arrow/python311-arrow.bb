@@ -16,11 +16,11 @@ RPM_NAME = "python311-arrow-1.2.3-2.1.noarch.rpm"
 RPM_HASH = "ffefa9ff3227a59cd5c5ac899d1cc73bcaf75949547be623a357db17211aa8d99dbc2db08e3235e1eca287e61f82d588c36c0a0374e4e9863fffcbd6dfddfba1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(arrow) \
+RPROVIDES:${PN} += "python3.11dist-arrow \
 python311-arrow \
-python3dist(arrow)"
+python3dist-arrow"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-python-dateutil"
 
 inherit rpm

@@ -13,8 +13,8 @@ RPM_NAME = "texlive-ms-2023.201.svn57473-54.1.noarch.rpm"
 RPM_HASH = "0a0d9475dd86e1b774ae9383a4e84149483911bdf9116a8d506a123fa0ea8514164bad85297af10aecf3f27be8fb373ed13aa77f7289a1480d88c63642a91aa8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(count1to.sty) \
-tex(multitoc.sty) \
+RPROVIDES:${PN} += "tex-count1to.sty \
+tex-multitoc.sty \
 texlive-ms"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(everyshi.sty) \
-tex(ifthen.sty) \
-tex(multicol.sty) \
+tex-everyshi.sty \
+tex-ifthen.sty \
+tex-multicol.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

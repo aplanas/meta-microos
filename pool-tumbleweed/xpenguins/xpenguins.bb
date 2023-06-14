@@ -11,23 +11,19 @@ PV = "3.2.1"
 RPM_NAME = "xpenguins-3.2.1-1.8.aarch64.rpm"
 RPM_HASH = "0f3c094e0902182ad024b36e9ab0957dbe60e3a0ff59397fcfa3d950fa256c00c5ed3ce0e97ff5d88b2ba26bd5da8578678c2b9f6350566e16e07f45c3ca1786"
 
-RPROVIDES:${PN} += "application() \
-application(xpenguins-stop.desktop) \
-application(xpenguins.desktop) \
-xpenguins \
-xpenguins(aarch-64)"
+RPROVIDES:${PN} += "xpenguins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXpm.so.4()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXpm.so.4 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6"
 
 inherit rpm

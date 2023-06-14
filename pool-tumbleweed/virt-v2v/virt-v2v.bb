@@ -12,8 +12,7 @@ PV = "2.0.7"
 RPM_NAME = "virt-v2v-2.0.7-2.3.aarch64.rpm"
 RPM_HASH = "07fc1e7c5c4ba7f94c3e000aace0de519b6c02ad948003469a1cdce1aeff88f8f81e029bbe8909397112d6ea935b1a21d0bbcda67955c22c07b57dc381f56307"
 
-RPROVIDES:${PN} += "virt-v2v \
-virt-v2v(aarch-64)"
+RPROVIDES:${PN} += "virt-v2v"
 
 RDEPENDS:${PN} += "/usr/bin/gawk \
 /usr/bin/gzip \
@@ -21,19 +20,19 @@ RDEPENDS:${PN} += "/usr/bin/gawk \
 /usr/bin/virsh \
 curl \
 guestfs-tools \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libguestfs.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libguestfs.so.0 \
 libguestfs0 \
-libjansson.so.4()(64bit) \
-libm.so.6()(64bit) \
-libnbd.so.0()(64bit) \
-libosinfo-1.0.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libvirt.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+libjansson.so.4 \
+libm.so.6 \
+libnbd.so.0 \
+libosinfo-1.0.so.0 \
+libpcre2-8.so.0 \
+libvirt.so.0 \
+libxml2.so.2 \
 openssh-clients \
 ovmf \
 unzip"

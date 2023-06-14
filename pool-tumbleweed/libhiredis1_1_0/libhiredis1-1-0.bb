@@ -8,15 +8,14 @@ PV = "1.1.0"
 RPM_NAME = "libhiredis1_1_0-1.1.0-1.3.aarch64.rpm"
 RPM_HASH = "de20e9106a0f6e54b7a6990feefafa838418f134b67d8b750c3a8eb0c090655f314497356355562ad9a3f739c48318c77256a556d37f44e6472464f9c9515a94"
 
-RPROVIDES:${PN} += "libhiredis.so.1.1.0()(64bit) \
-libhiredis1_1_0 \
-libhiredis1_1_0(aarch-64) \
-libhiredis_ssl.so.1.1.0()(64bit)"
+RPROVIDES:${PN} += "libhiredis-ssl.so.1.1.0 \
+libhiredis.so.1.1.0 \
+libhiredis1-1-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

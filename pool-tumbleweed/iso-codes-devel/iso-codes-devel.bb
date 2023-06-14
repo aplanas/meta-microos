@@ -11,7 +11,7 @@ RPM_HASH = "c8048164b2e86d67a2b33262f07805787e2f6ba4a279d0c336abee4377cc3cc97149
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iso-codes-devel \
-pkgconfig(iso-codes)"
+pkgconfig-iso-codes"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 iso-codes"

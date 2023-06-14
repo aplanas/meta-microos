@@ -11,16 +11,15 @@ PV = "3.6.3"
 RPM_NAME = "deltarpm-3.6.3-2.6.aarch64.rpm"
 RPM_HASH = "62e45a81cbdede87cbb036757ae950b0bee4f2c4ef40616dd7f908b2e7ee62e88e709d6bf97d1ccdb186ad23fcdbfdadd79fcd059c3a9a90289813ec93273552"
 
-RPROVIDES:${PN} += "deltarpm \
-deltarpm(aarch-64)"
+RPROVIDES:${PN} += "deltarpm"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblzma.so.5()(64bit) \
-librpm.so.9()(64bit) \
-librpmio.so.9()(64bit) \
-libzstd.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+liblzma.so.5 \
+librpm.so.9 \
+librpmio.so.9 \
+libzstd.so.1"
 
 inherit rpm

@@ -8,17 +8,16 @@ PV = "1.2.1"
 RPM_NAME = "sendfax-1.2.1-9.3.aarch64.rpm"
 RPM_HASH = "1151c5a47b5cfae78b1c2b20d316a78e0b172fb5c35ea8be820442403c95cc85ccf51e4258056fc2cd5651db9fb06aed9aac08e36d72cae7b11c6c1d8e1e23ee"
 
-RPROVIDES:${PN} += "config(sendfax) \
-fax_daemon \
-sendfax \
-sendfax(aarch-64)"
+RPROVIDES:${PN} += "config-sendfax \
+fax-daemon \
+sendfax"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 g3utils \
-group(uucp) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+group-uucp \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 mgetty \
 permissions \
 shadow"

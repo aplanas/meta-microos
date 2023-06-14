@@ -9,7 +9,6 @@ RPM_NAME = "lsb-4.0.fake-3.6.aarch64.rpm"
 RPM_HASH = "dae1c427629ec0234108bae92947d45cf9ca29ce8753bfe9ceb29c5161ab831e5af1cda845a16c73b15409fea767245a811201809f9df23baf90de332076cc85"
 
 RPROVIDES:${PN} += "lsb \
-lsb(aarch-64) \
 lsb-core-aarch64 \
 lsb-core-noarch \
 lsb-graphics-aarch64 \

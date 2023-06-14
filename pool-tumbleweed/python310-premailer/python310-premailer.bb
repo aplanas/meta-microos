@@ -12,11 +12,11 @@ RPM_HASH = "b34f10b9922541ade526cf9065e6214c1f9de87bfccfe3eddd43bcf4ceee37f1eee0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-premailer \
-python3.10dist(premailer) \
+python3.10dist-premailer \
 python310-premailer \
-python3dist(premailer)"
+python3dist-premailer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cachetools \
 python310-cssselect \
 python310-cssutils \

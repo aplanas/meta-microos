@@ -19,13 +19,12 @@ PV = "1.14"
 RPM_NAME = "python311-quicktions-1.14-1.3.aarch64.rpm"
 RPM_HASH = "20256935577f94c7b63b8234b3b9e7063781237ec7a38b789c0c63f167976fa0016e19388e3065ef6a0e0afebdc709aa62ac6152222e1873e40442cbc05c8957"
 
-RPROVIDES:${PN} += "python3.11dist(quicktions) \
+RPROVIDES:${PN} += "python3.11dist-quicktions \
 python311-quicktions \
-python311-quicktions(aarch-64) \
-python3dist(quicktions)"
+python3dist-quicktions"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

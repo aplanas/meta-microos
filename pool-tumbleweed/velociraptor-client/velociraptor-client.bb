@@ -15,16 +15,15 @@ PV = "0.6.7.5~git81.01be570"
 RPM_NAME = "velociraptor-client-0.6.7.5~git81.01be570-3.2.aarch64.rpm"
 RPM_HASH = "a2f5604b7fc222d215f466f4efaed44b0bb4c859ec3370da02951494892adb8c3eb747ddd41549a32446af94908e79932460c3d88893bb2c18db0ae4022e7640"
 
-RPROVIDES:${PN} += "config(velociraptor-client) \
-velociraptor-client \
-velociraptor-client(aarch-64)"
+RPROVIDES:${PN} += "config-velociraptor-client \
+velociraptor-client"
 
 RDEPENDS:${PN} += "/bin/sh \
-group(velociraptor) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
-user(velociraptor)"
+group-velociraptor \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1 \
+libzstd.so.1 \
+user-velociraptor"
 
 inherit rpm

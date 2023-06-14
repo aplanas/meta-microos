@@ -13,9 +13,8 @@ PV = "1.3.4"
 RPM_NAME = "qqwing-devel-1.3.4-2.20.aarch64.rpm"
 RPM_HASH = "a78a7f0fd2baffa2d2544086bbccfb60637265c37d18bc23370a35486e691e84901357469eb26106c54a56e5f18c428cbb008ae12fbb20c26fbfe78a3a355cbd"
 
-RPROVIDES:${PN} += "pkgconfig(qqwing) \
-qqwing-devel \
-qqwing-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-qqwing \
+qqwing-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqqwing2"

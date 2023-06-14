@@ -9,11 +9,11 @@ RPM_HASH = "f415d0202b601eb5356a7caf8c1a666d2d0da1870c5b87e3d0b046a7c9f0720b7e60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-qcs-api-client \
-python3.10dist(qcs-api-client) \
+python3.10dist-qcs-api-client \
 python310-qcs-api-client \
-python3dist(qcs-api-client)"
+python3dist-qcs-api-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-attrs \
 python310-dateutil \

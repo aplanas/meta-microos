@@ -16,12 +16,12 @@ RPM_NAME = "python39-azure-keyvault-keys-4.8.0-1.2.noarch.rpm"
 RPM_HASH = "41a34e14cea42f5a3e976d8dd6b08a5f3909690cbb0f2ba53873e3b6c22a59c13310196b0cf0f25a667f33e01b8d6240d55645d6e2cf967b8c98dd72e9f8d566"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-keyvault-keys) \
+RPROVIDES:${PN} += "python3.9dist-azure-keyvault-keys \
 python39-azure-keyvault-keys \
-python3dist(azure-keyvault-keys)"
+python3dist-azure-keyvault-keys"
 
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python39-typing-extensions >= 4.0.1 if python39-base < 3.8 \
+python-abi \
 python39-azure-common \
 python39-azure-core \
 python39-azure-keyvault-nspkg \

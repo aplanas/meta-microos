@@ -13,14 +13,13 @@ RPM_HASH = "79143439ec958b0d1cd8433d20869632997c59cb40bcf59a66c0d8ec22d85191790f
 
 RPROVIDES:${PN} += "gtksourceview-doc \
 gtksourceview2-devel \
-gtksourceview2-devel(aarch-64) \
-pkgconfig(gtksourceview-2.0)"
+pkgconfig-gtksourceview-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-devel \
-libgtksourceview-2_0-0 \
+libgtksourceview-2-0-0 \
 libxml2-devel \
-pkgconfig(gtk+-2.0) \
-pkgconfig(libxml-2.0)"
+pkgconfig-gtk+-2.0 \
+pkgconfig-libxml-2.0"
 
 inherit rpm

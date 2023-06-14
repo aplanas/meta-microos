@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wireplumber-audio"
 
-RDEPENDS:${PN} += "libwireplumber-0_4-0 \
+RDEPENDS:${PN} += "libwireplumber-0-4-0 \
 wireplumber"
 
 inherit rpm

@@ -21,10 +21,10 @@ RPM_NAME = "perl-Data-Page-2.03-1.15.noarch.rpm"
 RPM_HASH = "abf8bfc2ff9bbc1fe8cc5dbe52c441682a32352c82b0a2a6c21c546e6f15c23d0cf1f218012131cc675173470e071e6d3cbeb977903aaf29221346ba704f9312"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::Page) \
+RPROVIDES:${PN} += "perl-Data--Page \
 perl-Data-Page"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Accessor::Chained::Fast)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Accessor--Chained--Fast"
 
 inherit rpm

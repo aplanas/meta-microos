@@ -9,11 +9,11 @@ RPM_HASH = "badf8b4223453c1eace62e152ebe7c948c01bd602fe589862949b38ffd140481b295
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-plette \
-python3.10dist(plette) \
+python3.10dist-plette \
 python310-plette \
-python3dist(plette)"
+python3dist-plette"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tomlkit"
 
 inherit rpm

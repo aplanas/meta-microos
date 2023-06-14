@@ -10,8 +10,8 @@ RPM_NAME = "texlive-pst-bezier-2023.201.0.0.03svn41981-52.1.noarch.rpm"
 RPM_HASH = "e22f37997cfb9a116a4ca74883cf041903768d4b007f7f2c21bfaa0c3ff8518a3acb389e551c1a756e2f9e3b4d6ec4b8d95f33c2aa419ab3345a91814ebbf8ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-bezier.sty) \
-tex(pst-bezier.tex) \
+RPROVIDES:${PN} += "tex-pst-bezier.sty \
+tex-pst-bezier.tex \
 texlive-pst-bezier"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(pstricks.sty) \
+tex-expl3.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

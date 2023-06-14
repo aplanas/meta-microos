@@ -16,12 +16,12 @@ RPM_HASH = "d9364d67cfd34d9d4247be88dbf21c65386ed4890d77ddbc4780ea4e9d142462d6c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-osc-tiny \
-python3.10dist(osc-tiny) \
+python3.10dist-osc-tiny \
 python310-osc-tiny \
-python3dist(osc-tiny)"
+python3dist-osc-tiny"
 
-RDEPENDS:${PN} += "(python310-cached-property if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-cached-property if python310-base < 3.8 \
+python-abi \
 python310-PyYAML \
 python310-lxml \
 python310-python-dateutil \

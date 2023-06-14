@@ -10,11 +10,10 @@ PV = "0.61"
 RPM_NAME = "perl-Sys-CPU-0.61-5.27.aarch64.rpm"
 RPM_HASH = "4f5f0440422bffed552a810ec2a8fab93421ff0d01264db02fbad4c54b00feca440f72d151b0eb0e00df036853a214d49fe983a6b80b2673d02da1c54bd08706"
 
-RPROVIDES:${PN} += "perl(Sys::CPU) \
-perl-Sys-CPU \
-perl-Sys-CPU(aarch-64)"
+RPROVIDES:${PN} += "perl-Sys--CPU \
+perl-Sys-CPU"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "keylime-verifier"
 RDEPENDS:${PN} += "/bin/sh \
 keylime-config \
 keylime-logrotate \
-keylime-tpm_cert_store \
+keylime-tpm-cert-store \
 python3-keylime"
 
 inherit rpm

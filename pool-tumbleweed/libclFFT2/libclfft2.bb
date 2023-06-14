@@ -19,16 +19,15 @@ PV = "2.12.2"
 RPM_NAME = "libclFFT2-2.12.2-6.8.aarch64.rpm"
 RPM_HASH = "e27483b570f9bb2aff8d871e4cfeff79b9df711b8edc19cb2ee8b7d47eb28862b091522f13e2dbf9e52bf3886c2dc86534d63dcd67d1b2da97c6bb191aaf5bec"
 
-RPROVIDES:${PN} += "libclFFT.so.2()(64bit) \
-libclFFT2 \
-libclFFT2(aarch-64)"
+RPROVIDES:${PN} += "libclFFT.so.2 \
+libclFFT2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenCL.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenCL.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

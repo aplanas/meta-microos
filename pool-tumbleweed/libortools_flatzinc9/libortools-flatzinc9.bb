@@ -7,28 +7,27 @@ PV = "9.6"
 RPM_NAME = "libortools_flatzinc9-9.6-1.1.aarch64.rpm"
 RPM_HASH = "a0e53e96467bfc86de55c2feae372e68a49b685e885f5408da87701190d9fe94030c318ca8e06c4f4a021a77ea91657308dd402a11be2a230f9369efa0091ce5"
 
-RPROVIDES:${PN} += "libortools_flatzinc.so.9()(64bit) \
-libortools_flatzinc9 \
-libortools_flatzinc9(aarch-64)"
+RPROVIDES:${PN} += "libortools-flatzinc.so.9 \
+libortools-flatzinc9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libabsl_flags_internal.so.2301.0.0()(64bit) \
-libabsl_flags_marshalling.so.2301.0.0()(64bit) \
-libabsl_flags_reflection.so.2301.0.0()(64bit) \
-libabsl_hash.so.2301.0.0()(64bit) \
-libabsl_log_internal_check_op.so.2301.0.0()(64bit) \
-libabsl_log_internal_conditions.so.2301.0.0()(64bit) \
-libabsl_log_internal_message.so.2301.0.0()(64bit) \
-libabsl_log_internal_nullguard.so.2301.0.0()(64bit) \
-libabsl_raw_hash_set.so.2301.0.0()(64bit) \
-libabsl_str_format_internal.so.2301.0.0()(64bit) \
-libabsl_strings.so.2301.0.0()(64bit) \
-libabsl_throw_delegate.so.2301.0.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libortools.so.9()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libabsl-flags-internal.so.2301.0.0 \
+libabsl-flags-marshalling.so.2301.0.0 \
+libabsl-flags-reflection.so.2301.0.0 \
+libabsl-hash.so.2301.0.0 \
+libabsl-log-internal-check-op.so.2301.0.0 \
+libabsl-log-internal-conditions.so.2301.0.0 \
+libabsl-log-internal-message.so.2301.0.0 \
+libabsl-log-internal-nullguard.so.2301.0.0 \
+libabsl-raw-hash-set.so.2301.0.0 \
+libabsl-str-format-internal.so.2301.0.0 \
+libabsl-strings.so.2301.0.0 \
+libabsl-throw-delegate.so.2301.0.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libortools.so.9 \
+libprotobuf-3.21.12.so \
+libstdc++.so.6"
 
 inherit rpm

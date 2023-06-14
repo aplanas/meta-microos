@@ -13,11 +13,11 @@ RPM_HASH = "24234e94b3c53e4af02999e6791f7b7b66984850100c1678c23faf6860e151f85cf1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xvfbwrapper \
-python3.10dist(xvfbwrapper) \
+python3.10dist-xvfbwrapper \
 python310-xvfbwrapper \
-python3dist(xvfbwrapper)"
+python3dist-xvfbwrapper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 xorg-x11-Xvfb"
 
 inherit rpm

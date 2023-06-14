@@ -7,21 +7,15 @@ PV = "6.5.1"
 RPM_NAME = "qt6-sql-mysql-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "c6df01964cbfe1048e3d6b4176a980cf3f4407edf269b8c9bb831c90965d0096ce48b68b0ee0250e915b7a4ebb259d620c52671523a48e69a5122098e3d16592"
 
-RPROVIDES:${PN} += "libqsqlmysql.so()(64bit) \
-libqsqlmysql.so(Qt_6)(64bit) \
-qt6-sql-mysql \
-qt6-sql-mysql(aarch-64)"
+RPROVIDES:${PN} += "libqsqlmysql.so \
+qt6-sql-mysql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Sql.so.6()(64bit) \
-libQt6Sql.so.6(Qt_6)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Sql.so.6 \
 libQt6Sql6 \
-libc.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmariadb_3)(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libmariadb.so.3 \
+libstdc++.so.6"
 
 inherit rpm

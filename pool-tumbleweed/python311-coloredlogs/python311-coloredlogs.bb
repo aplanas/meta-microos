@@ -14,13 +14,13 @@ RPM_NAME = "python311-coloredlogs-15.0.1-4.1.noarch.rpm"
 RPM_HASH = "7fbdaa735e2c35d36cd1f65db6b18d9d55e42ebf7e1c237b53919b0ba092a40a77de6a695b41d97fb97500f9a81eb6754dbb36eec3efd32851ff371539dcebd1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(coloredlogs) \
+RPROVIDES:${PN} += "python3.11dist-coloredlogs \
 python311-coloredlogs \
-python3dist(coloredlogs)"
+python3dist-coloredlogs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-capturer \
 python311-humanfriendly \
 update-alternatives"

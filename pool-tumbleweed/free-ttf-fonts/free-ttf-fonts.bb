@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "free-ttf-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

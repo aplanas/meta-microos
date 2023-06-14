@@ -15,11 +15,11 @@ RPM_HASH = "ba2dc82465c5e9fd1503ef5e041a3b049b5c1a0515ae0c6cee97af073a0bc58121c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-partd \
-python3.10dist(partd) \
+python3.10dist-partd \
 python310-partd \
-python3dist(partd)"
+python3dist-partd"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-locket \
 python310-toolz"
 

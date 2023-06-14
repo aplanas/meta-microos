@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-cognitiveservices-search-autosuggest-0.2.0-2.11.noarc
 RPM_HASH = "b2b6abda947e43ea2c4a142ba8b973dd96fc445ecfecf4258a336db779343e4238cc37207ebf428f4365a4c7bb14822503c654b46ac0edb3ec238ad3a7a3a5a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-search-autosuggest) \
+RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-search-autosuggest \
 python39-azure-cognitiveservices-search-autosuggest \
-python3dist(azure-cognitiveservices-search-autosuggest)"
+python3dist-azure-cognitiveservices-search-autosuggest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-cognitiveservices-nspkg \
 python39-azure-cognitiveservices-search-nspkg \
 python39-azure-common \

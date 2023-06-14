@@ -10,16 +10,16 @@ RPM_HASH = "56deb6444b316e5d56c7888a97ff612adb3b8e7aa7a9617bd31865df32b889b1b47a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-script-ant \
-mvn(org.apache.maven.plugin-tools:maven-script-ant) \
-mvn(org.apache.maven.plugin-tools:maven-script-ant:pom:)"
+mvn-org.apache.maven.plugin-tools-maven-script-ant \
+mvn-org.apache.maven.plugin-tools-maven-script-ant-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(org.apache.ant:ant-launcher) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-ant-factory) \
-mvn(org.codehaus.plexus:plexus-archiver)"
+mvn-org.apache.ant-ant \
+mvn-org.apache.ant-ant-launcher \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.codehaus.plexus-plexus-ant-factory \
+mvn-org.codehaus.plexus-plexus-archiver"
 
 inherit rpm

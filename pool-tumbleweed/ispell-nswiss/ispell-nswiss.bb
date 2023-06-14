@@ -11,10 +11,9 @@ PV = "20161207"
 RPM_NAME = "ispell-nswiss-20161207-2.14.aarch64.rpm"
 RPM_HASH = "9d1eacdd4e5bf01411149690541b87de939f0eaf3f925408cf4798f49d1bc65408c70c56edc1292d2ca06d770eb8f6362b093c626d6d06dc24536d4727fd24b0"
 
-RPROVIDES:${PN} += "ispell-nswiss \
-ispell-nswiss(aarch-64) \
-ispell_dictionary \
-locale(ispell:de_CH)"
+RPROVIDES:${PN} += "ispell-dictionary \
+ispell-nswiss \
+locale-ispell-de-CH"
 
 RDEPENDS:${PN} += ""
 

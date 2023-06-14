@@ -8,17 +8,16 @@ RPM_NAME = "argus-client-3.0.8.2-3.15.aarch64.rpm"
 RPM_HASH = "0ff1aea9aade680f5baa459bde18226910581e18091c9345f04e65eb7626aecbf704587245d3851714946cd6ec7b59caf2fb7c9a2b4334a36d8ac69f4c2e95d2"
 
 RPROVIDES:${PN} += "argus-client \
-argus-client(aarch-64) \
-config(argus-client)"
+config-argus-client"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 argus \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libtinfo.so.6()(64bit) \
-libwrap.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncurses.so.6 \
+libreadline.so.8 \
+libtinfo.so.6 \
+libwrap.so.0"
 
 inherit rpm

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-jobname-suffix-2023.201.1.0svn64797-55.1.noarch.rpm"
 RPM_HASH = "2c51e24991a5ee41f165afedc4b10e9e2de48c1e8da3630023996bfeb6bf673bf5fde1f925896d406939b1c7083477e9c6d25de6a85a481f1d10dd9ea7ee7cbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(jobname-suffix.sty) \
+RPROVIDES:${PN} += "tex-jobname-suffix.sty \
 texlive-jobname-suffix"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
+tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

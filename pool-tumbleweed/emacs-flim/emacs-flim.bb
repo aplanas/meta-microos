@@ -13,6 +13,6 @@ flim"
 
 RDEPENDS:${PN} += "emacs \
 emacs-apel \
-emacs_program"
+emacs-program"
 
 inherit rpm

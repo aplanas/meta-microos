@@ -9,11 +9,10 @@ PV = "1.24"
 RPM_NAME = "datefudge-1.24-1.10.aarch64.rpm"
 RPM_HASH = "e20dbf37a176c3a56e6568e5235f9c18efbbc4fc555e298455b414cda6fe7be944c5c498258cf76f5a4e9584b5515b33ed775c3c43faef74364d318213d680f3"
 
-RPROVIDES:${PN} += "datefudge \
-datefudge(aarch-64)"
+RPROVIDES:${PN} += "datefudge"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

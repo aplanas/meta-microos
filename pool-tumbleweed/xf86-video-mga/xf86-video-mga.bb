@@ -20,11 +20,10 @@ PV = "2.0.1"
 RPM_NAME = "xf86-video-mga-2.0.1-1.4.aarch64.rpm"
 RPM_HASH = "05e6f15fff9d4f39ba6c8beda4da7b57350d8f8833e14e6dddba063fd38540ed9b6b8327ec672359af2cae94a4c953e55d17a81d1e10cb093a547fdaba43cfbf"
 
-RPROVIDES:${PN} += "xf86-video-mga \
-xf86-video-mga(aarch-64)"
+RPROVIDES:${PN} += "xf86-video-mga"
 
-RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "X11-ABI-VIDEODRV \
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_NAME = "python39-openapi-core-0.16.1-1.3.noarch.rpm"
 RPM_HASH = "d591fbb721da6f0c65c48dcd482168e695b7c7b861e5e2b93374ecf77189e2db89e3b90d7f20adba8d042f82bdeac2e40f299425b2dfbfabe21634c6b398458b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(openapi-core) \
+RPROVIDES:${PN} += "python3.9dist-openapi-core \
 python39-openapi-core \
-python3dist(openapi-core)"
+python3dist-openapi-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Werkzeug \
 python39-isodate \
 python39-jsonschema-spec \

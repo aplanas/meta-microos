@@ -10,10 +10,10 @@ RPM_HASH = "c2a8b2128a8d5b508cabb9760d9410c8f72d1937ea848a5ce79ea807961db7c892b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liberation-fonts \
-locale(bg;el;ru;bg)"
+locale-bg;el;ru;bg"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

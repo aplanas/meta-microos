@@ -9,13 +9,13 @@ RPM_HASH = "12f1f19c7f51d76c19a3b21e7779817949d4e42b44f0c677405b3bd1bceda043cdf3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-transip \
-python3.10dist(transip) \
+python3.10dist-transip \
 python310-transip \
-python3dist(transip)"
+python3dist-transip"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cryptography \
 python310-requests \
 python310-setuptools \

@@ -11,8 +11,7 @@ RPM_NAME = "libevt-devel-20221022-3.9.aarch64.rpm"
 RPM_HASH = "5a740ac22556b0eeab081dcfdefc5e2533e6be0f3cabf679171b08effd57fb3711eea93a268c981c725aa75b340703b287273d422b2a7a0d827cb2c7315797f9"
 
 RPROVIDES:${PN} += "libevt-devel \
-libevt-devel(aarch-64) \
-pkgconfig(libevt)"
+pkgconfig-libevt"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \

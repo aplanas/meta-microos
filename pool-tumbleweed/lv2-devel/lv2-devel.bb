@@ -36,8 +36,7 @@ RPM_NAME = "lv2-devel-1.18.10-2.1.aarch64.rpm"
 RPM_HASH = "86cb09e25cd6da1e47c26eda331efa19fad3f60a3fdc1906755bb3df63ffc0e5049c67f3a859afa4eb0b93e81dc8694ae382931190a145b4b07cf9df9462b520"
 
 RPROVIDES:${PN} += "lv2-devel \
-lv2-devel(aarch-64) \
-pkgconfig(lv2)"
+pkgconfig-lv2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \

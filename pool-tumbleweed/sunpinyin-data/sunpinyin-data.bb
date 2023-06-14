@@ -10,8 +10,7 @@ PV = "2.0.99.2"
 RPM_NAME = "sunpinyin-data-2.0.99.2-2.2.aarch64.rpm"
 RPM_HASH = "afa72ae88283041352c0f831a4e887885fa1c46625d6c4536395530f98755ad3082bddfb78279b6241b773a8ab5051ec198a85aecc20fe6b65dddf451796f989"
 
-RPROVIDES:${PN} += "sunpinyin-data \
-sunpinyin-data(aarch-64)"
+RPROVIDES:${PN} += "sunpinyin-data"
 
 RDEPENDS:${PN} += ""
 

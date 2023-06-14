@@ -12,9 +12,9 @@ RPM_NAME = "python38-azure-ai-language-nspkg-1.0.0-1.7.noarch.rpm"
 RPM_HASH = "7ad3ec462b424c0228590b4efc254980de4a3edacef36430fb07535a9e20ed0c657d349844787c5786fc9fda13a8f8396be24d41c8f4d43a90fb611570ed6c5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.8dist(azure-ai-language-nspkg) \
+RPROVIDES:${PN} += "python3.8dist-azure-ai-language-nspkg \
 python38-azure-ai-language-nspkg \
-python3dist(azure-ai-language-nspkg)"
+python3dist-azure-ai-language-nspkg"
 
 RDEPENDS:${PN} += "python38-azure-ai-nspkg \
 python38-azure-nspkg"

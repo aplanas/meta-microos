@@ -11,24 +11,21 @@ PV = "16.1"
 RPM_NAME = "pulseaudio-module-bluetooth-16.1-3.1.aarch64.rpm"
 RPM_HASH = "3b3f626cbc43fd6a54db94384731c5956c56baba35dae98bc319bd0f2f984dde6110287a86c2fcc16c498821a1b69b7c2cc8b17cb50af01458be29fca97cc740"
 
-RPROVIDES:${PN} += "libbluez5-util.so()(64bit) \
-pulseaudio-module-bluetooth \
-pulseaudio-module-bluetooth(aarch-64)"
+RPROVIDES:${PN} += "libbluez5-util.so \
+pulseaudio-module-bluetooth"
 
 RDEPENDS:${PN} += "bluez \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstapp-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libpulsecommon-16.1.so()(64bit) \
-libpulsecore-16.1.so()(64bit) \
-libsbc.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstapp-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libpulse.so.0 \
+libpulsecommon-16.1.so \
+libpulsecore-16.1.so \
+libsbc.so.1 \
 pulseaudio"
 
 inherit rpm

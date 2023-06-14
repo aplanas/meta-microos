@@ -10,11 +10,11 @@ RPM_HASH = "853cc38ba1a5eb273ce006fd29a7f63203ba6115ea482e5bb6b0353b8d79606de512
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-tastypie \
-python3.10dist(django-tastypie) \
+python3.10dist-django-tastypie \
 python310-django-tastypie \
-python3dist(django-tastypie)"
+python3dist-django-tastypie"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-python-dateutil \
 python310-python-mimeparse"

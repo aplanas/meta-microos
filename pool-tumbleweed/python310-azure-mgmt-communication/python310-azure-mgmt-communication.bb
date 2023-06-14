@@ -11,12 +11,12 @@ RPM_HASH = "1de8272ed733c695c48a1abfd8aa1b576348546c3f0bd1cd02e6f0c122475b7e9f0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-communication \
-python3.10dist(azure-mgmt-communication) \
+python3.10dist-azure-mgmt-communication \
 python310-azure-mgmt-communication \
-python3dist(azure-mgmt-communication)"
+python3dist-azure-mgmt-communication"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

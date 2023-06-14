@@ -9,11 +9,11 @@ RPM_HASH = "707fde9295ef9cbd3b51aa2913bb6ac3d124c6a20dcfafc76404a3b454d5b906944f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pykeepass \
-python3.10dist(pykeepass) \
+python3.10dist-pykeepass \
 python310-pykeepass \
-python3dist(pykeepass)"
+python3dist-pykeepass"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-argon2-cffi \
 python310-construct \
 python310-future \

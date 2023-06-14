@@ -19,8 +19,8 @@ RPM_NAME = "texlive-qcm-2023.201.2.1svn63833-53.1.noarch.rpm"
 RPM_HASH = "0c7dede266b4c78bf3af6822551678b5930ba6783a9ec85a0a22f5563cf95734590910434caf37c8301da1936638bc968523a7353dd2428197553fff997edae5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(qcm.cls) \
-tex(qcm.sty) \
+RPROVIDES:${PN} += "tex-qcm.cls \
+tex-qcm.sty \
 texlive-qcm"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,10 +29,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(ifthen.sty) \
-tex(tabularx.sty) \
-tex(verbatim.sty) \
+tex-calc.sty \
+tex-ifthen.sty \
+tex-tabularx.sty \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

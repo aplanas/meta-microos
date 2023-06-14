@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gwenhywfar-lang \
 gwenhywfar-lang-all \
-locale(gwenhywfar:de)"
+locale-gwenhywfar-de"
 
 RDEPENDS:${PN} += "gwenhywfar"
 

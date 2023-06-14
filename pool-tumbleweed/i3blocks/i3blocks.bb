@@ -15,16 +15,15 @@ PV = "1.5"
 RPM_NAME = "i3blocks-1.5-2.8.aarch64.rpm"
 RPM_HASH = "d8f684220f1b88a3ed81eda2755acdaa1ca73d73c3ab9abbf3b1d0287cb9bfb43aa4da980bd3d40c4127f3dcf14c47dd83bbf6ea85d66e5dcea9e831a2c82070"
 
-RPROVIDES:${PN} += "config(i3blocks) \
-i3blocks \
-i3blocks(aarch-64)"
+RPROVIDES:${PN} += "config-i3blocks \
+i3blocks"
 
 RDEPENDS:${PN} += "acpi \
 alsa-utils \
 i3 \
 iproute2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 xclip"
 
 inherit rpm

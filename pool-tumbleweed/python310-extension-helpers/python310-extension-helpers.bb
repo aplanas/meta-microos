@@ -16,11 +16,11 @@ RPM_HASH = "2744c2ffb6cac5d51f4fab4cb83a4b10a1a50932e2dd9d33816dbf4892cc96eeb297
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-extension-helpers \
-python3.10dist(extension-helpers) \
+python3.10dist-extension-helpers \
 python310-extension-helpers \
-python3dist(extension-helpers)"
+python3dist-extension-helpers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

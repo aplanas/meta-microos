@@ -9,11 +9,11 @@ RPM_HASH = "626431749525bcc3574d336e5d1bdb1862559cc918d0c89225a5af84f2b58befcd90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-knack \
-python3.10dist(knack) \
+python3.10dist-knack \
 python310-knack \
-python3dist(knack)"
+python3dist-knack"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-argcomplete \
 python310-jmespath \

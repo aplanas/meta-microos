@@ -11,11 +11,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-phonenumbers \
 python3-phonenumberslite \
-python3.10dist(phonenumbers) \
+python3.10dist-phonenumbers \
 python310-phonenumbers \
 python310-phonenumberslite \
-python3dist(phonenumbers)"
+python3dist-phonenumbers"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

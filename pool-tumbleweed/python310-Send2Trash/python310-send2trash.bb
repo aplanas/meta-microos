@@ -15,15 +15,15 @@ RPM_HASH = "33b11ad9dcb1362fb786ff82445d9282909774b301eb25365de055ee85d793f17375
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Send2Trash \
-python3.10dist(send2trash) \
+python3.10dist-send2trash \
 python310-Send2Trash \
-python3dist(send2trash)"
+python3dist-send2trash"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
-typelib(GObject) \
-typelib(Gio) \
+python-abi \
+typelib-GObject \
+typelib-Gio \
 update-alternatives"
 
 inherit rpm

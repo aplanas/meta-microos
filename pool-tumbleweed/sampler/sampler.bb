@@ -7,10 +7,9 @@ PV = "1.1.0"
 RPM_NAME = "sampler-1.1.0-2.12.aarch64.rpm"
 RPM_HASH = "b1eb9dd725669ae555bfd09e15a7cee32c02bbd6a60f128c0fdfb7c411c3607f0cbab68ec604b9ec10637a74c471c24808672fb6d8c0c26226233e53b14869bb"
 
-RPROVIDES:${PN} += "sampler \
-sampler(aarch-64)"
+RPROVIDES:${PN} += "sampler"
 
-RDEPENDS:${PN} += "libasound.so.2()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libasound.so.2 \
+libc.so.6"
 
 inherit rpm

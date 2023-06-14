@@ -15,17 +15,16 @@ PV = "2.6.1"
 RPM_NAME = "libgensiocpp4-2.6.1-1.4.aarch64.rpm"
 RPM_HASH = "cc29f8b46fe7bec6f279d9aff1f1699dc5b7eec0997ea723e3ea24b6cecf8447578513694143b3e4792a4ef40a5fc78c4849621d6547241fe763771e14720e23"
 
-RPROVIDES:${PN} += "libgensiocpp.so.4()(64bit) \
-libgensiocpp4 \
-libgensiocpp4(aarch-64)"
+RPROVIDES:${PN} += "libgensiocpp.so.4 \
+libgensiocpp4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgensio.so.4()(64bit) \
-libgensioosh.so.0()(64bit) \
-libgensiooshcpp.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgensio.so.4 \
+libgensioosh.so.0 \
+libgensiooshcpp.so.0 \
+libstdc++.so.6"
 
 inherit rpm

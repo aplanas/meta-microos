@@ -12,12 +12,12 @@ RPM_NAME = "texlive-pdftex-2023.201.svn66243-51.1.noarch.rpm"
 RPM_HASH = "87c6c8ddf0f3716c5385f03dccf37c0abd7925ea9e66d6f4e547f69ce1a24675b29cbff390e8df00efedcd5f5d649f4880bb1576e78cf77fe3c16f1c83799fc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dummy-space.map) \
-tex(dummy-space.tfm) \
-tex(glyphtounicode.tex) \
-tex(pdfcolor.tex) \
-tex(pdftex-dvi.tex) \
-tex(pdftexspace.tfm) \
+RPROVIDES:${PN} += "tex-dummy-space.map \
+tex-dummy-space.tfm \
+tex-glyphtounicode.tex \
+tex-pdfcolor.tex \
+tex-pdftex-dvi.tex \
+tex-pdftexspace.tfm \
 texlive-pdftex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,12 +26,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
-tex(load-unicode-data.tex) \
-tex(pdftexconfig.tex) \
-tex(updmap.cfg) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
+tex-load-unicode-data.tex \
+tex-pdftexconfig.tex \
+tex-updmap.cfg \
 texlive \
 texlive-cm \
 texlive-dehyph \

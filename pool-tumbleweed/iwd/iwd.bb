@@ -10,14 +10,13 @@ PV = "2.4"
 RPM_NAME = "iwd-2.4-1.1.aarch64.rpm"
 RPM_HASH = "79de7eae91d4c8c05a47d68e65a1e3d642ad0e7b96b62d4a307628bb8901637fca97d254c2d9aa51504c6523b8097408d0b3af4bec940abdffbc393bd35ee6f1"
 
-RPROVIDES:${PN} += "iwd \
-iwd(aarch-64)"
+RPROVIDES:${PN} += "iwd"
 
-RDEPENDS:${PN} += "(kmod(pkcs8_key_parser.ko) if kernel) \
+RDEPENDS:${PN} += "-kmod(pkcs8-key-parser.ko) if kernel \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libell.so.0()(64bit) \
-libreadline.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libell.so.0 \
+libreadline.so.8"
 
 inherit rpm

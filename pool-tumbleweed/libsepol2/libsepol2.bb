@@ -16,12 +16,11 @@ PV = "3.5"
 RPM_NAME = "libsepol2-3.5-1.3.aarch64.rpm"
 RPM_HASH = "271c292c57826187bfc71ebd8863a3092e8a352e06e5d359fe23b450e9f10243eb7c1744bbe22ed9608f54cda1717c755a5d8649f159ce92ca63e54b9d9dae77"
 
-RPROVIDES:${PN} += "libsepol.so.2()(64bit) \
-libsepol2 \
-libsepol2(aarch-64)"
+RPROVIDES:${PN} += "libsepol.so.2 \
+libsepol2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

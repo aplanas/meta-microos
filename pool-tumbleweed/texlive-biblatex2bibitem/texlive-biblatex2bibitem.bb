@@ -14,7 +14,7 @@ RPM_NAME = "texlive-biblatex2bibitem-2023.201.0.0.2.2svn61648-53.1.noarch.rpm"
 RPM_HASH = "cf0d4cda3b95beee53f90ea8f86878271df0e78d47ce4aa2dfebb8d73ea6bf2a32a7a9efcf25356cd6c678664cb9478e9fb31b8137130fa6007501f43688c2da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(biblatex2bibitem.sty) \
+RPROVIDES:${PN} += "tex-biblatex2bibitem.sty \
 texlive-biblatex2bibitem"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(biblatex.sty) \
+tex-biblatex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

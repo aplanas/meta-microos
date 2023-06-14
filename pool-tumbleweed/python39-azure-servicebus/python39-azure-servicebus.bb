@@ -13,14 +13,14 @@ RPM_NAME = "python39-azure-servicebus-7.10.0-1.1.noarch.rpm"
 RPM_HASH = "63a519da9d222279e076d4434ca4855fa3fc8db48d9506afac28b7f388253247bbec6943738cf8cbb183686def51203b30b203895a389014ab88fe408c8f8370"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-servicebus) \
+RPROVIDES:${PN} += "python3.9dist-azure-servicebus \
 python39-azure-servicebus \
-python3dist(azure-servicebus)"
+python3dist-azure-servicebus"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-core \
 python39-azure-nspkg \
 python39-isodate \
-python39-typing_extensions"
+python39-typing-extensions"
 
 inherit rpm

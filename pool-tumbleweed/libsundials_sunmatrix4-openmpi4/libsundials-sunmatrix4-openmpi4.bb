@@ -10,15 +10,14 @@ PV = "6.3.0"
 RPM_NAME = "libsundials_sunmatrix4-openmpi4-6.3.0-2.4.aarch64.rpm"
 RPM_HASH = "c026a61282ca88054b50ab5c7bca10bc1fee098cea0470b1b89427183ab6b1349fd75aefe6de0e308280dbee485342a37f2b18256b847a9f1a07ec52f9932c41"
 
-RPROVIDES:${PN} += "libsundials_sunmatrix4-openmpi4 \
-libsundials_sunmatrix4-openmpi4(aarch-64) \
-libsundials_sunmatrixband.so.4()(64bit) \
-libsundials_sunmatrixdense.so.4()(64bit) \
-libsundials_sunmatrixsparse.so.4()(64bit)"
+RPROVIDES:${PN} += "libsundials-sunmatrix4-openmpi4 \
+libsundials-sunmatrixband.so.4 \
+libsundials-sunmatrixdense.so.4 \
+libsundials-sunmatrixsparse.so.4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

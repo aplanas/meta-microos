@@ -12,13 +12,13 @@ RPM_NAME = "python39-metaextract-1.0.9-1.4.noarch.rpm"
 RPM_HASH = "3214deb0db950b569ad40e57082770d0798e0275ec1e0ce8912268108e83d2aa04d4f522fc0f3614584c91994f9ccfdd5e5a41fa6c0120ba867ea941151531e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(metaextract) \
+RPROVIDES:${PN} += "python3.9dist-metaextract \
 python39-metaextract \
-python3dist(metaextract)"
+python3dist-metaextract"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

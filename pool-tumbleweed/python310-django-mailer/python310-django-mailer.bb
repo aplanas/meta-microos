@@ -10,11 +10,11 @@ RPM_HASH = "84f882f3d6e4eefa9602a894cf9fc06721d52d260ec7392c9d22be5aa092762b3468
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-mailer \
-python3.10dist(django-mailer) \
+python3.10dist-django-mailer \
 python310-django-mailer \
-python3dist(django-mailer)"
+python3dist-django-mailer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-lockfile \
 python310-six"

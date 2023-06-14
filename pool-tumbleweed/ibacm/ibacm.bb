@@ -14,24 +14,20 @@ PV = "45.0"
 RPM_NAME = "ibacm-45.0-1.1.aarch64.rpm"
 RPM_HASH = "c830cc30da8f21987d1bbee51de325d5d7b3b9006d0b3d7b4c15f84e138f8985a02341f1f9b7a7ca62688c0dce93a2ac3726f34bd820d9785c718e6bcd811ba9"
 
-RPROVIDES:${PN} += "config(ibacm) \
+RPROVIDES:${PN} += "config-ibacm \
 ibacm \
-ibacm(aarch-64) \
-libibacmp.so()(64bit) \
+libibacmp.so \
 libibacmp1"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libibumad.so.3()(64bit) \
-libibverbs.so.1()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-route-3.so.200()(64bit) \
-libnl-route-3.so.200(libnl_3)(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-rdma-core(aarch-64) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libibumad.so.3 \
+libibverbs.so.1 \
+libnl-3.so.200 \
+libnl-route-3.so.200 \
+libsystemd.so.0 \
+rdma-core \
 systemd"
 
 inherit rpm

@@ -9,9 +9,7 @@ RPM_HASH = "84c9bc49529dcb71fa74fdf1d14b62fa69004a6b61ad83f2495868e3716dff439e88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scikit-build-core-pyproject \
-python3-scikit_build_core-pyproject \
-python310-scikit-build-core-pyproject \
-python310-scikit_build_core-pyproject"
+python310-scikit-build-core-pyproject"
 
 RDEPENDS:${PN} += "python310-distlib \
 python310-pathspec \

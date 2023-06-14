@@ -10,7 +10,7 @@ RPM_NAME = "texlive-babel-estonian-2023.201.1.1asvn38064-53.1.noarch.rpm"
 RPM_HASH = "6b00c39ddd0f2952892513fa4cf9225f66d4824a739f5d4bef8a751b8ffb3d26707532319af259e09a368a47dcd256dae292a435e51152fd5a59e8395ed9a916"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(estonian.ldf) \
+RPROVIDES:${PN} += "tex-estonian.ldf \
 texlive-babel-estonian"
 
 RDEPENDS:${PN} += "/bin/sh \

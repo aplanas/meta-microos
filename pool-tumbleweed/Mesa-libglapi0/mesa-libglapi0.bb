@@ -10,11 +10,10 @@ RPM_NAME = "Mesa-libglapi0-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "47d371d3774f18a4e33cb1860d583544082d5a1f2bf323784afbecf1bde52873872ae7e263d89c4e29ce591c5fe47808001a5a4a4bb0ad9bdcbc8d3a699d6560"
 
 RPROVIDES:${PN} += "Mesa-libglapi0 \
-Mesa-libglapi0(aarch-64) \
-libglapi.so.0()(64bit)"
+libglapi.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

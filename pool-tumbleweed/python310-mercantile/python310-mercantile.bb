@@ -14,13 +14,13 @@ RPM_HASH = "fbc8b960274348ddfe821cdaa3fb9ce9d2951970c977ea75fa69700804b49f62e5fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mercantile \
-python3.10dist(mercantile) \
+python3.10dist-mercantile \
 python310-mercantile \
-python3dist(mercantile)"
+python3dist-mercantile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 update-alternatives"
 

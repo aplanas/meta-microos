@@ -9,13 +9,13 @@ RPM_HASH = "6fd5331a0da39da4afd0d4a0c025f8947eebf2224cfd39282c1b265aec04cfad6ea4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-httpx \
-python3.10dist(httpx) \
+python3.10dist-httpx \
 python310-httpx \
-python3dist(httpx)"
+python3dist-httpx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-certifi \
 python310-httpcore \
 python310-idna \

@@ -12,20 +12,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcprov \
 bouncycastle \
-config(bouncycastle) \
-mvn(org.bouncycastle:bcprov-jdk15) \
-mvn(org.bouncycastle:bcprov-jdk15:pom:) \
-mvn(org.bouncycastle:bcprov-jdk15on) \
-mvn(org.bouncycastle:bcprov-jdk15on:pom:) \
-mvn(org.bouncycastle:bcprov-jdk15to18) \
-mvn(org.bouncycastle:bcprov-jdk15to18:pom:) \
-mvn(org.bouncycastle:bcprov-jdk16) \
-mvn(org.bouncycastle:bcprov-jdk16:pom:) \
-mvn(org.bouncycastle:bcprov-jdk18) \
-mvn(org.bouncycastle:bcprov-jdk18:pom:) \
-mvn(org.bouncycastle:bcprov-jdk18on) \
-mvn(org.bouncycastle:bcprov-jdk18on:pom:) \
-osgi(bcprov)"
+config-bouncycastle \
+mvn-org.bouncycastle-bcprov-jdk15 \
+mvn-org.bouncycastle-bcprov-jdk15-pom- \
+mvn-org.bouncycastle-bcprov-jdk15on \
+mvn-org.bouncycastle-bcprov-jdk15on-pom- \
+mvn-org.bouncycastle-bcprov-jdk15to18 \
+mvn-org.bouncycastle-bcprov-jdk15to18-pom- \
+mvn-org.bouncycastle-bcprov-jdk16 \
+mvn-org.bouncycastle-bcprov-jdk16-pom- \
+mvn-org.bouncycastle-bcprov-jdk18 \
+mvn-org.bouncycastle-bcprov-jdk18-pom- \
+mvn-org.bouncycastle-bcprov-jdk18on \
+mvn-org.bouncycastle-bcprov-jdk18on-pom- \
+osgi-bcprov"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \

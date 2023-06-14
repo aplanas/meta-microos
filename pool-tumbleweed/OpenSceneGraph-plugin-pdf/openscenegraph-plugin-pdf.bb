@@ -11,19 +11,18 @@ RPM_NAME = "OpenSceneGraph-plugin-pdf-3.6.5-8.6.aarch64.rpm"
 RPM_HASH = "b424ffc984ee9df67f9a8ef071e09356613bc3673b755419d1673932af9b4779f9fc8e5a8c967c06dbe1097b13ba5a2b462527708050c261d95edf2bef9aa81b"
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugin-pdf \
-OpenSceneGraph-plugin-pdf(aarch-64) \
-OpenSceneGraph-plugins:/usr/lib64/osgPlugins-3.6.5/osgdb_pdf.so \
-OpenSceneGraphPlugin(ext:pdf)"
+OpenSceneGraph-plugins-/usr/lib64/osgPlugins-3.6.5/osgdb-pdf.so \
+OpenSceneGraphPlugin-ext-pdf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libosg.so.161()(64bit) \
-libosgDB.so.161()(64bit) \
-libosgWidget.so.161()(64bit) \
-libpoppler-glib.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgobject-2.0.so.0 \
+libosg.so.161 \
+libosgDB.so.161 \
+libosgWidget.so.161 \
+libpoppler-glib.so.8 \
+libstdc++.so.6"
 
 inherit rpm

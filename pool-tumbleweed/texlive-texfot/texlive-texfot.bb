@@ -19,10 +19,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
-perl(IO::File) \
-perl(IPC::Open3) \
-perl(Pod::Usage) \
+perl-Getopt--Long \
+perl-IO--File \
+perl-IPC--Open3 \
+perl-Pod--Usage \
 sed \
 texlive \
 texlive-filesystem \

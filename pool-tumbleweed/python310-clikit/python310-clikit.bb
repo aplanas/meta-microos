@@ -10,11 +10,11 @@ RPM_HASH = "94eff32a4bd7892cd31ec028146c7d9f792db0f17d7fe329db95956f998df913a24d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clikit \
-python3.10dist(clikit) \
+python3.10dist-clikit \
 python310-clikit \
-python3dist(clikit)"
+python3dist-clikit"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-crashtest \
 python310-pastel \
 python310-pylev"

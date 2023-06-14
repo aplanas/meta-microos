@@ -9,13 +9,12 @@ PV = "2.3.3"
 RPM_NAME = "adplugdb-2.3.3-1.3.aarch64.rpm"
 RPM_HASH = "6383f18bf26149c8a6b08d99652023c149a9e7f0e43b78ccddc78bc446ee51bde7029163290db09cc59dadf531a2890a33b651cb1da303856d89c286d00dc366"
 
-RPROVIDES:${PN} += "adplugdb \
-adplugdb(aarch-64)"
+RPROVIDES:${PN} += "adplugdb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libadplug-2.3.3.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadplug-2.3.3.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

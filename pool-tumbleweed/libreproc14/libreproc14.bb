@@ -9,12 +9,11 @@ PV = "14.2.4"
 RPM_NAME = "libreproc14-14.2.4-3.1.aarch64.rpm"
 RPM_HASH = "c58e3e4e94720bba3dc69af21b7fbc4b00abbf016811ab233e3b226e8bcff770f7443afe08c83f0701a7af46295530242660d7b2240b1e2fd28fb591f7136a01"
 
-RPROVIDES:${PN} += "libreproc.so.14()(64bit) \
-libreproc14 \
-libreproc14(aarch-64)"
+RPROVIDES:${PN} += "libreproc.so.14 \
+libreproc14"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

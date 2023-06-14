@@ -17,17 +17,16 @@ PV = "1.6.1"
 RPM_NAME = "star-1.6.1-47.3.aarch64.rpm"
 RPM_HASH = "597111e3b1268a437c635c93cf7e16323da326b584ce9c1a0eda92521a2f4fa1d9d426742a073ebad91892dbb18482f0631f9d57da812982f397fd9f612f8972"
 
-RPROVIDES:${PN} += "config(star) \
-star \
-star(aarch-64)"
+RPROVIDES:${PN} += "config-star \
+star"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdeflt.so.1.0()(64bit) \
-libfind.so.4.0()(64bit) \
-librmt.so.1.0()(64bit) \
-libschily.so.2.0()(64bit) \
-libselinux.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libc.so.6 \
+libdeflt.so.1.0 \
+libfind.so.4.0 \
+librmt.so.1.0 \
+libschily.so.2.0 \
+libselinux.so.1"
 
 inherit rpm

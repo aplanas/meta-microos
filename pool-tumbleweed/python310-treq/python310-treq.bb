@@ -10,11 +10,11 @@ RPM_HASH = "8e8725e643c63759e802220bc9ea004ecf3afe11ef40fc79b2ee6f47efd50cc340ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-treq \
-python3.10dist(treq) \
+python3.10dist-treq \
 python310-treq \
-python3dist(treq)"
+python3dist-treq"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Twisted-tls \
 python310-attrs \
 python310-hyperlink \

@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eb-lang \
 eb-lang-all \
-locale(eb:ja)"
+locale-eb-ja"
 
 RDEPENDS:${PN} += "eb"
 

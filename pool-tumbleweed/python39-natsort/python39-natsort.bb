@@ -10,13 +10,13 @@ RPM_NAME = "python39-natsort-8.2.0-1.4.noarch.rpm"
 RPM_HASH = "3d94136d01d22003260d90751e078e6ffe8ed6ebb11a25445d55429b849ef005b4616310e5a04b40e129e63ae5ad1dddf025b7a7e2fee9bfb2da729d0187f39c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(natsort) \
+RPROVIDES:${PN} += "python3.9dist-natsort \
 python39-natsort \
-python3dist(natsort)"
+python3dist-natsort"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

@@ -23,12 +23,12 @@ RPM_NAME = "python39-requests-2.30.0-1.1.noarch.rpm"
 RPM_HASH = "054a7d8a2dbd8f992f08636685740d3a5ec973960a7757f6de21678ca02ce6166a048059168b651bc345ae5460b2d62230aeb2cb9eb245b1617a41aa7e2ea62b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(requests) \
+RPROVIDES:${PN} += "python3.9dist-requests \
 python39-requests \
-python3dist(requests)"
+python3dist-requests"
 
 RDEPENDS:${PN} += "ca-certificates \
-python(abi) \
+python-abi \
 python39 \
 python39-certifi \
 python39-charset-normalizer \

@@ -9,24 +9,23 @@ PV = "0.5.2"
 RPM_NAME = "libsigrok4-0.5.2-4.12.aarch64.rpm"
 RPM_HASH = "f8a08179296516ce81613243286b7edef103ebfb13154eabe25eaee76d8746e6d19752acfdb9ceaf318e8786d880a11da4eb6fb698295858859c3c6f4b3a035c"
 
-RPROVIDES:${PN} += "libsigrok.so.4()(64bit) \
-libsigrok4 \
-libsigrok4(aarch-64)"
+RPROVIDES:${PN} += "libsigrok.so.4 \
+libsigrok4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-libftdi1.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libhidapi-hidraw.so.0()(64bit) \
-libm.so.6()(64bit) \
-libserialport.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libbluetooth.so.3 \
+libc.so.6 \
+libftdi1.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libhidapi-hidraw.so.0 \
+libm.so.6 \
+libserialport.so.0 \
 libsigrok-data \
-libtirpc.so.3()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libzip.so.5()(64bit)"
+libtirpc.so.3 \
+libusb-1.0.so.0 \
+libzip.so.5"
 
 inherit rpm

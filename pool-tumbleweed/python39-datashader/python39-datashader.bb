@@ -27,13 +27,13 @@ RPM_NAME = "python39-datashader-0.15.0-1.1.noarch.rpm"
 RPM_HASH = "4bd9fa851b5a6afeaf3887f1e514d4f9cab473ca467da788a33d5d7690c1339773b25ed2dce7a060b5c718b4b474dcf00116d56abbd1bfbc8862685b6b164a96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(datashader) \
+RPROVIDES:${PN} += "python3.9dist-datashader \
 python39-datashader \
-python3dist(datashader)"
+python3dist-datashader"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-DataShape \
 python39-Pillow \
 python39-colorcet \

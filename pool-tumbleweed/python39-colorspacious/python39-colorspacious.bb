@@ -16,11 +16,11 @@ RPM_NAME = "python39-colorspacious-1.1.2-2.7.noarch.rpm"
 RPM_HASH = "068b98e6f7d707537c6c8f63b6f1951604bcb2d619077eea3c2c34299beed73a1dfaa7684b456994d92628b75bb6b39de8dbe174cf93581ddf3d0b63705e88d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(colorspacious) \
+RPROVIDES:${PN} += "python3.9dist-colorspacious \
 python39-colorspacious \
-python3dist(colorspacious)"
+python3dist-colorspacious"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numpy"
 
 inherit rpm

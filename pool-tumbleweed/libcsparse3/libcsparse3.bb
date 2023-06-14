@@ -23,14 +23,13 @@ PV = "3.2.0"
 RPM_NAME = "libcsparse3-3.2.0-49.1.aarch64.rpm"
 RPM_HASH = "d5bf12686cd1de40b8eaa04d5bf895a56a79334b35692d780e926af5e1597bc1bdd445b107d3a5ed88a525a95da314a1806825a33f09e77ad379b6d6a7f07cb8"
 
-RPROVIDES:${PN} += "libcsparse-3_2_0 \
-libcsparse.so.3()(64bit) \
-libcsparse3 \
-libcsparse3(aarch-64)"
+RPROVIDES:${PN} += "libcsparse-3-2-0 \
+libcsparse.so.3 \
+libcsparse3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

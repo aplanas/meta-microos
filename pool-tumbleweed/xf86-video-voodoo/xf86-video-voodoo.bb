@@ -38,11 +38,10 @@ PV = "1.2.6"
 RPM_NAME = "xf86-video-voodoo-1.2.6-1.2.aarch64.rpm"
 RPM_HASH = "a4180f7b72dd0914c5fa54f9abb8c4c33bc098c57e3770be7faed9849dfc6a3e606979e9455950e992b1c0602e4934114c24698a134fea8d80294270d142e706"
 
-RPROVIDES:${PN} += "xf86-video-voodoo \
-xf86-video-voodoo(aarch-64)"
+RPROVIDES:${PN} += "xf86-video-voodoo"
 
-RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "X11-ABI-VIDEODRV \
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

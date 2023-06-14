@@ -10,8 +10,8 @@ RPM_HASH = "ae7c95df9a2cf63dc2c2aee4aa803c0f816b0791137ec002f08085afbbb545f3d225
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-grc \
-tesseract-ocr-traineddata-greek_ancient \
-tesseract-traineddata-greek_ancient"
+tesseract-ocr-traineddata-greek-ancient \
+tesseract-traineddata-greek-ancient"
 
 RDEPENDS:${PN} += "tesseract-ocr"
 

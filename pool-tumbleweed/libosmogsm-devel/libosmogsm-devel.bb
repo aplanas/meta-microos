@@ -15,14 +15,13 @@ RPM_NAME = "libosmogsm-devel-1.8.0-1.1.aarch64.rpm"
 RPM_HASH = "fd334eee4929fc481ebc45b1389adeee3c15f5728d9beb24b78f5ee8344a1a6515da8a0589a6ff663df3a49812b8765f2cac4bd3df765813702d908f81d8f9ab"
 
 RPROVIDES:${PN} += "libosmogsm-devel \
-libosmogsm-devel(aarch-64) \
-pkgconfig(libosmogsm)"
+pkgconfig-libosmogsm"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmogsm18 \
-pkgconfig(libosmocore) \
-pkgconfig(libosmoisdn) \
-pkgconfig(talloc)"
+pkgconfig-libosmocore \
+pkgconfig-libosmoisdn \
+pkgconfig-talloc"
 
 inherit rpm

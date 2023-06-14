@@ -10,20 +10,19 @@ RPM_HASH = "b997ab326fa12266c8d3732e1b2c630466793191e9be0e6802e81201439c3832f0f1
 
 RPROVIDES:${PN} += "python3-scikit-learn \
 python3-sklearn \
-python3.10dist(scikit-learn) \
+python3.10dist-scikit-learn \
 python310-scikit-learn \
-python310-scikit-learn(aarch-64) \
 python310-sklearn \
-python3dist(scikit-learn) \
+python3dist-scikit-learn \
 sklearn"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-joblib \
 python310-numpy \
 python310-scipy \

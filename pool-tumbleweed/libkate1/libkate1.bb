@@ -16,12 +16,11 @@ PV = "0.4.1"
 RPM_NAME = "libkate1-0.4.1-26.15.aarch64.rpm"
 RPM_HASH = "6c26e8f59539df5b8fb83438f8ed6893bfd3a13119c1dc1029ffa80ef342ebf3c062b9488a6c194f102cf07af5fed180249c247ce45b74406396b48f15133124"
 
-RPROVIDES:${PN} += "libkate.so.1()(64bit) \
-libkate1 \
-libkate1(aarch-64)"
+RPROVIDES:${PN} += "libkate.so.1 \
+libkate1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

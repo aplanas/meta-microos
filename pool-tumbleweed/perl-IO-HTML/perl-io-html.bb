@@ -46,9 +46,9 @@ RPM_NAME = "perl-IO-HTML-1.004-1.12.noarch.rpm"
 RPM_HASH = "0c93bee4a1e191f7df3ce8759b067c5dce4b4db99cebe60fe3bff9d69f668cf11a1dca78d6d444a2a6998db85365cdacfa091217ddabb5480c753cb74653ef3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::HTML) \
+RPROVIDES:${PN} += "perl-IO--HTML \
 perl-IO-HTML"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

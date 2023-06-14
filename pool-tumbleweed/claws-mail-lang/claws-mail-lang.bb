@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "claws-mail-lang \
 claws-mail-lang-all \
-locale(claws-mail:ca) \
-locale(claws-mail:cs) \
-locale(claws-mail:da) \
-locale(claws-mail:de) \
-locale(claws-mail:el_GR) \
-locale(claws-mail:en_GB) \
-locale(claws-mail:es) \
-locale(claws-mail:fi) \
-locale(claws-mail:fr) \
-locale(claws-mail:hu) \
-locale(claws-mail:it) \
-locale(claws-mail:ja) \
-locale(claws-mail:nb) \
-locale(claws-mail:nl) \
-locale(claws-mail:pl) \
-locale(claws-mail:pt_BR) \
-locale(claws-mail:ro) \
-locale(claws-mail:ru) \
-locale(claws-mail:sk) \
-locale(claws-mail:sv) \
-locale(claws-mail:tr) \
-locale(claws-mail:zh_TW)"
+locale-claws-mail-ca \
+locale-claws-mail-cs \
+locale-claws-mail-da \
+locale-claws-mail-de \
+locale-claws-mail-el-GR \
+locale-claws-mail-en-GB \
+locale-claws-mail-es \
+locale-claws-mail-fi \
+locale-claws-mail-fr \
+locale-claws-mail-hu \
+locale-claws-mail-it \
+locale-claws-mail-ja \
+locale-claws-mail-nb \
+locale-claws-mail-nl \
+locale-claws-mail-pl \
+locale-claws-mail-pt-BR \
+locale-claws-mail-ro \
+locale-claws-mail-ru \
+locale-claws-mail-sk \
+locale-claws-mail-sv \
+locale-claws-mail-tr \
+locale-claws-mail-zh-TW"
 
 RDEPENDS:${PN} += "claws-mail"
 

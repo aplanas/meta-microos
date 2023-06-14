@@ -10,17 +10,16 @@ RPM_HASH = "9217094190199c0215579a004ecff234f3319e1fec00853956ba279a30dd0c122df1
 
 RPROVIDES:${PN} += "arpack-devel \
 arpack-ng-devel \
-arpack-ng-devel(aarch-64) \
-cmake(arpackng) \
-pkgconfig(arpack) \
-pkgconfig(arpackSolver)"
+cmake-arpackng \
+pkgconfig-arpack \
+pkgconfig-arpackSolver"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 blas-devel \
 gcc-fortran \
 lapack-devel \
 libarpack2 \
-pkgconfig(arpack) \
-pkgconfig(eigen3)"
+pkgconfig-arpack \
+pkgconfig-eigen3"
 
 inherit rpm

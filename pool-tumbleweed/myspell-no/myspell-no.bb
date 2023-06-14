@@ -8,8 +8,8 @@ RPM_NAME = "myspell-no-20221012-1.2.noarch.rpm"
 RPM_HASH = "4e8aac3ccfe53a38eecddf38237ac95bf8227dc9735f7ee9c50d407727a84deba4df610f5f33cc6c1f0b7fb85c06ab9b133f321d56542502baa02fa073bc4fd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:no) \
-locale(seamonkey-spellchecker:no) \
+RPROVIDES:${PN} += "locale-libreoffice-no \
+locale-seamonkey-spellchecker-no \
 myspell-dictionary \
 myspell-no"
 

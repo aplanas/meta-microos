@@ -22,11 +22,11 @@ RPM_HASH = "5afc3224b9e3f5eceaed748478c970eee6e1f42e406c448d03a34378af0b1ad388af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sorl-thumbnail \
-python3.10dist(sorl-thumbnail) \
+python3.10dist-sorl-thumbnail \
 python310-sorl-thumbnail \
-python3dist(sorl-thumbnail)"
+python3dist-sorl-thumbnail"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_HASH = "ee9acea4211b49af84ccbe15433e379219a0ab19942b3cc6a1d53a2000dddb217a62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arphic-gbsn00lp-fonts \
-config(arphic-gbsn00lp-fonts) \
+config-arphic-gbsn00lp-fonts \
 ttf-arphic-gbsn00lp"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -16,7 +16,7 @@ RPM_NAME = "texlive-exam-randomizechoices-2023.201.0.0.2svn61719-52.1.noarch.rpm
 RPM_HASH = "b243ed58ebcb7d4883b1e012733f559e99e5c537de2fef05c5aedff171e11af342c4be31301bddb2426475f90ee4b1903a5c83c6ed5273b7c782024c3743bac0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(exam-randomizechoices.sty) \
+RPROVIDES:${PN} += "tex-exam-randomizechoices.sty \
 texlive-exam-randomizechoices"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(environ.sty) \
-tex(etoolbox.sty) \
-tex(pgffor.sty) \
+tex-environ.sty \
+tex-etoolbox.sty \
+tex-pgffor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

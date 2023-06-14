@@ -16,8 +16,8 @@ RPM_NAME = "texlive-pst-ode-2023.201.0.0.18svn65096-52.1.noarch.rpm"
 RPM_HASH = "cab604b543f782ba3565dde2b3a6059f3d2e7cf3a22c15a538e032cb6af445c02ed8dae7bbbce96e93e56d6b73353ae536efaf69475bcd6525c94af27d8a2b86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-ode.sty) \
-tex(pst-ode.tex) \
+RPROVIDES:${PN} += "tex-pst-ode.sty \
+tex-pst-ode.tex \
 texlive-pst-ode"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -28,15 +28,15 @@ RPROVIDES:${PN} += "gnome-shell-extension-pop-shell"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnome-shell \
-typelib(Clutter) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Meta) \
-typelib(Pango) \
-typelib(Shell) \
-typelib(St)"
+typelib-Clutter \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-Meta \
+typelib-Pango \
+typelib-Shell \
+typelib-St"
 
 inherit rpm

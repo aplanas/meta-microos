@@ -17,12 +17,11 @@ RPM_NAME = "dirac-devel-1.0.2-33.27.aarch64.rpm"
 RPM_HASH = "489a5ee079449c2bdc4f25cb72f1a79a20c9d886443f71bd5f4258a26794e73d73fdf72498cb217340f41c9f55839a3cc413f504ba0c270eac5f0e736c13bb35"
 
 RPROVIDES:${PN} += "dirac-devel \
-dirac-devel(aarch-64) \
 libdirac-devel \
-pkgconfig(dirac)"
+pkgconfig-dirac"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libdirac_decoder0 \
-libdirac_encoder0"
+libdirac-decoder0 \
+libdirac-encoder0"
 
 inherit rpm

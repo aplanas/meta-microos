@@ -16,13 +16,11 @@ PV = "8.0"
 RPM_NAME = "f3-8.0-1.11.aarch64.rpm"
 RPM_HASH = "2ce478138b282c64ddbada05026711a8ab0ea5b1b87d18e12e93dbcb86cf03448222bedf8c34e4b9b7a7410aff604c8e68f2459b99ea975f537ab99d053427a0"
 
-RPROVIDES:${PN} += "f3 \
-f3(aarch-64)"
+RPROVIDES:${PN} += "f3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libparted.so.2()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libparted.so.2 \
+libudev.so.1"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "3467b779fc73e0f3590fc3891f816b3ba2a3e9fbfe277150ff2ef1540ebaf635ce2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-calmjs \
-python3.10dist(calmjs) \
+python3.10dist-calmjs \
 python310-calmjs \
-python3dist(calmjs)"
+python3dist-calmjs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-calmjs.parse \
 python310-calmjs.types \
 update-alternatives"

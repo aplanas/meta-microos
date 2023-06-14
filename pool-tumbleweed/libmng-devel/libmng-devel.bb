@@ -11,8 +11,7 @@ RPM_NAME = "libmng-devel-2.0.3-3.3.aarch64.rpm"
 RPM_HASH = "14b6e01bc4e8c20a2958188a10996581cd3ac361d3900f02d36fc0c2ff83296ce1d089d0b6fd125b8728e893a7c8c934da8d6bbbff206048aaa2cf9a963b9647"
 
 RPROVIDES:${PN} += "libmng-devel \
-libmng-devel(aarch-64) \
-pkgconfig(libmng)"
+pkgconfig-libmng"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpeg-devel \

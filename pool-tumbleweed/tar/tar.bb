@@ -13,13 +13,12 @@ RPM_NAME = "tar-1.34-10.3.aarch64.rpm"
 RPM_HASH = "f7b2c04e6cd8b5506d86ccd33ad06769c8cc53cf3438c793bfeaf528d695c4481ee1090fbf8a5a0f680db785041425d81d6f2f3b07cac9114221ed08e4eaeef3"
 
 RPROVIDES:${PN} += "/bin/tar \
-base:/bin/tar \
-tar \
-tar(aarch-64)"
+base-/bin/tar \
+tar"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libc.so.6()(64bit) \
-libselinux.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libc.so.6 \
+libselinux.so.1"
 
 inherit rpm

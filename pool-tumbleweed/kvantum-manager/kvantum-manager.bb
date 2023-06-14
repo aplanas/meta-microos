@@ -7,23 +7,16 @@ PV = "1.0.10"
 RPM_NAME = "kvantum-manager-1.0.10-1.1.aarch64.rpm"
 RPM_HASH = "09da8b91e93e1a9815579d7861b94e123030372dfbbfe8e1263d71f34299b1a914df44c0191ef982015d8802da02c6627f8f39ad7039366cb4c64aff0658bbd2"
 
-RPROVIDES:${PN} += "application() \
-application(kvantummanager.desktop) \
-kvantum-manager \
-kvantum-manager(aarch-64)"
+RPROVIDES:${PN} += "kvantum-manager"
 
 RDEPENDS:${PN} += "kvantum-qt5 \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -11,8 +11,7 @@ RPM_HASH = "7e8f33d38190fc9d92e9614815ae353202262545109f99d44646f8b0c04313c49d20
 
 RPROVIDES:${PN} += "libixml-devel \
 libupnp-devel \
-libupnp-devel(aarch-64) \
-pkgconfig(libupnp)"
+pkgconfig-libupnp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libixml11 \

@@ -11,11 +11,11 @@ RPM_NAME = "python311-mutatorMath-3.0.1-4.7.noarch.rpm"
 RPM_HASH = "9dbe53cb79fa94b384e42afdfb005dff66e12af7b605378a2100ef876113ed6bffd3192805911d7b86d625f96d0d8ec7d3c5a9b7e62003bd77d4a18fba9c9854"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(mutatormath) \
+RPROVIDES:${PN} += "python3.11dist-mutatormath \
 python311-mutatorMath \
-python3dist(mutatormath)"
+python3dist-mutatormath"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-FontTools \
 python311-defcon \
 python311-fontMath \

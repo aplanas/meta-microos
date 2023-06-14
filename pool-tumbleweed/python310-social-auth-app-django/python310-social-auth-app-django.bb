@@ -11,11 +11,11 @@ RPM_HASH = "6c3f170293fe477820e701a47f1890be68f71a8805bf33023ef40b62e9d315208ea5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-social-auth-app-django \
-python3.10dist(social-auth-app-django) \
+python3.10dist-social-auth-app-django \
 python310-social-auth-app-django \
-python3dist(social-auth-app-django)"
+python3dist-social-auth-app-django"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-python-jose \
 python310-social-auth-core"

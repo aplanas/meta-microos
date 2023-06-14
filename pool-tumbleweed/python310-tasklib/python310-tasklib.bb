@@ -10,11 +10,11 @@ RPM_HASH = "02f7adb1b2ee2e89b62ba7b6349cc8a0bd36ba6c25f0d8d2d570d2cd7a9d23c14087
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tasklib \
-python3.10dist(tasklib) \
+python3.10dist-tasklib \
 python310-tasklib \
-python3dist(tasklib)"
+python3dist-tasklib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytz \
 python310-tzlocal \
 taskwarrior"

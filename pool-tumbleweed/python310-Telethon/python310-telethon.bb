@@ -9,11 +9,11 @@ RPM_HASH = "ec166822bfa583502276c4e360555865b7eafcfa09bc5b7800350164bb2d9c35323b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Telethon \
-python3.10dist(telethon) \
+python3.10dist-telethon \
 python310-Telethon \
-python3dist(telethon)"
+python3dist-telethon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pyaes \
 python310-rsa"
 

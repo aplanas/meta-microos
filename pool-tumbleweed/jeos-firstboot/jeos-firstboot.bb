@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeos-firstboot"
 
-RDEPENDS:${PN} += "(/usr/bin/nmtui if NetworkManager) \
+RDEPENDS:${PN} += "-/usr/bin/nmtui if NetworkManager \
 /bin/bash \
 /bin/sh \
 dialog \

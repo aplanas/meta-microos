@@ -17,9 +17,8 @@ PV = "0.1.9998svn3427"
 RPM_NAME = "kbuild-0.1.9998svn3427-1.11.aarch64.rpm"
 RPM_HASH = "2f973e9330bacb5ac377f3a871327d12b2f3c1ac48a7be0ab34bf60ea69bed465e1f0593f404a13049a9554d79b435d56f9f710735c877af9c45a7a557cbbcc6"
 
-RPROVIDES:${PN} += "kbuild \
-kbuild(aarch-64)"
+RPROVIDES:${PN} += "kbuild"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

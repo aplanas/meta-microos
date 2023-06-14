@@ -13,11 +13,11 @@ RPM_NAME = "python311-Flask-Compress-1.13-1.3.noarch.rpm"
 RPM_HASH = "42ea3aa197c5493ce70c317e9083fffe9c5fef8c3cd5e3bb4bb4b517851d57957353aed0b4d471a2cb9315dfe32a20d4c4f63094467569a8b474ec71e80785f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(flask-compress) \
+RPROVIDES:${PN} += "python3.11dist-flask-compress \
 python311-Flask-Compress \
-python3dist(flask-compress)"
+python3dist-flask-compress"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Brotli \
 python311-Flask"
 

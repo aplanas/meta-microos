@@ -10,14 +10,14 @@ RPM_HASH = "ac5c642608b290e868525bbc28b3ea606061114a5dd7c27ddf160efc10c5a430bdf0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nkdfu \
-python3.10dist(nkdfu) \
+python3.10dist-nkdfu \
 python310-nkdfu \
-python3dist(nkdfu)"
+python3dist-nkdfu"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 intelhex \
-python(abi) \
+python-abi \
 python310-fire \
 python310-libusb1 \
 python310-tqdm \

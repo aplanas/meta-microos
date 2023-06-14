@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi1-devel-data \
 pnetcdf-devel-data \
-rpm_macro(_pnetcdf_sonum) \
-rpm_macro(_pnetcdf_version)"
+rpm-macro--pnetcdf-sonum \
+rpm-macro--pnetcdf-version"
 
 RDEPENDS:${PN} += ""
 

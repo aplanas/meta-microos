@@ -9,10 +9,10 @@ RPM_HASH = "cf1671b5a973a96b4d97c81b280ce677cae5d997548a625cd052b590636f486e3669
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-makefun \
-python3.10dist(makefun) \
+python3.10dist-makefun \
 python310-makefun \
-python3dist(makefun)"
+python3dist-makefun"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

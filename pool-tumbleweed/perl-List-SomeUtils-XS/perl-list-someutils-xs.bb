@@ -17,12 +17,11 @@ PV = "0.58"
 RPM_NAME = "perl-List-SomeUtils-XS-0.58-1.26.aarch64.rpm"
 RPM_HASH = "8e8fa773d139a2a1746099ec50897b25c6e05eb74e580063e235f8160ad9233926288665941f506dad3b0662d6d6b1197b16f46237627844a9aa3439cad417ac"
 
-RPROVIDES:${PN} += "perl(List::SomeUtils::XS) \
-perl-List-SomeUtils-XS \
-perl-List-SomeUtils-XS(aarch-64)"
+RPROVIDES:${PN} += "perl-List--SomeUtils--XS \
+perl-List-SomeUtils-XS"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

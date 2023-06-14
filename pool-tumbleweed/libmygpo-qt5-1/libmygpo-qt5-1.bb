@@ -12,17 +12,14 @@ RPM_NAME = "libmygpo-qt5-1-1.1.0-2.23.aarch64.rpm"
 RPM_HASH = "65e0ec4ffcd928dc0ad9f48106a3550b7b1686931736d8b8f30f5d600f8c41eb528b40abe40a533721cc1f7670798849a734b8666a07837ab31cbffe1f88e664"
 
 RPROVIDES:${PN} += "libmygpo-qt5-1 \
-libmygpo-qt5-1(aarch-64) \
-libmygpo-qt5.so.1()(64bit)"
+libmygpo-qt5.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -9,12 +9,10 @@ RPM_HASH = "637d4730c6aeb6e19a8265ed4890cefb0c7f49c6fb4403977df39ee67d6d2ca6508b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-prometheus-client \
-python3-prometheus_client \
-python3.10dist(prometheus-client) \
+python3.10dist-prometheus-client \
 python310-prometheus-client \
-python310-prometheus_client \
-python3dist(prometheus-client)"
+python3dist-prometheus-client"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

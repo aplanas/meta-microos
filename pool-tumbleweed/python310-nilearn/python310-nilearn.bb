@@ -10,12 +10,12 @@ RPM_HASH = "b3b2d656d66d7d8e66adf3b84690df6290c5b5cdff3a7739a9acecc4b153030c426a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nilearn \
-python3.10dist(nilearn) \
+python3.10dist-nilearn \
 python310-nilearn \
-python3dist(nilearn)"
+python3dist-nilearn"
 
 RDEPENDS:${PN} += "/bin/bash \
-python(abi) \
+python-abi \
 python310-joblib \
 python310-matplotlib \
 python310-nibabel \

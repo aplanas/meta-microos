@@ -10,21 +10,20 @@ PV = "4.9"
 RPM_NAME = "libpolymake4_9-4.9-1.3.aarch64.rpm"
 RPM_HASH = "8e4f73ab03e5d28f32b426ebc90d500a1c16a269296cc4d9034ab02247a6776f2559c8232d962159927a8984b31d7755db68dc231f531da74bbedf0b9d83b98c"
 
-RPROVIDES:${PN} += "libpolymake-apps-rt.so.4.9()(64bit) \
-libpolymake.so.4.9()(64bit) \
-libpolymake4_9 \
-libpolymake4_9(aarch-64)"
+RPROVIDES:${PN} += "libpolymake-apps-rt.so.4.9 \
+libpolymake.so.4.9 \
+libpolymake4-9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libflint.so.17()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmpfr.so.6()(64bit) \
-libperl.so()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libflint.so.17 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgomp.so.1 \
+libm.so.6 \
+libmpfr.so.6 \
+libperl.so \
+libstdc++.so.6"
 
 inherit rpm

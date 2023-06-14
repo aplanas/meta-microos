@@ -22,16 +22,15 @@ PV = "4.3.1"
 RPM_NAME = "libvoikko1-4.3.1-1.10.aarch64.rpm"
 RPM_HASH = "67fbd6aa18dd524a2c00cb320381f5d085db2c63ef1c142739f7c7db5477136135103b2dc05542aed77d3da431e71085428ea2722aa6d072f15629e56302a53b"
 
-RPROVIDES:${PN} += "libvoikko.so.1()(64bit) \
-libvoikko1 \
-libvoikko1(aarch-64)"
+RPROVIDES:${PN} += "libvoikko.so.1 \
+libvoikko1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhfstospell.so.11()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhfstospell.so.11 \
+libstdc++.so.6 \
 malaga-suomi"
 
 inherit rpm

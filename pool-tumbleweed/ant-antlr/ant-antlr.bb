@@ -10,9 +10,9 @@ RPM_HASH = "3fd52e77be48198cc47d293f2eb66d792484b71bc547da215836d8387422f13523dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-antlr \
-config(ant-antlr) \
-mvn(org.apache.ant:ant-antlr) \
-mvn(org.apache.ant:ant-antlr:pom:)"
+config-ant-antlr \
+mvn-org.apache.ant-ant-antlr \
+mvn-org.apache.ant-ant-antlr-pom-"
 
 RDEPENDS:${PN} += "ant \
 antlr \

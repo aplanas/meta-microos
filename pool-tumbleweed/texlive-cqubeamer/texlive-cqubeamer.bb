@@ -12,7 +12,7 @@ RPM_NAME = "texlive-cqubeamer-2023.204.1.0svn54512-54.1.noarch.rpm"
 RPM_HASH = "53dc32e633ebdc3caf17152cfbfc3633d48c6d6e746191f3286992e80f00176ef24757abefa6ff4fa9f12eb9f1f7289c6478f506c853ba81584883c4ce9ef790"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cqubeamer.sty) \
+RPROVIDES:${PN} += "tex-cqubeamer.sty \
 texlive-cqubeamer"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,10 +21,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(bookmark.sty) \
-tex(etoolbox.sty) \
-tex(hyperref.sty) \
-tex(perpage.sty) \
+tex-bookmark.sty \
+tex-etoolbox.sty \
+tex-hyperref.sty \
+tex-perpage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,9 +13,9 @@ RPM_HASH = "6cc53614ee9bb7e0febd4c81d398aa3ef561e95f9c9ba6efc44ad13b5ae6755f8c91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "base64coder \
-mvn(biz.source_code:base64coder) \
-mvn(biz.source_code:base64coder:pom:) \
-osgi(biz.source_code.base64coder)"
+mvn-biz.source-code-base64coder \
+mvn-biz.source-code-base64coder-pom- \
+osgi-biz.source-code.base64coder"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -7,20 +7,19 @@ PV = "3.16"
 RPM_NAME = "mailutils-pop3d-3.16-1.2.aarch64.rpm"
 RPM_HASH = "2affbca4348661b00964a302c62cfed3fd5880931c95d3987827caf874eb010aac29f2267927ab04a04f32b1f9de13d880bdfffc47ed512c76b2effe4928b26e"
 
-RPROVIDES:${PN} += "mailutils-pop3d \
-mailutils-pop3d(aarch-64)"
+RPROVIDES:${PN} += "mailutils-pop3d"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmailutils.so.9()(64bit) \
-libmu_auth.so.9()(64bit) \
-libmu_dbm.so.9()(64bit) \
-libmu_dotmail.so.9()(64bit) \
-libmu_maildir.so.9()(64bit) \
-libmu_mbox.so.9()(64bit) \
-libmu_mh.so.9()(64bit) \
-libmuaux.so.9()(64bit) \
-libunistring.so.5()(64bit) \
-libwrap.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmailutils.so.9 \
+libmu-auth.so.9 \
+libmu-dbm.so.9 \
+libmu-dotmail.so.9 \
+libmu-maildir.so.9 \
+libmu-mbox.so.9 \
+libmu-mh.so.9 \
+libmuaux.so.9 \
+libunistring.so.5 \
+libwrap.so.0"
 
 inherit rpm

@@ -13,17 +13,14 @@ PV = "2.5.30"
 RPM_NAME = "libgphoto2_port12-2.5.30-2.1.aarch64.rpm"
 RPM_HASH = "8a7199ac7a0aeef7c5a43f97fcdd4ca61a038a914492990702b06210495acc8608359cf9919c9031635cc4cb9c800de3bd307652b0a2e25e888c8bd8766d2f82"
 
-RPROVIDES:${PN} += "libgphoto2_port.so.12()(64bit) \
-libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
-libgphoto2_port.so.12(LIBGPHOTO2_INTERNAL)(64bit) \
-libgphoto2_port12 \
-libgphoto2_port12(aarch-64)"
+RPROVIDES:${PN} += "libgphoto2-port.so.12 \
+libgphoto2-port12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblockdev.so.1()(64bit) \
-libltdl.so.7()(64bit) \
-libusb-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblockdev.so.1 \
+libltdl.so.7 \
+libusb-1.0.so.0"
 
 inherit rpm

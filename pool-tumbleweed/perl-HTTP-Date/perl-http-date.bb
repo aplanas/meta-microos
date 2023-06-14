@@ -101,11 +101,11 @@ RPM_NAME = "perl-HTTP-Date-6.05-1.14.noarch.rpm"
 RPM_HASH = "5ee5dd244be0546b4cf722dfca7d4646f8cc73f010a92205f72c5270ad6f97547fb02c1e56f4ddcf0f517f18ff78699b8e07c1dd834511240a8e806649fbd8e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Date) \
+RPROVIDES:${PN} += "perl-HTTP--Date \
 perl-HTTP-Date"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Time::Local) \
-perl(Time::Zone)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Time--Local \
+perl-Time--Zone"
 
 inherit rpm

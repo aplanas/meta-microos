@@ -123,11 +123,11 @@ RPM_NAME = "perl-Ref-Util-0.204-1.12.noarch.rpm"
 RPM_HASH = "c15f78301cacb784b97f33ce64ff175482b978aa1fc9504dbf174caa02cc3874d46259db62c34d3ffb4e73772386917d29c71b2282d2ce75c114464f308c17d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Ref::Util) \
-perl(Ref::Util::PP) \
+RPROVIDES:${PN} += "perl-Ref--Util \
+perl-Ref--Util--PP \
 perl-Ref-Util"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Ref::Util::XS)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Ref--Util--XS"
 
 inherit rpm

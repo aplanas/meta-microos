@@ -10,24 +10,19 @@ RPM_HASH = "afdaf5640df0f6d6857edbd4e1694f05789a6ad36a42aeefa5d01a14bbef3b80ddb4
 
 RPROVIDES:${PN} += "python3-PyQt6-Charts \
 python3-qtcharts-qt6 \
-python3.10dist(pyqt6-charts) \
+python3.10dist-pyqt6-charts \
 python310-PyQt6-Charts \
-python310-PyQt6-Charts(aarch-64) \
 python310-qtcharts-qt6 \
-python3dist(pyqt6-charts)"
+python3dist-pyqt6-charts"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Charts.so.6()(64bit) \
-libQt6Charts.so.6(Qt_6)(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Charts.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-PyQt6"
 
 inherit rpm

@@ -8,14 +8,13 @@ PV = "6.2.9"
 RPM_NAME = "gnuchess-6.2.9-2.7.aarch64.rpm"
 RPM_HASH = "bd9eebce61eb0bd9e722af02862a910851e02ff441e069c7f01197c257569dfa9a0c3e2e5434801f448aeec7deb4fa4aeced2c2f286551bb135ff2c8b6860918"
 
-RPROVIDES:${PN} += "chess_backend \
+RPROVIDES:${PN} += "chess-backend \
 gchess \
-gnuchess \
-gnuchess(aarch-64)"
+gnuchess"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8"
 
 inherit rpm

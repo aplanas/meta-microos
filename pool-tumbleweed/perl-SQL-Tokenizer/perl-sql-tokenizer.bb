@@ -22,9 +22,9 @@ RPM_NAME = "perl-SQL-Tokenizer-0.24-1.26.noarch.rpm"
 RPM_HASH = "59b70c3f634bafb712f5ee6f63ee5dc4a1c93645318631fdb867f15125962226166f69ee301538fc1cb74eccf17f7fb4015b6704599c363c9c425a83bddd0745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(SQL::Tokenizer) \
+RPROVIDES:${PN} += "perl-SQL--Tokenizer \
 perl-SQL-Tokenizer"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

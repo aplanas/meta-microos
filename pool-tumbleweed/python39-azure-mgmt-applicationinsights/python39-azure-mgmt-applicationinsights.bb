@@ -13,12 +13,12 @@ RPM_NAME = "python39-azure-mgmt-applicationinsights-4.0.0-1.1.noarch.rpm"
 RPM_HASH = "32027c76f7d80c190b48e1af8e5137e9e25bd4c80dca14ab047ce046b13c563ac9ab596f31f787fe4b11c9b67c48b0953f40a89cb3230944a303d84b135d85bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-applicationinsights) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-applicationinsights \
 python39-azure-mgmt-applicationinsights \
-python3dist(azure-mgmt-applicationinsights)"
+python3dist-azure-mgmt-applicationinsights"
 
-RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
+python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

@@ -9,11 +9,11 @@ RPM_HASH = "5bd4cb68e7bfdf74aaea4008e8cb742e19b6b98cc9b423d0a00a4e37d088ef003148
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydantic \
-python3.10dist(pydantic) \
+python3.10dist-pydantic \
 python310-pydantic \
-python3dist(pydantic)"
+python3dist-pydantic"
 
-RDEPENDS:${PN} += "python(abi) \
-python310-typing_extensions"
+RDEPENDS:${PN} += "python-abi \
+python310-typing-extensions"
 
 inherit rpm

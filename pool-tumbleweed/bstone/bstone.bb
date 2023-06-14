@@ -20,14 +20,13 @@ PV = "1.2.12"
 RPM_NAME = "bstone-1.2.12-2.1.aarch64.rpm"
 RPM_HASH = "7219ae44ddf73fdf3d8e80a0c0596448e5547b9618b05708b6e74abbd04d3c5bf99c4a3b259cb7416e4a26761f292b729438dfb7880a4c528345fcc5ea961fc0"
 
-RPROVIDES:${PN} += "bstone \
-bstone(aarch-64)"
+RPROVIDES:${PN} += "bstone"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

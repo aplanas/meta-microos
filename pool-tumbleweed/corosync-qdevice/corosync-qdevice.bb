@@ -8,21 +8,20 @@ PV = "2.4.6"
 RPM_NAME = "corosync-qdevice-2.4.6-1.3.aarch64.rpm"
 RPM_HASH = "08757bc65bbd6e563b193ae2d411eb3ddd61d3fcaaabc13acf6ad3219ee1317cd0ff7839b30b33e8b66ae0e27cbe548daf3ae4d07b822821bbd26014b85d7d6b"
 
-RPROVIDES:${PN} += "config(corosync-qdevice) \
-corosync-qdevice \
-corosync-qdevice(aarch-64)"
+RPROVIDES:${PN} += "config-corosync-qdevice \
+corosync-qdevice"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 corosync \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcmap.so.4()(64bit) \
-libcorosync_common.so.4()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libssl3.so()(64bit) \
-libvotequorum.so.8()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcmap.so.4 \
+libcorosync-common.so.4 \
+libnspr4.so \
+libnss3.so \
+libssl3.so \
+libvotequorum.so.8 \
 mozilla-nss-tools"
 
 inherit rpm

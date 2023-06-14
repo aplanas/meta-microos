@@ -18,10 +18,9 @@ PV = "4.4.7"
 RPM_NAME = "nagios-www-4.4.7-2.4.aarch64.rpm"
 RPM_HASH = "05e25f8f3a2ee47bcbae9fed98206b99abd92ff770c85fcd583309f3da6a46b4a1459a8d6f709fd24224c11bb73ee72303ed9d341be1e3aa0e5e492ef702c7da"
 
-RPROVIDES:${PN} += "config(nagios-www) \
-monitoring_webfrontend \
-nagios-www \
-nagios-www(aarch-64)"
+RPROVIDES:${PN} += "config-nagios-www \
+monitoring-webfrontend \
+nagios-www"
 
 RDEPENDS:${PN} += "/bin/logger \
 /bin/sh \
@@ -31,11 +30,11 @@ coreutils \
 gawk \
 gd \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgd.so.3()(64bit) \
-libm.so.6()(64bit) \
-mod_php_any \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgd.so.3 \
+libm.so.6 \
+mod-php-any \
 nagios \
 php \
 sed \

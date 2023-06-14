@@ -13,38 +13,31 @@ RPM_NAME = "quassel-client-0.14.0-1.5.aarch64.rpm"
 RPM_HASH = "20b340961591b249121dafa7e77e2363e6a4066bd609c83895c1e4e504a9ed780a47170e04fc0e4a6965e455b155ca757ee32aa6cb635e0f017c69b367c49989"
 
 RPROVIDES:${PN} += "quassel-client \
-quassel-client(aarch-64) \
-quassel_ui"
+quassel-ui"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libKF5NotifyConfig.so.5()(64bit) \
-libKF5SonnetUi.so.5()(64bit) \
-libKF5TextWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libdbusmenu-qt5.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsnore-qt5.so.0.7()(64bit) \
-libsnoresettings-qt5.so.0.7()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Notifications.so.5 \
+libKF5NotifyConfig.so.5 \
+libKF5SonnetUi.so.5 \
+libKF5TextWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libdbusmenu-qt5.so.2 \
+libgcc-s.so.1 \
+libsnore-qt5.so.0.7 \
+libsnoresettings-qt5.so.0.7 \
+libstdc++.so.6 \
+libz.so.1 \
 quassel-base \
 update-alternatives"
 

@@ -13,7 +13,7 @@ RPM_NAME = "console-setup-1.220-1.1.noarch.rpm"
 RPM_HASH = "5d0233ffece874d11fec156d40506bb953b9039ae82f3dc1b172489d8a213d9bf87e0da69b1500824ecb1674b82711e78644d4b5311d35270f78d4c74d304a62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(console-setup) \
+RPROVIDES:${PN} += "config-console-setup \
 console-setup"
 
 RDEPENDS:${PN} += "/bin/sh \

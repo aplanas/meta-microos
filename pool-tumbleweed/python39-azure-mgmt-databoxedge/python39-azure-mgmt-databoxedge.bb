@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-databoxedge-1.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "05a58f97d221b53eeeaa1023ff080b58e523ac825def3981fc6b1291ff8e9691317ba73cf3f68c367996972ee1206f4df20a98dc341684e839d879dda7ff2984"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-databoxedge) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-databoxedge \
 python39-azure-mgmt-databoxedge \
-python3dist(azure-mgmt-databoxedge)"
+python3dist-azure-mgmt-databoxedge"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

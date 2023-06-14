@@ -8,17 +8,16 @@ RPM_NAME = "python3-libprelude-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "4e2d9cb9ab5f0114c51d4c57e99cf8ecaedbcbbda3df59ae3ff2a231ef374c449b59ffe4f3ccf85085f09c97363858c4889a4f05ee3987ae0dded3c6a49bf2bd"
 
 RPROVIDES:${PN} += "python3-libprelude \
-python3-libprelude(aarch-64) \
-python3.10dist(prelude) \
-python3dist(prelude)"
+python3.10dist-prelude \
+python3dist-prelude"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprelude.so.28()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprelude.so.28 \
 libprelude28 \
-libpreludecpp.so.12()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+libpreludecpp.so.12 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

@@ -10,25 +10,25 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-recipes-lang \
 gnome-recipes-lang-all \
-locale(gnome-recipes:ar) \
-locale(gnome-recipes:ca) \
-locale(gnome-recipes:cs) \
-locale(gnome-recipes:de) \
-locale(gnome-recipes:en_GB) \
-locale(gnome-recipes:es) \
-locale(gnome-recipes:fi) \
-locale(gnome-recipes:fur) \
-locale(gnome-recipes:hu) \
-locale(gnome-recipes:id) \
-locale(gnome-recipes:ko) \
-locale(gnome-recipes:nb) \
-locale(gnome-recipes:nl) \
-locale(gnome-recipes:pl) \
-locale(gnome-recipes:pt_BR) \
-locale(gnome-recipes:sk) \
-locale(gnome-recipes:sl) \
-locale(gnome-recipes:sr) \
-locale(gnome-recipes:sv)"
+locale-gnome-recipes-ar \
+locale-gnome-recipes-ca \
+locale-gnome-recipes-cs \
+locale-gnome-recipes-de \
+locale-gnome-recipes-en-GB \
+locale-gnome-recipes-es \
+locale-gnome-recipes-fi \
+locale-gnome-recipes-fur \
+locale-gnome-recipes-hu \
+locale-gnome-recipes-id \
+locale-gnome-recipes-ko \
+locale-gnome-recipes-nb \
+locale-gnome-recipes-nl \
+locale-gnome-recipes-pl \
+locale-gnome-recipes-pt-BR \
+locale-gnome-recipes-sk \
+locale-gnome-recipes-sl \
+locale-gnome-recipes-sr \
+locale-gnome-recipes-sv"
 
 RDEPENDS:${PN} += "gnome-recipes"
 

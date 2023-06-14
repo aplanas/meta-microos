@@ -9,79 +9,63 @@ PV = "3.5"
 RPM_NAME = "tellico-3.5-1.1.aarch64.rpm"
 RPM_HASH = "c49acf01c339db4d9d82e55fd47cff9ff3da20e3cc8a907591b564a667cf825706dc8970a0fafe5d5a80c075faf3611f291b792a60ad03da84d01bebbce75555"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.tellico.desktop) \
-config(tellico) \
-metainfo() \
-metainfo(org.kde.tellico.appdata.xml) \
-mimehandler(application/x-tellico) \
-tellico \
-tellico(aarch-64)"
+RPROVIDES:${PN} += "config-tellico \
+tellico"
 
 RDEPENDS:${PN} += "/usr/bin/dbus-send \
 /usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Archive.so.5()(64bit) \
-libKF5Cddb.so.5()(64bit) \
-libKF5Codecs.so.5()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5FileMetaData.so.3()(64bit) \
-libKF5GuiAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5ItemModels.so.5()(64bit) \
-libKF5JobWidgets.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOFileWidgets.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5NewStuff.so.5()(64bit) \
-libKF5Sane.so.5()(64bit) \
-libKF5Service.so.5()(64bit) \
-libKF5Solid.so.5()(64bit) \
-libKF5SonnetCore.so.5()(64bit) \
-libKF5SonnetUi.so.5()(64bit) \
-libKF5TextWidgets.so.5()(64bit) \
-libKF5Wallet.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Charts.so.5()(64bit) \
-libQt5Charts.so.5(Qt_5)(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libcdio.so.19()(64bit) \
-libcdio.so.19(CDIO_19)(64bit) \
-libcsv.so.3()(64bit) \
-libexempi.so.8()(64bit) \
-libexslt.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpoppler-qt5.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit) \
-libv4l1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-libyaz.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5Archive.so.5 \
+libKF5Cddb.so.5 \
+libKF5Codecs.so.5 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5FileMetaData.so.3 \
+libKF5GuiAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5IconThemes.so.5 \
+libKF5ItemModels.so.5 \
+libKF5JobWidgets.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOFileWidgets.so.5 \
+libKF5KIOGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5NewStuff.so.5 \
+libKF5Sane.so.5 \
+libKF5Service.so.5 \
+libKF5Solid.so.5 \
+libKF5SonnetCore.so.5 \
+libKF5SonnetUi.so.5 \
+libKF5TextWidgets.so.5 \
+libKF5Wallet.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5WindowSystem.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Charts.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libcdio.so.19 \
+libcsv.so.3 \
+libexempi.so.8 \
+libexslt.so.0 \
+libm.so.6 \
+libpoppler-qt5.so.1 \
+libstdc++.so.6 \
+libtag.so.1 \
+libv4l1.so.0 \
+libxml2.so.2 \
+libxslt.so.1 \
+libyaz.so.5"
 
 inherit rpm

@@ -13,10 +13,10 @@ RPM_NAME = "python39-olefile-0.46-4.1.noarch.rpm"
 RPM_HASH = "263fedd2385eca329e20976821bc8862bb561fc85507c222535dc2b7caedf3d6a130dd8ec6cc7bd39e51a19ac560b9d796fbd1b550a3301e95c35ec4430685b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(olefile) \
+RPROVIDES:${PN} += "python3.9dist-olefile \
 python39-olefile \
-python3dist(olefile)"
+python3dist-olefile"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

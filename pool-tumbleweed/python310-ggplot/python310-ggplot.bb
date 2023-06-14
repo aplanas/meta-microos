@@ -12,11 +12,11 @@ RPM_HASH = "004b71ac7f4f4940f7a25c22d3db386884a650b0a85e834e867c23ea0099dd600838
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ggplot \
-python3.10dist(ggplot) \
+python3.10dist-ggplot \
 python310-ggplot \
-python3dist(ggplot)"
+python3dist-ggplot"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Cycler \
 python310-brewer2mpl \
 python310-matplotlib \

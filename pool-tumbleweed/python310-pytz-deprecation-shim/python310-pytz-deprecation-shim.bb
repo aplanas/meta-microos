@@ -22,10 +22,10 @@ RPM_HASH = "ce80bebab40a7d7028236d88d70d38468488a17ce5f41c9817b117107b89391bc74d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytz-deprecation-shim \
-python3.10dist(pytz-deprecation-shim) \
+python3.10dist-pytz-deprecation-shim \
 python310-pytz-deprecation-shim \
-python3dist(pytz-deprecation-shim)"
+python3dist-pytz-deprecation-shim"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

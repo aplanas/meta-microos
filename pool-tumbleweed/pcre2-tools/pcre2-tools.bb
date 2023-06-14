@@ -12,17 +12,16 @@ PV = "10.42"
 RPM_NAME = "pcre2-tools-10.42-3.3.aarch64.rpm"
 RPM_HASH = "bc113502b9eff93ac7793d93af8c2383836d2ab1a63f7f3ca612018f28404c8895554b9385490c6c6856ffe2020b0ed17a601f7ce422403b966b027573b1dfcd"
 
-RPROVIDES:${PN} += "pcre2-tools \
-pcre2-tools(aarch-64)"
+RPROVIDES:${PN} += "pcre2-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libedit.so.0()(64bit) \
-libpcre2-16.so.0()(64bit) \
-libpcre2-32.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libpcre2-posix.so.3()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libedit.so.0 \
+libpcre2-16.so.0 \
+libpcre2-32.so.0 \
+libpcre2-8.so.0 \
+libpcre2-posix.so.3 \
+libz.so.1"
 
 inherit rpm

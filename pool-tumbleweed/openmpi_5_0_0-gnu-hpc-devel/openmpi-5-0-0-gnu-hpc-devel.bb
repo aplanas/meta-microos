@@ -20,22 +20,21 @@ PV = "5.0.0"
 RPM_NAME = "openmpi_5_0_0-gnu-hpc-devel-5.0.0-2.3.aarch64.rpm"
 RPM_HASH = "44ab42c687e2b92e934206cd8a537b10cb9f1299f98ed1db1deda7c396201bf3c60342b0f9229c8e617ce24bb6d8841038e896e0af62523dcdafc55ff295122a"
 
-RPROVIDES:${PN} += "openmpi_5_0_0-gnu-hpc-devel \
-openmpi_5_0_0-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi-5-0-0-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libfabric.so.1()(64bit) \
-libhwloc.so.15()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libfabric.so.1 \
+libhwloc.so.15 \
 libibumad-devel \
 libibverbs-devel \
-libm.so.6()(64bit) \
-libucp.so.0()(64bit) \
-libucs.so.0()(64bit) \
-libuct.so.0()(64bit) \
-libz.so.1()(64bit) \
-openmpi_5_0_0-gnu-hpc"
+libm.so.6 \
+libucp.so.0 \
+libucs.so.0 \
+libuct.so.0 \
+libz.so.1 \
+openmpi-5-0-0-gnu-hpc"
 
 inherit rpm

@@ -12,13 +12,13 @@ RPM_HASH = "f182107f7c37f83003fc2a82e878c4f9b2264eac2a5be4592e458d877e4a2e5d1446
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-easydev \
-python3.10dist(easydev) \
+python3.10dist-easydev \
 python310-easydev \
-python3dist(easydev)"
+python3dist-easydev"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-colorama \
 python310-colorlog \
 python310-pexpect \

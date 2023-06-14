@@ -10,11 +10,11 @@ RPM_HASH = "5cb824b9b5a461aba0fafb09a96d7ac2af80ce151bb7ce17beed4d94cf2b185de2ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-BabelEx \
-python3.10dist(flask-babelex) \
+python3.10dist-flask-babelex \
 python310-Flask-BabelEx \
-python3dist(flask-babelex)"
+python3dist-flask-babelex"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Babel \
 python310-Flask \
 python310-Jinja2 \

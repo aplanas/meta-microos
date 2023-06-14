@@ -9,11 +9,11 @@ RPM_HASH = "1c0b4d989d1e8b784d9b60c17b0eff9002ec29a132e51aea59015e51324f65cc403d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certbot-dns-digitalocean \
-python3.10dist(certbot-dns-digitalocean) \
+python3.10dist-certbot-dns-digitalocean \
 python310-certbot-dns-digitalocean \
-python3dist(certbot-dns-digitalocean)"
+python3dist-certbot-dns-digitalocean"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-acme \
 python310-certbot \
 python310-digitalocean \

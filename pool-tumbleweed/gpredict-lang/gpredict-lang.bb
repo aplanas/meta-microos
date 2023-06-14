@@ -10,21 +10,21 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpredict-lang \
 gpredict-lang-all \
-locale(gpredict:cs) \
-locale(gpredict:da) \
-locale(gpredict:de) \
-locale(gpredict:el) \
-locale(gpredict:en_GB) \
-locale(gpredict:en_US) \
-locale(gpredict:es) \
-locale(gpredict:fi) \
-locale(gpredict:fr) \
-locale(gpredict:id) \
-locale(gpredict:it) \
-locale(gpredict:lt) \
-locale(gpredict:ru) \
-locale(gpredict:th) \
-locale(gpredict:uk)"
+locale-gpredict-cs \
+locale-gpredict-da \
+locale-gpredict-de \
+locale-gpredict-el \
+locale-gpredict-en-GB \
+locale-gpredict-en-US \
+locale-gpredict-es \
+locale-gpredict-fi \
+locale-gpredict-fr \
+locale-gpredict-id \
+locale-gpredict-it \
+locale-gpredict-lt \
+locale-gpredict-ru \
+locale-gpredict-th \
+locale-gpredict-uk"
 
 RDEPENDS:${PN} += "gpredict"
 

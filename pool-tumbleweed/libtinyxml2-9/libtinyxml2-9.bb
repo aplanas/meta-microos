@@ -13,13 +13,12 @@ RPM_NAME = "libtinyxml2-9-9.0.0-1.7.aarch64.rpm"
 RPM_HASH = "93fa0e1b8b27f0bb8e2712e0d4218970a1f70b417efcb95b370e77d448ef08260cea552df822dd37277ca19d227e677ca7cf8bc3afa13e5a494276710d21e7ba"
 
 RPROVIDES:${PN} += "libtinyxml2-9 \
-libtinyxml2-9(aarch-64) \
-libtinyxml2.so.9()(64bit)"
+libtinyxml2.so.9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

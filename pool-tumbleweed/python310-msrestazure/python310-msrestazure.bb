@@ -9,11 +9,11 @@ RPM_HASH = "79b690aa4863c1f2a587e134703a0132fa048abf763022bab30eb5a10453d942a2c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msrestazure \
-python3.10dist(msrestazure) \
+python3.10dist-msrestazure \
 python310-msrestazure \
-python3dist(msrestazure)"
+python3dist-msrestazure"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-adal \
 python310-msrest \
 python310-six"

@@ -13,8 +13,7 @@ PV = "1.54.1"
 RPM_NAME = "upb-devel-1.54.1-1.1.aarch64.rpm"
 RPM_HASH = "bccdb346d2848b6e57c93915a589c7ffa64411c1e39463b7e476221993d633c4f0e7b8635df9deff7d1e913a13c3e09335044b21d4b424fc952ff66a93fc6a0d"
 
-RPROVIDES:${PN} += "upb-devel \
-upb-devel(aarch-64)"
+RPROVIDES:${PN} += "upb-devel"
 
 RDEPENDS:${PN} += "libupb31"
 

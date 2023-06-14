@@ -13,12 +13,11 @@ PV = "2.3.0"
 RPM_NAME = "spu-tools-2.3.0-27.25.aarch64.rpm"
 RPM_HASH = "1eb5a2d37e28541429a8e848eb4ba1163f5b6a3d349ffb26496f25da46bd63e411b6f0cc3badda60497923aebc19b840caf6eb8715203314836fa642a40b70e1"
 
-RPROVIDES:${PN} += "spu-tools \
-spu-tools(aarch-64)"
+RPROVIDES:${PN} += "spu-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

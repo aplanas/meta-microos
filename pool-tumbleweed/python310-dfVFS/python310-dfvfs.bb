@@ -22,11 +22,11 @@ RPM_HASH = "a0ad4ca142cc95c92d03273aca25cb91bd5dde86f83b134320ea022d9d591d3bb391
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dfVFS \
-python3.10dist(dfvfs) \
+python3.10dist-dfvfs \
 python310-dfVFS \
-python3dist(dfvfs)"
+python3dist-dfvfs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-construct \
 python310-cryptography \

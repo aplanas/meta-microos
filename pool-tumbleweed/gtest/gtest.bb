@@ -17,18 +17,17 @@ RPM_HASH = "0e02f34cf3eaee06c98b1af83fd6da1bb8c49d37911475e939ce9ad3c6cbfba0d28c
 
 RPROVIDES:${PN} += "googletest-devel \
 gtest \
-gtest(aarch-64) \
-libgtest.so.1.12.1()(64bit) \
-libgtest_main.so.1.12.1()(64bit) \
-pkgconfig(gtest) \
-pkgconfig(gtest_main)"
+libgtest-main.so.1.12.1 \
+libgtest.so.1.12.1 \
+pkgconfig-gtest \
+pkgconfig-gtest-main"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

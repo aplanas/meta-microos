@@ -16,12 +16,11 @@ PV = "0.16"
 RPM_NAME = "perl-Data-Structure-Util-0.16-1.29.aarch64.rpm"
 RPM_HASH = "a9cc7323bea8172dc62f9a0aee5cd6676e9393f35522096db2e77ae688092c4c66218797d7136b7f3c4d91aabb9fa3361308f596c8d078a06edba491f11fe8e6"
 
-RPROVIDES:${PN} += "perl(Data::Structure::Util) \
-perl-Data-Structure-Util \
-perl-Data-Structure-Util(aarch-64)"
+RPROVIDES:${PN} += "perl-Data--Structure--Util \
+perl-Data-Structure-Util"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

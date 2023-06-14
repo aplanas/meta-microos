@@ -10,11 +10,11 @@ RPM_HASH = "f5b33e2dede6a5164ee4efaddf8128a755c416e3b09e851aac67a2ed00079ceec314
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-feature-classification \
-python3.10dist(sphinx-feature-classification) \
+python3.10dist-sphinx-feature-classification \
 python310-sphinx-feature-classification \
-python3dist(sphinx-feature-classification)"
+python3dist-sphinx-feature-classification"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-docutils \
 python310-pbr"
 

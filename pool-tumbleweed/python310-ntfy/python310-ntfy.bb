@@ -19,13 +19,13 @@ RPM_HASH = "99f96cabba58bc5ef92f151d72e9bd7c87af7975704261e72364bb461c1cd207bf7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ntfy \
-python3.10dist(ntfy) \
+python3.10dist-ntfy \
 python310-ntfy \
-python3dist(ntfy)"
+python3dist-ntfy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-appdirs \
 python310-requests \
 python310-ruamel.yaml \

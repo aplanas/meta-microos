@@ -15,6 +15,6 @@ semi-emacs"
 
 RDEPENDS:${PN} += "emacs \
 emacs-flim \
-emacs_program"
+emacs-program"
 
 inherit rpm

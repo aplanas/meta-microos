@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "python311-dask-dot"
 RDEPENDS:${PN} += "graphviz \
 graphviz-gd \
 graphviz-gnome \
-python(abi) \
+python-abi \
 python311-dask \
 python311-graphviz"
 

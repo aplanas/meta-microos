@@ -10,15 +10,15 @@ RPM_HASH = "ad2d2562f2a7858f15b919fd2941a44253dbef2b07164e5faa16798e1dcc3f790784
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-txwc2 \
-mvn(org.glassfish.jaxb:txwc2) \
-mvn(org.glassfish.jaxb:txwc2:pom:)"
+mvn-org.glassfish.jaxb-txwc2 \
+mvn-org.glassfish.jaxb-txwc2-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(args4j:args4j) \
-mvn(com.sun.xml.bind.external:rngom) \
-mvn(org.glassfish.jaxb:codemodel) \
-mvn(org.glassfish.jaxb:txw2) \
-mvn(org.glassfish.jaxb:xsom)"
+mvn-args4j-args4j \
+mvn-com.sun.xml.bind.external-rngom \
+mvn-org.glassfish.jaxb-codemodel \
+mvn-org.glassfish.jaxb-txw2 \
+mvn-org.glassfish.jaxb-xsom"
 
 inherit rpm

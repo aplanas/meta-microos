@@ -27,23 +27,20 @@ PV = "1.13.2"
 RPM_NAME = "amsynth-plugin-lv2-1.13.2-1.4.aarch64.rpm"
 RPM_HASH = "4a5e203a1e81a649ec8a3e62dc8ea033fb02c84b2277234a2cc969ff2ae61b0ba82a4a0b75e3852dfaac0563ce3ad37c7f752428bb351849c31d46ae36d8b16d"
 
-RPROVIDES:${PN} += "amsynth-plugin-lv2 \
-amsynth-plugin-lv2(aarch-64) \
-metainfo() \
-metainfo(lv2-amsynth-plugin.metainfo.xml)"
+RPROVIDES:${PN} += "amsynth-plugin-lv2"
 
 RDEPENDS:${PN} += "amsynth \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -12,10 +12,10 @@ RPROVIDES:${PN} += "texlive-biber-bin"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
-perl(Biber) \
-perl(LWP::UserAgent) \
-perl(Text::BibTeX) \
-perl(Text::Roman) \
+perl-Biber \
+perl-LWP--UserAgent \
+perl-Text--BibTeX \
+perl-Text--Roman \
 texlive-biber"
 
 inherit rpm

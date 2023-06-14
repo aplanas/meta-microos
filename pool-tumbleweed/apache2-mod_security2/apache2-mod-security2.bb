@@ -11,21 +11,20 @@ PV = "2.9.4"
 RPM_NAME = "apache2-mod_security2-2.9.4-1.8.aarch64.rpm"
 RPM_HASH = "7048ee974ee637ad06930aa9b5819321af08dc9c50010a2e932a5a81eda9cba7f084a2b140020fd43909d97c7f9aaf7b2146511124b63d587c674e1a99e19ac8"
 
-RPROVIDES:${PN} += "apache2-mod_security2 \
-apache2-mod_security2(aarch-64) \
-config(apache2-mod_security2)"
+RPROVIDES:${PN} += "apache2-mod-security2 \
+config-apache2-mod-security2"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
+apache-mmn-20120211 \
 apache2 \
-apache_mmn_20120211 \
-ld-linux-aarch64.so.1()(64bit) \
-libapr-1.so.0()(64bit) \
-libaprutil-1.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-liblua5.3.so.5()(64bit) \
-libpcre.so.1()(64bit) \
-libxml2.so.2()(64bit) \
-suse_maintenance_mmn_0"
+ld-linux-aarch64.so.1 \
+libapr-1.so.0 \
+libaprutil-1.so.0 \
+libc.so.6 \
+libcurl.so.4 \
+liblua5.3.so.5 \
+libpcre.so.1 \
+libxml2.so.2 \
+suse-maintenance-mmn-0"
 
 inherit rpm

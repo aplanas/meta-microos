@@ -8,11 +8,10 @@ RPM_NAME = "libtntdb-devel-1.4-1.12.aarch64.rpm"
 RPM_HASH = "c283a0aed85192fc15b9342449df2f1a529511ad52f9a56759e001fc0bbe401fa9cd8fab84440e847d6f39dfc6870ec049d52d9ed8440b56af6bf915384025dc"
 
 RPROVIDES:${PN} += "libtntdb-devel \
-libtntdb-devel(aarch-64) \
-pkgconfig(tntdb)"
+pkgconfig-tntdb"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtntdb5 \
-pkgconfig(cxxtools)"
+pkgconfig-cxxtools"
 
 inherit rpm

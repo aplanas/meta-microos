@@ -14,12 +14,11 @@ PV = "0.15.1b"
 RPM_NAME = "libmad0-0.15.1b-6.2.aarch64.rpm"
 RPM_HASH = "ca56d1671eff831ee10d6508e42cb7c84e6dbf0655acc9408877cbf863aadffbaa40f751493b6052b16048982f403fe25cf9e69625a55c7488767f1ce1f79628"
 
-RPROVIDES:${PN} += "libmad.so.0()(64bit) \
-libmad0 \
-libmad0(aarch-64)"
+RPROVIDES:${PN} += "libmad.so.0 \
+libmad0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

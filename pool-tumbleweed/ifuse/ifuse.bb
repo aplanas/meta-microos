@@ -10,14 +10,13 @@ PV = "1.1.4"
 RPM_NAME = "ifuse-1.1.4-1.10.aarch64.rpm"
 RPM_HASH = "29edd2bfc68bc1dc0ae4ee573a6d15971883726d8d3d849e8ca804d5ff79f3d0735b2752dc3681596b13a50b918240d47a0b0e0d725827b28c81b23413c75018"
 
-RPROVIDES:${PN} += "ifuse \
-ifuse(aarch-64)"
+RPROVIDES:${PN} += "ifuse"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit) \
-libimobiledevice-1.0.so.6()(64bit) \
-libplist-2.0.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfuse.so.2 \
+libimobiledevice-1.0.so.6 \
+libplist-2.0.so.3"
 
 inherit rpm

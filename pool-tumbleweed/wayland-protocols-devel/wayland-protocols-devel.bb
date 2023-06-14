@@ -12,7 +12,7 @@ RPM_NAME = "wayland-protocols-devel-1.31-1.2.noarch.rpm"
 RPM_HASH = "1e6a2d86319c15ad6ea5956d1f0ddab347512b4797dded76ad0217b045a526e0dea38265c91e7c4674cc9cf89fa35e198fe3c7ef68a0d3fbc523c2e0244fac29"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pkgconfig(wayland-protocols) \
+RPROVIDES:${PN} += "pkgconfig-wayland-protocols \
 wayland-protocols-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"

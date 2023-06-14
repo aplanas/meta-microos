@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvue"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab \
-python3dist(ipyvue)"
+python3dist-ipyvue"
 
 inherit rpm

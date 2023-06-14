@@ -16,7 +16,7 @@ noto-serif-tibetan \
 noto-serif-tibetan-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-metalogox-2023.201.1.01svn65448-54.1.noarch.rpm"
 RPM_HASH = "84b23fa12dbd08375f8fb6b97eb01fdf22ba9f0d3ec20d053c70742278c486c1a88cfda858683a9ddc0de78aac33cb90dcef1778a6481c7c2abe9a73388850ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(metalogox.sty) \
+RPROVIDES:${PN} += "tex-metalogox.sty \
 texlive-metalogox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(metalogo.sty) \
-tex(xparse.sty) \
+tex-etoolbox.sty \
+tex-metalogo.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

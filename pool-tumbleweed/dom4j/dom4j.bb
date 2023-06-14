@@ -12,10 +12,10 @@ RPM_HASH = "4f93f92ddedf2703756d6204834222ff421901490aa0d875a69eb80eb327f9dfdfcb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j \
-mvn(dom4j:dom4j) \
-mvn(dom4j:dom4j:pom:) \
-mvn(org.dom4j:dom4j) \
-mvn(org.dom4j:dom4j:pom:)"
+mvn-dom4j-dom4j \
+mvn-dom4j-dom4j-pom- \
+mvn-org.dom4j-dom4j \
+mvn-org.dom4j-dom4j-pom-"
 
 RDEPENDS:${PN} += "bea-stax \
 glassfish-jaxb-api \
@@ -25,9 +25,9 @@ java-headless \
 javapackages-filesystem \
 javapackages-tools \
 jaxen \
-mvn(xml-apis:xml-apis) \
+mvn-xml-apis-xml-apis \
 relaxngDatatype \
-stax_1_0_api \
+stax-1-0-api \
 ws-jaxme \
 xalan-j2 \
 xerces-j2 \

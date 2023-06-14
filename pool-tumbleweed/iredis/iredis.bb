@@ -14,18 +14,18 @@ RPM_HASH = "f94f3c3e4169e294c67647496ed7a6f37c73288c787b8a9f556376fa80951f18e500
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iredis \
-python3.10dist(iredis) \
-python3dist(iredis)"
+python3.10dist-iredis \
+python3dist-iredis"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Pygments \
 python3-click \
 python3-configobj \
 python3-importlib-resources \
 python3-mistune \
 python3-pendulum \
-python3-prompt_toolkit \
+python3-prompt-toolkit \
 python3-redis \
 python3-wcwidth"
 

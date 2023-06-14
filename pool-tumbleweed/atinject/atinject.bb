@@ -13,11 +13,11 @@ RPM_HASH = "d6a54c108b0d96505000a8b80d3ba5fb675916dee4ac5ba8403a69451d7b0be412e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atinject \
-mvn(jakarta.inject:jakarta.inject-api) \
-mvn(jakarta.inject:jakarta.inject-api:pom:) \
-mvn(javax.inject:javax.inject) \
-mvn(javax.inject:javax.inject:pom:) \
-osgi(javax.inject)"
+mvn-jakarta.inject-jakarta.inject-api \
+mvn-jakarta.inject-jakarta.inject-api-pom- \
+mvn-javax.inject-javax.inject \
+mvn-javax.inject-javax.inject-pom- \
+osgi-javax.inject"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

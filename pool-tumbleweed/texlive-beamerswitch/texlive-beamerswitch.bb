@@ -16,7 +16,7 @@ RPM_NAME = "texlive-beamerswitch-2023.201.1.9svn64182-53.1.noarch.rpm"
 RPM_HASH = "87afef2b4debb8af34c056f7a01259959082122fadb20d397fe6cd9e0740326c3d4b07699e27a1f68d0ef12fdf86b22dff7944bf98feaaa80870ffd3beaaeda5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamerswitch.cls) \
+RPROVIDES:${PN} += "tex-beamerswitch.cls \
 texlive-beamerswitch"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,18 +25,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(beamer.cls) \
-tex(beamerarticle.sty) \
-tex(etoolbox.sty) \
-tex(expl3.sty) \
-tex(iftex.sty) \
-tex(pgf.sty) \
-tex(pgfpages.sty) \
-tex(shellesc.sty) \
-tex(xkeyval.sty) \
-tex(xkvltxp.sty) \
-tex(xparse.sty) \
-tex(xstring.sty) \
+tex-beamer.cls \
+tex-beamerarticle.sty \
+tex-etoolbox.sty \
+tex-expl3.sty \
+tex-iftex.sty \
+tex-pgf.sty \
+tex-pgfpages.sty \
+tex-shellesc.sty \
+tex-xkeyval.sty \
+tex-xkvltxp.sty \
+tex-xparse.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

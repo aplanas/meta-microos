@@ -12,17 +12,15 @@ PV = "5.106.0"
 RPM_NAME = "libKF5ThreadWeaver5-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "2b0fb3f692e72d4ad39cdd35562e8720ba77ffb44d9cf487d8866ca5727e9b40ba3de05924247ad1a28f40428ce76b066912409015dffa02aa7cff73a15111f9"
 
-RPROVIDES:${PN} += "libKF5ThreadWeaver.so.5()(64bit) \
-libKF5ThreadWeaver5 \
-libKF5ThreadWeaver5(aarch-64)"
+RPROVIDES:${PN} += "libKF5ThreadWeaver.so.5 \
+libKF5ThreadWeaver5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
 libQt5Core5 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -13,15 +13,14 @@ RPM_NAME = "cpp-httplib-devel-0.12.5-1.1.aarch64.rpm"
 RPM_HASH = "c9a1ff8bd7937403649f44a30ee96d0757decbfed77fb1c9af4a2cce399af382ef0bee134b6d184f56c3c60dc90ea6bf8e1961ff32a3cdaee1a6fbf1ec6277c5"
 
 RPROVIDES:${PN} += "cpp-httplib-devel \
-cpp-httplib-devel(aarch-64) \
-pkgconfig(cpp-httplib)"
+pkgconfig-cpp-httplib"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcpp-httplib0_12 \
-pkgconfig(libbrotlicommon) \
-pkgconfig(libbrotlidec) \
-pkgconfig(libbrotlienc) \
-pkgconfig(openssl) \
-pkgconfig(zlib)"
+libcpp-httplib0-12 \
+pkgconfig-libbrotlicommon \
+pkgconfig-libbrotlidec \
+pkgconfig-libbrotlienc \
+pkgconfig-openssl \
+pkgconfig-zlib"
 
 inherit rpm

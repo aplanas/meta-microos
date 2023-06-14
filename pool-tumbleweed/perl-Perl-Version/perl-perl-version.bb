@@ -62,11 +62,11 @@ RPM_NAME = "perl-Perl-Version-1.013-3.26.noarch.rpm"
 RPM_HASH = "0ac1c45605c8f639423598aedaf3c28e128dd62e1126fc33a67526ab78150cbbdef4a33ff9d8ae6c8c41d84f8df9893f59fe67f216018ceb214f19d3e4f9d377"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Perl::Version) \
+RPROVIDES:${PN} += "perl-Perl--Version \
 perl-Perl-Version"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(File::Slurp::Tiny)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-File--Slurp--Tiny"
 
 inherit rpm

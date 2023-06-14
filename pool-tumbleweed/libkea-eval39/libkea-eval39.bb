@@ -9,19 +9,18 @@ PV = "2.2.0"
 RPM_NAME = "libkea-eval39-2.2.0-2.4.aarch64.rpm"
 RPM_HASH = "678542ad11e2ada6923c5629a9aa59901754bfe946b93c1679206d4d6d9e7806e032347c987acd9b2d28e57c6c31e6b693038ed8631d381a736ce9edc31cf019"
 
-RPROVIDES:${PN} += "libkea-eval.so.39()(64bit) \
-libkea-eval39 \
-libkea-eval39(aarch-64)"
+RPROVIDES:${PN} += "libkea-eval.so.39 \
+libkea-eval39"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkea-asiolink.so.40()(64bit) \
-libkea-dhcp++.so.54()(64bit) \
-libkea-exceptions.so.13()(64bit) \
-libkea-log.so.35()(64bit) \
-libkea-util.so.52()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkea-asiolink.so.40 \
+libkea-dhcp++.so.54 \
+libkea-exceptions.so.13 \
+libkea-log.so.35 \
+libkea-util.so.52 \
+libstdc++.so.6"
 
 inherit rpm

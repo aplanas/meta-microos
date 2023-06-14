@@ -10,11 +10,10 @@ PV = "1.3.1"
 RPM_NAME = "scrypt-1.3.1-1.11.aarch64.rpm"
 RPM_HASH = "969f372944b266cc4e45cc0b420283320e008312e0ab7a2db7fcc65c6774dfa8f902fe8f8091876c560ff628d7631ac9cd18c3394880cc77c2c77c26237226ab"
 
-RPROVIDES:${PN} += "scrypt \
-scrypt(aarch-64)"
+RPROVIDES:${PN} += "scrypt"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3"
 
 inherit rpm

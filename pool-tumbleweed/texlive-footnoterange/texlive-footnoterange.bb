@@ -15,7 +15,7 @@ RPM_NAME = "texlive-footnoterange-2023.201.1.1asvn66149-52.1.noarch.rpm"
 RPM_HASH = "7fec133f8fae9318c8276679fa55db20d80fa88f47f2427d83e70a4082da9987c53b071c34a0433e45e2a36e4f192fd4211c8f16eab4527eccc40d3bebe54606"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(footnoterange.sty) \
+RPROVIDES:${PN} += "tex-footnoterange.sty \
 texlive-footnoterange"
 
 RDEPENDS:${PN} += "/bin/sh \

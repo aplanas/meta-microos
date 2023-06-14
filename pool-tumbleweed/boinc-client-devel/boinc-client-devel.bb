@@ -8,18 +8,17 @@ RPM_NAME = "boinc-client-devel-7.22.2-1.1.aarch64.rpm"
 RPM_HASH = "182206b0cd23ffaed3dccef76cc9fc36aa9473988b83ea89c7e3adcefd8a3776eeac867efc89018d4d51612771aa0acfef183d62a9b30f873f511cc20d441dfa"
 
 RPROVIDES:${PN} += "boinc-client-devel \
-boinc-client-devel(aarch-64) \
 libboinc-devel \
-pkgconfig(libboinc) \
-pkgconfig(libboinc_api) \
-pkgconfig(libboinc_crypt) \
-pkgconfig(libboinc_graphics2) \
-pkgconfig(libboinc_opencl)"
+pkgconfig-libboinc \
+pkgconfig-libboinc-api \
+pkgconfig-libboinc-crypt \
+pkgconfig-libboinc-graphics2 \
+pkgconfig-libboinc-opencl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboinc7 \
 openssl-devel \
-pkgconfig(libjpeg) \
-pkgconfig(openssl)"
+pkgconfig-libjpeg \
+pkgconfig-openssl"
 
 inherit rpm

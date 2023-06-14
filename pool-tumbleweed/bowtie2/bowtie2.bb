@@ -13,16 +13,15 @@ PV = "2.5.1"
 RPM_NAME = "bowtie2-2.5.1-1.3.aarch64.rpm"
 RPM_HASH = "4cdf50da7f56b1247aa0426d56a0ae17a603fa75d985eed04e94e5daf3c9d20f8f040ac0e52bb69318b5b748cacf4f85d8dcdd6f188b6584385d70b737993331"
 
-RPROVIDES:${PN} += "bowtie2 \
-bowtie2(aarch-64)"
+RPROVIDES:${PN} += "bowtie2"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

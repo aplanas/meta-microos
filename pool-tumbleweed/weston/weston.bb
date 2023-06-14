@@ -16,29 +16,25 @@ PV = "12.0.1"
 RPM_NAME = "weston-12.0.1-1.1.aarch64.rpm"
 RPM_HASH = "4d8c88ea34c1117526c9d0d9a988a874c762abf790d2c7bf548458c6a36c30521399d494fd9c44fe5893d14bcea448bf718078619d54c1db8e0a34c400395190"
 
-RPROVIDES:${PN} += "libexec_weston.so.0()(64bit) \
-weston \
-weston(aarch-64)"
+RPROVIDES:${PN} += "libexec-weston.so.0 \
+weston"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libevdev.so.2()(64bit) \
-libevdev.so.2(LIBEVDEV_1)(64bit) \
-libinput.so.10()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpixman-1.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-cursor.so.0()(64bit) \
-libwayland-server.so.0()(64bit) \
-libwebp.so.7()(64bit) \
-libweston-12.so.0()(64bit) \
-libxkbcommon.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libevdev.so.2 \
+libinput.so.10 \
+libjpeg.so.8 \
+libm.so.6 \
+libpixman-1.so.0 \
+libpng16.so.16 \
+libsystemd.so.0 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0 \
+libwayland-server.so.0 \
+libwebp.so.7 \
+libweston-12.so.0 \
+libxkbcommon.so.0 \
 vpx-tools \
 xkeyboard-config"
 

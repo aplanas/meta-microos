@@ -11,14 +11,13 @@ PV = "10.03.00"
 RPM_NAME = "icmake-10.03.00-3.3.aarch64.rpm"
 RPM_HASH = "a5139b31a452a3d06c8690939c5a541c50afe8e09854c70694b9f06ad7b51c4abd01fc47826de16b9d53806275e01023fcc921800904d90143bd3e3ca9d046cc"
 
-RPROVIDES:${PN} += "config(icmake) \
-icmake \
-icmake(aarch-64)"
+RPROVIDES:${PN} += "config-icmake \
+icmake"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

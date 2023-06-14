@@ -10,29 +10,29 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "help2man-lang \
 help2man-lang-all \
-locale(help2man:da) \
-locale(help2man:de) \
-locale(help2man:el) \
-locale(help2man:eo) \
-locale(help2man:es) \
-locale(help2man:fi) \
-locale(help2man:fr) \
-locale(help2man:hr) \
-locale(help2man:hu) \
-locale(help2man:it) \
-locale(help2man:ja) \
-locale(help2man:ko) \
-locale(help2man:nb) \
-locale(help2man:pl) \
-locale(help2man:pt_BR) \
-locale(help2man:ro) \
-locale(help2man:ru) \
-locale(help2man:sr) \
-locale(help2man:sv) \
-locale(help2man:ta) \
-locale(help2man:uk) \
-locale(help2man:vi) \
-locale(help2man:zh_CN)"
+locale-help2man-da \
+locale-help2man-de \
+locale-help2man-el \
+locale-help2man-eo \
+locale-help2man-es \
+locale-help2man-fi \
+locale-help2man-fr \
+locale-help2man-hr \
+locale-help2man-hu \
+locale-help2man-it \
+locale-help2man-ja \
+locale-help2man-ko \
+locale-help2man-nb \
+locale-help2man-pl \
+locale-help2man-pt-BR \
+locale-help2man-ro \
+locale-help2man-ru \
+locale-help2man-sr \
+locale-help2man-sv \
+locale-help2man-ta \
+locale-help2man-uk \
+locale-help2man-vi \
+locale-help2man-zh-CN"
 
 RDEPENDS:${PN} += "help2man"
 

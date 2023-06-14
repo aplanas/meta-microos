@@ -29,10 +29,10 @@ RPM_NAME = "python39-astor-0.8.1-9.1.noarch.rpm"
 RPM_HASH = "d8d4094f971f2ff71c4080bcfb3363bd75ff36288dd5828f21f5cbd8462b49060bdf214020ee4158c14d1a78fb5c58e72bb2d3134d9ada960c53816666fb08bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(astor) \
+RPROVIDES:${PN} += "python3.9dist-astor \
 python39-astor \
-python3dist(astor)"
+python3dist-astor"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "ghostscript-fonts-std \
 urw-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

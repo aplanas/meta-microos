@@ -14,7 +14,7 @@ RPM_HASH = "39e15992f98c2e3448ad500adbb68bb2611c7fe5d4613abda75331c1bba751f399aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-source-vanilla \
-multiversion(kernel)"
+multiversion-kernel"
 
 RDEPENDS:${PN} += "kernel-macros"
 

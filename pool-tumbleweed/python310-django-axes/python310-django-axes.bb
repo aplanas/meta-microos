@@ -9,11 +9,11 @@ RPM_HASH = "f984f87bcaaf57aa1348449bb0861d633aa14de458528d0cae5e7b3b21b8e4c5dbd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-axes \
-python3.10dist(django-axes) \
+python3.10dist-django-axes \
 python310-django-axes \
-python3dist(django-axes)"
+python3dist-django-axes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-ipware"
 

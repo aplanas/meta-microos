@@ -19,14 +19,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pygments \
 python3-pygments \
-python3.10dist(pygments) \
+python3.10dist-pygments \
 python310-Pygments \
 python310-pygments \
-python3dist(pygments)"
+python3dist-pygments"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi)"
+python-abi"
 
 inherit rpm

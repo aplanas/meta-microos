@@ -9,13 +9,13 @@ RPM_HASH = "2d49a7aa9bf94e6bbfd0c83f59f16109f729fb9acb89841cd5634764fd4b25004bfe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-odorik \
-python3.10dist(odorik) \
+python3.10dist-odorik \
 python310-odorik \
-python3dist(odorik)"
+python3dist-odorik"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-python-dateutil \
 python310-xdg \
 update-alternatives"

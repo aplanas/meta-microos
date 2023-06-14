@@ -13,15 +13,14 @@ PV = "23.02"
 RPM_NAME = "libarmnnSerializer32-opencl-23.02-2.1.aarch64.rpm"
 RPM_HASH = "329fef5ecf0fbae6f19c3291077d59f2878ff5108eaf8452e24eca055cb605bd065e269d3f3df191539c4dc436216a80570b6b5003b6a4ebf8718ac837e7512e"
 
-RPROVIDES:${PN} += "libarmnnSerializer.so.32()(64bit) \
-libarmnnSerializer32-opencl \
-libarmnnSerializer32-opencl(aarch-64)"
+RPROVIDES:${PN} += "libarmnnSerializer.so.32 \
+libarmnnSerializer32-opencl"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libarmnn.so.32()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libarmnn.so.32 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

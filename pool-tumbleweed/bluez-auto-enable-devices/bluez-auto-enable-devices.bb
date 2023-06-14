@@ -11,7 +11,7 @@ RPM_HASH = "dd0dcafea5b262425ee0c305bf9b551b6022bfbc0e0ca9c52e5aae761ee47f65d401
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bluez-auto-enable-devices \
-config(bluez-auto-enable-devices)"
+config-bluez-auto-enable-devices"
 
 RDEPENDS:${PN} += "/bin/sh \
 systemd"

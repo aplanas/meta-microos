@@ -10,10 +10,10 @@ RPM_HASH = "01a6445b8dacd3f42319c555b6f1839b083e09ff9c01cfb242eb2b46408768ce763f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-graphql-core \
-python3.10dist(graphql-core) \
+python3.10dist-graphql-core \
 python310-graphql-core \
-python3dist(graphql-core)"
+python3dist-graphql-core"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

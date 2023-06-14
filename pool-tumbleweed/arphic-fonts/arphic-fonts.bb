@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "arphic-fonts \
 ttf-arphic"
 
-RDEPENDS:${PN} += "aaa_base \
+RDEPENDS:${PN} += "aaa-base \
 coreutils \
 perl"
 

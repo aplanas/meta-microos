@@ -17,11 +17,11 @@ RPM_HASH = "fd287b8c47f412ea7117ebf5f8a7fc22038d27a69f7d5ceac7913f2fa0099ec4e5df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-keyvault-nspkg \
-python3.10dist(azure-keyvault-nspkg) \
+python3.10dist-azure-keyvault-nspkg \
 python310-azure-keyvault-nspkg \
-python3dist(azure-keyvault-nspkg)"
+python3dist-azure-keyvault-nspkg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg"
 
 inherit rpm

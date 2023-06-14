@@ -11,15 +11,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-emblems \
 nemo-extension-emblems \
-python3.10dist(nemo-emblems) \
-python3dist(nemo-emblems)"
+python3.10dist-nemo-emblems \
+python3dist-nemo-emblems"
 
 RDEPENDS:${PN} += "nemo \
 python3-gobject \
 python3-gobject-Gdk \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Nemo)"
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
+typelib-Nemo"
 
 inherit rpm

@@ -29,18 +29,18 @@ RPM_NAME = "texlive-xint-2023.201.1.4msvn63562-52.1.noarch.rpm"
 RPM_HASH = "1b4d6f15bccf48822fc7ff9959e43f72a7fe812988eff1668d052df01a6ef61c7905e545b904e755145c5d16f5413b98f52679bcafb3a494d9204dd1bcff1b7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xint.sty) \
-tex(xintbinhex.sty) \
-tex(xintcfrac.sty) \
-tex(xintcore.sty) \
-tex(xintexpr.sty) \
-tex(xintfrac.sty) \
-tex(xintgcd.sty) \
-tex(xintkernel.sty) \
-tex(xintlog.sty) \
-tex(xintseries.sty) \
-tex(xinttools.sty) \
-tex(xinttrig.sty) \
+RPROVIDES:${PN} += "tex-xint.sty \
+tex-xintbinhex.sty \
+tex-xintcfrac.sty \
+tex-xintcore.sty \
+tex-xintexpr.sty \
+tex-xintfrac.sty \
+tex-xintgcd.sty \
+tex-xintkernel.sty \
+tex-xintlog.sty \
+tex-xintseries.sty \
+tex-xinttools.sty \
+tex-xinttrig.sty \
 texlive-xint"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -49,8 +49,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(poormanlog.sty) \
-tex(poormanlog.tex) \
+tex-poormanlog.sty \
+tex-poormanlog.tex \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

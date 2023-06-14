@@ -9,14 +9,13 @@ PV = "1.10.0"
 RPM_NAME = "typelib-1_0-Libosinfo-1_0-1.10.0-3.3.aarch64.rpm"
 RPM_HASH = "ffa68af35285db1b25058e82c4910864f1332b76652eff2fe5f82e65046f7edcb1248141aafcff45c0c3909d0ce711ca296d89bd5fcaf365ab4373a87c6770ce"
 
-RPROVIDES:${PN} += "typelib(Libosinfo) \
-typelib-1_0-Libosinfo-1_0 \
-typelib-1_0-Libosinfo-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Libosinfo-1-0 \
+typelib-Libosinfo"
 
-RDEPENDS:${PN} += "libosinfo-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(libxml2)"
+RDEPENDS:${PN} += "libosinfo-1.0.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-libxml2"
 
 inherit rpm

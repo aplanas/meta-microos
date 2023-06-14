@@ -11,13 +11,12 @@ RPM_NAME = "ffmpeg-4-libswresample-devel-4.4.4-1.2.aarch64.rpm"
 RPM_HASH = "fd517334f4ef259688c01046800222c9377af287db8f8056ca3ff2124d22ced9e34e48331b88dcbf94d6d5a676e481d77bb57e022b2b657b9237a67262d60503"
 
 RPROVIDES:${PN} += "ffmpeg-4-libswresample-devel \
-ffmpeg-4-libswresample-devel(aarch-64) \
 libswresample-devel \
-pkgconfig(libswresample)"
+pkgconfig-libswresample"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-4-libavutil-devel \
-libswresample3_9 \
-pkgconfig(libavutil)"
+libswresample3-9 \
+pkgconfig-libavutil"
 
 inherit rpm

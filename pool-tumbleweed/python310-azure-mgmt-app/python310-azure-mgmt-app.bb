@@ -11,11 +11,11 @@ RPM_HASH = "ac2c96bf6d60f4c6f03c508c6617583ef582ca42ae5769a41157d9b7fbc3050ab679
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-app \
-python3.10dist(azure-mgmt-app) \
+python3.10dist-azure-mgmt-app \
 python310-azure-mgmt-app \
-python3dist(azure-mgmt-app)"
+python3dist-azure-mgmt-app"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

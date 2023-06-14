@@ -9,11 +9,11 @@ RPM_HASH = "a7f111b26adf2a2ff3a9938c8de38b3ae1e6410fc6f0b5a922d5498a17b2849402ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-system-hotkey310 \
-python3.10dist(system-hotkey310) \
+python3.10dist-system-hotkey310 \
 python310-system-hotkey310 \
-python3dist(system-hotkey310)"
+python3dist-system-hotkey310"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-xcffib \
 python310-xpybutil"
 

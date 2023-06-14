@@ -11,11 +11,11 @@ RPM_HASH = "86e8b9e79bb3206a05a9716cfc3991514909044888f85ee397a42c4056e73eb4f9da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-pipeline \
-python3.10dist(django-pipeline) \
+python3.10dist-django-pipeline \
 python310-django-pipeline \
-python3dist(django-pipeline)"
+python3dist-django-pipeline"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Jinja2"
 

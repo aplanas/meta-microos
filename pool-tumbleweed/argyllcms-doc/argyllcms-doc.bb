@@ -11,8 +11,7 @@ PV = "2.3.1"
 RPM_NAME = "argyllcms-doc-2.3.1-2.5.aarch64.rpm"
 RPM_HASH = "49c0d91714d22da83f17bce49fb6420583e5f0b061040db23ce836e712db459b273094af8df26af2163ffb3c91a1345d08d130a35a0229119218ce2114cf7fde"
 
-RPROVIDES:${PN} += "argyllcms-doc \
-argyllcms-doc(aarch-64)"
+RPROVIDES:${PN} += "argyllcms-doc"
 
 RDEPENDS:${PN} += "argyllcms"
 

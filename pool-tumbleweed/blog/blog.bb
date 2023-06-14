@@ -14,12 +14,11 @@ RPM_HASH = "3317e045ac73445fdf7ff8f3ba5b4ced3173fcd0ed18ebdf8a0354231e2ffc445529
 
 RPROVIDES:${PN} += "/sbin/isserial \
 blog \
-blog(aarch-64) \
-sysvinit-tools:/sbin/blogd"
+sysvinit-tools-/sbin/blogd"
 
 RDEPENDS:${PN} += "coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libblogger.so.2()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libblogger.so.2 \
+libc.so.6"
 
 inherit rpm

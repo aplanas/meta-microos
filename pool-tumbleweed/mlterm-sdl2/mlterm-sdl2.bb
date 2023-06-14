@@ -29,22 +29,20 @@ PV = "3.9.2"
 RPM_NAME = "mlterm-sdl2-3.9.2-3.3.aarch64.rpm"
 RPM_HASH = "5bd2a7f79b5e0dc4f1526ddeda109f2ece1c1df40becfdb5fec42fcd5abd259dae4e33b3e9ba87aab156f665cd29c0bc7fe64a9042d44a01349a4affe792667d"
 
-RPROVIDES:${PN} += "libim-kbd-sdl2.so()(64bit) \
-libim-skk-sdl2.so()(64bit) \
-locale(ja;ko;zh;ar;he) \
-mlterm-sdl2 \
-mlterm-sdl2(aarch-64)"
+RPROVIDES:${PN} += "libim-kbd-sdl2.so \
+libim-skk-sdl2.so \
+locale-ja;ko;zh;ar;he \
+mlterm-sdl2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libm.so.6()(64bit) \
-libmef.so.3()(64bit) \
-libmef.so.3(mef)(64bit) \
-libmlterm_coreotl.so()(64bit) \
-libpobl.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libm.so.6 \
+libmef.so.3 \
+libmlterm-coreotl.so \
+libpobl.so.2 \
 mlterm-common"
 
 inherit rpm

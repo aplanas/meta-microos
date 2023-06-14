@@ -11,18 +11,17 @@ PV = "2.2.1"
 RPM_NAME = "liblavplay-2_2-0-2.2.1-2.5.aarch64.rpm"
 RPM_HASH = "86f9ce57ec1b6af61bfb17ee6dfa9eda3d42f6c62f9ded20505315e3cff853cfedb0b5a8ff53cec1208c80bbb0cde2efbce2999404e67e34d3c0168d585b456c"
 
-RPROVIDES:${PN} += "liblavplay-2.2.so.0()(64bit) \
-liblavplay-2_2-0 \
-liblavplay-2_2-0(aarch-64)"
+RPROVIDES:${PN} += "liblavplay-2-2-0 \
+liblavplay-2.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libdv.so.4()(64bit) \
-liblavfile-2.2.so.0()(64bit) \
-liblavjpeg-2.2.so.0()(64bit) \
-libmjpegutils-2.2.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libX11.so.6 \
+libc.so.6 \
+libdv.so.4 \
+liblavfile-2.2.so.0 \
+liblavjpeg-2.2.so.0 \
+libmjpegutils-2.2.so.0"
 
 inherit rpm

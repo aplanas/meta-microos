@@ -16,11 +16,11 @@ RPM_HASH = "be97aadb94c54160812e334324a83872f7ab553649eb79f7c08b507530014b52b5b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-portend \
-python3.10dist(portend) \
+python3.10dist-portend \
 python310-portend \
-python3dist(portend)"
+python3dist-portend"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tempora"
 
 inherit rpm

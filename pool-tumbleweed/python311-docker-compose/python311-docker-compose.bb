@@ -17,14 +17,14 @@ RPM_HASH = "a98e537c801718015ae723185b2c612d34a9603cbfd3dee2ac7c8ae1df08c056c008
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-compose \
-python3.11dist(docker-compose) \
+python3.11dist-docker-compose \
 python311-docker-compose \
-python3dist(docker-compose)"
+python3dist-docker-compose"
 
-RDEPENDS:${PN} += "(docker or podman >= 3.0) \
+RDEPENDS:${PN} += "-docker or podman >= 3.0 \
 /bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-PySocks \
 python311-PyYAML \
 python311-cached-property \

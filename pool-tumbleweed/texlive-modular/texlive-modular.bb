@@ -13,7 +13,7 @@ RPM_NAME = "texlive-modular-2023.201.svn44142-54.1.noarch.rpm"
 RPM_HASH = "a3ad9ec78f11ca6a83bbb2f1279ec019e72ad3da028c42bc252f537ca4740732b8f897e7359a5e475df90cc44ae29510ebdc53c7feeb9460f56e9e082cfc98e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(modular.sty) \
+RPROVIDES:${PN} += "tex-modular.sty \
 texlive-modular"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(coseoul.sty) \
-tex(ifthen.sty) \
-tex(import.sty) \
+tex-coseoul.sty \
+tex-ifthen.sty \
+tex-import.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -14,11 +14,11 @@ RPM_HASH = "f549c3b4a7f784e546bf058c8d3aa06ea0f29759ccc30d3525c9f708304a00efaa5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-hawk \
-python3.10dist(requests-hawk) \
+python3.10dist-requests-hawk \
 python310-requests-hawk \
-python3dist(requests-hawk)"
+python3dist-requests-hawk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-mohawk \
 python310-requests"
 

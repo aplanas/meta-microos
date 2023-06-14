@@ -11,14 +11,14 @@ RPM_HASH = "7c9137cf9b91132364c716b77171390e654196608b257dbcaf9d580deb81a060cb18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-parallax \
-python3.10dist(parallax) \
+python3.10dist-parallax \
 python310-parallax \
-python3dist(parallax)"
+python3dist-parallax"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 openssh \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

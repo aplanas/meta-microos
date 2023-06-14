@@ -10,14 +10,13 @@ PV = "0.8.6"
 RPM_NAME = "python311-pychm-0.8.6-1.17.aarch64.rpm"
 RPM_HASH = "c97c4b39f7e06d9cccedb2ac125f7c9d8d5b0f7f145867d62045812aa41f541aa1049bc10dafa427bed691daf938c76a035f1aa9d2c4590bef06e6b1cf6843df"
 
-RPROVIDES:${PN} += "python3.11dist(pychm) \
+RPROVIDES:${PN} += "python3.11dist-pychm \
 python311-pychm \
-python311-pychm(aarch-64) \
-python3dist(pychm)"
+python3dist-pychm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libchm.so.0()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libchm.so.0 \
+python-abi"
 
 inherit rpm

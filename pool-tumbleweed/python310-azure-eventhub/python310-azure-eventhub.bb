@@ -26,13 +26,13 @@ RPM_HASH = "cd5ec89aae2e8ed64072178f12c2f17bcc64f861217c4d39adafa572edcc5bb1e9cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-eventhub \
-python3.10dist(azure-eventhub) \
+python3.10dist-azure-eventhub \
 python310-azure-eventhub \
-python3dist(azure-eventhub)"
+python3dist-azure-eventhub"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

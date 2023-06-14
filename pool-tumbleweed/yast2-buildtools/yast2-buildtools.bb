@@ -9,40 +9,40 @@ RPM_NAME = "yast2-buildtools-4.6.1-1.1.noarch.rpm"
 RPM_HASH = "ffb8f8e333da0d7ec599cebd14f73d96bec8e91f4a25c095f0b19c28bbbd981c99112d505934105a9216af1f241762f8021512074534da094f78c9611eebe96e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pkgconfig(yast2-devtools) \
-rpm_macro(yast_agentdir) \
-rpm_macro(yast_build) \
-rpm_macro(yast_check) \
-rpm_macro(yast_ci_check) \
-rpm_macro(yast_clientdir) \
-rpm_macro(yast_configure) \
-rpm_macro(yast_controldir) \
-rpm_macro(yast_desktop_files) \
-rpm_macro(yast_desktopdir) \
-rpm_macro(yast_dir) \
-rpm_macro(yast_docdir) \
-rpm_macro(yast_execcompdir) \
-rpm_macro(yast_fillupdir) \
-rpm_macro(yast_icondir) \
-rpm_macro(yast_imagedir) \
-rpm_macro(yast_includedir) \
-rpm_macro(yast_install) \
-rpm_macro(yast_libdir) \
-rpm_macro(yast_localedir) \
-rpm_macro(yast_logdir) \
-rpm_macro(yast_metainfo) \
-rpm_macro(yast_metainfodir) \
-rpm_macro(yast_moduledir) \
-rpm_macro(yast_plugindir) \
-rpm_macro(yast_prep) \
-rpm_macro(yast_schemadir) \
-rpm_macro(yast_scrconfdir) \
-rpm_macro(yast_themedir) \
-rpm_macro(yast_vardir) \
-rpm_macro(yast_ybindir) \
-rpm_macro(yast_ydatadir) \
-rpm_macro(yast_yncludedir) \
-rpm_macro(yast_ystartupdir) \
+RPROVIDES:${PN} += "pkgconfig-yast2-devtools \
+rpm-macro-yast-agentdir \
+rpm-macro-yast-build \
+rpm-macro-yast-check \
+rpm-macro-yast-ci-check \
+rpm-macro-yast-clientdir \
+rpm-macro-yast-configure \
+rpm-macro-yast-controldir \
+rpm-macro-yast-desktop-files \
+rpm-macro-yast-desktopdir \
+rpm-macro-yast-dir \
+rpm-macro-yast-docdir \
+rpm-macro-yast-execcompdir \
+rpm-macro-yast-fillupdir \
+rpm-macro-yast-icondir \
+rpm-macro-yast-imagedir \
+rpm-macro-yast-includedir \
+rpm-macro-yast-install \
+rpm-macro-yast-libdir \
+rpm-macro-yast-localedir \
+rpm-macro-yast-logdir \
+rpm-macro-yast-metainfo \
+rpm-macro-yast-metainfodir \
+rpm-macro-yast-moduledir \
+rpm-macro-yast-plugindir \
+rpm-macro-yast-prep \
+rpm-macro-yast-schemadir \
+rpm-macro-yast-scrconfdir \
+rpm-macro-yast-themedir \
+rpm-macro-yast-vardir \
+rpm-macro-yast-ybindir \
+rpm-macro-yast-ydatadir \
+rpm-macro-yast-yncludedir \
+rpm-macro-yast-ystartupdir \
 yast2-buildtools"
 
 RDEPENDS:${PN} += "/bin/bash \

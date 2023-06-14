@@ -12,12 +12,11 @@ RPM_NAME = "xdelta3-3.1.0-5.7.aarch64.rpm"
 RPM_HASH = "3e981b20038526a76b71062450ee5eb0baf9dee2ea3a8a92f05e77f1d25c5da6a153da2aabf6342c532261fb0378b59e2f21567642e604fc3b9191e383ae0cfa"
 
 RPROVIDES:${PN} += "xdelta \
-xdelta3 \
-xdelta3(aarch-64)"
+xdelta3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblzma.so.5 \
+libm.so.6"
 
 inherit rpm

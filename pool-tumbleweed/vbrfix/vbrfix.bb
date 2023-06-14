@@ -22,12 +22,11 @@ RPM_NAME = "vbrfix-0.24-2.20.aarch64.rpm"
 RPM_HASH = "e8a7ce964a4c0e76da02a8eb077d1af7211d81e1649ea8072062705ade892aaf3f1eabda536b6bff943b666a8596e09e21b83fb67705d4d53334b91e7eac673d"
 
 RPROVIDES:${PN} += "vbrfix \
-vbrfix(aarch-64) \
 vbrfixc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

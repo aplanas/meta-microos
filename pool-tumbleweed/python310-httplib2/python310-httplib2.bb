@@ -10,12 +10,12 @@ RPM_HASH = "3f3c1a2845bc81d6812a288eb76ca1af8f0f965f42f911ed598b9b584d4c208b3eae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-httplib2 \
-python3.10dist(httplib2) \
+python3.10dist-httplib2 \
 python310-httplib2 \
-python3dist(httplib2)"
+python3dist-httplib2"
 
 RDEPENDS:${PN} += "ca-certificates \
-python(abi) \
+python-abi \
 python310-certifi \
 python310-pyparsing"
 

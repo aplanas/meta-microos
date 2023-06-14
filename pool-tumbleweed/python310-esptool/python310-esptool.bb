@@ -11,13 +11,13 @@ RPM_HASH = "fba42f15a408e7b3b1a4651956d4b429131bae21527af3de11c6687495f5e980be3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-esptool \
-python3.10dist(esptool) \
+python3.10dist-esptool \
 python310-esptool \
-python3dist(esptool)"
+python3dist-esptool"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-ecdsa \
 python310-pyaes \
 python310-pyserial \

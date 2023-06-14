@@ -13,12 +13,7 @@ RPM_NAME = "veusz-3.6.2-1.1.noarch.rpm"
 RPM_HASH = "497b3ada8c234ca0d3696ca62b3e7fc4012ea952a67164a99237b1a823c1204d26a4cb3eb76b2df486a583fd1371e28874f412f9be720c7a16106d2512541ce7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(veusz.desktop) \
-metainfo() \
-metainfo(veusz.appdata.xml) \
-mimehandler(application/x-veusz) \
-veusz \
+RPROVIDES:${PN} += "veusz \
 veusz3"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \

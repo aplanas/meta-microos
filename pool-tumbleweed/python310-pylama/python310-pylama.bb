@@ -19,13 +19,13 @@ RPM_HASH = "992ec82ce01c8c7da996b408a04eee366280f24cf21d1a9916e297c7a4902978df56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylama \
-python3.10dist(pylama) \
+python3.10dist-pylama \
 python310-pylama \
-python3dist(pylama)"
+python3dist-pylama"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-mccabe \
 python310-pycodestyle \
 python310-pydocstyle \

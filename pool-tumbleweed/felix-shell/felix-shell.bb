@@ -9,13 +9,13 @@ RPM_HASH = "a8da6c8c83fecfb58f55e320c0ea4e682fb283899743da1684f6bbb79d6cd3c5a182
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-shell \
-mvn(org.apache.felix:org.apache.felix.shell) \
-mvn(org.apache.felix:org.apache.felix.shell:pom:) \
-osgi(org.apache.felix.shell)"
+mvn-org.apache.felix-org.apache.felix.shell \
+mvn-org.apache.felix-org.apache.felix.shell-pom- \
+osgi-org.apache.felix.shell"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.osgi:osgi.cmpn) \
-mvn(org.osgi:osgi.core)"
+mvn-org.osgi-osgi.cmpn \
+mvn-org.osgi-osgi.core"
 
 inherit rpm

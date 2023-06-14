@@ -8,10 +8,9 @@ PV = "1.0.4"
 RPM_NAME = "dbview-1.0.4-117.25.aarch64.rpm"
 RPM_HASH = "6b2639945092265aaf4ec8dc4612989adc9400dee02c3c8a93118a8957fdf76f6213de4b54a69538190dfdec9d75b8dfe3e0b1f2188a1205e16b27745654bca5"
 
-RPROVIDES:${PN} += "dbview \
-dbview(aarch-64)"
+RPROVIDES:${PN} += "dbview"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

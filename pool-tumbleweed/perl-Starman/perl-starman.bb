@@ -51,21 +51,20 @@ RPM_NAME = "perl-Starman-0.4016-1.2.noarch.rpm"
 RPM_HASH = "9ede29e968f24cf2ba4d1677c25c55764945bfae91784182eaf995b8b8d76331421146caa013ca9cedecd52e875bc6641d4142f5c3f737a2c0b4d4adf28a1d46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTTP::Server::PSGI::Net::Server::PreFork) \
-perl(Plack::Handler::Starman) \
-perl(Starman) \
-perl(Starman::Server) \
-perl-Starman"
+RPROVIDES:${PN} += "perl-HTTP--Server--PSGI--Net--Server--PreFork \
+perl-Plack--Handler--Starman \
+perl-Starman \
+perl-Starman--Server"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Dump) \
-perl(HTTP::Date) \
-perl(HTTP::Parser::XS) \
-perl(HTTP::Status) \
-perl(Net::Server) \
-perl(Plack) \
-perl(Test::TCP) \
-perl(parent)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Dump \
+perl-HTTP--Date \
+perl-HTTP--Parser--XS \
+perl-HTTP--Status \
+perl-Net--Server \
+perl-Plack \
+perl-Test--TCP \
+perl-parent"
 
 inherit rpm

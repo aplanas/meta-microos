@@ -8,12 +8,11 @@ PV = "9.24.61"
 RPM_NAME = "kiwi-systemdeps-disk-images-9.24.61-1.1.aarch64.rpm"
 RPM_HASH = "9ad88c8d2b97ca048d7999f438936b9031b54a5cdeaece83d0bbc8fa1c67f012317bbfbf533a4b55db7927a4a37f30a53f2db2f96bee5e222f41204773df4c7c"
 
-RPROVIDES:${PN} += "kiwi-image-oem-requires \
+RPROVIDES:${PN} += "kiwi-image-oem \
+kiwi-image-oem-requires \
+kiwi-image-vmx \
 kiwi-image-vmx-requires \
-kiwi-image:oem \
-kiwi-image:vmx \
-kiwi-systemdeps-disk-images \
-kiwi-systemdeps-disk-images(aarch-64)"
+kiwi-systemdeps-disk-images"
 
 RDEPENDS:${PN} += "cryptsetup \
 gptfdisk \

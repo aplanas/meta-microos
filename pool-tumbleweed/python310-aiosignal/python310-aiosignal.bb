@@ -10,11 +10,11 @@ RPM_HASH = "fde6dae1ba4f4facb91442eabdadf36891800c74dfe6502f05db9bb7e9604f28ce16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiosignal \
-python3.10dist(aiosignal) \
+python3.10dist-aiosignal \
 python310-aiosignal \
-python3dist(aiosignal)"
+python3dist-aiosignal"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-frozenlist"
 
 inherit rpm

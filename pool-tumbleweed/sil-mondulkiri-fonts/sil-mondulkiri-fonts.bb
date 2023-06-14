@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "sil-mondulkiri-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

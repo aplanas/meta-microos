@@ -14,16 +14,15 @@ PV = "13.5.3"
 RPM_NAME = "ogre-tools-13.5.3-1.5.aarch64.rpm"
 RPM_HASH = "c451e3e7b4ddcfa7248ce18cc55e8c192ca555d54d21aa76fc2f8643c0cb0cbacb6525dd2cefbd2ae29357c841a2d8c530203ff5051149f278f658dae3576757"
 
-RPROVIDES:${PN} += "ogre-tools \
-ogre-tools(aarch-64)"
+RPROVIDES:${PN} += "ogre-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libOgreMain.so.13.5()(64bit) \
-libOgreMeshLodGenerator.so.13.5()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpugixml.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libOgreMain.so.13.5 \
+libOgreMeshLodGenerator.so.13.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpugixml.so.1 \
+libstdc++.so.6"
 
 inherit rpm

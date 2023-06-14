@@ -15,13 +15,13 @@ RPM_HASH = "bea36f6791fcf544e25ea9430b06ef7b6c5391accb782cf41a23e43405c67f52bd16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-coloredlogs \
-python3.10dist(coloredlogs) \
+python3.10dist-coloredlogs \
 python310-coloredlogs \
-python3dist(coloredlogs)"
+python3dist-coloredlogs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-capturer \
 python310-humanfriendly \
 update-alternatives"

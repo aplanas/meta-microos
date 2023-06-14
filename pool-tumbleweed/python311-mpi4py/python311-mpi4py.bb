@@ -34,18 +34,17 @@ PV = "3.1.4"
 RPM_NAME = "python311-mpi4py-3.1.4-2.5.aarch64.rpm"
 RPM_HASH = "2f8787217b0dde5f295ccd9a051276b7a391b74eee9581f4c77e25a356cf96c1ea95406ca088e1bb846d034f50aa2a2891b6732ed6a0e0de8d3fe7d80d9e7600"
 
-RPROVIDES:${PN} += "libmpe.so()(64bit) \
-libvt-hyb.so()(64bit) \
-libvt-mpi.so()(64bit) \
-libvt.so()(64bit) \
-python3.11dist(mpi4py) \
+RPROVIDES:${PN} += "libmpe.so \
+libvt-hyb.so \
+libvt-mpi.so \
+libvt.so \
+python3.11dist-mpi4py \
 python311-mpi4py \
-python311-mpi4py(aarch-64) \
-python3dist(mpi4py)"
+python3dist-mpi4py"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmpi.so.40()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmpi.so.40 \
+python-abi"
 
 inherit rpm

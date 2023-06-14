@@ -21,11 +21,11 @@ RPM_NAME = "python311-nagiosplugin-1.3.3-1.3.noarch.rpm"
 RPM_HASH = "6e7955d025b39b89b03ebb83f7974c0509dbf9d894499ba990a5278292b6b9ae587b218b3476d6b38947b707314c066eea75db2fef360cc722106b10e75dff89"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(nagiosplugin) \
+RPROVIDES:${PN} += "python3.11dist-nagiosplugin \
 python311-nagiosplugin \
-python3dist(nagiosplugin)"
+python3dist-nagiosplugin"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-setuptools"
 
 inherit rpm

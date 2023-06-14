@@ -25,14 +25,13 @@ PV = "5.004"
 RPM_NAME = "perl-Sereal-Decoder-5.004-1.1.aarch64.rpm"
 RPM_HASH = "b7ae2c4656ca10263119986d4164a7d20b469f64987a0674ae8985c0575659b4994a5a0c184fe9c1d516444afdf026660738b073463e757db161455b4033f609"
 
-RPROVIDES:${PN} += "perl(Sereal::Decoder) \
-perl(Sereal::Decoder::Constants) \
-perl(Sereal::Performance) \
-perl-Sereal-Decoder \
-perl-Sereal-Decoder(aarch-64)"
+RPROVIDES:${PN} += "perl-Sereal--Decoder \
+perl-Sereal--Decoder--Constants \
+perl-Sereal--Performance \
+perl-Sereal-Decoder"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

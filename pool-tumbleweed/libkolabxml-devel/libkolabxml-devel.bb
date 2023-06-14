@@ -16,14 +16,13 @@ PV = "1.1.6"
 RPM_NAME = "libkolabxml-devel-1.1.6-13.11.aarch64.rpm"
 RPM_HASH = "33242f89a348bea91e5f20388291e14c71b5386f34cc19bedd5f1d4122f7c3512c6eb478b4dd867710e9a6f4ab9e48b569413fe3991b0519f7ba47987b640774"
 
-RPROVIDES:${PN} += "cmake(Libkolabxml) \
-libkolabxml-devel \
-libkolabxml-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-Libkolabxml \
+libkolabxml-devel"
 
-RDEPENDS:${PN} += "libboost_chrono-devel \
-libboost_date_time-devel \
-libboost_system-devel \
-libboost_thread-devel \
+RDEPENDS:${PN} += "libboost-chrono-devel \
+libboost-date-time-devel \
+libboost-system-devel \
+libboost-thread-devel \
 libcurl-devel \
 libkolabxml1 \
 libxerces-c-devel"

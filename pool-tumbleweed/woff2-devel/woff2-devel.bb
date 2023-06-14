@@ -13,18 +13,17 @@ PV = "1.0.2"
 RPM_NAME = "woff2-devel-1.0.2-4.3.aarch64.rpm"
 RPM_HASH = "d28af735dc22d6133c068e09b258472bc07ef5d7a60ce9fdfa0da2c6bcddbc02f6f6f601ef3c5f5627bad6adb64722f03bd2d3ad4d71b17d96895278c6baff86"
 
-RPROVIDES:${PN} += "pkgconfig(libwoff2common) \
-pkgconfig(libwoff2dec) \
-pkgconfig(libwoff2enc) \
-woff2-devel \
-woff2-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-libwoff2common \
+pkgconfig-libwoff2dec \
+pkgconfig-libwoff2enc \
+woff2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libwoff2common1_0_2 \
-libwoff2dec1_0_2 \
-libwoff2enc1_0_2 \
-pkgconfig(libbrotlidec) \
-pkgconfig(libbrotlienc) \
-pkgconfig(libwoff2common)"
+libwoff2common1-0-2 \
+libwoff2dec1-0-2 \
+libwoff2enc1-0-2 \
+pkgconfig-libbrotlidec \
+pkgconfig-libbrotlienc \
+pkgconfig-libwoff2common"
 
 inherit rpm

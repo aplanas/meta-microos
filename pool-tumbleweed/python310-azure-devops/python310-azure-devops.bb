@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-devops \
 python3-vsts \
-python3.10dist(azure-devops) \
+python3.10dist-azure-devops \
 python310-azure-devops \
 python310-vsts \
-python3dist(azure-devops)"
+python3dist-azure-devops"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg \
 python310-msrest"
 

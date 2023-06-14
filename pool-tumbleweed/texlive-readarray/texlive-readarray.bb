@@ -15,7 +15,7 @@ RPM_NAME = "texlive-readarray-2023.201.3.1svn60540-53.1.noarch.rpm"
 RPM_HASH = "2393cf17a0c2a8ba35c796697190efb279f66f4360b85b5265d2182cc0b8a47198e3c1db62ba2dc32a3bd4addbc9efff33469fb71a057e8afaad7ca0d926aa13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(readarray.sty) \
+RPROVIDES:${PN} += "tex-readarray.sty \
 texlive-readarray"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(forloop.sty) \
-tex(ifthen.sty) \
-tex(listofitems.sty) \
+tex-forloop.sty \
+tex-ifthen.sty \
+tex-listofitems.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

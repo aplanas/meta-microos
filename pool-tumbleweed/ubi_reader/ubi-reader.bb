@@ -21,12 +21,12 @@ RPM_NAME = "ubi_reader-0.8.5-1.2.noarch.rpm"
 RPM_HASH = "8904179dd514499b145250c87580fa2565b9f8ded97091ef32fd4a05de6e57dd567538527510a77d3ecb350e78f6b771bf87d7c2035070dc0927c1a01448ca1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(ubi-reader) \
-python3dist(ubi-reader) \
-ubi_reader"
+RPROVIDES:${PN} += "python3.10dist-ubi-reader \
+python3dist-ubi-reader \
+ubi-reader"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-python-lzo"
 
 inherit rpm

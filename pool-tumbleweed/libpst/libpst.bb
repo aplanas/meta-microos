@@ -11,15 +11,14 @@ PV = "0.6.76"
 RPM_NAME = "libpst-0.6.76-1.3.aarch64.rpm"
 RPM_HASH = "9e0bd2435e1a410c4b813b844c6c6b08ee659e9c14ef7764c219938c931675563de306f99631ab649dc07aeaef3f58c0340d39d1732d88c3edd477f1f82ea0fd"
 
-RPROVIDES:${PN} += "libpst \
-libpst(aarch-64)"
+RPROVIDES:${PN} += "libpst"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsf-1.so.114()(64bit) \
-libpst.so.4()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgobject-2.0.so.0 \
+libgsf-1.so.114 \
+libpst.so.4 \
+libstdc++.so.6"
 
 inherit rpm

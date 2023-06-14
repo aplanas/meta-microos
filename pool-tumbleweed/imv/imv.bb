@@ -7,53 +7,31 @@ PV = "4.4.0"
 RPM_NAME = "imv-4.4.0-1.4.aarch64.rpm"
 RPM_HASH = "b85af39c1a1aa5f6f489f180bfad2707426b0a142457daea8f2b624a696d8f0163c45b96f5f3f570db3936d76d41cde0cd8e3305b9d4d351abfba2a54e95cef4"
 
-RPROVIDES:${PN} += "application() \
-application(imv-dir.desktop) \
-application(imv.desktop) \
-imv \
-imv(aarch-64) \
-mimehandler(image/bmp) \
-mimehandler(image/gif) \
-mimehandler(image/heif) \
-mimehandler(image/jpeg) \
-mimehandler(image/jpg) \
-mimehandler(image/pjpeg) \
-mimehandler(image/png) \
-mimehandler(image/tiff) \
-mimehandler(image/x-bmp) \
-mimehandler(image/x-pcx) \
-mimehandler(image/x-png) \
-mimehandler(image/x-portable-anymap) \
-mimehandler(image/x-portable-bitmap) \
-mimehandler(image/x-portable-graymap) \
-mimehandler(image/x-portable-pixmap) \
-mimehandler(image/x-tga) \
-mimehandler(image/x-xbitmap)"
+RPROVIDES:${PN} += "imv"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfreeimage.so.3()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libheif.so.1()(64bit) \
-libicuuc.so.73()(64bit) \
-libinih.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-librsvg-2.so.2()(64bit) \
-libtiff.so.6()(64bit) \
-libturbojpeg.so.0()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-egl.so.1()(64bit) \
-libxcb.so.1()(64bit) \
-libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libfreeimage.so.3 \
+libgobject-2.0.so.0 \
+libheif.so.1 \
+libicuuc.so.73 \
+libinih.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpng16.so.16 \
+librsvg-2.so.2 \
+libtiff.so.6 \
+libturbojpeg.so.0 \
+libwayland-client.so.0 \
+libwayland-egl.so.1 \
+libxcb.so.1 \
+libxkbcommon-x11.so.0 \
+libxkbcommon.so.0"
 
 inherit rpm

@@ -11,13 +11,13 @@ RPM_HASH = "c2b28593df834940cd1b1583d030be00964b3d9864bbf340698becb70d0bc41411dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hupper \
-python3.10dist(hupper) \
+python3.10dist-hupper \
 python310-hupper \
-python3dist(hupper)"
+python3dist-hupper"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-watchdog \
 update-alternatives"
 

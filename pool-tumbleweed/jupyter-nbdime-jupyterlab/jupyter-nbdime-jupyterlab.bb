@@ -14,6 +14,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-nbdime-jupyterlab"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab \
-python3dist(nbdime)"
+python3dist-nbdime"
 
 inherit rpm

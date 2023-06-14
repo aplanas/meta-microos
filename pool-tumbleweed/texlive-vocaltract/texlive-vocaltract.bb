@@ -15,7 +15,7 @@ RPM_NAME = "texlive-vocaltract-2023.201.1svn25629-53.1.noarch.rpm"
 RPM_HASH = "a2ca7f6e321ea58551a660a108d689f2739ad4dae9cd0a92f86c7262e7997b3d05d0944ddb3bcbe5af74a79fe7f7045a94d229e6c25393e9f035ab9fec232cb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(VocalTract.sty) \
+RPROVIDES:${PN} += "tex-VocalTract.sty \
 texlive-vocaltract"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,16 +24,16 @@ ed \
 findutils \
 grep \
 sed \
-tex(animate.sty) \
-tex(arrayjob.sty) \
-tex(color.sty) \
-tex(fltpoint.sty) \
-tex(fp.sty) \
-tex(ifthen.sty) \
-tex(multido.sty) \
-tex(multimedia.sty) \
-tex(pst-coil.sty) \
-tex(pstricks.sty) \
+tex-animate.sty \
+tex-arrayjob.sty \
+tex-color.sty \
+tex-fltpoint.sty \
+tex-fp.sty \
+tex-ifthen.sty \
+tex-multido.sty \
+tex-multimedia.sty \
+tex-pst-coil.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

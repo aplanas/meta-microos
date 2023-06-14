@@ -14,16 +14,15 @@ PV = "0.8.2"
 RPM_NAME = "libtpl-extensions3-0.8.2-7.9.aarch64.rpm"
 RPM_HASH = "1baafe82886de696a631fc3a2996aa679ec388f4b3e6d3e38af7151d7d47b2a8f16a4b1b98065c85d078758119b91bdea1f9dcbd2ec794bc4870d718ac2d2e88"
 
-RPROVIDES:${PN} += "libtpl-extensions.so.3()(64bit) \
-libtpl-extensions3 \
-libtpl-extensions3(aarch-64)"
+RPROVIDES:${PN} += "libtpl-extensions.so.3 \
+libtpl-extensions3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libtelepathy-glib.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-glib-1.so.2 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libtelepathy-glib.so.0"
 
 inherit rpm

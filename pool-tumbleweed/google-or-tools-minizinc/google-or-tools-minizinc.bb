@@ -7,26 +7,25 @@ PV = "9.6"
 RPM_NAME = "google-or-tools-minizinc-9.6-1.1.aarch64.rpm"
 RPM_HASH = "2c36e40ddb9838793ed1d5709d1753e1a8e29b5bdb12aab80a29964a1a8548bce9a2e526bb65f41b00209cdbccb0b26250f97c641a946aa70ce289283480f6ae"
 
-RPROVIDES:${PN} += "google-or-tools-minizinc \
-google-or-tools-minizinc(aarch-64)"
+RPROVIDES:${PN} += "google-or-tools-minizinc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libabsl_flags_internal.so.2301.0.0()(64bit) \
-libabsl_flags_marshalling.so.2301.0.0()(64bit) \
-libabsl_flags_parse.so.2301.0.0()(64bit) \
-libabsl_flags_reflection.so.2301.0.0()(64bit) \
-libabsl_flags_usage.so.2301.0.0()(64bit) \
-libabsl_log_initialize.so.2301.0.0()(64bit) \
-libabsl_log_internal_message.so.2301.0.0()(64bit) \
-libabsl_log_internal_nullguard.so.2301.0.0()(64bit) \
-libabsl_raw_hash_set.so.2301.0.0()(64bit) \
-libabsl_strings.so.2301.0.0()(64bit) \
-libabsl_time.so.2301.0.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libortools.so.9()(64bit) \
-libortools_flatzinc.so.9()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libabsl-flags-internal.so.2301.0.0 \
+libabsl-flags-marshalling.so.2301.0.0 \
+libabsl-flags-parse.so.2301.0.0 \
+libabsl-flags-reflection.so.2301.0.0 \
+libabsl-flags-usage.so.2301.0.0 \
+libabsl-log-initialize.so.2301.0.0 \
+libabsl-log-internal-message.so.2301.0.0 \
+libabsl-log-internal-nullguard.so.2301.0.0 \
+libabsl-raw-hash-set.so.2301.0.0 \
+libabsl-strings.so.2301.0.0 \
+libabsl-time.so.2301.0.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libortools-flatzinc.so.9 \
+libortools.so.9 \
+libstdc++.so.6 \
 minizinc"
 
 inherit rpm

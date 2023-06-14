@@ -9,9 +9,9 @@ RPM_HASH = "a6dc8d0f284e13a74d8703b82c5f3e2de230ab2b76bf185ae7181b2419e2a0acdbae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-x86asm \
-mvn(com.github.jnr:jnr-x86asm) \
-mvn(com.github.jnr:jnr-x86asm:pom:) \
-osgi(jnr.x86asm)"
+mvn-com.github.jnr-jnr-x86asm \
+mvn-com.github.jnr-jnr-x86asm-pom- \
+osgi-jnr.x86asm"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

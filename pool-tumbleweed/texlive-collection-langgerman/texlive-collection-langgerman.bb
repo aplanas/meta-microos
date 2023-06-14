@@ -37,7 +37,7 @@ texlive-lualatex-doc-de \
 texlive-microtype-de \
 texlive-milog \
 texlive-quran-de \
-texlive-r_und_s \
+texlive-r-und-s \
 texlive-schulmathematik \
 texlive-templates-fenn \
 texlive-templates-sommer \

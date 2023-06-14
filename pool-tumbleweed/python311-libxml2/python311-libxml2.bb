@@ -15,18 +15,17 @@ RPM_NAME = "python311-libxml2-2.10.4-2.1.aarch64.rpm"
 RPM_HASH = "af7c6c0bf9abf5224a9d7d86aaa66ab50ae0a160eb5c561d00a29c807b0b1c84038be4fd5deae5b89336c0182801dcf694fef4cbc5854989227ed1aed45c3f4e"
 
 RPROVIDES:${PN} += "libxml2-python \
-libxml2mod.cpython-311-aarch64-linux-gnu.so()(64bit) \
-python3.11dist(libxml2-python) \
+libxml2mod.cpython-311-aarch64-linux-gnu.so \
+python3.11dist-libxml2-python \
 python311-libxml2 \
-python311-libxml2(aarch-64) \
 python311-libxml2-python \
-python3dist(libxml2-python)"
+python3dist-libxml2-python"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libxml2-2 \
-libxml2.so.2()(64bit) \
-python(abi) \
+libxml2.so.2 \
+python-abi \
 python311-extras"
 
 inherit rpm

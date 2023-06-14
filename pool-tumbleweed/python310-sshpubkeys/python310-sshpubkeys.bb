@@ -9,11 +9,11 @@ RPM_HASH = "b581a231695b14343240366240810a7d6562db364c6b97eba538cef9990e28aa314c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sshpubkeys \
-python3.10dist(sshpubkeys) \
+python3.10dist-sshpubkeys \
 python310-sshpubkeys \
-python3dist(sshpubkeys)"
+python3dist-sshpubkeys"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-ecdsa"
 

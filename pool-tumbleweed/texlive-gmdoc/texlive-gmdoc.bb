@@ -17,9 +17,9 @@ RPM_NAME = "texlive-gmdoc-2023.201.0.0.993svn21292-53.1.noarch.rpm"
 RPM_HASH = "3a0d11d416af997502da4954563e16bd6fe284af03b5ef29c36a0a3158e54f9e4961f8447c330f14ff04512421f4970dd91f83abf478d12e511f4ee8201c99e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gmdoc.sty) \
-tex(gmdocc.cls) \
-tex(gmoldcomm.sty) \
+RPROVIDES:${PN} += "tex-gmdoc.sty \
+tex-gmdocc.cls \
+tex-gmoldcomm.sty \
 texlive-gmdoc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,22 +28,22 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsfonts.sty) \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(article.cls) \
-tex(fontenc.sty) \
-tex(geometry.sty) \
-tex(gmiflink.sty) \
-tex(gmutils.sty) \
-tex(gmverb.sty) \
-tex(lmodern.sty) \
-tex(makeidx.sty) \
-tex(multicol.sty) \
-tex(tikz.sty) \
-tex(trace.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-amsfonts.sty \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-article.cls \
+tex-fontenc.sty \
+tex-geometry.sty \
+tex-gmiflink.sty \
+tex-gmutils.sty \
+tex-gmverb.sty \
+tex-lmodern.sty \
+tex-makeidx.sty \
+tex-multicol.sty \
+tex-tikz.sty \
+tex-trace.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,12 +10,12 @@ RPM_HASH = "13d23d465b5d42a10dbbaad9525605f168fe3b60f7f909265f0ed87594a8b3b0ee84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-unixsocket \
-python3.10dist(requests-unixsocket) \
+python3.10dist-requests-unixsocket \
 python310-requests-unixsocket \
-python3dist(requests-unixsocket)"
+python3dist-requests-unixsocket"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-python(abi) \
+python-abi \
 python310-requests"
 
 inherit rpm

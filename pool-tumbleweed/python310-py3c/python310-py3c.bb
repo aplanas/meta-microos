@@ -12,9 +12,9 @@ RPM_HASH = "bd0167e480037a3355059d2a26a45481042e69c69059dbee482cd26a3e1487b891ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py3c \
-python3.10dist(py3c) \
+python3.10dist-py3c \
 python310-py3c \
-python3dist(py3c)"
+python3dist-py3c"
 
 RDEPENDS:${PN} += ""
 

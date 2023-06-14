@@ -21,7 +21,7 @@ RPM_NAME = "texlive-harvard-2023.201.2.0.5svn15878-53.1.noarch.rpm"
 RPM_HASH = "ff41fa7c513a25504426214752b53bc155ef3ce26fbd509123459fc299f948dcb0377febf3cfb69530289e5c7d916a7dfbf30aeb55ed2aa2709faafb5509c2e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(harvard.sty) \
+RPROVIDES:${PN} += "tex-harvard.sty \
 texlive-harvard"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,7 +30,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -15,22 +15,22 @@ RPM_NAME = "perl-ExtUtils-Typemaps-Default-1.05-3.24.noarch.rpm"
 RPM_HASH = "49cc95533c2447e61e7918285c622eb0e4d0ad45d39069bbc641c2ab9011c18626bd7036b00f96c13175f6f2061c924338b53cbd636f1dfafb4268c2fb50624e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(ExtUtils::Typemap::Basic) \
-perl(ExtUtils::Typemap::Default) \
-perl(ExtUtils::Typemap::ObjectMap) \
-perl(ExtUtils::Typemap::STL) \
-perl(ExtUtils::Typemap::STL::String) \
-perl(ExtUtils::Typemap::STL::Vector) \
-perl(ExtUtils::Typemaps::Basic) \
-perl(ExtUtils::Typemaps::Default) \
-perl(ExtUtils::Typemaps::ObjectMap) \
-perl(ExtUtils::Typemaps::STL) \
-perl(ExtUtils::Typemaps::STL::List) \
-perl(ExtUtils::Typemaps::STL::String) \
-perl(ExtUtils::Typemaps::STL::Vector) \
+RPROVIDES:${PN} += "perl-ExtUtils--Typemap--Basic \
+perl-ExtUtils--Typemap--Default \
+perl-ExtUtils--Typemap--ObjectMap \
+perl-ExtUtils--Typemap--STL \
+perl-ExtUtils--Typemap--STL--String \
+perl-ExtUtils--Typemap--STL--Vector \
+perl-ExtUtils--Typemaps--Basic \
+perl-ExtUtils--Typemaps--Default \
+perl-ExtUtils--Typemaps--ObjectMap \
+perl-ExtUtils--Typemaps--STL \
+perl-ExtUtils--Typemaps--STL--List \
+perl-ExtUtils--Typemaps--STL--String \
+perl-ExtUtils--Typemaps--STL--Vector \
 perl-ExtUtils-Typemaps-Default"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(ExtUtils::Typemaps)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-ExtUtils--Typemaps"
 
 inherit rpm

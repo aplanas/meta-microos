@@ -14,12 +14,12 @@ RPM_NAME = "python311-azure-keyvault-administration-4.3.0-1.2.noarch.rpm"
 RPM_HASH = "aba34ee57192ac0d5bee281ee5dce8a432dfb00de48b257d05d0b5f0d4762a25360ec62cc8454b50c716f2ccd0da8fdd7a516215acfea683efc9175bd2ddf101"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-keyvault-administration) \
+RPROVIDES:${PN} += "python3.11dist-azure-keyvault-administration \
 python311-azure-keyvault-administration \
-python3dist(azure-keyvault-administration)"
+python3dist-azure-keyvault-administration"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.0.1 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.0.1 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-core \
 python311-azure-keyvault-nspkg \

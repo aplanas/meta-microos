@@ -9,11 +9,11 @@ RPM_HASH = "b6ec624221b6998747e4d48683c34213d8f1517a787b0160918eaccbbaeb1ebff28d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xarray-einstats \
-python3.10dist(xarray-einstats) \
+python3.10dist-xarray-einstats \
 python310-xarray-einstats \
-python3dist(xarray-einstats)"
+python3dist-xarray-einstats"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-scipy \
 python310-xarray"

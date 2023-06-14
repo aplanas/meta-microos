@@ -15,18 +15,17 @@ RPM_NAME = "python39-libxml2-2.10.4-2.1.aarch64.rpm"
 RPM_HASH = "6fd2ae934aea8ee2feabc43e263542a96c484f0f1014d83e5c3606d13a32d0da52fafed1e0d97b69b3a89a595657889beaef9eb6d9e01c388b970633a55e0273"
 
 RPROVIDES:${PN} += "libxml2-python \
-libxml2mod.cpython-39-aarch64-linux-gnu.so()(64bit) \
-python3.9dist(libxml2-python) \
+libxml2mod.cpython-39-aarch64-linux-gnu.so \
+python3.9dist-libxml2-python \
 python39-libxml2 \
-python39-libxml2(aarch-64) \
 python39-libxml2-python \
-python3dist(libxml2-python)"
+python3dist-libxml2-python"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libxml2-2 \
-libxml2.so.2()(64bit) \
-python(abi) \
+libxml2.so.2 \
+python-abi \
 python39-extras"
 
 inherit rpm

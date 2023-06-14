@@ -8,10 +8,10 @@ RPM_NAME = "myspell-es_BO-20221012-1.2.noarch.rpm"
 RPM_HASH = "82a2e80781bb8946844119c15a15eb63d02fee61ab3b12fc6ad0ea0f1b5192a1192024cb5091197d254a1135ef3a0337af791963e7b9d0ca7f2545930883c220"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_BO) \
-locale(seamonkey-spellchecker:es_BO) \
+RPROVIDES:${PN} += "locale-libreoffice-es-BO \
+locale-seamonkey-spellchecker-es-BO \
 myspell-dictionary \
-myspell-es_BO \
+myspell-es-BO \
 myspell-spanish-bolivian"
 
 RDEPENDS:${PN} += "myspell-dictionaries \

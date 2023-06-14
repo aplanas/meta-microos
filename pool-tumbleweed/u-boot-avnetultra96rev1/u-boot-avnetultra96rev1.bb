@@ -9,7 +9,6 @@ RPM_NAME = "u-boot-avnetultra96rev1-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "10fdc1ad473a2d003c7a5a9170e3af194b3a231de1f5392ce18a920a699e70016a745b8a73bfd6f9af1e6a7192d39d24c221ccf66e18c6c6aeeda0ce4b1977a1"
 
 RPROVIDES:${PN} += "u-boot-avnetultra96rev1 \
-u-boot-avnetultra96rev1(aarch-64) \
 u-boot-loader"
 
 RDEPENDS:${PN} += ""

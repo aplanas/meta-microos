@@ -13,10 +13,10 @@ RPM_NAME = "python311-requestsexceptions-1.4.0-2.8.noarch.rpm"
 RPM_HASH = "4f4c3a0d90fba6d4a23c723464dbeb83881373b445d86f4a72bcaf9efd3cbcfa506c076341b2ac2798c184207634444966f9cfcb2ad3568d21c9ef5b8ccd1d4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(requestsexceptions) \
+RPROVIDES:${PN} += "python3.11dist-requestsexceptions \
 python311-requestsexceptions \
-python3dist(requestsexceptions)"
+python3dist-requestsexceptions"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

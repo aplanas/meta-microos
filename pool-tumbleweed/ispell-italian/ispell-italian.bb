@@ -11,10 +11,9 @@ RPM_NAME = "ispell-italian-1.5-422.6.aarch64.rpm"
 RPM_HASH = "2545ca7e5173eb8160788ce30e02e78b481697c143651f4b6521d96a486ab753591aac5100c8bb7623782ce2e08cc9867f58937f331f3335d06c8b9945350be3"
 
 RPROVIDES:${PN} += "iitalian \
+ispell-dictionary \
 ispell-italian \
-ispell-italian(aarch-64) \
-ispell_dictionary \
-locale(ispell:it)"
+locale-ispell-it"
 
 RDEPENDS:${PN} += ""
 

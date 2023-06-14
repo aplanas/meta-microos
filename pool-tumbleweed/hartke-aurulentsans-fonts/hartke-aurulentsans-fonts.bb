@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "hartke-aurulentsans-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

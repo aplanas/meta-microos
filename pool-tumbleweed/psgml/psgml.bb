@@ -30,6 +30,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "psgml"
 
 RDEPENDS:${PN} += "/bin/sh \
-emacs_program"
+emacs-program"
 
 inherit rpm

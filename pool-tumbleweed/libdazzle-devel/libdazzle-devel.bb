@@ -14,13 +14,12 @@ RPM_NAME = "libdazzle-devel-3.44.0-1.7.aarch64.rpm"
 RPM_HASH = "3bb69644134f85f37447862597c78dcb14456d46b9cc7ba9c031925804908db6cdefcb69ad4f9ac094a75fb821f3f58e9df3c9653ff099aefb6f9625a8d2099f"
 
 RPROVIDES:${PN} += "libdazzle-devel \
-libdazzle-devel(aarch-64) \
-pkgconfig(libdazzle-1.0)"
+pkgconfig-libdazzle-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dazzle-list-counters \
-libdazzle-1_0-0 \
-pkgconfig(gtk+-3.0) \
-typelib-1_0-libdazzle-1_0"
+libdazzle-1-0-0 \
+pkgconfig-gtk+-3.0 \
+typelib-1-0-libdazzle-1-0"
 
 inherit rpm

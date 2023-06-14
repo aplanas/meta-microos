@@ -17,11 +17,11 @@ RPM_HASH = "d34a79ee434f04477525266eec7b2a8c4a85f95f7315075a70498508e132f732e1ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.config \
-python3.10dist(oslo.config) \
-python3dist(oslo.config)"
+python3.10dist-oslo.config \
+python3dist-oslo.config"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-debtcollector \
 python3-importlib-metadata \

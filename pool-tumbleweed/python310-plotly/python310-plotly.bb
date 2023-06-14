@@ -15,11 +15,11 @@ RPM_HASH = "0c957ef0c20917ed78cb2e4481d497e33b9063519a797f203b8bbabcd67bf2f76a2a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-plotly \
-python3.10dist(plotly) \
+python3.10dist-plotly \
 python310-plotly \
-python3dist(plotly)"
+python3dist-plotly"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tenacity"
 
 inherit rpm

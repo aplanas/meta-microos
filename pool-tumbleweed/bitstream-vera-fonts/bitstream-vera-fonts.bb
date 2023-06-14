@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "bitstream-vera \
 bitstream-vera-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

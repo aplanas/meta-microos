@@ -12,11 +12,11 @@ RPM_NAME = "python39-testscenarios-0.5.0-5.1.noarch.rpm"
 RPM_HASH = "37682bfa9d8a98ad349dc4705096b69ee88a0c53bf78171c8a3ddaeb1988600ffc4d985c7f6f4ab4af64d38babf74f905e193a601250b2f446ac98bfd874066a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(testscenarios) \
+RPROVIDES:${PN} += "python3.9dist-testscenarios \
 python39-testscenarios \
-python3dist(testscenarios)"
+python3dist-testscenarios"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pbr \
 python39-testtools"
 

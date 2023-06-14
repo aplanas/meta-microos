@@ -12,13 +12,13 @@ RPM_HASH = "f8aeff6f040c7762b0f0b665c19d5adc5227b2691f7e63dd8754f2ed5c2198f146fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rust2rpm \
-python3.10dist(rust2rpm) \
-python3dist(rust2rpm) \
+python3.10dist-rust2rpm \
+python3dist-rust2rpm \
 rust2rpm"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cargo \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-requests \
 python3-setuptools \

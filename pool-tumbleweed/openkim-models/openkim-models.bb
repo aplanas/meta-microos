@@ -12,20 +12,17 @@ PV = "2021.08.11"
 RPM_NAME = "openkim-models-2021.08.11-1.6.aarch64.rpm"
 RPM_HASH = "f80a6ffd8a8050d9fea56db93c3c3ba19a041a5665228c94711231aaabb9231671603eb3353664ec07253e75670dc696d998373778741214728f99cf719a714e"
 
-RPROVIDES:${PN} += "libkim-api-model-driver.so()(64bit) \
-libkim-api-portable-model.so()(64bit) \
-libkim-api-simulator-model.so()(64bit) \
-openkim-models \
-openkim-models(aarch-64)"
+RPROVIDES:${PN} += "libkim-api-model-driver.so \
+libkim-api-portable-model.so \
+libkim-api-simulator-model.so \
+openkim-models"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libkim-api.so.2()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libkim-api.so.2 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -17,15 +17,15 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-dbcp1 \
 commons-dbcp \
 jakarta-commons-dbcp \
-mvn(commons-dbcp:commons-dbcp) \
-mvn(commons-dbcp:commons-dbcp:pom:)"
+mvn-commons-dbcp-commons-dbcp \
+mvn-commons-dbcp-commons-dbcp-pom-"
 
 RDEPENDS:${PN} += "commons-collections \
 commons-pool \
 java-headless \
 javapackages-filesystem \
-jta_api \
-mvn(commons-pool:commons-pool) \
+jta-api \
+mvn-commons-pool-commons-pool \
 update-alternatives"
 
 inherit rpm

@@ -15,13 +15,13 @@ RPM_HASH = "2824c7c850ef96f32bc6274a6cf0b912a0d4d7830adf3a2ad0a47d43fa79453dc341
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scikit-hep-testdata \
-python3.10dist(scikit-hep-testdata) \
+python3.10dist-scikit-hep-testdata \
 python310-scikit-hep-testdata \
-python3dist(scikit-hep-testdata)"
+python3dist-scikit-hep-testdata"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-requests \
 scikit-hep-testdata-files \

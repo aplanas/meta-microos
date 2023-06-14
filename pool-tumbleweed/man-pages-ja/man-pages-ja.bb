@@ -10,7 +10,7 @@ RPM_NAME = "man-pages-ja-20230115-1.1.noarch.rpm"
 RPM_HASH = "02985c668ef6a7a9b4d48985cf7b82f34c3e59b7e6f6998d86e7f7ee551f59c7af08641bf3e9c6aa2312bf9f0ea1598c878ff1f801a09516e80803f72a61eed2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(man:ja) \
+RPROVIDES:${PN} += "locale-man-ja \
 man-pages-ja"
 
 RDEPENDS:${PN} += ""

@@ -7,9 +7,8 @@ PV = "4.4.0"
 RPM_NAME = "cheat-4.4.0-1.4.aarch64.rpm"
 RPM_HASH = "6b4e580ec2e763426fad035cc78e14b35cd2c3909011869ebfdef67879b957e281cedc8948d02fcd8c2fc46afbd4fe69c058f9115a0f4a7916f2cdf02b6cb46c"
 
-RPROVIDES:${PN} += "cheat \
-cheat(aarch-64)"
+RPROVIDES:${PN} += "cheat"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

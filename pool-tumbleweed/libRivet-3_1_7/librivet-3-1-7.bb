@@ -16,23 +16,22 @@ PV = "3.1.7"
 RPM_NAME = "libRivet-3_1_7-3.1.7-1.1.aarch64.rpm"
 RPM_HASH = "2cff8c7df7a410c554764802d1ab63b8ba274a2016ebf6890c58227d8d5eccf0519057f32cccd83dc6b0d68afba725188e8b039aa97b2f2a9db3ae7b1d652028"
 
-RPROVIDES:${PN} += "libRivet-3.1.7.so()(64bit) \
-libRivet-3_1_7 \
-libRivet-3_1_7(aarch-64)"
+RPROVIDES:${PN} += "libRivet-3-1-7 \
+libRivet-3.1.7.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libHepMC3.so.3()(64bit) \
-libHepMC3search.so.4()(64bit) \
-libYODA-1.9.7.so()(64bit) \
-libc.so.6()(64bit) \
-libfastjet.so.0()(64bit) \
-libfastjetplugins.so.0()(64bit) \
-libfastjettools.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libHepMC3.so.3 \
+libHepMC3search.so.4 \
+libYODA-1.9.7.so \
+libc.so.6 \
+libfastjet.so.0 \
+libfastjetplugins.so.0 \
+libfastjettools.so.0 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgomp.so.1 \
+libm.so.6 \
+libz.so.1"
 
 inherit rpm

@@ -18,12 +18,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-yubico \
 python3-yubico \
-python3.10dist(python-yubico) \
+python3.10dist-python-yubico \
 python310-python-yubico \
 python310-yubico \
-python3dist(python-yubico)"
+python3dist-python-yubico"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-usb"
 
 inherit rpm

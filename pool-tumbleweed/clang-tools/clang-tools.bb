@@ -16,7 +16,6 @@ RPM_NAME = "clang-tools-16.0.4-1.1.aarch64.rpm"
 RPM_HASH = "bcaa4a83623c915d2e241ef2dae9ea6ca842d3c89252d0a6d37861a77579afb004fe47c027d3f6ead9ee7f7924fc611968487b431a595df544f4f16b302cef6b"
 
 RPROVIDES:${PN} += "clang-tools \
-clang-tools(aarch-64) \
 emacs-llvm \
 scan-build \
 scan-view"
@@ -24,11 +23,10 @@ scan-view"
 RDEPENDS:${PN} += "/usr/bin/clang \
 /usr/bin/perl \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.16()(64bit) \
-libLLVM.so.16(LLVM_16)(64bit) \
-libc.so.6()(64bit) \
-libclang-cpp.so.16()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libLLVM.so.16 \
+libc.so.6 \
+libclang-cpp.so.16 \
+libstdc++.so.6"
 
 inherit rpm

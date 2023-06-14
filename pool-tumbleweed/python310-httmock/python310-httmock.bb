@@ -13,11 +13,11 @@ RPM_HASH = "ad13ea76da79b43235fe82dff805e1dd73480d099d2c0671aeea56e78b2027d0f23c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-httmock \
-python3.10dist(httmock) \
+python3.10dist-httmock \
 python310-httmock \
-python3dist(httmock)"
+python3dist-httmock"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

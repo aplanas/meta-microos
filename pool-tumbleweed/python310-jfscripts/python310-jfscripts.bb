@@ -16,13 +16,13 @@ RPM_HASH = "230f15122986c76dd0204afa7f9bae9f30d518c0a6335fdde98a61c5d26191f298d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jfscripts \
-python3.10dist(jfscripts) \
+python3.10dist-jfscripts \
 python310-jfscripts \
-python3dist(jfscripts)"
+python3dist-jfscripts"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyPDF2 \
 python310-sphinx-argparse \
 python310-termcolor \

@@ -15,16 +15,16 @@ RPM_NAME = "perl-File-Find-Object-0.3.7-1.1.noarch.rpm"
 RPM_HASH = "378f1047e5bceb06d0e78eeaa418ab383cd1812c0b9e8c27bb77724dc625fafb5a1d6f2d06e055c36e6ee12226ab416bdd2e8f53627bf469b9516d5cc3328072"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Find::Object) \
-perl(File::Find::Object::Base) \
-perl(File::Find::Object::DeepPath) \
-perl(File::Find::Object::PathComp) \
-perl(File::Find::Object::Result) \
-perl(File::Find::Object::TopPath) \
+RPROVIDES:${PN} += "perl-File--Find--Object \
+perl-File--Find--Object--Base \
+perl-File--Find--Object--DeepPath \
+perl-File--Find--Object--PathComp \
+perl-File--Find--Object--Result \
+perl-File--Find--Object--TopPath \
 perl-File-Find-Object"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::XSAccessor) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--XSAccessor \
+perl-parent"
 
 inherit rpm

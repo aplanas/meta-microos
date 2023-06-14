@@ -18,13 +18,12 @@ PV = "3.0.1"
 RPM_NAME = "libsymmetrica2-3.0.1-1.11.aarch64.rpm"
 RPM_HASH = "005da6181de9d9bdadb306fe67a8fe167f29a0475bfd8f23cb19e667cba9f21fdcd03be330b033e2b0b40d59c3fb32a5bb8ae956b15f88411fac7bffb26cf502"
 
-RPROVIDES:${PN} += "libsymmetrica.so.2()(64bit) \
-libsymmetrica2 \
-libsymmetrica2(aarch-64)"
+RPROVIDES:${PN} += "libsymmetrica.so.2 \
+libsymmetrica2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

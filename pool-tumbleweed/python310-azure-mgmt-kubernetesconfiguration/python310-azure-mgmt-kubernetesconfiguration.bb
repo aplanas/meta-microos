@@ -11,12 +11,12 @@ RPM_HASH = "6931b9e15e7432a783c6130c2faa5bcd19bf3bfaa1fa08b710191d0df7fb537a3062
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-kubernetesconfiguration \
-python3.10dist(azure-mgmt-kubernetesconfiguration) \
+python3.10dist-azure-mgmt-kubernetesconfiguration \
 python310-azure-mgmt-kubernetesconfiguration \
-python3dist(azure-mgmt-kubernetesconfiguration)"
+python3dist-azure-mgmt-kubernetesconfiguration"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-extra \
 fcitx-table-tw-cangjie-large \
-locale(fcitx-table:zh_TW;)"
+locale-fcitx-table-zh-TW;"
 
 RDEPENDS:${PN} += "fcitx-table"
 

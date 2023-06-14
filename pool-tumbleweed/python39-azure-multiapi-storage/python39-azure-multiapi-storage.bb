@@ -18,11 +18,11 @@ RPM_NAME = "python39-azure-multiapi-storage-1.1.0-1.1.noarch.rpm"
 RPM_HASH = "73742b617ae3a9b696a4be2cbd4bfea8fdbe7aa68397bd2f0b0b49b0a2217c93d8d9c007df92af63dcd1c3cacd71567f03a30626062798761f4b9f7db82ad860"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-multiapi-storage) \
+RPROVIDES:${PN} += "python3.9dist-azure-multiapi-storage \
 python39-azure-multiapi-storage \
-python3dist(azure-multiapi-storage)"
+python3dist-azure-multiapi-storage"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-core \
 python39-azure-nspkg \

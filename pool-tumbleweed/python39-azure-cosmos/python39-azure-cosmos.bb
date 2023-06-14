@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-cosmos-4.3.1-1.2.noarch.rpm"
 RPM_HASH = "34a390c6c3b7d7d526dfcc48b78ecaa6801c8c99b442e0a1a7bda03c9b68bd78456e6e352eab71bfed548e1edb07576418648a5831cc41c466f89156f8dc09eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-cosmos) \
+RPROVIDES:${PN} += "python3.9dist-azure-cosmos \
 python39-azure-cosmos \
-python3dist(azure-cosmos)"
+python3dist-azure-cosmos"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-core \
 python39-azure-nspkg"
 

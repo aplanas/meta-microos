@@ -25,14 +25,13 @@ RPM_NAME = "openmpi_2_1_6-gnu-hpc-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "082e1015c18b16ff100336bf9ebc5b7b305a8c5f813d46987a66123ce98b7e0aa1b35563f4cb933f7b7cc7165e7b20dff7dfea410bfd88e62b75fed754f5406e"
 
 RPROVIDES:${PN} += "mpi \
-openmpi_2_1_6-gnu-hpc \
-openmpi_2_1_6-gnu-hpc(aarch-64)"
+openmpi-2-1-6-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libopenmpi_2_1_6-gnu-hpc \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libopenmpi-2-1-6-gnu-hpc \
 lua-lmod \
 openmpi-runtime-config \
 openssh"

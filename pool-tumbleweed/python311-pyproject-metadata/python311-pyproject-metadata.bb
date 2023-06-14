@@ -15,11 +15,11 @@ RPM_NAME = "python311-pyproject-metadata-0.6.1-3.1.noarch.rpm"
 RPM_HASH = "32c061c3e88cce408450a6875dc1ed11a5a4767f45e4eb3e31692d77e5a4ed6e21767027f7bbbb337e15da81722507052aa6899fe573a5cf36ea2065b340bb01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyproject-metadata) \
+RPROVIDES:${PN} += "python3.11dist-pyproject-metadata \
 python311-pyproject-metadata \
-python3dist(pyproject-metadata)"
+python3dist-pyproject-metadata"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-packaging"
 
 inherit rpm

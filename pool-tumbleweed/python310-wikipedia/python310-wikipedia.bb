@@ -15,11 +15,11 @@ RPM_HASH = "aaccb83e385401720693e38f93f846a60326b2f8ba521e01f003adc6f0aeabec9860
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wikipedia \
-python3.10dist(wikipedia) \
+python3.10dist-wikipedia \
 python310-wikipedia \
-python3dist(wikipedia)"
+python3dist-wikipedia"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-beautifulsoup4 \
 python310-requests"
 

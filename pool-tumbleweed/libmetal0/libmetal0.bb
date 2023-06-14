@@ -12,14 +12,13 @@ RPM_NAME = "libmetal0-2020.10.0-1.3.aarch64.rpm"
 RPM_HASH = "f3d9ce105314985d75a0dda977709855d88008fcb74a38510607e0deadbaeeca8e0800287ac53386713318e9357523e0343baef062ada23170a83e8e56cb6356"
 
 RPROVIDES:${PN} += "libmetal \
-libmetal.so.0()(64bit) \
-libmetal0 \
-libmetal0(aarch-64)"
+libmetal.so.0 \
+libmetal0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhugetlbfs.so()(64bit) \
-libsysfs.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhugetlbfs.so \
+libsysfs.so.2"
 
 inherit rpm

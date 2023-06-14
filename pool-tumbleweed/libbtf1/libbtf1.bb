@@ -11,12 +11,11 @@ PV = "1.2.6"
 RPM_NAME = "libbtf1-1.2.6-49.1.aarch64.rpm"
 RPM_HASH = "14bda221f68ef380f5961220ea87a48fa71d8fc398e7acc930cf914ded96c7ec85f18e7bf6a70e14e2af256c2f91babb367de69a75d82abf540c5d0b3e1e66c0"
 
-RPROVIDES:${PN} += "libbtf-1_2_6 \
-libbtf.so.1()(64bit) \
-libbtf1 \
-libbtf1(aarch-64)"
+RPROVIDES:${PN} += "libbtf-1-2-6 \
+libbtf.so.1 \
+libbtf1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "52e25c7fcef5d9237b9514dce9718911c8e0a60fcc5f9698d46f436f5ed3871c4bd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-audio-degrader \
-python3.10dist(audio-degrader) \
+python3.10dist-audio-degrader \
 python310-audio-degrader \
-python3dist(audio-degrader)"
+python3dist-audio-degrader"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-SoundFile \
 python310-scipy \
 python310-sox \

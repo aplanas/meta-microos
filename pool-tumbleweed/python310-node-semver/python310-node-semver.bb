@@ -9,10 +9,10 @@ RPM_HASH = "d4b03088fde4368e71113bf912b6ce1eddfa1ccbed142ee6a3b94176155e8d4ac410
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-node-semver \
-python3.10dist(node-semver) \
+python3.10dist-node-semver \
 python310-node-semver \
-python3dist(node-semver)"
+python3dist-node-semver"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

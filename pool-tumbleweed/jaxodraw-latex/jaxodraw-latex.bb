@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "jaxodraw-latex"
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 jaxodraw \
-tex(latex) \
+tex-latex \
 texlive \
 texlive-pst-tools"
 

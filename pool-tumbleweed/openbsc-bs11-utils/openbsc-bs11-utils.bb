@@ -9,13 +9,12 @@ PV = "1.4.1"
 RPM_NAME = "openbsc-bs11-utils-1.4.1-1.10.aarch64.rpm"
 RPM_HASH = "4b7282e61f66921a12619dfd96a09873e367ee3218a740134bf2644eff5a3484203800a308609610ef0bff334243369ce99d534ab680a0acdfa4e51b0a4fd66b"
 
-RPROVIDES:${PN} += "openbsc-bs11-utils \
-openbsc-bs11-utils(aarch-64)"
+RPROVIDES:${PN} += "openbsc-bs11-utils"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libosmoabis.so.10()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmogsm.so.18()(64bit) \
-libtalloc.so.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libosmoabis.so.10 \
+libosmocore.so.20 \
+libosmogsm.so.18 \
+libtalloc.so.2"
 
 inherit rpm

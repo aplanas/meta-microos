@@ -11,7 +11,7 @@ RPM_NAME = "texlive-luamplib-2023.201.2.23.0svn61587-52.1.noarch.rpm"
 RPM_HASH = "551455e6bdd2d54be844f64e439346ea0ebd6e6fffa6a35147348bc3b70e6d12a18ef0268b1c4a1181dbe69636249ff7a9b96a8718af9335b2e8b9df93be2439"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luamplib.sty) \
+RPROVIDES:${PN} += "tex-luamplib.sty \
 texlive-luamplib"
 
 RDEPENDS:${PN} += "/bin/sh \

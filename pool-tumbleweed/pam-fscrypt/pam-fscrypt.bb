@@ -11,11 +11,10 @@ PV = "0.3.4"
 RPM_NAME = "pam-fscrypt-0.3.4-3.4.aarch64.rpm"
 RPM_HASH = "898c044959cf828b1914f246e3ef3154d81d2ea526c76f2e6ac5a3a74246ff98f6044d20e37a100c129df3da8e79411677db768ab253cae309b74ea0ede18972"
 
-RPROVIDES:${PN} += "pam-fscrypt \
-pam-fscrypt(aarch-64)"
+RPROVIDES:${PN} += "pam-fscrypt"
 
 RDEPENDS:${PN} += "fscrypt \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit)"
+libc.so.6 \
+libpam.so.0"
 
 inherit rpm

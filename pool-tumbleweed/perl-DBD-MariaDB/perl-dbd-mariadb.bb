@@ -12,19 +12,16 @@ PV = "1.22"
 RPM_NAME = "perl-DBD-MariaDB-1.22-1.10.aarch64.rpm"
 RPM_HASH = "cab08fdc1a4dced2f19012a8be37877f85377c970e240224ed8f4528b1ac43cd27e78e9df861491c47c2309a85127ba69abb3173c01d18bdc71b36615a5b3a6b"
 
-RPROVIDES:${PN} += "perl(DBD::MariaDB) \
-perl-DBD-MariaDB \
-perl-DBD-MariaDB(aarch-64)"
+RPROVIDES:${PN} += "perl-DBD--MariaDB \
+perl-DBD-MariaDB"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmariadb_3)(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(DBI) \
-perl(DynaLoader) \
-perl(strict) \
-perl(warnings)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmariadb.so.3 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-DBI \
+perl-DynaLoader \
+perl-strict \
+perl-warnings"
 
 inherit rpm

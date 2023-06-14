@@ -11,11 +11,11 @@ RPM_NAME = "python311-gns3fy-0.8.0-1.3.noarch.rpm"
 RPM_HASH = "f98ea265b202d8fe6d665bf09a77c28813c1af97234eeaea1bc79bb05511a7e061c841d9f9da0734604d639c0e73528a695ff54de8ee8c0ee249ca36bd0eff76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(gns3fy) \
+RPROVIDES:${PN} += "python3.11dist-gns3fy \
 python311-gns3fy \
-python3dist(gns3fy)"
+python3dist-gns3fy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pydantic \
 python311-requests"
 

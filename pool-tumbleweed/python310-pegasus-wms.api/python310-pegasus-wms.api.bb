@@ -18,11 +18,11 @@ RPM_HASH = "5b80b6454edcdb9f03c021a53db3829d20526516e6e55435e5e3366630aa8a51073b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pegasus-wms.api \
-python3.10dist(pegasus-wms.api) \
+python3.10dist-pegasus-wms.api \
 python310-pegasus-wms.api \
-python3dist(pegasus-wms.api)"
+python3dist-pegasus-wms.api"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pegasus-wms.common"
 
 inherit rpm

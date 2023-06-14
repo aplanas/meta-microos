@@ -16,26 +16,22 @@ PV = "2.0.4"
 RPM_NAME = "obconf-2.0.4-8.32.aarch64.rpm"
 RPM_HASH = "7fce90106056512c0432333c6a8086441a8ae59ad68e9db8860d57f99f3e633dabfa69a332c0e810de9fa0193f9b9693e89936aa35498dcb18e2d0215b3f42d2"
 
-RPROVIDES:${PN} += "application() \
-application(obconf.desktop) \
-mimehandler(application/x-openbox-theme) \
-obconf \
-obconf(aarch-64)"
+RPROVIDES:${PN} += "obconf"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglade-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libobrender.so.32()(64bit) \
-libobt.so.2()(64bit) \
-libstartup-notification-1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglade-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libobrender.so.32 \
+libobt.so.2 \
+libstartup-notification-1.so.0 \
+libxml2.so.2 \
 openbox"
 
 inherit rpm

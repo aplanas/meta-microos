@@ -13,7 +13,7 @@ RPM_NAME = "texlive-koma-moderncvclassic-2023.201.0.0.5svn25025-55.1.noarch.rpm"
 RPM_HASH = "c06642342eb822a364000b8ebd1202d66746263c6f928e0555a1a34f78884e98b15e583137f5ed204926988381abff14d56c0a0b4aad435f19e654577df79dfb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(koma-moderncvclassic.sty) \
+RPROVIDES:${PN} += "tex-koma-moderncvclassic.sty \
 texlive-koma-moderncvclassic"
 
 RDEPENDS:${PN} += "/bin/sh \

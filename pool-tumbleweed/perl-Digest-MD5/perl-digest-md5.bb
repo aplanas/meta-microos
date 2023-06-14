@@ -20,12 +20,11 @@ PV = "2.58"
 RPM_NAME = "perl-Digest-MD5-2.58-1.15.aarch64.rpm"
 RPM_HASH = "4078513f336d81339a52520fc24728e790b579c363bab4203827b56f9f5812f3b5ecfd1a47be21acc92eb664318ab6914cc6d9ea7f7eac47c75f5124b44c8ec3"
 
-RPROVIDES:${PN} += "perl(Digest::MD5) \
-perl-Digest-MD5 \
-perl-Digest-MD5(aarch-64)"
+RPROVIDES:${PN} += "perl-Digest--MD5 \
+perl-Digest-MD5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

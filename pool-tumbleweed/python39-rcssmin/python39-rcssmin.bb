@@ -18,13 +18,12 @@ PV = "1.1.1"
 RPM_NAME = "python39-rcssmin-1.1.1-1.4.aarch64.rpm"
 RPM_HASH = "9ec77ec2c102de3ee5c0b616c2786b4c5374515fd1004d94cc045fd52b3e27a43cd8f7c9b3ac90d8915d88e90027f2f1805e39e8f9f4244f27d2edff1d7e948e"
 
-RPROVIDES:${PN} += "python3.9dist(rcssmin) \
+RPROVIDES:${PN} += "python3.9dist-rcssmin \
 python39-rcssmin \
-python39-rcssmin(aarch-64) \
-python3dist(rcssmin)"
+python3dist-rcssmin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

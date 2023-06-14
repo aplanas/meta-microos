@@ -21,12 +21,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Rtree \
 python3-rtree \
-python3.10dist(rtree) \
+python3.10dist-rtree \
 python310-Rtree \
 python310-rtree \
-python3dist(rtree)"
+python3dist-rtree"
 
 RDEPENDS:${PN} += "libspatialindex6 \
-python(abi)"
+python-abi"
 
 inherit rpm

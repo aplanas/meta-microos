@@ -12,13 +12,13 @@ RPM_NAME = "python311-TermRecord-1.2.5-4.16.noarch.rpm"
 RPM_HASH = "596987154a4cb3c45984a95bc9bf2f0b4b71e394d457d82e2acc10b18f2e4ca0beefe864aec6e846babf1af4f9bb1c2ada00e99bfa049400191166634fc7aed2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(termrecord) \
+RPROVIDES:${PN} += "python3.11dist-termrecord \
 python311-TermRecord \
-python3dist(termrecord)"
+python3dist-termrecord"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Jinja2 \
 update-alternatives"
 

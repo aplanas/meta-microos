@@ -18,9 +18,9 @@ RPM_NAME = "texlive-komacv-rg-2023.201.0.0.9.2svn49064-55.1.noarch.rpm"
 RPM_HASH = "69ed6fd24c2bbaac68542f539acb1676eac8bd27c9150468a87e95a7a9354511f7d7e11263bc678aa917240123da6836d1f57b1df1aaa87570bc072e4e55fa22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(komacv-addons.sty) \
-tex(komacv-lco.sty) \
-tex(komacv-multilang.sty) \
+RPROVIDES:${PN} += "tex-komacv-addons.sty \
+tex-komacv-lco.sty \
+tex-komacv-multilang.sty \
 texlive-komacv-rg"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,17 +29,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(datetime2-calc.sty) \
-tex(datetime2.sty) \
-tex(etoolbox.sty) \
-tex(fontawesome.sty) \
-tex(letltxmacro.sty) \
-tex(marvosym.sty) \
-tex(multilang-sect.sty) \
-tex(multilang-tags.sty) \
-tex(multilang.sty) \
-tex(scrkbase.sty) \
-tex(translations.sty) \
+tex-datetime2-calc.sty \
+tex-datetime2.sty \
+tex-etoolbox.sty \
+tex-fontawesome.sty \
+tex-letltxmacro.sty \
+tex-marvosym.sty \
+tex-multilang-sect.sty \
+tex-multilang-tags.sty \
+tex-multilang.sty \
+tex-scrkbase.sty \
+tex-translations.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

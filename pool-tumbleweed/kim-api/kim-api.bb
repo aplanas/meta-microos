@@ -13,15 +13,14 @@ PV = "2.3.0"
 RPM_NAME = "kim-api-2.3.0-1.8.aarch64.rpm"
 RPM_HASH = "4fc2f5dd0c3fdbe931207522968de2a5171429faef8d2f06cb896c22b0276ad1a1300459a7995162cb5717253cea77868368be4c3e80f94ac418e58376edc6c2"
 
-RPROVIDES:${PN} += "kim-api \
-kim-api(aarch-64)"
+RPROVIDES:${PN} += "kim-api"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkim-api.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkim-api.so.2 \
 libkim-api2 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

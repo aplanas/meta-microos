@@ -20,8 +20,7 @@ PV = "1.4.0"
 RPM_NAME = "osmo-trx-1.4.0-1.15.aarch64.rpm"
 RPM_HASH = "a982b1bb3a833516296c28c69951eee6ce829201a21988767e83c8b201e287f4cfd16d5901b768d7bcf8a78f9296cc86bc2ce9b9e6930a1dfed1cb97db7f4c2a"
 
-RPROVIDES:${PN} += "osmo-trx \
-osmo-trx(aarch-64)"
+RPROVIDES:${PN} += "osmo-trx"
 
 RDEPENDS:${PN} += "systemd"
 

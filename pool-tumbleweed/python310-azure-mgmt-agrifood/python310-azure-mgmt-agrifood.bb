@@ -11,12 +11,12 @@ RPM_HASH = "7ef24dcff0fdf96940c7fc54b0eac7dcad061177f7c1625646d18feb576ddf960685
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-agrifood \
-python3.10dist(azure-mgmt-agrifood) \
+python3.10dist-azure-mgmt-agrifood \
 python310-azure-mgmt-agrifood \
-python3dist(azure-mgmt-agrifood)"
+python3dist-azure-mgmt-agrifood"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

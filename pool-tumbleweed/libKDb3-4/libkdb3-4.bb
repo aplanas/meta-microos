@@ -9,22 +9,17 @@ RPM_HASH = "3e9fca2444e3e80c1d0c5aacc9aa92e533c9fbdba5ab3478558ea72b73e4f8b5b6f7
 
 RPROVIDES:${PN} += "kdb \
 libKDb3-4 \
-libKDb3-4(aarch-64) \
-libKDb3.so.4()(64bit)"
+libKDb3.so.4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libicui18n.so.73()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libicui18n.so.73 \
+libstdc++.so.6"
 
 inherit rpm

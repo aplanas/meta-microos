@@ -21,13 +21,12 @@ PV = "0.3.7"
 RPM_NAME = "libhubbub0-0.3.7-2.9.aarch64.rpm"
 RPM_HASH = "592595c2a550d7c990cf9732a78bdc5a2ff6e529be00711976a7680082d105d8f27fd25af1eabed0d96a6f8a6a9834617980a17c4bf3f04642f92cc221e536b2"
 
-RPROVIDES:${PN} += "libhubbub.so.0()(64bit) \
-libhubbub0 \
-libhubbub0(aarch-64)"
+RPROVIDES:${PN} += "libhubbub.so.0 \
+libhubbub0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libparserutils.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libparserutils.so.0"
 
 inherit rpm

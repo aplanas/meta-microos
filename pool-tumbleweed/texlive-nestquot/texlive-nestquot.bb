@@ -12,7 +12,7 @@ RPM_NAME = "texlive-nestquot-2023.201.svn27323-54.1.noarch.rpm"
 RPM_HASH = "3ee84777dd8c44418f04449b568bd4f9f51b66a6094aadf9d9c2902fb117e2fce22b7145e099d8f3129c0182bba6605e23c924f585ec2ffe2d30b85307fcfa95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nestquot.sty) \
+RPROVIDES:${PN} += "tex-nestquot.sty \
 texlive-nestquot"
 
 RDEPENDS:${PN} += "/bin/sh \

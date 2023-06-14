@@ -12,18 +12,17 @@ RPM_HASH = "5980f3163ebf95cea0bc5e8db475d2c80dbc14782d12183631afff0b007357748635
 
 RPROVIDES:${PN} += "gspell \
 libgspell-1-2 \
-libgspell-1-2(aarch-64) \
-libgspell-1.so.2()(64bit)"
+libgspell-1.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libenchant-2.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libicuuc.so.73()(64bit) \
-libpango-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libenchant-2.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libicuuc.so.73 \
+libpango-1.0.so.0"
 
 inherit rpm

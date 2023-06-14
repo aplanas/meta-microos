@@ -12,7 +12,7 @@ RPM_NAME = "texlive-fontmfizz-2023.201.svn43546-52.1.noarch.rpm"
 RPM_HASH = "208c5409bf9aa2445171a40b5615cfc22731b58d323ae9851a66a8cb17eccd7eadc19e59558cbb521663ed807df9e984f8b315dbf39b799f35cd858b466cff40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fontmfizz.sty) \
+RPROVIDES:${PN} += "tex-fontmfizz.sty \
 texlive-fontmfizz"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(fontspec.sty) \
+tex-fontspec.sty \
 texlive \
 texlive-filesystem \
 texlive-fontmfizz-fonts \

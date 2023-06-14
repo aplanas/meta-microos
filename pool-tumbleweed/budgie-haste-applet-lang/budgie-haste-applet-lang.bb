@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-haste-applet-lang \
 budgie-haste-applet-lang-all \
-locale(budgie-haste-applet:ca) \
-locale(budgie-haste-applet:da) \
-locale(budgie-haste-applet:de) \
-locale(budgie-haste-applet:lt) \
-locale(budgie-haste-applet:nl_BE)"
+locale-budgie-haste-applet-ca \
+locale-budgie-haste-applet-da \
+locale-budgie-haste-applet-de \
+locale-budgie-haste-applet-lt \
+locale-budgie-haste-applet-nl-BE"
 
 RDEPENDS:${PN} += "budgie-haste-applet"
 

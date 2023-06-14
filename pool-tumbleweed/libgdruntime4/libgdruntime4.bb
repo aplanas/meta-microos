@@ -7,14 +7,13 @@ PV = "13.1.1+git7364"
 RPM_NAME = "libgdruntime4-13.1.1+git7364-1.1.aarch64.rpm"
 RPM_HASH = "0981bf490ae812edc030358f310206a60ec0ee283af96a1063068a886725311418478ee25392e82232870d4f2d74e5e7cff55468973220878b7d1c5153193eea"
 
-RPROVIDES:${PN} += "libgdruntime.so.4()(64bit) \
-libgdruntime4 \
-libgdruntime4(aarch-64)"
+RPROVIDES:${PN} += "libgdruntime.so.4 \
+libgdruntime4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
 
 inherit rpm

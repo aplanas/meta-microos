@@ -8,69 +8,68 @@ PV = "0.6.2"
 RPM_NAME = "ocaml-rope-devel-0.6.2-3.24.aarch64.rpm"
 RPM_HASH = "ff2570bc1395786ae537c87863966053586544b9bf2247e63629b5b9b7ba6352a33d38a0ead3d7774cc1430d610b2d0f0e6b32fcac6a6b0a2d0b25b915fb5118"
 
-RPROVIDES:${PN} += "ocaml(Rope) \
-ocaml(Rope_top) \
+RPROVIDES:${PN} += "ocaml-Rope \
+ocaml-Rope-top \
 ocaml-rope-devel \
-ocaml-rope-devel(aarch-64) \
-ocamlfind(rope) \
-ocamlfind(rope.top) \
-ocamlx(Rope)"
+ocamlfind-rope \
+ocamlfind-rope.top \
+ocamlx-Rope"
 
-RDEPENDS:${PN} += "ocaml(Asttypes) \
-ocaml(Build_path_prefix_map) \
-ocaml(CamlinternalFormatBasics) \
-ocaml(CamlinternalLazy) \
-ocaml(Cmi_format) \
-ocaml(Env) \
-ocaml(Ident) \
-ocaml(Identifiable) \
-ocaml(Load_path) \
-ocaml(Location) \
-ocaml(Longident) \
-ocaml(Misc) \
-ocaml(Outcometree) \
-ocaml(Parsetree) \
-ocaml(Path) \
-ocaml(Primitive) \
-ocaml(Shape) \
-ocaml(Stdlib) \
-ocaml(Stdlib__Array) \
-ocaml(Stdlib__Buffer) \
-ocaml(Stdlib__Bytes) \
-ocaml(Stdlib__Char) \
-ocaml(Stdlib__Digest) \
-ocaml(Stdlib__Either) \
-ocaml(Stdlib__Format) \
-ocaml(Stdlib__Hashtbl) \
-ocaml(Stdlib__Int32) \
-ocaml(Stdlib__Lazy) \
-ocaml(Stdlib__Lexing) \
-ocaml(Stdlib__List) \
-ocaml(Stdlib__Map) \
-ocaml(Stdlib__Obj) \
-ocaml(Stdlib__Pervasives) \
-ocaml(Stdlib__Printf) \
-ocaml(Stdlib__Seq) \
-ocaml(Stdlib__Set) \
-ocaml(Stdlib__String) \
-ocaml(Stdlib__Sys) \
-ocaml(Stdlib__Uchar) \
-ocaml(Subst) \
-ocaml(Toploop) \
-ocaml(Type_immediacy) \
-ocaml(Types) \
-ocaml(Warnings) \
+RDEPENDS:${PN} += "ocaml-Asttypes \
+ocaml-Build-path-prefix-map \
+ocaml-CamlinternalFormatBasics \
+ocaml-CamlinternalLazy \
+ocaml-Cmi-format \
+ocaml-Env \
+ocaml-Ident \
+ocaml-Identifiable \
+ocaml-Load-path \
+ocaml-Location \
+ocaml-Longident \
+ocaml-Misc \
+ocaml-Outcometree \
+ocaml-Parsetree \
+ocaml-Path \
+ocaml-Primitive \
+ocaml-Shape \
+ocaml-Stdlib \
+ocaml-Stdlib--Array \
+ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Bytes \
+ocaml-Stdlib--Char \
+ocaml-Stdlib--Digest \
+ocaml-Stdlib--Either \
+ocaml-Stdlib--Format \
+ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--Int32 \
+ocaml-Stdlib--Lazy \
+ocaml-Stdlib--Lexing \
+ocaml-Stdlib--List \
+ocaml-Stdlib--Map \
+ocaml-Stdlib--Obj \
+ocaml-Stdlib--Pervasives \
+ocaml-Stdlib--Printf \
+ocaml-Stdlib--Seq \
+ocaml-Stdlib--Set \
+ocaml-Stdlib--String \
+ocaml-Stdlib--Sys \
+ocaml-Stdlib--Uchar \
+ocaml-Subst \
+ocaml-Toploop \
+ocaml-Type-immediacy \
+ocaml-Types \
+ocaml-Warnings \
 ocaml-rope \
-ocamlfind(bytes) \
-ocamlfind(compiler-libs.toplevel) \
-ocamlx(Stdlib) \
-ocamlx(Stdlib__Array) \
-ocamlx(Stdlib__Bytes) \
-ocamlx(Stdlib__Char) \
-ocamlx(Stdlib__Format) \
-ocamlx(Stdlib__List) \
-ocamlx(Stdlib__Map) \
-ocamlx(Stdlib__String) \
-ocamlx(Stdlib__Sys)"
+ocamlfind-bytes \
+ocamlfind-compiler-libs.toplevel \
+ocamlx-Stdlib \
+ocamlx-Stdlib--Array \
+ocamlx-Stdlib--Bytes \
+ocamlx-Stdlib--Char \
+ocamlx-Stdlib--Format \
+ocamlx-Stdlib--List \
+ocamlx-Stdlib--Map \
+ocamlx-Stdlib--String \
+ocamlx-Stdlib--Sys"
 
 inherit rpm

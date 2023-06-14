@@ -12,11 +12,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maildirproc \
 mailprocessing \
-python3.10dist(mailprocessing) \
-python3dist(mailprocessing)"
+python3.10dist-mailprocessing \
+python3dist-mailprocessing"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

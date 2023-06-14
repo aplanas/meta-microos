@@ -29,11 +29,11 @@ RPM_NAME = "python39-pytest-xdist-3.3.1-1.1.noarch.rpm"
 RPM_HASH = "2ef2166ee0bbfa3d0b25eee817a8bad515759c19af862cd74ee18e0a39fdcd3146ba44809a604b0a87bdebab2a7ed15c6413a727fd838cc80dfde8e45b31f818"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-xdist) \
+RPROVIDES:${PN} += "python3.9dist-pytest-xdist \
 python39-pytest-xdist \
-python3dist(pytest-xdist)"
+python3dist-pytest-xdist"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-execnet \
 python39-pytest"
 

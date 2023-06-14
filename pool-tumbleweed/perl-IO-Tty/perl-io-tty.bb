@@ -34,14 +34,13 @@ PV = "1.17"
 RPM_NAME = "perl-IO-Tty-1.17-1.2.aarch64.rpm"
 RPM_HASH = "794a939e7f5be187a72637fd53a0d269fe47b9caaec5a2dbaedae00820f94e571ebeedc0e01f64ae8e05ae1b7eec611aab15a8b7cf3de9a75724cac24d7a260b"
 
-RPROVIDES:${PN} += "perl(IO::Pty) \
-perl(IO::Tty) \
-perl(IO::Tty::Constant) \
-perl-IO-Tty \
-perl-IO-Tty(aarch-64)"
+RPROVIDES:${PN} += "perl-IO--Pty \
+perl-IO--Tty \
+perl-IO--Tty--Constant \
+perl-IO-Tty"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

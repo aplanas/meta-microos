@@ -9,12 +9,11 @@ PV = "8.2.2"
 RPM_NAME = "libturbojpeg0-8.2.2-75.1.aarch64.rpm"
 RPM_HASH = "61b1365f7f95c9317964ca18fd9074116d4b71f271c743451d06a3cac245c6ea29767eb7cec0832cddef35e2a35873b7122dbc6198f6f9fde01bfd4fcc33e08a"
 
-RPROVIDES:${PN} += "libturbojpeg.so.0()(64bit) \
-libturbojpeg0 \
-libturbojpeg0(aarch-64)"
+RPROVIDES:${PN} += "libturbojpeg.so.0 \
+libturbojpeg0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

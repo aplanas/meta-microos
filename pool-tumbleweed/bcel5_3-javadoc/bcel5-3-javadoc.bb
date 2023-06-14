@@ -21,7 +21,7 @@ RPM_NAME = "bcel5_3-javadoc-5.3-21.2.noarch.rpm"
 RPM_HASH = "3f91113b8b80677826b768d2be9068241bab30bb8ed2fa4db677f69dfd05941194ff7763acc390869072072e2513d55d3701c0bff3526e0693c36a1840af5690"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bcel5_3-javadoc"
+RPROVIDES:${PN} += "bcel5-3-javadoc"
 
 RDEPENDS:${PN} += ""
 

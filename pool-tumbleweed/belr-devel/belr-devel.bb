@@ -12,19 +12,18 @@ RPM_NAME = "belr-devel-5.2.51-1.1.aarch64.rpm"
 RPM_HASH = "7f65c819f1eb7d5f513dce57e8e598c8368311f1c7910d0134bf05f5a706bee0b82a80d7d694b419956cba9b7f620fa6e4257fd046ed07e98641338cbefa1c57"
 
 RPROVIDES:${PN} += "belr-devel \
-belr-devel(aarch-64) \
-cmake(belr) \
-pkgconfig(belr)"
+cmake-belr \
+pkgconfig-belr"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libbctoolbox-tester.so.1()(64bit) \
-libbctoolbox.so.1()(64bit) \
-libbelr.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbctoolbox-tester.so.1 \
+libbctoolbox.so.1 \
+libbelr.so.1 \
 libbelr1 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-pkgconfig(bctoolbox)"
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+pkgconfig-bctoolbox"
 
 inherit rpm

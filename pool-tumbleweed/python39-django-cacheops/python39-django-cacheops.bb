@@ -12,11 +12,11 @@ RPM_NAME = "python39-django-cacheops-7.0.1-1.1.noarch.rpm"
 RPM_HASH = "5ae8181b78ffe9351aecd2bae5f9cfb1759a5eb4a2e1806c5384ef8f84975dc2e7bb40ded998f997a5307b206d9881ed3e04217485a790b69a94d69e1b23f382"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(django-cacheops) \
+RPROVIDES:${PN} += "python3.9dist-django-cacheops \
 python39-django-cacheops \
-python3dist(django-cacheops)"
+python3dist-django-cacheops"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-django \
 python39-funcy \
 python39-redis"

@@ -18,15 +18,15 @@ RPM_NAME = "texlive-hyph-utf8-2023.201.svn61719-52.1.noarch.rpm"
 RPM_HASH = "23e9d898014b4a648f08ba78296adc2c1ec70023b6d8da64fbc2df3bdc373e0abf2743d5d71b879e68583269e96d558fa8344e5fd752d949232522162d2d73b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(conv-utf8-ec.tex) \
-tex(conv-utf8-il2.tex) \
-tex(conv-utf8-il3.tex) \
-tex(conv-utf8-l7x.tex) \
-tex(conv-utf8-lmc.tex) \
-tex(conv-utf8-lth.tex) \
-tex(conv-utf8-qx.tex) \
-tex(conv-utf8-t2a.tex) \
-tex(conv-utf8-t8m.tex) \
+RPROVIDES:${PN} += "tex-conv-utf8-ec.tex \
+tex-conv-utf8-il2.tex \
+tex-conv-utf8-il3.tex \
+tex-conv-utf8-l7x.tex \
+tex-conv-utf8-lmc.tex \
+tex-conv-utf8-lth.tex \
+tex-conv-utf8-qx.tex \
+tex-conv-utf8-t2a.tex \
+tex-conv-utf8-t8m.tex \
 texlive-hyph-utf8"
 
 RDEPENDS:${PN} += "/bin/sh \

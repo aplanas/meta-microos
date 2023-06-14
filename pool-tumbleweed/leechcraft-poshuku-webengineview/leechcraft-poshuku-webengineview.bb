@@ -9,36 +9,26 @@ RPM_HASH = "3d20f9af10951047bd9f1f6c09dabe19a3a6384f4eaf45ff4de5455e320d6208d33c
 
 RPROVIDES:${PN} += "leechcraft-poshuku-backend \
 leechcraft-poshuku-webengineview \
-leechcraft-poshuku-webengineview(aarch-64) \
-libleechcraft_poshuku_webengineview.so()(64bit)"
+libleechcraft-poshuku-webengineview.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-poshuku \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5WebChannel.so.5()(64bit) \
-libQt5WebChannel.so.5(Qt_5)(64bit) \
-libQt5WebEngineCore.so.5()(64bit) \
-libQt5WebEngineCore.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-db-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-gui-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-network-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-sys-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Sql.so.5 \
+libQt5WebChannel.so.5 \
+libQt5WebEngineCore.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-db-qt5.so.0.6.75.1 \
+libleechcraft-util-gui-qt5.so.0.6.75.1 \
+libleechcraft-util-network-qt5.so.0.6.75.1 \
+libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libstdc++.so.6"
 
 inherit rpm

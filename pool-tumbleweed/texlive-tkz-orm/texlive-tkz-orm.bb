@@ -9,7 +9,7 @@ RPM_NAME = "texlive-tkz-orm-2023.201.0.0.1.4svn61719-52.1.noarch.rpm"
 RPM_HASH = "b69edc4ecb6a7caa4437add683747aee708e93efb7fc4404e6e259329e3b8cc3c8ecd1eda16bcab167af45e824ec9abb4ab2702d82296d1ab300b2fd928f209b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tkz-orm.sty) \
+RPROVIDES:${PN} += "tex-tkz-orm.sty \
 texlive-tkz-orm"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,7 +18,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

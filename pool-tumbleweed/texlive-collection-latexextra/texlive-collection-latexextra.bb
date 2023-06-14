@@ -1103,7 +1103,7 @@ texlive-quiz2socrative \
 texlive-quotchap \
 texlive-quoting \
 texlive-quotmark \
-texlive-ran_toks \
+texlive-ran-toks \
 texlive-randtext \
 texlive-rccol \
 texlive-rcs-multi \

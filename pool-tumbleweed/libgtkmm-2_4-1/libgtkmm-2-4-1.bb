@@ -12,27 +12,26 @@ RPM_HASH = "9204b1a9a64534a76ec315c3b30e3705344829d6a4826eb057fd6098176ff335c44b
 
 RPROVIDES:${PN} += "gtkmm2 \
 gtkmm24 \
-libgdkmm-2.4.so.1()(64bit) \
-libgtkmm-2.4.so.1()(64bit) \
-libgtkmm-2_4-1 \
-libgtkmm-2_4-1(aarch-64)"
+libgdkmm-2.4.so.1 \
+libgtkmm-2-4-1 \
+libgtkmm-2.4.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libatkmm-1.6.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairomm-1.0.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpangomm-1.4.so.1()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libatkmm-1.6.so.1 \
+libc.so.6 \
+libcairomm-1.0.so.1 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libpangomm-1.4.so.1 \
+libsigc-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

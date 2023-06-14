@@ -9,11 +9,11 @@ RPM_HASH = "7aee4af3f9b6c629f3e1d917262c3a55a08575550a13328b85f6a433205e2ed641b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyvue \
-python3.10dist(ipyvue) \
+python3.10dist-ipyvue \
 python310-ipyvue \
-python3dist(ipyvue)"
+python3dist-ipyvue"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipywidgets"
 
 inherit rpm

@@ -8,44 +8,34 @@ PV = "1.26.2"
 RPM_NAME = "mate-screensaver-1.26.2-1.1.aarch64.rpm"
 RPM_HASH = "51acc7cf71e418ef82d47a4856dceffa374af3cf7fa5151e9ad8b291571b550eb97cefaacb74a3eb77b5803167a2484fd8fb2f84612239d729438fc7de3bd12f"
 
-RPROVIDES:${PN} += "application() \
-application(cosmos-slideshow.desktop) \
-application(footlogo-floaters.desktop) \
-application(gnomelogo-floaters.desktop) \
-application(mate-screensaver-preferences.desktop) \
-application(personal-slideshow.desktop) \
-application(popsquares.desktop) \
-config(mate-screensaver) \
-mate-screensaver \
-mate-screensaver(aarch-64)"
+RPROVIDES:${PN} += "config-mate-screensaver \
+mate-screensaver"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXss.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmate-desktop-2.so.17()(64bit) \
-libmate-menu.so.2()(64bit) \
-libmatekbdui.so.4()(64bit) \
-libnotify.so.4()(64bit) \
-libpam.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libxklavier.so.16()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXss.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-1.so.3 \
+libdbus-glib-1.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libmate-desktop-2.so.17 \
+libmate-menu.so.2 \
+libmatekbdui.so.4 \
+libnotify.so.4 \
+libpam.so.0 \
+libpango-1.0.so.0 \
+libsystemd.so.0 \
+libxklavier.so.16 \
 mate-session-manager-gschemas"
 
 inherit rpm

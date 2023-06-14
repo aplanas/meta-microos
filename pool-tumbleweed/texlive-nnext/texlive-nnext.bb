@@ -11,7 +11,7 @@ RPM_NAME = "texlive-nnext-2023.201.0.0.0svn56575-54.1.noarch.rpm"
 RPM_HASH = "0f0aae46079d023a8f714f168cbfb9ec8bdd0c5922c98fa726cdc350e5140f50211c7fbe984faad5b05326860925415c7b4a39f34e72e7bf7ea07ce401c224ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nnext.sty) \
+RPROVIDES:${PN} += "tex-nnext.sty \
 texlive-nnext"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(xspace.sty) \
+tex-ifthen.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

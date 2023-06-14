@@ -15,7 +15,7 @@ RPM_NAME = "texlive-graphbox-2023.201.1.1svn46360-53.1.noarch.rpm"
 RPM_HASH = "1b8405faff2b97eb7a50d5d6fa9e2f931932e97ca5606f9d2dbc884ab3d131cec8847e6560d1bc424b57c365aeda175169c923c66709d5baa31b0c1223705ad3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(graphbox.sty) \
+RPROVIDES:${PN} += "tex-graphbox.sty \
 texlive-graphbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,7 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphicx.sty) \
+tex-graphicx.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

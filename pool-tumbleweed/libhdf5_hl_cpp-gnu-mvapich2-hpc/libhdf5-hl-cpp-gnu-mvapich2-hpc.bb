@@ -9,9 +9,8 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_hl_cpp-gnu-mvapich2-hpc-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "a3433076837f91d1ded4a20963a279d92b5c39aeb62b9df7eac7dd0d01aabc118d699a2acad3c4c3fc858d472d17560c206a159a5842ee7fd707165114f7d1bd"
 
-RPROVIDES:${PN} += "libhdf5_hl_cpp-gnu-mvapich2-hpc \
-libhdf5_hl_cpp-gnu-mvapich2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-hl-cpp-gnu-mvapich2-hpc"
 
-RDEPENDS:${PN} += "libhdf5_hl_cpp_1_12_2-gnu-mvapich2-hpc"
+RDEPENDS:${PN} += "libhdf5-hl-cpp-1-12-2-gnu-mvapich2-hpc"
 
 inherit rpm

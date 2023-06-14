@@ -9,13 +9,13 @@ RPM_HASH = "cfca872e56e18625d259dec70ac007735eb14680987905a0f56049c59e700cb61e67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythonwhois \
-python3.10dist(pythonwhois) \
+python3.10dist-pythonwhois \
 python310-pythonwhois \
-python3dist(pythonwhois)"
+python3dist-pythonwhois"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -10,9 +10,9 @@ RPM_NAME = "perl-Class-Inner-0.200001-13.26.noarch.rpm"
 RPM_HASH = "e11af05f95d13324b64eef332e1b7c4f7e1a52056ef2563e9c673608b81a9aebdee8ca69aca9f10a69f613b6bad7e38a44bc0e36b463c5764a8dcc7d0deb1224"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Inner) \
+RPROVIDES:${PN} += "perl-Class--Inner \
 perl-Class-Inner"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

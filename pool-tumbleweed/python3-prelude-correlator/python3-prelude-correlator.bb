@@ -9,12 +9,12 @@ RPM_HASH = "ccfc43b9244affc5d52afca134a550dd63be727d5e94f609f310b88403df92e682e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-prelude-correlator \
-python3.10dist(prelude-correlator) \
-python3dist(prelude-correlator)"
+python3.10dist-prelude-correlator \
+python3dist-prelude-correlator"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 prelude-correlator \
-python(abi) \
+python-abi \
 python3-libprelude \
 python3-netaddr"
 

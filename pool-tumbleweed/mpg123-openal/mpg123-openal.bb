@@ -11,11 +11,10 @@ PV = "1.31.3"
 RPM_NAME = "mpg123-openal-1.31.3-1.2.aarch64.rpm"
 RPM_HASH = "16e453d2df1f0511e2335857f6063c71cc14de90769f6d8bc7fc61778bc5afd0cc120f73b135e5fdbd3a976058eb7e2f320cf3864116ba974de56d20a81771d0"
 
-RPROVIDES:${PN} += "mpg123-openal \
-mpg123-openal(aarch-64)"
+RPROVIDES:${PN} += "mpg123-openal"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libopenal.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libopenal.so.1"
 
 inherit rpm

@@ -15,17 +15,16 @@ RPM_HASH = "30dfba8f5ac1fdbb7910aa259e7856c025f4edad33f09372dac3a4b1ada8aeb51b97
 
 RPROVIDES:${PN} += "python3-SQLAlchemy \
 python3-sqlalchemy \
-python3.10dist(sqlalchemy) \
+python3.10dist-sqlalchemy \
 python310-SQLAlchemy \
-python310-SQLAlchemy(aarch-64) \
 python310-sqlalchemy \
-python3dist(sqlalchemy)"
+python3dist-sqlalchemy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310 \
 python310-greenlet \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

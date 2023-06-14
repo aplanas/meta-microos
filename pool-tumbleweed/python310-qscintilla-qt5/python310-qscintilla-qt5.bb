@@ -14,25 +14,20 @@ RPM_HASH = "542e43c09d78a7a8d41a8645f96cb9ccd96fdf89075254b8dd70dae1d136e874560a
 
 RPROVIDES:${PN} += "python3-qscintilla-qt5 \
 python3-qscintilla-qt5-sip \
-python3.10dist(qscintilla) \
+python3.10dist-qscintilla \
 python310-qscintilla-qt5 \
-python310-qscintilla-qt5(aarch-64) \
 python310-qscintilla-qt5-sip \
-python3dist(qscintilla)"
+python3dist-qscintilla"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libqscintilla2_qt5.so.15()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libqscintilla2-qt5.so.15 \
+libstdc++.so.6 \
+python-abi \
 python310-PyQt5"
 
 inherit rpm

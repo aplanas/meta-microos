@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgsasl-lang \
 libgsasl-lang-all \
-locale(libgsasl:da) \
-locale(libgsasl:de) \
-locale(libgsasl:en@boldquot) \
-locale(libgsasl:en@quot) \
-locale(libgsasl:eo) \
-locale(libgsasl:es) \
-locale(libgsasl:fi) \
-locale(libgsasl:fr) \
-locale(libgsasl:ga) \
-locale(libgsasl:hu) \
-locale(libgsasl:id) \
-locale(libgsasl:it) \
-locale(libgsasl:nl) \
-locale(libgsasl:pl) \
-locale(libgsasl:pt_BR) \
-locale(libgsasl:ro) \
-locale(libgsasl:sk) \
-locale(libgsasl:sr) \
-locale(libgsasl:sv) \
-locale(libgsasl:uk) \
-locale(libgsasl:vi) \
-locale(libgsasl:zh_CN)"
+locale-libgsasl-da \
+locale-libgsasl-de \
+locale-libgsasl-en@boldquot \
+locale-libgsasl-en@quot \
+locale-libgsasl-eo \
+locale-libgsasl-es \
+locale-libgsasl-fi \
+locale-libgsasl-fr \
+locale-libgsasl-ga \
+locale-libgsasl-hu \
+locale-libgsasl-id \
+locale-libgsasl-it \
+locale-libgsasl-nl \
+locale-libgsasl-pl \
+locale-libgsasl-pt-BR \
+locale-libgsasl-ro \
+locale-libgsasl-sk \
+locale-libgsasl-sr \
+locale-libgsasl-sv \
+locale-libgsasl-uk \
+locale-libgsasl-vi \
+locale-libgsasl-zh-CN"
 
 RDEPENDS:${PN} += "libgsasl"
 

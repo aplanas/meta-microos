@@ -14,15 +14,15 @@ RPM_HASH = "905c3f1afde578681e8c11f89da7d6877850b2fcc06631fc1f39dab7868afab0f12e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdom \
-mvn(jdom:jdom) \
-mvn(jdom:jdom:pom:) \
-mvn(org.jdom:jdom) \
-mvn(org.jdom:jdom:pom:) \
-osgi(org.jdom)"
+mvn-jdom-jdom \
+mvn-jdom-jdom-pom- \
+mvn-org.jdom-jdom \
+mvn-org.jdom-jdom-pom- \
+osgi-org.jdom"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(jaxen:jaxen) \
-mvn(xerces:xercesImpl)"
+mvn-jaxen-jaxen \
+mvn-xerces-xercesImpl"
 
 inherit rpm

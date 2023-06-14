@@ -7,16 +7,15 @@ PV = "20200505"
 RPM_NAME = "patterns-base-x11_enhanced-20200505-41.1.aarch64.rpm"
 RPM_HASH = "134b623f88a0e9cf185a9a6eb116eee06f5e437144976828bab6dceef048451371f5049a1989fbadf675cc4a7e261d91052f716712e2a98462c0051076fd9dca"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-patterns-base-x11_enhanced \
-patterns-base-x11_enhanced(aarch-64)"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+patterns-base-x11-enhanced"
 
 RDEPENDS:${PN} += "glibc-locale \
 glibc-locale-base \
-pattern() \
+pattern- \
 xkeyboard-config \
 xorg-x11-essentials"
 

@@ -11,11 +11,11 @@ RPM_HASH = "d64d4c6f6acccdf3bdee64c57b41c061d7a95d48486c90e227f8833bf36e1156b3d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-tables2 \
-python3.10dist(django-tables2) \
+python3.10dist-django-tables2 \
 python310-django-tables2 \
-python3dist(django-tables2)"
+python3dist-django-tables2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

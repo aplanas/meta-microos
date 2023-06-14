@@ -11,13 +11,12 @@ PV = "2.9.4"
 RPM_NAME = "typelib-1_0-UDisks-2_0-2.9.4-6.3.aarch64.rpm"
 RPM_HASH = "c73cf2e57a1b2a76018f459a5438a7243de52d954f4cb952e5dfd4e52a4752789eefddae905743beaf2b9b014647fa4f3493b50a83ce730c2280e76c5d36e254"
 
-RPROVIDES:${PN} += "typelib(UDisks) \
-typelib-1_0-UDisks-2_0 \
-typelib-1_0-UDisks-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-UDisks-2-0 \
+typelib-UDisks"
 
-RDEPENDS:${PN} += "libudisks2.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libudisks2.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

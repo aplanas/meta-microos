@@ -18,12 +18,12 @@ RPM_HASH = "af4a6739cbab99f444a7f6b9768d7fea23fa7c2d91e128d4ea669e749f151b17fc4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-storage-file-datalake \
-python3.10dist(azure-storage-file-datalake) \
+python3.10dist-azure-storage-file-datalake \
 python310-azure-storage-file-datalake \
-python3dist(azure-storage-file-datalake)"
+python3dist-azure-storage-file-datalake"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
+python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-storage-blob \

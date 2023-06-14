@@ -12,11 +12,11 @@ RPM_HASH = "7752c82f24d4309f2d9f9eb03f997d75bcacd57156ec781f879066996ccd220a1d3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geopandas \
-python3.10dist(geopandas) \
+python3.10dist-geopandas \
 python310-geopandas \
-python3dist(geopandas)"
+python3dist-geopandas"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Fiona \
 python310-pandas \
 python310-pyproj \

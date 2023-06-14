@@ -10,17 +10,16 @@ PV = "0.8.0"
 RPM_NAME = "virt-sandbox-0.8.0-5.3.aarch64.rpm"
 RPM_HASH = "e3a7d55f7bc15c974e7af2c40f2f7887d697453d0c65a5e9c9d0725f5c6cbfb8a637931ec8b7d553295626be63e6b40166d28b0468d75e190b3c1de6d5adab15"
 
-RPROVIDES:${PN} += "virt-sandbox \
-virt-sandbox(aarch-64)"
+RPROVIDES:${PN} += "virt-sandbox"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
 libvirt-client \
-libvirt-gobject-1.0.so.0()(64bit) \
-libvirt-sandbox-1.0.so.5()(64bit) \
-libvirt-sandbox-1_0-5 \
+libvirt-gobject-1.0.so.0 \
+libvirt-sandbox-1-0-5 \
+libvirt-sandbox-1.0.so.5 \
 python3-gobject"
 
 inherit rpm

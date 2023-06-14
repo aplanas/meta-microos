@@ -9,11 +9,11 @@ RPM_HASH = "87f9b288da8a61f1d622e5cb017aff696579d28faca04dfeed1c34130645f1c1a599
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-qsessions \
-python3.10dist(django-qsessions) \
+python3.10dist-django-qsessions \
 python310-django-qsessions \
-python3dist(django-qsessions)"
+python3dist-django-qsessions"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-ipware \
 python310-user-agents"

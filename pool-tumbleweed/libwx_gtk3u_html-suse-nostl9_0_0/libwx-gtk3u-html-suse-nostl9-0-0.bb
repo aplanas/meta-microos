@@ -13,18 +13,17 @@ PV = "3.2.2.1"
 RPM_NAME = "libwx_gtk3u_html-suse-nostl9_0_0-3.2.2.1-3.1.aarch64.rpm"
 RPM_HASH = "47bb9709f7c83844a8692a117e636b5398674490a627fa15d5c6c352f39930b0edb540b6a3f1080f3a25dfc70cc07611d74449d1e4ccdf5e8de6a166a8fb2d40"
 
-RPROVIDES:${PN} += "libwx_gtk3u_html-suse-nostl.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse-nostl9_0_0 \
-libwx_gtk3u_html-suse-nostl9_0_0(aarch-64)"
+RPROVIDES:${PN} += "libwx-gtk3u-html-suse-nostl.so.9.0.0 \
+libwx-gtk3u-html-suse-nostl9-0-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmspack.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse-nostl.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse-nostl.so.9.0.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libmspack.so.0 \
+libstdc++.so.6 \
+libwx-baseu-suse-nostl.so.9.0.0 \
+libwx-gtk3u-core-suse-nostl.so.9.0.0"
 
 inherit rpm

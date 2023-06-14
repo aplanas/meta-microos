@@ -24,8 +24,7 @@ RPM_NAME = "cln-devel-1.3.6-2.12.aarch64.rpm"
 RPM_HASH = "001c6e4eb76af690ff31b3c47a126873206c756b66195d0f637af4c23f11da5ed6bad2238b6855295068a70704bcd442e5356d6ffcf79d3d98300ae6ded6d6ff"
 
 RPROVIDES:${PN} += "cln-devel \
-cln-devel(aarch-64) \
-pkgconfig(cln)"
+pkgconfig-cln"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

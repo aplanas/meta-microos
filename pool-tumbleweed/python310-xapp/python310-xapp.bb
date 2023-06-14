@@ -10,11 +10,11 @@ RPM_HASH = "551770c6186dd86ccd1f774a397395b15a4dc431d1c88c25bdba125adb8a80e45c6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xapp \
-python3.10dist(python-xapp) \
+python3.10dist-python-xapp \
 python310-xapp \
-python3dist(python-xapp)"
+python3dist-python-xapp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-psutil \
 xdg-utils"
 

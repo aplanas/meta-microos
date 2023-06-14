@@ -12,13 +12,13 @@ RPM_HASH = "d62220be5a8900aa84aa5c34552cdec368e87a937f8ed5d473f9d025766375504a80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-objgraph \
-python3.10dist(objgraph) \
+python3.10dist-objgraph \
 python310-objgraph \
-python3dist(objgraph)"
+python3dist-objgraph"
 
 RDEPENDS:${PN} += "graphviz-gd \
 graphviz-gnome \
-python(abi) \
+python-abi \
 python310-graphviz"
 
 inherit rpm

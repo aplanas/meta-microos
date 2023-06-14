@@ -21,10 +21,10 @@ RPM_HASH = "5f8c2a792e6b2f4be829097ae80ea8ad854cbc86fab0542622a0bdcf015b65f1d94c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyPDF2 \
-python3.10dist(pypdf2) \
+python3.10dist-pypdf2 \
 python310-PyPDF2 \
-python3dist(pypdf2)"
+python3dist-pypdf2"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

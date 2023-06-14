@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-oriya \
 noto-serif-oriya-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

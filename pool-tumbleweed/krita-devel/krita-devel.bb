@@ -7,10 +7,9 @@ PV = "5.1.5"
 RPM_NAME = "krita-devel-5.1.5-1.6.aarch64.rpm"
 RPM_HASH = "990e07a665f66fa0f50e07c7cc9c03237d76f94d6dcce7c0699d54aa491cc53cbf1f5224c5678a4e5baa637fc0c4c3a09ce327b6ebaaae87eed4ca7ae7654183"
 
-RPROVIDES:${PN} += "krita-devel \
-krita-devel(aarch-64)"
+RPROVIDES:${PN} += "krita-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5Core) \
+RDEPENDS:${PN} += "cmake-Qt5Core \
 krita"
 
 inherit rpm

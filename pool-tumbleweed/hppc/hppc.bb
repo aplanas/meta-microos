@@ -11,13 +11,13 @@ RPM_HASH = "1f61fa704ac7e03b06f86b4b6a04b7c8b4f3faac4ae65827ee505b9d07d9efe1d995
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hppc \
-mvn(com.carrotsearch:hppc) \
-mvn(com.carrotsearch:hppc-parent:pom:) \
-mvn(com.carrotsearch:hppc::esoteric:) \
-mvn(com.carrotsearch:hppc:pom:)"
+mvn-com.carrotsearch-hppc \
+mvn-com.carrotsearch-hppc--esoteric- \
+mvn-com.carrotsearch-hppc-parent-pom- \
+mvn-com.carrotsearch-hppc-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.annotation:javax.annotation-api)"
+mvn-javax.annotation-javax.annotation-api"
 
 inherit rpm

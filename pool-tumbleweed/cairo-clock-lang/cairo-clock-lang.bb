@@ -10,24 +10,24 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cairo-clock-lang \
 cairo-clock-lang-all \
-locale(cairo-clock:da) \
-locale(cairo-clock:de) \
-locale(cairo-clock:en_GB) \
-locale(cairo-clock:es) \
-locale(cairo-clock:fi) \
-locale(cairo-clock:fr) \
-locale(cairo-clock:it) \
-locale(cairo-clock:ja) \
-locale(cairo-clock:nl) \
-locale(cairo-clock:nn) \
-locale(cairo-clock:pl) \
-locale(cairo-clock:pt_PT) \
-locale(cairo-clock:ru) \
-locale(cairo-clock:sl) \
-locale(cairo-clock:sv) \
-locale(cairo-clock:tr) \
-locale(cairo-clock:zh_CN) \
-locale(cairo-clock:zh_TW)"
+locale-cairo-clock-da \
+locale-cairo-clock-de \
+locale-cairo-clock-en-GB \
+locale-cairo-clock-es \
+locale-cairo-clock-fi \
+locale-cairo-clock-fr \
+locale-cairo-clock-it \
+locale-cairo-clock-ja \
+locale-cairo-clock-nl \
+locale-cairo-clock-nn \
+locale-cairo-clock-pl \
+locale-cairo-clock-pt-PT \
+locale-cairo-clock-ru \
+locale-cairo-clock-sl \
+locale-cairo-clock-sv \
+locale-cairo-clock-tr \
+locale-cairo-clock-zh-CN \
+locale-cairo-clock-zh-TW"
 
 RDEPENDS:${PN} += "cairo-clock"
 

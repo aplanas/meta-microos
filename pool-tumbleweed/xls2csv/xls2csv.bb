@@ -13,10 +13,10 @@ RPROVIDES:${PN} += "xls2csv"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
-perl(Locale::Recode) \
-perl(Spreadsheet::ParseExcel) \
-perl(Spreadsheet::ParseExcel::FmtUnicode) \
-perl(Text::CSV_XS) \
-perl(Unicode::Map)"
+perl-Locale--Recode \
+perl-Spreadsheet--ParseExcel \
+perl-Spreadsheet--ParseExcel--FmtUnicode \
+perl-Text--CSV-XS \
+perl-Unicode--Map"
 
 inherit rpm

@@ -15,8 +15,7 @@ PV = "2.0.4"
 RPM_NAME = "gnome-shell-search-provider-gnome-recipes-2.0.4-1.17.aarch64.rpm"
 RPM_HASH = "629395c9d45f10436b6f3e82bade703b752229879c83a1fab5be5d50c560be50276526318e46e523974ba449ea2ae7ede5cd208079924ab24e107de7410363c4"
 
-RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-recipes \
-gnome-shell-search-provider-gnome-recipes(aarch-64)"
+RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-recipes"
 
 RDEPENDS:${PN} += "gnome-recipes \
 gnome-shell"

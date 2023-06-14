@@ -8,15 +8,14 @@ PV = "5.0"
 RPM_NAME = "patterns-microos-base-zypper-5.0-70.1.aarch64.rpm"
 RPM_HASH = "9c3ea2b764cc9e70eb2f0d031e3838c79d2afa38af868108529437086bcddeaae4039fac25867e8552859abcabe85b811a6ba232c171f7db7fe34edf24a058c7"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-pattern-visible() \
-patterns-microos-base-zypper \
-patterns-microos-base-zypper(aarch-64)"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+pattern-visible- \
+patterns-microos-base-zypper"
 
-RDEPENDS:${PN} += "pattern() \
+RDEPENDS:${PN} += "pattern- \
 transactional-update \
 transactional-update-zypp-config \
 zypper \

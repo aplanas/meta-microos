@@ -9,20 +9,19 @@ PV = "1.82.0"
 RPM_NAME = "boost_1_82_0-gnu-hpc-devel-1.82.0-1.2.aarch64.rpm"
 RPM_HASH = "51d8f5c1f2bf3eb05142904d52921ad91d9254b40014254109f3028542a05290227c39b0a64bee4d1fd40e79211b23566160e14f5521e961eee6d07003f407b0"
 
-RPROVIDES:${PN} += "boost_1_82_0-gnu-hpc-devel \
-boost_1_82_0-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "boost-1-82-0-gnu-hpc-devel"
 
-RDEPENDS:${PN} += "boost_1_82_0-gnu-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+RDEPENDS:${PN} += "boost-1-82-0-gnu-hpc \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+liblzma.so.5 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

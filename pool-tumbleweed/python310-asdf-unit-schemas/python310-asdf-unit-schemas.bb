@@ -9,14 +9,12 @@ RPM_HASH = "f8bf5bd8721d2b6f6dcdc823613df754caa3f7ef1e52d3217dc1356a6b464b1a7593
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asdf-unit-schemas \
-python3-asdf_unit_schemas \
-python3.10dist(asdf-unit-schemas) \
+python3.10dist-asdf-unit-schemas \
 python310-asdf-unit-schemas \
-python310-asdf_unit_schemas \
-python3dist(asdf-unit-schemas)"
+python3dist-asdf-unit-schemas"
 
-RDEPENDS:${PN} += "(python310-importlib_resources >= 3 if python310-base < 3.9) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-importlib-resources >= 3 if python310-base < 3.9 \
+python-abi \
 python310-asdf-standard"
 
 inherit rpm

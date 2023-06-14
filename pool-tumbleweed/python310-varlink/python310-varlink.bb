@@ -12,12 +12,12 @@ RPM_HASH = "f7cca9dd944db9acba106a0fbeabaed0e6879391d75ecafb4be6f69fffffd4c9ff2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-varlink \
-python3.10dist(varlink) \
+python3.10dist-varlink \
 python310-varlink \
-python3dist(varlink)"
+python3dist-varlink"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-python(abi) \
+python-abi \
 python310-future"
 
 inherit rpm

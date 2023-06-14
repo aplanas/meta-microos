@@ -12,12 +12,11 @@ PV = "2.69"
 RPM_NAME = "libcap2-2.69-1.1.aarch64.rpm"
 RPM_HASH = "56a0d4f4616baf6836d86fcae1fa2dc55d0ecc06cb024dfadedb0843e49f9e2af703b87b6ad941fed6cb40f4397c651e1069406222c0ac9449ad90e148c84dd6"
 
-RPROVIDES:${PN} += "libcap.so.2()(64bit) \
-libcap2 \
-libcap2(aarch-64)"
+RPROVIDES:${PN} += "libcap.so.2 \
+libcap2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

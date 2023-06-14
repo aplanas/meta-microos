@@ -9,11 +9,11 @@ RPM_HASH = "262e01366d73cce807f28789b5f9cc530ea15500010825ec633dc4007e1d979c2317
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wmctrl \
-python3.10dist(wmctrl) \
+python3.10dist-wmctrl \
 python310-wmctrl \
-python3dist(wmctrl)"
+python3dist-wmctrl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 wmctrl \
 xorg-x11-server"
 

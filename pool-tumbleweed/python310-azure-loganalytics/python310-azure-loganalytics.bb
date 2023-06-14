@@ -11,11 +11,11 @@ RPM_HASH = "f6098dacee3beaacbac381cc4213ce9a30a133e4ba7e39f2fe9bcd1c1b8cdbe94469
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-loganalytics \
-python3.10dist(azure-loganalytics) \
+python3.10dist-azure-loganalytics \
 python310-azure-loganalytics \
-python3dist(azure-loganalytics)"
+python3dist-azure-loganalytics"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-msrest"

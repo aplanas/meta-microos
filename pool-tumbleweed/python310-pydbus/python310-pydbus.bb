@@ -9,12 +9,12 @@ RPM_HASH = "8f19ffb31b118b60ce146b97e3ac7295f639eb67c4679c0df72fade0adf1b796c5ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydbus \
-python3.10dist(pydbus) \
+python3.10dist-pydbus \
 python310-pydbus \
-python3dist(pydbus)"
+python3dist-pydbus"
 
-RDEPENDS:${PN} += "girepository-1_0 \
-python(abi) \
+RDEPENDS:${PN} += "girepository-1-0 \
+python-abi \
 python310-gobject"
 
 inherit rpm

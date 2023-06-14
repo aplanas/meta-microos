@@ -13,12 +13,12 @@ RPROVIDES:${PN} += "junit \
 junit-demo \
 junit4 \
 junit4-demo \
-mvn(junit:junit) \
-mvn(junit:junit:pom:) \
-osgi(org.junit)"
+mvn-junit-junit \
+mvn-junit-junit-pom- \
+osgi-org.junit"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.hamcrest:hamcrest-core)"
+mvn-org.hamcrest-hamcrest-core"
 
 inherit rpm

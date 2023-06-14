@@ -16,7 +16,7 @@ RPM_NAME = "texlive-cmap-2023.201.1.0jsvn57640-53.1.noarch.rpm"
 RPM_HASH = "4656507f4c641a90389c80e819f42f9f0133725604f1b68569a9e35e40c4dc243fbd6d58d6d70506a85519f4929ffe7dcdf208399f0d117ed7f8adc68672b59f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cmap.sty) \
+RPROVIDES:${PN} += "tex-cmap.sty \
 texlive-cmap"
 
 RDEPENDS:${PN} += "/bin/sh \

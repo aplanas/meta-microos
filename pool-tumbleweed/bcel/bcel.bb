@@ -28,14 +28,14 @@ RPM_HASH = "b3887659810ded3fc799aa93ff327afd8be8cd797638993c37f1287d684ec02a59db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel \
-mvn(bcel:bcel) \
-mvn(bcel:bcel:pom:) \
-mvn(org.apache.bcel:bcel) \
-mvn(org.apache.bcel:bcel:pom:)"
+mvn-bcel-bcel \
+mvn-bcel-bcel-pom- \
+mvn-org.apache.bcel-bcel \
+mvn-org.apache.bcel-bcel-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(jakarta-regexp:jakarta-regexp) \
+mvn-jakarta-regexp-jakarta-regexp \
 regexp"
 
 inherit rpm

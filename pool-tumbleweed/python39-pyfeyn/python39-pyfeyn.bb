@@ -13,13 +13,13 @@ RPM_NAME = "python39-pyfeyn-1.0.0-4.18.noarch.rpm"
 RPM_HASH = "c8945fa27f1b92d76f410ea463f0733c8c64512ad8382a892197ee6e363e8e62cd3472de3b06dcf270da3e01f0275691f10e17700218b14e3a84ee12e641b565"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pyfeyn) \
+RPROVIDES:${PN} += "python3.9dist-pyfeyn \
 python39-pyfeyn \
-python3dist(pyfeyn)"
+python3dist-pyfeyn"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-PyX \
 update-alternatives"
 

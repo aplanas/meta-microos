@@ -43,11 +43,11 @@ RPM_NAME = "perl-Test-TempDir-Tiny-0.018-1.17.noarch.rpm"
 RPM_HASH = "6aa9db4abed1f28cdbf08a1a67405de1ab02d204cdaa66854b4380b7286f599a51b88b42281506d14507168eff51ab2b1aa252e92661991c3b5e1c6f173d6fbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::TempDir::Tiny) \
+RPROVIDES:${PN} += "perl-Test--TempDir--Tiny \
 perl-Test-TempDir-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(File::Path) \
-perl(File::Temp)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-File--Path \
+perl-File--Temp"
 
 inherit rpm

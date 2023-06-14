@@ -10,15 +10,14 @@ RPM_HASH = "d8af721d828a1ba9adb1ca7f88446c79171bba622a3488fa47aa8d034a4d38cfe063
 
 RPROVIDES:${PN} += "python-rados \
 python3-rados \
-python3-rados(aarch-64) \
-python3.10dist(rados) \
-python3dist(rados)"
+python3.10dist-rados \
+python3dist-rados"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-librados.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+librados.so.2 \
 librados2 \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

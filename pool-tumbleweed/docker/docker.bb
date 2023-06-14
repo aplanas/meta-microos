@@ -13,13 +13,12 @@ PV = "23.0.6_ce"
 RPM_NAME = "docker-23.0.6_ce-1.1.aarch64.rpm"
 RPM_HASH = "9b2a875fcb0fd91916d5423e63943ccdfdfc49593374be33884202255e4dd236d53437b547023057cc2fbd50ee6c7a15d6e62e3da550a334519d2d4c5412ef1b"
 
-RPROVIDES:${PN} += "config(docker) \
+RPROVIDES:${PN} += "config-docker \
 docker \
-docker(aarch-64) \
 docker-libnetwork \
-group(docker) \
-group(dockremap) \
-user(dockremap)"
+group-docker \
+group-dockremap \
+user-dockremap"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
@@ -32,12 +31,9 @@ e2fsprogs \
 fillup \
 iproute2 \
 iptables \
-libc.so.6()(64bit) \
-libdevmapper.so.1.03()(64bit) \
-libdevmapper.so.1.03(Base)(64bit) \
-libdevmapper.so.1.03(DM_1_02_97)(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+libc.so.6 \
+libdevmapper.so.1.03 \
+libsystemd.so.0 \
 procps \
 runc \
 shadow \

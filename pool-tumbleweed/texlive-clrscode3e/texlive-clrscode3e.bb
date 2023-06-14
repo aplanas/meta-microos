@@ -13,7 +13,7 @@ RPM_NAME = "texlive-clrscode3e-2023.201.svn51137-53.1.noarch.rpm"
 RPM_HASH = "e85f75d93eb75ebdc67032f5bf9ee0e22904d541c701913555f92e72e0f503221f907fb18bcdafeda40afb8d8bcecaa45d7f5a5289375d7c6726b1f567cfb73c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(clrscode3e.sty) \
+RPROVIDES:${PN} += "tex-clrscode3e.sty \
 texlive-clrscode3e"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphics.sty) \
+tex-graphics.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

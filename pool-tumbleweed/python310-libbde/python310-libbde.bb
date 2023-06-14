@@ -10,19 +10,14 @@ RPM_NAME = "python310-libbde-20221031-3.9.aarch64.rpm"
 RPM_HASH = "e0bfcb5307a677ae8eb8eede9ec914c26508bb4a009a1b1f18a6a29960e7f1a7e07a9f436ce3b4705a2c5c3285301323e7b7189e3de179df5c58b71392750c7a"
 
 RPROVIDES:${PN} += "python3-libbde \
-python310-libbde \
-python310-libbde(aarch-64)"
+python310-libbde"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbde.so.1()(64bit) \
-libbde.so.1(V_20221031)(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libfguid.so.1()(64bit) \
-libfguid.so.1(V_20220113)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbde.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libfguid.so.1 \
+python-abi"
 
 inherit rpm

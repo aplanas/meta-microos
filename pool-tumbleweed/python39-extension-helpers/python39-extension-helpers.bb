@@ -15,11 +15,11 @@ RPM_NAME = "python39-extension-helpers-1.0.0-1.10.noarch.rpm"
 RPM_HASH = "a8fd580995c2475fff53beaf48404ee61c0ea93424bdeb1a5f1271826ef2db8019a31506e8e58fe144323c8be2dde4a4cc6f8ea8d9432f672db8ebb0df116158"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(extension-helpers) \
+RPROVIDES:${PN} += "python3.9dist-extension-helpers \
 python39-extension-helpers \
-python3dist(extension-helpers)"
+python3dist-extension-helpers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-setuptools"
 
 inherit rpm

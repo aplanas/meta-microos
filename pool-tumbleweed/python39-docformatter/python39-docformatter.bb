@@ -25,13 +25,13 @@ RPM_NAME = "python39-docformatter-1.4-1.9.noarch.rpm"
 RPM_HASH = "bd7d3d95db5c72943f364c30fe25c9602b19108864b58b692b1d3fbd5083f23b26e801bd15a8e88535ff365ec577417a8c7844026c7a2351823351a3f255a6a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(docformatter) \
+RPROVIDES:${PN} += "python3.9dist-docformatter \
 python39-docformatter \
-python3dist(docformatter)"
+python3dist-docformatter"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 python39-untokenize \
 update-alternatives"

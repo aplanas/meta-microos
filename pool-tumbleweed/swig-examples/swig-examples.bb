@@ -17,8 +17,7 @@ PV = "4.1.1"
 RPM_NAME = "swig-examples-4.1.1-2.3.aarch64.rpm"
 RPM_HASH = "956adf02b9a443ad656925cbfd202ed6c65bfede81df4f3a651827799ee239efd552e9594dc7f7360e6cb3147fc8a49e6bf9e6cf6ae53f630e2443e346a7c454"
 
-RPROVIDES:${PN} += "swig-examples \
-swig-examples(aarch-64)"
+RPROVIDES:${PN} += "swig-examples"
 
 RDEPENDS:${PN} += "swig"
 

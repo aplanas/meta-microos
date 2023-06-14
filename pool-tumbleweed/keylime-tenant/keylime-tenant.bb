@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "keylime-tenant"
 
 RDEPENDS:${PN} += "keylime-config \
-keylime-tpm_cert_store \
+keylime-tpm-cert-store \
 python3-keylime"
 
 inherit rpm

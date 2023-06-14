@@ -9,11 +9,11 @@ RPM_HASH = "bfda15b147f794d06423919c895ec5045358c6097036fc1bb29092fdad03066f59d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyLaTeX \
-python3.10dist(pylatex) \
+python3.10dist-pylatex \
 python310-PyLaTeX \
-python3dist(pylatex)"
+python3dist-pylatex"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ordered-set \
 texlive-latex"
 

@@ -14,12 +14,12 @@ RPM_NAME = "perl-Business-ISBN-3.008-1.1.noarch.rpm"
 RPM_HASH = "0d2a71528fed22f2f33d7976629869d7b918ac0d6633e554c2ff6f564109cbd5c6111c215752ef1a70354a828be67b6579d6fa9a8dd368336a5411fce1979dcb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Business::ISBN) \
-perl(Business::ISBN10) \
-perl(Business::ISBN13) \
+RPROVIDES:${PN} += "perl-Business--ISBN \
+perl-Business--ISBN10 \
+perl-Business--ISBN13 \
 perl-Business-ISBN"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Business::ISBN::Data)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Business--ISBN--Data"
 
 inherit rpm

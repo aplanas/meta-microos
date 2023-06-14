@@ -11,12 +11,12 @@ RPM_HASH = "c0bfb3f5a7eb9962caa91db2fcb217a872d87a9f9a6b38bb51a801e72070cb3386f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-mobilenetwork \
-python3.10dist(azure-mgmt-mobilenetwork) \
+python3.10dist-azure-mgmt-mobilenetwork \
 python310-azure-mgmt-mobilenetwork \
-python3dist(azure-mgmt-mobilenetwork)"
+python3dist-azure-mgmt-mobilenetwork"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

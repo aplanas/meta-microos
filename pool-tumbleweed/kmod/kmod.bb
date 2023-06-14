@@ -15,7 +15,6 @@ RPM_HASH = "0edc1d2c368d1b6d867fbac2db043ecf2a6d1059b3740989c77b4cebde3f1125b598
 
 RPROVIDES:${PN} += "/sbin/modprobe \
 kmod \
-kmod(aarch-64) \
 kmod-compat \
 kmod-zstd \
 module-init-tools \
@@ -23,12 +22,12 @@ modutils"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-liblzma.so.5()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+liblzma.so.5 \
+libz.so.1 \
+libzstd.so.1 \
 suse-module-tools"
 
 inherit rpm

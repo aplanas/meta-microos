@@ -10,20 +10,16 @@ PV = "0.13"
 RPM_NAME = "vifm-0.13-1.1.aarch64.rpm"
 RPM_HASH = "9b1c8b421cf5fbb4f3343b91244e2271a7e3f21b8fb7f8f05d243ff0912b5f773963ca67581f839e3914b20fcda86cb69e5aa1412325e0f2f8b135edcc3610fc"
 
-RPROVIDES:${PN} += "application() \
-application(vifm.desktop) \
-mimehandler(inode/directory) \
-vifm \
-vifm(aarch-64)"
+RPROVIDES:${PN} += "vifm"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libmagic.so.1()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libmagic.so.1 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -11,12 +11,12 @@ RPM_HASH = "2486749a6001885c95010fd5573a9646351f156a0222a9eb7502f31a0c4bcb41e148
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-connectedvmware \
-python3.10dist(azure-mgmt-connectedvmware) \
+python3.10dist-azure-mgmt-connectedvmware \
 python310-azure-mgmt-connectedvmware \
-python3dist(azure-mgmt-connectedvmware)"
+python3dist-azure-mgmt-connectedvmware"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

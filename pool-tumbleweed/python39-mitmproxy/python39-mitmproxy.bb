@@ -13,13 +13,13 @@ RPM_NAME = "python39-mitmproxy-9.0.1-1.3.noarch.rpm"
 RPM_HASH = "c8dfe64b8fe589f0ae17fd538976a7acfc2e6cd37ffe4abc5c8da22fba29c8da8b39710a40cce1ac854de51dcfecadd841fe4f3b96f78defcaa020c282fe8904"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(mitmproxy) \
+RPROVIDES:${PN} += "python3.9dist-mitmproxy \
 python39-mitmproxy \
-python3dist(mitmproxy)"
+python3dist-mitmproxy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Brotli \
 python39-Flask \
 python39-asgiref \
@@ -42,7 +42,7 @@ python39-pyperclip \
 python39-ruamel.yaml \
 python39-sortedcontainers \
 python39-tornado \
-python39-typing_extensions \
+python39-typing-extensions \
 python39-urwid \
 python39-wsproto \
 python39-zstandard \

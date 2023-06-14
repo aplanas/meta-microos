@@ -18,7 +18,7 @@ RPM_NAME = "texlive-apnum-2023.201.1.7svn47510-54.1.noarch.rpm"
 RPM_HASH = "1e66624c1951caabb402bf625729b51722d5bb800811495aedd9d66ab53e18b8c1b06999d7a850794a447311c476bb753360574c78b87420d2743445bfd44bf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(apnum.tex) \
+RPROVIDES:${PN} += "tex-apnum.tex \
 texlive-apnum"
 
 RDEPENDS:${PN} += "/bin/sh \

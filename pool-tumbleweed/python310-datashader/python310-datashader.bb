@@ -28,13 +28,13 @@ RPM_HASH = "8860b400f97a6c075c9e2a5bd26aada7be815fe1c1b1e16bcc38a7e1dd2e9b8d2b4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-datashader \
-python3.10dist(datashader) \
+python3.10dist-datashader \
 python310-datashader \
-python3dist(datashader)"
+python3dist-datashader"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-DataShape \
 python310-Pillow \
 python310-colorcet \

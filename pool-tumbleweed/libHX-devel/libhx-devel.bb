@@ -13,9 +13,8 @@ RPM_NAME = "libHX-devel-4.12-1.2.aarch64.rpm"
 RPM_HASH = "9494d79a629f3e5912ca56618212acdde3a176a1442e028c6ba4a82d97d201eed72f930430e056cef29bb5b4eb824da7b25a716785cc5807b67bb213175b80bc"
 
 RPROVIDES:${PN} += "libHX-devel \
-libHX-devel(aarch-64) \
-libHX_rtcheck.so()(64bit) \
-pkgconfig(libHX)"
+libHX-rtcheck.so \
+pkgconfig-libHX"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libHX32"

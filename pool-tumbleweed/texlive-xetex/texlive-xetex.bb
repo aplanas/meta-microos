@@ -20,8 +20,8 @@ RPM_NAME = "texlive-xetex-2023.201.svn66203-52.1.noarch.rpm"
 RPM_HASH = "e99ce5cdcb9a56c4ccdcc3114d4e74016576cf7d97609e9a54bc37285644ddaaa892c31e3e5d84d34b803a1e919b7709a169f1d8e0999fa9cf1df98fab70c918"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(qx-unicode.map) \
-tex(tex-text.map) \
+RPROVIDES:${PN} += "tex-qx-unicode.map \
+tex-tex-text.map \
 texlive-xetex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,12 +30,12 @@ ed \
 findutils \
 grep \
 perl \
-perl(TeXLive::TLUtils) \
+perl-TeXLive--TLUtils \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
-tex(texmf.cnf) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
+tex-texmf.cnf \
 texlive \
 texlive-atbegshi \
 texlive-atveryend \

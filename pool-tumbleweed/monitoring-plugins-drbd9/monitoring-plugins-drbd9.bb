@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "monitoring-plugins-drbd9"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Data::Dumper) \
-perl(Getopt::Std)"
+perl-Data--Dumper \
+perl-Getopt--Std"
 
 inherit rpm

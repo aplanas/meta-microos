@@ -9,22 +9,22 @@ RPM_HASH = "316f98f4c79611453c14754f80694b7c037500cf25379ef8857feed7ba2b297f4418
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-enforcer-rules \
-mvn(org.apache.maven.enforcer:enforcer-rules) \
-mvn(org.apache.maven.enforcer:enforcer-rules:pom:)"
+mvn-org.apache.maven.enforcer-enforcer-rules \
+mvn-org.apache.maven.enforcer-enforcer-rules-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-lang:commons-lang) \
-mvn(org.apache.maven.enforcer:enforcer-api) \
-mvn(org.apache.maven.shared:maven-artifact-transfer) \
-mvn(org.apache.maven.shared:maven-common-artifact-filters) \
-mvn(org.apache.maven.shared:maven-dependency-tree) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-compat) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.beanshell:bsh) \
-mvn(org.codehaus.plexus:plexus-i18n) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-commons-lang-commons-lang \
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-compat \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.enforcer-enforcer-api \
+mvn-org.apache.maven.shared-maven-artifact-transfer \
+mvn-org.apache.maven.shared-maven-common-artifact-filters \
+mvn-org.apache.maven.shared-maven-dependency-tree \
+mvn-org.beanshell-bsh \
+mvn-org.codehaus.plexus-plexus-i18n \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

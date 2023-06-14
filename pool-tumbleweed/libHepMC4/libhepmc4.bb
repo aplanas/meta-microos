@@ -19,15 +19,14 @@ PV = "2.06.11"
 RPM_NAME = "libHepMC4-2.06.11-2.9.aarch64.rpm"
 RPM_HASH = "535a64a24e225aa8ef6ba49d5fc156182d302cb6d9b0324284adf41570849db4af2e0a7d52945f978b63ad60f9326a36f073e242a74a738922a3dfe475ea8cf4"
 
-RPROVIDES:${PN} += "libHepMC.so.4()(64bit) \
+RPROVIDES:${PN} += "libHepMC.so.4 \
 libHepMC4 \
-libHepMC4(aarch-64) \
-libHepMCfio.so.4()(64bit)"
+libHepMCfio.so.4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

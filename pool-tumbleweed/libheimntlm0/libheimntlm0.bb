@@ -7,17 +7,16 @@ PV = "7.8.0"
 RPM_NAME = "libheimntlm0-7.8.0-3.1.aarch64.rpm"
 RPM_HASH = "582641e1eb7c899ddc74a2ad530b75d654deb53c95d02cd9a25ac131e1374ae186b0297451f4a5f7c5bc53cd509093e9e8f0eeadbd7a7114fdc9e3a3465f389e"
 
-RPROVIDES:${PN} += "libheimntlm.so.0()(64bit) \
-libheimntlm0 \
-libheimntlm0(aarch-64)"
+RPROVIDES:${PN} += "libheimntlm.so.0 \
+libheimntlm0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit) \
-libhcrypto.so.4()(64bit) \
-libkrb5.so.26()(64bit) \
-libroken.so.18()(64bit) \
-libwind.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcom-err.so.2 \
+libhcrypto.so.4 \
+libkrb5.so.26 \
+libroken.so.18 \
+libwind.so.0"
 
 inherit rpm

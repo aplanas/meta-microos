@@ -7,32 +7,26 @@ PV = "3.12.0"
 RPM_NAME = "grandorgue-3.12.0-1.1.aarch64.rpm"
 RPM_HASH = "a22ae18ecdfdb684db9267d4db37605a4d629fd373aa6b6103ed16d387adfde413548ed8f2c2151ab6ed0133fc584ea0defc3699920ed5b5375bc43370685beb"
 
-RPROVIDES:${PN} += "application() \
-application(GrandOrgue.desktop) \
-grandorgue \
-grandorgue(aarch-64) \
-libGrandOrgueCore.so.3.11.3()(64bit) \
-libGrandOrgueImages.so.3.11.3()(64bit) \
-metainfo() \
-metainfo(GrandOrgue.appdata.xml) \
-mimehandler(application/x-grandorgue-odf)"
+RPROVIDES:${PN} += "grandorgue \
+libGrandOrgueCore.so.3.11.3 \
+libGrandOrgueImages.so.3.11.3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libm.so.6()(64bit) \
-libportaudio.so.2()(64bit) \
-librtaudio.so.6()(64bit) \
-librtmidi.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwavpack.so.1()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0()(64bit) \
-libyaml-cpp.so.0.7()(64bit) \
-libz.so.1()(64bit) \
-libzita-convolver.so.4()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libm.so.6 \
+libportaudio.so.2 \
+librtaudio.so.6 \
+librtmidi.so.6 \
+libstdc++.so.6 \
+libwavpack.so.1 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-html-suse.so.9.0.0 \
+libyaml-cpp.so.0.7 \
+libz.so.1 \
+libzita-convolver.so.4"
 
 inherit rpm

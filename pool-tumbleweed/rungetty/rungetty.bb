@@ -16,10 +16,9 @@ RPM_NAME = "rungetty-1.2-9.9.aarch64.rpm"
 RPM_HASH = "21f4d1fde4be1ef8a422200446a136506554f0715508af640aff6ea8c2aac86911ad2d14de38f99ac7b260306c0d9b84928d41c5f447b4434b34652affcd65d7"
 
 RPROVIDES:${PN} += "rungetty \
-rungetty(aarch-64) \
-sysvinit:/sbin/mingetty"
+sysvinit-/sbin/mingetty"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

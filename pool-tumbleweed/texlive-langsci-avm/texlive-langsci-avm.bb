@@ -14,7 +14,7 @@ RPM_NAME = "texlive-langsci-avm-2023.201.0.0.3.0svn66016-55.1.noarch.rpm"
 RPM_HASH = "53864b73b2428abcac4f7d54583e2affb7ff80668562e4cb441828e18044241dc5258c9699940fcd900d991b880e23a215aed983ac4987b57bfcadc0669e7492"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(langsci-avm.sty) \
+RPROVIDES:${PN} += "tex-langsci-avm.sty \
 texlive-langsci-avm"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,11 +23,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(etoolbox.sty) \
-tex(tikz.sty) \
-tex(unicode-math.sty) \
-tex(xparse.sty) \
+tex-array.sty \
+tex-etoolbox.sty \
+tex-tikz.sty \
+tex-unicode-math.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

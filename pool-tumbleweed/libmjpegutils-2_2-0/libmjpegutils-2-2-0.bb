@@ -11,12 +11,11 @@ PV = "2.2.1"
 RPM_NAME = "libmjpegutils-2_2-0-2.2.1-2.5.aarch64.rpm"
 RPM_HASH = "b3f73b36feadbe1260a17fdf31a964bb5bd0a212201794c871890d6db7029dfbadb16adda8626a2df96aa9ce17618bcf66f9101677345659b7cd37657c3a0fe4"
 
-RPROVIDES:${PN} += "libmjpegutils-2.2.so.0()(64bit) \
-libmjpegutils-2_2-0 \
-libmjpegutils-2_2-0(aarch-64)"
+RPROVIDES:${PN} += "libmjpegutils-2-2-0 \
+libmjpegutils-2.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

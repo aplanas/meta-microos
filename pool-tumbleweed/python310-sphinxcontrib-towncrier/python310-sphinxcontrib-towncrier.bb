@@ -9,11 +9,11 @@ RPM_HASH = "5d8108fda4520b6da9255f22856abaa5ad9b38aa8a86a8449213fa2d0a83222766fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-towncrier \
-python3.10dist(sphinxcontrib-towncrier) \
+python3.10dist-sphinxcontrib-towncrier \
 python310-sphinxcontrib-towncrier \
-python3dist(sphinxcontrib-towncrier)"
+python3dist-sphinxcontrib-towncrier"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Sphinx \
 python310-towncrier"
 

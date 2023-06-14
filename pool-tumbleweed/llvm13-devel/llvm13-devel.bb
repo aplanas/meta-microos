@@ -8,37 +8,35 @@ PV = "13.0.1"
 RPM_NAME = "llvm13-devel-13.0.1-9.1.aarch64.rpm"
 RPM_HASH = "623b8380904882b0a635efb146cd48b9cb511fe84d8eaa93fdc25223bdd04b758ab5bc57b848c592dd414155f3e3d12e1f1c1601c6aadf52b191ad76a7945e83"
 
-RPROVIDES:${PN} += "cmake(LLVM) \
-cmake(LLVM-) \
+RPROVIDES:${PN} += "cmake-LLVM \
+cmake-LLVM- \
 libLTO.so \
 llvm-devel-provider \
 llvm13-LTO-devel \
 llvm13-devel \
-llvm13-devel(aarch-64) \
-rpm_macro(_libcxx_sonum) \
-rpm_macro(_llvm_minorver) \
-rpm_macro(_llvm_relver) \
-rpm_macro(_llvm_sonum) \
-rpm_macro(_llvm_version) \
-rpm_macro(_llvm_with_ffi) \
-rpm_macro(_llvm_with_libcxx) \
-rpm_macro(_llvm_with_lldb) \
-rpm_macro(_llvm_with_openmp) \
-rpm_macro(_llvm_with_oprofile) \
-rpm_macro(_llvm_with_valgrind)"
+rpm-macro--libcxx-sonum \
+rpm-macro--llvm-minorver \
+rpm-macro--llvm-relver \
+rpm-macro--llvm-sonum \
+rpm-macro--llvm-version \
+rpm-macro--llvm-with-ffi \
+rpm-macro--llvm-with-libcxx \
+rpm-macro--llvm-with-lldb \
+rpm-macro--llvm-with-openmp \
+rpm-macro--llvm-with-oprofile \
+rpm-macro--llvm-with-valgrind"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.13()(64bit) \
-libLLVM.so.13(LLVM_13)(64bit) \
+ld-linux-aarch64.so.1 \
+libLLVM.so.13 \
 libLLVM13 \
 libLTO13 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
 libomp13-devel \
 libstdc++-devel \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 libtool \
 llvm13 \
 llvm13-gold \

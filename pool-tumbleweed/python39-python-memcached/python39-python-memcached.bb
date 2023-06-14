@@ -14,11 +14,11 @@ RPM_NAME = "python39-python-memcached-1.59-7.1.noarch.rpm"
 RPM_HASH = "ad926bb1d78629096579a2d5b8ea2e75c4cad7bba1fdadf8afb946517b80da25ac173ccd48a5a00dafbcd7118c491b4d43786d1d4eff8d5b45fa455978a45b07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-memcached) \
+RPROVIDES:${PN} += "python3.9dist-python-memcached \
 python39-python-memcached \
-python3dist(python-memcached)"
+python3dist-python-memcached"
 
 RDEPENDS:${PN} += "memcached \
-python(abi)"
+python-abi"
 
 inherit rpm

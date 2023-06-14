@@ -9,14 +9,13 @@ RPM_NAME = "python310-gsw-3.6.16-1.5.aarch64.rpm"
 RPM_HASH = "14e1f67b4b061de84ee279c3ada5fe200ba142bf0d90437d7a4891f3ca2729052b64819f4cc606f2b5b9538568f87742e3ad79cb315ed8afe6e3997601aea601"
 
 RPROVIDES:${PN} += "python3-gsw \
-python3.10dist(gsw) \
+python3.10dist-gsw \
 python310-gsw \
-python310-gsw(aarch-64) \
-python3dist(gsw)"
+python3dist-gsw"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-numpy"
 
 inherit rpm

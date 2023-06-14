@@ -9,19 +9,19 @@ RPM_HASH = "14e458ad0e01faeb8261f392200fc3c14ffe5f46a230a6bd10cd0c41cef9e9b72dd4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-runtime \
-mvn(com.sun.xml.bind:jaxb-impl) \
-mvn(com.sun.xml.bind:jaxb-impl:pom:) \
-mvn(org.glassfish.jaxb:jaxb-runtime) \
-mvn(org.glassfish.jaxb:jaxb-runtime:pom:) \
-osgi(com.sun.xml.bind.jaxb-impl)"
+mvn-com.sun.xml.bind-jaxb-impl \
+mvn-com.sun.xml.bind-jaxb-impl-pom- \
+mvn-org.glassfish.jaxb-jaxb-runtime \
+mvn-org.glassfish.jaxb-jaxb-runtime-pom- \
+osgi-com.sun.xml.bind.jaxb-impl"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.istack:istack-commons-runtime) \
-mvn(com.sun.xml.fastinfoset:FastInfoset) \
-mvn(javax.activation:javax.activation-api) \
-mvn(javax.xml.bind:jaxb-api) \
-mvn(org.glassfish.jaxb:txw2) \
-mvn(org.jvnet.staxex:stax-ex)"
+mvn-com.sun.istack-istack-commons-runtime \
+mvn-com.sun.xml.fastinfoset-FastInfoset \
+mvn-javax.activation-javax.activation-api \
+mvn-javax.xml.bind-jaxb-api \
+mvn-org.glassfish.jaxb-txw2 \
+mvn-org.jvnet.staxex-stax-ex"
 
 inherit rpm

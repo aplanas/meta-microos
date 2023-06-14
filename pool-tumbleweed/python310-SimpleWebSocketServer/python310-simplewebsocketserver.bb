@@ -14,10 +14,10 @@ RPM_HASH = "09f07de08b0a863a2a31ddecc5dcae418fd2eb13bb30a13824c9ff51e340c5b0fb31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-SimpleWebSocketServer \
-python3.10dist(simplewebsocketserver) \
+python3.10dist-simplewebsocketserver \
 python310-SimpleWebSocketServer \
-python3dist(simplewebsocketserver)"
+python3dist-simplewebsocketserver"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

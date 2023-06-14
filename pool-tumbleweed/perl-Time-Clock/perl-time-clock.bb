@@ -18,9 +18,9 @@ RPM_NAME = "perl-Time-Clock-1.03-3.26.noarch.rpm"
 RPM_HASH = "d811b6ac375ffb5644c3668bc474e456fdfebbf6a27dc64428f5684163f56a25718a14ed0a462bfa4c23f4d8e11f38c24aff20e7557c6282c03486e16bf99583"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Time::Clock) \
+RPROVIDES:${PN} += "perl-Time--Clock \
 perl-Time-Clock"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

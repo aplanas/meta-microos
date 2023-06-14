@@ -15,29 +15,27 @@ PV = "253.4"
 RPM_NAME = "systemd-container-253.4-2.1.aarch64.rpm"
 RPM_HASH = "92b399d2ce044d9680b9b25293a24fee2752a647cf16ee09edd4aec0309509108da6e817d9324e5f232a07110ce9b40c23f8e532c946a71f24be292b0cd5169b"
 
-RPROVIDES:${PN} += "libnss_mymachines.so.2()(64bit) \
+RPROVIDES:${PN} += "libnss-mymachines.so.2 \
 nss-mymachines \
-systemd-container \
-systemd-container(aarch-64) \
-systemd:/usr/bin/systemd-nspawn"
+systemd-/usr/bin/systemd-nspawn \
+systemd-container"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/gpg \
 /usr/bin/tar \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcurl.so.4()(64bit) \
-libgcrypt.so.20()(64bit) \
-liblzma.so.5()(64bit) \
-libseccomp.so.2()(64bit) \
-libselinux.so.1()(64bit) \
-libsystemd-shared-253.so()(64bit) \
-libsystemd-shared-253.so(SD_SHARED)(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcurl.so.4 \
+libgcrypt.so.20 \
+liblzma.so.5 \
+libseccomp.so.2 \
+libselinux.so.1 \
+libsystemd-shared-253.so \
+libz.so.1 \
 systemd"
 
 inherit rpm

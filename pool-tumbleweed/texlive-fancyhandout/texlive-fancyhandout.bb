@@ -18,7 +18,7 @@ RPM_NAME = "texlive-fancyhandout-2023.201.svn46411-52.1.noarch.rpm"
 RPM_HASH = "67daa27ff94636c91d4bee89162b0b71ddd43f377adc4fc552e3136e32941cba3a24cbf44facb7f5171938eec6f62ae51b7abc74c993c0bdfdd0f0eabf770e9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fancyhandout.cls) \
+RPROVIDES:${PN} += "tex-fancyhandout.cls \
 texlive-fancyhandout"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,13 +27,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(csquotes.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(fancyhdr.sty) \
-tex(geometry.sty) \
-tex(xcolor.sty) \
+tex-article.cls \
+tex-csquotes.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-fancyhdr.sty \
+tex-geometry.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

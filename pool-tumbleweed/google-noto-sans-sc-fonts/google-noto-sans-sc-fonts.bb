@@ -11,7 +11,7 @@ RPM_HASH = "f3199af725a51b3ef6dbb2c82f1f5e31296ca97898d8e91b6c5c50c872ece21a3502
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-sans-sc-fonts \
-locale(zh_CN;zh_SG) \
+locale-zh-CN;zh-SG \
 noto-sans-cjksc \
 noto-sans-cjksc-fonts \
 noto-sans-sc-fonts \

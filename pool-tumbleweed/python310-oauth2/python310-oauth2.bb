@@ -12,11 +12,11 @@ RPM_HASH = "e38723bb3fd9db14e9c3a7376897474a81f78926840d537d41a779de9564b4f6c2cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oauth2 \
-python3.10dist(oauth2) \
+python3.10dist-oauth2 \
 python310-oauth2 \
-python3dist(oauth2)"
+python3dist-oauth2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-httplib2"
 
 inherit rpm

@@ -9,9 +9,8 @@ PV = "0.2"
 RPM_NAME = "aer-inject-0.2-1.28.aarch64.rpm"
 RPM_HASH = "678cc13f746dd5abec2302fb20d9978f3220b5c916d4a06dfba5242be976bc6361d0f3bdf73ffbf57767dcb3be9a8199961158dd0979870420bc2b4b8b480ed7"
 
-RPROVIDES:${PN} += "aer-inject \
-aer-inject(aarch-64)"
+RPROVIDES:${PN} += "aer-inject"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

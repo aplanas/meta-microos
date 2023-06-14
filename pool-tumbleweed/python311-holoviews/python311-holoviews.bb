@@ -17,13 +17,13 @@ RPM_NAME = "python311-holoviews-1.15.4-1.2.noarch.rpm"
 RPM_HASH = "e94997bd55df8294c9389d45a7863ec36563c1fe4398ad03eaef92e33d60a0d397ea6944ec01ae5d73d776f52e88f0b0480daa74bdd40d857587f7068e14a5ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(holoviews) \
+RPROVIDES:${PN} += "python3.11dist-holoviews \
 python311-holoviews \
-python3dist(holoviews)"
+python3dist-holoviews"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-colorcet \
 python311-numpy \
 python311-packaging \

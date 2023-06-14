@@ -14,12 +14,12 @@ RPM_NAME = "python39-xarray-2023.5.0-1.1.noarch.rpm"
 RPM_HASH = "587c8efbeb2426a63251aaf98c840dd8752b635b378f29fcb19d2a0905b50389e5d60a9d33dba8c7e06d983101651d7e100ada526a9e377280f36a6d56e1f305"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(xarray) \
+RPROVIDES:${PN} += "python3.9dist-xarray \
 python39-xarray \
 python39-xray \
-python3dist(xarray)"
+python3dist-xarray"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numpy \
 python39-packaging \
 python39-pandas"

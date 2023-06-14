@@ -12,36 +12,35 @@ RPM_NAME = "icewm-default-3.3.5-1.1.aarch64.rpm"
 RPM_HASH = "b2e37ef36736b319ee89ddbca4e84fa147b03f96b8b253b7719308774b151e3f92ab72b1cdcdf32eb5a0eaf5fb02d051652b9a16a402f3eca6d64fea73635629"
 
 RPROVIDES:${PN} += "icewm-bin \
-icewm-default \
-icewm-default(aarch-64)"
+icewm-default"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 adwaita-icon-theme \
 icewm \
-ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libImlib2.so.1()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXft.so.2()(64bit) \
-libXinerama.so.1()(64bit) \
-libXpm.so.4()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfribidi.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libImlib2.so.1 \
+libSM.so.6 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXft.so.2 \
+libXinerama.so.1 \
+libXpm.so.4 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libfribidi.so.0 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libsndfile.so.1 \
+libstdc++.so.6 \
 update-alternatives"
 
 inherit rpm

@@ -14,16 +14,16 @@ RPM_NAME = "perl-Test-Trap-0.3.5-1.2.noarch.rpm"
 RPM_HASH = "5346c098596b16b335082bf5f069455ed9446ce1dc78014f024b8f550b9edaaa90af91a1a8f88ce0a16574f51bddd2e81754483db6de23567183803db903881a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Trap) \
-perl(Test::Trap::Builder) \
-perl(Test::Trap::Builder::PerlIO) \
-perl(Test::Trap::Builder::SystemSafe) \
-perl(Test::Trap::Builder::TempFile) \
+RPROVIDES:${PN} += "perl-Test--Trap \
+perl-Test--Trap--Builder \
+perl-Test--Trap--Builder--PerlIO \
+perl-Test--Trap--Builder--SystemSafe \
+perl-Test--Trap--Builder--TempFile \
 perl-Test-Trap"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Dump) \
-perl(Test::Tester) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Dump \
+perl-Test--Tester \
+perl-version"
 
 inherit rpm

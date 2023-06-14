@@ -13,7 +13,7 @@ RPM_NAME = "texlive-handout-2023.201.1.6.0svn43962-53.1.noarch.rpm"
 RPM_HASH = "35cc938179f218f8b5ca758367426a789ab5d45ef0a5fe8064e682979929ae1c6fe2e0813aacf37a99265abda60a4ebd80e12741028dd10aa142566b3b39ca61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(handout.sty) \
+RPROVIDES:${PN} += "tex-handout.sty \
 texlive-handout"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(kvoptions.sty) \
-tex(suffix.sty) \
+tex-etoolbox.sty \
+tex-kvoptions.sty \
+tex-suffix.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

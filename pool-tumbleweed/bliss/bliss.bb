@@ -9,14 +9,13 @@ PV = "0.77"
 RPM_NAME = "bliss-0.77-1.8.aarch64.rpm"
 RPM_HASH = "cd9b96ea65f6e7a6ff62612bd1172d4a2bef5033fce463a11b65ff6760bd53c40fc9415e75f90364d7ed760e153b69df858dcb8874f3c17b2f6d1e79b6c30193"
 
-RPROVIDES:${PN} += "bliss \
-bliss(aarch-64)"
+RPROVIDES:${PN} += "bliss"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbliss.so.0.77()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbliss.so.0.77 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libstdc++.so.6"
 
 inherit rpm

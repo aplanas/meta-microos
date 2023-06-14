@@ -12,14 +12,14 @@ RPM_HASH = "4c1e6c6f80043b508da4d4acbeb62d63fa4609dbece83ff6032765deffdc257ba2f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipydatawidgets \
-python3-jupyter_ipydatawidgets \
-python3.10dist(ipydatawidgets) \
+python3-jupyter-ipydatawidgets \
+python3.10dist-ipydatawidgets \
 python310-ipydatawidgets \
-python310-jupyter_ipydatawidgets \
-python3dist(ipydatawidgets)"
+python310-jupyter-ipydatawidgets \
+python3dist-ipydatawidgets"
 
 RDEPENDS:${PN} += "jupyter-ipydatawidgets \
-python(abi) \
+python-abi \
 python310-ipywidgets \
 python310-numpy \
 python310-traittypes"

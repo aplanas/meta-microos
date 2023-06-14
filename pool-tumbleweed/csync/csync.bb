@@ -9,11 +9,10 @@ PV = "0.50.0"
 RPM_NAME = "csync-0.50.0-11.9.aarch64.rpm"
 RPM_HASH = "6ce793d07fa5357aae1a4459aae7659331387438fdce35aaafefada2253391652c2a2ea8cba1612e3f8ebaacf549d30056c4e979053f81cbb2336d138eace8f6"
 
-RPROVIDES:${PN} += "csync \
-csync(aarch-64)"
+RPROVIDES:${PN} += "csync"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcsync.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcsync.so.0"
 
 inherit rpm

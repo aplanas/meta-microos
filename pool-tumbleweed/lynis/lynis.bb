@@ -13,7 +13,7 @@ RPM_NAME = "lynis-3.0.8-1.4.noarch.rpm"
 RPM_HASH = "fdf74cd0bb4d57eedc0319208c9946a5ec704a6f8c967a3af2733e0e305c3c2b42df7ff0ad4140eb59c3b57a0dc67181a0c403201f8e8e686b9c8eed4f38e2c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(lynis) \
+RPROVIDES:${PN} += "config-lynis \
 lynis"
 
 RDEPENDS:${PN} += "/bin/bash \
@@ -24,7 +24,7 @@ bash \
 cron \
 fillup \
 findutils \
-libnss_usrfiles2 \
+libnss-usrfiles2 \
 logrotate \
 net-tools-deprecated \
 netcfg \

@@ -10,19 +10,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsp \
 jsp23 \
-mvn(org.apache.tomcat:tomcat-jsp-api) \
-mvn(org.apache.tomcat:tomcat-jsp-api:pom:) \
-mvn(org.eclipse.jetty.orbit:javax.servlet.jsp) \
-mvn(org.eclipse.jetty.orbit:javax.servlet.jsp:pom:) \
-osgi(org.apache.tomcat-jsp-api) \
-tomcat-jsp-2.3-api \
-tomcat-jsp-2_3-api"
+mvn-org.apache.tomcat-tomcat-jsp-api \
+mvn-org.apache.tomcat-tomcat-jsp-api-pom- \
+mvn-org.eclipse.jetty.orbit-javax.servlet.jsp \
+mvn-org.eclipse.jetty.orbit-javax.servlet.jsp-pom- \
+osgi-org.apache.tomcat-jsp-api \
+tomcat-jsp-2-3-api \
+tomcat-jsp-2.3-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.tomcat:tomcat-el-api) \
-mvn(org.apache.tomcat:tomcat-servlet-api) \
+mvn-org.apache.tomcat-tomcat-el-api \
+mvn-org.apache.tomcat-tomcat-servlet-api \
 update-alternatives"
 
 inherit rpm

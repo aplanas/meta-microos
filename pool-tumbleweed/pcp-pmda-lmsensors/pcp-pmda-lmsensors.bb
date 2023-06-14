@@ -8,8 +8,7 @@ PV = "5.2.5"
 RPM_NAME = "pcp-pmda-lmsensors-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "655c4a135fd09933f3b0894f831ffa01078cf0b1fb51521b406805dd8ae8e310b60e7478114c41d910cd3ff984912701185ab8a8a4340bb298ce33d37b7aaf0d"
 
-RPROVIDES:${PN} += "pcp-pmda-lmsensors \
-pcp-pmda-lmsensors(aarch-64)"
+RPROVIDES:${PN} += "pcp-pmda-lmsensors"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \

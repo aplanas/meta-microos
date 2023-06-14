@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "libstoragemgmt-targetd-plugin"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-libstoragemgmt"
 
 inherit rpm

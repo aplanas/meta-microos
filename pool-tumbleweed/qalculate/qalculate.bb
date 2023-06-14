@@ -11,15 +11,14 @@ PV = "4.6.1"
 RPM_NAME = "qalculate-4.6.1-1.2.aarch64.rpm"
 RPM_HASH = "6ce4810f3a94ee557dcd99bdf36684120c24e416dcee054563e493a5540ebd367b045e69792681948c3cc1148702b7d218dd93b35a520953c20e5da8bc44aea6"
 
-RPROVIDES:${PN} += "qalculate \
-qalculate(aarch-64)"
+RPROVIDES:${PN} += "qalculate"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libqalculate.so.22()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libqalculate.so.22 \
+libreadline.so.8 \
+libstdc++.so.6 \
 qalculate-data"
 
 inherit rpm

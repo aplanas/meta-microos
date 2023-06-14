@@ -12,11 +12,8 @@ PV = "3.23.4"
 RPM_NAME = "solfege-3.23.4-5.7.aarch64.rpm"
 RPM_HASH = "584d291ebde6c01cd0fbd11352077abaebed8d131574fa46cf1188783ee5f3e7d831722e259cb79007618b74823393be3591f8ed6d0b5975c7afc2b1ddc2e4d0"
 
-RPROVIDES:${PN} += "application() \
-application(solfege.desktop) \
-config(solfege) \
-solfege \
-solfege(aarch-64)"
+RPROVIDES:${PN} += "config-solfege \
+solfege"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -24,11 +21,11 @@ RDEPENDS:${PN} += "/bin/bash \
 lilypond-fonts-common \
 python3-gobject-Gdk \
 timidity \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gtk) \
-typelib(Pango)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gtk \
+typelib-Pango"
 
 inherit rpm

@@ -14,25 +14,20 @@ RPM_HASH = "46fb1e6073601aee3641ffeb4f4a33423023673d3249cf2163df250aa0d5e47b4126
 
 RPROVIDES:${PN} += "python3-PyQt6-QScintilla \
 python3-qscintilla-qt6 \
-python3.10dist(pyqt6-qscintilla) \
+python3.10dist-pyqt6-qscintilla \
 python310-PyQt6-QScintilla \
-python310-PyQt6-QScintilla(aarch-64) \
 python310-qscintilla-qt6 \
-python3dist(pyqt6-qscintilla)"
+python3dist-pyqt6-qscintilla"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6PrintSupport.so.6()(64bit) \
-libQt6PrintSupport.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libqscintilla2_qt6.so.15()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
+libc.so.6 \
+libqscintilla2-qt6.so.15 \
+libstdc++.so.6 \
+python-abi \
 python310-PyQt6"
 
 inherit rpm

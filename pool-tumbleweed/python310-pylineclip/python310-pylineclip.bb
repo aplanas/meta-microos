@@ -9,10 +9,10 @@ RPM_HASH = "7fc1abce399fc34bb3b32f129d6bb3aa4041ec136c313917a89270a55340acd29afe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylineclip \
-python3.10dist(pylineclip) \
+python3.10dist-pylineclip \
 python310-pylineclip \
-python3dist(pylineclip)"
+python3dist-pylineclip"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

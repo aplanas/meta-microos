@@ -10,31 +10,29 @@ RPM_HASH = "23b64bec31d58bd3497142f8fd2f5e902ddedd87e12e48b4f8b6b9f234fd4d45a7c8
 
 RPROVIDES:${PN} += "compiz-decorator \
 compiz-gnome \
-compiz-gnome(aarch-64) \
 compiz-mate"
 
 RDEPENDS:${PN} += "compiz \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXrender.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libdecoration.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmarco-private.so.2()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libwnck-3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXi.so.6 \
+libXrender.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-1.so.3 \
+libdbus-glib-1.so.2 \
+libdecoration.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libmarco-private.so.2 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libwnck-3.so.0"
 
 inherit rpm

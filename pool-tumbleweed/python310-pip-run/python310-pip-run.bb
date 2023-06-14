@@ -21,13 +21,13 @@ RPM_HASH = "0e133d375b862a9d8641f661d36ed4a347eda4e579ebd8f9a2f47320c3ff22497226
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-run \
-python3.10dist(pip-run) \
+python3.10dist-pip-run \
 python310-pip-run \
-python3dist(pip-run)"
+python3dist-pip-run"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-autocommand \
 python310-packaging \
 python310-path \

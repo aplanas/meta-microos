@@ -10,11 +10,11 @@ RPM_HASH = "85031db8b23e0dd5c2a17b2e90fb57ad980f8006b7a1de095f4a1a3849ceabd9b1c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openpyxl \
-python3.10dist(openpyxl) \
+python3.10dist-openpyxl \
 python310-openpyxl \
-python3dist(openpyxl)"
+python3dist-openpyxl"
 
-RDEPENDS:${PN} += "python(abi) \
-python310-et_xmlfile"
+RDEPENDS:${PN} += "python-abi \
+python310-et-xmlfile"
 
 inherit rpm

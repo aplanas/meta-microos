@@ -21,10 +21,10 @@ RPM_HASH = "b7ca26194bae1f736da901d840a20e9a8bbff930307a21a74eef7f29e66f4d1d6735
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-IMAPClient \
-python3.10dist(imapclient) \
+python3.10dist-imapclient \
 python310-IMAPClient \
-python3dist(imapclient)"
+python3dist-imapclient"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

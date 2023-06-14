@@ -10,16 +10,15 @@ PV = "1.2.16"
 RPM_NAME = "stuntman-1.2.16-2.10.aarch64.rpm"
 RPM_HASH = "04e7eb91b95a9504b133b4130df02fd57d2e12397bf97b52f54cbcb341e097c1d3d7c97a8ad3eb22156c233988227d43b20ffc99180aa7facea520dd204adf31"
 
-RPROVIDES:${PN} += "stuntman \
-stuntman(aarch-64)"
+RPROVIDES:${PN} += "stuntman"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 shadow"
 
 inherit rpm

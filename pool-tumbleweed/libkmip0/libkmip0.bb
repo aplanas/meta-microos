@@ -19,12 +19,11 @@ PV = "0.2.0"
 RPM_NAME = "libkmip0-0.2.0-1.8.aarch64.rpm"
 RPM_HASH = "d16949763598aa2e36f2e71ff425e2418712324ab99e6d32ca724e9191dbc34cf53ece84d8b6d4649698ba7182472dbeb55d1504144c2a57350ddc8c62c1678e"
 
-RPROVIDES:${PN} += "libkmip.so.0()(64bit) \
-libkmip0 \
-libkmip0(aarch-64)"
+RPROVIDES:${PN} += "libkmip.so.0 \
+libkmip0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -32,22 +32,20 @@ PV = "2.1.0"
 RPM_NAME = "libscalapack2_2_1_0-gnu-openmpi4-hpc-2.1.0-9.19.aarch64.rpm"
 RPM_HASH = "0662fc8763c1551d100da3e47e5531977744f886df154102c037d779993fc982148bd6fc5abbac4b61222ef7fdd68af4f3f99455230312cc29573c051ebc618b"
 
-RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-openmpi4-hpc \
-libscalapack2_2_1_0-gnu-openmpi4-hpc \
-libscalapack2_2_1_0-gnu-openmpi4-hpc(aarch-64) \
-scalapack_2_1_0-gnu-openmpi4-hpc"
+RPROVIDES:${PN} += "libblacs2-2-1-0-gnu-openmpi4-hpc \
+libscalapack2-2-1-0-gnu-openmpi4-hpc \
+scalapack-2-1-0-gnu-openmpi4-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 libopenblas-gnu-hpc \
 libopenmpi4-gnu-hpc \
 lua-lmod \
-scalapack_2_1_0-gnu-openmpi4-hpc-module"
+scalapack-2-1-0-gnu-openmpi4-hpc-module"
 
 inherit rpm

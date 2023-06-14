@@ -9,16 +9,16 @@ RPM_HASH = "4f078e2936ca70c0bb665003d25bd24cf8599c2d04026a3ec55adc9d684b58d42e1f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jna-contrib \
-mvn(net.java.dev.jna:jna-platform) \
-mvn(net.java.dev.jna:jna-platform:pom:) \
-mvn(net.java.dev.jna:platform) \
-mvn(net.java.dev.jna:platform:pom:) \
-osgi(com.sun.jna.platform)"
+mvn-net.java.dev.jna-jna-platform \
+mvn-net.java.dev.jna-jna-platform-pom- \
+mvn-net.java.dev.jna-platform \
+mvn-net.java.dev.jna-platform-pom- \
+osgi-com.sun.jna.platform"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jna \
-mvn(net.java.dev.jna:jna) \
-osgi(com.sun.jna)"
+mvn-net.java.dev.jna-jna \
+osgi-com.sun.jna"
 
 inherit rpm

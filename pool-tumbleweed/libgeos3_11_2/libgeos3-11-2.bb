@@ -11,15 +11,14 @@ PV = "3.11.2"
 RPM_NAME = "libgeos3_11_2-3.11.2-2.1.aarch64.rpm"
 RPM_HASH = "24e35ad8777aa1b2c2fdf147292f64db3db25c2c5fe7b57b130803fdbc1adbd23c7a8e812a076fb594a7f5c767c153ccfe61b487202ba49f960e7e5f72d90eaa"
 
-RPROVIDES:${PN} += "libgeos.so.3.11.2()(64bit) \
-libgeos3_11_2 \
-libgeos3_11_2(aarch-64)"
+RPROVIDES:${PN} += "libgeos.so.3.11.2 \
+libgeos3-11-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

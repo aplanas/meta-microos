@@ -18,11 +18,10 @@ PV = "0.3.71"
 RPM_NAME = "pipewire-libjack-0_3-devel-0.3.71-3.1.aarch64.rpm"
 RPM_HASH = "02ae5c1bcf001cd70ed7fe0d9255a3c7c257eb1587a575ae6618594b68371a2e9057bc29976c2c72695705dc1b0d6e411f1a89ba873a52447b759d8ad93323d5"
 
-RPROVIDES:${PN} += "pipewire-libjack-0_3-devel \
-pipewire-libjack-0_3-devel(aarch-64) \
-pkgconfig(jack)"
+RPROVIDES:${PN} += "pipewire-libjack-0-3-devel \
+pkgconfig-jack"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pipewire-libjack-0_3"
+pipewire-libjack-0-3"
 
 inherit rpm

@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipywidgets \
 python3-ipywidgets \
-python3-jupyter_ipywidgets \
-python3.10dist(ipywidgets) \
+python3-jupyter-ipywidgets \
+python3.10dist-ipywidgets \
 python310-ipywidgets \
-python310-jupyter_ipywidgets \
-python3dist(ipywidgets)"
+python310-jupyter-ipywidgets \
+python3dist-ipywidgets"
 
-RDEPENDS:${PN} += "(python310-jupyterlab_widgets >= 3.0.7 with python310-jupyterlab_widgets < 4) \
-(python310-widgetsnbextension >= 4.0.7 with python310-widgetsnbextension < 5) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-jupyterlab-widgets >= 3.0.7 with python310-jupyterlab-widgets < 4 \
+-python310-widgetsnbextension >= 4.0.7 with python310-widgetsnbextension < 5 \
+python-abi \
 python310-ipykernel \
 python310-ipython \
 python310-traitlets"

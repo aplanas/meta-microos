@@ -9,13 +9,13 @@ RPM_HASH = "e46144649d8c7b0e1f30fd981ed9bcd146ad14f1d072b1cc483c56c2faf5b7b21e80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mutmut \
-python3.10dist(mutmut) \
+python3.10dist-mutmut \
 python310-mutmut \
-python3dist(mutmut)"
+python3dist-mutmut"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-glob2 \
 python310-hammett \

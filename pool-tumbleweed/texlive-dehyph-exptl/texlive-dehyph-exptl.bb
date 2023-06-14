@@ -16,9 +16,9 @@ RPM_NAME = "texlive-dehyph-exptl-2023.201.0.0.9svn66390-52.1.noarch.rpm"
 RPM_HASH = "631b9f513d66bfd5014a96a3528cc564e18d1857377dbe0725abaadeb8138c93f640f75674c8e1d1d815260db1b93de6305550d13b4504c2c1d8ddb25683b5ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dehyphn-x-2023-03-06.tex) \
-tex(dehypht-x-2023-03-06.tex) \
-tex(dehyphts-x-2023-03-06.tex) \
+RPROVIDES:${PN} += "tex-dehyphn-x-2023-03-06.tex \
+tex-dehypht-x-2023-03-06.tex \
+tex-dehyphts-x-2023-03-06.tex \
 texlive-dehyph-exptl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,9 +27,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

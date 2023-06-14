@@ -12,20 +12,17 @@ PV = "4.3.4.0"
 RPM_NAME = "rocksndiamonds-4.3.4.0-1.3.aarch64.rpm"
 RPM_HASH = "e95f9891ff0908c6f0238dd11400e03748e744e076bbfd151442dd3a7cd852b32f8aad6e036f4be6a543e6798266aea1479ef01906b5668c92f40cb771b3785b"
 
-RPROVIDES:${PN} += "application() \
-application(rocksndiamonds.desktop) \
-rocksndiamonds \
-rocksndiamonds(aarch-64)"
+RPROVIDES:${PN} += "rocksndiamonds"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libSDL2_net-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libSDL2-net-2.0.so.0 \
+libc.so.6 \
+libm.so.6 \
+libz.so.1 \
 rocksndiamonds-data \
-user(games)"
+user-games"
 
 inherit rpm

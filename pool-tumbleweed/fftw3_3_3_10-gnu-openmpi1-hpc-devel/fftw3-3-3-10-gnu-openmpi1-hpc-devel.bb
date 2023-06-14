@@ -9,17 +9,16 @@ RPM_NAME = "fftw3_3_3_10-gnu-openmpi1-hpc-devel-3.3.10-3.5.aarch64.rpm"
 RPM_HASH = "0710fb4589d9acf46f98988006b45ea07666e98809bd2714f75e9437611bed96871fa5ddf3600739f664124ab0997b47b187fb361b69ff1b0ec8fbeb859caf34"
 
 RPROVIDES:${PN} += "fftw-devel \
-fftw3_3_3_10-gnu-openmpi1-hpc-devel \
-fftw3_3_3_10-gnu-openmpi1-hpc-devel(aarch-64)"
+fftw3-3-3-10-gnu-openmpi1-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3_3_3_10-gnu-openmpi1-hpc \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3-3-3-10-gnu-openmpi1-hpc \
+libgomp.so.1 \
+libm.so.6 \
 openmpi1-gnu-hpc-devel"
 
 inherit rpm

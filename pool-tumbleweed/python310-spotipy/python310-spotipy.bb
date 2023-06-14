@@ -14,11 +14,11 @@ RPM_HASH = "94664f49efef9150d9d04199bd0cf89982c26280516b5e50d76f451b1249dd64acd4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-spotipy \
-python3.10dist(spotipy) \
+python3.10dist-spotipy \
 python310-spotipy \
-python3dist(spotipy)"
+python3dist-spotipy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-redis \
 python310-requests \
 python310-six \

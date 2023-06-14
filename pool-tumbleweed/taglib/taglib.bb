@@ -12,16 +12,15 @@ PV = "1.13"
 RPM_NAME = "taglib-1.13-1.3.aarch64.rpm"
 RPM_HASH = "5576e1ac9547ddc355566c3adee8fa7da82a92b84f59a48fd43326f05059d1da49573cc95adcb39d55c6bbcf505aa43a5f32cacfaf309717e8851f3da7d3eeff"
 
-RPROVIDES:${PN} += "taglib \
-taglib(aarch-64)"
+RPROVIDES:${PN} += "taglib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtag.so.1()(64bit) \
-libtag1 \
-libtag_c.so.0()(64bit) \
-libtag_c0"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libtag-c.so.0 \
+libtag-c0 \
+libtag.so.1 \
+libtag1"
 
 inherit rpm

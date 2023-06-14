@@ -13,21 +13,20 @@ RPM_HASH = "c045d8a8b6cf87ed3a4c43208547d528b89ad9e3ab9b218b25d0e47ed81c09f2a787
 
 RPROVIDES:${PN} += "vi \
 vim \
-vim(aarch-64) \
 vim-base \
+vim-client \
 vim-enhanced \
-vim-python \
-vim_client"
+vim-python"
 
 RDEPENDS:${PN} += "/bin/sh \
 alts \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libperl.so()(64bit) \
-libselinux.so.1()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libc.so.6 \
+libm.so.6 \
+libperl.so \
+libselinux.so.1 \
+libtinfo.so.6 \
 perl \
 vim-data-common \
 xxd"

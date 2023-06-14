@@ -18,12 +18,11 @@ RPM_NAME = "postgresql12-pltcl-12.15-1.2.aarch64.rpm"
 RPM_HASH = "86ad8eb056966274241f6ada186b981782e106130ad5897e62844d58451198a7d60123afeed01b9f1de583b353b38b32737717fcb33cfe4b2e5b6a6329e4f1ad"
 
 RPROVIDES:${PN} += "postgresql-pltcl-implementation \
-postgresql12-pltcl \
-postgresql12-pltcl(aarch-64)"
+postgresql12-pltcl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtcl8.6.so \
 postgresql-pltcl-noarch \
 postgresql12-server \
 tcl"

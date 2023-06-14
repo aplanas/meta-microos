@@ -10,8 +10,8 @@ RPM_HASH = "711ec478f7d18b7d142723b0ff0c14714c527a9913278f1048dbe5c413c0777ec488
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mchange-commons \
-mvn(com.mchange:mchange-commons-java) \
-mvn(com.mchange:mchange-commons-java:pom:)"
+mvn-com.mchange-mchange-commons-java \
+mvn-com.mchange-mchange-commons-java-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

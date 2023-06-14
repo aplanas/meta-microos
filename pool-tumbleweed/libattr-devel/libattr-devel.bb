@@ -12,8 +12,7 @@ RPM_HASH = "235503e8e7ae7ad6aebd5c4c272af1f26446447395eb3fbdbdf91c6ff1a6edbeb7eb
 
 RPROVIDES:${PN} += "attr-devel \
 libattr-devel \
-libattr-devel(aarch-64) \
-pkgconfig(libattr)"
+pkgconfig-libattr"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

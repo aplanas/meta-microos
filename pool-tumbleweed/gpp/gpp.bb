@@ -12,10 +12,9 @@ PV = "2.27"
 RPM_NAME = "gpp-2.27-1.11.aarch64.rpm"
 RPM_HASH = "e8075c405f087dd3d7d5c83c69eef98cf883660563e5625c05ad026c092825989769576dccd423406971df18c98e23171e293bea1d3e32a3fc31d9a1212a6f57"
 
-RPROVIDES:${PN} += "gpp \
-gpp(aarch-64)"
+RPROVIDES:${PN} += "gpp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

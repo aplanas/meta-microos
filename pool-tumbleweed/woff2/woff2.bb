@@ -11,15 +11,14 @@ PV = "1.0.2"
 RPM_NAME = "woff2-1.0.2-4.3.aarch64.rpm"
 RPM_HASH = "612af3aadc6403b096f36ac7f17b5812f050e301de30b04cd3f4ea20f004bef15d659e5d7150510916f535882be0bb556ea94c49d207e3693a7342a3db829651"
 
-RPROVIDES:${PN} += "woff2 \
-woff2(aarch-64)"
+RPROVIDES:${PN} += "woff2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwoff2common.so.1.0.2()(64bit) \
-libwoff2dec.so.1.0.2()(64bit) \
-libwoff2enc.so.1.0.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwoff2common.so.1.0.2 \
+libwoff2dec.so.1.0.2 \
+libwoff2enc.so.1.0.2"
 
 inherit rpm

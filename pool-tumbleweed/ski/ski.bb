@@ -16,9 +16,7 @@ RPM_NAME = "ski-6.13-1.9.noarch.rpm"
 RPM_HASH = "0cd5c375e8ddc3151427dae0ad9547dcdc88690a4eb7634ac5fa941d13b4951bf0e925818550ccc8a76630c83d7bb1697d19747a04dd499043a1b1d854b061d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(ski.desktop) \
-ski"
+RPROVIDES:${PN} += "ski"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 python3 \

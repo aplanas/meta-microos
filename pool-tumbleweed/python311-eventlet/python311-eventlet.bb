@@ -15,13 +15,13 @@ RPM_NAME = "python311-eventlet-0.33.3-4.1.noarch.rpm"
 RPM_HASH = "0d75939a5ce3977d5c71cec1b9162fc9e6c3ef38dfefdca10fa00699e8472ac9cee35933bbcdf10c71dbd8d75d5ddaf9306b57d3b92954a228bf1fd214a237c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(eventlet) \
+RPROVIDES:${PN} += "python3.11dist-eventlet \
 python311-eventlet \
-python3dist(eventlet)"
+python3dist-eventlet"
 
-RDEPENDS:${PN} += "libnss_usrfiles2 \
+RDEPENDS:${PN} += "libnss-usrfiles2 \
 netcfg \
-python(abi) \
+python-abi \
 python311-dnspython \
 python311-greenlet \
 python311-six"

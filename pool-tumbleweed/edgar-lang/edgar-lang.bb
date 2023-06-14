@@ -10,38 +10,38 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edgar-lang \
 edgar-lang-all \
-locale(edgar:ar) \
-locale(edgar:cs) \
-locale(edgar:da) \
-locale(edgar:de) \
-locale(edgar:el) \
-locale(edgar:en_GB) \
-locale(edgar:en_US) \
-locale(edgar:eo) \
-locale(edgar:es) \
-locale(edgar:fa) \
-locale(edgar:fr) \
-locale(edgar:hi) \
-locale(edgar:id) \
-locale(edgar:it) \
-locale(edgar:ja) \
-locale(edgar:ko) \
-locale(edgar:lv) \
-locale(edgar:ms) \
-locale(edgar:nl) \
-locale(edgar:pl) \
-locale(edgar:pt) \
-locale(edgar:pt_BR) \
-locale(edgar:ro) \
-locale(edgar:ru) \
-locale(edgar:sk) \
-locale(edgar:sr) \
-locale(edgar:sv) \
-locale(edgar:ta) \
-locale(edgar:tr) \
-locale(edgar:uk) \
-locale(edgar:vi) \
-locale(edgar:zh_CN)"
+locale-edgar-ar \
+locale-edgar-cs \
+locale-edgar-da \
+locale-edgar-de \
+locale-edgar-el \
+locale-edgar-en-GB \
+locale-edgar-en-US \
+locale-edgar-eo \
+locale-edgar-es \
+locale-edgar-fa \
+locale-edgar-fr \
+locale-edgar-hi \
+locale-edgar-id \
+locale-edgar-it \
+locale-edgar-ja \
+locale-edgar-ko \
+locale-edgar-lv \
+locale-edgar-ms \
+locale-edgar-nl \
+locale-edgar-pl \
+locale-edgar-pt \
+locale-edgar-pt-BR \
+locale-edgar-ro \
+locale-edgar-ru \
+locale-edgar-sk \
+locale-edgar-sr \
+locale-edgar-sv \
+locale-edgar-ta \
+locale-edgar-tr \
+locale-edgar-uk \
+locale-edgar-vi \
+locale-edgar-zh-CN"
 
 RDEPENDS:${PN} += "edgar"
 

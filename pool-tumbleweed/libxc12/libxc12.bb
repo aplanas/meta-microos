@@ -14,18 +14,15 @@ PV = "6.2.0"
 RPM_NAME = "libxc12-6.2.0-1.1.aarch64.rpm"
 RPM_HASH = "7cff205cef847bb573d5f72adc5962e06e0a08c8cef8721cdb6f6119769dac6bcd283397883cf79fee87630fd010f77bd49d7558edb99674df5ef81e78bb5e9f"
 
-RPROVIDES:${PN} += "libxc.so.12()(64bit) \
+RPROVIDES:${PN} += "libxc.so.12 \
 libxc12 \
-libxc12(aarch-64) \
-libxcf03.so.12()(64bit) \
-libxcf90.so.12()(64bit)"
+libxcf03.so.12 \
+libxcf90.so.12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfortran.so.5 \
+libm.so.6"
 
 inherit rpm

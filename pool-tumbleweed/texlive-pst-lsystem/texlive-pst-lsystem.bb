@@ -11,8 +11,8 @@ RPM_NAME = "texlive-pst-lsystem-2023.201.0.0.02svn49556-52.1.noarch.rpm"
 RPM_HASH = "343a42cf38f69f5e1989388270df33786e75f37cea84e32f61b3506bcfc4f776c3b54d57b8575f28d24fc8db87322e53eebbd444f791cfc0cc14f2bf78561181"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-lsystem.sty) \
-tex(pst-lsystem.tex) \
+RPROVIDES:${PN} += "tex-pst-lsystem.sty \
+tex-pst-lsystem.tex \
 texlive-pst-lsystem"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

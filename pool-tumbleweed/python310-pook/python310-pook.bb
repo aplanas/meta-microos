@@ -9,11 +9,11 @@ RPM_HASH = "59c2ad11cbd940a686255d16ffc736c26611c102ce42ad94908c1b683e2a8921f778
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pook \
-python3.10dist(pook) \
+python3.10dist-pook \
 python310-pook \
-python3dist(pook)"
+python3dist-pook"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aiohttp \
 python310-furl \
 python310-jsonschema \

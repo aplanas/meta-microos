@@ -13,11 +13,11 @@ RPM_HASH = "2aaf3019b136e464d53c02a3feed482fdd94f449d9d30ae4852bb6e8c3f07ee16ec6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-WebTest \
-python3.10dist(webtest) \
+python3.10dist-webtest \
 python310-WebTest \
-python3dist(webtest)"
+python3dist-webtest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WebOb \
 python310-beautifulsoup4 \
 python310-waitress"

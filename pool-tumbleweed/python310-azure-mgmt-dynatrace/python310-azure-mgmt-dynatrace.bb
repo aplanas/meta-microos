@@ -11,11 +11,11 @@ RPM_HASH = "02364f8c2bce48573a699e3da582484e91abfd63726c1b2fb3f7b33d7d1559e9df6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-dynatrace \
-python3.10dist(azure-mgmt-dynatrace) \
+python3.10dist-azure-mgmt-dynatrace \
 python310-azure-mgmt-dynatrace \
-python3dist(azure-mgmt-dynatrace)"
+python3dist-azure-mgmt-dynatrace"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

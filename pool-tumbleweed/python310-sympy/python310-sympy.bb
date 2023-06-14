@@ -13,13 +13,13 @@ RPM_HASH = "21de4d3c24f507c37aaf71f0949d9eba8921baba2348189c0281be865823e43c4735
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sympy \
-python3.10dist(sympy) \
+python3.10dist-sympy \
 python310-sympy \
-python3dist(sympy)"
+python3dist-sympy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-mpmath \
 python310-setuptools \
 update-alternatives"

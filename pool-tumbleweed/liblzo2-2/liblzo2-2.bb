@@ -11,12 +11,11 @@ RPM_NAME = "liblzo2-2-2.10-8.2.aarch64.rpm"
 RPM_HASH = "be168bb542731f0495883f0bac5ba59325b2916e37a7ed7ac2956fe27f15e7c18334d61dbc541c2a9f97544cbc276471b8e83b21069e9b2db44dcaf5ee56ba2e"
 
 RPROVIDES:${PN} += "liblzo2-2 \
-liblzo2-2(aarch-64) \
-liblzo2.so.2()(64bit) \
+liblzo2.so.2 \
 lzo"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -14,11 +14,11 @@ RPM_NAME = "python39-Transplant-0.8.11-3.7.noarch.rpm"
 RPM_HASH = "ca687b42ec3b7b373ca04b93239cc36a1c3b2317d20445887a15f7fa41f907a968ec30907ded4694f1d3c8a73decf2ee17cbbae1b73307f8aec0323e859017af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(transplant) \
+RPROVIDES:${PN} += "python3.9dist-transplant \
 python39-Transplant \
-python3dist(transplant)"
+python3dist-transplant"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-msgpack-python \
 python39-numpy \
 python39-pyzmq"

@@ -13,13 +13,12 @@ RPM_NAME = "librpmem-devel-1.11.1-1.8.aarch64.rpm"
 RPM_HASH = "cd63ffd8b02e029eeb331b628b8b3540bcd34578394d390bcde202221bc9e32247b5afde0a7516a0401506935d9b99ead5fb7a5fb16f2bab130a5c9454aad65c"
 
 RPROVIDES:${PN} += "librpmem-devel \
-librpmem-devel(aarch-64) \
-pkgconfig(librpmem)"
+pkgconfig-librpmem"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfabric.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfabric.so.1 \
 librpmem1"
 
 inherit rpm

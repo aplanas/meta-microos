@@ -14,7 +14,7 @@ RPM_HASH = "f95ab5d9b940efd9670e5c137c8fd44c561ca0ffceed1d0309cf5d62f5fe98edb692
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edict-eucjp \
-locale(ja)"
+locale-ja"
 
 RDEPENDS:${PN} += ""
 

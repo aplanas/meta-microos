@@ -9,20 +9,19 @@ RPM_HASH = "0ff6bc66b830d913e1a5196e54be9da9c89b018b054fd432084307308187cd2125e4
 
 RPROVIDES:${PN} += "python3-fastTSNE \
 python3-openTSNE \
-python3.10dist(opentsne) \
+python3.10dist-opentsne \
 python310-fastTSNE \
 python310-openTSNE \
-python310-openTSNE(aarch-64) \
-python3dist(opentsne)"
+python3dist-opentsne"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-numpy \
 python310-scikit-learn \
 python310-scipy"

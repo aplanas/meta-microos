@@ -11,8 +11,7 @@ RPM_HASH = "3f2771fbe2dabb48d87b022fe3b690270b30a9d5e42ee486dc1250ec96f143cbb552
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rpi3 \
 u-boot-rpi4 \
-u-boot-rpiarm64 \
-u-boot-rpiarm64(aarch-64)"
+u-boot-rpiarm64"
 
 RDEPENDS:${PN} += "/bin/sh \
 util-linux"

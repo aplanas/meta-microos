@@ -16,21 +16,20 @@ RPM_NAME = "ruby3.2-rubygem-vagrant-spec-0.0.1.1663083445.c177981.git-1.6.aarch6
 RPM_HASH = "34731bc020040a104f115be7e4ed3e388bed1450835577bdf451d7a9aac349035c10caa991a6def6f268ccdcf2e6df2fe452ae6625b61634061465812578e548"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-vagrant-spec \
-ruby3.2-rubygem-vagrant-spec(aarch-64) \
-rubygem(ruby:3.2.0:vagrant-spec) \
-rubygem(ruby:3.2.0:vagrant-spec:0) \
-rubygem(ruby:3.2.0:vagrant-spec:0.0) \
-rubygem(ruby:3.2.0:vagrant-spec:0.0.1) \
-rubygem(vagrant-spec)"
+rubygem-ruby-3.2.0-vagrant-spec \
+rubygem-ruby-3.2.0-vagrant-spec-0 \
+rubygem-ruby-3.2.0-vagrant-spec-0.0 \
+rubygem-ruby-3.2.0-vagrant-spec-0.0.1 \
+rubygem-vagrant-spec"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \
-ruby(abi) \
-rubygem(ruby:3.2.0:childprocess) \
-rubygem(ruby:3.2.0:log4r:1.1) \
-rubygem(ruby:3.2.0:rspec:3) \
-rubygem(ruby:3.2.0:thor:1) \
+ruby-abi \
+rubygem-ruby-3.2.0-childprocess \
+rubygem-ruby-3.2.0-log4r-1.1 \
+rubygem-ruby-3.2.0-rspec-3 \
+rubygem-ruby-3.2.0-thor-1 \
 update-alternatives"
 
 inherit rpm

@@ -15,15 +15,12 @@ PV = "0.6.3"
 RPM_NAME = "bwm-ng-0.6.3-1.9.aarch64.rpm"
 RPM_HASH = "5697f46bc6b5c425b763fe44156b44cf84550c050cdcebe540958e1f17fcac48b39673dd8ae8b6c8d684b5ad94e33201b8ada5f338e84f11b1384a0d46843cc1"
 
-RPROVIDES:${PN} += "application() \
-application(bwm-ng.desktop) \
-bwm-ng \
-bwm-ng(aarch-64)"
+RPROVIDES:${PN} += "bwm-ng"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libstatgrab.so.10()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libstatgrab.so.10 \
+libtinfo.so.6"
 
 inherit rpm

@@ -12,11 +12,11 @@ RPM_HASH = "02c86827506efdb77695a19748c0482e251e1165bbbb435a9194e4b38becf96b5e05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer \
-config(adminer)"
+config-adminer"
 
 RDEPENDS:${PN} += "/bin/sh \
 adminer-database-support \
-mod_php_any \
+mod-php-any \
 php-iconv \
 php-mbstring \
 php-session \

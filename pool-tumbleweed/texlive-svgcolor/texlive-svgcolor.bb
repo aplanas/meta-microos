@@ -9,7 +9,7 @@ RPM_NAME = "texlive-svgcolor-2023.201.1.0svn15878-57.1.noarch.rpm"
 RPM_HASH = "261b5970bbc3af14162489cf66aada8661eed7736cffd64f784ad8f4f8304c03964cf2d95b67a573fb90c82903c1e95dbb94d1b0a0e86b419481cb44d53011bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(svgcolor.sty) \
+RPROVIDES:${PN} += "tex-svgcolor.sty \
 texlive-svgcolor"
 
 RDEPENDS:${PN} += "/bin/sh \

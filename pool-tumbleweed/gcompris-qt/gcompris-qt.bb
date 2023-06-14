@@ -16,41 +16,28 @@ PV = "3.2"
 RPM_NAME = "gcompris-qt-3.2-1.1.aarch64.rpm"
 RPM_HASH = "54bda48560074ce84bc565c3c0bd1b6b054026908d5c43bd52321119e818b8de5fc3052365110ff39812588a8007d6c7710fa35bd12eb78d42b5fc47de15fbd3"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.gcompris.desktop) \
-gcompris \
-gcompris-qt \
-gcompris-qt(aarch-64) \
-metainfo() \
-metainfo(org.kde.gcompris.appdata.xml)"
+RPROVIDES:${PN} += "gcompris \
+gcompris-qt"
 
 RDEPENDS:${PN} += "gcompris-qt-activities \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
 libQt5Multimedia5 \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Sensors.so.5()(64bit) \
-libQt5Sensors.so.5(Qt_5)(64bit) \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5Sensors.so.5 \
 libQt5Svg5 \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
 libqt5-qtcharts-imports \
 libqt5-qtgraphicaleffects \
 libqt5-qtimageformats \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 qml-box2d"
 
 inherit rpm

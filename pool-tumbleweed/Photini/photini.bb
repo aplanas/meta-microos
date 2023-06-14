@@ -15,22 +15,13 @@ RPM_HASH = "f05222e293c9a6155d18d5dcb44f227fa582d395d9e5c1726e10936ba46363bd2265
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Photini \
-application() \
-application(photini.desktop) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/jpeg2000) \
-mimehandler(image/png) \
-mimehandler(image/svg+xml) \
-mimehandler(image/tiff) \
-mimehandler(image/x-dcraw) \
-python3.10dist(photini) \
-python3dist(photini)"
+python3.10dist-photini \
+python3dist-photini"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
 libgexiv2-2 \
-python(abi) \
+python-abi \
 python3-appdirs \
 python3-gobject \
 python3-gpxpy \
@@ -39,6 +30,6 @@ python3-qt5 \
 python3-qt5-sip \
 python3-requests \
 python3-requests-oauthlib \
-typelib(GExiv2)"
+typelib-GExiv2"
 
 inherit rpm

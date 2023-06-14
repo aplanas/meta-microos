@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-billing-6.0.0.0-1.3.noarch.rpm"
 RPM_HASH = "12854589dad84fb2ce2387c6aaf1c9b6b59ff24f0c59fc4b3bd38b64a7ac1762cb5b8fc998a04ec5a18cf8198921f8e9ffeadf278a5dffddce4801ed88c64fc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-billing) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-billing \
 python39-azure-mgmt-billing \
-python3dist(azure-mgmt-billing)"
+python3dist-azure-mgmt-billing"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

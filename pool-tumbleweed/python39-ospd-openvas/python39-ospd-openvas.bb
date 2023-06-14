@@ -9,14 +9,14 @@ RPM_HASH = "0703de2d01d8648d53d41b8bfee1c4ac28f0f117f3b3b13bb99a38bb5f3982774c02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ospd-openvas \
-python3.9dist(ospd-openvas) \
+python3.9dist-ospd-openvas \
 python39-ospd \
 python39-ospd-openvas \
-python3dist(ospd-openvas)"
+python3dist-ospd-openvas"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-defusedxml \
 python39-gnupg \
 python39-lxml \

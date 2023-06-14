@@ -12,13 +12,12 @@ PV = "1.2.1"
 RPM_NAME = "libNE10_test10-1.2.1-3.13.aarch64.rpm"
 RPM_HASH = "6586bd674740ace858ec5b7d3496da263666444b8533b4a81b8a0d5a46a47d09a6876af26ba82789e28b281706b39ff55c4f29d634ed70c8d4676f35dc8f50d0"
 
-RPROVIDES:${PN} += "libNE10_test.so.10()(64bit) \
-libNE10_test10 \
-libNE10_test10(aarch-64)"
+RPROVIDES:${PN} += "libNE10-test.so.10 \
+libNE10-test10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -15,14 +15,14 @@ RPM_HASH = "162354abbe22884601126e68faebc3cb941a6f977f3639822e99c183c41df07dd653
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-builder \
-python3.10dist(ansible-builder) \
-python3dist(ansible-builder)"
+python3.10dist-ansible-builder \
+python3dist-ansible-builder"
 
-RDEPENDS:${PN} += "(podman or docker) \
+RDEPENDS:${PN} += "-podman or docker \
 /bin/bash \
 /usr/bin/bash \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-bindep \
 python3-jsonschema \

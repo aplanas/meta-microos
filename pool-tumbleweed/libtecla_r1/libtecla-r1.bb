@@ -13,13 +13,12 @@ PV = "1.6.3"
 RPM_NAME = "libtecla_r1-1.6.3-3.15.aarch64.rpm"
 RPM_HASH = "98ade569fd99a0edd14d5b545f7d70613050798802dddf86ea632f53bfa9f646ab582ea5f4e207b96a396ba6dc6f5f66cdcd1ff3496f4e6125528e8574ea6094"
 
-RPROVIDES:${PN} += "libtecla_r.so.1()(64bit) \
-libtecla_r1 \
-libtecla_r1(aarch-64)"
+RPROVIDES:${PN} += "libtecla-r.so.1 \
+libtecla-r1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6"
 
 inherit rpm

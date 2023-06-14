@@ -7,22 +7,16 @@ PV = "20230109"
 RPM_NAME = "libsigscan-tools-20230109-1.4.aarch64.rpm"
 RPM_HASH = "6ef3aa7b1e9ed863e7a6b9d4ef43fd64c2fae3ada3f0e22c3587fe288c54c1161ecc7ef532abbddbafae104920c94d85127b35e11e5151d5f56356fdbe38020d"
 
-RPROVIDES:${PN} += "config(libsigscan-tools) \
-libsigscan-tools \
-libsigscan-tools(aarch-64)"
+RPROVIDES:${PN} += "config-libsigscan-tools \
+libsigscan-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libcfile.so.1()(64bit) \
-libcfile.so.1(V_20220106)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcnotify.so.1()(64bit) \
-libcnotify.so.1(V_20220108)(64bit) \
-libsigscan.so.1()(64bit) \
-libsigscan.so.1(V_20230109)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libcfile.so.1 \
+libclocale.so.1 \
+libcnotify.so.1 \
+libsigscan.so.1 \
 libsigscan1"
 
 inherit rpm

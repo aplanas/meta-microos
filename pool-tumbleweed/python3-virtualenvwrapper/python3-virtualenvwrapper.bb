@@ -22,11 +22,11 @@ RPM_HASH = "78670a474fcd7b75fbf86e4d59bc769ddf2d6d401531495804ad02955204b0191c67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtualenvwrapper \
-python3.10dist(virtualenvwrapper) \
-python3dist(virtualenvwrapper)"
+python3.10dist-virtualenvwrapper \
+python3dist-virtualenvwrapper"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi) \
+python-abi \
 python3-stevedore \
 python3-virtualenv \
 python3-virtualenv-clone"

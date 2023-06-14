@@ -13,19 +13,18 @@ PV = "0.9.72"
 RPM_NAME = "firejail-0.9.72-1.1.aarch64.rpm"
 RPM_HASH = "2b9e8b4e47a06cb40cda0746bc5145002b0ad0950dc0626f27c2d73ac0124018b2bc520293be9d0970e7a0c4195fbb07574c8dd4c491d5f5c187241d368d52dc"
 
-RPROVIDES:${PN} += "config(firejail) \
+RPROVIDES:${PN} += "config-firejail \
 firejail \
-firejail(aarch-64) \
-libpostexecseccomp.so()(64bit) \
-libtrace.so()(64bit) \
-libtracelog.so()(64bit)"
+libpostexecseccomp.so \
+libtrace.so \
+libtracelog.so"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libapparmor.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libapparmor.so.1 \
+libc.so.6 \
 permissions \
 shadow"
 

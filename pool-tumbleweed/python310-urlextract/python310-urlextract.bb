@@ -9,13 +9,13 @@ RPM_HASH = "86d0dbb02b159ad551d1c858a897bd4f816057066ed834b0ea840078c66a069ba460
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-urlextract \
-python3.10dist(urlextract) \
+python3.10dist-urlextract \
 python310-urlextract \
-python3dist(urlextract)"
+python3dist-urlextract"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dnspython \
 python310-filelock \
 python310-idna \

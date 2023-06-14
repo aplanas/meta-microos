@@ -9,10 +9,10 @@ RPM_HASH = "965ce66236fc4d589be776c8cbe16a297e1f410cdd7d9b2b3d281e30365499a4b828
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-logging-parent \
-mvn(org.apache.logging:logging-parent:pom:)"
+mvn-org.apache.logging-logging-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache:apache:pom:)"
+mvn-org.apache-apache-pom-"
 
 inherit rpm

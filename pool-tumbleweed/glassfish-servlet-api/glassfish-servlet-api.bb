@@ -12,15 +12,15 @@ RPM_HASH = "82dd3859aeb09ca21f5d9c0f52bf0bef1356f2a7a8ebe488a2e90f38a7e9dcf29e18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-servlet-api \
-mvn(javax.servlet:javax.servlet-api) \
-mvn(javax.servlet:javax.servlet-api:pom:) \
-mvn(javax.servlet:servlet-api) \
-mvn(javax.servlet:servlet-api:pom:) \
-mvn(org.apache.geronimo.specs:geronimo-servlet_3.0_spec) \
-mvn(org.apache.geronimo.specs:geronimo-servlet_3.0_spec:pom:) \
-mvn(org.eclipse.jetty.orbit:javax.servlet) \
-mvn(org.eclipse.jetty.orbit:javax.servlet:pom:) \
-osgi(javax.servlet-api)"
+mvn-javax.servlet-javax.servlet-api \
+mvn-javax.servlet-javax.servlet-api-pom- \
+mvn-javax.servlet-servlet-api \
+mvn-javax.servlet-servlet-api-pom- \
+mvn-org.apache.geronimo.specs-geronimo-servlet-3.0-spec \
+mvn-org.apache.geronimo.specs-geronimo-servlet-3.0-spec-pom- \
+mvn-org.eclipse.jetty.orbit-javax.servlet \
+mvn-org.eclipse.jetty.orbit-javax.servlet-pom- \
+osgi-javax.servlet-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

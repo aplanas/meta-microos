@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-managementgroups-1.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "1840387dfc80472d5e6e52179c57c7c9dbe74b0f85716a493e1ff83cf36e09dddd24581a865fc945346f29aed1dd8b31e52bf3228e60b276e353a6d415faea9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-managementgroups) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-managementgroups \
 python39-azure-mgmt-managementgroups \
-python3dist(azure-mgmt-managementgroups)"
+python3dist-azure-mgmt-managementgroups"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

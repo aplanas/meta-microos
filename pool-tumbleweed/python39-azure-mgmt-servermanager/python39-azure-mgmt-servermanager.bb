@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-servermanager-2.0.0-4.11.noarch.rpm"
 RPM_HASH = "0997542c92064223672b6e982f57d3a379212593a0a0bca138a8006d5aa349fd1bad9628a6621dc0c637cb6c93782676df186e692a8274354c94dabb79e3cf68"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-servermanager) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-servermanager \
 python39-azure-mgmt-servermanager \
-python3dist(azure-mgmt-servermanager)"
+python3dist-azure-mgmt-servermanager"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-nspkg \
 python39-azure-nspkg \

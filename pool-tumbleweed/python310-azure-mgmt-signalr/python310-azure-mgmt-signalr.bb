@@ -14,12 +14,12 @@ RPM_HASH = "3d807584bd3218a10d2e657a1a1bbb177af5c969d21870cc4e8ec2a3748b6d5adfd8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-signalr \
-python3.10dist(azure-mgmt-signalr) \
+python3.10dist-azure-mgmt-signalr \
 python310-azure-mgmt-signalr \
-python3dist(azure-mgmt-signalr)"
+python3dist-azure-mgmt-signalr"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

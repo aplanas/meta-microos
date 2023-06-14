@@ -9,29 +9,28 @@ PV = "4.13"
 RPM_NAME = "shadow-4.13-6.1.aarch64.rpm"
 RPM_HASH = "ce4f4b46e734fe3c6d5397774fbcb3ecc04b3940ca85145de26c13ce9a55d80df5f32b51e40be2a5dec16c6b242dc4fdba2667bf194c0831b58359996c8dba1b"
 
-RPROVIDES:${PN} += "config(shadow) \
+RPROVIDES:${PN} += "config-shadow \
 pwdutils \
 shadow \
-shadow(aarch-64) \
-useradd_or_adduser_dep"
+useradd-or-adduser-dep"
 
 RDEPENDS:${PN} += "/bin/sh \
-group(root) \
-group(shadow) \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libattr.so.1()(64bit) \
-libaudit.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libeconf.so.0()(64bit) \
-libpam.so.0()(64bit) \
-libpam_misc.so.0()(64bit) \
-libselinux.so.1()(64bit) \
-libsemanage.so.2()(64bit) \
-libsubid.so.4()(64bit) \
-login_defs \
+group-root \
+group-shadow \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libattr.so.1 \
+libaudit.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libeconf.so.0 \
+libpam-misc.so.0 \
+libpam.so.0 \
+libselinux.so.1 \
+libsemanage.so.2 \
+libsubid.so.4 \
+login-defs \
 permissions \
-user(root)"
+user-root"
 
 inherit rpm

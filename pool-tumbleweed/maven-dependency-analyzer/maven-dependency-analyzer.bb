@@ -14,16 +14,16 @@ RPM_HASH = "9dec370d28964e643c3ce065e8b2cdb73b3faa1d9d6c9b7925895b40d211b648332e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-dependency-analyzer \
-mvn(org.apache.maven.shared:maven-dependency-analyzer) \
-mvn(org.apache.maven.shared:maven-dependency-analyzer:pom:)"
+mvn-org.apache.maven.shared-maven-dependency-analyzer \
+mvn-org.apache.maven.shared-maven-dependency-analyzer-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.codehaus.plexus:plexus-component-annotations) \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.ow2.asm:asm)"
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.ow2.asm-asm"
 
 inherit rpm

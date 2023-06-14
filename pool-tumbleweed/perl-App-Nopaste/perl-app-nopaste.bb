@@ -22,36 +22,36 @@ RPM_NAME = "perl-App-Nopaste-1.013-1.15.noarch.rpm"
 RPM_HASH = "ae1be70abb9a22deb69e6a6bbdd6c6d46414a62ebfe9494eef07166d44556b53cd32e2b88b7bec1c83a54c904d10bf8ddf4535916d8bd070d191c96b573c2bbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(App::Nopaste) \
-perl(App::Nopaste::Command) \
-perl(App::Nopaste::Service) \
-perl(App::Nopaste::Service::Codepeek) \
-perl(App::Nopaste::Service::Debian) \
-perl(App::Nopaste::Service::Gist) \
-perl(App::Nopaste::Service::GitLab) \
-perl(App::Nopaste::Service::Mojopaste) \
-perl(App::Nopaste::Service::PastebinCom) \
-perl(App::Nopaste::Service::Pastie) \
-perl(App::Nopaste::Service::Shadowcat) \
-perl(App::Nopaste::Service::Snitch) \
-perl(App::Nopaste::Service::SusePaste) \
-perl(App::Nopaste::Service::Ubuntu) \
-perl(App::Nopaste::Service::ssh) \
+RPROVIDES:${PN} += "perl-App--Nopaste \
+perl-App--Nopaste--Command \
+perl-App--Nopaste--Service \
+perl-App--Nopaste--Service--Codepeek \
+perl-App--Nopaste--Service--Debian \
+perl-App--Nopaste--Service--Gist \
+perl-App--Nopaste--Service--GitLab \
+perl-App--Nopaste--Service--Mojopaste \
+perl-App--Nopaste--Service--PastebinCom \
+perl-App--Nopaste--Service--Pastie \
+perl-App--Nopaste--Service--Shadowcat \
+perl-App--Nopaste--Service--Snitch \
+perl-App--Nopaste--Service--SusePaste \
+perl-App--Nopaste--Service--Ubuntu \
+perl-App--Nopaste--Service--ssh \
 perl-App-Nopaste"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Browser::Open) \
-perl(Class::Load) \
-perl(Getopt::Long::Descriptive) \
-perl(JSON::MaybeXS) \
-perl(LWP::UserAgent) \
-perl(Module::Pluggable) \
-perl(Module::Runtime) \
-perl(Path::Tiny) \
-perl(URI::Escape) \
-perl(WWW::Mechanize) \
-perl(namespace::clean) \
-perl(parent)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Browser--Open \
+perl-Class--Load \
+perl-Getopt--Long--Descriptive \
+perl-JSON--MaybeXS \
+perl-LWP--UserAgent \
+perl-Module--Pluggable \
+perl-Module--Runtime \
+perl-Path--Tiny \
+perl-URI--Escape \
+perl-WWW--Mechanize \
+perl-namespace--clean \
+perl-parent"
 
 inherit rpm

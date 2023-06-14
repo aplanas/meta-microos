@@ -48,13 +48,12 @@ PV = "0.44"
 RPM_NAME = "perl-B-Hooks-OP-Annotation-0.44-3.37.aarch64.rpm"
 RPM_HASH = "8591c827eec4722cbd6562cbab9d615d3b84a7249a143ec3c1cff1edde6b0812bedd32c139acf339ee3f99e9c120438b952091f4e95084113027dfaba263375b"
 
-RPROVIDES:${PN} += "perl(B::Hooks::OP::Annotation) \
-perl(B::Hooks::OP::Annotation::Install::Files) \
-perl-B-Hooks-OP-Annotation \
-perl-B-Hooks-OP-Annotation(aarch-64)"
+RPROVIDES:${PN} += "perl-B--Hooks--OP--Annotation \
+perl-B--Hooks--OP--Annotation--Install--Files \
+perl-B-Hooks-OP-Annotation"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(ExtUtils::Depends)"
+RDEPENDS:${PN} += "libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-ExtUtils--Depends"
 
 inherit rpm

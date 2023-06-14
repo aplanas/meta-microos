@@ -11,7 +11,7 @@ RPM_HASH = "84a1264856a607936f37de67f09b5c9128b6504f88ae435d190c6c7ecc3ec2785514
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty-web-uwsgi \
-config(HyperKitty-web-uwsgi)"
+config-HyperKitty-web-uwsgi"
 
 RDEPENDS:${PN} += "HyperKitty-web \
 python39-uwsgi-python3"

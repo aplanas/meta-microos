@@ -13,10 +13,10 @@ RPM_NAME = "python39-dominate-2.8.0-1.1.noarch.rpm"
 RPM_HASH = "6f01b2444a5c82df0ff0cac35d6b288575d09eaa964c8eae5a8a61c90312faafe7cdfd5cc909d8a1ac7d6ae825edb862fbe4518535042c32184c599b77a6521a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dominate) \
+RPROVIDES:${PN} += "python3.9dist-dominate \
 python39-dominate \
-python3dist(dominate)"
+python3dist-dominate"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

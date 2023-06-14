@@ -10,12 +10,12 @@ RPM_HASH = "7b70bdafc1aa2ee779466c63aefef28324d8798cbfbf62a11f7eeb7c1f9589ae09e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-join \
-mvn(org.apache.lucene:lucene-join) \
-mvn(org.apache.lucene:lucene-join:pom:) \
-osgi(org.apache.lucene.join)"
+mvn-org.apache.lucene-lucene-join \
+mvn-org.apache.lucene-lucene-join-pom- \
+osgi-org.apache.lucene.join"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.lucene:lucene-core)"
+mvn-org.apache.lucene-lucene-core"
 
 inherit rpm

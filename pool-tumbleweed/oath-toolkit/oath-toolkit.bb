@@ -14,12 +14,11 @@ PV = "2.6.7"
 RPM_NAME = "oath-toolkit-2.6.7-3.5.aarch64.rpm"
 RPM_HASH = "1d3aa9fbffabe947a37176c282b39b15e21010eada1e648c1d0cde713dc74aef55b51ad647f22f6224c326d6854fbf52f9633e5e7f4f3f2bfde4d98c032635a4"
 
-RPROVIDES:${PN} += "oath-toolkit \
-oath-toolkit(aarch-64)"
+RPROVIDES:${PN} += "oath-toolkit"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liboath.so.0()(64bit) \
-libpskc.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liboath.so.0 \
+libpskc.so.0"
 
 inherit rpm

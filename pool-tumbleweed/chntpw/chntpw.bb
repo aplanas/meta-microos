@@ -12,10 +12,9 @@ PV = "1.0"
 RPM_NAME = "chntpw-1.0-1.22.aarch64.rpm"
 RPM_HASH = "d049651d653a0e3a03cac5fb81d51c0e9115d6dc8b63c1f8a7499da95fdbf725edb4f8ed0ff84a69d18e8c30df95c7d526de73513cceac192a56795804625295"
 
-RPROVIDES:${PN} += "chntpw \
-chntpw(aarch-64)"
+RPROVIDES:${PN} += "chntpw"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

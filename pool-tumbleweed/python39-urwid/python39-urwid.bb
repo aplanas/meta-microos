@@ -18,14 +18,13 @@ PV = "2.1.2"
 RPM_NAME = "python39-urwid-2.1.2-5.1.aarch64.rpm"
 RPM_HASH = "f8ade9c1cd2a381dba3bd1ceaa442bc9d6923bd35ddef3c432a6c5ed606bd0f7ba429b358a82cca9112fd6cd671a9e8f79a905f107f6823b0ba023323b10fc64"
 
-RPROVIDES:${PN} += "python3.9dist(urwid) \
+RPROVIDES:${PN} += "python3.9dist-urwid \
 python39-urwid \
-python39-urwid(aarch-64) \
-python3dist(urwid)"
+python3dist-urwid"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python39-curses"
 
 inherit rpm

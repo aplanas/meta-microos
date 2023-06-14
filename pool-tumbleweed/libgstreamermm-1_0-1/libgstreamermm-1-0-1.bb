@@ -9,26 +9,25 @@ PV = "1.10.0"
 RPM_NAME = "libgstreamermm-1_0-1-1.10.0-6.9.aarch64.rpm"
 RPM_HASH = "c5de3cd306903cc33fd99f9da1cef432bc7512174c6018c77b5c03274c2a2acb1f10002063f462042ec32e11156b704b1e5f7e0ded5115631f61d1253c9a929f"
 
-RPROVIDES:${PN} += "libgstreamermm-1.0.so.1()(64bit) \
-libgstreamermm-1_0-1 \
-libgstreamermm-1_0-1(aarch-64)"
+RPROVIDES:${PN} += "libgstreamermm-1-0-1 \
+libgstreamermm-1.0.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgiomm-2.4.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstaudio-1.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstnet-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstsdp-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgiomm-2.4.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgobject-2.0.so.0 \
+libgstaudio-1.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstnet-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstsdp-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libsigc-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

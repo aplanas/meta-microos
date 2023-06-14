@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-lepcha \
 noto-sans-lepcha-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

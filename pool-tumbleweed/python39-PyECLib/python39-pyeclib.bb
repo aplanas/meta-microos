@@ -14,14 +14,13 @@ PV = "1.6.1"
 RPM_NAME = "python39-PyECLib-1.6.1-1.7.aarch64.rpm"
 RPM_HASH = "9b52d99e3b78f6250493c3a652ccc7785b04b5763a848cff6471c76848a6f5dbb858a1a8236f406e3450a949264d601e91f3a88a2abc35b828346b1160ae2bc8"
 
-RPROVIDES:${PN} += "python3.9dist(pyeclib) \
+RPROVIDES:${PN} += "python3.9dist-pyeclib \
 python39-PyECLib \
-python39-PyECLib(aarch-64) \
-python3dist(pyeclib)"
+python3dist-pyeclib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liberasurecode.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liberasurecode.so.1 \
+python-abi"
 
 inherit rpm

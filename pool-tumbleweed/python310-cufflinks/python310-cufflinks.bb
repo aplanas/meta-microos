@@ -9,11 +9,11 @@ RPM_HASH = "0f526ead2b2f8a5251fca4a96c2089058cca8c1575738ac63aedb58cd8d304331010
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cufflinks \
-python3.10dist(cufflinks) \
+python3.10dist-cufflinks \
 python310-cufflinks \
-python3dist(cufflinks)"
+python3dist-cufflinks"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-colorlover \
 python310-numpy \
 python310-pandas \

@@ -10,11 +10,11 @@ RPM_HASH = "f8fe7cd5ce37305a93fb6a7c5f3a2dde184dc189754f171afc7f9571cc96e88c9c8e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-proton-client \
-python3.10dist(proton-client) \
+python3.10dist-proton-client \
 python310-proton-client \
-python3dist(proton-client)"
+python3dist-proton-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-bcrypt \
 python310-gnupg \
 python310-pyOpenSSL \

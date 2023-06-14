@@ -10,15 +10,15 @@ RPM_HASH = "b62bfc52145f0cfd6d9de63c104937ad6e5b323f964d23bfa479c9948f03d0f28709
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-contrib \
-config(ant-contrib) \
-mvn(ant-contrib:ant-contrib) \
-mvn(ant-contrib:ant-contrib:pom:)"
+config-ant-contrib \
+mvn-ant-contrib-ant-contrib \
+mvn-ant-contrib-ant-contrib-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
 junit \
-mvn(org.apache.ant:ant) \
+mvn-org.apache.ant-ant \
 xerces-j2"
 
 inherit rpm

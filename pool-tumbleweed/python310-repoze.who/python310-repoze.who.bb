@@ -18,11 +18,11 @@ RPM_HASH = "345e68a993831ab4a4b60bf8758f12646fc79af8a410c7c795391780c238b851b936
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-repoze.who \
-python3.10dist(repoze.who) \
+python3.10dist-repoze.who \
 python310-repoze.who \
-python3dist(repoze.who)"
+python3dist-repoze.who"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WebOb \
 python310-zope.interface"
 

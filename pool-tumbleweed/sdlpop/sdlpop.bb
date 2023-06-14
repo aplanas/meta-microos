@@ -12,15 +12,12 @@ PV = "1.22"
 RPM_NAME = "sdlpop-1.22-1.10.aarch64.rpm"
 RPM_HASH = "00b28ca3f9c5aa9cb89f93e0c5d06f8ed2edffdac522dcd02485af4984c1e280b4b2828b90c8b960e2e8e8d089d1afe16455c6b302f4b7165dd68314ed51d841"
 
-RPROVIDES:${PN} += "application() \
-application(sdlpop.desktop) \
-sdlpop \
-sdlpop(aarch-64)"
+RPROVIDES:${PN} += "sdlpop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -9,23 +9,22 @@ PV = "40"
 RPM_NAME = "ngspice-40-1.1.aarch64.rpm"
 RPM_HASH = "eb10b4cc7f4e6bc11c47e6d4b819bf26dc3c90b739ae8bf359a00e283dfac65d019c5e6e7108e0c644e21c370d5aa8474e3c6f2524548378c5774bf60127d641"
 
-RPROVIDES:${PN} += "ngspice \
-ngspice(aarch-64)"
+RPROVIDES:${PN} += "ngspice"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXft.so.2()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXft.so.2 \
+libXt.so.6 \
+libc.so.6 \
+libfftw3.so.3 \
+libfontconfig.so.1 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libreadline.so.8 \
+libstdc++.so.6 \
+libtinfo.so.6 \
 ngspice-scripts \
 ngspice-xspice-cm"
 

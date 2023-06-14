@@ -15,7 +15,7 @@ RPM_NAME = "texlive-lccaps-2023.201.1.0svn46432-54.1.noarch.rpm"
 RPM_HASH = "a91601f71031333819ecc6bfc66655407152f343d455e6345c7caffa57fb14d00857ec5c6c6097f014bfa3cb0f581a7b6fa0c48e98017f76b8406ba7ad389d01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lccaps.sty) \
+RPROVIDES:${PN} += "tex-lccaps.sty \
 texlive-lccaps"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(iftex.sty) \
-tex(microtype.sty) \
-tex(textcase.sty) \
+tex-iftex.sty \
+tex-microtype.sty \
+tex-textcase.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

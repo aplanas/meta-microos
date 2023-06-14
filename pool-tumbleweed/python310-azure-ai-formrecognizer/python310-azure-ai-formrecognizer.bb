@@ -17,15 +17,15 @@ RPM_HASH = "eaa8da405d51b2b3dc73fe01e603c8f915fb2e72a5e87a4678294f6b6f4193fe6227
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-formrecognizer \
-python3.10dist(azure-ai-formrecognizer) \
+python3.10dist-azure-ai-formrecognizer \
 python310-azure-ai-formrecognizer \
-python3dist(azure-ai-formrecognizer)"
+python3dist-azure-ai-formrecognizer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-ai-nspkg \
 python310-azure-common \
 python310-azure-core \
 python310-msrest \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

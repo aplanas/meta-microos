@@ -9,23 +9,23 @@ RPM_HASH = "775899a75723944a2308cab719d5f62b464f183b2efcbda67c853e3807247f698bba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdata-sharp-devel \
-pkgconfig(gdata-sharp-acl) \
-pkgconfig(gdata-sharp-apps) \
-pkgconfig(gdata-sharp-base) \
-pkgconfig(gdata-sharp-blogger) \
-pkgconfig(gdata-sharp-calendar) \
-pkgconfig(gdata-sharp-codesearch) \
-pkgconfig(gdata-sharp-contacts) \
-pkgconfig(gdata-sharp-core) \
-pkgconfig(gdata-sharp-documents) \
-pkgconfig(gdata-sharp-health) \
-pkgconfig(gdata-sharp-photos) \
-pkgconfig(gdata-sharp-spreadsheets) \
-pkgconfig(gdata-sharp-youtube)"
+pkgconfig-gdata-sharp-acl \
+pkgconfig-gdata-sharp-apps \
+pkgconfig-gdata-sharp-base \
+pkgconfig-gdata-sharp-blogger \
+pkgconfig-gdata-sharp-calendar \
+pkgconfig-gdata-sharp-codesearch \
+pkgconfig-gdata-sharp-contacts \
+pkgconfig-gdata-sharp-core \
+pkgconfig-gdata-sharp-documents \
+pkgconfig-gdata-sharp-health \
+pkgconfig-gdata-sharp-photos \
+pkgconfig-gdata-sharp-spreadsheets \
+pkgconfig-gdata-sharp-youtube"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gdata-sharp \
-pkgconfig(gdata-sharp-acl) \
-pkgconfig(gdata-sharp-core)"
+pkgconfig-gdata-sharp-acl \
+pkgconfig-gdata-sharp-core"
 
 inherit rpm

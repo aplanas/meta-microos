@@ -10,12 +10,11 @@ PV = "1.6"
 RPM_NAME = "libnpth0-1.6-2.10.aarch64.rpm"
 RPM_HASH = "863a7db1ac23ad79a93143cc9f71c7494c201f84bc03d9969c3cbd2f6699404714e096a61e134e7b60ae340e680751595e6bb4af4467626f0027dae39473b8b4"
 
-RPROVIDES:${PN} += "libnpth.so.0()(64bit) \
-libnpth0 \
-libnpth0(aarch-64)"
+RPROVIDES:${PN} += "libnpth.so.0 \
+libnpth0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPM_NAME = "texlive-luamaths-2023.201.1.0svn65400-52.1.noarch.rpm"
 RPM_HASH = "318c9cc5ac285db3c934881e8921645ddfc1433ff548eb931e89213b0af724a39bacd83278431301597a8712c42313c3a67513ae9356043a4a97aae66428a0ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(luamaths.sty) \
+RPROVIDES:${PN} += "tex-luamaths.sty \
 texlive-luamaths"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(luacode.sty) \
-tex(xkeyval.sty) \
+tex-amsmath.sty \
+tex-luacode.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

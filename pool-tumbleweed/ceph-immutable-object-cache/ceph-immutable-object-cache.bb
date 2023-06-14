@@ -7,17 +7,16 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "ceph-immutable-object-cache-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "f8ceb9212d8e09d761c85668a111f96aee17a0d3317824438e6a1794825bb48a18ae5681b41b70056c4b897bb491bc7d37b977b373b56b6ecc001c1447c29b98"
 
-RPROVIDES:${PN} += "ceph-immutable-object-cache \
-ceph-immutable-object-cache(aarch-64)"
+RPROVIDES:${PN} += "ceph-immutable-object-cache"
 
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libceph-common.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-librados.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libceph-common.so.2 \
+libgcc-s.so.1 \
+librados.so.2 \
 librados2 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

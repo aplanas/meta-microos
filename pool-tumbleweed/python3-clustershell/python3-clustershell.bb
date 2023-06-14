@@ -9,11 +9,11 @@ RPM_HASH = "637594b2399dad40ef7536a86c0df657315d12e0ca6492f80acccc1e062c502a2156
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clustershell \
-python3.10dist(clustershell) \
-python3dist(clustershell)"
+python3.10dist-clustershell \
+python3dist-clustershell"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-setuptools"
 

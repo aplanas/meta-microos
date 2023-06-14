@@ -14,13 +14,12 @@ PV = "2.1.0"
 RPM_NAME = "libblacs2-openmpi4-2.1.0-9.11.aarch64.rpm"
 RPM_HASH = "0a988f250de6e0fdb20cdcf724232a5a510aa31dc3f6e5013848abd6ab8760fbea9f48977f45c6aa8c663a646e6438b608083bd564aea15c520604be5a4c6d2a"
 
-RPROVIDES:${PN} += "libblacs.so.2.1.0()(64bit) \
-libblacs2-openmpi4 \
-libblacs2-openmpi4(aarch-64)"
+RPROVIDES:${PN} += "libblacs.so.2.1.0 \
+libblacs2-openmpi4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmpi.so.40()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmpi.so.40"
 
 inherit rpm

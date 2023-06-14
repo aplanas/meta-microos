@@ -12,25 +12,24 @@ RPM_HASH = "ffa4562dfaaf0d9c86043f5f4910a0a19f572bac5a502ae68d6e277b7ab27f412fe0
 
 RPROVIDES:${PN} += "python3-onnx \
 python3-onnx-devel \
-python3.10dist(onnx) \
+python3.10dist-onnx \
 python310-onnx \
-python310-onnx(aarch-64) \
 python310-onnx-devel \
-python3dist(onnx)"
+python3dist-onnx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+libc.so.6 \
+libgcc-s.so.1 \
 libonnx \
-libonnx_proto \
-libonnxifi_dummy \
-libprotobuf-3.21.12.so()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+libonnx-proto \
+libonnxifi-dummy \
+libprotobuf-3.21.12.so \
+libstdc++.so.6 \
+python-abi \
 python310-numpy \
 python310-protobuf \
-python310-typing_extensions \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

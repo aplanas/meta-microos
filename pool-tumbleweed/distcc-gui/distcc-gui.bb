@@ -10,17 +10,14 @@ PV = "3.4"
 RPM_NAME = "distcc-gui-3.4-5.4.aarch64.rpm"
 RPM_HASH = "62e8c41f0967b4a4c9230197c3772a9ac576627ef917cdc336c18cb6d726962814f80633278d49f4d7f9153786c1f4bfca44c2cc5242d7078f8126e5ae6c970e"
 
-RPROVIDES:${PN} += "application() \
-application(distccmon-gnome.desktop) \
-distcc-gui \
-distcc-gui(aarch-64)"
+RPROVIDES:${PN} += "distcc-gui"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

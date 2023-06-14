@@ -11,11 +11,11 @@ RPM_HASH = "945c23b4daf8cadc041e43c80a649d97297520477cf449fca8924bdfbf69783b48d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python3-openid \
-python3.10dist(python3-openid) \
+python3.10dist-python3-openid \
 python310-python3-openid \
-python3dist(python3-openid)"
+python3dist-python3-openid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-defusedxml"
 
 inherit rpm

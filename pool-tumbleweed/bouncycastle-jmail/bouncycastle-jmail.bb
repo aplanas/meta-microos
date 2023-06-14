@@ -13,18 +13,18 @@ RPM_HASH = "c5cdeb8501c2c5262dd404541bfdf97b990e5d0cf842800ba97cb96b975322217a7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-jmail \
-mvn(org.bouncycastle:bcjmail-jdk15) \
-mvn(org.bouncycastle:bcjmail-jdk15:pom:) \
-mvn(org.bouncycastle:bcjmail-jdk15on) \
-mvn(org.bouncycastle:bcjmail-jdk15on:pom:) \
-mvn(org.bouncycastle:bcjmail-jdk15to18) \
-mvn(org.bouncycastle:bcjmail-jdk15to18:pom:) \
-mvn(org.bouncycastle:bcjmail-jdk16) \
-mvn(org.bouncycastle:bcjmail-jdk16:pom:) \
-mvn(org.bouncycastle:bcjmail-jdk18) \
-mvn(org.bouncycastle:bcjmail-jdk18:pom:) \
-mvn(org.bouncycastle:bcjmail-jdk18on) \
-mvn(org.bouncycastle:bcjmail-jdk18on:pom:)"
+mvn-org.bouncycastle-bcjmail-jdk15 \
+mvn-org.bouncycastle-bcjmail-jdk15-pom- \
+mvn-org.bouncycastle-bcjmail-jdk15on \
+mvn-org.bouncycastle-bcjmail-jdk15on-pom- \
+mvn-org.bouncycastle-bcjmail-jdk15to18 \
+mvn-org.bouncycastle-bcjmail-jdk15to18-pom- \
+mvn-org.bouncycastle-bcjmail-jdk16 \
+mvn-org.bouncycastle-bcjmail-jdk16-pom- \
+mvn-org.bouncycastle-bcjmail-jdk18 \
+mvn-org.bouncycastle-bcjmail-jdk18-pom- \
+mvn-org.bouncycastle-bcjmail-jdk18on \
+mvn-org.bouncycastle-bcjmail-jdk18on-pom-"
 
 RDEPENDS:${PN} += "bouncycastle \
 bouncycastle-pkix \
@@ -33,9 +33,9 @@ jakarta-activation \
 jakarta-mail \
 java-headless \
 javapackages-filesystem \
-mvn(com.sun.mail:jakarta.mail) \
-mvn(org.bouncycastle:bcpkix-jdk18on) \
-mvn(org.bouncycastle:bcprov-jdk18on) \
-mvn(org.bouncycastle:bcutil-jdk18on)"
+mvn-com.sun.mail-jakarta.mail \
+mvn-org.bouncycastle-bcpkix-jdk18on \
+mvn-org.bouncycastle-bcprov-jdk18on \
+mvn-org.bouncycastle-bcutil-jdk18on"
 
 inherit rpm

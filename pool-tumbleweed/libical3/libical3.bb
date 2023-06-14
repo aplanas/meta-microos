@@ -11,20 +11,19 @@ RPM_NAME = "libical3-3.0.16-1.5.aarch64.rpm"
 RPM_HASH = "d3de6e5245f3944ca7d9e98116bf05d5e0b367c40f593a970b6a352991838ef36e147c1fc16062c0a5679f0d53f119dd932592fa993d70f1d7021f19c994ad33"
 
 RPROVIDES:${PN} += "libical \
-libical.so.3()(64bit) \
+libical-cxx.so.3 \
+libical.so.3 \
 libical3 \
-libical3(aarch-64) \
-libical_cxx.so.3()(64bit) \
-libicalss.so.3()(64bit) \
-libicalss_cxx.so.3()(64bit) \
-libicalvcal.so.3()(64bit)"
+libicalss-cxx.so.3 \
+libicalss.so.3 \
+libicalvcal.so.3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libstdc++.so.6"
 
 inherit rpm

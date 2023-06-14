@@ -12,17 +12,16 @@ PV = "0.4.14"
 RPM_NAME = "libwireplumber-0_4-0-0.4.14-2.1.aarch64.rpm"
 RPM_HASH = "0cca3d760c5513407d426f48869ba328ba115a920bbe18abdf722894476f2da35175f4285d0ec245195bd3e9681d954efd6ef2934a2e23b85400e3c598b7c173"
 
-RPROVIDES:${PN} += "libwireplumber-0.4.so.0()(64bit) \
-libwireplumber-0_4-0 \
-libwireplumber-0_4-0(aarch-64)"
+RPROVIDES:${PN} += "libwireplumber-0-4-0 \
+libwireplumber-0.4.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libpipewire-0.3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libpipewire-0.3.so.0"
 
 inherit rpm

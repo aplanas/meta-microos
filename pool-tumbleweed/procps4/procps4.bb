@@ -25,14 +25,12 @@ RPM_HASH = "106fecee2f0e4523f55953ccb526f9f871c0c7204ffe3888cc5b955a102de96d508d
 RPROVIDES:${PN} += "/bin/ps \
 procps \
 procps4 \
-procps4(aarch-64) \
 ps"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libproc2.so.0()(64bit) \
-libproc2.so.0(LIBPROC_2)(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libproc2.so.0 \
+libtinfo.so.6"
 
 inherit rpm

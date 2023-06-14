@@ -12,12 +12,12 @@ RPM_NAME = "texlive-mex-2023.201.1.05asvn58661-54.1.noarch.rpm"
 RPM_HASH = "471c1445badab8f6b7b25ab11027f0cab9cd1a642478796784a989ab51738243db92f7b80f4fe5bc4602ab215e98f368c945588bc12ba9e6c82416fc62c28fa9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(texlive-mex) \
-tex(lamex.tex) \
-tex(mex.tex) \
-tex(mex1.tex) \
-tex(mex2.tex) \
-tex(mexconf.tex) \
+RPROVIDES:${PN} += "config-texlive-mex \
+tex-lamex.tex \
+tex-mex.tex \
+tex-mex1.tex \
+tex-mex2.tex \
+tex-mexconf.tex \
 texlive-mex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,9 +26,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-enctex \
 texlive-filesystem \

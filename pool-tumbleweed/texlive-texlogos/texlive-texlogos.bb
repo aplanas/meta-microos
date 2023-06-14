@@ -15,7 +15,7 @@ RPM_NAME = "texlive-texlogos-2023.201.1.3.1svn19083-54.1.noarch.rpm"
 RPM_HASH = "1b016c9cc33426158f3ef9a6ddfc0d39397e6fb08b3d19bd5aa9f349bc897db501191ba1428e2d84cd729227986ebfeb827f8739a5aeaccefac11d21cb091323"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texlogos.sty) \
+RPROVIDES:${PN} += "tex-texlogos.sty \
 texlive-texlogos"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(graphics.sty) \
-tex(ifthen.sty) \
+tex-amsmath.sty \
+tex-graphics.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

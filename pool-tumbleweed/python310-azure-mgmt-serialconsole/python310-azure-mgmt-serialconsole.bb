@@ -14,11 +14,11 @@ RPM_HASH = "f461add214f7377b2d1966d62196b9d9c012510540d32e3ef3ca617c73236078158b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-serialconsole \
-python3.10dist(azure-mgmt-serialconsole) \
+python3.10dist-azure-mgmt-serialconsole \
 python310-azure-mgmt-serialconsole \
-python3dist(azure-mgmt-serialconsole)"
+python3dist-azure-mgmt-serialconsole"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

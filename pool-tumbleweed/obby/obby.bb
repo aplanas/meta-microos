@@ -16,10 +16,9 @@ PV = "0.4.8"
 RPM_NAME = "obby-0.4.8-11.29.aarch64.rpm"
 RPM_HASH = "d95d33eb7553f89f7f2b6239bfe40ba8a2cd757673c9369eafed8c13dc59cb0fa695d778a0e0f647e993e081c1d07e4a2c42cd2fa075998be2c1710fdf61838f"
 
-RPROVIDES:${PN} += "obby \
-obby(aarch-64)"
+RPROVIDES:${PN} += "obby"
 
-RDEPENDS:${PN} += "libobby-0_4-1 \
+RDEPENDS:${PN} += "libobby-0-4-1 \
 obby-lang"
 
 inherit rpm

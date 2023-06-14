@@ -32,7 +32,6 @@ monitoring-plugins-simap \
 monitoring-plugins-spop \
 monitoring-plugins-ssmtp \
 monitoring-plugins-tcp \
-monitoring-plugins-tcp(aarch-64) \
 monitoring-plugins-udp \
 nagios-plugins-clamd \
 nagios-plugins-ftp \
@@ -47,9 +46,9 @@ nagios-plugins-ssmtp \
 nagios-plugins-tcp \
 nagios-plugins-udp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

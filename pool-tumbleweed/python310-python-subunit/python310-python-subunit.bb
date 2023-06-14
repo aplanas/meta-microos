@@ -28,12 +28,12 @@ RPM_HASH = "cb514a49050cb45840129437f6bafc2082659e3c48f2627270674e5bc8bc3b781b49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-subunit \
-python3.10dist(python-subunit) \
+python3.10dist-python-subunit \
 python310-python-subunit \
-python3dist(python-subunit)"
+python3dist-python-subunit"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python310-extras \
 python310-testtools"
 

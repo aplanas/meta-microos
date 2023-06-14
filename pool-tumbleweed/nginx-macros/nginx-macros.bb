@@ -9,27 +9,27 @@ RPM_HASH = "7c4580e9475b7cf454596f28562c4dbbebcd12e68a26634a78e2fab45ba44182c541
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nginx-macros \
-rpm_macro(ngx_access_log) \
-rpm_macro(ngx_conditionals) \
-rpm_macro(ngx_conf_dir) \
-rpm_macro(ngx_conf_path) \
-rpm_macro(ngx_configure) \
-rpm_macro(ngx_doc_dir) \
-rpm_macro(ngx_error_log) \
-rpm_macro(ngx_home) \
-rpm_macro(ngx_lock_path) \
-rpm_macro(ngx_log_dir) \
-rpm_macro(ngx_module_dir) \
-rpm_macro(ngx_pid_path) \
-rpm_macro(ngx_prefix) \
-rpm_macro(ngx_requires) \
-rpm_macro(ngx_sbin_path) \
-rpm_macro(ngx_tmp_fcgi) \
-rpm_macro(ngx_tmp_http) \
-rpm_macro(ngx_tmp_proxy) \
-rpm_macro(ngx_tmp_scgi) \
-rpm_macro(ngx_tmp_uwsgi) \
-rpm_macro(ngx_user_group)"
+rpm-macro-ngx-access-log \
+rpm-macro-ngx-conditionals \
+rpm-macro-ngx-conf-dir \
+rpm-macro-ngx-conf-path \
+rpm-macro-ngx-configure \
+rpm-macro-ngx-doc-dir \
+rpm-macro-ngx-error-log \
+rpm-macro-ngx-home \
+rpm-macro-ngx-lock-path \
+rpm-macro-ngx-log-dir \
+rpm-macro-ngx-module-dir \
+rpm-macro-ngx-pid-path \
+rpm-macro-ngx-prefix \
+rpm-macro-ngx-requires \
+rpm-macro-ngx-sbin-path \
+rpm-macro-ngx-tmp-fcgi \
+rpm-macro-ngx-tmp-http \
+rpm-macro-ngx-tmp-proxy \
+rpm-macro-ngx-tmp-scgi \
+rpm-macro-ngx-tmp-uwsgi \
+rpm-macro-ngx-user-group"
 
 RDEPENDS:${PN} += ""
 

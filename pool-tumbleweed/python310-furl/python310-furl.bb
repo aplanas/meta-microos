@@ -9,11 +9,11 @@ RPM_HASH = "350b3be9f8171e748e70e3ff7e1c64cb4b5a7b6ad8a6741f355e6ede640f829baac7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-furl \
-python3.10dist(furl) \
+python3.10dist-furl \
 python310-furl \
-python3dist(furl)"
+python3dist-furl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-orderedmultidict \
 python310-six"
 

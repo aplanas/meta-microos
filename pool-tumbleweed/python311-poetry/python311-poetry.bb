@@ -8,15 +8,15 @@ RPM_NAME = "python311-poetry-1.5.1-1.1.noarch.rpm"
 RPM_HASH = "447b4ae6f61cddbab1ba2eedf2a95f95f0b09260733d1bda09c191698649acf6004b81ba72d2cbbc88ea7366708bdb23a074bb0f942b7169ab8a143fb8f8a3e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(poetry) \
+RPROVIDES:${PN} += "python3.11dist-poetry \
 python311-poetry \
-python3dist(poetry)"
+python3dist-poetry"
 
-RDEPENDS:${PN} += "(python311-requests-toolbelt >= 0.9.1 with python311-requests-toolbelt < 2) \
-(python311-tomlkit >= 0.11.4 with python311-tomlkit < 1.0) \
+RDEPENDS:${PN} += "-python311-requests-toolbelt >= 0.9.1 with python311-requests-toolbelt < 2 \
+-python311-tomlkit >= 0.11.4 with python311-tomlkit < 1.0 \
 /bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-CacheControl \
 python311-build \
 python311-cleo \

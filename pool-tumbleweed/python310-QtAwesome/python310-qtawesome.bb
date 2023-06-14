@@ -13,13 +13,13 @@ RPM_HASH = "bc3e6d2a9b91a03ce6c22daf385fead4c8ead4560dc3dc99519f5a3977c9cdbcde96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-QtAwesome \
-python3.10dist(qtawesome) \
+python3.10dist-qtawesome \
 python310-QtAwesome \
-python3dist(qtawesome)"
+python3dist-qtawesome"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-QtPy \
 update-alternatives"
 

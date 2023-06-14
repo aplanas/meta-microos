@@ -13,8 +13,7 @@ RPM_HASH = "d263b48cbf0758abb13d53888086eafd50639126b8bee008cb7b0cd763faa04d3051
 RPROVIDES:${PN} += "python3-cairo-devel \
 python3-pycairo-devel \
 python310-cairo-devel \
-python310-pycairo-devel \
-python310-pycairo-devel(aarch-64)"
+python310-pycairo-devel"
 
 RDEPENDS:${PN} += "python310-devel \
 python310-pycairo \

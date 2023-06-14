@@ -13,14 +13,13 @@ PV = "1.8.1"
 RPM_NAME = "python39-python-prctl-1.8.1-2.4.aarch64.rpm"
 RPM_HASH = "6624886e2e767f8c946effc130472da1476f8a5aa61fdc991db7dd9440c094ca072a33d625032703fc92a210c458778d2a60346a776a350a3c3ba4a37b3f5ddb"
 
-RPROVIDES:${PN} += "python3.9dist(python-prctl) \
+RPROVIDES:${PN} += "python3.9dist-python-prctl \
 python39-python-prctl \
-python39-python-prctl(aarch-64) \
-python3dist(python-prctl)"
+python3dist-python-prctl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+python-abi"
 
 inherit rpm

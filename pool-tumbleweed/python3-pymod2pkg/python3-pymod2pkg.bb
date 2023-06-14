@@ -12,11 +12,11 @@ RPM_HASH = "e13cee58de39acecacb04b91027046d81c86eb7835dce014a565f41d8c171be6e172
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymod2pkg \
-python3.10dist(pymod2pkg) \
-python3dist(pymod2pkg)"
+python3.10dist-pymod2pkg \
+python3dist-pymod2pkg"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-distro \
 python3-pbr"
 

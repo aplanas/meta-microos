@@ -11,12 +11,11 @@ RPM_NAME = "libosip2-15-5.3.1-1.2.aarch64.rpm"
 RPM_HASH = "bc6f51f35833f4629a3ac14eb64151d66ea1df37d5e7bd78a06b392241af6b1ab25a36b3c7488dd9d46648449bc78c57101a5efcaa75e988258e8fb8184e3c17"
 
 RPROVIDES:${PN} += "libosip2-15 \
-libosip2-15(aarch-64) \
-libosip2.so.15()(64bit) \
-libosipparser2.so.15()(64bit)"
+libosip2.so.15 \
+libosipparser2.so.15"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -18,13 +18,12 @@ RPM_HASH = "7a37424f7508d5425bea082e69294a2943c73ea45a4ecaed6ba7f9cda506dbd3d02c
 
 RPROVIDES:${PN} += "jpeg \
 jpegtran \
-libjpeg-turbo \
-libjpeg-turbo(aarch-64)"
+libjpeg-turbo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libturbojpeg.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
+libm.so.6 \
+libturbojpeg.so.0"
 
 inherit rpm

@@ -22,8 +22,8 @@ RPM_NAME = "tei_4-2006.8.14-19.16.noarch.rpm"
 RPM_HASH = "8c003d0fb642c50ec13637686110fa4f86297598084176872831ac64f94d296b88a94bf1e2d316e718c3ba04544873936496cf4f0c0b020cbc10145df17d7c27"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(tei_4) \
-tei_4"
+RPROVIDES:${PN} += "config-tei-4 \
+tei-4"
 
 RDEPENDS:${PN} += "/bin/sh \
 /bin/touch \
@@ -33,7 +33,7 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/xmlcatalog \
 awk \
 grep \
-iso_ent \
+iso-ent \
 libxml2 \
 sed \
 sgml-skel \

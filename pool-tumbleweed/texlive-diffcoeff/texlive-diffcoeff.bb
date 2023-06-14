@@ -17,10 +17,10 @@ RPM_NAME = "texlive-diffcoeff-2023.201.5.2svn65676-52.1.noarch.rpm"
 RPM_HASH = "53ae3d4d4e6238a6032c77f31c93599bd5fee4081f0b794702be8a54e4f3451710be469ed669398cd6fe767e55f5b26faf8f18f8d3c26e251c4b30545406ce87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(diffcoeff-doc.def) \
-tex(diffcoeff.sty) \
-tex(diffcoeff4.sty) \
-tex(diffcoeff5.def) \
+RPROVIDES:${PN} += "tex-diffcoeff-doc.def \
+tex-diffcoeff.sty \
+tex-diffcoeff4.sty \
+tex-diffcoeff5.def \
 texlive-diffcoeff"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,11 +29,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(l3keys2e.sty) \
-tex(mleftright.sty) \
-tex(xparse.sty) \
-tex(xtemplate.sty) \
+tex-expl3.sty \
+tex-l3keys2e.sty \
+tex-mleftright.sty \
+tex-xparse.sty \
+tex-xtemplate.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

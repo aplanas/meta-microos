@@ -9,11 +9,11 @@ RPM_HASH = "dfcf189273da42e2e59cfa647d924a17b231466a6c1658f2505314f82d90fd6d5db4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-pandas \
-python3.10dist(django-pandas) \
+python3.10dist-django-pandas \
 python310-django-pandas \
-python3dist(django-pandas)"
+python3dist-django-pandas"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-pandas"
 

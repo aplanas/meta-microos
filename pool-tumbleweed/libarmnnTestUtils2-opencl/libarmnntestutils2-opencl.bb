@@ -13,16 +13,15 @@ PV = "23.02"
 RPM_NAME = "libarmnnTestUtils2-opencl-23.02-2.1.aarch64.rpm"
 RPM_HASH = "1001efbeccbb2d1cc9e133b957f4d366a660e0ad78a8b7bfbba6b3312a4c37254c79779a1f8c10bd75ec47eb90230b7c7d1a7b53d51a0b24f1a25491f6ae89da"
 
-RPROVIDES:${PN} += "libarmnnTestUtils.so.2()(64bit) \
-libarmnnTestUtils2-opencl \
-libarmnnTestUtils2-opencl(aarch-64)"
+RPROVIDES:${PN} += "libarmnnTestUtils.so.2 \
+libarmnnTestUtils2-opencl"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libarmnn.so.32()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libarmnn.so.32 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

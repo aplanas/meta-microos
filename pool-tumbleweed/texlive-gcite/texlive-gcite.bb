@@ -15,7 +15,7 @@ RPM_NAME = "texlive-gcite-2023.201.1.0.1svn15878-52.1.noarch.rpm"
 RPM_HASH = "237e4cb04e6fe1a542adf5dd833045fd9eb4a9c1458f3b1909785617ed4cd9332c29090ef116ad7eb565fdf34fa4dbc7dba05e993ea459dba133fc602781a7d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gcite.sty) \
+RPROVIDES:${PN} += "tex-gcite.sty \
 texlive-gcite"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,7 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(biblatex.sty) \
+tex-biblatex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,16 +11,16 @@ RPM_HASH = "4f4741f814ce9625e865a1eed3c276e38cf1b59aaf110245ed4d5fdeb3156e253a72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip \
-python3.10dist(pip) \
+python3.10dist-pip \
 python310-pip \
-python3dist(pip)"
+python3dist-pip"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
 ca-certificates \
 coreutils \
-python(abi) \
+python-abi \
 python310-setuptools \
 python310-xml"
 

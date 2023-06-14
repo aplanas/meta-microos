@@ -20,22 +20,20 @@ PV = "2.6.4"
 RPM_NAME = "openvpn-2.6.4-1.1.aarch64.rpm"
 RPM_HASH = "688f96a3ca4ab284154231bdbe89a13bb0176c797bfe6302ec14fa608140094926e076e09619b49035b0b1f4ad344e7a11914b0df19f446695b4da7aebe7d25e"
 
-RPROVIDES:${PN} += "openvpn \
-openvpn(aarch-64)"
+RPROVIDES:${PN} += "openvpn"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 iproute2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap-ng.so.0()(64bit) \
-libcrypto.so.3()(64bit) \
-liblz4.so.1()(64bit) \
-liblzo2.so.2()(64bit) \
-libpkcs11-helper.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap-ng.so.0 \
+libcrypto.so.3 \
+liblz4.so.1 \
+liblzo2.so.2 \
+libpkcs11-helper.so.1 \
+libssl.so.3 \
+libsystemd.so.0 \
 pkcs11-helper"
 
 inherit rpm

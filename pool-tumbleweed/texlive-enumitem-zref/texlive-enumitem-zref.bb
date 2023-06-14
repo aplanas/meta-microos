@@ -17,7 +17,7 @@ RPM_NAME = "texlive-enumitem-zref-2023.201.1.8svn21472-53.1.noarch.rpm"
 RPM_HASH = "5d0f22b332792dc1ed46fb22bb6bd59eb89b90eec50ddfb1d6e6309e1b8eec1bcad87397f56dc7ff0e165a39a0649d752892aeace0ae4fef5aa7cd8779179c9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(enumitem-zref.sty) \
+RPROVIDES:${PN} += "tex-enumitem-zref.sty \
 texlive-enumitem-zref"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,17 +26,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(alphalph.sty) \
-tex(engrec.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(gettitlestring.sty) \
-tex(greekctr.sty) \
-tex(kvoptions.sty) \
-tex(ltxcmds.sty) \
-tex(zref-counter.sty) \
-tex(zref-user.sty) \
-tex(zref.sty) \
+tex-alphalph.sty \
+tex-engrec.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-gettitlestring.sty \
+tex-greekctr.sty \
+tex-kvoptions.sty \
+tex-ltxcmds.sty \
+tex-zref-counter.sty \
+tex-zref-user.sty \
+tex-zref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,11 +9,10 @@ PV = "40"
 RPM_NAME = "ngspice-xspice-cm-40-1.1.aarch64.rpm"
 RPM_HASH = "829eaa836c32eac7bcdab40821e63ff8e77f83a85ec0a63c9f483fcb294c0888912870d1238f213c161c1fefbd64ed6a49ece982f20762bc07bf86d110e1f3b1"
 
-RPROVIDES:${PN} += "ngspice-xspice-cm \
-ngspice-xspice-cm(aarch-64)"
+RPROVIDES:${PN} += "ngspice-xspice-cm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

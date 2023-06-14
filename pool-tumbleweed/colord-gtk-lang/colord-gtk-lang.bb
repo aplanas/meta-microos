@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-gtk-lang \
 colord-gtk-lang-all \
-locale(colord-gtk:en_GB)"
+locale-colord-gtk-en-GB"
 
 RDEPENDS:${PN} += "colord-gtk"
 

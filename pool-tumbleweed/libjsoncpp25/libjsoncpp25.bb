@@ -13,15 +13,14 @@ PV = "1.9.5"
 RPM_NAME = "libjsoncpp25-1.9.5-2.3.aarch64.rpm"
 RPM_HASH = "ee877aadb097f93ff8272a7d12ee4b3f6c828aff20f02515d73594d5de03ee8761d06dfa2902a3289613c30e0d9146e2d9448a98876f1e60588bf2d6e141a3dc"
 
-RPROVIDES:${PN} += "libjsoncpp.so.25()(64bit) \
-libjsoncpp25 \
-libjsoncpp25(aarch-64)"
+RPROVIDES:${PN} += "libjsoncpp.so.25 \
+libjsoncpp25"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

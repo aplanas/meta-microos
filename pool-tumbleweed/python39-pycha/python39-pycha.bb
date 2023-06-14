@@ -12,13 +12,13 @@ RPM_NAME = "python39-pycha-0.8.1-3.1.noarch.rpm"
 RPM_HASH = "04848ad59b07e10f4879074577153b391dac572f9f30cc3e4c0171dec18c0fd854b30038bce6d577770181c4b13922ca294026090e6d001445b8f21d405c7d07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pycha) \
+RPROVIDES:${PN} += "python3.9dist-pycha \
 python39-pycha \
-python3dist(pycha)"
+python3dist-pycha"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-cairocffi \
 update-alternatives"
 

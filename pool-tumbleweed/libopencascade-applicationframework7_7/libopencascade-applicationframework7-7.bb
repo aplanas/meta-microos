@@ -10,37 +10,36 @@ PV = "7.7.0"
 RPM_NAME = "libopencascade-applicationframework7_7-7.7.0-1.3.aarch64.rpm"
 RPM_HASH = "b5d671626f7e5ab720a5e66b375e9fe8f055487bb120766171817ff4d4144292f4c99e79f0728347a03539c93fbce3ec8cb100b74c492791d2013bbbc82e12f3"
 
-RPROVIDES:${PN} += "libTKBin.so.7.7()(64bit) \
-libTKBinL.so.7.7()(64bit) \
-libTKBinTObj.so.7.7()(64bit) \
-libTKCAF.so.7.7()(64bit) \
-libTKCDF.so.7.7()(64bit) \
-libTKLCAF.so.7.7()(64bit) \
-libTKStd.so.7.7()(64bit) \
-libTKStdL.so.7.7()(64bit) \
-libTKTObj.so.7.7()(64bit) \
-libTKVCAF.so.7.7()(64bit) \
-libTKXml.so.7.7()(64bit) \
-libTKXmlL.so.7.7()(64bit) \
-libTKXmlTObj.so.7.7()(64bit) \
-libopencascade-applicationframework7_7 \
-libopencascade-applicationframework7_7(aarch-64)"
+RPROVIDES:${PN} += "libTKBin.so.7.7 \
+libTKBinL.so.7.7 \
+libTKBinTObj.so.7.7 \
+libTKCAF.so.7.7 \
+libTKCDF.so.7.7 \
+libTKLCAF.so.7.7 \
+libTKStd.so.7.7 \
+libTKStdL.so.7.7 \
+libTKTObj.so.7.7 \
+libTKVCAF.so.7.7 \
+libTKXml.so.7.7 \
+libTKXmlL.so.7.7 \
+libTKXmlTObj.so.7.7 \
+libopencascade-applicationframework7-7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libTKBO.so.7.7()(64bit) \
-libTKBRep.so.7.7()(64bit) \
-libTKG2d.so.7.7()(64bit) \
-libTKG3d.so.7.7()(64bit) \
-libTKGeomBase.so.7.7()(64bit) \
-libTKMath.so.7.7()(64bit) \
-libTKService.so.7.7()(64bit) \
-libTKTopAlgo.so.7.7()(64bit) \
-libTKV3d.so.7.7()(64bit) \
-libTKernel.so.7.7()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libTKBO.so.7.7 \
+libTKBRep.so.7.7 \
+libTKG2d.so.7.7 \
+libTKG3d.so.7.7 \
+libTKGeomBase.so.7.7 \
+libTKMath.so.7.7 \
+libTKService.so.7.7 \
+libTKTopAlgo.so.7.7 \
+libTKV3d.so.7.7 \
+libTKernel.so.7.7 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

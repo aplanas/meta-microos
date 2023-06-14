@@ -10,7 +10,7 @@ RPM_NAME = "texlive-abstract-2023.201.1.2asvn15878-54.1.noarch.rpm"
 RPM_HASH = "f7dccb2a03f36748521e4b253adbac9467a47b4f05690494ea31b503504a8e335d709f536fde1831e6581f89b899fec8a750dde8e381b01bf3973aca60aaf509"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(abstract.sty) \
+RPROVIDES:${PN} += "tex-abstract.sty \
 texlive-abstract"
 
 RDEPENDS:${PN} += "/bin/sh \

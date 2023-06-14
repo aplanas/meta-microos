@@ -10,11 +10,11 @@ RPM_HASH = "96872ffb32de8acf1835e8397123d6e2b95360887052a61af4249929eeb06a9d57c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kxml \
-mvn(net.sf.kxml:kxml2) \
-mvn(net.sf.kxml:kxml2-min) \
-mvn(net.sf.kxml:kxml2-min:pom:) \
-mvn(net.sf.kxml:kxml2:pom:) \
-osgi(org.kxml2)"
+mvn-net.sf.kxml-kxml2 \
+mvn-net.sf.kxml-kxml2-min \
+mvn-net.sf.kxml-kxml2-min-pom- \
+mvn-net.sf.kxml-kxml2-pom- \
+osgi-org.kxml2"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \

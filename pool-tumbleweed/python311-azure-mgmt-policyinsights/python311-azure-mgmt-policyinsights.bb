@@ -13,12 +13,12 @@ RPM_NAME = "python311-azure-mgmt-policyinsights-1.1.0b4-1.3.noarch.rpm"
 RPM_HASH = "17cf07d7bbcf6920feda3fd0b747e64e7e20234f096a506be3680f440ce372bbf893ab6270380455c98ec0625682929b1373c58f839f2d00d8924156fb3f6f5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-policyinsights) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-policyinsights \
 python311-azure-mgmt-policyinsights \
-python3dist(azure-mgmt-policyinsights)"
+python3dist-azure-mgmt-policyinsights"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

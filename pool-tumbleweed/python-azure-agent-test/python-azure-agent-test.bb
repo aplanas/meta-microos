@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "python-azure-agent-test"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 openssl \
-python(abi) \
+python-abi \
 python-azure-agent \
 python3-pytest"
 

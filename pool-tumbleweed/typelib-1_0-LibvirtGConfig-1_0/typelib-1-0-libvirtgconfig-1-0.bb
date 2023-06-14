@@ -14,13 +14,12 @@ PV = "4.0.0"
 RPM_NAME = "typelib-1_0-LibvirtGConfig-1_0-4.0.0-1.10.aarch64.rpm"
 RPM_HASH = "6e264e0582fa16f174502d60848a5124c5d94e7f4bdef63b128cc49cb6b048959a129f71b65c9844de9441b0d4898fb76827b54676b0c9005f227c8d0ba5d18d"
 
-RPROVIDES:${PN} += "typelib(LibvirtGConfig) \
-typelib-1_0-LibvirtGConfig-1_0 \
-typelib-1_0-LibvirtGConfig-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-LibvirtGConfig-1-0 \
+typelib-LibvirtGConfig"
 
-RDEPENDS:${PN} += "libvirt-gconfig-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(libxml2)"
+RDEPENDS:${PN} += "libvirt-gconfig-1.0.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-libxml2"
 
 inherit rpm

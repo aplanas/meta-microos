@@ -11,10 +11,10 @@ RPM_NAME = "python39-d2to1-0.2.12.post1-2.13.noarch.rpm"
 RPM_HASH = "440db41e5134d33bb135f01d323b2c53b7d5a4a0875b78a6e7bf315ad57040e81306b1739badaac2b4b7c28b47007b8bf5c24f5046b37514883fd9af81c28e70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(d2to1) \
+RPROVIDES:${PN} += "python3.9dist-d2to1 \
 python39-d2to1 \
-python3dist(d2to1)"
+python3dist-d2to1"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

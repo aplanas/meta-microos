@@ -14,13 +14,12 @@ PV = "1.8.7"
 RPM_NAME = "xbindkeys-1.8.7-1.9.aarch64.rpm"
 RPM_HASH = "081ff048fb39f4646b49c85bce23a822d0906409e41bdd20d6e3c1a63cee36461162e69061e4cd0264854b970cb3f69fa738ea47fcea36c99547eafaefcb1a21"
 
-RPROVIDES:${PN} += "xbindkeys \
-xbindkeys(aarch-64)"
+RPROVIDES:${PN} += "xbindkeys"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
 tk"
 
 inherit rpm

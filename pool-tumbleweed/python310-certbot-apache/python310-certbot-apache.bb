@@ -9,13 +9,13 @@ RPM_HASH = "81da5f6777f79d10af619f0179896ff2f7407417fcf895d8626951a744648452b704
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certbot-apache \
-python3.10dist(certbot-apache) \
+python3.10dist-certbot-apache \
 python310-certbot-apache \
-python3dist(certbot-apache)"
+python3dist-certbot-apache"
 
 RDEPENDS:${PN} += "apache2 \
 augeas-lenses \
-python(abi) \
+python-abi \
 python310-acme \
 python310-augeas \
 python310-certbot"

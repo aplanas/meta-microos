@@ -9,16 +9,15 @@ RPM_HASH = "214e8f6d8ec25ae8928a0af8eb6f6c78e34aef8881feb80b1e5629a4ced685ddf307
 
 RPROVIDES:${PN} += "python3-ReportLab \
 python3-reportlab \
-python3.10dist(reportlab) \
+python3.10dist-reportlab \
 python310-ReportLab \
 python310-reportlab \
-python310-reportlab(aarch-64) \
-python3dist(reportlab)"
+python3dist-reportlab"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfreetype.so.6 \
+python-abi \
 python310-Pillow"
 
 inherit rpm

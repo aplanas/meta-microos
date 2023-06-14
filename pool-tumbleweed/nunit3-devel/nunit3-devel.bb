@@ -9,7 +9,7 @@ RPM_HASH = "44fefa6aa63fe8b47a88e05ea99c083d0e6c6d783e12fea360c4b9d2339d567f1f62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nunit3-devel \
-pkgconfig(nunit)"
+pkgconfig-nunit"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 nunit3"

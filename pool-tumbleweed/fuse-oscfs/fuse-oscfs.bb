@@ -13,12 +13,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fuse-oscfs \
 python2-oscfs \
-python3.10dist(oscfs) \
-python3dist(oscfs)"
+python3.10dist-oscfs \
+python3dist-oscfs"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 osc \
-python(abi) \
+python-abi \
 python3-fusepy"
 
 inherit rpm

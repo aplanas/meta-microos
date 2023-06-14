@@ -10,15 +10,15 @@ RPM_HASH = "250654010d975f490045962d147fbde934919fd3256410131e2ec4a0a409062b5378
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-api \
-mvn(org.apache.maven.plugin-tools:maven-plugin-tools-api) \
-mvn(org.apache.maven.plugin-tools:maven-plugin-tools-api:pom:)"
+mvn-org.apache.maven.plugin-tools-maven-plugin-tools-api \
+mvn-org.apache.maven.plugin-tools-maven-plugin-tools-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

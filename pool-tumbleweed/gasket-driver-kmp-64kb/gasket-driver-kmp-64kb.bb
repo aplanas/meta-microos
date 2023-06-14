@@ -9,11 +9,10 @@ RPM_HASH = "8a9764c305cacf6d62625f4ec1d4a42db2525d03b2dfccc1d7d8cc0a7915823ad221
 
 RPROVIDES:${PN} += "gasket-driver-kmp \
 gasket-driver-kmp-64kb \
-gasket-driver-kmp-64kb(aarch-64) \
-gasket-driver-kmp-64kb-k6.3.4_1 \
-kmod(apex.ko) \
-kmod(gasket.ko) \
-multiversion(kernel)"
+gasket-driver-kmp-64kb-k6.3.4-1 \
+kmod-apex.ko \
+kmod-gasket.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

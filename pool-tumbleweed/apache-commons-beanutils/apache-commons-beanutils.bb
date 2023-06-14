@@ -14,18 +14,18 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-beanutils \
 commons-beanutils \
 jakarta-commons-beanutils \
-mvn(commons-beanutils:commons-beanutils) \
-mvn(commons-beanutils:commons-beanutils-bean-collections) \
-mvn(commons-beanutils:commons-beanutils-bean-collections:pom:) \
-mvn(commons-beanutils:commons-beanutils-core) \
-mvn(commons-beanutils:commons-beanutils-core:pom:) \
-mvn(commons-beanutils:commons-beanutils:pom:)"
+mvn-commons-beanutils-commons-beanutils \
+mvn-commons-beanutils-commons-beanutils-bean-collections \
+mvn-commons-beanutils-commons-beanutils-bean-collections-pom- \
+mvn-commons-beanutils-commons-beanutils-core \
+mvn-commons-beanutils-commons-beanutils-core-pom- \
+mvn-commons-beanutils-commons-beanutils-pom-"
 
 RDEPENDS:${PN} += "commons-collections \
 commons-logging \
 java-headless \
 javapackages-filesystem \
-mvn(commons-collections:commons-collections) \
-mvn(commons-logging:commons-logging)"
+mvn-commons-collections-commons-collections \
+mvn-commons-logging-commons-logging"
 
 inherit rpm

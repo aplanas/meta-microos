@@ -10,7 +10,7 @@ RPM_NAME = "texlive-pagenote-2023.201.1.1asvn63708-51.1.noarch.rpm"
 RPM_HASH = "9916e09d71d59a8f95c3608be7801441d352c67e4b0402e61a61beb52ec5ae4b208e6cd10ccc45454ff6c2987137f52087638a60ef79752beb98a565f8bddad5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pagenote.sty) \
+RPROVIDES:${PN} += "tex-pagenote.sty \
 texlive-pagenote"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifmtarg.sty) \
+tex-ifmtarg.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

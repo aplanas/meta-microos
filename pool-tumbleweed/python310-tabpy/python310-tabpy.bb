@@ -9,13 +9,13 @@ RPM_HASH = "823c15163475f4166b197a89b787037f5667119aa77dee74251f759d7ac0240a3ef4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tabpy \
-python3.10dist(tabpy) \
+python3.10dist-tabpy \
 python310-tabpy \
-python3dist(tabpy)"
+python3dist-tabpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Twisted \
 python310-cloudpickle \
 python310-docopt \

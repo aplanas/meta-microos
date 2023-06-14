@@ -10,11 +10,11 @@ RPM_HASH = "3cac2c5725a0816b7f74d42abaf4c229d06a0886ea7d51c80cc462e6ac1d66b5c0b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-blessings \
-python3.10dist(blessings) \
+python3.10dist-blessings \
 python310-blessings \
-python3dist(blessings)"
+python3dist-blessings"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-curses \
 python310-six"
 

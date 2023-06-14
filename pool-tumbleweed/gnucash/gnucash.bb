@@ -19,76 +19,69 @@ PV = "4.14"
 RPM_NAME = "gnucash-4.14-1.3.aarch64.rpm"
 RPM_HASH = "7da133571d30d3b92c79117d5a4fa474b6d92b401a26636c43c96822c8fa9446de9e984ebced673026b08b4c819d7f15e625b7a2c50dff2a87dba6d2cee74af2"
 
-RPROVIDES:${PN} += "application() \
-application(gnucash.desktop) \
-config(gnucash) \
+RPROVIDES:${PN} += "config-gnucash \
 gnucash \
-gnucash(aarch-64) \
-libgnc-app-utils.so()(64bit) \
-libgnc-backend-sql.so()(64bit) \
-libgnc-backend-xml-utils.so()(64bit) \
-libgnc-bi-import.so()(64bit) \
-libgnc-core-utils.so()(64bit) \
-libgnc-csv-export.so()(64bit) \
-libgnc-csv-import.so()(64bit) \
-libgnc-customer-import.so()(64bit) \
-libgnc-engine.so()(64bit) \
-libgnc-generic-import.so()(64bit) \
-libgnc-gnome-search.so()(64bit) \
-libgnc-gnome-utils.so()(64bit) \
-libgnc-gnome.so()(64bit) \
-libgnc-html.so()(64bit) \
-libgnc-ledger-core.so()(64bit) \
-libgnc-locale-tax.so()(64bit) \
-libgnc-log-replay.so()(64bit) \
-libgnc-module.so()(64bit) \
-libgnc-qif-import.so()(64bit) \
-libgnc-register-core.so()(64bit) \
-libgnc-register-gnome.so()(64bit) \
-libgnc-report.so()(64bit) \
-libgncmod-aqbanking.so()(64bit) \
-libgncmod-backend-dbi.so()(64bit) \
-libgncmod-backend-xml.so()(64bit) \
-libgncmod-ofx.so()(64bit) \
-libgncmod-python.so()(64bit) \
-libgnucash-guile.so()(64bit) \
-metainfo() \
-metainfo(gnucash.appdata.xml) \
-mimehandler(application/x-gnucash)"
+libgnc-app-utils.so \
+libgnc-backend-sql.so \
+libgnc-backend-xml-utils.so \
+libgnc-bi-import.so \
+libgnc-core-utils.so \
+libgnc-csv-export.so \
+libgnc-csv-import.so \
+libgnc-customer-import.so \
+libgnc-engine.so \
+libgnc-generic-import.so \
+libgnc-gnome-search.so \
+libgnc-gnome-utils.so \
+libgnc-gnome.so \
+libgnc-html.so \
+libgnc-ledger-core.so \
+libgnc-locale-tax.so \
+libgnc-log-replay.so \
+libgnc-module.so \
+libgnc-qif-import.so \
+libgnc-register-core.so \
+libgnc-register-gnome.so \
+libgnc-report.so \
+libgncmod-aqbanking.so \
+libgncmod-backend-dbi.so \
+libgncmod-backend-xml.so \
+libgncmod-ofx.so \
+libgncmod-python.so \
+libgnucash-guile.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libaqbanking.so.44()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_locale.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbi.so.3()(64bit) \
-libdbi.so.3(ABI_3)(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libguile-3.0.so.1()(64bit) \
-libgwengui-gtk3.so.79()(64bit) \
-libgwenhywfar.so.79()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libofx.so.7()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libsecret-1.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libwebkit2gtk-4.1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libaqbanking.so.44 \
+libboost-filesystem.so.1.82.0 \
+libboost-locale.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libcairo.so.2 \
+libdbi.so.3 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libguile-3.0.so.1 \
+libgwengui-gtk3.so.79 \
+libgwenhywfar.so.79 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libm.so.6 \
+libofx.so.7 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpython3.10.so.1.0 \
+libsecret-1.so.0 \
+libstdc++.so.6 \
+libwebkit2gtk-4.1.so.0 \
+libxml2.so.2 \
+libz.so.1"
 
 inherit rpm

@@ -12,10 +12,10 @@ RPM_HASH = "3afb2f38cfcb0d13c25a49a3a75a5f0e96bf7bb04c6eb363251055fa2eb081043b18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyChart \
-python3.10dist(pychart) \
+python3.10dist-pychart \
 python310-PyChart \
-python3dist(pychart)"
+python3dist-pychart"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

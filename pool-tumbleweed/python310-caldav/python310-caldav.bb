@@ -12,11 +12,11 @@ RPM_HASH = "0a563489c85703c4afa1cabd1d42170c4d442d4c25b7762fcb00ac1e17481a9225c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-caldav \
-python3.10dist(caldav) \
+python3.10dist-caldav \
 python310-caldav \
-python3dist(caldav)"
+python3dist-caldav"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-requests \
 python310-vobject"

@@ -11,30 +11,25 @@ PV = "1.26.1"
 RPM_NAME = "mate-terminal-1.26.1-1.1.aarch64.rpm"
 RPM_HASH = "09a89f57da58cc87b60f5302cb356bf5c8c45cda6a13a0fab7099bc2dcd0d9ef6fce695385dd2eef269fa842a4892ba507e959d99016a6fb12536eadbdecb0af"
 
-RPROVIDES:${PN} += "application() \
-application(mate-terminal.desktop) \
-mate-terminal \
-mate-terminal(aarch-64) \
-metainfo() \
-metainfo(mate-terminal.appdata.xml)"
+RPROVIDES:${PN} += "mate-terminal"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 gsettings-backend-dconf \
-ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdconf.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libvte-2.91.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libSM.so.6 \
+libX11.so.6 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libdconf.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0 \
+libvte-2.91.so.0"
 
 inherit rpm

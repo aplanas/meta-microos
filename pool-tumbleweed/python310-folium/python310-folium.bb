@@ -12,11 +12,11 @@ RPM_HASH = "58d64544988f1bdbd801ae2a5ca84c6272556286c21b44bfd583e45a75c15dd57fc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-folium \
-python3.10dist(folium) \
+python3.10dist-folium \
 python310-folium \
-python3dist(folium)"
+python3dist-folium"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-branca \
 python310-numpy \

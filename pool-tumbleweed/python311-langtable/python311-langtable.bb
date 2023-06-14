@@ -12,11 +12,11 @@ RPM_NAME = "python311-langtable-0.0.61-2.1.noarch.rpm"
 RPM_HASH = "6a1eb61a8e7bcb8476ebc715d5558399d4f3205a5c4fa4cdc05f9c63f39a10c1ef500c0ec9cc5b5ee0edde0430fbd286ae37a86d519f9e0d379cd344ed4e11e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(langtable) \
+RPROVIDES:${PN} += "python3.11dist-langtable \
 python311-langtable \
-python3dist(langtable)"
+python3dist-langtable"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python-langtable-data"
 
 inherit rpm

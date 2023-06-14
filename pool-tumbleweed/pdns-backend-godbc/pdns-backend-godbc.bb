@@ -10,15 +10,14 @@ PV = "4.8.0"
 RPM_NAME = "pdns-backend-godbc-4.8.0-1.1.aarch64.rpm"
 RPM_HASH = "477b9314df68baba0f65df37f264486f665951ca05ad5548dda5951331622cf9ca3b4d6bd72853dcb268676caaed108f3657adf4996f0d7d06173e9eb9fb0817"
 
-RPROVIDES:${PN} += "libgodbcbackend.so()(64bit) \
-pdns-backend-godbc \
-pdns-backend-godbc(aarch-64)"
+RPROVIDES:${PN} += "libgodbcbackend.so \
+pdns-backend-godbc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libodbc.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libodbc.so.2 \
+libstdc++.so.6 \
 pdns"
 
 inherit rpm

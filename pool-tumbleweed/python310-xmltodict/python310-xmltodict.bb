@@ -11,11 +11,11 @@ RPM_HASH = "d71a688d67deea307eb60bad2181372d477bb29c479e061fb66c272788cb6777185c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xmltodict \
-python3.10dist(xmltodict) \
+python3.10dist-xmltodict \
 python310-xmltodict \
-python3dist(xmltodict)"
+python3dist-xmltodict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-xml"
 
 inherit rpm

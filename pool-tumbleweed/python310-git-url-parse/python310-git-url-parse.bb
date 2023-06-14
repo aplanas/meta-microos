@@ -9,11 +9,11 @@ RPM_HASH = "a1dea0a048bcdd1c2f404028ed5dfb661fe1e98f340c86ce4e06d1a2f8d77296295c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-git-url-parse \
-python3.10dist(git-url-parse) \
+python3.10dist-git-url-parse \
 python310-git-url-parse \
-python3dist(git-url-parse)"
+python3dist-git-url-parse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pbr"
 
 inherit rpm

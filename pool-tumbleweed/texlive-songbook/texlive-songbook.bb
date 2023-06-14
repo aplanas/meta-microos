@@ -16,8 +16,8 @@ RPM_NAME = "texlive-songbook-2023.201.4.5svn18136-57.1.noarch.rpm"
 RPM_HASH = "8ffedeac95b9da55d7cb77a94981429a6220d84ea43fb4d4d58d0212f4b8da4e2672f200c55d3d80a732b523fb920e9ca0acde6695147b3975fc371dbee5359e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(conditionals.sty) \
-tex(songbook.sty) \
+RPROVIDES:${PN} += "tex-conditionals.sty \
+tex-songbook.sty \
 texlive-songbook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,10 +26,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(ifthen.sty) \
-tex(multicol.sty) \
-tex(xstring.sty) \
+tex-calc.sty \
+tex-ifthen.sty \
+tex-multicol.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

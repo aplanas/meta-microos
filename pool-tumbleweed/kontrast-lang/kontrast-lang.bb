@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kontrast-lang \
 kontrast-lang-all \
-locale(kontrast:ca) \
-locale(kontrast:ca@valencia) \
-locale(kontrast:cs) \
-locale(kontrast:da) \
-locale(kontrast:de) \
-locale(kontrast:el) \
-locale(kontrast:en_GB) \
-locale(kontrast:es) \
-locale(kontrast:eu) \
-locale(kontrast:fi) \
-locale(kontrast:fr) \
-locale(kontrast:it) \
-locale(kontrast:ja) \
-locale(kontrast:ka) \
-locale(kontrast:ko) \
-locale(kontrast:lt) \
-locale(kontrast:nl) \
-locale(kontrast:nn) \
-locale(kontrast:pa) \
-locale(kontrast:pl) \
-locale(kontrast:pt) \
-locale(kontrast:pt_BR) \
-locale(kontrast:ru) \
-locale(kontrast:sk) \
-locale(kontrast:sl) \
-locale(kontrast:sv) \
-locale(kontrast:tr) \
-locale(kontrast:uk) \
-locale(kontrast:zh_CN) \
-locale(kontrast:zh_TW)"
+locale-kontrast-ca \
+locale-kontrast-ca@valencia \
+locale-kontrast-cs \
+locale-kontrast-da \
+locale-kontrast-de \
+locale-kontrast-el \
+locale-kontrast-en-GB \
+locale-kontrast-es \
+locale-kontrast-eu \
+locale-kontrast-fi \
+locale-kontrast-fr \
+locale-kontrast-it \
+locale-kontrast-ja \
+locale-kontrast-ka \
+locale-kontrast-ko \
+locale-kontrast-lt \
+locale-kontrast-nl \
+locale-kontrast-nn \
+locale-kontrast-pa \
+locale-kontrast-pl \
+locale-kontrast-pt \
+locale-kontrast-pt-BR \
+locale-kontrast-ru \
+locale-kontrast-sk \
+locale-kontrast-sl \
+locale-kontrast-sv \
+locale-kontrast-tr \
+locale-kontrast-uk \
+locale-kontrast-zh-CN \
+locale-kontrast-zh-TW"
 
 RDEPENDS:${PN} += "kontrast"
 

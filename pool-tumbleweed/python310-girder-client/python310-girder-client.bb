@@ -12,13 +12,13 @@ RPM_HASH = "828a32d65269b812685c4f1915b72a1081b68888ca7caddb78ead6c45f2483db704d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-girder-client \
-python3.10dist(girder-client) \
+python3.10dist-girder-client \
 python310-girder-client \
-python3dist(girder-client)"
+python3dist-girder-client"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-diskcache \
 python310-requests \

@@ -8,13 +8,12 @@ PV = "1.5.2"
 RPM_NAME = "xrandr-1.5.2-1.3.aarch64.rpm"
 RPM_HASH = "82e20b84ced84651f39b30fb3f3098372b0497c91d0b2d785ce92b002772b021c3d13c92f83d208431399e5451a8f3d7d7dceb7f9ce7627b27a984e5772a15df"
 
-RPROVIDES:${PN} += "xrandr \
-xrandr(aarch-64)"
+RPROVIDES:${PN} += "xrandr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXrandr.so.2 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

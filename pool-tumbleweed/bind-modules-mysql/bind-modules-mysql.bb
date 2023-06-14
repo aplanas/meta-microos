@@ -13,12 +13,10 @@ PV = "9.18.15"
 RPM_NAME = "bind-modules-mysql-9.18.15-1.1.aarch64.rpm"
 RPM_HASH = "f9c1a3af2b6b9a393974110d65e01056a7391096c7f3a2be6d8f77b04ef1c287728fec1117d0c99c8b902b3356654c714c48a6ceda639ad4f485ae9a5f0ea6fd"
 
-RPROVIDES:${PN} += "bind-modules-mysql \
-bind-modules-mysql(aarch-64)"
+RPROVIDES:${PN} += "bind-modules-mysql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmariadb.so.3"
 
 inherit rpm

@@ -12,12 +12,11 @@ PV = "1.5.3"
 RPM_NAME = "pam-extra-1.5.3-1.1.aarch64.rpm"
 RPM_HASH = "4e6ad846fdc5d5e47d332ecef5927e52cdfff18852a601fbd34914e59fcfb642857038e745a9864936e2ff60288b8dc7549f42862631cb2340eb3f62f11c932b"
 
-RPROVIDES:${PN} += "pam-extra \
-pam-extra(aarch-64) \
-pam:/usr/sbin/pam_timestamp_check"
+RPROVIDES:${PN} += "pam-/usr/sbin/pam-timestamp-check \
+pam-extra"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpam.so.0"
 
 inherit rpm

@@ -15,9 +15,9 @@ RPM_NAME = "texlive-soul-2023.201.3.0svn65908-57.1.noarch.rpm"
 RPM_HASH = "0e9ee86e7e81e846b074cb22f67c07ed1e1e7856be73cf26ecc061f7bcbb67dc5c4c2db5900f372c48d6a3ffb010b9d4016e9e8914019f8ad0ccd9551616595c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(soul-ori.sty) \
-tex(soul.sty) \
-tex(soulutf8.sty) \
+RPROVIDES:${PN} += "tex-soul-ori.sty \
+tex-soul.sty \
+tex-soulutf8.sty \
 texlive-soul"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etexcmds.sty) \
-tex(infwarerr.sty) \
+tex-etexcmds.sty \
+tex-infwarerr.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

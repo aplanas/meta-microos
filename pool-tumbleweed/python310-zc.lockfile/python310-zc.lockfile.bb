@@ -16,11 +16,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zc-lockfile \
 python3-zc.lockfile \
-python3.10dist(zc.lockfile) \
+python3.10dist-zc.lockfile \
 python310-zc-lockfile \
 python310-zc.lockfile \
-python3dist(zc.lockfile)"
+python3dist-zc.lockfile"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -11,17 +11,17 @@ RPM_HASH = "e502a356f9c0512681a87b4ca5d998e087f3ce581e96c5785817125eebcfe273e1dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jsp-api \
-mvn(javax.servlet.jsp:javax.servlet.jsp-api) \
-mvn(javax.servlet.jsp:javax.servlet.jsp-api:pom:) \
-mvn(javax.servlet.jsp:jsp-api) \
-mvn(javax.servlet.jsp:jsp-api:pom:) \
-mvn(javax.servlet:jsp-api) \
-mvn(javax.servlet:jsp-api:pom:) \
-osgi(javax.servlet.jsp)"
+mvn-javax.servlet-jsp-api \
+mvn-javax.servlet-jsp-api-pom- \
+mvn-javax.servlet.jsp-javax.servlet.jsp-api \
+mvn-javax.servlet.jsp-javax.servlet.jsp-api-pom- \
+mvn-javax.servlet.jsp-jsp-api \
+mvn-javax.servlet.jsp-jsp-api-pom- \
+osgi-javax.servlet.jsp"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.el:javax.el-api) \
-mvn(javax.servlet:javax.servlet-api)"
+mvn-javax.el-javax.el-api \
+mvn-javax.servlet-javax.servlet-api"
 
 inherit rpm

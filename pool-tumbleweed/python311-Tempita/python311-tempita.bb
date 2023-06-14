@@ -13,10 +13,10 @@ RPM_NAME = "python311-Tempita-0.5.2+git.1630978236.a30af77-1.12.noarch.rpm"
 RPM_HASH = "394dc9db7c9f345ffb32ecb4c556167a3cc5f434dd3df5414accb00eed684951e1244f349325331a68fe8e64366d998203ec5e10d7ffe049abdc0d3b5f6d5ea0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(tempita) \
+RPROVIDES:${PN} += "python3.11dist-tempita \
 python311-Tempita \
-python3dist(tempita)"
+python3dist-tempita"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -25,7 +25,7 @@ RPM_NAME = "texlive-bibarts-2023.201.2.5svn64579-53.1.noarch.rpm"
 RPM_HASH = "eafd18d3ac4bb89b859aff225cf9cf9760eab3f64ef31c5f0be587aae9ca1e28debd18a66888fecd923bae1954617f612e309cb67e48eea73dab674822fe7a46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bibarts.sty) \
+RPROVIDES:${PN} += "tex-bibarts.sty \
 texlive-bibarts"
 
 RDEPENDS:${PN} += "/bin/sh \

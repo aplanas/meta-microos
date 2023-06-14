@@ -10,10 +10,10 @@ RPM_NAME = "python311-EditorConfig-0.12.3+git.1630438300.f43312a-1.10.noarch.rpm
 RPM_HASH = "d3b54ea7db93d0f99291a97850cd9b0fe75bfcdee4df5a53e6492ba5a1f3d3dda08802fe369811ddaf5cf92eed11cb9e73f5ada09f16ea575fe62e55f40bc60d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(editorconfig) \
+RPROVIDES:${PN} += "python3.11dist-editorconfig \
 python311-EditorConfig \
-python3dist(editorconfig)"
+python3dist-editorconfig"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

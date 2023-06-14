@@ -8,14 +8,13 @@ PV = "2.5.1"
 RPM_NAME = "libattr1-2.5.1-1.20.aarch64.rpm"
 RPM_HASH = "f81e0b8c5922a8a459ffe6803e5ea6554112ae0d2f5dbd0e4888c2e2e44725daaa3b440b9143f53c599e5be62dd180e2987b7224235745b6352b209b78d408cd"
 
-RPROVIDES:${PN} += "config(libattr1) \
+RPROVIDES:${PN} += "config-libattr1 \
 libattr \
-libattr.so.1()(64bit) \
-libattr1 \
-libattr1(aarch-64)"
+libattr.so.1 \
+libattr1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

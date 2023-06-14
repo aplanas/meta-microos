@@ -13,10 +13,9 @@ RPM_NAME = "c-ares-devel-1.19.1-1.1.aarch64.rpm"
 RPM_HASH = "b36eb6d7e7a79f2dfed0ac40e2505dedd5d7c55c9a06061e7219102891d945241482c6b16ca6d4eb7e7b2633f6ff8c9a7b310d03bb0f0c0e8984bf54cfe05da7"
 
 RPROVIDES:${PN} += "c-ares-devel \
-c-ares-devel(aarch-64) \
-cmake(c-ares) \
+cmake-c-ares \
 libcares-devel \
-pkgconfig(libcares)"
+pkgconfig-libcares"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

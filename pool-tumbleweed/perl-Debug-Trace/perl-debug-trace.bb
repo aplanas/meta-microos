@@ -23,9 +23,9 @@ RPM_NAME = "perl-Debug-Trace-0.05-3.26.noarch.rpm"
 RPM_HASH = "708e7a2aaa3d8f0211dded08e0db1f5e8efc0741a39b5fe4ada55487b24940820c2393fb52f8d791df44ce54fe36c7d5bf3781dbc97c374353d902f08a17a814"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Debug::Trace) \
+RPROVIDES:${PN} += "perl-Debug--Trace \
 perl-Debug-Trace"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

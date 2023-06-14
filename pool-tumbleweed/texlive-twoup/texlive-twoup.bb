@@ -14,7 +14,7 @@ RPM_NAME = "texlive-twoup-2023.201.1.3svn15878-52.1.noarch.rpm"
 RPM_HASH = "bb67b83f9a8bfc33e7683e8741aa0ba09b96b3cbaa57fdfe2383f27e5a3621c6e04367c8f20f792e08be297e50d6bb32ce143a4f3db7b527553e6127f2e0fa30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(twoup.sty) \
+RPROVIDES:${PN} += "tex-twoup.sty \
 texlive-twoup"
 
 RDEPENDS:${PN} += "/bin/sh \

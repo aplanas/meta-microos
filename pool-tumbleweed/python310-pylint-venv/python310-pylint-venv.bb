@@ -9,12 +9,10 @@ RPM_HASH = "965c90916eab08f806c14f8459bff728c3d97ab71ea63ad14db455268aca44d78e02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylint-venv \
-python3-pylint_venv \
-python3.10dist(pylint-venv) \
+python3.10dist-pylint-venv \
 python310-pylint-venv \
-python310-pylint_venv \
-python3dist(pylint-venv)"
+python3dist-pylint-venv"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

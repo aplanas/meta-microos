@@ -11,11 +11,11 @@ RPM_HASH = "30e7eae6e64a4399418ae651a5654f27a1033fe7a4285de66b9cebcbe1ea1a424beb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-crochet \
-python3.10dist(crochet) \
+python3.10dist-crochet \
 python310-crochet \
-python3dist(crochet)"
+python3dist-crochet"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Twisted \
 python310-wrapt"
 

@@ -8,15 +8,14 @@ PV = "1.54.06"
 RPM_NAME = "libxmlrpc_packetsocket8-1.54.06-1.3.aarch64.rpm"
 RPM_HASH = "93b1646b24c68d8df75acff3fe4b47a2bf57394fc867619a48ee30a0517e611bb09d356247a429c9257e0a1437761fc242e42ed82949719d16eb22de701a0ac6"
 
-RPROVIDES:${PN} += "libxmlrpc_packetsocket.so.8()(64bit) \
-libxmlrpc_packetsocket8 \
-libxmlrpc_packetsocket8(aarch-64)"
+RPROVIDES:${PN} += "libxmlrpc-packetsocket.so.8 \
+libxmlrpc-packetsocket8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxmlrpc_util++.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxmlrpc-util++.so.8"
 
 inherit rpm

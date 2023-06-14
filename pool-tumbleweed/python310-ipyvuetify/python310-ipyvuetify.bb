@@ -9,11 +9,11 @@ RPM_HASH = "9273d2a3607024bad4a094837cfa387deaecc8970e412ad7d26b7d180af63cc6c48a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyvuetify \
-python3.10dist(ipyvuetify) \
+python3.10dist-ipyvuetify \
 python310-ipyvuetify \
-python3dist(ipyvuetify)"
+python3dist-ipyvuetify"
 
-RDEPENDS:${PN} += "(python310-ipyvue >= 1.7 with python310-ipyvue < 2) \
-python(abi)"
+RDEPENDS:${PN} += "-python310-ipyvue >= 1.7 with python310-ipyvue < 2 \
+python-abi"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "101b2b5ac0fd1abd047dcbcce52136ce1bc5b6027bca20bc0beb8061222ddc281f12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-mypy \
-python3.10dist(pytest-mypy) \
+python3.10dist-pytest-mypy \
 python310-pytest-mypy \
-python3dist(pytest-mypy)"
+python3dist-pytest-mypy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-filelock \
 python310-mypy \

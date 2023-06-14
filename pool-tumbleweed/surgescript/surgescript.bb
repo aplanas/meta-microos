@@ -25,13 +25,10 @@ PV = "0.5.6.1"
 RPM_NAME = "surgescript-0.5.6.1-2.3.aarch64.rpm"
 RPM_HASH = "abebb7fd0944025b7e836db6f8cc504945e096b2ae899fb46703cef4e6fb817d0775604c6a1bdef85c9bcb2cc5d8c2979d0a8cef867f23343a36ac799f58f2f2"
 
-RPROVIDES:${PN} += "metainfo() \
-metainfo(surgescript.appdata.xml) \
-surgescript \
-surgescript(aarch-64)"
+RPROVIDES:${PN} += "surgescript"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsurgescript.so.0.5.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsurgescript.so.0.5.6"
 
 inherit rpm

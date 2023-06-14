@@ -13,29 +13,26 @@ PV = "6.0"
 RPM_NAME = "libavformat60-6.0-2.2.aarch64.rpm"
 RPM_HASH = "bb5d33264b05d734a3f842161cf1d05bb8717b06080a9e6acde6ae8f6062b4db6eaf958e23c030b222c54e0984a61a498a5a94516b5f882b54d6b47e61052148"
 
-RPROVIDES:${PN} += "libavformat.so.60()(64bit) \
-libavformat60 \
-libavformat60(aarch-64)"
+RPROVIDES:${PN} += "libavformat.so.60 \
+libavformat60"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libavcodec.so.60()(64bit) \
+ld-linux-aarch64.so.1 \
+libavcodec.so.60 \
 libavcodec60 \
-libavutil.so.58()(64bit) \
+libavutil.so.58 \
 libavutil58 \
-libbluray.so.2()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libm.so.6()(64bit) \
-libopenmpt.so.0()(64bit) \
-librist.so.4()(64bit) \
-libsrt.so.1.5()(64bit) \
-libssh.so.4()(64bit) \
-libssh.so.4(LIBSSH_4_5_0)(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit) \
-libzmq.so.5()(64bit)"
+libbluray.so.2 \
+libbz2.so.1 \
+libc.so.6 \
+libgnutls.so.30 \
+libm.so.6 \
+libopenmpt.so.0 \
+librist.so.4 \
+libsrt.so.1.5 \
+libssh.so.4 \
+libxml2.so.2 \
+libz.so.1 \
+libzmq.so.5"
 
 inherit rpm

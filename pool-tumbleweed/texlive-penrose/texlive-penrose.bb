@@ -14,7 +14,7 @@ RPM_NAME = "texlive-penrose-2023.201.1.4svn57508-51.1.noarch.rpm"
 RPM_HASH = "8f2f7211e39d08cdd0527989dab682db9b4df73c47b63f3752b679f130145dd35c34d607c3a627343d6238e2035c3ed6512bf52b02ba510e450af58f5137834c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibrarypenrose.code.tex) \
+RPROVIDES:${PN} += "tex-tikzlibrarypenrose.code.tex \
 texlive-penrose"
 
 RDEPENDS:${PN} += "/bin/sh \

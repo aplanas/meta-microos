@@ -10,8 +10,8 @@ RPM_HASH = "e706e8a21115737b6641548a3166d3015cd6e19184180f0406afd5900ed057fcda2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-license2 \
-mvn(org.eclipse.license:org.eclipse.license) \
-osgi(org.eclipse.license)"
+mvn-org.eclipse.license-org.eclipse.license \
+osgi-org.eclipse.license"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

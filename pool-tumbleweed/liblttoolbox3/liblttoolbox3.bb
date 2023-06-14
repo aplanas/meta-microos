@@ -10,18 +10,17 @@ PV = "3.7.1"
 RPM_NAME = "liblttoolbox3-3.7.1-1.5.aarch64.rpm"
 RPM_HASH = "72351ca54ab54688a5873d32d241b594e989b8aa4832e4e388a8b8e73879543a5b76a73d4229061798074bf0d7e3b534c8aaf11601a941e29f0ee1c9ec9b78ee"
 
-RPROVIDES:${PN} += "liblttoolbox.so.3()(64bit) \
-liblttoolbox3 \
-liblttoolbox3(aarch-64)"
+RPROVIDES:${PN} += "liblttoolbox.so.3 \
+liblttoolbox3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicuio.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicuio.so.73 \
+libicuuc.so.73 \
+libm.so.6 \
+libstdc++.so.6 \
+libxml2.so.2"
 
 inherit rpm

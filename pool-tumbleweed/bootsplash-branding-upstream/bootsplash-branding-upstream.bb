@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootsplash-branding \
 bootsplash-branding-upstream \
-config(bootsplash-branding-upstream)"
+config-bootsplash-branding-upstream"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \

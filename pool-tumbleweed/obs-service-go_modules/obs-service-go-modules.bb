@@ -19,7 +19,7 @@ RPM_NAME = "obs-service-go_modules-0.6.3-1.1.noarch.rpm"
 RPM_HASH = "6f641b0e7b374009b707d379575189158c1a0f04e1ca74aefc2b6f68bf27a5e0489ec0f3bdf398f273b370c69efbe79fed88759fc767df58ba693cc5a87a9a10"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "obs-service-go_modules"
+RPROVIDES:${PN} += "obs-service-go-modules"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 go \

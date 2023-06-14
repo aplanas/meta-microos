@@ -14,28 +14,23 @@ PV = "4.6.1"
 RPM_NAME = "qalculate-gtk-4.6.1-1.1.aarch64.rpm"
 RPM_HASH = "78ec4a1c8583b3eee952b5556a93dde3274c3a3b18fb36af79b7f3ef0fb1f1ee541aeb74a84ba58f86bc28dab0ef8f01ce44e811005166d6e407611aa664ecdc"
 
-RPROVIDES:${PN} += "application() \
-application(qalculate-gtk.desktop) \
-metainfo() \
-metainfo(qalculate-gtk.appdata.xml) \
-qalculate-gtk \
-qalculate-gtk(aarch-64)"
+RPROVIDES:${PN} += "qalculate-gtk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libqalculate.so.22()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libqalculate.so.22 \
+libstdc++.so.6"
 
 inherit rpm

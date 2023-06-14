@@ -12,7 +12,7 @@ RPM_HASH = "84da07b16465918eb6d62c8fa514d4a159c626d3acf032bedcf57749c1b90e498a9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "valgrind-client-headers \
-valgrind-devel:/usr/include/valgrind/valgrind.h"
+valgrind-devel-/usr/include/valgrind/valgrind.h"
 
 RDEPENDS:${PN} += ""
 

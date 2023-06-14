@@ -16,13 +16,13 @@ RPM_NAME = "python311-wheel-0.40.0-1.1.noarch.rpm"
 RPM_HASH = "61ab6967c32c6a6e4d80dd4ce770cc342201a3a82a25104df2d6dd14939256d998c324bdcb6b9d0b9bdaf0413316dd349314ffca13869379bf00c577e2678b32"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(wheel) \
+RPROVIDES:${PN} += "python3.11dist-wheel \
 python311-wheel \
-python3dist(wheel)"
+python3dist-wheel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \
-python(abi)"
+python-abi"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-mgmt-azureadb2c-1.0.0b1-1.11.noarch.rpm"
 RPM_HASH = "328bb0e725fe5400b77338a0d54c56fa1757162ae9a15ec5cff3ede8d59b7889903457535ed5dd1e48176244b7c3e5b57bbb47ea4acd8cb38b7dae2c75e784d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-azureadb2c) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-azureadb2c \
 python311-azure-mgmt-azureadb2c \
-python3dist(azure-mgmt-azureadb2c)"
+python3dist-azure-mgmt-azureadb2c"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

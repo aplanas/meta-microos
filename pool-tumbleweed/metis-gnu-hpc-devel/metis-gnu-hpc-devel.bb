@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "metis-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-metis_5_1_0-gnu-hpc-devel"
+metis-5-1-0-gnu-hpc-devel"
 
 inherit rpm

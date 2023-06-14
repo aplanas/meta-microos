@@ -15,9 +15,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-discovery \
 jakarta-commons-discovery \
-mvn(commons-discovery:commons-discovery) \
-mvn(commons-discovery:commons-discovery:pom:) \
-osgi(org.apache.commons.discovery)"
+mvn-commons-discovery-commons-discovery \
+mvn-commons-discovery-commons-discovery-pom- \
+osgi-org.apache.commons.discovery"
 
 RDEPENDS:${PN} += "commons-logging \
 java-headless \

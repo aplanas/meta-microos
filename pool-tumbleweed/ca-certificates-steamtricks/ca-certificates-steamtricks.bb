@@ -12,7 +12,7 @@ RPM_HASH = "390aead907c9cbf0084649760453bf13b60f6c06fb9c1365ab64f5d6aa396eccb3d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-steamtricks \
-steamtricks-data-252950-Rocket_League"
+steamtricks-data-252950-Rocket-League"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

@@ -10,12 +10,12 @@ RPM_NAME = "python311-azure-mgmt-recoveryservicessiterecovery-1.0.0.0-2.2.noarch
 RPM_HASH = "9d9fe87afcbb4fc913a803cfd46a074f2310b1bd2d99fdcf41e61455075892dd3e29418f64f26c74dfb841105ddf480e2f14415681d5ef79c9398f9c08c31698"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-recoveryservicessiterecovery) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-recoveryservicessiterecovery \
 python311-azure-mgmt-recoveryservicessiterecovery \
-python3dist(azure-mgmt-recoveryservicessiterecovery)"
+python3dist-azure-mgmt-recoveryservicessiterecovery"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

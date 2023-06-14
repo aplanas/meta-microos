@@ -39,18 +39,18 @@ RPM_NAME = "perl-HTML-Tree-5.07-1.20.noarch.rpm"
 RPM_HASH = "e81be948a94c379d370f05590ff166e7bd1c7f7dbe17955da39830ca9966210ef701c9e07bbaff4c24efa06c0bfcd996891f3736307cee062855141a9d0ec329"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::AsSubs) \
-perl(HTML::Element) \
-perl(HTML::Element::traverse) \
-perl(HTML::Parse) \
-perl(HTML::Tree) \
-perl(HTML::TreeBuilder) \
+RPROVIDES:${PN} += "perl-HTML--AsSubs \
+perl-HTML--Element \
+perl-HTML--Element--traverse \
+perl-HTML--Parse \
+perl-HTML--Tree \
+perl-HTML--TreeBuilder \
 perl-HTML-Tree"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(HTML::Entities) \
-perl(HTML::Parser) \
-perl(HTML::Tagset)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-HTML--Entities \
+perl-HTML--Parser \
+perl-HTML--Tagset"
 
 inherit rpm

@@ -9,12 +9,11 @@ PV = "1.1.5"
 RPM_NAME = "xkbevd-1.1.5-1.2.aarch64.rpm"
 RPM_HASH = "bd6f467862f35dc2e57879afaf6600f855a5d8290e6c294912f1054f9686b081b2a5708f39588cbdba50d817285959a3f5545a6ae5f2b6aaad5a9eaf2f75f096"
 
-RPROVIDES:${PN} += "xkbevd \
-xkbevd(aarch-64)"
+RPROVIDES:${PN} += "xkbevd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libxkbfile.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libxkbfile.so.1"
 
 inherit rpm

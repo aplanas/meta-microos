@@ -8,16 +8,15 @@ PV = "0.0.4"
 RPM_NAME = "libpagemaker-tools-0.0.4-1.29.aarch64.rpm"
 RPM_HASH = "d650af919fdecae9ad4ac37012d78431a5b3e6c52b77359d981fa5a658f51e446de97f12295c7ffdfd4ffb69ecf9d933961f0bf2941563bdad49ad36c9617e11"
 
-RPROVIDES:${PN} += "libpagemaker-tools \
-libpagemaker-tools(aarch-64)"
+RPROVIDES:${PN} += "libpagemaker-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpagemaker-0.0.so.0()(64bit) \
-librevenge-0.0.so.0()(64bit) \
-librevenge-generators-0.0.so.0()(64bit) \
-librevenge-stream-0.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpagemaker-0.0.so.0 \
+librevenge-0.0.so.0 \
+librevenge-generators-0.0.so.0 \
+librevenge-stream-0.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

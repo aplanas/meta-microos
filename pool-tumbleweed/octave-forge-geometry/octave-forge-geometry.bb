@@ -10,15 +10,14 @@ PV = "4.0.0"
 RPM_NAME = "octave-forge-geometry-4.0.0-2.8.aarch64.rpm"
 RPM_HASH = "491eb1b925724d265e0adb12033d3517298b1320679503af995881053de0ef6ced6e9bc23c5724da6a58006e7ca26571a2470b8cad6c88ee06c83a6c8703cf06"
 
-RPROVIDES:${PN} += "octave-forge-geometry \
-octave-forge-geometry(aarch-64)"
+RPROVIDES:${PN} += "octave-forge-geometry"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
 octave-cli \
 octave-forge-matgeom"
 

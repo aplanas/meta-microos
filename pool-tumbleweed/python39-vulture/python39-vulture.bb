@@ -23,13 +23,13 @@ RPM_NAME = "python39-vulture-2.1-1.13.noarch.rpm"
 RPM_HASH = "08b69c5f9114b92d370ff4f613a6f15bb5750f150e4788223ead6df09b1cb56bc2b3f7d5add9d85f4b0836a26f75d2d4eafc9435781c39464bbd3438d405b563"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(vulture) \
+RPROVIDES:${PN} += "python3.9dist-vulture \
 python39-vulture \
-python3dist(vulture)"
+python3dist-vulture"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-toml \
 update-alternatives"
 

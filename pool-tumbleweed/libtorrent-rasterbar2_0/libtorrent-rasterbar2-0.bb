@@ -10,16 +10,15 @@ PV = "2.0.9"
 RPM_NAME = "libtorrent-rasterbar2_0-2.0.9-1.1.aarch64.rpm"
 RPM_HASH = "9da08571856646b2bc1899f95d00d7febfe6a70a9a5a141e30f940ee969748ebbbdfeadeb5b87cb7db4d2a1150688eca9b176b332e9f5704a5faf34898501b55"
 
-RPROVIDES:${PN} += "libtorrent-rasterbar.so.2.0()(64bit) \
-libtorrent-rasterbar2_0 \
-libtorrent-rasterbar2_0(aarch-64)"
+RPROVIDES:${PN} += "libtorrent-rasterbar.so.2.0 \
+libtorrent-rasterbar2-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libssl.so.3 \
+libstdc++.so.6"
 
 inherit rpm

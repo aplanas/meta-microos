@@ -20,51 +20,41 @@ PV = "4.7.5"
 RPM_NAME = "veyon-4.7.5-2.1.aarch64.rpm"
 RPM_HASH = "b7d950c5dba04fbbcabce97f2ed8e81d0522d602a948083f447575e2ef0333debf4b0ca040048799c8ff73cfe0a3f4f2e67ddfc9fc1128e112b81768c8c98d23"
 
-RPROVIDES:${PN} += "application() \
-application(veyon-configurator.desktop) \
-application(veyon-master.desktop) \
-libkldap-light.so()(64bit) \
-libldap-common.so()(64bit) \
-libveyon-core.so()(64bit) \
-veyon \
-veyon(aarch-64)"
+RPROVIDES:${PN} += "libkldap-light.so \
+libldap-common.so \
+libveyon-core.so \
+veyon"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6DBus.so.6()(64bit) \
-libQt6DBus.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXtst.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libfakekey.so.0()(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit) \
-libpam.so.0()(64bit) \
-libprocps.so.8()(64bit) \
-libprocps.so.8(LIBPROCPS_0)(64bit) \
-libqca-qt6.so.2()(64bit) \
-libsasl2.so.3()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libvncclient.so.1()(64bit) \
-libvncserver.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXtst.so.6 \
+libc.so.6 \
+libcrypto.so.3 \
+libfakekey.so.0 \
+liblber.so.2 \
+libldap.so.2 \
+libpam.so.0 \
+libprocps.so.8 \
+libqca-qt6.so.2 \
+libsasl2.so.3 \
+libssl.so.3 \
+libstdc++.so.6 \
+libvncclient.so.1 \
+libvncserver.so.1 \
 permissions \
 systemd"
 

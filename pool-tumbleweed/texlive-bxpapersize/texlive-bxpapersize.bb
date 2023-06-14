@@ -11,7 +11,7 @@ RPM_NAME = "texlive-bxpapersize-2023.201.0.0.6svn63174-52.1.noarch.rpm"
 RPM_HASH = "51ad896844805c1b970a2216f9b5a119e3b3ae6a3a050b63c10b13ceea3d7dbee185d58033cc24c2f050cf0fc4fcec2a3193b800dee6252c27cbb0b71396a189"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxpapersize.sty) \
+RPROVIDES:${PN} += "tex-bxpapersize.sty \
 texlive-bxpapersize"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,14 +20,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(atbegshi.sty) \
-tex(ifluatex.sty) \
-tex(ifpdf.sty) \
-tex(ifptex.sty) \
-tex(ifvtex.sty) \
-tex(ifxetex.sty) \
-tex(pxatbegshi.sty) \
-tex(xkeyval.sty) \
+tex-atbegshi.sty \
+tex-ifluatex.sty \
+tex-ifpdf.sty \
+tex-ifptex.sty \
+tex-ifvtex.sty \
+tex-ifxetex.sty \
+tex-pxatbegshi.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

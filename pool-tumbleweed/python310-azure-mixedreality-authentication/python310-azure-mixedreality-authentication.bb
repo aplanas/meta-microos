@@ -13,11 +13,11 @@ RPM_HASH = "e2f19dbbdadc56caa7e01a9f439610596c717b271735dcd9c19a76542dc53cb95d45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mixedreality-authentication \
-python3.10dist(azure-mixedreality-authentication) \
+python3.10dist-azure-mixedreality-authentication \
 python310-azure-mixedreality-authentication \
-python3dist(azure-mixedreality-authentication)"
+python3dist-azure-mixedreality-authentication"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-mixedreality-nspkg \
 python310-msrest"

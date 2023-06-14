@@ -11,15 +11,15 @@ RPM_HASH = "935c0d3a807051b16ee4eb769e51a793db93b51ebe155f05fb2817d3f73a2dce6a95
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jsch \
-config(ant-jsch) \
-mvn(org.apache.ant:ant-jsch) \
-mvn(org.apache.ant:ant-jsch:pom:)"
+config-ant-jsch \
+mvn-org.apache.ant-ant-jsch \
+mvn-org.apache.ant-ant-jsch-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
 jsch \
-mvn(com.jcraft:jsch) \
-mvn(org.apache.ant:ant)"
+mvn-com.jcraft-jsch \
+mvn-org.apache.ant-ant"
 
 inherit rpm

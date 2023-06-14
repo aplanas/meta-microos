@@ -21,16 +21,16 @@ RPM_NAME = "python311-pylint-2.17.4-2.1.noarch.rpm"
 RPM_HASH = "db57909831acf6ddec90dcbab48ab40bfbf649871f2c278b0e0b6b02dfc9c92445286295b3b62ffb81575e43f5c826cb1bdac65ce776065c3ff837d6befb66f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pylint) \
+RPROVIDES:${PN} += "python3.11dist-pylint \
 python311-pylint \
-python3dist(pylint)"
+python3dist-pylint"
 
-RDEPENDS:${PN} += "(python311-astroid >= 2.15.4 with python311-astroid < 2.17.0~dev0) \
-(python311-isort >= 4.2.5 with python311-isort < 6) \
-(python311-mccabe >= 0.6 with python311-mccabe < 0.8) \
+RDEPENDS:${PN} += "-python311-astroid >= 2.15.4 with python311-astroid < 2.17.0~dev0 \
+-python311-isort >= 4.2.5 with python311-isort < 6 \
+-python311-mccabe >= 0.6 with python311-mccabe < 0.8 \
 /bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-dill \
 python311-platformdirs \
 python311-tomlkit \

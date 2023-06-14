@@ -10,13 +10,12 @@ RPM_HASH = "617013668a289f5987f254d9ae5cd4baa31141008e9df5c2564c9b81837b15349853
 
 RPROVIDES:${PN} += "libxslt \
 libxslt-tools \
-libxslt-tools(aarch-64) \
 xsltproc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexslt.so.0()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexslt.so.0 \
+libxml2.so.2 \
+libxslt.so.1"
 
 inherit rpm

@@ -107,9 +107,9 @@ RPM_NAME = "perl-Encode-Locale-1.05-1.26.noarch.rpm"
 RPM_HASH = "f09d12dd240e3ec4db6266058cdc6587bccb27caa0e07a5a68ad6cd9921667566e98195a7a24fcb454f30f677e9d2bae9170279df13fc94561a3d1cf998eec7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Encode::Locale) \
+RPROVIDES:${PN} += "perl-Encode--Locale \
 perl-Encode-Locale"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

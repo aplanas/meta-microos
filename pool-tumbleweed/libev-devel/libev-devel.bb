@@ -18,8 +18,7 @@ RPM_NAME = "libev-devel-4.33-1.11.aarch64.rpm"
 RPM_HASH = "a97b883c7950e0bcd293deafb02f9fd49f193e9d7ff2498f39733eba5f618ca17433d7df2442beec09cbf0a0aafdbb843a0a2b8b465dc1abc43f5bb9edcd0c79"
 
 RPROVIDES:${PN} += "libev-devel \
-libev-devel(aarch-64) \
-pkgconfig(libev)"
+pkgconfig-libev"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libev4"

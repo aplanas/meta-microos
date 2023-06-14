@@ -16,7 +16,7 @@ RPM_NAME = "yomi-formula-0.0.1+git.1630589391.4557cfd-2.6.noarch.rpm"
 RPM_HASH = "0034f8fc14920cd8947d372d3c1631951928a7562d8d7dd248740c8b1ea537ac95ce18a4238bd8a1578b94fdd9d7264c7f60d4e4df4ef103e74acff93f32aaf4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(yomi-formula) \
+RPROVIDES:${PN} += "config-yomi-formula \
 yomi-formula"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -10,17 +10,15 @@ RPM_NAME = "mupen64plus-plugin-video-rice-2.5.9-2.8.aarch64.rpm"
 RPM_HASH = "07ca00b58346492f3a88bde2fc0655235908bfe58756dd57c2ed82e2fd8458508a48adbfe1f706aa9485379868cc770adc473b622f4be41f572d1d0d59fd6114"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-video \
-mupen64plus-plugin-video-rice \
-mupen64plus-plugin-video-rice(aarch-64)"
+mupen64plus-plugin-video-rice"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6"
 
 inherit rpm

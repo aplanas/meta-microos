@@ -7,15 +7,14 @@ PV = "20230221"
 RPM_NAME = "gpuvis-20230221-1.1.aarch64.rpm"
 RPM_HASH = "e8bdeb265bd17fa668dc9b399680d1e00471737ea1c5129c6ebd3f2647fc55854349ee140562fbbbb7cc6ae5723d47f8411b078e8b1f4006bc87e9d3e39644e7"
 
-RPROVIDES:${PN} += "gpuvis \
-gpuvis(aarch-64)"
+RPROVIDES:${PN} += "gpuvis"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

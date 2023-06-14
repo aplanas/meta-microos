@@ -13,33 +13,27 @@ RPM_NAME = "kquickcharts-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "dc2f32e69a06808052681dd29bb09b525abe7617af4422e36318a19c5613493d0e846edae00d98b34667afc83673f653bb70070b9a8bf8cfeb712cd7c41ddc09"
 
 RPROVIDES:${PN} += "kquickcharts \
-kquickcharts(aarch-64) \
-libQuickCharts.so()(64bit) \
-libQuickChartsControls.so()(64bit) \
-qt5qmlimport(org.kde.quickcharts.1) \
-qt5qmlimport(org.kde.quickcharts.controls.1)"
+libQuickCharts.so \
+libQuickChartsControls.so \
+qt5qmlimport-org.kde.quickcharts.1 \
+qt5qmlimport-org.kde.quickcharts.controls.1"
 
 RDEPENDS:${PN} += "kirigami2 \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5QuickControls2.so.5 \
+libc.so.6 \
+libm.so.6 \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.2) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(org.kde.kirigami.2) \
-qt5qmlimport(org.kde.quickcharts.1) \
-qt5qmlimport(org.kde.quickcharts.controls.1)"
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.2 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-org.kde.kirigami.2 \
+qt5qmlimport-org.kde.quickcharts.1 \
+qt5qmlimport-org.kde.quickcharts.controls.1"
 
 inherit rpm

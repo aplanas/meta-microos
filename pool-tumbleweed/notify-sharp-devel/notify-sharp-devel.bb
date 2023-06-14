@@ -16,10 +16,10 @@ RPM_HASH = "a4329a1d7deb13bfea48f37d2319aded33eb8ee42d36912783203d8462a0fc4cfb20
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "notify-sharp-devel \
-pkgconfig(notify-sharp)"
+pkgconfig-notify-sharp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 notify-sharp \
-pkgconfig(gtk-sharp-2.0)"
+pkgconfig-gtk-sharp-2.0"
 
 inherit rpm

@@ -37,12 +37,12 @@ RPM_NAME = "perl-Task-Kensho-Exceptions-0.41-1.9.noarch.rpm"
 RPM_HASH = "7515eb85700c5955d87e86b98104a0ebfcfacc371bad392db91ceed4be4f88b4162ce94dc3403f6e646df70493554246883ee2c87cec9cb68d5a61288410f53e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::Exceptions) \
+RPROVIDES:${PN} += "perl-Task--Kensho--Exceptions \
 perl-Task-Kensho-Exceptions"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Syntax::Keyword::Try) \
-perl(Try::Tiny) \
-perl(autodie)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Syntax--Keyword--Try \
+perl-Try--Tiny \
+perl-autodie"
 
 inherit rpm

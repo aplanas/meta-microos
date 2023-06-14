@@ -11,19 +11,18 @@ PV = "0.6.3"
 RPM_NAME = "libSciTokens0-0.6.3-2.1.aarch64.rpm"
 RPM_HASH = "19d411df6550bf21f854a0152ccb04e09eefad31bab755643813d75566f61c572a05ecb5e525d520d86f682b43b5fb5ae469d10994f38dce14c93464a1b7881f"
 
-RPROVIDES:${PN} += "libSciTokens.so.0()(64bit) \
-libSciTokens0 \
-libSciTokens0(aarch-64)"
+RPROVIDES:${PN} += "libSciTokens.so.0 \
+libSciTokens0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libgcc-s.so.1 \
+libm.so.6 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libuuid.so.1"
 
 inherit rpm

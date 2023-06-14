@@ -15,7 +15,7 @@ RPM_NAME = "texlive-imakeidx-2023.201.1.3esvn42287-52.1.noarch.rpm"
 RPM_HASH = "9707ffddb9c4afba9d130c76fc91b0b5055c753d4e5144437949245eb44e3fd59163b2c084b0c9f1855b01cf45ce3efc351cefc8f000419230a172e5deeb1901"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(imakeidx.sty) \
+RPROVIDES:${PN} += "tex-imakeidx.sty \
 texlive-imakeidx"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,10 +24,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifluatex.sty) \
-tex(ifxetex.sty) \
-tex(multicol.sty) \
-tex(xkeyval.sty) \
+tex-ifluatex.sty \
+tex-ifxetex.sty \
+tex-multicol.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

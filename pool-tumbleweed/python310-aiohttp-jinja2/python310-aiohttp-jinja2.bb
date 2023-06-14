@@ -9,11 +9,11 @@ RPM_HASH = "4e952343a5e392ba82df8284d2381fcdc9f3ca73a4c343edca1cb92e154b793163b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiohttp-jinja2 \
-python3.10dist(aiohttp-jinja2) \
+python3.10dist-aiohttp-jinja2 \
 python310-aiohttp-jinja2 \
-python3dist(aiohttp-jinja2)"
+python3dist-aiohttp-jinja2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-aiohttp"
 

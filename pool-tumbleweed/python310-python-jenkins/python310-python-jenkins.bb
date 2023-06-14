@@ -14,13 +14,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jenkins \
 python3-python-jenkins \
-python3.10dist(python-jenkins) \
+python3.10dist-python-jenkins \
 python310-jenkins \
 python310-python-jenkins \
-python3dist(python-jenkins)"
+python3dist-python-jenkins"
 
-RDEPENDS:${PN} += "python(abi) \
-python310-multi_key_dict \
+RDEPENDS:${PN} += "python-abi \
+python310-multi-key-dict \
 python310-pbr \
 python310-requests \
 python310-six"

@@ -56,37 +56,36 @@ wps2abw \
 wps2epub \
 wps2odt \
 writerperfect \
-writerperfect(aarch-64) \
 zmf2epub \
 zmf2odg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libabw-0.1.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcdr-0.1.so.1()(64bit) \
-libe-book-0.1.so.1()(64bit) \
-libeot.so.0()(64bit) \
-libepubgen-0.1.so.1()(64bit) \
-libetonyek-0.1.so.1()(64bit) \
-libfreehand-0.1.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsf-1.so.114()(64bit) \
-libmspub-0.1.so.1()(64bit) \
-libmwaw-0.3.so.3()(64bit) \
-libodfgen-0.1.so.1()(64bit) \
-libpagemaker-0.0.so.0()(64bit) \
-libqxp-0.0.so.0()(64bit) \
-librevenge-0.0.so.0()(64bit) \
-librevenge-stream-0.0.so.0()(64bit) \
-librvngabw-0.0.so.0()(64bit) \
-libstaroffice-0.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libvisio-0.1.so.1()(64bit) \
-libwpd-0.10.so.10()(64bit) \
-libwpg-0.3.so.3()(64bit) \
-libwps-0.4.so.4()(64bit) \
-libzmf-0.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libabw-0.1.so.1 \
+libc.so.6 \
+libcdr-0.1.so.1 \
+libe-book-0.1.so.1 \
+libeot.so.0 \
+libepubgen-0.1.so.1 \
+libetonyek-0.1.so.1 \
+libfreehand-0.1.so.1 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgsf-1.so.114 \
+libmspub-0.1.so.1 \
+libmwaw-0.3.so.3 \
+libodfgen-0.1.so.1 \
+libpagemaker-0.0.so.0 \
+libqxp-0.0.so.0 \
+librevenge-0.0.so.0 \
+librevenge-stream-0.0.so.0 \
+librvngabw-0.0.so.0 \
+libstaroffice-0.0.so.0 \
+libstdc++.so.6 \
+libvisio-0.1.so.1 \
+libwpd-0.10.so.10 \
+libwpg-0.3.so.3 \
+libwps-0.4.so.4 \
+libzmf-0.0.so.0"
 
 inherit rpm

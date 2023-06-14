@@ -16,13 +16,12 @@ PV = "2.0.0"
 RPM_NAME = "ancient-2.0.0-1.3.aarch64.rpm"
 RPM_HASH = "106fa5d5d84de9b4ac2b9798c5edb1e803ca1164b7906b54d283d871c4a76929d7053f18c9ef00b9fe58a8963c475b843e6f12aee8b301d0005dabd22cb8a4ce"
 
-RPROVIDES:${PN} += "ancient \
-ancient(aarch-64)"
+RPROVIDES:${PN} += "ancient"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libancient.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libancient.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

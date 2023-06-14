@@ -25,11 +25,11 @@ RPM_HASH = "f88d313894665b2da6afc44a26e2e94cb8f110c615fe5e575b117e9c67d82601ffad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lmfit \
-python3.10dist(lmfit) \
+python3.10dist-lmfit \
 python310-lmfit \
-python3dist(lmfit)"
+python3dist-lmfit"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-asteval \
 python310-numpy \
 python310-scipy \

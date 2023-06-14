@@ -13,10 +13,10 @@ RPM_HASH = "f9db867e21cc16dc97a69efd2a1179d8b98f87428481336361f460e9e8f928e75ec3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tooz \
-python3.10dist(tooz) \
-python3dist(tooz)"
+python3.10dist-tooz \
+python3dist-tooz"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-fasteners \
 python3-futurist \
 python3-msgpack \

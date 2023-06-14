@@ -9,11 +9,11 @@ RPM_HASH = "f3335b74f6ea497be1c35ee6d447736575b6a12577605432905e1e61997e97fdfc71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-listener \
-python3.10dist(pytest-listener) \
+python3.10dist-pytest-listener \
 python310-pytest-listener \
-python3dist(pytest-listener)"
+python3dist-pytest-listener"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest-server-fixtures"
 
 inherit rpm

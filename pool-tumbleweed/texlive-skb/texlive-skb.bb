@@ -19,14 +19,14 @@ RPM_NAME = "texlive-skb-2023.201.0.0.52svn22781-57.1.noarch.rpm"
 RPM_HASH = "14f89ffcd7c634495888ec04ebec2b36b35d74b41cc130598d49c35fc4f707bd0f5cf8fb133966968fca1b0a5b6e217b0b973f99a4af4efa91041b4ec50e35b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(skb.cfg) \
-tex(skb.sty) \
-tex(skbarticle.cls) \
-tex(skbbeamer.cls) \
-tex(skbbook.cls) \
-tex(skblncsbeamer.cls) \
-tex(skblncsppt.cls) \
-tex(skbmoderncv.cls) \
+RPROVIDES:${PN} += "tex-skb.cfg \
+tex-skb.sty \
+tex-skbarticle.cls \
+tex-skbbeamer.cls \
+tex-skbbook.cls \
+tex-skblncsbeamer.cls \
+tex-skblncsppt.cls \
+tex-skbmoderncv.cls \
 texlive-skb"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -35,34 +35,34 @@ ed \
 findutils \
 grep \
 sed \
-tex(acronym.sty) \
-tex(beamer.cls) \
-tex(beamerarticle.sty) \
-tex(biblatex.sty) \
-tex(booktabs.sty) \
-tex(colortbl.sty) \
-tex(comment.sty) \
-tex(datetime.sty) \
-tex(dirtree.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(float.sty) \
-tex(gensymb.sty) \
-tex(graphicx.sty) \
-tex(ifpdf.sty) \
-tex(keyval.sty) \
-tex(listings.sty) \
-tex(longtable.sty) \
-tex(memoir.cls) \
-tex(moderncv.cls) \
-tex(optional.sty) \
-tex(pgf.sty) \
-tex(textcomp.sty) \
-tex(units.sty) \
-tex(versions.sty) \
-tex(wasysym.sty) \
-tex(xcolor.sty) \
-tex(xmpmulti.sty) \
+tex-acronym.sty \
+tex-beamer.cls \
+tex-beamerarticle.sty \
+tex-biblatex.sty \
+tex-booktabs.sty \
+tex-colortbl.sty \
+tex-comment.sty \
+tex-datetime.sty \
+tex-dirtree.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-float.sty \
+tex-gensymb.sty \
+tex-graphicx.sty \
+tex-ifpdf.sty \
+tex-keyval.sty \
+tex-listings.sty \
+tex-longtable.sty \
+tex-memoir.cls \
+tex-moderncv.cls \
+tex-optional.sty \
+tex-pgf.sty \
+tex-textcomp.sty \
+tex-units.sty \
+tex-versions.sty \
+tex-wasysym.sty \
+tex-xcolor.sty \
+tex-xmpmulti.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

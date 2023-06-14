@@ -13,13 +13,11 @@ RPM_HASH = "d1b2c96d6ce15dd81ecac02e87e1bd500da672644ba781e914bfac0f21adf1ec2403
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asdf-wcs-schemas \
-python3-asdf_wcs_schemas \
-python3.10dist(asdf-wcs-schemas) \
+python3.10dist-asdf-wcs-schemas \
 python310-asdf-wcs-schemas \
-python310-asdf_wcs_schemas \
-python3dist(asdf-wcs-schemas)"
+python3dist-asdf-wcs-schemas"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-asdf"
 
 inherit rpm

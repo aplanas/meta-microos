@@ -16,25 +16,24 @@ RPM_HASH = "276c42eef5cba672936751a79c3d855c4c889ee1f9814b7e1c9f8011bb7518235804
 
 RPROVIDES:${PN} += "cinnamon-desktop \
 libcinnamon-desktop \
-libcinnamon-desktop.so.4()(64bit) \
-libcinnamon-desktop4 \
-libcinnamon-desktop4(aarch-64)"
+libcinnamon-desktop.so.4 \
+libcinnamon-desktop4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXrandr.so.2 \
+libc.so.6 \
+libcairo.so.2 \
 libcinnamon-desktop-data \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libxkbfile.so.1()(64bit)"
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libxkbfile.so.1"
 
 inherit rpm

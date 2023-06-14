@@ -9,13 +9,13 @@ RPM_HASH = "7cd2c8717dded35aca74597b8ab4a6e39928039b4596794e4bf5d9e8724f736b5259
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-curlylint \
-python3.10dist(curlylint) \
+python3.10dist-curlylint \
 python310-curlylint \
-python3dist(curlylint)"
+python3dist-curlylint"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-attrs \
 python310-click \
 python310-parsy \

@@ -9,8 +9,8 @@ RPM_HASH = "a3b4d27a74ddc1e887ea9d77028fb799d54a310d826079927ded7f50dc13d415584c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-txw2 \
-mvn(org.glassfish.jaxb:txw2) \
-mvn(org.glassfish.jaxb:txw2:pom:)"
+mvn-org.glassfish.jaxb-txw2 \
+mvn-org.glassfish.jaxb-txw2-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

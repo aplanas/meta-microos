@@ -9,15 +9,14 @@ PV = "1.3.1"
 RPM_NAME = "libmpc3-1.3.1-1.3.aarch64.rpm"
 RPM_HASH = "0e16d1e58c57f47b93dabee8116cc724a9c2547abd21e168ca061bf47bbbd9aa1b6a610c38dd32d0459e63fa84e349a9cbc3509e890a039690e47298952eb10c"
 
-RPROVIDES:${PN} += "libmpc.so.3()(64bit) \
-libmpc3 \
-libmpc3(aarch-64)"
+RPROVIDES:${PN} += "libmpc.so.3 \
+libmpc3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmpfr.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6 \
+libmpfr.so.6"
 
 inherit rpm

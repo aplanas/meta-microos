@@ -14,14 +14,13 @@ RPM_NAME = "espeak-1.48.04-6.26.aarch64.rpm"
 RPM_HASH = "65db32862c113b95be498eb5372e64db7ee6e2b962d538dd73e34aaea8439cc068a43f0e05a90bf29065d51800b289c7c43495412e6d5cca72c9a595ec9cea77"
 
 RPROVIDES:${PN} += "espeak \
-espeak(aarch-64) \
-libespeak.so.1()(64bit)"
+libespeak.so.1"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libportaudio.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libportaudio.so.2"
 
 inherit rpm

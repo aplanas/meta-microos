@@ -9,13 +9,12 @@ RPM_NAME = "python310-pyRXP-3.0.1-2.9.aarch64.rpm"
 RPM_HASH = "61bbdcd73542ed0329455d14529165c7ef6d290f4cfd8bb609eb91299f8b4ba1f797877fb8f202237fd75ca8c91aed3f1d23304f839183a69a09c8279d643ad5"
 
 RPROVIDES:${PN} += "python3-pyRXP \
-python3.10dist(pyrxp) \
+python3.10dist-pyrxp \
 python310-pyRXP \
-python310-pyRXP(aarch-64) \
-python3dist(pyrxp)"
+python3dist-pyrxp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

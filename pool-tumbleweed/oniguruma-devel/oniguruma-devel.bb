@@ -20,8 +20,7 @@ RPM_NAME = "oniguruma-devel-6.9.8-1.5.aarch64.rpm"
 RPM_HASH = "0cff3705d5a65ec3f1734c169670ce4cf6e080a4d7c2b28d79bcc3242254e8459ba951108927ecb8fc7f07d6e1a4ff0959237e153b72c6879df0c372d6693743"
 
 RPROVIDES:${PN} += "oniguruma-devel \
-oniguruma-devel(aarch-64) \
-pkgconfig(oniguruma)"
+pkgconfig-oniguruma"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

@@ -14,36 +14,31 @@ PV = "4.18.2"
 RPM_NAME = "xfce4-power-manager-4.18.2-1.1.aarch64.rpm"
 RPM_HASH = "5db6f98e23b9b8897d35942ebc1b9354ad5e5ee172562715a689333d9357c44c85b0833daec4cad8958749847cbbc23ffe6ab9ba9914916b1e566c0e608107e2"
 
-RPROVIDES:${PN} += "application() \
-application(xfce4-power-manager-settings.desktop) \
-config(xfce4-power-manager) \
-metainfo() \
-metainfo(xfce4-power-manager.appdata.xml) \
+RPROVIDES:${PN} += "config-xfce4-power-manager \
 xfce4-power-manager \
-xfce4-power-manager(aarch-64) \
 xfce4-power-manager-doc"
 
 RDEPENDS:${PN} += "/usr/bin/pkexec \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnotify.so.4()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libupower-glib.so.3()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit) \
-libxfconf-0.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXrandr.so.2 \
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libnotify.so.4 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libupower-glib.so.3 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7 \
+libxfconf-0.so.3 \
 systemd \
 upower"
 

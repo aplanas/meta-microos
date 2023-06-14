@@ -9,11 +9,11 @@ RPM_HASH = "a6b32f16d985d803f62e942b7037a32c655ef228ae4928e665cf53c63772c6f40851
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kubernetes \
-python3.10dist(kubernetes) \
+python3.10dist-kubernetes \
 python310-kubernetes \
-python3dist(kubernetes)"
+python3dist-kubernetes"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-certifi \
 python310-google-auth \

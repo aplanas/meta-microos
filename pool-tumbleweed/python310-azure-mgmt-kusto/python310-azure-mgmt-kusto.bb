@@ -14,12 +14,12 @@ RPM_HASH = "7b185020daba4bcb6937cb1fe8da216f3233a1ff454acfc3ca5fa70b6c4bad142d8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-kusto \
-python3.10dist(azure-mgmt-kusto) \
+python3.10dist-azure-mgmt-kusto \
 python310-azure-mgmt-kusto \
-python3dist(azure-mgmt-kusto)"
+python3dist-azure-mgmt-kusto"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

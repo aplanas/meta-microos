@@ -9,9 +9,9 @@ RPM_HASH = "d4abb766ddab1784a1141585dd1674d55a54c88a30a56ef3effa710d8ac717d45418
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "disruptor \
-mvn(com.lmax:disruptor) \
-mvn(com.lmax:disruptor:pom:) \
-osgi(com.lmax.disruptor)"
+mvn-com.lmax-disruptor \
+mvn-com.lmax-disruptor-pom- \
+osgi-com.lmax.disruptor"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

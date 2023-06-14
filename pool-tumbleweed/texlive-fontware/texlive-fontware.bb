@@ -14,10 +14,10 @@ RPM_NAME = "texlive-fontware-2023.201.svn66186-52.1.noarch.rpm"
 RPM_HASH = "edbb8ba593c5bb3e286cdc17ffa874debfe95a6ca811ee9919f1c0fbad00500abef54b97a26f4928eb8065e79c1c93280ed655700ba9fd08f78561598833fb36"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(pltotf.1) \
-man(tftopl.1) \
-man(vftovp.1) \
-man(vptovf.1) \
+RPROVIDES:${PN} += "man-pltotf.1 \
+man-tftopl.1 \
+man-vftovp.1 \
+man-vptovf.1 \
 texlive-fontware"
 
 RDEPENDS:${PN} += "/bin/sh \

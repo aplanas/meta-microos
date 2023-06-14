@@ -14,7 +14,7 @@ RPM_NAME = "texlive-tzplot-2023.201.2.1svn64537-52.1.noarch.rpm"
 RPM_HASH = "a44e5330ca39de027f048b132414d3c5956f755085fa588adc83c98952a390d005363ca0e94ab61ebafb0c3f6cd32424e44fd35827a714d55496ef13f16bb613"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tzplot.sty) \
+RPROVIDES:${PN} += "tex-tzplot.sty \
 texlive-tzplot"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(tikz.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-tikz.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

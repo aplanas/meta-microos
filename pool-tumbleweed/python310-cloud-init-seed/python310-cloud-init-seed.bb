@@ -9,14 +9,14 @@ RPM_HASH = "d705106160dfa6719fc9e6eca123d5d1da81cef9a2dc79ae8c0d0e70f5d3f823bc88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cloud-init-seed \
-python3.10dist(cloud-init-seed) \
+python3.10dist-cloud-init-seed \
 python310-cloud-init-seed \
-python3dist(cloud-init-seed)"
+python3dist-cloud-init-seed"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 mkisofs \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

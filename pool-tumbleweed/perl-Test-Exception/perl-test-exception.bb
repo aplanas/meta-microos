@@ -168,13 +168,13 @@ RPM_NAME = "perl-Test-Exception-0.430000-1.25.noarch.rpm"
 RPM_HASH = "a840ce8eea345a829f2e04a03dfa55d3c2d3967a71a11b45a8917a48a84b39ff4abf4258652a1c008912e9a3a74fb442cb189065d53538d9a30c571bcbf678a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DB) \
-perl(Test::Exception) \
+RPROVIDES:${PN} += "perl-DB \
+perl-Test--Exception \
 perl-Test-Exception"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Sub::Uplevel) \
-perl(Test::Builder) \
-perl(Test::Builder::Tester)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Sub--Uplevel \
+perl-Test--Builder \
+perl-Test--Builder--Tester"
 
 inherit rpm

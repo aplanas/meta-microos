@@ -11,18 +11,17 @@ PV = "3.6.3"
 RPM_NAME = "python39-matplotlib-3.6.3-2.1.aarch64.rpm"
 RPM_HASH = "f97c89290c12b4d28576b1453c26ca2a371e2481c8d40a27b27b61b1b5a669476d5fe36a2fd361bc8a27a66c728b3065777fba4d7e0d15be6c94dad2f6a811be"
 
-RPROVIDES:${PN} += "python3.9dist(matplotlib) \
+RPROVIDES:${PN} += "python3.9dist-matplotlib \
 python39-matplotlib \
-python39-matplotlib(aarch-64) \
 python39-matplotlib-gtk \
-python3dist(matplotlib)"
+python3dist-matplotlib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-Cycler \
 python39-FontTools \
 python39-Pillow \

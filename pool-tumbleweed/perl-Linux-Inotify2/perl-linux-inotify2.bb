@@ -20,15 +20,14 @@ PV = "2.3"
 RPM_NAME = "perl-Linux-Inotify2-2.3-1.10.aarch64.rpm"
 RPM_HASH = "7e0ab63d15d04a2f25d574c5b7cb8cdbfa3396dcf2ac1f43d2d499cc09d7484bf0e8b1c73a824a6092a64c3f8d2c06e37c134d81894afe7a78e367b0b5bb1767"
 
-RPROVIDES:${PN} += "perl(Linux::Inotify2) \
-perl(Linux::Inotify2::Event) \
-perl(Linux::Inotify2::Watch) \
-perl-Linux-Inotify2 \
-perl-Linux-Inotify2(aarch-64)"
+RPROVIDES:${PN} += "perl-Linux--Inotify2 \
+perl-Linux--Inotify2--Event \
+perl-Linux--Inotify2--Watch \
+perl-Linux-Inotify2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(common::sense)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-common--sense"
 
 inherit rpm

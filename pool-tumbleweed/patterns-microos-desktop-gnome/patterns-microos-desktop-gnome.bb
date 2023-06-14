@@ -7,15 +7,14 @@ PV = "5.0"
 RPM_NAME = "patterns-microos-desktop-gnome-5.0-70.1.aarch64.rpm"
 RPM_HASH = "6a42a84f5d578a09b3d68f47ab225576e7a0b9148502a414307634f58886c1c42b2d2102a69848639540fd8bd42ccfb98748c597db20a40ea094e29fe5249eda"
 
-RPROVIDES:${PN} += "pattern() \
-pattern-category() \
-pattern-icon() \
-pattern-order() \
-pattern-visible() \
-patterns-microos-desktop-gnome \
-patterns-microos-desktop-gnome(aarch-64)"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+pattern-icon- \
+pattern-order- \
+pattern-visible- \
+patterns-microos-desktop-gnome"
 
-RDEPENDS:${PN} += "(power-profiles-daemon or tlp) \
+RDEPENDS:${PN} += "-power-profiles-daemon or tlp \
 NetworkManager-openconnect-gnome \
 NetworkManager-openvpn-gnome \
 adobe-sourcecodepro-fonts \
@@ -81,7 +80,7 @@ noto-coloremoji-fonts \
 noto-emoji-fonts \
 noto-sans-fonts \
 openssh-askpass-gnome \
-pattern() \
+pattern- \
 pinentry-gnome3 \
 polkit-gnome \
 rsvg-thumbnailer \

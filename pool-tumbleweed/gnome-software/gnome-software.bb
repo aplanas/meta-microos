@@ -7,71 +7,50 @@ PV = "44.2"
 RPM_NAME = "gnome-software-44.2-1.1.aarch64.rpm"
 RPM_HASH = "4ab88091a8fe3a6b94ff95090d90c56a59340b052dc94b759aefc5065fe02641f8a513e45df919725573d523251fff77cd047a3abe493df0e07cf4c08fb697a7"
 
-RPROVIDES:${PN} += "application() \
-application(gnome-software-local-file-flatpak.desktop) \
-application(gnome-software-local-file-fwupd.desktop) \
-application(gnome-software-local-file-packagekit.desktop) \
-application(org.gnome.Software.desktop) \
-gnome-software \
-gnome-software(aarch-64) \
-libgnomesoftware.so.20()(64bit) \
-libgs_plugin_dpkg.so()(64bit) \
-libgs_plugin_dummy.so()(64bit) \
-libgs_plugin_epiphany.so()(64bit) \
-libgs_plugin_fedora-langpacks.so()(64bit) \
-libgs_plugin_fedora-pkgdb-collections.so()(64bit) \
-libgs_plugin_flatpak.so()(64bit) \
-libgs_plugin_fwupd.so()(64bit) \
-libgs_plugin_generic-updates.so()(64bit) \
-libgs_plugin_hardcoded-blocklist.so()(64bit) \
-libgs_plugin_icons.so()(64bit) \
-libgs_plugin_malcontent.so()(64bit) \
-libgs_plugin_modalias.so()(64bit) \
-libgs_plugin_os-release.so()(64bit) \
-libgs_plugin_provenance-license.so()(64bit) \
-libgs_plugin_provenance.so()(64bit) \
-libgs_plugin_repos.so()(64bit) \
-libgs_plugin_rewrite-resource.so()(64bit) \
-metainfo() \
-metainfo(org.gnome.Software.Plugin.Epiphany.metainfo.xml) \
-metainfo(org.gnome.Software.Plugin.Flatpak.metainfo.xml) \
-metainfo(org.gnome.Software.Plugin.Fwupd.metainfo.xml) \
-metainfo(org.gnome.Software.metainfo.xml) \
-mimehandler(application/vnd.flatpak) \
-mimehandler(application/vnd.flatpak.ref) \
-mimehandler(application/vnd.flatpak.repo) \
-mimehandler(application/vnd.ms-cab-compressed) \
-mimehandler(application/x-app-package) \
-mimehandler(application/x-deb) \
-mimehandler(application/x-redhat-package-manager) \
-mimehandler(application/x-rpm) \
-mimehandler(x-scheme-handler/appstream)"
+RPROVIDES:${PN} += "gnome-software \
+libgnomesoftware.so.20 \
+libgs-plugin-dpkg.so \
+libgs-plugin-dummy.so \
+libgs-plugin-epiphany.so \
+libgs-plugin-fedora-langpacks.so \
+libgs-plugin-fedora-pkgdb-collections.so \
+libgs-plugin-flatpak.so \
+libgs-plugin-fwupd.so \
+libgs-plugin-generic-updates.so \
+libgs-plugin-hardcoded-blocklist.so \
+libgs-plugin-icons.so \
+libgs-plugin-malcontent.so \
+libgs-plugin-modalias.so \
+libgs-plugin-os-release.so \
+libgs-plugin-provenance-license.so \
+libgs-plugin-provenance.so \
+libgs-plugin-repos.so \
+libgs-plugin-rewrite-resource.so"
 
 RDEPENDS:${PN} += "fwupd \
 iso-codes \
-ld-linux-aarch64.so.1()(64bit) \
-libadwaita-1.so.0()(64bit) \
-libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libappstream.so.4()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libflatpak.so.0()(64bit) \
-libfwupd.so.2()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmalcontent-0.so.0()(64bit) \
-libostree-1.so.1()(64bit) \
-libpackagekit-glib2.so.18()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpolkit-gobject-1.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit) \
-libxmlb.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
+libappstream.so.4 \
+libc.so.6 \
+libcairo.so.2 \
+libflatpak.so.0 \
+libfwupd.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1 \
+libgudev-1.0.so.0 \
+libjson-glib-1.0.so.0 \
+libm.so.6 \
+libmalcontent-0.so.0 \
+libostree-1.so.1 \
+libpackagekit-glib2.so.18 \
+libpango-1.0.so.0 \
+libpolkit-gobject-1.so.0 \
+libsoup-3.0.so.0 \
+libxmlb.so.2"
 
 inherit rpm

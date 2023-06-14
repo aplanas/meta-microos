@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ptscotch-gnu-openmpi4-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ptscotch_6_1_0-gnu-openmpi4-hpc"
+ptscotch-6-1-0-gnu-openmpi4-hpc"
 
 inherit rpm

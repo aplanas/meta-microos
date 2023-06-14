@@ -13,12 +13,12 @@ RPM_NAME = "python38-pyqtgraph-0.12.4-1.2.noarch.rpm"
 RPM_HASH = "5d7ffb2019bb7b9089bdd9a90c0dfea7ce361933605e38bf53ce48e7a588830bb5fb0e76449a29ff9c2544a169e638b39264dfb22c759267e3f6695ee70ade08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.8dist(pyqtgraph) \
+RPROVIDES:${PN} += "python3.8dist-pyqtgraph \
 python38-pyqtgraph \
-python3dist(pyqtgraph)"
+python3dist-pyqtgraph"
 
-RDEPENDS:${PN} += "(python38-qt5 >= 5.12 or python38-PyQt6 >= 6.1) \
-python(abi) \
+RDEPENDS:${PN} += "-python38-qt5 >= 5.12 or python38-PyQt6 >= 6.1 \
+python-abi \
 python38-numpy"
 
 inherit rpm

@@ -8,10 +8,10 @@ RPM_NAME = "myspell-ko_KR-20221012-1.2.noarch.rpm"
 RPM_HASH = "e0a8968dac8b827cc29df30284383ca4cc04a72ad6bf2f832a4db5819b394b4c36292c6cece6c192719b23515995304e7059f188939b169b11c1249a7253b752"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:ko_KR) \
-locale(seamonkey-spellchecker:ko_KR) \
+RPROVIDES:${PN} += "locale-libreoffice-ko-KR \
+locale-seamonkey-spellchecker-ko-KR \
 myspell-dictionary \
-myspell-ko_KR"
+myspell-ko-KR"
 
 RDEPENDS:${PN} += "myspell-dictionaries"
 

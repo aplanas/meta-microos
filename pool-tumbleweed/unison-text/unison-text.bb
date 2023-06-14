@@ -13,10 +13,9 @@ PV = "2.53.2"
 RPM_NAME = "unison-text-2.53.2-1.1.aarch64.rpm"
 RPM_HASH = "6bb9d4d0770eb8aa983518250bc88964531d32598cc7c8b16a9a5cf7fd704077d51f0ffeb3fbbbc2ee8d711ef62a940584efe0ee06574aa364b5a7a92172c716"
 
-RPROVIDES:${PN} += "unison-text \
-unison-text(aarch-64)"
+RPROVIDES:${PN} += "unison-text"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libm.so.6"
 
 inherit rpm

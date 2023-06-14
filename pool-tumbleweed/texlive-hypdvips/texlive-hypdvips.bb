@@ -13,7 +13,7 @@ RPM_NAME = "texlive-hypdvips-2023.201.3.03svn53197-52.1.noarch.rpm"
 RPM_HASH = "1124a98ef901f5fc886bcf362408bba223970f4a584cd5be376facdadf8aa2c9aafa3f11cffcd38e0afac762aea411eb1d31d5eba6a8aeb3d175c8c98e8b6a40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hypdvips.sty) \
+RPROVIDES:${PN} += "tex-hypdvips.sty \
 texlive-hypdvips"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,12 +22,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(atveryend.sty) \
-tex(bookmark.sty) \
-tex(hypcap.sty) \
-tex(hyperref.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-atveryend.sty \
+tex-bookmark.sty \
+tex-hypcap.sty \
+tex-hyperref.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,11 +13,11 @@ RPM_HASH = "1fe1e6061f8ee1966a0d2ed76151a17708cb85e2cc8abf6d6a10c24adb99a7bbd709
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-ternary \
-python3.10dist(python-ternary) \
+python3.10dist-python-ternary \
 python310-python-ternary \
-python3dist(python-ternary)"
+python3dist-python-ternary"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib"
 
 inherit rpm

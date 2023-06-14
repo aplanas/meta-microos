@@ -10,28 +10,27 @@ RPM_HASH = "0d1c496ab52a34a9b85257be60b98c75da6941a5c7402e1057f7aa22b4a94df38a41
 
 RPROVIDES:${PN} += "glib2-tests \
 glib2-tests-devel \
-glib2-tests-devel(aarch-64) \
-libgdbus-example-objectmanager.so()(64bit) \
-libmoduletestplugin_a_library.so()(64bit) \
-libmoduletestplugin_a_plugin.so()(64bit) \
-libmoduletestplugin_b_library.so()(64bit) \
-libmoduletestplugin_b_plugin.so()(64bit) \
-libresourceplugin.so()(64bit) \
-libtestmodulea.so()(64bit) \
-libtestmoduleb.so()(64bit)"
+libgdbus-example-objectmanager.so \
+libmoduletestplugin-a-library.so \
+libmoduletestplugin-a-plugin.so \
+libmoduletestplugin-b-library.so \
+libmoduletestplugin-b-plugin.so \
+libresourceplugin.so \
+libtestmodulea.so \
+libtestmoduleb.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3 \
 glib2-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgthread-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpcre2-8.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgthread-2.0.so.0 \
+libm.so.6 \
+libpcre2-8.so.0"
 
 inherit rpm

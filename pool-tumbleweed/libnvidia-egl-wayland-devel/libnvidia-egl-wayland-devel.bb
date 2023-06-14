@@ -15,12 +15,11 @@ RPM_NAME = "libnvidia-egl-wayland-devel-1.1.11-1.2.aarch64.rpm"
 RPM_HASH = "050d5a433b7400aaaef008a9a4ae560c447861b64560512f62be593d402224fe7357cb546179b386557e9e24903103287dc6275ba8e0ff196096ad58dd5ffb36"
 
 RPROVIDES:${PN} += "libnvidia-egl-wayland-devel \
-libnvidia-egl-wayland-devel(aarch-64) \
-pkgconfig(wayland-eglstream) \
-pkgconfig(wayland-eglstream-protocols)"
+pkgconfig-wayland-eglstream \
+pkgconfig-wayland-eglstream-protocols"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnvidia-egl-wayland1 \
-pkgconfig(eglexternalplatform)"
+pkgconfig-eglexternalplatform"
 
 inherit rpm

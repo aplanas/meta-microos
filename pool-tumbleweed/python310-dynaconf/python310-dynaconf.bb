@@ -9,13 +9,13 @@ RPM_HASH = "6fcd206143a0ecf4288b3171c07595183dd93430c44d34be0ae0744d419350f992f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dynaconf \
-python3.10dist(dynaconf) \
+python3.10dist-dynaconf \
 python310-dynaconf \
-python3dist(dynaconf)"
+python3dist-dynaconf"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-click \
 python310-configobj \

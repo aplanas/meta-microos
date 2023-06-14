@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-balinese \
 noto-serif-balinese-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

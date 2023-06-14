@@ -18,26 +18,26 @@ RPM_NAME = "texlive-armtex-2023.201.3.0_beta4svn64182-54.1.noarch.rpm"
 RPM_HASH = "998f99c06b87f2534da86cd0ddaf8602ffa8115ba4a7553708a8ed9fa02cae8267e8b084b868b8624781bf6d1cc7f5c241ba051a73df327bbc7ba74836ffad62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arm.tex) \
-tex(armkb-a8.tex) \
-tex(armkb-u8.tex) \
-tex(armscii8.def) \
-tex(armtex.sty) \
-tex(arss.map) \
-tex(arssb10.tfm) \
-tex(arssbs10.tfm) \
-tex(arssr10.tfm) \
-tex(arsssl10.tfm) \
-tex(artm.map) \
-tex(artmb10.tfm) \
-tex(artmbi10.tfm) \
-tex(artmbs10.tfm) \
-tex(artmi10.tfm) \
-tex(artmr10.tfm) \
-tex(artmsl10.tfm) \
-tex(ot6cmr.fd) \
-tex(ot6cmss.fd) \
-tex(ot6enc.def) \
+RPROVIDES:${PN} += "tex-arm.tex \
+tex-armkb-a8.tex \
+tex-armkb-u8.tex \
+tex-armscii8.def \
+tex-armtex.sty \
+tex-arss.map \
+tex-arssb10.tfm \
+tex-arssbs10.tfm \
+tex-arssr10.tfm \
+tex-arsssl10.tfm \
+tex-artm.map \
+tex-artmb10.tfm \
+tex-artmbi10.tfm \
+tex-artmbs10.tfm \
+tex-artmi10.tfm \
+tex-artmr10.tfm \
+tex-artmsl10.tfm \
+tex-ot6cmr.fd \
+tex-ot6cmss.fd \
+tex-ot6enc.def \
 texlive-armtex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -46,9 +46,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(fontenc.sty) \
-tex(kvoptions.sty) \
-tex(updmap.cfg) \
+tex-fontenc.sty \
+tex-kvoptions.sty \
+tex-updmap.cfg \
 texlive \
 texlive-armtex-fonts \
 texlive-filesystem \

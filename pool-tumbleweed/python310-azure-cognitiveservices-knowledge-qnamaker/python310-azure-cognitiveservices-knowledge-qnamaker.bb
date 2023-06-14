@@ -11,11 +11,11 @@ RPM_HASH = "892f9936155978edea5ae66cc9615413ba122c8213a5c6017add07a48846fcb10095
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-knowledge-qnamaker \
-python3.10dist(azure-cognitiveservices-knowledge-qnamaker) \
+python3.10dist-azure-cognitiveservices-knowledge-qnamaker \
 python310-azure-cognitiveservices-knowledge-qnamaker \
-python3dist(azure-cognitiveservices-knowledge-qnamaker)"
+python3dist-azure-cognitiveservices-knowledge-qnamaker"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-knowledge-nspkg \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \

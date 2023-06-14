@@ -9,10 +9,9 @@ RPM_NAME = "python310-matplotlib-testdata-3.6.3-2.1.aarch64.rpm"
 RPM_HASH = "d85b64acbb056563209b81106f690d67dc7e3c303884a68c964bf1f6361ddc72a4a2a9962b2975300035d5284a05ae7097225ee9a9c62fada0ca11da56c1f3b4"
 
 RPROVIDES:${PN} += "python3-matplotlib-testdata \
-python310-matplotlib-testdata \
-python310-matplotlib-testdata(aarch-64)"
+python310-matplotlib-testdata"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib"
 
 inherit rpm

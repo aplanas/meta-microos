@@ -13,12 +13,11 @@ PV = "5.46.0"
 RPM_NAME = "maxima-5.46.0-1.20.aarch64.rpm"
 RPM_HASH = "c060fe2142e651e4adb24cb6f25fa531dfc5fbb1318c6714dfe8fe5cacab9ee3db9fac80adca183487e6106549dfd891123cd27a35d3e7e803d5d9ef1c1521d4"
 
-RPROVIDES:${PN} += "maxima \
-maxima(aarch-64)"
+RPROVIDES:${PN} += "maxima"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnuplot \
-maxima_exec \
+maxima-exec \
 plotutils \
 rlwrap"
 

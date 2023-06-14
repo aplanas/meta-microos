@@ -11,13 +11,12 @@ PV = "2.5.1"
 RPM_NAME = "libmpdec3-2.5.1-2.13.aarch64.rpm"
 RPM_HASH = "c6a626ba382a8f89071dce10b99968db7fb616c0030aefcebd1acb80054730297f7590eb1c5279438726fd9f9388a493af000049f28601521baae493aee5d55a"
 
-RPROVIDES:${PN} += "libmpdec.so.3()(64bit) \
-libmpdec3 \
-libmpdec3(aarch-64)"
+RPROVIDES:${PN} += "libmpdec.so.3 \
+libmpdec3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-bjfuthesis-2023.201.1.2.1svn59809-52.1.noarch.rpm"
 RPM_HASH = "36bca1ed287cef8d55086719f458d350dc9f324a8a17c5eda765c6d5c92af1352abed7e9cfa20f8d335473ef14293a8a2c4742f2ce086754eec7381c99012f00"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bjfuthesis.cls) \
+RPROVIDES:${PN} += "tex-bjfuthesis.cls \
 texlive-bjfuthesis"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,21 +21,21 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(biblatex.sty) \
-tex(bicaption.sty) \
-tex(booktabs.sty) \
-tex(ctexbook.cls) \
-tex(etoolbox.sty) \
-tex(fancyhdr.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(iftex.sty) \
-tex(pdfpages.sty) \
-tex(silence.sty) \
-tex(titlesec.sty) \
-tex(titletoc.sty) \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-biblatex.sty \
+tex-bicaption.sty \
+tex-booktabs.sty \
+tex-ctexbook.cls \
+tex-etoolbox.sty \
+tex-fancyhdr.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-iftex.sty \
+tex-pdfpages.sty \
+tex-silence.sty \
+tex-titlesec.sty \
+tex-titletoc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,7 +9,7 @@ RPM_HASH = "f8e4637c33c9389bb010142f28c56009477143428732b975d26210cfcd572be7465c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi-sharp-devel \
-pkgconfig(at-spi-sharp)"
+pkgconfig-at-spi-sharp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 at-spi-sharp"

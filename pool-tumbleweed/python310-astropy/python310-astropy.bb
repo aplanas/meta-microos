@@ -11,20 +11,19 @@ RPM_NAME = "python310-astropy-5.2.2-1.1.aarch64.rpm"
 RPM_HASH = "a68518cbf343cda85f3f7f5cde1f2cdc38fde92775ec49ca9d1c857ab17f0d7ffac1de399dec989647cef59ec71448caa46de552a357504badc9a3c5f4f316c1"
 
 RPROVIDES:${PN} += "python3-astropy \
-python3.10dist(astropy) \
+python3.10dist-astropy \
 python310-astropy \
-python310-astropy(aarch-64) \
-python3dist(astropy)"
+python3dist-astropy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libexpat.so.1()(64bit) \
-libm.so.6()(64bit) \
-libwcs.so.7()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcfitsio.so.10 \
+libexpat.so.1 \
+libm.so.6 \
+libwcs.so.7 \
+python-abi \
 python310-PyYAML \
 python310-dbm \
 python310-numpy \

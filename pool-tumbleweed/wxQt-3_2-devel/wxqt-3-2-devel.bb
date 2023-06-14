@@ -16,34 +16,33 @@ PV = "3.2.2.1"
 RPM_NAME = "wxQt-3_2-devel-3.2.2.1-3.1.aarch64.rpm"
 RPM_HASH = "10ce7b9e6089d75e9d93fd714995ee324e959361d446db3c1907375745f03328e6222764326b5da1ac5fad5e94ccd142040c97f54a4e7afdb23e43e133592f1e"
 
-RPROVIDES:${PN} += "wxQt-3_2-devel \
-wxQt-3_2-devel(aarch-64) \
+RPROVIDES:${PN} += "wxQt-3-2-devel \
 wxQt-devel \
 wxWidgets-any-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_base-suse-devel \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_qtu_adv-suse9_0_0 \
-libwx_qtu_aui-suse9_0_0 \
-libwx_qtu_core-suse9_0_0 \
-libwx_qtu_gl-suse9_0_0 \
-libwx_qtu_html-suse9_0_0 \
-libwx_qtu_media-suse9_0_0 \
-libwx_qtu_propgrid-suse9_0_0 \
-libwx_qtu_qa-suse9_0_0 \
-libwx_qtu_ribbon-suse9_0_0 \
-libwx_qtu_richtext-suse9_0_0 \
-libwx_qtu_stc-suse9_0_0 \
-libwx_qtu_xrc-suse9_0_0 \
-pkgconfig(Qt5OpenGL) \
-pkgconfig(Qt5Widgets) \
-pkgconfig(gl) \
-pkgconfig(glu)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwx-base-suse-devel \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-qtu-adv-suse9-0-0 \
+libwx-qtu-aui-suse9-0-0 \
+libwx-qtu-core-suse9-0-0 \
+libwx-qtu-gl-suse9-0-0 \
+libwx-qtu-html-suse9-0-0 \
+libwx-qtu-media-suse9-0-0 \
+libwx-qtu-propgrid-suse9-0-0 \
+libwx-qtu-qa-suse9-0-0 \
+libwx-qtu-ribbon-suse9-0-0 \
+libwx-qtu-richtext-suse9-0-0 \
+libwx-qtu-stc-suse9-0-0 \
+libwx-qtu-xrc-suse9-0-0 \
+pkgconfig-Qt5OpenGL \
+pkgconfig-Qt5Widgets \
+pkgconfig-gl \
+pkgconfig-glu"
 
 inherit rpm

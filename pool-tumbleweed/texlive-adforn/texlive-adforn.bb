@@ -12,11 +12,11 @@ RPM_NAME = "texlive-adforn-2023.201.1.1bsvn54512-54.1.noarch.rpm"
 RPM_HASH = "d4a4ccb0780d2acb0e81e78a0d27ff76070d6c273a297aca28b8fb6aefbb223880f203fe4edc393f9bba96ffe1774e7b47f8db33355eeeeb21d62124e2b84a49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(OrnementsADF.enc) \
-tex(OrnementsADF.map) \
-tex(OrnementsADF.tfm) \
-tex(adforn.sty) \
-tex(uornementsadf.fd) \
+RPROVIDES:${PN} += "tex-OrnementsADF.enc \
+tex-OrnementsADF.map \
+tex-OrnementsADF.tfm \
+tex-adforn.sty \
+tex-uornementsadf.fd \
 texlive-adforn"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,8 +25,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(pifont.sty) \
-tex(updmap.cfg) \
+tex-pifont.sty \
+tex-updmap.cfg \
 texlive \
 texlive-adforn-fonts \
 texlive-filesystem \

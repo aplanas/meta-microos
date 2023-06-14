@@ -13,7 +13,7 @@ RPM_NAME = "texlive-bibleref-mouth-2023.201.1.0svn25527-53.1.noarch.rpm"
 RPM_HASH = "ef391c3c8131210a4c6dd42108d7d1de8b0bf4472fbd8a1e13f2ed0cf3afcb6d85ddfbc8940dfb30a10dfcbc8a28700fc4c05ec7c7ea66a4fa538eee8317e97b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bibleref-mouth.sty) \
+RPROVIDES:${PN} += "tex-bibleref-mouth.sty \
 texlive-bibleref-mouth"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(fmtcount.sty) \
-tex(hyperref.sty) \
+tex-fmtcount.sty \
+tex-hyperref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

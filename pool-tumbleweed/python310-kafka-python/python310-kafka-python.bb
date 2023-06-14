@@ -12,10 +12,10 @@ RPM_HASH = "b837b9bfb698db356106c47fdfe10d1cc13077068beaef9a76a722e299fbc723fcd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kafka-python \
-python3.10dist(kafka-python) \
+python3.10dist-kafka-python \
 python310-kafka-python \
-python3dist(kafka-python)"
+python3dist-kafka-python"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

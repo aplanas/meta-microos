@@ -15,46 +15,45 @@ PV = "2.6.1"
 RPM_NAME = "libgensio4-2.6.1-1.4.aarch64.rpm"
 RPM_HASH = "088dfbc4d165554ca3f39dee1eaa87d9bfd4ed5d4922a3eefb93d51d717ff6bcb11476495b9e8cd178ed1b784e3b5033bf814b7e41a1f0806208c398b2366cc8"
 
-RPROVIDES:${PN} += "libgensio.so.4()(64bit) \
-libgensio4 \
-libgensio4(aarch-64) \
-libgensio_afskmdm.so()(64bit) \
-libgensio_ax25.so()(64bit) \
-libgensio_certauth.so()(64bit) \
-libgensio_conacc.so()(64bit) \
-libgensio_dummy.so()(64bit) \
-libgensio_echo.so()(64bit) \
-libgensio_file.so()(64bit) \
-libgensio_ipmisol.so()(64bit) \
-libgensio_keepopen.so()(64bit) \
-libgensio_kiss.so()(64bit) \
-libgensio_mdns.so()(64bit) \
-libgensio_msgdelim.so()(64bit) \
-libgensio_mux.so()(64bit) \
-libgensio_net.so()(64bit) \
-libgensio_perf.so()(64bit) \
-libgensio_pty.so()(64bit) \
-libgensio_ratelimit.so()(64bit) \
-libgensio_relpkt.so()(64bit) \
-libgensio_script.so()(64bit) \
-libgensio_sctp.so()(64bit) \
-libgensio_serialdev.so()(64bit) \
-libgensio_sound.so()(64bit) \
-libgensio_ssl.so()(64bit) \
-libgensio_stdio.so()(64bit) \
-libgensio_telnet.so()(64bit) \
-libgensio_trace.so()(64bit) \
-libgensio_udp.so()(64bit) \
-libgensio_xlt.so()(64bit)"
+RPROVIDES:${PN} += "libgensio-afskmdm.so \
+libgensio-ax25.so \
+libgensio-certauth.so \
+libgensio-conacc.so \
+libgensio-dummy.so \
+libgensio-echo.so \
+libgensio-file.so \
+libgensio-ipmisol.so \
+libgensio-keepopen.so \
+libgensio-kiss.so \
+libgensio-mdns.so \
+libgensio-msgdelim.so \
+libgensio-mux.so \
+libgensio-net.so \
+libgensio-perf.so \
+libgensio-pty.so \
+libgensio-ratelimit.so \
+libgensio-relpkt.so \
+libgensio-script.so \
+libgensio-sctp.so \
+libgensio-serialdev.so \
+libgensio-sound.so \
+libgensio-ssl.so \
+libgensio-stdio.so \
+libgensio-telnet.so \
+libgensio-trace.so \
+libgensio-udp.so \
+libgensio-xlt.so \
+libgensio.so.4 \
+libgensio4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenIPMI.so.0()(64bit) \
-libOpenIPMIutils.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgensiomdns.so.0()(64bit) \
-libgensioosh.so.0()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenIPMI.so.0 \
+libOpenIPMIutils.so.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libgensiomdns.so.0 \
+libgensioosh.so.0 \
+libssl.so.3"
 
 inherit rpm

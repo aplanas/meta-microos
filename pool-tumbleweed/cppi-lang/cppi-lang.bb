@@ -10,19 +10,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cppi-lang \
 cppi-lang-all \
-locale(cppi:de) \
-locale(cppi:eo) \
-locale(cppi:fi) \
-locale(cppi:fr) \
-locale(cppi:gl) \
-locale(cppi:hr) \
-locale(cppi:it) \
-locale(cppi:ja) \
-locale(cppi:pl) \
-locale(cppi:sr) \
-locale(cppi:sv) \
-locale(cppi:uk) \
-locale(cppi:vi)"
+locale-cppi-de \
+locale-cppi-eo \
+locale-cppi-fi \
+locale-cppi-fr \
+locale-cppi-gl \
+locale-cppi-hr \
+locale-cppi-it \
+locale-cppi-ja \
+locale-cppi-pl \
+locale-cppi-sr \
+locale-cppi-sv \
+locale-cppi-uk \
+locale-cppi-vi"
 
 RDEPENDS:${PN} += "cppi"
 

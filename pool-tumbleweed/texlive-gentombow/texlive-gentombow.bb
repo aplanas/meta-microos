@@ -17,12 +17,12 @@ RPM_NAME = "texlive-gentombow-2023.201.svn64333-52.1.noarch.rpm"
 RPM_HASH = "486314867af4fccf8a993bca6893a6e46636006f6873c841316ec95f3801df7d6c314081985b71baa49ac1298cb9279d1e423783af9f9e8b4cd13154f33dca35"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bounddvi.sty) \
-tex(gentombow.sty) \
-tex(pxesopic.sty) \
-tex(pxgentombow.sty) \
-tex(pxpdfpages.sty) \
-tex(pxtextpos.sty) \
+RPROVIDES:${PN} += "tex-bounddvi.sty \
+tex-gentombow.sty \
+tex-pxesopic.sty \
+tex-pxgentombow.sty \
+tex-pxpdfpages.sty \
+tex-pxtextpos.sty \
 texlive-gentombow"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,14 +31,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(atbegshi.sty) \
-tex(eso-pic.sty) \
-tex(etoolbox.sty) \
-tex(filehook.sty) \
-tex(pdfpages.sty) \
-tex(pxatbegshi.sty) \
-tex(pxeveryshi.sty) \
-tex(textpos.sty) \
+tex-atbegshi.sty \
+tex-eso-pic.sty \
+tex-etoolbox.sty \
+tex-filehook.sty \
+tex-pdfpages.sty \
+tex-pxatbegshi.sty \
+tex-pxeveryshi.sty \
+tex-textpos.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

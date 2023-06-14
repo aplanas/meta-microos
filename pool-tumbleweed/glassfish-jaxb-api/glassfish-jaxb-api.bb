@@ -9,12 +9,12 @@ RPM_HASH = "8611a33b00eb5d91785c9384392dd4f61684f292d23371eea6161fb9be227e599793
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-api \
-mvn(javax.xml.bind:jaxb-api) \
-mvn(javax.xml.bind:jaxb-api:pom:) \
-osgi(jaxb-api)"
+mvn-javax.xml.bind-jaxb-api \
+mvn-javax.xml.bind-jaxb-api-pom- \
+osgi-jaxb-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.activation:javax.activation-api)"
+mvn-javax.activation-javax.activation-api"
 
 inherit rpm

@@ -14,20 +14,19 @@ PV = "2.0.15"
 RPM_NAME = "mosquitto-2.0.15-1.4.aarch64.rpm"
 RPM_HASH = "9bc2ecf14bda975459d8666443e0f2e202867778e3d5c59bcc97402cae40af1576528e203226f7a8d8e69dcfcfd4522657e5c14c7f5e342f9b97747a2d9865c9"
 
-RPROVIDES:${PN} += "config(mosquitto) \
-mosquitto \
-mosquitto(aarch-64)"
+RPROVIDES:${PN} += "config-mosquitto \
+mosquitto"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcjson.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libmosquitto.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libwebsockets.so.19()(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcjson.so.1 \
+libcrypto.so.3 \
+libm.so.6 \
+libmosquitto.so.1 \
+libssl.so.3 \
+libwebsockets.so.19 \
+libwrap.so.0 \
 shadow"
 
 inherit rpm

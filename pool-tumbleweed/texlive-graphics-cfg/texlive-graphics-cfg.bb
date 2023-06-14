@@ -13,8 +13,8 @@ RPM_NAME = "texlive-graphics-cfg-2023.201.svn41448-53.1.noarch.rpm"
 RPM_HASH = "73409d197aba790ae56bedb5b246fb0da6e1808150a393c4d502593b06ac81346eb03f881ece52a1c39de174a70f73a0ffea46dfdae39aa5d5a0a0a60170ee9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(color.cfg) \
-tex(graphics.cfg) \
+RPROVIDES:${PN} += "tex-color.cfg \
+tex-graphics.cfg \
 texlive-graphics-cfg"
 
 RDEPENDS:${PN} += "/bin/sh \

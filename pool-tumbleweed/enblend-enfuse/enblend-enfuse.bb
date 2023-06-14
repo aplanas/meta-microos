@@ -18,20 +18,19 @@ RPM_HASH = "957692bb26b491f822178bbe4ffda7589dcb8ba5b09d883cf470be48d4cf3bd8b7ce
 
 RPROVIDES:${PN} += "enblend \
 enblend-enfuse \
-enblend-enfuse(aarch-64) \
 enfuse"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libvigraimpex.so.11()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+liblcms2.so.2 \
+libm.so.6 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libvigraimpex.so.11"
 
 inherit rpm

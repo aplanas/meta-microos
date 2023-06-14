@@ -16,25 +16,17 @@ PV = "0.9.8"
 RPM_NAME = "QtDMM-0.9.8-4.1.aarch64.rpm"
 RPM_HASH = "b4c0d81fdb2f5e32c601c5049f57dee23b03e6065d6486c83570e31ffc3eed0de8d2553dc345599cdc7b43ba329ac639ad7f1cc3f741033375a8d6ed3c6ac3f8"
 
-RPROVIDES:${PN} += "QtDMM \
-QtDMM(aarch-64) \
-application() \
-application(QtDMM.desktop)"
+RPROVIDES:${PN} += "QtDMM"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5SerialPort.so.5()(64bit) \
-libQt5SerialPort.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5SerialPort.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

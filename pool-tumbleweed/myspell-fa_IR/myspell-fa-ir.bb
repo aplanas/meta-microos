@@ -8,10 +8,10 @@ RPM_NAME = "myspell-fa_IR-20221012-1.2.noarch.rpm"
 RPM_HASH = "f79aa96fc35a8d89cedb49dcf0e6c6a36c7fcf77579569b3436b3e8d28378f6611d03a212694c7bb33e599ddfe624f526f91d6412625d73db68d88feadcc5fce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:fa_IR) \
-locale(seamonkey-spellchecker:fa_IR) \
+RPROVIDES:${PN} += "locale-libreoffice-fa-IR \
+locale-seamonkey-spellchecker-fa-IR \
 myspell-dictionary \
-myspell-fa_IR"
+myspell-fa-IR"
 
 RDEPENDS:${PN} += "myspell-dictionaries"
 

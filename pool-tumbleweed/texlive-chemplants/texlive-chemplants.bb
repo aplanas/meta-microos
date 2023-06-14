@@ -14,7 +14,7 @@ RPM_NAME = "texlive-chemplants-2023.201.0.0.9.9svn60606-53.1.noarch.rpm"
 RPM_HASH = "e727f64bca76ece40a1f4c34aa6b1f7db735355befc8d2de5235e70c606b14f510b223b4a32699606e10b3c6f8e0afae4450423719ba3c5bd76ab6e8d9542eba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chemplants.sty) \
+RPROVIDES:${PN} += "tex-chemplants.sty \
 texlive-chemplants"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(tikz.sty) \
+tex-ifthen.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

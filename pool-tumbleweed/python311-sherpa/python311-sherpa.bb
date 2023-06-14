@@ -9,20 +9,19 @@ PV = "4.15.1"
 RPM_NAME = "python311-sherpa-4.15.1-1.1.aarch64.rpm"
 RPM_HASH = "bab1126b737c903c80e3ca2c7a2ad9b78d33d98831d3bd5e1f9aaa0cfe79ed83778c2493525ecc0faeb2af1941b8c88064b74e94a6b98e4d99d77c52818c92c3"
 
-RPROVIDES:${PN} += "python3.11dist(sherpa) \
+RPROVIDES:${PN} += "python3.11dist-sherpa \
 python311-sherpa \
-python311-sherpa(aarch-64) \
-python3dist(sherpa)"
+python3dist-sherpa"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python311-numpy \
 update-alternatives"
 

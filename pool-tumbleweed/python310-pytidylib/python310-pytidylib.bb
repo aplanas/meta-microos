@@ -30,10 +30,10 @@ RPM_HASH = "b4eea1199e71e99a59b422340e16cce80fff7dfc54445c0750549c9fb36d7a9d8752
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytidylib \
-python3.10dist(pytidylib) \
+python3.10dist-pytidylib \
 python310-pytidylib \
-python3dist(pytidylib)"
+python3dist-pytidylib"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

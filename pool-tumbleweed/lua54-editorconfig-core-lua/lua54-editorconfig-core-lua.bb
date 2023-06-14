@@ -15,12 +15,11 @@ RPM_HASH = "888ed9acf44eab6e943a06594b8aa26cb985a9d5a9c0d4363d3fd3f5ceb082310371
 
 RPROVIDES:${PN} += "lua-editorconfig-core-lua \
 lua54-LPeg \
-lua54-editorconfig-core-lua \
-lua54-editorconfig-core-lua(aarch-64)"
+lua54-editorconfig-core-lua"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libeditorconfig.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libeditorconfig.so.0 \
 lua54"
 
 inherit rpm

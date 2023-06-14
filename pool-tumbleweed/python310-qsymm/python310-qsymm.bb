@@ -11,11 +11,11 @@ RPM_HASH = "4c227b8d475c73db85081df12c67cdb8d6e2999ee7d23e897f85bf9884184cc3346a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-qsymm \
-python3.10dist(qsymm) \
+python3.10dist-qsymm \
 python310-qsymm \
-python3dist(qsymm)"
+python3dist-qsymm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-scipy \
 python310-sympy \

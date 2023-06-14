@@ -9,19 +9,16 @@ PV = "5.106.0"
 RPM_NAME = "libKF5UnitConversion5-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "8b1a0c3a44ecdcbb2ef52932dcb03c8bbf5fe2b7469061d5ad3749135274555e34bf95d48825580a4b37efcbb979bafd111cd22d917fb856bccea29b222d2341"
 
-RPROVIDES:${PN} += "libKF5UnitConversion.so.5()(64bit) \
-libKF5UnitConversion5 \
-libKF5UnitConversion5(aarch-64)"
+RPROVIDES:${PN} += "libKF5UnitConversion.so.5 \
+libKF5UnitConversion5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5I18n.so.5 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

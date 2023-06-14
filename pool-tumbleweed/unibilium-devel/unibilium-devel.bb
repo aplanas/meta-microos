@@ -11,9 +11,8 @@ PV = "2.1.1"
 RPM_NAME = "unibilium-devel-2.1.1-1.7.aarch64.rpm"
 RPM_HASH = "dc0f90ff60fc16dea8779ba00a8696aaa54c6736caf85d4f310529cd8c4d39797f4aeaf3903c8abbcf004755e23141a3b9cfa0e78b95ce0609c21ca61755a41e"
 
-RPROVIDES:${PN} += "pkgconfig(unibilium) \
-unibilium-devel \
-unibilium-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-unibilium \
+unibilium-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libunibilium4"

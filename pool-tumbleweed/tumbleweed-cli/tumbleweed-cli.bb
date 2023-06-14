@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "/usr/bin/env \
 coreutils \
 curl \
 grep \
-libzypp(repovarexpand) \
+libzypp-repovarexpand \
 sudo \
 zypper"
 

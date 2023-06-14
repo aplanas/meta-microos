@@ -17,9 +17,9 @@ RPM_NAME = "perl-XML-RegExp-0.04-9.26.noarch.rpm"
 RPM_HASH = "1a2d9db8118dd5d2f7e30a6d664af837f7633d0bf31f64a881c16e45ca179cdad616a126abf06d580150f2684ec70aab165770bd326f7e70be822e035215e40b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::RegExp) \
+RPROVIDES:${PN} += "perl-XML--RegExp \
 perl-XML-RegExp"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

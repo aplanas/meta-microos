@@ -7,17 +7,16 @@ PV = "5.2.0"
 RPM_NAME = "lua-libprelude-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "81e5a8f7150d6548de31231fc791a4411e599e92d4504299a534584f7efa5ae2ed5946575d6d594412e4424470be7aadf5c3eb957631fe0f680c7ded23a11a6c"
 
-RPROVIDES:${PN} += "lua-libprelude \
-lua-libprelude(aarch-64)"
+RPROVIDES:${PN} += "lua-libprelude"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.4.so.5()(64bit) \
-libprelude.so.28()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+liblua5.4.so.5 \
+libprelude.so.28 \
 libprelude28 \
-libpreludecpp.so.12()(64bit) \
-libstdc++.so.6()(64bit) \
+libpreludecpp.so.12 \
+libstdc++.so.6 \
 lua"
 
 inherit rpm

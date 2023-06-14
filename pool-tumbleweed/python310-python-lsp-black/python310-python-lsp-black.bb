@@ -17,11 +17,11 @@ RPM_HASH = "70a431587ce59c53bf1b68a648d7e72d900c529578c8698f0fe6b96a07c86de9c21c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-lsp-black \
-python3.10dist(python-lsp-black) \
+python3.10dist-python-lsp-black \
 python310-python-lsp-black \
-python3dist(python-lsp-black)"
+python3dist-python-lsp-black"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-black \
 python310-python-lsp-server \
 python310-toml"

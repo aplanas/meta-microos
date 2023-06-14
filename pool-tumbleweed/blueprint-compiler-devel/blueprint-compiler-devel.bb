@@ -9,7 +9,7 @@ RPM_HASH = "8e812ee6271505abc879868c5abdcfe28a9f92d0328800569c71074c1d4b3905b3f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueprint-compiler-devel \
-pkgconfig(blueprint-compiler)"
+pkgconfig-blueprint-compiler"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 blueprint-compiler"

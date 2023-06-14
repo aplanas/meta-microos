@@ -15,13 +15,12 @@ PV = "2.8.6"
 RPM_NAME = "arm-trusted-firmware-tools-2.8.6-1.1.aarch64.rpm"
 RPM_HASH = "bc3619835e165b6e56e2da442bbc30635db381a638494c852087ebc68ca3cc26b170064591bd123f340226b1f7812ee800d6d6a0d7a0a573fb19524afe1a08a7"
 
-RPROVIDES:${PN} += "arm-trusted-firmware-tools \
-arm-trusted-firmware-tools(aarch-64)"
+RPROVIDES:${PN} += "arm-trusted-firmware-tools"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcryptopp.so.8.7.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libcrypto.so.3 \
+libcryptopp.so.8.7.0 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

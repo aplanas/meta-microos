@@ -14,11 +14,11 @@ RPM_HASH = "632903a2fac6640048e5e7df29b9862a2c905e17634d955cca8e00ac31289ef9e5c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-paramiko-expect \
-python3.10dist(paramiko-expect) \
+python3.10dist-paramiko-expect \
 python310-paramiko-expect \
-python3dist(paramiko-expect)"
+python3dist-paramiko-expect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-paramiko"
 
 inherit rpm

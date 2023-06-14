@@ -10,10 +10,9 @@ PV = "0.67"
 RPM_NAME = "moreutils-parallel-0.67-2.2.aarch64.rpm"
 RPM_HASH = "8da469795555d98899089d638f954930d01d205928eb54a648201bfcc548faed15bc851cff7a90cf522b13ba6c23c8b864b1bb0d708ab1b1f530f0d5d39e57c5"
 
-RPROVIDES:${PN} += "moreutils-parallel \
-moreutils-parallel(aarch-64)"
+RPROVIDES:${PN} += "moreutils-parallel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

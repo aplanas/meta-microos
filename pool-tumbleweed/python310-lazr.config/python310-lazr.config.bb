@@ -9,11 +9,11 @@ RPM_HASH = "89336840578ce8f25172ecd7eea03064e83c4c714a73d8818e1549d8aad535412050
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lazr.config \
-python3.10dist(lazr.config) \
+python3.10dist-lazr.config \
 python310-lazr.config \
-python3dist(lazr.config)"
+python3dist-lazr.config"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lazr.delegates \
 python310-zope.interface"
 

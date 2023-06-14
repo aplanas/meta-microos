@@ -9,10 +9,10 @@ RPM_HASH = "40cf1ecc3c812c91962e0dfa50d4a87c5174bb0044f2bc3ee7d4c76dcbb07156f7b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyleri \
-python3.10dist(pyleri) \
+python3.10dist-pyleri \
 python310-pyleri \
-python3dist(pyleri)"
+python3dist-pyleri"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

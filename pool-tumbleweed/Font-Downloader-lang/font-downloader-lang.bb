@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Font-Downloader-lang \
 Font-Downloader-lang-all \
-locale(Font-Downloader:bn) \
-locale(Font-Downloader:ca) \
-locale(Font-Downloader:cs) \
-locale(Font-Downloader:de) \
-locale(Font-Downloader:en_GB) \
-locale(Font-Downloader:es) \
-locale(Font-Downloader:fa) \
-locale(Font-Downloader:fi) \
-locale(Font-Downloader:gl) \
-locale(Font-Downloader:he) \
-locale(Font-Downloader:hi) \
-locale(Font-Downloader:hr) \
-locale(Font-Downloader:id) \
-locale(Font-Downloader:ja) \
-locale(Font-Downloader:nl) \
-locale(Font-Downloader:pl) \
-locale(Font-Downloader:pt_BR) \
-locale(Font-Downloader:pt_PT) \
-locale(Font-Downloader:ru) \
-locale(Font-Downloader:sv) \
-locale(Font-Downloader:tr) \
-locale(Font-Downloader:zh_CN)"
+locale-Font-Downloader-bn \
+locale-Font-Downloader-ca \
+locale-Font-Downloader-cs \
+locale-Font-Downloader-de \
+locale-Font-Downloader-en-GB \
+locale-Font-Downloader-es \
+locale-Font-Downloader-fa \
+locale-Font-Downloader-fi \
+locale-Font-Downloader-gl \
+locale-Font-Downloader-he \
+locale-Font-Downloader-hi \
+locale-Font-Downloader-hr \
+locale-Font-Downloader-id \
+locale-Font-Downloader-ja \
+locale-Font-Downloader-nl \
+locale-Font-Downloader-pl \
+locale-Font-Downloader-pt-BR \
+locale-Font-Downloader-pt-PT \
+locale-Font-Downloader-ru \
+locale-Font-Downloader-sv \
+locale-Font-Downloader-tr \
+locale-Font-Downloader-zh-CN"
 
 RDEPENDS:${PN} += "Font-Downloader"
 

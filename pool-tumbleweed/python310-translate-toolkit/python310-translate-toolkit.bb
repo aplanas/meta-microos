@@ -25,16 +25,16 @@ RPM_HASH = "6b775f37b7bcdb94028904f25fa9fda7a477ff02aeb40787c381e3781dbce91e8b9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-translate-toolkit \
-python3.10dist(translate-toolkit) \
+python3.10dist-translate-toolkit \
 python310-translate-toolkit \
-python3dist(translate-toolkit) \
+python3dist-translate-toolkit \
 translate-toolkit"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \
 gettext-runtime \
-python(abi) \
+python-abi \
 python310 \
 python310-lxml \
 python310-setuptools \

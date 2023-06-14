@@ -12,8 +12,7 @@ RPM_NAME = "clucene-core-devel-2.3.3.4-18.5.aarch64.rpm"
 RPM_HASH = "99496e06fd0d2bcff4dd8ac988720c05f7762ded6e35282e94676d74742c69070733638c8963fb2455f3c6091d67db360521782c4ec767411814849dbc0222e9"
 
 RPROVIDES:${PN} += "clucene-core-devel \
-clucene-core-devel(aarch-64) \
-pkgconfig(libclucene-core)"
+pkgconfig-libclucene-core"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclucene-contribs-lib1 \

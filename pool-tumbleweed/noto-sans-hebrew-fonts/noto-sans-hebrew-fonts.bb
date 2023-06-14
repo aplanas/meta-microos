@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-hebrew \
 noto-sans-hebrew-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

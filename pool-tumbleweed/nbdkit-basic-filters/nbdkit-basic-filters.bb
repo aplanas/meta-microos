@@ -84,7 +84,6 @@ RPM_NAME = "nbdkit-basic-filters-1.32.2-1.3.aarch64.rpm"
 RPM_HASH = "428b5adb86aaac9ce55fc457a00e2679764a6180f772c86d76b27527763dabfd370674cdc9966b6c1a57f087844ce593d451d5f5219e46b3e24c474d2dbd0bf8"
 
 RPROVIDES:${PN} += "nbdkit-basic-filters \
-nbdkit-basic-filters(aarch-64) \
 nbdkit-blocksize-filter \
 nbdkit-blocksize-policy-filter \
 nbdkit-cache-filter \
@@ -122,13 +121,11 @@ nbdkit-swab-filter \
 nbdkit-tls-fallback-filter \
 nbdkit-truncate-filter"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libgnutls.so.30(GNUTLS_3_6_13)(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgnutls.so.30 \
+libstdc++.so.6 \
 nbdkit-server"
 
 inherit rpm

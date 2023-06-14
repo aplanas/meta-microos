@@ -12,7 +12,7 @@ RPM_NAME = "texlive-tikz-bbox-2023.201.0.0.1svn57444-54.1.noarch.rpm"
 RPM_HASH = "416f5969ca0047efe8286fe9f51f7b5153e1bb7072ff97ee3d7cfc3699c665fdb3385af5218dca2a51b3e82c16d5d663be4fbaf7dbc904479b79c95f36773dc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pgflibrarybbox.code.tex) \
+RPROVIDES:${PN} += "tex-pgflibrarybbox.code.tex \
 texlive-tikz-bbox"
 
 RDEPENDS:${PN} += "/bin/sh \

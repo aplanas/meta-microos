@@ -17,13 +17,12 @@ PV = "0.11.0"
 RPM_NAME = "python39-netifaces-0.11.0-2.1.aarch64.rpm"
 RPM_HASH = "ca515968a729afb21ba1ffb94fad1ea060b06a9e324ed3676000cb4497217273220bfe81675a9b5c04ac166e941a84e1959d8a565abc4ec012ceb768d92b1b07"
 
-RPROVIDES:${PN} += "python3.9dist(netifaces) \
+RPROVIDES:${PN} += "python3.9dist-netifaces \
 python39-netifaces \
-python39-netifaces(aarch-64) \
-python3dist(netifaces)"
+python3dist-netifaces"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

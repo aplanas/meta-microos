@@ -12,9 +12,8 @@ PV = "5.3.5"
 RPM_NAME = "mumps_5_3_5-gnu-openmpi3-hpc-devel-static-5.3.5-3.2.aarch64.rpm"
 RPM_HASH = "e1329adb4634ee78005f02af545c3f02cc8da6c937a9ca762082d6f3d6c6052eb6fde1378fd9a16bcfc45812475b530d21273535aea37397dd4297c4ef08c9ec"
 
-RPROVIDES:${PN} += "mumps_5_3_5-gnu-openmpi3-hpc-devel-static \
-mumps_5_3_5-gnu-openmpi3-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "mumps-5-3-5-gnu-openmpi3-hpc-devel-static"
 
-RDEPENDS:${PN} += "mumps_5_3_5-gnu-openmpi3-hpc-devel"
+RDEPENDS:${PN} += "mumps-5-3-5-gnu-openmpi3-hpc-devel"
 
 inherit rpm

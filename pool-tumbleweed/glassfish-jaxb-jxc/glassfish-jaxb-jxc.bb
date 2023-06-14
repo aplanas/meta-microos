@@ -9,16 +9,16 @@ RPM_HASH = "23b301593751d593fa8f366ca013ce7b5fed2b42c2996144e64213767f649140281d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-jxc \
-mvn(org.glassfish.jaxb:jaxb-jxc) \
-mvn(org.glassfish.jaxb:jaxb-jxc-jdk9) \
-mvn(org.glassfish.jaxb:jaxb-jxc-jdk9:pom:) \
-mvn(org.glassfish.jaxb:jaxb-jxc:pom:)"
+mvn-org.glassfish.jaxb-jaxb-jxc \
+mvn-org.glassfish.jaxb-jaxb-jxc-jdk9 \
+mvn-org.glassfish.jaxb-jaxb-jxc-jdk9-pom- \
+mvn-org.glassfish.jaxb-jaxb-jxc-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.sun.istack:istack-commons-runtime) \
-mvn(org.glassfish.jaxb:jaxb-runtime) \
-mvn(org.glassfish.jaxb:jaxb-xjc) \
-mvn(org.glassfish.jaxb:txw2)"
+mvn-com.sun.istack-istack-commons-runtime \
+mvn-org.glassfish.jaxb-jaxb-runtime \
+mvn-org.glassfish.jaxb-jaxb-xjc \
+mvn-org.glassfish.jaxb-txw2"
 
 inherit rpm

@@ -15,22 +15,22 @@ RPROVIDES:${PN} += "orca"
 RDEPENDS:${PN} += "/usr/bin/python3 \
 glib2-tools \
 py3atspi \
-python(abi) \
+python-abi \
 python3-brlapi \
 python3-gobject \
 python3-gobject-Gdk \
 python3-louis \
 python3-speechd \
-typelib(Atk) \
-typelib(Atspi) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkX11) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(Gtk) \
-typelib(Pango) \
-typelib(Wnck)"
+typelib-Atk \
+typelib-Atspi \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkX11 \
+typelib-Gio \
+typelib-Gst \
+typelib-Gtk \
+typelib-Pango \
+typelib-Wnck"
 
 inherit rpm

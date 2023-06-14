@@ -15,8 +15,8 @@ RPM_HASH = "77df268cc19fe70c1c48a1d7873333eaa0dd481dac22922fe67d3c7ea88b70c776be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cli11-devel \
-cmake(CLI11) \
-pkgconfig(CLI11)"
+cmake-CLI11 \
+pkgconfig-CLI11"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

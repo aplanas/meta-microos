@@ -10,13 +10,13 @@ RPM_HASH = "6dede961786266eaa3f53be85afacdd999e68b636404c2e944899591da88aad02d7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "languagetool-tools \
-mvn(org.languagetool:languagetool-tools) \
-mvn(org.languagetool:languagetool-tools:pom:)"
+mvn-org.languagetool-languagetool-tools \
+mvn-org.languagetool-languagetool-tools-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-cli:commons-cli) \
-mvn(org.carrot2:morfologik-tools) \
-mvn(org.languagetool:languagetool-core)"
+mvn-commons-cli-commons-cli \
+mvn-org.carrot2-morfologik-tools \
+mvn-org.languagetool-languagetool-core"
 
 inherit rpm

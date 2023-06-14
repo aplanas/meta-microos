@@ -18,16 +18,15 @@ PV = "20230302"
 RPM_NAME = "scamper-20230302-1.3.aarch64.rpm"
 RPM_HASH = "901af4fbd00887b277ce638ce2ef1d05ac577c500855981f7ce900fa25b5a21cc722abe34d08fe50538bc1d7244ecaa070420f3806d46111484b06743fa1853b"
 
-RPROVIDES:${PN} += "scamper \
-scamper(aarch-64)"
+RPROVIDES:${PN} += "scamper"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libscamperctrl.so.1()(64bit) \
-libscamperfile.so.5()(64bit) \
-libssl.so.3()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libscamperctrl.so.1 \
+libscamperfile.so.5 \
+libssl.so.3 \
+libz.so.1"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "95a2366cb68201cb48e33e95be6904107420af38e7808d6f4d5b45b7f5d834c59c03
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ndesk-dbus-glib-devel \
-pkgconfig(ndesk-dbus-glib-1.0)"
+pkgconfig-ndesk-dbus-glib-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ndesk-dbus-glib \
-pkgconfig(ndesk-dbus-1.0)"
+pkgconfig-ndesk-dbus-1.0"
 
 inherit rpm

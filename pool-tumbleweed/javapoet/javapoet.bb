@@ -9,8 +9,8 @@ RPM_HASH = "6370ecf843e1d53733c222ab152b6e716fe6e339f4185acbdae3450a08ada30d29b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javapoet \
-mvn(com.squareup:javapoet) \
-mvn(com.squareup:javapoet:pom:)"
+mvn-com.squareup-javapoet \
+mvn-com.squareup-javapoet-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

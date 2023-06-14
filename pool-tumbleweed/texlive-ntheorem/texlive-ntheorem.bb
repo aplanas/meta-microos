@@ -13,7 +13,7 @@ RPM_NAME = "texlive-ntheorem-2023.201.1.33svn27609-54.1.noarch.rpm"
 RPM_HASH = "7663e02b4701b337769ef7dd50fdebbe76045d37dacb749393481a113732677526feb53e4838e2e3689758119f4aaf899ed3df0d51034a4bc0abd45006ef95e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ntheorem.sty) \
+RPROVIDES:${PN} += "tex-ntheorem.sty \
 texlive-ntheorem"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

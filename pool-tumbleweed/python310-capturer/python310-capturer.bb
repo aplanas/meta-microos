@@ -15,11 +15,11 @@ RPM_HASH = "c7df24db52107059396ca7bb3e84cf0ed1a263c68521597d6d9c419b51b1b48beeac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-capturer \
-python3.10dist(capturer) \
+python3.10dist-capturer \
 python310-capturer \
-python3dist(capturer)"
+python3dist-capturer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-humanfriendly"
 
 inherit rpm

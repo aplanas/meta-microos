@@ -18,13 +18,12 @@ PV = "1.4.2"
 RPM_NAME = "heimdall-1.4.2-1.28.aarch64.rpm"
 RPM_HASH = "930ea7c20174c400689e92fdc7b9c82c08f963ba71b6bce56b5a37574a5150303d9a6dd1ff0a529d1acb4e2fd8cc5384725e8454d867079828178e5bf691aee4"
 
-RPROVIDES:${PN} += "heimdall \
-heimdall(aarch-64)"
+RPROVIDES:${PN} += "heimdall"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libusb-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libusb-1.0.so.0"
 
 inherit rpm

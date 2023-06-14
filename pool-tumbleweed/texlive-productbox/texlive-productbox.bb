@@ -13,7 +13,7 @@ RPM_NAME = "texlive-productbox-2023.201.1.1svn20886-52.1.noarch.rpm"
 RPM_HASH = "1d2418b43c6c395046490c375cfed9cb5cf9097396e8e67235b51691abc5128b627c024311078d758328843d5b31e44b45be048959b8b073d5473d94d1c8c74c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(productbox.sty) \
+RPROVIDES:${PN} += "tex-productbox.sty \
 texlive-productbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,8 +22,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(tikz.sty) \
+tex-keyval.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,10 +11,10 @@ RPM_HASH = "cced85cc7498555a0a6ce573575ddc6eb732ab6eae2d80edf3d13fed50b3344cd0fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-XStatic-jquery-ui \
-python3.10dist(xstatic-jquery-ui) \
+python3.10dist-xstatic-jquery-ui \
 python310-XStatic-jquery-ui \
-python3dist(xstatic-jquery-ui)"
+python3dist-xstatic-jquery-ui"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

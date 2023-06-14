@@ -8,12 +8,11 @@ PV = "6.5.1"
 RPM_NAME = "qt6-base-common-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "3247f2427331fc09bb11f10e5087b1ca0b3bcd469eadf4002819e5754a39fbb172b7c2742d47e6cdb07aff08a5e801805c57ba9dc454aec5b3a3638f1eeea036"
 
-RPROVIDES:${PN} += "cmake(Qt6) \
-cmake(Qt6BuildInternals) \
-cmake(Qt6HostInfo) \
-pkgconfig(Qt6Platform) \
+RPROVIDES:${PN} += "cmake-Qt6 \
+cmake-Qt6BuildInternals \
+cmake-Qt6HostInfo \
+pkgconfig-Qt6Platform \
 qt6-base-common-devel \
-qt6-base-common-devel(aarch-64) \
 qt6-tools-qtpaths"
 
 RDEPENDS:${PN} += "/bin/bash \
@@ -21,16 +20,14 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/pkg-config \
 cmake \
 gcc-c++ \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6DBus.so.6()(64bit) \
-libQt6DBus.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpcre2-16.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpcre2-16.so.0 \
+libstdc++.so.6 \
+libzstd.so.1 \
 pkgconfig \
 qt6-macros"
 

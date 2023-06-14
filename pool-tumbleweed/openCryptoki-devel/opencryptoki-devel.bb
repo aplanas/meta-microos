@@ -11,14 +11,13 @@ RPM_NAME = "openCryptoki-devel-3.21.0-1.1.aarch64.rpm"
 RPM_HASH = "9a8f636600cd1febe4c84872552c4f8e734928d5fe3952e06581d6c9150d99732e34713bd4b46b11c297769dc80f1326084b548193a3de1449e2ffc1803892f9"
 
 RPROVIDES:${PN} += "openCryptoki-devel \
-openCryptoki-devel(aarch-64) \
-pkgconfig(opencryptoki)"
+pkgconfig-opencryptoki"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
 libopenssl-devel \
 openldap2-devel \
 trousers-devel"

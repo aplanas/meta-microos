@@ -9,18 +9,17 @@ PV = "0.7.3"
 RPM_NAME = "python39-pyroomacoustics-0.7.3-1.5.aarch64.rpm"
 RPM_HASH = "c732e344c2a8ff78ebffdd22e3592e2ae8921ba526ed1b76d4edc9a45a00da7f32c0747f3a1ceffd1ed6acc91df53b97c9b6946e807e832a351d058ef1e98f07"
 
-RPROVIDES:${PN} += "libroom.cpython-39-aarch64-linux-gnu.so()(64bit) \
-python3.9dist(pyroomacoustics) \
+RPROVIDES:${PN} += "libroom.cpython-39-aarch64-linux-gnu.so \
+python3.9dist-pyroomacoustics \
 python39-pyroomacoustics \
-python39-pyroomacoustics(aarch-64) \
-python3dist(pyroomacoustics)"
+python3dist-pyroomacoustics"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python39-Cython \
 python39-matplotlib \
 python39-numpy \

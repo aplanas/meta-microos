@@ -14,7 +14,7 @@ RPM_NAME = "texlive-tikz-ladder-2023.201.1.3svn62992-52.1.noarch.rpm"
 RPM_HASH = "92a803a43d9b63f2d61c58ed768f719d5e2c8f4b3642990877dfa5c65da41c051df0d2756c3bd554513592851f44352b0f9bdd3a112ac7cd5f040028dff63bb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikzlibrarycircuits.plc.ladder.code.tex) \
+RPROVIDES:${PN} += "tex-tikzlibrarycircuits.plc.ladder.code.tex \
 texlive-tikz-ladder"
 
 RDEPENDS:${PN} += "/bin/sh \

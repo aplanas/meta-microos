@@ -11,7 +11,7 @@ RPM_NAME = "texlive-ebook-2023.201.svn29466-53.1.noarch.rpm"
 RPM_HASH = "f322d4ed309ac0d3880222d946f2eba7f0302df37463ff0c4744bcbb3e43cb8a0a20c85b53000667429b88e85dce443d8f03f70e434510c54061a4b47386b46b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ebook.sty) \
+RPROVIDES:${PN} += "tex-ebook.sty \
 texlive-ebook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,9 +20,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(moreverb.sty) \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-moreverb.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,7 +13,7 @@ RPM_NAME = "texlive-inputtrc-2023.201.0.0.3svn28019-52.1.noarch.rpm"
 RPM_HASH = "9e9cdd55d9d3e4dd2aa96112c314add938f940824cb742273143d3cdc93e5095b30596e5a51ec21111c8be10be599891d029e5d02efff0d74d3ed550fc95a488"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(inputtrc.sty) \
+RPROVIDES:${PN} += "tex-inputtrc.sty \
 texlive-inputtrc"
 
 RDEPENDS:${PN} += "/bin/sh \

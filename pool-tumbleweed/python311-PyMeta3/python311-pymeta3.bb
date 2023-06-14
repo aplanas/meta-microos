@@ -15,13 +15,13 @@ RPM_NAME = "python311-PyMeta3-0.5.1-3.18.noarch.rpm"
 RPM_HASH = "4665f024f74d718aa0b486959f83018ee3fdbe7fae8ff62a956380c17fdbb94057b19e17e5f0d4790af411b802b503b549b5e4712b6a1c7c082c9c8a32e3433a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pymeta3) \
+RPROVIDES:${PN} += "python3.11dist-pymeta3 \
 python311-PyMeta3 \
-python3dist(pymeta3)"
+python3dist-pymeta3"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

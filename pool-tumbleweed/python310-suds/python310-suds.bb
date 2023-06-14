@@ -18,12 +18,12 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-suds \
 python3-suds-community \
 python3-suds-jurko \
-python3.10dist(suds-community) \
+python3.10dist-suds-community \
 python310-suds \
 python310-suds-community \
 python310-suds-jurko \
-python3dist(suds-community)"
+python3dist-suds-community"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

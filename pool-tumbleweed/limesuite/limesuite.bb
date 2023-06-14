@@ -12,19 +12,18 @@ PV = "22.09.1"
 RPM_NAME = "limesuite-22.09.1-2.2.aarch64.rpm"
 RPM_HASH = "297b31740a3f399e59a2c22a7a83570606b1f02105791e02fb3db66855771eeb8d4aed79741b2e340fb4836c57ee27c9f2953747a3b92173f302b349689b332f"
 
-RPROVIDES:${PN} += "limesuite \
-limesuite(aarch-64)"
+RPROVIDES:${PN} += "limesuite"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libLimeSuite.so.22.09-1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_gl-suse.so.9.0.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libLimeSuite.so.22.09-1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-gl-suse.so.9.0.0"
 
 inherit rpm

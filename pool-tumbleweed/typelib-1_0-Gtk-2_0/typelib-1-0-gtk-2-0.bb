@@ -11,24 +11,23 @@ PV = "2.24.33"
 RPM_NAME = "typelib-1_0-Gtk-2_0-2.24.33-4.3.aarch64.rpm"
 RPM_HASH = "5ae290ba61b2724d982ab1f84f4bc173a456d7dbf26f72b5006100ce6410d315ae955df2d59e16842cd67883f582cea0b7394ed8c82a1944da0bd55d6eff7c63"
 
-RPROVIDES:${PN} += "typelib(Gdk) \
-typelib(GdkX11) \
-typelib(Gtk) \
-typelib-1_0-Gtk-2_0 \
-typelib-1_0-Gtk-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Gtk-2-0 \
+typelib-Gdk \
+typelib-GdkX11 \
+typelib-Gtk"
 
-RDEPENDS:${PN} += "libgdk-x11-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-typelib(Atk) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(HarfBuzz) \
-typelib(Pango) \
-typelib(cairo) \
-typelib(freetype2) \
-typelib(xlib)"
+RDEPENDS:${PN} += "libgdk-x11-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+typelib-Atk \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-HarfBuzz \
+typelib-Pango \
+typelib-cairo \
+typelib-freetype2 \
+typelib-xlib"
 
 inherit rpm

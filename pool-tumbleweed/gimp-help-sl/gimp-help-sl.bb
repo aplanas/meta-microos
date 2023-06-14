@@ -12,7 +12,7 @@ RPM_HASH = "5a031003220086fa8cc63b83c7106e28cc3cdd15455ee1c80673766dbfbd8c79846c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-help-sl \
-locale(gimp-help:sl)"
+locale-gimp-help-sl"
 
 RDEPENDS:${PN} += "gimp-help"
 

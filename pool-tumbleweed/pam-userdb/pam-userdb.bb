@@ -12,14 +12,13 @@ PV = "1.5.3"
 RPM_NAME = "pam-userdb-1.5.3-1.1.aarch64.rpm"
 RPM_HASH = "60c3aecc8e232e047c452efface1ad494dca3d8cc66135e9463f5fc423be5d887e372766cc7890628b4ead544bff11f4db146f9c127bda2bd0ae0a457ca5f0b9"
 
-RPROVIDES:${PN} += "pam-extra:/usr/lib64/security/pam_userdb.so \
-pam-userdb \
-pam-userdb(aarch-64)"
+RPROVIDES:${PN} += "pam-extra-/usr/lib64/security/pam-userdb.so \
+pam-userdb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libdb-4.8.so()(64bit) \
-libpam.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libdb-4.8.so \
+libpam.so.0"
 
 inherit rpm

@@ -19,10 +19,10 @@ RPM_HASH = "a2888164fe7c8eda0744028461c1ba0d860195ae5328c0a69abeecaeca743c9d939c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-paho-mqtt \
-python3.10dist(paho-mqtt) \
+python3.10dist-paho-mqtt \
 python310-paho-mqtt \
-python3dist(paho-mqtt)"
+python3dist-paho-mqtt"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

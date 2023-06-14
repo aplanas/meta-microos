@@ -18,12 +18,11 @@ PV = "0.3.2"
 RPM_NAME = "libverto1-0.3.2-3.1.aarch64.rpm"
 RPM_HASH = "2686b6b2fbcdb3d3c715091541adea32893d79316555e1de939a4a6297a552a68fae1233db2398a93a1bf4a80d5c5e7a5f3ef3b02d99b8184b06fdb3d4175672"
 
-RPROVIDES:${PN} += "libverto.so.1()(64bit) \
-libverto1 \
-libverto1(aarch-64)"
+RPROVIDES:${PN} += "libverto.so.1 \
+libverto1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

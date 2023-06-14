@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-ipyleaflet \
 jupyter-leaflet"
 
-RDEPENDS:${PN} += "(jupyter-ipywidgets >= 7.6.0 with jupyter-ipywidgets < 9) \
-(jupyter-jupyterlab or jupyter-notebook) \
+RDEPENDS:${PN} += "-jupyter-ipywidgets >= 7.6.0 with jupyter-ipywidgets < 9 \
+-jupyter-jupyterlab or jupyter-notebook \
 python3-ipyleaflet"
 
 inherit rpm

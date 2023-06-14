@@ -8,20 +8,19 @@ PV = "1.54.06"
 RPM_NAME = "libxmlrpc_server_abyss++8-1.54.06-1.3.aarch64.rpm"
 RPM_HASH = "982dd6dab770eda977e962c5ef44c6006a1e771ba50cf4e1b196d276dd53d3be7729fc50faac22a3165a4dcb8a01dfa6ac70ee394366d95c5101ddbc7561f416"
 
-RPROVIDES:${PN} += "libxmlrpc_server_abyss++.so.8()(64bit) \
-libxmlrpc_server_abyss++8 \
-libxmlrpc_server_abyss++8(aarch-64)"
+RPROVIDES:${PN} += "libxmlrpc-server-abyss++.so.8 \
+libxmlrpc-server-abyss++8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxmlrpc_abyss++.so.8()(64bit) \
-libxmlrpc_abyss.so.3()(64bit) \
-libxmlrpc_server++.so.8()(64bit) \
-libxmlrpc_server_abyss.so.3()(64bit) \
-libxmlrpc_util++.so.8()(64bit) \
-libxmlrpc_util.so.4()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxmlrpc-abyss++.so.8 \
+libxmlrpc-abyss.so.3 \
+libxmlrpc-server++.so.8 \
+libxmlrpc-server-abyss.so.3 \
+libxmlrpc-util++.so.8 \
+libxmlrpc-util.so.4"
 
 inherit rpm

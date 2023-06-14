@@ -8,13 +8,12 @@ PV = "1.1.2"
 RPM_NAME = "clpeak-1.1.2-1.1.aarch64.rpm"
 RPM_HASH = "247030242af6021b94cd918b12f90ca2e49a50fb18574f175bd0c3f7d65e534a8d7928d4652132470fb3d50ce586d26e09091e58462e8746d62432efb1df3694"
 
-RPROVIDES:${PN} += "clpeak \
-clpeak(aarch-64)"
+RPROVIDES:${PN} += "clpeak"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libOpenCL.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libOpenCL.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

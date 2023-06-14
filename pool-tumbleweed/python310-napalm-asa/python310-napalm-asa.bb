@@ -12,11 +12,11 @@ RPM_HASH = "aeebe495acc5175d3bd710dae31db14580a3eaa2ac02756dcad698b27ed91f5862e6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-napalm-asa \
-python3.10dist(napalm-asa) \
+python3.10dist-napalm-asa \
 python310-napalm-asa \
-python3dist(napalm-asa)"
+python3dist-napalm-asa"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-napalm"
 
 inherit rpm

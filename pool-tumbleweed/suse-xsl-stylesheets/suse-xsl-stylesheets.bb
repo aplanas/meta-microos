@@ -10,16 +10,16 @@ RPM_NAME = "suse-xsl-stylesheets-2.91.2-1.1.noarch.rpm"
 RPM_HASH = "720a5491db5c6f7fbf2d30536d43e2fc6858cc70c284e9d793712f8e27199a4fc0b3b873153adfc6f763352a766f692e49e29752ef4c08ae92cfa13ce6b8d881"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(suse-xsl-stylesheets) \
+RPROVIDES:${PN} += "config-suse-xsl-stylesheets \
 suse-xsl-stylesheets"
 
 RDEPENDS:${PN} += "/bin/sh \
 arabic-amiri-fonts \
 dejavu-fonts \
+docbook-4 \
+docbook-5 \
 docbook-xsl-stylesheets \
 docbook5-xsl-stylesheets \
-docbook_4 \
-docbook_5 \
 ghostscript-fonts-std \
 gnu-free-fonts \
 google-noto-sans-jp-bold-fonts \

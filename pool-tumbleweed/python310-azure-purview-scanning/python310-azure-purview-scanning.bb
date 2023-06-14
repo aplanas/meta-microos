@@ -15,11 +15,11 @@ RPM_HASH = "c91c94e7ca641fbac02e41993032164b577db75d6934357ad453b40269375becb3b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-purview-scanning \
-python3.10dist(azure-purview-scanning) \
+python3.10dist-azure-purview-scanning \
 python310-azure-purview-scanning \
-python3dist(azure-purview-scanning)"
+python3dist-azure-purview-scanning"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-purview-nspkg \

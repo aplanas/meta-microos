@@ -13,13 +13,13 @@ RPM_HASH = "ea0c809f38606502c1584e87bd78cb71b287c72099b48c656be011859f63afcd0452
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ghp-import \
-python3.10dist(ghp-import) \
+python3.10dist-ghp-import \
 python310-ghp-import \
-python3dist(ghp-import)"
+python3dist-ghp-import"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dateutil \
 update-alternatives"
 

@@ -9,11 +9,11 @@ RPM_HASH = "326dc85da24d0fd2bc91e0a1903428c7277cdf6dc388a21e0fbc598d369d49f3a7e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-grappelli \
-python3.10dist(django-grappelli) \
+python3.10dist-django-grappelli \
 python310-django-grappelli \
-python3dist(django-grappelli)"
+python3dist-django-grappelli"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

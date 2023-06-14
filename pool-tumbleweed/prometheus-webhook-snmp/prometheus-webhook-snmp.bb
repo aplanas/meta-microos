@@ -13,12 +13,12 @@ RPROVIDES:${PN} += "prometheus-webhook-snmp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-CherryPy \
 python3-PyYAML \
 python3-click \
 python3-dateutil \
-python3-prometheus_client \
+python3-prometheus-client \
 python3-pysnmp"
 
 inherit rpm

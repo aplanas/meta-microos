@@ -15,7 +15,7 @@ RPM_NAME = "texlive-ltxnew-2023.201.1.3svn21586-52.1.noarch.rpm"
 RPM_HASH = "dc2b7b0ace0744b34c1533540e5dd868cf8816e87fba4782f31a67bd90669e65d91be649ba318810fbbf8a3a2d262d6fd3b992d606b1ef200baf0c47108380fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ltxnew.sty) \
+RPROVIDES:${PN} += "tex-ltxnew.sty \
 texlive-ltxnew"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,7 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
+tex-etex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

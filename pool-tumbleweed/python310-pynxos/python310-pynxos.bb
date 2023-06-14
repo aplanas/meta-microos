@@ -9,11 +9,11 @@ RPM_HASH = "af552c07095b8ec7ab3626fad17fbc33ff3c143eaad856964e8e8851a700a67f618e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pynxos \
-python3.10dist(pynxos) \
+python3.10dist-pynxos \
 python310-pynxos \
-python3dist(pynxos)"
+python3dist-pynxos"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-requests \
 python310-scp"

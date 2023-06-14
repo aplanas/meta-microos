@@ -24,11 +24,11 @@ RPM_NAME = "python311-configobj-5.0.8-1.1.noarch.rpm"
 RPM_HASH = "4f815de69002e70c260520f8666c411871e80c97d225b97fd9244bf670277808bb26c33b52f4d6d65dc9d7b077f6a2f7f3112daf1b580560f0ba932fea9b50ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(configobj) \
+RPROVIDES:${PN} += "python3.11dist-configobj \
 python311-configobj \
-python3dist(configobj)"
+python3dist-configobj"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-six"
 
 inherit rpm

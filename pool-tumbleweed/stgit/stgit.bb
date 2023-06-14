@@ -12,12 +12,12 @@ RPM_NAME = "stgit-1.5-1.7.noarch.rpm"
 RPM_HASH = "f42a9a82d315c874940207681f6ff70a26a8f8b476bd6d871dbec3e9248f51536085c65e6d7b564d351e6e338cdf43329bbc834d4c748d133de10e9e5fde0187"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(stgit) \
-python3dist(stgit) \
+RPROVIDES:${PN} += "python3.10dist-stgit \
+python3dist-stgit \
 stgit"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
-python(abi)"
+python-abi"
 
 inherit rpm

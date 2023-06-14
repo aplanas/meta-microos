@@ -22,9 +22,9 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(File::Temp) \
-perl(Getopt::Std) \
-perl(strict) \
+perl-File--Temp \
+perl-Getopt--Std \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

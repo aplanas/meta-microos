@@ -20,16 +20,15 @@ PV = "2.500"
 RPM_NAME = "perl-Net-IDN-Encode-2.500-1.18.aarch64.rpm"
 RPM_HASH = "4f4f9fad091ee5759d78822641b8a1974b615332216b6ae8e0cce55b6235e5276e85029c4181fcfea66f999f0accca7bd0a9ccb000995f43b4d9e2ed841d1741"
 
-RPROVIDES:${PN} += "perl(Net::IDN::Encode) \
-perl(Net::IDN::Punycode) \
-perl(Net::IDN::Punycode::PP) \
-perl(Net::IDN::UTS46) \
-perl(Net::IDN::UTS46::_Mapping) \
-perl-Net-IDN-Encode \
-perl-Net-IDN-Encode(aarch-64)"
+RPROVIDES:${PN} += "perl-Net--IDN--Encode \
+perl-Net--IDN--Punycode \
+perl-Net--IDN--Punycode--PP \
+perl-Net--IDN--UTS46 \
+perl-Net--IDN--UTS46---Mapping \
+perl-Net-IDN-Encode"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

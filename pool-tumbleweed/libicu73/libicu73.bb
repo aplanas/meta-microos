@@ -11,21 +11,20 @@ RPM_HASH = "4f64a30c6ef82933ce20b815b357ab27406f732997286ac080537e46c6f592330691
 
 RPROVIDES:${PN} += "libicu \
 libicu73 \
-libicu73(aarch-64) \
-libicudata.so.73()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuio.so.73()(64bit) \
-libicutest.so.73()(64bit) \
-libicutu.so.73()(64bit) \
-libicuuc.so.73()(64bit)"
+libicudata.so.73 \
+libicui18n.so.73 \
+libicuio.so.73 \
+libicutest.so.73 \
+libicutu.so.73 \
+libicuuc.so.73"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
 libicu73-ledata \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+libm.so.6 \
+libstdc++.so.6 \
 timezone"
 
 inherit rpm

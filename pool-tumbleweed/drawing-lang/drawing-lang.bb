@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drawing-lang \
 drawing-lang-all \
-locale(drawing:ca) \
-locale(drawing:cs) \
-locale(drawing:da) \
-locale(drawing:de) \
-locale(drawing:es) \
-locale(drawing:eu) \
-locale(drawing:fi) \
-locale(drawing:fr) \
-locale(drawing:he) \
-locale(drawing:hi) \
-locale(drawing:hr) \
-locale(drawing:hu) \
-locale(drawing:id) \
-locale(drawing:it) \
-locale(drawing:ja) \
-locale(drawing:ko) \
-locale(drawing:nl) \
-locale(drawing:oc) \
-locale(drawing:pl) \
-locale(drawing:pt_BR) \
-locale(drawing:ru) \
-locale(drawing:sv) \
-locale(drawing:tr) \
-locale(drawing:zh_CN) \
-locale(drawing:zh_TW)"
+locale-drawing-ca \
+locale-drawing-cs \
+locale-drawing-da \
+locale-drawing-de \
+locale-drawing-es \
+locale-drawing-eu \
+locale-drawing-fi \
+locale-drawing-fr \
+locale-drawing-he \
+locale-drawing-hi \
+locale-drawing-hr \
+locale-drawing-hu \
+locale-drawing-id \
+locale-drawing-it \
+locale-drawing-ja \
+locale-drawing-ko \
+locale-drawing-nl \
+locale-drawing-oc \
+locale-drawing-pl \
+locale-drawing-pt-BR \
+locale-drawing-ru \
+locale-drawing-sv \
+locale-drawing-tr \
+locale-drawing-zh-CN \
+locale-drawing-zh-TW"
 
 RDEPENDS:${PN} += "drawing"
 

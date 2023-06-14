@@ -13,13 +13,13 @@ RPM_NAME = "python311-dash-2.6.2-1.3.noarch.rpm"
 RPM_HASH = "85268230253415186a34fd6c63ef5a60160b44434bf498181808be863776174fb5c720d89c46dfeea211a1fcdab20921f986a86e2b3e20745ac88f99fd0d5795"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dash) \
+RPROVIDES:${PN} += "python3.11dist-dash \
 python311-dash \
-python3dist(dash)"
+python3dist-dash"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Flask \
 python311-Flask-Compress \
 python311-beautifulsoup4 \

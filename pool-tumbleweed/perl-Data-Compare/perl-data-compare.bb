@@ -49,13 +49,13 @@ RPM_NAME = "perl-Data-Compare-1.29-1.1.noarch.rpm"
 RPM_HASH = "7a3b191e1657a6ab270907d7befee568e5a6748587802df41aa2a4408879f17afd84651022e43eb88bf39d118f2a2394183fc48d76315b28270c2e1d2ad9419d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Data::Compare) \
-perl(Data::Compare::Plugins::Scalar::Properties) \
+RPROVIDES:${PN} += "perl-Data--Compare \
+perl-Data--Compare--Plugins--Scalar--Properties \
 perl-Data-Compare"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Clone) \
-perl(File::Find::Rule) \
-perl(Test::More)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Clone \
+perl-File--Find--Rule \
+perl-Test--More"
 
 inherit rpm

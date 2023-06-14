@@ -11,35 +11,34 @@ PV = "7.0.7"
 RPM_NAME = "hylafax+-7.0.7-1.4.aarch64.rpm"
 RPM_HASH = "dfae6cfbe4754f604bee8ef85f6fafd345bd5df8548c0b1a7b4894489ca6c0f3b6103ab5fd65344dbb3315703a46bcb590bf93a91036f92b53f7c3a6107a85d5"
 
-RPROVIDES:${PN} += "config(hylafax+) \
+RPROVIDES:${PN} += "config-hylafax+ \
 hylafax \
 hylafax+ \
-hylafax+(aarch-64) \
-libfaxserver.so.7.0.7()(64bit)"
+libfaxserver.so.7.0.7"
 
 RDEPENDS:${PN} += "/bin/sh \
 gawk \
 ghostscript \
 ghostscript-fonts \
-group(uucp) \
+group-uucp \
 hylafax+-client \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libfaxutil.so.7.0.7()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjbig.so.2()(64bit) \
-liblcms2.so.2()(64bit) \
-libldap.so.2()(64bit) \
-libpam.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libfaxutil.so.7.0.7 \
+libgcc-s.so.1 \
+libjbig.so.2 \
+liblcms2.so.2 \
+libldap.so.2 \
+libpam.so.0 \
+libssl.so.3 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libz.so.1 \
 mailx \
 sharutils \
 systemd \
 tiff \
-user(uucp)"
+user-uucp"
 
 inherit rpm

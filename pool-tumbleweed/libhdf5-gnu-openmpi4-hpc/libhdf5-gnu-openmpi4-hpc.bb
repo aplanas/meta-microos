@@ -9,9 +9,8 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5-gnu-openmpi4-hpc-1.12.2-5.1.aarch64.rpm"
 RPM_HASH = "ef6629e20df0b73aeba8044756aca4ebe631f1fce1ff7c66cfd0d455b07a31cb53aea31272b5b1ba4ba22b3118154937bd0cd63d3a28c95c646dffabdaafc48e"
 
-RPROVIDES:${PN} += "libhdf5-gnu-openmpi4-hpc \
-libhdf5-gnu-openmpi4-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "libhdf5_1_12_2-gnu-openmpi4-hpc"
+RDEPENDS:${PN} += "libhdf5-1-12-2-gnu-openmpi4-hpc"
 
 inherit rpm

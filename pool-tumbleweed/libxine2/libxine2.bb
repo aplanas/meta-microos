@@ -24,54 +24,51 @@ PV = "1.2.13"
 RPM_NAME = "libxine2-1.2.13-2.2.aarch64.rpm"
 RPM_HASH = "62f13a469919fa7d77ae7e361dbfcd4f614f475da08ada3e78e36df95242919f96e94885c56d111c1137cb70117af7212fafcaaae9824c252fd14e1f1f6c9e12"
 
-RPROVIDES:${PN} += "libxine.so.2()(64bit) \
+RPROVIDES:${PN} += "libxine.so.2 \
 libxine2 \
-libxine2(aarch-64) \
 libxine2-dvb \
 libxine2-syncfb \
 libxine2-xvmc \
 xine-lib"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libFLAC.so.12()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXv.so.1()(64bit) \
-libXvMCW.so.1()(64bit) \
-liba52.so.0()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libdvdnav.so.4()(64bit) \
-libfreetype.so.6()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libmad.so.0()(64bit) \
-libmng.so.2()(64bit) \
-libmodplug.so.1()(64bit) \
-libmpcdec.so.5()(64bit) \
-libogg.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsmbclient.so.0()(64bit) \
-libspeex.so.1()(64bit) \
-libtheora.so.0()(64bit) \
-libv4l2.so.0()(64bit) \
-libvorbis.so.0()(64bit) \
-libvpx.so.8()(64bit) \
-libxcb-shape.so.0()(64bit) \
-libxcb-shm.so.0()(64bit) \
-libxcb-xv.so.0()(64bit) \
-libxcb.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libFLAC.so.12 \
+libGL.so.1 \
+libGLU.so.1 \
+libMagickWand-7.Q16HDRI.so.10 \
+libX11.so.6 \
+libXext.so.6 \
+libXv.so.1 \
+libXvMCW.so.1 \
+liba52.so.0 \
+libasound.so.2 \
+libc.so.6 \
+libdvdnav.so.4 \
+libfreetype.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgnutls.so.30 \
+libgobject-2.0.so.0 \
+libjpeg.so.8 \
+libm.so.6 \
+libmad.so.0 \
+libmng.so.2 \
+libmodplug.so.1 \
+libmpcdec.so.5 \
+libogg.so.0 \
+libpng16.so.16 \
+libsmbclient.so.0 \
+libspeex.so.1 \
+libtheora.so.0 \
+libv4l2.so.0 \
+libvorbis.so.0 \
+libvpx.so.8 \
+libxcb-shape.so.0 \
+libxcb-shm.so.0 \
+libxcb-xv.so.0 \
+libxcb.so.1 \
+libz.so.1"
 
 inherit rpm

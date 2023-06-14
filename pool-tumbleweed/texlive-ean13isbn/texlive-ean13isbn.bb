@@ -10,7 +10,7 @@ RPM_NAME = "texlive-ean13isbn-2023.201.svn57514-53.1.noarch.rpm"
 RPM_HASH = "a93050f247fde7f494866109b44d5180a42334fc9c533d4879a92753b8325bab9746f5fd06e0fdcb9b7c4f901582867da569b544946751cd76abf1931f04eb6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ean13isbn.sty) \
+RPROVIDES:${PN} += "tex-ean13isbn.sty \
 texlive-ean13isbn"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

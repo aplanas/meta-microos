@@ -7,31 +7,23 @@ PV = "23.04.1"
 RPM_NAME = "kcharselect-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "555375d7a45c429cf4122dd3d1c6e09d02b95d129604dfc523c2e6a7ef31192ed4ce6da36e38711c781adb3c9d808f47de8cdc3b5e1701c152dc4d4610c9183b"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.kcharselect.desktop) \
-kcharselect \
-kcharselect(aarch-64) \
-kcharselect5 \
-metainfo() \
-metainfo(org.kde.kcharselect.appdata.xml)"
+RPROVIDES:${PN} += "kcharselect \
+kcharselect5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5Bookmarks.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5Bookmarks.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5I18n.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

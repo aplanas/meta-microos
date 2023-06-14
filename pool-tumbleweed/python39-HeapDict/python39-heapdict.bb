@@ -15,10 +15,10 @@ RPM_NAME = "python39-HeapDict-1.0.1-2.11.noarch.rpm"
 RPM_HASH = "48ce3518984d60c74466545f11a5f5f42c4cf151eae4b1863a4063d68fcda0bbcceea2cede5b479eb4dd4e703006b84250d9dba1bac35a2065d98e8477e7cee1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(heapdict) \
+RPROVIDES:${PN} += "python3.9dist-heapdict \
 python39-HeapDict \
-python3dist(heapdict)"
+python3dist-heapdict"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

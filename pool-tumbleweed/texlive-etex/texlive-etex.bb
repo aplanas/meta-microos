@@ -14,7 +14,7 @@ RPM_NAME = "texlive-etex-2023.201.svn66203-52.1.noarch.rpm"
 RPM_HASH = "9b5a02c6ee809120b23edee66a633271047f7be254ecfbaa20aa99d112a85691612155cdafdbe03e6303f76c1dba49f69e2c4040998efd977d0cb85bc6c5dfac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xbmc10.tfm) \
+RPROVIDES:${PN} += "tex-xbmc10.tfm \
 texlive-etex"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -18,7 +18,7 @@ RPM_NAME = "texlive-facture-belge-simple-sans-tva-2023.201.2.1svn49004-52.1.noar
 RPM_HASH = "daa5621d834b4f23bc7f1a731bc66a32c4ac49c2dfb36947d1214a8b99c5ae1f323b1aa991e8265eaf7ba6f815235e57da1401fb48fa4a8830424bc60e8ffc85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(facture-belge-simple-sans-tva.sty) \
+RPROVIDES:${PN} += "tex-facture-belge-simple-sans-tva.sty \
 texlive-facture-belge-simple-sans-tva"
 
 RDEPENDS:${PN} += "/bin/sh \

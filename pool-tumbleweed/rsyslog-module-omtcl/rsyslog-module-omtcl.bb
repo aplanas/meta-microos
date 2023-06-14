@@ -10,11 +10,10 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-module-omtcl-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "6d2d9012969be4caa1ab8196ca6051e5b33893998b12a440feb7e7f8546eca99895cdd60989d4cb0ee14c5d5e74d7a1923aabffdc09f900652c95aaf37f19758"
 
-RPROVIDES:${PN} += "rsyslog-module-omtcl \
-rsyslog-module-omtcl(aarch-64)"
+RPROVIDES:${PN} += "rsyslog-module-omtcl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 rsyslog"
 
 inherit rpm

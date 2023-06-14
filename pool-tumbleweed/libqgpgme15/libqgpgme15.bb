@@ -12,19 +12,17 @@ PV = "1.20.0"
 RPM_NAME = "libqgpgme15-1.20.0-1.1.aarch64.rpm"
 RPM_HASH = "89102494045aaee587623910efa492ffac7ffcd6a799afb0b1931cff01eebbb00434c01e3a9c8cdee522a90ecbdd68669cc320bc952c0b3e6e22b7b6d12620a4"
 
-RPROVIDES:${PN} += "libqgpgme.so.15()(64bit) \
-libqgpgme15 \
-libqgpgme15(aarch-64)"
+RPROVIDES:${PN} += "libqgpgme.so.15 \
+libqgpgme15"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gpg2 \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgpg-error.so.0()(64bit) \
-libgpgmepp.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgpg-error.so.0 \
+libgpgmepp.so.6 \
+libstdc++.so.6"
 
 inherit rpm

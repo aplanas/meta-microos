@@ -12,13 +12,12 @@ RPM_NAME = "movit-devel-1.6.3-1.15.aarch64.rpm"
 RPM_HASH = "7fd50c8606014d85041893cbce2f9032da7fd68519206f391ddd9eeff7ccf55d14e1347f526fcba6ea4b65ed3fb85b4ccbe8ac97f0e8bf761b1ea9dab214c298"
 
 RPROVIDES:${PN} += "movit-devel \
-movit-devel(aarch-64) \
-pkgconfig(movit)"
+pkgconfig-movit"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmovit8 \
-pkgconfig(eigen3) \
-pkgconfig(epoxy) \
-pkgconfig(fftw3)"
+pkgconfig-eigen3 \
+pkgconfig-epoxy \
+pkgconfig-fftw3"
 
 inherit rpm

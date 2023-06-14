@@ -18,10 +18,10 @@ RPM_HASH = "c976bcf20dc777a223a6916ae8c63fb87b8b30266a65f6275ffad3ed6e1792224e72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sqlglot \
-python3.10dist(sqlglot) \
+python3.10dist-sqlglot \
 python310-sqlglot \
-python3dist(sqlglot)"
+python3dist-sqlglot"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

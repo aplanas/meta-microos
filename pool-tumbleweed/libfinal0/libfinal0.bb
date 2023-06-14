@@ -13,17 +13,16 @@ PV = "0.9.0"
 RPM_NAME = "libfinal0-0.9.0-1.1.aarch64.rpm"
 RPM_HASH = "c3a6c250b1b54903bb8065bfac07672263a46bd6299cbef0b8ee37be81ca531c3a5278399dc698dbac7aeb43b9e616f40571847e0cecd704a8ba648873916a4d"
 
-RPROVIDES:${PN} += "libfinal.so.0()(64bit) \
-libfinal0 \
-libfinal0(aarch-64)"
+RPROVIDES:${PN} += "libfinal.so.0 \
+libfinal0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgpm.so.2()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgpm.so.2 \
+libm.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

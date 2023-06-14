@@ -18,14 +18,14 @@ RPM_HASH = "955af6ab0508185594081ae1cfd8d7d18fc985fa604d1a262240f344cf47c8db0109
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-canonicaljson \
-python3.10dist(canonicaljson) \
+python3.10dist-canonicaljson \
 python310-canonicaljson \
-python3dist(canonicaljson)"
+python3dist-canonicaljson"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-frozendict \
 python310-simplejson \
 python310-six \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

@@ -12,19 +12,18 @@ RPM_NAME = "pidgin-plugin-guifications-2.16-10.27.aarch64.rpm"
 RPM_HASH = "1585970cc0270a5ce5b173c87b8d3dd4332cfc0147eb24f0b067bdfadfb60974cfd966f2a140d7b1a26c0837d6f3dd92c6da876c3121f4de8c637cce69628177"
 
 RPROVIDES:${PN} += "pidgin-guifications \
-pidgin-plugin-guifications \
-pidgin-plugin-guifications(aarch-64)"
+pidgin-plugin-guifications"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangoft2-1.0.so.0()(64bit) \
-libpurple.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpango-1.0.so.0 \
+libpangoft2-1.0.so.0 \
+libpurple.so.0 \
 pidgin"
 
 inherit rpm

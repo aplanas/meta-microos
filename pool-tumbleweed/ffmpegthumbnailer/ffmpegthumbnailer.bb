@@ -13,13 +13,12 @@ PV = "2.2.2"
 RPM_NAME = "ffmpegthumbnailer-2.2.2-2.6.aarch64.rpm"
 RPM_HASH = "0481edba14d872fcf7c6c4b3e18cb65c423d09f7ddd1c090ab1b2880d19f0193a3ca2c059e2e8607b469309ba665d45a9423e495aabe6161332b795584dbbb2b"
 
-RPROVIDES:${PN} += "ffmpegthumbnailer \
-ffmpegthumbnailer(aarch-64)"
+RPROVIDES:${PN} += "ffmpegthumbnailer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffmpegthumbnailer.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libffmpegthumbnailer.so.4 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

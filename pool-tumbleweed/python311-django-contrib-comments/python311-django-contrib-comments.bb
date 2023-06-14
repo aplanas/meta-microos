@@ -11,11 +11,11 @@ RPM_NAME = "python311-django-contrib-comments-2.2.0-1.3.noarch.rpm"
 RPM_HASH = "07b7368c4c9a6c36b086ab0ec406a174326a0c6dea5992048504ab8b8dc28990e39169c6c4a0125da0878ec71eb97d51288b7abc4767f2cba1cc1c1ece4f8d4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(django-contrib-comments) \
+RPROVIDES:${PN} += "python3.11dist-django-contrib-comments \
 python311-django-contrib-comments \
-python3dist(django-contrib-comments)"
+python3dist-django-contrib-comments"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Django"
 
 inherit rpm

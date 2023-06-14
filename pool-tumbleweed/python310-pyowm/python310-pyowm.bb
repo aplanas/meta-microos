@@ -11,11 +11,11 @@ RPM_HASH = "7ad98d85e78c51e4a9fb2a605c3e950e37b80d1f297c736f53d871900650ef76a906
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyowm \
-python3.10dist(pyowm) \
+python3.10dist-pyowm \
 python310-pyowm \
-python3dist(pyowm)"
+python3dist-pyowm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-geojson \
 python310-requests"
 

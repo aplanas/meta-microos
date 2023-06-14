@@ -10,15 +10,13 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_fortran_1_12_2-gnu-openmpi4-hpc-1.12.2-5.1.aarch64.rpm"
 RPM_HASH = "3546793dab735e1abd88f171de4eb34ebc54148e06510717bca5352324679a153f751922a92d3904da34ddce8e5abf637191092a36ca52604e6bc4a50c3b465b"
 
-RPROVIDES:${PN} += "libhdf5_fortran_1_12_2-gnu-openmpi4-hpc \
-libhdf5_fortran_1_12_2-gnu-openmpi4-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-fortran-1-12-2-gnu-openmpi4-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-hdf5_1_12_2-gnu-openmpi4-hpc-module \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit)"
+hdf5-1-12-2-gnu-openmpi4-hpc-module \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5"
 
 inherit rpm

@@ -11,44 +11,43 @@ RPM_NAME = "gstreamer-devtools-devel-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "780dc31e92a3120d5f37ce14770ffb60077264d6fdebe011b7daf4d92ebbcc37bd8514236e4cacdcbb1332062b8216e428cfcb9e998b18e24cd43d58efcc2298"
 
 RPROVIDES:${PN} += "gstreamer-devtools-devel \
-gstreamer-devtools-devel(aarch-64) \
 gstreamer-validate-devel \
-libgstvalidatefaultinjection.so()(64bit) \
-libgstvalidategapplication.so()(64bit) \
-libgstvalidategtk.so()(64bit) \
-libgstvalidatessim.so()(64bit) \
-libgstvalidatetracer.so()(64bit) \
-pkgconfig(gstreamer-validate-1.0)"
+libgstvalidatefaultinjection.so \
+libgstvalidategapplication.so \
+libgstvalidategtk.so \
+libgstvalidatessim.so \
+libgstvalidatetracer.so \
+pkgconfig-gstreamer-validate-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-devtools \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstcheck-1.0.so.0()(64bit) \
-libgstcontroller-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvalidate-1.0.so.0()(64bit) \
-libgstvalidate-1_0-0 \
-libgstvideo-1.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-pkgconfig(gio-2.0) \
-pkgconfig(gmodule-no-export-2.0) \
-pkgconfig(gstreamer-1.0) \
-pkgconfig(gstreamer-base-1.0) \
-pkgconfig(gstreamer-check-1.0) \
-pkgconfig(gstreamer-controller-1.0) \
-pkgconfig(gstreamer-pbutils-1.0) \
-pkgconfig(json-glib-1.0) \
-typelib-1_0-GstValidate-1_0"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstcheck-1.0.so.0 \
+libgstcontroller-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvalidate-1-0-0 \
+libgstvalidate-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libgtk-3.so.0 \
+libjson-glib-1.0.so.0 \
+libm.so.6 \
+pkgconfig-gio-2.0 \
+pkgconfig-gmodule-no-export-2.0 \
+pkgconfig-gstreamer-1.0 \
+pkgconfig-gstreamer-base-1.0 \
+pkgconfig-gstreamer-check-1.0 \
+pkgconfig-gstreamer-controller-1.0 \
+pkgconfig-gstreamer-pbutils-1.0 \
+pkgconfig-json-glib-1.0 \
+typelib-1-0-GstValidate-1-0"
 
 inherit rpm

@@ -22,7 +22,7 @@ RPM_NAME = "rpmdevtools-8.10-7.9.noarch.rpm"
 RPM_HASH = "73735047c8b9893925a2e09feb1e6c3ca6c9bd7ed1daa9f192131ae5e714af024cb67da4e20f2dda99143f734829650ed7e2e7a3185fd3a2f07fca5bd5b0ea50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(rpmdevtools) \
+RPROVIDES:${PN} += "config-rpmdevtools \
 rpmdevtools"
 
 RDEPENDS:${PN} += "/bin/bash \

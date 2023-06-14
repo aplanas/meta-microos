@@ -21,37 +21,37 @@ RPM_NAME = "perl-LWP-ConsoleLogger-1.000000-1.2.noarch.rpm"
 RPM_HASH = "9126f94b9350ca0ceb32ca9e9c922cabb690c5208169791967b2ae321f7738780fd78860c29fdee842c1aada0c9383ffc94ab5f4a51bf39f68c0c2d5e834465f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(LWP::ConsoleLogger) \
-perl(LWP::ConsoleLogger::Easy) \
-perl(LWP::ConsoleLogger::Everywhere) \
+RPROVIDES:${PN} += "perl-LWP--ConsoleLogger \
+perl-LWP--ConsoleLogger--Easy \
+perl-LWP--ConsoleLogger--Everywhere \
 perl-LWP-ConsoleLogger"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Method::Modifiers) \
-perl(Data::Printer) \
-perl(DateTime) \
-perl(HTML::Restrict) \
-perl(HTTP::Body) \
-perl(HTTP::CookieMonster) \
-perl(HTTP::Request) \
-perl(HTTP::Response) \
-perl(JSON::MaybeXS) \
-perl(List::AllUtils) \
-perl(Log::Dispatch) \
-perl(Module::Load::Conditional) \
-perl(Module::Runtime) \
-perl(Moo) \
-perl(MooX::StrictConstructor) \
-perl(Parse::MIME) \
-perl(Ref::Util) \
-perl(String::Trim) \
-perl(Sub::Exporter) \
-perl(Term::Size::Any) \
-perl(Text::SimpleTable::AutoWidth) \
-perl(Try::Tiny) \
-perl(Types::Common::Numeric) \
-perl(Types::Standard) \
-perl(URI::QueryParam) \
-perl(XML::Simple)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Method--Modifiers \
+perl-Data--Printer \
+perl-DateTime \
+perl-HTML--Restrict \
+perl-HTTP--Body \
+perl-HTTP--CookieMonster \
+perl-HTTP--Request \
+perl-HTTP--Response \
+perl-JSON--MaybeXS \
+perl-List--AllUtils \
+perl-Log--Dispatch \
+perl-Module--Load--Conditional \
+perl-Module--Runtime \
+perl-Moo \
+perl-MooX--StrictConstructor \
+perl-Parse--MIME \
+perl-Ref--Util \
+perl-String--Trim \
+perl-Sub--Exporter \
+perl-Term--Size--Any \
+perl-Text--SimpleTable--AutoWidth \
+perl-Try--Tiny \
+perl-Types--Common--Numeric \
+perl-Types--Standard \
+perl-URI--QueryParam \
+perl-XML--Simple"
 
 inherit rpm

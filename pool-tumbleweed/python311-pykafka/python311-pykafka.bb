@@ -16,14 +16,13 @@ PV = "2.8.0"
 RPM_NAME = "python311-pykafka-2.8.0-2.21.aarch64.rpm"
 RPM_HASH = "f06e448b27c7cca05741d1ea02092995c5206ece18dc340bc66bf8d4b74018463a54d6210b9f16856eb113247d247fd057ea796d2f7a4cbfa23833ee8a85a39d"
 
-RPROVIDES:${PN} += "python3.11dist(pykafka) \
+RPROVIDES:${PN} += "python3.11dist-pykafka \
 python311-pykafka \
-python311-pykafka(aarch-64) \
-python3dist(pykafka)"
+python3dist-pykafka"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-gevent \
 python311-kazoo \
 python311-setuptools \

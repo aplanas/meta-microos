@@ -14,18 +14,17 @@ PV = "0.4.8"
 RPM_NAME = "mate-applet-softupd-0.4.8-1.9.aarch64.rpm"
 RPM_HASH = "94e02c320bf95f62bfa7149ed2c87b114c79c09b8a8217780e90e76afef64dd5b44d1c4de4c308138a3e7373efe3c1a6eb8fa336568486260c9b503f7fd9a81c"
 
-RPROVIDES:${PN} += "mate-applet-softupd \
-mate-applet-softupd(aarch-64)"
+RPROVIDES:${PN} += "mate-applet-softupd"
 
 RDEPENDS:${PN} += "PackageKit \
 gnome-packagekit \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libmate-panel-applet-4.so.1()(64bit) \
-libnotify.so.4()(64bit) \
-libpackagekit-glib2.so.18()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libmate-panel-applet-4.so.1 \
+libnotify.so.4 \
+libpackagekit-glib2.so.18"
 
 inherit rpm

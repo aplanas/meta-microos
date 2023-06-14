@@ -19,8 +19,8 @@ RPM_NAME = "texlive-logreq-2023.201.1.0svn53003-54.1.noarch.rpm"
 RPM_HASH = "4251e17af8477bef791e7a9f09ded59176bd9c2d33f16ce323a8bb5e1d8220b6514220c8994c2a64d06e46b58ba41fd3ab8ee8fa1eb557d4a9ee91fbdcea4376"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(logreq.def) \
-tex(logreq.sty) \
+RPROVIDES:${PN} += "tex-logreq.def \
+tex-logreq.sty \
 texlive-logreq"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,8 +29,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(keyval.sty) \
+tex-etoolbox.sty \
+tex-keyval.sty \
 texlive \
 texlive-etoolbox \
 texlive-filesystem \

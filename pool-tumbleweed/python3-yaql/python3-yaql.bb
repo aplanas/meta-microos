@@ -15,11 +15,11 @@ RPM_HASH = "ecc600c2d9fdb68d019cf57ec9f2a1432ee77a39a7ba7f9e8270ee3e036c153fac93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yaql \
-python3.10dist(yaql) \
-python3dist(yaql)"
+python3.10dist-yaql \
+python3dist-yaql"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-ply \
 python3-python-dateutil"

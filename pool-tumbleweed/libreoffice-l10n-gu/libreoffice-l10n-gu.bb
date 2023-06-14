@@ -12,11 +12,11 @@ RPROVIDES:${PN} += "libreoffice-help-gu \
 libreoffice-help-gu-IN \
 libreoffice-l10n-gu \
 libreoffice-l10n-gu-IN \
-locale(libreoffice:gu)"
+locale-libreoffice-gu"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \
-myspell-gu_IN"
+myspell-gu-IN"
 
 inherit rpm

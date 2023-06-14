@@ -12,12 +12,11 @@ PV = "7.0.0"
 RPM_NAME = "papi-7.0.0-1.3.aarch64.rpm"
 RPM_HASH = "3ec6f0984407e8db6f6179cf27cf62435154514220c45bd5a5109f9ab93007e83213391c58253f1ef9ae27b2b5524061cb56aa2ea74100c7d98f3708ef89bd44"
 
-RPROVIDES:${PN} += "papi \
-papi(aarch-64)"
+RPROVIDES:${PN} += "papi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

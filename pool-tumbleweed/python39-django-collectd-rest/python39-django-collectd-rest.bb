@@ -8,15 +8,14 @@ PV = "0.2.4"
 RPM_NAME = "python39-django-collectd-rest-0.2.4-1.3.aarch64.rpm"
 RPM_HASH = "c8e9e051e057bbf4f76615395017eba4b40ff6ae046d74e6a8abb394acc21402721d44edbd7f3793ab70001b62919fc6d8747e39c4e65de26d31ab15006d786e"
 
-RPROVIDES:${PN} += "python3.9dist(django-collectd-rest) \
+RPROVIDES:${PN} += "python3.9dist-django-collectd-rest \
 python39-django-collectd-rest \
-python39-django-collectd-rest(aarch-64) \
-python3dist(django-collectd-rest)"
+python3dist-django-collectd-rest"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-librrd.so.8()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+librrd.so.8 \
+python-abi \
 python39-Django \
 python39-djangorestframework \
 rrdtool"

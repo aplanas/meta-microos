@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "google-noto-serif-jp-regular-fonts \
 noto-serif-jp-regular-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

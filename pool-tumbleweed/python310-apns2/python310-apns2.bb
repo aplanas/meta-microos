@@ -10,11 +10,11 @@ RPM_HASH = "222d6ccbd5c151fd58516ddda13c70fa348ed8138de050026ae17a0c724a17217d26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-apns2 \
-python3.10dist(apns2) \
+python3.10dist-apns2 \
 python310-apns2 \
-python3dist(apns2)"
+python3dist-apns2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyJWT \
 python310-cryptography \
 python310-h2 \

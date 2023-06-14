@@ -21,8 +21,7 @@ RPM_NAME = "libkcapi-devel-1.4.0-2.3.aarch64.rpm"
 RPM_HASH = "ebc97ae76a706f9ae3490d99e1a11202d908a8eae1434ee43fa91b6b5d0ee357a75de3777a264cf0f0b7e0cf7472276a1df4eae9c66b53bca4a14c4f57f251e0"
 
 RPROVIDES:${PN} += "libkcapi-devel \
-libkcapi-devel(aarch-64) \
-pkgconfig(libkcapi)"
+pkgconfig-libkcapi"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkcapi1"

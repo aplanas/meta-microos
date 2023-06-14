@@ -9,17 +9,17 @@ RPM_HASH = "a3c0493cd0b9037a6c4b53c870709a1b02c7deb499c34f9e7b428d482eb4e3ec8dac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfishbuild-maven-plugin \
-mvn(org.glassfish.build:glassfishbuild-maven-plugin) \
-mvn(org.glassfish.build:glassfishbuild-maven-plugin:pom:)"
+mvn-org.glassfish.build-glassfishbuild-maven-plugin \
+mvn-org.glassfish.build-glassfishbuild-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(org.apache.maven.plugin-tools:maven-plugin-annotations) \
-mvn(org.apache.maven.shared:maven-common-artifact-filters) \
-mvn(org.apache.maven:maven-aether-provider) \
-mvn(org.apache.maven:maven-archiver) \
-mvn(org.apache.maven:maven-compat) \
-mvn(org.apache.maven:maven-model-builder)"
+mvn-org.apache.ant-ant \
+mvn-org.apache.maven-maven-aether-provider \
+mvn-org.apache.maven-maven-archiver \
+mvn-org.apache.maven-maven-compat \
+mvn-org.apache.maven-maven-model-builder \
+mvn-org.apache.maven.plugin-tools-maven-plugin-annotations \
+mvn-org.apache.maven.shared-maven-common-artifact-filters"
 
 inherit rpm

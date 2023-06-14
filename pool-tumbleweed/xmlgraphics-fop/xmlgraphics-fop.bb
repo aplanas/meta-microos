@@ -12,28 +12,28 @@ RPM_NAME = "xmlgraphics-fop-2.8-1.2.noarch.rpm"
 RPM_HASH = "9c955d67649e74f9962a14fb1cd9f28ca08f8113a5f74f2a62f324962aa33aca7f2e0ccaa382d3c481a42b552190bdd1d3d667ba4231cefce0af77cd1e6491b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(xmlgraphics-fop) \
+RPROVIDES:${PN} += "config-xmlgraphics-fop \
 fo-formatter \
 fop \
-mvn(org.apache.xmlgraphics:fop) \
-mvn(org.apache.xmlgraphics:fop:pom:) \
+mvn-org.apache.xmlgraphics-fop \
+mvn-org.apache.xmlgraphics-fop-pom- \
 xmlgraphics-fop"
 
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \
-mvn(com.thoughtworks.qdox:qdox) \
-mvn(commons-io:commons-io) \
-mvn(commons-logging:commons-logging) \
-mvn(javax.servlet:servlet-api) \
-mvn(org.apache.pdfbox:fontbox) \
-mvn(org.apache.xmlgraphics:batik-anim) \
-mvn(org.apache.xmlgraphics:batik-awt-util) \
-mvn(org.apache.xmlgraphics:batik-bridge) \
-mvn(org.apache.xmlgraphics:batik-extension) \
-mvn(org.apache.xmlgraphics:batik-gvt) \
-mvn(org.apache.xmlgraphics:batik-transcoder) \
-mvn(org.apache.xmlgraphics:xmlgraphics-commons) \
+mvn-com.thoughtworks.qdox-qdox \
+mvn-commons-io-commons-io \
+mvn-commons-logging-commons-logging \
+mvn-javax.servlet-servlet-api \
+mvn-org.apache.pdfbox-fontbox \
+mvn-org.apache.xmlgraphics-batik-anim \
+mvn-org.apache.xmlgraphics-batik-awt-util \
+mvn-org.apache.xmlgraphics-batik-bridge \
+mvn-org.apache.xmlgraphics-batik-extension \
+mvn-org.apache.xmlgraphics-batik-gvt \
+mvn-org.apache.xmlgraphics-batik-transcoder \
+mvn-org.apache.xmlgraphics-xmlgraphics-commons \
 xml-commons-apis"
 
 inherit rpm

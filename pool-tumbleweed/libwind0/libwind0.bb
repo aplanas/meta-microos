@@ -7,13 +7,12 @@ PV = "7.8.0"
 RPM_NAME = "libwind0-7.8.0-3.1.aarch64.rpm"
 RPM_HASH = "5558d19e8f0bb2c0edbd00abe145c14e28fc2a73271fc58f30b4701e35cba805b3258134832f7639f90cd0805bc1ea7b08f843216751934ee959e1bd2c3c2266"
 
-RPROVIDES:${PN} += "libwind.so.0()(64bit) \
-libwind0 \
-libwind0(aarch-64)"
+RPROVIDES:${PN} += "libwind.so.0 \
+libwind0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcom-err.so.2"
 
 inherit rpm

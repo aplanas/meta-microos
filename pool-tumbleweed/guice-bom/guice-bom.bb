@@ -10,7 +10,7 @@ RPM_HASH = "f7ff9129a86535343b04d9eb4ebe80279574735d083310f768c4dbfbb501ca427eec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-bom \
-mvn(com.google.inject:guice-bom:pom:)"
+mvn-com.google.inject-guice-bom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

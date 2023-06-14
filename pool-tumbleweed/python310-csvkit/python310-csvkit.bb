@@ -11,13 +11,13 @@ RPM_HASH = "1ec1423f518b4c4b8c0ff5545cd831eafddb1aa581e4d8c152ea0b6e8117f6c62d25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-csvkit \
-python3.10dist(csvkit) \
+python3.10dist-csvkit \
 python310-csvkit \
-python3dist(csvkit)"
+python3dist-csvkit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-agate \
 python310-agate-dbf \
 python310-agate-excel \

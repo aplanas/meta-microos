@@ -20,16 +20,15 @@ PV = "5.5.4"
 RPM_NAME = "python311-xrootd-5.5.4-1.1.aarch64.rpm"
 RPM_HASH = "2d19de13d879bafbd3a012e6b426f20ac877f697fe09604098cb883f88633717444a25a15522001953df6c005976adb5ccd2ad9f9a493f1b13f9653f02bc3274"
 
-RPROVIDES:${PN} += "python3.11dist(xrootd) \
+RPROVIDES:${PN} += "python3.11dist-xrootd \
 python311-xrootd \
-python311-xrootd(aarch-64) \
-python3dist(xrootd)"
+python3dist-xrootd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libXrdCl.so.3()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libXrdCl.so.3 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

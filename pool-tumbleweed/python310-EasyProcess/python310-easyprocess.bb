@@ -28,10 +28,10 @@ RPM_HASH = "b825ed687612802e9806a382c7d8b3e714ecc0fd86389b3b1d0929f8e08fc68b4ee5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-EasyProcess \
-python3.10dist(easyprocess) \
+python3.10dist-easyprocess \
 python310-EasyProcess \
-python3dist(easyprocess)"
+python3dist-easyprocess"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

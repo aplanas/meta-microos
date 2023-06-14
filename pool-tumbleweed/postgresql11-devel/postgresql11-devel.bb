@@ -19,25 +19,24 @@ PV = "11.20"
 RPM_NAME = "postgresql11-devel-11.20-1.2.aarch64.rpm"
 RPM_HASH = "ab987a1b6f4908d1608231fcdeb7ea054322212d72aceeb2b9949275b9368d237cad3c88b951256230939655200e8ed9a6dda2b18a8d4170f2f36f90a80bf9c9"
 
-RPROVIDES:${PN} += "pkgconfig(libecpg) \
-pkgconfig(libecpg_compat) \
-pkgconfig(libpgtypes) \
-pkgconfig(libpq) \
+RPROVIDES:${PN} += "pkgconfig-libecpg \
+pkgconfig-libecpg-compat \
+pkgconfig-libpgtypes \
+pkgconfig-libpq \
 postgresql-devel \
 postgresql-devel-exclusive \
 postgresql-devel-implementation \
-postgresql11-devel \
-postgresql11-devel(aarch-64)"
+postgresql11-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libecpg6 \
 libpq5 \
-pkgconfig(libecpg) \
-pkgconfig(libpgtypes) \
-pkgconfig(libpq) \
+pkgconfig-libecpg \
+pkgconfig-libpgtypes \
+pkgconfig-libpq \
 postgresql-devel-noarch"
 
 inherit rpm

@@ -11,18 +11,17 @@ RPM_NAME = "belcard-devel-5.2.16-1.3.aarch64.rpm"
 RPM_HASH = "9ec2220aa868aa2e5002456e8c1c32e5f601c316515ea20b36e8a019e3164036c44c2c00249f9218d455fbea17b5fc07dbbf5e58ae26d7b568c10892c5bbf866"
 
 RPROVIDES:${PN} += "belcard-devel \
-belcard-devel(aarch-64) \
-pkgconfig(belcard)"
+pkgconfig-belcard"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libbctoolbox-tester.so.1()(64bit) \
-libbelcard.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbctoolbox-tester.so.1 \
+libbelcard.so.1 \
 libbelcard1 \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-pkgconfig(bctoolbox) \
-pkgconfig(belr)"
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+pkgconfig-bctoolbox \
+pkgconfig-belr"
 
 inherit rpm

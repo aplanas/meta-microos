@@ -9,16 +9,16 @@ RPM_HASH = "c82efe1aaedafa8e025c904197c55d22c1b7df5329945810025db6b3d33ec65d4091
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-restview \
-python3.10dist(restview) \
+python3.10dist-restview \
 python310-restview \
-python3dist(restview)"
+python3dist-restview"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-docutils \
 python310-pygments \
-python310-readme_renderer \
+python310-readme-renderer \
 update-alternatives"
 
 inherit rpm

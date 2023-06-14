@@ -9,14 +9,13 @@ PV = "2.28.4715.102"
 RPM_NAME = "mozc-2.28.4715.102-2.1.aarch64.rpm"
 RPM_HASH = "893cebf1c035c83dc7b8067629485b0feb4612e94c83f990100e22a78d6caa0ae1ff69399077d87d8efdcb6b07933016c7a908b23354fc353760ab4e1da57735"
 
-RPROVIDES:${PN} += "mozc \
-mozc(aarch-64)"
+RPROVIDES:${PN} += "mozc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

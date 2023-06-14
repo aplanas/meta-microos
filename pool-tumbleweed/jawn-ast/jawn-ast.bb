@@ -12,15 +12,15 @@ RPM_HASH = "f1f5e8d610e2c4cbeeefc37b517dbc2a0c48f2407d8ae0e712d9f0387eb78f0629ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jawn-ast \
-mvn(org.spire-math:jawn-ast_2.10) \
-mvn(org.spire-math:jawn-ast_2.10:pom:) \
-mvn(org.typelevel:jawn-ast_2.10) \
-mvn(org.typelevel:jawn-ast_2.10:pom:)"
+mvn-org.spire-math-jawn-ast-2.10 \
+mvn-org.spire-math-jawn-ast-2.10-pom- \
+mvn-org.typelevel-jawn-ast-2.10 \
+mvn-org.typelevel-jawn-ast-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.scala-lang:scala-library) \
-mvn(org.typelevel:jawn-parser_2.10) \
-mvn(org.typelevel:jawn-util_2.10)"
+mvn-org.scala-lang-scala-library \
+mvn-org.typelevel-jawn-parser-2.10 \
+mvn-org.typelevel-jawn-util-2.10"
 
 inherit rpm

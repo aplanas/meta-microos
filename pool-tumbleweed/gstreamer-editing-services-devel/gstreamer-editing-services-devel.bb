@@ -25,22 +25,21 @@ RPM_NAME = "gstreamer-editing-services-devel-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "c360bb8f93b4b838dcd716f3679b8f0230537f1a9019bc4cdebbee8fec46b005adb73f71b94583e91181fb642312630ccd3fa725ac02c479a7e9ca1c5c2b34d1"
 
 RPROVIDES:${PN} += "gstreamer-editing-services-devel \
-gstreamer-editing-services-devel(aarch-64) \
-pkgconfig(gst-editing-services-1.0)"
+pkgconfig-gst-editing-services-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-editing-services \
-libges-1_0-0 \
-pkgconfig(gio-2.0) \
-pkgconfig(gmodule-no-export-2.0) \
-pkgconfig(gstreamer-1.0) \
-pkgconfig(gstreamer-base-1.0) \
-pkgconfig(gstreamer-controller-1.0) \
-pkgconfig(gstreamer-pbutils-1.0) \
-pkgconfig(gstreamer-validate-1.0) \
-pkgconfig(gstreamer-video-1.0) \
-pkgconfig(libxml-2.0) \
-pkgconfig(python-3.10-embed) \
-typelib-1_0-GES-1_0"
+libges-1-0-0 \
+pkgconfig-gio-2.0 \
+pkgconfig-gmodule-no-export-2.0 \
+pkgconfig-gstreamer-1.0 \
+pkgconfig-gstreamer-base-1.0 \
+pkgconfig-gstreamer-controller-1.0 \
+pkgconfig-gstreamer-pbutils-1.0 \
+pkgconfig-gstreamer-validate-1.0 \
+pkgconfig-gstreamer-video-1.0 \
+pkgconfig-libxml-2.0 \
+pkgconfig-python-3.10-embed \
+typelib-1-0-GES-1-0"
 
 inherit rpm

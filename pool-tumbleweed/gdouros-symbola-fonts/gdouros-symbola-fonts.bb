@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "gdouros-symbola-fonts \
 symbola-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

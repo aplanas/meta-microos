@@ -9,23 +9,22 @@ PV = "4.6.0"
 RPM_NAME = "yast2-ldap-4.6.0-1.3.aarch64.rpm"
 RPM_HASH = "5ecad06ed54fbb1392f5deb5410b3dee21f2c39e132048038d8f5786806eac8caa0b7b946fa0d7cf2ed1a3da9763c0ce5d4e362596d0c11368d9588f446b1256"
 
-RPROVIDES:${PN} += "libpy2ag_ldap.so.2()(64bit) \
-perl(LdapServerAccess) \
-yast2-ldap \
-yast2-ldap(aarch-64)"
+RPROVIDES:${PN} += "libpy2ag-ldap.so.2 \
+perl-LdapServerAccess \
+yast2-ldap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 ldapcpplib \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblber.so.2()(64bit) \
-libldapcpp.so.0()(64bit) \
-libscr.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-liby2.so.4()(64bit) \
-liby2util.so.5()(64bit) \
-libycp.so.5()(64bit) \
-libycpvalues.so.6()(64bit) \
+libc.so.6 \
+libgcc-s.so.1 \
+liblber.so.2 \
+libldapcpp.so.0 \
+libscr.so.3 \
+libstdc++.so.6 \
+liby2.so.4 \
+liby2util.so.5 \
+libycp.so.5 \
+libycpvalues.so.6 \
 yast2 \
 yast2-network"
 

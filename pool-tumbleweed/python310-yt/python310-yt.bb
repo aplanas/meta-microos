@@ -10,20 +10,19 @@ RPM_NAME = "python310-yt-4.1.4-1.5.aarch64.rpm"
 RPM_HASH = "9c870af37e44694a53ab6ceccb8ba25b9135628f83e47af358b32c22353322265d1a3a8f12bb6deba72d0064918e2d9fc8c3110f7ca8339b3b6220132dd04dd9"
 
 RPROVIDES:${PN} += "python3-yt \
-python3.10dist(yt) \
+python3.10dist-yt \
 python310-yt \
-python310-yt(aarch-64) \
-python3dist(yt)"
+python3dist-yt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-ipython \
 python310-matplotlib \
 python310-more-itertools \

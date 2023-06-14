@@ -11,7 +11,7 @@ RPM_NAME = "texlive-datetime2-hebrew-2023.201.1.1svn47534-52.1.noarch.rpm"
 RPM_HASH = "915e8b9221a1249fa3c48a29e7b89df12ea678fc81bc136a0b934d94facad356f7d709775609260fe367694aa2455a7d41ba36768847ee9cb6734a11098fc7eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-hebrew.ldf) \
+RPROVIDES:${PN} += "tex-datetime2-hebrew.ldf \
 texlive-datetime2-hebrew"
 
 RDEPENDS:${PN} += "/bin/sh \

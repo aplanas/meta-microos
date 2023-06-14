@@ -11,18 +11,17 @@ PV = "1.12.2"
 RPM_NAME = "hdf5-devel-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "864ccfa4a9338717def7e7c41cc118abd491f6adf1c2cb8e3fde9d95ef75eb08eff6fcdd91d17318324badd59c2dffa73e126e81f486a6994f3c2b01363405e4"
 
-RPROVIDES:${PN} += "hdf5-devel \
-hdf5-devel(aarch-64)"
+RPROVIDES:${PN} += "hdf5-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 hdf5 \
 hdf5-devel-data \
 libhdf5-200 \
-libhdf5_cpp200 \
-libhdf5_fortran200 \
-libhdf5_hl200 \
-libhdf5_hl_cpp200 \
-libhdf5hl_fortran200 \
+libhdf5-cpp200 \
+libhdf5-fortran200 \
+libhdf5-hl-cpp200 \
+libhdf5-hl200 \
+libhdf5hl-fortran200 \
 zlib-devel"
 
 inherit rpm

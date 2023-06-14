@@ -13,10 +13,10 @@ RPM_HASH = "e6f6423c4288993d2c76422afb0f59f18c1d0733a9a56fa398b1a9dd115c059ed2b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyicumessageformat \
-python3.10dist(pyicumessageformat) \
+python3.10dist-pyicumessageformat \
 python310-pyicumessageformat \
-python3dist(pyicumessageformat)"
+python3dist-pyicumessageformat"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

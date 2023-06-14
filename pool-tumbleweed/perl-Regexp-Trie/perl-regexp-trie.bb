@@ -15,9 +15,9 @@ RPM_NAME = "perl-Regexp-Trie-0.02-1.9.noarch.rpm"
 RPM_HASH = "7db4a04b3c83f19a6c2ba4bfcf818bce659acc2724f5fb5b4fbedec1af4bbb6b3006e93d54190736532f9864f75ad7ec0036d261c3fac30d1a2225a7d312e155"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Regexp::Trie) \
+RPROVIDES:${PN} += "perl-Regexp--Trie \
 perl-Regexp-Trie"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

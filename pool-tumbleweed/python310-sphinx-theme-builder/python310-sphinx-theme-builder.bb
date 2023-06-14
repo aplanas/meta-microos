@@ -15,14 +15,14 @@ RPM_HASH = "931dacdfddc9dd0a2934ecbe153b561e24f26b560a33ce2ba3cdb98fb9a505677c4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-theme-builder \
-python3.10dist(sphinx-theme-builder) \
+python3.10dist-sphinx-theme-builder \
 python310-sphinx-theme-builder \
-python3dist(sphinx-theme-builder)"
+python3dist-sphinx-theme-builder"
 
-RDEPENDS:${PN} += "(python310-tomli if python310-base < 3.11) \
+RDEPENDS:${PN} += "-python310-tomli if python310-base < 3.11 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 python310-nodeenv \
 python310-packaging \

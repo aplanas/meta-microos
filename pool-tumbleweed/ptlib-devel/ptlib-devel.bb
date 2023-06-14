@@ -10,11 +10,10 @@ RPM_HASH = "35f7d5cc0498a4135c128b0471bf76b7425912f89e1035d3f87a0f055536a0f272dc
 
 RPROVIDES:${PN} += "libpt-devel \
 libpt2-devel \
-pkgconfig(ptlib) \
-ptlib-devel \
-ptlib-devel(aarch-64)"
+pkgconfig-ptlib \
+ptlib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpt2_18_8"
+libpt2-18-8"
 
 inherit rpm

@@ -21,16 +21,15 @@ PV = "1.3.1"
 RPM_NAME = "lemon-1.3.1-1.3.aarch64.rpm"
 RPM_HASH = "8c748e2e9a7ca04ce4d081bb738e6461108bb675a974a96e41a73edfa65bbe58bf841157e963625083899310ee317eb21095ddb16d5425d478ce5743b3931f79"
 
-RPROVIDES:${PN} += "lemon \
-lemon(aarch-64)"
+RPROVIDES:${PN} += "lemon"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libemon.so.1.3.1()(64bit) \
-libemon1_3_1 \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libemon.so.1.3.1 \
+libemon1-3-1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

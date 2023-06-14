@@ -10,13 +10,13 @@ RPM_HASH = "d642cd103fc38aa3c653442c6a898767b54770b3c506dac00482058afe028b1d9020
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bea-stax \
-mvn(stax:stax) \
-mvn(stax:stax:pom:)"
+mvn-stax-stax \
+mvn-stax-stax-pom-"
 
 RDEPENDS:${PN} += "bea-stax-api \
 java-headless \
 javapackages-filesystem \
-mvn(junit:junit) \
-mvn(stax:stax-api)"
+mvn-junit-junit \
+mvn-stax-stax-api"
 
 inherit rpm

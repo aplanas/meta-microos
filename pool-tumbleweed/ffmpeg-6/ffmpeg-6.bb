@@ -14,29 +14,28 @@ RPM_HASH = "f3bd99d4d27f10465a1f4c3998e09b1f50a50158d6c9fc7f5d65dc14b2454465c383
 
 RPROVIDES:${PN} += "ffmpeg \
 ffmpeg-6 \
-ffmpeg-6(aarch-64) \
 ffmpeg-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libavcodec.so.60()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libavcodec.so.60 \
 libavcodec60 \
-libavdevice.so.60()(64bit) \
+libavdevice.so.60 \
 libavdevice60 \
-libavfilter.so.9()(64bit) \
+libavfilter.so.9 \
 libavfilter9 \
-libavformat.so.60()(64bit) \
+libavformat.so.60 \
 libavformat60 \
-libavutil.so.58()(64bit) \
+libavutil.so.58 \
 libavutil58 \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpostproc.so.57()(64bit) \
+libc.so.6 \
+libm.so.6 \
+libpostproc.so.57 \
 libpostproc57 \
-libswresample.so.4()(64bit) \
+libswresample.so.4 \
 libswresample4 \
-libswscale.so.7()(64bit) \
+libswscale.so.7 \
 libswscale7 \
-libz.so.1()(64bit)"
+libz.so.1"
 
 inherit rpm

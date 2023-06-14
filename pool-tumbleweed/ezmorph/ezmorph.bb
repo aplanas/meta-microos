@@ -11,11 +11,11 @@ RPM_HASH = "c5412ab3184c02e748ea27b307878a891b0198bb16506bb76d84e6b6fa420abc0406
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ezmorph \
-mvn(net.sf.ezmorph:ezmorph) \
-mvn(net.sf.ezmorph:ezmorph:pom:)"
+mvn-net.sf.ezmorph-ezmorph \
+mvn-net.sf.ezmorph-ezmorph-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-lang:commons-lang)"
+mvn-commons-lang-commons-lang"
 
 inherit rpm

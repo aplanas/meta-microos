@@ -16,7 +16,7 @@ RPM_NAME = "texlive-sparklines-2023.201.1.7svn42821-57.1.noarch.rpm"
 RPM_HASH = "d616ca7b77eed2892d47b04e95ad51d23f27b6fc9de1bdc6b827e888672197e661a1f8bfdf29d9c92119e9964ba38825e1acdf5a70f208713b1b3f8729ccd612"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sparklines.sty) \
+RPROVIDES:${PN} += "tex-sparklines.sty \
 texlive-sparklines"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,7 +25,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pgf.sty) \
+tex-pgf.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -21,7 +21,7 @@ RPM_NAME = "texlive-pythonimmediate-2023.201.0.0.4.0svn66461-53.1.noarch.rpm"
 RPM_HASH = "d7957e9efe10a99a9e816ca6db3053acdf5cfd011be775c235e7691db1f4d78b9d21faa339627aea64b0606d7eb2fc16aa51e9f8a6b1b73b20a510b9435038e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pythonimmediate.sty) \
+RPROVIDES:${PN} += "tex-pythonimmediate.sty \
 texlive-pythonimmediate"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,10 +30,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(currfile.sty) \
-tex(l3keys2e.sty) \
-tex(precattl.sty) \
-tex(saveenv.sty) \
+tex-currfile.sty \
+tex-l3keys2e.sty \
+tex-precattl.sty \
+tex-saveenv.sty \
 texlive \
 texlive-currfile \
 texlive-filesystem \

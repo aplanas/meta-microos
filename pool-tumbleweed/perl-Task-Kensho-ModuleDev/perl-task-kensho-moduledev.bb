@@ -37,22 +37,22 @@ RPM_NAME = "perl-Task-Kensho-ModuleDev-0.41-1.9.noarch.rpm"
 RPM_HASH = "2377b2bfcc86abcab772b8c8baa6902cbabf80d19aae927e5e0a9168d0bf13bda8e88e22bea8c4b2ea78e034723c0e8fe756c1b5feb4e1f38c1b6b1b1086efb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::ModuleDev) \
+RPROVIDES:${PN} += "perl-Task--Kensho--ModuleDev \
 perl-Task-Kensho-ModuleDev"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(CPAN::Uploader) \
-perl(Code::TidyAll) \
-perl(Data::Printer) \
-perl(Devel::Confess) \
-perl(Devel::Dwarn) \
-perl(Devel::NYTProf) \
-perl(Dist::Zilla) \
-perl(Modern::Perl) \
-perl(Module::Build::Tiny) \
-perl(Perl::Critic) \
-perl(Perl::Tidy) \
-perl(Pod::Readme) \
-perl(Software::License)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-CPAN--Uploader \
+perl-Code--TidyAll \
+perl-Data--Printer \
+perl-Devel--Confess \
+perl-Devel--Dwarn \
+perl-Devel--NYTProf \
+perl-Dist--Zilla \
+perl-Modern--Perl \
+perl-Module--Build--Tiny \
+perl-Perl--Critic \
+perl-Perl--Tidy \
+perl-Pod--Readme \
+perl-Software--License"
 
 inherit rpm

@@ -11,17 +11,16 @@ PV = "0.5"
 RPM_NAME = "xlatencytop-0.5-25.24.aarch64.rpm"
 RPM_HASH = "e24eabf9c5c95496c999608d765a4d3b1771edae79c4fdd7930ab41e70465e4fb52e027cc1b4bc4999fd81aeaa505d9b35cc634927e01529fbd4a1267eaadb8b"
 
-RPROVIDES:${PN} += "xlatencytop \
-xlatencytop(aarch-64)"
+RPROVIDES:${PN} += "xlatencytop"
 
 RDEPENDS:${PN} += "latencytop \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

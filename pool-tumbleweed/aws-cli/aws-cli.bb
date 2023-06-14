@@ -12,13 +12,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-cli \
 awscli \
-config(aws-cli) \
-python3.10dist(awscli) \
-python3dist(awscli)"
+config-aws-cli \
+python3.10dist-awscli \
+python3dist-awscli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 groff \
-python(abi) \
+python-abi \
 python3 \
 python3-PyYAML \
 python3-botocore \

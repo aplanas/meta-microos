@@ -11,14 +11,14 @@ RPM_HASH = "e6d92a5d5fa65e4ec6b7cd776710ed9546e62606010388b798574faa6173d50c3ef9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-vega \
-python3-jupyter_vega \
+python3-jupyter-vega \
 python3-vega \
-python3.10dist(vega) \
-python310-jupyter_vega \
+python3.10dist-vega \
+python310-jupyter-vega \
 python310-vega \
-python3dist(vega)"
+python3dist-vega"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ipytablewidgets \
 python310-jupyter \
 python310-pandas"

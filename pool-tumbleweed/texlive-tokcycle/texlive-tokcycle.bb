@@ -19,8 +19,8 @@ RPM_NAME = "texlive-tokcycle-2023.201.1.42svn60320-52.1.noarch.rpm"
 RPM_HASH = "493e55cc83adb021545b5e1e593ec1f70a5f9a30fbb54633837ddaf7fd05330e169bcc806adc3c143d4aef7e30d58950b8307a30c7957efcd90aa06b0b3ac0a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tokcycle.sty) \
-tex(tokcycle.tex) \
+RPROVIDES:${PN} += "tex-tokcycle.sty \
+tex-tokcycle.tex \
 texlive-tokcycle"
 
 RDEPENDS:${PN} += "/bin/sh \

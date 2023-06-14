@@ -9,7 +9,7 @@ RPM_HASH = "858c55f6414ba3626d4ca81f676d8ff6a3314c3b29849dc1e38ef6e5115bf62ea3a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fusesource-pom \
-mvn(org.fusesource:fusesource-pom:pom:)"
+mvn-org.fusesource-fusesource-pom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

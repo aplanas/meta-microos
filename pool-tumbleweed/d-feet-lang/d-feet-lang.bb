@@ -10,37 +10,37 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "d-feet-lang \
 d-feet-lang-all \
-locale(d-feet:bs) \
-locale(d-feet:cs) \
-locale(d-feet:da) \
-locale(d-feet:de) \
-locale(d-feet:el) \
-locale(d-feet:en_GB) \
-locale(d-feet:es) \
-locale(d-feet:eu) \
-locale(d-feet:fi) \
-locale(d-feet:fr) \
-locale(d-feet:fur) \
-locale(d-feet:gl) \
-locale(d-feet:hr) \
-locale(d-feet:hu) \
-locale(d-feet:id) \
-locale(d-feet:lv) \
-locale(d-feet:nb) \
-locale(d-feet:nl) \
-locale(d-feet:oc) \
-locale(d-feet:pl) \
-locale(d-feet:pt) \
-locale(d-feet:pt_BR) \
-locale(d-feet:ro) \
-locale(d-feet:ru) \
-locale(d-feet:sl) \
-locale(d-feet:sr) \
-locale(d-feet:sr@latin) \
-locale(d-feet:sv) \
-locale(d-feet:tr) \
-locale(d-feet:uk) \
-locale(d-feet:zh_CN)"
+locale-d-feet-bs \
+locale-d-feet-cs \
+locale-d-feet-da \
+locale-d-feet-de \
+locale-d-feet-el \
+locale-d-feet-en-GB \
+locale-d-feet-es \
+locale-d-feet-eu \
+locale-d-feet-fi \
+locale-d-feet-fr \
+locale-d-feet-fur \
+locale-d-feet-gl \
+locale-d-feet-hr \
+locale-d-feet-hu \
+locale-d-feet-id \
+locale-d-feet-lv \
+locale-d-feet-nb \
+locale-d-feet-nl \
+locale-d-feet-oc \
+locale-d-feet-pl \
+locale-d-feet-pt \
+locale-d-feet-pt-BR \
+locale-d-feet-ro \
+locale-d-feet-ru \
+locale-d-feet-sl \
+locale-d-feet-sr \
+locale-d-feet-sr@latin \
+locale-d-feet-sv \
+locale-d-feet-tr \
+locale-d-feet-uk \
+locale-d-feet-zh-CN"
 
 RDEPENDS:${PN} += "d-feet"
 

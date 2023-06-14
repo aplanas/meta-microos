@@ -18,10 +18,9 @@ PV = "10.0.0"
 RPM_NAME = "xsimd-devel-10.0.0-1.3.aarch64.rpm"
 RPM_HASH = "93cf3e5226a4fc1fc41985e28a913fa72b637a8aa36ee0b7290de080832883bdee6f22d8cb076bc8441aa59c4f31a3bca7d2abfb790aa01d5c28543e2c661c31"
 
-RPROVIDES:${PN} += "cmake(xsimd) \
-pkgconfig(xsimd) \
-xsimd-devel \
-xsimd-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-xsimd \
+pkgconfig-xsimd \
+xsimd-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

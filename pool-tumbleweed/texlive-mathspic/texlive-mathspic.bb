@@ -20,7 +20,7 @@ RPM_NAME = "texlive-mathspic-2023.201.1.13svn31957-52.1.noarch.rpm"
 RPM_HASH = "60abd457a5399118b4c877be7d86269c73426cc1600be9a174de29d0f2d6b6ef169a870f669013e71902fccd83800ccd3fb4d77c8a8b4530b7d06d0e13168c2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mathspic.sty) \
+RPROVIDES:${PN} += "tex-mathspic.sty \
 texlive-mathspic"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,8 +29,8 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Math::Trig) \
-perl(constant) \
+perl-Math--Trig \
+perl-constant \
 sed \
 texlive \
 texlive-filesystem \

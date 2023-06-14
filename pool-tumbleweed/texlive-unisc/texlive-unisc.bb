@@ -15,7 +15,7 @@ RPM_NAME = "texlive-unisc-2023.201.0.0.2svn63178-53.1.noarch.rpm"
 RPM_HASH = "cd2142ea7fec4dc8844ef304311a65cac889b3b247805bfecaa7b777aa009384e55ad7e479f62cbb1eeefec1480f66b05d5f187e9d78a6dfde96e425c3790229"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(unisc.sty) \
+RPROVIDES:${PN} += "tex-unisc.sty \
 texlive-unisc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(pgfparser.sty) \
-tex(xpatch.sty) \
+tex-pgfparser.sty \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

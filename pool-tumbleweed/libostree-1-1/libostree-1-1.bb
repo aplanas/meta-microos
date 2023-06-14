@@ -13,23 +13,21 @@ RPM_NAME = "libostree-1-1-2023.2-2.1.aarch64.rpm"
 RPM_HASH = "3603a69273e5df9e0b391a87d2ab042381555040ba5f9a6e8f2780693ee2f6284b30f358aeecda8b606c5a40c469b8ec5bc0639e02ca60c23a511c62d050e1d8"
 
 RPROVIDES:${PN} += "libostree-1-1 \
-libostree-1-1(aarch-64) \
-libostree-1.so.1()(64bit)"
+libostree-1.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libarchive.so.13()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgpgme.so.11()(64bit) \
-liblzma.so.5()(64bit) \
-libselinux.so.1()(64bit) \
-libsodium.so.23()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libarchive.so.13 \
+libc.so.6 \
+libcurl.so.4 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgpgme.so.11 \
+liblzma.so.5 \
+libselinux.so.1 \
+libsodium.so.23 \
+libsystemd.so.0 \
+libz.so.1"
 
 inherit rpm

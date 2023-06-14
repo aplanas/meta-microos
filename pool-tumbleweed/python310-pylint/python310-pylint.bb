@@ -22,16 +22,16 @@ RPM_HASH = "fd2158d80bc807145582520d128cab5d995114d7b21de7bf284d1a7dbd45b8cc6fd4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylint \
-python3.10dist(pylint) \
+python3.10dist-pylint \
 python310-pylint \
-python3dist(pylint)"
+python3dist-pylint"
 
-RDEPENDS:${PN} += "(python310-astroid >= 2.15.4 with python310-astroid < 2.17.0~dev0) \
-(python310-isort >= 4.2.5 with python310-isort < 6) \
-(python310-mccabe >= 0.6 with python310-mccabe < 0.8) \
+RDEPENDS:${PN} += "-python310-astroid >= 2.15.4 with python310-astroid < 2.17.0~dev0 \
+-python310-isort >= 4.2.5 with python310-isort < 6 \
+-python310-mccabe >= 0.6 with python310-mccabe < 0.8 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dill \
 python310-platformdirs \
 python310-tomli \

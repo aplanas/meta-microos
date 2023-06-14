@@ -15,7 +15,7 @@ RPM_NAME = "texlive-flashmovie-2023.201.0.0.4svn25768-52.1.noarch.rpm"
 RPM_HASH = "a304f563964fdda9d9322ffd80a0d7f1302f4c8f4132927a80f11817bb9c4af32ab46218987a5f1b38af655b925a98a4874a8111589034c09a060f6b38435c82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(flashmovie.sty) \
+RPROVIDES:${PN} += "tex-flashmovie.sty \
 texlive-flashmovie"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
-tex(keyval.sty) \
+tex-ifthen.sty \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

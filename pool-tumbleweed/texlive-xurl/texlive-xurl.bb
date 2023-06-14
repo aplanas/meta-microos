@@ -12,7 +12,7 @@ RPM_NAME = "texlive-xurl-2023.201.0.0.10svn61553-52.1.noarch.rpm"
 RPM_HASH = "cea110d5f2558992340247826826bfa76ff03f6896945a69d19dc8215f7b20cf32573c4562fa5160d6ab587c323f0d228efa26b7746978cea95dac4694b9517e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xurl.sty) \
+RPROVIDES:${PN} += "tex-xurl.sty \
 texlive-xurl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(url.sty) \
+tex-url.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

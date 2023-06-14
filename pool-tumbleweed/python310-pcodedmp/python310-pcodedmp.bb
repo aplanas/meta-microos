@@ -12,13 +12,13 @@ RPM_HASH = "4eafbfaf120aca46a9baa3d95a1f005bc8e108838c95447c486546a24c7c9a234841
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pcodedmp \
-python3.10dist(pcodedmp) \
+python3.10dist-pcodedmp \
 python310-pcodedmp \
-python3dist(pcodedmp)"
+python3dist-pcodedmp"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-oletools"
 
 inherit rpm

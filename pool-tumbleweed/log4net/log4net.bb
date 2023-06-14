@@ -11,14 +11,14 @@ RPM_HASH = "d0c5b81c3864005fd1de46a3f13638ab122e15893c4ff736de06df5f2aa3b3885785
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4net \
-mono(log4net) \
-pkgconfig(log4net)"
+mono-log4net \
+pkgconfig-log4net"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-mono(System) \
-mono(System.Data) \
-mono(System.Web) \
-mono(System.Xml) \
-mono(mscorlib)"
+mono-System \
+mono-System.Data \
+mono-System.Web \
+mono-System.Xml \
+mono-mscorlib"
 
 inherit rpm

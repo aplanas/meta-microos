@@ -12,11 +12,11 @@ RPM_NAME = "python311-testscenarios-0.5.0-5.1.noarch.rpm"
 RPM_HASH = "6e061ada732549c84650d5e0d1563366092aa4baafb06e774f7cfc12a1646964596fb3a17cad2831a7e3d0d94a1fb95927db5dccc31d46fc226de7546deb5907"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(testscenarios) \
+RPROVIDES:${PN} += "python3.11dist-testscenarios \
 python311-testscenarios \
-python3dist(testscenarios)"
+python3dist-testscenarios"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pbr \
 python311-testtools"
 

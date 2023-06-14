@@ -10,11 +10,11 @@ RPM_HASH = "70774e308af83771e31ec119b32dccb41ad707e8cf391919706b89aba95e0d6470a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asciimatics \
-python3.10dist(asciimatics) \
+python3.10dist-asciimatics \
 python310-asciimatics \
-python3dist(asciimatics)"
+python3dist-asciimatics"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-curses \
 python310-future \

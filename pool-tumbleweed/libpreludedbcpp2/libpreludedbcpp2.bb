@@ -11,17 +11,16 @@ PV = "5.2.0"
 RPM_NAME = "libpreludedbcpp2-5.2.0-2.10.aarch64.rpm"
 RPM_HASH = "de158bb9dcc01278d1699ed6625034057517ed3c0f79094948fb021f7a1040e6bd50fd1bb1f0208105a064a0ce8deeeb0d227f365340d7c23b41855cfc11dd88"
 
-RPROVIDES:${PN} += "libpreludedbcpp.so.2()(64bit) \
-libpreludedbcpp2 \
-libpreludedbcpp2(aarch-64)"
+RPROVIDES:${PN} += "libpreludedbcpp.so.2 \
+libpreludedbcpp2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprelude.so.28()(64bit) \
-libpreludecpp.so.12()(64bit) \
-libpreludedb.so.7()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprelude.so.28 \
+libpreludecpp.so.12 \
+libpreludedb.so.7 \
+libstdc++.so.6"
 
 inherit rpm

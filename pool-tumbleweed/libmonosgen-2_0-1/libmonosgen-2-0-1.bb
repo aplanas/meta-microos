@@ -14,14 +14,13 @@ PV = "6.12.0"
 RPM_NAME = "libmonosgen-2_0-1-6.12.0-5.3.aarch64.rpm"
 RPM_HASH = "0659a4ad3a07305321baec71dfbbfa13f1c92740f34a02ebaaa23b4e0ab4832dca2fa75d78e6457b17c0e5aec8b8051937908ebd2eb46705692de1a98952da26"
 
-RPROVIDES:${PN} += "libmonosgen-2.0.so.1()(64bit) \
-libmonosgen-2_0-1 \
-libmonosgen-2_0-1(aarch-64)"
+RPROVIDES:${PN} += "libmonosgen-2-0-1 \
+libmonosgen-2.0.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libz.so.1"
 
 inherit rpm

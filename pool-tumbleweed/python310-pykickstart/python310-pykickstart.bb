@@ -11,13 +11,13 @@ RPM_HASH = "9a51652711fb4cb6233aec4b56dd05bebf56c57b89c8055039ca99cd9ed16e0f5d65
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pykickstart \
-python3.10dist(pykickstart) \
+python3.10dist-pykickstart \
 python310-pykickstart \
-python3dist(pykickstart)"
+python3dist-pykickstart"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-requests"
 
 inherit rpm

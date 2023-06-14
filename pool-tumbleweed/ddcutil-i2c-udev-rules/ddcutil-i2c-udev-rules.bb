@@ -13,8 +13,8 @@ RPM_NAME = "ddcutil-i2c-udev-rules-1.4.1-2.1.noarch.rpm"
 RPM_HASH = "dca0d2c602030aee67675c3333398bce3d0e6002bf6d2fc175f4837a5a724bbd7024a8b1802a334d562886df3b610d9999658570f6a3bb9294688346af734b47"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ddcutil-i2c-udev-rules \
-ddcutil:/usr/lib/udev/rules.d/60-ddcutil.rules"
+RPROVIDES:${PN} += "ddcutil-/usr/lib/udev/rules.d/60-ddcutil.rules \
+ddcutil-i2c-udev-rules"
 
 RDEPENDS:${PN} += "libddcutil4"
 

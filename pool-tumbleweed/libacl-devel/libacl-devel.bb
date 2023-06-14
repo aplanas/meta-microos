@@ -10,8 +10,7 @@ RPM_HASH = "1a5bf7709568c0a9154f7613c4c00408659d54079bd9e4fd5813680b60b5291780bc
 
 RPROVIDES:${PN} += "acl-devel \
 libacl-devel \
-libacl-devel(aarch-64) \
-pkgconfig(libacl)"
+pkgconfig-libacl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

@@ -8,9 +8,8 @@ PV = "2.9.4"
 RPM_NAME = "udisks2-2.9.4-6.3.aarch64.rpm"
 RPM_HASH = "3ae789f4f4969fa6794a051a3d453c9b19a7f40aca85ad527797ff7a90d23ad478489e728365ff33e5493269258b40b4ba5c1f3c0551dc49ab5d8455e7cc6067"
 
-RPROVIDES:${PN} += "config(udisks2) \
-udisks2 \
-udisks2(aarch-64)"
+RPROVIDES:${PN} += "config-udisks2 \
+udisks2"
 
 RDEPENDS:${PN} += "/bin/sh \
 cryptsetup \
@@ -19,11 +18,11 @@ dosfstools \
 e2fsprogs \
 eject \
 gptfdisk \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
 libatasmart-utils \
-libatasmart.so.4()(64bit) \
-libbd_utils.so.2()(64bit) \
+libatasmart.so.4 \
+libbd-utils.so.2 \
 libblockdev \
 libblockdev-crypto \
 libblockdev-fs \
@@ -31,21 +30,20 @@ libblockdev-loop \
 libblockdev-mdraid \
 libblockdev-part \
 libblockdev-swap \
-libblockdev.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libmount.so.1()(64bit) \
-libpolkit-agent-1.so.0()(64bit) \
-libpolkit-gobject-1.so.0()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+libblockdev.so.2 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgudev-1.0.so.0 \
+libmount.so.1 \
+libpolkit-agent-1.so.0 \
+libpolkit-gobject-1.so.0 \
+libsystemd.so.0 \
 libudisks2-0 \
-libudisks2.so.0()(64bit) \
-libuuid.so.1()(64bit) \
+libudisks2.so.0 \
+libuuid.so.1 \
 systemd \
 udev \
 util-linux \

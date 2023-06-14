@@ -17,16 +17,15 @@ RPM_NAME = "obby-devel-0.4.8-11.29.aarch64.rpm"
 RPM_HASH = "16f7ccc8c26782d3ab3e87c71daa00d265c5ebef9b6846777944b784194152b5ea973a4e83065a453fb7d6848640ba5778f17d2206e20e76606030d678cc3452"
 
 RPROVIDES:${PN} += "obby-devel \
-obby-devel(aarch-64) \
-pkgconfig(obby-0.4)"
+pkgconfig-obby-0.4"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavahi-devel \
 libsigc++2-devel \
 net6-devel \
 obby \
-pkgconfig(avahi-client) \
-pkgconfig(net6-1.3) \
-pkgconfig(sigc++-2.0)"
+pkgconfig-avahi-client \
+pkgconfig-net6-1.3 \
+pkgconfig-sigc++-2.0"
 
 inherit rpm

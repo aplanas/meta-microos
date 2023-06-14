@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "KhmerOS-fonts \
 khmeros-fonts \
-locale(km) \
+locale-km \
 scalable-font-km"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

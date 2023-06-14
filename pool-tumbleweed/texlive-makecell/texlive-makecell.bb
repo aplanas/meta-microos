@@ -17,7 +17,7 @@ RPM_NAME = "texlive-makecell-2023.201.0.0.1esvn15878-52.1.noarch.rpm"
 RPM_HASH = "74ba7418771376c6ccd5bdaf870ba4940da606b28224f2b6bb8baeda1f2acec4171a3f4094a39a13043fc7274bf42c08ff22af40484246df72f8dbe864780c45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(makecell.sty) \
+RPROVIDES:${PN} += "tex-makecell.sty \
 texlive-makecell"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
+tex-array.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

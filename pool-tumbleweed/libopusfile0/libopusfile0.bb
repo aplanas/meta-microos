@@ -15,18 +15,17 @@ PV = "0.12"
 RPM_NAME = "libopusfile0-0.12-2.3.aarch64.rpm"
 RPM_HASH = "d7b36fa59460205e5f381d09fd24c945b58cec019c5dcb22d74835d8810b4df1d27a14f6202193371d8e52c879f9bb05f71652f10a934677f05f77e9b2461513"
 
-RPROVIDES:${PN} += "libopusfile.so.0()(64bit) \
+RPROVIDES:${PN} += "libopusfile.so.0 \
 libopusfile0 \
-libopusfile0(aarch-64) \
-libopusurl.so.0()(64bit)"
+libopusurl.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libopus.so.0()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libogg.so.0 \
+libopus.so.0 \
+libssl.so.3"
 
 inherit rpm

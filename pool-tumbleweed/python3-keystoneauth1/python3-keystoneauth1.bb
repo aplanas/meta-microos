@@ -15,10 +15,10 @@ RPM_HASH = "7c075c5d29f0d124d35a21d3f7b770d7463bf41ede739ffa12d8b09c9d7961e8f35a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keystoneauth1 \
-python3.10dist(keystoneauth1) \
-python3dist(keystoneauth1)"
+python3.10dist-keystoneauth1 \
+python3dist-keystoneauth1"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-PyYAML \
 python3-iso8601 \
 python3-lxml \

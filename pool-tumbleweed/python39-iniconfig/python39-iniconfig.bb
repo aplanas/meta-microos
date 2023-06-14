@@ -17,10 +17,10 @@ RPM_NAME = "python39-iniconfig-2.0.0-3.1.noarch.rpm"
 RPM_HASH = "37f28dc48005ec5223720a62d3b25511369361d30d22812f68ff84cccf1a682d45aa65283680ef9d083fc0fa6985aed3cdc875c844994e3d64e430a7723cb0a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(iniconfig) \
+RPROVIDES:${PN} += "python3.9dist-iniconfig \
 python39-iniconfig \
-python3dist(iniconfig)"
+python3dist-iniconfig"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

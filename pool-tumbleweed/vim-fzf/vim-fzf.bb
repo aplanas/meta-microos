@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-fzf"
 
-RDEPENDS:${PN} += "(vim or neovim)"
+RDEPENDS:${PN} += "-vim or neovim"
 
 inherit rpm

@@ -25,13 +25,12 @@ PV = "1.07"
 RPM_NAME = "wmctrl-1.07-150.23.aarch64.rpm"
 RPM_HASH = "876191522fbbc5dc40ab4cf5676fa37b8375395fb1cb12021425eeb0cb348f05150bf67fe809763a79a9c8182b4deda0c63e6ae5618db0b008b7b314a43f7fe3"
 
-RPROVIDES:${PN} += "wmctrl \
-wmctrl(aarch-64)"
+RPROVIDES:${PN} += "wmctrl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXmu.so.6()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXmu.so.6 \
+libc.so.6 \
+libglib-2.0.so.0"
 
 inherit rpm

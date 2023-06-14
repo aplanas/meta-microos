@@ -10,38 +10,38 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kweather-lang \
 kweather-lang-all \
-locale(kweather:az) \
-locale(kweather:ca) \
-locale(kweather:ca@valencia) \
-locale(kweather:cs) \
-locale(kweather:de) \
-locale(kweather:el) \
-locale(kweather:en_GB) \
-locale(kweather:es) \
-locale(kweather:et) \
-locale(kweather:eu) \
-locale(kweather:fi) \
-locale(kweather:fr) \
-locale(kweather:is) \
-locale(kweather:it) \
-locale(kweather:ja) \
-locale(kweather:ka) \
-locale(kweather:ko) \
-locale(kweather:lt) \
-locale(kweather:nl) \
-locale(kweather:nn) \
-locale(kweather:pa) \
-locale(kweather:pl) \
-locale(kweather:pt) \
-locale(kweather:pt_BR) \
-locale(kweather:ru) \
-locale(kweather:sk) \
-locale(kweather:sl) \
-locale(kweather:sv) \
-locale(kweather:tr) \
-locale(kweather:uk) \
-locale(kweather:zh_CN) \
-locale(kweather:zh_TW)"
+locale-kweather-az \
+locale-kweather-ca \
+locale-kweather-ca@valencia \
+locale-kweather-cs \
+locale-kweather-de \
+locale-kweather-el \
+locale-kweather-en-GB \
+locale-kweather-es \
+locale-kweather-et \
+locale-kweather-eu \
+locale-kweather-fi \
+locale-kweather-fr \
+locale-kweather-is \
+locale-kweather-it \
+locale-kweather-ja \
+locale-kweather-ka \
+locale-kweather-ko \
+locale-kweather-lt \
+locale-kweather-nl \
+locale-kweather-nn \
+locale-kweather-pa \
+locale-kweather-pl \
+locale-kweather-pt \
+locale-kweather-pt-BR \
+locale-kweather-ru \
+locale-kweather-sk \
+locale-kweather-sl \
+locale-kweather-sv \
+locale-kweather-tr \
+locale-kweather-uk \
+locale-kweather-zh-CN \
+locale-kweather-zh-TW"
 
 RDEPENDS:${PN} += "kweather"
 

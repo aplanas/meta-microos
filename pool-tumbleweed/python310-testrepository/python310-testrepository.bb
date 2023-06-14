@@ -18,13 +18,13 @@ RPM_HASH = "c653cefc6e06b366cdc2fa663426e2ba913931fc7d440da652a6c341554312c3a591
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-testrepository \
-python3.10dist(testrepository) \
+python3.10dist-testrepository \
 python310-testrepository \
-python3dist(testrepository)"
+python3dist-testrepository"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dbm \
 python310-extras \
 python310-fixtures \

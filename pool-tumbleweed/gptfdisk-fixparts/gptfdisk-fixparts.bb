@@ -10,12 +10,11 @@ PV = "1.0.9"
 RPM_NAME = "gptfdisk-fixparts-1.0.9-3.3.aarch64.rpm"
 RPM_HASH = "739cf227ea0ef8dbe4ab6ce3ffbc8cd661fc882b5e6e225754fe5100aff9ab08c4ebc05e93fbf9d2ee52d390134db1dfac745ed91618cf9e8d3d35f98639d0d7"
 
-RPROVIDES:${PN} += "gptfdisk-fixparts \
-gptfdisk-fixparts(aarch-64)"
+RPROVIDES:${PN} += "gptfdisk-fixparts"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

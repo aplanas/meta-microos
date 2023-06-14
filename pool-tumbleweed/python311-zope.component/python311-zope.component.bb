@@ -15,12 +15,11 @@ PV = "6.0"
 RPM_NAME = "python311-zope.component-6.0-2.1.aarch64.rpm"
 RPM_HASH = "f120ce2bacfcc6262e7efec2719db0ddca5796998bdcaf60ea680a12cc50161078caac1b366e698245977d8ba77e7a0848253a2103fbb7e9012f7cc301756a56"
 
-RPROVIDES:${PN} += "python3.11dist(zope.component) \
+RPROVIDES:${PN} += "python3.11dist-zope.component \
 python311-zope.component \
-python311-zope.component(aarch-64) \
-python3dist(zope.component)"
+python3dist-zope.component"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-zope.event \
 python311-zope.hookable \
 python311-zope.interface"

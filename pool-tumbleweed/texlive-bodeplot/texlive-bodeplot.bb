@@ -18,7 +18,7 @@ RPM_NAME = "texlive-bodeplot-2023.201.1.1.3svn65074-52.1.noarch.rpm"
 RPM_HASH = "f4450b8fb976087b5846279479f3f1fb65a3e9d527df76c8f835b84e382aabc1a507c2e0093bb68a76159b8f3c0a9c0709c4db5981003f6e137445beb60c0a92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bodeplot.sty) \
+RPROVIDES:${PN} += "tex-bodeplot.sty \
 texlive-bodeplot"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,10 +27,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(environ.sty) \
-tex(ifplatform.sty) \
-tex(pdftexcmds.sty) \
-tex(pgfplots.sty) \
+tex-environ.sty \
+tex-ifplatform.sty \
+tex-pdftexcmds.sty \
+tex-pgfplots.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

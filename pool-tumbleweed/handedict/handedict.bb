@@ -29,7 +29,7 @@ RPM_HASH = "70b8936c0733843b0d9568cf3da2bb882da78a3a29c94335d0d1265319dc7570aee1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "handedict \
-locale(gjiten:zh)"
+locale-gjiten-zh"
 
 RDEPENDS:${PN} += ""
 

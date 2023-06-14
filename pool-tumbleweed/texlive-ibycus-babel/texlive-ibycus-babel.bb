@@ -15,9 +15,9 @@ RPM_NAME = "texlive-ibycus-babel-2023.201.3.0svn15878-52.1.noarch.rpm"
 RPM_HASH = "4ab01927458aa69faa84497499ffe80aa0e8adb23d1f0e55d9b2351f2a6df38adf624a7be43ce9f2741f9170bc63863bcc2fcf7e947b45cda9f0f4680c42dadc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ibycus.ldf) \
-tex(lgienc.def) \
-tex(lgifib.fd) \
+RPROVIDES:${PN} += "tex-ibycus.ldf \
+tex-lgienc.def \
+tex-lgifib.fd \
 texlive-ibycus-babel"
 
 RDEPENDS:${PN} += "/bin/sh \

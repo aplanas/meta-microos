@@ -9,13 +9,12 @@ PV = "1.0.16"
 RPM_NAME = "lv2-swh-plugins-1.0.16-2.17.aarch64.rpm"
 RPM_HASH = "5f6906e777466c5abe95eff53f9cf9a2c7cc8bccdeeddc13b62ab7f2836a6d4040f289c51548777f4810e90dea15196a028ec728dc713bc636e51ac6e69d2fd5"
 
-RPROVIDES:${PN} += "lv2-swh-plugins \
-lv2-swh-plugins(aarch-64)"
+RPROVIDES:${PN} += "lv2-swh-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libm.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3f.so.3 \
+libm.so.6 \
 lv2"
 
 inherit rpm

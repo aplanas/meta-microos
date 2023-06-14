@@ -9,7 +9,7 @@ RPM_NAME = "texlive-cooking-2023.204.0.0.9bsvn15878-54.1.noarch.rpm"
 RPM_HASH = "abe2abd17f3fc6bc2d0b07b7690cb63e22126f79ac69bf6f53dc961498a3b79d0fa16fdb2776c502d23a4d07df4c33ff22266f9ee990fe3626f2d22cf424412b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cooking.sty) \
+RPROVIDES:${PN} += "tex-cooking.sty \
 texlive-cooking"
 
 RDEPENDS:${PN} += "/bin/sh \

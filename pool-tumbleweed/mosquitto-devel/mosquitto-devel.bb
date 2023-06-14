@@ -14,9 +14,8 @@ RPM_HASH = "6bc0a7cc69efe43ea418c0c045e0a1fe74c16266c94d8302dfd3de8f27a321f56578
 RPROVIDES:${PN} += "libmosquitto-devel \
 libmosquittopp-devel \
 mosquitto-devel \
-mosquitto-devel(aarch-64) \
-pkgconfig(libmosquitto) \
-pkgconfig(libmosquittopp)"
+pkgconfig-libmosquitto \
+pkgconfig-libmosquittopp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmosquitto1 \

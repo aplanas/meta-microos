@@ -8,10 +8,9 @@ PV = "6.5.1"
 RPM_NAME = "qt6-statemachine-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "a8392399c7742fa478a869b7491c24434e7bcb82d78197ea409882032690711493056851dd01f3fe86c896a3b4e7ac53c712da5bd4c0380affbf53f56350c001"
 
-RPROVIDES:${PN} += "qt6-statemachine-private-devel \
-qt6-statemachine-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-statemachine-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6StateMachine) \
+RDEPENDS:${PN} += "cmake-Qt6StateMachine \
 qt6-core-private-devel \
 qt6-gui-private-devel"
 

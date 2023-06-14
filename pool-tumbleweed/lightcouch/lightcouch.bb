@@ -11,12 +11,12 @@ RPM_HASH = "46055fbfa4819fc9e1de41698c5657baf81f5cd9df0c26bece80fe1f16405d780d1e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightcouch \
-mvn(org.lightcouch:lightcouch) \
-mvn(org.lightcouch:lightcouch:pom:)"
+mvn-org.lightcouch-lightcouch \
+mvn-org.lightcouch-lightcouch-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.code.gson:gson) \
-mvn(org.apache.httpcomponents:httpclient)"
+mvn-com.google.code.gson-gson \
+mvn-org.apache.httpcomponents-httpclient"
 
 inherit rpm

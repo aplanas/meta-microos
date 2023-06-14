@@ -21,46 +21,43 @@ PV = "17.31.11"
 RPM_NAME = "libzypp-17.31.11-1.1.aarch64.rpm"
 RPM_HASH = "72e5cb5decb544a5556c6742ba3141dfd5dd27a5361ff7535d747c7018cc63c886c906cb4b605b9b5262801e67a834a8ac7ae10779429a0ef8fde9be7b8080a2"
 
-RPROVIDES:${PN} += "config(libzypp) \
+RPROVIDES:${PN} += "config-libzypp \
 libzypp \
-libzypp(aarch-64) \
-libzypp(plugin) \
-libzypp(plugin:appdata) \
-libzypp(plugin:commit) \
-libzypp(plugin:repoverification) \
-libzypp(plugin:services) \
-libzypp(plugin:system) \
-libzypp(plugin:urlresolver) \
-libzypp(repovarexpand) \
-libzypp.so.1722()(64bit) \
-libzypp.so.1722(ZYPP_plain)(64bit) \
+libzypp-plugin \
+libzypp-plugin-appdata \
+libzypp-plugin-commit \
+libzypp-plugin-repoverification \
+libzypp-plugin-services \
+libzypp-plugin-system \
+libzypp-plugin-urlresolver \
+libzypp-repovarexpand \
+libzypp.so.1722 \
 yast2-packagemanager"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
 libcurl4 \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgpgme.so.11()(64bit) \
-libprotobuf-lite-3.21.12.so()(64bit) \
-libproxy.so.1()(64bit) \
-librpm.so.9()(64bit) \
-librpmio.so.9()(64bit) \
-libsigc-2.0.so.0()(64bit) \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgpgme.so.11 \
+libprotobuf-lite-3.21.12.so \
+libproxy.so.1 \
+librpm.so.9 \
+librpmio.so.9 \
+libsigc-2.0.so.0 \
 libsolv-tools \
-libstdc++.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-libxml2.so.2()(64bit) \
-libyaml-cpp.so.0.7()(64bit) \
-libz.so.1()(64bit) \
-libzck.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+libstdc++.so.6 \
+libudev.so.1 \
+libxml2.so.2 \
+libyaml-cpp.so.0.7 \
+libz.so.1 \
+libzck.so.1 \
+libzstd.so.1 \
 rpm"
 
 inherit rpm

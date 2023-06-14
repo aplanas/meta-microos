@@ -19,10 +19,10 @@ RPM_NAME = "perl-Time-Local-1.35-1.1.noarch.rpm"
 RPM_HASH = "656985314b9f231cffca296b30b1a772b4c09de43d0ca33c32748d9dc019c004d840a5f11555568177fdb4eef2d958311aadb48046906b9c10fdc670faf3d249"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Time::Local) \
+RPROVIDES:${PN} += "perl-Time--Local \
 perl-Time-Local"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-parent"
 
 inherit rpm

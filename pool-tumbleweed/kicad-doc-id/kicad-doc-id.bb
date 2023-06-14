@@ -9,7 +9,7 @@ RPM_HASH = "d4b8379bbe1a63adcb9051d264ebf40c2d0a5df02213a7ce07e6a400be8f074066b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc-id \
-locale(kicad-doc:id)"
+locale-kicad-doc-id"
 
 RDEPENDS:${PN} += "kicad-doc-en"
 

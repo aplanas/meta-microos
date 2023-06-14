@@ -15,11 +15,11 @@ RPM_NAME = "python311-PyMySQL-1.0.3-1.1.noarch.rpm"
 RPM_HASH = "6ebe5f9f2bdf5418c5fcf353640e23a4216f2689973324e1eb5d573a944af918385d179443eedec19e5ad177250015d1ed885fa6b34de1e9b2e457d9b73653a3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pymysql) \
+RPROVIDES:${PN} += "python3.11dist-pymysql \
 python311-PyMySQL \
-python3dist(pymysql)"
+python3dist-pymysql"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-cryptography"
 
 inherit rpm

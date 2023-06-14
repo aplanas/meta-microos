@@ -15,11 +15,11 @@ RPM_NAME = "python39-pytest-expect-1.1.0-4.1.noarch.rpm"
 RPM_HASH = "22c3e896f8935479305ece30bfcefc835062cbbf5e82b7384eefe415accfd2ccb49800992e6fe89277a1b7259a2b94504274bd9554d3f8f0141553b4efbb4c23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-expect) \
+RPROVIDES:${PN} += "python3.9dist-pytest-expect \
 python39-pytest-expect \
-python3dist(pytest-expect)"
+python3dist-pytest-expect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-pytest \
 python39-six \
 python39-u-msgpack-python"

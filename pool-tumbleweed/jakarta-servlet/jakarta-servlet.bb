@@ -10,9 +10,9 @@ RPM_HASH = "26ad5fa7aecae489b5a10614fe846bc5f151b157bb54acb9efd1f49d4196128485ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-servlet \
-mvn(jakarta.servlet:jakarta.servlet-api) \
-mvn(jakarta.servlet:jakarta.servlet-api:pom:) \
-osgi(jakarta.servlet-api)"
+mvn-jakarta.servlet-jakarta.servlet-api \
+mvn-jakarta.servlet-jakarta.servlet-api-pom- \
+osgi-jakarta.servlet-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

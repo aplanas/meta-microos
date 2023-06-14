@@ -12,18 +12,18 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipdb \
 python3-ipdb \
-python3-jupyter_ipdb \
-python3.10dist(ipdb) \
+python3-jupyter-ipdb \
+python3.10dist-ipdb \
 python310-ipdb \
-python310-jupyter_ipdb \
-python3dist(ipdb)"
+python310-jupyter-ipdb \
+python3dist-ipdb"
 
-RDEPENDS:${PN} += "(python310-ipython >= 7.16.3 if python310-base < 3.7) \
-(python310-ipython >= 7.31.1 if python310-base >= 3.7) \
-(python310-tomli if python310-base < 3.11) \
+RDEPENDS:${PN} += "-python310-ipython >= 7.16.3 if python310-base < 3.7 \
+-python310-ipython >= 7.31.1 if python310-base >= 3.7 \
+-python310-tomli if python310-base < 3.11 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-decorator \
 update-alternatives"
 

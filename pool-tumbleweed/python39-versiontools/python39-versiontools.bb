@@ -16,11 +16,11 @@ RPM_NAME = "python39-versiontools-1.9.1-14.17.noarch.rpm"
 RPM_HASH = "3943cdd010d76280d8e8c75a9a31efc5ab25de99fe4d9530c2f1ce9a7e76563c722e18cbe7506078f584009772e31606986defabb35e9068cfd7535b0d1afb83"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(versiontools) \
+RPROVIDES:${PN} += "python3.9dist-versiontools \
 python39-versiontools \
-python3dist(versiontools)"
+python3dist-versiontools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-setuptools"
 
 inherit rpm

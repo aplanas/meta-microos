@@ -10,13 +10,13 @@ RPM_HASH = "c9599528fa4e63a9fbbc1618e63814935ab0c134eea57d51882152ceedaed0dc5c73
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-invoke \
-python3.10dist(invoke) \
+python3.10dist-invoke \
 python310-invoke \
-python3dist(invoke)"
+python3dist-invoke"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-fluidity-sm \
 python310-lexicon \

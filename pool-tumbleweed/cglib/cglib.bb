@@ -12,22 +12,22 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cglib \
 cglib-nohook \
-mvn(cglib:cglib) \
-mvn(cglib:cglib-full) \
-mvn(cglib:cglib-full:pom:) \
-mvn(cglib:cglib-nodep) \
-mvn(cglib:cglib-nodep:pom:) \
-mvn(cglib:cglib-sample) \
-mvn(cglib:cglib-sample:pom:) \
-mvn(cglib:cglib:pom:) \
-mvn(net.sf.cglib:cglib) \
-mvn(net.sf.cglib:cglib:pom:) \
-mvn(org.sonatype.sisu.inject:cglib) \
-mvn(org.sonatype.sisu.inject:cglib:pom:) \
-osgi(net.sf.cglib.core)"
+mvn-cglib-cglib \
+mvn-cglib-cglib-full \
+mvn-cglib-cglib-full-pom- \
+mvn-cglib-cglib-nodep \
+mvn-cglib-cglib-nodep-pom- \
+mvn-cglib-cglib-pom- \
+mvn-cglib-cglib-sample \
+mvn-cglib-cglib-sample-pom- \
+mvn-net.sf.cglib-cglib \
+mvn-net.sf.cglib-cglib-pom- \
+mvn-org.sonatype.sisu.inject-cglib \
+mvn-org.sonatype.sisu.inject-cglib-pom- \
+osgi-net.sf.cglib.core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.ow2.asm:asm)"
+mvn-org.ow2.asm-asm"
 
 inherit rpm

@@ -15,8 +15,7 @@ RPM_NAME = "graphite2-devel-1.3.14-3.7.aarch64.rpm"
 RPM_HASH = "cd3dae229dc002687d69971782fd66f84f4d59088af2dd2a0d010cc843fa6b601389b0dfaf7c079d4086ad15685a173e54606f32ac73cfb4f9dd76b46d832147"
 
 RPROVIDES:${PN} += "graphite2-devel \
-graphite2-devel(aarch-64) \
-pkgconfig(graphite2)"
+pkgconfig-graphite2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

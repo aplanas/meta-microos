@@ -8,8 +8,8 @@ RPM_NAME = "myspell-bo-20221012-1.2.noarch.rpm"
 RPM_HASH = "cc52030675f237e716761c2503238c6c29ee795f479fc763456dde152cfa4acb91e05482a562378b126ffe7268bcc53bf70d085ec7a9b30135cb615588b44888"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:bo) \
-locale(seamonkey-spellchecker:bo) \
+RPROVIDES:${PN} += "locale-libreoffice-bo \
+locale-seamonkey-spellchecker-bo \
 myspell-bo \
 myspell-dictionary"
 

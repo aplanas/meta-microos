@@ -27,10 +27,10 @@ RPM_NAME = "perl-Net-Netmask-2.0002-1.2.noarch.rpm"
 RPM_HASH = "5b74b5e6954d35e0ee7e4a6891879be31264dc91fd1499a0081989f928d87d4014941598cf54d1815a810f47ba03bcd85bc4608b42d7edad152d39346af908ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::Netmask) \
+RPROVIDES:${PN} += "perl-Net--Netmask \
 perl-Net-Netmask"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Math::BigInt)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Math--BigInt"
 
 inherit rpm

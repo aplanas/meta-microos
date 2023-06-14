@@ -8,14 +8,13 @@ PV = "1.16"
 RPM_NAME = "libcivetweb1_15_0-1.16-1.1.aarch64.rpm"
 RPM_HASH = "8817567191c461f004bbd59407eb1fdc7ba874fde410497e199247f84f2d821542ca7776b8e0511043cd0ee6040c2e338c11db66651a891d72ad7fa1bfa0d1e1"
 
-RPROVIDES:${PN} += "libcivetweb.so.1.15.0()(64bit) \
-libcivetweb1_15_0 \
-libcivetweb1_15_0(aarch-64)"
+RPROVIDES:${PN} += "libcivetweb.so.1.15.0 \
+libcivetweb1-15-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

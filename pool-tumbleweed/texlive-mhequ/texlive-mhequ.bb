@@ -17,7 +17,7 @@ RPM_NAME = "texlive-mhequ-2023.201.1.72svn64978-54.1.noarch.rpm"
 RPM_HASH = "080c4a71e35be0ea5f0e4a956df3d3b82563f42735bd9803199edbd9e378d47a29f563edb81bfe7fe5f661b9ec23e627adc2cda9550b4c496a45a4e4692ec668"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mhequ.sty) \
+RPROVIDES:${PN} += "tex-mhequ.sty \
 texlive-mhequ"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -12,12 +12,11 @@ RPM_HASH = "306c76793acf657f6360c07abd68bfb38af0c1dbc46a6df2acb94b3d810f07559f16
 RPROVIDES:${PN} += "gnome-keyring-devel \
 gnome-keyring-doc \
 libgnome-keyring-devel \
-libgnome-keyring-devel(aarch-64) \
-pkgconfig(gnome-keyring-1)"
+pkgconfig-gnome-keyring-1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-keyring0 \
-pkgconfig(glib-2.0) \
-typelib-1_0-GnomeKeyring-1_0"
+pkgconfig-glib-2.0 \
+typelib-1-0-GnomeKeyring-1-0"
 
 inherit rpm

@@ -25,21 +25,20 @@ PV = "2.46"
 RPM_NAME = "pgbackrest-2.46-1.1.aarch64.rpm"
 RPM_HASH = "28962ffff3878ece99dbcd88a769daefdd200afb94210810b62fec25b80c997969a5567d040c1cc5027e41d19bcc34a8d2cd7c7da1a39b941a8b826001f109b8"
 
-RPROVIDES:${PN} += "config(pgbackrest) \
-pgbackrest \
-pgbackrest(aarch-64)"
+RPROVIDES:${PN} += "config-pgbackrest \
+pgbackrest"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-liblz4.so.1()(64bit) \
-libpq.so.5()(64bit) \
-libssl.so.3()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+liblz4.so.1 \
+libpq.so.5 \
+libssl.so.3 \
+libxml2.so.2 \
+libz.so.1 \
+libzstd.so.1 \
 postgresql-server"
 
 inherit rpm

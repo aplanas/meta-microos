@@ -16,11 +16,11 @@ RPM_HASH = "e5f77cd391220f5b5c36d15f94ddd2a50c58c17c5b1b0eeb27bb58102114ac3f968c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-transaction \
-python3.10dist(transaction) \
+python3.10dist-transaction \
 python310-transaction \
-python3dist(transaction)"
+python3dist-transaction"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-zope.interface"
 
 inherit rpm

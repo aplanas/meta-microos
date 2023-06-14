@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-mvapich2-hpc-devel"
 
-RDEPENDS:${PN} += "boost_1_82_0-gnu-mvapich2-hpc-devel"
+RDEPENDS:${PN} += "boost-1-82-0-gnu-mvapich2-hpc-devel"
 
 inherit rpm

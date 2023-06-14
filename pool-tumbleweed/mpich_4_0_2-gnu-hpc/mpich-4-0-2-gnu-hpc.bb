@@ -19,23 +19,20 @@ RPM_NAME = "mpich_4_0_2-gnu-hpc-4.0.2-3.3.aarch64.rpm"
 RPM_HASH = "7031da7eedc9c0b80eb182446aff7cb190d0a6646a329b045b5d8ab92110eec4b677d9cb4dd8d51ddc83c8ebbd0a1d5f1d266c2256355a619f33a73d14518bc3"
 
 RPROVIDES:${PN} += "mpi \
-mpich_4_0_2-gnu-hpc \
-mpich_4_0_2-gnu-hpc(aarch-64)"
+mpich-4-0-2-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libgfortran.so.5(GFORTRAN_9)(64bit) \
-libjson-c.so.5()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libucp.so.0()(64bit) \
-libucs.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfortran.so.5 \
+libjson-c.so.5 \
+libm.so.6 \
+libstdc++.so.6 \
+libucp.so.0 \
+libucs.so.0 \
 lua-lmod"
 
 inherit rpm

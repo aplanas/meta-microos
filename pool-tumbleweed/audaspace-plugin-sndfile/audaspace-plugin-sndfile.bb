@@ -10,14 +10,13 @@ RPM_HASH = "17ed483b286c6459321f92937bcd0422f651af4e8af076d3b6a8a03e80e006096b9e
 
 RPROVIDES:${PN} += "audaspace-fileplugin \
 audaspace-plugin-sndfile \
-audaspace-plugin-sndfile(aarch-64) \
-libaudlibsndfile.so()(64bit)"
+libaudlibsndfile.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libaudaspace.so.1.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaudaspace.so.1.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsndfile.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -16,12 +16,11 @@ PV = "8.9p1"
 RPM_NAME = "openssh-server-8.9p1-9.2.aarch64.rpm"
 RPM_HASH = "6144238145909aec55b17df0611043e0d565fe40187328ce37375961df1bf6d13ad2e8ab16c59166ef93ce948e7f67963b5be8c6f50c93ada6b355e99eab7cad"
 
-RPROVIDES:${PN} += "config(openssh-server) \
-group(sshd) \
+RPROVIDES:${PN} += "config-openssh-server \
+group-sshd \
+openssh-/usr/sbin/sshd \
 openssh-server \
-openssh-server(aarch-64) \
-openssh:/usr/sbin/sshd \
-user(sshd)"
+user-sshd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
@@ -29,22 +28,19 @@ RDEPENDS:${PN} += "/bin/sh \
 fillup \
 findutils \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libaudit.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libfido2.so.1()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libkrb5.so.3()(64bit) \
-libkrb5.so.3(krb5_3_MIT)(64bit) \
-libpam.so.0()(64bit) \
-libselinux.so.1()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libaudit.so.1 \
+libc.so.6 \
+libcom-err.so.2 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libfido2.so.1 \
+libgssapi-krb5.so.2 \
+libkrb5.so.3 \
+libpam.so.0 \
+libselinux.so.1 \
+libsystemd.so.0 \
+libz.so.1 \
 openssh-common \
 permissions \
 sysuser-shadow"

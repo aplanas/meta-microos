@@ -25,17 +25,17 @@ python3-Fabric2 \
 python3-Fabric3 \
 python3-fabric \
 python3-fabric2 \
-python3.10dist(fabric) \
+python3.10dist-fabric \
 python310-Fabric \
 python310-Fabric2 \
 python310-Fabric3 \
 python310-fabric \
 python310-fabric2 \
-python3dist(fabric)"
+python3dist-fabric"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cryptography \
 python310-decorator \
 python310-invoke \

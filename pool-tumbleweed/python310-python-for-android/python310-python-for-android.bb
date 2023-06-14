@@ -9,14 +9,14 @@ RPM_HASH = "b657d087c5443d686e2e15589386a8bc8208597a167c97cae77f9d3dde641429e88b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-for-android \
-python3.10dist(python-for-android) \
+python3.10dist-python-for-android \
 python310-python-for-android \
-python3dist(python-for-android)"
+python3dist-python-for-android"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-appdirs \
 python310-build \

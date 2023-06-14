@@ -10,11 +10,11 @@ RPM_HASH = "49c667d030fe19d56fcc40325795be914a0578a24028e1a06182095faaebc73b62f2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pathvalidate \
-python3.10dist(pathvalidate) \
+python3.10dist-pathvalidate \
 python310-pathvalidate \
-python3dist(pathvalidate)"
+python3dist-pathvalidate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

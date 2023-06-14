@@ -21,15 +21,14 @@ PV = "3.1.12"
 RPM_NAME = "xfsdump-3.1.12-2.3.aarch64.rpm"
 RPM_HASH = "d27c8c84fba6818a4def56711a3a052f7626ea42106225801e05e46abdc8ea4a6488ecf069683a3c378c063c0e47df540959b1484a6e811e0ce526d106fb43f0"
 
-RPROVIDES:${PN} += "xfsdump \
-xfsdump(aarch-64)"
+RPROVIDES:${PN} += "xfsdump"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libattr.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhandle.so.1()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libattr.so.1 \
+libc.so.6 \
+libhandle.so.1 \
+libncurses.so.6 \
+libtinfo.so.6 \
+libuuid.so.1"
 
 inherit rpm

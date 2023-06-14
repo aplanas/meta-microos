@@ -8,14 +8,13 @@ PV = "25.0.2"
 RPM_NAME = "python311-pyzmq-25.0.2-1.1.aarch64.rpm"
 RPM_HASH = "7e13297de75eaaaeef1748c068d180594c0fb199b4d55ce79a46ef8da53dcfe4d075a41acfc495dbf60d1b639563741a9801ac1fa98ea22726b108423b236fe1"
 
-RPROVIDES:${PN} += "python3.11dist(pyzmq) \
+RPROVIDES:${PN} += "python3.11dist-pyzmq \
 python311-pyzmq \
-python311-pyzmq(aarch-64) \
-python3dist(pyzmq)"
+python3dist-pyzmq"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libzmq.so.5()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libzmq.so.5 \
+python-abi"
 
 inherit rpm

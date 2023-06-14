@@ -10,32 +10,22 @@ PV = "5.1.0"
 RPM_NAME = "yubioath-desktop-5.1.0-3.1.aarch64.rpm"
 RPM_HASH = "9676427c99c69578d423d3b0ad6af3c412f8331521dc072e10acb901dfb7cf236cb608b0667712ca5b311cbe1c42428470785456523f180b70ee6023365a9df4"
 
-RPROVIDES:${PN} += "application() \
-application(yubioath-desktop.desktop) \
-yubioath-desktop \
-yubioath-desktop(aarch-64)"
+RPROVIDES:${PN} += "yubioath-desktop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5QuickControls2.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
 libqt5-qtgraphicaleffects \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 pyotherside \
 yubikey-manager"
 

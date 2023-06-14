@@ -11,13 +11,13 @@ RPM_HASH = "d7df0939e04c3bf6652c4acd4c4847954887605259f9e09fbe4e059fe126de41dfce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-shortuuid \
-python3.10dist(shortuuid) \
+python3.10dist-shortuuid \
 python310-shortuuid \
-python3dist(shortuuid)"
+python3dist-shortuuid"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-base \
 update-alternatives"
 

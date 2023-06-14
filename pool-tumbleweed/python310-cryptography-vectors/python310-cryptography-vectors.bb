@@ -9,11 +9,11 @@ RPM_HASH = "1be1bfd2e1deccbcb21d6f940d02afcd2d1021b56affbc753dcb17b667835865c746
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cryptography-vectors \
-python3.10dist(cryptography-vectors) \
+python3.10dist-cryptography-vectors \
 python310-cryptography-vectors \
-python3dist(cryptography-vectors)"
+python3dist-cryptography-vectors"
 
 RDEPENDS:${PN} += "/bin/sh \
-python(abi)"
+python-abi"
 
 inherit rpm

@@ -14,11 +14,11 @@ RPM_HASH = "1b38e1360f62f435ec07ccc881a5ccb27bf25f7db1afcd94f159e6668aed89c39db3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ironicclient \
-python3.10dist(python-ironicclient) \
-python3dist(python-ironicclient)"
+python3.10dist-python-ironicclient \
+python3dist-python-ironicclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-appdirs \
 python3-dogpile.cache \

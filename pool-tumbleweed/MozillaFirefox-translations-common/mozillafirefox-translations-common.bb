@@ -10,8 +10,7 @@ RPM_HASH = "23cae59d331d2423ea1f0ca75f332a280bef756027ea04c04aeeda0edb93e03eba08
 
 RPROVIDES:${PN} += "MozillaFirefox-translations \
 MozillaFirefox-translations-common \
-MozillaFirefox-translations-common(aarch-64) \
-locale(MozillaFirefox:ar;ca;cs;da;de;el;en_GB;es_AR;es_CL;es_ES;fi;fr;hu;it;ja;ko;nb_NO;nl;pl;pt_BR;pt_PT;ru;sv_SE;zh_CN;zh_TW)"
+locale-MozillaFirefox-ar;ca;cs;da;de;el;en-GB;es-AR;es-CL;es-ES;fi;fr;hu;it;ja;ko;nb-NO;nl;pl;pt-BR;pt-PT;ru;sv-SE;zh-CN;zh-TW"
 
 RDEPENDS:${PN} += "MozillaFirefox"
 

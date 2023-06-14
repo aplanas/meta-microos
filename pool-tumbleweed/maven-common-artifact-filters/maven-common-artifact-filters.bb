@@ -10,15 +10,15 @@ RPM_HASH = "582e81b2892945028422a8db5e3f6eaf72892ad7bae630d318ff412fe9c69488a7af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-common-artifact-filters \
-mvn(org.apache.maven.shared:maven-common-artifact-filters) \
-mvn(org.apache.maven.shared:maven-common-artifact-filters:pom:)"
+mvn-org.apache.maven.shared-maven-common-artifact-filters \
+mvn-org.apache.maven.shared-maven-common-artifact-filters-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api)"
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.shared-maven-shared-utils"
 
 inherit rpm

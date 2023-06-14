@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "nautilus-extension-tilix"
 
 RDEPENDS:${PN} += "python3-nautilus \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Nautilus)"
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
+typelib-Nautilus"
 
 inherit rpm

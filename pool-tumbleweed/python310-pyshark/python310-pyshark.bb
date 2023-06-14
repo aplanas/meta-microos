@@ -10,11 +10,11 @@ RPM_HASH = "8970b6a485f3ae0a00af27f47abd9fd66bc9fb82bea709638f116bcaae92b32679ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyshark \
-python3.10dist(pyshark) \
+python3.10dist-pyshark \
 python310-pyshark \
-python3dist(pyshark)"
+python3dist-pyshark"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-py \
 wireshark"

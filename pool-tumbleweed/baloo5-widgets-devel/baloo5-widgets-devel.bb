@@ -9,11 +9,10 @@ RPM_HASH = "0cf6bce92b6ea462749ef1122f618de54744e0191822f10946395e17fe1ef97e94be
 
 RPROVIDES:${PN} += "baloo-widgets5-devel \
 baloo5-widgets-devel \
-baloo5-widgets-devel(aarch-64) \
-cmake(KF5BalooWidgets)"
+cmake-KF5BalooWidgets"
 
 RDEPENDS:${PN} += "baloo5-widgets \
-cmake(KF5KIO) \
-cmake(Qt5Widgets)"
+cmake-KF5KIO \
+cmake-Qt5Widgets"
 
 inherit rpm

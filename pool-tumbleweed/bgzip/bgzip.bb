@@ -13,15 +13,14 @@ PV = "1.16"
 RPM_NAME = "bgzip-1.16-1.3.aarch64.rpm"
 RPM_HASH = "5d5451fef0e9e32e5afb849151a1bebb48761303f0f1c7f7a8edf9361eb75b385286eb084475ae414142d119c7103c7616b4752dd94194164aa17a3cf234c970"
 
-RPROVIDES:${PN} += "bgzip \
-bgzip(aarch-64)"
+RPROVIDES:${PN} += "bgzip"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
 libhts3 \
-libhtscodecs.so.2()(64bit) \
-libz.so.1()(64bit) \
+libhtscodecs.so.2 \
+libz.so.1 \
 tabix"
 
 inherit rpm

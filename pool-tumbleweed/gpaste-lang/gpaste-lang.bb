@@ -10,27 +10,27 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpaste-lang \
 gpaste-lang-all \
-locale(gpaste:ar) \
-locale(gpaste:cs) \
-locale(gpaste:de) \
-locale(gpaste:es) \
-locale(gpaste:fa) \
-locale(gpaste:fr) \
-locale(gpaste:gl) \
-locale(gpaste:it) \
-locale(gpaste:ja) \
-locale(gpaste:ka) \
-locale(gpaste:nb_NO) \
-locale(gpaste:oc) \
-locale(gpaste:pl) \
-locale(gpaste:pt_BR) \
-locale(gpaste:ru) \
-locale(gpaste:sl) \
-locale(gpaste:sv) \
-locale(gpaste:tr) \
-locale(gpaste:vi) \
-locale(gpaste:zh_CN) \
-locale(gpaste:zh_Hant)"
+locale-gpaste-ar \
+locale-gpaste-cs \
+locale-gpaste-de \
+locale-gpaste-es \
+locale-gpaste-fa \
+locale-gpaste-fr \
+locale-gpaste-gl \
+locale-gpaste-it \
+locale-gpaste-ja \
+locale-gpaste-ka \
+locale-gpaste-nb-NO \
+locale-gpaste-oc \
+locale-gpaste-pl \
+locale-gpaste-pt-BR \
+locale-gpaste-ru \
+locale-gpaste-sl \
+locale-gpaste-sv \
+locale-gpaste-tr \
+locale-gpaste-vi \
+locale-gpaste-zh-CN \
+locale-gpaste-zh-Hant"
 
 RDEPENDS:${PN} += "gpaste"
 

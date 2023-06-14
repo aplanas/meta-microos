@@ -10,32 +10,31 @@ PV = "1.39.1"
 RPM_NAME = "netdata-1.39.1-1.1.aarch64.rpm"
 RPM_HASH = "0990760afcb791fa75a794eb727c05c95c7c2478c7482b8c20d4440bbd49a4e77e3f75f2f31f160bdd7bec3612474db4efc98d55e8b47cae1b8a433cb132876c"
 
-RPROVIDES:${PN} += "config(netdata) \
-netdata \
-netdata(aarch-64)"
+RPROVIDES:${PN} += "config-netdata \
+netdata"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libcups.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjson-c.so.5()(64bit) \
-liblz4.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmnl.so.0()(64bit) \
-libnetfilter_acct.so.1()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libsnappy.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit) \
-libuv.so.1()(64bit) \
-libxenlight.so.4.17()(64bit) \
-libxenstat.so.4.17()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libcups.so.2 \
+libgcc-s.so.1 \
+libjson-c.so.5 \
+liblz4.so.1 \
+libm.so.6 \
+libmnl.so.0 \
+libnetfilter-acct.so.1 \
+libprotobuf-3.21.12.so \
+libsnappy.so.1 \
+libssl.so.3 \
+libstdc++.so.6 \
+libuuid.so.1 \
+libuv.so.1 \
+libxenlight.so.4.17 \
+libxenstat.so.4.17 \
+libz.so.1 \
 shadow"
 
 inherit rpm

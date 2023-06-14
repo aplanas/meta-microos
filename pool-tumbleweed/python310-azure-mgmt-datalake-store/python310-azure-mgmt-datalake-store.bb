@@ -14,11 +14,11 @@ RPM_HASH = "44aef17ca496c89cdc680530c1c5acd52f7c2ad3587a5d5239d5b90c36eb5282aa41
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-datalake-store \
-python3.10dist(azure-mgmt-datalake-store) \
+python3.10dist-azure-mgmt-datalake-store \
 python310-azure-mgmt-datalake-store \
-python3dist(azure-mgmt-datalake-store)"
+python3dist-azure-mgmt-datalake-store"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-datalake-nspkg \

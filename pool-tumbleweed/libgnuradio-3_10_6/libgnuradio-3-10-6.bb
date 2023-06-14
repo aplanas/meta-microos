@@ -13,66 +13,62 @@ PV = "3.10.6.0"
 RPM_NAME = "libgnuradio-3_10_6-3.10.6.0-4.2.aarch64.rpm"
 RPM_HASH = "4532d7903bfc07a754beb2ba694ed393050a764593b9bcbf251e2cd6b62be16fce91445143b4214afbd3313ede2b08b57483c92a019366a1c0dbde446dd4c7a1"
 
-RPROVIDES:${PN} += "libgnuradio-3_10_6 \
-libgnuradio-3_10_6(aarch-64) \
-libgnuradio-analog.so.3.10.6()(64bit) \
-libgnuradio-audio.so.3.10.6()(64bit) \
-libgnuradio-blocks.so.3.10.6()(64bit) \
-libgnuradio-channels.so.3.10.6()(64bit) \
-libgnuradio-digital.so.3.10.6()(64bit) \
-libgnuradio-dtv.so.3.10.6()(64bit) \
-libgnuradio-fec.so.3.10.6()(64bit) \
-libgnuradio-fft.so.3.10.6()(64bit) \
-libgnuradio-filter.so.3.10.6()(64bit) \
-libgnuradio-iio.so.3.10.6()(64bit) \
-libgnuradio-network.so.3.10.6()(64bit) \
-libgnuradio-pdu.so.3.10.6()(64bit) \
-libgnuradio-pmt.so.3.10.6()(64bit) \
-libgnuradio-qtgui.so.3.10.6()(64bit) \
-libgnuradio-runtime.so.3.10.6()(64bit) \
-libgnuradio-soapy.so.3.10.6()(64bit) \
-libgnuradio-trellis.so.3.10.6()(64bit) \
-libgnuradio-uhd.so.3.10.6()(64bit) \
-libgnuradio-video-sdl.so.3.10.6()(64bit) \
-libgnuradio-vocoder.so.3.10.6()(64bit) \
-libgnuradio-wavelet.so.3.10.6()(64bit) \
-libgnuradio-zeromq.so.3.10.6()(64bit)"
+RPROVIDES:${PN} += "libgnuradio-3-10-6 \
+libgnuradio-analog.so.3.10.6 \
+libgnuradio-audio.so.3.10.6 \
+libgnuradio-blocks.so.3.10.6 \
+libgnuradio-channels.so.3.10.6 \
+libgnuradio-digital.so.3.10.6 \
+libgnuradio-dtv.so.3.10.6 \
+libgnuradio-fec.so.3.10.6 \
+libgnuradio-fft.so.3.10.6 \
+libgnuradio-filter.so.3.10.6 \
+libgnuradio-iio.so.3.10.6 \
+libgnuradio-network.so.3.10.6 \
+libgnuradio-pdu.so.3.10.6 \
+libgnuradio-pmt.so.3.10.6 \
+libgnuradio-qtgui.so.3.10.6 \
+libgnuradio-runtime.so.3.10.6 \
+libgnuradio-soapy.so.3.10.6 \
+libgnuradio-trellis.so.3.10.6 \
+libgnuradio-uhd.so.3.10.6 \
+libgnuradio-video-sdl.so.3.10.6 \
+libgnuradio-vocoder.so.3.10.6 \
+libgnuradio-wavelet.so.3.10.6 \
+libgnuradio-zeromq.so.3.10.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSoapySDR.so.0.8()(64bit) \
-libasound.so.2()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcodec2.so.1.1()(64bit) \
-libfftw3f.so.3()(64bit) \
-libfftw3f_threads.so.3()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libgsm.so.1()(64bit) \
-libiio.so.0()(64bit) \
-libjack.so.0()(64bit) \
-libm.so.6()(64bit) \
-libportaudio.so.2()(64bit) \
-libqwt-qt5.so.6.2()(64bit) \
-libsndfile.so.1()(64bit) \
-libspdlog.so.1.11()(64bit) \
-libstdc++.so.6()(64bit) \
-libthrift-0.17.0.so()(64bit) \
-libuhd.so.4.4.0()(64bit) \
-libunwind.so.8()(64bit) \
-libvolk.so.3.0()(64bit) \
-libzmq.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libSDL-1.2.so.0 \
+libSoapySDR.so.0.8 \
+libasound.so.2 \
+libboost-program-options.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcodec2.so.1.1 \
+libfftw3f-threads.so.3 \
+libfftw3f.so.3 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libgsm.so.1 \
+libiio.so.0 \
+libjack.so.0 \
+libm.so.6 \
+libportaudio.so.2 \
+libqwt-qt5.so.6.2 \
+libsndfile.so.1 \
+libspdlog.so.1.11 \
+libstdc++.so.6 \
+libthrift-0.17.0.so \
+libuhd.so.4.4.0 \
+libunwind.so.8 \
+libvolk.so.3.0 \
+libzmq.so.5"
 
 inherit rpm

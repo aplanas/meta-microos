@@ -14,11 +14,11 @@ RPM_NAME = "texlive-msg-2023.201.0.0.51svn49578-54.1.noarch.rpm"
 RPM_HASH = "dc4acea970590a5ae896cbc7ceb23ac87d1fe4169f594daa75fed0186c3ab23bccbc0e2538809befb33162c337a449d8f99d59f024a0958d8331e093e793851c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(french_msg-msg.tex) \
-tex(german_msg-msg.tex) \
-tex(msg-msg.tex) \
-tex(msg.sty) \
-tex(norsk_msg-msg.tex) \
+RPROVIDES:${PN} += "tex-french-msg-msg.tex \
+tex-german-msg-msg.tex \
+tex-msg-msg.tex \
+tex-msg.sty \
+tex-norsk-msg-msg.tex \
 texlive-msg"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(inputenc.sty) \
+tex-inputenc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

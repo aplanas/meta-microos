@@ -16,12 +16,11 @@ PV = "0.28"
 RPM_NAME = "perl-SVN-Simple-0.28-3.28.aarch64.rpm"
 RPM_HASH = "a45ea6940ccd5600f72d94168be7852624885980578b72a67518da79a60b7570b2dfc1c67afffbef6382f38f5e231fa655e7728b5d53ac4b8906224b4181012c"
 
-RPROVIDES:${PN} += "perl(SVN::Simple::Edit) \
-perl(SVN::Simple::Editor) \
-perl-SVN-Simple \
-perl-SVN-Simple(aarch-64)"
+RPROVIDES:${PN} += "perl-SVN--Simple--Edit \
+perl-SVN--Simple--Editor \
+perl-SVN-Simple"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
 subversion-perl"
 
 inherit rpm

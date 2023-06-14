@@ -9,10 +9,10 @@ RPM_HASH = "cb3be64d0f5211b94bda4f5a9e0ed010ea22bfebb1481e5e0935aecdd945d8206e6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-blind-except \
-python3.10dist(flake8-blind-except) \
+python3.10dist-flake8-blind-except \
 python310-flake8-blind-except \
-python3dist(flake8-blind-except)"
+python3dist-flake8-blind-except"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

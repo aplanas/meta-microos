@@ -21,42 +21,36 @@ RPM_NAME = "kdevelop5-plugin-php-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "4eca5eaaf1475bc82f7f6ec9166a2ddfed6dc7563d06b64c83aebab69922ecfe6f56fbfb860a19648b13cd0597a77e6cccab9cb9b99cfbb54e8cc021dd8c79e2"
 
 RPROVIDES:${PN} += "kdevelop5-plugin-php \
-kdevelop5-plugin-php(aarch-64) \
-libkdevphpcompletion.so()(64bit) \
-libkdevphpduchain.so()(64bit) \
-libkdevphpparser.so()(64bit) \
-metainfo() \
-metainfo(org.kde.kdev-php.metainfo.xml)"
+libkdevphpcompletion.so \
+libkdevphpduchain.so \
+libkdevphpparser.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdevelop5 \
-ld-linux-aarch64.so.1()(64bit) \
-libKDevPlatformDocumentation.so.511()(64bit) \
-libKDevPlatformInterfaces.so.511()(64bit) \
-libKDevPlatformLanguage.so.511()(64bit) \
-libKDevPlatformOutputView.so.511()(64bit) \
-libKDevPlatformProject.so.511()(64bit) \
-libKDevPlatformSerialization.so.511()(64bit) \
-libKDevPlatformUtil.so.511()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KCMUtils.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5TextEditor.so.5()(64bit) \
-libKF5ThreadWeaver.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKDevPlatformDocumentation.so.511 \
+libKDevPlatformInterfaces.so.511 \
+libKDevPlatformLanguage.so.511 \
+libKDevPlatformOutputView.so.511 \
+libKDevPlatformProject.so.511 \
+libKDevPlatformSerialization.so.511 \
+libKDevPlatformUtil.so.511 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KCMUtils.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5TextEditor.so.5 \
+libKF5ThreadWeaver.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

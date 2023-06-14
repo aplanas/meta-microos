@@ -17,51 +17,32 @@ PV = "3.12.3"
 RPM_NAME = "brasero-3.12.3-2.7.aarch64.rpm"
 RPM_HASH = "baa0827787ed9257111ae58c8f51158b2f5710a9fe0eb71d9e46a4e8b8101fe74cb1f47b36803c93730325bf1d3e7194faaa00c1f154a077885dae2af42e0976"
 
-RPROVIDES:${PN} += "application() \
-application(brasero.desktop) \
-brasero \
-brasero(aarch-64) \
+RPROVIDES:${PN} += "brasero \
 brasero-doc \
 gnomebaker \
-libbrasero-audio2cue.so()(64bit) \
-libbrasero-burn-uri.so()(64bit) \
-libbrasero-cdda2wav.so()(64bit) \
-libbrasero-cdrdao.so()(64bit) \
-libbrasero-cdrecord.so()(64bit) \
-libbrasero-checksum-file.so()(64bit) \
-libbrasero-checksum.so()(64bit) \
-libbrasero-dvdauthor.so()(64bit) \
-libbrasero-dvdcss.so()(64bit) \
-libbrasero-dvdrwformat.so()(64bit) \
-libbrasero-genisoimage.so()(64bit) \
-libbrasero-growisofs.so()(64bit) \
-libbrasero-libburn.so()(64bit) \
-libbrasero-libisofs.so()(64bit) \
-libbrasero-local-track.so()(64bit) \
-libbrasero-mkisofs.so()(64bit) \
-libbrasero-normalize.so()(64bit) \
-libbrasero-readcd.so()(64bit) \
-libbrasero-readom.so()(64bit) \
-libbrasero-transcode.so()(64bit) \
-libbrasero-vcdimager.so()(64bit) \
-libbrasero-vob.so()(64bit) \
-libbrasero-wodim.so()(64bit) \
-metainfo() \
-metainfo(brasero.appdata.xml) \
-mimehandler(application/x-brasero) \
-mimehandler(application/x-cd-image) \
-mimehandler(application/x-cdrdao-toc) \
-mimehandler(application/x-cue) \
-mimehandler(application/x-toc) \
-mimehandler(audio/x-mp3-playlist) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-ms-asx) \
-mimehandler(audio/x-scpls) \
-mimehandler(x-content/audio-cdda) \
-mimehandler(x-content/image-picturecd) \
-mimehandler(x-content/video-dvd) \
-mimehandler(x-content/video-svcd) \
-mimehandler(x-content/video-vcd)"
+libbrasero-audio2cue.so \
+libbrasero-burn-uri.so \
+libbrasero-cdda2wav.so \
+libbrasero-cdrdao.so \
+libbrasero-cdrecord.so \
+libbrasero-checksum-file.so \
+libbrasero-checksum.so \
+libbrasero-dvdauthor.so \
+libbrasero-dvdcss.so \
+libbrasero-dvdrwformat.so \
+libbrasero-genisoimage.so \
+libbrasero-growisofs.so \
+libbrasero-libburn.so \
+libbrasero-libisofs.so \
+libbrasero-local-track.so \
+libbrasero-mkisofs.so \
+libbrasero-normalize.so \
+libbrasero-readcd.so \
+libbrasero-readom.so \
+libbrasero-transcode.so \
+libbrasero-vcdimager.so \
+libbrasero-vob.so \
+libbrasero-wodim.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/cdda2wav \
@@ -72,29 +53,27 @@ cdrdao \
 gstreamer \
 gstreamer-plugins-base \
 gstreamer-plugins-good \
-ld-linux-aarch64.so.1()(64bit) \
-libbrasero-burn3.so.1()(64bit) \
-libbrasero-media3.so.1()(64bit) \
-libbrasero-utils3.so.1()(64bit) \
-libburn.so.4()(64bit) \
-libburn.so.4(LIBBURN4)(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
-libgthread-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libisofs.so.6()(64bit) \
-libisofs.so.6(LIBISOFS6)(64bit) \
-libpango-1.0.so.0()(64bit) \
-libtotem-plparser.so.18()(64bit) \
-libtracker-sparql-3.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libbrasero-burn3.so.1 \
+libbrasero-media3.so.1 \
+libbrasero-utils3.so.1 \
+libburn.so.4 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libgthread-2.0.so.0 \
+libgtk-3.so.0 \
+libisofs.so.6 \
+libpango-1.0.so.0 \
+libtotem-plparser.so.18 \
+libtracker-sparql-3.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

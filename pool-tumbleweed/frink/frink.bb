@@ -12,10 +12,9 @@ PV = "2.3.1.a2"
 RPM_NAME = "frink-2.3.1.a2-1.26.aarch64.rpm"
 RPM_HASH = "f379c15f6097c381ff688c2f1b4fb3d24d24ae7a8782bdba328dc864a71cb02a27d97eac287409585d37ba90711df80220e6516c18a711672e78f17494ef974f"
 
-RPROVIDES:${PN} += "frink \
-frink(aarch-64)"
+RPROVIDES:${PN} += "frink"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -8,8 +8,7 @@ PV = "2023.04"
 RPM_NAME = "u-boot-rpi4-doc-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "e5208cdeb828e663ec3701fd753f90e900d84fc8b827496f42a9014df086b81ac5187c76bc45f15469753f2f6a5599f88bfc09201d0e5212ced24e35c0a895b4"
 
-RPROVIDES:${PN} += "u-boot-rpi4-doc \
-u-boot-rpi4-doc(aarch-64)"
+RPROVIDES:${PN} += "u-boot-rpi4-doc"
 
 RDEPENDS:${PN} += ""
 

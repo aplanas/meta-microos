@@ -14,14 +14,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pdfminer.six \
 python3-pdfminer3k \
-python3.10dist(pdfminer.six) \
+python3.10dist-pdfminer.six \
 python310-pdfminer.six \
 python310-pdfminer3k \
-python3dist(pdfminer.six)"
+python3dist-pdfminer.six"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-chardet \
 python310-cryptography \
 python310-sortedcontainers \

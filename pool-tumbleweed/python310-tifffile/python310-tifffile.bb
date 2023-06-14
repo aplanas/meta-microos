@@ -12,13 +12,13 @@ RPM_HASH = "7bd24bca423fdf4ad6eb0ee3453afbca86ec1a223bff301f5e65ec6261de19e50b56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tifffile \
-python3.10dist(tifffile) \
+python3.10dist-tifffile \
 python310-tifffile \
-python3dist(tifffile)"
+python3dist-tifffile"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-numpy \
 update-alternatives"
 

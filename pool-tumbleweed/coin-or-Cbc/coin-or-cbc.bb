@@ -10,14 +10,13 @@ PV = "2.10.8"
 RPM_NAME = "coin-or-Cbc-2.10.8-1.3.aarch64.rpm"
 RPM_HASH = "fcefcefbee416d60891ed35bb8e6612265caf76c8965eff7df3be048fb3f76e3e7e69c744405f19d765e8946b805f820373367c8c5338fa46d0cc4f64f458c2f"
 
-RPROVIDES:${PN} += "coin-or-Cbc \
-coin-or-Cbc(aarch-64)"
+RPROVIDES:${PN} += "coin-or-Cbc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libCbc.so.3()(64bit) \
-libCbcSolver.so.3()(64bit) \
-libOsiClp.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libCbc.so.3 \
+libCbcSolver.so.3 \
+libOsiClp.so.1 \
+libc.so.6 \
+libgcc-s.so.1"
 
 inherit rpm

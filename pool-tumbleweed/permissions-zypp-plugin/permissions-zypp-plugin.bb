@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "permissions-zypp-plugin"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-libzypp(plugin:commit) \
+libzypp-plugin-commit \
 permissions \
 python3-zypp-plugin"
 

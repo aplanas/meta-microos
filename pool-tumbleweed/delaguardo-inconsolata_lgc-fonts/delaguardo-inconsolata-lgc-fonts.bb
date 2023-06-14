@@ -14,10 +14,10 @@ RPM_NAME = "delaguardo-inconsolata_lgc-fonts-1.1.0-5.17.noarch.rpm"
 RPM_HASH = "0bd80dc8c42e1f91edde3f1c8cc5cfd85d15fed04eefcb122753f74e4bf6e0a69dd38fc67f5c2ec75a18e81db587650e28422ca2c8078f1221cb690935cb5035"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "delaguardo-inconsolata_lgc-fonts"
+RPROVIDES:${PN} += "delaguardo-inconsolata-lgc-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

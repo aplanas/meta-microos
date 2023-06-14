@@ -11,10 +11,9 @@ PV = "20161207"
 RPM_NAME = "ispell-naustrian-20161207-2.14.aarch64.rpm"
 RPM_HASH = "ec2e4ab17bca77fca90fbb03e4b27991a1377bc733562e945c9a9e3f7b3c64c3278641a78c4812e53535a1d53f0e57d318d50fc35653974d7ffc0a47a3df81cb"
 
-RPROVIDES:${PN} += "ispell-naustrian \
-ispell-naustrian(aarch-64) \
-ispell_dictionary \
-locale(ispell:de_AT)"
+RPROVIDES:${PN} += "ispell-dictionary \
+ispell-naustrian \
+locale-ispell-de-AT"
 
 RDEPENDS:${PN} += ""
 

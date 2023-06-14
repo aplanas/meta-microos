@@ -12,17 +12,16 @@ RPM_HASH = "17f004fa45f59dc75d474d41f228e0e595be881f57c711d501317602c604a9552396
 
 RPROVIDES:${PN} += "bootsplash \
 plymouth \
-plymouth(aarch-64) \
 systemd-plymouth"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdrm.so.2()(64bit) \
-libm.so.6()(64bit) \
-libply-splash-core.so.5()(64bit) \
-libply.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdrm.so.2 \
+libm.so.6 \
+libply-splash-core.so.5 \
+libply.so.5 \
 plymouth-branding \
 plymouth-scripts \
 systemd"

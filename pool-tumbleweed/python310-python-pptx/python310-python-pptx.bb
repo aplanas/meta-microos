@@ -9,11 +9,11 @@ RPM_HASH = "d1bfbe14e5686c5023738da82e2e223ee75338ffcedfa6b080de443c8fe8dcc20b7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-pptx \
-python3.10dist(python-pptx) \
+python3.10dist-python-pptx \
 python310-python-pptx \
-python3dist(python-pptx)"
+python3dist-python-pptx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-XlsxWriter \
 python310-lxml"

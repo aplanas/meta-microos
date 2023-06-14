@@ -15,14 +15,13 @@ PV = "0.8.4"
 RPM_NAME = "davix-0.8.4-1.3.aarch64.rpm"
 RPM_HASH = "10286a0e407f9589f5c905b849268d389a57e13d669b37dad1e7cee4b71bdd46f0f098907adbe930542dec5ba2b70460fac10d001f880fe0558004744b244cc4"
 
-RPROVIDES:${PN} += "davix \
-davix(aarch-64)"
+RPROVIDES:${PN} += "davix"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdavix.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdavix.so.0 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

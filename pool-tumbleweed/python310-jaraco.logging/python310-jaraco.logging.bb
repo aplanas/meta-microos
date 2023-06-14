@@ -9,11 +9,11 @@ RPM_HASH = "5c65a273fedced2d856ffa1331b647f5d24830700984f09a6d8438e2587d2ddb1d45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.logging \
-python3.10dist(jaraco.logging) \
+python3.10dist-jaraco.logging \
 python310-jaraco.logging \
-python3dist(jaraco.logging)"
+python3dist-jaraco.logging"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tempora"
 
 inherit rpm

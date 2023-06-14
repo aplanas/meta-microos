@@ -16,8 +16,8 @@ RPM_NAME = "texlive-limap-2023.201.2.2svn44863-54.1.noarch.rpm"
 RPM_HASH = "bc7cea6e48f65eccba106e693fda6509fafa27befb31a4f67212fc99868ae19c1b7a4e8f08c91dee5bd5e5826434fef211f5ba97c1835b6e2f513316b0372e52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(limap.cls) \
-tex(limap.sty) \
+RPROVIDES:${PN} += "tex-limap.cls \
+tex-limap.sty \
 texlive-limap"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,10 +26,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(booktabs.sty) \
-tex(etoolbox.sty) \
-tex(fancyhdr.sty) \
-tex(longtable.sty) \
+tex-booktabs.sty \
+tex-etoolbox.sty \
+tex-fancyhdr.sty \
+tex-longtable.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

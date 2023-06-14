@@ -8,7 +8,6 @@ RPM_NAME = "qt6-declarative-docs-qch-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "8212a07379e7ab1820801e01d5d6d3362e84f94caf41bcc27ed16cf1032f8023a04454af28b7164108758b2fbff68d042d287da57edda40eaaee9b24eafcdafc"
 
 RPROVIDES:${PN} += "qt6-declarative-docs-qch \
-qt6-declarative-docs-qch(aarch-64) \
 qt6-quickcontrols2-docs-qch"
 
 RDEPENDS:${PN} += "/bin/sh"

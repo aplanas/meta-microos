@@ -9,13 +9,13 @@ RPM_HASH = "de8f58b322727405bf3ab5117781cc7e1121a32eeacfe4065c5a01b36468475e1ec4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-translation-finder \
-python3.10dist(translation-finder) \
+python3.10dist-translation-finder \
 python310-translation-finder \
-python3dist(translation-finder)"
+python3dist-translation-finder"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-ruamel.yaml \
 python310-setuptools \
 python310-weblate-language-data \

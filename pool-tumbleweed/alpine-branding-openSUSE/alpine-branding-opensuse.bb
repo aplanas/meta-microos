@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alpine-branding \
 alpine-branding-openSUSE \
-config(alpine-branding-openSUSE)"
+config-alpine-branding-openSUSE"
 
 RDEPENDS:${PN} += ""
 

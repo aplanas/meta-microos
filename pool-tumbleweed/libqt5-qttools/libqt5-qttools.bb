@@ -10,49 +10,31 @@ PV = "5.15.9+kde1"
 RPM_NAME = "libqt5-qttools-5.15.9+kde1-1.1.aarch64.rpm"
 RPM_HASH = "15903b9874613f84bb038cb7ac5a14c2f12a41e97f68a56675b072e22ac29ed1d0ffe94b68e41e5286ec78cd549e673a91a47c41b0e3bcaddd2bde007efbcc54"
 
-RPROVIDES:${PN} += "application() \
-application(assistant5.desktop) \
-application(designer5.desktop) \
-application(qdbusviewer5.desktop) \
-cmake(Qt5AttributionsScannerTools) \
-libqquickwidget.so()(64bit) \
-libqt5-qttools \
-libqt5-qttools(aarch-64) \
-mimehandler(application/x-assistant) \
-mimehandler(application/x-designer)"
+RPROVIDES:${PN} += "cmake-Qt5AttributionsScannerTools \
+libqquickwidget.so \
+libqt5-qttools"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
 libQt5DBus5 \
-libQt5Designer.so.5()(64bit) \
-libQt5Designer.so.5(Qt_5)(64bit) \
-libQt5DesignerComponents.so.5()(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Help.so.5()(64bit) \
-libQt5Help.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5QuickWidgets.so.5()(64bit) \
-libQt5QuickWidgets.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
+libQt5Designer.so.5 \
+libQt5DesignerComponents.so.5 \
+libQt5Gui.so.5 \
+libQt5Help.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Quick.so.5 \
+libQt5QuickWidgets.so.5 \
+libQt5Sql.so.5 \
 libQt5Sql5-sqlite \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
 libqt5-qdbus \
 libqt5-qtpaths \
 libqt5-qttools-qhelpgenerator \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

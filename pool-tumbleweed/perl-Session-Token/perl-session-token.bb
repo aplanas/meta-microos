@@ -35,12 +35,11 @@ PV = "1.503"
 RPM_NAME = "perl-Session-Token-1.503-1.14.aarch64.rpm"
 RPM_HASH = "514b533026e790e68c59a8c49ec372685ddf62692b7610f749a583d49d6e0fe6af3f11b2315d3885be0d468a74e4d9a45a718a9e9100642af5b262ac3896b19b"
 
-RPROVIDES:${PN} += "perl(Session::Token) \
-perl-Session-Token \
-perl-Session-Token(aarch-64)"
+RPROVIDES:${PN} += "perl-Session--Token \
+perl-Session-Token"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -7,11 +7,10 @@ PV = "2.9.21"
 RPM_NAME = "libpano-utils-2.9.21-1.8.aarch64.rpm"
 RPM_HASH = "06d736298a16b8b06abb9f6e9445e49af27328cec6042975ed23bb187f1a12246a05cc70657f679738d25c2d2708cff6233352e85266870b3c61ffedbd74cd22"
 
-RPROVIDES:${PN} += "libpano-utils \
-libpano-utils(aarch-64)"
+RPROVIDES:${PN} += "libpano-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpano13.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpano13.so.3"
 
 inherit rpm

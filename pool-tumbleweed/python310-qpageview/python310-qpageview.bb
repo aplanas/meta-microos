@@ -9,11 +9,11 @@ RPM_HASH = "0a2fafee37b030d7a1ed1ddb770cf8718ad06d8fd380e0b29ac631e6d3bc37682b44
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-qpageview \
-python3.10dist(qpageview) \
+python3.10dist-qpageview \
 python310-qpageview \
-python3dist(qpageview)"
+python3dist-qpageview"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-poppler-qt5 \
 python310-qt5"
 

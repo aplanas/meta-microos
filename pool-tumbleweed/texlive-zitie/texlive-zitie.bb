@@ -10,9 +10,9 @@ RPM_NAME = "texlive-zitie-2023.201.1.4.0svn60676-52.1.noarch.rpm"
 RPM_HASH = "016b2a244529c227804f14e1e2942b5dbbcec34c04af1605c3b07e93be9f816231911f71eae32ce71073dfe3b03b1afd094eb823c0eb7ba6a216db48aa0e8d1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(zitie.luatex.def) \
-tex(zitie.sty) \
-tex(zitie.xetex.def) \
+RPROVIDES:${PN} += "tex-zitie.luatex.def \
+tex-zitie.sty \
+tex-zitie.xetex.def \
 texlive-zitie"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,12 +21,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(ctex.sty) \
-tex(l3draw.sty) \
-tex(l3keys2e.sty) \
-tex(xeCJK.sty) \
-tex(xparse.sty) \
-tex(zhlipsum.sty) \
+tex-ctex.sty \
+tex-l3draw.sty \
+tex-l3keys2e.sty \
+tex-xeCJK.sty \
+tex-xparse.sty \
+tex-zhlipsum.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

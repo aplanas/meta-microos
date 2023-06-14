@@ -11,22 +11,20 @@ RPM_NAME = "booth-1.0+20221117.9d4029a-1.1.aarch64.rpm"
 RPM_HASH = "77092345c393ed02489dc1142e41618dd827426a8f5bd300ccb042f3dbf8c978fb3b88ec1460ca79df7be83102e7392b0cf64403609985d29de8f2959b6af78c"
 
 RPROVIDES:${PN} += "booth \
-booth(aarch-64) \
-config(booth) \
-pkgconfig(booth)"
+config-booth \
+pkgconfig-booth"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libqb.so.100()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20 \
+libglib-2.0.so.0 \
+libqb.so.100 \
+libsystemd.so.0 \
+libxml2.so.2 \
+libz.so.1 \
 pacemaker-ticket-support"
 
 inherit rpm

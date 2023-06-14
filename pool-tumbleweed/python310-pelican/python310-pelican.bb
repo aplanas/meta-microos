@@ -27,13 +27,13 @@ RPM_HASH = "3730eeca2a5e715d42832254ca067ceb4f1dd284cd0518870f9bb6d28cea62f152d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pelican \
-python3.10dist(pelican) \
+python3.10dist-pelican \
 python310-pelican \
-python3dist(pelican)"
+python3dist-pelican"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-Pygments \
 python310-Unidecode \

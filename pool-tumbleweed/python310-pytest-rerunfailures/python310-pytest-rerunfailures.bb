@@ -10,11 +10,11 @@ RPM_HASH = "a1f46c8761d700baef2d6e54079b351dfab22e151840663ca4e906e8ab904bc35034
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-rerunfailures \
-python3.10dist(pytest-rerunfailures) \
+python3.10dist-pytest-rerunfailures \
 python310-pytest-rerunfailures \
-python3dist(pytest-rerunfailures)"
+python3dist-pytest-rerunfailures"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytest \
 python310-setuptools"
 

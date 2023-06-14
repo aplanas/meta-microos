@@ -12,8 +12,7 @@ PV = "2.6.1"
 RPM_NAME = "vgrep-2.6.1-1.4.aarch64.rpm"
 RPM_HASH = "f852b4ca83c177b11b7f157ebe07269a82abb8629c32b230c523a676f09f40eed9f941af94337a9c2e76f1cf408b6355feeabf0adce95541255fb50643a1d257"
 
-RPROVIDES:${PN} += "vgrep \
-vgrep(aarch-64)"
+RPROVIDES:${PN} += "vgrep"
 
 RDEPENDS:${PN} += "git-core \
 grep"

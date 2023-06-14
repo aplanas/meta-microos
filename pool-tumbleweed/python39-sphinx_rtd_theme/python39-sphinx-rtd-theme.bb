@@ -10,11 +10,11 @@ RPM_NAME = "python39-sphinx_rtd_theme-1.2.0-1.1.noarch.rpm"
 RPM_HASH = "6c0d81a4bdd48a4be25be98b8fc165a346b12bbb17074445d40951b149515bd1e9c0951a1aaa0ceee050a11daf4da443dfdb3db5b900f3d4019dba69edbfba8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sphinx-rtd-theme) \
-python39-sphinx_rtd_theme \
-python3dist(sphinx-rtd-theme)"
+RPROVIDES:${PN} += "python3.9dist-sphinx-rtd-theme \
+python39-sphinx-rtd-theme \
+python3dist-sphinx-rtd-theme"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Sphinx \
 python39-docutils \
 python39-sphinxcontrib-jquery"

@@ -10,8 +10,7 @@ RPM_NAME = "libb64-0-1.2.1-3.12.aarch64.rpm"
 RPM_HASH = "168535474f932e1485ced3d898b894fbb5f84f957ac51588127298db359ac0d0d8538d4451b8289f00db383b78d4fd35ee3b16810b1a71a7b2ef41208266cbc8"
 
 RPROVIDES:${PN} += "libb64-0 \
-libb64-0(aarch-64) \
-libb64.so.0()(64bit)"
+libb64.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig"
 

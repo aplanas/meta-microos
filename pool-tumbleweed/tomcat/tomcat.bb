@@ -13,7 +13,7 @@ RPM_NAME = "tomcat-9.0.75-1.1.noarch.rpm"
 RPM_HASH = "d63ca87a3a02c0cffc838a0992639cdb00169d12d9b11a9971ac94bcb62168193093cdac4ce2e8b7fd7be9f19be0f7a3ac61edb436f00b5d34b16dce96e0793b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(tomcat) \
+RPROVIDES:${PN} += "config-tomcat \
 tomcat"
 
 RDEPENDS:${PN} += "/bin/bash \

@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hdf5-hpc-examples"
 
-RDEPENDS:${PN} += "hdf5_1_12_2-hpc-examples"
+RDEPENDS:${PN} += "hdf5-1-12-2-hpc-examples"
 
 inherit rpm

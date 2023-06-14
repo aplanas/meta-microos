@@ -10,11 +10,11 @@ RPM_HASH = "5ddc07e5a354072181509c4a60449b1ac93dc1f5ee926c05bc4bc06d500da7af67a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-json-widget \
-python3.10dist(django-json-widget) \
+python3.10dist-django-json-widget \
 python310-django-json-widget \
-python3dist(django-json-widget)"
+python3dist-django-json-widget"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-future"
 

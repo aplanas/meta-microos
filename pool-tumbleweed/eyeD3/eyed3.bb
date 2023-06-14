@@ -22,11 +22,11 @@ RPM_HASH = "5f79f0743be9928291b1eba0cdf38e83e38e7a67120a82df2d2ca219ff74d9021d0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eyeD3 \
-python3.10dist(eyed3) \
-python3dist(eyed3)"
+python3.10dist-eyed3 \
+python3dist-eyed3"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-chardet \
 python3-colorama \
 python3-deprecation \

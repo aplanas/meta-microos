@@ -21,22 +21,20 @@ PV = "1.227"
 RPM_NAME = "perl-Pango-1.227-1.22.aarch64.rpm"
 RPM_HASH = "ee0a9b7b5bfd61273e1d7066aafcf89eb71882886653fbe7315af65d436e78f98a099d99e192725f21d5fe9f82a6d6c33e32c51b924b2ab6c907c34a94598c7b"
 
-RPROVIDES:${PN} += "perl(Pango) \
-perl(Pango::Install::Files) \
-perl-Pango \
-perl-Pango(aarch-64)"
+RPROVIDES:${PN} += "perl-Pango \
+perl-Pango--Install--Files"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Cairo) \
-perl(ExtUtils::Depends) \
-perl(ExtUtils::PkgConfig) \
-perl(Glib)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Cairo \
+perl-ExtUtils--Depends \
+perl-ExtUtils--PkgConfig \
+perl-Glib"
 
 inherit rpm

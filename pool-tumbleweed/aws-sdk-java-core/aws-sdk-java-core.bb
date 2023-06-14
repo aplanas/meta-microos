@@ -12,16 +12,16 @@ RPM_HASH = "c85dca5d4905f201c3ff1b00b61e09520c24ac03485da25e8a5e35804b0003b7a44a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-core \
-mvn(com.amazonaws:aws-java-sdk-core) \
-mvn(com.amazonaws:aws-java-sdk-core:pom:)"
+mvn-com.amazonaws-aws-java-sdk-core \
+mvn-com.amazonaws-aws-java-sdk-core-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-cbor) \
-mvn(commons-logging:commons-logging) \
-mvn(javax.xml.bind:jaxb-api) \
-mvn(joda-time:joda-time) \
-mvn(org.apache.httpcomponents:httpclient)"
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-com.fasterxml.jackson.dataformat-jackson-dataformat-cbor \
+mvn-commons-logging-commons-logging \
+mvn-javax.xml.bind-jaxb-api \
+mvn-joda-time-joda-time \
+mvn-org.apache.httpcomponents-httpclient"
 
 inherit rpm

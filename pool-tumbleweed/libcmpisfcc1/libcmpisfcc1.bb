@@ -7,13 +7,12 @@ PV = "2.2.8"
 RPM_NAME = "libcmpisfcc1-2.2.8-1.23.aarch64.rpm"
 RPM_HASH = "484362513663ccc5cea11351834f1a830133f92fc4840b8e179af362d4a538291bcde5f1286d5ad876cb65491ecbbdf341b44f835c043d5df651458b85862690"
 
-RPROVIDES:${PN} += "libcmpisfcc.so.1()(64bit) \
-libcmpisfcc1 \
-libcmpisfcc1(aarch-64)"
+RPROVIDES:${PN} += "libcmpisfcc.so.1 \
+libcmpisfcc1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcimcclient.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcimcclient.so.0"
 
 inherit rpm

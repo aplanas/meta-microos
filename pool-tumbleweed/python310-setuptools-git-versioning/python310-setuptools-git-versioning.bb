@@ -16,16 +16,14 @@ RPM_HASH = "e5619fdad477b80e0fdf94d72a298e0e3372c0b7c2c2a1f4c5b9e13c30677161bc69
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-setuptools-git-versioning \
-python3-setuptools_git_versioning \
-python3.10dist(setuptools-git-versioning) \
+python3.10dist-setuptools-git-versioning \
 python310-setuptools-git-versioning \
-python310-setuptools_git_versioning \
-python3dist(setuptools-git-versioning)"
+python3dist-setuptools-git-versioning"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \
-python(abi) \
+python-abi \
 python310-Deprecated \
 python310-packaging \
 python310-setuptools \

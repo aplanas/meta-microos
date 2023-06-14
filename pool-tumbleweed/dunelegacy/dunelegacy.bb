@@ -19,18 +19,13 @@ PV = "0.96.4"
 RPM_NAME = "dunelegacy-0.96.4-3.25.aarch64.rpm"
 RPM_HASH = "7ce37fe3bce1bd179e4800602b74dd54238a6eb68d12f47d8389d5c32b1129430c77c1d6049e4998a0056c3e8d0b7f1ecb301661ecba7cec332f61bd2c1512d1"
 
-RPROVIDES:${PN} += "application() \
-application(dunelegacy.desktop) \
-dunelegacy \
-dunelegacy(aarch-64) \
-metainfo() \
-metainfo(dunelegacy.appdata.xml)"
+RPROVIDES:${PN} += "dunelegacy"
 
-RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "libSDL2-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

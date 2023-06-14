@@ -18,7 +18,7 @@ RPM_NAME = "texlive-decision-table-2023.201.0.0.0.4svn60673-52.1.noarch.rpm"
 RPM_HASH = "cf0e073e26e5de4862192668c1105b1329434ca0c959f217624375f07fed59b424a352cd56422bb6df88715dc5269096447fe14aa68c150979b653d2b1bd63ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(decision-table.sty) \
+RPROVIDES:${PN} += "tex-decision-table.sty \
 texlive-decision-table"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(l3keys2e.sty) \
-tex(nicematrix.sty) \
+tex-l3keys2e.sty \
+tex-nicematrix.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

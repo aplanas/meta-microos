@@ -15,8 +15,7 @@ RPM_NAME = "harminv-devel-1.4.1-1.18.aarch64.rpm"
 RPM_HASH = "214e7cd30fec8c1f98d2e25f072b8ac4d21a775d2afa7f79211af41b8580a85827c2d62db8104f3df2f780614dced51b30d069d1aa5dd04c35bbc53e9d185cd2"
 
 RPROVIDES:${PN} += "harminv-devel \
-harminv-devel(aarch-64) \
-pkgconfig(harminv)"
+pkgconfig-harminv"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libharminv3"

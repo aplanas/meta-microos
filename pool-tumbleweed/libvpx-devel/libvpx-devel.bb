@@ -15,8 +15,7 @@ RPM_NAME = "libvpx-devel-1.13.0-1.3.aarch64.rpm"
 RPM_HASH = "62995d3e7cd574c078db0a0b4cd52a770894f6ee66e1c8120daf3072c52d278a65226485308de9fc1312d98aa9222524837548102985cc85ec75c6d6a2244e40"
 
 RPROVIDES:${PN} += "libvpx-devel \
-libvpx-devel(aarch-64) \
-pkgconfig(vpx)"
+pkgconfig-vpx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvpx8"

@@ -10,21 +10,20 @@ RPM_HASH = "7363387b24e159863ef74a3b335c8d8de00ead7eb774e82d5f0a2ae7c72247f65b16
 
 RPROVIDES:${PN} += "google-perftools-devel \
 gperftools-devel \
-gperftools-devel(aarch-64) \
-pkgconfig(libprofiler) \
-pkgconfig(libtcmalloc) \
-pkgconfig(libtcmalloc_debug) \
-pkgconfig(libtcmalloc_minimal) \
-pkgconfig(libtcmalloc_minimal_debug)"
+pkgconfig-libprofiler \
+pkgconfig-libtcmalloc \
+pkgconfig-libtcmalloc-debug \
+pkgconfig-libtcmalloc-minimal \
+pkgconfig-libtcmalloc-minimal-debug"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gperftools \
 libprofiler0 \
 libstdc++-devel \
-libtcmalloc4 \
-libtcmalloc_and_profiler4 \
-libtcmalloc_debug4 \
-libtcmalloc_minimal4 \
-libtcmalloc_minimal_debug4"
+libtcmalloc-and-profiler4 \
+libtcmalloc-debug4 \
+libtcmalloc-minimal-debug4 \
+libtcmalloc-minimal4 \
+libtcmalloc4"
 
 inherit rpm

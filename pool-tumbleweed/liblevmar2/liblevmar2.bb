@@ -17,15 +17,14 @@ PV = "2.6"
 RPM_NAME = "liblevmar2-2.6-2.3.aarch64.rpm"
 RPM_HASH = "bd6e48467e080ec58a91d51233c2adfd837d269db413a652b5743125ad64748b062f425de385880fab96ae132ed3da3c0008eba9ba5d78e200d6727c9f08d7b0"
 
-RPROVIDES:${PN} += "liblevmar.so.2()(64bit) \
-liblevmar2 \
-liblevmar2(aarch-64)"
+RPROVIDES:${PN} += "liblevmar.so.2 \
+liblevmar2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+liblapack.so.3 \
+libm.so.6"
 
 inherit rpm

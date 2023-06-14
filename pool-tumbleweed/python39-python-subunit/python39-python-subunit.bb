@@ -27,12 +27,12 @@ RPM_NAME = "python39-python-subunit-1.4.2-2.2.noarch.rpm"
 RPM_HASH = "88e4248c955dc5fbe137307ba3069278e526ba5021797abd01d4d28870e3566bb0c66291345c36a188c1f1ab08749ce999f008ff9514eb8f92a73c33b563a84c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(python-subunit) \
+RPROVIDES:${PN} += "python3.9dist-python-subunit \
 python39-python-subunit \
-python3dist(python-subunit)"
+python3dist-python-subunit"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python39-extras \
 python39-testtools"
 

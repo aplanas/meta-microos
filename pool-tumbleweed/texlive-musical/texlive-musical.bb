@@ -17,7 +17,7 @@ RPM_NAME = "texlive-musical-2023.201.3.1svn54758-54.1.noarch.rpm"
 RPM_HASH = "5ce8eeb142d03d9f71ca849c58b5c1883f71edca9ac98c0046a8616e94eff66906552036ab861c2a268b398b26f12170281b817a8098204115399e1ad080047d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(musical.sty) \
+RPROVIDES:${PN} += "tex-musical.sty \
 texlive-musical"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,13 +26,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(fancyhdr.sty) \
-tex(footmisc.sty) \
-tex(ifthen.sty) \
-tex(tcolorbox.sty) \
-tex(titlesec.sty) \
-tex(xspace.sty) \
+tex-etoolbox.sty \
+tex-fancyhdr.sty \
+tex-footmisc.sty \
+tex-ifthen.sty \
+tex-tcolorbox.sty \
+tex-titlesec.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -36,24 +36,22 @@ RPM_HASH = "5f060a9377b47b7035efc75cec4807035602cda84b6dbc79ebfc682300e32efc8620
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "IPython3 \
-application() \
-application(ipython-3.11.desktop) \
 jupyter-ipython \
-python3.11dist(ipython) \
+python3.11dist-ipython \
 python311-IPython \
 python311-ipython \
 python311-ipython-doc \
-python311-jupyter_ipython \
-python311-jupyter_ipython-doc \
-python311-jupyter_ipython-doc-html \
-python311-jupyter_ipython-doc-pdf \
-python3dist(ipython)"
+python311-jupyter-ipython \
+python311-jupyter-ipython-doc \
+python311-jupyter-ipython-doc-html \
+python311-jupyter-ipython-doc-pdf \
+python3dist-ipython"
 
-RDEPENDS:${PN} += "(python311-prompt_toolkit >= 3.0.38 with python311-prompt_toolkit < 3.1) \
+RDEPENDS:${PN} += "-python311-prompt-toolkit >= 3.0.38 with python311-prompt-toolkit < 3.1 \
 /bin/sh \
 /usr/bin/python3.11 \
 alts \
-python(abi) \
+python-abi \
 python311 \
 python311-backcall \
 python311-decorator \

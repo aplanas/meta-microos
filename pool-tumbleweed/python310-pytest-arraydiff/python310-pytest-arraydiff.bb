@@ -22,11 +22,11 @@ RPM_HASH = "7184fab5aa9d4f58f16e5d64aa5a5b17598a661b6677f01fb9f4e08553a60dfc4cf5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-arraydiff \
-python3.10dist(pytest-arraydiff) \
+python3.10dist-pytest-arraydiff \
 python310-pytest-arraydiff \
-python3dist(pytest-arraydiff)"
+python3dist-pytest-arraydiff"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-pytest"
 

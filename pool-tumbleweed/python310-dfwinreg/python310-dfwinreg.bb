@@ -9,11 +9,11 @@ RPM_HASH = "21a51f532e6161dd8da5a5b8098ceed5e12a004b935854b424736507b7e83800cda6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dfwinreg \
-python3.10dist(dfwinreg) \
+python3.10dist-dfwinreg \
 python310-dfwinreg \
-python3dist(dfwinreg)"
+python3dist-dfwinreg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-libcreg \
 python310-libregf"
 

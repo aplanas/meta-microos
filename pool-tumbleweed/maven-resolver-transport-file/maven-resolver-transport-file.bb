@@ -9,16 +9,16 @@ RPM_HASH = "68c271973e562e7b1447aba3dcbd68d418f5c4884cad90c416ad7548679114b7f6ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-transport-file \
-mvn(org.apache.maven.resolver:maven-resolver-transport-file) \
-mvn(org.apache.maven.resolver:maven-resolver-transport-file:pom:) \
-mvn(org.eclipse.aether:aether-transport-file) \
-mvn(org.eclipse.aether:aether-transport-file:pom:) \
-osgi(org.apache.maven.resolver.transport.file)"
+mvn-org.apache.maven.resolver-maven-resolver-transport-file \
+mvn-org.apache.maven.resolver-maven-resolver-transport-file-pom- \
+mvn-org.eclipse.aether-aether-transport-file \
+mvn-org.eclipse.aether-aether-transport-file-pom- \
+osgi-org.apache.maven.resolver.transport.file"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.resolver:maven-resolver-api) \
-mvn(org.apache.maven.resolver:maven-resolver-spi) \
-mvn(org.slf4j:slf4j-api)"
+mvn-org.apache.maven.resolver-maven-resolver-api \
+mvn-org.apache.maven.resolver-maven-resolver-spi \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

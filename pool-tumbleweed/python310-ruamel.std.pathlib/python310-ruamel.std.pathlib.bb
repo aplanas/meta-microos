@@ -9,11 +9,11 @@ RPM_HASH = "02e5c01f7ff6e9155e2c4eac04ea1dda5e24b3d1d39815674d52a7a4f86ee5cc4e32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ruamel.std.pathlib \
-python3.10dist(ruamel.std.pathlib) \
+python3.10dist-ruamel.std.pathlib \
 python310-ruamel.std.pathlib \
-python3dist(ruamel.std.pathlib)"
+python3dist-ruamel.std.pathlib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ruamel.base"
 
 inherit rpm

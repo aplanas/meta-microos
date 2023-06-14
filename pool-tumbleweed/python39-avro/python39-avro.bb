@@ -9,13 +9,13 @@ RPM_NAME = "python39-avro-1.11.1-2.4.noarch.rpm"
 RPM_HASH = "9575a9dd23e7936f1235fd21eb6e63811e052b3749a7236c5d7b1aece3e11ba7e532a0f53e0c1ff9bf33d2673d4e41c6506fa97fd519c8cfcae0043c472a2c82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(avro) \
+RPROVIDES:${PN} += "python3.9dist-avro \
 python39-avro \
-python3dist(avro)"
+python3dist-avro"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Twisted \
 python39-zope.interface \
 update-alternatives"

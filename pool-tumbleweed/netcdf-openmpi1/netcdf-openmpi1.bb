@@ -11,13 +11,12 @@ PV = "4.9.2"
 RPM_NAME = "netcdf-openmpi1-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "4fda34e06c265233ee7db314949155d7f470bc6fd181980102395d0f0349d146cf3bad1ffa8c4bba555f9be9ea1eb32519f2a223c224db2e174827427460c9ad"
 
-RPROVIDES:${PN} += "netcdf-openmpi1 \
-netcdf-openmpi1(aarch-64)"
+RPROVIDES:${PN} += "netcdf-openmpi1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhdf5.so.200()(64bit) \
-libnetcdf.so.19()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhdf5.so.200 \
+libnetcdf.so.19 \
 libnetcdf19-openmpi1"
 
 inherit rpm

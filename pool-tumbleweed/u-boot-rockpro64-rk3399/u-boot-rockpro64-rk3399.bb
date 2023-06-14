@@ -9,8 +9,7 @@ RPM_NAME = "u-boot-rockpro64-rk3399-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "0e78182d2331935e5df34328218d19e265fff640f933feed9805e555cef6e7285bb48bc30f96c92b297b746f1ea11e96b989d217b2d4393ae2e005d112697909"
 
 RPROVIDES:${PN} += "u-boot-loader \
-u-boot-rockpro64-rk3399 \
-u-boot-rockpro64-rk3399(aarch-64)"
+u-boot-rockpro64-rk3399"
 
 RDEPENDS:${PN} += ""
 

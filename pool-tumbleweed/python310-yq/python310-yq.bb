@@ -9,14 +9,14 @@ RPM_HASH = "07b9e21f16396e95e46f3a434ecf9640f1723449a8c4b4fa4e389ca9369ead86cf80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yq \
-python3.10dist(yq) \
+python3.10dist-yq \
 python310-yq \
-python3dist(yq)"
+python3dist-yq"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 jq \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-argcomplete \
 python310-tomlkit \

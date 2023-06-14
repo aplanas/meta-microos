@@ -9,13 +9,13 @@ RPM_HASH = "542346b09391749e93e27e6f6de1dc6a61f8c8f370e2f5e1d3d23c5ac21bf9b89365
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-edk2toolext \
-python3.10dist(edk2-pytool-extensions) \
+python3.10dist-edk2-pytool-extensions \
 python310-edk2toolext \
-python3dist(edk2-pytool-extensions)"
+python3dist-edk2-pytool-extensions"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-edk2toollib \
 python310-pefile \

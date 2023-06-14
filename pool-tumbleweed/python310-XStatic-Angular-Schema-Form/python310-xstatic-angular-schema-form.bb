@@ -12,10 +12,10 @@ RPM_HASH = "25cc062fcbcf05c2f87d84267e0762aa1c6b5bd4e2e75ed277703f858708fc14c4d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-XStatic-Angular-Schema-Form \
-python3.10dist(xstatic-angular-schema-form) \
+python3.10dist-xstatic-angular-schema-form \
 python310-XStatic-Angular-Schema-Form \
-python3dist(xstatic-angular-schema-form)"
+python3dist-xstatic-angular-schema-form"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,7 +9,7 @@ RPM_HASH = "bf90bca20725225e38df2cf5a844cac43679472212783806c28e9761da30e4e1e08f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyprland-protocols-devel \
-pkgconfig(hyprland-protocols)"
+pkgconfig-hyprland-protocols"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

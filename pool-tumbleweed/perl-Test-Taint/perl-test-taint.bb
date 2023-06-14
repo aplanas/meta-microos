@@ -15,10 +15,9 @@ PV = "1.08"
 RPM_NAME = "perl-Test-Taint-1.08-1.20.aarch64.rpm"
 RPM_HASH = "35afa3fa85e7739415494a7baae6810a6c88656ef59b12e0d39dc2fc49f27b22e12dd71b3e483dc71300ca7dffe0809d27ea6a86c5b3e4081d009fe86e6d031f"
 
-RPROVIDES:${PN} += "perl(Test::Taint) \
-perl-Test-Taint \
-perl-Test-Taint(aarch-64)"
+RPROVIDES:${PN} += "perl-Test--Taint \
+perl-Test-Taint"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

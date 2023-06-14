@@ -21,9 +21,9 @@ RPM_NAME = "texlive-bib2gls-2023.201.3.2svn65104-53.1.noarch.rpm"
 RPM_HASH = "85c708f1d16c2315c9d80ee4c67ce6e8bdff4ec8d4898893fe195d8a5a11ae8a2a39ab9388b228725f4f1d4a92b86a344cedcf2c3438ab6744f0a82b274c229a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bib2gls.jar) \
-tex(convertgls2bib.jar) \
-tex(texparserlib.jar) \
+RPROVIDES:${PN} += "tex-bib2gls.jar \
+tex-convertgls2bib.jar \
+tex-texparserlib.jar \
 texlive-bib2gls"
 
 RDEPENDS:${PN} += "/bin/sh \

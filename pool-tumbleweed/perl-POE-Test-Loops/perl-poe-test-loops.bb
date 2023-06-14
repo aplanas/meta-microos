@@ -14,12 +14,12 @@ RPM_NAME = "perl-POE-Test-Loops-1.360-1.26.noarch.rpm"
 RPM_HASH = "5a5368889a3d3e112716b063346c25985bc31d97fb806cf5088561ab2f4d19b76a9517c5d8972acb1b0157854905cb38cc81a6d1e2e9b702e4159dc17af7c343"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(POE::Test::DondeEstan) \
-perl(POE::Test::Loops) \
+RPROVIDES:${PN} += "perl-POE--Test--DondeEstan \
+perl-POE--Test--Loops \
 perl-POE-Test-Loops"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Test::More)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Test--More"
 
 inherit rpm

@@ -14,11 +14,11 @@ RPM_HASH = "0e054f1cf84432c1d14be5f7447e8a01701429fe0c8bfd8a4bb811e6d606b2553bbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-billing \
-python3.10dist(azure-mgmt-billing) \
+python3.10dist-azure-mgmt-billing \
 python310-azure-mgmt-billing \
-python3dist(azure-mgmt-billing)"
+python3dist-azure-mgmt-billing"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

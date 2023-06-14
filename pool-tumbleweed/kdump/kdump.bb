@@ -22,8 +22,7 @@ RPM_NAME = "kdump-1.0.2+git50.g4b01402-1.3.aarch64.rpm"
 RPM_HASH = "36183fb14281b31341156e54f1881a9871475d4ab4ef03bfea1224c41e230406459b471408774f43f493b37d8d15bb6fee673212a7802123612a2d4ffa74fee6"
 
 RPROVIDES:${PN} += "kdump \
-kdump(aarch-64) \
-kexec-tools:/etc/init.d/kdump"
+kexec-tools-/etc/init.d/kdump"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -35,16 +34,16 @@ curl \
 dracut \
 fillup \
 kexec-tools \
-ld-linux-aarch64.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libelf.so.1()(64bit) \
-libesmtp.so.6.2.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmount.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libblkid.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libelf.so.1 \
+libesmtp.so.6.2.0 \
+libgcc-s.so.1 \
+libmount.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
 makedumpfile \
 openssh"
 

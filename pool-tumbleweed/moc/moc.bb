@@ -37,45 +37,43 @@ PV = "2.6.0~svn2994"
 RPM_NAME = "moc-2.6.0~svn2994-5.1.aarch64.rpm"
 RPM_HASH = "3a0d700006d1cd7228c2f1202775179a1f47e2121c0d30378a3b1e938f32c41643b5e1ba2f4442588affe2906a660263c5fa7b107fe646e42b7933aed9a69d8c"
 
-RPROVIDES:${PN} += "libffmpeg_decoder.so()(64bit) \
-libflac_decoder.so()(64bit) \
-libmodplug_decoder.so()(64bit) \
-libmusepack_decoder.so()(64bit) \
-libsndfile_decoder.so()(64bit) \
-libspeex_decoder.so()(64bit) \
-libtimidity_decoder.so()(64bit) \
-libvorbis_decoder.so()(64bit) \
-libwavpack_decoder.so()(64bit) \
-moc \
-moc(aarch-64)"
+RPROVIDES:${PN} += "libffmpeg-decoder.so \
+libflac-decoder.so \
+libmodplug-decoder.so \
+libmusepack-decoder.so \
+libsndfile-decoder.so \
+libspeex-decoder.so \
+libtimidity-decoder.so \
+libvorbis-decoder.so \
+libwavpack-decoder.so \
+moc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libFLAC.so.12()(64bit) \
-libasound.so.2()(64bit) \
-libavcodec.so.59()(64bit) \
-libavformat.so.59()(64bit) \
-libavutil.so.57()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libdb-4.8.so()(64bit) \
-libjack.so.0()(64bit) \
-libltdl.so.7()(64bit) \
-libm.so.6()(64bit) \
-libmagic.so.1()(64bit) \
-libmodplug.so.1()(64bit) \
-libmpcdec.so.5()(64bit) \
-libncursesw.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-librcc.so.0()(64bit) \
-libsamplerate.so.0()(64bit) \
-libsndfile.so.1()(64bit) \
-libspeex.so.1()(64bit) \
-libtag_c.so.0()(64bit) \
-libtimidity.so.2()(64bit) \
-libtinfo.so.6()(64bit) \
-libvorbisfile.so.3()(64bit) \
-libwavpack.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFLAC.so.12 \
+libasound.so.2 \
+libavcodec.so.59 \
+libavformat.so.59 \
+libavutil.so.57 \
+libc.so.6 \
+libcurl.so.4 \
+libdb-4.8.so \
+libjack.so.0 \
+libltdl.so.7 \
+libm.so.6 \
+libmagic.so.1 \
+libmodplug.so.1 \
+libmpcdec.so.5 \
+libncursesw.so.6 \
+libogg.so.0 \
+libpopt.so.0 \
+librcc.so.0 \
+libsamplerate.so.0 \
+libsndfile.so.1 \
+libspeex.so.1 \
+libtag-c.so.0 \
+libtimidity.so.2 \
+libtinfo.so.6 \
+libvorbisfile.so.3 \
+libwavpack.so.1"
 
 inherit rpm

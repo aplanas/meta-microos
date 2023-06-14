@@ -9,7 +9,7 @@ RPM_HASH = "49a0aa138b7a34f568e333c21e71575353c0a026d121e01de589b530ec16535d4a6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-bitmap-fonts \
-locale(ar)"
+locale-ar"
 
 RDEPENDS:${PN} += ""
 

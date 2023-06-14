@@ -11,11 +11,11 @@ RPM_HASH = "fb4534ad3be23fd53395f3d12c35e11be30fbe635a233db5c39b8ef6bcab9afaffa0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-marketplacecommerceanalytics \
-mvn(com.amazonaws:aws-java-sdk-marketplacecommerceanalytics) \
-mvn(com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:pom:)"
+mvn-com.amazonaws-aws-java-sdk-marketplacecommerceanalytics \
+mvn-com.amazonaws-aws-java-sdk-marketplacecommerceanalytics-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.amazonaws:aws-java-sdk-core)"
+mvn-com.amazonaws-aws-java-sdk-core"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-outerhbox-2023.201.1.2svn54254-54.1.noarch.rpm"
 RPM_HASH = "db0104da4fcea2d660df355c06e17a9ac03e5d72e152ef44ed0f3e3e5a36dc26800972a83f246a011fc282568bfe7e554da75cf7b209062d67915d2a60ac359b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(outerhbox.sty) \
+RPROVIDES:${PN} += "tex-outerhbox.sty \
 texlive-outerhbox"
 
 RDEPENDS:${PN} += "/bin/sh \

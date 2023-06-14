@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jsch-agent-proxy-javadoc"
 
 RDEPENDS:${PN} += "javapackages-filesystem \
-mvn(com.jcraft:jsch.agentproxy.core)"
+mvn-com.jcraft-jsch.agentproxy.core"
 
 inherit rpm

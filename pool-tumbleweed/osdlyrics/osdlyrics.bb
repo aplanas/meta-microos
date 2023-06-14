@@ -11,31 +11,26 @@ PV = "0.5.13"
 RPM_NAME = "osdlyrics-0.5.13-1.3.aarch64.rpm"
 RPM_HASH = "295305fe7df568320c9e63af27055f99edb7d8ac5401756794c9226772cb27e576656fcdc0565779edff5b626fbc858b601da866ccd38cb2408fe87180415090"
 
-RPROVIDES:${PN} += "application() \
-application(osdlyrics.desktop) \
-metainfo() \
-metainfo(osdlyrics.appdata.xml) \
-osdlyrics \
-osdlyrics(aarch-64)"
+RPROVIDES:${PN} += "osdlyrics"
 
 RDEPENDS:${PN} += "/bin/sh \
 gtk2 \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libappindicator.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-glib-1.so.2()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnotify.so.4()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libappindicator.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-glib-1.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libnotify.so.4 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
 python3-chardet \
 python3-future \
 python3-pycurl \

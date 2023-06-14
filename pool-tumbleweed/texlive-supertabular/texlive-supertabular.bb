@@ -11,7 +11,7 @@ RPM_NAME = "texlive-supertabular-2023.201.4.1gsvn53658-57.1.noarch.rpm"
 RPM_HASH = "58db02149166df4186c39bbd4d09c3f8038d6668b74d80eaf9ff8bfb89559cc1395ac7e2d9d432bd1541a3e2acea44fe0c3159bf84cb9b7febe67d1950ef5c18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(supertabular.sty) \
+RPROVIDES:${PN} += "tex-supertabular.sty \
 texlive-supertabular"
 
 RDEPENDS:${PN} += "/bin/sh \

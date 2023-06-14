@@ -11,13 +11,12 @@ RPM_NAME = "sunpinyin-devel-2.0.99.2-2.2.aarch64.rpm"
 RPM_HASH = "f4167e8e3e57985b3ee16305e823c8af5db54271b1859065a9521e7fb7a943270efee84d313e49b3f3064eaedf72b0200ad0a542efb2c70d3015e2e8c0f011b5"
 
 RPROVIDES:${PN} += "libsunpinyin-devel \
-pkgconfig(sunpinyin-2.0) \
-sunpinyin-devel \
-sunpinyin-devel(aarch-64)"
+pkgconfig-sunpinyin-2.0 \
+sunpinyin-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsunpinyin3 \
-pkgconfig(sqlite3) \
+pkgconfig-sqlite3 \
 sunpinyin-tools"
 
 inherit rpm

@@ -14,12 +14,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-synapse \
 python3-azure-synapse-nspkg \
-python3.10dist(azure-synapse-nspkg) \
+python3.10dist-azure-synapse-nspkg \
 python310-azure-synapse \
 python310-azure-synapse-nspkg \
-python3dist(azure-synapse-nspkg)"
+python3dist-azure-synapse-nspkg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg"
 
 inherit rpm

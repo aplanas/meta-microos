@@ -10,11 +10,11 @@ RPM_HASH = "35da331d0b092078cbf74e3ec5dcf4f948e04a24df655d87287b2aea73bb10c28aae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Delorean \
-python3.10dist(delorean) \
+python3.10dist-delorean \
 python310-Delorean \
-python3dist(delorean)"
+python3dist-delorean"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Babel \
 python310-humanize \
 python310-python-dateutil \

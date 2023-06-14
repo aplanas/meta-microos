@@ -15,11 +15,11 @@ RPM_HASH = "e7d828c12fbce37cedfa1987c2cfa04ef7fb8af8b20b6fcf1aec73b102eabba9fc4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Transplant \
-python3.10dist(transplant) \
+python3.10dist-transplant \
 python310-Transplant \
-python3dist(transplant)"
+python3dist-transplant"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-msgpack-python \
 python310-numpy \
 python310-pyzmq"

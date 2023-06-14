@@ -8,21 +8,20 @@ PV = "6.0.7"
 RPM_NAME = "mozldap-libs-6.0.7-4.15.aarch64.rpm"
 RPM_HASH = "1394909a706165fca2f0fe84b0290f87aa9d76b422d2d4ecc9590c0f21402d5acfb48a4c21605fc8d7963361db41ffdc420409955132a45875b61e1392419a8c"
 
-RPROVIDES:${PN} += "libldap60.so()(64bit) \
-libldif60.so()(64bit) \
-libprldap60.so()(64bit) \
-libssldap60.so()(64bit) \
+RPROVIDES:${PN} += "libldap60.so \
+libldif60.so \
+libprldap60.so \
+libssldap60.so \
 mozldap \
-mozldap-libs \
-mozldap-libs(aarch-64)"
+mozldap-libs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libplc4.so()(64bit) \
-libplds4.so()(64bit) \
-libsasl2.so.3()(64bit) \
-libssl3.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnspr4.so \
+libnss3.so \
+libplc4.so \
+libplds4.so \
+libsasl2.so.3 \
+libssl3.so"
 
 inherit rpm

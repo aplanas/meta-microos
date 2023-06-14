@@ -11,18 +11,18 @@ RPM_HASH = "16f8c60253e644b63a1cf74f82559f8bd3ff59998cccd88e4c97f6c84fe277ef613e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-logkit \
-mvn(avalon-logkit:avalon-logkit) \
-mvn(avalon-logkit:avalon-logkit:pom:) \
-mvn(logkit:logkit) \
-mvn(logkit:logkit:pom:) \
-mvn(org.apache.avalon.logkit:avalon-logkit) \
-mvn(org.apache.avalon.logkit:avalon-logkit:pom:)"
+mvn-avalon-logkit-avalon-logkit \
+mvn-avalon-logkit-avalon-logkit-pom- \
+mvn-logkit-logkit \
+mvn-logkit-logkit-pom- \
+mvn-org.apache.avalon.logkit-avalon-logkit \
+mvn-org.apache.avalon.logkit-avalon-logkit-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.jms:jms) \
-mvn(javax.mail:mail) \
-mvn(javax.servlet:servlet-api) \
-mvn(log4j:log4j)"
+mvn-javax.jms-jms \
+mvn-javax.mail-mail \
+mvn-javax.servlet-servlet-api \
+mvn-log4j-log4j"
 
 inherit rpm

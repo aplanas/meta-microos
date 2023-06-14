@@ -11,17 +11,17 @@ RPM_NAME = "python39-nbconvert-7.3.1-2.1.noarch.rpm"
 RPM_HASH = "1fb9a7feaf6ec2769525ad85beef136eaeecd366b92bc2302136dd64571eff6342abe6365b22bfa5cf4f1a0ed0dbfcd165767dde2302f76f4d146d786d9cc7cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(nbconvert) \
-python39-jupyter_nbconvert \
+RPROVIDES:${PN} += "python3.9dist-nbconvert \
+python39-jupyter-nbconvert \
 python39-nbconvert \
-python3dist(nbconvert)"
+python3dist-nbconvert"
 
-RDEPENDS:${PN} += "(python39-mistune >= 2.0.3 with python39-mistune < 3) \
+RDEPENDS:${PN} += "-python39-mistune >= 2.0.3 with python39-mistune < 3 \
 /bin/sh \
 /usr/bin/python3.9 \
 alts \
 jupyter-nbconvert \
-python(abi) \
+python-abi \
 python39-Jinja2 \
 python39-MarkupSafe \
 python39-Pygments \

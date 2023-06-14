@@ -10,13 +10,13 @@ RPM_HASH = "33d5a0e70355e268dcc16eeb84a87c91c21c8ace9f6a79d24300020ef0f052ea921e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aina \
-python3.10dist(aina) \
+python3.10dist-aina \
 python310-aina \
-python3dist(aina)"
+python3dist-aina"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-base \
 python310-click \
 update-alternatives"

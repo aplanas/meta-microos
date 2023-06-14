@@ -10,10 +10,10 @@ RPM_HASH = "f2d6c780bd8e653e5d3ff2c24127fed656ae89df844ce6eb01a360098da060e16081
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-simplebayes \
-python3.10dist(simplebayes) \
+python3.10dist-simplebayes \
 python310-simplebayes \
-python3dist(simplebayes)"
+python3dist-simplebayes"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

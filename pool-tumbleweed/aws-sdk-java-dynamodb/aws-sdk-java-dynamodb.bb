@@ -11,12 +11,12 @@ RPM_HASH = "4ef4c69879e3170d90f3022296b04807ab2b47c80c58a770bcc3be21902349462016
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-dynamodb \
-mvn(com.amazonaws:aws-java-sdk-dynamodb) \
-mvn(com.amazonaws:aws-java-sdk-dynamodb:pom:)"
+mvn-com.amazonaws-aws-java-sdk-dynamodb \
+mvn-com.amazonaws-aws-java-sdk-dynamodb-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.amazonaws:aws-java-sdk-core) \
-mvn(com.amazonaws:aws-java-sdk-s3)"
+mvn-com.amazonaws-aws-java-sdk-core \
+mvn-com.amazonaws-aws-java-sdk-s3"
 
 inherit rpm

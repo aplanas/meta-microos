@@ -15,35 +15,29 @@ PV = "1.22.1"
 RPM_NAME = "mupdf-1.22.1-1.1.aarch64.rpm"
 RPM_HASH = "0ae35715f46eb0a983463f8b4b6365c071356eeb1195753f18fd678429444510d6de2718a014807b074f6755a15cc6c41a0f1a1c36d8bbbc0fe8d2cfb9ef1cda"
 
-RPROVIDES:${PN} += "application() \
-application(mupdf-gl.desktop) \
-application(mupdf.desktop) \
-bundled(freeglut) \
-bundled(freeglut-art) \
-bundled(gumbo-parser) \
-bundled(lcms2) \
-bundled(lcms2-art) \
-bundled(mujs) \
-mimehandler(application/pdf) \
-mimehandler(application/x-pdf) \
-mupdf \
-mupdf(aarch-64)"
+RPROVIDES:${PN} += "bundled-freeglut \
+bundled-freeglut-art \
+bundled-gumbo-parser \
+bundled-lcms2 \
+bundled-lcms2-art \
+bundled-mujs \
+mupdf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libfreetype.so.6()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libjbig2dec.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libopenjp2.so.7()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXrandr.so.2 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libfreetype.so.6 \
+libharfbuzz.so.0 \
+libjbig2dec.so.0 \
+libjpeg.so.8 \
+libm.so.6 \
+libopenjp2.so.7 \
+libz.so.1 \
 xdg-utils"
 
 inherit rpm

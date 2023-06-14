@@ -11,9 +11,8 @@ PV = "1.25.0"
 RPM_NAME = "stern-1.25.0-1.2.aarch64.rpm"
 RPM_HASH = "6046ca4698929d2fb4061eb3671e86e494f76d53789d3b1153754db52b45a2acb2e38005502cedb628e59557449317d3b93b0ef377f84491832cbfa132c558d3"
 
-RPROVIDES:${PN} += "stern \
-stern(aarch-64)"
+RPROVIDES:${PN} += "stern"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -9,14 +9,13 @@ PV = "4.6.0"
 RPM_NAME = "t38modem-4.6.0-1.6.aarch64.rpm"
 RPM_HASH = "908e36796e508bc1d99b47be6e98193f711c0e0ddd2a045b43d393bf2b509e1300aebbbae8475226668f0e26abd46876f0164c973e7eb792dbd5cf3c85ef43df"
 
-RPROVIDES:${PN} += "t38modem \
-t38modem(aarch-64)"
+RPROVIDES:${PN} += "t38modem"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libopal.so.3.18.8()(64bit) \
-libpt.so.2.18.8()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libopal.so.3.18.8 \
+libpt.so.2.18.8 \
+libstdc++.so.6"
 
 inherit rpm

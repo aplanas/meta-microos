@@ -9,13 +9,13 @@ RPM_HASH = "7947e8c848a5d628de0bab1753fbc8cd4c6443e6829c6b37c1bebd89e8f933ad3a28
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-protonvpn-nm-lib \
-python3.10dist(protonvpn-nm-lib) \
+python3.10dist-protonvpn-nm-lib \
 python310-protonvpn-nm-lib \
-python3dist(protonvpn-nm-lib)"
+python3dist-protonvpn-nm-lib"
 
 RDEPENDS:${PN} += "NetworkManager-openvpn \
 dbus-1-x11 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-dbus-python \
 python310-distro \
@@ -24,7 +24,7 @@ python310-keyring \
 python310-proton-client \
 python310-pyxdg \
 python310-systemd \
-typelib(GLib) \
-typelib(NM)"
+typelib-GLib \
+typelib-NM"
 
 inherit rpm

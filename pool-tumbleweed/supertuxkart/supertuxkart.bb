@@ -17,33 +17,27 @@ PV = "1.4"
 RPM_NAME = "supertuxkart-1.4-4.2.aarch64.rpm"
 RPM_HASH = "a3233e4c33263cf6f306b7c23673e91f22201a8adfdbcc7fbc87023105bdfce2eb27f7d8c1921ea203d5bc08399a47f83cedd5ee27bfc5ab3d09080f436f1c77"
 
-RPROVIDES:${PN} += "application() \
-application(supertuxkart.desktop) \
-metainfo() \
-metainfo(supertuxkart.appdata.xml) \
-supertuxkart \
-supertuxkart(aarch-64)"
+RPROVIDES:${PN} += "supertuxkart"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libharfbuzz.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libmcpp.so.0()(64bit) \
-libopenal.so.1()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libresolv.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libvorbisfile.so.3()(64bit) \
-libwiiuse.so.0()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libharfbuzz.so.0 \
+libjpeg.so.8 \
+libm.so.6 \
+libmcpp.so.0 \
+libopenal.so.1 \
+libpng16.so.16 \
+libresolv.so.2 \
+libstdc++.so.6 \
+libvorbisfile.so.3 \
+libwiiuse.so.0 \
+libz.so.1 \
 supertuxkart-data"
 
 inherit rpm

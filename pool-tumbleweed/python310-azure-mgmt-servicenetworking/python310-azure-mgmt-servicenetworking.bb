@@ -11,12 +11,12 @@ RPM_HASH = "05abe99f10382488eb10b3197432a7622dea951605bd8cbce0ba99398c093c22c5f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-servicenetworking \
-python3.10dist(azure-mgmt-servicenetworking) \
+python3.10dist-azure-mgmt-servicenetworking \
 python310-azure-mgmt-servicenetworking \
-python3dist(azure-mgmt-servicenetworking)"
+python3dist-azure-mgmt-servicenetworking"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

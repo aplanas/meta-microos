@@ -14,11 +14,10 @@ PV = "1.04"
 RPM_NAME = "lzop-1.04-4.12.aarch64.rpm"
 RPM_HASH = "e6fbe0b912026c07b87f7d4b4b3433a24f4efc428f9bb7c864eb8446a24156deff00d6e37b38657dc21d898bfd0cd446dd10b9ece5f9f098086a2e81d1497fe0"
 
-RPROVIDES:${PN} += "lzop \
-lzop(aarch-64)"
+RPROVIDES:${PN} += "lzop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblzo2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblzo2.so.2"
 
 inherit rpm

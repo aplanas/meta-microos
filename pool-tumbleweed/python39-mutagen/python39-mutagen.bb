@@ -14,13 +14,13 @@ RPM_NAME = "python39-mutagen-1.46.0-1.4.noarch.rpm"
 RPM_HASH = "cbb830cfb3ae6e4f9dfd557a6bb94feaabbb4d364a269fad147f7053453ac26f6b9977f7df48421e652b7db562e1a831804875601024094272dc5d2cc3f2917f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(mutagen) \
+RPROVIDES:${PN} += "python3.9dist-mutagen \
 python39-mutagen \
-python3dist(mutagen)"
+python3dist-mutagen"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

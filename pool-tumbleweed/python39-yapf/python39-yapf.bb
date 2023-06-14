@@ -15,13 +15,13 @@ RPM_NAME = "python39-yapf-0.33.0-1.1.noarch.rpm"
 RPM_HASH = "b8b09cc96eed618d7e27c04cb425bc542d38537c6faf77b2d8b2d81e07a421b39be0c56c9a1c4c23d2be30cc750fa7446013e1cc0c443e27a1145460b2b1b7af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(yapf) \
+RPROVIDES:${PN} += "python3.9dist-yapf \
 python39-yapf \
-python3dist(yapf)"
+python3dist-yapf"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

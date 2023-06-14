@@ -12,14 +12,14 @@ RPM_HASH = "c9491480d8610c3a9dff59720a42a2a787efd659789b3e7a5cd89634885f4de545c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vdirsyncer \
-python3.10dist(vdirsyncer) \
+python3.10dist-vdirsyncer \
 python310-vdirsyncer \
-python3dist(vdirsyncer) \
+python3dist-vdirsyncer \
 vdirsyncer"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiostream \
 python310-atomicwrites \
 python310-click \

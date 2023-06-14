@@ -11,14 +11,14 @@ RPM_HASH = "b306532a12157793f31f1cec918a43a5a981feb7dc917e9472cf36b056cc8ec9f3e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Supybot \
-python3.11dist(limnoria) \
+python3.11dist-limnoria \
 python311-limnoria \
-python3dist(limnoria)"
+python3dist-limnoria"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 procps \
-python(abi) \
+python-abi \
 python311 \
 python311-PySocks \
 python311-chardet \

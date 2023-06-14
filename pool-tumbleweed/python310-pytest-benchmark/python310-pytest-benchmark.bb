@@ -10,13 +10,13 @@ RPM_HASH = "fe42d7c55763b28cb26c28ded0d520d2350969df10f643d8bac10570abe19b3eabf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-benchmark \
-python3.10dist(pytest-benchmark) \
+python3.10dist-pytest-benchmark \
 python310-pytest-benchmark \
-python3dist(pytest-benchmark)"
+python3dist-pytest-benchmark"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-py-cpuinfo \
 python310-pytest \
 update-alternatives"

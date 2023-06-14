@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "changelog-generator-data"
 
-RDEPENDS:${PN} += "rubygem(changelog_generator)"
+RDEPENDS:${PN} += "rubygem-changelog-generator"
 
 inherit rpm

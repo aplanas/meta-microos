@@ -13,12 +13,11 @@ PV = "20210116.0"
 RPM_NAME = "udpspeeder-20210116.0-1.10.aarch64.rpm"
 RPM_HASH = "35eac600d531704699a060e4de25e4a7ae719b71a8778bda06eea4de7899ceadb873e4dc3c91ac0885a2b69ad54442c094474dfe8bf2647219f1ccdfec19508c"
 
-RPROVIDES:${PN} += "udpspeeder \
-udpspeeder(aarch-64)"
+RPROVIDES:${PN} += "udpspeeder"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

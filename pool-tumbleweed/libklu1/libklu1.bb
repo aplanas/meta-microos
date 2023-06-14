@@ -12,17 +12,16 @@ PV = "1.3.9"
 RPM_NAME = "libklu1-1.3.9-49.1.aarch64.rpm"
 RPM_HASH = "e7530ed84b04616a303a630d6067f418e5dcf76999cf4ff561f795e5b51cfb76f0e352391924c5bc29fcf6768e88d5fdf28db24157d1d8eed99a37afb16dd465"
 
-RPROVIDES:${PN} += "libklu-1_3_9 \
-libklu.so.1()(64bit) \
-libklu1 \
-libklu1(aarch-64)"
+RPROVIDES:${PN} += "libklu-1-3-9 \
+libklu.so.1 \
+libklu1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libamd.so.2()(64bit) \
-libbtf.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcolamd.so.2()(64bit) \
-libsuitesparseconfig.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libamd.so.2 \
+libbtf.so.1 \
+libc.so.6 \
+libcolamd.so.2 \
+libsuitesparseconfig.so.5"
 
 inherit rpm

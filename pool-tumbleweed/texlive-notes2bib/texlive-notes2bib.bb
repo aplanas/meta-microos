@@ -18,7 +18,7 @@ RPM_NAME = "texlive-notes2bib-2023.201.2.0msvn52231-54.1.noarch.rpm"
 RPM_HASH = "70566b150afef1ad267cf9cdc0e90d9959ebc0c48455bd5ec379b0ea96e1b8466bc0dd689b445ac41515116b67b2f752726539854ac45bb8f0f70d88e0420227"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(notes2bib.sty) \
+RPROVIDES:${PN} += "tex-notes2bib.sty \
 texlive-notes2bib"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(l3keys2e.sty) \
-tex(xparse.sty) \
+tex-l3keys2e.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

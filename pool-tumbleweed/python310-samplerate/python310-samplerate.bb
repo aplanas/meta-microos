@@ -19,12 +19,12 @@ RPM_HASH = "4ce17b9073f9c9af4bc178dbf4504153fcfd527e868a3a8491d876486a27ee6af7cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-samplerate \
-python3.10dist(samplerate) \
+python3.10dist-samplerate \
 python310-samplerate \
-python3dist(samplerate)"
+python3dist-samplerate"
 
 RDEPENDS:${PN} += "libsamplerate \
-python(abi) \
+python-abi \
 python310-cffi \
 python310-numpy"
 

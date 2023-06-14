@@ -11,9 +11,9 @@ RPM_HASH = "9043ddeb78ff98cf5e441e712343c9c4c4b7291d25a752a688d48f4980b47e94b6fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-xz \
-mvn(org.tukaani:xz) \
-mvn(org.tukaani:xz:pom:) \
-osgi(org.tukaani.xz) \
+mvn-org.tukaani-xz \
+mvn-org.tukaani-xz-pom- \
+osgi-org.tukaani.xz \
 xz-java"
 
 RDEPENDS:${PN} += "java-headless \

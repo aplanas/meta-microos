@@ -13,16 +13,16 @@ RPM_NAME = "python311-weasyprint-56.1-1.4.noarch.rpm"
 RPM_HASH = "8fc72bbd22f5361d35a02b8395a0c4274b98b71d8edfdf091da3ab8e768cf2bb2ca452c3d5780f62f7b87ac7f395cb6b7fa563975e330d1aace55fc3ca8d7abd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(weasyprint) \
+RPROVIDES:${PN} += "python3.11dist-weasyprint \
 python311-WeasyPrint \
 python311-weasyprint \
-python3dist(weasyprint)"
+python3dist-weasyprint"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-libgobject-2_0-0 \
+libgobject-2-0-0 \
 pango \
-python(abi) \
+python-abi \
 python311-Brotli \
 python311-FontTools \
 python311-Pillow \

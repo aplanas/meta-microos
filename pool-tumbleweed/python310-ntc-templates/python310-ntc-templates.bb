@@ -9,11 +9,11 @@ RPM_HASH = "7b16142bfabc0711c2d231b5b2374812bb652a723c883e85cf316a2f0ecc5fe27d3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ntc-templates \
-python3.10dist(ntc-templates) \
+python3.10dist-ntc-templates \
 python310-ntc-templates \
-python3dist(ntc-templates)"
+python3dist-ntc-templates"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-textfsm"
 
 inherit rpm

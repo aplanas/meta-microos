@@ -10,30 +10,20 @@ RPM_HASH = "8f8fdbb629eb7bd1b0fd68c429b1eb68e118bf9ad61f1edb900f94fb4417a4659966
 
 RPROVIDES:${PN} += "NetworkManager-openvpn-frontend \
 NetworkManager-openvpn-gnome \
-NetworkManager-openvpn-gnome(aarch-64) \
-libnm-gtk4-vpn-plugin-openvpn-editor.so()(64bit) \
-libnm-vpn-plugin-openvpn-editor.so()(64bit) \
-metainfo() \
-metainfo(network-manager-openvpn.metainfo.xml)"
+libnm-gtk4-vpn-plugin-openvpn-editor.so \
+libnm-vpn-plugin-openvpn-editor.so"
 
 RDEPENDS:${PN} += "NetworkManager-openvpn \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libnm.so.0()(64bit) \
-libnm.so.0(libnm_1_0_0)(64bit) \
-libnm.so.0(libnm_1_2_0)(64bit) \
-libnm.so.0(libnm_1_6_0)(64bit) \
-libnma-gtk4.so.0()(64bit) \
-libnma-gtk4.so.0(libnma_1_2_0)(64bit) \
-libnma-gtk4.so.0(libnma_1_8_0)(64bit) \
-libnma.so.0()(64bit) \
-libnma.so.0(libnma_1_2_0)(64bit) \
-libnma.so.0(libnma_1_8_0)(64bit) \
-libsecret-1.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libgtk-4.so.1 \
+libnm.so.0 \
+libnma-gtk4.so.0 \
+libnma.so.0 \
+libsecret-1.so.0"
 
 inherit rpm

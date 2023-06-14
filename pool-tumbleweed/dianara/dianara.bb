@@ -11,28 +11,18 @@ PV = "1.4.4"
 RPM_NAME = "dianara-1.4.4-1.3.aarch64.rpm"
 RPM_HASH = "32923b0c8e1aa0d5cde8e3de486d8eb9fc707c6ea89af48ee797177aa1b5ff98eb8e663334cecdc282e82f083f7240ce1cc9ced55867e1be3721ef9125d72477"
 
-RPROVIDES:${PN} += "application() \
-application(org.nongnu.dianara.desktop) \
-dianara \
-dianara(aarch-64) \
-metainfo() \
-metainfo(org.nongnu.dianara.appdata.xml)"
+RPROVIDES:${PN} += "dianara"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libqca-qt5.so.2()(64bit) \
-libqoauth.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libqca-qt5.so.2 \
+libqoauth.so.2 \
+libstdc++.so.6"
 
 inherit rpm

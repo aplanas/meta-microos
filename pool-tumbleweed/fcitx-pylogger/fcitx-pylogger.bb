@@ -14,11 +14,10 @@ PV = "1.0"
 RPM_NAME = "fcitx-pylogger-1.0-5.24.aarch64.rpm"
 RPM_HASH = "b2d01bd75c28c6db4bd72a2b0653ce59d5a703416d984ac083714b7a8719e2808d7730b05eead1f78d5b16fbf38fe5bc53073da4e7e78cd5f36585146a81c79a"
 
-RPROVIDES:${PN} += "fcitx-pylogger \
-fcitx-pylogger(aarch-64)"
+RPROVIDES:${PN} += "fcitx-pylogger"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

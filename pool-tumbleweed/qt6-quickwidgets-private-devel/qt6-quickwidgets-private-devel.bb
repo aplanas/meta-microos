@@ -8,10 +8,9 @@ PV = "6.5.1"
 RPM_NAME = "qt6-quickwidgets-private-devel-6.5.1-1.2.aarch64.rpm"
 RPM_HASH = "44f148afcbedb8f71169c132e65a2ee14427d20b9083915cb1d609d72f15b8b3f636a3ce960b801225e229e92cc647852900062a9a2be26f1763d2c837e10f6d"
 
-RPROVIDES:${PN} += "qt6-quickwidgets-private-devel \
-qt6-quickwidgets-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-quickwidgets-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6QuickWidgets) \
+RDEPENDS:${PN} += "cmake-Qt6QuickWidgets \
 qt6-core-private-devel \
 qt6-gui-private-devel \
 qt6-qml-private-devel \

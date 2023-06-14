@@ -19,10 +19,10 @@ RPROVIDES:${PN} += "docbook-utils-minimal"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
+docbook-3 \
+docbook-4 \
 docbook-dsssl-stylesheets \
-docbook_3 \
-docbook_4 \
-iso_ent \
+iso-ent \
 openjade \
 opensp \
 perl-SGMLS \

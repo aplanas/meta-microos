@@ -9,13 +9,13 @@ RPM_HASH = "74cba29a3ab0188758c6e3c3e025e67743e892592aa563e9873358d7f57bf55eeb68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-client-cache \
-mvn(org.apache.httpcomponents:httpclient-cache) \
-mvn(org.apache.httpcomponents:httpclient-cache:pom:) \
-osgi(org.apache.httpcomponents.httpclient-cache)"
+mvn-org.apache.httpcomponents-httpclient-cache \
+mvn-org.apache.httpcomponents-httpclient-cache-pom- \
+osgi-org.apache.httpcomponents.httpclient-cache"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-logging:commons-logging) \
-mvn(org.apache.httpcomponents:httpclient)"
+mvn-commons-logging-commons-logging \
+mvn-org.apache.httpcomponents-httpclient"
 
 inherit rpm

@@ -8,15 +8,14 @@ PV = "22.11"
 RPM_NAME = "rtl_433-22.11-1.3.aarch64.rpm"
 RPM_HASH = "8128a97621afccf29a7b00dd0985dd601c87d207b85f28dee1edbfc9b13722d4e50a443a38a5bfb76143d7feafc6b6054f87f23892521367ba8e8c642964a086"
 
-RPROVIDES:${PN} += "config(rtl_433) \
-rtl_433 \
-rtl_433(aarch-64)"
+RPROVIDES:${PN} += "config-rtl-433 \
+rtl-433"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSoapySDR.so.0.8()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-librtlsdr.so.0()(64bit) \
-libusb-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSoapySDR.so.0.8 \
+libc.so.6 \
+libm.so.6 \
+librtlsdr.so.0 \
+libusb-1.0.so.0"
 
 inherit rpm

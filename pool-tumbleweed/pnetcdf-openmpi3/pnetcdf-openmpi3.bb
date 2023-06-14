@@ -16,14 +16,13 @@ RPM_NAME = "pnetcdf-openmpi3-1.12.3-1.3.aarch64.rpm"
 RPM_HASH = "ffdba26567cf05887923f95500f6d3d663e7545ad95be61c358c42392bab59f7fe614bde9b15656b9cadbf72fe0d8bc9ae7ad3c8d0a0d5f2d34f5e53ea73c9c0"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi3 \
-pnetcdf-openmpi3 \
-pnetcdf-openmpi3(aarch-64)"
+pnetcdf-openmpi3"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmpi.so.40()(64bit) \
-libpnetcdf.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmpi.so.40 \
+libpnetcdf.so.4 \
 libpnetcdf4-openmpi3 \
 openmpi3"
 

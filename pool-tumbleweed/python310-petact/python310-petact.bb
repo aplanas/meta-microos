@@ -13,13 +13,13 @@ RPM_HASH = "7fb9e9fcaa5476ce295fef0b835f7b2bed77e07975c34a036d40624862a197096c67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-petact \
-python3.10dist(petact) \
+python3.10dist-petact \
 python310-petact \
-python3dist(petact)"
+python3dist-petact"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

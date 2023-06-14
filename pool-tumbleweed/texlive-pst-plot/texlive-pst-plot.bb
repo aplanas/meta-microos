@@ -10,9 +10,9 @@ RPM_NAME = "texlive-pst-plot-2023.201.1.94svn65346-53.1.noarch.rpm"
 RPM_HASH = "3046aed98e0b69d310fa5d3f25de550c15e13a484adb9792d5078d241daf7b7f47f8c3810e72e41ca7ec3096d94400fd54672ba0a99e79f9801e9f29425cc7ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-plot.sty) \
-tex(pst-plot.tex) \
-tex(pst-plot97.tex) \
+RPROVIDES:${PN} += "tex-pst-plot.sty \
+tex-pst-plot.tex \
+tex-pst-plot97.tex \
 texlive-pst-plot"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(multido.sty) \
-tex(pst-xkey.sty) \
-tex(pstricks.sty) \
+tex-multido.sty \
+tex-pst-xkey.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

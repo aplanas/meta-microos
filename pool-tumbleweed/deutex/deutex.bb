@@ -15,10 +15,9 @@ PV = "5.2.2"
 RPM_NAME = "deutex-5.2.2-1.9.aarch64.rpm"
 RPM_HASH = "a99a12e2f9cbfa107834ba7861a280499705ca256fbf0fac25d55545111b12e201f800aac749054c86d1b6c5e1d962a08590ae597e4887d9e290cf84de77158c"
 
-RPROVIDES:${PN} += "deutex \
-deutex(aarch-64)"
+RPROVIDES:${PN} += "deutex"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

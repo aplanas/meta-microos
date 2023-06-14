@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-pa \
 libreoffice-help-pa-IN \
 libreoffice-l10n-pa \
 libreoffice-l10n-pa-IN \
-locale(libreoffice:pa)"
+locale-libreoffice-pa"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \

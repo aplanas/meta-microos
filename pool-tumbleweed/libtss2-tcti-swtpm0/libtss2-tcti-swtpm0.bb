@@ -9,13 +9,12 @@ PV = "4.0.1"
 RPM_NAME = "libtss2-tcti-swtpm0-4.0.1-1.3.aarch64.rpm"
 RPM_HASH = "a7f2a753d78276b179f75f0fa8de0ef2b1648b78dfd6ab341cc7c22ba011b524d1ea698e37c69b534dac4af1cb4c208585319766986455cf9a91a9a60575adc0"
 
-RPROVIDES:${PN} += "libtss2-tcti-swtpm.so.0()(64bit) \
-libtss2-tcti-swtpm0 \
-libtss2-tcti-swtpm0(aarch-64)"
+RPROVIDES:${PN} += "libtss2-tcti-swtpm.so.0 \
+libtss2-tcti-swtpm0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtss2-mu.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtss2-mu.so.0"
 
 inherit rpm

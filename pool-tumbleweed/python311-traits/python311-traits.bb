@@ -21,13 +21,12 @@ PV = "6.3.1"
 RPM_NAME = "python311-traits-6.3.1-1.10.aarch64.rpm"
 RPM_HASH = "01e3c171b24535ebacca8bcbf5e80fd69e37c7b0502ded7b4a6d4c4aa3bc9c490139f350409649d531661a9dbb6784e384149b5f96612c8ee7b51356bd0a9b74"
 
-RPROVIDES:${PN} += "python3.11dist(traits) \
+RPROVIDES:${PN} += "python3.11dist-traits \
 python311-traits \
-python311-traits(aarch-64) \
-python3dist(traits)"
+python3dist-traits"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

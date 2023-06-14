@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fldigi-lang \
 fldigi-lang-all \
-locale(fldigi:de) \
-locale(fldigi:el) \
-locale(fldigi:es) \
-locale(fldigi:fr) \
-locale(fldigi:it) \
-locale(fldigi:nl) \
-locale(fldigi:pl) \
-locale(fldigi:ru)"
+locale-fldigi-de \
+locale-fldigi-el \
+locale-fldigi-es \
+locale-fldigi-fr \
+locale-fldigi-it \
+locale-fldigi-nl \
+locale-fldigi-pl \
+locale-fldigi-ru"
 
 RDEPENDS:${PN} += "fldigi"
 

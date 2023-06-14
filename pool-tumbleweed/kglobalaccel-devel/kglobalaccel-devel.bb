@@ -9,12 +9,11 @@ PV = "5.106.0"
 RPM_NAME = "kglobalaccel-devel-5.106.0-2.1.aarch64.rpm"
 RPM_HASH = "2859e0e2c1387dee70fcc5fb232077bc4137b4d0a4cfce030c6ab33bff71c39be8e59d38a70ca81089ab9ddfd86a0eaea7a1c7d3c64634674397de3d364582ba"
 
-RPROVIDES:${PN} += "cmake(KF5GlobalAccel) \
-kglobalaccel-devel \
-kglobalaccel-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5GlobalAccel \
+kglobalaccel-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5DBus) \
-cmake(Qt5Widgets) \
+RDEPENDS:${PN} += "cmake-Qt5DBus \
+cmake-Qt5Widgets \
 extra-cmake-modules \
 libKF5GlobalAccel5 \
 libKF5GlobalAccelPrivate5"

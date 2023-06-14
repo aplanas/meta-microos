@@ -12,11 +12,11 @@ RPM_NAME = "python39-discogs-client-2.3.0-1.3.noarch.rpm"
 RPM_HASH = "125ed33e5b61c0fbbe8c35f7596449953ad3a9ab8e286c8d0e25a304502dbbff53818ad0039b087d6eb2b5b89f8c1ac7ffc34da7f38d42effcda47e524ab5e87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(discogs-client) \
+RPROVIDES:${PN} += "python3.9dist-discogs-client \
 python39-discogs-client \
-python3dist(discogs-client)"
+python3dist-discogs-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-oauthlib \
 python39-requests \
 python39-six"

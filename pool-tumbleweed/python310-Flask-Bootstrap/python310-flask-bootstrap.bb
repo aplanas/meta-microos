@@ -12,11 +12,11 @@ RPM_HASH = "bd667c4770d9ba675ecb2d391e342124a3f670ce9488a72d758ed5de334ccce2f47d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Bootstrap \
-python3.10dist(flask-bootstrap) \
+python3.10dist-flask-bootstrap \
 python310-Flask-Bootstrap \
-python3dist(flask-bootstrap)"
+python3dist-flask-bootstrap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-dominate \
 python310-visitor"

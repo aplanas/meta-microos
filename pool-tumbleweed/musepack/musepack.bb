@@ -13,14 +13,13 @@ PV = "r475"
 RPM_NAME = "musepack-r475-4.11.aarch64.rpm"
 RPM_HASH = "c55dd6f6310dc1606285bd492505d98f6717e7a957f9825ebcb6a154144852267466faccbddab8bbaf890116c7c6b44d85e0ab05ee75cbe5f83e0275b3b2da16"
 
-RPROVIDES:${PN} += "musepack \
-musepack(aarch-64)"
+RPROVIDES:${PN} += "musepack"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcuefile.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmpcdec.so.6()(64bit) \
-libreplaygain.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcuefile.so.0 \
+libm.so.6 \
+libmpcdec.so.6 \
+libreplaygain.so.1"
 
 inherit rpm

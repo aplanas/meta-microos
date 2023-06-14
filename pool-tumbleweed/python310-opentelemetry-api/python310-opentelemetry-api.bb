@@ -9,11 +9,11 @@ RPM_HASH = "f76f6c74e29abe46aeb16731994c92af3b1502ad5d3cc00590233bd2b62541f7ac7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opentelemetry-api \
-python3.10dist(opentelemetry-api) \
+python3.10dist-opentelemetry-api \
 python310-opentelemetry-api \
-python3dist(opentelemetry-api)"
+python3dist-opentelemetry-api"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Deprecated \
 python310-importlib-metadata \
 python310-setuptools"

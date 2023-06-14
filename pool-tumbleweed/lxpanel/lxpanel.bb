@@ -18,32 +18,31 @@ PV = "0.10.1"
 RPM_NAME = "lxpanel-0.10.1-1.11.aarch64.rpm"
 RPM_HASH = "1c772aa134a37783dc4d6ec8b8013a75d5673f3d0d3a05d4c50ee1e35f6985aa3c5fe7d9d3f9303633f6223b3979aaf65cf7a15c62b511ddd02c42fae4ca800d"
 
-RPROVIDES:${PN} += "config(lxpanel) \
+RPROVIDES:${PN} += "config-lxpanel \
 lxpanel \
-lxpanel(aarch-64) \
 lxpanel-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcurl.so.4()(64bit) \
-libfm-gtk.so.4()(64bit) \
-libfm.so.4()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libiw.so.30()(64bit) \
-libkeybinder.so.0()(64bit) \
-liblxpanel.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmenu-cache.so.3()(64bit) \
-libwnck-1.so.22()(64bit) \
-libxml2.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libasound.so.2 \
+libc.so.6 \
+libcairo.so.2 \
+libcurl.so.4 \
+libfm-gtk.so.4 \
+libfm.so.4 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libiw.so.30 \
+libkeybinder.so.0 \
+liblxpanel.so.0 \
+libm.so.6 \
+libmenu-cache.so.3 \
+libwnck-1.so.22 \
+libxml2.so.2 \
 lxmenu-data \
 menu-cache"
 

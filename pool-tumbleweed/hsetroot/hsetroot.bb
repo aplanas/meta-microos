@@ -19,14 +19,13 @@ PV = "1.0.5"
 RPM_NAME = "hsetroot-1.0.5-2.9.aarch64.rpm"
 RPM_HASH = "4cf4eb38bc0547a3b1253f794ad4fd2ee29df5389bb8e7827b768eb597eb8b772f38805db7b8a9689c3a31085c520fcdbe68cfb8db89306f8284631306f63d3d"
 
-RPROVIDES:${PN} += "hsetroot \
-hsetroot(aarch-64)"
+RPROVIDES:${PN} += "hsetroot"
 
 RDEPENDS:${PN} += "imlib2-filters \
 imlib2-loaders \
-libImlib2.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libc.so.6()(64bit)"
+libImlib2.so.1 \
+libX11.so.6 \
+libXinerama.so.1 \
+libc.so.6"
 
 inherit rpm

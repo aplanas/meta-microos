@@ -12,7 +12,7 @@ RPM_NAME = "texlive-makedtx-2023.201.1.2svn46702-52.1.noarch.rpm"
 RPM_HASH = "8c3923a0c22659a3aa2c34802607a1697d2fb45a9cb2080dceeffe6425bd2c799a8dbc92a0580b95eeb0c46b87db8fe99819ac0ab9c6cb2ed5425b8170eeae13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(createdtx.sty) \
+RPROVIDES:${PN} += "tex-createdtx.sty \
 texlive-makedtx"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
+perl-Getopt--Long \
 sed \
 texlive \
 texlive-filesystem \

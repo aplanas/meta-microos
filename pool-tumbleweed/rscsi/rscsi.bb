@@ -14,15 +14,14 @@ PV = "2022.10.16"
 RPM_NAME = "rscsi-2022.10.16-47.3.aarch64.rpm"
 RPM_HASH = "3aa31b53e3bc914f7d99c26459da2f6707edf35e46deb4e40442a1acf34fe58c9e3c5f7a11b5774b3db4842a93541e6dfd4a1b7f0d75fb0575a704b3c4d93428"
 
-RPROVIDES:${PN} += "cdrecord:/usr/sbin/rscsi \
-config(rscsi) \
-rscsi \
-rscsi(aarch-64)"
+RPROVIDES:${PN} += "cdrecord-/usr/sbin/rscsi \
+config-rscsi \
+rscsi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdeflt.so.1.0()(64bit) \
-libscg.so.1.0()(64bit) \
-libschily.so.2.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdeflt.so.1.0 \
+libscg.so.1.0 \
+libschily.so.2.0"
 
 inherit rpm

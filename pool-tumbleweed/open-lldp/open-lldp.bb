@@ -11,16 +11,14 @@ RPM_HASH = "4ff06178dee6aeb487c63037e6bafd1938ac998d17448f536f56ce20f2714632a5bb
 
 RPROVIDES:${PN} += "dcbd \
 lldpad \
-open-lldp \
-open-lldp(aarch-64)"
+open-lldp"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libconfig.so.11()(64bit) \
-liblldp_clif.so.1()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libconfig.so.11 \
+liblldp-clif.so.1 \
+libnl-3.so.200 \
 systemd"
 
 inherit rpm

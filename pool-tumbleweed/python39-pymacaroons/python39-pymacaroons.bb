@@ -18,11 +18,11 @@ RPM_NAME = "python39-pymacaroons-0.13.0-4.6.noarch.rpm"
 RPM_HASH = "0050ed5d18689fc0d70bd59d7b96c973088b50882cd1c159da1d22f0f7dcfcbeb12177903008f09360a64af419ad224c27c2d647d8e84bd8707c055d2510adc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pymacaroons) \
+RPROVIDES:${PN} += "python3.9dist-pymacaroons \
 python39-pymacaroons \
-python3dist(pymacaroons)"
+python3dist-pymacaroons"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-PyNaCl \
 python39-cffi \
 python39-six"

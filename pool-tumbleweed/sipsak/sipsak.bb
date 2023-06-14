@@ -11,12 +11,11 @@ PV = "0.9.8.1"
 RPM_NAME = "sipsak-0.9.8.1-1.11.aarch64.rpm"
 RPM_HASH = "58f3b7e44b2cd927fd73161799005b2ba233697f3688aa45866c41a4c01227aea336ea97d20a61dfb5c6310fe3ec6c5ae0909ec7e4ce49344c4f2414551f88fc"
 
-RPROVIDES:${PN} += "sipsak \
-sipsak(aarch-64)"
+RPROVIDES:${PN} += "sipsak"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcares.so.2()(64bit) \
-libcrypto.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcares.so.2 \
+libcrypto.so.3"
 
 inherit rpm

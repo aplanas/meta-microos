@@ -10,11 +10,11 @@ RPM_HASH = "308635385a4d61c87e04887d8ed0651a42249be65b37b016c609aecce84a47f82be5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-terminaltables \
-python3.10dist(terminaltables) \
+python3.10dist-terminaltables \
 python310-terminaltables \
-python3dist(terminaltables)"
+python3dist-terminaltables"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-colorama \
 python310-colorclass \
 python310-termcolor"

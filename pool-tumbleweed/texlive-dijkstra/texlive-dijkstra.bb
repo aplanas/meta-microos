@@ -12,7 +12,7 @@ RPM_NAME = "texlive-dijkstra-2023.201.0.0.13svn64580-52.1.noarch.rpm"
 RPM_HASH = "eeb1041c56ccc44d0005ac1bae151dafe2f2dba611f48a24f6546e7e1b204063cfa348d05e6b727969c4a1e9ad4fe3618e432b39ad532e4becfff7e6f5e5b7aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dijkstra.sty) \
+RPROVIDES:${PN} += "tex-dijkstra.sty \
 texlive-dijkstra"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(simplekv.sty) \
+tex-simplekv.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

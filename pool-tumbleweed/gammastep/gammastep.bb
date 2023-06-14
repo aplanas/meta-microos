@@ -17,24 +17,21 @@ PV = "2.0.9"
 RPM_NAME = "gammastep-2.0.9-1.2.aarch64.rpm"
 RPM_HASH = "0d721c06975601e0bca999cbc7d4949044678e75e0c36187a73de967e22d89fbec9753359bdd100a3a29c35fbc10668527be11215bdbc58922d433c1f63a45d2"
 
-RPROVIDES:${PN} += "application() \
-application(gammastep.desktop) \
-gammastep \
-gammastep(aarch-64)"
+RPROVIDES:${PN} += "gammastep"
 
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXxf86vm.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdrm.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libwayland-client.so.0()(64bit) \
-libxcb-randr.so.0()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXxf86vm.so.1 \
+libc.so.6 \
+libdrm.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libwayland-client.so.0 \
+libxcb-randr.so.0 \
+libxcb.so.1"
 
 inherit rpm

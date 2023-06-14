@@ -11,7 +11,7 @@ RPM_NAME = "texlive-astro-2023.201.2.20svn15878-53.1.noarch.rpm"
 RPM_HASH = "cbf32f388055d764cf6498f635245ea598e823cb59cb1cb8fdacec0caf5c1dcb8293d052666a3afaddc1e8721324cfcf57b65d20d4092c62ffd71a36bea7cb95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(astrosym.tfm) \
+RPROVIDES:${PN} += "tex-astrosym.tfm \
 texlive-astro"
 
 RDEPENDS:${PN} += "/bin/sh \

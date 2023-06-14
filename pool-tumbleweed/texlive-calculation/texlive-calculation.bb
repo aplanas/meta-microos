@@ -20,7 +20,7 @@ RPM_NAME = "texlive-calculation-2023.201.1.0svn35973-52.1.noarch.rpm"
 RPM_HASH = "c46354a888e85a2c56c8eb9126f4d348f478a71e9d6e549de58957c91702dc2bec0d8227e26683b49dd1b9b317737d78578a10e3db75b2c9decd5ce04b8a873d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(calculation.sty) \
+RPROVIDES:${PN} += "tex-calculation.sty \
 texlive-calculation"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,7 +29,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(delarray.sty) \
+tex-delarray.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

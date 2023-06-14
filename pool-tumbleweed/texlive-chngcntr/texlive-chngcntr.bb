@@ -10,7 +10,7 @@ RPM_NAME = "texlive-chngcntr-2023.201.1.1asvn47577-53.1.noarch.rpm"
 RPM_HASH = "8da91fcd1a1f5a15502654f2b329d972b7bbdb93ab8a45d1ebeb778a8896fc30226411f80664f09cc817f591a7fd1d218d49b77928391f7596e70f4ecf24f858"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(chngcntr.sty) \
+RPROVIDES:${PN} += "tex-chngcntr.sty \
 texlive-chngcntr"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -21,12 +21,11 @@ RPM_NAME = "libiec61883-0-1.2.0-8.26.aarch64.rpm"
 RPM_HASH = "96f45d0457d147dfbbe937b3582bb521d5e3bb6d11d5466fd5091efc1116843495e0bfea717d961e3842f4e5484725592571a75d6c09c3617d18d940d085d59b"
 
 RPROVIDES:${PN} += "libiec61883-0 \
-libiec61883-0(aarch-64) \
-libiec61883.so.0()(64bit)"
+libiec61883.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libraw1394.so.11()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libraw1394.so.11"
 
 inherit rpm

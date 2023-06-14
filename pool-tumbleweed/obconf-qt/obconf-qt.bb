@@ -9,29 +9,22 @@ PV = "0.16.2"
 RPM_NAME = "obconf-qt-0.16.2-1.7.aarch64.rpm"
 RPM_HASH = "912bb376799f3dd8709f8fd7a4e937e965b3787826bb687b5cd066a139891e04d7252d6168b15fcc689df52aa11b354b93262ccb488277a3189cdbccd3d40da6"
 
-RPROVIDES:${PN} += "application() \
-application(obconf-qt.desktop) \
-obconf-qt \
-obconf-qt(aarch-64)"
+RPROVIDES:${PN} += "obconf-qt"
 
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libobrender.so.32()(64bit) \
-libobt.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libobrender.so.32 \
+libobt.so.2 \
+libstdc++.so.6 \
+libxml2.so.2 \
 update-alternatives"
 
 inherit rpm

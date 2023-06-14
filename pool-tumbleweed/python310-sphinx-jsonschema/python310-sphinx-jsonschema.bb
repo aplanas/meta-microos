@@ -9,11 +9,11 @@ RPM_HASH = "c1a91e42aac48c6b29b4530cbdd0d6ce9bdabca15c144d5c9457443781decc934a37
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-jsonschema \
-python3.10dist(sphinx-jsonschema) \
+python3.10dist-sphinx-jsonschema \
 python310-sphinx-jsonschema \
-python3dist(sphinx-jsonschema)"
+python3dist-sphinx-jsonschema"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-docutils \
 python310-jsonpointer \

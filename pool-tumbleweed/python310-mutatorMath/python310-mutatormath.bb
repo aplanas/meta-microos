@@ -12,11 +12,11 @@ RPM_HASH = "a61898642fc8ee3da044ef640529578880305d5c5cddf78fc4da1a0ade3e88faf286
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mutatorMath \
-python3.10dist(mutatormath) \
+python3.10dist-mutatormath \
 python310-mutatorMath \
-python3dist(mutatormath)"
+python3dist-mutatormath"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-FontTools \
 python310-defcon \
 python310-fontMath \

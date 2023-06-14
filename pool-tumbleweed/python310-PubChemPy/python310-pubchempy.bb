@@ -12,10 +12,10 @@ RPM_HASH = "abf9f03bed100e94d09eb0ab78c0dc3832849efddde23dae1fb49787df2fc5af7848
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PubChemPy \
-python3.10dist(pubchempy) \
+python3.10dist-pubchempy \
 python310-PubChemPy \
-python3dist(pubchempy)"
+python3dist-pubchempy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "405b4bec02414def278bdf2778962632688715adeae0c70048d88c002bdb7e2b80c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wstools \
-python3.10dist(wstools) \
+python3.10dist-wstools \
 python310-wstools \
-python3dist(wstools)"
+python3dist-wstools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

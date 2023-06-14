@@ -10,11 +10,11 @@ RPM_HASH = "5676664febcd8281250fa4fb017da87491e5dfec587c951d6b08155d90e2c23d6c03
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-acitoolkit \
-python3.10dist(acitoolkit) \
+python3.10dist-acitoolkit \
 python310-acitoolkit \
-python3dist(acitoolkit)"
+python3dist-acitoolkit"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-graphviz \
 python310-jsonschema \
 python310-requests \

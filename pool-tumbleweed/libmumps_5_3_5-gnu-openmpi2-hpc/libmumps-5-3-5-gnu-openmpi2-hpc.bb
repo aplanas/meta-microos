@@ -13,18 +13,15 @@ PV = "5.3.5"
 RPM_NAME = "libmumps_5_3_5-gnu-openmpi2-hpc-5.3.5-3.3.aarch64.rpm"
 RPM_HASH = "c5b78f8196a279ad9f53290334c1707cea147a167fa29d96666aa5715117d00c8633ec017ba741da86bc60e44d7807f4854a9e74cc4109f5398fc505112481a3"
 
-RPROVIDES:${PN} += "libmumps_5_3_5-gnu-openmpi2-hpc \
-libmumps_5_3_5-gnu-openmpi2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libmumps-5-3-5-gnu-openmpi2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 libopenmpi2-gnu-hpc \
 lua-lmod"
 

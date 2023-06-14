@@ -13,23 +13,23 @@ plasma5-theme-openSUSE"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
-qt5qmlimport(QtGraphicalEffects.1) \
-qt5qmlimport(QtQml.2) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.2) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(QtQuick.VirtualKeyboard.2) \
-qt5qmlimport(QtQuick.Window.2) \
-qt5qmlimport(org.kde.kcm.1) \
-qt5qmlimport(org.kde.kcoreaddons.1) \
-qt5qmlimport(org.kde.kirigami.2) \
-qt5qmlimport(org.kde.kwin.2) \
-qt5qmlimport(org.kde.plasma.components.3) \
-qt5qmlimport(org.kde.plasma.core.2) \
-qt5qmlimport(org.kde.plasma.extras.2) \
-qt5qmlimport(org.kde.plasma.private.sessions.2) \
-qt5qmlimport(org.kde.plasma.workspace.components.2) \
-qt5qmlimport(org.kde.plasma.workspace.keyboardlayout.1) \
+qt5qmlimport-QtGraphicalEffects.1 \
+qt5qmlimport-QtQml.2 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.2 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-QtQuick.VirtualKeyboard.2 \
+qt5qmlimport-QtQuick.Window.2 \
+qt5qmlimport-org.kde.kcm.1 \
+qt5qmlimport-org.kde.kcoreaddons.1 \
+qt5qmlimport-org.kde.kirigami.2 \
+qt5qmlimport-org.kde.kwin.2 \
+qt5qmlimport-org.kde.plasma.components.3 \
+qt5qmlimport-org.kde.plasma.core.2 \
+qt5qmlimport-org.kde.plasma.extras.2 \
+qt5qmlimport-org.kde.plasma.private.sessions.2 \
+qt5qmlimport-org.kde.plasma.workspace.components.2 \
+qt5qmlimport-org.kde.plasma.workspace.keyboardlayout.1 \
 wallpaper-branding-openSUSE"
 
 inherit rpm

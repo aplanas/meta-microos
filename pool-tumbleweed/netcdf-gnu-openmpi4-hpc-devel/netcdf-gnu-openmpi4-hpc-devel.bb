@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcdf-gnu-openmpi4-hpc-devel"
 
-RDEPENDS:${PN} += "netcdf_4_9_2-gnu-openmpi4-hpc-devel"
+RDEPENDS:${PN} += "netcdf-4-9-2-gnu-openmpi4-hpc-devel"
 
 inherit rpm

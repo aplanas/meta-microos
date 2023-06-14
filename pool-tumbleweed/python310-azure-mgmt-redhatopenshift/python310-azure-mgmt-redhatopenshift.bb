@@ -11,12 +11,12 @@ RPM_HASH = "2cf0551ce57fdc1785979cff9746d5cc42a3bffd41ded929fa6b611208fa9286166b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-redhatopenshift \
-python3.10dist(azure-mgmt-redhatopenshift) \
+python3.10dist-azure-mgmt-redhatopenshift \
 python310-azure-mgmt-redhatopenshift \
-python3dist(azure-mgmt-redhatopenshift)"
+python3dist-azure-mgmt-redhatopenshift"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

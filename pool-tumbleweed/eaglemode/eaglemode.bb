@@ -18,41 +18,38 @@ PV = "0.96.0"
 RPM_NAME = "eaglemode-0.96.0-2.1.aarch64.rpm"
 RPM_HASH = "b3fd23510f1584495f7776afb60769bada04d45a46c1c3429fe375e947bfb1471fe0ad1f8c1392a2d0612d8526df2d429821dc7e5fb80b7ae6da306d3fa28241"
 
-RPROVIDES:${PN} += "application() \
-application(eaglemode.desktop) \
-eaglemode \
-eaglemode(aarch-64) \
-libSilChess.so()(64bit) \
-libemAv.so()(64bit) \
-libemBmp.so()(64bit) \
-libemClock.so()(64bit) \
-libemCore.so()(64bit) \
-libemFileMan.so()(64bit) \
-libemFractal.so()(64bit) \
-libemGif.so()(64bit) \
-libemIlbm.so()(64bit) \
-libemJpeg.so()(64bit) \
-libemMines.so()(64bit) \
-libemNetwalk.so()(64bit) \
-libemPcx.so()(64bit) \
-libemPdf.so()(64bit) \
-libemPng.so()(64bit) \
-libemPnm.so()(64bit) \
-libemPs.so()(64bit) \
-libemRas.so()(64bit) \
-libemRgb.so()(64bit) \
-libemStocks.so()(64bit) \
-libemSvg.so()(64bit) \
-libemTestPanel.so()(64bit) \
-libemText.so()(64bit) \
-libemTga.so()(64bit) \
-libemTiff.so()(64bit) \
-libemTmpConv.so()(64bit) \
-libemTreeDump.so()(64bit) \
-libemX11.so()(64bit) \
-libemXbm.so()(64bit) \
-libemXpm.so()(64bit) \
-perl(PlEx)"
+RPROVIDES:${PN} += "eaglemode \
+libSilChess.so \
+libemAv.so \
+libemBmp.so \
+libemClock.so \
+libemCore.so \
+libemFileMan.so \
+libemFractal.so \
+libemGif.so \
+libemIlbm.so \
+libemJpeg.so \
+libemMines.so \
+libemNetwalk.so \
+libemPcx.so \
+libemPdf.so \
+libemPng.so \
+libemPnm.so \
+libemPs.so \
+libemRas.so \
+libemRgb.so \
+libemStocks.so \
+libemSvg.so \
+libemTestPanel.so \
+libemText.so \
+libemTga.so \
+libemTiff.so \
+libemTmpConv.so \
+libemTreeDump.so \
+libemX11.so \
+libemXbm.so \
+libemXpm.so \
+perl-PlEx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
@@ -63,24 +60,23 @@ gcc \
 gedit \
 ghostscript-x11 \
 gzip \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libpoppler-glib.so.8()(64bit) \
-librsvg-2.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libvlc.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libpoppler-glib.so.8 \
+librsvg-2.so.2 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libvlc.so.5 \
 lzop \
 p7zip-full \
 perl \

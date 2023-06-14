@@ -20,12 +20,12 @@ RPM_NAME = "texlive-shapepar-2023.201.2.2svn30708-53.1.noarch.rpm"
 RPM_HASH = "bbf9fb17a211ffee12f71d67cded0977652651da2bae3771f3b6c4b2b89180bb3bdf78014f18be2b3b7bb168a9f365471141cb79078d7bcb59720b8db26dbe79"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(Canflagshape.def) \
-tex(TeXshape.def) \
-tex(candleshape.def) \
-tex(dropshape.def) \
-tex(shapepar.sty) \
-tex(triangleshapes.def) \
+RPROVIDES:${PN} += "tex-Canflagshape.def \
+tex-TeXshape.def \
+tex-candleshape.def \
+tex-dropshape.def \
+tex-shapepar.sty \
+tex-triangleshapes.def \
 texlive-shapepar"
 
 RDEPENDS:${PN} += "/bin/sh \

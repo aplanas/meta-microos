@@ -11,7 +11,7 @@ RPM_HASH = "29ccd1678fc31a399cc5b025a0455a538be6cff786f05f94c5fe41d6ddec4aad1603
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-sans-tc-fonts \
-locale(;zh_TW) \
+locale-;zh-TW \
 noto-sans-cjktc \
 noto-sans-cjktc-fonts \
 noto-sans-tc-fonts \

@@ -13,17 +13,16 @@ PV = "0.17.0"
 RPM_NAME = "libthrift-0_17_0-0.17.0-1.6.aarch64.rpm"
 RPM_HASH = "08446326da180ba615a1dc743abf70869e623df0278a5b22b261aa1b85c8dc8ed648a4a3f8b2e439d619626ab2b6c4a47a7694305afc94785029284f98abbafb"
 
-RPROVIDES:${PN} += "libthrift-0.17.0.so()(64bit) \
-libthrift-0_17_0 \
-libthrift-0_17_0(aarch-64)"
+RPROVIDES:${PN} += "libthrift-0-17-0 \
+libthrift-0.17.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libssl.so.3 \
+libstdc++.so.6"
 
 inherit rpm

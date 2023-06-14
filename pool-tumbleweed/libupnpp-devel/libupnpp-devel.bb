@@ -9,11 +9,10 @@ RPM_NAME = "libupnpp-devel-0.22.2-1.3.aarch64.rpm"
 RPM_HASH = "5f23f21c461790411feca0a6cac70a37d2703db6cda535c06004b5c72dbfc356f93338cafa30afaac06ac5701b17ff592aba846eea245a4bce1cd8dede46db1a"
 
 RPROVIDES:${PN} += "libupnpp-devel \
-libupnpp-devel(aarch-64) \
-pkgconfig(libupnpp)"
+pkgconfig-libupnpp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libupnpp12 \
-pkgconfig(libcurl)"
+pkgconfig-libcurl"
 
 inherit rpm

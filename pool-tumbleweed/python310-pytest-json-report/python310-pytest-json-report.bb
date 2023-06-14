@@ -9,11 +9,11 @@ RPM_HASH = "99679cad359041a836362f5d16a424a52d94989847ebfbee55a4f0e34c7a655b589e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-json-report \
-python3.10dist(pytest-json-report) \
+python3.10dist-pytest-json-report \
 python310-pytest-json-report \
-python3dist(pytest-json-report)"
+python3dist-pytest-json-report"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-py \
 python310-pytest \
 python310-pytest-metadata"

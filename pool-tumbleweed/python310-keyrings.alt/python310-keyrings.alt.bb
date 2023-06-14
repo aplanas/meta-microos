@@ -10,11 +10,11 @@ RPM_HASH = "39ce2fa8c5147122ae6d974751f4cfbb06e168e165a4ef16f6eb2fca3eced894b087
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keyrings.alt \
-python3.10dist(keyrings.alt) \
+python3.10dist-keyrings.alt \
 python310-keyrings.alt \
-python3dist(keyrings.alt)"
+python3dist-keyrings.alt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-jaraco.classes \
 python310-pycryptodomex"
 

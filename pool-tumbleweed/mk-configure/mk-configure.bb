@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mk-configure \
 mk-configure-rpm-macros \
-rpm_macro(mkcmake)"
+rpm-macro-mkcmake"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \

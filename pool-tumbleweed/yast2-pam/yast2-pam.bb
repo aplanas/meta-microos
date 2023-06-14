@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "yast2-pam"
 RDEPENDS:${PN} += "/usr/bin/perl \
 augeas-lenses \
 pam-config \
-rubygem(ruby:3.2.0:cfa) \
+rubygem-ruby-3.2.0-cfa \
 yast2 \
 yast2-ruby-bindings"
 

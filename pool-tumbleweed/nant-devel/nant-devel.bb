@@ -9,7 +9,7 @@ RPM_HASH = "650affba397ba11329da6eea1d25ba2b8a4114a6edffa99b62e5871459b54dedcb4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nant-devel \
-pkgconfig(nant)"
+pkgconfig-nant"
 
 RDEPENDS:${PN} += "nant"
 

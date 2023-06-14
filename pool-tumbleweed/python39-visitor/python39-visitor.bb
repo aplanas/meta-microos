@@ -9,10 +9,10 @@ RPM_NAME = "python39-visitor-0.1.3-1.18.noarch.rpm"
 RPM_HASH = "4fa4041a48729ee30ec284d3484b85f91f56b3111567e63bc951836183f871e2c21a4fbe1c912a246eae477413760b72b699ac9c437281cdabea56f0dd685cd5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(visitor) \
+RPROVIDES:${PN} += "python3.9dist-visitor \
 python39-visitor \
-python3dist(visitor)"
+python3dist-visitor"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

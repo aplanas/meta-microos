@@ -19,11 +19,11 @@ RPM_HASH = "57b4c7a31be4ef3ab606d93051b68594d70d000e68e6cd8a9382d90274230eebaa9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-junos-eznc \
-python3.10dist(junos-eznc) \
+python3.10dist-junos-eznc \
 python310-junos-eznc \
-python3dist(junos-eznc)"
+python3dist-junos-eznc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-PyYAML \
 python310-lxml \

@@ -10,11 +10,10 @@ RPM_HASH = "718906668a8f29c97f418694a6fd640202f6cb35c5a4b081b94c782d62c08fb6bf3e
 
 RPROVIDES:${PN} += "python312-2to3 \
 python312-demo \
-python312-tools \
-python312-tools(aarch-64)"
+python312-tools"
 
 RDEPENDS:${PN} += "/usr/bin/python3.12 \
-python(abi) \
+python-abi \
 python312-base"
 
 inherit rpm

@@ -10,42 +10,42 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "latte-dock-lang \
 latte-dock-lang-all \
-locale(latte-dock:ar) \
-locale(latte-dock:ast) \
-locale(latte-dock:az) \
-locale(latte-dock:ca) \
-locale(latte-dock:ca@valencia) \
-locale(latte-dock:cs) \
-locale(latte-dock:da) \
-locale(latte-dock:de) \
-locale(latte-dock:el) \
-locale(latte-dock:en_GB) \
-locale(latte-dock:es) \
-locale(latte-dock:et) \
-locale(latte-dock:eu) \
-locale(latte-dock:fi) \
-locale(latte-dock:fr) \
-locale(latte-dock:gl) \
-locale(latte-dock:ia) \
-locale(latte-dock:id) \
-locale(latte-dock:it) \
-locale(latte-dock:ja) \
-locale(latte-dock:ko) \
-locale(latte-dock:lt) \
-locale(latte-dock:nl) \
-locale(latte-dock:nn) \
-locale(latte-dock:pl) \
-locale(latte-dock:pt) \
-locale(latte-dock:pt_BR) \
-locale(latte-dock:ro) \
-locale(latte-dock:ru) \
-locale(latte-dock:sk) \
-locale(latte-dock:sl) \
-locale(latte-dock:sv) \
-locale(latte-dock:tr) \
-locale(latte-dock:uk) \
-locale(latte-dock:zh_CN) \
-locale(latte-dock:zh_TW)"
+locale-latte-dock-ar \
+locale-latte-dock-ast \
+locale-latte-dock-az \
+locale-latte-dock-ca \
+locale-latte-dock-ca@valencia \
+locale-latte-dock-cs \
+locale-latte-dock-da \
+locale-latte-dock-de \
+locale-latte-dock-el \
+locale-latte-dock-en-GB \
+locale-latte-dock-es \
+locale-latte-dock-et \
+locale-latte-dock-eu \
+locale-latte-dock-fi \
+locale-latte-dock-fr \
+locale-latte-dock-gl \
+locale-latte-dock-ia \
+locale-latte-dock-id \
+locale-latte-dock-it \
+locale-latte-dock-ja \
+locale-latte-dock-ko \
+locale-latte-dock-lt \
+locale-latte-dock-nl \
+locale-latte-dock-nn \
+locale-latte-dock-pl \
+locale-latte-dock-pt \
+locale-latte-dock-pt-BR \
+locale-latte-dock-ro \
+locale-latte-dock-ru \
+locale-latte-dock-sk \
+locale-latte-dock-sl \
+locale-latte-dock-sv \
+locale-latte-dock-tr \
+locale-latte-dock-uk \
+locale-latte-dock-zh-CN \
+locale-latte-dock-zh-TW"
 
 RDEPENDS:${PN} += "latte-dock"
 

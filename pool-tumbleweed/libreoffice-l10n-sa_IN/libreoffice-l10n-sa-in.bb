@@ -9,9 +9,8 @@ RPM_HASH = "2e26ebff46f60e0ae58e11356e2dfee040b5bf7a6481e09154c1f8dcab7a93d3ac38
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sa-IN \
-libreoffice-help-sa_IN \
-libreoffice-l10n-sa_IN \
-locale(libreoffice:sa_IN)"
+libreoffice-l10n-sa-IN \
+locale-libreoffice-sa-IN"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \

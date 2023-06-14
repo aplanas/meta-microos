@@ -22,7 +22,7 @@ RPM_NAME = "texlive-ionumbers-2023.201.0.0.3.3svn33457-55.1.noarch.rpm"
 RPM_HASH = "7d6aaaedd1b96d9cdeda657a4a6bf448cbafb382d6dc990daecd21a32aabbd486af5397f5241626644c0ca5388364536ce9c62077f1871a4accb41d8ff9b5ba5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ionumbers.sty) \
+RPROVIDES:${PN} += "tex-ionumbers.sty \
 texlive-ionumbers"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,7 +31,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

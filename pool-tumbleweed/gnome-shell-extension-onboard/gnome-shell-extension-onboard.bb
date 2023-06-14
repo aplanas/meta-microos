@@ -14,12 +14,12 @@ RPROVIDES:${PN} += "gnome-shell-extension-onboard"
 
 RDEPENDS:${PN} += "gnome-shell \
 onboard \
-typelib(Clutter) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Shell) \
-typelib(St)"
+typelib-Clutter \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-Gtk \
+typelib-Shell \
+typelib-St"
 
 inherit rpm

@@ -13,7 +13,6 @@ RPM_NAME = "kbd-2.5.1-1.3.aarch64.rpm"
 RPM_HASH = "1b0f18be0e9f6823af87949668268a865eff5a72f20c63978f3c9739c350a38d00a7cbe56693707dd1a5ba5cc4aa5212251b0d31bf3101a232e935d88ec1fc26"
 
 RPROVIDES:${PN} += "kbd \
-kbd(aarch-64) \
 vlock"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +21,9 @@ RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 fillup \
 kbd-legacy \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libpam_misc.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpam-misc.so.0 \
+libpam.so.0"
 
 inherit rpm

@@ -16,12 +16,11 @@ PV = "1.0.6"
 RPM_NAME = "libaec0-1.0.6-1.7.aarch64.rpm"
 RPM_HASH = "2f214009ed0488e25383c7cb1331ab0178a986cc6385e51ee42896fd27f43f54ba0b3665cdade97c848a1132812ebc2694e605c44f38cee3cf095eada549b3aa"
 
-RPROVIDES:${PN} += "libaec.so.0()(64bit) \
-libaec0 \
-libaec0(aarch-64)"
+RPROVIDES:${PN} += "libaec.so.0 \
+libaec0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

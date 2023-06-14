@@ -16,11 +16,11 @@ RPM_HASH = "e9e665dac178503f6ccbec041181db07768c1207d1d6c79fe5ba32315a7b8e328deb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openwrt-luci-rpc \
-python3.10dist(openwrt-luci-rpc) \
+python3.10dist-openwrt-luci-rpc \
 python310-openwrt-luci-rpc \
-python3dist(openwrt-luci-rpc)"
+python3dist-openwrt-luci-rpc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-click \
 python310-packaging \
 python310-requests"

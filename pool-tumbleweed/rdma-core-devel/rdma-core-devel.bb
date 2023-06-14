@@ -13,17 +13,16 @@ libibmad-devel \
 libibumad-devel \
 libibverbs-devel \
 librdmacm-devel \
-pkgconfig(libefa) \
-pkgconfig(libibmad) \
-pkgconfig(libibnetdisc) \
-pkgconfig(libibumad) \
-pkgconfig(libibverbs) \
-pkgconfig(libmana) \
-pkgconfig(libmlx4) \
-pkgconfig(libmlx5) \
-pkgconfig(librdmacm) \
-rdma-core-devel \
-rdma-core-devel(aarch-64)"
+pkgconfig-libefa \
+pkgconfig-libibmad \
+pkgconfig-libibnetdisc \
+pkgconfig-libibumad \
+pkgconfig-libibverbs \
+pkgconfig-libmana \
+pkgconfig-libmlx4 \
+pkgconfig-libmlx5 \
+pkgconfig-librdmacm \
+rdma-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 infiniband-diags \
@@ -34,10 +33,10 @@ libmana1 \
 libmlx4-1 \
 libmlx5-1 \
 librdmacm1 \
-pkgconfig(libibmad) \
-pkgconfig(libibumad) \
-pkgconfig(libibverbs) \
-rdma-core(aarch-64) \
+pkgconfig-libibmad \
+pkgconfig-libibumad \
+pkgconfig-libibverbs \
+rdma-core \
 rsocket"
 
 inherit rpm

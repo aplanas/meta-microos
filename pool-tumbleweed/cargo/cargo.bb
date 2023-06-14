@@ -12,7 +12,6 @@ RPM_NAME = "cargo-1.69.0-1.1.aarch64.rpm"
 RPM_HASH = "b79c9588f5c25d63fff8a4a4ae87a6a74a511d6ee70be17701637a787b3fe9d82237cfcccbd6c3393c43556c2833e0e2c2d59d63373e03487f54d96447032631"
 
 RPROVIDES:${PN} += "cargo \
-cargo(aarch-64) \
 rust+cargo"
 
 RDEPENDS:${PN} += "cargo1.69 \

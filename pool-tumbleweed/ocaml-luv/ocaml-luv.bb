@@ -13,10 +13,9 @@ PV = "0.5.12"
 RPM_NAME = "ocaml-luv-0.5.12-1.1.aarch64.rpm"
 RPM_HASH = "0f00348d1fca51407b20daef31df3d44c8ef256f87b7900a85bb1ae09da4c08a1e614a2a6dc38400e68802e0473a882209d33097deaa82238bdb668d99059cc9"
 
-RPROVIDES:${PN} += "ocaml-luv \
-ocaml-luv(aarch-64)"
+RPROVIDES:${PN} += "ocaml-luv"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libuv.so.1()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libuv.so.1"
 
 inherit rpm

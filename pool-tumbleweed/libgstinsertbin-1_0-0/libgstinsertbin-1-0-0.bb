@@ -11,13 +11,12 @@ PV = "1.22.3"
 RPM_NAME = "libgstinsertbin-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "bf7484d0c701662dd6b76dca9d077ac14860203e6abd48f17ba67e9f16e48c25e84d00e8ec937fba51ebf4eacf75a69aa071ed56771b2aa5dd9184a3c8c77125"
 
-RPROVIDES:${PN} += "libgstinsertbin-1.0.so.0()(64bit) \
-libgstinsertbin-1_0-0 \
-libgstinsertbin-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstinsertbin-1-0-0 \
+libgstinsertbin-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit)"
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0"
 
 inherit rpm

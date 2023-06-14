@@ -13,10 +13,9 @@ PV = "1.10.7"
 RPM_NAME = "openmpi1-config-1.10.7-7.5.aarch64.rpm"
 RPM_HASH = "db4396ab1e33f8b3423cdfec4da4c45a4f49e975874e23964b433dd72cd27db02806d7a8fa9b4377d998e6000af8982e18b0508138459756c22ee4613df37b96"
 
-RPROVIDES:${PN} += "config(openmpi1-config) \
+RPROVIDES:${PN} += "config-openmpi1-config \
 openmpi-runtime-config \
-openmpi1-config \
-openmpi1-config(aarch-64)"
+openmpi1-config"
 
 RDEPENDS:${PN} += ""
 

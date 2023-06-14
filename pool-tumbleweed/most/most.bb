@@ -8,12 +8,10 @@ PV = "5.2.0"
 RPM_NAME = "most-5.2.0-1.5.aarch64.rpm"
 RPM_HASH = "6db556a8535dc8dc7126361aeeab67a387f7c0ea91e6ab869944cb507148d4955f3cb3fc7561d23c5123b05dbd2fd9348db84243706a526416344a204e01d3c1"
 
-RPROVIDES:${PN} += "most \
-most(aarch-64)"
+RPROVIDES:${PN} += "most"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libslang.so.2()(64bit) \
-libslang.so.2(SLANG2)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libslang.so.2"
 
 inherit rpm

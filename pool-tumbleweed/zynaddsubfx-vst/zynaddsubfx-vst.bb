@@ -13,18 +13,17 @@ PV = "3.0.6"
 RPM_NAME = "zynaddsubfx-vst-3.0.6-3.1.aarch64.rpm"
 RPM_HASH = "c51d185ae769b098cbcf7578993c0bb365fa5ada6e4d66123bbddaeb9fc9e92fbefb2997ccafbb3d74623d6d5401149c7503e5a9a399a8597702211b1700fd08"
 
-RPROVIDES:${PN} += "zynaddsubfx-vst \
-zynaddsubfx-vst(aarch-64)"
+RPROVIDES:${PN} += "zynaddsubfx-vst"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblo.so.7()(64bit) \
-libm.so.6()(64bit) \
-libmxml.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+liblo.so.7 \
+libm.so.6 \
+libmxml.so.1 \
+libstdc++.so.6 \
+libz.so.1 \
 zynaddsubfx-common"
 
 inherit rpm

@@ -9,10 +9,9 @@ PV = "7.0.0"
 RPM_NAME = "libpapi-hpc-7.0.0-1.3.aarch64.rpm"
 RPM_HASH = "77d75ff4c85f3cb44751f74e61d32e723cfd5dab1e706512f63d4b341f50d36f44f367e46eaa5c2038837a8f53ae96609e82656ab3123a79983a92a7651bc1bd"
 
-RPROVIDES:${PN} += "libpapi-hpc \
-libpapi-hpc(aarch-64)"
+RPROVIDES:${PN} += "libpapi-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-libpapi_7_0_0-hpc"
+libpapi-7-0-0-hpc"
 
 inherit rpm

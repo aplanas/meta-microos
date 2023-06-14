@@ -26,35 +26,35 @@ fontsproto-devel \
 glproto-devel \
 inputproto-devel \
 kbproto-devel \
-pkgconfig(applewmproto) \
-pkgconfig(bigreqsproto) \
-pkgconfig(compositeproto) \
-pkgconfig(damageproto) \
-pkgconfig(dmxproto) \
-pkgconfig(dpmsproto) \
-pkgconfig(dri2proto) \
-pkgconfig(dri3proto) \
-pkgconfig(fixesproto) \
-pkgconfig(fontsproto) \
-pkgconfig(glproto) \
-pkgconfig(inputproto) \
-pkgconfig(kbproto) \
-pkgconfig(presentproto) \
-pkgconfig(randrproto) \
-pkgconfig(recordproto) \
-pkgconfig(renderproto) \
-pkgconfig(resourceproto) \
-pkgconfig(scrnsaverproto) \
-pkgconfig(videoproto) \
-pkgconfig(xcmiscproto) \
-pkgconfig(xextproto) \
-pkgconfig(xf86bigfontproto) \
-pkgconfig(xf86dgaproto) \
-pkgconfig(xf86driproto) \
-pkgconfig(xf86vidmodeproto) \
-pkgconfig(xineramaproto) \
-pkgconfig(xproto) \
-pkgconfig(xwaylandproto) \
+pkgconfig-applewmproto \
+pkgconfig-bigreqsproto \
+pkgconfig-compositeproto \
+pkgconfig-damageproto \
+pkgconfig-dmxproto \
+pkgconfig-dpmsproto \
+pkgconfig-dri2proto \
+pkgconfig-dri3proto \
+pkgconfig-fixesproto \
+pkgconfig-fontsproto \
+pkgconfig-glproto \
+pkgconfig-inputproto \
+pkgconfig-kbproto \
+pkgconfig-presentproto \
+pkgconfig-randrproto \
+pkgconfig-recordproto \
+pkgconfig-renderproto \
+pkgconfig-resourceproto \
+pkgconfig-scrnsaverproto \
+pkgconfig-videoproto \
+pkgconfig-xcmiscproto \
+pkgconfig-xextproto \
+pkgconfig-xf86bigfontproto \
+pkgconfig-xf86dgaproto \
+pkgconfig-xf86driproto \
+pkgconfig-xf86vidmodeproto \
+pkgconfig-xineramaproto \
+pkgconfig-xproto \
+pkgconfig-xwaylandproto \
 presentproto-devel \
 randrproto-devel \
 recordproto-devel \
@@ -78,6 +78,6 @@ xproto-devel \
 xproxymngproto-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkgconfig(xextproto)"
+pkgconfig-xextproto"
 
 inherit rpm

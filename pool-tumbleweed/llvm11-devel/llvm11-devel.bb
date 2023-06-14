@@ -8,31 +8,29 @@ PV = "11.0.1"
 RPM_NAME = "llvm11-devel-11.0.1-13.1.aarch64.rpm"
 RPM_HASH = "1a2b29f934e65d8e17a8dc25944b52de7c5bca2b9ed37907c1be652c87e797ed245ae7d5ada65f2c1352410399fb15ccc11b675d723868b4bad46ca7cf830f7d"
 
-RPROVIDES:${PN} += "cmake(LLVM) \
-cmake(LLVM-) \
+RPROVIDES:${PN} += "cmake-LLVM \
+cmake-LLVM- \
 llvm-devel-provider \
 llvm11-devel \
-llvm11-devel(aarch-64) \
-rpm_macro(_libcxx_sonum) \
-rpm_macro(_llvm_minorver) \
-rpm_macro(_llvm_relver) \
-rpm_macro(_llvm_sonum) \
-rpm_macro(_llvm_version) \
-rpm_macro(_llvm_with_clang_scripts) \
-rpm_macro(_llvm_with_ffi) \
-rpm_macro(_llvm_with_libcxx) \
-rpm_macro(_llvm_with_lldb) \
-rpm_macro(_llvm_with_openmp) \
-rpm_macro(_llvm_with_oprofile) \
-rpm_macro(_llvm_with_valgrind)"
+rpm-macro--libcxx-sonum \
+rpm-macro--llvm-minorver \
+rpm-macro--llvm-relver \
+rpm-macro--llvm-sonum \
+rpm-macro--llvm-version \
+rpm-macro--llvm-with-clang-scripts \
+rpm-macro--llvm-with-ffi \
+rpm-macro--llvm-with-libcxx \
+rpm-macro--llvm-with-lldb \
+rpm-macro--llvm-with-openmp \
+rpm-macro--llvm-with-oprofile \
+rpm-macro--llvm-with-valgrind"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.11()(64bit) \
-libLLVM.so.11(LLVM_11)(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libLLVM.so.11 \
+libc.so.6 \
 libstdc++-devel \
-libstdc++.so.6()(64bit) \
+libstdc++.so.6 \
 libtool \
 llvm11 \
 llvm11-LTO-devel \

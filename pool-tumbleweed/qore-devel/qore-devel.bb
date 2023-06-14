@@ -12,15 +12,14 @@ PV = "1.13.0"
 RPM_NAME = "qore-devel-1.13.0-1.4.aarch64.rpm"
 RPM_HASH = "0bcb6668bce2b60110557fff4b25a4e35e996c938ab4707f2aa7a20fbe7aace1c87345e39617abe50ecaa26c7d91a3686aa83d0e21245e76738f3667f1b96b54"
 
-RPROVIDES:${PN} += "pkgconfig(qore) \
-qore-devel \
-qore-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-qore \
+qore-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
 libqore12 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

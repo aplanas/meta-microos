@@ -11,10 +11,9 @@ RPM_NAME = "python310-pyarrow-devel-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "fa47125817cb1e47abe0d68ad59778fdc5dd6c34c387e90030e6af457151988adbc4c09afedca1b19060dd12961c8458d84ca4f76c108805b4f911052444921f"
 
 RPROVIDES:${PN} += "python3-pyarrow-devel \
-python310-pyarrow-devel \
-python310-pyarrow-devel(aarch-64)"
+python310-pyarrow-devel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Cython \
 python310-pyarrow"
 

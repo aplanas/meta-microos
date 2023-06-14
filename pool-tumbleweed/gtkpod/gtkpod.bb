@@ -11,65 +11,62 @@ PV = "2.1.5"
 RPM_NAME = "gtkpod-2.1.5-6.18.aarch64.rpm"
 RPM_HASH = "4677a680fd1366f4cc7e985adfdb49eaf429a0d3551dec8377bc91294627eb4e8a1d2994fb3a8afb1a3af26b5b2779e7f5c8043405c8ba8bd1371763b604e106"
 
-RPROVIDES:${PN} += "application() \
-application(gtkpod.desktop) \
-gtkpod \
-gtkpod(aarch-64) \
-libclarity.so()(64bit) \
-libcore_prefs.so()(64bit) \
-libcover_display.so()(64bit) \
-libdetails_editor.so()(64bit) \
-libexporter.so()(64bit) \
-libexternal_player.so()(64bit) \
-libfiletype_flac.so()(64bit) \
-libfiletype_mp3.so()(64bit) \
-libfiletype_mp4.so()(64bit) \
-libfiletype_ogg.so()(64bit) \
-libfiletype_video.so()(64bit) \
-libfiletype_wav.so()(64bit) \
-libinfo_display.so()(64bit) \
-libmedia_player.so()(64bit) \
-libmserv.so()(64bit) \
-libphoto_editor.so()(64bit) \
-libplaylist_display.so()(64bit) \
-librepository_editor.so()(64bit) \
-libsjcd.so()(64bit) \
-libsorttab_display.so()(64bit) \
-libtrack_display.so()(64bit)"
+RPROVIDES:${PN} += "gtkpod \
+libclarity.so \
+libcore-prefs.so \
+libcover-display.so \
+libdetails-editor.so \
+libexporter.so \
+libexternal-player.so \
+libfiletype-flac.so \
+libfiletype-mp3.so \
+libfiletype-mp4.so \
+libfiletype-ogg.so \
+libfiletype-video.so \
+libfiletype-wav.so \
+libinfo-display.so \
+libmedia-player.so \
+libmserv.so \
+libphoto-editor.so \
+libplaylist-display.so \
+librepository-editor.so \
+libsjcd.so \
+libsorttab-display.so \
+libtrack-display.so"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \
 /usr/bin/perl \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libFLAC.so.12()(64bit) \
-libanjuta-3.so.0()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libatomicparsley.so.0()(64bit) \
-libbrasero-media3.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libclutter-1.0.so.0()(64bit) \
-libclutter-gtk-1.0.so.0()(64bit) \
-libcogl.so.20()(64bit) \
-libcurl.so.4()(64bit) \
-libdiscid.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgdl-3.so.5()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgpod.so.4()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkpod.so.1()(64bit) \
-libid3tag.so.0.16.2()(64bit) \
-libmusicbrainz5.so.1()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libvorbisfile.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libFLAC.so.12 \
+libanjuta-3.so.0 \
+libatk-1.0.so.0 \
+libatomicparsley.so.0 \
+libbrasero-media3.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libclutter-1.0.so.0 \
+libclutter-gtk-1.0.so.0 \
+libcogl.so.20 \
+libcurl.so.4 \
+libdiscid.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgdl-3.so.5 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgpod.so.4 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgtk-3.so.0 \
+libgtkpod.so.1 \
+libid3tag.so.0.16.2 \
+libmusicbrainz5.so.1 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libvorbisfile.so.3"
 
 inherit rpm

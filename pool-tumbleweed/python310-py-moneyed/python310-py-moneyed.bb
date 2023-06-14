@@ -9,11 +9,11 @@ RPM_HASH = "9a8199ee168196f98e94d9f5d1a621a3d4c8ef00bbb5b0518370c8c31b1bc05a4830
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py-moneyed \
-python3.10dist(py-moneyed) \
+python3.10dist-py-moneyed \
 python310-py-moneyed \
-python3dist(py-moneyed)"
+python3dist-py-moneyed"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Babel \
 python310-typing-extensions"
 

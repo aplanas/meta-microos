@@ -12,7 +12,7 @@ RPM_NAME = "texlive-alphalph-2023.201.2.6svn53087-54.1.noarch.rpm"
 RPM_HASH = "eb1183d019eeabc9faff3e43f8b916650e6bd2dc0bc8951daf06ddd027acd0e5b8ca5413b9208e05e9fad96fc09f7ea8c5f9127db9205b46383aaa2d8b5f5ef0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(alphalph.sty) \
+RPROVIDES:${PN} += "tex-alphalph.sty \
 texlive-alphalph"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,8 +21,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(infwarerr.sty) \
-tex(intcalc.sty) \
+tex-infwarerr.sty \
+tex-intcalc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

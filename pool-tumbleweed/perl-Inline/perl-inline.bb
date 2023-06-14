@@ -27,14 +27,13 @@ RPM_NAME = "perl-Inline-0.86-2.7.noarch.rpm"
 RPM_HASH = "608505122a9d28df47701e9ef3a7dfff17c17f2f992b070753fae48ccadeeb60c9ffb427b2caa2c424321aa6831e55816adb8de88d20b98db4f7d913c9710379"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Foo::Tester) \
-perl(Inline) \
-perl(Inline::Foo) \
-perl(Inline::MakeMaker) \
-perl(Inline::denter) \
-perl-Inline"
+RPROVIDES:${PN} += "perl-Foo--Tester \
+perl-Inline \
+perl-Inline--Foo \
+perl-Inline--MakeMaker \
+perl-Inline--denter"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-version"
 
 inherit rpm

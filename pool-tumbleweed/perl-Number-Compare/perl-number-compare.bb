@@ -17,9 +17,9 @@ RPM_NAME = "perl-Number-Compare-0.03-11.6.noarch.rpm"
 RPM_HASH = "9d1dcc99e90f2b3e666dc7e7921f5577b7062b969d98c16947a42f23c8ad63ad75e138e494287f5dfd3741733361dfb74e8e9011fe10fe954c459ce3320eabc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Number::Compare) \
+RPROVIDES:${PN} += "perl-Number--Compare \
 perl-Number-Compare"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

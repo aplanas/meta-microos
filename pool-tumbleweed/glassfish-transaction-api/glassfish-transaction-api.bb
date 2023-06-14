@@ -9,9 +9,9 @@ RPM_HASH = "157599dfbd7ac3ac48b5382bcfac19946c4640d60169d53d8e73001ad2ec1e1b80c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-transaction-api \
-mvn(javax.transaction:javax.transaction-api) \
-mvn(javax.transaction:javax.transaction-api:pom:) \
-osgi(javax.transaction-api)"
+mvn-javax.transaction-javax.transaction-api \
+mvn-javax.transaction-javax.transaction-api-pom- \
+osgi-javax.transaction-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

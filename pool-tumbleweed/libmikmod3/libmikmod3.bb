@@ -11,15 +11,13 @@ PV = "3.3.11.1"
 RPM_NAME = "libmikmod3-3.3.11.1-1.15.aarch64.rpm"
 RPM_HASH = "5687ae1797aa61d1778f28955d2d6458ce299da12943bcca829e1e7c8ca17e4eb999f8e7ecf1f2792fc32b1e23f0331a801f43f103b538515030c811d1ad9494"
 
-RPROVIDES:${PN} += "libmikmod.so.3()(64bit) \
-libmikmod3 \
-libmikmod3(aarch-64)"
+RPROVIDES:${PN} += "libmikmod.so.3 \
+libmikmod3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libpulse-simple.so.0"
 
 inherit rpm

@@ -12,77 +12,42 @@ PV = "23.04.1"
 RPM_NAME = "elisa-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "af0fa8877f94dfc9e28a6dc7ff8e94f7f7ff81f7eda71f097e56be0bc38ff4e622b12806785a9c6503aa968a032ae4c85bbce2c41ab97de56184b59c7cb03303"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.elisa.desktop) \
-elisa \
-elisa(aarch-64) \
-libelisaLib.so.0()(64bit) \
-libelisaqmlplugin.so()(64bit) \
-metainfo() \
-metainfo(org.kde.elisa.appdata.xml) \
-mimehandler(application/x-ogm-audio) \
-mimehandler(audio/aac) \
-mimehandler(audio/mp4) \
-mimehandler(audio/mpeg) \
-mimehandler(audio/mpegurl) \
-mimehandler(audio/ogg) \
-mimehandler(audio/vnd.rn-realaudio) \
-mimehandler(audio/vorbis) \
-mimehandler(audio/x-flac) \
-mimehandler(audio/x-mp3) \
-mimehandler(audio/x-mpegurl) \
-mimehandler(audio/x-ms-wma) \
-mimehandler(audio/x-musepack) \
-mimehandler(audio/x-oggflac) \
-mimehandler(audio/x-pn-realaudio) \
-mimehandler(audio/x-scpls) \
-mimehandler(audio/x-speex) \
-mimehandler(audio/x-vorbis) \
-mimehandler(audio/x-vorbis+ogg) \
-mimehandler(audio/x-wav)"
+RPROVIDES:${PN} += "elisa \
+libelisaLib.so.0 \
+libelisaqmlplugin.so"
 
 RDEPENDS:${PN} += "kdeclarative-components \
 kirigami2 \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Baloo.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5FileMetaData.so.3()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5ItemViews.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOFileWidgets.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5QuickControls2.so.5()(64bit) \
-libQt5QuickControls2.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5Baloo.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5FileMetaData.so.3 \
+libKF5I18n.so.5 \
+libKF5IconThemes.so.5 \
+libKF5ItemViews.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOFileWidgets.so.5 \
+libKF5KIOGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5QuickControls2.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
 libqt5-qtquickcontrols \
 libqt5-qtquickcontrols2 \
-libstdc++.so.6()(64bit)"
+libstdc++.so.6"
 
 inherit rpm

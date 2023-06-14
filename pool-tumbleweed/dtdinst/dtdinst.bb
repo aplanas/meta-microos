@@ -9,7 +9,7 @@ RPM_HASH = "04f816753ad3d13f810460c34519468c5ddcb316225a2c249c872565ada39d88b9ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtdinst \
-mvn(org.relaxng:dtdinst)"
+mvn-org.relaxng-dtdinst"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \

@@ -15,11 +15,11 @@ RPM_NAME = "texlive-ltxdockit-2023.201.1.2dsvn21869-52.1.noarch.rpm"
 RPM_HASH = "49a4577c8b737623230d8c0389ab7fb606287deaf5312af27b7318f27b90600962efd34ce6a9900917df3917c7e99c08e6b40ee476671fb70dcf54f3468ca777"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(btxdockit.sty) \
-tex(ltxdockit.cfg) \
-tex(ltxdockit.cls) \
-tex(ltxdockit.def) \
-tex(ltxdockit.sty) \
+RPROVIDES:${PN} += "tex-btxdockit.sty \
+tex-ltxdockit.cfg \
+tex-ltxdockit.cls \
+tex-ltxdockit.def \
+tex-ltxdockit.sty \
 texlive-ltxdockit"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,18 +28,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(etoolbox.sty) \
-tex(fontenc.sty) \
-tex(hypcap.sty) \
-tex(hyperref.sty) \
-tex(ifpdf.sty) \
-tex(keyval.sty) \
-tex(listings.sty) \
-tex(multicol.sty) \
-tex(scrartcl.cls) \
-tex(textcomp.sty) \
-tex(xspace.sty) \
+tex-color.sty \
+tex-etoolbox.sty \
+tex-fontenc.sty \
+tex-hypcap.sty \
+tex-hyperref.sty \
+tex-ifpdf.sty \
+tex-keyval.sty \
+tex-listings.sty \
+tex-multicol.sty \
+tex-scrartcl.cls \
+tex-textcomp.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

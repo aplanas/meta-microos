@@ -16,15 +16,14 @@ PV = "2.1.0"
 RPM_NAME = "libbiblesync2_0-2.1.0-1.9.aarch64.rpm"
 RPM_HASH = "21a6942d7ea2312f682bbccfd9bc79a69eee5cb48ebefa0ba3550450cec468c08a7019ecf483b99792c84854b82940fdd7505468cf21bf339881d9ffaebcbe3f"
 
-RPROVIDES:${PN} += "libbiblesync.so.2.0()(64bit) \
-libbiblesync2_0 \
-libbiblesync2_0(aarch-64)"
+RPROVIDES:${PN} += "libbiblesync.so.2.0 \
+libbiblesync2-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libuuid.so.1"
 
 inherit rpm

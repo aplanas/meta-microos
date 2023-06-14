@@ -11,7 +11,7 @@ RPM_NAME = "texlive-changelog-2023.201.2.5.0svn65861-52.1.noarch.rpm"
 RPM_HASH = "a881209c1c72b74abae37635a02b03be0ee424127f90e8c59a26bc2aeb038adf1e3f4ab9a780689f6ad19a9070717d7b898b892256df9daf28a95a349479689b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(changelog.sty) \
+RPROVIDES:${PN} += "tex-changelog.sty \
 texlive-changelog"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(translations.sty) \
+tex-expl3.sty \
+tex-translations.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

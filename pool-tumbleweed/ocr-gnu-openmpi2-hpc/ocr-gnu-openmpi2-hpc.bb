@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ocr-gnu-openmpi2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ocr_1_0_1-gnu-openmpi2-hpc"
+ocr-1-0-1-gnu-openmpi2-hpc"
 
 inherit rpm

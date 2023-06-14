@@ -11,13 +11,12 @@ PV = "5.2.5"
 RPM_NAME = "perl-PCP-PMDA-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "3d18fc8a32f1c782f95ca0f4ce38c5ae6e0552ae006438b8d703ce68a91f9fbb3a7543a6451883dc70081c4837088d4fbd5126c9cc4fb3b5c3c3f483847c3495"
 
-RPROVIDES:${PN} += "perl(PCP::PMDA) \
-perl-PCP-PMDA \
-perl-PCP-PMDA(aarch-64)"
+RPROVIDES:${PN} += "perl-PCP--PMDA \
+perl-PCP-PMDA"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libpcp3 \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -13,7 +13,6 @@ RPM_HASH = "61fa6e71a71c3bc0d3ff5679c2692281d47727eec6c16a3f032b8a1d212e551dc9cb
 
 RPROVIDES:${PN} += "SUSEConnect \
 suseconnect-ng \
-suseconnect-ng(aarch-64) \
 zypper-migration-plugin \
 zypper-search-packages-plugin"
 

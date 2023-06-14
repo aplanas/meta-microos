@@ -9,7 +9,7 @@ RPM_NAME = "texlive-pmboxdraw-2023.201.1.4svn53046-52.1.noarch.rpm"
 RPM_HASH = "178e41d73032816e8aa99947ce399d34037d95b689b2990f4319db82cb2c413dcbf772464420536223ccd098ab70eecac52538baebb350713c068da71f9483a3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pmboxdraw.sty) \
+RPROVIDES:${PN} += "tex-pmboxdraw.sty \
 texlive-pmboxdraw"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,7 +18,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(kvoptions.sty) \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,8 +10,7 @@ RPM_NAME = "libtorrent-devel-0.13.8-2.12.aarch64.rpm"
 RPM_HASH = "84f251c2669ec050ff1767c7ae8ba1a06b38cfffa599b1c6d79d82152738d4b7ad25895f381d5471956e4d508890c3736d46e180d8aeeea207ce07e4999cdbca"
 
 RPROVIDES:${PN} += "libtorrent-devel \
-libtorrent-devel(aarch-64) \
-pkgconfig(libtorrent)"
+pkgconfig-libtorrent"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtorrent21"

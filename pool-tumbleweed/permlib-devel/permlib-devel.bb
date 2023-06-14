@@ -17,6 +17,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "permlib-devel"
 
-RDEPENDS:${PN} += "libboost_headers-devel"
+RDEPENDS:${PN} += "libboost-headers-devel"
 
 inherit rpm

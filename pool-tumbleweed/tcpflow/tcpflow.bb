@@ -11,15 +11,14 @@ PV = "1.6.1"
 RPM_NAME = "tcpflow-1.6.1-2.9.aarch64.rpm"
 RPM_HASH = "7531885a9daa2f4ea373fae28ba2835b43e3a46c415ee8448b569b5eb2d63dcefbf88c8a720b7f693d412d48e6eb5915311981064195624ae939a939c84f68c6"
 
-RPROVIDES:${PN} += "tcpflow \
-tcpflow(aarch-64)"
+RPROVIDES:${PN} += "tcpflow"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpcap.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libpcap.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

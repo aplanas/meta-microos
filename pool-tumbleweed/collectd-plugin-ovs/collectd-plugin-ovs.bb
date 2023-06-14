@@ -7,12 +7,11 @@ PV = "5.12.0.134.g4cebbfc"
 RPM_NAME = "collectd-plugin-ovs-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
 RPM_HASH = "9ab9ae3103e64a473ad09b1b412513f5fef0e69cd13b4e1bb808b2331f768156d4e75ca51c2cbeee691fe5a1f262d27f2aa77b84a48434835dd9cad5f22b8cf5"
 
-RPROVIDES:${PN} += "collectd-plugin-ovs \
-collectd-plugin-ovs(aarch-64)"
+RPROVIDES:${PN} += "collectd-plugin-ovs"
 
 RDEPENDS:${PN} += "collectd \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libyajl.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libyajl.so.2"
 
 inherit rpm

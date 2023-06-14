@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-array"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-dask \
 python39-dask-delayed \
 python39-numpy"

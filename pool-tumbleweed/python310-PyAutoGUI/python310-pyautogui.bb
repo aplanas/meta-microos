@@ -10,11 +10,11 @@ RPM_HASH = "8227dadf312e72c816cd89ed38e3ca782950c9e025a0cf6d58a18e5772b3631a6013
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyAutoGUI \
-python3.10dist(pyautogui) \
+python3.10dist-pyautogui \
 python310-PyAutoGUI \
-python3dist(pyautogui)"
+python3dist-pyautogui"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-PyMsgBox \
 python310-PyScreeze \

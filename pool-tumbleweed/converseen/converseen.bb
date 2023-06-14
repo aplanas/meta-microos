@@ -16,26 +16,17 @@ PV = "0.9.11.1"
 RPM_NAME = "converseen-0.9.11.1-1.1.aarch64.rpm"
 RPM_HASH = "bef3414c00695a57ae6d64ad0b7abf58b9d48c117c53fec1c687b267ea16bd7a6841c077a622fa0c64a24d0cbf77abffeb23c77b4ed1c18613a0d177fa1b5974"
 
-RPROVIDES:${PN} += "application() \
-application(net.fasterland.converseen.desktop) \
-converseen \
-converseen(aarch-64) \
-metainfo() \
-metainfo(converseen.appdata.xml)"
+RPROVIDES:${PN} += "converseen"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libMagick++-7.Q16HDRI.so.5()(64bit) \
-libMagickCore-7.Q16HDRI.so.10()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libMagick++-7.Q16HDRI.so.5 \
+libMagickCore-7.Q16HDRI.so.10 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

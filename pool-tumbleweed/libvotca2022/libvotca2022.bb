@@ -13,31 +13,30 @@ PV = "2022.1"
 RPM_NAME = "libvotca2022-2022.1-3.6.aarch64.rpm"
 RPM_HASH = "124847e19eafe5c2e322e0a67727afc64ee8aab12609e12fda888ce34a5213acf3fcbd59885cb9766bf58ed3f36f3bcd840ec7c59cb70880f4f1035e4dc5f622"
 
-RPROVIDES:${PN} += "libvotca2022 \
-libvotca2022(aarch-64) \
-libvotca_csg.so.2022()(64bit) \
-libvotca_csg2022 \
-libvotca_tools.so.2022()(64bit) \
-libvotca_tools2022 \
-libvotca_xtp.so.2022()(64bit) \
-libvotca_xtp2022"
+RPROVIDES:${PN} += "libvotca-csg.so.2022 \
+libvotca-csg2022 \
+libvotca-tools.so.2022 \
+libvotca-tools2022 \
+libvotca-xtp.so.2022 \
+libvotca-xtp2022 \
+libvotca2022"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_program_options.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libecpint.so.1()(64bit) \
-libexpat.so.1()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libgromacs.so.8()(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_cpp.so.200()(64bit) \
-libint2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libxc.so.12()(64bit)"
+ld-linux-aarch64.so.1 \
+libboost-filesystem.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libc.so.6 \
+libecpint.so.1 \
+libexpat.so.1 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libgromacs.so.8 \
+libhdf5-cpp.so.200 \
+libhdf5.so.200 \
+libint2.so.2 \
+libm.so.6 \
+libstdc++.so.6 \
+libxc.so.12"
 
 inherit rpm

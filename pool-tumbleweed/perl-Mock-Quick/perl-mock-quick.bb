@@ -26,16 +26,16 @@ RPM_NAME = "perl-Mock-Quick-1.111-1.22.noarch.rpm"
 RPM_HASH = "d6488fec37f373d61b0c00ee9b184918d60b0d5e70baceeaea0fdce47a1d1d9ccffb853b388ea5ef64ecb0a58b733c310b1e66d366e49c29cb368507a6c64d58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mock::Quick) \
-perl(Mock::Quick::Class) \
-perl(Mock::Quick::Method) \
-perl(Mock::Quick::Object) \
-perl(Mock::Quick::Object::Control) \
-perl(Mock::Quick::Util) \
-perl(Object::Quick) \
-perl-Mock-Quick"
+RPROVIDES:${PN} += "perl-Mock--Quick \
+perl-Mock--Quick--Class \
+perl-Mock--Quick--Method \
+perl-Mock--Quick--Object \
+perl-Mock--Quick--Object--Control \
+perl-Mock--Quick--Util \
+perl-Mock-Quick \
+perl-Object--Quick"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Exporter::Declare)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Exporter--Declare"
 
 inherit rpm

@@ -12,8 +12,7 @@ RPM_NAME = "libxapian-devel-1.4.21-1.3.aarch64.rpm"
 RPM_HASH = "3b5cee9de1002cc9faf06b20947260c4c99f693a78538ba2a2eef5a9c99c755a3e53c2488df595d87782b11ddf83e4c8dce85b9365ed31a96946b77cbb3c0c2e"
 
 RPROVIDES:${PN} += "libxapian-devel \
-libxapian-devel(aarch-64) \
-pkgconfig(xapian-core)"
+pkgconfig-xapian-core"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \

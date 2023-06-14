@@ -12,11 +12,11 @@ RPM_NAME = "perl-Mail-Sender-0.903-1.23.noarch.rpm"
 RPM_HASH = "fe5a96b20a4a24130e33f607c388ce2e6ed975f4e4b99df4796d9f017e03c6d663fbbdfa6fc360241311e484944ea77dc0ea998def872d153179bdc525793dd4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Mail::Sender) \
-perl(Mail::Sender::CType::Ext) \
-perl(Mail::Sender::CType::Win32) \
+RPROVIDES:${PN} += "perl-Mail--Sender \
+perl-Mail--Sender--CType--Ext \
+perl-Mail--Sender--CType--Win32 \
 perl-Mail-Sender"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

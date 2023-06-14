@@ -13,14 +13,13 @@ RPM_NAME = "libindilx200-2-2.0.2-1.1.aarch64.rpm"
 RPM_HASH = "ab2a56705976b2c27631c77569217d32bdbc05a1c55f5c10f78506e07dcf4703186e4368c8b803683adcaa68e46ecea6606d118943b701ba464d9e49b22aca29"
 
 RPROVIDES:${PN} += "libindilx200-2 \
-libindilx200-2(aarch-64) \
-libindilx200.so.2()(64bit)"
+libindilx200.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnova-0.15.so.0 \
+libstdc++.so.6"
 
 inherit rpm

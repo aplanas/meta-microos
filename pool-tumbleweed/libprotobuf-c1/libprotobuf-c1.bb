@@ -8,12 +8,11 @@ PV = "1.4.1"
 RPM_NAME = "libprotobuf-c1-1.4.1-4.1.aarch64.rpm"
 RPM_HASH = "ebebab90b041edb5a10389296bc3e07b38fe0018fc48733792a374b4e274c160c0e45a8234163cf53fd2dd5835a86c1fccfa4fd9f9ce170c860bb776126dda32"
 
-RPROVIDES:${PN} += "libprotobuf-c.so.1()(64bit) \
-libprotobuf-c1 \
-libprotobuf-c1(aarch-64)"
+RPROVIDES:${PN} += "libprotobuf-c.so.1 \
+libprotobuf-c1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

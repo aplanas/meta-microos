@@ -18,15 +18,14 @@ RPM_NAME = "linuxconsoletools-1.8.1-1.2.aarch64.rpm"
 RPM_HASH = "d699a14b702b0a1f27206d91df2815831f5c57199324df69db66132aca7833b74f59de0337ea3d59ae52668fd553a622532d5d2f2a07f45aed7c70e34b77cb8c"
 
 RPROVIDES:${PN} += "input-utils \
-linuxconsoletools \
-linuxconsoletools(aarch-64)"
+linuxconsoletools"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

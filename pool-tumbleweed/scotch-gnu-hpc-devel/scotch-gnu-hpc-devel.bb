@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "scotch-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-scotch_6_1_0-gnu-hpc-devel"
+scotch-6-1-0-gnu-hpc-devel"
 
 inherit rpm

@@ -15,11 +15,10 @@ PV = "3.3.0"
 RPM_NAME = "canlock-3.3.0-1.3.aarch64.rpm"
 RPM_HASH = "17895a13eea3a481587aa2d3c0a4ca308a1c30a3a02a2f167fbd2e9a0ba4df2a8fda4903e45aa14e8a27971b5edaf2b7c0cf220fa2d6e5fddfa234e54496cb02"
 
-RPROVIDES:${PN} += "canlock \
-canlock(aarch-64)"
+RPROVIDES:${PN} += "canlock"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcanlock.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcanlock.so.3"
 
 inherit rpm

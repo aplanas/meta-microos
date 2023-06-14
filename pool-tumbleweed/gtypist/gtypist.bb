@@ -21,14 +21,13 @@ PV = "2.9.5"
 RPM_NAME = "gtypist-2.9.5-3.10.aarch64.rpm"
 RPM_HASH = "8b2d88a6a3b0351edc594af79220321df5f5dee1a96d3f5474d4c3274ba03cfc211678e6c80addbfb94e5d8902df9ba148d5a11a84c9d9a8e9b4ca27dbeaae96"
 
-RPROVIDES:${PN} += "gtypist \
-gtypist(aarch-64)"
+RPROVIDES:${PN} += "gtypist"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

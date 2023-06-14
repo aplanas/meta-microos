@@ -15,11 +15,11 @@ RPM_HASH = "34209f6353b62f8d96c7bcdf5b7d1e129f7e1a5ecaef579dab5c650c0d783197f212
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-picklefield \
-python3.10dist(django-picklefield) \
+python3.10dist-django-picklefield \
 python310-django-picklefield \
-python3dist(django-picklefield)"
+python3dist-django-picklefield"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

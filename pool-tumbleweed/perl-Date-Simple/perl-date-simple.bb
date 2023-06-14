@@ -51,17 +51,16 @@ PV = "3.03"
 RPM_NAME = "perl-Date-Simple-3.03-9.37.aarch64.rpm"
 RPM_HASH = "267ec8146aaced7d6ff71ca5903d3ade479adf098d5d9fcd49929acbeea9ca24a67c1f076494697f3f41320e1e7c26d36ef85f9233d3fb1fcb4ecad02f6f5713"
 
-RPROVIDES:${PN} += "perl(Date::Simple) \
-perl(Date::Simple::D8) \
-perl(Date::Simple::Fmt) \
-perl(Date::Simple::ISO) \
-perl-Date-Simple \
-perl-Date-Simple(aarch-64)"
+RPROVIDES:${PN} += "perl-Date--Simple \
+perl-Date--Simple--D8 \
+perl-Date--Simple--Fmt \
+perl-Date--Simple--ISO \
+perl-Date-Simple"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Scalar::Util) \
-perl(Test::More)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Scalar--Util \
+perl-Test--More"
 
 inherit rpm

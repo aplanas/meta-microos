@@ -12,13 +12,13 @@ RPM_NAME = "python39-template-remover-0.1.9-3.17.noarch.rpm"
 RPM_HASH = "88574036f13c681572cc1aa10048336f252cb2fb3deca76229d89505f1f165376fe8a6ebc6ce8576d25f8b00f19c5c4a4c96386066701b2856240e2a1945b840"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(template-remover) \
+RPROVIDES:${PN} += "python3.9dist-template-remover \
 python39-template-remover \
-python3dist(template-remover)"
+python3dist-template-remover"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-docopt \
 update-alternatives"
 

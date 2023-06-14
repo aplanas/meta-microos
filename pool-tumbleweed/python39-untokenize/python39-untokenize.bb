@@ -9,10 +9,10 @@ RPM_NAME = "python39-untokenize-0.1.1-2.15.noarch.rpm"
 RPM_HASH = "e7df45e6e7b13bae11996de8741424e377be874ff658b98931659bee3c85072e78e6396353ecea63fa234a4eaf4c5b44c676af3611c451b88670576a5413a6e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(untokenize) \
+RPROVIDES:${PN} += "python3.9dist-untokenize \
 python39-untokenize \
-python3dist(untokenize)"
+python3dist-untokenize"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -13,12 +13,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-irc \
 python3-irclib \
-python3.10dist(irc) \
+python3.10dist-irc \
 python310-irc \
 python310-irclib \
-python3dist(irc)"
+python3dist-irc"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-importlib-metadata \
 python310-jaraco.collections \
 python310-jaraco.functools \

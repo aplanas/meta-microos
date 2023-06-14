@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ocr-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-ocr_1_0_1-gnu-mpich-hpc"
+ocr-1-0-1-gnu-mpich-hpc"
 
 inherit rpm

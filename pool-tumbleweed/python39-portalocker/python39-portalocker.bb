@@ -13,10 +13,10 @@ RPM_NAME = "python39-portalocker-2.7.0-1.1.noarch.rpm"
 RPM_HASH = "7ae3d48433108da71e271ceb7548fd73a6eb3c9dbfcfefdbf5494f99bca1c009316b18ab5c269b0a53cb79a3b143401e55a5a160c3ffca7f6584060eef4b2002"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(portalocker) \
+RPROVIDES:${PN} += "python3.9dist-portalocker \
 python39-portalocker \
-python3dist(portalocker)"
+python3dist-portalocker"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -10,21 +10,19 @@ RPM_NAME = "klee-2.3+20230326-1.1.aarch64.rpm"
 RPM_HASH = "0aafac757cdcd28a0afe3643356183aaf85f94170edc26481bd4cb8483ec368171133f13be234d8e8f7301092b7b71385fea740a74fed8f269a7b4058f9e4832"
 
 RPROVIDES:${PN} += "klee \
-klee(aarch-64) \
-libkleeRuntest.so.1.0()(64bit)"
+libkleeRuntest.so.1.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.14()(64bit) \
-libLLVM.so.14(LLVM_14)(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libm.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libstp.so.2.3()(64bit) \
-libtcmalloc.so.4()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libLLVM.so.14 \
+libc.so.6 \
+libcap.so.2 \
+libm.so.6 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libstp.so.2.3 \
+libtcmalloc.so.4 \
+libz.so.1"
 
 inherit rpm

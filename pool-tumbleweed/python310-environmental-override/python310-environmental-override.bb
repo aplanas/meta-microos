@@ -10,10 +10,10 @@ RPM_HASH = "1c8482af67e58929b30d47c176eaa0bf6635e4d83fc3505aefe337d1ae47b63f9897
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-environmental-override \
-python3.10dist(environmental-override) \
+python3.10dist-environmental-override \
 python310-environmental-override \
-python3dist(environmental-override)"
+python3dist-environmental-override"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -19,13 +19,13 @@ RPM_HASH = "7443ad06e0c4c294638929dbfa5f0abf1968f086645563b5ee9f9a15a5e132cfaec5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sigal \
-python3.10dist(sigal) \
+python3.10dist-sigal \
 python310-sigal \
-python3dist(sigal)"
+python3dist-sigal"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-Markdown \
 python310-Pillow \

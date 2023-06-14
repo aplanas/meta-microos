@@ -56,11 +56,11 @@ RPM_NAME = "perl-Class-Accessor-0.51-1.20.noarch.rpm"
 RPM_HASH = "f687cf0dd9142ef030ab3f306305625f9d080d88a6cb53f49280461f91a146c2cd6bd49adae7235df0d2698651ff6aaa689c73e4c556394b1ece687d12d786b0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Accessor) \
-perl(Class::Accessor::Fast) \
-perl(Class::Accessor::Faster) \
+RPROVIDES:${PN} += "perl-Class--Accessor \
+perl-Class--Accessor--Fast \
+perl-Class--Accessor--Faster \
 perl-Class-Accessor"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

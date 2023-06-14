@@ -9,11 +9,11 @@ RPM_HASH = "51e037cf705a91c32d9732029ddef5b4d8e16aaf1ceadc05f5a33cd5c50febdab517
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-jaxrs-2.0-api \
-mvn(org.jboss.resteasy:jaxrs-api) \
-mvn(org.jboss.resteasy:jaxrs-api:pom:) \
-mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec) \
-mvn(org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:pom:) \
-osgi(org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.0_spec)"
+mvn-org.jboss.resteasy-jaxrs-api \
+mvn-org.jboss.resteasy-jaxrs-api-pom- \
+mvn-org.jboss.spec.javax.ws.rs-jboss-jaxrs-api-2.0-spec \
+mvn-org.jboss.spec.javax.ws.rs-jboss-jaxrs-api-2.0-spec-pom- \
+osgi-org.jboss.spec.javax.ws.rs.jboss-jaxrs-api-2.0-spec"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-indicsiyaqnumbers \
 noto-sans-indicsiyaqnumbers-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

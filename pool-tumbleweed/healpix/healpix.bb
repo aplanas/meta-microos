@@ -10,15 +10,14 @@ PV = "3.81"
 RPM_NAME = "healpix-3.81-1.7.aarch64.rpm"
 RPM_HASH = "d095e48eea2a534292cc96549da3514127d51ea6eb3e9f31d55e395c1a866baf4fb575bd694e1e1c5b35d447ef907d202b137b80a67dd5edf0bc08879f7f9584"
 
-RPROVIDES:${PN} += "healpix \
-healpix(aarch-64)"
+RPROVIDES:${PN} += "healpix"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libhealpix_cxx.so.3()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libhealpix-cxx.so.3 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

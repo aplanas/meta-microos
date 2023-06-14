@@ -20,9 +20,9 @@ RPM_NAME = "texlive-dvdcoll-2023.201.1.1asvn15878-53.1.noarch.rpm"
 RPM_HASH = "facf3d7e239b362febfc81f8dde89e3f7040fdf687dc9f02b92c19c71701d391ae91184fefd738afe219c25e3848784c985149834df3ffc4f9a7806a2759daa7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dcwrtbib.sty) \
-tex(dvdcoll.cls) \
-tex(pdfnotiz.sty) \
+RPROVIDES:${PN} += "tex-dcwrtbib.sty \
+tex-dvdcoll.cls \
+tex-pdfnotiz.sty \
 texlive-dvdcoll"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -31,18 +31,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(afterpage.sty) \
-tex(array.sty) \
-tex(booktabs.sty) \
-tex(hyperref.sty) \
-tex(ifpdf.sty) \
-tex(ifthen.sty) \
-tex(marginnote.sty) \
-tex(multicol.sty) \
-tex(ragged2e.sty) \
-tex(scrreprt.cls) \
-tex(tabularx.sty) \
-tex(xkeyval.sty) \
+tex-afterpage.sty \
+tex-array.sty \
+tex-booktabs.sty \
+tex-hyperref.sty \
+tex-ifpdf.sty \
+tex-ifthen.sty \
+tex-marginnote.sty \
+tex-multicol.sty \
+tex-ragged2e.sty \
+tex-scrreprt.cls \
+tex-tabularx.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

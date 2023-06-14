@@ -9,7 +9,7 @@ RPM_HASH = "a38f3957c994d5a6a7848dea34dedce79d990fec317a1457d89f4254049298c8e3ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \
-locale(texlive-jpnedumathsymbols-doc:en \
+locale(texlive-jpnedumathsymbols-doc-en \
 texlive-jpnedumathsymbols-doc"
 
 RDEPENDS:${PN} += ""

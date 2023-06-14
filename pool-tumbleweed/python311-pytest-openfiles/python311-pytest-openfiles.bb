@@ -10,11 +10,11 @@ RPM_NAME = "python311-pytest-openfiles-0.5.0-1.13.noarch.rpm"
 RPM_HASH = "e7bd4005175d1c0704a5517bff902ac43b537bdd9d0f27c4fd40df14db0c3925551cdf986094592094b417e53677cf33da6988532e8841f3b09d0fbc2cf391ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pytest-openfiles) \
+RPROVIDES:${PN} += "python3.11dist-pytest-openfiles \
 python311-pytest-openfiles \
-python3dist(pytest-openfiles)"
+python3dist-pytest-openfiles"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-psutil \
 python311-pytest"
 

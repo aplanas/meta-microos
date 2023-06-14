@@ -11,12 +11,11 @@ RPM_HASH = "d33630eb8e669223e0ca1531240ebeb81c025e8b102c63835c2f301623c1499843ed
 
 RPROVIDES:${PN} += "/bin/ksh \
 mksh \
-mksh(aarch-64) \
 pdksh"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 update-alternatives"
 
 inherit rpm

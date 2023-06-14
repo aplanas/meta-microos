@@ -17,15 +17,14 @@ PV = "2.20.1"
 RPM_NAME = "fakechroot-2.20.1-2.8.aarch64.rpm"
 RPM_HASH = "922eda2b99c690e278af99782fe48a0b4f708eb85896534714cd3acf067fe41ab0b8e53bc6562af92119205dca0977ddb3ae5c1946f03c1ee8232df975ed9000"
 
-RPROVIDES:${PN} += "config(fakechroot) \
+RPROVIDES:${PN} += "config-fakechroot \
 fakechroot \
-fakechroot(aarch-64) \
-libfakechroot.so()(64bit)"
+libfakechroot.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

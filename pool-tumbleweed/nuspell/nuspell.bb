@@ -19,15 +19,14 @@ PV = "5.1.2"
 RPM_NAME = "nuspell-5.1.2-1.5.aarch64.rpm"
 RPM_HASH = "e2c214a571a200030de8606c16d57154ec3a4f32aae8050ef01ad21eab6c19f976dff4d51d9a363f7dc86c9b1a65ef8f69513cc89fac6718dbf28041810714d1"
 
-RPROVIDES:${PN} += "nuspell \
-nuspell(aarch-64)"
+RPROVIDES:${PN} += "nuspell"
 
 RDEPENDS:${PN} += "hunspell \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicuuc.so.73()(64bit) \
-libnuspell.so.5()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicuuc.so.73 \
+libnuspell.so.5 \
+libstdc++.so.6"
 
 inherit rpm

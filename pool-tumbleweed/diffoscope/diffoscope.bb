@@ -24,12 +24,12 @@ RPM_HASH = "5027a00fd804274a3f673e329886967f01bd15fdeed0220199512e5fc32dd65c0267
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffoscope \
-python3.10dist(diffoscope) \
-python3dist(diffoscope)"
+python3.10dist-diffoscope \
+python3dist-diffoscope"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-curses \
 python3-libarchive-c \
 python3-python-magic \

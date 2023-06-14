@@ -29,33 +29,33 @@ RPM_NAME = "perl-XML-Feed-0.63-1.9.noarch.rpm"
 RPM_HASH = "9c99c805e93002a6915974ebe14bf457134b1a193d090ed8a52cbeb12493175fb2d8a70f07c5f5835bd197c9f0363361e9d8c29f012bef69b0f603b6ef016fd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::Feed) \
-perl(XML::Feed::Content) \
-perl(XML::Feed::Enclosure) \
-perl(XML::Feed::Entry) \
-perl(XML::Feed::Entry::Format::Atom) \
-perl(XML::Feed::Entry::Format::RSS) \
-perl(XML::Feed::Format::Atom) \
-perl(XML::Feed::Format::RSS) \
-perl(XML::Feed::Util) \
+RPROVIDES:${PN} += "perl-XML--Feed \
+perl-XML--Feed--Content \
+perl-XML--Feed--Enclosure \
+perl-XML--Feed--Entry \
+perl-XML--Feed--Entry--Format--Atom \
+perl-XML--Feed--Entry--Format--RSS \
+perl-XML--Feed--Format--Atom \
+perl-XML--Feed--Format--RSS \
+perl-XML--Feed--Util \
 perl-XML-Feed"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::ErrorHandler) \
-perl(DateTime) \
-perl(DateTime::Format::Flexible) \
-perl(DateTime::Format::ISO8601) \
-perl(DateTime::Format::Mail) \
-perl(DateTime::Format::Natural) \
-perl(DateTime::Format::W3CDTF) \
-perl(Feed::Find) \
-perl(HTML::Entities) \
-perl(HTML::TokeParser) \
-perl(LWP::UserAgent) \
-perl(Module::Pluggable) \
-perl(URI::Fetch) \
-perl(XML::Atom) \
-perl(XML::LibXML) \
-perl(XML::RSS)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--ErrorHandler \
+perl-DateTime \
+perl-DateTime--Format--Flexible \
+perl-DateTime--Format--ISO8601 \
+perl-DateTime--Format--Mail \
+perl-DateTime--Format--Natural \
+perl-DateTime--Format--W3CDTF \
+perl-Feed--Find \
+perl-HTML--Entities \
+perl-HTML--TokeParser \
+perl-LWP--UserAgent \
+perl-Module--Pluggable \
+perl-URI--Fetch \
+perl-XML--Atom \
+perl-XML--LibXML \
+perl-XML--RSS"
 
 inherit rpm

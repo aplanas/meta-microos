@@ -18,11 +18,11 @@ RPM_HASH = "1e36cdb02174069942d48cfe0614ccb0473f1dce2127884c556bf2d4f3ae5c8558af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-graphviz \
-python3.10dist(graphviz) \
+python3.10dist-graphviz \
 python310-graphviz \
-python3dist(graphviz)"
+python3dist-graphviz"
 
 RDEPENDS:${PN} += "graphviz \
-python(abi)"
+python-abi"
 
 inherit rpm

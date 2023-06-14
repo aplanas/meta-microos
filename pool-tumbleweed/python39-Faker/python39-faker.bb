@@ -11,13 +11,13 @@ RPM_HASH = "35a06323b658b4546ecbbd9f5c70d4067978952605201adee7351bc161222c6805eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fake-factory \
-python3.9dist(faker) \
+python3.9dist-faker \
 python39-Faker \
-python3dist(faker)"
+python3dist-faker"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-python-dateutil \
 python39-text-unidecode \
 update-alternatives"

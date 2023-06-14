@@ -9,15 +9,14 @@ PV = "2.5"
 RPM_NAME = "honggfuzz-2.5-2.3.aarch64.rpm"
 RPM_HASH = "50275fde466f72e24ee279f1c4ea24b1a2eeffaf587f75229d4f416a0115a4b9038067451381d8f6953fc9a8a7a0f1d10b8ac191dd286c3800fe115ff04f655e"
 
-RPROVIDES:${PN} += "honggfuzz \
-honggfuzz(aarch-64)"
+RPROVIDES:${PN} += "honggfuzz"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsframe.so.0()(64bit) \
-libunwind-aarch64.so.8()(64bit) \
-libunwind-ptrace.so.0()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsframe.so.0 \
+libunwind-aarch64.so.8 \
+libunwind-ptrace.so.0 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

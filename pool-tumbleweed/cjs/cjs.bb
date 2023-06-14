@@ -8,16 +8,14 @@ PV = "5.0.0"
 RPM_NAME = "cjs-5.0.0-1.10.aarch64.rpm"
 RPM_HASH = "6b10f01bf9199767e5ca3c092828fc71e7ec27be22b6cfecda75c2ce969f2f218b8d5963dba16178f0c95b77967eba26195fe91a16c9a1dd95685baa0d9e83d5"
 
-RPROVIDES:${PN} += "cjs \
-cjs(aarch-64)"
+RPROVIDES:${PN} += "cjs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcjs.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libmozjs-78.so.0()(64bit) \
-libmozjs-78.so.0(mozjs_78)(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcjs.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libmozjs-78.so.0"
 
 inherit rpm

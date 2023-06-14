@@ -10,7 +10,7 @@ RPM_HASH = "9518f15da37b41b5d9b1cc7a93129be1631a1bd6c04361e3f49adb3eac9155de3a1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mobile-broadband-provider-info \
-pkgconfig(mobile-broadband-provider-info)"
+pkgconfig-mobile-broadband-provider-info"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

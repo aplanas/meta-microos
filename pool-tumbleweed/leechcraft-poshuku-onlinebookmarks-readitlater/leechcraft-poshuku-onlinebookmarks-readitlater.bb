@@ -9,24 +9,19 @@ RPM_NAME = "leechcraft-poshuku-onlinebookmarks-readitlater-0.6.70+git.14794.g337
 RPM_HASH = "b4fb2bd0dc3ccdacfd747deab58619eb644eb7ceb9212596ed2f0e9c2675b7d85dcd979028bfe5fad6bf9b55ed46357efaaff134f7f33a0897ef94fb76140f9b"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-onlinebookmarks-readitlater \
-leechcraft-poshuku-onlinebookmarks-readitlater(aarch-64) \
-libleechcraft_poshuku_onlinebookmarks_readitlater.so()(64bit)"
+libleechcraft-poshuku-onlinebookmarks-readitlater.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-poshuku-onlinebookmarks \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sll-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-sll-qt5.so.0.6.75.1 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libstdc++.so.6"
 
 inherit rpm

@@ -9,7 +9,7 @@ RPM_NAME = "texlive-beamertheme-light-2023.201.1.0svn49867-53.1.noarch.rpm"
 RPM_HASH = "a1fa227c072bd9eb1fe82f3882e0efb22a4745d87000ab3bdd9f7f29666c2ba969cfe9bd5f2ad6af31b66d886d9329d6cab570c13cab7673e0506281c3c1e3e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamertheme-light.sty) \
+RPROVIDES:${PN} += "tex-beamertheme-light.sty \
 texlive-beamertheme-light"
 
 RDEPENDS:${PN} += "/bin/sh \

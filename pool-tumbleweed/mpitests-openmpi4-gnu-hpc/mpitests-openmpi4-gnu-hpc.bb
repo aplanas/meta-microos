@@ -7,15 +7,14 @@ PV = "3.2"
 RPM_NAME = "mpitests-openmpi4-gnu-hpc-3.2-11.2.aarch64.rpm"
 RPM_HASH = "918c0fcb9845fc663bc6478d86131f8be3063d0347338b2f589136764eb28751a679c2ffa524ef5f302ae36b1336c4a8f047863d896de59574e18071602c8804"
 
-RPROVIDES:${PN} += "mpitests-openmpi4-gnu-hpc \
-mpitests-openmpi4-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "mpitests-openmpi4-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpi.so.40()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpi.so.40 \
+libstdc++.so.6 \
 mpitests \
 openmpi4-gnu-hpc"
 

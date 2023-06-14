@@ -23,14 +23,13 @@ PV = "1.42.0"
 RPM_NAME = "gammu-smsd-1.42.0-4.6.aarch64.rpm"
 RPM_HASH = "044f9ce6abc8ba006ed40cbfec618066b894c5b0a70c72778dfd5a37737f361aae057f991187339355fbe77e11544b488d580f91500dfbdfb92dcfbed0ee0f09"
 
-RPROVIDES:${PN} += "config(gammu-smsd) \
-gammu-smsd \
-gammu-smsd(aarch-64)"
+RPROVIDES:${PN} += "config-gammu-smsd \
+gammu-smsd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libGammu.so.8()(64bit) \
-libc.so.6()(64bit) \
-libgsmsd.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libGammu.so.8 \
+libc.so.6 \
+libgsmsd.so.8"
 
 inherit rpm

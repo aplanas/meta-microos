@@ -9,23 +9,18 @@ RPM_HASH = "7a68c90b152f3933f135d60bcd3f6c6b8e987d917d339f3236216b06cee4c26aa9c4
 
 RPROVIDES:${PN} += "fcitx-qt6 \
 fcitx5-qt6 \
-fcitx5-qt6(aarch-64) \
-libfcitx5platforminputcontextplugin.so()(64bit)"
+libfcitx5platforminputcontextplugin.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libFcitx5Qt6DBusAddons.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6DBus.so.6()(64bit) \
-libQt6DBus.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libxcb.so.1()(64bit) \
-libxkbcommon.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFcitx5Qt6DBusAddons.so.1 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libxcb.so.1 \
+libxkbcommon.so.0"
 
 inherit rpm

@@ -8,11 +8,10 @@ PV = "5.106.0"
 RPM_NAME = "kholidays-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "d7f0eb823179c03e9d10acca558e03999545087606d7293c69cc932e44ed2f137404fd86ab0f7e897a257b230bd035c0eaac7742ea806cb8500f5b079bbc515f"
 
-RPROVIDES:${PN} += "cmake(KF5Holidays) \
-kholidays-devel \
-kholidays-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5Holidays \
+kholidays-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5Core) \
+RDEPENDS:${PN} += "cmake-Qt5Core \
 libKF5Holidays5"
 
 inherit rpm

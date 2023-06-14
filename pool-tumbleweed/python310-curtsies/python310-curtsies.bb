@@ -10,11 +10,11 @@ RPM_HASH = "ac4f7e5c0fe9b52cbbecf8986a49b420da4cd904a5a2d138fc94acaa037d4eaad076
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-curtsies \
-python3.10dist(curtsies) \
+python3.10dist-curtsies \
 python310-curtsies \
-python3dist(curtsies)"
+python3dist-curtsies"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-blessed \
 python310-cwcwidth"
 

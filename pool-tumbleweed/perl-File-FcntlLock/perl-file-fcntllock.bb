@@ -34,17 +34,16 @@ PV = "0.22"
 RPM_NAME = "perl-File-FcntlLock-0.22-1.37.aarch64.rpm"
 RPM_HASH = "0303b95171d990dc8e1077583e3237d304ff86b12cf31cf71a0159a9a25e744d3b13c9d4a0f6605402fc4b0ae3aa358bc01880e9cd01375f175c3b935d84bcf4"
 
-RPROVIDES:${PN} += "perl(File::FcntlLock) \
-perl(File::FcntlLock::Core) \
-perl(File::FcntlLock::Errors) \
-perl(File::FcntlLock::Inline) \
-perl(File::FcntlLock::Pure) \
-perl(File::FcntlLock::XS) \
-perl-File-FcntlLock \
-perl-File-FcntlLock(aarch-64)"
+RPROVIDES:${PN} += "perl-File--FcntlLock \
+perl-File--FcntlLock--Core \
+perl-File--FcntlLock--Errors \
+perl-File--FcntlLock--Inline \
+perl-File--FcntlLock--Pure \
+perl-File--FcntlLock--XS \
+perl-File-FcntlLock"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

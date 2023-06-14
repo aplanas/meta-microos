@@ -18,13 +18,12 @@ PV = "1.1"
 RPM_NAME = "libspnav0-1.1-1.2.aarch64.rpm"
 RPM_HASH = "ac7ed4d774a7e0ddf0050de23542063cf16e788690a7a91184247e380dae51fff7261d4866fe6e64fac9cfc11d721d8dabace3fb375870e459e9d5e7784f146d"
 
-RPROVIDES:${PN} += "libspnav.so.0()(64bit) \
-libspnav0 \
-libspnav0(aarch-64)"
+RPROVIDES:${PN} += "libspnav.so.0 \
+libspnav0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6"
 
 inherit rpm

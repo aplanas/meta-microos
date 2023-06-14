@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyBarcode \
 python3-python-barcode \
-python3.10dist(python-barcode) \
+python3.10dist-python-barcode \
 python310-pyBarcode \
 python310-python-barcode \
-python3dist(python-barcode)"
+python3dist-python-barcode"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 dejavu-fonts \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

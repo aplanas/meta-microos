@@ -19,7 +19,7 @@ RPM_NAME = "texlive-geometry-2023.201.5.9svn61719-52.1.noarch.rpm"
 RPM_HASH = "62f68069e9b0990819ec09bb09a95ccebbd06566e30139bb54d946c12b94bd8ec2772d70b4917840fddbdccbfbd8ccf7d66c6911c6fae7c0f9612833d245247c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(geometry.sty) \
+RPROVIDES:${PN} += "tex-geometry.sty \
 texlive-geometry"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,9 +28,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(atbegshi.sty) \
-tex(ifvtex.sty) \
-tex(keyval.sty) \
+tex-atbegshi.sty \
+tex-ifvtex.sty \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-graphics \

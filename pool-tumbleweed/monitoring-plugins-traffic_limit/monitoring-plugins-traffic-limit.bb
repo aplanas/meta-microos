@@ -13,13 +13,13 @@ RPM_NAME = "monitoring-plugins-traffic_limit-0.5-1.10.noarch.rpm"
 RPM_HASH = "01b280a1cae0cb1ada033f0bce62aa8160b156961b0af723d79849c045c942fe4d1537cd1ccef0da81e60b31ea05b39206f37359747596b343e07fb337e92d31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "monitoring-plugins-traffic_limit \
-nagios-plugins-traffic_limit"
+RPROVIDES:${PN} += "monitoring-plugins-traffic-limit \
+nagios-plugins-traffic-limit"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 gawk \
 grep \
-perl(Monitoring::Plugin) \
+perl-Monitoring--Plugin \
 vnstat"
 
 inherit rpm

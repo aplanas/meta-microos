@@ -14,11 +14,11 @@ RPM_HASH = "cddbe2a40d892fe11b541f3cbda9798a3aaf3918bb2131ab782d334e672c238d2e98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiounittest \
-python3.10dist(aiounittest) \
+python3.10dist-aiounittest \
 python310-aiounittest \
-python3dist(aiounittest)"
+python3dist-aiounittest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-wrapt"
 
 inherit rpm

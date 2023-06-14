@@ -12,14 +12,14 @@ RPM_HASH = "4e9aa3d34c709e13b06fb0a9731092f227c1725ca224fb4c204f3dbe194a78cd3b63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bqplot \
-python3-jupyter_bqplot \
-python3.10dist(bqplot) \
+python3-jupyter-bqplot \
+python3.10dist-bqplot \
 python310-bqplot \
-python310-jupyter_bqplot \
-python3dist(bqplot)"
+python310-jupyter-bqplot \
+python3dist-bqplot"
 
 RDEPENDS:${PN} += "jupyter-bqplot-notebook \
-python(abi) \
+python-abi \
 python310-ipywidgets \
 python310-numpy \
 python310-pandas \

@@ -20,11 +20,11 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(HTML::FormatText) \
-perl(HTML::TreeBuilder) \
-perl(WWW::Mechanize) \
-perl(strict) \
-perl(warnings) \
+perl-HTML--FormatText \
+perl-HTML--TreeBuilder \
+perl-WWW--Mechanize \
+perl-strict \
+perl-warnings \
 sed \
 texlive \
 texlive-ctanupload-bin \

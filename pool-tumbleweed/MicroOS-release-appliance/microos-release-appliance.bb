@@ -9,10 +9,9 @@ RPM_NAME = "MicroOS-release-appliance-20230604-1684.1.aarch64.rpm"
 RPM_HASH = "61ce485692a5ef68b8a6e2d6ae6f3eefa0a1d6720c551cb15e6154aec67efb1d7d403695ea4e52e7c1179984775d5c01cb1ab1e3795c6a65d4434fb6bc730a42"
 
 RPROVIDES:${PN} += "MicroOS-release-appliance \
-MicroOS-release-appliance(aarch-64) \
-flavor(appliance) \
-product_flavor() \
-product_flavor(MicroOS)"
+flavor-appliance \
+product-flavor- \
+product-flavor-MicroOS"
 
 RDEPENDS:${PN} += ""
 

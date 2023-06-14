@@ -22,8 +22,7 @@ PV = "1.24.3+k3s1"
 RPM_NAME = "k3s-install-1.24.3+k3s1-1.3.aarch64.rpm"
 RPM_HASH = "86d484ccdaaddac4670c884b53d57220c1b9d658d2e536e7537f9a86b3140b5ab37c3d8126add01be34495f0965fb39e6c998b0fbd5e8ed48b9543943ef4c3ce"
 
-RPROVIDES:${PN} += "k3s-install \
-k3s-install(aarch-64)"
+RPROVIDES:${PN} += "k3s-install"
 
 RDEPENDS:${PN} += "/bin/sh \
 iptables \

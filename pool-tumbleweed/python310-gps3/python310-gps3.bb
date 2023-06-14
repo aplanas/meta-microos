@@ -9,10 +9,10 @@ RPM_HASH = "44ec5dbe8a114ceeb16c32c821b496d66cd989e98d735a8709a81b133e63652cba42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gps3 \
-python3.10dist(gps3) \
+python3.10dist-gps3 \
 python310-gps3 \
-python3dist(gps3)"
+python3dist-gps3"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

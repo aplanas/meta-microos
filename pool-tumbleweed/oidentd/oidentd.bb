@@ -13,13 +13,12 @@ PV = "3.1.0"
 RPM_NAME = "oidentd-3.1.0-2.1.aarch64.rpm"
 RPM_HASH = "f150755a9fab5caebef0225e879a5727662741355fc4e2483a14360569ba63327c0804535f26e180bea33a94b588c95548224f6f9060b6270e6a5dd0e321ae1f"
 
-RPROVIDES:${PN} += "config(oidentd) \
-oidentd \
-oidentd(aarch-64)"
+RPROVIDES:${PN} += "config-oidentd \
+oidentd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 systemd"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPM_HASH = "29cad3b075a579473cdd5485bd3b54f702938142419dd31fb984e5b87c0fc642bb64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-completion \
-config(bash-completion)"
+config-bash-completion"
 
 RDEPENDS:${PN} += "bash"
 

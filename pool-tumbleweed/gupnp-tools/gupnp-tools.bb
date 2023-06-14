@@ -28,26 +28,21 @@ PV = "0.12.0"
 RPM_NAME = "gupnp-tools-0.12.0-1.3.aarch64.rpm"
 RPM_HASH = "050e573e9907d758f6a8629d1591e99561aef3fe5062411b1b4f550137210e58778ceb8cc0058d4f6e2f163fd08f5c56410e7c884842c13809af55420e8b9258"
 
-RPROVIDES:${PN} += "application() \
-application(gupnp-av-cp.desktop) \
-application(gupnp-network-light.desktop) \
-application(gupnp-universal-cp.desktop) \
-gupnp-tools \
-gupnp-tools(aarch-64)"
+RPROVIDES:${PN} += "gupnp-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgssdp-1.6.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtksourceview-4.so.0()(64bit) \
-libgupnp-1.6.so.0()(64bit) \
-libgupnp-av-1.0.so.3()(64bit) \
-libsoup-3.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgssdp-1.6.so.0 \
+libgtk-3.so.0 \
+libgtksourceview-4.so.0 \
+libgupnp-1.6.so.0 \
+libgupnp-av-1.0.so.3 \
+libsoup-3.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_NAME = "python39-adal-1.2.7-1.9.noarch.rpm"
 RPM_HASH = "178caf55d9de4f1adfec383b0be6d24d104f15cbdddd9a4ef138214451aeb1cdf2d50763f944779fd6430ec38d53d6e0de52b2af5c4993a0a02c09337c977e8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(adal) \
+RPROVIDES:${PN} += "python3.9dist-adal \
 python39-adal \
-python3dist(adal)"
+python3dist-adal"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-PyJWT \
 python39-cryptography \
 python39-python-dateutil \

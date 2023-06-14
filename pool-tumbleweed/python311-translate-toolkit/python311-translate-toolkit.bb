@@ -24,15 +24,15 @@ RPM_NAME = "python311-translate-toolkit-3.8.6-1.2.noarch.rpm"
 RPM_HASH = "f57eb3bd00fd1fd7fcf3771b8c7679c2e0cc68b806a3510965b8e0d7e437db3aa258a8f2cabc773a5fa707c4b36f964454e1f8f1ff05fe1e5566dbf48552780b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(translate-toolkit) \
+RPROVIDES:${PN} += "python3.11dist-translate-toolkit \
 python311-translate-toolkit \
-python3dist(translate-toolkit)"
+python3dist-translate-toolkit"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.11 \
 gettext-runtime \
-python(abi) \
+python-abi \
 python311 \
 python311-lxml \
 python311-setuptools \

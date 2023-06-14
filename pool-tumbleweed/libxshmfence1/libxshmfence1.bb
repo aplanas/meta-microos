@@ -11,12 +11,11 @@ PV = "1.3.2"
 RPM_NAME = "libxshmfence1-1.3.2-1.2.aarch64.rpm"
 RPM_HASH = "8c943d3476fb002b6a1aadccc5a27fe2c074226d7b3f0e0ec2aed4137fd1f10ae5964a2095fa5c8b41ded8b6eaba441d587cf641ec9a1f7cb864799a9f5d9fdd"
 
-RPROVIDES:${PN} += "libxshmfence.so.1()(64bit) \
-libxshmfence1 \
-libxshmfence1(aarch-64)"
+RPROVIDES:${PN} += "libxshmfence.so.1 \
+libxshmfence1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

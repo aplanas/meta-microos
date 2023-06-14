@@ -24,8 +24,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jFormatString \
 jformatstring \
-mvn(com.google.code.findbugs:jFormatString) \
-mvn(com.google.code.findbugs:jFormatString:pom:)"
+mvn-com.google.code.findbugs-jFormatString \
+mvn-com.google.code.findbugs-jFormatString-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

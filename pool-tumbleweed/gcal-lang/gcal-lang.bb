@@ -10,19 +10,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcal-lang \
 gcal-lang-all \
-locale(gcal:ca) \
-locale(gcal:da) \
-locale(gcal:de) \
-locale(gcal:es) \
-locale(gcal:fr) \
-locale(gcal:it) \
-locale(gcal:lt) \
-locale(gcal:nl) \
-locale(gcal:pl) \
-locale(gcal:ru) \
-locale(gcal:sv) \
-locale(gcal:tr) \
-locale(gcal:zh_CN)"
+locale-gcal-ca \
+locale-gcal-da \
+locale-gcal-de \
+locale-gcal-es \
+locale-gcal-fr \
+locale-gcal-it \
+locale-gcal-lt \
+locale-gcal-nl \
+locale-gcal-pl \
+locale-gcal-ru \
+locale-gcal-sv \
+locale-gcal-tr \
+locale-gcal-zh-CN"
 
 RDEPENDS:${PN} += "gcal"
 

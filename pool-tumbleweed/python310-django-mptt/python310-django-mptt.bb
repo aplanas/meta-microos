@@ -9,11 +9,11 @@ RPM_HASH = "7ee67016e9e22af657eda3ef4600e451d61b94b1924ea72ac95c7aa624a22ced7424
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-mptt \
-python3.10dist(django-mptt) \
+python3.10dist-django-mptt \
 python310-django-mptt \
-python3dist(django-mptt)"
+python3dist-django-mptt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-js-asset"
 

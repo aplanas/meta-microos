@@ -10,11 +10,11 @@ RPM_NAME = "python39-django-auth-ldap-4.0.0-1.12.noarch.rpm"
 RPM_HASH = "95f67ffc9d8713a542e407f1d6ea2245637975e3450b2500c8ae8a41c33245d0663276b3ece2f5ee4bea6dae5b0cf0c176aa689780f04db02520d2666d2ff8ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(django-auth-ldap) \
+RPROVIDES:${PN} += "python3.9dist-django-auth-ldap \
 python39-django-auth-ldap \
-python3dist(django-auth-ldap)"
+python3dist-django-auth-ldap"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Django \
 python39-ldap"
 

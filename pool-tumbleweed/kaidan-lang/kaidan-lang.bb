@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaidan-lang \
 kaidan-lang-all \
-locale(kaidan:ar) \
-locale(kaidan:ca) \
-locale(kaidan:ca@valencia) \
-locale(kaidan:cs) \
-locale(kaidan:de) \
-locale(kaidan:el) \
-locale(kaidan:en_GB) \
-locale(kaidan:es) \
-locale(kaidan:eu) \
-locale(kaidan:fi) \
-locale(kaidan:fr) \
-locale(kaidan:gl) \
-locale(kaidan:he) \
-locale(kaidan:hu) \
-locale(kaidan:it) \
-locale(kaidan:ka) \
-locale(kaidan:ko) \
-locale(kaidan:ms) \
-locale(kaidan:nb) \
-locale(kaidan:nl) \
-locale(kaidan:pa) \
-locale(kaidan:pl) \
-locale(kaidan:pt) \
-locale(kaidan:pt_BR) \
-locale(kaidan:ru) \
-locale(kaidan:sk) \
-locale(kaidan:sl) \
-locale(kaidan:sv) \
-locale(kaidan:tr) \
-locale(kaidan:uk)"
+locale-kaidan-ar \
+locale-kaidan-ca \
+locale-kaidan-ca@valencia \
+locale-kaidan-cs \
+locale-kaidan-de \
+locale-kaidan-el \
+locale-kaidan-en-GB \
+locale-kaidan-es \
+locale-kaidan-eu \
+locale-kaidan-fi \
+locale-kaidan-fr \
+locale-kaidan-gl \
+locale-kaidan-he \
+locale-kaidan-hu \
+locale-kaidan-it \
+locale-kaidan-ka \
+locale-kaidan-ko \
+locale-kaidan-ms \
+locale-kaidan-nb \
+locale-kaidan-nl \
+locale-kaidan-pa \
+locale-kaidan-pl \
+locale-kaidan-pt \
+locale-kaidan-pt-BR \
+locale-kaidan-ru \
+locale-kaidan-sk \
+locale-kaidan-sl \
+locale-kaidan-sv \
+locale-kaidan-tr \
+locale-kaidan-uk"
 
 RDEPENDS:${PN} += "kaidan"
 

@@ -13,11 +13,11 @@ RPM_HASH = "beb30ff6782ef5e029fc973d9a5d0f83ab46a7bc0e9098d3e8a8117856a6337805c7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-amqpstorm \
-python3.10dist(amqpstorm) \
+python3.10dist-amqpstorm \
 python310-amqpstorm \
-python3dist(amqpstorm)"
+python3dist-amqpstorm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pamqp \
 python310-requests"
 

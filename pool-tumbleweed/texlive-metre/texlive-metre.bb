@@ -20,7 +20,7 @@ RPM_NAME = "texlive-metre-2023.201.1.0svn18489-54.1.noarch.rpm"
 RPM_HASH = "e5db3bb1b0c417b86324a52c4bcb9ffc146e324c95b14348c1698b679e20cb7c135aed6cf4f49075e6838c2dab4c6992c1de2adf59a87c8db522361f77f423d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(metre.sty) \
+RPROVIDES:${PN} += "tex-metre.sty \
 texlive-metre"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,7 +29,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(relsize.sty) \
+tex-relsize.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

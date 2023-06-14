@@ -9,59 +9,59 @@ RPM_NAME = "geronimo-j2ee-1_4-apis-1.2-36.11.noarch.rpm"
 RPM_HASH = "20a6e08b70c9e6081f83fb20a8fb9031b6f7c16306528417480aa621b901c5008c121831070e457889d969dcaae0a3d1b954be39ef0490ffc32a9a913a9c6dd4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "commonj_1_1_apis \
-commonj_apis \
-corba_2_3_apis \
-corba_apis \
+RPROVIDES:${PN} += "commonj-1-1-apis \
+commonj-apis \
+corba-2-3-apis \
+corba-apis \
 ejb \
-ejb_2_1_api \
-ejb_api \
-geronimo-corba-2_3-apis \
-geronimo-j2ee-1_4-apis \
-geronimo-qname-1_1-api \
+ejb-2-1-api \
+ejb-api \
+geronimo-corba-2-3-apis \
+geronimo-j2ee-1-4-apis \
+geronimo-qname-1-1-api \
 j2ee-connector \
+j2ee-connector-1-5-api \
+j2ee-connector-api \
 j2ee-deployment \
+j2ee-deployment-1-1-api \
+j2ee-deployment-api \
 j2ee-management \
-j2ee_connector_1_5_api \
-j2ee_connector_api \
-j2ee_deployment_1_1_api \
-j2ee_deployment_api \
-j2ee_management_1_0_api \
-j2ee_management_api \
+j2ee-management-1-0-api \
+j2ee-management-api \
 jacc \
-jacc_1_0_api \
-jacc_api \
+jacc-1-0-api \
+jacc-api \
 jaf \
-jaf_1_0_2_api \
-jaf_api \
+jaf-1-0-2-api \
+jaf-api \
 javamail \
-javamail_1_3_1_api \
-javamail_api \
+javamail-1-3-1-api \
+javamail-api \
 jaxr \
-jaxr_1_0_api \
-jaxr_api \
+jaxr-1-0-api \
+jaxr-api \
 jaxrpc \
-jaxrpc_1_1_api \
-jaxrpc_api \
+jaxrpc-1-1-api \
+jaxrpc-api \
 jms \
-jms_1_1_api \
-jms_api \
+jms-1-1-api \
+jms-api \
 jsp \
-jsp_2_0_api \
-jsp_api \
+jsp-2-0-api \
+jsp-api \
 jta \
-jta_1_0_1B_api \
-jta_api \
-mvn(org.apache.geronimo.specs:geronimo-j2ee_1.4_spec) \
-mvn(org.apache.geronimo.specs:geronimo-j2ee_1.4_spec:pom:) \
-qname_1_1_api \
-qname_api \
+jta-1-0-1B-api \
+jta-api \
+mvn-org.apache.geronimo.specs-geronimo-j2ee-1.4-spec \
+mvn-org.apache.geronimo.specs-geronimo-j2ee-1.4-spec-pom- \
+qname-1-1-api \
+qname-api \
 saaj \
-saaj_1_1_api \
-saaj_api \
+saaj-1-1-api \
+saaj-api \
 servlet \
-servlet_2_4_api \
-servlet_api"
+servlet-2-4-api \
+servlet-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \

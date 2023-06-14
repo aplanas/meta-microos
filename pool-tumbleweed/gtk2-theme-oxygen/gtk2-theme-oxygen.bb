@@ -15,19 +15,18 @@ RPM_NAME = "gtk2-theme-oxygen-1.4.6-5.19.aarch64.rpm"
 RPM_HASH = "bbbcd2eb72ab7dd6ac55483ef16c9c2d080c6d392825caa4084a879571d7390e39404717037c496cb73babbee3310ed7f19164ec39a9f3b21f10fc15857de9be"
 
 RPROVIDES:${PN} += "gtk2-theme-oxygen \
-gtk2-theme-oxygen(aarch-64) \
 oxygen-gtk2"
 
 RDEPENDS:${PN} += "gtk2-engine-oxygen \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libpango-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

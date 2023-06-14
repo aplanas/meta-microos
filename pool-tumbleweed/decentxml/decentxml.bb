@@ -16,8 +16,8 @@ RPM_HASH = "e5028cc9d4e01c299f0f08deeff7400934b55dc4f45ed7e7a43ecdc738fb01a7c7a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "decentxml \
-mvn(de.pdark:decentxml) \
-mvn(de.pdark:decentxml:pom:)"
+mvn-de.pdark-decentxml \
+mvn-de.pdark-decentxml-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

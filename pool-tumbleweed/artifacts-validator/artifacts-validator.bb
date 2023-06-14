@@ -12,11 +12,11 @@ RPM_HASH = "8528563fa082930db36d6751e817c7c2a75687d9e5309a692c107a1e2a7e93da2929
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artifacts-validator \
-python3.10dist(artifacts) \
-python3dist(artifacts)"
+python3.10dist-artifacts \
+python3dist-artifacts"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 artifacts \
-python(abi)"
+python-abi"
 
 inherit rpm

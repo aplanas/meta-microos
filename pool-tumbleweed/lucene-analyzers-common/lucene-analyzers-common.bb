@@ -11,13 +11,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-analysis \
 lucene-analyzers-common \
-mvn(org.apache.lucene:lucene-analyzers-common) \
-mvn(org.apache.lucene:lucene-analyzers-common:pom:) \
-osgi(org.apache.lucene.analyzers-common)"
+mvn-org.apache.lucene-lucene-analyzers-common \
+mvn-org.apache.lucene-lucene-analyzers-common-pom- \
+osgi-org.apache.lucene.analyzers-common"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.lucene:lucene-core) \
-osgi(org.apache.lucene.core)"
+mvn-org.apache.lucene-lucene-core \
+osgi-org.apache.lucene.core"
 
 inherit rpm

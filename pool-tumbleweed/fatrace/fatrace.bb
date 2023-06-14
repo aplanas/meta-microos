@@ -16,11 +16,10 @@ PV = "0.17.0"
 RPM_NAME = "fatrace-0.17.0-1.2.aarch64.rpm"
 RPM_HASH = "d2d1538b3ea2fecc556ab685b94b8865cc03afeb170439c17580fc34e49d7ebaae8503324df6d0458ae924a975d488dd1729f27775917def351c6c55ed0ff062"
 
-RPROVIDES:${PN} += "fatrace \
-fatrace(aarch-64)"
+RPROVIDES:${PN} += "fatrace"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -15,16 +15,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meson \
 meson-gui \
-python3.10dist(meson) \
-python3dist(meson) \
-rpm_macro(meson) \
-rpm_macro(meson_build) \
-rpm_macro(meson_install) \
-rpm_macro(meson_test)"
+python3.10dist-meson \
+python3dist-meson \
+rpm-macro-meson \
+rpm-macro-meson-build \
+rpm-macro-meson-install \
+rpm-macro-meson-test"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ninja \
-python(abi) \
+python-abi \
 python3-base"
 
 inherit rpm

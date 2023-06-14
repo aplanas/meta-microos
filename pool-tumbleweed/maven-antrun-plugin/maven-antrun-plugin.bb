@@ -10,15 +10,15 @@ RPM_HASH = "821edaf8376588fc3cd666edfd6073599213dc4f0976765543ea0a87787aa7f9d63f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-antrun-plugin \
-mvn(org.apache.maven.plugins:maven-antrun-plugin) \
-mvn(org.apache.maven.plugins:maven-antrun-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-antrun-plugin \
+mvn-org.apache.maven.plugins-maven-antrun-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.ant-ant \
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

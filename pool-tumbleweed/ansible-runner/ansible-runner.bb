@@ -9,12 +9,12 @@ RPM_HASH = "5907bcec71843931fdd08c57f60822a01d645f8bb634ac579bf809a2faefc1c0c0c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-runner \
-python3.10dist(ansible-runner) \
-python3dist(ansible-runner)"
+python3.10dist-ansible-runner \
+python3dist-ansible-runner"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-packaging \
 python3-pexpect \

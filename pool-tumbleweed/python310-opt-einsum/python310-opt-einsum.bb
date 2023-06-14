@@ -17,11 +17,11 @@ RPM_HASH = "608e81dc2b945a8639e6a2621bb16c90d353d0405a2e794f34611880389fff43a684
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opt-einsum \
-python3.10dist(opt-einsum) \
+python3.10dist-opt-einsum \
 python310-opt-einsum \
-python3dist(opt-einsum)"
+python3dist-opt-einsum"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy"
 
 inherit rpm

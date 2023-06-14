@@ -10,11 +10,11 @@ RPM_HASH = "06a8a380c5d1ae20fb4676e58003502eb83df7a35a4b7459b649f2c5906124a20c5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-docker-pycreds \
-python3.10dist(docker-pycreds) \
+python3.10dist-docker-pycreds \
 python310-docker-pycreds \
-python3dist(docker-pycreds)"
+python3dist-docker-pycreds"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

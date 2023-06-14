@@ -12,17 +12,16 @@ PV = "2022.10.16"
 RPM_NAME = "schily-rmt-2022.10.16-47.3.aarch64.rpm"
 RPM_HASH = "c68cde6129d59287ffec34a1af399b8d9b92a89fc86a79cd074c129aedff860760305f6c84aec88626eee2b1bb00b6895da53f5eff6c92ba52175d60fa6ae9d6"
 
-RPROVIDES:${PN} += "config(schily-rmt) \
+RPROVIDES:${PN} += "config-schily-rmt \
 rmt \
 schily-rmt \
-schily-rmt(aarch-64) \
-star-rmt:/usr/bin/srmt"
+star-rmt-/usr/bin/srmt"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdeflt.so.1.0()(64bit) \
-libschily.so.2.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdeflt.so.1.0 \
+libschily.so.2.0 \
 update-alternatives"
 
 inherit rpm

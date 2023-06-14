@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-gnu-mpich-hpc-devel"
 
-RDEPENDS:${PN} += "pnetcdf_1_12_3-gnu-mpich-hpc-devel"
+RDEPENDS:${PN} += "pnetcdf-1-12-3-gnu-mpich-hpc-devel"
 
 inherit rpm

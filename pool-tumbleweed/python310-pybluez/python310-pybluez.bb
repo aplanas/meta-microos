@@ -11,14 +11,13 @@ RPM_HASH = "93fe01c22f8bedca8a2d496c19f6edac953ffb494593bc3fe0175e04ff1d2315c4da
 
 RPROVIDES:${PN} += "pybluez \
 python3-pybluez \
-python3.10dist(pybluez) \
+python3.10dist-pybluez \
 python310-pybluez \
-python310-pybluez(aarch-64) \
-python3dist(pybluez)"
+python3dist-pybluez"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbluetooth.so.3 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

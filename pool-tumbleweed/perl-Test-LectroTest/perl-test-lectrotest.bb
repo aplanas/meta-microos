@@ -87,16 +87,16 @@ RPM_NAME = "perl-Test-LectroTest-0.5001-1.17.noarch.rpm"
 RPM_HASH = "65816f7581509fd3c9d140acddba4214cc54b067eb7c403a84310549b9d599f3ed4ac0106ed1757eda9bc701ef47bf2cf3b38bdb7ae9e355d574f55085599c60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::LectroTest) \
-perl(Test::LectroTest::Compat) \
-perl(Test::LectroTest::FailureRecorder) \
-perl(Test::LectroTest::Generator) \
-perl(Test::LectroTest::Property) \
-perl(Test::LectroTest::TestRunner) \
-perl(Test::LectroTest::TestRunner::results) \
-perl(Test::LectroTest::TestRunner::testcontroller) \
+RPROVIDES:${PN} += "perl-Test--LectroTest \
+perl-Test--LectroTest--Compat \
+perl-Test--LectroTest--FailureRecorder \
+perl-Test--LectroTest--Generator \
+perl-Test--LectroTest--Property \
+perl-Test--LectroTest--TestRunner \
+perl-Test--LectroTest--TestRunner--results \
+perl-Test--LectroTest--TestRunner--testcontroller \
 perl-Test-LectroTest"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

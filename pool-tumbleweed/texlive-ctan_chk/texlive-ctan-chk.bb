@@ -11,7 +11,7 @@ RPM_NAME = "texlive-ctan_chk-2023.204.1.0svn36304-54.1.noarch.rpm"
 RPM_HASH = "09dc04886480c58f4368df8e8eb9472e9ca02fc819304f7653d85f003d90cde9049efb0e11e215a80220b133b50805b6f206cfca01381c05e827dc599fa85f1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-ctan_chk"
+RPROVIDES:${PN} += "texlive-ctan-chk"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

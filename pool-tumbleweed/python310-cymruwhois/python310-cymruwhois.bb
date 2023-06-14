@@ -11,13 +11,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cymruwhois \
 python3-cymruwhois \
-python3.10dist(cymruwhois) \
+python3.10dist-cymruwhois \
 python310-cymruwhois \
-python3dist(cymruwhois)"
+python3dist-cymruwhois"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

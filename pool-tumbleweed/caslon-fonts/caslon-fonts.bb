@@ -25,7 +25,7 @@ scalable-font-he \
 scalable-font-ru"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

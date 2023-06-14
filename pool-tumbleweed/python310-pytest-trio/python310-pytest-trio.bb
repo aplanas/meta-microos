@@ -10,11 +10,11 @@ RPM_HASH = "ba728f21b8229b4abe57698d470c56b38e8d27401297fb51f4a245b4e306a68082eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-trio \
-python3.10dist(pytest-trio) \
+python3.10dist-pytest-trio \
 python310-pytest-trio \
-python3dist(pytest-trio)"
+python3dist-pytest-trio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-contextvars \
 python310-outcome \
 python310-pytest \

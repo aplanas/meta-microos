@@ -14,6 +14,6 @@ RPROVIDES:${PN} += "trilinos-gnu-openmpi2-hpc \
 trilinos-gnu-openmpi2-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-trilinos_14_0_0-gnu-openmpi2-hpc-devel"
+trilinos-14-0-0-gnu-openmpi2-hpc-devel"
 
 inherit rpm

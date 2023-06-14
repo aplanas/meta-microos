@@ -11,10 +11,9 @@ PV = "5.1.2"
 RPM_NAME = "ocaml-graphics-5.1.2-2.8.aarch64.rpm"
 RPM_HASH = "176c26c26a093bd828e2d01a2ffba551e2f7012e16e3b5966f354f66f787f43c359d7e0c733a31871d4ad9fbf1703a832232266e9b36aba44a207660420d64dd"
 
-RPROVIDES:${PN} += "ocaml-graphics \
-ocaml-graphics(aarch-64)"
+RPROVIDES:${PN} += "ocaml-graphics"
 
-RDEPENDS:${PN} += "libX11.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libX11.so.6 \
+libc.so.6"
 
 inherit rpm

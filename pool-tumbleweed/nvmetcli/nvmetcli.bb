@@ -12,12 +12,12 @@ RPM_HASH = "53a44bcb28f03e0aa9916a7c0e20f59450de45dccab8fd56e1d213ac923f99888210
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvmetcli \
-python3.10dist(nvmetcli) \
-python3dist(nvmetcli)"
+python3.10dist-nvmetcli \
+python3dist-nvmetcli"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-configshell-fb \
 python3-kmod \
 systemd"

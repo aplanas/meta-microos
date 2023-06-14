@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddccontrol-lang \
 ddccontrol-lang-all \
-locale(ddccontrol:de) \
-locale(ddccontrol:es) \
-locale(ddccontrol:fr) \
-locale(ddccontrol:pl) \
-locale(ddccontrol:ru) \
-locale(ddccontrol:zh_CN)"
+locale-ddccontrol-de \
+locale-ddccontrol-es \
+locale-ddccontrol-fr \
+locale-ddccontrol-pl \
+locale-ddccontrol-ru \
+locale-ddccontrol-zh-CN"
 
 RDEPENDS:${PN} += "ddccontrol"
 

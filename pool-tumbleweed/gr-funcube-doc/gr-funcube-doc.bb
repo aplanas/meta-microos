@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gr-funcube-doc"
 
-RDEPENDS:${PN} += "libgnuradio-funcube3_10_0"
+RDEPENDS:${PN} += "libgnuradio-funcube3-10-0"
 
 inherit rpm

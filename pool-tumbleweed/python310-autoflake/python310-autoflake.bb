@@ -17,13 +17,13 @@ RPM_HASH = "e9b05920b3f7f5213cfde3e0376c22c7a547618295a5bc6dc6c7faed957b24420522
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-autoflake \
-python3.10dist(autoflake) \
+python3.10dist-autoflake \
 python310-autoflake \
-python3dist(autoflake)"
+python3dist-autoflake"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pyflakes \
 python310-toml \
 update-alternatives"

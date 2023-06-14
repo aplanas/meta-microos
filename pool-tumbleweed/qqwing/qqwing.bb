@@ -13,13 +13,12 @@ PV = "1.3.4"
 RPM_NAME = "qqwing-1.3.4-2.20.aarch64.rpm"
 RPM_HASH = "1c1018dea9b2883ec0a721a02706356342cf71308cf690d11744d2cf18b90a5faec9c52e5fbd11d67918e90fa1a846b0f944892716b3072f5f777fd3a4c8a3c9"
 
-RPROVIDES:${PN} += "qqwing \
-qqwing(aarch-64)"
+RPROVIDES:${PN} += "qqwing"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libqqwing.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libqqwing.so.2 \
+libstdc++.so.6"
 
 inherit rpm

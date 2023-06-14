@@ -14,13 +14,12 @@ PV = "0.0.8"
 RPM_NAME = "libuchardet0-0.0.8-1.3.aarch64.rpm"
 RPM_HASH = "168edfca1a157db35510f513c2af638922def738ac8c8be22f37109a612f4cc55266ce428c62f2b68db03164c774a08b9e14a89858df2bd6448b35f56a5aadbf"
 
-RPROVIDES:${PN} += "libuchardet.so.0()(64bit) \
-libuchardet0 \
-libuchardet0(aarch-64)"
+RPROVIDES:${PN} += "libuchardet.so.0 \
+libuchardet0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

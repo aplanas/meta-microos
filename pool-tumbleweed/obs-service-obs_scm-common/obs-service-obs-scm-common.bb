@@ -12,8 +12,8 @@ RPM_NAME = "obs-service-obs_scm-common-0.10.36-1.1.noarch.rpm"
 RPM_HASH = "1a38871b69c80c4f1172b712ed509a75dedb3fdef5f6ea2635460a5a01240e7f8bd764f1f9f6d72303f03aa1497fbf3d0faa45d56ad62da6e8421dad15b09814"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(obs-service-obs_scm-common) \
-obs-service-obs_scm-common"
+RPROVIDES:${PN} += "config-obs-service-obs-scm-common \
+obs-service-obs-scm-common"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 glibc-locale-base \

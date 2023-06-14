@@ -16,11 +16,11 @@ RPM_NAME = "python39-opt-einsum-3.3.0-2.7.noarch.rpm"
 RPM_HASH = "a609207052f01a63fd33b32ef855bad6e2d4989fc5f6d8e422b1713b20eacd83b8eabb9bc5f3bdd4700d58843c381a3b5d5d79ff31cd4a0bee4326bd06d9dcf4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(opt-einsum) \
+RPROVIDES:${PN} += "python3.9dist-opt-einsum \
 python39-opt-einsum \
-python3dist(opt-einsum)"
+python3dist-opt-einsum"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-numpy"
 
 inherit rpm

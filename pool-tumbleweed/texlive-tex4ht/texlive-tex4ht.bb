@@ -25,9 +25,9 @@ RPM_NAME = "texlive-tex4ht-2023.201.svn66530-54.1.noarch.rpm"
 RPM_HASH = "bd48187c4760b3c3fa07f731589b988ceddc634bc80d2f55efb5d557bc913b04ddf301b037e1bc49426c38b3c309381704a6fd7ffd24c562f0a398326c832a26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(m-tex4ht.tex) \
-tex(tex4ht.jar) \
-tex(tex4ht.sty) \
+RPROVIDES:${PN} += "tex-m-tex4ht.tex \
+tex-tex4ht.jar \
+tex-tex4ht.sty \
 texlive-tex4ht"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -37,10 +37,10 @@ ed \
 findutils \
 grep \
 java \
-perl(File::Basename) \
-perl(File::Copy) \
-perl(File::Path) \
-perl(strict) \
+perl-File--Basename \
+perl-File--Copy \
+perl-File--Path \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

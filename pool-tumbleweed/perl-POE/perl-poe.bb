@@ -34,62 +34,61 @@ RPM_NAME = "perl-POE-1.370-1.7.noarch.rpm"
 RPM_HASH = "f755b8fd905c9e410bd584547b601be21c5cedce21b9112410b35e7a49ca3f3ba150a177fa6acf1374db5da0e62dac1ba34a6cf434899959ee42ec750b62fcff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(POE) \
-perl(POE::Component) \
-perl(POE::Component::Client::TCP) \
-perl(POE::Component::Server::TCP) \
-perl(POE::Driver) \
-perl(POE::Driver::SysRW) \
-perl(POE::Filter) \
-perl(POE::Filter::Block) \
-perl(POE::Filter::Grep) \
-perl(POE::Filter::HTTPD) \
-perl(POE::Filter::Line) \
-perl(POE::Filter::Map) \
-perl(POE::Filter::RecordBlock) \
-perl(POE::Filter::Reference) \
-perl(POE::Filter::Stackable) \
-perl(POE::Filter::Stream) \
-perl(POE::Kernel) \
-perl(POE::Loop) \
-perl(POE::Loop::IO_Poll) \
-perl(POE::Loop::PerlSignals) \
-perl(POE::Loop::Select) \
-perl(POE::NFA) \
-perl(POE::Pipe) \
-perl(POE::Pipe::OneWay) \
-perl(POE::Pipe::TwoWay) \
-perl(POE::Queue) \
-perl(POE::Queue::Array) \
-perl(POE::Resource) \
-perl(POE::Resource::Aliases) \
-perl(POE::Resource::Clock) \
-perl(POE::Resource::Events) \
-perl(POE::Resource::Extrefs) \
-perl(POE::Resource::FileHandles) \
-perl(POE::Resource::SIDs) \
-perl(POE::Resource::Sessions) \
-perl(POE::Resource::Signals) \
-perl(POE::Resources) \
-perl(POE::Session) \
-perl(POE::Test::Sequence) \
-perl(POE::Wheel) \
-perl(POE::Wheel::Curses) \
-perl(POE::Wheel::FollowTail) \
-perl(POE::Wheel::ListenAccept) \
-perl(POE::Wheel::ReadLine) \
-perl(POE::Wheel::ReadLine::Keymap) \
-perl(POE::Wheel::ReadWrite) \
-perl(POE::Wheel::Run) \
-perl(POE::Wheel::SocketFactory) \
-perl-POE"
+RPROVIDES:${PN} += "perl-POE \
+perl-POE--Component \
+perl-POE--Component--Client--TCP \
+perl-POE--Component--Server--TCP \
+perl-POE--Driver \
+perl-POE--Driver--SysRW \
+perl-POE--Filter \
+perl-POE--Filter--Block \
+perl-POE--Filter--Grep \
+perl-POE--Filter--HTTPD \
+perl-POE--Filter--Line \
+perl-POE--Filter--Map \
+perl-POE--Filter--RecordBlock \
+perl-POE--Filter--Reference \
+perl-POE--Filter--Stackable \
+perl-POE--Filter--Stream \
+perl-POE--Kernel \
+perl-POE--Loop \
+perl-POE--Loop--IO-Poll \
+perl-POE--Loop--PerlSignals \
+perl-POE--Loop--Select \
+perl-POE--NFA \
+perl-POE--Pipe \
+perl-POE--Pipe--OneWay \
+perl-POE--Pipe--TwoWay \
+perl-POE--Queue \
+perl-POE--Queue--Array \
+perl-POE--Resource \
+perl-POE--Resource--Aliases \
+perl-POE--Resource--Clock \
+perl-POE--Resource--Events \
+perl-POE--Resource--Extrefs \
+perl-POE--Resource--FileHandles \
+perl-POE--Resource--SIDs \
+perl-POE--Resource--Sessions \
+perl-POE--Resource--Signals \
+perl-POE--Resources \
+perl-POE--Session \
+perl-POE--Test--Sequence \
+perl-POE--Wheel \
+perl-POE--Wheel--Curses \
+perl-POE--Wheel--FollowTail \
+perl-POE--Wheel--ListenAccept \
+perl-POE--Wheel--ReadLine \
+perl-POE--Wheel--ReadLine--Keymap \
+perl-POE--Wheel--ReadWrite \
+perl-POE--Wheel--Run \
+perl-POE--Wheel--SocketFactory"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(IO) \
-perl(IO::Handle) \
-perl(IO::Pipely) \
-perl(IO::Tty) \
-perl(POE::Test::Loops) \
-perl(Storable)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-IO \
+perl-IO--Handle \
+perl-IO--Pipely \
+perl-IO--Tty \
+perl-POE--Test--Loops \
+perl-Storable"
 
 inherit rpm

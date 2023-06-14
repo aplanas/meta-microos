@@ -17,7 +17,7 @@ RPM_NAME = "texlive-postnotes-2023.201.0.0.2.3svn66019-52.1.noarch.rpm"
 RPM_HASH = "1c39b232a27547c71bfa1dd59c625589f1959031cfe6bf9dedb313f141f71ed2cf5a0fe920d88fdc03a320dc1cb486d759e32709e469d5bb02a3ab88f579b519"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(postnotes.sty) \
+RPROVIDES:${PN} += "tex-postnotes.sty \
 texlive-postnotes"
 
 RDEPENDS:${PN} += "/bin/sh \

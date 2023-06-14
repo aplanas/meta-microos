@@ -9,26 +9,18 @@ PV = "2.0.4"
 RPM_NAME = "baka-mplayer-2.0.4-5.8.aarch64.rpm"
 RPM_HASH = "8a5b1d6abe32d49c8c27f784cccffe224fe53d6e297a9b7af03609f5cd5e17adce82fd2372e9b8b838f8e78cf77339fc2181aa01e1466fd3a7d7a11eeee20918"
 
-RPROVIDES:${PN} += "application() \
-application(baka-mplayer.desktop) \
-baka-mplayer \
-baka-mplayer(aarch-64)"
+RPROVIDES:${PN} += "baka-mplayer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libmpv.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libmpv.so.2 \
+libstdc++.so.6"
 
 inherit rpm

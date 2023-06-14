@@ -12,15 +12,15 @@ RPM_HASH = "651e0fc4b72740e1f316e12c3a2e5e16068dc3c13c39035ae6566f7752129ba0f807
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nbclient \
-python3.10dist(nbclient) \
+python3.10dist-nbclient \
 python310-nbclient \
-python3dist(nbclient)"
+python3dist-nbclient"
 
-RDEPENDS:${PN} += "((python310-jupyter-core >= 4.12 with python310-jupyter-core < 5) or python310-jupyter-core >= 5.1) \
+RDEPENDS:${PN} += "-(python310-jupyter-core >= 4.12 with python310-jupyter-core < 5) or python310-jupyter-core >= 5.1 \
 /bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-jupyter-client \
 python310-nbformat \
 python310-traitlets"

@@ -11,15 +11,14 @@ PV = "2.2.0"
 RPM_NAME = "libpfs2-2.2.0-3.14.aarch64.rpm"
 RPM_HASH = "b46e530817ad32fd2286553d539a5c76417ab95a247b1da9864385dac2a73cd9f730cb6a7e89b1f6a560f5e188941bbda5d22664f2ffd265b0be6cd20ac200ca"
 
-RPROVIDES:${PN} += "libpfs.so.2()(64bit) \
-libpfs2 \
-libpfs2(aarch-64)"
+RPROVIDES:${PN} += "libpfs.so.2 \
+libpfs2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

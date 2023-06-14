@@ -12,7 +12,7 @@ RPM_NAME = "texlive-multiple-choice-2023.201.0.0.2svn63722-54.1.noarch.rpm"
 RPM_HASH = "da13168fb504af8d86c43fea3d2c39c0eee5d431d8d3b67a1ea30226d2a5f0b0937b7d81c3001537a9fde2661182b59704290f5c8eeda9c02d6d235d3158b36b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(multiple-choice.sty) \
+RPROVIDES:${PN} += "tex-multiple-choice.sty \
 texlive-multiple-choice"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(biditools.sty) \
+tex-biditools.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,14 +11,13 @@ PV = "1.0.9"
 RPM_NAME = "libnetfilter_conntrack3-1.0.9-1.6.aarch64.rpm"
 RPM_HASH = "22705cfdfbb7fa0bf49b2d126b1d53effebbd61471feb86c675f379c9d8f4450d79587e9398a46f7548d666ca1af6db33078b9340caedca648e9430aa8003eed"
 
-RPROVIDES:${PN} += "libnetfilter_conntrack.so.3()(64bit) \
-libnetfilter_conntrack3 \
-libnetfilter_conntrack3(aarch-64)"
+RPROVIDES:${PN} += "libnetfilter-conntrack.so.3 \
+libnetfilter-conntrack3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmnl.so.0()(64bit) \
-libnfnetlink.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmnl.so.0 \
+libnfnetlink.so.0"
 
 inherit rpm

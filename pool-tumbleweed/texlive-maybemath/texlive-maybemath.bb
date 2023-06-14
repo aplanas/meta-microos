@@ -19,7 +19,7 @@ RPM_NAME = "texlive-maybemath-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "d3d924716c1e9e16ee43d287634f89fb818c857d0dd4bfcfc2bbb1725545c132a424f49f5a0ff41d1e7f18bca64534b465d93a26c11237df2fdbc323b79a3590"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(maybemath.sty) \
+RPROVIDES:${PN} += "tex-maybemath.sty \
 texlive-maybemath"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,8 +28,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(bm.sty) \
+tex-amsmath.sty \
+tex-bm.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

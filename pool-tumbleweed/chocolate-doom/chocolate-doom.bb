@@ -12,32 +12,19 @@ PV = "3.0.1"
 RPM_NAME = "chocolate-doom-3.0.1-3.1.aarch64.rpm"
 RPM_HASH = "6b049e406024c5d57d433b0d0ce20a37330f2d2068d534937d8b934a711abecd0561b4d7d98f3246998fec75715fbf4c81fa448e52732e13d1ecaff07f1192b8"
 
-RPROVIDES:${PN} += "application() \
-application(chocolate-doom-screensaver.desktop) \
-application(chocolate-doom.desktop) \
-application(chocolate-heretic.desktop) \
-application(chocolate-hexen.desktop) \
-application(chocolate-strife.desktop) \
-chocolate-doom \
-chocolate-doom(aarch-64) \
+RPROVIDES:${PN} += "chocolate-doom \
 chocolate-heretic \
 chocolate-hexen \
-chocolate-strife \
-metainfo() \
-metainfo(chocolate-doom.appdata.xml) \
-metainfo(chocolate-heretic.appdata.xml) \
-metainfo(chocolate-hexen.appdata.xml) \
-metainfo(chocolate-strife.appdata.xml)"
+chocolate-strife"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libSDL2_net-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsamplerate.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libSDL2-net-2.0.so.0 \
+libc.so.6 \
+libm.so.6 \
+libpng16.so.16 \
+libsamplerate.so.0"
 
 inherit rpm

@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "yast2-adcommon-python"
 
 RDEPENDS:${PN} += "krb5-client \
-python(abi) \
+python-abi \
 python3-keyring \
 python3-ldap \
 python3-ldb \

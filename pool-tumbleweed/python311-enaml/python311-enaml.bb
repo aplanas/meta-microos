@@ -13,19 +13,18 @@ PV = "0.16.1"
 RPM_NAME = "python311-enaml-0.16.1-1.1.aarch64.rpm"
 RPM_HASH = "349949ab6ec7f3f867f4142ebe348742cdedf0cc8c8fbc5b4a1101ef19dbbd635b2e9209bf1645768ded8ebb2278bc9c37e6c730ecdcd503a249dd0de524a347"
 
-RPROVIDES:${PN} += "python3.11dist(enaml) \
+RPROVIDES:${PN} += "python3.11dist-enaml \
 python311-enaml \
-python311-enaml(aarch-64) \
-python3dist(enaml)"
+python3dist-enaml"
 
-RDEPENDS:${PN} += "(python311-qt5 or python311-PyQt6 >= 6.3.1) \
+RDEPENDS:${PN} += "-python311-qt5 or python311-PyQt6 >= 6.3.1 \
 /bin/sh \
 /usr/bin/python3.11 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python311-QtPy \
 python311-atom \
 python311-bytecode \

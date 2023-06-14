@@ -9,13 +9,13 @@ RPM_HASH = "d0903f749247641de47e063ab840a6b3026af24ded3d425593725816f592c56dad83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vim-vint \
-python3.10dist(vim-vint) \
+python3.10dist-vim-vint \
 python310-vim-vint \
-python3dist(vim-vint)"
+python3dist-vim-vint"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-ansicolor \
 python310-chardet \

@@ -12,12 +12,11 @@ PV = "1.82.0"
 RPM_NAME = "libboost_container1_82_0-devel-1.82.0-1.2.aarch64.rpm"
 RPM_HASH = "9f2792c2718755883482c2dfd6faea15b4e949e331a185eb0f7d35abeb5ea4e163f69aa9d62bc6f2eed61db9cf54e299a26dc5d8c007420b299e473a473afc19"
 
-RPROVIDES:${PN} += "libboost_container-devel-impl \
-libboost_container1_82_0-devel \
-libboost_container1_82_0-devel(aarch-64)"
+RPROVIDES:${PN} += "libboost-container-devel-impl \
+libboost-container1-82-0-devel"
 
-RDEPENDS:${PN} += "libboost_container1_82_0 \
-libboost_headers1_82_0-devel \
+RDEPENDS:${PN} += "libboost-container1-82-0 \
+libboost-headers1-82-0-devel \
 libstdc++-devel"
 
 inherit rpm

@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "isorelax \
 isorelax-bootstrap \
-mvn(isorelax:isorelax) \
-mvn(isorelax:isorelax:pom:)"
+mvn-isorelax-isorelax \
+mvn-isorelax-isorelax-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \

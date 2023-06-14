@@ -10,9 +10,9 @@ RPM_HASH = "a8c4b1041b182502cf366a1622cf5ba9b2889c3a3900239a5dbe725bf2d92a61e4db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cepces \
-config(cepces)"
+config-cepces"
 
-RDEPENDS:${PN} += "(cepces-selinux = 0.3.7 if selinux-policy) \
+RDEPENDS:${PN} += "-cepces-selinux = 0.3.7 if selinux-policy \
 cepces-certmonger \
 python3-cepces"
 

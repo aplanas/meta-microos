@@ -12,17 +12,17 @@ RPM_HASH = "88bbffa0232a87d9bc41c7483460c6a6c4b33b23ab51ad6e46c1fce73f5705cf3068
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "c3p0 \
-hibernate_jdbc_cache \
-mvn(c3p0:c3p0) \
-mvn(c3p0:c3p0:pom:) \
-mvn(com.mchange:c3p0) \
-mvn(com.mchange:c3p0:pom:)"
+hibernate-jdbc-cache \
+mvn-c3p0-c3p0 \
+mvn-c3p0-c3p0-pom- \
+mvn-com.mchange-c3p0 \
+mvn-com.mchange-c3p0-pom-"
 
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \
 mchange-commons \
-mvn(com.mchange:mchange-commons-java) \
+mvn-com.mchange-mchange-commons-java \
 update-alternatives"
 
 inherit rpm

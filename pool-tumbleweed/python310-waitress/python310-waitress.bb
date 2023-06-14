@@ -14,13 +14,13 @@ RPM_HASH = "3c6ded4f778bc11866f6d7152c107c0a33dbc198ddb1dd9e9ea9d9dcf0bcaaa23614
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-waitress \
-python3.10dist(waitress) \
+python3.10dist-waitress \
 python310-waitress \
-python3dist(waitress)"
+python3dist-waitress"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi)"
+python-abi"
 
 inherit rpm

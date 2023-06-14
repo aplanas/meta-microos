@@ -12,18 +12,17 @@ PV = "3.24.38"
 RPM_NAME = "gtk3-immodule-multipress-3.24.38-1.1.aarch64.rpm"
 RPM_HASH = "461e8adbbaa137e78f1686f6a6cb22b51132083c12402d0bb18b6164f72ddcaa054d099ee2470810e7a66f6c3335c317e9b28c773f3f5d3fd175194e2e64f3f7"
 
-RPROVIDES:${PN} += "config(gtk3-immodule-multipress) \
-gtk3-immodule-multipress \
-gtk3-immodule-multipress(aarch-64)"
+RPROVIDES:${PN} += "config-gtk3-immodule-multipress \
+gtk3-immodule-multipress"
 
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0"
 
 inherit rpm

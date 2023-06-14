@@ -9,11 +9,11 @@ RPM_HASH = "f9aab6f5977904a6d809cac5f85fccccb932b58e64c4a1c1461c8bbff8c4a63fde8f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cleo \
-python3.10dist(cleo) \
+python3.10dist-cleo \
 python310-cleo \
-python3dist(cleo)"
+python3dist-cleo"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-crashtest \
 python310-pylev \
 python310-rapidfuzz"

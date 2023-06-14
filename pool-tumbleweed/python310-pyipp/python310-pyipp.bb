@@ -9,11 +9,11 @@ RPM_HASH = "a707b072900ec0bed73b0f53c94ab60aeca5d4159b348886a79f0582503303733e69
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyipp \
-python3.10dist(pyipp) \
+python3.10dist-pyipp \
 python310-pyipp \
-python3dist(pyipp)"
+python3dist-pyipp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aiohttp \
 python310-deepmerge \
 python310-yarl"

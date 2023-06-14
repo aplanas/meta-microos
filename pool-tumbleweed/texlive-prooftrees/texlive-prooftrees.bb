@@ -20,7 +20,7 @@ RPM_NAME = "texlive-prooftrees-2023.201.0.0.7_svn_8641svn52221-52.1.noarch.rpm"
 RPM_HASH = "dbdac19136a002c8f121932d20158d80e9163df7c2e99d3d39fa779a91dd981fa731e329b9a176eaf224546836b804802019a422672237afd71920a61e7db6cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(prooftrees.sty) \
+RPROVIDES:${PN} += "tex-prooftrees.sty \
 texlive-prooftrees"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,10 +29,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(etoolbox.sty) \
-tex(forest.sty) \
-tex(svn-prov.sty) \
+tex-amssymb.sty \
+tex-etoolbox.sty \
+tex-forest.sty \
+tex-svn-prov.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

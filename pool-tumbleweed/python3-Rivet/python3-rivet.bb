@@ -17,20 +17,19 @@ RPM_NAME = "python3-Rivet-3.1.7-1.1.aarch64.rpm"
 RPM_HASH = "8f7d91a1d58576301d45a531c6ed242319d2b38131918e62c5fa7820c5fb7234cc0655c0cc1f84a953ef092a855fedeb4a13ea5c8fbe706c86f2e3b4ef00923a"
 
 RPROVIDES:${PN} += "python-Rivet \
-python3-Rivet \
-python3-Rivet(aarch-64)"
+python3-Rivet"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 Rivet-data \
-ld-linux-aarch64.so.1()(64bit) \
-libHepMC3.so.3()(64bit) \
-libRivet-3.1.7.so()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
-python(abi)"
+ld-linux-aarch64.so.1 \
+libHepMC3.so.3 \
+libRivet-3.1.7.so \
+libc.so.6 \
+libgcc-s.so.1 \
+libpython3.10.so.1.0 \
+libstdc++.so.6 \
+libz.so.1 \
+python-abi"
 
 inherit rpm

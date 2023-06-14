@@ -14,11 +14,11 @@ RPM_HASH = "9eab16a2036835f0dc47d215794d803dd2d5689da63e88f9bf2ba5fee2cbea51bdba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-relay \
-python3.10dist(azure-mgmt-relay) \
+python3.10dist-azure-mgmt-relay \
 python310-azure-mgmt-relay \
-python3dist(azure-mgmt-relay)"
+python3dist-azure-mgmt-relay"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

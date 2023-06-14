@@ -8,12 +8,10 @@ PV = "1.4.71"
 RPM_NAME = "lighttpd-mod_vhostdb_mysql-1.4.71-1.1.aarch64.rpm"
 RPM_HASH = "23dec61fe1e5aee365a9b545176708ce720018af9e0091f36d95276b67b8faa20051ca052309812ad6851b89d14861486660af7bf3843559f54924195d6b7968"
 
-RPROVIDES:${PN} += "lighttpd-mod_vhostdb_mysql \
-lighttpd-mod_vhostdb_mysql(aarch-64)"
+RPROVIDES:${PN} += "lighttpd-mod-vhostdb-mysql"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
+RDEPENDS:${PN} += "libc.so.6 \
+libmariadb.so.3 \
 lighttpd"
 
 inherit rpm

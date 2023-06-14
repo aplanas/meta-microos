@@ -8,10 +8,10 @@ RPM_NAME = "myspell-vi_VN-20221012-1.2.noarch.rpm"
 RPM_HASH = "938478a482a33e5df2153f7356f99a7da9a108a795868461444f3d8e9e44bca7de1de824cf6c639f9b8357be74d9f34fdd0efb94a48e2507379eaeaa6dbe41e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:vi_VN) \
-locale(seamonkey-spellchecker:vi_VN) \
+RPROVIDES:${PN} += "locale-libreoffice-vi-VN \
+locale-seamonkey-spellchecker-vi-VN \
 myspell-dictionary \
-myspell-vi_VN"
+myspell-vi-VN"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-vi"

@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-cognitiveservices-language-luis-0.7.0-2.11.noarch.rp
 RPM_HASH = "e2e0081559c1d3aa0e41a87432dd9cb282d9b3c36c06bb3f863d4908acb20bcb4df1608e7e80b7da8ffc2cc9479b1b62371df77b6e1969a50ce7d7d8cb268544"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-language-luis) \
+RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-language-luis \
 python311-azure-cognitiveservices-language-luis \
-python3dist(azure-cognitiveservices-language-luis)"
+python3dist-azure-cognitiveservices-language-luis"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-cognitiveservices-language-nspkg \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-common \

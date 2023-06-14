@@ -11,13 +11,13 @@ RPM_HASH = "41fe283b61d39eac2d1325fab742df566f7eb7dfbb44ef63324ad1ca680bde803bd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sidecar \
-python3.10dist(sidecar) \
+python3.10dist-sidecar \
 python310-sidecar \
-python3dist(sidecar)"
+python3dist-sidecar"
 
-RDEPENDS:${PN} += "(python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9) \
+RDEPENDS:${PN} += "-python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9 \
 jupyter-sidecar-jupyterlab \
-python(abi) \
+python-abi \
 python310-jupyterlab"
 
 inherit rpm

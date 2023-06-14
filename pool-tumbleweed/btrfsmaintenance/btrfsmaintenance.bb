@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsmaintenance"
 
-RDEPENDS:${PN} += "(libzypp(plugin:commit) if zypper) \
+RDEPENDS:${PN} += "-libzypp(plugin-commit) if zypper \
 /bin/bash \
 /bin/sh \
 btrfsprogs"

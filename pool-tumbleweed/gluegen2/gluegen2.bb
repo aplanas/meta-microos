@@ -17,10 +17,9 @@ RPM_NAME = "gluegen2-2.3.2-9.8.aarch64.rpm"
 RPM_HASH = "7867c3f54df70ea5637ca91ebc40e5ab8a208e9eee9fd4fc766345871e260c057b016052528ba65596e1097f9aaee95524ca9e4c17d158992c4486be401a4057"
 
 RPROVIDES:${PN} += "gluegen2 \
-gluegen2(aarch-64) \
-libgluegen2-rt.so()(64bit)"
+libgluegen2-rt.so"
 
 RDEPENDS:${PN} += "java \
-libc.so.6()(64bit)"
+libc.so.6"
 
 inherit rpm

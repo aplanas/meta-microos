@@ -17,12 +17,9 @@ PV = "0.59.1"
 RPM_NAME = "vitetris-0.59.1-1.11.aarch64.rpm"
 RPM_HASH = "58a52168b5a00370eaa010049eaba0a2ab9d8e66b729f2a3e23f9d4fca16e84c447ca43b087097ee43ed503a4eedf56d23946af7beeaf00f814f495476085623"
 
-RPROVIDES:${PN} += "application() \
-application(vitetris.desktop) \
-vitetris \
-vitetris(aarch-64)"
+RPROVIDES:${PN} += "vitetris"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "317e268f33aebcc965438b037914195db079a9d6488a4097378f964f32846fdde25d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-qdatamatrix \
-python3.10dist(python-qdatamatrix) \
+python3.10dist-python-qdatamatrix \
 python310-python-qdatamatrix \
-python3dist(python-qdatamatrix)"
+python3dist-python-qdatamatrix"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-QtPy \
 python310-python-datamatrix"
 

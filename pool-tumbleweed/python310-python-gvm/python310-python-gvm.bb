@@ -13,11 +13,11 @@ RPM_HASH = "f1369cda9636b24166059a8e945c78e1c4dc69b0c33287e43aa71c3077b74e36d961
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-gvm \
-python3.10dist(python-gvm) \
+python3.10dist-python-gvm \
 python310-python-gvm \
-python3dist(python-gvm)"
+python3dist-python-gvm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-defusedxml \
 python310-lxml \
 python310-paramiko"

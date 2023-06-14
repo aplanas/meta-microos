@@ -26,7 +26,7 @@ RPM_NAME = "texlive-milog-2023.201.1.0svn41610-54.1.noarch.rpm"
 RPM_HASH = "2b6f82729d5ab035c30110775aa3501bfa7336ef141bc907ed0ce986772324cfe7365b72c7da9fd8b796bb6f48b8d4c89af32ad1314bf59548cabcc570b9549e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(milog.cls) \
+RPROVIDES:${PN} += "tex-milog.cls \
 texlive-milog"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -35,17 +35,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(background.sty) \
-tex(booktabs.sty) \
-tex(colortbl.sty) \
-tex(geometry.sty) \
-tex(pgfplotstable.sty) \
-tex(tabularx.sty) \
-tex(transparent.sty) \
-tex(xifthen.sty) \
-tex(xkeyval.sty) \
-tex(xkvltxp.sty) \
+tex-article.cls \
+tex-background.sty \
+tex-booktabs.sty \
+tex-colortbl.sty \
+tex-geometry.sty \
+tex-pgfplotstable.sty \
+tex-tabularx.sty \
+tex-transparent.sty \
+tex-xifthen.sty \
+tex-xkeyval.sty \
+tex-xkvltxp.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,26 +10,25 @@ RPM_NAME = "libgtkhtml-4_0-0-4.10.0-7.3.aarch64.rpm"
 RPM_HASH = "4bc6774389479583878f0248b2bda9f101087907e4d0279806f93c1e63d5bd283bfbc0db6721f09778024e93b767d16c9fdb7da3cc29fd016cd28c5d603de3b5"
 
 RPROVIDES:${PN} += "gtkhtml \
-gtkhtml-4_0 \
+gtkhtml-4-0 \
 gtkhtml2 \
-libgtkhtml-4.0.so.0()(64bit) \
-libgtkhtml-4_0-0 \
-libgtkhtml-4_0-0(aarch-64)"
+libgtkhtml-4-0-0 \
+libgtkhtml-4.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgailutil-3.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgailutil-3.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0"
 
 inherit rpm

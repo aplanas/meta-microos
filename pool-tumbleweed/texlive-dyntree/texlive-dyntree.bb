@@ -13,7 +13,7 @@ RPM_NAME = "texlive-dyntree-2023.201.1.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "f80c8a0d4e646d0ab279ed1a89a715e1c6b0af597eea1e0fd83c929d96dc99bd01471f1f825d91e59da98004607565e88cfc53f3ea2ef88bea40b5ad824fcd13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dyntree.sty) \
+RPROVIDES:${PN} += "tex-dyntree.sty \
 texlive-dyntree"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,12 +22,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(calc.sty) \
-tex(coollist.sty) \
-tex(eepic.sty) \
-tex(epic.sty) \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-calc.sty \
+tex-coollist.sty \
+tex-eepic.sty \
+tex-epic.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

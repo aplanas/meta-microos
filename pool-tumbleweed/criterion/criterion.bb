@@ -17,8 +17,7 @@ PV = "2.4.1"
 RPM_NAME = "criterion-2.4.1-1.4.aarch64.rpm"
 RPM_HASH = "360d9f3c261b22411fb9a6accd10b5f718cf24e7ee994b525ba013dfa1be56b1803e9b33252897aedba0ce7c8cd79dcc6aa6b797aab6206dd582f424bc191416"
 
-RPROVIDES:${PN} += "criterion \
-criterion(aarch-64)"
+RPROVIDES:${PN} += "criterion"
 
 RDEPENDS:${PN} += ""
 

@@ -17,13 +17,13 @@ RPM_HASH = "25b83d506f7ce7e83998a964922b3fdd5930d1597582ad3d59d3b70028a462690777
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diskimage-builder \
-python3.10dist(diskimage-builder) \
-python3dist(diskimage-builder)"
+python3.10dist-diskimage-builder \
+python3dist-diskimage-builder"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 kpartx \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-PyYAML \
 python3-networkx \

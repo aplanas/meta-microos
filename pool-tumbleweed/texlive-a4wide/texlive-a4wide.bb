@@ -12,7 +12,7 @@ RPM_NAME = "texlive-a4wide-2023.201.svn20943-54.1.noarch.rpm"
 RPM_HASH = "390024c9b0899c6eda40c5f45aab779e6318996d2c2ba8dcd2c0359b53c124f50b30d63e21e90c680faf02f0983a3cdadf81a03a5a0a61b91ec265a6009ece7f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(a4wide.sty) \
+RPROVIDES:${PN} += "tex-a4wide.sty \
 texlive-a4wide"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(a4.sty) \
+tex-a4.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

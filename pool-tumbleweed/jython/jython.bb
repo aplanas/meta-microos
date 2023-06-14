@@ -25,12 +25,12 @@ RPM_HASH = "3e51f1bc13b7f4e1d393e6f6cdfeeecc0c5df70aea615125f239eef8265eae61bb45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jython \
-mvn(jython:jython) \
-mvn(jython:jython:pom:) \
-mvn(org.python:jython) \
-mvn(org.python:jython-standalone) \
-mvn(org.python:jython-standalone:pom:) \
-mvn(org.python:jython:pom:)"
+mvn-jython-jython \
+mvn-jython-jython-pom- \
+mvn-org.python-jython \
+mvn-org.python-jython-pom- \
+mvn-org.python-jython-standalone \
+mvn-org.python-jython-standalone-pom-"
 
 RDEPENDS:${PN} += "jakarta-oro \
 java \

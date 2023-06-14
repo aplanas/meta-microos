@@ -17,17 +17,15 @@ PV = "13"
 RPM_NAME = "physlock-13-2.3.aarch64.rpm"
 RPM_HASH = "75348015115f4896959494bcfb03b8119f1a0f963490f78df7e1224c638ad899aec35fdfa4b796676d35eed3753a0ccd1302ba23c4ef6d29d907be4c9360e2d1"
 
-RPROVIDES:${PN} += "physlock \
-physlock(aarch-64)"
+RPROVIDES:${PN} += "physlock"
 
 RDEPENDS:${PN} += "/bin/sh \
-group(trusted) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libpam_misc.so.0()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+group-trusted \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpam-misc.so.0 \
+libpam.so.0 \
+libsystemd.so.0 \
 permissions"
 
 inherit rpm

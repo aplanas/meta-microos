@@ -10,20 +10,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpa-lang \
 gpa-lang-all \
-locale(gpa:ar) \
-locale(gpa:cs) \
-locale(gpa:de) \
-locale(gpa:es) \
-locale(gpa:fr) \
-locale(gpa:ja) \
-locale(gpa:nl) \
-locale(gpa:pl) \
-locale(gpa:pt_BR) \
-locale(gpa:ru) \
-locale(gpa:sv) \
-locale(gpa:tr) \
-locale(gpa:zh_CN) \
-locale(gpa:zh_TW)"
+locale-gpa-ar \
+locale-gpa-cs \
+locale-gpa-de \
+locale-gpa-es \
+locale-gpa-fr \
+locale-gpa-ja \
+locale-gpa-nl \
+locale-gpa-pl \
+locale-gpa-pt-BR \
+locale-gpa-ru \
+locale-gpa-sv \
+locale-gpa-tr \
+locale-gpa-zh-CN \
+locale-gpa-zh-TW"
 
 RDEPENDS:${PN} += "gpa"
 

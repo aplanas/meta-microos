@@ -13,29 +13,27 @@ PV = "4.6.2"
 RPM_NAME = "coturn-4.6.2-1.1.aarch64.rpm"
 RPM_HASH = "6ae8fc19ac10b2f4189e6bf00ca1e7e13a3697c235a3c42faf6c338f3c4cad6a6821c6d284ce50be8f86dfd6f381c16f087584609848708e9a5ff51e652d100e"
 
-RPROVIDES:${PN} += "config(coturn) \
+RPROVIDES:${PN} += "config-coturn \
 coturn \
-coturn(aarch-64) \
-group(coturn) \
-user(coturn)"
+group-coturn \
+user-coturn"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libevent_extra-2.1.so.7()(64bit) \
-libevent_openssl-2.1.so.7()(64bit) \
-libevent_pthreads-2.1.so.7()(64bit) \
-libhiredis.so.1.1.0()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libpq.so.5()(64bit) \
-libsqlite3.so.0()(64bit) \
-libssl.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libevent-core-2.1.so.7 \
+libevent-extra-2.1.so.7 \
+libevent-openssl-2.1.so.7 \
+libevent-pthreads-2.1.so.7 \
+libhiredis.so.1.1.0 \
+libmariadb.so.3 \
+libpq.so.5 \
+libsqlite3.so.0 \
+libssl.so.3 \
 shadow \
 sysuser-shadow"
 

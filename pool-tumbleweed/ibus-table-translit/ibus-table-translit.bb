@@ -10,7 +10,7 @@ RPM_HASH = "592b22b99fc4b0e3f10d085c6efff4173a072b7aa9f56d32cb8b6bd9720df9782764
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-translit \
-locale(ibus:ru)"
+locale-ibus-ru"
 
 RDEPENDS:${PN} += "ibus-table"
 

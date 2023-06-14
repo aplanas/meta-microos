@@ -28,11 +28,11 @@ RPM_NAME = "python311-seaborn-0.12.2-1.3.noarch.rpm"
 RPM_HASH = "530aa337db7a861fb484f6ed7d91578941776226b070dd5a1aba19bd8d01ed73adb6ed3e0d1ad498298bda9239a869d1baca571819d95d7b8621166207cb9115"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(seaborn) \
+RPROVIDES:${PN} += "python3.11dist-seaborn \
 python311-seaborn \
-python3dist(seaborn)"
+python3dist-seaborn"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \
 python311-numpy \
 python311-pandas"

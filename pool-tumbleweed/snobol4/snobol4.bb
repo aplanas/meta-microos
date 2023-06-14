@@ -13,21 +13,20 @@ PV = "2.3.1"
 RPM_NAME = "snobol4-2.3.1-1.1.aarch64.rpm"
 RPM_HASH = "ad841a3ce9bd96e66acfd1252b4951ebf73c8b9f9513ffd899e012c38486c1f70d800f4fcc01bad5b6d7aa1ba24f8c63b3a6a0ba79ff49c111d1f3ca8684a9e9"
 
-RPROVIDES:${PN} += "snobol4 \
-snobol4(aarch-64)"
+RPROVIDES:${PN} += "snobol4"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgdbm_compat.so.4()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libsqlite3.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libtcl8.6.so()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgdbm-compat.so.4 \
+liblzma.so.5 \
+libm.so.6 \
+libreadline.so.8 \
+libsqlite3.so.0 \
+libssl.so.3 \
+libtcl8.6.so \
+libz.so.1"
 
 inherit rpm

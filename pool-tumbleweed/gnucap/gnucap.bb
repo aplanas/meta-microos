@@ -17,14 +17,13 @@ PV = "0.35"
 RPM_NAME = "gnucap-0.35-17.29.aarch64.rpm"
 RPM_HASH = "c2614a9c639d841382cd24da35860246842edf1aa925b29a37bf3f1d7e4605429351a41d88eba4dfe5a69f71a7e648b8e1099b7f370218fae14ed4200143e6f5"
 
-RPROVIDES:${PN} += "gnucap \
-gnucap(aarch-64)"
+RPROVIDES:${PN} += "gnucap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libreadline.so.8 \
+libstdc++.so.6"
 
 inherit rpm

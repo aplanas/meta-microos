@@ -17,16 +17,15 @@ PV = "1.1.4"
 RPM_NAME = "pam_wrapper-1.1.4-2.3.aarch64.rpm"
 RPM_HASH = "3acb061cbd1f2236e500b0a26cb39b8578417b3c74716873fab4ff65482682c62e20a9482a4f66a6ce049ea8b226f4d6403593f6beba3d263a769f4f69f2f898"
 
-RPROVIDES:${PN} += "cmake(pam_wrapper) \
-libpam_wrapper.so.0()(64bit) \
-pam_wrapper \
-pam_wrapper(aarch-64) \
-pkgconfig(pam_wrapper)"
+RPROVIDES:${PN} += "cmake-pam-wrapper \
+libpam-wrapper.so.0 \
+pam-wrapper \
+pkgconfig-pam-wrapper"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpam.so.0"
 
 inherit rpm

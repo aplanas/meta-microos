@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "xterm-console"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-aaa_base \
+aaa-base \
 coreutils \
 fonts-config \
 perl"

@@ -12,13 +12,12 @@ RPM_NAME = "ruby3.2-rubygem-coffee-script-source-1.12.2-1.28.aarch64.rpm"
 RPM_HASH = "b72adc9fb32d4b469c74f9e5caf4dfc02df144ff7acaad45b9886259080ba27dbc06ae42b48ce673332435eb5f03a56f0aa27b3ad435f4d2650a7e556065a5dc"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-coffee-script-source \
-ruby3.2-rubygem-coffee-script-source(aarch-64) \
-rubygem(coffee-script-source) \
-rubygem(ruby:3.2.0:coffee-script-source) \
-rubygem(ruby:3.2.0:coffee-script-source:1) \
-rubygem(ruby:3.2.0:coffee-script-source:1.12) \
-rubygem(ruby:3.2.0:coffee-script-source:1.12.2)"
+rubygem-coffee-script-source \
+rubygem-ruby-3.2.0-coffee-script-source \
+rubygem-ruby-3.2.0-coffee-script-source-1 \
+rubygem-ruby-3.2.0-coffee-script-source-1.12 \
+rubygem-ruby-3.2.0-coffee-script-source-1.12.2"
 
-RDEPENDS:${PN} += "ruby(abi)"
+RDEPENDS:${PN} += "ruby-abi"
 
 inherit rpm

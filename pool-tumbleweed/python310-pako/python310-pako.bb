@@ -18,13 +18,13 @@ RPM_HASH = "f19f4eb54130ec54324418d8faf2e45541587c0c3b6be6f894e9d9176fee3ac68dc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pako \
-python3.10dist(pako) \
+python3.10dist-pako \
 python310-pako \
-python3dist(pako)"
+python3dist-pako"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-appdirs \
 update-alternatives"
 

@@ -10,13 +10,12 @@ RPM_HASH = "dd1b0d8fe45948eeb26ffc43fa60150729787a96d1ce1177e8d17f9d4af216885b17
 
 RPROVIDES:${PN} += "par \
 par2 \
-par2cmdline \
-par2cmdline(aarch-64)"
+par2cmdline"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgomp.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgomp.so.1 \
+libstdc++.so.6"
 
 inherit rpm

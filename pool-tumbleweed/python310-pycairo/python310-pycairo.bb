@@ -9,15 +9,14 @@ RPM_HASH = "a457ef2a2ead61387acd1d322bbfa788bf940d1218a3eaa3f23530b5c98b16d4b071
 
 RPROVIDES:${PN} += "python3-cairo \
 python3-pycairo \
-python3.10dist(pycairo) \
+python3.10dist-pycairo \
 python310-cairo \
 python310-pycairo \
-python310-pycairo(aarch-64) \
-python3dist(pycairo)"
+python3dist-pycairo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+python-abi"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "eefdfcb0e0fa411b459ae2e4d44504b0134362c13d7044e29350c87538e1ab3a7162
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pexpect \
-python3.10dist(pexpect) \
+python3.10dist-pexpect \
 python310-pexpect \
-python3dist(pexpect)"
+python3dist-pexpect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ptyprocess"
 
 inherit rpm

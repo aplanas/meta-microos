@@ -10,13 +10,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elfutils-lang \
 elfutils-lang-all \
-locale(elfutils:de) \
-locale(elfutils:en@boldquot) \
-locale(elfutils:en@quot) \
-locale(elfutils:es) \
-locale(elfutils:ja) \
-locale(elfutils:pl) \
-locale(elfutils:uk)"
+locale-elfutils-de \
+locale-elfutils-en@boldquot \
+locale-elfutils-en@quot \
+locale-elfutils-es \
+locale-elfutils-ja \
+locale-elfutils-pl \
+locale-elfutils-uk"
 
 RDEPENDS:${PN} += "elfutils"
 

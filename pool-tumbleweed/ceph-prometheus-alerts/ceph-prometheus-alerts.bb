@@ -9,7 +9,7 @@ RPM_HASH = "5d121b21443f9722014e2b2d4d07ca00b9233fb52a213d12baa2f98be857a4f9a8d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-prometheus-alerts \
-config(ceph-prometheus-alerts)"
+config-ceph-prometheus-alerts"
 
 RDEPENDS:${PN} += ""
 

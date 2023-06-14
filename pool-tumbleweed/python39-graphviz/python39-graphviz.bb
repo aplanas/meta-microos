@@ -17,11 +17,11 @@ RPM_NAME = "python39-graphviz-0.20.1-2.1.noarch.rpm"
 RPM_HASH = "54e6cb304670a53d3dd9c6121cb5fa2e856b04b41a3151c223045c0df4abb90ea8aec29709bc118f314e5c863ee05f4cebeb10bdb3e471f2398ce9da9ca3e41e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(graphviz) \
+RPROVIDES:${PN} += "python3.9dist-graphviz \
 python39-graphviz \
-python3dist(graphviz)"
+python3dist-graphviz"
 
 RDEPENDS:${PN} += "graphviz \
-python(abi)"
+python-abi"
 
 inherit rpm

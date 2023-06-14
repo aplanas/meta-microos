@@ -17,13 +17,13 @@ RPM_HASH = "96b610c474402f2b0cc9f71ce4968dcea7429cc458e8b85a040d1fd613eb22ef8c7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyquil \
-python3.10dist(pyquil) \
+python3.10dist-pyquil \
 python310-pyquil \
-python3dist(pyquil)"
+python3dist-pyquil"
 
-RDEPENDS:${PN} += "(python310-importlib-metadata >= 3.7.3 if python310-base < 3.8) \
-(python310-qcs-api-client >= 0.21 with python310-qcs-api-client < 0.22.0) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-importlib-metadata >= 3.7.3 if python310-base < 3.8 \
+-python310-qcs-api-client >= 0.21 with python310-qcs-api-client < 0.22.0 \
+python-abi \
 python310-Deprecated \
 python310-lark \
 python310-networkx \

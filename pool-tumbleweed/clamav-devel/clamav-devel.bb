@@ -12,8 +12,7 @@ RPM_NAME = "clamav-devel-0.103.8-1.3.aarch64.rpm"
 RPM_HASH = "7531aabecc6478fd61480fc0d6281821816f9ddecfb5c2503ee4189cfd0f7f06da528734f8ab24c616c376bfaf7dc2e725eda030468a42649124fdf0ed9c069d"
 
 RPROVIDES:${PN} += "clamav-devel \
-clamav-devel(aarch-64) \
-pkgconfig(libclamav)"
+pkgconfig-libclamav"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclamav9 \

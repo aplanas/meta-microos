@@ -10,16 +10,15 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_cpp200-mvapich2-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "37fb71b529c88f890d2df5043c3ead79ebd58c4b56132fbb4f4a857899d30738b9d72bc079b3792abb676ea1df9528a22330dded6cb20d30c23f15c327096865"
 
-RPROVIDES:${PN} += "libhdf5_cpp-mvapich2 \
-libhdf5_cpp.so.200()(64bit) \
-libhdf5_cpp200-mvapich2 \
-libhdf5_cpp200-mvapich2(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-cpp-mvapich2 \
+libhdf5-cpp.so.200 \
+libhdf5-cpp200-mvapich2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhdf5.so.200()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhdf5.so.200 \
+libstdc++.so.6"
 
 inherit rpm

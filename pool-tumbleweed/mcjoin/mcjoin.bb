@@ -13,9 +13,8 @@ PV = "2.11"
 RPM_NAME = "mcjoin-2.11-1.2.aarch64.rpm"
 RPM_HASH = "f5b2415e491c95dfda14ec3ca06dbf0246424a72e914af415d56978a14275c3e0f860d155fd317284d8d4e650bcdc0c7a02214c5fc1da81f84e8fda6ea872c83"
 
-RPROVIDES:${PN} += "mcjoin \
-mcjoin(aarch-64)"
+RPROVIDES:${PN} += "mcjoin"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

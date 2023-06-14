@@ -11,9 +11,9 @@ RPM_NAME = "perl-Devel-TakeHashArgs-0.006-1.23.noarch.rpm"
 RPM_HASH = "f85d5d136b456117b0e797ad965c28cc2384bf73d10a7fb0b4f7703ab0c52e463413a84f599fda4a8310db80861cdad51f7e81192234efcd68962fbbaded20be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Devel::TakeHashArgs) \
+RPROVIDES:${PN} += "perl-Devel--TakeHashArgs \
 perl-Devel-TakeHashArgs"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

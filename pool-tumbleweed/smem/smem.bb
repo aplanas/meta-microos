@@ -16,12 +16,11 @@ PV = "1.5"
 RPM_NAME = "smem-1.5-1.9.aarch64.rpm"
 RPM_HASH = "a7160fad6e2f427f16ff99de4e030443a3aa8fc7ca4ea8401323b1e69ea3441940aa50ea8fa827d6d7c702c90e1e314021f68966f19f7ba4a2fb07e8a3a43aa6"
 
-RPROVIDES:${PN} += "smem \
-smem(aarch-64)"
+RPROVIDES:${PN} += "smem"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 python3"
 
 inherit rpm

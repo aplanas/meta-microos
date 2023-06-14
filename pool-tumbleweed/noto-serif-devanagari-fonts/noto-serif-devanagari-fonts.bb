@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-devanagari \
 noto-serif-devanagari-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

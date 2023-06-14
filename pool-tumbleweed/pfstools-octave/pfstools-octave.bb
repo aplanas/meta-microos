@@ -8,15 +8,14 @@ PV = "2.2.0"
 RPM_NAME = "pfstools-octave-2.2.0-3.14.aarch64.rpm"
 RPM_HASH = "88f260e0a5287cd2064380d616aec19f83868ca069505a4b8cdbe1e56a79ea30d98e23b348092e2035f1611ac110e676769059682f231e2832f795ec664891e8"
 
-RPROVIDES:${PN} += "pfstools-octave \
-pfstools-octave(aarch-64)"
+RPROVIDES:${PN} += "pfstools-octave"
 
 RDEPENDS:${PN} += "/usr/bin/octave \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpfs.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpfs.so.2 \
+libstdc++.so.6 \
 octave"
 
 inherit rpm

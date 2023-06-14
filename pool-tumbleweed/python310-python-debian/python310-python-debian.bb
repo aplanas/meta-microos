@@ -20,12 +20,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-debian \
 python3-python-debian \
-python3.10dist(python-debian) \
+python3.10dist-python-debian \
 python310-debian \
 python310-python-debian \
-python3dist(python-debian)"
+python3dist-python-debian"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-chardet \
 python310-six \
 zstd"

@@ -8,26 +8,25 @@ RPM_NAME = "indi-plugins-1.9.9-2.2.aarch64.rpm"
 RPM_HASH = "1855cfae4515bec77a41a7f5efc5eb300339e8b673ddf4229b5b8fba400bc139ac3f883b3e1e574e89acaaaeaa647e84fe8dd0ddb8094c952469aa7c92cd0610"
 
 RPROVIDES:${PN} += "indi-plugins \
-indi-plugins(aarch-64) \
-libindi_Nearest_MathPlugin.so()(64bit) \
-libindi_SVD_MathPlugin.so()(64bit)"
+libindi-Nearest-MathPlugin.so \
+libindi-SVD-MathPlugin.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libboost_system.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libindidriver.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libogg.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtheoradec.so.1()(64bit) \
-libtheoraenc.so.1()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libboost-system.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libcfitsio.so.10 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libindidriver.so.1 \
+libjpeg.so.8 \
+libm.so.6 \
+libnova-0.15.so.0 \
+libogg.so.0 \
+libstdc++.so.6 \
+libtheoradec.so.1 \
+libtheoraenc.so.1 \
+libusb-1.0.so.0 \
+libz.so.1"
 
 inherit rpm

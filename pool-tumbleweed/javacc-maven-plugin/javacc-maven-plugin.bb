@@ -9,19 +9,19 @@ RPM_HASH = "eab4946065db974b17ae7d6a8c63977acfd7b8b0902c624978052ddb85e219767ec7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javacc-maven-plugin \
-mvn(org.codehaus.mojo:javacc-maven-plugin) \
-mvn(org.codehaus.mojo:javacc-maven-plugin:pom:)"
+mvn-org.codehaus.mojo-javacc-maven-plugin \
+mvn-org.codehaus.mojo-javacc-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(net.java.dev.javacc:javacc) \
-mvn(org.apache.maven.doxia:doxia-sink-api) \
-mvn(org.apache.maven.doxia:doxia-site-renderer) \
-mvn(org.apache.maven.reporting:maven-reporting-api) \
-mvn(org.apache.maven.reporting:maven-reporting-impl) \
-mvn(org.apache.maven:maven-model) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-project) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-net.java.dev.javacc-javacc \
+mvn-org.apache.maven-maven-model \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-project \
+mvn-org.apache.maven.doxia-doxia-sink-api \
+mvn-org.apache.maven.doxia-doxia-site-renderer \
+mvn-org.apache.maven.reporting-maven-reporting-api \
+mvn-org.apache.maven.reporting-maven-reporting-impl \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

@@ -14,8 +14,7 @@ PV = "12.0.0"
 RPM_NAME = "apache-arrow-acero-devel-static-12.0.0-1.1.aarch64.rpm"
 RPM_HASH = "61414d74c2eb9dcc674ac4f01e9600f28f200578ee510a1aab14636dced4e897afa09752091675689370ecd06584b6d3f2be287813a74083a9e1ab98c9a1329b"
 
-RPROVIDES:${PN} += "apache-arrow-acero-devel-static \
-apache-arrow-acero-devel-static(aarch-64)"
+RPROVIDES:${PN} += "apache-arrow-acero-devel-static"
 
 RDEPENDS:${PN} += "apache-arrow-devel"
 

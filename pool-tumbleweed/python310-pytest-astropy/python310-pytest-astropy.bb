@@ -17,11 +17,11 @@ RPM_HASH = "37a6ec18d204811f822eb30567b8fb418bec05909d1615aa320385f43fcfe63e2dd9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-astropy \
-python3.10dist(pytest-astropy) \
+python3.10dist-pytest-astropy \
 python310-pytest-astropy \
-python3dist(pytest-astropy)"
+python3dist-pytest-astropy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-hypothesis \
 python310-pytest \

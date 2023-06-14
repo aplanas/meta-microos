@@ -8,15 +8,15 @@ RPM_NAME = "myspell-en_NZ-20221012-1.2.noarch.rpm"
 RPM_HASH = "37a9c739aa79dd74b36f99b12e840e6002ea3256da0612b08cef3b1f1a19109e6c1cfd2d5ebc4252eada387d364366d00db20bea83521da674bf0c722ffb55a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:en_NZ) \
-locale(seamonkey-spellchecker:en_NZ) \
+RPROVIDES:${PN} += "locale-libreoffice-en-NZ \
+locale-seamonkey-spellchecker-en-NZ \
 myspell-dictionary \
-myspell-en_NZ \
+myspell-en-NZ \
 myspell-new-zaeland"
 
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en \
-myspell-en_GB \
-myspell-en_US"
+myspell-en-GB \
+myspell-en-US"
 
 inherit rpm

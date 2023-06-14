@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "OpenSP \
 opensp-doc \
 sp \
-sp_libs"
+sp-libs"
 
 RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog"
 

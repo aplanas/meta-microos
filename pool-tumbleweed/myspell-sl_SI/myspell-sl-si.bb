@@ -9,10 +9,10 @@ RPM_HASH = "a171b58b736799ebb5006bef33614e601662091e9a91eeee0e5e19056e0020e4a219
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-sl \
-locale(libreoffice:sl_SI) \
-locale(seamonkey-spellchecker:sl_SI) \
+locale-libreoffice-sl-SI \
+locale-seamonkey-spellchecker-sl-SI \
 myspell-dictionary \
-myspell-sl_SI \
+myspell-sl-SI \
 myspell-slovene"
 
 RDEPENDS:${PN} += "myspell-dictionaries"

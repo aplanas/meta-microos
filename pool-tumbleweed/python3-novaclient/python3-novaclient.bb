@@ -11,12 +11,12 @@ RPM_HASH = "15e50d6efffe7c8450f2d7bea7d485a4abcce30a3229e60a761f78a6bb984d2dc553
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-novaclient \
-python3.10dist(python-novaclient) \
-python3dist(python-novaclient)"
+python3.10dist-python-novaclient \
+python3dist-python-novaclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 openssl \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-PrettyTable \
 python3-iso8601 \

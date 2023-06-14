@@ -24,10 +24,10 @@ RPM_HASH = "746b7b3aace52300532e0c93504b5dad8a118f17492fcea447fce3d2614cca2bc774
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intelhex \
-python3.10dist(intelhex) \
-python3dist(intelhex)"
+python3.10dist-intelhex \
+python3dist-intelhex"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

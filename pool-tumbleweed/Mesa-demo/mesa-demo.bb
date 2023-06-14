@@ -21,24 +21,23 @@ PV = "9.0.0"
 RPM_NAME = "Mesa-demo-9.0.0-1.1.aarch64.rpm"
 RPM_HASH = "e9731d34bf6191bfed7ba51dd40524328f12f90e59cb193aaee53f6d9854f7bf1e6da7c4f3aaf9c7a53278fe676f2e4fa4375efc55debb3439a7ab45fff00a4c"
 
-RPROVIDES:${PN} += "Mesa-demo \
-Mesa-demo(aarch-64)"
+RPROVIDES:${PN} += "Mesa-demo"
 
 RDEPENDS:${PN} += "Mesa-demo-egl \
 Mesa-demo-es \
 Mesa-demo-x \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libOSMesa.so.8()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit) \
-libglut.so.3()(64bit) \
-libm.so.6()(64bit) \
-libvulkan.so.1()(64bit) \
-libxcb.so.1()(64bit) \
-libxkbcommon-x11.so.0()(64bit) \
-libxkbcommon.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLU.so.1 \
+libOSMesa.so.8 \
+libX11.so.6 \
+libXext.so.6 \
+libc.so.6 \
+libglut.so.3 \
+libm.so.6 \
+libvulkan.so.1 \
+libxcb.so.1 \
+libxkbcommon-x11.so.0 \
+libxkbcommon.so.0"
 
 inherit rpm

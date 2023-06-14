@@ -19,7 +19,7 @@ automake \
 gettext \
 libtool \
 pkgconfig \
-pkgconfig(glib-2.0) \
-pkgconfig(gtk-doc)"
+pkgconfig-glib-2.0 \
+pkgconfig-gtk-doc"
 
 inherit rpm

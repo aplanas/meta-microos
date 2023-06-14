@@ -19,11 +19,10 @@ PV = "0.03"
 RPM_NAME = "perl-Encode-EUCJPASCII-0.03-5.35.aarch64.rpm"
 RPM_HASH = "65488a8000bd26e3a52d410206688a9f5b0ae6658bfb964fe2b1d8abd57409dce1f455e6c9241f8c76ff96da889e4d1158ee06932c25e2409067bc51eb5a4069"
 
-RPROVIDES:${PN} += "perl(Encode::EUCJPASCII) \
-perl-Encode-EUCJPASCII \
-perl-Encode-EUCJPASCII(aarch-64)"
+RPROVIDES:${PN} += "perl-Encode--EUCJPASCII \
+perl-Encode-EUCJPASCII"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

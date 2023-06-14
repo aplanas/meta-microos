@@ -15,14 +15,14 @@ RPM_NAME = "python311-Pint-0.20.1-1.4.noarch.rpm"
 RPM_HASH = "92b27706bcbc1abb0cf78bf8d9d3d5041cfb565f8734654ee5aa1b950e7a279f175110b4451e42504f50d8331896ff109d2ab7dc87890e3b87470dc116923023"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pint) \
+RPROVIDES:${PN} += "python3.11dist-pint \
 python311-Pint \
-python3dist(pint)"
+python3dist-pint"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-importlib-metadata \
 python311-importlib-resources \
 python311-packaging \

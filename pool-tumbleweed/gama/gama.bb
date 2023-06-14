@@ -19,16 +19,15 @@ PV = "2.24"
 RPM_NAME = "gama-2.24-1.3.aarch64.rpm"
 RPM_HASH = "cc669f705ef8dbb180fb8d4570d9b706b74b4ffdd118c2d474f45e4f3d1d438dde6b1af2b9a0052a187c73b650ff674a2da84e8d9ae269704513ab5e6c671a95"
 
-RPROVIDES:${PN} += "gama \
-gama(aarch-64)"
+RPROVIDES:${PN} += "gama"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexpat.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexpat.so.1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
 libxml2-tools"
 
 inherit rpm

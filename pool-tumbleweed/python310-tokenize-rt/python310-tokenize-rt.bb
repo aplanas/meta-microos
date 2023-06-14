@@ -9,13 +9,13 @@ RPM_HASH = "7456e0d3563b6d68c48b2f753e18cf7226fb9850c1aedb957f7e7b9fc5a5531d9fda
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tokenize-rt \
-python3.10dist(tokenize-rt) \
+python3.10dist-tokenize-rt \
 python310-tokenize-rt \
-python3dist(tokenize-rt)"
+python3dist-tokenize-rt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

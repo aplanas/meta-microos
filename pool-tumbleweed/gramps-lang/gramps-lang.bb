@@ -10,44 +10,44 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gramps-lang \
 gramps-lang-all \
-locale(gramps:ar) \
-locale(gramps:bg) \
-locale(gramps:ca) \
-locale(gramps:cs) \
-locale(gramps:da) \
-locale(gramps:de) \
-locale(gramps:el) \
-locale(gramps:en_GB) \
-locale(gramps:eo) \
-locale(gramps:es) \
-locale(gramps:fi) \
-locale(gramps:fr) \
-locale(gramps:he) \
-locale(gramps:hr) \
-locale(gramps:hu) \
-locale(gramps:is) \
-locale(gramps:it) \
-locale(gramps:ja) \
-locale(gramps:lt) \
-locale(gramps:nb) \
-locale(gramps:nl) \
-locale(gramps:nn) \
-locale(gramps:pl) \
-locale(gramps:pt_BR) \
-locale(gramps:pt_PT) \
-locale(gramps:ru) \
-locale(gramps:sk) \
-locale(gramps:sl) \
-locale(gramps:sq) \
-locale(gramps:sr) \
-locale(gramps:sv) \
-locale(gramps:ta) \
-locale(gramps:tr) \
-locale(gramps:uk) \
-locale(gramps:vi) \
-locale(gramps:zh_CN) \
-locale(gramps:zh_HK) \
-locale(gramps:zh_TW)"
+locale-gramps-ar \
+locale-gramps-bg \
+locale-gramps-ca \
+locale-gramps-cs \
+locale-gramps-da \
+locale-gramps-de \
+locale-gramps-el \
+locale-gramps-en-GB \
+locale-gramps-eo \
+locale-gramps-es \
+locale-gramps-fi \
+locale-gramps-fr \
+locale-gramps-he \
+locale-gramps-hr \
+locale-gramps-hu \
+locale-gramps-is \
+locale-gramps-it \
+locale-gramps-ja \
+locale-gramps-lt \
+locale-gramps-nb \
+locale-gramps-nl \
+locale-gramps-nn \
+locale-gramps-pl \
+locale-gramps-pt-BR \
+locale-gramps-pt-PT \
+locale-gramps-ru \
+locale-gramps-sk \
+locale-gramps-sl \
+locale-gramps-sq \
+locale-gramps-sr \
+locale-gramps-sv \
+locale-gramps-ta \
+locale-gramps-tr \
+locale-gramps-uk \
+locale-gramps-vi \
+locale-gramps-zh-CN \
+locale-gramps-zh-HK \
+locale-gramps-zh-TW"
 
 RDEPENDS:${PN} += "gramps"
 

@@ -13,10 +13,10 @@ RPM_HASH = "de812db5911ef0c2759d862c46923bbec1a1a0ac3d6a8a2ddbd20b3a995bee1588bf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flexmock \
-python3.10dist(flexmock) \
+python3.10dist-flexmock \
 python310-flexmock \
-python3dist(flexmock)"
+python3dist-flexmock"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

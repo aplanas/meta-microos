@@ -18,12 +18,12 @@ RPM_NAME = "python311-azure-ai-translation-text-1.0.0~b1-1.1.noarch.rpm"
 RPM_HASH = "ff073de5e73cfd101fae98e5faa00f79f3e1b722c6cdba4bf03ca517a37b47a5598a1f33c6779ace4fc6c2cd12aaf8795cf539aedd594496883543bb6610cc68"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-ai-translation-text) \
+RPROVIDES:${PN} += "python3.11dist-azure-ai-translation-text \
 python311-azure-ai-translation-text \
-python3dist(azure-ai-translation-text)"
+python3dist-azure-ai-translation-text"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
+python-abi \
 python311-azure-ai-nspkg \
 python311-azure-ai-translation-nspkg \
 python311-azure-common \

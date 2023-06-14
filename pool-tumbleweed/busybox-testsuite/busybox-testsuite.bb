@@ -12,8 +12,7 @@ PV = "1.36.0"
 RPM_NAME = "busybox-testsuite-1.36.0-1.3.aarch64.rpm"
 RPM_HASH = "7fc186aa93b96cf99750a15db59fc29eb06bc23a2b1ecace00fa17d9c95b509040079e7befef370407a2a9a4aab486d38ad7a81e7ab3754bf1bf8bca92ea2564"
 
-RPROVIDES:${PN} += "busybox-testsuite \
-busybox-testsuite(aarch-64)"
+RPROVIDES:${PN} += "busybox-testsuite"
 
 RDEPENDS:${PN} += "/bin/sh \
 busybox \

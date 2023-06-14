@@ -12,17 +12,15 @@ RPM_NAME = "gptfdisk-1.0.9-3.3.aarch64.rpm"
 RPM_HASH = "c8bb3f2b40e37fcef511a2ff77cae0465c7b4ea5fa3d3ff96f073ccc4e4f67fb29a08f0a11c24731fbf10c5cd28cafb5b9786888cf430dd5748e8557e188c36a"
 
 RPROVIDES:${PN} += "gdisk \
-gptfdisk \
-gptfdisk(aarch-64)"
+gptfdisk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libpopt.so.0()(64bit) \
-libpopt.so.0(LIBPOPT_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libncursesw.so.6 \
+libpopt.so.0 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

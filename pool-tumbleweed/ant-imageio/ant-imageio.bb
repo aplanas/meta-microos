@@ -11,13 +11,13 @@ RPM_HASH = "9d7fce1d7158cada27f2272e8156a94779e4547cb2c2fa51e0ccf0f64bf5a629165d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-imageio \
-config(ant-imageio) \
-mvn(org.apache.ant:ant-imageio) \
-mvn(org.apache.ant:ant-imageio:pom:)"
+config-ant-imageio \
+mvn-org.apache.ant-ant-imageio \
+mvn-org.apache.ant-ant-imageio-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant)"
+mvn-org.apache.ant-ant"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "72f359d1486939cb78edc478bdc71066d8f0effcdb0e5e26fcb7329117d30b85922e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-kms \
-python3.10dist(google-cloud-kms) \
+python3.10dist-google-cloud-kms \
 python310-google-cloud-kms \
-python3dist(google-cloud-kms)"
+python3dist-google-cloud-kms"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-api-core \
 python310-grpc-google-iam-v1 \
 update-alternatives"

@@ -15,11 +15,11 @@ RPM_HASH = "c29ae08b4aecfdc2f375004734ae54503b15147b9286e05cacbf3b1f303a19eb1743
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyprel \
-python3.10dist(pyprel) \
+python3.10dist-pyprel \
 python310-pyprel \
-python3dist(pyprel)"
+python3dist-pyprel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-numpy \
 python310-pandas \

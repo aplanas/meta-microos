@@ -18,11 +18,11 @@ RPM_NAME = "python39-ldappool-3.0.0-3.3.noarch.rpm"
 RPM_HASH = "51ec332962dffc30360e94899193c00191eda6f060359f5203d680628594396ec8f2a8a422bb703809ca732bde8f78554d3a073732f7cede93a95482c71ec6d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ldappool) \
+RPROVIDES:${PN} += "python3.9dist-ldappool \
 python39-ldappool \
-python3dist(ldappool)"
+python3dist-ldappool"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-ldap \
 python39-prettytable"
 

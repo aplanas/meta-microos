@@ -12,11 +12,11 @@ RPM_HASH = "4041f7adbe01866e110e19e8a98bd9545cfebdd1b504498b6fdc9b2630a48ef1a8c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-latex \
-python310-jupyter_notebook-latex \
+python310-jupyter-notebook-latex \
 python310-notebook-latex \
-python311-jupyter_notebook-latex \
+python311-jupyter-notebook-latex \
 python311-notebook-latex \
-python39-jupyter_notebook-latex \
+python39-jupyter-notebook-latex \
 python39-notebook-latex"
 
 RDEPENDS:${PN} += "jupyter-nbconvert-latex \

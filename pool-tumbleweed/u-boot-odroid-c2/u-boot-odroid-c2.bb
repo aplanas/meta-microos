@@ -9,8 +9,7 @@ RPM_NAME = "u-boot-odroid-c2-2023.04-2.1.aarch64.rpm"
 RPM_HASH = "79aad7953496b25c3234032b546062792e4eec8a22874a81cd93b0b81550e29036078363620dc3df5206b232616612bd46a671a7b5dd850db00c04289866c2ee"
 
 RPROVIDES:${PN} += "u-boot-loader \
-u-boot-odroid-c2 \
-u-boot-odroid-c2(aarch-64)"
+u-boot-odroid-c2"
 
 RDEPENDS:${PN} += ""
 

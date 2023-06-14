@@ -20,7 +20,7 @@ RPM_NAME = "texlive-comment-2023.201.3.8svn41927-53.1.noarch.rpm"
 RPM_HASH = "7f62978d24406d523f099a4908747451940e7d73b7915e2ace15d6d50a44828f8baae8af3da52d167b7b03b166f8411a3b2551ef03828e8392ff1f006782b6fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(comment.sty) \
+RPROVIDES:${PN} += "tex-comment.sty \
 texlive-comment"
 
 RDEPENDS:${PN} += "/bin/sh \

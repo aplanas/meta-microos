@@ -14,8 +14,8 @@ RPM_NAME = "texlive-arrayjobx-2023.201.1.04svn18125-53.1.noarch.rpm"
 RPM_HASH = "af4aca459ea8eac51aea4708d0a466ba6a67e33ab8dd681fdc262e8eb27a531b861e5801222235cf8b32000cc796e1e695cbeff44a23537da282dea4c4fc126c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arrayjob.sty) \
-tex(arrayjobx.sty) \
+RPROVIDES:${PN} += "tex-arrayjob.sty \
+tex-arrayjobx.sty \
 texlive-arrayjobx"
 
 RDEPENDS:${PN} += "/bin/sh \

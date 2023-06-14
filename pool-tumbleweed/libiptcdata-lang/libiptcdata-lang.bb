@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libiptcdata-lang \
 libiptcdata-lang-all \
-locale(libiptcdata:de) \
-locale(libiptcdata:it)"
+locale-libiptcdata-de \
+locale-libiptcdata-it"
 
 RDEPENDS:${PN} += "libiptcdata"
 

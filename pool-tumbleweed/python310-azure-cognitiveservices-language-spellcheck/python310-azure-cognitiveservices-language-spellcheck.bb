@@ -11,11 +11,11 @@ RPM_HASH = "6561c37cf37a08594a0e2165f969e05d36e2209cf2000a1f5841fda3ebf3681ef25e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-spellcheck \
-python3.10dist(azure-cognitiveservices-language-spellcheck) \
+python3.10dist-azure-cognitiveservices-language-spellcheck \
 python310-azure-cognitiveservices-language-spellcheck \
-python3dist(azure-cognitiveservices-language-spellcheck)"
+python3dist-azure-cognitiveservices-language-spellcheck"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-language-nspkg \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \

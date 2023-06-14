@@ -14,26 +14,25 @@ PV = "3.34"
 RPM_NAME = "fio-3.34-2.1.aarch64.rpm"
 RPM_HASH = "334b87324959c3b8ac491243126afcc6fb58de802da6a5f1d9769fff1b60ddc6ec56b4b034f6ca81b9d0e0d076a7fc157b11522eca9d42b32f22129d0ed70cb4"
 
-RPROVIDES:${PN} += "fio \
-fio(aarch-64)"
+RPROVIDES:${PN} += "fio"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libgfapi.so.0()(64bit) \
-libibverbs.so.1()(64bit) \
-libiscsi.so.9()(64bit) \
-libm.so.6()(64bit) \
-libnbd.so.0()(64bit) \
-libnuma.so.1()(64bit) \
-librados.so.2()(64bit) \
-librbd.so.1()(64bit) \
-librdmacm.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libaio.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libgfapi.so.0 \
+libibverbs.so.1 \
+libiscsi.so.9 \
+libm.so.6 \
+libnbd.so.0 \
+libnuma.so.1 \
+librados.so.2 \
+librbd.so.1 \
+librdmacm.so.1 \
+libz.so.1"
 
 inherit rpm

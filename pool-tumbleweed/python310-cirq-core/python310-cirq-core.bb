@@ -13,11 +13,11 @@ RPM_HASH = "4a797a15cb8abc15a7d445fca2c139f9ab6721433f9c02ae1f523e95c67771367d06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cirq-core \
-python3.10dist(cirq-core) \
+python3.10dist-cirq-core \
 python310-cirq-core \
-python3dist(cirq-core)"
+python3dist-cirq-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-duet \
 python310-matplotlib \
 python310-networkx \
@@ -27,6 +27,6 @@ python310-scipy \
 python310-sortedcontainers \
 python310-sympy \
 python310-tqdm \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "bcbdf83271fdbd10edd1c2b00444cc4e7d2b38579a794fcae47604b8668d4e8d86e8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Automat \
-python3.10dist(automat) \
+python3.10dist-automat \
 python310-Automat \
-python3dist(automat)"
+python3dist-automat"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-attrs \
 update-alternatives"
 

@@ -11,12 +11,12 @@ RPM_HASH = "4c139140d803f964cc0602c343e8790a9453740378089e25d64793366594028522cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-xml \
-mvn(org.json4s:json4s-xml_2.10) \
-mvn(org.json4s:json4s-xml_2.10:pom:)"
+mvn-org.json4s-json4s-xml-2.10 \
+mvn-org.json4s-json4s-xml-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.json4s:json4s-core_2.10) \
-mvn(org.scala-lang:scala-library)"
+mvn-org.json4s-json4s-core-2.10 \
+mvn-org.scala-lang-scala-library"
 
 inherit rpm

@@ -15,8 +15,8 @@ RPM_NAME = "texlive-tikz-cd-2023.201.1.0svn59133-54.1.noarch.rpm"
 RPM_HASH = "6cfebb2a212723532d554dad64113fb19d3acff8e577d73b80948046617e37ea775eb51c00318cb10e12449cb0516a6bdc3ebd515113b750c15f5602a422318b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tikz-cd.sty) \
-tex(tikzlibrarycd.code.tex) \
+RPROVIDES:${PN} += "tex-tikz-cd.sty \
+tex-tikzlibrarycd.code.tex \
 texlive-tikz-cd"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,7 +25,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(tikz.sty) \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

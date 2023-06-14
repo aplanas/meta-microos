@@ -15,10 +15,9 @@ PV = "3.0.3"
 RPM_NAME = "pngcheck-3.0.3-1.8.aarch64.rpm"
 RPM_HASH = "43cbb9eef2234dfe55afa85b9aef8c9fa7cf965793b285903b565401495166949bca04fe5b4b29a477529c1526f0e76d5c7092e3ac0cd70055d4d2a4eb8eacf8"
 
-RPROVIDES:${PN} += "pngcheck \
-pngcheck(aarch-64)"
+RPROVIDES:${PN} += "pngcheck"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libz.so.1"
 
 inherit rpm

@@ -9,12 +9,11 @@ PV = "0.8.3"
 RPM_NAME = "libdrop_ambient0-0.8.3-2.1.aarch64.rpm"
 RPM_HASH = "3afad98be9d16fc689bb0d5b6758dc3676786e819ccc2429e4f254bb6260d5aba47ce56e79baedaabebce9a07428fc806e7ff98ee59a1ba03bb8053ae77e87e1"
 
-RPROVIDES:${PN} += "libdrop_ambient.so.0()(64bit) \
-libdrop_ambient0 \
-libdrop_ambient0(aarch-64)"
+RPROVIDES:${PN} += "libdrop-ambient.so.0 \
+libdrop-ambient0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
+libc.so.6 \
 libcap-ng0"
 
 inherit rpm

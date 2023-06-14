@@ -15,9 +15,9 @@ RPM_NAME = "texlive-navigator-2023.201.1.1svn41413-54.1.noarch.rpm"
 RPM_HASH = "a2125e316a31e895e2d660d7265c8fa69275e3aacbf0d50cf759b61e226b0815fd1dacdd672b5bed7ec7bdcc1b218b9ca4e50bdcae00e3880866ed54237ba663"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(navigator.sty) \
-tex(navigator.tex) \
-tex(t-navigator.tex) \
+RPROVIDES:${PN} += "tex-navigator.sty \
+tex-navigator.tex \
+tex-t-navigator.tex \
 texlive-navigator"
 
 RDEPENDS:${PN} += "/bin/sh \

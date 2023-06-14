@@ -10,11 +10,11 @@ RPM_HASH = "99dac4f5efebd906f6d2b444b9ea7435f0b2aa76def47e94f77e15e283cadeaa7ed8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyramid-chameleon \
-python3.10dist(pyramid-chameleon) \
+python3.10dist-pyramid-chameleon \
 python310-pyramid-chameleon \
-python3dist(pyramid-chameleon)"
+python3dist-pyramid-chameleon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Chameleon \
 python310-pyramid"
 

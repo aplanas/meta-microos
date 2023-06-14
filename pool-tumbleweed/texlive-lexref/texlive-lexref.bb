@@ -14,7 +14,7 @@ RPM_NAME = "texlive-lexref-2023.201.1.1asvn36026-54.1.noarch.rpm"
 RPM_HASH = "38397e0c124108c80fac78c6b4a1bcb473c4f5e4969c4ff5fb4677e14f4f38d1bd0e39d06b20fd2ee5f60d25fce114441d5d5e7e5ab091ea7c365c3019d86bf9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lexref.sty) \
+RPROVIDES:${PN} += "tex-lexref.sty \
 texlive-lexref"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,13 +23,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(ifthen.sty) \
-tex(nomencl.sty) \
-tex(splitidx.sty) \
-tex(stringstrings.sty) \
-tex(xargs.sty) \
-tex(xstring.sty) \
+tex-etoolbox.sty \
+tex-ifthen.sty \
+tex-nomencl.sty \
+tex-splitidx.sty \
+tex-stringstrings.sty \
+tex-xargs.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

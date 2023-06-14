@@ -10,11 +10,11 @@ RPM_HASH = "31552990d45d918b0b2fbdf07b856a0a8364dc12a02bd8643837aa0e87fc9f21ebc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-golang \
-python3.10dist(avocado-framework-plugin-golang) \
-python3dist(avocado-framework-plugin-golang)"
+python3.10dist-avocado-framework-plugin-golang \
+python3dist-avocado-framework-plugin-golang"
 
 RDEPENDS:${PN} += "go \
-python(abi) \
+python-abi \
 python3-avocado"
 
 inherit rpm

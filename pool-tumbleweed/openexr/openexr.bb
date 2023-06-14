@@ -18,17 +18,16 @@ RPM_NAME = "openexr-3.1.7-1.1.aarch64.rpm"
 RPM_HASH = "71646df802e6d6b3a675dd02abe33444c609d6a8f57a0679fef7d7a14c8c81976303adb624ff1fd975d915e78ce95127b82fd5938cdded646a52ccf2c8e0d860"
 
 RPROVIDES:${PN} += "OpenEXR \
-openexr \
-openexr(aarch-64)"
+openexr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libIex-3_1.so.30()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libOpenEXRCore-3_1.so.30()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libIex-3-1.so.30 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libOpenEXRCore-3-1.so.30 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

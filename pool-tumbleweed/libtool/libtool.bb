@@ -10,7 +10,6 @@ RPM_HASH = "8c0b77f1ea1e5f6675019c8624f5ab1528c41e5117374594c32bcd106524d56e39af
 
 RPROVIDES:${PN} += "libltdl-devel \
 libtool \
-libtool(aarch-64) \
 libtool-ltdl-devel"
 
 RDEPENDS:${PN} += "/bin/sh \

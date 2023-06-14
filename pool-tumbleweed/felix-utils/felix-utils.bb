@@ -9,8 +9,8 @@ RPM_HASH = "cbab3f0ad53eca1ab625f18e7af8706061ca8f68625a0b1e760f6cafff79d054f281
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-utils \
-mvn(org.apache.felix:org.apache.felix.utils) \
-mvn(org.apache.felix:org.apache.felix.utils:pom:)"
+mvn-org.apache.felix-org.apache.felix.utils \
+mvn-org.apache.felix-org.apache.felix.utils-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

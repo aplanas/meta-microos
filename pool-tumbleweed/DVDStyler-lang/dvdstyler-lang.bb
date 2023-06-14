@@ -10,39 +10,39 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "DVDStyler-lang \
 DVDStyler-lang-all \
-locale(DVDStyler:ar) \
-locale(DVDStyler:bg) \
-locale(DVDStyler:ca) \
-locale(DVDStyler:cs) \
-locale(DVDStyler:da) \
-locale(DVDStyler:de) \
-locale(DVDStyler:el) \
-locale(DVDStyler:es) \
-locale(DVDStyler:eu) \
-locale(DVDStyler:fi) \
-locale(DVDStyler:fr) \
-locale(DVDStyler:hu) \
-locale(DVDStyler:it) \
-locale(DVDStyler:ja) \
-locale(DVDStyler:ko) \
-locale(DVDStyler:mk) \
-locale(DVDStyler:nb) \
-locale(DVDStyler:nl) \
-locale(DVDStyler:pl) \
-locale(DVDStyler:pt) \
-locale(DVDStyler:pt_BR) \
-locale(DVDStyler:ro) \
-locale(DVDStyler:ru) \
-locale(DVDStyler:si) \
-locale(DVDStyler:sk) \
-locale(DVDStyler:sl) \
-locale(DVDStyler:sr) \
-locale(DVDStyler:sv) \
-locale(DVDStyler:tr) \
-locale(DVDStyler:uk) \
-locale(DVDStyler:vi) \
-locale(DVDStyler:zh_CN) \
-locale(DVDStyler:zh_TW)"
+locale-DVDStyler-ar \
+locale-DVDStyler-bg \
+locale-DVDStyler-ca \
+locale-DVDStyler-cs \
+locale-DVDStyler-da \
+locale-DVDStyler-de \
+locale-DVDStyler-el \
+locale-DVDStyler-es \
+locale-DVDStyler-eu \
+locale-DVDStyler-fi \
+locale-DVDStyler-fr \
+locale-DVDStyler-hu \
+locale-DVDStyler-it \
+locale-DVDStyler-ja \
+locale-DVDStyler-ko \
+locale-DVDStyler-mk \
+locale-DVDStyler-nb \
+locale-DVDStyler-nl \
+locale-DVDStyler-pl \
+locale-DVDStyler-pt \
+locale-DVDStyler-pt-BR \
+locale-DVDStyler-ro \
+locale-DVDStyler-ru \
+locale-DVDStyler-si \
+locale-DVDStyler-sk \
+locale-DVDStyler-sl \
+locale-DVDStyler-sr \
+locale-DVDStyler-sv \
+locale-DVDStyler-tr \
+locale-DVDStyler-uk \
+locale-DVDStyler-vi \
+locale-DVDStyler-zh-CN \
+locale-DVDStyler-zh-TW"
 
 RDEPENDS:${PN} += "DVDStyler"
 

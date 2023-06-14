@@ -12,11 +12,11 @@ RPM_NAME = "python311-sge-pygame-1.7.1-1.7.noarch.rpm"
 RPM_HASH = "731a3b3978257eaee2f6590f746f4491905c8dbb862f730245855d11ad401fa1b9bda86df456f6ad3c85c52d88729fcc6fc25eaa4cbc1f34263f7f984df309b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(sge) \
+RPROVIDES:${PN} += "python3.11dist-sge \
 python311-sge-pygame \
-python3dist(sge)"
+python3dist-sge"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-pygame \
 python311-six \
 python311-uniseg"

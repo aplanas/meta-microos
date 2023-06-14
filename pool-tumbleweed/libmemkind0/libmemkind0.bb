@@ -18,13 +18,12 @@ PV = "1.14.0"
 RPM_NAME = "libmemkind0-1.14.0-1.2.aarch64.rpm"
 RPM_HASH = "ecc4c6c96abafe0286bec9fe9acf7a406d191b633094ecf57a7689a5bb5ce7808fa67ddb8a60debb91aa1ac2f1ee512ceb937fb2ebf255d6c12f809e1c217329"
 
-RPROVIDES:${PN} += "libmemkind.so.0()(64bit) \
-libmemkind0 \
-libmemkind0(aarch-64)"
+RPROVIDES:${PN} += "libmemkind.so.0 \
+libmemkind0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnuma.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnuma.so.1"
 
 inherit rpm

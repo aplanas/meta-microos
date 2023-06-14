@@ -20,9 +20,9 @@ RPM_NAME = "perl-Class-XPath-1.4-161.26.noarch.rpm"
 RPM_HASH = "b01ce1cb76141524c5f306a2a0da3ba52ff17e82076657292d7c44f4d058397460f4575b15012642b1c14ab887bce67879f7428f29b90875b436d5370b9ea042"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::XPath) \
+RPROVIDES:${PN} += "perl-Class--XPath \
 perl-Class-XPath"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -15,11 +15,11 @@ RPM_NAME = "perl-Module-Build-Using-PkgConfig-0.03-1.11.noarch.rpm"
 RPM_HASH = "a1a6df6c28e9af60a5d4b39fbb31e59cfa729df1b8373985bebe03933794e1325dca4ed5988d00f7a9adc027acfd89f09a3b10525e93505c6c64a6b622c595f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Build::Using::PkgConfig) \
+RPROVIDES:${PN} += "perl-Module--Build--Using--PkgConfig \
 perl-Module-Build-Using-PkgConfig"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(ExtUtils::PkgConfig) \
-perl(Module::Build)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-ExtUtils--PkgConfig \
+perl-Module--Build"
 
 inherit rpm

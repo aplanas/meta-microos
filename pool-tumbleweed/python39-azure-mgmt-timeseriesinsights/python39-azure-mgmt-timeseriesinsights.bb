@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-timeseriesinsights-1.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "0a668ce0811017d87f23d0d9360ec3ab5da49eca3f526cd55dbaa6cefbe5bb0234fb4285dae20db9aac01830a87d454d02a11dd72ccb68f58a61a6c5ba03077f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-timeseriesinsights) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-timeseriesinsights \
 python39-azure-mgmt-timeseriesinsights \
-python3dist(azure-mgmt-timeseriesinsights)"
+python3dist-azure-mgmt-timeseriesinsights"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

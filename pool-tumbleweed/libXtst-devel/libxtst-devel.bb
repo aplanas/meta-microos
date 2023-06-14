@@ -17,15 +17,14 @@ RPM_NAME = "libXtst-devel-1.2.4-1.2.aarch64.rpm"
 RPM_HASH = "f692dc67402d01986f9347d59a6f98dca2734cc170771bab2e4e7150e37416c6f2d085685561e6d9605387f673763c7bfe844e32365e3485e5467a327ae36698"
 
 RPROVIDES:${PN} += "libXtst-devel \
-libXtst-devel(aarch-64) \
-pkgconfig(xtst)"
+pkgconfig-xtst"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXtst6 \
-pkgconfig(recordproto) \
-pkgconfig(x11) \
-pkgconfig(xext) \
-pkgconfig(xextproto) \
-pkgconfig(xi)"
+pkgconfig-recordproto \
+pkgconfig-x11 \
+pkgconfig-xext \
+pkgconfig-xextproto \
+pkgconfig-xi"
 
 inherit rpm

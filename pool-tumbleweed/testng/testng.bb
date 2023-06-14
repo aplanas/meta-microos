@@ -11,16 +11,16 @@ RPM_NAME = "testng-7.4.0-3.2.noarch.rpm"
 RPM_HASH = "cd3303bc64e312e25291af919408c1652e543da97d0750dddd4f33a851fd3bb685d2c0ef08261143ab61eeaaac2564c493f76f3a24dff4e621ac8a64d564b051"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn(org.testng:testng) \
-mvn(org.testng:testng::jdk15:) \
-mvn(org.testng:testng:pom:) \
-mvn(org.testng:testng:pom:jdk15:) \
-osgi(org.testng) \
+RPROVIDES:${PN} += "mvn-org.testng-testng \
+mvn-org.testng-testng--jdk15- \
+mvn-org.testng-testng-pom- \
+mvn-org.testng-testng-pom-jdk15- \
+osgi-org.testng \
 testng"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.beust:jcommander) \
-mvn(org.yaml:snakeyaml)"
+mvn-com.beust-jcommander \
+mvn-org.yaml-snakeyaml"
 
 inherit rpm

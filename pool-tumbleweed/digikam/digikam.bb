@@ -12,43 +12,32 @@ PV = "8.0.0"
 RPM_NAME = "digikam-8.0.0-3.2.aarch64.rpm"
 RPM_HASH = "b1d3a47ed7120e9acf2d10d77080de64697b48d9ea4a5149f37b5554604efdd75cdea90ba3748339b3b8692ca3cbe0798a304727500d80b0905b36fa203dbb5f"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.digikam.desktop) \
-digikam \
-digikam(aarch-64) \
+RPROVIDES:${PN} += "digikam \
 digikam-doc \
 digikam-plugin-color \
 digikam-plugin-decorate \
 digikam-plugin-enhance \
 digikam-plugin-fxfilters \
-digikam-plugin-transform \
-metainfo() \
-metainfo(org.kde.digikam.appdata.xml) \
-mimehandler(x-content/image-dcf) \
-mimehandler(x-content/image-picturecd)"
+digikam-plugin-transform"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 digikam-plugins \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libMagick++-7.Q16HDRI.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libMagick++-7.Q16HDRI.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Sql.so.5 \
 libQt5Sql5-sqlite \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libdigikamcore.so.8.0.0()(64bit) \
-libdigikamdatabase.so.8.0.0()(64bit) \
-libdigikamgui.so.8.0.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Widgets.so.5 \
+libc.so.6 \
+libdigikamcore.so.8.0.0 \
+libdigikamdatabase.so.8.0.0 \
+libdigikamgui.so.8.0.0 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

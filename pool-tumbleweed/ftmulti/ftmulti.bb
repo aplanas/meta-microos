@@ -8,13 +8,12 @@ PV = "2.13.0"
 RPM_NAME = "ftmulti-2.13.0-4.1.aarch64.rpm"
 RPM_HASH = "dcc1d74708be2072126efbadf9c12caf093ba8ebe1e41e0f435b92da0d70768d6cc87cf4bd24b0efb5d1b373fd418549b514953da59b160efa74117c4e5d3f1f"
 
-RPROVIDES:${PN} += "ftmulti \
-ftmulti(aarch-64)"
+RPROVIDES:${PN} += "ftmulti"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-librsvg-2.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libfreetype.so.6 \
+librsvg-2.so.2"
 
 inherit rpm

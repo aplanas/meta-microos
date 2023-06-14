@@ -8,9 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-quickcontrols2impl-private-devel-6.5.1-1.2.aarch64.rpm"
 RPM_HASH = "9c5571d4ce935a5017e16339aae4cab10da2d797a98d0cb83815df2b282e35068467260e73fb3af218b5dfa1686e5050971149a238e4650ab3c2bb8a4fa83bbc"
 
-RPROVIDES:${PN} += "qt6-quickcontrols2impl-private-devel \
-qt6-quickcontrols2impl-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-quickcontrols2impl-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6QuickControls2Impl)"
+RDEPENDS:${PN} += "cmake-Qt6QuickControls2Impl"
 
 inherit rpm

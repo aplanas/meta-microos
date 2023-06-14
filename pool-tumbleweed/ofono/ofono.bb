@@ -12,18 +12,15 @@ PV = "1.34"
 RPM_NAME = "ofono-1.34-1.7.aarch64.rpm"
 RPM_HASH = "796dabbe8aef4ee00b03deaeb3a658fee1a7a30a74d331efaa23c7f88a7459dca724de0b4fc36285dd8c7494074bef9d5649c1ffd4116972d5b696f9d5e222a4"
 
-RPROVIDES:${PN} += "config(ofono) \
-ofono \
-ofono(aarch-64)"
+RPROVIDES:${PN} += "config-ofono \
+ofono"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libglib-2.0.so.0()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libglib-2.0.so.0 \
+libudev.so.1 \
 systemd"
 
 inherit rpm

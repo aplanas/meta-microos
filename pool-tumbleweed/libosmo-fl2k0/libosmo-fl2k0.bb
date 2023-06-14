@@ -10,14 +10,13 @@ PV = "0.1.1+git.20200602"
 RPM_NAME = "libosmo-fl2k0-0.1.1+git.20200602-1.11.aarch64.rpm"
 RPM_HASH = "c894d6874bba8c1fcfea66df611f188f01dbbeda995b085803d2d5f170cdd677dee87c580f607fd13a4d8315f8051b8f1e466ca1b49f49614ef141210c5cd25d"
 
-RPROVIDES:${PN} += "libosmo-fl2k.so.0()(64bit) \
-libosmo-fl2k0 \
-libosmo-fl2k0(aarch-64)"
+RPROVIDES:${PN} += "libosmo-fl2k.so.0 \
+libosmo-fl2k0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusb-1.0.so.0 \
 osmo-fl2k-udev"
 
 inherit rpm

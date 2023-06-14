@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-nobile-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

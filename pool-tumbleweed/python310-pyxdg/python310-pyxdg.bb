@@ -15,12 +15,12 @@ RPM_HASH = "982d93d45f16547a78d66de9f4f9a0c76741939dc9fd9e119eaf3d0caf006fce136a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyxdg \
-python3.10dist(pyxdg) \
+python3.10dist-pyxdg \
 python310-pyxdg \
-python3dist(pyxdg)"
+python3dist-pyxdg"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-python(abi) \
+python-abi \
 shared-mime-info"
 
 inherit rpm

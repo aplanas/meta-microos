@@ -16,7 +16,7 @@ RPM_NAME = "texlive-gridset-2023.201.0.0.3svn53762-53.1.noarch.rpm"
 RPM_HASH = "1cc20e5642c2374ca999169153f861960f53937f541320df1846fb1bccc6fda6fcfb253447e2c1b98f0ae730b8dbf6782e5567ef36d74367de9cfeddb289a5c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gridset.sty) \
+RPROVIDES:${PN} += "tex-gridset.sty \
 texlive-gridset"
 
 RDEPENDS:${PN} += "/bin/sh \

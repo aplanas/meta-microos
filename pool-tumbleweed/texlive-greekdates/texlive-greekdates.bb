@@ -13,7 +13,7 @@ RPM_NAME = "texlive-greekdates-2023.201.1.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "bf0f9157833325d75af8c1e7c4e2d640a5719104dbbfe9563fe29e9434578ff5f590e1c36ed641adb2ab7cb96a57bd7570031f0a1ae27a39eda30bac371ba436"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(greekdates.sty) \
+RPROVIDES:${PN} += "tex-greekdates.sty \
 texlive-greekdates"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
+tex-calc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

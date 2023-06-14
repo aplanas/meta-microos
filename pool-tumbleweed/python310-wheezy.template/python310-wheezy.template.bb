@@ -9,13 +9,13 @@ RPM_HASH = "83143962a18ba1b5aa7647c23ca33567aee273833e6748a45eb703f6d210d8aa0433
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wheezy.template \
-python3.10dist(wheezy.template) \
+python3.10dist-wheezy.template \
 python310-wheezy.template \
-python3dist(wheezy.template)"
+python3dist-wheezy.template"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -15,8 +15,8 @@ RPM_NAME = "texlive-xmltex-2023.201.0.0.8svn62145-52.1.noarch.rpm"
 RPM_HASH = "5d42daa1f17ffa0f79fe38164ca75636a9f7e6df39d03d9e592a9fe74c24b91b107725ab05e976022f56ea22231c7b4281b359df23919437bea27ad93a0c29df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xmltex.cfg) \
-tex(xmltex.tex) \
+RPROVIDES:${PN} += "tex-xmltex.cfg \
+tex-xmltex.tex \
 texlive-xmltex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,9 +25,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-atbegshi \
 texlive-atveryend \

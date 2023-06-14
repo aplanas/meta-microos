@@ -13,11 +13,11 @@ RPM_NAME = "python39-xsge_physics-0.13.2-1.7.noarch.rpm"
 RPM_HASH = "e855effc04117a56f16a85b32c4496aaa06ae31264bc36312c0a5a9ff111cb12b84034cb9c1927ccc49fa8773b1c810fc7a33072b5597e6108e4f200f84d9ffe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(xsge-physics) \
-python39-xsge_physics \
-python3dist(xsge-physics)"
+RPROVIDES:${PN} += "python3.9dist-xsge-physics \
+python39-xsge-physics \
+python3dist-xsge-physics"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-sge-pygame"
 
 inherit rpm

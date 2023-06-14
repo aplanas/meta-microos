@@ -26,7 +26,7 @@ RPM_NAME = "texlive-hyperxmp-2023.201.5.11svn65980-52.1.noarch.rpm"
 RPM_HASH = "a448f2eaf0ae70c332f23791256d1659d3efa1d3a04f4019219d5a39549e679bfb286ca3ae343e7089d8dcd6ea6eb1fe1986d76d4281892a6133c38c8e9e5a91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hyperxmp.sty) \
+RPROVIDES:${PN} += "tex-hyperxmp.sty \
 texlive-hyperxmp"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -35,21 +35,21 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(warnings) \
+perl-warnings \
 sed \
-tex(atenddvi.sty) \
-tex(etoolbox.sty) \
-tex(hyperref.sty) \
-tex(ifdraft.sty) \
-tex(ifluatex.sty) \
-tex(ifmtarg.sty) \
-tex(iftex.sty) \
-tex(ifthen.sty) \
-tex(intcalc.sty) \
-tex(kvoptions.sty) \
-tex(luacode.sty) \
-tex(pdfescape.sty) \
-tex(stringenc.sty) \
+tex-atenddvi.sty \
+tex-etoolbox.sty \
+tex-hyperref.sty \
+tex-ifdraft.sty \
+tex-ifluatex.sty \
+tex-ifmtarg.sty \
+tex-iftex.sty \
+tex-ifthen.sty \
+tex-intcalc.sty \
+tex-kvoptions.sty \
+tex-luacode.sty \
+tex-pdfescape.sty \
+tex-stringenc.sty \
 texlive \
 texlive-filesystem \
 texlive-hyperxmp-bin \

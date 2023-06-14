@@ -7,16 +7,15 @@ PV = "1.7.2"
 RPM_NAME = "hunspell-tools-1.7.2-1.3.aarch64.rpm"
 RPM_HASH = "1a6cabf4f08542769a8b4f2230584ee13a8e758cab2e02dc18ebc79d32d7ec4e7ea0936a9a65e0188a0c62c7e9fd91f2877619c6e9cbbf0c690bc75c586019cc"
 
-RPROVIDES:${PN} += "hunspell-tools \
-hunspell-tools(aarch-64)"
+RPROVIDES:${PN} += "hunspell-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 hunspell \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhunspell-1.7.so.0 \
+libstdc++.so.6"
 
 inherit rpm

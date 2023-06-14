@@ -19,7 +19,7 @@ RPM_NAME = "monitoring-plugins-sar-perf-0.1-111.6.noarch.rpm"
 RPM_HASH = "c92f7c50792acce281eef3cb4b5253b5af3b7e9a5bbdf6b27dc2daed30b70637b7ff895df97d2e761ef27eab799dbad455728116e1e59d5a8728f863d5024832"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(monitoring-plugins-sar-perf) \
+RPROVIDES:${PN} += "config-monitoring-plugins-sar-perf \
 monitoring-plugins-sar-perf \
 nagios-plugins-sar-perf"
 

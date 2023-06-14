@@ -12,8 +12,8 @@ RPM_NAME = "texlive-m-tx-2023.201.0.0.63dsvn64182-52.1.noarch.rpm"
 RPM_HASH = "d3e987142a154bd4f74b5d3554372d5e317eb97d43da6f479a2e2546300a32891e9e8e9eb7a884f197db66115fef169a798d2393193ae7c19d4b813e4f5f0c98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mtx.tex) \
-tex(mtxlatex.sty) \
+RPROVIDES:${PN} += "tex-mtx.tex \
+tex-mtxlatex.sty \
 texlive-m-tx"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(etex.sty) \
+tex-etex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

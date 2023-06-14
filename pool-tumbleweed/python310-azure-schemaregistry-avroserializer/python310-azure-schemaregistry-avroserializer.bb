@@ -12,11 +12,11 @@ RPM_HASH = "a2cb82e53b9a2eb696d42527531ac5cb4160e82de9be1ade0d8851a638b64db17642
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-schemaregistry-avroserializer \
-python3.10dist(azure-schemaregistry-avroserializer) \
+python3.10dist-azure-schemaregistry-avroserializer \
 python310-azure-schemaregistry-avroserializer \
-python3dist(azure-schemaregistry-avroserializer)"
+python3dist-azure-schemaregistry-avroserializer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-avro \
 python310-azure-core \
 python310-azure-nspkg \

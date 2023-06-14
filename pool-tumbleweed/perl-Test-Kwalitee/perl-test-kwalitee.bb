@@ -19,13 +19,13 @@ RPM_NAME = "perl-Test-Kwalitee-1.28-1.9.noarch.rpm"
 RPM_HASH = "0a1439773601f5c76c4e9e0f00124b2c65b933399f230cbf22fcb9ef1c71c8f713283a57b7be9ffb8560a85be540a93c01f54862d93c5023c66ea3d1198cc629"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Test::Kwalitee) \
+RPROVIDES:${PN} += "perl-Test--Kwalitee \
 perl-Test-Kwalitee"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Module::CPANTS::Analyse) \
-perl(Test::Builder) \
-perl(parent)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-Module--CPANTS--Analyse \
+perl-Test--Builder \
+perl-parent"
 
 inherit rpm

@@ -9,14 +9,14 @@ RPM_HASH = "3d7797e38fc34762587d0e362a2a585b1ae8cdb19b03aa83782380f4c4c4393afc38
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-logging-tools \
-mvn(org.jboss.logging:jboss-logging-annotations) \
-mvn(org.jboss.logging:jboss-logging-annotations:pom:) \
-mvn(org.jboss.logging:jboss-logging-processor) \
-mvn(org.jboss.logging:jboss-logging-processor:pom:) \
-mvn(org.jboss.logging:jboss-logging-tools-parent:pom:)"
+mvn-org.jboss.logging-jboss-logging-annotations \
+mvn-org.jboss.logging-jboss-logging-annotations-pom- \
+mvn-org.jboss.logging-jboss-logging-processor \
+mvn-org.jboss.logging-jboss-logging-processor-pom- \
+mvn-org.jboss.logging-jboss-logging-tools-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.jboss.jdeparser:jdeparser)"
+mvn-org.jboss.jdeparser-jdeparser"
 
 inherit rpm

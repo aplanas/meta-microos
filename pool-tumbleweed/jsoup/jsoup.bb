@@ -22,9 +22,9 @@ RPM_HASH = "7d5d66c253337dbbfa38760b3a9e996704de8625725a0dc5dce195c82ec6fea1bcf1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsoup \
-mvn(org.jsoup:jsoup) \
-mvn(org.jsoup:jsoup:pom:) \
-osgi(org.jsoup)"
+mvn-org.jsoup-jsoup \
+mvn-org.jsoup-jsoup-pom- \
+osgi-org.jsoup"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

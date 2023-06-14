@@ -36,45 +36,45 @@ RPM_NAME = "perl-ExtUtils-MakeMaker-7.70-1.1.noarch.rpm"
 RPM_HASH = "292198914a26fe13a10461658502ddf8e391dd0f376f7b219a01ea870444b906a8558905380e06a6fc85f540c6772e4ecd0ceda467e4485e9177e650636747f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DynaLoader) \
-perl(ExtUtils::Command) \
-perl(ExtUtils::Command::MM) \
-perl(ExtUtils::Liblist) \
-perl(ExtUtils::Liblist::Kid) \
-perl(ExtUtils::MM) \
-perl(ExtUtils::MM_AIX) \
-perl(ExtUtils::MM_Any) \
-perl(ExtUtils::MM_BeOS) \
-perl(ExtUtils::MM_Cygwin) \
-perl(ExtUtils::MM_DOS) \
-perl(ExtUtils::MM_Darwin) \
-perl(ExtUtils::MM_MacOS) \
-perl(ExtUtils::MM_NW5) \
-perl(ExtUtils::MM_OS2) \
-perl(ExtUtils::MM_OS390) \
-perl(ExtUtils::MM_QNX) \
-perl(ExtUtils::MM_UWIN) \
-perl(ExtUtils::MM_Unix) \
-perl(ExtUtils::MM_VMS) \
-perl(ExtUtils::MM_VOS) \
-perl(ExtUtils::MM_Win32) \
-perl(ExtUtils::MM_Win95) \
-perl(ExtUtils::MY) \
-perl(ExtUtils::MakeMaker) \
-perl(ExtUtils::MakeMaker::Config) \
-perl(ExtUtils::MakeMaker::Locale) \
-perl(ExtUtils::MakeMaker::_version) \
-perl(ExtUtils::MakeMaker::charstar) \
-perl(ExtUtils::MakeMaker::version) \
-perl(ExtUtils::MakeMaker::version::regex) \
-perl(ExtUtils::MakeMaker::version::vpp) \
-perl(ExtUtils::Mkbootstrap) \
-perl(ExtUtils::Mksymlists) \
-perl(ExtUtils::testlib) \
-perl(MM) \
-perl(MY) \
-perl-ExtUtils-MakeMaker"
+RPROVIDES:${PN} += "perl-DynaLoader \
+perl-ExtUtils--Command \
+perl-ExtUtils--Command--MM \
+perl-ExtUtils--Liblist \
+perl-ExtUtils--Liblist--Kid \
+perl-ExtUtils--MM \
+perl-ExtUtils--MM-AIX \
+perl-ExtUtils--MM-Any \
+perl-ExtUtils--MM-BeOS \
+perl-ExtUtils--MM-Cygwin \
+perl-ExtUtils--MM-DOS \
+perl-ExtUtils--MM-Darwin \
+perl-ExtUtils--MM-MacOS \
+perl-ExtUtils--MM-NW5 \
+perl-ExtUtils--MM-OS2 \
+perl-ExtUtils--MM-OS390 \
+perl-ExtUtils--MM-QNX \
+perl-ExtUtils--MM-UWIN \
+perl-ExtUtils--MM-Unix \
+perl-ExtUtils--MM-VMS \
+perl-ExtUtils--MM-VOS \
+perl-ExtUtils--MM-Win32 \
+perl-ExtUtils--MM-Win95 \
+perl-ExtUtils--MY \
+perl-ExtUtils--MakeMaker \
+perl-ExtUtils--MakeMaker---version \
+perl-ExtUtils--MakeMaker--Config \
+perl-ExtUtils--MakeMaker--Locale \
+perl-ExtUtils--MakeMaker--charstar \
+perl-ExtUtils--MakeMaker--version \
+perl-ExtUtils--MakeMaker--version--regex \
+perl-ExtUtils--MakeMaker--version--vpp \
+perl-ExtUtils--Mkbootstrap \
+perl-ExtUtils--Mksymlists \
+perl-ExtUtils--testlib \
+perl-ExtUtils-MakeMaker \
+perl-MM \
+perl-MY"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

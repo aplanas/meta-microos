@@ -14,8 +14,7 @@ PV = "0.4.6"
 RPM_NAME = "voro++-devel-0.4.6-1.24.aarch64.rpm"
 RPM_HASH = "30ec2528acc60bfd653b298cfb53c769e2b17640c4a483a7501da4ff079466501657b63e199bd2b8f079b191056dbdd6004841b173d4fc98a36a187c79fbf3b3"
 
-RPROVIDES:${PN} += "voro++-devel \
-voro++-devel(aarch-64)"
+RPROVIDES:${PN} += "voro++-devel"
 
 RDEPENDS:${PN} += "libvoro++0"
 

@@ -20,13 +20,13 @@ RPM_NAME = "perl-Array-Unique-0.09-1.1.noarch.rpm"
 RPM_HASH = "77ea4c02791eb90a0899e9bd2d27ff2f6cabaa3b0e3f77bf0d8eee7d1edc3c5c860c1c586652a90823893f57b8c81c48e5c9d31107989a8bc16840c51fcf24cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Array::Unique) \
-perl(Array::Unique::Hash) \
-perl(Array::Unique::IxHash) \
-perl(Array::Unique::Quick) \
-perl(Array::Unique::Std) \
+RPROVIDES:${PN} += "perl-Array--Unique \
+perl-Array--Unique--Hash \
+perl-Array--Unique--IxHash \
+perl-Array--Unique--Quick \
+perl-Array--Unique--Std \
 perl-Array-Unique"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

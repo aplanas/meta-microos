@@ -14,13 +14,13 @@ RPM_NAME = "python311-isort-5.12.0-2.1.noarch.rpm"
 RPM_HASH = "4552696c60ef6ffbca5f83e12782cb63a9b26f2c39ebac8563a871fe59ac304b1bca9c6e57c1cd3eb17ddc6d57fa1a33a92078a6517d1ad5ba97971ec1119874"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(isort) \
+RPROVIDES:${PN} += "python3.11dist-isort \
 python311-isort \
-python3dist(isort)"
+python3dist-isort"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

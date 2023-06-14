@@ -7,19 +7,16 @@ PV = "1.7.0"
 RPM_NAME = "stlink-gui-1.7.0-2.7.aarch64.rpm"
 RPM_HASH = "91c114104e19de05862de39787abbe81abe7c7bd6ee7cca2aa776d14a29a04fbd89a3aec0d44abec3d8a89447c6cb919107ef3d63d4af7bf4126ed6ff3868723"
 
-RPROVIDES:${PN} += "application() \
-application(stlink-gui.desktop) \
-stlink-gui \
-stlink-gui(aarch-64)"
+RPROVIDES:${PN} += "stlink-gui"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libstlink.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libstlink.so.1 \
 stlink"
 
 inherit rpm

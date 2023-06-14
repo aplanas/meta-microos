@@ -13,7 +13,7 @@ RPM_NAME = "texlive-nameauth-2023.201.3.7svn65738-54.1.noarch.rpm"
 RPM_HASH = "08e1eae43da8fc895bcd30945f06adf7a16e5f0c10250783b57cafa1fcf8a9f904b732a0a669449d361343d22ca5cc0d54d372f8a71f9c92a1f406dd6d39cc53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nameauth.sty) \
+RPROVIDES:${PN} += "tex-nameauth.sty \
 texlive-nameauth"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(suffix.sty) \
-tex(trimspaces.sty) \
-tex(xargs.sty) \
+tex-etoolbox.sty \
+tex-suffix.sty \
+tex-trimspaces.sty \
+tex-xargs.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

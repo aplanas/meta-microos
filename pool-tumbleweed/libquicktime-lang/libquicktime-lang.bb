@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libquicktime-lang \
 libquicktime-lang-all \
-locale(libquicktime:de)"
+locale-libquicktime-de"
 
 RDEPENDS:${PN} += "libquicktime"
 

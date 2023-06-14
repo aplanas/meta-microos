@@ -21,11 +21,11 @@ RPM_HASH = "67fc8f73af3a2f7a013f4daee23f2a52bfdc83ecc0f04579f3d7b702e67cc6c197f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydenticon \
-python3.10dist(pydenticon) \
+python3.10dist-pydenticon \
 python310-pydenticon \
-python3dist(pydenticon)"
+python3dist-pydenticon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow"
 
 inherit rpm

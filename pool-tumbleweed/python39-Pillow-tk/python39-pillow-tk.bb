@@ -8,12 +8,11 @@ PV = "9.5.0"
 RPM_NAME = "python39-Pillow-tk-9.5.0-2.1.aarch64.rpm"
 RPM_HASH = "b44474c9bd1baae9085448929b128812892c349e5b3d6ac09757898ef5adfbfff2ab79e06e01a1c0f98bab9c8c085d99e23e4895fa789473fe955b1cffa22e64"
 
-RPROVIDES:${PN} += "python39-Pillow-tk \
-python39-Pillow-tk(aarch-64)"
+RPROVIDES:${PN} += "python39-Pillow-tk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python39-Pillow \
 python39-tk"
 

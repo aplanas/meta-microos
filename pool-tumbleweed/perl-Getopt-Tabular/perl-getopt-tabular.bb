@@ -49,9 +49,9 @@ RPM_NAME = "perl-Getopt-Tabular-0.3-1.26.noarch.rpm"
 RPM_HASH = "41ffb02c10d4f7ab0eb8efb86750677b5542e1f63f8c3bb2c9be449543b2006613ab775257817894ff73c1d75ea1cee3fcc6faaa8645493c7fadc1f22506e75d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Getopt::Tabular) \
+RPROVIDES:${PN} += "perl-Getopt--Tabular \
 perl-Getopt-Tabular"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

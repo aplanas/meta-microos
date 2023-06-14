@@ -11,12 +11,11 @@ PV = "0.17"
 RPM_NAME = "scanmem-0.17-2.13.aarch64.rpm"
 RPM_HASH = "43250f13da11770741e78b3f253df278a75300d47a6b905f14ea2a218df6bb8188261c295a6ff5d34b738fcd5f43e6a0b26796306001ac03713fed5c093314a6"
 
-RPROVIDES:${PN} += "libscanmem.so.1()(64bit) \
-scanmem \
-scanmem(aarch-64)"
+RPROVIDES:${PN} += "libscanmem.so.1 \
+scanmem"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8"
 
 inherit rpm

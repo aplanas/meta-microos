@@ -16,10 +16,9 @@ PV = "1.1"
 RPM_NAME = "compartm-1.1-457.25.aarch64.rpm"
 RPM_HASH = "29106bfc0fc69eb9cf1ab23892297703e77e51d1e68b8674316caf8197bf6b4e0ede6d457afaa7c09bb416e151733e39e6c05021f47bf0eebaae187ffa4b082d"
 
-RPROVIDES:${PN} += "compartm \
-compartm(aarch-64)"
+RPROVIDES:${PN} += "compartm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

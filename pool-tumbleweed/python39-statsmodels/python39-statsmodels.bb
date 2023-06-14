@@ -13,14 +13,13 @@ PV = "0.13.5"
 RPM_NAME = "python39-statsmodels-0.13.5-2.5.aarch64.rpm"
 RPM_HASH = "ae450f688a27cc72596f35f845ffff799d1ffde110273e7900b479d185ad96627287c120cb0f9026163e697809ed46ca02d27cc66f4e804223933b1fbcbaf601"
 
-RPROVIDES:${PN} += "python3.9dist(statsmodels) \
+RPROVIDES:${PN} += "python3.9dist-statsmodels \
 python39-statsmodels \
-python39-statsmodels(aarch-64) \
-python3dist(statsmodels)"
+python3dist-statsmodels"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python39-numpy \
 python39-pandas \
 python39-patsy \

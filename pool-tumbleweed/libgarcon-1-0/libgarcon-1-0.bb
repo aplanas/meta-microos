@@ -12,21 +12,20 @@ RPM_NAME = "libgarcon-1-0-4.18.1-2.1.aarch64.rpm"
 RPM_HASH = "439b11131fd009ace2ba9574d71c7929393eff2f7d51369e0763b78e4c87c31c8212b04ca92ea49304f15ad7fb843cbd1410b883e31643796416e4d43fd3f1c6"
 
 RPROVIDES:${PN} += "libgarcon-1-0 \
-libgarcon-1-0(aarch-64) \
-libgarcon-1.so.0()(64bit) \
-libgarcon-gtk3-1.so.0()(64bit)"
+libgarcon-1.so.0 \
+libgarcon-gtk3-1.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 exo-tools \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libgarcon-data \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libxfce4ui-2.so.0()(64bit) \
-libxfce4util.so.7()(64bit)"
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libxfce4ui-2.so.0 \
+libxfce4util.so.7"
 
 inherit rpm

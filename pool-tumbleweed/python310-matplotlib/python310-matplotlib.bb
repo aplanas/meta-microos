@@ -13,18 +13,17 @@ RPM_HASH = "b4ff3ea9d5c5f6cd937ec6ed73aae95ede938b8b1b8447ad509722dd78f2aad3732d
 
 RPROVIDES:${PN} += "python3-matplotlib \
 python3-matplotlib-gtk \
-python3.10dist(matplotlib) \
+python3.10dist-matplotlib \
 python310-matplotlib \
-python310-matplotlib(aarch-64) \
 python310-matplotlib-gtk \
-python3dist(matplotlib)"
+python3dist-matplotlib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-Cycler \
 python310-FontTools \
 python310-Pillow \

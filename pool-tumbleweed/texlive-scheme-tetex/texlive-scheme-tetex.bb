@@ -9,7 +9,7 @@ RPM_NAME = "texlive-scheme-tetex-2023.208.svn59715-58.1.noarch.rpm"
 RPM_HASH = "88ba916fe8126829c5cc7ec1798d67814d02848a208f9dddf42fd426325a4f63b2ec3356c90090124d8580e05be80a32190d9a857b5fde4e7a962d7d804dcce4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tetex) \
+RPROVIDES:${PN} += "tex-tetex \
 texlive-scheme-tetex"
 
 RDEPENDS:${PN} += "texlive-acronym \

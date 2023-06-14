@@ -15,7 +15,7 @@ RPM_NAME = "texlive-ligtype-2023.201.0.0.1bsvn63577-54.1.noarch.rpm"
 RPM_HASH = "af4db03b6cca06dadb2ec587966c650ad8f7059b10ce6a873da2e53d178a233920984576cbf8d665ecea4896c240511db07fa56ea9fc69c1d7d6db0b80922166"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ligtype.sty) \
+RPROVIDES:${PN} += "tex-ligtype.sty \
 texlive-ligtype"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifluatex.sty) \
-tex(luatexbase.sty) \
+tex-ifluatex.sty \
+tex-luatexbase.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,14 +13,13 @@ PV = "0.0.29"
 RPM_NAME = "wxEDID-0.0.29-1.1.aarch64.rpm"
 RPM_HASH = "522f55c6df75da11f4017f851d153340107aaacdcc45e4f514cdf290fd183728e89ef189e10fa6082061f94fb06d269d736fb21d945d5ec5836eeddceef04e19"
 
-RPROVIDES:${PN} += "wxEDID \
-wxEDID(aarch-64)"
+RPROVIDES:${PN} += "wxEDID"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-aui-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0"
 
 inherit rpm

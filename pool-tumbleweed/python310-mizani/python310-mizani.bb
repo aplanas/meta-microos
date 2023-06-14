@@ -9,11 +9,11 @@ RPM_HASH = "ce5ba3b5226afbfd290f59dac8712bbb64f6a136052b59476159e0c14ecd41234570
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mizani \
-python3.10dist(mizani) \
+python3.10dist-mizani \
 python310-mizani \
-python3dist(mizani)"
+python3dist-mizani"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-palettable \

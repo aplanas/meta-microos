@@ -11,11 +11,10 @@ PV = "1.0.1"
 RPM_NAME = "ocr_1_0_1-gnu-mpich-hpc-devel-1.0.1-5.9.aarch64.rpm"
 RPM_HASH = "d61acaabbff0271db4a586eaa23e1f37af63a3cded8cfde7a6aedf4d61eac411a0454728e9608dbf7eec567e60627935add79da654d5ccbb50ae2cdc83602417"
 
-RPROVIDES:${PN} += "ocr_1_0_1-gnu-mpich-hpc-devel \
-ocr_1_0_1-gnu-mpich-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "ocr-1-0-1-gnu-mpich-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 mpich-gnu-hpc-devel \
-ocr_1_0_1-gnu-mpich-hpc"
+ocr-1-0-1-gnu-mpich-hpc"
 
 inherit rpm

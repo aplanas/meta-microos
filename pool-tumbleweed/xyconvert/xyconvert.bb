@@ -27,16 +27,15 @@ PV = "1.6"
 RPM_NAME = "xyconvert-1.6-1.15.aarch64.rpm"
 RPM_HASH = "1fbcf09aa0c424026ecf9f0ab105fd639a30a5065c06c50850b1cff83645260e0c9dad70b783fe7e4cc272eefa4487bfc707b9831632956d23ef1e0b58e3af64"
 
-RPROVIDES:${PN} += "xyconvert \
-xyconvert(aarch-64)"
+RPROVIDES:${PN} += "xyconvert"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_gtk2u_core-suse.so.9.0.0()(64bit) \
-libxy.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0 \
+libxy.so.3"
 
 inherit rpm

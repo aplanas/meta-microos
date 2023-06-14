@@ -11,13 +11,13 @@ RPM_HASH = "a4d8007c017828c83e24432b9de1261f894a3a55c6a519531aefc1ebea862fc82cf5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bugzillatools \
-python3.10dist(bugzillatools) \
+python3.10dist-bugzillatools \
 python310-bugzillatools \
-python3dist(bugzillatools)"
+python3dist-bugzillatools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

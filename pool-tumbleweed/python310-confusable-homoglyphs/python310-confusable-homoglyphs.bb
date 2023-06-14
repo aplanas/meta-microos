@@ -12,13 +12,13 @@ RPM_HASH = "b68fdfdd5282fddbbdebb325f7a3943ba69d612e50cbe57d811691f2b8cf8a04d9fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-confusable-homoglyphs \
-python3.10dist(confusable-homoglyphs) \
+python3.10dist-confusable-homoglyphs \
 python310-confusable-homoglyphs \
-python3dist(confusable-homoglyphs)"
+python3dist-confusable-homoglyphs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-click \
 update-alternatives"
 

@@ -13,11 +13,10 @@ PV = "2.3"
 RPM_NAME = "mmv-2.3-1.3.aarch64.rpm"
 RPM_HASH = "1e02fed856c8a3a55827b516e77133f48374a6297611d7558b7c645b62608cdebf5c41d95da1bd92bf7c4642f48dcc340830bcac1f1c46fb2c0cb8e9854a04a4"
 
-RPROVIDES:${PN} += "mmv \
-mmv(aarch-64)"
+RPROVIDES:${PN} += "mmv"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgc.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgc.so.1"
 
 inherit rpm

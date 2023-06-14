@@ -12,14 +12,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmark-python \
 python3-CommonMark \
 python3-commonmark \
-python3.10dist(commonmark) \
+python3.10dist-commonmark \
 python310-CommonMark \
 python310-commonmark \
-python3dist(commonmark)"
+python3dist-commonmark"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

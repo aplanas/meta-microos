@@ -21,16 +21,13 @@ PV = "4.7.4"
 RPM_NAME = "mayavi-4.7.4-1.7.aarch64.rpm"
 RPM_HASH = "61a34fbe20bdfdf8ade0e4be94b04f3f1883118dbe22e74ab3c2f7e6cbc0cb616215c6832630524acdaa66fac60bba4e8633dd8e27e9f5e918f41761def2795a"
 
-RPROVIDES:${PN} += "application() \
-application(mayavi.desktop) \
-mayavi \
-mayavi(aarch-64) \
+RPROVIDES:${PN} += "mayavi \
 python3-mayavi \
-python3.10dist(mayavi) \
-python3dist(mayavi)"
+python3.10dist-mayavi \
+python3dist-mayavi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Pygments \
 python3-apptools \
 python3-envisage \

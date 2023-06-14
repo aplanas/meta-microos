@@ -10,14 +10,13 @@ RPM_NAME = "python310-uvloop-0.17.0-1.5.aarch64.rpm"
 RPM_HASH = "dbb61141b9a876b0f9348463642d9754cd90100122d5398fba0a3944435ffa8fb2f04458983e1f578255ae3922b54c36e46741748332caf4f82e6ae5fccdc8ae"
 
 RPROVIDES:${PN} += "python3-uvloop \
-python3.10dist(uvloop) \
+python3.10dist-uvloop \
 python310-uvloop \
-python310-uvloop(aarch-64) \
-python3dist(uvloop)"
+python3dist-uvloop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libuv.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libuv.so.1 \
+python-abi"
 
 inherit rpm

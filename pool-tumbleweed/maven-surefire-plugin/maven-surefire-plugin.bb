@@ -9,13 +9,13 @@ RPM_HASH = "f632ba71722e1ae10bc56bf6e1f108292558e4da25d86df28edf2ce5b357a655357e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire-plugin \
-mvn(org.apache.maven.plugins:maven-surefire-plugin) \
-mvn(org.apache.maven.plugins:maven-surefire-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-surefire-plugin \
+mvn-org.apache.maven.plugins-maven-surefire-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.apache.commons:commons-lang3) \
-mvn(org.apache.maven.surefire:maven-surefire-common)"
+mvn-commons-io-commons-io \
+mvn-org.apache.commons-commons-lang3 \
+mvn-org.apache.maven.surefire-maven-surefire-common"
 
 inherit rpm

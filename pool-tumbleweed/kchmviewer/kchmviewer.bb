@@ -8,36 +8,21 @@ PV = "8.0"
 RPM_NAME = "kchmviewer-8.0-3.2.aarch64.rpm"
 RPM_HASH = "796f59c0016cc359dd22f1491fb5ed5515cde02b191028012f3968c543a55786c952e11726289c99c14c7d1fdd4332ec882177406461fb51a4a3921e2d67c5f9"
 
-RPROVIDES:${PN} += "application() \
-application(net.kchmviewer.kchmviewer.desktop) \
-kchmviewer \
-kchmviewer(aarch-64) \
-mimehandler(application/chm) \
-mimehandler(application/epub+zip) \
-mimehandler(application/vnd.ms-htmlhelp) \
-mimehandler(application/x-chm)"
+RPROVIDES:${PN} += "kchmviewer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5WebEngineCore.so.5()(64bit) \
-libQt5WebEngineCore.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libchm.so.0()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libzip.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5WebEngineCore.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libchm.so.0 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libzip.so.5"
 
 inherit rpm

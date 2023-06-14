@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipytablewidgets"
 
-RDEPENDS:${PN} += "python3dist(ipytablewidgets)"
+RDEPENDS:${PN} += "python3dist-ipytablewidgets"
 
 inherit rpm

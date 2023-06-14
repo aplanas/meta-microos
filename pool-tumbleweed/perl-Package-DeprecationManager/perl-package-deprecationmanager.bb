@@ -55,14 +55,14 @@ RPM_NAME = "perl-Package-DeprecationManager-0.18-1.1.noarch.rpm"
 RPM_HASH = "366bf40155df133fbfb6f7bfd6a1f80d9d290715a2238109e81b67c036353ac78bda1d04281b477c3dd83121a94bd1814cdd85914fe06948cd6bb4336c14332f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Package::DeprecationManager) \
+RPROVIDES:${PN} += "perl-Package--DeprecationManager \
 perl-Package-DeprecationManager"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(List::Util) \
-perl(Package::Stash) \
-perl(Params::Util) \
-perl(Sub::Install) \
-perl(Sub::Util)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-List--Util \
+perl-Package--Stash \
+perl-Params--Util \
+perl-Sub--Install \
+perl-Sub--Util"
 
 inherit rpm

@@ -7,20 +7,19 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "cephfs-mirror-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "39f1d0311f4b1491f4fc86c3b523eff6f55153a179408728c0117083a466cae7a428633990a24c3f8124897a6870d736c2a61faa74954ac615599c4f00964ddf"
 
-RPROVIDES:${PN} += "cephfs-mirror \
-cephfs-mirror(aarch-64)"
+RPROVIDES:${PN} += "cephfs-mirror"
 
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libceph-common.so.2()(64bit) \
-libcephfs.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libceph-common.so.2 \
+libcephfs.so.2 \
 libcephfs2 \
-libgcc_s.so.1()(64bit) \
-librados.so.2()(64bit) \
+libgcc-s.so.1 \
+librados.so.2 \
 librados2 \
-libstdc++.so.6()(64bit) \
-libtcmalloc.so.4()(64bit)"
+libstdc++.so.6 \
+libtcmalloc.so.4"
 
 inherit rpm

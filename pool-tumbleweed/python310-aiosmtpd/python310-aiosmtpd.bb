@@ -20,16 +20,16 @@ RPM_HASH = "3a2ddade95fcd18bd9cd4dccd7e93791e2a89081629b4979a33ff00d3eec0770d8fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aiosmtpd \
-python3.10dist(aiosmtpd) \
+python3.10dist-aiosmtpd \
 python310-aiosmtpd \
-python3dist(aiosmtpd)"
+python3dist-aiosmtpd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-atpublic \
 python310-attrs \
 update-alternatives \
-user(nobody)"
+user-nobody"
 
 inherit rpm

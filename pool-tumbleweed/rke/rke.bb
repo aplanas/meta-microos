@@ -8,9 +8,8 @@ PV = "1.4.5"
 RPM_NAME = "rke-1.4.5-1.2.aarch64.rpm"
 RPM_HASH = "c1fa9a0c8379fc878cf35b53d3c3371b2cb49adb4dee2ce7d1c61f1b69fc2d01d328e29ce2b6e5c677f41b4fe33609da6ecec9004aef31d866e7006fafd2db4c"
 
-RPROVIDES:${PN} += "rke \
-rke(aarch-64)"
+RPROVIDES:${PN} += "rke"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

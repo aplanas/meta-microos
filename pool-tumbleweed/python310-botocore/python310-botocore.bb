@@ -9,13 +9,13 @@ RPM_HASH = "2dabf94393f2951d29fbc42745c27458ab60fd71ebbabc8c50f2f9f7c4d40d945792
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-botocore \
-python3.10dist(botocore) \
+python3.10dist-botocore \
 python310-botocore \
-python3dist(botocore)"
+python3dist-botocore"
 
-RDEPENDS:${PN} += "(python310-jmespath >= 0.7.1 with python310-jmespath < 2.0.0) \
-(python310-python-dateutil >= 2.1 with python310-python-dateutil < 3.0.0) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-jmespath >= 0.7.1 with python310-jmespath < 2.0.0 \
+-python310-python-dateutil >= 2.1 with python310-python-dateutil < 3.0.0 \
+python-abi \
 python310-requests"
 
 inherit rpm

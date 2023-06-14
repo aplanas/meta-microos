@@ -10,10 +10,9 @@ PV = "1.23.0"
 RPM_NAME = "python-pycairo-common-devel-1.23.0-2.1.aarch64.rpm"
 RPM_HASH = "512acd79f69369022d8a4a33bf778d527f860ec2b55a3ad0392b0797e1f1ef5c2fc775e7f50c19f53ce274139611b4406435af29c2412e0ce948e2cbae2750f0"
 
-RPROVIDES:${PN} += "pkgconfig(py3cairo) \
+RPROVIDES:${PN} += "pkgconfig-py3cairo \
 python-cairo-common-devel \
 python-pycairo-common-devel \
-python-pycairo-common-devel(aarch-64) \
 python310-cairo-common-devel \
 python310-cairo-devel \
 python310-pycairo-common-devel \
@@ -26,6 +25,6 @@ python39-pycairo-common-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cairo-devel \
-pkgconfig(cairo)"
+pkgconfig-cairo"
 
 inherit rpm

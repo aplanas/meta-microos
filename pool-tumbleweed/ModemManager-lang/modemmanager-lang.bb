@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ModemManager-lang \
 ModemManager-lang-all \
-locale(ModemManager:cs) \
-locale(ModemManager:da) \
-locale(ModemManager:de) \
-locale(ModemManager:fi) \
-locale(ModemManager:fr) \
-locale(ModemManager:fur) \
-locale(ModemManager:gl) \
-locale(ModemManager:he) \
-locale(ModemManager:hu) \
-locale(ModemManager:id) \
-locale(ModemManager:it) \
-locale(ModemManager:ka) \
-locale(ModemManager:lt) \
-locale(ModemManager:nl) \
-locale(ModemManager:pl) \
-locale(ModemManager:pt_BR) \
-locale(ModemManager:ru) \
-locale(ModemManager:sk) \
-locale(ModemManager:sv) \
-locale(ModemManager:tr) \
-locale(ModemManager:uk) \
-locale(ModemManager:zh_CN)"
+locale-ModemManager-cs \
+locale-ModemManager-da \
+locale-ModemManager-de \
+locale-ModemManager-fi \
+locale-ModemManager-fr \
+locale-ModemManager-fur \
+locale-ModemManager-gl \
+locale-ModemManager-he \
+locale-ModemManager-hu \
+locale-ModemManager-id \
+locale-ModemManager-it \
+locale-ModemManager-ka \
+locale-ModemManager-lt \
+locale-ModemManager-nl \
+locale-ModemManager-pl \
+locale-ModemManager-pt-BR \
+locale-ModemManager-ru \
+locale-ModemManager-sk \
+locale-ModemManager-sv \
+locale-ModemManager-tr \
+locale-ModemManager-uk \
+locale-ModemManager-zh-CN"
 
 RDEPENDS:${PN} += "ModemManager"
 

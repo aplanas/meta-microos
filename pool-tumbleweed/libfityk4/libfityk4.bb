@@ -9,19 +9,18 @@ PV = "1.3.2"
 RPM_NAME = "libfityk4-1.3.2-1.4.aarch64.rpm"
 RPM_HASH = "26d0e4e37b2a23ac4a80d42b37400fe215616438b7397b59e8039abd83323a3c7d4edd34ab077ab46bcaaae85014eb7820a48f3b5963f33a5fbd8d8f5fc97aac"
 
-RPROVIDES:${PN} += "libfityk.so.4()(64bit) \
-libfityk4 \
-libfityk4(aarch-64)"
+RPROVIDES:${PN} += "libfityk.so.4 \
+libfityk4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.4.so.5()(64bit) \
-libm.so.6()(64bit) \
-libnlopt.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libxy.so.3()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+liblua5.4.so.5 \
+libm.so.6 \
+libnlopt.so.0 \
+libstdc++.so.6 \
+libxy.so.3 \
+libz.so.1"
 
 inherit rpm

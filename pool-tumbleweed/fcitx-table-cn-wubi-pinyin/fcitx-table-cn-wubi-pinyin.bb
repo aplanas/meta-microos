@@ -11,7 +11,7 @@ RPM_HASH = "7981b71f653cdb686a6ca6af377b36002c50c55d038332a9c03ed87dd9aef691247a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-wubi-pinyin \
-locale(fcitx-table:zh_CN;)"
+locale-fcitx-table-zh-CN;"
 
 RDEPENDS:${PN} += "fcitx-table"
 

@@ -19,14 +19,13 @@ python3-sip4-devel \
 python310-sip-bin \
 python310-sip-devel \
 python310-sip4-devel \
-python310-sip4-devel(aarch-64) \
-rpm_macro(requires_python310_sip_api)"
+rpm-macro-requires-python310-sip-api"
 
 RDEPENDS:${PN} += "/bin/sh \
-c++_compiler \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+c++-compiler \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-devel \
 python310-sip4 \
 python310-sip4-common \

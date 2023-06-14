@@ -7,16 +7,15 @@ PV = "3006.0"
 RPM_NAME = "python3-salt-3006.0-1.1.aarch64.rpm"
 RPM_HASH = "e5d79b78fead94c23e6656db96c6a3d488a4598fda2def7c525254b3378fe49c25a926d9da35add5a5676c3848ca018e701a51d29fdeb9c421c5878788e1a0df"
 
-RPROVIDES:${PN} += "bundled(python3-tornado) \
+RPROVIDES:${PN} += "bundled-python3-tornado \
 python3-salt \
-python3-salt(aarch-64) \
-python3.10dist(salt) \
-python3dist(salt)"
+python3.10dist-salt \
+python3dist-salt"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
-libzypp(plugin:system) \
-python(abi) \
+libzypp-plugin-system \
+python-abi \
 python3 \
 python3-Jinja2 \
 python3-M2Crypto \

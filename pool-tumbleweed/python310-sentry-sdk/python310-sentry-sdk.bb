@@ -10,11 +10,11 @@ RPM_HASH = "3e158b43d3d43bd6d4172772fa37227c2ab6494e5284619b42e8cdc08c19ab965982
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sentry-sdk \
-python3.10dist(sentry-sdk) \
+python3.10dist-sentry-sdk \
 python310-sentry-sdk \
-python3dist(sentry-sdk)"
+python3dist-sentry-sdk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Flask \
 python310-SQLAlchemy \

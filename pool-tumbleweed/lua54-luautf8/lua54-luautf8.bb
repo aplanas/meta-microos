@@ -13,10 +13,9 @@ RPM_NAME = "lua54-luautf8-0.1.5-2.4.aarch64.rpm"
 RPM_HASH = "a6ce3cd0fb43d9cb76bbc6d5a71ad5e32b9072f61dab8e778a2bedfaef634fe7f006d972e03801d468c61ebf0bb0830eb8b580ee6be5f28128f6b5aa50615f6b"
 
 RPROVIDES:${PN} += "lua-luautf8 \
-lua54-luautf8 \
-lua54-luautf8(aarch-64)"
+lua54-luautf8"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
+RDEPENDS:${PN} += "libc.so.6 \
 lua54"
 
 inherit rpm

@@ -16,10 +16,10 @@ RPM_HASH = "f7bc8c45a943cd421cebff297e307597afaf21ce6817c5aac7e089b828d9d8c034a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lockfile \
-python3.10dist(lockfile) \
+python3.10dist-lockfile \
 python310-lockfile \
-python3dist(lockfile)"
+python3dist-lockfile"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

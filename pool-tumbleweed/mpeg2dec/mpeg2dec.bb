@@ -7,14 +7,13 @@ PV = "0.5.1"
 RPM_NAME = "mpeg2dec-0.5.1-3.12.aarch64.rpm"
 RPM_HASH = "c7bb52d45e87eb0f80963013090b8bb1e18d84799b78e006121e083e01ec3722dad040bdf39ebd90fd739948f2099c6c11ccdc4a1db649dd0a23fb8000ee65db"
 
-RPROVIDES:${PN} += "mpeg2dec \
-mpeg2dec(aarch-64)"
+RPROVIDES:${PN} += "mpeg2dec"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libmpeg2-0 \
-libmpeg2.so.0()(64bit) \
-libmpeg2convert.so.0()(64bit) \
+libmpeg2.so.0 \
+libmpeg2convert.so.0 \
 libmpeg2convert0"
 
 inherit rpm

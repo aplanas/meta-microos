@@ -9,14 +9,14 @@ RPM_HASH = "b59916b31613b74ce53ec0913f187834f24bcef360c516725483033a4a33a13a4e95
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-css \
-mvn(org.apache.xmlgraphics:batik-css) \
-mvn(org.apache.xmlgraphics:batik-css:pom:) \
-osgi(org.apache.batik.css) \
+mvn-org.apache.xmlgraphics-batik-css \
+mvn-org.apache.xmlgraphics-batik-css-pom- \
+osgi-org.apache.batik.css \
 xmlgraphics-batik-css"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(xml-apis:xml-apis-ext) \
+mvn-xml-apis-xml-apis-ext \
 xmlgraphics-batik"
 
 inherit rpm

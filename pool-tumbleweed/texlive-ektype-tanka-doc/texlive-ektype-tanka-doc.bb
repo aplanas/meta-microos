@@ -9,7 +9,7 @@ RPM_HASH = "8ac051ba88a566491446e3c9dc04d85bc18abf0c398c03e18c1061af6c22e11282dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hi) \
-locale(texlive-ektype-tanka-doc:mr \
+locale(texlive-ektype-tanka-doc-mr \
 texlive-ektype-tanka-doc"
 
 RDEPENDS:${PN} += ""

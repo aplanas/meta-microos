@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-khojki \
 noto-sans-khojki-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

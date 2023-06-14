@@ -20,13 +20,13 @@ RPM_HASH = "4256ec790a57c2872320d5b58fcdeb0e03b13dcb6fa086fac8b123a9c63836568e4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-humanfriendly \
-python3.10dist(humanfriendly) \
+python3.10dist-humanfriendly \
 python310-humanfriendly \
-python3dist(humanfriendly)"
+python3dist-humanfriendly"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310 \
 update-alternatives"
 

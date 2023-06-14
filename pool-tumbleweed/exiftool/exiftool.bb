@@ -16,6 +16,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "exiftool"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Image::ExifTool)"
+perl-Image--ExifTool"
 
 inherit rpm

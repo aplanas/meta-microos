@@ -22,20 +22,18 @@ RPM_NAME = "gcdemu-3.2.6-1.4.noarch.rpm"
 RPM_HASH = "b42bb800c2386c64a00de93b0082a290bc4135e011cabe285a330dc0dce650abfe244cfea99e289f197276f282f2aa01c9f045cb8a976602028963d6a35f78c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(gcdemu.desktop) \
-gcdemu"
+RPROVIDES:${PN} += "gcdemu"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 cdemu-daemon \
 python3-gobject-Gdk \
-typelib(AyatanaAppIndicator3) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Notify)"
+typelib-AyatanaAppIndicator3 \
+typelib-GLib \
+typelib-GObject \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-Notify"
 
 inherit rpm

@@ -10,14 +10,14 @@ RPM_HASH = "21c6fbb645d0fd9185453da4918fe3adebe2ecbf34363a95628dbc1a835cefe7f7b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-spi \
-mvn(org.apache.maven.resolver:maven-resolver-spi) \
-mvn(org.apache.maven.resolver:maven-resolver-spi:pom:) \
-mvn(org.eclipse.aether:aether-spi) \
-mvn(org.eclipse.aether:aether-spi:pom:) \
-osgi(org.apache.maven.resolver.spi)"
+mvn-org.apache.maven.resolver-maven-resolver-spi \
+mvn-org.apache.maven.resolver-maven-resolver-spi-pom- \
+mvn-org.eclipse.aether-aether-spi \
+mvn-org.eclipse.aether-aether-spi-pom- \
+osgi-org.apache.maven.resolver.spi"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.resolver:maven-resolver-api)"
+mvn-org.apache.maven.resolver-maven-resolver-api"
 
 inherit rpm

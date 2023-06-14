@@ -9,13 +9,13 @@ RPM_HASH = "8c71b599de6d971dc6bd715067ff6f11e797b2a222e02c4c9e6d79e7967e4d9aaebf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtue \
-python3.10dist(virtue) \
+python3.10dist-virtue \
 python310-virtue \
-python3dist(virtue)"
+python3dist-virtue"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Twisted \
 python310-attrs \
 python310-click \

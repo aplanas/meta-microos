@@ -8,8 +8,7 @@ PV = "0.10.1"
 RPM_NAME = "lirc-disable-kernel-rc-0.10.1-10.1.aarch64.rpm"
 RPM_HASH = "e2cc369e7ac404b5b700744d57ccf7f77ac8e84fec91b09f69d5dc44c3d82d3a3b669c09fecad77503a88993674ae63aebe4f72e42096df550a240aca628b833"
 
-RPROVIDES:${PN} += "lirc-disable-kernel-rc \
-lirc-disable-kernel-rc(aarch-64)"
+RPROVIDES:${PN} += "lirc-disable-kernel-rc"
 
 RDEPENDS:${PN} += "lirc-core"
 

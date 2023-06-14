@@ -11,13 +11,13 @@ RPM_HASH = "e65233eb776416dcc8429be9d823834903c9438a661ca9ec120b77d0e15cb45e0548
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-gitlab \
-python3.10dist(python-gitlab) \
+python3.10dist-python-gitlab \
 python310-python-gitlab \
-python3dist(python-gitlab)"
+python3dist-python-gitlab"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-argcomplete \
 python310-requests \

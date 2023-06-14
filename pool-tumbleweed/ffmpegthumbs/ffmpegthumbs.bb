@@ -7,27 +7,22 @@ PV = "23.04.1"
 RPM_NAME = "ffmpegthumbs-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "e31cc3c3133477c939f91fa72c1910a55c891b6cf5f6b7caf7436f5b34f22ec171cfd01a8b291bcdc32e544287289a971d1d5af178b99bdc92a7581fb03b3727"
 
-RPROVIDES:${PN} += "ffmpegthumbs \
-ffmpegthumbs(aarch-64) \
-metainfo() \
-metainfo(org.kde.ffmpegthumbs.metainfo.xml)"
+RPROVIDES:${PN} += "ffmpegthumbs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libavcodec.so.60()(64bit) \
-libavfilter.so.9()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libswscale.so.7()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libavcodec.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libm.so.6 \
+libstdc++.so.6 \
+libswscale.so.7"
 
 inherit rpm

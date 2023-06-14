@@ -13,9 +13,9 @@ RPM_HASH = "1087f1b2b5d09a974d05c89cecca4b7ffb507e37d00e470554bad6960100acc8e7dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-messaging-nspkg \
-python3.10dist(azure-messaging-nspkg) \
+python3.10dist-azure-messaging-nspkg \
 python310-azure-messaging-nspkg \
-python3dist(azure-messaging-nspkg)"
+python3dist-azure-messaging-nspkg"
 
 RDEPENDS:${PN} += "python310-azure-nspkg"
 

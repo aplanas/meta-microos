@@ -7,21 +7,19 @@ PV = "23.04.1"
 RPM_NAME = "libKPim5MailTransportAkonadi5-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "e4c8cf4cb136e761f4ad3db04289746d806caaef708d53fbef9b7f3918b7702d80ef5b4331763f92b830a659cf1900e874fa4cfec8716ce0e109742088a7da87"
 
-RPROVIDES:${PN} += "libKPim5MailTransportAkonadi.so.5()(64bit) \
-libKPim5MailTransportAkonadi5 \
-libKPim5MailTransportAkonadi5(aarch-64)"
+RPROVIDES:${PN} += "libKPim5MailTransportAkonadi.so.5 \
+libKPim5MailTransportAkonadi5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kmailtransport \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKPim5AkonadiCore.so.5()(64bit) \
-libKPim5AkonadiMime.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKPim5AkonadiCore.so.5 \
+libKPim5AkonadiMime.so.5 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_NAME = "gnu_parallel-doc-20230422-1.1.noarch.rpm"
 RPM_HASH = "89398408d5c9df0abaec2af3d757efafcb20b711b6c155e43ea0773060c770bfbb473522fbac9a0880547dc0b344309362384eb6bf469bc69e8c3fcac45a978d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "gnu_parallel-doc"
+RPROVIDES:${PN} += "gnu-parallel-doc"
 
 RDEPENDS:${PN} += ""
 

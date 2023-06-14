@@ -17,11 +17,11 @@ RPM_HASH = "65eada4c9ce90e1499302e3428c4a19d930d9dafe1b47354ec20fa7ca3fcd5c69d51
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-containerregistry \
-python3.10dist(azure-containerregistry) \
+python3.10dist-azure-containerregistry \
 python310-azure-containerregistry \
-python3dist(azure-containerregistry)"
+python3dist-azure-containerregistry"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-isodate"

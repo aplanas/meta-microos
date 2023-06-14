@@ -8,20 +8,19 @@ PV = "7.5.0"
 RPM_NAME = "libazurestorage7-7.5.0-1.16.aarch64.rpm"
 RPM_HASH = "0cbcf6c579dda70bc52c571f324ac3bf10cbd35970195111e02b33a7eef4b923319ee027736a792cb235e0afa070d51960c2cde0376905ccc368d2ecd25582a1"
 
-RPROVIDES:${PN} += "libazurestorage.so.7()(64bit) \
-libazurestorage7 \
-libazurestorage7(aarch-64)"
+RPROVIDES:${PN} += "libazurestorage.so.7 \
+libazurestorage7"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_log.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libcpprest.so.2.10()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libboost-log.so.1.82.0 \
+libc.so.6 \
+libcpprest.so.2.10 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libuuid.so.1 \
+libxml2.so.2"
 
 inherit rpm

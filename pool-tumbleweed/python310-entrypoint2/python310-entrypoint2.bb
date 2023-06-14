@@ -10,11 +10,11 @@ RPM_HASH = "ab62cd03c760056246b3c88cbabfb7ca27b2c10a44e52472ffbe38858b506d667bd0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-entrypoint2 \
-python3.10dist(entrypoint2) \
+python3.10dist-entrypoint2 \
 python310-entrypoint2 \
-python3dist(entrypoint2)"
+python3dist-entrypoint2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-EasyProcess \
 python310-decorator \
 python310-path.py"

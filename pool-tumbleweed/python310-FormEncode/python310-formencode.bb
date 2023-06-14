@@ -11,11 +11,11 @@ RPM_HASH = "dd418c01244541f141440d18ee864bd7a4ffadf779670cd9c979cd838f7d86fc0ab8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-FormEncode \
-python3.10dist(formencode) \
+python3.10dist-formencode \
 python310-FormEncode \
-python3dist(formencode)"
+python3dist-formencode"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

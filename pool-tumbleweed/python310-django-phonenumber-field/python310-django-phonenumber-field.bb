@@ -9,11 +9,11 @@ RPM_HASH = "9d41eeb95213ed94916d89cdcd9705f2770b9853ee30b8ff0c596ccffa867da20d3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-phonenumber-field \
-python3.10dist(django-phonenumber-field) \
+python3.10dist-django-phonenumber-field \
 python310-django-phonenumber-field \
-python3dist(django-phonenumber-field)"
+python3dist-django-phonenumber-field"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Babel \
 python310-Django \
 python310-phonenumbers"

@@ -9,16 +9,16 @@ RPM_HASH = "41d32932648d3bff4125b621efdee1ad9907de88468437c22d07f0bb5c90a209f9c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-connector-factory \
-mvn(com.jcraft:jsch.agentproxy.connector-factory) \
-mvn(com.jcraft:jsch.agentproxy.connector-factory:pom:) \
-osgi(com.jcraft.jsch.agentproxy.connector-factory)"
+mvn-com.jcraft-jsch.agentproxy.connector-factory \
+mvn-com.jcraft-jsch.agentproxy.connector-factory-pom- \
+osgi-com.jcraft.jsch.agentproxy.connector-factory"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.jcraft:jsch.agentproxy.core) \
-mvn(com.jcraft:jsch.agentproxy.pageant) \
-mvn(com.jcraft:jsch.agentproxy.sshagent) \
-mvn(com.jcraft:jsch.agentproxy.usocket-jna) \
-mvn(com.jcraft:jsch.agentproxy.usocket-nc)"
+mvn-com.jcraft-jsch.agentproxy.core \
+mvn-com.jcraft-jsch.agentproxy.pageant \
+mvn-com.jcraft-jsch.agentproxy.sshagent \
+mvn-com.jcraft-jsch.agentproxy.usocket-jna \
+mvn-com.jcraft-jsch.agentproxy.usocket-nc"
 
 inherit rpm

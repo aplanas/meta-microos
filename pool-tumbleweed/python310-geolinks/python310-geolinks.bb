@@ -9,10 +9,10 @@ RPM_HASH = "791024209c6d0bf307d59ad4949e5566787ae599292dbbcbd325ad8ff843f269a836
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-geolinks \
-python3.10dist(geolinks) \
+python3.10dist-geolinks \
 python310-geolinks \
-python3dist(geolinks)"
+python3dist-geolinks"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

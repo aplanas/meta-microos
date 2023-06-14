@@ -12,19 +12,19 @@ RPM_HASH = "141777147d234b18c1e45e7ad36c3101468b7df6122956d6a66bc5989d465263eaf2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-el \
-mvn(org.eclipse.jetty.orbit:com.sun.el) \
-mvn(org.eclipse.jetty.orbit:com.sun.el:pom:) \
-mvn(org.glassfish.web:javax.el) \
-mvn(org.glassfish.web:javax.el:pom:) \
-mvn(org.glassfish:javax.el) \
-mvn(org.glassfish:javax.el-impl) \
-mvn(org.glassfish:javax.el-impl:pom:) \
-mvn(org.glassfish:javax.el:pom:) \
-osgi(com.sun.el.javax.el)"
+mvn-org.eclipse.jetty.orbit-com.sun.el \
+mvn-org.eclipse.jetty.orbit-com.sun.el-pom- \
+mvn-org.glassfish-javax.el \
+mvn-org.glassfish-javax.el-impl \
+mvn-org.glassfish-javax.el-impl-pom- \
+mvn-org.glassfish-javax.el-pom- \
+mvn-org.glassfish.web-javax.el \
+mvn-org.glassfish.web-javax.el-pom- \
+osgi-com.sun.el.javax.el"
 
 RDEPENDS:${PN} += "glassfish-el-api \
 java-headless \
 javapackages-filesystem \
-mvn(javax.el:javax.el-api)"
+mvn-javax.el-javax.el-api"
 
 inherit rpm

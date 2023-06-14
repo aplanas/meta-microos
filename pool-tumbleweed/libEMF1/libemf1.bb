@@ -14,14 +14,13 @@ PV = "1.0.13"
 RPM_NAME = "libEMF1-1.0.13-3.3.aarch64.rpm"
 RPM_HASH = "31fac9bf645447e01804a86a6bdb73ec1b84787eaffe3672479d34edf79ed4bba75bcc43fab6558e392d899b6293c2c3556ef00f590a69e64697ad56ff0432b9"
 
-RPROVIDES:${PN} += "libEMF.so.1()(64bit) \
-libEMF1 \
-libEMF1(aarch-64)"
+RPROVIDES:${PN} += "libEMF.so.1 \
+libEMF1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

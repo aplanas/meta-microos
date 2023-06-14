@@ -13,12 +13,11 @@ RPM_NAME = "autotrace-0.31.1-646.3.aarch64.rpm"
 RPM_HASH = "7691481a0bc7f2eae012c42206f55b38aa397ad1ae6725032345bb52af8e2d3fd91bd7a30dc17c8ac872f50dfc0ea90de99f89b6472162963e9edd09c4bad42d"
 
 RPROVIDES:${PN} += "autotrace \
-autotrace(aarch-64) \
-bitmap_tracing"
+bitmap-tracing"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libautotrace.so.3()(64bit) \
-libc.so.6()(64bit) \
-libpng16.so.16()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libautotrace.so.3 \
+libc.so.6 \
+libpng16.so.16"
 
 inherit rpm

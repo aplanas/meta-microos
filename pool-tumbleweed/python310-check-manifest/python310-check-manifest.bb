@@ -10,13 +10,13 @@ RPM_HASH = "3343be24fa78e6867365263abfa880e77d35bec05271cd5f25e8329d64547a35e5f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-check-manifest \
-python3.10dist(check-manifest) \
+python3.10dist-check-manifest \
 python310-check-manifest \
-python3dist(check-manifest)"
+python3dist-check-manifest"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-build \
 python310-setuptools \
 python310-tomli \

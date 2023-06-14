@@ -19,33 +19,31 @@ PV = "1.59"
 RPM_NAME = "perl-DateTime-1.59-1.2.aarch64.rpm"
 RPM_HASH = "c4c103cf081c06897725c419383e2a35287cbfdaa0913719f3e2769ceaee400c2a53c92c943ab2e4c83f29615ff7b55bc4843ffbe3bd5c71c7a5eb477044cdee"
 
-RPROVIDES:${PN} += "perl(DateTime) \
-perl(DateTime::Duration) \
-perl(DateTime::Helpers) \
-perl(DateTime::Infinite) \
-perl(DateTime::Infinite::Future) \
-perl(DateTime::Infinite::Past) \
-perl(DateTime::LeapSecond) \
-perl(DateTime::PP) \
-perl(DateTime::PPExtra) \
-perl(DateTime::Types) \
-perl-DateTime \
-perl-DateTime(aarch-64)"
+RPROVIDES:${PN} += "perl-DateTime \
+perl-DateTime--Duration \
+perl-DateTime--Helpers \
+perl-DateTime--Infinite \
+perl-DateTime--Infinite--Future \
+perl-DateTime--Infinite--Past \
+perl-DateTime--LeapSecond \
+perl-DateTime--PP \
+perl-DateTime--PPExtra \
+perl-DateTime--Types"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DateTime::Locale) \
-perl(DateTime::TimeZone) \
-perl(Dist::CheckConflicts) \
-perl(Params::ValidationCompiler) \
-perl(Specio) \
-perl(Specio::Declare) \
-perl(Specio::Exporter) \
-perl(Specio::Library::Builtins) \
-perl(Specio::Library::Numeric) \
-perl(Specio::Library::String) \
-perl(Specio::Subs) \
-perl(Try::Tiny) \
-perl(namespace::autoclean) \
-perl(parent)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DateTime--Locale \
+perl-DateTime--TimeZone \
+perl-Dist--CheckConflicts \
+perl-Params--ValidationCompiler \
+perl-Specio \
+perl-Specio--Declare \
+perl-Specio--Exporter \
+perl-Specio--Library--Builtins \
+perl-Specio--Library--Numeric \
+perl-Specio--Library--String \
+perl-Specio--Subs \
+perl-Try--Tiny \
+perl-namespace--autoclean \
+perl-parent"
 
 inherit rpm

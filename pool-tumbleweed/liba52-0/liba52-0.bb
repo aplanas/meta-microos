@@ -10,13 +10,12 @@ RPM_HASH = "d3e1cea26db6385c22408b4e7636d95fd8ddfdd5979f5ce14577eaf580c60d6ccf44
 
 RPROVIDES:${PN} += "liba52 \
 liba52-0 \
-liba52-0(aarch-64) \
-liba52.so.0()(64bit) \
+liba52.so.0 \
 liba52dec0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

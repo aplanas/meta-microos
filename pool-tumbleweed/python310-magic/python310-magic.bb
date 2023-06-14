@@ -10,13 +10,12 @@ RPM_HASH = "e847f9dae849af3d319f0603fca967e03e5c0ae33bab82a59d2d68cbcd3722856f16
 
 RPROVIDES:${PN} += "python3-file-magic \
 python3-magic \
-python3.10dist(file-magic) \
+python3.10dist-file-magic \
 python310-file-magic \
 python310-magic \
-python310-magic(aarch-64) \
-python3dist(file-magic)"
+python3dist-file-magic"
 
 RDEPENDS:${PN} += "libmagic1 \
-python(abi)"
+python-abi"
 
 inherit rpm

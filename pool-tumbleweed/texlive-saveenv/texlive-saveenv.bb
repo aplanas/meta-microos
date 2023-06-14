@@ -9,7 +9,7 @@ RPM_NAME = "texlive-saveenv-2023.201.0.0.0.1svn65346-53.1.noarch.rpm"
 RPM_HASH = "d69afc7c6e8e84ee5e32b6aab4ebb658c07b8dde4f53da294a9419a85e98680163744586f067972eec506a1b7ca17ac9d1e09ceea0bffbd7f8891fa16cca63e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(saveenv.sty) \
+RPROVIDES:${PN} += "tex-saveenv.sty \
 texlive-saveenv"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,7 +18,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(precattl.sty) \
+tex-precattl.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

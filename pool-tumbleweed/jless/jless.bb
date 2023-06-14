@@ -19,14 +19,13 @@ PV = "0.8.0"
 RPM_NAME = "jless-0.8.0-1.2.aarch64.rpm"
 RPM_HASH = "d529147cbad6937aa6725851790d56b1455bc9d6055d9116966195b0863fae2bb017934367c7fbbfdce5e7aa631ee47b4ee9688df9d321bfe1150da93792e6be"
 
-RPROVIDES:${PN} += "jless \
-jless(aarch-64)"
+RPROVIDES:${PN} += "jless"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libxcb-render.so.0()(64bit) \
-libxcb-shape.so.0()(64bit) \
-libxcb-xfixes.so.0()(64bit) \
-libxcb.so.1()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libxcb-render.so.0 \
+libxcb-shape.so.0 \
+libxcb-xfixes.so.0 \
+libxcb.so.1"
 
 inherit rpm

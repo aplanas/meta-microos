@@ -9,11 +9,11 @@ RPM_HASH = "2584af6d3d3df9bc0ed1f7ec6596f88d564c8bc0abe76a6dfc20b72c47c3765f15d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyScreeze \
-python3.10dist(pyscreeze) \
+python3.10dist-pyscreeze \
 python310-PyScreeze \
-python3dist(pyscreeze)"
+python3dist-pyscreeze"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow"
 
 inherit rpm

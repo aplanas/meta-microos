@@ -9,17 +9,17 @@ RPM_HASH = "7be6436a9e0c3feb67d221446f41d2cbc658d1ee7b78757e76eca0fcabc3d0f900cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-slf4j \
-mvn(org.apache.logging.log4j:log4j-slf4j-impl) \
-mvn(org.apache.logging.log4j:log4j-slf4j-impl:pom:) \
-mvn(org.apache.logging.log4j:log4j-to-slf4j) \
-mvn(org.apache.logging.log4j:log4j-to-slf4j:pom:) \
-osgi(org.apache.logging.log4j.slf4j-impl) \
-osgi(org.apache.logging.log4j.to-slf4j)"
+mvn-org.apache.logging.log4j-log4j-slf4j-impl \
+mvn-org.apache.logging.log4j-log4j-slf4j-impl-pom- \
+mvn-org.apache.logging.log4j-log4j-to-slf4j \
+mvn-org.apache.logging.log4j-log4j-to-slf4j-pom- \
+osgi-org.apache.logging.log4j.slf4j-impl \
+osgi-org.apache.logging.log4j.to-slf4j"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.logging.log4j:log4j-api) \
-mvn(org.apache.logging.log4j:log4j-core) \
-mvn(org.slf4j:slf4j-api)"
+mvn-org.apache.logging.log4j-log4j-api \
+mvn-org.apache.logging.log4j-log4j-core \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

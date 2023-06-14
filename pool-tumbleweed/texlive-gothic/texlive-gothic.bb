@@ -14,14 +14,14 @@ RPM_NAME = "texlive-gothic-2023.201.svn49869-53.1.noarch.rpm"
 RPM_HASH = "a787e8613367ff3adbb686bc3933080bb95851ab4a4d6ed076941aacc7294d05b9f6af96202d8d8c0b6d84ca93559a87189a6d75760dde01a6b70b0519825fb3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cmfrak.tfm) \
-tex(schwell.tfm) \
-tex(suet14.tfm) \
-tex(yfrak.tfm) \
-tex(ygoth.tfm) \
-tex(yinit.tfm) \
-tex(ysmfrak.tfm) \
-tex(yswab.tfm) \
+RPROVIDES:${PN} += "tex-cmfrak.tfm \
+tex-schwell.tfm \
+tex-suet14.tfm \
+tex-yfrak.tfm \
+tex-ygoth.tfm \
+tex-yinit.tfm \
+tex-ysmfrak.tfm \
+tex-yswab.tfm \
 texlive-gothic"
 
 RDEPENDS:${PN} += "/bin/sh \

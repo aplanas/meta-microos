@@ -11,12 +11,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "policycoreutils-python \
 python3-policycoreutils \
-python3.10dist(sepolicy) \
-python3dist(sepolicy)"
+python3.10dist-sepolicy \
+python3dist-sepolicy"
 
 RDEPENDS:${PN} += "checkpolicy \
 policycoreutils \
-python(abi) \
+python-abi \
 python3-audit \
 python3-selinux \
 python3-semanage \

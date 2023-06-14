@@ -20,13 +20,13 @@ RPM_NAME = "texlive-adjustbox-2023.201.1.3asvn64967-54.1.noarch.rpm"
 RPM_HASH = "f10ca013317fd2d4aeca416f56f462dceee2930b71dcde59a65efa0ed78ec0ad66225426eb3165f11b001285324292db756a43fdbe590864aa18ccdee314494e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(adjcalc.sty) \
-tex(adjustbox.sty) \
-tex(tc-dvips.def) \
-tex(tc-pdftex.def) \
-tex(tc-pgf.def) \
-tex(tc-xetex.def) \
-tex(trimclip.sty) \
+RPROVIDES:${PN} += "tex-adjcalc.sty \
+tex-adjustbox.sty \
+tex-tc-dvips.def \
+tex-tc-pdftex.def \
+tex-tc-pgf.def \
+tex-tc-xetex.def \
+tex-trimclip.sty \
 texlive-adjustbox"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -35,14 +35,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(collectbox.sty) \
-tex(graphicx.sty) \
-tex(ifoddpage.sty) \
-tex(pgf.sty) \
-tex(pgfmath.sty) \
-tex(varwidth.sty) \
-tex(xkeyval.sty) \
+tex-calc.sty \
+tex-collectbox.sty \
+tex-graphicx.sty \
+tex-ifoddpage.sty \
+tex-pgf.sty \
+tex-pgfmath.sty \
+tex-varwidth.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-collectbox \
 texlive-filesystem \

@@ -11,10 +11,9 @@ PV = "1.31.3"
 RPM_NAME = "mpg123-portaudio-1.31.3-1.2.aarch64.rpm"
 RPM_HASH = "8cf007992e1f1db01c07453216cdee55ef892f954c062dcd8088cde7197ffdf1e6f26c3417c0ca4421c49a1ce6269507fd390bb4b53b406c57d06a95de708c07"
 
-RPROVIDES:${PN} += "mpg123-portaudio \
-mpg123-portaudio(aarch-64)"
+RPROVIDES:${PN} += "mpg123-portaudio"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libportaudio.so.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libportaudio.so.2"
 
 inherit rpm

@@ -13,8 +13,7 @@ PV = "1.16"
 RPM_NAME = "potrace-devel-1.16-1.14.aarch64.rpm"
 RPM_HASH = "d199be6e2cbe23fbf9a6b6bb4629c5e77f550c4483ae05ec6b335dd442a44f1b3ae3e35c8c58545f2b7c07d2b08268bf36076208c59a73edc06c8ed1f45a51a1"
 
-RPROVIDES:${PN} += "potrace-devel \
-potrace-devel(aarch-64)"
+RPROVIDES:${PN} += "potrace-devel"
 
 RDEPENDS:${PN} += "potrace"
 

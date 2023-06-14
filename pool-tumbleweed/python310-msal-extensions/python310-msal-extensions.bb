@@ -14,11 +14,11 @@ RPM_HASH = "a2f318826cdab8b2f33b17b0b77afcc0f8df3f07c31ed790e9e6d4413d29652bed69
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msal-extensions \
-python3.10dist(msal-extensions) \
+python3.10dist-msal-extensions \
 python310-msal-extensions \
-python3dist(msal-extensions)"
+python3dist-msal-extensions"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-msal \
 python310-portalocker"
 

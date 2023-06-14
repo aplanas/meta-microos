@@ -8,39 +8,38 @@ PV = "5.1.3"
 RPM_NAME = "libavfilter8-5.1.3-1.2.aarch64.rpm"
 RPM_HASH = "3d558148c9b12ee4ced8f6b067ebd56c7d488b3229f2ad4e7fe27b78783f125651d074d0fc585ad1cee89178579eef5baee7d1e461a831172239b5caaff62133"
 
-RPROVIDES:${PN} += "libavfilter.so.8()(64bit) \
-libavfilter8 \
-libavfilter8(aarch-64)"
+RPROVIDES:${PN} += "libavfilter.so.8 \
+libavfilter8"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libass.so.9()(64bit) \
-libavcodec.so.59()(64bit) \
+ld-linux-aarch64.so.1 \
+libass.so.9 \
+libavcodec.so.59 \
 libavcodec59 \
-libavformat.so.59()(64bit) \
+libavformat.so.59 \
 libavformat59 \
-libavutil.so.57()(64bit) \
+libavutil.so.57 \
 libavutil57 \
-libbs2b.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libfribidi.so.0()(64bit) \
-liblilv-0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmysofa.so.1()(64bit) \
-libpostproc.so.56()(64bit) \
+libbs2b.so.0 \
+libc.so.6 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libfribidi.so.0 \
+liblilv-0.so.0 \
+libm.so.6 \
+libmysofa.so.1 \
+libpostproc.so.56 \
 libpostproc56 \
-librubberband.so.2()(64bit) \
-libshaderc_shared.so.1()(64bit) \
-libswresample.so.4.ff5()(64bit) \
-libswresample4_ff5 \
-libswscale.so.6()(64bit) \
+librubberband.so.2 \
+libshaderc-shared.so.1 \
+libswresample.so.4.ff5 \
+libswresample4-ff5 \
+libswscale.so.6 \
 libswscale6 \
-libva.so.2()(64bit) \
-libvidstab.so.1.1()(64bit) \
-libvmaf.so.1()(64bit) \
-libzimg.so.2()(64bit) \
-libzmq.so.5()(64bit)"
+libva.so.2 \
+libvidstab.so.1.1 \
+libvmaf.so.1 \
+libzimg.so.2 \
+libzmq.so.5"
 
 inherit rpm

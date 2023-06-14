@@ -10,15 +10,13 @@ RPM_HASH = "c15f714b948824010b4acde32e8a2de08bb6fc3299bf0ed45524d793d8591f99ba4b
 
 RPROVIDES:${PN} += "audaspace-deviceplugin \
 audaspace-plugin-pulse \
-audaspace-plugin-pulse(aarch-64) \
-libaudpulseaudio.so()(64bit)"
+libaudpulseaudio.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libaudaspace.so.1.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaudaspace.so.1.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpulse.so.0 \
+libstdc++.so.6"
 
 inherit rpm

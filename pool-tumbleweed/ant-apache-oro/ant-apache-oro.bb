@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-oro \
 ant-jakarta-oro \
-config(ant-apache-oro) \
-mvn(org.apache.ant:ant-apache-oro) \
-mvn(org.apache.ant:ant-apache-oro:pom:)"
+config-ant-apache-oro \
+mvn-org.apache.ant-ant-apache-oro \
+mvn-org.apache.ant-ant-apache-oro-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(oro:oro) \
+mvn-org.apache.ant-ant \
+mvn-oro-oro \
 oro"
 
 inherit rpm

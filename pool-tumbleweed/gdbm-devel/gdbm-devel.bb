@@ -8,14 +8,13 @@ PV = "1.23"
 RPM_NAME = "gdbm-devel-1.23-1.12.aarch64.rpm"
 RPM_HASH = "5f5e019f0025fecb1ab1921c25c046bf8eee761caf8cff694b51761c1983ece84ba6e686ad317433df41a910e1c2d4e186804fa05a49f78e289564ca56627397"
 
-RPROVIDES:${PN} += "gdbm-devel \
-gdbm-devel(aarch-64)"
+RPROVIDES:${PN} += "gdbm-devel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdbm.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdbm-compat4 \
+libgdbm.so.6 \
 libgdbm6 \
-libgdbm_compat4 \
-libreadline.so.8()(64bit)"
+libreadline.so.8"
 
 inherit rpm

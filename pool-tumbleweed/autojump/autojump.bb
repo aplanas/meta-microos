@@ -13,9 +13,9 @@ RPM_HASH = "b6525edb913d79ca185fdf3046f7a7f4875cb6755cc14c21d341b85f9f38778d26a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autojump \
-config(autojump)"
+config-autojump"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

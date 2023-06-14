@@ -11,8 +11,7 @@ RPM_NAME = "libscca-devel-20221027-3.7.aarch64.rpm"
 RPM_HASH = "2ee26f59b11ec3dfbe2771a90718aad26cdf1fc0f52e675af4e8dc6adc2840d23770641253a50a492cf69a29c7758029854ae09a22be4b6a66dcad17a6da5d9e"
 
 RPROVIDES:${PN} += "libscca-devel \
-libscca-devel(aarch-64) \
-pkgconfig(libscca)"
+pkgconfig-libscca"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \

@@ -22,23 +22,20 @@ PV = "10.20230407"
 RPM_NAME = "git-annex-10.20230407-1.2.aarch64.rpm"
 RPM_HASH = "7a31b05f55115e225a841ffa46b15168c43c2266684911b59f1d11083933ff5eae3cd7df3e6b96361424eaf1826101a6574a184bc0d9141d650c7b60c1f6dd53"
 
-RPROVIDES:${PN} += "application() \
-application(git-annex.desktop) \
-git-annex \
-git-annex(aarch-64)"
+RPROVIDES:${PN} += "git-annex"
 
 RDEPENDS:${PN} += "desktop-file-utils \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmagic.so.1()(64bit) \
-libnuma.so.1()(64bit) \
-libsqlite3.so.0()(64bit) \
-libyaml-0.so.2()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libmagic.so.1 \
+libnuma.so.1 \
+libsqlite3.so.0 \
+libyaml-0.so.2 \
+libz.so.1"
 
 inherit rpm

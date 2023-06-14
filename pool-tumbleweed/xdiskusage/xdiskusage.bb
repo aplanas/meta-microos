@@ -11,13 +11,12 @@ PV = "1.60"
 RPM_NAME = "xdiskusage-1.60-1.7.aarch64.rpm"
 RPM_HASH = "98365edbddbafa4af18959b1d7ae9454783179d0532582d9fdd6b9eddd6b5c3b8b295e164b94169b7cf6d8808dd3df82c2f5fdc421b3b196b2faef6c9eaeae8a"
 
-RPROVIDES:${PN} += "xdiskusage \
-xdiskusage(aarch-64)"
+RPROVIDES:${PN} += "xdiskusage"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfltk.so.1.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfltk.so.1.3 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

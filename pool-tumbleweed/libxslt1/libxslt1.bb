@@ -15,14 +15,13 @@ PV = "1.1.38"
 RPM_NAME = "libxslt1-1.1.38-1.1.aarch64.rpm"
 RPM_HASH = "2dc91838ef4ad8c8e74ba258576a724ae974d8a16146f432c35418bde2476b4070fc23161f62374ebb1af84debe53b4ff3e3ef93b4b1421f161daa83d29b4589"
 
-RPROVIDES:${PN} += "libxslt.so.1()(64bit) \
-libxslt1 \
-libxslt1(aarch-64)"
+RPROVIDES:${PN} += "libxslt.so.1 \
+libxslt1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libxml2.so.2"
 
 inherit rpm

@@ -13,11 +13,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-atspi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-dbus-python \
 python39-gobject \
-typelib(Atspi) \
-typelib(GLib) \
-typelib(GObject)"
+typelib-Atspi \
+typelib-GLib \
+typelib-GObject"
 
 inherit rpm

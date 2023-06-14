@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-versioneer-toml"
 
-RDEPENDS:${PN} += "(python39-tomli if python39-base < 3.11) \
+RDEPENDS:${PN} += "-python39-tomli if python39-base < 3.11 \
 python39-versioneer"
 
 inherit rpm

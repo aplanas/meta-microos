@@ -12,16 +12,16 @@ RPM_HASH = "d20ec075bb2545ad5d609c30c30a0adc9943d139a6d7f620e3e874619288d916480a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-jaxb-annotations \
-mvn(com.fasterxml.jackson.module:jackson-module-jaxb-annotations) \
-mvn(com.fasterxml.jackson.module:jackson-module-jaxb-annotations:pom:) \
-osgi(com.fasterxml.jackson.module.jackson-module-jaxb-annotations)"
+mvn-com.fasterxml.jackson.module-jackson-module-jaxb-annotations \
+mvn-com.fasterxml.jackson.module-jackson-module-jaxb-annotations-pom- \
+osgi-com.fasterxml.jackson.module.jackson-module-jaxb-annotations"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson.core:jackson-annotations) \
-mvn(com.fasterxml.jackson.core:jackson-core) \
-mvn(com.fasterxml.jackson.core:jackson-databind) \
-mvn(javax.activation:javax.activation-api) \
-mvn(javax.xml.bind:jaxb-api)"
+mvn-com.fasterxml.jackson.core-jackson-annotations \
+mvn-com.fasterxml.jackson.core-jackson-core \
+mvn-com.fasterxml.jackson.core-jackson-databind \
+mvn-javax.activation-javax.activation-api \
+mvn-javax.xml.bind-jaxb-api"
 
 inherit rpm

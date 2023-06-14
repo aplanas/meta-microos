@@ -12,35 +12,33 @@ RPM_NAME = "perf-6.3.4-80.3.aarch64.rpm"
 RPM_HASH = "ddfe28d848be86ffabbefb91e47a600b91e2389bdeb8e448297dc4fa07a77ad58b2d390ecb3fb9c6a610810b56f651eefab48ca454ca7fde3b17b9eff299e9b8"
 
 RPROVIDES:${PN} += "perf \
-perf(aarch-64) \
-perl(Perf::Trace::Context) \
-perl(Perf::Trace::Core) \
-perl(Perf::Trace::Util)"
+perl-Perf--Trace--Context \
+perl-Perf--Trace--Core \
+perl-Perf--Trace--Util"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbabeltrace-ctf.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libdebuginfod.so.1()(64bit) \
-libdw.so.1()(64bit) \
-libelf.so.1()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit) \
-libopencsd_c_api.so.1()(64bit) \
-libperl.so()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libslang.so.2()(64bit) \
-libslang.so.2(SLANG2)(64bit) \
-libtraceevent.so.1()(64bit) \
-libunwind-aarch64.so.8()(64bit) \
-libunwind.so.8()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbabeltrace-ctf.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libdebuginfod.so.1 \
+libdw.so.1 \
+libelf.so.1 \
+liblzma.so.5 \
+libm.so.6 \
+libnuma.so.1 \
+libopencsd-c-api.so.1 \
+libperl.so \
+libpython3.10.so.1.0 \
+libslang.so.2 \
+libtraceevent.so.1 \
+libunwind-aarch64.so.8 \
+libunwind.so.8 \
+libz.so.1 \
+libzstd.so.1 \
 perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

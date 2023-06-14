@@ -11,11 +11,11 @@ RPM_HASH = "8f033de9873c785ada6dabf8fee33f151b9eb6c3a47df878549864fa8a190862cc29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymisp \
-python3.10dist(pymisp) \
+python3.10dist-pymisp \
 python310-pymisp \
-python3dist(pymisp)"
+python3dist-pymisp"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Deprecated \
 python310-jsonschema \
 python310-oletools \

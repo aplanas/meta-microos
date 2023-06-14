@@ -18,14 +18,13 @@ PV = "3.1"
 RPM_NAME = "pocl-3.1-3.1.aarch64.rpm"
 RPM_HASH = "9d54c7b4717155fa09a6c5191378e257642c40e6c6814b55fe267e0a8d7df433664c03a42ed252f90d535d5f4278a197eecbbd24b687442bb2d13ffb921ab5a0"
 
-RPROVIDES:${PN} += "libpocl-devices-basic.so()(64bit) \
-libpocl-devices-pthread.so()(64bit) \
-pocl \
-pocl(aarch-64)"
+RPROVIDES:${PN} += "libpocl-devices-basic.so \
+libpocl-devices-pthread.so \
+pocl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libOpenCL.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpocl.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libOpenCL.so.1 \
+libc.so.6 \
+libpocl.so.2"
 
 inherit rpm

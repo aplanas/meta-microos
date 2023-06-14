@@ -11,14 +11,13 @@ PV = "1.3"
 RPM_NAME = "perl-XML-Structured-1.3-1.19.aarch64.rpm"
 RPM_HASH = "722f445a5d957bcc399892ac9dba5102ba1dc8ff8fb83021899ff42ccd784bf447d1249d6e8378bcf07570e526eb538531db05988a9fa165971928612c7f4e77"
 
-RPROVIDES:${PN} += "perl(XML::Structured) \
-perl(XML::Structured::saxparser) \
-perl(XML::Structured::saxparser_pureperl) \
-perl-XML-Structured \
-perl-XML-Structured(aarch-64)"
+RPROVIDES:${PN} += "perl-XML--Structured \
+perl-XML--Structured--saxparser \
+perl-XML--Structured--saxparser-pureperl \
+perl-XML-Structured"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

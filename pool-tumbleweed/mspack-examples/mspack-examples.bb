@@ -22,11 +22,10 @@ RPM_NAME = "mspack-examples-0.11-1.3.aarch64.rpm"
 RPM_HASH = "5416615783c8d1dfafde9a2f14bb84490e23d979e6892ffcc6414d4af310f0e547eb1b3301344328cc762e99574535029994c0d707c116be64367038206cf10f"
 
 RPROVIDES:${PN} += "mspack-examples \
-mspack-examples(aarch-64) \
 mspack-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmspack.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmspack.so.0"
 
 inherit rpm

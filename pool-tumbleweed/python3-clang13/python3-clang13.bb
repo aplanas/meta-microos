@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "/usr/lib64/python3.10/site-packages/clang/ \
 python3-clang13"
 
 RDEPENDS:${PN} += "libclang13 \
-python(abi) \
+python-abi \
 python3-base"
 
 inherit rpm

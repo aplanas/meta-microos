@@ -18,40 +18,29 @@ PV = "2.3.7"
 RPM_NAME = "lyx-2.3.7-1.3.aarch64.rpm"
 RPM_HASH = "e02fdd7e0dcf2bf53c7ae8bacee5cd94485be10f3e8fcea6d18eac8e47b728e76bae926e83efe4a51a62cc21d3da02501ba578f6d351e23cd648cc54202ff20e"
 
-RPROVIDES:${PN} += "application() \
-application(lyx.desktop) \
-lyx \
-lyx(aarch-64) \
-metainfo() \
-metainfo(lyx.appdata.xml) \
-mimehandler(application/x-lyx) \
-mimehandler(text/x-lyx)"
+RPROVIDES:${PN} += "lyx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3 \
 ImageMagick \
-aaa_base \
+aaa-base \
 coreutils \
 ghostscript \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libenchant-2.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmagic.so.1()(64bit) \
-libmythes-1.2.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libenchant-2.so.2 \
+libgcc-s.so.1 \
+libhunspell-1.7.so.0 \
+libm.so.6 \
+libmagic.so.1 \
+libmythes-1.2.so.0 \
+libstdc++.so.6 \
+libz.so.1 \
 lyx-fonts \
 perl"
 

@@ -14,8 +14,7 @@ RPM_NAME = "apcupsd-3.14.14-15.1.aarch64.rpm"
 RPM_HASH = "109bc88881e68c6f4404d295a9583e8eb48eefe3ac1f57d0c658d29a2390cd699f1107cb0684f02af1ab4c6ffa932fa377164d93f8ad98d65e9ead7d25ec202b"
 
 RPROVIDES:${PN} += "apcupsd \
-apcupsd(aarch-64) \
-config(apcupsd)"
+config-apcupsd"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -24,11 +23,11 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/touch \
 fillup \
 grep \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libusb-0.1.so.4()(64bit) \
-libwrap.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libusb-0.1.so.4 \
+libwrap.so.0 \
 mailx \
 sed \
 systemd \

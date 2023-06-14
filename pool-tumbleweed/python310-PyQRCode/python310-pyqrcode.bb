@@ -13,15 +13,15 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-PyQRCode \
 python3-PyQRCodeNG \
 python3-pyqrcodeng \
-python3.10dist(pyqrcodeng) \
+python3.10dist-pyqrcodeng \
 python310-PyQRCode \
 python310-PyQRCodeNG \
 python310-pyqrcodeng \
-python3dist(pyqrcodeng)"
+python3dist-pyqrcodeng"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

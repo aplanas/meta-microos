@@ -9,10 +9,10 @@ RPM_HASH = "6ba98f16572cf86b5d01de9bd7a064f90cfdacf7f62c2fe3b343edef78269c2d5aa1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-circuitbreaker \
-python3.10dist(circuitbreaker) \
+python3.10dist-circuitbreaker \
 python310-circuitbreaker \
-python3dist(circuitbreaker)"
+python3dist-circuitbreaker"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

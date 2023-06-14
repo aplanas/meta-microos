@@ -9,20 +9,19 @@ PV = "2.56.1"
 RPM_NAME = "rsvg-convert-2.56.1-1.1.aarch64.rpm"
 RPM_HASH = "27bbecd629e0d9d67458867b0ad08b7b29704c6dc9098797d022079c8c3f82fc28b04514cbc5870d831d5f1aed28c2a0501b4542c2f8e1aed92f80e7069c4c88"
 
-RPROVIDES:${PN} += "rsvg-convert \
-rsvg-convert(aarch-64)"
+RPROVIDES:${PN} += "rsvg-convert"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

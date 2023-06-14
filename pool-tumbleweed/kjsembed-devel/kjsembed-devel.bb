@@ -8,25 +8,21 @@ PV = "5.106.0"
 RPM_NAME = "kjsembed-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "45b89a262d5bc6eedc45452a6702f89965543d3de1d8c568c568aa40cc8cadb30a6660bdeeaf37d0461a08aaf7b5909c9c37ef02d35175741a7e643cd9fe37c9"
 
-RPROVIDES:${PN} += "cmake(KF5JsEmbed) \
-kjsembed-devel \
-kjsembed-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5JsEmbed \
+kjsembed-devel"
 
-RDEPENDS:${PN} += "cmake(KF5I18n) \
-cmake(KF5JS) \
+RDEPENDS:${PN} += "cmake-KF5I18n \
+cmake-KF5JS \
 extra-cmake-modules \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5JS.so.5()(64bit) \
-libKF5JsEmbed.so.5()(64bit) \
+ld-linux-aarch64.so.1 \
+libKF5I18n.so.5 \
+libKF5JS.so.5 \
+libKF5JsEmbed.so.5 \
 libKF5JsEmbed5 \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

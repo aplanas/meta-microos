@@ -17,11 +17,11 @@ RPM_NAME = "python39-repoze.who-2.4.1-1.3.noarch.rpm"
 RPM_HASH = "1a598e0e6fd87c987b8ce967e28bd53046e4e019e0a43c09c1947fd584641bd6c5a89869e4a88b39056d4718adc45355f51ae91d54d6e9f4a1cda7f794aae3cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(repoze.who) \
+RPROVIDES:${PN} += "python3.9dist-repoze.who \
 python39-repoze.who \
-python3dist(repoze.who)"
+python3dist-repoze.who"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-WebOb \
 python39-zope.interface"
 

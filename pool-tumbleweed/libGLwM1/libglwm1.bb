@@ -9,17 +9,16 @@ RPM_HASH = "6ab040c396413cff3598f75712c56a5532580919edb419ea310b4b0aed8e7061bab0
 
 RPROVIDES:${PN} += "GLw1 \
 MesaGLw \
-libGLw.so.1()(64bit) \
-libGLwM1 \
-libGLwM1(aarch-64)"
+libGLw.so.1 \
+libGLwM1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXm.so.4()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXm.so.4 \
+libXt.so.6 \
+libc.so.6 \
 openmotif"
 
 inherit rpm

@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-openmpi4-hpc-python3"
 
-RDEPENDS:${PN} += "boost_1_82_0-gnu-openmpi4-hpc-python3"
+RDEPENDS:${PN} += "boost-1-82-0-gnu-openmpi4-hpc-python3"
 
 inherit rpm

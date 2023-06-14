@@ -11,12 +11,11 @@ PV = "2.2.0"
 RPM_NAME = "glew-2.2.0-3.10.aarch64.rpm"
 RPM_HASH = "808155bb3926bdc72c35d8db528cea95392b2e052add322ca450905a714c815c13f9640b4ac09801cc0d5fd7bc53dd4df0de10d3cf32bc44d5d7646ca31009ee"
 
-RPROVIDES:${PN} += "glew \
-glew(aarch-64)"
+RPROVIDES:${PN} += "glew"
 
-RDEPENDS:${PN} += "libGL.so.1()(64bit) \
-libGLEW.so.2.2()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libGL.so.1 \
+libGLEW.so.2.2 \
+libX11.so.6 \
+libc.so.6"
 
 inherit rpm

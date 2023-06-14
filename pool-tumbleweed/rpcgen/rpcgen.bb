@@ -9,11 +9,10 @@ PV = "1.4.4"
 RPM_NAME = "rpcgen-1.4.4-1.1.aarch64.rpm"
 RPM_HASH = "ac5d708250ea57fb2ebf6c1600af0b41eaf8e128cd4a39c787933ecd4813be005101a733eec7fbb2deb85446fd960c46aa5cc58cf5a3a1781c54f280a37f3544"
 
-RPROVIDES:${PN} += "glibc-devel:/usr/bin/rpcgen \
-rpcgen \
-rpcgen(aarch-64)"
+RPROVIDES:${PN} += "glibc-devel-/usr/bin/rpcgen \
+rpcgen"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

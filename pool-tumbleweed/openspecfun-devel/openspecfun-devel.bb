@@ -14,8 +14,7 @@ PV = "0.5.5"
 RPM_NAME = "openspecfun-devel-0.5.5-1.3.aarch64.rpm"
 RPM_HASH = "113c07a35e2042338133e18358fe5f0d0b9add4e533f22c14fa29d959e775723cac6814d32c484ee23d632c4231f1b5b8874656042329a005f37abbd6d92635f"
 
-RPROVIDES:${PN} += "openspecfun-devel \
-openspecfun-devel(aarch-64)"
+RPROVIDES:${PN} += "openspecfun-devel"
 
 RDEPENDS:${PN} += "libopenspecfun1"
 

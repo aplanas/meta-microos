@@ -15,13 +15,12 @@ PV = "2.0.0"
 RPM_NAME = "liberfa1-2.0.0-1.10.aarch64.rpm"
 RPM_HASH = "17dbbf42bd6d750334898c28c13e5ca6654fdcb6819f99f66fe6db4cf8673c9d826590adc7c687b0ae40af0d12aa8eebfc899cc772d90382bfa7dd6b9e3a9ddc"
 
-RPROVIDES:${PN} += "liberfa.so.1()(64bit) \
-liberfa1 \
-liberfa1(aarch-64)"
+RPROVIDES:${PN} += "liberfa.so.1 \
+liberfa1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

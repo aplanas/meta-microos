@@ -32,9 +32,9 @@ RPM_NAME = "perl-Time-Duration-1.210000-1.15.noarch.rpm"
 RPM_HASH = "bbe225f3f755af25cc25339112d6fff3617cec3de09df5cf90ac4e6dfe4507e82435fffc7cab75348ce548d82a74ec569fa659c88db30867fb1cbe68372a5057"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Time::Duration) \
+RPROVIDES:${PN} += "perl-Time--Duration \
 perl-Time-Duration"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

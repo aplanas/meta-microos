@@ -7,8 +7,7 @@ PV = "1.2.0"
 RPM_NAME = "libbpf-devel-static-1.2.0-1.1.aarch64.rpm"
 RPM_HASH = "9221c08edb780f49257ff2e73f9c96571f27f7c4cdfcf12acc7d3fc8ecfaea898273abe51fc4ca776ce51f319e7f790ec22dcdf534d880fc9527c6c5cd3f6074"
 
-RPROVIDES:${PN} += "libbpf-devel-static \
-libbpf-devel-static(aarch-64)"
+RPROVIDES:${PN} += "libbpf-devel-static"
 
 RDEPENDS:${PN} += "libbpf-devel \
 libbpf1"

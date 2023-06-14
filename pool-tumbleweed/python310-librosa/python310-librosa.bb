@@ -11,11 +11,11 @@ RPM_HASH = "e44e4105393e1a55f8e5b2df89112fa14240fe3b6447f240c8c2d0e9395c96b6e591
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-librosa \
-python3.10dist(librosa) \
+python3.10dist-librosa \
 python310-librosa \
-python3dist(librosa)"
+python3dist-librosa"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-SoundFile \
 python310-audioread \
 python310-decorator \

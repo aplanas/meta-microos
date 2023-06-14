@@ -9,7 +9,7 @@ RPM_NAME = "texlive-graphviz-2023.201.0.0.94svn31517-53.1.noarch.rpm"
 RPM_HASH = "74779b57c6024340038687ae16f1009c8532441e929a65d31e0d010062f64d97f4801c7bf320b430f851fe7ce94f3f70c9621cbc57bf908a184fc76ea392b0af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(graphviz.sty) \
+RPROVIDES:${PN} += "tex-graphviz.sty \
 texlive-graphviz"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,8 +18,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphicx.sty) \
-tex(psfrag.sty) \
+tex-graphicx.sty \
+tex-psfrag.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-loopedlao-ui \
 noto-loopedlao-ui-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

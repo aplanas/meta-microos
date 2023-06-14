@@ -10,22 +10,19 @@ RPM_HASH = "1a0f21dbc8ffc29640a1083ad899af611547799327fa70b82c823558fae582002c3a
 
 RPROVIDES:${PN} += "cifs-mount \
 cifs-utils \
-cifs-utils(aarch-64) \
-config(cifs-utils)"
+config-cifs-utils"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 keyutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap-ng.so.0()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libkeyutils.so.1()(64bit) \
-libkrb5.so.3()(64bit) \
-libkrb5.so.3(krb5_3_MIT)(64bit) \
-libtalloc.so.2()(64bit) \
-libwbclient.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap-ng.so.0 \
+libgssapi-krb5.so.2 \
+libkeyutils.so.1 \
+libkrb5.so.3 \
+libtalloc.so.2 \
+libwbclient.so.0 \
 update-alternatives"
 
 inherit rpm

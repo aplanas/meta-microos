@@ -8,15 +8,14 @@ PV = "0.2.0"
 RPM_NAME = "soapysdr0.8-module-airspy-0.2.0-2.8.aarch64.rpm"
 RPM_HASH = "84212dad6f9a6c3d9de4011e3d1556c420425000a0e3b13599d61a2724cfc3558d6a21e40befe51e3f49678e5a6ce1b1e9c248b1de3e52fe2470aca4273f3935"
 
-RPROVIDES:${PN} += "libairspySupport.so()(64bit) \
-soapysdr0.8-module-airspy \
-soapysdr0.8-module-airspy(aarch-64)"
+RPROVIDES:${PN} += "libairspySupport.so \
+soapysdr0.8-module-airspy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libSoapySDR.so.0.8()(64bit) \
-libairspy.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSoapySDR.so.0.8 \
+libairspy.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

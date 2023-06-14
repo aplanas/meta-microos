@@ -9,13 +9,13 @@ RPM_HASH = "08be8fcc4ce0a88a835a5d2b99b6d49ec3485c34b9528b37662aaa5d9efd0ff3bc05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oletools \
-python3.10dist(oletools) \
+python3.10dist-oletools \
 python310-oletools \
-python3dist(oletools)"
+python3dist-oletools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-colorclass \
 python310-easygui \
 python310-msoffcrypto-tool \

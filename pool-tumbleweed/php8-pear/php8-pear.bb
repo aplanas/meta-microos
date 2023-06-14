@@ -12,13 +12,13 @@ RPM_NAME = "php8-pear-1.10.21-1.6.noarch.rpm"
 RPM_HASH = "ef8f1a51049874f9ae3d4a822e2faa2f53bc140d29fbcebdc00144af3f2fea535f260b71deebb3dd09b93edc7cbdb69b9b5c1084ed2bf634b9ed1f0657c5fda3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(php8-pear) \
+RPROVIDES:${PN} += "config-php8-pear \
 php-pear \
-php-pear(Archive_Tar) \
-php-pear(Console_Getopt) \
-php-pear(PEAR) \
-php-pear(Structures_Graph) \
-php-pear(XML_Util) \
+php-pear-Archive-Tar \
+php-pear-Console-Getopt \
+php-pear-PEAR \
+php-pear-Structures-Graph \
+php-pear-XML-Util \
 php8-pear"
 
 RDEPENDS:${PN} += "/bin/sh \

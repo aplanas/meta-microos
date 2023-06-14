@@ -12,14 +12,11 @@ PV = "1.16"
 RPM_NAME = "vms-empire-1.16-1.7.aarch64.rpm"
 RPM_HASH = "cf7a148587e8ee787c160708984bc0fb786eb085182d9735d1166e54f50b92c57849ac26cf2df98c9ad82192a5a01504d73fb82482f280f3ec8486db4d942985"
 
-RPROVIDES:${PN} += "application() \
-application(vms-empire.desktop) \
-vms-empire \
-vms-empire(aarch-64)"
+RPROVIDES:${PN} += "vms-empire"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -9,13 +9,13 @@ RPM_HASH = "15779c9796016e51bc0c1f8a7a01917d5d4a1b8838f7b9dcb52b94889787a238783a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyssim \
-python3.10dist(pyssim) \
+python3.10dist-pyssim \
 python310-pyssim \
-python3dist(pyssim)"
+python3dist-pyssim"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-numpy \
 python310-scipy \

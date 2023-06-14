@@ -17,8 +17,7 @@ RPM_HASH = "6bd460dcb8c233f073dffb4ef74b50a779313c679949584b974eccfcbc299b9172fd
 
 RPROVIDES:${PN} += "dotconf \
 dotconf-devel \
-dotconf-devel(aarch-64) \
-pkgconfig(dotconf)"
+pkgconfig-dotconf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdotconf0"

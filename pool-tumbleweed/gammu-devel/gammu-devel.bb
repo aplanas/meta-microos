@@ -23,14 +23,13 @@ RPM_NAME = "gammu-devel-1.42.0-4.6.aarch64.rpm"
 RPM_HASH = "66641c9d6be762488488f132c847dc79b6ff65a31d694150b75f6f3b80b1ff2ce03916040c6eef7c0c6172f55926c0c457a4ca76d7ef77d00496b63c5444e524"
 
 RPROVIDES:${PN} += "gammu-devel \
-gammu-devel(aarch-64) \
-pkgconfig(gammu) \
-pkgconfig(gammu-smsd)"
+pkgconfig-gammu \
+pkgconfig-gammu-smsd"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGammu8 \
 libgsmsd8 \
 pkgconfig \
-pkgconfig(gammu)"
+pkgconfig-gammu"
 
 inherit rpm

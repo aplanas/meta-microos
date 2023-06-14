@@ -9,9 +9,9 @@ RPM_NAME = "texlive-jadetex-2023.201.3.13svn63654-55.1.noarch.rpm"
 RPM_HASH = "30f97034c7838cbc1a9cd3ed74bb8b6894f515d8fecfd84a94dafa33ded0a305b8bfc8ace17df6fd604338554a3c6467bbb492c466491a0770cba8fa4f5a5b59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dsssl.def) \
-tex(uentities.sty) \
-tex(ut1omlgc.fd) \
+RPROVIDES:${PN} += "tex-dsssl.def \
+tex-uentities.sty \
+tex-ut1omlgc.fd \
 texlive-jadetex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,9 +20,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-amsfonts \
 texlive-atbegshi \

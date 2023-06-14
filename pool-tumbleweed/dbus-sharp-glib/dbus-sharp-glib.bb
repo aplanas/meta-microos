@@ -9,10 +9,10 @@ RPM_HASH = "ac19935c071586857a9723bc5ead2b24d23a81aa63009a5164875b7369fb7600849a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp-glib \
-mono(dbus-sharp-glib)"
+mono-dbus-sharp-glib"
 
 RDEPENDS:${PN} += "dbus-sharp \
-mono(dbus-sharp) \
-mono(mscorlib)"
+mono-dbus-sharp \
+mono-mscorlib"
 
 inherit rpm

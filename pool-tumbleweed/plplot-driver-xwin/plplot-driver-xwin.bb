@@ -10,13 +10,12 @@ PV = "5.15.0"
 RPM_NAME = "plplot-driver-xwin-5.15.0-16.2.aarch64.rpm"
 RPM_HASH = "36a3fec46054b7c2b6c3cb3d3425a3d1094884f43332dca64b638cecdbedd05d354ae9b57eb4e3011335cc30aa51f9b870ca404660004cac5aa0f3383d28b445"
 
-RPROVIDES:${PN} += "plplot-driver-xwin \
-plplot-driver-xwin(aarch-64)"
+RPROVIDES:${PN} += "plplot-driver-xwin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libplplot.so.17()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libplplot.so.17 \
 plplot-common"
 
 inherit rpm

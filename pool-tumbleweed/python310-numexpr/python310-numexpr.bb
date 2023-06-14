@@ -11,17 +11,16 @@ RPM_NAME = "python310-numexpr-2.8.4-1.5.aarch64.rpm"
 RPM_HASH = "ca6c757ee29dae96d3f28bf70096cf625df1420281b6af75b08edbb23ecdf73e3d065fb6ac7e4b9c44b2c478308a04aca4136bf96a47411ab32289610cda89fb"
 
 RPROVIDES:${PN} += "python3-numexpr \
-python3.10dist(numexpr) \
+python3.10dist-numexpr \
 python310-numexpr \
-python310-numexpr(aarch-64) \
-python3dist(numexpr)"
+python3dist-numexpr"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+python-abi \
 python310-numpy"
 
 inherit rpm

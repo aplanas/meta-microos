@@ -12,13 +12,13 @@ RPM_NAME = "python39-petact-0.1.2-3.13.noarch.rpm"
 RPM_HASH = "827ff9ab561bdaafc3d7f4fcc5acec839f24cab2fdca29546afed42bf7074675d50e7f6b14f00cdcbf27afdff94d2b124d351c2a0d71532b3dc43c10a865bfe1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(petact) \
+RPROVIDES:${PN} += "python3.9dist-petact \
 python39-petact \
-python3dist(petact)"
+python3dist-petact"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-setuptools \
 update-alternatives"
 

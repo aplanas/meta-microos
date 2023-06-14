@@ -9,11 +9,11 @@ RPM_HASH = "f358fd277bb7d3c8190ec2a10c39a15bfdb019e1ca80242fc08f73305f4f6c6b99fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-etcd \
-python3.10dist(python-etcd) \
+python3.10dist-python-etcd \
 python310-etcd \
-python3dist(python-etcd)"
+python3dist-python-etcd"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dnspython \
 python310-urllib3"
 

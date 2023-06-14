@@ -10,11 +10,11 @@ RPM_NAME = "python39-dqsegdb2-1.1.3-1.1.noarch.rpm"
 RPM_HASH = "b4952b55b6bf3dc5ecb81be5d77f82042824942f201f20b05bcde99db5a4edfc3ba06d7871bffc0cea31612d0eba048425325fe2863c0a454ba7fa839277b237"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(dqsegdb2) \
+RPROVIDES:${PN} += "python3.9dist-dqsegdb2 \
 python39-dqsegdb2 \
-python3dist(dqsegdb2)"
+python3dist-dqsegdb2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-gwdatafind \
 python39-igwn-auth-utils \
 python39-ligo-segments"

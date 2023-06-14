@@ -11,11 +11,11 @@ RPM_NAME = "python39-napalm-asa-20180525.8c54a85-1.3.noarch.rpm"
 RPM_HASH = "28a0d385ff830af26373605f93bf54ce88cc72c6371bfec36717b0e2ac567a9a7892e6edd7f83a60862f258e531ff0de387c66e94d4661fdf7703c31156988be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(napalm-asa) \
+RPROVIDES:${PN} += "python3.9dist-napalm-asa \
 python39-napalm-asa \
-python3dist(napalm-asa)"
+python3dist-napalm-asa"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-napalm"
 
 inherit rpm

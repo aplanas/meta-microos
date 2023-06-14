@@ -7,13 +7,12 @@ PV = "0.7.1"
 RPM_NAME = "python39-rpds-py-0.7.1-2.1.aarch64.rpm"
 RPM_HASH = "c592b6f938249c860df44abfe6cc878dbd2efad5ad0938c6f520cd699374cff95bb3786c9e41ea5e04e3ffd926ddb0bd9cc48938bc490f4c745951791ea83756"
 
-RPROVIDES:${PN} += "python3.9dist(rpds-py) \
+RPROVIDES:${PN} += "python3.9dist-rpds-py \
 python39-rpds-py \
-python39-rpds-py(aarch-64) \
-python3dist(rpds-py)"
+python3dist-rpds-py"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+python-abi"
 
 inherit rpm

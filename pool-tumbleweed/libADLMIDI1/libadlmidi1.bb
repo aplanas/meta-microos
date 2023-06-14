@@ -9,15 +9,14 @@ PV = "1.5.1"
 RPM_NAME = "libADLMIDI1-1.5.1-1.3.aarch64.rpm"
 RPM_HASH = "5a2e8ac135fd6a42abb3db383dfc6f88b1b38f6fbfe523cf2949565fbeb220d21596407a89279c557ed8af6a8605297bc97613f78fb3714aa19e88b6cd8a440a"
 
-RPROVIDES:${PN} += "libADLMIDI.so.1()(64bit) \
-libADLMIDI1 \
-libADLMIDI1(aarch-64)"
+RPROVIDES:${PN} += "libADLMIDI.so.1 \
+libADLMIDI1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -9,20 +9,18 @@ RPM_HASH = "75c15dea3fcd2353eeab9b4d1e3461e2043ff7b8c47bbcd476249bd834608117b27c
 
 RPROVIDES:${PN} += "x11-input-wacom \
 x11-input-wacom-tools \
-xf86-input-wacom \
-xf86-input-wacom(aarch-64)"
+xf86-input-wacom"
 
 RDEPENDS:${PN} += "/bin/sh \
-X11_ABI_XINPUT \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libudev.so.1()(64bit) \
-libudev.so.1(LIBUDEV_183)(64bit) \
-pkgconfig(udev)"
+X11-ABI-XINPUT \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXi.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libc.so.6 \
+libm.so.6 \
+libudev.so.1 \
+pkgconfig-udev"
 
 inherit rpm

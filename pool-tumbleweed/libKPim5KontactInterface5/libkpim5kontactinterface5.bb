@@ -8,30 +8,23 @@ RPM_NAME = "libKPim5KontactInterface5-23.04.1-1.1.aarch64.rpm"
 RPM_HASH = "dcea89c07f0318ad948959ef6f358375a817ab805c43fa1bc5b2e8504a37fab16f2c9a4d2ab1ff72f7596368bb0179777943718ec2007d491886c11e9750a12f"
 
 RPROVIDES:${PN} += "kontactinterface \
-libKPim5KontactInterface.so.5()(64bit) \
-libKPim5KontactInterface5 \
-libKPim5KontactInterface5(aarch-64)"
+libKPim5KontactInterface.so.5 \
+libKPim5KontactInterface5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
+libKF5KIOGui.so.5 \
+libKF5Parts.so.5 \
+libKF5WindowSystem.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

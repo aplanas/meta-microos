@@ -18,11 +18,11 @@ RPM_HASH = "64c8236465fcd51e7444664216e97a04b50df8fa82001e4098c0b363c0c5e00823d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tablib \
-python3.10dist(tablib) \
+python3.10dist-tablib \
 python310-tablib \
-python3dist(tablib)"
+python3dist-tablib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-MarkupPy \
 python310-PyYAML \
 python310-odfpy \

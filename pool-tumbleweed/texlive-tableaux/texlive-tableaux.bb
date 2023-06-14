@@ -11,8 +11,8 @@ RPM_NAME = "texlive-tableaux-2023.201.svn42413-57.1.noarch.rpm"
 RPM_HASH = "951d847dc8b6e85a1a20ba3f3eb943ecff442c54d0bea329dcf761f66bce5c77adc46e4f0761d2958e4ecdbf0734207983f4288420355216d16b284aa0c163ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minimum.sty) \
-tex(tableau.sty) \
+RPROVIDES:${PN} += "tex-minimum.sty \
+tex-tableau.sty \
 texlive-tableaux"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,18 +21,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(amssymb.sty) \
-tex(array.sty) \
-tex(babel.sty) \
-tex(fontenc.sty) \
-tex(graphicx.sty) \
-tex(hhline.sty) \
-tex(inputenc.sty) \
-tex(pst-fill.sty) \
-tex(pst-plot.sty) \
-tex(pst-tree.sty) \
-tex(pstcol.sty) \
+tex-amsmath.sty \
+tex-amssymb.sty \
+tex-array.sty \
+tex-babel.sty \
+tex-fontenc.sty \
+tex-graphicx.sty \
+tex-hhline.sty \
+tex-inputenc.sty \
+tex-pst-fill.sty \
+tex-pst-plot.sty \
+tex-pst-tree.sty \
+tex-pstcol.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

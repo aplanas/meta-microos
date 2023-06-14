@@ -10,46 +10,46 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fwupd-lang \
 fwupd-lang-all \
-locale(fwupd:af) \
-locale(fwupd:ast) \
-locale(fwupd:ca) \
-locale(fwupd:cs) \
-locale(fwupd:da) \
-locale(fwupd:de) \
-locale(fwupd:en_GB) \
-locale(fwupd:eo) \
-locale(fwupd:es) \
-locale(fwupd:eu) \
-locale(fwupd:fi) \
-locale(fwupd:fr) \
-locale(fwupd:fur) \
-locale(fwupd:gl) \
-locale(fwupd:he) \
-locale(fwupd:hi) \
-locale(fwupd:hr) \
-locale(fwupd:hu) \
-locale(fwupd:id) \
-locale(fwupd:it) \
-locale(fwupd:ja) \
-locale(fwupd:ka) \
-locale(fwupd:kk) \
-locale(fwupd:ko) \
-locale(fwupd:lt) \
-locale(fwupd:nl) \
-locale(fwupd:oc) \
-locale(fwupd:pa) \
-locale(fwupd:pl) \
-locale(fwupd:pt) \
-locale(fwupd:pt_BR) \
-locale(fwupd:ru) \
-locale(fwupd:si) \
-locale(fwupd:sk) \
-locale(fwupd:sr) \
-locale(fwupd:sv) \
-locale(fwupd:tr) \
-locale(fwupd:uk) \
-locale(fwupd:zh_CN) \
-locale(fwupd:zh_TW)"
+locale-fwupd-af \
+locale-fwupd-ast \
+locale-fwupd-ca \
+locale-fwupd-cs \
+locale-fwupd-da \
+locale-fwupd-de \
+locale-fwupd-en-GB \
+locale-fwupd-eo \
+locale-fwupd-es \
+locale-fwupd-eu \
+locale-fwupd-fi \
+locale-fwupd-fr \
+locale-fwupd-fur \
+locale-fwupd-gl \
+locale-fwupd-he \
+locale-fwupd-hi \
+locale-fwupd-hr \
+locale-fwupd-hu \
+locale-fwupd-id \
+locale-fwupd-it \
+locale-fwupd-ja \
+locale-fwupd-ka \
+locale-fwupd-kk \
+locale-fwupd-ko \
+locale-fwupd-lt \
+locale-fwupd-nl \
+locale-fwupd-oc \
+locale-fwupd-pa \
+locale-fwupd-pl \
+locale-fwupd-pt \
+locale-fwupd-pt-BR \
+locale-fwupd-ru \
+locale-fwupd-si \
+locale-fwupd-sk \
+locale-fwupd-sr \
+locale-fwupd-sv \
+locale-fwupd-tr \
+locale-fwupd-uk \
+locale-fwupd-zh-CN \
+locale-fwupd-zh-TW"
 
 RDEPENDS:${PN} += "fwupd"
 

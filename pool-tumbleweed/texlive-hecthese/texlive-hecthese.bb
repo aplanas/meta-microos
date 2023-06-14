@@ -21,7 +21,7 @@ RPM_NAME = "texlive-hecthese-2023.201.1.5svn60455-53.1.noarch.rpm"
 RPM_HASH = "4cf6893f039b53cbd8399a9c4e3635d14212ed11aee0596572bff617e0a5d105489ba7a32874d54383d4e6801b872edf5c663658f87ea40cc727f3a8a00e6a22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hecthese.cls) \
+RPROVIDES:${PN} += "tex-hecthese.cls \
 texlive-hecthese"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,21 +30,21 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(babel.sty) \
-tex(calc.sty) \
-tex(chapterbib.sty) \
-tex(color.sty) \
-tex(enumitem.sty) \
-tex(fontenc.sty) \
-tex(graphicx.sty) \
-tex(iflang.sty) \
-tex(ifthen.sty) \
-tex(inputenc.sty) \
-tex(memoir.cls) \
-tex(natbib.sty) \
-tex(numprint.sty) \
-tex(tocvsec2.sty) \
+tex-amsmath.sty \
+tex-babel.sty \
+tex-calc.sty \
+tex-chapterbib.sty \
+tex-color.sty \
+tex-enumitem.sty \
+tex-fontenc.sty \
+tex-graphicx.sty \
+tex-iflang.sty \
+tex-ifthen.sty \
+tex-inputenc.sty \
+tex-memoir.cls \
+tex-natbib.sty \
+tex-numprint.sty \
+tex-tocvsec2.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

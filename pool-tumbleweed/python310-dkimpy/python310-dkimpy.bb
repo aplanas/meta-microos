@@ -9,13 +9,13 @@ RPM_HASH = "9277b34e90a0ed3ff2e8e49557537b64ca4b2cbc6c359db91109101c124b10eccd2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dkimpy \
-python3.10dist(dkimpy) \
+python3.10dist-dkimpy \
 python310-dkimpy \
-python3dist(dkimpy)"
+python3dist-dkimpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyNaCl \
 python310-authres \
 python310-dnspython \

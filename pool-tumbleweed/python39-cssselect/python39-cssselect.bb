@@ -13,10 +13,10 @@ RPM_NAME = "python39-cssselect-1.2.0-2.1.noarch.rpm"
 RPM_HASH = "5d1e677f03b68e8ccbb5cccc7bc6ab7b504b26b7ed654b0c4e317767c3fc2d2f2c26a21f14d047f1c4b7ccad7863c44661508cebb0d757e691fa638a5285dd63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cssselect) \
+RPROVIDES:${PN} += "python3.9dist-cssselect \
 python39-cssselect \
-python3dist(cssselect)"
+python3dist-cssselect"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

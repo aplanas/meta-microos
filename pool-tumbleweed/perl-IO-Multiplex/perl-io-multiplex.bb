@@ -18,10 +18,10 @@ RPM_NAME = "perl-IO-Multiplex-1.16-1.26.noarch.rpm"
 RPM_HASH = "d68f274504c1b3e7a1a4a4b4a55fc9f85aaa85bf07d19f9744230e90cbbf30afee0f2a09d09b9f6186c018df4482651a2294c127a889182f2ec2bb889e2dc256"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::Multiplex) \
-perl(IO::Multiplex::Handle) \
+RPROVIDES:${PN} += "perl-IO--Multiplex \
+perl-IO--Multiplex--Handle \
 perl-IO-Multiplex"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

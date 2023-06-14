@@ -7,12 +7,11 @@ PV = "1.34"
 RPM_NAME = "tar-tests-1.34-10.3.aarch64.rpm"
 RPM_HASH = "ce56908fffb632d2709cde43a5cf05e30c430363d98a220cf7038822243c58ef48a7531fbebc0f4ca10e3d30b8e049c2a1d4bcc6fd4e1b1433e9f9c5a0b43f19"
 
-RPROVIDES:${PN} += "tar-tests \
-tar-tests(aarch-64)"
+RPROVIDES:${PN} += "tar-tests"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 tar"
 
 inherit rpm

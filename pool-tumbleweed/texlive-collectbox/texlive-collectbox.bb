@@ -17,7 +17,7 @@ RPM_NAME = "texlive-collectbox-2023.201.0.0.4csvn64967-53.1.noarch.rpm"
 RPM_HASH = "80ac2cdb07f386fabcf7ec3c6e419692514f215aed0c8b9a2a3e910e0082475f2b5b7a6ea147803e1513a2833043729554c7d1bc98db63611c933dfbd6f02654"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(collectbox.sty) \
+RPROVIDES:${PN} += "tex-collectbox.sty \
 texlive-collectbox"
 
 RDEPENDS:${PN} += "/bin/sh \

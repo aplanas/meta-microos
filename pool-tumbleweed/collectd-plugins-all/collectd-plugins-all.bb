@@ -42,9 +42,9 @@ collectd-plugin-sysevent \
 collectd-plugin-ubi \
 collectd-plugin-uptime \
 collectd-plugin-virt \
-collectd-plugin-write_influxdb_udp \
-collectd-plugin-write_stackdriver \
-collectd-plugin-write_syslog \
+collectd-plugin-write-influxdb-udp \
+collectd-plugin-write-stackdriver \
+collectd-plugin-write-syslog \
 collectd-web \
 collectd-web-js"
 

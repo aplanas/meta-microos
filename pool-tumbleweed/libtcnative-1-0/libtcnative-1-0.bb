@@ -20,16 +20,15 @@ RPM_NAME = "libtcnative-1-0-1.2.23-2.14.aarch64.rpm"
 RPM_HASH = "e280328e306058c5e29e75a8001eccbbf7c145fdfc5ad37d3bbf03788f3f271e5984b978dcf55bf7e1f874e9779ece37d56a590340cb6b8344f9a3109f494ed0"
 
 RPROVIDES:${PN} += "libtcnative-1-0 \
-libtcnative-1-0(aarch-64) \
-libtcnative-1.so.0()(64bit) \
+libtcnative-1.so.0 \
 tcnative \
 tomcat-native"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libapr-1.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libapr-1.so.0 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

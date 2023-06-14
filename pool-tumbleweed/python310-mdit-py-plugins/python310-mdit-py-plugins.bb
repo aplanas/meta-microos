@@ -9,11 +9,11 @@ RPM_HASH = "a7d472c74d221251ff700f17916c66477000edba04ea2ab525acda70aa9313dfae70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mdit-py-plugins \
-python3.10dist(mdit-py-plugins) \
+python3.10dist-mdit-py-plugins \
 python310-mdit-py-plugins \
-python3dist(mdit-py-plugins)"
+python3dist-mdit-py-plugins"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-markdown-it-py"
 
 inherit rpm

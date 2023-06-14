@@ -11,11 +11,11 @@ RPM_HASH = "727e541c591bc568c1c7d810c88c66baf73383a026b9d20ab4f4506adbf48c47a5ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-personalizer \
-python3.10dist(azure-cognitiveservices-personalizer) \
+python3.10dist-azure-cognitiveservices-personalizer \
 python310-azure-cognitiveservices-personalizer \
-python3dist(azure-cognitiveservices-personalizer)"
+python3dist-azure-cognitiveservices-personalizer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \
 python310-azure-nspkg \

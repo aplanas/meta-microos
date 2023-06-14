@@ -10,20 +10,19 @@ RPM_NAME = "opencv3-3.4.19-1.1.aarch64.rpm"
 RPM_HASH = "b50afaadef0b686fb2a2c66514416309c49b12af339e8e883eb9e50ab5e75a62a87a206c32fd13bbafa22de192091888218d9f0537c19716d993a435e6e68506"
 
 RPROVIDES:${PN} += "opencv-qt5 \
-opencv3 \
-opencv3(aarch-64)"
+opencv3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopencv_calib3d.so.3.4()(64bit) \
-libopencv_core.so.3.4()(64bit) \
-libopencv_features2d.so.3.4()(64bit) \
-libopencv_highgui.so.3.4()(64bit) \
-libopencv_imgcodecs.so.3.4()(64bit) \
-libopencv_imgproc.so.3.4()(64bit) \
-libopencv_videoio.so.3.4()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopencv-calib3d.so.3.4 \
+libopencv-core.so.3.4 \
+libopencv-features2d.so.3.4 \
+libopencv-highgui.so.3.4 \
+libopencv-imgcodecs.so.3.4 \
+libopencv-imgproc.so.3.4 \
+libopencv-videoio.so.3.4 \
+libstdc++.so.6"
 
 inherit rpm

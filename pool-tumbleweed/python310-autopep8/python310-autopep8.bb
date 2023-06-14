@@ -10,13 +10,13 @@ RPM_HASH = "3462af60869a774d18ef66eecc3e6b19542a4d207e93641569e8f0281b0e95c16895
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-autopep8 \
-python3.10dist(autopep8) \
+python3.10dist-autopep8 \
 python310-autopep8 \
-python3dist(autopep8)"
+python3dist-autopep8"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pycodestyle \
 python310-tomli \
 update-alternatives"

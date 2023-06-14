@@ -12,11 +12,10 @@ PV = "4.2.8p15"
 RPM_NAME = "ntp-4.2.8p15-13.1.aarch64.rpm"
 RPM_HASH = "0db30330784bc74e7a8417bd99af3528a1ffeb9a91e34186bf23ff6eae220924ce942ac2dce7b56173aa2e42ba1eafee020818a5dd93c37fd4825ac3260b52e1"
 
-RPROVIDES:${PN} += "config(ntp) \
+RPROVIDES:${PN} += "config-ntp \
 ntp \
-ntp(aarch-64) \
 ntp-daemon \
-perl(NTP::Util) \
+perl-NTP--Util \
 xntp \
 xntp3"
 
@@ -29,15 +28,15 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libdns_sd.so.1()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libcrypto.so.3 \
+libdns-sd.so.1 \
+libevent-core-2.1.so.7 \
+libm.so.6 \
+libreadline.so.8 \
 timezone \
-user(ntp)"
+user-ntp"
 
 inherit rpm

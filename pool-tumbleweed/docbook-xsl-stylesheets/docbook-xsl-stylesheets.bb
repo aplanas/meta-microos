@@ -17,11 +17,11 @@ RPM_NAME = "docbook-xsl-stylesheets-1.79.2.1-1.1.noarch.rpm"
 RPM_HASH = "af326756e1c63f1b670cd0ca6b4be160436acbaba9af470425bc077a46c8d039ad05d096650ae08419c5d7592ef1c42f81a507bdfc6aae6c4c62aa88941e0ce9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(docbook-xsl-stylesheets) \
+RPROVIDES:${PN} += "config-docbook-xsl-stylesheets \
 docbook-xsl-stylesheets"
 
 RDEPENDS:${PN} += "/bin/sh \
-docbook_4 \
+docbook-4 \
 sgml-skel \
 xmlcharent"
 

@@ -13,17 +13,16 @@ PV = "1.2.9"
 RPM_NAME = "fsvs-1.2.9-1.15.aarch64.rpm"
 RPM_HASH = "13069743853350d22786defd2e6e862c611feef8dab1ca6ea17e76cdc1b462b49504193c835377e6b15112fc7bfddc88d10211ffccb96587c6ec4616a9905d58"
 
-RPROVIDES:${PN} += "fsvs \
-fsvs(aarch-64)"
+RPROVIDES:${PN} += "fsvs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libapr-1.so.0()(64bit) \
-libaprutil-1.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgdbm.so.6()(64bit) \
-libpcre.so.1()(64bit) \
-libsvn_delta-1.so.0()(64bit) \
-libsvn_ra-1.so.0()(64bit) \
-libsvn_subr-1.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libapr-1.so.0 \
+libaprutil-1.so.0 \
+libc.so.6 \
+libgdbm.so.6 \
+libpcre.so.1 \
+libsvn-delta-1.so.0 \
+libsvn-ra-1.so.0 \
+libsvn-subr-1.so.0"
 
 inherit rpm

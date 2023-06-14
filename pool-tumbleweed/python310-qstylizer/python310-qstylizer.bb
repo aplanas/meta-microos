@@ -9,11 +9,11 @@ RPM_HASH = "24d1a8441a80e577446db563cb23cd25e2b81ad394cc0a0833b0b07718190057cd9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-qstylizer \
-python3.10dist(qstylizer) \
+python3.10dist-qstylizer \
 python310-qstylizer \
-python3dist(qstylizer)"
+python3dist-qstylizer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-inflection \
 python310-tinycss2"
 

@@ -11,11 +11,11 @@ RPM_HASH = "de0ba72e89be4e83aa03b670defefdd91bf1748152964af0c2506afcdbcd2109c19a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cognitiveservices-formrecognizer \
-python3.10dist(azure-cognitiveservices-formrecognizer) \
+python3.10dist-azure-cognitiveservices-formrecognizer \
 python310-azure-cognitiveservices-formrecognizer \
-python3dist(azure-cognitiveservices-formrecognizer)"
+python3dist-azure-cognitiveservices-formrecognizer"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \
 python310-azure-nspkg \

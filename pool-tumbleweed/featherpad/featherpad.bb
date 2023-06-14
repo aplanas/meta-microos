@@ -18,34 +18,20 @@ PV = "1.4.0"
 RPM_NAME = "featherpad-1.4.0-1.1.aarch64.rpm"
 RPM_HASH = "7bcc4ec7d8c8066dda70e3c6bbfa85bb0f0c22c7ac4fdc87c3d33412bc6fae21ec00a21b82f5ae800de393e7b0e1a498e060dbb28bebce617c8159a01d5a8a7b"
 
-RPROVIDES:${PN} += "application() \
-application(featherpad.desktop) \
-featherpad \
-featherpad(aarch-64) \
-metainfo() \
-metainfo(featherpad.metainfo.xml) \
-mimehandler(application/x-zerosize) \
-mimehandler(text/plain)"
+RPROVIDES:${PN} += "featherpad"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libhunspell-1.7.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libhunspell-1.7.so.0 \
+libstdc++.so.6"
 
 inherit rpm

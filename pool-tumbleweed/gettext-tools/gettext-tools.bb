@@ -14,21 +14,20 @@ RPM_HASH = "57ebb0039957ac9805994840d2f4dc80aa45cfbd50b1d37ac5f4a074b95cf30fe2b1
 
 RPROVIDES:${PN} += "gettext-devel \
 gettext-tools \
-gettext-tools(aarch-64) \
-libgettextpo.so.0()(64bit) \
-libgnuintl.so.8()(64bit)"
+libgettextpo.so.0 \
+libgnuintl.so.8"
 
 RDEPENDS:${PN} += "/bin/sh \
 gettext-runtime \
 info \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgettextlib-0.21.1.so()(64bit) \
-libgettextsrc-0.21.1.so()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
-libtextstyle.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgettextlib-0.21.1.so \
+libgettextsrc-0.21.1.so \
+libgomp.so.1 \
+libm.so.6 \
+libtextstyle.so.0 \
+libxml2.so.2 \
 xz"
 
 inherit rpm

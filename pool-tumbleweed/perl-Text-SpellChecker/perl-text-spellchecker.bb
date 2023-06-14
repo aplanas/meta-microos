@@ -15,10 +15,10 @@ RPM_NAME = "perl-Text-SpellChecker-0.14-2.21.noarch.rpm"
 RPM_HASH = "c8a65e7439cd5143f46208f74cbc74638104d4f6b7c8b46bf15a4acd1f2c1432cd33e3547935c4b25fd285b1542023cae405e7a9e8c44da72532711025030519"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::SpellChecker) \
+RPROVIDES:${PN} += "perl-Text--SpellChecker \
 perl-Text-SpellChecker"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Text::Hunspell)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Text--Hunspell"
 
 inherit rpm

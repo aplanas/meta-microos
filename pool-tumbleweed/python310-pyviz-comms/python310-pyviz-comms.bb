@@ -11,13 +11,11 @@ RPM_HASH = "175881640b1d909c340650e496f4645b5d603972fe203799dff4a2237f7d6c99ead1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyviz-comms \
-python3-pyviz_comms \
-python3.10dist(pyviz-comms) \
+python3.10dist-pyviz-comms \
 python310-pyviz-comms \
-python310-pyviz_comms \
-python3dist(pyviz-comms)"
+python3dist-pyviz-comms"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-param"
 
 inherit rpm

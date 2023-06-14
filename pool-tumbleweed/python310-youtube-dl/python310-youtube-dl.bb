@@ -10,12 +10,12 @@ RPM_HASH = "e4c5ee38292b9c28eaa2ea50c89b9ad88a3a60df9f925c1ec40e359f7d843fdf2654
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-youtube-dl \
-python3.10dist(youtube-dl) \
+python3.10dist-youtube-dl \
 python310-youtube-dl \
-python3dist(youtube-dl)"
+python3dist-youtube-dl"
 
 RDEPENDS:${PN} += "ffmpeg \
-python(abi) \
+python-abi \
 python310-xml"
 
 inherit rpm

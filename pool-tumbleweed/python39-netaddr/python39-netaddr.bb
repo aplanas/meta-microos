@@ -22,15 +22,15 @@ RPM_NAME = "python39-netaddr-0.8.0-2.11.noarch.rpm"
 RPM_HASH = "ec8022546c64a8df8bd54255989bf93e60715837460917458dc2d15cff437689065e68d6ae7cf78654f05438a288852178aa51a39ea1f0e9b4d210c9d1f7316f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(netaddr) \
+RPROVIDES:${PN} += "python3.9dist-netaddr \
 python39-netaddr \
-python3dist(netaddr)"
+python3dist-netaddr"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-importlib-metadata \
-python39-importlib_resources \
+python39-importlib-resources \
 update-alternatives"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPM_NAME = "texlive-minutes-2023.201.1.8fsvn42186-54.1.noarch.rpm"
 RPM_HASH = "e5df4245f83def1c1fa788d8fa163d6dc57fbf919c613ee77b38210973f16db556c4f25d2f91dfdea35ae6b436c6317ed8bcd66a1503322314a194ec168e96f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minutes.sty) \
+RPROVIDES:${PN} += "tex-minutes.sty \
 texlive-minutes"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,11 +24,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(minitoc.sty) \
-tex(multicol.sty) \
-tex(url.sty) \
-tex(xspace.sty) \
+tex-keyval.sty \
+tex-minitoc.sty \
+tex-multicol.sty \
+tex-url.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

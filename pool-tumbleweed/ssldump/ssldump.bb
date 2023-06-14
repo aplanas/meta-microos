@@ -12,15 +12,14 @@ PV = "1.6"
 RPM_NAME = "ssldump-1.6-1.2.aarch64.rpm"
 RPM_HASH = "02a0f8fc418730050f52d1e0964375290a09e4f7bc865eb13afa0ebbbe997df041b45f6e1b1b2792f17b15faeb26495f7bbf00e67e5581df36b85e3cf6d305ff"
 
-RPROVIDES:${PN} += "ssldump \
-ssldump(aarch-64)"
+RPROVIDES:${PN} += "ssldump"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libjson-c.so.5()(64bit) \
-libnet.so.9()(64bit) \
-libpcap.so.1()(64bit) \
-libssl.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libjson-c.so.5 \
+libnet.so.9 \
+libpcap.so.1 \
+libssl.so.3"
 
 inherit rpm

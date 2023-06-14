@@ -12,7 +12,7 @@ RPM_NAME = "texlive-marginfit-2023.201.1.1svn48281-52.1.noarch.rpm"
 RPM_HASH = "558b2d6a1a22bde3077f98dc62d214370fe82ae5b4fe10d104d182fcd102a26493f02b6addcd5db31cdaa87b6161c62d956d63ba32b52bcf0d3b7e861b804ecc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(marginfit.sty) \
+RPROVIDES:${PN} += "tex-marginfit.sty \
 texlive-marginfit"
 
 RDEPENDS:${PN} += "/bin/sh \

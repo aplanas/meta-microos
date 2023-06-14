@@ -18,10 +18,10 @@ RPM_NAME = "python311-json_tricks-3.16.1-1.1.noarch.rpm"
 RPM_HASH = "f5c5e5ad767f781bd6c9b68f02ac0362db8f07cf181895733884b2ac513de1aff3c2202055e645b0fc976ee8ca8e95c2a2f05567be85831f2f563a640196f6e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(json-tricks) \
-python311-json_tricks \
-python3dist(json-tricks)"
+RPROVIDES:${PN} += "python3.11dist-json-tricks \
+python311-json-tricks \
+python3dist-json-tricks"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

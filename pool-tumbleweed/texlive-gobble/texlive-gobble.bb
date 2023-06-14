@@ -17,10 +17,10 @@ RPM_NAME = "texlive-gobble-2023.201.0.0.2svn64967-53.1.noarch.rpm"
 RPM_HASH = "e8804c7a399ea886822d4b3edce731550ba16da7f9c89fb01fb4da79867374b20c726e1626ced59e9ff22720ea37e454fa9bffdeb6c6e35ed59e050eea15917f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gobble-user.sty) \
-tex(gobble-user.tex) \
-tex(gobble.sty) \
-tex(gobble.tex) \
+RPROVIDES:${PN} += "tex-gobble-user.sty \
+tex-gobble-user.tex \
+tex-gobble.sty \
+tex-gobble.tex \
 texlive-gobble"
 
 RDEPENDS:${PN} += "/bin/sh \

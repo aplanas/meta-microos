@@ -14,13 +14,12 @@ PV = "8.17.1"
 RPM_NAME = "libmilter1_0-8.17.1-9.1.aarch64.rpm"
 RPM_HASH = "e29c03961760bc638e3ed107b988eb14cb40a7c64d616b75447fa32fe936be4a22846a5d762d3234538c7b6127fb5a298640d3fc05a8722e2c350a8b1bf3720e"
 
-RPROVIDES:${PN} += "libmilter.so.1.0()(64bit) \
-libmilter1_0 \
-libmilter1_0(aarch-64)"
+RPROVIDES:${PN} += "libmilter.so.1.0 \
+libmilter1-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-smtp_daemon"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+smtp-daemon"
 
 inherit rpm

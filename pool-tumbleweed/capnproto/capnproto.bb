@@ -8,17 +8,16 @@ PV = "0.10.4"
 RPM_NAME = "capnproto-0.10.4-1.1.aarch64.rpm"
 RPM_HASH = "d1c759f3772b5f7bc82422c1c2d7be38dd9fbde8a59003ef2cafffa9073e68f117e567ff2eeb85a0646033dce45b32292cff580d9066ca5cf77666ab8bc961df"
 
-RPROVIDES:${PN} += "capnproto \
-capnproto(aarch-64)"
+RPROVIDES:${PN} += "capnproto"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcapnp-0.10.4.so()(64bit) \
-libcapnp-0_10_4 \
-libcapnp-json-0.10.4.so()(64bit) \
-libcapnpc-0.10.4.so()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkj-0.10.4.so()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcapnp-0-10-4 \
+libcapnp-0.10.4.so \
+libcapnp-json-0.10.4.so \
+libcapnpc-0.10.4.so \
+libgcc-s.so.1 \
+libkj-0.10.4.so \
+libstdc++.so.6"
 
 inherit rpm

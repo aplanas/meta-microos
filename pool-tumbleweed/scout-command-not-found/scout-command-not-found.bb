@@ -12,7 +12,7 @@ RPM_HASH = "01ba8add4fb205e94be8be15547f6a6015b58699e4bd53697f48542c81cea6253207
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "command-not-found \
-config(scout-command-not-found) \
+config-scout-command-not-found \
 scout-command-not-found"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

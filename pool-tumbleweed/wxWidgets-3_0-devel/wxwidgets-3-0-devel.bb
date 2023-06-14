@@ -16,35 +16,34 @@ RPM_HASH = "e359f3a3260c919a78edd6a67c525e9bce20a12d2dcf03c5716cf5e365456e71199b
 
 RPROVIDES:${PN} += "wxGTK-devel \
 wxGTK2-devel \
-wxWidgets-3_0-devel \
-wxWidgets-3_0-devel(aarch-64) \
+wxWidgets-3-0-devel \
 wxWidgets-any-devel \
 wxWidgets-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 gtk2-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.3.0.5()(64bit) \
-libwx_baseu-suse3_0_5 \
-libwx_baseu_net-suse3_0_5 \
-libwx_baseu_xml-suse.so.3.0.5()(64bit) \
-libwx_baseu_xml-suse3_0_5 \
-libwx_gtk2u_adv-suse3_0_5 \
-libwx_gtk2u_aui-suse3_0_5 \
-libwx_gtk2u_core-suse3_0_5 \
-libwx_gtk2u_gl-suse3_0_5 \
-libwx_gtk2u_html-suse3_0_5 \
-libwx_gtk2u_media-suse3_0_5 \
-libwx_gtk2u_propgrid-suse3_0_5 \
-libwx_gtk2u_qa-suse3_0_5 \
-libwx_gtk2u_ribbon-suse3_0_5 \
-libwx_gtk2u_richtext-suse3_0_5 \
-libwx_gtk2u_stc-suse3_0_5 \
-libwx_gtk2u_xrc-suse3_0_5 \
-pkgconfig(gl) \
-pkgconfig(glu)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libwx-baseu-net-suse3-0-5 \
+libwx-baseu-suse.so.3.0.5 \
+libwx-baseu-suse3-0-5 \
+libwx-baseu-xml-suse.so.3.0.5 \
+libwx-baseu-xml-suse3-0-5 \
+libwx-gtk2u-adv-suse3-0-5 \
+libwx-gtk2u-aui-suse3-0-5 \
+libwx-gtk2u-core-suse3-0-5 \
+libwx-gtk2u-gl-suse3-0-5 \
+libwx-gtk2u-html-suse3-0-5 \
+libwx-gtk2u-media-suse3-0-5 \
+libwx-gtk2u-propgrid-suse3-0-5 \
+libwx-gtk2u-qa-suse3-0-5 \
+libwx-gtk2u-ribbon-suse3-0-5 \
+libwx-gtk2u-richtext-suse3-0-5 \
+libwx-gtk2u-stc-suse3-0-5 \
+libwx-gtk2u-xrc-suse3-0-5 \
+pkgconfig-gl \
+pkgconfig-glu"
 
 inherit rpm

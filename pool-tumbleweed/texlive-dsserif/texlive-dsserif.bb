@@ -12,13 +12,13 @@ RPM_NAME = "texlive-dsserif-2023.201.1.031svn60898-52.1.noarch.rpm"
 RPM_HASH = "edfc9d3957acd601820cb84af55bdaf4d8d4634e0dbd33cc05a01e8fed07738d9115d169343f23034485efe467a142d77f00310dee02ff3e59fee79dd23a90b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(DSSerif-Bold.tfm) \
-tex(DSSerif.map) \
-tex(DSSerif.tfm) \
-tex(DSSerifUni-Bold.tfm) \
-tex(DSSerifUni.tfm) \
-tex(dsserif.sty) \
-tex(udsserif.fd) \
+RPROVIDES:${PN} += "tex-DSSerif-Bold.tfm \
+tex-DSSerif.map \
+tex-DSSerif.tfm \
+tex-DSSerifUni-Bold.tfm \
+tex-DSSerifUni.tfm \
+tex-dsserif.sty \
+tex-udsserif.fd \
 texlive-dsserif"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,8 +27,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
-tex(xkeyval.sty) \
+tex-updmap.cfg \
+tex-xkeyval.sty \
 texlive \
 texlive-dsserif-fonts \
 texlive-filesystem \

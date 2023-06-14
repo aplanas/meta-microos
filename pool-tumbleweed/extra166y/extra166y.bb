@@ -10,9 +10,9 @@ RPM_HASH = "58f95e5a5c6b206fecf70d93e9dd4b957eb69a35928b286391616438e09012078aaa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extra166y \
-mvn(org.codehaus.jsr166-mirror:extra166y) \
-mvn(org.codehaus.jsr166-mirror:extra166y:pom:) \
-osgi(extra166y)"
+mvn-org.codehaus.jsr166-mirror-extra166y \
+mvn-org.codehaus.jsr166-mirror-extra166y-pom- \
+osgi-extra166y"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

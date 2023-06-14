@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-mgmt-deviceupdate-1.0.0.0-1.3.noarch.rpm"
 RPM_HASH = "c337e5d920a5d67388102b4eb5a597c41b4832b9ac8fd5ec0bd6240e24fdc8a8aeb8313fa24aa5f181e09dddfa915291b74c82cf7381baf16a547dcbe5108f58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-deviceupdate) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-deviceupdate \
 python39-azure-mgmt-deviceupdate \
-python3dist(azure-mgmt-deviceupdate)"
+python3dist-azure-mgmt-deviceupdate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

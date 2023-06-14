@@ -22,12 +22,11 @@ PV = "0.09"
 RPM_NAME = "perl-Term-Terminfo-0.09-1.13.aarch64.rpm"
 RPM_HASH = "822cfaea6e403a47ba8f9c5eb680f56859580079dbf7d19aa2ee34a90ae2298ff6b49a037544d3b079b0979fb10ba9ff3535b912882b398172c65d2d08587c1f"
 
-RPROVIDES:${PN} += "perl(Term::Terminfo) \
-perl-Term-Terminfo \
-perl-Term-Terminfo(aarch-64)"
+RPROVIDES:${PN} += "perl-Term--Terminfo \
+perl-Term-Terminfo"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "libc.so.6 \
+libtinfo.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

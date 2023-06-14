@@ -9,11 +9,11 @@ RPM_HASH = "baede842d2880b11b6f28a54510636bc03649473b2993b644f9ab3f5e508b5387a14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tox-no-internet \
-python3.10dist(tox-no-internet) \
+python3.10dist-tox-no-internet \
 python310-tox-no-internet \
-python3dist(tox-no-internet)"
+python3dist-tox-no-internet"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-tox"
 
 inherit rpm

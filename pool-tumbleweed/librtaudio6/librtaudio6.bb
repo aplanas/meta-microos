@@ -13,18 +13,16 @@ PV = "5.1.0"
 RPM_NAME = "librtaudio6-5.1.0-1.15.aarch64.rpm"
 RPM_HASH = "f619324ce36209602d642dd2e9a18184426b22f00d048e8d8ffc7f58a081bcb2397d4106da7931d7d52edf46fd5a7832f67d567ba9d3ba68e2debe4b7a3bc08b"
 
-RPROVIDES:${PN} += "librtaudio.so.6()(64bit) \
-librtaudio6 \
-librtaudio6(aarch-64)"
+RPROVIDES:${PN} += "librtaudio.so.6 \
+librtaudio6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libpulse-simple.so.0()(64bit) \
-libpulse-simple.so.0(PULSE_0)(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libpulse-simple.so.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -17,12 +17,12 @@ RPM_HASH = "845b8279d7b3f651fb4fc9225a9e79a1d850f0405d61a100b35fad6f75d078524d8b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-GitPython \
-python3.10dist(gitpython) \
+python3.10dist-gitpython \
 python310-GitPython \
-python3dist(gitpython)"
+python3dist-gitpython"
 
 RDEPENDS:${PN} += "git-core \
-python(abi) \
+python-abi \
 python310-gitdb"
 
 inherit rpm

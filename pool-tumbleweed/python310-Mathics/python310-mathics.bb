@@ -9,18 +9,17 @@ RPM_HASH = "edd845b0accc97eaf04cba848fc4005584f3215f5a150f099db5bcc3be41bf614618
 
 RPROVIDES:${PN} += "python3-Mathics \
 python3-Mathics3 \
-python3.10dist(mathics3) \
+python3.10dist-mathics3 \
 python310-Mathics \
-python310-Mathics(aarch-64) \
 python310-Mathics3 \
-python3dist(mathics3)"
+python3dist-mathics3"
 
-RDEPENDS:${PN} += "(python310-Pillow >= 9.2 if python310-base >= 3.7) \
+RDEPENDS:${PN} += "-python310-Pillow >= 9.2 if python310-base >= 3.7 \
 /bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-Cython \
 python310-Django \
 python310-Mathics-Scanner \

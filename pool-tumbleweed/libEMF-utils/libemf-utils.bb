@@ -14,11 +14,10 @@ PV = "1.0.13"
 RPM_NAME = "libEMF-utils-1.0.13-3.3.aarch64.rpm"
 RPM_HASH = "ddd5946fda8b51e3c0de3be9ef1f26172721ff4358bc8f31b6a9441db41183d7a3ab2bac8c4d9c947b8963365cb12fe68b4fed0d4632b0435fa401d909644a32"
 
-RPROVIDES:${PN} += "libEMF-utils \
-libEMF-utils(aarch-64) \
-libEMF:/usr/bin/printemf"
+RPROVIDES:${PN} += "libEMF-/usr/bin/printemf \
+libEMF-utils"
 
-RDEPENDS:${PN} += "libEMF.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libEMF.so.1 \
+libc.so.6"
 
 inherit rpm

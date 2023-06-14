@@ -14,7 +14,7 @@ RPM_NAME = "texlive-yaletter-2023.201.1.1svn42830-52.1.noarch.rpm"
 RPM_HASH = "2bc934ce456bcf3b7706c02ae4615a57d52a8515ef9be256359cd63c025434ce091b95e1e95a1a830085bac3a2775dce184744b08405b19e510af307f7e0ffe7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(yaletter.cls) \
+RPROVIDES:${PN} += "tex-yaletter.cls \
 texlive-yaletter"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,10 +23,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(fancyhdr.sty) \
-tex(geometry.sty) \
-tex(textpos.sty) \
-tex(xkeyval.sty) \
+tex-fancyhdr.sty \
+tex-geometry.sty \
+tex-textpos.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

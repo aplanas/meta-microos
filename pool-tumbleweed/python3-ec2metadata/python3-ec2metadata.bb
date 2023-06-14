@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ec2metadata \
 python3-ec2metadata \
-python3.10dist(ec2metadata) \
-python3dist(ec2metadata)"
+python3.10dist-ec2metadata \
+python3dist-ec2metadata"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

@@ -11,8 +11,7 @@ PV = "4.9.2"
 RPM_NAME = "netcdf-openmpi2-devel-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "03dc1f3d9b9505e2240451cf8527dd0c723bd5c38499993e9cca7cc850332bc83b83e51122e47a2c404adcc6f8263a9150a713802f2dcd812fe8e6f9ac92f9d1"
 
-RPROVIDES:${PN} += "netcdf-openmpi2-devel \
-netcdf-openmpi2-devel(aarch-64)"
+RPROVIDES:${PN} += "netcdf-openmpi2-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 hdf5-openmpi2-devel \

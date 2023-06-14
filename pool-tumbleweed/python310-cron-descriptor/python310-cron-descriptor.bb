@@ -9,10 +9,10 @@ RPM_HASH = "c345881cf5c55783d79216cb00b537a072b1c758e2b04f218fee165618d00cf59152
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cron-descriptor \
-python3.10dist(cron-descriptor) \
+python3.10dist-cron-descriptor \
 python310-cron-descriptor \
-python3dist(cron-descriptor)"
+python3dist-cron-descriptor"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

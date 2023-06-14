@@ -29,14 +29,14 @@ RPM_NAME = "python311-jenkinsapi-0.3.11-3.6.noarch.rpm"
 RPM_HASH = "596ae227a821521c6574dcf017c666822594e86a1dd13c4c8fc2d6a6c0689d315c6032900e6b60c01c6b52ba2b46a6e19670a59a0c2e7c803c540fb74456e376"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jenkinsapi) \
+RPROVIDES:${PN} += "python3.11dist-jenkinsapi \
 python311-jenkinsapi \
-python3dist(jenkinsapi)"
+python3dist-jenkinsapi"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-pytz \
 python311-requests \
 python311-six"

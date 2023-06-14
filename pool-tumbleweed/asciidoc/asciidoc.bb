@@ -11,12 +11,12 @@ RPM_HASH = "24953cb3f23dad5aa27c0c1571b81229626136f7093c1cf827e926268b15a5f081f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciidoc \
-python3.10dist(asciidoc) \
-python3dist(asciidoc)"
+python3.10dist-asciidoc \
+python3dist-asciidoc"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 docbook-xsl-stylesheets \
-python(abi) \
+python-abi \
 python3-xml"
 
 inherit rpm

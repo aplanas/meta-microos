@@ -22,15 +22,14 @@ RPROVIDES:${PN} += "python3 \
 python3-readline \
 python3-sqlite3 \
 python310 \
-python310(aarch-64) \
 python310-readline \
 python310-sqlite3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libsqlite3.so.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libreadline.so.8 \
+libsqlite3.so.0 \
+python-abi \
 python310-base"
 
 inherit rpm

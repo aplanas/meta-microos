@@ -7,20 +7,18 @@ PV = "2.1.0"
 RPM_NAME = "libscalapack2_2_1_0-gnu-openmpi4-hpc-devel-2.1.0-9.19.aarch64.rpm"
 RPM_HASH = "940bed91d15d7af4b727ec626cb9bb1e504cce9fd9f78d4560eb7fdb21d940d805a699ee5114fa1758e4573da3f16d7cccd9febf50d10142b194f3aa2ffcf629"
 
-RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-openmpi4-hpc-devel \
-libscalapack2_2_1_0-gnu-openmpi4-hpc-devel \
-libscalapack2_2_1_0-gnu-openmpi4-hpc-devel(aarch-64) \
-scalapack_2_1_0-gnu-openmpi4-hpc-devel"
+RPROVIDES:${PN} += "libblacs2-2-1-0-gnu-openmpi4-hpc-devel \
+libscalapack2-2-1-0-gnu-openmpi4-hpc-devel \
+scalapack-2-1-0-gnu-openmpi4-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libm.so.6 \
 libopenblas-gnu-hpc-devel \
-libscalapack2_2_1_0-gnu-openmpi4-hpc \
+libscalapack2-2-1-0-gnu-openmpi4-hpc \
 openmpi4-gnu-hpc-devel"
 
 inherit rpm

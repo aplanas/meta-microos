@@ -12,13 +12,13 @@ RPM_HASH = "215a7d08e8e1330f67f0c779d6a73a95118117a40ec3e8f3ff1ab73603c62c97223c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bmap-tools \
-python3.10dist(bmap-tools) \
+python3.10dist-bmap-tools \
 python310-bmap-tools \
-python3dist(bmap-tools)"
+python3dist-bmap-tools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-gpg \
 update-alternatives"
 

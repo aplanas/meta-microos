@@ -11,61 +11,51 @@ PV = "5.15.9+kde3"
 RPM_NAME = "libQt5Multimedia5-5.15.9+kde3-1.1.aarch64.rpm"
 RPM_HASH = "0e8cbe88e18b2b47fd46059c825c03466ced369cfabb4087fdd7162fc865ff69a53ea922d96400ff13622f349e013c6a627ff2a30fb57b2a999a951567e828bc"
 
-RPROVIDES:${PN} += "libQt5Multimedia.so.5()(64bit) \
-libQt5Multimedia.so.5(Qt_5)(64bit) \
+RPROVIDES:${PN} += "libQt5Multimedia.so.5 \
 libQt5Multimedia5 \
-libQt5Multimedia5(aarch-64) \
-libQt5MultimediaGstTools.so.5()(64bit) \
-libQt5MultimediaQuick.so.5()(64bit) \
-libQt5MultimediaWidgets.so.5()(64bit) \
-libQt5MultimediaWidgets.so.5(Qt_5)(64bit) \
-libdeclarative_audioengine.so()(64bit) \
-libdeclarative_multimedia.so()(64bit) \
-libeglvideonode.so()(64bit) \
-libgstaudiodecoder.so()(64bit) \
-libgstcamerabin.so()(64bit) \
-libgstmediacapture.so()(64bit) \
-libgstmediaplayer.so()(64bit) \
-libqtaudio_alsa.so()(64bit) \
-libqtmedia_pulse.so()(64bit) \
-libqtmultimedia_m3u.so()(64bit) \
-qt5qmlimport(QtAudioEngine.1) \
-qt5qmlimport(QtMultimedia.5)"
+libQt5MultimediaGstTools.so.5 \
+libQt5MultimediaQuick.so.5 \
+libQt5MultimediaWidgets.so.5 \
+libdeclarative-audioengine.so \
+libdeclarative-multimedia.so \
+libeglvideonode.so \
+libgstaudiodecoder.so \
+libgstcamerabin.so \
+libgstmediacapture.so \
+libgstmediaplayer.so \
+libqtaudio-alsa.so \
+libqtmedia-pulse.so \
+libqtmultimedia-m3u.so \
+qt5qmlimport-QtAudioEngine.1 \
+qt5qmlimport-QtMultimedia.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libEGL.so.1()(64bit) \
-libGLESv2.so.2()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstapp-1.0.so.0()(64bit) \
-libgstaudio-1.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstgl-1.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstphotography-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libopenal.so.1()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtMultimedia.5) \
-qt5qmlimport(QtQuick.2)"
+ld-linux-aarch64.so.1 \
+libEGL.so.1 \
+libGLESv2.so.2 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5Widgets.so.5 \
+libasound.so.2 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstapp-1.0.so.0 \
+libgstaudio-1.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstgl-1.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstphotography-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
+libm.so.6 \
+libopenal.so.1 \
+libpulse.so.0 \
+libstdc++.so.6 \
+qt5qmlimport-QtMultimedia.5 \
+qt5qmlimport-QtQuick.2"
 
 inherit rpm

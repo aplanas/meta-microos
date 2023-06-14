@@ -9,8 +9,7 @@ RPM_HASH = "f5cdff486c126af86a797d71633208971a35621668714f4802b92760265f57083a98
 
 RPROVIDES:${PN} += "aspell-se \
 aspell-sv \
-aspell-sv(aarch-64) \
-locale(aspell:sv)"
+locale-aspell-sv"
 
 RDEPENDS:${PN} += ""
 

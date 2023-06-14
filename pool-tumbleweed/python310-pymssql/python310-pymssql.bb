@@ -10,14 +10,13 @@ RPM_NAME = "python310-pymssql-2.1.5-1.15.aarch64.rpm"
 RPM_HASH = "e7804db9fcd804e707713364b8bc71d9e229a346e15c3e7ac2e9a745e7b3497ddcd43e9880d592a8ab6ae200cb313d32fec58fc73ba1aa8db27f94289b153877"
 
 RPROVIDES:${PN} += "python3-pymssql \
-python3.10dist(pymssql) \
+python3.10dist-pymssql \
 python310-pymssql \
-python310-pymssql(aarch-64) \
-python3dist(pymssql)"
+python3dist-pymssql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsybdb.so.5()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsybdb.so.5 \
+python-abi"
 
 inherit rpm

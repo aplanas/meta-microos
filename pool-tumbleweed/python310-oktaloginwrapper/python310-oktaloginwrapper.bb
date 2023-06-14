@@ -10,11 +10,11 @@ RPM_HASH = "a8d5fa0b4b98a85ee0d09a4813e2c23f8d1f9e22afdbec7a8593189a8dbee6b01873
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oktaloginwrapper \
-python3.10dist(oktaloginwrapper) \
+python3.10dist-oktaloginwrapper \
 python310-oktaloginwrapper \
-python3dist(oktaloginwrapper)"
+python3dist-oktaloginwrapper"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lxml \
 python310-requests"
 

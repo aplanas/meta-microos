@@ -9,12 +9,12 @@ RPM_HASH = "66166dd414df364e83b4e31ff65f306cf9234a0bd9bf8468724679ca0d5ab9ae28cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alee-fonts \
-locale(ko) \
+locale-ko \
 scalable-font-ko \
 ttf-alee"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

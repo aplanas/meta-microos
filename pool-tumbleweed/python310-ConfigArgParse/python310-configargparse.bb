@@ -19,12 +19,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ConfigArgParse \
 python3-configargparse \
-python3.10dist(configargparse) \
+python3.10dist-configargparse \
 python310-ConfigArgParse \
 python310-configargparse \
-python3dist(configargparse)"
+python3dist-configargparse"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-setuptools"
 

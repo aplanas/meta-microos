@@ -16,7 +16,7 @@ RPM_NAME = "texlive-dbshow-2023.201.1.5svn61634-52.1.noarch.rpm"
 RPM_HASH = "4ca76acca9b767d7a469cbc2532ded49382baabf6582991085309559c8e562e0ecaff9a346391163e9c1a105e3cec09d6e0fa8a9e0434bf3a3c698a4e73f9975"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(dbshow.sty) \
+RPROVIDES:${PN} += "tex-dbshow.sty \
 texlive-dbshow"
 
 RDEPENDS:${PN} += "/bin/sh \

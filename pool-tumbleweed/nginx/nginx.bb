@@ -8,29 +8,28 @@ PV = "1.25.0"
 RPM_NAME = "nginx-1.25.0-1.1.aarch64.rpm"
 RPM_HASH = "f1e7996a60be43cb94bbb6563fd425eeeb93d2bd0f25688af5e54153713dbaf125fd8920b73a4b0d1835a25824b970f1824f28dee00e6e48bf1eeb74338afa9e"
 
-RPROVIDES:${PN} += "config(nginx) \
-group(nginx) \
-http_daemon \
+RPROVIDES:${PN} += "config-nginx \
+group-nginx \
+http-daemon \
 httpd \
 nginx \
-nginx(aarch-64) \
-perl(nginx) \
-user(nginx)"
+perl-nginx \
+user-nginx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libexslt.so.0()(64bit) \
-libgd.so.3()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libperl.so()(64bit) \
-libssl.so.3()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libexslt.so.0 \
+libgd.so.3 \
+libpcre2-8.so.0 \
+libperl.so \
+libssl.so.3 \
+libxml2.so.2 \
+libxslt.so.1 \
+libz.so.1 \
 perl \
 sysuser-shadow"
 

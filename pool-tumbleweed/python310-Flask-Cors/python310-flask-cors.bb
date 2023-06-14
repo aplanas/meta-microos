@@ -10,11 +10,11 @@ RPM_HASH = "89819b09a62805bc8b2fda946c8ae2c47a649cb17c18edae0a2e1ff3a6e5bb7750eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Cors \
-python3.10dist(flask-cors) \
+python3.10dist-flask-cors \
 python310-Flask-Cors \
-python3dist(flask-cors)"
+python3dist-flask-cors"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-six"
 

@@ -24,11 +24,11 @@ RPM_NAME = "texlive-beamertheme-trigon-2023.201.0.0.7.0svn65985-53.1.noarch.rpm"
 RPM_HASH = "f9bfaf50454b6c75aca8480822166c093459e12bd2acbdd7e2c4312fc1615b8e5954eecf6fa472baafa1a27dea7eb25ec3c03c7a84eac9ffcd2d77ce455d46b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(beamercolorthemetrigon.sty) \
-tex(beamerfontthemetrigon.sty) \
-tex(beamerinnerthemetrigon.sty) \
-tex(beamerouterthemetrigon.sty) \
-tex(beamerthemetrigon.sty) \
+RPROVIDES:${PN} += "tex-beamercolorthemetrigon.sty \
+tex-beamerfontthemetrigon.sty \
+tex-beamerinnerthemetrigon.sty \
+tex-beamerouterthemetrigon.sty \
+tex-beamerthemetrigon.sty \
 texlive-beamertheme-trigon"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -37,9 +37,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(pgfopts.sty) \
-tex(sourcesanspro.sty) \
-tex(tikz.sty) \
+tex-pgfopts.sty \
+tex-sourcesanspro.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

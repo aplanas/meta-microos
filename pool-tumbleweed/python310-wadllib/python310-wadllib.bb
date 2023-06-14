@@ -10,11 +10,11 @@ RPM_HASH = "6c4c0b6a4a9edf2b7a4a7581217b411c266025cc2ce05e9fc6b7b372ca0a832f3548
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wadllib \
-python3.10dist(wadllib) \
+python3.10dist-wadllib \
 python310-wadllib \
-python3dist(wadllib)"
+python3dist-wadllib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-lazr.uri"
 
 inherit rpm

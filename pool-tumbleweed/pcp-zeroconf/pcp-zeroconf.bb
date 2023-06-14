@@ -11,9 +11,8 @@ PV = "5.2.5"
 RPM_NAME = "pcp-zeroconf-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "62b8affa7f15551313be31e7b0514b5fe10e6f18001ef385c3975b632f8ed2d5219183a2a6bb60094a29300e30b031f3fd612ea2ee3a2811b6d06ccdd61d2ab7"
 
-RPROVIDES:${PN} += "config(pcp-zeroconf) \
-pcp-zeroconf \
-pcp-zeroconf(aarch-64)"
+RPROVIDES:${PN} += "config-pcp-zeroconf \
+pcp-zeroconf"
 
 RDEPENDS:${PN} += "/bin/sh \
 pcp \

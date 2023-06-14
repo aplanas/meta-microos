@@ -10,17 +10,17 @@ RPM_HASH = "e0b595bb9748d79b5bc165ae94f14697e635c9fb4a98c2b312d66c6e8edeabb20a77
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-findbugs \
-config(ant-findbugs) \
-findbugs:/etc/ant.d/findbugs \
-mvn(com.google.code.findbugs:findbugs-ant) \
-mvn(com.google.code.findbugs:findbugs-ant:pom:) \
-mvn(net.sourceforge.findbugs:findbugs-ant) \
-mvn(net.sourceforge.findbugs:findbugs-ant:pom:)"
+config-ant-findbugs \
+findbugs-/etc/ant.d/findbugs \
+mvn-com.google.code.findbugs-findbugs-ant \
+mvn-com.google.code.findbugs-findbugs-ant-pom- \
+mvn-net.sourceforge.findbugs-findbugs-ant \
+mvn-net.sourceforge.findbugs-findbugs-ant-pom-"
 
 RDEPENDS:${PN} += "ant \
 findbugs \
 java-headless \
 javapackages-filesystem \
-mvn(com.google.code.findbugs:findbugs)"
+mvn-com.google.code.findbugs-findbugs"
 
 inherit rpm

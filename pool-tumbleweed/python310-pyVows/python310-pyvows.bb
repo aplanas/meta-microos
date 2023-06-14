@@ -9,13 +9,13 @@ RPM_HASH = "53b20eb08e6268b059cdb8cdad47646a341e431abbb4076fa05b3430331397b8d511
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyVows \
-python3.10dist(pyvows) \
+python3.10dist-pyvows \
 python310-pyVows \
-python3dist(pyvows)"
+python3dist-pyvows"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Unidecode \
 python310-gevent \
 python310-preggy \

@@ -14,30 +14,22 @@ PV = "5.3.7"
 RPM_NAME = "fwbuilder-5.3.7-7.13.aarch64.rpm"
 RPM_HASH = "d4708480fd945bf006ebcd0cbec09433942ffbbd87a2569ca523353a57b8e7319b4342321eaee07b070eca7032e003ae78fccea3d6adbf069184340d78d2aa38"
 
-RPROVIDES:${PN} += "application() \
-application(fwbuilder.desktop) \
-fwbuilder \
-fwbuilder(aarch-64)"
+RPROVIDES:${PN} += "fwbuilder"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnetsnmp.so.40()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnetsnmp.so.40 \
+libstdc++.so.6 \
+libxml2.so.2 \
+libxslt.so.1 \
+libz.so.1 \
 rcs \
 update-desktop-files"
 

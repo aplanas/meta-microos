@@ -12,17 +12,17 @@ RPM_HASH = "65883732bcc5e31bafa802dd26b1c3180246d7ce520be88dcd4a28bdc62c7e5209cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-twine \
-python3.10dist(twine) \
+python3.10dist-twine \
 python310-twine \
-python3dist(twine)"
+python3dist-twine"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-importlib-metadata \
 python310-keyring \
 python310-pkginfo \
-python310-readme_renderer \
+python310-readme-renderer \
 python310-requests \
 python310-requests-toolbelt \
 python310-rfc3986 \

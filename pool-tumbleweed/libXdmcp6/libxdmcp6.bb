@@ -13,13 +13,12 @@ PV = "1.1.4"
 RPM_NAME = "libXdmcp6-1.1.4-1.2.aarch64.rpm"
 RPM_HASH = "9772abc20b716af1ee44964d179133126417f4257feeee97e882e8f4ffc651b01240f2798dc162ca13208e2b265e578ce03f991971bb9d4f090b7e94b56deaad"
 
-RPROVIDES:${PN} += "libXdmcp.so.6()(64bit) \
+RPROVIDES:${PN} += "libXdmcp.so.6 \
 libXdmcp6 \
-libXdmcp6(aarch-64) \
 xorg-x11-libXdmcp"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

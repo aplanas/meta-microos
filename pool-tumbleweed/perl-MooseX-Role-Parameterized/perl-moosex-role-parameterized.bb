@@ -30,22 +30,22 @@ RPM_NAME = "perl-MooseX-Role-Parameterized-1.11-1.15.noarch.rpm"
 RPM_HASH = "3b1ae4497bc289247d209427d4354e4c1aa2f3f215400ea11870bb2d30d379753c03afe982961d8f8cebc13a0398a289aa74005b83f26200add6074d68c80fac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::Role::Parameterised) \
-perl(MooseX::Role::Parameterized) \
-perl(MooseX::Role::Parameterized::Meta::Role::Parameterized) \
-perl(MooseX::Role::Parameterized::Meta::Trait::Parameterizable) \
-perl(MooseX::Role::Parameterized::Meta::Trait::Parameterized) \
-perl(MooseX::Role::Parameterized::Parameters) \
+RPROVIDES:${PN} += "perl-MooseX--Role--Parameterised \
+perl-MooseX--Role--Parameterized \
+perl-MooseX--Role--Parameterized--Meta--Role--Parameterized \
+perl-MooseX--Role--Parameterized--Meta--Trait--Parameterizable \
+perl-MooseX--Role--Parameterized--Meta--Trait--Parameterized \
+perl-MooseX--Role--Parameterized--Parameters \
 perl-MooseX-Role-Parameterized"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Module::Runtime) \
-perl(Moose) \
-perl(Moose::Exporter) \
-perl(Moose::Meta::Role) \
-perl(Moose::Role) \
-perl(Moose::Util) \
-perl(namespace::autoclean) \
-perl(namespace::clean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Module--Runtime \
+perl-Moose \
+perl-Moose--Exporter \
+perl-Moose--Meta--Role \
+perl-Moose--Role \
+perl-Moose--Util \
+perl-namespace--autoclean \
+perl-namespace--clean"
 
 inherit rpm

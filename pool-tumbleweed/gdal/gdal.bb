@@ -12,15 +12,14 @@ PV = "3.6.3"
 RPM_NAME = "gdal-3.6.3-2.1.aarch64.rpm"
 RPM_HASH = "6c3d0d69d081247fcbd021dfc9775d92b63cad623f2f38763c75c3fe9f47a97f96ccb945e70e3a0ffa161ecf9419ef31f8fa6b8bd5357dc0ca5df839778ca0a9"
 
-RPROVIDES:${PN} += "gdal \
-gdal(aarch-64)"
+RPROVIDES:${PN} += "gdal"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdal.so.32()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdal.so.32 \
+libstdc++.so.6 \
 python3-GDAL"
 
 inherit rpm

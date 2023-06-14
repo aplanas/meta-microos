@@ -12,8 +12,8 @@ RPM_NAME = "texlive-interactiveworkbook-2023.201.svn15878-52.1.noarch.rpm"
 RPM_HASH = "bd1f5762a03167c57b800da5cdb6e4cd9c666d15e1d7abb85a22178a1ff56d9846acca506be46cabcaacd007936aa93f2190f602dbee48b1824121a069f5b561"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(interactiveworkbook-web.sty) \
-tex(interactiveworkbook.sty) \
+RPROVIDES:${PN} += "tex-interactiveworkbook-web.sty \
+tex-interactiveworkbook.sty \
 texlive-interactiveworkbook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(epsfig.sty) \
-tex(ifthen.sty) \
-tex(xspace.sty) \
+tex-color.sty \
+tex-epsfig.sty \
+tex-ifthen.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

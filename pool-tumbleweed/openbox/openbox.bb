@@ -16,28 +16,25 @@ PV = "3.6.1"
 RPM_NAME = "openbox-3.6.1-4.1.aarch64.rpm"
 RPM_HASH = "cbd1e0745df78423472698ea3bbd85fe91e18288c351e97d6d767b29d37b0237ae539f131ce923605faee125e76f4f9192fd1efab4dfc0c107268061d6771f25"
 
-RPROVIDES:${PN} += "application() \
-application(openbox.desktop) \
-config(openbox) \
+RPROVIDES:${PN} += "config-openbox \
 openbox \
-openbox(aarch-64) \
 windowmanager"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
-ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libXcursor.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libobrender.so.32()(64bit) \
-libobt.so.2()(64bit) \
-libstartup-notification-1.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libSM.so.6 \
+libX11.so.6 \
+libXcursor.so.1 \
+libXext.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libobrender.so.32 \
+libobt.so.2 \
+libstartup-notification-1.so.0 \
 xdg-menu \
 xsltproc"
 

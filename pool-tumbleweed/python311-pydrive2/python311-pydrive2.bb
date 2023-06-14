@@ -10,11 +10,11 @@ RPM_NAME = "python311-pydrive2-1.10.1-1.5.noarch.rpm"
 RPM_HASH = "074d1558d567043c00568dc915e4f6c807509ae51a625539af8fe2b42e9cccaa0b9dc50d9acf73a6807f27aa625d651655c13630b9c988fb7c73d55f8383c7dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pydrive2) \
+RPROVIDES:${PN} += "python3.11dist-pydrive2 \
 python311-pydrive2 \
-python3dist(pydrive2)"
+python3dist-pydrive2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-PyYAML \
 python311-filelock \
 python311-google-api-python-client \

@@ -9,14 +9,13 @@ PV = "1.1.4+git20221209.c8ef757"
 RPM_NAME = "fdo-client-1.1.4+git20221209.c8ef757-1.3.aarch64.rpm"
 RPM_HASH = "a3858de320dd0e0f5703958c8530869996bef1dfb3cee1a1c82aa7fb83edf7662f7f5c03bebb87b7aac5d1eebe2f56eb0b76b87c086d057d0f3fff79fd7c87d1"
 
-RPROVIDES:${PN} += "fdo-client \
-fdo-client(aarch-64)"
+RPROVIDES:${PN} += "fdo-client"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libcurl.so.4 \
 openssl"
 
 inherit rpm

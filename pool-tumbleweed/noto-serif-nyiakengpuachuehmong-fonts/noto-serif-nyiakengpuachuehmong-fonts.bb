@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-serif-nyiakengpuachuehmong \
 noto-serif-nyiakengpuachuehmong-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

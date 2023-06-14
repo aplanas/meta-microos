@@ -22,11 +22,11 @@ RPM_HASH = "2b32f71c17b3eab6c53fde37cf4467cd025fd779a0b3c53bf57e5ef9456fcd6f58aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-glfw \
-python3.10dist(glfw) \
+python3.10dist-glfw \
 python310-glfw \
-python3dist(glfw)"
+python3dist-glfw"
 
 RDEPENDS:${PN} += "libglfw3 \
-python(abi)"
+python-abi"
 
 inherit rpm

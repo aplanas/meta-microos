@@ -14,25 +14,23 @@ PV = "3.7.0.10"
 RPM_NAME = "povray-3.7.0.10-1.8.aarch64.rpm"
 RPM_HASH = "33554effcc175f91942f1d604696d2f737ee0b6a972cb82a94e3cef107df839d4434e5d21e2705451aaeaefde1de8ec79121d0c90727e9b80f1b2eab2241908a"
 
-RPROVIDES:${PN} += "config(povray) \
-povray \
-povray(aarch-64)"
+RPROVIDES:${PN} += "config-povray \
+povray"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libOpenEXR-3_1.so.30()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libImath-3-1.so.29 \
+libOpenEXR-3-1.so.30 \
+libSDL-1.2.so.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libz.so.1"
 
 inherit rpm

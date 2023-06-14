@@ -13,10 +13,10 @@ RPM_NAME = "perl-DateTime-Format-W3CDTF-0.08-1.11.noarch.rpm"
 RPM_HASH = "0e07820178822e267ab9ab7adbabc1fb9e1d67669a38adc566a7e8ab4169190b0d3fc3b3de2f0b5293059cb6177b20f1897a48a2a244274d4fcb477020b11de1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DateTime::Format::W3CDTF) \
+RPROVIDES:${PN} += "perl-DateTime--Format--W3CDTF \
 perl-DateTime-Format-W3CDTF"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DateTime)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DateTime"
 
 inherit rpm

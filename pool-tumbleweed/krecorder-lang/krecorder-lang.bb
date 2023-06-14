@@ -10,36 +10,36 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krecorder-lang \
 krecorder-lang-all \
-locale(krecorder:ar) \
-locale(krecorder:ca) \
-locale(krecorder:ca@valencia) \
-locale(krecorder:cs) \
-locale(krecorder:de) \
-locale(krecorder:el) \
-locale(krecorder:en_GB) \
-locale(krecorder:es) \
-locale(krecorder:fi) \
-locale(krecorder:fr) \
-locale(krecorder:it) \
-locale(krecorder:ja) \
-locale(krecorder:ka) \
-locale(krecorder:ko) \
-locale(krecorder:lt) \
-locale(krecorder:nl) \
-locale(krecorder:nn) \
-locale(krecorder:pa) \
-locale(krecorder:pl) \
-locale(krecorder:pt) \
-locale(krecorder:pt_BR) \
-locale(krecorder:ro) \
-locale(krecorder:ru) \
-locale(krecorder:sk) \
-locale(krecorder:sl) \
-locale(krecorder:sv) \
-locale(krecorder:tr) \
-locale(krecorder:uk) \
-locale(krecorder:zh_CN) \
-locale(krecorder:zh_TW)"
+locale-krecorder-ar \
+locale-krecorder-ca \
+locale-krecorder-ca@valencia \
+locale-krecorder-cs \
+locale-krecorder-de \
+locale-krecorder-el \
+locale-krecorder-en-GB \
+locale-krecorder-es \
+locale-krecorder-fi \
+locale-krecorder-fr \
+locale-krecorder-it \
+locale-krecorder-ja \
+locale-krecorder-ka \
+locale-krecorder-ko \
+locale-krecorder-lt \
+locale-krecorder-nl \
+locale-krecorder-nn \
+locale-krecorder-pa \
+locale-krecorder-pl \
+locale-krecorder-pt \
+locale-krecorder-pt-BR \
+locale-krecorder-ro \
+locale-krecorder-ru \
+locale-krecorder-sk \
+locale-krecorder-sl \
+locale-krecorder-sv \
+locale-krecorder-tr \
+locale-krecorder-uk \
+locale-krecorder-zh-CN \
+locale-krecorder-zh-TW"
 
 RDEPENDS:${PN} += "krecorder"
 

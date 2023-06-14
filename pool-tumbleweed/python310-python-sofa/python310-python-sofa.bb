@@ -10,11 +10,11 @@ RPM_HASH = "e1970fadc26fc511d54919b507600fe2fcb772e3f359d3be434f214f1b0db790f4f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-sofa \
-python3.10dist(python-sofa) \
+python3.10dist-python-sofa \
 python310-python-sofa \
-python3dist(python-sofa)"
+python3dist-python-sofa"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-netCDF4 \
 python310-numpy \
 python310-scipy"

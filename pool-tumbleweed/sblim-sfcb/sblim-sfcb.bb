@@ -13,48 +13,47 @@ RPM_HASH = "a2e9605bae62c52a4e5cab08ddf5a25a180386561156cc4919421f6f3a1ddccd37cc
 
 RPROVIDES:${PN} += "cim-server \
 cimserver \
-config(sblim-sfcb) \
-libcimcClientSfcbLocal.so.0()(64bit) \
-libsfcBasicAuthentication.so.0()(64bit) \
-libsfcBasicPAMAuthentication.so.0()(64bit) \
-libsfcBrokerCore.so.0()(64bit) \
-libsfcCertificateAuthentication.so.0()(64bit) \
-libsfcCimXmlCodec.so.0()(64bit) \
-libsfcClassProvider.so.0()(64bit) \
-libsfcClassProviderGz.so.0()(64bit) \
-libsfcClassProviderMem.so.0()(64bit) \
-libsfcClassProviderSf.so.0()(64bit) \
-libsfcCustomLib.so.0()(64bit) \
-libsfcElementCapabilitiesProvider.so.0()(64bit) \
-libsfcFileRepository.so.0()(64bit) \
-libsfcHttpAdapter.so.0()(64bit) \
-libsfcIndCIMXMLHandler.so.0()(64bit) \
-libsfcInternalProvider.so.0()(64bit) \
-libsfcInteropProvider.so.0()(64bit) \
-libsfcInteropServerProvider.so.0()(64bit) \
-libsfcObjectImplSwapI32toP32.so.0()(64bit) \
-libsfcProfileProvider.so.0()(64bit) \
-libsfcQualifierProvider.so.0()(64bit) \
-sblim-sfcb \
-sblim-sfcb(aarch-64)"
+config-sblim-sfcb \
+libcimcClientSfcbLocal.so.0 \
+libsfcBasicAuthentication.so.0 \
+libsfcBasicPAMAuthentication.so.0 \
+libsfcBrokerCore.so.0 \
+libsfcCertificateAuthentication.so.0 \
+libsfcCimXmlCodec.so.0 \
+libsfcClassProvider.so.0 \
+libsfcClassProviderGz.so.0 \
+libsfcClassProviderMem.so.0 \
+libsfcClassProviderSf.so.0 \
+libsfcCustomLib.so.0 \
+libsfcElementCapabilitiesProvider.so.0 \
+libsfcFileRepository.so.0 \
+libsfcHttpAdapter.so.0 \
+libsfcIndCIMXMLHandler.so.0 \
+libsfcInternalProvider.so.0 \
+libsfcInteropProvider.so.0 \
+libsfcInteropServerProvider.so.0 \
+libsfcObjectImplSwapI32toP32.so.0 \
+libsfcProfileProvider.so.0 \
+libsfcQualifierProvider.so.0 \
+sblim-sfcb"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
 /usr/sbin/groupadd \
 /usr/sbin/groupmod \
-aaa_base \
+aaa-base \
 cim-schema \
 cmpi-provider-register \
 curl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libpam.so.0()(64bit) \
-libsfcUtil.so.0()(64bit) \
-libslp.so.1()(64bit) \
-libssl.so.3()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libpam.so.0 \
+libsfcUtil.so.0 \
+libslp.so.1 \
+libssl.so.3 \
+libz.so.1 \
 openssl \
 pam"
 

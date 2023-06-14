@@ -11,7 +11,7 @@ RPM_NAME = "texlive-pstricks_calcnotes-2023.201.1.2svn34363-53.1.noarch.rpm"
 RPM_HASH = "032d99a75e45f2eecaaa181135ecb27fe327894ad2122a576b4d8950c4af5aec452ee0a95f439ed95a72431f5a4374d37592c20be57878b03ce80cb06c731141"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-pstricks_calcnotes"
+RPROVIDES:${PN} += "texlive-pstricks-calcnotes"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

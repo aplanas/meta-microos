@@ -11,12 +11,12 @@ RPM_HASH = "b7401ec2b8628a06e2c4867e30fe865a610433371ccfe87190f6c6aeddc9c6745171
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-responses \
-python3.10dist(responses) \
+python3.10dist-responses \
 python310-responses \
-python3dist(responses)"
+python3dist-responses"
 
-RDEPENDS:${PN} += "(python310-requests >= 2.22.0 with python310-requests < 3) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-requests >= 2.22.0 with python310-requests < 3 \
+python-abi \
 python310-PyYAML \
 python310-urllib3"
 

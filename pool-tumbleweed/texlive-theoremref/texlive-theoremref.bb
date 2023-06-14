@@ -13,7 +13,7 @@ RPM_NAME = "texlive-theoremref-2023.201.svn54512-54.1.noarch.rpm"
 RPM_HASH = "ebdf282aa5234ae4f334f4aff67d21edc21872c67971f1b04d1d185f10e9e4f9297fac40c4fde96f8cd44b8c1165bc6fc84b42b91d88f2cc2412aa5c786fb180"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(theoremref.sty) \
+RPROVIDES:${PN} += "tex-theoremref.sty \
 texlive-theoremref"
 
 RDEPENDS:${PN} += "/bin/sh \

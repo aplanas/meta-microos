@@ -17,11 +17,11 @@ RPM_NAME = "python39-arf-2.6.1-4.4.noarch.rpm"
 RPM_HASH = "c303bbf42134796cf8bbce867761407feba8fb201029a4c803e2515c3e757cca1bd78975d3bc63ccd4d523009997f3fbd036706294bdeef0d9755cb99155597b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(arf) \
+RPROVIDES:${PN} += "python3.9dist-arf \
 python39-arf \
-python3dist(arf)"
+python3dist-arf"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-h5py"
 
 inherit rpm

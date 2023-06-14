@@ -21,36 +21,36 @@ RPM_NAME = "perl-DBD-XBase-1.08-1.23.noarch.rpm"
 RPM_HASH = "5fe5a7f395daf9f692c93d47cedb43c7681311f976447875d71ed3f7f5cb32429c64ddc2810d01268bf30a9b0a1000e7b78bd4c7756450bd4a0334746ecaaf8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DBD::XBase) \
-perl(DBD::XBase::db) \
-perl(DBD::XBase::dr) \
-perl(DBD::XBase::st) \
-perl(XBase) \
-perl(XBase::Base) \
-perl(XBase::Cursor) \
-perl(XBase::Index) \
-perl(XBase::IndexCursor) \
-perl(XBase::Memo) \
-perl(XBase::Memo::Apollo) \
-perl(XBase::Memo::Fox) \
-perl(XBase::Memo::dBaseIII) \
-perl(XBase::Memo::dBaseIV) \
-perl(XBase::SDBM) \
-perl(XBase::SQL) \
-perl(XBase::SQL::Expr) \
-perl(XBase::cdx) \
-perl(XBase::cdx::Page) \
-perl(XBase::idx) \
-perl(XBase::idx::Page) \
-perl(XBase::mdx) \
-perl(XBase::mdx::Page) \
-perl(XBase::ndx) \
-perl(XBase::ndx::Page) \
-perl(XBase::ntx) \
-perl(XBase::ntx::Page) \
-perl-DBD-XBase"
+RPROVIDES:${PN} += "perl-DBD--XBase \
+perl-DBD--XBase--db \
+perl-DBD--XBase--dr \
+perl-DBD--XBase--st \
+perl-DBD-XBase \
+perl-XBase \
+perl-XBase--Base \
+perl-XBase--Cursor \
+perl-XBase--Index \
+perl-XBase--IndexCursor \
+perl-XBase--Memo \
+perl-XBase--Memo--Apollo \
+perl-XBase--Memo--Fox \
+perl-XBase--Memo--dBaseIII \
+perl-XBase--Memo--dBaseIV \
+perl-XBase--SDBM \
+perl-XBase--SQL \
+perl-XBase--SQL--Expr \
+perl-XBase--cdx \
+perl-XBase--cdx--Page \
+perl-XBase--idx \
+perl-XBase--idx--Page \
+perl-XBase--mdx \
+perl-XBase--mdx--Page \
+perl-XBase--ndx \
+perl-XBase--ndx--Page \
+perl-XBase--ntx \
+perl-XBase--ntx--Page"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

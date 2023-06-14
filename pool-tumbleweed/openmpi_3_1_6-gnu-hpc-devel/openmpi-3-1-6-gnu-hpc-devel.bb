@@ -20,24 +20,23 @@ PV = "3.1.6"
 RPM_NAME = "openmpi_3_1_6-gnu-hpc-devel-3.1.6-7.2.aarch64.rpm"
 RPM_HASH = "bc4608a4548dc019bab2cb5dba446c99b8646f5f7ed1a8263ec15e5236eae001d3904d68dffae488fb0131d5758329782b6388874fccb54e50ba736cb75356b3"
 
-RPROVIDES:${PN} += "openmpi_3_1_6-gnu-hpc-devel \
-openmpi_3_1_6-gnu-hpc-devel(aarch-64)"
+RPROVIDES:${PN} += "openmpi-3-1-6-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent-2.1.so.7()(64bit) \
-libfabric.so.1()(64bit) \
-libhwloc.so.15()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-2.1.so.7 \
+libfabric.so.1 \
+libhwloc.so.15 \
 libibumad-devel \
 libibverbs-devel \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpmix.so.2()(64bit) \
-librdmacm.so.1()(64bit) \
-libucp.so.0()(64bit) \
-libucs.so.0()(64bit) \
-libz.so.1()(64bit) \
-openmpi_3_1_6-gnu-hpc"
+libibverbs.so.1 \
+libm.so.6 \
+libpmix.so.2 \
+librdmacm.so.1 \
+libucp.so.0 \
+libucs.so.0 \
+libz.so.1 \
+openmpi-3-1-6-gnu-hpc"
 
 inherit rpm

@@ -10,14 +10,13 @@ PV = "0.7"
 RPM_NAME = "ssh-contact-client-0.7-9.29.aarch64.rpm"
 RPM_HASH = "1387c14e2111cd2435f07097faf94367bf16a868a9d48fddf2931695f7f3f438be2e8a2d5682f71989c683a11f5d1b8b610f0a56c2510dc5f2af35c0e500716c"
 
-RPROVIDES:${PN} += "ssh-contact-client \
-ssh-contact-client(aarch-64)"
+RPROVIDES:${PN} += "ssh-contact-client"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libtelepathy-glib.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libtelepathy-glib.so.0"
 
 inherit rpm

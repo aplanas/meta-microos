@@ -21,12 +21,11 @@ PV = "0.9.3"
 RPM_NAME = "bees-0.9.3-1.1.aarch64.rpm"
 RPM_HASH = "e2006e07c1e30e505f0178745ee16eb23f507564e0645d72df6f0cdc583fad79f09fd37c26d0f1aa8edfb6215d0f331bb7724129cd80715472d4b3cecdbc7d53"
 
-RPROVIDES:${PN} += "bees \
-bees(aarch-64)"
+RPROVIDES:${PN} += "bees"
 
 RDEPENDS:${PN} += "/bin/bash \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

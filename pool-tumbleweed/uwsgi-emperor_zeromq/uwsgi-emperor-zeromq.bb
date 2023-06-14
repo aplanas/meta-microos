@@ -10,12 +10,11 @@ PV = "2.0.21"
 RPM_NAME = "uwsgi-emperor_zeromq-2.0.21-2.1.aarch64.rpm"
 RPM_HASH = "c97fed1f59b5584b4098e3bb61e580bfd1afca90c81447b6eff3c11063d6acc433a369971e1e1fd9c7eab6e103c42f2ae4c39f1048da37966a928fe3e5ef1c1e"
 
-RPROVIDES:${PN} += "uwsgi-emperor_zeromq \
-uwsgi-emperor_zeromq(aarch-64)"
+RPROVIDES:${PN} += "uwsgi-emperor-zeromq"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libzmq.so.5()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libzmq.so.5 \
 uwsgi"
 
 inherit rpm

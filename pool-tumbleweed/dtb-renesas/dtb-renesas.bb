@@ -8,8 +8,7 @@ RPM_NAME = "dtb-renesas-6.3.4-1.1.aarch64.rpm"
 RPM_HASH = "791ea80a88fbf45b0baed2eafa40aef6056523bd0f935f0182febe7bd7fb7029affe6d189ce93595ceaafccc0fad38cb703cb377b3ad3cb6fb31a5aec07d490a"
 
 RPROVIDES:${PN} += "dtb-renesas \
-dtb-renesas(aarch-64) \
-multiversion(dtb)"
+multiversion-dtb"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"

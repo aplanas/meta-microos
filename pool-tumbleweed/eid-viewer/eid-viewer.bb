@@ -14,30 +14,25 @@ PV = "5.1.4"
 RPM_NAME = "eid-viewer-5.1.4-1.4.aarch64.rpm"
 RPM_HASH = "d44196cb1d796b795258f0df32f4bf0cee4afe834afad3f705b47e9f849d46ef499ad0dd2c06b01b196765c161f83b87422445d3b409abc08e8503254aaf3cf0"
 
-RPROVIDES:${PN} += "application() \
-application(fedict-eid-viewer.desktop) \
-eid-viewer \
-eid-viewer(aarch-64) \
-metainfo() \
-metainfo(eid-viewer.appdata.xml)"
+RPROVIDES:${PN} += "eid-viewer"
 
 RDEPENDS:${PN} += "eid-mw \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libeidviewer.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libproxy.so.1()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libeidviewer.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libproxy.so.1 \
+libxml2.so.2 \
 pcsc-ccid \
 pcsc-lite"
 

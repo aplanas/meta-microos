@@ -13,18 +13,17 @@ RPM_NAME = "jna-5.5.0-3.6.aarch64.rpm"
 RPM_HASH = "d20ebd38db57d87853d9706a41e864f9f41f238fcf8e7b0a79928a7628a973d1b6650f1cd482ba151cda8aef0e891a15b8ad6390c2097467abe2e22e94b43fb4"
 
 RPROVIDES:${PN} += "jna \
-jna(aarch-64) \
 jna-native \
 libjnidispatch \
-mvn(net.java.dev.jna:jna) \
-mvn(net.java.dev.jna:jna:pom:) \
-osgi(com.sun.jna)"
+mvn-net.java.dev.jna-jna \
+mvn-net.java.dev.jna-jna-pom- \
+osgi-com.sun.jna"
 
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libffi.so.8"
 
 inherit rpm

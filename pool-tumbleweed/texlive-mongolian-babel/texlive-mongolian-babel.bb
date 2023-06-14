@@ -10,9 +10,9 @@ RPM_NAME = "texlive-mongolian-babel-2023.201.1.2svn15878-54.1.noarch.rpm"
 RPM_HASH = "290f7bfd69071bfe7960f29e8779729cbf9bdf81b8a9aea55440d539f5e8280788e58c10909e82cca48e4d2856d534a77d5449a55d5236baac20e047e4a21fdb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mn.def) \
-tex(mongolian.ldf) \
-tex(mongolian.sty) \
+RPROVIDES:${PN} += "tex-mn.def \
+tex-mongolian.ldf \
+tex-mongolian.sty \
 texlive-mongolian-babel"
 
 RDEPENDS:${PN} += "/bin/sh \

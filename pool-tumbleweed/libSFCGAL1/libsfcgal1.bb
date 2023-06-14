@@ -33,20 +33,19 @@ PV = "1.4.1"
 RPM_NAME = "libSFCGAL1-1.4.1-4.4.aarch64.rpm"
 RPM_HASH = "3c8151984948d49aacdca3d8303eb67b9e988f852dbc3742e48c48b37fc5a4f280ccce187c7ec9a387d5ce71a3a7fb51cdca73b5d92503761d32c76a73505238"
 
-RPROVIDES:${PN} += "libSFCGAL.so.1()(64bit) \
+RPROVIDES:${PN} += "libSFCGAL.so.1 \
 libSFCGAL1 \
-libSFCGAL1(aarch-64) \
 libsfcgal1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_serialization.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgmpxx.so.4()(64bit) \
-libm.so.6()(64bit) \
-libmpfr.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libboost-serialization.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgmpxx.so.4 \
+libm.so.6 \
+libmpfr.so.6 \
+libstdc++.so.6"
 
 inherit rpm

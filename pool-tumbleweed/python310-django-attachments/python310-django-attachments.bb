@@ -9,11 +9,11 @@ RPM_HASH = "301b0c8d35b85e3a9f6c964fc6a2dcc4acc1aad493e24ad592772ed94e2f032c8236
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-attachments \
-python3.10dist(django-attachments) \
+python3.10dist-django-attachments \
 python310-django-attachments \
-python3dist(django-attachments)"
+python3dist-django-attachments"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-django \
 python310-six"
 

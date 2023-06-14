@@ -10,27 +10,27 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arianna-lang \
 arianna-lang-all \
-locale(arianna:ca) \
-locale(arianna:ca@valencia) \
-locale(arianna:cs) \
-locale(arianna:de) \
-locale(arianna:en_GB) \
-locale(arianna:es) \
-locale(arianna:eu) \
-locale(arianna:fi) \
-locale(arianna:fr) \
-locale(arianna:gl) \
-locale(arianna:hu) \
-locale(arianna:ia) \
-locale(arianna:it) \
-locale(arianna:ka) \
-locale(arianna:nl) \
-locale(arianna:pt) \
-locale(arianna:sk) \
-locale(arianna:sl) \
-locale(arianna:tr) \
-locale(arianna:uk) \
-locale(arianna:zh_CN)"
+locale-arianna-ca \
+locale-arianna-ca@valencia \
+locale-arianna-cs \
+locale-arianna-de \
+locale-arianna-en-GB \
+locale-arianna-es \
+locale-arianna-eu \
+locale-arianna-fi \
+locale-arianna-fr \
+locale-arianna-gl \
+locale-arianna-hu \
+locale-arianna-ia \
+locale-arianna-it \
+locale-arianna-ka \
+locale-arianna-nl \
+locale-arianna-pt \
+locale-arianna-sk \
+locale-arianna-sl \
+locale-arianna-tr \
+locale-arianna-uk \
+locale-arianna-zh-CN"
 
 RDEPENDS:${PN} += "arianna"
 

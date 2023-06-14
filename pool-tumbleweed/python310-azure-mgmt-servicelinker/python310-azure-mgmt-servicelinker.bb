@@ -11,12 +11,12 @@ RPM_HASH = "6e0dcf91a1f4a619b904dccbccdb560a3cc98c80a0067a933c1ad422b854ecaf0023
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-servicelinker \
-python3.10dist(azure-mgmt-servicelinker) \
+python3.10dist-azure-mgmt-servicelinker \
 python310-azure-mgmt-servicelinker \
-python3dist(azure-mgmt-servicelinker)"
+python3dist-azure-mgmt-servicelinker"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

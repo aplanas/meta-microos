@@ -18,7 +18,7 @@ RPM_NAME = "texlive-upquote-2023.201.1.3svn26059-53.1.noarch.rpm"
 RPM_HASH = "65d317458b637b6d4078a6c6c40324f50ebedfacd3317d15a63fc4bb08eeb0534ef3bd8b137f4d63e20b5046021059ab6d7ecca0e87c2482ccc99b0a13074d82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(upquote.sty) \
+RPROVIDES:${PN} += "tex-upquote.sty \
 texlive-upquote"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,7 +27,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(textcomp.sty) \
+tex-textcomp.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

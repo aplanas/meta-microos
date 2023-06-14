@@ -14,12 +14,11 @@ PV = "1.4.0"
 RPM_NAME = "spdylay-devel-1.4.0-3.26.aarch64.rpm"
 RPM_HASH = "674e7796b915fa3000ef71406094a565ec0869a329be4225bab22c7bd736c475e24d90fb143002efc0014743071becc997d1048b98d614396ca883500aab58ed"
 
-RPROVIDES:${PN} += "pkgconfig(libspdylay) \
-spdylay-devel \
-spdylay-devel(aarch-64)"
+RPROVIDES:${PN} += "pkgconfig-libspdylay \
+spdylay-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspdylay7 \
-pkgconfig(zlib)"
+pkgconfig-zlib"
 
 inherit rpm

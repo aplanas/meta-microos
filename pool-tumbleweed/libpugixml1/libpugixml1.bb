@@ -14,15 +14,14 @@ PV = "1.13"
 RPM_NAME = "libpugixml1-1.13-1.3.aarch64.rpm"
 RPM_HASH = "1b25f130811b7e1ae9fc2b472ad35f9a8aede252e93bcbd7f8516990ec4e755100e36455de35a871e3a572e4fa4788e14c180da58ed84fde249810e5140c89af"
 
-RPROVIDES:${PN} += "libpugixml.so.1()(64bit) \
-libpugixml1 \
-libpugixml1(aarch-64)"
+RPROVIDES:${PN} += "libpugixml.so.1 \
+libpugixml1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

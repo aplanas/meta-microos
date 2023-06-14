@@ -15,20 +15,20 @@ RPM_NAME = "perl-MooseX-Clone-0.06-1.24.noarch.rpm"
 RPM_HASH = "c157d09827666e6fd1eaf99d928ca1101f2bc2c166e123ea157aa74575d6ba6c102a227fea6c9dba2a7d5075af2ce212d1d23e2e665c13f1ddf3c1c705375db4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::Clone) \
-perl(MooseX::Clone::Meta::Attribute::Trait::Clone) \
-perl(MooseX::Clone::Meta::Attribute::Trait::Clone::Base) \
-perl(MooseX::Clone::Meta::Attribute::Trait::Clone::Std) \
-perl(MooseX::Clone::Meta::Attribute::Trait::Copy) \
-perl(MooseX::Clone::Meta::Attribute::Trait::NoClone) \
-perl(MooseX::Clone::Meta::Attribute::Trait::StorableClone) \
+RPROVIDES:${PN} += "perl-MooseX--Clone \
+perl-MooseX--Clone--Meta--Attribute--Trait--Clone \
+perl-MooseX--Clone--Meta--Attribute--Trait--Clone--Base \
+perl-MooseX--Clone--Meta--Attribute--Trait--Clone--Std \
+perl-MooseX--Clone--Meta--Attribute--Trait--Copy \
+perl-MooseX--Clone--Meta--Attribute--Trait--NoClone \
+perl-MooseX--Clone--Meta--Attribute--Trait--StorableClone \
 perl-MooseX-Clone"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Data::Visitor) \
-perl(Data::Visitor::Callback) \
-perl(Hash::Util::FieldHash::Compat) \
-perl(Moose::Role) \
-perl(namespace::autoclean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Data--Visitor \
+perl-Data--Visitor--Callback \
+perl-Hash--Util--FieldHash--Compat \
+perl-Moose--Role \
+perl-namespace--autoclean"
 
 inherit rpm

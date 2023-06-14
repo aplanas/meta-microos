@@ -10,11 +10,11 @@ RPM_HASH = "6c604d12808a8b937aec3277af34d5b2ed811be5c435a8ac6297b53f665e75ebaf39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-txtorcon \
-python3.10dist(txtorcon) \
+python3.10dist-txtorcon \
 python310-txtorcon \
-python3dist(txtorcon)"
+python3dist-txtorcon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Automat \
 python310-Twisted-tls \
 python310-incremental \

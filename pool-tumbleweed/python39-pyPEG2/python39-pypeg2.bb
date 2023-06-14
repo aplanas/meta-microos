@@ -10,11 +10,11 @@ RPM_NAME = "python39-pyPEG2-2.15.2-3.23.noarch.rpm"
 RPM_HASH = "cbad6711d6d88404f5665d045fc9f060e8f879f21d57b491ac741f95cc60eaff95402d1758b40bcaf92aabadd8980f3c9fd85c9c924e08345c0d432edf5bea8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pypeg2) \
+RPROVIDES:${PN} += "python3.9dist-pypeg2 \
 python39-pyPEG2 \
-python3dist(pypeg2)"
+python3dist-pypeg2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-lxml"
 
 inherit rpm

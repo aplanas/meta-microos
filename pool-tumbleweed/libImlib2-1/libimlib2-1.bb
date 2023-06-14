@@ -12,18 +12,17 @@ RPM_NAME = "libImlib2-1-1.11.1-1.1.aarch64.rpm"
 RPM_HASH = "c0ebda994c39d4416c432f793d6a1772bb9b33a111256bef622e486a2883aa539f29fc3741b258b2a5470343555998072f6345fa35d4828057dc1fd817d9859d"
 
 RPROVIDES:${PN} += "libImlib2-1 \
-libImlib2-1(aarch-64) \
-libImlib2.so.1()(64bit)"
+libImlib2.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11-xcb.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libm.so.6()(64bit) \
-libxcb-shm.so.0()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11-xcb.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libc.so.6 \
+libfreetype.so.6 \
+libm.so.6 \
+libxcb-shm.so.0 \
+libxcb.so.1"
 
 inherit rpm

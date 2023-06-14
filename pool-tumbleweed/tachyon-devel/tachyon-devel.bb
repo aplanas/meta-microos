@@ -11,9 +11,8 @@ RPM_NAME = "tachyon-devel-0.99.5-1.4.aarch64.rpm"
 RPM_HASH = "38d7f7180342b03b3d62a87e72e8d5f594efed54e003e26718c48dcd9a007aac0aa453440c2e7e2a8bbb9b192412c5a567e4f62e10045001e71c92f82c1708f0"
 
 RPROVIDES:${PN} += "libtachyon-devel \
-tachyon-devel \
-tachyon-devel(aarch-64)"
+tachyon-devel"
 
-RDEPENDS:${PN} += "libtachyon-0_99_5"
+RDEPENDS:${PN} += "libtachyon-0-99-5"
 
 inherit rpm

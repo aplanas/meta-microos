@@ -26,8 +26,8 @@ RPM_NAME = "texlive-pst-func-2023.201.0.0.99svn60933-52.1.noarch.rpm"
 RPM_HASH = "2d4f3176e77a70a3ec086640783a8ad5dc03bc5a97d2ee33f35b49d72e7320615974e56b0d573208cbb849d64d96cb23b32264c32105843c94731b45ef24e982"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-func.sty) \
-tex(pst-func.tex) \
+RPROVIDES:${PN} += "tex-pst-func.sty \
+tex-pst-func.tex \
 texlive-pst-func"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -36,12 +36,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(pst-math.sty) \
-tex(pst-plot.sty) \
-tex(pst-tools.sty) \
-tex(pst-xkey.sty) \
-tex(pstricks-add.sty) \
-tex(pstricks.sty) \
+tex-pst-math.sty \
+tex-pst-plot.sty \
+tex-pst-tools.sty \
+tex-pst-xkey.sty \
+tex-pstricks-add.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -11,15 +11,15 @@ RPM_HASH = "61b2e1de9a003e2e46aff22287d0db1a75f2793e2fda8f44c60546e05c7da6e6dbf4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pdm \
-python3.10dist(pdm) \
+python3.10dist-pdm \
 python310-pdm \
-python3dist(pdm)"
+python3dist-pdm"
 
-RDEPENDS:${PN} += "(python310-resolvelib >= 0.8 with python310-resolvelib < 0.9) \
-(python310-tomlkit >= 0.8.0 with python310-tomlkit < 1) \
+RDEPENDS:${PN} += "-python310-resolvelib >= 0.8 with python310-resolvelib < 0.9 \
+-python310-tomlkit >= 0.8.0 with python310-tomlkit < 1 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-blinker \
 python310-cachecontrol \
 python310-certifi \

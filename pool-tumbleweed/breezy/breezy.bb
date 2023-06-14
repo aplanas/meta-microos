@@ -10,17 +10,16 @@ RPM_NAME = "breezy-3.3.2-1.1.aarch64.rpm"
 RPM_HASH = "00601e766d70bfb4ea26b57b0de6413c1dbad8cab3929b779c7af20915f7cda59486d6b96380d6361a812ddf8fcc4120961fd9e5401980da7b7067179053f65c"
 
 RPROVIDES:${PN} += "breezy \
-breezy(aarch-64) \
 bzr \
-python3.10dist(breezy) \
-python3dist(breezy)"
+python3.10dist-breezy \
+python3dist-breezy"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpython3.10.so.1.0 \
+python-abi \
 python3-PyYAML \
 python3-configobj \
 python3-dulwich \

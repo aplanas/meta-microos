@@ -24,14 +24,13 @@ PV = "1.3"
 RPM_NAME = "perl-Math-Geometry-Voronoi-1.3-3.35.aarch64.rpm"
 RPM_HASH = "63fc325cb8cbadb94aa293779c0f0c99edbdce2f5ee91aaa5a7e88ad3eb6eafca87d18d77560cd0c1cbfccb01d26631a8c23b1ee85b022a58204ae133aa77755"
 
-RPROVIDES:${PN} += "perl(Math::Geometry::Voronoi) \
-perl-Math-Geometry-Voronoi \
-perl-Math-Geometry-Voronoi(aarch-64)"
+RPROVIDES:${PN} += "perl-Math--Geometry--Voronoi \
+perl-Math-Geometry-Voronoi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Accessor) \
-perl(Params::Validate)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Accessor \
+perl-Params--Validate"
 
 inherit rpm

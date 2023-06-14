@@ -12,7 +12,7 @@ RPM_NAME = "texlive-flipbook-2023.201.0.0.2svn25584-52.1.noarch.rpm"
 RPM_HASH = "9c24d7455e62d111058999f8b3d649ab2e75068ee29662a7fa95b4e82d220e31c10f0b00f0eb38fbaf80945c4d58e0c8c219a63e1961ffa887c780bb1c8dcd4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(flipbook.sty) \
+RPROVIDES:${PN} += "tex-flipbook.sty \
 texlive-flipbook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,12 +21,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(everypage.sty) \
-tex(fancyhdr.sty) \
-tex(graphicx.sty) \
-tex(ifthen.sty) \
-tex(scalefnt.sty) \
-tex(verbatim.sty) \
+tex-everypage.sty \
+tex-fancyhdr.sty \
+tex-graphicx.sty \
+tex-ifthen.sty \
+tex-scalefnt.sty \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

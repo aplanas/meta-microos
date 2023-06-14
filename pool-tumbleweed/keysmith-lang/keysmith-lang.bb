@@ -10,38 +10,38 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keysmith-lang \
 keysmith-lang-all \
-locale(keysmith:ca) \
-locale(keysmith:ca@valencia) \
-locale(keysmith:cs) \
-locale(keysmith:de) \
-locale(keysmith:en_GB) \
-locale(keysmith:es) \
-locale(keysmith:et) \
-locale(keysmith:eu) \
-locale(keysmith:fi) \
-locale(keysmith:fr) \
-locale(keysmith:hu) \
-locale(keysmith:ia) \
-locale(keysmith:it) \
-locale(keysmith:ja) \
-locale(keysmith:ka) \
-locale(keysmith:ko) \
-locale(keysmith:lt) \
-locale(keysmith:nl) \
-locale(keysmith:nn) \
-locale(keysmith:pa) \
-locale(keysmith:pl) \
-locale(keysmith:pt) \
-locale(keysmith:pt_BR) \
-locale(keysmith:ro) \
-locale(keysmith:ru) \
-locale(keysmith:sk) \
-locale(keysmith:sl) \
-locale(keysmith:sv) \
-locale(keysmith:tr) \
-locale(keysmith:uk) \
-locale(keysmith:zh_CN) \
-locale(keysmith:zh_TW)"
+locale-keysmith-ca \
+locale-keysmith-ca@valencia \
+locale-keysmith-cs \
+locale-keysmith-de \
+locale-keysmith-en-GB \
+locale-keysmith-es \
+locale-keysmith-et \
+locale-keysmith-eu \
+locale-keysmith-fi \
+locale-keysmith-fr \
+locale-keysmith-hu \
+locale-keysmith-ia \
+locale-keysmith-it \
+locale-keysmith-ja \
+locale-keysmith-ka \
+locale-keysmith-ko \
+locale-keysmith-lt \
+locale-keysmith-nl \
+locale-keysmith-nn \
+locale-keysmith-pa \
+locale-keysmith-pl \
+locale-keysmith-pt \
+locale-keysmith-pt-BR \
+locale-keysmith-ro \
+locale-keysmith-ru \
+locale-keysmith-sk \
+locale-keysmith-sl \
+locale-keysmith-sv \
+locale-keysmith-tr \
+locale-keysmith-uk \
+locale-keysmith-zh-CN \
+locale-keysmith-zh-TW"
 
 RDEPENDS:${PN} += "keysmith"
 

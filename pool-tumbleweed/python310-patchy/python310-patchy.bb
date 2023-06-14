@@ -9,11 +9,11 @@ RPM_HASH = "c76a517d07c52a163ebdbc81d9878bdb6dfea8805c357720d4497bc6c18e2acd5399
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-patchy \
-python3.10dist(patchy) \
+python3.10dist-patchy \
 python310-patchy \
-python3dist(patchy)"
+python3dist-patchy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pkgutil-resolve-name"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "62e964d635c9acdbf51cbb5e12b8c7bfe8cbe9315b9db16c04405fb0f45e4f2feef9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-model-bakery \
-python3.10dist(model-bakery) \
+python3.10dist-model-bakery \
 python310-model-bakery \
-python3dist(model-bakery)"
+python3dist-model-bakery"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

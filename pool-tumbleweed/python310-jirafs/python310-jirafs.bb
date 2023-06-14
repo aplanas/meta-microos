@@ -11,14 +11,14 @@ RPM_HASH = "b1ed1bfa589045dbaeef09689d3f83e6fdb5134d566e02f471bac1437cd1338a3546
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jirafs \
-python3.10dist(jirafs) \
+python3.10dist-jirafs \
 python310-jirafs \
-python3dist(jirafs)"
+python3dist-jirafs"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \
-python(abi) \
+python-abi \
 python310-Jinja2 \
 python310-PrettyTable \
 python310-blessings \

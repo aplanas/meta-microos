@@ -15,19 +15,18 @@ PV = "2.1.0"
 RPM_NAME = "libspqr2-2.1.0-49.1.aarch64.rpm"
 RPM_HASH = "2a8fabe30c0869f7300855420f35222da5ab05b16eb010fafcfb51db62a7ca04892c2b2409c5870f86f687f22cab1c826743295e99b7c3fbe1bdcca5ac44db19"
 
-RPROVIDES:${PN} += "libspqr-2_1_0 \
-libspqr.so.2()(64bit) \
-libspqr2 \
-libspqr2(aarch-64)"
+RPROVIDES:${PN} += "libspqr-2-1-0 \
+libspqr.so.2 \
+libspqr2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcholmod.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libopenblas.so.0()(64bit) \
-libsuitesparseconfig.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcholmod.so.3 \
+libgcc-s.so.1 \
+liblapack.so.3 \
+libm.so.6 \
+libopenblas.so.0 \
+libsuitesparseconfig.so.5"
 
 inherit rpm

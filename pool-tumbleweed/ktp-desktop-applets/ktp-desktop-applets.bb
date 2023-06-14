@@ -9,39 +9,34 @@ RPM_HASH = "0f5b3f7155f641a849cf0aba41c94f50ee5fb753e69bed6d82dd07c6ff4e9284bfe7
 
 RPROVIDES:${PN} += "ktp-contact-applet \
 ktp-desktop-applets \
-ktp-desktop-applets(aarch-64) \
 ktp-desktop-applets5 \
 ktp-presence-applet \
-libktpchatplugin.so()(64bit) \
-libktpcontactlistplugin.so()(64bit) \
-qt5qmlimport(org.kde.ktpchat.0) \
-qt5qmlimport(org.kde.ktpcontactlist.0)"
+libktpchatplugin.so \
+libktpcontactlistplugin.so \
+qt5qmlimport-org.kde.ktpchat.0 \
+qt5qmlimport-org.kde.ktpcontactlist.0"
 
 RDEPENDS:${PN} += "ktp-common-internals \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.1) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(org.kde.kquickcontrolsaddons.2) \
-qt5qmlimport(org.kde.ktpchat.0) \
-qt5qmlimport(org.kde.ktpcontactlist.0) \
-qt5qmlimport(org.kde.people.1) \
-qt5qmlimport(org.kde.plasma.components.2) \
-qt5qmlimport(org.kde.plasma.configuration.2) \
-qt5qmlimport(org.kde.plasma.core.2) \
-qt5qmlimport(org.kde.plasma.extras.2) \
-qt5qmlimport(org.kde.plasma.plasmoid.2) \
-qt5qmlimport(org.kde.telepathy.0)"
+ld-linux-aarch64.so.1 \
+libKF5WindowSystem.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Qml.so.5 \
+libc.so.6 \
+libstdc++.so.6 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.1 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-org.kde.kquickcontrolsaddons.2 \
+qt5qmlimport-org.kde.ktpchat.0 \
+qt5qmlimport-org.kde.ktpcontactlist.0 \
+qt5qmlimport-org.kde.people.1 \
+qt5qmlimport-org.kde.plasma.components.2 \
+qt5qmlimport-org.kde.plasma.configuration.2 \
+qt5qmlimport-org.kde.plasma.core.2 \
+qt5qmlimport-org.kde.plasma.extras.2 \
+qt5qmlimport-org.kde.plasma.plasmoid.2 \
+qt5qmlimport-org.kde.telepathy.0"
 
 inherit rpm

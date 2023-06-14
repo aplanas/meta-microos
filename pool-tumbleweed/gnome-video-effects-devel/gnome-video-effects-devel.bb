@@ -9,7 +9,7 @@ RPM_HASH = "d320a27385e942df280df4d0cd0041571072b552e8ee386952e39c544e451629ada0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-video-effects-devel \
-pkgconfig(gnome-video-effects)"
+pkgconfig-gnome-video-effects"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-video-effects"

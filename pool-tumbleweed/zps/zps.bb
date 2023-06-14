@@ -10,11 +10,8 @@ PV = "1.2.8"
 RPM_NAME = "zps-1.2.8-1.3.aarch64.rpm"
 RPM_HASH = "2035650285f767f1c009ed2250341ac98127b96af8139d2e077e6063e47c3e1446469cd2db74c309b8d3c0b3ca029ce52da26ab29ac71adf4af2454b4525a8fa"
 
-RPROVIDES:${PN} += "application() \
-application(zps.desktop) \
-zps \
-zps(aarch-64)"
+RPROVIDES:${PN} += "zps"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

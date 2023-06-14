@@ -12,14 +12,14 @@ RPM_HASH = "24b0a0dd7f479adfe680066e10cb1e98d0c5a2f9d5902c7dd3ede5d76957db2cd36b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmdns \
-mvn(javax.jmdns:jmdns) \
-mvn(javax.jmdns:jmdns:pom:) \
-mvn(org.jmdns:jmdns) \
-mvn(org.jmdns:jmdns:pom:) \
-osgi(javax.jmdns)"
+mvn-javax.jmdns-jmdns \
+mvn-javax.jmdns-jmdns-pom- \
+mvn-org.jmdns-jmdns \
+mvn-org.jmdns-jmdns-pom- \
+osgi-javax.jmdns"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.slf4j:slf4j-api)"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

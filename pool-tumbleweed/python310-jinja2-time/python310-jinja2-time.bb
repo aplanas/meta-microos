@@ -9,11 +9,11 @@ RPM_HASH = "dd974e690e617c207a48060c6d8539db68f56a87f44550a1ed282074b370e519e459
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jinja2-time \
-python3.10dist(jinja2-time) \
+python3.10dist-jinja2-time \
 python310-jinja2-time \
-python3dist(jinja2-time)"
+python3dist-jinja2-time"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-arrow"
 

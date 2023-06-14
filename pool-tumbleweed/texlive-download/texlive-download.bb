@@ -13,7 +13,7 @@ RPM_NAME = "texlive-download-2023.201.1.2svn52257-52.1.noarch.rpm"
 RPM_HASH = "5c3ea0030278e07e9cd7773723071687de35ea99433d6808724ae35e40dfc1576015239beca542d5d9897b109fad66d789decb4501c2095bf98798f53c8a3eb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(download.sty) \
+RPROVIDES:${PN} += "tex-download.sty \
 texlive-download"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(l3keys2e.sty) \
-tex(pdftexcmds.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-l3keys2e.sty \
+tex-pdftexcmds.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,14 +9,14 @@ RPM_HASH = "4860d36908ae75d0c658829168fab39cdcdf1ec9e6963fdc4d190248a8a72b90549f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pecan \
-python3.10dist(pecan) \
+python3.10dist-pecan \
 python310-pecan \
-python3dist(pecan)"
+python3dist-pecan"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-Mako \
 python310-WebOb \
 python310-WebTest \

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-fwlw-2023.201.svn29803-52.1.noarch.rpm"
 RPM_HASH = "f6081586e63858f815becb40b993cfa7dbd546f289852686d83dcbafd91fc1c895f025fd2bed8953a191a400c9d070b81e1f8ee85329dcbbd7544484b9ab934c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fwlw.sty) \
+RPROVIDES:${PN} += "tex-fwlw.sty \
 texlive-fwlw"
 
 RDEPENDS:${PN} += "/bin/sh \

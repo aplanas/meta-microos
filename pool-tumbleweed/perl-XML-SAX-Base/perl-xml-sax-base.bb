@@ -17,11 +17,11 @@ RPM_NAME = "perl-XML-SAX-Base-1.09-1.23.noarch.rpm"
 RPM_HASH = "f5413741cddb53b10bfc714d7bf7fa87babcc8c4cc2798848d056386167bd4ea3386a3c361fbec2b6cd85e8cd415960a7eb9be679e5b11e5670fa5680f2c7767"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(XML::SAX::Base) \
-perl(XML::SAX::Base::NoHandler) \
-perl(XML::SAX::Exception) \
+RPROVIDES:${PN} += "perl-XML--SAX--Base \
+perl-XML--SAX--Base--NoHandler \
+perl-XML--SAX--Exception \
 perl-XML-SAX-Base"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

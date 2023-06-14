@@ -9,15 +9,14 @@ RPM_NAME = "python310-aioquic-0.9.20-1.5.aarch64.rpm"
 RPM_HASH = "8584ede60ed7cd8fb558b59c625cd94cfbc0d89b39fb2e1134538b224b7b7724781423f1f2ef8a02be52f5d6379d82508d5b8d6bc6ff57fd34ff6edc2516b21e"
 
 RPROVIDES:${PN} += "python3-aioquic \
-python3.10dist(aioquic) \
+python3.10dist-aioquic \
 python310-aioquic \
-python310-aioquic(aarch-64) \
-python3dist(aioquic)"
+python3dist-aioquic"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+python-abi \
 python310-certifi \
 python310-cryptography \
 python310-pyOpenSSL \

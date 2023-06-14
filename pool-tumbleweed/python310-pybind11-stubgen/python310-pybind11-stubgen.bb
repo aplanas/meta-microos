@@ -10,13 +10,13 @@ RPM_HASH = "4fd98ea709a93d42d5aeea0b33fab099d2e6f33e55b0ee2df921e66b4ab934bade9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pybind11-stubgen \
-python3.10dist(pybind11-stubgen) \
+python3.10dist-pybind11-stubgen \
 python310-pybind11-stubgen \
-python3dist(pybind11-stubgen)"
+python3dist-pybind11-stubgen"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

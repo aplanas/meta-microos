@@ -15,11 +15,11 @@ RPM_HASH = "2a90140cb4cfa5ac905c653e89d08deb18754b19c55988b7d56e0167670d7f83a85b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-eventhub-checkpointstoreblob \
-python3.10dist(azure-eventhub-checkpointstoreblob) \
+python3.10dist-azure-eventhub-checkpointstoreblob \
 python310-azure-eventhub-checkpointstoreblob \
-python3dist(azure-eventhub-checkpointstoreblob)"
+python3dist-azure-eventhub-checkpointstoreblob"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-eventhub \
 python310-azure-nspkg \

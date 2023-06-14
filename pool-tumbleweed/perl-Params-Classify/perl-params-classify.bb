@@ -25,13 +25,12 @@ PV = "0.015"
 RPM_NAME = "perl-Params-Classify-0.015-1.28.aarch64.rpm"
 RPM_HASH = "19f7d2b92b7f5d2644e445f2401e82d355c77fd0e508c9135fd96c29f276fd13f040d80702ba4da0596482184c88faa58c67d00c103a67963fe88a4327b19e7d"
 
-RPROVIDES:${PN} += "perl(Params::Classify) \
-perl-Params-Classify \
-perl-Params-Classify(aarch-64)"
+RPROVIDES:${PN} += "perl-Params--Classify \
+perl-Params-Classify"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(parent)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-parent"
 
 inherit rpm

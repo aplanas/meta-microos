@@ -17,11 +17,11 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(File::Basename) \
-perl(File::Copy) \
-perl(File::Spec) \
-perl(Getopt::Long) \
-perl(strict) \
+perl-File--Basename \
+perl-File--Copy \
+perl-File--Spec \
+perl-Getopt--Long \
+perl-strict \
 sed \
 texlive \
 texlive-filesystem \

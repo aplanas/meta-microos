@@ -12,11 +12,11 @@ RPM_NAME = "python311-pony-0.7.16-2.2.noarch.rpm"
 RPM_HASH = "4055e09835fddb0ed0afb15f909d55dc48f3abaeb18a1d2576116ea7830b16701a3c0a7273690059005d3852e7e1bcd168ccb2551fae7a73f9f27bbd394a888f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pony) \
+RPROVIDES:${PN} += "python3.11dist-pony \
 python311-pony \
-python3dist(pony)"
+python3dist-pony"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311"
 
 inherit rpm

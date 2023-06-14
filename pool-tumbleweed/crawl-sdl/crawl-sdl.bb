@@ -13,26 +13,21 @@ PV = "0.28.0"
 RPM_NAME = "crawl-sdl-0.28.0-1.5.aarch64.rpm"
 RPM_HASH = "643103a9a327cdcb37bcacded82f41846aa7942f8d8235d764181429384a49211d82d5b5a06a6a8e42e218f0a2d882e528a7de51570df1bf4239485999b74987"
 
-RPROVIDES:${PN} += "application() \
-application(crawl.desktop) \
-crawl-sdl \
-crawl-sdl(aarch-64) \
-metainfo() \
-metainfo(crawl.appdata.xml)"
+RPROVIDES:${PN} += "crawl-sdl"
 
 RDEPENDS:${PN} += "crawl \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.1.so.5()(64bit) \
-libm.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLU.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libc.so.6 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+liblua5.1.so.5 \
+libm.so.6 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

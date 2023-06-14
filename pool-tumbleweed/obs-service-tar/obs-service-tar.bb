@@ -9,8 +9,8 @@ RPM_HASH = "1d2a8214c4e407fa9758af4aeca1c91a3efd85ae5272231e56c6cb863e3d85d37b9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-tar \
-obs-service-tar_scm:/usr/lib/obs/service/tar.service"
+obs-service-tar-scm-/usr/lib/obs/service/tar.service"
 
-RDEPENDS:${PN} += "obs-service-obs_scm-common"
+RDEPENDS:${PN} += "obs-service-obs-scm-common"
 
 inherit rpm

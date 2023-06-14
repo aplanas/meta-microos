@@ -13,9 +13,8 @@ PV = "1.6.1"
 RPM_NAME = "cronie-1.6.1-91.3.aarch64.rpm"
 RPM_HASH = "63c9fcf60d435d7fb970db4fb7e68f1fde542359ab96871c02bb32272aed46e0c5f7db0e3d8690572f51a5c227935b4079610169b0821fc4882c93ef66dac925"
 
-RPROVIDES:${PN} += "config(cronie) \
-cronie \
-cronie(aarch-64)"
+RPROVIDES:${PN} += "config-cronie \
+cronie"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -24,12 +23,12 @@ RDEPENDS:${PN} += "/bin/bash \
 cron \
 debianutils \
 fillup \
-group(trusted) \
-ld-linux-aarch64.so.1()(64bit) \
-libaudit.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit) \
-libselinux.so.1()(64bit) \
+group-trusted \
+ld-linux-aarch64.so.1 \
+libaudit.so.1 \
+libc.so.6 \
+libpam.so.0 \
+libselinux.so.1 \
 mail \
 permissions \
 systemd"

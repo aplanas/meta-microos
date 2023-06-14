@@ -11,10 +11,9 @@ PV = "0.4.5"
 RPM_NAME = "smpeg-devel-0.4.5-3.3.aarch64.rpm"
 RPM_HASH = "e12be289eebc851347b570f24ed1a44f24f5bc654e04aa6582058f31e645ff34500c4377c19d383b9ea1cb17cedf92e6774679c6fd88b2030e1a31d46acffe65"
 
-RPROVIDES:${PN} += "smpeg-devel \
-smpeg-devel(aarch-64)"
+RPROVIDES:${PN} += "smpeg-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-libsmpeg-0_4-0"
+libsmpeg-0-4-0"
 
 inherit rpm

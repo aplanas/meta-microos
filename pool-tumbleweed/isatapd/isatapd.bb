@@ -10,14 +10,13 @@ PV = "0.9.7+git.20141015"
 RPM_NAME = "isatapd-0.9.7+git.20141015-3.7.aarch64.rpm"
 RPM_HASH = "7f40e4e77dc8392b89d32a1fa2f6a25a8139ac392b6d982a8ee9cf609d37922a2b171aad48c149367f05f28708333afb2665852c9a8566afacd61cfa6642d88f"
 
-RPROVIDES:${PN} += "isatapd \
-isatapd(aarch-64)"
+RPROVIDES:${PN} += "isatapd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

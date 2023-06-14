@@ -9,13 +9,13 @@ RPM_HASH = "e55515927b22bdbbe9d9d6cfc21e5c04ca539199aee9f94ae9163963ac784f17490a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Glymur \
-python3.10dist(glymur) \
+python3.10dist-glymur \
 python310-Glymur \
-python3dist(glymur)"
+python3dist-glymur"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-lxml \
 python310-numpy \
 python310-packaging \

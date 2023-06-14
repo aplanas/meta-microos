@@ -15,16 +15,15 @@ PV = "1.28"
 RPM_NAME = "hledger-1.28-2.5.aarch64.rpm"
 RPM_HASH = "504466a5508988ab5ab1598dd4bc1c76dbe938984f3381ac3f39c6b68cd3ec187704ebe1ce07d4fbb76ad33e79ab11777e5ce90f91d0729397dddd147ae26ab8"
 
-RPROVIDES:${PN} += "hledger \
-hledger(aarch-64)"
+RPROVIDES:${PN} += "hledger"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libnuma.so.1 \
+libtinfo.so.6"
 
 inherit rpm

@@ -21,48 +21,47 @@ RPM_NAME = "perl-TimeDate-2.33-1.13.noarch.rpm"
 RPM_HASH = "4c662b520b6a272a7e352135a8bd95d064614d37f41ad4b20684b26dc8210bc9bab35ce919bd7db6011142639ef173ef0b2250ef48fa2a87ec3d7caabfe439f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Date::Format) \
-perl(Date::Format::Generic) \
-perl(Date::Language) \
-perl(Date::Language::Afar) \
-perl(Date::Language::Amharic) \
-perl(Date::Language::Austrian) \
-perl(Date::Language::Brazilian) \
-perl(Date::Language::Bulgarian) \
-perl(Date::Language::Chinese) \
-perl(Date::Language::Chinese_GB) \
-perl(Date::Language::Czech) \
-perl(Date::Language::Danish) \
-perl(Date::Language::Dutch) \
-perl(Date::Language::English) \
-perl(Date::Language::Finnish) \
-perl(Date::Language::French) \
-perl(Date::Language::Gedeo) \
-perl(Date::Language::German) \
-perl(Date::Language::Greek) \
-perl(Date::Language::Hungarian) \
-perl(Date::Language::Icelandic) \
-perl(Date::Language::Italian) \
-perl(Date::Language::Norwegian) \
-perl(Date::Language::Occitan) \
-perl(Date::Language::Oromo) \
-perl(Date::Language::Romanian) \
-perl(Date::Language::Russian) \
-perl(Date::Language::Russian_cp1251) \
-perl(Date::Language::Russian_koi8r) \
-perl(Date::Language::Sidama) \
-perl(Date::Language::Somali) \
-perl(Date::Language::Spanish) \
-perl(Date::Language::Swedish) \
-perl(Date::Language::Tigrinya) \
-perl(Date::Language::TigrinyaEritrean) \
-perl(Date::Language::TigrinyaEthiopian) \
-perl(Date::Language::Turkish) \
-perl(Date::Parse) \
-perl(Time::Zone) \
-perl(TimeDate) \
+RPROVIDES:${PN} += "perl-Date--Format \
+perl-Date--Format--Generic \
+perl-Date--Language \
+perl-Date--Language--Afar \
+perl-Date--Language--Amharic \
+perl-Date--Language--Austrian \
+perl-Date--Language--Brazilian \
+perl-Date--Language--Bulgarian \
+perl-Date--Language--Chinese \
+perl-Date--Language--Chinese-GB \
+perl-Date--Language--Czech \
+perl-Date--Language--Danish \
+perl-Date--Language--Dutch \
+perl-Date--Language--English \
+perl-Date--Language--Finnish \
+perl-Date--Language--French \
+perl-Date--Language--Gedeo \
+perl-Date--Language--German \
+perl-Date--Language--Greek \
+perl-Date--Language--Hungarian \
+perl-Date--Language--Icelandic \
+perl-Date--Language--Italian \
+perl-Date--Language--Norwegian \
+perl-Date--Language--Occitan \
+perl-Date--Language--Oromo \
+perl-Date--Language--Romanian \
+perl-Date--Language--Russian \
+perl-Date--Language--Russian-cp1251 \
+perl-Date--Language--Russian-koi8r \
+perl-Date--Language--Sidama \
+perl-Date--Language--Somali \
+perl-Date--Language--Spanish \
+perl-Date--Language--Swedish \
+perl-Date--Language--Tigrinya \
+perl-Date--Language--TigrinyaEritrean \
+perl-Date--Language--TigrinyaEthiopian \
+perl-Date--Language--Turkish \
+perl-Date--Parse \
+perl-Time--Zone \
 perl-TimeDate"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

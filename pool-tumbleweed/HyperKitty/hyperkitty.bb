@@ -9,11 +9,11 @@ RPM_HASH = "6445d5c2860891338c8ae9d49c025867c92027bd6c8bf4463b41de903220becfd537
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty \
-python3.9dist(hyperkitty) \
+python3.9dist-hyperkitty \
 python39-HyperKitty \
-python3dist(hyperkitty)"
+python3dist-hyperkitty"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Django \
 python39-django-compressor \
 python39-django-debug-toolbar \

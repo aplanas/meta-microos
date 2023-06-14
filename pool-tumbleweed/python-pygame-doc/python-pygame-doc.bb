@@ -9,7 +9,6 @@ RPM_HASH = "fd47336ea09985921ed3801c928281b8206e5f4b9d4fb901ce3ac3465a9281d38e6d
 
 RPROVIDES:${PN} += "pygame-doc \
 python-pygame-doc \
-python-pygame-doc(aarch-64) \
 python310-pygame-doc \
 python311-pygame-doc \
 python39-pygame-doc"

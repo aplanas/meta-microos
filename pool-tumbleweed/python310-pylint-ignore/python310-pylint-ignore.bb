@@ -13,13 +13,13 @@ RPM_HASH = "4d6288002d750297e9ee67425af251ad18a5ada33c1ddf79e1cc5ce11b00c6a54b8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylint-ignore \
-python3.10dist(pylint-ignore) \
+python3.10dist-pylint-ignore \
 python310-pylint-ignore \
-python3dist(pylint-ignore)"
+python3dist-pylint-ignore"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-astroid \
 python310-pylev \
 python310-pylint \

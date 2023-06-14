@@ -10,13 +10,12 @@ PV = "0.19.0"
 RPM_NAME = "libbraille0-14-0.19.0-24.9.aarch64.rpm"
 RPM_HASH = "f93373c0dd0deb1de0c9c1fedbc45e6de4ea9d7676fb979902f3c6088e5902f562d68544bb4ded28b1f8122f61f3cb7fc17bbf0fee8a3974fec37beae81a5139"
 
-RPROVIDES:${PN} += "libbraille-0.so.14()(64bit) \
-libbraille0-14 \
-libbraille0-14(aarch-64)"
+RPROVIDES:${PN} += "libbraille-0.so.14 \
+libbraille0-14"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libusb-0.1.so.4()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libusb-0.1.so.4"
 
 inherit rpm

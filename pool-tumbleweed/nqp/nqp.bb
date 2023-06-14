@@ -15,12 +15,11 @@ PV = "2022.07"
 RPM_NAME = "nqp-2022.07-1.2.aarch64.rpm"
 RPM_HASH = "299b193835e6655bbe84b3fb7c29f0fe2f0ad6d7d5eec4464ad6d2a6eb9192a7731930ca671c3f250a28ba5c48b09ee4c08a85e1bb4143edb10f904cabbf9d75"
 
-RPROVIDES:${PN} += "nqp \
-nqp(aarch-64)"
+RPROVIDES:${PN} += "nqp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmoar.so()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmoar.so \
 moarvm"
 
 inherit rpm

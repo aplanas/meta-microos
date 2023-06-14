@@ -17,13 +17,13 @@ RPM_HASH = "5e24973141eb6389d753de628bbadcfc0a25e323ab4919f4de71ecfd7bfbf890781d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nornir \
-python3.10dist(nornir) \
+python3.10dist-nornir \
 python310-nornir \
-python3dist(nornir)"
+python3dist-nornir"
 
-RDEPENDS:${PN} += "python(abi) \
-python310-mypy_extensions \
+RDEPENDS:${PN} += "python-abi \
+python310-mypy-extensions \
 python310-ruamel.yaml \
-python310-typing_extensions"
+python310-typing-extensions"
 
 inherit rpm

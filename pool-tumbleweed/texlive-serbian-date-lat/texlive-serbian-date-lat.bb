@@ -10,7 +10,7 @@ RPM_NAME = "texlive-serbian-date-lat-2023.201.svn23446-53.1.noarch.rpm"
 RPM_HASH = "7ddecd1e8d1f11ace3ecc82995cc9994557976f4f8e09e4a1793ef8abbaa27249f047b5fcb91326ec252af920354b51c76d7875d7dd3f0e86c62bf66576025e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(serbian-date-lat.sty) \
+RPROVIDES:${PN} += "tex-serbian-date-lat.sty \
 texlive-serbian-date-lat"
 
 RDEPENDS:${PN} += "/bin/sh \

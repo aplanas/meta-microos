@@ -11,21 +11,20 @@ RPM_HASH = "c87092b2577e833fe11682352c0591568bd0372cbb4bb46dfc1daed03f9cba5bfe54
 
 RPROVIDES:${PN} += "libfprint \
 libfprint-2-2 \
-libfprint-2-2(aarch-64) \
-libfprint-2.so.2()(64bit)"
+libfprint-2.so.2"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libgusb.so.2()(64bit) \
-libm.so.6()(64bit) \
-libnss3.so()(64bit) \
-libpixman-1.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgudev-1.0.so.0 \
+libgusb.so.2 \
+libm.so.6 \
+libnss3.so \
+libpixman-1.so.0"
 
 inherit rpm

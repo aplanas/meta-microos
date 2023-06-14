@@ -9,13 +9,13 @@ RPM_HASH = "fa047e94799cfecea4bd3b36072d25f4d2df63be3f3d7b5387d693aa0ce3ba4075ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rpmlb \
-python3.10dist(rpmlb) \
+python3.10dist-rpmlb \
 python310-rpmlb \
-python3dist(rpmlb)"
+python3dist-rpmlb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-click \
 python310-retry"

@@ -11,13 +11,13 @@ RPM_HASH = "5eb7990ea87bb209328220095dc3c2125d0c3bd3efd36d824a326cc2c3f9dfb53fbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-relatorio \
-python3.10dist(relatorio) \
+python3.10dist-relatorio \
 python310-relatorio \
-python3dist(relatorio)"
+python3dist-relatorio"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Genshi \
 python310-PyYAML \
 python310-lxml \

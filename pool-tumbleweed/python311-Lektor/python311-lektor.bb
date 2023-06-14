@@ -10,13 +10,13 @@ RPM_NAME = "python311-Lektor-3.3.7-1.5.noarch.rpm"
 RPM_HASH = "5a3433530a0076ec05bb83ee4318dd30f29a6e7c3abee5d4369ef1107561ad2654aea440a487508ae11925367e4ad3bacaa48af1ff923984e3641a483e4928ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(lektor) \
+RPROVIDES:${PN} += "python3.11dist-lektor \
 python311-Lektor \
-python3dist(lektor)"
+python3dist-lektor"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Babel \
 python311-ExifRead \
 python311-Flask \

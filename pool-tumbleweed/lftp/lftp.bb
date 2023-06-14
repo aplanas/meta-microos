@@ -19,32 +19,29 @@ PV = "4.9.2"
 RPM_NAME = "lftp-4.9.2-2.10.aarch64.rpm"
 RPM_HASH = "b6ec5a5cbc2adcbbb28b96b78b7923db2c40e1be7e96c00170114b29464f66244419c02130a57b15226a076af1d08872a9dc6139ed68cc6552c93ae39b014c07"
 
-RPROVIDES:${PN} += "application() \
-application(lftp.desktop) \
-config(lftp) \
+RPROVIDES:${PN} += "config-lftp \
 lftp \
-lftp(aarch-64) \
-liblftp-jobs.so.0()(64bit) \
-liblftp-network.so()(64bit) \
-liblftp-pty.so()(64bit) \
-liblftp-tasks.so.0()(64bit)"
+liblftp-jobs.so.0 \
+liblftp-network.so \
+liblftp-pty.so \
+liblftp-tasks.so.0"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
 less \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libexpat.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libidn2.so.0()(64bit) \
-libm.so.6()(64bit) \
-libreadline.so.8()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libz.so.1()(64bit) \
+libc.so.6 \
+libcrypto.so.3 \
+libexpat.so.1 \
+libgcc-s.so.1 \
+libidn2.so.0 \
+libm.so.6 \
+libreadline.so.8 \
+libssl.so.3 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+libz.so.1 \
 update-alternatives"
 
 inherit rpm

@@ -13,13 +13,13 @@ RPM_NAME = "python39-xhtml2pdf-0.2.6-1.4.noarch.rpm"
 RPM_HASH = "aaae669b1c89d3ab9739e729d9950c597bab691e6b026d71ed3af8012c54abc665b6df90f70b3e8941b00537bd81bf3bee2e216f59d9d301cc86adb9d770f9c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(xhtml2pdf) \
+RPROVIDES:${PN} += "python3.9dist-xhtml2pdf \
 python39-xhtml2pdf \
-python3dist(xhtml2pdf)"
+python3dist-xhtml2pdf"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Pillow \
 python39-PyPDF3 \
 python39-arabic-reshaper \

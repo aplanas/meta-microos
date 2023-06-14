@@ -12,7 +12,7 @@ RPM_NAME = "texlive-swungdash-2023.201.1.0.0svn64204-57.1.noarch.rpm"
 RPM_HASH = "b6c3ac06a98fdc713ce61942bf2ad84e8a7146e1b8ec82e016c0eb9b5c4a603d94a5029f71892a3935329eead6d9dc6d89bd14606c211dba146956429fe1b711"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(swungdash.sty) \
+RPROVIDES:${PN} += "tex-swungdash.sty \
 texlive-swungdash"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(accsupp.sty) \
-tex(graphicx.sty) \
-tex(iftex.sty) \
+tex-accsupp.sty \
+tex-graphicx.sty \
+tex-iftex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

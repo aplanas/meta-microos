@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "ansible-test"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ansible-core \
-python(abi) \
+python-abi \
 python3-virtualenv"
 
 inherit rpm

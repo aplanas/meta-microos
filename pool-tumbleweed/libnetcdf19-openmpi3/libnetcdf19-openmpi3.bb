@@ -35,18 +35,17 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf19-openmpi3-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "2f2d0da77a690c26b61d9f007cc5f32a8be7968b494bb3cc04d9cae771e74bfcfb698ffe49b3495c735b96458429f1cd8c3d5e3f8df41c4769d9fd975dcc62c5"
 
-RPROVIDES:${PN} += "libnetcdf.so.19()(64bit) \
-libnetcdf19-openmpi3 \
-libnetcdf19-openmpi3(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf.so.19 \
+libnetcdf19-openmpi3"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libhdf5.so.200()(64bit) \
-libhdf5_hl.so.200()(64bit) \
-libm.so.6()(64bit) \
-libmpi.so.40()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libhdf5-hl.so.200 \
+libhdf5.so.200 \
+libm.so.6 \
+libmpi.so.40 \
+libxml2.so.2"
 
 inherit rpm

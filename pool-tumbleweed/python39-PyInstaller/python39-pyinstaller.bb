@@ -9,17 +9,16 @@ PV = "5.6.2"
 RPM_NAME = "python39-PyInstaller-5.6.2-2.1.aarch64.rpm"
 RPM_HASH = "c14266d35f0b167deb27c396e00e28aac8453a1052b1979e51537045829db1a6d23334c58f687b13154a262a6a8e218a0843852b9bffc1fb9c5fce8df4c10bb3"
 
-RPROVIDES:${PN} += "python3.9dist(pyinstaller) \
+RPROVIDES:${PN} += "python3.9dist-pyinstaller \
 python39-PyInstaller \
-python39-PyInstaller(aarch-64) \
-python3dist(pyinstaller)"
+python3dist-pyinstaller"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1 \
+python-abi \
 python39-devel \
 python39-macholib \
 python39-pefile \

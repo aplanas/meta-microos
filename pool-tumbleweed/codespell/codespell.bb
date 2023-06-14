@@ -10,11 +10,11 @@ RPM_HASH = "8fb313b54911d5c070572e4e07a99de745b4629dc91c0c6b402d9fd5bdcd3de91002
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codespell \
-python3.10dist(codespell) \
-python3dist(codespell)"
+python3.10dist-codespell \
+python3dist-codespell"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python3-chardet \
 python3-setuptools"
 

@@ -12,12 +12,12 @@ RPM_HASH = "d064ed9844499beb893e73c1870b7197f46551504761126e0a5f3f7c7af71d8a4cbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texi2html \
-texinfo:/usr/bin/texi2html"
+texinfo-/usr/bin/texi2html"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
-perl(Unicode::EastAsianWidth) \
 perl-Text-Unidecode \
+perl-Unicode--EastAsianWidth \
 perl-gettext \
 perl-libintl-perl"
 

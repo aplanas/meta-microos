@@ -9,16 +9,16 @@ RPM_HASH = "d61ed2184a2a973bc58204f2201ca365af3683cdd09ace365e40d76d72eef091c79c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-msv \
-mvn(net.java.dev.msv:msv-core) \
-mvn(net.java.dev.msv:msv-core:pom:) \
-osgi(net.java.dev.msv.core)"
+mvn-net.java.dev.msv-msv-core \
+mvn-net.java.dev.msv-msv-core-pom- \
+osgi-net.java.dev.msv.core"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(isorelax:isorelax) \
-mvn(net.java.dev.msv:xsdlib) \
-mvn(xml-resolver:xml-resolver)"
+mvn-isorelax-isorelax \
+mvn-net.java.dev.msv-xsdlib \
+mvn-xml-resolver-xml-resolver"
 
 inherit rpm

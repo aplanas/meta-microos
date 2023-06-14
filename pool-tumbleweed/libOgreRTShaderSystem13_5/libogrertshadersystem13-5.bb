@@ -27,15 +27,14 @@ PV = "13.5.3"
 RPM_NAME = "libOgreRTShaderSystem13_5-13.5.3-1.5.aarch64.rpm"
 RPM_HASH = "ac128f8264b88a2e241b63b1cfd8dc35c87e4caa1bcbd95b805bccd151f9f068594dfd892758098abc9b89780b6570c0a84583ea0f7eb711de5273a74574459b"
 
-RPROVIDES:${PN} += "libOgreRTShaderSystem.so.13.5()(64bit) \
-libOgreRTShaderSystem13_5 \
-libOgreRTShaderSystem13_5(aarch-64)"
+RPROVIDES:${PN} += "libOgreRTShaderSystem.so.13.5 \
+libOgreRTShaderSystem13-5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOgreMain.so.13.5()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOgreMain.so.13.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -17,30 +17,25 @@ PV = "3.25"
 RPM_NAME = "gpsd-clients-3.25-1.3.aarch64.rpm"
 RPM_HASH = "bd6cfe5f20b5267ad964516dd64f685b9abf4e8d5cb67153c564dbae37cb24d883adea747caa92f9f2b92caa11f763ffca10de2de0902811633b7b6bd01b0db0"
 
-RPROVIDES:${PN} += "application() \
-application(xgps.desktop) \
-application(xgpsspeed.desktop) \
-gpsd-clients \
-gpsd-clients(aarch-64)"
+RPROVIDES:${PN} += "gpsd-clients"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libbluetooth.so.3()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libbluetooth.so.3 \
+libc.so.6 \
+libdbus-1.so.3 \
+libm.so.6 \
+libncurses.so.6 \
+libtinfo.so.6 \
+libusb-1.0.so.0 \
 python3-cairo \
 python3-gobject \
 python3-gobject-Gdk \
 python3-gpsd \
 python3-serial \
-typelib(GLib) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gtk)"
+typelib-GLib \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gtk"
 
 inherit rpm

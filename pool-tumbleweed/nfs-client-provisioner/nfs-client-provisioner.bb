@@ -7,9 +7,8 @@ PV = "4.0.0+git20210204.23ecb30"
 RPM_NAME = "nfs-client-provisioner-4.0.0+git20210204.23ecb30-1.11.aarch64.rpm"
 RPM_HASH = "55c932582edd7a42d2d173b9dbf2f07ec72bfc89de33b39adaf16769ff76741f4bb84ac0bfc252057a714a59105d6f9db7af40d6ebbf72bbe3a7c6eca0f76bc5"
 
-RPROVIDES:${PN} += "nfs-client-provisioner \
-nfs-client-provisioner(aarch-64)"
+RPROVIDES:${PN} += "nfs-client-provisioner"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

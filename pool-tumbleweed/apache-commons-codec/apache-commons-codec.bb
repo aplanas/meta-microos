@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-codec \
 commons-codec \
 jakarta-commons-codec \
-mvn(commons-codec:commons-codec) \
-mvn(commons-codec:commons-codec:pom:) \
-osgi(org.apache.commons.codec)"
+mvn-commons-codec-commons-codec \
+mvn-commons-codec-commons-codec-pom- \
+osgi-org.apache.commons.codec"
 
 RDEPENDS:${PN} += "java \
 java-headless \

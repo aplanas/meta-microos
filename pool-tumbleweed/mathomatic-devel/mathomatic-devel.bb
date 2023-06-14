@@ -10,8 +10,7 @@ PV = "16.0.5"
 RPM_NAME = "mathomatic-devel-16.0.5-1.13.aarch64.rpm"
 RPM_HASH = "27f5b562b3107289952a9f10da46bd68aae66e2fcc3532990118b08c636b1d558575a7e482aeae34b4ea1ceb517af99599ee9c0dbe6e699c3023fa6208439bea"
 
-RPROVIDES:${PN} += "mathomatic-devel \
-mathomatic-devel(aarch-64)"
+RPROVIDES:${PN} += "mathomatic-devel"
 
 RDEPENDS:${PN} += ""
 

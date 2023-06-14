@@ -24,9 +24,9 @@ RPM_NAME = "perl-File-Which-1.27-1.9.noarch.rpm"
 RPM_HASH = "2d50c63db2932cde45454fa1ab0c60046cf5dbe5ca39701322f33969f658277d3ebc1da2e4da27714f58af54948e86e78e870e5d843f53b3f478d273cfd3b314"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Which) \
+RPROVIDES:${PN} += "perl-File--Which \
 perl-File-Which"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

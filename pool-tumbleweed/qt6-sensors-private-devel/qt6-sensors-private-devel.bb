@@ -8,9 +8,8 @@ PV = "6.5.1"
 RPM_NAME = "qt6-sensors-private-devel-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "6a0efcec9268984977412f51af50e8cfe5ca2f1e7a1a381b3dc79b524c5c7558eb3da915b220f09f00fc8e205468dff382b4b85eec3574c63a22abf55b99736b"
 
-RPROVIDES:${PN} += "qt6-sensors-private-devel \
-qt6-sensors-private-devel(aarch-64)"
+RPROVIDES:${PN} += "qt6-sensors-private-devel"
 
-RDEPENDS:${PN} += "cmake(Qt6Sensors)"
+RDEPENDS:${PN} += "cmake-Qt6Sensors"
 
 inherit rpm

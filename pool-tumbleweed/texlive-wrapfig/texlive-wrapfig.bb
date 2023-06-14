@@ -11,7 +11,7 @@ RPM_NAME = "texlive-wrapfig-2023.201.3.6svn61719-52.1.noarch.rpm"
 RPM_HASH = "afee530c2d85cc95f9d8c146517c317c8af1eb597bb39d4af63a5ca6b58b2cf1248cf0d0af6d834dab1b1bf1229326567dfda58343da5306853a92b9f9a18180"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(wrapfig.sty) \
+RPROVIDES:${PN} += "tex-wrapfig.sty \
 texlive-wrapfig"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -10,14 +10,13 @@ PV = "0.5.20"
 RPM_NAME = "uudeview-0.5.20-260.15.aarch64.rpm"
 RPM_HASH = "d2cfa0f4fdcaf3683c31aa4e54dd9c19e95f5e3011cdb5f02c9c074bd36c2b85b37beef35ee0e08284f85c1f8f40d847f56d28785af9cf67840373f1cf0e3370"
 
-RPROVIDES:${PN} += "sharutils:/usr/bin/uudeview \
-uudeview \
-uudeview(aarch-64)"
+RPROVIDES:${PN} += "sharutils-/usr/bin/uudeview \
+uudeview"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
-libtk8.6.so()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtcl8.6.so \
+libtk8.6.so"
 
 inherit rpm

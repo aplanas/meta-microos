@@ -10,10 +10,9 @@ PV = "3.2.6"
 RPM_NAME = "hfsutils-3.2.6-1245.13.aarch64.rpm"
 RPM_HASH = "eb6de48f24f6715137e3b8386d8ea1ae07be791eccdeac65b505dad43a4509f5e90af3dc20b527ae90e29b28cc7b69bff74335895a723741f182642544a146e5"
 
-RPROVIDES:${PN} += "hfsutils \
-hfsutils(aarch-64)"
+RPROVIDES:${PN} += "hfsutils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -18,22 +18,21 @@ RPM_NAME = "postgresql15-contrib-15.3-1.2.aarch64.rpm"
 RPM_HASH = "e7b03a25e47fe1493ec3441af75408d2768dd305c9f5763665bd1d1f468e525680bc91ca76dd3398bc92af73b8fed97fa8f137753ff12d289fdb43b4ee880e0d"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
-postgresql15-contrib \
-postgresql15-contrib(aarch-64)"
+postgresql15-contrib"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libm.so.6()(64bit) \
-libperl.so()(64bit) \
-libpq.so.5()(64bit) \
-libpython3.10.so.1.0()(64bit) \
-libselinux.so.1()(64bit) \
-libuuid.so.1()(64bit) \
-libxml2.so.2()(64bit) \
-libxslt.so.1()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libm.so.6 \
+libperl.so \
+libpq.so.5 \
+libpython3.10.so.1.0 \
+libselinux.so.1 \
+libuuid.so.1 \
+libxml2.so.2 \
+libxslt.so.1 \
+libz.so.1 \
 postgresql-contrib-noarch \
 postgresql15 \
 postgresql15-server"

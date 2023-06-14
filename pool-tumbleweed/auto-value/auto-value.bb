@@ -9,13 +9,13 @@ RPM_HASH = "4c5bacd18ee1363a170337209fa43f536dc1ff1ff1ea0af8fdf9ed0b2ddf04a0ded6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto-value \
-mvn(com.google.auto.value:auto-value) \
-mvn(com.google.auto.value:auto-value:pom:)"
+mvn-com.google.auto.value-auto-value \
+mvn-com.google.auto.value-auto-value-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.auto:auto-common) \
-mvn(com.google.guava:guava) \
-mvn(com.squareup:javapoet)"
+mvn-com.google.auto-auto-common \
+mvn-com.google.guava-guava \
+mvn-com.squareup-javapoet"
 
 inherit rpm

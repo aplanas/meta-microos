@@ -21,11 +21,11 @@ RPM_HASH = "58d4719817f61f2cd0175fe534e5addf422ef0d7d8738c6e754c154a1d0b64d788f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-injector \
-python3.10dist(injector) \
+python3.10dist-injector \
 python310-injector \
-python3dist(injector)"
+python3dist-injector"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310"
 
 inherit rpm

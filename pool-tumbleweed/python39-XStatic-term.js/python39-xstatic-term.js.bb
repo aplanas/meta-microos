@@ -13,11 +13,10 @@ PV = "0.0.7.0"
 RPM_NAME = "python39-XStatic-term.js-0.0.7.0-1.15.aarch64.rpm"
 RPM_HASH = "dc55d3d4cfde3ed227614573a503441864099cec1d1a7d233bd909d3cd98a2177d634732ffd80d5a001962dd5a154d7f8249f6b7790362d2ee0bd76bf5bbc94d"
 
-RPROVIDES:${PN} += "python3.9dist(xstatic-term.js) \
+RPROVIDES:${PN} += "python3.9dist-xstatic-term.js \
 python39-XStatic-term.js \
-python39-XStatic-term.js(aarch-64) \
-python3dist(xstatic-term.js)"
+python3dist-xstatic-term.js"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

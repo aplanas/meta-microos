@@ -11,36 +11,35 @@ PV = "2.2.0"
 RPM_NAME = "kea-2.2.0-2.4.aarch64.rpm"
 RPM_HASH = "35c7f0dbbd71dabdbfc903b3e27c42a5e80f557110d81940bda514f4ac6f27cc508ccf52af3fc43c9b6d1e9f89a6e053252134ef53e1f4a08205f1157b6e919f"
 
-RPROVIDES:${PN} += "config(kea) \
-kea \
-kea(aarch-64)"
+RPROVIDES:${PN} += "config-kea \
+kea"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkea-asiolink.so.40()(64bit) \
-libkea-cc.so.39()(64bit) \
-libkea-cfgclient.so.36()(64bit) \
-libkea-cryptolink.so.28()(64bit) \
-libkea-d2srv.so.16()(64bit) \
-libkea-database.so.35()(64bit) \
-libkea-dhcp++.so.54()(64bit) \
-libkea-dhcp_ddns.so.29()(64bit) \
-libkea-dhcpsrv.so.69()(64bit) \
-libkea-dns++.so.30()(64bit) \
-libkea-eval.so.39()(64bit) \
-libkea-exceptions.so.13()(64bit) \
-libkea-hooks.so.57()(64bit) \
-libkea-http.so.42()(64bit) \
-libkea-log.so.35()(64bit) \
-libkea-process.so.40()(64bit) \
-libkea-stats.so.18()(64bit) \
-libkea-util.so.52()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libkea-asiolink.so.40 \
+libkea-cc.so.39 \
+libkea-cfgclient.so.36 \
+libkea-cryptolink.so.28 \
+libkea-d2srv.so.16 \
+libkea-database.so.35 \
+libkea-dhcp++.so.54 \
+libkea-dhcp-ddns.so.29 \
+libkea-dhcpsrv.so.69 \
+libkea-dns++.so.30 \
+libkea-eval.so.39 \
+libkea-exceptions.so.13 \
+libkea-hooks.so.57 \
+libkea-http.so.42 \
+libkea-log.so.35 \
+libkea-process.so.40 \
+libkea-stats.so.18 \
+libkea-util.so.52 \
+libm.so.6 \
+libstdc++.so.6 \
 shadow"
 
 inherit rpm

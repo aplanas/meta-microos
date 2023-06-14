@@ -12,16 +12,15 @@ PV = "4.2.0"
 RPM_NAME = "libcfitsio10-4.2.0-2.3.aarch64.rpm"
 RPM_HASH = "07c6aa41bc0e3c0e9dc2b6e4b77ff52fb6a58f87cb57184035aff671bbe137e16e0f6929cfcb479fd7e3c5ab2d276b752b62e290d358c5f5cdb128dd08af15a2"
 
-RPROVIDES:${PN} += "libcfitsio.so.10()(64bit) \
-libcfitsio10 \
-libcfitsio10(aarch-64)"
+RPROVIDES:${PN} += "libcfitsio.so.10 \
+libcfitsio10"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libm.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcurl.so.4 \
+libm.so.6 \
+libz.so.1"
 
 inherit rpm

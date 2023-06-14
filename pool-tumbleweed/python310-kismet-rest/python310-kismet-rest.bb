@@ -9,11 +9,11 @@ RPM_HASH = "91ec2400bc4bb6fd412283e4cba344e1f9f601aafb4b823c76cd7dc6020fc1642b91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kismet-rest \
-python3.10dist(kismet-rest) \
+python3.10dist-kismet-rest \
 python310-kismet-rest \
-python3dist(kismet-rest)"
+python3dist-kismet-rest"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests"
 
 inherit rpm

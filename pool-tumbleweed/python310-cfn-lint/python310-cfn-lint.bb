@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfn-lint \
 python3-cfn-lint \
-python3.10dist(cfn-lint) \
+python3.10dist-cfn-lint \
 python310-cfn-lint \
-python3dist(cfn-lint)"
+python3dist-cfn-lint"
 
-RDEPENDS:${PN} += "(python310-jsonschema > 3.0 with python310-jsonschema < 5) \
+RDEPENDS:${PN} += "-python310-jsonschema > 3.0 with python310-jsonschema < 5 \
 /bin/sh \
 /usr/bin/python3.10 \
 git-core \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-aws-sam-translator \
 python310-jschema-to-python \

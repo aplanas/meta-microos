@@ -10,37 +10,37 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgovirt-lang \
 libgovirt-lang-all \
-locale(libgovirt:bs) \
-locale(libgovirt:ca) \
-locale(libgovirt:cs) \
-locale(libgovirt:da) \
-locale(libgovirt:de) \
-locale(libgovirt:el) \
-locale(libgovirt:es) \
-locale(libgovirt:eu) \
-locale(libgovirt:fi) \
-locale(libgovirt:fr) \
-locale(libgovirt:fur) \
-locale(libgovirt:hr) \
-locale(libgovirt:hu) \
-locale(libgovirt:id) \
-locale(libgovirt:it) \
-locale(libgovirt:ka) \
-locale(libgovirt:lt) \
-locale(libgovirt:nl) \
-locale(libgovirt:oc) \
-locale(libgovirt:pl) \
-locale(libgovirt:pt) \
-locale(libgovirt:pt_BR) \
-locale(libgovirt:ro) \
-locale(libgovirt:ru) \
-locale(libgovirt:sl) \
-locale(libgovirt:sr) \
-locale(libgovirt:sr@latin) \
-locale(libgovirt:sv) \
-locale(libgovirt:tr) \
-locale(libgovirt:uk) \
-locale(libgovirt:zh_CN)"
+locale-libgovirt-bs \
+locale-libgovirt-ca \
+locale-libgovirt-cs \
+locale-libgovirt-da \
+locale-libgovirt-de \
+locale-libgovirt-el \
+locale-libgovirt-es \
+locale-libgovirt-eu \
+locale-libgovirt-fi \
+locale-libgovirt-fr \
+locale-libgovirt-fur \
+locale-libgovirt-hr \
+locale-libgovirt-hu \
+locale-libgovirt-id \
+locale-libgovirt-it \
+locale-libgovirt-ka \
+locale-libgovirt-lt \
+locale-libgovirt-nl \
+locale-libgovirt-oc \
+locale-libgovirt-pl \
+locale-libgovirt-pt \
+locale-libgovirt-pt-BR \
+locale-libgovirt-ro \
+locale-libgovirt-ru \
+locale-libgovirt-sl \
+locale-libgovirt-sr \
+locale-libgovirt-sr@latin \
+locale-libgovirt-sv \
+locale-libgovirt-tr \
+locale-libgovirt-uk \
+locale-libgovirt-zh-CN"
 
 RDEPENDS:${PN} += "libgovirt"
 

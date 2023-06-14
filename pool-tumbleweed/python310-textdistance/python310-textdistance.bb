@@ -10,10 +10,10 @@ RPM_HASH = "722cebf91edaf3626653f70e72eb856d1be168794242a6b9b52b880c3a28e4138be6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-textdistance \
-python3.10dist(textdistance) \
+python3.10dist-textdistance \
 python310-textdistance \
-python3dist(textdistance)"
+python3dist-textdistance"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

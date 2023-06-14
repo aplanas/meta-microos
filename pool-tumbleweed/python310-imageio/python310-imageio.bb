@@ -11,13 +11,13 @@ RPM_HASH = "6ed9cc9e2e1196f96b464748496e8ec9edfb8c39fe948448ac45c844ec561d9736e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-imageio \
-python3.10dist(imageio) \
+python3.10dist-imageio \
 python310-imageio \
-python3dist(imageio)"
+python3dist-imageio"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pillow \
 python310-numpy \
 update-alternatives"

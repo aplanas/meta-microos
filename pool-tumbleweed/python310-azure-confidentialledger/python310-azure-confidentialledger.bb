@@ -12,11 +12,11 @@ RPM_HASH = "c0e614cdf1801a1a7bea207e43ea8112512105f04ac619da112bcf37e3a62ac67fa1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-confidentialledger \
-python3.10dist(azure-confidentialledger) \
+python3.10dist-azure-confidentialledger \
 python310-azure-confidentialledger \
-python3dist(azure-confidentialledger)"
+python3dist-azure-confidentialledger"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-cryptography \

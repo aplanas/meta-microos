@@ -18,14 +18,13 @@ RPM_NAME = "python310-PyYAML-6.0-5.1.aarch64.rpm"
 RPM_HASH = "f0af59d08443fdeecc03aa7fc650b82f1e0b0b6d8305cbbde080a7c1f5e76d5b2cee56dcbc8170cab9f3e086ae9df1d166d13ba3f955ab181f0aa76242df1b49"
 
 RPROVIDES:${PN} += "python3-PyYAML \
-python3.10dist(pyyaml) \
+python3.10dist-pyyaml \
 python310-PyYAML \
-python310-PyYAML(aarch-64) \
-python3dist(pyyaml)"
+python3dist-pyyaml"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libyaml-0.so.2()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libyaml-0.so.2 \
+python-abi"
 
 inherit rpm

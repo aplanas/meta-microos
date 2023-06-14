@@ -9,16 +9,16 @@ RPM_HASH = "bba805f9e89a265a3ae2d591a3fcfbb73334c002aa44cf2c0f5bdc8bc3d51827470f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cdi-api \
-mvn(jakarta.enterprise:jakarta.enterprise.cdi-api) \
-mvn(jakarta.enterprise:jakarta.enterprise.cdi-api:pom:) \
-mvn(javax.enterprise:cdi-api) \
-mvn(javax.enterprise:cdi-api:pom:) \
-osgi(jakarta.enterprise.cdi-api)"
+mvn-jakarta.enterprise-jakarta.enterprise.cdi-api \
+mvn-jakarta.enterprise-jakarta.enterprise.cdi-api-pom- \
+mvn-javax.enterprise-cdi-api \
+mvn-javax.enterprise-cdi-api-pom- \
+osgi-jakarta.enterprise.cdi-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(jakarta.inject:jakarta.inject-api) \
-mvn(javax.inject:javax.inject) \
-mvn(org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec)"
+mvn-jakarta.inject-jakarta.inject-api \
+mvn-javax.inject-javax.inject \
+mvn-org.jboss.spec.javax.interceptor-jboss-interceptors-api-1.2-spec"
 
 inherit rpm

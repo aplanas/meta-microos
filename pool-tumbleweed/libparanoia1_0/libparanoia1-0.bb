@@ -13,13 +13,12 @@ PV = "3.02~a10"
 RPM_NAME = "libparanoia1_0-3.02~a10-47.3.aarch64.rpm"
 RPM_HASH = "89b5ee1de0b5235c3fb8f42e0febaedfc7e6e919bd08cfecf2d143fec01e38a427d6e4d43b5abbe259fca0c684abd3f1a00fbe64ff11499d5a1178b2a4f7b1ff"
 
-RPROVIDES:${PN} += "libparanoia.so.1.0()(64bit) \
-libparanoia1_0 \
-libparanoia1_0(aarch-64)"
+RPROVIDES:${PN} += "libparanoia.so.1.0 \
+libparanoia1-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libschily.so.2.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libschily.so.2.0"
 
 inherit rpm

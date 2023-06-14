@@ -17,11 +17,11 @@ RPM_NAME = "python311-networkx-2.8.8-1.3.noarch.rpm"
 RPM_HASH = "e27605e4f7c79de879ccb09c8e90a8fc74da466121314524bf6bf3d7094ea998f05784c2d9b43a2ca827e44d1bfa4104ab2ff47220be89a035e1816a046cacbd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(networkx) \
+RPROVIDES:${PN} += "python3.11dist-networkx \
 python311-networkx \
-python3dist(networkx)"
+python3dist-networkx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \
 python311-numpy \
 python311-pandas \

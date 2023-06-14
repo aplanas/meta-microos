@@ -8,42 +8,26 @@ PV = "1.0"
 RPM_NAME = "libresprite-1.0-2.2.aarch64.rpm"
 RPM_HASH = "1160a82aa61666f62f2ca03ea508d7b25884d51a24edb008c45e9ea708b1967e9d9984b79ffe1fb90a144d3563b73154bfdb33bba83d79b7577350a413d58ef5"
 
-RPROVIDES:${PN} += "application() \
-application(libresprite.desktop) \
-libresprite \
-libresprite(aarch-64) \
-metainfo() \
-metainfo(libresprite.appdata.xml) \
-mimehandler(image/bmp) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/png) \
-mimehandler(image/vnd.microsoft.icon) \
-mimehandler(image/webp) \
-mimehandler(image/x-aseprite) \
-mimehandler(image/x-pcx) \
-mimehandler(image/x-tga) \
-mimehandler(video/x-flic)"
+RPROVIDES:${PN} += "libresprite"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgif.so.7()(64bit) \
-libjpeg.so.8()(64bit) \
-liblua5.3.so.5()(64bit) \
-libm.so.6()(64bit) \
-libpixman-1.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libtinyxml.so.0()(64bit) \
-libwebp.so.7()(64bit) \
-libxcb.so.1()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libc.so.6 \
+libcurl.so.4 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libgif.so.7 \
+libjpeg.so.8 \
+liblua5.3.so.5 \
+libm.so.6 \
+libpixman-1.so.0 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtinyxml.so.0 \
+libwebp.so.7 \
+libxcb.so.1 \
+libz.so.1"
 
 inherit rpm

@@ -12,31 +12,28 @@ PV = "1.4.4"
 RPM_NAME = "irssi-1.4.4-2.1.aarch64.rpm"
 RPM_HASH = "efc29d5bfe23e406ce73f7671d1c862c080dde932374f38cc9326a81617a217fda4bd2a9abb3195ba86b539acde35b43700addc9d6bac2433476c8ba1bc998a0"
 
-RPROVIDES:${PN} += "application() \
-application(irssi.desktop) \
-irssi \
-irssi(aarch-64) \
-libfe_perl.so()(64bit) \
-libirc_proxy.so()(64bit) \
-libotr_core.so()(64bit) \
-libperl_core.so()(64bit) \
-perl(Irssi) \
-perl(Irssi::Irc) \
-perl(Irssi::TextUI) \
-perl(Irssi::UI)"
+RPROVIDES:${PN} += "irssi \
+libfe-perl.so \
+libirc-proxy.so \
+libotr-core.so \
+libperl-core.so \
+perl-Irssi \
+perl-Irssi--Irc \
+perl-Irssi--TextUI \
+perl-Irssi--UI"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgcrypt.so.20()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libotr.so.5()(64bit) \
-libperl.so()(64bit) \
-libssl.so.3()(64bit) \
-libtinfo.so.6()(64bit) \
-libutf8proc.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgcrypt.so.20 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libotr.so.5 \
+libperl.so \
+libssl.so.3 \
+libtinfo.so.6 \
+libutf8proc.so.2 \
 perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

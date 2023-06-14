@@ -144,7 +144,7 @@ texlive-jbact \
 texlive-jmb \
 texlive-jneurosci \
 texlive-jurabib \
-texlive-ksfh_nat \
+texlive-ksfh-nat \
 texlive-listbib \
 texlive-logreq \
 texlive-ltb2bib \

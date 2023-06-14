@@ -9,9 +9,9 @@ RPM_HASH = "3e262961b28482277e459c932ebf3fcd9cdcde2c0786f57a16d8c46dd1a1d1c7ba5d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr3-java \
-mvn(org.antlr:antlr-runtime) \
-mvn(org.antlr:antlr-runtime:pom:) \
-osgi(org.antlr.runtime)"
+mvn-org.antlr-antlr-runtime \
+mvn-org.antlr-antlr-runtime-pom- \
+osgi-org.antlr.runtime"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

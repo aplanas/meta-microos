@@ -14,11 +14,11 @@ RPM_HASH = "2297ba93cb33cd8290516e644684308c0ae2f30a43f21eb0f880a3cb041de670f004
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-applicationinsights \
-python3.10dist(azure-applicationinsights) \
+python3.10dist-azure-applicationinsights \
 python310-azure-applicationinsights \
-python3dist(azure-applicationinsights)"
+python3dist-azure-applicationinsights"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-nspkg \
 python310-msrest"

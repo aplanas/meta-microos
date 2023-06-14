@@ -13,9 +13,9 @@ RPM_HASH = "35b5171534e3d3e0ddfbc62d55373629589cfb6b114ea66626523c629f7bac5582d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-iot-nspkg \
-python3.10dist(azure-iot-nspkg) \
+python3.10dist-azure-iot-nspkg \
 python310-azure-iot-nspkg \
-python3dist(azure-iot-nspkg)"
+python3dist-azure-iot-nspkg"
 
 RDEPENDS:${PN} += "python310-azure-nspkg"
 

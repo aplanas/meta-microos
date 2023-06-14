@@ -14,25 +14,17 @@ PV = "1.3+git20161111"
 RPM_NAME = "litetran-1.3+git20161111-3.9.aarch64.rpm"
 RPM_HASH = "8f13abb596b9dd36806526fa407df2e774f3e91aa0658597047345698ac802999ada1b2839b15114ef7184b81d0c9817bfbcecb90d38303fe3a720f9c824130b"
 
-RPROVIDES:${PN} += "application() \
-application(litetran.desktop) \
-litetran \
-litetran(aarch-64)"
+RPROVIDES:${PN} += "litetran"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libX11.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

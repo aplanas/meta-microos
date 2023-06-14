@@ -51,19 +51,19 @@ RPM_NAME = "perl-Apache2-AuthCookieDBI-2.19-1.14.noarch.rpm"
 RPM_HASH = "b73a2da38a7a15e71fcd2ad4297db1dd8a7185f1cb97ed226c4df88d88837b84e535a0d2c5489c161f93033b47b09a68f49737b2d345d0c9ba0bd397b1df0535"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Apache2::AuthCookieDBI) \
-perl(Apache2_4::AuthCookieDBI) \
+RPROVIDES:${PN} += "perl-Apache2--AuthCookieDBI \
+perl-Apache2-4--AuthCookieDBI \
 perl-Apache2-AuthCookieDBI"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Apache2::AuthCookie) \
-perl(Apache2::Const) \
-perl(Apache2::RequestRec) \
-perl(Apache2::ServerUtil) \
-perl(Crypt::CBC) \
-perl(DBI) \
-perl(Date::Calc) \
-perl(Digest::SHA) \
-perl(mod_perl2)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Apache2--AuthCookie \
+perl-Apache2--Const \
+perl-Apache2--RequestRec \
+perl-Apache2--ServerUtil \
+perl-Crypt--CBC \
+perl-DBI \
+perl-Date--Calc \
+perl-Digest--SHA \
+perl-mod-perl2"
 
 inherit rpm

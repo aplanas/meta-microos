@@ -9,20 +9,16 @@ PV = "5.106.0"
 RPM_NAME = "libKF5WidgetsAddons5-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "c6dcb2517f47e5b2cee257999fba7b943d01415fce0a679c179e1d27605cae44ca62ba634470b9057a5f3b292d76a53266e59bd929ada8f5b88196e2cfce51e3"
 
-RPROVIDES:${PN} += "libKF5WidgetsAddons.so.5()(64bit) \
-libKF5WidgetsAddons5 \
-libKF5WidgetsAddons5(aarch-64)"
+RPROVIDES:${PN} += "libKF5WidgetsAddons.so.5 \
+libKF5WidgetsAddons5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
 libQt5Widgets5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

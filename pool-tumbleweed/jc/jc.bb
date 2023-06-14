@@ -10,11 +10,11 @@ RPM_HASH = "9a8df8747b75cb18efb04cf4d819493da2460d31dfb2e35b67dfe6f22b0687ddb408
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jc \
-python3.10dist(jc) \
-python3dist(jc)"
+python3.10dist-jc \
+python3dist-jc"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Pygments \
 python3-ifconfig-parser \
 python3-ruamel.yaml \

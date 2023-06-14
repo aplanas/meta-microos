@@ -8,50 +8,40 @@ PV = "1.4.1"
 RPM_NAME = "hotspot-1.4.1-1.4.aarch64.rpm"
 RPM_HASH = "83b6a3563204cc2d135e54e4811a8b7b9eede9dbb9b1a8fcd9f3d0bc0e8983191a0930a034be2c9060621c26fbd442a5ca0dc3303936160a74afde4661dc8251"
 
-RPROVIDES:${PN} += "application() \
-application(com.kdab.hotspot.desktop) \
-hotspot \
-hotspot(aarch-64) \
-metainfo() \
-metainfo(com.kdab.Hotspot.appdata.xml)"
+RPROVIDES:${PN} += "hotspot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libKF5Archive.so.5()(64bit) \
-libKF5Completion.so.5()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5KIOCore.so.5()(64bit) \
-libKF5KIOGui.so.5()(64bit) \
-libKF5KIOWidgets.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libKF5Parts.so.5()(64bit) \
-libKF5Solid.so.5()(64bit) \
-libKF5SyntaxHighlighting.so.5()(64bit) \
-libKF5ThreadWeaver.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libdebuginfod.so.1()(64bit) \
-libdw.so.1()(64bit) \
-libelf.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libkddockwidgets.so.1.7()(64bit) \
-libm.so.6()(64bit) \
-libqcustomplot.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libzstd.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF5Archive.so.5 \
+libKF5Completion.so.5 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5KIOCore.so.5 \
+libKF5KIOGui.so.5 \
+libKF5KIOWidgets.so.5 \
+libKF5Notifications.so.5 \
+libKF5Parts.so.5 \
+libKF5Solid.so.5 \
+libKF5SyntaxHighlighting.so.5 \
+libKF5ThreadWeaver.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libdebuginfod.so.1 \
+libdw.so.1 \
+libelf.so.1 \
+libgcc-s.so.1 \
+libkddockwidgets.so.1.7 \
+libm.so.6 \
+libqcustomplot.so.2 \
+libstdc++.so.6 \
+libzstd.so.1 \
 perf"
 
 inherit rpm

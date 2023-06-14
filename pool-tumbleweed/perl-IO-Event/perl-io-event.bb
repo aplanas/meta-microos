@@ -26,19 +26,19 @@ RPM_NAME = "perl-IO-Event-0.813-1.20.noarch.rpm"
 RPM_HASH = "d67b92b9fff864476cb890f623c993ed743f08cff3d1363010ab2824b2c6e573260541fe4de9eb2788aef79204527cd8ac6820db87ca74cbb5a401a1615bef77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(IO::Event) \
-perl(IO::Event::AnyEvent) \
-perl(IO::Event::Callback) \
-perl(IO::Event::Emulate) \
-perl(IO::Event::Event) \
-perl(IO::Event::INET::Callback) \
-perl(IO::Event::Socket::UNIX) \
-perl(IO::Event::UNIX::Callback) \
+RPROVIDES:${PN} += "perl-IO--Event \
+perl-IO--Event--AnyEvent \
+perl-IO--Event--Callback \
+perl-IO--Event--Emulate \
+perl-IO--Event--Event \
+perl-IO--Event--INET--Callback \
+perl-IO--Event--Socket--UNIX \
+perl-IO--Event--UNIX--Callback \
 perl-IO-Event"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(IO::Handle) \
-perl(List::MoreUtils) \
-perl(Time::HiRes)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-IO--Handle \
+perl-List--MoreUtils \
+perl-Time--HiRes"
 
 inherit rpm

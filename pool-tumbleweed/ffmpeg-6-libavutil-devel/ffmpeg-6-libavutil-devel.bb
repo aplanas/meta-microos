@@ -14,9 +14,8 @@ RPM_NAME = "ffmpeg-6-libavutil-devel-6.0-2.2.aarch64.rpm"
 RPM_HASH = "82709d4c9132ae87c9c4438cc569703e48de2af4f73a9465b33b306a0619b0bd2a986840ad735f7c4813ce74c4f3bf005f43e70012859799a22d51fc67d49342"
 
 RPROVIDES:${PN} += "ffmpeg-6-libavutil-devel \
-ffmpeg-6-libavutil-devel(aarch-64) \
 libavutil-devel \
-pkgconfig(libavutil)"
+pkgconfig-libavutil"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavutil58"

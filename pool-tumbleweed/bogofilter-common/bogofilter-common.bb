@@ -17,7 +17,7 @@ RPM_HASH = "dc10523ce345b5c5fcea469ad528edf3934c0159d41866188ef47634feba3206065b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bogofilter-common \
-config(bogofilter-common)"
+config-bogofilter-common"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

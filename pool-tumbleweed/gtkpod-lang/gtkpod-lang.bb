@@ -10,21 +10,21 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkpod-lang \
 gtkpod-lang-all \
-locale(gtkpod:ca) \
-locale(gtkpod:cs_CZ) \
-locale(gtkpod:de) \
-locale(gtkpod:es) \
-locale(gtkpod:fr) \
-locale(gtkpod:he) \
-locale(gtkpod:it) \
-locale(gtkpod:ja) \
-locale(gtkpod:nl) \
-locale(gtkpod:pt_BR) \
-locale(gtkpod:ro) \
-locale(gtkpod:ru) \
-locale(gtkpod:sv) \
-locale(gtkpod:zh_CN) \
-locale(gtkpod:zh_TW)"
+locale-gtkpod-ca \
+locale-gtkpod-cs-CZ \
+locale-gtkpod-de \
+locale-gtkpod-es \
+locale-gtkpod-fr \
+locale-gtkpod-he \
+locale-gtkpod-it \
+locale-gtkpod-ja \
+locale-gtkpod-nl \
+locale-gtkpod-pt-BR \
+locale-gtkpod-ro \
+locale-gtkpod-ru \
+locale-gtkpod-sv \
+locale-gtkpod-zh-CN \
+locale-gtkpod-zh-TW"
 
 RDEPENDS:${PN} += "gtkpod"
 

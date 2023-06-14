@@ -13,11 +13,11 @@ RPM_HASH = "44fa22848df432d5bb62d8c682a5f8a70203cdbc0a40314fb6d18113288e69bf7630
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.concurrency \
-python3.10dist(oslo.concurrency) \
-python3dist(oslo.concurrency)"
+python3.10dist-oslo.concurrency \
+python3dist-oslo.concurrency"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-fasteners \
 python3-oslo.config \
 python3-oslo.i18n \

@@ -11,13 +11,13 @@ RPM_NAME = "python311-gTTS-2.3.1-1.5.noarch.rpm"
 RPM_HASH = "b7c2f357db7dd23fc3d087d4ec98098da6000ea11508c3ad327887a9fad9dc0b74abc1cd7ceb2e959485bf567c9ed8072d333ab399383e90017aae68e22e852d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(gtts) \
+RPROVIDES:${PN} += "python3.11dist-gtts \
 python311-gTTS \
-python3dist(gtts)"
+python3dist-gtts"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-beautifulsoup4 \
 python311-click \
 python311-gTTS-token \

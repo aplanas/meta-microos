@@ -9,14 +9,13 @@ PV = "3.0.9"
 RPM_NAME = "guile-3.0.9-1.1.aarch64.rpm"
 RPM_HASH = "74ec9b7365d984af6f5eb8260e895b635553fcfc08a41ea964d0e1ba1f958ce8f2dc6c97aed57c7741f35e949aa6ff3b6709eab1b5a5bcd9375eb1044b3786e8"
 
-RPROVIDES:${PN} += "guile \
-guile(aarch-64)"
+RPROVIDES:${PN} += "guile"
 
 RDEPENDS:${PN} += "/bin/sh \
 fileutils \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libguile-3.0.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libguile-3.0.so.1 \
 sh-utils"
 
 inherit rpm

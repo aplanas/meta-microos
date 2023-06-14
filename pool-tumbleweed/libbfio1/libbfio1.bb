@@ -9,27 +9,18 @@ PV = "20221025"
 RPM_NAME = "libbfio1-20221025-2.5.aarch64.rpm"
 RPM_HASH = "e90ffb3762f6eb507a6ee7e8b7c5055c8865b9a330559a7bd0be715c9cd1ca516380a60554dabd4a8b2ad7febf6d1ade2db36d250e545db6ccecd7bdff0030db"
 
-RPROVIDES:${PN} += "libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libbfio1 \
-libbfio1(aarch-64)"
+RPROVIDES:${PN} += "libbfio.so.1 \
+libbfio1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcdata.so.1()(64bit) \
-libcdata.so.1(V_20230108)(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libcfile.so.1()(64bit) \
-libcfile.so.1(V_20220106)(64bit) \
-libclocale.so.1()(64bit) \
-libclocale.so.1(V_20221218)(64bit) \
-libcpath.so.1()(64bit) \
-libcpath.so.1(V_20220108)(64bit) \
-libcthreads.so.1()(64bit) \
-libcthreads.so.1(V_20220102)(64bit) \
-libuna.so.1()(64bit) \
-libuna.so.1(V_20220611)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcdata.so.1 \
+libcerror.so.1 \
+libcfile.so.1 \
+libclocale.so.1 \
+libcpath.so.1 \
+libcthreads.so.1 \
+libuna.so.1"
 
 inherit rpm

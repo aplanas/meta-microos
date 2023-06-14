@@ -11,12 +11,11 @@ PV = "0.30"
 RPM_NAME = "perl-MLDBM-Sync-0.30-408.40.aarch64.rpm"
 RPM_HASH = "4aabeb42448f88e5ca814c6c6c70ceada45cd1abfc015bd97f396edede98c7ff2ff02e53280ff823efd79d6075f9ff632871fca53ef5fd99ba342f7856541ad0"
 
-RPROVIDES:${PN} += "perl(MLDBM::Sync) \
-perl(MLDBM::Sync::SDBM_File) \
-perl-MLDBM-Sync \
-perl-MLDBM-Sync(aarch-64)"
+RPROVIDES:${PN} += "perl-MLDBM--Sync \
+perl-MLDBM--Sync--SDBM-File \
+perl-MLDBM-Sync"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
 perl-MLDBM \
 perl-Tie-Cache"
 

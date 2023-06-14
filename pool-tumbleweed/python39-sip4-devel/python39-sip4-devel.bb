@@ -16,14 +16,13 @@ RPM_HASH = "c505c6e6a4049c56ce2887ca4a6d7127bcde2a2926eb09e514d09907caa5ee7fc94e
 RPROVIDES:${PN} += "python39-sip-bin \
 python39-sip-devel \
 python39-sip4-devel \
-python39-sip4-devel(aarch-64) \
-rpm_macro(requires_python39_sip_api)"
+rpm-macro-requires-python39-sip-api"
 
 RDEPENDS:${PN} += "/bin/sh \
-c++_compiler \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+c++-compiler \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python39-devel \
 python39-sip4 \
 python39-sip4-common \

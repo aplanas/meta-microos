@@ -9,11 +9,11 @@ RPM_HASH = "8a7c8c05f765a6a34b73ed81bdfb2e2715de2a980a2d4ffeb622e56d225d9586c24b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-moban-ansible \
-python3.10dist(moban-ansible) \
+python3.10dist-moban-ansible \
 python310-moban-ansible \
-python3dist(moban-ansible)"
+python3dist-moban-ansible"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-moban"
 
 inherit rpm

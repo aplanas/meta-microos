@@ -14,7 +14,7 @@ RPM_NAME = "texlive-isomath-2023.201.0.0.6.1svn27654-55.1.noarch.rpm"
 RPM_HASH = "5e6880d1fd8647ceedef8a84bc13eb3561e6e46782e3957eded144858754f90f45ff86b58bc9e11a38764c22b11cd8eceae306eb699aa0a1f61bea99c90f346c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(isomath.sty) \
+RPROVIDES:${PN} += "tex-isomath.sty \
 texlive-isomath"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(fixmath.sty) \
-tex(kvoptions.sty) \
+tex-fixmath.sty \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

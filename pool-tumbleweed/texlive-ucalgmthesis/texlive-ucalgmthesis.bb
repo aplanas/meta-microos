@@ -19,7 +19,7 @@ RPM_NAME = "texlive-ucalgmthesis-2023.201.svn52527-52.1.noarch.rpm"
 RPM_HASH = "60b1dd10304cd3ea30a4409a7b97e9b5b3c07986c1d3f95b4030ac93f82a4ff8dc5d60e420c7bd05a6e1c639f9bce7e709b4320972e92c23ad592224ccb8eb2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ucalgmthesis.cls) \
+RPROVIDES:${PN} += "tex-ucalgmthesis.cls \
 texlive-ucalgmthesis"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,15 +28,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsthm.sty) \
-tex(fontenc.sty) \
-tex(libertine.sty) \
-tex(mathdesign.sty) \
-tex(memoir.cls) \
-tex(newpxmath.sty) \
-tex(newpxtext.sty) \
-tex(newtxmath.sty) \
-tex(newtxtext.sty) \
+tex-amsthm.sty \
+tex-fontenc.sty \
+tex-libertine.sty \
+tex-mathdesign.sty \
+tex-memoir.cls \
+tex-newpxmath.sty \
+tex-newpxtext.sty \
+tex-newtxmath.sty \
+tex-newtxtext.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

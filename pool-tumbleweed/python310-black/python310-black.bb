@@ -17,18 +17,18 @@ RPM_HASH = "6f9078e48899e2b021de55f37fd20a88d11c8853ba22bd5bb365b8f1b6057d8f9122
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-black \
-python3.10dist(black) \
+python3.10dist-black \
 python310-black \
-python3dist(black)"
+python3dist-black"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-aiohttp \
-python310-aiohttp_cors \
+python310-aiohttp-cors \
 python310-attrs \
 python310-click \
-python310-mypy_extensions \
+python310-mypy-extensions \
 python310-packaging \
 python310-pathspec \
 python310-platformdirs \

@@ -12,15 +12,14 @@ PV = "0.2.5.43"
 RPM_NAME = "ndppd-0.2.5.43-4.8.aarch64.rpm"
 RPM_HASH = "5804ca2f3fb7503dda71d4a800e94a5daff9074ea6d8c2afef8b5535a3cde9833add83320367aca405716c44e336f3c115194c326c345583fe33c0f452638756"
 
-RPROVIDES:${PN} += "config(ndppd) \
-ndppd \
-ndppd(aarch-64)"
+RPROVIDES:${PN} += "config-ndppd \
+ndppd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 systemd"
 
 inherit rpm

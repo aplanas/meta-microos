@@ -11,18 +11,16 @@ PV = "12.5"
 RPM_NAME = "mailx-12.5-35.4.aarch64.rpm"
 RPM_HASH = "06ba84d1ed332d631334e24fd20dd57c057fd318db47d394b5ca9096c735f30192181e5ed72f7180a5b9e6426873d4abae48b857c988b1d6385329fcceb44975"
 
-RPROVIDES:${PN} += "config(mailx) \
+RPROVIDES:${PN} += "config-mailx \
 mail \
-mailx \
-mailx(aarch-64)"
+mailx"
 
 RDEPENDS:${PN} += "/bin/sh \
 alts \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libssl.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgssapi-krb5.so.2 \
+libssl.so.3"
 
 inherit rpm

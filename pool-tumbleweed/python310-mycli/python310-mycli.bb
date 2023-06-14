@@ -9,20 +9,20 @@ RPM_HASH = "4db943ceb3e61644868e8d450b29f99f14f5b0c61628e3f821c7544d348ce5ae1a6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mycli \
-python3.10dist(mycli) \
+python3.10dist-mycli \
 python310-mycli \
-python3dist(mycli)"
+python3dist-mycli"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyMySQL \
 python310-Pygments \
 python310-cli-helpers \
 python310-click \
 python310-configobj \
 python310-cryptography \
-python310-prompt_toolkit \
+python310-prompt-toolkit \
 python310-pyaes \
 python310-pyperclip \
 python310-sqlglot \

@@ -8,13 +8,12 @@ PV = "0.10.0"
 RPM_NAME = "sscep-0.10.0-1.8.aarch64.rpm"
 RPM_HASH = "b49208905fa7b2ac0be7571c8f7b777bfc812c023b97e5d74d2b970f6b3f42c6f471ed6c34d98bcab6fcad0defaf8b83a095b285385f18ec8b68b606841daefd"
 
-RPROVIDES:${PN} += "config(sscep) \
-sscep \
-sscep(aarch-64)"
+RPROVIDES:${PN} += "config-sscep \
+sscep"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3"
 
 inherit rpm

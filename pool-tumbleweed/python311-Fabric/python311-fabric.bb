@@ -20,17 +20,17 @@ RPM_NAME = "python311-Fabric-2.7.1-3.4.noarch.rpm"
 RPM_HASH = "d4078cdd8024267bb2649aa715587f9ade99ca97dc6806da90290b30b003087d3b840168dec3a2672aac95c27f67d98b77864efefce3c2721591affa75f3ecd6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(fabric) \
+RPROVIDES:${PN} += "python3.11dist-fabric \
 python311-Fabric \
 python311-Fabric2 \
 python311-Fabric3 \
 python311-fabric \
 python311-fabric2 \
-python3dist(fabric)"
+python3dist-fabric"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-cryptography \
 python311-decorator \
 python311-invoke \

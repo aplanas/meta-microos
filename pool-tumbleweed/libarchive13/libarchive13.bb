@@ -57,20 +57,19 @@ PV = "3.6.2"
 RPM_NAME = "libarchive13-3.6.2-1.4.aarch64.rpm"
 RPM_HASH = "98e6b7ae8b2145e9b98e4af45c211aee0909fca51ce262531936725cc1e922c5aa1047f0f01c49e94a2725da888d246702f08d0f18a3083c5766bc22f327ce8f"
 
-RPROVIDES:${PN} += "libarchive.so.13()(64bit) \
-libarchive13 \
-libarchive13(aarch-64)"
+RPROVIDES:${PN} += "libarchive.so.13 \
+libarchive13"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libacl.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-liblz4.so.1()(64bit) \
-liblzma.so.5()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+liblz4.so.1 \
+liblzma.so.5 \
+libxml2.so.2 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

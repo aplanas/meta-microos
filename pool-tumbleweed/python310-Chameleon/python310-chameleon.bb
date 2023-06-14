@@ -13,11 +13,11 @@ RPM_HASH = "a1661f575c0965598e93442d4eede8ea97cd816adcaf445a6c209b82e77bfc66a154
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Chameleon \
-python3.10dist(chameleon) \
+python3.10dist-chameleon \
 python310-Chameleon \
-python3dist(chameleon)"
+python3dist-chameleon"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools"
 
 inherit rpm

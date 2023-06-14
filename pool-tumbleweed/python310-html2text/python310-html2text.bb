@@ -11,13 +11,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "html2text \
 python3-html2text \
-python3.10dist(html2text) \
+python3.10dist-html2text \
 python310-html2text \
-python3dist(html2text)"
+python3dist-html2text"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -9,39 +9,30 @@ PV = "0.12.15"
 RPM_NAME = "rsibreak-0.12.15-1.4.aarch64.rpm"
 RPM_HASH = "42b32da48dc04ca82fc659a275e73c5e1a4962558118f8a9280011e50852c5769303b01d96c7e33adfc828aeb778927ceb26d5de7f4fb34400acf30b18c598ee"
 
-RPROVIDES:${PN} += "application() \
-application(org.kde.rsibreak.desktop) \
-kde4-rsibreak \
-metainfo() \
-metainfo(org.kde.rsibreak.appdata.xml) \
-rsibreak \
-rsibreak(aarch-64)"
+RPROVIDES:${PN} += "kde4-rsibreak \
+rsibreak"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5Crash.so.5()(64bit) \
-libKF5DBusAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IdleTime.so.5()(64bit) \
-libKF5Notifications.so.5()(64bit) \
-libKF5NotifyConfig.so.5()(64bit) \
-libKF5TextWidgets.so.5()(64bit) \
-libKF5WidgetsAddons.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libKF5XmlGui.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5Crash.so.5 \
+libKF5DBusAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5IdleTime.so.5 \
+libKF5Notifications.so.5 \
+libKF5NotifyConfig.so.5 \
+libKF5TextWidgets.so.5 \
+libKF5WidgetsAddons.so.5 \
+libKF5WindowSystem.so.5 \
+libKF5XmlGui.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

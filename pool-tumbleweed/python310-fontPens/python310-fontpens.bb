@@ -9,11 +9,11 @@ RPM_HASH = "d5ca911babd8380bff9695a3d5b6f9b575a918410e233016508d8b3e6973153f2568
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fontPens \
-python3.10dist(fontpens) \
+python3.10dist-fontpens \
 python310-fontPens \
-python3dist(fontpens)"
+python3dist-fontpens"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-FontTools"
 
 inherit rpm

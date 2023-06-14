@@ -11,13 +11,13 @@ RPM_NAME = "python311-dennis-1.1.0-1.4.noarch.rpm"
 RPM_HASH = "ff3787f5c76d2fe39b7ddbd5939764aada389a1360d17ce4f5eedfcf83fa1b62e6cfccfbb1737f8d889a0eeb7affd9b087e0c81d0ae02c3af205070556f25e31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dennis) \
+RPROVIDES:${PN} += "python3.11dist-dennis \
 python311-dennis \
-python3dist(dennis)"
+python3dist-dennis"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-click \
 python311-polib \
 update-alternatives"

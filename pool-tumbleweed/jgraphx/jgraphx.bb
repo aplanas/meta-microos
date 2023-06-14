@@ -12,9 +12,9 @@ RPM_HASH = "7f0930445ee6da49ce2295574c678309c67098288ea45a5f033dd2d32d21c3e70306
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgraphx \
-mvn(com.mxgraph:jgraphx) \
-mvn(com.mxgraph:jgraphx:pom:) \
-osgi(com.mxgraph)"
+mvn-com.mxgraph-jgraphx \
+mvn-com.mxgraph-jgraphx-pom- \
+osgi-com.mxgraph"
 
 RDEPENDS:${PN} += "java \
 java-headless \

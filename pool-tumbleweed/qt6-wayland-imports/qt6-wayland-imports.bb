@@ -7,57 +7,41 @@ PV = "6.5.1"
 RPM_NAME = "qt6-wayland-imports-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "f3877976acae295696c916ae0938d284aa039a9032a2392a610b5851cd848cc0d2b8e7c126e36e693a8d41529aa5b92d4f84c4028db03d45845e740bfff99325"
 
-RPROVIDES:${PN} += "libqwaylandcompositorplugin.so()(64bit) \
-libqwaylandcompositorplugin.so(Qt_6)(64bit) \
-libwaylandcompositoriviapplicationplugin.so()(64bit) \
-libwaylandcompositoriviapplicationplugin.so(Qt_6)(64bit) \
-libwaylandcompositorpresentationtimeplugin.so()(64bit) \
-libwaylandcompositorpresentationtimeplugin.so(Qt_6)(64bit) \
-libwaylandcompositorqtshellplugin.so()(64bit) \
-libwaylandcompositorqtshellplugin.so(Qt_6)(64bit) \
-libwaylandcompositorwlshellplugin.so()(64bit) \
-libwaylandcompositorwlshellplugin.so(Qt_6)(64bit) \
-libwaylandcompositorxdgshellplugin.so()(64bit) \
-libwaylandcompositorxdgshellplugin.so(Qt_6)(64bit) \
-libwaylandtexturesharingextensionplugin.so()(64bit) \
-libwaylandtexturesharingextensionplugin.so(Qt_6)(64bit) \
-libwaylandtexturesharingplugin.so()(64bit) \
-libwaylandtexturesharingplugin.so(Qt_6)(64bit) \
+RPROVIDES:${PN} += "libqwaylandcompositorplugin.so \
+libwaylandcompositoriviapplicationplugin.so \
+libwaylandcompositorpresentationtimeplugin.so \
+libwaylandcompositorqtshellplugin.so \
+libwaylandcompositorwlshellplugin.so \
+libwaylandcompositorxdgshellplugin.so \
+libwaylandtexturesharingextensionplugin.so \
+libwaylandtexturesharingplugin.so \
 qt6-wayland-imports \
-qt6-wayland-imports(aarch-64) \
-qt6qmlimport(QtWayland.Client.TextureSharing.1) \
-qt6qmlimport(QtWayland.Compositor.1) \
-qt6qmlimport(QtWayland.Compositor.6) \
-qt6qmlimport(QtWayland.Compositor.IviApplication.1) \
-qt6qmlimport(QtWayland.Compositor.IviApplication.6) \
-qt6qmlimport(QtWayland.Compositor.PresentationTime.1) \
-qt6qmlimport(QtWayland.Compositor.PresentationTime.6) \
-qt6qmlimport(QtWayland.Compositor.QtShell.1) \
-qt6qmlimport(QtWayland.Compositor.QtShell.6) \
-qt6qmlimport(QtWayland.Compositor.TextureSharingExtension.1) \
-qt6qmlimport(QtWayland.Compositor.WlShell.1) \
-qt6qmlimport(QtWayland.Compositor.WlShell.6) \
-qt6qmlimport(QtWayland.Compositor.XdgShell.1) \
-qt6qmlimport(QtWayland.Compositor.XdgShell.6)"
+qt6qmlimport-QtWayland.Client.TextureSharing.1 \
+qt6qmlimport-QtWayland.Compositor.1 \
+qt6qmlimport-QtWayland.Compositor.6 \
+qt6qmlimport-QtWayland.Compositor.IviApplication.1 \
+qt6qmlimport-QtWayland.Compositor.IviApplication.6 \
+qt6qmlimport-QtWayland.Compositor.PresentationTime.1 \
+qt6qmlimport-QtWayland.Compositor.PresentationTime.6 \
+qt6qmlimport-QtWayland.Compositor.QtShell.1 \
+qt6qmlimport-QtWayland.Compositor.QtShell.6 \
+qt6qmlimport-QtWayland.Compositor.TextureSharingExtension.1 \
+qt6qmlimport-QtWayland.Compositor.WlShell.1 \
+qt6qmlimport-QtWayland.Compositor.WlShell.6 \
+qt6qmlimport-QtWayland.Compositor.XdgShell.1 \
+qt6qmlimport-QtWayland.Compositor.XdgShell.6"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6OpenGL.so.6()(64bit) \
-libQt6OpenGL.so.6(Qt_6)(64bit) \
-libQt6Qml.so.6()(64bit) \
-libQt6Qml.so.6(Qt_6)(64bit) \
-libQt6Quick.so.6()(64bit) \
-libQt6Quick.so.6(Qt_6)(64bit) \
-libQt6WaylandClient.so.6()(64bit) \
-libQt6WaylandClient.so.6(Qt_6)(64bit) \
-libQt6WaylandCompositor.so.6()(64bit) \
-libQt6WaylandCompositor.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-server.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGL.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6WaylandClient.so.6 \
+libQt6WaylandCompositor.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
+libwayland-client.so.0 \
+libwayland-server.so.0"
 
 inherit rpm

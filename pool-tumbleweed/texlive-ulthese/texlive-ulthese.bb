@@ -15,7 +15,7 @@ RPM_NAME = "texlive-ulthese-2023.201.5.3asvn60217-53.1.noarch.rpm"
 RPM_HASH = "d4951a3bc561ad1572921f33979ccc887c8dfacea9e542f9c96893c277d74702840da035410c3913bd5b9c84554f9e3d0a2cb6f11ace5fbdeb3fdaecace37833"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ulthese.cls) \
+RPROVIDES:${PN} += "tex-ulthese.cls \
 texlive-ulthese"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,19 +24,19 @@ ed \
 findutils \
 grep \
 sed \
-tex(babel.sty) \
-tex(chapterbib.sty) \
-tex(etoolbox.sty) \
-tex(fontenc.sty) \
-tex(fontspec.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(ifxetex.sty) \
-tex(memoir.cls) \
-tex(natbib.sty) \
-tex(numprint.sty) \
-tex(textcomp.sty) \
-tex(xcolor.sty) \
+tex-babel.sty \
+tex-chapterbib.sty \
+tex-etoolbox.sty \
+tex-fontenc.sty \
+tex-fontspec.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-ifxetex.sty \
+tex-memoir.cls \
+tex-natbib.sty \
+tex-numprint.sty \
+tex-textcomp.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

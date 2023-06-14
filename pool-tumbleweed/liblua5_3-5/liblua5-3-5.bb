@@ -16,16 +16,15 @@ PV = "5.3.6"
 RPM_NAME = "liblua5_3-5-5.3.6-2.3.aarch64.rpm"
 RPM_HASH = "76d602fc095dc6bd1632f15dff6f80bc51ae19c0a089e48445722d9b310484fda1b5b1aa9c2760d8dd7a7bc3d8fbd365365fc3b4cae18307be5098341c71d836"
 
-RPROVIDES:${PN} += "liblua.so.5.3()(64bit) \
-liblua5.3.so.5()(64bit) \
-liblua5_3 \
-liblua5_3-5 \
-liblua5_3-5(aarch-64) \
+RPROVIDES:${PN} += "liblua.so.5.3 \
+liblua5-3 \
+liblua5-3-5 \
+liblua5.3.so.5 \
 lua53-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

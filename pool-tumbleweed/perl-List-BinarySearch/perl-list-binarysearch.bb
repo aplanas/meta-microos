@@ -46,11 +46,11 @@ RPM_NAME = "perl-List-BinarySearch-0.25-1.13.noarch.rpm"
 RPM_HASH = "783faa456b9c214724e29ce6919b4a1c26db5c922a2fc087fb326d7226d140b529e22a867773303ec8e6acba86694449d6735858d34038773643221a58cbe0ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(List::BinarySearch) \
-perl(List::BinarySearch::PP) \
+RPROVIDES:${PN} += "perl-List--BinarySearch \
+perl-List--BinarySearch--PP \
 perl-List-BinarySearch"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(List::BinarySearch::XS)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-List--BinarySearch--XS"
 
 inherit rpm

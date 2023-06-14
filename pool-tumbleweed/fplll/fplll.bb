@@ -12,16 +12,15 @@ PV = "5.4.4"
 RPM_NAME = "fplll-5.4.4-1.3.aarch64.rpm"
 RPM_HASH = "3be25086ec55c7c22aaf62342407c7cc4ebd4cdfd9f4ef391c7125dec667b6b0d5b2cf2e9a80eea366b8fae3fa5453067c0c00b2efd73fee124e58652fb63e23"
 
-RPROVIDES:${PN} += "fplll \
-fplll(aarch-64)"
+RPROVIDES:${PN} += "fplll"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfplll.so.8()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmpfr.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfplll.so.8 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libm.so.6 \
+libmpfr.so.6 \
+libstdc++.so.6"
 
 inherit rpm

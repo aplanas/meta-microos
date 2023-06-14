@@ -22,30 +22,27 @@ PV = "0.9.16"
 RPM_NAME = "x11vnc-0.9.16-2.13.aarch64.rpm"
 RPM_HASH = "96c876d5dfc6508d9caf71f7c66a5b04a4bb70cd761dd16c422f45dc78dea1b30e4b33fbb9755a2871f1db4d1f1ab68947afe1c2d6c4234a8701cbd5d6ee64bb"
 
-RPROVIDES:${PN} += "application() \
-application(x11vnc.desktop) \
-x11vnc \
-x11vnc(aarch-64)"
+RPROVIDES:${PN} += "x11vnc"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 iproute2 \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXtst.so.6()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
-libvncclient.so.1()(64bit) \
-libvncserver.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXtst.so.6 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+libssl.so.3 \
+libvncclient.so.1 \
+libvncserver.so.1"
 
 inherit rpm

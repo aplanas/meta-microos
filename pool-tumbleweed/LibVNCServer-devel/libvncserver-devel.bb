@@ -18,9 +18,8 @@ RPM_NAME = "LibVNCServer-devel-0.9.13-4.4.aarch64.rpm"
 RPM_HASH = "1231cd50eec54e09686738abcb3b3999b139c3b989ed9ba9b3b7fb4d24143b32f0094518e1652039792bc4a1ee188a098fa03ba431bc8f01968083a688a0bdbd"
 
 RPROVIDES:${PN} += "LibVNCServer-devel \
-LibVNCServer-devel(aarch-64) \
-pkgconfig(libvncclient) \
-pkgconfig(libvncserver)"
+pkgconfig-libvncclient \
+pkgconfig-libvncserver"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnutls-devel \

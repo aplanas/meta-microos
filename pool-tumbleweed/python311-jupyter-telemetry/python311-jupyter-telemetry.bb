@@ -12,11 +12,11 @@ RPM_NAME = "python311-jupyter-telemetry-0.1.0-1.12.noarch.rpm"
 RPM_HASH = "6fe1c3e29bfe511c79a900a2dd49168a68f43564830a3e51f65c10c0fcb93f4d32c4d186c9eaff1dc65d68b355cfa0cfd44051571cc5cac4bab67a7c96719833"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(jupyter-telemetry) \
+RPROVIDES:${PN} += "python3.11dist-jupyter-telemetry \
 python311-jupyter-telemetry \
-python3dist(jupyter-telemetry)"
+python3dist-jupyter-telemetry"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-jsonschema \
 python311-python-json-logger \
 python311-ruamel.yaml \

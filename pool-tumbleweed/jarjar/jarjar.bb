@@ -14,29 +14,29 @@ RPM_HASH = "3eb549f1b142d033060f2c37feae1e614300ff26f96d82930e56dbc7c63437a0db24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jarjar \
-mvn(com.googlecode.jarjar:jarjar) \
-mvn(com.googlecode.jarjar:jarjar:pom:) \
-mvn(com.tonicsystems:jarjar) \
-mvn(com.tonicsystems:jarjar-util) \
-mvn(com.tonicsystems:jarjar-util:pom:) \
-mvn(com.tonicsystems:jarjar:pom:) \
-mvn(jarjar:jarjar) \
-mvn(jarjar:jarjar-util) \
-mvn(jarjar:jarjar-util:pom:) \
-mvn(jarjar:jarjar:pom:) \
-mvn(org.gradle.jarjar:jarjar) \
-mvn(org.gradle.jarjar:jarjar:pom:) \
-mvn(tonic:jarjar) \
-mvn(tonic:jarjar-util) \
-mvn(tonic:jarjar-util:pom:) \
-mvn(tonic:jarjar:pom:)"
+mvn-com.googlecode.jarjar-jarjar \
+mvn-com.googlecode.jarjar-jarjar-pom- \
+mvn-com.tonicsystems-jarjar \
+mvn-com.tonicsystems-jarjar-pom- \
+mvn-com.tonicsystems-jarjar-util \
+mvn-com.tonicsystems-jarjar-util-pom- \
+mvn-jarjar-jarjar \
+mvn-jarjar-jarjar-pom- \
+mvn-jarjar-jarjar-util \
+mvn-jarjar-jarjar-util-pom- \
+mvn-org.gradle.jarjar-jarjar \
+mvn-org.gradle.jarjar-jarjar-pom- \
+mvn-tonic-jarjar \
+mvn-tonic-jarjar-pom- \
+mvn-tonic-jarjar-util \
+mvn-tonic-jarjar-util-pom-"
 
 RDEPENDS:${PN} += "gnu-regexp \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(org.ow2.asm:asm) \
-mvn(org.ow2.asm:asm-util) \
+mvn-org.ow2.asm-asm \
+mvn-org.ow2.asm-asm-util \
 objectweb-anttask \
 objectweb-asm"
 

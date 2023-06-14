@@ -9,11 +9,11 @@ RPM_HASH = "dcbf28e88a9c4f4bd8cefa26c477f9a69fba8e939b0182359c644db6c15f5bda5e9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-branca \
-python3.10dist(branca) \
+python3.10dist-branca \
 python310-branca \
-python3dist(branca)"
+python3dist-branca"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2"
 
 inherit rpm

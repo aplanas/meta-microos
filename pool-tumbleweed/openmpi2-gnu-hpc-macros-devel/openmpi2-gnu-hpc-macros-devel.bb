@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi2-gnu-hpc-macros-devel"
 
-RDEPENDS:${PN} += "openmpi_2_1_6-gnu-hpc-macros-devel"
+RDEPENDS:${PN} += "openmpi-2-1-6-gnu-hpc-macros-devel"
 
 inherit rpm

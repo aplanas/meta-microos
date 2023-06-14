@@ -11,12 +11,11 @@ RPM_NAME = "libfreehand-devel-0.1.2-2.18.aarch64.rpm"
 RPM_HASH = "51975e2314991e2587c84fb5645a6d354d0d3e3eab324be33eefb1c0efdec508ca1327447c8dfcb11d4edbce27dfbaddb5a8472943f4a89b0b149821b35cf1ce"
 
 RPROVIDES:${PN} += "libfreehand-devel \
-libfreehand-devel(aarch-64) \
-pkgconfig(libfreehand-0.1)"
+pkgconfig-libfreehand-0.1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libfreehand-0_1-1 \
-pkgconfig(librevenge-0.0) \
-pkgconfig(zlib)"
+libfreehand-0-1-1 \
+pkgconfig-librevenge-0.0 \
+pkgconfig-zlib"
 
 inherit rpm

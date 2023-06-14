@@ -9,11 +9,11 @@ RPM_HASH = "5f236db99d96368b935c7c0b6d917ba2597cc9ae217dad847f0db87a93a4bed11e89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rfc3339-validator \
-python3.10dist(rfc3339-validator) \
+python3.10dist-rfc3339-validator \
 python310-rfc3339-validator \
-python3dist(rfc3339-validator)"
+python3dist-rfc3339-validator"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

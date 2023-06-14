@@ -16,20 +16,15 @@ RPM_NAME = "variety-0.8.10-1.1.noarch.rpm"
 RPM_HASH = "094fc75efe36a1b1be36f08eae35dadfefd18a553e2b7486c24d5e5062589aa5d09027705f4603ca372a9ef3ae49bd01dec986b57de6a75afb34ecdf2cae234a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(variety.desktop) \
-metainfo() \
-metainfo(variety.appdata.xml) \
-mimehandler(text/uri-list) \
-python3.10dist(variety) \
-python3dist(variety) \
+RPROVIDES:${PN} += "python3.10dist-variety \
+python3dist-variety \
 variety"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ImageMagick \
 libnotify4 \
-python(abi) \
+python-abi \
 python3-Pillow \
 python3-beautifulsoup4 \
 python3-configobj \
@@ -41,17 +36,17 @@ python3-lxml \
 python3-pycairo \
 python3-pycurl \
 python3-requests \
-typelib(AppIndicator3) \
-typelib(GExiv2) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Notify) \
-typelib(Pango) \
-typelib(PangoCairo) \
+typelib-AppIndicator3 \
+typelib-GExiv2 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-Notify \
+typelib-Pango \
+typelib-PangoCairo \
 yelp"
 
 inherit rpm

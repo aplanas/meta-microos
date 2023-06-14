@@ -15,8 +15,7 @@ RPM_NAME = "rhash-devel-1.4.3-1.5.aarch64.rpm"
 RPM_HASH = "74709069a054165482e6e6d8f194252b827bd116fc51b3c27ba56f1c91c48206508273b5e6239f66cd1c9efad79ff5153ac6849d10d122da9e9dcb0c00faacda"
 
 RPROVIDES:${PN} += "librhash-devel \
-rhash-devel \
-rhash-devel(aarch-64)"
+rhash-devel"
 
 RDEPENDS:${PN} += "librhash0"
 

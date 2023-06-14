@@ -12,11 +12,11 @@ RPM_HASH = "5de717dd9ea5bb0e6e17ca67ba839dfef12e2d2a67990876a690c425f493d9f2391c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pypsexec \
-python3.10dist(pypsexec) \
+python3.10dist-pypsexec \
 python310-pypsexec \
-python3dist(pypsexec)"
+python3dist-pypsexec"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-smbprotocol"
 
 inherit rpm

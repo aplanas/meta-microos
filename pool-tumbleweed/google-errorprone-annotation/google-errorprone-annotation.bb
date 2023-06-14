@@ -9,11 +9,11 @@ RPM_HASH = "3838242cc47f042ea9b5575f0d98eedc3e0b0706f120c1071e3e396132a5b031bc7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-errorprone-annotation \
-mvn(com.google.errorprone:error_prone_annotation) \
-mvn(com.google.errorprone:error_prone_annotation:pom:)"
+mvn-com.google.errorprone-error-prone-annotation \
+mvn-com.google.errorprone-error-prone-annotation-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.google.guava:guava)"
+mvn-com.google.guava-guava"
 
 inherit rpm

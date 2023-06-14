@@ -16,12 +16,11 @@ PV = "3.1+git7"
 RPM_NAME = "coxeter-3.1+git7-1.11.aarch64.rpm"
 RPM_HASH = "e4beed23f7b15fc1338a3f3a77116259fcc52e058296ae29ca7369ed48e047f04dcca8010c47d0914dd256c2f1f4d5a35856b4687ad816eeec5b8f3251f3b3f9"
 
-RPROVIDES:${PN} += "coxeter \
-coxeter(aarch-64)"
+RPROVIDES:${PN} += "coxeter"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

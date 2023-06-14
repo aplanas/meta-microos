@@ -11,7 +11,7 @@ RPM_NAME = "texlive-context-transliterator-2023.204.svn61127-54.1.noarch.rpm"
 RPM_HASH = "bc0a896bda3974f268bfad08c9ded351c34cd2a0eca924576667d0c20594b66eedaee905102a2d66de18e39baaf41de078e99441d7f0ec2ce6502bfbf141ef9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(t-transliterator.tex) \
+RPROVIDES:${PN} += "tex-t-transliterator.tex \
 texlive-context-transliterator"
 
 RDEPENDS:${PN} += "/bin/sh \

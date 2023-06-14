@@ -11,11 +11,11 @@ RPM_HASH = "536dd3a74b75e58591053ce5587dd41f3e3daa5ab012b0fbec3b4575684abcd4d04b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-GooseMPL \
-python3.10dist(goosempl) \
+python3.10dist-goosempl \
 python310-GooseMPL \
-python3dist(goosempl)"
+python3dist-goosempl"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-deprecation \
 python310-matplotlib \

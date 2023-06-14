@@ -12,15 +12,14 @@ PV = "2.8.1"
 RPM_NAME = "libcacard0-2.8.1-1.7.aarch64.rpm"
 RPM_HASH = "9192e10fdac24ee4dcf0f216cbe827ce241c8d34da6a4fa4bef821b6233967cfe0e0a6a1301e8061c8e920bdebc688ab420f53e6290cfe63799db28fcfaa0e98"
 
-RPROVIDES:${PN} += "libcacard.so.0()(64bit) \
-libcacard0 \
-libcacard0(aarch-64)"
+RPROVIDES:${PN} += "libcacard.so.0 \
+libcacard0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libnspr4.so \
+libnss3.so"
 
 inherit rpm

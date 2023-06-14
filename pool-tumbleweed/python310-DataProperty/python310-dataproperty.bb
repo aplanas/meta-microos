@@ -9,11 +9,11 @@ RPM_HASH = "13c7509d9404412c398adfc9e318391f6e1e32331fd5226aeda6536e0a54570309c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-DataProperty \
-python3.10dist(dataproperty) \
+python3.10dist-dataproperty \
 python310-DataProperty \
-python3dist(dataproperty)"
+python3dist-dataproperty"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-mbstrdecoder \
 python310-typepy"
 

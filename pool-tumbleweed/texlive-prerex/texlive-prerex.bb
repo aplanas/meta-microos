@@ -15,7 +15,7 @@ RPM_NAME = "texlive-prerex-2023.201.svn54512-52.1.noarch.rpm"
 RPM_HASH = "a88ef84909b3d9d0b85abe1e7283c8dfeaf382f53b2380efc908d584ff29e3f5244981d8dd316275bc2587ea2acf2d1db096dd584550adb066f7795bdf2e3262"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(prerex.sty) \
+RPROVIDES:${PN} += "tex-prerex.sty \
 texlive-prerex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,13 +24,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
-tex(hyperref.sty) \
-tex(pgf.sty) \
-tex(relsize.sty) \
-tex(textcomp.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
+tex-calc.sty \
+tex-hyperref.sty \
+tex-pgf.sty \
+tex-relsize.sty \
+tex-textcomp.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

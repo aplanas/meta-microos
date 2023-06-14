@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyusb \
 python3-usb \
-python3.10dist(pyusb) \
+python3.10dist-pyusb \
 python310-pyusb \
 python310-usb \
-python3dist(pyusb)"
+python3dist-pyusb"
 
-RDEPENDS:${PN} += "libusb-1_0-0 \
-python(abi)"
+RDEPENDS:${PN} += "libusb-1-0-0 \
+python-abi"
 
 inherit rpm

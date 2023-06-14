@@ -18,31 +18,31 @@ RPM_NAME = "perl-Cache-Cache-1.08-1.26.noarch.rpm"
 RPM_HASH = "ad43445fa29d38af61134febc13c8628382294bb7770d0d62a24703f5168901e54dba4663fe5e27b4a0c22b3e1d00f768806fd875f6b1785f5eaab7a763d560f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Cache::BaseCache) \
-perl(Cache::BaseCacheTester) \
-perl(Cache::Cache) \
-perl(Cache::CacheMetaData) \
-perl(Cache::CacheSizer) \
-perl(Cache::CacheTester) \
-perl(Cache::CacheUtils) \
-perl(Cache::FileBackend) \
-perl(Cache::FileCache) \
-perl(Cache::MemoryBackend) \
-perl(Cache::MemoryCache) \
-perl(Cache::NullCache) \
-perl(Cache::Object) \
-perl(Cache::SharedMemoryBackend) \
-perl(Cache::SharedMemoryCache) \
-perl(Cache::SizeAwareCache) \
-perl(Cache::SizeAwareCacheTester) \
-perl(Cache::SizeAwareFileCache) \
-perl(Cache::SizeAwareMemoryCache) \
-perl(Cache::SizeAwareSharedMemoryCache) \
+RPROVIDES:${PN} += "perl-Cache--BaseCache \
+perl-Cache--BaseCacheTester \
+perl-Cache--Cache \
+perl-Cache--CacheMetaData \
+perl-Cache--CacheSizer \
+perl-Cache--CacheTester \
+perl-Cache--CacheUtils \
+perl-Cache--FileBackend \
+perl-Cache--FileCache \
+perl-Cache--MemoryBackend \
+perl-Cache--MemoryCache \
+perl-Cache--NullCache \
+perl-Cache--Object \
+perl-Cache--SharedMemoryBackend \
+perl-Cache--SharedMemoryCache \
+perl-Cache--SizeAwareCache \
+perl-Cache--SizeAwareCacheTester \
+perl-Cache--SizeAwareFileCache \
+perl-Cache--SizeAwareMemoryCache \
+perl-Cache--SizeAwareSharedMemoryCache \
 perl-Cache-Cache"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Digest::SHA1) \
-perl(Error) \
-perl(IPC::ShareLite)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Digest--SHA1 \
+perl-Error \
+perl-IPC--ShareLite"
 
 inherit rpm

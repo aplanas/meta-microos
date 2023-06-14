@@ -13,13 +13,12 @@ PV = "1.2.13"
 RPM_NAME = "libxine2-jack-1.2.13-2.2.aarch64.rpm"
 RPM_HASH = "2845a7409fce9a84757762bab01e23f71347e41238452c9d97f866441265b07388743a8546b9739d56759f62a383ee9d2c57ef81a93cdb54a0e8baf56532aeaf"
 
-RPROVIDES:${PN} += "libxine2-jack \
-libxine2-jack(aarch-64)"
+RPROVIDES:${PN} += "libxine2-jack"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjack.so.0()(64bit) \
-libxine.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjack.so.0 \
+libxine.so.2 \
 libxine2"
 
 inherit rpm

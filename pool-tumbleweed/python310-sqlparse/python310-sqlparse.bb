@@ -10,13 +10,13 @@ RPM_HASH = "073ec2e40e50935318c0d901edeb90a8604a11b7efaecb209227fcc7c0c7ccc24ca5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sqlparse \
-python3.10dist(sqlparse) \
+python3.10dist-sqlparse \
 python310-sqlparse \
-python3dist(sqlparse)"
+python3dist-sqlparse"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

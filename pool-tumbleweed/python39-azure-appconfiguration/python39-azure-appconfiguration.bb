@@ -15,11 +15,11 @@ RPM_NAME = "python39-azure-appconfiguration-1.4.0-1.3.noarch.rpm"
 RPM_HASH = "a4bc142971ea8378a4650bac810f68dec266d1dcc355df72e2fa55ce5a659c6df2b7c00241fb4704e45c25bfd896286c415bd4cfeeeb33606c2fbf93d1c9e618"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-appconfiguration) \
+RPROVIDES:${PN} += "python3.9dist-azure-appconfiguration \
 python39-azure-appconfiguration \
-python3dist(azure-appconfiguration)"
+python3dist-azure-appconfiguration"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-core \
 python39-azure-nspkg \
 python39-isodate"

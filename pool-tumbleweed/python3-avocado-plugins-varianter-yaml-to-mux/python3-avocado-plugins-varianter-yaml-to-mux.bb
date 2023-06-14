@@ -10,10 +10,10 @@ RPM_HASH = "d2dbf1ce88471b4c32b13e49831a220098449f44997880a12f14746a38bd97a69188
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-varianter-yaml-to-mux \
-python3.10dist(avocado-framework-plugin-varianter-yaml-to-mux) \
-python3dist(avocado-framework-plugin-varianter-yaml-to-mux)"
+python3.10dist-avocado-framework-plugin-varianter-yaml-to-mux \
+python3dist-avocado-framework-plugin-varianter-yaml-to-mux"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-avocado \
 python3-pyaml"
 

@@ -19,10 +19,10 @@ RPM_NAME = "perl-ExtUtils-CChecker-0.11-1.9.noarch.rpm"
 RPM_HASH = "f656fe5dd2ac5e60fe944db3a711cf1154a34ea66ea900320c2aaef9d835ddd0e514c6603734152a093ec5058ea8941eb47bdaf37db9f82390c6831df8714fd8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(ExtUtils::CChecker) \
+RPROVIDES:${PN} += "perl-ExtUtils--CChecker \
 perl-ExtUtils-CChecker"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(ExtUtils::CBuilder)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-ExtUtils--CBuilder"
 
 inherit rpm

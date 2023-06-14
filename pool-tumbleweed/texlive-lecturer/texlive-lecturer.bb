@@ -27,15 +27,15 @@ RPM_NAME = "texlive-lecturer-2023.201.svn23916-54.1.noarch.rpm"
 RPM_HASH = "9c786099ee31a18a4cdad90c72670cf72bfdcebd42290e3728b95c6ef7ac47ea7ddc741621acfbd975b272e18e85467327e6e5d30114c6fbb3ae0d042dffff74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lecturer.sty) \
-tex(lecturer.tex) \
-tex(ltr-areas.tex) \
-tex(ltr-graphics.tex) \
-tex(ltr-job.tex) \
-tex(ltr-navigation.tex) \
-tex(ltr-slides.tex) \
-tex(ltr-steps.tex) \
-tex(t-lecturer.tex) \
+RPROVIDES:${PN} += "tex-lecturer.sty \
+tex-lecturer.tex \
+tex-ltr-areas.tex \
+tex-ltr-graphics.tex \
+tex-ltr-job.tex \
+tex-ltr-navigation.tex \
+tex-ltr-slides.tex \
+tex-ltr-steps.tex \
+tex-t-lecturer.tex \
 texlive-lecturer"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -14,15 +14,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dbusmock \
 python3-python-dbusmock \
-python3.10dist(python-dbusmock) \
+python3.10dist-python-dbusmock \
 python310-dbusmock \
 python310-python-dbusmock \
-python3dist(python-dbusmock)"
+python3dist-python-dbusmock"
 
 RDEPENDS:${PN} += "dbus-1-x11 \
-python(abi) \
+python-abi \
 python310-dbus-python \
 python310-gobject \
-typelib(GLib)"
+typelib-GLib"
 
 inherit rpm

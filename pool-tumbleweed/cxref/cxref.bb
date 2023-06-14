@@ -53,11 +53,10 @@ PV = "1.6e"
 RPM_NAME = "cxref-1.6e-2.25.aarch64.rpm"
 RPM_HASH = "380fdac00aa91068ae0038cf67c512569fab3e19f6fac3aacffb9a02184d500d555b5ab55ff9e42c97a3eb10365937d0f3ee2b40c6bcf989eb2092c7b4572d14"
 
-RPROVIDES:${PN} += "cxref \
-cxref(aarch-64)"
+RPROVIDES:${PN} += "cxref"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

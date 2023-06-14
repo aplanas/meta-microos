@@ -13,8 +13,8 @@ RPM_NAME = "texlive-flippdf-2023.201.2.0bsvn56782-52.1.noarch.rpm"
 RPM_HASH = "28416b78818aa7cb7ed782f77c8b66e08f4e33d409fce8cd58a9a17f18dba7d7fbd6322c09579234665b2e8087df1bcb7966fc7871096f270d255325e18a5058"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(flippdf-1x.sty) \
-tex(flippdf.sty) \
+RPROVIDES:${PN} += "tex-flippdf-1x.sty \
+tex-flippdf.sty \
 texlive-flippdf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,8 +23,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(everypage.sty) \
-tex(iftex.sty) \
+tex-everypage.sty \
+tex-iftex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

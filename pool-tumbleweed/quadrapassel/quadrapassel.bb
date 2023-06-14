@@ -11,26 +11,21 @@ PV = "40.2"
 RPM_NAME = "quadrapassel-40.2-1.10.aarch64.rpm"
 RPM_HASH = "e015963f31480d066958af69dfb83aeba0958298ea18c3512ae8a0ca1c0bfbeeb416810371349ada213a32b3934225315b86d0fe790f8eab8392dec11fb5014e"
 
-RPROVIDES:${PN} += "application() \
-application(org.gnome.Quadrapassel.desktop) \
-metainfo() \
-metainfo(org.gnome.Quadrapassel.appdata.xml) \
-quadrapassel \
-quadrapassel(aarch-64)"
+RPROVIDES:${PN} += "quadrapassel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libclutter-1.0.so.0()(64bit) \
-libclutter-gtk-1.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsound.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmanette-0.2.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libclutter-1.0.so.0 \
+libclutter-gtk-1.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgsound.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libmanette-0.2.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0"
 
 inherit rpm

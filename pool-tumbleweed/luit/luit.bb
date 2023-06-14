@@ -10,11 +10,10 @@ PV = "20221028"
 RPM_NAME = "luit-20221028-1.2.aarch64.rpm"
 RPM_HASH = "bf5f047636826b0c12d93d76d308ec7e8b29733e012b478f7856f8391de33e5bd9f492380031291fb4601641a156c67cab6dfa538cc6e3715fb55ef17857cea2"
 
-RPROVIDES:${PN} += "luit \
-luit(aarch-64)"
+RPROVIDES:${PN} += "luit"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1"
 
 inherit rpm

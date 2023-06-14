@@ -16,11 +16,7 @@ PV = "2022.27"
 RPM_NAME = "xmined-2022.27-1.2.aarch64.rpm"
 RPM_HASH = "9105538ce62f86d4760db1e0fe00c8ed519fd6e1b51e421a2c4dec6eb93314f8720affaac8cdcb587b9ed0717939902bd3607e490ed92b646a98c7c71daf15e4"
 
-RPROVIDES:${PN} += "application() \
-application(mined.desktop) \
-mimehandler(text/plain) \
-xmined \
-xmined(aarch-64)"
+RPROVIDES:${PN} += "xmined"
 
 RDEPENDS:${PN} += "/bin/sh \
 mined \

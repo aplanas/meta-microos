@@ -12,7 +12,7 @@ RPM_NAME = "texlive-hvpygmentex-2023.201.0.0.01svn62405-52.1.noarch.rpm"
 RPM_HASH = "0a791563c5d946b9bd0afefb3e55b10fdc915fdd01c01d16e61af517f78c0d193f833ca99f25259ba1fd128e668cc0ceeb88655b0e28618595ada65b6e104116"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hvpygmentex.sty) \
+RPROVIDES:${PN} += "tex-hvpygmentex.sty \
 texlive-hvpygmentex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,14 +21,14 @@ ed \
 findutils \
 grep \
 sed \
-tex(caption.sty) \
-tex(color.sty) \
-tex(efbox.sty) \
-tex(fancyvrb.sty) \
-tex(ifthen.sty) \
-tex(mdframed.sty) \
-tex(pgfkeys.sty) \
-tex(shellesc.sty) \
+tex-caption.sty \
+tex-color.sty \
+tex-efbox.sty \
+tex-fancyvrb.sty \
+tex-ifthen.sty \
+tex-mdframed.sty \
+tex-pgfkeys.sty \
+tex-shellesc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

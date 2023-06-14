@@ -10,14 +10,14 @@ RPM_HASH = "99943aa9a69b0ade9eed2f55dc5e493d22c607f5068b1d1df21133f3a13b4c9eac36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msm \
-python3.10dist(msm) \
+python3.10dist-msm \
 python310-msm \
-python3dist(msm)"
+python3dist-msm"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 patch \
-python(abi) \
+python-abi \
 python310-GitPython \
 python310-PyYAML \
 python310-fasteners \

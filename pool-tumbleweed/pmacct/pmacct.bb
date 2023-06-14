@@ -14,21 +14,19 @@ PV = "1.7.8"
 RPM_NAME = "pmacct-1.7.8-1.4.aarch64.rpm"
 RPM_HASH = "8bc5aafa4cf989785ec964f55ad77dcc23a801312f93f70f8f09dd081820a046b025a8dd36a39fe935086b181777cb29d7968e0e985707d2b1fb40f5d3316995"
 
-RPROVIDES:${PN} += "config(pmacct) \
-pmacct \
-pmacct(aarch-64)"
+RPROVIDES:${PN} += "config-pmacct \
+pmacct"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjansson.so.4()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libmaxminddb.so.0()(64bit) \
-libnetfilter_log.so.1()(64bit) \
-libpcap.so.1()(64bit) \
-libpq.so.5()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjansson.so.4 \
+libmariadb.so.3 \
+libmaxminddb.so.0 \
+libnetfilter-log.so.1 \
+libpcap.so.1 \
+libpq.so.5 \
+libsqlite3.so.0 \
+libstdc++.so.6"
 
 inherit rpm

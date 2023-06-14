@@ -22,8 +22,7 @@ PV = "1.1.4"
 RPM_NAME = "ocaml-facile-1.1.4-2.11.aarch64.rpm"
 RPM_HASH = "ccbecf93e0e900dc94a9ca059e8a3e7125a7f7023a81d68d9ae9a43f39834ba22cb2c4534759bea4c889e24820fb8d6af18ae6adde07d7fb855fc0f0bd99d1e5"
 
-RPROVIDES:${PN} += "ocaml-facile \
-ocaml-facile(aarch-64)"
+RPROVIDES:${PN} += "ocaml-facile"
 
 RDEPENDS:${PN} += ""
 

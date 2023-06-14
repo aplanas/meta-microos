@@ -17,11 +17,11 @@ RPM_HASH = "5e37340d894ed8179088f4e4f069f83da975f3f85c1b77a4405c581ed2fe1459e60b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-thLib \
-python3.10dist(thlib) \
+python3.10dist-thlib \
 python310-thLib \
-python3dist(thlib)"
+python3dist-thlib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-pandas \

@@ -29,11 +29,11 @@ RPM_NAME = "python311-azure-security-attestation-1.0.0-1.8.noarch.rpm"
 RPM_HASH = "f9f156bd9c25b055d9fe34cfb5ebd8c7ae085a738a9dedd762ea7c1edfe709095aadd01da15339aab9b9a896260d7ac65740db53ac5cf389afffbe481dcd6841"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-security-attestation) \
+RPROVIDES:${PN} += "python3.11dist-azure-security-attestation \
 python311-azure-security-attestation \
-python3dist(azure-security-attestation)"
+python3dist-azure-security-attestation"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-nspkg \
 python311-azure-security-nspkg \

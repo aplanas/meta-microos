@@ -12,11 +12,11 @@ RPM_HASH = "e15c5d9ae46fc052eea6a76a94c61a2b19761a8730cd56a5c8fd43e39301b3c27831
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tableprint \
-python3.10dist(tableprint) \
+python3.10dist-tableprint \
 python310-tableprint \
-python3dist(tableprint)"
+python3dist-tableprint"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-wcwidth"
 

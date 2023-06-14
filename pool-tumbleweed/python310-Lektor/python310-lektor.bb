@@ -11,13 +11,13 @@ RPM_HASH = "e79131a0a7521c7c9a9872082497d8a781b73383cde9e745ccf89cc063a99517faf3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Lektor \
-python3.10dist(lektor) \
+python3.10dist-lektor \
 python310-Lektor \
-python3dist(lektor)"
+python3dist-lektor"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Babel \
 python310-ExifRead \
 python310-Flask \

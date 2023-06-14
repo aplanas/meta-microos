@@ -15,9 +15,8 @@ RPM_NAME = "ffcall-2.4-2.7.aarch64.rpm"
 RPM_HASH = "6814352954aa1f138e7c8cfd98cbd1cb3ada31ec86811a277a1b18136ab8688154bcefdeaeb27ddf60bd1bf81e45ff03e3e13b08c7cb2ecddbe7e6287378d3f8"
 
 RPROVIDES:${PN} += "ffcall \
-ffcall(aarch-64) \
 ffcall-devel \
-rpm_macro(ffcall_arches)"
+rpm-macro-ffcall-arches"
 
 RDEPENDS:${PN} += "libavcall1 \
 libcallback1 \

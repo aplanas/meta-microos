@@ -11,11 +11,11 @@ RPM_HASH = "197b1aa7994bcfcca7ec82ebe114cfc7d1a83fce987a33083b7abe3d75a850c6a8f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PsyLab \
-python3.10dist(psylab) \
+python3.10dist-psylab \
 python310-PsyLab \
-python3dist(psylab)"
+python3dist-psylab"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-scipy"

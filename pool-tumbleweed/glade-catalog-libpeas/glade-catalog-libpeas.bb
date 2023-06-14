@@ -15,6 +15,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glade-catalog-libpeas"
 
 RDEPENDS:${PN} += "glade \
-libpeas-gtk-1_0-0"
+libpeas-gtk-1-0-0"
 
 inherit rpm

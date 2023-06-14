@@ -9,11 +9,11 @@ RPM_HASH = "a6afaf243e3b2e58b77c3caa8db40e0268005898bbef37cf24fe20046e8f5951c891
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-diffimg \
-python3.10dist(diffimg) \
+python3.10dist-diffimg \
 python310-diffimg \
-python3dist(diffimg)"
+python3dist-diffimg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow"
 
 inherit rpm

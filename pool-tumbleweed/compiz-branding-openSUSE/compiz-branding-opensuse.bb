@@ -11,8 +11,7 @@ RPM_NAME = "compiz-branding-openSUSE-0.8.18-2.8.aarch64.rpm"
 RPM_HASH = "ca154e97f18fed49a56264b7c24d32b8029dc9cf8ad20c104edff4cb856f4ca16c0cccfb8c414d49a5b0a37d39f25f135127760572edfcc3a268a58b2f025599"
 
 RPROVIDES:${PN} += "compiz-branding \
-compiz-branding-openSUSE \
-compiz-branding-openSUSE(aarch-64)"
+compiz-branding-openSUSE"
 
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \

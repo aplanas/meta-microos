@@ -12,7 +12,7 @@ RPM_NAME = "texlive-puyotikz-2023.201.1.0.1svn57254-53.1.noarch.rpm"
 RPM_HASH = "1efc786d4c5ef1e312a5f7b44a9d1543ad3ab2397ba7c344d16f1adf2fca46739d98a05b3b39848f349a509121d3869fd15676e622137353cbfb36d8e333fe10"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(puyotikz.sty) \
+RPROVIDES:${PN} += "tex-puyotikz.sty \
 texlive-puyotikz"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(pythontex.sty) \
-tex(tikz.sty) \
+tex-keyval.sty \
+tex-pythontex.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

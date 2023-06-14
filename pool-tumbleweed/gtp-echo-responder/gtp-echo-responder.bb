@@ -8,10 +8,9 @@ PV = "1.10.1"
 RPM_NAME = "gtp-echo-responder-1.10.1-1.1.aarch64.rpm"
 RPM_HASH = "51893decdbfdfced363ce5e35fa60601e0c19a74a5463f607d0e3f6bc7d23599fa7963ac034f8c2542766a8e299a5d41ec7df1a21b2fc0d4c376646eeef4879f"
 
-RPROVIDES:${PN} += "gtp-echo-responder \
-gtp-echo-responder(aarch-64)"
+RPROVIDES:${PN} += "gtp-echo-responder"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

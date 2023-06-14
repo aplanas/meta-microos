@@ -9,19 +9,18 @@ PV = "2.76.0"
 RPM_NAME = "libgiomm-2_68-1-2.76.0-1.1.aarch64.rpm"
 RPM_HASH = "5e6633ae30c6806d1e4767a5116cbb3915e1efd67e4fcbdeb87003d528e381301aeb1a97e3ed76fc0e76a7231fbf6c777b86268869e62e5a3d5288dc20500faa"
 
-RPROVIDES:${PN} += "libgiomm-2.68.so.1()(64bit) \
-libgiomm-2_68-1 \
-libgiomm-2_68-1(aarch-64)"
+RPROVIDES:${PN} += "libgiomm-2-68-1 \
+libgiomm-2.68.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.68.so.1()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsigc-3.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libglibmm-2.68.so.1 \
+libgobject-2.0.so.0 \
+libsigc-3.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

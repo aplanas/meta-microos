@@ -14,11 +14,11 @@ RPM_HASH = "662c22dabd95930bed00c922fbc29b46000fea01c362c2dd1ebb170673375408cb01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-terminado \
-python3.10dist(terminado) \
+python3.10dist-terminado \
 python310-terminado \
-python3dist(terminado)"
+python3dist-terminado"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ptyprocess \
 python310-tornado"
 

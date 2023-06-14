@@ -8,18 +8,17 @@ PV = "4.9"
 RPM_NAME = "systemtap-runtime-4.9-1.1.aarch64.rpm"
 RPM_HASH = "658a717da123084bfa2705900684c9a5ff4c42c0928c901b02f868c252b15ccef9b43509801ba18b4516561048a96406bc092cdd60c08995cf828660c99e8af5"
 
-RPROVIDES:${PN} += "systemtap-runtime \
-systemtap-runtime(aarch-64)"
+RPROVIDES:${PN} += "systemtap-runtime"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libelf.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libnspr4.so()(64bit) \
-libnss3.so()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libelf.so.1 \
+libgcc-s.so.1 \
+libm.so.6 \
+libnspr4.so \
+libnss3.so \
+libstdc++.so.6"
 
 inherit rpm

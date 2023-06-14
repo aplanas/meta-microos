@@ -9,11 +9,11 @@ RPM_HASH = "f2da4829af6c41ae3107712d556d2c119b32dec08863ba72f64c8612ea4ca5a6e0eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-curio \
-python3.10dist(pytest-curio) \
+python3.10dist-pytest-curio \
 python310-pytest-curio \
-python3dist(pytest-curio)"
+python3dist-pytest-curio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-curio \
 python310-pytest"
 

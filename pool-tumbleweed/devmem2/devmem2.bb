@@ -10,9 +10,8 @@ PV = "1.0"
 RPM_NAME = "devmem2-1.0-11.22.aarch64.rpm"
 RPM_HASH = "853223979c34bb8b8501c5be05a76bcb063315d2c18086eef898b04ef8e307de4e0a0c1c662db39b5969188fda4df37c2ebf0be3c3100e784f678074ab23563f"
 
-RPROVIDES:${PN} += "devmem2 \
-devmem2(aarch-64)"
+RPROVIDES:${PN} += "devmem2"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

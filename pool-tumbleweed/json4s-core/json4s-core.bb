@@ -11,14 +11,14 @@ RPM_HASH = "74c459b9b54cca50f568c9490295027036604beca5ce7663f5a67fc8cb6edf4f689b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-core \
-mvn(org.json4s:json4s-core_2.10) \
-mvn(org.json4s:json4s-core_2.10:pom:)"
+mvn-org.json4s-json4s-core-2.10 \
+mvn-org.json4s-json4s-core-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.thoughtworks.paranamer:paranamer) \
-mvn(org.json4s:json4s-ast_2.10) \
-mvn(org.json4s:json4s-scalap_2.10) \
-mvn(org.scala-lang:scala-library)"
+mvn-com.thoughtworks.paranamer-paranamer \
+mvn-org.json4s-json4s-ast-2.10 \
+mvn-org.json4s-json4s-scalap-2.10 \
+mvn-org.scala-lang-scala-library"
 
 inherit rpm

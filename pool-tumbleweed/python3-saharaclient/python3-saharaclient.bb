@@ -11,10 +11,10 @@ RPM_HASH = "278d18475e055ceb60489906d12d3b34cd5ddf565ece82a6942462b544242570e196
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-saharaclient \
-python3.10dist(python-saharaclient) \
-python3dist(python-saharaclient)"
+python3.10dist-python-saharaclient \
+python3dist-python-saharaclient"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-Babel \
 python3-keystoneauth1 \
 python3-openstackclient \

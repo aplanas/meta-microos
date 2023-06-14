@@ -11,14 +11,13 @@ PV = "5.10.1"
 RPM_NAME = "gwenhywfar-tools-5.10.1-1.4.aarch64.rpm"
 RPM_HASH = "b1052bf5999374b9bc40f31e42fff3809e002e2a5c488b33e569456fae4bd35226e7d60c5355753ba601e344904ab30779b05b788403ec20dfb76ea94f052eba"
 
-RPROVIDES:${PN} += "gwenhywfar-tools \
-gwenhywfar-tools(aarch-64)"
+RPROVIDES:${PN} += "gwenhywfar-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libgwenhywfar.so.79()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libgwenhywfar.so.79 \
 libgwenhywfar79 \
-libssl.so.3()(64bit)"
+libssl.so.3"
 
 inherit rpm

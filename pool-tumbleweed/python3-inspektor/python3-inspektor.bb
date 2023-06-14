@@ -13,12 +13,12 @@ RPM_HASH = "2a97f9dddb1e0e7d7e497615c0e9a03ea2ccde17c6d4080292be050e1b73af626b03
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-inspektor \
-python3.10dist(inspektor) \
-python3dist(inspektor)"
+python3.10dist-inspektor \
+python3dist-inspektor"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-astroid \
 python3-cliff \
 python3-cmd2 \

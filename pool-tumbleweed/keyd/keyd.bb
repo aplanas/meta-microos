@@ -12,12 +12,11 @@ PV = "2.4.3"
 RPM_NAME = "keyd-2.4.3-1.1.aarch64.rpm"
 RPM_HASH = "a642503c9b5113993468fb013eae09f14e5eca5d018cbc32c1452f9fa48aabcb6611fc92628929fa174a807ef3dcc84945d24592e10f87afefeaa91194606943"
 
-RPROVIDES:${PN} += "keyd \
-keyd(aarch-64)"
+RPROVIDES:${PN} += "keyd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-libc.so.6()(64bit) \
+libc.so.6 \
 python3-xlib \
 sed \
 shadow"

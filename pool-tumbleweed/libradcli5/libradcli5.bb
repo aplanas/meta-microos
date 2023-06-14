@@ -10,17 +10,13 @@ PV = "1.3.1"
 RPM_NAME = "libradcli5-1.3.1-1.3.aarch64.rpm"
 RPM_HASH = "e1004cfaf831ec668a95ba73924016e75f89e8de02dee526d5c1ccf0b261dea448b4309e5e99cdfb436c37eebcd801dd9bee455caa4bd946421e941e685ce7a3"
 
-RPROVIDES:${PN} += "libradcli.so.5()(64bit) \
-libradcli.so.5(RADCLI_5)(64bit) \
-libradcli5 \
-libradcli5(aarch-64)"
+RPROVIDES:${PN} += "libradcli.so.5 \
+libradcli5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libnettle.so.8()(64bit) \
-libnettle.so.8(NETTLE_8)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgnutls.so.30 \
+libnettle.so.8"
 
 inherit rpm

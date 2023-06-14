@@ -10,11 +10,11 @@ RPM_NAME = "python39-azure-cognitiveservices-knowledge-qnamaker-0.3.0-2.11.noarc
 RPM_HASH = "319ae38cf1124608bb9143de447a48de353f3411eff9510f9e52c81941a43450403307b2c04a4a672543e24ba609676ceeb1d78d06ea5d11f010ce3ea8960664"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-knowledge-qnamaker) \
+RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-knowledge-qnamaker \
 python39-azure-cognitiveservices-knowledge-qnamaker \
-python3dist(azure-cognitiveservices-knowledge-qnamaker)"
+python3dist-azure-cognitiveservices-knowledge-qnamaker"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-cognitiveservices-knowledge-nspkg \
 python39-azure-cognitiveservices-nspkg \
 python39-azure-common \

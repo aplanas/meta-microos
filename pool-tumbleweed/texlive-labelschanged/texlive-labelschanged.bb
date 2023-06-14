@@ -13,7 +13,7 @@ RPM_NAME = "texlive-labelschanged-2023.201.1.0svn46040-55.1.noarch.rpm"
 RPM_HASH = "46bd0c1deb1b0f2281b718f87aedcfdbf26cfd0394888b53ed048d06d9cf648e2939f05564f58a6e00c5e4b4f6a8bbf94b6c4e4a4ce5c48a457d0652870e2c2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(labelschanged.sty) \
+RPROVIDES:${PN} += "tex-labelschanged.sty \
 texlive-labelschanged"
 
 RDEPENDS:${PN} += "/bin/sh \

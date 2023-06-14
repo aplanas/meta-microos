@@ -14,18 +14,17 @@ RPM_HASH = "745d38c5d5fa161f59eb2a65a98a80435d2364b222e583e0a4df869fa64540807c0f
 
 RPROVIDES:${PN} += "libnco \
 libnco-5 \
-libnco-5.1.4.so()(64bit) \
-libnco-5_1_4 \
-libnco-5_1_4(aarch-64)"
+libnco-5-1-4 \
+libnco-5.1.4.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgomp.so.1()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libm.so.6()(64bit) \
-libnetcdf.so.19()(64bit) \
-libudunits2.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgomp.so.1 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libm.so.6 \
+libnetcdf.so.19 \
+libudunits2.so.0"
 
 inherit rpm

@@ -9,8 +9,7 @@ PV = "4.3.0.20230120"
 RPM_NAME = "cross-pru-newlib-devel-4.3.0.20230120-2.1.aarch64.rpm"
 RPM_HASH = "0cce460a9bc4fc9344792efd901c9908da7b6fa54dd5abad69c56c01fe2bb0172d8d46cc615cb000836a483eaa51d29266d64da8a5667bf65ee12600d6c50875"
 
-RPROVIDES:${PN} += "cross-pru-newlib-devel \
-cross-pru-newlib-devel(aarch-64)"
+RPROVIDES:${PN} += "cross-pru-newlib-devel"
 
 RDEPENDS:${PN} += ""
 

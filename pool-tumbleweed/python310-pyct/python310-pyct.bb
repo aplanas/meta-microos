@@ -21,13 +21,13 @@ RPM_HASH = "a97e4bdc2c241261d7128322843f3d2f558b84bac7613453c65ee1e6a33f3291641e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyct \
-python3.10dist(pyct) \
+python3.10dist-pyct \
 python310-pyct \
-python3dist(pyct)"
+python3dist-pyct"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyYAML \
 python310-param \
 python310-requests \

@@ -10,8 +10,8 @@ RPM_HASH = "a44dffd806e7e34a0d6fb3d6f1bd1f1a73ab9adc4987a09f9d5d2a34b1d83625b9f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-rex \
-rpm_macro(apache_rex_check) \
-rpm_macro(apache_rex_deps)"
+rpm-macro-apache-rex-check \
+rpm-macro-apache-rex-deps"
 
 RDEPENDS:${PN} += "/bin/bash \
 apache2-devel \

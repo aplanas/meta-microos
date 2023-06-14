@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hdf5-gnu-openmpi1-hpc-devel"
 
-RDEPENDS:${PN} += "hdf5_1_12_2-gnu-openmpi1-hpc-devel"
+RDEPENDS:${PN} += "hdf5-1-12-2-gnu-openmpi1-hpc-devel"
 
 inherit rpm

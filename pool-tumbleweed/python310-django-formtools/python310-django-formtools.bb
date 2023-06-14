@@ -10,11 +10,11 @@ RPM_HASH = "c9dee3ab6b4c1b819ee24d6052a5c0f2eaf6f8669ff7e103a3bf494e7395581ecf5a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-formtools \
-python3.10dist(django-formtools) \
+python3.10dist-django-formtools \
 python310-django-formtools \
-python3dist(django-formtools)"
+python3dist-django-formtools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

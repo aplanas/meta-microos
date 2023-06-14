@@ -14,11 +14,11 @@ RPM_HASH = "b7658eea15fdb9ab43512c24e145141b5bb9eedeae8f09048c02b0671798f30a1d02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-authorization \
-python3.10dist(azure-mgmt-authorization) \
+python3.10dist-azure-mgmt-authorization \
 python310-azure-mgmt-authorization \
-python3dist(azure-mgmt-authorization)"
+python3dist-azure-mgmt-authorization"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-nspkg \

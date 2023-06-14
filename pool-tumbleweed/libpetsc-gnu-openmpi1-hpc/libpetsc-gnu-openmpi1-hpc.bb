@@ -9,10 +9,9 @@ PV = "3.18.5"
 RPM_NAME = "libpetsc-gnu-openmpi1-hpc-3.18.5-1.1.aarch64.rpm"
 RPM_HASH = "5818a50aaf5d7e5ad300605707dec9cc217ae6ef8912141f4bfb70c84ec4ccc96287b4954903ba3d7cd7a81adb5e11b99c3ec4be75ccb3c7a1d0f688cf7657e9"
 
-RPROVIDES:${PN} += "libpetsc-gnu-openmpi1-hpc \
-libpetsc-gnu-openmpi1-hpc(aarch-64)"
+RPROVIDES:${PN} += "libpetsc-gnu-openmpi1-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-libpetsc_3_18_5-gnu-openmpi1-hpc"
+libpetsc-3-18-5-gnu-openmpi1-hpc"
 
 inherit rpm

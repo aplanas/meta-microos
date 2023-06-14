@@ -18,10 +18,9 @@ RPM_HASH = "2d59a09309a9cc24d6d09d5220126ca9307ca4fe19c6d86d77ada98c2143756eab29
 
 RPROVIDES:${PN} += "crash-kmp \
 crash-kmp-64kb \
-crash-kmp-64kb(aarch-64) \
-crash-kmp-64kb-k6.3.4_1 \
-kmod(crash.ko) \
-multiversion(kernel)"
+crash-kmp-64kb-k6.3.4-1 \
+kmod-crash.ko \
+multiversion-kernel"
 
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \

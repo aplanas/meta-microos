@@ -9,7 +9,7 @@ RPM_NAME = "texlive-turkmen-2023.201.0.0.2svn17748-52.1.noarch.rpm"
 RPM_HASH = "7124ec312760ea5468727a736c6a1d0c52be159e5a445f7850703a9730167bf3a87b145fd5b22e2dbc02907a94ef5c43b295c3feb88627bbd8ba5dbf9a80a554"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(turkmen.ldf) \
+RPROVIDES:${PN} += "tex-turkmen.ldf \
 texlive-turkmen"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -10,29 +10,29 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "duplicity-lang \
 duplicity-lang-all \
-locale(duplicity:cs_CZ) \
-locale(duplicity:de_AT) \
-locale(duplicity:de_DE) \
-locale(duplicity:el_GR) \
-locale(duplicity:en_AU) \
-locale(duplicity:en_GB) \
-locale(duplicity:en_US) \
-locale(duplicity:es_ES) \
-locale(duplicity:es_MX) \
-locale(duplicity:es_PR) \
-locale(duplicity:fi_FI) \
-locale(duplicity:fr_FR) \
-locale(duplicity:it_IT) \
-locale(duplicity:nl_BE) \
-locale(duplicity:pl_PL) \
-locale(duplicity:pt_BR) \
-locale(duplicity:pt_PT) \
-locale(duplicity:ru_RU) \
-locale(duplicity:tr_TR) \
-locale(duplicity:uk_UA) \
-locale(duplicity:zh_CN) \
-locale(duplicity:zh_HK) \
-locale(duplicity:zh_TW)"
+locale-duplicity-cs-CZ \
+locale-duplicity-de-AT \
+locale-duplicity-de-DE \
+locale-duplicity-el-GR \
+locale-duplicity-en-AU \
+locale-duplicity-en-GB \
+locale-duplicity-en-US \
+locale-duplicity-es-ES \
+locale-duplicity-es-MX \
+locale-duplicity-es-PR \
+locale-duplicity-fi-FI \
+locale-duplicity-fr-FR \
+locale-duplicity-it-IT \
+locale-duplicity-nl-BE \
+locale-duplicity-pl-PL \
+locale-duplicity-pt-BR \
+locale-duplicity-pt-PT \
+locale-duplicity-ru-RU \
+locale-duplicity-tr-TR \
+locale-duplicity-uk-UA \
+locale-duplicity-zh-CN \
+locale-duplicity-zh-HK \
+locale-duplicity-zh-TW"
 
 RDEPENDS:${PN} += "duplicity"
 

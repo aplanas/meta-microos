@@ -10,13 +10,13 @@ RPM_NAME = "python39-distributed-2023.3.2-2.1.noarch.rpm"
 RPM_HASH = "6efb1c9e16e6d2022b920226ccec4b49cc3e1b4d6ab9e6b3c4b5ebf764546aebbbb550f67cb9c1330ea40918c32a119392d4db4fb63bf304ff29ff88950d686f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(distributed) \
+RPROVIDES:${PN} += "python3.9dist-distributed \
 python39-distributed \
-python3dist(distributed)"
+python3dist-distributed"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-Jinja2 \
 python39-PyYAML \
 python39-click \

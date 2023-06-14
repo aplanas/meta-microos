@@ -12,16 +12,15 @@ PV = "2.7.1"
 RPM_NAME = "octave-nlopt_optimize-2.7.1-3.14.aarch64.rpm"
 RPM_HASH = "2e5b832eeb7218e3f46a40d3bc7d4c69c1c2f2b7971477cbab7683f1bcba7626d8efa3e087a79fe6f59bf6f26a943bde12546d4d1a0ad5b3366a847dc314a13c"
 
-RPROVIDES:${PN} += "octave-nlopt_optimize \
-octave-nlopt_optimize(aarch-64)"
+RPROVIDES:${PN} += "octave-nlopt-optimize"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libnlopt.so.0()(64bit) \
-liboctave.so.10()(64bit) \
-liboctinterp.so.11()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libnlopt.so.0 \
+liboctave.so.10 \
+liboctinterp.so.11 \
+libstdc++.so.6 \
 octave-cli"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "f58e5a319d71eb96a2b63b4f484b48de43f8675f37decc8b3382a36a5ddb5dd985ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto \
-mvn(com.google.auto:auto-parent:pom:)"
+mvn-com.google.auto-auto-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -9,12 +9,11 @@ PV = "2.14"
 RPM_NAME = "perl-Crypt-Blowfish-2.14-5.36.aarch64.rpm"
 RPM_HASH = "f68389dd810dfe8b0fc8c0a7395ad7a629563fde4b95cb7a441cd26a921aff33d248b138652a12d298d346756d6c0c41a1d957668158a4ec2aec9371bb214b67"
 
-RPROVIDES:${PN} += "perl(Crypt::Blowfish) \
-perl-Crypt-Blowfish \
-perl-Crypt-Blowfish(aarch-64)"
+RPROVIDES:${PN} += "perl-Crypt--Blowfish \
+perl-Crypt-Blowfish"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

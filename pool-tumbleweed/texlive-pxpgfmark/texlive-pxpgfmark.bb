@@ -10,7 +10,7 @@ RPM_NAME = "texlive-pxpgfmark-2023.201.0.0.2svn30212-53.1.noarch.rpm"
 RPM_HASH = "98e9293cada37d65167122ac09a02a8dd5a2e9d3e95508ca29200f0760a8a4626a8eb472d9653b615f4a44860d10548f5206e631701a232bfe30a23e8d607aba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pxpgfmark.sty) \
+RPROVIDES:${PN} += "tex-pxpgfmark.sty \
 texlive-pxpgfmark"
 
 RDEPENDS:${PN} += "/bin/sh \

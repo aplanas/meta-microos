@@ -12,7 +12,7 @@ RPM_HASH = "54903ab4a6b50b808db58f3cb6b663e5e8c4bc4bfb680930b318e5dc699645f6a0a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pacemaker-schemas \
-pkgconfig(pacemaker-schemas)"
+pkgconfig-pacemaker-schemas"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

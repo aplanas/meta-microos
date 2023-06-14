@@ -12,10 +12,10 @@ RPM_NAME = "python39-packaging-23.1-2.1.noarch.rpm"
 RPM_HASH = "d3ada9d2b594962017edaaed48dabc6dcffbd146d691dfba84178bff9fb44c7be061b32849a942b89c8f3a8101a120c67679a82cd489c2b3fb707369c3071de7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(packaging) \
+RPROVIDES:${PN} += "python3.9dist-packaging \
 python39-packaging \
-python3dist(packaging)"
+python3dist-packaging"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

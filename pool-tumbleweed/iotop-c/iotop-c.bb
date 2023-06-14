@@ -18,12 +18,11 @@ PV = "1.23"
 RPM_NAME = "iotop-c-1.23-1.2.aarch64.rpm"
 RPM_HASH = "5844a181a244771afbb1d7d0a20cf8531d6090f5f771e3bcf257340025f2b0327e748c0562690542c1cc153663799465bd6b437db531aaa9d41ed2e3b6b04316"
 
-RPROVIDES:${PN} += "iotop-c \
-iotop-c(aarch-64)"
+RPROVIDES:${PN} += "iotop-c"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

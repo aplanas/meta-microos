@@ -24,13 +24,13 @@ RPM_HASH = "6a6bb6e5a4d853e7a50c92949e7f16249520a1abb8e54b1ac76e251d147443837d83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtualenv \
-python3.10dist(virtualenv) \
+python3.10dist-virtualenv \
 python310-virtualenv \
-python3dist(virtualenv)"
+python3dist-virtualenv"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-distlib \
 python310-filelock \
 python310-platformdirs \

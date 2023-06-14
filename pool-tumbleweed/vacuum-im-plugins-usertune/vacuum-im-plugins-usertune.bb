@@ -11,24 +11,18 @@ PV = "1.1.3"
 RPM_NAME = "vacuum-im-plugins-usertune-1.1.3-1.23.aarch64.rpm"
 RPM_HASH = "30929263090fd9b5a11e56b3b636e7dc376db0163f4d3e27888f117d1d67bdd1ff4999af2b706a237c9b5599283df3f0d7a526531860834e5a6edf0d0bb8e93f"
 
-RPROVIDES:${PN} += "libusertune.so()(64bit) \
-vacuum-im-plugins-usertune \
-vacuum-im-plugins-usertune(aarch-64)"
+RPROVIDES:${PN} += "libusertune.so \
+vacuum-im-plugins-usertune"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libvacuumutils.so.37()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libvacuumutils.so.37"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-sepnum-2023.201.2.0svn20186-53.1.noarch.rpm"
 RPM_HASH = "6a03db91f58bb1a9bd63e0e5b045bbc4bbb519a05df77d2955d78c5717983fd71b908bfc8936d22fbc612d408df1d5dafe1e0932891679f968ff4c9d38ec5267"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(sepnum.sty) \
+RPROVIDES:${PN} += "tex-sepnum.sty \
 texlive-sepnum"
 
 RDEPENDS:${PN} += "/bin/sh \

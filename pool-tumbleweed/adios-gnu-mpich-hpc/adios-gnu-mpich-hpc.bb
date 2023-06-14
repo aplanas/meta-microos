@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "adios-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-adios_1_13_1-gnu-mpich-hpc"
+adios-1-13-1-gnu-mpich-hpc"
 
 inherit rpm

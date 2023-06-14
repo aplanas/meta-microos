@@ -9,17 +9,16 @@ PV = "3.8.5"
 RPM_NAME = "libsanlock1-3.8.5-1.3.aarch64.rpm"
 RPM_HASH = "071737978673d2d58692bfa56148fcebd3de112b63b82b2ff8b2bfb4e68a4bb01d2859955747cac60422c8ee27ff526b95d43ba152543f2285dd3575800b263c"
 
-RPROVIDES:${PN} += "libsanlock.so.1()(64bit) \
+RPROVIDES:${PN} += "libsanlock-client.so.1 \
+libsanlock.so.1 \
 libsanlock1 \
-libsanlock1(aarch-64) \
-libsanlock_client.so.1()(64bit) \
-libwdmd.so.1()(64bit) \
+libwdmd.so.1 \
 sanlock-lib"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libblkid.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libaio.so.1 \
+libblkid.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "a8971ea01f11c2be2a3fcda6cbe3c143fa76c59985da2fe37192e1c4c33d574eb272
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyTweening \
-python3.10dist(pytweening) \
+python3.10dist-pytweening \
 python310-PyTweening \
-python3dist(pytweening)"
+python3dist-pytweening"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

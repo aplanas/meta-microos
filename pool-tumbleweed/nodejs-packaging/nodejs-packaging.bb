@@ -10,22 +10,22 @@ RPM_HASH = "a3ab44bea35feba8028e3cb54251ac6c778604abd99eb1e5c884d154969decf02603
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-packaging \
-rpm_macro(nodejs_build) \
-rpm_macro(nodejs_check) \
-rpm_macro(nodejs_clean) \
-rpm_macro(nodejs_copy) \
-rpm_macro(nodejs_default_filter) \
-rpm_macro(nodejs_filelist) \
-rpm_macro(nodejs_find_provides_and_requires) \
-rpm_macro(nodejs_fixdep) \
-rpm_macro(nodejs_install) \
-rpm_macro(nodejs_mkdir) \
-rpm_macro(nodejs_modulesdir) \
-rpm_macro(nodejs_prep) \
-rpm_macro(nodejs_sitearch) \
-rpm_macro(nodejs_sitelib) \
-rpm_macro(nodejs_symlink_deps) \
-rpm_macro(nodejs_version)"
+rpm-macro-nodejs-build \
+rpm-macro-nodejs-check \
+rpm-macro-nodejs-clean \
+rpm-macro-nodejs-copy \
+rpm-macro-nodejs-default-filter \
+rpm-macro-nodejs-filelist \
+rpm-macro-nodejs-find-provides-and-requires \
+rpm-macro-nodejs-fixdep \
+rpm-macro-nodejs-install \
+rpm-macro-nodejs-mkdir \
+rpm-macro-nodejs-modulesdir \
+rpm-macro-nodejs-prep \
+rpm-macro-nodejs-sitearch \
+rpm-macro-nodejs-sitelib \
+rpm-macro-nodejs-symlink-deps \
+rpm-macro-nodejs-version"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby \
@@ -33,6 +33,6 @@ gcc-c++ \
 nodejs-devel \
 npm \
 ruby \
-rubygem(json)"
+rubygem-json"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_HASH = "4f84861c4532676fc750626bb2fad05bfd8683ddbabd612acd23a5f14c509ba456fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mixedreality-nspkg \
-python3.10dist(azure-mixedreality-nspkg) \
+python3.10dist-azure-mixedreality-nspkg \
 python310-azure-mixedreality-nspkg \
-python3dist(azure-mixedreality-nspkg)"
+python3dist-azure-mixedreality-nspkg"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-nspkg"
 
 inherit rpm

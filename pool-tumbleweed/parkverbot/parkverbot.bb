@@ -15,12 +15,11 @@ PV = "1.5"
 RPM_NAME = "parkverbot-1.5-1.5.aarch64.rpm"
 RPM_HASH = "b737beab8cf14a7524fc9ca40c1ec3381e210c74bce63fc19f9ea8fa2847dbce4d5bbcec20e8c18cb37394bdad543cf5614beda61f5a07f8c05fb250b411b29b"
 
-RPROVIDES:${PN} += "parkverbot \
-parkverbot(aarch-64)"
+RPROVIDES:${PN} += "parkverbot"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libHX.so.32()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libHX.so.32 \
+libc.so.6"
 
 inherit rpm

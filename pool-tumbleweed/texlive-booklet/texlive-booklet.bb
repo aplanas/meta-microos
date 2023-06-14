@@ -13,8 +13,8 @@ RPM_NAME = "texlive-booklet-2023.201.0.0.7bsvn15878-52.1.noarch.rpm"
 RPM_HASH = "90cf6fdbbc6a6c0605c564a194d235adff0de8b666e162033c65af330b26145ea3cbd2087977baf6b23ed77cb88052f15f270c92786087bb9900fe00465cc077"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bkltprnt.sty) \
-tex(booklet.sty) \
+RPROVIDES:${PN} += "tex-bkltprnt.sty \
+tex-booklet.sty \
 texlive-booklet"
 
 RDEPENDS:${PN} += "/bin/sh \

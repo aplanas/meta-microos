@@ -16,20 +16,19 @@ PV = "0.9.1"
 RPM_NAME = "librest-1_0-0-0.9.1-3.1.aarch64.rpm"
 RPM_HASH = "ef36eb0fc2b22b5385d25bb43dba48d732a44c41cc57f79b50af17b98b312a461e1b106b273ee72b0d0ece4c41463e12ef3b9036f4575b5f0960b52d24c9b5d6"
 
-RPROVIDES:${PN} += "librest-1.0.so.0()(64bit) \
-librest-1_0-0 \
-librest-1_0-0(aarch-64) \
-librest-extras-1.0.so.0()(64bit) \
+RPROVIDES:${PN} += "librest-1-0-0 \
+librest-1.0.so.0 \
+librest-extras-1.0.so.0 \
 librest0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjson-glib-1.0.so.0 \
+libsoup-3.0.so.0 \
+libxml2.so.2"
 
 inherit rpm

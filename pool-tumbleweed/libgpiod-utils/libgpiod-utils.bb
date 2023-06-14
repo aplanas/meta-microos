@@ -12,19 +12,18 @@ RPM_NAME = "libgpiod-utils-1.6.3-2.3.aarch64.rpm"
 RPM_HASH = "63e4530a63abb7917a71b4e9fd928e4d528b8b670561688207d8c901640d6746f6e186f272918e1e9f940502890b7409a34b53ab52b9b1702e0d8ac2a49e3dbd"
 
 RPROVIDES:${PN} += "libgpiod \
-libgpiod-utils \
-libgpiod-utils(aarch-64)"
+libgpiod-utils"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/bats \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgpiod.so.2()(64bit) \
-libgpiodcxx.so.1()(64bit) \
-libgpiomockup.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgpiod.so.2 \
+libgpiodcxx.so.1 \
+libgpiomockup.so.0 \
+libstdc++.so.6"
 
 inherit rpm

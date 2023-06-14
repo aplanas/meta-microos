@@ -10,16 +10,15 @@ PV = "2023"
 RPM_NAME = "libgmxapi0-2023-1.1.aarch64.rpm"
 RPM_HASH = "6d37c2705b92984fbfa6b3062c572fcbf0df7e8c27c58829f206c04738f3e1aaba37bad31ac73ff0aa496984b2d88e03d4d22f4da5fcbc4812be4b1ed0409912"
 
-RPROVIDES:${PN} += "libgmxapi.so.0()(64bit) \
-libgmxapi0 \
-libgmxapi0(aarch-64)"
+RPROVIDES:${PN} += "libgmxapi.so.0 \
+libgmxapi0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgromacs.so.8()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgromacs.so.8 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

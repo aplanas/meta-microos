@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ifntchia \
 intlfonts-chinese-bitmap-fonts \
-locale(xorg-x11:zh)"
+locale-xorg-x11-zh"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

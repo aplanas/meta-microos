@@ -15,12 +15,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyTrie \
 python3-pytrie \
-python3.10dist(pytrie) \
+python3.10dist-pytrie \
 python310-PyTrie \
 python310-pytrie \
-python3dist(pytrie)"
+python3dist-pytrie"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-sortedcontainers"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "cf7809ff3e56cb3b57917eb1b1314550e5cd775c01156fe43f1ac02687db13ac1fd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-loadtestservice \
-python3.10dist(azure-mgmt-loadtestservice) \
+python3.10dist-azure-mgmt-loadtestservice \
 python310-azure-mgmt-loadtestservice \
-python3dist(azure-mgmt-loadtestservice)"
+python3dist-azure-mgmt-loadtestservice"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

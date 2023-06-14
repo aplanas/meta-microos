@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/bin/bash \
 appstream-glib \
 libzypp \
 python3-cmdln \
-python3-createrepo_c \
+python3-createrepo-c \
 zypper"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_NAME = "texlive-tabvar-2023.201.1.8svn63921-54.1.noarch.rpm"
 RPM_HASH = "b1f626383ee02abe4a9dfac06666ffc24a5cbc8e869fb237c1b70116c9adaaac71e6865b5a450fddd63552204eddd0f772024020bddef42b6bbaa1be6d69f277"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(tabvar.cfg) \
-tex(tabvar.map) \
-tex(tabvar.sty) \
-tex(tabvar.tfm) \
+RPROVIDES:${PN} += "tex-tabvar.cfg \
+tex-tabvar.map \
+tex-tabvar.sty \
+tex-tabvar.tfm \
 texlive-tabvar"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,13 +21,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(colortbl.sty) \
-tex(graphicx.sty) \
-tex(ifpdf.sty) \
-tex(ifthen.sty) \
-tex(updmap.cfg) \
-tex(varwidth.sty) \
+tex-array.sty \
+tex-colortbl.sty \
+tex-graphicx.sty \
+tex-ifpdf.sty \
+tex-ifthen.sty \
+tex-updmap.cfg \
+tex-varwidth.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -34,16 +34,16 @@ RPM_NAME = "texlive-datatool-2023.204.2.32svn52663-54.1.noarch.rpm"
 RPM_HASH = "00f14264ae1458d7f609652b7aed200c28637f4a1afa8f0d546d50d1dfa0008feff58020e1f5b0aa84fdc083942881bb5f2d7f11dcfd8ed328f0ec4d95021417"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(databar.sty) \
-tex(databib.sty) \
-tex(datagidx.sty) \
-tex(datapie.sty) \
-tex(dataplot.sty) \
-tex(datatool-base.sty) \
-tex(datatool-fp.sty) \
-tex(datatool-pgfmath.sty) \
-tex(datatool.sty) \
-tex(person.sty) \
+RPROVIDES:${PN} += "tex-databar.sty \
+tex-databib.sty \
+tex-datagidx.sty \
+tex-datapie.sty \
+tex-dataplot.sty \
+tex-datatool-base.sty \
+tex-datatool-fp.sty \
+tex-datatool-pgfmath.sty \
+tex-datatool.sty \
+tex-person.sty \
 texlive-datatool"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -52,21 +52,21 @@ ed \
 findutils \
 grep \
 sed \
-tex(afterpage.sty) \
-tex(amsmath.sty) \
-tex(etoolbox.sty) \
-tex(fp.sty) \
-tex(ifthen.sty) \
-tex(mfirstuc.sty) \
-tex(multicol.sty) \
-tex(pgfkeys.sty) \
-tex(pgfmath.sty) \
-tex(pgfrcs.sty) \
-tex(substr.sty) \
-tex(textcase.sty) \
-tex(tikz.sty) \
-tex(xfor.sty) \
-tex(xkeyval.sty) \
+tex-afterpage.sty \
+tex-amsmath.sty \
+tex-etoolbox.sty \
+tex-fp.sty \
+tex-ifthen.sty \
+tex-mfirstuc.sty \
+tex-multicol.sty \
+tex-pgfkeys.sty \
+tex-pgfmath.sty \
+tex-pgfrcs.sty \
+tex-substr.sty \
+tex-textcase.sty \
+tex-tikz.sty \
+tex-xfor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-fp \

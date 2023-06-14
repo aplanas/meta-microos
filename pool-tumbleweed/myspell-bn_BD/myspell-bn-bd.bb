@@ -8,10 +8,10 @@ RPM_NAME = "myspell-bn_BD-20221012-1.2.noarch.rpm"
 RPM_HASH = "0f64fcf6611b5e07e9f4399ae471c242514e18a63df23af518045f19c333dab5b590456642878c912936a34e9267329dcddf93f56a0c3219081fca82bbd3a333"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:bn_BD) \
-locale(seamonkey-spellchecker:bn_BD) \
+RPROVIDES:${PN} += "locale-libreoffice-bn-BD \
+locale-seamonkey-spellchecker-bn-BD \
 myspell-bengali \
-myspell-bn_BD \
+myspell-bn-BD \
 myspell-dictionary"
 
 RDEPENDS:${PN} += "myspell-dictionaries"

@@ -11,12 +11,12 @@ RPM_HASH = "d73ed9334e1029c76af1f1e93e1357b0098aebf8609b25345a2ba796cae44608ac4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-defendereasm \
-python3.10dist(azure-mgmt-defendereasm) \
+python3.10dist-azure-mgmt-defendereasm \
 python310-azure-mgmt-defendereasm \
-python3dist(azure-mgmt-defendereasm)"
+python3dist-azure-mgmt-defendereasm"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

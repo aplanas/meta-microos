@@ -9,11 +9,11 @@ RPM_HASH = "2c2a3acd3cb1b3ee85e398f39c2a662901b93c719ca58a061a78d82ab7d653376ac8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flasgger \
-python3.10dist(flasgger) \
+python3.10dist-flasgger \
 python310-flasgger \
-python3dist(flasgger)"
+python3dist-flasgger"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-PyYAML \
 python310-jsonschema \

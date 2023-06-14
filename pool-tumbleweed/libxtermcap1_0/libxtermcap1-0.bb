@@ -8,13 +8,12 @@ PV = "2022.10.16"
 RPM_NAME = "libxtermcap1_0-2022.10.16-47.3.aarch64.rpm"
 RPM_HASH = "ca9328a16114fed76feefda00526a7699e0c522c2c7a7e7b8703558886ef506ab94ceb929b89c271b2198a2b0bbd117baa969f7e70524e63fa0af6577fed52d1"
 
-RPROVIDES:${PN} += "libxtermcap.so.1.0()(64bit) \
-libxtermcap1_0 \
-libxtermcap1_0(aarch-64)"
+RPROVIDES:${PN} += "libxtermcap.so.1.0 \
+libxtermcap1-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libschily.so.2.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libschily.so.2.0"
 
 inherit rpm

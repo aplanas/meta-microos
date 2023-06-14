@@ -9,17 +9,16 @@ RPM_NAME = "gtk2-engine-clearlooks-2.20.2-19.42.aarch64.rpm"
 RPM_HASH = "6cdec5b9f19a371086f9de9b540d0a745a79876c08748e1df4ebe6fa499a0d83894638a2e8e936c3e84474323b7adc08dd893310d1b0464a0f236c6dbacf8bda"
 
 RPROVIDES:${PN} += "gtk2-engine-clearlooks \
-gtk2-engine-clearlooks(aarch-64) \
-libclearlooks.so()(64bit)"
+libclearlooks.so"
 
 RDEPENDS:${PN} += "gtk2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0"
 
 inherit rpm

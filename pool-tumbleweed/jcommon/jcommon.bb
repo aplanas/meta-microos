@@ -10,8 +10,8 @@ RPM_HASH = "8fbf64b407852f45988efbfb4df9cf2ce04dc328c0b4b6afd1d78724f67b6bd4d37b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcommon \
-mvn(org.jfree:jcommon) \
-mvn(org.jfree:jcommon:pom:)"
+mvn-org.jfree-jcommon \
+mvn-org.jfree-jcommon-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

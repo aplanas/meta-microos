@@ -18,16 +18,16 @@ RPM_NAME = "perl-MooseX-MarkAsMethods-0.15-5.25.noarch.rpm"
 RPM_HASH = "3c35c5889c2bfe8852c4bb3cd81bd4a7120f23ce05bf31f8102405c0063e12411cd2595e4f36251a269a7711f744b76fd90ebbddfe9a4d05ba91398c4adb1f81"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooseX::MarkAsMethods) \
-perl(MooseX::MarkAsMethods::MetaRole::MethodMarker) \
+RPROVIDES:${PN} += "perl-MooseX--MarkAsMethods \
+perl-MooseX--MarkAsMethods--MetaRole--MethodMarker \
 perl-MooseX-MarkAsMethods"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(B::Hooks::EndOfScope) \
-perl(Moose) \
-perl(Moose::Exporter) \
-perl(Moose::Role) \
-perl(Moose::Util::MetaRole) \
-perl(namespace::autoclean)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-B--Hooks--EndOfScope \
+perl-Moose \
+perl-Moose--Exporter \
+perl-Moose--Role \
+perl-Moose--Util--MetaRole \
+perl-namespace--autoclean"
 
 inherit rpm

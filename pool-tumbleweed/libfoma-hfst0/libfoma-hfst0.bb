@@ -10,13 +10,12 @@ PV = "3.15.4"
 RPM_NAME = "libfoma-hfst0-3.15.4-1.3.aarch64.rpm"
 RPM_HASH = "9d6f7170904adbae8ad4ba3337571e8a59120dc5fe7e0abc16570bc0d7e2158fd426a881bb6c475ae42741ae1a58ff721fdc9d92abf6f708d79cb06cb117b89e"
 
-RPROVIDES:${PN} += "libfoma-hfst.so.0()(64bit) \
-libfoma-hfst0 \
-libfoma-hfst0(aarch-64)"
+RPROVIDES:${PN} += "libfoma-hfst.so.0 \
+libfoma-hfst0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpthread.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpthread.so.0"
 
 inherit rpm

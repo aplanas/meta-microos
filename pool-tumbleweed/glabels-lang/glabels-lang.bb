@@ -10,42 +10,42 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glabels-lang \
 glabels-lang-all \
-locale(glabels:ar) \
-locale(glabels:bs) \
-locale(glabels:ca) \
-locale(glabels:ca@valencia) \
-locale(glabels:cs) \
-locale(glabels:da) \
-locale(glabels:de) \
-locale(glabels:el) \
-locale(glabels:en_GB) \
-locale(glabels:eo) \
-locale(glabels:es) \
-locale(glabels:fi) \
-locale(glabels:fr) \
-locale(glabels:gl) \
-locale(glabels:hu) \
-locale(glabels:id) \
-locale(glabels:it) \
-locale(glabels:ja) \
-locale(glabels:ko) \
-locale(glabels:lv) \
-locale(glabels:nb) \
-locale(glabels:nl) \
-locale(glabels:oc) \
-locale(glabels:pt) \
-locale(glabels:pt_BR) \
-locale(glabels:ro) \
-locale(glabels:ru) \
-locale(glabels:sk) \
-locale(glabels:sl) \
-locale(glabels:sr) \
-locale(glabels:sr@latin) \
-locale(glabels:sv) \
-locale(glabels:tr) \
-locale(glabels:zh_CN) \
-locale(glabels:zh_HK) \
-locale(glabels:zh_TW)"
+locale-glabels-ar \
+locale-glabels-bs \
+locale-glabels-ca \
+locale-glabels-ca@valencia \
+locale-glabels-cs \
+locale-glabels-da \
+locale-glabels-de \
+locale-glabels-el \
+locale-glabels-en-GB \
+locale-glabels-eo \
+locale-glabels-es \
+locale-glabels-fi \
+locale-glabels-fr \
+locale-glabels-gl \
+locale-glabels-hu \
+locale-glabels-id \
+locale-glabels-it \
+locale-glabels-ja \
+locale-glabels-ko \
+locale-glabels-lv \
+locale-glabels-nb \
+locale-glabels-nl \
+locale-glabels-oc \
+locale-glabels-pt \
+locale-glabels-pt-BR \
+locale-glabels-ro \
+locale-glabels-ru \
+locale-glabels-sk \
+locale-glabels-sl \
+locale-glabels-sr \
+locale-glabels-sr@latin \
+locale-glabels-sv \
+locale-glabels-tr \
+locale-glabels-zh-CN \
+locale-glabels-zh-HK \
+locale-glabels-zh-TW"
 
 RDEPENDS:${PN} += "glabels"
 

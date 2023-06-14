@@ -12,12 +12,11 @@ PV = "12.1"
 RPM_NAME = "gdbserver-12.1-8.1.aarch64.rpm"
 RPM_HASH = "3c285ee3cfa3982106fb093556d9d53efba8ccc1b0eaa03e5311bb6bc9e309986a78fa1cc3ee8581670069feafb8b2a972a9d7d897a08e1e14003b8ded31be42"
 
-RPROVIDES:${PN} += "gdbserver \
-gdbserver(aarch-64)"
+RPROVIDES:${PN} += "gdbserver"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

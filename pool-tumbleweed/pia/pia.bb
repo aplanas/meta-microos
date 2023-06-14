@@ -9,18 +9,17 @@ PV = "3.107"
 RPM_NAME = "pia-3.107-2.10.aarch64.rpm"
 RPM_HASH = "650e300f2e463e688bac36e7c23f046170be39593797c2ae08d36d19f425a705112fbf1981546a6851b433790fd43a114ecaa465f0861eb9a06f0df49384723c"
 
-RPROVIDES:${PN} += "pia \
-pia(aarch-64)"
+RPROVIDES:${PN} += "pia"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXext.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libXv.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXext.so.6 \
+libXt.so.6 \
+libXv.so.1 \
+libc.so.6 \
+libjpeg.so.8 \
 tv-common"
 
 inherit rpm

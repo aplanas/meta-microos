@@ -11,27 +11,26 @@ PV = "3.1.0.0+42"
 RPM_NAME = "libwxlua_bind-wx32-3_1_0_0-3.1.0.0+42-2.2.aarch64.rpm"
 RPM_HASH = "b2f6640a7497523d55dba6e62a0c2ee547594afc41abb6278f4c1e1b3f4fa96d3f48e96f2fb04c19e38c1196b37c9f1c6d0c92860bdb828e3242ab02101e614e"
 
-RPROVIDES:${PN} += "libwxlua_bind-wx32-3_1_0_0 \
-libwxlua_bind-wx32-3_1_0_0(aarch-64) \
-libwxlua_bind-wx32gtk3u-3.1.0.0.so()(64bit)"
+RPROVIDES:${PN} += "libwxlua-bind-wx32-3-1-0-0 \
+libwxlua-bind-wx32gtk3u-3.1.0.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.4.so.5()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_net-suse.so.9.0.0()(64bit) \
-libwx_baseu_xml-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_aui-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_gl-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_html-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_media-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_stc-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_webview-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_xrc-suse.so.9.0.0()(64bit) \
-libwxlua-wx32gtk3u-3.1.0.0.so()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+liblua5.4.so.5 \
+libm.so.6 \
+libstdc++.so.6 \
+libwx-baseu-net-suse.so.9.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-baseu-xml-suse.so.9.0.0 \
+libwx-gtk3u-aui-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwx-gtk3u-gl-suse.so.9.0.0 \
+libwx-gtk3u-html-suse.so.9.0.0 \
+libwx-gtk3u-media-suse.so.9.0.0 \
+libwx-gtk3u-stc-suse.so.9.0.0 \
+libwx-gtk3u-webview-suse.so.9.0.0 \
+libwx-gtk3u-xrc-suse.so.9.0.0 \
+libwxlua-wx32gtk3u-3.1.0.0.so"
 
 inherit rpm

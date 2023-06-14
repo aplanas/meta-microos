@@ -16,18 +16,18 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr4 \
 antlr4-tool \
-mvn(org.antlr:antlr4) \
-mvn(org.antlr:antlr4:pom:)"
+mvn-org.antlr-antlr4 \
+mvn-org.antlr-antlr4-pom-"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn(com.ibm.icu:icu4j) \
-mvn(org.abego.treelayout:org.abego.treelayout.core) \
-mvn(org.antlr:ST4) \
-mvn(org.antlr:antlr-runtime) \
-mvn(org.antlr:antlr4-runtime) \
-mvn(org.glassfish:javax.json)"
+mvn-com.ibm.icu-icu4j \
+mvn-org.abego.treelayout-org.abego.treelayout.core \
+mvn-org.antlr-ST4 \
+mvn-org.antlr-antlr-runtime \
+mvn-org.antlr-antlr4-runtime \
+mvn-org.glassfish-javax.json"
 
 inherit rpm

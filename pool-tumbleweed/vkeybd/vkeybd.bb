@@ -9,15 +9,12 @@ PV = "0.1.18d"
 RPM_NAME = "vkeybd-0.1.18d-24.8.aarch64.rpm"
 RPM_HASH = "fc93c26c4c56daee5d3b4715d090d6d897cd0771e716f7b919f21fadb45f84fa34ae8fda358834f955560fda118f9eeac08d244d640269c7f65d967dbd6eb41e"
 
-RPROVIDES:${PN} += "application() \
-application(vkeybd.desktop) \
-vkeybd \
-vkeybd(aarch-64)"
+RPROVIDES:${PN} += "vkeybd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libtcl8.6.so()(64bit) \
-libtk8.6.so()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libtcl8.6.so \
+libtk8.6.so"
 
 inherit rpm

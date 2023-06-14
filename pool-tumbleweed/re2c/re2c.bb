@@ -11,12 +11,11 @@ PV = "3.0"
 RPM_NAME = "re2c-3.0-1.10.aarch64.rpm"
 RPM_HASH = "75a0b1296a07b58507951ef985df9e3eb27ae06fa51d7f44f209b05525416f4cfc4778a26e0fc04d94d4d029c2275e6bd9feed8087675bd77f8c878869bdf741"
 
-RPROVIDES:${PN} += "re2c \
-re2c(aarch-64)"
+RPROVIDES:${PN} += "re2c"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

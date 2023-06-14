@@ -11,7 +11,7 @@ RPM_NAME = "texlive-liftarm-2023.201.2.0svn62981-54.1.noarch.rpm"
 RPM_HASH = "1a73a3329367535b243ef2157fa8a5a95d4996d198abe20060cb582d50911b511d84e32e90a7758ce6a563ad3d38aa10d7f327443e4a6996492c4c5fb04623a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(liftarm.sty) \
+RPROVIDES:${PN} += "tex-liftarm.sty \
 texlive-liftarm"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,9 +20,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(tikz.sty) \
-tex(xcolor.sty) \
+tex-etoolbox.sty \
+tex-tikz.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

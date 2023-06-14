@@ -9,37 +9,30 @@ PV = "0.4.1"
 RPM_NAME = "lightly-style-0.4.1-2.7.aarch64.rpm"
 RPM_HASH = "844a28b70b4fee3086ec7b88d6ccd598fd2122d9a23ede9d9784300cf1dbd1488bb6891a50e0888defaf419b963e282b33c49ea52b127e844518410992a8b4ff"
 
-RPROVIDES:${PN} += "cmake(Lightly) \
-lightly-style \
-lightly-style(aarch-64)"
+RPROVIDES:${PN} += "cmake-Lightly \
+lightly-style"
 
-RDEPENDS:${PN} += "kconf_update5 \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5ConfigCore.so.5()(64bit) \
-libKF5ConfigGui.so.5()(64bit) \
-libKF5ConfigWidgets.so.5()(64bit) \
-libKF5CoreAddons.so.5()(64bit) \
-libKF5GuiAddons.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libKF5IconThemes.so.5()(64bit) \
-libKF5Style.so.5()(64bit) \
-libKF5WindowSystem.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5X11Extras.so.5()(64bit) \
-libQt5X11Extras.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-liblightlycommon5.so.5()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+RDEPENDS:${PN} += "kconf-update5 \
+ld-linux-aarch64.so.1 \
+libKF5ConfigCore.so.5 \
+libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5GuiAddons.so.5 \
+libKF5I18n.so.5 \
+libKF5IconThemes.so.5 \
+libKF5Style.so.5 \
+libKF5WindowSystem.so.5 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Quick.so.5 \
+libQt5Widgets.so.5 \
+libQt5X11Extras.so.5 \
+libc.so.6 \
+liblightlycommon5.so.5 \
+libm.so.6 \
+libstdc++.so.6 \
+libxcb.so.1"
 
 inherit rpm

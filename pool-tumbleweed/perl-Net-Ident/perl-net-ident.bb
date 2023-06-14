@@ -11,9 +11,9 @@ RPM_NAME = "perl-Net-Ident-1.25-1.13.noarch.rpm"
 RPM_HASH = "affddcee0d2ad6d74e662b4204ad46787230fe91af5ced4d66ff215faf3f2f09354d931bfa429ec6265757f1b33f10473c58258f9d4e4b346930a8ee0e248544"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Net::Ident) \
+RPROVIDES:${PN} += "perl-Net--Ident \
 perl-Net-Ident"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

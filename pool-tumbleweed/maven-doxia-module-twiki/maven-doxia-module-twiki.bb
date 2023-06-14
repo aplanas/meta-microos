@@ -9,14 +9,14 @@ RPM_HASH = "dfcc0b4bb02c5f8c21311b86316836bac0d8530472c2fb4d5b6fe37197d102f5a529
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-module-twiki \
-mvn(org.apache.maven.doxia:doxia-module-twiki) \
-mvn(org.apache.maven.doxia:doxia-module-twiki:pom:)"
+mvn-org.apache.maven.doxia-doxia-module-twiki \
+mvn-org.apache.maven.doxia-doxia-module-twiki-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.doxia:doxia-core) \
-mvn(org.apache.maven.doxia:doxia-sink-api) \
-mvn(org.codehaus.plexus:plexus-component-annotations) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven.doxia-doxia-core \
+mvn-org.apache.maven.doxia-doxia-sink-api \
+mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

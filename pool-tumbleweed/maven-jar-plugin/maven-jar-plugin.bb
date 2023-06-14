@@ -10,17 +10,17 @@ RPM_HASH = "ba4c5f32bb2ea1dedabc059d94f6f4e9d013e11b20f78a613e578f3e4a7e10f92985
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-jar-plugin \
-mvn(org.apache.maven.plugins:maven-jar-plugin) \
-mvn(org.apache.maven.plugins:maven-jar-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-jar-plugin \
+mvn-org.apache.maven.plugins-maven-jar-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.shared:file-management) \
-mvn(org.apache.maven.shared:maven-shared-utils) \
-mvn(org.apache.maven:maven-archiver) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.codehaus.plexus:plexus-utils)"
+mvn-org.apache.maven-maven-archiver \
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven.shared-file-management \
+mvn-org.apache.maven.shared-maven-shared-utils \
+mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

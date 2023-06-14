@@ -19,15 +19,15 @@ RPM_NAME = "python39-tox-4.5.1-2.1.noarch.rpm"
 RPM_HASH = "7261ea875606f2937a02a733c21f6d2153dc99688bf1222ad07eff08a5fa012e23be21bd980cc265c4c600badd94b3d691dc24c5bb741a69dcfd45086d0c2d0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(tox) \
+RPROVIDES:${PN} += "python3.9dist-tox \
 python39-detox \
 python39-tox \
-python3dist(tox)"
+python3dist-tox"
 
-RDEPENDS:${PN} += "(python39-importlib-metadata >= 0.12 if python3-base < 3.8) \
+RDEPENDS:${PN} += "-python39-importlib-metadata >= 0.12 if python3-base < 3.8 \
 /bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-cachetools \
 python39-chardet \
 python39-colorama \

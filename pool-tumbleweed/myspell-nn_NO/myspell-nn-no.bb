@@ -8,10 +8,10 @@ RPM_NAME = "myspell-nn_NO-20221012-1.2.noarch.rpm"
 RPM_HASH = "e5b6ba64fc869024aacd1da4423e405407462f8368106d192269dd9c78b4a8e1cc4a6ab7e333f28ab640b12c30973931c94793ce40104bbfd4fc28855bd2419a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:nn_NO) \
-locale(seamonkey-spellchecker:nn_NO) \
+RPROVIDES:${PN} += "locale-libreoffice-nn-NO \
+locale-seamonkey-spellchecker-nn-NO \
 myspell-dictionary \
-myspell-nn_NO \
+myspell-nn-NO \
 myspell-norsk-nynorsk"
 
 RDEPENDS:${PN} += "myspell-dictionaries \

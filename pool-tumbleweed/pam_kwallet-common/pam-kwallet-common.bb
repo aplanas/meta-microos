@@ -9,8 +9,8 @@ RPM_NAME = "pam_kwallet-common-5.27.5-1.1.noarch.rpm"
 RPM_HASH = "a0a485fe2d9cf630c50c04e6999662b1544abbc28840c6efd3a23740b154cce09466363ef56c5cc5dc86bb31ba68434b15948280a9b2a6b4cd1bc5d5d389f26b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(pam_kwallet-common) \
-pam_kwallet-common"
+RPROVIDES:${PN} += "config-pam-kwallet-common \
+pam-kwallet-common"
 
 RDEPENDS:${PN} += "/bin/sh \
 kwalletd5 \

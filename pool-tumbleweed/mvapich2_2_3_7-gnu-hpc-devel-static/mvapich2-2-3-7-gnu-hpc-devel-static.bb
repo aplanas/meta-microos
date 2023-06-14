@@ -8,9 +8,8 @@ PV = "2.3.7"
 RPM_NAME = "mvapich2_2_3_7-gnu-hpc-devel-static-2.3.7-4.3.aarch64.rpm"
 RPM_HASH = "29128b49de4172192697cbb236e8722862959e3d3b1136781b5315b3417b54ff64e16675d4194956e554c23e89308c5a0497630a8fc7e0a0235db4e8767cdcec"
 
-RPROVIDES:${PN} += "mvapich2_2_3_7-gnu-hpc-devel-static \
-mvapich2_2_3_7-gnu-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "mvapich2-2-3-7-gnu-hpc-devel-static"
 
-RDEPENDS:${PN} += "mvapich2_2_3_7-gnu-hpc-devel"
+RDEPENDS:${PN} += "mvapich2-2-3-7-gnu-hpc-devel"
 
 inherit rpm

@@ -16,12 +16,12 @@ RPM_HASH = "19e3817e0bb0788fb928159f33944222567d690f2aa50990657da438b8662091e7ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-SoundCard \
-python3.10dist(soundcard) \
+python3.10dist-soundcard \
 python310-SoundCard \
-python3dist(soundcard)"
+python3dist-soundcard"
 
 RDEPENDS:${PN} += "pulseaudio-daemon \
-python(abi) \
+python-abi \
 python310-cffi \
 python310-numpy"
 

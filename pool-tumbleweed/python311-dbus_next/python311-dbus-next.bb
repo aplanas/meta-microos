@@ -22,10 +22,10 @@ RPM_NAME = "python311-dbus_next-0.2.3-1.10.noarch.rpm"
 RPM_HASH = "ecd11412950af6a35df48721b7f87d8f818c85c60d9329e790cc30768c2e572e6961f7d8e83ea8ab031b45f351aabad02367599f4baf681f62c3be6bd3d76035"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(dbus-next) \
-python311-dbus_next \
-python3dist(dbus-next)"
+RPROVIDES:${PN} += "python3.11dist-dbus-next \
+python311-dbus-next \
+python3dist-dbus-next"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

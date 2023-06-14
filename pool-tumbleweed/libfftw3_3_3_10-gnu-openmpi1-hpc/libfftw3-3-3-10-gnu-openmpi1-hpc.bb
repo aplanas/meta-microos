@@ -10,15 +10,14 @@ RPM_NAME = "libfftw3_3_3_10-gnu-openmpi1-hpc-3.3.10-3.5.aarch64.rpm"
 RPM_HASH = "e15ebe574cb060b177408e666cecc0399cba67a38fa21ae787b2f2e0397faed0458457acc9741a81d8c80d26983ca8e66ef867a2b21bcc785f5d1dd66085e753"
 
 RPROVIDES:${PN} += "fftw3 \
-libfftw3_3_3_10-gnu-openmpi1-hpc \
-libfftw3_3_3_10-gnu-openmpi1-hpc(aarch-64)"
+libfftw3-3-3-10-gnu-openmpi1-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgomp.so.1()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgomp.so.1 \
+libm.so.6 \
 libopenmpi1-gnu-hpc \
 lua-lmod"
 

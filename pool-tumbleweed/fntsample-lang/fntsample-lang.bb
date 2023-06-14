@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fntsample-lang \
 fntsample-lang-all \
-locale(fntsample:uk)"
+locale-fntsample-uk"
 
 RDEPENDS:${PN} += "fntsample"
 

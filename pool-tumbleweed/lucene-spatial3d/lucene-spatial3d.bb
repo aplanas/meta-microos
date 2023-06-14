@@ -10,12 +10,12 @@ RPM_HASH = "530260c2ae831f6739a391d022f0274514b00c2d9b6946540b6c751a523c14a87e66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-spatial3d \
-mvn(org.apache.lucene:lucene-spatial3d) \
-mvn(org.apache.lucene:lucene-spatial3d:pom:) \
-osgi(org.apache.lucene.spatial3d)"
+mvn-org.apache.lucene-lucene-spatial3d \
+mvn-org.apache.lucene-lucene-spatial3d-pom- \
+osgi-org.apache.lucene.spatial3d"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.lucene:lucene-core)"
+mvn-org.apache.lucene-lucene-core"
 
 inherit rpm

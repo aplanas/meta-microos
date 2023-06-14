@@ -19,7 +19,7 @@ RPM_NAME = "texlive-pyluatex-2023.201.0.0.6.1svn65855-53.1.noarch.rpm"
 RPM_HASH = "bb72bb53b446e046995c2cc53537fff4dff1b7ac2ba3652174f4f78bd090235652e0814f91af1280e92a4cf8f12d5aeee355f4c643f80de2cf049e73b52bc06f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pyluatex.sty) \
+RPROVIDES:${PN} += "tex-pyluatex.sty \
 texlive-pyluatex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,9 +28,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(atveryend.sty) \
-tex(expl3.sty) \
-tex(kvoptions.sty) \
+tex-atveryend.sty \
+tex-expl3.sty \
+tex-kvoptions.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,11 +9,11 @@ RPM_HASH = "3037b8b32c0d39b9dd4e1d21f9d8c1d1f627588b59747712a9c3032a6d01ced8f452
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cdflib \
-python3.10dist(cdflib) \
+python3.10dist-cdflib \
 python310-cdflib \
-python3dist(cdflib)"
+python3dist-cdflib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-numpy"
 

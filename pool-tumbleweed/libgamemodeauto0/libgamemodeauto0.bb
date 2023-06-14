@@ -20,13 +20,12 @@ PV = "1.7"
 RPM_NAME = "libgamemodeauto0-1.7-3.1.aarch64.rpm"
 RPM_HASH = "a18bd73d30dcb5421fb02f67918222b810ad100fc0d11ea02d17764da8099cf458d7274900595261dee1683ec0f9ac067783c6acc1c8d2ee026a1cce94515dae"
 
-RPROVIDES:${PN} += "libgamemodeauto.so.0()(64bit) \
-libgamemodeauto0 \
-libgamemodeauto0(aarch-64)"
+RPROVIDES:${PN} += "libgamemodeauto.so.0 \
+libgamemodeauto0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libgamemode0"
 
 inherit rpm

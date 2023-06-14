@@ -10,11 +10,11 @@ RPM_HASH = "465dce9c9bc6dd94683429f91d2b3720f9f25ae7bfc2b5b251626546eaaab58be995
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-crontab \
-python3.10dist(python-crontab) \
+python3.10dist-python-crontab \
 python310-python-crontab \
-python3dist(python-crontab)"
+python3dist-python-crontab"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil"
 
 inherit rpm

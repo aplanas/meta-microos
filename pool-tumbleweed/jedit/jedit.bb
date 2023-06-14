@@ -25,10 +25,7 @@ RPM_NAME = "jedit-5.5.0-5.9.noarch.rpm"
 RPM_HASH = "86bbc3eee83645b1a818f169e603bdd8addcd1db29f6b9f3edcedfcb0d273b55061cacdd0afad83a993204264a20a37a9602476c5b6c5f2d35fcbf644c038268"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(jedit.desktop) \
-jedit \
-mimehandler(text/plain)"
+RPROVIDES:${PN} += "jedit"
 
 RDEPENDS:${PN} += "/bin/sh"
 

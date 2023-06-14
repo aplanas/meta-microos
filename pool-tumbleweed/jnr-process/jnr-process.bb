@@ -12,13 +12,13 @@ RPM_HASH = "a1a7dc1038d1a0e54539c86d783d4f20ff3ee20b1a824146b6de49d6bc086412e2dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-process \
-mvn(com.github.jnr:jnr-process) \
-mvn(com.github.jnr:jnr-process:pom:)"
+mvn-com.github.jnr-jnr-process \
+mvn-com.github.jnr-jnr-process-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.github.jnr:jnr-constants) \
-mvn(com.github.jnr:jnr-enxio) \
-mvn(com.github.jnr:jnr-posix)"
+mvn-com.github.jnr-jnr-constants \
+mvn-com.github.jnr-jnr-enxio \
+mvn-com.github.jnr-jnr-posix"
 
 inherit rpm

@@ -10,13 +10,12 @@ PV = "0.88"
 RPM_NAME = "perl-Text-BibTeX-devel-0.88-1.21.aarch64.rpm"
 RPM_HASH = "e41660072482c1fdafdc6b3a1bc8b2520159d7ea9bd941afc161f0136d94a944e2786ac45d95aa5b7f5ab0ad89cb7f3f38aa689aa593d749d8b8d78cccdcbaa2"
 
-RPROVIDES:${PN} += "libbtparse.so()(64bit) \
-perl-Text-BibTeX-devel \
-perl-Text-BibTeX-devel(aarch-64) \
-perl-Text-BibTeX:/usr/lib64/libbtparse.so"
+RPROVIDES:${PN} += "libbtparse.so \
+perl-Text-BibTeX-/usr/lib64/libbtparse.so \
+perl-Text-BibTeX-devel"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -24,25 +24,24 @@ PV = "2.10.0"
 RPM_NAME = "baresip-video-2.10.0-1.8.aarch64.rpm"
 RPM_HASH = "612396603255d43708b9b8124f5c691a1677ed72ddbf8c6095961d98e8e09a947349bb42ac1a1f1031b91795031728fefe8254f5db3ed77ea5ab9bd1a04d01c1"
 
-RPROVIDES:${PN} += "baresip-video \
-baresip-video(aarch-64)"
+RPROVIDES:${PN} += "baresip-video"
 
 RDEPENDS:${PN} += "baresip \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libaom.so.3()(64bit) \
-libavcodec.so.60()(64bit) \
-libavdevice.so.60()(64bit) \
-libavfilter.so.9()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libswresample.so.4()(64bit) \
-libswscale.so.7()(64bit) \
-libvpx.so.8()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
+libX11.so.6 \
+libXext.so.6 \
+libaom.so.3 \
+libavcodec.so.60 \
+libavdevice.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgstreamer-1.0.so.0 \
+libswresample.so.4 \
+libswscale.so.7 \
+libvpx.so.8"
 
 inherit rpm

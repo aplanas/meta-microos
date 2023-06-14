@@ -18,8 +18,8 @@ RPM_NAME = "texlive-cherokee-2023.201.svn21046-53.1.noarch.rpm"
 RPM_HASH = "d0d765e06b8ca8faccca7b5bd2fd206e8d31781fcf99aa4328548f1266fe5274727be5171a880e619436d20fe1aa530d9aee531cac9ae4d14104045ea29cab6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cherokee.sty) \
-tex(cherokee.tfm) \
+RPROVIDES:${PN} += "tex-cherokee.sty \
+tex-cherokee.tfm \
 texlive-cherokee"
 
 RDEPENDS:${PN} += "/bin/sh \

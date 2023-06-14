@@ -18,10 +18,9 @@ PV = "1.0.9"
 RPM_NAME = "brotli-1.0.9-3.3.aarch64.rpm"
 RPM_HASH = "1d10e7e95c2108a9e9d4ee06f0b7b5d81016ec31a501bf6cc11c9877f579b1d548b5d990721f241f063133fbd2486da7e563b2d8ae4d0b4b5f80a27a5dcaf6ca"
 
-RPROVIDES:${PN} += "brotli \
-brotli(aarch-64)"
+RPROVIDES:${PN} += "brotli"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -12,14 +12,13 @@ PV = "1.8.3"
 RPM_NAME = "ldns-1.8.3-1.4.aarch64.rpm"
 RPM_HASH = "4a7e2140267c121ba5c5398826d346544a3a0737f354b04841a02851833fea2caea44cf8b53d0202857a1a9ac0ce8f82c7cb6d966acce793cf9632518cbb8918"
 
-RPROVIDES:${PN} += "ldns \
-ldns(aarch-64)"
+RPROVIDES:${PN} += "ldns"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libldns.so.3()(64bit) \
-libpcap.so.1()(64bit) \
-libssl.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libldns.so.3 \
+libpcap.so.1 \
+libssl.so.3"
 
 inherit rpm

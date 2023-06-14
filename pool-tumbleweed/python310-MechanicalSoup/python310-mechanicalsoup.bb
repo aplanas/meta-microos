@@ -17,11 +17,11 @@ RPM_HASH = "6d4a4d1d20df93a7d505b318afad7a9936d9552588c8cd4fc179baadd10c9bd5f5cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-MechanicalSoup \
-python3.10dist(mechanicalsoup) \
+python3.10dist-mechanicalsoup \
 python310-MechanicalSoup \
-python3dist(mechanicalsoup)"
+python3dist-mechanicalsoup"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-beautifulsoup4 \
 python310-lxml \
 python310-requests"

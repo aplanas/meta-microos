@@ -10,10 +10,7 @@ PV = "0.8.18"
 RPM_NAME = "compiz-0.8.18-2.8.aarch64.rpm"
 RPM_HASH = "faeae3a9feac2c8f415ea09f31a19f83b1675280105f5f1476094447b9e4535aa16a78c5778d93cce1a1ad32d583c4a2ee7317b1cda130c93ba93d939f905d12"
 
-RPROVIDES:${PN} += "application() \
-application(compiz.desktop) \
-compiz \
-compiz(aarch-64) \
+RPROVIDES:${PN} += "compiz \
 windowmanager"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,24 +18,24 @@ RDEPENDS:${PN} += "/bin/sh \
 compiz-branding \
 compiz-decorator \
 compiz-plugins \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXcursor.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXi.so.6()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libICE.so.6 \
+libSM.so.6 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXcursor.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXi.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libc.so.6 \
 libcompizconfig \
-libm.so.6()(64bit) \
-libstartup-notification-1.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+libm.so.6 \
+libstartup-notification-1.so.0 \
+libxml2.so.2 \
 pciutils"
 
 inherit rpm

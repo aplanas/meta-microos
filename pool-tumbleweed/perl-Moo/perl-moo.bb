@@ -23,26 +23,25 @@ RPM_NAME = "perl-Moo-2.005005-1.1.noarch.rpm"
 RPM_HASH = "13e494db03ac11d9d7198a407633e36e98c0adaf539da92ba7a1c0132994c1a33c741f97f3f6f2cce79550c25b2d0f3f2660d28df9d912b4edfba6b5d978d7b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Method::Generate::Accessor) \
-perl(Method::Generate::BuildAll) \
-perl(Method::Generate::Constructor) \
-perl(Method::Generate::DemolishAll) \
-perl(Moo) \
-perl(Moo::HandleMoose) \
-perl(Moo::HandleMoose::FakeConstructor) \
-perl(Moo::HandleMoose::FakeMetaClass) \
-perl(Moo::HandleMoose::_TypeMap) \
-perl(Moo::Object) \
-perl(Moo::Role) \
-perl(Moo::_Utils) \
-perl(Moo::sification) \
-perl(oo) \
-perl-Moo"
+RPROVIDES:${PN} += "perl-Method--Generate--Accessor \
+perl-Method--Generate--BuildAll \
+perl-Method--Generate--Constructor \
+perl-Method--Generate--DemolishAll \
+perl-Moo \
+perl-Moo---Utils \
+perl-Moo--HandleMoose \
+perl-Moo--HandleMoose---TypeMap \
+perl-Moo--HandleMoose--FakeConstructor \
+perl-Moo--HandleMoose--FakeMetaClass \
+perl-Moo--Object \
+perl-Moo--Role \
+perl-Moo--sification \
+perl-oo"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Class::Method::Modifiers) \
-perl(Role::Tiny) \
-perl(Sub::Defer) \
-perl(Sub::Quote)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Class--Method--Modifiers \
+perl-Role--Tiny \
+perl-Sub--Defer \
+perl-Sub--Quote"
 
 inherit rpm

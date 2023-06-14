@@ -10,11 +10,11 @@ RPM_NAME = "perl-File-Rsync-0.49-1.24.noarch.rpm"
 RPM_HASH = "08a43fa8d2bfb1de231115f395f011ed1de9c708b3134b15e93a92e1102384a67c6781ce916ee044909252ed4d300730ff1202ba729d05ed38d93df8e25c7cf5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Rsync) \
+RPROVIDES:${PN} += "perl-File--Rsync \
 perl-File-Rsync"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(IPC::Run3) \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-IPC--Run3 \
 rsync"
 
 inherit rpm

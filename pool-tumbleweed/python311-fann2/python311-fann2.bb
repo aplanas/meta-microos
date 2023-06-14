@@ -13,16 +13,15 @@ PV = "1.2.0"
 RPM_NAME = "python311-fann2-1.2.0-1.8.aarch64.rpm"
 RPM_HASH = "95363350b2c613ef0b95bd000951cc87c65db80f040b5581bcb984518e9577afb66ca2b38713189c4d53d158b97057aed6bf2545e10f8af6895090bb7fd7bbbb"
 
-RPROVIDES:${PN} += "python3.11dist(fann2) \
+RPROVIDES:${PN} += "python3.11dist-fann2 \
 python311-fann2 \
-python311-fann2(aarch-64) \
-python3dist(fann2)"
+python3dist-fann2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdoublefann.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdoublefann.so.2 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

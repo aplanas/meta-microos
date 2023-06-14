@@ -8,11 +8,10 @@ PV = "8.0.2"
 RPM_NAME = "qemu-block-nfs-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "15ef2c1ca5935dea878f66989c60685709b7330ed9a5ac503e5745f56edf727d1ed0a524e953c14d71977b321381c86865b21a30019be730d2a9944dc107cc39"
 
-RPROVIDES:${PN} += "qemu-block-nfs \
-qemu-block-nfs(aarch-64)"
+RPROVIDES:${PN} += "qemu-block-nfs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libnfs.so.14()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libnfs.so.14"
 
 inherit rpm

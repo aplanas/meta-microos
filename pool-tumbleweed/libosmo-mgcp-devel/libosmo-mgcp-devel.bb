@@ -10,8 +10,7 @@ PV = "1.9.0"
 RPM_NAME = "libosmo-mgcp-devel-1.9.0-1.10.aarch64.rpm"
 RPM_HASH = "11b85ce9eabdad8ddb99769c6400f25b8fa78dce24dbb556073fe255262ef5784df12b9703b4b3a24d642b05da003c8997cc9772be64131a0deb27de3b8e4ed8"
 
-RPROVIDES:${PN} += "libosmo-mgcp-devel \
-libosmo-mgcp-devel(aarch-64)"
+RPROVIDES:${PN} += "libosmo-mgcp-devel"
 
 RDEPENDS:${PN} += ""
 

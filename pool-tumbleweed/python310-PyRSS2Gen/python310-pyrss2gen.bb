@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyrss2gen \
 python3-PyRSS2Gen \
-python3.10dist(pyrss2gen) \
+python3.10dist-pyrss2gen \
 python310-PyRSS2Gen \
-python3dist(pyrss2gen)"
+python3dist-pyrss2gen"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

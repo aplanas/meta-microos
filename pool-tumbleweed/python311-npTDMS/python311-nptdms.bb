@@ -8,13 +8,13 @@ RPM_NAME = "python311-npTDMS-1.2.0-1.8.noarch.rpm"
 RPM_HASH = "8606de36735e8db1162391e3666b6865e3ff3bcb4afeecaa30f380e461af96e314c62e8aee8c60b2f26758d8f550f2fd1ebcb28b0a3d368318c83705f1a4491e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(nptdms) \
+RPROVIDES:${PN} += "python3.11dist-nptdms \
 python311-npTDMS \
-python3dist(nptdms)"
+python3dist-nptdms"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-numpy \
 update-alternatives"
 

@@ -10,7 +10,7 @@ RPM_NAME = "texlive-lengthconvert-2023.201.1.0asvn55064-54.1.noarch.rpm"
 RPM_HASH = "bc4e71d98e6ef576c63dc2086dfb3e460ee7c7ea4fb037f79966b4ec448b81b69d879ca8a0bf0c9db72ddecfe6052d441ed46e56474d6f2dabff1f30df37ae86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lengthconvert.sty) \
+RPROVIDES:${PN} += "tex-lengthconvert.sty \
 texlive-lengthconvert"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,9 +19,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(expl3.sty) \
-tex(l3keys2e.sty) \
-tex(xparse.sty) \
+tex-expl3.sty \
+tex-l3keys2e.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

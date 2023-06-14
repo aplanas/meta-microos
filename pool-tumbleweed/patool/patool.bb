@@ -21,10 +21,10 @@ RPM_HASH = "36f4f8a5ed0d61070477f1759ac7d12356ae25fe49b7738c2077a3072aee3aecee42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patool \
-python3.10dist(patool) \
-python3dist(patool)"
+python3.10dist-patool \
+python3dist-patool"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

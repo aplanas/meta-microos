@@ -12,10 +12,10 @@ RPM_NAME = "texlive-hyphen-ancientgreek-2023.201.svn58652-52.1.noarch.rpm"
 RPM_HASH = "87e544aa22dfdac7cb2551109514e22eb2bfecc6179bc0ef974640b3703316b24ef97e2f234f2a48ab16995d93fc8d1fec6e053c8d7a1e52f7df651d15d13663"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(grahyph5.tex) \
-tex(hyph-grc.tex) \
-tex(ibyhyph.tex) \
-tex(loadhyph-grc.tex) \
+RPROVIDES:${PN} += "tex-grahyph5.tex \
+tex-hyph-grc.tex \
+tex-ibyhyph.tex \
+tex-loadhyph-grc.tex \
 texlive-hyphen-ancientgreek"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

@@ -9,10 +9,10 @@ RPM_HASH = "c72c3faf20863f6073fe92eb18ee5fe9ef17b5b71c9d6253293565140f76f5027e29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyMsgBox \
-python3.10dist(pymsgbox) \
+python3.10dist-pymsgbox \
 python310-PyMsgBox \
-python3dist(pymsgbox)"
+python3dist-pymsgbox"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

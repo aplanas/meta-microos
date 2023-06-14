@@ -9,13 +9,12 @@ PV = "0.6.4+0"
 RPM_NAME = "librav1e0-0.6.4+0-1.1.aarch64.rpm"
 RPM_HASH = "69edcac4e3a6aded127cdc753c8c7b836f70fbb6665c2426ae6131b85132636ed5ab21bbed8e8429c53e3606198a73215e34ce57acfa83a1e4f0a7a62167918a"
 
-RPROVIDES:${PN} += "librav1e.so.0()(64bit) \
-librav1e0 \
-librav1e0(aarch-64)"
+RPROVIDES:${PN} += "librav1e.so.0 \
+librav1e0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
 
 inherit rpm

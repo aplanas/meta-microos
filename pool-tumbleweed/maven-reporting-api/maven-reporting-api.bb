@@ -13,13 +13,13 @@ RPM_HASH = "b8552d1f54d6f061b959811d577dbee05852a8bc5bfe958f76c13471951827dc2629
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-reporting-api \
-mvn(org.apache.maven.reporting:maven-reporting-api) \
-mvn(org.apache.maven.reporting:maven-reporting-api:pom:) \
-mvn(org.apache.maven.shared:maven-reporting-api) \
-mvn(org.apache.maven.shared:maven-reporting-api:pom:)"
+mvn-org.apache.maven.reporting-maven-reporting-api \
+mvn-org.apache.maven.reporting-maven-reporting-api-pom- \
+mvn-org.apache.maven.shared-maven-reporting-api \
+mvn-org.apache.maven.shared-maven-reporting-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.doxia:doxia-sink-api)"
+mvn-org.apache.maven.doxia-doxia-sink-api"
 
 inherit rpm

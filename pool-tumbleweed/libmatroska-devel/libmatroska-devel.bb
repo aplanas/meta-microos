@@ -9,13 +9,12 @@ PV = "1.7.1"
 RPM_NAME = "libmatroska-devel-1.7.1-1.3.aarch64.rpm"
 RPM_HASH = "37fb3408b0d943d527315ed224b7588d74db6310413cf17957cac4de195beca2c273e09189bcb5b44ce5f1affa5acdefbaccc237ecc0ff0a225be35c00372fde"
 
-RPROVIDES:${PN} += "cmake(Matroska) \
+RPROVIDES:${PN} += "cmake-Matroska \
 libmatroska-devel \
-libmatroska-devel(aarch-64) \
-pkgconfig(libmatroska)"
+pkgconfig-libmatroska"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmatroska7 \
-pkgconfig(libebml)"
+pkgconfig-libebml"
 
 inherit rpm

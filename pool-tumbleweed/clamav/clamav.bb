@@ -15,26 +15,21 @@ RPM_NAME = "clamav-0.103.8-1.3.aarch64.rpm"
 RPM_HASH = "38274366c64814c6f837c1b55c17c2d03e9be88e3131f7d782b30896bdeabe991a135ef72423f096f814628202958f171f13b2620872b8a5e4ab36600d74294d"
 
 RPROVIDES:${PN} += "clamav \
-clamav(aarch-64) \
 clamav-nodb \
-config(clamav)"
+config-clamav"
 
 RDEPENDS:${PN} += "/bin/sh \
-group(vscan) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libclamav.so.9()(64bit) \
-libclamav.so.9(CLAMAV_PRIVATE)(64bit) \
-libclamav.so.9(CLAMAV_PUBLIC)(64bit) \
-libcrypto.so.3()(64bit) \
-libcurl.so.4()(64bit) \
-libfreshclam.so.2()(64bit) \
-libfreshclam.so.2(FRESHCLAM_PRIVATE)(64bit) \
-libfreshclam.so.2(FRESHCLAM_PUBLIC)(64bit) \
-libjson-c.so.5()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libz.so.1()(64bit) \
-user(vscan)"
+group-vscan \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libclamav.so.9 \
+libcrypto.so.3 \
+libcurl.so.4 \
+libfreshclam.so.2 \
+libjson-c.so.5 \
+libncurses.so.6 \
+libtinfo.so.6 \
+libz.so.1 \
+user-vscan"
 
 inherit rpm

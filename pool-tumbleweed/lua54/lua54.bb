@@ -16,16 +16,15 @@ PV = "5.4.6"
 RPM_NAME = "lua54-5.4.6-1.1.aarch64.rpm"
 RPM_HASH = "8fea06dbf0de61ad7a9749e7f85764f453250a6e6a0bea6613ccfda9055c64a0848603a97ab6a3cd4341c0d071911f0c9a37ef667986728f460edfc027ab03f6"
 
-RPROVIDES:${PN} += "Lua(API) \
+RPROVIDES:${PN} += "Lua-API \
 lua \
-lua54 \
-lua54(aarch-64)"
+lua54"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblua5.4.so.5()(64bit) \
-libreadline.so.8()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblua5.4.so.5 \
+libreadline.so.8 \
 update-alternatives"
 
 inherit rpm

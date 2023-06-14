@@ -11,8 +11,7 @@ RPM_NAME = "libosmo-rua-devel-1.4.0-1.1.aarch64.rpm"
 RPM_HASH = "a766e51a60f54625c1d588c46eaf1873d612715d16d31bce56e39a19392a76da02ecf8b0ee41401cea68fa7385f207f02b579b24184d6eaa7770e39ab75ed8dc"
 
 RPROVIDES:${PN} += "libosmo-rua-devel \
-libosmo-rua-devel(aarch-64) \
-pkgconfig(libosmo-rua)"
+pkgconfig-libosmo-rua"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-rua0"

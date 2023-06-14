@@ -13,40 +13,34 @@ RPM_NAME = "wireshark-4.0.6-1.1.aarch64.rpm"
 RPM_HASH = "787126e28b144f7d81139b72d31235b4534aee5ae6bc5c4e7855dbff359d88449ad82ef098bd3ad3b0a520ad1dda600523d6233a7d050ff30f5546ce69ae5af5"
 
 RPROVIDES:${PN} += "ethereal \
-group(wireshark) \
-wireshark \
-wireshark(aarch-64)"
+group-wireshark \
+wireshark"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libbcg729.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libbcg729.so.0 \
 libbrotlidec1 \
-libc.so.6()(64bit) \
-libcap.so.2()(64bit) \
-libgcrypt.so.20()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmaxminddb.so.0()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-genl-3.so.200()(64bit) \
-libnl-genl-3.so.200(libnl_3)(64bit) \
-libopus.so.0()(64bit) \
-libpcap.so.1()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libsbc.so.1()(64bit) \
-libspandsp.so.3()(64bit) \
-libspeexdsp.so.1()(64bit) \
-libssh.so.4()(64bit) \
-libssh.so.4(LIBSSH_4_5_0)(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libsystemd.so.0(LIBSYSTEMD_246)(64bit) \
-libwireshark.so.16()(64bit) \
-libwiretap.so.13()(64bit) \
-libwsutil.so.14()(64bit) \
-libz.so.1()(64bit) \
+libc.so.6 \
+libcap.so.2 \
+libgcrypt.so.20 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libm.so.6 \
+libmaxminddb.so.0 \
+libnl-3.so.200 \
+libnl-genl-3.so.200 \
+libopus.so.0 \
+libpcap.so.1 \
+libpcre2-8.so.0 \
+libsbc.so.1 \
+libspandsp.so.3 \
+libspeexdsp.so.1 \
+libssh.so.4 \
+libsystemd.so.0 \
+libwireshark.so.16 \
+libwiretap.so.13 \
+libwsutil.so.14 \
+libz.so.1 \
 permissions \
 shadow"
 

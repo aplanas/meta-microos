@@ -9,13 +9,13 @@ RPM_HASH = "717ac6e8fc7d31b60e57d8445fa3886b2e7f111ba0f009c9cc438af821a9adf1d2d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-lint \
-python3.10dist(ansible-lint) \
-python3dist(ansible-lint)"
+python3.10dist-ansible-lint \
+python3dist-ansible-lint"
 
-RDEPENDS:${PN} += "(python3-ruamel.yaml >= 0.17.31 and python3-ruamel.yaml < 0.18) \
+RDEPENDS:${PN} += "-python3-ruamel.yaml >= 0.17.31 and python3-ruamel.yaml < 0.18 \
 /usr/bin/python3 \
 ansible-core \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-ansible-compat \
 python3-black \

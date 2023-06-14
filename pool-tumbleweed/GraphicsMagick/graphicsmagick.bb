@@ -19,10 +19,9 @@ PV = "1.3.40"
 RPM_NAME = "GraphicsMagick-1.3.40-2.3.aarch64.rpm"
 RPM_HASH = "6066204fe3bad0c35890f586cf3c3766a2d674f6f9695fda4915035e6bd70c49825003f2ff368bf5ba7107a27b32808051fe022c76e81d8663a46a933fcf24a9"
 
-RPROVIDES:${PN} += "GraphicsMagick \
-GraphicsMagick(aarch-64)"
+RPROVIDES:${PN} += "GraphicsMagick"
 
-RDEPENDS:${PN} += "libGraphicsMagick-Q16.so.3()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libGraphicsMagick-Q16.so.3 \
+libc.so.6"
 
 inherit rpm

@@ -19,11 +19,11 @@ RPM_HASH = "3e839d2588b77791223ebe2de584e97fd0989440f1f9f84e24389feedd4ced00ee3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cli-helpers \
-python3.10dist(cli-helpers) \
+python3.10dist-cli-helpers \
 python310-cli-helpers \
-python3dist(cli-helpers)"
+python3dist-cli-helpers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pygments \
 python310-configobj \
 python310-tabulate \

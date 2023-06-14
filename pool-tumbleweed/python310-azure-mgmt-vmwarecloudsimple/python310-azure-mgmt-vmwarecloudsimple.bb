@@ -14,11 +14,11 @@ RPM_HASH = "255da2a458222a0befc2b349bd691c95ea29e79a88215d86efb944df5ca3cb6ccbd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-vmwarecloudsimple \
-python3.10dist(azure-mgmt-vmwarecloudsimple) \
+python3.10dist-azure-mgmt-vmwarecloudsimple \
 python310-azure-mgmt-vmwarecloudsimple \
-python3dist(azure-mgmt-vmwarecloudsimple)"
+python3dist-azure-mgmt-vmwarecloudsimple"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \

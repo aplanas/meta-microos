@@ -13,11 +13,11 @@ RPM_HASH = "c4a879a8aa96d4d76fcac10037ff347579dac3dac42f0c77a02b7b3665ac5a14755f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aspectlib \
-python3.10dist(aspectlib) \
+python3.10dist-aspectlib \
 python310-aspectlib \
-python3dist(aspectlib)"
+python3dist-aspectlib"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-fields"
 
 inherit rpm

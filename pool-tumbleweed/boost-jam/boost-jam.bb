@@ -14,6 +14,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-jam"
 
-RDEPENDS:${PN} += "boost1_82_0-jam"
+RDEPENDS:${PN} += "boost1-82-0-jam"
 
 inherit rpm

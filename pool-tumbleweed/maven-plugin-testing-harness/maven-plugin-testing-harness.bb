@@ -9,14 +9,14 @@ RPM_HASH = "eec9fa0a9bcf05c5da795b2220111459bc696c61efeaef12e27d80b9c3fbc72a872b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-testing-harness \
-mvn(org.apache.maven.plugin-testing:maven-plugin-testing-harness) \
-mvn(org.apache.maven.plugin-testing:maven-plugin-testing-harness:pom:) \
-mvn(org.apache.maven.shared:maven-plugin-testing-harness) \
-mvn(org.apache.maven.shared:maven-plugin-testing-harness:pom:)"
+mvn-org.apache.maven.plugin-testing-maven-plugin-testing-harness \
+mvn-org.apache.maven.plugin-testing-maven-plugin-testing-harness-pom- \
+mvn-org.apache.maven.shared-maven-plugin-testing-harness \
+mvn-org.apache.maven.shared-maven-plugin-testing-harness-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-io:commons-io) \
-mvn(org.codehaus.plexus:plexus-archiver)"
+mvn-commons-io-commons-io \
+mvn-org.codehaus.plexus-plexus-archiver"
 
 inherit rpm

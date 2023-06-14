@@ -8,12 +8,11 @@ RPM_NAME = "slurm-munge-23.02.2-1.1.aarch64.rpm"
 RPM_HASH = "cd05e3c17cf9158070fa034ef5771073a6d785aaac41acd7885eb45f4b4203fea48a3f714b64340264bde52d8cc61ba69796b23eee6ce06e4c2574e40c4fdf9e"
 
 RPROVIDES:${PN} += "slurm-auth-munge \
-slurm-munge \
-slurm-munge(aarch-64)"
+slurm-munge"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmunge.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmunge.so.2 \
 munge \
 slurm-plugins"
 

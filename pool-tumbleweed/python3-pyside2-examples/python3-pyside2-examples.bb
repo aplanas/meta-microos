@@ -11,12 +11,12 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pyside2-examples"
 
 RDEPENDS:${PN} += "python3-pyside2 \
-qt5qmlimport(QtCharts.2) \
-qt5qmlimport(QtQuick.2) \
-qt5qmlimport(QtQuick.Controls.2) \
-qt5qmlimport(QtQuick.Controls.Material.2) \
-qt5qmlimport(QtQuick.Layouts.1) \
-qt5qmlimport(QtQuick.Window.2) \
-qt5qmlimport(QtWebEngine.1)"
+qt5qmlimport-QtCharts.2 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Controls.2 \
+qt5qmlimport-QtQuick.Controls.Material.2 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-QtQuick.Window.2 \
+qt5qmlimport-QtWebEngine.1"
 
 inherit rpm

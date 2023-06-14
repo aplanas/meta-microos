@@ -9,15 +9,14 @@ PV = "0.4.5"
 RPM_NAME = "libWildMidi2-0.4.5-1.3.aarch64.rpm"
 RPM_HASH = "32fd13d6996f58b7ddebc850b027d79567dd6cdae8aed4009f671e9e1b173e7b0571aa70d7f077a4524242482717e9a1bff1e5099032dde1cf9e7552da827ed2"
 
-RPROVIDES:${PN} += "config(libWildMidi2) \
-libWildMidi.so.2()(64bit) \
-libWildMidi2 \
-libWildMidi2(aarch-64)"
+RPROVIDES:${PN} += "config-libWildMidi2 \
+libWildMidi.so.2 \
+libWildMidi2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
 timidity"
 
 inherit rpm

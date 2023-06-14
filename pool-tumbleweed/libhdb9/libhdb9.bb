@@ -12,19 +12,18 @@ PV = "7.8.0"
 RPM_NAME = "libhdb9-7.8.0-3.1.aarch64.rpm"
 RPM_HASH = "23936668919492021f19a04d165e25399c439353ec8fdc4ca156ef258e321a5ac09c8d8aeb1efd7a844d67704da6590e3fef313123a5ff938cb363fcd6446910"
 
-RPROVIDES:${PN} += "libhdb.so.9()(64bit) \
-libhdb9 \
-libhdb9(aarch-64)"
+RPROVIDES:${PN} += "libhdb.so.9 \
+libhdb9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libasn1.so.8()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit) \
-libdb-4.8.so()(64bit) \
-libheimbase.so.1()(64bit) \
-libkrb5.so.26()(64bit) \
-libroken.so.18()(64bit) \
-libsqlite3.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libasn1.so.8 \
+libc.so.6 \
+libcom-err.so.2 \
+libdb-4.8.so \
+libheimbase.so.1 \
+libkrb5.so.26 \
+libroken.so.18 \
+libsqlite3.so.0"
 
 inherit rpm

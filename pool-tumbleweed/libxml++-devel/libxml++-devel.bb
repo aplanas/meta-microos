@@ -9,11 +9,10 @@ RPM_NAME = "libxml++-devel-5.0.3-1.2.aarch64.rpm"
 RPM_HASH = "f1a3516a9c6257c300ec08029f87292b7e4ce4dae336b43f17c0e702dcf470ae41318d879c2e3488618b1f39d3d046906b134a4c07109f6e1885a53e6beaa68e"
 
 RPROVIDES:${PN} += "libxml++-devel \
-libxml++-devel(aarch-64) \
-pkgconfig(libxml++-5.0)"
+pkgconfig-libxml++-5.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libxml++-5_0-1 \
-pkgconfig(libxml-2.0)"
+libxml++-5-0-1 \
+pkgconfig-libxml-2.0"
 
 inherit rpm

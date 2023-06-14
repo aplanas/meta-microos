@@ -13,12 +13,12 @@ RPM_NAME = "python311-azure-mgmt-netapp-10.0.0-1.1.noarch.rpm"
 RPM_HASH = "35c1b71318fb96063362553bc09929c939391fafeececc2f9891dfd294596662687e3b5a25e4bb54562b622ce2c51471ca957f54995d346f5ce4e563e04ac8fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-netapp) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-netapp \
 python311-azure-mgmt-netapp \
-python3dist(azure-mgmt-netapp)"
+python3dist-azure-mgmt-netapp"
 
-RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
+python-abi \
 python311-azure-common \
 python311-azure-core \
 python311-azure-mgmt-nspkg \

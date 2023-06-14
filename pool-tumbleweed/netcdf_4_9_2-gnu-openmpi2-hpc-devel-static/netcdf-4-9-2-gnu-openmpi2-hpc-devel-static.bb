@@ -12,11 +12,10 @@ PV = "4.9.2"
 RPM_NAME = "netcdf_4_9_2-gnu-openmpi2-hpc-devel-static-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "732699508bbd78ed705c39b6ecd715da66cc949012eed41c434356323eb695db77fdd9d4d769b6f0b0cbba1eaef1f8fcf4a684d7b40289b1380fe7fd8b247ca7"
 
-RPROVIDES:${PN} += "netcdf_4_9_2-gnu-openmpi2-hpc-devel-static \
-netcdf_4_9_2-gnu-openmpi2-hpc-devel-static(aarch-64)"
+RPROVIDES:${PN} += "netcdf-4-9-2-gnu-openmpi2-hpc-devel-static"
 
 RDEPENDS:${PN} += "libcurl-devel \
-netcdf_4_9_2-gnu-openmpi2-hpc-devel \
+netcdf-4-9-2-gnu-openmpi2-hpc-devel \
 zlib-devel"
 
 inherit rpm

@@ -11,13 +11,13 @@ RPM_HASH = "672eeb332fa1f66fc15c1db1c552f6aea63235c65681387896e1f0d939614a66511d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certstream \
-python3.10dist(certstream) \
+python3.10dist-certstream \
 python310-certstream \
-python3dist(certstream)"
+python3dist-certstream"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python3-termcolor \
 python3-websocket-client \
 update-alternatives"

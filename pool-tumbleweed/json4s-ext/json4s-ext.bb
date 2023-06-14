@@ -11,13 +11,13 @@ RPM_HASH = "7891d5805a7f9704b82c7a0caf40f662a67ff4f871c6ea7bd77b7563fcd186869d33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-ext \
-mvn(org.json4s:json4s-ext_2.10) \
-mvn(org.json4s:json4s-ext_2.10:pom:)"
+mvn-org.json4s-json4s-ext-2.10 \
+mvn-org.json4s-json4s-ext-2.10-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(joda-time:joda-time) \
-mvn(org.joda:joda-convert) \
-mvn(org.scala-lang:scala-library)"
+mvn-joda-time-joda-time \
+mvn-org.joda-joda-convert \
+mvn-org.scala-lang-scala-library"
 
 inherit rpm

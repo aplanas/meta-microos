@@ -37,10 +37,10 @@ RPM_HASH = "b8fce059c7cae014033d54c20d00456820f0ff77d0355a63f16b0d34442b2b0313b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cookies \
-python3.10dist(cookies) \
+python3.10dist-cookies \
 python310-cookies \
-python3dist(cookies)"
+python3dist-cookies"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

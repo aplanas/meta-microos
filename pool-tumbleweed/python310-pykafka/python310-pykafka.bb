@@ -17,14 +17,13 @@ RPM_NAME = "python310-pykafka-2.8.0-2.21.aarch64.rpm"
 RPM_HASH = "ccd5c57143a82d1f1681bb8a755cdcf6f48aec230ea70c773d2d6018bd8f29ab4118a3c492a511a3ff21181ab3f971626ec73356eb68a40b1aa1292f6d69c369"
 
 RPROVIDES:${PN} += "python3-pykafka \
-python3.10dist(pykafka) \
+python3.10dist-pykafka \
 python310-pykafka \
-python310-pykafka(aarch-64) \
-python3dist(pykafka)"
+python3dist-pykafka"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-gevent \
 python310-kazoo \
 python310-setuptools \

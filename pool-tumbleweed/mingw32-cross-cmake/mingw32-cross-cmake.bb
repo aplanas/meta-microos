@@ -10,10 +10,10 @@ RPM_HASH = "dbd85f027a52cc003843e12ae46c3afeb7946ba235cea66f4d36ea54bdb623928f05
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-cross-cmake \
-rpm_macro(_mingw32_cmake) \
-rpm_macro(_mingw32_cmake_build) \
-rpm_macro(_mingw32_cmake_install) \
-rpm_macro(_mingw32_ctest)"
+rpm-macro--mingw32-cmake \
+rpm-macro--mingw32-cmake-build \
+rpm-macro--mingw32-cmake-install \
+rpm-macro--mingw32-ctest"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cmake \

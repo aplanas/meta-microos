@@ -12,7 +12,7 @@ RPM_NAME = "texlive-labbook-2023.201.svn15878-55.1.noarch.rpm"
 RPM_HASH = "093533d5964519d017cbd38b4151af7ac96897a3d1f456296463bee79045f6e73eacb2d78049ff7297305158cf5f774dfa12e725bce1dc2fd5b6c279a4e95540"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(labbook.cls) \
+RPROVIDES:${PN} += "tex-labbook.cls \
 texlive-labbook"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,8 +21,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(makeidx.sty) \
-tex(scrbook.cls) \
+tex-makeidx.sty \
+tex-scrbook.cls \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

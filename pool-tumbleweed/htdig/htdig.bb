@@ -16,22 +16,21 @@ PV = "3.2.0b6"
 RPM_NAME = "htdig-3.2.0b6-244.11.aarch64.rpm"
 RPM_HASH = "799e191e0e30cab7a697dae2ffbf5e9c1e3ce12bbb22f297958650813d649805373a1e83f08b9c504f86bcbd9d9c250fd557318e6c625da3d057a46ab0fba60a"
 
-RPROVIDES:${PN} += "config(htdig) \
+RPROVIDES:${PN} += "config-htdig \
 htdig \
-htdig(aarch-64) \
-libcommon-3.2.0.so()(64bit) \
-libfuzzy-3.2.0.so()(64bit) \
-libht-3.2.0.so()(64bit) \
-libhtdb-3.2.0.so()(64bit) \
-libhtnet-3.2.0.so()(64bit) \
-libhtword-3.2.0.so()(64bit)"
+libcommon-3.2.0.so \
+libfuzzy-3.2.0.so \
+libht-3.2.0.so \
+libhtdb-3.2.0.so \
+libhtnet-3.2.0.so \
+libhtword-3.2.0.so"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libssl.so.3 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

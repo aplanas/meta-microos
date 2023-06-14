@@ -13,13 +13,13 @@ RPM_HASH = "8fdb9890add7e9c9382a14bdfcc6e4d28e6aa69d338f7f83bf3dda421b444e11fc15
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gwdatafind \
-python3.10dist(gwdatafind) \
+python3.10dist-gwdatafind \
 python310-gwdatafind \
-python3dist(gwdatafind)"
+python3dist-gwdatafind"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-igwn-auth-utils-requests \
 python310-ligo-segments \
 update-alternatives"

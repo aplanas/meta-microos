@@ -16,8 +16,7 @@ PV = "1.26"
 RPM_NAME = "flickcurl-doc-1.26-3.24.aarch64.rpm"
 RPM_HASH = "44cca27cd6aaa2a9d90deff14b2986312bd5b2d8bbca0c2e67c045ae73ea55f2ab3822967368d68b70bb266d124dc3ffc94821e0118b2fbbfdcfb6dfd6a3817e"
 
-RPROVIDES:${PN} += "flickcurl-doc \
-flickcurl-doc(aarch-64)"
+RPROVIDES:${PN} += "flickcurl-doc"
 
 RDEPENDS:${PN} += "libflickcurl0"
 

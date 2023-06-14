@@ -8,8 +8,7 @@ PV = "1.9.2"
 RPM_NAME = "velero-1.9.2-1.3.aarch64.rpm"
 RPM_HASH = "3845fb25d3b527739ec614cf94af4df6a70dc3d59530d2ed1dd19ec2b024f7fd8c09b8cb85b11c15bd43f36d3fbf373cabac1be5d250736569a14bc6d0f69f00"
 
-RPROVIDES:${PN} += "velero \
-velero(aarch-64)"
+RPROVIDES:${PN} += "velero"
 
 RDEPENDS:${PN} += ""
 

@@ -15,8 +15,8 @@ RPM_NAME = "texlive-everyshi-2023.201.4.00svn57001-52.1.noarch.rpm"
 RPM_HASH = "0d229cdbcb69321efde56dd8e89a8c85f69e9b7e60cc384f95131704e4a6ad6c07711d3e5700ad2fbe61ea37d7733cba5875e8d6aac9800bf045bfd358bca6f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(everyshi-2001-05-15.sty) \
-tex(everyshi.sty) \
+RPROVIDES:${PN} += "tex-everyshi-2001-05-15.sty \
+tex-everyshi.sty \
 texlive-everyshi"
 
 RDEPENDS:${PN} += "/bin/sh \

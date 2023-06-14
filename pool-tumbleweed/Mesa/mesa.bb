@@ -20,14 +20,13 @@ RPM_NAME = "Mesa-23.0.3-349.1.aarch64.rpm"
 RPM_HASH = "86102fa7b56acb9db8a168ef5b8f2bc5de85751adca60991f82cc2fb559760bbffc5e2f8b33469232a5f1cfc14b5dbf0ff0b58f8d0e7e924a7a6765c1f198bbb"
 
 RPROVIDES:${PN} += "Mesa \
-Mesa(aarch-64) \
 Mesa-libIndirectGL1 \
 Mesa-nouveau3d \
 Mesa7 \
 intel-i810-Mesa \
-libXvMC_nouveau \
-libXvMC_r600 \
-libtxc_dxtn \
+libXvMC-nouveau \
+libXvMC-r600 \
+libtxc-dxtn \
 s2tc \
 xorg-x11-Mesa"
 

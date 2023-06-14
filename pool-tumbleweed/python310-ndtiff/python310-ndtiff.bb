@@ -9,11 +9,11 @@ RPM_HASH = "473fac01e0767c3cf353bca634fd54669543dd977c018966380ec3fef6f3589353c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ndtiff \
-python3.10dist(ndtiff) \
+python3.10dist-ndtiff \
 python310-ndtiff \
-python3dist(ndtiff)"
+python3dist-ndtiff"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dask-array \
 python310-numpy"
 

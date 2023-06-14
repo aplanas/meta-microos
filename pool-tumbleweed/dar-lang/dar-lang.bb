@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dar-lang \
 dar-lang-all \
-locale(dar:fr) \
-locale(dar:sv)"
+locale-dar-fr \
+locale-dar-sv"
 
 RDEPENDS:${PN} += "dar"
 

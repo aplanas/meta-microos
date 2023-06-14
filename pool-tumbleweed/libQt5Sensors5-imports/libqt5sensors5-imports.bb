@@ -11,19 +11,15 @@ RPM_NAME = "libQt5Sensors5-imports-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "e5cc8a38906b129f4afe079610b3ba6c7973a0d2184fbfa05716653400ad154e748fc6304043bd194dfeb55802ce74915f403474d5bfe08cb1d9ebcc8895c7f4"
 
 RPROVIDES:${PN} += "libQt5Sensors5-imports \
-libQt5Sensors5-imports(aarch-64) \
-libdeclarative_sensors.so()(64bit) \
-qt5qmlimport(QtSensors.5)"
+libdeclarative-sensors.so \
+qt5qmlimport-QtSensors.5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Sensors.so.5()(64bit) \
-libQt5Sensors.so.5(Qt_5)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Qml.so.5 \
+libQt5Sensors.so.5 \
 libQtQuick5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

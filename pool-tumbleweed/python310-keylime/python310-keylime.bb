@@ -10,16 +10,16 @@ RPM_HASH = "624fecef0f297a0178aa7678070be9c1e41660b03dd4ad67f5b1d9e3e836406fba72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keylime \
-python3.10dist(keylime) \
+python3.10dist-keylime \
 python310-keylime \
-python3dist(keylime)"
+python3dist-keylime"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 libtss2-tcti-device0 \
 libtss2-tcti-tabrmd0 \
 procps \
-python(abi) \
+python-abi \
 python310-M2Crypto \
 python310-PyYAML \
 python310-SQLAlchemy \
@@ -32,7 +32,7 @@ python310-psutil \
 python310-pyzmq \
 python310-requests \
 python310-tornado \
-python310-typing_extensions \
+python310-typing-extensions \
 tpm2-0-tss \
 tpm2.0-abrmd \
 tpm2.0-tools \

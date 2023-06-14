@@ -14,12 +14,12 @@ RPM_HASH = "ee76ce0e931b512e8f74e9cc3f24bccfa57b68c806ee3be597077137abaa5a94bfb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyqtgraph \
-python3.10dist(pyqtgraph) \
+python3.10dist-pyqtgraph \
 python310-pyqtgraph \
-python3dist(pyqtgraph)"
+python3dist-pyqtgraph"
 
-RDEPENDS:${PN} += "(python310-qt5 >= 5.12 or python310-PyQt6 >= 6.1 or python3-pyside2 >= 5.12) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-qt5 >= 5.12 or python310-PyQt6 >= 6.1 or python3-pyside2 >= 5.12 \
+python-abi \
 python310-numpy"
 
 inherit rpm

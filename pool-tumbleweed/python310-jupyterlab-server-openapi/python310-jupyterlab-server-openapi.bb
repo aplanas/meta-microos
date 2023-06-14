@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-jupyterlab-server-openapi \
 python310-jupyterlab-server-openapi"
 
-RDEPENDS:${PN} += "(python310-openapi-core >= 0.16.1 with python310-openapi-core < 0.17) \
+RDEPENDS:${PN} += "-python310-openapi-core >= 0.16.1 with python310-openapi-core < 0.17 \
 python310-jupyterlab-server \
 python310-ruamel.yaml"
 

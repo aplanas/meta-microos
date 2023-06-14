@@ -14,21 +14,21 @@ RPM_HASH = "9d1f84322dde555d4c1f5ae520f9442ca866b0161c18026f95f1175ef2197a4bbf51
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-client \
-mvn(org.apache.httpcomponents:fluent-hc) \
-mvn(org.apache.httpcomponents:fluent-hc:pom:) \
-mvn(org.apache.httpcomponents:httpclient) \
-mvn(org.apache.httpcomponents:httpclient:pom:) \
-mvn(org.apache.httpcomponents:httpmime) \
-mvn(org.apache.httpcomponents:httpmime:pom:) \
-osgi(org.apache.httpcomponents.fluent-hc) \
-osgi(org.apache.httpcomponents.httpclient) \
-osgi(org.apache.httpcomponents.httpmime)"
+mvn-org.apache.httpcomponents-fluent-hc \
+mvn-org.apache.httpcomponents-fluent-hc-pom- \
+mvn-org.apache.httpcomponents-httpclient \
+mvn-org.apache.httpcomponents-httpclient-pom- \
+mvn-org.apache.httpcomponents-httpmime \
+mvn-org.apache.httpcomponents-httpmime-pom- \
+osgi-org.apache.httpcomponents.fluent-hc \
+osgi-org.apache.httpcomponents.httpclient \
+osgi-org.apache.httpcomponents.httpmime"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(commons-codec:commons-codec) \
-mvn(commons-logging:commons-logging) \
-mvn(org.apache.httpcomponents:httpcore) \
+mvn-commons-codec-commons-codec \
+mvn-commons-logging-commons-logging \
+mvn-org.apache.httpcomponents-httpcore \
 publicsuffix"
 
 inherit rpm

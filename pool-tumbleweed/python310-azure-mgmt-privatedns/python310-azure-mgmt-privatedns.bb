@@ -14,12 +14,12 @@ RPM_HASH = "0f01af131de8fd5af8e665fd7adc1179e87cc24d0094aaaea1c2fbd186abf0be9601
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-privatedns \
-python3.10dist(azure-mgmt-privatedns) \
+python3.10dist-azure-mgmt-privatedns \
 python310-azure-mgmt-privatedns \
-python3dist(azure-mgmt-privatedns)"
+python3dist-azure-mgmt-privatedns"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

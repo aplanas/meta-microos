@@ -11,11 +11,11 @@ RPM_HASH = "6b4cec5d9d32fb700bb239cd9d55be9074bcdc5d394afa98bcb9b149867f91ba9a35
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydocumentdb \
-python3.10dist(pydocumentdb) \
+python3.10dist-pydocumentdb \
 python310-pydocumentdb \
-python3dist(pydocumentdb)"
+python3dist-pydocumentdb"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-requests \
 python310-six"
 

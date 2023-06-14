@@ -15,7 +15,7 @@ RPM_NAME = "texlive-econometrics-2023.201.1.0svn39396-53.1.noarch.rpm"
 RPM_HASH = "3931689566a547fc1815cc5027e5d189243d744a808f12fe28192d20686d49387c14dd7f8255c7102e0434518b2293e0d410fe38ea7137964f6b938232a41fab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(econometrics.sty) \
+RPROVIDES:${PN} += "tex-econometrics.sty \
 texlive-econometrics"
 
 RDEPENDS:${PN} += "/bin/sh \

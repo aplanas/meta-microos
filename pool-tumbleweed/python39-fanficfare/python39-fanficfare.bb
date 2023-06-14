@@ -16,13 +16,13 @@ RPM_NAME = "python39-fanficfare-4.21.0-2.2.noarch.rpm"
 RPM_HASH = "8b027a2c206fa2cd5734bf82ce11f9940fcd191890d0227dca32b22188e93770f99ab5fdd9ff168dd9c60c894acc90a97a50ab99075e0132b5fa2765d799ce18"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(fanficfare) \
+RPROVIDES:${PN} += "python3.9dist-fanficfare \
 python39-fanficfare \
-python3dist(fanficfare)"
+python3dist-fanficfare"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-beautifulsoup4 \
 python39-chardet \
 python39-cloudscraper \

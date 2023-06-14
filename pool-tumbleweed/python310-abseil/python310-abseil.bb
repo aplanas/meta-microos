@@ -16,11 +16,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-abseil \
 python3-absl-py \
-python3.10dist(absl-py) \
+python3.10dist-absl-py \
 python310-abseil \
 python310-absl-py \
-python3dist(absl-py)"
+python3dist-absl-py"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

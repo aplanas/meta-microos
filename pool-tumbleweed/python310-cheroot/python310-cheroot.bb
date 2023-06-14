@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Cheroot \
 python3-cheroot \
-python3.10dist(cheroot) \
+python3.10dist-cheroot \
 python310-Cheroot \
 python310-cheroot \
-python3dist(cheroot)"
+python3dist-cheroot"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-jaraco.functools \
 python310-more-itertools"
 

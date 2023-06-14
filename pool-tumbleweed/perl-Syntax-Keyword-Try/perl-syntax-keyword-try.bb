@@ -21,14 +21,13 @@ PV = "0.28"
 RPM_NAME = "perl-Syntax-Keyword-Try-0.28-1.3.aarch64.rpm"
 RPM_HASH = "31a0ba82615d7371aebead8b376440c349686b20db369eb60485812520f4dc47a43ccb61546a78df65cb6cb727db10721c0eba6d4d0fed8c1138cedf68f481f6"
 
-RPROVIDES:${PN} += "perl(Syntax::Keyword::Try) \
-perl(Syntax::Keyword::Try::Deparse) \
-perl-Syntax-Keyword-Try \
-perl-Syntax-Keyword-Try(aarch-64)"
+RPROVIDES:${PN} += "perl-Syntax--Keyword--Try \
+perl-Syntax--Keyword--Try--Deparse \
+perl-Syntax-Keyword-Try"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(XS::Parse::Keyword)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0 \
+perl-XS--Parse--Keyword"
 
 inherit rpm

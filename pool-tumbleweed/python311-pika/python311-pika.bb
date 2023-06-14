@@ -11,11 +11,11 @@ RPM_NAME = "python311-pika-1.3.1-1.3.noarch.rpm"
 RPM_HASH = "9e7e4267a97a79b48294454f5f35d17133c34d8fc1249fce93d267f80f9573fa33c9e9de12fabb340a74a91de08f8bccdc57105c4d235f5a98ed70d420052326"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pika) \
+RPROVIDES:${PN} += "python3.11dist-pika \
 python311-pika \
-python3dist(pika)"
+python3dist-pika"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311"
 
 inherit rpm

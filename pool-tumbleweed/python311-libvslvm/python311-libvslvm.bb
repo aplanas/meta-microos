@@ -8,17 +8,13 @@ PV = "20221025"
 RPM_NAME = "python311-libvslvm-20221025-3.7.aarch64.rpm"
 RPM_HASH = "6f5084fb3cc520003205b1404b84f137b680abe672ba46c774a51d64aa43ac6c03776eafbbf7d4b3d875cac2ae761d1a7ea35acb403cbe1342f896921e34116f"
 
-RPROVIDES:${PN} += "python311-libvslvm \
-python311-libvslvm(aarch-64)"
+RPROVIDES:${PN} += "python311-libvslvm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libvslvm.so.1()(64bit) \
-libvslvm.so.1(V_20221025)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libvslvm.so.1 \
+python-abi"
 
 inherit rpm

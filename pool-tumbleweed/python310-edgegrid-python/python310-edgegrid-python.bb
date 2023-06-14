@@ -9,11 +9,11 @@ RPM_HASH = "dca9d9bff2f910240fff2f3eebede8c86600cd91d24a3b6a438f6a5b8e15a9f1ac75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-edgegrid-python \
-python3.10dist(edgegrid-python) \
+python3.10dist-edgegrid-python \
 python310-edgegrid-python \
-python3dist(edgegrid-python)"
+python3dist-edgegrid-python"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ndg-httpsclient \
 python310-pyOpenSSL \
 python310-pyasn1 \

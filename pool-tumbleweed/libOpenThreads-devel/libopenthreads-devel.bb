@@ -15,8 +15,7 @@ RPM_NAME = "libOpenThreads-devel-3.6.5-8.6.aarch64.rpm"
 RPM_HASH = "4f9e0528c18f4df03a45e27e16839a3fbf0365d528173952aa5db9c5dc2d7afe009537dd6519431c19023bfdabe9afe1f064f8997d223a83b90a262a26b88671"
 
 RPROVIDES:${PN} += "libOpenThreads-devel \
-libOpenThreads-devel(aarch-64) \
-pkgconfig(openthreads)"
+pkgconfig-openthreads"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOpenThreads21"

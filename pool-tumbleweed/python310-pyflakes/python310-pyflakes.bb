@@ -11,13 +11,13 @@ RPM_HASH = "4b718dce04cc5917e534e8d50c70a8a4bccd87497b07d8d5cace18aa7c3d53d75e04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyflakes \
-python3.10dist(pyflakes) \
+python3.10dist-pyflakes \
 python310-pyflakes \
-python3dist(pyflakes)"
+python3dist-pyflakes"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

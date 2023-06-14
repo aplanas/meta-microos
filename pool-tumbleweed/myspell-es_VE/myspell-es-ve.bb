@@ -8,10 +8,10 @@ RPM_NAME = "myspell-es_VE-20221012-1.2.noarch.rpm"
 RPM_HASH = "231244d20bfc9faf76864cf375c02885b7f8b123b936607f5dd0009c9793b3399f1c75bfeb0edfdfb2653ef648f699c8caa7fca30d07a9a7c91b3a4a4937cd33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_VE) \
-locale(seamonkey-spellchecker:es_VE) \
+RPROVIDES:${PN} += "locale-libreoffice-es-VE \
+locale-seamonkey-spellchecker-es-VE \
 myspell-dictionary \
-myspell-es_VE \
+myspell-es-VE \
 myspell-spanish-venezuelan"
 
 RDEPENDS:${PN} += "myspell-dictionaries \

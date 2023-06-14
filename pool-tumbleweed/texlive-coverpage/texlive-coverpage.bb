@@ -23,8 +23,8 @@ RPM_NAME = "texlive-coverpage-2023.204.1.01svn63509-54.1.noarch.rpm"
 RPM_HASH = "51782b0d61bda58f863b01eea4ac6f7a9850feceba4e5a18ab89212aea6eb61b7d6c568e2e50dc51d45deff064ede085b08c105475f417d938eb442c309effb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(CoverPage.cfg) \
-tex(CoverPage.sty) \
+RPROVIDES:${PN} += "tex-CoverPage.cfg \
+tex-CoverPage.sty \
 texlive-coverpage"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -33,10 +33,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(keyval.sty) \
-tex(textcomp.sty) \
-tex(url.sty) \
-tex(verbatim.sty) \
+tex-keyval.sty \
+tex-textcomp.sty \
+tex-url.sty \
+tex-verbatim.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

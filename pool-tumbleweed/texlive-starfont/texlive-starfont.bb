@@ -12,10 +12,10 @@ RPM_NAME = "texlive-starfont-2023.201.1.2svn19982-57.1.noarch.rpm"
 RPM_HASH = "4eadef07f8f2652323ff285052ebe6ed098ad7ce27a70b284995328ecec4d0c8eaaa21c5ab0f954065ce6a3b12a0aa28ec3fbf975fe6838a69e96fe38cb7cfd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fstr8x.tfm) \
-tex(fsts8x.tfm) \
-tex(starfont.map) \
-tex(starfont.sty) \
+RPROVIDES:${PN} += "tex-fstr8x.tfm \
+tex-fsts8x.tfm \
+tex-starfont.map \
+tex-starfont.sty \
 texlive-starfont"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,7 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(updmap.cfg) \
+tex-updmap.cfg \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

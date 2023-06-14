@@ -10,17 +10,13 @@ RPM_NAME = "vorta-0.8.12-1.1.noarch.rpm"
 RPM_HASH = "ce5b71af17e3c7ad3e2bf2640ed77d425c341bf5d2ef178206cfdef9a01ddb1a60e032f3be602278bd85edc2546cac0792ec31632576cda45fd6e3a59287a4df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(vorta.desktop) \
-metainfo() \
-metainfo(com.borgbase.Vorta.appdata.xml) \
-python3.10dist(vorta) \
-python3dist(vorta) \
+RPROVIDES:${PN} += "python3.10dist-vorta \
+python3dist-vorta \
 vorta"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 borgbackup \
-python(abi) \
+python-abi \
 python3-APScheduler \
 python3-QDarkStyle \
 python3-keyring \

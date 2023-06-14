@@ -9,9 +9,9 @@ RPM_HASH = "a311a9bba1f7eefc895dc96e9a32fd9eb9323ccbc98f0350b08caad6309d34bde077
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-annotation-api \
-mvn(javax.annotation:javax.annotation-api) \
-mvn(javax.annotation:javax.annotation-api:pom:) \
-osgi(javax.annotation-api)"
+mvn-javax.annotation-javax.annotation-api \
+mvn-javax.annotation-javax.annotation-api-pom- \
+osgi-javax.annotation-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

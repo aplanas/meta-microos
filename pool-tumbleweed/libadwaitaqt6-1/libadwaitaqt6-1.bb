@@ -12,21 +12,17 @@ RPM_NAME = "libadwaitaqt6-1-1.4.2-3.3.aarch64.rpm"
 RPM_HASH = "b05c3fdb39fdf061b8be14ea1025cb11a9374690b59802f7b3b33da04e43eafd40ce5a8bcebcf6d3b4513165c0abcb82e3fee03a7e5667203b94d57895818d1b"
 
 RPROVIDES:${PN} += "libadwaitaqt6-1 \
-libadwaitaqt6-1(aarch-64) \
-libadwaitaqt6.so.1()(64bit) \
-libadwaitaqt6priv.so.1()(64bit)"
+libadwaitaqt6.so.1 \
+libadwaitaqt6priv.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

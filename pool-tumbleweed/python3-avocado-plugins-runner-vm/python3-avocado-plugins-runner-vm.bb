@@ -11,10 +11,10 @@ RPM_HASH = "2f2b23ea37277ab1396bdfff4157da7bafd039cc3470d8092c088cd571af7b106f49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-runner-vm \
-python3.10dist(avocado-framework-plugin-runner-vm) \
-python3dist(avocado-framework-plugin-runner-vm)"
+python3.10dist-avocado-framework-plugin-runner-vm \
+python3dist-avocado-framework-plugin-runner-vm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-avocado \
 python3-avocado-plugins-runner-remote \
 python3-libvirt-python"

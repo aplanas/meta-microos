@@ -9,11 +9,11 @@ RPM_HASH = "1ffd3b36ddcd0bc9ce2b27c0e80318e8bbbe8ecefc0ebeeb1a9d72a73b00d6b83c26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certbot-dns-cloudxns \
-python3.10dist(certbot-dns-cloudxns) \
+python3.10dist-certbot-dns-cloudxns \
 python310-certbot-dns-cloudxns \
-python3dist(certbot-dns-cloudxns)"
+python3dist-certbot-dns-cloudxns"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-acme \
 python310-certbot \
 python310-dns-lexicon \

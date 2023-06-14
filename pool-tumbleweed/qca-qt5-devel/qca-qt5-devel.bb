@@ -9,23 +9,21 @@ PV = "2.3.6"
 RPM_NAME = "qca-qt5-devel-2.3.6-1.1.aarch64.rpm"
 RPM_HASH = "38dd772f8745f6ba736275f6bffc593bb324d774dd91845b4888477d5c5b10474cd773825e1d81b07ef6be9b9bfecafaddf24c8d8109cbbb2b7ffb8bab672a4e"
 
-RPROVIDES:${PN} += "cmake(Qca-qt5) \
+RPROVIDES:${PN} += "cmake-Qca-qt5 \
 libqca-qt5-devel \
-pkgconfig(qca2-qt5) \
-qca-qt5-devel \
-qca-qt5-devel(aarch-64)"
+pkgconfig-qca2-qt5 \
+qca-qt5-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-cmake(Qt5Core) \
-cmake(Qt5Network) \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+cmake-Qt5Core \
+cmake-Qt5Network \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
 libqca-qt5-2 \
-libqca-qt5.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-pkgconfig(Qt5Core)"
+libqca-qt5.so.2 \
+libstdc++.so.6 \
+pkgconfig-Qt5Core"
 
 inherit rpm

@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ocr-gnu-hpc-examples"
 
 RDEPENDS:${PN} += "/bin/sh \
-ocr_1_0_1-gnu-hpc-examples"
+ocr-1-0-1-gnu-hpc-examples"
 
 inherit rpm

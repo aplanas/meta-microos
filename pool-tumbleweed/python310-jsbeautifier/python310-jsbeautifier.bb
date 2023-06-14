@@ -9,13 +9,13 @@ RPM_HASH = "c4ac539f90966217a13b8f262eeb80a4cdf9491f2cdb59270a49da50f0623c12f034
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsbeautifier \
-python3.10dist(jsbeautifier) \
+python3.10dist-jsbeautifier \
 python310-jsbeautifier \
-python3dist(jsbeautifier)"
+python3dist-jsbeautifier"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-EditorConfig \
 python310-setuptools \
 python310-six \

@@ -36,18 +36,17 @@ PV = "4.9.2"
 RPM_NAME = "libnetcdf_4_9_2-gnu-mvapich2-hpc-4.9.2-1.1.aarch64.rpm"
 RPM_HASH = "8a7a99c1a3331da8234a60b49809bf0cc963db3409dd16c66daab02978a7d6a04baa3cbaa8d651716a53aecf8225603c57891a3fb9a9efdd58fda4b8dc14d762"
 
-RPROVIDES:${PN} += "libnetcdf_4_9_2-gnu-mvapich2-hpc \
-libnetcdf_4_9_2-gnu-mvapich2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf-4-9-2-gnu-mvapich2-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcurl.so.4()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcurl.so.4 \
 libhdf5-gnu-mvapich2-hpc \
-libhdf5_hl-gnu-mvapich2-hpc \
-libm.so.6()(64bit) \
-libxml2.so.2()(64bit) \
+libhdf5-hl-gnu-mvapich2-hpc \
+libm.so.6 \
+libxml2.so.2 \
 lua-lmod \
 mvapich2-gnu-hpc"
 

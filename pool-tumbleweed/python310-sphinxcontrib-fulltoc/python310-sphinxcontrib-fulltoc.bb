@@ -14,10 +14,10 @@ RPM_HASH = "69de4b9dba32e5bdd9b64aec99369479dbdb80e78cebcdb02a29c70a1f84e2939d70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-fulltoc \
-python3.10dist(sphinxcontrib-fulltoc) \
+python3.10dist-sphinxcontrib-fulltoc \
 python310-sphinxcontrib-fulltoc \
-python3dist(sphinxcontrib-fulltoc)"
+python3dist-sphinxcontrib-fulltoc"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

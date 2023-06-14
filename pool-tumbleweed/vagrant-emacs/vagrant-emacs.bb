@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-emacs"
 
-RDEPENDS:${PN} += "emacs_program \
+RDEPENDS:${PN} += "emacs-program \
 vagrant"
 
 inherit rpm

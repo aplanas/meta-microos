@@ -16,10 +16,10 @@ RPM_HASH = "24e99b5a2f5577b39d3ee39e23d060647cff9b7e91c7a03f819fa2a1d8992d2053eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-os-client-config \
-python3.10dist(os-client-config) \
-python3dist(os-client-config)"
+python3.10dist-os-client-config \
+python3dist-os-client-config"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-PyYAML \
 python3-appdirs \
 python3-keystoneauth1 \

@@ -16,12 +16,11 @@ RPM_NAME = "python39-importlib-resources-5.12.0-1.1.noarch.rpm"
 RPM_HASH = "360c2fa21d3e174635aea0ae476e5864b7e7ea90606ff8a83515fa49bb5ee57da3f1ceac1bdeca7d03d131a3a2e96ba27b5cc3b68a8bcff47df064c47050069c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(importlib-resources) \
+RPROVIDES:${PN} += "python3.9dist-importlib-resources \
 python39-importlib-resources \
-python39-importlib_resources \
-python3dist(importlib-resources)"
+python3dist-importlib-resources"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-zipp"
 
 inherit rpm

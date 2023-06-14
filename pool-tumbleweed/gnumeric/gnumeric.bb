@@ -22,70 +22,34 @@ PV = "1.12.55"
 RPM_NAME = "gnumeric-1.12.55-1.3.aarch64.rpm"
 RPM_HASH = "bcb964df3ba65e0fab4bcf3fa9a1186c5999a679f1e30205bc748603604ae166d52e93dddc4266d5529e4d07e54d2494673ec85fe57e17e5051f8a50f7928307"
 
-RPROVIDES:${PN} += "application() \
-application(gnumeric.desktop) \
-gnumeric \
-gnumeric(aarch-64) \
+RPROVIDES:${PN} += "gnumeric \
 gnumeric2 \
-libspreadsheet-1.12.55.so()(64bit) \
-metainfo() \
-metainfo(gnumeric.appdata.xml) \
-mimehandler(application/excel) \
-mimehandler(application/msexcel) \
-mimehandler(application/tab-separated-values) \
-mimehandler(application/vnd.lotus-1-2-3) \
-mimehandler(application/vnd.ms-excel) \
-mimehandler(application/vnd.oasis.opendocument.spreadsheet) \
-mimehandler(application/vnd.openxmlformats-officedocument.spreadsheetml.sheet) \
-mimehandler(application/vnd.sun.xml.calc) \
-mimehandler(application/vnd.sun.xml.calc.template) \
-mimehandler(application/x-123) \
-mimehandler(application/x-applix-spreadsheet) \
-mimehandler(application/x-dbase) \
-mimehandler(application/x-dbf) \
-mimehandler(application/x-dos_ms_excel) \
-mimehandler(application/x-excel) \
-mimehandler(application/x-gnumeric) \
-mimehandler(application/x-mps) \
-mimehandler(application/x-ms-excel) \
-mimehandler(application/x-msexcel) \
-mimehandler(application/x-oleo) \
-mimehandler(application/x-planperfect) \
-mimehandler(application/x-quattropro) \
-mimehandler(application/x-sc) \
-mimehandler(application/x-sylk) \
-mimehandler(application/x-xbase) \
-mimehandler(application/x-xls) \
-mimehandler(application/xls) \
-mimehandler(text/csv) \
-mimehandler(text/spreadsheet) \
-mimehandler(text/tab-separated-values) \
-mimehandler(text/x-csv)"
+libspreadsheet-1.12.55.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libatk-1.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgda-6.0.so.6.0.0()(64bit) \
-libgda-ui-6.0.so.6.0.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgoffice-0.10.so.10()(64bit) \
-libgsf-1.so.114()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libperl.so()(64bit) \
-libxml2.so.2()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libatk-1.0.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgda-6.0.so.6.0.0 \
+libgda-ui-6.0.so.6.0.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgoffice-0.10.so.10 \
+libgsf-1.so.114 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libperl.so \
+libxml2.so.2 \
+libz.so.1 \
 perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

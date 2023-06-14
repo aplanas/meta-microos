@@ -20,11 +20,11 @@ RPM_NAME = "python39-injector-0.20.1-1.3.noarch.rpm"
 RPM_HASH = "9cc5b822bb3f4712ec5880dcbcf44efca71f066b8a4bddae01e5d9ff844f2c724175b89f0793f8e8b3ddc0c13c652e818db6929ae04b39b29fdb311df8b93ad1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(injector) \
+RPROVIDES:${PN} += "python3.9dist-injector \
 python39-injector \
-python3dist(injector)"
+python3dist-injector"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39"
 
 inherit rpm

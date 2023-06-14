@@ -9,11 +9,11 @@ RPM_HASH = "75d57defa38a74a6c186c462555d89a6e01935f372b4dfafa3010867a4b4aed37643
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyramid-mako \
-python3.10dist(pyramid-mako) \
+python3.10dist-pyramid-mako \
 python310-pyramid-mako \
-python3dist(pyramid-mako)"
+python3dist-pyramid-mako"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Mako \
 python310-pyramid"
 

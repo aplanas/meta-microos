@@ -10,11 +10,11 @@ RPM_HASH = "74d43cdcbdf0aa4ca6eba78d4368259a79e268ae9e689a5465dc55e2d6ff8eacf8bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-websupport \
-python3.10dist(sphinxcontrib-websupport) \
+python3.10dist-sphinxcontrib-websupport \
 python310-sphinxcontrib-websupport \
-python3dist(sphinxcontrib-websupport)"
+python3dist-sphinxcontrib-websupport"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-docutils"
 

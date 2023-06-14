@@ -15,10 +15,10 @@ RPM_NAME = "python39-zope.cachedescriptors-5.0-1.1.noarch.rpm"
 RPM_HASH = "e6061f52990447875cb6663de4eb25bc429dd96c8c90a9721cdd8db70d11fd9d0cc6d79f49ef929a686558eb7d17a6e7edd1903130c15cf02b936bc778859234"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(zope.cachedescriptors) \
+RPROVIDES:${PN} += "python3.9dist-zope.cachedescriptors \
 python39-zope.cachedescriptors \
-python3dist(zope.cachedescriptors)"
+python3dist-zope.cachedescriptors"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

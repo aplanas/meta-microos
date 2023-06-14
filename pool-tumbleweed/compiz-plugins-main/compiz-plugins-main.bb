@@ -9,50 +9,48 @@ RPM_NAME = "compiz-plugins-main-0.8.18-1.15.aarch64.rpm"
 RPM_HASH = "c8bac429710e293342eb4f1fc980ed3e638f7890eeae7c705a88dd5405a2f0a74397d4e967190f463817abbd197d01ed231b2060f18d01a15e8425a7a4cffb79"
 
 RPROVIDES:${PN} += "compiz-plugins-main \
-compiz-plugins-main(aarch-64) \
-libanimation.so()(64bit) \
-libcolorfilter.so()(64bit) \
-libexpo.so()(64bit) \
-libezoom.so()(64bit) \
-libfocuspoll.so()(64bit) \
-libimgjpeg.so()(64bit) \
-libmag.so()(64bit) \
-libmousepoll.so()(64bit) \
-libneg.so()(64bit) \
-libopacify.so()(64bit) \
-libput.so()(64bit) \
-libresizeinfo.so()(64bit) \
-libring.so()(64bit) \
-libscaleaddon.so()(64bit) \
-libsession.so()(64bit) \
-libshift.so()(64bit) \
-libsnap.so()(64bit) \
-libstaticswitcher.so()(64bit) \
-libtext.so()(64bit) \
-libthumbnail.so()(64bit) \
-libtitleinfo.so()(64bit) \
-libvpswitch.so()(64bit) \
-libwinrules.so()(64bit) \
-libworkarounds.so()(64bit)"
+libanimation.so \
+libcolorfilter.so \
+libexpo.so \
+libezoom.so \
+libfocuspoll.so \
+libimgjpeg.so \
+libmag.so \
+libmousepoll.so \
+libneg.so \
+libopacify.so \
+libput.so \
+libresizeinfo.so \
+libring.so \
+libscaleaddon.so \
+libsession.so \
+libshift.so \
+libsnap.so \
+libstaticswitcher.so \
+libtext.so \
+libthumbnail.so \
+libtitleinfo.so \
+libvpswitch.so \
+libwinrules.so \
+libworkarounds.so"
 
 RDEPENDS:${PN} += "compiz-plugins \
-ld-linux-aarch64.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXrender.so.1()(64bit) \
-libatspi.so.0()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libGLU.so.1 \
+libX11.so.6 \
+libXfixes.so.3 \
+libXrender.so.1 \
+libatspi.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-1.so.3 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libjpeg.so.8 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libstdc++.so.6 \
+libxml2.so.2"
 
 inherit rpm

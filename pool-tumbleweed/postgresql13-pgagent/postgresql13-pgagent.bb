@@ -8,18 +8,17 @@ PV = "4.2.2"
 RPM_NAME = "postgresql13-pgagent-4.2.2-2.2.aarch64.rpm"
 RPM_HASH = "e5ce36b46166d9f576a9b11993a98f3232556ed4cb9b593fa8fef2f89d36199d2491d48db0fcbd0542f4f84b7fc5b6894d066f6641498fcdd55728d396d84d76"
 
-RPROVIDES:${PN} += "config(postgresql13-pgagent) \
-postgresql13-pgagent \
-postgresql13-pgagent(aarch-64)"
+RPROVIDES:${PN} += "config-postgresql13-pgagent \
+postgresql13-pgagent"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libpq.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libboost-filesystem.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libpq.so.5 \
+libstdc++.so.6 \
 postgresql13-server \
 shadow \
 systemd"

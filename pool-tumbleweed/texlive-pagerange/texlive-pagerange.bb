@@ -10,8 +10,8 @@ RPM_NAME = "texlive-pagerange-2023.201.0.0.5svn16915-51.1.noarch.rpm"
 RPM_HASH = "4c0bc060f88c382c1b921d33f011091af646c3ae06e909a1e791133e772c956675c1caace3994f32613b4e11b2b8f40779647c7fa631fd596660e14cb04ea2db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pagerange-guide.cfg) \
-tex(pagerange.sty) \
+RPROVIDES:${PN} += "tex-pagerange-guide.cfg \
+tex-pagerange.sty \
 texlive-pagerange"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,8 +20,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(lastpage.sty) \
-tex(xkeyval.sty) \
+tex-lastpage.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,13 +9,13 @@ RPM_HASH = "90ccec5e63a48a602fa4a761b85391eaf15520a597a0c3f524913fbd026b2483519d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-utils \
-mvn(org.glassfish.hk2:hk2-utils) \
-mvn(org.glassfish.hk2:hk2-utils:pom:) \
-osgi(org.glassfish.hk2.utils)"
+mvn-org.glassfish.hk2-hk2-utils \
+mvn-org.glassfish.hk2-hk2-utils-pom- \
+osgi-org.glassfish.hk2.utils"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.annotation:javax.annotation-api) \
-mvn(javax.inject:javax.inject)"
+mvn-javax.annotation-javax.annotation-api \
+mvn-javax.inject-javax.inject"
 
 inherit rpm

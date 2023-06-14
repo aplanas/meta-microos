@@ -9,9 +9,9 @@ RPM_NAME = "perl-Time-Out-0.11-3.26.noarch.rpm"
 RPM_HASH = "4b452adb94a55e0c6d3676525ef830ecb39cfda0b4292fd9ed3d6ebcbfbaa4988d69af6e889b60d6507f90005057549bff46bf46a99bee967aad747c233ac75b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Time::Out) \
+RPROVIDES:${PN} += "perl-Time--Out \
 perl-Time-Out"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

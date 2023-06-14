@@ -10,37 +10,37 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "info-lang \
 info-lang-all \
-locale(info:ca) \
-locale(info:cs) \
-locale(info:da) \
-locale(info:de) \
-locale(info:el) \
-locale(info:eo) \
-locale(info:es) \
-locale(info:fi) \
-locale(info:fr) \
-locale(info:he) \
-locale(info:hr) \
-locale(info:hu) \
-locale(info:id) \
-locale(info:it) \
-locale(info:ja) \
-locale(info:nb) \
-locale(info:nl) \
-locale(info:pl) \
-locale(info:pt) \
-locale(info:pt_BR) \
-locale(info:ro) \
-locale(info:ru) \
-locale(info:sk) \
-locale(info:sl) \
-locale(info:sr) \
-locale(info:sv) \
-locale(info:tr) \
-locale(info:uk) \
-locale(info:vi) \
-locale(info:zh_CN) \
-locale(info:zh_TW)"
+locale-info-ca \
+locale-info-cs \
+locale-info-da \
+locale-info-de \
+locale-info-el \
+locale-info-eo \
+locale-info-es \
+locale-info-fi \
+locale-info-fr \
+locale-info-he \
+locale-info-hr \
+locale-info-hu \
+locale-info-id \
+locale-info-it \
+locale-info-ja \
+locale-info-nb \
+locale-info-nl \
+locale-info-pl \
+locale-info-pt \
+locale-info-pt-BR \
+locale-info-ro \
+locale-info-ru \
+locale-info-sk \
+locale-info-sl \
+locale-info-sr \
+locale-info-sv \
+locale-info-tr \
+locale-info-uk \
+locale-info-vi \
+locale-info-zh-CN \
+locale-info-zh-TW"
 
 RDEPENDS:${PN} += "info"
 

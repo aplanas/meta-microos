@@ -9,18 +9,14 @@ RPM_HASH = "7f7407ccec6f469573020c5f88576e335063f13aa4df3c65acda063df0cd768e9c8e
 
 RPROVIDES:${PN} += "libqt5-qtbase-platformtheme-flatpak \
 libqt5-qtbase-platformtheme-xdgdesktopportal \
-libqt5-qtbase-platformtheme-xdgdesktopportal(aarch-64) \
-libqxdgdesktopportal.so()(64bit)"
+libqxdgdesktopportal.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
 libQt5Gui5 \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

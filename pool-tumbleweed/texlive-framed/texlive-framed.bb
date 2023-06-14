@@ -15,7 +15,7 @@ RPM_NAME = "texlive-framed-2023.201.0.0.96svn26789-52.1.noarch.rpm"
 RPM_HASH = "213901fc0c1c286ffa05ee2cf107e7e62e5f21a54e3eb772fa23ef9182719581ed3b59409d06d0817df81bd78db3edfe2af738f39f02fa3867708718fd4d4f4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(framed.sty) \
+RPROVIDES:${PN} += "tex-framed.sty \
 texlive-framed"
 
 RDEPENDS:${PN} += "/bin/sh \

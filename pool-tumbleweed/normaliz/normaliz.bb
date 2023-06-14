@@ -19,15 +19,14 @@ PV = "3.9.4"
 RPM_NAME = "normaliz-3.9.4-1.4.aarch64.rpm"
 RPM_HASH = "5203fce9e30da1f1972a0dc47bebb4732fe31a3861a1a9bb3f0999d0abab6e1daecd48089e40f5a8ba95a6f43b76c899e68676799ab415cf8a1e9097f1c73a00"
 
-RPROVIDES:${PN} += "normaliz \
-normaliz(aarch-64)"
+RPROVIDES:${PN} += "normaliz"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libeanticxx.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libnormaliz.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libeanticxx.so.1 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libnormaliz.so.3 \
+libstdc++.so.6"
 
 inherit rpm

@@ -20,38 +20,31 @@ RPM_NAME = "leechcraft-aggregator-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
 RPM_HASH = "581f5971653d6fd7bb630cfbc32dd80f21f963e4baf6a3a796291685d5d57bae866c1b602caaf8f3059fc06a29d9eff4c3f0c72dc1478f3fce1c97f51d02d72e"
 
 RPROVIDES:${PN} += "leechcraft-aggregator \
-leechcraft-aggregator(aarch-64) \
-libleechcraft_aggregator.so()(64bit)"
+libleechcraft-aggregator.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-http \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Sql.so.5 \
 libQt5Sql5-sqlite \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-db-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-gui-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-models-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-shortcuts-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-sll-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-sys-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-tags-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-threads-qt5.so.0.6.75()(64bit) \
-libleechcraft-util-xpc-qt5.so.0.6.75.2()(64bit) \
-libleechcraft-xsd-qt5.so.0.6.75.2()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-db-qt5.so.0.6.75.1 \
+libleechcraft-util-gui-qt5.so.0.6.75.1 \
+libleechcraft-util-models-qt5.so.0.6.75.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-shortcuts-qt5.so.0.6.75 \
+libleechcraft-util-sll-qt5.so.0.6.75.1 \
+libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-tags-qt5.so.0.6.75.1 \
+libleechcraft-util-threads-qt5.so.0.6.75 \
+libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-xsd-qt5.so.0.6.75.2 \
+libstdc++.so.6"
 
 inherit rpm

@@ -21,7 +21,7 @@ RPM_NAME = "texlive-amscdx-2023.201.2.2xsvn51532-54.1.noarch.rpm"
 RPM_HASH = "57ae4ac458c5b56a51c54d3c90efbc20f2bdef6bc9ab6daf31e8bd597685069b23fc87c46f70a93d30ec6a5eb11dd96c0b10052d056f88b757054db409a08da2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(amscdx.sty) \
+RPROVIDES:${PN} += "tex-amscdx.sty \
 texlive-amscdx"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,9 +30,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsgen.sty) \
-tex(graphicx.sty) \
-tex(xcolor.sty) \
+tex-amsgen.sty \
+tex-graphicx.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

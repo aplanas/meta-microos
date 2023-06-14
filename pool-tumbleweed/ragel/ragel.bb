@@ -12,15 +12,14 @@ PV = "7.0.4"
 RPM_NAME = "ragel-7.0.4-1.10.aarch64.rpm"
 RPM_HASH = "4ec8e0e0ff2a6573055e6ef5ec66653111642f2ebdca37abe26e1e589791c27ece0ccec5e54a1b2b736bca3886d8236c01d5be67474cb4bbe4c8c0754109efdf"
 
-RPROVIDES:${PN} += "libragel.so.0()(64bit) \
-ragel \
-ragel(aarch-64)"
+RPROVIDES:${PN} += "libragel.so.0 \
+ragel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcolm-0.14.7.so()(64bit) \
-libfsm-0.14.7.so()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcolm-0.14.7.so \
+libfsm-0.14.7.so \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

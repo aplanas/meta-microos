@@ -10,10 +10,10 @@ RPM_HASH = "b6e24b18e10934459d87e910b44b8085c6fd0f872d2fc367af877cbb25888407bf3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flit-core \
-python3.10dist(flit-core) \
+python3.10dist-flit-core \
 python310-flit-core \
-python3dist(flit-core)"
+python3dist-flit-core"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

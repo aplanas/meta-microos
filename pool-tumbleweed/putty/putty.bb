@@ -13,22 +13,19 @@ PV = "0.78"
 RPM_NAME = "putty-0.78-1.3.aarch64.rpm"
 RPM_HASH = "1c3a99d7c331fd686659267c9695e28dc4cacc605a5e0305018aec1e335f9e1698511d38629617e8ceb90fa519c00251f6d472cbd98396b7999d79b483be4043"
 
-RPROVIDES:${PN} += "application() \
-application(putty.desktop) \
-putty \
-putty(aarch-64)"
+RPROVIDES:${PN} += "putty"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0"
 
 inherit rpm

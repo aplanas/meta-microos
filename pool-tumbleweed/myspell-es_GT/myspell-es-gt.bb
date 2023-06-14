@@ -8,10 +8,10 @@ RPM_NAME = "myspell-es_GT-20221012-1.2.noarch.rpm"
 RPM_HASH = "5a05e3e5762aa12fe12e01be2ee9fd01060310b37981d3c3efcec11256ea1dab7adec22ab0e3ccca0480e6aa4ba7f01cfaf38bfc41362c54878f56f32f8cc1d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:es_GT) \
-locale(seamonkey-spellchecker:es_GT) \
+RPROVIDES:${PN} += "locale-libreoffice-es-GT \
+locale-seamonkey-spellchecker-es-GT \
 myspell-dictionary \
-myspell-es_GT \
+myspell-es-GT \
 myspell-spanish-guatemalan"
 
 RDEPENDS:${PN} += "myspell-dictionaries \

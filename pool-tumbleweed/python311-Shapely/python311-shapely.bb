@@ -12,17 +12,16 @@ PV = "1.8.4"
 RPM_NAME = "python311-Shapely-1.8.4-1.7.aarch64.rpm"
 RPM_HASH = "b7162133627015ed9adec18d79c0e39596985fd6b0d70e926508a84c826e7821a5d1424d67aada8263f9ed03b2e66509d14aaff1828bdf04479d975e27d301c7"
 
-RPROVIDES:${PN} += "python3.11dist(shapely) \
+RPROVIDES:${PN} += "python3.11dist-shapely \
 python311-Shapely \
-python311-Shapely(aarch-64) \
 python311-shapely \
-python3dist(shapely)"
+python3dist-shapely"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgeos3_11_2 \
-libgeos_c.so.1()(64bit) \
-libgeos_c1 \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgeos-c.so.1 \
+libgeos-c1 \
+libgeos3-11-2 \
+python-abi"
 
 inherit rpm

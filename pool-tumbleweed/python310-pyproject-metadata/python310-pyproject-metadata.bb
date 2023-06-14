@@ -16,11 +16,11 @@ RPM_HASH = "ba02270dd42ad85d21debb4d6b2750fa98f913cf106268071302a942a155fbca49ab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyproject-metadata \
-python3.10dist(pyproject-metadata) \
+python3.10dist-pyproject-metadata \
 python310-pyproject-metadata \
-python3dist(pyproject-metadata)"
+python3dist-pyproject-metadata"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-packaging"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "59f1e94190d582225b95043c95fffd2f005349e134a3dfb595affb8af5b1bfe2c445
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rpcq \
-python3.10dist(rpcq) \
+python3.10dist-rpcq \
 python310-rpcq \
-python3dist(rpcq)"
+python3dist-rpcq"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-msgpack \
 python310-python-rapidjson \
 python310-pyzmq \

@@ -26,10 +26,10 @@ RPM_HASH = "a59cb6b58d80619eacd7628eafa46891165fccad9b6d564dcb250cef1f9688769725
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-mybatis \
-mvn(org.mybatis:mybatis) \
-mvn(org.mybatis:mybatis:pom:) \
+mvn-org.mybatis-mybatis \
+mvn-org.mybatis-mybatis-pom- \
 mybatis \
-osgi(org.mybatis.mybatis)"
+osgi-org.mybatis.mybatis"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

@@ -40,17 +40,16 @@ PV = "2.11"
 RPM_NAME = "signing-party-2.11-1.8.aarch64.rpm"
 RPM_HASH = "e31743e6b86ca0ce485cb04ce772e95c9530be2f41549af01593322945c8f899e4b8322dac967bebb3657f4ec4d4856307ebf74ed2c4fd4bfb40d65b0c4ad8f2"
 
-RPROVIDES:${PN} += "signing-party \
-signing-party(aarch-64)"
+RPROVIDES:${PN} += "signing-party"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \
 /usr/sbin/sendmail \
 gpg \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmd.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmd.so.0 \
 perl \
 perl-GnuPG-Interface \
 perl-MIME-tools \

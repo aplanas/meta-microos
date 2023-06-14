@@ -15,7 +15,7 @@ RPM_NAME = "texlive-appendixnumberbeamer-2023.201.1.2svn46317-54.1.noarch.rpm"
 RPM_HASH = "19ff6108c8d08a1329427f5fa20ea00a32e8406103b288753b0b16a98097fc8bcad1785e0311a3aec7ecef512995e6551cdbd31f3accf93b6e8b45eebe8bc8ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(appendixnumberbeamer.sty) \
+RPROVIDES:${PN} += "tex-appendixnumberbeamer.sty \
 texlive-appendixnumberbeamer"
 
 RDEPENDS:${PN} += "/bin/sh \

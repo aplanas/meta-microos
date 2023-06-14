@@ -13,20 +13,20 @@ RPM_HASH = "328e2d389c201a7ab07717e0bba8232642d7b255943c50c4915ba4624ca0545b3820
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-magic-wormhole \
-python3.10dist(magic-wormhole) \
+python3.10dist-magic-wormhole \
 python310-magic-wormhole \
-python3dist(magic-wormhole)"
+python3dist-magic-wormhole"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Automat \
 python310-PyNaCl \
 python310-click \
 python310-hkdf \
 python310-humanize \
 python310-magic-wormhole-mailbox-server \
-python310-service_identity \
+python310-service-identity \
 python310-spake2 \
 python310-tqdm \
 python310-txtorcon \

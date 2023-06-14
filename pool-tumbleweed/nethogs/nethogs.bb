@@ -12,15 +12,14 @@ PV = "0.8.7"
 RPM_NAME = "nethogs-0.8.7-1.6.aarch64.rpm"
 RPM_HASH = "db0df1b5e7f73b7ec9e0f33c1d5d6068c7357b78180e8ea1818b51efb69f56673d1f2cd8fe1bb541b6a8a80f00f2d1c76fe8dabe2f74f9ba4757074e78980b87"
 
-RPROVIDES:${PN} += "nethogs \
-nethogs(aarch-64)"
+RPROVIDES:${PN} += "nethogs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libncurses.so.6()(64bit) \
-libpcap.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libncurses.so.6 \
+libpcap.so.1 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

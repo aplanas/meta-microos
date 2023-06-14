@@ -23,24 +23,24 @@ RPM_NAME = "perl-Log-Dispatchouli-3.002-1.2.noarch.rpm"
 RPM_HASH = "4674cac40efadc15dac95db6f564af06816a8953bdb5234c4c73a4bbbb7b44b7fd0b5a518dd4a5e1622b179f4877a0b9637b86be912010e6dc5ad84c7e482368"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Log::Dispatchouli) \
-perl(Log::Dispatchouli::Global) \
-perl(Log::Dispatchouli::Proxy) \
-perl(Log::Fmt) \
+RPROVIDES:${PN} += "perl-Log--Dispatchouli \
+perl-Log--Dispatchouli--Global \
+perl-Log--Dispatchouli--Proxy \
+perl-Log--Fmt \
 perl-Log-Dispatchouli"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Log::Dispatch) \
-perl(Log::Dispatch::Array) \
-perl(Log::Dispatch::File) \
-perl(Log::Dispatch::Screen) \
-perl(Log::Dispatch::Syslog) \
-perl(Params::Util) \
-perl(String::Flogger) \
-perl(Sub::Exporter) \
-perl(Sub::Exporter::GlobExporter) \
-perl(Sys::Syslog) \
-perl(Try::Tiny) \
-perl(experimental)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Log--Dispatch \
+perl-Log--Dispatch--Array \
+perl-Log--Dispatch--File \
+perl-Log--Dispatch--Screen \
+perl-Log--Dispatch--Syslog \
+perl-Params--Util \
+perl-String--Flogger \
+perl-Sub--Exporter \
+perl-Sub--Exporter--GlobExporter \
+perl-Sys--Syslog \
+perl-Try--Tiny \
+perl-experimental"
 
 inherit rpm

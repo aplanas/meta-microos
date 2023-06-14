@@ -15,7 +15,7 @@ RPM_NAME = "texlive-colordoc-2023.201.svn18270-53.1.noarch.rpm"
 RPM_HASH = "a547bcc4068ca65df341c043955df9571317c3d1d57f4503bdcf09e05f4e30d24d565f5d0dc3f0a1091a8133753854d527918dcdc362a319b9e902e54ec380db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(colordoc.sty) \
+RPROVIDES:${PN} += "tex-colordoc.sty \
 texlive-colordoc"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,8 +24,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(fixltx2e.sty) \
+tex-color.sty \
+tex-fixltx2e.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

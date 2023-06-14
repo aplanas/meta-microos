@@ -9,8 +9,7 @@ PV = "3.11.3"
 RPM_NAME = "python311-doc-3.11.3-1.1.aarch64.rpm"
 RPM_HASH = "ed5f5989b7f4f4bce09266e858cf6a780cc519257833acee97d0d47514d764ec1ad8b0f87f0c5a68e83de51c34e93ec7f0c17bcbf120e835e9cc432a921c8389"
 
-RPROVIDES:${PN} += "python311-doc \
-python311-doc(aarch-64)"
+RPROVIDES:${PN} += "python311-doc"
 
 RDEPENDS:${PN} += ""
 

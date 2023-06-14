@@ -7,18 +7,14 @@ PV = "6.5.1"
 RPM_NAME = "libQt6Mqtt6-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "952d4560abefb4f5cad2a49ab3e33ff30193bb6f7c182a475bda383949be72d8a27f528a6f5505d8f86e212e6a74bd794fc12f8ce6bdb14af8e5c9a5a684e370"
 
-RPROVIDES:${PN} += "libQt6Mqtt.so.6()(64bit) \
-libQt6Mqtt.so.6(Qt_6)(64bit) \
-libQt6Mqtt6 \
-libQt6Mqtt6(aarch-64)"
+RPROVIDES:${PN} += "libQt6Mqtt.so.6 \
+libQt6Mqtt6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Network.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

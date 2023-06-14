@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diskmonitor-lang \
 diskmonitor-lang-all \
-locale(diskmonitor:fr) \
-locale(diskmonitor:sl)"
+locale-diskmonitor-fr \
+locale-diskmonitor-sl"
 
 RDEPENDS:${PN} += "diskmonitor"
 

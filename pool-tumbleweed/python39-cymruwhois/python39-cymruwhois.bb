@@ -10,13 +10,13 @@ RPM_HASH = "51f77113fbb8f6daa37491da057f81050a5d9515437b5d4cfb891057173dff524601
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cymruwhois \
-python3.9dist(cymruwhois) \
+python3.9dist-cymruwhois \
 python39-cymruwhois \
-python3dist(cymruwhois)"
+python3dist-cymruwhois"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

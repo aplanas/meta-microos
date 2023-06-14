@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "droid-fonts \
 google-droid-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -17,6 +17,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmilter-doc"
 
-RDEPENDS:${PN} += "libmilter1_0"
+RDEPENDS:${PN} += "libmilter1-0"
 
 inherit rpm

@@ -9,21 +9,18 @@ PV = "0.95"
 RPM_NAME = "mtr-gtk-0.95-2.1.aarch64.rpm"
 RPM_HASH = "adec19ad843a3a0bc33a01a69ba4cf37d03be9728bf8f457cab9763f50d3f2e05282713084c496ed5e1352f61e9f0688e9af729a22dafdb5e571670830f0bf03"
 
-RPROVIDES:${PN} += "application() \
-application(xmtr.desktop) \
-mtr-gtk \
-mtr-gtk(aarch-64)"
+RPROVIDES:${PN} += "mtr-gtk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libjansson.so.4()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libjansson.so.4 \
+libm.so.6 \
+libncurses.so.6 \
+libtinfo.so.6 \
 mtr \
 xdg-utils"
 

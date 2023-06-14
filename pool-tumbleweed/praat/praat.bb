@@ -14,34 +14,28 @@ PV = "6.3.10"
 RPM_NAME = "praat-6.3.10-1.1.aarch64.rpm"
 RPM_HASH = "0137ebd78bdfec391273fcab8ce321008973632b9996f909efb7d3c5feabc9275d03ea0b22d94da351d0f40899fb932cdd937244dacbb4cb372c3d3219b82165"
 
-RPROVIDES:${PN} += "application() \
-application(praat.desktop) \
-mimehandler(text/praat-pitch) \
-mimehandler(text/praat-textgrid) \
-praat \
-praat(aarch-64)"
+RPROVIDES:${PN} += "praat"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglpk.so.40()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgsl.so.27()(64bit) \
-libgslcblas.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit) \
-libogg.so.0()(64bit) \
-libopusfile.so.0()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangocairo-1.0.so.0()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libvorbis.so.0()(64bit) \
-libvorbisfile.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libcairo.so.2 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libglib-2.0.so.0 \
+libglpk.so.40 \
+libgobject-2.0.so.0 \
+libgsl.so.27 \
+libgslcblas.so.0 \
+libgtk-3.so.0 \
+libm.so.6 \
+libogg.so.0 \
+libopusfile.so.0 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+libpulse.so.0 \
+libstdc++.so.6 \
+libvorbis.so.0 \
+libvorbisfile.so.3"
 
 inherit rpm

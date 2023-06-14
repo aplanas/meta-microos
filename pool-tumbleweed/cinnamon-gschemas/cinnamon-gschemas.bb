@@ -8,8 +8,7 @@ PV = "5.2.7"
 RPM_NAME = "cinnamon-gschemas-5.2.7-2.7.aarch64.rpm"
 RPM_HASH = "f4420647de9f0faa6579b203b2196cdbec5c2da948fff86f5bea4ed4d0d295e4f86353dfaed8e38c1137bbaa43902993366b39ac6f14b60fa32bb5b01721aa21"
 
-RPROVIDES:${PN} += "cinnamon-gschemas \
-cinnamon-gschemas(aarch-64)"
+RPROVIDES:${PN} += "cinnamon-gschemas"
 
 RDEPENDS:${PN} += "cinnamon-gschemas-branding"
 

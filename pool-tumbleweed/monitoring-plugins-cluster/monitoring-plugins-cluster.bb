@@ -14,10 +14,9 @@ RPM_NAME = "monitoring-plugins-cluster-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "1404981fd0bf2cca953242a843e83e7ce425e7d706de883bae9dfbd40b1523960ddc774667f2ac2daaee21fb31d498ee48f5b35e42897557ef5cf8b37ac0e49d"
 
 RPROVIDES:${PN} += "monitoring-plugins-cluster \
-monitoring-plugins-cluster(aarch-64) \
 nagios-plugins-cluster"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

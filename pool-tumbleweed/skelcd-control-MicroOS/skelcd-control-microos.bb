@@ -7,13 +7,12 @@ PV = "20230125"
 RPM_NAME = "skelcd-control-MicroOS-20230125-1.2.aarch64.rpm"
 RPM_HASH = "8f61721c710730c207b1df43d274158559ffd62371f61be43f843f38e6500d135352cd1e69c72c4c3603cc32353112d956f4eb38b0804b3243d0e3cb71afff74"
 
-RPROVIDES:${PN} += "product_control \
-skelcd-control-MicroOS \
-skelcd-control-MicroOS(aarch-64)"
+RPROVIDES:${PN} += "product-control \
+skelcd-control-MicroOS"
 
 RDEPENDS:${PN} += "autoyast2 \
 kdump \
-rubygem(ruby:3.2.0:byebug) \
+rubygem-ruby-3.2.0-byebug \
 yast2-add-on \
 yast2-buildtools \
 yast2-caasp \

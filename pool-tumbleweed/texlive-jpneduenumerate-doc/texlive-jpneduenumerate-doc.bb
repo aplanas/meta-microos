@@ -9,7 +9,7 @@ RPM_HASH = "399966e3119d3afa9234cc7b239d71ab3afd217b24f98f302b09def1bd1fb0d7d856
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \
-locale(texlive-jpneduenumerate-doc:en \
+locale(texlive-jpneduenumerate-doc-en \
 texlive-jpneduenumerate-doc"
 
 RDEPENDS:${PN} += ""

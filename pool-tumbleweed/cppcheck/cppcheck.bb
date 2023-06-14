@@ -25,16 +25,15 @@ PV = "2.10.3"
 RPM_NAME = "cppcheck-2.10.3-3.1.aarch64.rpm"
 RPM_HASH = "5e8cf8727590873c4317e96b1bf351b504af7b417f84c4fa90436e7c5c7d2aa412a9902f1f7ba5b48cae596bd47ad373dde2284f99bab0ecb285e7fea9c97e1e"
 
-RPROVIDES:${PN} += "cppcheck \
-cppcheck(aarch-64)"
+RPROVIDES:${PN} += "cppcheck"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpcre.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpcre.so.1 \
+libstdc++.so.6 \
 python3-Pygments"
 
 inherit rpm

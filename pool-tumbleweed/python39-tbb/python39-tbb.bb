@@ -8,17 +8,16 @@ PV = "2021.8.0"
 RPM_NAME = "python39-tbb-2021.8.0-1.5.aarch64.rpm"
 RPM_HASH = "c31cbbaa3d9e736bb412ed9371dd766874b3d277e16885bd392dfe24f4517b27b2965b5a36bcc10d2c539dc87449769e65e037b03a8adabfe2c7d23050c13264"
 
-RPROVIDES:${PN} += "python3.9dist(tbb) \
+RPROVIDES:${PN} += "python3.9dist-tbb \
 python39-tbb \
-python39-tbb(aarch-64) \
-python3dist(tbb)"
+python3dist-tbb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
 libirml1 \
-libstdc++.so.6()(64bit) \
-libtbb.so.12()(64bit) \
-python(abi)"
+libstdc++.so.6 \
+libtbb.so.12 \
+python-abi"
 
 inherit rpm

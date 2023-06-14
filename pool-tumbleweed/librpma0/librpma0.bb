@@ -14,14 +14,13 @@ PV = "1.2.0"
 RPM_NAME = "librpma0-1.2.0-1.1.aarch64.rpm"
 RPM_HASH = "9421f5e2ab1a3ee44bf80977b6e2c89af1dcf896b09361043be843b276d884e2778897f65b8e776037f3d99d5893ffab1b3edc20fbe3e2176a56b67f837ea189"
 
-RPROVIDES:${PN} += "librpma.so.0()(64bit) \
-librpma0 \
-librpma0(aarch-64)"
+RPROVIDES:${PN} += "librpma.so.0 \
+librpma0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libibverbs.so.1()(64bit) \
-librdmacm.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libibverbs.so.1 \
+librdmacm.so.1"
 
 inherit rpm

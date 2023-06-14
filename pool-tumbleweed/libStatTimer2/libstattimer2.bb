@@ -19,16 +19,15 @@ PV = "2.12.2"
 RPM_NAME = "libStatTimer2-2.12.2-6.8.aarch64.rpm"
 RPM_HASH = "3e2d0bfd69ee7389cc880a4b687c075c5205538f1673b05f0bffd20a6e7eebf6c21aeef61c735cdf628e74b05f1f2599937962fc574c61f2c458040c2797fd34"
 
-RPROVIDES:${PN} += "libStatTimer.so.2()(64bit) \
-libStatTimer2 \
-libStatTimer2(aarch-64)"
+RPROVIDES:${PN} += "libStatTimer.so.2 \
+libStatTimer2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenCL.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenCL.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

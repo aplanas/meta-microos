@@ -12,24 +12,23 @@ PV = "1.9.9"
 RPM_NAME = "libindidriver1-1.9.9-2.2.aarch64.rpm"
 RPM_HASH = "66df25e72e2825e84c6fae309d32cfcd9d307ddd299afaf5e2455cdca0d469a86d07e30c6a97646993616c7f8c6a7186cfa75a894a1a729ff057b654c1dd80a1"
 
-RPROVIDES:${PN} += "libindidriver.so.1()(64bit) \
-libindidriver1 \
-libindidriver1(aarch-64)"
+RPROVIDES:${PN} += "libindidriver.so.1 \
+libindidriver1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcfitsio.so.10()(64bit) \
-libfftw3.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libnova-0.15.so.0()(64bit) \
-libogg.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libtheoradec.so.1()(64bit) \
-libtheoraenc.so.1()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcfitsio.so.10 \
+libfftw3.so.3 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libm.so.6 \
+libnova-0.15.so.0 \
+libogg.so.0 \
+libstdc++.so.6 \
+libtheoradec.so.1 \
+libtheoraenc.so.1 \
+libusb-1.0.so.0 \
+libz.so.1"
 
 inherit rpm

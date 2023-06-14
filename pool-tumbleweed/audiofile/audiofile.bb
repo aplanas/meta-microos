@@ -13,11 +13,10 @@ PV = "0.3.6"
 RPM_NAME = "audiofile-0.3.6-11.20.aarch64.rpm"
 RPM_HASH = "ad3a1021c0c1d403d0127fcbbc6e1c1cd4359ca2e869846960f04fc52ec89f282766e8f8d3e8c05f75b06081a427f07b48e468ac316353937d58ef0ff8cbcd59"
 
-RPROVIDES:${PN} += "audiofile \
-audiofile(aarch-64)"
+RPROVIDES:${PN} += "audiofile"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libaudiofile.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaudiofile.so.1 \
+libc.so.6"
 
 inherit rpm

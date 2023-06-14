@@ -10,14 +10,13 @@ PV = "1.0.0pre12"
 RPM_NAME = "imwheel-1.0.0pre12-6.25.aarch64.rpm"
 RPM_HASH = "30315662c8719fe87c86aea5d437d48f22b8c2dc12359166d5955a53d0241de2c0d8e44322c15fb3278cc1ba484820030584bcfd0c5cf9b4976b85acfcd74ed5"
 
-RPROVIDES:${PN} += "config(imwheel) \
-imwheel \
-imwheel(aarch-64)"
+RPROVIDES:${PN} += "config-imwheel \
+imwheel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXmu.so.6()(64bit) \
-libXtst.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXmu.so.6 \
+libXtst.so.6 \
+libc.so.6"
 
 inherit rpm

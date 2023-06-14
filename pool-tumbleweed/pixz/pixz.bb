@@ -13,12 +13,11 @@ PV = "1.0.7"
 RPM_NAME = "pixz-1.0.7-1.9.aarch64.rpm"
 RPM_HASH = "7be6028028f6bc1de28334a9b973e1c4a25bf9a2e6b322328d9093b54ec147f26f860fd55464d427a99609789c4c644b27817675ebd314920eceaee9f5e66354"
 
-RPROVIDES:${PN} += "pixz \
-pixz(aarch-64)"
+RPROVIDES:${PN} += "pixz"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libarchive.so.13()(64bit) \
-libc.so.6()(64bit) \
-liblzma.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libarchive.so.13 \
+libc.so.6 \
+liblzma.so.5"
 
 inherit rpm

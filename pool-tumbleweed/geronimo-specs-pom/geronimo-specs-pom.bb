@@ -9,13 +9,13 @@ RPM_HASH = "c1e2897f7c625e5eee3f27c8d615c4fade545f73ddc75a6cae1f55d3c8325fe416fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-specs-pom \
-mvn(org.apache.geronimo.specs:specs-parent:pom:) \
-mvn(org.apache.geronimo.specs:specs:pom:)"
+mvn-org.apache.geronimo.specs-specs-parent-pom- \
+mvn-org.apache.geronimo.specs-specs-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.felix:maven-bundle-plugin) \
-mvn(org.apache.maven.plugins:maven-compiler-plugin) \
-mvn(org.apache.maven.plugins:maven-jar-plugin)"
+mvn-org.apache.felix-maven-bundle-plugin \
+mvn-org.apache.maven.plugins-maven-compiler-plugin \
+mvn-org.apache.maven.plugins-maven-jar-plugin"
 
 inherit rpm

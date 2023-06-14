@@ -16,11 +16,11 @@ RPM_HASH = "2677ca6824800d158c23535ce8bc8cc020b941404f1c3d8ee154a28824dbdd816224
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.deferredimport \
-python3.10dist(zope.deferredimport) \
+python3.10dist-zope.deferredimport \
 python310-zope.deferredimport \
-python3dist(zope.deferredimport)"
+python3dist-zope.deferredimport"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-zope.proxy"
 
 inherit rpm

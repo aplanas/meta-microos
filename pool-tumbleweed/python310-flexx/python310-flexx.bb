@@ -16,13 +16,13 @@ RPM_HASH = "06eb73ac92a7629dfc1b1c6f46bcb473c2a31ec9eeab74d318288451da619bbf065a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flexx \
-python3.10dist(flexx) \
+python3.10dist-flexx \
 python310-flexx \
-python3dist(flexx)"
+python3dist-flexx"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-dialite \
 python310-pscript \
 python310-tornado \

@@ -13,8 +13,8 @@ RPM_NAME = "shorewall-lite-5.2.8-4.2.noarch.rpm"
 RPM_HASH = "dd7a71f98195c666db71f9953a407bd7b26831035fffa77c0ab904d21ae3aa0c63b96594b9d419d80dc467c162845898fc6e9a648751b0cdc9e4379954eef18c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(shorewall-lite) \
-shoreline_firewall \
+RPROVIDES:${PN} += "config-shorewall-lite \
+shoreline-firewall \
 shorewall-lite"
 
 RDEPENDS:${PN} += "/bin/sh \

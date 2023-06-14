@@ -11,8 +11,8 @@ RPM_HASH = "d88eef1f83645154ce4ebca19787b3427c12f435602f73214591eee3c94c893a8b28
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mm-common \
-pkgconfig(mm-common-libstdc++) \
-pkgconfig(mm-common-util)"
+pkgconfig-mm-common-libstdc++ \
+pkgconfig-mm-common-util"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \

@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chrony-pool \
 chrony-pool-empty \
-config(chrony-pool-empty)"
+config-chrony-pool-empty"
 
 RDEPENDS:${PN} += "chrony"
 

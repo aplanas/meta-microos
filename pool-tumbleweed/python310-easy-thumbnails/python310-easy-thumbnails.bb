@@ -9,11 +9,11 @@ RPM_HASH = "5afe6fe419a5266ee698faa9a915686a682e7631664ddac914ae75c7b6a032d23f57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-easy-thumbnails \
-python3.10dist(easy-thumbnails) \
+python3.10dist-easy-thumbnails \
 python310-easy-thumbnails \
-python3dist(easy-thumbnails)"
+python3dist-easy-thumbnails"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Pillow \
 python310-lxml \

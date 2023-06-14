@@ -15,7 +15,7 @@ noto-tinos \
 noto-tinos-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

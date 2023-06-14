@@ -8,32 +8,31 @@ RPM_NAME = "ghc-haskeline-0.8.2-3.1.aarch64.rpm"
 RPM_HASH = "2b25f67cc56122e724705bf2367f84a1cd85243686064d160d982ac7086bb80cd7b1845e2a884b1127af2054011650679c9f717132550779f2b871e220712f85"
 
 RPROVIDES:${PN} += "ghc-haskeline \
-ghc-haskeline(aarch-64) \
-libHShaskeline-0.8.2-ghc9.4.5.so()(64bit)"
+libHShaskeline-0.8.2-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
-libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
-libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
-libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
-libHSdirectory-1.3.7.1-ghc9.4.5.so()(64bit) \
-libHSexceptions-0.10.5-ghc9.4.5.so()(64bit) \
-libHSfilepath-1.4.2.2-ghc9.4.5.so()(64bit) \
-libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) \
-libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
-libHSmtl-2.2.2-ghc9.4.5.so()(64bit) \
-libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
-libHSprocess-1.6.16.0-ghc9.4.5.so()(64bit) \
-libHSstm-2.5.1.0-ghc9.4.5.so()(64bit) \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
-libHSterminfo-0.4.1.5-ghc9.4.5.so()(64bit) \
-libHStime-1.12.2-ghc9.4.5.so()(64bit) \
-libHStransformers-0.5.6.2-ghc9.4.5.so()(64bit) \
-libHSunix-2.7.3-ghc9.4.5.so()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
+libHSbase-4.17.1.0-ghc9.4.5.so \
+libHSbytestring-0.11.4.0-ghc9.4.5.so \
+libHScontainers-0.6.7-ghc9.4.5.so \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so \
+libHSdirectory-1.3.7.1-ghc9.4.5.so \
+libHSexceptions-0.10.5-ghc9.4.5.so \
+libHSfilepath-1.4.2.2-ghc9.4.5.so \
+libHSghc-bignum-1.3-ghc9.4.5.so \
+libHSghc-boot-th-9.4.5-ghc9.4.5.so \
+libHSghc-prim-0.9.0-ghc9.4.5.so \
+libHSmtl-2.2.2-ghc9.4.5.so \
+libHSpretty-1.1.3.6-ghc9.4.5.so \
+libHSprocess-1.6.16.0-ghc9.4.5.so \
+libHSstm-2.5.1.0-ghc9.4.5.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
+libHSterminfo-0.4.1.5-ghc9.4.5.so \
+libHStime-1.12.2-ghc9.4.5.so \
+libHStransformers-0.5.6.2-ghc9.4.5.so \
+libHSunix-2.7.3-ghc9.4.5.so \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6 \
+libtinfo.so.6"
 
 inherit rpm

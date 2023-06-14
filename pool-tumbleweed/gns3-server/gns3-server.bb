@@ -12,8 +12,8 @@ RPM_HASH = "4b8bbc960bc40f9d3de30226dc18fdbac09dc3f47dfdc5f0c05020b6e4e5cab43ee7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gns3-server \
-python3.10dist(gns3-server) \
-python3dist(gns3-server)"
+python3.10dist-gns3-server \
+python3dist-gns3-server"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
@@ -23,12 +23,12 @@ cpulimit \
 docker \
 dynamips \
 iouyap \
-python(abi) \
+python-abi \
 python3-Jinja2 \
 python3-aiofiles \
 python3-aiohttp \
-python3-aiohttp_cors \
-python3-async_timeout \
+python3-aiohttp-cors \
+python3-async-timeout \
 python3-distro \
 python3-jsonschema \
 python3-psutil \

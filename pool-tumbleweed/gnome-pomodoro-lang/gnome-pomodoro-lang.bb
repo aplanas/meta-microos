@@ -10,26 +10,26 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-pomodoro-lang \
 gnome-pomodoro-lang-all \
-locale(gnome-pomodoro:ca) \
-locale(gnome-pomodoro:cs) \
-locale(gnome-pomodoro:de) \
-locale(gnome-pomodoro:el) \
-locale(gnome-pomodoro:es) \
-locale(gnome-pomodoro:fi) \
-locale(gnome-pomodoro:fr) \
-locale(gnome-pomodoro:hr) \
-locale(gnome-pomodoro:id) \
-locale(gnome-pomodoro:it) \
-locale(gnome-pomodoro:kk) \
-locale(gnome-pomodoro:ko) \
-locale(gnome-pomodoro:lt) \
-locale(gnome-pomodoro:nb) \
-locale(gnome-pomodoro:nl) \
-locale(gnome-pomodoro:pl) \
-locale(gnome-pomodoro:pt_BR) \
-locale(gnome-pomodoro:ru) \
-locale(gnome-pomodoro:sv) \
-locale(gnome-pomodoro:zh_CN)"
+locale-gnome-pomodoro-ca \
+locale-gnome-pomodoro-cs \
+locale-gnome-pomodoro-de \
+locale-gnome-pomodoro-el \
+locale-gnome-pomodoro-es \
+locale-gnome-pomodoro-fi \
+locale-gnome-pomodoro-fr \
+locale-gnome-pomodoro-hr \
+locale-gnome-pomodoro-id \
+locale-gnome-pomodoro-it \
+locale-gnome-pomodoro-kk \
+locale-gnome-pomodoro-ko \
+locale-gnome-pomodoro-lt \
+locale-gnome-pomodoro-nb \
+locale-gnome-pomodoro-nl \
+locale-gnome-pomodoro-pl \
+locale-gnome-pomodoro-pt-BR \
+locale-gnome-pomodoro-ru \
+locale-gnome-pomodoro-sv \
+locale-gnome-pomodoro-zh-CN"
 
 RDEPENDS:${PN} += "gnome-pomodoro"
 

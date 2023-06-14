@@ -16,7 +16,7 @@ RPM_NAME = "texlive-forarray-2023.201.1.01svn15878-52.1.noarch.rpm"
 RPM_HASH = "e49bb93119d4c11560ab9a88fd491bd2d25e731550692ed61d8ff2a493833920944b5c4ba9e45be7ba212e43510379c45fb6e83e1f4497cb0377c5f37fb0a906"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(forarray.sty) \
+RPROVIDES:${PN} += "tex-forarray.sty \
 texlive-forarray"
 
 RDEPENDS:${PN} += "/bin/sh \

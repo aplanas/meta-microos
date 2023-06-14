@@ -11,11 +11,11 @@ RPM_HASH = "c135fdbdbfcf12a4cf9deaad4ad5648720f05c7e3da9c4747d6f4207d39255ee528c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-registration \
-python3.10dist(django-registration) \
+python3.10dist-django-registration \
 python310-django-registration \
-python3dist(django-registration)"
+python3dist-django-registration"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-confusable-homoglyphs"
 

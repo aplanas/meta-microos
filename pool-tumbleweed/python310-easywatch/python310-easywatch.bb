@@ -18,11 +18,11 @@ RPM_HASH = "5ca5a36044e5fa0d8ff6c36d98e587c9ce7982766acb8dffafbde37e9d75204742f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-easywatch \
-python3.10dist(easywatch) \
+python3.10dist-easywatch \
 python310-easywatch \
-python3dist(easywatch)"
+python3dist-easywatch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-watchdog"
 
 inherit rpm

@@ -13,16 +13,15 @@ RPM_NAME = "python310-plyvel-1.5.0-1.5.aarch64.rpm"
 RPM_HASH = "9248c139c1bfde5a77e371b8578e756adee0cebe1a22999942c900b3cd62c4a446be702310984e502bc44c248211843a60a6c97d9eee49494664313310f93c55"
 
 RPROVIDES:${PN} += "python3-plyvel \
-python3.10dist(plyvel) \
+python3.10dist-plyvel \
 python310-plyvel \
-python310-plyvel(aarch-64) \
-python3dist(plyvel)"
+python3dist-plyvel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleveldb.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleveldb.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

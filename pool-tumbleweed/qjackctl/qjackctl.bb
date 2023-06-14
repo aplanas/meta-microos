@@ -13,33 +13,22 @@ PV = "0.9.10"
 RPM_NAME = "qjackctl-0.9.10-1.1.aarch64.rpm"
 RPM_HASH = "0feb1f6026467190f41d8651257f676eb5e8876eaf77037576b5de116b04dd80a10176e7c3eb78887179da6256e28476ab5cc6f6a3e06d3809da2cc6f9a0dd94"
 
-RPROVIDES:${PN} += "application() \
-application(org.rncbc.qjackctl.desktop) \
-metainfo() \
-metainfo(org.rncbc.qjackctl.metainfo.xml) \
-qjackctl \
-qjackctl(aarch-64)"
+RPROVIDES:${PN} += "qjackctl"
 
-RDEPENDS:${PN} += "(jack or pipewire-libjack-0_3) \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5DBus.so.5()(64bit) \
-libQt5DBus.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjack.so.0()(64bit) \
-libm.so.6()(64bit) \
-libportaudio.so.2()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "-jack or pipewire-libjack-0-3 \
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5DBus.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libasound.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libjack.so.0 \
+libm.so.6 \
+libportaudio.so.2 \
+libstdc++.so.6"
 
 inherit rpm

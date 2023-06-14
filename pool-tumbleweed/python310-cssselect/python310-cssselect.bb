@@ -14,10 +14,10 @@ RPM_HASH = "1b9fb45f3a53cf10f32542c7c2043819f3e20066e2bb7bdbf473e0f6ebc2e375e46d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cssselect \
-python3.10dist(cssselect) \
+python3.10dist-cssselect \
 python310-cssselect \
-python3dist(cssselect)"
+python3dist-cssselect"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

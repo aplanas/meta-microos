@@ -9,31 +9,30 @@ RPM_HASH = "e24ceb18aa3782d10ae971d1a708386adce0a447c4d0c8f06eae7c011dcee9f770fd
 
 RPROVIDES:${PN} += "cmake-implementation \
 cmake-mini \
-cmake-mini(aarch-64) \
-rpm_macro(cmake) \
-rpm_macro(cmake_build) \
-rpm_macro(cmake_install) \
-rpm_macro(ctest) \
-rpm_macro(make_jobs)"
+rpm-macro-cmake \
+rpm-macro-cmake-build \
+rpm-macro-cmake-install \
+rpm-macro-ctest \
+rpm-macro-make-jobs"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libexpat.so.1()(64bit) \
-libform.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-librhash.so.0()(64bit) \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libuv.so.1()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libexpat.so.1 \
+libform.so.6 \
+libgcc-s.so.1 \
+liblzma.so.5 \
+libm.so.6 \
+libncurses.so.6 \
+librhash.so.0 \
+libssl.so.3 \
+libstdc++.so.6 \
+libtinfo.so.6 \
+libuv.so.1 \
+libz.so.1 \
+libzstd.so.1 \
 make \
 python3-base \
 this-is-only-for-build-envs"

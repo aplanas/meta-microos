@@ -9,11 +9,11 @@ RPM_HASH = "5b7e5dabbf8771557372b8ffdd6f8d23841ebb33cbe9e515643e9265b4fcfda26299
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-setuptools-declarative-requirements \
-python3.10dist(setuptools-declarative-requirements) \
+python3.10dist-setuptools-declarative-requirements \
 python310-setuptools-declarative-requirements \
-python3dist(setuptools-declarative-requirements)"
+python3dist-setuptools-declarative-requirements"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools \
 python310-toml \
 python310-wheel"

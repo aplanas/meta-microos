@@ -10,14 +10,13 @@ PV = "6.3.0"
 RPM_NAME = "libsundials_sunnonlin3_3_0-mvapich2-6.3.0-2.4.aarch64.rpm"
 RPM_HASH = "620228c30722adfbd6944480b4d15cbde9279a74f942da4bab3f2615ce7a52a63c37909764777fed2b9daf4dea011ca01f9832f2c898e689c0d59c4ddc0c3eea"
 
-RPROVIDES:${PN} += "libsundials_sunnonlin3_3_0-mvapich2 \
-libsundials_sunnonlin3_3_0-mvapich2(aarch-64) \
-libsundials_sunnonlinsolfixedpoint.so.3.3.0()(64bit) \
-libsundials_sunnonlinsolnewton.so.3.3.0()(64bit)"
+RPROVIDES:${PN} += "libsundials-sunnonlin3-3-0-mvapich2 \
+libsundials-sunnonlinsolfixedpoint.so.3.3.0 \
+libsundials-sunnonlinsolnewton.so.3.3.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -9,12 +9,12 @@ RPM_HASH = "fdd0ab475ea71e4b943c4ff5af80a6927c96f92d162a583ff7f8de5c358740971dc3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-install-plugin \
-mvn(org.apache.maven.plugins:maven-install-plugin) \
-mvn(org.apache.maven.plugins:maven-install-plugin:pom:)"
+mvn-org.apache.maven.plugins-maven-install-plugin \
+mvn-org.apache.maven.plugins-maven-install-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.codehaus.plexus:plexus-utils) \
-mvn(org.eclipse.aether:aether-util)"
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.eclipse.aether-aether-util"
 
 inherit rpm

@@ -25,15 +25,14 @@ PV = "0.12.7.1"
 RPM_NAME = "texmath-0.12.7.1-1.3.aarch64.rpm"
 RPM_HASH = "5aff394325655ee4101e348c183ea3c557104b65cffcddcefcaa15f03a89a1893d3535b2c7aa144df0cb289cf73289804021ca9e61ca94d61fe79107bb0c7fe8"
 
-RPROVIDES:${PN} += "texmath \
-texmath(aarch-64)"
+RPROVIDES:${PN} += "texmath"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libatomic.so.1()(64bit) \
-libc.so.6()(64bit) \
-libffi.so.8()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libnuma.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libatomic.so.1 \
+libc.so.6 \
+libffi.so.8 \
+libgmp.so.10 \
+libm.so.6 \
+libnuma.so.1"
 
 inherit rpm

@@ -9,15 +9,14 @@ RPM_HASH = "6049499e752d96438b45796bd350e8336de43e98b59d631f3ba45d503042bc84cd6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mutt-ics \
-mutt_ics \
 python3-mutt-ics \
-python3.10dist(mutt-ics) \
+python3.10dist-mutt-ics \
 python310-mutt-ics \
-python3dist(mutt-ics)"
+python3dist-mutt-ics"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-icalendar \
 python310-setuptools \
 update-alternatives"

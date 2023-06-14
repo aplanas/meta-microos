@@ -15,12 +15,12 @@ RPM_NAME = "python311-suds-1.1.2-1.3.noarch.rpm"
 RPM_HASH = "c462b37dca25743e562bc403e5e8932eb642227a33af7a6d5f2dcadf0d7a3913826b85329112da0e6bff9a458917ec13198568b8cd0632e88abd5ef6714c036f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(suds-community) \
+RPROVIDES:${PN} += "python3.11dist-suds-community \
 python311-suds \
 python311-suds-community \
 python311-suds-jurko \
-python3dist(suds-community)"
+python3dist-suds-community"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

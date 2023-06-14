@@ -21,9 +21,9 @@ RPM_NAME = "texlive-numprint-2023.201.1.39svn27498-54.1.noarch.rpm"
 RPM_HASH = "bad424d215c51754dba0b3a6253aa565acb757f75b088caa82fd536aa04ffde209ce29becf06fa35e9e8db6ca5fce104d4736b9ab4d9eb2f17c96009fde5bf4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nbaseprt.sty) \
-tex(numprint.sty) \
-tex(numprint032.sty) \
+RPROVIDES:${PN} += "tex-nbaseprt.sty \
+tex-numprint.sty \
+tex-numprint032.sty \
 texlive-numprint"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -32,9 +32,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(calc.sty) \
-tex(ifthen.sty) \
+tex-array.sty \
+tex-calc.sty \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

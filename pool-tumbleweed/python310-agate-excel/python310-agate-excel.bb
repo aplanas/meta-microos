@@ -10,11 +10,11 @@ RPM_HASH = "2def82347496a67d1f1ed570ac1a26c4cdc091fb5523f819f17f4134eaf7ec3dc99e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-agate-excel \
-python3.10dist(agate-excel) \
+python3.10dist-agate-excel \
 python310-agate-excel \
-python3dist(agate-excel)"
+python3dist-agate-excel"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-agate \
 python310-olefile \
 python310-openpyxl \

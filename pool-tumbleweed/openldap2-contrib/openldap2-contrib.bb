@@ -23,14 +23,13 @@ PV = "2.6.4"
 RPM_NAME = "openldap2-contrib-2.6.4-1.1.aarch64.rpm"
 RPM_HASH = "bb101c7b8f487adbc13aceac9e9d1f7b6d15d9b9b692c656dd13e161ce509eb845791d90ba0acce1440693b45da3dce91a9acb441ff19a678f11cbda42d1ca56"
 
-RPROVIDES:${PN} += "openldap2-contrib \
-openldap2-contrib(aarch-64)"
+RPROVIDES:${PN} += "openldap2-contrib"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+liblber.so.2 \
+libldap.so.2 \
 openldap2"
 
 inherit rpm

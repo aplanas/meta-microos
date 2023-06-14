@@ -13,17 +13,16 @@ PV = "3.5.28"
 RPM_NAME = "djvulibre-3.5.28-5.1.aarch64.rpm"
 RPM_HASH = "7db461190ce780ed8decde29767945a70fdf9c5b5498ba9104e7372a0225c5cb50cfcc8ebe51797d1ddff9692c4a2d93073fd10c015da0e60872f92167c6b834"
 
-RPROVIDES:${PN} += "djvulibre \
-djvulibre(aarch-64)"
+RPROVIDES:${PN} += "djvulibre"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdjvulibre.so.21()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtiff.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdjvulibre.so.21 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libtiff.so.6"
 
 inherit rpm

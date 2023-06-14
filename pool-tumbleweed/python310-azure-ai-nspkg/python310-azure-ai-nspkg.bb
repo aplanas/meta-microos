@@ -13,9 +13,9 @@ RPM_HASH = "c4e4c6bd889763bb6b55588627c6f6c132726e32dac734424d15ff029895b26da532
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-ai-nspkg \
-python3.10dist(azure-ai-nspkg) \
+python3.10dist-azure-ai-nspkg \
 python310-azure-ai-nspkg \
-python3dist(azure-ai-nspkg)"
+python3dist-azure-ai-nspkg"
 
 RDEPENDS:${PN} += "python310-azure-nspkg"
 

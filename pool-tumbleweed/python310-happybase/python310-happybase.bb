@@ -9,11 +9,11 @@ RPM_HASH = "4c7bc87fc931c3abc466e2a628ec5c2c03fe016d03cc637ff1e8f2242532323064d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-happybase \
-python3.10dist(happybase) \
+python3.10dist-happybase \
 python310-happybase \
-python3dist(happybase)"
+python3dist-happybase"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six \
 python310-thriftpy2"
 

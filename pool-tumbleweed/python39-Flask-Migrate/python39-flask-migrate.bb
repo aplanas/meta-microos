@@ -10,11 +10,11 @@ RPM_NAME = "python39-Flask-Migrate-4.0.4-1.1.noarch.rpm"
 RPM_HASH = "d728151a25f04fd7d5f4469dbbb6729cc16aafb9ccef71a48af45aab296726da57c73582a86ea8086a20831615fc6961e7d022d0a8ac89be49c9fea06bbcebcc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(flask-migrate) \
+RPROVIDES:${PN} += "python3.9dist-flask-migrate \
 python39-Flask-Migrate \
-python3dist(flask-migrate)"
+python3dist-flask-migrate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Flask \
 python39-Flask-SQLAlchemy \
 python39-alembic"

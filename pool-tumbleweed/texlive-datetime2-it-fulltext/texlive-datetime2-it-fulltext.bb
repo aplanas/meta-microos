@@ -14,9 +14,9 @@ RPM_NAME = "texlive-datetime2-it-fulltext-2023.201.1.6svn54779-52.1.noarch.rpm"
 RPM_HASH = "024f57acef9232b8dba222dc74a0a55e7a5289abba4ad668c8d5524bb01ed0d7999c71de1754e977d408baa51235b75db52beb655f7c498bc732f83c979ec3d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-it-fulltext-ascii.ldf) \
-tex(datetime2-it-fulltext-utf8.ldf) \
-tex(datetime2-it-fulltext.sty) \
+RPROVIDES:${PN} += "tex-datetime2-it-fulltext-ascii.ldf \
+tex-datetime2-it-fulltext-utf8.ldf \
+tex-datetime2-it-fulltext.sty \
 texlive-datetime2-it-fulltext"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,10 +25,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(datetime2.sty) \
-tex(ifluatex.sty) \
-tex(ifxetex.sty) \
-tex(itnumpar.sty) \
+tex-datetime2.sty \
+tex-ifluatex.sty \
+tex-ifxetex.sty \
+tex-itnumpar.sty \
 texlive \
 texlive-filesystem \
 texlive-iftex \

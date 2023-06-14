@@ -11,7 +11,7 @@ RPM_NAME = "texlive-datetime2-latin-2023.201.1.0svn47748-52.1.noarch.rpm"
 RPM_HASH = "3a53322c1883a18b89c1c4d3f6ab0f678ddbd636de0ddaad94c1c4c2270f7b27f2654c5074e51177de47754ad2ff2cd59ac2ddef645bd8b52f50a27ae4cd2d3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(datetime2-latin.ldf) \
+RPROVIDES:${PN} += "tex-datetime2-latin.ldf \
 texlive-datetime2-latin"
 
 RDEPENDS:${PN} += "/bin/sh \

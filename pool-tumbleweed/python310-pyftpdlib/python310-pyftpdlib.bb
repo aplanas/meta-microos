@@ -10,13 +10,13 @@ RPM_HASH = "931c0bd1c4117efd1d8663926770237950445b09a1b80041425e8b2d0e1528829359
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyftpdlib \
-python3.10dist(pyftpdlib) \
+python3.10dist-pyftpdlib \
 python310-pyftpdlib \
-python3dist(pyftpdlib)"
+python3dist-pyftpdlib"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pyOpenSSL \
 update-alternatives"
 

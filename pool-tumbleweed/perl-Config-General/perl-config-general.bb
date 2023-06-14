@@ -18,12 +18,11 @@ PV = "2.65"
 RPM_NAME = "perl-Config-General-2.65-1.6.aarch64.rpm"
 RPM_HASH = "7ec403d3b83264313fbb8bc24c4fec73b4b1492bf5db755b5b548292f4e49af01cef3636715f679da784167f90199da88ae73feb6802969aca5905d97ed7869e"
 
-RPROVIDES:${PN} += "perl(Config::General) \
-perl(Config::General::Extended) \
-perl(Config::General::Interpolated) \
-perl-Config-General \
-perl-Config-General(aarch-64)"
+RPROVIDES:${PN} += "perl-Config--General \
+perl-Config--General--Extended \
+perl-Config--General--Interpolated \
+perl-Config-General"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

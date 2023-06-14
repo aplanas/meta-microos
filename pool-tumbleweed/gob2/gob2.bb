@@ -9,11 +9,10 @@ PV = "2.0.20"
 RPM_NAME = "gob2-2.0.20-4.20.aarch64.rpm"
 RPM_HASH = "92827477a535d01e176c0511b46b5e930e5efb89f382f22da0e6016ec8a4f1733ef738bfea7800598fa42ad3b100b01a14b76b011af6503217c94cf1a43455cc"
 
-RPROVIDES:${PN} += "gob2 \
-gob2(aarch-64)"
+RPROVIDES:${PN} += "gob2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0"
 
 inherit rpm

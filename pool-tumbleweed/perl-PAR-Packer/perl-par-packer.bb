@@ -16,33 +16,32 @@ PV = "1.057"
 RPM_NAME = "perl-PAR-Packer-1.057-1.3.aarch64.rpm"
 RPM_HASH = "047bbd80e883fa318a5862f2c01ce4dc661cb1dbb725289950dd2b0ddd343ea25d93ad704f2af4fa9dbdf2a69bd03216a0e29f807af554a99b15c0834b14e588"
 
-RPROVIDES:${PN} += "perl(App::Packer::PAR) \
-perl(PAR::Filter) \
-perl(PAR::Filter::Bleach) \
-perl(PAR::Filter::Bytecode) \
-perl(PAR::Filter::Obfuscate) \
-perl(PAR::Filter::PatchContent) \
-perl(PAR::Filter::PodStrip) \
-perl(PAR::Packer) \
-perl(PAR::StrippedPARL::Base) \
-perl(PAR::StrippedPARL::Dynamic) \
-perl(PAR::StrippedPARL::Static) \
-perl(pp) \
+RPROVIDES:${PN} += "perl-App--Packer--PAR \
+perl-PAR--Filter \
+perl-PAR--Filter--Bleach \
+perl-PAR--Filter--Bytecode \
+perl-PAR--Filter--Obfuscate \
+perl-PAR--Filter--PatchContent \
+perl-PAR--Filter--PodStrip \
+perl-PAR--Packer \
+perl-PAR--StrippedPARL--Base \
+perl-PAR--StrippedPARL--Dynamic \
+perl-PAR--StrippedPARL--Static \
 perl-PAR-Packer \
-perl-PAR-Packer(aarch-64)"
+perl-pp"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libperl.so()(64bit) \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(Archive::Zip) \
-perl(Compress::Zlib) \
-perl(Digest::SHA) \
-perl(Getopt::ArgvFile) \
-perl(IO::Compress::Gzip) \
-perl(Module::ScanDeps) \
-perl(PAR) \
-perl(PAR::Dist)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libperl.so \
+perl--MODULE-COMPAT-5.36.0 \
+perl-Archive--Zip \
+perl-Compress--Zlib \
+perl-Digest--SHA \
+perl-Getopt--ArgvFile \
+perl-IO--Compress--Gzip \
+perl-Module--ScanDeps \
+perl-PAR \
+perl-PAR--Dist"
 
 inherit rpm

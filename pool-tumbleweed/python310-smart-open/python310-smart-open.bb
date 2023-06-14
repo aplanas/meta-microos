@@ -10,11 +10,11 @@ RPM_HASH = "0353ac5f195b5d5f4ae6985a23d76b850261e928e5d6cc074af1626719b57eb20d4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-smart-open \
-python3.10dist(smart-open) \
+python3.10dist-smart-open \
 python310-smart-open \
-python3dist(smart-open)"
+python3dist-smart-open"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-core \
 python310-azure-storage-blob \

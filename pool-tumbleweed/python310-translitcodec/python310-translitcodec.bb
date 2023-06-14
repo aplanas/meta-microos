@@ -12,10 +12,10 @@ RPM_HASH = "7f346f56e5e281ad253e07ef1855b9e7e7bdf0a68901ecbc4da078da3c65b096485e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-translitcodec \
-python3.10dist(translitcodec) \
+python3.10dist-translitcodec \
 python310-translitcodec \
-python3dist(translitcodec)"
+python3dist-translitcodec"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

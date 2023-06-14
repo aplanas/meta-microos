@@ -11,8 +11,7 @@ PV = "5.2.0"
 RPM_NAME = "libpreludedb-devel-5.2.0-2.10.aarch64.rpm"
 RPM_HASH = "24ee8fe67615092cedfa4aeca7eac5a0b4ae395ad3eaa8c6cc66a4d7f3a262f6fc0267cb80c7970810f2d60696986fbf7e51ca2d641088c4a733bdc8ea3e509b"
 
-RPROVIDES:${PN} += "libpreludedb-devel \
-libpreludedb-devel(aarch-64)"
+RPROVIDES:${PN} += "libpreludedb-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 automake \

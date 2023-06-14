@@ -9,9 +9,9 @@ RPM_HASH = "2b3ee7aef57dfd5680bf98c323d6a3a49e7175ca45da73bd61a737fc4b4c234741af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-websocket-api \
-mvn(org.eclipse.jetty.websocket:websocket-api) \
-mvn(org.eclipse.jetty.websocket:websocket-api:pom:) \
-osgi(org.eclipse.jetty.websocket.api)"
+mvn-org.eclipse.jetty.websocket-websocket-api \
+mvn-org.eclipse.jetty.websocket-websocket-api-pom- \
+osgi-org.eclipse.jetty.websocket.api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

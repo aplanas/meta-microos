@@ -28,13 +28,13 @@ RPM_HASH = "ff0a06e9a75ae48cab39db32b864664d600fdc09828670644de86313d58f92e73dcb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-epubmerge \
-python3.10dist(epubmerge) \
+python3.10dist-epubmerge \
 python310-epubmerge \
-python3dist(epubmerge)"
+python3dist-epubmerge"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

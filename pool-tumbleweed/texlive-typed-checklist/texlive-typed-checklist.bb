@@ -16,7 +16,7 @@ RPM_NAME = "texlive-typed-checklist-2023.201.2.1svn63445-52.1.noarch.rpm"
 RPM_HASH = "ad786c71a5a11d89cd8778d85662c13d7f52d760c5846d3b7e926c2929309c794a6d5600ff2748fd66d79132c60615981bb8a4a14947d4a440d4d7ba5cd709f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(typed-checklist.sty) \
+RPROVIDES:${PN} += "tex-typed-checklist.sty \
 texlive-typed-checklist"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,15 +25,15 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(asciilist.sty) \
-tex(bbding.sty) \
-tex(etoolbox.sty) \
-tex(marginnote.sty) \
-tex(tabularx.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
-tex(xltabular.sty) \
+tex-array.sty \
+tex-asciilist.sty \
+tex-bbding.sty \
+tex-etoolbox.sty \
+tex-marginnote.sty \
+tex-tabularx.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
+tex-xltabular.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

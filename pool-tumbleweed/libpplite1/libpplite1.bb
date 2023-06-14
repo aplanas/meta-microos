@@ -8,17 +8,16 @@ PV = "0.7"
 RPM_NAME = "libpplite1-0.7-1.9.aarch64.rpm"
 RPM_HASH = "7cee8c20e91e0ad6e893311bb6b2cb9f22ba11cb7122fb045bbe9ca0878f4b85f55a90b5747f000664ed8b20e6cd4cd162d5160d343cc096bb24c65af7af0991"
 
-RPROVIDES:${PN} += "libpplite.so.1()(64bit) \
-libpplite1 \
-libpplite1(aarch-64)"
+RPROVIDES:${PN} += "libpplite.so.1 \
+libpplite1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libflint.so.17()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libgmpxx.so.4()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libflint.so.17 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libgmpxx.so.4 \
+libstdc++.so.6"
 
 inherit rpm

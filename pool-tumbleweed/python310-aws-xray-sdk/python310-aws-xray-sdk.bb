@@ -20,11 +20,11 @@ RPM_HASH = "8298b58f784c5f096ad21dd97419b0c20c8d998a19e8463339f38860d4b447de8085
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aws-xray-sdk \
-python3.10dist(aws-xray-sdk) \
+python3.10dist-aws-xray-sdk \
 python310-aws-xray-sdk \
-python3dist(aws-xray-sdk)"
+python3dist-aws-xray-sdk"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-botocore \
 python310-wrapt"
 

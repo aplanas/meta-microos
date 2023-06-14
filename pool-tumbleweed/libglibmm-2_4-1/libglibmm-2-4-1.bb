@@ -11,19 +11,18 @@ RPM_HASH = "fdc60afdb5a87be610ce9d21ed0a5a2164babcdbbd9d945b623822798761a25ad19a
 
 RPROVIDES:${PN} += "glibmm2 \
 glibmm24 \
-libglibmm-2.4.so.1()(64bit) \
-libglibmm-2_4-1 \
-libglibmm-2_4-1(aarch-64) \
-libglibmm_generate_extra_defs-2.4.so.1()(64bit)"
+libglibmm-2-4-1 \
+libglibmm-2.4.so.1 \
+libglibmm-generate-extra-defs-2.4.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libsigc-2.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

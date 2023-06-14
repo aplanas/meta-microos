@@ -9,14 +9,12 @@ RPM_HASH = "ccb3cbd81c7a6f4247bebdab17e56b4098bba38139e0470ff2d8e308bb908778196a
 
 RPROVIDES:${PN} += "libsysstat \
 libsysstat-qt5-0 \
-libsysstat-qt5-0(aarch-64) \
-libsysstat-qt5.so.0()(64bit)"
+libsysstat-qt5.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

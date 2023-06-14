@@ -10,13 +10,13 @@ RPM_HASH = "95b426684a57d7593d74433cd287d093cac84cf73361b1a837c05fc4f05ebbeedbab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msoffcrypto-tool \
-python3.10dist(msoffcrypto-tool) \
+python3.10dist-msoffcrypto-tool \
 python310-msoffcrypto-tool \
-python3dist(msoffcrypto-tool)"
+python3dist-msoffcrypto-tool"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cryptography \
 python310-olefile \
 python310-setuptools \

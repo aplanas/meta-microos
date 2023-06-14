@@ -13,14 +13,13 @@ PV = "23.02"
 RPM_NAME = "libarmnnBasePipeServer32-opencl-23.02-2.1.aarch64.rpm"
 RPM_HASH = "4962f7011061822af492b912df50711325c51ca14ef348fe4ba48847cf0241e8fe8193b81d368b22ffbcad38fa17fb05deb95ed1355d2b867832ef7e633a3a55"
 
-RPROVIDES:${PN} += "libarmnnBasePipeServer.so.32()(64bit) \
-libarmnnBasePipeServer32-opencl \
-libarmnnBasePipeServer32-opencl(aarch-64)"
+RPROVIDES:${PN} += "libarmnnBasePipeServer.so.32 \
+libarmnnBasePipeServer32-opencl"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

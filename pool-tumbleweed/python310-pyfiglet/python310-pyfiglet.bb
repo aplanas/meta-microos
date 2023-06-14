@@ -10,13 +10,13 @@ RPM_HASH = "3b49259b6735ca10521156276bdbad9e6164ef87604ad7b9e642ed543796a56c70ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyfiglet \
-python3.10dist(pyfiglet) \
+python3.10dist-pyfiglet \
 python310-pyfiglet \
-python3dist(pyfiglet)"
+python3dist-pyfiglet"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

@@ -8,11 +8,11 @@ RPM_NAME = "python39-matrix-nio-0.19.0-1.11.noarch.rpm"
 RPM_HASH = "73d8dac039c1e1c88020bdedc682066fd87ee4fd08dbce52b05a0a4b8136023c151bbbfb4deb2e295ea736ceb0571a3784aa45e0d567e857874a79912b43931d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(matrix-nio) \
+RPROVIDES:${PN} += "python3.9dist-matrix-nio \
 python39-matrix-nio \
-python3dist(matrix-nio)"
+python3dist-matrix-nio"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Logbook \
 python39-aiofiles \
 python39-aiohttp \

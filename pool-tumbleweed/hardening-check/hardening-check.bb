@@ -11,8 +11,7 @@ PV = "2.6"
 RPM_NAME = "hardening-check-2.6-3.18.aarch64.rpm"
 RPM_HASH = "9975b38dc2dcd3ca3a6c96613ae3e1a98ab1d37707dc692476908868dffc3cde4cbad7c401867b498ed03e6c4ff0eaf2761c9d240da1e25791a7ff00c39b78f1"
 
-RPROVIDES:${PN} += "hardening-check \
-hardening-check(aarch-64)"
+RPROVIDES:${PN} += "hardening-check"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"

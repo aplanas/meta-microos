@@ -15,13 +15,13 @@ RPM_NAME = "python39-targetcli-fb-2.1.54-2.1.noarch.rpm"
 RPM_HASH = "e70b956f387d10f3240d2fdefcb15dc6e10d92d8dc6e808292017f7b709f14acbd677cd23016f777c0c2df5202f23ea0c9e0f601c970d708b4b0e33caefaff30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(targetcli-fb) \
+RPROVIDES:${PN} += "python3.9dist-targetcli-fb \
 python39-targetcli-fb \
-python3dist(targetcli-fb)"
+python3dist-targetcli-fb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-configshell-fb \
 python39-dbus-python \
 python39-rtslib-fb \

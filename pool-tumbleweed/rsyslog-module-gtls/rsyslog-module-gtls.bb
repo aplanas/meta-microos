@@ -11,13 +11,11 @@ PV = "8.2212.0"
 RPM_NAME = "rsyslog-module-gtls-8.2212.0-2.4.aarch64.rpm"
 RPM_HASH = "54d6cb910bb52f75ed8e8b78793fb4e456386b7e6f1380c4fc7ec36314147ecc4ae4c0cbed0da4dbb7b49f3e6dd8716f0124d063c9bce88246fdafc6afb35dad"
 
-RPROVIDES:${PN} += "rsyslog-module-gtls \
-rsyslog-module-gtls(aarch-64)"
+RPROVIDES:${PN} += "rsyslog-module-gtls"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgnutls.so.30 \
 rsyslog"
 
 inherit rpm

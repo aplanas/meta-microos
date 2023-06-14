@@ -18,10 +18,10 @@ RPM_NAME = "python311-colour-0.1.5-3.12.noarch.rpm"
 RPM_HASH = "82fa52fd1f50b28d56cbbd73a59571bb750db89227d8f284b09d2d98c6fa21c8f7fa910ae8f0ee7184395b26a321a70e35c5815d6d4c515ed3e915a1d9b66a61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(colour) \
+RPROVIDES:${PN} += "python3.11dist-colour \
 python311-colour \
-python3dist(colour)"
+python3dist-colour"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_HASH = "4133dfcc76a89b1b5e0e2b59d4b32a851ceca92ca1b84fd4103b5730c253469869d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openstackclient \
-python3.10dist(python-openstackclient) \
-python3dist(python-openstackclient)"
+python3.10dist-python-openstackclient \
+python3dist-python-openstackclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Babel \
 python3-cinderclient \
 python3-cliff \

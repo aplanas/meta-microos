@@ -9,11 +9,11 @@ RPM_HASH = "fe1e89f7647fb9948813aa4a9dc21f2b1fef997874b49dc033774b7585032d946d16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zict \
-python3.10dist(zict) \
+python3.10dist-zict \
 python310-zict \
-python3dist(zict)"
+python3dist-zict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-HeapDict"
 
 inherit rpm

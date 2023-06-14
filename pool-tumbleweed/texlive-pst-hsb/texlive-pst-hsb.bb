@@ -10,8 +10,8 @@ RPM_NAME = "texlive-pst-hsb-2023.201.0.0.02svn61322-52.1.noarch.rpm"
 RPM_HASH = "64971601eb7fc744556e0053307dc7eede840e97cebb20065ddaa56de3c9752bd3c426333266b1fab9a55fd1b383c2eb712f7ea9dfdb0abff7a2b2ca94c4516d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-hsb.sty) \
-tex(pst-hsb.tex) \
+RPROVIDES:${PN} += "tex-pst-hsb.sty \
+tex-pst-hsb.tex \
 texlive-pst-hsb"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

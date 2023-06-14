@@ -13,11 +13,11 @@ RPM_HASH = "c505e02a7661eedcaa60c9fa546d4a49f7c58d5f9e3cecb1ce36b8e6fe81642a49d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-discogs-client \
-python3.10dist(discogs-client) \
+python3.10dist-discogs-client \
 python310-discogs-client \
-python3dist(discogs-client)"
+python3dist-discogs-client"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-oauthlib \
 python310-requests \
 python310-six"

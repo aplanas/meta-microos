@@ -27,13 +27,12 @@ RPM_NAME = "libLASi-devel-1.1.3-4.4.aarch64.rpm"
 RPM_HASH = "7d9427799d904ac3637465804d13b8e47468bf260ddd317d7fd6931bddbed4cfb737b6ecefd12fca95512208ca6475064e0b7a6d55e522f935fe94d1ab99af8c"
 
 RPROVIDES:${PN} += "libLASi-devel \
-libLASi-devel(aarch-64) \
-pkgconfig(lasi)"
+pkgconfig-lasi"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libLASi2 \
-pkgconfig(freetype2) \
-pkgconfig(pango) \
-pkgconfig(pangoft2)"
+pkgconfig-freetype2 \
+pkgconfig-pango \
+pkgconfig-pangoft2"
 
 inherit rpm

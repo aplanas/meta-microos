@@ -12,10 +12,9 @@ PV = "1.3"
 RPM_NAME = "linux-ftools-1.3-4.24.aarch64.rpm"
 RPM_HASH = "a001775fd06a55420abe02773db128c768a5c1ed6a3dfa31ce516a4a9a3f19d894e6c338f2a782b45eeb26d38c8bc0e807efb58b108b3fcf195945251eb92fff"
 
-RPROVIDES:${PN} += "linux-ftools \
-linux-ftools(aarch-64)"
+RPROVIDES:${PN} += "linux-ftools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -9,11 +9,11 @@ RPM_HASH = "453f64adf62de1240bab8089f5740733c5724f54b5e5ee83ee2659fda18a3643c81f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-sekizai \
-python3.10dist(django-sekizai) \
+python3.10dist-django-sekizai \
 python310-django-sekizai \
-python3dist(django-sekizai)"
+python3dist-django-sekizai"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-django-classy-tags"
 

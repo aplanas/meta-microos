@@ -25,13 +25,12 @@ RPM_NAME = "libtheora0-1.1.1-30.8.aarch64.rpm"
 RPM_HASH = "8e3ba3ea6c34f78ec774fa9e201e00ebc63e6068def5e708b944257f4ecb826ec5e7ad4225cf541b7952225dfc24ffbb659274000d359ddb1a11e767fab3c6d5"
 
 RPROVIDES:${PN} += "libtheora \
-libtheora.so.0()(64bit) \
-libtheora0 \
-libtheora0(aarch-64)"
+libtheora.so.0 \
+libtheora0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libogg.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libogg.so.0"
 
 inherit rpm

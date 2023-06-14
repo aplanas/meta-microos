@@ -14,12 +14,12 @@ RPM_HASH = "4e36d00699e7dce7181201b5028e1f457522fcdfc4c50d4fd1f13bfa1b8faf75c0ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-storagecache \
-python3.10dist(azure-mgmt-storagecache) \
+python3.10dist-azure-mgmt-storagecache \
 python310-azure-mgmt-storagecache \
-python3dist(azure-mgmt-storagecache)"
+python3dist-azure-mgmt-storagecache"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

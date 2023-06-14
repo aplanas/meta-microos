@@ -10,13 +10,12 @@ PV = "0.3.1"
 RPM_NAME = "typelib-1_0-CloudProviders-0_3_0-0.3.1-3.3.aarch64.rpm"
 RPM_HASH = "4405ce1392bd9450e646b8233b38af4610b90b7df1d9b8e97cb2724feef6f951f759e3bc730993518aae947b6c66b277bf9b43290fb85283a0780a0c38dabc4a"
 
-RPROVIDES:${PN} += "typelib(CloudProviders) \
-typelib-1_0-CloudProviders-0_3_0 \
-typelib-1_0-CloudProviders-0_3_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-CloudProviders-0-3-0 \
+typelib-CloudProviders"
 
-RDEPENDS:${PN} += "libcloudproviders.so.0()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libcloudproviders.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

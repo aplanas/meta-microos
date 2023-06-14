@@ -17,10 +17,10 @@ RPM_NAME = "perl-MooX-Attribute-ENV-0.04-1.8.noarch.rpm"
 RPM_HASH = "02e620234c77860dc21556cd5b4b4b4e04ca4a0d75bcfe659aa34e9fbaa2d14c949084cb7fedd381f8efd92f146b3652485eba6aee32520db23694634ba04122"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(MooX::Attribute::ENV) \
+RPROVIDES:${PN} += "perl-MooX--Attribute--ENV \
 perl-MooX-Attribute-ENV"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Moo)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Moo"
 
 inherit rpm

@@ -24,10 +24,10 @@ RPM_NAME = "python311-webcolors-1.13-1.1.noarch.rpm"
 RPM_HASH = "a0db387ad581434ef7b0444f8a296e9e3863f3c8e334e6a3af14cf72e79e8a010166a83c5112435a46791694c5286501f758a8e77fe7242e51b8b9252fb8b6c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(webcolors) \
+RPROVIDES:${PN} += "python3.11dist-webcolors \
 python311-webcolors \
-python3dist(webcolors)"
+python3dist-webcolors"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

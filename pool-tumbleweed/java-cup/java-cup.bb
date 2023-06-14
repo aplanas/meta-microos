@@ -18,9 +18,8 @@ RPM_HASH = "e6ef5186ca1efd839596671d3e0da99eeb6f12e137da2717c4fb1b36ed3a1e7ba8b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-cup \
-java_cup \
-mvn(com.github.vbmacher:java-cup) \
-mvn(com.github.vbmacher:java-cup-runtime)"
+mvn-com.github.vbmacher-java-cup \
+mvn-com.github.vbmacher-java-cup-runtime"
 
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \

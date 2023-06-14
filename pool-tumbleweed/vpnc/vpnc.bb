@@ -17,18 +17,16 @@ PV = "0.5.3r550"
 RPM_NAME = "vpnc-0.5.3r550-3.13.aarch64.rpm"
 RPM_HASH = "e77a133a127dcba65a940dff7bf4f7a15da9d063e3215c34182eb99442bd0a92f8544cdcdeb7b39397e7a1be5cd584f6566ac44fd531fa21c237bf04c7e63d41"
 
-RPROVIDES:${PN} += "config(vpnc) \
-vpnc \
-vpnc(aarch-64)"
+RPROVIDES:${PN} += "config-vpnc \
+vpnc"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ip \
 /usr/bin/perl \
 /usr/bin/sed \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcrypt.so.20 \
+libgnutls.so.30"
 
 inherit rpm

@@ -11,10 +11,9 @@ RPM_NAME = "ispell-polish-1.5-422.6.aarch64.rpm"
 RPM_HASH = "4c18303b0cb3d284962e44f1bf36c30216fd1507e1d1c87be0a4a2e1a53d3d2dcfd348c642316e3d8f6942796d00a65b9059477e848a0dd58e624e1e198468ea"
 
 RPROVIDES:${PN} += "ipolish \
+ispell-dictionary \
 ispell-polish \
-ispell-polish(aarch-64) \
-ispell_dictionary \
-locale(ispell:pl)"
+locale-ispell-pl"
 
 RDEPENDS:${PN} += ""
 

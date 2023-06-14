@@ -9,13 +9,13 @@ RPM_HASH = "6c02a464e1325cd645a4525238ad40df63457415e5d95f2aacdb5ee2f050e6ce4f94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moarvm-devel \
-pkgconfig(moar)"
+pkgconfig-moar"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 moarvm \
-pkgconfig(libffi) \
-pkgconfig(libtommath) \
-pkgconfig(libuv) \
-pkgconfig(libzstd)"
+pkgconfig-libffi \
+pkgconfig-libtommath \
+pkgconfig-libuv \
+pkgconfig-libzstd"
 
 inherit rpm

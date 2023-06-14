@@ -13,34 +13,33 @@ RPM_HASH = "f1102d4d1232e6c22d12d25999871c8a43da3ae1f26e4038712ff02ae78efe2725c3
 
 RPROVIDES:${PN} += "php-devel \
 php8-devel \
-php8-devel(aarch-64) \
-rpm_macro(pear_cfgdir) \
-rpm_macro(pear_datadir) \
-rpm_macro(pear_docdir) \
-rpm_macro(pear_metadir) \
-rpm_macro(pear_phpdir) \
-rpm_macro(pear_testdir) \
-rpm_macro(pear_wwwdir) \
-rpm_macro(pear_xmldir) \
-rpm_macro(pecl_datadir) \
-rpm_macro(pecl_docdir) \
-rpm_macro(pecl_phpdir) \
-rpm_macro(pecl_testdir) \
-rpm_macro(php_cfgdir) \
-rpm_macro(php_core_api) \
-rpm_macro(php_extdir) \
-rpm_macro(php_pear_gen_filelist) \
-rpm_macro(php_peardir) \
-rpm_macro(php_pearxmldir) \
-rpm_macro(php_version) \
-rpm_macro(php_zend_api)"
+rpm-macro-pear-cfgdir \
+rpm-macro-pear-datadir \
+rpm-macro-pear-docdir \
+rpm-macro-pear-metadir \
+rpm-macro-pear-phpdir \
+rpm-macro-pear-testdir \
+rpm-macro-pear-wwwdir \
+rpm-macro-pear-xmldir \
+rpm-macro-pecl-datadir \
+rpm-macro-pecl-docdir \
+rpm-macro-pecl-phpdir \
+rpm-macro-pecl-testdir \
+rpm-macro-php-cfgdir \
+rpm-macro-php-core-api \
+rpm-macro-php-extdir \
+rpm-macro-php-pear-gen-filelist \
+rpm-macro-php-peardir \
+rpm-macro-php-pearxmldir \
+rpm-macro-php-version \
+rpm-macro-php-zend-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 php \
 php8-pear \
 php8-pecl \
-pkgconfig(libpcre2-8) \
-pkgconfig(libxml-2.0)"
+pkgconfig-libpcre2-8 \
+pkgconfig-libxml-2.0"
 
 inherit rpm

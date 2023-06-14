@@ -9,7 +9,7 @@ RPM_HASH = "bb3564d22e30cec2dd6a15dc5f10614afa54238cb76e51350e74bc3218f2930714e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehanserif-jp-fonts \
-locale(jp) \
+locale-jp \
 scalable-font-jp"
 
 RDEPENDS:${PN} += "/bin/sh"

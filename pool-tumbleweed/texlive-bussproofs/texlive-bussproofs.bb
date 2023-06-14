@@ -15,7 +15,7 @@ RPM_NAME = "texlive-bussproofs-2023.201.1.1svn54080-52.1.noarch.rpm"
 RPM_HASH = "ced5369bc56b709b155a254677a554adfe0caac7b94f46250abcf45d6f61d1036f4448acf88ed78fdc17bf1fa08c6662a2795ebfe854f1f766b766d8301c5131"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bussproofs.sty) \
+RPROVIDES:${PN} += "tex-bussproofs.sty \
 texlive-bussproofs"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -11,8 +11,7 @@ RPM_NAME = "libsoc-devel-0.8.2-3.13.aarch64.rpm"
 RPM_HASH = "6e445dbc6f974f1baf79e14eb5e6a43e487c416c90a29af651b4ae4922b2d3ce148aa53bb64eb84c3c00647751c907890a1c840efd8d5016d3d51595841eea33"
 
 RPROVIDES:${PN} += "libsoc-devel \
-libsoc-devel(aarch-64) \
-pkgconfig(libsoc)"
+pkgconfig-libsoc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoc2"

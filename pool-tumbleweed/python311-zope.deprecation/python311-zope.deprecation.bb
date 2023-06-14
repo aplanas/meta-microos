@@ -12,10 +12,10 @@ RPM_NAME = "python311-zope.deprecation-5.0-1.1.noarch.rpm"
 RPM_HASH = "17bf3e7985fb8ee3286acb21f0a7f94947525c0bf904386cfce878b3e2033e0bf323ebb5e2afc945ecb2f7b4013ff0b30bfa48a92fab407a5281c044bd2f454e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(zope.deprecation) \
+RPROVIDES:${PN} += "python3.11dist-zope.deprecation \
 python311-zope.deprecation \
-python3dist(zope.deprecation)"
+python3dist-zope.deprecation"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

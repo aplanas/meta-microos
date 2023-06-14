@@ -7,16 +7,15 @@ PV = "1.1.6"
 RPM_NAME = "lib4store0-1.1.6-3.14.aarch64.rpm"
 RPM_HASH = "e1ee9c8dac89ca7782c97714b1a1831dae9dcb5a862ae533f1accce7516a0995cc3f6b919a4615c9de7a5b91a4a949f5893c885fae72458efa9b50429ac40d83"
 
-RPROVIDES:${PN} += "lib4store.so.0()(64bit) \
-lib4store0 \
-lib4store0(aarch-64)"
+RPROVIDES:${PN} += "lib4store.so.0 \
+lib4store0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libavahi-glib.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libavahi-glib.so.1 \
+libc.so.6 \
+libglib-2.0.so.0"
 
 inherit rpm

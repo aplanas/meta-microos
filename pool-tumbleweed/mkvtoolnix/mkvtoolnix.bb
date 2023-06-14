@@ -9,26 +9,24 @@ PV = "77.0"
 RPM_NAME = "mkvtoolnix-77.0-1.1.aarch64.rpm"
 RPM_HASH = "2b2cef84de427d3efe0d8fd8233e6b58d89d3817eaaf5d446ec77a77f0cc44064a373cf71e55664bc1ac714f5f270232b30135c41d72324c57e3133bfa8f7664"
 
-RPROVIDES:${PN} += "mkvtoolnix \
-mkvtoolnix(aarch-64)"
+RPROVIDES:${PN} += "mkvtoolnix"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libFLAC.so.12()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libdvdread.so.8()(64bit) \
-libebml.so.5()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libmatroska.so.7()(64bit) \
-libogg.so.0()(64bit) \
-libpugixml.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libvorbis.so.0()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFLAC.so.12 \
+libQt6Core.so.6 \
+libboost-filesystem.so.1.82.0 \
+libc.so.6 \
+libdvdread.so.8 \
+libebml.so.5 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libm.so.6 \
+libmatroska.so.7 \
+libogg.so.0 \
+libpugixml.so.1 \
+libstdc++.so.6 \
+libvorbis.so.0 \
+libz.so.1"
 
 inherit rpm

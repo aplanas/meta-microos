@@ -14,11 +14,11 @@ RPM_HASH = "731150baead39a385d109258366d501ed4b3b7cdbee25401a1421d00ec0f30c13563
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-datamigration \
-python3.10dist(azure-mgmt-datamigration) \
+python3.10dist-azure-mgmt-datamigration \
 python310-azure-mgmt-datamigration \
-python3dist(azure-mgmt-datamigration)"
+python3dist-azure-mgmt-datamigration"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

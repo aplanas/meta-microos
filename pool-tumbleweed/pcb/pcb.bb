@@ -10,36 +10,28 @@ PV = "4.3.0"
 RPM_NAME = "pcb-4.3.0-1.10.aarch64.rpm"
 RPM_HASH = "da271665089d8285382a43eebba289ec8cbf0a81504debcff02562b661eee0b2f0f72ba06aecbe63632d378c66f872454c5101d2d57f9cdf7492355500299b03"
 
-RPROVIDES:${PN} += "application() \
-application(pcb.desktop) \
-metainfo() \
-metainfo(pcb.appdata.xml) \
-mimehandler(application/x-pcb-footprint) \
-mimehandler(application/x-pcb-layout) \
-pcb \
-pcb(aarch-64)"
+RPROVIDES:${PN} += "pcb"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/tclsh \
 /usr/bin/wish \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libgd.so.3()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgdkglext-x11-1.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libgtkglext-x11-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLU.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libdbus-1.so.3 \
+libgd.so.3 \
+libgdk-pixbuf-2.0.so.0 \
+libgdk-x11-2.0.so.0 \
+libgdkglext-x11-1.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libgtkglext-x11-1.0.so.0 \
+libm.so.6 \
 m4"
 
 inherit rpm

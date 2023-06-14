@@ -18,13 +18,13 @@ RPM_NAME = "python39-pylama-8.4.1-2.1.noarch.rpm"
 RPM_HASH = "c412013ee646cd972f56fca2fe407d0c7e0252ce89afcd854234ee978848ec1057453bb70f73259bb48a80a617251466e8098df2958a0125b173e99df762e18e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pylama) \
+RPROVIDES:${PN} += "python3.9dist-pylama \
 python39-pylama \
-python3dist(pylama)"
+python3dist-pylama"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-mccabe \
 python39-pycodestyle \
 python39-pydocstyle \

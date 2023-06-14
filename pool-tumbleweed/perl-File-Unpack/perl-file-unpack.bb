@@ -14,9 +14,8 @@ PV = "0.70"
 RPM_NAME = "perl-File-Unpack-0.70-7.11.aarch64.rpm"
 RPM_HASH = "536071867dc00e49ee139742d093e1af34060fe438ed130801a53fcc6c0defef83de20327184b22da5847661ac902a6deb7379c9f164b3feacb3fff71c97be6b"
 
-RPROVIDES:${PN} += "perl(File::Unpack) \
-perl-File-Unpack \
-perl-File-Unpack(aarch-64)"
+RPROVIDES:${PN} += "perl-File--Unpack \
+perl-File-Unpack"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
@@ -30,22 +29,22 @@ gzip \
 lzip \
 mkisofs \
 p7zip-full \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(BSD::Resource) \
-perl(Carp) \
-perl(Compress::Raw::Bzip2) \
-perl(Compress::Raw::Lzma) \
-perl(Compress::Raw::Zlib) \
-perl(Cwd) \
-perl(File::LibMagic) \
-perl(File::MimeInfo::Magic) \
-perl(File::Path) \
-perl(File::Temp) \
-perl(Filesys::Statvfs) \
-perl(IPC::Run) \
-perl(JSON) \
-perl(Text::Sprintf::Named) \
+perl--MODULE-COMPAT-5.36.0 \
+perl-BSD--Resource \
+perl-Carp \
+perl-Compress--Raw--Bzip2 \
+perl-Compress--Raw--Lzma \
+perl-Compress--Raw--Zlib \
+perl-Cwd \
+perl-File--LibMagic \
+perl-File--MimeInfo--Magic \
+perl-File--Path \
+perl-File--Temp \
+perl-Filesys--Statvfs \
+perl-IPC--Run \
+perl-JSON \
 perl-String-ShellQuote \
+perl-Text--Sprintf--Named \
 poppler-tools \
 rpm \
 shared-mime-info \

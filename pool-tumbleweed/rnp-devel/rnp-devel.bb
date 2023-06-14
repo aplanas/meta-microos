@@ -8,10 +8,9 @@ PV = "0.16.2"
 RPM_NAME = "rnp-devel-0.16.2-1.5.aarch64.rpm"
 RPM_HASH = "4bf3b49980b5ee077a57bb2480dfc9396e0c2e3dba5510b0ea4ec97a47d457817d58ac60dae2a1be4a9ac2d9ecd3593222a5f5d2e9bae0624cdd85279004deb2"
 
-RPROVIDES:${PN} += "cmake(rnp) \
-pkgconfig(librnp) \
-rnp-devel \
-rnp-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-rnp \
+pkgconfig-librnp \
+rnp-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librnp0"

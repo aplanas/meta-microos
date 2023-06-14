@@ -17,8 +17,8 @@ RPM_HASH = "36b26084acb56ca891d380a4976bc3eb1a82d2f1b92ceadb62f36fd86ab8ea9169a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-oro \
-mvn(oro:oro) \
-mvn(oro:oro:pom:) \
+mvn-oro-oro \
+mvn-oro-oro-pom- \
 oro"
 
 RDEPENDS:${PN} += "java-headless \

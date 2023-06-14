@@ -9,11 +9,11 @@ RPM_HASH = "b3d25227265e511497e1627979d2ae2e7927e4e5f691b717ed38a7c4845a244eb14a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cirq-aqt \
-python3.10dist(cirq-aqt) \
+python3.10dist-cirq-aqt \
 python310-cirq-aqt \
-python3dist(cirq-aqt)"
+python3dist-cirq-aqt"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cirq-core \
 python310-requests"
 

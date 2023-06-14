@@ -9,11 +9,10 @@ RPM_NAME = "monitoring-plugins-pgsql-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "60d07b4ec6ca3218a4b94d7d149b4691b77ff335295fdad6512c7489d05c26694973697f60e04392417353eecf20a37438973cf9e1af45735324f99a0be59635"
 
 RPROVIDES:${PN} += "monitoring-plugins-pgsql \
-monitoring-plugins-pgsql(aarch-64) \
 nagios-plugins-pgsql"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpq.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpq.so.5"
 
 inherit rpm

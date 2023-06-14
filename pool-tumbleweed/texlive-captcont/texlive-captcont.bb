@@ -16,7 +16,7 @@ RPM_NAME = "texlive-captcont-2023.201.2.0svn15878-52.1.noarch.rpm"
 RPM_HASH = "883741f197a25e20fbd7fd912f89f0a22d86751f8f400af9e81c86d878159023a9d5c4c40081f3f83753626a646fc7047abfbb7140b0abe124f512cd2d516ee3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(captcont.sty) \
+RPROVIDES:${PN} += "tex-captcont.sty \
 texlive-captcont"
 
 RDEPENDS:${PN} += "/bin/sh \

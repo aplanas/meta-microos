@@ -17,26 +17,25 @@ PV = "3.5.3"
 RPM_NAME = "tracker-3.5.3-1.1.aarch64.rpm"
 RPM_HASH = "624d5cf7583d54765c49eb05d59f5b106aaefbf5542bfe3fa5aa1f46dbf55d45f37168a6c10ea59223bcd4607713d8e97e8aa2ac37b7e553546a56240485fc7b"
 
-RPROVIDES:${PN} += "libtracker-http-soup3.so()(64bit) \
-libtracker-parser-libicu.so()(64bit) \
-tracker \
-tracker(aarch-64)"
+RPROVIDES:${PN} += "libtracker-http-soup3.so \
+libtracker-parser-libicu.so \
+tracker"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libjson-glib-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libsoup-3.0.so.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libtracker-sparql-3.0.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libjson-glib-1.0.so.0 \
+libm.so.6 \
+libsoup-3.0.so.0 \
+libsqlite3.so.0 \
+libtracker-sparql-3.0.so.0 \
+libxml2.so.2 \
 tracker-data-files"
 
 inherit rpm

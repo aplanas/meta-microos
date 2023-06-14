@@ -9,23 +9,23 @@ RPM_HASH = "a03693ca3c4812091f9927a51ea57de528169afe9db1c962312f0fd2ec102b4b5b83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontpackages-devel \
-rpm_macro(_fontsconfavaildir) \
-rpm_macro(_fontsconfddir) \
-rpm_macro(_fontsconfdir) \
-rpm_macro(_fontsdir) \
-rpm_macro(_miscfontsdir) \
-rpm_macro(_ttfontsdir) \
-rpm_macro(files_fontsconf_availdir) \
-rpm_macro(files_fontsconf_file) \
-rpm_macro(install_fontsconf) \
-rpm_macro(link_avail_to_system_fontsconf) \
-rpm_macro(reconfigure_fonts) \
-rpm_macro(reconfigure_fonts_cjk) \
-rpm_macro(reconfigure_fonts_post) \
-rpm_macro(reconfigure_fonts_posttrans) \
-rpm_macro(reconfigure_fonts_postun) \
-rpm_macro(reconfigure_fonts_prereq) \
-rpm_macro(reconfigure_fonts_scriptlets)"
+rpm-macro--fontsconfavaildir \
+rpm-macro--fontsconfddir \
+rpm-macro--fontsconfdir \
+rpm-macro--fontsdir \
+rpm-macro--miscfontsdir \
+rpm-macro--ttfontsdir \
+rpm-macro-files-fontsconf-availdir \
+rpm-macro-files-fontsconf-file \
+rpm-macro-install-fontsconf \
+rpm-macro-link-avail-to-system-fontsconf \
+rpm-macro-reconfigure-fonts \
+rpm-macro-reconfigure-fonts-cjk \
+rpm-macro-reconfigure-fonts-post \
+rpm-macro-reconfigure-fonts-posttrans \
+rpm-macro-reconfigure-fonts-postun \
+rpm-macro-reconfigure-fonts-prereq \
+rpm-macro-reconfigure-fonts-scriptlets"
 
 RDEPENDS:${PN} += ""
 

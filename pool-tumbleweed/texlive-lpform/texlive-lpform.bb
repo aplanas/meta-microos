@@ -15,7 +15,7 @@ RPM_NAME = "texlive-lpform-2023.201.svn36918-54.1.noarch.rpm"
 RPM_HASH = "66ffef518f0225ed076e11b08abfa15486748ad45ccbac2b75d707b65484c027157a3671ccb2806cd4bdbb2ed6adfda8241af1412c9290974ca6800070dec0d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lpform.sty) \
+RPROVIDES:${PN} += "tex-lpform.sty \
 texlive-lpform"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,7 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xifthen.sty) \
+tex-xifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

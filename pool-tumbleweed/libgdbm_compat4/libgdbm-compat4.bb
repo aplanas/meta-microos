@@ -12,13 +12,12 @@ PV = "1.23"
 RPM_NAME = "libgdbm_compat4-1.23-1.12.aarch64.rpm"
 RPM_HASH = "64993c6c42fca2993ce0b8851ca928b3ff451eaa5640de641c89520d5d15eb3d6847cd8352d6a159e45619c255de75c02e794ae11604e4598aac66576dc73d6b"
 
-RPROVIDES:${PN} += "libgdbm_compat.so.4()(64bit) \
-libgdbm_compat4 \
-libgdbm_compat4(aarch-64)"
+RPROVIDES:${PN} += "libgdbm-compat.so.4 \
+libgdbm-compat4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdbm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdbm.so.6"
 
 inherit rpm

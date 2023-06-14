@@ -25,17 +25,16 @@ PV = "0.9.18"
 RPM_NAME = "irda-0.9.18-233.8.aarch64.rpm"
 RPM_HASH = "a8232c22973f46f4a9867209b49d11e3dee1db404466ac13308d95e238a3fdbb348681bb98f5f0e63194f3f8bedd6a9be98be8a1059e4162d6616fdad096f2a2"
 
-RPROVIDES:${PN} += "irda \
-irda(aarch-64)"
+RPROVIDES:${PN} += "irda"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libHX.so.32()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libHX.so.32 \
+libc.so.6 \
+libglib-2.0.so.0 \
 systemd"
 
 inherit rpm

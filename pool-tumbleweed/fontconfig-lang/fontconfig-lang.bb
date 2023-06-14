@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontconfig-lang \
 fontconfig-lang-all \
-locale(fontconfig:ka) \
-locale(fontconfig:zh_CN)"
+locale-fontconfig-ka \
+locale-fontconfig-zh-CN"
 
 RDEPENDS:${PN} += "fontconfig"
 

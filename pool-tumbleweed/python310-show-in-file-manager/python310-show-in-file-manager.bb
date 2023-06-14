@@ -12,13 +12,13 @@ RPM_HASH = "670838f97df5de4fd0df0561d319f630aa2b0535c8b2b03bc951fa634a1f0c9ed8c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-show-in-file-manager \
-python3.10dist(show-in-file-manager) \
+python3.10dist-show-in-file-manager \
 python310-show-in-file-manager \
-python3dist(show-in-file-manager)"
+python3dist-show-in-file-manager"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-packaging \
 python310-pyxdg \
 update-alternatives"

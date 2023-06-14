@@ -11,11 +11,11 @@ RPM_HASH = "a362a2758842f924d4b40302cdfac8f8ce546d87fce24403c78465f4db6e060caaba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyscreenshot \
-python3.10dist(pyscreenshot) \
+python3.10dist-pyscreenshot \
 python310-pyscreenshot \
-python3dist(pyscreenshot)"
+python3dist-pyscreenshot"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-EasyProcess \
 python310-entrypoint2 \
 python310-jeepney \

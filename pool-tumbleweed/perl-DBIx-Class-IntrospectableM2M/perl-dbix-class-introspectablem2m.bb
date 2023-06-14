@@ -13,10 +13,10 @@ RPM_NAME = "perl-DBIx-Class-IntrospectableM2M-0.001002-2.19.noarch.rpm"
 RPM_HASH = "686c8ca73291e3182170945ab9f866c55280ae4e4123ece59674fb7d74e61d6ec7f0055517d7cfe9126a6876ef53ddab7d14ef42bc718e4ffcd80eceb6fcdb61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DBIx::Class::IntrospectableM2M) \
+RPROVIDES:${PN} += "perl-DBIx--Class--IntrospectableM2M \
 perl-DBIx-Class-IntrospectableM2M"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DBIx::Class)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DBIx--Class"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-arcs-2023.201.1svn15878-54.1.noarch.rpm"
 RPM_HASH = "f61862169c0e44bbdd3304c6bd95d8574c3b579d21d02ac7aaecd0f32affedddc250815386182b02a2f52115a22f7c5d4d6bd470018b8b578fb8e169de07302c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arcs.sty) \
+RPROVIDES:${PN} += "tex-arcs.sty \
 texlive-arcs"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(relsize.sty) \
+tex-relsize.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

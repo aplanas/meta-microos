@@ -11,21 +11,17 @@ PV = "0.7"
 RPM_NAME = "libKF5KWeatherCore5-0.7-1.1.aarch64.rpm"
 RPM_HASH = "279417ccbd7c8fc028700ab0083d78b818c981fd0a5dcf604a7fc1c6ff15d271f86f30158b3854547daf472da716ba7abcf79f52e45ef8b053fcf7919c076c4c"
 
-RPROVIDES:${PN} += "libKF5KWeatherCore.so.5()(64bit) \
-libKF5KWeatherCore5 \
-libKF5KWeatherCore5(aarch-64)"
+RPROVIDES:${PN} += "libKF5KWeatherCore.so.5 \
+libKF5KWeatherCore5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libKF5Holidays.so.5()(64bit) \
-libKF5I18n.so.5()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Positioning.so.5()(64bit) \
-libQt5Positioning.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libKF5Holidays.so.5 \
+libKF5I18n.so.5 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5Positioning.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "2080253bf8d83150c956d528140c623b0cfeab4b38e3d25f270ce5e719d2a9682fe3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cauldron-notebook \
-python3.10dist(cauldron-notebook) \
+python3.10dist-cauldron-notebook \
 python310-cauldron-notebook \
-python3dist(cauldron-notebook)"
+python3dist-cauldron-notebook"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Flask \
 python310-Jinja2 \
 python310-Markdown \

@@ -15,27 +15,18 @@ RPM_NAME = "UltimateDailyWallpaper-3.2.3-1.1.aarch64.rpm"
 RPM_HASH = "92a2eca1ee891d97be18d4cea23935ae1289e6906dd31dad3463e6657e77457e5f4607bfa71cd75761f835b1c6318972b6759b648af0251ff4d5b8c346d60156"
 
 RPROVIDES:${PN} += "UltimateDailyWallpaper \
-UltimateDailyWallpaper(aarch-64) \
-application() \
-application(UltimateDailyWallpaper.desktop) \
-libbing-wallpaper-downloader-0.0.4.so()(64bit) \
-libwikimedia-commons-potd-0.0.6.so()(64bit)"
+libbing-wallpaper-downloader-0.0.4.so \
+libwikimedia-commons-potd-0.0.6.so"
 
 RDEPENDS:${PN} += "curl \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Sql.so.5()(64bit) \
-libQt5Sql.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Sql.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

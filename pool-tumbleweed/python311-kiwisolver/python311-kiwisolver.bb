@@ -14,15 +14,14 @@ PV = "1.4.4"
 RPM_NAME = "python311-kiwisolver-1.4.4-2.1.aarch64.rpm"
 RPM_HASH = "d7da73fc29b7420bae68da8296230f3fb88465659891fec6c6ef101ea11bb5a0039dc7c8d16c31d9e3baccdcf350c5a55514bda849949ff906207d7066c80211"
 
-RPROVIDES:${PN} += "python3.11dist(kiwisolver) \
+RPROVIDES:${PN} += "python3.11dist-kiwisolver \
 python311-kiwisolver \
-python311-kiwisolver(aarch-64) \
-python3dist(kiwisolver)"
+python3dist-kiwisolver"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

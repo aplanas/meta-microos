@@ -12,32 +12,21 @@ PV = "0.7.3"
 RPM_NAME = "molsketch-0.7.3-1.3.aarch64.rpm"
 RPM_HASH = "d1c46d112958d9df224df5affdaa39fb031fb31703c77dbd336f39f5bc4e1395eabfcbe13e182c9c2e0a1599a73c13cc268ccd3041d3403d77191e88afc01c73"
 
-RPROVIDES:${PN} += "application() \
-application(molsketch.desktop) \
-libmolsketch.so()(64bit) \
-libobabeliface.so()(64bit) \
-metainfo() \
-metainfo(net.sourceforge.molsketch.appdata.xml) \
-molsketch \
-molsketch(aarch-64)"
+RPROVIDES:${PN} += "libmolsketch.so \
+libobabeliface.so \
+molsketch"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5PrintSupport.so.5()(64bit) \
-libQt5PrintSupport.so.5(Qt_5)(64bit) \
-libQt5Svg.so.5()(64bit) \
-libQt5Svg.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopenbabel.so.7()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5PrintSupport.so.5 \
+libQt5Svg.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopenbabel.so.7 \
+libstdc++.so.6"
 
 inherit rpm

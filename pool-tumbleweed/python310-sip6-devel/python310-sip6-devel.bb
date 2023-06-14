@@ -17,20 +17,19 @@ RPM_HASH = "9126396504d4e6b8b7d2b8da0ed109e9b2a9ed18aed710a9f97cbbacdfcba8330cb4
 RPROVIDES:${PN} += "python3-sip-devel \
 python3-sip-impl \
 python3-sip6-devel \
-python3.10dist(sip) \
+python3.10dist-sip \
 python310-sip-devel \
 python310-sip-impl \
 python310-sip6-devel \
-python310-sip6-devel(aarch-64) \
-python3dist(sip)"
+python3dist-sip"
 
-RDEPENDS:${PN} += "(python310-tomli if python310-base < 3.11) \
+RDEPENDS:${PN} += "-python310-tomli if python310-base < 3.11 \
 /bin/sh \
 /usr/bin/python3.10 \
-c++_compiler \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+c++-compiler \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-devel \
 python310-packaging \
 python310-ply \

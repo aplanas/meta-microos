@@ -12,13 +12,12 @@ PV = "2.3.1"
 RPM_NAME = "monitoring-plugins-icmp-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "6f5794e8995b822591fe5fccce08983a8c687916101a2f55601ca97bc46e370026cd313a959997f4ee11607ed8fcedae610926a0ac43fdaf3d1eeb2c4688f425"
 
-RPROVIDES:${PN} += "config(monitoring-plugins-icmp) \
+RPROVIDES:${PN} += "config-monitoring-plugins-icmp \
 monitoring-plugins-icmp \
-monitoring-plugins-icmp(aarch-64) \
 nagios-plugins-icmp"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

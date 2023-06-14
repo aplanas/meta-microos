@@ -12,10 +12,9 @@ PV = "0.9"
 RPM_NAME = "lua51-linenoise-0.9-2.4.aarch64.rpm"
 RPM_HASH = "57acb3c71aa0ab923c309dc9337e1cd00636c236602b1b5ee4986966ba5268ee331219697aa4f55ac3715a000589d958aabaacd0c78aca6c4274d087ca421793"
 
-RPROVIDES:${PN} += "lua51-linenoise \
-lua51-linenoise(aarch-64)"
+RPROVIDES:${PN} += "lua51-linenoise"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
+RDEPENDS:${PN} += "libc.so.6 \
 lua51"
 
 inherit rpm

@@ -12,8 +12,7 @@ RPM_NAME = "libndpi-devel-4.0-1.8.aarch64.rpm"
 RPM_HASH = "6acd637d2707f49318d3a725f6d21e012cf3049ab058e434ab56d2c1a2dea09c249cba34d77f64f81b71602e45470271a189a912a4de54267fa151b4ef5d9d7e"
 
 RPROVIDES:${PN} += "libndpi-devel \
-libndpi-devel(aarch-64) \
-pkgconfig(libndpi)"
+pkgconfig-libndpi"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libndpi4"

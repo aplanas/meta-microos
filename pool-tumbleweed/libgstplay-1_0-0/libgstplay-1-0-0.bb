@@ -11,18 +11,17 @@ PV = "1.22.3"
 RPM_NAME = "libgstplay-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "6bdd52187769b2dc424a6a4c8b4364abe38e890736694ca6147418cf0fea490048e13ac02e88779edad184a60db02c733ec54069d692bb01dad4e55b6dd2062d"
 
-RPROVIDES:${PN} += "libgstplay-1.0.so.0()(64bit) \
-libgstplay-1_0-0 \
-libgstplay-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstplay-1-0-0 \
+libgstplay-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstpbutils-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libgsttag-1.0.so.0()(64bit) \
-libgstvideo-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstpbutils-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgsttag-1.0.so.0 \
+libgstvideo-1.0.so.0"
 
 inherit rpm

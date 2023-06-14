@@ -67,26 +67,25 @@ PV = "1.50.1"
 RPM_NAME = "guestfs-tools-1.50.1-1.1.aarch64.rpm"
 RPM_HASH = "6e4e0cb39393a17c45ea65bb613af49c71c3d6e982fc56dcfb39b34957078868848ed1c09fada357621b605e8b03e52ff06a641e4f6982c917f0e0b617bb58f8"
 
-RPROVIDES:${PN} += "config(guestfs-tools) \
-guestfs-tools \
-guestfs-tools(aarch-64)"
+RPROVIDES:${PN} += "config-guestfs-tools \
+guestfs-tools"
 
 RDEPENDS:${PN} += "curl \
 gpg2 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libguestfs.so.0()(64bit) \
-libjansson.so.4()(64bit) \
-liblzma.so.5()(64bit) \
-libm.so.6()(64bit) \
-libosinfo-1.0.so.0()(64bit) \
-libpcre2-8.so.0()(64bit) \
-libtinfo.so.6()(64bit) \
-libvirt.so.0()(64bit) \
-libxml2.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libguestfs.so.0 \
+libjansson.so.4 \
+liblzma.so.5 \
+libm.so.6 \
+libosinfo-1.0.so.0 \
+libpcre2-8.so.0 \
+libtinfo.so.6 \
+libvirt.so.0 \
+libxml2.so.2 \
 xz"
 
 inherit rpm

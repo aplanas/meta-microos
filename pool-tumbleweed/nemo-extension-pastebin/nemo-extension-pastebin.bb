@@ -11,19 +11,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-pastebin \
 nemo-pastebin \
-python3.10dist(nemo-pastebin) \
-python3dist(nemo-pastebin)"
+python3.10dist-nemo-pastebin \
+python3dist-nemo-pastebin"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
 python3-gobject \
 python3-gobject-Gdk \
 python3-pyxdg \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(Nemo) \
-typelib(Notify)"
+typelib-GObject \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk \
+typelib-Nemo \
+typelib-Notify"
 
 inherit rpm

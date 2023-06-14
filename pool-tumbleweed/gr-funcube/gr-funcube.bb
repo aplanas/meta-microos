@@ -10,8 +10,7 @@ PV = "3.10.0.rc3"
 RPM_NAME = "gr-funcube-3.10.0.rc3-1.1.aarch64.rpm"
 RPM_HASH = "03625adf9c53529d2b98497bbedbcc3020463ff8f9edda28e76bc4e1527f6d72b799d4c76be2df560d8ffb55b44e96539994c772d2cf27791255ef4deffca090"
 
-RPROVIDES:${PN} += "gr-funcube \
-gr-funcube(aarch-64)"
+RPROVIDES:${PN} += "gr-funcube"
 
 RDEPENDS:${PN} += ""
 

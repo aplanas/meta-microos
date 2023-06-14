@@ -11,13 +11,13 @@ RPM_HASH = "0405d615852baafe2890dcb05878ccbabd636d693a9709e5ee798a40d3f4a24492df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rnginline \
-python3.10dist(rnginline) \
+python3.10dist-rnginline \
 python310-rnginline \
-python3dist(rnginline)"
+python3dist-rnginline"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-docopt \
 python310-lxml \
 python310-six \

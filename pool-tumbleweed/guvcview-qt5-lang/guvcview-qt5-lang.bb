@@ -10,31 +10,31 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guvcview-qt5-lang \
 guvcview-qt5-lang-all \
-locale(guvcview-qt5:bg) \
-locale(guvcview-qt5:bs) \
-locale(guvcview-qt5:cs) \
-locale(guvcview-qt5:da) \
-locale(guvcview-qt5:de) \
-locale(guvcview-qt5:en_AU) \
-locale(guvcview-qt5:es) \
-locale(guvcview-qt5:eu) \
-locale(guvcview-qt5:fr) \
-locale(guvcview-qt5:gl) \
-locale(guvcview-qt5:he) \
-locale(guvcview-qt5:hr) \
-locale(guvcview-qt5:it) \
-locale(guvcview-qt5:ja) \
-locale(guvcview-qt5:lv) \
-locale(guvcview-qt5:nl) \
-locale(guvcview-qt5:pl) \
-locale(guvcview-qt5:pt) \
-locale(guvcview-qt5:pt_BR) \
-locale(guvcview-qt5:ru) \
-locale(guvcview-qt5:si) \
-locale(guvcview-qt5:sr) \
-locale(guvcview-qt5:tr) \
-locale(guvcview-qt5:uk) \
-locale(guvcview-qt5:zh_TW)"
+locale-guvcview-qt5-bg \
+locale-guvcview-qt5-bs \
+locale-guvcview-qt5-cs \
+locale-guvcview-qt5-da \
+locale-guvcview-qt5-de \
+locale-guvcview-qt5-en-AU \
+locale-guvcview-qt5-es \
+locale-guvcview-qt5-eu \
+locale-guvcview-qt5-fr \
+locale-guvcview-qt5-gl \
+locale-guvcview-qt5-he \
+locale-guvcview-qt5-hr \
+locale-guvcview-qt5-it \
+locale-guvcview-qt5-ja \
+locale-guvcview-qt5-lv \
+locale-guvcview-qt5-nl \
+locale-guvcview-qt5-pl \
+locale-guvcview-qt5-pt \
+locale-guvcview-qt5-pt-BR \
+locale-guvcview-qt5-ru \
+locale-guvcview-qt5-si \
+locale-guvcview-qt5-sr \
+locale-guvcview-qt5-tr \
+locale-guvcview-qt5-uk \
+locale-guvcview-qt5-zh-TW"
 
 RDEPENDS:${PN} += "guvcview-qt5"
 

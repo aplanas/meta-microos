@@ -18,15 +18,14 @@ PV = "1.1"
 RPM_NAME = "libColorFull0-1.1-1.24.aarch64.rpm"
 RPM_HASH = "3c189573ccce736db594dd8411d5b4a5d9a6f12230613d5cd1a6cf4cdbe960a19efc51c9e2b07bbf3cd163d64fd19c47a773ddd18e93924a7d14369644c22e82"
 
-RPROVIDES:${PN} += "libColorFull.so.0()(64bit) \
-libColorFull0 \
-libColorFull0(aarch-64)"
+RPROVIDES:${PN} += "libColorFull.so.0 \
+libColorFull0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

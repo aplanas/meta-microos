@@ -12,17 +12,17 @@ RPM_NAME = "docbook_4-4.5-143.11.noarch.rpm"
 RPM_HASH = "c46023a6c4086a4cbd6299e1114abab079de594b9e91e3076e6609fd07abe816e5406b0c200446c856427c0aaf9bae1febe3b131aae4790e026d7a8945c28f36"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config(docbook_4) \
+RPROVIDES:${PN} += "config-docbook-4 \
 docbook \
+docbook-4 \
 docbook-dtd \
-docbook-dtds \
-docbook_4"
+docbook-dtds"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/xmlcatalog \
 awk \
 grep \
-iso_ent \
+iso-ent \
 sed \
 sgml-skel"
 

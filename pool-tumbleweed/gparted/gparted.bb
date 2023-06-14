@@ -11,34 +11,29 @@ PV = "1.5.0"
 RPM_NAME = "gparted-1.5.0-1.3.aarch64.rpm"
 RPM_HASH = "9412dc7b8791dbfc9a8656d8c09b1e777a0951beb481ce3ccbce8c18fc3da48c337ab02ca1874dae9c2e422d5e983486178be42cdd2a9d191da952b3db6955e7"
 
-RPROVIDES:${PN} += "application() \
-application(gparted.desktop) \
-gparted \
-gparted(aarch-64) \
-metainfo() \
-metainfo(gparted.appdata.xml)"
+RPROVIDES:${PN} += "gparted"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
 gpart \
 hdparm \
-ld-linux-aarch64.so.1()(64bit) \
-libatkmm-1.6.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairomm-1.0.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdkmm-3.0.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libglibmm-2.4.so.1()(64bit) \
-libgtk-3.so.0()(64bit) \
-libgtkmm-3.0.so.1()(64bit) \
-libpangomm-1.4.so.1()(64bit) \
-libparted-fs-resize.so.0()(64bit) \
-libparted.so.2()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libatkmm-1.6.so.1 \
+libc.so.6 \
+libcairomm-1.0.so.1 \
+libgcc-s.so.1 \
+libgdk-3.so.0 \
+libgdkmm-3.0.so.1 \
+libglib-2.0.so.0 \
+libglibmm-2.4.so.1 \
+libgtk-3.so.0 \
+libgtkmm-3.0.so.1 \
+libpangomm-1.4.so.1 \
+libparted-fs-resize.so.0 \
+libparted.so.2 \
+libsigc-2.0.so.0 \
+libstdc++.so.6 \
+libuuid.so.1 \
 mtools \
 parted \
 polkit \

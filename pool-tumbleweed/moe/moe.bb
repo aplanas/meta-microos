@@ -13,15 +13,14 @@ PV = "1.13"
 RPM_NAME = "moe-1.13-1.3.aarch64.rpm"
 RPM_HASH = "7ef387261ebbd17cd56e7a238164bb606d49778be5fbd51c75fb2f66e1a096537da839025f67cc628645df1f87b6c24f7628e894691653e2e5ac30dd49e173df"
 
-RPROVIDES:${PN} += "config(moe) \
-moe \
-moe(aarch-64)"
+RPROVIDES:${PN} += "config-moe \
+moe"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libncurses.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libncurses.so.6 \
+libstdc++.so.6 \
+libtinfo.so.6"
 
 inherit rpm

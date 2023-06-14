@@ -11,18 +11,17 @@ PV = "1.12.2"
 RPM_NAME = "hdf5-openmpi4-devel-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "ccad5c97eb398187bbe6837b68789e0b38a95499be9923ae45c14cf5cb09ed44a20efb3741cd102988ad5e12c2d3dc24339f3e39e20a101729d98731c0764b84"
 
-RPROVIDES:${PN} += "hdf5-openmpi4-devel \
-hdf5-openmpi4-devel(aarch-64)"
+RPROVIDES:${PN} += "hdf5-openmpi4-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
 hdf5-devel-data \
 hdf5-openmpi4 \
 libhdf5-200-openmpi4 \
-libhdf5_cpp200-openmpi4 \
-libhdf5_fortran200-openmpi4 \
-libhdf5_hl200-openmpi4 \
-libhdf5_hl_cpp200-openmpi4 \
-libhdf5hl_fortran200-openmpi4 \
+libhdf5-cpp200-openmpi4 \
+libhdf5-fortran200-openmpi4 \
+libhdf5-hl-cpp200-openmpi4 \
+libhdf5-hl200-openmpi4 \
+libhdf5hl-fortran200-openmpi4 \
 zlib-devel"
 
 inherit rpm

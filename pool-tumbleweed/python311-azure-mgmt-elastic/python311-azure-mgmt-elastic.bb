@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-mgmt-elastic-1.0.0-1.8.noarch.rpm"
 RPM_HASH = "a028d8a17d53f64a531dcc996fec8e5223f5653d13725cb698817c48fb23e07c2794f9fcebebd86e3fe2fc162fd76dd8f42e6238ef68821bf04a02991a75f610"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-elastic) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-elastic \
 python311-azure-mgmt-elastic \
-python3dist(azure-mgmt-elastic)"
+python3dist-azure-mgmt-elastic"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

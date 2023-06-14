@@ -12,16 +12,16 @@ RPM_NAME = "texlive-pedigree-perl-2023.201.2.1svn64227-51.1.noarch.rpm"
 RPM_HASH = "4095e4f25b96c57b53b18b22ecb40706018e88015f0b4cd3082340bac797f5f7113c53535f078ed5209e84f77b8e0c2db5d47e107001b1fcb7236e4e732d3f92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Pedigree) \
-perl(Pedigree::AbortionNode) \
-perl(Pedigree::Area) \
-perl(Pedigree::ChildlessNode) \
-perl(Pedigree::Language) \
-perl(Pedigree::MarriageNode) \
-perl(Pedigree::Node) \
-perl(Pedigree::Parser) \
-perl(Pedigree::PersonNode) \
-perl(Pedigree::TwinsNode) \
+RPROVIDES:${PN} += "perl-Pedigree \
+perl-Pedigree--AbortionNode \
+perl-Pedigree--Area \
+perl-Pedigree--ChildlessNode \
+perl-Pedigree--Language \
+perl-Pedigree--MarriageNode \
+perl-Pedigree--Node \
+perl-Pedigree--Parser \
+perl-Pedigree--PersonNode \
+perl-Pedigree--TwinsNode \
 texlive-pedigree-perl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,10 +30,10 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(FileHandle) \
-perl(Getopt::Std) \
-perl(strict) \
-perl(vars) \
+perl-FileHandle \
+perl-Getopt--Std \
+perl-strict \
+perl-vars \
 sed \
 texlive \
 texlive-filesystem \

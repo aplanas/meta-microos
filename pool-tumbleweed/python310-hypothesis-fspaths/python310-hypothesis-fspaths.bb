@@ -9,11 +9,11 @@ RPM_HASH = "8f8a03455ae334d54f536079280cd4c4957b75b27a81ea8ef6fe0feaf7406c709d56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hypothesis-fspaths \
-python3.10dist(hypothesis-fspaths) \
+python3.10dist-hypothesis-fspaths \
 python310-hypothesis-fspaths \
-python3dist(hypothesis-fspaths)"
+python3dist-hypothesis-fspaths"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-hypothesis"
 
 inherit rpm

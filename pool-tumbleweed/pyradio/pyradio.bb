@@ -11,10 +11,10 @@ RPM_HASH = "216d5562ae9a9cc93ba95da5323ecc86f225a461b3a31febf3bd65e0f9b29273a104
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyradio \
-python3.10dist(pyradio) \
-python3dist(pyradio)"
+python3.10dist-pyradio \
+python3dist-pyradio"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi)"
+python-abi"
 
 inherit rpm

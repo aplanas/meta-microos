@@ -12,14 +12,13 @@ PV = "1.0.1"
 RPM_NAME = "libflxmlrpc1-1.0.1-1.8.aarch64.rpm"
 RPM_HASH = "29494ba78cc43c8a086b923d91678ea1599ae87b4145a425db51d90e52ad2112375ad3e1b16be23e043a5c4023e7a8e0e8a33c8dadbc79b9d1d67a51cd89030f"
 
-RPROVIDES:${PN} += "libflxmlrpc.so.1()(64bit) \
-libflxmlrpc1 \
-libflxmlrpc1(aarch-64)"
+RPROVIDES:${PN} += "libflxmlrpc.so.1 \
+libflxmlrpc1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

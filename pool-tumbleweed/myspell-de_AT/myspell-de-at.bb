@@ -8,14 +8,14 @@ RPM_NAME = "myspell-de_AT-20221012-1.2.noarch.rpm"
 RPM_HASH = "a22700c26a5ad84eedd5c4a4fa37ddb25f6b9e41baadca9e89ac00e425d6d39168edd7b7bb138f2be1fb5cbc1174c7c239aa55c1a444cc90392cc91d4f1c0f8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:de_AT) \
-locale(seamonkey-spellchecker:de_AT) \
+RPROVIDES:${PN} += "locale-libreoffice-de-AT \
+locale-seamonkey-spellchecker-de-AT \
 myspell-austrian \
-myspell-de_AT \
+myspell-de-AT \
 myspell-dictionary"
 
 RDEPENDS:${PN} += "myspell-de \
-myspell-de_DE \
+myspell-de-DE \
 myspell-dictionaries"
 
 inherit rpm

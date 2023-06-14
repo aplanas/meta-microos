@@ -9,10 +9,10 @@ RPM_HASH = "db6f708d55583f6a54e67ddb9e1553c6c679b8866836fab2384cf9d079d77ad76dae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-logging-journald \
-python3.10dist(logging-journald) \
+python3.10dist-logging-journald \
 python310-logging-journald \
-python3dist(logging-journald)"
+python3dist-logging-journald"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

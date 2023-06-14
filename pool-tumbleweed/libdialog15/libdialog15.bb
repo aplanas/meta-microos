@@ -7,15 +7,14 @@ PV = "1.3"
 RPM_NAME = "libdialog15-1.3-9.7.aarch64.rpm"
 RPM_HASH = "a606d2546a4c2ee64466eaf267d513998a4f3e571e3292c6a0336d729f40671994dcc1324a4b07273e1b27ce8399cd03aebe66424df1c09d33f343e3f965faed"
 
-RPROVIDES:${PN} += "libdialog.so.15()(64bit) \
-libdialog15 \
-libdialog15(aarch-64)"
+RPROVIDES:${PN} += "libdialog.so.15 \
+libdialog15"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

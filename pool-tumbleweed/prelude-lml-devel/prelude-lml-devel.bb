@@ -8,8 +8,7 @@ PV = "5.2.0"
 RPM_NAME = "prelude-lml-devel-5.2.0-2.9.aarch64.rpm"
 RPM_HASH = "90f38404e26936f49d31cfb82e4ef689d9b8b9533f0f99f751474b1a71850233707e1bf65c14a21653c0aab0f431c0921209a66317b3dba781bf92822231a142"
 
-RPROVIDES:${PN} += "prelude-lml-devel \
-prelude-lml-devel(aarch-64)"
+RPROVIDES:${PN} += "prelude-lml-devel"
 
 RDEPENDS:${PN} += "libprelude-devel \
 prelude-lml"

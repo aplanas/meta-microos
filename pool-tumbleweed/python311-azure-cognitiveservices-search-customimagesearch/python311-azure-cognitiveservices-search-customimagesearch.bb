@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-cognitiveservices-search-customimagesearch-0.2.0-2.1
 RPM_HASH = "a4aeb6b96382e847a15bfe913226de76469db070dbc3d4a1a55b7b039584aca348d91f9d64508005c25e33089b2b075e066177e76258dfc38ba4ce8b1b690f66"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-search-customimagesearch) \
+RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-customimagesearch \
 python311-azure-cognitiveservices-search-customimagesearch \
-python3dist(azure-cognitiveservices-search-customimagesearch)"
+python3dist-azure-cognitiveservices-search-customimagesearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-msrest"
 

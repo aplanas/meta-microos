@@ -40,21 +40,21 @@ RPM_NAME = "perl-Authen-SASL-2.16-6.21.noarch.rpm"
 RPM_HASH = "b50ffbd0ee8e4cb50981f04b876a7b2230afb8152230ee2fd7dd0d54fafe879edbc3bb9a1ecd32cff3711011f7b65991f9be059fd9a06b9e86a8a91b6b565dea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Authen::SASL) \
-perl(Authen::SASL::CRAM_MD5) \
-perl(Authen::SASL::EXTERNAL) \
-perl(Authen::SASL::Perl) \
-perl(Authen::SASL::Perl::ANONYMOUS) \
-perl(Authen::SASL::Perl::CRAM_MD5) \
-perl(Authen::SASL::Perl::DIGEST_MD5) \
-perl(Authen::SASL::Perl::EXTERNAL) \
-perl(Authen::SASL::Perl::GSSAPI) \
-perl(Authen::SASL::Perl::LOGIN) \
-perl(Authen::SASL::Perl::Layer) \
-perl(Authen::SASL::Perl::PLAIN) \
+RPROVIDES:${PN} += "perl-Authen--SASL \
+perl-Authen--SASL--CRAM-MD5 \
+perl-Authen--SASL--EXTERNAL \
+perl-Authen--SASL--Perl \
+perl-Authen--SASL--Perl--ANONYMOUS \
+perl-Authen--SASL--Perl--CRAM-MD5 \
+perl-Authen--SASL--Perl--DIGEST-MD5 \
+perl-Authen--SASL--Perl--EXTERNAL \
+perl-Authen--SASL--Perl--GSSAPI \
+perl-Authen--SASL--Perl--LOGIN \
+perl-Authen--SASL--Perl--Layer \
+perl-Authen--SASL--Perl--PLAIN \
 perl-Authen-SASL"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Digest::HMAC_MD5)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Digest--HMAC-MD5"
 
 inherit rpm

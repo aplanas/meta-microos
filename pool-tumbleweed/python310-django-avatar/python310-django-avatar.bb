@@ -12,11 +12,11 @@ RPM_HASH = "3c79caa8b4782550e878cfa6185baf15fca127c6aaf626e9e7843495284c490bfb24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-avatar \
-python3.10dist(django-avatar) \
+python3.10dist-django-avatar \
 python310-django-avatar \
-python3dist(django-avatar)"
+python3dist-django-avatar"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-Pillow \
 python310-django-appconf \

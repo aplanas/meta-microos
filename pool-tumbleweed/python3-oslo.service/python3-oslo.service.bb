@@ -12,10 +12,10 @@ RPM_HASH = "0a8fab98b6cbd7d77ba82181b8a5d7be2cf507acc46167e1a37028b99fdcf860ebd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.service \
-python3.10dist(oslo.service) \
-python3dist(oslo.service)"
+python3.10dist-oslo.service \
+python3dist-oslo.service"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-Paste \
 python3-PasteDeploy \
 python3-Routes \

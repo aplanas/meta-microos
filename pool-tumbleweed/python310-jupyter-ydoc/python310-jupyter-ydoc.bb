@@ -13,14 +13,12 @@ RPM_HASH = "bdad17fce79b5f6312b2c1a4507cb21b75615fc1e95ac1b41be7789d0ff9845ac142
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-ydoc \
-python3-jupyter_ydoc \
-python3.10dist(jupyter-ydoc) \
+python3.10dist-jupyter-ydoc \
 python310-jupyter-ydoc \
-python310-jupyter_ydoc \
-python3dist(jupyter-ydoc)"
+python3dist-jupyter-ydoc"
 
-RDEPENDS:${PN} += "(python310-importlib-metadata >= 3.6 if python310-base < 3.10) \
-(python310-y-py >= 0.5.3 with python310-y-py < 0.6.0) \
-python(abi)"
+RDEPENDS:${PN} += "-python310-importlib-metadata >= 3.6 if python310-base < 3.10 \
+-python310-y-py >= 0.5.3 with python310-y-py < 0.6.0 \
+python-abi"
 
 inherit rpm

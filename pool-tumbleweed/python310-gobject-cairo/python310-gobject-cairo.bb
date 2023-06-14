@@ -11,15 +11,14 @@ RPM_NAME = "python310-gobject-cairo-3.44.1-1.2.aarch64.rpm"
 RPM_HASH = "b267b0107010317e373ee81f77b495cdf0e666800e0330138335033a5167d514984bf9750724ad42c8bd899adfbbb6ebd2b41041f6c1367c5eac027402686bec"
 
 RPROVIDES:${PN} += "python3-gobject-cairo \
-python310-gobject-cairo \
-python310-gobject-cairo(aarch-64)"
+python310-gobject-cairo"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo-gobject.so.2()(64bit) \
-libcairo.so.2()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo-gobject.so.2 \
+libcairo.so.2 \
+libgobject-2.0.so.0 \
+python-abi \
 python310-cairo \
 python310-gobject"
 

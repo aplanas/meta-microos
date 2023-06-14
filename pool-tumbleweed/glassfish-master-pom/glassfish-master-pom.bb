@@ -9,10 +9,10 @@ RPM_HASH = "02cc0c0cb994d22e0a877537492b473ae0b5bcfa0b6a88d0cb4cc6ba39592e9cab3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-master-pom \
-mvn(org.glassfish:pom:pom:)"
+mvn-org.glassfish-pom-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.plugins:maven-compiler-plugin)"
+mvn-org.apache.maven.plugins-maven-compiler-plugin"
 
 inherit rpm

@@ -14,11 +14,11 @@ RPM_HASH = "241296ac1f25b5143f6dbc151723ff5847a375f741d1b152bab21b5fb82fc1d385dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-hdinsight \
-python3.10dist(azure-mgmt-hdinsight) \
+python3.10dist-azure-mgmt-hdinsight \
 python310-azure-mgmt-hdinsight \
-python3dist(azure-mgmt-hdinsight)"
+python3dist-azure-mgmt-hdinsight"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

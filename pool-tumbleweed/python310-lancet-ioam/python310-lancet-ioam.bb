@@ -18,10 +18,10 @@ RPM_HASH = "53e10f91421b43d3a14ebedf9c026e8b562affb0ee2c2f286b4e2f2a7c32bcb11053
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lancet-ioam \
-python3.10dist(lancet-ioam) \
+python3.10dist-lancet-ioam \
 python310-lancet-ioam \
-python3dist(lancet-ioam)"
+python3dist-lancet-ioam"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "918336546ff6c550837b1fc4f01999885e3a71ae4626f7499dfa5f6055aaa0da2318
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-time-travel \
-python3.10dist(time-travel) \
+python3.10dist-time-travel \
 python310-time-travel \
-python3dist(time-travel)"
+python3dist-time-travel"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

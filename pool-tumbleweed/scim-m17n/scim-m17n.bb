@@ -20,16 +20,15 @@ PV = "0.2.3"
 RPM_NAME = "scim-m17n-0.2.3-6.28.aarch64.rpm"
 RPM_HASH = "ef75542a48980247611dc74f0105a9ad23371df0187292ddcdc101fc96e1f89c695966ab68adf270437b4d1045fb37d52d724a279658ce9578a95b0980d0eaa1"
 
-RPROVIDES:${PN} += "scim-m17n \
-scim-m17n(aarch-64)"
+RPROVIDES:${PN} += "scim-m17n"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm17n-core.so.0()(64bit) \
-libm17n.so.0()(64bit) \
-libscim-1.0.so.8()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm17n-core.so.0 \
+libm17n.so.0 \
+libscim-1.0.so.8 \
+libstdc++.so.6"
 
 inherit rpm

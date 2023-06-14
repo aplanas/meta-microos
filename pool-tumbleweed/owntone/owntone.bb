@@ -18,41 +18,38 @@ PV = "28.6"
 RPM_NAME = "owntone-28.6-1.2.aarch64.rpm"
 RPM_HASH = "30234456217cb44b7ac79f9c501478fd503491d147e180297f9754ea9594af488ecea7cd47d1564817d7cf1dd0342d9f8c241e2adeeb22c97667f373c6fe6521"
 
-RPROVIDES:${PN} += "config(owntone) \
+RPROVIDES:${PN} += "config-owntone \
 forked-daapd \
-owntone \
-owntone(aarch-64)"
+owntone"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libavahi-client.so.3()(64bit) \
-libavahi-common.so.3()(64bit) \
-libavcodec.so.60()(64bit) \
-libavfilter.so.9()(64bit) \
-libavformat.so.60()(64bit) \
-libavutil.so.58()(64bit) \
-libc.so.6()(64bit) \
-libconfuse.so.2()(64bit) \
-libcurl.so.4()(64bit) \
-libevent-2.1.so.7()(64bit) \
-libevent_pthreads-2.1.so.7()(64bit) \
-libgcrypt.so.20()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libgpg-error.so.0()(64bit) \
-libjson-c.so.5()(64bit) \
-libm.so.6()(64bit) \
-libmxml.so.1()(64bit) \
-libplist-2.0.so.3()(64bit) \
-libprotobuf-c.so.1()(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libsodium.so.23()(64bit) \
-libsqlite3.so.0()(64bit) \
-libunistring.so.5()(64bit) \
-libwebsockets.so.19()(64bit) \
-libz.so.1()(64bit) \
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libavcodec.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
+libc.so.6 \
+libconfuse.so.2 \
+libcurl.so.4 \
+libevent-2.1.so.7 \
+libevent-pthreads-2.1.so.7 \
+libgcrypt.so.20 \
+libgnutls.so.30 \
+libgpg-error.so.0 \
+libjson-c.so.5 \
+libm.so.6 \
+libmxml.so.1 \
+libplist-2.0.so.3 \
+libprotobuf-c.so.1 \
+libpulse.so.0 \
+libsodium.so.23 \
+libsqlite3.so.0 \
+libunistring.so.5 \
+libwebsockets.so.19 \
+libz.so.1 \
 logrotate \
 pwdutils"
 

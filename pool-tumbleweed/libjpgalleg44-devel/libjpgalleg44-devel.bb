@@ -9,11 +9,10 @@ RPM_HASH = "7d41fc32c6f78ad79f3ba7ad56a70fe472991f5d4ad3c40dcc1bd3d1575067627607
 
 RPROVIDES:${PN} += "libjpgalleg-devel \
 libjpgalleg44-devel \
-libjpgalleg44-devel(aarch-64) \
-pkgconfig(jpgalleg)"
+pkgconfig-jpgalleg"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libjpgalleg4_4 \
-pkgconfig(allegro)"
+libjpgalleg4-4 \
+pkgconfig-allegro"
 
 inherit rpm

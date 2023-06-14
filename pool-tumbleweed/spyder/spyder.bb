@@ -17,31 +17,26 @@ RPM_NAME = "spyder-5.4.3-1.1.noarch.rpm"
 RPM_HASH = "5b2564f49aadde9780291474c40bb49a36774eb6c8fddeebb74eae558716908a6b44f5cb67f819ea01ec47677f314c97077f91ab9c657e25685a375aff4f9f2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(spyder.desktop) \
-metainfo() \
-metainfo(org.spyder_ide.spyder.appdata.xml) \
-mimehandler(text/x-python) \
-python3-spyder \
+RPROVIDES:${PN} += "python3-spyder \
 python3-spyderlib \
-python3.10dist(spyder) \
-python3dist(spyder) \
+python3.10dist-spyder \
+python3dist-spyder \
 spyder \
 spyder3 \
 spyder3-breakpoints \
 spyder3-profiler \
 spyder3-pylint"
 
-RDEPENDS:${PN} += "(python3-QDarkStyle >= 3.0.2 with python3-QDarkStyle < 3.2.0) \
-(python3-ipython >= 7.31.1 with python3-ipython < 9) \
-(python3-pylint >= 2.5.0 with python3-pylint < 3) \
-(python3-python-lsp-server >= 1.7.2 with python3-python-lsp-server < 1.8) \
-(python3-qtconsole >= 5.4.2 with python3-qtconsole < 5.5.0) \
-(python3-spyder-kernels >= 2.4.3 with python3-spyder-kernels < 2.5) \
+RDEPENDS:${PN} += "-python3-QDarkStyle >= 3.0.2 with python3-QDarkStyle < 3.2.0 \
+-python3-ipython >= 7.31.1 with python3-ipython < 9 \
+-python3-pylint >= 2.5.0 with python3-pylint < 3 \
+-python3-python-lsp-server >= 1.7.2 with python3-python-lsp-server < 1.8 \
+-python3-qtconsole >= 5.4.2 with python3-qtconsole < 5.5.0 \
+-python3-spyder-kernels >= 2.4.3 with python3-spyder-kernels < 2.5 \
 /usr/bin/bash \
 /usr/bin/python3.10 \
 cookiecutter \
-python(abi) \
+python-abi \
 python3-Pygments \
 python3-QtAwesome \
 python3-QtPy \

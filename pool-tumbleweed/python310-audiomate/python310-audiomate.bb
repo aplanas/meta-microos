@@ -10,11 +10,11 @@ RPM_HASH = "21cf4560e0c8ba5ac51627a8c99ab346b11ac22bf5bffffbca439f25d0db25ae3426
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-audiomate \
-python3.10dist(audiomate) \
+python3.10dist-audiomate \
 python310-audiomate \
-python3dist(audiomate)"
+python3dist-audiomate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PGet \
 python310-audioread \
 python310-h5py \

@@ -12,12 +12,11 @@ RPM_NAME = "postgresql14-plperl-14.8-1.2.aarch64.rpm"
 RPM_HASH = "559b4e011f63a09f46e61d0805c04f727881c3e767dab31d25b23bae73e3a5d714d7a0606c33072bce4e97ed548384341499bac7fb79627cd3bfb955a215d6d1"
 
 RPROVIDES:${PN} += "postgresql-plperl-implementation \
-postgresql14-plperl \
-postgresql14-plperl(aarch-64)"
+postgresql14-plperl"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libperl.so()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libperl.so \
 perl \
 postgresql-plperl-noarch \
 postgresql14-server"

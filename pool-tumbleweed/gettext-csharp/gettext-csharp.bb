@@ -26,12 +26,11 @@ RPM_NAME = "gettext-csharp-0.21.1-2.1.aarch64.rpm"
 RPM_HASH = "340d82fb7a16b4a259a93319645246dd74960841529b44b7013b8d0c73b8b0e2cf6b76c783a31f3865b10a0dfc1b796988b49d738172b07eab8b3a4233648f67"
 
 RPROVIDES:${PN} += "gettext-csharp \
-gettext-csharp(aarch-64) \
-mono(GNU.Gettext) \
-mono(msgfmt.net) \
-mono(msgunfmt.net)"
+mono-GNU.Gettext \
+mono-msgfmt.net \
+mono-msgunfmt.net"
 
 RDEPENDS:${PN} += "mono \
-mono(mscorlib)"
+mono-mscorlib"
 
 inherit rpm

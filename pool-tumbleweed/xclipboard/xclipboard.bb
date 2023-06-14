@@ -10,17 +10,14 @@ PV = "1.1.4"
 RPM_NAME = "xclipboard-1.1.4-1.4.aarch64.rpm"
 RPM_HASH = "8c65dd3f99c2dd274a06bf528a66dee269335948ee6ccffbc21555907f9a509771d781530e31e073ed9c666ae17b1ef627dbeaf8e19b4bdcef8cc845725f997c"
 
-RPROVIDES:${PN} += "application() \
-application(xclipboard.desktop) \
-xclipboard \
-xclipboard(aarch-64)"
+RPROVIDES:${PN} += "xclipboard"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXmu.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libxkbfile.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXmu.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libxkbfile.so.1"
 
 inherit rpm

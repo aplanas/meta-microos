@@ -11,14 +11,14 @@ RPM_HASH = "fa88c183f4211b8098f136723dd07db2443ae8ca5b58c621f88924e4204571145977
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyscales \
-python3-jupyter_ipyscales \
-python3.10dist(ipyscales) \
+python3-jupyter-ipyscales \
+python3.10dist-ipyscales \
 python310-ipyscales \
-python310-jupyter_ipyscales \
-python3dist(ipyscales)"
+python310-jupyter-ipyscales \
+python3dist-ipyscales"
 
 RDEPENDS:${PN} += "jupyter-ipyscales \
-python(abi) \
+python-abi \
 python310-ipywidgets \
 python310-numpy"
 

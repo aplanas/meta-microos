@@ -9,11 +9,11 @@ RPM_HASH = "92ab1da229093e67f4c84488444a007ca463ef4629fbfd37ef6f78238d298f453d3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyperclip \
-python3.10dist(pyperclip) \
+python3.10dist-pyperclip \
 python310-pyperclip \
-python3dist(pyperclip)"
+python3dist-pyperclip"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 xclip \
 xsel"
 

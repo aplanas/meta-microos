@@ -12,11 +12,11 @@ RPM_HASH = "ecd236acfe8ba650b7ce9100704a9f0d710ddcbbb9dae3760f6c98c3ffea1e3c63bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-twitter \
-python3.10dist(python-twitter) \
+python3.10dist-python-twitter \
 python310-python-twitter \
-python3dist(python-twitter)"
+python3dist-python-twitter"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-future \
 python310-requests \
 python310-requests-oauthlib"

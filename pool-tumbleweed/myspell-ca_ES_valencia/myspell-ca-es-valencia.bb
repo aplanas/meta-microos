@@ -8,9 +8,9 @@ RPM_NAME = "myspell-ca_ES_valencia-20221012-1.2.noarch.rpm"
 RPM_HASH = "ff99c52222143c743c854a247e87df3838772d8f058c0acd4cb07d48149aaa17979476c663d80c704d2a9db5bf454730cf82f6eda274320865c8196a99c2fee2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale(libreoffice:ca_ES_valencia) \
-locale(seamonkey-spellchecker:ca_ES_valencia) \
-myspell-ca_ES_valencia \
+RPROVIDES:${PN} += "locale-libreoffice-ca-ES-valencia \
+locale-seamonkey-spellchecker-ca-ES-valencia \
+myspell-ca-ES-valencia \
 myspell-dictionary \
 myspell-valencian"
 

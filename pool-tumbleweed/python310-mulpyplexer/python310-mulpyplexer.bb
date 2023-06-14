@@ -9,10 +9,10 @@ RPM_HASH = "b5fc004d6b0bd025a2315e704e71842f96088ee7ceaab21b5b3cae86f321238e14d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mulpyplexer \
-python3.10dist(mulpyplexer) \
+python3.10dist-mulpyplexer \
 python310-mulpyplexer \
-python3dist(mulpyplexer)"
+python3dist-mulpyplexer"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

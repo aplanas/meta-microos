@@ -14,10 +14,10 @@ RPM_HASH = "77d0330b29122e6df70b298bd1853bc61a52acd02ed1baf8baec837db4d35a1f7641
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Tempita \
-python3.10dist(tempita) \
+python3.10dist-tempita \
 python310-Tempita \
-python3dist(tempita)"
+python3dist-tempita"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

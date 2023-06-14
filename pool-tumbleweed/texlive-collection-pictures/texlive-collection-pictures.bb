@@ -9,7 +9,7 @@ RPM_NAME = "texlive-collection-pictures-2023.208.svn66360-58.1.noarch.rpm"
 RPM_HASH = "0ab055a314ae63b03a78b3a988dfd992cc44d29cfe2ce2dac278f870497a5cd80dc353f2cfdea13e9693bee3ca9445e06eec4f3c28a33be85aa1ee4da3aac8e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pictures) \
+RPROVIDES:${PN} += "tex-pictures \
 texlive-collection-pictures"
 
 RDEPENDS:${PN} += "texlive-adigraph \

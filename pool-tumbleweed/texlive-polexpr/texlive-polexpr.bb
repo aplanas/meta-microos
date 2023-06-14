@@ -21,11 +21,11 @@ RPM_NAME = "texlive-polexpr-2023.201.0.0.8.7asvn63337-52.1.noarch.rpm"
 RPM_HASH = "f0032702256a55230cf8f4450f6c30ceb39e2a1b6d7effc22e1e2b14e30b2040b936c8facc6528ac19bdebb9497ceccf1599146eea0075dde0ef46c7d1f9d9aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(polexpr-examples.tex) \
-tex(polexpr.sty) \
-tex(polexprcore.tex) \
-tex(polexprexpr.tex) \
-tex(polexprsturm.tex) \
+RPROVIDES:${PN} += "tex-polexpr-examples.tex \
+tex-polexpr.sty \
+tex-polexprcore.tex \
+tex-polexprexpr.tex \
+tex-polexprsturm.tex \
 texlive-polexpr"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -34,7 +34,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xintexpr.sty) \
+tex-xintexpr.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

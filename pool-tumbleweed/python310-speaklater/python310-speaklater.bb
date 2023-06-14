@@ -11,10 +11,10 @@ RPM_HASH = "49724c5903835d8922d3af76cd409eb9fcdcb35f7803ef777f83c3e4cf717bd53d75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-speaklater \
-python3.10dist(speaklater) \
+python3.10dist-speaklater \
 python310-speaklater \
-python3dist(speaklater)"
+python3dist-speaklater"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

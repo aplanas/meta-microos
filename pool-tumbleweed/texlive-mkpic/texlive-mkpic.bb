@@ -21,7 +21,7 @@ coreutils \
 ed \
 findutils \
 grep \
-perl(Getopt::Long) \
+perl-Getopt--Long \
 sed \
 texlive \
 texlive-filesystem \

@@ -20,10 +20,10 @@ RPM_NAME = "python39-zc.customdoctests-1.0.1-2.8.noarch.rpm"
 RPM_HASH = "fad3b6db38243add0e3a5dd36411641987af953bbe91753a8995d165b22621d48041467d76754a174e394b9291081aa8b751c4cad98f6a3f0761e85633149638"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(zc.customdoctests) \
+RPROVIDES:${PN} += "python3.9dist-zc.customdoctests \
 python39-zc.customdoctests \
-python3dist(zc.customdoctests)"
+python3dist-zc.customdoctests"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

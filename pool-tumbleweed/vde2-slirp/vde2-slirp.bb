@@ -17,11 +17,10 @@ PV = "2.3.2+svn587"
 RPM_NAME = "vde2-slirp-2.3.2+svn587-3.23.aarch64.rpm"
 RPM_HASH = "24743091c3248ce86db13c1e4d101a5cc2f8fdc77bf488266e1ea4cc5ebe9e33b96ab564177c4e8355de0fdd5be1e28b04d17b9d0401a2e44509b7ef53183d6f"
 
-RPROVIDES:${PN} += "vde2-slirp \
-vde2-slirp(aarch-64)"
+RPROVIDES:${PN} += "vde2-slirp"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libvdeplug.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libvdeplug.so.3"
 
 inherit rpm

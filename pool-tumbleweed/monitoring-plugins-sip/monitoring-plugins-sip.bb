@@ -23,9 +23,9 @@ RPROVIDES:${PN} += "monitoring-plugins-sip \
 nagios-plugins-sip"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(IO::Socket::INET) \
-perl(Net::Domain) \
-perl(Switch) \
-perl(Time::HiRes)"
+perl-IO--Socket--INET \
+perl-Net--Domain \
+perl-Switch \
+perl-Time--HiRes"
 
 inherit rpm

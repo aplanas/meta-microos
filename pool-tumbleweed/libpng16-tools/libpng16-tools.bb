@@ -10,14 +10,12 @@ RPM_HASH = "6a86c1ebe6f6e72d3db9c6aee7b3e49ce83bb30dccb43be959916b611d3786312f5f
 
 RPROVIDES:${PN} += "libpng-tools \
 libpng16-tools \
-libpng16-tools(aarch-64) \
-rpm_macro(png_fix) \
-rpm_macro(png_fix_dir)"
+rpm-macro-png-fix \
+rpm-macro-png-fix-dir"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpng16.so.16 \
+libz.so.1"
 
 inherit rpm

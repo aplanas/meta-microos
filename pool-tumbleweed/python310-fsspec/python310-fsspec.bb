@@ -9,11 +9,11 @@ RPM_HASH = "f603a91917ee36f5931f9e176029054e2038e57a4fa06406985c0619f94e3e69e0fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fsspec \
-python3.10dist(fsspec) \
+python3.10dist-fsspec \
 python310-fsspec \
-python3dist(fsspec)"
+python3dist-fsspec"
 
 RDEPENDS:${PN} += "fuse \
-python(abi)"
+python-abi"
 
 inherit rpm

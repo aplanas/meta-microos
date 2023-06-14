@@ -21,9 +21,9 @@ ed \
 findutils \
 grep \
 perl \
-perl(TeXLive::TLUtils) \
+perl-TeXLive--TLUtils \
 sed \
-tex(texmf.cnf) \
+tex-texmf.cnf \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

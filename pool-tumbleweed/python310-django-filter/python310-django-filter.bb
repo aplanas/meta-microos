@@ -10,11 +10,11 @@ RPM_HASH = "b408d17e38c1732c7c3c1069c7dde99b61f6cf700e643c691e0fca12ead5ca5c777e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-filter \
-python3.10dist(django-filter) \
+python3.10dist-django-filter \
 python310-django-filter \
-python3dist(django-filter)"
+python3dist-django-filter"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django \
 python310-djangorestframework"
 

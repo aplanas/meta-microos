@@ -16,6 +16,6 @@ RDEPENDS:${PN} += "/usr/bin/tclsh \
 filesystem \
 fileutils \
 ghostscript \
-http_daemon"
+http-daemon"
 
 inherit rpm

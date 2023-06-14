@@ -18,13 +18,13 @@ RPM_NAME = "python311-alembic-1.10.4-1.1.noarch.rpm"
 RPM_HASH = "62b7dcdcde9c47cfe222385ec6f18031314c358ca7601e0a5799b00dcc63a200df0ba38e05993bd4e0004008de6028bffadb28bc09dc9feb8d1e386cc8adea20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(alembic) \
+RPROVIDES:${PN} += "python3.11dist-alembic \
 python311-alembic \
-python3dist(alembic)"
+python3dist-alembic"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-Mako \
 python311-SQLAlchemy \
 python311-python-dateutil \

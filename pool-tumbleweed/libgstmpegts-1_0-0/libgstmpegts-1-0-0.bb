@@ -11,15 +11,14 @@ PV = "1.22.3"
 RPM_NAME = "libgstmpegts-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "8e0c6cb1898d824214dc44deb318d2b89ad0e1478f529994229f44aa62cbe5b15bfa2ea950a80ad2b8d21a353c1a1bc5342fc8defdeb0ac36ab432c0be5eea6b"
 
-RPROVIDES:${PN} += "libgstmpegts-1.0.so.0()(64bit) \
-libgstmpegts-1_0-0 \
-libgstmpegts-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstmpegts-1-0-0 \
+libgstmpegts-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0"
 
 inherit rpm

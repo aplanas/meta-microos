@@ -8,13 +8,12 @@ PV = "0.16.1"
 RPM_NAME = "python311-py-ubjson-0.16.1-1.11.aarch64.rpm"
 RPM_HASH = "a3f872116cdfd22b0379cd2333df4d7819c00a61882d73fc998c644835991fd971287e24c5f2c624a6779a2c674dfed37d6c961e3d933ff9185ec875eb5e11ce"
 
-RPROVIDES:${PN} += "python3.11dist(py-ubjson) \
+RPROVIDES:${PN} += "python3.11dist-py-ubjson \
 python311-py-ubjson \
-python311-py-ubjson(aarch-64) \
-python3dist(py-ubjson)"
+python3dist-py-ubjson"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi"
 
 inherit rpm

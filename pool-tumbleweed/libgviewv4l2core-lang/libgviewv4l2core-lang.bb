@@ -10,32 +10,32 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgviewv4l2core-lang \
 libgviewv4l2core-lang-all \
-locale(libgviewv4l2core:bg) \
-locale(libgviewv4l2core:bs) \
-locale(libgviewv4l2core:cs) \
-locale(libgviewv4l2core:da) \
-locale(libgviewv4l2core:de) \
-locale(libgviewv4l2core:en_AU) \
-locale(libgviewv4l2core:es) \
-locale(libgviewv4l2core:eu) \
-locale(libgviewv4l2core:fr) \
-locale(libgviewv4l2core:gl) \
-locale(libgviewv4l2core:he) \
-locale(libgviewv4l2core:hr) \
-locale(libgviewv4l2core:it) \
-locale(libgviewv4l2core:ja) \
-locale(libgviewv4l2core:lv) \
-locale(libgviewv4l2core:nl) \
-locale(libgviewv4l2core:pl) \
-locale(libgviewv4l2core:pt) \
-locale(libgviewv4l2core:pt_BR) \
-locale(libgviewv4l2core:ru) \
-locale(libgviewv4l2core:si) \
-locale(libgviewv4l2core:sr) \
-locale(libgviewv4l2core:tr) \
-locale(libgviewv4l2core:uk) \
-locale(libgviewv4l2core:zh_TW)"
+locale-libgviewv4l2core-bg \
+locale-libgviewv4l2core-bs \
+locale-libgviewv4l2core-cs \
+locale-libgviewv4l2core-da \
+locale-libgviewv4l2core-de \
+locale-libgviewv4l2core-en-AU \
+locale-libgviewv4l2core-es \
+locale-libgviewv4l2core-eu \
+locale-libgviewv4l2core-fr \
+locale-libgviewv4l2core-gl \
+locale-libgviewv4l2core-he \
+locale-libgviewv4l2core-hr \
+locale-libgviewv4l2core-it \
+locale-libgviewv4l2core-ja \
+locale-libgviewv4l2core-lv \
+locale-libgviewv4l2core-nl \
+locale-libgviewv4l2core-pl \
+locale-libgviewv4l2core-pt \
+locale-libgviewv4l2core-pt-BR \
+locale-libgviewv4l2core-ru \
+locale-libgviewv4l2core-si \
+locale-libgviewv4l2core-sr \
+locale-libgviewv4l2core-tr \
+locale-libgviewv4l2core-uk \
+locale-libgviewv4l2core-zh-TW"
 
-RDEPENDS:${PN} += "libgviewv4l2core-2_1-2"
+RDEPENDS:${PN} += "libgviewv4l2core-2-1-2"
 
 inherit rpm

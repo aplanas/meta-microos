@@ -19,11 +19,11 @@ RPM_HASH = "9d52348961ee5a0a8f8de3ab981a88eefbd95507ccd8f0aaa29f5806b56294098dbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-cache \
-python3.10dist(requests-cache) \
+python3.10dist-requests-cache \
 python310-requests-cache \
-python3dist(requests-cache)"
+python3dist-requests-cache"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-itsdangerous \
 python310-requests \
 python310-url-normalize"

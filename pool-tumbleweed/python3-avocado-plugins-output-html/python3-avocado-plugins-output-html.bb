@@ -11,10 +11,10 @@ RPM_HASH = "94c8e0e8b00d4526a34f8e3a9363b4bfa49ab04307f8effe25ba0fbbe54760f9b0bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-output-html \
-python3.10dist(avocado-framework-plugin-result-html) \
-python3dist(avocado-framework-plugin-result-html)"
+python3.10dist-avocado-framework-plugin-result-html \
+python3dist-avocado-framework-plugin-result-html"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-avocado \
 python3-pystache"
 

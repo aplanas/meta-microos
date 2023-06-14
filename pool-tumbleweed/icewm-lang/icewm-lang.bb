@@ -10,43 +10,43 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icewm-lang \
 icewm-lang-all \
-locale(icewm:ar) \
-locale(icewm:be) \
-locale(icewm:bg) \
-locale(icewm:ca) \
-locale(icewm:cs) \
-locale(icewm:da) \
-locale(icewm:de) \
-locale(icewm:el) \
-locale(icewm:en) \
-locale(icewm:es) \
-locale(icewm:fi) \
-locale(icewm:fr) \
-locale(icewm:he) \
-locale(icewm:hr) \
-locale(icewm:hu) \
-locale(icewm:id) \
-locale(icewm:it) \
-locale(icewm:ja) \
-locale(icewm:ko) \
-locale(icewm:lt) \
-locale(icewm:lv) \
-locale(icewm:mk) \
-locale(icewm:nb) \
-locale(icewm:nl) \
-locale(icewm:pl) \
-locale(icewm:pt) \
-locale(icewm:pt_BR) \
-locale(icewm:ro) \
-locale(icewm:ru) \
-locale(icewm:sk) \
-locale(icewm:sl) \
-locale(icewm:sv) \
-locale(icewm:tr) \
-locale(icewm:uk) \
-locale(icewm:vi) \
-locale(icewm:zh_CN) \
-locale(icewm:zh_TW)"
+locale-icewm-ar \
+locale-icewm-be \
+locale-icewm-bg \
+locale-icewm-ca \
+locale-icewm-cs \
+locale-icewm-da \
+locale-icewm-de \
+locale-icewm-el \
+locale-icewm-en \
+locale-icewm-es \
+locale-icewm-fi \
+locale-icewm-fr \
+locale-icewm-he \
+locale-icewm-hr \
+locale-icewm-hu \
+locale-icewm-id \
+locale-icewm-it \
+locale-icewm-ja \
+locale-icewm-ko \
+locale-icewm-lt \
+locale-icewm-lv \
+locale-icewm-mk \
+locale-icewm-nb \
+locale-icewm-nl \
+locale-icewm-pl \
+locale-icewm-pt \
+locale-icewm-pt-BR \
+locale-icewm-ro \
+locale-icewm-ru \
+locale-icewm-sk \
+locale-icewm-sl \
+locale-icewm-sv \
+locale-icewm-tr \
+locale-icewm-uk \
+locale-icewm-vi \
+locale-icewm-zh-CN \
+locale-icewm-zh-TW"
 
 RDEPENDS:${PN} += "icewm"
 

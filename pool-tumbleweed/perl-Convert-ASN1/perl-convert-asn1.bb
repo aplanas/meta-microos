@@ -9,10 +9,10 @@ RPM_NAME = "perl-Convert-ASN1-0.33-1.8.noarch.rpm"
 RPM_HASH = "abb3e3e62b107f93dd59c13aa81d0a62bbaced9b8b5b1a4c1091cd49d1a0197b8751cc54e7daf3501fe817a2a5828400509a4a8e529aac4941bf263852a89508"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Convert::ASN1) \
-perl(Convert::ASN1::parser) \
+RPROVIDES:${PN} += "perl-Convert--ASN1 \
+perl-Convert--ASN1--parser \
 perl-Convert-ASN1"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

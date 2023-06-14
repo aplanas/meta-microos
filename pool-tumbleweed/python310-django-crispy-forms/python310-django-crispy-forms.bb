@@ -12,11 +12,11 @@ RPM_HASH = "77746e19f6f5e7b973d8c751f19e4cae79a996f9525f8fc1badd16d3115936a9c1fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-crispy-forms \
-python3.10dist(django-crispy-forms) \
+python3.10dist-django-crispy-forms \
 python310-django-crispy-forms \
-python3dist(django-crispy-forms)"
+python3dist-django-crispy-forms"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Django"
 
 inherit rpm

@@ -12,13 +12,12 @@ PV = "0.02.15"
 RPM_NAME = "cpustat-0.02.15-1.8.aarch64.rpm"
 RPM_HASH = "66de73b1276899eab574986cea4853b92d8ab6589852517de43f509d2e5ab36a7840be7ce542eb63937b2872ac2a945c4b22e3e8adbfd8d05b424f2d157e49c1"
 
-RPROVIDES:${PN} += "cpustat \
-cpustat(aarch-64)"
+RPROVIDES:${PN} += "cpustat"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -10,10 +10,10 @@ RPM_HASH = "bf9a8fb4baba78afad39b14d57e7c63125c632c3f7a3ae1b6012607e8ee0dba44d5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-MarkupPy \
-python3.10dist(markuppy) \
+python3.10dist-markuppy \
 python310-MarkupPy \
-python3dist(markuppy)"
+python3dist-markuppy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

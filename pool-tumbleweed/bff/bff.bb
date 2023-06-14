@@ -7,10 +7,9 @@ PV = "1.0.7"
 RPM_NAME = "bff-1.0.7-1.2.aarch64.rpm"
 RPM_HASH = "493c1c4b1d4aa202499d05f9f8e670ac8de5dda462f628f2c3cfa801ad159dc7650fe3810f42eb51099d2a4bf519e6a24dbccc8ea79817a693a0e651900b56d3"
 
-RPROVIDES:${PN} += "bff \
-bff(aarch-64)"
+RPROVIDES:${PN} += "bff"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

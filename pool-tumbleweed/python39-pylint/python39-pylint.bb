@@ -21,16 +21,16 @@ RPM_NAME = "python39-pylint-2.17.4-2.1.noarch.rpm"
 RPM_HASH = "df5d1561e7db2a7b8f7903e55e81e2de076983c928bb950836aff5d89ec6b781859e873b65dc8a2b35fe311b61b41ab7af50ac7073d6f3df61e4533addcdd42b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pylint) \
+RPROVIDES:${PN} += "python3.9dist-pylint \
 python39-pylint \
-python3dist(pylint)"
+python3dist-pylint"
 
-RDEPENDS:${PN} += "(python39-astroid >= 2.15.4 with python39-astroid < 2.17.0~dev0) \
-(python39-isort >= 4.2.5 with python39-isort < 6) \
-(python39-mccabe >= 0.6 with python39-mccabe < 0.8) \
+RDEPENDS:${PN} += "-python39-astroid >= 2.15.4 with python39-astroid < 2.17.0~dev0 \
+-python39-isort >= 4.2.5 with python39-isort < 6 \
+-python39-mccabe >= 0.6 with python39-mccabe < 0.8 \
 /bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-dill \
 python39-platformdirs \
 python39-tomli \

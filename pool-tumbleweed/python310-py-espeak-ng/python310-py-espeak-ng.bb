@@ -9,11 +9,11 @@ RPM_HASH = "68c998d2422eb28765e2741bd5714562c6bf7b4dedfe29631ae652d3f0f284523300
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py-espeak-ng \
-python3.10dist(py-espeak-ng) \
+python3.10dist-py-espeak-ng \
 python310-py-espeak-ng \
-python3dist(py-espeak-ng)"
+python3dist-py-espeak-ng"
 
 RDEPENDS:${PN} += "espeak-ng \
-python(abi)"
+python-abi"
 
 inherit rpm

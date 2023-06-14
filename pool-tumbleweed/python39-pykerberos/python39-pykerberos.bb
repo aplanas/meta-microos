@@ -10,18 +10,15 @@ PV = "1.2.4"
 RPM_NAME = "python39-pykerberos-1.2.4-1.4.aarch64.rpm"
 RPM_HASH = "144f517598d0f0866a382a2b1c398b39301fd1dc0b7e91431d6e9e9990945c38837a250f4d2288edf6d5deaab68f41b0d0ac2820d6a80c70698bf5ea8c4769b2"
 
-RPROVIDES:${PN} += "python3.9dist(pykerberos) \
+RPROVIDES:${PN} += "python3.9dist-pykerberos \
 python39-pykerberos \
-python39-pykerberos(aarch-64) \
-python3dist(pykerberos)"
+python3dist-pykerberos"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit) \
-libgssapi_krb5.so.2()(64bit) \
-libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \
-libkrb5.so.3()(64bit) \
-libkrb5.so.3(krb5_3_MIT)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcom-err.so.2 \
+libgssapi-krb5.so.2 \
+libkrb5.so.3 \
+python-abi"
 
 inherit rpm

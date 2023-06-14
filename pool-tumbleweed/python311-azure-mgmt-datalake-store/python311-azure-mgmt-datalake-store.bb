@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-mgmt-datalake-store-1.0.0-1.10.noarch.rpm"
 RPM_HASH = "3743ef0158b78cf957991d2ee12887883c1ad929561a96092e60b6e91162df857a3218ed831f782043d8d17d47701e647167dc16740c879b019fa2ec2f78e1d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-datalake-store) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-datalake-store \
 python311-azure-mgmt-datalake-store \
-python3dist(azure-mgmt-datalake-store)"
+python3dist-azure-mgmt-datalake-store"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-datalake-nspkg \

@@ -10,9 +10,8 @@ PV = "1.1.0"
 RPM_NAME = "rootlesskit-1.1.0-2.4.aarch64.rpm"
 RPM_HASH = "e43f4a2f1c64bd9e8debdefb8ea204ef12e64fc261ac9da1a6ae550ab7d9469301bf32ad42af0069c4bb6ebf06ef96959543b83bda930fe6b459027fb3debd43"
 
-RPROVIDES:${PN} += "rootlesskit \
-rootlesskit(aarch-64)"
+RPROVIDES:${PN} += "rootlesskit"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

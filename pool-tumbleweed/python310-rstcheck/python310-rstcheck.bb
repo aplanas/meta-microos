@@ -10,14 +10,14 @@ RPM_HASH = "81cd62b0cd9c80aec97c66f3b679f833115bf985fa996698706409a99dc4d678aec2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rstcheck \
-python3.10dist(rstcheck) \
+python3.10dist-rstcheck \
 python310-rstcheck \
-python3dist(rstcheck) \
+python3dist-rstcheck \
 rstcheck"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-docutils \
 update-alternatives"
 

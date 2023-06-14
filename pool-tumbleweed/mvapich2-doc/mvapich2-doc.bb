@@ -8,8 +8,7 @@ PV = "2.3.7"
 RPM_NAME = "mvapich2-doc-2.3.7-4.3.aarch64.rpm"
 RPM_HASH = "77498bdb0498a25504a5601d7c7c0e0170942566735e26874c2d3da46368652373fc5bbe04280dc9d5d5fd503cca4a6a8012d52fcfd1a299bdc67c72b77b8884"
 
-RPROVIDES:${PN} += "mvapich2-doc \
-mvapich2-doc(aarch-64)"
+RPROVIDES:${PN} += "mvapich2-doc"
 
 RDEPENDS:${PN} += "mvapich2"
 

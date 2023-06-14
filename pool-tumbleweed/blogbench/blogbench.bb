@@ -10,10 +10,9 @@ PV = "1.1"
 RPM_NAME = "blogbench-1.1-4.8.aarch64.rpm"
 RPM_HASH = "33748da99fdaba0beb4da9847521e6c0540a15dd159d73c0b85a6be65923f29887941929b6f339f3501937bdeb58b46c17a69e03ba3e3d6a96f4b734c0f73862"
 
-RPROVIDES:${PN} += "blogbench \
-blogbench(aarch-64)"
+RPROVIDES:${PN} += "blogbench"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -9,10 +9,10 @@ RPM_HASH = "8c158690aec581afc01ca23d2983499018acd6199ac325b79c5451333ec7d4991404
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-providers-parent \
-mvn(com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers:pom:)"
+mvn-com.fasterxml.jackson.jaxrs-jackson-jaxrs-providers-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.fasterxml.jackson:jackson-base:pom:)"
+mvn-com.fasterxml.jackson-jackson-base-pom-"
 
 inherit rpm

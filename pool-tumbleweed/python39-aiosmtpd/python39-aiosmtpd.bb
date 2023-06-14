@@ -19,16 +19,16 @@ RPM_NAME = "python39-aiosmtpd-1.4.4.post2-1.4.noarch.rpm"
 RPM_HASH = "e57636cf8553b337644425fa95402b9b4739811768e69f13a1390c72ecea5a3e8aa257a636f7d3726b2a60c07ef5f86d838d260fbacd092309486cf8bf7b3b47"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(aiosmtpd) \
+RPROVIDES:${PN} += "python3.9dist-aiosmtpd \
 python39-aiosmtpd \
-python3dist(aiosmtpd)"
+python3dist-aiosmtpd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-atpublic \
 python39-attrs \
 update-alternatives \
-user(nobody)"
+user-nobody"
 
 inherit rpm

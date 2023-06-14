@@ -9,9 +9,9 @@ RPM_HASH = "d668813a7af0214b82a62b13817efa32652327fe1f092c84caf60478473fe8e19c4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-imaging \
-mvn(org.apache.commons:commons-imaging) \
-mvn(org.apache.commons:commons-imaging:pom:) \
-osgi(org.apache.commons.commons-imaging)"
+mvn-org.apache.commons-commons-imaging \
+mvn-org.apache.commons-commons-imaging-pom- \
+osgi-org.apache.commons.commons-imaging"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

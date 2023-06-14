@@ -16,8 +16,8 @@ RPM_NAME = "texlive-palette-2023.201.1.1.0svn60119-51.1.noarch.rpm"
 RPM_HASH = "339d17c12b8f0a12476cb3ec3651c885df7ee1b58903d57d7aba345ffcf5c748e22f9aa15bea5ad95e207c8c6e4af0e5932cfa275503c03e0bcf7b982d2f6979"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(colorpalette.sty) \
-tex(symbolpalette.sty) \
+RPROVIDES:${PN} += "tex-colorpalette.sty \
+tex-symbolpalette.sty \
 texlive-palette"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(macrolist.sty) \
-tex(xcolor.sty) \
+tex-macrolist.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

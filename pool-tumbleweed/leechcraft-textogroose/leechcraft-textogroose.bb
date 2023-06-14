@@ -12,18 +12,15 @@ RPM_HASH = "ed99c662c49d798009bf263ad6045bf3da65cfd4ebfaae255e7d0e50ead89b2a99ee
 
 RPROVIDES:${PN} += "leechcraft-lyricsprovider \
 leechcraft-textogroose \
-leechcraft-textogroose(aarch-64) \
-libleechcraft_textogroose.so()(64bit)"
+libleechcraft-textogroose.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-http \
 leechcraft-summaryrepresentation \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

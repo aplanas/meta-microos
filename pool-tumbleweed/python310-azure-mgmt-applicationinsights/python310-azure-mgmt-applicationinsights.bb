@@ -14,12 +14,12 @@ RPM_HASH = "8aed3ca2fe13f98df39552204919c53d0eba8bc6e113a8679c36ac0599e9a2ee8e17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-applicationinsights \
-python3.10dist(azure-mgmt-applicationinsights) \
+python3.10dist-azure-mgmt-applicationinsights \
 python310-azure-mgmt-applicationinsights \
-python3dist(azure-mgmt-applicationinsights)"
+python3dist-azure-mgmt-applicationinsights"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

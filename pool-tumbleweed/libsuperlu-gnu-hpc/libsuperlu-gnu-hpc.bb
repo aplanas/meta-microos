@@ -9,10 +9,9 @@ PV = "6.0.0"
 RPM_NAME = "libsuperlu-gnu-hpc-6.0.0-2.1.aarch64.rpm"
 RPM_HASH = "e15424c854a3e6c6bf53256f77499f1c4e292ce84827c56ebb216dc97fa56d887942095ea9c33a19215a3ed130577f38bfc71e22d560918084da9def786edc4b"
 
-RPROVIDES:${PN} += "libsuperlu-gnu-hpc \
-libsuperlu-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "libsuperlu-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
-libsuperlu_6_0_0-gnu-hpc"
+libsuperlu-6-0-0-gnu-hpc"
 
 inherit rpm

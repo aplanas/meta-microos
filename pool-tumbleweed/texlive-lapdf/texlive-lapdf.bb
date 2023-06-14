@@ -17,7 +17,7 @@ RPM_NAME = "texlive-lapdf-2023.201.1.1svn23806-55.1.noarch.rpm"
 RPM_HASH = "83abe1600170f649818472cbb888aa277f2b6a059fc3f6d39fdcefa1f801d6ac80d24fbab4c17238c765d7d9a4ef43dbd4c37aa92378854614047a3c4e3d0bb8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(lapdf.sty) \
+RPROVIDES:${PN} += "tex-lapdf.sty \
 texlive-lapdf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,7 +26,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(calc.sty) \
+tex-calc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

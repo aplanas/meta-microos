@@ -18,9 +18,8 @@ PV = "4.1.4"
 RPM_NAME = "openmpi_4_1_4-gnu-hpc-docs-4.1.4-2.2.aarch64.rpm"
 RPM_HASH = "733a6e964d259e75eb9e7c224deac315e3564f535daef92e5de5e10cf6f4b498949f22d61dc79bdf135ffa04a88f181b6c35dc729810563eef498c1368c07043"
 
-RPROVIDES:${PN} += "openmpi_4_1_4-gnu-hpc-docs \
-openmpi_4_1_4-gnu-hpc-docs(aarch-64)"
+RPROVIDES:${PN} += "openmpi-4-1-4-gnu-hpc-docs"
 
-RDEPENDS:${PN} += "openmpi_4_1_4-gnu-hpc"
+RDEPENDS:${PN} += "openmpi-4-1-4-gnu-hpc"
 
 inherit rpm

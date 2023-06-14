@@ -10,17 +10,14 @@ PV = "0.9"
 RPM_NAME = "xgalaga++-0.9-1.14.aarch64.rpm"
 RPM_HASH = "a8302d020ce6361cf5032c4ca119ca3313feb14297800139b849cc51cb078e4080a1524b6c453dd7fcd5ab216b680169f438025902cde06f5f2d520c42c5d220"
 
-RPROVIDES:${PN} += "application() \
-application(xgalaga++.desktop) \
-xgalaga++ \
-xgalaga++(aarch-64)"
+RPROVIDES:${PN} += "xgalaga++"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXpm.so.4()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXpm.so.4 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

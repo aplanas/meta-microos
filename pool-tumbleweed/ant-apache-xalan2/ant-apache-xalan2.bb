@@ -9,15 +9,15 @@ RPM_HASH = "fa2f349eda4ce2300a863abcd98f97eab0bda542f6932b04f9bfc4741ff102dd8daf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-xalan2 \
-config(ant-apache-xalan2) \
-mvn(org.apache.ant:ant-apache-xalan2) \
-mvn(org.apache.ant:ant-apache-xalan2:pom:)"
+config-ant-apache-xalan2 \
+mvn-org.apache.ant-ant-apache-xalan2 \
+mvn-org.apache.ant-ant-apache-xalan2-pom-"
 
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
-mvn(org.apache.ant:ant) \
-mvn(xalan:xalan) \
+mvn-org.apache.ant-ant \
+mvn-xalan-xalan \
 regexp"
 
 inherit rpm

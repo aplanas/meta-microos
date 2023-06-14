@@ -10,39 +10,37 @@ RPM_NAME = "colord-1.4.6-2.3.aarch64.rpm"
 RPM_HASH = "9e46bdbd75d6a3057b595b04feab15899dc219aa88e50f16a96f906eb5b10edde68874939cfdf758bb5e99dfceff41badfffcf9aed65e2997db6d47fa12b2dd5"
 
 RPROVIDES:${PN} += "colord \
-colord(aarch-64) \
-config(colord) \
-group(colord) \
-libcolord_sensor_argyll.so()(64bit) \
-libcolord_sensor_camera.so()(64bit) \
-libcolord_sensor_colorhug.so()(64bit) \
-libcolord_sensor_dtp94.so()(64bit) \
-libcolord_sensor_dummy.so()(64bit) \
-libcolord_sensor_huey.so()(64bit) \
-libcolord_sensor_scanner.so()(64bit) \
-libcolordcompat.so()(64bit) \
-user(colord)"
+config-colord \
+group-colord \
+libcolord-sensor-argyll.so \
+libcolord-sensor-camera.so \
+libcolord-sensor-colorhug.so \
+libcolord-sensor-dtp94.so \
+libcolord-sensor-dummy.so \
+libcolord-sensor-huey.so \
+libcolord-sensor-scanner.so \
+libcolordcompat.so \
+user-colord"
 
 RDEPENDS:${PN} += "/bin/sh \
 argyllcms \
 colord-color-profiles \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcolord.so.2()(64bit) \
-libcolordprivate.so.2()(64bit) \
-libcolorhug.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgmodule-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgudev-1.0.so.0()(64bit) \
-libgusb.so.2()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpolkit-gobject-1.so.0()(64bit) \
-libsqlite3.so.0()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcolord.so.2 \
+libcolordprivate.so.2 \
+libcolorhug.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgudev-1.0.so.0 \
+libgusb.so.2 \
+liblcms2.so.2 \
+libm.so.6 \
+libpolkit-gobject-1.so.0 \
+libsqlite3.so.0 \
+libsystemd.so.0 \
 systemd \
 sysuser-shadow"
 

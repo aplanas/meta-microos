@@ -8,32 +8,31 @@ RPM_NAME = "python3-opencv3-3.4.19-1.1.aarch64.rpm"
 RPM_HASH = "11c329df6560ddf43c36caab4a3505471774f6f4333473750d469a6f5937ceb9b379cb967cae79b008eba9cb690d858a7fa932bbed45f31576c0c2bf826d09a8"
 
 RPROVIDES:${PN} += "python3-opencv-qt5 \
-python3-opencv3 \
-python3-opencv3(aarch-64)"
+python3-opencv3"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libopencv_calib3d.so.3.4()(64bit) \
-libopencv_core.so.3.4()(64bit) \
-libopencv_dnn.so.3.4()(64bit) \
-libopencv_face.so.3.4()(64bit) \
-libopencv_features2d.so.3.4()(64bit) \
-libopencv_flann.so.3.4()(64bit) \
-libopencv_highgui.so.3.4()(64bit) \
-libopencv_imgcodecs.so.3.4()(64bit) \
-libopencv_imgproc.so.3.4()(64bit) \
-libopencv_ml.so.3.4()(64bit) \
-libopencv_objdetect.so.3.4()(64bit) \
-libopencv_photo.so.3.4()(64bit) \
-libopencv_plot.so.3.4()(64bit) \
-libopencv_shape.so.3.4()(64bit) \
-libopencv_stitching.so.3.4()(64bit) \
-libopencv_tracking.so.3.4()(64bit) \
-libopencv_video.so.3.4()(64bit) \
-libopencv_videoio.so.3.4()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libopencv-calib3d.so.3.4 \
+libopencv-core.so.3.4 \
+libopencv-dnn.so.3.4 \
+libopencv-face.so.3.4 \
+libopencv-features2d.so.3.4 \
+libopencv-flann.so.3.4 \
+libopencv-highgui.so.3.4 \
+libopencv-imgcodecs.so.3.4 \
+libopencv-imgproc.so.3.4 \
+libopencv-ml.so.3.4 \
+libopencv-objdetect.so.3.4 \
+libopencv-photo.so.3.4 \
+libopencv-plot.so.3.4 \
+libopencv-shape.so.3.4 \
+libopencv-stitching.so.3.4 \
+libopencv-tracking.so.3.4 \
+libopencv-video.so.3.4 \
+libopencv-videoio.so.3.4 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

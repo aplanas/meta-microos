@@ -15,10 +15,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cm-unicode \
 cm-unicode-fonts \
-locale(ru;bg;el)"
+locale-ru;bg;el"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

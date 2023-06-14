@@ -14,16 +14,16 @@ glassfish-hk2-locator-no-proxies2 \
 glassfish-hk2-runlevel-extras \
 glassfish-hk2-testing \
 glassfish-hk2-testng \
-mvn(org.glassfish.hk2:hk2-junitrunner) \
-mvn(org.glassfish.hk2:hk2-junitrunner:pom:) \
-mvn(org.glassfish.hk2:hk2-testing:pom:) \
-osgi(org.glassfish.hk2.junitrunner)"
+mvn-org.glassfish.hk2-hk2-junitrunner \
+mvn-org.glassfish.hk2-hk2-junitrunner-pom- \
+mvn-org.glassfish.hk2-hk2-testing-pom- \
+osgi-org.glassfish.hk2.junitrunner"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.inject:javax.inject) \
-mvn(org.glassfish.hk2:hk2-api) \
-mvn(org.glassfish.hk2:hk2-locator) \
-mvn(org.ow2.asm:asm-all)"
+mvn-javax.inject-javax.inject \
+mvn-org.glassfish.hk2-hk2-api \
+mvn-org.glassfish.hk2-hk2-locator \
+mvn-org.ow2.asm-asm-all"
 
 inherit rpm

@@ -48,60 +48,60 @@ RPM_NAME = "perl-Log-Log4perl-1.57-1.2.noarch.rpm"
 RPM_HASH = "027d4498e98e2cba459a5f35b6554d95baaa7abdb453698ad7af029f69ba7693e3e96495b54442a32335e17bd7af834589ead97bea2a5511be18bb54ede63f33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Log::Log4perl) \
-perl(Log::Log4perl::Appender) \
-perl(Log::Log4perl::Appender::Buffer) \
-perl(Log::Log4perl::Appender::DBI) \
-perl(Log::Log4perl::Appender::File) \
-perl(Log::Log4perl::Appender::Limit) \
-perl(Log::Log4perl::Appender::RRDs) \
-perl(Log::Log4perl::Appender::Screen) \
-perl(Log::Log4perl::Appender::ScreenColoredLevels) \
-perl(Log::Log4perl::Appender::Socket) \
-perl(Log::Log4perl::Appender::String) \
-perl(Log::Log4perl::Appender::Synchronized) \
-perl(Log::Log4perl::Appender::TestArrayBuffer) \
-perl(Log::Log4perl::Appender::TestBuffer) \
-perl(Log::Log4perl::Appender::TestFileCreeper) \
-perl(Log::Log4perl::Catalyst) \
-perl(Log::Log4perl::Config) \
-perl(Log::Log4perl::Config::BaseConfigurator) \
-perl(Log::Log4perl::Config::DOMConfigurator) \
-perl(Log::Log4perl::Config::PropertyConfigurator) \
-perl(Log::Log4perl::Config::Watch) \
-perl(Log::Log4perl::DateFormat) \
-perl(Log::Log4perl::Filter) \
-perl(Log::Log4perl::Filter::Boolean) \
-perl(Log::Log4perl::Filter::LevelMatch) \
-perl(Log::Log4perl::Filter::LevelRange) \
-perl(Log::Log4perl::Filter::MDC) \
-perl(Log::Log4perl::Filter::StringMatch) \
-perl(Log::Log4perl::InternalDebug) \
-perl(Log::Log4perl::JavaMap) \
-perl(Log::Log4perl::JavaMap::ConsoleAppender) \
-perl(Log::Log4perl::JavaMap::FileAppender) \
-perl(Log::Log4perl::JavaMap::JDBCAppender) \
-perl(Log::Log4perl::JavaMap::NTEventLogAppender) \
-perl(Log::Log4perl::JavaMap::RollingFileAppender) \
-perl(Log::Log4perl::JavaMap::SyslogAppender) \
-perl(Log::Log4perl::JavaMap::TestBuffer) \
-perl(Log::Log4perl::Layout) \
-perl(Log::Log4perl::Layout::NoopLayout) \
-perl(Log::Log4perl::Layout::PatternLayout) \
-perl(Log::Log4perl::Layout::PatternLayout::Multiline) \
-perl(Log::Log4perl::Layout::SimpleLayout) \
-perl(Log::Log4perl::Level) \
-perl(Log::Log4perl::Logger) \
-perl(Log::Log4perl::MDC) \
-perl(Log::Log4perl::NDC) \
-perl(Log::Log4perl::Resurrector) \
-perl(Log::Log4perl::Util) \
-perl(Log::Log4perl::Util::Semaphore) \
-perl(Log::Log4perl::Util::TimeTracker) \
+RPROVIDES:${PN} += "perl-Log--Log4perl \
+perl-Log--Log4perl--Appender \
+perl-Log--Log4perl--Appender--Buffer \
+perl-Log--Log4perl--Appender--DBI \
+perl-Log--Log4perl--Appender--File \
+perl-Log--Log4perl--Appender--Limit \
+perl-Log--Log4perl--Appender--RRDs \
+perl-Log--Log4perl--Appender--Screen \
+perl-Log--Log4perl--Appender--ScreenColoredLevels \
+perl-Log--Log4perl--Appender--Socket \
+perl-Log--Log4perl--Appender--String \
+perl-Log--Log4perl--Appender--Synchronized \
+perl-Log--Log4perl--Appender--TestArrayBuffer \
+perl-Log--Log4perl--Appender--TestBuffer \
+perl-Log--Log4perl--Appender--TestFileCreeper \
+perl-Log--Log4perl--Catalyst \
+perl-Log--Log4perl--Config \
+perl-Log--Log4perl--Config--BaseConfigurator \
+perl-Log--Log4perl--Config--DOMConfigurator \
+perl-Log--Log4perl--Config--PropertyConfigurator \
+perl-Log--Log4perl--Config--Watch \
+perl-Log--Log4perl--DateFormat \
+perl-Log--Log4perl--Filter \
+perl-Log--Log4perl--Filter--Boolean \
+perl-Log--Log4perl--Filter--LevelMatch \
+perl-Log--Log4perl--Filter--LevelRange \
+perl-Log--Log4perl--Filter--MDC \
+perl-Log--Log4perl--Filter--StringMatch \
+perl-Log--Log4perl--InternalDebug \
+perl-Log--Log4perl--JavaMap \
+perl-Log--Log4perl--JavaMap--ConsoleAppender \
+perl-Log--Log4perl--JavaMap--FileAppender \
+perl-Log--Log4perl--JavaMap--JDBCAppender \
+perl-Log--Log4perl--JavaMap--NTEventLogAppender \
+perl-Log--Log4perl--JavaMap--RollingFileAppender \
+perl-Log--Log4perl--JavaMap--SyslogAppender \
+perl-Log--Log4perl--JavaMap--TestBuffer \
+perl-Log--Log4perl--Layout \
+perl-Log--Log4perl--Layout--NoopLayout \
+perl-Log--Log4perl--Layout--PatternLayout \
+perl-Log--Log4perl--Layout--PatternLayout--Multiline \
+perl-Log--Log4perl--Layout--SimpleLayout \
+perl-Log--Log4perl--Level \
+perl-Log--Log4perl--Logger \
+perl-Log--Log4perl--MDC \
+perl-Log--Log4perl--NDC \
+perl-Log--Log4perl--Resurrector \
+perl-Log--Log4perl--Util \
+perl-Log--Log4perl--Util--Semaphore \
+perl-Log--Log4perl--Util--TimeTracker \
 perl-Log-Log4perl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(File::Path)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-File--Path"
 
 inherit rpm

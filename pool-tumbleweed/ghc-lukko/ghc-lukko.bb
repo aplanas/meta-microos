@@ -41,14 +41,13 @@ RPM_NAME = "ghc-lukko-0.1.1.3-5.3.aarch64.rpm"
 RPM_HASH = "3e8be3a943054c911dfa101894ed17448b96338559169e4b6019638d922299653fe2c281790680bfb6c1a14c7b7cf4eecd31980d7a0c1e806b3be4fb05d73a22"
 
 RPROVIDES:${PN} += "ghc-lukko \
-ghc-lukko(aarch-64) \
-libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so()(64bit)"
+libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
-libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
-libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
+libHSghc-bignum-1.3-ghc9.4.5.so \
+libHSghc-prim-0.9.0-ghc9.4.5.so \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6"
 
 inherit rpm

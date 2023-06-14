@@ -18,11 +18,11 @@ RPM_NAME = "python39-requests-cache-1.0.1-1.1.noarch.rpm"
 RPM_HASH = "1e206372ae75c18eb3969f86766e85bee021a3ab35fe1b2cadf1918c79d28d135d0ac33b2bc2c32ef261c7aefc5760e07a5a1ec5548a1675a40e32af3d066600"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(requests-cache) \
+RPROVIDES:${PN} += "python3.9dist-requests-cache \
 python39-requests-cache \
-python3dist(requests-cache)"
+python3dist-requests-cache"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-itsdangerous \
 python39-requests \
 python39-url-normalize"

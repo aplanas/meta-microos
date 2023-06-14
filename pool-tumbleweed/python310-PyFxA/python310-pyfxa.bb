@@ -9,13 +9,13 @@ RPM_HASH = "10dcaa22665ea96fc9fc1f217bc54502bb9b8682255e7ab818d8c323c03d3b1d058e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyFxA \
-python3.10dist(pyfxa) \
+python3.10dist-pyfxa \
 python310-PyFxA \
-python3dist(pyfxa)"
+python3dist-pyfxa"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyBrowserID \
 python310-cryptography \
 python310-requests \

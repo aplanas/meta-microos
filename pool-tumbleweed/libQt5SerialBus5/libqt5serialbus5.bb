@@ -12,20 +12,15 @@ PV = "5.15.9+kde0"
 RPM_NAME = "libQt5SerialBus5-5.15.9+kde0-1.1.aarch64.rpm"
 RPM_HASH = "0474b27754cf5fda12e3ecf419cacd8855b7251b9d467f4fbf74a84200f92344d3ad08dc6a2f664593dc1d25260ef17edab87584469ffcb4eafe30bc73e39e2d"
 
-RPROVIDES:${PN} += "libQt5SerialBus.so.5()(64bit) \
-libQt5SerialBus.so.5(Qt_5)(64bit) \
-libQt5SerialBus5 \
-libQt5SerialBus5(aarch-64)"
+RPROVIDES:${PN} += "libQt5SerialBus.so.5 \
+libQt5SerialBus5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5SerialPort.so.5()(64bit) \
-libQt5SerialPort.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Network.so.5 \
+libQt5SerialPort.so.5 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

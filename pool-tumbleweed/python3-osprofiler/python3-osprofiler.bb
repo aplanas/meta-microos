@@ -16,11 +16,11 @@ RPM_HASH = "5ce41d194436f81a071838ac50fa930f819fe5c1273f13a175ad1c2a742af95bb309
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-osprofiler \
-python3.10dist(osprofiler) \
-python3dist(osprofiler)"
+python3.10dist-osprofiler \
+python3dist-osprofiler"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PrettyTable \
 python3-WebOb \
 python3-importlib-metadata \

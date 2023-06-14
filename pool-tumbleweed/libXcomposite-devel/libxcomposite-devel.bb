@@ -20,14 +20,13 @@ RPM_NAME = "libXcomposite-devel-0.4.6-1.2.aarch64.rpm"
 RPM_HASH = "63e9387f212b7ca0d1d5974891ee3dd07ebfe1b9a1fd10a164e94807989959b002b6d5a014275e403bb439e15d59ceb4d285f31160ef60a0a307f9772e41d028"
 
 RPROVIDES:${PN} += "libXcomposite-devel \
-libXcomposite-devel(aarch-64) \
-pkgconfig(xcomposite)"
+pkgconfig-xcomposite"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXcomposite1 \
-pkgconfig(compositeproto) \
-pkgconfig(x11) \
-pkgconfig(xfixes) \
-pkgconfig(xproto)"
+pkgconfig-compositeproto \
+pkgconfig-x11 \
+pkgconfig-xfixes \
+pkgconfig-xproto"
 
 inherit rpm

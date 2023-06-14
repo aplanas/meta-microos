@@ -14,7 +14,7 @@ RPM_NAME = "texlive-bxnewfont-2023.201.0.0.2bsvn44173-52.1.noarch.rpm"
 RPM_HASH = "d2b43cfb2f139cc31b77a97a09b9e4030f3746bf53ce1d5a0c3c20cd181c0a42388c18bdc4242ad48acc73d6ba577e72e665c82e253608cd7957f4ae4df16c81"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bxnewfont.sty) \
+RPROVIDES:${PN} += "tex-bxnewfont.sty \
 texlive-bxnewfont"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,7 +23,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
+tex-etoolbox.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

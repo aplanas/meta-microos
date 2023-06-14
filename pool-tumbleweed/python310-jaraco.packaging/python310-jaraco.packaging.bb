@@ -9,11 +9,11 @@ RPM_HASH = "78ae51d1eb866d733c9c7aba2ccfb22584c89d908d33cb2fb9d89a2c4fd26b325604
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jaraco.packaging \
-python3.10dist(jaraco.packaging) \
+python3.10dist-jaraco.packaging \
 python310-jaraco.packaging \
-python3dist(jaraco.packaging)"
+python3dist-jaraco.packaging"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-build \
 python310-jaraco.context \
 python310-virtualenv"

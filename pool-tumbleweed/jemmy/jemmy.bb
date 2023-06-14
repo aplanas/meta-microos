@@ -14,8 +14,8 @@ RPM_HASH = "021464eff5423c838520f23fc08dedb5e5309244d82070ca0123eebde43b5c38dbce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jemmy \
-mvn(org.netbeans:jemmy) \
-mvn(org.netbeans:jemmy:pom:)"
+mvn-org.netbeans-jemmy \
+mvn-org.netbeans-jemmy-pom-"
 
 RDEPENDS:${PN} += "java \
 java-headless \

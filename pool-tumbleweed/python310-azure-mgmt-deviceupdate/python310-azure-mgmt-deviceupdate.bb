@@ -11,11 +11,11 @@ RPM_HASH = "0f9532573a1862ba4e665f77d5ff754e5f10b67e6d6ff34ce3f94bd629d733b32c32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-deviceupdate \
-python3.10dist(azure-mgmt-deviceupdate) \
+python3.10dist-azure-mgmt-deviceupdate \
 python310-azure-mgmt-deviceupdate \
-python3dist(azure-mgmt-deviceupdate)"
+python3dist-azure-mgmt-deviceupdate"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

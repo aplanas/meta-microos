@@ -16,11 +16,10 @@ PV = "1.0.22"
 RPM_NAME = "libgsm-utils-1.0.22-1.2.aarch64.rpm"
 RPM_HASH = "a1b3407cf6cabd256dc9acb6db584b041c66bd226aa965daa402eb9fb32fe9e4851725d89dc33b6b5a537dffe1369330cd620ead0588d87d615684e4b03337ab"
 
-RPROVIDES:${PN} += "libgsm-utils \
-libgsm-utils(aarch-64)"
+RPROVIDES:${PN} += "libgsm-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgsm.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgsm.so.1"
 
 inherit rpm

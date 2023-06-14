@@ -38,12 +38,12 @@ RPM_HASH = "e977f6dcf2d0c6037cec1b704fd48dc31fc0d3ce73371019a3e26ec8e7860fd543f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archetype \
-mvn(org.apache.maven.archetype:archetype-models:pom:) \
-mvn(org.apache.maven.archetype:maven-archetype:pom:)"
+mvn-org.apache.maven.archetype-archetype-models-pom- \
+mvn-org.apache.maven.archetype-maven-archetype-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven:maven-parent:pom:) \
-mvn(org.codehaus.plexus:plexus-component-metadata)"
+mvn-org.apache.maven-maven-parent-pom- \
+mvn-org.codehaus.plexus-plexus-component-metadata"
 
 inherit rpm

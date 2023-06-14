@@ -41,9 +41,9 @@ RPM_NAME = "perl-Text-Capitalize-1.5-1.15.noarch.rpm"
 RPM_HASH = "3a1ee24812fd566f39474f9f3e4b7611e8e89c0fff55e1d70181b43073a331e2dd7262c2fc58088b48a803bb753fb61690cc14aba5417a5206bf7d44af5193f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Text::Capitalize) \
+RPROVIDES:${PN} += "perl-Text--Capitalize \
 perl-Text-Capitalize"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

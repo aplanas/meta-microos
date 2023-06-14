@@ -17,9 +17,9 @@ RPM_NAME = "texlive-cmsd-2023.201.svn18787-53.1.noarch.rpm"
 RPM_HASH = "df934720df3600159d0bf75703231b1d553df415a438c83ef6bafa4942cece3da66a7505db6ad2660b5e805f2ad7963bfa92c5cee7705aeca350effb3cc7111b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(cmsd.sty) \
-tex(t1cmsd.fd) \
-tex(ts1cmsd.fd) \
+RPROVIDES:${PN} += "tex-cmsd.sty \
+tex-t1cmsd.fd \
+tex-ts1cmsd.fd \
 texlive-cmsd"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -21,16 +21,16 @@ RPM_HASH = "6e40541e7b96d7e5b1b26d791d3c313a640f6096c3e1415587da6e22d1735c63dc37
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "logback \
-mvn(ch.qos.logback:logback-classic) \
-mvn(ch.qos.logback:logback-classic:pom:) \
-mvn(ch.qos.logback:logback-core) \
-mvn(ch.qos.logback:logback-core:pom:) \
-mvn(ch.qos.logback:logback-parent:pom:) \
-osgi(ch.qos.logback.classic) \
-osgi(ch.qos.logback.core)"
+mvn-ch.qos.logback-logback-classic \
+mvn-ch.qos.logback-logback-classic-pom- \
+mvn-ch.qos.logback-logback-core \
+mvn-ch.qos.logback-logback-core-pom- \
+mvn-ch.qos.logback-logback-parent-pom- \
+osgi-ch.qos.logback.classic \
+osgi-ch.qos.logback.core"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.slf4j:slf4j-api)"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

@@ -16,13 +16,12 @@ PV = "2022.27"
 RPM_NAME = "mined-2022.27-1.2.aarch64.rpm"
 RPM_HASH = "ebfa9f9c90978371624dbe0a65ace2d97426c223701206398de58ad987791cfe11884571f035ad012ab62d139a68e830671d3a82dc38dc834f7be0f29ff2d59d"
 
-RPROVIDES:${PN} += "mined \
-mined(aarch-64)"
+RPROVIDES:${PN} += "mined"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6"
 
 inherit rpm

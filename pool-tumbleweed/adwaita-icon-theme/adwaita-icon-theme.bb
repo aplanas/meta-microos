@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adwaita-icon-theme \
 adwaita-icon-theme-devel \
-pkgconfig(adwaita-icon-theme)"
+pkgconfig-adwaita-icon-theme"
 
-RDEPENDS:${PN} += "(gtk3-tools if libgtk-3-0) \
-(gtk4-tools if libgtk-4-1) \
+RDEPENDS:${PN} += "-gtk3-tools if libgtk-3-0 \
+-gtk4-tools if libgtk-4-1 \
 /usr/bin/pkg-config"
 
 inherit rpm

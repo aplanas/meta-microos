@@ -11,7 +11,7 @@ RPM_HASH = "a6b08522b35457e9967cae17fba33f8b8ee9284088e8f5af0e3d0ef6a51c043c5d98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drush \
-drush_make"
+drush-make"
 
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \

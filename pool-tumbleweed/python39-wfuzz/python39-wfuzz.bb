@@ -38,13 +38,13 @@ RPM_NAME = "python39-wfuzz-3.1.0-3.3.noarch.rpm"
 RPM_HASH = "10279e8b98cb88d58acbf9a84e577ec7ce9c0b03586a9d7ccbd5e15a286ef76049f7b1f2b2523ee8667162143673c6bd3b9b6637148b9a2e915d3b111df8d1ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(wfuzz) \
+RPROVIDES:${PN} += "python3.9dist-wfuzz \
 python39-wfuzz \
-python3dist(wfuzz)"
+python3dist-wfuzz"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

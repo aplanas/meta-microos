@@ -9,35 +9,34 @@ PV = "9.6"
 RPM_NAME = "google-or-tools-9.6-1.1.aarch64.rpm"
 RPM_HASH = "b164e25a65c4150798dc120a10b6624030252946cb372642b66f45386c7571eaa9bd14d2e370f6001f8f5a5d48b662318e64e950ce47bba99b6343ce31f92b16"
 
-RPROVIDES:${PN} += "google-or-tools \
-google-or-tools(aarch-64)"
+RPROVIDES:${PN} += "google-or-tools"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libabsl_flags_internal.so.2301.0.0()(64bit) \
-libabsl_flags_marshalling.so.2301.0.0()(64bit) \
-libabsl_flags_parse.so.2301.0.0()(64bit) \
-libabsl_flags_reflection.so.2301.0.0()(64bit) \
-libabsl_flags_usage.so.2301.0.0()(64bit) \
-libabsl_hash.so.2301.0.0()(64bit) \
-libabsl_log_flags.so.2301.0.0()(64bit) \
-libabsl_log_initialize.so.2301.0.0()(64bit) \
-libabsl_log_internal_check_op.so.2301.0.0()(64bit) \
-libabsl_log_internal_message.so.2301.0.0()(64bit) \
-libabsl_log_internal_nullguard.so.2301.0.0()(64bit) \
-libabsl_random_internal_pool_urbg.so.2301.0.0()(64bit) \
-libabsl_random_internal_randen.so.2301.0.0()(64bit) \
-libabsl_random_internal_randen_hwaes_impl.so.2301.0.0()(64bit) \
-libabsl_random_internal_randen_slow.so.2301.0.0()(64bit) \
-libabsl_raw_hash_set.so.2301.0.0()(64bit) \
-libabsl_status.so.2301.0.0()(64bit) \
-libabsl_str_format_internal.so.2301.0.0()(64bit) \
-libabsl_strings.so.2301.0.0()(64bit) \
-libabsl_time.so.2301.0.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libortools.so.9()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libabsl-flags-internal.so.2301.0.0 \
+libabsl-flags-marshalling.so.2301.0.0 \
+libabsl-flags-parse.so.2301.0.0 \
+libabsl-flags-reflection.so.2301.0.0 \
+libabsl-flags-usage.so.2301.0.0 \
+libabsl-hash.so.2301.0.0 \
+libabsl-log-flags.so.2301.0.0 \
+libabsl-log-initialize.so.2301.0.0 \
+libabsl-log-internal-check-op.so.2301.0.0 \
+libabsl-log-internal-message.so.2301.0.0 \
+libabsl-log-internal-nullguard.so.2301.0.0 \
+libabsl-random-internal-pool-urbg.so.2301.0.0 \
+libabsl-random-internal-randen-hwaes-impl.so.2301.0.0 \
+libabsl-random-internal-randen-slow.so.2301.0.0 \
+libabsl-random-internal-randen.so.2301.0.0 \
+libabsl-raw-hash-set.so.2301.0.0 \
+libabsl-status.so.2301.0.0 \
+libabsl-str-format-internal.so.2301.0.0 \
+libabsl-strings.so.2301.0.0 \
+libabsl-time.so.2301.0.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libortools.so.9 \
+libprotobuf-3.21.12.so \
+libstdc++.so.6"
 
 inherit rpm

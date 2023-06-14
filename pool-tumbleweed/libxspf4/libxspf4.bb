@@ -20,16 +20,15 @@ PV = "1.2.1"
 RPM_NAME = "libxspf4-1.2.1-1.6.aarch64.rpm"
 RPM_HASH = "dc0d9e60d1759cc268e5be018e848086564dfc03f9fdc9c15bf7d475f1ada0dc160bf9159548dadc73b0835093b13eea08604e1a494c9f42ab496a8e0ec5ce0f"
 
-RPROVIDES:${PN} += "libxspf.so.4()(64bit) \
-libxspf4 \
-libxspf4(aarch-64)"
+RPROVIDES:${PN} += "libxspf.so.4 \
+libxspf4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libexpat.so.1()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-liburiparser.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libexpat.so.1 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+liburiparser.so.1"
 
 inherit rpm

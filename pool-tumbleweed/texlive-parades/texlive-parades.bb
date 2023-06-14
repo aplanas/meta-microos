@@ -11,7 +11,7 @@ RPM_NAME = "texlive-parades-2023.201.svn40042-51.1.noarch.rpm"
 RPM_HASH = "99cfc7b7e90c2953ff0ec05f152daacc6acc1487e2e0a0b6f2e56060063cc64797f2bb3ace25375bfe29cd7dcb550de7ecb290c6d79c6cfbaaee4198803182be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(paravesp.sty) \
+RPROVIDES:${PN} += "tex-paravesp.sty \
 texlive-parades"
 
 RDEPENDS:${PN} += "/bin/sh \

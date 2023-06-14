@@ -15,12 +15,11 @@ PV = "1.1.1"
 RPM_NAME = "libwslay0-1.1.1-2.8.aarch64.rpm"
 RPM_HASH = "72504b6dee3f8692867027adb01ee85b14acc737f5ed7cb8427cb92f2b63dc47c9ecb0b54374ab97498568dd1d11c50daf9e5e326c6cadf290252b3cc609f4fa"
 
-RPROVIDES:${PN} += "libwslay.so.0()(64bit) \
-libwslay0 \
-libwslay0(aarch-64)"
+RPROVIDES:${PN} += "libwslay.so.0 \
+libwslay0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

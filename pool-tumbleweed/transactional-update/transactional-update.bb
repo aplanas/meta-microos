@@ -8,10 +8,9 @@ PV = "4.2.1"
 RPM_NAME = "transactional-update-4.2.1-1.1.aarch64.rpm"
 RPM_HASH = "8d372e0bad694753594dd4e5c09e2e5e190d5d3283938e06dc6c9e8d29ba4e76668df798c2f783c01e146488786b0e5168feeb51c3bf50c2c49c9d848f1f9ebe"
 
-RPROVIDES:${PN} += "transactional-update \
-transactional-update(aarch-64)"
+RPROVIDES:${PN} += "transactional-update"
 
-RDEPENDS:${PN} += "(compat-usrmerge-tools or rpmlib(X-CheckUnifiedSystemdir)) \
+RDEPENDS:${PN} += "-compat-usrmerge-tools or rpmlib(X-CheckUnifiedSystemdir) \
 /bin/bash \
 /bin/sh \
 /usr/bin/bc \

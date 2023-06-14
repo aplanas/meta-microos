@@ -13,18 +13,17 @@ PV = "1.2.7"
 RPM_NAME = "clap-lsp-plugins-1.2.7-1.1.aarch64.rpm"
 RPM_HASH = "6ce3a29ad519b134a29e64b4bea8a8bda112542aef75301bc6438de2904a8e77bd6520b109a849288a70c7cb01c3f2f54feba82bb56636943806d2f5fd471e2e"
 
-RPROVIDES:${PN} += "clap-lsp-plugins \
-clap-lsp-plugins(aarch-64)"
+RPROVIDES:${PN} += "clap-lsp-plugins"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXrandr.so.2()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libfreetype.so.6()(64bit) \
-libm.so.6()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXrandr.so.2 \
+libc.so.6 \
+libcairo.so.2 \
+libfreetype.so.6 \
+libm.so.6 \
+libsndfile.so.1 \
+libstdc++.so.6 \
 lsp-plugins-common"
 
 inherit rpm

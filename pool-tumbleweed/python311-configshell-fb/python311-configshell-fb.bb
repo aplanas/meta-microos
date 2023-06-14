@@ -15,13 +15,13 @@ RPM_NAME = "python311-configshell-fb-1.1.29-2.1.noarch.rpm"
 RPM_HASH = "e752644a21aeccd51ae98c3ce52f6e3df5be4d05dcd7e276c5558761431fda793a7b2d99636fa8c14a733bbcdf26b64dbec462cbc8c224272514dcd67f6dfadf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(configshell-fb) \
+RPROVIDES:${PN} += "python3.11dist-configshell-fb \
 python311-configshell \
 python311-configshell-fb \
-python3dist(configshell-fb)"
+python3dist-configshell-fb"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-python(abi) \
+python-abi \
 python311-pyparsing \
 python311-six \
 python311-urwid"

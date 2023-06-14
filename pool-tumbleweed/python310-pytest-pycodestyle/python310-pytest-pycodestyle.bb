@@ -10,12 +10,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-codestyle \
 python3-pytest-pycodestyle \
-python3.10dist(pytest-pycodestyle) \
+python3.10dist-pytest-pycodestyle \
 python310-pytest-codestyle \
 python310-pytest-pycodestyle \
-python3dist(pytest-pycodestyle)"
+python3dist-pytest-pycodestyle"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-py \
 python310-pycodestyle \
 python310-pytest \

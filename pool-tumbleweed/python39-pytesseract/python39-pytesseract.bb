@@ -17,14 +17,14 @@ RPM_NAME = "python39-pytesseract-0.3.10-1.5.noarch.rpm"
 RPM_HASH = "7e7a00fe1f32af538045acc5f3da59d3d0ad622ea3b8d3c6cadd0d3d646b4a0e065af19d187e28efa1b532fe1f96add981f289196908a9f6b6c9b1513777caf7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytesseract) \
+RPROVIDES:${PN} += "python3.9dist-pytesseract \
 python39-pytesseract \
-python3dist(pytesseract)"
+python3dist-pytesseract"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-pkgconfig(tesseract) \
-python(abi) \
+pkgconfig-tesseract \
+python-abi \
 python39-Pillow \
 python39-setuptools \
 tesseract-ocr-traineddata-deu \

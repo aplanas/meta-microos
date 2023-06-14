@@ -9,9 +9,9 @@ RPM_HASH = "1d3a3d58e9c324b524bc869f6fe3cce4e0df7335a3c846aed6825c9bc3906f5fa314
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-convert \
-mvn(org.joda:joda-convert) \
-mvn(org.joda:joda-convert:pom:) \
-osgi(org.joda.convert)"
+mvn-org.joda-joda-convert \
+mvn-org.joda-joda-convert-pom- \
+osgi-org.joda.convert"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

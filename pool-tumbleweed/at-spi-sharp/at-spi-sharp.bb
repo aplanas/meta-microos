@@ -9,13 +9,13 @@ RPM_HASH = "bd62c9c1b333ff9e0f5b2ba2b415c00e45a1b7f6e000055ffa13264bf5f15a74b454
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi-sharp \
-mono(at-spi-sharp)"
+mono-at-spi-sharp"
 
-RDEPENDS:${PN} += "mono(Mono.Posix) \
-mono(System) \
-mono(System.Core) \
-mono(System.Xml) \
-mono(mscorlib) \
-mono-core"
+RDEPENDS:${PN} += "mono-Mono.Posix \
+mono-System \
+mono-System.Core \
+mono-System.Xml \
+mono-core \
+mono-mscorlib"
 
 inherit rpm

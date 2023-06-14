@@ -10,17 +10,16 @@ PV = "1.16"
 RPM_NAME = "bcftools-1.16-1.3.aarch64.rpm"
 RPM_HASH = "e5d1bad044ae7c855beae57babebc47e399845a108a0a105f1c4d3f255583c6f893447e4381c8c88f0554bac1fc8dc07515e135057c04867ca7655c1c1b6aeb4"
 
-RPROVIDES:${PN} += "bcftools \
-bcftools(aarch-64)"
+RPROVIDES:${PN} += "bcftools"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 bgzip \
 htsfile \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libhts.so.3()(64bit) \
-libm.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libhts.so.3 \
+libm.so.6 \
 perl \
 python3-base \
 python3-matplotlib \

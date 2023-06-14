@@ -12,10 +12,9 @@ RPM_NAME = "java-1_8_0-openj9-1.8.0.362-2.1.aarch64.rpm"
 RPM_HASH = "34eae728ba023998160207b39c8e998427112a536a98089cd26df368ca070df651a38dcff0ebca4f9e94aaca41d6789e9e21a170129111fc157bb274df9adb07"
 
 RPROVIDES:${PN} += "java \
+java-1-8-0-openj9 \
 java-1.8.0 \
 java-1.8.0-64 \
-java-1_8_0-openj9 \
-java-1_8_0-openj9(aarch-64) \
 java-64 \
 java-fonts \
 java-openj9 \
@@ -39,31 +38,30 @@ jre1.5.x \
 jre1.6.x \
 jre1.7.x \
 jre1.8.x \
-libawt_xawt.so()(64bit) \
-libjawt.so()(64bit) \
-libjsoundalsa.so()(64bit) \
-libsplashscreen.so()(64bit)"
+libawt-xawt.so \
+libjawt.so \
+libjsoundalsa.so \
+libsplashscreen.so"
 
 RDEPENDS:${PN} += "file \
 fontconfig \
-java-1_8_0-openj9-headless \
+java-1-8-0-openj9-headless \
 java-ca-certificates \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXi.so.6()(64bit) \
-libXrender.so.1()(64bit) \
-libXtst.so.6()(64bit) \
-libasound.so.2()(64bit) \
-libawt.so()(64bit) \
-libc.so.6()(64bit) \
-libgif.so.7()(64bit) \
-libjava.so()(64bit) \
-libjpeg.so.8()(64bit) \
-libjvm.so()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXi.so.6 \
+libXrender.so.1 \
+libXtst.so.6 \
+libasound.so.2 \
+libawt.so \
+libc.so.6 \
+libgif.so.7 \
+libjava.so \
+libjpeg.so.8 \
+libjvm.so \
+libm.so.6 \
+libpng16.so.16 \
 mozilla-nss"
 
 inherit rpm

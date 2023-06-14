@@ -16,7 +16,7 @@ RPM_NAME = "texlive-xassoccnt-2023.201.2.0svn61112-52.1.noarch.rpm"
 RPM_HASH = "96aa4f486719936770135eabf7d45db530d1fb105f01174ff6d415befd2f95cfc5a1794383d80c5fe3fa4056c71fb20869e208cfeb9cba5426cc8b2796ba267a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(xassoccnt.sty) \
+RPROVIDES:${PN} += "tex-xassoccnt.sty \
 texlive-xassoccnt"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,11 +25,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(l3keys2e.sty) \
-tex(letltxmacro.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
+tex-etoolbox.sty \
+tex-l3keys2e.sty \
+tex-letltxmacro.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

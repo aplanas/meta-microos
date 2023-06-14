@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvuetify"
 
 RDEPENDS:${PN} += "jupyter-jupyterlab \
-python3dist(ipyvuetify)"
+python3dist-ipyvuetify"
 
 inherit rpm

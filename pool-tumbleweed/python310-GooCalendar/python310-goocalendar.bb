@@ -9,15 +9,15 @@ RPM_HASH = "8df451a14cfc01273ab150676d5ed5d93727044e1a457e3d5be202ce471512001b8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-GooCalendar \
-python3.10dist(goocalendar) \
+python3.10dist-goocalendar \
 python310-GooCalendar \
-python3dist(goocalendar)"
+python3dist-goocalendar"
 
-RDEPENDS:${PN} += "python(abi) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GooCanvas) \
-typelib(Gtk) \
-typelib(Pango)"
+RDEPENDS:${PN} += "python-abi \
+typelib-GObject \
+typelib-Gdk \
+typelib-GooCanvas \
+typelib-Gtk \
+typelib-Pango"
 
 inherit rpm

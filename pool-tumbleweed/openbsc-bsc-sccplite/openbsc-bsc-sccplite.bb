@@ -11,15 +11,14 @@ PV = "1.4.1"
 RPM_NAME = "openbsc-bsc-sccplite-1.4.1-1.10.aarch64.rpm"
 RPM_HASH = "4dff59910ec955bbdcebb130350df89c911576e5c96f071699bf1ab5e4a10aaebfaae06fe99a90c6baeca2f812654cc011829aa2c9bbc01716154d781c0c0059"
 
-RPROVIDES:${PN} += "config(openbsc-bsc-sccplite) \
-openbsc-bsc-sccplite \
-openbsc-bsc-sccplite(aarch-64)"
+RPROVIDES:${PN} += "config-openbsc-bsc-sccplite \
+openbsc-bsc-sccplite"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6()(64bit) \
-libosmocore.so.20()(64bit) \
-libosmonetif.so.11()(64bit) \
-libosmovty.so.9()(64bit) \
-libtalloc.so.2()(64bit)"
+libc.so.6 \
+libosmocore.so.20 \
+libosmonetif.so.11 \
+libosmovty.so.9 \
+libtalloc.so.2"
 
 inherit rpm

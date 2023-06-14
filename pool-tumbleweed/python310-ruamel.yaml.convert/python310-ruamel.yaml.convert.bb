@@ -9,11 +9,11 @@ RPM_HASH = "43c260ee36108ae3b99ff831d2fa1b8d621fabd5dc0125a70542c7eb0100508222b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ruamel.yaml.convert \
-python3.10dist(ruamel.yaml.convert) \
+python3.10dist-ruamel.yaml.convert \
 python310-ruamel.yaml.convert \
-python3dist(ruamel.yaml.convert)"
+python3dist-ruamel.yaml.convert"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-dateutil \
 python310-ruamel.base \
 python310-ruamel.yaml"

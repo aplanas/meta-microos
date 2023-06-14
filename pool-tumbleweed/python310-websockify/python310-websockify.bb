@@ -15,13 +15,13 @@ RPM_HASH = "4f3a3c614920ebe7565650581f8b067884bcd2cacec6f616bf7451a11483727c5ec4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-websockify \
-python3.10dist(websockify) \
+python3.10dist-websockify \
 python310-websockify \
-python3dist(websockify)"
+python3dist-websockify"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

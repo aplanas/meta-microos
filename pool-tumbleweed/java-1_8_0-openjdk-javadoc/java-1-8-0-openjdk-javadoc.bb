@@ -8,8 +8,8 @@ RPM_NAME = "java-1_8_0-openjdk-javadoc-1.8.0.372-1.1.noarch.rpm"
 RPM_HASH = "798a986935eea4fdba86e488dfbf1ad1d9b5a9f211b96b0c0fad8f4c6377e93955be3dad3630f44915a363777e0a7592ae7971370a1b32046eaa8e83d8523122"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "java-1.8.0-javadoc \
-java-1_8_0-openjdk-javadoc \
+RPROVIDES:${PN} += "java-1-8-0-openjdk-javadoc \
+java-1.8.0-javadoc \
 java-javadoc"
 
 RDEPENDS:${PN} += "/bin/sh \

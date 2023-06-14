@@ -9,15 +9,14 @@ PV = "2.7.2"
 RPM_NAME = "libwsman_clientpp1-2.7.2-2.5.aarch64.rpm"
 RPM_HASH = "f2d8bd335fc7c82e534b948a0694b60df14de2d9aeba235656c9c776a41ad062b9dc34fd735755568c41243a32c45888f947010776c35fba7f2968c810cc717e"
 
-RPROVIDES:${PN} += "libwsman_clientpp.so.1()(64bit) \
-libwsman_clientpp1 \
-libwsman_clientpp1(aarch-64) \
+RPROVIDES:${PN} += "libwsman-clientpp.so.1 \
+libwsman-clientpp1 \
 openwsman-client"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

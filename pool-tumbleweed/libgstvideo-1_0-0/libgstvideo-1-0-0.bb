@@ -11,19 +11,18 @@ PV = "1.22.3"
 RPM_NAME = "libgstvideo-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "e6e69dc9abd1ae4071993e9b7d2c6c1b5b1d147017940715682830e2f2a83174e01dd0b0d9f00b0d8d76729e275132f48df4c41e72db5b80e4c1117b4c50c977"
 
-RPROVIDES:${PN} += "libgstvideo-1.0.so.0()(64bit) \
-libgstvideo-1_0-0 \
-libgstvideo-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstvideo-1-0-0 \
+libgstvideo-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstbase-1.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-liborc-0.4.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstbase-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libm.so.6 \
+liborc-0.4.so.0"
 
 inherit rpm

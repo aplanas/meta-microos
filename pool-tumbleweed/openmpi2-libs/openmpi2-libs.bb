@@ -18,27 +18,26 @@ PV = "2.1.6"
 RPM_NAME = "openmpi2-libs-2.1.6-14.3.aarch64.rpm"
 RPM_HASH = "8c5081fdcaa675ee1f7583c3a118058438bf118aa0aa09de47b645f4f88e909d0c53660e229bfa8a359acb5a6271891a50e87e34c008e8731102bcf472535a6a"
 
-RPROVIDES:${PN} += "libmca_common_sm.so.20()(64bit) \
-libmca_common_verbs.so.20()(64bit) \
-libmpi.so.20()(64bit) \
-libmpi_mpifh.so.20()(64bit) \
-libmpi_usempi_ignore_tkr.so.20()(64bit) \
-libmpi_usempif08.so.20()(64bit) \
-libompi_dbg_msgq.so()(64bit) \
-libompitrace.so.20()(64bit) \
-libopen-pal.so.20()(64bit) \
-libopen-rte.so.20()(64bit) \
-liboshmem.so.20()(64bit) \
-openmpi2-libs \
-openmpi2-libs(aarch-64)"
+RPROVIDES:${PN} += "libmca-common-sm.so.20 \
+libmca-common-verbs.so.20 \
+libmpi-mpifh.so.20 \
+libmpi-usempi-ignore-tkr.so.20 \
+libmpi-usempif08.so.20 \
+libmpi.so.20 \
+libompi-dbg-msgq.so \
+libompitrace.so.20 \
+libopen-pal.so.20 \
+libopen-rte.so.20 \
+liboshmem.so.20 \
+openmpi2-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-librdmacm.so.1()(64bit) \
-libucp.so.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libibverbs.so.1 \
+libm.so.6 \
+librdmacm.so.1 \
+libucp.so.0 \
 openmpi2"
 
 inherit rpm

@@ -15,12 +15,11 @@ PV = "4.13.0"
 RPM_NAME = "libpfm4-4.13.0-1.1.aarch64.rpm"
 RPM_HASH = "091fae83ca74692b7676772c04da4aef9984214d9b4b3c146d6f109c7d478ede8323d60db7a4a6e07790f9aaef6af18853bdcb66e6812b0728da0b81e18c69ac"
 
-RPROVIDES:${PN} += "libpfm.so.4()(64bit) \
-libpfm4 \
-libpfm4(aarch-64)"
+RPROVIDES:${PN} += "libpfm.so.4 \
+libpfm4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

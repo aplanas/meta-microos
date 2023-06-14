@@ -9,17 +9,14 @@ RPM_NAME = "libkdsoap-qt6-2-2.1.1-1.3.aarch64.rpm"
 RPM_HASH = "8805d9d058a506febe9ff54998483546868609e3003d8b5b70f293c61c012b1ec3008787912dd63246c04cc0d9c1b1d56c9cf499a8a3e79e34e65ef000743685"
 
 RPROVIDES:${PN} += "libkdsoap-qt6-2 \
-libkdsoap-qt6-2(aarch-64) \
-libkdsoap-qt6.so.2()(64bit)"
+libkdsoap-qt6.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Network.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -12,12 +12,11 @@ PV = "2.69"
 RPM_NAME = "libpsx2-2.69-1.1.aarch64.rpm"
 RPM_HASH = "563dde1014bd7251ecab4dfa70e342cf50ba216bb506d99bda2688b4528afe8587ccc99f57e819992bfbbb08fca609a15e394e016240e947f5964661a50e259f"
 
-RPROVIDES:${PN} += "libpsx.so.2()(64bit) \
-libpsx2 \
-libpsx2(aarch-64)"
+RPROVIDES:${PN} += "libpsx.so.2 \
+libpsx2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -9,10 +9,9 @@ PV = "0.3"
 RPM_NAME = "ebizzy-0.3-1.26.aarch64.rpm"
 RPM_HASH = "842968ef76a0d6498b6bbef18b9c1e70144dc57e6523d45620f6aae418d9eabaa750f9801a34561c4ef596c233502aa072aee515ddd1c83b6592145aa283a616"
 
-RPROVIDES:${PN} += "ebizzy \
-ebizzy(aarch-64)"
+RPROVIDES:${PN} += "ebizzy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

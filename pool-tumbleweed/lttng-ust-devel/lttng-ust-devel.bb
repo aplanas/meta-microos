@@ -10,15 +10,14 @@ RPM_HASH = "88fdc481a6598fc89fce989aad777debd5b1a942a247bc8a702b5c9c99a0ed55a3fa
 
 RPROVIDES:${PN} += "lttng-ust \
 lttng-ust-devel \
-lttng-ust-devel(aarch-64) \
-pkgconfig(lttng-ust) \
-pkgconfig(lttng-ust-ctl)"
+pkgconfig-lttng-ust \
+pkgconfig-lttng-ust-ctl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 liblttng-ust-ctl5 \
 liblttng-ust-python-agent1 \
 liblttng-ust1 \
-pkgconfig(liburcu)"
+pkgconfig-liburcu"
 
 inherit rpm

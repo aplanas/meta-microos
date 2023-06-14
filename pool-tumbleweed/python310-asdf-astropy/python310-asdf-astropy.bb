@@ -9,11 +9,11 @@ RPM_HASH = "e3708d2cf4c4011749d702305187e6a61dba582e782fe2f374578a1190a5bb8ac48c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-asdf-astropy \
-python3.10dist(asdf-astropy) \
+python3.10dist-asdf-astropy \
 python310-asdf-astropy \
-python3dist(asdf-astropy)"
+python3dist-asdf-astropy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-asdf \
 python310-asdf-coordinates-schemas \
 python310-asdf-transform-schemas \

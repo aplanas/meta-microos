@@ -11,13 +11,12 @@ PV = "1.22.3"
 RPM_NAME = "libgstphotography-1_0-0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "5eab9356c61000fb3d2e72f0dc12827fbcda6ce6cc522b838677325c58735e112f49459db7dfb511f808507673eee52a46f59978e3caaf2734080a0c7ab463c4"
 
-RPROVIDES:${PN} += "libgstphotography-1.0.so.0()(64bit) \
-libgstphotography-1_0-0 \
-libgstphotography-1_0-0(aarch-64)"
+RPROVIDES:${PN} += "libgstphotography-1-0-0 \
+libgstphotography-1.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgstreamer-1.0.so.0()(64bit)"
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0"
 
 inherit rpm

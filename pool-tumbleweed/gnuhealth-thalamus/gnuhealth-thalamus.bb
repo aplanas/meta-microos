@@ -26,12 +26,12 @@ RPM_HASH = "7f022c37c5b308fb4df5d1f4919eb394efae17460b0d360feaa8060c356324b911fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth-thalamus \
-python3.10dist(thalamus) \
-python3dist(thalamus)"
+python3.10dist-thalamus \
+python3dist-thalamus"
 
 RDEPENDS:${PN} += "/bin/bash \
 postgresql-server \
-python(abi) \
+python-abi \
 python3-Flask \
 python3-Flask-HTTPAuth \
 python3-Flask-RESTful \

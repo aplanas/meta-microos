@@ -13,12 +13,12 @@ RPM_HASH = "f8b61f87560cf92363d70f9f246a3fcbc277a973d3ec9c6f3f245630869b17ad41aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yubikey-manager \
-python3.10dist(yubikey-manager) \
-python3dist(yubikey-manager) \
+python3.10dist-yubikey-manager \
+python3dist-yubikey-manager \
 yubikey-manager"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-click \
 python3-cryptography \
 python3-fido2 \

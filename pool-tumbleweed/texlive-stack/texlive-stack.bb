@@ -12,8 +12,8 @@ RPM_NAME = "texlive-stack-2023.201.1.00svn15878-57.1.noarch.rpm"
 RPM_HASH = "a9cae74213e111d2c316828808f257d86be63ccde1deb7d7041381597ef6b6e48a22b59a403b3fc63447bec40a882bdb556e0b031b2b5c240db1122a8e8d792d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(relinput.sty) \
-tex(stack.sty) \
+RPROVIDES:${PN} += "tex-relinput.sty \
+tex-stack.sty \
 texlive-stack"
 
 RDEPENDS:${PN} += "/bin/sh \

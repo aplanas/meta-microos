@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootsplash-branding \
 bootsplash-branding-KDE \
-config(bootsplash-branding-KDE)"
+config-bootsplash-branding-KDE"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \

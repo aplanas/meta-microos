@@ -12,8 +12,7 @@ PV = "4.15"
 RPM_NAME = "a2ps-devel-4.15-1.3.aarch64.rpm"
 RPM_HASH = "543351d7a64e95d4cab542375323d3c560e114a2d5af4db829f936b4db3d72f58a739c82899d669dc9b07399c41547c5915d314323e5305c53464537af64e360"
 
-RPROVIDES:${PN} += "a2ps-devel \
-a2ps-devel(aarch-64)"
+RPROVIDES:${PN} += "a2ps-devel"
 
 RDEPENDS:${PN} += "glibc-devel \
 liba2ps1"

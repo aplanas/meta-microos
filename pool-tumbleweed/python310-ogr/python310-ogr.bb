@@ -9,11 +9,11 @@ RPM_HASH = "318ad48e000cb1a7e3df6090a0798da807f32b240502570f731ff5ba39565aa5975d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ogr \
-python3.10dist(ogr) \
+python3.10dist-ogr \
 python310-ogr \
-python3dist(ogr)"
+python3dist-ogr"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Deprecated \
 python310-GitPython \
 python310-PyGithub \

@@ -24,17 +24,13 @@ RPM_NAME = "python310-libfsext-20230603-1.1.aarch64.rpm"
 RPM_HASH = "c2e56d35b8f7e2d458bc4840deeee293943fd2ca4c6ec581874b21887790d7d75e79d5351c8fdb748cb60dac327894c0590d8f6a0433d2f6797682c46e457d58"
 
 RPROVIDES:${PN} += "python3-libfsext \
-python310-libfsext \
-python310-libfsext(aarch-64)"
+python310-libfsext"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libfsext.so.1()(64bit) \
-libfsext.so.1(V_20230603)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libfsext.so.1 \
+python-abi"
 
 inherit rpm

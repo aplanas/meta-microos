@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alkimia-lang \
 alkimia-lang-all \
-locale(alkimia:ca) \
-locale(alkimia:ca@valencia) \
-locale(alkimia:cs) \
-locale(alkimia:de) \
-locale(alkimia:el) \
-locale(alkimia:en_GB) \
-locale(alkimia:es) \
-locale(alkimia:et) \
-locale(alkimia:fi) \
-locale(alkimia:fr) \
-locale(alkimia:gl) \
-locale(alkimia:hu) \
-locale(alkimia:ia) \
-locale(alkimia:it) \
-locale(alkimia:ko) \
-locale(alkimia:nl) \
-locale(alkimia:nn) \
-locale(alkimia:pl) \
-locale(alkimia:pt) \
-locale(alkimia:pt_BR) \
-locale(alkimia:ru) \
-locale(alkimia:sk) \
-locale(alkimia:sl) \
-locale(alkimia:sv) \
-locale(alkimia:uk) \
-locale(alkimia:zh_CN) \
-locale(alkimia:zh_TW)"
+locale-alkimia-ca \
+locale-alkimia-ca@valencia \
+locale-alkimia-cs \
+locale-alkimia-de \
+locale-alkimia-el \
+locale-alkimia-en-GB \
+locale-alkimia-es \
+locale-alkimia-et \
+locale-alkimia-fi \
+locale-alkimia-fr \
+locale-alkimia-gl \
+locale-alkimia-hu \
+locale-alkimia-ia \
+locale-alkimia-it \
+locale-alkimia-ko \
+locale-alkimia-nl \
+locale-alkimia-nn \
+locale-alkimia-pl \
+locale-alkimia-pt \
+locale-alkimia-pt-BR \
+locale-alkimia-ru \
+locale-alkimia-sk \
+locale-alkimia-sl \
+locale-alkimia-sv \
+locale-alkimia-uk \
+locale-alkimia-zh-CN \
+locale-alkimia-zh-TW"
 
 RDEPENDS:${PN} += "alkimia"
 

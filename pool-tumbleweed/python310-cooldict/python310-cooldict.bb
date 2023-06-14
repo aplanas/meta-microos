@@ -13,11 +13,11 @@ RPM_HASH = "773bb286004ed86d203a2f166cd27ed9281b31ec272989ff5936c17b46933f8a2310
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cooldict \
-python3.10dist(cooldict) \
+python3.10dist-cooldict \
 python310-cooldict \
-python3dist(cooldict)"
+python3dist-cooldict"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-ana"
 
 inherit rpm

@@ -10,14 +10,13 @@ PV = "3.0.1"
 RPM_NAME = "liborigin3-3.0.1-1.10.aarch64.rpm"
 RPM_HASH = "474bf7aec2bdb0f58caedaa5bba764d1f6db8743931d8b91cdc44a7eb71b597e5588ed55c1e1e4d04a37e7c3505f29be590ea85a26741141ce578f5d1229c349"
 
-RPROVIDES:${PN} += "liborigin.so.3()(64bit) \
-liborigin3 \
-liborigin3(aarch-64)"
+RPROVIDES:${PN} += "liborigin.so.3 \
+liborigin3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

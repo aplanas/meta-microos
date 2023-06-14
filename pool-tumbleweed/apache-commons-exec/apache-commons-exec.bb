@@ -10,9 +10,9 @@ RPM_HASH = "047f50084d53ca274cdf7230ba4d7b4806aaa4202002056a5728da95545055a5507e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-exec \
-mvn(org.apache.commons:commons-exec) \
-mvn(org.apache.commons:commons-exec:pom:) \
-osgi(org.apache.commons.commons-exec)"
+mvn-org.apache.commons-commons-exec \
+mvn-org.apache.commons-commons-exec-pom- \
+osgi-org.apache.commons.commons-exec"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

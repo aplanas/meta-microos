@@ -10,11 +10,10 @@ PV = "5.106.0"
 RPM_NAME = "kidletime-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "5ae1b23dd9ee0a66f96a69a6a1c1613b8108f2fc1dbd5f1c11fd3d5109b90a21cc50c4d2e28ecfe107271170aa6bf73661407f70fc7f668c92cf05a9a5157d31"
 
-RPROVIDES:${PN} += "cmake(KF5IdleTime) \
-kidletime-devel \
-kidletime-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5IdleTime \
+kidletime-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5Core) \
+RDEPENDS:${PN} += "cmake-Qt5Core \
 extra-cmake-modules \
 libKF5IdleTime5"
 

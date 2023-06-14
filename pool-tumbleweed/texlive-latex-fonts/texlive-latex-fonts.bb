@@ -17,29 +17,29 @@ RPM_NAME = "texlive-latex-fonts-2023.201.svn28888-55.1.noarch.rpm"
 RPM_HASH = "caaeb24afd32004d2cd7e4b82e87ec0c1cc65e8c3cc15fbad23602d6eba45ff2373e74220ca1f47d8131b5a7e228dd8b8dcedfd1ae06e205e2deffcc241608ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(icmcsc10.tfm) \
-tex(icmex10.tfm) \
-tex(icmmi8.tfm) \
-tex(icmsy8.tfm) \
-tex(icmtt8.tfm) \
-tex(ilasy8.tfm) \
-tex(ilcmss8.tfm) \
-tex(ilcmssb8.tfm) \
-tex(ilcmssi8.tfm) \
-tex(lasy10.tfm) \
-tex(lasy5.tfm) \
-tex(lasy6.tfm) \
-tex(lasy7.tfm) \
-tex(lasy8.tfm) \
-tex(lasy9.tfm) \
-tex(lasyb10.tfm) \
-tex(lcircle10.tfm) \
-tex(lcirclew10.tfm) \
-tex(lcmss8.tfm) \
-tex(lcmssb8.tfm) \
-tex(lcmssi8.tfm) \
-tex(line10.tfm) \
-tex(linew10.tfm) \
+RPROVIDES:${PN} += "tex-icmcsc10.tfm \
+tex-icmex10.tfm \
+tex-icmmi8.tfm \
+tex-icmsy8.tfm \
+tex-icmtt8.tfm \
+tex-ilasy8.tfm \
+tex-ilcmss8.tfm \
+tex-ilcmssb8.tfm \
+tex-ilcmssi8.tfm \
+tex-lasy10.tfm \
+tex-lasy5.tfm \
+tex-lasy6.tfm \
+tex-lasy7.tfm \
+tex-lasy8.tfm \
+tex-lasy9.tfm \
+tex-lasyb10.tfm \
+tex-lcircle10.tfm \
+tex-lcirclew10.tfm \
+tex-lcmss8.tfm \
+tex-lcmssb8.tfm \
+tex-lcmssi8.tfm \
+tex-line10.tfm \
+tex-linew10.tfm \
 texlive-latex-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \

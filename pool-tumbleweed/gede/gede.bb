@@ -8,21 +8,15 @@ PV = "2.18.2"
 RPM_NAME = "gede-2.18.2-2.7.aarch64.rpm"
 RPM_HASH = "1eed2f7e6cdbd48bb830a23cdb0eab240068020450ac773a028f57e030a4243575a126a65f6fa6b1064ca4d076d41f41ce65f59e58086f9ffad5fbaed5c7cf2d"
 
-RPROVIDES:${PN} += "application() \
-application(gede.desktop) \
-gede \
-gede(aarch-64)"
+RPROVIDES:${PN} += "gede"
 
 RDEPENDS:${PN} += "ctags \
-ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

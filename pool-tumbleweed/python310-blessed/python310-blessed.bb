@@ -41,11 +41,11 @@ RPM_HASH = "cc747ccc6ebac12bb19617b92d49a90d469d27ef952e2b8c6a215bffbc68c15c21ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-blessed \
-python3.10dist(blessed) \
+python3.10dist-blessed \
 python310-blessed \
-python3dist(blessed)"
+python3dist-blessed"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-curses \
 python310-six \
 python310-wcwidth"

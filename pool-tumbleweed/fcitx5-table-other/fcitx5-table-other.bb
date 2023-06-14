@@ -24,9 +24,7 @@ fcitx-table-tamil-remington \
 fcitx-table-thai \
 fcitx-table-ua-translit \
 fcitx-table-vi-qr \
-fcitx5-table-other \
-metainfo() \
-metainfo(org.fcitx.Fcitx5.Addon.TableOther.metainfo.xml)"
+fcitx5-table-other"
 
 RDEPENDS:${PN} += "fcitx5"
 

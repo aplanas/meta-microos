@@ -11,11 +11,11 @@ RPM_HASH = "5a005fa298ef253d72b719ddc84f7a67b43c4d86a4b5e3886fd657af1d2b0236b022
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scikit-dsp-comm \
-python3.10dist(scikit-dsp-comm) \
+python3.10dist-scikit-dsp-comm \
 python310-scikit-dsp-comm \
-python3dist(scikit-dsp-comm)"
+python3dist-scikit-dsp-comm"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-scipy"

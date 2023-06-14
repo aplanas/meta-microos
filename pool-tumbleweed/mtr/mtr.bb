@@ -12,16 +12,15 @@ PV = "0.95"
 RPM_NAME = "mtr-0.95-2.1.aarch64.rpm"
 RPM_HASH = "5be1d289242b3124f0a3f010ac99e27c5c9c40f5da1c46ed35e69477d159a5641c9fa9fa220c9412d318e9ba08e192b461df13fef74fb80630cb39210175b60e"
 
-RPROVIDES:${PN} += "mtr \
-mtr(aarch-64)"
+RPROVIDES:${PN} += "mtr"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libjansson.so.4()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libjansson.so.4 \
+libm.so.6 \
+libncurses.so.6 \
+libtinfo.so.6 \
 permissions"
 
 inherit rpm

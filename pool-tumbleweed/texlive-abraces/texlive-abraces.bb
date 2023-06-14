@@ -10,7 +10,7 @@ RPM_NAME = "texlive-abraces-2023.201.2.1svn64967-54.1.noarch.rpm"
 RPM_HASH = "c784ec5b7f50925644fafb15023deabc59e44279436fb897acba47ed7c7b5a2f93f6cd2173aa3b3690fc44a822529fe18ba0ba0737926eb6739ac2289e1d828f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(abraces.sty) \
+RPROVIDES:${PN} += "tex-abraces.sty \
 texlive-abraces"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(xparse.sty) \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

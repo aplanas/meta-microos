@@ -15,7 +15,7 @@ RPM_NAME = "texlive-simplenodes-2023.201.svn62888-53.1.noarch.rpm"
 RPM_HASH = "a9f292e3695b69e61495f74d65c4cb630c9e98871cbbaffb160d250447eaae975394f4d6c429d4decf0f4d04dc30fcf5309c0069d56552defe9cf3501341dde3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(simplenodes.sty) \
+RPROVIDES:${PN} += "tex-simplenodes.sty \
 texlive-simplenodes"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,9 +24,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(kvoptions.sty) \
-tex(tikz.sty) \
+tex-color.sty \
+tex-kvoptions.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

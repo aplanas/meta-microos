@@ -10,20 +10,20 @@ RPM_HASH = "c48f027d1439416020c9beb0a3d54fac87a0cb30a0ee00cc5020b8ee3c1216f9c63b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-ffi \
-mvn(com.github.jnr:jnr-ffi) \
-mvn(com.github.jnr:jnr-ffi:pom:) \
-osgi(com.github.jnr.ffi)"
+mvn-com.github.jnr-jnr-ffi \
+mvn-com.github.jnr-jnr-ffi-pom- \
+osgi-com.github.jnr.ffi"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(com.github.jnr:jffi) \
-mvn(com.github.jnr:jffi::native:) \
-mvn(com.github.jnr:jnr-a64asm) \
-mvn(com.github.jnr:jnr-x86asm) \
-mvn(org.ow2.asm:asm) \
-mvn(org.ow2.asm:asm-analysis) \
-mvn(org.ow2.asm:asm-commons) \
-mvn(org.ow2.asm:asm-tree) \
-mvn(org.ow2.asm:asm-util)"
+mvn-com.github.jnr-jffi \
+mvn-com.github.jnr-jffi--native- \
+mvn-com.github.jnr-jnr-a64asm \
+mvn-com.github.jnr-jnr-x86asm \
+mvn-org.ow2.asm-asm \
+mvn-org.ow2.asm-asm-analysis \
+mvn-org.ow2.asm-asm-commons \
+mvn-org.ow2.asm-asm-tree \
+mvn-org.ow2.asm-asm-util"
 
 inherit rpm

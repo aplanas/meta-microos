@@ -24,16 +24,15 @@ PV = "1.10.7"
 RPM_NAME = "openmpi1-1.10.7-7.5.aarch64.rpm"
 RPM_HASH = "04508c56b99b2f891c10750a301692b024c4d4ffedf4110ca57d45ee1a00d24cb736bf91c5e3fa07a40581f26d382d5ba67e9deb665cf26d39f0c421514062fa"
 
-RPROVIDES:${PN} += "openmpi1 \
-openmpi1(aarch-64)"
+RPROVIDES:${PN} += "openmpi1"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmpi.so.12()(64bit) \
-libopen-pal.so.13()(64bit) \
-libopen-rte.so.12()(64bit) \
-liboshmem.so.8()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmpi.so.12 \
+libopen-pal.so.13 \
+libopen-rte.so.12 \
+liboshmem.so.8 \
 mpi-selector \
 openmpi-runtime-config \
 openmpi1-libs"

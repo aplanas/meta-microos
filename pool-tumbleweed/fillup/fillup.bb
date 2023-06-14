@@ -10,11 +10,10 @@ PV = "1.42"
 RPM_NAME = "fillup-1.42-279.2.aarch64.rpm"
 RPM_HASH = "5880e99a440b61a878e7805fe149fc3a946ca13764eb85ec73e9fbe5129f97630cd67ef7e268cf6671782c305892182d270c681aa41e14654dca7a7caef0215b"
 
-RPROVIDES:${PN} += "aaa_base:/bin/fillup \
-fillup \
-fillup(aarch-64)"
+RPROVIDES:${PN} += "aaa-base-/bin/fillup \
+fillup"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

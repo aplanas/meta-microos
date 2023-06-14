@@ -18,11 +18,10 @@ PV = "0.1"
 RPM_NAME = "perl-XML-Writer-String-0.1-9.29.aarch64.rpm"
 RPM_HASH = "4d51923a2a4691d2acc33310f00c6c6cf65817af7cfb61623bef188bf2f20aad696e47f10b0d32b725bc22538615111d17b562f2d4e9a5a8aa938c7259138f9d"
 
-RPROVIDES:${PN} += "perl(XML::Writer::String) \
-perl-XML-Writer-String \
-perl-XML-Writer-String(aarch-64)"
+RPROVIDES:${PN} += "perl-XML--Writer--String \
+perl-XML-Writer-String"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
 perl-XML-Writer"
 
 inherit rpm

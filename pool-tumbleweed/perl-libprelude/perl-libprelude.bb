@@ -7,31 +7,30 @@ PV = "5.2.0"
 RPM_NAME = "perl-libprelude-5.2.0-2.14.aarch64.rpm"
 RPM_HASH = "6037ade7645550851b4450dd33a2b04ef234867f1c6dd720a098ef58d2790f5c5ec09dbb08f4bf2be6675dae8cb493b793edb18dcad95446f1298c6ef6c66be4"
 
-RPROVIDES:${PN} += "perl(Prelude) \
-perl(Prelude::Client) \
-perl(Prelude::ClientEasy) \
-perl(Prelude::ClientProfile) \
-perl(Prelude::Connection) \
-perl(Prelude::ConnectionPool) \
-perl(Prelude::IDMEF) \
-perl(Prelude::IDMEFClass) \
-perl(Prelude::IDMEFCriteria) \
-perl(Prelude::IDMEFCriterion) \
-perl(Prelude::IDMEFPath) \
-perl(Prelude::IDMEFTime) \
-perl(Prelude::IDMEFValue) \
-perl(Prelude::PreludeError) \
-perl(Prelude::PreludeLog) \
-perl(Preludec) \
-perl-libprelude \
-perl-libprelude(aarch-64)"
+RPROVIDES:${PN} += "perl-Prelude \
+perl-Prelude--Client \
+perl-Prelude--ClientEasy \
+perl-Prelude--ClientProfile \
+perl-Prelude--Connection \
+perl-Prelude--ConnectionPool \
+perl-Prelude--IDMEF \
+perl-Prelude--IDMEFClass \
+perl-Prelude--IDMEFCriteria \
+perl-Prelude--IDMEFCriterion \
+perl-Prelude--IDMEFPath \
+perl-Prelude--IDMEFTime \
+perl-Prelude--IDMEFValue \
+perl-Prelude--PreludeError \
+perl-Prelude--PreludeLog \
+perl-Preludec \
+perl-libprelude"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libprelude.so.28()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libprelude.so.28 \
 libprelude28 \
-libpreludecpp.so.12()(64bit) \
+libpreludecpp.so.12 \
 perl"
 
 inherit rpm

@@ -11,12 +11,12 @@ RPM_HASH = "b17d5133c934035161dd57a5239835b6cccd73001e3963106ed68795cc0a01882841
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coccigrep \
-python3.10dist(coccigrep) \
-python3dist(coccigrep)"
+python3.10dist-coccigrep \
+python3dist-coccigrep"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 coccinelle \
-python(abi) \
+python-abi \
 python3"
 
 inherit rpm

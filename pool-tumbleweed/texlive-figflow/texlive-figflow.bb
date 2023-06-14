@@ -14,7 +14,7 @@ RPM_NAME = "texlive-figflow-2023.201.svn21462-52.1.noarch.rpm"
 RPM_HASH = "aa1285b89554520c46cda9b129bfe124d772dcbd20b52eefa893edd62ffdc01259fb5e2dabbaee8c2a601ffa9a8a4a2fc065cda1f1815645e6391dfd52cb5ebe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(figflow.tex) \
+RPROVIDES:${PN} += "tex-figflow.tex \
 texlive-figflow"
 
 RDEPENDS:${PN} += "/bin/sh \

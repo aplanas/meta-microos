@@ -16,31 +16,31 @@ RPM_NAME = "texlive-prosper-2023.201.1.0hsvn33033-52.1.noarch.rpm"
 RPM_HASH = "f5cb99a2bc4767f10563e033c84b5596d5d8bcba98c8beb6adfc6ebcd853650b0ce0b848e668bd0b32a1f8cb16ddf84b67a08846524f8a5ff4d7979702365383"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(PPRalcatel.sty) \
-tex(PPRalienglow.sty) \
-tex(PPRautumn.sty) \
-tex(PPRazure.sty) \
-tex(PPRblends.sty) \
-tex(PPRcapsules.sty) \
-tex(PPRcontemporain.sty) \
-tex(PPRcorners.sty) \
-tex(PPRdarkblue.sty) \
-tex(PPRdefault.sty) \
-tex(PPRframes.sty) \
-tex(PPRfyma.sty) \
-tex(PPRgyom.sty) \
-tex(PPRlignesbleues.sty) \
-tex(PPRmancini.sty) \
-tex(PPRnuancegris.sty) \
-tex(PPRprettybox.sty) \
-tex(PPRrico.sty) \
-tex(PPRserpaggi.sty) \
-tex(PPRthomasd.sty) \
-tex(PPRtroispoints.sty) \
-tex(PPRwhitecross.sty) \
-tex(PPRwinter.sty) \
-tex(PPRwj.sty) \
-tex(prosper.cls) \
+RPROVIDES:${PN} += "tex-PPRalcatel.sty \
+tex-PPRalienglow.sty \
+tex-PPRautumn.sty \
+tex-PPRazure.sty \
+tex-PPRblends.sty \
+tex-PPRcapsules.sty \
+tex-PPRcontemporain.sty \
+tex-PPRcorners.sty \
+tex-PPRdarkblue.sty \
+tex-PPRdefault.sty \
+tex-PPRframes.sty \
+tex-PPRfyma.sty \
+tex-PPRgyom.sty \
+tex-PPRlignesbleues.sty \
+tex-PPRmancini.sty \
+tex-PPRnuancegris.sty \
+tex-PPRprettybox.sty \
+tex-PPRrico.sty \
+tex-PPRserpaggi.sty \
+tex-PPRthomasd.sty \
+tex-PPRtroispoints.sty \
+tex-PPRwhitecross.sty \
+tex-PPRwinter.sty \
+tex-PPRwj.sty \
+tex-prosper.cls \
 texlive-prosper"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -49,18 +49,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(fp.sty) \
-tex(graphicx.sty) \
-tex(ifthen.sty) \
-tex(mathpazo.sty) \
-tex(multido.sty) \
-tex(palatino.sty) \
-tex(pst-grad.sty) \
-tex(pst-slpe.sty) \
-tex(semhelv.sty) \
-tex(seminar.cls) \
-tex(times.sty) \
+tex-amssymb.sty \
+tex-fp.sty \
+tex-graphicx.sty \
+tex-ifthen.sty \
+tex-mathpazo.sty \
+tex-multido.sty \
+tex-palatino.sty \
+tex-pst-grad.sty \
+tex-pst-slpe.sty \
+tex-semhelv.sty \
+tex-seminar.cls \
+tex-times.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

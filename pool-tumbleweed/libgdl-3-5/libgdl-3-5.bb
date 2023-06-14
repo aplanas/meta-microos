@@ -11,18 +11,17 @@ RPM_HASH = "83c7da38086f94e4b4774f20bceb10849d048be4d8d734d23cf3c17cab69b41ba6c3
 
 RPROVIDES:${PN} += "gdl \
 libgdl-3-5 \
-libgdl-3-5(aarch-64) \
-libgdl-3.so.5()(64bit)"
+libgdl-3.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libxml2.so.2"
 
 inherit rpm

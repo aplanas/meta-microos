@@ -10,11 +10,10 @@ PV = "2.6.4"
 RPM_NAME = "openldap2-2.6.4-1.1.aarch64.rpm"
 RPM_HASH = "46c96d287291fad25f2eadd3ab11211751548fab72224fe7c3c1ff16770cd539c109514e820b5045c53789c5ffd6ddc3cb94502c2aba8f05c63dbd7c2d55e389"
 
-RPROVIDES:${PN} += "config(openldap2) \
-group(ldap) \
+RPROVIDES:${PN} += "config-openldap2 \
+group-ldap \
 openldap2 \
-openldap2(aarch-64) \
-user(ldap)"
+user-ldap"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
@@ -22,16 +21,16 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypt.so.1()(64bit) \
-libcrypto.so.3()(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypt.so.1 \
+libcrypto.so.3 \
+liblber.so.2 \
+libldap.so.2 \
 libldap2 \
-libltdl.so.7()(64bit) \
-libsasl2.so.3()(64bit) \
-libslp.so.1()(64bit) \
+libltdl.so.7 \
+libsasl2.so.3 \
+libslp.so.1 \
 sysuser-shadow"
 
 inherit rpm

@@ -12,21 +12,16 @@ PV = "44.0"
 RPM_NAME = "atomix-44.0-1.1.aarch64.rpm"
 RPM_HASH = "4ee7728d494be764cb98898980b61c120c23cbab512a698d187bd7292eff89212697b9b395415ff5a1e26878f513c75ce3c29c8381917569a21b1bdbabd5be4a"
 
-RPROVIDES:${PN} += "application() \
-application(atomix.desktop) \
-atomix \
-atomix(aarch-64) \
-metainfo() \
-metainfo(atomix.appdata.xml)"
+RPROVIDES:${PN} += "atomix"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgnome-games-support-1.so.3()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgnome-games-support-1.so.3 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

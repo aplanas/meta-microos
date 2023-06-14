@@ -14,10 +14,9 @@ PV = "1.4.50"
 RPM_NAME = "dvbsnoop-1.4.50-22.8.aarch64.rpm"
 RPM_HASH = "42bd692b838a45b17804c56e8f5a017e2388333455e8297ec04bbb92b6a1c4c69bbb8cacf2cb824d86823734ef2eda73ba94b0fdec20c6c74c63ef4f7a8e807d"
 
-RPROVIDES:${PN} += "dvbsnoop \
-dvbsnoop(aarch-64)"
+RPROVIDES:${PN} += "dvbsnoop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

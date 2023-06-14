@@ -13,9 +13,9 @@ RPM_HASH = "ac3975d7bf2bf11e23c3dd1fa377cbeea549415cd2a7c2adbbd55192db874cb4741a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-monitor-nspkg \
-python3.10dist(azure-monitor-nspkg) \
+python3.10dist-azure-monitor-nspkg \
 python310-azure-monitor-nspkg \
-python3dist(azure-monitor-nspkg)"
+python3dist-azure-monitor-nspkg"
 
 RDEPENDS:${PN} += "python310-azure-nspkg"
 

@@ -9,7 +9,7 @@ RPM_NAME = "texlive-handoutwithnotes-2023.201.1.3svn62140-53.1.noarch.rpm"
 RPM_HASH = "558edf8ceff4fb1980b7c156d1fdda5d8aa119164573a2bde7a55169971edc8612f345a39acf41b1681ba7a343af2bc97889e98eb82498be3744a671a1c3f8bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(handoutWithNotes.sty) \
+RPROVIDES:${PN} += "tex-handoutWithNotes.sty \
 texlive-handoutwithnotes"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,9 +18,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(l3keys2e.sty) \
-tex(pgfpages.sty) \
-tex(translator.sty) \
+tex-l3keys2e.sty \
+tex-pgfpages.sty \
+tex-translator.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

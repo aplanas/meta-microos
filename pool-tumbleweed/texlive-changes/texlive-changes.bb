@@ -15,7 +15,7 @@ RPM_NAME = "texlive-changes-2023.201.4.2.1svn59950-52.1.noarch.rpm"
 RPM_HASH = "fe48d64f82ca9181fc31a92915929d129ac390c4465525e1d8a3d5f17c1cb0c8b8b40c89614bef93fa1cea7f05e0e6e6fc580d3b98e27bd7e39af08a0ee16c2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(changes.sty) \
+RPROVIDES:${PN} += "tex-changes.sty \
 texlive-changes"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,13 +25,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(etoolbox.sty) \
-tex(todonotes.sty) \
-tex(truncate.sty) \
-tex(ulem.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
-tex(xstring.sty) \
+tex-etoolbox.sty \
+tex-todonotes.sty \
+tex-truncate.sty \
+tex-ulem.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

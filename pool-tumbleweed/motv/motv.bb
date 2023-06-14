@@ -11,33 +11,30 @@ PV = "3.107"
 RPM_NAME = "motv-3.107-2.10.aarch64.rpm"
 RPM_HASH = "8d8b3d5b2daabde411782c1de292877b9f8048ae19cd73b88c1a99303bbdabc8e92e532c762cfe3c95365d13708d9828595bbc5bc46f1065bb30b2752ade6603"
 
-RPROVIDES:${PN} += "application() \
-application(motv.desktop) \
-motv \
-motv(aarch-64) \
-xawtv:/usr/bin/motv"
+RPROVIDES:${PN} += "motv \
+xawtv-/usr/bin/motv"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXft.so.2()(64bit) \
-libXinerama.so.1()(64bit) \
-libXm.so.4()(64bit) \
-libXmu.so.6()(64bit) \
-libXpm.so.4()(64bit) \
-libXrandr.so.2()(64bit) \
-libXt.so.6()(64bit) \
-libXv.so.1()(64bit) \
-libXxf86dga.so.1()(64bit) \
-libXxf86vm.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libfontconfig.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-liblirc_client.so.0()(64bit) \
-libm.so.6()(64bit) \
-libzvbi.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libXft.so.2 \
+libXinerama.so.1 \
+libXm.so.4 \
+libXmu.so.6 \
+libXpm.so.4 \
+libXrandr.so.2 \
+libXt.so.6 \
+libXv.so.1 \
+libXxf86dga.so.1 \
+libXxf86vm.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libfontconfig.so.1 \
+libjpeg.so.8 \
+liblirc-client.so.0 \
+libm.so.6 \
+libzvbi.so.0 \
 tv-common \
 tv-fonts \
 v4l-conf"

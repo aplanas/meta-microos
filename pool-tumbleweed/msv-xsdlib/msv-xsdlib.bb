@@ -9,15 +9,15 @@ RPM_HASH = "0a77c41473bc70042362e727573413b2345f5952fe41e4c3d44623c245e57746b2c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-xsdlib \
-mvn(com.sun.msv.datatype.xsd:xsdlib) \
-mvn(com.sun.msv.datatype.xsd:xsdlib:pom:) \
-mvn(net.java.dev.msv:xsdlib) \
-mvn(net.java.dev.msv:xsdlib:pom:) \
-osgi(net.java.dev.msv.xsdlib)"
+mvn-com.sun.msv.datatype.xsd-xsdlib \
+mvn-com.sun.msv.datatype.xsd-xsdlib-pom- \
+mvn-net.java.dev.msv-xsdlib \
+mvn-net.java.dev.msv-xsdlib-pom- \
+osgi-net.java.dev.msv.xsdlib"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(relaxngDatatype:relaxngDatatype) \
-mvn(xml-resolver:xml-resolver)"
+mvn-relaxngDatatype-relaxngDatatype \
+mvn-xml-resolver-xml-resolver"
 
 inherit rpm

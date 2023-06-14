@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-mgmt-maps-2.0.0-1.8.noarch.rpm"
 RPM_HASH = "0312bf43a3cb401c578366b7638c649076bec7cbc53b6db5943a000a658a909564bbe26bc47552fcfa3847ce95be1de12045bdd9ef6d638419a103f2a57ef0d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-maps) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-maps \
 python311-azure-mgmt-maps \
-python3dist(azure-mgmt-maps)"
+python3dist-azure-mgmt-maps"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

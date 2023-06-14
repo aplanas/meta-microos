@@ -9,11 +9,11 @@ RPM_HASH = "38971f92105a71befbd50c56227ac6f464ed27fd10f177f00eda19a7cd3480eb6559
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-nested-lookup \
-python3.10dist(nested-lookup) \
+python3.10dist-nested-lookup \
 python310-nested-lookup \
-python3dist(nested-lookup)"
+python3dist-nested-lookup"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

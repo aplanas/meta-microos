@@ -13,15 +13,14 @@ RPM_NAME = "libXrandr-devel-1.5.3-1.2.aarch64.rpm"
 RPM_HASH = "24beabe394cf932d75d8937eab864daa3d3316a7c1faeed92d0f98e2a010834a87b2066294592fea389347fdcecd3852c6ad1591b1d20edb31447dee50bed440"
 
 RPROVIDES:${PN} += "libXrandr-devel \
-libXrandr-devel(aarch-64) \
-pkgconfig(xrandr)"
+pkgconfig-xrandr"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXrandr2 \
-pkgconfig(randrproto) \
-pkgconfig(x11) \
-pkgconfig(xext) \
-pkgconfig(xproto) \
-pkgconfig(xrender)"
+pkgconfig-randrproto \
+pkgconfig-x11 \
+pkgconfig-xext \
+pkgconfig-xproto \
+pkgconfig-xrender"
 
 inherit rpm

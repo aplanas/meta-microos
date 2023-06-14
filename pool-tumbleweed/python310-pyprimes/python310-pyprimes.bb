@@ -28,10 +28,10 @@ RPM_HASH = "dc044e77deeb9764738724de376d5cb8a6b8d6b7a11d261f80886e39470e5e1c8095
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyprimes \
-python3.10dist(pyprimes) \
+python3.10dist-pyprimes \
 python310-pyprimes \
-python3dist(pyprimes)"
+python3dist-pyprimes"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

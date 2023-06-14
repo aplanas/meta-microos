@@ -9,10 +9,10 @@ RPM_HASH = "b233688c4d4c66a19d4a745fe2ba110219a48331043c134a65b8db4aacaca8c81a81
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-gravatar2 \
-python3.10dist(django-gravatar2) \
+python3.10dist-django-gravatar2 \
 python310-django-gravatar2 \
-python3dist(django-gravatar2)"
+python3dist-django-gravatar2"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

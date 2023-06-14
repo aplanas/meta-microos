@@ -7,8 +7,7 @@ PV = "4.6.1683886197.05274f7"
 RPM_NAME = "os-autoinst-swtpm-4.6.1683886197.05274f7-1.1.aarch64.rpm"
 RPM_HASH = "479d5b9fde9c50737801e96f8d94aa9e0ab25084243ff8cab84ea9f7b8fd1dae5e395bcf4d23ffd3dea410f71def24d71e8f473244835c8d3af7e9dc89896437"
 
-RPROVIDES:${PN} += "os-autoinst-swtpm \
-os-autoinst-swtpm(aarch-64)"
+RPROVIDES:${PN} += "os-autoinst-swtpm"
 
 RDEPENDS:${PN} += "os-autoinst \
 swtpm"

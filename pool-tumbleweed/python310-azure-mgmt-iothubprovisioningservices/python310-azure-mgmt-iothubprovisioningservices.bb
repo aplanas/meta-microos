@@ -14,11 +14,11 @@ RPM_HASH = "47a1c5a3e8c9e017dd481d6425003be8d750a965fe92cae1de69918bafdeabedd84a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-iothubprovisioningservices \
-python3.10dist(azure-mgmt-iothubprovisioningservices) \
+python3.10dist-azure-mgmt-iothubprovisioningservices \
 python310-azure-mgmt-iothubprovisioningservices \
-python3dist(azure-mgmt-iothubprovisioningservices)"
+python3dist-azure-mgmt-iothubprovisioningservices"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

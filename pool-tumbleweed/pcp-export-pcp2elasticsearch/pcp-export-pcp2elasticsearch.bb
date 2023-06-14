@@ -9,8 +9,7 @@ PV = "5.2.5"
 RPM_NAME = "pcp-export-pcp2elasticsearch-5.2.5-3.4.aarch64.rpm"
 RPM_HASH = "8f510df3b4a483ced9a19dd83e8319c215e6b0c5261857d895a511b3c66d27c5a8331cd388566e5ec603b1e0380a2ee3b265d714eb9cb3b392beb8267b109a9e"
 
-RPROVIDES:${PN} += "pcp-export-pcp2elasticsearch \
-pcp-export-pcp2elasticsearch(aarch-64)"
+RPROVIDES:${PN} += "pcp-export-pcp2elasticsearch"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \

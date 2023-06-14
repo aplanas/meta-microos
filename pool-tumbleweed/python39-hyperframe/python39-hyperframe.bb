@@ -10,10 +10,10 @@ RPM_NAME = "python39-hyperframe-6.0.1-2.1.noarch.rpm"
 RPM_HASH = "bb81fb61ac05c89e17dddec4e2f0bfa2063b75378302e43499a619180ca9608d2da6d0d659145340ba4238471f0485a0880331975556b0267f140ec19dbec056"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(hyperframe) \
+RPROVIDES:${PN} += "python3.9dist-hyperframe \
 python39-hyperframe \
-python3dist(hyperframe)"
+python3dist-hyperframe"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -9,7 +9,7 @@ RPM_NAME = "texlive-nomencl-2023.201.5.6svn61029-54.1.noarch.rpm"
 RPM_HASH = "37d5705b7b36a4e49b1e9abc47b02f7fab52743a7d6b0b7fbc94a027e06b5fa51bb4eb709fc57f2d6e1ff566314f5a2cbfbdbfbef36fd63e9e4eea00db3893c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nomencl.sty) \
+RPROVIDES:${PN} += "tex-nomencl.sty \
 texlive-nomencl"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,12 +18,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(ifthen.sty) \
-tex(longtable.sty) \
-tex(siunitx.sty) \
-tex(tocbasic.sty) \
-tex(xkeyval.sty) \
+tex-array.sty \
+tex-ifthen.sty \
+tex-longtable.sty \
+tex-siunitx.sty \
+tex-tocbasic.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

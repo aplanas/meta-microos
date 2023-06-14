@@ -15,7 +15,7 @@ RPM_NAME = "texlive-bezierplot-2023.201.1.4svn51398-53.1.noarch.rpm"
 RPM_HASH = "cd9c0ca27816ae20d9a415193b548dccc7066f198e5dba25bfb6717f3d09a8a9be6440e5d720865106d983353dd562f63c5a9ba54d815ce03fb6dec9961fd03a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bezierplot.sty) \
+RPROVIDES:${PN} += "tex-bezierplot.sty \
 texlive-bezierplot"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,8 +25,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(iftex.sty) \
-tex(xparse.sty) \
+tex-iftex.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

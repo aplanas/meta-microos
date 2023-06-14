@@ -10,11 +10,11 @@ RPM_HASH = "83371756844180ace0479f3824e199c880785dcf6ed4708e41820789ae839e9ff7d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-svgpathtools \
-python3.10dist(svgpathtools) \
+python3.10dist-svgpathtools \
 python310-svgpathtools \
-python3dist(svgpathtools)"
+python3dist-svgpathtools"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy \
 python310-scipy \
 python310-svgwrite"

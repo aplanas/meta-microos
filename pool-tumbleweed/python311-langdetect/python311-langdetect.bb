@@ -12,11 +12,11 @@ RPM_NAME = "python311-langdetect-1.0.9-2.1.noarch.rpm"
 RPM_HASH = "6356c70001f424443df96c3e4f7db6fff223ba66a8911050733cd53846d02094e8e32164023dc51e8e90d1328451d35ef3716f29d51fc5096ef38e475ffd0680"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(langdetect) \
+RPROVIDES:${PN} += "python3.11dist-langdetect \
 python311-langdetect \
-python3dist(langdetect)"
+python3dist-langdetect"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-six"
 
 inherit rpm

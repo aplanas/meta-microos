@@ -17,18 +17,17 @@ PV = "12.2.0"
 RPM_NAME = "libarmadillo12-12.2.0-1.1.aarch64.rpm"
 RPM_HASH = "61112f5ed21b2a1c1753d120dd2ebfec54f5c9e8226ff29976c167efa722305a9fe471cbe1c903b2541c08a07afe8ded97896dccea5db9044642dd4682f4e366"
 
-RPROVIDES:${PN} += "libarmadillo.so.12()(64bit) \
-libarmadillo12 \
-libarmadillo12(aarch-64)"
+RPROVIDES:${PN} += "libarmadillo.so.12 \
+libarmadillo12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libarpack.so.2()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libsuperlu.so.6()(64bit)"
+libarpack.so.2 \
+libblas.so.3 \
+libc.so.6 \
+libgcc-s.so.1 \
+liblapack.so.3 \
+libm.so.6 \
+libstdc++.so.6 \
+libsuperlu.so.6"
 
 inherit rpm

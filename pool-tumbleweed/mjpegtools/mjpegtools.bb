@@ -11,30 +11,28 @@ PV = "2.2.1"
 RPM_NAME = "mjpegtools-2.2.1-2.5.aarch64.rpm"
 RPM_HASH = "50c1cdf181d84abdf226fa097966840c89ca872b1a3cbb8e8c1a4dc1dc0b54af1ebfd3781b210d3b7d8beb257d9d9c79a4f519667b76f1faab8fbc4685bf6a45"
 
-RPROVIDES:${PN} += "mjpegtools \
-mjpegtools(aarch-64)"
+RPROVIDES:${PN} += "mjpegtools"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 info \
-ld-linux-aarch64.so.1()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_gfx.so.15()(64bit) \
-libc.so.6()(64bit) \
-libdv.so.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libjpeg.so.8()(64bit) \
-liblavfile-2.2.so.0()(64bit) \
-liblavjpeg-2.2.so.0()(64bit) \
-liblavplay-2.2.so.0()(64bit) \
-liblavrec-2.2.so.0()(64bit) \
-libm.so.6()(64bit) \
-libmjpegutils-2.2.so.0()(64bit) \
-libmpeg2encpp-2.2.so.0()(64bit) \
-libmplex2-2.2.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libquicktime.so.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libSDL-1.2.so.0 \
+libSDL-gfx.so.15 \
+libc.so.6 \
+libdv.so.4 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+liblavfile-2.2.so.0 \
+liblavjpeg-2.2.so.0 \
+liblavplay-2.2.so.0 \
+liblavrec-2.2.so.0 \
+libm.so.6 \
+libmjpegutils-2.2.so.0 \
+libmpeg2encpp-2.2.so.0 \
+libmplex2-2.2.so.0 \
+libpng16.so.16 \
+libquicktime.so.0 \
+libstdc++.so.6"
 
 inherit rpm

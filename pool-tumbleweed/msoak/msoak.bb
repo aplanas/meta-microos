@@ -17,14 +17,13 @@ PV = "0.8"
 RPM_NAME = "msoak-0.8-1.12.aarch64.rpm"
 RPM_HASH = "7e86bc33a65f513658f5baefd80f02011274ab9d10dc7be334e820a94b6561292cdecafb9250adb189cd973225097bdcd6a1c3def640a614e469387f50966304"
 
-RPROVIDES:${PN} += "msoak \
-msoak(aarch-64)"
+RPROVIDES:${PN} += "msoak"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbsd.so.0()(64bit) \
-libc.so.6()(64bit) \
-libconfig.so.11()(64bit) \
-liblua5.3.so.5()(64bit) \
-libmosquitto.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbsd.so.0 \
+libc.so.6 \
+libconfig.so.11 \
+liblua5.3.so.5 \
+libmosquitto.so.1"
 
 inherit rpm

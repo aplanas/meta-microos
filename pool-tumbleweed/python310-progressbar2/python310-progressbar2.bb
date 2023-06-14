@@ -9,11 +9,11 @@ RPM_HASH = "04e27ffdf40a3c08d780a43dc6368105d8a8cd50a89dd4d88e1745a92668eceb4ab4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-progressbar2 \
-python3.10dist(progressbar2) \
+python3.10dist-progressbar2 \
 python310-progressbar2 \
-python3dist(progressbar2)"
+python3dist-progressbar2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-python-utils"
 
 inherit rpm

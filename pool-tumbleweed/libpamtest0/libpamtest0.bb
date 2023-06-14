@@ -8,14 +8,13 @@ PV = "1.1.4"
 RPM_NAME = "libpamtest0-1.1.4-2.3.aarch64.rpm"
 RPM_HASH = "1c9a2bdac288d5e85eab2388a750405fe5da938464ec22f7cb73a7d53326b5cc3952cfd5c798b0f733b6b9d15389790b2ee7ee8efe1f5b56613e28e3202ef8ed"
 
-RPROVIDES:${PN} += "libpamtest.so.0()(64bit) \
-libpamtest0 \
-libpamtest0(aarch-64)"
+RPROVIDES:${PN} += "libpamtest.so.0 \
+libpamtest0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libpam.so.0()(64bit) \
-pam_wrapper"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libpam.so.0 \
+pam-wrapper"
 
 inherit rpm

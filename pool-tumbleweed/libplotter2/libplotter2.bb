@@ -13,21 +13,19 @@ PV = "2.6"
 RPM_NAME = "libplotter2-2.6-29.3.aarch64.rpm"
 RPM_HASH = "799fa9674e76d708dec99cdd41cd43fcd2de1105af7af26dd7c74baa50844a418381cc8b10eb746d4b6428f31c3bc1998894aacafe116655c2f485f04d6af704"
 
-RPROVIDES:${PN} += "libplotter.so.2()(64bit) \
-libplotter2 \
-libplotter2(aarch-64)"
+RPROVIDES:${PN} += "libplotter.so.2 \
+libplotter2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXaw.so.7()(64bit) \
-libXext.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXaw.so.7 \
+libXext.so.6 \
+libXt.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6"
 
 inherit rpm

@@ -13,13 +13,13 @@ RPM_NAME = "python39-proselint-0.13.0-2.4.noarch.rpm"
 RPM_HASH = "c968ad4fbd9206b5b25aa54908f2d106b59617bb7cb783b70b3cc5cf73a876fa322a3364209e10ad1507f585f044cbece96cb9b93b07f7b6a3d472ab2939ee43"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(proselint) \
+RPROVIDES:${PN} += "python3.9dist-proselint \
 python39-proselint \
-python3dist(proselint)"
+python3dist-proselint"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-click \
 python39-dbm \
 python39-future \

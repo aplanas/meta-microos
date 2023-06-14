@@ -9,17 +9,17 @@ RPM_HASH = "2b1b5ce131824f8dfad5befbbc536521e2b1c8aee87f0df9094fc58ab2c516b4fc16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ptpython \
-python3.10dist(ptpython) \
+python3.10dist-ptpython \
 python310-ptpython \
-python3dist(ptpython)"
+python3dist-ptpython"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-Pygments \
 python310-appdirs \
 python310-docopt \
 python310-jedi \
-python310-prompt_toolkit"
+python310-prompt-toolkit"
 
 inherit rpm

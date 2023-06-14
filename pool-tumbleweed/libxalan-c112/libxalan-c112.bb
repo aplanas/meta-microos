@@ -12,17 +12,16 @@ RPM_NAME = "libxalan-c112-1.12-1.11.aarch64.rpm"
 RPM_HASH = "35f5a4fd8aaf687bd42dc426fb712aa0232d694a0a0c82bd5ea7ef13d395c3b4715f4c7ee41c040aca78e2ac20f2f4c0d96c05719770ad31d2d141f472e5dbb3"
 
 RPROVIDES:${PN} += "libXalan-c111 \
-libxalan-c.so.112()(64bit) \
+libxalan-c.so.112 \
 libxalan-c112 \
-libxalan-c112(aarch-64) \
-libxalanMsg.so.112()(64bit)"
+libxalanMsg.so.112"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libxerces-c-3.2.so()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+libxerces-c-3.2.so"
 
 inherit rpm

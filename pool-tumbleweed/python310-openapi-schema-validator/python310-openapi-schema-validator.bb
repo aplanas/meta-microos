@@ -12,14 +12,12 @@ RPM_HASH = "330e13ff14012ad1456e4da1d53ee7543275417687162157aa89024d3dceb3625a90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openapi-schema-validator \
-python3-openapi_schema_validator \
-python3.10dist(openapi-schema-validator) \
+python3.10dist-openapi-schema-validator \
 python310-openapi-schema-validator \
-python310-openapi_schema_validator \
-python3dist(openapi-schema-validator)"
+python3dist-openapi-schema-validator"
 
-RDEPENDS:${PN} += "(python310-jsonschema >= 4 with python310-jsonschema < 4.18) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-jsonschema >= 4 with python310-jsonschema < 4.18 \
+python-abi \
 python310-rfc3339-validator"
 
 inherit rpm

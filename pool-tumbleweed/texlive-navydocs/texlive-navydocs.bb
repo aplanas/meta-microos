@@ -15,7 +15,7 @@ RPM_NAME = "texlive-navydocs-2023.201.1.1svn41643-54.1.noarch.rpm"
 RPM_HASH = "b3b67cf6ec8aa29e041a5db17513c1443bf7cfa711bb4812f5d7128b9b33fafd0722e92c208c960abd8f7d50336aa0432956a683301fb7bd1a77a335c85bb50d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(navydocs.sty) \
+RPROVIDES:${PN} += "tex-navydocs.sty \
 texlive-navydocs"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -24,12 +24,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(eso-pic.sty) \
-tex(fancyhdr.sty) \
-tex(relsize.sty) \
-tex(rotating.sty) \
-tex(setspace.sty) \
-tex(xparse.sty) \
+tex-eso-pic.sty \
+tex-fancyhdr.sty \
+tex-relsize.sty \
+tex-rotating.sty \
+tex-setspace.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

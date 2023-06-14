@@ -17,18 +17,17 @@ RPM_HASH = "bcf24f5b24f2dc10d1cb6004f74ecb15dbc470eb9abb8a362a1d736cf3625a5351b8
 RPROVIDES:${PN} += "python3-Cython \
 python3-Cython3 \
 python3-cython \
-python3.10dist(cython) \
+python3.10dist-cython \
 python310-Cython \
 python310-Cython3 \
-python310-Cython3(aarch-64) \
 python310-cython \
-python3dist(cython)"
+python3dist-cython"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310-devel \
 update-alternatives"
 

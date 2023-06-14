@@ -9,18 +9,17 @@ RPM_NAME = "python311-PyICU-2.10.2-1.6.aarch64.rpm"
 RPM_HASH = "bd80fc93061f98ca47b5e6e3d47e8855f84b7d8d0d725869e7f8ad612b603fec9ba31c77535bc17b2a26a498c99274e756195e75e86b9b203ec622bff1749377"
 
 RPROVIDES:${PN} += "PyICU \
-python3.11dist(pyicu) \
+python3.11dist-pyicu \
 python311-ICU \
 python311-PyICU \
-python311-PyICU(aarch-64) \
-python3dist(pyicu)"
+python3dist-pyicu"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+libstdc++.so.6 \
+python-abi"
 
 inherit rpm

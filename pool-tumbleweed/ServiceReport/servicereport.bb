@@ -11,12 +11,12 @@ RPM_HASH = "c0813a25cf5ff9902debbd3559412985570e11b75ba17d22a8282b5c103aacbe9e5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ServiceReport \
-python3.10dist(servicereport) \
-python3dist(servicereport)"
+python3.10dist-servicereport \
+python3dist-servicereport"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-python(abi) \
+python-abi \
 systemd"
 
 inherit rpm

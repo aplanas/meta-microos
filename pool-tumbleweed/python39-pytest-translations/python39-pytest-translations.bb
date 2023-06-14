@@ -13,11 +13,11 @@ RPM_NAME = "python39-pytest-translations-4.0.1-1.1.noarch.rpm"
 RPM_HASH = "1fa0e35f729ea75447dcda24e27af005e448f402514588a58edb800bb1925cafbcee428332d977ba79002f684ee9cde2d6c6eb469a6939b6c10ce28fc02e3643"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(pytest-translations) \
+RPROVIDES:${PN} += "python3.9dist-pytest-translations \
 python39-pytest-translations \
-python3dist(pytest-translations)"
+python3dist-pytest-translations"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-polib \
 python39-pyenchant"
 

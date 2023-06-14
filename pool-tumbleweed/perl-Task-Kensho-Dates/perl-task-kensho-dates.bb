@@ -37,13 +37,13 @@ RPM_NAME = "perl-Task-Kensho-Dates-0.41-1.9.noarch.rpm"
 RPM_HASH = "f7459daa8e186f49b78dde6a31919a04cd212372616cdc36d699746889ab69ae702b571ac2e5ef648fbf2340a49334aad3bba24c143e1b72517e7e1ae041320e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Task::Kensho::Dates) \
+RPROVIDES:${PN} += "perl-Task--Kensho--Dates \
 perl-Task-Kensho-Dates"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(DateTime) \
-perl(Time::Moment) \
-perl(Time::ParseDate) \
-perl(Time::Piece)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-DateTime \
+perl-Time--Moment \
+perl-Time--ParseDate \
+perl-Time--Piece"
 
 inherit rpm

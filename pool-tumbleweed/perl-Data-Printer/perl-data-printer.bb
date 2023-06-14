@@ -25,38 +25,38 @@ RPM_NAME = "perl-Data-Printer-1.001000-1.2.noarch.rpm"
 RPM_HASH = "30ed7cd3296ce4b0843234ab4241200b10c4484fc80e1bf0efe63998b42355d2484220d1ff3c6a2382a31966a11d337d4afb43137bb564356e1cbc3627664446"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(DDP) \
-perl(Data::Printer) \
-perl(Data::Printer::Common) \
-perl(Data::Printer::Config) \
-perl(Data::Printer::Filter) \
-perl(Data::Printer::Filter::ARRAY) \
-perl(Data::Printer::Filter::CODE) \
-perl(Data::Printer::Filter::ContentType) \
-perl(Data::Printer::Filter::DB) \
-perl(Data::Printer::Filter::DateTime) \
-perl(Data::Printer::Filter::Digest) \
-perl(Data::Printer::Filter::FORMAT) \
-perl(Data::Printer::Filter::GLOB) \
-perl(Data::Printer::Filter::GenericClass) \
-perl(Data::Printer::Filter::HASH) \
-perl(Data::Printer::Filter::REF) \
-perl(Data::Printer::Filter::Regexp) \
-perl(Data::Printer::Filter::SCALAR) \
-perl(Data::Printer::Filter::VSTRING) \
-perl(Data::Printer::Filter::Web) \
-perl(Data::Printer::Object) \
-perl(Data::Printer::Profile) \
-perl(Data::Printer::Profile::Dumper) \
-perl(Data::Printer::Profile::JSON) \
-perl(Data::Printer::Theme) \
-perl(Data::Printer::Theme::Classic) \
-perl(Data::Printer::Theme::Material) \
-perl(Data::Printer::Theme::Monokai) \
-perl(Data::Printer::Theme::Solarized) \
+RPROVIDES:${PN} += "perl-DDP \
+perl-Data--Printer \
+perl-Data--Printer--Common \
+perl-Data--Printer--Config \
+perl-Data--Printer--Filter \
+perl-Data--Printer--Filter--ARRAY \
+perl-Data--Printer--Filter--CODE \
+perl-Data--Printer--Filter--ContentType \
+perl-Data--Printer--Filter--DB \
+perl-Data--Printer--Filter--DateTime \
+perl-Data--Printer--Filter--Digest \
+perl-Data--Printer--Filter--FORMAT \
+perl-Data--Printer--Filter--GLOB \
+perl-Data--Printer--Filter--GenericClass \
+perl-Data--Printer--Filter--HASH \
+perl-Data--Printer--Filter--REF \
+perl-Data--Printer--Filter--Regexp \
+perl-Data--Printer--Filter--SCALAR \
+perl-Data--Printer--Filter--VSTRING \
+perl-Data--Printer--Filter--Web \
+perl-Data--Printer--Object \
+perl-Data--Printer--Profile \
+perl-Data--Printer--Profile--Dumper \
+perl-Data--Printer--Profile--JSON \
+perl-Data--Printer--Theme \
+perl-Data--Printer--Theme--Classic \
+perl-Data--Printer--Theme--Material \
+perl-Data--Printer--Theme--Monokai \
+perl-Data--Printer--Theme--Solarized \
 perl-Data-Printer"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-version"
 
 inherit rpm

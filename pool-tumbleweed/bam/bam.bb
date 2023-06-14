@@ -8,11 +8,10 @@ PV = "0.5.1"
 RPM_NAME = "bam-0.5.1-5.3.aarch64.rpm"
 RPM_HASH = "17e104dc90e3517c1ead06228ef82e8cbdf83cb3ca2b6d9c4d1c325492010363c40f1afb2b7b6d2fdbf91c2b17ce87bc79115c3f3ae7c709ea9d30dd27fc1042"
 
-RPROVIDES:${PN} += "bam \
-bam(aarch-64)"
+RPROVIDES:${PN} += "bam"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblua5.3.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblua5.3.so.5"
 
 inherit rpm

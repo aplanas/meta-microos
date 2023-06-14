@@ -18,9 +18,9 @@ RPM_NAME = "texlive-hobsub-2023.201.svn52810-53.1.noarch.rpm"
 RPM_HASH = "282de3f038126902349292cece868619ddfef5624d6a27f24d3676829619e9cac6343aa7f3cebe3b286b28af420d739a47ae4bf045d551808fdde35c3a1b8056"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hobsub-generic.sty) \
-tex(hobsub-hyperref.sty) \
-tex(hobsub.sty) \
+RPROVIDES:${PN} += "tex-hobsub-generic.sty \
+tex-hobsub-hyperref.sty \
+tex-hobsub.sty \
 texlive-hobsub"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,21 +29,21 @@ ed \
 findutils \
 grep \
 sed \
-tex(auxhook.sty) \
-tex(bigintcalc.sty) \
-tex(etexcmds.sty) \
-tex(hycolor.sty) \
-tex(iftex.sty) \
-tex(ifvtex.sty) \
-tex(infwarerr.sty) \
-tex(intcalc.sty) \
-tex(keyval.sty) \
-tex(kvdefinekeys.sty) \
-tex(kvsetkeys.sty) \
-tex(letltxmacro.sty) \
-tex(ltxcmds.sty) \
-tex(pdfescape.sty) \
-tex(pdftexcmds.sty) \
+tex-auxhook.sty \
+tex-bigintcalc.sty \
+tex-etexcmds.sty \
+tex-hycolor.sty \
+tex-iftex.sty \
+tex-ifvtex.sty \
+tex-infwarerr.sty \
+tex-intcalc.sty \
+tex-keyval.sty \
+tex-kvdefinekeys.sty \
+tex-kvsetkeys.sty \
+tex-letltxmacro.sty \
+tex-ltxcmds.sty \
+tex-pdfescape.sty \
+tex-pdftexcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

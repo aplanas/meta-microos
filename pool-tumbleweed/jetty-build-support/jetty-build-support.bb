@@ -9,19 +9,19 @@ RPM_HASH = "1b7c4653db3b8b828946d34cc5f0e1fe774a1fa2f61aa7ada773bfff44c1b51a3860
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-build-support \
-mvn(org.eclipse.jetty.toolchain:jetty-build-support) \
-mvn(org.eclipse.jetty.toolchain:jetty-build-support:pom:)"
+mvn-org.eclipse.jetty.toolchain-jetty-build-support \
+mvn-org.eclipse.jetty.toolchain-jetty-build-support-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.apache.maven.enforcer:enforcer-api) \
-mvn(org.apache.maven.plugins:maven-shade-plugin) \
-mvn(org.apache.maven:maven-artifact) \
-mvn(org.apache.maven:maven-core) \
-mvn(org.apache.maven:maven-plugin-api) \
-mvn(org.apache.maven:maven-project) \
-mvn(org.codehaus.plexus:plexus-container-default) \
-mvn(org.junit.jupiter:junit-jupiter-engine) \
-mvn(org.junit.jupiter:junit-jupiter-params)"
+mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-core \
+mvn-org.apache.maven-maven-plugin-api \
+mvn-org.apache.maven-maven-project \
+mvn-org.apache.maven.enforcer-enforcer-api \
+mvn-org.apache.maven.plugins-maven-shade-plugin \
+mvn-org.codehaus.plexus-plexus-container-default \
+mvn-org.junit.jupiter-junit-jupiter-engine \
+mvn-org.junit.jupiter-junit-jupiter-params"
 
 inherit rpm

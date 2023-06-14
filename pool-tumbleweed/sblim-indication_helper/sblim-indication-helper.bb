@@ -10,12 +10,11 @@ PV = "0.5.0"
 RPM_NAME = "sblim-indication_helper-0.5.0-1.21.aarch64.rpm"
 RPM_HASH = "6abe1cfce293fd875dcbcc963f67d831519799e5b29bbfc75de0e688c851ecec91c8324ba127512f8707509e5d64fcc10b86234770fe126d116597015bd000af"
 
-RPROVIDES:${PN} += "libind_helper.so.0()(64bit) \
-sblim-indication_helper \
-sblim-indication_helper(aarch-64)"
+RPROVIDES:${PN} += "libind-helper.so.0 \
+sblim-indication-helper"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

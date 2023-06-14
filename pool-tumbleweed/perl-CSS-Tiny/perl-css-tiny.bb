@@ -18,9 +18,9 @@ RPM_NAME = "perl-CSS-Tiny-1.20-1.24.noarch.rpm"
 RPM_HASH = "bdbc39c854395eb57021c69dde8d5910921cf82a6523fa9c6f287174a0d2d88336a8559e72c0eb3a972b4ea5544ca43309dbfbc3ae3e7c16e1d3d95a5a9423ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(CSS::Tiny) \
+RPROVIDES:${PN} += "perl-CSS--Tiny \
 perl-CSS-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

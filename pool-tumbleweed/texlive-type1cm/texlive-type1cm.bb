@@ -19,7 +19,7 @@ RPM_NAME = "texlive-type1cm-2023.201.svn21820-52.1.noarch.rpm"
 RPM_HASH = "ec5a3cde2c92476128b341bd6cc274216e350a24b703d576d3e1ec316ed74b80cc05174e788b9b769e8eec65a42028da5d1f27b718f08c8bfb55999b2a0e7469"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(type1cm.sty) \
+RPROVIDES:${PN} += "tex-type1cm.sty \
 texlive-type1cm"
 
 RDEPENDS:${PN} += "/bin/sh \

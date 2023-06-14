@@ -10,13 +10,13 @@ RPM_NAME = "python39-platformio-6.1.5-2.4.noarch.rpm"
 RPM_HASH = "ff3ac30cfe686255d072a2fc6c173467e29c6f81f0fb573357fa6c2507dffda9e2572ab2d9ca4e238caaeff84939b76de75e4727c441423f0e90dc351c24a8f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(platformio) \
+RPROVIDES:${PN} += "python3.9dist-platformio \
 python39-platformio \
-python3dist(platformio)"
+python3dist-platformio"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-aiofiles \
 python39-ajsonrpc \
 python39-bottle \
@@ -26,7 +26,7 @@ python39-marshmallow \
 python39-pyelftools \
 python39-pyserial \
 python39-requests \
-python39-semantic_version \
+python39-semantic-version \
 python39-starlette \
 python39-tabulate \
 python39-uvicorn \

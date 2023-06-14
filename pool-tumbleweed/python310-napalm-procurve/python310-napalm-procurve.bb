@@ -9,11 +9,11 @@ RPM_HASH = "52236227e2dd5e28bdf666120817be810f853ed1341f45f31557dce5fd2e20795238
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-napalm-procurve \
-python3.10dist(napalm-procurve) \
+python3.10dist-napalm-procurve \
 python310-napalm-procurve \
-python3dist(napalm-procurve)"
+python3dist-napalm-procurve"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-napalm \
 python310-netmiko"
 

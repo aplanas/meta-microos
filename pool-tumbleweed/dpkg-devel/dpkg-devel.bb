@@ -9,8 +9,7 @@ RPM_HASH = "e7c07093fb828f37d65deee77767d4c6ca6393c385a7dd589eb5ab88b80dae78e12c
 
 RPROVIDES:${PN} += "deb-devel \
 dpkg-devel \
-dpkg-devel(aarch-64) \
-pkgconfig(libdpkg)"
+pkgconfig-libdpkg"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dpkg \

@@ -22,11 +22,10 @@ PV = "12.2.0"
 RPM_NAME = "mingw32-libgcc_s_sjlj1-12.2.0-2.1.aarch64.rpm"
 RPM_HASH = "61a3ba4f88f05870d955e9f7789c940ae289a4c7058d0cac4b264d694695beaf019db26e6e586302f6a1dc25d36526a671ec4780b9262b12e0146c2a857f4d2d"
 
-RPROVIDES:${PN} += "mingw32(libgcc_s_sjlj-1.dll) \
-mingw32-libgcc \
-mingw32-libgcc_s_sjlj1 \
-mingw32-libgcc_s_sjlj1(aarch-64)"
+RPROVIDES:${PN} += "mingw32-libgcc \
+mingw32-libgcc-s-sjlj-1.dll \
+mingw32-libgcc-s-sjlj1"
 
-RDEPENDS:${PN} += "mingw32(libwinpthread-1.dll)"
+RDEPENDS:${PN} += "mingw32-libwinpthread-1.dll"
 
 inherit rpm

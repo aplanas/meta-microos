@@ -14,24 +14,17 @@ PV = "44.0"
 RPM_NAME = "baobab-44.0-1.1.aarch64.rpm"
 RPM_HASH = "cd33474a66b46714acf0ed4e8390ae329c5ea7760350a36cb81f2a5978432d164fdbb2c3932eb6dde1ecfc6d7be3180381b24b13096f98a2e5562268577f98b1"
 
-RPROVIDES:${PN} += "application() \
-application(org.gnome.baobab.desktop) \
-baobab \
-baobab(aarch-64) \
-metainfo() \
-metainfo(org.gnome.baobab.appdata.xml) \
-mimehandler(inode/directory)"
+RPROVIDES:${PN} += "baobab"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libadwaita-1.so.0()(64bit) \
-libadwaita-1.so.0(LIBADWAITA_1_0)(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
+libc.so.6 \
+libcairo.so.2 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1 \
+libm.so.6 \
+libpango-1.0.so.0"
 
 inherit rpm

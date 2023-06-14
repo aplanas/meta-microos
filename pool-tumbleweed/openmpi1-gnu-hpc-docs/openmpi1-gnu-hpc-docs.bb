@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi1-gnu-hpc-docs"
 
-RDEPENDS:${PN} += "openmpi_1_10_7-gnu-hpc-docs"
+RDEPENDS:${PN} += "openmpi-1-10-7-gnu-hpc-docs"
 
 inherit rpm

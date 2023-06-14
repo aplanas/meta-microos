@@ -15,15 +15,13 @@ RPM_NAME = "lua54-luadbi-0.7.2-2.11.aarch64.rpm"
 RPM_HASH = "72375316710fa5fd8ad818640281087b62dcf1e19ff1b302c6406d3241a995c74f6f42b5ab48eea17f92c4e3d7730c4b2d3eaf1cfb816ca2c9b49d1734a04a19"
 
 RPROVIDES:${PN} += "lua-luadbi \
-lua54-luadbi \
-lua54-luadbi(aarch-64)"
+lua54-luadbi"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libpq.so.5()(64bit) \
-libsqlite3.so.0()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmariadb.so.3 \
+libpq.so.5 \
+libsqlite3.so.0 \
 lua54"
 
 inherit rpm

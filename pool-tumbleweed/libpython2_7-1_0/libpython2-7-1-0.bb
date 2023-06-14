@@ -13,13 +13,12 @@ PV = "2.7.18"
 RPM_NAME = "libpython2_7-1_0-2.7.18-34.1.aarch64.rpm"
 RPM_HASH = "5123a09737c93790dba3363f21f7225d09061f3c565f7c45fc913aa579f8c3ffd7ab4e4b8db22af87d21a273c3317dbc03bf7418be41672913ad4eb9e7b36afd"
 
-RPROVIDES:${PN} += "libpython2.7.so.1.0()(64bit) \
-libpython2_7-1_0 \
-libpython2_7-1_0(aarch-64)"
+RPROVIDES:${PN} += "libpython2-7-1-0 \
+libpython2.7.so.1.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

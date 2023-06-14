@@ -12,11 +12,11 @@ RPM_HASH = "61acd67ad7093ea0eb110c70adef0d164ba157966d72d569a3d83c1290da18470db4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fritzconnection \
-python3.10dist(fritzconnection) \
-python3dist(fritzconnection)"
+python3.10dist-fritzconnection \
+python3dist-fritzconnection"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-lxml \
 python3-requests \
 python3-setuptools"

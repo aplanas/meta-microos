@@ -11,19 +11,16 @@ PV = "0.93.1"
 RPM_NAME = "tecnoballz-0.93.1-5.1.aarch64.rpm"
 RPM_HASH = "a0b29ce2e8af67b6eff8db5ed5fa9a26ba6b499503593312aec8b84178bc8f9b85dde7c9e982efe5916bf3bfebf35cf2a02a4020c61b2d53958966cdb92ceb74"
 
-RPROVIDES:${PN} += "application() \
-application(tecnoballz.desktop) \
-tecnoballz \
-tecnoballz(aarch-64)"
+RPROVIDES:${PN} += "tecnoballz"
 
-RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
-libSDL_image-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmikmod.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtinyxml.so.0()(64bit)"
+RDEPENDS:${PN} += "libSDL-1.2.so.0 \
+libSDL-image-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libmikmod.so.3 \
+libstdc++.so.6 \
+libtinyxml.so.0"
 
 inherit rpm

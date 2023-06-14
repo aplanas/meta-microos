@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-dns-8.0.0.0-1.3.noarch.rpm"
 RPM_HASH = "b97edb09ecfb02805cf40423e6220e05d0a5d158a74d1367d87f352354d6ed3d19417f7d18f6155f2716e35d42d07f4734e96729124120f27532a708c84d8d4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-dns) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-dns \
 python39-azure-mgmt-dns \
-python3dist(azure-mgmt-dns)"
+python3dist-azure-mgmt-dns"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-core \
 python39-azure-mgmt-nspkg \

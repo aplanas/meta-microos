@@ -15,9 +15,9 @@ RPM_NAME = "texlive-facsimile-2023.201.1.0svn21328-52.1.noarch.rpm"
 RPM_HASH = "595eb494315b0d42852a2e2d7499f124b0615c75a4fd07ae4eef8d419718381c5bda600d24ddf8b2eea9723e35583147d9ea52fcb473c9d6beee67f0f4a0ff78"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fac-de.cfg) \
-tex(fac-en.cfg) \
-tex(facsimile.cls) \
+RPROVIDES:${PN} += "tex-fac-de.cfg \
+tex-fac-en.cfg \
+tex-facsimile.cls \
 texlive-facsimile"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -26,8 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex(fancyhdr.sty) \
-tex(lastpage.sty) \
+tex-fancyhdr.sty \
+tex-lastpage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

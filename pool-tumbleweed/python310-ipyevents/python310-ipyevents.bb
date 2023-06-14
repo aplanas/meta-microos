@@ -16,12 +16,12 @@ RPM_HASH = "a8517bad5581fa0e65731f0647255f0ee55fa0da824d40e8060226f5d235ac3dc5d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ipyevents \
-python3.10dist(ipyevents) \
+python3.10dist-ipyevents \
 python310-ipyevents \
-python3dist(ipyevents)"
+python3dist-ipyevents"
 
 RDEPENDS:${PN} += "jupyter-ipyevents \
-python(abi) \
+python-abi \
 python310-ipywidgets"
 
 inherit rpm

@@ -10,13 +10,13 @@ RPM_HASH = "e8b8c501cf8127105550b0d5cf8cafd00f424e4302babc4bb608f02e3b5e35898d3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "args4j-tools \
-mvn(args4j:args4j-tools) \
-mvn(args4j:args4j-tools:pom:) \
-osgi(org.kohsuke.args4j-tools)"
+mvn-args4j-args4j-tools \
+mvn-args4j-args4j-tools-pom- \
+osgi-org.kohsuke.args4j-tools"
 
 RDEPENDS:${PN} += "args4j \
 java-headless \
 javapackages-filesystem \
-mvn(args4j:args4j)"
+mvn-args4j-args4j"
 
 inherit rpm

@@ -9,44 +9,39 @@ PV = "0.7.1"
 RPM_NAME = "plee-the-bear-0.7.1-2.23.aarch64.rpm"
 RPM_HASH = "27a2f19de44beb6fbbd2213d48f3c66c8c615ffac27682b53a8215d8c10b8484da5b222f1a6e88a5ac4f13d5e32fb676e343987c28ac863ade44e1dca5618d5d"
 
-RPROVIDES:${PN} += "application() \
-application(plee-the-bear.desktop) \
-libbear_audio.so()(64bit) \
-libbear_communication.so()(64bit) \
-libbear_debug.so()(64bit) \
-libbear_engine.so()(64bit) \
-libbear_expr.so()(64bit) \
-libbear_generic_items.so()(64bit) \
-libbear_gui.so()(64bit) \
-libbear_input.so()(64bit) \
-libbear_net.so()(64bit) \
-libbear_text_interface.so()(64bit) \
-libbear_time.so()(64bit) \
-libbear_universe.so()(64bit) \
-libbear_visual.so()(64bit) \
-libplee_the_bear.so()(64bit) \
-metainfo() \
-metainfo(plee-the-bear.appdata.xml) \
-plee-the-bear \
-plee-the-bear(aarch-64)"
+RPROVIDES:${PN} += "libbear-audio.so \
+libbear-communication.so \
+libbear-debug.so \
+libbear-engine.so \
+libbear-expr.so \
+libbear-generic-items.so \
+libbear-gui.so \
+libbear-input.so \
+libbear-net.so \
+libbear-text-interface.so \
+libbear-time.so \
+libbear-universe.so \
+libbear-visual.so \
+libplee-the-bear.so \
+plee-the-bear"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libboost_filesystem.so.1.82.0()(64bit) \
-libboost_thread.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libclaw_application.so.1()(64bit) \
-libclaw_configuration_file.so.1()(64bit) \
-libclaw_dynamic_library.so.1()(64bit) \
-libclaw_graphic.so.1()(64bit) \
-libclaw_logger.so.1()(64bit) \
-libclaw_net.so.1()(64bit) \
-libclaw_tween.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libSDL2-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libboost-filesystem.so.1.82.0 \
+libboost-thread.so.1.82.0 \
+libc.so.6 \
+libclaw-application.so.1 \
+libclaw-configuration-file.so.1 \
+libclaw-dynamic-library.so.1 \
+libclaw-graphic.so.1 \
+libclaw-logger.so.1 \
+libclaw-net.so.1 \
+libclaw-tween.so.1 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

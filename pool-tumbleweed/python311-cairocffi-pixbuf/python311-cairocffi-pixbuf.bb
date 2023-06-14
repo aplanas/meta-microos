@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python311-cairocffi-pixbuf"
 
 RDEPENDS:${PN} += "gdk-pixbuf \
-python(abi) \
+python-abi \
 python311-cairocffi"
 
 inherit rpm

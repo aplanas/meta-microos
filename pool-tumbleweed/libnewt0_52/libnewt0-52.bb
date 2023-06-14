@@ -13,14 +13,12 @@ PV = "0.52.23"
 RPM_NAME = "libnewt0_52-0.52.23-2.1.aarch64.rpm"
 RPM_HASH = "7d9d2de865d8060a23624f37dbf3131f1b8dca87644b2cb8546d27892085f313ae86da32d110016fc156d2e0a525cc18aea3fee82ad811f16e1a486a98993e6c"
 
-RPROVIDES:${PN} += "libnewt.so.0.52()(64bit) \
-libnewt0_52 \
-libnewt0_52(aarch-64)"
+RPROVIDES:${PN} += "libnewt.so.0.52 \
+libnewt0-52"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libslang.so.2()(64bit) \
-libslang.so.2(SLANG2)(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libslang.so.2"
 
 inherit rpm

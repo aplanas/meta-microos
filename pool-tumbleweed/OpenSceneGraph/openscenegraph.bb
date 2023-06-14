@@ -13,22 +13,21 @@ PV = "3.6.5"
 RPM_NAME = "OpenSceneGraph-3.6.5-8.6.aarch64.rpm"
 RPM_HASH = "6c872de0bcdd2fe742f0fc27279d02744365f276652f599857414db4559c97a5fdd49b655c0789ab3cc717248c47f0dcf1ca6d49edb029552aca8a8ce38fb2fb"
 
-RPROVIDES:${PN} += "OpenSceneGraph \
-OpenSceneGraph(aarch-64)"
+RPROVIDES:${PN} += "OpenSceneGraph"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libOpenThreads.so.21()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libosg.so.161()(64bit) \
-libosgDB.so.161()(64bit) \
-libosgGA.so.161()(64bit) \
-libosgPresentation.so.161()(64bit) \
-libosgTerrain.so.161()(64bit) \
-libosgUtil.so.161()(64bit) \
-libosgViewer.so.161()(64bit) \
-libosgVolume.so.161()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libOpenThreads.so.21 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libosg.so.161 \
+libosgDB.so.161 \
+libosgGA.so.161 \
+libosgPresentation.so.161 \
+libosgTerrain.so.161 \
+libosgUtil.so.161 \
+libosgViewer.so.161 \
+libosgVolume.so.161 \
+libstdc++.so.6"
 
 inherit rpm

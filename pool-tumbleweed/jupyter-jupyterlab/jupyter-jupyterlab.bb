@@ -21,6 +21,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.10 \
 jupyter-jupyterlab-filesystem \
 nodejs \
 npm \
-python3dist(jupyterlab)"
+python3dist-jupyterlab"
 
 inherit rpm

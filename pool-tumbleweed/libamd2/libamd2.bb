@@ -14,14 +14,13 @@ PV = "2.4.6"
 RPM_NAME = "libamd2-2.4.6-49.1.aarch64.rpm"
 RPM_HASH = "51cde8cd883efe452e35c798bd2927eb802dd1f339c6a6c0d511138d25bca86e2df94da752f716ce2ccec058324264e3d5309229729ecb5fcca272a49f5f060e"
 
-RPROVIDES:${PN} += "libamd-2_4_6 \
-libamd.so.2()(64bit) \
-libamd2 \
-libamd2(aarch-64)"
+RPROVIDES:${PN} += "libamd-2-4-6 \
+libamd.so.2 \
+libamd2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libsuitesparseconfig.so.5()(64bit)"
+libc.so.6 \
+libm.so.6 \
+libsuitesparseconfig.so.5"
 
 inherit rpm

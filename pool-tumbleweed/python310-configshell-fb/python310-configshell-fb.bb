@@ -17,13 +17,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-configshell \
 python3-configshell-fb \
-python3.10dist(configshell-fb) \
+python3.10dist-configshell-fb \
 python310-configshell \
 python310-configshell-fb \
-python3dist(configshell-fb)"
+python3dist-configshell-fb"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-python(abi) \
+python-abi \
 python310-pyparsing \
 python310-six \
 python310-urwid"

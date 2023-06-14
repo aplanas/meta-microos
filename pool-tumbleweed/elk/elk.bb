@@ -10,23 +10,20 @@ PV = "8.7.2"
 RPM_NAME = "elk-8.7.2-1.3.aarch64.rpm"
 RPM_HASH = "d0feb7648d7153c73b382f13f5d72ae4806caa7e227ce5113d8043cb206253e5dbe834c77f93c08454492831b2dc347c4bb8453491a597fcabb2e5a3e6c96505"
 
-RPROVIDES:${PN} += "elk \
-elk(aarch-64)"
+RPROVIDES:${PN} += "elk"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libblas.so.3()(64bit) \
-libc.so.6()(64bit) \
-libfftw3.so.3()(64bit) \
-libfftw3f.so.3()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
-libgomp.so.1()(64bit) \
-liblapack.so.3()(64bit) \
-libm.so.6()(64bit) \
-libwannier.so()(64bit) \
-libxc.so.12()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libblas.so.3 \
+libc.so.6 \
+libfftw3.so.3 \
+libfftw3f.so.3 \
+libgcc-s.so.1 \
+libgfortran.so.5 \
+libgomp.so.1 \
+liblapack.so.3 \
+libm.so.6 \
+libwannier.so \
+libxc.so.12 \
 wannier90-devel"
 
 inherit rpm

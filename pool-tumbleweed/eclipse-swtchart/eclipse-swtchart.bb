@@ -9,12 +9,12 @@ RPM_HASH = "e37b4fc7b8c8560448f5866ad87b7a63212365baaf40b66cc6c01878bd12274ba120
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-swtchart \
-mvn(org.eclipse.swtchart:org.eclipse.swtchart) \
-mvn(org.eclipse.swtchart:org.eclipse.swtchart.customcharts) \
-mvn(org.eclipse.swtchart:org.eclipse.swtchart.extensions) \
-osgi(org.eclipse.swtchart) \
-osgi(org.eclipse.swtchart.customcharts) \
-osgi(org.eclipse.swtchart.extensions)"
+mvn-org.eclipse.swtchart-org.eclipse.swtchart \
+mvn-org.eclipse.swtchart-org.eclipse.swtchart.customcharts \
+mvn-org.eclipse.swtchart-org.eclipse.swtchart.extensions \
+osgi-org.eclipse.swtchart \
+osgi-org.eclipse.swtchart.customcharts \
+osgi-org.eclipse.swtchart.extensions"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

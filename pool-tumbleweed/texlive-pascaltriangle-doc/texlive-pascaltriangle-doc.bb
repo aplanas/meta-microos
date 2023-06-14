@@ -9,7 +9,7 @@ RPM_HASH = "fd51760347e37fd243bb946dc505746e73a05d61b49538492beccee607a8d65ad70a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \
-locale(texlive-pascaltriangle-doc:zh \
+locale(texlive-pascaltriangle-doc-zh \
 texlive-pascaltriangle-doc"
 
 RDEPENDS:${PN} += "/bin/bash"

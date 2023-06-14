@@ -10,19 +10,19 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-lang \
 gnubg-lang-all \
-locale(gnubg:cs) \
-locale(gnubg:da) \
-locale(gnubg:de) \
-locale(gnubg:el) \
-locale(gnubg:en_US) \
-locale(gnubg:es) \
-locale(gnubg:fr) \
-locale(gnubg:is) \
-locale(gnubg:it) \
-locale(gnubg:ja) \
-locale(gnubg:ro) \
-locale(gnubg:ru) \
-locale(gnubg:tr)"
+locale-gnubg-cs \
+locale-gnubg-da \
+locale-gnubg-de \
+locale-gnubg-el \
+locale-gnubg-en-US \
+locale-gnubg-es \
+locale-gnubg-fr \
+locale-gnubg-is \
+locale-gnubg-it \
+locale-gnubg-ja \
+locale-gnubg-ro \
+locale-gnubg-ru \
+locale-gnubg-tr"
 
 RDEPENDS:${PN} += "gnubg"
 

@@ -8,21 +8,17 @@ RPM_NAME = "leechcraft-azoth-metacontacts-0.6.70+git.14794.g33744ae6ce-3.1.aarch
 RPM_HASH = "dca16208f8b175befde6ef08a4e3bcd284341c183bce2764e1ca354e69832721a37c6de8dba5b9c14b0840d710c50def92a80cb12720e997aa027a8acce6282f"
 
 RPROVIDES:${PN} += "leechcraft-azoth-metacontacts \
-leechcraft-azoth-metacontacts(aarch-64) \
-libleechcraft_azoth_metacontacts.so()(64bit)"
+libleechcraft-azoth-metacontacts.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libleechcraft-util-gui-qt5.so.0.6.75.1()(64bit) \
-libleechcraft-util-qt5.so.0.6.75()(64bit) \
-libstdc++.so.6()(64bit)"
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libleechcraft-util-gui-qt5.so.0.6.75.1 \
+libleechcraft-util-qt5.so.0.6.75 \
+libstdc++.so.6"
 
 inherit rpm

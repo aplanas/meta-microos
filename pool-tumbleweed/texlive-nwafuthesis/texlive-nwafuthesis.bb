@@ -14,7 +14,7 @@ RPM_NAME = "texlive-nwafuthesis-2023.201.1.15svn63438-54.1.noarch.rpm"
 RPM_HASH = "748adcd672339e0edd1a5e75c3db4a3b15430c65436ae3af6922355550129a361cc47fe73dd9b019bedc4b68212956f689bd927834334a2e34b6798cac2d8035"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(nwafuthesis.cls) \
+RPROVIDES:${PN} += "tex-nwafuthesis.cls \
 texlive-nwafuthesis"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,12 +23,12 @@ ed \
 findutils \
 grep \
 sed \
-tex(biblatex.sty) \
-tex(expl3.sty) \
-tex(hyperref.sty) \
-tex(l3keys2e.sty) \
-tex(pifont.sty) \
-tex(xtemplate.sty) \
+tex-biblatex.sty \
+tex-expl3.sty \
+tex-hyperref.sty \
+tex-l3keys2e.sty \
+tex-pifont.sty \
+tex-xtemplate.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

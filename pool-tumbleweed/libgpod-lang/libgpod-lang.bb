@@ -10,15 +10,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgpod-lang \
 libgpod-lang-all \
-locale(libgpod:de) \
-locale(libgpod:es) \
-locale(libgpod:fr) \
-locale(libgpod:he) \
-locale(libgpod:it) \
-locale(libgpod:ja) \
-locale(libgpod:ro) \
-locale(libgpod:sv) \
-locale(libgpod:zh_CN)"
+locale-libgpod-de \
+locale-libgpod-es \
+locale-libgpod-fr \
+locale-libgpod-he \
+locale-libgpod-it \
+locale-libgpod-ja \
+locale-libgpod-ro \
+locale-libgpod-sv \
+locale-libgpod-zh-CN"
 
 RDEPENDS:${PN} += "libgpod"
 

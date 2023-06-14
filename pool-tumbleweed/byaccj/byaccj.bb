@@ -15,11 +15,10 @@ PV = "1.15"
 RPM_NAME = "byaccj-1.15-2.7.aarch64.rpm"
 RPM_HASH = "48e121be4ffd5046e6de308d10ab3936a568e6473c776c30d338674bef3762243b72f5543df66980731f73e71efd99f86e4e6a6f06147e7cee2b57a7debdda44"
 
-RPROVIDES:${PN} += "byaccj \
-byaccj(aarch-64)"
+RPROVIDES:${PN} += "byaccj"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 man-pages"
 
 inherit rpm

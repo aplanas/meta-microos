@@ -10,10 +10,9 @@ PV = "3.3"
 RPM_NAME = "fs_mark-3.3-2.25.aarch64.rpm"
 RPM_HASH = "eb014461283fa2083fefb031395ea3075bebc60c3ed0279be94cee1eccf9856b75dd6a2cf404b34adf091fcf587e3805eceedd9e8c3d2899a8a486f4151e54cd"
 
-RPROVIDES:${PN} += "fs_mark \
-fs_mark(aarch-64)"
+RPROVIDES:${PN} += "fs-mark"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-cognitiveservices-search-customsearch-0.3.0-2.11.noa
 RPM_HASH = "53c52ccd6fddb592bf5933fe4576f07df6ddd2e2a329ba0b596ed587983fb85ade24567ffcb72ecce221e19972b69de489774a1beb2c04f83a80806252cf38f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-search-customsearch) \
+RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-customsearch \
 python311-azure-cognitiveservices-search-customsearch \
-python3dist(azure-cognitiveservices-search-customsearch)"
+python3dist-azure-cognitiveservices-search-customsearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-cognitiveservices-search-nspkg \
 python311-azure-common \

@@ -13,8 +13,7 @@ PV = "4.99.git.1682279748.c294e5b"
 RPM_NAME = "libeppic-devel-4.99.git.1682279748.c294e5b-1.1.aarch64.rpm"
 RPM_HASH = "9f81c7ac68e34682db3b5ed5c1c2fcff0f31bacee5e57c5a6e1902f2d0f545f802e5ebaf123861bb05cc38d226fbf74a8085cbc2cb621e848078f3a4cf23f11c"
 
-RPROVIDES:${PN} += "libeppic-devel \
-libeppic-devel(aarch-64)"
+RPROVIDES:${PN} += "libeppic-devel"
 
 RDEPENDS:${PN} += ""
 

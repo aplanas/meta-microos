@@ -10,14 +10,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Babel \
 python3-babel \
-python3.10dist(babel) \
+python3.10dist-babel \
 python310-Babel \
-python3dist(babel)"
+python3dist-babel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-pytz"
 
 inherit rpm

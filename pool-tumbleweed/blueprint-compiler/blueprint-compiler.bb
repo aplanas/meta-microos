@@ -14,8 +14,8 @@ RDEPENDS:${PN} += "/usr/bin/python3 \
 gobject-introspection-devel \
 gtk4-devel \
 libadwaita-devel \
-python(abi) \
+python-abi \
 python3-gobject \
-typelib(GIRepository)"
+typelib-GIRepository"
 
 inherit rpm

@@ -19,7 +19,7 @@ RPM_NAME = "texlive-probsoln-2023.201.3.05svn44783-52.1.noarch.rpm"
 RPM_HASH = "a953e25a0e3ac711c1e7885822a82dc83a6f90a187e517d8f62e68e5974f82d1437db368e73bb1b09caf10c551e928a90e1275f4ddf6b471737dd87fff08dbeb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(probsoln.sty) \
+RPROVIDES:${PN} += "tex-probsoln.sty \
 texlive-probsoln"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,10 +28,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(amsmath.sty) \
-tex(etoolbox.sty) \
-tex(ifthen.sty) \
-tex(xkeyval.sty) \
+tex-amsmath.sty \
+tex-etoolbox.sty \
+tex-ifthen.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

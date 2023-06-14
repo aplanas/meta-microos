@@ -52,12 +52,11 @@ PV = "3.28"
 RPM_NAME = "perl-String-Approx-3.28-1.31.aarch64.rpm"
 RPM_HASH = "d0c0d2661f38bfca6ab34d3319c71e94e3d36dd9b71bf59ef744b05383cae446d018c3e521f87f5421d1de0bedf2bc1e8cb7a889163b0e843a730644dc8c2f05"
 
-RPROVIDES:${PN} += "perl(String::Approx) \
-perl-String-Approx \
-perl-String-Approx(aarch-64)"
+RPROVIDES:${PN} += "perl-String--Approx \
+perl-String-Approx"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

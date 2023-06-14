@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-szl \
 libreoffice-l10n-szl \
-locale(libreoffice:szl)"
+locale-libreoffice-szl"
 
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \

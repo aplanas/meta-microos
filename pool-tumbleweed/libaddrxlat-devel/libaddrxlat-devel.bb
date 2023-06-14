@@ -9,8 +9,7 @@ RPM_NAME = "libaddrxlat-devel-0.5.1+git3.g97c716a-3.1.aarch64.rpm"
 RPM_HASH = "1172790d164703b2d96a5570d9f40c92ac1b4dd82176453efdc1185d561d606f2f7cd9b76f723a552fe10533ee6a5c477371df1239c708f104bfd455334bde53"
 
 RPROVIDES:${PN} += "libaddrxlat-devel \
-libaddrxlat-devel(aarch-64) \
-pkgconfig(libaddrxlat)"
+pkgconfig-libaddrxlat"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \

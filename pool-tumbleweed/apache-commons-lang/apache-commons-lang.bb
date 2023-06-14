@@ -21,9 +21,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-lang \
 commons-lang \
 jakarta-commons-lang \
-mvn(commons-lang:commons-lang) \
-mvn(commons-lang:commons-lang:pom:) \
-osgi(org.apache.commons.lang)"
+mvn-commons-lang-commons-lang \
+mvn-commons-lang-commons-lang-pom- \
+osgi-org.apache.commons.lang"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

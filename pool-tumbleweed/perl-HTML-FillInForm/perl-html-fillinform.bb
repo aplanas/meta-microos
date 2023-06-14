@@ -18,9 +18,9 @@ RPM_NAME = "perl-HTML-FillInForm-2.22-1.8.noarch.rpm"
 RPM_HASH = "d2ef430b1cfe0eae5291739acb930831d7c94ad50875c8410579ea01d8ee8ab7de8b962dbb74fe2657ff32d3a23cba7f4e3d99d9e44adc2da01fedb69cf98af9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(HTML::FillInForm) \
+RPROVIDES:${PN} += "perl-HTML--FillInForm \
 perl-HTML-FillInForm"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

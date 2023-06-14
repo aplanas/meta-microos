@@ -11,11 +11,11 @@ RPM_NAME = "python39-GridDataFormats-1.0.1-1.1.noarch.rpm"
 RPM_HASH = "3ca1d2992cdf545d4760f30d9ef5e3e083c5d2dbb94b409413f91ad5c77df25ac935b750823f10c8dbce53087cae80f11420ff6e1b00b4d8b2423d24117e9edd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(griddataformats) \
+RPROVIDES:${PN} += "python3.9dist-griddataformats \
 python39-GridDataFormats \
-python3dist(griddataformats)"
+python3dist-griddataformats"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-mrcfile \
 python39-numpy \
 python39-scipy"

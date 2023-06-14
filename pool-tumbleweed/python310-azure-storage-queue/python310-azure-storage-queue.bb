@@ -12,12 +12,12 @@ RPM_HASH = "00c115e438f05197a8039b0a8b32b495c86636c96ac6b94abd4d3a53c4799df0a103
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-storage-queue \
-python3.10dist(azure-storage-queue) \
+python3.10dist-azure-storage-queue \
 python310-azure-storage-queue \
-python3dist(azure-storage-queue)"
+python3dist-azure-storage-queue"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-core \
 python310-azure-nspkg \

@@ -8,8 +8,7 @@ PV = "1.20.4"
 RPM_NAME = "go1.20-race-1.20.4-1.1.aarch64.rpm"
 RPM_HASH = "ad00a7ce8209a4dec44e7532ccee4673cabd4c343f2a621cbeb5864601b8a4648a00c27a5b3e437032be80caca67888bd782279995a9e8d6ec835c189dcda658"
 
-RPROVIDES:${PN} += "go1.20-race \
-go1.20-race(aarch-64)"
+RPROVIDES:${PN} += "go1.20-race"
 
 RDEPENDS:${PN} += "go1.20"
 

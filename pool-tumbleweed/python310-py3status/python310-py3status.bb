@@ -20,13 +20,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "py3status \
 python3-py3status \
-python3.10dist(py3status) \
+python3.10dist-py3status \
 python310-py3status \
-python3dist(py3status)"
+python3dist-py3status"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

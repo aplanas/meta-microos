@@ -13,7 +13,7 @@ RPM_NAME = "texlive-kixfont-2023.201.svn18488-55.1.noarch.rpm"
 RPM_HASH = "f9ccdba2f49270022138c95e7efa4fb320d25d52af27b2975e2eae0b34fab126a040b1e014dcd6b3565bc523f10fd8ec57a2ba36233be1008b898ebb3a467c0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(kix.tfm) \
+RPROVIDES:${PN} += "tex-kix.tfm \
 texlive-kixfont"
 
 RDEPENDS:${PN} += "/bin/sh \

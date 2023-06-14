@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-aws-xray-sdk-psycopg2 \
 python310-aws-xray-sdk-psycopg2"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-aws-xray-sdk \
 python310-psycopg2"
 

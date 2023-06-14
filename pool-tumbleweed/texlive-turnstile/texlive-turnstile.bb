@@ -10,7 +10,7 @@ RPM_NAME = "texlive-turnstile-2023.201.1.0svn64967-52.1.noarch.rpm"
 RPM_HASH = "d5769331d8b26d0a00bd4fb6af9ab5088deb12433520eec17260cd9b6a4c341193fe1b390db3d2c8bf6ebef6c5034b41d594eda56824501d99d7612dc94a0225"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(turnstile.sty) \
+RPROVIDES:${PN} += "tex-turnstile.sty \
 texlive-turnstile"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,7 +19,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

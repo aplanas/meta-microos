@@ -19,13 +19,13 @@ RPM_NAME = "python311-argcomplete-3.0.8-2.1.noarch.rpm"
 RPM_HASH = "0c739108628a9002ae8969376f42de4a1031388c84b72b23480ad04d1269354611b4c51c890208b6c248c2dcf3c9ea779dd880288b5088c4f90e76973e0ac6e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(argcomplete) \
+RPROVIDES:${PN} += "python3.11dist-argcomplete \
 python311-argcomplete \
-python3dist(argcomplete)"
+python3dist-argcomplete"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

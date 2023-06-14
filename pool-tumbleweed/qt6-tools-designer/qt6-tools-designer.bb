@@ -8,40 +8,25 @@ PV = "6.5.1"
 RPM_NAME = "qt6-tools-designer-6.5.1-1.1.aarch64.rpm"
 RPM_HASH = "9c7d88cc2003e524c3ee7db27b4aac6cf4cda9f99be1ed7af945f705d2cb020161c8e4d96b246717814e2151d17c6ae505d118a2fd37570b3527b036ead25ae6"
 
-RPROVIDES:${PN} += "application() \
-application(org.qt.designer6.desktop) \
-libcontainerextension.so()(64bit) \
-libcustomwidgetplugin.so()(64bit) \
-libqquickwidget.so()(64bit) \
-libqquickwidget.so(Qt_6)(64bit) \
-libtaskmenuextension.so()(64bit) \
-mimehandler(application/x-designer) \
-qt6-tools-designer \
-qt6-tools-designer(aarch-64)"
+RPROVIDES:${PN} += "libcontainerextension.so \
+libcustomwidgetplugin.so \
+libqquickwidget.so \
+libtaskmenuextension.so \
+qt6-tools-designer"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt6Core.so.6()(64bit) \
-libQt6Core.so.6(Qt_6)(64bit) \
-libQt6Designer.so.6()(64bit) \
-libQt6Designer.so.6(Qt_6)(64bit) \
-libQt6DesignerComponents.so.6()(64bit) \
-libQt6DesignerComponents.so.6(Qt_6)(64bit) \
-libQt6Gui.so.6()(64bit) \
-libQt6Gui.so.6(Qt_6)(64bit) \
-libQt6Network.so.6()(64bit) \
-libQt6Network.so.6(Qt_6)(64bit) \
-libQt6PrintSupport.so.6()(64bit) \
-libQt6PrintSupport.so.6(Qt_6)(64bit) \
-libQt6Quick.so.6()(64bit) \
-libQt6Quick.so.6(Qt_6)(64bit) \
-libQt6QuickWidgets.so.6()(64bit) \
-libQt6QuickWidgets.so.6(Qt_6)(64bit) \
-libQt6Widgets.so.6()(64bit) \
-libQt6Widgets.so.6(Qt_6)(64bit) \
-libQt6Xml.so.6()(64bit) \
-libQt6Xml.so.6(Qt_6)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Designer.so.6 \
+libQt6DesignerComponents.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -13,21 +13,21 @@ RPROVIDES:${PN} += "ant \
 ant-nodeps \
 ant-trax \
 apache-ant \
-config(ant) \
-mvn(ant:ant) \
-mvn(ant:ant-launcher) \
-mvn(ant:ant-launcher:pom:) \
-mvn(ant:ant:pom:) \
-mvn(apache:ant) \
-mvn(apache:ant:pom:) \
-mvn(org.apache.ant:ant) \
-mvn(org.apache.ant:ant-bootstrap) \
-mvn(org.apache.ant:ant-bootstrap:pom:) \
-mvn(org.apache.ant:ant-launcher) \
-mvn(org.apache.ant:ant-launcher:pom:) \
-mvn(org.apache.ant:ant-nodeps) \
-mvn(org.apache.ant:ant-nodeps:pom:) \
-mvn(org.apache.ant:ant:pom:)"
+config-ant \
+mvn-ant-ant \
+mvn-ant-ant-launcher \
+mvn-ant-ant-launcher-pom- \
+mvn-ant-ant-pom- \
+mvn-apache-ant \
+mvn-apache-ant-pom- \
+mvn-org.apache.ant-ant \
+mvn-org.apache.ant-ant-bootstrap \
+mvn-org.apache.ant-ant-bootstrap-pom- \
+mvn-org.apache.ant-ant-launcher \
+mvn-org.apache.ant-ant-launcher-pom- \
+mvn-org.apache.ant-ant-nodeps \
+mvn-org.apache.ant-ant-nodeps-pom- \
+mvn-org.apache.ant-ant-pom-"
 
 RDEPENDS:${PN} += "java-devel \
 java-headless \

@@ -12,7 +12,7 @@ RPM_NAME = "texlive-codicefiscaleitaliano-2023.201.1.2svn29803-53.1.noarch.rpm"
 RPM_HASH = "4b08ace676e6048d843e9624a9f39d5128de25ed76bb8e2e68f00b40e0221c03451bfa3b773ec6992651144e9ad6d180339c172553b07e0933f3e402b33b9088"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(codicefiscaleitaliano.sty) \
+RPROVIDES:${PN} += "tex-codicefiscaleitaliano.sty \
 texlive-codicefiscaleitaliano"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -14,10 +14,10 @@ RPM_HASH = "619235eeaeff3f65b71598a1b8fa1ddfed82812e17f37a37efe5aa08acdd58d66c7c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandocfilters \
-python3.10dist(pandocfilters) \
+python3.10dist-pandocfilters \
 python310-pandocfilters \
-python3dist(pandocfilters)"
+python3dist-pandocfilters"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

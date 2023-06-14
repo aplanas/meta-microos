@@ -11,13 +11,12 @@ PV = "2022_08_R1"
 RPM_NAME = "kismet-capture-ti-cc2540-2022_08_R1-2.3.aarch64.rpm"
 RPM_HASH = "74509c075b780c7b70ea0f2eb67065241d953eab3972603e84f3557c254396e63cf044a7522d95a937ba779656c79d9680bf877162d1620e047cb0614bef453a"
 
-RPROVIDES:${PN} += "kismet-capture-ti-cc2540 \
-kismet-capture-ti-cc2540(aarch-64)"
+RPROVIDES:${PN} += "kismet-capture-ti-cc2540"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libprotobuf-c.so.1()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libwebsockets.so.19()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libprotobuf-c.so.1 \
+libusb-1.0.so.0 \
+libwebsockets.so.19"
 
 inherit rpm

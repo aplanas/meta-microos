@@ -21,9 +21,9 @@ RPM_NAME = "texlive-gates-2023.201.0.0.2svn29803-52.1.noarch.rpm"
 RPM_HASH = "50d4462ee63f2680d7fa2f59cf5db4b8b7ecef7c44e47646a33f15fe8151d0937d1f38dafe8231414b0c38e3dc039b662407f0c79682e9d9a2d44291a4663612"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gates.sty) \
-tex(gates.tex) \
-tex(t-gates.tex) \
+RPROVIDES:${PN} += "tex-gates.sty \
+tex-gates.tex \
+tex-t-gates.tex \
 texlive-gates"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -13,13 +13,12 @@ PV = "2.6"
 RPM_NAME = "libxmi0-2.6-29.3.aarch64.rpm"
 RPM_HASH = "645729bf981ddf633c1949cd1fba07ef2dbe49ecc517a27b4696941e2b3cf6180e4b5e68690e0a314874277ef995b37b94219143b75a357c534210b9d611dd60"
 
-RPROVIDES:${PN} += "libxmi.so.0()(64bit) \
-libxmi0 \
-libxmi0(aarch-64)"
+RPROVIDES:${PN} += "libxmi.so.0 \
+libxmi0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

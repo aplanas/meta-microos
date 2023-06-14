@@ -49,36 +49,36 @@ RPM_NAME = "perl-Module-Build-0.423400-1.1.noarch.rpm"
 RPM_HASH = "b4012c8261dbdc40a8be0486e044195316798d3ccfbbe584ecfc2a9eb3f32286565958532abefb4df94022d60ac83f139d62e1ed1df71bde1e3fab4bec4c17d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Module::Build) \
-perl(Module::Build::Base) \
-perl(Module::Build::Compat) \
-perl(Module::Build::Config) \
-perl(Module::Build::ConfigData) \
-perl(Module::Build::Cookbook) \
-perl(Module::Build::Dumper) \
-perl(Module::Build::Notes) \
-perl(Module::Build::PPMMaker) \
-perl(Module::Build::Platform::Default) \
-perl(Module::Build::Platform::MacOS) \
-perl(Module::Build::Platform::Unix) \
-perl(Module::Build::Platform::VMS) \
-perl(Module::Build::Platform::VOS) \
-perl(Module::Build::Platform::Windows) \
-perl(Module::Build::Platform::aix) \
-perl(Module::Build::Platform::cygwin) \
-perl(Module::Build::Platform::darwin) \
-perl(Module::Build::Platform::os2) \
-perl(Module::Build::PodParser) \
+RPROVIDES:${PN} += "perl-Module--Build \
+perl-Module--Build--Base \
+perl-Module--Build--Compat \
+perl-Module--Build--Config \
+perl-Module--Build--ConfigData \
+perl-Module--Build--Cookbook \
+perl-Module--Build--Dumper \
+perl-Module--Build--Notes \
+perl-Module--Build--PPMMaker \
+perl-Module--Build--Platform--Default \
+perl-Module--Build--Platform--MacOS \
+perl-Module--Build--Platform--Unix \
+perl-Module--Build--Platform--VMS \
+perl-Module--Build--Platform--VOS \
+perl-Module--Build--Platform--Windows \
+perl-Module--Build--Platform--aix \
+perl-Module--Build--Platform--cygwin \
+perl-Module--Build--Platform--darwin \
+perl-Module--Build--Platform--os2 \
+perl-Module--Build--PodParser \
 perl-Module-Build"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(CPAN::Meta) \
-perl(ExtUtils::CBuilder) \
-perl(ExtUtils::ParseXS) \
-perl(Module::Metadata) \
-perl(Perl::OSType) \
-perl(TAP::Harness) \
-perl(version)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-CPAN--Meta \
+perl-ExtUtils--CBuilder \
+perl-ExtUtils--ParseXS \
+perl-Module--Metadata \
+perl-Perl--OSType \
+perl-TAP--Harness \
+perl-version"
 
 inherit rpm

@@ -11,8 +11,8 @@ RPM_NAME = "libboost_numpy3-devel-1.82.0-1.1.noarch.rpm"
 RPM_HASH = "b556d4b0e353a0b7bc108a72cfc5da3173023ea39a3c10b92bf71682db24cb76485d9944e5313963816bda1ad5dfe5741d926f165bee06c51601f5ad8c40fd63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libboost_numpy3-devel"
+RPROVIDES:${PN} += "libboost-numpy3-devel"
 
-RDEPENDS:${PN} += "libboost_numpy-py3-1_82_0-devel"
+RDEPENDS:${PN} += "libboost-numpy-py3-1-82-0-devel"
 
 inherit rpm

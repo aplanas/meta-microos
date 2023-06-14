@@ -11,8 +11,8 @@ RPM_NAME = "texlive-pst-contourplot-2023.201.0.0.6svn48230-52.1.noarch.rpm"
 RPM_HASH = "7f5ee289294020021ad29e00fc75c7a064be609529d7529fa9279e27172d59b100c279f245833a5c518d02030b8de88fad40610d9cc04d33375c5d7f9dfc6ba8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-contourplot.sty) \
-tex(pst-contourplot.tex) \
+RPROVIDES:${PN} += "tex-pst-contourplot.sty \
+tex-pst-contourplot.tex \
 texlive-pst-contourplot"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

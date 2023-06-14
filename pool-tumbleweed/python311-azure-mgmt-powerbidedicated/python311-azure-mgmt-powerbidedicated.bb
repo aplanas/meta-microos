@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-mgmt-powerbidedicated-1.0.0.0-1.8.noarch.rpm"
 RPM_HASH = "ce770fc787d026b5adaaee0ba31de1313d81a2ed94e10de5ca5c14b10797904d788d8fb3022ebd6dc5af1e63a4e8645654415208dde595158cdf0cea41712550"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-powerbidedicated) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-powerbidedicated \
 python311-azure-mgmt-powerbidedicated \
-python3dist(azure-mgmt-powerbidedicated)"
+python3dist-azure-mgmt-powerbidedicated"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

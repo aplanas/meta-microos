@@ -11,9 +11,7 @@ RPM_NAME = "vim-plugin-latex-1.10.0+20220519-55.1.noarch.rpm"
 RPM_HASH = "403924f602b18ef77a4a380940e6c65268470f068f5ec78736344b83cac62d4e4f2aa1c63de6bfde7622b5a3a48c9b428e1404d137c6a61e8843d24cbd14e7fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "metainfo() \
-metainfo(vim-latex.metainfo.xml) \
-vim-plugin-latex"
+RPROVIDES:${PN} += "vim-plugin-latex"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \

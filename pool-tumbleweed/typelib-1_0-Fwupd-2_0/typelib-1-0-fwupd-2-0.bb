@@ -8,14 +8,13 @@ PV = "1.8.12"
 RPM_NAME = "typelib-1_0-Fwupd-2_0-1.8.12-1.3.aarch64.rpm"
 RPM_HASH = "6ada2771a85392175fccbbb8e0575a759d184c4b785c6172fe177e20531daf204b7eadc9e521bd71970e912544800d2d12e93814ddd08f1acbd83882a4fc22bb"
 
-RPROVIDES:${PN} += "typelib(Fwupd) \
-typelib-1_0-Fwupd-2_0 \
-typelib-1_0-Fwupd-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Fwupd-2-0 \
+typelib-Fwupd"
 
-RDEPENDS:${PN} += "libfwupd.so.2()(64bit) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gio) \
-typelib(Json)"
+RDEPENDS:${PN} += "libfwupd.so.2 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio \
+typelib-Json"
 
 inherit rpm

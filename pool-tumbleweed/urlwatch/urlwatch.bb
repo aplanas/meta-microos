@@ -23,12 +23,12 @@ RPM_NAME = "urlwatch-2.28-1.1.noarch.rpm"
 RPM_HASH = "5d5726d4eacc990d7d4459951cf59fd074e5a4307fb713ba286c1055f2d85996f519ea5fe535b02e45cae4ed6e990e9063356b7dd62ab30b7553bf43fa3644d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(urlwatch) \
-python3dist(urlwatch) \
+RPROVIDES:${PN} += "python3.10dist-urlwatch \
+python3dist-urlwatch \
 urlwatch"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PyYAML \
 python3-appdirs \
 python3-cssselect \

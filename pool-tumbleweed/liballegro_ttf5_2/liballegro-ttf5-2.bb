@@ -12,15 +12,14 @@ PV = "5.2.8.0"
 RPM_NAME = "liballegro_ttf5_2-5.2.8.0-1.3.aarch64.rpm"
 RPM_HASH = "65a0df4b2dfdfa5411428d873f8f7b3ade533ab32b194e1e9259a03b3f595575b1f9b3b5138787bacf6327a32bb8197e04b6bfe661f30f7dd5939f40d69a9483"
 
-RPROVIDES:${PN} += "liballegro_ttf.so.5.2()(64bit) \
-liballegro_ttf5_2 \
-liballegro_ttf5_2(aarch-64)"
+RPROVIDES:${PN} += "liballegro-ttf.so.5.2 \
+liballegro-ttf5-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-liballegro.so.5.2()(64bit) \
-liballegro_font.so.5.2()(64bit) \
-libc.so.6()(64bit) \
-libfreetype.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+liballegro-font.so.5.2 \
+liballegro.so.5.2 \
+libc.so.6 \
+libfreetype.so.6"
 
 inherit rpm

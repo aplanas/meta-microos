@@ -12,13 +12,13 @@ RPM_HASH = "32cbb5051ab823992a4168f8e4bd0031b8e3f9d4829cbb78d0c81b7add16f8b76fcc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ndg-httpsclient \
-python3.10dist(ndg-httpsclient) \
+python3.10dist-ndg-httpsclient \
 python310-ndg-httpsclient \
-python3dist(ndg-httpsclient)"
+python3dist-ndg-httpsclient"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pyOpenSSL \
 python310-pyasn1 \
 update-alternatives"

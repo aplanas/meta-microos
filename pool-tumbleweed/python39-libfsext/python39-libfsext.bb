@@ -23,17 +23,13 @@ PV = "20230603"
 RPM_NAME = "python39-libfsext-20230603-1.1.aarch64.rpm"
 RPM_HASH = "1cb8cccf20893d8402cef7ca95b7c8fddedc72ac7e71bd94ce188d6a567857936e84576ea16ad7a722e15a37d74def161f1e183e77787fdda30f69c3e0297708"
 
-RPROVIDES:${PN} += "python39-libfsext \
-python39-libfsext(aarch-64)"
+RPROVIDES:${PN} += "python39-libfsext"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbfio.so.1()(64bit) \
-libbfio.so.1(V_20221025)(64bit) \
-libc.so.6()(64bit) \
-libcerror.so.1()(64bit) \
-libcerror.so.1(V_20220101)(64bit) \
-libfsext.so.1()(64bit) \
-libfsext.so.1(V_20230603)(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbfio.so.1 \
+libc.so.6 \
+libcerror.so.1 \
+libfsext.so.1 \
+python-abi"
 
 inherit rpm

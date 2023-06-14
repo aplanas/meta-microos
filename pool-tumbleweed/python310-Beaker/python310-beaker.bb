@@ -37,11 +37,11 @@ RPM_HASH = "133f925f4112bb70e9baadbd03ffaa1bc61d5c2549e511d80f94455dde8f920a5222
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Beaker \
-python3.10dist(beaker) \
+python3.10dist-beaker \
 python310-Beaker \
-python3dist(beaker)"
+python3dist-beaker"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dbm \
 python310-pylibmc \
 python310-setuptools"

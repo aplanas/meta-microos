@@ -18,11 +18,11 @@ RPM_NAME = "python39-astroid-2.15.5-1.1.noarch.rpm"
 RPM_HASH = "26d8b68814b3d286e19927dd300016d2b6d52c5d2c7904064799f9ecde70e40fa8716f31a9a10add469fe4eefa810f04084f742f390619537cdef6d220ecdade"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(astroid) \
+RPROVIDES:${PN} += "python3.9dist-astroid \
 python39-astroid \
-python3dist(astroid)"
+python3dist-astroid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-lazy-object-proxy \
 python39-typing-extensions \
 python39-wrapt"

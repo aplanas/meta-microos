@@ -19,7 +19,7 @@ RPM_NAME = "texlive-mpfonts-2023.201.svn54512-54.1.noarch.rpm"
 RPM_HASH = "f5e8cfde71667ebfff50f274d6ea6d7746fd92f334e7e22944320ae1512098e296463d267d664c1167de14f6b514837115ff152abd22cdb28c47f2f9f7a665d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(mpfonts.map) \
+RPROVIDES:${PN} += "tex-mpfonts.map \
 texlive-mpfonts"
 
 RDEPENDS:${PN} += "/bin/sh \

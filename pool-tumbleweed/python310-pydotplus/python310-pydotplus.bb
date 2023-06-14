@@ -10,12 +10,12 @@ RPM_HASH = "bb67c58654d63991c9e41e0a997ef3ed58d8636743cfbbbdd7d5ba28a059dcd537c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydotplus \
-python3.10dist(pydotplus) \
+python3.10dist-pydotplus \
 python310-pydotplus \
-python3dist(pydotplus)"
+python3dist-pydotplus"
 
 RDEPENDS:${PN} += "graphviz \
-python(abi) \
+python-abi \
 python310-pyparsing"
 
 inherit rpm

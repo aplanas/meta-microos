@@ -8,12 +8,11 @@ PV = "5.106.0"
 RPM_NAME = "syntax-highlighting-devel-5.106.0-1.1.aarch64.rpm"
 RPM_HASH = "77391d45f6428aeef8804bd151f7d1ef251819725dd6b283b971cfc5b0c2b239747a16d66d11097300666eab9e93dd3599cc939e2526b0a357f0f771b7a1d436"
 
-RPROVIDES:${PN} += "cmake(KF5SyntaxHighlighting) \
-syntax-highlighting-devel \
-syntax-highlighting-devel(aarch-64)"
+RPROVIDES:${PN} += "cmake-KF5SyntaxHighlighting \
+syntax-highlighting-devel"
 
-RDEPENDS:${PN} += "cmake(Qt5Core) \
-cmake(Qt5Gui) \
+RDEPENDS:${PN} += "cmake-Qt5Core \
+cmake-Qt5Gui \
 extra-cmake-modules \
 libKF5SyntaxHighlighting5"
 

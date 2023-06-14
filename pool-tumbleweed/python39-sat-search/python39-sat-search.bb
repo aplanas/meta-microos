@@ -10,13 +10,13 @@ RPM_NAME = "python39-sat-search-0.3.0-1.4.noarch.rpm"
 RPM_HASH = "bfd9d46280245f8542d1e3901568f7a56eaecb7eb908124b65667c007225a8a5236bc9391f93b3a5ed18ae258b3ee073b91f96d018ea966a841c12d551d1e3b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(sat-search) \
+RPROVIDES:${PN} += "python3.9dist-sat-search \
 python39-sat-search \
-python3dist(sat-search)"
+python3dist-sat-search"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-sat-stac \
 update-alternatives"
 

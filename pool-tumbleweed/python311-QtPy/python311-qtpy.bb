@@ -15,13 +15,13 @@ RPM_NAME = "python311-QtPy-2.3.0-1.4.noarch.rpm"
 RPM_HASH = "10f08c378a9339df3875f47faf49fadca07680ba73641560967ef842b545a18f696cac38122b864c0b99c63cbe763bde91b6d002917e6d0b33307fe8ac4ada1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(qtpy) \
+RPROVIDES:${PN} += "python3.11dist-qtpy \
 python311-QtPy \
-python3dist(qtpy)"
+python3dist-qtpy"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-packaging \
 update-alternatives"
 

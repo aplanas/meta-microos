@@ -36,12 +36,12 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dateutil \
 python3-python-dateutil \
-python3.10dist(python-dateutil) \
+python3.10dist-python-dateutil \
 python310-dateutil \
 python310-python-dateutil \
-python3dist(python-dateutil)"
+python3dist-python-dateutil"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-six"
 
 inherit rpm

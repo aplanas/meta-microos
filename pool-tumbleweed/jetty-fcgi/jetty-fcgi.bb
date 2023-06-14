@@ -20,21 +20,21 @@ RPM_HASH = "539d90fceb3ad7394b6be570dd5c5b00120baf0a34626268ca706a61444bc6af5de6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-fcgi \
-mvn(org.eclipse.jetty.fcgi:fcgi-client) \
-mvn(org.eclipse.jetty.fcgi:fcgi-client:pom:) \
-mvn(org.eclipse.jetty.fcgi:fcgi-server) \
-mvn(org.eclipse.jetty.fcgi:fcgi-server:pom:) \
-osgi(org.eclipse.jetty.fcgi.client) \
-osgi(org.eclipse.jetty.fcgi.server)"
+mvn-org.eclipse.jetty.fcgi-fcgi-client \
+mvn-org.eclipse.jetty.fcgi-fcgi-client-pom- \
+mvn-org.eclipse.jetty.fcgi-fcgi-server \
+mvn-org.eclipse.jetty.fcgi-fcgi-server-pom- \
+osgi-org.eclipse.jetty.fcgi.client \
+osgi-org.eclipse.jetty.fcgi.server"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(javax.servlet:javax.servlet-api) \
-mvn(org.eclipse.jetty:jetty-client) \
-mvn(org.eclipse.jetty:jetty-http) \
-mvn(org.eclipse.jetty:jetty-io) \
-mvn(org.eclipse.jetty:jetty-proxy) \
-mvn(org.eclipse.jetty:jetty-server) \
-mvn(org.eclipse.jetty:jetty-util)"
+mvn-javax.servlet-javax.servlet-api \
+mvn-org.eclipse.jetty-jetty-client \
+mvn-org.eclipse.jetty-jetty-http \
+mvn-org.eclipse.jetty-jetty-io \
+mvn-org.eclipse.jetty-jetty-proxy \
+mvn-org.eclipse.jetty-jetty-server \
+mvn-org.eclipse.jetty-jetty-util"
 
 inherit rpm

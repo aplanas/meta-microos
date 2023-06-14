@@ -13,18 +13,16 @@ RPM_HASH = "2d2c92a2e34373646d29579072a65e319b35645cc91838d29642daab721c4664aa5a
 
 RPROVIDES:${PN} += "PackageKit-backend \
 PackageKit-backend-zypp \
-PackageKit-backend-zypp(aarch-64) \
-libpk_backend_zypp.so()(64bit)"
+libpk-backend-zypp.so"
 
 RDEPENDS:${PN} += "PackageKit \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libpackagekit-glib2.so.18()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libglib-2.0.so.0 \
+libpackagekit-glib2.so.18 \
+libstdc++.so.6 \
 libzypp \
-libzypp.so.1722()(64bit) \
-libzypp.so.1722(ZYPP_plain)(64bit)"
+libzypp.so.1722"
 
 inherit rpm

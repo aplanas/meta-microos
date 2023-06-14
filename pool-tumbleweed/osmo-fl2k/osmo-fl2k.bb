@@ -10,12 +10,11 @@ PV = "0.1.1+git.20200602"
 RPM_NAME = "osmo-fl2k-0.1.1+git.20200602-1.11.aarch64.rpm"
 RPM_HASH = "eaf74b109a60d9c709cec57498982f34aef8330fb41bc6d43d2dd6528648ab792539fc8921c70c6d77295dd487263e9f77d41c046427f32714fc241594af4cec"
 
-RPROVIDES:${PN} += "osmo-fl2k \
-osmo-fl2k(aarch-64)"
+RPROVIDES:${PN} += "osmo-fl2k"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libosmo-fl2k.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libosmo-fl2k.so.0"
 
 inherit rpm

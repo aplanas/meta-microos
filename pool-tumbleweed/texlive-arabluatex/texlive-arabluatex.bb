@@ -20,8 +20,8 @@ RPM_NAME = "texlive-arabluatex-2023.201.1.20svn54512-54.1.noarch.rpm"
 RPM_HASH = "d42ad1c83dcf52b4986a7f46aec5fd62ea66c41af85be008d9f64064483a5841cd00a83e8a7a3985a2ff04eca07b03debfe0210f4d0c620b64d0e9bfec639626"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(arabluatex-patch.sty) \
-tex(arabluatex.sty) \
+RPROVIDES:${PN} += "tex-arabluatex-patch.sty \
+tex-arabluatex.sty \
 texlive-arabluatex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,18 +30,18 @@ ed \
 findutils \
 grep \
 sed \
-tex(adjustbox.sty) \
-tex(etoolbox.sty) \
-tex(fontspec.sty) \
-tex(iftex.sty) \
-tex(lua-ul.sty) \
-tex(luacode.sty) \
-tex(luacolor.sty) \
-tex(scrextend.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
-tex(xparse.sty) \
-tex(xstring.sty) \
+tex-adjustbox.sty \
+tex-etoolbox.sty \
+tex-fontspec.sty \
+tex-iftex.sty \
+tex-lua-ul.sty \
+tex-luacode.sty \
+tex-luacolor.sty \
+tex-scrextend.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
+tex-xparse.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -13,19 +13,18 @@ PV = "0~ch560"
 RPM_NAME = "solanum-0~ch560-2.10.aarch64.rpm"
 RPM_HASH = "00dcecd9e8edfe687f591305d81f3b022a07d9930e53c0320d8e4ceb4ed10a38427e8279e8bbcf65df939616da70d410d3f712406dd0389817baf11f60ffe351"
 
-RPROVIDES:${PN} += "config(solanum) \
-libircd.so()(64bit) \
-librb.so()(64bit) \
-solanum \
-solanum(aarch-64)"
+RPROVIDES:${PN} += "config-solanum \
+libircd.so \
+librb.so \
+solanum"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libltdl.so.7()(64bit) \
-libsqlite3.so.0()(64bit) \
-libssl.so.3()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libltdl.so.7 \
+libsqlite3.so.0 \
+libssl.so.3 \
 shadow"
 
 inherit rpm

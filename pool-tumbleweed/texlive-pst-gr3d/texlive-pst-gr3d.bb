@@ -10,8 +10,8 @@ RPM_NAME = "texlive-pst-gr3d-2023.201.1.34svn15878-52.1.noarch.rpm"
 RPM_HASH = "105cbf27fb27a468cc718de28ec4ed40d09cec9cc9d2633e5e15e7bdd65af3121e61492cd8e105c837bc632cb9dd24227e408edc2968f07ba8524af770c78978"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-gr3d.sty) \
-tex(pst-gr3d.tex) \
+RPROVIDES:${PN} += "tex-pst-gr3d.sty \
+tex-pst-gr3d.tex \
 texlive-pst-gr3d"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(pstricks.sty) \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

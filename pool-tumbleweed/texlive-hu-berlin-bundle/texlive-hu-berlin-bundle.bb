@@ -16,9 +16,9 @@ RPM_NAME = "texlive-hu-berlin-bundle-2023.201.1.1.1svn57580-52.1.noarch.rpm"
 RPM_HASH = "21ada568c452ba3fcad047c54be4289abf0de426c501b9f2c5fc5c1dd612fdfc63627931a93105663ffb29653e1b840cb941fe42d2be6a223069031ae931e929"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hu-berlin-base.sty) \
-tex(hu-berlin-bundle-style.sty) \
-tex(hu-berlin-letter.cls) \
+RPROVIDES:${PN} += "tex-hu-berlin-base.sty \
+tex-hu-berlin-bundle-style.sty \
+tex-hu-berlin-letter.cls \
 texlive-hu-berlin-bundle"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,37 +27,37 @@ ed \
 findutils \
 grep \
 sed \
-tex(amssymb.sty) \
-tex(babel.sty) \
-tex(biblatex.sty) \
-tex(bookmark.sty) \
-tex(calc.sty) \
-tex(ccicons.sty) \
-tex(dirtree.sty) \
-tex(enumitem.sty) \
-tex(etoolbox.sty) \
-tex(fontspec.sty) \
-tex(geometry.sty) \
-tex(graphicx.sty) \
-tex(hyperref.sty) \
-tex(hyperxmp.sty) \
-tex(ifluatex.sty) \
-tex(libertine.sty) \
-tex(listings.sty) \
-tex(luatex85.sty) \
-tex(luatexbase.sty) \
-tex(marginnote.sty) \
-tex(markdown.sty) \
-tex(marvosym.sty) \
-tex(microtype.sty) \
-tex(newfile.sty) \
-tex(pdfpages.sty) \
-tex(ragged2e.sty) \
-tex(scrlayer-scrpage.sty) \
-tex(url.sty) \
-tex(xcolor.sty) \
-tex(xparse.sty) \
-tex(xspace.sty) \
+tex-amssymb.sty \
+tex-babel.sty \
+tex-biblatex.sty \
+tex-bookmark.sty \
+tex-calc.sty \
+tex-ccicons.sty \
+tex-dirtree.sty \
+tex-enumitem.sty \
+tex-etoolbox.sty \
+tex-fontspec.sty \
+tex-geometry.sty \
+tex-graphicx.sty \
+tex-hyperref.sty \
+tex-hyperxmp.sty \
+tex-ifluatex.sty \
+tex-libertine.sty \
+tex-listings.sty \
+tex-luatex85.sty \
+tex-luatexbase.sty \
+tex-marginnote.sty \
+tex-markdown.sty \
+tex-marvosym.sty \
+tex-microtype.sty \
+tex-newfile.sty \
+tex-pdfpages.sty \
+tex-ragged2e.sty \
+tex-scrlayer-scrpage.sty \
+tex-url.sty \
+tex-xcolor.sty \
+tex-xparse.sty \
+tex-xspace.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,11 +9,11 @@ RPM_HASH = "566599cde53b823404dba3f7afeb5182186b555b3edd6f6601c404f7d7431362ccb0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scikit-sound \
-python3.10dist(scikit-sound) \
+python3.10dist-scikit-sound \
 python310-scikit-sound \
-python3dist(scikit-sound)"
+python3dist-scikit-sound"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-appdirs \
 python310-docutils \

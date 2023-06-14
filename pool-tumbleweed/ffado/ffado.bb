@@ -17,20 +17,19 @@ PV = "2.4.3"
 RPM_NAME = "ffado-2.4.3-3.1.aarch64.rpm"
 RPM_HASH = "ef164197e0031deee40fbf28589c7618fd734bac4499b22897b2b2eba038a9746e6f67afd595683f0bd0c02f4f5de7f9e86266ea3a16340b8084bcd844914ef0"
 
-RPROVIDES:${PN} += "ffado \
-ffado(aarch-64)"
+RPROVIDES:${PN} += "ffado"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libdbus-c++-1.so.1()(64bit) \
-libffado.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libdbus-c++-1.so.1 \
+libffado.so.2 \
 libffado2 \
-libgcc_s.so.1()(64bit) \
-libiec61883.so.0()(64bit) \
-libm.so.6()(64bit) \
-libraw1394.so.11()(64bit) \
-libstdc++.so.6()(64bit)"
+libgcc-s.so.1 \
+libiec61883.so.0 \
+libm.so.6 \
+libraw1394.so.11 \
+libstdc++.so.6"
 
 inherit rpm

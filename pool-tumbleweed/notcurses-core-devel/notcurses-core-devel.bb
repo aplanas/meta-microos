@@ -14,13 +14,12 @@ PV = "3.0.9"
 RPM_NAME = "notcurses-core-devel-3.0.9-1.5.aarch64.rpm"
 RPM_HASH = "e08d3d334afc352cadb09bff91ec0321959152297a8f169d8076e5df3620d547b62ef53056dec23b5a172ad8c4b3894e3ccc45544f09d15ac05626afe8aa225d"
 
-RPROVIDES:${PN} += "cmake(NotcursesCore) \
+RPROVIDES:${PN} += "cmake-NotcursesCore \
 notcurses-core-devel \
-notcurses-core-devel(aarch-64) \
-pkgconfig(notcurses-core)"
+pkgconfig-notcurses-core"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnotcurses-core3 \
-pkgconfig(tinfo)"
+pkgconfig-tinfo"
 
 inherit rpm

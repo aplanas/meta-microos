@@ -19,7 +19,7 @@ RPM_NAME = "texlive-rcs-2023.201.svn15878-53.1.noarch.rpm"
 RPM_HASH = "ad92bdf6096660d741609dd9ec84b6b95411aaaa2182b8fdb20d8ff757c5e20ef9774fc729342852aaec593b4c00d3e17962183e5fd0d7eb9a0b9c44a2ecbd96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(rcs.sty) \
+RPROVIDES:${PN} += "tex-rcs.sty \
 texlive-rcs"
 
 RDEPENDS:${PN} += "/bin/sh \

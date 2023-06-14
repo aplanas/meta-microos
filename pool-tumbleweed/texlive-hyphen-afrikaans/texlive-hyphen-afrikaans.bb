@@ -11,10 +11,10 @@ RPM_NAME = "texlive-hyphen-afrikaans-2023.201.svn58609-52.1.noarch.rpm"
 RPM_HASH = "24495bbd664b821581d95f73c6f843f0bd90819667f883154912e733e1e21072f2b40a80fdfe2049fe97990fda90babe40c9fd40c2a686a6099cc46069a66cbf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hyph-af.ec.tex) \
-tex(hyph-af.tex) \
-tex(hyph-quote-af.tex) \
-tex(loadhyph-af.tex) \
+RPROVIDES:${PN} += "tex-hyph-af.ec.tex \
+tex-hyph-af.tex \
+tex-hyph-quote-af.tex \
+tex-loadhyph-af.tex \
 texlive-hyphen-afrikaans"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -23,9 +23,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-filesystem \
 texlive-hyph-utf8 \

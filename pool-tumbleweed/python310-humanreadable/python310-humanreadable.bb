@@ -10,11 +10,11 @@ RPM_HASH = "6d7f7e30a9ddd25c76dd63e0989c8efc0f2b1c1b899b3c763f94811268dfa6a5cb5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-humanreadable \
-python3.10dist(humanreadable) \
+python3.10dist-humanreadable \
 python310-humanreadable \
-python3dist(humanreadable)"
+python3dist-humanreadable"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-setuptools \
 python310-typepy"
 

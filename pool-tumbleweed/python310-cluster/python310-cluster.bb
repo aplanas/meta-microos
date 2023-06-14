@@ -18,11 +18,11 @@ RPM_HASH = "4040d88187467e680d620ec839b237f70a2647849211d2f015bb715586332f518de8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cluster \
-python3.10dist(cluster) \
+python3.10dist-cluster \
 python310-cluster \
-python3dist(cluster)"
+python3dist-cluster"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-scipy"

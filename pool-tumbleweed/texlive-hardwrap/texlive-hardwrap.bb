@@ -13,7 +13,7 @@ RPM_NAME = "texlive-hardwrap-2023.201.0.0.2svn21396-53.1.noarch.rpm"
 RPM_HASH = "ed9c890949af1d2e886b60091e8e853d9ee2eb928009a2f81e22b146043da0ae6ed2973223aebfeb30fc52acc5ea4c2d12b72d3a0c5dabd43bdb9c22263446f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(hardwrap.sty) \
+RPROVIDES:${PN} += "tex-hardwrap.sty \
 texlive-hardwrap"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,9 +22,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifplatform.sty) \
-tex(ifxetex.sty) \
-tex(pdftexcmds.sty) \
+tex-ifplatform.sty \
+tex-ifxetex.sty \
+tex-pdftexcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

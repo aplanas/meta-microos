@@ -12,7 +12,7 @@ RPM_NAME = "texlive-vcell-2023.201.1.0.2svn59039-53.1.noarch.rpm"
 RPM_HASH = "d76a09ae0eec6cfa8e2a457f56b9834d5cd33468efe7056cbb665012718210bc244b9fe83ac810eaf4cab1dee183c1374f7ea444144ec043d5903ed740fbe554"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(vcell.sty) \
+RPROVIDES:${PN} += "tex-vcell.sty \
 texlive-vcell"
 
 RDEPENDS:${PN} += "/bin/sh \

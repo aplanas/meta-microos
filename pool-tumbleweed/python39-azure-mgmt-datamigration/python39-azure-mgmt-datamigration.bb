@@ -13,11 +13,11 @@ RPM_NAME = "python39-azure-mgmt-datamigration-10.0.0-1.8.noarch.rpm"
 RPM_HASH = "1524a1eb162efa141869d6c43afba2a8c327087b0659b9c5f458dab29124812ac2ee1f1cb9ba092ee0d1d7802562d8ea5529218ca60bb423d3c1dc676176d80f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(azure-mgmt-datamigration) \
+RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datamigration \
 python39-azure-mgmt-datamigration \
-python3dist(azure-mgmt-datamigration)"
+python3dist-azure-mgmt-datamigration"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

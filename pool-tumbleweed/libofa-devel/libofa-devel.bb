@@ -13,13 +13,12 @@ RPM_NAME = "libofa-devel-0.9.3-104.15.aarch64.rpm"
 RPM_HASH = "842497c11b3aa398839a4e006f0a9b17c0d6c28f312421669504d7b7b1b8158e0f0180367da77432633a7bf6f0c49f5e165fcfd66569b2d0319117f1e6533844"
 
 RPROVIDES:${PN} += "libofa-devel \
-libofa-devel(aarch-64) \
-pkgconfig(libofa)"
+pkgconfig-libofa"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libofa0 \
-pkgconfig(expat) \
-pkgconfig(fftw3)"
+pkgconfig-expat \
+pkgconfig-fftw3"
 
 inherit rpm

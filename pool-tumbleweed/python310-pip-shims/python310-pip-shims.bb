@@ -9,11 +9,11 @@ RPM_HASH = "f6158d72b1cebb45b9adaef583810df1165e9e115b72b379f4046a84080d71a41100
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-shims \
-python3.10dist(pip-shims) \
+python3.10dist-pip-shims \
 python310-pip-shims \
-python3dist(pip-shims)"
+python3dist-pip-shims"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pip \
 python310-setuptools \
 python310-wheel"

@@ -8,8 +8,7 @@ PV = "5.5.25"
 RPM_NAME = "deepin-api-5.5.25-1.5.aarch64.rpm"
 RPM_HASH = "28d9efe578fce5eff49f2cfc5671094f8bd917c4ed75d14acad662cfa09852e3147af23109dae414886e99d8010f47cf4507492ef36125d112089ebf32fd2125"
 
-RPROVIDES:${PN} += "deepin-api \
-deepin-api(aarch-64)"
+RPROVIDES:${PN} += "deepin-api"
 
 RDEPENDS:${PN} += "/bin/sh \
 deepin-desktop-base \

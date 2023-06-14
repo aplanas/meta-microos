@@ -9,11 +9,11 @@ RPM_HASH = "97a9c54a24069c5e4c267f49994f90d6b28e7db61b60934fbfb9b509b5bfc398fb3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-download \
-python3.10dist(requests-download) \
+python3.10dist-requests-download \
 python310-requests-download \
-python3dist(requests-download)"
+python3dist-requests-download"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-progressbar \
 python310-requests"
 

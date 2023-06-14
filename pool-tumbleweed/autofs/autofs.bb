@@ -11,32 +11,28 @@ RPM_NAME = "autofs-5.1.8-5.4.aarch64.rpm"
 RPM_HASH = "849f74c013616525a90a0160cbee10600cd927991e30d7acaa4afb0fd5c36b83e96b0617d53789315eceafdf6b6630c4bf11b444594fedcc7946db04310a904c"
 
 RPROVIDES:${PN} += "autofs \
-autofs(aarch-64) \
-config(autofs) \
-libautofs.so()(64bit)"
+config-autofs \
+libautofs.so"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \
-aaa_base \
+aaa-base \
 fillup \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcom_err.so.2()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libk5crypto.so.3()(64bit) \
-libkrb5.so.3()(64bit) \
-libkrb5.so.3(krb5_3_MIT)(64bit) \
-liblber.so.2()(64bit) \
-libldap.so.2()(64bit) \
-libnsl.so.3()(64bit) \
-libresolv.so.2()(64bit) \
-libsasl2.so.3()(64bit) \
-libsystemd.so.0()(64bit) \
-libsystemd.so.0(LIBSYSTEMD_209)(64bit) \
-libtirpc.so.3()(64bit) \
-libxml2.so.2()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcom-err.so.2 \
+libdbus-1.so.3 \
+libk5crypto.so.3 \
+libkrb5.so.3 \
+liblber.so.2 \
+libldap.so.2 \
+libnsl.so.3 \
+libresolv.so.2 \
+libsasl2.so.3 \
+libsystemd.so.0 \
+libtirpc.so.3 \
+libxml2.so.2"
 
 inherit rpm

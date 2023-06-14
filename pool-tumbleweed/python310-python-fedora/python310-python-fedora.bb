@@ -9,11 +9,11 @@ RPM_HASH = "b13398eae9ee0f84503833fb19bd2bb1d9961bd530916387b1b86300eeffed46383e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-fedora \
-python3.10dist(python-fedora) \
+python3.10dist-python-fedora \
 python310-python-fedora \
-python3dist(python-fedora)"
+python3dist-python-fedora"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-beautifulsoup4 \
 python310-kitchen \
 python310-lockfile \

@@ -14,16 +14,15 @@ PV = "1.22.3"
 RPM_NAME = "typelib-1_0-GstGL-1_0-1.22.3-1.1.aarch64.rpm"
 RPM_HASH = "30cbe8fd743b5c2b6921eb8a5a7cd6e44fca1254f0da5b4cfcbf676f0763e283741efc0eee31630c00ea18a4259aefd3fcc1f5c9949c82c9e01c3f55ce6667d8"
 
-RPROVIDES:${PN} += "typelib(GstGL) \
-typelib-1_0-GstGL-1_0 \
-typelib-1_0-GstGL-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GstGL-1-0 \
+typelib-GstGL"
 
-RDEPENDS:${PN} += "libgstgl-1.0.so.0()(64bit) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(Gst) \
-typelib(GstBase) \
-typelib(GstVideo)"
+RDEPENDS:${PN} += "libgstgl-1.0.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gst \
+typelib-GstBase \
+typelib-GstVideo"
 
 inherit rpm

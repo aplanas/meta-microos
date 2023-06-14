@@ -10,9 +10,9 @@ RPM_HASH = "beb20379edd41be0e37f883b0d4140f6a847be28469a99844ff9862438a17669b4d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-collections4 \
-mvn(org.apache.commons:commons-collections4) \
-mvn(org.apache.commons:commons-collections4:pom:) \
-osgi(org.apache.commons.commons-collections4)"
+mvn-org.apache.commons-commons-collections4 \
+mvn-org.apache.commons-commons-collections4-pom- \
+osgi-org.apache.commons.commons-collections4"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

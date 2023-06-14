@@ -12,10 +12,10 @@ RPM_NAME = "python39-blinker-1.6.2-1.1.noarch.rpm"
 RPM_HASH = "1feec8b9d2afa700896f2e18b1e25f27944940e2724c909334dceb49bb67902c881635b23afa3be502c64c88604c9862a5e6a3b5c17dbf5e45bab2f47aebcf7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(blinker) \
+RPROVIDES:${PN} += "python3.9dist-blinker \
 python39-blinker \
-python3dist(blinker)"
+python3dist-blinker"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

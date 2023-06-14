@@ -9,8 +9,7 @@ PV = "9.4.0"
 RPM_NAME = "libvirt-daemon-driver-storage-9.4.0-1.1.aarch64.rpm"
 RPM_HASH = "4e7d7318966cf39899c08e1bd01b00a6485d956c9b2e3acb91cf702f63529473e053f41d87db024b8a975ec97b0c7ebe876bc1ed3aae26ea6ba1e80459c7e36f"
 
-RPROVIDES:${PN} += "libvirt-daemon-driver-storage \
-libvirt-daemon-driver-storage(aarch-64)"
+RPROVIDES:${PN} += "libvirt-daemon-driver-storage"
 
 RDEPENDS:${PN} += "libvirt-daemon-driver-storage-core \
 libvirt-daemon-driver-storage-disk \

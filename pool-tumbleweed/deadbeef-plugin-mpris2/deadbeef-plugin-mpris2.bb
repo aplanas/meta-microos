@@ -10,14 +10,13 @@ RPM_HASH = "c3d396e3888f6b6d86a35a848720e5a48bc4b222b26df828d0db3245c189bf4a1895
 
 RPROVIDES:${PN} += "deadbeef-MPRIS-plugin \
 deadbeef-mpris2-plugin \
-deadbeef-plugin-mpris2 \
-deadbeef-plugin-mpris2(aarch-64)"
+deadbeef-plugin-mpris2"
 
 RDEPENDS:${PN} += "deadbeef \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

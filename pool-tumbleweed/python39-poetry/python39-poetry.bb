@@ -8,15 +8,15 @@ RPM_NAME = "python39-poetry-1.5.1-1.1.noarch.rpm"
 RPM_HASH = "e7bcd526a7973ecab76956b2c0e494f9d52627d493d2dc80d7e97fd494ba0910b6ee1baf6c3423bdd2ca642b2eb598de0d7d1463c1e5306afebc41592b613964"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(poetry) \
+RPROVIDES:${PN} += "python3.9dist-poetry \
 python39-poetry \
-python3dist(poetry)"
+python3dist-poetry"
 
-RDEPENDS:${PN} += "(python39-requests-toolbelt >= 0.9.1 with python39-requests-toolbelt < 2) \
-(python39-tomlkit >= 0.11.4 with python39-tomlkit < 1.0) \
+RDEPENDS:${PN} += "-python39-requests-toolbelt >= 0.9.1 with python39-requests-toolbelt < 2 \
+-python39-tomlkit >= 0.11.4 with python39-tomlkit < 1.0 \
 /bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-CacheControl \
 python39-build \
 python39-cleo \

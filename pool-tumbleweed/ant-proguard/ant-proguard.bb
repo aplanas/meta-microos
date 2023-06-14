@@ -9,12 +9,12 @@ RPM_HASH = "8936f878e4b580be364aa51ced84b9dfececbb0a63838983aaa27702fec155db69bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-proguard \
-config(ant-proguard) \
-mvn(net.sf.proguard:proguard-anttask) \
-mvn(net.sf.proguard:proguard-anttask:pom:)"
+config-ant-proguard \
+mvn-net.sf.proguard-proguard-anttask \
+mvn-net.sf.proguard-proguard-anttask-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(net.sf.proguard:proguard-base)"
+mvn-net.sf.proguard-proguard-base"
 
 inherit rpm

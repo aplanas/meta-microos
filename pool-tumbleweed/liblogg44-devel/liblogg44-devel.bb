@@ -9,11 +9,10 @@ RPM_HASH = "47361bd20368fc5381be4640284c347ae27a99a90503a4a5c277e2391d28ac19babf
 
 RPROVIDES:${PN} += "liblogg-devel \
 liblogg44-devel \
-liblogg44-devel(aarch-64) \
-pkgconfig(logg)"
+pkgconfig-logg"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-liblogg4_4 \
-pkgconfig(allegro)"
+liblogg4-4 \
+pkgconfig-allegro"
 
 inherit rpm

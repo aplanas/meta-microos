@@ -11,21 +11,17 @@ PV = "2.13"
 RPM_NAME = "i3status-2.13-1.15.aarch64.rpm"
 RPM_HASH = "20060a491f57c241db6b690f539715392451f1f895c6b4218d0369026a0c4a59dc9675b9ced82e441e52842e1848ce86eeca22ed3dea43c24502a1a14bfc6e96"
 
-RPROVIDES:${PN} += "config(i3status) \
-i3status \
-i3status(aarch-64)"
+RPROVIDES:${PN} += "config-i3status \
+i3status"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libasound.so.2()(64bit) \
-libc.so.6()(64bit) \
-libconfuse.so.2()(64bit) \
-libm.so.6()(64bit) \
-libnl-3.so.200()(64bit) \
-libnl-3.so.200(libnl_3)(64bit) \
-libnl-genl-3.so.200()(64bit) \
-libnl-genl-3.so.200(libnl_3)(64bit) \
-libpulse.so.0()(64bit) \
-libpulse.so.0(PULSE_0)(64bit) \
-libyajl.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libasound.so.2 \
+libc.so.6 \
+libconfuse.so.2 \
+libm.so.6 \
+libnl-3.so.200 \
+libnl-genl-3.so.200 \
+libpulse.so.0 \
+libyajl.so.2"
 
 inherit rpm

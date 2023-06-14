@@ -11,7 +11,7 @@ RPM_NAME = "texlive-normalcolor-2023.201.r11svn40125-54.1.noarch.rpm"
 RPM_HASH = "c6eecba16a970b4305490453c16a8b05d8dd5114ec842ff8ee77ccab192ff1adfbdcbf22fe0f61d7567c0f87dea52122f2465b81f062f137cddc674a70e888b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(normalcolor.sty) \
+RPROVIDES:${PN} += "tex-normalcolor.sty \
 texlive-normalcolor"
 
 RDEPENDS:${PN} += "/bin/sh \

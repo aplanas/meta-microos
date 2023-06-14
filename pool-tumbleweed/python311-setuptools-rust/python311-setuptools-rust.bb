@@ -12,15 +12,15 @@ RPM_NAME = "python311-setuptools-rust-1.6.0-1.1.noarch.rpm"
 RPM_HASH = "105097d0288e8e0b4eca46f0f4e67aef99c7f805c70e771b1d14107236a7501459b4d176ea046c9d83231b91d3c8da75fc312287926d5cb41921a52c4d2cc563"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(setuptools-rust) \
+RPROVIDES:${PN} += "python3.11dist-setuptools-rust \
 python311-setuptools-rust \
-python3dist(setuptools-rust)"
+python3dist-setuptools-rust"
 
 RDEPENDS:${PN} += "cargo \
-python(abi) \
-python311-semantic_version \
+python-abi \
+python311-semantic-version \
 python311-setuptools \
-python311-typing_extensions \
+python311-typing-extensions \
 rust"
 
 inherit rpm

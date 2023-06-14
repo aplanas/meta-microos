@@ -14,12 +14,12 @@ RPM_HASH = "e4304a4ee2f1eebeea8377ddc8993cadda111a8797d48248fc66e9e4c02fb6186096
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-vfs \
-mvn(org.apache.commons:commons-vfs) \
-mvn(org.apache.commons:commons-vfs-examples) \
-mvn(org.apache.commons:commons-vfs-examples:pom:) \
-mvn(org.apache.commons:commons-vfs-sandbox) \
-mvn(org.apache.commons:commons-vfs-sandbox:pom:) \
-mvn(org.apache.commons:commons-vfs:pom:)"
+mvn-org.apache.commons-commons-vfs \
+mvn-org.apache.commons-commons-vfs-examples \
+mvn-org.apache.commons-commons-vfs-examples-pom- \
+mvn-org.apache.commons-commons-vfs-pom- \
+mvn-org.apache.commons-commons-vfs-sandbox \
+mvn-org.apache.commons-commons-vfs-sandbox-pom-"
 
 RDEPENDS:${PN} += "jakarta-commons-codec \
 jakarta-commons-collections \
@@ -33,7 +33,7 @@ javapackages-filesystem \
 jcifs \
 jdom \
 jsch \
-mvn(commons-logging:commons-logging) \
+mvn-commons-logging-commons-logging \
 oro \
 xml-commons-apis"
 

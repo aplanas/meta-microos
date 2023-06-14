@@ -13,7 +13,7 @@ RPM_NAME = "texlive-leaflet-2023.201.2.1asvn56878-54.1.noarch.rpm"
 RPM_HASH = "b39860e3a75b9ccfcc7fdb05877d66e7d000e2ef308bf12da666c51059ef4dfa65efd5d6a205dcd703fde93d8371efefd8c65b1689b1092f13b21910c0062dca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(leaflet.cls) \
+RPROVIDES:${PN} += "tex-leaflet.cls \
 texlive-leaflet"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,10 +22,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(article.cls) \
-tex(etex.sty) \
-tex(graphicx.sty) \
-tex(pifont.sty) \
+tex-article.cls \
+tex-etex.sty \
+tex-graphicx.sty \
+tex-pifont.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

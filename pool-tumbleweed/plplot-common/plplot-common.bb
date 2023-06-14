@@ -16,10 +16,9 @@ RPM_NAME = "plplot-common-5.15.0-16.2.aarch64.rpm"
 RPM_HASH = "bdd7001f3f2c7c3e250782cba8baa836e9065945db29068f17ac2140b31c6aa5b7a70385fe040440cf69b049c278a75cd570d04c465404cffc47ec510fe4d3ef"
 
 RPROVIDES:${PN} += "plplot \
-plplot-common \
-plplot-common(aarch-64)"
+plplot-common"
 
-RDEPENDS:${PN} += "libm.so.6()(64bit) \
-libplplot.so.17()(64bit)"
+RDEPENDS:${PN} += "libm.so.6 \
+libplplot.so.17"
 
 inherit rpm

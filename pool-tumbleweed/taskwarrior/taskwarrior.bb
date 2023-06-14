@@ -14,16 +14,14 @@ RPM_NAME = "taskwarrior-2.6.2-1.7.aarch64.rpm"
 RPM_HASH = "329542d3effdf4a518f4a08444e926311626e6c01e8e08e45964b781af638b971859549361ade94481487b2f4308e285de4cb587a0d20a05d510f1545b2509db"
 
 RPROVIDES:${PN} += "task \
-taskwarrior \
-taskwarrior(aarch-64)"
+taskwarrior"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgnutls.so.30()(64bit) \
-libgnutls.so.30(GNUTLS_3_4)(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-libuuid.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgnutls.so.30 \
+libm.so.6 \
+libstdc++.so.6 \
+libuuid.so.1"
 
 inherit rpm

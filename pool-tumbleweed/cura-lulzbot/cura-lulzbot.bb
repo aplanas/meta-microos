@@ -14,24 +14,12 @@ RPM_NAME = "cura-lulzbot-3.6.37-1.5.noarch.rpm"
 RPM_HASH = "a4060f0cd246cf0a62da7d6a51c759ef4bf981a75e536dcbcb349b8c273c0bf81d9ac5cf966cd65770e5b29c8f86a097024aa7a62de59bed9a93c55075da2f77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(cura-lulzbot.desktop) \
-cura-lulzbot \
-cura2-lulzbot \
-metainfo() \
-metainfo(cura.appdata.xml) \
-mimehandler(application/prs.wavefront-obj) \
-mimehandler(application/sla) \
-mimehandler(application/vnd.ms-3mfdocument) \
-mimehandler(image/bmp) \
-mimehandler(image/gif) \
-mimehandler(image/jpeg) \
-mimehandler(image/png) \
-mimehandler(model/x3d+xml)"
+RPROVIDES:${PN} += "cura-lulzbot \
+cura2-lulzbot"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cura-engine-lulzbot \
-python(abi) \
+python-abi \
 python3-Arcus \
 python3-numpy \
 python3-opengl \

@@ -9,7 +9,7 @@ RPM_NAME = "texlive-prftree-2023.201.1.6svn54080-52.1.noarch.rpm"
 RPM_HASH = "20ff97b799715a8a594a8e5a7b874c0c78a22080492dbba32548ddaac67fd36a72ceb2971b7daac3e03b654c5e276ad0c520cc2219f50a1407c955db352cea01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(prftree.sty) \
+RPROVIDES:${PN} += "tex-prftree.sty \
 texlive-prftree"
 
 RDEPENDS:${PN} += "/bin/sh \

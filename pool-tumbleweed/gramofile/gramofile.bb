@@ -12,13 +12,12 @@ RPM_NAME = "gramofile-1.6-397.25.aarch64.rpm"
 RPM_HASH = "9cf96c997e9e9aac7fea07a330413e8e5057be97357917a45c767adadc3def2c777860e4e55b7ae13fa6a302bd00945469a999a286e90fb322ce54bf818e69ab"
 
 RPROVIDES:${PN} += "gramofil \
-gramofile \
-gramofile(aarch-64)"
+gramofile"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -8,21 +8,20 @@ PV = "1.14.0"
 RPM_NAME = "libuct0-1.14.0-1.1.aarch64.rpm"
 RPM_HASH = "68c5e36b46d0d43111fc3db26a4669d3ae7cf3794dc60cba1f859e9fe8bbbf5e9fbd81d18ebebe25f2322d73e4e0da274440909cf9cc360d605223cf362732da"
 
-RPROVIDES:${PN} += "libuct.so.0()(64bit) \
-libuct0 \
-libuct0(aarch-64) \
-libuct_cma.so.0()(64bit) \
-libuct_ib.so.0()(64bit) \
-libuct_rdmacm.so.0()(64bit)"
+RPROVIDES:${PN} += "libuct-cma.so.0 \
+libuct-ib.so.0 \
+libuct-rdmacm.so.0 \
+libuct.so.0 \
+libuct0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libibverbs.so.1()(64bit) \
-libm.so.6()(64bit) \
-libmlx5.so.1()(64bit) \
-libnuma.so.1()(64bit) \
-librdmacm.so.1()(64bit) \
-libucs.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libibverbs.so.1 \
+libm.so.6 \
+libmlx5.so.1 \
+libnuma.so.1 \
+librdmacm.so.1 \
+libucs.so.0"
 
 inherit rpm

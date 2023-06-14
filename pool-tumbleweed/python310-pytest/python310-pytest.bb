@@ -10,14 +10,14 @@ RPM_HASH = "7218fdaeda8093ecb731ecc067b3d8e0b7d81d1038b57f2c8de073fdd1e88ea37cc5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest \
-python3.10dist(pytest) \
+python3.10dist-pytest \
 python310-pytest \
-python3dist(pytest)"
+python3dist-pytest"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi) \
+python-abi \
 python310-attrs \
 python310-exceptiongroup \
 python310-importlib-metadata \

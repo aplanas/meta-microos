@@ -11,15 +11,14 @@ PV = "1.4.2"
 RPM_NAME = "xinit-1.4.2-1.2.aarch64.rpm"
 RPM_HASH = "ed1fb0e355554fcf8c1509dfc9ae20f70e782ce728ff2df9ab2b865fbc72e86aac4e2c4eba4fe729d77718c2bfbc016784d95321d0b04680f5a46fece83be1f2"
 
-RPROVIDES:${PN} += "config(xinit) \
-xinit \
-xinit(aarch-64)"
+RPROVIDES:${PN} += "config-xinit \
+xinit"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libc.so.6 \
 setxkbmap \
 xauth \
 xmodmap \

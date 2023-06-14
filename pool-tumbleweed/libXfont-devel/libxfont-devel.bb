@@ -17,14 +17,13 @@ RPM_NAME = "libXfont-devel-1.5.4-2.24.aarch64.rpm"
 RPM_HASH = "82e6778e0aee67d86a5ade6439a125d35f0afd4e50d2b938451db497a6b4238140e05d85a75ae4a4d75a5cacbb07296a6606356c08d2c84291f51ffc36242152"
 
 RPROVIDES:${PN} += "libXfont-devel \
-libXfont-devel(aarch-64) \
-pkgconfig(xfont)"
+pkgconfig-xfont"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXfont1 \
-pkgconfig(fontenc) \
-pkgconfig(fontsproto) \
-pkgconfig(freetype2) \
-pkgconfig(xproto)"
+pkgconfig-fontenc \
+pkgconfig-fontsproto \
+pkgconfig-freetype2 \
+pkgconfig-xproto"
 
 inherit rpm

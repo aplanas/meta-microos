@@ -12,11 +12,11 @@ RPM_NAME = "jupyter-jupyter_latex_envs-1.4.6-5.7.noarch.rpm"
 RPM_HASH = "241881cad9f90c83ce4fa73302febdc21fab073891efbf9023fb75910c7cee26603bc3e5b7b5349129ac6e88c8cf358647b00ded5c4a21bbad47450de0c927e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter_latex_envs"
+RPROVIDES:${PN} += "jupyter-jupyter-latex-envs"
 
-RDEPENDS:${PN} += "jupyter-jupyter_core \
+RDEPENDS:${PN} += "jupyter-jupyter-core \
 jupyter-nbconvert \
 jupyter-notebook \
-python3-jupyter_latex_envs"
+python3-jupyter-latex-envs"
 
 inherit rpm

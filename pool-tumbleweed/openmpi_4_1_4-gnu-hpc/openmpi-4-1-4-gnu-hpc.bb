@@ -25,15 +25,14 @@ RPM_NAME = "openmpi_4_1_4-gnu-hpc-4.1.4-2.2.aarch64.rpm"
 RPM_HASH = "9df0164e718ea97c35d9b79c8442af06b50c67cc8c39d89c8fa3e922ac5393372e2bdeb15dce89fadbf763367b7ecf203538dada88d00c1dbf403ba0cc5c7c11"
 
 RPROVIDES:${PN} += "mpi \
-openmpi_4_1_4-gnu-hpc \
-openmpi_4_1_4-gnu-hpc(aarch-64)"
+openmpi-4-1-4-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent_core-2.1.so.7()(64bit) \
-libopenmpi_4_1_4-gnu-hpc \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-core-2.1.so.7 \
+libopenmpi-4-1-4-gnu-hpc \
 lua-lmod \
 openmpi-runtime-config \
 openssh"

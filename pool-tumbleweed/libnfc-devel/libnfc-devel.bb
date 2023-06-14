@@ -15,11 +15,10 @@ RPM_NAME = "libnfc-devel-1.8.0-1.12.aarch64.rpm"
 RPM_HASH = "600a8ff2fcc3c6184ac5040116b3ee141d708faec3dc6c5d74e714441e832318896169947e54dc5b5fd077ae6c53182c0cfe5cba3e7a435775fefb2f11e0c27b"
 
 RPROVIDES:${PN} += "libnfc-devel \
-libnfc-devel(aarch-64) \
-pkgconfig(libnfc)"
+pkgconfig-libnfc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnfc6 \
-pkgconfig(libusb)"
+pkgconfig-libusb"
 
 inherit rpm

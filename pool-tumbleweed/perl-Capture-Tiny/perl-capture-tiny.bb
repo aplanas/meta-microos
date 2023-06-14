@@ -13,9 +13,9 @@ RPM_NAME = "perl-Capture-Tiny-0.48-1.17.noarch.rpm"
 RPM_HASH = "3b63e979cc1006a9d70f063c3eb354d81e1b6086e021d202311a9dcbbeb955e576314d9ac61b9ca351ba48939810007cea0b5bb4a608f0944b4ad2db33f18041"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Capture::Tiny) \
+RPROVIDES:${PN} += "perl-Capture--Tiny \
 perl-Capture-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

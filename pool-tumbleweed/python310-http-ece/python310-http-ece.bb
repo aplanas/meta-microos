@@ -9,11 +9,11 @@ RPM_HASH = "1b2d2332eb0826daffda40e5f4eb1fe76b77ad6297b1ced9ad3a77b64f775567ad13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-http-ece \
-python3.10dist(http-ece) \
+python3.10dist-http-ece \
 python310-http-ece \
-python3dist(http-ece)"
+python3dist-http-ece"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-cryptography"
 
 inherit rpm

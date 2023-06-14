@@ -10,8 +10,7 @@ PV = "20221012"
 RPM_NAME = "myspell-dictionaries-20221012-1.2.aarch64.rpm"
 RPM_HASH = "239e40bdba75e46baefb336a123e32e04383ee903efa1b60da148b49b3c5a5886427516b30bbb63b4a018d898f597bc6f563693099831a5954875ddf54dda240"
 
-RPROVIDES:${PN} += "myspell-dictionaries \
-myspell-dictionaries(aarch-64)"
+RPROVIDES:${PN} += "myspell-dictionaries"
 
 RDEPENDS:${PN} += ""
 

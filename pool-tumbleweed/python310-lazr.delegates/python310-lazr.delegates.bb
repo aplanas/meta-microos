@@ -9,11 +9,11 @@ RPM_HASH = "ad8b3fd79636154db0cdc50b32a84b293a94c9cdc06e08ee95e9957623ea8d923a2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lazr.delegates \
-python3.10dist(lazr.delegates) \
+python3.10dist-lazr.delegates \
 python310-lazr.delegates \
-python3dist(lazr.delegates)"
+python3dist-lazr.delegates"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-zope.interface"
 
 inherit rpm

@@ -41,9 +41,9 @@ RPM_NAME = "perl-Class-Method-Modifiers-2.15-1.1.noarch.rpm"
 RPM_HASH = "fe8287e6db9eb3d279a2299c61457be7b01bb11c39646f0c1247a8e8c252c88944b4650f378987be20f23d879acd7ced695781a912c36d2e6ed265d269472f44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Class::Method::Modifiers) \
+RPROVIDES:${PN} += "perl-Class--Method--Modifiers \
 perl-Class-Method-Modifiers"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

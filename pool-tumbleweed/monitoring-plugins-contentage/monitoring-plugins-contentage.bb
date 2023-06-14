@@ -24,10 +24,10 @@ RPROVIDES:${PN} += "monitoring-plugins-contentage \
 nagios-plugins-contentage"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(File::Basename) \
-perl(File::stat) \
-perl(Getopt::Long) \
-perl(POSIX) \
-perl(Time::HiRes)"
+perl-File--Basename \
+perl-File--stat \
+perl-Getopt--Long \
+perl-POSIX \
+perl-Time--HiRes"
 
 inherit rpm

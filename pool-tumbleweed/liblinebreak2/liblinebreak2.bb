@@ -10,12 +10,11 @@ RPM_NAME = "liblinebreak2-2.1-16.25.aarch64.rpm"
 RPM_HASH = "ef905c9bce2fa81c523a1d01acd919fd1579d8408c07de1de849ed193ddf9bf0a8d0da46500585ce137ef84f9a7dca2eb73f8a245c19daa2486aab0ad24675bd"
 
 RPROVIDES:${PN} += "liblinebreak \
-liblinebreak.so.2()(64bit) \
-liblinebreak2 \
-liblinebreak2(aarch-64)"
+liblinebreak.so.2 \
+liblinebreak2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

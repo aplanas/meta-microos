@@ -21,15 +21,13 @@ PV = "1.0.2"
 RPM_NAME = "addrwatch-1.0.2-1.13.aarch64.rpm"
 RPM_HASH = "145b1703487ebe37e95b330702746e8c5880e7f8714aaa4d37a292c0d5c10acf3b3c407f9f0311dd06117b3c4ab27c55aa6e16a6438d1c1c351da8183773e03e"
 
-RPROVIDES:${PN} += "addrwatch \
-addrwatch(aarch-64)"
+RPROVIDES:${PN} += "addrwatch"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent-2.1.so.7()(64bit) \
-libmariadb.so.3()(64bit) \
-libmariadb.so.3(libmysqlclient_18)(64bit) \
-libpcap.so.1()(64bit) \
-libsqlite3.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-2.1.so.7 \
+libmariadb.so.3 \
+libpcap.so.1 \
+libsqlite3.so.0"
 
 inherit rpm

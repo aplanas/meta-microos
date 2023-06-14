@@ -17,12 +17,12 @@ RPM_HASH = "26224bf744c0cb6259834d806ccce1cd8b8718c2361bba21882a8600c90b94197411
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chronic \
-moreutils:/usr/bin/chronic"
+moreutils-/usr/bin/chronic"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(Getopt::Std) \
-perl(IPC::Run) \
-perl(strict) \
-perl(warnings)"
+perl-Getopt--Std \
+perl-IPC--Run \
+perl-strict \
+perl-warnings"
 
 inherit rpm

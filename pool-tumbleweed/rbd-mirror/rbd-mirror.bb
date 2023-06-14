@@ -8,22 +8,21 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "rbd-mirror-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "e3e6991f022adea5efd3b0fa1b0ed7cb13e0462cbc7f92330fb44a09398060fea01da56a28910bd6aaee214f0aecdae231d0d930a3b3c92d522326687e2975d3"
 
-RPROVIDES:${PN} += "rbd-mirror \
-rbd-mirror(aarch-64)"
+RPROVIDES:${PN} += "rbd-mirror"
 
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libceph-common.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libcryptsetup.so.12()(64bit) \
-libgcc_s.so.1()(64bit) \
-librados.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libceph-common.so.2 \
+libcrypto.so.3 \
+libcryptsetup.so.12 \
+libgcc-s.so.1 \
+librados.so.2 \
 librados2 \
 librbd1 \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit) \
-libtcmalloc.so.4()(64bit)"
+libssl.so.3 \
+libstdc++.so.6 \
+libtcmalloc.so.4"
 
 inherit rpm

@@ -21,34 +21,23 @@ PV = "1.8.0"
 RPM_NAME = "gpsbabel-1.8.0-1.6.aarch64.rpm"
 RPM_HASH = "c7de2a13270ce85d590d7d2bf1aff58c824bd15fb71d8e6513c8ab320e941c7d928ad8631692944eaa499165fad128a6bc2ff6c7ee9376d9bd5e587e17ceb070"
 
-RPROVIDES:${PN} += "application() \
-application(gpsbabel.desktop) \
-gpsbabel \
-gpsbabel(aarch-64)"
+RPROVIDES:${PN} += "gpsbabel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5SerialPort.so.5()(64bit) \
-libQt5SerialPort.so.5(Qt_5)(64bit) \
-libQt5WebChannel.so.5()(64bit) \
-libQt5WebChannel.so.5(Qt_5)(64bit) \
-libQt5WebEngineWidgets.so.5()(64bit) \
-libQt5WebEngineWidgets.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libQt5Xml.so.5()(64bit) \
-libQt5Xml.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libshp.so.2()(64bit) \
-libstdc++.so.6()(64bit) \
-libusb-1.0.so.0()(64bit) \
-libz.so.1()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5SerialPort.so.5 \
+libQt5WebChannel.so.5 \
+libQt5WebEngineWidgets.so.5 \
+libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libshp.so.2 \
+libstdc++.so.6 \
+libusb-1.0.so.0 \
+libz.so.1"
 
 inherit rpm

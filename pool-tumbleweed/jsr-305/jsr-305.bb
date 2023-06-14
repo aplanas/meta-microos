@@ -11,9 +11,9 @@ RPM_HASH = "683ac8b2ced0ace9288b94c7f1ca82d8533f70a9c4577ab2bae31ecce8d4733ab421
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsr-305 \
-mvn(com.google.code.findbugs:jsr305) \
-mvn(com.google.code.findbugs:jsr305:pom:) \
-osgi(org.jsr-305)"
+mvn-com.google.code.findbugs-jsr305 \
+mvn-com.google.code.findbugs-jsr305-pom- \
+osgi-org.jsr-305"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

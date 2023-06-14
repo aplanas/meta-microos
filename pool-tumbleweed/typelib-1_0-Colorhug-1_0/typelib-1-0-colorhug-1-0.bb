@@ -12,15 +12,14 @@ PV = "1.4.6"
 RPM_NAME = "typelib-1_0-Colorhug-1_0-1.4.6-2.3.aarch64.rpm"
 RPM_HASH = "a351b30bcbd6f445a68bce12f2fb0f09b9d55280eb2a523db3e8687ccbc6dcf9cbfb0c076436a1866cb0f4f538ceae243c18b9ac7274f5d1fcb3ff1eb3375f48"
 
-RPROVIDES:${PN} += "typelib(Colorhug) \
-typelib-1_0-Colorhug-1_0 \
-typelib-1_0-Colorhug-1_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-Colorhug-1-0 \
+typelib-Colorhug"
 
-RDEPENDS:${PN} += "libcolorhug.so.2()(64bit) \
-typelib(Colord) \
-typelib(GLib) \
-typelib(GObject) \
-typelib(GUsb) \
-typelib(Gio)"
+RDEPENDS:${PN} += "libcolorhug.so.2 \
+typelib-Colord \
+typelib-GLib \
+typelib-GObject \
+typelib-GUsb \
+typelib-Gio"
 
 inherit rpm

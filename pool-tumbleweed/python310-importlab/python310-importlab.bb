@@ -9,13 +9,13 @@ RPM_HASH = "8463db8d48c6e61f8fb146463602f5fbb9cd6e22ad20bb494a2945bbc714339a0273
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-importlab \
-python3.10dist(importlab) \
+python3.10dist-importlab \
 python310-importlab \
-python3dist(importlab)"
+python3dist-importlab"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-networkx \
 update-alternatives"
 

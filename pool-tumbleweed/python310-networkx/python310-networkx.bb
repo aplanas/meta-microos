@@ -18,11 +18,11 @@ RPM_HASH = "876c6ddc7232aae17d03e38da26ce169f0b6e3155c99ddab753aaf6a093bb1c29d0b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-networkx \
-python3.10dist(networkx) \
+python3.10dist-networkx \
 python310-networkx \
-python3dist(networkx)"
+python3dist-networkx"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-matplotlib \
 python310-numpy \
 python310-pandas \

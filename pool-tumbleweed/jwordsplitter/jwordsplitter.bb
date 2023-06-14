@@ -13,8 +13,8 @@ RPM_HASH = "6b87b4d678f8c86bbadeed429d5c7842e86adbd3e59427494e5424b56322dd12f6a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jwordsplitter \
-mvn(de.danielnaber:jwordsplitter) \
-mvn(de.danielnaber:jwordsplitter:pom:)"
+mvn-de.danielnaber-jwordsplitter \
+mvn-de.danielnaber-jwordsplitter-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

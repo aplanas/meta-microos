@@ -13,10 +13,10 @@ RPM_NAME = "python311-stomper-0.4.3-2.12.noarch.rpm"
 RPM_HASH = "cfb4c594b81c56d154e229233218d63988efb35743ac02d581ad6dc81719c58aeb03e4699b4e568242d02132db008d31da5539bbc7ebcef381df1d5bd7bf4cb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(stomper) \
+RPROVIDES:${PN} += "python3.11dist-stomper \
 python311-stomper \
-python3dist(stomper)"
+python3dist-stomper"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

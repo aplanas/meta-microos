@@ -9,23 +9,18 @@ PV = "1.4.2"
 RPM_NAME = "cdogs-sdl-1.4.2-1.1.aarch64.rpm"
 RPM_HASH = "2f709e59bcb1e208a063eb5fbdd64b283aa3ce4393dfd9bb893e51f2faa67f4f15dd8ba8f7354558c56d1b039b59fb8d51314de9d1dfb168b0a8b564ebc3280d"
 
-RPROVIDES:${PN} += "application() \
-application(io.github.cxong.cdogs-sdl.desktop) \
-cdogs-sdl \
-cdogs-sdl(aarch-64) \
-metainfo() \
-metainfo(io.github.cxong.cdogs-sdl.appdata.xml)"
+RPROVIDES:${PN} += "cdogs-sdl"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \
-ld-linux-aarch64.so.1()(64bit) \
-libOpenGL.so.0()(64bit) \
-libSDL2-2.0.so.0()(64bit) \
-libSDL2_image-2.0.so.0()(64bit) \
-libSDL2_mixer-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libenet.so.7()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libOpenGL.so.0 \
+libSDL2-2.0.so.0 \
+libSDL2-image-2.0.so.0 \
+libSDL2-mixer-2.0.so.0 \
+libc.so.6 \
+libenet.so.7 \
+libm.so.6"
 
 inherit rpm

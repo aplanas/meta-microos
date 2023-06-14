@@ -7,16 +7,15 @@ PV = "1.82.0"
 RPM_NAME = "libboost_fiber1_82_0-1.82.0-1.2.aarch64.rpm"
 RPM_HASH = "2b0a35d8156854f88b1daa34dcc0c959bbf32816ae07593da69213090268922b1505f53b18a4f7be797fb0d32f508ee5ea28b815e42161addd1da9fbbeb638a6"
 
-RPROVIDES:${PN} += "libboost_fiber.so.1.82.0()(64bit) \
-libboost_fiber1_82_0 \
-libboost_fiber1_82_0(aarch-64)"
+RPROVIDES:${PN} += "libboost-fiber.so.1.82.0 \
+libboost-fiber1-82-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-boost-license1_82_0 \
-ld-linux-aarch64.so.1()(64bit) \
-libboost_context.so.1.82.0()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+boost-license1-82-0 \
+ld-linux-aarch64.so.1 \
+libboost-context.so.1.82.0 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

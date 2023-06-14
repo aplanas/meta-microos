@@ -9,13 +9,13 @@ RPM_HASH = "2d31dd120123f6b01fe95649b86ec4582eac3a85c63b0faeacec32aa188adcd9b073
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-identify \
-python3.10dist(identify) \
+python3.10dist-identify \
 python310-identify \
-python3dist(identify)"
+python3dist-identify"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-setuptools \
 update-alternatives"
 

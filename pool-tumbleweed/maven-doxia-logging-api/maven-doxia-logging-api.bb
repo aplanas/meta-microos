@@ -9,11 +9,11 @@ RPM_HASH = "6fcbd94fa524ebb23c3ba3961b1291a63887d9381a370f350ba836e9d5018d81b396
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-logging-api \
-mvn(org.apache.maven.doxia:doxia-logging-api) \
-mvn(org.apache.maven.doxia:doxia-logging-api:pom:)"
+mvn-org.apache.maven.doxia-doxia-logging-api \
+mvn-org.apache.maven.doxia-doxia-logging-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.codehaus.plexus:plexus-container-default)"
+mvn-org.codehaus.plexus-plexus-container-default"
 
 inherit rpm

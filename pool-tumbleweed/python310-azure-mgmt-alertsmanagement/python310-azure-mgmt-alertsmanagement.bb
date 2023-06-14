@@ -14,11 +14,11 @@ RPM_HASH = "2ce579f6081dd38abd60da3c2176af7e000d58dcaec3fca690f79a1fd0a3ed168222
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-alertsmanagement \
-python3.10dist(azure-mgmt-alertsmanagement) \
+python3.10dist-azure-mgmt-alertsmanagement \
 python310-azure-mgmt-alertsmanagement \
-python3dist(azure-mgmt-alertsmanagement)"
+python3dist-azure-mgmt-alertsmanagement"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

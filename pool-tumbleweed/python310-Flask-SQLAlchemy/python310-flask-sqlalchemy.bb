@@ -9,11 +9,11 @@ RPM_HASH = "9f2530c980b8d77d723e44b69630927c41b8421d295bc752d7bc8480f3a2b99cec34
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-SQLAlchemy \
-python3.10dist(flask-sqlalchemy) \
+python3.10dist-flask-sqlalchemy \
 python310-Flask-SQLAlchemy \
-python3dist(flask-sqlalchemy)"
+python3dist-flask-sqlalchemy"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Flask \
 python310-SQLAlchemy"
 

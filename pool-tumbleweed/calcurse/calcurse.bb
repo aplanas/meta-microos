@@ -11,16 +11,13 @@ PV = "4.8.0"
 RPM_NAME = "calcurse-4.8.0-1.4.aarch64.rpm"
 RPM_HASH = "488646baa1bd17429ba27672a30054b1a5d7c9088610121d57dd808c17c44d1887ae7d2233a2064ef4ee64ca73d9ef9260a52721caa28b021b1b1a9565666d72"
 
-RPROVIDES:${PN} += "application() \
-application(calcurse.desktop) \
-calcurse \
-calcurse(aarch-64)"
+RPROVIDES:${PN} += "calcurse"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6"
 
 inherit rpm

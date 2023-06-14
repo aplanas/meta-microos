@@ -11,11 +11,10 @@ PV = "3.5"
 RPM_NAME = "libsepol-utils-3.5-1.3.aarch64.rpm"
 RPM_HASH = "d5203518648a542f3a80b8731c0e9dbe3eb4cbdf3c34feefe5f40be4977cf75583b21f553fced1b738053718ce16ce035376674825393031457e30d9a9b710e8"
 
-RPROVIDES:${PN} += "libsepol-utils \
-libsepol-utils(aarch-64)"
+RPROVIDES:${PN} += "libsepol-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libsepol.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libsepol.so.2"
 
 inherit rpm

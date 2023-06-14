@@ -9,12 +9,11 @@ RPM_NAME = "libportal-gtk4-1-0.6-1.7.aarch64.rpm"
 RPM_HASH = "1013ff139d8e99260c327765fdc416889601516ca6f8c695b3f957443feb8cdf0466b47b2067505600938d59f08a86bf7eadbaac468aa8e849a022361bcfa5a2"
 
 RPROVIDES:${PN} += "libportal-gtk4-1 \
-libportal-gtk4-1(aarch-64) \
-libportal-gtk4.so.1()(64bit)"
+libportal-gtk4.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-4.so.1()(64bit)"
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1"
 
 inherit rpm

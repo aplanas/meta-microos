@@ -10,18 +10,18 @@ RPM_HASH = "8c5852ab31b7d9920de3677d0f7e073f68036303632aabfb7df453efe866e59e1e92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "buildstream \
-python3.10dist(buildstream) \
-python3dist(buildstream)"
+python3.10dist-buildstream \
+python3dist-buildstream"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 bubblewrap \
-python(abi) \
+python-abi \
 python3-base \
 python3-click \
 python3-gobject \
 python3-grpcio \
 python3-psutil \
 python3-ruamel.yaml \
-typelib-1_0-OSTree-1_0"
+typelib-1-0-OSTree-1-0"
 
 inherit rpm

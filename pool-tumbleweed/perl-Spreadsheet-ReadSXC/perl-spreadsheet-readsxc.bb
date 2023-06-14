@@ -80,23 +80,23 @@ RPM_NAME = "perl-Spreadsheet-ReadSXC-0.37-1.8.noarch.rpm"
 RPM_HASH = "ebe163ede1a3b6034b1b6f9057f156a18e316c409d43f44de7cab2b5811b55d0baabe31c624c3ab0b76d0ed391fcbe5f6fb17eda22cd8dc2843c053dd639e322"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Spreadsheet::ParseODS) \
-perl(Spreadsheet::ParseODS::Cell) \
-perl(Spreadsheet::ParseODS::Settings) \
-perl(Spreadsheet::ParseODS::Styles) \
-perl(Spreadsheet::ParseODS::Workbook) \
-perl(Spreadsheet::ParseODS::Worksheet) \
-perl(Spreadsheet::ReadSXC) \
+RPROVIDES:${PN} += "perl-Spreadsheet--ParseODS \
+perl-Spreadsheet--ParseODS--Cell \
+perl-Spreadsheet--ParseODS--Settings \
+perl-Spreadsheet--ParseODS--Styles \
+perl-Spreadsheet--ParseODS--Workbook \
+perl-Spreadsheet--ParseODS--Worksheet \
+perl-Spreadsheet--ReadSXC \
 perl-Spreadsheet-ReadSXC"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(Archive::Zip) \
-perl(Moo) \
-perl(PerlIO::gzip) \
-perl(PerlX::Maybe) \
-perl(XML::Twig) \
-perl(XML::Twig::XPath) \
-perl(XML::XPath) \
-perl(XML::XPathEngine)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-Archive--Zip \
+perl-Moo \
+perl-PerlIO--gzip \
+perl-PerlX--Maybe \
+perl-XML--Twig \
+perl-XML--Twig--XPath \
+perl-XML--XPath \
+perl-XML--XPathEngine"
 
 inherit rpm

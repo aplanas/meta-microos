@@ -11,14 +11,14 @@ RPM_HASH = "e5a380c8e22d373562027cfc3126ca523810179faf5ed787ade38825705b2bac1dbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Supybot \
-python3.9dist(limnoria) \
+python3.9dist-limnoria \
 python39-limnoria \
-python3dist(limnoria)"
+python3dist-limnoria"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 procps \
-python(abi) \
+python-abi \
 python39 \
 python39-PySocks \
 python39-chardet \

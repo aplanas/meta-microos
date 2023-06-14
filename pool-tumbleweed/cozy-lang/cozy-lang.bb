@@ -10,27 +10,27 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cozy-lang \
 cozy-lang-all \
-locale(cozy:bg) \
-locale(cozy:cs) \
-locale(cozy:da) \
-locale(cozy:de) \
-locale(cozy:el) \
-locale(cozy:es) \
-locale(cozy:fi) \
-locale(cozy:fr) \
-locale(cozy:gl) \
-locale(cozy:hi) \
-locale(cozy:hr) \
-locale(cozy:it) \
-locale(cozy:nl) \
-locale(cozy:pl) \
-locale(cozy:pt) \
-locale(cozy:pt_BR) \
-locale(cozy:ru) \
-locale(cozy:sv) \
-locale(cozy:tr) \
-locale(cozy:uk) \
-locale(cozy:zh)"
+locale-cozy-bg \
+locale-cozy-cs \
+locale-cozy-da \
+locale-cozy-de \
+locale-cozy-el \
+locale-cozy-es \
+locale-cozy-fi \
+locale-cozy-fr \
+locale-cozy-gl \
+locale-cozy-hi \
+locale-cozy-hr \
+locale-cozy-it \
+locale-cozy-nl \
+locale-cozy-pl \
+locale-cozy-pt \
+locale-cozy-pt-BR \
+locale-cozy-ru \
+locale-cozy-sv \
+locale-cozy-tr \
+locale-cozy-uk \
+locale-cozy-zh"
 
 RDEPENDS:${PN} += "cozy"
 

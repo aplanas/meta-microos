@@ -10,8 +10,7 @@ PV = "10.11"
 RPM_NAME = "hiawatha-letsencrypt-10.11-4.7.aarch64.rpm"
 RPM_HASH = "4c018d52c75cbdf844ba1f464de7df59fd040528ecfe9944f6a8d207c1c10650f83610235c66d415d7a62785c2627433c0a9ce25b10b12efc8587b0d07e45a1f"
 
-RPROVIDES:${PN} += "hiawatha-letsencrypt \
-hiawatha-letsencrypt(aarch-64)"
+RPROVIDES:${PN} += "hiawatha-letsencrypt"
 
 RDEPENDS:${PN} += "/usr/bin/php \
 hiawatha \

@@ -8,15 +8,14 @@ PV = "3.0"
 RPM_NAME = "chezdav-3.0-1.3.aarch64.rpm"
 RPM_HASH = "09de7c572097568b8e726f2c9284ca35e15cfd625bb48d9bbe7c5e52e64b79cf1684ed30e4bf787b4a144d8b00af49cc3276c7db82f79109774bb8cbd6c64589"
 
-RPROVIDES:${PN} += "chezdav \
-chezdav(aarch-64)"
+RPROVIDES:${PN} += "chezdav"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libavahi-gobject.so.0()(64bit) \
-libc.so.6()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libphodav-3.0.so.0()(64bit) \
-libsoup-3.0.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libavahi-gobject.so.0 \
+libc.so.6 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libphodav-3.0.so.0 \
+libsoup-3.0.so.0"
 
 inherit rpm

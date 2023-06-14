@@ -23,13 +23,13 @@ RPM_NAME = "stow-2.3.1-1.10.noarch.rpm"
 RPM_HASH = "f402413fb706af7f31eee7157baf6c6b9f88d9962bc78d959627c469488515d445c78535200852ccdabb2c7da33d5f6bee9f5b248989338c84d7dd4109689cb5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Stow) \
-perl(Stow::Util) \
+RPROVIDES:${PN} += "perl-Stow \
+perl-Stow--Util \
 stow"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl \
-perl(:MODULE_COMPAT_5.36.0)"
+perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

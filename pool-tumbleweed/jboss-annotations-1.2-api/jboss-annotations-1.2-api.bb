@@ -9,9 +9,9 @@ RPM_HASH = "95cbca3d57075c595e87f7b61271ac380dc215c0c8ffdc2390d55550cdfb55abc22f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-annotations-1.2-api \
-mvn(org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec) \
-mvn(org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:pom:) \
-osgi(org.jboss.spec.javax.annotation.jboss-annotations-api_1.2_spec)"
+mvn-org.jboss.spec.javax.annotation-jboss-annotations-api-1.2-spec \
+mvn-org.jboss.spec.javax.annotation-jboss-annotations-api-1.2-spec-pom- \
+osgi-org.jboss.spec.javax.annotation.jboss-annotations-api-1.2-spec"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

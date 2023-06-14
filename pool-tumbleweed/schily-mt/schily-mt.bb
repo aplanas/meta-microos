@@ -10,14 +10,13 @@ RPM_HASH = "826ae87a96b17ce5a017763c4fcc07523e87d719eb0810495ea89cfb445bc13bbda8
 
 RPROVIDES:${PN} += "mt \
 schily-mt \
-schily-mt(aarch-64) \
-star-rmt:/usr/bin/smt"
+star-rmt-/usr/bin/smt"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-librmt.so.1.0()(64bit) \
-libschily.so.2.0()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+librmt.so.1.0 \
+libschily.so.2.0 \
 update-alternatives"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPM_NAME = "texlive-texplate-2023.201.1.0.4svn61719-54.1.noarch.rpm"
 RPM_HASH = "1286a248eace47001e4c91a7691ba54471463de827c0eab5c14108a1556b4b4153d62afd42e2f36050edd1cc77b617690e9698c5b510c26291954479234f8068"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(texplate.jar) \
+RPROVIDES:${PN} += "tex-texplate.jar \
 texlive-texplate"
 
 RDEPENDS:${PN} += "/bin/sh \

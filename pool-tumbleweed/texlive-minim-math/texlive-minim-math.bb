@@ -12,7 +12,7 @@ RPM_NAME = "texlive-minim-math-2023.201.2023_1.2svn66395-54.1.noarch.rpm"
 RPM_HASH = "159499ff3b61b61a59b423b59365cd94b599cb1e997e3600974d12aba9f2ecd9f46be4c558354a7901998ed866b2fd6bebe01582ec9a757c352377a8595e83c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(minim-math.tex) \
+RPROVIDES:${PN} += "tex-minim-math.tex \
 texlive-minim-math"
 
 RDEPENDS:${PN} += "/bin/sh \

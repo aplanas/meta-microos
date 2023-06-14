@@ -18,7 +18,7 @@ RPM_NAME = "texlive-gatherenum-2023.201.1.8svn52209-52.1.noarch.rpm"
 RPM_HASH = "77c2f7cc14b0a950ad861fd70454054d321b76bb3a990f10beac6c29d3e1a0aeca763a7ce522153bcd4850e2d79743275bcc9faa2e4c3391471d98694649928d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gatherenum.sty) \
+RPROVIDES:${PN} += "tex-gatherenum.sty \
 texlive-gatherenum"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -27,9 +27,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(enumitem.sty) \
-tex(expl3.sty) \
-tex(xparse.sty) \
+tex-enumitem.sty \
+tex-expl3.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,14 +10,14 @@ RPM_NAME = "python39-ipyparallel-8.6.1-1.2.noarch.rpm"
 RPM_HASH = "57b92560590b81467e2f4a324e14c04361f8b640bc3e2df398eb4fcd1d5bedb58728bcc99f960c090be0b547bbcd67aca7e19c15256643cd247480f4789deb62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(ipyparallel) \
+RPROVIDES:${PN} += "python3.9dist-ipyparallel \
 python39-ipyparallel \
-python39-jupyter_ipyparallel \
-python3dist(ipyparallel)"
+python39-jupyter-ipyparallel \
+python3dist-ipyparallel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-python(abi) \
+python-abi \
 python39-decorator \
 python39-entrypoints \
 python39-ipykernel \

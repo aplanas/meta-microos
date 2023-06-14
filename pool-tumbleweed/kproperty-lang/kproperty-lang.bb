@@ -10,33 +10,33 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kproperty-lang \
 kproperty-lang-all \
-locale(kproperty:ast) \
-locale(kproperty:ca) \
-locale(kproperty:ca@valencia) \
-locale(kproperty:cs) \
-locale(kproperty:de) \
-locale(kproperty:en_GB) \
-locale(kproperty:es) \
-locale(kproperty:fi) \
-locale(kproperty:fr) \
-locale(kproperty:gl) \
-locale(kproperty:ia) \
-locale(kproperty:it) \
-locale(kproperty:ja) \
-locale(kproperty:ko) \
-locale(kproperty:lt) \
-locale(kproperty:nl) \
-locale(kproperty:nn) \
-locale(kproperty:pl) \
-locale(kproperty:pt) \
-locale(kproperty:pt_BR) \
-locale(kproperty:ru) \
-locale(kproperty:sk) \
-locale(kproperty:sv) \
-locale(kproperty:tr) \
-locale(kproperty:uk) \
-locale(kproperty:zh_CN) \
-locale(kproperty:zh_TW)"
+locale-kproperty-ast \
+locale-kproperty-ca \
+locale-kproperty-ca@valencia \
+locale-kproperty-cs \
+locale-kproperty-de \
+locale-kproperty-en-GB \
+locale-kproperty-es \
+locale-kproperty-fi \
+locale-kproperty-fr \
+locale-kproperty-gl \
+locale-kproperty-ia \
+locale-kproperty-it \
+locale-kproperty-ja \
+locale-kproperty-ko \
+locale-kproperty-lt \
+locale-kproperty-nl \
+locale-kproperty-nn \
+locale-kproperty-pl \
+locale-kproperty-pt \
+locale-kproperty-pt-BR \
+locale-kproperty-ru \
+locale-kproperty-sk \
+locale-kproperty-sv \
+locale-kproperty-tr \
+locale-kproperty-uk \
+locale-kproperty-zh-CN \
+locale-kproperty-zh-TW"
 
 RDEPENDS:${PN} += "kproperty"
 

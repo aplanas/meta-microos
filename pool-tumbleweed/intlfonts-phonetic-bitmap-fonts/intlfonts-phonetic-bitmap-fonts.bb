@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "ifntphon \
 intlfonts-phonetic-bitmap-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

@@ -9,26 +9,21 @@ PV = "1.26.1"
 RPM_NAME = "mate-screenshot-1.26.1-1.1.aarch64.rpm"
 RPM_HASH = "d891f7d8548fa8793298cfc1b9f88b8f2e43a204c578ef2d7bc3b620717e6606a50bb38d30efc1fc19f3cbea369457b8dd205a1d774026d030cb43190d053880"
 
-RPROVIDES:${PN} += "application() \
-application(mate-screenshot.desktop) \
-mate-screenshot \
-mate-screenshot(aarch-64) \
-metainfo() \
-metainfo(mate-screenshot.appdata.xml)"
+RPROVIDES:${PN} += "mate-screenshot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libcanberra-gtk3.so.0()(64bit) \
-libcanberra.so.0()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgdk_pixbuf-2.0.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXext.so.6 \
+libc.so.6 \
+libcairo.so.2 \
+libcanberra-gtk3.so.0 \
+libcanberra.so.0 \
+libgdk-3.so.0 \
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0 \
+libm.so.6"
 
 inherit rpm

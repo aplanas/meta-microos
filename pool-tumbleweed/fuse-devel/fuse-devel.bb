@@ -13,8 +13,7 @@ RPM_NAME = "fuse-devel-2.9.9-6.3.aarch64.rpm"
 RPM_HASH = "4aa1610b8a3fd9228acf81d184fbb551dfccaa7af2801ea9f447af10853a21d62d955ac169b80c24002793e2261bfaecee94c406e1e0e63e23805d0894765052"
 
 RPROVIDES:${PN} += "fuse-devel \
-fuse-devel(aarch-64) \
-pkgconfig(fuse)"
+pkgconfig-fuse"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fuse \

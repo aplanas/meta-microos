@@ -10,27 +10,24 @@ PV = "1.4.1"
 RPM_NAME = "pink-pony-1.4.1-2.21.aarch64.rpm"
 RPM_HASH = "7642a5685e23d47b53080ad563ce0877933aa1bb1325390177bfc78354af52bcc8b83c30e4eefad9e5978f095fc316e921c01abb3f5ce032dea13bf5d087aac9"
 
-RPROVIDES:${PN} += "application() \
-application(pink-pony.desktop) \
-pink-pony \
-pink-pony(aarch-64)"
+RPROVIDES:${PN} += "pink-pony"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libGL.so.1()(64bit) \
-libGLU.so.1()(64bit) \
-libIL.so.1()(64bit) \
-libImath-3_1.so.29()(64bit) \
-libSDL-1.2.so.0()(64bit) \
-libSDL_mixer-1.2.so.0()(64bit) \
-libc.so.6()(64bit) \
-libftgl.so.2()(64bit) \
-libgcc_s.so.1()(64bit) \
-libglfw.so.2()(64bit) \
-libm.so.6()(64bit) \
-libprotobuf-3.21.12.so()(64bit) \
-libsigc-2.0.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libGL.so.1 \
+libGLU.so.1 \
+libIL.so.1 \
+libImath-3-1.so.29 \
+libSDL-1.2.so.0 \
+libSDL-mixer-1.2.so.0 \
+libc.so.6 \
+libftgl.so.2 \
+libgcc-s.so.1 \
+libglfw.so.2 \
+libm.so.6 \
+libprotobuf-3.21.12.so \
+libsigc-2.0.so.0 \
+libstdc++.so.6 \
 pink-pony-data"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "7e6feb50957f9adbfe28c272895ff38f2b2c45c331f12d5707f7c2d78ef1da09710c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-functions-devops-build \
-python3.10dist(azure-functions-devops-build) \
+python3.10dist-azure-functions-devops-build \
 python310-azure-functions-devops-build \
-python3dist(azure-functions-devops-build)"
+python3dist-azure-functions-devops-build"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Jinja2 \
 python310-msrest \
 python310-vsts"

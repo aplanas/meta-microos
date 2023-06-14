@@ -9,12 +9,11 @@ PV = "0.98"
 RPM_NAME = "fastjar-0.98-26.8.aarch64.rpm"
 RPM_HASH = "b6c69592a4326eddfe82c698f2e8bd2fd1139006c4a9a89c4b637118296a3a546bad649434b5aaeb44e50bcb9dbb8d81f6c17f315c3cfaae831181512d2fd970"
 
-RPROVIDES:${PN} += "fastjar \
-fastjar(aarch-64)"
+RPROVIDES:${PN} += "fastjar"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libz.so.1"
 
 inherit rpm

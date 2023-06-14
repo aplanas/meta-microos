@@ -10,20 +10,20 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gprename-lang \
 gprename-lang-all \
-locale(gprename:ca) \
-locale(gprename:de) \
-locale(gprename:es) \
-locale(gprename:et) \
-locale(gprename:fr) \
-locale(gprename:id) \
-locale(gprename:it) \
-locale(gprename:nl) \
-locale(gprename:pl) \
-locale(gprename:pt_BR) \
-locale(gprename:ro) \
-locale(gprename:ru) \
-locale(gprename:sv) \
-locale(gprename:zh_CN)"
+locale-gprename-ca \
+locale-gprename-de \
+locale-gprename-es \
+locale-gprename-et \
+locale-gprename-fr \
+locale-gprename-id \
+locale-gprename-it \
+locale-gprename-nl \
+locale-gprename-pl \
+locale-gprename-pt-BR \
+locale-gprename-ro \
+locale-gprename-ru \
+locale-gprename-sv \
+locale-gprename-zh-CN"
 
 RDEPENDS:${PN} += "gprename"
 

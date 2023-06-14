@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "noto-sans-paucinhau \
 noto-sans-paucinhau-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

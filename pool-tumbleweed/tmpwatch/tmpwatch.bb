@@ -15,14 +15,13 @@ PV = "2.11"
 RPM_NAME = "tmpwatch-2.11-6.12.aarch64.rpm"
 RPM_HASH = "6d09c8a1ef3c54ccf9942ee575c3b31c1cdfed791ccc0f217c724f6970615b46fb83adf97193f3d6e05ea1e7f8089e60dd0e2446e632d5d0ef8e5a6e3f1570bd"
 
-RPROVIDES:${PN} += "config(tmpwatch) \
-tmpwatch \
-tmpwatch(aarch-64)"
+RPROVIDES:${PN} += "config-tmpwatch \
+tmpwatch"
 
 RDEPENDS:${PN} += "/bin/sh \
 cron \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 psmisc"
 
 inherit rpm

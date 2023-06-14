@@ -10,8 +10,8 @@ RPM_HASH = "ca0df55466b9b1cbc46d32f18aadec3b0f5ddacd9f6e797dd845a56b93b318307f9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "j2objc-annotations \
-mvn(com.google.j2objc:j2objc-annotations) \
-mvn(com.google.j2objc:j2objc-annotations:pom:)"
+mvn-com.google.j2objc-j2objc-annotations \
+mvn-com.google.j2objc-j2objc-annotations-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

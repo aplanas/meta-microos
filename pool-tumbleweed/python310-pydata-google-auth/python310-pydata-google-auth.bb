@@ -10,11 +10,11 @@ RPM_HASH = "7d4b88ddfe0ef6c7345235a3409b131baa7c004f5264abbe34c832a40e359627bf2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pydata-google-auth \
-python3.10dist(pydata-google-auth) \
+python3.10dist-pydata-google-auth \
 python310-pydata-google-auth \
-python3dist(pydata-google-auth)"
+python3dist-pydata-google-auth"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-google-auth \
 python310-google-auth-oauthlib"
 

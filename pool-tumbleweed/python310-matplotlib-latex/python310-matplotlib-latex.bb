@@ -13,20 +13,20 @@ RPROVIDES:${PN} += "python3-matplotlib-latex \
 python310-matplotlib-latex"
 
 RDEPENDS:${PN} += "python310-matplotlib \
-tex(avant.sty) \
-tex(chancery.sty) \
-tex(charter.sty) \
-tex(courier.sty) \
-tex(geometry.sty) \
-tex(helvet.sty) \
-tex(mathpazo.sty) \
-tex(mathptmx.sty) \
-tex(pncr.tfm) \
-tex(psfrag.sty) \
-tex(type1cm.sty) \
-tex(type1ec.sty) \
-tex(ucs.sty) \
-tex(underscore.sty) \
+tex-avant.sty \
+tex-chancery.sty \
+tex-charter.sty \
+tex-courier.sty \
+tex-geometry.sty \
+tex-helvet.sty \
+tex-mathpazo.sty \
+tex-mathptmx.sty \
+tex-pncr.tfm \
+tex-psfrag.sty \
+tex-type1cm.sty \
+tex-type1ec.sty \
+tex-ucs.sty \
+tex-underscore.sty \
 texlive-dvipng \
 texlive-dvips \
 texlive-geometry \

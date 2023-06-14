@@ -10,14 +10,12 @@ RPM_HASH = "aa2e3646195556dc8b70c37b2fe51cac95a0e56d7c45f29f240abcd54760878da40e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-notebook-shim \
-python3-notebook_shim \
-python3.10dist(notebook-shim) \
+python3.10dist-notebook-shim \
 python310-notebook-shim \
-python310-notebook_shim \
-python3dist(notebook-shim)"
+python3dist-notebook-shim"
 
-RDEPENDS:${PN} += "(python310-jupyter_server >= 1.8 with python310-jupyter_server < 3) \
+RDEPENDS:${PN} += "-python310-jupyter-server >= 1.8 with python310-jupyter-server < 3 \
 jupyter-notebook-shim \
-python(abi)"
+python-abi"
 
 inherit rpm

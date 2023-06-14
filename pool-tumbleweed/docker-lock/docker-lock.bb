@@ -7,9 +7,8 @@ PV = "0.8.10"
 RPM_NAME = "docker-lock-0.8.10-1.9.aarch64.rpm"
 RPM_HASH = "ce082af21385b27118fcf3a850c422564633679de9b577a480778344c2526659f79ecee1cbf51ede421cb0375002ca237286cff8668e82efae23dc1844d25882"
 
-RPROVIDES:${PN} += "docker-lock \
-docker-lock(aarch-64)"
+RPROVIDES:${PN} += "docker-lock"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

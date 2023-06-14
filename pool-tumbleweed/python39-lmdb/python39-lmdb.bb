@@ -22,14 +22,13 @@ PV = "1.4.1"
 RPM_NAME = "python39-lmdb-1.4.1-1.1.aarch64.rpm"
 RPM_HASH = "68bd933b4f304576987a80286fbbbbfee36e2c61b9808b5fc6cf4fb08eb3ea5fc16d997b3d3b73c969772f16af3686e0e989227fdfca7f7bddc638e0b0ed23d8"
 
-RPROVIDES:${PN} += "python3.9dist(lmdb) \
+RPROVIDES:${PN} += "python3.9dist-lmdb \
 python39-lmdb \
-python39-lmdb(aarch-64) \
-python3dist(lmdb)"
+python3dist-lmdb"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblmdb-0.9.30.so()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblmdb-0.9.30.so \
+python-abi"
 
 inherit rpm

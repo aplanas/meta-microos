@@ -9,13 +9,13 @@ RPM_HASH = "52533743c045ada5b72e98bf037579b714d693b075324fe7d6bd1bfb16b9e8d6cc92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyelftools \
-python3.10dist(pyelftools) \
+python3.10dist-pyelftools \
 python310-pyelftools \
-python3dist(pyelftools)"
+python3dist-pyelftools"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

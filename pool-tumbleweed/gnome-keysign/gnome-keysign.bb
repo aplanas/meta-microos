@@ -11,18 +11,13 @@ PV = "0.9.7.2"
 RPM_NAME = "gnome-keysign-0.9.7.2-2.10.aarch64.rpm"
 RPM_HASH = "1cf3129df06daaa779fe54b4fdd58435bc78dc5d7411b2c51b74ee941a47d4c972c52d26479fcdb6ad3716175474b05241a8e80bdfcf56ed3482ec97709e09f0"
 
-RPROVIDES:${PN} += "application() \
-application(org.gnome.Keysign.desktop) \
-gnome-keysign \
-gnome-keysign(aarch-64) \
-metainfo() \
-metainfo(org.gnome.Keysign.appdata.xml) \
-python3.10dist(gnome-keysign) \
-python3dist(gnome-keysign)"
+RPROVIDES:${PN} += "gnome-keysign \
+python3.10dist-gnome-keysign \
+python3dist-gnome-keysign"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-gstreamer1(element-zbar)()(64bit) \
-python(abi) \
+gstreamer1 \
+python-abi \
 python3-Twisted \
 python3-avahi \
 python3-cairo \
@@ -34,14 +29,14 @@ python3-pybluez \
 python3-qrcode \
 python3-requests \
 python3-setuptools \
-typelib(GLib) \
-typelib(GObject) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gst) \
-typelib(GstVideo) \
-typelib(Gtk) \
-typelib(Pango)"
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gst \
+typelib-GstVideo \
+typelib-Gtk \
+typelib-Pango"
 
 inherit rpm

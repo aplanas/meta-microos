@@ -11,12 +11,11 @@ RPM_HASH = "b54031395c6e81b3cf4c0ebe0b017e925b4b107f321606d05b1a0bcdec3f1b98f09e
 
 RPROVIDES:${PN} += "liblpsolve55 \
 liblpsolve55-0 \
-liblpsolve55-0(aarch-64) \
-liblpsolve55.so.0()(64bit)"
+liblpsolve55.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

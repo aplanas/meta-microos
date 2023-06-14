@@ -7,22 +7,17 @@ PV = "1.4.0"
 RPM_NAME = "fnott-1.4.0-1.1.aarch64.rpm"
 RPM_HASH = "ead7bde3747b65181f970b21ec0fcbf253d7e6ee4a0e45d99434fa60a41afe9ff3ef94beb46dade569664c2e1ff27e0e41efec4243bb6a9ddf06db5cb276e3b1"
 
-RPROVIDES:${PN} += "application() \
-application(fnott.desktop) \
-fnott \
-fnott(aarch-64)"
+RPROVIDES:${PN} += "fnott"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdbus-1.so.3()(64bit) \
-libdbus-1.so.3(LIBDBUS_1_3)(64bit) \
-libfcft.so.4()(64bit) \
-libfontconfig.so.1()(64bit) \
-libm.so.6()(64bit) \
-libpixman-1.so.0()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libwayland-client.so.0()(64bit) \
-libwayland-cursor.so.0()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdbus-1.so.3 \
+libfcft.so.4 \
+libfontconfig.so.1 \
+libm.so.6 \
+libpixman-1.so.0 \
+libpng16.so.16 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0"
 
 inherit rpm

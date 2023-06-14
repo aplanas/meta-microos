@@ -14,6 +14,6 @@ RPROVIDES:${PN} += "trilinos-gnu-mpich-hpc \
 trilinos-gnu-mpich-hpc-devel"
 
 RDEPENDS:${PN} += "/bin/sh \
-trilinos_13_2_0-gnu-mpich-hpc-devel"
+trilinos-13-2-0-gnu-mpich-hpc-devel"
 
 inherit rpm

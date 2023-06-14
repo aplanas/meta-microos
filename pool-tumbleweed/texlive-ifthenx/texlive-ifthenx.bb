@@ -12,7 +12,7 @@ RPM_NAME = "texlive-ifthenx-2023.201.0.0.1asvn25819-52.1.noarch.rpm"
 RPM_HASH = "1140bedf693b57d04f326b71fc4980b422d856ccb537171b3647cb399b55bb18a3ebc67903b7c82e4dcb003e7a15ac5de55741a992108e7f35cee239dc124adf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(ifthenx.sty) \
+RPROVIDES:${PN} += "tex-ifthenx.sty \
 texlive-ifthenx"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -21,7 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

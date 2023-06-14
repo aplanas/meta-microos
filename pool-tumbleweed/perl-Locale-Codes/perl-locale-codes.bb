@@ -53,21 +53,21 @@ RPM_NAME = "perl-Locale-Codes-3.73-1.1.noarch.rpm"
 RPM_HASH = "6eb329b41cd7d16c040f68affcea2d0573d317f04aaafd34766d99d8adc27c5e3992f77f2c6b46390ccafd06e67960d8763570c0650ccc45caf194c4a0b8fe6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Locale::Codes) \
-perl(Locale::Codes::Constants) \
-perl(Locale::Codes::Country) \
-perl(Locale::Codes::Currency) \
-perl(Locale::Codes::LangExt) \
-perl(Locale::Codes::LangFam) \
-perl(Locale::Codes::LangVar) \
-perl(Locale::Codes::Language) \
-perl(Locale::Codes::Script) \
-perl(Locale::Country) \
-perl(Locale::Currency) \
-perl(Locale::Language) \
-perl(Locale::Script) \
+RPROVIDES:${PN} += "perl-Locale--Codes \
+perl-Locale--Codes--Constants \
+perl-Locale--Codes--Country \
+perl-Locale--Codes--Currency \
+perl-Locale--Codes--LangExt \
+perl-Locale--Codes--LangFam \
+perl-Locale--Codes--LangVar \
+perl-Locale--Codes--Language \
+perl-Locale--Codes--Script \
+perl-Locale--Country \
+perl-Locale--Currency \
+perl-Locale--Language \
+perl-Locale--Script \
 perl-Locale-Codes"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

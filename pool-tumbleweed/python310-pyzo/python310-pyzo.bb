@@ -11,13 +11,13 @@ RPM_HASH = "03b0148b9f4c6dcf1a566e432ed5152bd8fc3a9e5755b2bf1f4556813526c3314776
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyzo \
-python3.10dist(pyzo) \
+python3.10dist-pyzo \
 python310-pyzo \
-python3dist(pyzo)"
+python3dist-pyzo"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 hicolor-icon-theme \
-python(abi) \
+python-abi \
 python310-qt5 \
 pyzologo"
 

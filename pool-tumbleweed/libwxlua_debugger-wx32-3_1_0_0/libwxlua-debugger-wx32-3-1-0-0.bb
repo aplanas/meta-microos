@@ -11,20 +11,19 @@ PV = "3.1.0.0+42"
 RPM_NAME = "libwxlua_debugger-wx32-3_1_0_0-3.1.0.0+42-2.2.aarch64.rpm"
 RPM_HASH = "932f2aa4def66b8d0fee1449a4b40223431975f90aff8bf7308abd67afd375b6795e5c95c248e1f859b3863ac0545b92ab311a5df486586a4973242ec75d6a7e"
 
-RPROVIDES:${PN} += "libwxlua_debugger-wx32-3_1_0_0 \
-libwxlua_debugger-wx32-3_1_0_0(aarch-64) \
-libwxlua_debugger-wx32gtk3u-3.1.0.0.so()(64bit)"
+RPROVIDES:${PN} += "libwxlua-debugger-wx32-3-1-0-0 \
+libwxlua-debugger-wx32gtk3u-3.1.0.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblua5.4.so.5()(64bit) \
-libstdc++.so.6()(64bit) \
-libwx_baseu-suse.so.9.0.0()(64bit) \
-libwx_baseu_net-suse.so.9.0.0()(64bit) \
-libwx_gtk3u_core-suse.so.9.0.0()(64bit) \
-libwxlua-wx32gtk3u-3.1.0.0.so()(64bit) \
-libwxlua_bind-wx32gtk3u-3.1.0.0.so()(64bit) \
-libwxlua_debug-wx32gtk3u-3.1.0.0.so()(64bit)"
+libc.so.6 \
+libgcc-s.so.1 \
+liblua5.4.so.5 \
+libstdc++.so.6 \
+libwx-baseu-net-suse.so.9.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
+libwxlua-bind-wx32gtk3u-3.1.0.0.so \
+libwxlua-debug-wx32gtk3u-3.1.0.0.so \
+libwxlua-wx32gtk3u-3.1.0.0.so"
 
 inherit rpm

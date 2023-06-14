@@ -13,17 +13,16 @@ PV = "0.9.1"
 RPM_NAME = "libpresage1-0.9.1-13.1.aarch64.rpm"
 RPM_HASH = "9d3fc68ee71e675d4c36a60d449dbe7f71e59679a5b563de6100c6fb4babc36e0653b3e2c1c71737b48b8394985a155d0670b5d18f5cea8ded9f1cf6a064109e"
 
-RPROVIDES:${PN} += "libpresage.so.1()(64bit) \
-libpresage1 \
-libpresage1(aarch-64)"
+RPROVIDES:${PN} += "libpresage.so.1 \
+libpresage1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libsqlite3.so.0()(64bit) \
-libstdc++.so.6()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libsqlite3.so.0 \
+libstdc++.so.6 \
 presage-data"
 
 inherit rpm

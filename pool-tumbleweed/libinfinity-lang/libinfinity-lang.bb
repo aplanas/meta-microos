@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libinfinity-lang \
 libinfinity-lang-all \
-locale(libinfinity:ca) \
-locale(libinfinity:de)"
+locale-libinfinity-ca \
+locale-libinfinity-de"
 
 RDEPENDS:${PN} += "libinfinity"
 

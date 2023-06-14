@@ -9,8 +9,7 @@ PV = "0.3.0"
 RPM_NAME = "libdatovka-0.3.0-1.3.aarch64.rpm"
 RPM_HASH = "03e1687408288356b72db925612f748e07baa30f8cb1f793c0bf026eda93193b7c613cff6a996521be8ce0ba325edddc565c0b9494fdf7b71d11b4a30b615313"
 
-RPROVIDES:${PN} += "libdatovka \
-libdatovka(aarch-64)"
+RPROVIDES:${PN} += "libdatovka"
 
 RDEPENDS:${PN} += ""
 

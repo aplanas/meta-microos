@@ -16,10 +16,9 @@ PV = "0.117"
 RPM_NAME = "perl-Ref-Util-XS-0.117-1.15.aarch64.rpm"
 RPM_HASH = "cd2ccbc2037a45f15771ffaf3fcccb4fc4f272ddf09ba29384484f78454ceff2d1a22f514d70cf185230b4a53315e3b6fd3b11d080b0ae275e8749496b27e9cc"
 
-RPROVIDES:${PN} += "perl(Ref::Util::XS) \
-perl-Ref-Util-XS \
-perl-Ref-Util-XS(aarch-64)"
+RPROVIDES:${PN} += "perl-Ref--Util--XS \
+perl-Ref-Util-XS"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

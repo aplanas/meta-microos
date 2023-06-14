@@ -9,11 +9,11 @@ RPM_HASH = "bb845889a820bfff0fe352deae6c191363ffc3f301e0dab8c101e7111765b16b8344
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pysofaconventions \
-python3.10dist(pysofaconventions) \
+python3.10dist-pysofaconventions \
 python310-pysofaconventions \
-python3dist(pysofaconventions)"
+python3dist-pysofaconventions"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-netCDF4"
 
 inherit rpm

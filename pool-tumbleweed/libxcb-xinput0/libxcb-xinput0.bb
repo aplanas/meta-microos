@@ -12,13 +12,12 @@ PV = "1.15"
 RPM_NAME = "libxcb-xinput0-1.15-2.2.aarch64.rpm"
 RPM_HASH = "83e0c745b304c3d0b89ddd11393984db0f9c8069492e67acbd8c12f0ea4ac7c71ecc7cb8bffaa5c275e3f943c39504c025fc1b85784b55f9de8772a1176ba946"
 
-RPROVIDES:${PN} += "libxcb-xinput.so.0()(64bit) \
-libxcb-xinput0 \
-libxcb-xinput0(aarch-64)"
+RPROVIDES:${PN} += "libxcb-xinput.so.0 \
+libxcb-xinput0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxcb.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxcb.so.1"
 
 inherit rpm

@@ -14,7 +14,7 @@ RPM_NAME = "texlive-drs-2023.201.1.1bsvn19232-52.1.noarch.rpm"
 RPM_HASH = "f3e12a27e363389c5de360af54cb851009f89fca118024f2035b0d9566f9eec8aa94f925173e18cefc1c7726d8e3b57061770bcf5181900c36f50f31ec3fd721"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(drs.sty) \
+RPROVIDES:${PN} += "tex-drs.sty \
 texlive-drs"
 
 RDEPENDS:${PN} += "/bin/sh \

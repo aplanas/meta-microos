@@ -36,16 +36,13 @@ PV = "4.5.3"
 RPM_NAME = "libnetcdf-fortran_4_5_3-gnu-hpc-4.5.3-4.5.aarch64.rpm"
 RPM_HASH = "a286f3ece1d5d82098d6e49790de01b6732bf93014be99dc557e2ee5c7550d009d986c53e8bae3d86059c23b67a5cd22cdc126ccd68afb6a766066f7b0d41594"
 
-RPROVIDES:${PN} += "libnetcdf-fortran_4_5_3-gnu-hpc \
-libnetcdf-fortran_4_5_3-gnu-hpc(aarch-64)"
+RPROVIDES:${PN} += "libnetcdf-fortran-4-5-3-gnu-hpc"
 
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgfortran.so.5()(64bit) \
-libgfortran.so.5(GFORTRAN_10)(64bit) \
-libgfortran.so.5(GFORTRAN_8)(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgfortran.so.5 \
 lua-lmod"
 
 inherit rpm

@@ -10,27 +10,26 @@ PV = "16.2.13.66+g54799ee0666"
 RPM_NAME = "librbd1-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
 RPM_HASH = "532f58a0aadcfaf937fc988a3e7e9bc67ac961fcecdf70e15ca9ad603e8adceabe2f6b8f1779c13c71475cc5445d9677376f0b239eb3db9954282a0a78a2e3cf"
 
-RPROVIDES:${PN} += "libceph_librbd_parent_cache.so.1()(64bit) \
-libceph_librbd_pwl_cache.so.1()(64bit) \
-librbd.so.1()(64bit) \
-librbd1 \
-librbd1(aarch-64) \
-librbd_tp.so.1()(64bit)"
+RPROVIDES:${PN} += "libceph-librbd-parent-cache.so.1 \
+libceph-librbd-pwl-cache.so.1 \
+librbd-tp.so.1 \
+librbd.so.1 \
+librbd1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 coreutils \
-ld-linux-aarch64.so.1()(64bit) \
-libaio.so.1()(64bit) \
-libc.so.6()(64bit) \
-libceph-common.so.2()(64bit) \
-libcrypto.so.3()(64bit) \
-libcryptsetup.so.12()(64bit) \
-libfmt.so.9()(64bit) \
-libgcc_s.so.1()(64bit) \
-liblttng-ust.so.1()(64bit) \
-librados.so.2()(64bit) \
+ld-linux-aarch64.so.1 \
+libaio.so.1 \
+libc.so.6 \
+libceph-common.so.2 \
+libcrypto.so.3 \
+libcryptsetup.so.12 \
+libfmt.so.9 \
+libgcc-s.so.1 \
+liblttng-ust.so.1 \
+librados.so.2 \
 librados2 \
-libssl.so.3()(64bit) \
-libstdc++.so.6()(64bit)"
+libssl.so.3 \
+libstdc++.so.6"
 
 inherit rpm

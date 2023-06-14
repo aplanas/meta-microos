@@ -14,7 +14,7 @@ RPM_NAME = "texlive-newunicodechar-2023.201.1.2svn47382-54.1.noarch.rpm"
 RPM_HASH = "3e585c19a38521ec795d516564a01d4d2a645740fe6eaa182034187ecf243e000d0a3b53817ecbfa28ec6b232bb04a5c6b789c71ff5f7ae11126cd595e3973a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(newunicodechar.sty) \
+RPROVIDES:${PN} += "tex-newunicodechar.sty \
 texlive-newunicodechar"
 
 RDEPENDS:${PN} += "/bin/sh \

@@ -10,32 +10,32 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guake-lang \
 guake-lang-all \
-locale(guake:ca) \
-locale(guake:cs) \
-locale(guake:de) \
-locale(guake:el) \
-locale(guake:es) \
-locale(guake:fa) \
-locale(guake:fi) \
-locale(guake:fr) \
-locale(guake:gl) \
-locale(guake:hr) \
-locale(guake:hu) \
-locale(guake:id) \
-locale(guake:it) \
-locale(guake:ja) \
-locale(guake:ko) \
-locale(guake:nb) \
-locale(guake:nl) \
-locale(guake:pa) \
-locale(guake:pl) \
-locale(guake:pt_BR) \
-locale(guake:ru) \
-locale(guake:sv) \
-locale(guake:tr) \
-locale(guake:uk) \
-locale(guake:zh_CN) \
-locale(guake:zh_TW)"
+locale-guake-ca \
+locale-guake-cs \
+locale-guake-de \
+locale-guake-el \
+locale-guake-es \
+locale-guake-fa \
+locale-guake-fi \
+locale-guake-fr \
+locale-guake-gl \
+locale-guake-hr \
+locale-guake-hu \
+locale-guake-id \
+locale-guake-it \
+locale-guake-ja \
+locale-guake-ko \
+locale-guake-nb \
+locale-guake-nl \
+locale-guake-pa \
+locale-guake-pl \
+locale-guake-pt-BR \
+locale-guake-ru \
+locale-guake-sv \
+locale-guake-tr \
+locale-guake-uk \
+locale-guake-zh-CN \
+locale-guake-zh-TW"
 
 RDEPENDS:${PN} += "guake"
 

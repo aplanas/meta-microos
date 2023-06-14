@@ -14,12 +14,12 @@ RPM_HASH = "5e5e0deb33fdcf065d9214e60882e40bfd153ffc5853837124a8006b7798503ac427
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-cognitiveservices \
-python3.10dist(azure-mgmt-cognitiveservices) \
+python3.10dist-azure-mgmt-cognitiveservices \
 python310-azure-mgmt-cognitiveservices \
-python3dist(azure-mgmt-cognitiveservices)"
+python3dist-azure-mgmt-cognitiveservices"
 
-RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
-python(abi) \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
+python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

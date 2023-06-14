@@ -13,13 +13,13 @@ RPM_HASH = "30c52258b95585f11e2aedf52bfd33b12802b691e62bfdf2b5a7d8060714d6d251d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-scitokens \
-python3.10dist(scitokens) \
+python3.10dist-scitokens \
 python310-scitokens \
-python3dist(scitokens)"
+python3dist-scitokens"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-PyJWT \
 update-alternatives"
 

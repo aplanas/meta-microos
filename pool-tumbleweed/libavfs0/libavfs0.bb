@@ -10,19 +10,17 @@ PV = "1.1.5"
 RPM_NAME = "libavfs0-1.1.5-1.2.aarch64.rpm"
 RPM_HASH = "a8fd485156b2ac76ad22f5b6e6589a79fde2b7555797f47c1f36d1cf4cc32569bb5e1b724c9990b8448094ebf959b310f1ef090a640d169bfe2b7abf0bcb9155"
 
-RPROVIDES:${PN} += "libavfs.so.0()(64bit) \
-libavfs.so.0(LIBAVFS)(64bit) \
-libavfs0 \
-libavfs0(aarch-64)"
+RPROVIDES:${PN} += "libavfs.so.0 \
+libavfs0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbz2.so.1()(64bit) \
-libc.so.6()(64bit) \
-liblz.so.1()(64bit) \
-liblzma.so.5()(64bit) \
-libneon.so.27()(64bit) \
-libz.so.1()(64bit) \
-libzstd.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
+libc.so.6 \
+liblz.so.1 \
+liblzma.so.5 \
+libneon.so.27 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

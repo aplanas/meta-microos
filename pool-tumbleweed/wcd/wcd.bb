@@ -16,14 +16,13 @@ PV = "6.0.5"
 RPM_NAME = "wcd-6.0.5-1.1.aarch64.rpm"
 RPM_HASH = "e195a42c11953a66470e0d93ad64cc1169a928c6d596a0a494361117ffc057494758be2d576ea41491354b73f1bd812c37d4f2a8570178ea3dccf5179c8cd42c"
 
-RPROVIDES:${PN} += "config(wcd) \
-wcd \
-wcd(aarch-64)"
+RPROVIDES:${PN} += "config-wcd \
+wcd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncursesw.so.6()(64bit) \
-libtinfo.so.6()(64bit) \
-libunistring.so.5()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncursesw.so.6 \
+libtinfo.so.6 \
+libunistring.so.5"
 
 inherit rpm

@@ -13,11 +13,11 @@ RPM_HASH = "f4a3a9387460b72ef9a247091f56ba4cfb7354da72e89670792c74419f471c0ff5a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sge-pygame \
-python3.10dist(sge) \
+python3.10dist-sge \
 python310-sge-pygame \
-python3dist(sge)"
+python3dist-sge"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pygame \
 python310-six \
 python310-uniseg"

@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-mgmt-devtestlabs-9.0.0-1.10.noarch.rpm"
 RPM_HASH = "0fd0ea9e696bbc6f4ea9e432b8519bd17c06bd2168fa47288674f447032d312178a27ab9742c4c5e856a4a48f9c4111cce5dbc9ccc922d3f0482607609577415"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-mgmt-devtestlabs) \
+RPROVIDES:${PN} += "python3.11dist-azure-mgmt-devtestlabs \
 python311-azure-mgmt-devtestlabs \
-python3dist(azure-mgmt-devtestlabs)"
+python3dist-azure-mgmt-devtestlabs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

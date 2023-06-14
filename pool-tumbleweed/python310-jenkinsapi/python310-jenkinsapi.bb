@@ -30,14 +30,14 @@ RPM_HASH = "ddf2896aa9676a39d87a228e91a63bc47f2dc0ff5a231898257507fcca32952e198a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jenkinsapi \
-python3.10dist(jenkinsapi) \
+python3.10dist-jenkinsapi \
 python310-jenkinsapi \
-python3dist(jenkinsapi)"
+python3dist-jenkinsapi"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pytz \
 python310-requests \
 python310-six"

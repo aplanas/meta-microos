@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "sendxmpp"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl(:MODULE_COMPAT_5.36.0) \
-perl(IO::Socket::SSL) \
-perl(Net::XMPP)"
+perl--MODULE-COMPAT-5.36.0 \
+perl-IO--Socket--SSL \
+perl-Net--XMPP"
 
 inherit rpm

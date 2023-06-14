@@ -15,11 +15,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Yapsy \
 python3-yapsy \
-python3.10dist(yapsy) \
+python3.10dist-yapsy \
 python310-Yapsy \
 python310-yapsy \
-python3dist(yapsy)"
+python3dist-yapsy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

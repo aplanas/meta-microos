@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-exo-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

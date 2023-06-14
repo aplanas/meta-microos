@@ -9,19 +9,18 @@ RPM_HASH = "83fce9b622f6672884fe0ded4fe9c1a35deff9dd4c05befdb1626e58213fda1e319d
 
 RPROVIDES:${PN} += "appmenu-gtk3 \
 appmenu-gtk3-module \
-appmenu-gtk3-module(aarch-64) \
-libappmenu-gtk-module.so()(64bit)"
+libappmenu-gtk-module.so"
 
 RDEPENDS:${PN} += "/bin/sh \
 appmenu-gtk-module-common \
 gtk3-tools \
-libappmenu-gtk3-parser.so.0()(64bit) \
+libappmenu-gtk3-parser.so.0 \
 libappmenu-gtk3-parser0 \
-libc.so.6()(64bit) \
-libgdk-3.so.0()(64bit) \
-libgio-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-3.so.0()(64bit)"
+libc.so.6 \
+libgdk-3.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-3.so.0"
 
 inherit rpm

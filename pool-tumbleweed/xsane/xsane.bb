@@ -19,28 +19,24 @@ PV = "0.999"
 RPM_NAME = "xsane-0.999-4.1.aarch64.rpm"
 RPM_HASH = "d668cfc37a9de3e294aed2b98c40c32cf2952ef48c92216b0eedd8fec1e488d277e2f76033759b30476c34ebf26d900e6490dd6614a685d493807bd1d09bb08d"
 
-RPROVIDES:${PN} += "application() \
-application(xsane.desktop) \
-gimp-2.0-scanner-plugin \
-xsane \
-xsane(aarch-64)"
+RPROVIDES:${PN} += "gimp-2.0-scanner-plugin \
+xsane"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libgimp-2.0.so.0()(64bit) \
-libgimpbase-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libjpeg.so.8()(64bit) \
-liblcms2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libsane.so.1()(64bit) \
-libtiff.so.6()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgdk-x11-2.0.so.0 \
+libgimp-2.0.so.0 \
+libgimpbase-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libjpeg.so.8 \
+liblcms2.so.2 \
+libm.so.6 \
+libpng16.so.16 \
+libsane.so.1 \
+libtiff.so.6 \
+libz.so.1 \
 sane-backends \
 xdg-utils"
 

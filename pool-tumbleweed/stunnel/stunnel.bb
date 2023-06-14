@@ -9,10 +9,9 @@ PV = "5.69"
 RPM_NAME = "stunnel-5.69-2.1.aarch64.rpm"
 RPM_HASH = "9cc9574d21e5664369595765fe44b69b0984a6a460b7e3ca58614802991bc965ccc07a55727af6c6c8f2c434591bc70c1e51b439a293f3c5523606db805142de"
 
-RPROVIDES:${PN} += "config(stunnel) \
-libstunnel.so()(64bit) \
-stunnel \
-stunnel(aarch-64)"
+RPROVIDES:${PN} += "config-stunnel \
+libstunnel.so \
+stunnel"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
@@ -21,12 +20,12 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/useradd \
 fileutils \
 fillup \
-group(nogroup) \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit) \
-libwrap.so.0()(64bit) \
+group-nogroup \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3 \
+libwrap.so.0 \
 textutils"
 
 inherit rpm

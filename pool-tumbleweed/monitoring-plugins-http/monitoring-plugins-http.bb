@@ -11,12 +11,11 @@ RPM_NAME = "monitoring-plugins-http-2.3.1-9.4.aarch64.rpm"
 RPM_HASH = "7cc24a74fd4ccefc43ede29e87c116a95e5cbabe2e9065b020f1ee4aa91e46512aedeefcd68638a649685336353a32e996ad02610b9353857b099f20950616fc"
 
 RPROVIDES:${PN} += "monitoring-plugins-http \
-monitoring-plugins-http(aarch-64) \
 nagios-plugins-http"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcrypto.so.3()(64bit) \
-libssl.so.3()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcrypto.so.3 \
+libssl.so.3"
 
 inherit rpm

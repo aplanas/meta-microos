@@ -9,13 +9,13 @@ RPM_HASH = "4882bf94d8cff3fe195ef926e75c7f30d6684423a51c22fc66b2eef4d1bc23135290
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hatchling \
-python3.10dist(hatchling) \
+python3.10dist-hatchling \
 python310-hatchling \
-python3dist(hatchling)"
+python3dist-hatchling"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-editables \
 python310-packaging \
 python310-pathspec \

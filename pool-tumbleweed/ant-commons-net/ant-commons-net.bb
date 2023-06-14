@@ -11,15 +11,15 @@ RPM_HASH = "76a322e0b734cc245fd81555678dba04f62a93bcacb6e3d28ef4bfbd87a4f084c7d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-commons-net \
-config(ant-commons-net) \
-mvn(org.apache.ant:ant-commons-net) \
-mvn(org.apache.ant:ant-commons-net:pom:)"
+config-ant-commons-net \
+mvn-org.apache.ant-ant-commons-net \
+mvn-org.apache.ant-ant-commons-net-pom-"
 
 RDEPENDS:${PN} += "ant \
 apache-commons-net \
 java-headless \
 javapackages-filesystem \
-mvn(commons-net:commons-net) \
-mvn(org.apache.ant:ant)"
+mvn-commons-net-commons-net \
+mvn-org.apache.ant-ant"
 
 inherit rpm

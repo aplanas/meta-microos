@@ -10,7 +10,7 @@ RPM_NAME = "texlive-gene-logic-2023.201.1.4svn15878-52.1.noarch.rpm"
 RPM_HASH = "ce99c4367d1e8720fddcd31a8637b2732eadc0834e7aa1aa001eda275306b4ded6c8368659e611f328c89b1c1c1a22a03b41a0a25047e4f1ecdf4e58a8808bd4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(gn-logic14.sty) \
+RPROVIDES:${PN} += "tex-gn-logic14.sty \
 texlive-gene-logic"
 
 RDEPENDS:${PN} += "/bin/sh \

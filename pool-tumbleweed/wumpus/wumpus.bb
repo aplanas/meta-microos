@@ -11,12 +11,8 @@ PV = "1.9"
 RPM_NAME = "wumpus-1.9-1.2.aarch64.rpm"
 RPM_HASH = "bd2850dde929f5845f59ebb4b22687ec65c25de2eed945c7e3183ab677a70648feac5d3170725648c42827b666f09de392e0a679dbc8ce4ac166f9d64d56a695"
 
-RPROVIDES:${PN} += "application() \
-application(superhack.desktop) \
-application(wumpus.desktop) \
-wumpus \
-wumpus(aarch-64)"
+RPROVIDES:${PN} += "wumpus"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit)"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

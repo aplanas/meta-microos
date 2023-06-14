@@ -9,13 +9,13 @@ RPM_HASH = "ca2ca1ccf6d4eabcc30a5db54266818ef160e738422d5adaff2a6faf9265d22b6f0b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-el-api \
-mvn(javax.el:el-api) \
-mvn(javax.el:el-api:pom:) \
-mvn(javax.el:javax.el-api) \
-mvn(javax.el:javax.el-api:pom:) \
-mvn(org.glassfish:javax.el-api) \
-mvn(org.glassfish:javax.el-api:pom:) \
-osgi(javax.el-api)"
+mvn-javax.el-el-api \
+mvn-javax.el-el-api-pom- \
+mvn-javax.el-javax.el-api \
+mvn-javax.el-javax.el-api-pom- \
+mvn-org.glassfish-javax.el-api \
+mvn-org.glassfish-javax.el-api-pom- \
+osgi-javax.el-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

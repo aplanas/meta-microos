@@ -11,16 +11,15 @@ RPM_NAME = "twm-1.0.12-1.6.aarch64.rpm"
 RPM_HASH = "d5b140f3e29f471b11d5c627f59411cf6a38b39b9b95cd527c75b83b3421eb20268fa42a2ceb4101943b318931f0e8b36ec7b0f3e4af789ba0eca0196a528e43"
 
 RPROVIDES:${PN} += "twm \
-twm(aarch-64) \
 windowmanager"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXmu.so.6()(64bit) \
-libXt.so.6()(64bit) \
-libc.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libSM.so.6 \
+libX11.so.6 \
+libXext.so.6 \
+libXmu.so.6 \
+libXt.so.6 \
+libc.so.6"
 
 inherit rpm

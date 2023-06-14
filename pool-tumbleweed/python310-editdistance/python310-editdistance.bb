@@ -14,16 +14,15 @@ RPM_NAME = "python310-editdistance-0.6.2-1.4.aarch64.rpm"
 RPM_HASH = "a091c0c5a7b75ae7650d12f732287cf51bfd1fb4bcc365995552313cf5e3c993aa8230edb51f7975278d283a490d0376479cd242e3ca75a6d23275b69551aca9"
 
 RPROVIDES:${PN} += "python3-editdistance \
-python3.10dist(editdistance) \
+python3.10dist-editdistance \
 python310-editdistance \
-python310-editdistance(aarch-64) \
-python3dist(editdistance)"
+python3dist-editdistance"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python310-base"
 
 inherit rpm

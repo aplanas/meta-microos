@@ -15,8 +15,8 @@ RPM_NAME = "texlive-uebungsblatt-2023.201.1.5.0svn15878-53.1.noarch.rpm"
 RPM_HASH = "072c09ff063290b3b07aa49253e5eb02becd70c691767234d25fa54043781c4b90d45b98a10fbbf6f20319e6ef1fef41506edca976d94ae184108188a1fc74ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(uebungsblatt.cls) \
-tex(uebungsblatt.sty) \
+RPROVIDES:${PN} += "tex-uebungsblatt.cls \
+tex-uebungsblatt.sty \
 texlive-uebungsblatt"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -25,13 +25,13 @@ ed \
 findutils \
 grep \
 sed \
-tex(akkcounterlabelpattern.sty) \
-tex(akkgerman.sty) \
-tex(akktecdoc.cls) \
-tex(amsmath.sty) \
-tex(fancyhdr.sty) \
-tex(ifthen.sty) \
-tex(inputenc.sty) \
+tex-akkcounterlabelpattern.sty \
+tex-akkgerman.sty \
+tex-akktecdoc.cls \
+tex-amsmath.sty \
+tex-fancyhdr.sty \
+tex-ifthen.sty \
+tex-inputenc.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

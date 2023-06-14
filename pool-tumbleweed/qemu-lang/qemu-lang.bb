@@ -9,17 +9,16 @@ PV = "8.0.2"
 RPM_NAME = "qemu-lang-8.0.2-1.1.aarch64.rpm"
 RPM_HASH = "14c0286271aac911c973b1cf610d3cc94c067b8811baa7e91d5615ba6701f1fa01bcb2f18de0d46a8f22afe9389bd89e0b5b8c2b96233a3c160e17683e7d03b3"
 
-RPROVIDES:${PN} += "locale(qemu:bg) \
-locale(qemu:de_DE) \
-locale(qemu:fr_FR) \
-locale(qemu:hu) \
-locale(qemu:it) \
-locale(qemu:sv) \
-locale(qemu:tr) \
-locale(qemu:uk) \
-locale(qemu:zh_CN) \
-qemu-lang \
-qemu-lang(aarch-64)"
+RPROVIDES:${PN} += "locale-qemu-bg \
+locale-qemu-de-DE \
+locale-qemu-fr-FR \
+locale-qemu-hu \
+locale-qemu-it \
+locale-qemu-sv \
+locale-qemu-tr \
+locale-qemu-uk \
+locale-qemu-zh-CN \
+qemu-lang"
 
 RDEPENDS:${PN} += ""
 

@@ -22,13 +22,11 @@ RPM_NAME = "WindowMaker-0.95.9-2.10.aarch64.rpm"
 RPM_HASH = "285c76ef3605dadef449b547f96161c8fc9322ca9e902642ca314486bccd56eea56fc341d63359352810a2668622879d16790960ddfca27d144a950a11cb1e68"
 
 RPROVIDES:${PN} += "WindowMaker \
-WindowMaker(aarch-64) \
-config(WindowMaker) \
-libWINGs.so.3()(64bit) \
-libWMaker.so.1()(64bit) \
-libWUtil.so.5()(64bit) \
-libwraster.so.6()(64bit) \
-libwraster.so.6(LIBWRASTER6)(64bit) \
+config-WindowMaker \
+libWINGs.so.3 \
+libWMaker.so.1 \
+libWUtil.so.5 \
+libwraster.so.6 \
 windowmanager \
 wmaker"
 
@@ -36,24 +34,23 @@ RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \
-ld-linux-aarch64.so.1()(64bit) \
-libMagickWand-7.Q16HDRI.so.10()(64bit) \
-libX11.so.6()(64bit) \
-libXext.so.6()(64bit) \
-libXft.so.2()(64bit) \
-libXinerama.so.1()(64bit) \
-libXmu.so.6()(64bit) \
-libXpm.so.4()(64bit) \
-libc.so.6()(64bit) \
-libexif.so.12()(64bit) \
-libfontconfig.so.1()(64bit) \
-libgif.so.7()(64bit) \
-libjpeg.so.8()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libtiff.so.6()(64bit) \
-libwebp.so.7()(64bit) \
+ld-linux-aarch64.so.1 \
+libMagickWand-7.Q16HDRI.so.10 \
+libX11.so.6 \
+libXext.so.6 \
+libXft.so.2 \
+libXinerama.so.1 \
+libXmu.so.6 \
+libXpm.so.4 \
+libc.so.6 \
+libexif.so.12 \
+libfontconfig.so.1 \
+libgif.so.7 \
+libjpeg.so.8 \
+libm.so.6 \
+libpng16.so.16 \
+libtiff.so.6 \
+libwebp.so.7 \
 wallpaper-branding-openSUSE \
 xdg-menu"
 

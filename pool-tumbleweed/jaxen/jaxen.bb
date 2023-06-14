@@ -12,15 +12,15 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxen \
 jaxen-bootstrap \
-mvn(jaxen:jaxen) \
-mvn(jaxen:jaxen:pom:)"
+mvn-jaxen-jaxen \
+mvn-jaxen-jaxen-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(dom4j:dom4j) \
-mvn(jdom:jdom) \
-mvn(xerces:xercesImpl) \
-mvn(xml-apis:xml-apis) \
-mvn(xom:xom)"
+mvn-dom4j-dom4j \
+mvn-jdom-jdom \
+mvn-xerces-xercesImpl \
+mvn-xml-apis-xml-apis \
+mvn-xom-xom"
 
 inherit rpm

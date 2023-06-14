@@ -10,43 +10,43 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Fragments-lang \
 Fragments-lang-all \
-locale(Fragments:ca) \
-locale(Fragments:cs) \
-locale(Fragments:da) \
-locale(Fragments:de) \
-locale(Fragments:el) \
-locale(Fragments:en_GB) \
-locale(Fragments:eo) \
-locale(Fragments:es) \
-locale(Fragments:eu) \
-locale(Fragments:fi) \
-locale(Fragments:fr) \
-locale(Fragments:fur) \
-locale(Fragments:gl) \
-locale(Fragments:he) \
-locale(Fragments:hr) \
-locale(Fragments:hu) \
-locale(Fragments:id) \
-locale(Fragments:is) \
-locale(Fragments:it) \
-locale(Fragments:ja) \
-locale(Fragments:ko) \
-locale(Fragments:nb) \
-locale(Fragments:nl) \
-locale(Fragments:oc) \
-locale(Fragments:pl) \
-locale(Fragments:pt) \
-locale(Fragments:pt_BR) \
-locale(Fragments:ro) \
-locale(Fragments:ru) \
-locale(Fragments:sk) \
-locale(Fragments:sl) \
-locale(Fragments:sr) \
-locale(Fragments:sv) \
-locale(Fragments:tr) \
-locale(Fragments:uk) \
-locale(Fragments:vi) \
-locale(Fragments:zh_CN)"
+locale-Fragments-ca \
+locale-Fragments-cs \
+locale-Fragments-da \
+locale-Fragments-de \
+locale-Fragments-el \
+locale-Fragments-en-GB \
+locale-Fragments-eo \
+locale-Fragments-es \
+locale-Fragments-eu \
+locale-Fragments-fi \
+locale-Fragments-fr \
+locale-Fragments-fur \
+locale-Fragments-gl \
+locale-Fragments-he \
+locale-Fragments-hr \
+locale-Fragments-hu \
+locale-Fragments-id \
+locale-Fragments-is \
+locale-Fragments-it \
+locale-Fragments-ja \
+locale-Fragments-ko \
+locale-Fragments-nb \
+locale-Fragments-nl \
+locale-Fragments-oc \
+locale-Fragments-pl \
+locale-Fragments-pt \
+locale-Fragments-pt-BR \
+locale-Fragments-ro \
+locale-Fragments-ru \
+locale-Fragments-sk \
+locale-Fragments-sl \
+locale-Fragments-sr \
+locale-Fragments-sv \
+locale-Fragments-tr \
+locale-Fragments-uk \
+locale-Fragments-vi \
+locale-Fragments-zh-CN"
 
 RDEPENDS:${PN} += "Fragments"
 

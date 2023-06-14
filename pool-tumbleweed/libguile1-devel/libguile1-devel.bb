@@ -11,8 +11,7 @@ RPM_NAME = "libguile1-devel-1.8.8-23.11.aarch64.rpm"
 RPM_HASH = "67e0c6551486c0c89b5e4847adad78e06d00a521c21454869ed2793d1929b54c021413c1c9814522456e921832b9d7531622628e96bbd7241c1066b9dc372b89"
 
 RPROVIDES:${PN} += "libguile1-devel \
-libguile1-devel(aarch-64) \
-pkgconfig(guile-1.8)"
+pkgconfig-guile-1.8"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gmp-devel \

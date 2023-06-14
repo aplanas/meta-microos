@@ -13,11 +13,11 @@ RPM_NAME = "python311-azure-ai-language-questionanswering-1.1.0-1.3.noarch.rpm"
 RPM_HASH = "5f01e42588848050e2355177a07826e973de843c8a713e035455d166cb1bf8f1d035eace6420bebf184c0fe69ab7de806a93aef57613c28a49d248d2b5dad3f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-ai-language-questionanswering) \
+RPROVIDES:${PN} += "python3.11dist-azure-ai-language-questionanswering \
 python311-azure-ai-language-questionanswering \
-python3dist(azure-ai-language-questionanswering)"
+python3dist-azure-ai-language-questionanswering"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-ai-language-nspkg \
 python311-azure-ai-nspkg \
 python311-azure-core \

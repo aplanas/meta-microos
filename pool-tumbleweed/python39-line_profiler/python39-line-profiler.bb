@@ -13,18 +13,17 @@ PV = "4.0.3"
 RPM_NAME = "python39-line_profiler-4.0.3-1.2.aarch64.rpm"
 RPM_HASH = "c1bd925655786b103a82772381375f0695a7aa557183d5111cb8f73c5a8c6b60e6e95daed28b6f14004a3162b7eff6161d69a5e0f96f2e21779b30cc6be95e14"
 
-RPROVIDES:${PN} += "python3.9dist(line-profiler) \
-python39-line_profiler \
-python39-line_profiler(aarch-64) \
-python3dist(line-profiler)"
+RPROVIDES:${PN} += "python3.9dist-line-profiler \
+python39-line-profiler \
+python3dist-line-profiler"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+python-abi \
 python39-ipython \
 update-alternatives"
 

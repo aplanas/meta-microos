@@ -10,14 +10,13 @@ PV = "0.8"
 RPM_NAME = "libpocketsphinx1-0.8-5.15.aarch64.rpm"
 RPM_HASH = "2efe5af7e024cc44f36863bead4559115eccd5e568699befc591f78593591cc091ad1d6145dee9f547832b318551044c811ea208a713a339ffb1a3faa696fc53"
 
-RPROVIDES:${PN} += "libpocketsphinx.so.1()(64bit) \
-libpocketsphinx1 \
-libpocketsphinx1(aarch-64)"
+RPROVIDES:${PN} += "libpocketsphinx.so.1 \
+libpocketsphinx1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit) \
-libsphinxbase.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6 \
+libsphinxbase.so.1"
 
 inherit rpm

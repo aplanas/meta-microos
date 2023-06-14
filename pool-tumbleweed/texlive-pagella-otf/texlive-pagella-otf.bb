@@ -11,7 +11,7 @@ RPM_NAME = "texlive-pagella-otf-2023.201.0.0.02svn64705-51.1.noarch.rpm"
 RPM_HASH = "887c3f14b1f7a6eb6aba90fca91217976425d12937dc5f746761f79e5e2320213fc4883c19ac13d0b10e9d7fcabd4b0c6bf925ea14d9b891936d251d63b17fbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pagella-otf.sty) \
+RPROVIDES:${PN} += "tex-pagella-otf.sty \
 texlive-pagella-otf"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,10 +20,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(iftex.sty) \
-tex(textcomp.sty) \
-tex(unicode-math.sty) \
-tex(xkeyval.sty) \
+tex-iftex.sty \
+tex-textcomp.sty \
+tex-unicode-math.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

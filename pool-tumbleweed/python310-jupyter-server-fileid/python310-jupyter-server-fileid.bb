@@ -9,18 +9,16 @@ RPM_HASH = "f3df782d09c25d0b6cb82f4f7223b4372a758955a9f53ada2e72c59f30f3424e7ce2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-server-fileid \
-python3-jupyter_server_fileid \
-python3.10dist(jupyter-server-fileid) \
+python3.10dist-jupyter-server-fileid \
 python310-jupyter-server-fileid \
-python310-jupyter_server_fileid \
-python3dist(jupyter-server-fileid)"
+python3dist-jupyter-server-fileid"
 
-RDEPENDS:${PN} += "(python310-jupyter-server >= 1.15 with python310-jupyter-server < 3) \
+RDEPENDS:${PN} += "-python310-jupyter-server >= 1.15 with python310-jupyter-server < 3 \
 /bin/sh \
 /usr/bin/python3.10 \
 alts \
 jupyter-server-fileid \
-python(abi) \
+python-abi \
 python310-jupyter-events"
 
 inherit rpm

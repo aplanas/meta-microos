@@ -15,10 +15,9 @@ RPM_HASH = "581690b5918cb02d2420f937f438a3003ad4ef7c4c7f11a8a890050455268cec81af
 RPROVIDES:${PN} += "Xerces-c-devel \
 libXerces-c-devel \
 libxerces-c-devel \
-libxerces-c-devel(aarch-64) \
-pkgconfig(xerces-c)"
+pkgconfig-xerces-c"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libxerces-c-3_2"
+libxerces-c-3-2"
 
 inherit rpm

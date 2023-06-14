@@ -18,11 +18,11 @@ RPM_NAME = "python39-cli-helpers-2.3.0-1.4.noarch.rpm"
 RPM_HASH = "c8f94d239277a23e2b1bcc842aa0065fd2b496d9bf732ceab3a66d925380825235f206798e58c1663523bdf9c91f3b2e3184dd5675cd72d719dc1e0acdd7caee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(cli-helpers) \
+RPROVIDES:${PN} += "python3.9dist-cli-helpers \
 python39-cli-helpers \
-python3dist(cli-helpers)"
+python3dist-cli-helpers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python39-Pygments \
 python39-configobj \
 python39-tabulate \

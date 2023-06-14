@@ -13,7 +13,6 @@ RPM_HASH = "17634cb8f526381d9c89b11aafe89fb85e5ed626b56fe1828dedbd7d859eddfa48b4
 
 RPROVIDES:${PN} += "kernel-headers \
 linux-glibc-devel \
-linux-glibc-devel(aarch-64) \
 linux-kernel-headers"
 
 RDEPENDS:${PN} += "/bin/sh \

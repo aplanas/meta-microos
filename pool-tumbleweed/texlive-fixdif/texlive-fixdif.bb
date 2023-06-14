@@ -11,7 +11,7 @@ RPM_NAME = "texlive-fixdif-2023.201.2.0bsvn66015-52.1.noarch.rpm"
 RPM_HASH = "4c1f14d9e503364a56aed74c0c7c0cf8b65e3e3f1f7d385f3ab22688624102257beae1321eb360ceb35e2e868c2f5bca84dc9d0911a041ac94dff5d203288af4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(fixdif.sty) \
+RPROVIDES:${PN} += "tex-fixdif.sty \
 texlive-fixdif"
 
 RDEPENDS:${PN} += "/bin/sh \

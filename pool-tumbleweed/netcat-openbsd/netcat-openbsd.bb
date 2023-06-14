@@ -18,12 +18,11 @@ RPM_HASH = "1a880302ec6d9a309f9c5830fc05a001ec1d7af44a9c390faf4184f76ff4e37417eb
 
 RPROVIDES:${PN} += "nc6 \
 netcat \
-netcat-openbsd \
-netcat-openbsd(aarch-64)"
+netcat-openbsd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libbsd.so.0()(64bit) \
-libc.so.6()(64bit) \
-libresolv.so.2()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbsd.so.0 \
+libc.so.6 \
+libresolv.so.2"
 
 inherit rpm

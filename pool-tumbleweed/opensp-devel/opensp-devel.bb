@@ -10,7 +10,6 @@ RPM_HASH = "937784f276abacee5bfb34fc557645611ee3c87afb9ad572326472c60b11cc88410e
 
 RPROVIDES:${PN} += "OpenSP-devel \
 opensp-devel \
-opensp-devel(aarch-64) \
 sp-devel"
 
 RDEPENDS:${PN} += "glibc-devel \

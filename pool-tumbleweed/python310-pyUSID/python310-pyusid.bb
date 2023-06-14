@@ -10,11 +10,11 @@ RPM_HASH = "85c8137d17a7f12785f92022ea0982c3b41534ff6d32ce72c234d110a08d179a55d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyUSID \
-python3.10dist(pyusid) \
+python3.10dist-pyusid \
 python310-pyUSID \
-python3dist(pyusid)"
+python3dist-pyusid"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow \
 python310-cytoolz \
 python310-dask \

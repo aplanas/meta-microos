@@ -16,11 +16,11 @@ RPM_HASH = "7d694ae12852bc64dddb1e98ec9169bc1cc17b2582fe775597e02f8bc77836e9ab28
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-license-expression \
-python3.10dist(license-expression) \
+python3.10dist-license-expression \
 python310-license-expression \
-python3dist(license-expression)"
+python3dist-license-expression"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-boolean.py"
 
 inherit rpm

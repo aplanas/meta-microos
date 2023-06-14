@@ -11,7 +11,7 @@ RPM_HASH = "d4e9c9c7bfb5855249adf7eb3bcdab9d28e920990c66b1a604f40f0037fe4f7ed51c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty-web \
-config(HyperKitty-web)"
+config-HyperKitty-web"
 
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \

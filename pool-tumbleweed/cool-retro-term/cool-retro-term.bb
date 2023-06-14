@@ -9,31 +9,22 @@ PV = "1.2.0"
 RPM_NAME = "cool-retro-term-1.2.0-2.1.aarch64.rpm"
 RPM_HASH = "6afbaec59882a48a00ab8ba63143d58590eae54508bfa2cbf31b337a8ecc742dbdcafdae428196018e8093b8792f10b5008ad73d26addaf4d7ee79bc2abe5595"
 
-RPROVIDES:${PN} += "application() \
-application(cool-retro-term.desktop) \
-cool-retro-term \
-cool-retro-term(aarch-64) \
-libqmltermwidget.so()(64bit) \
-qt5qmlimport(QMLTermWidget.1)"
+RPROVIDES:${PN} += "cool-retro-term \
+libqmltermwidget.so \
+qt5qmlimport-QMLTermWidget.1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libQt5Core.so.5()(64bit) \
-libQt5Core.so.5(Qt_5)(64bit) \
-libQt5Gui.so.5()(64bit) \
-libQt5Gui.so.5(Qt_5)(64bit) \
-libQt5Network.so.5()(64bit) \
-libQt5Network.so.5(Qt_5)(64bit) \
-libQt5Qml.so.5()(64bit) \
-libQt5Qml.so.5(Qt_5)(64bit) \
-libQt5Quick.so.5()(64bit) \
-libQt5Quick.so.5(Qt_5)(64bit) \
-libQt5Widgets.so.5()(64bit) \
-libQt5Widgets.so.5(Qt_5)(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit) \
-qt5qmlimport(QMLTermWidget.1) \
-qt5qmlimport(QtQuick.2)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Network.so.5 \
+libQt5Qml.so.5 \
+libQt5Quick.so.5 \
+libQt5Widgets.so.5 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+qt5qmlimport-QMLTermWidget.1 \
+qt5qmlimport-QtQuick.2"
 
 inherit rpm

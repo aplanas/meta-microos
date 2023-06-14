@@ -15,13 +15,13 @@ RPM_HASH = "18a4dffbb3b0331137e369b4d35146e553250c26dce885fdc24f08c09109b67b05f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-coconut \
-python3.10dist(coconut) \
-python3dist(coconut)"
+python3.10dist-coconut \
+python3dist-coconut"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-Pygments \
-python3-prompt_toolkit \
+python3-prompt-toolkit \
 python3-pyparsing"
 
 inherit rpm

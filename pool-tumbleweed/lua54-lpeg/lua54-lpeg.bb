@@ -9,11 +9,10 @@ RPM_HASH = "a7a647fa43e6988bbc021866482587ff67edd6c8e021da939ae1ea4d07e118ea486a
 
 RPROVIDES:${PN} += "lua-lpeg \
 lua54-LPeg \
-lua54-lpeg \
-lua54-lpeg(aarch-64)"
+lua54-lpeg"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 lua54"
 
 inherit rpm

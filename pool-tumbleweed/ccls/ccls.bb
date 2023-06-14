@@ -21,20 +21,18 @@ PV = "0.20220729"
 RPM_NAME = "ccls-0.20220729-2.1.aarch64.rpm"
 RPM_HASH = "63a158a555a57d4690c0d77fe4fafe77b481d7579c1cd67ac12ddc3fe4c3e680d1809a638a7e44c9ed547512612b90d5926a531f2a773c831ba24115467252be"
 
-RPROVIDES:${PN} += "bundled(macro_map) \
-bundled(siphash) \
-ccls \
-ccls(aarch-64)"
+RPROVIDES:${PN} += "bundled-macro-map \
+bundled-siphash \
+ccls"
 
 RDEPENDS:${PN} += "clang \
-ld-linux-aarch64.so.1()(64bit) \
-libLLVM.so.16()(64bit) \
-libLLVM.so.16(LLVM_16)(64bit) \
-libc.so.6()(64bit) \
-libclang-cpp.so.16()(64bit) \
+ld-linux-aarch64.so.1 \
+libLLVM.so.16 \
+libc.so.6 \
+libclang-cpp.so.16 \
 libclang-cpp16 \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 llvm"
 
 inherit rpm

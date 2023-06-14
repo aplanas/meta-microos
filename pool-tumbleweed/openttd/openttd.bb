@@ -9,29 +9,23 @@ PV = "13.1"
 RPM_NAME = "openttd-13.1-1.2.aarch64.rpm"
 RPM_HASH = "d1553e4ee88198c427c093d20b3bb5c92e578d151279b933114a344a87c6b2419f4d041923d8ff976ef191083927159ee362c71ff2f2acaa81a384c4adb6bdf6"
 
-RPROVIDES:${PN} += "application() \
-application(openttd.desktop) \
-metainfo() \
-metainfo(openttd.appdata.xml) \
-openttd \
-openttd(aarch-64) \
+RPROVIDES:${PN} += "openttd \
 openttd-gui"
 
-RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
-libc.so.6()(64bit) \
-libfluidsynth.so.3()(64bit) \
-libfontconfig.so.1()(64bit) \
-libfreetype.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libicui18n.so.73()(64bit) \
-libicuuc.so.73()(64bit) \
-liblzma.so.5()(64bit) \
-liblzo2.so.2()(64bit) \
-libm.so.6()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit) \
+RDEPENDS:${PN} += "libSDL2-2.0.so.0 \
+libc.so.6 \
+libfluidsynth.so.3 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libgcc-s.so.1 \
+libicui18n.so.73 \
+libicuuc.so.73 \
+liblzma.so.5 \
+liblzo2.so.2 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1 \
 openttd-data"
 
 inherit rpm

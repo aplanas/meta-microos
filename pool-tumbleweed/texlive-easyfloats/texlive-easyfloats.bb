@@ -13,7 +13,7 @@ RPM_NAME = "texlive-easyfloats-2023.201.1.0.0svn57204-53.1.noarch.rpm"
 RPM_HASH = "60097bb8a1e32bb52a8331897ea33afaa28c067df28cfe534a870519ae56b18e7854de60a0f8a578f27b5c4860a4cf2bc3259d58e2f50f4ef442c5f8b022c7b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(easyfloats.sty) \
+RPROVIDES:${PN} += "tex-easyfloats.sty \
 texlive-easyfloats"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,17 +22,17 @@ ed \
 findutils \
 grep \
 sed \
-tex(array.sty) \
-tex(booktabs.sty) \
-tex(caption.sty) \
-tex(environ.sty) \
-tex(etoolbox.sty) \
-tex(float.sty) \
-tex(graphbox.sty) \
-tex(graphicx.sty) \
-tex(longtable.sty) \
-tex(pgfkeys.sty) \
-tex(subcaption.sty) \
+tex-array.sty \
+tex-booktabs.sty \
+tex-caption.sty \
+tex-environ.sty \
+tex-etoolbox.sty \
+tex-float.sty \
+tex-graphbox.sty \
+tex-graphicx.sty \
+tex-longtable.sty \
+tex-pgfkeys.sty \
+tex-subcaption.sty \
 texlive \
 texlive-caption \
 texlive-environ \

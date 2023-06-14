@@ -22,11 +22,10 @@ RPM_NAME = "perl-experimental-0.031-1.1.noarch.rpm"
 RPM_HASH = "acc5aee0f28c43b95e39b64baa56b0c2161d6140a48c2378ec2699741a3e635803d8da70b74c069e540d6f8a73b9c70ec0211b1a92b96dc8dd81098a6554dd71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(experimental) \
-perl(stable) \
-perl-experimental"
+RPROVIDES:${PN} += "perl-experimental \
+perl-stable"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
-perl(version)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+perl-version"
 
 inherit rpm

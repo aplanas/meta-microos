@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "nautilus-extension-nextcloud"
 RDEPENDS:${PN} += "nautilus \
 nextcloud-desktop \
 python3-nautilus \
-typelib(GObject) \
-typelib(Nautilus)"
+typelib-GObject \
+typelib-Nautilus"
 
 inherit rpm

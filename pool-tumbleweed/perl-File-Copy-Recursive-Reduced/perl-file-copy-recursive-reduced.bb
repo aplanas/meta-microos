@@ -13,9 +13,9 @@ RPM_NAME = "perl-File-Copy-Recursive-Reduced-0.006-1.15.noarch.rpm"
 RPM_HASH = "bf389556ec6001babdba436a21906a021cbef6a2221989b01066fcc19b2e91a98eacb5aa64a3c2286249f311730c321e3f481a1d4e11b763112b41dc35abd262"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(File::Copy::Recursive::Reduced) \
+RPROVIDES:${PN} += "perl-File--Copy--Recursive--Reduced \
 perl-File-Copy-Recursive-Reduced"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

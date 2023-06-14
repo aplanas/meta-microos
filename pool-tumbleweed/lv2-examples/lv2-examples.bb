@@ -12,19 +12,18 @@ PV = "1.18.10"
 RPM_NAME = "lv2-examples-1.18.10-2.1.aarch64.rpm"
 RPM_HASH = "0ae41983e2dfe2bea7f5dcf9315140486f245fd93ee322689ceca8114f4e84dce2e27372e7becadb1813d2192d550f405428cc0f63f65b49c5b159f864d78749"
 
-RPROVIDES:${PN} += "lv2-examples \
-lv2-examples(aarch-64)"
+RPROVIDES:${PN} += "lv2-examples"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcairo.so.2()(64bit) \
-libgdk-x11-2.0.so.0()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libgtk-x11-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libsamplerate.so.0()(64bit) \
-libsndfile.so.1()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcairo.so.2 \
+libgdk-x11-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-x11-2.0.so.0 \
+libm.so.6 \
+libsamplerate.so.0 \
+libsndfile.so.1 \
 lv2"
 
 inherit rpm

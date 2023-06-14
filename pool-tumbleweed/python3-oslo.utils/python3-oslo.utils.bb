@@ -12,10 +12,10 @@ RPM_HASH = "50970ef1e600746693f92ba6fa0cf36a7ad20bcbb3fdc2d5e2fd92607e24900b5a9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.utils \
-python3.10dist(oslo.utils) \
-python3dist(oslo.utils)"
+python3.10dist-oslo.utils \
+python3dist-oslo.utils"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python3-debtcollector \
 python3-iso8601 \
 python3-netaddr \

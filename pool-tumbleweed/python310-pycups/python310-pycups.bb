@@ -9,15 +9,14 @@ RPM_HASH = "12a7f7446f38eb9085bb13880827b4ee3b936bad7da92dbe90211a1b55864c79015d
 
 RPROVIDES:${PN} += "python3-cups \
 python3-pycups \
-python3.10dist(pycups) \
+python3.10dist-pycups \
 python310-cups \
 python310-pycups \
-python310-pycups(aarch-64) \
-python3dist(pycups)"
+python3dist-pycups"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libcups.so.2()(64bit) \
-python(abi)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcups.so.2 \
+python-abi"
 
 inherit rpm

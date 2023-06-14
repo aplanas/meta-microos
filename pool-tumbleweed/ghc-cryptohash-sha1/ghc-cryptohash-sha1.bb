@@ -23,21 +23,20 @@ RPM_NAME = "ghc-cryptohash-sha1-0.11.101.0-4.3.aarch64.rpm"
 RPM_HASH = "0c53d2658a0e007908b795a74f65943e9c30d9a9ab9d947f910380f647855bac6bbc315d9ba90a8a23c3202d8366e4482b73d282367b8ee270d1655fd314faa3"
 
 RPROVIDES:${PN} += "ghc-cryptohash-sha1 \
-ghc-cryptohash-sha1(aarch-64) \
-libHScryptohash-sha1-0.11.101.0-5MfQC56IvYq9IpSDMpmdHb-ghc9.4.5.so()(64bit)"
+libHScryptohash-sha1-0.11.101.0-5MfQC56IvYq9IpSDMpmdHb-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
-libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
-libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \
-libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so()(64bit) \
-libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \
-libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit) \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit) \
-libc.so.6()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libHSarray-0.5.4.0-ghc9.4.5.so \
+libHSbase-4.17.1.0-ghc9.4.5.so \
+libHSbytestring-0.11.4.0-ghc9.4.5.so \
+libHSdeepseq-1.4.8.0-ghc9.4.5.so \
+libHSghc-bignum-1.3-ghc9.4.5.so \
+libHSghc-boot-th-9.4.5-ghc9.4.5.so \
+libHSghc-prim-0.9.0-ghc9.4.5.so \
+libHSpretty-1.1.3.6-ghc9.4.5.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
+libc.so.6 \
+libgmp.so.10 \
+libm.so.6"
 
 inherit rpm

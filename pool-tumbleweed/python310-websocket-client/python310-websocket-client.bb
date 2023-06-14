@@ -13,14 +13,14 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-websocket-client \
 python3-websocket-client-test \
-python3.10dist(websocket-client) \
+python3.10dist-websocket-client \
 python310-websocket-client \
 python310-websocket-client-test \
-python3dist(websocket-client)"
+python3dist-websocket-client"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
-python(abi)"
+python-abi"
 
 inherit rpm

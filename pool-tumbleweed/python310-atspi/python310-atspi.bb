@@ -15,11 +15,11 @@ RPROVIDES:${PN} += "py3atspi \
 python3-atspi \
 python310-atspi"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dbus-python \
 python310-gobject \
-typelib(Atspi) \
-typelib(GLib) \
-typelib(GObject)"
+typelib-Atspi \
+typelib-GLib \
+typelib-GObject"
 
 inherit rpm

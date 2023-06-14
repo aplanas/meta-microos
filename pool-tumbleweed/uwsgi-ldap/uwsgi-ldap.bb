@@ -9,12 +9,11 @@ PV = "2.0.21"
 RPM_NAME = "uwsgi-ldap-2.0.21-2.1.aarch64.rpm"
 RPM_HASH = "fd41f3c10103f5a71269987df0d72f351d9477587ea823318a35f18e74888997c6bc5a02003bae115c806f1e6d60bf0be21820ee2e178119c97937ee56bffead"
 
-RPROVIDES:${PN} += "uwsgi-ldap \
-uwsgi-ldap(aarch-64)"
+RPROVIDES:${PN} += "uwsgi-ldap"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libldap.so.2()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libldap.so.2 \
 uwsgi"
 
 inherit rpm

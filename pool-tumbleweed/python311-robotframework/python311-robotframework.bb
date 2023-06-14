@@ -10,13 +10,13 @@ RPM_NAME = "python311-robotframework-6.0.1-1.4.noarch.rpm"
 RPM_HASH = "89650e32fb1ddd5aa3ec8c2a08ab44e6d889df8663d14074714fe3ccf4f91ec754f5c87dc3634728bb58bebda2733bbe0394eb8f30471b8fddd275138d35ee80"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(robotframework) \
+RPROVIDES:${PN} += "python3.11dist-robotframework \
 python311-robotframework \
-python3dist(robotframework)"
+python3dist-robotframework"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
-python(abi) \
+python-abi \
 python311-setuptools \
 update-alternatives"
 

@@ -12,11 +12,11 @@ RPM_HASH = "cfc85a3748134a2e2ca0c424dd854a32864fa29fd28b8446412032f19890071c6707
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-magnumclient \
-python3.10dist(python-magnumclient) \
-python3dist(python-magnumclient)"
+python3.10dist-python-magnumclient \
+python3dist-python-magnumclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python(abi) \
+python-abi \
 python3-PrettyTable \
 python3-cryptography \
 python3-decorator \

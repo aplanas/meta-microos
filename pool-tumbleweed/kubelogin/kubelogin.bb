@@ -8,8 +8,7 @@ PV = "0.0.24"
 RPM_NAME = "kubelogin-0.0.24-1.4.aarch64.rpm"
 RPM_HASH = "61cbe345d151e8b4195d8cd61bac5519e1106e4f76101e90a22e6a3ce867db1a6c67551f0ba1d0e4b9534e34e598673f538d81160badf273b1bcc461d07242fa"
 
-RPROVIDES:${PN} += "kubelogin \
-kubelogin(aarch-64)"
+RPROVIDES:${PN} += "kubelogin"
 
 RDEPENDS:${PN} += ""
 

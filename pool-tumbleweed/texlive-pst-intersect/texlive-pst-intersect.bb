@@ -10,8 +10,8 @@ RPM_NAME = "texlive-pst-intersect-2023.201.0.0.4svn33210-52.1.noarch.rpm"
 RPM_HASH = "e480dfa16efe6d4fc782edab2eb371fa86902a675420728db6324cacb67fff6e00e8cd7b88a01363b1c14ae7f76f4a52f4003c20d31b040bfd1a6696dfa48adf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(pst-intersect.sty) \
-tex(pst-intersect.tex) \
+RPROVIDES:${PN} += "tex-pst-intersect.sty \
+tex-pst-intersect.tex \
 texlive-pst-intersect"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -20,10 +20,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(pst-func.sty) \
-tex(pst-node.sty) \
-tex(pst-xkey.sty) \
-tex(pstricks.sty) \
+tex-pst-func.sty \
+tex-pst-node.sty \
+tex-pst-xkey.sty \
+tex-pstricks.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

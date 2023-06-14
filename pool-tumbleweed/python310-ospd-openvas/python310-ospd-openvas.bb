@@ -11,14 +11,14 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ospd-openvas \
 python3-ospd \
 python3-ospd-openvas \
-python3.10dist(ospd-openvas) \
+python3.10dist-ospd-openvas \
 python310-ospd \
 python310-ospd-openvas \
-python3dist(ospd-openvas)"
+python3dist-ospd-openvas"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-defusedxml \
 python310-gnupg \
 python310-lxml \

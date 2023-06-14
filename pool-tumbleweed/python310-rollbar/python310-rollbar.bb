@@ -9,13 +9,13 @@ RPM_HASH = "68eb46fb98c81dd71553e7aa2ca3f6a31ec13ac81d60dd29ecf478fb753a1a978eca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rollbar \
-python3.10dist(rollbar) \
+python3.10dist-rollbar \
 python310-rollbar \
-python3dist(rollbar)"
+python3dist-rollbar"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-requests \
 python310-setuptools \
 python310-six \

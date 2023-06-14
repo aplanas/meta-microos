@@ -10,13 +10,12 @@ RPM_NAME = "lua53-luaevent-0.4.6-4.2.aarch64.rpm"
 RPM_HASH = "92f84e9cf13fc5cb57f7bce0d0adc0adbc773a9c5c816b081425f051df7590d1653151eea53e8e5e7288f4e4646104ef7c190de0f12fde7e5ba744baedf2e792"
 
 RPROVIDES:${PN} += "lua53-event \
-lua53-luaevent \
-lua53-luaevent(aarch-64)"
+lua53-luaevent"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libevent-2.1.so.7()(64bit) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libevent-2.1.so.7 \
 lua53 \
 lua53-luasocket"
 

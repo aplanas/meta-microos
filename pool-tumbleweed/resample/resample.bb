@@ -9,11 +9,10 @@ PV = "1.8.1"
 RPM_NAME = "resample-1.8.1-20.26.aarch64.rpm"
 RPM_HASH = "e537870b7c729effcacc0cc904b9be6b6cee79e65acb4cebd8b8e8bf4ec7bfefea33af22f4efb6192adb52aaee0fd7975768fd28a1d4e19b5c33646c14c63393"
 
-RPROVIDES:${PN} += "resample \
-resample(aarch-64)"
+RPROVIDES:${PN} += "resample"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libm.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

@@ -11,11 +11,11 @@ RPM_HASH = "5fc973e641d5da600042daba97f78032015f4813b43ade3aaa3669fcd32573aaae6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-DateTime \
-python3.10dist(datetime) \
+python3.10dist-datetime \
 python310-DateTime \
-python3dist(datetime)"
+python3dist-datetime"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-pytz \
 python310-zope.interface"
 

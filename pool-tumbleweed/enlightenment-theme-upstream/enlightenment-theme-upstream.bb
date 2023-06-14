@@ -10,8 +10,7 @@ RPM_HASH = "af390785c11f065a1d488b6e64963409972ee28c9b62a737a66cb62e13f87d21c40b
 
 RPROVIDES:${PN} += "enlightenment-theme \
 enlightenment-theme-dft \
-enlightenment-theme-upstream \
-enlightenment-theme-upstream(aarch-64)"
+enlightenment-theme-upstream"
 
 RDEPENDS:${PN} += ""
 

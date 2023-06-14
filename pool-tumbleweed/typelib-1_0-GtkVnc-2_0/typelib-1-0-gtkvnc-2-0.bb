@@ -12,24 +12,23 @@ PV = "1.3.1"
 RPM_NAME = "typelib-1_0-GtkVnc-2_0-1.3.1-1.5.aarch64.rpm"
 RPM_HASH = "95e9431d2b9f18b043b87fad11d6eac38b86ded9d343baa4886c9608f5ee450776f6bf7d65ddea9ca1e33321c4f47435bac5cbfe9ab9093c30d06f661fbef49f"
 
-RPROVIDES:${PN} += "typelib(GtkVnc) \
-typelib-1_0-GtkVnc-2_0 \
-typelib-1_0-GtkVnc-2_0(aarch-64)"
+RPROVIDES:${PN} += "typelib-1-0-GtkVnc-2-0 \
+typelib-GtkVnc"
 
-RDEPENDS:${PN} += "libgtk-vnc-2.0.so.0()(64bit) \
-typelib(Atk) \
-typelib(GLib) \
-typelib(GModule) \
-typelib(GObject) \
-typelib(GVnc) \
-typelib(Gdk) \
-typelib(GdkPixbuf) \
-typelib(Gio) \
-typelib(Gtk) \
-typelib(HarfBuzz) \
-typelib(Pango) \
-typelib(cairo) \
-typelib(freetype2) \
-typelib(xlib)"
+RDEPENDS:${PN} += "libgtk-vnc-2.0.so.0 \
+typelib-Atk \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-GVnc \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-HarfBuzz \
+typelib-Pango \
+typelib-cairo \
+typelib-freetype2 \
+typelib-xlib"
 
 inherit rpm

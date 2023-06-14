@@ -9,11 +9,11 @@ RPM_HASH = "38d5c258914eb4ea43dbc5ee38e1e36fa2f12b89f72c7583b4baec0e7ae93cfe7534
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zeep \
-python3.10dist(zeep) \
+python3.10dist-zeep \
 python310-zeep \
-python3dist(zeep)"
+python3dist-zeep"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-attrs \
 python310-cached-property \
 python310-isodate \

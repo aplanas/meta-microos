@@ -12,8 +12,8 @@ RPM_NAME = "texlive-plates-2023.201.0.0.1svn15878-52.1.noarch.rpm"
 RPM_HASH = "20b044c6ecf313c4238f6419818c2d90e050fc6e3ac4431afe3d64b75ac6b54bd93d0e7cb420630a597fb34f57d78a10bec2a2527eb949f34327bcf1c0af4ad1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(endplate.sty) \
-tex(plates.sty) \
+RPROVIDES:${PN} += "tex-endplate.sty \
+tex-plates.sty \
 texlive-plates"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -22,7 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifthen.sty) \
+tex-ifthen.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

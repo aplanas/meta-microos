@@ -9,8 +9,7 @@ RPM_HASH = "d891aca81b2bda15ddc63ac3d01721aa26c7de6baf19ecd05f15ade195fd658f396c
 
 RPROVIDES:${PN} += "libburnia-devel \
 libisoburn-devel \
-libisoburn-devel(aarch-64) \
-pkgconfig(libisoburn-1)"
+pkgconfig-libisoburn-1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libburn-devel \

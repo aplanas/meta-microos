@@ -14,32 +14,31 @@ RPM_NAME = "e16-1.0.24-1.7.aarch64.rpm"
 RPM_HASH = "7c453cf6f42608c2a6d854f69d873bd69a3e18ecfbc974b5020a8a17ac0cfaaf3c9d5ca05bc0372e9e4edde058e6335e1dcbf70b5b5e082ae86ed15127dc548d"
 
 RPROVIDES:${PN} += "e16 \
-e16(aarch-64) \
 enlight \
-libhack.so()(64bit) \
+libhack.so \
 windowmanager"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \
 imlib2-loaders \
-ld-linux-aarch64.so.1()(64bit) \
-libICE.so.6()(64bit) \
-libImlib2.so.1()(64bit) \
-libSM.so.6()(64bit) \
-libX11.so.6()(64bit) \
-libXcomposite.so.1()(64bit) \
-libXdamage.so.1()(64bit) \
-libXext.so.6()(64bit) \
-libXfixes.so.3()(64bit) \
-libXft.so.2()(64bit) \
-libXinerama.so.1()(64bit) \
-libXrandr.so.2()(64bit) \
-libXrender.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgobject-2.0.so.0()(64bit) \
-libm.so.6()(64bit) \
-libpango-1.0.so.0()(64bit) \
-libpangoxft-1.0.so.0()(64bit)"
+ld-linux-aarch64.so.1 \
+libICE.so.6 \
+libImlib2.so.1 \
+libSM.so.6 \
+libX11.so.6 \
+libXcomposite.so.1 \
+libXdamage.so.1 \
+libXext.so.6 \
+libXfixes.so.3 \
+libXft.so.2 \
+libXinerama.so.1 \
+libXrandr.so.2 \
+libXrender.so.1 \
+libc.so.6 \
+libgobject-2.0.so.0 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangoxft-1.0.so.0"
 
 inherit rpm

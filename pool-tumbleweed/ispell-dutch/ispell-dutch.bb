@@ -11,10 +11,9 @@ RPM_NAME = "ispell-dutch-1.5-422.6.aarch64.rpm"
 RPM_HASH = "36d84e8e4e265f065fe52d6f4b7b6652b9256f2c7668df1be47c59cf6bfd96fd68aaba875781aa552d98cc946b2ccc8f885e08d8190a8d4c8b354d823bae1146"
 
 RPROVIDES:${PN} += "idutch \
+ispell-dictionary \
 ispell-dutch \
-ispell-dutch(aarch-64) \
-ispell_dictionary \
-locale(ispell:nl)"
+locale-ispell-nl"
 
 RDEPENDS:${PN} += ""
 

@@ -25,17 +25,16 @@ RPM_NAME = "libtheora-devel-1.1.1-30.8.aarch64.rpm"
 RPM_HASH = "6b00395cd381115dedb8f3a84e5ed920884032f96c74fa6478640b9e4632b79b7a093fecd90ae59fff2b4a285eae21feb17b7ed8c0e17ef7ecde6ddcc9eb4f2c"
 
 RPROVIDES:${PN} += "libtheora-devel \
-libtheora-devel(aarch-64) \
-pkgconfig(theora) \
-pkgconfig(theoradec) \
-pkgconfig(theoraenc)"
+pkgconfig-theora \
+pkgconfig-theoradec \
+pkgconfig-theoraenc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libogg-devel \
 libtheora0 \
 libtheoradec1 \
 libtheoraenc1 \
-pkgconfig(ogg) \
-pkgconfig(theoradec)"
+pkgconfig-ogg \
+pkgconfig-theoradec"
 
 inherit rpm

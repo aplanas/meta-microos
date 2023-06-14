@@ -8,14 +8,13 @@ PV = "1.81"
 RPM_NAME = "python311-biopython-1.81-1.5.aarch64.rpm"
 RPM_HASH = "c8095d04e2ac993ce1efa15002875a987e68798c202daf549c6e33285aa7b6bf7bd41ef89637b53b2a1be3843e806d0f5a7963c640ab60c0b880cdcc87a6620d"
 
-RPROVIDES:${PN} += "python3.11dist(biopython) \
+RPROVIDES:${PN} += "python3.11dist-biopython \
 python311-biopython \
-python311-biopython(aarch-64) \
-python3dist(biopython)"
+python3dist-biopython"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python311-numpy \
 python311-xml"
 

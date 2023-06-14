@@ -10,11 +10,11 @@ RPM_NAME = "python311-openapi-core-0.16.1-1.3.noarch.rpm"
 RPM_HASH = "1778520e9da956c4d1f8869554175ddd38a1514b5f3d6e9a17c067352d7f8b9811b0671e93c55f4e5e058ec45ef507d6fa477cd667b70b4252fcc9742b3c6c55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(openapi-core) \
+RPROVIDES:${PN} += "python3.11dist-openapi-core \
 python311-openapi-core \
-python3dist(openapi-core)"
+python3dist-openapi-core"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-Werkzeug \
 python311-isodate \
 python311-jsonschema-spec \

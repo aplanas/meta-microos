@@ -13,13 +13,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lit \
 python3-lit \
-python3.10dist(lit) \
+python3.10dist-lit \
 python310-lit \
-python3dist(lit)"
+python3dist-lit"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

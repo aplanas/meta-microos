@@ -16,10 +16,10 @@ RPM_HASH = "4d7237da37a72ef2ef4dd1c406c722f35c3caecf081aaced0a8d70ca89c4989855b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-audioread \
-python3.10dist(audioread) \
+python3.10dist-audioread \
 python310-audioread \
-python3dist(audioread)"
+python3dist-audioread"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

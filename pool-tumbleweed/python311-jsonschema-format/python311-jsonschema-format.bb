@@ -19,7 +19,7 @@ python311-jsonpointer \
 python311-jsonschema \
 python311-rfc3339-validator \
 python311-rfc3987 \
-python311-uri_template \
+python311-uri-template \
 python311-webcolors"
 
 inherit rpm

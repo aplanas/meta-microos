@@ -10,28 +10,28 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-lang \
 kicad-lang-all \
-locale(kicad:cs) \
-locale(kicad:da) \
-locale(kicad:de) \
-locale(kicad:el) \
-locale(kicad:en) \
-locale(kicad:es) \
-locale(kicad:es_MX) \
-locale(kicad:fi) \
-locale(kicad:fr) \
-locale(kicad:it) \
-locale(kicad:ja) \
-locale(kicad:ko) \
-locale(kicad:lt) \
-locale(kicad:nl) \
-locale(kicad:pl) \
-locale(kicad:pt) \
-locale(kicad:ru) \
-locale(kicad:sv) \
-locale(kicad:th) \
-locale(kicad:uk) \
-locale(kicad:zh_CN) \
-locale(kicad:zh_TW)"
+locale-kicad-cs \
+locale-kicad-da \
+locale-kicad-de \
+locale-kicad-el \
+locale-kicad-en \
+locale-kicad-es \
+locale-kicad-es-MX \
+locale-kicad-fi \
+locale-kicad-fr \
+locale-kicad-it \
+locale-kicad-ja \
+locale-kicad-ko \
+locale-kicad-lt \
+locale-kicad-nl \
+locale-kicad-pl \
+locale-kicad-pt \
+locale-kicad-ru \
+locale-kicad-sv \
+locale-kicad-th \
+locale-kicad-uk \
+locale-kicad-zh-CN \
+locale-kicad-zh-TW"
 
 RDEPENDS:${PN} += ""
 

@@ -12,12 +12,12 @@ RPM_HASH = "53f7e94c5f64daa7fe58a0493be1b82ff848eafaef99f67b9fa80c6324cc928e2007
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jline \
-mvn(jline:jline) \
-mvn(jline:jline:pom:) \
-osgi(jline)"
+mvn-jline-jline \
+mvn-jline-jline-pom- \
+osgi-jline"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn(org.fusesource.jansi:jansi)"
+mvn-org.fusesource.jansi-jansi"
 
 inherit rpm

@@ -15,9 +15,7 @@ RPM_NAME = "domination-1.2.7-1.1.noarch.rpm"
 RPM_HASH = "69822c94c676cd7a38899684923098fc77b06dacbe3d7234ebc883e642bd599939f0d793b0e74c1b9ddf11bc4d458589c08b450423e74ff44d25255e85fcbe41"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "application() \
-application(domination.desktop) \
-domination"
+RPROVIDES:${PN} += "domination"
 
 RDEPENDS:${PN} += "/bin/sh \
 domination-data \

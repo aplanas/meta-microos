@@ -10,13 +10,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calcurse-lang \
 calcurse-lang-all \
-locale(calcurse:de) \
-locale(calcurse:en_US) \
-locale(calcurse:es) \
-locale(calcurse:fr) \
-locale(calcurse:nl) \
-locale(calcurse:pt_BR) \
-locale(calcurse:ru)"
+locale-calcurse-de \
+locale-calcurse-en-US \
+locale-calcurse-es \
+locale-calcurse-fr \
+locale-calcurse-nl \
+locale-calcurse-pt-BR \
+locale-calcurse-ru"
 
 RDEPENDS:${PN} += "calcurse"
 

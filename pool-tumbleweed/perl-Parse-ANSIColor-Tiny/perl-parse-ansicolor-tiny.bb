@@ -26,9 +26,9 @@ RPM_NAME = "perl-Parse-ANSIColor-Tiny-0.700-1.2.noarch.rpm"
 RPM_HASH = "8c1ee6563d7766b3bcbbdc84dd0889f14f845b778d63e94aea8ccd25c8965c7adce136825a6bfbba0c8c7e112db989f000cac23e0da5747e11c755ef54e31584"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl(Parse::ANSIColor::Tiny) \
+RPROVIDES:${PN} += "perl-Parse--ANSIColor--Tiny \
 perl-Parse-ANSIColor-Tiny"
 
-RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
 
 inherit rpm

@@ -19,8 +19,8 @@ RPM_NAME = "texlive-tex-2023.201.3.141592653svn66186-54.1.noarch.rpm"
 RPM_HASH = "476a8273a261953440b9a11be2e80bf02de8dbbcdcde49ed888c8bc3e67d9291e5d2e614e2c825ba5c0a37c2e03051bada0539838c578cc76f09b72e9728d4d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(initex.1) \
-man(tex.1) \
+RPROVIDES:${PN} += "man-initex.1 \
+man-tex.1 \
 texlive-tex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -29,10 +29,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
-tex(null.tex) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
+tex-null.tex \
 texlive \
 texlive-amsfonts \
 texlive-cm \

@@ -13,17 +13,17 @@ RPM_HASH = "fae91b66cd8036d381cffe1725df5a719e0aff882519cd651b17b51ac2db449fa7a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clatd \
-config(clatd)"
+config-clatd"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 iproute2 \
 iptables \
 perl \
-perl(File::Temp) \
-perl(IO::Socket::IP) \
-perl(Net::DNS) \
-perl(Net::IP) \
+perl-File--Temp \
+perl-IO--Socket--IP \
+perl-Net--DNS \
+perl-Net--IP \
 tayga"
 
 inherit rpm

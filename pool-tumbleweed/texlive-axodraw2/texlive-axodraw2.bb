@@ -19,7 +19,7 @@ RPM_NAME = "texlive-axodraw2-2023.201.2.1.1csvn58155-53.1.noarch.rpm"
 RPM_HASH = "189429dd793e7697452821f9173e622e88e3f7abf29fae1512622e3664f9243d19ed48c1e7c5ab2a225c4a245de12712a279c26e5a62b0158101a5c6222489e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(axodraw2.sty) \
+RPROVIDES:${PN} += "tex-axodraw2.sty \
 texlive-axodraw2"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,11 +28,11 @@ ed \
 findutils \
 grep \
 sed \
-tex(color.sty) \
-tex(graphicx.sty) \
-tex(ifthen.sty) \
-tex(ifxetex.sty) \
-tex(keyval.sty) \
+tex-color.sty \
+tex-graphicx.sty \
+tex-ifthen.sty \
+tex-ifxetex.sty \
+tex-keyval.sty \
 texlive \
 texlive-axodraw2-bin \
 texlive-filesystem \

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "sil-doulos \
 sil-doulos-fonts"
 
 RDEPENDS:${PN} += "/bin/sh \
-aaa_base \
+aaa-base \
 coreutils \
 perl"
 

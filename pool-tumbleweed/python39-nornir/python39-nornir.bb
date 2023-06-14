@@ -16,13 +16,13 @@ RPM_NAME = "python39-nornir-3.3.0-1.8.noarch.rpm"
 RPM_HASH = "6440284804868829ae3b97da6d70b72590533a364a714fe86dee43d3a47ee03226558f20933af7000a9819e1598ff4a7bbe9bd5315be66bf7de03245923eb8c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist(nornir) \
+RPROVIDES:${PN} += "python3.9dist-nornir \
 python39-nornir \
-python3dist(nornir)"
+python3dist-nornir"
 
-RDEPENDS:${PN} += "python(abi) \
-python39-mypy_extensions \
+RDEPENDS:${PN} += "python-abi \
+python39-mypy-extensions \
 python39-ruamel.yaml \
-python39-typing_extensions"
+python39-typing-extensions"
 
 inherit rpm

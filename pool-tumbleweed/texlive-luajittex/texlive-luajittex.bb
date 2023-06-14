@@ -8,8 +8,8 @@ RPM_NAME = "texlive-luajittex-2023.201.svn66186-52.1.noarch.rpm"
 RPM_HASH = "381fe229de834353f83e3c925cbf445e2be7ffb8b2958c8d57131075c79cbdb788427f1a7cf239a90561bcf0a1d600d198c9a51ba2aa2cab0d68f933e4f960af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "man(luajithbtex.1) \
-man(luajittex.1) \
+RPROVIDES:${PN} += "man-luajithbtex.1 \
+man-luajittex.1 \
 texlive-luajittex"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,9 +18,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(language.dat) \
-tex(language.dat.lua) \
-tex(language.def) \
+tex-language.dat \
+tex-language.dat.lua \
+tex-language.def \
 texlive \
 texlive-cm \
 texlive-etex \

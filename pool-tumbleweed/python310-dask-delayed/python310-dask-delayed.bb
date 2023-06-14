@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-dask-delayed \
 python310-dask-delayed"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-dask"
 
 inherit rpm

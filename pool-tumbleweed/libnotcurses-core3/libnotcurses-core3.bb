@@ -13,17 +13,16 @@ PV = "3.0.9"
 RPM_NAME = "libnotcurses-core3-3.0.9-1.5.aarch64.rpm"
 RPM_HASH = "33c75919cd0f9d653183e6fcb8b20f6caadcb41935be238bf9634b4881d0019964b4a37a900406b41e9b62c328beefd7e4c6920cf1ade56d20fd3385de809719"
 
-RPROVIDES:${PN} += "libnotcurses-core.so.3()(64bit) \
-libnotcurses-core3 \
-libnotcurses-core3(aarch-64)"
+RPROVIDES:${PN} += "libnotcurses-core.so.3 \
+libnotcurses-core3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libdeflate.so.0()(64bit) \
-libm.so.6()(64bit) \
-libqrcodegen.so.1()(64bit) \
-libtinfo.so.6()(64bit) \
-libunistring.so.5()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libdeflate.so.0 \
+libm.so.6 \
+libqrcodegen.so.1 \
+libtinfo.so.6 \
+libunistring.so.5"
 
 inherit rpm

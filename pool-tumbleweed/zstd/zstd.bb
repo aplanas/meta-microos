@@ -16,14 +16,13 @@ PV = "1.5.5"
 RPM_NAME = "zstd-1.5.5-3.1.aarch64.rpm"
 RPM_HASH = "0cabcb6bcb6119123c6a0efed767dbaf4251ccc571c4d7b540eefdfde843e9a8b6e905a4fb2776ced8558089cbe741dc245ed747b6c0955a3301deed1acaf219"
 
-RPROVIDES:${PN} += "zstd \
-zstd(aarch-64)"
+RPROVIDES:${PN} += "zstd"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "6c75e5791eca1b9125bdfbf9a33436d453b6382e4b707f7c3efb61d7aa4d40ed0e35
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wtf-peewee \
-python3.10dist(wtf-peewee) \
+python3.10dist-wtf-peewee \
 python310-wtf-peewee \
-python3dist(wtf-peewee)"
+python3dist-wtf-peewee"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WTForms \
 python310-peewee"
 

@@ -11,7 +11,7 @@ RPM_NAME = "texlive-shade-2023.201.1svn22212-53.1.noarch.rpm"
 RPM_HASH = "526b6267bfdd21cff9862ef5bd6e096e15eccc7fbd397bcc95d98e9755fe935a96ee2faad2bc0fa7496aeff2be143018479e6dac1c4521af522983dd9af118db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(shade.tex) \
+RPROVIDES:${PN} += "tex-shade.tex \
 texlive-shade"
 
 RDEPENDS:${PN} += "/bin/sh \

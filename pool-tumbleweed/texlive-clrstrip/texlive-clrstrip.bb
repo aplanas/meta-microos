@@ -9,7 +9,7 @@ RPM_NAME = "texlive-clrstrip-2023.201.svn60363-53.1.noarch.rpm"
 RPM_HASH = "fa0b3091e285f2c504d52d1622131fb50574d1f5fb8bc895fde93d52d9754f86e69ba0626833b28fbb1ff106231e09a22a5c024a819b010ce7060cf8915cd15c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(clrstrip.sty) \
+RPROVIDES:${PN} += "tex-clrstrip.sty \
 texlive-clrstrip"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -18,7 +18,7 @@ ed \
 findutils \
 grep \
 sed \
-tex(expkv.sty) \
+tex-expkv.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,13 +9,11 @@ PV = "4"
 RPM_NAME = "farbfeld-4-2.3.aarch64.rpm"
 RPM_HASH = "975e5bde85e6ea47e70a7c268034b9015520d6c96a136a03a26403d58c057c5de0a1ffef4406631025994eca0e2703fa87a1967cbe9c162555ded43d082c9bfe"
 
-RPROVIDES:${PN} += "farbfeld \
-farbfeld(aarch-64)"
+RPROVIDES:${PN} += "farbfeld"
 
 RDEPENDS:${PN} += "/bin/sh \
-libc.so.6()(64bit) \
-libjpeg.so.8()(64bit) \
-libpng16.so.16()(64bit) \
-libpng16.so.16(PNG16_0)(64bit)"
+libc.so.6 \
+libjpeg.so.8 \
+libpng16.so.16"
 
 inherit rpm

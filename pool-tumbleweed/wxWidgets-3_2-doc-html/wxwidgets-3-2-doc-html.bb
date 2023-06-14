@@ -13,7 +13,7 @@ RPM_NAME = "wxWidgets-3_2-doc-html-3.2.2.1-3.1.noarch.rpm"
 RPM_HASH = "20256b86244d58403e5dfe698ae5196a7831d3c8fbf85ec302b13b4678faa8c18cceb7ee552183734c95155a459faf59267d342f966741d39f06cb43974eb297"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "wxWidgets-3_2-doc-html"
+RPROVIDES:${PN} += "wxWidgets-3-2-doc-html"
 
 RDEPENDS:${PN} += ""
 

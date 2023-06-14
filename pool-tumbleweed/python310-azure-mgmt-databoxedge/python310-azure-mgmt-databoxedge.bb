@@ -14,11 +14,11 @@ RPM_HASH = "df18b1dfad92d2ba8e5b21fd24c95c71186c66fa5cef745171cf23486a286b688f49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-databoxedge \
-python3.10dist(azure-mgmt-databoxedge) \
+python3.10dist-azure-mgmt-databoxedge \
 python310-azure-mgmt-databoxedge \
-python3dist(azure-mgmt-databoxedge)"
+python3dist-azure-mgmt-databoxedge"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

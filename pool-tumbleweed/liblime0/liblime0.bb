@@ -18,16 +18,15 @@ PV = "5.2.49"
 RPM_NAME = "liblime0-5.2.49-1.1.aarch64.rpm"
 RPM_HASH = "1adf079f9362b6e4013ba5f20f5ebfcf6073aec9709f84722a29e681ca84d2723d9cc12b40e65e5e607bc5f7841cebe4ed595f11a9ee900d1c6e43ee3b9a73e7"
 
-RPROVIDES:${PN} += "liblime.so.0()(64bit) \
-liblime0 \
-liblime0(aarch-64)"
+RPROVIDES:${PN} += "liblime.so.0 \
+liblime0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libbctoolbox.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsoci_core.so.4.0()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libbctoolbox.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsoci-core.so.4.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_NAME = "texlive-bagpipe-2023.201.3.02svn34393-53.1.noarch.rpm"
 RPM_HASH = "7573c6e7e281dcef1278151ba45fe9eaf6aebabc382a42cb19d46b69f609db93d5b5a11b1626fd378001f04247150b0d106c822f5720e22766f3e7361af2752e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bagpipe.tex) \
+RPROVIDES:${PN} += "tex-bagpipe.tex \
 texlive-bagpipe"
 
 RDEPENDS:${PN} += "/bin/sh \

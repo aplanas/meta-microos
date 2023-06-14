@@ -11,8 +11,8 @@ RPM_NAME = "texlive-babel-dutch-2023.201.3.8lsvn60362-53.1.noarch.rpm"
 RPM_HASH = "2f56b52454d4f7cdea0beb00324de402f6489b49051563615f92a25bcb2a6f4bf89488d11da698dba13199866f36dd756300e1fe5b10e5d07b812976c7c66de6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(afrikaans.ldf) \
-tex(dutch.ldf) \
+RPROVIDES:${PN} += "tex-afrikaans.ldf \
+tex-dutch.ldf \
 texlive-babel-dutch"
 
 RDEPENDS:${PN} += "/bin/sh \

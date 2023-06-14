@@ -12,8 +12,7 @@ PV = "1.13.1"
 RPM_NAME = "adios-openmpi2-devel-static-1.13.1-5.12.aarch64.rpm"
 RPM_HASH = "d45c41b8dbcaa28d6efac39e24b504ef021cc468333a5bdeee5ee756f8637b94a1cbd7278210b9d8b71cfe00b67622cf5032a602ee127523552515f203859be8"
 
-RPROVIDES:${PN} += "adios-openmpi2-devel-static \
-adios-openmpi2-devel-static(aarch-64)"
+RPROVIDES:${PN} += "adios-openmpi2-devel-static"
 
 RDEPENDS:${PN} += ""
 

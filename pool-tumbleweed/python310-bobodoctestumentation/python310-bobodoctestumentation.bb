@@ -12,11 +12,11 @@ RPM_HASH = "45fe602ec98991daf1d8d8ee95bf9fa8bdd91f15b4a80a21481c16c242f6d4acb899
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bobodoctestumentation \
-python3.10dist(bobodoctestumentation) \
+python3.10dist-bobodoctestumentation \
 python310-bobodoctestumentation \
-python3dist(bobodoctestumentation)"
+python3dist-bobodoctestumentation"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-WebTest \
 python310-manuel \
 python310-six \

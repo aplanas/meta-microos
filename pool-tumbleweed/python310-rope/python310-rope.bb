@@ -20,11 +20,11 @@ RPM_HASH = "0fe61b9a705eb7159b07952d8b2f2c62353ff6e5294603a4deece8249da1c635e6b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rope \
-python3.10dist(rope) \
+python3.10dist-rope \
 python310-rope \
-python3dist(rope)"
+python3dist-rope"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310 \
 python310-pytoolconfig-global"
 

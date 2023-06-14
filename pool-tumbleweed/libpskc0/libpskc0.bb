@@ -11,14 +11,13 @@ PV = "2.6.7"
 RPM_NAME = "libpskc0-2.6.7-3.5.aarch64.rpm"
 RPM_HASH = "5f2b9e0868f21674425d99ae561f32930fa35e3610ae4291023419ea62a818c376c935a175fcad1edaf6ad745f5202eb804c5d0964d88656515e1f794a1694d3"
 
-RPROVIDES:${PN} += "libpskc.so.0()(64bit) \
-libpskc0 \
-libpskc0(aarch-64)"
+RPROVIDES:${PN} += "libpskc.so.0 \
+libpskc0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libxml2.so.2()(64bit) \
-libxmlsec1.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libxml2.so.2 \
+libxmlsec1.so.1"
 
 inherit rpm

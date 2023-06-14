@@ -11,12 +11,11 @@ PV = "3.3.1+git0.a07260f19"
 RPM_NAME = "ceph-csi-3.3.1+git0.a07260f19-1.12.aarch64.rpm"
 RPM_HASH = "7f5af96e5fa7f58e44f0792737c72671d98b293c44ddc33abb9ad6fe3ece90efb4f957dd7c23f589aa8ffa6b5558d35b4847a5b1b4ec1262a22187c921910e5c"
 
-RPROVIDES:${PN} += "ceph-csi \
-ceph-csi(aarch-64)"
+RPROVIDES:${PN} += "ceph-csi"
 
-RDEPENDS:${PN} += "libc.so.6()(64bit) \
-librados.so.2()(64bit) \
-librbd.so.1()(64bit) \
-pattern()"
+RDEPENDS:${PN} += "libc.so.6 \
+librados.so.2 \
+librbd.so.1 \
+pattern-"
 
 inherit rpm

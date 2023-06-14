@@ -9,7 +9,7 @@ RPM_HASH = "b6668a9e94afbb6de90fc8b65174f8365a7359567bd97f600228066afe615e08aebc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/sh \
-alternative(sh) \
+alternative-sh \
 dash-sh"
 
 RDEPENDS:${PN} += "dash"

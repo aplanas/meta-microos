@@ -10,14 +10,13 @@ PV = "1.12.2"
 RPM_NAME = "libhdf5_hl_cpp_1_12_2-gnu-openmpi2-hpc-1.12.2-5.2.aarch64.rpm"
 RPM_HASH = "636590d0063d7c12a70ada9dca82627bd807f88d27cae021a6fb63f23cc260c3a65e5705e4cb70de2d14b96c6c9ac00fe2780555acdf2ee76fe17805112ece80"
 
-RPROVIDES:${PN} += "libhdf5_hl_cpp_1_12_2-gnu-openmpi2-hpc \
-libhdf5_hl_cpp_1_12_2-gnu-openmpi2-hpc(aarch-64)"
+RPROVIDES:${PN} += "libhdf5-hl-cpp-1-12-2-gnu-openmpi2-hpc"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-hdf5_1_12_2-gnu-openmpi2-hpc-module \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+hdf5-1-12-2-gnu-openmpi2-hpc-module \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -12,14 +12,13 @@ PV = "20070708"
 RPM_NAME = "fuseiso-20070708-50.28.aarch64.rpm"
 RPM_HASH = "dc47d8136c93360285b2aa785a7f44af280c90f80f0147bbe28bbf27cbfd46334863bd34648f7763e786154de976c844e62cd4c81702bfda1d72177687fca9fc"
 
-RPROVIDES:${PN} += "fuseiso \
-fuseiso(aarch-64)"
+RPROVIDES:${PN} += "fuseiso"
 
 RDEPENDS:${PN} += "fuse \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libfuse.so.2()(64bit) \
-libglib-2.0.so.0()(64bit) \
-libz.so.1()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libfuse.so.2 \
+libglib-2.0.so.0 \
+libz.so.1"
 
 inherit rpm

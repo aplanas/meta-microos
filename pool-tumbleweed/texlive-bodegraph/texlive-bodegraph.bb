@@ -10,7 +10,7 @@ RPM_NAME = "texlive-bodegraph-2023.201.1.4svn61719-52.1.noarch.rpm"
 RPM_HASH = "383b4e0a2e0d8b36122b61b6c2fc02051356550f5cc7f1f9fa41582df8c0f901ba7ea4b9a223e92be9c3c69b60f7ff9d4eed019527948e8821d16b41dadf0fb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(bodegraph.sty) \
+RPROVIDES:${PN} += "tex-bodegraph.sty \
 texlive-bodegraph"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -19,9 +19,9 @@ ed \
 findutils \
 grep \
 sed \
-tex(ifsym.sty) \
-tex(ifthen.sty) \
-tex(tikz.sty) \
+tex-ifsym.sty \
+tex-ifthen.sty \
+tex-tikz.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -10,7 +10,7 @@ RPM_NAME = "xfs_undelete-12.0-1.2.noarch.rpm"
 RPM_HASH = "41b83d1af953a9ef80d9827a3b43fdf0fe53045a2746891345793cacb2be7230c686d3c74db9a235d31657255bba7878697eeedb9f29822be7c7f11e13501e24"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "xfs_undelete"
+RPROVIDES:${PN} += "xfs-undelete"
 
 RDEPENDS:${PN} += "/usr/bin/tclsh \
 coreutils \

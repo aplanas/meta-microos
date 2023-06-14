@@ -12,12 +12,11 @@ PV = "1.0"
 RPM_NAME = "ftop-1.0-2.5.aarch64.rpm"
 RPM_HASH = "bce3279e006a6218e36251441d4253e48ef4895a64afb137b9473415b1832e58f916d31ceb41d2dafec52dcec1979455c5ca7884d8082727c0844528a8e9ce37"
 
-RPROVIDES:${PN} += "ftop \
-ftop(aarch-64)"
+RPROVIDES:${PN} += "ftop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libncurses.so.6()(64bit) \
-libtinfo.so.6()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -10,11 +10,11 @@ RPM_HASH = "38fe085f1477269fa96ee1c276c3c95df3a09e45e706e4a5f37b6a690d173755db56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyocr \
-python3.10dist(pyocr) \
+python3.10dist-pyocr \
 python310-pyocr \
-python3dist(pyocr)"
+python3dist-pyocr"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-Pillow"
 
 inherit rpm

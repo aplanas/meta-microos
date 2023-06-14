@@ -7,15 +7,14 @@ PV = "2.3.1"
 RPM_NAME = "libvmaf1-2.3.1-3.2.aarch64.rpm"
 RPM_HASH = "c8913baec4ab84faa8648bcd04a59025c1e2aa0a2d92c84a3024c7b9aaf35d59de398404c4ec5ae36737be5534695536f83d004127db17e8fe048840cbbaa261"
 
-RPROVIDES:${PN} += "libvmaf.so.1()(64bit) \
-libvmaf1 \
-libvmaf1(aarch-64)"
+RPROVIDES:${PN} += "libvmaf.so.1 \
+libvmaf1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

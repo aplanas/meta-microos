@@ -9,13 +9,13 @@ RPM_HASH = "edc52d4fdd30078e0a71ffd508456e0b8b980e1972404b599555a02a4fffb3d16baf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-codecov \
-python3.10dist(codecov) \
+python3.10dist-codecov \
 python310-codecov \
-python3dist(codecov)"
+python3dist-codecov"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-coverage \
 python310-requests \
 update-alternatives"

@@ -16,9 +16,9 @@ RPM_HASH = "83dea4b64fdc041d5c4c937d529a00c4950995a7c3404f9bf814c10c6ffce0cbab4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-time \
-mvn(joda-time:joda-time) \
-mvn(joda-time:joda-time:pom:) \
-osgi(joda-time)"
+mvn-joda-time-joda-time \
+mvn-joda-time-joda-time-pom- \
+osgi-joda-time"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

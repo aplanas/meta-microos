@@ -13,9 +13,9 @@ RPM_HASH = "7057c1b7e9b245dd52e6b04f2090330adddaa8cae1a970a6809492b92129e40c0227
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-activation \
-mvn(com.sun.activation:javax.activation) \
-mvn(com.sun.activation:javax.activation:pom:) \
-osgi(com.sun.activation.javax.activation)"
+mvn-com.sun.activation-javax.activation \
+mvn-com.sun.activation-javax.activation-pom- \
+osgi-com.sun.activation.javax.activation"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

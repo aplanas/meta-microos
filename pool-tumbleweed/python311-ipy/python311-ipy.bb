@@ -12,10 +12,10 @@ RPM_NAME = "python311-ipy-1.01-1.10.noarch.rpm"
 RPM_HASH = "0b5cd5d57ccac6a4263726d57ea42d077763f11dbf8d7335b4437bbcfc8c0da68598ad802630d7bc9b38f01932194e0413df493dd4f3178dff4cf1ade72f0773"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(ipy) \
+RPROVIDES:${PN} += "python3.11dist-ipy \
 python311-ipy \
-python3dist(ipy)"
+python3dist-ipy"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

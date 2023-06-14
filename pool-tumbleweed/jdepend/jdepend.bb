@@ -13,8 +13,8 @@ RPM_HASH = "2a1680e27fd7562bf1c5fd1eb3d5d3b31c8fefd2ccb62f9eacdb014036ce6364f5d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdepend \
-mvn(jdepend:jdepend) \
-mvn(jdepend:jdepend:pom:)"
+mvn-jdepend-jdepend \
+mvn-jdepend-jdepend-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"

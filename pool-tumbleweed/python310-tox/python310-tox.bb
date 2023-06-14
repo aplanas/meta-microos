@@ -21,16 +21,16 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-detox \
 python3-tox \
-python3.10dist(tox) \
+python3.10dist-tox \
 python310-detox \
 python310-tox \
-python3dist(tox) \
+python3dist-tox \
 tox"
 
-RDEPENDS:${PN} += "(python310-importlib-metadata >= 0.12 if python3-base < 3.8) \
+RDEPENDS:${PN} += "-python310-importlib-metadata >= 0.12 if python3-base < 3.8 \
 /bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-cachetools \
 python310-chardet \
 python310-colorama \

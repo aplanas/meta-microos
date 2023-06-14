@@ -56,10 +56,10 @@ RPM_HASH = "4286b3c40b43b12d4caaf32a0e9e9c9595700f31dbf2c78612a4c17d55eaddb138a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.testing \
-python3.10dist(zope.testing) \
+python3.10dist-zope.testing \
 python310-zope.testing \
-python3dist(zope.testing)"
+python3dist-zope.testing"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

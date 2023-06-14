@@ -9,13 +9,13 @@ RPM_HASH = "bc5311e53394ce8c5849a86763518cd69056a33f3e2583184f6f5ffc200d4a78e537
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ExifRead \
-python3.10dist(exifread) \
+python3.10dist-exifread \
 python310-ExifRead \
-python3dist(exifread)"
+python3dist-exifread"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 update-alternatives"
 
 inherit rpm

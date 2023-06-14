@@ -16,14 +16,13 @@ PV = "2.4.2"
 RPM_NAME = "eiskaltdcpp-daemon-2.4.2-1.13.aarch64.rpm"
 RPM_HASH = "2239e738eb12ba8b7208769907afafe1afc962f861113ef94415adc308517d2e50f3228cf766d4fdfc3347956c67903e4a22d435ecf2b92de79a042921281e53"
 
-RPROVIDES:${PN} += "eiskaltdcpp-daemon \
-eiskaltdcpp-daemon(aarch-64)"
+RPROVIDES:${PN} += "eiskaltdcpp-daemon"
 
 RDEPENDS:${PN} += "eiskaltdcpp-common \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libeiskaltdcpp.so.2.4()(64bit) \
-libgcc_s.so.1()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libeiskaltdcpp.so.2.4 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

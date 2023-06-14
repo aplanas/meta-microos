@@ -10,11 +10,11 @@ RPM_NAME = "python311-azure-cognitiveservices-search-imagesearch-2.0.0-2.15.noar
 RPM_HASH = "d93d71b878f04b9e1968b3fa861e5c658704e643c014f1a37186e0beadb502f7573843f8d2b7348eafd0b7d0acb4b2fab588bff004881496617f1972beef632b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-search-imagesearch) \
+RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-imagesearch \
 python311-azure-cognitiveservices-search-imagesearch \
-python3dist(azure-cognitiveservices-search-imagesearch)"
+python3dist-azure-cognitiveservices-search-imagesearch"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-cognitiveservices-nspkg \
 python311-azure-cognitiveservices-search-nspkg \
 python311-azure-common \

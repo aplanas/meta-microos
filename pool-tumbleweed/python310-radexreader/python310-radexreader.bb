@@ -14,13 +14,13 @@ RPM_HASH = "402e234fc64712e78581a20ead5d2069b0c57edd80cbbff02b10d0a9a645d12051a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-radexreader \
-python3.10dist(radexreader) \
+python3.10dist-radexreader \
 python310-radexreader \
-python3dist(radexreader)"
+python3dist-radexreader"
 
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
-python(abi) \
+python-abi \
 python310-pyserial \
 python310-pyusb \
 update-alternatives"

@@ -20,8 +20,8 @@ RPM_NAME = "texlive-guitlogo-2023.201.1.0.0_alpha.4svn55741-53.1.noarch.rpm"
 RPM_HASH = "73e3ac199204396211744997081657950086f74aeca586f1844b45d02000939902c5128e356c25236fa3ec4c7646e43817053ddfa0cdd32ea0e0836271374b1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex(guit.cfg) \
-tex(guit.sty) \
+RPROVIDES:${PN} += "tex-guit.cfg \
+tex-guit.sty \
 texlive-guitlogo"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -30,10 +30,10 @@ ed \
 findutils \
 grep \
 sed \
-tex(graphics.sty) \
-tex(url.sty) \
-tex(xcolor.sty) \
-tex(xkeyval.sty) \
+tex-graphics.sty \
+tex-url.sty \
+tex-xcolor.sty \
+tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

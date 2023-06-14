@@ -24,18 +24,17 @@ RPROVIDES:${PN} += "python3-tornado \
 python3-tornado-impl \
 python3-tornado6 \
 python3-toro \
-python3.10dist(tornado) \
+python3.10dist-tornado \
 python310-tornado \
 python310-tornado-impl \
 python310-tornado6 \
-python310-tornado6(aarch-64) \
 python310-toro \
-python3dist(tornado)"
+python3dist-tornado"
 
 RDEPENDS:${PN} += "/bin/sh \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-python(abi) \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+python-abi \
 python310"
 
 inherit rpm

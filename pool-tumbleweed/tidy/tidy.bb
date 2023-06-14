@@ -13,11 +13,10 @@ PV = "5.8.0"
 RPM_NAME = "tidy-5.8.0-1.8.aarch64.rpm"
 RPM_HASH = "639f025c3f63d100a36643b6ddd77d643f4801b080a5d1b14d7054a3b5ed18ca2d8dad810b3925da953b99831358684a802f867bf2a5d06e552277a2e1aeca9b"
 
-RPROVIDES:${PN} += "tidy \
-tidy(aarch-64)"
+RPROVIDES:${PN} += "tidy"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libtidy.so.58()(64bit)"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtidy.so.58"
 
 inherit rpm

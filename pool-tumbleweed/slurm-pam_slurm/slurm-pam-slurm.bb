@@ -10,12 +10,11 @@ PV = "23.02.2"
 RPM_NAME = "slurm-pam_slurm-23.02.2-1.1.aarch64.rpm"
 RPM_HASH = "5d2ac66639a5d8f0050c1d671ec59601f73a4c9633a5054b79f07cecc15c4202ead01a44091566b0bae4be2205e84289634adf484367f937bf9028d525bc74ee"
 
-RPROVIDES:${PN} += "slurm-pam_slurm \
-slurm-pam_slurm(aarch-64)"
+RPROVIDES:${PN} += "slurm-pam-slurm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libslurm.so.39()(64bit) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libslurm.so.39 \
 slurm-node"
 
 inherit rpm

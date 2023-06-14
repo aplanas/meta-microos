@@ -15,11 +15,11 @@ RPM_NAME = "python311-extension-helpers-1.0.0-1.10.noarch.rpm"
 RPM_HASH = "429a1729c7160d6b383614618e471517ce45caa77a3738033ab18e1da7902649257e9dec6034400510c7f1027766a015b765618a40f3a870adc6791ea621891f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(extension-helpers) \
+RPROVIDES:${PN} += "python3.11dist-extension-helpers \
 python311-extension-helpers \
-python3dist(extension-helpers)"
+python3dist-extension-helpers"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python311-setuptools"
 
 inherit rpm

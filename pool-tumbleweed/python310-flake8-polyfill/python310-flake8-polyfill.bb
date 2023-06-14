@@ -10,11 +10,11 @@ RPM_HASH = "10b8d8d1f62cbc396caa3e9c31f4db59f01a732c30f56600e3261f6937ab9904d4ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-polyfill \
-python3.10dist(flake8-polyfill) \
+python3.10dist-flake8-polyfill \
 python310-flake8-polyfill \
-python3dist(flake8-polyfill)"
+python3dist-flake8-polyfill"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-flake8"
 
 inherit rpm

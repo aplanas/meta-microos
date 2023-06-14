@@ -10,18 +10,17 @@ PV = "1.3.1"
 RPM_NAME = "ruby3.2-rubygem-gettext_i18n_rails_js-1.3.1-1.9.aarch64.rpm"
 RPM_HASH = "e06214fa40d947bf754e6988bf7798e0d1a650698694b8ad0f1b3bff5672d246bc1e54f9a0a465c1bc396d264b4fba9be783cdd75fe86114fcb2b26ca5463710"
 
-RPROVIDES:${PN} += "ruby3.2-rubygem-gettext_i18n_rails_js \
-ruby3.2-rubygem-gettext_i18n_rails_js(aarch-64) \
-rubygem(gettext_i18n_rails_js) \
-rubygem(ruby:3.2.0:gettext_i18n_rails_js) \
-rubygem(ruby:3.2.0:gettext_i18n_rails_js:1) \
-rubygem(ruby:3.2.0:gettext_i18n_rails_js:1.3) \
-rubygem(ruby:3.2.0:gettext_i18n_rails_js:1.3.1)"
+RPROVIDES:${PN} += "ruby3.2-rubygem-gettext-i18n-rails-js \
+rubygem-gettext-i18n-rails-js \
+rubygem-ruby-3.2.0-gettext-i18n-rails-js \
+rubygem-ruby-3.2.0-gettext-i18n-rails-js-1 \
+rubygem-ruby-3.2.0-gettext-i18n-rails-js-1.3 \
+rubygem-ruby-3.2.0-gettext-i18n-rails-js-1.3.1"
 
-RDEPENDS:${PN} += "ruby(abi) \
-rubygem(ruby:3.2.0:gettext) \
-rubygem(ruby:3.2.0:gettext_i18n_rails) \
-rubygem(ruby:3.2.0:po_to_json) \
-rubygem(ruby:3.2.0:rails)"
+RDEPENDS:${PN} += "ruby-abi \
+rubygem-ruby-3.2.0-gettext \
+rubygem-ruby-3.2.0-gettext-i18n-rails \
+rubygem-ruby-3.2.0-po-to-json \
+rubygem-ruby-3.2.0-rails"
 
 inherit rpm

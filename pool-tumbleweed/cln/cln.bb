@@ -24,18 +24,17 @@ RPM_NAME = "cln-1.3.6-2.12.aarch64.rpm"
 RPM_HASH = "b3acd1e4811cbfb1684492ed2505d332bdeec005677728d5499ed47246c88d6edef4abfb82d9af325d719f360db36441f556b6b268c0dbeab10fe6a4d46d03a9"
 
 RPROVIDES:${PN} += "cln \
-cln(aarch-64) \
 libcln \
-libcln.so.6()(64bit) \
+libcln.so.6 \
 pi"
 
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
-ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libgmp.so.10()(64bit) \
-libm.so.6()(64bit) \
-libstdc++.so.6()(64bit)"
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgmp.so.10 \
+libm.so.6 \
+libstdc++.so.6"
 
 inherit rpm

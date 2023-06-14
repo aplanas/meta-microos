@@ -22,17 +22,16 @@ PV = "1.4.4"
 RPM_NAME = "python311-pysndfile-1.4.4-1.5.aarch64.rpm"
 RPM_HASH = "fb36384e08ce18e54643e54c4b35980a640d0591a86d96706ae09939f18eab086f6247743cc3e93ee5268a670ea69dc894483b30d4fdf402c32e2cf908523a36"
 
-RPROVIDES:${PN} += "python3.11dist(pysndfile) \
+RPROVIDES:${PN} += "python3.11dist-pysndfile \
 python311-pysndfile \
-python311-pysndfile(aarch-64) \
-python3dist(pysndfile)"
+python3dist-pysndfile"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
-libc.so.6()(64bit) \
-libgcc_s.so.1()(64bit) \
-libsndfile.so.1()(64bit) \
-libstdc++.so.6()(64bit) \
-python(abi) \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libsndfile.so.1 \
+libstdc++.so.6 \
+python-abi \
 python311-numpy"
 
 inherit rpm

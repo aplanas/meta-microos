@@ -14,12 +14,12 @@ RPM_NAME = "python311-pyxdg-0.28-2.1.noarch.rpm"
 RPM_HASH = "64b013e8acd1f7db4f5c67cda2f36522aeee5ecc4582e6bf981fe3d57b3eae9fa15b12a90cc76b25b9d3b51bd9b930f072c4fdda67d429994a63267003b5aefd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist(pyxdg) \
+RPROVIDES:${PN} += "python3.11dist-pyxdg \
 python311-pyxdg \
-python3dist(pyxdg)"
+python3dist-pyxdg"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
-python(abi) \
+python-abi \
 shared-mime-info"
 
 inherit rpm

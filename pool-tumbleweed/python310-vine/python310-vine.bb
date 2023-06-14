@@ -9,10 +9,10 @@ RPM_HASH = "1e72ac51b0f222a32d3f93fe55323720e93a915ad8a4ab2af3cd6708f3437f4cfae7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-vine \
-python3.10dist(vine) \
+python3.10dist-vine \
 python310-vine \
-python3dist(vine)"
+python3dist-vine"
 
-RDEPENDS:${PN} += "python(abi)"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

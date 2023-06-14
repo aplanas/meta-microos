@@ -13,11 +13,11 @@ RPM_HASH = "32ca9bc8024d05b69ad0b845127e62568522578fb3c4ed83d2a43b55e83826771904
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-fs \
-python3.10dist(fs) \
+python3.10dist-fs \
 python310-fs \
-python3dist(fs)"
+python3dist-fs"
 
-RDEPENDS:${PN} += "python(abi) \
+RDEPENDS:${PN} += "python-abi \
 python310-appdirs \
 python310-psutil \
 python310-pytz \

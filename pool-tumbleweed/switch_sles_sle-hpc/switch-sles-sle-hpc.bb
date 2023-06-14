@@ -9,7 +9,7 @@ RPM_NAME = "switch_sles_sle-hpc-0.2-4.1.noarch.rpm"
 RPM_HASH = "100709130e35861716c2bed45da3ce33ac9250e77e639ca79565a7614cdb405c385ff54e07e839ca85cf1df939c2f9cb4bb9e799744e0d16b1c9203ffcb201d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "switch_sles_sle-hpc"
+RPROVIDES:${PN} += "switch-sles-sle-hpc"
 
 RDEPENDS:${PN} += "/bin/bash \
 SUSEConnect \

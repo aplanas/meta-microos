@@ -19,8 +19,8 @@ RPM_NAME = "sshuttle-1.1.1-1.2.noarch.rpm"
 RPM_HASH = "176adfd69442df92047e922877faaf0166e731e571a2f63a8d4be8a9ba4062d3d7b97b1aa5eef159c55c087b6eed7bec6c4aacd0d91ed7c411d58789d1aa8c83"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist(sshuttle) \
-python3dist(sshuttle) \
+RPROVIDES:${PN} += "python3.10dist-sshuttle \
+python3dist-sshuttle \
 sshuttle"
 
 RDEPENDS:${PN} += "/bin/sh \
@@ -28,6 +28,6 @@ RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/touch \
 fillup \
-python(abi)"
+python-abi"
 
 inherit rpm
