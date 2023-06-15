@@ -1,5 +1,8 @@
 PREFERRED_RPROVIDER_/bin/cat = "coreutils"
 PREFERRED_RPROVIDER_gdbm = "libgdbm6"
+PREFERRED_RPROVIDER_gettext = "gettext-runtime"
+PREFERRED_RPROVIDER_gettext-runtime = "gettext-runtime"
+PREFERRED_RPROVIDER_gettext-runtime-dev = "gettext-runtime"
 PREFERRED_RPROVIDER_libxml2 = "libxml2-tools"
 PREFERRED_RPROVIDER_libz.so.1 = "libz1"
 PREFERRED_RPROVIDER_ncurses = "ncurses"
