@@ -16,8 +16,8 @@ RPM_HASH = "9c24c348fcb517bb7d01c4bf7592ffbb2700bd738fdbe5ba4db4c8d3e063f065a326
 RPROVIDES:${PN} += "cni \
 config-cni"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 libc.so.6 \

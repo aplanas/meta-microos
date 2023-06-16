@@ -11,7 +11,7 @@ RPM_HASH = "3554d239304e3f2448d663880180c381a8766b0d710123dfc6425f932a89b94fccc2
 RPROVIDES:${PN} += "crda \
 libreg.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \

@@ -16,7 +16,7 @@ tex-burmese.map \
 tex-ubirm.fd \
 texlive-burmese"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

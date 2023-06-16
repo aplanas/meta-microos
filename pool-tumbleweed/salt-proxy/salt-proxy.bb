@@ -13,9 +13,9 @@ RPM_HASH = "82ceafa0fef55b4573e0ebf350b8b9aa4bccd60a641b39d2d09e4e3d928319a6ed77
 
 RPROVIDES:${PN} += "salt-proxy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 salt \

@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tlp-rdw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager \
 systemd \
 tlp"

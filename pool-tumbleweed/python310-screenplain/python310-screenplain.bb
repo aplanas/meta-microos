@@ -25,8 +25,8 @@ python3.10dist-screenplain \
 python310-screenplain \
 python3dist-screenplain"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-reportlab \
 update-alternatives"

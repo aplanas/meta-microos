@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "config-selinux-policy-minimum \
 selinux-policy-base \
 selinux-policy-minimum"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/sh \
 coreutils \
 policycoreutils \
 policycoreutils-python-utils \

@@ -11,7 +11,7 @@ RPM_HASH = "adf2125f2d565b0044313b76bf7b370e4e3421c14272d306ae800fa9b83b21e18188
 RPROVIDES:${PN} += "v4l-conf \
 xawtv-/usr/bin/v4l-conf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXxf86dga.so.1 \

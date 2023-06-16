@@ -11,7 +11,7 @@ RPM_HASH = "a402d3b917a2d2a5e1e60252eeede8f14a629883f23ecf3bf502f97b58271b3d34be
 
 RPROVIDES:${PN} += "libgslcblas-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libgslcblas-2-7-1-gnu-hpc"
 
 inherit rpm

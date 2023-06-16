@@ -19,8 +19,8 @@ geos-devel \
 libgeos-devel \
 pkgconfig-geos"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libgeos-c1 \
 libgeos3-11-2"
 

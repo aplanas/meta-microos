@@ -84,7 +84,7 @@ font-pltypewritervarwd10 \
 font-plunslanted10 \
 texlive-pl-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

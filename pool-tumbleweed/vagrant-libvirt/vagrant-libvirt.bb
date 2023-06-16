@@ -10,7 +10,7 @@ RPM_HASH = "f394f3944a0a16934da1e9a6e0f6c5ce5631e7dd86b10c2cf9253553c1c571b70827
 
 RPROVIDES:${PN} += "vagrant-libvirt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libvirt \
 qemu-arm \
 rubygem-ruby-3.2.0-diffy \

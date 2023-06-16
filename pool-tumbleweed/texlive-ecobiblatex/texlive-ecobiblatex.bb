@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-ecobiblatex.bbx \
 tex-ecobiblatex.cbx \
 texlive-ecobiblatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "man-initex.1 \
 man-tex.1 \
 texlive-tex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

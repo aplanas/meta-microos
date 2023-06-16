@@ -33,7 +33,7 @@ tex-sseqmessages.code.tex \
 tex-sseqparsers.code.tex \
 texlive-spectralsequences"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

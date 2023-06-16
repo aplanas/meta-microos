@@ -27,7 +27,7 @@ tex-yathesis-translations.tex \
 tex-yathesis.cls \
 texlive-yathesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

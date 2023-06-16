@@ -25,7 +25,7 @@ tex-fp.tex \
 tex-lfp.sty \
 texlive-fp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-limap.cls \
 tex-limap.sty \
 texlive-limap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,8 +14,8 @@ python3.10dist-o2sclpy \
 python310-o2sclpy \
 python3dist-o2sclpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 o2scl-devel \
 python-abi \
 python310-h5py \

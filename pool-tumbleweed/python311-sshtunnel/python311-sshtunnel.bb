@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-sshtunnel \
 python311-sshtunnel \
 python3dist-sshtunnel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 openssh \
 python-abi \
 python311-paramiko"

@@ -16,8 +16,8 @@ RPM_HASH = "2e290d008259d319f83f66914f76a1a0549820fb9d70fc47739cd478e29f5d8fddce
 RPROVIDES:${PN} += "libOpenCL.so.1 \
 libOpenCL1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

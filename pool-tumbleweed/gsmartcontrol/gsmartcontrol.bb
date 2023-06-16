@@ -12,8 +12,8 @@ RPM_HASH = "85ccfedc7345ae8b0b6a8de9c7b36465995e126fa188b370086f103bfc5c1bf61d93
 
 RPROVIDES:${PN} += "gsmartcontrol"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libatkmm-1.6.so.1 \
 libc.so.6 \

@@ -13,8 +13,8 @@ python39-moto \
 python3dist-moto"
 
 RDEPENDS:${PN} += "-python39-python-dateutil >= 2.1 with python39-python-dateutil < 3 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-Werkzeug \

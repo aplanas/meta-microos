@@ -13,7 +13,7 @@ tex-hyph-tk.tex \
 tex-loadhyph-tk.tex \
 texlive-hyphen-turkmen"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

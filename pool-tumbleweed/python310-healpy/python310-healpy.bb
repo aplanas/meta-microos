@@ -25,8 +25,8 @@ python3.10dist-healpy \
 python310-healpy \
 python3dist-healpy"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

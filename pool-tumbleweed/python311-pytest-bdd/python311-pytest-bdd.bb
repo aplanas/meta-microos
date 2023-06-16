@@ -25,8 +25,8 @@ RPROVIDES:${PN} += "python3.11dist-pytest-bdd \
 python311-pytest-bdd \
 python3dist-pytest-bdd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Mako \
 python311-glob2 \

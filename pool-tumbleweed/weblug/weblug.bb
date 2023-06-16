@@ -10,7 +10,7 @@ RPM_HASH = "c281db43c8cbfb9cb154311f128e1ae598c1005a349bb065188104c86efbc55f64bd
 RPROVIDES:${PN} += "config-weblug \
 weblug"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

@@ -15,7 +15,7 @@ geronimo-corba-2-3-apis \
 mvn-org.apache.geronimo.specs-geronimo-corba-2.3-spec \
 mvn-org.apache.geronimo.specs-geronimo-corba-2.3-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 mvn-logkit-logkit"

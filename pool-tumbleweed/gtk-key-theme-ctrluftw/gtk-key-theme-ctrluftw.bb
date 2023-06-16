@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-key-theme-ctrluftw"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

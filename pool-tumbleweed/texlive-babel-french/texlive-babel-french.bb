@@ -17,7 +17,7 @@ tex-french.ldf \
 tex-frenchb.ldf \
 texlive-babel-french"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

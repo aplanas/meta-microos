@@ -54,8 +54,8 @@ firmware-whiteheat-loader.fw \
 firmware-whiteheat.fw \
 kernel-firmware-serial"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

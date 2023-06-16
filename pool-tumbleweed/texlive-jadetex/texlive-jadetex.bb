@@ -14,7 +14,7 @@ tex-uentities.sty \
 tex-ut1omlgc.fd \
 texlive-jadetex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

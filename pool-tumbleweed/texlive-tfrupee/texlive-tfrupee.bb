@@ -16,7 +16,7 @@ tex-tfrupee.sty \
 tex-tfrupee.tfm \
 texlive-tfrupee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

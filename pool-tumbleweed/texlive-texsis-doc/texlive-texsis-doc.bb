@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man-texsis.1 \
 texlive-texsis-doc"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPM_HASH = "bd8f28c4ef96d4ddd7a7ac0dcb1b518116646ae442c8e23b21ed16d3c56d68af7370
 
 RPROVIDES:${PN} += "htcondor-bosco"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
 htcondor \

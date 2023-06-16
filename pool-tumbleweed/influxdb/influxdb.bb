@@ -11,7 +11,7 @@ RPM_HASH = "ba78ea6be7b8101626c3ae0d32110b2ed023b35ed26f4a9bc4ab02d2945985cdde6a
 RPROVIDES:${PN} += "config-influxdb \
 influxdb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libflux.so.0.193.0 \
 shadow"

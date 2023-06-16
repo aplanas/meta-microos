@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.9dist-testrepository \
 python39-testrepository \
 python3dist-testrepository"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-dbm \
 python39-extras \

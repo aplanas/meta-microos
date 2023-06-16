@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-guit.cfg \
 tex-guit.sty \
 texlive-guitlogo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

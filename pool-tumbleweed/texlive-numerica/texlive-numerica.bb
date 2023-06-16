@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-numerica.sty \
 texlive-numerica"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -64,7 +64,7 @@ tex-texnansx.enc \
 tex-toshiba.cfg \
 texlive-dvips"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

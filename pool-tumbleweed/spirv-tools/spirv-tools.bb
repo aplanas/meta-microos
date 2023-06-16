@@ -10,7 +10,7 @@ RPM_HASH = "92c7a0072db2e1a60cb541fedc3c7e8af4a631beb8bc4c47c5628b2a903d001e4ee8
 
 RPROVIDES:${PN} += "spirv-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSPIRV-Tools-2023.3~rc1.so \
 libSPIRV-Tools-link-2023.3~rc1.so \

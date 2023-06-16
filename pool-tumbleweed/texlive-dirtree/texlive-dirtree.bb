@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-dirtree.sty \
 tex-dirtree.tex \
 texlive-dirtree"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

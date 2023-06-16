@@ -19,7 +19,7 @@ go1.9 \
 golang-API \
 libstd.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gcc \
 libc.so.6 \
 update-alternatives"

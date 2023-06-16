@@ -24,8 +24,8 @@ libscamconfiguresettings.so.5 \
 libshorturlpluginprivate.so.5 \
 qt5qmlimport-org.kde.plasma.PimCalendars.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGrantlee-Templates.so.5 \
 libKF5CalendarCore.so.5 \

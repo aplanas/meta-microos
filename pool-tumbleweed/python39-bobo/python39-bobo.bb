@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.9dist-bobo \
 python39-bobo \
 python3dist-bobo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-WebOb \
 python39-six \

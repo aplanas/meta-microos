@@ -14,9 +14,9 @@ libwicked-0-6 \
 libwicked-0.6.72.so \
 wicked"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

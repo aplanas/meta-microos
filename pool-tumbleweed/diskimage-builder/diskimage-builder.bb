@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "diskimage-builder \
 python3.10dist-diskimage-builder \
 python3dist-diskimage-builder"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 kpartx \
 python-abi \

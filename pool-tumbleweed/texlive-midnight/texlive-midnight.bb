@@ -22,7 +22,7 @@ tex-quire.tex \
 tex-styledef.tex \
 texlive-midnight"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

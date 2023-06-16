@@ -17,7 +17,7 @@ tex-op-mathalign.tex \
 tex-op-slides.tex \
 texlive-optex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

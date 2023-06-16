@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-quimb \
 python39-quimb \
 python3dist-quimb"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 python-abi \
 python39-cytoolz \
 python39-numba \

@@ -12,7 +12,7 @@ RPM_HASH = "7e5d6060a3bd1e8f32b9c94ff49ffd67be17a13b0eea1c8cb3d8a15eb0907ac9cfa5
 RPROVIDES:${PN} += "config-gnuastro \
 gnuastro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcfitsio.so.10 \

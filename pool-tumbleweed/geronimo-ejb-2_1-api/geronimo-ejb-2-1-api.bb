@@ -16,7 +16,7 @@ geronimo-ejb-2-1-api \
 mvn-org.apache.geronimo.specs-geronimo-ejb-2.1-spec \
 mvn-org.apache.geronimo.specs-geronimo-ejb-2.1-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 jta-1-0-1B-api \

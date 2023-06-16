@@ -22,8 +22,8 @@ python3.10dist-testrepository \
 python310-testrepository \
 python3dist-testrepository"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-dbm \
 python310-extras \

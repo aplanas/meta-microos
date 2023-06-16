@@ -111,7 +111,7 @@ font--lang=zu \
 font-latinmodernmath \
 texlive-lm-math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

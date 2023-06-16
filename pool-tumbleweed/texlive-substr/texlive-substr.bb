@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-substr.sty \
 texlive-substr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

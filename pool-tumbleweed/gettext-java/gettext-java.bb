@@ -11,6 +11,6 @@ RPM_HASH = "1d37b88c279b2f4a9fe6e5fdef586ba15b827cd0754f1e111af75acd3b8b05035bdd
 
 RPROVIDES:${PN} += "gettext-java"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

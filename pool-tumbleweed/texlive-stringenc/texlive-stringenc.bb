@@ -53,7 +53,7 @@ tex-se-utf8.def \
 tex-stringenc.sty \
 texlive-stringenc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

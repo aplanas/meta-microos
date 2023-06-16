@@ -14,7 +14,7 @@ tex-tufte-common.def \
 tex-tufte-handout.cls \
 texlive-tufte-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

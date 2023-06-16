@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-lens.sty \
 tex-pst-lens.tex \
 texlive-pst-lens"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

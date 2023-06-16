@@ -14,9 +14,9 @@ RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-SLE \
 compiz-branding-SLED"
 
-RDEPENDS:${PN} += "/bin/ln \
-/bin/rm \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/ln \
+/usr/bin/rm \
+/usr/bin/sh \
 compiz"
 
 inherit rpm

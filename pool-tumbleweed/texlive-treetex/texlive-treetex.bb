@@ -15,7 +15,7 @@ tex-l-pic.tex \
 tex-treetex.tex \
 texlive-treetex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

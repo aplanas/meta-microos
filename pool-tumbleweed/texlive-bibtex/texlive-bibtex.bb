@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-apalike.sty \
 tex-apalike.tex \
 texlive-bibtex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

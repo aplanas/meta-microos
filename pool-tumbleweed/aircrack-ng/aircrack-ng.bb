@@ -11,8 +11,8 @@ RPM_HASH = "20bde22c8e1a416e041d77c9baf005530a2710f9f2b07081db9ce3bb53efb6b83c4c
 
 RPROVIDES:${PN} += "aircrack-ng"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ethtool \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

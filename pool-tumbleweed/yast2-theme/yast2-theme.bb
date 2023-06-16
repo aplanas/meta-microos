@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-yast2-theme \
 yast2-branding \
 yast2-theme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 google-poppins-fonts \
 hicolor-icon-theme \
 yast2-qt-branding"

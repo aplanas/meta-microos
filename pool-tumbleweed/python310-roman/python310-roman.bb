@@ -14,8 +14,8 @@ python3.10dist-roman \
 python310-roman \
 python3dist-roman"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

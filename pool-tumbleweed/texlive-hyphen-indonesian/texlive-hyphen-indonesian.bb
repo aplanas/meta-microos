@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-hyph-id.tex \
 tex-loadhyph-id.tex \
 texlive-hyphen-indonesian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "systemd-sysvcompat \
 systemd-sysvinit-/usr/sbin/runlevel \
 systemd-sysvinit-/usr/sbin/telinit"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsystemd-shared-253.so \

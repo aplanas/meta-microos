@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bosisio-doc"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

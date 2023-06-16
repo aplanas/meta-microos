@@ -19,8 +19,8 @@ RPM_HASH = "69cba50d4e393ebf9bad59474f86b7fa2be0958bde94cfa5df244fa8fe8fda28028e
 RPROVIDES:${PN} += "config-keepalived \
 keepalived"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

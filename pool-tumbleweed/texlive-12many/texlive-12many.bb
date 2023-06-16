@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-12many.sty \
 texlive-12many"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,7 +19,7 @@ group-munge \
 munge \
 user-munge"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

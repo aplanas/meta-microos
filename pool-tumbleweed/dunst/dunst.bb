@@ -11,7 +11,7 @@ RPM_HASH = "09c5a024643fc9b47d7d843b7786e6274fcdd02f8af82bb86d59f72c2d5a7b616601
 RPROVIDES:${PN} += "config-dunst \
 dunst"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libX11.so.6 \
 libXext.so.6 \
 libXinerama.so.1 \

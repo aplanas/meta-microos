@@ -17,7 +17,7 @@ ispell-dictionary \
 ispell-english-dictionary \
 locale-ispell-en"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 bash \
 fileutils"
 

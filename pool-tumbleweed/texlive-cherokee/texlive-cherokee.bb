@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-cherokee.sty \
 tex-cherokee.tfm \
 texlive-cherokee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

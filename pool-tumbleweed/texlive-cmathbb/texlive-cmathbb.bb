@@ -34,7 +34,7 @@ tex-cmathbb.sty \
 tex-ucmath.fd \
 texlive-cmathbb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

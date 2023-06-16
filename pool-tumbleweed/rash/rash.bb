@@ -19,7 +19,7 @@ RPM_HASH = "682ca87e95455f353cac590be361167d8695249bbd44ad45af76e321b4dda3a9c243
 
 RPROVIDES:${PN} += "rash"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libedit0 \
 libsqlite3-0 \

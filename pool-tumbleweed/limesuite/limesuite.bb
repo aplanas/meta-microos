@@ -14,7 +14,7 @@ RPM_HASH = "297b31740a3f399e59a2c22a7a83570606b1f02105791e02fb3db66855771eeb8d4a
 
 RPROVIDES:${PN} += "limesuite"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libLimeSuite.so.22.09-1 \

@@ -12,11 +12,11 @@ RPROVIDES:${PN} += "config-libvirt-daemon-driver-qemu \
 libvirt-daemon-driver-qemu \
 libvirt-driver-qemu.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bzip2 \
+RDEPENDS:${PN} += "/usr/bin/bzip2 \
 /usr/bin/gzip \
 /usr/bin/lzop \
 /usr/bin/qemu-img \
+/usr/bin/sh \
 /usr/bin/xz \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

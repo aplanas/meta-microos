@@ -13,7 +13,7 @@ font-tex\040ascii10 \
 font-tex\040ascii36 \
 texlive-ascmac-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

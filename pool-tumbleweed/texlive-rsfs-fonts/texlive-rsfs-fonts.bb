@@ -13,7 +13,7 @@ font-rsfs5 \
 font-rsfs7 \
 texlive-rsfs-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

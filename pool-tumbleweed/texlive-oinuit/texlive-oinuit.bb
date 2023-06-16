@@ -20,7 +20,7 @@ tex-oinuit.map \
 tex-oinuit.sty \
 texlive-oinuit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

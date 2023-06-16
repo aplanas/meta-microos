@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "kernel-headers \
 linux-glibc-devel \
 linux-kernel-headers"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

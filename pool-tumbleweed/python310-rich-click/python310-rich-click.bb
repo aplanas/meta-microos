@@ -13,8 +13,8 @@ python3.10dist-rich-click \
 python310-rich-click \
 python3dist-rich-click"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-click \
 python310-rich"

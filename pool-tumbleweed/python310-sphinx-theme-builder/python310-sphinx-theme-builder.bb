@@ -19,8 +19,8 @@ python3.10dist-sphinx-theme-builder \
 python310-sphinx-theme-builder \
 python3dist-sphinx-theme-builder"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-click \
 python310-nodeenv \

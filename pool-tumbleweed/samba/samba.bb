@@ -24,10 +24,10 @@ RPROVIDES:${PN} += "config-samba \
 group-ntadmin \
 samba"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/grep \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 fillup \

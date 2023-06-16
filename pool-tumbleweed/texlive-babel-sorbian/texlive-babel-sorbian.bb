@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-lsorbian.ldf \
 tex-usorbian.ldf \
 texlive-babel-sorbian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

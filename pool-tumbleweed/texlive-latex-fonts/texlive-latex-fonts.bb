@@ -42,7 +42,7 @@ tex-line10.tfm \
 tex-linew10.tfm \
 texlive-latex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

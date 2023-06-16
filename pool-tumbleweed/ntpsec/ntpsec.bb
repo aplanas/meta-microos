@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-ntpsec \
 ntp-daemon \
 ntpsec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbsd.so.0 \
 libc.so.6 \

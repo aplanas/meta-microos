@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "aqbanking-devel \
 cmake-aqbanking \
 pkgconfig-aqbanking"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 aqbanking \
 cmake \
 glibc-devel \

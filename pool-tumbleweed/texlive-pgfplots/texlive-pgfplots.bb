@@ -110,8 +110,8 @@ tex-tikzlibrarypgfplots.units.code.tex \
 tex-tikzlibrarypgfplotsclickable.code.tex \
 texlive-pgfplots"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/luatex \
+RDEPENDS:${PN} += "/usr/bin/luatex \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

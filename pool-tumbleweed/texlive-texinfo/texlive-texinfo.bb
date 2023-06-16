@@ -33,7 +33,7 @@ tex-txi-tr.tex \
 tex-txi-uk.tex \
 texlive-texinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

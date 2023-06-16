@@ -391,7 +391,7 @@ tex-droidserif.map \
 tex-droidserif.sty \
 texlive-droid"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

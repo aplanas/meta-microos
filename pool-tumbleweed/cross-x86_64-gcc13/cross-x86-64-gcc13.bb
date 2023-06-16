@@ -12,7 +12,7 @@ RPM_HASH = "8b0a99bffff0fe6dff524ae8fdcd7b6367427bf31f29e46fb274a110f17081765ae5
 
 RPROVIDES:${PN} += "cross-x86-64-gcc13"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-x86-64-binutils \
 libstdc++6-devel-gcc13 \
 update-alternatives"

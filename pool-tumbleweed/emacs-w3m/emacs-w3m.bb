@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "config-emacs-w3m \
 emacs-w3m \
 w3m-el"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apel \
 emacs \
 flim \

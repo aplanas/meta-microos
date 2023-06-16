@@ -21,7 +21,7 @@ man-uptex.1 \
 man-uptftopl.1 \
 texlive-uptex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

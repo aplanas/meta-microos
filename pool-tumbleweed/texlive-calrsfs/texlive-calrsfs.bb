@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-OMSrsfs.fd \
 tex-calrsfs.sty \
 texlive-calrsfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

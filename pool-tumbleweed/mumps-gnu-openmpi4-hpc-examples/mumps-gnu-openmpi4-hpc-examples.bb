@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-openmpi4-hpc-examples"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mumps-5-3-5-gnu-openmpi4-hpc-examples"
 
 inherit rpm

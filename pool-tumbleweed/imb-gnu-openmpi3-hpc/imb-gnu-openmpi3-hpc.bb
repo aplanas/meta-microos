@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imb-gnu-openmpi3-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 imb-2021-3-gnu-openmpi3-hpc"
 
 inherit rpm

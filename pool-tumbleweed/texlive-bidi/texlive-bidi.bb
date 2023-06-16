@@ -175,7 +175,7 @@ tex-xcolor-xetex-bidi.def \
 tex-xltxtra-xetex-bidi.def \
 texlive-bidi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

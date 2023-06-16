@@ -22,7 +22,7 @@ osgi-org.apache.xalan \
 osgi-org.apache.xml.serializer \
 xalan-j2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 jaxp-parser-impl \

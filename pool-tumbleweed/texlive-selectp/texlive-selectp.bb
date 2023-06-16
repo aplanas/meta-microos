@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-selectp.sty \
 texlive-selectp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

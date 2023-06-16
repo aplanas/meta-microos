@@ -17,8 +17,8 @@ RPM_HASH = "7884ed96349fefa8922647ed659a63f0fdd011e642cfa008ede7edeed10e978a4410
 
 RPROVIDES:${PN} += "librep"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdbm.so.6 \

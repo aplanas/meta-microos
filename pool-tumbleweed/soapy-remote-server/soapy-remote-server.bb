@@ -11,7 +11,7 @@ RPM_HASH = "484ae93392d21d7a262ac70ae164e3727006289206c66a869b66d4d7ac9bb65a59b5
 
 RPROVIDES:${PN} += "soapy-remote-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSoapySDR.so.0.8 \
 libc.so.6 \

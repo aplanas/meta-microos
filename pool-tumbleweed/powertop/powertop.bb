@@ -11,7 +11,7 @@ RPM_HASH = "8cbbc564d3ebd27b7e37d735f74dcd08e155ced0c38c965f63428926a94cb7fb1122
 
 RPROVIDES:${PN} += "powertop"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

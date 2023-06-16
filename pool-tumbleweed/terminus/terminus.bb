@@ -10,7 +10,7 @@ RPM_HASH = "5407e6e069a24009b86eabb9a1cf65755723e321e543a1e6b24d5db1d339b61fdba0
 RPROVIDES:${PN} += "config-terminus \
 terminus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

@@ -141,7 +141,7 @@ font--lang=zu \
 font-stepgreektest \
 texlive-stepgreek-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "perl-TestConnection \
 perl-XMPP--TestUtils \
 prosody-community-modules"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 lua51-zlib \
 prosody"
 

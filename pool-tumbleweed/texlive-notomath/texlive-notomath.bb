@@ -39,7 +39,7 @@ tex-omlnotomi.fd \
 tex-omlnotosansmi.fd \
 texlive-notomath"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

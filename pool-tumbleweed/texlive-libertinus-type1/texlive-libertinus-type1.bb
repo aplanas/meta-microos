@@ -2013,7 +2013,7 @@ tex-libertinus-type1.sty \
 tex-libertinus.map \
 texlive-libertinus-type1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

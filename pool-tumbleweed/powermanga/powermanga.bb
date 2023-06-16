@@ -12,7 +12,7 @@ RPM_HASH = "a1d80ec8488b86ec065ea9bfa9b69cab263224b55af59e57d6be8f698aa8b90e1d20
 RPROVIDES:${PN} += "config-powermanga \
 powermanga"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \

@@ -27,7 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-pdfreview.sty \
 texlive-pdfreview"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

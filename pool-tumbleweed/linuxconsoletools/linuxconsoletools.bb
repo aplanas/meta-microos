@@ -20,9 +20,9 @@ RPM_HASH = "d699a14b702b0a1f27206d91df2815831f5c57199324df69db66132aca7833b74f59
 RPROVIDES:${PN} += "input-utils \
 linuxconsoletools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libc.so.6 \

@@ -10,7 +10,7 @@ RPM_HASH = "2af5759eb8bd86bab6fde9acd9d7b8c2d2ad931d7a1be3edc78e4e0567e277dfffc4
 
 RPROVIDES:${PN} += "nuntius"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

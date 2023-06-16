@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-cesenaexam.cls \
 tex-cesenaexam.sty \
 texlive-cesenaexam"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

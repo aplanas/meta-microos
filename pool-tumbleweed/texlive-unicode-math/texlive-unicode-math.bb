@@ -32,7 +32,7 @@ tex-unicode-math-xetex.sty \
 tex-unicode-math.sty \
 texlive-unicode-math"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

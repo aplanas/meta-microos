@@ -13,9 +13,9 @@ RPROVIDES:${PN} += "git-cola \
 python3.10dist-git-cola \
 python3dist-git-cola"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python3-QtPy \

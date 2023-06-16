@@ -15,8 +15,8 @@ rubygem-ruby-3.2.0-lolcat-100 \
 rubygem-ruby-3.2.0-lolcat-100.0 \
 rubygem-ruby-3.2.0-lolcat-100.0.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-manpages-0.6 \
 rubygem-ruby-3.2.0-optimist-3.0 \

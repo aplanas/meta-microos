@@ -22,7 +22,7 @@ tex-elpreswhiteredscheme.sty \
 tex-elpreswhitetealscheme.sty \
 texlive-elpres"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

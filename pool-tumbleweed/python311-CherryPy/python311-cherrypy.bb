@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.11dist-cherrypy \
 python311-CherryPy \
 python3dist-cherrypy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311-cheroot \

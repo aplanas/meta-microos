@@ -13,7 +13,7 @@ RPM_HASH = "56a05e448410978549e1b9e9cbf6f3fd59e49b8d5975cc1a201950688a65b99d9772
 RPROVIDES:${PN} += "config-tvtime \
 tvtime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \

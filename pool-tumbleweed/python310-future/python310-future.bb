@@ -15,8 +15,8 @@ python3.10dist-future \
 python310-future \
 python3dist-future"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libexif-display.so \
 xviewer-plugin-exif-display \
 xviewer-plugins-/usr/lib64/xviewer/plugins/exif-display.plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

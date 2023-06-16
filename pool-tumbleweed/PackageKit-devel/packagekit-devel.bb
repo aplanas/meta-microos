@@ -16,7 +16,7 @@ libpk-backend-test-spawn.so \
 libpk-backend-test-succeed.so \
 libpk-backend-test-thread.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 PackageKit \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

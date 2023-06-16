@@ -21,7 +21,7 @@ tex-savetrees.cbx \
 tex-savetrees.sty \
 texlive-savetrees"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

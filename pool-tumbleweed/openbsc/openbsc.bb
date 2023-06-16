@@ -20,7 +20,7 @@ openbsc \
 osmocom-bsc-sccplite \
 osmocom-nitb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libdbi-drivers-dbd-sqlite3 \
 libdbi.so.3 \

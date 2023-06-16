@@ -1442,7 +1442,7 @@ tex-zchmia.tfm \
 tex-zchmia.vf \
 texlive-xcharter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

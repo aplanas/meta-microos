@@ -16,7 +16,7 @@ jta-api \
 mvn-org.apache.geronimo.specs-geronimo-jta-1.0.1B-spec \
 mvn-org.apache.geronimo.specs-geronimo-jta-1.0.1B-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

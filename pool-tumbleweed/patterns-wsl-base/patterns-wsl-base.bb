@@ -14,7 +14,7 @@ pattern-icon- \
 pattern-visible- \
 patterns-wsl-base"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 bash"
 
 inherit rpm

@@ -49,8 +49,8 @@ firmware-mwlwifi/88W8864.bin \
 firmware-mwlwifi/88W8897.bin \
 kernel-firmware-marvell"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

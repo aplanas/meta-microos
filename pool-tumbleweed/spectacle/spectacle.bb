@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "kapture \
 kscreengenie \
 spectacle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \

@@ -23,7 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-snapshot.sty \
 texlive-snapshot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

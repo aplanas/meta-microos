@@ -13,8 +13,8 @@ RPM_HASH = "79a799b6fc1014402f35c26702ef2f323e86bd55b7bc319434dca00a7cd6ebd2f3b5
 RPROVIDES:${PN} += "libpcap-devel \
 pkgconfig-libpcap"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libpcap1 \
 pkgconfig-dbus-1 \

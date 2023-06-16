@@ -13,7 +13,7 @@ tex-hyph-lv.tex \
 tex-loadhyph-lv.tex \
 texlive-hyphen-latvian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

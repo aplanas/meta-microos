@@ -10,7 +10,7 @@ RPM_HASH = "1c55915cb565c77f16d1768d039ece03f7c2e1dd28098f696263251ec43ee342a95d
 RPROVIDES:${PN} += "ghc-cabal-install-devel \
 ghc-devel-cabal-install-3.8.1.0-5UcdOch820LBdlzybhXr39"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cabal-install \
 ghc-compiler \
 ghc-devel-Cabal-3.8.1.0 \

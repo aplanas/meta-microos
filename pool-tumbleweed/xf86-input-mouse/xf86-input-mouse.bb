@@ -11,7 +11,7 @@ RPM_HASH = "a2b2e4082f5fad3b5a2de47637a3d3bb74b6652acc6edd5b5b9891fcf292dccbcebd
 
 RPROVIDES:${PN} += "xf86-input-mouse"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 X11-ABI-XINPUT \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

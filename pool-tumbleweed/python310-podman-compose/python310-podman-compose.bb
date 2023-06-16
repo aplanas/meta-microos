@@ -23,8 +23,8 @@ python3.10dist-podman-compose \
 python310-podman-compose \
 python3dist-podman-compose"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 podman \
 python-abi \
 python310-PyYAML \

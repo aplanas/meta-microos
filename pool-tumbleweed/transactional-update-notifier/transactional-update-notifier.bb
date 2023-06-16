@@ -11,7 +11,7 @@ RPM_HASH = "b7e8a3b4f4de2597ae3e01e02fe99759748f9c01ff2337c00ca3d9e00bab856d4cb7
 
 RPROVIDES:${PN} += "transactional-update-notifier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dbus-1"
 
 inherit rpm

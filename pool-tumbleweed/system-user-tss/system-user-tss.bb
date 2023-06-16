@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-tss \
 system-user-tss \
 user-tss"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-jupyter-console \
 python311-jupyter-console \
 python3dist-jupyter-console"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 jupyter-jupyter-console \
 python-abi \
 python311-Pygments \

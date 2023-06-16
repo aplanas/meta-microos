@@ -47,7 +47,7 @@ tex-swissgerman-apa.lbx \
 tex-turkish-apa.lbx \
 texlive-biblatex-apa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

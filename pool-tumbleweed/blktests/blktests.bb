@@ -11,7 +11,7 @@ RPM_HASH = "7de94a44c7472356f34770b8a850120dfa4eba58cb6bac04d4976d89ca7b1a042bbf
 
 RPROVIDES:${PN} += "blktests"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 fio \
 gawk \
 gcc \

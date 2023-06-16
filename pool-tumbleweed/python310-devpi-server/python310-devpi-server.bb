@@ -14,8 +14,8 @@ python3.10dist-devpi-server \
 python310-devpi-server \
 python3dist-devpi-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-aiohttp \
 python310-appdirs \

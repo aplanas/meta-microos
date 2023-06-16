@@ -11,7 +11,7 @@ RPM_HASH = "71819342e592235e6d86b6ad2cbfd40a9da8d0cab21c4368aadc05fb15ec16a4a0af
 
 RPROVIDES:${PN} += "redeclipse"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libSDL2-2.0.so.0 \

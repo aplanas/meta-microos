@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "config-cups-pdf \
 cups-pdf \
 postscriptdriver-generic;cups-pdf-printer;"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cups-client \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

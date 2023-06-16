@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "config-shorewall-lite \
 shoreline-firewall \
 shorewall-lite"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 /usr/sbin/service \
 bc \

@@ -11,7 +11,7 @@ RPM_HASH = "5fc7701dd59f9ba673e60123e661c89a4d7b6fae20027a70790573f08b394e78917c
 
 RPROVIDES:${PN} += "glib2-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libelf.so.1 \

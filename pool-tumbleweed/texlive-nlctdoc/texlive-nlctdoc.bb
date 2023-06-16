@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-nlctdoc.cls \
 tex-nlctuserguide.sty \
 texlive-nlctdoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

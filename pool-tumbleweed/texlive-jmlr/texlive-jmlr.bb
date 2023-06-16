@@ -20,7 +20,7 @@ tex-jmlrbook.cls \
 tex-jmlrutils.sty \
 texlive-jmlr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

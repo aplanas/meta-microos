@@ -13,8 +13,8 @@ RPM_HASH = "70c8185ac1c336d5dbc25cc3d066b22a508aece265ba5d03daffc557bb3cdbbc0b43
 
 RPROVIDES:${PN} += "klogd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

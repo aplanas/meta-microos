@@ -13,8 +13,8 @@ python3.10dist-ddg3 \
 python310-ddg3 \
 python3dist-ddg3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-requests \
 update-alternatives"

@@ -412,7 +412,7 @@ tex-a-xzgqel.enc \
 tex-nunito.sty \
 texlive-nunito"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,7 +20,7 @@ tex-arthistory-bonn.bbx \
 tex-arthistory-bonn.cbx \
 texlive-biblatex-arthistory-bonn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

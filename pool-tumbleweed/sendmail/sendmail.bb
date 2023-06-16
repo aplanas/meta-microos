@@ -22,11 +22,11 @@ sendmail-tls \
 smailcfg \
 smtp-daemon"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/fuser \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/fuser \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 filesystem \

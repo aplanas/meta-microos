@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-sistyle.sty \
 texlive-sistyle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

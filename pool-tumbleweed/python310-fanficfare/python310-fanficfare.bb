@@ -21,8 +21,8 @@ python3.10dist-fanficfare \
 python310-fanficfare \
 python3dist-fanficfare"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-beautifulsoup4 \
 python310-chardet \

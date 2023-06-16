@@ -234,7 +234,7 @@ tex-ost-yp4wmb.enc \
 tex-ost-ytxedg.enc \
 texlive-oldstandard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

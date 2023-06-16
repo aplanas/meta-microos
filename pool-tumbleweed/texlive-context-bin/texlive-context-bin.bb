@@ -9,7 +9,7 @@ RPM_HASH = "8601aee93b6c5de116d9bb4b1e03beebccb5e2fd38288c4f5ca902e3981f7a3c9a0e
 
 RPROVIDES:${PN} += "texlive-context-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

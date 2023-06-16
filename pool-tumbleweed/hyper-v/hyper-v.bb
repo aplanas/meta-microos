@@ -9,9 +9,9 @@ RPM_HASH = "6d5f677e0ae2fffe111afe312e06a46a717407acbc1af31faca580a682541cacaca5
 
 RPROVIDES:${PN} += "hyper-v"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

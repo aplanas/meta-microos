@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "fox-devel \
 fox16-devel \
 pkgconfig-fox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 bzip2 \
 cups-devel \
 cups-libs \

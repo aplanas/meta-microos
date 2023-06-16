@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "droid-fonts \
 google-droid-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

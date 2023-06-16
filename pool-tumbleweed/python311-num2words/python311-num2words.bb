@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-num2words \
 python311-num2words \
 python3dist-num2words"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docopt \
 update-alternatives"

@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "yast2-network \
 yast2-network-devel-doc"
 
-RDEPENDS:${PN} += "/bin/rm \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/rm \
 augeas-lenses \
 hostname \
 hwinfo \

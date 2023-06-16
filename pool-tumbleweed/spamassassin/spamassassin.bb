@@ -16,10 +16,10 @@ RPM_HASH = "bad243062711b04b632932f550cb3c4457cd9022be106dbfc5f5a7dfb3a0e41cabfa
 
 RPROVIDES:${PN} += "spamassassin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 perl-Archive--Tar \

@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "vim-data \
 vim-plugin-matchit \
 vim-plugin-nginx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/perl \
+/usr/bin/sh \
 vim-data-common"
 
 inherit rpm

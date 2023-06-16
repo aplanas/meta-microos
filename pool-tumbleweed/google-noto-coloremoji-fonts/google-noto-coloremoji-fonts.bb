@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "google-noto-coloremoji-fonts \
 noto-coloremoji-fonts \
 noto-emoji-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

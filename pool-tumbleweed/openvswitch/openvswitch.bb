@@ -20,10 +20,10 @@ openvswitch-dpdk \
 openvswitch-dpdk-switch \
 openvswitch-switch"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

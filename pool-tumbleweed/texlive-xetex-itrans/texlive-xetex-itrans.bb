@@ -21,7 +21,7 @@ tex-itrans-tamil.map \
 tex-itrans-tel.map \
 texlive-xetex-itrans"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,7 +14,7 @@ RPM_HASH = "90884e902af095a625df0e2b75180caee8218e154f36a526c6cf919f2f3e8a6b1409
 
 RPROVIDES:${PN} += "podman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 catatonit \
 cni \
 cni-plugins \

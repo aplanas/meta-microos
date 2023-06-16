@@ -18,7 +18,7 @@ tex-loadhyph-nb.tex \
 tex-loadhyph-nn.tex \
 texlive-hyphen-norwegian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

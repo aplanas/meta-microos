@@ -12,7 +12,7 @@ google-guest-oslogin \
 libnss-cache-oslogin.so.2 \
 libnss-oslogin.so.2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glibc \
 google-guest-configs \
 libc.so.6 \

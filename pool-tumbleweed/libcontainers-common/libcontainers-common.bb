@@ -14,8 +14,8 @@ libcontainers-common \
 libcontainers-image \
 libcontainers-storage"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/grep \
-/usr/bin/sed"
+RDEPENDS:${PN} += "/usr/bin/grep \
+/usr/bin/sed \
+/usr/bin/sh"
 
 inherit rpm

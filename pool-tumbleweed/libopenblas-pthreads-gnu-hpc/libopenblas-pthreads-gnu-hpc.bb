@@ -11,7 +11,7 @@ RPM_HASH = "2ef8a75eacc93cce7769685b38e7067bc141e2065b3ead595518ce4ed726475f72b2
 
 RPROVIDES:${PN} += "libopenblas-pthreads-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libopenblas-pthreads-0-3-21-gnu-hpc"
 
 inherit rpm

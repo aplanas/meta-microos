@@ -21,7 +21,7 @@ tex-elements-names-spanish.def \
 tex-elements.sty \
 texlive-elements"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

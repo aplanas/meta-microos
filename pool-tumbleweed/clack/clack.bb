@@ -9,7 +9,7 @@ RPM_HASH = "44f3319cc102ce0f6befb9693e726dbba8b3f509dda63dad837d1bd7de68ccd3e1fb
 
 RPROVIDES:${PN} += "clack"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

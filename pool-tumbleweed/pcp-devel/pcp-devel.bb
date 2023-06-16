@@ -10,9 +10,9 @@ RPM_HASH = "05ce8a23e4e40288e9bbc71d90e227702cf5d78c65242c9045808ebf298dd4e4e1cb
 RPROVIDES:${PN} += "config-pcp-devel \
 pcp-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

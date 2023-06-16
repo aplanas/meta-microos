@@ -19,9 +19,9 @@ perl-ABStructured--saxparser \
 perl-ABXML \
 perl-RPMQ"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 gpg2 \
 perl-XML-Parser"
 

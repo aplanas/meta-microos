@@ -15,7 +15,7 @@ tex-hyph-sk.tex \
 tex-loadhyph-sk.tex \
 texlive-hyphen-slovak"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

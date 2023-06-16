@@ -9,9 +9,9 @@ RPM_HASH = "1997c7f54707a7fd286c9c097d7e176200c58eb0d2932424f85c4c454c74de50694b
 
 RPROVIDES:${PN} += "lvm2-testsuite"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \

@@ -19,8 +19,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "collectl \
 config-collectl"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 systemd"
 
 inherit rpm

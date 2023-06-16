@@ -11,7 +11,7 @@ RPM_HASH = "b715dcdbbbd74e0ad1289722266269e7d0415c8f2d52b35a0413d8daf91ab1aee95f
 RPROVIDES:${PN} += "install-initrd \
 install-initrd-MicroOS"
 
-RDEPENDS:${PN} += "/bin/ln \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/ln \
+/usr/bin/sh"
 
 inherit rpm

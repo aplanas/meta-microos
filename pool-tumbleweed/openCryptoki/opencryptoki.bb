@@ -13,7 +13,7 @@ RPM_HASH = "33eb376d7be4ede23e721ece936a971505ae7e28b2ffdad99afefa11136f7f1e5b18
 RPROVIDES:${PN} += "config-openCryptoki \
 openCryptoki"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/usermod \
 ld-linux-aarch64.so.1 \

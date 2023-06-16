@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man-chklref.1 \
 texlive-chklref-doc"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

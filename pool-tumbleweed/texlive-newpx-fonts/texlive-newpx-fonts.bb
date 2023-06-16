@@ -130,7 +130,7 @@ font-texgyrepagellax \
 font-zplx \
 texlive-newpx-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

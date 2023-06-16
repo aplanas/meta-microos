@@ -15,9 +15,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-fonts-config \
 fonts-config"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 aaa-base \
 coreutils \

@@ -16,7 +16,7 @@ RPM_HASH = "3ee54ff393a52d2ab95c0b30b58c4991c980b312e276d0eb49387f5635d269f4fc3e
 RPROVIDES:${PN} += "chess-backend \
 phalanx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

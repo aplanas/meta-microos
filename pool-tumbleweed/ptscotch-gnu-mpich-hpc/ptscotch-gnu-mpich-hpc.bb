@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ptscotch-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ptscotch-6-1-0-gnu-mpich-hpc"
 
 inherit rpm

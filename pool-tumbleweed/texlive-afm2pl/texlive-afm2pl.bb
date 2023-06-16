@@ -16,7 +16,7 @@ tex-afm2pl-texnanuc.enc \
 tex-makesc8y.tex \
 texlive-afm2pl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -42,7 +42,7 @@ tex-tudasize9pt.clo \
 tex-tudathesis.cfg \
 texlive-tuda-ci"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

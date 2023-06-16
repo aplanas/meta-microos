@@ -13,8 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crypto-policies-scripts"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 /usr/bin/sh \
 crypto-policies"

@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-fanwood-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

@@ -17,7 +17,7 @@ tex-ot1foekfont.fd \
 tex-t1foekfont.fd \
 texlive-foekfont"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

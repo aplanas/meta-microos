@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.11dist-bobo \
 python311-bobo \
 python3dist-bobo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-WebOb \
 python311-six \

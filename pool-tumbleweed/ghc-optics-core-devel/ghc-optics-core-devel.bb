@@ -10,7 +10,7 @@ RPM_HASH = "5b7928bf317d539fed2e55a7beeae2d0b38df632f1335fbf7e6a02ecf4d136a834df
 RPROVIDES:${PN} += "ghc-devel-optics-core-0.4.1-Awni0JkjGzeFZo6HXDNwcT \
 ghc-optics-core-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \

@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-markdown2 \
 python311-markdown2 \
 python3dist-markdown2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

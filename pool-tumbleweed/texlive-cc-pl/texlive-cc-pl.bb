@@ -25,7 +25,7 @@ tex-pcslc9.tfm \
 tex-pcti10.tfm \
 texlive-cc-pl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

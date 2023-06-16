@@ -22,7 +22,7 @@ RPM_HASH = "65a0ddfdebd19060ee05245241f8de02ac1d0e658569157fd333c3bfed945efa9f41
 
 RPROVIDES:${PN} += "postfish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fftw3 \
 gtk2 \
 ld-linux-aarch64.so.1 \

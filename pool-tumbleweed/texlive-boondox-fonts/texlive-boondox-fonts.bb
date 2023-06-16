@@ -36,7 +36,7 @@ font-boondoxfraktur \
 font-boondoxuprscr \
 texlive-boondox-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

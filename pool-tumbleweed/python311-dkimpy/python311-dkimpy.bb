@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-dkimpy \
 python311-dkimpy \
 python3dist-dkimpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyNaCl \
 python311-authres \

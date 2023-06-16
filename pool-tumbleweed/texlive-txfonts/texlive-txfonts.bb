@@ -242,7 +242,7 @@ tex-utxsyc.fd \
 tex-utxtt.fd \
 texlive-txfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

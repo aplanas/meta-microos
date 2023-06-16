@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-natsort \
 python39-natsort \
 python3dist-natsort"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-setuptools \
 update-alternatives"

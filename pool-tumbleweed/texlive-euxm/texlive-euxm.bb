@@ -14,7 +14,7 @@ tex-euxm5.tfm \
 tex-euxm7.tfm \
 texlive-euxm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

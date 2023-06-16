@@ -1354,7 +1354,7 @@ tex-ts1ipxg.fd \
 tex-ts1ipxm.fd \
 texlive-ipaex-type1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

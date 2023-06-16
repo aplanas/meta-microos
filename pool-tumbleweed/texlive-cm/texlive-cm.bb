@@ -95,7 +95,7 @@ tex-cmu10.tfm \
 tex-cmvtt10.tfm \
 texlive-cm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

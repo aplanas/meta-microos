@@ -33,9 +33,9 @@ RPROVIDES:${PN} += "python3.11dist-jenkinsapi \
 python311-jenkinsapi \
 python3dist-jenkinsapi"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-pytz \
 python311-requests \

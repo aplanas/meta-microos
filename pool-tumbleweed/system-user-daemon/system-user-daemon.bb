@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "group-daemon \
 system-user-daemon \
 user-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPM_HASH = "d53a260dae2bcddfcfbe6971e0e2c8ab46173120efd1d1deab260709d5de70770495
 
 RPROVIDES:${PN} += "libmumps-5-3-5-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

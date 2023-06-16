@@ -20,7 +20,7 @@ tex-luakeys.sty \
 tex-luakeys.tex \
 texlive-luakeys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

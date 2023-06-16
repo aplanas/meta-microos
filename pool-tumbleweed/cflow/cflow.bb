@@ -13,7 +13,7 @@ RPM_HASH = "7c537136688e7babd8ea7ea9e3205962f97105a037742b5ff438222c3a425b0050ef
 
 RPROVIDES:${PN} += "cflow"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

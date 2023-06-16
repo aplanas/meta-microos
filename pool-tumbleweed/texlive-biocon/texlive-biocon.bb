@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-biocon-old.sty \
 tex-biocon.sty \
 texlive-biocon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

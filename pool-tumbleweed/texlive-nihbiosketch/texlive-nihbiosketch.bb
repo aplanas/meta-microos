@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-nihbiosketch.cls \
 texlive-nihbiosketch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

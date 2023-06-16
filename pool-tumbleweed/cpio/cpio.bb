@@ -13,7 +13,7 @@ RPM_HASH = "b53ae5473921a4fd0c07fbe3409640fce180ccd8bc969ca386b230f837fbbc79afaa
 
 RPROVIDES:${PN} += "cpio"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

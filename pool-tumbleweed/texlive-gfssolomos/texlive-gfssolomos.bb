@@ -19,7 +19,7 @@ tex-gsolomos8r.tfm \
 tex-lgrsolomos.fd \
 texlive-gfssolomos"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

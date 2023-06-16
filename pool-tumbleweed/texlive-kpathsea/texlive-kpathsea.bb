@@ -19,7 +19,7 @@ tex-mktex.cnf \
 tex-texmf.cnf \
 texlive-kpathsea"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 diffutils \
 ed \

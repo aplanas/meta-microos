@@ -30,7 +30,7 @@ tex-ts1zlmvtt.fd \
 tex-zlmtt.sty \
 texlive-zlmtt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

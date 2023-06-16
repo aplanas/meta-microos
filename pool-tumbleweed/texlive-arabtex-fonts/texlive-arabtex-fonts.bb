@@ -104,7 +104,7 @@ font-xnsh14 \
 font-xnsh14bf \
 texlive-arabtex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

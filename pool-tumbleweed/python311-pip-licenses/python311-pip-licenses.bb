@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pip-licenses \
 python311-pip-licenses \
 python3dist-pip-licenses"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PrettyTable \
 python311-pip \

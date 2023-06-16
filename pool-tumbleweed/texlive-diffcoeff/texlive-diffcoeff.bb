@@ -23,7 +23,7 @@ tex-diffcoeff4.sty \
 tex-diffcoeff5.def \
 texlive-diffcoeff"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -143,7 +143,7 @@ tex-utopia.map \
 tex-utopia.sty \
 texlive-psnfss"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

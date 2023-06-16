@@ -11,7 +11,7 @@ RPM_HASH = "912bb376799f3dd8709f8fd7a4e937e965b3787826bb687b5cd066a139891e04d725
 
 RPROVIDES:${PN} += "obconf-qt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

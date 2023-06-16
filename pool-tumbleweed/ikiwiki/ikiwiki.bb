@@ -147,8 +147,8 @@ perl-IkiWiki--Setup--Yaml \
 perl-IkiWiki--SortSpec \
 perl-IkiWiki--SuccessReason"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 perl-Authen--Passphrase \
 perl-CGI \

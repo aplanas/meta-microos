@@ -17,8 +17,8 @@ python3-nbdime-hg \
 python310-jupyter-nbdime-hg \
 python310-nbdime-hg"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 mercurial \
 python310-nbdime"

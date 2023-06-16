@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ini4j-javadoc"
 
-RDEPENDS:${PN} += "/bin/ln \
-/bin/rm \
+RDEPENDS:${PN} += "/usr/bin/ln \
+/usr/bin/rm \
 javapackages-filesystem"
 
 inherit rpm

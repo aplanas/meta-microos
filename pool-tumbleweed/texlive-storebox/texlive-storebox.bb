@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-storebox-pgf.sty \
 tex-storebox.sty \
 texlive-storebox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

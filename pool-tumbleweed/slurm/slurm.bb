@@ -12,9 +12,9 @@ RPM_HASH = "fec358b1e15f844a29a9f5701e6ba4ac3147ff749fdcde0f570d091ca35a5a31eff4
 
 RPROVIDES:${PN} += "slurm"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblz4.so.1 \

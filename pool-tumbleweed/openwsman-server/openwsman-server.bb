@@ -17,8 +17,8 @@ libwsman-server.so.1 \
 libwsman-test.so.1 \
 openwsman-server"
 
-RDEPENDS:${PN} += "/bin/hostname \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/hostname \
+/usr/bin/sh \
 coreutils \
 diffutils \
 fillup \

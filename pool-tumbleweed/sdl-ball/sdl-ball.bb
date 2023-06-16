@@ -33,7 +33,7 @@ RPM_HASH = "04c37be4f81bef66c19121336f73665996378539bbd1d0c4cd732617e1ff552fae03
 
 RPROVIDES:${PN} += "sdl-ball"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libGL.so.1 \
 libGLU.so.1 \
 libSDL-1.2.so.0 \

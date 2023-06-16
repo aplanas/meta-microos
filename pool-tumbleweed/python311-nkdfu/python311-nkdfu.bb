@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-nkdfu \
 python311-nkdfu \
 python3dist-nkdfu"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 intelhex \
 python-abi \
 python311-fire \

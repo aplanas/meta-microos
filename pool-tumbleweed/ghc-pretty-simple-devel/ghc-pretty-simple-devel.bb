@@ -10,7 +10,7 @@ RPM_HASH = "6b50ad8c89d86c98af9a064bac8ce0cbb0f693571987295de675406563b91ad409e3
 RPROVIDES:${PN} += "ghc-devel-pretty-simple-4.1.2.0-LfjX2FlO3KCJ7V5IZrf6zY \
 ghc-pretty-simple-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

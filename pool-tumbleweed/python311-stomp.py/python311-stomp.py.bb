@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-stomp-py \
 python311-stomp.py \
 python3dist-stomp-py"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python3.11dist-docopt \
 python3.11dist-websocket-client \

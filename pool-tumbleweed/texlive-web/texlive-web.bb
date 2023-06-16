@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "man-tangle.1 \
 man-weave.1 \
 texlive-web"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

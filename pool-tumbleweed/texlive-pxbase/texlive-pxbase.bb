@@ -21,7 +21,7 @@ tex-pxjsfenc.def \
 tex-upkcat.sty \
 texlive-pxbase"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

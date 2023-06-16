@@ -21,7 +21,7 @@ tex-processkv.sty \
 tex-zahl2string.sty \
 texlive-sauerj"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

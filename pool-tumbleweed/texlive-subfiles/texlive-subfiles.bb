@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-subfiles.cls \
 tex-subfiles.sty \
 texlive-subfiles"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

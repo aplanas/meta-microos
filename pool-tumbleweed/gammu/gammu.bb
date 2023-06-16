@@ -24,8 +24,8 @@ RPM_HASH = "7bb48690dbb902712aa504a542db573f3e6d43d04570122400024ddd1e39d4b6a1dd
 
 RPROVIDES:${PN} += "gammu"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 dialog \
 ld-linux-aarch64.so.1 \
 libGammu.so.8 \

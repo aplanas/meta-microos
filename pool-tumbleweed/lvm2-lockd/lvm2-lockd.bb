@@ -9,7 +9,7 @@ RPM_HASH = "b76a4bbb92da8def7e7d644efacc82af32831002b60ade4af9db95ab8e6c42d12a4e
 
 RPROVIDES:${PN} += "lvm2-lockd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 corosync \
 device-mapper \
 ld-linux-aarch64.so.1 \

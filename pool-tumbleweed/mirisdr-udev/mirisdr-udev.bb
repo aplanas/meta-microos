@@ -9,6 +9,6 @@ RPM_HASH = "f3fbf66e263d5b16367b9b25359592c3a7011f86ab4805f386dcd4630eb264828c35
 
 RPROVIDES:${PN} += "mirisdr-udev"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

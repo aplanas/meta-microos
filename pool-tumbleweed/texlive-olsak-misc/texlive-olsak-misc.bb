@@ -28,7 +28,7 @@ tex-scancsv.tex \
 tex-xmlparser.tex \
 texlive-olsak-misc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

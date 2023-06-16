@@ -15,8 +15,8 @@ libvirt-driver-storage.so \
 libvirt-storage-backend-fs.so \
 libvirt-storage-file-fs.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/qemu-img \
+RDEPENDS:${PN} += "/usr/bin/qemu-img \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \

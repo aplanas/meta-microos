@@ -14,8 +14,8 @@ RPM_HASH = "2d0bc629947c8086645d401eb9258d8c4f66eb3fa46fbaf1c506b83fcc89f7a50225
 RPROVIDES:${PN} += "config-libvma \
 libvma"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

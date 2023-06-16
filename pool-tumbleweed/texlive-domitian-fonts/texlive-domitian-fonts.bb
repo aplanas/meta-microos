@@ -146,7 +146,7 @@ font--lang=zu \
 font-domitian \
 texlive-domitian-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

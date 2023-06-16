@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-srcltx.sty \
 tex-srctex.sty \
 texlive-srcltx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

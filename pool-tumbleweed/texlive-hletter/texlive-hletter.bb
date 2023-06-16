@@ -22,7 +22,7 @@ tex-hsetup.sty \
 tex-mergeh.sty \
 texlive-hletter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

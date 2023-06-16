@@ -12,7 +12,7 @@ util-linux-/usr/bin/wall \
 util-linux-/usr/bin/write \
 util-linux-tty-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-tty \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -27,7 +27,7 @@ tex-tikz-timing-overlays.sty \
 tex-tikz-timing.sty \
 texlive-tikz-timing"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

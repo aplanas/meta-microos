@@ -107,8 +107,8 @@ perl-Net--Nslookup6 \
 perl-Net--URIProtocols \
 user-mirrorcache"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl-CSS--Minifier--XS \
 perl-Carp \
 perl-Config--IniFiles \

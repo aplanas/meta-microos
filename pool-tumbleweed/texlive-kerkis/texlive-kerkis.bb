@@ -245,7 +245,7 @@ tex-t1mak.fd \
 tex-t1maksf.fd \
 texlive-kerkis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

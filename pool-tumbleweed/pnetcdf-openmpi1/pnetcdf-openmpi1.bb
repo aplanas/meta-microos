@@ -18,7 +18,7 @@ RPM_HASH = "d7b6b43840202184307860fba8a07d17120cf199038ea6d36929e2e6f5c4bfc8f4f0
 RPROVIDES:${PN} += "parallel-netcdf-openmpi1 \
 pnetcdf-openmpi1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.12 \

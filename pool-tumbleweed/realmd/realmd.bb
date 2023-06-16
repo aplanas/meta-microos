@@ -19,7 +19,7 @@ RPM_HASH = "2ca15960584585b1466a3aacd529b8cb32bc1dc73a381018476df25e9cfb82f226c7
 RPROVIDES:${PN} += "config-realmd \
 realmd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "libpnetcdf-mvapich2 \
 libpnetcdf.so.4 \
 libpnetcdf4-mvapich2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

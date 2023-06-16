@@ -13,7 +13,7 @@ font-marvosym \
 font-marvosymwithtexsupport \
 texlive-marvosym-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

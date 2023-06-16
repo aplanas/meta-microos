@@ -100,7 +100,7 @@ mvn-org.herac.tuxguitar-tuxguitar-viewer \
 mvn-org.herac.tuxguitar-tuxguitar-viewer-pom- \
 tuxguitar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apache-commons-compress \
 eclipse-swt \
 java-headless \

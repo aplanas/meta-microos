@@ -28,7 +28,7 @@ tex-standard-dw.bbx \
 tex-standard-dw.cbx \
 texlive-biblatex-dw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

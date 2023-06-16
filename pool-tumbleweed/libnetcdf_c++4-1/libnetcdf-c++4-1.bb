@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "libnetcdf-c++4-1 \
 libnetcdf-c++4.so.1 \
 libnetcdf1-/usr/lib64/libnetcdf-c++.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

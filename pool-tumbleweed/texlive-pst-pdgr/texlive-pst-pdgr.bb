@@ -19,7 +19,7 @@ tex-pst-pdgr.sty \
 tex-pst-pdgr.tex \
 texlive-pst-pdgr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -21,8 +21,8 @@ python310-bokeh \
 python310-bokeh2 \
 python3dist-bokeh"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Jinja2 \
 python310-Pillow \

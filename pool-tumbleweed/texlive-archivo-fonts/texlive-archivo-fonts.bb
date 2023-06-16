@@ -132,7 +132,7 @@ font-archiv0medium \
 font-archiv0semibold \
 texlive-archivo-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

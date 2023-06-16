@@ -9,7 +9,7 @@ RPM_HASH = "b09b87406fbb0962afdbcc52173e80aa8a1637999a8e67f6e417899dd50ae018fa2d
 
 RPROVIDES:${PN} += "docker-compose-switch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 docker \
 docker-compose \
 libc.so.6 \

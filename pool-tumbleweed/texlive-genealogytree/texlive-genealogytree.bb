@@ -41,7 +41,7 @@ tex-gtrlib.fanchart.code.tex \
 tex-gtrlib.templates.code.tex \
 texlive-genealogytree"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

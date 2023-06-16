@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-rq \
 python311-rq \
 python3dist-rq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click \
 python311-redis \

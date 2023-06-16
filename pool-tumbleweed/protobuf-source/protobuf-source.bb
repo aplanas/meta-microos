@@ -14,13 +14,13 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "protobuf-source"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/node \
 /usr/bin/python \
 /usr/bin/python2.7 \
 /usr/bin/python3 \
-/usr/bin/ruby"
+/usr/bin/ruby \
+/usr/bin/sh"
 
 inherit rpm

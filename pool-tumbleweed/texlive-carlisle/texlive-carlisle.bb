@@ -24,7 +24,7 @@ tex-scalefnt.sty \
 tex-slashed.sty \
 texlive-carlisle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ RPM_HASH = "9e2358c28f8d49692fcec87bb28129530b2a5e0e296336d4e2c5855be187db1c0f88
 
 RPROVIDES:${PN} += "iverilog"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

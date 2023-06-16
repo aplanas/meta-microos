@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zipkin-api-source"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh"
 
 inherit rpm

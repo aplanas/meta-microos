@@ -23,7 +23,7 @@ tex-skrapport-size12pt.clo \
 tex-skrapport.cls \
 texlive-skrapport"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

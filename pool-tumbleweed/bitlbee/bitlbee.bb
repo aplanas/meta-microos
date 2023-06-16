@@ -15,7 +15,7 @@ RPM_HASH = "684d869039b41a67587d90a288ba1f26dd9ed9035763778087a54fd9c066bd4debd8
 RPROVIDES:${PN} += "bitlbee \
 config-bitlbee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \

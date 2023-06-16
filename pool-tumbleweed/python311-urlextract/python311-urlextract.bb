@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-urlextract \
 python311-urlextract \
 python3dist-urlextract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-dnspython \
 python311-filelock \

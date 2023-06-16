@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-xmulogo.sty \
 tex-xmuthesis.cls \
 texlive-xmuthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

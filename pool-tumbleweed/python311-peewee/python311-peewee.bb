@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "python3.11dist-peewee \
 python311-peewee \
 python3dist-peewee"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsqlite3.so.0 \

@@ -14,8 +14,8 @@ python3.10dist-msoffcrypto-tool \
 python310-msoffcrypto-tool \
 python3dist-msoffcrypto-tool"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-cryptography \
 python310-olefile \

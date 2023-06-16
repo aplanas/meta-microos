@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font--lang=und-zsye \
 font-twemojimozilla \
 texlive-twemoji-colr-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

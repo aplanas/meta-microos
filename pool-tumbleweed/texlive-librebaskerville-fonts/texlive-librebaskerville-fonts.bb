@@ -126,7 +126,7 @@ font-librebaskerville \
 font-librebskvl \
 texlive-librebaskerville-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

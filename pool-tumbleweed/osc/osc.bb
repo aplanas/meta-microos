@@ -18,7 +18,7 @@ python3.10dist-osc \
 python3dist-osc \
 rpm-macro-osc-plugin-dir"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 python-abi \
 python3-cryptography \

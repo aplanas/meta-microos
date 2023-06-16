@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "config-mozilla-nss-sysinit \
 libnsssysinit.so \
 mozilla-nss-sysinit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

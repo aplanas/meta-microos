@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-byname.sty \
 tex-smartref.sty \
 texlive-smartref"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

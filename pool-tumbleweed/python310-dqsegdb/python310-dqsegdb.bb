@@ -14,8 +14,8 @@ python3.10dist-dqsegdb \
 python310-dqsegdb \
 python3dist-dqsegdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-gwdatafind \
 python310-lal \

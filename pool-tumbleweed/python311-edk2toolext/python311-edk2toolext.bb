@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-edk2-pytool-extensions \
 python311-edk2toolext \
 python3dist-edk2-pytool-extensions"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyYAML \
 python311-edk2toollib \

@@ -13,7 +13,7 @@ RPM_HASH = "9eed53f7c27959e62faa5a69af06ac84ff569de8a10ebd11e56c5bda78f46e291b91
 
 RPROVIDES:${PN} += "debianutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

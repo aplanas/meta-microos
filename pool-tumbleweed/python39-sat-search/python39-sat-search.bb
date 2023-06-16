@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-sat-search \
 python39-sat-search \
 python3dist-sat-search"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-sat-stac \
 update-alternatives"

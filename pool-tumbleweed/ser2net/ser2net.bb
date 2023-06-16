@@ -13,7 +13,7 @@ RPM_HASH = "2b95c0d7f03d75421b63db60000f6329f227b3bf0d75eb84065185894a597c52257f
 RPROVIDES:${PN} += "config-ser2net \
 ser2net"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgensio.so.4 \

@@ -28,7 +28,7 @@ tex-fontch-doc.tex \
 tex-fontch.tex \
 texlive-fontch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

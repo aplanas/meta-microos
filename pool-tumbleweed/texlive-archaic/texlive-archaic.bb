@@ -97,7 +97,7 @@ tex-vik10.tfm \
 tex-viking.sty \
 texlive-archaic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

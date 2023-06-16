@@ -17,7 +17,7 @@ RPM_HASH = "fd10e83ec4724ea9a490cc04d3a7b38cec08bfacb2aa3b1636ad1ad5c32dd53db822
 RPROVIDES:${PN} += "config-pdnsd \
 pdnsd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

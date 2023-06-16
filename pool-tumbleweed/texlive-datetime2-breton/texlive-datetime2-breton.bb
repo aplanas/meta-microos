@@ -16,7 +16,7 @@ tex-datetime2-breton-utf8.ldf \
 tex-datetime2-breton.ldf \
 texlive-datetime2-breton"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

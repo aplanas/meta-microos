@@ -21,7 +21,7 @@ tex-trad-unsrt.bbx \
 tex-trad-unsrt.cbx \
 texlive-biblatex-trad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

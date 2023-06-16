@@ -12,7 +12,7 @@ RPM_HASH = "9e08bd715c4f0e9ae1977c4de2944ca61a7fb0064f9680956b7f5ce0d9cbeeb8111d
 
 RPROVIDES:${PN} += "pam-apparmor"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libapparmor.so.1 \
 libc.so.6 \
 libpam.so.0 \

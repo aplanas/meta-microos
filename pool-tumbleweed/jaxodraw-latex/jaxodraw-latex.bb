@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxodraw-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 jaxodraw \
 tex-latex \

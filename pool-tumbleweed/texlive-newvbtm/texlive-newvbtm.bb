@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-newvbtm.sty \
 tex-varvbtm.sty \
 texlive-newvbtm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

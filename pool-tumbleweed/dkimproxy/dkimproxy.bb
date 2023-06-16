@@ -20,9 +20,9 @@ perl-MSDW--SMTP--Server \
 perl-MySmtpProxyServer \
 perl-MySmtpServer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 git-core \

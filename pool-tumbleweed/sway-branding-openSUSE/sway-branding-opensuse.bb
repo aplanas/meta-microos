@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-sway-branding-openSUSE \
 sway-branding \
 sway-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 SwayNotificationCenter \
 bc \
 brightnessctl \

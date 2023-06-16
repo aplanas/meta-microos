@@ -18,8 +18,8 @@ pkgconfig-libpcre2-32 \
 pkgconfig-libpcre2-8 \
 pkgconfig-libpcre2-posix"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libpcre2-16-0 \
 libpcre2-32-0 \
 libpcre2-8-0 \

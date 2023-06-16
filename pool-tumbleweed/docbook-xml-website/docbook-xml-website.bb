@@ -12,10 +12,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-docbook-xml-website \
 docbook-xml-website"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/edit-xml-catalog \
 /usr/bin/sgml-register-catalog \
+/usr/bin/sh \
 /usr/bin/xmlcatalog \
 awk \
 docbook-4 \

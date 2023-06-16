@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-jekyll-4 \
 rubygem-ruby-3.2.0-jekyll-4.3 \
 rubygem-ruby-3.2.0-jekyll-4.3.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-addressable-2 \
 rubygem-ruby-3.2.0-colorator-1 \

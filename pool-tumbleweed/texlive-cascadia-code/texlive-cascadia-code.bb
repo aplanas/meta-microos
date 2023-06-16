@@ -132,7 +132,7 @@ tex-a-zrxj4s.enc \
 tex-cascadia-code.sty \
 texlive-cascadia-code"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

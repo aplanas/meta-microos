@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-poster.sty \
 tex-poster.tex \
 texlive-poster-mac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

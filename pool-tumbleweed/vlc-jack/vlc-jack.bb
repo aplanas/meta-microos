@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libaccess-jack-plugin.so \
 libjack-plugin.so \
 vlc-jack"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjack.so.0 \

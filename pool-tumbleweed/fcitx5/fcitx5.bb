@@ -32,8 +32,8 @@ libwaylandim.so \
 libxcb.so \
 libxim.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libFcitx5Config.so.6 \
 libFcitx5Core.so.7 \

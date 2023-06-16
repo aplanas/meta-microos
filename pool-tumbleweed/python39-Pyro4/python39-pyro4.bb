@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.9dist-pyro4 \
 python39-Pyro4 \
 python3dist-pyro4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-serpent \
 update-alternatives"

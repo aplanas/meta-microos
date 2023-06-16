@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-eradicate \
 python39-eradicate \
 python3dist-eradicate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

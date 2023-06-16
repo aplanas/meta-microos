@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-ob3d.sty \
 tex-pst-ob3d.tex \
 texlive-pst-ob3d"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -27,7 +27,7 @@ tex-stmgerman.def \
 tex-stmnamibian.def \
 texlive-bankstatement"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

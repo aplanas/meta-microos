@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-cstypo-tex.tex \
 tex-cstypo.sty \
 texlive-cstypo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

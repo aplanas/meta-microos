@@ -28,7 +28,7 @@ tex-cm-super-x2.map \
 tex-type1ec.sty \
 texlive-cm-super"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

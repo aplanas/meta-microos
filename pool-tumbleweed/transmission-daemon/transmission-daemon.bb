@@ -12,7 +12,7 @@ RPM_HASH = "91fb0585e4166cbea8b59f3fd53e0af329b6edd85bebb632651837df4e02f226d377
 
 RPROVIDES:${PN} += "transmission-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libb64.so.0 \
 libc.so.6 \

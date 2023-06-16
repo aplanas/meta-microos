@@ -25,7 +25,7 @@ tex-bbold8.tfm \
 tex-bbold9.tfm \
 texlive-bbold"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

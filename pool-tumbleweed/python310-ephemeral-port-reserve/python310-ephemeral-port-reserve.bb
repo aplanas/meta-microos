@@ -13,8 +13,8 @@ python3.10dist-ephemeral-port-reserve \
 python310-ephemeral-port-reserve \
 python3dist-ephemeral-port-reserve"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

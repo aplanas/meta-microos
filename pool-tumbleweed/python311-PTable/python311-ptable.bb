@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-ptable \
 python311-PTable \
 python3dist-ptable"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

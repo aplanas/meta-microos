@@ -17,7 +17,7 @@ locale-gtk2-ko \
 locale-gtk2-th \
 locale-gtk2-zh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-tools \
 libX11.so.6 \

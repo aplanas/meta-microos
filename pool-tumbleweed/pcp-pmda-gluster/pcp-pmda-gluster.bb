@@ -10,8 +10,8 @@ RPM_HASH = "48fbe33f666c60a0baf09153d14b2c7315432a4a3631dd6b75dc3f87ca5d814bcfc3
 
 RPROVIDES:${PN} += "pcp-pmda-gluster"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 python3-pcp"
 
 inherit rpm

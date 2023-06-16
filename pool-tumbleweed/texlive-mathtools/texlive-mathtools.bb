@@ -28,7 +28,7 @@ tex-mathtools.sty \
 tex-mhsetup.sty \
 texlive-mathtools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

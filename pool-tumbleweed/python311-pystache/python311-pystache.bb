@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.11dist-pystache \
 python311-pystache \
 python3dist-pystache"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPM_HASH = "3cb5862ade6e75eb3cb7e075dd4af4476940525de7b2079c46b6b6b018f4d53d981f
 RPROVIDES:${PN} += "config-lapdog \
 lapdog"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

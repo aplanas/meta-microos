@@ -13,7 +13,7 @@ group-vcontrold \
 user-vcontrold \
 vcontrold"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-dialout \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

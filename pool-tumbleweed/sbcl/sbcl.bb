@@ -13,7 +13,7 @@ RPM_HASH = "8a2da630843f1dfaa1febb7803bdaf6a1d99dd1ab01dcf6cdf58a20d0f32536dcc8f
 
 RPROVIDES:${PN} += "sbcl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

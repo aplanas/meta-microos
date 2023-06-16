@@ -16,7 +16,7 @@ tex-hyph-zh-latn-pinyin.tex \
 tex-loadhyph-zh-latn-pinyin.tex \
 texlive-hyphen-chinese"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

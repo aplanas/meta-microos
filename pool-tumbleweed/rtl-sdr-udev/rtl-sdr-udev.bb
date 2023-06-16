@@ -9,7 +9,7 @@ RPM_HASH = "ab65daf2858123d4354240e937c74a06e1b663e3695b4417c53e89bd54536c7f545d
 
 RPROVIDES:${PN} += "rtl-sdr-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 shadow"
 
 inherit rpm

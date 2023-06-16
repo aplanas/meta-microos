@@ -15,9 +15,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-tuned \
 tuned"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 cpupower \
 ethtool \
 gawk \

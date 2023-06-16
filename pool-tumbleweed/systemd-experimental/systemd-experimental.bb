@@ -41,8 +41,8 @@ RPM_HASH = "4491bfb67515268c5873891100b6e2c2c32015a3860baa96bf9166d7e8be4d006d16
 RPROVIDES:${PN} += "config-systemd-experimental \
 systemd-experimental"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \

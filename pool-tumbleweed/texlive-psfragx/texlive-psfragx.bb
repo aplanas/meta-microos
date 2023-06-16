@@ -26,7 +26,7 @@ RPROVIDES:${PN} += "tex-psfragx.cfg \
 tex-psfragx.sty \
 texlive-psfragx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

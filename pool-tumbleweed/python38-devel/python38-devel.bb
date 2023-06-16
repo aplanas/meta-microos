@@ -19,9 +19,9 @@ RPROVIDES:${PN} += "pkgconfig-python-3.8 \
 pkgconfig-python-3.8-embed \
 python38-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3.8 \
+/usr/bin/sh \
 python-abi \
 python38-base"
 

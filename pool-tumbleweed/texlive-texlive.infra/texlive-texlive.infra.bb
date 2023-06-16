@@ -28,7 +28,7 @@ tex-fmtutil-hdr.cnf \
 tex-updmap-hdr.cfg \
 texlive-texlive.infra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

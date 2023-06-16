@@ -11,7 +11,7 @@ RPM_HASH = "76bf867c51abde1b14dfc3862934f10d5711845e56ca5bd938cc4f36890443acedbd
 
 RPROVIDES:${PN} += "tintii"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

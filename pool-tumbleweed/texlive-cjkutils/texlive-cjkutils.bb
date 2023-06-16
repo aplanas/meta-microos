@@ -32,7 +32,7 @@ tex-jsso12.cfg \
 tex-ksso17.cfg \
 texlive-cjkutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,8 +19,8 @@ python3.10dist-img2pdf \
 python310-img2pdf \
 python3dist-img2pdf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Pillow \
 python310-pdfrw \

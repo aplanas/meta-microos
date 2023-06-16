@@ -20,8 +20,8 @@ python3.10dist-jfscripts \
 python310-jfscripts \
 python3dist-jfscripts"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyPDF2 \
 python310-sphinx-argparse \

@@ -18,7 +18,7 @@ RPM_HASH = "d2a78c6a77a47ec2aba2940d550a9358ac125d6907fb95eb4f31763d4bb8bfcb9dde
 RPROVIDES:${PN} += "config-openafs-fuse-client \
 openafs-fuse-client"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libafshcrypto.so.2 \
 libc.so.6 \

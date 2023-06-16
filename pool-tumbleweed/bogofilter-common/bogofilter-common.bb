@@ -19,9 +19,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "bogofilter-common \
 config-bogofilter-common"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 bogofilter-backend"
 
 inherit rpm

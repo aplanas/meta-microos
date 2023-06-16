@@ -16,8 +16,8 @@ python311-cfn-lint \
 python3dist-cfn-lint"
 
 RDEPENDS:${PN} += "-python311-jsonschema > 3.0 with python311-jsonschema < 5 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python311-PyYAML \

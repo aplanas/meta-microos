@@ -13,8 +13,8 @@ RPM_HASH = "95f168569c774e1469ec7a712252e065043f4d46b00ccc01fd995c869a0d7d83543a
 RPROVIDES:${PN} += "libuhd.so.4.4.0 \
 libuhd4-4-0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-chrono.so.1.82.0 \
 libboost-filesystem.so.1.82.0 \

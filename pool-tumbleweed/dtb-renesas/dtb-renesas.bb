@@ -10,7 +10,7 @@ RPM_HASH = "791ea80a88fbf45b0baed2eafa40aef6056523bd0f935f0182febe7bd7fb7029affe
 RPROVIDES:${PN} += "dtb-renesas \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

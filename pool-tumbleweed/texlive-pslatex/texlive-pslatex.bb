@@ -31,7 +31,7 @@ tex-pcrr8tn.vf \
 tex-pslatex.sty \
 texlive-pslatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,8 +20,8 @@ systemd-/usr/bin/systemd-nspawn \
 systemd-container \
 systemd-mini-container"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/gpg \
+RDEPENDS:${PN} += "/usr/bin/gpg \
+/usr/bin/sh \
 /usr/bin/tar \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \

@@ -12,7 +12,7 @@ RPM_HASH = "7642a5685e23d47b53080ad563ce0877933aa1bb1325390177bfc78354af52bcc8b8
 
 RPROVIDES:${PN} += "pink-pony"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

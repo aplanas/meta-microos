@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-xstring.sty \
 tex-xstring.tex \
 texlive-xstring"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

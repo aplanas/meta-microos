@@ -176,8 +176,8 @@ firmware-rtl-bt/rtl8852cu-config.bin \
 firmware-rtl-bt/rtl8852cu-fw.bin \
 kernel-firmware-bluetooth"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

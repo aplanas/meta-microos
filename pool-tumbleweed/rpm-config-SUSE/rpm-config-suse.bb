@@ -26,8 +26,8 @@ rpm-macro-sbat-distro-summary \
 rpm-macro-sbat-distro-url \
 rpm-macro-user-group-add"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 rpm"
 
 inherit rpm

@@ -21,8 +21,8 @@ python3.10dist-pyro4 \
 python310-Pyro4 \
 python3dist-pyro4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-serpent \
 update-alternatives"

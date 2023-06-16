@@ -17,9 +17,9 @@ python310-matrix-synapse \
 python3dist-matrix-synapse \
 user-synapse"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 python-abi \

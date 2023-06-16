@@ -20,7 +20,7 @@ man-ptftopl.1 \
 texlive-ptex \
 texlive-ptex-doc-/usr/share/man/man1/makejvf.1.gz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

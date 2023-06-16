@@ -22,8 +22,8 @@ python39-dask \
 python39-dask-multiprocessing \
 python3dist-dask"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-click \

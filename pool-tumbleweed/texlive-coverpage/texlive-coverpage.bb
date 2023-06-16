@@ -27,7 +27,7 @@ RPROVIDES:${PN} += "tex-CoverPage.cfg \
 tex-CoverPage.sty \
 texlive-coverpage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,8 +11,7 @@ RPM_HASH = "9de350f70cd9764fdb3db01bacae616adc8faf688a11876ce89a731ffca049305b1a
 
 RPROVIDES:${PN} += "petsc-3-18-5-gnu-mpich-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-gnu-mpich-hpc-devel \

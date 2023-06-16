@@ -24,8 +24,8 @@ python39-detox \
 python39-tox \
 python3dist-tox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-cachetools \
 python39-chardet \

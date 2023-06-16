@@ -20,7 +20,7 @@ tex-hyph-uk.tex \
 tex-loadhyph-uk.tex \
 texlive-hyphen-ukrainian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

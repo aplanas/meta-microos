@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-gug \
 libreoffice-l10n-gug \
 locale-libreoffice-gug"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker \
 myspell-gug"

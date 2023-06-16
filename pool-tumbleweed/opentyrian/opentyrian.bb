@@ -16,7 +16,7 @@ RPM_HASH = "b2be5f6123b8327e905ade6b04db11cfd407d88c0973dfb27b96fee5387bb8481d1b
 
 RPROVIDES:${PN} += "opentyrian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libSDL2-2.0.so.0 \
 libSDL2-net-2.0.so.0 \
 libc.so.6 \

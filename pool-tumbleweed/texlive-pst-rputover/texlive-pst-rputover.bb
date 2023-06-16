@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pst-rputover.sty \
 tex-pst-rputover.tex \
 texlive-pst-rputover"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

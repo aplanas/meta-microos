@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-IEEEtran.cls \
 tex-IEEEtrantools.sty \
 texlive-ieeetran"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

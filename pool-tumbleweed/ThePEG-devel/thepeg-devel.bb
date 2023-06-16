@@ -13,7 +13,7 @@ RPM_HASH = "c87344687b7f3e53c31dfd43156ab67aef91c628acc727f8a8d041e923f19de0c838
 
 RPROVIDES:${PN} += "ThePEG-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ThePEG-libs \
 ld-linux-aarch64.so.1 \
 libThePEG.so.30 \

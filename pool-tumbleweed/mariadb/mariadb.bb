@@ -21,10 +21,10 @@ mysql \
 mysql-debug \
 mysql-server"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/hostname \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/hostname \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libJudy.so.1 \
 libaio.so.1 \

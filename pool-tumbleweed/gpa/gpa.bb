@@ -11,7 +11,7 @@ RPM_HASH = "d9a8ded7f4bd6c554f362f5af8b90fedbb49023e1aeeb5f3febf504a93d2f4e1d784
 
 RPROVIDES:${PN} += "gpa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libassuan.so.0 \
 libc.so.6 \

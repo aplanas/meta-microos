@@ -15,8 +15,8 @@ RPM_HASH = "9fbb21773f652c44fb27eeb52e3a62bcaf6e69c8f2e6a91827190f2cdc2cd12490ae
 RPROVIDES:${PN} += "config-shibboleth-sp \
 shibboleth-sp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libapr-1.so.0 \
 libaprutil-1.so.0 \

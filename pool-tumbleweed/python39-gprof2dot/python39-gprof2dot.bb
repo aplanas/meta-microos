@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-gprof2dot \
 python39-gprof2dot \
 python3dist-gprof2dot"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

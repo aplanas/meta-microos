@@ -11,8 +11,8 @@ RPM_HASH = "735de350bfb921beaf0d1fd59206cf8994be63c7e1491303547cb7be8ccc74a13b3b
 RPROVIDES:${PN} += "kuberlr \
 kubernetes-client-provider"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 libc.so.6 \

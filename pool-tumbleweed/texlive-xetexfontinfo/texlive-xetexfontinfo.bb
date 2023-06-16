@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-aat-info.tex \
 tex-opentype-info.tex \
 texlive-xetexfontinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

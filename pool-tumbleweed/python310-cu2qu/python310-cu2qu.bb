@@ -12,8 +12,8 @@ python3.10dist-cu2qu \
 python310-cu2qu \
 python3dist-cu2qu"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-FontTools"
 

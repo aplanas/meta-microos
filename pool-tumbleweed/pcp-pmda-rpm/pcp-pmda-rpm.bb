@@ -10,7 +10,7 @@ RPM_HASH = "2fe22f9cb0b3e00866830df490de2f0a0278614220b2c6b3d24b3d12bb64a77d7029
 
 RPROVIDES:${PN} += "pcp-pmda-rpm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

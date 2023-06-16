@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-python-bugzilla \
 python39-bugzilla \
 python3dist-python-bugzilla"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-requests \
 update-alternatives"

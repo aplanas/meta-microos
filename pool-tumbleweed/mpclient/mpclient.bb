@@ -12,7 +12,7 @@ RPM_HASH = "5e20007967deb536078afae23ec2695a6a6674e4e2e733925df0697cb7ffafc9e7d6
 RPROVIDES:${PN} += "config-mpclient \
 mpclient"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpdclient.so.2"

@@ -16,8 +16,8 @@ python3.10dist-memory-profiler \
 python310-memory-profiler \
 python3dist-memory-profiler"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-psutil \
 update-alternatives"

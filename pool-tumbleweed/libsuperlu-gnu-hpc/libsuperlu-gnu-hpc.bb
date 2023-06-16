@@ -11,7 +11,7 @@ RPM_HASH = "e15424c854a3e6c6bf53256f77499f1c4e292ce84827c56ebb216dc97fa56d887942
 
 RPROVIDES:${PN} += "libsuperlu-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libsuperlu-6-0-0-gnu-hpc"
 
 inherit rpm

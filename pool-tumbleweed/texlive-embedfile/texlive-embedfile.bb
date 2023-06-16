@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-dtx-attach.sty \
 tex-embedfile.sty \
 texlive-embedfile"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

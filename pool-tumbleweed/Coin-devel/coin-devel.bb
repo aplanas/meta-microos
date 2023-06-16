@@ -16,8 +16,8 @@ RPM_HASH = "b5023f8809b1ddd8f3edc8be564dc0e3eb6a6ec62b444de7ff6020f29765ace3af8b
 RPROVIDES:${PN} += "Coin-devel \
 pkgconfig-Coin"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 fontconfig-devel \
 freetype2-devel \
 libCoin60 \

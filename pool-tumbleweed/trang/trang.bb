@@ -17,7 +17,7 @@ mvn-org.relaxng-trang \
 mvn-org.relaxng-trang-pom- \
 trang"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 jpackage-utils \

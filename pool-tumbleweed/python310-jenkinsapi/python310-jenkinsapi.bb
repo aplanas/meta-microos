@@ -34,9 +34,9 @@ python3.10dist-jenkinsapi \
 python310-jenkinsapi \
 python3dist-jenkinsapi"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pytz \
 python310-requests \

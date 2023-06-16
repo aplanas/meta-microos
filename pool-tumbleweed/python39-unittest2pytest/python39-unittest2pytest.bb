@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-unittest2pytest \
 python39-unittest2pytest \
 python3dist-unittest2pytest"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -23,7 +23,7 @@ tex-txdps.tex \
 tex-txdtools.tex \
 texlive-texdraw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -22,8 +22,8 @@ RPM_HASH = "e996c68e7520108ddbc606a63ad85d40bd14f5c0210bcab2d1b5e160f0159f9a5727
 RPROVIDES:${PN} += "config-restund \
 restund"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 libc.so.6 \
 libmariadb.so.3 \
 libre.so.12 \

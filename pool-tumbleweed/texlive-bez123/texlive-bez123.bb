@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-bez123.sty \
 tex-multiply.sty \
 texlive-bez123"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -9,7 +9,7 @@ RPM_HASH = "197e02d93edf6c66e699a82f5c87f24d2387f904e9db0b255100a157d50094703b4b
 
 RPROVIDES:${PN} += "xdg-desktop-portal-kde"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \

@@ -9,7 +9,7 @@ RPM_HASH = "b4b710f2fffccb419bbd2d0ee74c88328e25315cd0c4be66359d8542fb46cde0402e
 
 RPROVIDES:${PN} += "airspyhf-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 shadow"
 
 inherit rpm

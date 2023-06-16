@@ -14,7 +14,7 @@ RPM_HASH = "496b302ae2ee057527c71ad773531ce78e3d94c61c1a1198e3b03a2e20155d8cfe16
 RPROVIDES:${PN} += "config-festival \
 festival"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1 \

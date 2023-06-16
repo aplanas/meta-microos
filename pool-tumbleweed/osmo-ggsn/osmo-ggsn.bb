@@ -12,7 +12,7 @@ RPM_HASH = "00d56f996175f2842dc060774879ff8940377079126021f011f0a452663241f7a912
 RPROVIDES:${PN} += "config-osmo-ggsn \
 osmo-ggsn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgtp.so.6 \

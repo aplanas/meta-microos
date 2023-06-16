@@ -101,7 +101,7 @@ font-igfctt1 \
 font-imfctt1 \
 texlive-ipaex-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

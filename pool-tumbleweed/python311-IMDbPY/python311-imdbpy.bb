@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-imdbpy \
 python311-IMDbPY \
 python3dist-imdbpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-SQLAlchemy \
 python311-lxml \

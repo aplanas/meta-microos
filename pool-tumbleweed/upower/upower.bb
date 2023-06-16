@@ -14,7 +14,7 @@ RPM_HASH = "d2695bc09fd978d9a8157b38c6c3a55cedc385fd651b2543ce2e9a05295350d8e1e9
 RPROVIDES:${PN} += "config-upower \
 upower"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

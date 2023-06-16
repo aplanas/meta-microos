@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-mkdocs \
 python39-mkdocs \
 python3dist-mkdocs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 fontawesome-fonts \
 fontawesome-fonts-web \
 python-abi \

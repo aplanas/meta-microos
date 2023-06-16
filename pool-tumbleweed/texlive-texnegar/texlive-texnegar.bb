@@ -28,7 +28,7 @@ tex-texnegar-xetex.sty \
 tex-texnegar.sty \
 texlive-texnegar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -21,7 +21,7 @@ tex-yax.sty \
 tex-yax.tex \
 texlive-yax"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

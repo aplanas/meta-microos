@@ -9,10 +9,10 @@ RPM_HASH = "a37b71e43e3afa9e016a0b03dc10f5c99a121d0ec429d13f854232b0128c8dfb093f
 
 RPROVIDES:${PN} += "openscap-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

@@ -63,8 +63,8 @@ firmware-qcom/yamato-pfp.fw \
 firmware-qcom/yamato-pm4.fw \
 kernel-firmware-qcom"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

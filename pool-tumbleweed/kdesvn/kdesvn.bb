@@ -10,7 +10,7 @@ RPM_HASH = "f4eadf462f4a64620c23501735379da338616e40bfc40e3a23b43f05bf1bf673e1e4
 RPROVIDES:${PN} += "kde4-kdesvn \
 kdesvn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Bookmarks.so.5 \
 libKF5Codecs.so.5 \

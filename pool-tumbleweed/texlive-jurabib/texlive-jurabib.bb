@@ -36,7 +36,7 @@ tex-ptjbbib.ldf \
 tex-spjbbib.ldf \
 texlive-jurabib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

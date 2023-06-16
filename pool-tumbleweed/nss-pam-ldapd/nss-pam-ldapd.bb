@@ -21,7 +21,7 @@ libnss-ldap.so.2 \
 nss-ldapd \
 nss-pam-ldapd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgssapi-krb5.so.2 \

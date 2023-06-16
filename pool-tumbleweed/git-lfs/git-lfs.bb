@@ -11,7 +11,7 @@ RPM_HASH = "6788989a860aa6dc241d899eca6ff511ba3be517c94d717c196521c41a6eda7d12d9
 
 RPROVIDES:${PN} += "git-lfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 git-core \
 libc.so.6"
 

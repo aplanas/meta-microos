@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.9dist-pybtex \
 python39-pybtex \
 python3dist-pybtex"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-latexcodec \
 python39-pyparsing \

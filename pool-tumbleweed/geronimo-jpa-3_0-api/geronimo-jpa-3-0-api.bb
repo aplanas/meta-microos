@@ -19,7 +19,7 @@ mvn-javax.persistence-persistence-api-pom- \
 mvn-org.apache.geronimo.specs-geronimo-jpa-3.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-jpa-3.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

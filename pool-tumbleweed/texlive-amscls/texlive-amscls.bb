@@ -25,7 +25,7 @@ tex-amsthm.sty \
 tex-upref.sty \
 texlive-amscls"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

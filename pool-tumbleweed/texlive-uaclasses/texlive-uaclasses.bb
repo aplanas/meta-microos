@@ -20,7 +20,7 @@ tex-ua-thesis.cls \
 tex-ua-title.sty \
 texlive-uaclasses"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

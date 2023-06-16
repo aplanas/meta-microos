@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "screenfetch"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 bc \
 xprop"
 

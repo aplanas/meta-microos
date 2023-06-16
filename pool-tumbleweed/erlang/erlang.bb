@@ -18,8 +18,8 @@ rpm-macro-erlang-app-vsn \
 rpm-macro-erlang-dir \
 rpm-macro-erlang-libdir"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 erlang-epmd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

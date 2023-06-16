@@ -19,8 +19,8 @@ go1.14 \
 golang-API \
 libstd.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 binutils-gold \
 gcc \
 libc.so.6 \

@@ -134,8 +134,8 @@ iwl6000g2-ucode \
 iwl6050-ucode \
 kernel-firmware-iwlwifi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

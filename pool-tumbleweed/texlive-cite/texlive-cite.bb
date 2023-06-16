@@ -19,7 +19,7 @@ tex-drftcite.sty \
 tex-overcite.sty \
 texlive-cite"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-alphanum.sty \
 tex-jura.cls \
 texlive-jura"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

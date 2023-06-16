@@ -17,8 +17,8 @@ freeradius \
 freeradius-server \
 radiusd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 freeradius-server-libs \
 ld-linux-aarch64.so.1 \

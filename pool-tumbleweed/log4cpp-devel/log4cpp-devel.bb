@@ -11,8 +11,8 @@ RPM_HASH = "d07fae45cb4e0172af16af4ae784ea88b7826c300e20ad22432743740db218a447aa
 RPROVIDES:${PN} += "log4cpp-devel \
 pkgconfig-log4cpp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 liblog4cpp5"
 
 inherit rpm

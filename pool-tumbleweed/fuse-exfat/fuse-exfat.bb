@@ -12,7 +12,7 @@ RPM_HASH = "5113c633cc4222d00e3d08ded96feee51da0324aafa9cea9dc220c730cf23f8c19cb
 
 RPROVIDES:${PN} += "fuse-exfat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fuse \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

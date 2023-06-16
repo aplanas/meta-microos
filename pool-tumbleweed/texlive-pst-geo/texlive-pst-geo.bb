@@ -74,7 +74,7 @@ tex-wfraczon.dat \
 tex-wmaglin.dat \
 texlive-pst-geo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

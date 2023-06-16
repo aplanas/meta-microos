@@ -21,7 +21,7 @@ jakarta-commons-dbcp2 \
 mvn-org.apache.commons-commons-dbcp2 \
 mvn-org.apache.commons-commons-dbcp2-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 commons-collections \
 commons-pool2 \
 java-headless \

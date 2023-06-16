@@ -226,8 +226,8 @@ tex-uptex-yu-win.map \
 tex-uptex-yu-win10.map \
 texlive-ptex-fontmaps"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPM_HASH = "3930e3190b91618636223f9a17643d8df5f8fed8ebfbf17dc1b5aaf22458d681f62c
 
 RPROVIDES:${PN} += "wimtools"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 fuse \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

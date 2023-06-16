@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-ajsonrpc \
 python311-ajsonrpc \
 python3dist-ajsonrpc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

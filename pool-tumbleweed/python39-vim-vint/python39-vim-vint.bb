@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-vim-vint \
 python39-vim-vint \
 python3dist-vim-vint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-ansicolor \

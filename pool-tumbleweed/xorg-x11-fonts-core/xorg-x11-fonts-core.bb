@@ -223,7 +223,7 @@ font-sonyfixed \
 xorg-x11-/usr/X11R6/lib/X11/fonts/misc/cursor.pcf.gz \
 xorg-x11-fonts-core"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fonts-config"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "9f2fb535d001ec15391d53bf386932ca0a300662c01fe8829e07d10bff71955d4295
 RPROVIDES:${PN} += "libopenblas-openmp0 \
 libopenblas.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgfortran.so.5 \

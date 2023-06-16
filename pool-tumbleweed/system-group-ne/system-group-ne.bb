@@ -10,7 +10,7 @@ RPM_HASH = "b47d7a90d678f0fa58913da07b6e3f31844910795d379b71f7c20eb52121946ea3ec
 RPROVIDES:${PN} += "group-ne \
 system-group-ne"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

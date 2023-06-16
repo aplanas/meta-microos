@@ -12,7 +12,7 @@ RPM_HASH = "394a49adc65cc30d97b3403b80076d66ef20dcb0f93a0f1790b71e358e2c5b811dbb
 
 RPROVIDES:${PN} += "MyGUI-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 MyGUI \
 ld-linux-aarch64.so.1 \
 libEditorFramework.so \

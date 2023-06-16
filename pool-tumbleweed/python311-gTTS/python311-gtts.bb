@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-gtts \
 python311-gTTS \
 python3dist-gtts"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-beautifulsoup4 \
 python311-click \

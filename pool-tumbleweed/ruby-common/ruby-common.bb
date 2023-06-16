@@ -50,9 +50,9 @@ rpm-macro-set-gem-binary \
 ruby-common \
 ruby-macros"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/getopt \
+/usr/bin/sh \
 fdupes \
 rubygem-gem2rpm \
 util-linux"

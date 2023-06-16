@@ -15,8 +15,8 @@ python3.10dist-convertdate \
 python310-convertdate \
 python3dist-convertdate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyMeeus \
 update-alternatives"

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "ceph-osd \
 ceph-test-/usr/bin/ceph-osdomap-tool \
 config-ceph-osd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \

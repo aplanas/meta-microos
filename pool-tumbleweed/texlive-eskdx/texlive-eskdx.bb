@@ -41,7 +41,7 @@ tex-eskdtotal.sty \
 tex-eskdukrainian.def \
 texlive-eskdx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

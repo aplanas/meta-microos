@@ -33,7 +33,7 @@ font--lang=zu \
 font-eulermath \
 texlive-euler-math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

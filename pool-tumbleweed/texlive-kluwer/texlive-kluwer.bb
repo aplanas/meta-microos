@@ -33,7 +33,7 @@ tex-klutab.sty \
 tex-kluwer.cls \
 texlive-kluwer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

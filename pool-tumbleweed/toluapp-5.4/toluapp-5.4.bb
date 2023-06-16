@@ -13,7 +13,7 @@ RPM_HASH = "c4f72c80f3967468b8c8d4e1fa30aebe76393bb3cfce717d6eb672c10ac419b4cded
 
 RPROVIDES:${PN} += "toluapp-5.4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 liblua5.4.so.5 \
 libm.so.6 \

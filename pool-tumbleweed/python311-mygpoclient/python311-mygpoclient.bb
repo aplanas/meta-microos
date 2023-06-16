@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-mygpoclient \
 python311-mygpoclient \
 python3dist-mygpoclient"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-simplejson \
 update-alternatives"

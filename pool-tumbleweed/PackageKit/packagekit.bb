@@ -14,7 +14,7 @@ RPM_HASH = "5f7abde0d851e2f57295326d6d46768295b072c6f4f11aa18a6dcd54f67afd229481
 RPROVIDES:${PN} += "PackageKit \
 libpk-backend-dummy.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 PackageKit-backend \
 PackageKit-branding \
 ld-linux-aarch64.so.1 \

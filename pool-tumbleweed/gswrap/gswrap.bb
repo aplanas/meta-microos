@@ -15,9 +15,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-gswrap \
 gswrap"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/gs.bin \
+/usr/bin/sh \
 bubblewrap \
 coreutils \
 sed \

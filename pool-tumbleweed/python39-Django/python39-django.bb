@@ -14,8 +14,8 @@ python39-South \
 python39-django \
 python3dist-django"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39 \
 python39-Pillow \

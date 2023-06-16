@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "GraphicsMagick-devel \
 pkgconfig-GraphicsMagick \
 pkgconfig-GraphicsMagickWand"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libGraphicsMagick-Q16-3 \
 libGraphicsMagickWand-Q16-2 \

@@ -24,8 +24,8 @@ RPROVIDES:${PN} += "ceph-iscsi \
 python3.10dist-ceph-iscsi \
 python3dist-ceph-iscsi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ceph-common \
 python-abi \
 python3-Flask \

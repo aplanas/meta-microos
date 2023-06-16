@@ -14,8 +14,8 @@ liballeg-devel \
 liballeg44-devel \
 pkgconfig-allegro"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 allegro44 \
 ld-linux-aarch64.so.1 \
 liballeg4-4 \

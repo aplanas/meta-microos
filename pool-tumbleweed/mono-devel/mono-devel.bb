@@ -183,12 +183,11 @@ pkgconfig-mono-lineeditor \
 pkgconfig-mono-options \
 pkgconfig-xbuild12"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/bash \
 /usr/bin/env \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdiplus-devel \

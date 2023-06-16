@@ -20,8 +20,8 @@ python3dist-cookiecutter"
 
 RDEPENDS:${PN} += "-python310-Jinja2 >= 2.7 with python310-Jinja2 < 4 \
 -python310-click >= 7 with python310-click < 9 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python310-PyYAML \

@@ -28,7 +28,7 @@ mvn-mx4j-mx4j-tools-pom- \
 mx4j \
 openjmx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apache-commons-logging \
 axis \
 bcel \

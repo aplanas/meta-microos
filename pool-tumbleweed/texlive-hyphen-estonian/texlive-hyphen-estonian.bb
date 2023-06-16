@@ -13,7 +13,7 @@ tex-hyph-et.tex \
 tex-loadhyph-et.tex \
 texlive-hyphen-estonian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

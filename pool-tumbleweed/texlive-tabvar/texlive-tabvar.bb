@@ -15,7 +15,7 @@ tex-tabvar.sty \
 tex-tabvar.tfm \
 texlive-tabvar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

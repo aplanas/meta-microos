@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font--lang=ar \
 font-dad \
 texlive-dad-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

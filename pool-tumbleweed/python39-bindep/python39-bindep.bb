@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-bindep \
 python39-bindep \
 python3dist-bindep"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Parsley \
 python39-distro \

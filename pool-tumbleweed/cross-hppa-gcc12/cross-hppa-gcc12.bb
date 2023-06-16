@@ -12,7 +12,7 @@ RPM_HASH = "01e428acdc8d2653c776cb95ca73db669667c7713ef6c67b7df23291f965a070001f
 
 RPROVIDES:${PN} += "cross-hppa-gcc12"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-hppa-binutils \
 libstdc++6-devel-gcc12 \
 update-alternatives"

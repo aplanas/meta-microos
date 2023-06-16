@@ -2759,7 +2759,7 @@ kmod-zynqmp-edac.ko \
 kmod-zynqmp-ipi-mailbox.ko \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 awk \
 coreutils \
 distribution-release \

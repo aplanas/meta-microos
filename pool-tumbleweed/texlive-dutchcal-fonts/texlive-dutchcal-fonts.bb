@@ -33,7 +33,7 @@ font--lang=zu \
 font-dutchcalligraphic \
 texlive-dutchcal-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

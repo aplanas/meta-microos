@@ -22,7 +22,7 @@ mvn-org.apache.geronimo.specs-geronimo-jta-1.1-spec-pom- \
 mvn-org.eclipse.jetty.orbit-javax.transaction \
 mvn-org.eclipse.jetty.orbit-javax.transaction-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

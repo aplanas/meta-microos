@@ -17,7 +17,7 @@ tex-drftcono.sty \
 tex-showkeysff.sty \
 texlive-chemcono"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

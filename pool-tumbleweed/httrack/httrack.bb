@@ -20,7 +20,7 @@ RPM_HASH = "e9b57b8202530c872863c7899e3695649eb71074562b6af18e77f07fb53f7fd68254
 
 RPROVIDES:${PN} += "httrack"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhttrack.so.2 \

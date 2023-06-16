@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-dtk-authoryear.bbx \
 tex-dtk-logos.sty \
 texlive-dtk-bibliography"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

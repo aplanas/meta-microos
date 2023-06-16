@@ -23,7 +23,7 @@ tex-ln-langs-wals-native.tex \
 tex-ln-langs-wals.tex \
 texlive-langnames"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

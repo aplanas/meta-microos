@@ -165,7 +165,7 @@ tex-zpzccmry.tfm \
 tex-zpzccmry.vf \
 texlive-times"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

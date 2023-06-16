@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-soton-beamer.sty \
 tex-soton-palette.sty \
 texlive-soton"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

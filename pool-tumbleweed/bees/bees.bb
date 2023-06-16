@@ -23,7 +23,7 @@ RPM_HASH = "e2006e07c1e30e505f0178745ee16eb23f507564e0645d72df6f0cdc583fad79f09f
 
 RPROVIDES:${PN} += "bees"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

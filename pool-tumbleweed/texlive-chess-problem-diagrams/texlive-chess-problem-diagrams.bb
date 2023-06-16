@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-cpdparse.sty \
 tex-diagram.sty \
 texlive-chess-problem-diagrams"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

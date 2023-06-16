@@ -33,7 +33,7 @@ tex-sansmathaccent.map \
 tex-sansmathaccent.sty \
 texlive-sansmathaccent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

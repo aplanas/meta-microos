@@ -14,7 +14,7 @@ rubygem-ruby-3.2.0-strptime-0.2 \
 rubygem-ruby-3.2.0-strptime-0.2.5 \
 rubygem-strptime"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

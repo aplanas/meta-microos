@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-kismetdb \
 python39-kismetdb \
 python3dist-kismetdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-python-dateutil \
 python39-simplekml \

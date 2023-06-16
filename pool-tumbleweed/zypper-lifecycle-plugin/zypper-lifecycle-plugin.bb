@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-lifecycle-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby \
+RDEPENDS:${PN} += "/usr/bin/ruby \
+/usr/bin/sh \
 systemd \
 zypper"
 

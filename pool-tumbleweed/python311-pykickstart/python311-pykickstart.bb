@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-pykickstart \
 python311-pykickstart \
 python3dist-pykickstart"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-requests"
 

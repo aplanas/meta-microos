@@ -23,8 +23,8 @@ pkgconfig-MagickCore-7.Q16HDRI \
 pkgconfig-MagickWand \
 pkgconfig-MagickWand-7.Q16HDRI"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 ImageMagick \
 glibc-devel \
 libMagickCore-7-Q16HDRI10 \

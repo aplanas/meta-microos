@@ -13,8 +13,8 @@ python3.10dist-actdiag \
 python310-actdiag \
 python3dist-actdiag"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-blockdiag \
 python310-setuptools \

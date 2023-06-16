@@ -30,7 +30,7 @@ tex-tkz-tools-text.tex \
 tex-tkz-tools-utilities.tex \
 texlive-tkz-base"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

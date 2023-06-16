@@ -18,8 +18,8 @@ python39-FontTools \
 python39-fonttools \
 python3dist-fonttools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-fs \
 update-alternatives"

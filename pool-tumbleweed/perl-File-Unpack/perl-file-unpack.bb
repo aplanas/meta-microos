@@ -17,8 +17,8 @@ RPM_HASH = "536071867dc00e49ee139742d093e1af34060fe438ed130801a53fcc6c0defef83de
 RPROVIDES:${PN} += "perl-File--Unpack \
 perl-File-Unpack"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 binutils \
 bzip2 \
 cabextract \

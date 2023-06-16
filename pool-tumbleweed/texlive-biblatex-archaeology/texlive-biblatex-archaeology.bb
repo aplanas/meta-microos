@@ -358,7 +358,7 @@ tex-zaes.bbx \
 tex-zaes.cbx \
 texlive-biblatex-archaeology"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

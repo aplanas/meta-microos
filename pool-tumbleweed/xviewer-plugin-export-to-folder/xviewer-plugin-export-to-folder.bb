@@ -10,7 +10,7 @@ RPM_HASH = "ce78f7e4f3aacd45d44b45f48e88454ee39f0e8b889db289cb054475f81db29aa57d
 RPROVIDES:${PN} += "xviewer-plugin-export-to-folder \
 xviewer-plugins-/usr/lib64/xviewer/plugins/export-to-folder.plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 typelib-GObject \
 typelib-Gio \
 typelib-Gtk \

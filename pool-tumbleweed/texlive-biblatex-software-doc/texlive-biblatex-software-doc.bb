@@ -10,6 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-software-doc"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

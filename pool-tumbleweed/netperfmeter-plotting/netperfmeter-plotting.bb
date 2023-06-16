@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netperfmeter-plotting"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 R-core \
 netperfmeter \
 netperfmeter-pdfproctools"

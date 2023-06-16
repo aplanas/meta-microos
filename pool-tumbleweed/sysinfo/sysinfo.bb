@@ -14,7 +14,7 @@ RPM_HASH = "fd9f61742e06bb3025076943dedab6e5cec802e7264b7eab30f2eb3d9731cfb51fb2
 
 RPROVIDES:${PN} += "sysinfo"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libHX.so.32 \

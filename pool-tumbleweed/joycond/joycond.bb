@@ -11,7 +11,7 @@ RPM_HASH = "a5806a76c54a6c771d88bb19e35ad224a0deb3fad3c25167c695248a7155c42fc27b
 
 RPROVIDES:${PN} += "joycond"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kmod-hid-nintendo.ko \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

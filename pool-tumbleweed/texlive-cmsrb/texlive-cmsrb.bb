@@ -390,7 +390,7 @@ tex-x2cmsrbts.tfm \
 tex-x2cmsrbts.vf \
 texlive-cmsrb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

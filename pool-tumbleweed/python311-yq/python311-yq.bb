@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-yq \
 python311-yq \
 python3dist-yq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 jq \
 python-abi \
 python311-PyYAML \

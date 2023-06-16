@@ -23,8 +23,8 @@ RPM_HASH = "6ceaf0fc5ed5f0dc6966a35ca598af3555d1bc7b867b04c2221841c54876f36eaccc
 RPROVIDES:${PN} += "config-multitail \
 multitail"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

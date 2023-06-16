@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-longbox.sty \
 tex-longfbox.sty \
 texlive-longfbox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

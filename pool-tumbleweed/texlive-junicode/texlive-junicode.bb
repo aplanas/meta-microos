@@ -499,7 +499,7 @@ tex-junicode.sty \
 tex-mt-Junicode.cfg \
 texlive-junicode"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

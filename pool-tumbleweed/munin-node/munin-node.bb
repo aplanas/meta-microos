@@ -57,11 +57,11 @@ perl-Munin--Plugin \
 perl-Munin--Plugin--Pgsql \
 perl-Munin--Plugin--SNMP"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
 /usr/bin/ruby \
+/usr/bin/sh \
 group-nobody \
 group-www \
 perl-HTML-Template \

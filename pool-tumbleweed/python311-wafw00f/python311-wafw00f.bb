@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-wafw00f \
 python311-wafw00f \
 python3dist-wafw00f"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-pluginbase \
 python311-requests"

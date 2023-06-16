@@ -23,9 +23,9 @@ RPROVIDES:${PN} += "net-snmp-devel \
 pkgconfig-netsnmp \
 pkgconfig-netsnmp-agent"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 libsensors4-devel \
 libsnmp40 \
 perl \

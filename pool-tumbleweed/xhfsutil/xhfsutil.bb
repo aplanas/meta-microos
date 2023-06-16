@@ -11,7 +11,7 @@ RPM_HASH = "9d09164b46663bffddfeb14fd2909deba65d9977928ce3b140c913fae0322263a9d2
 
 RPROVIDES:${PN} += "xhfsutil"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hfsutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

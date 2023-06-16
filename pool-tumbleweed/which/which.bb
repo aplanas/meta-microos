@@ -11,7 +11,7 @@ RPM_HASH = "9463f097f16c871f5ee37d2c02bf3c3cb609700687fe45f7ba1abbbbc7d66ddac7a7
 RPROVIDES:${PN} += "util-linux-/usr/bin/which \
 which"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

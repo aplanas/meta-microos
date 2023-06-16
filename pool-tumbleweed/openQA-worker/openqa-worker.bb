@@ -34,9 +34,9 @@ perl-OpenQA--Worker--Settings \
 perl-OpenQA--Worker--WebUIConnection \
 user--openqa-worker"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 bsdtar \
 coreutils \
 group-nogroup \

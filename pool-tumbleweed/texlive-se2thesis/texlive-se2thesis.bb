@@ -22,7 +22,7 @@ tex-se2fonts.sty \
 tex-se2thesis.cls \
 texlive-se2thesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

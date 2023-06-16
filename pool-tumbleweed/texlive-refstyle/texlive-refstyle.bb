@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-refstyle.cfg \
 tex-refstyle.sty \
 texlive-refstyle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

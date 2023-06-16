@@ -26,9 +26,9 @@ liblftp-network.so \
 liblftp-pty.so \
 liblftp-tasks.so.0"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 less \
 libc.so.6 \

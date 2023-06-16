@@ -15,7 +15,7 @@ tex-beamerfontthemeSimpleDarkBlue.sty \
 tex-beamerthemeSimpleDarkBlue.sty \
 texlive-beamertheme-simpledarkblue"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

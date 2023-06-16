@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-emoji-table.def \
 tex-emoji.sty \
 texlive-emoji"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

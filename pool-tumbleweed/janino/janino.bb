@@ -16,7 +16,7 @@ mvn-org.codehaus.janino-janino \
 mvn-org.codehaus.janino-janino-pom- \
 osgi-org.codehaus.janino.janino"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 commons-compiler \
 java-headless \
 javapackages-filesystem \

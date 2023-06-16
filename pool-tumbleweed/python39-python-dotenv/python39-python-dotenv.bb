@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-python-dotenv \
 python39-python-dotenv \
 python3dist-python-dotenv"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 update-alternatives"

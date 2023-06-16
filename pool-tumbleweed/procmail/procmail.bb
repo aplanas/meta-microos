@@ -10,8 +10,8 @@ RPM_HASH = "b22c23270d97e387c844cd2d1775b368d0fdc04bf02270ff8d28136d1f10399355e9
 
 RPROVIDES:${PN} += "procmail"
 
-RDEPENDS:${PN} += "/bin/sed \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sed \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6"

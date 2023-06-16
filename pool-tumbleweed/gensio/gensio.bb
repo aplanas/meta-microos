@@ -17,8 +17,8 @@ RPM_HASH = "22af987659467797194af80b2844f0f98b0508819699432a1055925df9ae449a690d
 
 RPROVIDES:${PN} += "gensio"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

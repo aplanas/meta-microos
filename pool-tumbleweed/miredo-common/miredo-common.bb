@@ -17,7 +17,7 @@ RPM_HASH = "f10d1de84bf9ccce69b95a9cbc662da92609e10059767c8a595bef9ac5d46dcc95e6
 RPROVIDES:${PN} += "miredo-common \
 miredo-libs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

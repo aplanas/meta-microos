@@ -26,7 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-dejavu-otf.sty \
 texlive-dejavu-otf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

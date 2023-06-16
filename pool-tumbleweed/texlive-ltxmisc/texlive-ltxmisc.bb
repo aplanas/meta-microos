@@ -21,7 +21,7 @@ tex-topcapt.sty \
 tex-vrbexin.sty \
 texlive-ltxmisc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

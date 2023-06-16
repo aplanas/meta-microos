@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "udev-persistent-ifnames"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh"
 
 inherit rpm

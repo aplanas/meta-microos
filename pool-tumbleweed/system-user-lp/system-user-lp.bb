@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-lp \
 system-user-lp \
 user-lp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

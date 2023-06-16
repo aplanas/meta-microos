@@ -10,7 +10,7 @@ RPM_HASH = "0a85982ffb2a85897ef36041fa4ec7fe1e76e8daa6357ac26daaf7a92bef47a58ba1
 RPROVIDES:${PN} += "ghc-devel-uuid-types-1.0.5-LsoYQ81hhMAHUqibNrLXkM \
 ghc-uuid-types-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-binary-0.8.9.1 \

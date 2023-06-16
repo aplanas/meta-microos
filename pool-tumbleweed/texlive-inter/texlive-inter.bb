@@ -1116,7 +1116,7 @@ tex-a-zxuxr2.enc \
 tex-inter.sty \
 texlive-inter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

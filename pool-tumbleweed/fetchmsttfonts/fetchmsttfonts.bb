@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fetchmsttfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/fonts-config \
 cabextract \
 coreutils \

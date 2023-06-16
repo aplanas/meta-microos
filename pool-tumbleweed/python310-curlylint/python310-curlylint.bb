@@ -13,8 +13,8 @@ python3.10dist-curlylint \
 python310-curlylint \
 python3dist-curlylint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-attrs \
 python310-click \

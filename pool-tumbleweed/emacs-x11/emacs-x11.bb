@@ -15,7 +15,7 @@ RPM_HASH = "f8525cf8a8b7f5b6a12670b74439f477abae64c3c6d9ef585762b6a4828fc3141a88
 RPROVIDES:${PN} += "emacs-program \
 emacs-x11"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 emacs \
 emacs-eln \
 fileutils \

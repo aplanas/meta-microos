@@ -38,7 +38,7 @@ RPM_HASH = "59f0fd44de33a7919ace9f2106b066abf707545b8351a886ab09904cbcf6db8e35d7
 RPROVIDES:${PN} += "libnetcdf.so.19 \
 libnetcdf19"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

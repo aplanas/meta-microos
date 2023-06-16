@@ -10,7 +10,7 @@ RPM_HASH = "4994e5990f36d2d9ff59136354955cf8c1fda0cc4134c10c898978d6fc75ae572fba
 
 RPROVIDES:${PN} += "gnome-remote-desktop"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

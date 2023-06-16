@@ -15,7 +15,7 @@ RPM_HASH = "9a7eaf805e9166f08de06e5c09abac8c68acf192aeb345262b2f22982bf23ea5e3c3
 RPROVIDES:${PN} += "config-svxlink-server \
 svxlink-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasyncaudio.so.1.6 \
 libasynccore.so.1.6 \

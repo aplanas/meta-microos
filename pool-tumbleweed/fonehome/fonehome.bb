@@ -24,8 +24,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-fonehome \
 fonehome"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 bc \
 findutils \
 openssh \

@@ -17,7 +17,7 @@ tex-hyph-eo.tex \
 tex-loadhyph-eo.tex \
 texlive-hyphen-esperanto"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

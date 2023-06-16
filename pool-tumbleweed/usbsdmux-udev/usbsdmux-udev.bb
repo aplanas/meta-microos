@@ -9,6 +9,6 @@ RPM_HASH = "ceefc492c9af805d091af8f3afb6aa6d049562e6f0ae0ade4de6a09ab80568a94ff7
 
 RPROVIDES:${PN} += "usbsdmux-udev"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

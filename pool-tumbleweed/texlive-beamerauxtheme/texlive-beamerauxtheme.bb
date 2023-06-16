@@ -17,7 +17,7 @@ tex-beamerouterthemesplitwithminiframes.sty \
 tex-beamerouterthemetwolines.sty \
 texlive-beamerauxtheme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

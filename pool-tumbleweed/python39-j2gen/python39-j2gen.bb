@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-j2gen \
 python39-j2gen \
 python3dist-j2gen"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-PyYAML \

@@ -34,7 +34,7 @@ tex-powerdot-upen.sty \
 tex-powerdot.cls \
 texlive-powerdot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

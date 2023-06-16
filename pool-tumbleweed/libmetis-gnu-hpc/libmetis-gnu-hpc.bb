@@ -11,7 +11,7 @@ RPM_HASH = "2ca96c8cc887331c2d02ab77ac5f53b31bd7a2773f5ef5eb796e37d50c720dcda26a
 
 RPROVIDES:${PN} += "libmetis-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libmetis-5-1-0-gnu-hpc"
 
 inherit rpm

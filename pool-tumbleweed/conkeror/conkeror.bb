@@ -15,7 +15,7 @@ RPM_HASH = "2033a87fe93d5557942948c0e7bdfdb72fdad6cebfdc1f0153c4b80ecd2134e37756
 
 RPROVIDES:${PN} += "conkeror"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 firefox \
 libc.so.6"
 

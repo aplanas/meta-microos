@@ -16,7 +16,7 @@ tex-poligraf.sty \
 tex-trans.tex \
 texlive-tex-ps"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

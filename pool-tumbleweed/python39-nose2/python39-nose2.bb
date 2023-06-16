@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-nose2 \
 python39-nose2 \
 python3dist-nose2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

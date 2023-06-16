@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libappmenu.so \
 vala-panel-appmenu \
 vala-panel-plugin-appmenu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 appmenu-gtk2-module \
 appmenu-gtk3-module \
 appmenu-registrar \

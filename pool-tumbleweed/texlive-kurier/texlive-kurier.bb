@@ -561,7 +561,7 @@ tex-wncy-kurierr.tfm \
 tex-wncy-kurierri.tfm \
 texlive-kurier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

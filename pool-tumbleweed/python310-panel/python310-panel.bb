@@ -16,8 +16,8 @@ python310-panel \
 python3dist-panel"
 
 RDEPENDS:${PN} += "-python310-bokeh >= 2.4.3 with python310-bokeh < 2.5 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 jupyter-panel \
 python-abi \
 python310-Markdown \

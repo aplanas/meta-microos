@@ -135,8 +135,8 @@ font--lang=zu \
 font-miscfixedwide \
 xterm-bin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libX11.so.6 \

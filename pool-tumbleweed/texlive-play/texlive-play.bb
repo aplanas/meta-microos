@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-play.cls \
 tex-play.sty \
 texlive-play"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

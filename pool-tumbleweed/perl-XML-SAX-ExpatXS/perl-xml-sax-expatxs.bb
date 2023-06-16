@@ -17,7 +17,7 @@ perl-XML--SAX--ExpatXS--Encoding \
 perl-XML--SAX--ExpatXS--Preload \
 perl-XML-SAX-ExpatXS"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 expat \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

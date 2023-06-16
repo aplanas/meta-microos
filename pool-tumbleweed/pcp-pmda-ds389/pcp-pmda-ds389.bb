@@ -10,7 +10,7 @@ RPM_HASH = "71499077e37288c98a6d4420cf7a661ec5b299353d49db755bf81f6a377bba45327e
 
 RPROVIDES:${PN} += "pcp-pmda-ds389"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-PCP-PMDA \
 perl-ldap"
 

@@ -57,7 +57,7 @@ tex-zxxrw7z.tfm \
 tex-zxxrw8a.tfm \
 texlive-boondox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

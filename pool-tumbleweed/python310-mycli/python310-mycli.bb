@@ -13,8 +13,8 @@ python3.10dist-mycli \
 python310-mycli \
 python3dist-mycli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyMySQL \
 python310-Pygments \

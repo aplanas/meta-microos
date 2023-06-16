@@ -26,7 +26,7 @@ tex-unimath-sfit.map \
 tex-unimath-tt.map \
 texlive-unimath-plain-xetex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

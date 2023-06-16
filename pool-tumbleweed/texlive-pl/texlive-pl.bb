@@ -106,7 +106,7 @@ tex-plu10.tfm \
 tex-plvtt10.tfm \
 texlive-pl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

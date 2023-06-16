@@ -39,7 +39,7 @@ RPM_HASH = "1425a40a42dcc1df798ee0669bafe7a7082a9ba43134154808b83076be6e21999cc2
 
 RPROVIDES:${PN} += "simplescreenrecorder"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

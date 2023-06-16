@@ -16,7 +16,7 @@ suseconnect-ng \
 zypper-migration-plugin \
 zypper-search-packages-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ca-certificates-mozilla \
 coreutils \
 dmidecode \

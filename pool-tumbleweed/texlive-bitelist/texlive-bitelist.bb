@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-bitedemo.tex \
 tex-bitelist.sty \
 texlive-bitelist"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

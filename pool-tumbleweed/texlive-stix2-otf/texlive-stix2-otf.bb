@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stix2-otf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

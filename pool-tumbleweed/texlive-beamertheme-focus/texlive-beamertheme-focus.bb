@@ -17,7 +17,7 @@ tex-beamerouterthemefocus.sty \
 tex-beamerthemefocus.sty \
 texlive-beamertheme-focus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,7 +19,7 @@ tex-urwchancal.vf \
 tex-uurwchancal.fd \
 texlive-urwchancal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

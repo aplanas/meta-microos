@@ -28,9 +28,9 @@ rpm-macro--fcitx-tabledir \
 rpm-macro-fcitx-requires \
 rpm-macro-fcitx-table-requires"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 fcitx \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

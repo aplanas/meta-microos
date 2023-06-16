@@ -89,7 +89,7 @@ font-electrumadfexp \
 font-electrumadfexplt \
 texlive-electrum-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

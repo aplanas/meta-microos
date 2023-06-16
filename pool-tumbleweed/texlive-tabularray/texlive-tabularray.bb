@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-tabularray-2021.sty \
 tex-tabularray.sty \
 texlive-tabularray"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

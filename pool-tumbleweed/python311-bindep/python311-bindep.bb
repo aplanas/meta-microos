@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-bindep \
 python311-bindep \
 python3dist-bindep"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Parsley \
 python311-distro \

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-nose2 \
 python311-nose2 \
 python3dist-nose2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

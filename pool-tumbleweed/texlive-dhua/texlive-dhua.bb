@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-dhua.cfg \
 tex-dhua.sty \
 texlive-dhua"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

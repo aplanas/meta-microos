@@ -23,7 +23,7 @@ group-avahi \
 mDNSResponder \
 user-avahi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libavahi-common.so.3 \
 libavahi-core.so.7 \

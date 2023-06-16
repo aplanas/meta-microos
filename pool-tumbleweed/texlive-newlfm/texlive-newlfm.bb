@@ -20,7 +20,7 @@ tex-newlfm.cls \
 tex-setdim.sty \
 texlive-newlfm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

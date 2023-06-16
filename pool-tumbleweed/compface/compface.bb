@@ -15,9 +15,9 @@ RPM_HASH = "27a3b33615382981e54a26181f562c9ab3bbc83fd44a3356a713d411285572135c30
 RPROVIDES:${PN} += "compface \
 libcompface.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

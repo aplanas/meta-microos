@@ -21,8 +21,8 @@ libprintbackend-cups.so \
 libprintbackend-file.so \
 libprintbackend-lpr.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 gtk2-tools \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

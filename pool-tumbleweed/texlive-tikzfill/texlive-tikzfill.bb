@@ -22,7 +22,7 @@ tex-tikzlibraryfill.image.code.tex \
 tex-tikzlibraryfill.rhombus.code.tex \
 texlive-tikzfill"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

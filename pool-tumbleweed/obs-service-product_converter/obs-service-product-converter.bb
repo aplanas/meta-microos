@@ -15,7 +15,7 @@ perl-BSProductXML \
 perl-BSUtil \
 perl-BSXML"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 perl-XML--Structured \
 perl-XML-Parser \

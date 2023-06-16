@@ -10,7 +10,7 @@ RPM_HASH = "a42817a278c472f2ed0c5156f2e3321f668bd49e22af58462ab96da40b55ed38d301
 
 RPROVIDES:${PN} += "pocketsphinx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpocketsphinx.so.1 \

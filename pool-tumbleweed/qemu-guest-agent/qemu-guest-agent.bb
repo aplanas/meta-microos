@@ -10,7 +10,7 @@ RPM_HASH = "2b3029a68e4b28fe05f441df123e53fe30fe5c3e137f603299afa13ecb86d99b42d4
 
 RPROVIDES:${PN} += "qemu-guest-agent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-kvm \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

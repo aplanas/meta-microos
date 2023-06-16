@@ -14,8 +14,8 @@ pkgconfig-vapigen-0.56 \
 vala \
 vala-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

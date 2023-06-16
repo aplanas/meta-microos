@@ -13,7 +13,7 @@ RPM_HASH = "360dfc70560f7ac8441ed8fbeefbc6e4520cf970b3e28b843f4adbb213eebcdbca29
 
 RPROVIDES:${PN} += "guile-gcrypt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 guile \
 libgcrypt-devel"
 

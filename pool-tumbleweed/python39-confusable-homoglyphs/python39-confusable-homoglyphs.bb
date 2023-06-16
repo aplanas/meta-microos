@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-confusable-homoglyphs \
 python39-confusable-homoglyphs \
 python3dist-confusable-homoglyphs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 update-alternatives"

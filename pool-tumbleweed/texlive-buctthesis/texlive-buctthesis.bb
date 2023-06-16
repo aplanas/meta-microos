@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-buctcover.cls \
 tex-buctthesis.cls \
 texlive-buctthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

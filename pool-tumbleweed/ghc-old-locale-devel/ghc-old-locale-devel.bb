@@ -10,7 +10,7 @@ RPM_HASH = "1eddddc0a75a4d7abd1d1eb41fa7f34a4d28b75ecbf5c002ba6c0d5ff21fd2665245
 RPROVIDES:${PN} += "ghc-devel-old-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR \
 ghc-old-locale-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-old-locale"

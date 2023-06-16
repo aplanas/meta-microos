@@ -28,7 +28,7 @@ tex-pst-coxeterp.sty \
 tex-pst-coxeterp.tex \
 texlive-pst-cox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

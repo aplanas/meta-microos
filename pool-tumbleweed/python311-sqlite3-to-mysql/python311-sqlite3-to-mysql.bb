@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-sqlite3-to-mysql \
 python311-sqlite3-to-mysql \
 python3dist-sqlite3-to-mysql"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click \
 python311-mysql-connector-python \

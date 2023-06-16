@@ -16,9 +16,9 @@ openvswitch-ovn \
 openvswitch-ovn-common \
 ovn"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libopenvswitch-3.1.so.0 \

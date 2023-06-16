@@ -15,8 +15,8 @@ rubygem-ruby-3.2.0-asciidoctor-2 \
 rubygem-ruby-3.2.0-asciidoctor-2.0 \
 rubygem-ruby-3.2.0-asciidoctor-2.0.18"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 update-alternatives"
 

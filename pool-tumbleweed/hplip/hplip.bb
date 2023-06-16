@@ -334,11 +334,11 @@ postscriptdriver-hp;hp-pagewide-xl-5100ps-mfp-blueprinter; \
 postscriptdriver-hp;hp-pagewide-xl-8000ps-blueprinter; \
 postscriptdriver-hp;officejet-pro-8000-enterprise-a811a;"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/grep \
-/bin/sed \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/find \
+/usr/bin/grep \
 /usr/bin/python3 \
+/usr/bin/sed \
 coreutils \
 cups \
 foomatic-filters \

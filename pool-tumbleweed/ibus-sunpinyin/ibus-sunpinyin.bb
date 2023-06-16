@@ -10,7 +10,7 @@ RPM_HASH = "be2eafeae5c77d12227026d77bf8dd8bd4e7cd54c713377188f265344e5b9d1bb5fd
 
 RPROVIDES:${PN} += "ibus-sunpinyin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \

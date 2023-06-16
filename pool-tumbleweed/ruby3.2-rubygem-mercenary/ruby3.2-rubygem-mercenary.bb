@@ -14,9 +14,9 @@ rubygem-ruby-3.2.0-mercenary-0 \
 rubygem-ruby-3.2.0-mercenary-0.4 \
 rubygem-ruby-3.2.0-mercenary-0.4.0"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi"
 
 inherit rpm

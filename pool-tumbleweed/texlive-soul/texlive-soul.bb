@@ -20,7 +20,7 @@ tex-soul.sty \
 tex-soulutf8.sty \
 texlive-soul"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -25,8 +25,8 @@ libldap-common.so \
 libveyon-core.so \
 veyon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkexec \
+RDEPENDS:${PN} += "/usr/bin/pkexec \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6DBus.so.6 \

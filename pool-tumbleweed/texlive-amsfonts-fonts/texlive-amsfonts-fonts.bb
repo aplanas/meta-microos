@@ -90,7 +90,7 @@ font-euler \
 font-latex \
 texlive-amsfonts-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

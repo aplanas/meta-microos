@@ -19,7 +19,7 @@ javacc-bootstrap \
 mvn-net.java.dev.javacc-javacc \
 mvn-net.java.dev.javacc-javacc-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools"

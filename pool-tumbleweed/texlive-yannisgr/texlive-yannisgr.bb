@@ -23,7 +23,7 @@ tex-rgrsl10.tfm \
 tex-rgrti10.tfm \
 texlive-yannisgr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

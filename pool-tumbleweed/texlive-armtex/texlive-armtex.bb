@@ -40,7 +40,7 @@ tex-ot6cmss.fd \
 tex-ot6enc.def \
 texlive-armtex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

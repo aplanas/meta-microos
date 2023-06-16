@@ -9,7 +9,7 @@ RPM_HASH = "ac8b12bcb160c281cee32a79a3a3282abcaee63b79694c94e8c035a56dd0db9748a7
 
 RPROVIDES:${PN} += "texlive-makeindex-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkpathsea.so.6 \

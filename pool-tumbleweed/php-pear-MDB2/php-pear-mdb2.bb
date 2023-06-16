@@ -41,7 +41,7 @@ RPROVIDES:${PN} += "php-pear-MDB2 \
 php5-pear-MDB2 \
 php7-pear-MDB2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-afrikaans.ldf \
 tex-dutch.ldf \
 texlive-babel-dutch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -24,8 +24,8 @@ python39-hypothesis \
 python3dist-hypothesis"
 
 RDEPENDS:${PN} += "-python39-sortedcontainers >= 2.1.0 with python39-sortedcontainers < 3.0 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-attrs \
 update-alternatives"

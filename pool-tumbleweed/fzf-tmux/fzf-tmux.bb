@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-tmux"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

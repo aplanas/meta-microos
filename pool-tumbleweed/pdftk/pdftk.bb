@@ -29,7 +29,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdftk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apache-commons-lang3 \
 bouncycastle \
 jre"

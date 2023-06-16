@@ -10,7 +10,7 @@ RPM_HASH = "b5fa6ddfc79baeac9d15b81b383a3212bf4c4a0dfe10c8ac86ad5f5e9996f4624904
 
 RPROVIDES:${PN} += "pcp-pmda-cisco"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

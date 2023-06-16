@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-luaotfload-blacklist.cnf \
 tex-luaotfload.sty \
 texlive-luaotfload"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

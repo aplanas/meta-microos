@@ -16,7 +16,7 @@ hylafax \
 hylafax+ \
 libfaxserver.so.7.0.7"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gawk \
 ghostscript \
 ghostscript-fonts \

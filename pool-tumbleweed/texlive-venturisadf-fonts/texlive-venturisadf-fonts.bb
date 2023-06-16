@@ -109,7 +109,7 @@ font-venturissansadfno2cd \
 font-venturissansadfno2ex \
 texlive-venturisadf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

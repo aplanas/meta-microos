@@ -85,8 +85,8 @@ libkviurl.so \
 libkviuserlist.so \
 libkviwindow.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5CoreAddons.so.5 \

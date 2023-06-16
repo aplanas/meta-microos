@@ -26,7 +26,7 @@ RPROVIDES:${PN} += "tex-footmisc-2011-06-06.sty \
 tex-footmisc.sty \
 texlive-footmisc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

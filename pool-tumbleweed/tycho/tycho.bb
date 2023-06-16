@@ -156,7 +156,7 @@ osgi-org.fedoraproject.p2 \
 tycho \
 tycho-extras"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ecj \
 eclipse-platform \
 java-headless \

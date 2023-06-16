@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hook-pre-commit-pkg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-interrogate \
 python39-interrogate \
 python3dist-interrogate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-attrs \
 python39-click \

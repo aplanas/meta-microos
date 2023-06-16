@@ -18,9 +18,9 @@ RPROVIDES:${PN} += "python3-openstacksdk \
 python3.10dist-openstacksdk \
 python3dist-openstacksdk"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 mkisofs \
 python-abi \
 python3-PyYAML \

@@ -27,7 +27,7 @@ tex-gregoriotex.sty \
 tex-gregoriotex.tex \
 texlive-gregoriotex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

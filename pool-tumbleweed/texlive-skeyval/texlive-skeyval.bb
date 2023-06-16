@@ -24,7 +24,7 @@ tex-skeyval-view.sty \
 tex-skeyval.sty \
 texlive-skeyval"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

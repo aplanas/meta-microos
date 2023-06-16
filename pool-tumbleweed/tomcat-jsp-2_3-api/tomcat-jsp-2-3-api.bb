@@ -18,7 +18,7 @@ osgi-org.apache.tomcat-jsp-api \
 tomcat-jsp-2-3-api \
 tomcat-jsp-2.3-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 mvn-org.apache.tomcat-tomcat-el-api \

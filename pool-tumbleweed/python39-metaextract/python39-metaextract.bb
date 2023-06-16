@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-metaextract \
 python39-metaextract \
 python3dist-metaextract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-setuptools \
 update-alternatives"

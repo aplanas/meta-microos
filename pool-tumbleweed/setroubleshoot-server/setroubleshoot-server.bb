@@ -17,8 +17,8 @@ python3dist-setroubleshoot \
 setroubleshoot-server \
 user-setroubleshoot"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 audit \
 audit-libs-python3 \
 dbus-1 \

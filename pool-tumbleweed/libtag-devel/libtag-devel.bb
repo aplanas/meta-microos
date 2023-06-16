@@ -12,8 +12,8 @@ pkgconfig-taglib \
 pkgconfig-taglib-c \
 taglib-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libstdc++-devel \
 libtag-c0 \
 libtag1 \

@@ -13,8 +13,8 @@ libftdi1-devel \
 pkgconfig-libftdi1 \
 pkgconfig-libftdipp1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libconfuse.so.2 \

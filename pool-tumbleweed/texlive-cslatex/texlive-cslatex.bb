@@ -45,7 +45,7 @@ tex-xl2ptm.fd \
 tex-xl2pzc.fd \
 texlive-cslatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

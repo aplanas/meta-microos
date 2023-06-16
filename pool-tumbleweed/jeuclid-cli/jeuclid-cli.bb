@@ -23,7 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-cli"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 apache-commons-cli \
 apache-commons-io \
 apache-commons-lang3 \

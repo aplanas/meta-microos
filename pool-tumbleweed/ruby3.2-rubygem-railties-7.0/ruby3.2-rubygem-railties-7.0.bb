@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-railties-7 \
 rubygem-ruby-3.2.0-railties-7.0 \
 rubygem-ruby-3.2.0-railties-7.0.4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-actionpack \
 rubygem-ruby-3.2.0-activesupport \

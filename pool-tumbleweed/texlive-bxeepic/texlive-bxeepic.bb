@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-bxdpxp2e.def \
 tex-bxeepic.sty \
 texlive-bxeepic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

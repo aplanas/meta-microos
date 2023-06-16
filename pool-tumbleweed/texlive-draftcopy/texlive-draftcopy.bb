@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-draftcopy.cfg \
 tex-draftcopy.sty \
 texlive-draftcopy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,10 +11,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patch2mail"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/hostname \
-/bin/rm \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/hostname \
+/usr/bin/rm \
+/usr/bin/sh \
 /usr/bin/xsltproc \
 cron \
 grep \

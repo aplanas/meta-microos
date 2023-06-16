@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-svg-extract.sty \
 tex-svg.sty \
 texlive-svg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

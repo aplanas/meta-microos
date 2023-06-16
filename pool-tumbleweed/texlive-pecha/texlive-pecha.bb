@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-ctibmantra.sty \
 tex-pecha.cls \
 texlive-pecha"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

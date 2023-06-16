@@ -15,7 +15,7 @@ tex-tikz-among-us-watermark-eso-pic.sty \
 tex-tikz-among-us.sty \
 texlive-tikz-among-us"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPM_HASH = "f5bf42f98a89915ad34e04347cc5df6dc821371108182b3451788778b7beb1cfe357
 
 RPROVIDES:${PN} += "libinput-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevdev.so.2 \

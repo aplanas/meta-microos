@@ -29,7 +29,7 @@ tex-fsptimesot.sty \
 tex-fspxcharter.sty \
 texlive-fontsetup"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

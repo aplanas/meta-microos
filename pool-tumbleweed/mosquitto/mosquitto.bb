@@ -17,7 +17,7 @@ RPM_HASH = "9bc2ecf14bda975459d8666443e0f2e202867778e3d5c59bcc97402cae40af157652
 RPROVIDES:${PN} += "config-mosquitto \
 mosquitto"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcjson.so.1 \

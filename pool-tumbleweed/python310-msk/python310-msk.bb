@@ -13,8 +13,8 @@ python3.10dist-msk \
 python310-msk \
 python3dist-msk"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-GitPython \
 python310-PyGithub \

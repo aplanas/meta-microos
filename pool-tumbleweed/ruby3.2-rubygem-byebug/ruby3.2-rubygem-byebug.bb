@@ -18,8 +18,8 @@ rubygem-ruby-3.2.0-byebug-11 \
 rubygem-ruby-3.2.0-byebug-11.1 \
 rubygem-ruby-3.2.0-byebug-11.1.3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

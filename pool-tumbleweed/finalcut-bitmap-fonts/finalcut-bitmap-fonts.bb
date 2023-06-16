@@ -133,7 +133,7 @@ font--lang=za \
 font--lang=zu \
 font-misc8x16graph"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fontconfig"
 
 inherit rpm

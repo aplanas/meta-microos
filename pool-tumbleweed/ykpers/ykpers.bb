@@ -10,7 +10,7 @@ RPM_HASH = "19e79150e3ac9a9f79360c1d060c6b2a5b9b10c922fc82a3e0901832fe344aa591ba
 RPROVIDES:${PN} += "ykpers \
 yubikey-personalization"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libykpers-1.so.1 \

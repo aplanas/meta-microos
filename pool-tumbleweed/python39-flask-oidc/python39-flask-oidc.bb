@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-flask-oidc \
 python39-flask-oidc \
 python3dist-flask-oidc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Authlib \
 python39-Flask \

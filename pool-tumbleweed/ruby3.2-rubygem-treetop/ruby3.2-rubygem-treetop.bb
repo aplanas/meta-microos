@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-treetop-1.6 \
 rubygem-ruby-3.2.0-treetop-1.6.12 \
 rubygem-treetop"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-polyglot-0 \
 update-alternatives"

@@ -48,7 +48,7 @@ tex-omssti.tfm \
 tex-srhyph.tex \
 texlive-omega"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

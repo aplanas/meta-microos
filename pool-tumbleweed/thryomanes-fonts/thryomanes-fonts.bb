@@ -16,7 +16,7 @@ scalable-font-el \
 scalable-font-ru \
 thryomanes-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

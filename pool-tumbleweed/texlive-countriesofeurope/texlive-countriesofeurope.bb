@@ -18,7 +18,7 @@ tex-countriesofeurope.sty \
 tex-countriesofeurope.tfm \
 texlive-countriesofeurope"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

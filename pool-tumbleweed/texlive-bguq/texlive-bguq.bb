@@ -38,7 +38,7 @@ tex-bguq10t11.tfm \
 tex-bguq10t12.tfm \
 texlive-bguq"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

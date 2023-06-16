@@ -21,8 +21,8 @@ RPM_HASH = "815637a92f46e6fa6a0e72a4e3550f2aa72411a2309ca9dbb4ec8818bd29178526bd
 RPROVIDES:${PN} += "kakasi \
 libkakasi.so.2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 kakasi-dict \
 ld-linux-aarch64.so.1 \
 libc.so.6"

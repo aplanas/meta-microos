@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-xduthesis.cfg \
 tex-xduthesis.cls \
 texlive-xduthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

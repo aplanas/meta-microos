@@ -25,7 +25,7 @@ tex-crossrefenum.tex \
 tex-t-crossrefenum.tex \
 texlive-crossrefenum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

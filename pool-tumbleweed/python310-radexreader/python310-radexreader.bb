@@ -18,8 +18,8 @@ python3.10dist-radexreader \
 python310-radexreader \
 python3dist-radexreader"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pyserial \
 python310-pyusb \

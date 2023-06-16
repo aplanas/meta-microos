@@ -15,8 +15,8 @@ python39-onnx \
 python39-onnx-devel \
 python3dist-onnx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libonnx \

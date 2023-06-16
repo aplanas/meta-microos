@@ -95,8 +95,8 @@ perl-Dpkg--Vendor--Ubuntu \
 perl-Dpkg--Version \
 perl-Dselect--Ftp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 cpio \
 ld-linux-aarch64.so.1 \

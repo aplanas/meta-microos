@@ -22,9 +22,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-postgrey \
 postgrey"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-nogroup \

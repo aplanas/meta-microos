@@ -19,8 +19,8 @@ python310-zc-buildout \
 python310-zc.buildout \
 python3dist-zc.buildout"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-setuptools \
 update-alternatives"

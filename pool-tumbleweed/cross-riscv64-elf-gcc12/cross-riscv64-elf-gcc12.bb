@@ -10,7 +10,7 @@ RPM_HASH = "9fe0f9468f67a7f8049fa91cdd223a1a8cf81248b0240f2994fad969b3f306068225
 RPROVIDES:${PN} += "cross-riscv64-elf-gcc12 \
 riscv64-elf-gcc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-riscv64-binutils \
 libstdc++6-devel-gcc12 \
 update-alternatives"

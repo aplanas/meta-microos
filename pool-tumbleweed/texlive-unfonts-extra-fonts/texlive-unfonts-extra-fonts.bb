@@ -119,7 +119,7 @@ font-은펜흘림 \
 font-은필기a \
 texlive-unfonts-extra-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

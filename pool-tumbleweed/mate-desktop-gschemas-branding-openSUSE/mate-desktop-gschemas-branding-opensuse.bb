@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mate-desktop-gschemas-branding \
 mate-desktop-gschemas-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 adwaita-icon-theme \
 mate-desktop-gschemas"
 

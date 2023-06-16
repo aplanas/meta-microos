@@ -10,8 +10,8 @@ RPM_HASH = "658a717da123084bfa2705900684c9a5ff4c42c0928c901b02f868c252b15ccef9b4
 
 RPROVIDES:${PN} += "systemtap-runtime"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libelf.so.1 \

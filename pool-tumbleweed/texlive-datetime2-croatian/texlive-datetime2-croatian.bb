@@ -14,7 +14,7 @@ tex-datetime2-croatian-utf8.ldf \
 tex-datetime2-croatian.ldf \
 texlive-datetime2-croatian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

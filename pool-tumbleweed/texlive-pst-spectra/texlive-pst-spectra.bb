@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-pst-spectra.sty \
 tex-pst-spectra.tex \
 texlive-pst-spectra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

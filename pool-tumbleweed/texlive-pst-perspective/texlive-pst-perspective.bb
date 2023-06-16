@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-perspective.sty \
 tex-pst-perspective.tex \
 texlive-pst-perspective"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

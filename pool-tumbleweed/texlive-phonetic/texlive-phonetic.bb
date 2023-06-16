@@ -25,7 +25,7 @@ tex-cmphi9.tfm \
 tex-phonetic.sty \
 texlive-phonetic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

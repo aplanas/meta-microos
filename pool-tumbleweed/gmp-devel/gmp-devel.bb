@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "gmp-devel \
 pkgconfig-gmp \
 pkgconfig-gmpxx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libgmp10 \
 libgmpxx4 \
 pkgconfig-gmp"

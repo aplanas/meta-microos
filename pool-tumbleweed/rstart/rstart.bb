@@ -14,7 +14,7 @@ RPM_HASH = "4a5295b496dc452fa77d5dccc6d995d53618828efd883f35a9cde4442ccc9fa33e6b
 
 RPROVIDES:${PN} += "rstart"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

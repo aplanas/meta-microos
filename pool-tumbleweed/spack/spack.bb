@@ -20,9 +20,8 @@ RPROVIDES:${PN} += "config-spack \
 group-spack \
 spack"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 awk \
 bzip2 \
 coreutils \

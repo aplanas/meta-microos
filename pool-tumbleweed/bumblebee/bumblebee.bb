@@ -13,8 +13,8 @@ RPM_HASH = "e48f7fb2012d45ebf2ac6b11626fc493d68aca6a2b2a7107648b4cade3f08fa2108f
 RPROVIDES:${PN} += "bumblebee \
 config-bumblebee"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 VirtualGL \
 kmod-compat \
 ld-linux-aarch64.so.1 \

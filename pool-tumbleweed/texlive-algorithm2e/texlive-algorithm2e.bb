@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-algorithm2e.sty \
 texlive-algorithm2e"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

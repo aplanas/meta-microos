@@ -17,8 +17,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-utils-minimal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 docbook-3 \
 docbook-4 \
 docbook-dsssl-stylesheets \

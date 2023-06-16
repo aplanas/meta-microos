@@ -18,7 +18,7 @@ tex-paper.cls \
 tex-paper.sty \
 texlive-paper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

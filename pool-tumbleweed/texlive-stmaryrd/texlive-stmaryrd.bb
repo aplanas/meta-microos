@@ -23,7 +23,7 @@ tex-stmaryrd.map \
 tex-stmaryrd.sty \
 texlive-stmaryrd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

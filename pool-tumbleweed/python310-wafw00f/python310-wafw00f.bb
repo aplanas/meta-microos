@@ -13,8 +13,8 @@ python3.10dist-wafw00f \
 python310-wafw00f \
 python3dist-wafw00f"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pluginbase \
 python310-requests"

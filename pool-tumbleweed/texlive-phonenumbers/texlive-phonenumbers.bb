@@ -24,7 +24,7 @@ tex-phonenumbers-US.def \
 tex-phonenumbers.sty \
 texlive-phonenumbers"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-jsbeautifier \
 python311-jsbeautifier \
 python3dist-jsbeautifier"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-EditorConfig \
 python311-setuptools \

@@ -11,7 +11,7 @@ RPM_HASH = "27ad2bdece62125d4b8b8a92a54cd7bd914fca4ae856f149681ca51003cbc2221c80
 
 RPROVIDES:${PN} += "mpich-ofi-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mpich-ofi-4-0-2-gnu-hpc"
 
 inherit rpm

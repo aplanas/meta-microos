@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-esint.map \
 tex-esint.tex \
 texlive-esint-type1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

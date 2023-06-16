@@ -21,7 +21,7 @@ tex-fonetikasansbold.tfm \
 tex-t1fonetika.fd \
 texlive-fonetika"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

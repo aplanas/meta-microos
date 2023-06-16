@@ -19,7 +19,7 @@ tex-chessf10.tfm \
 tex-chessfig10.tfm \
 texlive-chess"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

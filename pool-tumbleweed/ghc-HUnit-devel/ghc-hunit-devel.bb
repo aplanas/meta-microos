@@ -10,7 +10,7 @@ RPM_HASH = "7229d42e731a8fe72dd2dc5f1b6e0940ef072c72ce8e4e55cdff39ebb1fac5ce5f01
 RPROVIDES:${PN} += "ghc-HUnit-devel \
 ghc-devel-HUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-HUnit \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

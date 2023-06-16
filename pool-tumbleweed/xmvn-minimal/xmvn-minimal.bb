@@ -11,7 +11,7 @@ RPM_HASH = "0a2383e42fbbd36771fae0396c2ac0d1d4af276d0d163aecdfcf3ad6f771edbd1be3
 RPROVIDES:${PN} += "libjansi.so \
 xmvn-minimal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 maven-lib \
 xmvn-api \

@@ -22,7 +22,7 @@ texdev-latex-lab-testphase-sec-tagging.sty \
 texdev-latex-lab-testphase-toc-tagging.sty \
 texlive-latex-lab-dev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

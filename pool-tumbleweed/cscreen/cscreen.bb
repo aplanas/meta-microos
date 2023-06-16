@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-cscreen \
 cscreen"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 screen \
 shadow \

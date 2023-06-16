@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-myfilist.sty \
 tex-readprov.sty \
 texlive-fileinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

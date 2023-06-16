@@ -20,7 +20,7 @@ tex-datenumbergerman.ldf \
 tex-datenumberspanish.ldf \
 texlive-datenumber"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

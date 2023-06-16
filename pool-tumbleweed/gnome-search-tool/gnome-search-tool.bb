@@ -10,7 +10,7 @@ RPM_HASH = "64f283c18fa7d2faa278cca05396770bd7aa7110d18b491e97c09e6abcba3ac536a9
 
 RPROVIDES:${PN} += "gnome-search-tool"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libSM.so.6 \

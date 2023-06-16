@@ -13,7 +13,7 @@ group-velociraptor-kafka \
 user-velociraptor-kafka \
 velociraptor-kafka-humio-gateway"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

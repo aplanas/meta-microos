@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-wasy \
 font-wasysl10 \
 texlive-wasy-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

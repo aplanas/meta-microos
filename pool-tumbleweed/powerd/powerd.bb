@@ -12,7 +12,7 @@ RPM_HASH = "1479473f7deba2fa77e1ca8c1e3da93d29df5c8dfb7e7d8b8e54b0937f945e088802
 RPROVIDES:${PN} += "config-powerd \
 powerd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

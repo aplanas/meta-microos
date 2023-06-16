@@ -167,7 +167,7 @@ font-cormorantgaramondmedium \
 font-cormorantgaramondsemibold \
 texlive-cormorantgaramond-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

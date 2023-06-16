@@ -89,7 +89,7 @@ tex-almndr-yxs7h5.enc \
 tex-almndr-zt62bd.enc \
 texlive-almendra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

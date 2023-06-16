@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pprintpp \
 python311-pprintpp \
 python3dist-pprintpp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -13,8 +13,8 @@ mysql-/usr/bin/mysqlhotcopy \
 mysql-client-/usr/bin/perror \
 mysql-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-semver \
 python39-semver \
 python3dist-semver"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

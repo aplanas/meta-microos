@@ -16,8 +16,8 @@ python3.10dist-ndg-httpsclient \
 python310-ndg-httpsclient \
 python3dist-ndg-httpsclient"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pyOpenSSL \
 python310-pyasn1 \

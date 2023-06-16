@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pagesel-2016-05-16.sty \
 tex-pagesel.sty \
 texlive-pagesel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

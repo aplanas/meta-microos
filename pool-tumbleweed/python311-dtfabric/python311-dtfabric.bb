@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-dtfabric \
 python311-dtfabric \
 python3dist-dtfabric"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

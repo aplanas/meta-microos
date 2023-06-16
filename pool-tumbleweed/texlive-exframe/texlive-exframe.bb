@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-exframe.sty \
 texlive-exframe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

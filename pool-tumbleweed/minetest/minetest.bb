@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "bundled-irrlicht \
 minetest \
 minetest-runtime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libX11.so.6 \

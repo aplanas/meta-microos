@@ -10,7 +10,7 @@ RPM_HASH = "3786ae5cf0686d2070d50d7515b8a4d0f9e8715a337202e9af3763f89e489c84017a
 
 RPROVIDES:${PN} += "lxtask"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

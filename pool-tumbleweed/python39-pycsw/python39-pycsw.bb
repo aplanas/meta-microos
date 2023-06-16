@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-pycsw \
 python39-pycsw \
 python3dist-pycsw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-OWSLib \
 python39-Shapely \

@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-tempora \
 python39-tempora \
 python3dist-tempora"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39-jaraco.functools \

@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "man-autosp.1 \
 man-tex2aspc.1 \
 texlive-autosp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

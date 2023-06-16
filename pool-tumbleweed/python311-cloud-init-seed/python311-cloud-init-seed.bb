@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-cloud-init-seed \
 python311-cloud-init-seed \
 python3dist-cloud-init-seed"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 mkisofs \
 python-abi \
 update-alternatives"

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "0ad \
 libAtlasUI.so \
 libCollada.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 0ad-data \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \

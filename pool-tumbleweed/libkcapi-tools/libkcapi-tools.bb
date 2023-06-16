@@ -9,7 +9,7 @@ RPM_HASH = "f13e62f380e137e9d094f162da72d78ca72db1d9b5cf2dee43e2a981904433f475e0
 
 RPROVIDES:${PN} += "libkcapi-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkcapi.so.1"

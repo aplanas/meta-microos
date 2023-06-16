@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances-common"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glances"
 
 inherit rpm

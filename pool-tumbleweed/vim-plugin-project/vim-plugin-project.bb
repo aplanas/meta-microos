@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-project"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 vim"
 
 inherit rpm

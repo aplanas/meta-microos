@@ -47,7 +47,7 @@ libtupiworkspace.so.1 \
 tupi \
 tupitube"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ffmpeg \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

@@ -14,10 +14,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/basename \
+RDEPENDS:${PN} += "/usr/bin/basename \
 /usr/bin/find \
 /usr/bin/grep \
-/usr/bin/sed"
+/usr/bin/sed \
+/usr/bin/sh"
 
 inherit rpm

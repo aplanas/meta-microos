@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-dns-bind"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 NetworkManager"
 
 inherit rpm

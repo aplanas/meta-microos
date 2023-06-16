@@ -14,7 +14,7 @@ tex-indon.ldf \
 tex-indonesian.ldf \
 texlive-babel-indonesian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

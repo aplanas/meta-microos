@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "erlang-epmd \
 group-epmd \
 user-epmd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 erlang \
 fillup \

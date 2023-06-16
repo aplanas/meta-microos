@@ -19,7 +19,7 @@ tex-withargs-packagedoc.cls \
 tex-withargs.sty \
 texlive-withargs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

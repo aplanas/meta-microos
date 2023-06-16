@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-iso-ent \
 iso-ent \
 iso-entities"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sgml-register-catalog"
+RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
+/usr/bin/sh"
 
 inherit rpm

@@ -22,8 +22,8 @@ python3.10dist-pako \
 python310-pako \
 python3dist-pako"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-appdirs \
 update-alternatives"

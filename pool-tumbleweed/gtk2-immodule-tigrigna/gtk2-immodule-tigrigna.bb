@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "gtk2-immodule-tigrigna \
 gtk2-immodules-tigrigna \
 locale-gtk2-ti"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-tools \
 libc.so.6 \

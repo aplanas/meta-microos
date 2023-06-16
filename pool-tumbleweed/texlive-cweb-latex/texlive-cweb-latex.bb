@@ -17,7 +17,7 @@ tex-cwebbase.tex \
 tex-keyvald.sty \
 texlive-cweb-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

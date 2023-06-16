@@ -10,7 +10,7 @@ RPM_HASH = "8f576e17a254ac5e35d3413bf569da9a4a95ef645b18a71073469598ac4493fcc320
 
 RPROVIDES:${PN} += "xpr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXmuu.so.1 \

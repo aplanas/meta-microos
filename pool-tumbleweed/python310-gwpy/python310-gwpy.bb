@@ -19,8 +19,8 @@ python3.10dist-gwpy \
 python310-gwpy \
 python3dist-gwpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-astropy \
 python310-dqsegdb2 \

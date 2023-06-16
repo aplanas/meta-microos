@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-texshade.def \
 tex-texshade.sty \
 texlive-texshade"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

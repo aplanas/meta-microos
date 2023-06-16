@@ -10,7 +10,7 @@ RPM_HASH = "b2ae32006321aeecf876d6ca2ee0b97901eb60baa20c8a36e46893bc0acf1beadd73
 
 RPROVIDES:${PN} += "xyscan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libQt6Charts.so.6 \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "group-news \
 system-user-news \
 user-news"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

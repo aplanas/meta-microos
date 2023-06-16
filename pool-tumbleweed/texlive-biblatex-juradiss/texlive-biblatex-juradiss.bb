@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-biblatex-juradiss.bbx \
 tex-biblatex-juradiss.cbx \
 texlive-biblatex-juradiss"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

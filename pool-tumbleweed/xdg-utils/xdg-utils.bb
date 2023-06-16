@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl \
 perl-Net-DBus \
 perl-X11-Protocol \

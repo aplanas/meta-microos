@@ -55,7 +55,7 @@ tex-oltt9.tfm \
 tex-olvtt10.tfm \
 texlive-oldlatin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

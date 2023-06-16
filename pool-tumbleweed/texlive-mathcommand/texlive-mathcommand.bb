@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-mathcommand.sty \
 texlive-mathcommand"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

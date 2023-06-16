@@ -23,7 +23,7 @@ tex-filehook.sty \
 tex-pgf-filehook.sty \
 texlive-filehook"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

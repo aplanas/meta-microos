@@ -10,7 +10,7 @@ RPM_HASH = "1972c67b50de4393e2431449cbae631f97c47deabfb2c03022269c977ef694bf8f9f
 RPROVIDES:${PN} += "cross-rx-gcc13 \
 rx-elf-gcc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-rx-binutils \
 libstdc++6-devel-gcc13 \
 update-alternatives"

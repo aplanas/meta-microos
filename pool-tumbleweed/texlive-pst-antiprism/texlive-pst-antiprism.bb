@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-antiprism.sty \
 tex-pst-antiprism.tex \
 texlive-pst-antiprism"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

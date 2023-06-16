@@ -11,7 +11,7 @@ RPM_HASH = "b67d4177aa97154c1ed59b9ae24410c76adfc94d64950ca46d5e61b17c5d980eb071
 RPROVIDES:${PN} += "ghc-devel-extensible-exceptions-0.1.1.4-ItoFoaqbPMuGIlsBr6VhGY \
 ghc-extensible-exceptions-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-extensible-exceptions"

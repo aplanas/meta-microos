@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-mktex \
 system-user-mktex \
 user-mktex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

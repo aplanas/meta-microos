@@ -23,9 +23,9 @@ RPROVIDES:${PN} += "python3.10dist-sshuttle \
 python3dist-sshuttle \
 sshuttle"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 python-abi"

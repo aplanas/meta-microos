@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lua-digestif \
 lua54-digestif"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.4 \
+RDEPENDS:${PN} += "/usr/bin/lua5.4 \
+/usr/bin/sh \
 lua54 \
 update-alternatives"
 

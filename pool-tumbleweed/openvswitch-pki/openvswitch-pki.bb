@@ -14,7 +14,7 @@ RPM_HASH = "b990ae14a885dfb61f23fc5b27c5df7d2b0e1d9c5bb0ca1fea06797d95ed4cbd328b
 RPROVIDES:${PN} += "openvswitch-dpdk-pki \
 openvswitch-pki"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 openssl-cli \
 openvswitch"
 

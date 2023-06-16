@@ -23,8 +23,8 @@ python3dist-hatch"
 
 RDEPENDS:${PN} += "-python3.10dist(pexpect) >= 4.8 with python3.10dist(pexpect) < 5 \
 -python3.10dist(userpath) >= 1.7 with python3.10dist(userpath) < 2 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python3.10dist-click \

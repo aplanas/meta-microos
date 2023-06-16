@@ -110,7 +110,7 @@ tex-ucrro8t.tfm \
 tex-ucrro8t.vf \
 texlive-courier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

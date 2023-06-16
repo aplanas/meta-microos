@@ -35,10 +35,10 @@ RPM_HASH = "495addc8b7664d2cdd3532df0517c81ba644da7ceb7270bfef3383a88238fb2c8234
 
 RPROVIDES:${PN} += "texlive"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/clear \
+RDEPENDS:${PN} += "/usr/bin/clear \
 /usr/bin/dialog \
 /usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

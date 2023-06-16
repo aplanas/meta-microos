@@ -15,7 +15,7 @@ tex-turnpagewoetex.sty \
 tex-turnthepage.sty \
 texlive-turnthepage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

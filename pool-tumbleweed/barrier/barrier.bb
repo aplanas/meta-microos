@@ -21,7 +21,7 @@ RPM_HASH = "f273b4a162bb2b01a04d478e7b2533d287901fac4e053d442f23f217e2da912440a3
 RPROVIDES:${PN} += "barrier \
 config-barrier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

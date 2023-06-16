@@ -26,7 +26,7 @@ mvn-net.sourceforge.nekohtml-nekohtml-xni \
 nekohtml \
 osgi-org.cyberneko.html"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 bcel \
 java-headless \
 javapackages-filesystem \

@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "libpapi \
 libpapi.so.7.0 \
 libsde.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpfm.so.4"

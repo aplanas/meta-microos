@@ -19,7 +19,7 @@ nvidia-open-driver-G06-signed-kmp \
 nvidia-open-driver-G06-signed-kmp-default \
 nvidia-open-driver-G06-signed-kmp-default-k6.3.4-1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 group-video \

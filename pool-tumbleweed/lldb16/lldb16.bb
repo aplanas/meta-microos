@@ -12,7 +12,7 @@ RPM_HASH = "fd914c129e958e727fc553a38281592ae12278a86e98d9dc1d474b20863cf5477762
 
 RPROVIDES:${PN} += "lldb16"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libLLVM.so.16 \
 libc.so.6 \

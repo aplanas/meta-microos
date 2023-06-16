@@ -16,7 +16,7 @@ RPM_HASH = "081ff048fb39f4646b49c85bce23a822d0906409e41bdd20d6e3c1a63cee36461162
 
 RPROVIDES:${PN} += "xbindkeys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.11dist-json5 \
 python311-json5 \
 python3dist-json5"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311-setuptools"

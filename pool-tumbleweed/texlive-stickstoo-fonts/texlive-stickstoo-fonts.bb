@@ -153,7 +153,7 @@ font-stickstootext \
 font-stxickstoomath \
 texlive-stickstoo-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

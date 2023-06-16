@@ -16,8 +16,8 @@ python3.10dist-limnoria \
 python310-limnoria \
 python3dist-limnoria"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 procps \
 python-abi \
 python310 \

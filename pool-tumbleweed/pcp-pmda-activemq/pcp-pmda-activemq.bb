@@ -18,7 +18,7 @@ perl-PCP--Queue \
 perl-PCP--RESTClient \
 perl-PCP--TimeSource"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-LWP--UserAgent \
 perl-PCP-PMDA"
 

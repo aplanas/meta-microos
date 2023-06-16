@@ -11,8 +11,8 @@ RPM_HASH = "3a78233ee2979a0fa59601bfd6b7f9bdf040bce9e9e88cad03e7348008e81664d0ed
 RPROVIDES:${PN} += "libart-lgpl-devel \
 pkgconfig-libart-2.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libart-lgpl-2-2"
 
 inherit rpm

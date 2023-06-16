@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-tifffile \
 python311-tifffile \
 python3dist-tifffile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-numpy \
 update-alternatives"

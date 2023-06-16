@@ -25,7 +25,7 @@ libkdeconnectinterfaces.so.23 \
 libkdeconnectpluginkcm.so.23 \
 qt5qmlimport-org.kde.kdeconnect.1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kirigami2 \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

@@ -13,8 +13,8 @@ python3.10dist-sphinx-autobuild \
 python310-sphinx-autobuild \
 python3dist-sphinx-autobuild"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Sphinx \
 python310-colorama \

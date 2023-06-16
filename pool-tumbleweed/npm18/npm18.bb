@@ -192,10 +192,10 @@ npm \
 npm-npm \
 npm18"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/node18 \
+/usr/bin/sh \
 group-nobody \
 nodejs-common \
 nodejs18 \

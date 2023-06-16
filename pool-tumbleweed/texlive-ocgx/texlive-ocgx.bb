@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-ocgx.sty \
 tex-tikzlibraryocgx.code.tex \
 texlive-ocgx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

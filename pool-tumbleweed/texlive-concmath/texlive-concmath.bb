@@ -22,7 +22,7 @@ tex-ucca.fd \
 tex-uccb.fd \
 texlive-concmath"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

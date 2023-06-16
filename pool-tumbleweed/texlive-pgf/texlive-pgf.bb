@@ -297,7 +297,7 @@ tex-tikzlibraryviews.code.tex \
 tex-xxcolor.sty \
 texlive-pgf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

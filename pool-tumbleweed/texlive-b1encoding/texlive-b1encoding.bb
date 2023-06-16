@@ -15,7 +15,7 @@ tex-b1cmr.fd \
 tex-b1enc.def \
 texlive-b1encoding"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

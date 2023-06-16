@@ -10,7 +10,7 @@ RPM_HASH = "166954fbbc5ecc815ff2c0ea204afe8cd94a46e29af6e690a5b1d3a4dba523f2cc7b
 
 RPROVIDES:${PN} += "lxappearance"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

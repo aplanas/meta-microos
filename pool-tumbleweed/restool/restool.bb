@@ -9,8 +9,8 @@ RPM_HASH = "dcac246d0812f208f02728bd0129e25b638ae0f1280c367989c7eb8b1d1f757c56a7
 
 RPROVIDES:${PN} += "restool"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 libc.so.6 \
 libm.so.6"
 

@@ -13,7 +13,7 @@ group-pulse-access \
 system-user-pulse \
 user-pulse"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-audio \
 sysuser-shadow"
 

@@ -29,7 +29,7 @@ tex-conv-utf8-t2a.tex \
 tex-conv-utf8-t8m.tex \
 texlive-hyph-utf8"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

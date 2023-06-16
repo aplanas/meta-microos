@@ -25,7 +25,7 @@ group-utmp \
 group-video \
 system-group-hardware"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

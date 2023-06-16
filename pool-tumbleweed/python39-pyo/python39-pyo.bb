@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pyo \
 python39-pyo \
 python3dist-pyo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjack.so.0 \

@@ -20,7 +20,7 @@ tex-numspell-magyar.sty \
 tex-numspell.sty \
 texlive-numspell"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

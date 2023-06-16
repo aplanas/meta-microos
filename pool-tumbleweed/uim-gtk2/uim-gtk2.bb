@@ -9,7 +9,7 @@ RPM_HASH = "5f76f956b4d26ce9cb93799260f618dfd8e58f7af3ae6f29c328b8c4844a980d8f84
 
 RPROVIDES:${PN} += "uim-gtk2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2-tools \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

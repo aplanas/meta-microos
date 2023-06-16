@@ -45,8 +45,8 @@ RPROVIDES:${PN} += "python3.11dist-scspell3k \
 python311-scspell3k \
 python3dist-scspell3k"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

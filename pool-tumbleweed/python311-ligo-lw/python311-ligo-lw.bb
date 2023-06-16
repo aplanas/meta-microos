@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-python-ligo-lw \
 python311-ligo-lw \
 python3dist-python-ligo-lw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \

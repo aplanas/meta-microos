@@ -17,7 +17,7 @@ RPM_HASH = "fc1ac961e3cb6acd179ba9d917fddd0b1a0af626689e11af653512671d565f633b0f
 
 RPROVIDES:${PN} += "rott"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \

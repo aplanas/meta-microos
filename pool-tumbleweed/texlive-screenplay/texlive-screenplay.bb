@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-hardmarg.sty \
 tex-screenplay.cls \
 texlive-screenplay"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

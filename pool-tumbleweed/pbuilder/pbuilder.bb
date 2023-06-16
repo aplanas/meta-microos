@@ -28,8 +28,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-pbuilder \
 pbuilder"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 debootstrap \
 dpkg \
 wget"

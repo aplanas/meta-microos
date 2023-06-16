@@ -12,7 +12,7 @@ RPM_HASH = "ebbc280772f77ad65959029ba08d976543c035795f089aa869198678216b7f1284ac
 RPROVIDES:${PN} += "config-gup \
 gup"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-news \
 inn \
 ld-linux-aarch64.so.1 \

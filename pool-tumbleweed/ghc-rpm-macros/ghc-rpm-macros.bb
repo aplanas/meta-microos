@@ -55,7 +55,7 @@ rpm-macro-ghcplatform \
 rpm-macro-with-ghc-prof \
 rpm-macro-with-haddock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 chrpath \
 rpm"
 

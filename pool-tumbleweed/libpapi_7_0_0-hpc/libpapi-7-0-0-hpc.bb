@@ -9,8 +9,8 @@ RPM_HASH = "a2e40fb6e3f14d480152597ad7c9d507f94bcc0872a47e4088febfa3c185fc8dde06
 
 RPROVIDES:${PN} += "libpapi-7-0-0-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpfm.so.4"

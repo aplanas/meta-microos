@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-cgloss4e.sty \
 tex-gb4e.sty \
 texlive-gb4e"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

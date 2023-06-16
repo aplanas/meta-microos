@@ -17,7 +17,7 @@ RPM_HASH = "339ac0dcfe74a7817c3c34461f6b7f6ced24e36e5391445b03a66a0b80895af2cbaa
 RPROVIDES:${PN} += "config-gssproxy \
 gssproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgssapi-krb5.so.2 \

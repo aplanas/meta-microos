@@ -16,9 +16,9 @@ libgprofng.so.0 \
 libopcodes-2.40.0.20230412-5.so \
 libsframe.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libctf-nobfd.so.0 \

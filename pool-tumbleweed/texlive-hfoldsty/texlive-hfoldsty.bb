@@ -659,7 +659,7 @@ tex-ts1hfott.fd \
 tex-ts1hfovtt.fd \
 texlive-hfoldsty"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

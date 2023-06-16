@@ -19,7 +19,7 @@ rpm-macro-mime-database-postun \
 shared-mime-info \
 shared-mime-info-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

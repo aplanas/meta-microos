@@ -9,7 +9,7 @@ RPM_HASH = "ee803fd768aa6bd231ab416eb8c1f077b099b532240f15ed1f605c3e699d239d8d56
 
 RPROVIDES:${PN} += "goverlay"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 Mesa-demo \
 libQt5Pas.so.1 \
 libX11.so.6 \

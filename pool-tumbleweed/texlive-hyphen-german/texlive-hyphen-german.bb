@@ -28,7 +28,7 @@ tex-loadhyph-de-1996.tex \
 tex-loadhyph-de-ch-1901.tex \
 texlive-hyphen-german"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

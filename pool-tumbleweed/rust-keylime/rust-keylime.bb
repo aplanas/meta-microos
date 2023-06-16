@@ -198,7 +198,7 @@ group-keylime \
 rust-keylime \
 user-keylime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libarchive.so.13 \
 libc.so.6 \
 libcrypto.so.3 \

@@ -15,6 +15,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss14-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

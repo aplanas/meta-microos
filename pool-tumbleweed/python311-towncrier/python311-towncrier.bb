@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-towncrier \
 python311-towncrier \
 python3dist-towncrier"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python311-Jinja2 \

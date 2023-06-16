@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.11dist-blue \
 python311-blue \
 python3dist-blue"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-black \
 python311-flake8 \

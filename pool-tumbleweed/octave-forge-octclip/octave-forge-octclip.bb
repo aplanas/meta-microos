@@ -11,7 +11,7 @@ RPM_HASH = "dc57fe655028665d5078d50f1ff0d5071abf250cecb3177005162655d28f22fb7a06
 
 RPROVIDES:${PN} += "octave-forge-octclip"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libgomp.so.1 \

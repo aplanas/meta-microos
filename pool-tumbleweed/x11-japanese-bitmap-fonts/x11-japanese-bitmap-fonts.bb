@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "locale-xorg-x11-ja \
 x11-japanese-bitmap-fonts \
 xfntjp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

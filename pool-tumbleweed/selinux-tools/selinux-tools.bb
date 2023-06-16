@@ -16,7 +16,7 @@ RPM_HASH = "725977a0f87271a80cc84e47288d577f804d664e9783b38dfb7c855cb9d4f8f5e0e5
 RPROVIDES:${PN} += "libselinux-utils \
 selinux-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcre2-8.so.0 \

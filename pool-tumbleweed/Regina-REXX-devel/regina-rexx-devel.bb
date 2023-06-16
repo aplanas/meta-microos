@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "Regina-REXX-devel \
 regina-/usr/include/rexxsaa.h \
 regina-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 Regina-REXX \
 libregina3"
 

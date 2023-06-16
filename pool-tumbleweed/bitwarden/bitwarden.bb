@@ -9,7 +9,7 @@ RPM_HASH = "758b7fa8a54e5cb1f31cf3ed357012b831cfed53ee6ff5fd47d162a2063e33f3285b
 
 RPROVIDES:${PN} += "bitwarden"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libargon2.so.1 \
 libc.so.6 \

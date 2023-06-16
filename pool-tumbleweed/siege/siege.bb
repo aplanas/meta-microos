@@ -17,8 +17,8 @@ RPM_HASH = "78ba701f78a09fe46be5cc26dfc81152b3a152148d8d14ff2db65408a98b323af4b5
 RPROVIDES:${PN} += "config-siege \
 siege"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

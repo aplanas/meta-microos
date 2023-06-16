@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-restructuredtext-lint \
 python311-restructuredtext-lint \
 python3dist-restructuredtext-lint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docutils \
 update-alternatives"

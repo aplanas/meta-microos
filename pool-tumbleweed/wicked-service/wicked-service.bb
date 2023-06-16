@@ -17,8 +17,8 @@ service-network \
 sysvinit-network \
 wicked-service"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 sysconfig \
 wicked"
 

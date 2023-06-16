@@ -48,7 +48,7 @@ font-文鼎ｐｌ简报宋 \
 font-文鼎ｐｌ細上海宋 \
 texlive-arphic-ttf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

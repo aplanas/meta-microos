@@ -14,7 +14,7 @@ tex-hyph-hu.tex \
 tex-loadhyph-hu.tex \
 texlive-hyphen-hungarian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

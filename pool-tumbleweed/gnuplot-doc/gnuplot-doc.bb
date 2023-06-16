@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuplot-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnuplot"
 
 inherit rpm

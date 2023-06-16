@@ -19,7 +19,7 @@ RPM_HASH = "766f2e77c546626c6d6a01f8998c50a1cf579c095a0a268725d981f2de9a82b1aebe
 RPROVIDES:${PN} += "config-mipv6d \
 mipv6d"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3"

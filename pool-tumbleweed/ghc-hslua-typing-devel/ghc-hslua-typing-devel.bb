@@ -10,7 +10,7 @@ RPM_HASH = "4e2dfa1bb45c071044ce836f5bc733b263c0afda11b428e257b8f1840f28e3691ad0
 RPROVIDES:${PN} += "ghc-devel-hslua-typing-0.1.0-DOIXLkV8dkhE96ObTX1Ndj \
 ghc-hslua-typing-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

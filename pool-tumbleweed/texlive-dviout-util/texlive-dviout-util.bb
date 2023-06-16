@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "man-chkdvifont.1 \
 man-dvispc.1 \
 texlive-dviout-util"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

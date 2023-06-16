@@ -9,7 +9,7 @@ RPM_HASH = "ac48251cde323d729fad2de3fbf51191eae3ee19348355624880f5d4c4ab26b6067a
 
 RPROVIDES:${PN} += "xorg-x11-server-wrapper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 permissions \

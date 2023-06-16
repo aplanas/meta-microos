@@ -19,8 +19,8 @@ python3.10dist-jsonpath-rw \
 python310-jsonpath-rw \
 python3dist-jsonpath-rw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-decorator \
 python310-ply \

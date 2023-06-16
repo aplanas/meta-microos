@@ -17,8 +17,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netperfmeter-pdfproctools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ghostscript \
 perl \
 perl-PDF-API2 \

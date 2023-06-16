@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "python3.9dist-av \
 python39-av \
 python3dist-av"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libavcodec.so.58.134 \
 libavdevice.so.58.13 \

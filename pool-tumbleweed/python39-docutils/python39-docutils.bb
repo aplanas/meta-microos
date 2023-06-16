@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-docutils \
 python39-docutils \
 python3dist-docutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-packaging \
 python39-xml \

@@ -11,9 +11,9 @@ RPM_HASH = "b43ee290dc3ac379964e7f092fd71bf5b972b817e375e708f4c39c4b39467d62bb3c
 
 RPROVIDES:${PN} += "avfs"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

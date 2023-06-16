@@ -9,8 +9,8 @@ RPM_HASH = "7f703e5b87f045c3c80ad11573384130c1728328e6260121c13d4dca3e171b65d38b
 
 RPROVIDES:${PN} += "jgmenu"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXrandr.so.2 \

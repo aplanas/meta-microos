@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-urlextract \
 python39-urlextract \
 python3dist-urlextract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-dnspython \
 python39-filelock \

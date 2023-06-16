@@ -11,7 +11,7 @@ RPM_HASH = "e83f76a2716bf14c21fdda6d576bd968294443fc17c40c2f4a71f155b8e0ff1afb46
 RPROVIDES:${PN} += "mkfontdir \
 mkfontscale"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfontenc.so.1 \

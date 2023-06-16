@@ -19,8 +19,8 @@ python3.10dist-spark-parser \
 python310-spark-parser \
 python3dist-spark-parser"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-click \
 update-alternatives"

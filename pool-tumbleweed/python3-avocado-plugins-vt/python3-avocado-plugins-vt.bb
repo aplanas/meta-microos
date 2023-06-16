@@ -14,9 +14,9 @@ python3-avocado-plugins-vt \
 python3.10dist-avocado-framework-plugin-vt \
 python3dist-avocado-framework-plugin-vt"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 attr \
 bridge-utils \
 gcc \

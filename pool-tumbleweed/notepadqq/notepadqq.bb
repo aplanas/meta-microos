@@ -10,9 +10,9 @@ RPM_HASH = "ddfa416c96c8b7ae3a97a40470b50afec8eca62e2c25b522168a3333cf481de44434
 
 RPROVIDES:${PN} += "notepadqq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/node \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

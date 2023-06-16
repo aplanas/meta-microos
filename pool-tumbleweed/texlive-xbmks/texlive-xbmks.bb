@@ -21,7 +21,7 @@ tex-xbmks-xetex.def \
 tex-xbmks.sty \
 texlive-xbmks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

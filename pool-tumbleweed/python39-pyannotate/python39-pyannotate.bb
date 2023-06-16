@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-pyannotate \
 python39-pyannotate \
 python3dist-pyannotate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-mypy-extensions \
 python39-six \

@@ -40,7 +40,7 @@ tex-s-simpleslides-ThickStripes.tex \
 tex-s-simpleslides-default.tex \
 texlive-context-simpleslides"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

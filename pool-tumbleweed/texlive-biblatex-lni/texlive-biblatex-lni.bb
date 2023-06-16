@@ -15,7 +15,7 @@ tex-LNI.bbx \
 tex-LNI.cbx \
 texlive-biblatex-lni"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

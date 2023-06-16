@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "cgal-devel \
 cmake-CGAL \
 libcgal-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 blas \
 cmake \
 gmp-devel \

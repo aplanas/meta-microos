@@ -10,8 +10,8 @@ RPM_HASH = "85725d42f83b84b93a3117be77349e2cccde0f49f206b6c332f26c2ac28f85a4854a
 
 RPROVIDES:${PN} += "a2jmidid"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

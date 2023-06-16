@@ -20,7 +20,7 @@ RPM_HASH = "703e614016881d6c10f940694aed6c8c1e4bc3e1e06522dcf344403a2473d911ef4b
 RPROVIDES:${PN} += "config-shairport-sync \
 shairport-sync"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 firewalld \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "arphic-gbsn00lp-fonts \
 config-arphic-gbsn00lp-fonts \
 ttf-arphic-gbsn00lp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 arphic-fonts"
 
 inherit rpm

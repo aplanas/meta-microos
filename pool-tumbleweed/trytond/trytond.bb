@@ -17,9 +17,9 @@ python3.10dist-trytond \
 python3dist-trytond \
 trytond"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 graphviz \

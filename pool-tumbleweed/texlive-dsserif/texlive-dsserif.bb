@@ -21,7 +21,7 @@ tex-dsserif.sty \
 tex-udsserif.fd \
 texlive-dsserif"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

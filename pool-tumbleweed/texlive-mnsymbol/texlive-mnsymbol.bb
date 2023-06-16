@@ -130,7 +130,7 @@ tex-MnSymbolS8.tfm \
 tex-MnSymbolS9.tfm \
 texlive-mnsymbol"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

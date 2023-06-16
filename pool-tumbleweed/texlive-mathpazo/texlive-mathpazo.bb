@@ -47,7 +47,7 @@ tex-zplmr7y.tfm \
 tex-zplmr7y.vf \
 texlive-mathpazo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

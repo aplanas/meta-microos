@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-tikz-cd.sty \
 tex-tikzlibrarycd.code.tex \
 texlive-tikz-cd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

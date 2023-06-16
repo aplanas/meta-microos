@@ -17,8 +17,8 @@ drbd-udev \
 drbd-utils \
 drbdsetup"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

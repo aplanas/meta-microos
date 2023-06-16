@@ -18,7 +18,7 @@ RPM_HASH = "0cabcb6bcb6119123c6a0efed767dbaf4251ccc571c4d7b540eefdfde843e9a8b6e9
 
 RPROVIDES:${PN} += "zstd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

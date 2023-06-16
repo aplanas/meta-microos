@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lua-moonscript \
 lua54-moonscript"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.4 \
+RDEPENDS:${PN} += "/usr/bin/lua5.4 \
+/usr/bin/sh \
 lua54 \
 lua54-alt-getopt \
 lua54-argparse \

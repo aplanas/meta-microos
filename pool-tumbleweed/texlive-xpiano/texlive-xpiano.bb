@@ -21,7 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-xpiano.sty \
 texlive-xpiano"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

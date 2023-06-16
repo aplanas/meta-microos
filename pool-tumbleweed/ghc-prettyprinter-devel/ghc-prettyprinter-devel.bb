@@ -10,7 +10,7 @@ RPM_HASH = "5c73e1e967cf12cb76aa5c35b47fb755688695e0f9dc38e3bf1f98638a1bfd75e540
 RPROVIDES:${PN} += "ghc-devel-prettyprinter-1.7.1-1jjh6iCiPNl8MgeqtPsio2 \
 ghc-prettyprinter-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-text-2.0.2 \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-aws-sam-translator \
 python39-aws-sam-translator \
 python3dist-aws-sam-translator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-boto3 \
 python39-jsonschema \

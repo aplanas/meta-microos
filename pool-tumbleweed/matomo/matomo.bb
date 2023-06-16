@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-matomo \
 matomo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/php \
+RDEPENDS:${PN} += "/usr/bin/php \
 /usr/bin/python3 \
+/usr/bin/sh \
 group-www \
 logrotate \
 nodejs \

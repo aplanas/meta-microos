@@ -10,7 +10,7 @@ RPM_HASH = "1ce10e9af15e0ac4bcadeeecb12e3ac239c6292f1187828f93d5595e7697f24f457d
 RPROVIDES:${PN} += "aide \
 config-aide"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \
 libc.so.6 \

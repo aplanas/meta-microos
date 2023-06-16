@@ -16,7 +16,7 @@ RPM_HASH = "d68a4e15a36c5c77ccb602becbd302dc9b6c0deb82401ced7d50d58bb5958ce0b5ef
 
 RPROVIDES:${PN} += "cross-riscv64-gcc13-bootstrap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-riscv64-binutils \
 update-alternatives"
 

@@ -15,6 +15,6 @@ ispell-dictionary \
 ispell-norsk \
 locale-ispell-nb;nn;no;se-NO"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

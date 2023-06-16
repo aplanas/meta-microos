@@ -19,7 +19,7 @@ RPM_HASH = "9d359a070828e75895055a738090a9951cf512f12eccb2e018957f78d9d18fc4db3d
 RPROVIDES:${PN} += "config-openssh-helpers \
 openssh-helpers"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblber.so.2 \

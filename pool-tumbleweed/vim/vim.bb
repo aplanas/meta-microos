@@ -18,7 +18,7 @@ vim-client \
 vim-enhanced \
 vim-python"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 alts \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \

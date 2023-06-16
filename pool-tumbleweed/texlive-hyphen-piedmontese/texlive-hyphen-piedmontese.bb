@@ -15,7 +15,7 @@ tex-hyph-quote-pms.tex \
 tex-loadhyph-pms.tex \
 texlive-hyphen-piedmontese"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

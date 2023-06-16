@@ -14,7 +14,7 @@ tex-musuos.bbx \
 tex-musuos.cbx \
 texlive-biblatex-musuos"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

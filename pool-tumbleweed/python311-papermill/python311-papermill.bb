@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-papermill \
 python311-papermill \
 python3dist-papermill"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyYAML \
 python311-ansiwrap \

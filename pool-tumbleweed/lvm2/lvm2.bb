@@ -18,8 +18,8 @@ libdevmapper-event-lvm2vdo.so.2.03 \
 lvm \
 lvm2"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 device-mapper \
 ld-linux-aarch64.so.1 \

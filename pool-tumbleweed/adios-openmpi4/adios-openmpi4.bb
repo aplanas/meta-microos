@@ -16,7 +16,7 @@ RPM_HASH = "b97c0cb488efdca9000521624c92db70771007f0153b21e5d858fad51c6813c9ed84
 RPROVIDES:${PN} += "adios-openmpi4 \
 config-adios-openmpi4"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

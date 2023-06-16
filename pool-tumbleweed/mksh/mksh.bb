@@ -9,11 +9,11 @@ PV = "59c"
 RPM_NAME = "mksh-59c-4.3.aarch64.rpm"
 RPM_HASH = "d33630eb8e669223e0ca1531240ebeb81c025e8b102c63835c2f301623c1499843ed9d30943a2d4e1abe6c856b86c422ba8aea738d1e005d7eb9f2fba41c3045"
 
-RPROVIDES:${PN} += "/bin/ksh \
+RPROVIDES:${PN} += "/usr/bin/ksh \
 mksh \
 pdksh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

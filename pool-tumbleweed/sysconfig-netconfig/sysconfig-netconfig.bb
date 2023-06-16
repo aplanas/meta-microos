@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "/sbin/netconfig \
 config-sysconfig-netconfig \
 sysconfig-netconfig"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/gawk \
-/bin/logger \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/gawk \
+/usr/bin/logger \
 sysconfig"
 
 inherit rpm

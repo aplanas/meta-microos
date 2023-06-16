@@ -14,7 +14,7 @@ tex-hyph-ga.tex \
 tex-loadhyph-ga.tex \
 texlive-hyphen-irish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

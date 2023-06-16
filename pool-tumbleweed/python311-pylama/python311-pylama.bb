@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.11dist-pylama \
 python311-pylama \
 python3dist-pylama"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-mccabe \
 python311-pycodestyle \

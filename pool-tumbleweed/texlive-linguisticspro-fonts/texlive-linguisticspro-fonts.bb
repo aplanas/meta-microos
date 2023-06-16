@@ -173,7 +173,7 @@ font--lang=zu \
 font-linguisticspro \
 texlive-linguisticspro-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

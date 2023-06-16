@@ -28,7 +28,7 @@ tex-biblatex-swiss-legal-shortarticle.bbx \
 tex-biblatex-swiss-legal-shortarticle.cbx \
 texlive-biblatex-swiss-legal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

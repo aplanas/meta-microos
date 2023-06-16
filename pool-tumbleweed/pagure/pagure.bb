@@ -20,8 +20,8 @@ pagure \
 python3.10dist-pagure \
 python3dist-pagure"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 git-core \
 gitolite \
 openssh \

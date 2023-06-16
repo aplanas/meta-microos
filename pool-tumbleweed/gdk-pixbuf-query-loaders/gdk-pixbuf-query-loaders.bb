@@ -14,7 +14,7 @@ RPM_HASH = "01d0ec8e1db536b6676fe7da09fe29743da7d4f02edb54891c7a9dc8aa3f71b88f48
 
 RPROVIDES:${PN} += "gdk-pixbuf-query-loaders"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

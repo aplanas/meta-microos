@@ -10,7 +10,7 @@ RPM_HASH = "33ed23e067a5ad5adf7a01083d0285e68344332425f7536ec10788d80ccc41801c68
 RPROVIDES:${PN} += "ghc-devel-topograph-1.0.0.2-FAmn9lLfwsBEVgB5YGdVHh \
 ghc-topograph-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \

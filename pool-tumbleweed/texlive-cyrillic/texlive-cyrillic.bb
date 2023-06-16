@@ -122,7 +122,7 @@ tex-x2lcmss.fd \
 tex-x2lcmtt.fd \
 texlive-cyrillic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

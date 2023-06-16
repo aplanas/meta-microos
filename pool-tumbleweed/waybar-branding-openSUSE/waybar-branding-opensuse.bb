@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "config-waybar-branding-openSUSE \
 waybar-branding \
 waybar-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

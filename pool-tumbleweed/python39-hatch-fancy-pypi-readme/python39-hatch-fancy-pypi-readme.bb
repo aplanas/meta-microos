@@ -24,8 +24,8 @@ RPROVIDES:${PN} += "python3.9dist-hatch-fancy-pypi-readme \
 python39-hatch-fancy-pypi-readme \
 python3dist-hatch-fancy-pypi-readme"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python3.9dist-hatchling \
 python3.9dist-tomli \

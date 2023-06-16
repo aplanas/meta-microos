@@ -9,7 +9,7 @@ RPM_HASH = "ea8e04bba872dc93230db87d9b6df4a9580a48a9b092c839b0273209d970f61c7aa0
 
 RPROVIDES:${PN} += "brightnessctl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

@@ -11,7 +11,7 @@ RPM_HASH = "084953c23757b95a7a06d434d1c96606c68e09e40733868bf4e8775f842f82003d04
 RPROVIDES:${PN} += "ibsim \
 libumad2sim.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libibmad.so.5 \

@@ -137,7 +137,7 @@ font-plyfrdisplay \
 font-plyfrdisplayblack \
 texlive-playfair-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

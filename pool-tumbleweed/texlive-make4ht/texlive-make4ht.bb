@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-make4ht"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/luatex \
+RDEPENDS:${PN} += "/usr/bin/luatex \
+/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

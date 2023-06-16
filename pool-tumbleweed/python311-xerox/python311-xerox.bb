@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-xerox \
 python311-xerox \
 python3dist-xerox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives \
 xclip"

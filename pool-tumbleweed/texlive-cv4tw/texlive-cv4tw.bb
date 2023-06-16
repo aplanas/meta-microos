@@ -18,7 +18,7 @@ tex-cv4tw-theme-simple.sty \
 tex-cv4tw.cls \
 texlive-cv4tw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

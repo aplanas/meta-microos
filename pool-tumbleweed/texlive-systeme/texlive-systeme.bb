@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-systeme.sty \
 tex-systeme.tex \
 texlive-systeme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

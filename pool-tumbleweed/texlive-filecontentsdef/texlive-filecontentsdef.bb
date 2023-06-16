@@ -21,7 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-filecontentsdef.sty \
 texlive-filecontentsdef"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ RPM_HASH = "598c274874c5c3a863bc65f52959179b0cf2f6a2bd92a121df7960cdc33597e5518b
 
 RPROVIDES:${PN} += "qhexedit2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

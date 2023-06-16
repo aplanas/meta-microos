@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "libusb-compat-devel \
 libusb-devel \
 pkgconfig-libusb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libusb-0-1-4 \
 libusb-1-0-devel \

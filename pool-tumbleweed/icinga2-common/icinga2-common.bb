@@ -13,7 +13,7 @@ group-icingacmd \
 icinga2-common \
 user-icinga"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 monitoring-plugins-common \
 permissions \

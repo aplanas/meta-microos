@@ -17,10 +17,10 @@ libcourierauthcommon.so.0 \
 libcourierauthsasl.so.0 \
 libcourierauthsaslclient.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/expect \
 /usr/bin/perl \
+/usr/bin/sh \
 group-mail \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

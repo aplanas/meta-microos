@@ -19,7 +19,7 @@ RPM_HASH = "75348015115f4896959494bcfb03b8119f1a0f963490f78df7e1224c638ad899aec3
 
 RPROVIDES:${PN} += "physlock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-trusted \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

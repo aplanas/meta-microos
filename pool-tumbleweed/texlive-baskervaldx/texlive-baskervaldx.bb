@@ -564,7 +564,7 @@ tex-zbvmi.tfm \
 tex-zbvmi.vf \
 texlive-baskervaldx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ tex-cnbwp.cls \
 tex-cnbwpsizes.clo \
 texlive-cnbwp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "libtracker-http-soup3.so \
 libtracker-parser-libicu.so \
 tracker"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

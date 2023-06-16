@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cluttex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-simplekv.sty \
 tex-simplekv.tex \
 texlive-simplekv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

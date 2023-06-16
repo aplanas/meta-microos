@@ -11,7 +11,7 @@ RPM_HASH = "0b42874b4034be07013c0517e40d75b67f719d83066fd0c2795ec7a43f0a1904c9b2
 RPROVIDES:${PN} += "kubernetes-kubelet-common \
 kubernetes1.22-kubelet-common"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cri-runtime \
 kubernetes-kubelet1.22"
 

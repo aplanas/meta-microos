@@ -10,7 +10,7 @@ RPM_HASH = "e3d3301178e3b1e9b6d87e49f6b7761694bee9bab94555249034ccd3374828e0a96e
 RPROVIDES:${PN} += "ghc-colourista-devel \
 ghc-devel-colourista-0.1.0.2-5hJOPOBvzIt9IdOCkudaU3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-colourista \
 ghc-compiler \
 ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \

@@ -61,7 +61,7 @@ tex-bttr-w3wxei.enc \
 tex-bttr-x2bjkb.enc \
 texlive-bitter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ RPM_HASH = "4337f90c37fa98947b50154f325344423e1c735489b3a17d227fff99c452625970c0
 RPROVIDES:${PN} += "config-monerod \
 monerod"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-chrono.so.1.81.0 \
 libboost-filesystem.so.1.81.0 \

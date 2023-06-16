@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "config-sendfax \
 fax-daemon \
 sendfax"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 g3utils \
 group-uucp \
 ld-linux-aarch64.so.1 \

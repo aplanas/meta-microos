@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man-latexmk.1 \
 texlive-latexmk-doc"
 
-RDEPENDS:${PN} += "/bin/csh \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/csh \
+/usr/bin/sh"
 
 inherit rpm

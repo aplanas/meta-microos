@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-nltk \
 python39-nltk \
 python3dist-nltk"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-regex \
 update-alternatives"

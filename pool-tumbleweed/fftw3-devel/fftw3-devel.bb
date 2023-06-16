@@ -14,8 +14,8 @@ pkgconfig-fftw3 \
 pkgconfig-fftw3f \
 pkgconfig-fftw3l"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

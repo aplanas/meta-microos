@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-guessit \
 python39-guessit \
 python3dist-guessit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-babelfish \
 python39-importlib-resources \

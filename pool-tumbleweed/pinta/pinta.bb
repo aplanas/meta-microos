@@ -19,7 +19,7 @@ mono-Pinta.Resources \
 mono-Pinta.Tools \
 pinta"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-ICSharpCode.SharpZipLib \
 mono-Mono.Addins \
 mono-Mono.Addins.Gui \

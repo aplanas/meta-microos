@@ -16,7 +16,7 @@ tex-mlltxchg.def \
 tex-mltex.sty \
 texlive-mltex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

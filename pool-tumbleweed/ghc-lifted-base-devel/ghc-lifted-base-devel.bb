@@ -10,7 +10,7 @@ RPM_HASH = "0ebc1dcc4ae2956a3665522bd63e0b39fc414ee4ab055a75249fff8b4acb5f510a6e
 RPROVIDES:${PN} += "ghc-devel-lifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo \
 ghc-lifted-base-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \

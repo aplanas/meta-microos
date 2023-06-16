@@ -13,7 +13,7 @@ group-nm-openvpn \
 libnm-vpn-plugin-openvpn.so \
 user-nm-openvpn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

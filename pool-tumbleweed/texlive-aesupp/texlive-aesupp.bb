@@ -57,7 +57,7 @@ tex-rm-aeplri.tfm \
 tex-tg.enc \
 texlive-aesupp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

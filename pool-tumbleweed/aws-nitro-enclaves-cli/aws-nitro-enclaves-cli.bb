@@ -11,8 +11,8 @@ RPM_HASH = "24e8f29c5881fafdeb72812898c67d5661dfa0030803706cd452bce8e499b7578f72
 
 RPROVIDES:${PN} += "aws-nitro-enclaves-cli"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 aws-nitro-enclaves-binaryblobs \
 coreutils \
 jq \

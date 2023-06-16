@@ -21,8 +21,8 @@ python3.10dist-imagecodecs \
 python310-imagecodecs \
 python3dist-imagecodecs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaec.so.0 \
 libavif.so.15 \

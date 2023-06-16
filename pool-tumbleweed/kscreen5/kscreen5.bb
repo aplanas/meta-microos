@@ -10,7 +10,7 @@ RPM_HASH = "a347c48d97985d1e2e4efd55988b889325067313083c25c14b05e4e584070285688e
 RPROVIDES:${PN} += "kscreen \
 kscreen5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kded \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

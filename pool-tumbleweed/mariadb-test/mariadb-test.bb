@@ -73,9 +73,9 @@ perl-mtr-results \
 perl-mtr-unique \
 perl-wsrep--common"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \

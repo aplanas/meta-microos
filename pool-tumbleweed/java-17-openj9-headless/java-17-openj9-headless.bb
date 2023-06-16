@@ -86,7 +86,7 @@ libsyslookup.so \
 libverify.so \
 libzip.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-ca-certificates \
 jpackage-utils \
 ld-linux-aarch64.so.1 \

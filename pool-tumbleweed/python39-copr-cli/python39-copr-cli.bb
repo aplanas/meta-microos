@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-copr-cli \
 python39-copr-cli \
 python3dist-copr-cli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-copr \

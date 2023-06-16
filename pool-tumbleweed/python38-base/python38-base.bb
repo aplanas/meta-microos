@@ -22,7 +22,7 @@ python38-typing \
 python38-xml \
 rpm-macro-have-python38"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

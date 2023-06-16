@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-relinput.sty \
 tex-stack.sty \
 texlive-stack"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

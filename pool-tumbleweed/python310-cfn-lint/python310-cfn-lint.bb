@@ -17,8 +17,8 @@ python310-cfn-lint \
 python3dist-cfn-lint"
 
 RDEPENDS:${PN} += "-python310-jsonschema > 3.0 with python310-jsonschema < 5 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python310-PyYAML \

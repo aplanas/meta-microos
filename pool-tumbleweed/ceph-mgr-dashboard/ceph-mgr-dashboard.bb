@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-dashboard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ceph-grafana-dashboards \
 ceph-mgr \
 ceph-prometheus-alerts \

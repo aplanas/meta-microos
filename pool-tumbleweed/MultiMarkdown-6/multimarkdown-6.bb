@@ -12,7 +12,7 @@ RPM_HASH = "e2a5e397b6605bcf1ea1af5a626f44826f1f507ffb08d6d736269d12066e30b6d102
 RPROVIDES:${PN} += "MultiMarkdown-6 \
 markdown"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 texlive-filesystem \

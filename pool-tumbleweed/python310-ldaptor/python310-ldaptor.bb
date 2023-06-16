@@ -19,8 +19,8 @@ python3.10dist-ldaptor \
 python310-ldaptor \
 python3dist-ldaptor"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Twisted-tls \
 python310-passlib \

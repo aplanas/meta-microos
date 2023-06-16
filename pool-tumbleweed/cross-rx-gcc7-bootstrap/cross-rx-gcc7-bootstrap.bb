@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "cross-rx-gcc7-bootstrap \
 liblto-plugin.so.0 \
 rx-elf-gcc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-rx-binutils \
 libc.so.6 \
 libgmp.so.10 \

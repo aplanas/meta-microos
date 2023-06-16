@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "HyperKitty-web \
 config-HyperKitty-web"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 HyperKitty \
 acl \
 openssl \

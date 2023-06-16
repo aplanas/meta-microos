@@ -27,7 +27,7 @@ tex-smfmulti.sty \
 tex-smfthm.sty \
 texlive-smflatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

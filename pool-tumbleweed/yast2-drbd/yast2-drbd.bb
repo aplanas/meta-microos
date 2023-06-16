@@ -11,8 +11,8 @@ RPM_HASH = "985d2c1705deb3e62a57ea9a5b71e5e138dec8c3196d73c87da2f18443ed8b8dc124
 
 RPROVIDES:${PN} += "yast2-drbd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby \
+RDEPENDS:${PN} += "/usr/bin/ruby \
+/usr/bin/sh \
 drbd \
 yast2 \
 yast2-ruby-bindings"

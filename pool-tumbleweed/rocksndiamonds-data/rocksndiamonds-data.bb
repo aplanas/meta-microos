@@ -17,7 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rocksndiamonds-data"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 rocksndiamonds"
 
 inherit rpm

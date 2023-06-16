@@ -89,7 +89,7 @@ font--lang=zu \
 font-accanthisadfstdno3 \
 texlive-accanthis-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

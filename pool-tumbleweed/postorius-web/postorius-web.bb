@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-postorius-web \
 postorius-web"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 acl \
 openssl \
 postorius \

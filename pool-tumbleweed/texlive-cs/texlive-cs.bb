@@ -213,7 +213,7 @@ tex-xl2f.enc \
 tex-xt2.enc \
 texlive-cs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

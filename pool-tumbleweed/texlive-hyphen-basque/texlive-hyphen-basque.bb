@@ -13,7 +13,7 @@ tex-hyph-eu.tex \
 tex-loadhyph-eu.tex \
 texlive-hyphen-basque"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ RPM_HASH = "760bad56702c680f3d99806f6a2e2b75d15e9ec62a35654f35895c66f726d02ff2b0
 
 RPROVIDES:${PN} += "openmpi2-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 openmpi-2-1-6-gnu-hpc"
 
 inherit rpm

@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-tldextract \
 python39-tldextract \
 python3dist-tldextract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-filelock \
 python39-idna \

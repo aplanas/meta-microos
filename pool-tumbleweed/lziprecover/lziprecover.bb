@@ -25,7 +25,7 @@ RPM_HASH = "1af6c7a2b874e7a6d90713076d1736ca6ced6a0cb2a0d1a0f5b5907e10d883c9ccec
 
 RPROVIDES:${PN} += "lziprecover"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 libc.so.6 \
 libgcc-s.so.1 \

@@ -11,8 +11,8 @@ RPM_HASH = "0f1524d14f3dcffa9fcf1d0c771accdaa6a1cbf9e35329996c7b237f5f206a738596
 RPROVIDES:${PN} += "fcitx \
 locale-ko;zh-CN;zh-SG"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 fcitx-branding \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

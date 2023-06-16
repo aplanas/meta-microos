@@ -9,7 +9,7 @@ RPM_HASH = "413233bd7904cdd70138a4bc56ecfb5251fc339011933533149d4ec0516a4c311508
 
 RPROVIDES:${PN} += "pps-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 user-ntp"
 
 inherit rpm

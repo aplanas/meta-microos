@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-helpdev \
 python311-helpdev \
 python3dist-helpdev"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-importlib-metadata \
 python311-psutil \

@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.11dist-send2trash \
 python311-Send2Trash \
 python3dist-send2trash"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 typelib-GObject \
 typelib-Gio \

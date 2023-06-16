@@ -11,7 +11,7 @@ RPM_HASH = "e942f3380ee09e9ac117bda4158c78be15173208cf70c0e0d57dc06d0aba5d915ef0
 
 RPROVIDES:${PN} += "dracut-kiwi-oem-repart"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 dracut-kiwi-lib"
 
 inherit rpm

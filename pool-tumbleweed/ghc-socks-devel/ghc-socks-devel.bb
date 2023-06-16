@@ -10,7 +10,7 @@ RPM_HASH = "2aeda594e7f43feed667de103d097cef129bb038a978e22a123f2ead8dea4a88116c
 RPROVIDES:${PN} += "ghc-devel-socks-0.6.1-CAd82jbrmKj2bUx8fkWhGg \
 ghc-socks-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S \

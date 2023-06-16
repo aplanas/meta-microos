@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-nostarch.cls \
 tex-nshyper.sty \
 texlive-nostarch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

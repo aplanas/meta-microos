@@ -18,8 +18,8 @@ python3.9dist-jupyter-client \
 python39-jupyter-client \
 python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-entrypoints \
 python39-python-dateutil \

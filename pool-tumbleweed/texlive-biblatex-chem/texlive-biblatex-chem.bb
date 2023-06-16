@@ -22,7 +22,7 @@ tex-chem-rsc.bbx \
 tex-chem-rsc.cbx \
 texlive-biblatex-chem"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

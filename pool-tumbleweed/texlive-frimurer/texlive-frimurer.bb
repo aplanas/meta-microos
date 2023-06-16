@@ -14,7 +14,7 @@ tex-frimurer.sty \
 tex-frimurer.tfm \
 texlive-frimurer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

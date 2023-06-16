@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-junitxml \
 python311-junitxml \
 python3dist-junitxml"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

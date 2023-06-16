@@ -18,8 +18,8 @@ RPM_HASH = "cf12ab88b7b494e3d78e1210284c02e0cf569c629e5bd969f290618d6e05701af433
 RPROVIDES:${PN} += "libsource-highlight-devel \
 pkgconfig-source-highlight"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libsource-highlight4"
 
 inherit rpm

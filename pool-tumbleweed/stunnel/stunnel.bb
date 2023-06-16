@@ -13,9 +13,9 @@ RPROVIDES:${PN} += "config-stunnel \
 libstunnel.so \
 stunnel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 /usr/sbin/useradd \
 fileutils \

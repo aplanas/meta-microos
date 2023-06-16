@@ -33,7 +33,7 @@ libtrayapplet.so \
 libuserindicator.so \
 libworkspacesapplet.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager-applet \
 budgie-control-center \
 budgie-desktop-branding \

@@ -36,7 +36,7 @@ tex-mlp.sty \
 tex-pmfrench.sty \
 texlive-e-french"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

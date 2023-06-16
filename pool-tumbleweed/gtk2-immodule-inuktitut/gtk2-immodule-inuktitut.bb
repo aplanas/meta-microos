@@ -14,7 +14,7 @@ RPM_HASH = "b4fbbd864df7879a6ad6619ee365d6ddfba523b875c701fe7d28ec84b0acc53dc2ef
 RPROVIDES:${PN} += "gtk2-immodule-inuktitut \
 locale-gtk2-iu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-tools \
 libc.so.6 \

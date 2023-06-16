@@ -12,7 +12,7 @@ RPM_HASH = "6af78bc00922aed99aceddcf13d81622d1d945ffc648c95e09946fea8345d56540e3
 
 RPROVIDES:${PN} += "kitty"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11-xcb.so.1 \
 libX11.so.6 \

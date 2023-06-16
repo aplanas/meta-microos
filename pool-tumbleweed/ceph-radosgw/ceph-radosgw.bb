@@ -13,9 +13,9 @@ RPM_HASH = "4c7a034baf26727e176d416a780fc517dff2edb5bc458954e1e674e21c0c83260a7d
 RPROVIDES:${PN} += "ceph-radosgw \
 libradosgw.so.2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/env \
+/usr/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

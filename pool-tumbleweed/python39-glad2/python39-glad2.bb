@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-glad2 \
 python39-glad2 \
 python3dist-glad2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 /usr/sbin/update-alternatives \
 python-abi \
 python39-Jinja2 \

@@ -10,7 +10,7 @@ RPM_HASH = "f3f3785f5a1be8ccdb32982b525c637bc88ae02b3ef501026b67080503dc5a67019a
 RPROVIDES:${PN} += "ghc-devel-xml-conduit-1.9.1.2-EG4w0oWu477B6XYo8w0Zz4 \
 ghc-xml-conduit-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \

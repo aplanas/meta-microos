@@ -85,7 +85,7 @@ tex-thepdfnumber.sty \
 tex-twoopt.sty \
 texlive-oberdiek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

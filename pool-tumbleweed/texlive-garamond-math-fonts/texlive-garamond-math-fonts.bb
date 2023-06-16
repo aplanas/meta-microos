@@ -123,7 +123,7 @@ font--lang=zu \
 font-garamond-math \
 texlive-garamond-math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

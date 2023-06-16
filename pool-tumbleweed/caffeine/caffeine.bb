@@ -14,9 +14,9 @@ caffeine-lang \
 python3.10dist-caffeine \
 python3dist-caffeine"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-xdg \
 python3-xlib \

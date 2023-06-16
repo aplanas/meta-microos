@@ -22,8 +22,8 @@ python3dist-flake8"
 RDEPENDS:${PN} += "-python311-mccabe >= 0.7.0 with python311-mccabe < 0.8.0 \
 -python311-pycodestyle >= 2.10.0 with python311-pycodestyle < 2.11.0 \
 -python311-pyflakes >= 3.0.0 with python311-pyflakes < 3.1.0 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

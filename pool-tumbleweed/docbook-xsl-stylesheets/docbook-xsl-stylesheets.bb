@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-docbook-xsl-stylesheets \
 docbook-xsl-stylesheets"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 docbook-4 \
 sgml-skel \
 xmlcharent"

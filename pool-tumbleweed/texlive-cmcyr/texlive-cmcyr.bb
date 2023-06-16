@@ -547,7 +547,7 @@ tex-ycmu10.tfm \
 tex-ycmu10.vf \
 texlive-cmcyr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

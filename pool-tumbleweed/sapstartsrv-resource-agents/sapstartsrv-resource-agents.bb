@@ -18,8 +18,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sapstartsrv-resource-agents"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 pacemaker \
 python3 \
 python3-psutil \

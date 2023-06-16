@@ -30,7 +30,7 @@ tex-title-WWUM.def \
 tex-uni-titlepage.sty \
 texlive-uni-titlepage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

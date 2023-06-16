@@ -22,9 +22,9 @@ rubygem-ruby-3.2.0-vagrant-spec-0.0 \
 rubygem-ruby-3.2.0-vagrant-spec-0.0.1 \
 rubygem-vagrant-spec"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-childprocess \
 rubygem-ruby-3.2.0-log4r-1.1 \

@@ -21,7 +21,7 @@ tex-beuronx.tfm \
 tex-t1beuron.fd \
 texlive-beuron"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

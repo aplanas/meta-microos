@@ -21,7 +21,7 @@ tex-ifvtex.sty \
 tex-ifxetex.sty \
 texlive-iftex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

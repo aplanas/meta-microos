@@ -233,7 +233,7 @@ tex-zut-zk7stm.enc \
 tex-zut-zl5g24.enc \
 texlive-heuristica"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

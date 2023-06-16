@@ -89,7 +89,7 @@ font-baskervaldadfstd \
 font-baskervaldadfstdhv \
 texlive-baskervald-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

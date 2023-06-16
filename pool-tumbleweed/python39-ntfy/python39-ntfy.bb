@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.9dist-ntfy \
 python39-ntfy \
 python3dist-ntfy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-appdirs \
 python39-requests \

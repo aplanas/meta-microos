@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-extratools \
 python39-extratools \
 python3dist-extratools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-RegexOrder \
 python39-TagStats \

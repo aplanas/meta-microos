@@ -9,8 +9,8 @@ RPM_HASH = "13adbb9c267662093581d28b2d4bb0a4b3a61b31f26780c096d17555bcb5ba71377e
 
 RPROVIDES:${PN} += "ntpsec-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ntpsec \
 python3-curses \
 python3-gpsd \

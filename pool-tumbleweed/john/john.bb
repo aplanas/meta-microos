@@ -12,9 +12,9 @@ RPM_HASH = "ff8e9069652e4f6bdd9ba8b694cba339d89280a911cc3981c1a3437e9509df54e595
 RPROVIDES:${PN} += "config-john \
 john"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libOpenCL.so.1 \
 libbz2.so.1 \

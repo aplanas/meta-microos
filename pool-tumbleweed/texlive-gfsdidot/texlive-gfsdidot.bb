@@ -186,7 +186,7 @@ tex-ts1udidot.fd \
 tex-uudidotnums.fd \
 texlive-gfsdidot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

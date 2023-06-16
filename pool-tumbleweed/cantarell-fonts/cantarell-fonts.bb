@@ -164,7 +164,7 @@ font--lang=za \
 font--lang=zu \
 font-cantarell"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

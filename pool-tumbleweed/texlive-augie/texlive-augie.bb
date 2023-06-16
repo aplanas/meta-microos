@@ -23,7 +23,7 @@ tex-t1augie.fd \
 tex-ts1augie.fd \
 texlive-augie"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

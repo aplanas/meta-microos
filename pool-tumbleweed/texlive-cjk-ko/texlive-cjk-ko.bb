@@ -20,7 +20,7 @@ tex-konames-utf.sty \
 tex-kotex.sty \
 texlive-cjk-ko"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

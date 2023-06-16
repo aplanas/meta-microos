@@ -10,7 +10,7 @@ RPM_HASH = "03f8f9d5dc49b688dc3265b77b2da126015b006443c10a676ae04f892962cdbfd91c
 RPROVIDES:${PN} += "ghc-data-clist-devel \
 ghc-devel-data-clist-0.2-LT5UCpKeur34zcxFsnpoqW"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-data-clist \
 ghc-devel-base-4.17.1.0 \

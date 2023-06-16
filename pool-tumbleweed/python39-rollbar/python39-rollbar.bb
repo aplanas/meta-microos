@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-rollbar \
 python39-rollbar \
 python3dist-rollbar"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-requests \
 python39-setuptools \

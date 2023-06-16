@@ -33,7 +33,7 @@ RPROVIDES:${PN} += "config-xl2tpd \
 l2tpd \
 xl2tpd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcap.so.1 \

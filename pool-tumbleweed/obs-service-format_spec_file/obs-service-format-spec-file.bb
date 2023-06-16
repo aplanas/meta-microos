@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-format-spec-file"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 obs-service-source-validator"
 

@@ -11,8 +11,8 @@ RPM_HASH = "9831c04677b3cb94bcaabbf86061964c559b00409735be9c8b48c7eddb8c2753b55a
 
 RPROVIDES:${PN} += "complexity"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

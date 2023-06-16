@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sound-theme-freedesktop"
 
-RDEPENDS:${PN} += "/bin/sh \
-/bin/touch"
+RDEPENDS:${PN} += "/usr/bin/sh \
+/usr/bin/touch"
 
 inherit rpm

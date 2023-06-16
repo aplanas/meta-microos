@@ -19,7 +19,7 @@ tex-luatex-unicode-letters.tex \
 tex-luatexiniconfig.tex \
 texlive-luatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

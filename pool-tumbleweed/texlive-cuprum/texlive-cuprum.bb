@@ -18,7 +18,7 @@ tex-cuprum.sty \
 tex-t1cpr.fd \
 texlive-cuprum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

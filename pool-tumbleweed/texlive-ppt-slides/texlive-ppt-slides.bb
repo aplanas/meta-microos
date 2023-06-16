@@ -19,7 +19,7 @@ tex-ppt-light.tex \
 tex-ppt-slides.sty \
 texlive-ppt-slides"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

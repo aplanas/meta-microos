@@ -17,8 +17,8 @@ mod-wsgi \
 python3.10dist-mod-wsgi \
 python3dist-mod-wsgi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 apache-mmn-20120211 \
 apache2 \
 ld-linux-aarch64.so.1 \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-unified.bbx \
 tex-unified.cbx \
 texlive-biblatex-unified"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

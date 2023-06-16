@@ -14,7 +14,7 @@ tex-hyph-hsb.tex \
 tex-loadhyph-hsb.tex \
 texlive-hyphen-uppersorbian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

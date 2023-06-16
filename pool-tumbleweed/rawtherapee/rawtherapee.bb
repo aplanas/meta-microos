@@ -13,7 +13,7 @@ RPM_HASH = "7457e1871e18a16bcb71d68a9c9ba0d86ed88cbd2124cc448d5cf90682548b028c7e
 
 RPROVIDES:${PN} += "rawtherapee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
 libatkmm-1.6.so.1 \

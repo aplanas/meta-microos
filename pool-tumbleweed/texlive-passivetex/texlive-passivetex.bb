@@ -18,7 +18,7 @@ tex-ucharacters.sty \
 tex-unicode.sty \
 texlive-passivetex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

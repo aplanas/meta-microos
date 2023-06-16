@@ -11,7 +11,7 @@ RPM_HASH = "09fa3f2519a2e3a8f36883608d101efd04889af8206f1e07fdcdda420b63cada2353
 
 RPROVIDES:${PN} += "libscotch-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libscotch-6-1-0-gnu-hpc"
 
 inherit rpm

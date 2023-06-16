@@ -10,7 +10,7 @@ RPM_HASH = "a56d3eba64c286b502fc44cc44675bbffaf16a150bcb6ea27f26ff15a2a2c492e07e
 RPROVIDES:${PN} += "ghc-cryptonite-devel \
 ghc-devel-cryptonite-0.30-AbDFzA14dNKDfU9pLpBLye"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cryptonite \
 ghc-devel-base-4.17.1.0 \

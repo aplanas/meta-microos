@@ -12,8 +12,8 @@ RPM_HASH = "9c2154fae43c5238ecca9928507543ffec397b42b8ed363257bae3a7a7a3efa4bebe
 RPROVIDES:${PN} += "libvpl.so.2 \
 libvpl2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

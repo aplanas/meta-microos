@@ -17,7 +17,7 @@ tex-uwasyvar.fd \
 tex-wasysym.sty \
 texlive-wasysym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

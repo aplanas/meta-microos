@@ -131,7 +131,7 @@ tex-t1laess.fd \
 tex-t1laett.fd \
 texlive-ae"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

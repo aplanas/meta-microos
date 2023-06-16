@@ -48,7 +48,7 @@ tex-vtex.cfg \
 tex-xdvipdfmx.cfg \
 texlive-pstricks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

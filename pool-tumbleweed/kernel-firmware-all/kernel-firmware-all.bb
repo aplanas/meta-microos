@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "compat-wireless-firmware \
 kernel-firmware \
 kernel-firmware-all"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut \
 kernel-firmware-amdgpu \

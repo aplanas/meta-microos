@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-texlive-simpleicons-fonts \
 font-simpleicons \
 texlive-simpleicons-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

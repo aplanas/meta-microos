@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3-bandit \
 python3.10dist-bandit \
 python3dist-bandit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-GitPython \
 python3-PyYAML \

@@ -48,8 +48,8 @@ python39-jupyter-ipython-doc-pdf \
 python3dist-ipython"
 
 RDEPENDS:${PN} += "-python39-prompt-toolkit >= 3.0.38 with python39-prompt-toolkit < 3.1 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39 \

@@ -12,7 +12,7 @@ RPM_HASH = "79be43c31c06037548b4229982f34cc7293da08fa6f1504831f50e15b32c70b78495
 
 RPROVIDES:${PN} += "cross-s390x-gcc12"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-s390x-binutils \
 libstdc++6-devel-gcc12 \
 update-alternatives"

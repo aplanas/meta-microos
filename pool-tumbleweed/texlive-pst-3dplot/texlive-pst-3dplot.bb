@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-3dplot.sty \
 tex-pst-3dplot.tex \
 texlive-pst-3dplot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

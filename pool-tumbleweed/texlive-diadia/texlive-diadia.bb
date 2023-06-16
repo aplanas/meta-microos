@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-diadia.cfg \
 tex-diadia.sty \
 texlive-diadia"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

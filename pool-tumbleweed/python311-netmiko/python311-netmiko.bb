@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-netmiko \
 python311-netmiko \
 python3dist-netmiko"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyYAML \
 python311-paramiko \

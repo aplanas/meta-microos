@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-chickenize.sty \
 tex-chickenize.tex \
 texlive-chickenize"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

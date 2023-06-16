@@ -19,9 +19,9 @@ RPROVIDES:${PN} += "python3.9dist-pint \
 python39-Pint \
 python3dist-pint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-importlib-metadata \
 python39-importlib-resources \

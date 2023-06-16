@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-keylime \
 python39-keylime \
 python3dist-keylime"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 libtss2-tcti-device0 \
 libtss2-tcti-tabrmd0 \
 procps \

@@ -16,8 +16,8 @@ python39-cfn-lint \
 python3dist-cfn-lint"
 
 RDEPENDS:${PN} += "-python39-jsonschema > 3.0 with python39-jsonschema < 5 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python39-PyYAML \

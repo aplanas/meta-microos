@@ -21,10 +21,10 @@ python3.10dist-xpra \
 python3dist-xpra \
 xpra"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 dbus-1-x11 \
 fillup \

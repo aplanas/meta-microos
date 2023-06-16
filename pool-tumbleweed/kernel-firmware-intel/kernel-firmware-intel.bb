@@ -27,8 +27,8 @@ firmware-qat-c62x.bin \
 firmware-qat-mmp.bin \
 kernel-firmware-intel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

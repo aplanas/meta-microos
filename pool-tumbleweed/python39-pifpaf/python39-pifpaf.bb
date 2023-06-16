@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-pifpaf \
 python39-pifpaf \
 python3dist-pifpaf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-click \

@@ -14,7 +14,7 @@ tex-thai.ldf \
 tex-tis620.def \
 texlive-babel-thai"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

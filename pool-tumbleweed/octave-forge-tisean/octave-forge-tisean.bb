@@ -10,7 +10,7 @@ RPM_HASH = "b478970e845889610b4c3afc1c00638ddfdbf2c1eb95bead4976d06d19e0a9bf42a6
 
 RPROVIDES:${PN} += "octave-forge-tisean"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

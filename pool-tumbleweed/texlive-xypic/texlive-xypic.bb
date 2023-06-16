@@ -107,7 +107,7 @@ tex-xyweb.tex \
 tex-xyxdvi.tex \
 texlive-xypic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

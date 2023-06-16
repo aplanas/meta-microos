@@ -97,7 +97,7 @@ tex-a-u5lxld.enc \
 tex-a-ym6dij.enc \
 texlive-hindmadurai"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

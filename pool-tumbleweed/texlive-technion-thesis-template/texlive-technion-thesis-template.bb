@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-technionThesis.cls \
 tex-technionThesisSetup.sty \
 texlive-technion-thesis-template"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

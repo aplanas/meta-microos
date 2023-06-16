@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "perl-Encode--JIS2K \
 perl-Encode--JIS2K--2022JP3 \
 perl-Encode-JIS2K"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/enc2xs \
+RDEPENDS:${PN} += "/usr/bin/enc2xs \
+/usr/bin/sh \
 libc.so.6 \
 perl--MODULE-COMPAT-5.36.0"
 

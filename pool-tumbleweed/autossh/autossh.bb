@@ -15,7 +15,7 @@ RPM_HASH = "7c88d1c10a4ab341272eeec704f52554ff5ac582fe1d27e43d890ad86a1ddf16e4b0
 
 RPROVIDES:${PN} += "autossh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 openssh"

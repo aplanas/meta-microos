@@ -10,7 +10,7 @@ RPM_HASH = "bdd6b10bbb3cd4e5c2e5c6296544d04ed31d43095b5e1abe5277159877a71ab266e1
 RPROVIDES:${PN} += "ghc-devel-http-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD \
 ghc-http-date-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

@@ -11,7 +11,7 @@ RPM_HASH = "6ed67dd6bd236e5a9693ba73a55b26f36ba0765578f481563fe23529ea69e9cdac01
 
 RPROVIDES:${PN} += "rdma-ndd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsystemd.so.0 \

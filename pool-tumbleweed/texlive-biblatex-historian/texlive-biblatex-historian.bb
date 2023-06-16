@@ -14,7 +14,7 @@ tex-historian.cbx \
 tex-historian.lbx \
 texlive-biblatex-historian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

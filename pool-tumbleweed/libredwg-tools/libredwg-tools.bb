@@ -12,7 +12,7 @@ RPM_HASH = "787ba1a12db7d6a6b1f77caf593065119ba567c34462358ac3910f0beeb17d20552c
 
 RPROVIDES:${PN} += "libredwg-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

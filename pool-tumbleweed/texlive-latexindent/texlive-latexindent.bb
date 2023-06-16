@@ -52,8 +52,8 @@ perl-LatexIndent--Version \
 perl-LatexIndent--Wrap \
 texlive-latexindent"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,8 +14,8 @@ supportconfig-plugin-resource \
 supportconfig-plugin-tag \
 supportutils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
 /usr/bin/sed \
 /usr/bin/which \
 iproute2 \

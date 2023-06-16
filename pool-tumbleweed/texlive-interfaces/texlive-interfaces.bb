@@ -41,7 +41,7 @@ tex-interfaces-umrand.sty \
 tex-interfaces.sty \
 texlive-interfaces"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

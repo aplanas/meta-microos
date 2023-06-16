@@ -52,7 +52,7 @@ tex-pantyk.tex \
 tex-txfn.tex \
 texlive-ofs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

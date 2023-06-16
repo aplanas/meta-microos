@@ -12,7 +12,7 @@ RPM_HASH = "300373bae0aa2aac027a9050d7d8048ff290245d8148d9311241dba264c6ba165a84
 
 RPROVIDES:${PN} += "sanlk-reset"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsanlock.so.1 \

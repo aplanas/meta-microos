@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \
 zabbix-proxy-mysql"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libOpenIPMI.so.0 \
 libOpenIPMIposix.so.0 \

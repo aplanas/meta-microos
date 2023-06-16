@@ -9,7 +9,7 @@ RPM_HASH = "14f2be88f768543eb37d9b0571e4525a3defca6fcf5e690bd25640e31e50428c82f7
 
 RPROVIDES:${PN} += "yast2-packager"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/md5sum \
 /usr/bin/perl \
 augeas-lenses \

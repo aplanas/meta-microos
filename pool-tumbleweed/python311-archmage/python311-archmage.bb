@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-archmage \
 python311-archmage \
 python3dist-archmage"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-beautifulsoup4 \
 python311-pychm \

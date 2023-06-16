@@ -11,7 +11,7 @@ RPM_HASH = "90af10bb98eba53b98c046012aa84dedc102abcdbd3b4ff1533fddd8f9ab68b5c65d
 RPROVIDES:${PN} += "config-osmo-pcap \
 osmo-pcap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgnutls.so.30 \

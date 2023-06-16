@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-pywebdav3-gnuhealth \
 python311-PyWebDAV3-GNUHealth \
 python3dist-pywebdav3-gnuhealth"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

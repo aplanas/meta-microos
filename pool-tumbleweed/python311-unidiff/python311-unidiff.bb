@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-unidiff \
 python311-unidiff \
 python3dist-unidiff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

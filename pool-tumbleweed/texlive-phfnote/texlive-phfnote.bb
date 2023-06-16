@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-phfnote.sty \
 tex-phfnotepreset-xpkgdoc.def \
 texlive-phfnote"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

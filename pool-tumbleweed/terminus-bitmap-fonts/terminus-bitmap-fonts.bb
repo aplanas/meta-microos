@@ -28,7 +28,7 @@ RPROVIDES:${PN} += "locale-ru;bg \
 terminus-bitmap-fonts \
 terminus-font"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

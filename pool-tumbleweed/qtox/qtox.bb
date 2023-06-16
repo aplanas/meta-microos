@@ -10,7 +10,7 @@ RPM_HASH = "8341998cb7d4b1eb17160cee6800fe4578c391809dc1aa124ef9b83ef5f48a8020b6
 
 RPROVIDES:${PN} += "qtox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5SonnetUi.so.5 \
 libQt5Core.so.5 \

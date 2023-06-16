@@ -18,8 +18,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-docbook-5 \
 docbook-5"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 sgml-skel"
 
 inherit rpm

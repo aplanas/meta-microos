@@ -270,7 +270,7 @@ tex-yessw8t.tfm \
 tex-yessw8t.vf \
 texlive-electrum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

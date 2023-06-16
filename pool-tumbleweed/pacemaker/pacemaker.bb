@@ -18,9 +18,9 @@ RPM_HASH = "2dfa33014e83a4abb1dd5c24a711e31c129921063cb47b9b96f4c8c8b0f3feb94f9b
 RPROVIDES:${PN} += "pacemaker \
 pacemaker-ticket-support"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 corosync \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

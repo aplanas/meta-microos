@@ -446,7 +446,7 @@ tex-lbfr-xsutkk.enc \
 tex-librefranklin.sty \
 texlive-librefranklin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

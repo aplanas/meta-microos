@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "man-musixflx.1 \
 man-musixtex.1 \
 texlive-musixtex-doc"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

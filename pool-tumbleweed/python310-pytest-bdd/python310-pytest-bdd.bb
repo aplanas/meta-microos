@@ -26,8 +26,8 @@ python3.10dist-pytest-bdd \
 python310-pytest-bdd \
 python3dist-pytest-bdd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Mako \
 python310-glob2 \

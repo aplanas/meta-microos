@@ -22,9 +22,9 @@ RPROVIDES:${PN} += "config-nagios-www \
 monitoring-webfrontend \
 nagios-www"
 
-RDEPENDS:${PN} += "/bin/logger \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/logger \
 /usr/bin/perl \
+/usr/bin/sh \
 apache2 \
 coreutils \
 gawk \

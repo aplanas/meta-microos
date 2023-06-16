@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-a5toa4.tex \
 tex-pfarrei.sty \
 texlive-pfarrei"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

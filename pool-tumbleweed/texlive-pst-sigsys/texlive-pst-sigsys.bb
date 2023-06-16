@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-pst-sigsys.sty \
 tex-pst-sigsys.tex \
 texlive-pst-sigsys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

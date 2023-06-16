@@ -47,7 +47,7 @@ tex-smftt10.tfm \
 tex-t-type-semaf.tex \
 texlive-semaphor"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

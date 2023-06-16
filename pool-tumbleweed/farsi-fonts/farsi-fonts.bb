@@ -13,7 +13,7 @@ farsifonts \
 locale-fa \
 scalable-font-fa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

@@ -11,7 +11,7 @@ RPM_HASH = "b2a51fe87c21fe9700428c9fd635a3eb9d283d7a306554a9eb9e388e09a296d972aa
 RPROVIDES:${PN} += "ghc-devel-hackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq \
 ghc-hackage-security-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-Cabal-syntax-3.8.1.0 \
 ghc-devel-base-4.17.1.0 \

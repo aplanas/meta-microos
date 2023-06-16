@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-czifile \
 python311-czifile \
 python3dist-czifile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-imagecodecs \
 python311-numpy \

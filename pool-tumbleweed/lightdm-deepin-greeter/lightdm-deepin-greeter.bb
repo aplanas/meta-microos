@@ -11,7 +11,7 @@ RPM_HASH = "fae73e6d8500c5d86d60ebb1c1bdd44be3063744b66f1a00e78cb6b73cf13c76a037
 RPROVIDES:${PN} += "config-lightdm-deepin-greeter \
 lightdm-deepin-greeter"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 deepin-start \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

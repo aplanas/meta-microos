@@ -247,7 +247,7 @@ tex-uhvro8tn.tfm \
 tex-uhvro8tn.vf \
 texlive-helvetic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

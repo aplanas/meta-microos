@@ -10,7 +10,7 @@ RPM_HASH = "1e7b224189eaa423ccbd2883845772f4e56876519ea9de8f321b70a35c7890d4e0aa
 RPROVIDES:${PN} += "ghc-byteorder-devel \
 ghc-devel-byteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-byteorder \
 ghc-compiler \
 ghc-devel-base-4.17.1.0"

@@ -30,9 +30,9 @@ python310-translate-toolkit \
 python3dist-translate-toolkit \
 translate-toolkit"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 gettext-runtime \
 python-abi \
 python310 \

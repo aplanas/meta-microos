@@ -14,6 +14,6 @@ python311-targetcli-fb-common \
 python39-targetcli-fb-common \
 targetcli-fb-common"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

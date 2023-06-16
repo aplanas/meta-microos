@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "libgphoto2-devel \
 pkgconfig-libgphoto2 \
 pkgconfig-libgphoto2-port"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libexif-devel \
 libgphoto2-6 \
 libgphoto2-port12 \

@@ -9,6 +9,6 @@ RPM_HASH = "c63169794aa298645473b392f63550e7af19c690f14e531b480bccfbad4955c402d8
 
 RPROVIDES:${PN} += "freesrp-udev"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

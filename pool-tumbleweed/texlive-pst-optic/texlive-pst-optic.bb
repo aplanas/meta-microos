@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-optic.sty \
 tex-pst-optic.tex \
 texlive-pst-optic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -24,8 +24,8 @@ RPROVIDES:${PN} += "python3.9dist-email-validator \
 python39-email-validator \
 python3dist-email-validator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-dnspython \
 python39-idna \

@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-draftwatermark-2x.sty \
 tex-draftwatermark.sty \
 texlive-draftwatermark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

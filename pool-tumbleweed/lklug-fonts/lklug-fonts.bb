@@ -16,7 +16,7 @@ lklug-fonts \
 locale-si \
 scalable-font-si"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

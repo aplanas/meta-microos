@@ -11,7 +11,7 @@ RPM_HASH = "975e5bde85e6ea47e70a7c268034b9015520d6c96a136a03a26403d58c057c5de0a1
 
 RPROVIDES:${PN} += "farbfeld"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libjpeg.so.8 \
 libpng16.so.16"

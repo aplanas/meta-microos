@@ -10,7 +10,7 @@ RPM_HASH = "b61b3836de838e107cbca32570b0104e486f9de1462f9321fe3b77db77876c6a9700
 RPROVIDES:${PN} += "ghc-devel-gridtables-0.1.0.0-I8M3kz7LaeTJ8iEjDWUjrS \
 ghc-gridtables-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \

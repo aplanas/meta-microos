@@ -26,7 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-pop-shell"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnome-shell \
 typelib-Clutter \
 typelib-GLib \

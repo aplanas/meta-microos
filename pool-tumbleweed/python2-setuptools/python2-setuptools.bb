@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-distribute \
 python2-setuptools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python2 \
+RDEPENDS:${PN} += "/usr/bin/python2 \
+/usr/bin/sh \
 python2 \
 python2-base \
 update-alternatives"

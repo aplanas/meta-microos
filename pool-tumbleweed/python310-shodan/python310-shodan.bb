@@ -13,8 +13,8 @@ python3.10dist-shodan \
 python310-shodan \
 python3dist-shodan"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-XlsxWriter \
 python310-click \

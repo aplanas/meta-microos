@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grpc-source"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/python \
-/usr/bin/python3"
+/usr/bin/python3 \
+/usr/bin/sh"
 
 inherit rpm

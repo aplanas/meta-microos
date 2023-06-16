@@ -40,9 +40,9 @@ perl-Gitolite--Triggers--Writable \
 perl-SugarBox \
 perl-Tsh"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 git \
 perl--MODULE-COMPAT-5.36.0 \
 user-nginx \

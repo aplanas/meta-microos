@@ -15,9 +15,9 @@ RPM_HASH = "3e9f834a38a9c6d88612ed667a13a3c58f4f99621c84d8f64e7fe53ee4862d6edc66
 
 RPROVIDES:${PN} += "mpiP-3-5-gnu-mvapich2-hpc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

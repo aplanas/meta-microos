@@ -44,7 +44,7 @@ tex-fdsymbol.map \
 tex-fdsymbol.sty \
 texlive-fdsymbol"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

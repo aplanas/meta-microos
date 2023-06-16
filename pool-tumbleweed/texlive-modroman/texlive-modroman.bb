@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-modroman.sty \
 texlive-modroman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

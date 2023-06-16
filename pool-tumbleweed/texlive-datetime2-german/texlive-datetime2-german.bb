@@ -18,7 +18,7 @@ tex-datetime2-german-base.ldf \
 tex-datetime2-german.ldf \
 texlive-datetime2-german"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

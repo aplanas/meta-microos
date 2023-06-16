@@ -13,8 +13,8 @@ raspberrypi-eeprom \
 rpi-eeprom \
 rpi-eeprom-config"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 pciutils \
 raspberrypi-eeprom-firmware \
 raspberrypi-firmware \

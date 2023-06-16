@@ -11,8 +11,8 @@ RPM_HASH = "9846cb67555758a6ec2cee82ad8f6efd2237bc94a0c95b3bbe9a96ee6d0601e76613
 RPROVIDES:${PN} += "config-e2fsprogs-scrub \
 e2fsprogs-scrub"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 e2fsprogs \
 lvm2 \
 postfix \

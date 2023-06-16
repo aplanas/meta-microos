@@ -51,7 +51,7 @@ tex-tsize11.clo \
 tex-tsize12.clo \
 texlive-platex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

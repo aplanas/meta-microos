@@ -13,8 +13,8 @@ RPM_HASH = "50c1cdf181d84abdf226fa097966840c89ca872b1a3cbb8e8c1a4dc1dc0b54af1ebf
 
 RPROVIDES:${PN} += "mjpegtools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \

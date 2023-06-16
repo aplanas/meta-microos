@@ -13,8 +13,8 @@ python3.10dist-yaswfp \
 python310-yaswfp \
 python3dist-yaswfp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

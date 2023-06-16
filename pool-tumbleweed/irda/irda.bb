@@ -27,8 +27,8 @@ RPM_HASH = "a8232c22973f46f4a9867209b49d11e3dee1db404466ac13308d95e238a3fdbb3486
 
 RPROVIDES:${PN} += "irda"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

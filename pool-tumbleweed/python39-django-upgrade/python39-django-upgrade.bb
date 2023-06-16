@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-django-upgrade \
 python39-django-upgrade \
 python3dist-django-upgrade"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-tokenize-rt \
 update-alternatives"

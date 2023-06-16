@@ -21,7 +21,7 @@ tex-zhsusefulmacros.sty \
 tex-zhulem.sty \
 texlive-zhspacing"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

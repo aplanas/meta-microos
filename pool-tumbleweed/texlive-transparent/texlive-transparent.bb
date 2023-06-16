@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-transparent-nometadata.sty \
 tex-transparent.sty \
 texlive-transparent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

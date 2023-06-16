@@ -14,8 +14,8 @@ RPM_HASH = "1060920e482b2dd9cda719f2e00870d33c2d6805ff66852a54c008a1740ae9364f1c
 RPROVIDES:${PN} += "gloox-devel \
 pkgconfig-gloox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libgloox18 \
 libstdc++-devel"
 

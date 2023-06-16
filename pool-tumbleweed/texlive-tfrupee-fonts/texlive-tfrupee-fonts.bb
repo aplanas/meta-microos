@@ -180,7 +180,7 @@ font--lang=zu \
 font-rupeetechfat \
 texlive-tfrupee-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

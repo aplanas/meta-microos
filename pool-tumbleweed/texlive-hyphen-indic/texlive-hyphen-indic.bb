@@ -36,7 +36,7 @@ tex-loadhyph-ta.tex \
 tex-loadhyph-te.tex \
 texlive-hyphen-indic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

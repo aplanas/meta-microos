@@ -17,7 +17,7 @@ font-stixintegralsupd \
 font-stixintegralsupsm \
 stix-integrals-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl \

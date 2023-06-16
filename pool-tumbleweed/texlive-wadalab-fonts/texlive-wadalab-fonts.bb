@@ -22,7 +22,7 @@ font-mr \
 font-mr2 \
 texlive-wadalab-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

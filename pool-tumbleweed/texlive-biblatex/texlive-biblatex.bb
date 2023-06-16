@@ -155,7 +155,7 @@ tex-verbose.bbx \
 tex-verbose.cbx \
 texlive-biblatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

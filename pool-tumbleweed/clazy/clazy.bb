@@ -11,7 +11,7 @@ RPM_HASH = "e0747c7d746508b89f8d6b8809ff17a73853ea3e47af0d86329e2497e2253c6978fa
 
 RPROVIDES:${PN} += "clazy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 clang16 \
 ld-linux-aarch64.so.1 \
 libLLVM.so.16 \

@@ -18,7 +18,7 @@ tex-datetime2-irish-utf8.ldf \
 tex-datetime2-irish.ldf \
 texlive-datetime2-irish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

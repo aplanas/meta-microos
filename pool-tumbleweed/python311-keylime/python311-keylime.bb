@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-keylime \
 python311-keylime \
 python3dist-keylime"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 libtss2-tcti-device0 \
 libtss2-tcti-tabrmd0 \
 procps \

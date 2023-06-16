@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-gitinfo.sty \
 tex-gitsetinfo.sty \
 texlive-gitinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

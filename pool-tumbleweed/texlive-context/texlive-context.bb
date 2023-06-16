@@ -160,7 +160,7 @@ tex-welcome-to-context.tex \
 tex-zapf.tex \
 texlive-context"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

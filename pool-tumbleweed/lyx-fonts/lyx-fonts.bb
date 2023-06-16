@@ -92,6 +92,6 @@ font-stmary10 \
 font-wasy10 \
 lyx-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

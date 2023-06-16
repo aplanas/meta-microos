@@ -14,7 +14,7 @@ RPM_HASH = "7f7b8f65235eea2e76401d0486debde310f2b1f11f6674fe6a181219dff38340e41e
 
 RPROVIDES:${PN} += "dt"
 
-RDEPENDS:${PN} += "/bin/csh \
+RDEPENDS:${PN} += "/usr/bin/csh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libuuid.so.1"

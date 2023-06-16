@@ -19,8 +19,8 @@ RPM_HASH = "0c74df6244dd34aa62eeed117d63e23a85f5954e1bc2da5b68e1e33b96c333a2ff9c
 RPROVIDES:${PN} += "config-policycoreutils \
 policycoreutils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 gawk \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \

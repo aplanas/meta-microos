@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-ev"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 pagure \
 python3-Trololio \
 systemd"

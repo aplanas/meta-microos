@@ -25,8 +25,8 @@ libuim-xkb.so \
 libuim.so.8 \
 uim"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 /usr/bin/touch \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

@@ -15,10 +15,10 @@ RPM_HASH = "68f6ef1d7d102dbc348846e70b65e15ffd81f210c0983ccced6b47346fa7290ffcf5
 RPROVIDES:${PN} += "config-tgt \
 tgt"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 libaio.so.1 \

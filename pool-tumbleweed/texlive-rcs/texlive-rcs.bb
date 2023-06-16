@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-rcs.sty \
 texlive-rcs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

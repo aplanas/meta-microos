@@ -15,8 +15,8 @@ python3.10dist-esptool \
 python310-esptool \
 python3dist-esptool"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-ecdsa \
 python310-pyaes \

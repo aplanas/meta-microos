@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "kdesdk-scripts-kf5-porting \
 kdesdk4-scripts-kf5-porting \
 perl-functionUtilkde"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

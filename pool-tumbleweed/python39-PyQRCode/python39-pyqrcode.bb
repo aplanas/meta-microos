@@ -16,8 +16,8 @@ python39-PyQRCodeNG \
 python39-pyqrcodeng \
 python3dist-pyqrcodeng"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

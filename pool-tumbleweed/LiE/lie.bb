@@ -10,7 +10,7 @@ RPM_HASH = "c24c57ddf7567c5825706a01fdce63931d0c66616df73b15fafc3be258ba31d67efd
 
 RPROVIDES:${PN} += "LiE"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libc.so.6 \
 libreadline.so.8"
 

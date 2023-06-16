@@ -17,7 +17,7 @@ RPM_HASH = "cf81b1f507513e9baaf44b4d3fd5f185ab79a61cfd44bbc24e59bdafe540afd9ccfd
 
 RPROVIDES:${PN} += "pnetcdf-1-12-3-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpnetcdf-1-12-3-gnu-openmpi4-hpc"

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-ini2toml \
 python39-ini2toml \
 python3dist-ini2toml"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-packaging \
 update-alternatives"

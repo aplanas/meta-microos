@@ -44,7 +44,7 @@ tex-mdsymbol.map \
 tex-mdsymbol.sty \
 texlive-mdsymbol"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-texlive-svrsymbols-fonts \
 font-svrsymbols \
 texlive-svrsymbols-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

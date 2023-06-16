@@ -20,7 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apparmor-abstractions \
 config-apparmor-abstractions"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apparmor-parser-CAP-SYSLOG"
 
 inherit rpm

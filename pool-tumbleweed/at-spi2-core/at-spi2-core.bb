@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "at-spi2-atk-gtk2 \
 at-spi2-core \
 libatk-bridge.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXtst.so.6 \

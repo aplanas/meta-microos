@@ -14,7 +14,7 @@ pothana2000 \
 pothana2000-fonts \
 scalable-font-te"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

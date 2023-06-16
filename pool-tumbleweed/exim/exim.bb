@@ -17,9 +17,9 @@ RPROVIDES:${PN} += "config-exim \
 exim \
 smtp-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fileutils \
 fillup \

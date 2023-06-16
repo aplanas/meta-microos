@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.9dist-alembic \
 python39-alembic \
 python3dist-alembic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Mako \
 python39-SQLAlchemy \

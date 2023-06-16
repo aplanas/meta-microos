@@ -13,9 +13,9 @@ python3.10dist-shaptools \
 python310-shaptools \
 python3dist-shaptools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

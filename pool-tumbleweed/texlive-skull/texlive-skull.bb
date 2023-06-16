@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-skull.sty \
 tex-skull.tfm \
 texlive-skull"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

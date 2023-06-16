@@ -25,7 +25,7 @@ tex-pgflibraryhan.code.tex \
 tex-pgfornament-han.sty \
 texlive-pgfornament-han"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

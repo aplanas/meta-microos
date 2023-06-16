@@ -18,8 +18,7 @@ RPROVIDES:${PN} += "ansible-builder \
 python3.10dist-ansible-builder \
 python3dist-ansible-builder"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
 python-abi \
 python3-PyYAML \

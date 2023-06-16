@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "cryptsetup \
 integritysetup \
 veritysetup"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \

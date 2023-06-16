@@ -16,8 +16,8 @@ RPM_HASH = "dfa2b6b21efe8841c4191ce9dc1e0687c9787bff6326d7f925eebf8ff983a98bfaf0
 RPROVIDES:${PN} += "config-libguestfs \
 libguestfs"
 
-RDEPENDS:${PN} += "/bin/bash \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libconfig.so.11 \

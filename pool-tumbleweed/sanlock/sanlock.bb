@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "config-sanlock \
 python2-sanlock \
 sanlock"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-disk \

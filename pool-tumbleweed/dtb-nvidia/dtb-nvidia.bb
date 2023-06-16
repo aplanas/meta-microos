@@ -10,7 +10,7 @@ RPM_HASH = "bcac50607bffd5351a381d25d827a2d1a989b5b5236547c163b7ae4024026cf58deb
 RPROVIDES:${PN} += "dtb-nvidia \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

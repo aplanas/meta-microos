@@ -14,7 +14,7 @@ RPM_HASH = "5f025798cddc5cbc1d546fd1e92e48d1fe558d7ee7bb65b2d56c2c03388563eb3643
 
 RPROVIDES:${PN} += "luckybackup"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

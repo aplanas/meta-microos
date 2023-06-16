@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-confusable-homoglyphs \
 python311-confusable-homoglyphs \
 python3dist-confusable-homoglyphs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click \
 update-alternatives"

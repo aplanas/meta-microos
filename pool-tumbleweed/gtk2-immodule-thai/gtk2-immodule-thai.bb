@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "gtk2-immodule-thai \
 locale-gtk2-lo \
 locale-gtk2-th"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-tools \
 libc.so.6 \

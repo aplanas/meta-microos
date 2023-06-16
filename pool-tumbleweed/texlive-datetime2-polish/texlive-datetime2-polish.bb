@@ -16,7 +16,7 @@ tex-datetime2-polish-utf8.ldf \
 tex-datetime2-polish.ldf \
 texlive-datetime2-polish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

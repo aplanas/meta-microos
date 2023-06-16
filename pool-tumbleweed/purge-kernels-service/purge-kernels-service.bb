@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "dracut-/usr/lib/systemd/system/purge-kernels.service \
 purge-kernels-service"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 zypper-purge-kernels"
 
 inherit rpm

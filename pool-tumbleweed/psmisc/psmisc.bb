@@ -12,7 +12,7 @@ PV = "23.6"
 RPM_NAME = "psmisc-23.6-3.3.aarch64.rpm"
 RPM_HASH = "e196cc3c456c21a572f78e40c2a39b56dca386e3c1e85343f3ea9c1e0d458208d08359f8631278a5e25779ed962da06c1660d0198780257d07cd493076264237"
 
-RPROVIDES:${PN} += "/bin/fuser \
+RPROVIDES:${PN} += "/usr/bin/fuser \
 ps-/usr/bin/killall \
 psmisc"
 

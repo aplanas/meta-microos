@@ -11,8 +11,8 @@ RPM_HASH = "7b012388267d52c6b0b9cd03d4c5a3ebc0a9d9d2923ea0cf38208c358583cc924ab2
 RPROVIDES:${PN} += "aaa-base-/etc/DIR-COLORS \
 aaa-base-extras"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/find \
+RDEPENDS:${PN} += "/usr/bin/find \
+/usr/bin/sh \
 aaa-base \
 cpio \
 fillup"

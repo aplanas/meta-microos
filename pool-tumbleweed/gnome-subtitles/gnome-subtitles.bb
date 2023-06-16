@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "gnome-subtitles \
 libgst-backend.so \
 mono-gnome-subtitles"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 gstreamer-plugins-base \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

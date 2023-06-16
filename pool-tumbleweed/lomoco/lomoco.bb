@@ -18,9 +18,9 @@ RPM_HASH = "656725ad899451f309aaa1a9222a0e42f775d341fbc73a691f611d1c07fb840c9cfb
 RPROVIDES:${PN} += "lmctl-/usr/bin/lmctl \
 lomoco"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

@@ -23,7 +23,7 @@ RPM_HASH = "23f692f59c73d35fbb873880f5712acc1b002664394ebb85101f63e6500c6c76a431
 RPROVIDES:${PN} += "config-osmo-trx-lms \
 osmo-trx-lms"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libLimeSuite.so.22.09-1 \
 libc.so.6 \

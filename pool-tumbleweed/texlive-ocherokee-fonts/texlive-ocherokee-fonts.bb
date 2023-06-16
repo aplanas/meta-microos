@@ -33,7 +33,7 @@ font--lang=zu \
 font-cherokee \
 texlive-ocherokee-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

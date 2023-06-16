@@ -14,7 +14,7 @@ RPM_HASH = "3b8bafd5b84d8b42753885be5a084b03673518b3c8be86dc9ea1f48a657da92eceaf
 RPROVIDES:${PN} += "gdk-pixbuf-loader-rsvg \
 libpixbufloader-svg.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gdk-pixbuf-query-loaders \
 libgdk-pixbuf-2.0.so.0 \
 libglib-2.0.so.0 \

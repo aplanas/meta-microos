@@ -14,8 +14,8 @@ python39-jupyter-qtconsole \
 python39-qtconsole \
 python3dist-qtconsole"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39-Pygments \

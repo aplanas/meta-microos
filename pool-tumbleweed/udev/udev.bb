@@ -18,8 +18,8 @@ libcryptsetup-token-systemd-tpm2.so \
 pkgconfig-udev \
 udev"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 coreutils \
 filesystem \
 group-kvm \

@@ -14,7 +14,7 @@ RPM_HASH = "28360939d267074493ffdb995a75b71e6c8b449ae2d784e63c30056601d70bba445b
 RPROVIDES:${PN} += "config-samplicator \
 samplicator"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

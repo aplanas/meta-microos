@@ -45,11 +45,11 @@ rpm-macro-yast-yncludedir \
 rpm-macro-yast-ystartupdir \
 yast2-buildtools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/perl \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 autoconf \
 automake \
 gettext-tools \

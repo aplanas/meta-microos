@@ -9,7 +9,7 @@ RPM_HASH = "ce56908fffb632d2709cde43a5cf05e30c430363d98a220cf7038822243c58ef48a7
 
 RPROVIDES:${PN} += "tar-tests"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 tar"

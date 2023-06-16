@@ -24,7 +24,7 @@ tex-mathsemantics-syntax.sty \
 tex-mathsemantics.sty \
 texlive-mathsemantics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

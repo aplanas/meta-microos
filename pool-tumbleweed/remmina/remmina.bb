@@ -14,8 +14,7 @@ RPM_HASH = "d6e71b57c91ec84a25c6a2894e1c23bbc924d9b02741d8ca17a5d18f8b56661690b1
 RPROVIDES:${PN} += "remmina \
 remmina-plugins-common"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libappindicator3.so.1 \
 libavahi-client.so.3 \

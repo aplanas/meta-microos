@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "compton \
 config-picom \
 picom"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGL.so.1 \

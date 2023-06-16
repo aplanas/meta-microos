@@ -9,6 +9,6 @@ RPM_HASH = "dd3d8af7d85689ff0734620d3330fee35abdb8ffbd5baf8635136c00e3affaad764d
 
 RPROVIDES:${PN} += "qt6-quick3dphysics-docs-qch"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

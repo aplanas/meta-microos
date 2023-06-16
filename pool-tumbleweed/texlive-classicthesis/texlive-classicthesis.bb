@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-classicthesis-arsclassica.sty \
 tex-classicthesis.sty \
 texlive-classicthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

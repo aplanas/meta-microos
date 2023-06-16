@@ -12,8 +12,8 @@ RPM_HASH = "abc7a8b9c233c7c5cacebaaefe41809948c99180a44170bc43b1c93796363ab79b45
 RPROVIDES:${PN} += "config-timidity \
 timidity"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

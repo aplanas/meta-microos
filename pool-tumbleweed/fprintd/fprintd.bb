@@ -11,7 +11,7 @@ RPM_HASH = "7a99c84b35f75c4046df1dcb848f1b3fb21a3e23e0c727926e690d9fbe6703807afa
 RPROVIDES:${PN} += "config-fprintd \
 fprintd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfprint-2.so.2 \

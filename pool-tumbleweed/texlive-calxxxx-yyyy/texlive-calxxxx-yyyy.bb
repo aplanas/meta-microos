@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-calxxxx-yyyy-doc.tex \
 tex-calxxxx-yyyy.tex \
 texlive-calxxxx-yyyy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

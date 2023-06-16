@@ -19,7 +19,7 @@ tex-lettrine.cfg \
 tex-lettrine.sty \
 texlive-lettrine"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

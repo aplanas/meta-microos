@@ -15,8 +15,8 @@ firmware-liquidio/lio-23xx-nic.bin \
 firmware-liquidio/lio-410nv-nic.bin \
 kernel-firmware-liquidio"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

@@ -18,8 +18,8 @@ python310-glue \
 python310-lscsoft-glue \
 python3dist-lscsoft-glue"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 lscsoft-glue-data \

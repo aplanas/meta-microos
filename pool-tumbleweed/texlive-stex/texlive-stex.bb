@@ -44,7 +44,7 @@ tex-stexthm.sty \
 tex-tikzinput.sty \
 texlive-stex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

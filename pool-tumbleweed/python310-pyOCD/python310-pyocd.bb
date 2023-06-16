@@ -15,8 +15,8 @@ python310-pyOCD \
 python310-pyocd \
 python3dist-pyocd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-usb \
 update-alternatives"

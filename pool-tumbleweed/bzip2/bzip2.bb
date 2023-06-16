@@ -10,7 +10,7 @@ RPM_HASH = "7c0b1466e4a1553cf3f408424c8668486c29c1763dd152d0c6b2f0724ced5b9a6444
 RPROVIDES:${PN} += "bzip \
 bzip2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2-1 \
 libbz2.so.1 \

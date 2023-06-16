@@ -19,7 +19,7 @@ tex-cryptocode-2020-04-24.sty \
 tex-cryptocode.sty \
 texlive-cryptocode"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

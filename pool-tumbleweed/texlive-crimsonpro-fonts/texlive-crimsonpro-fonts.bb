@@ -141,7 +141,7 @@ font-crimsonpromedium \
 font-crimsonprosemibold \
 texlive-crimsonpro-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

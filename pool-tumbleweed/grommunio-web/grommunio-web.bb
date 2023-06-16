@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-grommunio-web \
 grommunio-web"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 gromox \
 mapi-header-php \
 php8-bcmath \

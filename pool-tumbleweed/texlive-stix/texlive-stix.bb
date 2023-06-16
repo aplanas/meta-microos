@@ -88,7 +88,7 @@ tex-ts1-stixgeneral.tfm \
 tex-ts1stix.fd \
 texlive-stix"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

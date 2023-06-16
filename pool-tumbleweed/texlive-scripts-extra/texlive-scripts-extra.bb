@@ -16,8 +16,8 @@ texlive-texconfig-/usr/share/texmf/texconfig/README \
 texlive-texconfig-/usr/share/texmf/texconfig/tcfmgr \
 texlive-texconfig-/usr/share/texmf/texconfig/tcfmgr.map"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

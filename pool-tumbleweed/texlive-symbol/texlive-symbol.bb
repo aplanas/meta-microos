@@ -24,7 +24,7 @@ tex-usyr.tfm \
 tex-uusy.fd \
 texlive-symbol"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

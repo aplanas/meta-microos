@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "adobe-sourcehanserif-cn-fonts \
 locale-zh-CN \
 scalable-font-zh-CN"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

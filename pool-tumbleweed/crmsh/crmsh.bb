@@ -16,9 +16,9 @@ crmsh \
 python3.10dist-crmsh \
 python3dist-crmsh"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 /usr/bin/which \
 crmsh-scripts \
 csync2 \

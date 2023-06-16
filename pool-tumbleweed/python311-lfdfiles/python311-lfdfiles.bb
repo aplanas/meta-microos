@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-lfdfiles \
 python311-lfdfiles \
 python3dist-lfdfiles"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgomp.so.1 \

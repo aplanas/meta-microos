@@ -14,8 +14,8 @@ python310-py7zr \
 python3dist-py7zr"
 
 RDEPENDS:${PN} += "-python310-pyppmd >= 0.18.1 with python310-pyppmd < 1.1.0 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Brotli \
 python310-inflate64 \

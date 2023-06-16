@@ -55,7 +55,7 @@ tex-ryumin-l-v.tfm \
 tex-ryumin-l.tfm \
 texlive-morisawa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

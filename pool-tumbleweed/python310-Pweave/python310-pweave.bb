@@ -21,8 +21,8 @@ python3.10dist-pweave \
 python310-Pweave \
 python3dist-pweave"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Markdown \
 python310-Pygments \

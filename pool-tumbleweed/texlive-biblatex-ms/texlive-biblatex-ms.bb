@@ -139,7 +139,7 @@ tex-verbose-trad3-ms.bbx \
 tex-verbose-trad3-ms.cbx \
 texlive-biblatex-ms"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

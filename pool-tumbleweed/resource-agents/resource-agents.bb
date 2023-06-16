@@ -16,11 +16,11 @@ pkgconfig-resource-agents \
 resource-agents \
 resource-agents-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/logger \
 /usr/bin/pkg-config \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libplumb.so.2"

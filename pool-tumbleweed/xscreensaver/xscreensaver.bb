@@ -162,8 +162,8 @@ xscreensaver \
 xscreensaver-gnome \
 xscrns"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/unix2-chkpwd \
+RDEPENDS:${PN} += "/sbin/unix2-chkpwd \
+/usr/bin/sh \
 desktop-data \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \

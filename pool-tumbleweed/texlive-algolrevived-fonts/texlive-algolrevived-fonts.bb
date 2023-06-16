@@ -247,7 +247,7 @@ font--lang=zu \
 font-algolrevived \
 texlive-algolrevived-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

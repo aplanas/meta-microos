@@ -18,7 +18,7 @@ tex-snfont.tfm \
 tex-xepsf.tex \
 texlive-knuth-local"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

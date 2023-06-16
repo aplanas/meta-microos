@@ -35,7 +35,7 @@ tex-uifsym.fd \
 tex-uifwea.fd \
 texlive-ifsym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

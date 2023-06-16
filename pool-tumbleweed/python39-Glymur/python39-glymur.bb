@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-glymur \
 python39-Glymur \
 python3dist-glymur"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-lxml \
 python39-numpy \

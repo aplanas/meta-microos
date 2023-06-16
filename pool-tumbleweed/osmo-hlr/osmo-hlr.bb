@@ -18,7 +18,7 @@ RPM_HASH = "60af5b514ce6b2f866d285a69c32a6d493edc04a22cb2f0cabe7525693372890248a
 RPROVIDES:${PN} += "config-osmo-hlr \
 osmo-hlr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbi-drivers-dbd-sqlite3 \

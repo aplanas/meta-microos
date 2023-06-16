@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-contracard.cls \
 tex-contracard.sty \
 texlive-contracard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

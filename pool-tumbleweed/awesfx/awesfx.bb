@@ -10,7 +10,7 @@ RPM_HASH = "c20322a52d762ce0330c0e98e862bc2ea2914242b95419ae7a2e8120123bf22b1064
 
 RPROVIDES:${PN} += "awesfx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

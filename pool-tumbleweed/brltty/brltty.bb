@@ -60,9 +60,9 @@ libbrlttysxs.so \
 libbrlttyxlx.so \
 libbrlttyxsc.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libbluetooth.so.3 \

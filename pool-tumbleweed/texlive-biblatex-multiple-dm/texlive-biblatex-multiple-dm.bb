@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-biblatex-multiple-dm.sty \
 tex-multiple-dm.bbx \
 texlive-biblatex-multiple-dm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -23,7 +23,7 @@ tex-lgrlmss.fd \
 tex-lgrlmtt.fd \
 texlive-cbfonts-fd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

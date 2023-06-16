@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-systemd-coredump \
 systemd-/usr/bin/coredumpctl \
 systemd-coredump"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblz4.so.1 \

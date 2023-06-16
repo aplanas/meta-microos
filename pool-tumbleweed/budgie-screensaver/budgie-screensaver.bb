@@ -9,7 +9,7 @@ RPM_HASH = "1cc0e45efd7f06d1ae37723786caaba2bad285865151bac49d0d2cf496cc814412f4
 
 RPROVIDES:${PN} += "budgie-screensaver"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXxf86vm.so.1 \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-srcinfo \
 python39-srcinfo \
 python3dist-srcinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-parse \
 update-alternatives"

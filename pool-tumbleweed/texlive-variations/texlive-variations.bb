@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-variations.sty \
 tex-variations.tex \
 texlive-variations"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,7 +16,7 @@ tex-orhant20.tfm \
 tex-orhant25.tfm \
 texlive-orkhun"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

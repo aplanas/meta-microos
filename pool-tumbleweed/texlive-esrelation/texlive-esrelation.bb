@@ -30,7 +30,7 @@ tex-esrelation10.tfm \
 tex-uesrelation.fd \
 texlive-esrelation"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

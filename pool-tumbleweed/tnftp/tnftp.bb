@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "lukemftp \
 nkitb-/usr/bin/ftp \
 tnftp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

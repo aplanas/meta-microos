@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-pst-bspline.sty \
 tex-pst-bspline.tex \
 texlive-pst-bspline"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

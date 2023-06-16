@@ -22,7 +22,7 @@ tex-okumacro.sty \
 tex-okuverb.sty \
 texlive-jsclasses"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

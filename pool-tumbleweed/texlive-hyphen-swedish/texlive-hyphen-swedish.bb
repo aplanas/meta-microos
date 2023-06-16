@@ -13,7 +13,7 @@ tex-hyph-sv.tex \
 tex-loadhyph-sv.tex \
 texlive-hyphen-swedish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

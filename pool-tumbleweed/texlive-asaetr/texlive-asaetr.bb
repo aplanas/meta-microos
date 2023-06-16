@@ -16,7 +16,7 @@ tex-asaetr.cls \
 tex-asaetr.sty \
 texlive-asaetr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

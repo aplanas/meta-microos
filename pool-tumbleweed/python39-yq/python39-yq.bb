@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-yq \
 python39-yq \
 python3dist-yq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 jq \
 python-abi \
 python39-PyYAML \

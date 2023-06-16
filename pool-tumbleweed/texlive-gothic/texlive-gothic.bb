@@ -24,7 +24,7 @@ tex-ysmfrak.tfm \
 tex-yswab.tfm \
 texlive-gothic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

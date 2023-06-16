@@ -88,7 +88,7 @@ font--lang=zu \
 font-librisadfstd \
 texlive-libris-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

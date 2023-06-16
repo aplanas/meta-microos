@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-seqdiag \
 python39-seqdiag \
 python3dist-seqdiag"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-blockdiag \
 python39-setuptools \

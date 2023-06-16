@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font--lang=el \
 font-frederika2016 \
 texlive-frederika2016-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

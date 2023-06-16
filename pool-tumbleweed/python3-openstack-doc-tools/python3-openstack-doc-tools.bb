@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "python3-openstack-doc-tools \
 python3.10dist-openstack-doc-tools \
 python3dist-openstack-doc-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 python-abi \
 python3-PyYAML \
 python3-Sphinx \

@@ -89,7 +89,7 @@ font--lang=zu \
 font-courier10pitch \
 texlive-courierten-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

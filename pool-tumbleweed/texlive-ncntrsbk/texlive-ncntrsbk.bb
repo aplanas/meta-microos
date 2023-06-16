@@ -142,7 +142,7 @@ tex-uncro8t.tfm \
 tex-uncro8t.vf \
 texlive-ncntrsbk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

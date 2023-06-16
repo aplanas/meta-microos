@@ -18,8 +18,8 @@ RPM_HASH = "ebfa9f9c90978371624dbe0a65ace2d97426c223701206398de58ad987791cfe1188
 
 RPROVIDES:${PN} += "mined"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libtinfo.so.6"

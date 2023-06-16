@@ -14,7 +14,7 @@ RPM_HASH = "5f89a5ea6b85dda729f38122d6a449d52b38d5ca645a42ad19e28ddc89bc2fadb39c
 
 RPROVIDES:${PN} += "appimaged"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libarchive.so.13 \
 libc.so.6 \
 libcairo.so.2 \

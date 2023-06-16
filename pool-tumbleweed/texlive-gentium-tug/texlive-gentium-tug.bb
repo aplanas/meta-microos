@@ -289,7 +289,7 @@ tex-x2gentium.fd \
 tex-x2gentiumbook.fd \
 texlive-gentium-tug"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

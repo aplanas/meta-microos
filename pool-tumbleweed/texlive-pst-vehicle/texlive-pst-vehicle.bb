@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-vehicle.sty \
 tex-pst-vehicle.tex \
 texlive-pst-vehicle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

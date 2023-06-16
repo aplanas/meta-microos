@@ -13,8 +13,8 @@ python3.10dist-xerox \
 python310-xerox \
 python3dist-xerox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives \
 xclip"

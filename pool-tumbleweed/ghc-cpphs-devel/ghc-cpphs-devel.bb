@@ -10,7 +10,7 @@ RPM_HASH = "ee73be9d3d27d56930c2c444c2920bae3b56ddcc36a4b7e336a91a2c11788f062719
 RPROVIDES:${PN} += "ghc-cpphs-devel \
 ghc-devel-cpphs-1.20.9.1-FT5N79IhkR98KU1k959mgj"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cpphs \
 ghc-devel-base-4.17.1.0 \

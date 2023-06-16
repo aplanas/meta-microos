@@ -13,8 +13,8 @@ python3.10dist-duckduckgo2 \
 python310-duckduckgo2 \
 python3dist-duckduckgo2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

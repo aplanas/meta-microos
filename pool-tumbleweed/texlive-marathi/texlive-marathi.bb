@@ -25,7 +25,7 @@ tex-namuna-para.tex \
 tex-namuna-report.tex \
 texlive-marathi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,7 +19,7 @@ RPM_HASH = "e10ce87a63bb6b4d82cf0f1a95b9616559450d5642af4a15c9d82cb4678a398e1c0d
 
 RPROVIDES:${PN} += "sxiv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 hicolor-icon-theme \
 imlib2-loaders \

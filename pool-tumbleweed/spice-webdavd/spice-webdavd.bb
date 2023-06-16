@@ -10,7 +10,7 @@ RPM_HASH = "f26b2605a5a806c8d9f9b8bd86ff5051be39f07f9b5befa3fffb8344f70c62e8fcd8
 
 RPROVIDES:${PN} += "spice-webdavd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libavahi-gobject.so.0 \
 libc.so.6 \

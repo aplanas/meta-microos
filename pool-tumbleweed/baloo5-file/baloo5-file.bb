@@ -11,7 +11,7 @@ RPM_HASH = "d9cb3be490e621df22656e4ddfbf53f9fcdf9e3d3370cc286d67894d71e30a9a2509
 RPROVIDES:${PN} += "baloo-file \
 baloo5-file"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Baloo.so.5 \
 libKF5BalooEngine.so.5 \

@@ -10,7 +10,7 @@ RPM_HASH = "38b12a631f4a1bbd86385e976b138298b6415ef93769bcad4b43265c33148f207b9e
 RPROVIDES:${PN} += "cross-epiphany-gcc13 \
 epiphany-elf-gcc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-epiphany-binutils \
 libstdc++6-devel-gcc13 \
 update-alternatives"

@@ -16,7 +16,7 @@ tex-datetime2-magyar-utf8.ldf \
 tex-datetime2-magyar.ldf \
 texlive-datetime2-magyar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

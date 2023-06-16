@@ -10,6 +10,6 @@ RPM_HASH = "df8fffb0624321609292d1efa7860a6f5c158cb54d72adf10897873644dec09c6115
 
 RPROVIDES:${PN} += "obs-service-cdi-containers-meta"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

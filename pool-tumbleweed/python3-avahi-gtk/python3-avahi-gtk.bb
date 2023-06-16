@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python-avahi-/usr/bin/avahi-discover \
 python-avahi-gtk \
 python3-avahi-gtk"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 coreutils \
 python3-avahi \
 python3-gobject \

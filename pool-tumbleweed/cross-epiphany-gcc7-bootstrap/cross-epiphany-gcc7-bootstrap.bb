@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "cross-epiphany-gcc7-bootstrap \
 epiphany-elf-gcc \
 liblto-plugin.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-epiphany-binutils \
 libc.so.6 \
 libgmp.so.10 \

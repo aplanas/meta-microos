@@ -21,7 +21,7 @@ tex-hu-berlin-bundle-style.sty \
 tex-hu-berlin-letter.cls \
 texlive-hu-berlin-bundle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -27,8 +27,8 @@ python39-python-lsp-server \
 python3dist-python-lsp-server"
 
 RDEPENDS:${PN} += "-python39-jedi >= 0.17.2 with python39-jedi < 0.19.0 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-docstring-to-markdown \
 python39-pluggy \

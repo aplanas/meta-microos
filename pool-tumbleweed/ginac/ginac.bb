@@ -10,7 +10,7 @@ RPM_HASH = "6ad94c2292489d889e32c572fe86f967c1403e382e28db06449356cf69821f89de8b
 
 RPROVIDES:${PN} += "ginac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcln.so.6 \

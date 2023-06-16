@@ -721,7 +721,7 @@ tex-raleway-type1-autoinst.sty \
 tex-raleway.sty \
 texlive-raleway"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

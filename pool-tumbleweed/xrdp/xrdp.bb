@@ -18,8 +18,8 @@ libxrdpapi.so.0 \
 libxup.so \
 xrdp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXfixes.so.3 \

@@ -15,7 +15,7 @@ RPM_HASH = "eeffcc1bfedffce12c4a6d35e41528c5f637721e519ab6936d75b20c8a2f7541c614
 RPROVIDES:${PN} += "netcdf-fortran-4-5-3-gnu-openmpi2-hpc \
 netcdf-fortran-4-5-3-gnu-openmpi2-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

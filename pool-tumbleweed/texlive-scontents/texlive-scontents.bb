@@ -16,7 +16,7 @@ tex-scontents.sty \
 tex-scontents.tex \
 texlive-scontents"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

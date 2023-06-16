@@ -20,7 +20,7 @@ RPM_HASH = "a1c16caaefb51631493ab145aa9f0c02a9553135ea8a9f6036c2b581a3a074729d31
 
 RPROVIDES:${PN} += "hwloc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

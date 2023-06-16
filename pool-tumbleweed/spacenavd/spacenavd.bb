@@ -13,7 +13,7 @@ RPM_HASH = "d59d4f09bd7e35bbb401b6f53dd07a68ba0921f6bdd20e281225d23e1cf140c7e561
 RPROVIDES:${PN} += "config-spacenavd \
 spacenavd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

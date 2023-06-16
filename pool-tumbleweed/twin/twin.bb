@@ -24,8 +24,8 @@ libterm-0.9.1.so \
 libwm-0.9.1.so \
 twin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/true \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/true \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXft.so.2 \

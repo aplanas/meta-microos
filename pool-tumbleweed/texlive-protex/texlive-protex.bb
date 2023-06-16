@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-AlProTex.sty \
 tex-ProTex.sty \
 texlive-protex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

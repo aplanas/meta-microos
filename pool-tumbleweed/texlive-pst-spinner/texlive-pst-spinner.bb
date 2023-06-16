@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-pst-spinner.sty \
 tex-pst-spinner.tex \
 texlive-pst-spinner"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

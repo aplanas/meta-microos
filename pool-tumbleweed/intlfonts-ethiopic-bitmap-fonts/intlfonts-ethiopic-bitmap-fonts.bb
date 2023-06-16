@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "ifntethi \
 intlfonts-ethiopic-bitmap-fonts \
 locale-xorg-x11-am"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

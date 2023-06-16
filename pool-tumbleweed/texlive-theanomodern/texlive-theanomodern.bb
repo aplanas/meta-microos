@@ -74,7 +74,7 @@ tex-thedid-xgfkyc.enc \
 tex-thedid-zj2gif.enc \
 texlive-theanomodern"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

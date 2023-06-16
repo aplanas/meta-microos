@@ -18,7 +18,7 @@ tex-fgeit10.tfm \
 tex-fgerm10.tfm \
 texlive-fge"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

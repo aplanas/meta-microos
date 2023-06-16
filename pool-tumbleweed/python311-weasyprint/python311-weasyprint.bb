@@ -18,8 +18,8 @@ python311-WeasyPrint \
 python311-weasyprint \
 python3dist-weasyprint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 libgobject-2-0-0 \
 pango \
 python-abi \

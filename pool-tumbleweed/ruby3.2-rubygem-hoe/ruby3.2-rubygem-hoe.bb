@@ -21,8 +21,8 @@ rubygem-ruby-3.2.0-hoe-3 \
 rubygem-ruby-3.2.0-hoe-3.26 \
 rubygem-ruby-3.2.0-hoe-3.26.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-rake \
 update-alternatives"

@@ -14,7 +14,7 @@ libreoffice-l10n-gu \
 libreoffice-l10n-gu-IN \
 locale-libreoffice-gu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker \
 myspell-gu-IN"

@@ -599,7 +599,7 @@ tex-zncmia.tfm \
 tex-zncmia.vf \
 texlive-scholax"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-html-dtd \
 html-dtd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sgml-register-catalog"
+RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
+/usr/bin/sh"
 
 inherit rpm

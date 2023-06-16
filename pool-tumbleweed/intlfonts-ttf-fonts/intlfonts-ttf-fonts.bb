@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-intlfonts-ttf-fonts \
 intlfonts-ttf \
 intlfonts-ttf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

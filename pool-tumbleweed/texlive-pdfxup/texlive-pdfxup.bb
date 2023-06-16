@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-pdfxup-template.tex \
 texlive-pdfxup"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

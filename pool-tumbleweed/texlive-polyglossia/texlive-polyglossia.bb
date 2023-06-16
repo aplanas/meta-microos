@@ -270,7 +270,7 @@ tex-xgreek-fixes.def \
 tex-xpg-cyrillicnumbers.sty \
 texlive-polyglossia"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

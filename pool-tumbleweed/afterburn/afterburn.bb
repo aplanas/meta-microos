@@ -9,7 +9,7 @@ RPM_HASH = "38ede3cfab66dd7bb0cc0b430ce47ebe017b8eb958c6cf5d7f42225fea6515454e73
 
 RPROVIDES:${PN} += "afterburn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \

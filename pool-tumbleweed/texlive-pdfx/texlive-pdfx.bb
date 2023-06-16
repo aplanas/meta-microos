@@ -29,7 +29,7 @@ tex-pdfx.sty \
 tex-text89.def \
 texlive-pdfx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

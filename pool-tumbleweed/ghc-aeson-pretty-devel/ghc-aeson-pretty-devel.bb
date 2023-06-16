@@ -10,7 +10,7 @@ RPM_HASH = "56cae3e3359674b5eeb9c0632b3c3a7b8a98daf8ea1352452c00a1aee9100475c6f0
 RPROVIDES:${PN} += "ghc-aeson-pretty-devel \
 ghc-devel-aeson-pretty-0.8.9-LUjG36DF6cc5sU1N5Uw0pr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-aeson-pretty \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

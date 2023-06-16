@@ -18,9 +18,9 @@ http-daemon \
 httpd \
 suse-maintenance-mmn-0"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/etc/mime.types \
+RDEPENDS:${PN} += "/etc/mime.types \
+/usr/bin/bash \
+/usr/bin/sh \
 apache2-MPM \
 group-www \
 ld-linux-aarch64.so.1 \

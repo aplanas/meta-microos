@@ -18,7 +18,7 @@ RPM_HASH = "f1adbfdb5bd43481686c90bbfebac0741196f1daa0b12326dd0902cc60c9c5db105b
 RPROVIDES:${PN} += "config-velociraptor \
 velociraptor"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-velociraptor \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

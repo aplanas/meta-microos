@@ -14,10 +14,9 @@ groff-full \
 jgroff \
 normal-groff"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ghostscript-library \
 groff \
 ld-linux-aarch64.so.1 \

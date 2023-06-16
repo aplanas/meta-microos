@@ -20,10 +20,10 @@ RPM_HASH = "e77a133a127dcba65a940dff7bf4f7a15da9d063e3215c34182eb99442bd0a92f854
 RPROVIDES:${PN} += "config-vpnc \
 vpnc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ip \
+RDEPENDS:${PN} += "/sbin/ip \
 /usr/bin/perl \
 /usr/bin/sed \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \

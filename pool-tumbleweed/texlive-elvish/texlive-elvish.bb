@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-cirth.tfm \
 tex-teng10.tfm \
 texlive-elvish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

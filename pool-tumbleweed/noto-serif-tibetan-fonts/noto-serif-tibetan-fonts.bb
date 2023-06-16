@@ -15,7 +15,7 @@ noto-sans-tibetan-fonts \
 noto-serif-tibetan \
 noto-serif-tibetan-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

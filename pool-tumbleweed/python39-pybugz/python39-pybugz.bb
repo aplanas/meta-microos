@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.9dist-pybugz \
 python39-pybugz \
 python3dist-pybugz"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

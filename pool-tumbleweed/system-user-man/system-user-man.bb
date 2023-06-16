@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "group-man \
 system-user-man \
 user-man"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

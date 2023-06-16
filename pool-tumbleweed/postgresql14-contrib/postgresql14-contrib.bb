@@ -20,7 +20,7 @@ RPM_HASH = "523b2aff4c8bd6a8e6acd0c8103cf1850e87b29ef82e68f70be03e29c76d81e721f8
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql14-contrib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

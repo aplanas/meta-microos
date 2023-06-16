@@ -176,7 +176,7 @@ font-carlito \
 font-crlt \
 texlive-carlito-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

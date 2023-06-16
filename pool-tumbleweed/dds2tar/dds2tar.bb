@@ -10,8 +10,8 @@ RPM_HASH = "dd1b8bc1f4daffcec5a14a995c7d5b827906ace7e08d0cbf0cf08ac455ab1c176fe5
 
 RPROVIDES:${PN} += "dds2tar"
 
-RDEPENDS:${PN} += "/bin/csh \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/csh \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

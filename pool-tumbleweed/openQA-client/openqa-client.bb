@@ -15,7 +15,7 @@ perl-OpenQA--Client--Handler \
 perl-OpenQA--Client--Upload \
 perl-OpenQA--UserAgent"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 curl \
 git-core \

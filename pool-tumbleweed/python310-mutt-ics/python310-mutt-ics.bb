@@ -14,8 +14,8 @@ python3.10dist-mutt-ics \
 python310-mutt-ics \
 python3dist-mutt-ics"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-icalendar \
 python310-setuptools \

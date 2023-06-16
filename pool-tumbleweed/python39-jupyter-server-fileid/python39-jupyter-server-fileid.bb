@@ -13,8 +13,8 @@ python39-jupyter-server-fileid \
 python3dist-jupyter-server-fileid"
 
 RDEPENDS:${PN} += "-python39-jupyter-server >= 1.15 with python39-jupyter-server < 3 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 jupyter-server-fileid \
 python-abi \

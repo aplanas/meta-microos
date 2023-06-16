@@ -16,9 +16,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-lynis \
 lynis"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 bash \
 cron \

@@ -19,7 +19,7 @@ tex-linearA.map \
 tex-linearA.sty \
 texlive-lineara"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

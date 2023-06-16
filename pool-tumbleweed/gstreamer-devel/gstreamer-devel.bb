@@ -15,7 +15,7 @@ pkgconfig-gstreamer-check-1.0 \
 pkgconfig-gstreamer-controller-1.0 \
 pkgconfig-gstreamer-net-1.0"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 /usr/bin/python3 \
 gstreamer \

@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.9dist-argparse-manpage \
 python39-argparse-manpage \
 python3dist-argparse-manpage"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-setuptools \
 update-alternatives"

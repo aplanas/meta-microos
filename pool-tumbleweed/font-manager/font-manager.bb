@@ -15,7 +15,7 @@ RPM_HASH = "805f45efccdd0a5da92321c4a2f5a9dc98ae20ac2f39e8ddc0c4a4fa092f0d273a60
 
 RPROVIDES:${PN} += "font-manager"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 font-manager-common \
 font-viewer \
 fontconfig \

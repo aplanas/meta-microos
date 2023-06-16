@@ -10,7 +10,7 @@ RPM_HASH = "a1cef37ce8f5918c2192f751dc88167fd8ecd86a205f9580ac676d3105802ba7c968
 
 RPROVIDES:${PN} += "live-net-installer"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 bcache-tools \
 btrfsprogs \
 cryptsetup \

@@ -15,7 +15,7 @@ RPM_HASH = "417c402bd71fd1aed23264b6111fde8ba92cf313d024be1a19de1b8aab6547dac266
 RPROVIDES:${PN} += "HepMC-devel \
 HepMC3-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libHepMC3-3 \
 libHepMC3search4"
 

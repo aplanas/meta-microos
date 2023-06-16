@@ -13,8 +13,8 @@ RPM_HASH = "9412dc7b8791dbfc9a8656d8c09b1e777a0951beb481ce3ccbce8c18fc3da48c337a
 
 RPROVIDES:${PN} += "gparted"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkexec \
+RDEPENDS:${PN} += "/usr/bin/pkexec \
+/usr/bin/sh \
 gpart \
 hdparm \
 ld-linux-aarch64.so.1 \

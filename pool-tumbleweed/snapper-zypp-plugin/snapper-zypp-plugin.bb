@@ -10,7 +10,7 @@ RPM_HASH = "7e898bb3005f0bc750e528f5c08cd3122b635f4d605fb1c1719a336d4ea066974c77
 
 RPROVIDES:${PN} += "snapper-zypp-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

@@ -11,9 +11,9 @@ RPM_HASH = "5ea5b184116392cdb5b0c9b5989c42b933ea79e147bc3934025bbb1c12222b6cec57
 
 RPROVIDES:${PN} += "xfce4-dev-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 autoconf \
 automake \
 intltool \

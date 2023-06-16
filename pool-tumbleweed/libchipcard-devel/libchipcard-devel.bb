@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "libchipcard-devel \
 pkgconfig-libchipcard-client \
 pkgconfig-libchipcard-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 gwenhywfar-devel \
 libchipcard \
 libchipcard6 \

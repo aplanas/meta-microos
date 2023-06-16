@@ -34,7 +34,7 @@ tex-ustmary.fd \
 tex-young.sty \
 texlive-jknapltx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

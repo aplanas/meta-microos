@@ -14,9 +14,9 @@ rubygem-ruby-3.2.0-ffi-1 \
 rubygem-ruby-3.2.0-ffi-1.15 \
 rubygem-ruby-3.2.0-ffi-1.15.5"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libffi.so.8 \

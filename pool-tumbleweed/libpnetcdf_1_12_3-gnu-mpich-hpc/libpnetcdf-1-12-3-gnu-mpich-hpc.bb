@@ -15,7 +15,7 @@ RPM_HASH = "c1ca31a1a7033ad9e5460d1f144932f5585d60415d5e3d5a20583443edcac7a8367e
 
 RPROVIDES:${PN} += "libpnetcdf-1-12-3-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

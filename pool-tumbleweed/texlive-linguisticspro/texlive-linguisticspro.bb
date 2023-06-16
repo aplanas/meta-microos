@@ -251,7 +251,7 @@ tex-lnpr-y6ghoo.enc \
 tex-lnpr-ydj4q2.enc \
 texlive-linguisticspro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

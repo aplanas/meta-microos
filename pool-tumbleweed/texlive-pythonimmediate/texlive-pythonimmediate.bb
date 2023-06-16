@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-pythonimmediate.sty \
 texlive-pythonimmediate"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

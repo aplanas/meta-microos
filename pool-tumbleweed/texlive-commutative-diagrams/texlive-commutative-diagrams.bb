@@ -26,7 +26,7 @@ tex-tikzlibrarycommutative-diagrams.ramma.code.tex \
 tex-tikzlibrarycommutative-diagrams.velos.code.tex \
 texlive-commutative-diagrams"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

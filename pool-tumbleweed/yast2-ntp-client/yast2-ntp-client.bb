@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-ntp-client"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 augeas-lenses \
 rubygem-ruby-3.2.0-cfa \
 systemd \

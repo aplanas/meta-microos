@@ -54,7 +54,7 @@ RPM_HASH = "52f30c0f6ab3f240958f478e2083297155ef91467f5ed45f22ee698fb48fa173f42a
 
 RPROVIDES:${PN} += "lv2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

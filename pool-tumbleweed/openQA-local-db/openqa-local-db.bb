@@ -10,7 +10,7 @@ RPM_HASH = "862416273a5c932797d9e3e33700063f870321b693deb1933cf4ea6694e0c61ef4d0
 
 RPROVIDES:${PN} += "openQA-local-db"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 openQA \
 postgresql-server"
 

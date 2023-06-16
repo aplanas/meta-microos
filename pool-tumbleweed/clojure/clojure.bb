@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clojure"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java \
 rlwrap"
 

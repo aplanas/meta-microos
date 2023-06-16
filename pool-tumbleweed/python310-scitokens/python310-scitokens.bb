@@ -17,8 +17,8 @@ python3.10dist-scitokens \
 python310-scitokens \
 python3dist-scitokens"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyJWT \
 update-alternatives"

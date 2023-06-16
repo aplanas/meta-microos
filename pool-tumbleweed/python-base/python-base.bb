@@ -28,7 +28,7 @@ rpm-macro-py-requires \
 rpm-macro-py-sitedir \
 rpm-macro-python2-package-prefix"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

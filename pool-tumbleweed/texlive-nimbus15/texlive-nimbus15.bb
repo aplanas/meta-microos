@@ -248,7 +248,7 @@ tex-ztm-RegObl-t2c.tfm \
 tex-ztm-RegObl-ts1.tfm \
 texlive-nimbus15"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

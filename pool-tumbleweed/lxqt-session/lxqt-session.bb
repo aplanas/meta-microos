@@ -13,7 +13,7 @@ RPM_HASH = "340e6ab7a69f7d767d661e09f5019c193c64f331cdecbb858b2f807b669359891ae0
 RPROVIDES:${PN} += "config-lxqt-session \
 lxqt-session"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5WindowSystem.so.5 \
 libQt5Core.so.5 \

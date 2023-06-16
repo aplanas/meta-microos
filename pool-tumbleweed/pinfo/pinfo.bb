@@ -10,7 +10,7 @@ RPM_HASH = "a1481bc29037b0d71c061944a1c9dd8b4469be67df702d623dd3678399bfaf83d911
 RPROVIDES:${PN} += "config-pinfo \
 pinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libncursesw.so.6 \

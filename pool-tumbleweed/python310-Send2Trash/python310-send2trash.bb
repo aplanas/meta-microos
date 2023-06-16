@@ -19,8 +19,8 @@ python3.10dist-send2trash \
 python310-Send2Trash \
 python3dist-send2trash"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 typelib-GObject \
 typelib-Gio \

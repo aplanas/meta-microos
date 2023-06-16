@@ -17,8 +17,8 @@ rubygem-ruby-3.2.0-yard-0.9 \
 rubygem-ruby-3.2.0-yard-0.9.28 \
 rubygem-yard"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-webrick-1.7 \
 update-alternatives"

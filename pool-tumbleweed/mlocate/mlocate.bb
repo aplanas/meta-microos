@@ -15,8 +15,8 @@ findutils-/usr/bin/locate \
 findutils-locate \
 mlocate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 apparmor-abstractions \
 fillup \

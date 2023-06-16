@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-compileall2 \
 python39-compileall2 \
 python3dist-compileall2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

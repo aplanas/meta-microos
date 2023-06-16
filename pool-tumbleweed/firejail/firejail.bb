@@ -19,9 +19,9 @@ libpostexecseccomp.so \
 libtrace.so \
 libtracelog.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libapparmor.so.1 \
 libc.so.6 \

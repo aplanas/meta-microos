@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-bibcop.sty \
 texlive-bibcop"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

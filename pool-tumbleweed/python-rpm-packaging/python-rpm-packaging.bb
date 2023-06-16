@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-rpm-packaging \
 rpm-build-python"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 python-rpm-macros \
 python3-base \
 python3-packaging"

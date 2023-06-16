@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-quantikz.sty \
 tex-tikzlibraryquantikz.code.tex \
 texlive-quantikz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

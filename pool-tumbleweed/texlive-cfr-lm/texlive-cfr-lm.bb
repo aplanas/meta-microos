@@ -914,7 +914,7 @@ tex-uclmt.fd \
 tex-uclmv.fd \
 texlive-cfr-lm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

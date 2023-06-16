@@ -35,8 +35,8 @@ firmware-ueagle-atm/eagleIII.fw \
 firmware-ueagle-atm/eagleIV.fw \
 kernel-firmware-ueagle"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

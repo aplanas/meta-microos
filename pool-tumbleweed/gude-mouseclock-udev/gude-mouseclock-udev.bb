@@ -21,7 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gude-mouseclock-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 systemd \
 user-ntp"
 

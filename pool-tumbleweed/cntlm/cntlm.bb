@@ -14,8 +14,8 @@ RPM_HASH = "733a7958aad985177ecc19b5d1d66da45e21920cf12bcaa992c91e49a06474455a04
 RPROVIDES:${PN} += "cntlm \
 config-cntlm"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 grep \

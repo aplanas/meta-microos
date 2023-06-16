@@ -24,8 +24,8 @@ python3.10dist-aiosmtpd \
 python310-aiosmtpd \
 python3dist-aiosmtpd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-atpublic \
 python310-attrs \

@@ -23,8 +23,8 @@ RPROVIDES:${PN} += "python3.9dist-netcdf4 \
 python39-netCDF4 \
 python3dist-netcdf4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 hdf5 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

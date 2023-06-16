@@ -48,8 +48,8 @@ python311-jupyter-ipython-doc-pdf \
 python3dist-ipython"
 
 RDEPENDS:${PN} += "-python311-prompt-toolkit >= 3.0.38 with python311-prompt-toolkit < 3.1 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311 \

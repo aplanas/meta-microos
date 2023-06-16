@@ -22,8 +22,8 @@ mvn-net.sourceforge.findbugs-findbugs-pom- \
 osgi-edu.umd.cs.findbugs.plugins.noUpdateChecks \
 osgi-findbugsAnnotations"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 apache-commons-lang \
 dom4j \
 findbugs-bcel \

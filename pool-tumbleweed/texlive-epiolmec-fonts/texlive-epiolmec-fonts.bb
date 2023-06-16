@@ -34,7 +34,7 @@ font--lang=zu \
 font-epi-olmce \
 texlive-epiolmec-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

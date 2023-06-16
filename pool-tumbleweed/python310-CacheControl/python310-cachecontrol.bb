@@ -16,8 +16,8 @@ python310-CacheControl \
 python310-cachecontrol \
 python3dist-cachecontrol"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-msgpack \
 python310-requests \

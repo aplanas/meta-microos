@@ -14,7 +14,7 @@ group-slurm \
 slurm-config \
 user-slurm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 logrotate \
 shadow"
 

@@ -19,7 +19,7 @@ tex-ot1ocrbo.fd \
 tex-ot1ocrbs.fd \
 texlive-ocr-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,9 +11,9 @@ RPM_HASH = "0221097ebbb79c11dd2e67e189513074e3c789e416f2d53130938a4858387137c280
 RPROVIDES:${PN} += "config-salt-minion \
 salt-minion"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 salt \

@@ -23,8 +23,8 @@ RPROVIDES:${PN} += "python3.11dist-aiosmtpd \
 python311-aiosmtpd \
 python3dist-aiosmtpd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-atpublic \
 python311-attrs \

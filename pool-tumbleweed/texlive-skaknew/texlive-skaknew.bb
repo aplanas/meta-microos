@@ -17,7 +17,7 @@ tex-SkakNew-FigurineBold.tfm \
 tex-SkakNew.map \
 texlive-skaknew"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

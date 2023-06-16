@@ -18,8 +18,8 @@ RPM_HASH = "68882250bb225a8ae51480805ff45d25cf981bd0374f40c5dde49ebdb6abf9cd7abc
 RPROVIDES:${PN} += "aspell \
 pspell"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libaspell.so.15 \

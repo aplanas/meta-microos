@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ca-certificates \
 java-ca-certificates"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/readlink \
+/usr/bin/sh \
 p11-kit \
 p11-kit-tools"
 

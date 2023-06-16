@@ -138,7 +138,7 @@ font-chivosemibold \
 font-chivothin \
 texlive-chivo-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

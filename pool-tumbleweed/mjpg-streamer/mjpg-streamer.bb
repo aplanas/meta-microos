@@ -20,7 +20,7 @@ RPM_HASH = "1bca7a530541d2b9a55ba358a20063c26e57197090a7f80c65d1bde7c566390b341c
 
 RPROVIDES:${PN} += "mjpg-streamer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libSDL-1.2.so.0 \
 libc.so.6 \
 libgphoto2-port.so.12 \

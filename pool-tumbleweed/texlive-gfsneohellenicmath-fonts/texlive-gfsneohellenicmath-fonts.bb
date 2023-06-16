@@ -125,7 +125,7 @@ font--lang=zu \
 font-gfsneohellenicmath \
 texlive-gfsneohellenicmath-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

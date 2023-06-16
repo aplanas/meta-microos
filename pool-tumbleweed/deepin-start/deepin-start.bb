@@ -11,7 +11,7 @@ RPM_HASH = "52701c202f151b47e1e26534b64bed7790eb85fc6e2b9acd01ff055de26291d90619
 RPROVIDES:${PN} += "deepin-start \
 startdde"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 deepin-daemon \
 update-alternatives"
 

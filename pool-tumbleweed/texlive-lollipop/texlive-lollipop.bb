@@ -33,7 +33,7 @@ tex-lollipop-tools.tex \
 tex-lollipop.tex \
 texlive-lollipop"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

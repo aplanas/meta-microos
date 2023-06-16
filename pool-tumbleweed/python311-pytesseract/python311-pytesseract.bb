@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.11dist-pytesseract \
 python311-pytesseract \
 python3dist-pytesseract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 pkgconfig-tesseract \
 python-abi \
 python311-Pillow \

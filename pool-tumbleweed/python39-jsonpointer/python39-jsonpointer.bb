@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-jsonpointer \
 python39-jsonpointer \
 python3dist-jsonpointer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi"
 

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-vscan \
 system-user-vscan \
 user-vscan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

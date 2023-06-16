@@ -12,7 +12,7 @@ RPM_HASH = "4ba7c0ad8fb7a6fa5a0cad61d6d0dc0ff571f41b7fd6d04eb85786a56dc8e08d09fb
 RPROVIDES:${PN} += "config-fwnncom \
 fwnncom"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 shadow"
 
 inherit rpm

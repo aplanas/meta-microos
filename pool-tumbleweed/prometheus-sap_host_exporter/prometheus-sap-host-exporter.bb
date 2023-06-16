@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "config-prometheus-sap-host-exporter \
 prometheus-sap-host-exporter \
 sap-host-exporter"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

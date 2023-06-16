@@ -14,7 +14,7 @@ tex-datetime2-ukrainian-utf8.ldf \
 tex-datetime2-ukrainian.ldf \
 texlive-datetime2-ukrainian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

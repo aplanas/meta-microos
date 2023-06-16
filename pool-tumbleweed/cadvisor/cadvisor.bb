@@ -16,8 +16,8 @@ RPM_HASH = "b98da04cdb3bdf3c75227abbcd53eaeb6ff3f2b65637b661580221bffebbbf23ebeb
 
 RPROVIDES:${PN} += "cadvisor"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 ca-certificates \
 fillup \

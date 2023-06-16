@@ -15,7 +15,7 @@ tex-lt3luabridge.tex \
 tex-t-lt3luabridge.tex \
 texlive-lt3luabridge"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

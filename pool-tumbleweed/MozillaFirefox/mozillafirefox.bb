@@ -16,7 +16,7 @@ firefox \
 mozilla-kde4-version \
 web-browser"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 MozillaFirefox-branding \
 coreutils \
 desktop-file-utils \

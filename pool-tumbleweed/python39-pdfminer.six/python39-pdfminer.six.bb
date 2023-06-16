@@ -17,8 +17,8 @@ python39-pdfminer.six \
 python39-pdfminer3k \
 python3dist-pdfminer.six"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-chardet \
 python39-cryptography \

@@ -26,7 +26,7 @@ tex-gates.tex \
 tex-t-gates.tex \
 texlive-gates"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

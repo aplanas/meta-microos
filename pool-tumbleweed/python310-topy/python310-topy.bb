@@ -14,8 +14,8 @@ python3.10dist-topy \
 python310-topy \
 python3dist-topy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-beautifulsoup4 \
 python310-regex \

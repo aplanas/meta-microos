@@ -45,7 +45,7 @@ tex-a-vqpkf5.enc \
 tex-alfaslabone.sty \
 texlive-alfaslabone"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

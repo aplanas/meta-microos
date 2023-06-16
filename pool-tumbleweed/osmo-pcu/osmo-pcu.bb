@@ -10,7 +10,7 @@ RPM_HASH = "23d6aedaaa2e4642b6be671552e67ad267642d007f969688f4d8dbb27e1279f7d611
 RPROVIDES:${PN} += "config-osmo-pcu \
 osmo-pcu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

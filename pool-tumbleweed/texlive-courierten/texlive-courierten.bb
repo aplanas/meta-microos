@@ -81,7 +81,7 @@ tex-a-n2okah.enc \
 tex-courierten.sty \
 texlive-courierten"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

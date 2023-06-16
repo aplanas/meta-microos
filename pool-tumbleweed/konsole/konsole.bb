@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "konsole \
 konsole5 \
 libkonsoleapp.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 konsole-part \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

@@ -64,7 +64,7 @@ tex-cld-prieif.enc \
 tex-cld-w45fff.enc \
 texlive-caladea"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

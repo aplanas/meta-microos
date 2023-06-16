@@ -23,7 +23,7 @@ python3.10dist-python-gflags \
 python310-python-gflags \
 python3dist-python-gflags"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 update-alternatives"
 

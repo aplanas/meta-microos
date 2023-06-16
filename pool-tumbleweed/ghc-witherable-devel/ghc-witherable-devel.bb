@@ -10,7 +10,7 @@ RPM_HASH = "a2716eead68fcc4129f32e49b27fb4e7c3e9f0e39eea5292dcf009de347d175c5d86
 RPROVIDES:${PN} += "ghc-devel-witherable-0.4.2-3r5H0uqg5SQLafbMfCHwUh \
 ghc-witherable-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \

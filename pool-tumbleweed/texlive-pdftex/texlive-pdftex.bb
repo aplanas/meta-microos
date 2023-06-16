@@ -20,7 +20,7 @@ tex-pdftex-dvi.tex \
 tex-pdftexspace.tfm \
 texlive-pdftex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

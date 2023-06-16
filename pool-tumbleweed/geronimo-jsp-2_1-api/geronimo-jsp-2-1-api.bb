@@ -18,7 +18,7 @@ jsp-api \
 mvn-org.apache.geronimo.specs-geronimo-jsp-2.1-spec \
 mvn-org.apache.geronimo.specs-geronimo-jsp-2.1-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 el-1-0-api \
 java-headless \
 javapackages-filesystem \

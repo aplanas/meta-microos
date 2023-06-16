@@ -14,7 +14,7 @@ RPM_HASH = "b254e776a63e184ea9450d8372e5413a10da7fc827fb1066cacd4168eefa36c76f96
 RPROVIDES:${PN} += "config-dictd \
 dictd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbi.so.3 \

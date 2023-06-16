@@ -530,7 +530,7 @@ font-t1nanummjb \
 font-t1nanummjm \
 texlive-nanumtype1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

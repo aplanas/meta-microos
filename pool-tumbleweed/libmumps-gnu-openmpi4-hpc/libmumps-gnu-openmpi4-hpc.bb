@@ -11,7 +11,7 @@ RPM_HASH = "e95a24c4d9c0a0faae0808efb62bcb506e129b6a6fee1cae99df76de3e4a761d820a
 
 RPROVIDES:${PN} += "libmumps-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libmumps-5-3-5-gnu-openmpi4-hpc"
 
 inherit rpm

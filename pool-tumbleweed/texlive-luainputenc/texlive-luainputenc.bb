@@ -19,7 +19,7 @@ tex-lutf8.def \
 tex-lutf8x.def \
 texlive-luainputenc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

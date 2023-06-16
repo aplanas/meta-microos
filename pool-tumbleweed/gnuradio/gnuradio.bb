@@ -14,7 +14,7 @@ RPM_HASH = "fbb1f560fb9ea7a6923b4a7ae905b0cd588db9a17b8d5e557fbc0b0139a687f74bc2
 RPROVIDES:${PN} += "config-gnuradio \
 gnuradio"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libQt5Widgets.so.5 \

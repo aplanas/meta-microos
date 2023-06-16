@@ -29,10 +29,10 @@ syslog \
 syslog-ng \
 sysvinit-syslog"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

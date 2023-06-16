@@ -19,7 +19,7 @@ tex-acro.sty \
 tex-acro2.sty \
 texlive-acro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

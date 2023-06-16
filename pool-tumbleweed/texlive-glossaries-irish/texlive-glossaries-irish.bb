@@ -13,7 +13,7 @@ tex-glossaries-irish-utf8.ldf \
 tex-glossaries-irish.ldf \
 texlive-glossaries-irish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

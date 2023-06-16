@@ -25,7 +25,7 @@ tex-luatexbase-regs.sty \
 tex-luatexbase.sty \
 texlive-luatexbase"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

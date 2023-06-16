@@ -10,7 +10,7 @@ RPM_HASH = "6ee1f7fe5520357c82804ce60ae41be5893f4cd4a1519e68108b9d638b4972567a83
 RPROVIDES:${PN} += "config-golang-github-lusitaniae-apache-exporter \
 golang-github-lusitaniae-apache-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 shadow \
 systemd"

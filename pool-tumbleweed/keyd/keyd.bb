@@ -14,8 +14,8 @@ RPM_HASH = "a642503c9b5113993468fb013eae09f14e5eca5d018cbc32c1452f9fa48aabcb6611
 
 RPROVIDES:${PN} += "keyd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 libc.so.6 \
 python3-xlib \
 sed \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-mypsizzl.tex \
 tex-psizzl.tex \
 texlive-psizzl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

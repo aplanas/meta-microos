@@ -15,8 +15,8 @@ RPM_HASH = "7350dee3de4acd8c299ef0954b8f6a39b5d4368e797706c90de57ab707ae57891f99
 
 RPROVIDES:${PN} += "texinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 makeinfo \
 perl \
 perl-Text-Unidecode \

@@ -17,7 +17,7 @@ tex-bxcalcize.sty \
 tex-bxcalcux.sty \
 texlive-bxcalc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,7 +17,7 @@ tex-kotexutf-core.tex \
 tex-kotexutf.tex \
 texlive-kotex-plain"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

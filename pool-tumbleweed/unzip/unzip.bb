@@ -13,7 +13,7 @@ RPM_HASH = "a557c0aa696e9062bceb2a285e63f3dd44fd1c726381dbab5162802ef7c4c5bff40f
 
 RPROVIDES:${PN} += "unzip"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

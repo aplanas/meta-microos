@@ -24,7 +24,7 @@ tex-prtightpage.def \
 tex-prtracingall.def \
 texlive-preview"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ RPM_HASH = "751743d89e400ea7d68296a0e3bc8fb98705a0d0372626a94b2e9c886690e37af8bb
 
 RPROVIDES:${PN} += "imb-mpich"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

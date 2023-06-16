@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-lxd \
 group-lxd \
 lxd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 acl \
 dnsmasq \
 ebtables \

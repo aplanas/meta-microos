@@ -809,7 +809,7 @@ tex-zxlz-caps.tfm \
 tex-zxlzi-8r.tfm \
 texlive-newtx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

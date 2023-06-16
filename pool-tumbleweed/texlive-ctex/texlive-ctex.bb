@@ -78,7 +78,7 @@ tex-jy2zhsf.fd \
 tex-jy2zhtt.fd \
 texlive-ctex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -52,7 +52,7 @@ tex-zeusm7.tfm \
 tex-zeusm7.vf \
 texlive-eulervm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

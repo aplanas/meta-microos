@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-sca-appliance-broker \
 sca-appliance-broker"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 sca-appliance-common"
 
 inherit rpm

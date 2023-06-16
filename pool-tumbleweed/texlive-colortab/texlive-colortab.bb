@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-colortab.sty \
 tex-colortab.tex \
 texlive-colortab"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-hyper-v-enhanced-session \
 hyper-v-enhanced-session"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hyper-v \
 vncmanager \
 xmessage \

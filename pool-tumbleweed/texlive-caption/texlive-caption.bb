@@ -40,7 +40,7 @@ tex-ltcaption.sty \
 tex-subcaption.sty \
 texlive-caption"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

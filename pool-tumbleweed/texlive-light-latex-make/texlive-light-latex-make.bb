@@ -26,7 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-light-latex-make"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-ftp \
 system-user-ftp \
 user-ftp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

@@ -673,7 +673,7 @@ tex-ts1antp.fd \
 tex-ts1antpl.fd \
 texlive-poltawski"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

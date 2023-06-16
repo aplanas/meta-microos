@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-msk \
 python39-msk \
 python3dist-msk"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-GitPython \
 python39-PyGithub \

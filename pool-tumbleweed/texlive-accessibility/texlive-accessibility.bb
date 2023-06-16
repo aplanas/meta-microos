@@ -25,7 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-accessibility.sty \
 texlive-accessibility"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

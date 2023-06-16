@@ -15,7 +15,7 @@ tex-epiolmec.map \
 tex-epiolmec.sty \
 texlive-epiolmec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl-MasterCFParser \
 yast2-mail"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 yast2 \

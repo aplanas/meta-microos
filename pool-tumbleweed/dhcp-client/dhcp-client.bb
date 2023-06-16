@@ -18,7 +18,7 @@ RPM_HASH = "55d06c362f2569f9fa6279c49bec55d63ce574ed7756e7cfa88c2a7905e1f70cc19f
 RPROVIDES:${PN} += "config-dhcp-client \
 dhcp-client"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/getent \
 /usr/bin/hostname \
 dhcp \

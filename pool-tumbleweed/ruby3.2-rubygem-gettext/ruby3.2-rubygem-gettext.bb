@@ -16,8 +16,8 @@ rubygem-ruby-3.2.0-gettext-3 \
 rubygem-ruby-3.2.0-gettext-3.4 \
 rubygem-ruby-3.2.0-gettext-3.4.3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-erubi \
 rubygem-ruby-3.2.0-locale \

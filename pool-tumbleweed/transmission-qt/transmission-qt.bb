@@ -15,7 +15,7 @@ RPM_HASH = "d883a97205281bccaf83df3cd9e516d00f84a5094f387e1c595f7bbe2369fa52e9bd
 RPROVIDES:${PN} += "transmission-qt \
 transmission-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

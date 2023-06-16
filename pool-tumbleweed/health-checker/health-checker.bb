@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-checker"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 health-checker-plugins"
 
 inherit rpm

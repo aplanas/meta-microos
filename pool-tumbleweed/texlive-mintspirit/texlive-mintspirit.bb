@@ -546,7 +546,7 @@ tex-mntsprt2-tmtdfz.enc \
 tex-mntsprt2-ywkmiw.enc \
 texlive-mintspirit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

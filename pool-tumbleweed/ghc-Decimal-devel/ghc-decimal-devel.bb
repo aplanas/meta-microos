@@ -10,7 +10,7 @@ RPM_HASH = "56f08f68b1aa59ee274efd91aec7322f8d68738d5230b36fc95ac451b9d5e7d62002
 RPROVIDES:${PN} += "ghc-Decimal-devel \
 ghc-devel-Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-Decimal \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "en) \
 locale(texlive-circledtext-doc-zh \
 texlive-circledtext-doc"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

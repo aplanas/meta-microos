@@ -752,7 +752,7 @@ tex-zcochmia.tfm \
 tex-zcochmia.vf \
 texlive-cochineal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

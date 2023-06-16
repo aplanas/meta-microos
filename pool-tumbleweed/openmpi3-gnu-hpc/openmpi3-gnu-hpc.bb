@@ -11,7 +11,7 @@ RPM_HASH = "f2b03df8448d51fc210cbc45011cc260b1e6ad134ea9cd49d9061eb05ab3c887b866
 
 RPROVIDES:${PN} += "openmpi3-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 openmpi-3-1-6-gnu-hpc"
 
 inherit rpm

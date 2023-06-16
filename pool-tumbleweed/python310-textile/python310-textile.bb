@@ -17,8 +17,8 @@ python3.10dist-textile \
 python310-textile \
 python3dist-textile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Pillow \
 python310-html5lib \

@@ -9,7 +9,7 @@ RPM_HASH = "1d1bec50b65013a982f29e5665499ee286de4879be7e579d967c1e914068dfe533c7
 
 RPROVIDES:${PN} += "libxfce4ui-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

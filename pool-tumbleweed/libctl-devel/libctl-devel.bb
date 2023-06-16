@@ -14,7 +14,7 @@ RPM_HASH = "f2ba7b35578243a49880ffc0e2b3f3687299c9bb48241f1d3c0d06c7dd7ec755d653
 
 RPROVIDES:${PN} += "libctl-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libctl7"
 
 inherit rpm

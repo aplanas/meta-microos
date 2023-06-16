@@ -16,8 +16,8 @@ python311-jupyter-nbformat \
 python311-nbformat \
 python3dist-nbformat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311-fastjsonschema \

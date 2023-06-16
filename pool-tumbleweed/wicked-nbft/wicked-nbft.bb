@@ -12,7 +12,7 @@ RPM_HASH = "1a75d7c9f6a014fe706e0b49690738aac0ceb865c32ff4ec2af9c98306ab4bc21262
 RPROVIDES:${PN} += "config-wicked-nbft \
 wicked-nbft"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 jq \
 nvme-cli \
 wicked"

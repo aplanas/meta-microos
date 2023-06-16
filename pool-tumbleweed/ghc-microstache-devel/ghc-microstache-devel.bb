@@ -10,7 +10,7 @@ RPM_HASH = "81f1001fca0e783a4c8dbebc7cb7dba15b2e9737666378a1ff00c6756fac376434f9
 RPROVIDES:${PN} += "ghc-devel-microstache-1.0.2.3-AHAKnK06lT6DHccapktUKL \
 ghc-microstache-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-base-4.17.1.0 \

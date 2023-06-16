@@ -10,7 +10,7 @@ RPM_HASH = "2ef0e245fcfecf6894313bcd32f85c9280b6b8b58a1fef4213f642d162fe515ea3dc
 RPROVIDES:${PN} += "ghc-devel-dlist-1.0-BmTLN13CmmLQvuHz7BjP9 \
 ghc-dlist-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-deepseq-1.4.8.0 \

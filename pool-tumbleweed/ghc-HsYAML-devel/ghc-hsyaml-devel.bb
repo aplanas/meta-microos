@@ -10,7 +10,7 @@ RPM_HASH = "fd51a9c29626c2b70418a43478ebd2f44f8471530a3d299209107bee38af7fa8a62c
 RPROVIDES:${PN} += "ghc-HsYAML-devel \
 ghc-devel-HsYAML-0.2.1.1-KzoQvRN4UKW2jR1yND83sf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-HsYAML \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

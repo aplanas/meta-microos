@@ -28,7 +28,7 @@ tex-uantwerpenphdthesis.cls \
 tex-uantwerpenreport.cls \
 texlive-uantwerpendocs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

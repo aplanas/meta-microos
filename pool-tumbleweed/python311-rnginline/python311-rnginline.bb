@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-rnginline \
 python311-rnginline \
 python3dist-rnginline"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docopt \
 python311-lxml \

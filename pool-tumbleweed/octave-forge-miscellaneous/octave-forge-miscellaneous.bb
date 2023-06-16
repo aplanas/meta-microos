@@ -10,8 +10,8 @@ RPM_HASH = "0e8c9edf2ad917a7184b4646250da37efa55a97dbc45eedd86537201e7fd761434d6
 
 RPROVIDES:${PN} += "octave-forge-miscellaneous"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

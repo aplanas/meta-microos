@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "jflex \
 mvn-de.jflex-jflex \
 mvn-de.jflex-jflex-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-cup \
 java-headless \
 javapackages-filesystem \

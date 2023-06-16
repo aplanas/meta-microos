@@ -19,7 +19,7 @@ mingw64-lib-ssp \
 mingw64-lib-ssp-nonshared \
 mingw64-liblto-plugin.dll"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mingw64-binutils \
 mingw64-cpp \
 mingw64-headers \

@@ -22,7 +22,7 @@ man-dviselect.1 \
 man-dvitodvi.1 \
 texlive-seetexk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

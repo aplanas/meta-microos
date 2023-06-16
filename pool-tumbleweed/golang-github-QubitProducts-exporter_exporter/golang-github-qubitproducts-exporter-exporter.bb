@@ -10,8 +10,8 @@ RPM_HASH = "b1677d5e1fbc522f8aae630c0f2ccc1beb284b9938907a1768045e6819452ffd305b
 RPROVIDES:${PN} += "config-golang-github-QubitProducts-exporter-exporter \
 golang-github-QubitProducts-exporter-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 shadow"

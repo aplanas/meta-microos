@@ -10,7 +10,7 @@ RPM_HASH = "89aeb517900b61e0b6bcaa64e2ffc980793d7ce1b5760dcde5632a2229bf91105908
 RPROVIDES:${PN} += "libksysguard5-helper \
 libksysguard5-plugins"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5AuthCore.so.5 \
 libKF5CoreAddons.so.5 \

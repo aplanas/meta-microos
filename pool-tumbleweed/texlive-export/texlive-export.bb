@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-dvipaste.sty \
 tex-export.sty \
 texlive-export"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

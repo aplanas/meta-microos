@@ -24,7 +24,7 @@ tex-chemmacros-2020-03-07.sty \
 tex-chemmacros.sty \
 texlive-chemmacros"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

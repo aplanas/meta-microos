@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pywebpush \
 python311-pywebpush \
 python3dist-pywebpush"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-cryptography \
 python311-http-ece \

@@ -15,11 +15,11 @@ RPROVIDES:${PN} += "python3.9dist-language-check \
 python39-language-check \
 python3dist-language-check"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 java \
 python-abi \
 update-alternatives"

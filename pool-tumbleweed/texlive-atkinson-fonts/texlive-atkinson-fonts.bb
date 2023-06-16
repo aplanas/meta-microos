@@ -104,7 +104,7 @@ font-atkinsn \
 font-atkinsonhyperlegible \
 texlive-atkinson-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -14,7 +14,7 @@ RPM_HASH = "7aa6ec7d8b5caa9892e65dbf59a6c67e9ec38caedb543f4826e8832e3191357e64c4
 
 RPROVIDES:${PN} += "llvm12"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libLLVM.so.12 \
 libLLVM12 \

@@ -19,7 +19,7 @@ RPM_HASH = "d55c8adcb14efa0870d61f477cb79404683e2c144d729bf1d5ba651fa089fb4e0077
 RPROVIDES:${PN} += "bitcoind \
 config-bitcoind"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdb-cxx-4.8.so \

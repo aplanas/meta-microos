@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-show-in-file-manager \
 python311-show-in-file-manager \
 python3dist-show-in-file-manager"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-packaging \
 python311-pyxdg \

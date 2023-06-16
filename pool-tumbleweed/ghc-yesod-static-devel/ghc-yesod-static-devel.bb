@@ -10,7 +10,7 @@ RPM_HASH = "5091ae4ccd92ad6fd198e2e54d283b4aa91b7d65374d826bcfed2e5f2ceed2a5463c
 RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-DEqPHy4hggrCzWSPgCKUoY \
 ghc-yesod-static-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

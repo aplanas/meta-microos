@@ -108,7 +108,7 @@ font--lang=zu \
 font-cuprum \
 texlive-cuprum-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

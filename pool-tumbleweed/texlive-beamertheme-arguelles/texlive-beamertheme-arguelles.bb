@@ -21,7 +21,7 @@ tex-beamerouterthemeArguelles.sty \
 tex-beamerthemeArguelles.sty \
 texlive-beamertheme-arguelles"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

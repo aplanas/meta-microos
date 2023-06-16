@@ -14,8 +14,8 @@ RPM_HASH = "b2e37ef36736b319ee89ddbca4e84fa147b03f96b8b253b7719308774b151e3f92ab
 RPROVIDES:${PN} += "icewm-bin \
 icewm-default"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 adwaita-icon-theme \
 icewm \
 ld-linux-aarch64.so.1 \

@@ -20,7 +20,7 @@ RPM_HASH = "b51d778347a42d5eb5c0410cf14e0f995dfe683bd034629c90b5dfe8e4c73ebb4136
 RPROVIDES:${PN} += "xine-/usr/bin/xine \
 xine-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \

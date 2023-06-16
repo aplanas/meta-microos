@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-flatpak \
 system-user-flatpak \
 user-flatpak"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

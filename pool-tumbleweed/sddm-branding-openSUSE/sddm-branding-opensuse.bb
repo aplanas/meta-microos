@@ -13,7 +13,7 @@ RPM_HASH = "08380fea16feff1db848a1252c2fb55bff74b70fb1689d5eb2673683464cb64a88d0
 RPROVIDES:${PN} += "sddm-branding \
 sddm-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 diffutils \
 sddm \
 sddm-theme-openSUSE"

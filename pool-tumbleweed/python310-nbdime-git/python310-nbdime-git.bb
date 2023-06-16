@@ -17,8 +17,8 @@ python3-nbdime-git \
 python310-jupyter-nbdime-git \
 python310-nbdime-git"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 git-core \
 python310-nbdime"

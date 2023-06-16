@@ -18,31 +18,31 @@ PV = "9.3"
 RPM_NAME = "coreutils-9.3-1.1.aarch64.rpm"
 RPM_HASH = "6debf714194da0024e5da8c6d33e63559d196e42d52478736604b69f19c1ece87ba98742fbfbc42043c27a2340e7255c7edc8d6714acee423ded70eeb1842959"
 
-RPROVIDES:${PN} += "/bin/cat \
-/bin/chgrp \
-/bin/chmod \
-/bin/chown \
-/bin/cp \
-/bin/dd \
-/bin/df \
-/bin/echo \
-/bin/false \
-/bin/ln \
-/bin/ls \
-/bin/mkdir \
-/bin/mknod \
-/bin/mktemp \
-/bin/mv \
-/bin/pwd \
-/bin/rm \
-/bin/rmdir \
-/bin/sleep \
-/bin/sort \
-/bin/stty \
-/bin/sync \
-/bin/touch \
-/bin/true \
-/bin/uname \
+RPROVIDES:${PN} += "/usr/bin/cat \
+/usr/bin/chgrp \
+/usr/bin/chmod \
+/usr/bin/chown \
+/usr/bin/cp \
+/usr/bin/dd \
+/usr/bin/df \
+/usr/bin/echo \
+/usr/bin/false \
+/usr/bin/ln \
+/usr/bin/ls \
+/usr/bin/mkdir \
+/usr/bin/mknod \
+/usr/bin/mktemp \
+/usr/bin/mv \
+/usr/bin/pwd \
+/usr/bin/rm \
+/usr/bin/rmdir \
+/usr/bin/sleep \
+/usr/bin/sort \
+/usr/bin/stty \
+/usr/bin/sync \
+/usr/bin/touch \
+/usr/bin/true \
+/usr/bin/uname \
 coreutils \
 fileutils \
 libstdbuf.so \
@@ -51,7 +51,7 @@ sh-utils \
 stat \
 textutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \
 libattr.so.1 \

@@ -168,7 +168,7 @@ tex-josefin.map \
 tex-josefin.sty \
 texlive-josefin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

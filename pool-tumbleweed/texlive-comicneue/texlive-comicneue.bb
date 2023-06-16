@@ -184,7 +184,7 @@ tex-a-wfs66e.enc \
 tex-comicneue.sty \
 texlive-comicneue"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

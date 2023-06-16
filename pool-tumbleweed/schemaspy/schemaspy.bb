@@ -23,7 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "schemaspy"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 graphviz \
 graphviz-gd \
 java \

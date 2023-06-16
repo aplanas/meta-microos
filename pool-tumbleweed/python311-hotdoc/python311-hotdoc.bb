@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "python3.11dist-hotdoc \
 python311-hotdoc \
 python3dist-hotdoc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 clang-devel \
 ld-linux-aarch64.so.1 \

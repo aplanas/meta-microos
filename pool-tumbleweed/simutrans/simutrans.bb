@@ -14,7 +14,7 @@ RPM_HASH = "07d49359170d71f60e46edb011a458c10ccde9a7a220c3e726f488e6bc6c14085885
 
 RPROVIDES:${PN} += "simutrans"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libbz2.so.1 \

@@ -20,8 +20,8 @@ yast2-config-autoinst \
 yast2-lib-autoinst \
 yast2-module-autoinst"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 autoyast2-installation \
 fillup \

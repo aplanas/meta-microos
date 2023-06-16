@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-uni-algos"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

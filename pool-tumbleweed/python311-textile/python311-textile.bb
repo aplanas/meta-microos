@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-textile \
 python311-textile \
 python3dist-textile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Pillow \
 python311-html5lib \

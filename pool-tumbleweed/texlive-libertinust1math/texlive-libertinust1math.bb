@@ -57,7 +57,7 @@ tex-ls2libertinust1mathsym.fd \
 tex-ot1libertinust1mathsf.fd \
 texlive-libertinust1math"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

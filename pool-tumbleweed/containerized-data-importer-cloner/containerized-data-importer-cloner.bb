@@ -9,7 +9,7 @@ RPM_HASH = "5fc2be2b67d5770d09a72618a0fb957e3e4765f6c019fee34a1e69e34df5a7606394
 
 RPROVIDES:${PN} += "containerized-data-importer-cloner"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libc.so.6"
 
 inherit rpm

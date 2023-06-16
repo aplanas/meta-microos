@@ -144,7 +144,7 @@ tex-unvsl-sjpjw4.enc \
 tex-unvsl-xtabpf.enc \
 texlive-universalis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

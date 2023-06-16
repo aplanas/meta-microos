@@ -11,7 +11,7 @@ RPM_HASH = "e23c029472d0bc244f42aa6a67e8f0140f1b192c4e36420079cbf9d11ac94005c69d
 RPROVIDES:${PN} += "cachefilesd \
 config-cachefilesd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkmod.so.2 \

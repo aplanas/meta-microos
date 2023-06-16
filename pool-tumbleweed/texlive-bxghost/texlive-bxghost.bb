@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-bxghost-lib.sty \
 tex-bxghost.sty \
 texlive-bxghost"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

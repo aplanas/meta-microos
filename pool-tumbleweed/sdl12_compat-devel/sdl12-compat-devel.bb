@@ -14,8 +14,8 @@ pkgconfig-sdl \
 pkgconfig-sdl12-compat \
 sdl12-compat-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libSDL-1-2-0 \
 pkgconfig-gl \
 pkgconfig-glu \

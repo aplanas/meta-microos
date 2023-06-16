@@ -14,7 +14,7 @@ python3.10dist-nilearn \
 python310-nilearn \
 python3dist-nilearn"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 python-abi \
 python310-joblib \
 python310-matplotlib \

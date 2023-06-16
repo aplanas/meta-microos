@@ -19,7 +19,7 @@ antlr4-tool \
 mvn-org.antlr-antlr4 \
 mvn-org.antlr-antlr4-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

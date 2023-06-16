@@ -10,7 +10,7 @@ RPM_HASH = "e3e6991f022adea5efd3b0fa1b0ed7cb13e0462cbc7f92330fb44a09398060fea01d
 
 RPROVIDES:${PN} += "rbd-mirror"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

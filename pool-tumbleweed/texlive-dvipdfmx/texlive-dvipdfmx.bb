@@ -27,7 +27,7 @@ tex-dvipdfmx.cfg \
 texlive-dvipdfm \
 texlive-dvipdfmx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

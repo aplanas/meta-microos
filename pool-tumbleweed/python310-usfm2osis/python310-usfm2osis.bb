@@ -13,8 +13,8 @@ python3.10dist-usfm2osis \
 python310-usfm2osis \
 python3dist-usfm2osis"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

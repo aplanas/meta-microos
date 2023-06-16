@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "mvn-net.sf.proguard-proguard-gui \
 mvn-net.sf.proguard-proguard-gui-pom- \
 proguard-gui"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

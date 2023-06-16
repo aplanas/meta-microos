@@ -36,7 +36,7 @@ tex-artti10.tfm \
 tex-aspectratio.map \
 texlive-aspectratio"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

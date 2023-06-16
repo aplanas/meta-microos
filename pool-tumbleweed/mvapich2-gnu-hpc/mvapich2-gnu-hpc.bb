@@ -11,7 +11,7 @@ RPM_HASH = "f0235dfadfcc9a43441e6c64f130233c1879c2264ef9e5b983cabf9cfd27feef6d50
 
 RPROVIDES:${PN} += "mvapich2-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mvapich2-2-3-7-gnu-hpc"
 
 inherit rpm

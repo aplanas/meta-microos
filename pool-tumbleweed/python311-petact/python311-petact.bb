@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-petact \
 python311-petact \
 python3dist-petact"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 update-alternatives"

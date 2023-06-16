@@ -42,7 +42,7 @@ mvn-org.codehaus.modello-modello-pom- \
 mvn-org.codehaus.modello-modello-test \
 mvn-org.codehaus.modello-modello-test-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 guava \
 java-headless \
 javapackages-filesystem \

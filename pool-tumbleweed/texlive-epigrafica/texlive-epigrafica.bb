@@ -61,7 +61,7 @@ tex-lgrepigrafica.fd \
 tex-ot1epigrafica.fd \
 texlive-epigrafica"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

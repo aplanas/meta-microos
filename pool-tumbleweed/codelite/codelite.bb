@@ -15,9 +15,9 @@ libplugin.so \
 libwxshapeframework.so \
 libwxsqlite3.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/node \
+RDEPENDS:${PN} += "/usr/bin/node \
 /usr/bin/python3 \
+/usr/bin/sh \
 ctags \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

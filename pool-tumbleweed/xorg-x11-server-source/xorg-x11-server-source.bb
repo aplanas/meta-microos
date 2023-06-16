@@ -9,9 +9,9 @@ RPM_HASH = "6241cadf23d182658b0938ad05eeb187e011617693c6d06d6677cdcd76bbcafabe96
 
 RPROVIDES:${PN} += "xorg-x11-server-source"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
-/usr/bin/python3"
+/usr/bin/python3 \
+/usr/bin/sh"
 
 inherit rpm

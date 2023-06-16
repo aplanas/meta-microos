@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-dateparser \
 python311-dateparser \
 python3dist-dateparser"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-python-dateutil \
 python311-pytz \

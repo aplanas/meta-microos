@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "clone-master-clean-up \
 config-clone-master-clean-up"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 curl \

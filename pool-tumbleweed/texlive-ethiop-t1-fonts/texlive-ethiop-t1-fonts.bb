@@ -131,7 +131,7 @@ font-ethbsb9 \
 font-ethbtt10 \
 texlive-ethiop-t1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

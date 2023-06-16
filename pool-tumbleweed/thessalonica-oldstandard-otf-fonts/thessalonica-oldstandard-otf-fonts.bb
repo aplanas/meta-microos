@@ -22,6 +22,6 @@ RPROVIDES:${PN} += "locale-el;ru \
 oldstandard-fonts-otf \
 thessalonica-oldstandard-otf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "6b7776ff532938df93fdb43de76a50b74099783529f23b08156c56c74b9e444babf5
 
 RPROVIDES:${PN} += "isight-firmware-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

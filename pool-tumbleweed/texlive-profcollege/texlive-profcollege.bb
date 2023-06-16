@@ -225,7 +225,7 @@ tex-PfCzimbabwe.dat \
 tex-ProfCollege.sty \
 texlive-profcollege"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

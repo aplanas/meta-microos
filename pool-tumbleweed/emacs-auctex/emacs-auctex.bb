@@ -25,7 +25,7 @@ config-emacs-auctex \
 emacs-auctex \
 ge-auc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 emacs \
 texlive-latex \
 texlive-tools"

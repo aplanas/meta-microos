@@ -10,7 +10,7 @@ RPM_HASH = "55b9e2f395458376b4a7d3eb88f23c47638dd24ba032b5664150f432b26af84ee214
 RPROVIDES:${PN} += "ghc-cmdargs-devel \
 ghc-devel-cmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cmdargs \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

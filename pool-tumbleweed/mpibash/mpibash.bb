@@ -14,7 +14,7 @@ RPM_HASH = "ba7c49052ce4e14622a7605f66db15dc3079d9f5b74d7caa71f25ade36c44772109c
 
 RPROVIDES:${PN} += "mpibash"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcircle.so.2 \

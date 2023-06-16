@@ -16,8 +16,8 @@ python3.10dist-flask-oidc \
 python310-flask-oidc \
 python3dist-flask-oidc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Authlib \
 python310-Flask \

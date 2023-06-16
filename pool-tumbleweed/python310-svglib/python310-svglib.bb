@@ -13,8 +13,8 @@ python3.10dist-svglib \
 python310-svglib \
 python3dist-svglib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-cssselect2 \
 python310-lxml \

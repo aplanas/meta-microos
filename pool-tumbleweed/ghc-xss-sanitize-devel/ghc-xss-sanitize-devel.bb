@@ -10,7 +10,7 @@ RPM_HASH = "0f5fd5f17a61cbb91be5dfca560c5bf0f4b7fac398a3ca523e676125ea5382d78239
 RPROVIDES:${PN} += "ghc-devel-xss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW \
 ghc-xss-sanitize-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \

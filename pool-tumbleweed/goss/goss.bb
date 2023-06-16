@@ -9,7 +9,7 @@ RPM_HASH = "8f6abf416c79b367ad9f8a91e935bba4a189acea1d4034d45a4935cd60f7340762c8
 
 RPROVIDES:${PN} += "goss"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env"
 
 inherit rpm

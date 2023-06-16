@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-xcookybooky.cfg \
 tex-xcookybooky.sty \
 texlive-xcookybooky"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

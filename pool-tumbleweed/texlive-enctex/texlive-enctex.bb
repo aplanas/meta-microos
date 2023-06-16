@@ -53,7 +53,7 @@ tex-utf8unkn.tex \
 tex-utf8warn.tex \
 texlive-enctex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

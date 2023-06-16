@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-celery \
 python311-celery \
 python3dist-celery"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-billiard \
 python311-click \

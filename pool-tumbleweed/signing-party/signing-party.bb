@@ -42,9 +42,9 @@ RPM_HASH = "e31743e6b86ca0ce485cb04ce772e95c9530be2f41549af01593322945c8f899e4b8
 
 RPROVIDES:${PN} += "signing-party"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/sbin/sendmail \
 gpg \
 ld-linux-aarch64.so.1 \

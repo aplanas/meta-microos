@@ -10,8 +10,8 @@ RPM_HASH = "2ddf3099d98fb108984dfc0216025c736cfa34b8b680b4e68d2d297150f701b8768e
 RPROVIDES:${PN} += "pkgconfig-taglib-extras \
 taglib-extras-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libstdc++-devel \
 libtag-extras1"
 

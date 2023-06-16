@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-sv \
 libreoffice-l10n-sv \
 locale-libreoffice-sv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker \
 myspell-sv-SE"

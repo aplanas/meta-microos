@@ -10,7 +10,7 @@ RPM_HASH = "61421a69d018a1dca755c107a0dda086a8ed5b5f96d97f8c30e840e2d52ebacced61
 RPROVIDES:${PN} += "ghc-devel-yaml-0.11.11.0-AM27xwJeGq9DNHRH5iLzHi \
 ghc-yaml-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

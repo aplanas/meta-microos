@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "wireshark-ui \
 wireshark-ui-gtk \
 wireshark-ui-qt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

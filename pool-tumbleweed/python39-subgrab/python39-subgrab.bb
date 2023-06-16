@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-subgrab \
 python39-subgrab \
 python3dist-subgrab"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-beautifulsoup4 \
 python39-lxml \

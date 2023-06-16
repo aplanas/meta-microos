@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "python3.9dist-mathics-scanner \
 python39-Mathics-Scanner \
 python3dist-mathics-scanner"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-chardet \

@@ -11,7 +11,7 @@ RPM_HASH = "2668718ba81d55a39fc0b96ff9f83f18b385054d78c20e02cc6a2752f8925f39c064
 
 RPROVIDES:${PN} += "i3lock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

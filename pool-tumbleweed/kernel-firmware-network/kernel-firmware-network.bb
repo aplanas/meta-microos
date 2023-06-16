@@ -59,8 +59,8 @@ firmware-vxge/X3fw.ncf \
 firmware-wsm-22.bin \
 kernel-firmware-network"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

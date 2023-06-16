@@ -16,8 +16,8 @@ RPM_HASH = "0b3a637832e14e914d9097dd135c9cf8e48b0aeb897a9976fc2ce6ab5c2311969c39
 RPROVIDES:${PN} += "config-thunderbolt-user-space \
 thunderbolt-user-space"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-filesystem.so.1.82.0 \
 libc.so.6 \

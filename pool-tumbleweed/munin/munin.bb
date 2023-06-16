@@ -37,9 +37,9 @@ perl-Munin--Master--Utils \
 perl-Munin--Master--Worker \
 perl-URI--munin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 perl-Date-Manip \
 perl-FastCGI \
 perl-File-Copy-Recursive \

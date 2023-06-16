@@ -22,7 +22,7 @@ mvn-net.sf.proguard-proguard-retrace \
 mvn-net.sf.proguard-proguard-retrace-pom- \
 proguard"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools"

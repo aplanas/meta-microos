@@ -27,8 +27,8 @@ RPROVIDES:${PN} += "python3.11dist-vulture \
 python311-vulture \
 python3dist-vulture"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-toml \
 update-alternatives"

@@ -21,7 +21,7 @@ tex-umvs.fd \
 tex-umvs.tfm \
 texlive-marvosym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

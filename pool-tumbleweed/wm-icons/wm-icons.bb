@@ -19,6 +19,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wm-icons"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

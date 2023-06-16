@@ -16,7 +16,7 @@ tex-listbib.sty \
 tex-listbib.tex \
 texlive-listbib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

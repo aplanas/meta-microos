@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-fnpct-2019-10-05.sty \
 tex-fnpct.sty \
 texlive-fnpct"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

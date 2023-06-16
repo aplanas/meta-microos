@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-t-account.tex \
 tex-t-floatnumber.tex \
 texlive-context-account"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

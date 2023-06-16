@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-HAP-ppr-prv.def \
 tex-ppr-prv.cls \
 texlive-ppr-prv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

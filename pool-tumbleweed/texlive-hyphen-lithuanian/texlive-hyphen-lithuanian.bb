@@ -14,7 +14,7 @@ tex-hyph-lt.tex \
 tex-loadhyph-lt.tex \
 texlive-hyphen-lithuanian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

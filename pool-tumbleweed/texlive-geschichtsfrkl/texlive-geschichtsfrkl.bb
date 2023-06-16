@@ -15,7 +15,7 @@ tex-geschichtsfrkl.cbx \
 tex-geschichtsfrkldoc.sty \
 texlive-geschichtsfrkl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

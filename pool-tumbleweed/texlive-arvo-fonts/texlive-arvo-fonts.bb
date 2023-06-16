@@ -86,7 +86,7 @@ font--lang=zu \
 font-arvo \
 texlive-arvo-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

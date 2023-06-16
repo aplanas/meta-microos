@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-ukinsoku.tex \
 tex-uptex.tex \
 texlive-uptex-base"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

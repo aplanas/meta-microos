@@ -14,7 +14,7 @@ tex-schwalbe.sty \
 tex-swruler.sty \
 texlive-schwalbe-chess"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

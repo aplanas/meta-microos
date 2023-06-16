@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-css-html-js-minify \
 python39-css-html-js-minify \
 python3dist-css-html-js-minify"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

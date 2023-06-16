@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "openblas-common-devel \
 openblas-devel-headers \
 pkgconfig-openblas"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh"
 
 inherit rpm

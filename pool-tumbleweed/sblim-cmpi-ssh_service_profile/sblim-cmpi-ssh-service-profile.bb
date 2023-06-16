@@ -19,8 +19,8 @@ RPM_HASH = "c599a7d103729030fd3a6dfad06d174d9d10d866b0adfb440bf55c38352db803b2a6
 RPROVIDES:${PN} += "liblinux-sshserviceprovider.so.1 \
 sblim-cmpi-ssh-service-profile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 cim-schema \
 libc.so.6 \
 libkonkret.so.0 \

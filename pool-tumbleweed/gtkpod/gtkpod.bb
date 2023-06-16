@@ -34,11 +34,11 @@ libsjcd.so \
 libsorttab-display.so \
 libtrack-display.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libFLAC.so.12 \
 libanjuta-3.so.0 \

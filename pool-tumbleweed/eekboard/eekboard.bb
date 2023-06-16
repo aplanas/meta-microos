@@ -15,7 +15,7 @@ libeek-xkl.so.0 \
 libeek.so.0 \
 libeekboard.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXtst.so.6 \

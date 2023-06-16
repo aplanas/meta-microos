@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-libvirt-daemon-driver-interface \
 libvirt-daemon-driver-interface \
 libvirt-driver-interface.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

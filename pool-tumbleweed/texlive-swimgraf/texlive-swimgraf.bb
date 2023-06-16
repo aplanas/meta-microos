@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-swimgraf.cfg \
 tex-swimgraf.sty \
 texlive-swimgraf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

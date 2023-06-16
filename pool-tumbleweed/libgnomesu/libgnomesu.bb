@@ -10,7 +10,7 @@ RPM_HASH = "1c5b900092bcb90481a9d422c0a9810be7b33b0cd4ada2727d3972f31fc61b1dbc3c
 
 RPROVIDES:${PN} += "libgnomesu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

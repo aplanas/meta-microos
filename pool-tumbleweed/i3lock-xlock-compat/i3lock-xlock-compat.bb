@@ -11,7 +11,7 @@ RPM_HASH = "3defe5bf4510e2ef0665c2c62b7cb9e79f298cd0081761dcb2a3a8f274142077979e
 
 RPROVIDES:${PN} += "i3lock-xlock-compat"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ImageMagick \
 xdpyinfo"
 

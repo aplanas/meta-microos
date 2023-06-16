@@ -10,7 +10,7 @@ RPM_HASH = "2ff1d18b5a4fc7bbc1a80c47a0fc29e7d34516707bc71b0acd930854656f3d8d40e6
 
 RPROVIDES:${PN} += "policycoreutils-newrole"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \
 libc.so.6 \

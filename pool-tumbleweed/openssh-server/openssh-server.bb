@@ -22,8 +22,8 @@ openssh-/usr/sbin/sshd \
 openssh-server \
 user-sshd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 findutils \

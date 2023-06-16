@@ -10,8 +10,8 @@ RPM_HASH = "60ad35f0aa25be0bd9ebc0cfdf4d8d472581b6129c3b6544b32a1186fed7613c175d
 
 RPROVIDES:${PN} += "kup-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl \
 perl-BSD--Resource \
 perl-Config--Simple \

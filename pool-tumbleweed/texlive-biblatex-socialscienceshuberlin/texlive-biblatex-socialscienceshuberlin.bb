@@ -14,7 +14,7 @@ tex-socialscienceshuberlin.bbx \
 tex-socialscienceshuberlin.cbx \
 texlive-biblatex-socialscienceshuberlin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

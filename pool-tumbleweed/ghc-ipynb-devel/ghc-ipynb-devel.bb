@@ -10,7 +10,7 @@ RPM_HASH = "fe7dc161cc2939790f861339b6abfac7c6c9b5d6251de054d4a5e664fec86ec9e9ea
 RPROVIDES:${PN} += "ghc-devel-ipynb-0.2-5jt56R8prxRLKDISePbcpi \
 ghc-ipynb-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-base-4.17.1.0 \

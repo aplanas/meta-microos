@@ -48,7 +48,7 @@ tex-tudscrsupervisor.sty \
 tex-twocolfix.sty \
 texlive-tudscr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

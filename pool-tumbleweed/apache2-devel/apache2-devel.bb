@@ -14,8 +14,8 @@ RPM_HASH = "c84a2e39a9c1e39a047f35e65be2cb59b6450777a8119509a168ea62701a5fd45b39
 RPROVIDES:${PN} += "apache2-devel \
 httpd-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 apache2 \
 apr-devel \
 apr-util-devel \

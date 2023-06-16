@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-tugboat.sty \
 tex-tugproc.sty \
 texlive-tugboat-plain"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

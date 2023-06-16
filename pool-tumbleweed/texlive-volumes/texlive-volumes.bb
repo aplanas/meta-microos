@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-nowtoaux.sty \
 tex-volumes.sty \
 texlive-volumes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

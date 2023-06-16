@@ -19,7 +19,7 @@ tex-ltxtools-trace.sty \
 tex-ltxtools.sty \
 texlive-ltxtools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -27,7 +27,7 @@ tex-csquotes.def \
 tex-csquotes.sty \
 texlive-csquotes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "kanku-dispatcher \
 perl-Kanku--Daemon--Dispatcher \
 perl-Kanku--Dispatch--RabbitMQ"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 kanku-common \
 kanku-common-server \
 perl-Net--AMQP--RabbitMQ \

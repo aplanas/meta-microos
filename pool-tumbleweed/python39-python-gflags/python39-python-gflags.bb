@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "python3.9dist-python-gflags \
 python39-python-gflags \
 python3dist-python-gflags"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 update-alternatives"
 

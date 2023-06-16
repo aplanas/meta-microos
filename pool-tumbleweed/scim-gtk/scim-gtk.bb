@@ -9,7 +9,7 @@ RPM_HASH = "04ba669e84ea5ffe1ffad20e2ba7715a763b0d4910f0c391bb6d1507e7eeed6a6638
 
 RPROVIDES:${PN} += "scim-gtk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2-tools \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -9,7 +9,7 @@ RPM_HASH = "752bed2678c6a38539f0506344dd9979d514675fb7bb68ab1cd9fe17499eda799599
 
 RPROVIDES:${PN} += "mpitests-openmpi1"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

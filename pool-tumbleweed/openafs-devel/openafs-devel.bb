@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "openafs-devel \
 perl-AFS--ukernel \
 perl-AFS--ukernelc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libafshcrypto.so.2 \
 libc.so.6 \

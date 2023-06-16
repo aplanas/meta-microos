@@ -10,7 +10,7 @@ RPM_HASH = "10043ab14458619d8f591d3202bd5defa886f737c4cfef3df220778665f83898d243
 
 RPROVIDES:${PN} += "flex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfl-devel \

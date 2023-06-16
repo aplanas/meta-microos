@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-xelistings.sty \
 tex-xgreek.sty \
 texlive-xgreek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

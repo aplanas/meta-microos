@@ -22,8 +22,8 @@ python3.10dist-docker-compose \
 python310-docker-compose \
 python3dist-docker-compose"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PySocks \
 python310-PyYAML \

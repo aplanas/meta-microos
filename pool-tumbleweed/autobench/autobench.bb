@@ -16,8 +16,8 @@ RPM_HASH = "6a584701304cf5002c7c4f1ebc889621b0468ae56ec5747153207d24cd715531a3d4
 RPROVIDES:${PN} += "autobench \
 config-autobench"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 gawk \
 gnuplot \
 httperf \

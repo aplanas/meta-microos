@@ -20,7 +20,7 @@ tex-printsudoku.sty \
 tex-solvesudoku.sty \
 texlive-sudokubundle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

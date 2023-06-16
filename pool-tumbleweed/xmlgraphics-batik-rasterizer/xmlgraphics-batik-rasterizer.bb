@@ -22,7 +22,7 @@ osgi-org.apache.batik.rasterizer \
 osgi-org.apache.batik.rasterizer-ext \
 xmlgraphics-batik-rasterizer"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 xmlgraphics-batik"

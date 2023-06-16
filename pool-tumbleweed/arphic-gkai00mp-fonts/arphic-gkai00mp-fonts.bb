@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "arphic-gkai00mp-fonts \
 config-arphic-gkai00mp-fonts \
 ttf-arphic-gkai00mp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 arphic-fonts"
 
 inherit rpm

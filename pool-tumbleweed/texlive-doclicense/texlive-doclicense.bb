@@ -72,7 +72,7 @@ tex-doclicense-ukrainian.ldf \
 tex-doclicense.sty \
 texlive-doclicense"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -10,7 +10,7 @@ RPM_HASH = "827aa29488a9e5e66ebf7bc9c21c713d2a36f57ea549d60ad80d25e3caa1d47b7a17
 
 RPROVIDES:${PN} += "hackbench"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

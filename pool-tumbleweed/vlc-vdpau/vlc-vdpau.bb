@@ -18,7 +18,7 @@ libvdpau-sharpen-plugin.so \
 libvlc-vdpau.so.0 \
 vlc-vdpau"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libavcodec.so.58.134 \

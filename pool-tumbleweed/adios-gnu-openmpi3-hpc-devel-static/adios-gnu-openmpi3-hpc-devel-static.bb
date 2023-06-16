@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-openmpi3-hpc-devel-static"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 adios-1-13-1-gnu-openmpi3-hpc-devel-static"
 
 inherit rpm

@@ -222,7 +222,7 @@ tex-zppler7y.tfm \
 tex-zppler7y.vf \
 texlive-palatino"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

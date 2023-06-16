@@ -31,7 +31,7 @@ libVisualizations.so \
 libXVideo.so \
 libqmplay2.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \

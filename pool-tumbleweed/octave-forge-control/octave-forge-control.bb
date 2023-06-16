@@ -11,7 +11,7 @@ RPM_HASH = "9021733730693f05e448280edb6d68d7ebf54cd272d5b43e3438a3b6a60c2ca030ab
 
 RPROVIDES:${PN} += "octave-forge-control"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

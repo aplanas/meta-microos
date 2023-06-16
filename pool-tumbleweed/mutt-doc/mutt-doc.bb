@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mutt-/usr/share/doc/packages/mutt/COPYRIGHT \
 mutt-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mutt"
 
 inherit rpm

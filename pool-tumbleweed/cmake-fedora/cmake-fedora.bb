@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmake-fedora \
 config-cmake-fedora"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh"
 
 inherit rpm

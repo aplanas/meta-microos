@@ -87,8 +87,8 @@ perl-OpenQA--Worker \
 perl-OpenQA--YAML \
 perl-Perl--Critic--Policy--HashKeyQuotes"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ntp-daemon \
 perl \
 perl-Carp--Always \

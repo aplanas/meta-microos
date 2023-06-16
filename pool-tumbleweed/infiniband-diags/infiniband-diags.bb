@@ -11,8 +11,8 @@ RPM_HASH = "302f4e713cd55b78376c669074c20007c8477c109d9e45f50609bbcff68df2b7b0db
 RPROVIDES:${PN} += "config-infiniband-diags \
 infiniband-diags"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libibmad.so.5 \

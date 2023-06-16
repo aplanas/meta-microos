@@ -15,7 +15,7 @@ RPM_HASH = "d3fca7941b0851307f77ba4f3820d9df9d99bcaf1d96e8bc02b7a5f0bd2e758778a9
 RPROVIDES:${PN} += "phonon4qt5-backend \
 phonon4qt5-backend-vlc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

@@ -15,8 +15,8 @@ python3.10dist-rq \
 python310-rq \
 python3dist-rq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-click \
 python310-redis \

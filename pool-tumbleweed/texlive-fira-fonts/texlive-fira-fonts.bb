@@ -218,7 +218,7 @@ font-firasansthin \
 font-firasansultralight \
 texlive-fira-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

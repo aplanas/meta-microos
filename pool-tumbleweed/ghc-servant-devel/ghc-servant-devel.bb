@@ -10,7 +10,7 @@ RPM_HASH = "b8d893962d132c8d9d24e4bf00949f61e4116f9e2eed42746ca8e6879bef3259b3de
 RPROVIDES:${PN} += "ghc-devel-servant-0.19.1-CkczWd9pQYqHxItHfQRhzE \
 ghc-servant-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6 \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

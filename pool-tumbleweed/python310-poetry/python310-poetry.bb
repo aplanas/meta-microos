@@ -15,8 +15,8 @@ python3dist-poetry"
 
 RDEPENDS:${PN} += "-python310-requests-toolbelt >= 0.9.1 with python310-requests-toolbelt < 2 \
 -python310-tomlkit >= 0.11.4 with python310-tomlkit < 1.0 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-CacheControl \
 python310-build \

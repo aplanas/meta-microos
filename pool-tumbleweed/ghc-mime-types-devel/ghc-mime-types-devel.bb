@@ -10,7 +10,7 @@ RPM_HASH = "2a9845a194c0c3813196db844aec82b292128378a11ead87e11d8b32cc2e237d5c62
 RPROVIDES:${PN} += "ghc-devel-mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm \
 ghc-mime-types-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

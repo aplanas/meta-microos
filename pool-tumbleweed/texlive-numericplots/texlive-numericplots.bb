@@ -21,7 +21,7 @@ tex-NumericPlots-styles.tex \
 tex-NumericPlots.sty \
 texlive-numericplots"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

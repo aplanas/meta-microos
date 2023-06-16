@@ -11,7 +11,7 @@ RPM_HASH = "05affb2cefc2bd9995092168487293ee14e9728be6d682eb8c06d0106aaa86b6d8c2
 
 RPROVIDES:${PN} += "octave-forge-image-acquisition"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfltk.so.1.3 \

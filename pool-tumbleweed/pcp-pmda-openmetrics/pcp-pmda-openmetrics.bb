@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "config-pcp-pmda-openmetrics \
 pcp-pmda-openmetrics \
 pcp-pmda-prometheus"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 python3-pcp \
 python3-requests"
 

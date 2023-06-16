@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-parser-3 \
 rubygem-ruby-3.2.0-parser-3.1 \
 rubygem-ruby-3.2.0-parser-3.1.3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-ast-2.4 \
 update-alternatives"

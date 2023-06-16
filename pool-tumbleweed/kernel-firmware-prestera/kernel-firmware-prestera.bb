@@ -16,8 +16,8 @@ firmware-mrvl/prestera/mvsw-prestera-fw-v4.0.img \
 firmware-mrvl/prestera/mvsw-prestera-fw-v4.1.img \
 kernel-firmware-prestera"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

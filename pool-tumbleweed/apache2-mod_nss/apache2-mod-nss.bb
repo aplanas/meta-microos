@@ -15,9 +15,9 @@ config-apache2-mod-nss \
 libmodnss.so \
 mod-nss"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 apache-mmn-20120211 \
 apache2 \
 findutils \

@@ -61,7 +61,7 @@ tex-bchro8t.tfm \
 tex-bchro8t.vf \
 texlive-charter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

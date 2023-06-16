@@ -11,7 +11,7 @@ RPM_HASH = "e8c00970f525812a1e4c2d3ff5b9b2969e3d6f50c7bc7bb79418ec60e38035af1676
 
 RPROVIDES:${PN} += "libscalapack2-gnu-mvapich2-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libscalapack2-2-1-0-gnu-mvapich2-hpc"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "88387a606374fae3d98482fa93e7001f63a3db298fb99c9fca8e8d69d5289cff7212
 RPROVIDES:${PN} += "Regina-REXX \
 rexx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \

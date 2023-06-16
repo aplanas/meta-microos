@@ -36,7 +36,7 @@ RPM_HASH = "421ed9d01a6c3f86cdc0a1f64848be7a03a7ee1c08eaa8cce69ba2ccf447a372c699
 
 RPROVIDES:${PN} += "sonic-visualiser"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dssi \
 ladspa \
 ld-linux-aarch64.so.1 \

@@ -15,7 +15,7 @@ RPM_HASH = "5216224ea90891c960fddfe4c3daf91c3e6b992eb30081547b9583d7d3fed736fe76
 RPROVIDES:${PN} += "config-libchipcard \
 libchipcard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libchipcard.so.6 \

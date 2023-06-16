@@ -13,7 +13,7 @@ RPM_HASH = "ed70b9f87491ce99726cde7cfe6606c51dcffc43eb56318906ab6930a5ddf7e0e8a6
 
 RPROVIDES:${PN} += "hdf5-openmpi4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhdf5-200 \

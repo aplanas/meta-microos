@@ -11,7 +11,7 @@ RPM_HASH = "8c6a3f4a4de8d92c047c5115a9ea4b39d03404c736a3362c1c9a9fc8b0f2f372bdcb
 RPROVIDES:${PN} += "ghc-devel-vector-algorithms-0.9.0.1-BIFHuMvuTIO1lWGrhqtqm6 \
 ghc-vector-algorithms-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy \

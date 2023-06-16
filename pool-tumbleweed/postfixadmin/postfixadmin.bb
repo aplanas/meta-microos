@@ -20,10 +20,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-postfixadmin \
 postfixadmin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/sbin/sendmail \
 perl-DBI \
 perl-Email--Sender--Simple \

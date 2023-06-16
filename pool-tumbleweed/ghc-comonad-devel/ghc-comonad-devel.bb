@@ -10,7 +10,7 @@ RPM_HASH = "7015fee083d74cab5f54a526230d54c341783e2e9dee7a16e9ec3a38456d13b503ed
 RPROVIDES:${PN} += "ghc-comonad-devel \
 ghc-devel-comonad-5.0.8-9UnH7KDg5138z3eBCPM7y4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-comonad \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

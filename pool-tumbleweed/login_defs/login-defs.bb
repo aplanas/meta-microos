@@ -13,6 +13,6 @@ RPROVIDES:${PN} += "login-defs \
 login-defs-support-for-pam \
 login-defs-support-for-util-linux"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

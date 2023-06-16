@@ -14,6 +14,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-unifont-bitmap-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

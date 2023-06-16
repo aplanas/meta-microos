@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "dcbd \
 lldpad \
 open-lldp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libconfig.so.11 \

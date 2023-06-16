@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "python3.10dist-ranger-fm \
 python3dist-ranger-fm \
 ranger"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 file \
 python-abi \

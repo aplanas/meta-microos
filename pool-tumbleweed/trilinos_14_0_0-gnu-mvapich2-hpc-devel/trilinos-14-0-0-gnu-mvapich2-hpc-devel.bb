@@ -16,9 +16,9 @@ RPM_HASH = "3a4226712bdf7157426e3c6b152bda225fca72ce36cf131d53e71d2b2a98aa4f054e
 
 RPROVIDES:${PN} += "trilinos-14-0-0-gnu-mvapich2-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python \
+/usr/bin/sh \
 gnu-compilers-hpc \
 gnu-compilers-hpc-devel \
 hdf5-gnu-mvapich2-hpc-devel \

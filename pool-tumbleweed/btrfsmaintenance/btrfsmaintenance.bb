@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsmaintenance"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 btrfsprogs"
 
 inherit rpm

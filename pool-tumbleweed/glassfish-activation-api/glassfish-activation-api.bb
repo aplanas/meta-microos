@@ -22,7 +22,7 @@ mvn-javax.activation-javax.activation-api \
 mvn-javax.activation-javax.activation-api-pom- \
 osgi-javax.activation-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem"
 

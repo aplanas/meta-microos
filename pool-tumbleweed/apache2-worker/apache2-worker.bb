@@ -14,8 +14,8 @@ RPM_HASH = "49ee7ed0cff77f019f53ba3faed7a1e95392e22d2cc38521269feebbb42cde3fd3ca
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-worker"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 grep \

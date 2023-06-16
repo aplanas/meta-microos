@@ -13,7 +13,7 @@ RPM_HASH = "0797de569dbf52c92195381605bff8b7562267160e54cd4921a3bbdc24bccb76dc15
 
 RPROVIDES:${PN} += "boinc-manager"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libboinc.so.7 \

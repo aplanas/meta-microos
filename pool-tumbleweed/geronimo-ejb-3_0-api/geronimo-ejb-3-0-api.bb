@@ -18,7 +18,7 @@ geronimo-ejb-3-0-api \
 mvn-org.apache.geronimo.specs-geronimo-ejb-3.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-ejb-3.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 annotation-1-0-api \
 interceptor-3-0-api \
 java-headless \

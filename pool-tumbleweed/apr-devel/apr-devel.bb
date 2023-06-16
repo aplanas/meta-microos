@@ -16,9 +16,9 @@ RPROVIDES:${PN} += "apr-devel \
 libapr1-devel \
 pkgconfig-apr-1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 libapr1-0"
 
 inherit rpm

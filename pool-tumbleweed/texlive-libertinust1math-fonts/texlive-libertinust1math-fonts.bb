@@ -187,7 +187,7 @@ font-bdxsfm \
 font-libertinust1math \
 texlive-libertinust1math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

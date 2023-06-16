@@ -10,7 +10,7 @@ RPM_HASH = "0ddac6f769a2a03a8204ecb9c5a1f59398e98d22a839429b27d1b985add677a0f88b
 
 RPROVIDES:${PN} += "pcp-pmda-bind2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-File--Slurp \
 perl-LWP--UserAgent \
 perl-PCP-PMDA \

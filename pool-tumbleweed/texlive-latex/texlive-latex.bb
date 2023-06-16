@@ -171,7 +171,7 @@ tex-utf8-2018.def \
 tex-utf8.def \
 texlive-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

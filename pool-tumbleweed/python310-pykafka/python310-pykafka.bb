@@ -21,8 +21,8 @@ python3.10dist-pykafka \
 python310-pykafka \
 python3dist-pykafka"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-gevent \
 python310-kazoo \

@@ -16,7 +16,7 @@ tex-ot1cdss.fd \
 tex-ot1cdtt.fd \
 texlive-duerer-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

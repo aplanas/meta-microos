@@ -27,7 +27,7 @@ mvn-org.bouncycastle-bcprov-jdk18on \
 mvn-org.bouncycastle-bcprov-jdk18on-pom- \
 osgi-bcprov"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 javapackages-tools"

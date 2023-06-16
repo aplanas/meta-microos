@@ -11,7 +11,7 @@ RPM_HASH = "606ad3c3a9971bd28274ae54f184895bdc1b46b3e107303e9791c78cd004af0be03d
 
 RPROVIDES:${PN} += "ioquake3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libc.so.6 \

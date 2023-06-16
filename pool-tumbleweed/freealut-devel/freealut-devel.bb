@@ -12,8 +12,8 @@ RPM_HASH = "7ed8a6e73a2f87835eec9958f7d062aed34affc7db74d4855f4a455ce24406213b3e
 RPROVIDES:${PN} += "freealut-devel \
 pkgconfig-freealut"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libalut0 \
 pkgconfig-openal"

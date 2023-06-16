@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pst-knot.sty \
 tex-pst-knot.tex \
 texlive-pst-knot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

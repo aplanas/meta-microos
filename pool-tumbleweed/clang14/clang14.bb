@@ -17,8 +17,8 @@ libclang-rt.tsan-aarch64.so \
 libclang-rt.ubsan-minimal-aarch64.so \
 libclang-rt.ubsan-standalone-aarch64.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libLLVM.so.14 \
 libc.so.6 \

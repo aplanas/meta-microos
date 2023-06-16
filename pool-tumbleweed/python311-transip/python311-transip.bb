@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-transip \
 python311-transip \
 python3dist-transip"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-cryptography \
 python311-requests \

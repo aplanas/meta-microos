@@ -16,8 +16,8 @@ python39-openapi-spec-validator \
 python3dist-openapi-spec-validator"
 
 RDEPENDS:${PN} += "-python39-jsonschema >= 4.0.0 with python39-jsonschema < 4.18 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-importlib-resources \
 python39-jsonschema-spec \

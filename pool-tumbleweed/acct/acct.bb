@@ -11,7 +11,7 @@ RPM_HASH = "56f90fb78d8ad4fea2ddfbf54b0b12a24815119d1914c96c37b9d5afa3f738029f33
 RPROVIDES:${PN} += "acct \
 config-acct"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 logrotate"

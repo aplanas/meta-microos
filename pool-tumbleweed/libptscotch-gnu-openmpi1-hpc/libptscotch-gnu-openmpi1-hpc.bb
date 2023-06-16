@@ -11,7 +11,7 @@ RPM_HASH = "859ce218f6746c9d51631e36527083f49f5833126c4a43dcca5ebe85b3a53af07837
 
 RPROVIDES:${PN} += "libptscotch-gnu-openmpi1-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libptscotch-6-1-0-gnu-openmpi1-hpc"
 
 inherit rpm

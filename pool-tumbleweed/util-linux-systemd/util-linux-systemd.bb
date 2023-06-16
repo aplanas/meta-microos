@@ -9,10 +9,10 @@ PV = "2.38.1"
 RPM_NAME = "util-linux-systemd-2.38.1-13.1.aarch64.rpm"
 RPM_HASH = "7eb1d5fa8e46c87756821ea629c3f3b5f11bdab4a13ff49983f3ef78151465534719cedb45fce9fdaf25fc71b278b5204be755eeb531d660237f7f1a84d06638"
 
-RPROVIDES:${PN} += "/bin/logger \
+RPROVIDES:${PN} += "/usr/bin/logger \
 util-linux-systemd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \

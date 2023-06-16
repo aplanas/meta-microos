@@ -27,8 +27,8 @@ python311-python-lsp-server \
 python3dist-python-lsp-server"
 
 RDEPENDS:${PN} += "-python311-jedi >= 0.17.2 with python311-jedi < 0.19.0 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docstring-to-markdown \
 python311-pluggy \

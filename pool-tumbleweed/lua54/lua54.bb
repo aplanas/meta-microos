@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "Lua-API \
 lua \
 lua54"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblua5.4.so.5 \

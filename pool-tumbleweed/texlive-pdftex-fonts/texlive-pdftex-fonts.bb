@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-dummyspace \
 font-pdftex \
 texlive-pdftex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

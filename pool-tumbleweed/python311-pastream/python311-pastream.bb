@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-pastream \
 python311-pastream \
 python3dist-pastream"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsndfile \

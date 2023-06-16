@@ -16,7 +16,7 @@ tex-datetime2-lsorbian-utf8.ldf \
 tex-datetime2-lsorbian.ldf \
 texlive-datetime2-lsorbian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

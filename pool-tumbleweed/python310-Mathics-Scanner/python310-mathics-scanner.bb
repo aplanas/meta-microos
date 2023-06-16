@@ -13,9 +13,9 @@ python3.10dist-mathics-scanner \
 python310-Mathics-Scanner \
 python3dist-mathics-scanner"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyYAML \
 python310-chardet \

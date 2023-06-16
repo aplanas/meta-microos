@@ -15,7 +15,7 @@ RPM_HASH = "f6eb76c0b266489a97fa4a493e6e088b499c14d707fc079d054ddf23c379b2463146
 RPROVIDES:${PN} += "libosmocore-tools \
 libosmocore-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmocore.so.20 \

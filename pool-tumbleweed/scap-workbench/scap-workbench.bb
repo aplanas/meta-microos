@@ -16,7 +16,7 @@ RPM_HASH = "98c071caf3484dde5e93c8ce90f065f132d794bebb9949c336ace6d4815a8de8a514
 
 RPROVIDES:${PN} += "scap-workbench"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \

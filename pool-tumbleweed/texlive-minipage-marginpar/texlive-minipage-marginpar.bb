@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-minipage-marginpar.sty \
 tex-mpgmpar.sty \
 texlive-minipage-marginpar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -26,7 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale-vi;ru;bg \
 sil-charis-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

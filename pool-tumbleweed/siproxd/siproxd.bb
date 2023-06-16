@@ -14,7 +14,7 @@ RPM_HASH = "384f7bea7330ccc8a6161a5fda8d06f6e2c7e01a15752585baca189d8de5acfb8ddc
 RPROVIDES:${PN} += "config-siproxd \
 siproxd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1 \

@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-german-legal-book.bbx \
 tex-german-legal-book.cbx \
 texlive-biblatex-german-legal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

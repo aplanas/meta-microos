@@ -26,7 +26,7 @@ tex-bxjsreport.cls \
 tex-bxjsslide.cls \
 texlive-bxjscls"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

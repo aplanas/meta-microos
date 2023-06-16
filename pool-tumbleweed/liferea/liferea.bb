@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "liblifereawebextension.so \
 liferea \
 typelib-Liferea"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

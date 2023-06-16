@@ -15,7 +15,7 @@ tex-zitie.sty \
 tex-zitie.xetex.def \
 texlive-zitie"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

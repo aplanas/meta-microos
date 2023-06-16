@@ -35,7 +35,7 @@ mvn-saxon-saxon \
 saxon \
 saxon6"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/update-alternatives \
 java-headless \
 javapackages-filesystem \

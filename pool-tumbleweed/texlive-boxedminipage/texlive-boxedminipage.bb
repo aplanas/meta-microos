@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-boxedminipage.sty \
 tex-boxedminipage2e.sty \
 texlive-boxedminipage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

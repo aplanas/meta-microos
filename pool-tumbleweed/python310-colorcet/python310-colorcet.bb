@@ -15,8 +15,8 @@ python3.10dist-colorcet \
 python310-colorcet \
 python3dist-colorcet"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-param \
 python310-pyct \

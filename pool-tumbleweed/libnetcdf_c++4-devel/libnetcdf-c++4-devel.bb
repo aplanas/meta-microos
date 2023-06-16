@@ -12,8 +12,8 @@ libnetcdf-devel-/usr/lib64/libnetcdf-c++.so \
 netcdf-cxx4-tools \
 pkgconfig-netcdf-cxx4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libnetcdf-c++4-1 \
 pkgconfig-netcdf"
 

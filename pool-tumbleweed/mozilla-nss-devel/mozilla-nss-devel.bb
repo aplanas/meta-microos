@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "mozilla-nss-devel \
 pkgconfig-nss \
 pkgconfig-nss-util"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libfreebl3 \
 libsoftokn3 \
 mozilla-nss \

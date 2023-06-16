@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-ltxmdf.cls \
 tex-mdframed.sty \
 texlive-mdframed"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

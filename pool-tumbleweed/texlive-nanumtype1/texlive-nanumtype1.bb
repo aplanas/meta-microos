@@ -894,7 +894,7 @@ tex-ts1nanummjmo.tfm \
 tex-ts1nanummjmo.vf \
 texlive-nanumtype1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

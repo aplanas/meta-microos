@@ -19,7 +19,7 @@ libfitRational1.so.1 \
 libplanck-wavelength.so.1 \
 scidavis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

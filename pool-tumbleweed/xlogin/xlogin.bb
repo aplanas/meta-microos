@@ -25,8 +25,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xlogin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 textutils"
 
 inherit rpm

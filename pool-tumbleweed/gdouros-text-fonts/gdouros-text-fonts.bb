@@ -61,7 +61,7 @@ gdouros-asea-fonts \
 gdouros-avdira-fonts \
 gdouros-text-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.9dist-fanficfare \
 python39-fanficfare \
 python3dist-fanficfare"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-beautifulsoup4 \
 python39-chardet \

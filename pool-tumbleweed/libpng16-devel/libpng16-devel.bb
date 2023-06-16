@@ -15,8 +15,8 @@ RPM_HASH = "06663b505e5511b3c8bb18992586d0e42f33133d950cd00fda71ac71aa9e7efe7411
 RPROVIDES:${PN} += "libpng16-devel \
 pkgconfig-libpng16"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libpng16-16 \
 pkgconfig \

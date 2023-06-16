@@ -21,8 +21,8 @@ python3.10dist-json5 \
 python310-json5 \
 python3dist-json5"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python310-setuptools"

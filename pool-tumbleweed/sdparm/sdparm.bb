@@ -18,7 +18,7 @@ RPM_HASH = "696fab98dd2520fb8e05c4610f03118ded1753e32cd50aa54126ce3dff1ba78c61f8
 RPROVIDES:${PN} += "scsi-/sbin/sdparm \
 sdparm"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsgutils2-1.48.so.2"

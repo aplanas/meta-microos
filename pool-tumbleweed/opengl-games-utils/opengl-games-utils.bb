@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengl-games-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/glxinfo \
+RDEPENDS:${PN} += "/usr/bin/glxinfo \
+/usr/bin/sh \
 zenity"
 
 inherit rpm

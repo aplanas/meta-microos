@@ -14,8 +14,8 @@ python3.10dist-qet-tb-generator \
 python310-qet-tb-generator \
 python3dist-qet-tb-generator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-qt5 \
 qelectrotech \

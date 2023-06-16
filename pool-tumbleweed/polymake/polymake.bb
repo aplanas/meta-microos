@@ -308,7 +308,7 @@ perl-application \
 perl-namespaces \
 polymake"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libbliss.so.0.77 \

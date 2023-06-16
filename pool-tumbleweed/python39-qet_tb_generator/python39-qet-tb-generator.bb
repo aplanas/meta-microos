@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-qet-tb-generator \
 python39-qet-tb-generator \
 python3dist-qet-tb-generator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-qt5 \
 qelectrotech \

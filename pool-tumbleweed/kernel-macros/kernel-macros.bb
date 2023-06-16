@@ -25,7 +25,7 @@ rpm-macro-linux-arch \
 rpm-macro-linux-make-arch \
 rpm-macro-suse-kernel-module-package"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh"
 
 inherit rpm

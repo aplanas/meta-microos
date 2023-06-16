@@ -21,7 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-cabin-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

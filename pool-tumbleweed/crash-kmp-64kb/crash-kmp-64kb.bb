@@ -22,7 +22,7 @@ crash-kmp-64kb-k6.3.4-1 \
 kmod-crash.ko \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-64kb \

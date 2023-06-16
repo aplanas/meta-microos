@@ -77,7 +77,7 @@ tex-simurgh-unibidi.sty \
 tex-simurgh.sty \
 texlive-simurgh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

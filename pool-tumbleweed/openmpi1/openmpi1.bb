@@ -26,7 +26,7 @@ RPM_HASH = "04508c56b99b2f891c10750a301692b024c4d4ffedf4110ca57d45ee1a00d24cb736
 
 RPROVIDES:${PN} += "openmpi1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.12 \

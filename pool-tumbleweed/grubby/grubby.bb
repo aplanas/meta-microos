@@ -13,7 +13,7 @@ RPM_HASH = "440abb91651e35d3f88e92c16f4b4c1aec5f2499b269ede20a2f33561fc5a5042b2f
 
 RPROVIDES:${PN} += "grubby"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \

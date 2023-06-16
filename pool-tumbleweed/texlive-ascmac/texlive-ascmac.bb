@@ -20,7 +20,7 @@ tex-ascmac.sty \
 tex-tascmac.sty \
 texlive-ascmac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

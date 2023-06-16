@@ -20,8 +20,8 @@ python3.10dist-unearth \
 python310-unearth \
 python3dist-unearth"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-packaging \
 python310-requests \

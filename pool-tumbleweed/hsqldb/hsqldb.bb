@@ -29,7 +29,7 @@ hsqldb \
 mvn-org.hsqldb-hsqldb \
 mvn-org.hsqldb-hsqldb-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java \
 java-headless \
 javapackages-filesystem \

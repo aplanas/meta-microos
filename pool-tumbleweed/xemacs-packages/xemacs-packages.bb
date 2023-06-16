@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "config-xemacs-packages \
 xemacs-/usr/share/xemacs/xemacs-packages/etc/auctex/style/amsart.elc \
 xemacs-packages"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

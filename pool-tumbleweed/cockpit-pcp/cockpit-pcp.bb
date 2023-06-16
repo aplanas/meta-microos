@@ -9,7 +9,7 @@ RPM_HASH = "260510a3a9970d233a1292e0c6abcabfacdb14e9e3d4bdabc84d502a37c0f946f2fb
 
 RPROVIDES:${PN} += "cockpit-pcp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cockpit-bridge \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -10,7 +10,7 @@ RPM_HASH = "10f7163732465e01fecc5d6334313ddbea608a8b5ae138cf6a5191fef97f354f80c3
 
 RPROVIDES:${PN} += "libscotch-6-1-0-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

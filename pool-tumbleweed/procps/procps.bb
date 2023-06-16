@@ -22,7 +22,7 @@ PV = "3.3.17"
 RPM_NAME = "procps-3.3.17-12.3.aarch64.rpm"
 RPM_HASH = "a040f560b59357253782fc10af8ef8e4b0f92bc2f0417abb4d079a3dd7680a40792577d3c44016e4ac8573da7153847d86bd5528edb2e703aa1bea2c9bdd3daf"
 
-RPROVIDES:${PN} += "/bin/ps \
+RPROVIDES:${PN} += "/usr/bin/ps \
 procps \
 ps"
 

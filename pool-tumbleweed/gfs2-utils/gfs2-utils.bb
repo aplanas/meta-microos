@@ -11,7 +11,7 @@ RPM_HASH = "c1d8ce1e773f40be8e59d770eb3119c7f16b8bbf6f2ec8c2d308383fd3a2cdec85e0
 
 RPROVIDES:${PN} += "gfs2-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libbz2.so.1 \

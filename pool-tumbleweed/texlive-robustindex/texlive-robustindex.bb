@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-robustglossary.sty \
 tex-robustindex.sty \
 texlive-robustindex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

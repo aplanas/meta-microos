@@ -20,9 +20,9 @@ RPROVIDES:${PN} += "config-dehydrated \
 dehydrated \
 letsencrypt.sh"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/getent \
+/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 coreutils \

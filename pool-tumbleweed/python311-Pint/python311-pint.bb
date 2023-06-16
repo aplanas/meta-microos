@@ -19,9 +19,9 @@ RPROVIDES:${PN} += "python3.11dist-pint \
 python311-Pint \
 python3dist-pint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-importlib-metadata \
 python311-importlib-resources \

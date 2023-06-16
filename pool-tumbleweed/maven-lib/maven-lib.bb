@@ -40,7 +40,7 @@ mvn-org.apache.maven-maven-settings-pom- \
 mvn-org.apache.maven-maven-slf4j-provider \
 mvn-org.apache.maven-maven-slf4j-provider-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aopalliance \
 apache-commons-cli \
 apache-commons-codec \

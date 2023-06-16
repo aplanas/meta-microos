@@ -13,11 +13,11 @@ RPM_HASH = "60b27090918516c037e144a5881a32d6f4195ad7f17775eddab54319ce990c5d6930
 RPROVIDES:${PN} += "config-vnstat \
 vnstat"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/ls \
-/bin/sh \
-/bin/su \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/killall \
+/usr/bin/ls \
+/usr/bin/sh \
+/usr/bin/su \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

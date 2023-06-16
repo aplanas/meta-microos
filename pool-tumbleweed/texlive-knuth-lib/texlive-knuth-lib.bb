@@ -25,7 +25,7 @@ tex-webmac.tex \
 texlive-knuth-lib \
 texlive-misc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

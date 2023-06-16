@@ -16,7 +16,7 @@ font-stmary8 \
 font-stmary9 \
 texlive-stmaryrd-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -25,7 +25,7 @@ man-ovf2ovp.1 \
 man-ovp2ovf.1 \
 texlive-omegaware"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

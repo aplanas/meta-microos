@@ -22,7 +22,7 @@ tex-gmdocc.cls \
 tex-gmoldcomm.sty \
 texlive-gmdoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

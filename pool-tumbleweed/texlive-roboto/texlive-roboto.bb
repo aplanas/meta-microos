@@ -4670,7 +4670,7 @@ tex-roboto.map \
 tex-roboto.sty \
 texlive-roboto"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

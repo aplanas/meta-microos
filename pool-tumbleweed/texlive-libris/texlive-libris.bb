@@ -60,7 +60,7 @@ tex-ylyrw8t.tfm \
 tex-ylyrw8t.vf \
 texlive-libris"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

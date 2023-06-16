@@ -20,7 +20,7 @@ tex-vaucanson-g.sty \
 tex-vaucanson.sty \
 texlive-vaucanson-g"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

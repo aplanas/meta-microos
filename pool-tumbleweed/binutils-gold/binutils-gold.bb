@@ -11,7 +11,7 @@ RPM_HASH = "a6be5f2773aedf9d64d665a828270ca472f046ab79946b6f35780dce627489dc4bc1
 
 RPROVIDES:${PN} += "binutils-gold"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 binutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

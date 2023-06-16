@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-computermodern \
 font-texpalladiol \
 texlive-figbas-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

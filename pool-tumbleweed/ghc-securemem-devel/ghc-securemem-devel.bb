@@ -10,7 +10,7 @@ RPM_HASH = "0a8b1a2871f8f0b24e1e452076c0ef2158f910525ba4a45aab01d97aeafceedd3a44
 RPROVIDES:${PN} += "ghc-devel-securemem-0.1.10-BbcWu3otOS6JQaPW3JfszZ \
 ghc-securemem-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg \

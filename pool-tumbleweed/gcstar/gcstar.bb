@@ -1264,8 +1264,8 @@ perl-GCUtils \
 perl-GCWarningDialog \
 perl-GCWidgets"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl \
 perl-DateTime--Format--Strptime \
 perl-Gtk3 \

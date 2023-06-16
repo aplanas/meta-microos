@@ -29,7 +29,7 @@ RPROVIDES:${PN} += "tex-sidebars.sty \
 tex-talk.cls \
 texlive-talk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,8 +16,8 @@ python3.10dist-pyjwkest \
 python310-pyjwkest \
 python3dist-pyjwkest"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-future \
 python310-pycryptodomex \

@@ -15,8 +15,8 @@ python3.10dist-urlgrabber \
 python310-urlgrabber \
 python3dist-urlgrabber"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pycurl \
 update-alternatives"

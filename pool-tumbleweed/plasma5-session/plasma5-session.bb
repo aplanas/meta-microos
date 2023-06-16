@@ -12,10 +12,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "kdebase4-session \
 plasma5-session"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/cut \
+RDEPENDS:${PN} += "/usr/bin/cut \
 /usr/bin/grep \
 /usr/bin/sed \
+/usr/bin/sh \
 breeze \
 breeze5-decoration \
 khotkeys5 \

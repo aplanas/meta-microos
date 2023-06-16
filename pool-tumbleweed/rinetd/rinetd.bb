@@ -20,7 +20,7 @@ RPM_HASH = "5f1d4f9660b802905f26f1ad82dde6ae7c6899752c1234f0d680fa8acaf4186cda7a
 RPROVIDES:${PN} += "config-rinetd \
 rinetd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

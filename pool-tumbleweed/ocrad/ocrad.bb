@@ -17,7 +17,7 @@ RPM_HASH = "633a78cec63baa59c47ee9a458d539785139bf0a58078363e759fe90d19bba35eb9f
 
 RPROVIDES:${PN} += "ocrad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

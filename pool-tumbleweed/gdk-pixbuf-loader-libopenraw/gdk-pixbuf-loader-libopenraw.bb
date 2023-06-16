@@ -12,7 +12,7 @@ RPM_HASH = "8353d7da4fa2f91f0ea2e64dfb18928a088bd701ff4f96a8dc7a0ccf19bd5d4881a7
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libopenraw \
 libopenraw-pixbuf.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gdk-pixbuf-query-loaders \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

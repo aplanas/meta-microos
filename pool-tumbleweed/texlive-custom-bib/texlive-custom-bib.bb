@@ -16,7 +16,7 @@ tex-makebst.tex \
 tex-shorthnd.tex \
 texlive-custom-bib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

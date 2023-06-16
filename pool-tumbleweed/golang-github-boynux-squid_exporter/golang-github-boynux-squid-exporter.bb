@@ -9,7 +9,7 @@ RPM_HASH = "4ad60a2f1c826862a57241534d9df77c450e77a0676e84b093f44827ea6b0c76c58d
 
 RPROVIDES:${PN} += "golang-github-boynux-squid-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 shadow \
 systemd"

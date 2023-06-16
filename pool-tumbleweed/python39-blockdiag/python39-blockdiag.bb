@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-blockdiag \
 python39-blockdiag \
 python3dist-blockdiag"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Pillow \
 python39-funcparserlib \

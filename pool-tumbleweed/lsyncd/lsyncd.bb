@@ -10,8 +10,8 @@ RPM_HASH = "927ea2259de9ce7a990175b2157d1baabb49875c98f2e8c83a4b06b42020750bc707
 RPROVIDES:${PN} += "config-lsyncd \
 lsyncd"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblua5.4.so.5 \

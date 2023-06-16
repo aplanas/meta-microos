@@ -197,7 +197,7 @@ font-lmsansdemicond10 \
 font-lmsansquot8 \
 texlive-lm-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "config-rmt-server-config \
 rmt-server-config \
 rmt-server-configuration"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 rmt-server"
 
 inherit rpm

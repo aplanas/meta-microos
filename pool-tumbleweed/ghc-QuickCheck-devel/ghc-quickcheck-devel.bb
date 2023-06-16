@@ -10,7 +10,7 @@ RPM_HASH = "a7ca517ee83f8e2866515144b6ab82d7bc677de854fd82faa973387b5035f8a2d1da
 RPROVIDES:${PN} += "ghc-QuickCheck-devel \
 ghc-devel-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-QuickCheck \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

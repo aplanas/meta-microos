@@ -14,7 +14,7 @@ RPM_HASH = "22a0f9d7546e6c63e3d9446ffee4a376b90d03f5866c7de09abe6a0977a9e7c7a3e6
 RPROVIDES:${PN} += "config-usb-modeswitch \
 usb-modeswitch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/tclsh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

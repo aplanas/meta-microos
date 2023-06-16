@@ -15,8 +15,8 @@ python3.10dist-git-pw \
 python310-git-pw \
 python3dist-git-pw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python310-arrow \

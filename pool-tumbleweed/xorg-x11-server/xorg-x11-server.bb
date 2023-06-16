@@ -31,9 +31,9 @@ xorg-x11-driver-video \
 xorg-x11-server \
 xorg-x11-server-glx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 Mesa \
 fillup \

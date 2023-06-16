@@ -11,7 +11,7 @@ PV = "6.24.10"
 RPM_NAME = "tcsh-6.24.10-1.1.aarch64.rpm"
 RPM_HASH = "42f0761b910be5ead2e2184cf4ab4c38bdd16640da23caa375ec736a5f8ce3ea7a93e8c0aa8718174c401f411dbe813542aca842c8806155cca79e1f6f460030"
 
-RPROVIDES:${PN} += "/bin/csh \
+RPROVIDES:${PN} += "/usr/bin/csh \
 config-tcsh \
 tcsh"
 

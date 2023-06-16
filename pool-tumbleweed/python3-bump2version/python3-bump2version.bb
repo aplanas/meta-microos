@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3-bump2version \
 python3.10dist-bump2version \
 python3dist-bump2version"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

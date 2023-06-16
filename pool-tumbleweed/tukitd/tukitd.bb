@@ -10,7 +10,7 @@ RPM_HASH = "9b72c80a73a300a36a97bccca8e384749e875ee59bc2874e0d14706ad1fe1095db41
 
 RPROVIDES:${PN} += "tukitd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

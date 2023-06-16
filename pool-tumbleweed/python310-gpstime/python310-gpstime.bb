@@ -18,8 +18,8 @@ python3.10dist-gpstime \
 python310-gpstime \
 python3dist-gpstime"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-appdirs \
 python310-python-dateutil \

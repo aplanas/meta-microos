@@ -9,8 +9,8 @@ RPM_HASH = "1a6cabf4f08542769a8b4f2230584ee13a8e758cab2e02dc18ebc79d32d7ec4e7ea0
 
 RPROVIDES:${PN} += "hunspell-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 hunspell \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

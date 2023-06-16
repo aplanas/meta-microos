@@ -22,7 +22,7 @@ tex-psfonts-t1.map \
 tex-psfonts.map \
 texlive-updmap-map"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

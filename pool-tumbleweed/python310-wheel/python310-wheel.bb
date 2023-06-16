@@ -21,8 +21,8 @@ python3.10dist-wheel \
 python310-wheel \
 python3dist-wheel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi"
 

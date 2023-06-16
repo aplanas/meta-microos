@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "man-synctex.1 \
 man-synctex.5 \
 texlive-synctex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

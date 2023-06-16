@@ -17,9 +17,9 @@ RPROVIDES:${PN} += "group-wsdd \
 user-wsdd \
 wsdd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 sysuser-shadow"

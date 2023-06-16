@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "group-bin \
 system-user-bin \
 user-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow \
 user-daemon"
 

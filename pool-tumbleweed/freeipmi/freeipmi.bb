@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "config-freeipmi \
 freeipmi \
 freeipmi-ipmimonitoring"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

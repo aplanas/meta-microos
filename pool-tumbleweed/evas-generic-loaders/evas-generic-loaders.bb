@@ -14,7 +14,7 @@ RPM_HASH = "dd04671da25e8c19494665c115e4c3354ba3c53fdb954f7448711593dec7657ba43f
 
 RPROVIDES:${PN} += "evas-generic-loaders"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

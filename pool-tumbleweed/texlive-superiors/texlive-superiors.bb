@@ -18,7 +18,7 @@ tex-superiors.sty \
 tex-sups.enc \
 texlive-superiors"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

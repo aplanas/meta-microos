@@ -64,7 +64,7 @@ tex-ts1bsk.fd \
 tex-ubskex.fd \
 texlive-boisik"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

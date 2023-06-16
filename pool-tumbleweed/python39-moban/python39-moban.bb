@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-moban \
 python39-moban \
 python3dist-moban"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python39-Jinja2 \

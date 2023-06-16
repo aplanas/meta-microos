@@ -14,8 +14,8 @@ python3.10dist-django-eremaea2 \
 python310-django-eremaea2 \
 python3dist-django-eremaea2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 eremaea \
 python-abi \
 python310-Django \

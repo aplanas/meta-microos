@@ -25,8 +25,8 @@ python3.10dist-hatch-fancy-pypi-readme \
 python310-hatch-fancy-pypi-readme \
 python3dist-hatch-fancy-pypi-readme"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python3.10dist-hatchling \
 python3.10dist-tomli \

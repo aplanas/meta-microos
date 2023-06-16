@@ -25,7 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-mozilla-prebuilt"
 
-RDEPENDS:${PN} += "/bin/cp \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/cp \
+/usr/bin/sh"
 
 inherit rpm

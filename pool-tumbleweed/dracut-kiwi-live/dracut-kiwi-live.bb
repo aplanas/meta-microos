@@ -10,7 +10,7 @@ RPM_HASH = "137ca1a076cd13db3dea4f0326b7db26f16355c9fcd163bc45ac52bce9f9bd22b0be
 
 RPROVIDES:${PN} += "dracut-kiwi-live"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 device-mapper \
 dialog \
 dracut \

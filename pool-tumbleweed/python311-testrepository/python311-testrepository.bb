@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.11dist-testrepository \
 python311-testrepository \
 python3dist-testrepository"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-dbm \
 python311-extras \

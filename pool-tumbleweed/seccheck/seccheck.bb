@@ -14,9 +14,9 @@ RPROVIDES:${PN} += "config-seccheck \
 seccheck \
 suse-security-check-3.0"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 bash \
 fillup \

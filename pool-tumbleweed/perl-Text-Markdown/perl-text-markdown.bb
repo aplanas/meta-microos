@@ -19,8 +19,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl-Text--Markdown \
 perl-Text-Markdown"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 update-alternatives"
 

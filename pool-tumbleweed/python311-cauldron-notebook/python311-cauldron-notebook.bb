@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-cauldron-notebook \
 python311-cauldron-notebook \
 python3dist-cauldron-notebook"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Flask \
 python311-Jinja2 \

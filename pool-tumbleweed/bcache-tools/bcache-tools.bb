@@ -9,9 +9,9 @@ RPM_HASH = "a652dec6e14edf260090e4c60791ad54a108c298381c9f4f3f5bd1723f97b698c51c
 
 RPROVIDES:${PN} += "bcache-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \

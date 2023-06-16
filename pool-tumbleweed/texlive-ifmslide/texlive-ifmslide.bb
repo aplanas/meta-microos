@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-ifmslide.cfg \
 tex-ifmslide.sty \
 texlive-ifmslide"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

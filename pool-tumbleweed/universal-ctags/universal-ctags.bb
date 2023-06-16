@@ -11,7 +11,7 @@ RPM_HASH = "9d5979acf1c3d3bad1bb21eff03bb96c75ca37267d63b89cd03f06d22ebafbf6d069
 
 RPROVIDES:${PN} += "universal-ctags"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

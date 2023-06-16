@@ -17,8 +17,8 @@ RPM_HASH = "70517ac67f3978bcbe5ad15608c3bb792c131ac14e48b7810e96697a70f212e86860
 RPROVIDES:${PN} += "config-libteam-tools \
 libteam-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

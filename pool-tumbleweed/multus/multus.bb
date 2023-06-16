@@ -11,6 +11,6 @@ RPM_HASH = "c16055efa72045e91514b8758ab33ec57aa53b992bcb7011084e25c0d69b1524a630
 
 RPROVIDES:${PN} += "multus"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

@@ -34,8 +34,8 @@ libzypp-repovarexpand \
 libzypp.so.1722 \
 yast2-packagemanager"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-thread.so.1.82.0 \
 libc.so.6 \

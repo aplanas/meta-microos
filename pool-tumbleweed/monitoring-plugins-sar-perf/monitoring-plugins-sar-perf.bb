@@ -23,9 +23,9 @@ RPROVIDES:${PN} += "config-monitoring-plugins-sar-perf \
 monitoring-plugins-sar-perf \
 nagios-plugins-sar-perf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 python \
 sysstat"
 

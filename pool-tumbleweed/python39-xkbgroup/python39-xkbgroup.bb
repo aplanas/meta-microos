@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-xkbgroup \
 python39-xkbgroup \
 python3dist-xkbgroup"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives \
 xorg-x11-server"

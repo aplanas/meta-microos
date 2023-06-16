@@ -12,7 +12,7 @@ RPM_HASH = "d064912864fc1fcf70eb64471d22ab2622a67c9c82912c662003613d9018d2681544
 RPROVIDES:${PN} += "config-wrapsix \
 wrapsix"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

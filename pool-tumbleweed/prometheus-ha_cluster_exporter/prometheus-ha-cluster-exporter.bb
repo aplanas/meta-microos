@@ -10,8 +10,8 @@ RPM_HASH = "3f0b0b390e160bd99f8cbfb45877fa0cb9f1911d772472333e785445b573e85bb505
 RPROVIDES:${PN} += "ha-cluster-exporter \
 prometheus-ha-cluster-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup"
 

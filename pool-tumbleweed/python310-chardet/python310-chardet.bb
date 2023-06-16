@@ -39,8 +39,8 @@ python3.10dist-chardet \
 python310-chardet \
 python3dist-chardet"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi"
 

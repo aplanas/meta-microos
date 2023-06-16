@@ -13,8 +13,8 @@ python3.10dist-junitxml \
 python310-junitxml \
 python3dist-junitxml"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

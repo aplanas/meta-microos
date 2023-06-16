@@ -14,8 +14,8 @@ RPM_HASH = "db2ee956395729da67a521577e360a5902923b5cf57831bcd79f3b331de22dd29cde
 RPROVIDES:${PN} += "java-binfmt-misc \
 jpackage-utils-/usr/bin/jarwrapper"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -11,9 +11,9 @@ RPM_HASH = "6b175b7b01ce584680edaa51f2924f7c36e3fa8ddc29541e2f8db61bc7f442088b4e
 RPROVIDES:${PN} += "config-rubygem-passenger \
 rubygem-passenger"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/node \
+RDEPENDS:${PN} += "/usr/bin/node \
 /usr/bin/ruby \
+/usr/bin/sh \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \

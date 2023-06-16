@@ -18,9 +18,9 @@ swi-pl \
 swi-prolog \
 swipl"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXft.so.2 \

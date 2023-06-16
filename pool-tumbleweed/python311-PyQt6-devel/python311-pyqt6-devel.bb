@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "libpy3.11qt6.so \
 python311-PyQt6-devel \
 python311-qt6-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cmake-Qt6Bluetooth \
 cmake-Qt6Designer \
 cmake-Qt6Help \

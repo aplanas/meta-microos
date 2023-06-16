@@ -23,7 +23,7 @@ tex-lisp-string.sty \
 tex-lisp-util.sty \
 texlive-lisp-on-tex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

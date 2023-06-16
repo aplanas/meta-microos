@@ -126,7 +126,7 @@ font-librecaslontext \
 font-librecsln \
 texlive-librecaslon-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

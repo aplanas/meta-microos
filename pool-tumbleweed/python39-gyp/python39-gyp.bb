@@ -16,8 +16,8 @@ python3.9dist-gyp \
 python39-gyp \
 python3dist-gyp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ninja \
 python-abi \
 python39-setuptools \

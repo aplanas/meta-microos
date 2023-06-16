@@ -13,8 +13,8 @@ python3.10dist-glad2 \
 python310-glad2 \
 python3dist-glad2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 /usr/sbin/update-alternatives \
 python-abi \
 python310-Jinja2 \

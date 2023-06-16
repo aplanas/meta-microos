@@ -11,7 +11,7 @@ RPM_HASH = "a65f5627266574ad8205c49a8a298c84c23e1eaf7767e4039f8585d28186e2b75963
 RPROVIDES:${PN} += "config-postgresql11-pgagent \
 postgresql11-pgagent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-filesystem.so.1.82.0 \
 libboost-thread.so.1.82.0 \

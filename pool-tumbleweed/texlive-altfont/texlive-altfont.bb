@@ -17,7 +17,7 @@ tex-psfont.cfg \
 tex-psfont.sty \
 texlive-altfont"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

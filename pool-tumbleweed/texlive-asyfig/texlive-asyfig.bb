@@ -19,7 +19,7 @@ tex-asyfig.sty \
 tex-asyprocess.sty \
 texlive-asyfig"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

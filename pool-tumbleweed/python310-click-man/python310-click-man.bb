@@ -13,8 +13,8 @@ python3.10dist-click-man \
 python310-click-man \
 python3dist-click-man"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-click"
 

@@ -38,7 +38,7 @@ font-fontawesome5freeregular \
 font-fontawesome5freesolid \
 texlive-fontawesome5-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

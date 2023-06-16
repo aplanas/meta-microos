@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-jira \
 python311-jira \
 python3dist-jira"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-defusedxml \
 python311-keyring \

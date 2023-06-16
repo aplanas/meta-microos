@@ -10,7 +10,7 @@ RPM_HASH = "6f1ed9bc04b40301431fdcbf0b2b1d4f9d0208900cc85f176d132bc32b59e3470da6
 
 RPROVIDES:${PN} += "OpenRGB"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

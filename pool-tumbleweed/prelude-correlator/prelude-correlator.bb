@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "config-prelude-correlator \
 prelude-correlator \
 prelude-correlator-core"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python3-prelude-correlator \
 systemd"
 

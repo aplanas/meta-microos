@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font--lang=el \
 font-gfsdidotclassic \
 texlive-gfsdidotclassic-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

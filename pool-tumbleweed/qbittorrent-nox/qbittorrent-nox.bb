@@ -11,7 +11,7 @@ RPM_HASH = "0338bec9884d348d67767c865f6ff020375a76868d8f26df5d4d962081cf7518bcb6
 
 RPROVIDES:${PN} += "qbittorrent-nox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6Network.so.6 \

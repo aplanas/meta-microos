@@ -21,7 +21,7 @@ tex-rsfs7.tfm \
 tex-scrload.tex \
 texlive-rsfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

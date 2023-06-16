@@ -22,7 +22,7 @@ RPM_HASH = "d6f2946089961cd18a63081d7272086977a4f75d7b27dbae7cf8badd6e45b9eac4a1
 
 RPROVIDES:${PN} += "openmpi-1-10-7-gnu-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

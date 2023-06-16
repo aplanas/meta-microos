@@ -19,7 +19,7 @@ tex-a-w5zv5t.enc \
 tex-ebgaramond-maths.sty \
 texlive-ebgaramond-maths"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

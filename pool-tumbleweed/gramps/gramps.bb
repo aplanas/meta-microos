@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "gramps \
 python3.10dist-gramps \
 python3dist-gramps"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-bsddb3 \
 python3-cairo \

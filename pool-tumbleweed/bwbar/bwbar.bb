@@ -16,7 +16,7 @@ RPM_HASH = "cddcfd60bfbe82ce733403d1d1f40265579d944c10a66fb50db87a737dd6d9c01df4
 
 RPROVIDES:${PN} += "bwbar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpng16.so.16 \

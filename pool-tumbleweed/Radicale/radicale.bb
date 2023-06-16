@@ -24,8 +24,8 @@ python3.10dist-radicale \
 python3dist-radicale \
 user-radicale"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3 \
 python3-defusedxml \

@@ -37,8 +37,8 @@ rubygem-ruby-3.2.0-ruby-parser-3.19 \
 rubygem-ruby-3.2.0-ruby-parser-3.19.2 \
 rubygem-ruby-parser"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-sexp-processor-4 \
 update-alternatives"

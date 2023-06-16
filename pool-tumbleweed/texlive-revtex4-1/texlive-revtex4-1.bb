@@ -20,7 +20,7 @@ tex-revsymb4-1.sty \
 tex-revtex4-1.cls \
 texlive-revtex4-1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

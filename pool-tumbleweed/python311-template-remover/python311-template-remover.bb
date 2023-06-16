@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-template-remover \
 python311-template-remover \
 python3dist-template-remover"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docopt \
 update-alternatives"

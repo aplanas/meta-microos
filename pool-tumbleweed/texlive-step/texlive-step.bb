@@ -481,7 +481,7 @@ tex-a-zbkikv.enc \
 tex-step.sty \
 texlive-step"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

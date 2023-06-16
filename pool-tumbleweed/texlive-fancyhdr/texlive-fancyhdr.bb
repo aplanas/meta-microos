@@ -16,7 +16,7 @@ tex-fancyhdr.sty \
 tex-fancyheadings.sty \
 texlive-fancyhdr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

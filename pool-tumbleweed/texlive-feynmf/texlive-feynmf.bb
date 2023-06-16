@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-feynmf.sty \
 tex-feynmp.sty \
 texlive-feynmf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

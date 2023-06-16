@@ -10,7 +10,7 @@ RPM_HASH = "a188097c713648fe31bbf9385ab5b987b6b16bfaaaa74eaa32045e553d80ef7c30de
 
 RPROVIDES:${PN} += "libptscotch-6-1-0-gnu-openmpi1-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

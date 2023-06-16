@@ -22,9 +22,9 @@ perl-Kanku--REST--JobComment \
 perl-Kanku--REST--JobGroup \
 perl-Kanku--REST--Worker"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 kanku-common \
 kanku-common-server \
 perl-Dancer2--Plugin--WebSocket \

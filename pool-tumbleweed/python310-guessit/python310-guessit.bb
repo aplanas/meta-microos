@@ -17,8 +17,8 @@ python3.10dist-guessit \
 python310-guessit \
 python3dist-guessit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-babelfish \
 python310-importlib-resources \

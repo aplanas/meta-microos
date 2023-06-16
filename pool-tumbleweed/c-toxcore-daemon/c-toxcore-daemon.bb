@@ -10,7 +10,7 @@ RPM_HASH = "a1f3911f9a1efa6cf0a5fb6451776b0d0c4c8a29a939e12afe8dedca8c0c193c43c6
 RPROVIDES:${PN} += "c-toxcore-daemon \
 config-c-toxcore-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libconfig.so.11 \
 libsodium.so.23 \

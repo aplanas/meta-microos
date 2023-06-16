@@ -19,7 +19,7 @@ RPM_HASH = "b522f09b8e53f2b7394242395c8f13b792d3c65dd9cfdbef46789f26bfaa78c09fe9
 RPROVIDES:${PN} += "config-openafs-client \
 openafs-client"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 krb5-client \
 ld-linux-aarch64.so.1 \
 libafshcrypto.so.2 \

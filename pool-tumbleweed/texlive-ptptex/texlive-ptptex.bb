@@ -15,7 +15,7 @@ tex-ptptex.cls \
 tex-wrapft.sty \
 texlive-ptptex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

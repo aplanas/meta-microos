@@ -34,8 +34,8 @@ RPM_HASH = "60bd5c97265f41a3301b376b97d7512352c3f02e679b998b1e291747f9e3b2aa4bae
 
 RPROVIDES:${PN} += "aranym"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-image-1.2.so.0 \

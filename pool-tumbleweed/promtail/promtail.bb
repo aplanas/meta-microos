@@ -12,7 +12,7 @@ RPM_HASH = "f2302fae2fc7df603a58bf4277532c88e0232880cb4caf157e3df878c63fab5870d7
 RPROVIDES:${PN} += "config-promtail \
 promtail"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

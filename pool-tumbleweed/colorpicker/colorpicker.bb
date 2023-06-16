@@ -9,7 +9,7 @@ RPM_HASH = "db7051422f57377300879c460ed7d13021f6c7b401c629425ef64a637fbe3425e67b
 
 RPROVIDES:${PN} += "colorpicker"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

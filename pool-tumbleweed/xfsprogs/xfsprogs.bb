@@ -20,8 +20,8 @@ RPM_HASH = "5c42d499cb01b88a9c6225be440558b27958fdf57690c6eaee98cde5945240d84152
 
 RPROVIDES:${PN} += "xfsprogs"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \

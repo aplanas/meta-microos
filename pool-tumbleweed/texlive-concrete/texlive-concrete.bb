@@ -30,7 +30,7 @@ tex-ccslc9.tfm \
 tex-ccti10.tfm \
 texlive-concrete"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

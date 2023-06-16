@@ -23,7 +23,7 @@ gzdoom \
 qzdoom \
 zdoom"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libSPIRV.so.12 \

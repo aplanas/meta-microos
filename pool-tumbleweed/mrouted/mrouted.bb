@@ -15,7 +15,7 @@ RPM_HASH = "ba420a12b0fa1355d1d427b881905d2783ba97d1d9c4c815a663375c4b22f520dc81
 RPROVIDES:${PN} += "config-mrouted \
 mrouted"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

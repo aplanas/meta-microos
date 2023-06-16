@@ -19,7 +19,7 @@ RPM_HASH = "b96b459bbed4932e8673183ab00e69fd72a617c1b74fc814af007b6e6a37d0caa693
 RPROVIDES:${PN} += "config-target-isns \
 target-isns"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

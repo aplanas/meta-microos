@@ -18,7 +18,7 @@ RPM_HASH = "da3ce6b1015b4046eaadc5afabaa52dfe5158025e8ed1686005511b2a1c28342248a
 RPROVIDES:${PN} += "parallel-netcdf-mvapich2 \
 pnetcdf-mvapich2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.12 \

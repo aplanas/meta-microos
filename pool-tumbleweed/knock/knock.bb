@@ -16,7 +16,7 @@ RPM_HASH = "b79866d1241988de8ebb6ee07e1b95887130e0e07a9a500f1357d6f4c0341ce9cbb6
 
 RPROVIDES:${PN} += "knock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

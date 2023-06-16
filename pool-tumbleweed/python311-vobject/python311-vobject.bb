@@ -16,8 +16,8 @@ python311-vobject \
 python3dist-vobject \
 vobject"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-python-dateutil \
 python311-six \

@@ -13,7 +13,7 @@ font--lang=el \
 font-gfscomplutum \
 texlive-gfscomplutum-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

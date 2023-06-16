@@ -27,8 +27,8 @@ RPM_HASH = "cb6d5b61da48138f46f3b742471b1974147233e99f3396f48440d59c2abd748f3198
 RPROVIDES:${PN} += "pkgconfig-ossp-uuid \
 uuid-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libossp-uuid++16 \
 libossp-uuid-dce16 \
 libossp-uuid16"

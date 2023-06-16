@@ -30,7 +30,7 @@ tex-oasy9.tfm \
 tex-old-arrows.sty \
 texlive-old-arrows"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

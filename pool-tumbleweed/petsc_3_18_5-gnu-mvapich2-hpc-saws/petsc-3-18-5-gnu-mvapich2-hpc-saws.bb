@@ -11,7 +11,7 @@ RPM_HASH = "d127e29fcfe0c86093703f48925f6d1493dfe256ccc215e1ed6d39ee961df2613ccf
 
 RPROVIDES:${PN} += "petsc-3-18-5-gnu-mvapich2-hpc-saws"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 libpetsc-3-18-5-gnu-mvapich2-hpc"
 

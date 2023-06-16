@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3-openstackdocstheme \
 python3.10dist-openstackdocstheme \
 python3dist-openstackdocstheme"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 python-abi \
 python3-Sphinx \

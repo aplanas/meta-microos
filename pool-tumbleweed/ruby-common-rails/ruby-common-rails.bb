@@ -19,7 +19,7 @@ rpm-macro-rails-write-appinfo \
 rpm-macro-ruby-fix-shebang \
 ruby-common-rails"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ruby-common \
 rubygem-bundler"
 

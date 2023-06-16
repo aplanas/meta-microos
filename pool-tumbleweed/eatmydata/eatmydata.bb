@@ -13,8 +13,8 @@ RPM_HASH = "8a2349cde099b4076edfc1ec28a58d8869450274af761f5c6a187ab57dc34e1ce544
 RPROVIDES:${PN} += "eatmydata \
 libeatmydata.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

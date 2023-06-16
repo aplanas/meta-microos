@@ -296,7 +296,7 @@ tex-cphwt-tjvrzf.enc \
 tex-cphwt-vrwj46.enc \
 texlive-cooperhewitt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

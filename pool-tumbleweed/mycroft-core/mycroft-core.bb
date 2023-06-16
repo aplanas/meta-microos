@@ -13,8 +13,8 @@ mycroft-core \
 python3.10dist-mycroft-core \
 python3dist-mycroft-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 curl \
 git \
 jq \

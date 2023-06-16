@@ -10,7 +10,7 @@ RPM_HASH = "bd2347c2f6adbbd7428847b3f92d3f38a68f8c3ebc5f56c3b5eb180f66a42ff75f73
 RPROVIDES:${PN} += "libMAC.so.8 \
 mac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

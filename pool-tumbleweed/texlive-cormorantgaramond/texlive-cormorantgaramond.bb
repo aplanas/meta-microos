@@ -996,7 +996,7 @@ tex-cgrm-zkhuis.enc \
 tex-cgrm-zzgqip.enc \
 texlive-cormorantgaramond"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

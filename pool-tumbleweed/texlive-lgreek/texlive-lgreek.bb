@@ -15,7 +15,7 @@ tex-LGenc.def \
 tex-lgreek.sty \
 texlive-lgreek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

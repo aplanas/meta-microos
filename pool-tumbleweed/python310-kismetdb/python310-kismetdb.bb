@@ -13,8 +13,8 @@ python3.10dist-kismetdb \
 python310-kismetdb \
 python3dist-kismetdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-python-dateutil \
 python310-simplekml \

@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "php-pear-XML-Parser \
 php5-pear-XML-Parser \
 php7-pear-XML-Parser"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear"
 
 inherit rpm

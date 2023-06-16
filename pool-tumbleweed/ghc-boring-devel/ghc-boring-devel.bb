@@ -10,7 +10,7 @@ RPM_HASH = "baa2d30d647e871e2c998e5fdcc6c1a15c3275ba7e658ef7d8ddf3a18900e7ecc607
 RPROVIDES:${PN} += "ghc-boring-devel \
 ghc-devel-boring-0.2.1-J8lJX6Vz53r2bssyBwOtpl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-boring \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

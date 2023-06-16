@@ -60,7 +60,7 @@ tex-t-circuitikz-1.4.6.tex \
 tex-t-circuitikz.tex \
 texlive-circuitikz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

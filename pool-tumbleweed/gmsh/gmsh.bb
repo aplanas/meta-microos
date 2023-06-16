@@ -10,8 +10,8 @@ RPM_HASH = "7361b1e02e1983d5ca768114d031f80b9818a6f3e918c946ec7c8594a5ac45971b2f
 
 RPROVIDES:${PN} += "gmsh"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 libc.so.6 \
 libgmsh.so.4.11"
 

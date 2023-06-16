@@ -563,7 +563,7 @@ tex-wncy-iwonar.tfm \
 tex-wncy-iwonari.tfm \
 texlive-iwona"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

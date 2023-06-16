@@ -10,7 +10,7 @@ RPM_HASH = "7c35b3d477af998d16e3e1fd5a20b0c1a4ddad9b84b9fda3b91de0f1525796f05971
 RPROVIDES:${PN} += "openSUSE-repos \
 openSUSE-repos-Tumbleweed"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 zypper"
 
 inherit rpm

@@ -16,7 +16,7 @@ tex-xsim.style.layouts.code.tex \
 tex-xsimverb.sty \
 texlive-xsim"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

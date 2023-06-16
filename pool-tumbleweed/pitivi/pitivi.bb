@@ -14,8 +14,8 @@ RPM_HASH = "cacf1b0ccede3bf2f4c87b6366f993cf2026f72a5757746a61dfac253455354c1504
 
 RPROVIDES:${PN} += "pitivi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 gstreamer-transcoder \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

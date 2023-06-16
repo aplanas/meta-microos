@@ -26,7 +26,7 @@ libqlite0 \
 libxmpp-vala.so.0 \
 libxmpp-vala0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gstreamer1 \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

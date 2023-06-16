@@ -28,7 +28,7 @@ bundled-c-utf8 \
 dbus-broker \
 dbus-service"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \
 libc.so.6 \

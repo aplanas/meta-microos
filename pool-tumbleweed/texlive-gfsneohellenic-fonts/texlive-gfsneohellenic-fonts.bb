@@ -126,7 +126,7 @@ font-gfsneohellenic \
 font-gfsneohellenicrg \
 texlive-gfsneohellenic-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

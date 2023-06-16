@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tpm2.0-abrmd-selinux"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libselinux-utils \
 policycoreutils \
 policycoreutils-python-utils \

@@ -15,7 +15,7 @@ tex-ftnr8z.tfm \
 tex-norasi-c90.map \
 texlive-norasi-c90"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

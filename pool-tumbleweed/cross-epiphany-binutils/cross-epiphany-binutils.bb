@@ -11,7 +11,7 @@ RPM_HASH = "4d24c58640dbc1d90f2e4254da600ca8e880ef672ccefd5be4fa3ac8e6ce44dbad63
 
 RPROVIDES:${PN} += "cross-epiphany-binutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \

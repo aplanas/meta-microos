@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pst-qtree.sty \
 tex-pst-qtree.tex \
 texlive-pst-qtree"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

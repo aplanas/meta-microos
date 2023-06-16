@@ -86,7 +86,7 @@ tex-texnansi.sty \
 tex-texnansi.tex \
 texlive-ly1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

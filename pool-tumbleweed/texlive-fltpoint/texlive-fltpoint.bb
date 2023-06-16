@@ -15,7 +15,7 @@ tex-fltpoint.sty \
 tex-fltpoint.tex \
 texlive-fltpoint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

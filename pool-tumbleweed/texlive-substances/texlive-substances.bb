@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-substances-default.def \
 tex-substances.sty \
 texlive-substances"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

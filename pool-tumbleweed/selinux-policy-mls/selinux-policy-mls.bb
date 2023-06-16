@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-selinux-policy-mls \
 selinux-policy-base \
 selinux-policy-mls"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 policycoreutils \
 policycoreutils-newrole \

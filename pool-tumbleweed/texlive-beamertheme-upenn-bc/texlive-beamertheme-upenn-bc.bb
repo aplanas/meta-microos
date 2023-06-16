@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-beamercolorthemegoeagles.sty \
 tex-beamercolorthemepenn.sty \
 texlive-beamertheme-upenn-bc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

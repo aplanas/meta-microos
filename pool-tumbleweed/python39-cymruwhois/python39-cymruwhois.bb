@@ -14,8 +14,8 @@ python3.9dist-cymruwhois \
 python39-cymruwhois \
 python3dist-cymruwhois"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

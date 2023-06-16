@@ -14,7 +14,7 @@ tex-datetime2-italian-utf8.ldf \
 tex-datetime2-italian.ldf \
 texlive-datetime2-italian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

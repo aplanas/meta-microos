@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-cpplint \
 python39-cpplint \
 python3dist-cpplint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

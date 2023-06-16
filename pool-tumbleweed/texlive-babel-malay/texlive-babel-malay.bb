@@ -14,7 +14,7 @@ tex-melayu.ldf \
 tex-meyalu.ldf \
 texlive-babel-malay"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

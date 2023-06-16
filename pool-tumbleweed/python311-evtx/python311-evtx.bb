@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.11dist-python-evtx \
 python311-evtx \
 python3dist-python-evtx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311-hexdump \

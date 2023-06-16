@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-wafw00f \
 python39-wafw00f \
 python3dist-wafw00f"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-pluginbase \
 python39-requests"

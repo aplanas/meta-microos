@@ -20,10 +20,10 @@ postfix-lmdb \
 smtp-daemon \
 user-postfix"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ed \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-mail \

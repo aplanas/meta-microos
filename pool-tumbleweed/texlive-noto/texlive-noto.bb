@@ -5676,7 +5676,7 @@ tex-noto.map \
 tex-noto.sty \
 texlive-noto"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

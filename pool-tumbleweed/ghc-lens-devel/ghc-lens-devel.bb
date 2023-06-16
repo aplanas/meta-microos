@@ -10,7 +10,7 @@ RPM_HASH = "ea8be37f5aae80178e68f03995484ae21865818692c9e9fae148e2384fa997ee6f9b
 RPROVIDES:${PN} += "ghc-devel-lens-5.2.2-2MO0prnPqCQBRfua8fH2Ea \
 ghc-lens-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-assoc-1.0.2-IAwklVGxRFw6xcadvaWWl7 \

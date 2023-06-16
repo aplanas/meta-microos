@@ -35,7 +35,7 @@ tex-memhfixc.sty \
 tex-memoir.cls \
 texlive-memoir"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

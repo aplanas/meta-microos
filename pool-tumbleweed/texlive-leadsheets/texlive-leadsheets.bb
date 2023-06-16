@@ -25,7 +25,7 @@ tex-leadsheets.library.transposing.code.tex \
 tex-leadsheets.sty \
 texlive-leadsheets"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

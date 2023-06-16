@@ -20,7 +20,7 @@ tex-easybook.cls \
 tex-eb-tcolorbox.cfg \
 texlive-easybook"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

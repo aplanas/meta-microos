@@ -12,7 +12,7 @@ RPM_HASH = "3b8f8b30a9e90492cb7e8e6ec0a94adcd6951ff4ab87c468d8f8f58ba079a02af6a8
 
 RPROVIDES:${PN} += "umockdev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

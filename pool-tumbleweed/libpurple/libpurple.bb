@@ -24,9 +24,9 @@ libxmpp.so \
 libzephyr.so \
 perl-Purple"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/env \
+/usr/bin/sh \
 ca-certificates-mozilla \
 cyrus-sasl-digestmd5 \
 cyrus-sasl-plain \

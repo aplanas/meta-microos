@@ -13,7 +13,7 @@ RPM_HASH = "80e177ca55b2ff257dd2c9e1f1fb89ff9a797ac41f1397fd38030fac4850e2edc97a
 RPROVIDES:${PN} += "iptables-backend-nft \
 iptables-nft"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 alts \
 iptables"
 

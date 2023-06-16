@@ -22,7 +22,7 @@ tex-feymo10.tfm \
 tex-feymr10.tfm \
 texlive-eurosym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

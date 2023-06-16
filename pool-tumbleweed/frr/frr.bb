@@ -15,9 +15,9 @@ RPROVIDES:${PN} += "config-frr \
 frr \
 zebra"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 libc.so.6 \
 libcrypto.so.3 \
 libfrr-pb.so.0 \

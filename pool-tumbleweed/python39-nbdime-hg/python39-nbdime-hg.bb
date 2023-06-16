@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python39-jupyter-nbdime-hg \
 python39-nbdime-hg"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 mercurial \
 python39-nbdime"

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-click-man \
 python311-click-man \
 python3dist-click-man"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click"
 

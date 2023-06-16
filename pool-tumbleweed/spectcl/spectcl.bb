@@ -33,7 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "SpecTcl1.1 \
 spectcl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/wish \
 tk"
 

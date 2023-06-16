@@ -17,7 +17,7 @@ RPM_HASH = "aca52968accb822c82c270f032904158b9ab90a8c585ed3365561fe8988ed8a0abeb
 
 RPROVIDES:${PN} += "VFlib3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libVFlib3.so.10 \
 libX11.so.6 \

@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "libltdl-devel \
 libtool \
 libtool-ltdl-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 automake \
 libltdl7 \
 m4 \

@@ -21,7 +21,7 @@ tex-arn.fd \
 tex-art.fd \
 texlive-allrunes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hypre-gnu-openmpi1-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hypre-2-20-0-gnu-openmpi1-hpc-devel"
 
 inherit rpm

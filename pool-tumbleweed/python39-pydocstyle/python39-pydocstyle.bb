@@ -21,8 +21,8 @@ python39-pep257 \
 python39-pydocstyle \
 python3dist-pydocstyle"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-snowballstemmer \
 update-alternatives"

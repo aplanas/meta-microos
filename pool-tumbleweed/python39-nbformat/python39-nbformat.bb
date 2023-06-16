@@ -16,8 +16,8 @@ python39-jupyter-nbformat \
 python39-nbformat \
 python3dist-nbformat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39-fastjsonschema \

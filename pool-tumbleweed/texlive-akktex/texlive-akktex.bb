@@ -42,7 +42,7 @@ tex-akktex.sty \
 tex-akkwidepage.sty \
 texlive-akktex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

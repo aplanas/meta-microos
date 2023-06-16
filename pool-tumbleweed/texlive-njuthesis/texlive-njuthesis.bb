@@ -18,7 +18,7 @@ tex-njuthesis-undergraduate.def \
 tex-njuthesis.cls \
 texlive-njuthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

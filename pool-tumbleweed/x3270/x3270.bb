@@ -56,8 +56,8 @@ RPM_HASH = "cba5feb90db8afce9ac511e04e578f5f7e5b45ceed77db0933b80e76ad405e40cf1d
 RPROVIDES:${PN} += "config-x3270 \
 x3270"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXaw.so.7 \

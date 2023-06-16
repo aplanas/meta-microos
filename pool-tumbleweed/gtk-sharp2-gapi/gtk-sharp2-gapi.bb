@@ -15,9 +15,9 @@ mono-gapi-fixup \
 mono-gapi-parser \
 pkgconfig-gapi-2.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 mono-System.Xml \
 mono-mscorlib \
 perl-XML-LibXML \

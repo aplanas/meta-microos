@@ -9,7 +9,7 @@ RPM_HASH = "b85af39c1a1aa5f6f489f180bfad2707426b0a142457daea8f2b624a696d8f0163c4
 
 RPROVIDES:${PN} += "imv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGL.so.1 \

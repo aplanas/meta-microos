@@ -14,7 +14,7 @@ tex-glossaries-estonian-utf8.ldf \
 tex-glossaries-estonian.ldf \
 texlive-glossaries-estonian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

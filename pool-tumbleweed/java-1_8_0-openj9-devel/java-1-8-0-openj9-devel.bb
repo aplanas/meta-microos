@@ -24,7 +24,7 @@ libjawt.so \
 libjli.so \
 libunpack.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-1-8-0-openj9 \
 ld-linux-aarch64.so.1 \
 libawt-xawt.so \

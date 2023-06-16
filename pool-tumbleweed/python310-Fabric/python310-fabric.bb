@@ -33,8 +33,8 @@ python310-fabric \
 python310-fabric2 \
 python3dist-fabric"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-cryptography \
 python310-decorator \

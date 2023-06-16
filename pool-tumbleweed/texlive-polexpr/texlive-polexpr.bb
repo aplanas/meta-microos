@@ -28,7 +28,7 @@ tex-polexprexpr.tex \
 tex-polexprsturm.tex \
 texlive-polexpr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

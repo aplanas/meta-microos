@@ -75,9 +75,9 @@ perl-PBuild--Util \
 perl-PBuild--Verify \
 perl-PBuild--Zip"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 bash \
 binutils \
 build-mkbaselibs \

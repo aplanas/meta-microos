@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-morewrites.sty \
 tex-primargs.sty \
 texlive-morewrites"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

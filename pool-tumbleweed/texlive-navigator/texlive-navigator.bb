@@ -20,7 +20,7 @@ tex-navigator.tex \
 tex-t-navigator.tex \
 texlive-navigator"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

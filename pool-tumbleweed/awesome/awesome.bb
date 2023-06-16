@@ -14,8 +14,8 @@ RPM_HASH = "75650b978328d2c9accfdea39c0b0b91737f871b40f3c5258bd308b5d5302bf26f8d
 RPROVIDES:${PN} += "awesome \
 windowmanager"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 awesome-branding \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

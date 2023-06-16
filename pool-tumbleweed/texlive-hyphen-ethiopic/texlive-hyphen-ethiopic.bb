@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-hyph-mul-ethi.tex \
 tex-loadhyph-mul-ethi.tex \
 texlive-hyphen-ethiopic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

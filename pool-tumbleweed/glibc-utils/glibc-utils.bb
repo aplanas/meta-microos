@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "glibc-utils \
 libmemusage.so \
 libpcprofile.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 glibc \
 ld-linux-aarch64.so.1 \

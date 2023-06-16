@@ -127,7 +127,7 @@ font--lang=zu \
 font-poiretone \
 texlive-poiretone-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

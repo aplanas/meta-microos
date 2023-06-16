@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-pst-solides3d.sty \
 tex-pst-solides3d.tex \
 texlive-pst-solides3d"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

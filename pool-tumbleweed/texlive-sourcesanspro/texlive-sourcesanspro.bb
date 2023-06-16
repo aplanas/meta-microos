@@ -1493,7 +1493,7 @@ tex-sourcesanspro-type1-autoinst.sty \
 tex-sourcesanspro.sty \
 texlive-sourcesanspro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

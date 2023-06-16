@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-kmr-Latn \
 libreoffice-l10n-kmr-Latn \
 locale-libreoffice-kmr-Latn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker \
 myspell-kmr-Latn"

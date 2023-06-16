@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "mathgl-tex \
 tex-mgltex.sty \
 texlive-mgltex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

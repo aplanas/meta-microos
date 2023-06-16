@@ -18,7 +18,7 @@ RPM_HASH = "202991e2dd82b378a203944b4568754048d488a39ff1bda17ad0ff9cb813a12b3981
 
 RPROVIDES:${PN} += "triggerhappy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libsystemd.so.0"
 

@@ -18,8 +18,8 @@ lua54-devel \
 pkgconfig-lua \
 pkgconfig-lua5.4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 liblua5-4-5 \
 lua-macros \
 lua54 \

@@ -26,8 +26,8 @@ libqtwebengineplugin.so \
 qt5qmlimport-QtWebEngine.1 \
 qt5qmlimport-QtWebEngine.Controls1Delegates.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

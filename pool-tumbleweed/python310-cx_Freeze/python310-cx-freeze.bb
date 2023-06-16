@@ -20,9 +20,9 @@ python3.10dist-cx-freeze \
 python310-cx-Freeze \
 python3dist-cx-freeze"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpython3.10.so.1.0 \

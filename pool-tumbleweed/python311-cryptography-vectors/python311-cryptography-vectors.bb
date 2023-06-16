@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "python3.11dist-cryptography-vectors \
 python311-cryptography-vectors \
 python3dist-cryptography-vectors"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi"
 
 inherit rpm

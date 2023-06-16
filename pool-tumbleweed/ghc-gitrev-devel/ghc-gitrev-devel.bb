@@ -10,7 +10,7 @@ RPM_HASH = "3d0d98ac51d20a36ebd136e32b2ca284173a42e1d20df3f0c00b42848a56f40872a1
 RPROVIDES:${PN} += "ghc-devel-gitrev-1.3.1-Fh7rxVehK3vCpE8f2RFTGz \
 ghc-gitrev-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \

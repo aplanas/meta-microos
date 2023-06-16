@@ -15,7 +15,7 @@ tex-beamerouterthemetorinoth.sty \
 tex-beamerthemeTorinoTh.sty \
 texlive-beamer2thesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

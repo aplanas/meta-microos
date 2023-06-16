@@ -121,7 +121,7 @@ font--lang=zu \
 font-etbb \
 texlive-etbb-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -92,8 +92,8 @@ rpm-macro--mingw32-vendor \
 rpm-macro--mingw32-windmc \
 rpm-macro--mingw32-windres"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 findutils \
 gawk \

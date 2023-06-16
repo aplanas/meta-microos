@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-uvicorn \
 python311-uvicorn \
 python3dist-uvicorn"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click \
 python311-h11 \

@@ -10,7 +10,7 @@ RPM_HASH = "d8c17ab6327fafb2c74c2fc06431f9fd6ea1660506d041a31a65928fcef35f95c9e4
 RPROVIDES:${PN} += "ghc-async-devel \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-async \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

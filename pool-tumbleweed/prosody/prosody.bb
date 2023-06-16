@@ -15,8 +15,8 @@ RPM_HASH = "224c59c17d0756b74119233915289a8c2349aa8306a46446dc6d60001da9b48d3f3e
 RPROVIDES:${PN} += "config-prosody \
 prosody"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.1 \
+RDEPENDS:${PN} += "/usr/bin/lua5.1 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

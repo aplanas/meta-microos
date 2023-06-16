@@ -14,7 +14,7 @@ tex-textopo.def \
 tex-textopo.sty \
 texlive-textopo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

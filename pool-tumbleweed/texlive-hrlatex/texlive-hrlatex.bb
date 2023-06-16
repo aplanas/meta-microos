@@ -16,7 +16,7 @@ tex-fsbmath.sty \
 tex-hrlatex.sty \
 texlive-hrlatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

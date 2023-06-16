@@ -23,10 +23,10 @@ pkgconfig-python3-embed \
 python3-devel \
 python310-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 libc.so.6 \
 libpython3.10.so.1.0 \
 python-abi \

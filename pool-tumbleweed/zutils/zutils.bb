@@ -16,7 +16,7 @@ RPM_HASH = "2d625f0fafb596ea776baf3bb1b767395e0973dc98f1ae94bb54fb93466a717288fa
 
 RPROVIDES:${PN} += "zutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

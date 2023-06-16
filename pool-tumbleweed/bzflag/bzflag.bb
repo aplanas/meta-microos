@@ -14,9 +14,9 @@ RPM_HASH = "bcaecdde8d63f9e5e5e5afec287ce33cf740361af8056ec435c7620005ce1554bc1f
 
 RPROVIDES:${PN} += "bzflag"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

@@ -18,7 +18,7 @@ tex-emisa.cbx \
 tex-emisa.cls \
 texlive-emisa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

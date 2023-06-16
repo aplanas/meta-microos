@@ -17,7 +17,7 @@ RPM_HASH = "aad4441514ba4f59e7245a7cbaad12007bf008d977e61fefc34be24515f9b075d300
 RPROVIDES:${PN} += "config-java-1-8-0-openjdk-accessibility \
 java-1-8-0-openjdk-accessibility"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-1-8-0-openjdk \
 java-atk-wrapper"
 

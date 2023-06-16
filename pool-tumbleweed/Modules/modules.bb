@@ -30,9 +30,9 @@ config-Modules \
 environment-modules \
 libtclenvmodules.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/tclsh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -9,8 +9,8 @@ RPM_HASH = "27b7f911f64a05aa160e2558af8440529f55439640c2a7b4cae4de2672d62d742d9d
 
 RPROVIDES:${PN} += "quota-nfs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

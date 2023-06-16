@@ -89,10 +89,10 @@ perl-Devscripts--Versort \
 python3.10dist-devscripts \
 python3dist-devscripts"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 checkbashisms \
 dpkg \
 html2text \

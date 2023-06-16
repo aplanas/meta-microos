@@ -18,8 +18,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-firehol \
 firehol"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 curl \
 iprange \
 iproute2 \

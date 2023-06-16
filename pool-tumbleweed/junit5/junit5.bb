@@ -55,7 +55,7 @@ osgi-org.junit.platform.suite.api \
 osgi-org.junit.platform.suite.commons \
 osgi-org.junit.vintage.engine"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

@@ -16,7 +16,7 @@ tex-t1ccr.fd \
 tex-ts1ccr.fd \
 texlive-ccfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

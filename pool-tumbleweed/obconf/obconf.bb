@@ -18,7 +18,7 @@ RPM_HASH = "7fce90106056512c0432333c6a8086441a8ae59ad68e9db8860d57f99f3e633dabfa
 
 RPROVIDES:${PN} += "obconf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

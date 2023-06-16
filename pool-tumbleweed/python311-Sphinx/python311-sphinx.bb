@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-sphinx \
 python311-Sphinx \
 python3dist-sphinx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Babel \
 python311-Jinja2 \

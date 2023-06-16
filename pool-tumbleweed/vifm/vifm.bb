@@ -12,9 +12,9 @@ RPM_HASH = "9b1c8b421cf5fbb4f3343b91244e2271a7e3f21b8fb7f8f05d243ff0912b5f773963
 
 RPROVIDES:${PN} += "vifm"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

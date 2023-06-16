@@ -23,8 +23,8 @@ python3.10dist-textx \
 python310-textX \
 python3dist-textx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Arpeggio \
 python310-click \

@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-zodb \
 python39-ZODB \
 python3dist-zodb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-BTrees \
 python39-ZConfig \

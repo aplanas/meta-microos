@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-pykickstart \
 python39-pykickstart \
 python3dist-pykickstart"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-requests"
 

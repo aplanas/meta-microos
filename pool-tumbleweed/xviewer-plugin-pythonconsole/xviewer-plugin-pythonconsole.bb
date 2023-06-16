@@ -10,7 +10,7 @@ RPM_HASH = "0c982788f7701cf47eec8f57ec0988cd61b23a9aeecf73b0dabba386f5d8e38c4742
 RPROVIDES:${PN} += "xviewer-plugin-pythonconsole \
 xviewer-plugins-/usr/lib64/xviewer/plugins/pythonconsole.plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \

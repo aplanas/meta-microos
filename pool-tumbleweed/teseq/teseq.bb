@@ -13,8 +13,8 @@ RPM_HASH = "3ff106dc2aaaf76005efc0c36147676f9e1cea604b2fac84cfa44d43a7375cd00bbe
 
 RPROVIDES:${PN} += "teseq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

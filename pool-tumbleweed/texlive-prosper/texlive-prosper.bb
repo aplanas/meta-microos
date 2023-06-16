@@ -43,7 +43,7 @@ tex-PPRwj.sty \
 tex-prosper.cls \
 texlive-prosper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

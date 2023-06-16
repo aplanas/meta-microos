@@ -13,7 +13,7 @@ chainsaw \
 mvn-log4j-apache-chainsaw \
 mvn-log4j-apache-chainsaw-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 apache-commons-logging \
 apache-commons-vfs2 \
 apache-log4j-extras \

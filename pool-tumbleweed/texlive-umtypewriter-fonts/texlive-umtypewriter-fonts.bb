@@ -148,7 +148,7 @@ font--lang=zu \
 font-umtypewriter \
 texlive-umtypewriter-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

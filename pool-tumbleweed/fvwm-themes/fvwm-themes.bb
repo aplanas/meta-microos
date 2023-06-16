@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fvwm-themes"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkfifo \
+RDEPENDS:${PN} += "/usr/bin/mkfifo \
 /usr/bin/perl \
+/usr/bin/sh \
 fvwm2 \
 perl"
 

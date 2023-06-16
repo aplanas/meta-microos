@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-unearth \
 python311-unearth \
 python3dist-unearth"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-packaging \
 python311-requests \

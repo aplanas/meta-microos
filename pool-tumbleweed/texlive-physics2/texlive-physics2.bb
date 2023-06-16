@@ -31,7 +31,7 @@ tex-phy-xmat.sty \
 tex-physics2.sty \
 texlive-physics2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

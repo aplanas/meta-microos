@@ -13,7 +13,7 @@ tex-hyph-es.tex \
 tex-loadhyph-es.tex \
 texlive-hyphen-spanish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -34,7 +34,7 @@ tex-lfbb8.tfm \
 tex-lfbb9.tfm \
 texlive-lfb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

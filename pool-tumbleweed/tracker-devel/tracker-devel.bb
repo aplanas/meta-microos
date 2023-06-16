@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "pkgconfig-tracker-sparql-3.0 \
 pkgconfig-tracker-testutils-3.0 \
 tracker-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libtracker-sparql-3-0-0 \
 pkgconfig-gio-2.0 \
 pkgconfig-gio-unix-2.0 \

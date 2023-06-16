@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-exesheet.cls \
 tex-exesheet.sty \
 texlive-exesheet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

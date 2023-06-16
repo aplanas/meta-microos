@@ -12,7 +12,7 @@ RPM_HASH = "06b07a67f2cd5275cd4266d72eaabbbbcd589916c1b4ea3c3b4ef1c8c88542ea7fca
 
 RPROVIDES:${PN} += "figlet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

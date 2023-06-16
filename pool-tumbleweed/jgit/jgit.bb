@@ -57,7 +57,7 @@ osgi-org.eclipse.jgit.ssh.apache \
 osgi-org.eclipse.jgit.ssh.jsch \
 osgi-org.eclipse.jgit.ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 mvn-args4j-args4j \

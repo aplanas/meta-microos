@@ -963,7 +963,7 @@ tex-gttu2986.tfm \
 tex-gttu3583.tfm \
 texlive-cbfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

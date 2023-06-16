@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbenv"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 procps"
 
 inherit rpm

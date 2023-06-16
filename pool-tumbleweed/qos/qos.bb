@@ -29,9 +29,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qos"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 iproute2 \

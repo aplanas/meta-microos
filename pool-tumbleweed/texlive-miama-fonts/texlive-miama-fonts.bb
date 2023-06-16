@@ -165,7 +165,7 @@ font--lang=zu \
 font-miamanueva \
 texlive-miama-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

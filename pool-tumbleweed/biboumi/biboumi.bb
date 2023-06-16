@@ -30,7 +30,7 @@ RPM_HASH = "c2273468271cba1929a6bc0b0a01611422e3034e98cfece14f48567819dd19e21fd1
 RPROVIDES:${PN} += "biboumi \
 config-biboumi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbotan-2.so.19 \
 libc.so.6 \

@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-registry-systemd"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 certstrap"
 
 inherit rpm

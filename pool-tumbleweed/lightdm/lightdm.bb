@@ -17,7 +17,7 @@ group-lightdm \
 lightdm \
 user-lightdm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gdmflexiserver \
 ld-linux-aarch64.so.1 \
 libXdmcp.so.6 \

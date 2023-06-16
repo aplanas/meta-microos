@@ -13,7 +13,7 @@ group-wwwrun \
 system-user-wwwrun \
 user-wwwrun"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

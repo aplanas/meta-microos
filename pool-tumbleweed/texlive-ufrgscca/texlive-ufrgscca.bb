@@ -35,7 +35,7 @@ tex-ufrgscca-ptBR-forms.def \
 tex-ufrgscca.cls \
 texlive-ufrgscca"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

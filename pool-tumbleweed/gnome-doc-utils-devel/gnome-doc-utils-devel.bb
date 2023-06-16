@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gnome-doc-utils-devel \
 pkgconfig-gnome-doc-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 docbook-4 \
 gnome-doc-utils \
 xml2po-devel"

@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-libgreek-legacy.sty \
 tex-libgreek.sty \
 texlive-libgreek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

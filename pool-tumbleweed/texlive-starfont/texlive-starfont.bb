@@ -18,7 +18,7 @@ tex-starfont.map \
 tex-starfont.sty \
 texlive-starfont"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,8 +15,8 @@ python3.10dist-extratools \
 python310-extratools \
 python3dist-extratools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-RegexOrder \
 python310-TagStats \

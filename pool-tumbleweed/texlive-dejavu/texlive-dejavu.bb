@@ -502,7 +502,7 @@ tex-dejavuserif-ts1.enc \
 tex-dejavuserif-x2.enc \
 texlive-dejavu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,7 +16,7 @@ eric6 \
 python-eric5 \
 python-eric6"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 python3-EditorConfig \
 python3-Pygments \

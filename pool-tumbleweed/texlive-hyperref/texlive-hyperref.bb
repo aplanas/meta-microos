@@ -49,7 +49,7 @@ tex-puvnenc.def \
 tex-xr-hyper.sty \
 texlive-hyperref"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -247,7 +247,7 @@ tex-xscmr.fd \
 tex-xsenc.def \
 texlive-ucs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

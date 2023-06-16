@@ -13,8 +13,8 @@ python3.10dist-czifile \
 python310-czifile \
 python3dist-czifile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-imagecodecs \
 python310-numpy \

@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeos-firstboot"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 dialog \
 iproute2 \
 live-langset-data \

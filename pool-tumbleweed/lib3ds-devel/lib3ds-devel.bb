@@ -12,8 +12,8 @@ RPM_HASH = "a9a0001872e8a9106e47273993b32c7d0a7f51985e60d964a57928e77922150a68ac
 RPROVIDES:${PN} += "lib3ds-devel \
 pkgconfig-lib3ds"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 lib3ds-1-3 \
 lib3ds-1.so.3 \

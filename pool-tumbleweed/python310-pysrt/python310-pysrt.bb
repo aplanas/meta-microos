@@ -14,8 +14,8 @@ python3.10dist-pysrt \
 python310-pysrt \
 python3dist-pysrt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-chardet \
 update-alternatives"

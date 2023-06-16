@@ -16,7 +16,7 @@ tex-sesamanuel.sty \
 tex-sesamanuelTIKZ.sty \
 texlive-sesamanuel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -116,7 +116,7 @@ tex-t1jtm.fd \
 tex-ts1jtm.fd \
 texlive-jamtimes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

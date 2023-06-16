@@ -11,7 +11,7 @@ RPM_HASH = "57a2b6e049905303160f1e766fe146e2314800fa3050e432a0ea05082df59e2fdee1
 
 RPROVIDES:${PN} += "feedbackd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfeedback-0.0.so.0 \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-j2gen \
 python311-j2gen \
 python3dist-j2gen"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Jinja2 \
 python311-PyYAML \

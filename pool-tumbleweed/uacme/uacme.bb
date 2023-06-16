@@ -14,7 +14,7 @@ RPM_HASH = "573f7e84cc965973c4bd726c4214324ebfd24ccdae4f9700bfc6efb54b09b57786a9
 
 RPROVIDES:${PN} += "uacme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

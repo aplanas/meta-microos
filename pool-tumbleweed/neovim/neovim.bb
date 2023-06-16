@@ -17,7 +17,7 @@ RPM_HASH = "48aabc2feb03b5b785d74e37a56e339f6b4e3d443e5776b836619fe3846a27e6c2d6
 RPROVIDES:${PN} += "config-neovim \
 neovim"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gperf \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-dk-apali.sty \
 tex-dk-bib.sty \
 texlive-dk-bib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-pudb \
 python311-pudb \
 python3dist-pudb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Pygments \
 python311-urwid \

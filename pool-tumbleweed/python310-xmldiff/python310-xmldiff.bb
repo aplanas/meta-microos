@@ -18,8 +18,8 @@ python3.10dist-xmldiff \
 python310-xmldiff \
 python3dist-xmldiff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-lxml \
 python310-setuptools \

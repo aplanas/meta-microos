@@ -11,7 +11,7 @@ RPM_HASH = "e581b8367fad8393e5c166428ad86b2dfc2926c571ef5c281d7aaff8bb35e63281d9
 
 RPROVIDES:${PN} += "libptscotch-gnu-mvapich2-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libptscotch-6-1-0-gnu-mvapich2-hpc"
 
 inherit rpm

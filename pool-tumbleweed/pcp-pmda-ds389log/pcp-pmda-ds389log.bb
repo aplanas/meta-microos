@@ -10,7 +10,7 @@ RPM_HASH = "eddcf609ba90e903ac78061c44f116f09f5df0ff2a89685d7439189472f36d199393
 
 RPROVIDES:${PN} += "pcp-pmda-ds389log"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-Date-Manip \
 perl-PCP-PMDA"
 

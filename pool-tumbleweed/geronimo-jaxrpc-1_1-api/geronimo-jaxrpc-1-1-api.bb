@@ -16,7 +16,7 @@ jaxrpc-api \
 mvn-org.apache.geronimo.specs-geronimo-jaxrpc-1.1-spec \
 mvn-org.apache.geronimo.specs-geronimo-jaxrpc-1.1-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 qname-1-1-api \

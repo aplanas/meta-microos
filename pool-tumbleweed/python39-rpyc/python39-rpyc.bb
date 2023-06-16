@@ -17,9 +17,9 @@ RPROVIDES:${PN} += "python3.9dist-rpyc \
 python39-rpyc \
 python3dist-rpyc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-plumbum \
 update-alternatives"

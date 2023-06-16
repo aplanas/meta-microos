@@ -23,7 +23,7 @@ tex-testidx-glossaries.sty \
 tex-testidx.sty \
 texlive-testidx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

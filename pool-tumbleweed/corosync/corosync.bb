@@ -11,9 +11,8 @@ RPM_HASH = "acac8ae58cf14c43036b517537780572879af9835e0fbf93df6eb429effdd9e0e41a
 RPROVIDES:${PN} += "config-corosync \
 corosync"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcfg.so.6 \

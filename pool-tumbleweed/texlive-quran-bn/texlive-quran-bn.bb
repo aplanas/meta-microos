@@ -15,7 +15,7 @@ tex-qurantext-bni.translation.def \
 tex-qurantext-bnii.translation.def \
 texlive-quran-bn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

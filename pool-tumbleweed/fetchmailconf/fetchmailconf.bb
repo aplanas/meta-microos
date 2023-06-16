@@ -10,7 +10,7 @@ RPM_HASH = "c472bdc82c1549dbf869cf765cfb30604155f44186078482e6f8239e12bef4c61dfa
 
 RPROVIDES:${PN} += "fetchmailconf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fetchmail \
 python-abi \
 python3 \

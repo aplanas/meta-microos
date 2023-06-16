@@ -45,7 +45,7 @@ tex-ecvsv.def \
 tex-europecv.cls \
 texlive-europecv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

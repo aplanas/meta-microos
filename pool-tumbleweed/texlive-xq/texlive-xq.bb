@@ -15,7 +15,7 @@ tex-xqlarge.tfm \
 tex-xqnormal.tfm \
 texlive-xq"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

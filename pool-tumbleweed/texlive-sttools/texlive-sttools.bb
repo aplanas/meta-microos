@@ -21,7 +21,7 @@ tex-stfloats.sty \
 tex-texsort.sty \
 texlive-sttools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

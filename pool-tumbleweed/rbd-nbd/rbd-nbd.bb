@@ -9,7 +9,7 @@ RPM_HASH = "3277d8399018780eec442138255be22ae5d2f6f6e8ca054f9b3e6d3cc32371441dae
 
 RPROVIDES:${PN} += "rbd-nbd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libceph-common.so.2 \

@@ -16,8 +16,8 @@ rubygem-ruby-3.2.0-commander-4 \
 rubygem-ruby-3.2.0-commander-4.6 \
 rubygem-ruby-3.2.0-commander-4.6.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-highline-2.0 \
 update-alternatives"

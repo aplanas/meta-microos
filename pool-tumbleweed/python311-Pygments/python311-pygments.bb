@@ -22,8 +22,8 @@ python311-Pygments \
 python311-pygments \
 python3dist-pygments"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi"
 

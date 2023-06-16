@@ -12,11 +12,11 @@ PV = "5.9"
 RPM_NAME = "zsh-5.9-5.3.aarch64.rpm"
 RPM_HASH = "c5fe9fd0c74e970345024900afa327db143235e444441446049b1e8279c2030554d2ebad885db5aaf5b4e6665f26b7730bdc8051af1b7a3bfb76a6d8c0bf8155"
 
-RPROVIDES:${PN} += "/bin/zsh \
+RPROVIDES:${PN} += "/usr/bin/zsh \
 config-zsh \
 zsh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

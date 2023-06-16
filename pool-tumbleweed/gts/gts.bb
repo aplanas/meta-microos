@@ -30,7 +30,7 @@ RPM_HASH = "b8ad4f559c52a85a05582f88b4f81a85800a9e7a3062131d21023ba4abb179b1cce5
 
 RPROVIDES:${PN} += "gts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

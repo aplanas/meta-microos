@@ -42,7 +42,7 @@ tex-fxthemecolorsig.sty \
 tex-fxthemesignature.sty \
 texlive-fixme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

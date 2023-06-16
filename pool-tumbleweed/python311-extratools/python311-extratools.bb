@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-extratools \
 python311-extratools \
 python3dist-extratools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-RegexOrder \
 python311-TagStats \

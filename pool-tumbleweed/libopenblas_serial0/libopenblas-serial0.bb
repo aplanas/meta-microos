@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libopenblas-serial0 \
 libopenblas.so.0 \
 libopenblas0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgfortran.so.5 \

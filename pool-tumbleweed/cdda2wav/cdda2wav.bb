@@ -10,8 +10,8 @@ RPM_HASH = "9406c6196b5278f6279c51c01bc8f7f9c76a8a0c659e5c693b4e65cf915b4c2e26d5
 
 RPROVIDES:${PN} += "cdda2wav"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

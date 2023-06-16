@@ -51,7 +51,7 @@ tex-eiadtt10.tfm \
 tex-eiadvtt10.tfm \
 texlive-eiad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

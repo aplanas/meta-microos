@@ -13,7 +13,7 @@ RPM_HASH = "d7d2948fbcf656853e477adba3edd091710cda6c11fbb5d6ea7e1f9049c83fcd6e37
 RPROVIDES:${PN} += "ceph-mon \
 ceph-test-/usr/bin/ceph-monstore-tool"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

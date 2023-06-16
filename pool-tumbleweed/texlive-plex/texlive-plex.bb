@@ -1346,7 +1346,7 @@ tex-plx-x4zmfh.enc \
 tex-plx-xl2q4z.enc \
 texlive-plex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPM_HASH = "7f40e4e77dc8392b89d32a1fa2f6a25a8139ac392b6d982a8ee9cf609d37922a2b17
 
 RPROVIDES:${PN} += "isatapd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

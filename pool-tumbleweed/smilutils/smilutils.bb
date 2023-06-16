@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "libkinoextensions.so.0 \
 libkinolegacy.so.0 \
 smilutils"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libX11.so.6 \

@@ -14,7 +14,7 @@ RPM_HASH = "896bc7a600b1fe6d700a64064a59aefcd8a57a2c3c677cc48b41d039d54fd9c4863a
 RPROVIDES:${PN} += "rofi \
 rofi-launcher"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

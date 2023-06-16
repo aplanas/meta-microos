@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "python3.11dist-python-for-android \
 python311-python-for-android \
 python3dist-python-for-android"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Jinja2 \
 python311-appdirs \

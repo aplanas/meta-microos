@@ -10,7 +10,7 @@ RPM_HASH = "4f0de4773223acac754b9994d7314af157000dfe51e6e94bd5c7430dc8b43fb64695
 RPROVIDES:${PN} += "ghc-IfElse-devel \
 ghc-devel-IfElse-0.85-7KBtFS87aFz8e1Xg4MUrMX"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-IfElse \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

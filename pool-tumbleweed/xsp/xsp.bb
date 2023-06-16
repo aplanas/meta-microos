@@ -28,9 +28,9 @@ pkgconfig-xsp-2 \
 pkgconfig-xsp-4 \
 xsp"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 group-www \
 libc.so.6 \
 libfpm-helper0 \

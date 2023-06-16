@@ -32,8 +32,8 @@ python3.10dist-datashader \
 python310-datashader \
 python3dist-datashader"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-DataShape \
 python310-Pillow \

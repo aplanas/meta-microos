@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pgfmorepages.sty \
 tex-pgfmorepageslayouts.code.tex \
 texlive-pgfmorepages"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

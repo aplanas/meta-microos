@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-napalm \
 python39-napalm \
 python3dist-napalm"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-PyYAML \

@@ -26,8 +26,8 @@ python3-linkchecker \
 python3.10dist-linkchecker \
 python3dist-linkchecker"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-beautifulsoup4 \
 python3-dnspython \

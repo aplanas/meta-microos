@@ -14,7 +14,7 @@ fonts-arabic \
 locale-ar \
 scalable-font-ar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 arabic-ae-fonts \
 arabic-bitmap-fonts \

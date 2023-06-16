@@ -16,7 +16,7 @@ RPM_HASH = "3b8a3cc052af48c5654d3e3dbf98f477015d0c5beb9dfcc8421b7e4c8b9a61dced1e
 
 RPROVIDES:${PN} += "voms-clients"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

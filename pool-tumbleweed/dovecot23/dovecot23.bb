@@ -84,10 +84,10 @@ libpigeonhole-settings.so \
 libssl-iostream-openssl.so \
 libstats-auth.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/env \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dovecot \
 fillup \

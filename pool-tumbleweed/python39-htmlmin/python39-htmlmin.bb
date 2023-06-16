@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-htmlmin \
 python39-htmlmin \
 python3dist-htmlmin"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-setuptools \
 update-alternatives"

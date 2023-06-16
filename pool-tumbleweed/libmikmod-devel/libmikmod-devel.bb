@@ -17,8 +17,8 @@ RPM_HASH = "ab7848d20ae17ef634ed742a05af7cc0693c60f28971116d0c582ee131c8943525aa
 RPROVIDES:${PN} += "libmikmod-devel \
 pkgconfig-libmikmod"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libmikmod3"
 

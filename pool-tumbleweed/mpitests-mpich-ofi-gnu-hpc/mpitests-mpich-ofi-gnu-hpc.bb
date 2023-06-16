@@ -9,7 +9,7 @@ RPM_HASH = "b8587d475d171a75e4d62c63871aba611c3acecd95cd3d1a68e2167980c251b76213
 
 RPROVIDES:${PN} += "mpitests-mpich-ofi-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

@@ -14,9 +14,9 @@ RPM_HASH = "08619155e646e23942079f40c6e1807ed39c020686fe8cb4c431b09d1446c445ec26
 RPROVIDES:${PN} += "config-leafnode \
 leafnode"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

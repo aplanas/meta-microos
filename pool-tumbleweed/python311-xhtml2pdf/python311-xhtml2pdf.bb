@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-xhtml2pdf \
 python311-xhtml2pdf \
 python3dist-xhtml2pdf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Pillow \
 python311-PyPDF3 \

@@ -24,7 +24,7 @@ tex-tikzfeynhand.keys.code.tex \
 tex-tikzlibraryfeynhand.code.tex \
 texlive-tikz-feynhand"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

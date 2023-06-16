@@ -11,7 +11,7 @@ RPM_HASH = "19a5d1e39c5256276a8f58d0db2341136786e36bde95c4680435a7ce9abf42d3fef6
 
 RPROVIDES:${PN} += "znc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-locale.so.1.82.0 \
 libc.so.6 \

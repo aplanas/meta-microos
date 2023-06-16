@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yet-another-guide-latex2e"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

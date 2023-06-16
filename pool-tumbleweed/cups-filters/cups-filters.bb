@@ -45,8 +45,8 @@ postscriptdriver-generic;pdf-printer; \
 postscriptdriver-hewlett-packard;hp-color-laserjet-cm3530-mfp; \
 postscriptdriver-ricoh;pdf-printer;"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 cups \
 ld-linux-aarch64.so.1 \
 libavahi-client.so.3 \

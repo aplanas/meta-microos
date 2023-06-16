@@ -17,7 +17,7 @@ tex-avery5388.cfg \
 tex-flashcards.cls \
 texlive-flashcards"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

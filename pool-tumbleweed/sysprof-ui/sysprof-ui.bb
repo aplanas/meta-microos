@@ -12,7 +12,7 @@ RPM_HASH = "29b0fb677a4617a59e36d1d63a5311531e609eb3a928b77bd8e7d1b3564adf9e2a18
 RPROVIDES:${PN} += "libsysprof-ui-5.so \
 sysprof-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libadwaita-1.so.0 \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.10dist-ssh-import-id \
 python3dist-ssh-import-id \
 ssh-import-id"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 openssh-common \
 python-abi \
 python3.10dist-distro \

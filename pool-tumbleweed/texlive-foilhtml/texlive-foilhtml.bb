@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-foilhtml.cfg \
 tex-foilhtml.sty \
 texlive-foilhtml"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -34,7 +34,7 @@ rpm-macro-php-pearxmldir \
 rpm-macro-php-version \
 rpm-macro-php-zend-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glibc-devel \
 php \
 php8-pear \

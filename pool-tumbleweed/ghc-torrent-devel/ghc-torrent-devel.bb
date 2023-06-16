@@ -10,7 +10,7 @@ RPM_HASH = "1333483b02075eb2b86c0fcba21608cf36525cdd4e81c54e0a8c9e825bae1f0e20cc
 RPROVIDES:${PN} += "ghc-devel-torrent-10000.1.3-6s7CFs4CbkZ3Yp9HO0y2ZH \
 ghc-torrent-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w \

@@ -10,8 +10,8 @@ RPM_HASH = "a1c4221febb38d51131effb94b04f3d50a95489fbad7a411d6c9c19968da37455ae4
 
 RPROVIDES:${PN} += "pulseaudio-setup"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup"
 

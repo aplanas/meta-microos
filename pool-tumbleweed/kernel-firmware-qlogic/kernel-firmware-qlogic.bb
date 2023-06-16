@@ -49,8 +49,8 @@ firmware-qlogic/sd7220.fw \
 kernel-firmware-qlogic \
 qlogic-firmware"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

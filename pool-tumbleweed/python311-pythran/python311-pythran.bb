@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pythran \
 python311-pythran \
 python3dist-pythran"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 boost-devel \
 gcc-c++ \
 openblas-devel \

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-bibgerm.sty \
 tex-mynormal.sty \
 texlive-germbib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

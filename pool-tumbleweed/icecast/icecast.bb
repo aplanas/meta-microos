@@ -11,7 +11,7 @@ RPM_HASH = "6ee8af9e805b3f3f419a2d3cf2ca0218105efee26bda82a7de810e5d68d5f8cb24e6
 RPROVIDES:${PN} += "config-icecast \
 icecast"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

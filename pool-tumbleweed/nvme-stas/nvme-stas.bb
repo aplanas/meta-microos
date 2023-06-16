@@ -13,8 +13,8 @@ RPM_HASH = "36352d248c511edeccfb1d306c84f120f5922c36c9a430495b5346c420200b66df66
 RPROVIDES:${PN} += "config-nvme-stas \
 nvme-stas"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 avahi \
 python-abi \
 python3-dasbus \

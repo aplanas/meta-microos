@@ -17,8 +17,8 @@ python39-notebook \
 python3dist-notebook"
 
 RDEPENDS:${PN} += "-python39-jupyter-client >= 5.3.4 with python39-jupyter-client < 8 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 jupyter-notebook \
 python-abi \

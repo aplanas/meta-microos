@@ -10,9 +10,9 @@ RPM_HASH = "3aa957bc204fb3da7170842bd0974544ede6fe99662c9349d9070632d09176267b0a
 
 RPROVIDES:${PN} += "jigit"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

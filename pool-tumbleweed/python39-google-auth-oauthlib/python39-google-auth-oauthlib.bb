@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-google-auth-oauthlib \
 python39-google-auth-oauthlib \
 python3dist-google-auth-oauthlib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-google-auth \
 python39-requests-oauthlib \

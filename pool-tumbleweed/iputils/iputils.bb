@@ -8,11 +8,11 @@ PV = "20221126"
 RPM_NAME = "iputils-20221126-2.3.aarch64.rpm"
 RPM_HASH = "6db465f3e7e2258b39facde2e5c39c913874629b73890bab31f5d23dde58e80a53251ff9b5c88d0740670c701e987c54b5de3e5df2b3047c870dabd519868c8f"
 
-RPROVIDES:${PN} += "/bin/ping \
-/sbin/arping \
+RPROVIDES:${PN} += "/sbin/arping \
+/usr/bin/ping \
 iputils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

@@ -10,7 +10,7 @@ RPM_HASH = "cd048cfc95993581db3bdb57f4877d418a05438220de20c695383de308ebb60eb8ff
 
 RPROVIDES:${PN} += "pam-kwallet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

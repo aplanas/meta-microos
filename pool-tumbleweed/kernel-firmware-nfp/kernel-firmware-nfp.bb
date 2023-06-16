@@ -89,8 +89,8 @@ firmware-netronome/nic/nic-AMDA0099-0001-2x10.nffw \
 firmware-netronome/nic/nic-AMDA0099-0001-2x25.nffw \
 kernel-firmware-nfp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

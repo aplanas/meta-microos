@@ -343,8 +343,8 @@ firmware-yamaha/ds1e-ctrl.fw \
 firmware-yamaha/yss225-registers.bin \
 kernel-firmware-sound"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

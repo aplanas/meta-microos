@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-hyph-sa.tex \
 tex-loadhyph-sa.tex \
 texlive-hyphen-sanskrit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

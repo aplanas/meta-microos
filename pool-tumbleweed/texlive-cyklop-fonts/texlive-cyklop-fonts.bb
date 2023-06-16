@@ -123,7 +123,7 @@ font-cyklop-italic \
 font-cyklop-regular \
 texlive-cyklop-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

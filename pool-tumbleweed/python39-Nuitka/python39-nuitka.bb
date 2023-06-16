@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-nuitka \
 python39-Nuitka \
 python3dist-nuitka"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 gcc-c++ \
 python-abi \
 python39-Jinja2 \

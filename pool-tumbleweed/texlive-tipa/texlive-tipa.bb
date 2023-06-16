@@ -108,7 +108,7 @@ tex-xipxsl10.tfm \
 tex-xipxss10.tfm \
 texlive-tipa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

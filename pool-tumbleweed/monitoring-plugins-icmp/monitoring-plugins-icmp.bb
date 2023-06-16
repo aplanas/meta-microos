@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "config-monitoring-plugins-icmp \
 monitoring-plugins-icmp \
 nagios-plugins-icmp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

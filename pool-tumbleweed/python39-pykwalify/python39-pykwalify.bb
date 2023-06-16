@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-pykwalify \
 python39-pykwalify \
 python3dist-pykwalify"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-docopt \

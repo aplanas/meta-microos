@@ -24,8 +24,8 @@ python3.10dist-netcdf4 \
 python310-netCDF4 \
 python3dist-netcdf4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 hdf5 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

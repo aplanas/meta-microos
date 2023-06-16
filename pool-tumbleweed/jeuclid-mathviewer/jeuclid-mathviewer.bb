@@ -23,7 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-mathviewer"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 hicolor-icon-theme \
 jeuclid"
 

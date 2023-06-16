@@ -17,7 +17,7 @@ tex-ubbmss.fd \
 tex-ubbmtt.fd \
 texlive-bbm-macros"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

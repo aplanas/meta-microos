@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.9dist-qtpy \
 python39-QtPy \
 python3dist-qtpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-packaging \
 update-alternatives"

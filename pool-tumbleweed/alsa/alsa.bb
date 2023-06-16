@@ -13,9 +13,9 @@ RPM_HASH = "85992e646d2e3a77e531969aa1891de54fc48d7acdb23792705c56215a09a7d75f37
 
 RPROVIDES:${PN} += "alsa"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 alsa-ucm-conf \
 alsa-utils \

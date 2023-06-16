@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-qrcode \
 python311-qrcode \
 python3dist-qrcode"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 update-alternatives"

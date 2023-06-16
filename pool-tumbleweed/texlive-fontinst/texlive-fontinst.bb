@@ -32,7 +32,7 @@ tex-osf2x.tex \
 tex-xfntinst.sty \
 texlive-fontinst"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

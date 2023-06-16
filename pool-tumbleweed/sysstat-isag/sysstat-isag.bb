@@ -11,7 +11,7 @@ RPM_HASH = "40eda3b7f5f386a1fa17b3b3b9d43e5a6009ad4de5cca31ff09f996ad860d1ed7569
 
 RPROVIDES:${PN} += "sysstat-isag"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnuplot \
 sysstat \
 tk"

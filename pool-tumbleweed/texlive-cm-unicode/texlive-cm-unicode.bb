@@ -36,7 +36,7 @@ tex-cmu-vn.enc \
 tex-cmu.map \
 texlive-cm-unicode"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

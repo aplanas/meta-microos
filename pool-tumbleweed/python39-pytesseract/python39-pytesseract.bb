@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.9dist-pytesseract \
 python39-pytesseract \
 python3dist-pytesseract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 pkgconfig-tesseract \
 python-abi \
 python39-Pillow \

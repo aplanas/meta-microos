@@ -12,8 +12,8 @@ RPM_HASH = "da271665089d8285382a43eebba289ec8cbf0a81504debcff02562b661eee0b2f0f7
 
 RPROVIDES:${PN} += "pcb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/tclsh \
 /usr/bin/wish \
 ld-linux-aarch64.so.1 \

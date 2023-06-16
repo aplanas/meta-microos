@@ -9,7 +9,7 @@ RPM_HASH = "630d6349b3fe17464d785f119adb76b5a9394bb5c8e1557c9680fea6b0f9178df1e2
 
 RPROVIDES:${PN} += "lua-language-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libm.so.6"
 

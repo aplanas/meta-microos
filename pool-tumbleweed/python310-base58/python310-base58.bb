@@ -13,8 +13,8 @@ python3.10dist-base58 \
 python310-base58 \
 python3dist-base58"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

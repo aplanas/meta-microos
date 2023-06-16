@@ -21,9 +21,9 @@ RPM_HASH = "6d1dd913f34776ed2271419393b0d6079ec9df07b8a17959a4ed36305b04ef3682c6
 RPROVIDES:${PN} += "config-lbdb \
 lbdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

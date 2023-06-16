@@ -13,7 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "trilinos-gnu-mvapich2-hpc \
 trilinos-gnu-mvapich2-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 trilinos-14-0-0-gnu-mvapich2-hpc-devel"
 
 inherit rpm

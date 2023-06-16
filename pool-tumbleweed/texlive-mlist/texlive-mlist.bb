@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-mlist.cfg \
 tex-mlist.sty \
 texlive-mlist"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

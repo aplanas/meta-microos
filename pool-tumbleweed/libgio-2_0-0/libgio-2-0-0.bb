@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "gio \
 libgio-2-0-0 \
 libgio-2.0.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 dbus-launch \
 gio-branding \
 glib2-tools \

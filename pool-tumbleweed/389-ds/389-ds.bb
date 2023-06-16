@@ -60,9 +60,9 @@ libviews-plugin.so \
 libwhoami-plugin.so \
 user-dirsrv"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/sbin/service \
 acl \
 cyrus-sasl-plain \

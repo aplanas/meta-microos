@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-algorithm.sty \
 tex-algorithmic.sty \
 texlive-algorithms"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ RPM_HASH = "7e5093ca9710b29d67f30f0e08c02b9ab78004e2b2a940f4aea8de68705c759d4b75
 
 RPROVIDES:${PN} += "lrzip"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

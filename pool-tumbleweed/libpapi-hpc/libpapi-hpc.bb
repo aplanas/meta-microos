@@ -11,7 +11,7 @@ RPM_HASH = "77d75ff4c85f3cb44751f74e61d32e723cfd5dab1e706512f63d4b341f50d36f44f3
 
 RPROVIDES:${PN} += "libpapi-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libpapi-7-0-0-hpc"
 
 inherit rpm

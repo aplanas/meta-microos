@@ -19,7 +19,7 @@ tex-mercatorpy.def \
 tex-mercatorsupplier.def \
 texlive-mercatormap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

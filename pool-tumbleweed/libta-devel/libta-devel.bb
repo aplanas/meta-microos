@@ -11,7 +11,7 @@ RPM_HASH = "6f8aa370e5484ed1849273550c569bab0867478704b91963e2bf560aeaba2549249c
 RPROVIDES:${PN} += "libta-devel \
 ta-lib-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glibc-devel \
 libta-lib0"
 

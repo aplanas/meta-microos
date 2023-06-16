@@ -639,7 +639,7 @@ tex-coel-z4xltd.enc \
 tex-coelacanth.sty \
 texlive-coelacanth"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

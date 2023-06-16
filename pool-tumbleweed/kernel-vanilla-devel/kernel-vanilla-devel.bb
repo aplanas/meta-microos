@@ -16,7 +16,7 @@ RPM_HASH = "ad5ea5b32fccaa15a802e7a4ae151f4db7ee3dddb7e454e1ad7e7a831d0c0b2cc0d0
 RPROVIDES:${PN} += "kernel-vanilla-devel \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 dwarves \
 kernel-source-vanilla \

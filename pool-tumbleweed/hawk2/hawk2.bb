@@ -12,10 +12,10 @@ RPROVIDES:${PN} += "ha-cluster-webui \
 hawk \
 hawk2"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 /usr/bin/touch \
 crmsh \
 dejavu \

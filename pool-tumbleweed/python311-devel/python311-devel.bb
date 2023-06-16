@@ -19,9 +19,9 @@ RPROVIDES:${PN} += "pkgconfig-python-3.11 \
 pkgconfig-python-3.11-embed \
 python311-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-base"
 

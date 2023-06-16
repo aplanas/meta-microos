@@ -19,7 +19,7 @@ pcfclock-kmp \
 pcfclock-kmp-64kb \
 pcfclock-kmp-64kb-k6.3.4-1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-uname-r \

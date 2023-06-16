@@ -13,8 +13,8 @@ python3.10dist-codecov \
 python310-codecov \
 python3dist-codecov"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-coverage \
 python310-requests \

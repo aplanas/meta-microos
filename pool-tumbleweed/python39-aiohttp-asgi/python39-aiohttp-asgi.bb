@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-aiohttp-asgi \
 python39-aiohttp-asgi \
 python3dist-aiohttp-asgi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-aiohttp"
 

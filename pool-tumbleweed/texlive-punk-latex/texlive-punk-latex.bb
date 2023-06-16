@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-ot1pnk.fd \
 tex-punk.sty \
 texlive-punk-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

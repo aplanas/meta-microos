@@ -13,7 +13,7 @@ group-brltty \
 system-user-brltty \
 user-brltty"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-audio \
 group-dialout \
 group-input \

@@ -62,7 +62,7 @@ tex-mrcls-rzkwvt.enc \
 tex-mrcls-stzmvz.enc \
 texlive-marcellus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

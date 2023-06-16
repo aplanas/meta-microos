@@ -22,7 +22,7 @@ tex-loadhyph-sr-cyrl.tex \
 tex-loadhyph-sr-latn.tex \
 texlive-hyphen-serbian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

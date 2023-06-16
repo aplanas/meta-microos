@@ -10,7 +10,7 @@ RPM_HASH = "489fe0ba17ac180d3c0be7ffecfbf936a4d866f787f69eeb335b9aab69c4e089614e
 
 RPROVIDES:${PN} += "pcp-pmda-gpfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-PCP-PMDA"
 
 inherit rpm

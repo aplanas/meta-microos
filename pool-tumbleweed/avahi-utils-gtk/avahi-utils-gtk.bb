@@ -11,7 +11,7 @@ RPM_HASH = "c91460243a39c1c739935cc7815e9e841898a8d5bef36398eb77d6acc237fd7de7b9
 RPROVIDES:${PN} += "avahi-glib2-utils-gtk \
 avahi-utils-gtk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 avahi \
 libavahi-client.so.3 \
 libavahi-common.so.3 \

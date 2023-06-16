@@ -22,7 +22,7 @@ tex-ieee.cbx \
 tex-magyar-ieee.lbx \
 texlive-biblatex-ieee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

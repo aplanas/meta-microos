@@ -10,7 +10,7 @@ RPM_HASH = "622c115029a84670e3ece9ed93144970a7d1c55fd74755e7601d866fef4c603d78ce
 RPROVIDES:${PN} += "dtb-amlogic \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

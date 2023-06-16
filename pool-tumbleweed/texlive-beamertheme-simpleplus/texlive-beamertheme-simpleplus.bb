@@ -16,7 +16,7 @@ tex-beamerinnerthemeSimplePlus.sty \
 tex-beamerthemeSimplePlus.sty \
 texlive-beamertheme-simpleplus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

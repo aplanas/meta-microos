@@ -13,7 +13,7 @@ RPM_HASH = "f53f352d5ab0f8ce4b7c22b0fa5e7c9fb5d15ef2b969898fb2c11bdb00c978ed1ae9
 RPROVIDES:${PN} += "ghc-compiler \
 hsc2hs-0.68.8-3.1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gcc \
 ghc-base-devel \
 ghc-filesystem \

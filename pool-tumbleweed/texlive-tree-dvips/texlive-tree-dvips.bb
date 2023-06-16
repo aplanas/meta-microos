@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-lingmacros.sty \
 tex-tree-dvips.sty \
 texlive-tree-dvips"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

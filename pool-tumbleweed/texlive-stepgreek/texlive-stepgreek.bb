@@ -39,7 +39,7 @@ tex-a-voidup.enc \
 tex-a-wkkjyg.enc \
 texlive-stepgreek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

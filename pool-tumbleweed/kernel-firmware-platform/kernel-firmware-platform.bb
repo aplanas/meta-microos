@@ -103,8 +103,8 @@ firmware-yam/1200.bin \
 firmware-yam/9600.bin \
 kernel-firmware-platform"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

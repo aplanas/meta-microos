@@ -38,7 +38,7 @@ tex-fcprefix.sty \
 tex-fmtcount.sty \
 texlive-fmtcount"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

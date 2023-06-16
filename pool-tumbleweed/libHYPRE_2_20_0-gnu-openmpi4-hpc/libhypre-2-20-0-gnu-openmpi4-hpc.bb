@@ -15,7 +15,7 @@ RPM_HASH = "402fb63801939b5cc34c4a6ca572cb084d202a9d716436f0048dd728ccf1f1039cdf
 
 RPROVIDES:${PN} += "libHYPRE-2-20-0-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

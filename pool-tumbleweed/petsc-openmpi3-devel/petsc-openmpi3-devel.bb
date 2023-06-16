@@ -11,8 +11,7 @@ RPM_HASH = "a846f6e12b386cb2bfb888951bcd18c151cb341c46e561fb1244e3277d712233bdfc
 
 RPROVIDES:${PN} += "petsc-openmpi3-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 Modules \
 blacs-openmpi3-devel \

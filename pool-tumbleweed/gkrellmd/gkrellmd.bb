@@ -10,7 +10,7 @@ RPM_HASH = "975d64883cf681becfa4e7ac43d425e2bf39e616f85a5ab743b599dbe4eb15edcd01
 RPROVIDES:${PN} += "config-gkrellmd \
 gkrellmd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

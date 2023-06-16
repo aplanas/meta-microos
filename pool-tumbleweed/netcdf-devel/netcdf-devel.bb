@@ -14,8 +14,8 @@ RPM_HASH = "e300d80f3d7c25adc73f89cefa6f9fd8685dab31d528b1c55ebc8558052df56ec371
 RPROVIDES:${PN} += "netcdf-devel \
 pkgconfig-netcdf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 hdf5-devel \
 libcurl-devel \
 libnetcdf19 \

@@ -106,7 +106,7 @@ font--lang=zu \
 font-nimbussansl \
 texlive-helvetic-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

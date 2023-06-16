@@ -20,8 +20,8 @@ libnm-device-plugin-wifi.so \
 service-network \
 sysvinit-network"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 NetworkManager-branding \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \

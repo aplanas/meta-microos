@@ -19,7 +19,7 @@ tex-loadhyph-en-gb.tex \
 tex-loadhyph-en-us.tex \
 texlive-hyphen-english"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

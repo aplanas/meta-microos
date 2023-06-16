@@ -20,11 +20,11 @@ RPM_HASH = "dc0a852b97514b4c182c8866a90f571be8523fcc749b4999a048db7108ac072934c1
 RPROVIDES:${PN} += "config-mc \
 mc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libe2p.so.2 \

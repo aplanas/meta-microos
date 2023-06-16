@@ -15,7 +15,7 @@ tex-hyph-kmr.tex \
 tex-loadhyph-kmr.tex \
 texlive-hyphen-kurmanji"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

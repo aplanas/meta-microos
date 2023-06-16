@@ -44,7 +44,7 @@ tex-xob-paralist.sty \
 tex-xoblivoir.cls \
 texlive-kotex-oblivoir"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -25,9 +25,9 @@ rpm-macro-vagrant-rb-ruby-suffix \
 rubygem-vagrant \
 vagrant"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 bsdtar \
 curl \
 openssh \

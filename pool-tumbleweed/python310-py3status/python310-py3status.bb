@@ -24,8 +24,8 @@ python3.10dist-py3status \
 python310-py3status \
 python3dist-py3status"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-setuptools \
 update-alternatives"

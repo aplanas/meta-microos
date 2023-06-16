@@ -18,7 +18,7 @@ tex-ducksay.code.v2.tex \
 tex-ducksay.sty \
 texlive-ducksay"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -10,7 +10,7 @@ RPM_HASH = "d6ffe7860c744225b77eff84eda23908908683568114b632d291d08f1cf94719e9b8
 RPROVIDES:${PN} += "kubernetes-client-common \
 kubernetes1.25-client-common"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kubernetes1.25-client"
 
 inherit rpm

@@ -14,7 +14,7 @@ libgiognomeproxy.so \
 libgiognutls.so \
 libgiolibproxy.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glib2-tools \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1 \

@@ -74,7 +74,7 @@ tex-ybvrw8t.tfm \
 tex-ybvrw8t.vf \
 texlive-baskervald"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

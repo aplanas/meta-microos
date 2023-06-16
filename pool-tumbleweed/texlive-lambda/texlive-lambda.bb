@@ -30,7 +30,7 @@ tex-ot1uctt.fd \
 tex-ut1enc.def \
 texlive-lambda"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

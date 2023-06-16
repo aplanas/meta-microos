@@ -25,7 +25,7 @@ RPM_HASH = "bd8167c91963bec7bbaa4ff85f4f07df0435c8eda8fad678723f778991739e2a689c
 
 RPROVIDES:${PN} += "udunits2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libudunits2.so.0"

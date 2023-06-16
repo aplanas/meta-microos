@@ -258,8 +258,8 @@ firmware-radeon/verde-rlc.bin \
 firmware-radeon/verde-smc.bin \
 kernel-firmware-radeon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

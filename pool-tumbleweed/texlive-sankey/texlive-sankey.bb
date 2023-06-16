@@ -15,7 +15,7 @@ tex-sankey.sty \
 tex-tikzlibrarydubins.code.tex \
 texlive-sankey"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

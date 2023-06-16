@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-parallax \
 python311-parallax \
 python3dist-parallax"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 openssh \
 python-abi \
 update-alternatives"

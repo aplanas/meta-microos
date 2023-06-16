@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-sgml-skel \
 sgml-skel"
 
-RDEPENDS:${PN} += "/bin/awk \
-/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
+/usr/bin/sh \
 bash \
 coreutils \
 findutils \

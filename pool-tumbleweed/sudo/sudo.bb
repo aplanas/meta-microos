@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "config-sudo \
 libsudo-util.so.0 \
 sudo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \

@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-ran-toks.sty \
 tex-rt-dbapp.def \
 texlive-ran-toks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

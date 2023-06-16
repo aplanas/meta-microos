@@ -11,7 +11,7 @@ RPM_HASH = "4631bd5406f58f5cd0055aff6b7aea097135b426e3232f0e050be48b47dac5df570d
 
 RPROVIDES:${PN} += "pcp-pmda-logger"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

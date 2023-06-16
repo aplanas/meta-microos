@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.9dist-passivetotal \
 python39-passivetotal \
 python3dist-passivetotal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-ez-setup \
 python39-future \

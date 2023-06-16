@@ -11,7 +11,7 @@ RPM_HASH = "b58afa8b3fd721da4b781f5e95dde4d1e88f5ed58bfa071b723e1644d42e34cfeb8c
 
 RPROVIDES:${PN} += "hostap-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

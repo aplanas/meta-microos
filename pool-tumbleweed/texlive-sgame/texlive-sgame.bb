@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-sgame.sty \
 tex-sgamevar.sty \
 texlive-sgame"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

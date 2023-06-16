@@ -23,8 +23,8 @@ RPROVIDES:${PN} += "python3.11dist-pyscss \
 python311-pyScss \
 python3dist-pyscss"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcre.so.1 \

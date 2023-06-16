@@ -18,7 +18,7 @@ python3-qt5-devel \
 python310-PyQt5-devel \
 python310-qt5-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libc.so.6 \

@@ -30,10 +30,10 @@ libwraster.so.6 \
 windowmanager \
 wmaker"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libMagickWand-7.Q16HDRI.so.10 \
 libX11.so.6 \

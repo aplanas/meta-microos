@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "php-pear-Auth-SASL \
 php5-pear-Auth-SASL \
 php7-pear-Auth-SASL"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear"
 
 inherit rpm

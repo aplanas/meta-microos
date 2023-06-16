@@ -25,8 +25,8 @@ rpm-macro-elixir-dir \
 rpm-macro-elixir-libdir \
 rpm-macro-mix-compile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 erlang"
 
 inherit rpm

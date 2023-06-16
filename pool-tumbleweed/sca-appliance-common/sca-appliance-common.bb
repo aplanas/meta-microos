@@ -10,10 +10,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-appliance-common"
 
-RDEPENDS:${PN} += "/bin/logger \
-/bin/ping \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/dos2unix \
+/usr/bin/logger \
+/usr/bin/ping \
 /usr/bin/sed \
 /usr/bin/ssh \
 /usr/bin/vmstat \

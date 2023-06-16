@@ -156,7 +156,7 @@ font-triodionunicode \
 font-vertogradunicode \
 texlive-fonts-churchslavonic-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

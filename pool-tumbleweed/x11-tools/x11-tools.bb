@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "3ddiag \
 x11-tools \
 xf86tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup"
 

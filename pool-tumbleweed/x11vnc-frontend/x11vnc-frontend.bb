@@ -14,7 +14,7 @@ RPM_HASH = "1f652c6006ad4d815acb10b0c194e74a5b261e243b8a9440aab386433db37ed1e49d
 
 RPROVIDES:${PN} += "x11vnc-frontend"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 tcl \
 tk \
 x11vnc"

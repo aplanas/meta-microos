@@ -25,7 +25,7 @@ RPM_HASH = "6f2e1f3336135925dc46781bb74ddbcb2f961b12b90bb5d90fefcc7775d6ad19ef15
 RPROVIDES:${PN} += "config-uucp \
 uucp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ca-certificates \
 filesystem \
 fileutils \

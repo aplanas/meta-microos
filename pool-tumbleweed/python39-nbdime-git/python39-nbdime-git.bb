@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python39-jupyter-nbdime-git \
 python39-nbdime-git"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 git-core \
 python39-nbdime"

@@ -557,7 +557,7 @@ tex-ztm-Regular-tosf-sc-t1.tfm \
 tex-ztm-Regular-tosf-t1.tfm \
 texlive-newpx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

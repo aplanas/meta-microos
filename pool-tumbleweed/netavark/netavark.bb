@@ -23,7 +23,7 @@ RPM_HASH = "6c8ce60deac9887a589c4149f89a03777bb705cfda95129491946a6d6d085dd85a02
 
 RPROVIDES:${PN} += "netavark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6"

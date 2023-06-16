@@ -11,7 +11,7 @@ RPM_HASH = "5b96d76d4d485cd8800f6d94c63a459abc839808bdaad7ae76ad613deb90996dab66
 RPROVIDES:${PN} += "ghc-devel-filepath-bytestring-1.4.2.1.12-j7n9rVANDcF3su3QaU7xU \
 ghc-filepath-bytestring-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

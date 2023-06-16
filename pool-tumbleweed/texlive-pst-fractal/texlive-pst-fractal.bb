@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-pst-fractal.sty \
 tex-pst-fractal.tex \
 texlive-pst-fractal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

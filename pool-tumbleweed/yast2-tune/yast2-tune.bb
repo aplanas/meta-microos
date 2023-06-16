@@ -9,7 +9,7 @@ RPM_HASH = "d238e2018069c1c4018d7c74433f065f99663c3103a9bdef1eb032f1593a343f38cf
 
 RPROVIDES:${PN} += "yast2-tune"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 yast2 \
 yast2-bootloader \
 yast2-ruby-bindings"

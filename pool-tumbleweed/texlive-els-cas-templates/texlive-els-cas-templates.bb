@@ -18,7 +18,7 @@ tex-cas-dc.cls \
 tex-cas-sc.cls \
 texlive-els-cas-templates"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

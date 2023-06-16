@@ -12,7 +12,7 @@ electron-abi \
 nodejs-electron \
 nodejs-electron-prebuilt"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 google-roboto-fonts \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

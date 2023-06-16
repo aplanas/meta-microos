@@ -17,7 +17,7 @@ geronimo-el-1-0-api \
 mvn-org.apache.geronimo.specs-geronimo-el-1.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-el-1.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

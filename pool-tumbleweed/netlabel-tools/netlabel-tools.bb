@@ -15,8 +15,8 @@ RPM_HASH = "d04ea74c01cfb22c4f3abe102aea6f4b2685098f62e96628dd5234b38335d9cc8d9f
 RPROVIDES:${PN} += "config-netlabel-tools \
 netlabel-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnl-3.so.200 \

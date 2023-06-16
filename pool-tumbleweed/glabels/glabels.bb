@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "glabels \
 libglabels-3.0.so.8 \
 libglbarcode-3.0.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

@@ -29,7 +29,7 @@ tex-t2c.enc \
 tex-x2.enc \
 texlive-t2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -107,7 +107,7 @@ font-inconsolatan \
 font-inconsolatazi4 \
 texlive-inconsolata-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

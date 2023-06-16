@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-hyph-cu.tex \
 tex-loadhyph-cu.tex \
 texlive-hyphen-churchslavonic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

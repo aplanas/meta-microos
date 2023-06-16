@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-oletools \
 python311-oletools \
 python3dist-oletools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-colorclass \
 python311-easygui \

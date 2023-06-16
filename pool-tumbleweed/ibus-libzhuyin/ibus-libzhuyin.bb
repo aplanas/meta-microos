@@ -11,7 +11,7 @@ RPM_HASH = "95cabb0c4d8ad0f8384fea2fa180115ba0ec175e40545d45c20326f978e7e0cea662
 RPROVIDES:${PN} += "ibus-libzhuyin \
 locale-ibus-zh-TW;zh-HK"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

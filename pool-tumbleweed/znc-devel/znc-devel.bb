@@ -14,8 +14,8 @@ RPM_HASH = "6166de9c1c8250da53396822b254ec06760b7c85dbf80b240045064b1da37d7a6168
 RPROVIDES:${PN} += "pkgconfig-znc \
 znc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 znc"
 
 inherit rpm

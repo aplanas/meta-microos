@@ -16,7 +16,7 @@ tex-hyph-nl.tex \
 tex-loadhyph-nl.tex \
 texlive-hyphen-dutch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

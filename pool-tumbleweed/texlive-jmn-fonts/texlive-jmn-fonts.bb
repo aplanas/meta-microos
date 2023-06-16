@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-hans \
 font-hans-sh \
 texlive-jmn-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

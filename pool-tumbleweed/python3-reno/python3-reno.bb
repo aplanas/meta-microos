@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3-reno \
 python3.10dist-reno \
 python3dist-reno"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-PyYAML \
 python3-Sphinx \

@@ -10,7 +10,7 @@ RPM_HASH = "6794b82ab18e5e89b10a33c6ba79244ff827d2a58d5a651ffc32fe723c02479ddcb8
 RPROVIDES:${PN} += "ghc-devel-hjsmin-0.2.1-G11T0ofJtyz5gQQf6GRgL1 \
 ghc-hjsmin-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

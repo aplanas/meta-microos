@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-cairosvg \
 python311-CairoSVG \
 python3dist-cairosvg"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Pillow \
 python311-cairocffi \

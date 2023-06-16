@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "dtb-hisilicon \
 dtb-hisilicon64 \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

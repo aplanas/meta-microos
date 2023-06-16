@@ -14,7 +14,7 @@ scalable-font-ja \
 vlgothic \
 vlgothic-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

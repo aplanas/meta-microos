@@ -19,9 +19,9 @@ rubygem-ruby-3.2.0-sass-3.7 \
 rubygem-ruby-3.2.0-sass-3.7.4 \
 rubygem-sass"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-sass-listen-4.0 \
 update-alternatives"

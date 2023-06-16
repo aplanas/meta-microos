@@ -20,7 +20,7 @@ tex-roman8.def \
 tex-umlaute.sty \
 texlive-umlaute"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

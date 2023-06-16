@@ -15,9 +15,9 @@ RPM_HASH = "9857b0e86a17e52c6b2c1f8114ce3e13c8567091d1dd3e73f63f60c949896d0b8c2a
 
 RPROVIDES:${PN} += "sensors"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsensors.so.4 \

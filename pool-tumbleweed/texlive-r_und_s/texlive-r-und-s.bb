@@ -23,7 +23,7 @@ tex-r-und-s.sty \
 tex-r-und-s.tex \
 texlive-r-und-s"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

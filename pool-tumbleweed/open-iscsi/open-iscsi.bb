@@ -22,8 +22,8 @@ RPM_HASH = "8d99580b3ce9f58829f621ed76e3bd3caa9304c1aba04c3a739e3bc567162bdd439a
 RPROVIDES:${PN} += "config-open-iscsi \
 open-iscsi"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

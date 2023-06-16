@@ -14,8 +14,8 @@ libkshark-gui.so.2.2.0 \
 libkshark-plot.so.2.2.0 \
 libkshark.so.2"
 
-RDEPENDS:${PN} += "/bin/bash \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

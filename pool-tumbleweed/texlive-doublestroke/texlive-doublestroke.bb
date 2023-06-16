@@ -26,7 +26,7 @@ tex-dsss8.tfm \
 tex-dstroke.map \
 texlive-doublestroke"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

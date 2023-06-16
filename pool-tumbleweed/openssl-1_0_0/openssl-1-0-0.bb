@@ -15,8 +15,8 @@ openssl-1-0-0 \
 openssl-cli \
 ssl"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.1.0.0 \

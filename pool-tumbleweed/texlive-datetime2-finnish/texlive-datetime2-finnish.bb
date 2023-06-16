@@ -14,7 +14,7 @@ tex-datetime2-finnish-utf8.ldf \
 tex-datetime2-finnish.ldf \
 texlive-datetime2-finnish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -66,7 +66,7 @@ osgi-org.apache.tomcat.jdbc \
 osgi-org.eclipse.jdt.core.compiler.batch \
 tomcat-lib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ecj \
 java-headless \

@@ -34,9 +34,9 @@ RPM_HASH = "08117c2e3f50c5bc3ba70c33c9f2beb30b388c1c95b65bf599b1b7df5b64e106f649
 RPROVIDES:${PN} += "config-courier-imap \
 courier-imap"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 courier-authlib \
 gdbm \
 ld-linux-aarch64.so.1 \

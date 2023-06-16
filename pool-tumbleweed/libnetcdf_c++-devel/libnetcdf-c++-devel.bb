@@ -11,7 +11,7 @@ RPM_HASH = "f295c4207206a7114488732524dc28f636f1f83e4eb02adb7eecaa03b55a6dc0e98c
 RPROVIDES:${PN} += "libnetcdf-c++-devel \
 libnetcdf-devel-/usr/lib64/libnetcdf-c++.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libnetcdf-c++4"
 
 inherit rpm

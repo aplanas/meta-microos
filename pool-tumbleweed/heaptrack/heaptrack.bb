@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "heaptrack \
 libheaptrack-inject.so \
 libheaptrack-preload.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-filesystem.so.1.82.0 \
 libboost-iostreams.so.1.82.0 \

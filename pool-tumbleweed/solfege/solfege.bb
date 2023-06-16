@@ -15,9 +15,9 @@ RPM_HASH = "584d291ebde6c01cd0fbd11352077abaebed8d131574fa46cf1188783ee5f3e7d831
 RPROVIDES:${PN} += "config-solfege \
 solfege"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 lilypond-fonts-common \
 python3-gobject-Gdk \
 timidity \

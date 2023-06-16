@@ -11,7 +11,7 @@ RPM_HASH = "e37e2329648dffa1ab140febf874153af5bb93c864b8d50919e86b5732b0ed10e40c
 
 RPROVIDES:${PN} += "nvme-cli"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhugetlbfs.so \

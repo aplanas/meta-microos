@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

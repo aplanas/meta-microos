@@ -10,7 +10,7 @@ RPM_HASH = "f7d2948f291c05296d59a87af78af32c80142b8dca9394c66181a734b64a0d410049
 RPROVIDES:${PN} += "ghc-citeproc-devel \
 ghc-devel-citeproc-0.8.1-1D0nfQHnF7b6sejYb0d6Zi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-citeproc \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

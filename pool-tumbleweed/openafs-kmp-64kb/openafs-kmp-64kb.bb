@@ -15,7 +15,7 @@ openafs-kmp \
 openafs-kmp-64kb \
 openafs-kmp-64kb-k6.3.4-1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-64kb \

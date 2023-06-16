@@ -160,7 +160,7 @@ font--lang=zu \
 font-cascadiacod3 \
 texlive-cascadia-code-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

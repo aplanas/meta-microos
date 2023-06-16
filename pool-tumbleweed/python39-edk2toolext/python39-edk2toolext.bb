@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-edk2-pytool-extensions \
 python39-edk2toolext \
 python3dist-edk2-pytool-extensions"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-edk2toollib \

@@ -15,7 +15,7 @@ RPM_HASH = "e28f284c6b2b6bf73600b9167505ed199db1ba26cee521991a8c1f6fb76500571318
 
 RPROVIDES:${PN} += "imgvtopgm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnetpbm.so.11 \

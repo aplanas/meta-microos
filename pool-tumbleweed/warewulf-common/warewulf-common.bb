@@ -18,9 +18,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-common"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 mysql \
 perl-warewulf-common \
 shadow \

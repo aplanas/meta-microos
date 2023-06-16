@@ -11,9 +11,9 @@ RPM_HASH = "099c9646c44e0c47d39cde03015f3464b15a414dcf59690b09960bb2afaa0727fffa
 RPROVIDES:${PN} += "config-qemu-tools \
 qemu-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 group-kvm \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \

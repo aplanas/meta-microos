@@ -15,7 +15,7 @@ tex-sexam.sty \
 tex-wexam.sty \
 texlive-sexam"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

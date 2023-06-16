@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pytest-check-links \
 python311-pytest-check-links \
 python3dist-pytest-check-links"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docutils \
 python311-html5lib \

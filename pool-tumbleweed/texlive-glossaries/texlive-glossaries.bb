@@ -93,8 +93,8 @@ tex-glossary-tree-2021-11-01.sty \
 tex-glossary-tree.sty \
 texlive-glossaries"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

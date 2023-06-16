@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "rpm-macro-sysusers-generate-pre \
 rpm-macro-sysusers-requires \
 sysuser-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 sysuser-shadow"
 
 inherit rpm

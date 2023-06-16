@@ -11,7 +11,7 @@ RPM_HASH = "aa1c4ebed823c66a7dfb67943827bb5c03db9b60cd12bb41ae722093f6b8a5203a7f
 RPROVIDES:${PN} += "ghc-devel-x509-validation-1.6.12-JQgBIAyKHQDDBxJK8FYPfO \
 ghc-x509-validation-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk \
 ghc-devel-asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm \

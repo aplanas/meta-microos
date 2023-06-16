@@ -17,7 +17,7 @@ rubygem-ruby-3.2.0-kgio-2 \
 rubygem-ruby-3.2.0-kgio-2.11 \
 rubygem-ruby-3.2.0-kgio-2.11.4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

@@ -16,7 +16,7 @@ tex-biblatex-cv.cbx \
 tex-biblatex-cv.sty \
 texlive-biblatex-cv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

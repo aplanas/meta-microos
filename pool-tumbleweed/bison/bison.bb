@@ -9,7 +9,7 @@ RPM_HASH = "311860f2f484e28dca11f64b4c72f6d4208045bdc1025135285a785ba39b980eb0cf
 
 RPROVIDES:${PN} += "bison"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 m4"

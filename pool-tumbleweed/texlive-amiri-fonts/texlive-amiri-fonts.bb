@@ -140,7 +140,7 @@ font-amiriquran \
 font-amiriqurancolored \
 texlive-amiri-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

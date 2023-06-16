@@ -12,7 +12,7 @@ RPM_HASH = "60ffe80c8b9aeb16dd1bf3d141ca2dba569b5b1d2fe561efed58430f3d84415b008d
 RPROVIDES:${PN} += "config-pidentd \
 pidentd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

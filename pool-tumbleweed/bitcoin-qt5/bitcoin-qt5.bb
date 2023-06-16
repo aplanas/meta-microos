@@ -19,7 +19,7 @@ RPM_HASH = "8760f39d36204c5afc7909d982ab0bed25a3b0ee8de50b5bd47e541b360b1dcb03a1
 
 RPROVIDES:${PN} += "bitcoin-qt5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

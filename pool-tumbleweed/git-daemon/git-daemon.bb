@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "git-daemon \
 group-git-daemon \
 user-git-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 bash \
 fillup \

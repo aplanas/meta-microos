@@ -15,9 +15,9 @@ pkgconfig-Qt6Platform \
 qt6-base-common-devel \
 qt6-tools-qtpaths"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 cmake \
 gcc-c++ \
 ld-linux-aarch64.so.1 \

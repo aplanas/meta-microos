@@ -19,7 +19,7 @@ tex-spectra.data.LSE.tex \
 tex-spectra.data.NIST.tex \
 texlive-pgf-spectra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

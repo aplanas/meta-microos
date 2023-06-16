@@ -13,7 +13,7 @@ tex-glossaries-magyar-utf8.ldf \
 tex-glossaries-magyar.ldf \
 texlive-glossaries-magyar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

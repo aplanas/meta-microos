@@ -15,8 +15,8 @@ perl-App--Dochazka--WWW \
 perl-App--Dochazka--WWW--Dispatch \
 perl-App-Dochazka-WWW"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 perl--MODULE-COMPAT-5.36.0 \

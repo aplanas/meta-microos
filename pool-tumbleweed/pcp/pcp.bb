@@ -17,8 +17,8 @@ pcp \
 pcp-pmda-kvm \
 pcp-webapi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/hostname \
+RDEPENDS:${PN} += "/usr/bin/hostname \
+/usr/bin/sh \
 bash \
 cpp \
 cyrus-sasl \

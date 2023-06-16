@@ -14,7 +14,7 @@ tex-hans.map \
 tex-hans.tfm \
 texlive-jmn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

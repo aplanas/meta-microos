@@ -19,7 +19,7 @@ tex-beamerthemehohenheim.sty \
 tex-hobete.sty \
 texlive-hobete"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

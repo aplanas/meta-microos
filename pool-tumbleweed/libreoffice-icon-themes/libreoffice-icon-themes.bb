@@ -15,7 +15,7 @@ libreoffice-icon-theme-sifr \
 libreoffice-icon-theme-tango \
 libreoffice-icon-themes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice-share-linker"
 
 inherit rpm

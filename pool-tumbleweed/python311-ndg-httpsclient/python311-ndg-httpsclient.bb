@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-ndg-httpsclient \
 python311-ndg-httpsclient \
 python3dist-ndg-httpsclient"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-pyOpenSSL \
 python311-pyasn1 \

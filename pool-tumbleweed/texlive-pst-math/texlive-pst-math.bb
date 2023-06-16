@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-pst-math.sty \
 tex-pst-math.tex \
 texlive-pst-math"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

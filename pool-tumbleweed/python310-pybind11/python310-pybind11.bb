@@ -16,8 +16,8 @@ python3.10dist-pybind11 \
 python310-pybind11 \
 python3dist-pybind11"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi"
 

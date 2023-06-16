@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "config-ddskk \
 ddskk \
 locale-emacs-ja"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apel \
 emacs \
 skkdic"

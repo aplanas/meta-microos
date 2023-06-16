@@ -18,7 +18,7 @@ tex-txuprcal.sty \
 tex-utxuprcal.fd \
 texlive-txuprcal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

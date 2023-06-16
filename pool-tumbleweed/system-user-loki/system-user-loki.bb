@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-loki \
 system-user-loki \
 user-loki"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

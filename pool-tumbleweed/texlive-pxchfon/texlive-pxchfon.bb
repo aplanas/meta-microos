@@ -106,7 +106,7 @@ tex-r-cfjas-x-ts1.tfm \
 tex-r-cfjas-xz-l0j.tfm \
 texlive-pxchfon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

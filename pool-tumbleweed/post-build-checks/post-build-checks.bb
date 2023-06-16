@@ -17,9 +17,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl-RPMQ \
 post-build-checks"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 aaa-base \
 aaa-base-malloccheck \
 gawk \

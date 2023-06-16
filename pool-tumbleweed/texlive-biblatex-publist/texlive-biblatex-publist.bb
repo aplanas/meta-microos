@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-publist.bbx \
 tex-publist.cbx \
 texlive-biblatex-publist"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

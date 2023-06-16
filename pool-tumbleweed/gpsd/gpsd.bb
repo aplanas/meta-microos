@@ -24,9 +24,9 @@ RPM_HASH = "770671597d28b6cb9d18c19a8c2a19a0c669ce64c92e2b7178b897b80aca64314310
 
 RPROVIDES:${PN} += "gpsd"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 fillup \

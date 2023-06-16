@@ -92,7 +92,7 @@ tex-ts1cmbr.fd \
 tex-ts1cmtl.fd \
 texlive-cmbright"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,8 +15,8 @@ RPM_HASH = "8d2a6f43edd788cfe70ef7d432e78fbf31abfcdf4b4f4c5235c1bcf12df57d09fdc8
 RPROVIDES:${PN} += "autotrace-devel \
 pkgconfig-autotrace"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libautotrace3"
 
 inherit rpm

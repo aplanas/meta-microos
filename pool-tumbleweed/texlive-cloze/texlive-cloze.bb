@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "tex-cloze.sty \
 tex-cloze.tex \
 texlive-cloze"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/luatex \
+RDEPENDS:${PN} += "/usr/bin/luatex \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

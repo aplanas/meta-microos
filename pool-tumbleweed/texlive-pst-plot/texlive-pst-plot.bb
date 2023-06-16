@@ -15,7 +15,7 @@ tex-pst-plot.tex \
 tex-pst-plot97.tex \
 texlive-pst-plot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

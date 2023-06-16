@@ -21,7 +21,7 @@ tex-rkeyval.sty \
 tex-textcmds.sty \
 texlive-amsrefs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

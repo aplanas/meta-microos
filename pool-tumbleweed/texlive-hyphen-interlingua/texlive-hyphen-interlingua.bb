@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-hyph-ia.tex \
 tex-loadhyph-ia.tex \
 texlive-hyphen-interlingua"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

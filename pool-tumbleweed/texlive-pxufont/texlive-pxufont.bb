@@ -516,7 +516,7 @@ tex-zur-rjmr-h.tfm \
 tex-zur-rjmr-v.tfm \
 texlive-pxufont"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

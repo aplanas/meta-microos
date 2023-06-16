@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-cmapfile \
 python39-cmapfile \
 python3dist-cmapfile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-h5py \
 python39-numpy \

@@ -18,7 +18,7 @@ tex-shrthand.sty \
 tex-tdiagram.sty \
 texlive-semantic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

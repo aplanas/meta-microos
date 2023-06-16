@@ -24,8 +24,8 @@ python310-dask \
 python310-dask-multiprocessing \
 python3dist-dask"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyYAML \
 python310-click \

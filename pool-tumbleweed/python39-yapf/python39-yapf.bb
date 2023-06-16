@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.9dist-yapf \
 python39-yapf \
 python3dist-yapf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

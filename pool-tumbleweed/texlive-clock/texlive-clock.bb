@@ -17,7 +17,7 @@ tex-clock.tex \
 tex-clock.tfm \
 texlive-clock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

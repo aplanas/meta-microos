@@ -20,11 +20,11 @@ python-testsuite \
 python2-devel \
 python2-testsuite"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python \
 /usr/bin/python2 \
 /usr/bin/python2.7 \
+/usr/bin/sh \
 glibc-devel \
 python \
 python-abi \

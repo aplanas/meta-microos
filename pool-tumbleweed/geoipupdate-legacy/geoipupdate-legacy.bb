@@ -9,7 +9,7 @@ RPM_HASH = "273a337c449ad09398bf165f5178dcc95a536a87899f384a525dedaf9c1bef7861a9
 
 RPROVIDES:${PN} += "geoipupdate-legacy"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 geoipupdate \
 geolite2legacy"
 

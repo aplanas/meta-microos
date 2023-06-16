@@ -13,7 +13,7 @@ RPM_HASH = "f3dfb5956a89cd3355e86769c585e28066de70e53c9e0bc759384f2cbb5c59d28732
 
 RPROVIDES:${PN} += "tn5250"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 lib5250.so.0 \
 libc.so.6"

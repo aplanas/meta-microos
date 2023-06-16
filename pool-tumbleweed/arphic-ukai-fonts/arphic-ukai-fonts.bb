@@ -28,7 +28,7 @@ scalable-font-zh-SG \
 scalable-font-zh-TW \
 ttf-arphic-ukai"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

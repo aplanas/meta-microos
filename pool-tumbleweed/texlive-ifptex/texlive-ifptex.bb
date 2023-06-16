@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-ifptex.sty \
 tex-ifuptex.sty \
 texlive-ifptex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

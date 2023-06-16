@@ -26,8 +26,8 @@ libnss-mdns6-minimal.so.2 \
 libnss-mdns6.so.2 \
 nss-mdns"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 avahi \
 grep \
 ld-linux-aarch64.so.1 \

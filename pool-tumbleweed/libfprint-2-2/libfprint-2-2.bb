@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "libfprint \
 libfprint-2-2 \
 libfprint-2.so.2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

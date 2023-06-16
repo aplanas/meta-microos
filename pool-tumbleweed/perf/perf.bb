@@ -16,8 +16,8 @@ perl-Perf--Trace--Context \
 perl-Perf--Trace--Core \
 perl-Perf--Trace--Util"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbabeltrace-ctf.so.1 \
 libc.so.6 \

@@ -24,7 +24,7 @@ suse-release \
 suse-release-oss \
 system-installation-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 glibc \
 product-flavor-MicroOS"

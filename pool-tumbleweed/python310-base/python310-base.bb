@@ -29,7 +29,7 @@ rpm-macro-have-python3 \
 rpm-macro-py3-compile \
 rpm-macro-py3-soflags"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

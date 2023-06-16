@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-python-dotenv \
 python311-python-dotenv \
 python3dist-python-dotenv"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click \
 update-alternatives"

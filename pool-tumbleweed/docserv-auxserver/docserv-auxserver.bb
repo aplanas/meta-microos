@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "docserv-auxserver \
 group-docserv-aux \
 user-docserv-aux"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 sysuser-shadow"
 

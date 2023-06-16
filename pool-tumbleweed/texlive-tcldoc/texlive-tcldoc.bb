@@ -19,7 +19,7 @@ tex-tclldoc.cls \
 tex-tclldoc.sty \
 texlive-tcldoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

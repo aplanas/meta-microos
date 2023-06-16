@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-chords.tex \
 tex-chordsCZ.tex \
 texlive-pmxchords"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

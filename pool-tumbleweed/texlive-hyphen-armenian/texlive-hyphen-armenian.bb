@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-hyph-hy.tex \
 tex-loadhyph-hy.tex \
 texlive-hyphen-armenian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

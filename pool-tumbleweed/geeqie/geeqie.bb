@@ -9,7 +9,7 @@ RPM_HASH = "02b7dca2fdcd98cf98099d8245ee362cef0e4cf06770789b59ad740713c68c110b0e
 
 RPROVIDES:${PN} += "geeqie"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libarchive.so.13 \
 libc.so.6 \

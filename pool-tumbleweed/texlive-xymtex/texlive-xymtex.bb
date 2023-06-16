@@ -46,7 +46,7 @@ tex-xymtx-pdf.sty \
 tex-xymtx-ps.sty \
 texlive-xymtex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

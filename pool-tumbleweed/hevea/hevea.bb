@@ -11,7 +11,7 @@ RPM_HASH = "2aa89e2ea736ce1da6921a9edc0040c7aea28b3ca8cdd358ad678c86b10ad9e90edf
 
 RPROVIDES:${PN} += "hevea"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libm.so.6"
 

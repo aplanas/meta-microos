@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-libvirt-daemon-driver-network \
 libvirt-daemon-driver-network \
 libvirt-driver-network.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dnsmasq \
 iptables \
 ld-linux-aarch64.so.1 \

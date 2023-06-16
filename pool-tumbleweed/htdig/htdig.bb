@@ -25,7 +25,7 @@ libhtdb-3.2.0.so \
 libhtnet-3.2.0.so \
 libhtword-3.2.0.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

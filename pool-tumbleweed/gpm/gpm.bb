@@ -15,9 +15,9 @@ RPROVIDES:${PN} += "config-gpm \
 gpm \
 select"
 
-RDEPENDS:${PN} += "/bin/sed \
-/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sed \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

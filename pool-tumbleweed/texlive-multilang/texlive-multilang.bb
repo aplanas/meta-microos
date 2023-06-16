@@ -21,7 +21,7 @@ tex-multilang-tags.sty \
 tex-multilang.sty \
 texlive-multilang"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

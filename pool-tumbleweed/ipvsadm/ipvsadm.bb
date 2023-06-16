@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "config-ipvsadm \
 ipvsadm \
 ipvsadm-1.31"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 grep \

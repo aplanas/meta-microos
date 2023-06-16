@@ -138,7 +138,7 @@ group-tss \
 parsec \
 user-parsec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

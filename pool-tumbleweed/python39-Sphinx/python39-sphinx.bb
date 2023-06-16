@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.9dist-sphinx \
 python39-Sphinx \
 python3dist-sphinx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Babel \
 python39-Jinja2 \

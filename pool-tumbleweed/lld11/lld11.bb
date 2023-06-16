@@ -9,7 +9,7 @@ RPM_HASH = "4e2ee1dc84af9dc4f57a5379fe89d436b01ac5d64ddb0b36967ff31bd71f59758747
 
 RPROVIDES:${PN} += "lld11"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libLLVM.so.11 \
 libc.so.6 \

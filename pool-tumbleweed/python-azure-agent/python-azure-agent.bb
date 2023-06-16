@@ -18,9 +18,9 @@ python-azure-agent \
 python3.10dist-walinuxagent \
 python3dist-walinuxagent"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 eject \
 grep \
 iptables \

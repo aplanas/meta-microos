@@ -16,7 +16,7 @@ tex-cap-pyt.tex \
 tex-cap.tex \
 texlive-c-pascal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

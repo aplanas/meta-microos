@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-pyramid \
 python311-pyramid \
 python3dist-pyramid"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PasteDeploy \
 python311-WebOb \

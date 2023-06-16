@@ -17,8 +17,8 @@ RPM_HASH = "796e81265984a3824ad84a5d7db3b6ab760438e27c8ae3d87dac221300d8b52af4cc
 RPROVIDES:${PN} += "config-mpd \
 mpd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-audio \

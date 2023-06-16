@@ -13,7 +13,7 @@ mvn-net.java.dev.msv-msv-generator \
 mvn-net.java.dev.msv-msv-generator-pom- \
 osgi-net.java.dev.msv.generator"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

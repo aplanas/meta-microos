@@ -30,7 +30,7 @@ tex-glossary-topic-2021-11-22.sty \
 tex-glossary-topic.sty \
 texlive-glossaries-extra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -9,7 +9,7 @@ RPM_HASH = "b9a2694b04e892f4bbeeee768dda93e3e12330d84e89fe2bcf6909412f1fe6374dba
 
 RPROVIDES:${PN} += "chasen-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 chasen"
 
 inherit rpm

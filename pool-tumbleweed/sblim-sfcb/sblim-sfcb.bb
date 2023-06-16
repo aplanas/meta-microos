@@ -37,9 +37,9 @@ libsfcProfileProvider.so.0 \
 libsfcQualifierProvider.so.0 \
 sblim-sfcb"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/groupmod \
 aaa-base \

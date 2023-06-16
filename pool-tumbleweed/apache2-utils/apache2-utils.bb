@@ -13,9 +13,9 @@ RPM_HASH = "0b856a7dba92069f6b91731e1d4f264c0a2ad6d3d1df12672f449deef67da59893b8
 
 RPROVIDES:${PN} += "apache2-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/which \
 ld-linux-aarch64.so.1 \
 libapr-1.so.0 \

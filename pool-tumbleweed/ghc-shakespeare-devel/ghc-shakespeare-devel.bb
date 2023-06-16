@@ -10,7 +10,7 @@ RPM_HASH = "3cd14c4e58a301a963af5a18cb2f1e2fa2a5ef77fb1344727e948c1a36f2fc4cbc0d
 RPROVIDES:${PN} += "ghc-devel-shakespeare-2.0.30-7fp9544x1BC4UOjjHLrTv0 \
 ghc-shakespeare-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-base-4.17.1.0 \

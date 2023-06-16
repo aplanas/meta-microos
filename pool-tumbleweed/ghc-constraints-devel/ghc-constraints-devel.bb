@@ -10,7 +10,7 @@ RPM_HASH = "39de6ae31730893e8c9f447ffe2cd456909e7bc667b8aca292b17b5c82daa920fbc4
 RPROVIDES:${PN} += "ghc-constraints-devel \
 ghc-devel-constraints-0.13.4-8c0InBhz3htJzug27IqVE7"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-constraints \
 ghc-devel-base-4.17.1.0 \

@@ -19,7 +19,7 @@ tex-chemfig.sty \
 tex-chemfig.tex \
 texlive-chemfig"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

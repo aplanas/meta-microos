@@ -91,7 +91,7 @@ tex-cnzl-aakhvz.enc \
 tex-cnzl-k6z3ge.enc \
 texlive-cinzel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

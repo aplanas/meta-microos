@@ -10,7 +10,7 @@ RPM_HASH = "fc75bf9a9ecaf52ef8ecad919ae5a79dd0f54c9712add2768d6a4166208127e17451
 
 RPROVIDES:${PN} += "html2text"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

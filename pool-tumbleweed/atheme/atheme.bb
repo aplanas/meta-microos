@@ -12,7 +12,7 @@ RPM_HASH = "d857305a3e841ca610e29edf77a2a58d28271358b6b3428f5d369b18a45fdd39389a
 RPROVIDES:${PN} += "atheme \
 config-atheme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libathemecore.so.1 \
 libc.so.6 \

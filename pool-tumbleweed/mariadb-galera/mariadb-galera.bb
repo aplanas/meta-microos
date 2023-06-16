@@ -11,8 +11,8 @@ RPM_HASH = "bd526e6b6b0ddffa97e3b6d67bdce0adf9a1699c63cfbe30f538161c9a8d7dc6875b
 RPROVIDES:${PN} += "config-mariadb-galera \
 mariadb-galera"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 galera-4 \
 iproute2 \
 lsof \

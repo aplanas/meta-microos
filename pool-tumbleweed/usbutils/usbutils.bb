@@ -10,8 +10,8 @@ RPM_HASH = "41d3b8a0b5b044e3e0e54aa655d20b69701c2f1c3f6baea6b1d4488e37e4ee47c61c
 
 RPROVIDES:${PN} += "usbutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 hwdata \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

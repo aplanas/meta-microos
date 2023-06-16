@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-jurarsp.cfg \
 tex-jurarsp.sty \
 texlive-jurarsp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

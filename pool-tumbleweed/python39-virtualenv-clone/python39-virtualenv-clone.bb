@@ -42,8 +42,8 @@ RPROVIDES:${PN} += "python3.9dist-virtualenv-clone \
 python39-virtualenv-clone \
 python3dist-virtualenv-clone"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-virtualenv \
 update-alternatives"

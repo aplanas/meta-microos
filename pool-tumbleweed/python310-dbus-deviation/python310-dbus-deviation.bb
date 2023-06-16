@@ -16,8 +16,8 @@ python3.10dist-dbus-deviation \
 python310-dbus-deviation \
 python3dist-dbus-deviation"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-lxml"
 

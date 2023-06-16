@@ -28,7 +28,7 @@ tex-beamerthemeI6td.sty \
 tex-beamerthemeZH.sty \
 texlive-beamerposter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

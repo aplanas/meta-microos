@@ -190,7 +190,7 @@ font-intersemibold \
 font-interthin \
 texlive-inter-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

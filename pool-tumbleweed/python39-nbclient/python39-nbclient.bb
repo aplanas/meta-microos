@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-nbclient \
 python39-nbclient \
 python3dist-nbclient"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39-jupyter-client \

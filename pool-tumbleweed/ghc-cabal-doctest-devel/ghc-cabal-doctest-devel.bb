@@ -10,7 +10,7 @@ RPM_HASH = "ef8744d81d4ae8d57fc54d72dd36b8da2b80e3e675221e487415c7bba4139148d6dd
 RPROVIDES:${PN} += "ghc-cabal-doctest-devel \
 ghc-devel-cabal-doctest-1.0.9-E4yWN7tR5mMItu3qIh0oSF"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cabal-doctest \
 ghc-compiler \
 ghc-devel-Cabal-3.8.1.0 \

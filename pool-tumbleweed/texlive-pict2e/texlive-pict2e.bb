@@ -32,7 +32,7 @@ tex-pict2e.cfg \
 tex-pict2e.sty \
 texlive-pict2e"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

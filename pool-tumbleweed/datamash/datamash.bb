@@ -10,7 +10,7 @@ RPM_HASH = "c3960b2c7429cb34215fe10968381bc00fcd775c99ffaeca0e74804c4f5753d41c94
 
 RPROVIDES:${PN} += "datamash"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

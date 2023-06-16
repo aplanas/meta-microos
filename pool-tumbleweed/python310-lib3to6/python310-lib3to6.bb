@@ -13,8 +13,8 @@ python3.10dist-lib3to6 \
 python310-lib3to6 \
 python3dist-lib3to6"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-astor \
 python310-click \

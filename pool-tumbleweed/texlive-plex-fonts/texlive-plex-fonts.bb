@@ -186,7 +186,7 @@ font-ibmplexseriftext \
 font-ibmplexserifthin \
 texlive-plex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

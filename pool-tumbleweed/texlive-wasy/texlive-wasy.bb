@@ -26,7 +26,7 @@ tex-wasyfont.tex \
 tex-wasysl10.tfm \
 texlive-wasy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

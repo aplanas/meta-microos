@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-platformio \
 python311-platformio \
 python3dist-platformio"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-aiofiles \
 python311-ajsonrpc \

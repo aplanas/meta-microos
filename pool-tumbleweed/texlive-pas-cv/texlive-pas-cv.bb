@@ -31,7 +31,7 @@ tex-macro-venus.tex \
 tex-pas-cv.sty \
 texlive-pas-cv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

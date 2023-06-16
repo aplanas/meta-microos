@@ -11,7 +11,7 @@ RPM_HASH = "a89aa74e2378e8866c1f4ae0b9fb86cbb62fc62acc995fbd750981286a22df55fd5f
 
 RPROVIDES:${PN} += "bookworm"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 html2text \
 ld-linux-aarch64.so.1 \

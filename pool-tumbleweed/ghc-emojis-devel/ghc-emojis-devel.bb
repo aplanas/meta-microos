@@ -10,7 +10,7 @@ RPM_HASH = "27e6a6dcafeda31088240c8b8eba95519f5e0220b7ae7f077b439d9ab3e0ad285862
 RPROVIDES:${PN} += "ghc-devel-emojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm \
 ghc-emojis-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

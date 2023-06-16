@@ -14,8 +14,8 @@ RPM_HASH = "06be27a84b0d7be88e68749e58ab8a42f626099e4e62b44c785eab9aecc026746078
 RPROVIDES:${PN} += "libxml2-devel \
 pkgconfig-libxml-2.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libxml2 \
 libxml2-2 \

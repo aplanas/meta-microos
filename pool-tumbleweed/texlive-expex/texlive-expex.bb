@@ -19,7 +19,7 @@ tex-expex.sty \
 tex-expex.tex \
 texlive-expex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

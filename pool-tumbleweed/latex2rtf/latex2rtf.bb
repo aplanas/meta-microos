@@ -14,8 +14,8 @@ RPM_HASH = "16130ce8a3386b2d2d0455d5a2eb7c019e9ae025750a99fd7fb7107e63eed6fa4792
 
 RPROVIDES:${PN} += "latex2rtf"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ImageMagick \
 libc.so.6 \
 libm.so.6 \

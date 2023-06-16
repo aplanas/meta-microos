@@ -13,8 +13,8 @@ RPM_HASH = "488646baa1bd17429ba27672a30054b1a5d7c9088610121d57dd808c17c44d1887ae
 
 RPROVIDES:${PN} += "calcurse"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libncursesw.so.6 \

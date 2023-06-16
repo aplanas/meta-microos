@@ -54,7 +54,7 @@ tex-tns-xze2cy.enc \
 tex-tns-y6kixo.enc \
 texlive-tinos"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

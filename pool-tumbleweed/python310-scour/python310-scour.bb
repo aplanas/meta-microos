@@ -17,8 +17,8 @@ python310-scour \
 python3dist-scour \
 scour"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-setuptools \
 python310-six \

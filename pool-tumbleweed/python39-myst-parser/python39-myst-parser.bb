@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-myst-parser \
 python39-myst-parser \
 python3dist-myst-parser"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-PyYAML \

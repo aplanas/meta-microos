@@ -30,7 +30,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-tabu.sty \
 texlive-tabu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

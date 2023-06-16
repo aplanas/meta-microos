@@ -15,8 +15,8 @@ RPM_HASH = "b876e6b72a0e5b49440b96c2175f4a0b2dcacd210df44200790c2dd0eea7228cb1e6
 RPROVIDES:${PN} += "python-gnome-dvb-daemon \
 python-gnomedvb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 gnome-dvb-daemon \
 python-abi \
 typelib-GLib \

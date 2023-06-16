@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-guessit \
 python311-guessit \
 python3dist-guessit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-babelfish \
 python311-importlib-resources \

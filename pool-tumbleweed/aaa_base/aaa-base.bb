@@ -11,14 +11,14 @@ RPROVIDES:${PN} += "/sbin/service \
 aaa-base \
 config-aaa-base"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/mktemp \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/cat \
 /usr/bin/date \
 /usr/bin/grep \
+/usr/bin/mktemp \
 /usr/bin/mv \
 /usr/bin/sed \
+/usr/bin/sh \
 /usr/bin/tput \
 /usr/bin/xz \
 distribution-release \

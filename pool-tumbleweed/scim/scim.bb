@@ -29,8 +29,8 @@ rpm-macro-scim-gtk2-immodule-postun \
 rpm-macro-scim-gtk2-immodule-requires \
 scim"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

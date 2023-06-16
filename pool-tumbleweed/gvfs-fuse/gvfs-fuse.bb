@@ -15,7 +15,7 @@ RPM_HASH = "a94f7034f8c1a8ad917e64f52910f6b1a3ffda11d0169f9cf95cf1fe8b00e9d12907
 
 RPROVIDES:${PN} += "gvfs-fuse"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fuse3 \
 gvfs \
 ld-linux-aarch64.so.1 \

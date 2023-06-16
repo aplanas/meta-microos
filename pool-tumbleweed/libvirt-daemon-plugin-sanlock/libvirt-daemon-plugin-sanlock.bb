@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "config-libvirt-daemon-plugin-sanlock \
 libvirt-daemon-plugin-sanlock \
 libvirt-lock-sanlock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 augeas \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

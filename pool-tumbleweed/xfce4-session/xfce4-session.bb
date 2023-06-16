@@ -10,7 +10,7 @@ RPM_HASH = "90abde2a35783afc6329c4aad138c0e5e178b38a73b4b9842365d8d4a6129ab58f32
 RPROVIDES:${PN} += "config-xfce4-session \
 xfce4-session"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 iceauth \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \

@@ -20,8 +20,8 @@ python3.10dist-impacket \
 python310-impacket \
 python3dist-impacket"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Flask \
 python310-chardet \

@@ -16,9 +16,9 @@ RPM_HASH = "63c9fcf60d435d7fb970db4fb7e68f1fde542359ab96871c02bb32272aed46e0c5f7
 RPROVIDES:${PN} += "config-cronie \
 cronie"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 cron \
 debianutils \

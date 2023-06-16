@@ -14,8 +14,8 @@ python3.10dist-audio-degrader \
 python310-audio-degrader \
 python3dist-audio-degrader"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-SoundFile \
 python310-scipy \

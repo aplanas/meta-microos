@@ -126,7 +126,7 @@ font-gfsbodoni \
 font-gfsbodonirg \
 texlive-gfsbodoni-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

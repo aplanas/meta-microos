@@ -12,7 +12,7 @@ RPM_HASH = "7a5f061c27126be12b629ab429d05d32913ad669935e7b641ac827efbda37c3343a8
 RPROVIDES:${PN} += "nkitserv-/usr/sbin/in.telnetd \
 telnet-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnss-usrfiles2 \

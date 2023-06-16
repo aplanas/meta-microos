@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-mail \
 system-user-mail \
 user-mail"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

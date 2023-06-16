@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-setuptools-git-versioning \
 python311-setuptools-git-versioning \
 python3dist-setuptools-git-versioning"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python311-Deprecated \

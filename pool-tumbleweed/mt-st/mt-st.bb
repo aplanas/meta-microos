@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "config-mt-st \
 mt \
 mt-st"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

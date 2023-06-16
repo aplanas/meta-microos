@@ -30,7 +30,7 @@ RPM_HASH = "81847bc361a8d783e7b37ed61e449b4bf80f7678afb7cb9c09e3e9f864638dde5f50
 RPROVIDES:${PN} += "config-pen \
 pen"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

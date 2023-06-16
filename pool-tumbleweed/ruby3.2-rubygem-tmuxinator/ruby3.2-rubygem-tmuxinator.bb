@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-tmuxinator-3.0 \
 rubygem-ruby-3.2.0-tmuxinator-3.0.5 \
 rubygem-tmuxinator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-erubis-2 \
 rubygem-ruby-3.2.0-thor-1.2 \

@@ -13,7 +13,7 @@ docker-distribution-registry \
 group-registry \
 user-registry"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/nologin \
 libc.so.6 \
 sysuser-shadow"

@@ -57,7 +57,7 @@ lib-wx-init.so \
 lib-wx-wrappers.so \
 lib-xml.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ffmpeg \
 ld-linux-aarch64.so.1 \
 libFLAC++.so.10 \

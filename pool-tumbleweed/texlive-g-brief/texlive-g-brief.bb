@@ -17,7 +17,7 @@ tex-g-brief2.cls \
 tex-g-brief2.sty \
 texlive-g-brief"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

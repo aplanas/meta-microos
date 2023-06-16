@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-uuidd \
 system-user-uuidd \
 user-uuidd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

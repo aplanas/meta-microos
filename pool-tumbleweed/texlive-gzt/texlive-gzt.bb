@@ -23,7 +23,7 @@ tex-gzt.lbx \
 tex-gztarticle.cls \
 texlive-gzt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

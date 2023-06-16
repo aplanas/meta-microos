@@ -20,9 +20,9 @@ RPM_HASH = "e02fdd7e0dcf2bf53c7ae8bacee5cd94485be10f3e8fcea6d18eac8e47b728e76bae
 
 RPROVIDES:${PN} += "lyx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 ImageMagick \
 aaa-base \
 coreutils \

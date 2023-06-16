@@ -25,7 +25,7 @@ mvn-org.eclipse.tycho-org.eclipse.jdt.core \
 mvn-org.eclipse.tycho-org.eclipse.jdt.core-pom- \
 osgi-org.eclipse.jdt.core.compiler.batch"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem"
 

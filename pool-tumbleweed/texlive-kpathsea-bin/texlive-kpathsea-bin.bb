@@ -9,7 +9,7 @@ RPM_HASH = "e128db8517010a5d6a55a620b39a79add5788eefcb216463b8fca78573831642587a
 
 RPROVIDES:${PN} += "texlive-kpathsea-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-mktex \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

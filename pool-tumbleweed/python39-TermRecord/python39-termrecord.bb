@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-termrecord \
 python39-TermRecord \
 python3dist-termrecord"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 update-alternatives"

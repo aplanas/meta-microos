@@ -15,8 +15,8 @@ libpam.so.0 \
 libpamc.so.0 \
 pam"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 group-shadow \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \

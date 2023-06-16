@@ -16,8 +16,8 @@ libdaplofa.so.2 \
 libdaploscm.so.2 \
 libdaploucm.so.2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -11,7 +11,7 @@ RPM_HASH = "4cb766da013ef70c2ec9d405c4d702e3e031471756ba10299fec9ae3641c236801f7
 
 RPROVIDES:${PN} += "wv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

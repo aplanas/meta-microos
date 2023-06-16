@@ -54,7 +54,7 @@ tex-arm-f4duzd.enc \
 tex-arm-l3opzb.enc \
 texlive-arimo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

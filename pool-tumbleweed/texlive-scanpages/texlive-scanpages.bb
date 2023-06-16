@@ -16,7 +16,7 @@ tex-scanwipe.tfm \
 tex-uscanwipe.fd \
 texlive-scanpages"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

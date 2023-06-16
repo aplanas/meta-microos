@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "config-monitoring-plugins-zypper \
 monitoring-plugins-zypper \
 nagios-plugins-zypper"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 apparmor-abstractions \
 gawk \
 grep \

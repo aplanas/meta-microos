@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-dennis \
 python39-dennis \
 python3dist-dennis"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 python39-polib \

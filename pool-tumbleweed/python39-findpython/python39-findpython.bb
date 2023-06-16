@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-findpython \
 python39-findpython \
 python3dist-findpython"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-packaging \
 update-alternatives"

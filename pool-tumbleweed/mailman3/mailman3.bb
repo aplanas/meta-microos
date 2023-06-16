@@ -15,8 +15,8 @@ python3.9dist-mailman \
 python39-mailman \
 python3dist-mailman"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 logrotate \
 python-abi \
 python39-SQLAlchemy \

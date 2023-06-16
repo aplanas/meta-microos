@@ -36,7 +36,7 @@ tex-ruhyphvl.tex \
 tex-ruhyphzn.tex \
 texlive-ruhyphen"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

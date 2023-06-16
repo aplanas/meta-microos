@@ -47,7 +47,7 @@ mono-test-assembly-net45 \
 mono-test-utilities \
 nunit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-System \
 mono-System.Configuration \
 mono-System.Data \

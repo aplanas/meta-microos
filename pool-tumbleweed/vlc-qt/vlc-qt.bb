@@ -11,7 +11,7 @@ RPM_HASH = "6275afd3cf81cfccf31bfc0a2e3f6e9577fa839b9410af7d53905956592cc530d7c0
 RPROVIDES:${PN} += "libqt-plugin.so \
 vlc-qt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

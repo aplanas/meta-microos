@@ -16,8 +16,8 @@ RPM_HASH = "bcf5bbc538482d0b65443f0225611717f6e11a8c107ee26beebb784383ee960eddb9
 
 RPROVIDES:${PN} += "blog-plymouth"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 blog \
 systemd"
 

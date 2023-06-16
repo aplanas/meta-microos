@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-requre \
 python39-requre \
 python3dist-requre"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-GitPython \
 python39-PyYAML \

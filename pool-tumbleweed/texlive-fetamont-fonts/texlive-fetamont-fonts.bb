@@ -125,7 +125,7 @@ font-fetamont \
 font-fetamontscript \
 texlive-fetamont-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -62,7 +62,7 @@ perl-KIWIXMLValidator \
 product-builder \
 system-packages-kiwi-product"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 build \
 checkmedia \

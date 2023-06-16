@@ -12,7 +12,7 @@ RPM_HASH = "11e75defe3c696a9015b7fe45133e6f5e3909fcfc81409ac6b0e7d7b7d792a1a98de
 
 RPROVIDES:${PN} += "rtorrent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

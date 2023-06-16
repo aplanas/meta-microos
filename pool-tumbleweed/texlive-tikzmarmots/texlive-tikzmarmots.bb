@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-tikzlibrarymarmots.code.tex \
 tex-tikzmarmots.sty \
 texlive-tikzmarmots"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -22,7 +22,7 @@ tex-t1lmttos.fd \
 tex-t1lmvttos.fd \
 texlive-chextras"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

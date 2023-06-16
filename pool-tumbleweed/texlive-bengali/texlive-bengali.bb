@@ -19,7 +19,7 @@ tex-xbnr10.tfm \
 tex-xbnsl10.tfm \
 texlive-bengali"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

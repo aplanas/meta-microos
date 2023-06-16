@@ -14,8 +14,8 @@ python3.11dist-git-pw \
 python311-git-pw \
 python3dist-git-pw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python311-arrow \

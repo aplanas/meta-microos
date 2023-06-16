@@ -13,9 +13,9 @@ RPROVIDES:${PN} += "hwdata \
 pciutils-ids \
 pkgconfig-hwdata"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 coreutils \
 perl"
 

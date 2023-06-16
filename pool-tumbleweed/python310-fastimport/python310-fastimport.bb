@@ -17,8 +17,8 @@ python3.10dist-fastimport \
 python310-fastimport \
 python3dist-fastimport"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

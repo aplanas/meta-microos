@@ -12,7 +12,7 @@ RPM_HASH = "4d9358f75fc5c18df85308c469476d082a300c3b1c6ff65886c73cb26580a03f553d
 
 RPROVIDES:${PN} += "fluidsynth"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libc.so.6 \

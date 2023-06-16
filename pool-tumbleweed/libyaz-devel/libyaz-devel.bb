@@ -13,8 +13,8 @@ pkgconfig-yaz \
 pkgconfig-yaz-icu \
 pkgconfig-yaz-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 /usr/bin/tclsh \
 libicu-devel \
 libxslt-devel \

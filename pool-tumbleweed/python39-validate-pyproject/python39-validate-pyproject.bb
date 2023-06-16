@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-validate-pyproject \
 python39-validate-pyproject \
 python3dist-validate-pyproject"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-fastjsonschema \
 update-alternatives"

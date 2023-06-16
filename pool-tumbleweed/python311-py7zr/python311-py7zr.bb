@@ -13,8 +13,8 @@ python311-py7zr \
 python3dist-py7zr"
 
 RDEPENDS:${PN} += "-python311-pyppmd >= 0.18.1 with python311-pyppmd < 1.1.0 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Brotli \
 python311-inflate64 \

@@ -21,7 +21,7 @@ tex-xuc10.tfm \
 tex-xucuri.sty \
 texlive-mxedruli"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

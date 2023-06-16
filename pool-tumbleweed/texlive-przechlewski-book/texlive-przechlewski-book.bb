@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-upmgr.cls \
 tex-wkmgr.cls \
 texlive-przechlewski-book"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

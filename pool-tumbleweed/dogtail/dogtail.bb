@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dogtail"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 hicolor-icon-theme \
 python-abi \
 python3-atspi \

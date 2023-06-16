@@ -12,7 +12,7 @@ RPM_HASH = "04e7eb91b95a9504b133b4130df02fd57d2e12397bf97b52f54cbcb341e097c1d3d7
 
 RPROVIDES:${PN} += "stuntman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

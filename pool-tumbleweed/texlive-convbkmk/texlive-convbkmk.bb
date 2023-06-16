@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-convbkmk"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby \
+RDEPENDS:${PN} += "/usr/bin/ruby \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

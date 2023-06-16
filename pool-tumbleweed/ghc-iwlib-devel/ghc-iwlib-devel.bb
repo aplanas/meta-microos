@@ -10,7 +10,7 @@ RPM_HASH = "935c76f766d0a38c6ad0861c61e057435378bd0a57139a94d07dce0ff77d70651241
 RPROVIDES:${PN} += "ghc-devel-iwlib-0.1.2-1s738Tb3Wf2CvjJviNtWBD \
 ghc-iwlib-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-iwlib \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-casyll10.tfm \
 tex-casyltex.sty \
 texlive-casyl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,7 +17,7 @@ tex-graph35-pixelart.sty \
 tex-graph35.sty \
 texlive-graph35"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

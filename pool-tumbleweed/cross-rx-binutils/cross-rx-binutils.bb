@@ -11,7 +11,7 @@ RPM_HASH = "6e03cad29e1b570f467a983273077058d81cfb4daf3e0a1b0d52850be6dbf02e745a
 
 RPROVIDES:${PN} += "cross-rx-binutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \

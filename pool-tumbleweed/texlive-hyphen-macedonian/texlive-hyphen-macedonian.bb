@@ -13,7 +13,7 @@ tex-hyph-mk.tex \
 tex-loadhyph-mk.tex \
 texlive-hyphen-macedonian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

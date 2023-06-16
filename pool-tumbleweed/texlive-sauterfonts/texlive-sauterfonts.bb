@@ -45,7 +45,7 @@ tex-sustmry.fd \
 tex-suwasy.fd \
 texlive-sauterfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

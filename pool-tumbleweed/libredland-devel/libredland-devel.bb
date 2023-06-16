@@ -10,8 +10,8 @@ RPM_HASH = "a8dc677edf70f3ad68040262f612cad414a8a1423fa7ec1a4a715cf00ec59b44ff7d
 RPROVIDES:${PN} += "libredland-devel \
 pkgconfig-redland"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 librdf0 \
 pkgconfig-raptor2 \
 pkgconfig-rasqal"

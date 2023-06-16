@@ -25,7 +25,7 @@ tex-ot1mdputu.fd \
 tex-t1mdputu.fd \
 texlive-mdputu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

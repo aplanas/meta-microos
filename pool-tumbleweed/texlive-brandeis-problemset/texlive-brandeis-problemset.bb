@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-brandeis-problemset.cls \
 tex-brandeis-problemset.sty \
 texlive-brandeis-problemset"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

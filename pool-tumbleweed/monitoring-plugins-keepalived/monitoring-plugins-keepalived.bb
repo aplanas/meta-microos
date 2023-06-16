@@ -21,7 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-monitoring-plugins-keepalived \
 monitoring-plugins-keepalived"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 awk \
 bash \
 coreutils \

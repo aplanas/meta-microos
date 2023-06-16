@@ -10,7 +10,7 @@ RPM_HASH = "8de9cdbfcc302a05232c433532f92400d9b967aeb2103e8fbaaccb33d9d00357abbe
 RPROVIDES:${PN} += "plasma-framework \
 plasma-framework-private"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Activities.so.5 \
 libKF5ConfigCore.so.5 \

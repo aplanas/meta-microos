@@ -13,7 +13,7 @@ RPM_HASH = "72098aa9adb7ff72ced92f01713040921e8f4088b6eec3d6737afccc97394aa7085b
 
 RPROVIDES:${PN} += "finger-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnss-usrfiles2 \

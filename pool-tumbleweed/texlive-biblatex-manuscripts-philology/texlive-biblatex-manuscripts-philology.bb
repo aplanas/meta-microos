@@ -19,7 +19,7 @@ tex-manuscripts-shared.bbx \
 tex-manuscripts.bbx \
 texlive-biblatex-manuscripts-philology"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

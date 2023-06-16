@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-colorpalette.sty \
 tex-symbolpalette.sty \
 texlive-palette"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

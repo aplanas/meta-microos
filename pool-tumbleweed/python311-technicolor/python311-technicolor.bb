@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-technicolor \
 python311-technicolor \
 python3dist-technicolor"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 update-alternatives"

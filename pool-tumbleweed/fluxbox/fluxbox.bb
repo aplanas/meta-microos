@@ -16,7 +16,7 @@ RPM_HASH = "1b5f230cc654e147ab122be604382eaa58180b2846806150cb675acdba1d868d9cb3
 RPROVIDES:${PN} += "fluxbox \
 windowmanager"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libImlib2.so.1 \
 libX11.so.6 \

@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-FUpowerdot.cls \
 tex-powerdot-BerlinFU.sty \
 texlive-powerdot-fuberlin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

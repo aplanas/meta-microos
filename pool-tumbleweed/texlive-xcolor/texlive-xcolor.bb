@@ -21,7 +21,7 @@ tex-x11nam.def \
 tex-xcolor.sty \
 texlive-xcolor"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

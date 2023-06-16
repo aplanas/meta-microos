@@ -17,8 +17,8 @@ libdde-pdf-preview-plugin.so \
 libdde-text-preview-plugin.so \
 libdde-video-preview-plugin.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 deepin-shortcut-viewer \
 deepin-terminal \
 file-roller \

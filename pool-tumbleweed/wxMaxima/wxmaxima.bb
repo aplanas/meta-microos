@@ -10,7 +10,7 @@ RPM_HASH = "a9d8d9dddc2933b806373dc24b36a945559996d4988228ac468d445551143dd4490c
 
 RPROVIDES:${PN} += "wxMaxima"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnuplot \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

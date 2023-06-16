@@ -11,7 +11,7 @@ RPM_HASH = "2cba839c730aeacb9bc1c241882c29a3259d9c3f9a7d1ea336ff0ea8999082279908
 RPROVIDES:${PN} += "ghc-devel-hslua-objectorientation-2.3.0-7bmusH4WO3b1DlNe7DJ9Sl \
 ghc-hslua-objectorientation-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

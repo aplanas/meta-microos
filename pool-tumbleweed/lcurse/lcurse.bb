@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lcurse"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 python3-beautifulsoup4 \
 python3-lxml \
 python3-qt5"

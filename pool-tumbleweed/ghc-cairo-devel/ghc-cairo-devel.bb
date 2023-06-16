@@ -10,7 +10,7 @@ RPM_HASH = "7e91bee7ee5b2713f5e4d3aee342c15a26789c0179b5ab609f247f07dd02580f1fd7
 RPROVIDES:${PN} += "ghc-cairo-devel \
 ghc-devel-cairo-0.13.8.2-84nOBKgVLz3788JDxxB5om"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cairo \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \

@@ -25,9 +25,9 @@ rpm-macro-lua-lmod-admin-modulesdir \
 rpm-macro-lua-lmod-moduledeps \
 rpm-macro-lua-lmod-modulesdir"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/lua5.4 \
+/usr/bin/sh \
 /usr/bin/tclsh \
 lua54-luafilesystem \
 lua54-luaposix \

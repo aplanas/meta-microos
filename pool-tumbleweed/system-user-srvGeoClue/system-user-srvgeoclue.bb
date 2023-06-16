@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-srvGeoClue \
 system-user-srvGeoClue \
 user-srvGeoClue"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

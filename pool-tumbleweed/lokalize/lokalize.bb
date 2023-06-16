@@ -10,7 +10,7 @@ RPM_HASH = "fb2f2154a2511aecafc8a16f5304ae550ce319d45521669a3bab4fd331c9b3b71dc2
 RPROVIDES:${PN} += "lokalize \
 lokalize5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Completion.so.5 \
 libKF5ConfigCore.so.5 \

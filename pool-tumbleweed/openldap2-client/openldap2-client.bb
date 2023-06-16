@@ -9,7 +9,7 @@ RPM_HASH = "4d8890b5f86fa247469b8a6e69283f15b988d6e2f3432a61faae61da0caff1bbe80d
 
 RPROVIDES:${PN} += "openldap2-client"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblber.so.2 \

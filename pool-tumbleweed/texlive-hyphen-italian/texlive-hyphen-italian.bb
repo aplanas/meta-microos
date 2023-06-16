@@ -16,7 +16,7 @@ tex-hyph-quote-it.tex \
 tex-loadhyph-it.tex \
 texlive-hyphen-italian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

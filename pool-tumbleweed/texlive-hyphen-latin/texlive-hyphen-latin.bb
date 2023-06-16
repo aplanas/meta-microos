@@ -28,7 +28,7 @@ tex-loadhyph-la-x-liturgic.tex \
 tex-loadhyph-la.tex \
 texlive-hyphen-latin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

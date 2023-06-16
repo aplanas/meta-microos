@@ -20,7 +20,7 @@ tex-italian-archaeologie.lbx \
 tex-spanish-archaeologie.lbx \
 texlive-archaeologie"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

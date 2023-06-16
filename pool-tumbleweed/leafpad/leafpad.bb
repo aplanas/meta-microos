@@ -11,7 +11,7 @@ RPM_HASH = "c361fbebc77936e297d26901ade5d742feeff8b22ae2a47bb2a82b848372fd5fe4aa
 
 RPROVIDES:${PN} += "leafpad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

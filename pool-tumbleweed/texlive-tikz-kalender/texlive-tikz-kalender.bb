@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-tikz-kalender-translation.clo \
 tex-tikz-kalender.cls \
 texlive-tikz-kalender"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

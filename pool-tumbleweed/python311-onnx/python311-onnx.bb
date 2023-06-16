@@ -15,8 +15,8 @@ python311-onnx \
 python311-onnx-devel \
 python3dist-onnx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libonnx \

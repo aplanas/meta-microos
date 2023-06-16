@@ -20,7 +20,7 @@ RPM_HASH = "14c7e713d851b5123875155d6fac03fe89e515823b5c8f8217cc8ed49f194ec0cdf3
 
 RPROVIDES:${PN} += "eblook"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 eb \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -10,7 +10,7 @@ RPM_HASH = "cd0b8600e69c1a0d722dbf7e22ca52eae4cd10692325ee053c9fb4150b50646f9607
 RPROVIDES:${PN} += "ghc-cprng-aes-devel \
 ghc-devel-cprng-aes-0.6.1-169qys47NiB5UR1VcEjGCA"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cprng-aes \
 ghc-devel-base-4.17.1.0 \

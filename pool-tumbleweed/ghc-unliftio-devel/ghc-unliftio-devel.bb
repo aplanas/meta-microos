@@ -10,7 +10,7 @@ RPM_HASH = "e03a7cdab218fc7d5f8ba02effd2a328705c846776516334b37eeab06c3694434c2d
 RPROVIDES:${PN} += "ghc-devel-unliftio-0.2.24.0-Dgc3Qshya29BgIaWsfBy4D \
 ghc-unliftio-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-devel-base-4.17.1.0 \

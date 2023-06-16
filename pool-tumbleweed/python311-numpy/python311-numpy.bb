@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.11dist-numpy \
 python311-numpy \
 python3dist-numpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 ld-linux-aarch64.so.1 \
 libblas.so.3 \

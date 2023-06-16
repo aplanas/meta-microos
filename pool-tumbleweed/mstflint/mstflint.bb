@@ -15,7 +15,7 @@ RPM_HASH = "8d930d3470dacd5a9baed6c5ab9e59394e37c3ee2dd6ccd8a8f47b6592b991855736
 
 RPROVIDES:${PN} += "mstflint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

@@ -33,7 +33,7 @@ font--lang=zu \
 font-ornementsadf \
 texlive-adforn-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

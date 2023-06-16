@@ -12,7 +12,7 @@ RPM_HASH = "24239f073d21ef2dfff1f678ef386e48fb7293f6574dca43b9ae44d7c803517eff38
 
 RPROVIDES:${PN} += "virt-what"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dmidecode \
 libc.so.6 \
 util-linux \

@@ -19,8 +19,8 @@ RPM_HASH = "1377e899ab7fe61f15a08a7c9dee68032f5d60091b1db78bd46941d17d623105e9d1
 
 RPROVIDES:${PN} += "Cadence"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 a2jmidid \
 dbus-1-python3 \
 jack-capture \

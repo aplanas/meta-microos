@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spix"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

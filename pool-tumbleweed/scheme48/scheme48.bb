@@ -13,7 +13,7 @@ RPM_HASH = "6ff81b4986c8366f76d204ff54c973b5fee3787d187bffbe1bdaff700362c9b10ecb
 
 RPROVIDES:${PN} += "scheme48"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 scheme48-vm"

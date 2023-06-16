@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-svglib \
 python311-svglib \
 python3dist-svglib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-cssselect2 \
 python311-lxml \

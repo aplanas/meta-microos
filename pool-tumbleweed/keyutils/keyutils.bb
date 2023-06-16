@@ -12,7 +12,7 @@ RPM_HASH = "e6c2a7d352beaf76127c3d0dfa4a2088e3b487dab825ad7aaf68273edfb543645a32
 RPROVIDES:${PN} += "config-keyutils \
 keyutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkeyutils.so.1 \

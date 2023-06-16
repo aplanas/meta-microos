@@ -17,8 +17,8 @@ python3.10dist-pycha \
 python310-pycha \
 python3dist-pycha"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-cairocffi \
 update-alternatives"

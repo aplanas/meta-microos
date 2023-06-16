@@ -13,8 +13,8 @@ RPM_HASH = "5f6e8b631eb7b3b3bddb715a7ec3cc60ce214e20e496ba05f56a190b6798fa32434f
 RPROVIDES:${PN} += "config-xfce4-screensaver \
 xfce4-screensaver"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libX11.so.6 \

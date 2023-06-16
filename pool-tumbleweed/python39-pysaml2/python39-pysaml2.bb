@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-pysaml2 \
 python39-pysaml2 \
 python3dist-pysaml2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Paste \
 python39-cryptography \

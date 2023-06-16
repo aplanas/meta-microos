@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-blockdiag \
 python311-blockdiag \
 python3dist-blockdiag"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Pillow \
 python311-funcparserlib \

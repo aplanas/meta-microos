@@ -44,7 +44,7 @@ tex-ufontawesomefree2.fd \
 tex-ufontawesomefree3.fd \
 texlive-fontawesome5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

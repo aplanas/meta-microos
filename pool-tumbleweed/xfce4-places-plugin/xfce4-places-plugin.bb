@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libplaces.so \
 xfce4-panel-plugin-places \
 xfce4-places-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexo-2.so.0 \

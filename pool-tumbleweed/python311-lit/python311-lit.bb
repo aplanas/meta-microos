@@ -16,8 +16,8 @@ python3.11dist-lit \
 python311-lit \
 python3dist-lit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

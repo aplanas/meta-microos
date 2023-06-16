@@ -13,8 +13,8 @@ python3.10dist-cssutils \
 python310-cssutils \
 python3dist-cssutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

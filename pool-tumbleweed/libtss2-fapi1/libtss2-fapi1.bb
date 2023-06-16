@@ -12,8 +12,8 @@ RPM_HASH = "52037e6f922f751d8f371c44f68484c57d8ead441293fd8f707e70120e1e2c8da7ba
 RPROVIDES:${PN} += "libtss2-fapi.so.1 \
 libtss2-fapi1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

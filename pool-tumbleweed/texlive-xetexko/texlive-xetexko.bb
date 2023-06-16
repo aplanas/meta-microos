@@ -20,7 +20,7 @@ tex-xetexko-vertical.sty \
 tex-xetexko.sty \
 texlive-xetexko"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

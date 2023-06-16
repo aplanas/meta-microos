@@ -11,7 +11,7 @@ RPM_HASH = "596f306ec9857ba7566ed0824bdfd67cb6d2ed1a05709bfa91ba8fd9167b165f3cf8
 
 RPROVIDES:${PN} += "dico"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

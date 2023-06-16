@@ -10,8 +10,8 @@ RPM_HASH = "f3a1fee372c18dc28e61dc7243787864cb055e18e0e76000ec919e292fce691a6e05
 
 RPROVIDES:${PN} += "fcgiwrap-nginx"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 fcgiwrap \
 nginx"
 

@@ -10,7 +10,7 @@ RPM_HASH = "1275a34a5c06f38487b5bea161152f87e7deeaeebbbed5b17d475bded7e4e8680b9d
 
 RPROVIDES:${PN} += "pesign-obs-integration"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 fipscheck \
 mozilla-nss-tools \

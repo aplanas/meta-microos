@@ -17,7 +17,7 @@ tex-trsym.sty \
 tex-utrsy.fd \
 texlive-trsym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

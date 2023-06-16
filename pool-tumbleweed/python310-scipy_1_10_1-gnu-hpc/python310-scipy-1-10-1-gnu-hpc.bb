@@ -16,7 +16,7 @@ python3.10dist-scipy \
 python310-scipy-1-10-1-gnu-hpc \
 python3dist-scipy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

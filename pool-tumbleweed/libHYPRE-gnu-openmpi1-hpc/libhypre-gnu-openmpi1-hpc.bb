@@ -11,7 +11,7 @@ RPM_HASH = "08d35a364e108ca76b0147ddce2165123421d149fbded00e8a8e305298bd3ff8e6fa
 
 RPROVIDES:${PN} += "libHYPRE-gnu-openmpi1-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libHYPRE-2-20-0-gnu-openmpi1-hpc"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "37943b57cc3cefc5ef9e45658dbe844df42d6a955388d3e1c27d9fa55114ac91d792
 
 RPROVIDES:${PN} += "PackageKit-gstreamer-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

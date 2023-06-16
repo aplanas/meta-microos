@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "golang-github-prometheus-node-exporter \
 node-exporter \
 prometheus-node-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 shadow"

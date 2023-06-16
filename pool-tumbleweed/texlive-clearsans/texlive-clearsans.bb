@@ -110,7 +110,7 @@ tex-clr-nrghxx.enc \
 tex-clr-zxbkm4.enc \
 texlive-clearsans"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

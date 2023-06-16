@@ -38,7 +38,7 @@ tex-t1srbtiksy.vf \
 tex-ts1srbtiks.fd \
 texlive-srbtiks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

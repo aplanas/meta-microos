@@ -13,8 +13,8 @@ RPM_HASH = "a0454aeea225e6b675695c91939f3c0eafc532c66f81f94191800cc9f848055ad09f
 RPROVIDES:${PN} += "config-fish \
 fish"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 bc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

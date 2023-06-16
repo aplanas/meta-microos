@@ -10,7 +10,7 @@ RPM_HASH = "50ebef60c21d791c2e3c186beac261c48509e7d4e94324f97f8565251728df66c256
 RPROVIDES:${PN} += "ghc-devel-primes-0.2.1.0-EDehUtw1pOPPL7EktYCRg \
 ghc-primes-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-primes"

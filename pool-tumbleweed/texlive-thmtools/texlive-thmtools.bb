@@ -32,7 +32,7 @@ tex-thmtools.sty \
 tex-unique.sty \
 texlive-thmtools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

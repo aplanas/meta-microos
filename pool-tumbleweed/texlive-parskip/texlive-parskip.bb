@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-parskip-2001-04-09.sty \
 tex-parskip.sty \
 texlive-parskip"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

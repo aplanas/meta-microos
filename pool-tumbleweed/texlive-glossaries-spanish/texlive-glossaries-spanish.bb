@@ -13,7 +13,7 @@ tex-glossaries-spanish-utf8.ldf \
 tex-glossaries-spanish.ldf \
 texlive-glossaries-spanish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

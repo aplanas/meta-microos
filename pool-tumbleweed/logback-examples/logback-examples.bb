@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "logback-examples \
 mvn-ch.qos.logback-logback-examples \
 mvn-ch.qos.logback-logback-examples-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 mvn-ch.qos.logback-logback-access \

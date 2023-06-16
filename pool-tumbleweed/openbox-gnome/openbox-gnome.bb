@@ -9,7 +9,7 @@ RPM_HASH = "098a5f0ce95b88143ecb5b44fa7cf761351702e990b32a585a27668d80b31987cc2a
 
 RPROVIDES:${PN} += "openbox-gnome"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXau.so.6 \

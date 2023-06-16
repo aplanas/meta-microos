@@ -10,9 +10,9 @@ RPM_HASH = "fef54f860d3cf659cb6a2ffa450b5d9b45f23a4dd4fcd97f3dc1a1f2578afd53bf63
 
 RPROVIDES:${PN} += "fpc-src"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/csh \
-/bin/sh \
-/usr/bin/env"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/csh \
+/usr/bin/env \
+/usr/bin/sh"
 
 inherit rpm

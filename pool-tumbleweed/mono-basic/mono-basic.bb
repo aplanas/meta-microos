@@ -21,7 +21,7 @@ mono-Mono.Cecil.VB.Pdb \
 mono-basic \
 mono-vbnc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-System \
 mono-System.Core \
 mono-System.Drawing \

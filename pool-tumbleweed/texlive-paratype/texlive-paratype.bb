@@ -700,7 +700,7 @@ tex-ptserif-ts1.enc \
 tex-ptserif-x2.enc \
 texlive-paratype"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

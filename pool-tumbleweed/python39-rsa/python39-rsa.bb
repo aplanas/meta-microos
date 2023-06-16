@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-rsa \
 python39-rsa \
 python3dist-rsa"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 coreutils \
 python-abi \

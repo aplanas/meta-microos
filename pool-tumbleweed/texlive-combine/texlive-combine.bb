@@ -19,7 +19,7 @@ tex-combinet.sty \
 tex-combnat.sty \
 texlive-combine"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -23,7 +23,7 @@ tex-punkbx20.tfm \
 tex-punksl20.tfm \
 texlive-punk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "python3-neutronclient \
 python3.10dist-python-neutronclient \
 python3dist-python-neutronclient"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
 python-abi \

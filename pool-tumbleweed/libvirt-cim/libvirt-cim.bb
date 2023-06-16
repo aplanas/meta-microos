@@ -70,8 +70,8 @@ libvirt-cim \
 libxkutil.so.0 \
 xen-cim-cmpi"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 cim-schema \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

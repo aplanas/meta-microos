@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-python-kasa \
 python39-kasa \
 python3dist-python-kasa"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-anyio \
 python39-asyncclick \

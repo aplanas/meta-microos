@@ -90,7 +90,7 @@ font-universalisadfstd \
 font-universalisadfstdcond \
 texlive-universalis-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

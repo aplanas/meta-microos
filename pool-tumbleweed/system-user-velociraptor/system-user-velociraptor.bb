@@ -11,6 +11,6 @@ RPROVIDES:${PN} += "group-velociraptor \
 system-user-velociraptor \
 user-velociraptor"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

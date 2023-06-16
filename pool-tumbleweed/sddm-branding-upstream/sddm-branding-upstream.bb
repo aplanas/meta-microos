@@ -13,7 +13,7 @@ RPM_HASH = "f04ef9977388a19e6402aaec10adf9fd517e1b901faf30c52cc32d05f7397194e628
 RPROVIDES:${PN} += "sddm-branding \
 sddm-branding-upstream"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 diffutils \
 sddm"
 

@@ -20,7 +20,7 @@ libstrongswan-updown.so \
 strongswan \
 strongswan-ipsec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcharon.so.0 \

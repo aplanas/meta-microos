@@ -14,8 +14,8 @@ python3.10dist-razercfg \
 python3dist-razercfg \
 razercfg"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libusb-1.0.so.0 \

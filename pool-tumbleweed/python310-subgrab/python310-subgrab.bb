@@ -14,8 +14,8 @@ python3.10dist-subgrab \
 python310-subgrab \
 python3dist-subgrab"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-beautifulsoup4 \
 python310-lxml \

@@ -16,8 +16,8 @@ python3.10dist-jupyter-console \
 python310-jupyter-console \
 python3dist-jupyter-console"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 jupyter-jupyter-console \
 python-abi \
 python310-Pygments \

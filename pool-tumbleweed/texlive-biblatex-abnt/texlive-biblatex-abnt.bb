@@ -27,7 +27,7 @@ tex-portuguese-abnt.lbx \
 tex-spanish-abnt.lbx \
 texlive-biblatex-abnt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

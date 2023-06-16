@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-songbook-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

@@ -166,7 +166,7 @@ font-cantarelllight \
 font-cantarellthin \
 texlive-cantarell-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

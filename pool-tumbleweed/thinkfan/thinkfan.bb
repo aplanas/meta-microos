@@ -15,7 +15,7 @@ RPM_HASH = "51cac127273e41c91a85e97206d3e57aa960471c20a9c1607fe60b1f8796bc9ba45a
 RPROVIDES:${PN} += "config-thinkfan \
 thinkfan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libatasmart.so.4 \
 libc.so.6 \

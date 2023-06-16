@@ -27,7 +27,7 @@ tex-t1uplmr.fd \
 tex-uppunctlm.sty \
 texlive-uppunctlm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPM_HASH = "e3efb6db64685b767848f3b5ddf6f17c397577822d1ca848db40e483bc7bb7c975e7
 RPROVIDES:${PN} += "config-retroarch \
 retroarch"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGL.so.1 \

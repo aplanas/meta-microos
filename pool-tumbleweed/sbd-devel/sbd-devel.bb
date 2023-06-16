@@ -11,8 +11,8 @@ RPM_HASH = "99eeb4c42c09890dd39e6ea436e44f0046488c058a5fe8fbdc33c4d5a0d6164c60cb
 RPROVIDES:${PN} += "libsbdtestbed.so.0 \
 sbd-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

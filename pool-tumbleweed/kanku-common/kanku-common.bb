@@ -117,9 +117,9 @@ perl-OpenStack--API--Quantum \
 perl-OpenStack--API--Role--Client \
 perl-OpenStack--API--Role--Service"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 libvirt-daemon-config-network \
 libvirt-daemon-config-nwfilter \
 libvirt-daemon-qemu \

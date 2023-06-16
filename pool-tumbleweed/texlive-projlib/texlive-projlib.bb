@@ -26,7 +26,7 @@ tex-projlib-theorem.sty \
 tex-projlib-titlepage.sty \
 texlive-projlib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -235,7 +235,7 @@ tex-ybdrjw8y.tfm \
 tex-ybdrw8y.tfm \
 texlive-berenisadf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

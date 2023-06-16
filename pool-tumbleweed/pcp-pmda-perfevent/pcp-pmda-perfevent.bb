@@ -11,8 +11,8 @@ RPM_HASH = "ecc80c496ebed706c605b70e2370d531f2fc890f373ce29ec8f0cc799430a3764380
 RPROVIDES:${PN} += "config-pcp-pmda-perfevent \
 pcp-pmda-perfevent"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

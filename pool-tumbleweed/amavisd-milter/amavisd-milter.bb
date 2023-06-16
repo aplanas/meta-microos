@@ -11,7 +11,7 @@ RPM_HASH = "b062b69907dfec2694c5a59e5ad687349751a02ff9e17dc282b4ac23b01f7c155131
 
 RPROVIDES:${PN} += "amavisd-milter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 amavisd-new \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

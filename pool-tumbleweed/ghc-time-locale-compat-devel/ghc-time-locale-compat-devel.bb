@@ -11,7 +11,7 @@ RPM_HASH = "a9556220ecae837f277b735de4ee544dc500f52fd65cb87bf3eb1f4480f7e5bbeb1b
 RPROVIDES:${PN} += "ghc-devel-time-locale-compat-0.1.1.5-4KOdffkWEDD5CJkcMekvXY \
 ghc-time-locale-compat-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-time-1.12.2 \

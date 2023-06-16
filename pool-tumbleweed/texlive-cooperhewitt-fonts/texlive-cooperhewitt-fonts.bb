@@ -135,7 +135,7 @@ font-cphwtthin \
 font-cphwtthinitalic \
 texlive-cooperhewitt-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

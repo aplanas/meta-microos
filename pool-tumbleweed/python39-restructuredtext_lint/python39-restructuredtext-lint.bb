@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-restructuredtext-lint \
 python39-restructuredtext-lint \
 python3dist-restructuredtext-lint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-docutils \
 update-alternatives"

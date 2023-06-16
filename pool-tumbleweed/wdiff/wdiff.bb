@@ -13,7 +13,7 @@ RPM_HASH = "455956f1fb3e28230ecd092416fdc603261825ad61a4f16aa1ec130cc9581cc251ca
 
 RPROVIDES:${PN} += "wdiff"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libtinfo.so.6"

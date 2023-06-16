@@ -19,7 +19,7 @@ tex-caspervector.bbx \
 tex-caspervector.cbx \
 texlive-biblatex-caspervector"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

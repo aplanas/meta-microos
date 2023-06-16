@@ -19,7 +19,7 @@ tex-bibref.sty \
 tex-index.sty \
 texlive-index"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

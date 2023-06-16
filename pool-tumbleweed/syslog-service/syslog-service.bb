@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "syslog-service"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 logrotate \

@@ -10,7 +10,7 @@ RPM_HASH = "04638db24cd377555e0d4de30784e991cd4e65f42eb86671d9840524828a7bd223b4
 RPROVIDES:${PN} += "ghc-devel-profunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV \
 ghc-profunctors-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \

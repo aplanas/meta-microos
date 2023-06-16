@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "group-iodined \
 iodine \
 user-iodined"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-nobody \

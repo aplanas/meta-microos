@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-rspec-core-3 \
 rubygem-ruby-3.2.0-rspec-core-3.5 \
 rubygem-ruby-3.2.0-rspec-core-3.5.4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-rspec-support-3.5 \
 update-alternatives"

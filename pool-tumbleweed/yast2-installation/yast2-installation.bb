@@ -10,11 +10,11 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-installation"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/mkdir \
 /usr/bin/ruby \
+/usr/bin/sh \
 /usr/bin/touch \
 augeas-lenses \
 coreutils \

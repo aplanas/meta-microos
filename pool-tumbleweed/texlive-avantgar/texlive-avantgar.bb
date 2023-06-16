@@ -160,7 +160,7 @@ tex-uagro8t.tfm \
 tex-uagro8t.vf \
 texlive-avantgar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

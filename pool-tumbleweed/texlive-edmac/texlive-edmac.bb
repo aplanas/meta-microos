@@ -15,7 +15,7 @@ tex-edstanza.tex \
 tex-tabmac.tex \
 texlive-edmac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

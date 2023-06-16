@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "alsa-oss \
 libalsatoss.so.0 \
 libaoss.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6"

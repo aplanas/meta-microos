@@ -15,6 +15,6 @@ RPROVIDES:${PN} += "config-lxde-common-branding-upstream \
 lxde-common-branding \
 lxde-common-branding-upstream"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

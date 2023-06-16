@@ -17,7 +17,7 @@ mvn-rhino-js-pom- \
 osgi-org.mozilla.rhino \
 rhino"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools"

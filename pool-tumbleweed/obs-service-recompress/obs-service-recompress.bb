@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-recompress"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/gzip \
 bzip2 \
 xz \

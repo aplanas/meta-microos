@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-bottle \
 python39-bottle \
 python3dist-bottle"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

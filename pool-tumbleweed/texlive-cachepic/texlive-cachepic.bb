@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-cachepic.sty \
 tex-prcachepic.def \
 texlive-cachepic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

@@ -18,8 +18,8 @@ RPM_HASH = "b8f6549a9b0b529246032675b2cefc9c92a37864976cb0011b4d479265401c921b21
 RPROVIDES:${PN} += "config-gv \
 gv"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ghostscript-x11 \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

@@ -15,8 +15,8 @@ RPM_HASH = "eabd8d11360c4e54c33ed629df4fb53538ed2ec1a6fda3bea8e5127701a9efecec6d
 RPROVIDES:${PN} += "libpng12-devel \
 pkgconfig-libpng12"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libpng12-0 \
 pkgconf-pkg-config \

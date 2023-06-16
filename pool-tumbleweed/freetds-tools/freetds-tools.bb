@@ -14,7 +14,7 @@ RPM_HASH = "57d24170a4216f2fb21a401881fa6d9e172fbff601f626d12dc2b11524a50bca1d0c
 
 RPROVIDES:${PN} += "freetds-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgmp.so.10 \

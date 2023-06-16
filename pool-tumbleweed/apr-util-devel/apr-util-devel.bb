@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "apr-util-devel \
 libapr-util1-devel \
 pkgconfig-apr-util-1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 apr-devel \
 gdbm-devel \
 libapr-util1-0 \

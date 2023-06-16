@@ -28,7 +28,7 @@ RPROVIDES:${PN} += "tex-altsf.cfg \
 tex-subfig.sty \
 texlive-subfig"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -26,8 +26,8 @@ libILU.so.1 \
 libILUT.so.1 \
 libdevil1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

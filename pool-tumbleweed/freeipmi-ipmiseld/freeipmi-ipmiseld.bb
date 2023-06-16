@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "config-freeipmi-ipmiseld \
 freeipmi-/usr/sbin/ipmiseld \
 freeipmi-ipmiseld"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 freeipmi \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-oldgerm-otf.sty \
 tex-yfonts-otf.sty \
 texlive-yfonts-otf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

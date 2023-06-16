@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-atenddvi-2019-12-11.sty \
 tex-atenddvi.sty \
 texlive-atenddvi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

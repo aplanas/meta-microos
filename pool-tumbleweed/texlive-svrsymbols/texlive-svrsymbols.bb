@@ -16,7 +16,7 @@ tex-svrsymbols.map \
 tex-svrsymbols.sty \
 texlive-svrsymbols"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

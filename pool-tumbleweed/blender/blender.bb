@@ -25,7 +25,7 @@ RPM_HASH = "c6143e5105e557a8fb8d1c15a07b3b0cbbc2cb8c4f8a7f69710bc1dca5b58ffd5b1e
 RPROVIDES:${PN} += "blender \
 blender-35"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 /usr/bin/python3.10 \
 audaspace-deviceplugin \

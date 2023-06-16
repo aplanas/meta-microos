@@ -105,7 +105,7 @@ bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
 mirrorsorcerer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1"
 

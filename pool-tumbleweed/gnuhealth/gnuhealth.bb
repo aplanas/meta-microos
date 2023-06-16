@@ -113,10 +113,10 @@ python3dist-gnuhealth-surgery \
 python3dist-gnuhealth-webdav3-server \
 python3dist-gnuhealth-who-essential-medicines"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 bsdtar \
 gnu-free-fonts \
 proteus \

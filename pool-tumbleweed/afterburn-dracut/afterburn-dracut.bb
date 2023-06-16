@@ -10,7 +10,7 @@ RPM_HASH = "ab93544f0a6290ad35fcc4c7868accc0e4f3291ae2943b836222463b6e9c8e617df8
 
 RPROVIDES:${PN} += "afterburn-dracut"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 afterburn \
 dracut"
 

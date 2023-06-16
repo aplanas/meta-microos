@@ -29,7 +29,7 @@ tex-tc-xetex.def \
 tex-trimclip.sty \
 texlive-adjustbox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -23,7 +23,7 @@ tex-bkm-vtex.def \
 tex-bookmark.sty \
 texlive-bookmark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

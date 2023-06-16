@@ -13,7 +13,7 @@ RPM_HASH = "fa981d97848edfa08ea9a0487ffff88f6619a19545f352200f21835fb6b049fa7dc2
 RPROVIDES:${PN} += "antlr \
 antlr-bootstrap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 antlr-java"
 
 inherit rpm

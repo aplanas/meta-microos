@@ -41,7 +41,7 @@ xtables-addons-kmp \
 xtables-addons-kmp-default \
 xtables-addons-kmp-default-k6.3.4-1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-default \

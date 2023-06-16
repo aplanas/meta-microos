@@ -14,7 +14,7 @@ RPM_HASH = "b9fe9c9c1f01e737027ed09fb9d875d1fe521a101dd21ebf5d738e1964622ee8f5f9
 RPROVIDES:${PN} += "config-ptokax \
 ptokax"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

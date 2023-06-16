@@ -21,7 +21,7 @@ tex-thuthesis-numeric.cbx \
 tex-thuthesis.cls \
 texlive-thuthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

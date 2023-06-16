@@ -15,7 +15,7 @@ mvn-org.apache.geronimo.specs-geronimo-qname-1.1-spec-pom- \
 qname-1-1-api \
 qname-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

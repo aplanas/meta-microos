@@ -43,7 +43,7 @@ tex-mathx8.tfm \
 tex-mathx9.tfm \
 texlive-mathabx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

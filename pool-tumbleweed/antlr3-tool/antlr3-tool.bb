@@ -19,7 +19,7 @@ mvn-org.antlr-antlr-pom- \
 mvn-org.antlr-antlr3-maven-plugin \
 mvn-org.antlr-antlr3-maven-plugin-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

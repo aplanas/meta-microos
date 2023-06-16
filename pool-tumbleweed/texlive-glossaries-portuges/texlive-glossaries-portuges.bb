@@ -14,7 +14,7 @@ tex-glossaries-portuges.ldf \
 tex-glossaries-pt-BR.ldf \
 texlive-glossaries-portuges"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-sadisplay \
 python39-sadisplay \
 python3dist-sadisplay"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-SQLAlchemy \
 update-alternatives"

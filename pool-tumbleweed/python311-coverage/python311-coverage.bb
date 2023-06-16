@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-coverage \
 python311-coverage \
 python3dist-coverage"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \

@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "dtb-cavium \
 dtb-thunder-88xx \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

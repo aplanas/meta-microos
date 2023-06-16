@@ -10,9 +10,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gustprog"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

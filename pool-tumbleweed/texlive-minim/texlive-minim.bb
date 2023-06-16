@@ -28,7 +28,7 @@ tex-minim-plain.tex \
 tex-minim.tex \
 texlive-minim"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,7 +14,7 @@ RPM_HASH = "d2b82bc14b645ca8ca2636042cd994fe5fb5f1d0ceaa50b511298c9e6b6f1c386e67
 RPROVIDES:${PN} += "config-i2pd \
 i2pd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-filesystem.so.1.82.0 \
 libboost-program-options.so.1.82.0 \

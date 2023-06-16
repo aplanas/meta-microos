@@ -18,7 +18,7 @@ RPM_HASH = "4eb49d6854746a03bfbe2b1a4900a2b4aae005b378f0536ec872930c06a91039dd42
 RPROVIDES:${PN} += "liblapack.so.3 \
 liblapack3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblas.so.3 \
 libc.so.6 \

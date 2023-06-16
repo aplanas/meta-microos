@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-semantex.sty \
 tex-stripsemantex.sty \
 texlive-semantex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

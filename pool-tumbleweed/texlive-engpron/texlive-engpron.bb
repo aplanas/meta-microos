@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-engpron-tools.sty \
 tex-engpron.sty \
 texlive-engpron"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

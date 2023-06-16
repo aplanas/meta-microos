@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-frame.sty \
 tex-frame.tex \
 texlive-frame"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

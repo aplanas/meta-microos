@@ -13,7 +13,7 @@ RPM_HASH = "e12be289eebc851347b570f24ed1a44f24f5bc654e04aa6582058f31e645ff34500c
 
 RPROVIDES:${PN} += "smpeg-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libsmpeg-0-4-0"
 
 inherit rpm

@@ -21,7 +21,7 @@ mvn-org.apache.geronimo.specs-geronimo-annotation-1.0-spec-pom- \
 mvn-org.eclipse.jetty.orbit-javax.annotation \
 mvn-org.eclipse.jetty.orbit-javax.annotation-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

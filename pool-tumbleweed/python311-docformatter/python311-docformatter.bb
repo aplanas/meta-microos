@@ -29,8 +29,8 @@ RPROVIDES:${PN} += "python3.11dist-docformatter \
 python311-docformatter \
 python3dist-docformatter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 python311-untokenize \

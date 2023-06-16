@@ -12,7 +12,7 @@ RPM_HASH = "d4dd67469050467cbeeb5422bee2edfb35d180706d85a1c3ced99f85fcd137ca555d
 RPROVIDES:${PN} += "config-osmo-bts-virtual \
 osmo-bts-virtual"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmoabis.so.10 \

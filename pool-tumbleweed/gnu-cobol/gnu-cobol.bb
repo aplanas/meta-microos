@@ -12,7 +12,7 @@ RPM_HASH = "5ecf8623e58dcc8e12d84e3d41a896bcb64280dab8a8e2f48228eb8590e09af77a43
 RPROVIDES:${PN} += "gnu-cobol \
 opencobol"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcob.so.4"

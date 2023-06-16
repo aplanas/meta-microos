@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "config-dnf-data \
 dnf-conf \
 dnf-data"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

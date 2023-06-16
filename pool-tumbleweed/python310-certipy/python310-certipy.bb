@@ -13,8 +13,8 @@ python3.10dist-certipy \
 python310-certipy \
 python3dist-certipy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pyOpenSSL \
 update-alternatives"

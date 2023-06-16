@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "kanku-triggerd \
 perl-Kanku--Daemon--TriggerD \
 perl-Kanku--Listener--RabbitMQ"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 kanku-common \
 kanku-common-server"
 

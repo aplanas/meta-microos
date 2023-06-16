@@ -13,7 +13,7 @@ tex-hyph-da.tex \
 tex-loadhyph-da.tex \
 texlive-hyphen-danish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

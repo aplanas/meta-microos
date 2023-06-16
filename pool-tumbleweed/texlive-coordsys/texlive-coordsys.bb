@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-coordsys.sty \
 tex-logsys.sty \
 texlive-coordsys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

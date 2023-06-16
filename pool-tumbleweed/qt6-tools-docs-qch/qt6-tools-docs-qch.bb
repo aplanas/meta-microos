@@ -9,6 +9,6 @@ RPM_HASH = "258de8d0f27a671b6da733c41046b66cd9090014afaf3bf670c87bae6dec51cf7a3e
 
 RPROVIDES:${PN} += "qt6-tools-docs-qch"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

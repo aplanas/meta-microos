@@ -16,7 +16,7 @@ RPM_HASH = "b5d1c1318cbbd853778fe35ebf83227d5b82cd4c4baf7b57bb58f20f2b778819b8cb
 RPROVIDES:${PN} += "libHYPRE.so.2.20.0 \
 libHYPRE2-20-0-mpich"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.12"

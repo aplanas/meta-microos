@@ -14,7 +14,7 @@ RPM_HASH = "37c21fdaedcf297e1695813d90c3c296ee78aa32f280b8df5fe619a7a05f1c4e5260
 RPROVIDES:${PN} += "fakeroot \
 libfakeroot-0.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

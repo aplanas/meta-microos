@@ -22,7 +22,7 @@ haproxy-1.5 \
 haproxy-doc \
 user-haproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \

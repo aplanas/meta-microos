@@ -202,7 +202,7 @@ tex-typearea.sty \
 tex-variables-tikz.tex \
 texlive-koma-script"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

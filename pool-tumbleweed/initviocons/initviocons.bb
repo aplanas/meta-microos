@@ -22,7 +22,7 @@ RPM_HASH = "9027f92c05fa24bb55a15b792e0f28e4ae75de5857baff8c71de0f0be0a65a256265
 
 RPROVIDES:${PN} += "initviocons"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

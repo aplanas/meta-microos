@@ -163,7 +163,7 @@ texdev-utf8-2018.def \
 texdev-utf8.def \
 texlive-latex-base-dev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

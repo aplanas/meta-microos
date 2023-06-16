@@ -10,7 +10,7 @@ RPM_HASH = "3e5caadc6e383fd4f23e968c9f216b3ef623d7db4a8f559e91e0608fea439eef272a
 RPROVIDES:${PN} += "libostree-grub2 \
 ostree-grub2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 grub2-efi"
 
 inherit rpm

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-a0poster.cls \
 tex-a0size.sty \
 texlive-a0poster"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

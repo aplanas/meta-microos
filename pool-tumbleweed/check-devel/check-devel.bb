@@ -15,9 +15,9 @@ RPM_HASH = "f690a40c5baf562bc99c20e01a967e6a03f839c21821a8356f2a00da85e63b00e404
 RPROVIDES:${PN} += "check-devel \
 pkgconfig-check"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/gawk \
+RDEPENDS:${PN} += "/usr/bin/gawk \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libcheck0"
 

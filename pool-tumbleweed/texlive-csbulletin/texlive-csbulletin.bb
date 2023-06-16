@@ -18,7 +18,7 @@ tex-csbulobalka.sty \
 tex-csbulv1.cls \
 texlive-csbulletin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

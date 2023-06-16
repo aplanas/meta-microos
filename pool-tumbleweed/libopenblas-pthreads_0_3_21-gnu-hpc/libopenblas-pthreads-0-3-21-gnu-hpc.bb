@@ -9,7 +9,7 @@ RPM_HASH = "9f5b0be4dd28ef16817eec6e0f22bc43e6cb9a96bf021508dd97c65df9169e68c81b
 
 RPROVIDES:${PN} += "libopenblas-pthreads-0-3-21-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

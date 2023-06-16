@@ -27,8 +27,8 @@ firmware-mrvl/usb8897-uapsta.bin \
 firmware-mrvl/usbusb8997-combo-v4.bin \
 kernel-firmware-mwifiex"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

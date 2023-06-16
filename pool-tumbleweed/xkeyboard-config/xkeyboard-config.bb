@@ -16,8 +16,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "pkgconfig-xkeyboard-config \
 xkeyboard-config"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 coreutils"
 
 inherit rpm

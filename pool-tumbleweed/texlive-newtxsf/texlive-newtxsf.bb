@@ -29,7 +29,7 @@ tex-zsfmia-bol.tfm \
 tex-zsfmia-reg.tfm \
 texlive-newtxsf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "pkgconfig-commoncpp \
 pkgconfig-ucommon \
 ucommon-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libucommon8 \
 pkgconfig-libcrypto \
 pkgconfig-libssl"

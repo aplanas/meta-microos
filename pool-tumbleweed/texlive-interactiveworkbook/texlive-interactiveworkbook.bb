@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-interactiveworkbook-web.sty \
 tex-interactiveworkbook.sty \
 texlive-interactiveworkbook"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

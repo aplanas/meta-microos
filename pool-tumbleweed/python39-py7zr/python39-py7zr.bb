@@ -13,8 +13,8 @@ python39-py7zr \
 python3dist-py7zr"
 
 RDEPENDS:${PN} += "-python39-pyppmd >= 0.18.1 with python39-pyppmd < 1.1.0 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Brotli \
 python39-inflate64 \

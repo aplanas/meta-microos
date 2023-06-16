@@ -14,7 +14,7 @@ tex-autoaligne.sty \
 tex-autoaligne.tex \
 texlive-autoaligne"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

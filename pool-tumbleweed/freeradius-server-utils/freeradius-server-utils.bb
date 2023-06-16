@@ -9,8 +9,8 @@ RPM_HASH = "c32d45a3589aab124dd1fed3fbcf671f92344097897e1c9f93cac5fe3166f5f82a1c
 
 RPROVIDES:${PN} += "freeradius-server-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 freeradius-server-libs \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

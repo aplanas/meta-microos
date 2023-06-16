@@ -10,7 +10,7 @@ RPM_HASH = "c0bf7ffab95692d125e0a025307b944f9accdc6d1c44a79e6261682921372e354633
 RPROVIDES:${PN} += "ghc-devel-word-wrap-0.5-8lP0dTi9CAzDFiJFYJ3rcZ \
 ghc-word-wrap-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-text-2.0.2 \

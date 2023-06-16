@@ -13,8 +13,8 @@ python3.10dist-jsonpointer \
 python310-jsonpointer \
 python3dist-jsonpointer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi"
 

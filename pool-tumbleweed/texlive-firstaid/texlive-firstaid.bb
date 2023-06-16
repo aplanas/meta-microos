@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-everysel-ltx.sty \
 tex-filehook-ltx.sty \
 texlive-firstaid"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

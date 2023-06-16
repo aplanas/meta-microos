@@ -18,7 +18,7 @@ RPM_HASH = "3a68e8c35399ff628ddaa3bc95933f70b05870f89b0662be55da3b183c67e8de43b6
 RPROVIDES:${PN} += "config-dlt-daemon \
 dlt-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 shadow"

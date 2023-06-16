@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "appmenu-gtk3 \
 appmenu-gtk3-module \
 libappmenu-gtk-module.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 appmenu-gtk-module-common \
 gtk3-tools \
 libappmenu-gtk3-parser.so.0 \

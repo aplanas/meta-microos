@@ -20,7 +20,7 @@ tex-oscola.bbx \
 tex-oscola.cbx \
 texlive-oscola"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

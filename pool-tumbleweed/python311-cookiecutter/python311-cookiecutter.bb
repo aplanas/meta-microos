@@ -18,8 +18,8 @@ python3dist-cookiecutter"
 
 RDEPENDS:${PN} += "-python311-Jinja2 >= 2.7 with python311-Jinja2 < 4 \
 -python311-click >= 7 with python311-click < 9 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python311-PyYAML \

@@ -19,7 +19,7 @@ tex-qrbill.sty \
 tex-swiss.qrbill-cfg.tex \
 texlive-qrbill"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-check-manifest \
 python39-check-manifest \
 python3dist-check-manifest"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-build \
 python39-setuptools \

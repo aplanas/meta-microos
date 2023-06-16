@@ -10,8 +10,8 @@ RPM_HASH = "cd762e61ef8c3cf663870218699de2a8d6ed9f5033d5aac10bcff892642d9441c460
 RPROVIDES:${PN} += "samba-ad-dc \
 samba-kdc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libMESSAGING-SEND-samba4.so \
 libMESSAGING-samba4.so \

@@ -13,7 +13,7 @@ font--lang=el \
 font-gfssolomos \
 texlive-gfssolomos-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

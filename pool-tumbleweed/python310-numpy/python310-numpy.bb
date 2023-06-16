@@ -21,8 +21,8 @@ python3.10dist-numpy \
 python310-numpy \
 python3dist-numpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 ld-linux-aarch64.so.1 \
 libblas.so.3 \

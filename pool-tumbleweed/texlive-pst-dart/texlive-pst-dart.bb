@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pst-dart.sty \
 tex-pst-dart.tex \
 texlive-pst-dart"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

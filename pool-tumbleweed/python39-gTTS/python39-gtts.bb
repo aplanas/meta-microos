@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-gtts \
 python39-gTTS \
 python3dist-gtts"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-beautifulsoup4 \
 python39-click \

@@ -43,7 +43,7 @@ libvix.so \
 libvmbackup.so \
 open-vm-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libDeployPkg.so.0 \
 libc.so.6 \

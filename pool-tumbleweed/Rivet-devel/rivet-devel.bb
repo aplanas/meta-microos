@@ -19,7 +19,7 @@ RPM_HASH = "c5f78124a349e07ca076076c3b3f20dacb0d3cfcc9e51c702f5e1ed737ff6c751cc6
 RPROVIDES:${PN} += "Rivet-devel \
 pkgconfig-rivet"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 Rivet-data \
 YODA-devel \

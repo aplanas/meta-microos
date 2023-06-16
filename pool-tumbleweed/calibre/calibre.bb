@@ -16,7 +16,7 @@ libheadless.so \
 libmtp.so \
 libusb.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 bzip2 \
 chmlib \

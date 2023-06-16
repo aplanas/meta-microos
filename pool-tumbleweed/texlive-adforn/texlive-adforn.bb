@@ -19,7 +19,7 @@ tex-adforn.sty \
 tex-uornementsadf.fd \
 texlive-adforn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-osc-collab \
 system-user-osc-collab \
 user-osc-collab"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

@@ -10,7 +10,7 @@ RPM_HASH = "c0c9ec82b115e3caa83ff8008cde462f0cb225f475ea69c1318ab5c5ee9a3dad2115
 RPROVIDES:${PN} += "liblto-plugin.so \
 mingw32-cross-gcc-bootstrap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgmp.so.10 \

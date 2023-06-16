@@ -14,8 +14,8 @@ python311-ospd \
 python311-ospd-openvas \
 python3dist-ospd-openvas"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-defusedxml \
 python311-gnupg \

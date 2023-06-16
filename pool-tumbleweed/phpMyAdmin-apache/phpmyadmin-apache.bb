@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-phpMyAdmin-apache \
 phpMyAdmin-apache"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/a2enflag \
 /usr/sbin/a2enmod \
 apache2 \

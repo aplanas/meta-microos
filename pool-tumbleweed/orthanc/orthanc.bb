@@ -28,7 +28,7 @@ libMultitenantDicom.so.1.12.0 \
 libServeFolders.so.1.12.0 \
 orthanc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 dcmtk \

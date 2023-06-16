@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eremaea"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/eremaeactl"
+RDEPENDS:${PN} += "/usr/bin/eremaeactl \
+/usr/bin/sh"
 
 inherit rpm

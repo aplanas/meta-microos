@@ -10,7 +10,7 @@ RPM_HASH = "ff81ac402d8b1b83599262a0ea36fb50b9ee2757a135876d4ec235ce2a8cf7818fb1
 
 RPROVIDES:${PN} += "yaics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

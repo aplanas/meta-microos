@@ -38,7 +38,7 @@ man-t1testpage.1 \
 man-ttftotype42.1 \
 texlive-lcdftypetools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

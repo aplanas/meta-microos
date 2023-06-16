@@ -16,7 +16,7 @@ RPM_HASH = "3d59f0a8977bd4cd1d57f8f339517c89c808f9d2be49ee98a77306714ddc8b9298a1
 
 RPROVIDES:${PN} += "osmo-e1d"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmo-e1d.so.1 \

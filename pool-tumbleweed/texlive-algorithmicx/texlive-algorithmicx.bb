@@ -21,7 +21,7 @@ tex-algpascal.sty \
 tex-algpseudocode.sty \
 texlive-algorithmicx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

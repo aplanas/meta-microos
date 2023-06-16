@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "group-usbmux \
 usbmuxd \
 user-usbmux"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-nogroup \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

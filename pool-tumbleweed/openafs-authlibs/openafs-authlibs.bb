@@ -20,7 +20,7 @@ libafsrpc.so.2 \
 libkopenafs.so.2 \
 openafs-authlibs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libafshcrypto.so.2 \
 libc.so.6 \

@@ -16,7 +16,7 @@ tex-sffms.cls \
 tex-sffsmart.sty \
 texlive-sffms"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

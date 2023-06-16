@@ -36,7 +36,7 @@ tex-utsize11.clo \
 tex-utsize12.clo \
 texlive-uplatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

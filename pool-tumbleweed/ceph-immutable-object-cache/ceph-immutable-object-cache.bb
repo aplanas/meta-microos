@@ -9,7 +9,7 @@ RPM_HASH = "f8ceb9212d8e09d761c85668a111f96aee17a0d3317824438e6a1794825bb48a18ae
 
 RPROVIDES:${PN} += "ceph-immutable-object-cache"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

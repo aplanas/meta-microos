@@ -17,7 +17,7 @@ tex-pl.cfg \
 tex-pl.sty \
 texlive-plweb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

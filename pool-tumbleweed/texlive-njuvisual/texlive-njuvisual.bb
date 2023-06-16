@@ -26,7 +26,7 @@ tex-njuvisual-spirit-nju.def \
 tex-njuvisual.sty \
 texlive-njuvisual"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

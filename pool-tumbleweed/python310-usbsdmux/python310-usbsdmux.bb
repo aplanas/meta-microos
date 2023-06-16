@@ -14,9 +14,9 @@ python3.10dist-usbsdmux \
 python310-usbsdmux \
 python3dist-usbsdmux"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives \
 usbsdmux-udev"

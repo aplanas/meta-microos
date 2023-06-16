@@ -16,7 +16,7 @@ libasound-module-conf-pulse.so \
 libasound-module-ctl-pulse.so \
 libasound-module-pcm-pulse.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

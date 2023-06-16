@@ -25,7 +25,7 @@ tex-tikzlibrarytrackschematic.trafficcontrol.code.tex \
 tex-tikzlibrarytrackschematic.vehicles.code.tex \
 texlive-tikz-trackschematic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

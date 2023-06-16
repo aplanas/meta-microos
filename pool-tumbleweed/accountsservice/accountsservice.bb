@@ -13,7 +13,7 @@ RPM_HASH = "a9e55aaab6f62370503bdf070ea7f1c29eab5417874c1fab15bd7e4c86462d79a7cb
 
 RPROVIDES:${PN} += "accountsservice"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

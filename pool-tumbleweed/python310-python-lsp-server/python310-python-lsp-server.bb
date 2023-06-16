@@ -28,8 +28,8 @@ python310-python-lsp-server \
 python3dist-python-lsp-server"
 
 RDEPENDS:${PN} += "-python310-jedi >= 0.17.2 with python310-jedi < 0.19.0 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-docstring-to-markdown \
 python310-pluggy \

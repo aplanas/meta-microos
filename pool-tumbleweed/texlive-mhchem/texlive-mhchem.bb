@@ -44,7 +44,7 @@ tex-mhchem.sty \
 tex-rsphrase.sty \
 texlive-mhchem"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

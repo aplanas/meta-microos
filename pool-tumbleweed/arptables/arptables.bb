@@ -12,8 +12,8 @@ RPM_HASH = "3829da56ac19af261b175034872fc156b69e2915073d5c36a033ef52c2692a8a4777
 
 RPROVIDES:${PN} += "arptables"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 update-alternatives"

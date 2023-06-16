@@ -13,7 +13,7 @@ RPM_HASH = "c6fa35406b06d974e1e9914789040eb968a7c517b7ebe9fae3a88a850768e68863bc
 RPROVIDES:${PN} += "mariadb-bench \
 mysql-bench"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -13,7 +13,7 @@ RPM_HASH = "a2f31852aac066df267e0630e96257f3e11c514e4e5aac7626d1a928ffa180033125
 RPROVIDES:${PN} += "config-pptpd \
 pptpd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 ppp"

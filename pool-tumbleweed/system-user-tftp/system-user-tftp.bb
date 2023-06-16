@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-tftp \
 system-user-tftp \
 user-tftp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

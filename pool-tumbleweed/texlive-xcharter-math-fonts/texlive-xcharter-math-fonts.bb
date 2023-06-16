@@ -34,7 +34,7 @@ font-xcharter-math-bold \
 font-xchartermath \
 texlive-xcharter-math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

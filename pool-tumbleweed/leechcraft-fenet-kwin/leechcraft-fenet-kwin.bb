@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "leechcraft-fenet-kwin \
 leechcraft-fenet-wm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kwin5 \
 leechcraft-fenet"
 

@@ -12,9 +12,9 @@ RPM_HASH = "40e9510a8764a89e32d2cf766891d5fd288c609d34203410b1a0551b0b2302ff93e8
 RPROVIDES:${PN} += "config-salt-master \
 salt-master"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 salt \

@@ -28,7 +28,7 @@ tex-exam-zh-textfigure.sty \
 tex-exam-zh.cls \
 texlive-exam-zh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

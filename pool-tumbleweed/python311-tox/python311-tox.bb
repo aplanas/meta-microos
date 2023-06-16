@@ -24,8 +24,8 @@ python311-detox \
 python311-tox \
 python3dist-tox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-cachetools \
 python311-chardet \

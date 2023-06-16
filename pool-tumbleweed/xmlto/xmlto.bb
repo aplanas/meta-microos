@@ -11,7 +11,7 @@ RPM_HASH = "65fe4eab084e394ce9adce1494e83071d39315b9586ca9f31fe6896026096c1132b8
 
 RPROVIDES:${PN} += "xmlto"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 docbook-4 \
 docbook-xsl-stylesheets \
 libc.so.6 \

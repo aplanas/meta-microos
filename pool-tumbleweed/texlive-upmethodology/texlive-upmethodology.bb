@@ -26,7 +26,7 @@ tex-upmethodology-task.sty \
 tex-upmethodology-version.sty \
 texlive-upmethodology"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

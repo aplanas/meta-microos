@@ -18,8 +18,7 @@ RPM_HASH = "e5c9ccc26d6df1841c9bcc0b1faa2b5b4558cd6bb5764cc27a9fb2650b5d834aa765
 RPROVIDES:${PN} += "cmake-Kokkos \
 kokkos-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 hwloc-devel \
 libkokkos-4-0"
 

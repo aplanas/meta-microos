@@ -157,7 +157,7 @@ font-comfortaa \
 font-comfortaalight \
 texlive-comfortaa-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

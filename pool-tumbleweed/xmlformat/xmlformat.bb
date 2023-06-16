@@ -17,9 +17,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlformat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/ruby \
+/usr/bin/sh \
 update-alternatives"
 
 inherit rpm

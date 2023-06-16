@@ -10,7 +10,7 @@ RPM_HASH = "85c4344056bea3ebc52172b77e93b11b6f289685dd10cb14f40ecef9858693a7b1fd
 RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.2-4COa82weJXB97OkqjDlb3I \
 ghc-pandoc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
 ghc-devel-JuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS \

@@ -15,8 +15,8 @@ python3.10dist-markdown-it-py \
 python310-markdown-it-py \
 python3dist-markdown-it-py"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-mdurl \
 update-alternatives"

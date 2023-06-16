@@ -246,7 +246,7 @@ tex-ts1futx.fd \
 tex-ufuts.fd \
 texlive-fourier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ python3.10dist-pass-git-helper \
 python310-pass-git-helper \
 python3dist-pass-git-helper"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pyxdg \
 update-alternatives"

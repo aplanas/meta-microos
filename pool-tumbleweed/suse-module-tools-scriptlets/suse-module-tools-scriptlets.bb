@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "suse-kernel-rpm-scriptlets \
 suse-module-tools-/usr/lib/module-init-tools/kernel-scriptlets \
 suse-module-tools-scriptlets"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 suse-module-tools"
 
 inherit rpm

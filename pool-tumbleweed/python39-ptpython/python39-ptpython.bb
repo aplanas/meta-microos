@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-ptpython \
 python39-ptpython \
 python3dist-ptpython"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Pygments \
 python39-appdirs \

@@ -15,8 +15,8 @@ desktop-data \
 desktop-data-openSUSE \
 desktop-data-openSUSE-extra"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 hicolor-icon-theme \

@@ -322,7 +322,7 @@ tex-plyfr-vw64ij.enc \
 tex-plyfr-ygz7pk.enc \
 texlive-playfair"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

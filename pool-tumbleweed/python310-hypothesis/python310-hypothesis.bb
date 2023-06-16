@@ -25,8 +25,8 @@ python310-hypothesis \
 python3dist-hypothesis"
 
 RDEPENDS:${PN} += "-python310-sortedcontainers >= 2.1.0 with python310-sortedcontainers < 3.0 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-attrs \
 update-alternatives"

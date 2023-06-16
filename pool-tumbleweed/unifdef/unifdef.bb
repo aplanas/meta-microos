@@ -12,7 +12,7 @@ RPM_HASH = "b9a42dd7968104da8510f1f76313ee066f58ab387d9179dfbf7b09c2ac69fd0002b3
 
 RPROVIDES:${PN} += "unifdef"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

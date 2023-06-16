@@ -11,7 +11,7 @@ RPM_HASH = "b747b41b805f054ea4676e5ddb5f11bf108b7f6cce9ad9ceca7be9153a20c822f5be
 
 RPROVIDES:${PN} += "srt"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

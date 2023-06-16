@@ -13,12 +13,12 @@ RPROVIDES:${PN} += "suse-module-tools \
 system-tuning-common-SUSE \
 udev-extra-rules"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/grep \
 /usr/bin/gzip \
 /usr/bin/perl \
 /usr/bin/sed \
+/usr/bin/sh \
 coreutils \
 findutils \
 rpm \

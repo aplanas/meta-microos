@@ -10,8 +10,8 @@ RPM_HASH = "a6a5b6bf9533ea574dd07d5817e9f305dcaed8460653eb86e480ed1f8e6a753219b6
 
 RPROVIDES:${PN} += "rpmlint-mini"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 cpio \
 ld-linux-aarch64.so.1 \
 polkit-default-privs"

@@ -9,10 +9,10 @@ RPM_HASH = "73d643fd0cf1da4c30c99c77e29a48b831b1cbe3d2f174023191066800f12eba7563
 
 RPROVIDES:${PN} += "yast2-bootloader"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sed \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sed \
+/usr/bin/sh \
 /usr/bin/touch \
 augeas-lenses \
 fillup \

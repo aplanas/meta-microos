@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "cinnamon-screensaver \
 libcscreensaver.so.0 \
 typelib-CScreensaver"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 iso-country-flags-png \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

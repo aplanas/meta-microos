@@ -11,7 +11,7 @@ RPM_HASH = "54db4025f30f8be2ae56a0bc6714c357b9edcd7804f7793a5d87328228e3c3eddb87
 RPROVIDES:${PN} += "config-pcp-pmda-nutcracker \
 pcp-pmda-nutcracker"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-JSON \
 perl-PCP-PMDA \
 perl-YAML--XS--LibYAML"

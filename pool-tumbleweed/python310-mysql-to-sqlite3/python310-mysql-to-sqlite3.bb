@@ -13,8 +13,8 @@ python3.10dist-mysql-to-sqlite3 \
 python310-mysql-to-sqlite3 \
 python3dist-mysql-to-sqlite3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-click \
 python310-mysql-connector-python \

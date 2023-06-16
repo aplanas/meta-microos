@@ -281,7 +281,7 @@ tex-gls-pqq4vh.enc \
 tex-gls-shb4ap.enc \
 texlive-gillius"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

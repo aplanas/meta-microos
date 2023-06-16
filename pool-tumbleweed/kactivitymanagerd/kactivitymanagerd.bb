@@ -12,7 +12,7 @@ kactivities5 \
 kactivitymanagerd \
 libkactivitymanagerd-plugin.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5CoreAddons.so.5 \

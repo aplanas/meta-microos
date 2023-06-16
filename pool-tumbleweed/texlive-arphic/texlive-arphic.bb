@@ -770,7 +770,7 @@ tex-gkaiufe.tfm \
 tex-gkaiuff.tfm \
 texlive-arphic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

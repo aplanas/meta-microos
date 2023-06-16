@@ -15,7 +15,7 @@ font-mxedi10 \
 font-xuc10 \
 texlive-mxedruli-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

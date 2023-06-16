@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "python3.9dist-six \
 python39-six \
 python3dist-six"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi"
 
 inherit rpm

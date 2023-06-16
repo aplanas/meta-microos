@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "config-vsftpd \
 ftp-server \
 vsftpd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-nobody \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

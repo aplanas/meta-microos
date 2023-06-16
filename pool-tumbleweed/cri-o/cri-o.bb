@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "config-cri-o \
 cri-o \
 cri-runtime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cni \
 cni-plugins \
 conmon \

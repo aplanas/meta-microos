@@ -70,7 +70,7 @@ tex-zzvmode.tex \
 tex-zzxref.tex \
 texlive-zztex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

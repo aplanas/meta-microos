@@ -26,7 +26,7 @@ tex-bmstu-toc.sty \
 tex-bmstu.cls \
 texlive-bmstu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

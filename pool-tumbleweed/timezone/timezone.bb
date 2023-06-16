@@ -11,7 +11,7 @@ RPM_HASH = "28fd13538bd21acddef11eb1d07d9936dfc500afed3fa33dea03f74e913a602e9959
 RPROVIDES:${PN} += "config-timezone \
 timezone"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

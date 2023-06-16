@@ -16,7 +16,7 @@ tex-bbding.sty \
 tex-bbding10.tfm \
 texlive-bbding"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

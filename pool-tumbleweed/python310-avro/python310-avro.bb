@@ -14,8 +14,8 @@ python3.10dist-avro \
 python310-avro \
 python3dist-avro"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Twisted \
 python310-zope.interface \

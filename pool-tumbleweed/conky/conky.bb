@@ -18,7 +18,7 @@ libimlib2.so \
 librsvg.so \
 libtcp-portmon.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/lua5.1 \
 fontawesome-fonts \
 imlib2-loaders \

@@ -10,7 +10,7 @@ RPM_HASH = "8347e824b7a9c2e4e676f23d2168975f4f0345c1849353c38f36255b236e9eee28dd
 RPROVIDES:${PN} += "ghc-devel-unicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO \
 ghc-unicode-data-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-unicode-data"

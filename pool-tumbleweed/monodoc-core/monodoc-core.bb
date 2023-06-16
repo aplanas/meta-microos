@@ -15,8 +15,8 @@ monodoc-core \
 monodoc-devel \
 pkgconfig-monodoc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 mono-ICSharpCode.SharpZipLib \
 mono-Mono.Cecil \
 mono-System \

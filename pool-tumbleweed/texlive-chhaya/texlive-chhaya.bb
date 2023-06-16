@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-chhaya.sty \
 tex-sankshep.tex \
 texlive-chhaya"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

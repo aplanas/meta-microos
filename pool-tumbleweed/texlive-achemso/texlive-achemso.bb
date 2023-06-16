@@ -90,7 +90,7 @@ tex-achemso.sty \
 tex-natmove.sty \
 texlive-achemso"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

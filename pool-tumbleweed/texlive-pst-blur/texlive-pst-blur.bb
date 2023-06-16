@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-blur.sty \
 tex-pst-blur.tex \
 texlive-pst-blur"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

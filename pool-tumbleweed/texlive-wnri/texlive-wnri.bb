@@ -24,7 +24,7 @@ tex-wnrit10.tfm \
 tex-wnrit8.tfm \
 texlive-wnri"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

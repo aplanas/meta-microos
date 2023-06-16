@@ -10,8 +10,8 @@ RPM_HASH = "c2637a4b1c4678168eb098e935f6cfb780fb25db1e8acff64625202940d04a0c46e3
 RPROVIDES:${PN} += "sgmltool-/usr/bin/sgml2latex \
 sgmltool-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 sgmltool \
 texlive-epsf \

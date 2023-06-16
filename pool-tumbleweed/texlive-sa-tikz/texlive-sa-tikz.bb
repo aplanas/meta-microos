@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-sa-tikz.sty \
 tex-tikzlibraryswitching-architectures.code.tex \
 texlive-sa-tikz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

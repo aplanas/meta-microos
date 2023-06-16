@@ -97,7 +97,7 @@ font--lang=zu \
 font-bookhands \
 texlive-auncial-new-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

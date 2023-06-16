@@ -48,7 +48,7 @@ tex-upzhserifit-v.tfm \
 tex-upzhserifit-v.vf \
 texlive-zhmetrics-uptex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

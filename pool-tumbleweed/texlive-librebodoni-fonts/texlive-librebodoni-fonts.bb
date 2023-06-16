@@ -125,7 +125,7 @@ font--lang=zu \
 font-librebodoni \
 texlive-librebodoni-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

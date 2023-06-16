@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skinlf-demo"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 skinlf"
 
 inherit rpm

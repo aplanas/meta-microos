@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-pdns \
 pdns-common \
 user-pdns"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 shadow \
 sysuser-shadow"
 

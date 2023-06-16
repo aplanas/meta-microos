@@ -10,6 +10,6 @@ RPM_HASH = "6ea0825dde6ac17e0a6edba9e1f8d95bfa2b4b16bea9c129066312146740d3a3c8c7
 RPROVIDES:${PN} += "clash \
 config-clash"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

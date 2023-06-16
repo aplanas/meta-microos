@@ -30,8 +30,8 @@ libkdevelopsessionsplugin.so \
 qt5qmlimport-org.kde.kdevplatform.1 \
 qt5qmlimport-org.kde.plasma.private.kdevelopsessions.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 clang16 \
 ld-linux-aarch64.so.1 \
 libKDevPlatformDebugger.so.511 \

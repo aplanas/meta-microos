@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "config-sane-saned \
 sane-backends-/usr/sbin/saned \
 sane-saned"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \

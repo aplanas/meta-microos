@@ -21,7 +21,7 @@ tex-easytable.sty \
 tex-easyvector.sty \
 texlive-easy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

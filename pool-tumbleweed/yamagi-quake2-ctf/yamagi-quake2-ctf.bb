@@ -10,7 +10,7 @@ RPM_HASH = "2fa16f11cd4a9704b917b20daf8aa100b767c94815e321f0d5888e78ab9d27e19e64
 
 RPROVIDES:${PN} += "yamagi-quake2-ctf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

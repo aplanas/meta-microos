@@ -10,7 +10,7 @@ RPM_HASH = "d77629e1d5db7122d97712e11740e708bd5f3a66563f54c4b03c3f3a951f30538a95
 RPROVIDES:${PN} += "ghc-aws-devel \
 ghc-devel-aws-0.23-3doj4K3gEsgA7HfIcBeC8x"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-aws \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

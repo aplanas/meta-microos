@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "adobe-sourcehansans-jp-fonts \
 locale-jp \
 scalable-font-jp"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

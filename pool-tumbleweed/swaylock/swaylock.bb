@@ -9,7 +9,7 @@ RPM_HASH = "be80b2c22e4e274bd3df96975111ca855f52b000a60312574cbdced70693ce521629
 
 RPROVIDES:${PN} += "swaylock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

@@ -32,7 +32,7 @@ tex-slovak-iso.lbx \
 tex-spanish-iso.lbx \
 texlive-biblatex-iso690"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

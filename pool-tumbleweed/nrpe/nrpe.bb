@@ -15,9 +15,9 @@ nagios-nrpe \
 nagios-nrpe-client \
 nrpe"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/logger \
+RDEPENDS:${PN} += "/usr/bin/logger \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 grep \

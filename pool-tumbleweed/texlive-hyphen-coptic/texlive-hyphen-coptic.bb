@@ -16,7 +16,7 @@ tex-hyph-cop.tex \
 tex-loadhyph-cop.tex \
 texlive-hyphen-coptic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "mt \
 schily-mt \
 star-rmt-/usr/bin/smt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 librmt.so.1.0 \

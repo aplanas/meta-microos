@@ -110,7 +110,7 @@ font-原ノ味角ゴシックlight \
 font-原ノ味角ゴシックnormal \
 texlive-haranoaji-extra-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

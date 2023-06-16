@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-upsd \
 system-user-upsd \
 user-upsd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-daemon \
 sysuser-shadow"
 

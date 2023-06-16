@@ -20,7 +20,7 @@ tex-fac-en.cfg \
 tex-facsimile.cls \
 texlive-facsimile"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

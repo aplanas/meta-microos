@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "locale-so \
 sil-abyssinica \
 sil-abyssinica-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

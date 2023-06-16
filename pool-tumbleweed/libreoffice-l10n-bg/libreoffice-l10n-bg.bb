@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-bg \
 libreoffice-l10n-bg \
 locale-libreoffice-bg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker \
 myspell-bg-BG"

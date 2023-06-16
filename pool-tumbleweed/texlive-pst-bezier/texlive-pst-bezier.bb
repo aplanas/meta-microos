@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-bezier.sty \
 tex-pst-bezier.tex \
 texlive-pst-bezier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-python-louvain \
 python311-python-louvain \
 python3dist-python-louvain"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-networkx \
 python311-numpy \

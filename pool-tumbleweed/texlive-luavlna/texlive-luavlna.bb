@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-luavlna.sty \
 tex-luavlna.tex \
 texlive-luavlna"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

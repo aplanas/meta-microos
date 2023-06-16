@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-fade-in"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 plymouth-plugin-fade-throbber \
 plymouth-plugin-label \
 plymouth-scripts"

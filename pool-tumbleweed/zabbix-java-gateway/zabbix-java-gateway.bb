@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "config-zabbix-java-gateway \
 zabbix \
 zabbix-java-gateway"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 jre \
 shadow"
 

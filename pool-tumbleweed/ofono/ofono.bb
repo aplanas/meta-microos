@@ -15,7 +15,7 @@ RPM_HASH = "796dabbe8aef4ee00b03deaeb3a658fee1a7a30a74d331efaa23c7f88a7459dca724
 RPROVIDES:${PN} += "config-ofono \
 ofono"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

@@ -15,7 +15,7 @@ tex-recycle.sty \
 tex-recycle.tfm \
 texlive-recycle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

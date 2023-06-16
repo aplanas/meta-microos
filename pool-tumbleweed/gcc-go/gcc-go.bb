@@ -9,7 +9,7 @@ RPM_HASH = "8f25a2ed47945b8ff9106f3d6170309a2e6035ad3dc05e35daee894b78db1cf5125e
 
 RPROVIDES:${PN} += "gcc-go"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gcc \
 gcc13-go \
 update-alternatives"

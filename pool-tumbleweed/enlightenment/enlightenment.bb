@@ -13,7 +13,7 @@ e-module-notification \
 e17 \
 enlightenment"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dbus-1 \
 edje \
 efl \

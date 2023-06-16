@@ -13,7 +13,7 @@ RPM_HASH = "b9ed26d9d128a91692177c70a52deff48fb0b05205c0a76705093307b046240ed14c
 
 RPROVIDES:${PN} += "hdf5-mvapich2-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hdf5-devel-data \
 hdf5-mvapich2 \
 libhdf5-200-mvapich2 \

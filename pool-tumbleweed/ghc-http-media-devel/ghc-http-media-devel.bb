@@ -10,7 +10,7 @@ RPM_HASH = "c5b66239182989a307e0c4a1d32ebf53050e34b93474706066adc20bab9edda69ded
 RPROVIDES:${PN} += "ghc-devel-http-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU \
 ghc-http-media-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

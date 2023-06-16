@@ -11,7 +11,7 @@ RPM_HASH = "e43490231942dc17f80d632917b294ca1b4909309c2aabd4ec5366f02aeed2ff9e31
 
 RPROVIDES:${PN} += "libmicro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6"

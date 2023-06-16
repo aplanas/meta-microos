@@ -9,7 +9,7 @@ RPM_HASH = "ebf366eeb477e0ca6dc25bd8302b5c9556a877c56179d0435bf6131695743a0f12f3
 
 RPROVIDES:${PN} += "texlive-tpic2pdftex-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 texlive-tpic2pdftex"
 
 inherit rpm

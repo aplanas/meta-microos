@@ -25,7 +25,7 @@ libutsushi-gtkmm.so \
 libutsushi.so \
 utsushi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libMagick++-7.Q16HDRI.so.5 \
 libatkmm-1.6.so.1 \

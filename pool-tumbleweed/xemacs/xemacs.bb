@@ -17,7 +17,7 @@ RPM_HASH = "52e47d62f007fe887ca71819b9f14a19370c762fd01eed4168a4dbc175ce31516407
 RPROVIDES:${PN} += "config-xemacs \
 xemacs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ctags \
 efont-unicode \
 ifnteuro \

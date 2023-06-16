@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-stix-variants-fonts \
 font-stixvariants \
 stix-variants-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl \

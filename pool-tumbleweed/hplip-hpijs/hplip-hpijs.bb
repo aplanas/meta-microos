@@ -908,7 +908,7 @@ postscriptdriver-hp;smart-tank-plus-650-series; \
 postscriptdriver-hp;smart-tank-wireless-450-series; \
 postscriptdriver-hp;tango;"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 hplip-udev-rules \
 ld-linux-aarch64.so.1 \

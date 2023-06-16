@@ -11,7 +11,7 @@ RPM_HASH = "3b6119c1777171cf7153a15a4e7f89a6d66defa55f7d0a42803e469d53639de0fde7
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gtk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

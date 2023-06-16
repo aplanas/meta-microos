@@ -106,7 +106,7 @@ font-tex\040vect8 \
 font-tex\040vect9 \
 texlive-esvect-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

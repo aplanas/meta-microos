@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pget \
 python39-PGet \
 python3dist-pget"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-requests \
 update-alternatives"

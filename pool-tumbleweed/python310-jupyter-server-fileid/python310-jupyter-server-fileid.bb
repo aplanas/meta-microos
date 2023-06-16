@@ -14,8 +14,8 @@ python310-jupyter-server-fileid \
 python3dist-jupyter-server-fileid"
 
 RDEPENDS:${PN} += "-python310-jupyter-server >= 1.15 with python310-jupyter-server < 3 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 jupyter-server-fileid \
 python-abi \

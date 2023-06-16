@@ -20,7 +20,7 @@ tex-gpgfsbaskerville.enc \
 tex-lgrgfsbaskerville.fd \
 texlive-gfsbaskerville"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

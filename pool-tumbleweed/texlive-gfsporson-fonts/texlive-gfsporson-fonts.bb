@@ -14,7 +14,7 @@ font-gfsporson \
 font-gfsporsonrg \
 texlive-gfsporson-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

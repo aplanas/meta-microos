@@ -13,7 +13,7 @@ RPM_HASH = "1839778cb816895a9c6ca12fba6023b6b5448dc8f3cd54c56b0b7894fe814fd7aae9
 
 RPROVIDES:${PN} += "autogen"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libguile-3.0.so.1 \

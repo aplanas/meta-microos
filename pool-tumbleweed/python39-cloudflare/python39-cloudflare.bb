@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-cloudflare \
 python39-cloudflare \
 python3dist-cloudflare"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-beautifulsoup4 \

@@ -19,7 +19,7 @@ tex-esint10.tfm \
 tex-uesint.fd \
 texlive-esint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

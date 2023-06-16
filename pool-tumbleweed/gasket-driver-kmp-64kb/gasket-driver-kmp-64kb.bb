@@ -14,7 +14,7 @@ kmod-apex.ko \
 kmod-gasket.ko \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 gasket-driver-ueficert \
 grep \

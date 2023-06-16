@@ -311,7 +311,7 @@ tex-ibrr-yt2suz.enc \
 tex-ibrr-yyhfj4.enc \
 texlive-ibarra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

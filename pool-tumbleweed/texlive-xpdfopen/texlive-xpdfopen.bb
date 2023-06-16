@@ -19,7 +19,7 @@ texlive-pdftools-doc-/usr/share/man/man1/pdfclose.1.gz \
 texlive-pdftools-doc-/usr/share/man/man1/pdfopen.1.gz \
 texlive-xpdfopen"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

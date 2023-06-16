@@ -20,8 +20,8 @@ python3.10dist-passivetotal \
 python310-passivetotal \
 python3dist-passivetotal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-ez-setup \
 python310-future \

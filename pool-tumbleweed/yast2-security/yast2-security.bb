@@ -14,7 +14,7 @@ yast2-config-security \
 yast2-security \
 yast2-trans-security"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 augeas-lenses \
 yast2 \
 yast2-bootloader \

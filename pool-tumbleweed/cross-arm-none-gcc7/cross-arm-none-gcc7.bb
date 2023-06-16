@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc7 \
 liblto-plugin.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-arm-binutils \
 libc.so.6 \
 libgmp.so.10 \

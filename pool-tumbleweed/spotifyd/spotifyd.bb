@@ -297,7 +297,7 @@ bundled-rust-crate-zvariant \
 bundled-rust-crate-zvariant-derive \
 spotifyd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libasound.so.2 \
 libc.so.6 \
 libcrypto.so.3 \

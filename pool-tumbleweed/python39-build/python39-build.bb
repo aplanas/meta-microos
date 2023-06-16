@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-build \
 python39-build \
 python3dist-build"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-packaging \
 python39-pyproject-hooks \

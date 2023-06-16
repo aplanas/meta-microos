@@ -25,8 +25,8 @@ libwebrtc-util.so \
 pulseaudio \
 pulseaudio-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11-xcb.so.1 \
 libX11.so.6 \

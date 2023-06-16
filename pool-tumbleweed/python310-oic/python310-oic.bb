@@ -15,8 +15,8 @@ python3.10dist-oic \
 python310-oic \
 python3dist-oic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Beaker \
 python310-Mako \

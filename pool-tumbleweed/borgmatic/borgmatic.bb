@@ -18,8 +18,8 @@ config-borgmatic \
 python3.10dist-borgmatic \
 python3dist-borgmatic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 borgbackup \
 python-abi \
 python3-colorama \

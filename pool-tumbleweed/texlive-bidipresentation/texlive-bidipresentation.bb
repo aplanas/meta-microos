@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-bidiprescolors.cfg \
 tex-bidipresentation.cls \
 texlive-bidipresentation"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

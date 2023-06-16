@@ -13,7 +13,7 @@ RPM_HASH = "b0f0a904830ff6fd93ce82b0bc79a74fb07bb520d9f8ef27db92f493684252e8e0ca
 
 RPROVIDES:${PN} += "ccgfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libHX.so.32 \
 libc.so.6 \

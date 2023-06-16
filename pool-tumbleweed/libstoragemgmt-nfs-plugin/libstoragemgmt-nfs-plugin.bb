@@ -10,8 +10,8 @@ RPM_HASH = "c4ed6372f504b96139de14e8f9082c5e4f5154f54c23f4623a42b11bc253fe6f7c39
 RPROVIDES:${PN} += "config-libstoragemgmt-nfs-plugin \
 libstoragemgmt-nfs-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libstoragemgmt \

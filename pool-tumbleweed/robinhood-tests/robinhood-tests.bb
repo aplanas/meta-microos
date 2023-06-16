@@ -9,7 +9,7 @@ RPM_HASH = "d60cfced18ea547d3927247cfe3838dce038d2f29e6a490aa389e0e4f4bec221af5a
 
 RPROVIDES:${PN} += "robinhood-tests"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0"

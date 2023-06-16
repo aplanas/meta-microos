@@ -14,7 +14,7 @@ rubygem-ruby-3.2.0-yajl-ruby-1.4 \
 rubygem-ruby-3.2.0-yajl-ruby-1.4.3 \
 rubygem-yajl-ruby"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

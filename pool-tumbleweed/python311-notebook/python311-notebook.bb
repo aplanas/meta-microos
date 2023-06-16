@@ -17,8 +17,8 @@ python311-notebook \
 python3dist-notebook"
 
 RDEPENDS:${PN} += "-python311-jupyter-client >= 5.3.4 with python311-jupyter-client < 8 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 jupyter-notebook \
 python-abi \

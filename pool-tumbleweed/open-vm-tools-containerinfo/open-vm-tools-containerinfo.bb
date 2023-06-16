@@ -10,7 +10,7 @@ RPM_HASH = "6ea2df3ec9da20af32ed44605b9585e540e6ccd3b007ce417e42e6400135b39d07cc
 RPROVIDES:${PN} += "libcontainerInfo.so \
 open-vm-tools-containerinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 curl \
 ld-linux-aarch64.so.1 \
 libabsl-synchronization.so.2301.0.0 \

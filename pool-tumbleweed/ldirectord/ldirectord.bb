@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "config-ldirectord \
 heartbeat-ldirectord \
 ldirectord"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ipvsadm \
 logrotate \
 perl-IO-Socket-INET6 \

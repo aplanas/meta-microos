@@ -1583,7 +1583,7 @@ tex-chi-wxmaut.enc \
 tex-chi-zvnssh.enc \
 texlive-chivo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

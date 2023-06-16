@@ -16,7 +16,7 @@ tex-datetime2-esperanto-utf8.ldf \
 tex-datetime2-esperanto.ldf \
 texlive-datetime2-esperanto"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

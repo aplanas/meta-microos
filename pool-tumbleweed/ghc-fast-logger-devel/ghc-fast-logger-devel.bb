@@ -10,7 +10,7 @@ RPM_HASH = "f8c72c5c9d9143af83c140de2b598dac850b8c12ede545d88889bfc17549ac960917
 RPROVIDES:${PN} += "ghc-devel-fast-logger-3.1.2-BD2YlybMtRF1w9mLnP3rJ \
 ghc-fast-logger-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ \

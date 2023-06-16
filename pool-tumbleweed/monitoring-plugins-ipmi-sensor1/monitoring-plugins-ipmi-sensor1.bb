@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "config-monitoring-plugins-ipmi-sensor1 \
 monitoring-plugins-ipmi-sensor1 \
 nagios-plugins-ipmi-sensor1"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ipmitool"
 
 inherit rpm

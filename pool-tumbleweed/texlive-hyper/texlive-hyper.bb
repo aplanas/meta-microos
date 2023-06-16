@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-hxt-bc.sty \
 tex-hyper.sty \
 texlive-hyper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

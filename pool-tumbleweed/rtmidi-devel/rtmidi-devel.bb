@@ -13,8 +13,8 @@ RPM_HASH = "aa81b8cbfb1b2d75e19f26e85e8284780f5be628b962a8a77d58dac3b6e35ae764f1
 RPROVIDES:${PN} += "pkgconfig-rtmidi \
 rtmidi-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 librtmidi6 \
 pkgconfig-alsa \
 pkgconfig-jack"

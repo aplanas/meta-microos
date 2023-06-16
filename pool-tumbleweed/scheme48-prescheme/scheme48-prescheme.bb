@@ -19,7 +19,7 @@ RPM_HASH = "34d33527a33e4fb9c25cc0b70881b7388af371b579f77c06e5156b42fd517017c579
 
 RPROVIDES:${PN} += "scheme48-prescheme"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 scheme48"
 
 inherit rpm

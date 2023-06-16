@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-tables \
 python311-tables \
 python3dist-tables"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 hdf5 \
 ld-linux-aarch64.so.1 \
 libblosc.so.1 \

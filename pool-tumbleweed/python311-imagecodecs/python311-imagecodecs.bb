@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.11dist-imagecodecs \
 python311-imagecodecs \
 python3dist-imagecodecs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaec.so.0 \
 libavif.so.15 \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "entangle \
 libentangle-backend.so.0 \
 libentangle-frontend.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libXext.so.6 \
 libc.so.6 \

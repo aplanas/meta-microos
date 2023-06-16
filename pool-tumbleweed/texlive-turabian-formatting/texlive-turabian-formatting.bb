@@ -16,7 +16,7 @@ tex-turabian-researchpaper.cls \
 tex-turabian-thesis.cls \
 texlive-turabian-formatting"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

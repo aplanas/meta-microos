@@ -15,7 +15,7 @@ RPM_HASH = "f1e6db34e6fcf0a60f5865c94df6e63a85c918a005dac51d024e39d550b73a439dcf
 RPROVIDES:${PN} += "config-dnsdist \
 dnsdist"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

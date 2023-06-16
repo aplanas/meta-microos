@@ -21,7 +21,7 @@ php-pear-Structures-Graph \
 php-pear-XML-Util \
 php8-pear"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php8-cli \
 php8-openssl \
 php8-phar"

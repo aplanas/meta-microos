@@ -13,7 +13,7 @@ tex-glossaries-serbian-utf8.ldf \
 tex-glossaries-serbian.ldf \
 texlive-glossaries-serbian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ python3.11dist-afdko \
 python311-afdko \
 python3dist-afdko"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

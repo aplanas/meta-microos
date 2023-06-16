@@ -16,7 +16,7 @@ tex-macro-styles.tex \
 tex-pas-cours.sty \
 texlive-pas-cours"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

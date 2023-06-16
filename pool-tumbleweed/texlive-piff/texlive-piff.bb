@@ -18,7 +18,7 @@ tex-onepagem.sty \
 tex-time.sty \
 texlive-piff"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

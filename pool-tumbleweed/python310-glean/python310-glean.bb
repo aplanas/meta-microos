@@ -17,9 +17,9 @@ python3.10dist-glean \
 python310-glean \
 python3dist-glean"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

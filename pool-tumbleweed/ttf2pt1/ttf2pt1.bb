@@ -12,8 +12,8 @@ RPM_HASH = "0feb2b3e10199910297f0d922d0f4d6b841efc6466c785d9f485009ed8fdca806447
 RPROVIDES:${PN} += "config-ttf2pt1 \
 ttf2pt1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfreetype.so.6 \

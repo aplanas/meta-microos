@@ -30,7 +30,7 @@ tex-lua-widow-control.sty \
 tex-lua-widow-control.tex \
 texlive-lua-widow-control"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

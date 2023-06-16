@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "btrfs-progs \
 btrfs-progs-aarch64 \
 btrfsprogs"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 btrfsprogs-udev-rules \
 coreutils \
 ld-linux-aarch64.so.1 \

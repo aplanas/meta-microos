@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-jupyter-console \
 python39-jupyter-console \
 python3dist-jupyter-console"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 jupyter-jupyter-console \
 python-abi \
 python39-Pygments \

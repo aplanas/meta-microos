@@ -15,7 +15,7 @@ RPM_HASH = "99989c49f70aa52c82607b855ab32d54f79e7ac8acbf804304bed30b45fbd9ef17e0
 
 RPROVIDES:${PN} += "lzlib-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 liblz1"
 
 inherit rpm

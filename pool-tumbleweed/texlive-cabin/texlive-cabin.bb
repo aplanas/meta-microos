@@ -383,7 +383,7 @@ tex-cbn-yhiurv.enc \
 tex-cbn-yhzmyq.enc \
 texlive-cabin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-xcomment.sty \
 tex-xcomment.tex \
 texlive-xcomment"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -49,9 +49,9 @@ perl-Kanku--Cli--stopvm \
 perl-Kanku--Cli--up \
 perl-Kanku--Cli--urlwrapper"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 kanku-common \
 libvirt-client \
 libvirt-daemon \

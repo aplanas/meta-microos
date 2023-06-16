@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "python3.9dist-pycapnp \
 python39-pycapnp \
 python3dist-pycapnp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcapnp-0.10.4.so \

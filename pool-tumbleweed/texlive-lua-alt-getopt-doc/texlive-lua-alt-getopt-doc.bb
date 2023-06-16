@@ -10,7 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-alt-getopt-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua"
+RDEPENDS:${PN} += "/usr/bin/lua \
+/usr/bin/sh"
 
 inherit rpm

@@ -14,7 +14,7 @@ tex-hyph-ka.tex \
 tex-loadhyph-ka.tex \
 texlive-hyphen-georgian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,8 +14,8 @@ python3-avocado \
 python3.10dist-avocado-framework \
 python3dist-avocado-framework"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 avocado-common \
 gdb \
 procps \

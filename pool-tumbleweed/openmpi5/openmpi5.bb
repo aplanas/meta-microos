@@ -27,7 +27,7 @@ RPM_HASH = "02c3cb9bceffbb3ab1bf3ed7fa4c3bf67c05c288b0e6bd335301677fe96b9bd111e5
 RPROVIDES:${PN} += "mpi \
 openmpi5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevent-core-2.1.so.7 \

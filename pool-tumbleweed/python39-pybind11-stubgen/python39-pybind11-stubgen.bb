@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-pybind11-stubgen \
 python39-pybind11-stubgen \
 python3dist-pybind11-stubgen"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

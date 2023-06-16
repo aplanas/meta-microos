@@ -30,9 +30,9 @@ perl-Shorewall--Zones \
 shoreline-firewall \
 shorewall"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 /usr/sbin/service \
 bc \

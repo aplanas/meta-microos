@@ -21,8 +21,8 @@ RPM_HASH = "52d0066abf50c291219927c591735dd4f70a51ab1af4aeb5176403e3b7f590d40b7a
 RPROVIDES:${PN} += "config-scsirastools \
 scsirastools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 mdadm"

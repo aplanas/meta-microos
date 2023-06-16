@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-falcon \
 python311-falcon \
 python3dist-falcon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

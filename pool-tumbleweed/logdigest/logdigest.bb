@@ -17,10 +17,10 @@ RPM_HASH = "b682cc41e57cc9ac0c2b640126b683cc5cb3db73a8e2c8c6fd1da8a4df68b70a5c54
 RPROVIDES:${PN} += "config-logdigest \
 logdigest"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/chmod \
-/bin/sh \
-/bin/touch \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/chmod \
+/usr/bin/sh \
+/usr/bin/touch \
 logtail"
 
 inherit rpm

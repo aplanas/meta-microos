@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-simple"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/install-catalog \
+RDEPENDS:${PN} += "/usr/bin/install-catalog \
+/usr/bin/sh \
 /usr/bin/xmlcatalog \
 libxml2-tools \
 sgml-skel"

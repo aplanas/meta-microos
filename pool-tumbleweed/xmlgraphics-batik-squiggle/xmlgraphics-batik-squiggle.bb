@@ -18,7 +18,7 @@ osgi-org.apache.batik.squiggle \
 osgi-org.apache.batik.squiggle-ext \
 xmlgraphics-batik-squiggle"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 xmlgraphics-batik"

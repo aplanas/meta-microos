@@ -32,8 +32,7 @@ bundled-sundown \
 bundled-tree.hh \
 rstudio"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 R-base \
 R-core-libs \

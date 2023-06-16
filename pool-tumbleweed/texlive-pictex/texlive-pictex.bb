@@ -26,7 +26,7 @@ tex-texpictex.tex \
 tex-tree.sty \
 texlive-pictex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

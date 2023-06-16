@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-mucfontsize10pt.clo \
 tex-mucproc.cls \
 texlive-mucproc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

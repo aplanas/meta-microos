@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "texi2html \
 texinfo-/usr/bin/texi2html"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl-Text-Unidecode \
 perl-Unicode--EastAsianWidth \
 perl-gettext \

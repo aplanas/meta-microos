@@ -88,7 +88,7 @@ tex-frm-smvvub.enc \
 tex-frm-ylkcu6.enc \
 texlive-forum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

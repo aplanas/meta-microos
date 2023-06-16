@@ -12,7 +12,7 @@ RPM_HASH = "d804a8f0f8434ba560190977aad7c98c3b83b3276782d57f480b3159fc9b62e4a1fd
 
 RPROVIDES:${PN} += "ktikz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ktexteditor \
 ld-linux-aarch64.so.1 \
 libKF5Completion.so.5 \

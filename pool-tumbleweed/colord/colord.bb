@@ -22,7 +22,7 @@ libcolord-sensor-scanner.so \
 libcolordcompat.so \
 user-colord"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 argyllcms \
 colord-color-profiles \
 ld-linux-aarch64.so.1 \

@@ -16,7 +16,7 @@ tex-pdficwebmac.tex \
 tex-pdfwebmac.tex \
 texlive-cweb-old"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

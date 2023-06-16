@@ -16,8 +16,8 @@ python39-websocket-client \
 python39-websocket-client-test \
 python3dist-websocket-client"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi"
 

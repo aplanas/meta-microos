@@ -14,7 +14,7 @@ pkgconf-pkg-config \
 pkgconfig \
 pkgconfig-pkg-config"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 pkgconf \
 pkgconf-m4"
 

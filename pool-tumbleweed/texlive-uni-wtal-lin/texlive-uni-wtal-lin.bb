@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-uni-wtal-lin.bbx \
 tex-uni-wtal-lin.cbx \
 texlive-uni-wtal-lin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

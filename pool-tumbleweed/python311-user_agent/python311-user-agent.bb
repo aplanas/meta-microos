@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-user-agent \
 python311-user-agent \
 python3dist-user-agent"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-six \
 update-alternatives"

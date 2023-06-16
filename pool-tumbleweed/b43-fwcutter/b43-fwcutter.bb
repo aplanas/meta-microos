@@ -82,7 +82,7 @@ firmware-b43legacy/ucode2.fw \
 firmware-b43legacy/ucode4.fw \
 firmware-b43legacy/ucode5.fw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 curl \
 ld-linux-aarch64.so.1 \
 libc.so.6"

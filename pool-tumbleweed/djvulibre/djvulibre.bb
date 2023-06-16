@@ -15,8 +15,8 @@ RPM_HASH = "7db461190ce780ed8decde29767945a70fdf9c5b5498ba9104e7372a0225c5cb50cf
 
 RPROVIDES:${PN} += "djvulibre"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdjvulibre.so.21 \

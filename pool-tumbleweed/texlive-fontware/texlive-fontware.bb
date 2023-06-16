@@ -20,7 +20,7 @@ man-vftovp.1 \
 man-vptovf.1 \
 texlive-fontware"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-antlr4-python3-runtime \
 python311-antlr4-python3-runtime \
 python3dist-antlr4-python3-runtime"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -11,7 +11,7 @@ RPM_HASH = "36bfcb271436e047bb5fef90382c4b5f2ef24462405326cb7090017aad5f901cc2bf
 RPROVIDES:${PN} += "kanidm-unixd-clients \
 libnss-kanidm.so.2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kanidm-clients \
 libc.so.6 \
 libcrypto.so.3 \

@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "tex-latex2man.cfg \
 tex-latex2man.sty \
 texlive-latex2man"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

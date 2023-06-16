@@ -15,7 +15,7 @@ group-warewulf \
 user-warewulf \
 warewulf4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dhcp-server \
 ipxe-bootimgs \
 libc.so.6 \

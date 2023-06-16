@@ -21,7 +21,7 @@ tex-grreg9.tfm \
 tex-slgreek.sty \
 texlive-levy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

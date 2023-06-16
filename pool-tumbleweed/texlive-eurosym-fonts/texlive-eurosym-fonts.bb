@@ -112,7 +112,7 @@ font-texfeymo10 \
 font-texfeymr10 \
 texlive-eurosym-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

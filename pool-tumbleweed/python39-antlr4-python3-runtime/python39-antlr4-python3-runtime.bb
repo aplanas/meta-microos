@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-antlr4-python3-runtime \
 python39-antlr4-python3-runtime \
 python3dist-antlr4-python3-runtime"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

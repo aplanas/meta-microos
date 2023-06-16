@@ -30,7 +30,7 @@ tex-tun.tex \
 tex-verbatim-dek.tex \
 texlive-gustlib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

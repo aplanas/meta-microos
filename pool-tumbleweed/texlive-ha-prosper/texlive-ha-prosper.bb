@@ -28,7 +28,7 @@ tex-HAPciment.sty \
 tex-HAPsimple.sty \
 texlive-ha-prosper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

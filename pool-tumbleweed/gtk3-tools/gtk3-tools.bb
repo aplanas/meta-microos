@@ -11,7 +11,7 @@ RPM_HASH = "0fc6f9ab7f69be8e57d12cebf66453babb724bc8e78229f93582cd0306e9632442ad
 
 RPROVIDES:${PN} += "gtk3-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

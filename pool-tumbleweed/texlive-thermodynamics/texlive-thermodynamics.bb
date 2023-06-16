@@ -33,7 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-thermodynamics.sty \
 texlive-thermodynamics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

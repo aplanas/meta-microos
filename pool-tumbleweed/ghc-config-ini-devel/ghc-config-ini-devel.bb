@@ -10,7 +10,7 @@ RPM_HASH = "a3e075cb6de964ec35c19a14d4b608d49cddc98054b3c8f2d179ca8f87cd8ef3ea40
 RPROVIDES:${PN} += "ghc-config-ini-devel \
 ghc-devel-config-ini-0.2.5.0-RR92dYVdpi9XWpA99EDX9"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-config-ini \
 ghc-devel-base-4.17.1.0 \

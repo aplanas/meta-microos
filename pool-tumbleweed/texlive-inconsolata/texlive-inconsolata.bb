@@ -188,7 +188,7 @@ tex-zi4.map \
 tex-zi4.sty \
 texlive-inconsolata"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

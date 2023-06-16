@@ -24,8 +24,8 @@ libpixbufloader-tiff.so \
 libpixbufloader-xbm.so \
 libpixbufloader-xpm.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 gdk-pixbuf-query-loaders \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

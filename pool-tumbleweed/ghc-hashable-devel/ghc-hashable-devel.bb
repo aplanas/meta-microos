@@ -10,7 +10,7 @@ RPM_HASH = "73e86d3b09d22064dcbe4122e04ce3fb353ed73669a86f63cab810a6aab4271e4a06
 RPROVIDES:${PN} += "ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-hashable-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

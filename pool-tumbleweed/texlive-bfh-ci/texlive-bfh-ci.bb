@@ -44,7 +44,7 @@ tex-bfhsciposter.cls \
 tex-bfhthesis.cls \
 texlive-bfh-ci"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

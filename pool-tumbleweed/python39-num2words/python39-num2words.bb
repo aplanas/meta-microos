@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-num2words \
 python39-num2words \
 python3dist-num2words"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-docopt \
 update-alternatives"

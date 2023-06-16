@@ -10,7 +10,7 @@ RPM_HASH = "61c0fe842aece53b00abacf606645cabac3de014ed3c822b23585187f154d12b0529
 RPROVIDES:${PN} += "ghc-devel-haskell-lexer-1.1.1-FBBQnuYVuwZ6NRUVHfUjFR \
 ghc-haskell-lexer-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-haskell-lexer"

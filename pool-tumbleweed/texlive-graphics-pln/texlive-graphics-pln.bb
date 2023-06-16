@@ -21,7 +21,7 @@ tex-picture.tex \
 tex-psfrag.tex \
 texlive-graphics-pln"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

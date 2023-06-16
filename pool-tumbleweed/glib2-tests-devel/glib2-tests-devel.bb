@@ -19,9 +19,9 @@ libresourceplugin.so \
 libtestmodulea.so \
 libtestmoduleb.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 glib2-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

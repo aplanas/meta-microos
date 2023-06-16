@@ -29,7 +29,7 @@ tex-dante.map \
 tex-dantelogo.sty \
 texlive-dantelogo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

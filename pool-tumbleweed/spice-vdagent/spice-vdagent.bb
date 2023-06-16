@@ -18,7 +18,7 @@ RPM_HASH = "f2275a8939e3dce549e393cdf5b18118208b92a4ecb254d7cd6d5212b075fb0d6972
 
 RPROVIDES:${PN} += "spice-vdagent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXinerama.so.1 \

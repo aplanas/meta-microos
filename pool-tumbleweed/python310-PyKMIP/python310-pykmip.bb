@@ -18,8 +18,8 @@ python3.10dist-pykmip \
 python310-PyKMIP \
 python3dist-pykmip"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-SQLAlchemy \
 python310-cryptography \

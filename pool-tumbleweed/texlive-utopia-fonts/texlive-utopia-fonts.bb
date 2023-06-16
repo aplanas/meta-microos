@@ -88,7 +88,7 @@ font--lang=zu \
 font-utopia \
 texlive-utopia-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

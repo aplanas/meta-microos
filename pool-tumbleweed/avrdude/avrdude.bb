@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "avr-programmer \
 avrdude \
 config-avrdude"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/modprobe \
+RDEPENDS:${PN} += "/sbin/modprobe \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libelf.so.1 \

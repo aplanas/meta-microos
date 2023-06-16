@@ -15,8 +15,8 @@ python3.10dist-parallax \
 python310-parallax \
 python3dist-parallax"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 openssh \
 python-abi \
 update-alternatives"

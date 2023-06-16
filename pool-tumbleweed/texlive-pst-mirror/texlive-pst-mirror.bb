@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-mirror.sty \
 tex-pst-mirror.tex \
 texlive-pst-mirror"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-uebungsblatt.cls \
 tex-uebungsblatt.sty \
 texlive-uebungsblatt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

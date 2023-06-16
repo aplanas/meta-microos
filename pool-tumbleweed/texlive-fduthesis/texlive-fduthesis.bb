@@ -17,7 +17,7 @@ tex-fduthesis.cls \
 tex-fduthesis.def \
 texlive-fduthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

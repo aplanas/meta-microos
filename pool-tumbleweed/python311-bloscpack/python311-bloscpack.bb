@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-bloscpack \
 python311-bloscpack \
 python3dist-bloscpack"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-blosc \
 python311-numpy \

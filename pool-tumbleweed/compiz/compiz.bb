@@ -13,8 +13,8 @@ RPM_HASH = "faeae3a9feac2c8f415ea09f31a19f83b1675280105f5f1476094447b9e4535aa16a
 RPROVIDES:${PN} += "compiz \
 windowmanager"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 compiz-branding \
 compiz-decorator \
 compiz-plugins \

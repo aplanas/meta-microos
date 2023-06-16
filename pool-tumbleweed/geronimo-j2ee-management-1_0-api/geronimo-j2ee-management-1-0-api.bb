@@ -16,7 +16,7 @@ j2ee-management-api \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-management-1.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-management-1.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ejb-2-1-api \
 java-headless \
 javapackages-filesystem \

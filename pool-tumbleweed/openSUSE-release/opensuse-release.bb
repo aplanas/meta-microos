@@ -24,7 +24,7 @@ suse-release \
 suse-release-oss \
 system-installation-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 product-flavor-openSUSE"
 
 inherit rpm

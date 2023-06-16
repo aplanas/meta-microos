@@ -149,7 +149,7 @@ font-0swaldmedium \
 font-0swaldsemibold \
 texlive-oswald-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

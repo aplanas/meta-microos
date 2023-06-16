@@ -53,7 +53,7 @@ tex-quotmark-welsh.def \
 tex-quotmark.sty \
 texlive-quotmark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

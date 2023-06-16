@@ -29,7 +29,7 @@ tex-gmurl.sty \
 tex-gmutils.sty \
 texlive-gmutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

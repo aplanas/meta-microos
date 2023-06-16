@@ -12,7 +12,7 @@ RPM_HASH = "b96f8af5b47ef9ad74911f3b3545e0cadb6bfef4a56280577eb0b61518b359bc49a7
 
 RPROVIDES:${PN} += "cross-arm-gcc12"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-arm-binutils \
 libstdc++6-devel-gcc12 \
 update-alternatives"

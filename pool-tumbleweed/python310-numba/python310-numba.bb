@@ -28,8 +28,8 @@ python3dist-numba"
 
 RDEPENDS:${PN} += "-python310-llvmlite >= 0.40 with python310-llvmlite < 0.41 \
 -python310-numpy >= 1.21 with python310-numpy < 1.25 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

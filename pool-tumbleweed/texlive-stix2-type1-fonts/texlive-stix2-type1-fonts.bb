@@ -153,7 +153,7 @@ font-stixtwomath \
 font-stixtwotext \
 texlive-stix2-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -12,9 +12,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-mathml-dtd \
 mathml-dtd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/edit-xml-catalog \
+RDEPENDS:${PN} += "/usr/bin/edit-xml-catalog \
 /usr/bin/sgml-register-catalog \
+/usr/bin/sh \
 /usr/bin/xmlcatalog \
 awk \
 grep \

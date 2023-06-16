@@ -109,7 +109,7 @@ tex-yarborn.tfm \
 tex-yiddish.sty \
 texlive-arabtex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

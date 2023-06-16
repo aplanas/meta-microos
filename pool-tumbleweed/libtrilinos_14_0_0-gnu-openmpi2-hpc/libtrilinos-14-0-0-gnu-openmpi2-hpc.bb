@@ -15,7 +15,7 @@ RPM_HASH = "a0a91dac779f60acf645c6a7a6e6d902a3a220744ce927967197f0c2179ec58f71b6
 
 RPROVIDES:${PN} += "libtrilinos-14-0-0-gnu-openmpi2-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

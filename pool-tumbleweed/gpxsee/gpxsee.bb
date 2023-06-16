@@ -11,7 +11,7 @@ RPM_HASH = "f466be29ec2ee1abcf821feb21e12cfa65d43bc2e0ddf53477f5ae0c96567155fc69
 
 RPROVIDES:${PN} += "gpxsee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Concurrent.so.5 \
 libQt5Core.so.5 \

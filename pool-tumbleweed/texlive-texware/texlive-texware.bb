@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "man-dvitype.1 \
 man-pooltype.1 \
 texlive-texware"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

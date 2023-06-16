@@ -21,7 +21,7 @@ libsbl-pwrbrl.so.2 \
 libsbl-tieman.so.2 \
 sbl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

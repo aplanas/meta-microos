@@ -10,7 +10,7 @@ RPM_HASH = "dc5dd560069c24625f6c97812acf78ed65927f47e6120546d9b16a348943fc60f5c5
 RPROVIDES:${PN} += "ghc-devel-tasty-rerun-1.1.18-901DN5WLpsB5zohVN159Pf \
 ghc-tasty-rerun-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

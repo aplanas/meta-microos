@@ -35,7 +35,7 @@ tex-xcoffins.sty \
 tex-xgalley.sty \
 texlive-l3experimental"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPM_HASH = "e4fdb133add0c378f41112a84a40f29d1682dc88fadbb3def77bb99aa1da6107a7bd
 RPROVIDES:${PN} += "nkitserv-/usr/sbin/in.talkd \
 talk-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnss-usrfiles2 \

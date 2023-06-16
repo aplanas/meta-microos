@@ -9,7 +9,7 @@ RPM_HASH = "2e4cd041c6cd97b60b63b5bf22c293ec9ae4449fde044505fecb1ff2c4edeca4b0aa
 
 RPROVIDES:${PN} += "compton"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

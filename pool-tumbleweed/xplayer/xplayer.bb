@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "libxplayer.so.0 \
 typelib-Xplayer \
 xplayer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 gstreamer-plugin-cluttergst3 \
 gstreamer-plugins-bad \
 gstreamer-plugins-base \

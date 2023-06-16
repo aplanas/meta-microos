@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-cssutils \
 python311-cssutils \
 python3dist-cssutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

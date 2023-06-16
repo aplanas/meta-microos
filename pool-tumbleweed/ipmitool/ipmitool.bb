@@ -23,7 +23,7 @@ RPM_HASH = "b7928c9362a0034aebfbea38d53d57f4e370f693bbbf955de6eaf7995e168168dac7
 RPROVIDES:${PN} += "config-ipmitool \
 ipmitool"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

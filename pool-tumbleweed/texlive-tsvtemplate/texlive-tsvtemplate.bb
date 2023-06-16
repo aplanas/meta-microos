@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-tsvtemplate.sty \
 tex-tsvtemplate.tex \
 texlive-tsvtemplate"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

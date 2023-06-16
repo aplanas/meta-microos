@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "libode-devel \
 ode-devel \
 pkgconfig-ode"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libode8"
 
 inherit rpm

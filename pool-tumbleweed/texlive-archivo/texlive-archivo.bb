@@ -421,7 +421,7 @@ tex-a-vgwtwr.enc \
 tex-a-vqpkf5.enc \
 texlive-archivo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

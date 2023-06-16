@@ -102,7 +102,7 @@ tex-ts1-stix2text.tfm \
 tex-ts1stix2.fd \
 texlive-stix2-type1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

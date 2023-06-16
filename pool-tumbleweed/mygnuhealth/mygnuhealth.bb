@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "mygnuhealth \
 python3.10dist-mygnuhealth \
 python3dist-mygnuhealth"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 kirigami2 \
 python-abi \
 python3-bcrypt \

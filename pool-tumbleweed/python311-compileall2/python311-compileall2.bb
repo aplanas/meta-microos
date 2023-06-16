@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-compileall2 \
 python311-compileall2 \
 python3dist-compileall2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

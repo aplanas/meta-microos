@@ -10,7 +10,7 @@ RPM_HASH = "87fc83408ce0aec3671f99aec8649653db3792058cfd2d81fb7685688c024d2a4276
 RPROVIDES:${PN} += "libpixbufloader-webp.so \
 webp-pixbuf-loader"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gdk-pixbuf-query-loaders \
 gdk-pixbuf-thumbnailer \
 ld-linux-aarch64.so.1 \

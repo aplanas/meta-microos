@@ -12,10 +12,10 @@ RPM_HASH = "3c1ba2a359a9d0089312c4ba1b1d5f3d1cc878ca8bfde8f96a8769f1044f37c5ae7b
 
 RPROVIDES:${PN} += "cluster-glue"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 group-nobody \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

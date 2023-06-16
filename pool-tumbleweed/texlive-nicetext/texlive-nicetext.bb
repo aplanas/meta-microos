@@ -36,7 +36,7 @@ tex-substr.tex \
 tex-wiki.sty \
 texlive-nicetext"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

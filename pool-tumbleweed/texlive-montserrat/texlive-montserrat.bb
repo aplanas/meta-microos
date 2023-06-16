@@ -3887,7 +3887,7 @@ tex-zmo-znhcko.enc \
 tex-zmo-zrxj4s.enc \
 texlive-montserrat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

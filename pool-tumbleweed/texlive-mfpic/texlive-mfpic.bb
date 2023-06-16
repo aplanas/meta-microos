@@ -21,7 +21,7 @@ tex-mfpic.tex \
 tex-mfpicdef.tex \
 texlive-mfpic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

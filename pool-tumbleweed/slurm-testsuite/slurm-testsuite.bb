@@ -18,8 +18,8 @@ RPM_HASH = "471188ca9509e4af843f8ee1eb9ce602b70cf3b3055cde6e5089d2e722c372ec6699
 RPROVIDES:${PN} += "config-slurm-testsuite \
 slurm-testsuite"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 bind-utils \
 bzip2 \
 expect \

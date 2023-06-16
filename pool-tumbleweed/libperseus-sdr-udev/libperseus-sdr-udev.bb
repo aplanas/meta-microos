@@ -9,7 +9,7 @@ RPM_HASH = "6c047c361be02510cbc0adcf102039dfe772e6b8a98abce68facfdc830a5ad71b9e2
 
 RPROVIDES:${PN} += "libperseus-sdr-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 pwdutils"
 
 inherit rpm

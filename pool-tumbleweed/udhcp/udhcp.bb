@@ -10,7 +10,7 @@ RPM_HASH = "277d88acf6d92077580c3830d94bbb8643f720496fa2931e0de00fc92a2c7d558188
 
 RPROVIDES:${PN} += "udhcp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

@@ -52,8 +52,8 @@ libgxs-timer-agent.so \
 libgxs-user-filter.so \
 php-mapi-gromox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 glibc-locale-base \
 group-gromox \
 ld-linux-aarch64.so.1 \

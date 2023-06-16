@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "flashfocus \
 python3.10dist-flashfocus \
 python3dist-flashfocus"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 python-abi \
 python3-PyYAML \

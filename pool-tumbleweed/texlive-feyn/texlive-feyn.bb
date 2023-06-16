@@ -31,7 +31,7 @@ tex-feynx18.tfm \
 tex-feynx24.tfm \
 texlive-feyn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

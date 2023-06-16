@@ -12,7 +12,7 @@ RPM_HASH = "daa3c07ec2eace60072a4a1b0bcf5c087bb6cfa78e93314b3c7f0aae6ee411bbc366
 RPROVIDES:${PN} += "config-ndctl \
 ndctl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcxl.so.1 \

@@ -20,7 +20,7 @@ tex-bxwareki.sty \
 tex-bxwareki2019.def \
 texlive-bxwareki"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-coveralls-check \
 python39-coveralls-check \
 python3dist-coveralls-check"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-backoff \
 python39-requests \

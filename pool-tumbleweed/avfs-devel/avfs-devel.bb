@@ -13,8 +13,8 @@ RPM_HASH = "82ac7309270dd16effafc1ecdc0cfb4bc605152a9f2772ee32406b0cb40f5c42381f
 RPROVIDES:${PN} += "avfs-devel \
 pkgconfig-avfs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libavfs0"
 
 inherit rpm

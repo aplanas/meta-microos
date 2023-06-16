@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-conditionals.sty \
 tex-songbook.sty \
 texlive-songbook"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

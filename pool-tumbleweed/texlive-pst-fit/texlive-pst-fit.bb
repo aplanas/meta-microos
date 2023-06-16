@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-fit.sty \
 tex-pst-fit.tex \
 texlive-pst-fit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

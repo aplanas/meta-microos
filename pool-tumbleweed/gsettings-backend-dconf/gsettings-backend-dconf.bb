@@ -15,7 +15,7 @@ RPM_HASH = "dd6b650f738b5b35b6a90806ede1e315684dada62b126b58d4b4b47cb5a84548ad2f
 RPROVIDES:${PN} += "gsettings-backend-dconf \
 libdconfsettings.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dconf \
 glib2-tools \
 ld-linux-aarch64.so.1 \

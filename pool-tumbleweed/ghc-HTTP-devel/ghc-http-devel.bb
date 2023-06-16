@@ -10,7 +10,7 @@ RPM_HASH = "96b270095fbebe6140cdf737770b10cb21ab886274fcc3a5fe1e67e5ad909f13de76
 RPROVIDES:${PN} += "ghc-HTTP-devel \
 ghc-devel-HTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-HTTP \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \

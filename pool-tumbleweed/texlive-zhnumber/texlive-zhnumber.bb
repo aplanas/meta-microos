@@ -17,7 +17,7 @@ tex-zhnumber-utf8.cfg \
 tex-zhnumber.sty \
 texlive-zhnumber"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

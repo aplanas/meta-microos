@@ -14,7 +14,7 @@ tex-hyph-is.tex \
 tex-loadhyph-is.tex \
 texlive-hyphen-icelandic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

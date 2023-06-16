@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "config-stix-pua-fonts \
 font-stixnonunicode \
 stix-pua-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libhugetlbfs \
 libhugetlbfs-privutils.so \
 libhugetlbfs.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

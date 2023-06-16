@@ -25,7 +25,7 @@ tex-portuguese-mla.lbx \
 tex-spanish-mla.lbx \
 texlive-biblatex-mla"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

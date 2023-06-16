@@ -19,13 +19,13 @@ perl-NTP--Util \
 xntp \
 xntp3"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/logger \
-/bin/sh \
-/usr/bin/base64 \
+RDEPENDS:${PN} += "/usr/bin/base64 \
+/usr/bin/bash \
 /usr/bin/gawk \
+/usr/bin/logger \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

@@ -36,7 +36,7 @@ tex-knitwp.tfm \
 tex-uknit.fd \
 texlive-knitting"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

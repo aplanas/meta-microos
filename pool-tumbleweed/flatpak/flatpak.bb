@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-flatpak \
 flatpak \
 xdg-app"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 bubblewrap \
 ld-linux-aarch64.so.1 \
 libXau.so.6 \

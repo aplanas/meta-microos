@@ -13,8 +13,8 @@ mswordvd-/usr/lib/libwmf.a \
 pkgconfig-libwmf \
 wv-devel-/usr/lib/libwmf.a"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libwmf-0-2-7 \
 libwmf-gnome \
 pkgconfig-freetype2 \

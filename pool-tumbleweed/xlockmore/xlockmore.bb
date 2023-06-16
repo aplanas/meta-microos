@@ -10,8 +10,8 @@ RPM_HASH = "de23abf640274e5e97c25e24012c7309813e4b47d52bbb9d92d859d7edec64294719
 
 RPROVIDES:${PN} += "xlockmore"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

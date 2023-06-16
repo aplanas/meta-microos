@@ -11,9 +11,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "yast2-online-update-configuration \
 yast2-registration-/usr/share/YaST2/clients/online-update-configuration.ycp"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 yast2 \

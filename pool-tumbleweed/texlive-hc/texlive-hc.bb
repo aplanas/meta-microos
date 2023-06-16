@@ -16,7 +16,7 @@ tex-hcreport.cls \
 tex-hcslides.cls \
 texlive-hc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

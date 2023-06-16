@@ -113,7 +113,7 @@ font-은바탕 \
 font-은필기 \
 texlive-unfonts-core-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

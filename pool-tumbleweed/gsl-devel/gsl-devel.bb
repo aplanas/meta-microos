@@ -17,8 +17,8 @@ RPM_HASH = "6f05b906efb57c475730359b6ece71e211b2db5a438fd2aea04b046ad9d9d84ef8c7
 RPROVIDES:${PN} += "gsl-devel \
 pkgconfig-gsl"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libgsl27 \
 libgslcblas0"
 

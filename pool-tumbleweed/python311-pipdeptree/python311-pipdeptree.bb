@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pipdeptree \
 python311-pipdeptree \
 python3dist-pipdeptree"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-pip \
 update-alternatives"

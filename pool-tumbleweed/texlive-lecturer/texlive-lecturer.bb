@@ -38,7 +38,7 @@ tex-ltr-steps.tex \
 tex-t-lecturer.tex \
 texlive-lecturer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

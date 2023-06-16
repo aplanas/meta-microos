@@ -10,7 +10,7 @@ RPM_HASH = "f93292603d3da5654f72695a0fb3abafef3a948b9383badd5f5977feac5c578f5b23
 
 RPROVIDES:${PN} += "hwinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhd.so.22"

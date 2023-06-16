@@ -11,7 +11,7 @@ RPM_HASH = "9caa57c49441f2862ec7f2473b3c2c98c478b2e032de277aa5f1f3af25b7dfecf182
 RPROVIDES:${PN} += "config-pcp-pmda-mounts \
 pcp-pmda-mounts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

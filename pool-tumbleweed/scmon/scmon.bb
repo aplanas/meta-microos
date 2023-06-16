@@ -12,7 +12,7 @@ RPM_HASH = "2016de0feed4c4f1c3207b4319d53ce2cd362095534a6d6a3bfcb392df4f5f746daf
 RPROVIDES:${PN} += "config-scmon \
 scmon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

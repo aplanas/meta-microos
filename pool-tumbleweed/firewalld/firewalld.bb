@@ -13,9 +13,9 @@ RPROVIDES:${PN} += "config-firewalld \
 firewalld \
 firewalld-prometheus-config"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 nftables \

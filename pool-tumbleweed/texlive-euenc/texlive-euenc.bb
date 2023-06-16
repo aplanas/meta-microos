@@ -33,7 +33,7 @@ tex-eu2lmtt.fd \
 tex-eu2lmvtt.fd \
 texlive-euenc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -9,9 +9,9 @@ RPM_HASH = "021d0d4e53c2e1936ffb00e4645d38e4c44292c53dd14fe542ed5270b79c6b88251f
 
 RPROVIDES:${PN} += "aerc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/python3 \
+/usr/bin/sh \
 libc.so.6 \
 libnotmuch.so.5"
 

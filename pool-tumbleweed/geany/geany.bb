@@ -12,7 +12,7 @@ RPM_HASH = "76bf28cfee1e19bbbaf72ef2978e47ea90915db1bc0ee4a27b55957de9f0b2896ea3
 
 RPROVIDES:${PN} += "geany"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

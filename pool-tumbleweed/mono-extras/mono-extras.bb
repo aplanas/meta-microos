@@ -29,7 +29,7 @@ mono-installutil \
 mono-mono-service \
 mono-ms-extras"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-Mono.Posix \
 mono-System \
 mono-System.Configuration \

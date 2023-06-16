@@ -13,7 +13,7 @@ tex-hyph-gl.tex \
 tex-loadhyph-gl.tex \
 texlive-hyphen-galician"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

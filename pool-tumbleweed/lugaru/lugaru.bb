@@ -14,7 +14,7 @@ RPM_HASH = "267bfb5cd5750ce50fc3de565f5521174d83907ceb0bb313d629f3dd1223802452cb
 
 RPROVIDES:${PN} += "lugaru"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \

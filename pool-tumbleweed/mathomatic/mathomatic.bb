@@ -15,8 +15,8 @@ RPM_HASH = "66e37cdf5ca02d9b780c5b97d10813ddf32d5ae05125d45b0433a12b8c41d50b60db
 
 RPROVIDES:${PN} += "mathomatic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python \
+RDEPENDS:${PN} += "/usr/bin/python \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

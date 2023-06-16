@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-usbsdmux \
 python311-usbsdmux \
 python3dist-usbsdmux"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives \
 usbsdmux-udev"

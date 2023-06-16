@@ -14,7 +14,7 @@ RPM_HASH = "fc87401e695a39480f65397d41792f2b0f27e103e00bc95594cae568662c699daf98
 RPROVIDES:${PN} += "config-osmo-stp \
 osmo-stp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmo-sigtran.so.7 \

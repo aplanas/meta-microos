@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.11dist-lesscpy \
 python311-lesscpy \
 python3dist-lesscpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-ply \
 python311-setuptools \

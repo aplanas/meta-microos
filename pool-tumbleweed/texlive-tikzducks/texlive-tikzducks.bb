@@ -15,7 +15,7 @@ tex-tikzducks.sty \
 tex-tikzlibraryducks.code.tex \
 texlive-tikzducks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

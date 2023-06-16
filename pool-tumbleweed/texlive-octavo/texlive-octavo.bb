@@ -24,7 +24,7 @@ tex-oct12.clo \
 tex-octavo.cls \
 texlive-octavo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

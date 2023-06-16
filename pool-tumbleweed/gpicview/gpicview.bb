@@ -10,7 +10,7 @@ RPM_HASH = "7688ba2e9755190ff8a8244847ac03160bc8c14c441aedb9746974bcd0d92353caa0
 
 RPROVIDES:${PN} += "gpicview"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

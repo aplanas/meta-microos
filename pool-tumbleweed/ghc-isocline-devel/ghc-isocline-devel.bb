@@ -10,7 +10,7 @@ RPM_HASH = "dd3a0139ac39d105d650aee2d33b11e22e8bc4b40b7369d07d3e03f514192a345528
 RPROVIDES:${PN} += "ghc-devel-isocline-1.0.9-7x8dFWbXh69GJxYhigSqXG \
 ghc-isocline-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

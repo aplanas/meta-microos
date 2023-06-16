@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-nbclassic \
 python311-nbclassic \
 python3dist-nbclassic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 jupyter-nbclassic \
 python-abi \

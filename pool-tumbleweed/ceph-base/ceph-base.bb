@@ -51,8 +51,8 @@ libosd-tp.so.1 \
 python3.10dist-ceph-volume \
 python3dist-ceph-volume"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 ceph-common \
 cryptsetup \
 e2fsprogs \

@@ -14,10 +14,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "byobu \
 config-byobu"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 coreutils \
 gawk \
 gettext-runtime \

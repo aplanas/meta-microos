@@ -26,8 +26,8 @@ lib-queens.so \
 lib-rawsock.so \
 lib-zlib.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/gzip \
+RDEPENDS:${PN} += "/usr/bin/gzip \
+/usr/bin/sh \
 ffcall \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

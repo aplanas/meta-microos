@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "rpm-/usr/bin/rpmbuild \
 rpm-build \
 rpmbuild"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/gzip \
+/usr/bin/sh \
 binutils \
 bzip2 \
 coreutils \

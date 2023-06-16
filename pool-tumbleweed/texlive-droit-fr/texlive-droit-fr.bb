@@ -17,7 +17,7 @@ tex-droit-fr.cbx \
 tex-droit-fr.cls \
 texlive-droit-fr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

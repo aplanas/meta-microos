@@ -12,7 +12,7 @@ RPM_HASH = "194391ebc062d2c63be6228b1ae6775b912dbf1e430814bae74c64b6f8d5bf249080
 
 RPROVIDES:${PN} += "alsabat"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 alsa-utils \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \

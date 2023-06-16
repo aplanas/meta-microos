@@ -9,7 +9,7 @@ RPM_HASH = "db5577dcaf16a0adb72ba2c3b13b6fb92a4d0b64cbf223cd226663a685da42a313da
 
 RPROVIDES:${PN} += "deepin-launcher"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 dbus-1 \
 deepin-daemon \
 deepin-desktop-schemas \

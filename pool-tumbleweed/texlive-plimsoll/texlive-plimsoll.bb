@@ -21,7 +21,7 @@ tex-plimsoll.sty \
 tex-plimsoll.tfm \
 texlive-plimsoll"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

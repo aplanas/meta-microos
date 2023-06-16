@@ -12,8 +12,8 @@ RPM_HASH = "2e6f258dd0448c0b41182ba534e3657073de3ce0d65d521ed617c6f557ad88e50bcc
 RPROVIDES:${PN} += "config-vhostmd \
 vhostmd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

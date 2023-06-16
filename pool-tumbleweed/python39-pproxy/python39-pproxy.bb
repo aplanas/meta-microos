@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pproxy \
 python39-pproxy \
 python3dist-pproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

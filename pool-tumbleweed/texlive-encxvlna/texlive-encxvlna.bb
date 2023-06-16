@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-encxvlna.sty \
 tex-encxvlna.tex \
 texlive-encxvlna"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

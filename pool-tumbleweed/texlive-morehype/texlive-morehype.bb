@@ -24,7 +24,7 @@ tex-markblog.sty \
 tex-texlinks.sty \
 texlive-morehype"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

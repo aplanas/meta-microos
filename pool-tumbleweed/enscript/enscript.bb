@@ -19,12 +19,12 @@ enscript \
 genscript \
 nenscrip"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sed \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/file \
 /usr/bin/iconv \
 /usr/bin/perl \
+/usr/bin/sed \
+/usr/bin/sh \
 ghostscript-fonts-std \
 glibc-locale \
 ld-linux-aarch64.so.1 \

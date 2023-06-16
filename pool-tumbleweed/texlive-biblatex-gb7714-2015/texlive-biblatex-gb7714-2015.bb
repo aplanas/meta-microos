@@ -39,7 +39,7 @@ tex-gb7714-SEU.bbx \
 tex-gb7714-SEU.cbx \
 texlive-biblatex-gb7714-2015"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,9 +13,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 texlive-latex \
 vim"
 

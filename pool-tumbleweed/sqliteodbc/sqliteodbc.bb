@@ -19,8 +19,8 @@ libsqlite3-mod-zipfile-0.9998.so \
 libsqlite3odbc-0.9998.so \
 sqliteodbc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsqlite3.so.0 \

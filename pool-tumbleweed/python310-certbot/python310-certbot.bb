@@ -15,8 +15,8 @@ python3.10dist-certbot \
 python310-certbot \
 python3dist-certbot"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-acme \
 python310-configargparse \

@@ -17,7 +17,7 @@ tex-portuges.ldf \
 tex-portuguese.ldf \
 texlive-babel-portuges"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-hvfloat-fps.sty \
 tex-hvfloat.sty \
 texlive-hvfloat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

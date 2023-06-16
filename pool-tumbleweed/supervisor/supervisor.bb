@@ -14,8 +14,8 @@ python3.10dist-supervisor \
 python3dist-supervisor \
 supervisor"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-setuptools \
 systemd"

@@ -10,7 +10,7 @@ RPM_HASH = "31e70df36285d6e8c8b8af41cbf11dcfaa4f4216a02fba2b535213acc60d7bccdb1c
 
 RPROVIDES:${PN} += "graphviz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 graphviz-plugins-core \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -10,7 +10,7 @@ RPM_HASH = "27db7e0debc2399e92542764d84e333d5768ff1e43e6edd289720147222a40490f9f
 RPROVIDES:${PN} += "monitoring-plugins-oracle \
 nagios-plugins-oracle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 monitoring-plugins-common"
 
 inherit rpm

@@ -33,7 +33,7 @@ mono-Bless.Tools.Find \
 mono-Bless.Util \
 mono-bless"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-Mono.Posix \
 mono-System \
 mono-System.Xml \

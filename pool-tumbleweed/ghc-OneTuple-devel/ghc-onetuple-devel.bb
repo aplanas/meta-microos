@@ -10,7 +10,7 @@ RPM_HASH = "2ebeae67298fb12a6cdb017bd235750b12b9223c86ab01e5d135fda161c4f2213c6f
 RPROVIDES:${PN} += "ghc-OneTuple-devel \
 ghc-devel-OneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-OneTuple \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

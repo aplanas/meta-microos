@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-rethinkdb \
 python311-rethinkdb \
 python3dist-rethinkdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-six \
 update-alternatives"

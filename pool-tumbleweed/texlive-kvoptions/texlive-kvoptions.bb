@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-kvoptions-patch.sty \
 tex-kvoptions.sty \
 texlive-kvoptions"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

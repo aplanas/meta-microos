@@ -12,7 +12,7 @@ RPM_HASH = "a25e518d6244ce5a4acc44f35792403d7ae6ddd4f0048d101a35e783e236640b7499
 
 RPROVIDES:${PN} += "cross-m68k-gcc12"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-m68k-binutils \
 libstdc++6-devel-gcc12 \
 update-alternatives"

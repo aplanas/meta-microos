@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-glad2 \
 python311-glad2 \
 python3dist-glad2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 /usr/sbin/update-alternatives \
 python-abi \
 python311-Jinja2 \

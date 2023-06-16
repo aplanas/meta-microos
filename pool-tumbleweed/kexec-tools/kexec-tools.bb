@@ -12,8 +12,8 @@ RPM_HASH = "6c25b94053f9a120f115d976c25b0dd7f3f26d1e1632c3dcc06895d97fefbd18a0cf
 
 RPROVIDES:${PN} += "kexec-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \

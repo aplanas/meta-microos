@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-grffile-2017-06-30.sty \
 tex-grffile.sty \
 texlive-grffile"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

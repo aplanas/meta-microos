@@ -10,7 +10,7 @@ RPM_HASH = "c4418a9f6b926f02eb094bfad63070b7b38e14f34d4ea266c916f1d16e7312af0625
 
 RPROVIDES:${PN} += "twinkle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

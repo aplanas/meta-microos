@@ -17,7 +17,7 @@ tex-dictsym.sty \
 tex-dictsym.tfm \
 texlive-dictsym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

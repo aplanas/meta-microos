@@ -19,7 +19,7 @@ tex-catchdq.sty \
 tex-stacklet.sty \
 texlive-catcodes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

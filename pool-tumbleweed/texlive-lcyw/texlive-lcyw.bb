@@ -17,7 +17,7 @@ tex-lcywcmtt.fd \
 tex-lcywenc.def \
 texlive-lcyw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

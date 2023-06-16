@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-interpreter.sty \
 tex-interpreter.tex \
 texlive-interpreter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

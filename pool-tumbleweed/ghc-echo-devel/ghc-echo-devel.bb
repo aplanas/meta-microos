@@ -10,7 +10,7 @@ RPM_HASH = "08e45003e2219bdff4578054401c0a614c0bbb70b22fa616e4cf7ce60c62e670024d
 RPROVIDES:${PN} += "ghc-devel-echo-0.1.4-GGh6ZLKme4z6jywDiYhFOL \
 ghc-echo-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-process-1.6.16.0 \

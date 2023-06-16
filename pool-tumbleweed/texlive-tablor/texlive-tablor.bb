@@ -19,7 +19,7 @@ tex-tablor.cfg \
 tex-tablor.sty \
 texlive-tablor"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

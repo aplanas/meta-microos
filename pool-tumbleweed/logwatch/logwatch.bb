@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "config-logwatch \
 logwatch \
 perl-Logwatch"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 grep \
 mailx \
 perl \

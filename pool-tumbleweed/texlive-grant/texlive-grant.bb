@@ -25,7 +25,7 @@ tex-grant-onr.cls \
 tex-grant.cls \
 texlive-grant"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

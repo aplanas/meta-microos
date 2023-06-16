@@ -24,10 +24,10 @@ conman \
 group-conman \
 user-conman"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/expect \
+RDEPENDS:${PN} += "/usr/bin/expect \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 expect \

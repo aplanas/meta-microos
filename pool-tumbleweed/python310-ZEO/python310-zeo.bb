@@ -13,8 +13,8 @@ python3.10dist-zeo \
 python310-ZEO \
 python3dist-zeo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-ZConfig \
 python310-ZODB \

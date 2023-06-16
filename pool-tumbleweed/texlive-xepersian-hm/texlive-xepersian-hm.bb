@@ -16,7 +16,7 @@ tex-xepersian-hm-kashida.tex \
 tex-xepersian-hm.sty \
 texlive-xepersian-hm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

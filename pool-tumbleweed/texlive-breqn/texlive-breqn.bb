@@ -26,7 +26,7 @@ tex-flexisym.sty \
 tex-mathstyle.sty \
 texlive-breqn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-jupyter-contrib-core \
 python39-jupyter-contrib-core \
 python3dist-jupyter-contrib-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-jupyter-core \
 python39-notebook \

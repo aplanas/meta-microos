@@ -14,10 +14,10 @@ RPROVIDES:${PN} += "config-dracut \
 dracut \
 pkgconfig-dracut"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/get-kernel-version \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 awk \
 bash \
 coreutils \

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-pypyp \
 python39-pyp \
 python3dist-pypyp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-astunparse \
 update-alternatives"

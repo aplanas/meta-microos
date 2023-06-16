@@ -14,7 +14,7 @@ RPM_HASH = "e94e9c7e792ab49b30778dadc8d791c58bb7111cf8e1ccb67ccebec6ba8164ccd0c5
 RPROVIDES:${PN} += "gtk2-immodule-vietnamese \
 locale-gtk2-vi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-tools \
 libc.so.6 \

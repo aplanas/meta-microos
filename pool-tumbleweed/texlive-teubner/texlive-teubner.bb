@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-teubner.sty \
 tex-teubnertx.sty \
 texlive-teubner"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

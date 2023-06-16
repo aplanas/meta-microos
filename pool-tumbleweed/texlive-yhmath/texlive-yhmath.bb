@@ -17,7 +17,7 @@ tex-yhmath.sty \
 tex-yrcmex10.tfm \
 texlive-yhmath"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

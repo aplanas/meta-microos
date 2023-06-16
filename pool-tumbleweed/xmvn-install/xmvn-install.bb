@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-install \
 mvn-org.fedoraproject.xmvn-xmvn-install-pom- \
 xmvn-install"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 apache-commons-compress \
 beust-jcommander \
 java-headless \

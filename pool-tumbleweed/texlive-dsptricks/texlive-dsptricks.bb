@@ -21,7 +21,7 @@ tex-dspfunctions.sty \
 tex-dsptricks.sty \
 texlive-dsptricks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

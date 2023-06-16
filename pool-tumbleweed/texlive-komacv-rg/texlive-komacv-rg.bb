@@ -23,7 +23,7 @@ tex-komacv-lco.sty \
 tex-komacv-multilang.sty \
 texlive-komacv-rg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

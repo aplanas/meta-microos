@@ -9,7 +9,7 @@ RPM_HASH = "38af9288e9bebd9fb8177786cac35d87b90b609a1811be23ca50253fbb38502cc560
 
 RPROVIDES:${PN} += "pipewire-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

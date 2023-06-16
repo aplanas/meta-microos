@@ -10,7 +10,7 @@ RPM_HASH = "3efbce5fe94f5a203eae6b68261a000d2f787f970883e1bd58f4e4ed2c1e930ea5e4
 RPROVIDES:${PN} += "ghc-devel-servant-server-0.19.2-JqERhBhwGZn1ju7NrrjU2W \
 ghc-servant-server-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \

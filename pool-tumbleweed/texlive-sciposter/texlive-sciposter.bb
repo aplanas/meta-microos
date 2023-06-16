@@ -30,7 +30,7 @@ tex-paperra2.cfg \
 tex-sciposter.cls \
 texlive-sciposter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

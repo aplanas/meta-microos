@@ -17,8 +17,8 @@ python311-pep8 \
 python311-pycodestyle \
 python3dist-pycodestyle"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

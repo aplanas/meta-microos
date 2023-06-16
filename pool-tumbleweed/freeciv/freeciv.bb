@@ -17,7 +17,7 @@ RPM_HASH = "4ef48f4bbb2ffbed1b4021db4913641fb5057a490fc53ff5bf69538387ecffaf9412
 RPROVIDES:${PN} += "config-freeciv \
 freeciv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 freeciv-client-3.0.7 \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "config-owntone \
 forked-daapd \
 owntone"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libavahi-client.so.3 \

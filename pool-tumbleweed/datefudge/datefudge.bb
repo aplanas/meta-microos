@@ -11,7 +11,7 @@ RPM_HASH = "e20dbf37a176c3a56e6568e5235f9c18efbbc4fc555e298455b414cda6fe7be944c5
 
 RPROVIDES:${PN} += "datefudge"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

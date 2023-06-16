@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-svglib \
 python39-svglib \
 python3dist-svglib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-cssselect2 \
 python39-lxml \

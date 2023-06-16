@@ -11,7 +11,7 @@ RPM_HASH = "6671ea7705b365271c04b1806617031a9a2dd9db17d158485edecccdfe9467c2e169
 
 RPROVIDES:${PN} += "libpetsc-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libpetsc-3-18-5-gnu-openmpi4-hpc"
 
 inherit rpm

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "cm-unicode \
 cm-unicode-fonts \
 locale-ru;bg;el"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

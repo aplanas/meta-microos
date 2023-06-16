@@ -29,7 +29,7 @@ RPROVIDES:${PN} += "gnuhealth-thalamus \
 python3.10dist-thalamus \
 python3dist-thalamus"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 postgresql-server \
 python-abi \
 python3-Flask \

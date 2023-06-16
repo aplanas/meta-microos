@@ -18,7 +18,7 @@ tex-ibyhyph.tex \
 tex-loadhyph-grc.tex \
 texlive-hyphen-ancientgreek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

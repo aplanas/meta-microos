@@ -53,7 +53,7 @@ qt5qmlimport-org.kde.plasma.workspace.keyboardlayout.1 \
 qt5qmlimport-org.kde.plasma.workspace.trianglemousefilter.1 \
 qt5qmlimport-org.kde.taskmanager.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 accountsservice \
 awk \
 breeze \

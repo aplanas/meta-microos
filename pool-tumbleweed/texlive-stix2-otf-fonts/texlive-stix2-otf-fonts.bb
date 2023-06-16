@@ -155,7 +155,7 @@ font-stixtwotextmedium \
 font-stixtwotextsemibold \
 texlive-stix2-otf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

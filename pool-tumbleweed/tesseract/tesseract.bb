@@ -14,7 +14,7 @@ RPM_HASH = "19a629b7626d7da7dbf17d8ba75fdd9f7f994e45f6c02d54b6316ed778ada01d3fcc
 
 RPROVIDES:${PN} += "tesseract"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libSDL2-2.0.so.0 \

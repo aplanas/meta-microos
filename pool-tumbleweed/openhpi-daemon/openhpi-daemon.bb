@@ -11,7 +11,7 @@ RPM_HASH = "3aa202b9f0f9d2f9fa0ebc9651849dcba512b18e0f4d6eda4df62a61bad949375698
 
 RPROVIDES:${PN} += "openhpi-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

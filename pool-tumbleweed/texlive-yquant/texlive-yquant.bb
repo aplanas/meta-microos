@@ -32,7 +32,7 @@ tex-yquantlanguage-groups.sty \
 tex-yquantlanguage-qasm.sty \
 texlive-yquant"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

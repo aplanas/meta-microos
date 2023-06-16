@@ -80,7 +80,7 @@ tex-Zallman.map \
 tex-Zallman.tfm \
 texlive-initials"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

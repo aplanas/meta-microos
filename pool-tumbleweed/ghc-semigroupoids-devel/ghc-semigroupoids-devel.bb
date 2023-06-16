@@ -10,7 +10,7 @@ RPM_HASH = "9bbd7a8a245774ce744f2caafd71e3a440d9d819727e38a06bf1bb1248d29c02b0c5
 RPROVIDES:${PN} += "ghc-devel-semigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1 \
 ghc-semigroupoids-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \

@@ -15,8 +15,8 @@ python311-CommonMark \
 python311-commonmark \
 python3dist-commonmark"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

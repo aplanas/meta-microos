@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pyhcl \
 python39-pyhcl \
 python3dist-pyhcl"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

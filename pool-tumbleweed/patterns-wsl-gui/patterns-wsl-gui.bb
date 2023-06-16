@@ -14,7 +14,7 @@ pattern-icon- \
 pattern-visible- \
 patterns-wsl-gui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 lato-fonts"
 
 inherit rpm

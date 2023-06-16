@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-mkdocs \
 python311-mkdocs \
 python3dist-mkdocs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 fontawesome-fonts \
 fontawesome-fonts-web \
 python-abi \

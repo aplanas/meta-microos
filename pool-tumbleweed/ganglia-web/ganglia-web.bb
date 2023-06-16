@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-ganglia-web \
 ganglia-web"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 apache2 \
 mod-php-any \
 php \

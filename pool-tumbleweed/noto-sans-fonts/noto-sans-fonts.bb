@@ -15,7 +15,7 @@ noto-sans-display \
 noto-sans-display-fonts \
 noto-sans-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

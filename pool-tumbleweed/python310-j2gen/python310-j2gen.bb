@@ -13,8 +13,8 @@ python3.10dist-j2gen \
 python310-j2gen \
 python3dist-j2gen"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Jinja2 \
 python310-PyYAML \

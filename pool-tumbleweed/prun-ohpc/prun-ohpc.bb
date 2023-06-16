@@ -12,6 +12,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-prun-ohpc \
 prun-ohpc"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

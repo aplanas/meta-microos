@@ -37,7 +37,7 @@ osgi-org.objectweb.asm.commons \
 osgi-org.objectweb.asm.tree \
 osgi-org.objectweb.asm.util"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem"
 

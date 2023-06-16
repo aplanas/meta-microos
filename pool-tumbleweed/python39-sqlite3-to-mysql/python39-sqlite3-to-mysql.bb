@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-sqlite3-to-mysql \
 python39-sqlite3-to-mysql \
 python3dist-sqlite3-to-mysql"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 python39-mysql-connector-python \

@@ -13,7 +13,7 @@ tex-hyph-cy.tex \
 tex-loadhyph-cy.tex \
 texlive-hyphen-welsh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-invoice.sty \
 tex-invoicelabels.sty \
 texlive-invoice"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

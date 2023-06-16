@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-jslectureplanner.sty \
 tex-jsmembertable.sty \
 texlive-jslectureplanner"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

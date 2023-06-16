@@ -125,7 +125,7 @@ font-एक्ज़रmedium \
 font-एक्ज़रsemibold \
 texlive-eczar-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

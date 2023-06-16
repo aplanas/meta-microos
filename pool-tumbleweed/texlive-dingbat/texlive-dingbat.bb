@@ -18,7 +18,7 @@ tex-uark.fd \
 tex-udingbat.fd \
 texlive-dingbat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -94,7 +94,7 @@ tex-xsim.style.schule-tabelle-kurz.code.tex \
 tex-xsim.style.schule-tcolorbox.code.tex \
 texlive-schule"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

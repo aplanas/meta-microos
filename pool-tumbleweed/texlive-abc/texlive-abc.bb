@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-abc.sty \
 tex-mup.sty \
 texlive-abc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

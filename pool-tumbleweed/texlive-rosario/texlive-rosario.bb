@@ -613,7 +613,7 @@ tex-ros-wxmaut.enc \
 tex-ros-znhcko.enc \
 texlive-rosario"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -36,6 +36,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "theano-fonts-ttf \
 thessalonica-theano-ttf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

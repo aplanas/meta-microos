@@ -13,6 +13,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shunit2"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

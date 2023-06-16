@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "mk-configure \
 mk-configure-rpm-macros \
 rpm-macro-mkcmake"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/sh \
 bmake \
 bmkdep"
 

@@ -16,8 +16,8 @@ firmware-amd-ucode/microcode-amd-fam19h.bin \
 firmware-amd-ucode/microcode-amd.bin \
 ucode-amd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch"
 
 inherit rpm

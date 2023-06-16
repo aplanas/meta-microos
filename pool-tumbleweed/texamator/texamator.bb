@@ -15,8 +15,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texamator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-base \
 python3-poppler-qt5 \

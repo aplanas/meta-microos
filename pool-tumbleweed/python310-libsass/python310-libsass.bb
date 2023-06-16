@@ -13,8 +13,8 @@ python3.10dist-libsass \
 python310-libsass \
 python3dist-libsass"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsass-3.6.5.so.1 \

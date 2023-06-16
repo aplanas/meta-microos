@@ -10,7 +10,7 @@ RPM_HASH = "6fa4523027fbdf7b6ab561f6945811d60d2852ced83b3f682889243d38cbbb4cd688
 RPROVIDES:${PN} += "ghc-devel-type-equality-1-FqVAbwBXnIKCXHvrA6xdY8 \
 ghc-type-equality-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-type-equality"

@@ -15,8 +15,8 @@ RPM_HASH = "1ea0d385f6cc7c00d0e065effc4b9341cb0a668629a17ce932fd9ba6027e7c2a0516
 
 RPROVIDES:${PN} += "shepherd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/guile \
+RDEPENDS:${PN} += "/usr/bin/guile \
+/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

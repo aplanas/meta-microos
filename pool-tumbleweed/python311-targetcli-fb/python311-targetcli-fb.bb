@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-targetcli-fb \
 python311-targetcli-fb \
 python3dist-targetcli-fb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-configshell-fb \
 python311-dbus-python \

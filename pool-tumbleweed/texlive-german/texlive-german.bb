@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-german.sty \
 tex-ngerman.sty \
 texlive-german"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

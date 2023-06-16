@@ -24,7 +24,7 @@ tex-plain.tex \
 tex-wlist.tex \
 texlive-plain"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

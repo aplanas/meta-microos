@@ -9,7 +9,7 @@ RPM_HASH = "a7f5280abd7a8ae6925a0f569bc9a253fef814f17af2c3fb4fc339115949e5bd694b
 
 RPROVIDES:${PN} += "ibus-table"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ibus \
 python3 \
 python3-curses"

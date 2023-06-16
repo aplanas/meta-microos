@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.9dist-targetcli-fb \
 python39-targetcli-fb \
 python3dist-targetcli-fb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-configshell-fb \
 python39-dbus-python \

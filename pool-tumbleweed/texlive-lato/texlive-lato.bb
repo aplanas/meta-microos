@@ -1816,7 +1816,7 @@ tex-lato.map \
 tex-lato.sty \
 texlive-lato"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

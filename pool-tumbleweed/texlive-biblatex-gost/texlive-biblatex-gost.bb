@@ -49,7 +49,7 @@ tex-slovene-gost.lbx \
 tex-spanish-gost.lbx \
 texlive-biblatex-gost"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

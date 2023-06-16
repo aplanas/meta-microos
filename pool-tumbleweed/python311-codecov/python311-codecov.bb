@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-codecov \
 python311-codecov \
 python3dist-codecov"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-coverage \
 python311-requests \

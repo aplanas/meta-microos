@@ -26,7 +26,7 @@ RPM_HASH = "3918ffe647ca4335b2fe4580a947031cf2e08aa2546a9d837f1716fcd11e60aadc9a
 
 RPROVIDES:${PN} += "twind"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-image-1.2.so.0 \

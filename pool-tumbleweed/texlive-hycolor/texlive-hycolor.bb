@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-hycolor.sty \
 tex-xcolor-patch.sty \
 texlive-hycolor"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "libhunspell.so \
 libsigilgumbo.so \
 sigil"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Concurrent.so.5 \
 libQt5Core.so.5 \

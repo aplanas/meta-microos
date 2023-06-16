@@ -19,7 +19,7 @@ tex-revtex4.cls \
 tex-rmp.rtx \
 texlive-revtex4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -27,7 +27,7 @@ tex-langsci-unified.cbx \
 tex-langscibook.cls \
 texlive-langsci"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,7 +20,7 @@ tex-tracklang.sty \
 tex-tracklang.tex \
 texlive-tracklang"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

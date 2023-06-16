@@ -15,7 +15,7 @@ tex-cmupint.tfm \
 tex-ucmupint.fd \
 texlive-cmupint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

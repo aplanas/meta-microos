@@ -17,7 +17,7 @@ tex-abntex2abrev.sty \
 tex-abntex2cite.sty \
 texlive-abntex2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

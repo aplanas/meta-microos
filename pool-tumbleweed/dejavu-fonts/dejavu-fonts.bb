@@ -16,7 +16,7 @@ dejavu-fonts \
 desktop-data-SuSE-/usr/X11R6/lib/X11/fonts/truetype/SUSESans-Roman.ttf \
 locale-bg;el;mk;ru;vi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

@@ -12,8 +12,8 @@ RPM_HASH = "94107494dac9e62952f933513ee57a3c688af8f2cb9587bd579d38ac42e645c38319
 RPROVIDES:${PN} += "guile-devel \
 pkgconfig-guile-3.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 gmp-devel \
 guile \
 libffi-devel \

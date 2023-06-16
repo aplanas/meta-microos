@@ -30,10 +30,10 @@ systemd-logger \
 systemd-sysvinit \
 sysvinit-/sbin/init"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 aaa-base \
 coreutils \
 dbus-1 \

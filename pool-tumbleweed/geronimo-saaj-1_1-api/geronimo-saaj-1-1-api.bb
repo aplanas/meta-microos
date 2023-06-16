@@ -16,7 +16,7 @@ saaj \
 saaj-1-1-api \
 saaj-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 jaf-1-0-2-api \
 java-headless \
 javapackages-filesystem \

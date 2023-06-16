@@ -11,8 +11,8 @@ RPM_HASH = "580eac1663d22b4572590fcb69684141eb6c8c691d9885bbe4b1cea5845d559fafdd
 RPROVIDES:${PN} += "config-oddjob \
 oddjob"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

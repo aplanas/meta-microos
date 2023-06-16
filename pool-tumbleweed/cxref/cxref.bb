@@ -55,7 +55,7 @@ RPM_HASH = "380fdac00aa91068ae0038cf67c512569fab3e19f6fac3aacffb9a02184d500d555b
 
 RPROVIDES:${PN} += "cxref"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

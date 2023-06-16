@@ -10,6 +10,6 @@ RPM_HASH = "38250d3307e0dfcf9c833c36c0080094da97cc5c133e96a8585257d06a77075831da
 
 RPROVIDES:${PN} += "openQA-bootstrap"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

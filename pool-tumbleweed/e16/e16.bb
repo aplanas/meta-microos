@@ -18,9 +18,9 @@ enlight \
 libhack.so \
 windowmanager"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
+/usr/bin/sh \
 imlib2-loaders \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \

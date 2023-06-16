@@ -23,7 +23,7 @@ tex-rdutchcalr.tfm \
 tex-udutchcal.fd \
 texlive-dutchcal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

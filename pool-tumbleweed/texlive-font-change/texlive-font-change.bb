@@ -65,7 +65,7 @@ tex-font-times.tex \
 tex-font-utopia.tex \
 texlive-font-change"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

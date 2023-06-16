@@ -10,7 +10,7 @@ RPM_HASH = "19bad81f8441363d8f2ab322591dcfcc7884782c8746c1ff0e1e0527ca188b58590c
 RPROVIDES:${PN} += "dtb-apple \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

@@ -14,7 +14,7 @@ font-serto10 \
 font-sertob10 \
 texlive-aramaic-serto-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -63,7 +63,7 @@ servlet \
 servlet-2-4-api \
 servlet-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

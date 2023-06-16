@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-filetype \
 python311-filetype \
 python3dist-filetype"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

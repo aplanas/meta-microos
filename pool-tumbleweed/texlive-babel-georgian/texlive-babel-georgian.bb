@@ -15,7 +15,7 @@ tex-georgian.sty \
 tex-georgiancaps.tex \
 texlive-babel-georgian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

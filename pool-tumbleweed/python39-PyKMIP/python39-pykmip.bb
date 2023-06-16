@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-pykmip \
 python39-PyKMIP \
 python3dist-pykmip"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-SQLAlchemy \
 python39-cryptography \

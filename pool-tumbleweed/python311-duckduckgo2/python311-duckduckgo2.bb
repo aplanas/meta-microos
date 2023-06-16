@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-duckduckgo2 \
 python311-duckduckgo2 \
 python3dist-duckduckgo2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

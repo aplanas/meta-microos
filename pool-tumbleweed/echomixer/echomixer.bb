@@ -10,7 +10,7 @@ RPM_HASH = "660c128654a479ddf8ddcd0f67e5ca4b3a145aadeafe71f0ba0e9f9daf27845ac8f1
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/echomixer \
 echomixer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

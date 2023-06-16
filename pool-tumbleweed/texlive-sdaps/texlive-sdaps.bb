@@ -27,7 +27,7 @@ tex-sdapslayout.sty \
 tex-sdapspdf.sty \
 texlive-sdaps"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -26,7 +26,7 @@ tex-size8.clo \
 tex-size9.clo \
 texlive-extsizes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

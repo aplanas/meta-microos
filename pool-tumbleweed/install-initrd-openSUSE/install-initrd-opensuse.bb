@@ -11,7 +11,7 @@ RPM_HASH = "e99d695eef93a5a1379f71bbaad1e5035c300e5af8fdaa4b87921ee0f63220ac4a89
 RPROVIDES:${PN} += "install-initrd \
 install-initrd-openSUSE"
 
-RDEPENDS:${PN} += "/bin/ln \
-/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/ln \
+/usr/bin/sh"
 
 inherit rpm

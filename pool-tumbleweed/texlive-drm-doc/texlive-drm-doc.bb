@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-drm-doc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/fontforge"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/fontforge \
+/usr/bin/sh"
 
 inherit rpm

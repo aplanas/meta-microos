@@ -10,7 +10,7 @@ RPM_HASH = "a50eb50ba3ce560e6aac10c9e7f83ee3cb2490dd9394eb60860ab23f6e04fb707e15
 RPROVIDES:${PN} += "texlive-dvipdfm-bin \
 texlive-dvipdfmx-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkpathsea.so.6 \

@@ -25,7 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-helmholtz-ellis-ji-notation.sty \
 texlive-helmholtz-ellis-ji-notation"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

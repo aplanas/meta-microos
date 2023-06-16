@@ -28,7 +28,7 @@ tex-go2whi20.tfm \
 tex-gosign50.tfm \
 texlive-go"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

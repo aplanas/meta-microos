@@ -11,8 +11,8 @@ RPM_HASH = "9f93e44711b9c1c17c5b9d9935bb3026c4ca2a5747f0dd56e3c71b37c1ca67ea8092
 RPROVIDES:${PN} += "pkgconfig-xmlsec1 \
 xmlsec1-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libxml2-devel \
 libxmlsec1-1 \
 libxslt-devel \

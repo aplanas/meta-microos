@@ -14,7 +14,7 @@ singularity \
 singularity-ce \
 singularity-ce-runtime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cryptsetup \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

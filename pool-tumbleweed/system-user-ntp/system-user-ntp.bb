@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-ntp \
 system-user-ntp \
 user-ntp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

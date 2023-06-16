@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-texlive-mnsymbol-fonts \
 font-mnsymbol \
 texlive-mnsymbol-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

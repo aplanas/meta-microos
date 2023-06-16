@@ -13,8 +13,7 @@ RPM_HASH = "0b7462b0db717c1d76facd4a802534534cb43a3ca9e4437afc4794a804aea76a935b
 
 RPROVIDES:${PN} += "pfstools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 dcraw \
 ld-linux-aarch64.so.1 \

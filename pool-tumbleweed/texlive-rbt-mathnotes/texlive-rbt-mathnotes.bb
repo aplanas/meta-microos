@@ -19,7 +19,7 @@ tex-rbt-mathnotes.cls \
 tex-rbt-mathnotes.sty \
 texlive-rbt-mathnotes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

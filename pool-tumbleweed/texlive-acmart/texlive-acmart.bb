@@ -16,7 +16,7 @@ tex-acmnumeric.bbx \
 tex-acmnumeric.cbx \
 texlive-acmart"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

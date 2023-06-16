@@ -13,8 +13,8 @@ python3.10dist-gear \
 python310-gear \
 python3dist-gear"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-extras \
 python310-pbr \

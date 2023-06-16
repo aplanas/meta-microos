@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-tokcycle.sty \
 tex-tokcycle.tex \
 texlive-tokcycle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

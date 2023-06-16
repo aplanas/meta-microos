@@ -16,10 +16,10 @@ RPM_HASH = "125461e90948578bbc0b358abb79da449b9030213fb75e58b6c22ccfb39e49f15937
 
 RPROVIDES:${PN} += "patchutils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 diffutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

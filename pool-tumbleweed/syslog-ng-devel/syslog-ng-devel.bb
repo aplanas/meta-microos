@@ -11,9 +11,9 @@ RPROVIDES:${PN} += "libevtlog-devel \
 pkgconfig-syslog-ng \
 syslog-ng-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 glib2-devel \
 glibc-devel \
 libcap-devel \

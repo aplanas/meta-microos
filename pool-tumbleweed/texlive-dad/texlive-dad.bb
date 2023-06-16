@@ -21,7 +21,7 @@ tex-dadrealbold.tfm \
 tex-dadrealmono.tfm \
 texlive-dad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

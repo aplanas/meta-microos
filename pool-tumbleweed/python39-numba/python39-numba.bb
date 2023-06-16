@@ -27,8 +27,8 @@ python3dist-numba"
 
 RDEPENDS:${PN} += "-python39-llvmlite >= 0.40 with python39-llvmlite < 0.41 \
 -python39-numpy >= 1.21 with python39-numpy < 1.25 \
-/bin/sh \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

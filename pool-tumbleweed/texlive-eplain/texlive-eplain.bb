@@ -20,7 +20,7 @@ tex-btxmac.tex \
 tex-eplain.tex \
 texlive-eplain"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

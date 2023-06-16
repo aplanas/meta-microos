@@ -10,7 +10,7 @@ RPM_HASH = "ded6ce571397e74868c4a58e8f2eca0943a110d6e930a56f367d9f39baff1162d0a3
 
 RPROVIDES:${PN} += "sphinxbase5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

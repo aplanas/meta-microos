@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-typeface.cfg \
 tex-typeface.sty \
 texlive-typeface"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

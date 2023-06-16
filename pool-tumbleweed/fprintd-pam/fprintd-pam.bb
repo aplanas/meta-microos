@@ -13,7 +13,7 @@ pam-fp \
 pam-fprint \
 pam-thinkfinger"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 fprintd \
 ld-linux-aarch64.so.1 \

@@ -1791,7 +1791,7 @@ tex-ujkpsyd.fd \
 tex-ujkpsydw.fd \
 texlive-kpfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

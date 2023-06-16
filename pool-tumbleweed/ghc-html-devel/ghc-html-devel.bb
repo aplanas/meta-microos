@@ -10,7 +10,7 @@ RPM_HASH = "37881bc6807f76e7afef659d7c431fd6c653c9b9548989952d1dbeea3128e8215c0b
 RPROVIDES:${PN} += "ghc-devel-html-1.0.1.2-U7qWIp0bJwCnAFPlj3UZy \
 ghc-html-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-html"

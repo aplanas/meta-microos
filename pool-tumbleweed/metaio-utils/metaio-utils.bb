@@ -9,7 +9,7 @@ RPM_HASH = "53c9076043147f027b6ca8bab920f6b830c344b1d2fd86247da9605269e2917f9295
 
 RPROVIDES:${PN} += "metaio-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmetaio.so.1"

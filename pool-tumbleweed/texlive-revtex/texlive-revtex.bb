@@ -28,7 +28,7 @@ tex-revtex4-2.cls \
 tex-sor4-2.rtx \
 texlive-revtex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-color.cfg \
 tex-graphics.cfg \
 texlive-graphics-cfg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

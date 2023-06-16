@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "php-pear-Net-Sieve \
 php5-pear-Net-Sieve \
 php7-pear-Net-Sieve"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear \
 php-pear-Net-Socket"
 

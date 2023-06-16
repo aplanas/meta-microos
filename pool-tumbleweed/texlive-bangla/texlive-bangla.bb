@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-bangla.sty \
 tex-banglamap.tex \
 texlive-bangla"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

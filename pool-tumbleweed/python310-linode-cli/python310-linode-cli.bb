@@ -12,8 +12,8 @@ python3.10dist-linode-cli \
 python310-linode-cli \
 python3dist-linode-cli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyYAML \
 python310-requests \

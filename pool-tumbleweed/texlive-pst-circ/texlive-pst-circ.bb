@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-pst-circ.sty \
 tex-pst-circ.tex \
 texlive-pst-circ"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

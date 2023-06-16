@@ -10,7 +10,7 @@ RPM_HASH = "f6ccf04be361f7702e5b0585acd7bba65fe584c23ebf08fd96850be7d23ae5671017
 RPROVIDES:${PN} += "libqb-tests \
 libstat-wrapper.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcheck.so.0 \

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-docutils \
 python311-docutils \
 python3dist-docutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-packaging \
 python311-xml \

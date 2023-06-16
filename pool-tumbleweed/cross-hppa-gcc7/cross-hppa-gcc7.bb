@@ -13,7 +13,7 @@ RPM_HASH = "4ed0864857ab6e279864fe66e298cac0e5f2936093c645b4cb76b2a9cd0bf2a56d18
 RPROVIDES:${PN} += "cross-hppa-gcc7 \
 liblto-plugin.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-hppa-binutils \
 libc.so.6 \
 libgmp.so.10 \

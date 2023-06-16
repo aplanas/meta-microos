@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "ansible-variables \
 python3.10dist-ansible-variables \
 python3dist-ansible-variables"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ansible-core \
 python-abi \
 python3-rich \

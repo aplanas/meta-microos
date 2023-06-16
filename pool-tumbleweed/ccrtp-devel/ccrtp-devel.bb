@@ -13,8 +13,8 @@ libccrtp-devel \
 libccrtp3-devel \
 pkgconfig-libccrtp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libccrtp3 \
 libgcrypt-devel \
 pkgconfig-commoncpp \

@@ -9,7 +9,7 @@ RPM_HASH = "57c7ffa36886c8ee6758f690a867fabf28b33cb0fbdd5b781321b04f661846f5d376
 
 RPROVIDES:${PN} += "non-ntk-fluid"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

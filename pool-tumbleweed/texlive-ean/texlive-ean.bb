@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-ean13.tex \
 tex-ean8.tex \
 texlive-ean"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

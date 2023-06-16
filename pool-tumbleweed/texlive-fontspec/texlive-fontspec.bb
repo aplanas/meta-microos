@@ -18,7 +18,7 @@ tex-fontspec.cfg \
 tex-fontspec.sty \
 texlive-fontspec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-texlive-dantelogo-fonts \
 font-dante \
 texlive-dantelogo-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -19,7 +19,7 @@ RPM_HASH = "0d721c06975601e0bca999cbc7d4949044678e75e0c36187a73de967e22d89fbec97
 
 RPROVIDES:${PN} += "gammastep"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

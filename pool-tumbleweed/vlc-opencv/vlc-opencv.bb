@@ -13,7 +13,7 @@ libopencv-wrapper-plugin.so \
 vlc-/usr/lib64/vlc/plugins/video-filter/libopencv-example-plugin.so \
 vlc-opencv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

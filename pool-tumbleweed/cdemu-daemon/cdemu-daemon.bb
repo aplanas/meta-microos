@@ -17,8 +17,8 @@ RPM_HASH = "525d9dcd22a7915c8e32636ed45420ae25e03f77575df60f837f1333b026731335ce
 
 RPROVIDES:${PN} += "cdemu-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "nvmetcli \
 python3.10dist-nvmetcli \
 python3dist-nvmetcli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-configshell-fb \
 python3-kmod \

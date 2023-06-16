@@ -22,7 +22,7 @@ tex-bxutf8x.def \
 tex-zxbase.sty \
 texlive-bxbase"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

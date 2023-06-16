@@ -18,7 +18,7 @@ tex-cmbtt9.tfm \
 tex-cmttb10.tfm \
 texlive-cm-mf-extra-bold"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -45,7 +45,7 @@ tex-example-movie.tex \
 tex-mwe.sty \
 texlive-mwe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

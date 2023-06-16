@@ -12,8 +12,8 @@ RPM_HASH = "06342099535df273e532aecf70a5afc8e6bb3b13bb7c7a7f2d9f6e1e4a0a9168e901
 RPROVIDES:${PN} += "libkkc-devel \
 pkgconfig-kkc-1.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libkkc2 \
 pkgconfig-gee-0.8 \
 pkgconfig-gio-2.0 \

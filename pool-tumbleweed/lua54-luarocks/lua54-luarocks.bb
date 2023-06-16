@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "config-lua54-luarocks \
 lua-luarocks \
 lua54-luarocks"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.4 \
+RDEPENDS:${PN} += "/usr/bin/lua5.4 \
+/usr/bin/sh \
 curl \
 lua54 \
 openssl \

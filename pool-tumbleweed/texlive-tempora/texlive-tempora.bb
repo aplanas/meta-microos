@@ -181,7 +181,7 @@ tex-tmp-y4r4km.enc \
 tex-tmp-yz5x6b.enc \
 texlive-tempora"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -184,7 +184,7 @@ font-andika \
 font-andk \
 texlive-andika-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

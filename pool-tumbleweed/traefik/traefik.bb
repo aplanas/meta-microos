@@ -15,7 +15,7 @@ RPM_HASH = "fea9c75a10fce6fa080464674824ee96fd053d50bdff8eb14eaa54fdf7c2492ef787
 RPROVIDES:${PN} += "config-traefik \
 traefik"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 systemd"
 
 inherit rpm

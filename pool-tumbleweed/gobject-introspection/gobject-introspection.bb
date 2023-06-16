@@ -10,7 +10,7 @@ RPM_HASH = "7f355f85540e127f19eab60dea1c82840442244b8b16195aaa5dd4758836e3966288
 
 RPROVIDES:${PN} += "gobject-introspection"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 file \
 ld-linux-aarch64.so.1 \

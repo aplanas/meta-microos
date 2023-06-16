@@ -12,7 +12,7 @@ RPM_HASH = "68ea0a08a1d28f32f915cad0c939b0263b560ccedeebb68a2353ea37f7ddb9120fc2
 
 RPROVIDES:${PN} += "mpfrcx-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gmp-devel \
 libmpfrcx1 \
 mpc-devel \

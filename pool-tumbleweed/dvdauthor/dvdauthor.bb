@@ -13,7 +13,7 @@ RPM_HASH = "40618e5e2fee44611fcbbd53ec907845d24226c196f0f89133cc2c185d890c9b5e5a
 RPROVIDES:${PN} += "dvdauthor \
 dvdauthor07"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libMagickCore-7.Q16HDRI.so.10 \
 libc.so.6 \

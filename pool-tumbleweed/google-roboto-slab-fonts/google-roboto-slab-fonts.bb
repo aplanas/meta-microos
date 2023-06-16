@@ -23,7 +23,7 @@ google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Regular.ttf \
 google-roboto-fonts-/usr/share/fonts/truetype/RobotoSlab-Thin.ttf \
 google-roboto-slab-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

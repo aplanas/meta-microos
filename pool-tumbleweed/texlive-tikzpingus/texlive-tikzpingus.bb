@@ -32,7 +32,7 @@ tex-tikzpingus-technology.lib.tex \
 tex-tikzpingus.sty \
 texlive-tikzpingus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

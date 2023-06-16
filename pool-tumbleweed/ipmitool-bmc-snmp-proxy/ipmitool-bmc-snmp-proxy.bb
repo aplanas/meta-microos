@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-ipmitool-bmc-snmp-proxy \
 ipmitool-bmc-snmp-proxy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ipmitool \
 net-snmp"
 

@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-impacket \
 python311-impacket \
 python3dist-impacket"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Flask \
 python311-chardet \

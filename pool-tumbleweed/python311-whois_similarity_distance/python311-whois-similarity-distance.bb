@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-whois-similarity-distance \
 python311-whois-similarity-distance \
 python3dist-whois-similarity-distance"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Levenshtein \
 python311-certifi \

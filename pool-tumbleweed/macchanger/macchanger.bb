@@ -9,7 +9,7 @@ RPM_HASH = "7970b9d903cf1dd44ba2407e2d02b22bb96f486351e93d1cd69523075ff897905076
 
 RPROVIDES:${PN} += "macchanger"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

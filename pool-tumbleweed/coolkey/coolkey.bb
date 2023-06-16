@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "coolkey \
 libckyapplet.so.1 \
 libcoolkeypk11.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

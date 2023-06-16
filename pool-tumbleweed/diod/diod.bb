@@ -11,8 +11,8 @@ RPM_HASH = "0d4f404ae6c03c6925134c532ab5789919e3ab1fcfded70158ab141fd99b728e77ab
 RPROVIDES:${PN} += "config-diod \
 diod"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblua5.1.so.5 \

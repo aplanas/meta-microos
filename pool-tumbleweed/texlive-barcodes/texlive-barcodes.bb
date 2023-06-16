@@ -18,7 +18,7 @@ tex-wlc93.tfm \
 tex-wlcr39.tfm \
 texlive-barcodes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

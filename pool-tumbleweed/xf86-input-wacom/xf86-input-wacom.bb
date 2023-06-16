@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "x11-input-wacom \
 x11-input-wacom-tools \
 xf86-input-wacom"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 X11-ABI-XINPUT \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

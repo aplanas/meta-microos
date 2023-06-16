@@ -16,7 +16,7 @@ libresolutionSet.so \
 open-vm-tools-desktop \
 open-vm-tools-gui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libSM.so.6 \

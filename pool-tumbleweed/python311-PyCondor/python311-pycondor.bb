@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pycondor \
 python311-PyCondor \
 python3dist-pycondor"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

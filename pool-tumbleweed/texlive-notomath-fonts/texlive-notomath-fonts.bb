@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-notomath \
 font-notosansmath \
 texlive-notomath-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

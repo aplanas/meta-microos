@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-qcm.cls \
 tex-qcm.sty \
 texlive-qcm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

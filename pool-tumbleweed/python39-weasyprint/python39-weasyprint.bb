@@ -18,8 +18,8 @@ python39-WeasyPrint \
 python39-weasyprint \
 python3dist-weasyprint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 libgobject-2-0-0 \
 pango \
 python-abi \

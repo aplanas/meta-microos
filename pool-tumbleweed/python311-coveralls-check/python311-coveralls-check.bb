@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-coveralls-check \
 python311-coveralls-check \
 python3dist-coveralls-check"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-backoff \
 python311-requests \

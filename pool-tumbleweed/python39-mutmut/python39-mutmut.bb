@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-mutmut \
 python39-mutmut \
 python3dist-mutmut"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 python39-glob2 \

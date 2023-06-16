@@ -11,9 +11,9 @@ RPROVIDES:${PN} += "kde-dev-scripts \
 kdesdk-scripts \
 kdesdk4-scripts"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
-/usr/bin/perl"
+/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

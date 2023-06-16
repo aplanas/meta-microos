@@ -16,8 +16,8 @@ RPM_HASH = "c311f73b9ff82ce4a345d992dc921388d1c477820b7a774ea7fdf2cc039f01edaca1
 RPROVIDES:${PN} += "ignition \
 ignition-dracut"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 dracut \
 ignition-dracut-grub2 \
 libblkid.so.1 \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-drgn \
 python39-drgn \
 python3dist-drgn"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdw.so.1 \

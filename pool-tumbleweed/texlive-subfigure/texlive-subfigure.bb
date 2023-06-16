@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-subfigure.cfg \
 tex-subfigure.sty \
 texlive-subfigure"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

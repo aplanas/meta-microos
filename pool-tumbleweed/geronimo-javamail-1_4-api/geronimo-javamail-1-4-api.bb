@@ -17,7 +17,7 @@ javamail-api \
 mvn-org.apache.geronimo.specs-geronimo-javamail-1.4-spec \
 mvn-org.apache.geronimo.specs-geronimo-javamail-1.4-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 jaf-1-1-api \
 java-headless \
 javapackages-filesystem \

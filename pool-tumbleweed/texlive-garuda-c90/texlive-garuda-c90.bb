@@ -15,7 +15,7 @@ tex-fgdr8z.tfm \
 tex-garuda-c90.map \
 texlive-garuda-c90"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

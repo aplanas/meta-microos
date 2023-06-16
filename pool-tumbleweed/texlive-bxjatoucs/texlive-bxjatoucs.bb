@@ -18,7 +18,7 @@ tex-bxjatoucs-jis.tfm \
 tex-bxjatoucs.sty \
 texlive-bxjatoucs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

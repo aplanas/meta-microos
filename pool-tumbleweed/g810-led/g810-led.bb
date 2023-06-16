@@ -20,7 +20,7 @@ RPM_HASH = "9bc39cade403eaf33a8cfe04cb972fb1f7bb6450eb86c13868351b601de7f8110c35
 RPROVIDES:${PN} += "config-g810-led \
 g810-led"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libhidapi-hidraw.so.0 \

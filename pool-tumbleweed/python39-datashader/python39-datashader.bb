@@ -31,8 +31,8 @@ RPROVIDES:${PN} += "python3.9dist-datashader \
 python39-datashader \
 python3dist-datashader"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-DataShape \
 python39-Pillow \

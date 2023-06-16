@@ -18,8 +18,8 @@ python39-reCommonMark \
 python39-recommonmark \
 python3dist-recommonmark"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-CommonMark \
 python39-Sphinx \

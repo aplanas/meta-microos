@@ -20,8 +20,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-go-source"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/python3"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/python3 \
+/usr/bin/sh"
 
 inherit rpm

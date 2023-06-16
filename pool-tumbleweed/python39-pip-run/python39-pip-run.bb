@@ -24,8 +24,8 @@ RPROVIDES:${PN} += "python3.9dist-pip-run \
 python39-pip-run \
 python3dist-pip-run"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-autocommand \
 python39-packaging \

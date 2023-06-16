@@ -10,7 +10,7 @@ RPM_HASH = "3f0d9577c7fdbe45bf631c98b3d57eda3dfd0c4c67cb124b59fe7d1082cc7a17b324
 
 RPROVIDES:${PN} += "octave-forge-statistics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

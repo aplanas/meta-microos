@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-python-coveralls \
 python39-python-coveralls \
 python3dist-python-coveralls"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-coverage \

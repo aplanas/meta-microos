@@ -20,7 +20,7 @@ tex-ijdc-v14.cls \
 tex-ijdc-v9.cls \
 texlive-dccpaper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

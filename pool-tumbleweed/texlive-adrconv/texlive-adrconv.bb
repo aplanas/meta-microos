@@ -18,7 +18,7 @@ tex-adrplaner.cfg \
 tex-adrsmall.cfg \
 texlive-adrconv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

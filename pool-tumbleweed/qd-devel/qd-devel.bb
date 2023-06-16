@@ -11,8 +11,8 @@ RPM_HASH = "3501871e712f34acc5bd77d365fc27d0c38242f540523ac8473a3069fa813c1839c1
 RPROVIDES:${PN} += "pkgconfig-qd \
 qd-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libqd0"
 
 inherit rpm

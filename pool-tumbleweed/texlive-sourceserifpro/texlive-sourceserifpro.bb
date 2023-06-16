@@ -1033,7 +1033,7 @@ tex-sourceserifpro-type1-autoinst.sty \
 tex-sourceserifpro.sty \
 texlive-sourceserifpro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

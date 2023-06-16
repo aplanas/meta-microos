@@ -11,7 +11,7 @@ RPM_HASH = "34b95a6a6d6a75e5c244ab6149c179782ddc9870f8f4afe2fa2d434aee88b1922ce6
 
 RPROVIDES:${PN} += "QtAV-players"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 QtAV-qml \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

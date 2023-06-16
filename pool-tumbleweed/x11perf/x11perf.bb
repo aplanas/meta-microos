@@ -10,7 +10,7 @@ RPM_HASH = "3bc528fd06663c8a1f077995eacca09ec73f2865597bbce8bb270574ff04ec8aa143
 
 RPROVIDES:${PN} += "x11perf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \

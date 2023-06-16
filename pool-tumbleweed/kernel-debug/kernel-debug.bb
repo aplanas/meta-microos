@@ -6830,7 +6830,7 @@ kmod-zynqmp-ipi-mailbox.ko \
 kmod-zynqmp-sha.ko \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 awk \
 coreutils \
 distribution-release \

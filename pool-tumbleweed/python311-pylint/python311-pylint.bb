@@ -28,8 +28,8 @@ python3dist-pylint"
 RDEPENDS:${PN} += "-python311-astroid >= 2.15.4 with python311-astroid < 2.17.0~dev0 \
 -python311-isort >= 4.2.5 with python311-isort < 6 \
 -python311-mccabe >= 0.6 with python311-mccabe < 0.8 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-dill \
 python311-platformdirs \

@@ -27,7 +27,7 @@ tex-tpsem-a4.sty \
 tex-tpsettings.cfg \
 texlive-texpower"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

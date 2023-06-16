@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pst-coil.sty \
 tex-pst-coil.tex \
 texlive-pst-coil"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

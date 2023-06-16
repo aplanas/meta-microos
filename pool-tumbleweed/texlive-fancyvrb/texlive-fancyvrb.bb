@@ -19,7 +19,7 @@ tex-hbaw.sty \
 tex-hcolor.sty \
 texlive-fancyvrb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

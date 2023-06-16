@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-mitmproxy \
 python311-mitmproxy \
 python3dist-mitmproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Brotli \
 python311-Flask \

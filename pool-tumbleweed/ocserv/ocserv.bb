@@ -27,8 +27,8 @@ RPM_HASH = "ae17cd0b46498d3c980655d8b4392cb6159e0e8fc403469085b110ac28d024d0f0a1
 RPROVIDES:${PN} += "config-ocserv \
 ocserv"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 gnutls \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

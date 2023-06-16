@@ -127,7 +127,7 @@ font-gfsdidotrg \
 font-gfsolga \
 texlive-gfsdidot-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

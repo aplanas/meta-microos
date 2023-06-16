@@ -46,7 +46,7 @@ tex-aurical.map \
 tex-aurical.sty \
 texlive-aurical"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guilt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 git"
 
 inherit rpm

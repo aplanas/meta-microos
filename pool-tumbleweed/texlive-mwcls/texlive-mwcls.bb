@@ -29,7 +29,7 @@ tex-mwbk12.clo \
 tex-mwrep.cls \
 texlive-mwcls"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

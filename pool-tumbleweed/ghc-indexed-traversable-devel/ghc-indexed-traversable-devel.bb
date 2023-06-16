@@ -11,7 +11,7 @@ RPM_HASH = "849479af722021f4e6e2f96dab47750f015433685615cb4544264c4c9a509747f362
 RPROVIDES:${PN} += "ghc-devel-indexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs \
 ghc-indexed-traversable-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \

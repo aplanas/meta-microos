@@ -21,8 +21,8 @@ tex-textalpha.sty \
 tex-tuenc-greek.def \
 texlive-greek-fontenc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua \
+RDEPENDS:${PN} += "/usr/bin/lua \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

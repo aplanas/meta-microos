@@ -28,7 +28,7 @@ tex-rapport1.cls \
 tex-rapport3.cls \
 texlive-ntgclass"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

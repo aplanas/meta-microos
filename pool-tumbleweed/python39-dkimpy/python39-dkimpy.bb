@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-dkimpy \
 python39-dkimpy \
 python3dist-dkimpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyNaCl \
 python39-authres \

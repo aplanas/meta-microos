@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-gpxpy \
 python39-gpxpy \
 python3dist-gpxpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

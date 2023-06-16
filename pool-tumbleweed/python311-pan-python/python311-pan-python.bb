@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-pan-python \
 python311-pan-python \
 python3dist-pan-python"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

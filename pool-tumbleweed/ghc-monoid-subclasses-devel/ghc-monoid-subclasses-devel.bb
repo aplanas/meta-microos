@@ -11,7 +11,7 @@ RPM_HASH = "c34e11d77ce27b8371d87b2fdce36ce8ce58baf62d2859552d47889b8f28116268a1
 RPROVIDES:${PN} += "ghc-devel-monoid-subclasses-1.2.3-3ZmDzuybbdXkWlfa352KR \
 ghc-monoid-subclasses-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

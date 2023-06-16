@@ -13,7 +13,7 @@ khmeros-fonts \
 locale-km \
 scalable-font-km"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

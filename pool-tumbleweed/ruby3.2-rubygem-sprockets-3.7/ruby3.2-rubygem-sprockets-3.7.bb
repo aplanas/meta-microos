@@ -15,8 +15,8 @@ rubygem-ruby-3.2.0-sprockets-3.7 \
 rubygem-ruby-3.2.0-sprockets-3.7.2 \
 rubygem-sprockets"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-concurrent-ruby-1 \
 rubygem-ruby-3.2.0-rack \

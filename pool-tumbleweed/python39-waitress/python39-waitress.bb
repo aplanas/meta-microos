@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-waitress \
 python39-waitress \
 python3dist-waitress"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi"
 

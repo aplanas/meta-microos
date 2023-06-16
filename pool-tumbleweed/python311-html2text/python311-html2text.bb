@@ -14,8 +14,8 @@ python3.11dist-html2text \
 python311-html2text \
 python3dist-html2text"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

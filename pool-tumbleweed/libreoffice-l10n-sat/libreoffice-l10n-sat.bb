@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-sat \
 libreoffice-l10n-sat \
 locale-libreoffice-sat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker"
 

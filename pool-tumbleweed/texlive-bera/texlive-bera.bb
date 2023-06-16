@@ -96,7 +96,7 @@ tex-ts1fvm.fd \
 tex-ts1fvs.fd \
 texlive-bera"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

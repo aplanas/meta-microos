@@ -351,8 +351,8 @@ libyuy2-i422-plugin.so \
 libzvbi-plugin.so \
 vlc-noX"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libBasicUsageEnvironment.so.2 \
 libFLAC.so.12 \

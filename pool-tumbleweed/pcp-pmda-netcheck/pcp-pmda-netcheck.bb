@@ -10,8 +10,8 @@ RPM_HASH = "05a8a87f99a7e733d46e8e7bfb1d1152c3268c034007091ab8d560e2a10089c5a3a5
 
 RPROVIDES:${PN} += "pcp-pmda-netcheck"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 python3-pcp"
 
 inherit rpm

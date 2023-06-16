@@ -15,8 +15,8 @@ rubygem-ruby-3.2.0-gem2rpm-0 \
 rubygem-ruby-3.2.0-gem2rpm-0.10 \
 rubygem-ruby-3.2.0-gem2rpm-0.10.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 update-alternatives"
 

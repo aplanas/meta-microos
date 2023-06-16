@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-mathalfa.sty \
 tex-mathalpha.sty \
 texlive-mathalpha"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

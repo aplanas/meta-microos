@@ -192,7 +192,7 @@ tex-ubkro8t.tfm \
 tex-ubkro8t.vf \
 texlive-bookman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

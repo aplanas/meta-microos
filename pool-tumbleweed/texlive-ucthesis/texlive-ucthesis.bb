@@ -17,7 +17,7 @@ tex-uct12.clo \
 tex-ucthesis.cls \
 texlive-ucthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

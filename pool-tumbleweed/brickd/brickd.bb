@@ -11,7 +11,7 @@ RPM_HASH = "7252c34a8f3ffc4bbacfd155d120cf0d9a58844d8644e6d806390fa719b9711ee876
 RPROVIDES:${PN} += "brickd \
 config-brickd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libusb-1.0.so.0"

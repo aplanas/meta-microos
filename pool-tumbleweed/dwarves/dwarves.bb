@@ -26,7 +26,7 @@ RPM_HASH = "2ffac1f6043f2b50422fc8e18b53df463fdcc39ef2eddc520f5eb57741066b4f2010
 RPROVIDES:${PN} += "dwarves \
 pahole"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libbpf.so.1 \

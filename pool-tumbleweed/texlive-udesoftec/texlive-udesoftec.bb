@@ -19,7 +19,7 @@ tex-udesoftec-extra.sty \
 tex-udesoftec.cls \
 texlive-udesoftec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

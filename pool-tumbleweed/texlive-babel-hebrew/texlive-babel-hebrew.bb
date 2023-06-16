@@ -48,7 +48,7 @@ tex-rlbabel.def \
 tex-si960.def \
 texlive-babel-hebrew"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

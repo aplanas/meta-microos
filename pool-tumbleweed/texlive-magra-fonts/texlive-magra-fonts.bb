@@ -116,7 +116,7 @@ font--lang=zu \
 font-magra \
 texlive-magra-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

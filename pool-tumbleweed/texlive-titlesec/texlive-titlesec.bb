@@ -18,7 +18,7 @@ tex-titlesec.sty \
 tex-titletoc.sty \
 texlive-titlesec"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

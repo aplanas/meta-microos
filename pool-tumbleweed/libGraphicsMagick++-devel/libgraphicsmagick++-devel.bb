@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "GraphicsMagick-C++-devel \
 libGraphicsMagick++-devel \
 pkgconfig-GraphicsMagick++"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 GraphicsMagick-devel \
 c++-compiler \
 libGraphicsMagick++-Q16-12 \

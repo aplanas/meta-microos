@@ -20,7 +20,7 @@ tex-beamerouterthemepureminimalistic.sty \
 tex-beamerthemepureminimalistic.sty \
 texlive-beamertheme-pure-minimalistic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

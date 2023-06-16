@@ -13,10 +13,10 @@ RPROVIDES:${PN} += "python3.10dist-qutebrowser \
 python3dist-qutebrowser \
 qutebrowser"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/node \
 /usr/bin/python3 \
+/usr/bin/sh \
 libqt5-sql-sqlite \
 python-abi \
 python3-Jinja2 \

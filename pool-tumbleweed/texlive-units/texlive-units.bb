@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-nicefrac.sty \
 tex-units.sty \
 texlive-units"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -83,7 +83,7 @@ tex-acnt-sjpjw4.enc \
 tex-acnt-z4e4wk.enc \
 texlive-accanthis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -14,7 +14,7 @@ RPM_HASH = "077509e05e0c7af1545b66ec98fc4cb8c454cfe203da15583509a8e601ea79e134fe
 RPROVIDES:${PN} += "db-utils \
 db48-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdb-4.8.so \

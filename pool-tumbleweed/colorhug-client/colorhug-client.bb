@@ -14,7 +14,7 @@ RPM_HASH = "8118e7dcbb8df7d1f35e4e876bfdce5e0a4eef387d2289dd15cf2c0a8b7bc56f6205
 
 RPROVIDES:${PN} += "colorhug-client"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

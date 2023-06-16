@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "mm-common \
 pkgconfig-mm-common-libstdc++ \
 pkgconfig-mm-common-util"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
-/usr/bin/pkg-config"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/pkg-config \
+/usr/bin/sh"
 
 inherit rpm

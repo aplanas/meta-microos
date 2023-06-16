@@ -17,8 +17,8 @@ python3.10dist-markdown2 \
 python310-markdown2 \
 python3dist-markdown2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

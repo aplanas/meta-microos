@@ -24,7 +24,7 @@ tex-hgbreport.cls \
 tex-hgbthesis.cls \
 texlive-hagenberg-thesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

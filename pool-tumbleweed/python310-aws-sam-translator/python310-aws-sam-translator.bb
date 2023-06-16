@@ -14,8 +14,8 @@ python3.10dist-aws-sam-translator \
 python310-aws-sam-translator \
 python3dist-aws-sam-translator"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-boto3 \
 python310-jsonschema \

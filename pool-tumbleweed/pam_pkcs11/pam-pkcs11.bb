@@ -26,8 +26,8 @@ RPM_HASH = "d5f1ca897a9407de53112738c32ebc78664d2a2170cfa5c1390a89dbf04fc1139844
 RPROVIDES:${PN} += "config-pam-pkcs11 \
 pam-pkcs11"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

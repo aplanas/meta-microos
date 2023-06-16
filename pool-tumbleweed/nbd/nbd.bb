@@ -25,8 +25,8 @@ RPM_HASH = "9af9da590caf4792edfaacf687a323c85cd0e99f43f164c592a8d887dd5fccfe54eb
 RPROVIDES:${PN} += "config-nbd \
 nbd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 fillup \

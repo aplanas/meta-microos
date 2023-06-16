@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-netmiko \
 python39-netmiko \
 python3dist-netmiko"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-paramiko \

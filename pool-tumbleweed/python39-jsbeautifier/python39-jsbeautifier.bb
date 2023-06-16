@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-jsbeautifier \
 python39-jsbeautifier \
 python3dist-jsbeautifier"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-EditorConfig \
 python39-setuptools \

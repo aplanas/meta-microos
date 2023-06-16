@@ -10,7 +10,7 @@ RPM_HASH = "1d4d5439c9f4db7b8193494e9cfe2d438f6b940d25f40d43f5b9e7b45b10af5aaa16
 
 RPROVIDES:${PN} += "pax-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

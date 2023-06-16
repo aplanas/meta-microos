@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-xpinyin-database.def \
 tex-xpinyin.sty \
 texlive-xpinyin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

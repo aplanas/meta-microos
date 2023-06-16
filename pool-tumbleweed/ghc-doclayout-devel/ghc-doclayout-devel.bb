@@ -10,7 +10,7 @@ RPM_HASH = "2c71dbae65544e9855be80df8527d2f728657b61df986948c30c71eb483e0afac5cf
 RPROVIDES:${PN} += "ghc-devel-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \
 ghc-doclayout-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

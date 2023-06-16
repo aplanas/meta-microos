@@ -15,8 +15,8 @@ RPM_HASH = "faa88366de6e624c94a63dbacd42ffe555e7dea8fa20b318a49a2b1d54377c5e9d40
 RPROVIDES:${PN} += "libpulsedsp.so \
 pulseaudio-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpulse-mainloop-glib0 \

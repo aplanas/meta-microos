@@ -50,8 +50,8 @@ bundled-rust-crate-users \
 config-greetd \
 greetd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/getent \
+RDEPENDS:${PN} += "/usr/bin/getent \
+/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 diffutils \

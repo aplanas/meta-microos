@@ -24,7 +24,7 @@ tex-txxdefs.tex \
 tex-txxextra.tex \
 texlive-cyrplain"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

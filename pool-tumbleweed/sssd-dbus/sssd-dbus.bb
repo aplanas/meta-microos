@@ -10,7 +10,7 @@ RPM_HASH = "228e1e869e1d7c372cf6c789e79049085ed6ca0aa1b64e0fbcabd687a572a2448fe1
 
 RPROVIDES:${PN} += "sssd-dbus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

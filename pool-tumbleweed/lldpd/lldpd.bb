@@ -21,8 +21,8 @@ RPM_HASH = "15662c372bef9b17720f34581064235ebaf46a88b7da119941e881db92e3261073aa
 RPROVIDES:${PN} += "config-lldpd \
 lldpd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

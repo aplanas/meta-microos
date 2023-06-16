@@ -13,8 +13,8 @@ python3.10dist-pytest-check-links \
 python310-pytest-check-links \
 python3dist-pytest-check-links"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-docutils \
 python310-html5lib \

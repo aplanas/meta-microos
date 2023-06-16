@@ -37,6 +37,6 @@ RPROVIDES:${PN} += "locale-el;ru \
 theano-fonts-otf \
 thessalonica-theano-otf-fonts"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

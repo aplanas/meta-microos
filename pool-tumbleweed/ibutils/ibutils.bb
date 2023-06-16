@@ -27,8 +27,8 @@ RPM_HASH = "520df13fd88c1ced49721399ca626946d6feeb4799382b38ef8158901bbf97680930
 
 RPROVIDES:${PN} += "ibutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

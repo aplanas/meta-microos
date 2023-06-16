@@ -12,7 +12,7 @@ RPM_HASH = "f893102d5230f6b6f6f13d2663ed736ce951694c45bb3a82dd7924633e6cd220179a
 
 RPROVIDES:${PN} += "caribou"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libatspi.so.0 \
 libc.so.6 \

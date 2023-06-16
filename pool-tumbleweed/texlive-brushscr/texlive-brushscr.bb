@@ -21,7 +21,7 @@ tex-pbsi8t.vf \
 tex-t1pbsi.fd \
 texlive-brushscr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ hdjmod-kmp-default-k6.3.4-1 \
 kmod-hdj-mod.ko \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-default \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "group-prometheus \
 system-user-prometheus \
 user-prometheus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

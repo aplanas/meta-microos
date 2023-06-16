@@ -12,7 +12,7 @@ RPM_HASH = "ecfcf5c1103b1da9e95f76e58bb285b8be6dcd30aa17457d90bc3e7b582157c77c3f
 
 RPROVIDES:${PN} += "pam-ssh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

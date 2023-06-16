@@ -18,7 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bats"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 gnu-parallel"
 
 inherit rpm

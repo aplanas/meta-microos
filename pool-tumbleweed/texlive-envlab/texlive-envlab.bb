@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-envlab.cfg \
 tex-envlab.sty \
 texlive-envlab"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ group-vmail \
 postfix-mysql \
 user-vmail"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 libc.so.6 \
 libmariadb.so.3 \
 postfix \

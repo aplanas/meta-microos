@@ -1270,7 +1270,7 @@ tex-spectral.map \
 tex-spectral.sty \
 texlive-spectral"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

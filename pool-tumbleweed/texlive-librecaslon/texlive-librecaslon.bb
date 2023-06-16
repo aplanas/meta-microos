@@ -270,7 +270,7 @@ tex-lcsln-zdmgtj.enc \
 tex-librecaslon.sty \
 texlive-librecaslon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

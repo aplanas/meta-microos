@@ -358,7 +358,7 @@ tex-drmuibx8.tfm \
 tex-drmuibx9.tfm \
 texlive-drm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

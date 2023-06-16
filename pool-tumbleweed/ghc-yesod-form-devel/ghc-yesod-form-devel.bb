@@ -10,7 +10,7 @@ RPM_HASH = "8bf785eb890d0368d71654db70320732cebe13ea41eaa7cc18a33b1cb8eab84d13b7
 RPROVIDES:${PN} += "ghc-devel-yesod-form-1.7.4-4xvxNC76eVrIZVDOGDISYi \
 ghc-yesod-form-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

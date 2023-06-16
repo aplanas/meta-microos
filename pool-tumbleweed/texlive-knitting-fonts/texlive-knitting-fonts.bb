@@ -118,7 +118,7 @@ font-knittingsymbols-wide-grid \
 font-knittingsymbols-wide-purl \
 texlive-knitting-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

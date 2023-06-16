@@ -10,7 +10,7 @@ RPM_HASH = "e50b9a90049f9ad988264b0a5bc52bee5c0df0f99eaf2cff0d8fdc2b91453325ad59
 
 RPROVIDES:${PN} += "dmenu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXft.so.2 \

@@ -248,7 +248,7 @@ tex-ovrlck-vvi6px.enc \
 tex-ovrlck-woxjio.enc \
 texlive-overlock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

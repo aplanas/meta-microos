@@ -19,8 +19,8 @@ RPM_HASH = "0cdf9ecca6d933cd4027bf09b38d158413dfffe55bb30b125bc7027e570a382cbb0b
 
 RPROVIDES:${PN} += "blueman"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 bluez \
 dbus-1-python3 \
 dbus-org.freedesktop.Notifications \

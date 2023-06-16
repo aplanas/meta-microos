@@ -13,7 +13,7 @@ RPM_HASH = "a5662842ad15755d69370726afe9a8084b6dc58745a9b16c52860b535879ee8cfa1e
 
 RPROVIDES:${PN} += "mold"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

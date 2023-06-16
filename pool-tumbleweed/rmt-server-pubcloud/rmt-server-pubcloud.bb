@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-rmt-server-pubcloud \
 rmt-server-configuration \
 rmt-server-pubcloud"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 rmt-server"
 
 inherit rpm

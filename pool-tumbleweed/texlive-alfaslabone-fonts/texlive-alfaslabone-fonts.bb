@@ -135,7 +135,7 @@ font--lang=zu \
 font-alphaslabone \
 texlive-alfaslabone-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -26,7 +26,7 @@ tex-t2bmtx.clo \
 tex-ts1mtx.clo \
 texlive-kerntest"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

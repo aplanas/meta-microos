@@ -14,7 +14,7 @@ RPM_HASH = "1bf68b9871a5c389fb97e1a7747e6c98ab6e8ef0a1a79864de803c4e956600e4bf9f
 RPROVIDES:${PN} += "libhandle.so.1 \
 libhandle1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

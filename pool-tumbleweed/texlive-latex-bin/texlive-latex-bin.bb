@@ -14,7 +14,7 @@ man-lualatex.1 \
 man-pdflatex.1 \
 texlive-latex-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

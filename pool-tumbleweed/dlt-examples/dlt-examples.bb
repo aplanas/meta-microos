@@ -9,7 +9,7 @@ RPM_HASH = "13c689c7a854cd477a9159d5f38ce2413056a48ae1b121e7c53b85a28c9e27c80c2e
 
 RPROVIDES:${PN} += "dlt-examples"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dlt-daemon \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

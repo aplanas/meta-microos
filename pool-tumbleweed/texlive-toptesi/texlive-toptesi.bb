@@ -31,7 +31,7 @@ tex-toptesi.cls \
 tex-toptesi.sty \
 texlive-toptesi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

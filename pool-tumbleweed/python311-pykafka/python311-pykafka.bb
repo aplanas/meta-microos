@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.11dist-pykafka \
 python311-pykafka \
 python3dist-pykafka"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-gevent \
 python311-kazoo \

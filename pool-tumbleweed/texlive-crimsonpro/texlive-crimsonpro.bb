@@ -920,7 +920,7 @@ tex-crp-ylc3fo.enc \
 tex-crp-yyrdtm.enc \
 texlive-crimsonpro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

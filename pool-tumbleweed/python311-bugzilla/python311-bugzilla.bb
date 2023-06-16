@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-python-bugzilla \
 python311-bugzilla \
 python3dist-python-bugzilla"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-requests \
 update-alternatives"

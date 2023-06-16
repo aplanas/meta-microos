@@ -21,8 +21,8 @@ python3.9dist-docker-compose \
 python39-docker-compose \
 python3dist-docker-compose"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PySocks \
 python39-PyYAML \

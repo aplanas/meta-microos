@@ -17,10 +17,10 @@ perl-MailTable--SendmailVirtuser \
 perl-SLPAPI \
 yast2"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 augeas-lenses \
 coreutils \

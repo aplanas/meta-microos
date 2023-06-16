@@ -10,9 +10,9 @@ RPM_HASH = "14067e3769c72ea8737262c48608280f40787f6c12eac14b39667eec3eb7d2e59c14
 RPROVIDES:${PN} += "perl-Yate \
 yate-scripts"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/php \
+/usr/bin/sh \
 yate"
 
 inherit rpm

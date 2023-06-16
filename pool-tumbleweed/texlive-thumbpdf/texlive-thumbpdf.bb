@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "tex-thumbpdf.sty \
 tex-thumbpdf.tex \
 texlive-thumbpdf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "config-openbox \
 openbox \
 windowmanager"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libSM.so.6 \

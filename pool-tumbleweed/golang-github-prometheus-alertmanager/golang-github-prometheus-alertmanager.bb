@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "config-golang-github-prometheus-alertmanager \
 golang-github-prometheus-alertmanager \
 prometheus-alertmanager"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-prometheus \
 user-prometheus"
 

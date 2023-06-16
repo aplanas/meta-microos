@@ -11,7 +11,7 @@ RPM_HASH = "b05964c3deadb662d28838dcaabcba85843bfbdc0e892e69c80a5c0f78a7a8fcf3ba
 RPROVIDES:${PN} += "ibus-hangul \
 locale-ibus-ko"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ibus \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

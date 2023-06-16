@@ -13,8 +13,8 @@ python3.10dist-cssmin \
 python310-cssmin \
 python3dist-cssmin"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

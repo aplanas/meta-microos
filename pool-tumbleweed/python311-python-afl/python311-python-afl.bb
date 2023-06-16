@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3.11dist-python-afl \
 python311-python-afl \
 python3dist-python-afl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 afl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -10,7 +10,7 @@ RPM_HASH = "dfe33296df4d5dc1ce1c85346d5b7439fc897a4d82f87cbd0df3f042ba1a4d2e9b3f
 RPROVIDES:${PN} += "ghc-devel-xmobar-0.46-EX7mQtJrJ088kSUMN9v7Od \
 ghc-xmobar-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-X11-1.10.3-5dCbs7YG84pBbMQ87MYXiX \
 ghc-devel-X11-xft-0.3.4-OhtRmEXzW0LH0wgHeCCWq \

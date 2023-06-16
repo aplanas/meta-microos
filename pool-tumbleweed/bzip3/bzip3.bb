@@ -17,7 +17,7 @@ RPM_HASH = "318632d540e38bbc2caea60f56e72c2626122b47a8be393d04730f49f3e78218cb48
 
 RPROVIDES:${PN} += "bzip3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbzip3.so.0 \
 libc.so.6"

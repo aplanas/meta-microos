@@ -51,7 +51,7 @@ tex-topsection.sty \
 tex-watermark.sty \
 texlive-ncctools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

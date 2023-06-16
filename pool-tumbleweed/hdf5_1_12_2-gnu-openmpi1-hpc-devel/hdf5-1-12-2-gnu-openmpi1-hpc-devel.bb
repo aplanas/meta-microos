@@ -13,7 +13,7 @@ RPM_HASH = "5cdb7de0550261d36f96a1938f608febdb32385a651c5b8b61d1caf6a2c0585c76e3
 
 RPROVIDES:${PN} += "hdf5-1-12-2-gnu-openmpi1-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-1-12-2-gnu-openmpi1-hpc \
 ld-linux-aarch64.so.1 \

@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.11dist-sphinx-theme-builder \
 python311-sphinx-theme-builder \
 python3dist-sphinx-theme-builder"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-click \
 python311-nodeenv \

@@ -11,7 +11,7 @@ RPM_HASH = "21124e304f4469f9ad1e23f30c1e18ad9ba7b2385939511809224f895d6043d4624f
 RPROVIDES:${PN} += "config-urlview \
 urlview"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libncurses.so.6 \

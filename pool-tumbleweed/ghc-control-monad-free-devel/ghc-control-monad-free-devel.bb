@@ -11,7 +11,7 @@ RPM_HASH = "ee04802c00cae2ddade49343ebf303738e7895f9772342ae8ce0b424c2a399dfe314
 RPROVIDES:${PN} += "ghc-control-monad-free-devel \
 ghc-devel-control-monad-free-0.6.2-AMlHq80A2qJLNQ8iIcl5z7"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-control-monad-free \
 ghc-devel-base-4.17.1.0 \

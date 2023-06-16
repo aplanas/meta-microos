@@ -13,7 +13,7 @@ RPM_HASH = "912b092291dd82ef3f1c8d5f60dd35b4a7b619607e5f1052a41862c2df830260d7c7
 RPROVIDES:${PN} += "authbind \
 libauthbind.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 permissions"

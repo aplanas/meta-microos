@@ -21,7 +21,7 @@ mono-nunitlite.tests \
 mono-slow-nunit-tests \
 nunit3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-System \
 mono-System.Core \
 mono-System.Web \

@@ -226,7 +226,7 @@ font-zxl \
 font-zxlr \
 texlive-newtx-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

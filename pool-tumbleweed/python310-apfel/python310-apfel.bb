@@ -13,8 +13,8 @@ python3.10dist-apfel \
 python310-apfel \
 python3dist-apfel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libAPFEL.so.0 \
 libLHAPDF-6.5.4.so \

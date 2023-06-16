@@ -31,7 +31,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-sidenotesplus.sty \
 texlive-sidenotesplus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

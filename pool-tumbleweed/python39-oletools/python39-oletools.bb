@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-oletools \
 python39-oletools \
 python3dist-oletools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-colorclass \
 python39-easygui \

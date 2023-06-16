@@ -40,7 +40,7 @@ tex-ot1frc.fd \
 tex-t1frc.fd \
 texlive-frcursive"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ liboctave.so.10 \
 liboctinterp.so.11 \
 octave-cli"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

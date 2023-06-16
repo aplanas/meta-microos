@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "libutempter.so.0 \
 libutempter0 \
 utempter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 group-utmp \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

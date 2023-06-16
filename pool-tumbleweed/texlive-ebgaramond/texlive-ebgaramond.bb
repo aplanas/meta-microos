@@ -1275,7 +1275,7 @@ tex-ebgm-zcffwk.enc \
 tex-ebgm-zor4nh.enc \
 texlive-ebgaramond"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

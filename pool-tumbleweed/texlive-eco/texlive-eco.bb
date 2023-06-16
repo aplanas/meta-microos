@@ -514,7 +514,7 @@ tex-ecovt3583.tfm \
 tex-ecovt3583.vf \
 texlive-eco"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

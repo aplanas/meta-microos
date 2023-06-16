@@ -19,7 +19,7 @@ tex-nag-orthodox.cfg \
 tex-nag.sty \
 texlive-nag"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,8 +15,8 @@ perl-INN--Config \
 perl-INN--Utils--Shlock \
 perl-innreport-inn"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 group-news \
 group-uucp \
 ld-linux-aarch64.so.1 \

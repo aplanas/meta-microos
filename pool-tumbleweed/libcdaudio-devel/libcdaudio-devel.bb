@@ -12,8 +12,8 @@ RPM_HASH = "1507a037596c5cab7e99b124947fb09fe79da1ef76657f6c396bf6ef8c7e081c8f54
 RPROVIDES:${PN} += "libcdaudio-devel \
 pkgconfig-libcdaudio"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libcdaudio1"
 
 inherit rpm

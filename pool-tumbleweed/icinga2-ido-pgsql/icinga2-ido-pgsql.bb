@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-icinga2-ido-pgsql \
 icinga2-ido-pgsql \
 libpgsql-shim.so.2.13.7"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 icinga2-bin \
 libpq.so.5 \
 libstdc++.so.6"

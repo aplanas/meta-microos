@@ -14,11 +14,11 @@ user-vnc \
 xorg-x11-Xvnc \
 xorg-x11-Xvnc-/usr/lib/vnc/with-vnc-key.sh"
 
-RDEPENDS:${PN} += "/bin/awk \
-/bin/bash \
-/bin/hostname \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
+/usr/bin/hostname \
 /usr/bin/perl \
+/usr/bin/sh \
 dbus-1-x11 \
 group-shadow \
 ld-linux-aarch64.so.1 \

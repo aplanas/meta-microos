@@ -16,8 +16,8 @@ python3.10dist-bloscpack \
 python310-bloscpack \
 python3dist-bloscpack"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-blosc \
 python310-numpy \

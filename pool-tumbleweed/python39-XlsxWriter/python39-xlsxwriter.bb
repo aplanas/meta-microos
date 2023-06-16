@@ -16,8 +16,8 @@ python3.9dist-xlsxwriter \
 python39-XlsxWriter \
 python3dist-xlsxwriter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

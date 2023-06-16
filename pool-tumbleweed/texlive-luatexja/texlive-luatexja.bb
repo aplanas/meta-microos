@@ -70,7 +70,7 @@ tex-luatexja-zhfonts.sty \
 tex-luatexja.sty \
 texlive-luatexja"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

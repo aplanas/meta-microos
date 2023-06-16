@@ -9,8 +9,8 @@ RPM_HASH = "505e687a4492f8992ebe2b42a0ee5fe6191bd66e5ceebb21400a90ef1599a431f720
 
 RPROVIDES:${PN} += "corosync-testagents"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 corosync \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

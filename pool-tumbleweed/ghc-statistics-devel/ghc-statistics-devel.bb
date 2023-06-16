@@ -10,7 +10,7 @@ RPM_HASH = "58c30067b77fc4bc56e58397af804525c8870d93d9189f512097c12481b9fdddc506
 RPROVIDES:${PN} += "ghc-devel-statistics-0.16.2.0-LfIwroNJuQDMt3pStkU86 \
 ghc-statistics-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \

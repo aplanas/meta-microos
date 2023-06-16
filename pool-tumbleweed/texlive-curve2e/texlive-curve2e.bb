@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-curve2e-v161.sty \
 tex-curve2e.sty \
 texlive-curve2e"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

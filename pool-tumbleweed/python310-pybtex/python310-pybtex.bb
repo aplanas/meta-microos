@@ -20,8 +20,8 @@ python3.10dist-pybtex \
 python310-pybtex \
 python3dist-pybtex"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-latexcodec \
 python310-pyparsing \

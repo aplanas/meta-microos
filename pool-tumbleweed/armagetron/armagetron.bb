@@ -15,8 +15,8 @@ RPM_HASH = "c4f4827fab8ce5711b7be16e5cd6ba9bbc62391fb940958a880a6a8fef4a5cc20764
 RPROVIDES:${PN} += "armagetron \
 config-armagetron"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \

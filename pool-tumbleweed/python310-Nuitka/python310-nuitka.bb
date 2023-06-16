@@ -17,8 +17,8 @@ python3.10dist-nuitka \
 python310-Nuitka \
 python3dist-nuitka"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 gcc-c++ \
 python-abi \
 python310-Jinja2 \

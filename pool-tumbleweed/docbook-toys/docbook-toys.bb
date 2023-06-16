@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "config-docbook-toys \
 docbook-tools \
 docbook-toys"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 docbook-3 \
 docbook-4 \
 docbook-dsssl-stylesheets \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-phply \
 python311-phply \
 python3dist-phply"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-ply \
 update-alternatives"

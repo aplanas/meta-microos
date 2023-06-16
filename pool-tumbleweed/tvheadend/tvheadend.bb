@@ -14,8 +14,8 @@ RPM_HASH = "d18d35d32c9c53c022e8b3cd0664eed22344bcc7ce708e70ec62a6597a5054a9fa7d
 
 RPROVIDES:${PN} += "tvheadend"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 group-video \
 ld-linux-aarch64.so.1 \
 libavahi-client.so.3 \

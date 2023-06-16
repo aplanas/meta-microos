@@ -19,7 +19,7 @@ RPM_HASH = "c4a93f0b96489ef92a93ff7baa46aad28aa8e2370e96ffc0b90e080f67b5d8208114
 
 RPROVIDES:${PN} += "openafs-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libafshcrypto.so.2 \
 libc.so.6 \

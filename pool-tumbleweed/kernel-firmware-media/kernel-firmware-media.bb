@@ -83,8 +83,8 @@ firmware-vpu-d.bin \
 firmware-vpu-p.bin \
 kernel-firmware-media"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

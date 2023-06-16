@@ -11,7 +11,7 @@ RPM_HASH = "d93a9486bdd7ab996dfcbae4673daaaf9586748545d32ffd9b767d9c7bf593491e00
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rpi4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 util-linux"
 
 inherit rpm

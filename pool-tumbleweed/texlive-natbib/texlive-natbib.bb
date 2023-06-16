@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-bibentry.sty \
 tex-natbib.sty \
 texlive-natbib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

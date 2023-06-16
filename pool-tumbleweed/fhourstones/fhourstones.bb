@@ -10,7 +10,7 @@ RPM_HASH = "9ff6b663e179cd8ae22328fd4ab8b013f1d60b82e2374dab755125b8a4acf582d4b9
 
 RPROVIDES:${PN} += "fhourstones"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

@@ -18,8 +18,8 @@ python311-FontTools \
 python311-fonttools \
 python3dist-fonttools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-fs \
 update-alternatives"

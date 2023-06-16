@@ -16,7 +16,7 @@ tex-icelandic.tfm \
 tex-staves.sty \
 texlive-staves"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

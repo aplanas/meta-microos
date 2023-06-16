@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "perl-Test--YAML \
 perl-Test--YAML--Filter \
 perl-Test-YAML"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 perl--MODULE-COMPAT-5.36.0 \
 perl-Test--Base"
 

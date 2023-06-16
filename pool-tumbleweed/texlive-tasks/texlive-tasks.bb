@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-tasks.cfg \
 tex-tasks.sty \
 texlive-tasks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

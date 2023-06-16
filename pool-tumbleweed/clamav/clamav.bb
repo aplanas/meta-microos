@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "clamav \
 clamav-nodb \
 config-clamav"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-vscan \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

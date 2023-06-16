@@ -30,7 +30,7 @@ tex-amstext.sty \
 tex-amsxtra.sty \
 texlive-amsmath"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

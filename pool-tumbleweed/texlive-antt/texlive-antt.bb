@@ -447,7 +447,7 @@ tex-wncy-anttr.tfm \
 tex-wncy-anttri.tfm \
 texlive-antt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

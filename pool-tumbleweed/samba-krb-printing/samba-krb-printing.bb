@@ -10,7 +10,7 @@ RPM_HASH = "a7b6f0ec9fa8601299c6e8db6911161677e4818639e9794c9ad98b915d4720497d40
 RPROVIDES:${PN} += "samba-gplv3-krb-printing \
 samba-krb-printing"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 cups \
 libc.so.6 \

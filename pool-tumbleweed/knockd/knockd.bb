@@ -17,7 +17,7 @@ RPM_HASH = "d1a8eeef0c7daf01eac6161725ee4196be004591f5cc906a9a47824f23390ae02b69
 RPROVIDES:${PN} += "config-knockd \
 knockd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcap.so.1 \

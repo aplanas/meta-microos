@@ -30,8 +30,8 @@ RPM_HASH = "0fd4029df7aeadc8d007cdd8f44f20fe63eec1352831790b39ac879a71e5ee68fcb5
 RPROVIDES:${PN} += "config-tor \
 tor"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

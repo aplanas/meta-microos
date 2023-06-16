@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "python3.11dist-python-ldap \
 python311-ldap \
 python3dist-python-ldap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblber.so.2 \

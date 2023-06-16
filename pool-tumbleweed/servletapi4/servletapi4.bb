@@ -14,7 +14,7 @@ servlet22 \
 servlet4 \
 servletapi4"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/update-alternatives"
 
 inherit rpm

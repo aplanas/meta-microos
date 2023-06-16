@@ -36,8 +36,8 @@ tex-fontools-ts1.enc \
 tex-fontools-ts3.enc \
 texlive-fontools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

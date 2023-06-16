@@ -10,7 +10,7 @@ RPM_HASH = "1931e6ec657b4ba939f07cb96fd5543dfbd6b8adfa7d555c32c2ebe3281235422347
 RPROVIDES:${PN} += "ibus-gtk4 \
 libim-ibus.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glib2-tools \
 ibus \
 ld-linux-aarch64.so.1 \

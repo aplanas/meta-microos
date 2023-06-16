@@ -11,7 +11,7 @@ RPM_HASH = "3bd8c63471173c6c5f3a8109448b4b1708400ae77f4130b1b6eb2c32499dbaf64dcb
 RPROVIDES:${PN} += "ghc-devel-prettyprinter-ansi-terminal-1.1.3-QQli2Jew8AdEXEsQuhGa \
 ghc-prettyprinter-ansi-terminal-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
 ghc-devel-base-4.17.1.0 \

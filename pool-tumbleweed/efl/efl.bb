@@ -85,8 +85,8 @@ libevas1 \
 libexactness-play.so.1 \
 libexactness-record.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libBulletCollision.so.3.17 \
 libBulletDynamics.so.3.17 \

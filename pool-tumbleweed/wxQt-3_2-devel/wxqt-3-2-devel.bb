@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "wxQt-3-2-devel \
 wxQt-devel \
 wxWidgets-any-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

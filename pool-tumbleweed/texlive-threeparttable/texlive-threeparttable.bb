@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-3parttable.sty \
 tex-threeparttable.sty \
 texlive-threeparttable"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3.11dist-python-dmidecode \
 python311-dmidecode \
 python3dist-python-dmidecode"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libxml2.so.2 \

@@ -54,7 +54,7 @@ tex-rusfonts.tex \
 tex-statya.tex \
 texlive-lhcyr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

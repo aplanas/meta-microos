@@ -11,8 +11,8 @@ RPM_HASH = "9e57e64553e3098f50be70189ab7efed827de1e224f8a382b59d371260e2a61d1bc1
 RPROVIDES:${PN} += "config-galene \
 galene"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fdupes \
 filesystem \

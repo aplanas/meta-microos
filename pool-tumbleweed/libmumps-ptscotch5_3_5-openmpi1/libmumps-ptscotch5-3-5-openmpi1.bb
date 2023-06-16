@@ -21,7 +21,7 @@ libpord-ptscotch.so.5.3.5 \
 libsmumps-ptscotch.so.5.3.5 \
 libzmumps-ptscotch.so.5.3.5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblacs.so.2.1.0 \
 libblacs2-openmpi1 \

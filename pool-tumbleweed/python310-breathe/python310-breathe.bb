@@ -16,8 +16,8 @@ python310-breathe \
 python310-sphinxcontrib-breathe \
 python3dist-breathe"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Sphinx \
 python310-docutils \

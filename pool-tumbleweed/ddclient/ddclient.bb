@@ -20,9 +20,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-ddclient \
 ddclient"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 curl \
 fillup \

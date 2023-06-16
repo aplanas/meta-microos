@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-coredns-for-k8s1.21-extras \
 coredns-extras-for-k8s \
 coredns-for-k8s1.21-extras"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coredns-for-k8s1.21"
 
 inherit rpm

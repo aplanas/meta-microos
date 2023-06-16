@@ -13,7 +13,7 @@ RPM_HASH = "8bb7b0cfca06a9126e163ca5d36a2ca8fbf08551897f06e6dab35ca40b87d57db1cf
 RPROVIDES:${PN} += "hexchat \
 xchat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

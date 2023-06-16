@@ -20,7 +20,7 @@ tex-gfdl-tex-1p3.tex \
 tex-gfdl.sty \
 texlive-gfdl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

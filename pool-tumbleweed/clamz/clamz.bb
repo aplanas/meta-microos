@@ -13,7 +13,7 @@ RPM_HASH = "1481328e25ca7658330ccd27d2f53e51afc25ee0a0c672702398a2021183c3c98e99
 
 RPROVIDES:${PN} += "clamz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

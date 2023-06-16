@@ -14,7 +14,7 @@ postgresql13-address-standardizer \
 postgresql13-postgis \
 postgresql13-postgis-llvmjit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSFCGAL.so.1 \
 libc.so.6 \

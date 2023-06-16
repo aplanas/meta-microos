@@ -18,8 +18,8 @@ python3.10dist-slimit \
 python310-slimit \
 python3dist-slimit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-ply \
 python310-setuptools \

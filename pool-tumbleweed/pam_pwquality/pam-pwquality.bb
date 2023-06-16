@@ -10,7 +10,7 @@ RPM_HASH = "803fe6357f39d2c42f79ae9d151cd0bf842c73ff7ac52222ff8236dded7ce235ca0b
 
 RPROVIDES:${PN} += "pam-pwquality"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpam.so.0 \

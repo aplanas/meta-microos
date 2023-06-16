@@ -14,7 +14,7 @@ RPM_HASH = "bb75313d3919fbb3ac3ea13bf4fb3cbc5891667178042b160b7fb1ef15d4305e45e1
 
 RPROVIDES:${PN} += "deepin-feature-enable"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 deepin-daemon-dbus \
 deepin-daemon-polkit"
 

@@ -32,7 +32,7 @@ tex-datetime2-english-base.ldf \
 tex-datetime2-english.ldf \
 texlive-datetime2-english"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

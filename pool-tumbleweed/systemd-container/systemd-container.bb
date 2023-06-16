@@ -20,9 +20,9 @@ nss-mymachines \
 systemd-/usr/bin/systemd-nspawn \
 systemd-container"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/gpg \
+/usr/bin/sh \
 /usr/bin/tar \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \

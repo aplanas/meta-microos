@@ -15,7 +15,7 @@ tex-chronosyschr.tex \
 tex-x-chronosys.tex \
 texlive-chronosys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,8 +16,8 @@ rpm-macro--pesign-client \
 rpm-macro-pesign \
 user-pesign"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libefivar.so.1 \

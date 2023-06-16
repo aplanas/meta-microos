@@ -24,8 +24,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "storeBackup"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 bzip2 \
 e2fsprogs \
 fileutils \

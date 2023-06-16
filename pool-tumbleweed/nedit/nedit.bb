@@ -12,7 +12,7 @@ RPM_HASH = "1ea84cd59ef858dec22000d741f56733778f5ffdc7901dfb0344f7dd4fa2ade9eb42
 
 RPROVIDES:${PN} += "nedit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXm.so.4 \

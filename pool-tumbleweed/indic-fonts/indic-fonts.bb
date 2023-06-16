@@ -203,7 +203,7 @@ scalable-font-mr \
 scalable-font-pa \
 scalable-font-ta"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

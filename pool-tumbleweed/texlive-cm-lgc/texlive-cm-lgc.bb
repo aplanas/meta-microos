@@ -386,7 +386,7 @@ tex-ut1fcs.fd \
 tex-ut1fct.fd \
 texlive-cm-lgc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

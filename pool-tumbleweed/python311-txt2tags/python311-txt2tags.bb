@@ -18,8 +18,8 @@ python311-txt2tags \
 python3dist-txt2tags \
 txt2tags"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 update-alternatives"

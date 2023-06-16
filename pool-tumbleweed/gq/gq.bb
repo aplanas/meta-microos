@@ -9,7 +9,7 @@ RPM_HASH = "2243f1f8f981f41641f6ad72bedb798bdf84d18f88e0a69209f9e0f7490eae3c4460
 
 RPROVIDES:${PN} += "gq"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-contourplot.sty \
 tex-pst-contourplot.tex \
 texlive-pst-contourplot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

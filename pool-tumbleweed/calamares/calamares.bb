@@ -44,8 +44,8 @@ libcalamares-viewmodule-welcomeq.so \
 libcalamares.so.3.2.36 \
 libcalamaresui.so.3.2.36"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 NetworkManager \
 calamares-branding \
 console-setup \

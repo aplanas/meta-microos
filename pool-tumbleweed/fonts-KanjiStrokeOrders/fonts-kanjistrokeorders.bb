@@ -137,7 +137,7 @@ font-kanjistrokeorders \
 fonts-KanjiStrokeOrders \
 kdeedu4-%{-kde4-datadir}/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

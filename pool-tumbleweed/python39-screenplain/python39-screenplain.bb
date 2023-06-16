@@ -24,8 +24,8 @@ RPROVIDES:${PN} += "python3.9dist-screenplain \
 python39-screenplain \
 python3dist-screenplain"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-reportlab \
 update-alternatives"

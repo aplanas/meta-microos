@@ -17,7 +17,7 @@ python3.10dist-maturin \
 python310-maturin \
 python3dist-maturin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

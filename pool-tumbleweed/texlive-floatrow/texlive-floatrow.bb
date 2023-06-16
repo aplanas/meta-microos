@@ -22,7 +22,7 @@ tex-fr-subfig.sty \
 tex-listpen.sty \
 texlive-floatrow"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

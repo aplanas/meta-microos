@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-unicodefont.tex \
 tex-unicodefonttable.sty \
 texlive-unicodefonttable"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ RPM_HASH = "25235ef7fa4e050ced782f709683a45ccbcfa0cf850dc6fa507c8f1bd00f255b5c53
 RPROVIDES:${PN} += "cluster-glue-devel \
 libglue-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cluster-glue-libs \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

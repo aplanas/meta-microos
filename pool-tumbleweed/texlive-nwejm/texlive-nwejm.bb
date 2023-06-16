@@ -26,7 +26,7 @@ tex-nwejm.lbx \
 tex-nwejmart.cls \
 texlive-nwejm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

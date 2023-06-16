@@ -37,8 +37,8 @@ python3.10dist-odfpy \
 python310-odfpy \
 python3dist-odfpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-defusedxml \
 update-alternatives"

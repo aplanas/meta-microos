@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxodraw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java \
 javapackages-tools"
 

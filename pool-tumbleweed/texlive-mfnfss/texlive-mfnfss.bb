@@ -22,7 +22,7 @@ tex-uyinit.fd \
 tex-uyswab.fd \
 texlive-mfnfss"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

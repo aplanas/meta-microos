@@ -23,8 +23,8 @@ python310-Parsley \
 python310-parsley \
 python3dist-parsley"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

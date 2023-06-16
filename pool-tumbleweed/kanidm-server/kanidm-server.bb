@@ -10,7 +10,7 @@ RPM_HASH = "3508475b7fb18c739d5f8b3d63f7f165dd25c58d2e067b0001059fbaad1797027bdb
 RPROVIDES:${PN} += "config-kanidm-server \
 kanidm-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kanidm-clients \
 libc.so.6 \
 libcrypto.so.3 \

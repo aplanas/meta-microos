@@ -150,7 +150,7 @@ tex-charssil-tlf-ts1.vf \
 tex-charssil.map \
 texlive-charissil"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

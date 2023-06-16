@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pypi-search \
 python39-pypi-search \
 python3dist-pypi-search"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-beautifulsoup4 \
 python39-html2text \

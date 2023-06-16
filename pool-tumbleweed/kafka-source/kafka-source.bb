@@ -9,8 +9,8 @@ RPM_HASH = "c5697051f4b123121e51e38d5f0aab7f4753fd783f49050ef1392ba65e2be3341ca3
 
 RPROVIDES:${PN} += "kafka-source"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/env"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
+/usr/bin/sh"
 
 inherit rpm

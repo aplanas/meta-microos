@@ -21,7 +21,7 @@ RPM_HASH = "2dc73f456adcce40deeef95e6dd487710978ae0e60952d69f6d192c07d1214947bc6
 RPROVIDES:${PN} += "config-numad \
 numad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

@@ -10,11 +10,11 @@ RPM_HASH = "cc134ecefd821d22a9b770421a806d70322af2374de4dd260d495998ffc42a6f4fc6
 RPROVIDES:${PN} += "config-icecream \
 icecream"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/bin/tar \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/bzip2 \
 /usr/bin/mkdir \
+/usr/bin/sh \
+/usr/bin/tar \
 /usr/bin/touch \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \

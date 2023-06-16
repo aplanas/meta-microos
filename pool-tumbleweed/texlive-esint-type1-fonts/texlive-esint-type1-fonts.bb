@@ -101,7 +101,7 @@ font--lang=zu \
 font-esint10 \
 texlive-esint-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

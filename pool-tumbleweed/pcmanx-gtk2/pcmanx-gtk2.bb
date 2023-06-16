@@ -13,7 +13,7 @@ RPM_HASH = "9916f7aaa23078fdfe213c4568a428a56b877350dcbb74b75797de62da4e863ac533
 
 RPROVIDES:${PN} += "pcmanx-gtk2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

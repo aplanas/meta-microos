@@ -15,8 +15,8 @@ python39-ipdb \
 python39-jupyter-ipdb \
 python3dist-ipdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-decorator \
 update-alternatives"

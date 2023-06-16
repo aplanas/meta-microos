@@ -226,7 +226,7 @@ tex-crlt-zisnlb.enc \
 tex-crlt-zmzg5w.enc \
 texlive-carlito"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

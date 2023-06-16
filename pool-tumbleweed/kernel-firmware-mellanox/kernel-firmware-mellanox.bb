@@ -75,8 +75,8 @@ firmware-mellanox/mlxsw-spectrum3-30.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3146.mfa2 \
 kernel-firmware-mellanox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

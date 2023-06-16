@@ -16,7 +16,7 @@ tex-datetime2-welsh-utf8.ldf \
 tex-datetime2-welsh.ldf \
 texlive-datetime2-welsh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

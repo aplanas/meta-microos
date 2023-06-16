@@ -49,7 +49,7 @@ tex-dozenal.sty \
 tex-gray.tfm \
 texlive-dozenal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

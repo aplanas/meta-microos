@@ -14,7 +14,7 @@ tex-hyph-quote-be.tex \
 tex-loadhyph-be.tex \
 texlive-hyphen-belarusian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

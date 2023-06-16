@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-catoptions-guide.cfg \
 tex-catoptions.sty \
 texlive-catoptions"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

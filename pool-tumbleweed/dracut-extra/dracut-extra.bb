@@ -10,7 +10,7 @@ RPM_HASH = "a2a2ee17470adf1031f52c0341cde067504cd0a381d3e542a336794eacf095997350
 
 RPROVIDES:${PN} += "dracut-extra"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 dracut \
 evmctl \
 keyutils"

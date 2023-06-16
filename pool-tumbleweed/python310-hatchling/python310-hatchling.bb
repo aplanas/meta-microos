@@ -13,8 +13,8 @@ python3.10dist-hatchling \
 python310-hatchling \
 python3dist-hatchling"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-editables \
 python310-packaging \

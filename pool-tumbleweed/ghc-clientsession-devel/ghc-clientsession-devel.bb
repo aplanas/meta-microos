@@ -10,7 +10,7 @@ RPM_HASH = "e8382c10174b52216c163ef7943faebaaa8e6a4a72df422cbf5b2cea4e99b478fcee
 RPROVIDES:${PN} += "ghc-clientsession-devel \
 ghc-devel-clientsession-0.9.1.2-Jnvj5vMN6iR9xGMf6HxcGE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-clientsession \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

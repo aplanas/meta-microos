@@ -16,8 +16,8 @@ python311-cepa \
 python311-stem \
 python3dist-cepa"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-cryptography \
 update-alternatives"

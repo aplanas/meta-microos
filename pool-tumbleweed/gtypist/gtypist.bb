@@ -23,8 +23,8 @@ RPM_HASH = "8b2d88a6a3b0351edc594af79220321df5f5dee1a96d3f5474d4c3274ba03cfc2116
 
 RPROVIDES:${PN} += "gtypist"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libncursesw.so.6 \

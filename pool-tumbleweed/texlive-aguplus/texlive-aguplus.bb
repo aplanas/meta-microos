@@ -17,7 +17,7 @@ tex-aguplus.sty \
 tex-agupp.sty \
 texlive-aguplus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

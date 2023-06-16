@@ -14,7 +14,7 @@ RPM_HASH = "6bbe673e9c7455541bd59af8a3914adff6dc729d3ad7f7bfa9536c343956c3d82ac0
 RPROVIDES:${PN} += "locale-gtk2-ta \
 tamil-gtk2im"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/touch \
 gtk2 \
 gtk2-tools \

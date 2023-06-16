@@ -9,7 +9,7 @@ RPM_HASH = "629f728f24138987a2ca417b61b14a62ebabcf324f42b2d27752564d5ba37bdd13a7
 
 RPROVIDES:${PN} += "buildkit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 containerd \
 libc.so.6 \
 runc"

@@ -33,8 +33,8 @@ pkgconfig-libxine \
 xine-devel \
 xine-lib2-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 freetype2-devel \
 glibc-devel \
 libv4l-devel \

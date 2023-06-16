@@ -42,8 +42,8 @@ RPROVIDES:${PN} += "python3.9dist-wfuzz \
 python39-wfuzz \
 python3dist-wfuzz"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

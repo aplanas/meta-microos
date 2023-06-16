@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-getmac \
 python311-getmac \
 python3dist-getmac"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

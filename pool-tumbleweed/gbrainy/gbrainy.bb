@@ -27,7 +27,7 @@ mono-gbrainy \
 mono-gbrainy.Core \
 mono-gbrainy.Games"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 mono-Mono.CSharp \
 mono-Mono.Posix \
 mono-System \

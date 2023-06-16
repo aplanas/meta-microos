@@ -295,7 +295,7 @@ tex-worldflag-ZW.tex \
 tex-worldflags.sty \
 texlive-worldflags"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

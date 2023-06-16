@@ -19,8 +19,8 @@ python310-nbconvert \
 python3dist-nbconvert"
 
 RDEPENDS:${PN} += "-python310-mistune >= 2.0.3 with python310-mistune < 3 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 jupyter-nbconvert \
 python-abi \

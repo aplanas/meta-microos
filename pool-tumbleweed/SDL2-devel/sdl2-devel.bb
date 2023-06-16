@@ -13,8 +13,8 @@ cmake-sdl2 \
 libSDL2-devel \
 pkgconfig-sdl2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 c-compiler \
 libSDL2-2-0-0 \
 pkgconfig \

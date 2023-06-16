@@ -28,9 +28,9 @@ RPROVIDES:${PN} += "python3.9dist-translate-toolkit \
 python39-translate-toolkit \
 python3dist-translate-toolkit"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 gettext-runtime \
 python-abi \
 python39 \

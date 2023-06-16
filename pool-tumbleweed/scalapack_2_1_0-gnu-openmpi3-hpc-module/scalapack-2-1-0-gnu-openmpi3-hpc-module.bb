@@ -9,6 +9,6 @@ RPM_HASH = "a327209eb1defd757020a3d26367e80215b7aca50b1f83fd469437a30e99d87842a5
 
 RPROVIDES:${PN} += "scalapack-2-1-0-gnu-openmpi3-hpc-module"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "man-luajithbtex.1 \
 man-luajittex.1 \
 texlive-luajittex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,8 +15,8 @@ RPM_HASH = "8dc8da2a383733054b61e9578af7bc51f753db0de443355109a6613abb3f275e9300
 
 RPROVIDES:${PN} += "etcd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 sysuser-shadow"

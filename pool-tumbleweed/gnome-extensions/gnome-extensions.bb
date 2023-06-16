@@ -9,7 +9,7 @@ RPM_HASH = "33bf1f3100c4e10a037fd79d2af8d429e53c18e3a9c5a664d27b7ef03a70ec1f2850
 
 RPROVIDES:${PN} += "gnome-extensions"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnome-shell \
 typelib-Adw \
 typelib-GLib \

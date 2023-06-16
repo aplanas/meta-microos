@@ -9,7 +9,7 @@ RPM_HASH = "c385508395fb06d7a1b36fe5ab1a53b4820939b85dd6665eff41797ab6e7c7f26e78
 
 RPROVIDES:${PN} += "xosd-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 xosd"
 
 inherit rpm

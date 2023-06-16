@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-braids.sty \
 tex-tikzlibrarybraids.code.tex \
 texlive-braids"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

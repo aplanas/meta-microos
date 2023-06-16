@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-eps.sty \
 tex-pst-eps.tex \
 texlive-pst-eps"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

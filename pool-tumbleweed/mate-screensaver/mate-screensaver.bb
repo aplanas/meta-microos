@@ -11,7 +11,7 @@ RPM_HASH = "51acc7cf71e418ef82d47a4856dceffa374af3cf7fa5151e9ad8b291571b550eb97c
 RPROVIDES:${PN} += "config-mate-screensaver \
 mate-screensaver"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libX11.so.6 \

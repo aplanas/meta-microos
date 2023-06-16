@@ -23,7 +23,7 @@ RPM_HASH = "c3e7abc81492ae965f85cd2940fbe83a2678e2750a212cef513d461b10358197d067
 
 RPROVIDES:${PN} += "nxtvepg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXmu.so.6 \

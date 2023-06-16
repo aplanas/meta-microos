@@ -9,7 +9,7 @@ RPM_HASH = "1c8fbc227f197ce537f991184b032ce8fd34f462fb06c5cd9936ec896c7850466d5c
 
 RPROVIDES:${PN} += "bpm-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnuplot \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

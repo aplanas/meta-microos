@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pagerange-guide.cfg \
 tex-pagerange.sty \
 texlive-pagerange"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

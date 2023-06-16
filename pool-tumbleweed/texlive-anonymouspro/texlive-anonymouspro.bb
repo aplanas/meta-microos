@@ -69,7 +69,7 @@ tex-ts1anonymouspro.fd \
 tex-uanonymouspro.fd \
 texlive-anonymouspro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,7 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vtcl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 tcl \
 tix \
 tk \

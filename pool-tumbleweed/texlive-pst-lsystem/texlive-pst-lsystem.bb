@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-lsystem.sty \
 tex-pst-lsystem.tex \
 texlive-pst-lsystem"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

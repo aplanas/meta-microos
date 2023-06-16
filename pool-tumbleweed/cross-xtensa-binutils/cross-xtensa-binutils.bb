@@ -11,7 +11,7 @@ RPM_HASH = "c9e41389884fb8973b0f789307b2aade11d4bd040f65441f6627e73735f51b2aa892
 
 RPROVIDES:${PN} += "cross-xtensa-binutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \

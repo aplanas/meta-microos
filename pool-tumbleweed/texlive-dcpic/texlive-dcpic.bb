@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-dcpic.sty \
 tex-europroc.cls \
 texlive-dcpic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

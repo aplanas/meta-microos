@@ -13,7 +13,7 @@ man-latexdiff.1 \
 man-latexrevise.1 \
 texlive-latexdiff-doc"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3"
 

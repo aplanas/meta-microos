@@ -16,7 +16,7 @@ j2ee-connector-api \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-connector-1.5-spec \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-connector-1.5-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 jta-1-0-1B-api \

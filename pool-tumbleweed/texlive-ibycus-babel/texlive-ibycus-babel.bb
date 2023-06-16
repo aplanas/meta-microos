@@ -20,7 +20,7 @@ tex-lgienc.def \
 tex-lgifib.fd \
 texlive-ibycus-babel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -18,7 +18,7 @@ RPM_HASH = "73cee8716a2338bc03289b6e01495714322541fbd059430864d5921d49ea9240c4ba
 
 RPROVIDES:${PN} += "peazip"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libQt5Pas.so.1 \
 libX11.so.6 \
 libc.so.6 \

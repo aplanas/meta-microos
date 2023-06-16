@@ -70,7 +70,7 @@ bundled-golang(golang.org/x/sys) \
 bundled-golang(gopkg.in/warnings.v0) \
 config-amazon-ssm-agent"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 systemd"
 
 inherit rpm

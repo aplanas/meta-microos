@@ -13,8 +13,8 @@ python39-pyBarcode \
 python39-python-barcode \
 python3dist-python-barcode"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 dejavu-fonts \
 python-abi \
 update-alternatives"

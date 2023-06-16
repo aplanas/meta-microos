@@ -9,7 +9,7 @@ RPM_HASH = "e2dd87825d903d0b13956c36da3e5c3f65662bb0ba514068fb7478eec05cca0ca601
 
 RPROVIDES:${PN} += "sudo-test"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sudo"
 
 inherit rpm

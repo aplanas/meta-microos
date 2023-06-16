@@ -59,7 +59,7 @@ tex-uni.sty \
 tex-uuni.fd \
 texlive-universa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

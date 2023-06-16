@@ -11,8 +11,8 @@ RPM_HASH = "619ad14564381f95b895e647337e1b0eefeff6e155be9cf30b8e871205b3fec98ca5
 
 RPROVIDES:${PN} += "ocr-1-0-1-gnu-openmpi3-hpc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 gnu-compilers-hpc \
 libc.so.6 \
 libopenmpi3-gnu-hpc \

@@ -32,8 +32,8 @@ perl-Remind--PDF--Entry--week \
 perl-Remind--PDF--Multi \
 remind"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

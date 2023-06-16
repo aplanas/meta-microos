@@ -18,8 +18,8 @@ python310-ipdb \
 python310-jupyter-ipdb \
 python3dist-ipdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-decorator \
 update-alternatives"

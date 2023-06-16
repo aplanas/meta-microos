@@ -225,7 +225,7 @@ tex-t4fcr.fd \
 tex-t4phonet.sty \
 texlive-fc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

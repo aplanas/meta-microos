@@ -29,7 +29,7 @@ RPROVIDES:${PN} += "libjvmpi-oprofile.so \
 libjvmti-oprofile.so \
 oprofile"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1 \

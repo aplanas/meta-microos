@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-sshtunnel \
 python39-sshtunnel \
 python3dist-sshtunnel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 openssh \
 python-abi \
 python39-paramiko"

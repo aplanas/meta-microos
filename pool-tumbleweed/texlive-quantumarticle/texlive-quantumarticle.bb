@@ -26,7 +26,7 @@ RPROVIDES:${PN} += "tex-quantumarticle.cls \
 tex-quantumview.cls \
 texlive-quantumarticle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

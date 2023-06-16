@@ -91,7 +91,7 @@ tex-yrdriw8t.tfm \
 tex-yrdriw8t.vf \
 texlive-romande"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

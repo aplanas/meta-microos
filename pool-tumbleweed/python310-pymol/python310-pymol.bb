@@ -26,8 +26,8 @@ python3.10dist-pymol \
 python310-pymol \
 python3dist-pymol"
 
-RDEPENDS:${PN} += "/bin/csh \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/csh \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLEW.so.2.2 \

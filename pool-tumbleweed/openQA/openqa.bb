@@ -148,9 +148,9 @@ perl-OpenQA--WebSockets--Model--Status \
 perl-OpenQA--WebSockets--Plugin--Helpers \
 user-geekotest"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 bsdtar \
 coreutils \
 git-core \

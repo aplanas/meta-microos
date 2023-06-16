@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-confpy \
 python311-confpy \
 python3dist-confpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

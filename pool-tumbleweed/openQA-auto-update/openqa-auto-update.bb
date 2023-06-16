@@ -10,8 +10,8 @@ RPM_HASH = "5d1abdb0555ce2a7bb4c000fc99a87d940400a6abea758a2e5d2f0158fc9b3360331
 
 RPROVIDES:${PN} += "openQA-auto-update"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 curl \
 openQA-common \
 rebootmgr"

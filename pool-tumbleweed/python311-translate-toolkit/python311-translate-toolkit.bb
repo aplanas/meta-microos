@@ -28,9 +28,9 @@ RPROVIDES:${PN} += "python3.11dist-translate-toolkit \
 python311-translate-toolkit \
 python3dist-translate-toolkit"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 gettext-runtime \
 python-abi \
 python311 \

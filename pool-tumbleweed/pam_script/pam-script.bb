@@ -13,7 +13,7 @@ RPM_HASH = "0f719fea1f967f79d67d8d402ff55d7ca8001f87b206deefb9ec22feb3d3f2dae457
 RPROVIDES:${PN} += "config-pam-script \
 pam-script"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpam.so.0"

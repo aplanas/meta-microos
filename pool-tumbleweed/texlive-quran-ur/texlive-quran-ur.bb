@@ -21,7 +21,7 @@ tex-qurantext-urvii.translation.def \
 tex-qurantext-urviii.translation.def \
 texlive-quran-ur"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

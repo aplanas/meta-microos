@@ -16,7 +16,7 @@ tex-cmpj2.sty \
 tex-cmpj3.sty \
 texlive-cmpj"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

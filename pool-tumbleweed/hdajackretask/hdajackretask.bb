@@ -10,7 +10,7 @@ RPM_HASH = "3aa7b1659ee389c0629989d8f7e2c4d226d53f7a75a0fabc89a5c518e9b495e8a87a
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/hdajackretask \
 hdajackretask"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

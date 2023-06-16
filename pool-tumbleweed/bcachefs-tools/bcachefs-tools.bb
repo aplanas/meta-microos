@@ -23,8 +23,8 @@ RPM_HASH = "bc692d205bc34d2efa63d810820ef91d559980adb69f95b400f9893127bf5c48ead3
 RPROVIDES:${PN} += "bcachefs-tools \
 libbcachefs.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libblkid.so.1 \

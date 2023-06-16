@@ -169,7 +169,7 @@ libwebp.so \
 libxcf.so \
 libzonesystem.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 iso-codes \
 ld-linux-aarch64.so.1 \
 libIex-3-1.so.30 \

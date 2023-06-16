@@ -17,9 +17,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "votca-csg-tutorials \
 votca-tutorials"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python2 \
-/usr/bin/python3"
+/usr/bin/python3 \
+/usr/bin/sh"
 
 inherit rpm

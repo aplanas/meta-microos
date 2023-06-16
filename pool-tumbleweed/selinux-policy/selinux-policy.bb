@@ -27,7 +27,7 @@ rpm-macro-selinux-set-booleans \
 rpm-macro-selinux-unset-booleans \
 selinux-policy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/sha512sum \
 pam-config \
 policycoreutils \

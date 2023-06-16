@@ -14,8 +14,8 @@ openscap-report \
 python3.10dist-openscap-report \
 python3dist-openscap-report"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-Jinja2 \
 python3-lxml"

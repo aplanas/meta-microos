@@ -22,8 +22,8 @@ python3.10dist-stdeb \
 python310-stdeb \
 python3dist-stdeb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 debhelper \
 dpkg \
 fakeroot \

@@ -17,7 +17,7 @@ tex-beamerouterthemelalic.sty \
 tex-beamerthemelalic.sty \
 texlive-beamerthemelalic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

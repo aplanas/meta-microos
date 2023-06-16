@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "baekmuk \
 baekmuk-bitmap-fonts \
 locale-xorg-x11-ko"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

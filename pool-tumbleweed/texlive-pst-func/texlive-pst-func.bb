@@ -30,7 +30,7 @@ RPROVIDES:${PN} += "tex-pst-func.sty \
 tex-pst-func.tex \
 texlive-pst-func"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

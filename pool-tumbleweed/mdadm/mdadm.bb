@@ -9,9 +9,9 @@ RPM_HASH = "ce4869df4da07eabe5db1feddf6d617cdaf6f7fee8833359ba0f2565d28b085fdf5d
 
 RPROVIDES:${PN} += "mdadm"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 fillup \

@@ -10,7 +10,7 @@ RPM_HASH = "ba6eb3cd06dbb6c19b5de897d9b0bb64075a923c7320d28f41a965d32ca0e0efb428
 
 RPROVIDES:${PN} += "openSUSE-appstream-process"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 appstream-glib \
 openSUSE-appdata-extra"
 

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "cinnamon-branding-openSUSE \
 cinnamon-gschemas-branding \
 cinnamon-gschemas-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cinnamon-gschemas \
 cinnamon-themes \
 libgnomesu"

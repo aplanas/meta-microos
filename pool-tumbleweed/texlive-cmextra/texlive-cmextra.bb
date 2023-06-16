@@ -35,7 +35,7 @@ tex-gen8.tfm \
 tex-gen9.tfm \
 texlive-cmextra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

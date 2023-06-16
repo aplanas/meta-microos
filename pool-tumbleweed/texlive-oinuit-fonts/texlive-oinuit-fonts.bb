@@ -34,7 +34,7 @@ font-computer \
 font-inuit \
 texlive-oinuit-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

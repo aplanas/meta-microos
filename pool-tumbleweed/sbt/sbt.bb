@@ -86,7 +86,7 @@ mvn-org.scala-sbt-tracking \
 mvn-org.scala-sbt-tracking-pom- \
 sbt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apache-commons-lang3 \
 apache-ivy \
 atinject \

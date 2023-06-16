@@ -22,7 +22,7 @@ tex-tikzposterNotestyles.tex \
 tex-tikzposterTitlestyles.tex \
 texlive-tikzposter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

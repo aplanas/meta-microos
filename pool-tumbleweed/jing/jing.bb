@@ -25,7 +25,7 @@ mvn-com.thaiopensource-jing \
 mvn-org.relaxng-jing \
 mvn-org.relaxng-jing-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 jpackage-utils \

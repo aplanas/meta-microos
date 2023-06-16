@@ -18,7 +18,7 @@ tex-luatexconfig.tex \
 tex-pdftexconfig.tex \
 texlive-tex-ini-files"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

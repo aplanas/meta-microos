@@ -16,7 +16,7 @@ RPM_HASH = "1401ee4179197288ab0d124ba9d465bad6540f0f29f8e8edb01bee790bf125bd338c
 RPROVIDES:${PN} += "config-trojan \
 trojan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-program-options.so.1.82.0 \
 libc.so.6 \

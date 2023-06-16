@@ -10,7 +10,7 @@ RPM_HASH = "5a8bdd15ca68802e4f3e1dc0062a721bcc5ab0be82d764f9ecdbca27b198ff6c4f78
 RPROVIDES:${PN} += "ghc-asn1-encoding-devel \
 ghc-devel-asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-asn1-encoding \
 ghc-compiler \
 ghc-devel-asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm \

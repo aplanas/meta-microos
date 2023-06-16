@@ -14,8 +14,8 @@ python311-breathe \
 python311-sphinxcontrib-breathe \
 python3dist-breathe"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Sphinx \
 python311-docutils \

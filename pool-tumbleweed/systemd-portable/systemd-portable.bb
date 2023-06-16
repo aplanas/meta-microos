@@ -16,7 +16,7 @@ RPM_HASH = "4d660e30a4c1c3b05903a2071d24e633577b91faa9ca9a4448845e2c645a0c5d15b0
 
 RPROVIDES:${PN} += "systemd-portable"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libselinux.so.1 \

@@ -14,7 +14,7 @@ pwdutils \
 shadow \
 useradd-or-adduser-dep"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-root \
 group-shadow \
 ld-linux-aarch64.so.1 \

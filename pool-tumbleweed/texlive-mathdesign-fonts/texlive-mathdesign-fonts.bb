@@ -94,7 +94,7 @@ font-mathdesign-ut \
 font-utopiastd \
 texlive-mathdesign-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

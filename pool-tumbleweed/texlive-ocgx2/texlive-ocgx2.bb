@@ -20,7 +20,7 @@ tex-ocgbase.sty \
 tex-ocgx2.sty \
 texlive-ocgx2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

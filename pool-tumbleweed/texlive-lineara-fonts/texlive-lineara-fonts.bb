@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-lineara \
 font-linearacmplxsigns \
 texlive-lineara-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

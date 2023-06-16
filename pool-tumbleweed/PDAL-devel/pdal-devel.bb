@@ -16,8 +16,8 @@ libpdal-devel \
 libpdal13-devel \
 pkgconfig-pdal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 cmake \
 laszip-devel \
 libPDAL13 \

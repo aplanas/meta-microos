@@ -13,7 +13,7 @@ RPM_HASH = "60f830016d2b20760d12326c05a0b2f87cad2b2c6dc3ac80112829450c71ca157c93
 RPROVIDES:${PN} += "config-redshift \
 redshift"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXxf86vm.so.1 \

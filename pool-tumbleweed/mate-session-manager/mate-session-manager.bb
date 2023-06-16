@@ -12,7 +12,7 @@ RPM_HASH = "cace1c4714de2b7971341b226cb8f7442b0d77bf86e78af1be916791317860945994
 RPROVIDES:${PN} += "config-mate-session-manager \
 mate-session-manager"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGL.so.1 \

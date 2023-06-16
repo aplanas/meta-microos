@@ -23,7 +23,7 @@ tex-tswab.tfm \
 tex-tswab.vf \
 texlive-blacklettert1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

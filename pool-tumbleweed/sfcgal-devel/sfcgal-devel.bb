@@ -10,8 +10,8 @@ RPM_HASH = "40c6b50a63a45ecff1d7a430b1d5bad92cd87ada5a59d97e849c280416d1b2ed10f2
 RPROVIDES:${PN} += "pkgconfig-sfcgal \
 sfcgal-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libSFCGAL1"
 
 inherit rpm

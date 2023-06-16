@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-avro \
 python39-avro \
 python3dist-avro"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Twisted \
 python39-zope.interface \

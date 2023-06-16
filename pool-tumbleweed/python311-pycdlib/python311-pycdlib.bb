@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.11dist-pycdlib \
 python311-pycdlib \
 python3dist-pycdlib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 mkisofs \
 python-abi \
 python3-pycdlib-common"

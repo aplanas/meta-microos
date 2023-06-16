@@ -11,7 +11,7 @@ RPM_HASH = "d5cedbb02366b8a94caf2f59a4a8e119759b195ac8e9dd82bdcb7c605f2f0f88dfbd
 
 RPROVIDES:${PN} += "clevis"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 curl \
 jose \
 ld-linux-aarch64.so.1 \

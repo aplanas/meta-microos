@@ -12,8 +12,8 @@ kmix \
 kmix5 \
 libkmixcore.so.5"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \

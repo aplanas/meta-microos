@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "gnome-initial-setup \
 group-gnome-initial-setup \
 user-gnome-initial-setup"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnome-getting-started-docs \
 ld-linux-aarch64.so.1 \
 libaccountsservice.so.0 \

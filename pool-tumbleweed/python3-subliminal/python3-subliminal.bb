@@ -14,8 +14,8 @@ python3.10dist-subliminal \
 python3dist-subliminal \
 subliminal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-appdirs \
 python3-babelfish \

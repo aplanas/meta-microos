@@ -21,7 +21,7 @@ tex-phaistos.sty \
 tex-phaistos.tfm \
 texlive-phaistos"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -10,7 +10,7 @@ RPM_HASH = "39f59dda148a41649ee3c2639e6bc5615320d62fcf144a59cdd709008e8a8df852d2
 RPROVIDES:${PN} += "config-osmo-bsc \
 osmo-bsc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmo-mgcp-client.so.9 \

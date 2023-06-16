@@ -17,7 +17,7 @@ tex-beamercolorthemefrigatebird.sty \
 tex-beamercolorthememagpie.sty \
 texlive-beamerdarkthemes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

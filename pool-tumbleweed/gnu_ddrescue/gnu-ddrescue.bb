@@ -14,7 +14,7 @@ RPM_HASH = "08568de62a7e3cd867554611f92cd246cf6c036a189f061b05ec7cab224603a26297
 
 RPROVIDES:${PN} += "gnu-ddrescue"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

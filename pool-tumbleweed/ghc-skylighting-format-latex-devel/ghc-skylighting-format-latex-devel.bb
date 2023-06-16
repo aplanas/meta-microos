@@ -11,7 +11,7 @@ RPM_HASH = "5059b85b42122865ed7f9eee77d713308bad662e0c04e7e0e3d503269b27e67e912a
 RPROVIDES:${PN} += "ghc-devel-skylighting-format-latex-0.1-BfMH5Wq0cc5AFSMLgsgxu \
 ghc-skylighting-format-latex-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

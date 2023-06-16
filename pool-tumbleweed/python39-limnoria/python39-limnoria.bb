@@ -15,8 +15,8 @@ python3.9dist-limnoria \
 python39-limnoria \
 python3dist-limnoria"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 procps \
 python-abi \
 python39 \

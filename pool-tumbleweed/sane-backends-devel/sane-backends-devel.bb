@@ -10,8 +10,8 @@ RPM_HASH = "a83b74dd2f9f7a355dc489ab35bd9a5d02a9b46a7c74532023f22806c65e81d65df1
 RPROVIDES:${PN} += "pkgconfig-sane-backends \
 sane-backends-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libsane1"
 
 inherit rpm

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3-MapProxy \
 python3.10dist-mapproxy \
 python3dist-mapproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 libgeos-c1 \
 proj \
 python-abi \

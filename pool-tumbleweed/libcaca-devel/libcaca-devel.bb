@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "libcaca-devel \
 pkgconfig-caca \
 pkgconfig-caca++"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libcaca \
 libcaca0-plugins"
 

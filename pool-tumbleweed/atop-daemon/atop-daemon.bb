@@ -21,8 +21,8 @@ RPM_HASH = "bae2a0ab54ab40e9d68952a6febe4b41b09463b62ddd1b8b32c50886a47abc5a522b
 RPROVIDES:${PN} += "atop-daemon \
 config-atop-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 atop \
 libc.so.6"
 

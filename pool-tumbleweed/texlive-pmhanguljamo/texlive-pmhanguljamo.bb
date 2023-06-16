@@ -19,7 +19,7 @@ tex-pmhanguljamo-rrk.sty \
 tex-pmhanguljamo.sty \
 texlive-pmhanguljamo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ RPM_HASH = "ed147cac830a00db6fdd422b1e1a83080413ec29e4b564139a69541d3de25031ae54
 RPROVIDES:${PN} += "ghc-devel-language-javascript-0.7.1.0-3FqnIQtG3956Mxug7EpqjM \
 ghc-language-javascript-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \

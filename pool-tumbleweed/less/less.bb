@@ -12,8 +12,8 @@ RPM_HASH = "b92417b164794113efa12ed7b49a3c817e9b83b87880a8b3614a00e4a75a8ffec2a1
 
 RPROVIDES:${PN} += "less"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 /usr/bin/which \
 file \
 ld-linux-aarch64.so.1 \

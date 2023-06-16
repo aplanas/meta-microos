@@ -16,7 +16,7 @@ tex-iodhbwm-templates.sty \
 tex-iodhbwm.cls \
 texlive-iodhbwm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

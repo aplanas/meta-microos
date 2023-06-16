@@ -46,7 +46,7 @@ tex-datatool.sty \
 tex-person.sty \
 texlive-datatool"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

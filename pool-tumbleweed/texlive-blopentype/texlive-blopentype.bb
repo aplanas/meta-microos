@@ -15,7 +15,7 @@ tex-blot-lua.tex \
 tex-blot.tex \
 texlive-blopentype"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

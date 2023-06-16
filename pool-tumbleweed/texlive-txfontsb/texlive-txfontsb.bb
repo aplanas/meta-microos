@@ -64,7 +64,7 @@ tex-timessco6r.tfm \
 tex-txfontsb.sty \
 texlive-txfontsb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

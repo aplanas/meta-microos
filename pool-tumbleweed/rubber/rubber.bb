@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.10dist-rubber \
 python3dist-rubber \
 rubber"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 info \
 python-abi \
 python3 \

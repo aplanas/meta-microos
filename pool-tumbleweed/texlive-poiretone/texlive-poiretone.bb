@@ -44,7 +44,7 @@ tex-prtn-nt5tbh.enc \
 tex-prtn-opucty.enc \
 texlive-poiretone"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

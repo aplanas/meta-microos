@@ -92,7 +92,7 @@ font-logix \
 font-logixmono \
 texlive-logix-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

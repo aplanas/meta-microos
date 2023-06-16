@@ -19,7 +19,7 @@ tex-rojud.tfm \
 tex-turojud.fd \
 texlive-rojud"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

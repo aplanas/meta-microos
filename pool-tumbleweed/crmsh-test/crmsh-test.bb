@@ -14,10 +14,10 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crmsh-test"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 crmsh"
 
 inherit rpm

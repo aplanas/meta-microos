@@ -13,7 +13,7 @@ group-nogroup \
 system-user-nobody \
 user-nobody"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

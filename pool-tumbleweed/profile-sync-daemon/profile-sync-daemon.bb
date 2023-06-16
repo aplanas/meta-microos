@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "profile-sync-daemon"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 rsync"
 
 inherit rpm

@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-MIKmathf.tex \
 tex-plnfss.tex \
 texlive-plnfss"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

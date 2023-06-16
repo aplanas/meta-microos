@@ -20,7 +20,7 @@ tex-lettre-romand.ldf \
 tex-lettre.cls \
 texlive-lettre"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

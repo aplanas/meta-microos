@@ -23,8 +23,8 @@ librspamd-replxx.so \
 librspamd-server.so \
 rspamd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 apparmor-abstractions \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

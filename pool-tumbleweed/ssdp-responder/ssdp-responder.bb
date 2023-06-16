@@ -14,7 +14,7 @@ RPM_HASH = "45328b279ff9af02b5bf45bceea58cfd526112b3d2bd237313a1bfd1da14c482051e
 
 RPROVIDES:${PN} += "ssdp-responder"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

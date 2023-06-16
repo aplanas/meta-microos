@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-getmap.cfg \
 tex-getmap.sty \
 texlive-getmap"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

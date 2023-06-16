@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-grafana \
 system-user-grafana \
 user-grafana"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

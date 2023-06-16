@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-gromox \
 system-user-gromox \
 user-gromox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

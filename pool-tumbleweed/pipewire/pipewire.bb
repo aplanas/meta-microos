@@ -17,7 +17,7 @@ RPM_HASH = "f9c29248179804190859f5a0b8f8c36c917814104a09e27d54f91329e3ece94850bc
 
 RPROVIDES:${PN} += "pipewire"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpipewire-0-3-0 \

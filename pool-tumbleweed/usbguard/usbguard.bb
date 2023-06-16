@@ -12,7 +12,7 @@ RPM_HASH = "54fbca408dbebae38825b492c0192d674c3017d36a4772a6a0bfd7bf069b5275dbe6
 RPROVIDES:${PN} += "config-usbguard \
 usbguard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \
 libc.so.6 \

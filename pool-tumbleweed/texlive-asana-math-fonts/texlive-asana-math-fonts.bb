@@ -84,7 +84,7 @@ font--lang=zu \
 font-asanamath \
 texlive-asana-math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

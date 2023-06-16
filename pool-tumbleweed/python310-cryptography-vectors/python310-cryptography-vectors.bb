@@ -13,7 +13,7 @@ python3.10dist-cryptography-vectors \
 python310-cryptography-vectors \
 python3dist-cryptography-vectors"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi"
 
 inherit rpm

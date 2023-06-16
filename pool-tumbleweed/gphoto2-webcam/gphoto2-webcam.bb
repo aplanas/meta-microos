@@ -14,7 +14,7 @@ RPM_HASH = "c348b079963401ff288a5c953aad5cc338460f215e29f69919ef87b9340089452ce8
 
 RPROVIDES:${PN} += "gphoto2-webcam"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ffmpeg \
 gphoto \
 kmod-v4l2loopback.ko \

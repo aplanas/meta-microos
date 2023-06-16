@@ -23,7 +23,7 @@ tex-tikz-qtree.sty \
 tex-tikz-qtree.tex \
 texlive-tikz-qtree"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,8 +16,8 @@ freetype2-devel \
 libfreetype6-devel-static \
 pkgconfig-freetype2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libfreetype6 \
 pkgconfig-bzip2 \
 pkgconfig-libbrotlidec \

@@ -100,7 +100,7 @@ font--lang=zu \
 font-baskervaldx \
 texlive-baskervaldx-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

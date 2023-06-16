@@ -9,7 +9,7 @@ RPM_HASH = "c12f1beae530f799efc75e796e3b2c1695522059a33afaf9fc40b3fb699dcaea5388
 
 RPROVIDES:${PN} += "kde-cli-tools5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 kdbusaddons-tools \
 ld-linux-aarch64.so.1 \
 libKF5Activities.so.5 \

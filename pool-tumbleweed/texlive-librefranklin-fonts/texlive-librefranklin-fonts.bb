@@ -152,7 +152,7 @@ font-librefranklinsemibold \
 font-librefranklinthin \
 texlive-librefranklin-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

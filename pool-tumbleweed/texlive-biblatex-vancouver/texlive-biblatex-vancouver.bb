@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-vancouver.bbx \
 tex-vancouver.cbx \
 texlive-biblatex-vancouver"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

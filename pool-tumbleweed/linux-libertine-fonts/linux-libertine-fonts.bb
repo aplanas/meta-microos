@@ -193,7 +193,7 @@ font-linuxlibertinemonoo \
 font-linuxlibertineo \
 linux-libertine-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

@@ -18,7 +18,7 @@ RPM_HASH = "b8bd74e1ec11cf3480aaa9a58fbd65e84a8e34eedec93a6328cd9764ab8e1d5b75aa
 
 RPROVIDES:${PN} += "tmux"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevent-core-2.1.so.7 \

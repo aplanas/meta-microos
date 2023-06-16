@@ -23,7 +23,7 @@ RPM_HASH = "8c748e2e9a7ca04ce4d081bb738e6461108bb675a974a96e41a73edfa65bbe58bf84
 
 RPROVIDES:${PN} += "lemon"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libemon.so.1.3.1 \

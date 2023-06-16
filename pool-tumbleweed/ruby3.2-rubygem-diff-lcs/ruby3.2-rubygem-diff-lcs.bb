@@ -24,8 +24,8 @@ rubygem-ruby-3.2.0-diff-lcs-1 \
 rubygem-ruby-3.2.0-diff-lcs-1.5 \
 rubygem-ruby-3.2.0-diff-lcs-1.5.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 update-alternatives"
 

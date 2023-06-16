@@ -27,8 +27,8 @@ RPM_HASH = "75a1f90fbe56a70572ab2ade0c0604a0466f808371df9470272a02916525472747e2
 RPROVIDES:${PN} += "mpi \
 openmpi3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevent-2.1.so.7 \

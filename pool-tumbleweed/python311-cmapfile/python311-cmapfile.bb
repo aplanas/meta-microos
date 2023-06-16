@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-cmapfile \
 python311-cmapfile \
 python3dist-cmapfile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-h5py \
 python311-numpy \

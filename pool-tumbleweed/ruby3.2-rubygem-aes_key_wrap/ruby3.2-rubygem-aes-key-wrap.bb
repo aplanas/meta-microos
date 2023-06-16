@@ -14,7 +14,7 @@ rubygem-ruby-3.2.0-aes-key-wrap-1 \
 rubygem-ruby-3.2.0-aes-key-wrap-1.1 \
 rubygem-ruby-3.2.0-aes-key-wrap-1.1.0"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
 ruby-abi"
 

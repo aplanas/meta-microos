@@ -59,7 +59,7 @@ tex-stepv13.sty \
 tex-stppdlst.tex \
 texlive-iso10303"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

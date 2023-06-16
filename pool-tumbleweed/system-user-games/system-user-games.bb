@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-games \
 system-user-games \
 user-games"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

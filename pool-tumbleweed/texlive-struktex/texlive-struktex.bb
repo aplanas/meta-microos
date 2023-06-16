@@ -21,7 +21,7 @@ tex-struktxf.sty \
 tex-struktxp.sty \
 texlive-struktex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

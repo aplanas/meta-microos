@@ -3431,7 +3431,7 @@ tex-utftmrz-v.tfm \
 tex-utftmrz-v.vf \
 texlive-japanese-otf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

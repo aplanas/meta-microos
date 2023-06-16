@@ -43,7 +43,7 @@ tex-tikzlings-wolves.sty \
 tex-tikzlings.sty \
 texlive-tikzlings"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

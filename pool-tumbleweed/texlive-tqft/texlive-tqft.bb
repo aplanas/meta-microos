@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-tikzlibrarytqft.code.tex \
 tex-tqft.sty \
 texlive-tqft"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

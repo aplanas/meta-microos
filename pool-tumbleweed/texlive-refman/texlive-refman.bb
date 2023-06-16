@@ -16,7 +16,7 @@ tex-refart.cls \
 tex-refrep.cls \
 texlive-refman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

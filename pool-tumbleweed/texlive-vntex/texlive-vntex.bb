@@ -251,7 +251,7 @@ tex-vnvtt10.tfm \
 tex-vps.def \
 texlive-vntex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

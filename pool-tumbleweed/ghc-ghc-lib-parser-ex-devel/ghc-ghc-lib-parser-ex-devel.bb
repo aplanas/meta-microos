@@ -11,7 +11,7 @@ RPM_HASH = "59a249878fe4d64ee60e8fc205fab005174f5a063df66b0a808e031a259015569cc3
 RPROVIDES:${PN} += "ghc-devel-ghc-lib-parser-ex-9.4.0.0-70SEjDlvh6sIQjB4r4CbU7 \
 ghc-ghc-lib-parser-ex-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

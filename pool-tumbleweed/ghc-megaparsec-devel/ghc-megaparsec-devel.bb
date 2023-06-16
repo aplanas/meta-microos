@@ -10,7 +10,7 @@ RPM_HASH = "90fd1419d98e81e5e422d1729108e80b1a6a057506c9e3046059d3bf47dfcee7cdda
 RPROVIDES:${PN} += "ghc-devel-megaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv \
 ghc-megaparsec-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

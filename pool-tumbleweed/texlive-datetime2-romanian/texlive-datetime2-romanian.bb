@@ -14,7 +14,7 @@ tex-datetime2-romanian-utf8.ldf \
 tex-datetime2-romanian.ldf \
 texlive-datetime2-romanian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

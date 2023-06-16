@@ -10,7 +10,7 @@ RPM_HASH = "4aea48004f19d8c44d092723509847f41e98f220d1f3c43e317d0eb512dd64dc3cf1
 RPROVIDES:${PN} += "ghc-devel-pandoc-server-0.1-6D1bWRrxol13l7SXQDdSda \
 ghc-pandoc-server-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-base-4.17.1.0 \

@@ -38,7 +38,7 @@ RPM_HASH = "ccdac8912e8a72f33c74f8620f81e8c7500f31217c993f167b0f3f7744f9d8093f49
 
 RPROVIDES:${PN} += "libnetcdf-4-9-2-gnu-openmpi2-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

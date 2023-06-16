@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-uiucthesis.cls \
 tex-uiucthesis.sty \
 texlive-uiucthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

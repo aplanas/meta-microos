@@ -13,7 +13,7 @@ tex-glossaries-polish-utf8.ldf \
 tex-glossaries-polish.ldf \
 texlive-glossaries-polish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

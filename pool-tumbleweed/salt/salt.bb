@@ -15,9 +15,9 @@ RPM_HASH = "7b7313e558cc9cb436f46321acc02fd09c94515ffc05f6b14b24c717e86820267218
 RPROVIDES:${PN} += "config-salt \
 salt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/sh \
 /usr/bin/touch \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \

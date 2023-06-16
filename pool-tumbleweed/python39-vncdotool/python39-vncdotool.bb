@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-vncdotool \
 python39-vncdotool \
 python3dist-vncdotool"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Pillow \
 python39-Twisted \

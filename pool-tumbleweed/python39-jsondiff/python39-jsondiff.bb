@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-jsondiff \
 python39-jsondiff \
 python3dist-jsondiff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-setuptools \
 update-alternatives"

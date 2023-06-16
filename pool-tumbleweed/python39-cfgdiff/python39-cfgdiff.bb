@@ -22,8 +22,8 @@ python3.9dist-cfgdiff \
 python39-cfgdiff \
 python3dist-cfgdiff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-configobj \

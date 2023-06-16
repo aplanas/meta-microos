@@ -10,8 +10,8 @@ RPM_HASH = "dabb076477bc153de50114d7c545123cdffe19bf19861823c67d72d9b57f61c425ba
 
 RPROVIDES:${PN} += "corepack20"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 nodejs-common"
 
 inherit rpm

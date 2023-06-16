@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3.11dist-nilearn \
 python311-nilearn \
 python3dist-nilearn"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 python-abi \
 python311-joblib \
 python311-matplotlib \

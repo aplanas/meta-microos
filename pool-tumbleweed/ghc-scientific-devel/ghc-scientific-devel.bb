@@ -10,7 +10,7 @@ RPM_HASH = "6d76cea2ad8c7fdcc30997bf0c435faf1ffec5a44bed4ac697f131dbd4bbf353c266
 RPROVIDES:${PN} += "ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
 ghc-scientific-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-binary-0.8.9.1 \

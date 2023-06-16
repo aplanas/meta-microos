@@ -9,7 +9,7 @@ RPM_HASH = "7583eda86f8c85f5a558e05b8099cbde5eea4c27e9d7b8e4a18f59b0fce223c5bd9b
 
 RPROVIDES:${PN} += "libvirt-daemon-config-network"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libvirt-daemon-driver-network"
 
 inherit rpm

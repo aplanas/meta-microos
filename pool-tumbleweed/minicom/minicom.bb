@@ -13,7 +13,7 @@ RPM_HASH = "11a12d3dbc2d90564ab6363f16f75cb49366bf6e8ac86112f5ece3b39b24402fd510
 
 RPROVIDES:${PN} += "minicom"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ckermit \
 group-uucp \
 ld-linux-aarch64.so.1 \

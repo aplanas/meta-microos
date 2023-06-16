@@ -25,7 +25,7 @@ tex-aunclb10.tfm \
 tex-b1auncl.fd \
 texlive-auncial-new"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

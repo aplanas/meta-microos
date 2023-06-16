@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "criu \
 python3.10dist-crit \
 python3dist-crit"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \

@@ -13,7 +13,7 @@ RPM_HASH = "d28990977aac0640ef92ab217b0de2db6959f7339c8a1a81f6c9a8c98ee0a6621f92
 
 RPROVIDES:${PN} += "winetricks"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cabextract \
 unzip \
 wine"

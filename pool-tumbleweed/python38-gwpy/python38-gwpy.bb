@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.8dist-gwpy \
 python38-gwpy \
 python3dist-gwpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.8 \
+RDEPENDS:${PN} += "/usr/bin/python3.8 \
+/usr/bin/sh \
 python-abi \
 python38-astropy \
 python38-dqsegdb2 \

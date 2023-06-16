@@ -10,7 +10,7 @@ RPM_HASH = "bfd9dfa63212fd380fabd11adc01082133edb640c4560726f185d42c5d7a52aa9020
 RPROVIDES:${PN} += "config-neard \
 neard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

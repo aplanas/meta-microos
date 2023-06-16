@@ -16,9 +16,9 @@ RPM_HASH = "334b87324959c3b8ac491243126afcc6fb58de802da6a5f1d9769fff1b60ddc6ec56
 
 RPROVIDES:${PN} += "fio"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \

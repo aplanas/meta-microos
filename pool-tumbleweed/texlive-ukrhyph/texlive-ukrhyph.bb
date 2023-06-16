@@ -28,7 +28,7 @@ tex-ukrhypsm.tex \
 tex-ukrhypst.tex \
 texlive-ukrhyph"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

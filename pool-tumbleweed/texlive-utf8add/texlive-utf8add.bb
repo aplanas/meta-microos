@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-utf8add.sty \
 tex-utf8hax.sty \
 texlive-utf8add"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

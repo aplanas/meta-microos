@@ -13,8 +13,8 @@ python3.10dist-htmlmin \
 python310-htmlmin \
 python3dist-htmlmin"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-setuptools \
 update-alternatives"

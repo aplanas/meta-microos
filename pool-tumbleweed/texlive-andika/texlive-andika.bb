@@ -154,7 +154,7 @@ tex-andk-tlf-ts1.tfm \
 tex-andk-tlf-ts1.vf \
 texlive-andika"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

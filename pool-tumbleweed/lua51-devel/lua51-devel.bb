@@ -18,8 +18,8 @@ lua51-devel \
 pkgconfig-lua \
 pkgconfig-lua5.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 liblua5-1-5 \
 lua-macros \
 lua51 \

@@ -29,9 +29,9 @@ RPM_HASH = "3fd1f794e28be6843140ac1aa587bfeecc72e870dfa92b791d3d3f908b44fd296398
 RPROVIDES:${PN} += "config-rkhunter \
 rkhunter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 bash \
 fillup \

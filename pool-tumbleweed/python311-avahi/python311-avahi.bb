@@ -10,8 +10,8 @@ RPM_HASH = "f3d754af9ab88fafc568e5daee0d7b311c40a6d9740fc10f76db7d0db5f6c403c583
 
 RPROVIDES:${PN} += "python311-avahi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 avahi \
 python-abi \
 python311-Twisted \

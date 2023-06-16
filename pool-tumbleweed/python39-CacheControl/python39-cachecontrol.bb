@@ -14,8 +14,8 @@ python39-CacheControl \
 python39-cachecontrol \
 python3dist-cachecontrol"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-msgpack \
 python39-requests \

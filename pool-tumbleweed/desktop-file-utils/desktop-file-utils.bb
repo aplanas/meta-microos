@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "desktop-file-utils \
 rpm-macro-desktop-database-post \
 rpm-macro-desktop-database-postun"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 awk \
 coreutils \

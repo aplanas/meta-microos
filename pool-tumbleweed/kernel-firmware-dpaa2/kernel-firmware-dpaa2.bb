@@ -26,8 +26,8 @@ firmware-dpaa2/mc/mc-10.28.1-ls2088a.itb \
 firmware-dpaa2/mc/mc-10.28.1-lx2160a.itb \
 kernel-firmware-dpaa2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

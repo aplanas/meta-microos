@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "tex-bibdoiadd.cfg \
 tex-ltx2crossrefxml.cfg \
 texlive-crossrefware"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

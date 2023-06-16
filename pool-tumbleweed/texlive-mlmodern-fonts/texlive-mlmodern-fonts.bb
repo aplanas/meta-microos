@@ -168,7 +168,7 @@ font-mlmsansdemicond10 \
 font-mlmsansquot8 \
 texlive-mlmodern-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -10,7 +10,7 @@ RPM_HASH = "375f0409a7ba3fedd0deddba04a85a632c14594262f34ab642007a857e9c18785c4e
 
 RPROVIDES:${PN} += "pcp-pmda-mysql"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-DBD--mysql \
 perl-DBI \
 perl-PCP-PMDA"

@@ -18,7 +18,7 @@ RPM_HASH = "9105538ce62f86d4760db1e0fe00c8ed519fd6e1b51e421a2c4dec6eb93314f8720a
 
 RPROVIDES:${PN} += "xmined"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mined \
 xterm-bin"
 

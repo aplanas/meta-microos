@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvm-stat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python3-curses"
 
 inherit rpm

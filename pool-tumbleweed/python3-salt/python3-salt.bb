@@ -12,8 +12,8 @@ python3-salt \
 python3.10dist-salt \
 python3dist-salt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 libzypp-plugin-system \
 python-abi \
 python3 \

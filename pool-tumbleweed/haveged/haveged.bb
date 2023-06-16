@@ -12,8 +12,8 @@ RPM_HASH = "22eab4de3c507f90f1265360e9cefa7caef232663bd19261cd098dad5ac2b97c403c
 
 RPROVIDES:${PN} += "haveged"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "config-dnscrypt-proxy \
 dnscrypt \
 dnscrypt-proxy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 bash \
 libc.so.6 \
 shadow \

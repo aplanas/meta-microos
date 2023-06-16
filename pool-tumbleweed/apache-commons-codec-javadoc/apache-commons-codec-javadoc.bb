@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "apache-commons-codec-javadoc \
 commons-codec-javadoc \
 jakarta-commons-codec-javadoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 javapackages-filesystem"
 
 inherit rpm

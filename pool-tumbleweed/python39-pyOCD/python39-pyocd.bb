@@ -13,8 +13,8 @@ python39-pyOCD \
 python39-pyocd \
 python3dist-pyocd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-usb \
 update-alternatives"

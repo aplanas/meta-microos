@@ -15,7 +15,7 @@ tex-t1tib.fd \
 tex-tibetan.tfm \
 texlive-otibet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -10,7 +10,7 @@ RPM_HASH = "b361e8eff6413cb5b926eae2af8c5568403e3ad0726f871081cb0ba57f167293fd48
 RPROVIDES:${PN} += "ghc-devel-utility-ht-0.0.16-CDN97AfZiejDC1itvZ2hyN \
 ghc-utility-ht-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-utility-ht"

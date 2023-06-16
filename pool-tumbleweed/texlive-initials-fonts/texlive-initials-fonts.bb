@@ -110,7 +110,7 @@ font-typographercaps \
 font-zallmancaps \
 texlive-initials-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -12,7 +12,7 @@ RPM_HASH = "fbe85cfa7a21493f128e68403543760af086319c6cf4877e43959d13a981a12a0023
 RPROVIDES:${PN} += "config-pyenv \
 pyenv"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libc.so.6"
 
 inherit rpm

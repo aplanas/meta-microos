@@ -19,7 +19,7 @@ tex-pacioli.sty \
 tex-t1cpc.fd \
 texlive-pacioli"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

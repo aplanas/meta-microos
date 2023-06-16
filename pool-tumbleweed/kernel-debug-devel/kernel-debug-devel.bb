@@ -16,7 +16,7 @@ RPM_HASH = "7d906cb4b0799aa1aa45f97b8374adb6d3e63fb814c0651b632500c36bbeddab3c3c
 RPROVIDES:${PN} += "kernel-debug-devel \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 dwarves \
 kernel-devel \

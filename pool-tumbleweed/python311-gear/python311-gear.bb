@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-gear \
 python311-gear \
 python3dist-gear"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-extras \
 python311-pbr \

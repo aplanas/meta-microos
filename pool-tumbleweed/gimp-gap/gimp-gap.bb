@@ -12,7 +12,7 @@ RPM_HASH = "3fd4c0b9cd2b94378c041e7e8fdf2c0af75cafa7efd04d0308278599432bab17bffe
 RPROVIDES:${PN} += "gimp-gap \
 patched-build"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gimp-abi \
 gimp-api \
 gimp-gap-lang \

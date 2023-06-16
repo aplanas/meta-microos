@@ -14,8 +14,8 @@ python3.10dist-python-kasa \
 python310-kasa \
 python3dist-python-kasa"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-anyio \
 python310-asyncclick \

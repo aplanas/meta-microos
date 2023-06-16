@@ -14,7 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ccx-doc-/usr/share/ccx-examples-2.12/achtel2.inp \
 ccx-examples"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

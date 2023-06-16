@@ -21,8 +21,8 @@ rpm-macro-rebar \
 rpm-macro-rebar-compile \
 rpm-macro-rebar-set-vsn-cache"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 erlang"
 
 inherit rpm

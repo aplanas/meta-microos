@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-rnc2rng \
 python311-rnc2rng \
 python3dist-rnc2rng"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-rply \
 update-alternatives"

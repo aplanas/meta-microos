@@ -32,7 +32,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-CondiTeXt.sty \
 texlive-conditext"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

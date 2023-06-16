@@ -13,7 +13,7 @@ RPM_HASH = "f7b0cc08bd33906626528e3c3beb32a460e8d0b6785956edf85816b99e55f800ea0d
 
 RPROVIDES:${PN} += "darktable-tools-noise"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/convert \
 ghostscript \
 gnuplot \

@@ -46,7 +46,7 @@ tex-oxyear.bbx \
 tex-oxyear.cbx \
 texlive-biblatex-oxref"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

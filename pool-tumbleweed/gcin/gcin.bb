@@ -11,7 +11,7 @@ RPM_HASH = "e7ca8089bf178b7b122658f8caf1497190fc4c86c6aa4ea176e68e32a528b53c68b2
 RPROVIDES:${PN} += "gcin \
 locale-zh-TW;zh-HK;zh-MO"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 gcin-branding \
 gcin-gtk2 \
 gcin-gtk3 \

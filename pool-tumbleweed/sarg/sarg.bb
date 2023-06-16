@@ -13,8 +13,8 @@ RPM_HASH = "9a1ddad6892732c29154712b772a6947fabbffd0a017f493603d69b3de63a578aa71
 RPROVIDES:${PN} += "config-sarg \
 sarg"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

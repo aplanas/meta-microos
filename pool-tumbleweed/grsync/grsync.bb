@@ -14,7 +14,7 @@ RPM_HASH = "97f1320fdce0d04138935f79817ad3ff866683125b2f2d406ed12a013e2f43373a34
 
 RPROVIDES:${PN} += "grsync"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

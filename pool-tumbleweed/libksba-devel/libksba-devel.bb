@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "libksba-/usr/include/ksba.h \
 libksba-devel \
 pkgconfig-ksba"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libksba8 \
 pkgconfig-gpg-error"
 

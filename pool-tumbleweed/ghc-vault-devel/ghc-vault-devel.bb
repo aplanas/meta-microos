@@ -10,7 +10,7 @@ RPM_HASH = "b08e7a6f694fd58f0977a66f0f91eea75d8fe82d9b4631491cce761dab0cab6e7bc6
 RPROVIDES:${PN} += "ghc-devel-vault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc \
 ghc-vault-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

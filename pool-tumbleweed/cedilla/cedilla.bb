@@ -32,8 +32,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cedilla \
 config-cedilla"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/clisp \
+RDEPENDS:${PN} += "/usr/bin/clisp \
+/usr/bin/sh \
 clisp \
 ghostscript-fonts-std \
 texlive \

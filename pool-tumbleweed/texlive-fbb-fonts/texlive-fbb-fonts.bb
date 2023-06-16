@@ -134,7 +134,7 @@ font--lang=zu \
 font-fbb \
 texlive-fbb-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

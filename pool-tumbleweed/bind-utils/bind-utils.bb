@@ -23,8 +23,8 @@ libisccc-9.18.15.so \
 libisccfg-9.18.15.so \
 libns-9.18.15.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

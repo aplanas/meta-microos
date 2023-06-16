@@ -98,7 +98,7 @@ tex-xslz20d.tfm \
 tex-xtie20.tfm \
 texlive-musixtex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

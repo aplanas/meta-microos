@@ -15,8 +15,8 @@ python3.10dist-mkdocs \
 python310-mkdocs \
 python3dist-mkdocs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 fontawesome-fonts \
 fontawesome-fonts-web \
 python-abi \

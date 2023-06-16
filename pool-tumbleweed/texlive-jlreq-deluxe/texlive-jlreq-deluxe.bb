@@ -1132,7 +1132,7 @@ tex-zjlreq--uprubyminr-v.tfm \
 tex-zjlreq--uprubyminr-v.vf \
 texlive-jlreq-deluxe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

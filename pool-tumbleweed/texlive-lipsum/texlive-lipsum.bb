@@ -16,7 +16,7 @@ tex-lipsum.ltd.tex \
 tex-lipsum.sty \
 texlive-lipsum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

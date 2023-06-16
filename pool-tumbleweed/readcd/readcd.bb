@@ -13,7 +13,7 @@ RPM_HASH = "5b09f10ab0ec7a7fbaef1c507f855e057deba2e4824c784d867c39ee79e9ed01657e
 RPROVIDES:${PN} += "cdrecord-/usr/bin/readcd \
 readcd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

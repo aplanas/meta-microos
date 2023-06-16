@@ -115,7 +115,7 @@ font-courier \
 font-nimbusmonol \
 texlive-courier-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -10,7 +10,7 @@ RPM_HASH = "5956ea735e94f020083b2f8d88b134e79a312363aa7ccc1f701ed1e959f1ae1eec0c
 
 RPROVIDES:${PN} += "libgslcblas-2-7-1-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 gsl-2-7-1-gnu-hpc-module \
 ld-linux-aarch64.so.1 \

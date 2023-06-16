@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-lstautogobble.sty \
 tex-lstlinebgrd.sty \
 texlive-lstaddons"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

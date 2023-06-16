@@ -13,7 +13,7 @@ libpowerdevilcore.so.2 \
 libpowerdevilui.so.5 \
 powerdevil5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Activities.so.5 \
 libKF5AuthCore.so.5 \

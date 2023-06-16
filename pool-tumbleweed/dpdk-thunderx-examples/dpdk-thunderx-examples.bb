@@ -11,7 +11,7 @@ RPM_HASH = "dee12159ad6b473c3899826aded1706f01b142f32a8c7dcccc04cac9d2c049428f96
 RPROVIDES:${PN} += "dpdk-any-examples \
 dpdk-thunderx-examples"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

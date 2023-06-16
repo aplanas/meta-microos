@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "php-pear-Mail-Mime \
 php5-pear-Mail-Mime \
 php7-pear-Mail-Mime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear"
 
 inherit rpm

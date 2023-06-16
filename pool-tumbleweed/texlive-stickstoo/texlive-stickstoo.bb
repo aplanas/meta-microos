@@ -564,7 +564,7 @@ tex-stx2-zscetg.enc \
 tex-stx2i-ot1.enc \
 texlive-stickstoo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

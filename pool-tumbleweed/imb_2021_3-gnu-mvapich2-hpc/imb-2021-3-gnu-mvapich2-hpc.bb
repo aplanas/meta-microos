@@ -11,7 +11,7 @@ RPM_HASH = "a14b7d2072217ebfccf3afb320ad6f485f247a4af032144fccb5fedd0fa90704c5c5
 
 RPROVIDES:${PN} += "imb-2021-3-gnu-mvapich2-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

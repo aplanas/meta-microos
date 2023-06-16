@@ -10,7 +10,7 @@ RPM_HASH = "36da74332798869f918d1bf5c957ddd47dbd3045185964d986b7db08cc337e8016d5
 RPROVIDES:${PN} += "libOgreMain-plugins \
 libOgreMain13-5-plugins"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libOgreMain.so.13.5 \

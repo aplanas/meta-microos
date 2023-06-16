@@ -16,8 +16,8 @@ java-1-8-0-openjdk-plugin \
 java-1-9-0-openjdk-plugin \
 java-plugin"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 java \
 rhino \
 tagsoup \

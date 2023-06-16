@@ -296,7 +296,7 @@ tex-a-ytymvu.enc \
 tex-clara.sty \
 texlive-clara"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

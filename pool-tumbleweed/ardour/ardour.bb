@@ -59,7 +59,7 @@ libtemporal.so.0 \
 libwaveview.so.0 \
 libwidgets.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 graphviz \
 libX11.so.6 \

@@ -103,7 +103,7 @@ bundled-golang(golang.org/x/sys/unix) \
 bundled-golang(golang.org/x/sys/windows) \
 config-amazon-ecs-init"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 systemd"
 

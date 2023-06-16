@@ -17,8 +17,8 @@ python3.10dist-pylint-ignore \
 python310-pylint-ignore \
 python3dist-pylint-ignore"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-astroid \
 python310-pylev \

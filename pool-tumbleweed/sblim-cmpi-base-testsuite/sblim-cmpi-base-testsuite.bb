@@ -9,9 +9,9 @@ RPM_HASH = "5a533047748015e645c59fdaf854455320268ee6ca360ab4606856136f7744fce5a2
 
 RPROVIDES:${PN} += "sblim-cmpi-base-testsuite"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 sblim-cmpi-base \
 sblim-testsuite"
 

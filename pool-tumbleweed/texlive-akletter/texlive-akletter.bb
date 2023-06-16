@@ -22,7 +22,7 @@ tex-akletter.cls \
 tex-myletter.cls \
 texlive-akletter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

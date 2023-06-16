@@ -2353,7 +2353,7 @@ tex-libertineMono.sty \
 tex-libertineRoman.sty \
 texlive-libertine"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

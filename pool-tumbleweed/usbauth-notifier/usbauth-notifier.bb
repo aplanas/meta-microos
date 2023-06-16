@@ -9,7 +9,7 @@ RPM_HASH = "7e189ad66dcc294451497dd65673babe549b3468692c0c045aa592442371374a8028
 
 RPROVIDES:${PN} += "usbauth-notifier"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

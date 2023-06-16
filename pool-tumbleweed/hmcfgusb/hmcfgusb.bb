@@ -14,8 +14,8 @@ RPM_HASH = "5f3b817b4a71f3fa2c0b6037ac32fa4c0db9d99e4046f7a0dc29e5ada339717c5868
 RPROVIDES:${PN} += "config-hmcfgusb \
 hmcfgusb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 libc.so.6 \

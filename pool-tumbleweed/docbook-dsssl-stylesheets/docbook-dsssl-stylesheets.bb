@@ -19,8 +19,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "docbkdsl \
 docbook-dsssl-stylesheets"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sgml-register-catalog \
+RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
+/usr/bin/sh \
 docbook-3 \
 docbook-4"
 

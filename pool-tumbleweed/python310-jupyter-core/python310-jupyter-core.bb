@@ -20,8 +20,8 @@ python3.10dist-jupyter-core \
 python310-jupyter-core \
 python3dist-jupyter-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python310-platformdirs \

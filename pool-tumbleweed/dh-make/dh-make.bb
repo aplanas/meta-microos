@@ -16,9 +16,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "deb-/usr/bin/dh-make \
 dh-make"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/make \
+RDEPENDS:${PN} += "/usr/bin/make \
 /usr/bin/perl \
+/usr/bin/sh \
 debhelper \
 dpkg \
 perl"

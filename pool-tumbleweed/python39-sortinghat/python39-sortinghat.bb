@@ -34,8 +34,8 @@ RPROVIDES:${PN} += "python3.9dist-sortinghat \
 python39-sortinghat \
 python3dist-sortinghat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-PyMySQL \

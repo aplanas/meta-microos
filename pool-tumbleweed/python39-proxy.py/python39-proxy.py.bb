@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-proxy.py \
 python39-proxy.py \
 python3dist-proxy.py"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

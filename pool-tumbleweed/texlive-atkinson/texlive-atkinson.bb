@@ -206,7 +206,7 @@ tex-atksn-wy3za2.enc \
 tex-atksn-ycy2xh.enc \
 texlive-atkinson"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -17,8 +17,8 @@ python310-openapi-spec-validator \
 python3dist-openapi-spec-validator"
 
 RDEPENDS:${PN} += "-python310-jsonschema >= 4.0.0 with python310-jsonschema < 4.18 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-importlib-resources \
 python310-jsonschema-spec \

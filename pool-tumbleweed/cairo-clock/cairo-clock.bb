@@ -11,7 +11,7 @@ RPM_HASH = "232c9c01d32388e6b6edfeb7693b6a2268face1c95cc338ff1cbccd7ae98555cfc10
 
 RPROVIDES:${PN} += "cairo-clock"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

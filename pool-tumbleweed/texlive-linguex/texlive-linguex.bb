@@ -19,7 +19,7 @@ tex-linguho.sty \
 tex-ps-trees.sty \
 texlive-linguex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

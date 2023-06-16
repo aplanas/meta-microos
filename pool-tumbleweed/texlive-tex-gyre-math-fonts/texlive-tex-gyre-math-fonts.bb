@@ -119,7 +119,7 @@ font-texgyrescholamath \
 font-texgyretermesmath \
 texlive-tex-gyre-math-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

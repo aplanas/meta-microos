@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-antree.sty \
 tex-toklist.sty \
 texlive-williams"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

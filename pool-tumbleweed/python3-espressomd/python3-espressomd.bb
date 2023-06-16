@@ -15,7 +15,7 @@ RPM_HASH = "9df9a757c67d7b75d85ab11d4a72f836fd9c854f954d7cc8e11f0882325b7ad82b47
 RPROVIDES:${PN} += "libEspresso4 \
 python3-espressomd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-mpi.so.1.82.0 \
 libboost-serialization.so.1.82.0 \

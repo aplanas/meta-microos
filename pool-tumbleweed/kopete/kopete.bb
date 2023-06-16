@@ -21,10 +21,10 @@ libkopetestatusmenu.so.1 \
 liboscar.so.1 \
 libqgroupwise.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Archive.so.5 \
 libKF5Bookmarks.so.5 \

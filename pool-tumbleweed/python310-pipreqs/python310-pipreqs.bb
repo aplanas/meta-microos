@@ -13,8 +13,8 @@ python3.10dist-pipreqs \
 python310-pipreqs \
 python3dist-pipreqs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-docopt \
 python310-setuptools \

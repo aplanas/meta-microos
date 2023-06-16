@@ -16,7 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-console-setup \
 console-setup"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

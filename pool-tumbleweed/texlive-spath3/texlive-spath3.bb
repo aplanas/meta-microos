@@ -17,7 +17,7 @@ tex-tikzlibraryknots.code.tex \
 tex-tikzlibraryspath3.code.tex \
 texlive-spath3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -10,7 +10,7 @@ RPM_HASH = "784bf5c890d883b8662e79777f3d4423981535d1b5f2bd25ca8b6fd5744809eb7c04
 RPROVIDES:${PN} += "ghc-devel-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
 ghc-hslua-core-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

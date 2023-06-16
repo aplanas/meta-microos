@@ -13,7 +13,7 @@ tex-hyph-th.tex \
 tex-loadhyph-th.tex \
 texlive-hyphen-thai"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

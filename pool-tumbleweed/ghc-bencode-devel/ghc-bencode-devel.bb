@@ -10,7 +10,7 @@ RPM_HASH = "08727ae5b55831cba937bd61de952da0bf5ab5e2fc0d4fa756a72b4ad79f21a006d6
 RPROVIDES:${PN} += "ghc-bencode-devel \
 ghc-devel-bencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bencode \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

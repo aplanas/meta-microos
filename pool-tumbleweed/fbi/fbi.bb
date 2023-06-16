@@ -12,7 +12,7 @@ RPM_HASH = "41097c20c1d6b4c13ff174027704ea679637d2952a621c4814f3cd4c3059b517df00
 
 RPROVIDES:${PN} += "fbi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghostscript-library \
 libc.so.6 \
 libdrm.so.2 \

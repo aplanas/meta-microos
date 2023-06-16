@@ -189,7 +189,7 @@ font-libertinusserifdisplay \
 font-libertinusserifinitials \
 texlive-libertinus-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

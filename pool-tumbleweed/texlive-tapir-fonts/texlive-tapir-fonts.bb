@@ -43,7 +43,7 @@ font--lang=zu \
 font-tapir \
 texlive-tapir-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

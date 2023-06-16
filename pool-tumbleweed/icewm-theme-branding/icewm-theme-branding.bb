@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-icewm-theme-branding \
 icewm-configuration-files \
 icewm-theme-branding"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 icewm"
 
 inherit rpm

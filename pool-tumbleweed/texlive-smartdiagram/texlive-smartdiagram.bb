@@ -16,7 +16,7 @@ tex-smartdiagramlibrarycore.definitions.code.tex \
 tex-smartdiagramlibrarycore.styles.code.tex \
 texlive-smartdiagram"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

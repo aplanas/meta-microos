@@ -11,7 +11,7 @@ RPM_HASH = "9d44a9f3345eabdd4716673fba477218e39edd345673a08edf48f1abe9adb7dfa69a
 RPROVIDES:${PN} += "libgstdecode-plugin.so \
 vlc-codec-gstreamer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

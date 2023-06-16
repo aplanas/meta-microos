@@ -17,7 +17,7 @@ tex-hyph-quote-fur.tex \
 tex-loadhyph-fur.tex \
 texlive-hyphen-friulan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

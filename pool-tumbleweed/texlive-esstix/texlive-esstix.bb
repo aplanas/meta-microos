@@ -31,7 +31,7 @@ tex-uesstixcal.fd \
 tex-uesstixfrak.fd \
 texlive-esstix"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man-eplain.1 \
 texlive-eplain-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/awk"
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/sh"
 
 inherit rpm

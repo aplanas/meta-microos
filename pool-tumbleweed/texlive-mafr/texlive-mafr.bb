@@ -17,7 +17,7 @@ tex-fiche.cls \
 tex-mafr.sty \
 texlive-mafr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

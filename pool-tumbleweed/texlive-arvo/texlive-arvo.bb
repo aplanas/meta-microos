@@ -64,7 +64,7 @@ tex-a-vt66fp.enc \
 tex-a-zmrji7.enc \
 texlive-arvo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

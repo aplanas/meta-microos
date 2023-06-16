@@ -16,7 +16,7 @@ tex-tikzmarklibraryhighlighting.code.tex \
 tex-tikzmarklibrarylistings.code.tex \
 texlive-tikzmark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

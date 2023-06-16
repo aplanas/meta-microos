@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-subst \
 mvn-org.fedoraproject.xmvn-xmvn-subst-pom- \
 xmvn-subst"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 beust-jcommander \
 java-headless \
 javapackages-filesystem \

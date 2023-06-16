@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-sqlalchemy-migrate \
 python311-sqlalchemy-migrate \
 python3dist-sqlalchemy-migrate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-SQLAlchemy \
 python311-Tempita \

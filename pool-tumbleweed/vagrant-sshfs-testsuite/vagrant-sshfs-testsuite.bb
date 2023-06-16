@@ -11,7 +11,7 @@ RPM_HASH = "54f5b96ebf0bb6eed9fed39f503f01ca5e6b3ebd05ec600bb2f1db3d79a3a4c49504
 
 RPROVIDES:${PN} += "vagrant-sshfs-testsuite"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 vagrant-libvirt \
 vagrant-sshfs"
 

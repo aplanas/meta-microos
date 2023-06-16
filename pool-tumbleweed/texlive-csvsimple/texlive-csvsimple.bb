@@ -19,7 +19,7 @@ tex-csvsimple-legacy.sty \
 tex-csvsimple.sty \
 texlive-csvsimple"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

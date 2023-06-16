@@ -17,7 +17,7 @@ tex-hyph-quote-af.tex \
 tex-loadhyph-af.tex \
 texlive-hyphen-afrikaans"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

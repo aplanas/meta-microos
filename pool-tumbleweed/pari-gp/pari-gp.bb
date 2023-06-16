@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "config-pari-gp \
 pari-gp \
 perl-PARI--822"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

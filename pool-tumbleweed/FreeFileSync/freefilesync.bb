@@ -11,7 +11,7 @@ RPM_HASH = "73f34451b80377af660724c884422a4edc4b80ea7de0285e470e7b59184a33ff55cd
 
 RPROVIDES:${PN} += "FreeFileSync"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \

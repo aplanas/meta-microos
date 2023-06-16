@@ -27,8 +27,8 @@ RPROVIDES:${PN} += "diffoscope \
 python3.10dist-diffoscope \
 python3dist-diffoscope"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-curses \
 python3-libarchive-c \

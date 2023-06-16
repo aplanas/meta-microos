@@ -23,7 +23,7 @@ tex-standalone.sty \
 tex-standalone.tex \
 texlive-standalone"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

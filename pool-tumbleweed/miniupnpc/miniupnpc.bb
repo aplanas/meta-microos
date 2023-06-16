@@ -10,7 +10,7 @@ RPM_HASH = "ed85395694e7f88e93ecb607e7625fcd705f212a483e8435e9e80b2ff380137cdd1d
 
 RPROVIDES:${PN} += "miniupnpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libminiupnpc.so.17 \
 libminiupnpc17"

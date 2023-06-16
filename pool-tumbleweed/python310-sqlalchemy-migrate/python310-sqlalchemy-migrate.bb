@@ -18,8 +18,8 @@ python3.10dist-sqlalchemy-migrate \
 python310-sqlalchemy-migrate \
 python3dist-sqlalchemy-migrate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-SQLAlchemy \
 python310-Tempita \

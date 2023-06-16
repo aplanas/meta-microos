@@ -10,8 +10,8 @@ RPM_HASH = "f8a7333e18f1789f02a51cb64c162d8227530e49d92c70ee1db45e9ba5aaf5f069a8
 
 RPROVIDES:${PN} += "samba-dsdb-modules"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libMESSAGING-samba4.so \
 libauthkrb5-samba4.so \

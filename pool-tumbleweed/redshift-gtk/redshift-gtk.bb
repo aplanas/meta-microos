@@ -9,8 +9,8 @@ RPM_HASH = "f58879edd35e7cb7f94c35a47afc6f52434ad25ea44d983a046726f6839d0a839760
 
 RPROVIDES:${PN} += "redshift-gtk"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 hicolor-icon-theme \
 python-abi \
 python3-gobject-Gdk \

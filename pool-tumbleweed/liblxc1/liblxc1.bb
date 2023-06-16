@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "config-liblxc1 \
 liblxc.so.1 \
 liblxc1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 findutils \
 ld-linux-aarch64.so.1 \
 libapparmor.so.1 \

@@ -258,7 +258,7 @@ font-schumachercleanwide \
 font-utopia \
 xorg-x11-fonts-converted"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fonts-config"
 
 inherit rpm

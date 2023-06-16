@@ -13,7 +13,7 @@ RPM_HASH = "24ee8fe67615092cedfa4aeca7eac5a0b4ae395ad3eaa8c6cc66a4d7f3a262f6fc02
 
 RPROVIDES:${PN} += "libpreludedb-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 automake \
 libprelude-devel \
 libpreludedb7 \

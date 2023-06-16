@@ -10,8 +10,8 @@ RPM_HASH = "72ca226c230c127855c685574280b413d6eae34788e8aaacf44cb5c8a2b23b44f6a0
 RPROVIDES:${PN} += "libgpg-error-devel \
 pkgconfig-gpg-error"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 info \
 ld-linux-aarch64.so.1 \

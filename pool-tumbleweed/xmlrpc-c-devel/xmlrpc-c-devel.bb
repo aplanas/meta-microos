@@ -26,8 +26,8 @@ pkgconfig-xmlrpc-util \
 pkgconfig-xmlrpc-util++ \
 xmlrpc-c-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libxmlrpc++8 \
 libxmlrpc-abyss++8 \
 libxmlrpc-abyss3 \

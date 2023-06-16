@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-commado.sty \
 tex-filesdo.sty \
 texlive-commado"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

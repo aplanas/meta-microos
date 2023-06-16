@@ -11,7 +11,7 @@ RPM_HASH = "d52e0b96484a8b52cd3565268945ce257d41a53d3b10aa1a89290ea3da75f0ece228
 
 RPROVIDES:${PN} += "rt-tests"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \

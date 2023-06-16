@@ -28,8 +28,8 @@ postgresql-devel-exclusive \
 postgresql-devel-implementation \
 postgresql14-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libecpg6 \

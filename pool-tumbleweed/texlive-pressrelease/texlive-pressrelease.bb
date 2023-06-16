@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pressrelease-symbols.sty \
 tex-pressrelease.cls \
 texlive-pressrelease"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

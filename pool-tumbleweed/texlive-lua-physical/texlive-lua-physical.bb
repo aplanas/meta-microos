@@ -14,8 +14,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-physical"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/luatex \
+RDEPENDS:${PN} += "/usr/bin/luatex \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

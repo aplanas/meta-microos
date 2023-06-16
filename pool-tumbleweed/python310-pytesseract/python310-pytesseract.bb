@@ -22,8 +22,8 @@ python3.10dist-pytesseract \
 python310-pytesseract \
 python3dist-pytesseract"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 pkgconfig-tesseract \
 python-abi \
 python310-Pillow \

@@ -14,8 +14,8 @@ python3.10dist-autopep8 \
 python310-autopep8 \
 python3dist-autopep8"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-pycodestyle \
 python310-tomli \

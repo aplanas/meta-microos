@@ -129,7 +129,7 @@ font-nazli \
 font-titr \
 texlive-arabi-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

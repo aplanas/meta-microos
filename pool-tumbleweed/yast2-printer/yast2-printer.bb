@@ -9,8 +9,8 @@ RPM_HASH = "dd605f18687818460c80ddc8171ea20e5d9b0b86fd96f5169f8e21ac62acf7212a29
 
 RPROVIDES:${PN} += "yast2-printer"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/mktemp \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/mktemp \
 /usr/bin/sed \
 yast2 \
 yast2-ruby-bindings"

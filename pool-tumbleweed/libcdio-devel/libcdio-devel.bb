@@ -20,8 +20,8 @@ pkgconfig-libiso9660 \
 pkgconfig-libiso9660++ \
 pkgconfig-libudf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libcdio++1 \
 libcdio19 \
 libiso9660++0 \

@@ -13,8 +13,8 @@ python3.10dist-fedora-messaging \
 python310-fedora-messaging \
 python3dist-fedora-messaging"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Twisted \
 python310-blinker \

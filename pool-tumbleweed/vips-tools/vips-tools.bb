@@ -10,9 +10,9 @@ RPM_HASH = "197811ce510d1fda862b9603a2a78d112dda729928e4b6575cf4d7cacdd118ef03a1
 
 RPROVIDES:${PN} += "vips-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

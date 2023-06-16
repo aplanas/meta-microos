@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "leechcraft \
 libleechcraft-util-qt5.so.0.6.75 \
 libleechcraft-xsd-qt5.so.0.6.75.2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Concurrent.so.5 \
 libQt5Core.so.5 \

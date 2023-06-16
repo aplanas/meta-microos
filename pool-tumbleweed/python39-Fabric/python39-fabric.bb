@@ -28,8 +28,8 @@ python39-fabric \
 python39-fabric2 \
 python3dist-fabric"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-cryptography \
 python39-decorator \

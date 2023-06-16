@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "config-svg-schema \
 svg-dtd \
 svg-schema"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libxml2-tools \
 sgml-skel"
 

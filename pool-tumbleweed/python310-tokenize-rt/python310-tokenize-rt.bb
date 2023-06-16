@@ -13,8 +13,8 @@ python3.10dist-tokenize-rt \
 python310-tokenize-rt \
 python3dist-tokenize-rt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

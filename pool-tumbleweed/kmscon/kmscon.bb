@@ -12,7 +12,7 @@ RPM_HASH = "6bbbe20fa92b10a38e551731d8eb19caabc2d3a10d68733e8f926e15489fff47c85c
 RPROVIDES:${PN} += "kmscon \
 kmscon-service"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGLESv2.so.2 \

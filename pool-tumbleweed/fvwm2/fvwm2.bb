@@ -37,9 +37,9 @@ perl-General--Parse \
 windowmanager \
 xpmroot"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 desktop-data \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \

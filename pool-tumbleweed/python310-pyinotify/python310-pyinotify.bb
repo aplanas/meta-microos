@@ -26,7 +26,7 @@ python3.10dist-pyinotify \
 python310-pyinotify \
 python3dist-pyinotify"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -9,7 +9,7 @@ RPM_HASH = "6d3acde7322e9c78fbd896797e61dfb8621d69fd74b367d5bdfa5af798847915407f
 
 RPROVIDES:${PN} += "imagewriter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

@@ -14,7 +14,7 @@ RPM_HASH = "c92462f6f6829984ca45647a50ff7993162314fa24b981f56b9965e799b4ebf9241e
 
 RPROVIDES:${PN} += "llvm13"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libLLVM.so.13 \
 libLLVMTableGen.so.13 \

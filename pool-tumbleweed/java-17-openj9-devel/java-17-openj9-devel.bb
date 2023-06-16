@@ -22,7 +22,7 @@ java-sdk-openj9 \
 java-sdk-openjdk \
 libattach.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-17-openj9 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "python3.9dist-veusz \
 python39-veusz \
 python3dist-veusz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

@@ -16,8 +16,8 @@ python3.10dist-show-in-file-manager \
 python310-show-in-file-manager \
 python3dist-show-in-file-manager"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-packaging \
 python310-pyxdg \

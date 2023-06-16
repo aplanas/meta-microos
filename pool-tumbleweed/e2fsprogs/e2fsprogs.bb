@@ -12,8 +12,8 @@ RPM_HASH = "7114fe253642c724f160a277828975bbf273ec1388643c5bfa74437c2d5ba6f6fbb6
 RPROVIDES:${PN} += "config-e2fsprogs \
 e2fsprogs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \

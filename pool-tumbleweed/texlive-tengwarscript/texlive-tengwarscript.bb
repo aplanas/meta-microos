@@ -87,7 +87,7 @@ tex-tngani.tfm \
 tex-unicodeparmaite.cfg \
 texlive-tengwarscript"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

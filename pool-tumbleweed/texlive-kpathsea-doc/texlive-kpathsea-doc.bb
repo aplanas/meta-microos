@@ -14,6 +14,6 @@ man-kpsestat.1 \
 man-kpsewhich.1 \
 texlive-kpathsea-doc"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

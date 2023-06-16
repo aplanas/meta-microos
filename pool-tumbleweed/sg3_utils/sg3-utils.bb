@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "scsi \
 sg-utils \
 sg3-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

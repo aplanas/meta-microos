@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-iso-8859-7.def \
 tex-macgreek.def \
 texlive-greek-inputenc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

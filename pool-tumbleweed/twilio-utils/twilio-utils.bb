@@ -18,7 +18,7 @@ RPM_HASH = "d5e3cfcbf630f24f605bd9a036f5e414b6760c0fbf67b9ad41cd39b0488efed83b4f
 RPROVIDES:${PN} += "config-twilio-utils \
 twilio-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 curl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

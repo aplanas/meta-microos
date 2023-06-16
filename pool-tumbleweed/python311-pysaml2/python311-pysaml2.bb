@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-pysaml2 \
 python311-pysaml2 \
 python3dist-pysaml2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Paste \
 python311-cryptography \

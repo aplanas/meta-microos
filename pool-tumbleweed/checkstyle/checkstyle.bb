@@ -13,8 +13,8 @@ config-checkstyle \
 mvn-com.puppycrawl.tools-checkstyle \
 mvn-com.puppycrawl.tools-checkstyle-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

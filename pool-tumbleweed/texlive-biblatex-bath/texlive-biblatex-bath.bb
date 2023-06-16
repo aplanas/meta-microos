@@ -16,7 +16,7 @@ tex-british-bath.lbx \
 tex-english-bath.lbx \
 texlive-biblatex-bath"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

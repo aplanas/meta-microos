@@ -11,7 +11,7 @@ RPM_HASH = "b6c69592a4326eddfe82c698f2e8bd2fd1139006c4a9a89c4b637118296a3a546bad
 
 RPROVIDES:${PN} += "fastjar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1"

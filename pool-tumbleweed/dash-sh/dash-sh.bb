@@ -8,7 +8,7 @@ RPM_NAME = "dash-sh-0.5.12-2.2.noarch.rpm"
 RPM_HASH = "b6668a9e94afbb6de90fc8b65174f8365a7359567bd97f600228066afe615e08aebc186ac2a7797bd2601fc23b4a47cd7ab259a976c4d38cac845a724843604b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "/bin/sh \
+RPROVIDES:${PN} += "/usr/bin/sh \
 alternative-sh \
 dash-sh"
 

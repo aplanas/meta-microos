@@ -28,8 +28,8 @@ RPROVIDES:${PN} += "mpi \
 openmpi \
 openmpi4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevent-core-2.1.so.7 \

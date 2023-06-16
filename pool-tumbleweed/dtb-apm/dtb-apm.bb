@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "dtb-apm \
 dtb-apm-mustang \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

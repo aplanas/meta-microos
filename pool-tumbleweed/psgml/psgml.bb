@@ -29,7 +29,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psgml"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 emacs-program"
 
 inherit rpm

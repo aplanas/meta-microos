@@ -12,7 +12,7 @@ RPM_HASH = "e46ebf6c5ac0daf803a6f18e9fde117b3d319e1857bfb7748ff876520f525e931825
 
 RPROVIDES:${PN} += "vagrant-sshfs"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 fuse \
 sshfs \
 vagrant"

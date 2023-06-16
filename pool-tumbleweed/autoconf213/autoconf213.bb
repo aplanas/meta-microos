@@ -20,8 +20,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf213"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 gawk \
 m4 \
 mktemp \

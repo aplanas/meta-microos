@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "pkgconfig-xtrans \
 xorg-x11-xtrans-devel \
 xtrans"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh"
 
 inherit rpm

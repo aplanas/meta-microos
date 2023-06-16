@@ -12,10 +12,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale-texlive-cjk-ja;ko;zh \
 texlive-cjk-latex-extras"
 
-RDEPENDS:${PN} += "/bin/mkdir \
-/bin/rm \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/rm \
+/usr/bin/sh \
 /usr/bin/touch \
 /usr/bin/updmap \
 freetype-tools \

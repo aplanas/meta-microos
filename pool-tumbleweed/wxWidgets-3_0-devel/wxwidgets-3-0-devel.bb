@@ -20,7 +20,7 @@ wxWidgets-3-0-devel \
 wxWidgets-any-devel \
 wxWidgets-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

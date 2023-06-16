@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-scrapy \
 python39-Scrapy \
 python3dist-scrapy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Protego \
 python39-PyDispatcher \

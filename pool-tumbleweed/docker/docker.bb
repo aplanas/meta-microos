@@ -20,8 +20,8 @@ group-docker \
 group-dockremap \
 user-dockremap"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 apparmor-parser \
 ca-certificates-mozilla \

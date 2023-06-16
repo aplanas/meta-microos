@@ -15,9 +15,9 @@ RPM_HASH = "6dd3c0db76b23d7f7dc3b07d2daea2e9792ca88cab2bc0b8e97b2a04c578e9ec73b5
 
 RPROVIDES:${PN} += "adios-1-13-1-gnu-openmpi2-hpc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

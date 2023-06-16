@@ -31,7 +31,7 @@ rpm-macro--ooRexx \
 rpm-macro--rexxclassdir \
 rpm-macro--rexxlibdir"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/update-alternatives \
 systemd"
 

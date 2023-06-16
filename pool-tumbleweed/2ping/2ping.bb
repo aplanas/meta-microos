@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "2ping \
 python3.10dist-2ping \
 python3dist-2ping"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3 \
 systemd"

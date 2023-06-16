@@ -10,7 +10,7 @@ RPM_HASH = "59dd14d71629a7c6e22d0a40a7af91d413c31f05c8d41c5191d75127ab28952f6616
 
 RPROVIDES:${PN} += "pcp-pmda-postfix"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-PCP-PMDA \
 postfix \
 postfix-doc"

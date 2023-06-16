@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-rdflib \
 python39-rdflib \
 python3dist-rdflib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-html5lib \
 python39-isodate \

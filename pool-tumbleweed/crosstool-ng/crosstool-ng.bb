@@ -12,8 +12,8 @@ RPM_HASH = "59fdc2ad3c6a4655f94b967fc6520e9b521204e62c6efbf2569e1bf80130d3a8f3de
 
 RPROVIDES:${PN} += "crosstool-ng"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/gmake \
+RDEPENDS:${PN} += "/usr/bin/gmake \
+/usr/bin/sh \
 bzip2 \
 gcc \
 gcc-c++ \

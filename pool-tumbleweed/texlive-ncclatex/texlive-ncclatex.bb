@@ -40,7 +40,7 @@ tex-ncctitlepage.sty \
 tex-sibjnm.cls \
 texlive-ncclatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

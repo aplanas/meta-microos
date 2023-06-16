@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-labels.sty \
 tex-olabels.sty \
 texlive-labels"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

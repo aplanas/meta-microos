@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-plasma-branding-MicroOS \
 plasma-branding-MicroOS"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 flatpak \
 kdialog \
 libqt5-qdbus \

@@ -15,7 +15,7 @@ libgvplugin-core.so.6 \
 libgvplugin-dot-layout.so.6 \
 libgvplugin-neato-layout.so.6"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 graphviz \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

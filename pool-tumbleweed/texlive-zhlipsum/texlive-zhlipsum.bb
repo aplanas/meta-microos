@@ -16,7 +16,7 @@ tex-zhlipsum-utf8.def \
 tex-zhlipsum.sty \
 texlive-zhlipsum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

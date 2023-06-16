@@ -13,7 +13,7 @@ u-boot-rpi3 \
 u-boot-rpi4 \
 u-boot-rpiarm64"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 util-linux"
 
 inherit rpm

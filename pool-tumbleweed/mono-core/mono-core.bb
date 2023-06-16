@@ -219,8 +219,8 @@ mono-sn \
 mono-xml-relaxng \
 mono-ziplib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ca-certificates \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

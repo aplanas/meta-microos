@@ -49,7 +49,7 @@ font-esstix-twelve \
 font-esstix-two \
 texlive-esstix-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

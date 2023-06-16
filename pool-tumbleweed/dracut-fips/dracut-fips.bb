@@ -12,8 +12,8 @@ RPM_HASH = "7a365c63632c2f8a0b53eb0ecbb28a4433eaaab489116fe2da6e05ec9f0f99f8112b
 RPROVIDES:${PN} += "config-dracut-fips \
 dracut-fips"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 dracut \
 libcryptsetup12-hmac \
 libgcrypt20-hmac \

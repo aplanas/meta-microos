@@ -11,7 +11,7 @@ RPM_HASH = "dcdcaa979fd10410b92fc6c142c0cb90f0d75e7055160df6fe0b865548a435d0490e
 
 RPROVIDES:${PN} += "python311-testsuite"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

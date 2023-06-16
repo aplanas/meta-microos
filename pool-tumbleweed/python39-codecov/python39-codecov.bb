@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-codecov \
 python39-codecov \
 python3dist-codecov"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-coverage \
 python39-requests \

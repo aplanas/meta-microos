@@ -22,7 +22,7 @@ postgresql-server \
 postgresql-server-noarch \
 user-postgres"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 postgresql \
 postgresql-server-implementation \
 systemd \

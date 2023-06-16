@@ -13,7 +13,7 @@ RPM_HASH = "230dbbe98de59a862231c591defd01f6ea1c92e3850f57d06d769a1494ba45461b33
 
 RPROVIDES:${PN} += "kbfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 keybase-client"
 
 inherit rpm

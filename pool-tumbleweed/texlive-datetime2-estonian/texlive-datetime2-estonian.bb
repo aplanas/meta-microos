@@ -16,7 +16,7 @@ tex-datetime2-estonian-utf8.ldf \
 tex-datetime2-estonian.ldf \
 texlive-datetime2-estonian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

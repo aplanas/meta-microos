@@ -15,8 +15,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-lyluatex.sty \
 texlive-lyluatex"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/luatex \
+RDEPENDS:${PN} += "/usr/bin/luatex \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

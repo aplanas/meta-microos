@@ -168,7 +168,7 @@ tex-transcmr.fd \
 tex-translit.sty \
 texlive-arabi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

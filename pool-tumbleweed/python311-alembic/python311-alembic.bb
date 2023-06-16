@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.11dist-alembic \
 python311-alembic \
 python3dist-alembic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Mako \
 python311-SQLAlchemy \

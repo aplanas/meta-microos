@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-rcsinfo.cfg \
 tex-rcsinfo.sty \
 texlive-rcsinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

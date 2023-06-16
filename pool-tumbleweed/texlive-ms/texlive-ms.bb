@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-count1to.sty \
 tex-multitoc.sty \
 texlive-ms"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,6 +13,6 @@ adobe-sourcehansans-tw-fonts \
 locale-zh-TW \
 scalable-font-zh-TW"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

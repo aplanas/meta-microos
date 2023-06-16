@@ -11,7 +11,7 @@ RPM_HASH = "eb8752461a08795d634e6fe18ae1008ca9d6362944f18b24741f9f6886fd46215d9a
 
 RPROVIDES:${PN} += "python39-scipy-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python39-scipy-1-10-1-gnu-hpc"
 
 inherit rpm

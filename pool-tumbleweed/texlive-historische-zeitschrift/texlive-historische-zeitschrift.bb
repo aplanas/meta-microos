@@ -20,7 +20,7 @@ tex-historische-zeitschrift.cbx \
 tex-historische-zeitschrift.lbx \
 texlive-historische-zeitschrift"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

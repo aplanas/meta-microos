@@ -17,7 +17,7 @@ tex-nodetree.sty \
 tex-nodetree.tex \
 texlive-nodetree"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

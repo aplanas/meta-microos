@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-firewall-applet \
 firewall-applet"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 firewall-config \
 hicolor-icon-theme \
 python3-gobject \

@@ -10,7 +10,7 @@ RPM_HASH = "4fdc70286cfda7c98d6faef7a50aa01ecd722cd3404778b41bfbc7082332e5e64dee
 RPROVIDES:${PN} += "ghc-brick-devel \
 ghc-devel-brick-1.6-LMplG6IsGlb3C6L6NTrgWE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-brick \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

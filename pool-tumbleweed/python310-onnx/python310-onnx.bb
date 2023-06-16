@@ -17,8 +17,8 @@ python310-onnx \
 python310-onnx-devel \
 python3dist-onnx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libonnx \

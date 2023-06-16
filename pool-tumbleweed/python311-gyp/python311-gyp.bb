@@ -16,8 +16,8 @@ python3.11dist-gyp \
 python311-gyp \
 python3dist-gyp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ninja \
 python-abi \
 python311-setuptools \

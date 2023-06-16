@@ -10,7 +10,7 @@ RPM_HASH = "ce498249fd4b6d4ca0226d1139ec787b405de840c39a5b4c3199b3f76259deca166c
 RPROVIDES:${PN} += "ghc-devel-pretty-hex-1.1-2861Nkv8pS0CIRpZJwwJMG \
 ghc-pretty-hex-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

@@ -18,7 +18,7 @@ RPM_HASH = "35c05999d1b05a172de62a78f628b82536c3847c114943324ec58e6097c99eebc308
 RPROVIDES:${PN} += "config-dolly \
 dolly"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gzip \
 ld-linux-aarch64.so.1 \
 libc.so.6"

@@ -12,7 +12,7 @@ RPM_HASH = "5e8463bf6639b5cb58f65e8903b0c04fc54180ef855bb9a4ef136557b98084bb0ecb
 
 RPROVIDES:${PN} += "eid-mw"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

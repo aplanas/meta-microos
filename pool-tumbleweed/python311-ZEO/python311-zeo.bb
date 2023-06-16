@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-zeo \
 python311-ZEO \
 python3dist-zeo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-ZConfig \
 python311-ZODB \

@@ -10,7 +10,7 @@ RPM_HASH = "c4938e9a5ded0e4f36caa47f9a7e547d15917f81fb302205f517867d376dc53cd47e
 
 RPROVIDES:${PN} += "debugedit"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 binutils \
 coreutils \
 dwz \

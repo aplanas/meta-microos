@@ -17,7 +17,7 @@ mvn-org.apache.geronimo.specs-geronimo-stax-api-1.0-spec-pom- \
 stax-1-0-api \
 stax-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

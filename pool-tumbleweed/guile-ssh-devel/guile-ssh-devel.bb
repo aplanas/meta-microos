@@ -9,8 +9,8 @@ RPM_HASH = "6423cedde256e29a0ecce522b079f522c73b0bd8a2ea2aaecdf36dbed473f1bc6b54
 
 RPROVIDES:${PN} += "guile-ssh-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/guile \
+RDEPENDS:${PN} += "/usr/bin/guile \
+/usr/bin/sh \
 libguile-ssh14"
 
 inherit rpm

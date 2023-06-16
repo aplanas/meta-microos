@@ -123,7 +123,7 @@ font-mrcls \
 font-mrclssc \
 texlive-marcellus-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

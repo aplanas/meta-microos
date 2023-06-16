@@ -13,7 +13,7 @@ font--lang=el \
 font-gfsbaskerville \
 texlive-gfsbaskerville-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

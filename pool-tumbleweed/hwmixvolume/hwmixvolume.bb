@@ -12,8 +12,8 @@ RPM_HASH = "50858931d9fbd74abee59664545eb22ba1afde7b20341bf22f62a43389eb55bfd857
 RPROVIDES:${PN} += "alsa-tools-gui \
 hwmixvolume"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python \
+RDEPENDS:${PN} += "/usr/bin/python \
+/usr/bin/sh \
 pyalsa \
 typelib-GLib \
 typelib-Gtk"

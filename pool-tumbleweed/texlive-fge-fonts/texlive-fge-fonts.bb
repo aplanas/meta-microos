@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-fgeit10 \
 font-fgerm10 \
 texlive-fge-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

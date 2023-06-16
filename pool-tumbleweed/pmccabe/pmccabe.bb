@@ -32,7 +32,7 @@ RPM_HASH = "2d9f34e0e33367510f66626441c904725ae382ed38379227182a9cb376f65cfbe81e
 
 RPROVIDES:${PN} += "pmccabe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

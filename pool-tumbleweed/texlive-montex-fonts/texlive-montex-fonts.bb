@@ -131,7 +131,7 @@ font-tex\040kmr10 \
 font-tex\040kmss10 \
 texlive-montex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -31,8 +31,8 @@ tex-ps2pk35.map \
 tex-updmap.cfg \
 texlive-scripts"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

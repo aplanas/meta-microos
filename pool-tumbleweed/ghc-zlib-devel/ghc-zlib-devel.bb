@@ -10,7 +10,7 @@ RPM_HASH = "fc28a493449cfa552eda85e912ce1007a3e499f0ec5e61c561c4964016204d66b49c
 RPROVIDES:${PN} += "ghc-devel-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk \
 ghc-zlib-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-translation-finder \
 python311-translation-finder \
 python3dist-translation-finder"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-ruamel.yaml \
 python311-setuptools \

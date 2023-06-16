@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-rmpage.sty \
 tex-rmpgen.cfg \
 texlive-rmpage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

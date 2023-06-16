@@ -11,7 +11,7 @@ RPM_HASH = "33086250cbd09cd18f8d9f6f4684c5c98152c1124cd35b0b6929d0da979494b3bbe6
 
 RPROVIDES:${PN} += "libopenblas-gnu-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libopenblas-0-3-21-gnu-hpc-devel"
 
 inherit rpm

@@ -14,8 +14,8 @@ mono-gapi-codegen \
 mono-gapi-fixup \
 mono-gapi-parser"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 mono-System \
 mono-System.Xml \
 mono-mscorlib \

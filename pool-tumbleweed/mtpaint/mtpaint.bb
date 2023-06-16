@@ -13,7 +13,7 @@ RPM_HASH = "4d506be00915dacc0695a1434ed73e116541d60871b58c5dc96abc93f639c08782c3
 
 RPROVIDES:${PN} += "mtpaint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ImageMagick \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

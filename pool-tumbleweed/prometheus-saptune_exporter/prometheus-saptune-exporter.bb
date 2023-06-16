@@ -10,6 +10,6 @@ RPM_HASH = "bdd739e8ed52e8d9b9eb662370481ba062c7852681c7443b44fb5993cf29652808cd
 RPROVIDES:${PN} += "prometheus-saptune-exporter \
 saptune-exporter"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

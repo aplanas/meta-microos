@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pgf-umlcd.sty \
 tex-tikzlibraryumlcd.code.tex \
 texlive-pgf-umlcd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

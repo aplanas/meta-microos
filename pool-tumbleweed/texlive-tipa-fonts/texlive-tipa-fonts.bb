@@ -168,7 +168,7 @@ font-tex\040xipxsl10 \
 font-tex\040xipxss10 \
 texlive-tipa-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

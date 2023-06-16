@@ -19,9 +19,9 @@ go1.16 \
 golang-API \
 libstd.so"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 gcc \
 libc.so.6 \
 update-alternatives"

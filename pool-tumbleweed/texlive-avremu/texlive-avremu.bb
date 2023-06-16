@@ -21,7 +21,7 @@ tex-avr.testsuite.tex \
 tex-avremu.sty \
 texlive-avremu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

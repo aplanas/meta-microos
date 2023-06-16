@@ -9,8 +9,7 @@ RPM_HASH = "7a4bc9c09fa8eb042821023ce45e8019418c1a0580eede598a6ef5af04c6146ba2bb
 
 RPROVIDES:${PN} += "microos-devel-tools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

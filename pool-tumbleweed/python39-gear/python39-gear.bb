@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-gear \
 python39-gear \
 python3dist-gear"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-extras \
 python39-pbr \

@@ -15,8 +15,8 @@ RPM_HASH = "041ac991a8bf15c9641408fc0e1d7a438699f6c6f3e82d3888ae004b92eb1184ea73
 RPROVIDES:${PN} += "config-quassel-core \
 quassel-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

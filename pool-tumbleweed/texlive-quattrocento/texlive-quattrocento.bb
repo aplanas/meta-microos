@@ -195,7 +195,7 @@ tex-quattrocento.map \
 tex-quattrocento.sty \
 texlive-quattrocento"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,7 +16,7 @@ tex-ocrb8.tfm \
 tex-ocrb9.tfm \
 texlive-ocr-b"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

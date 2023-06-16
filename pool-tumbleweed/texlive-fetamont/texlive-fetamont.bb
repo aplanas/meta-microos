@@ -54,7 +54,7 @@ tex-ffmw10.tfm \
 tex-ffmwo10.tfm \
 texlive-fetamont"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

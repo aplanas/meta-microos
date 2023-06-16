@@ -15,7 +15,7 @@ RPM_HASH = "9031015669c4b6fcf0ad23d3bf4de61138249babd318d6692eabdc9fc5ca837d8845
 
 RPROVIDES:${PN} += "tinc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

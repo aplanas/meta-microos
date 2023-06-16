@@ -24,7 +24,7 @@ tex-hiplainpage.tex \
 tex-ifhint.tex \
 texlive-hitex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

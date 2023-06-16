@@ -15,7 +15,7 @@ RPM_HASH = "7887dd7f63309123e860019b3d72393bdbd66cb75d09d5482f9338dbff04a356eb83
 RPROVIDES:${PN} += "config-hostapd \
 hostapd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

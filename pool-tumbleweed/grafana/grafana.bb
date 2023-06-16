@@ -13,9 +13,9 @@ RPM_HASH = "8c0e9d95c3588a3eba8ad275b0410609ce794343d70192a65ab6fae4154fd35529b2
 RPROVIDES:${PN} += "config-grafana \
 grafana"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-grafana \

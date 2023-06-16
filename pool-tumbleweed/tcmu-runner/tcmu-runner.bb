@@ -28,7 +28,7 @@ RPM_HASH = "3d8cf3393111a414d4f73e3e3f6126cc1344d054dafe8e2ed12ccfe7eeceb57e82af
 RPROVIDES:${PN} += "config-tcmu-runner \
 tcmu-runner"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

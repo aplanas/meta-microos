@@ -17,8 +17,8 @@ python39-pep8 \
 python39-pycodestyle \
 python3dist-pycodestyle"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

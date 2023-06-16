@@ -24,7 +24,7 @@ RPM_HASH = "612d6e7f53066c80d50f63c82318b1143fed0dbd9e69741abad78dbbffefadc70a7b
 RPROVIDES:${PN} += "config-cups \
 cups"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/sbin/groupadd \
 coreutils \
 cups-client \

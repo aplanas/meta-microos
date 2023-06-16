@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-bkltprnt.sty \
 tex-booklet.sty \
 texlive-booklet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

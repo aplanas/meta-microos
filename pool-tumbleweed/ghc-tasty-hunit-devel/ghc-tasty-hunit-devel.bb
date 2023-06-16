@@ -10,7 +10,7 @@ RPM_HASH = "8419e5aa1c285b8e052b4955f35677562aae4195f3190da1af56dc92984ad53cf472
 RPROVIDES:${PN} += "ghc-devel-tasty-hunit-0.10.0.3-CV9N1Lkn3CAEveU82YsKyL \
 ghc-tasty-hunit-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk \

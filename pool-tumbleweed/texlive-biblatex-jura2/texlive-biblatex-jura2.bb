@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-jura2.bbx \
 tex-jura2.cbx \
 texlive-biblatex-jura2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

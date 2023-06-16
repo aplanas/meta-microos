@@ -11,7 +11,7 @@ RPM_HASH = "953817a224f0de91d9a0617171f9108e27ff072271d4dace4b0eb4fa5ac967f44e32
 
 RPROVIDES:${PN} += "rox-filer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libSM.so.6 \

@@ -12,8 +12,8 @@ RPM_HASH = "cdd50728208f08c201e9c1a982a638bd9d3a6dec16c44537ff66a9600feeb40aa8d8
 RPROVIDES:${PN} += "config-rp-pppoe \
 rp-pppoe"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 group-dialout \
 iproute2 \
 ld-linux-aarch64.so.1 \

@@ -16,8 +16,8 @@ rubygem-ruby-3.2.0-pry-0 \
 rubygem-ruby-3.2.0-pry-0.14 \
 rubygem-ruby-3.2.0-pry-0.14.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-coderay-1 \
 rubygem-ruby-3.2.0-method-source-1 \

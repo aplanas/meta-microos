@@ -10,7 +10,7 @@ RPM_HASH = "a464ffb1bd4fa8cee1f12eeb83415dd4c3b2a49d0963ca83009ec39482bdb17fedd1
 
 RPROVIDES:${PN} += "pps-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

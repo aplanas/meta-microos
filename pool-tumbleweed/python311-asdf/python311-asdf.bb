@@ -15,8 +15,8 @@ python311-asdf \
 python3dist-asdf"
 
 RDEPENDS:${PN} += "-python311-jsonschema >= 4.0.1 with python311-jsonschema < 4.18 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyYAML \
 python311-asdf-standard \

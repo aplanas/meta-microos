@@ -15,8 +15,8 @@ python39-ipyparallel \
 python39-jupyter-ipyparallel \
 python3dist-ipyparallel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-decorator \
 python39-entrypoints \

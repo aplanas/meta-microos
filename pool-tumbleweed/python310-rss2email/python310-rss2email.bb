@@ -15,8 +15,8 @@ python3.10dist-rss2email \
 python310-rss2email \
 python3dist-rss2email"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python3.10dist-feedparser \
 python3.10dist-html2text \

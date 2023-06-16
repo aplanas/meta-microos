@@ -22,7 +22,7 @@ tex-eurosl.tfm \
 tex-eurosp.tfm \
 texlive-euro-ce"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

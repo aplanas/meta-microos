@@ -11,9 +11,9 @@ RPM_HASH = "37f548bfe8aec122073524c41e43e98f04c61ac53535ebc2adce68727030dacb5227
 
 RPROVIDES:${PN} += "nco"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

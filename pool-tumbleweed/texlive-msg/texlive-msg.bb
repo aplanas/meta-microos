@@ -21,7 +21,7 @@ tex-msg.sty \
 tex-norsk-msg-msg.tex \
 texlive-msg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

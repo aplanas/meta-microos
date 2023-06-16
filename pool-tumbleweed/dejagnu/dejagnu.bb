@@ -33,7 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-dejagnu \
 dejagnu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 expect \
 info \
 tcl"

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-geomet \
 python39-geomet \
 python3dist-geomet"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 update-alternatives"

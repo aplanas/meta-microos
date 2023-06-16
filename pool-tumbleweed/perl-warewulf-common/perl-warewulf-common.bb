@@ -66,7 +66,7 @@ perl-Warewulf--Timer \
 perl-Warewulf--Util \
 perl-warewulf-common"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 perl-DBD-mysql"
 

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-pyannotate \
 python311-pyannotate \
 python3dist-pyannotate"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-mypy-extensions \
 python311-six \

@@ -14,7 +14,7 @@ tex-gantt-s-tikz.tex \
 tex-t-gantt.tex \
 texlive-context-gantt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

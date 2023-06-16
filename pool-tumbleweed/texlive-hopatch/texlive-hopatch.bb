@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-hopatch-2016-05-16.sty \
 tex-hopatch.sty \
 texlive-hopatch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

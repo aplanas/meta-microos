@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-pgflibrarymatrix.skeleton.code.tex \
 tex-tikzlibrarymatrix.skeleton.code.tex \
 texlive-matrix-skeleton"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

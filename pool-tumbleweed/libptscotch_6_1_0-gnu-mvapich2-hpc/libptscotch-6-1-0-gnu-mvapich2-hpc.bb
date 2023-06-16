@@ -10,7 +10,7 @@ RPM_HASH = "b7d3b239d0d8edfd0185f933e5cb0b0b56da8e061923486f969c7a7822d1b84ea7f5
 
 RPROVIDES:${PN} += "libptscotch-6-1-0-gnu-mvapich2-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \

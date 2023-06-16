@@ -10,7 +10,7 @@ RPM_HASH = "f4f6a7ff33d1965ffb0fed7a8b7149423598193745d12a9b33f9355d9e6b1994d0fa
 RPROVIDES:${PN} += "ghc-dbus-devel \
 ghc-devel-dbus-1.2.28-27GbkRPSCRwKgi0yxoNYFh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-dbus \
 ghc-devel-base-4.17.1.0 \

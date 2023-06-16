@@ -13,7 +13,7 @@ RPM_HASH = "da2da37d7358a570b4d6d40d9513447a543bdec882f658471bc8fedfab5cb4f2d331
 RPROVIDES:${PN} += "thunar-archive-plugin \
 thunar-plugin-archive"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

@@ -13,7 +13,7 @@ RPM_HASH = "7dd59f05905163f6f877f2bc582d0a3a0c45606fa32d9249cf77dcd07a8fda2b24be
 RPROVIDES:${PN} += "config-wpa-supplicant \
 wpa-supplicant"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

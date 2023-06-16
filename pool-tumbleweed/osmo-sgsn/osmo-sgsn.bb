@@ -11,7 +11,7 @@ RPM_HASH = "c7fb306db7e4ff6c7010b750d47f06237319f0fe845e350b3ecb993133144c5e6834
 RPROVIDES:${PN} += "config-osmo-sgsn \
 osmo-sgsn"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcares.so.2 \

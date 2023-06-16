@@ -11,7 +11,7 @@ RPM_HASH = "8df39ef387e49b2da361f10407aab5ed70c4a9ec7542e8bdb1775f606acef05c3e32
 RPROVIDES:${PN} += "ghc-devel-indexed-profunctors-0.1.1-8slbuH4IUUg1HsCF6rf8GV \
 ghc-indexed-profunctors-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-indexed-profunctors"

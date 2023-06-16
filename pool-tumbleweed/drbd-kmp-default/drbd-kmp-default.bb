@@ -16,7 +16,7 @@ kmod-drbd-transport-tcp.ko \
 kmod-drbd.ko \
 multiversion-kernel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-default \

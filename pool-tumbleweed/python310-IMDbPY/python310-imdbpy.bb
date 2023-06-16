@@ -17,8 +17,8 @@ python3.10dist-imdbpy \
 python310-IMDbPY \
 python3dist-imdbpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-SQLAlchemy \
 python310-lxml \

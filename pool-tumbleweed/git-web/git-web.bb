@@ -13,8 +13,8 @@ RPM_HASH = "10dce394bf861f836f0f2d276a15f947372b400547268c2eb1cbfdfa0fd2b405c051
 RPROVIDES:${PN} += "config-git-web \
 git-web"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 git-core \
 perl-CGI \
 perl-Git"

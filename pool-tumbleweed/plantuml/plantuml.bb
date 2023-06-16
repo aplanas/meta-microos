@@ -22,7 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn-net.sourceforge.plantuml-plantuml \
 plantuml"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java \
 java-headless \
 javapackages-filesystem \

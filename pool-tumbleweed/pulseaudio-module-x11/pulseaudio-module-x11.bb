@@ -14,7 +14,7 @@ RPM_HASH = "be0105053cda162326aa3d5577ce224ee00bee2d1131eeadb017a029e16c3f3d9bc7
 
 RPROVIDES:${PN} += "pulseaudio-module-x11"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libSM.so.6 \

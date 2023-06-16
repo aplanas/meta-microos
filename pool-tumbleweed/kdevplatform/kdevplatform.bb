@@ -10,9 +10,9 @@ RPM_HASH = "bdd5900b270acd8df5125f3d9cf7fdbd501ae4ed499764a93844b3edf172e1590da6
 
 RPROVIDES:${PN} += "kdevplatform"
 
-RDEPENDS:${PN} += "/bin/sh \
-/bin/zsh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
+/usr/bin/zsh \
 grantlee5 \
 ld-linux-aarch64.so.1 \
 libGrantlee-Templates.so.5 \

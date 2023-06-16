@@ -40,9 +40,9 @@ libxt-psd.so \
 libxt-quota2.so \
 xtables-addons"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libxtables.so.12 \

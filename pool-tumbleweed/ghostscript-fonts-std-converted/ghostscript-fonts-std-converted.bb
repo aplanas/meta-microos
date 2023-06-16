@@ -157,7 +157,7 @@ font-urwgothicl \
 font-urwpalladiol \
 ghostscript-fonts-std-converted"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 fonts-config"
 
 inherit rpm

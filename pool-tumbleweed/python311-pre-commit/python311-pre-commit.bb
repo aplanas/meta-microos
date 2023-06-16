@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "python3.11dist-pre-commit \
 python311-pre-commit \
 python3dist-pre-commit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyYAML \
 python311-cfgv \

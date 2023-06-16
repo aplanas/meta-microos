@@ -38,7 +38,7 @@ tex-polski.sty \
 tex-qxenc.def \
 texlive-polski"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

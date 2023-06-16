@@ -21,7 +21,7 @@ tex-beamerouterthemeNPBT-FOM.sty \
 tex-beamerthemeNPBT.sty \
 texlive-beamertheme-npbt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -36,7 +36,7 @@ tex-qtxmia.tfm \
 tex-qtxmia.vf \
 texlive-qpxqtx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

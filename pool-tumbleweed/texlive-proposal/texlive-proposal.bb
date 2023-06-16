@@ -28,7 +28,7 @@ tex-proposal.cls \
 tex-reporting.cls \
 texlive-proposal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

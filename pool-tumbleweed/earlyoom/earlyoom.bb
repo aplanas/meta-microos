@@ -10,7 +10,7 @@ RPM_HASH = "709fbade46868600fb4c71f0d29f84aa00f0eac97a048674a0de9c77055ec6066ac9
 
 RPROVIDES:${PN} += "earlyoom"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

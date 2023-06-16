@@ -15,7 +15,7 @@ RPM_HASH = "0be3bc7284d58562cd95b81a143ff166b7e40ab0e5f539924df4ddae8f44afdaeb90
 RPROVIDES:${PN} += "libmorph.so.1 \
 xmorph"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXaw.so.7 \

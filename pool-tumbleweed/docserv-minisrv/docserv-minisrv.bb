@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "docserv-minisrv \
 group-docserv-srv \
 user-docserv-srv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 sysuser-shadow"
 

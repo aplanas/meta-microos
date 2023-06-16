@@ -15,9 +15,9 @@ RPM_HASH = "dcc876257a6aebf7d72a721bf446d9a602f5f1fb0dbdeb94cc016615b9a7b790f7db
 RPROVIDES:${PN} += "config-grub2 \
 grub2"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 gettext-runtime \
 libc.so.6 \
 libdevmapper.so.1.03 \

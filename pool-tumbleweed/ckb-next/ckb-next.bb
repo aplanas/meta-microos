@@ -13,8 +13,8 @@ RPM_HASH = "684f96a48b3a40eab876720079f8c4fcc9c379c58a0034457489837fa15b0cf4decc
 RPROVIDES:${PN} += "ckb \
 ckb-next"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 bash \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

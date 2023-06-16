@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pst-marble.sty \
 tex-pst-marble.tex \
 texlive-pst-marble"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

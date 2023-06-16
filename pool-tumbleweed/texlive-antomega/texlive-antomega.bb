@@ -39,7 +39,7 @@ tex-uni1f00.def \
 tex-ut1enc-antomega.def \
 texlive-antomega"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

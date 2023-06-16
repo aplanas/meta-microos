@@ -74,9 +74,9 @@ bundled-rubygem(zeitwerk) \
 config-rmt-server \
 rmt-server"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 gpg2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

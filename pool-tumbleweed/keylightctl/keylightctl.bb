@@ -9,6 +9,6 @@ RPM_HASH = "aa4d23263606acf58251c331f7080469bfdfd9e27ca266220be28e11bf649dc6263f
 
 RPROVIDES:${PN} += "keylightctl"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

@@ -13,9 +13,9 @@ python3-gi-docgen \
 python3.10dist-gi-docgen \
 python3dist-gi-docgen"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-Jinja2 \
 python3-Markdown \

@@ -17,7 +17,7 @@ RPM_HASH = "e80d06cc6861e655343d8661580d0864243068f9a42005ec3d355d7d0bc9963ae1f6
 RPROVIDES:${PN} += "config-tuxpaint \
 tuxpaint"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 freefont \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \

@@ -28,7 +28,7 @@ rpm-macro-ibus-requires \
 rpm-macro-ibus-table-index-post \
 rpm-macro-ibus-table-requires"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dconf \
 ibus-dict-emoji \
 iso-codes \

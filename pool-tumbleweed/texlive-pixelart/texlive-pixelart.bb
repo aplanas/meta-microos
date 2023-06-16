@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pixelart.sty \
 tex-pixelart0.sty \
 texlive-pixelart"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

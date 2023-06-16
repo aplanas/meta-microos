@@ -29,7 +29,7 @@ tex-rsc.chemstyle.cfg \
 tex-tetlett.chemstyle.cfg \
 texlive-chemstyle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

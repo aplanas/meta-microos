@@ -10,7 +10,7 @@ RPM_HASH = "d3145b5407c7dd9e1c158d687ee5dd6cb82a86c0886028f8da17e4a5ece9a0facee2
 RPROVIDES:${PN} += "ghc-devel-x509-system-1.6.7-BOgSBhUS7jg4riLu2Dt4H7 \
 ghc-x509-system-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

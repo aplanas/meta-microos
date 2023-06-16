@@ -44,7 +44,7 @@ font-tex\040pcslc9 \
 font-tex\040pcti10 \
 texlive-cc-pl-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

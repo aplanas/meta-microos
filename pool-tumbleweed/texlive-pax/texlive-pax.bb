@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "tex-pax.jar \
 tex-pax.sty \
 texlive-pax"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

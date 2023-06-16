@@ -15,7 +15,7 @@ tex-beamerouterthemeDetlevCM.sty \
 tex-beamerthemeDetlevCM.sty \
 texlive-beamertheme-detlevcm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

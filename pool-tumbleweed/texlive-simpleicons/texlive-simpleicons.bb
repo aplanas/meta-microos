@@ -47,7 +47,7 @@ tex-usimpleiconsThree.fd \
 tex-usimpleiconsTwo.fd \
 texlive-simpleicons"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

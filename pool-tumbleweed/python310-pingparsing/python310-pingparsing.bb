@@ -13,8 +13,8 @@ python3.10dist-pingparsing \
 python310-pingparsing \
 python3dist-pingparsing"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-humanreadable \
 python310-loguru \

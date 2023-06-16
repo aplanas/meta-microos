@@ -18,8 +18,8 @@ libasprintf.so.0 \
 libgettextlib-0.21.1.so \
 libgettextsrc-0.21.1.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libstdc++.so.6 \

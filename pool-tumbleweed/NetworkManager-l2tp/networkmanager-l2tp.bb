@@ -11,7 +11,7 @@ RPM_HASH = "2c5c26c00d708319700a8b3140dfb88fc63094108ff51c38c0d9d34eed0d1fa57524
 RPROVIDES:${PN} += "NetworkManager-l2tp \
 libnm-vpn-plugin-l2tp.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

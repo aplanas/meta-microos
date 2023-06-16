@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-epsf.sty \
 tex-epsf.tex \
 texlive-epsf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

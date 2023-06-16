@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-pyjokes \
 python311-pyjokes \
 python3dist-pyjokes"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

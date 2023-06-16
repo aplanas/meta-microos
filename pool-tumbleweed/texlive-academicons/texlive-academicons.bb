@@ -32,7 +32,7 @@ RPROVIDES:${PN} += "tex-academicons.sty \
 tex-tuacademicons.fd \
 texlive-academicons"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

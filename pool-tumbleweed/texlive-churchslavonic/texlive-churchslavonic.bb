@@ -19,7 +19,7 @@ tex-cu-util.sty \
 tex-gloss-churchslavonic.ldf \
 texlive-churchslavonic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-pst-pad.sty \
 tex-pst-pad.tex \
 texlive-pst-pad"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-democodelisting.sty \
 tex-democodetools.sty \
 texlive-democodetools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

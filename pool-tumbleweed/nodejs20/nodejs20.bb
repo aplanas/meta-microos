@@ -32,7 +32,7 @@ nodejs-abi \
 nodejs-engine \
 nodejs20"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/update-alternatives \
 ld-linux-aarch64.so.1 \
 libbrotlidec.so.1 \

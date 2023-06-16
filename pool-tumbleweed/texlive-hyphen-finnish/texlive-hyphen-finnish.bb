@@ -19,7 +19,7 @@ tex-loadhyph-fi-x-school.tex \
 tex-loadhyph-fi.tex \
 texlive-hyphen-finnish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

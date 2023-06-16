@@ -131,7 +131,7 @@ font--lang=zu \
 font-dictionarysymbols \
 texlive-dictsym-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

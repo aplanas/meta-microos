@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-flippdf-1x.sty \
 tex-flippdf.sty \
 texlive-flippdf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

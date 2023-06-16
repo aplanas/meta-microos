@@ -11,7 +11,7 @@ RPM_HASH = "4b328111b93edd6365330afef18d62dc5c5f50fcbbbbc51de1322961aef3e7f37c3f
 
 RPROVIDES:${PN} += "postgresql12-pgsql-ogr-fdw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdal.so.32 \

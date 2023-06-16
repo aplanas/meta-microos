@@ -19,8 +19,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gnome-icon-theme-symbolic \
 pkgconfig-gnome-icon-theme-symbolic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 gnome-icon-theme"
 
 inherit rpm

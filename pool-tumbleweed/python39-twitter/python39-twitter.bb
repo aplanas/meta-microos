@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-twitter \
 python39-twitter \
 python3dist-twitter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python3.9dist-certifi \
 python3.9dist-setuptools \

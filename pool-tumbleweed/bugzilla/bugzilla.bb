@@ -208,10 +208,10 @@ perl-Support--Files \
 perl-Support--Systemexec \
 perl-Support--Templates"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
+/usr/bin/sh \
 patchutils \
 perl-Authen-SASL \
 perl-CGI \

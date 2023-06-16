@@ -20,8 +20,8 @@ python39-Cheetah3 \
 python39-cheetah \
 python3dist-cheetah3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi"

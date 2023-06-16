@@ -11,7 +11,7 @@ RPM_HASH = "b62dcf9d657d1e54e0876f2045607a5f46239f3f51e2731d20b583249103db5f66a1
 RPROVIDES:${PN} += "ghc-concurrent-output-devel \
 ghc-devel-concurrent-output-1.10.17-8XvoUl0e7ll2y9NMBdkV0e"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-concurrent-output \
 ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \

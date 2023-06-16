@@ -31,8 +31,8 @@ libvglfaker-nodl.so \
 libvglfaker-opencl.so \
 libvglfaker.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGL.so.1 \

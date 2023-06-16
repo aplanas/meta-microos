@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.9dist-stdeb \
 python39-stdeb \
 python3dist-stdeb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 debhelper \
 dpkg \
 fakeroot \

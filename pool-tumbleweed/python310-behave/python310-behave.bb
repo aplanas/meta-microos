@@ -18,8 +18,8 @@ python3.10dist-behave \
 python310-behave \
 python3dist-behave"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-parse \
 python310-parse-type \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "bootsplash-branding \
 bootsplash-branding-upstream \
 config-bootsplash-branding-upstream"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 bootsplash \
 fillup \

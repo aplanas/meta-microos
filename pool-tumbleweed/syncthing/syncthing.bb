@@ -11,6 +11,6 @@ RPM_HASH = "ff2d5e65b06f5151eb1e8018e522853201d3e89b25185ca61c864529f6f3db02ec19
 
 RPROVIDES:${PN} += "syncthing"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

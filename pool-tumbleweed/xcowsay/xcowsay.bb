@@ -24,8 +24,8 @@ RPM_HASH = "6fd313d74364a40ca34f556d3779932c08193b233eefbb21e4deba5a8c9858ecc98a
 
 RPROVIDES:${PN} += "xcowsay"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 fortune \
 gtk2 \
 ld-linux-aarch64.so.1 \

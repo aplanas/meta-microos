@@ -15,7 +15,7 @@ tex-beamerouterthemehitszbeamer.sty \
 tex-beamerthemehitszbeamer.sty \
 texlive-hitszbeamer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

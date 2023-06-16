@@ -19,8 +19,8 @@ python3.10dist-lesscpy \
 python310-lesscpy \
 python3dist-lesscpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-ply \
 python310-setuptools \

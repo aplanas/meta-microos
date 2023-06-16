@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pdfwin.cfg \
 tex-pdfwin.sty \
 texlive-pdfwin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

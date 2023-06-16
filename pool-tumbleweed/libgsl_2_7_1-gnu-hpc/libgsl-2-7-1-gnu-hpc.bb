@@ -25,7 +25,7 @@ RPM_HASH = "c4bf39d52516d37eb6755a1c88fd2eaefd0bd98fab5563361473101cca8990638315
 
 RPROVIDES:${PN} += "libgsl-2-7-1-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 gsl-2-7-1-gnu-hpc-module \
 ld-linux-aarch64.so.1 \

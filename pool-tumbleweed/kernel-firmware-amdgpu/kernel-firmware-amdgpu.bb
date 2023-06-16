@@ -550,8 +550,8 @@ firmware-amdgpu/yellow-carp-toc.bin \
 firmware-amdgpu/yellow-carp-vcn.bin \
 kernel-firmware-amdgpu"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

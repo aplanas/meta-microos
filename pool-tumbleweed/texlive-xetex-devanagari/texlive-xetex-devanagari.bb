@@ -17,7 +17,7 @@ tex-velthuis-sanskrit.map \
 tex-velthuis.map \
 texlive-xetex-devanagari"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

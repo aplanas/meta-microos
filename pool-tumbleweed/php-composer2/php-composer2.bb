@@ -14,7 +14,7 @@ php-composer \
 php-composer2 \
 php7-composer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php \
 php-curl \
 php-json \

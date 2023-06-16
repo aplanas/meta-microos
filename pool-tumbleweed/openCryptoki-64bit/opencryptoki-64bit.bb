@@ -19,7 +19,7 @@ libpkcs11-sw.so.0 \
 libpkcs11-tpm.so.0 \
 openCryptoki-64bit"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

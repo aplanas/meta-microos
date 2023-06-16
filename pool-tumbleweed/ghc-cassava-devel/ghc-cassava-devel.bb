@@ -10,7 +10,7 @@ RPM_HASH = "58679a61a92a3a61a0b414ea4b90b25df976634fb24073e4ae9a066fe8deda6ce7dc
 RPROVIDES:${PN} += "ghc-cassava-devel \
 ghc-devel-cassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cassava \
 ghc-compiler \
 ghc-devel-Only-0.1-ETd5YCT0TwGLbN8rgpgTS8 \

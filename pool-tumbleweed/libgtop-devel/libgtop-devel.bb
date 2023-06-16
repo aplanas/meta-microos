@@ -11,8 +11,8 @@ RPM_HASH = "1570877bc2db5156b1b24cc286ab330233f87982e07f4306253986902273be01ffea
 RPROVIDES:${PN} += "libgtop-devel \
 pkgconfig-libgtop-2.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libgtop-2-0-11 \
 pkgconfig-glib-2.0 \
 typelib-1-0-GTop-2-0"

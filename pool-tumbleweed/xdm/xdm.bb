@@ -12,11 +12,11 @@ RPROVIDES:${PN} += "config-xdm \
 libXdmGreet.so \
 xdm"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/sbin/startproc \
+RDEPENDS:${PN} += "/sbin/startproc \
+/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/pidof \
+/usr/bin/sh \
 /usr/bin/touch \
 cpp \
 fillup \

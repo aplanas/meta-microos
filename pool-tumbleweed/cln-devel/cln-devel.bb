@@ -26,8 +26,8 @@ RPM_HASH = "001c6e4eb76af690ff31b3c47a126873206c756b66195d0f637af4c23f11da5ed6ba
 RPROVIDES:${PN} += "cln-devel \
 pkgconfig-cln"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 cln"
 
 inherit rpm

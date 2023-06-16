@@ -19,7 +19,7 @@ font-bguq10t11 \
 font-bguq10t12 \
 texlive-bguq-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

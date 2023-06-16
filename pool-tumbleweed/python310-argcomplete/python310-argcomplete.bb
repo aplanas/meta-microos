@@ -24,8 +24,8 @@ python3.10dist-argcomplete \
 python310-argcomplete \
 python3dist-argcomplete"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

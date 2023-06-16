@@ -18,8 +18,8 @@ python311-reCommonMark \
 python311-recommonmark \
 python3dist-recommonmark"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-CommonMark \
 python311-Sphinx \

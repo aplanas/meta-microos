@@ -114,7 +114,7 @@ tex-t1bodoni.fd \
 tex-ubodoninums.fd \
 texlive-gfsbodoni"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

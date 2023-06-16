@@ -33,7 +33,7 @@ dnf-command-updateinfo \
 dnf-command-upgrade \
 dnf-command-upgrade-to"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python3-dnf"
 
 inherit rpm

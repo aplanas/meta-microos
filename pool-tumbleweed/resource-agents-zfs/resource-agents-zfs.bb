@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "resource-agents-/usr/lib/ocf/resource.d/heartbeat/ZFS \
 resource-agents-/usr/share/man/man7/ocf-heartbeat-ZFS.* \
 resource-agents-zfs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 resource-agents"
 
 inherit rpm

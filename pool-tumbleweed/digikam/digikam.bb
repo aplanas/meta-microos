@@ -20,8 +20,8 @@ digikam-plugin-enhance \
 digikam-plugin-fxfilters \
 digikam-plugin-transform"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 digikam-plugins \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

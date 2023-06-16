@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-apfel \
 python39-apfel \
 python3dist-apfel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libAPFEL.so.0 \
 libLHAPDF-6.5.4.so \

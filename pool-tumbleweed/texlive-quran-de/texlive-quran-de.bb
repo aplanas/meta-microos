@@ -16,7 +16,7 @@ tex-qurantext-deiii.translation.def \
 tex-qurantext-deiv.translation.def \
 texlive-quran-de"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

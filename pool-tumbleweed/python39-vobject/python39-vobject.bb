@@ -16,8 +16,8 @@ python39-vobject \
 python3dist-vobject \
 vobject"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-python-dateutil \
 python39-six \

@@ -16,8 +16,8 @@ libgnome-pomodoro.so.0 \
 libgnome.so \
 libsounds.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 gnome-shell \
 gstreamer \
 gtk3 \

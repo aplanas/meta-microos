@@ -27,8 +27,8 @@ RPROVIDES:${PN} += "perl-Stow \
 perl-Stow--Util \
 stow"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl \
 perl--MODULE-COMPAT-5.36.0"
 

@@ -9,7 +9,7 @@ RPM_HASH = "176cb66133c742e658c3d7a29abeb2b4468c671f89125c1cf33d58319f5c6594c328
 
 RPROVIDES:${PN} += "ebook-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libepub.so.0"
 

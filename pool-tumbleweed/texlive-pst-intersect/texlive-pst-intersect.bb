@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-intersect.sty \
 tex-pst-intersect.tex \
 texlive-pst-intersect"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

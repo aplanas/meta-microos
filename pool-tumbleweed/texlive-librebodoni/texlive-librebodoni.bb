@@ -130,7 +130,7 @@ tex-lbd-yeotsr.enc \
 tex-lbd-zpaflu.enc \
 texlive-librebodoni"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,7 +20,7 @@ tex-proflycee-tools-piton.tex \
 tex-proflycee-tools-pythontex.tex \
 texlive-proflycee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

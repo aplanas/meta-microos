@@ -179,7 +179,7 @@ tex-comfortaa.map \
 tex-comfortaa.sty \
 texlive-comfortaa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

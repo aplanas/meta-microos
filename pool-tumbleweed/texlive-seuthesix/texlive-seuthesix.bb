@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-seuthesix.cfg \
 tex-seuthesix.cls \
 texlive-seuthesix"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

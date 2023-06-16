@@ -14,8 +14,8 @@ python3.10dist-xkcdpass \
 python310-xkcdpass \
 python3dist-xkcdpass"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

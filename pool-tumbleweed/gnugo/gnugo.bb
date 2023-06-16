@@ -9,7 +9,7 @@ RPM_HASH = "533ae50e0f28a3d33a0e5e59cfe4a46720007521f432c9e8453a5d21b9816b427e0b
 
 RPROVIDES:${PN} += "gnugo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

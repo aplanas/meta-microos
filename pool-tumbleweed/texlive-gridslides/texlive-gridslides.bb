@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-gridslides.cls \
 tex-gridslides.sty \
 texlive-gridslides"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

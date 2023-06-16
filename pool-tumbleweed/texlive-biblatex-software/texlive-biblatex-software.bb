@@ -16,7 +16,7 @@ tex-software-biblatex.sty \
 tex-software.bbx \
 texlive-biblatex-software"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

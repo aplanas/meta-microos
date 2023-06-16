@@ -17,7 +17,7 @@ jacc-api \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-jacc-1.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-jacc-1.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 servlet-2-4-api \

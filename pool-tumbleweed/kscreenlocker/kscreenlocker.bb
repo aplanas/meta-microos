@@ -9,9 +9,9 @@ RPM_HASH = "c549fe30ec61ffd4850292f71f1468698151211472d119e70f70651a08710887b512
 
 RPROVIDES:${PN} += "kscreenlocker"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/killall \
+RDEPENDS:${PN} += "/usr/bin/killall \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \

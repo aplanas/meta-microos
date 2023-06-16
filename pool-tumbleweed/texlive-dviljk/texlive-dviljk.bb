@@ -20,7 +20,7 @@ man-dvilj4l.1 \
 man-dvilj6.1 \
 texlive-dviljk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

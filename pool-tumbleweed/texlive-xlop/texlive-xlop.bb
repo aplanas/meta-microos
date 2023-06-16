@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-xlop.sty \
 tex-xlop.tex \
 texlive-xlop"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

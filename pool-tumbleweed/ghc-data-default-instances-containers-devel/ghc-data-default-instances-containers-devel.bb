@@ -11,7 +11,7 @@ RPM_HASH = "9f9e13cde785eaa197555e538b74d26375afe7c912d8ce25037053b1c37e63c437eb
 RPROVIDES:${PN} += "ghc-data-default-instances-containers-devel \
 ghc-devel-data-default-instances-containers-0.0.1-GsTPO88BTeU5gVKxrRffFz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-data-default-instances-containers \
 ghc-devel-base-4.17.1.0 \

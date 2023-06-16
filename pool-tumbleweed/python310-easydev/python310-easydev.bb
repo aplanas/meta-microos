@@ -16,8 +16,8 @@ python3.10dist-easydev \
 python310-easydev \
 python3dist-easydev"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-colorama \
 python310-colorlog \

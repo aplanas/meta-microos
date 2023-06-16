@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "leechcraft-fenet-openbox \
 leechcraft-fenet-wm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 leechcraft-fenet \
 openbox"
 

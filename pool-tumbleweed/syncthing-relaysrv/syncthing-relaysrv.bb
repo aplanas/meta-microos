@@ -11,7 +11,7 @@ RPM_HASH = "d2fef556131fa8cfb538fbd56edd24ef30e9120b9127ac50441401e16d20b8c4c0f7
 
 RPROVIDES:${PN} += "syncthing-relaysrv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 pwdutils"
 
 inherit rpm

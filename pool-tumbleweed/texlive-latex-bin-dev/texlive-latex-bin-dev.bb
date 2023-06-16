@@ -17,7 +17,7 @@ man-uplatex-dev.1 \
 man-xelatex-dev.1 \
 texlive-latex-bin-dev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -52,7 +52,7 @@ rpm-macro-kf5-post-install \
 rpm-macro-kf5-python-bindings-package \
 rpm-macro-make-jobs"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 hicolor-icon-theme"
 
 inherit rpm

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-onedash.sty \
 tex-quoted.sty \
 texlive-logical-markup-utils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

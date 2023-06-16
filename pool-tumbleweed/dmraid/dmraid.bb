@@ -28,8 +28,8 @@ RPROVIDES:${PN} += "dmraid \
 libdmraid-events-isw.so \
 libdmraid.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 aaa-base \
 coreutils \

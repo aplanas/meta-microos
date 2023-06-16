@@ -57,7 +57,7 @@ tex-bbmtt8.tfm \
 tex-bbmtt9.tfm \
 texlive-bbm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

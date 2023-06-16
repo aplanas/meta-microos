@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-scrapy \
 python311-Scrapy \
 python3dist-scrapy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Protego \
 python311-PyDispatcher \

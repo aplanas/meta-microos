@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-jupyter-server \
 python39-jupyter-server \
 python3dist-jupyter-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39 \

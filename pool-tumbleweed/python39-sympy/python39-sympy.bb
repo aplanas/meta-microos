@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.9dist-sympy \
 python39-sympy \
 python3dist-sympy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-mpmath \
 python39-setuptools \

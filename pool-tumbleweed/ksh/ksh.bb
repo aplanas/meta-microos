@@ -23,11 +23,11 @@ libcmd.so.1 \
 libdll.so.1 \
 libshell.so.1"
 
-RDEPENDS:${PN} += "/bin/ln \
-/bin/rm \
-/bin/sh \
-/bin/true \
-/etc/bash.bashrc \
+RDEPENDS:${PN} += "/etc/bash.bashrc \
+/usr/bin/ln \
+/usr/bin/rm \
+/usr/bin/sh \
+/usr/bin/true \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

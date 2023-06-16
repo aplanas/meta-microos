@@ -9,7 +9,7 @@ RPM_HASH = "7b2a8273af8ea18c9c47c454c328da4eb69d7764570d4df61d20f60d852084b823a2
 
 RPROVIDES:${PN} += "fcitx-gtk2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2-tools \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

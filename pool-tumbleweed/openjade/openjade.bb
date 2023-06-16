@@ -22,8 +22,8 @@ libospgrove.so.0 \
 libostyle.so.0 \
 openjade"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sgml-register-catalog \
+RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

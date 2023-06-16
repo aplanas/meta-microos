@@ -12,7 +12,7 @@ RPM_HASH = "6de9aab92c4bf59ea8f30bc85890d8cdd3433f56c95480a6d517dee5d07795cf4fde
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/hdspmixer \
 hdspmixer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

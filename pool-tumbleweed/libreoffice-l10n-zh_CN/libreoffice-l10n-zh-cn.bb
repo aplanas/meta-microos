@@ -14,7 +14,7 @@ libreoffice-l10n-zh-CN \
 libreoffice-l10n-zh-Hans \
 locale-libreoffice-zh-CN"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker"
 

@@ -22,7 +22,7 @@ tex-dinbrief.cls \
 tex-dinbrief.sty \
 texlive-dinbrief"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

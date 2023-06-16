@@ -17,7 +17,7 @@ man-pk2bm.1 \
 man-ps2pk.1 \
 texlive-ps2pk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

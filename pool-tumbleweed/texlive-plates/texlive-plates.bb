@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-endplate.sty \
 tex-plates.sty \
 texlive-plates"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

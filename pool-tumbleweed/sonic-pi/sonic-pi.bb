@@ -11,10 +11,10 @@ RPROVIDES:${PN} += "libsp-link.so \
 libsp-midi.so \
 sonic-pi"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/ruby \
+/usr/bin/sh \
 jack-example-tools \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

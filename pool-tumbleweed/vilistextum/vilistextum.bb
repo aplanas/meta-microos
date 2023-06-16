@@ -14,7 +14,7 @@ RPM_HASH = "2ecf800b64ff50045ae768aa39edf31a45bead6426f271a2130accf6e0775c3b8a3a
 
 RPROVIDES:${PN} += "vilistextum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

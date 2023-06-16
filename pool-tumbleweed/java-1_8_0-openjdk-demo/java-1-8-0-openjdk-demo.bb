@@ -18,7 +18,7 @@ libmtrace.so \
 libversionCheck.so \
 libwaiters.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-1-8-0-openjdk \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

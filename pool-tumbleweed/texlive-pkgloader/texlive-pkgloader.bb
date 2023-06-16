@@ -26,7 +26,7 @@ tex-pkgloader-true.sty \
 tex-pkgloader.sty \
 texlive-pkgloader"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

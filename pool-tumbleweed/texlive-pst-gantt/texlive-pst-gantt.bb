@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-pst-gantt.sty \
 tex-pst-gantt.tex \
 texlive-pst-gantt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

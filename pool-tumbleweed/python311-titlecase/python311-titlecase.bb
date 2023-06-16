@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "python3.11dist-titlecase \
 python311-titlecase \
 python3dist-titlecase"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-regex \
 update-alternatives"

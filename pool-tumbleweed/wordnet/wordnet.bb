@@ -16,7 +16,7 @@ RPM_HASH = "99281984fd34ecba412b0f8c8b773e65d2a5710533d2f49552fc32c0dcec12c1eca0
 
 RPROVIDES:${PN} += "wordnet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libWN.so.3 \
 libc.so.6 \

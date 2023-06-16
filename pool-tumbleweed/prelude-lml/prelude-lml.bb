@@ -14,7 +14,7 @@ RPM_HASH = "871fe4bb7d1923e91c6eb75f7b4637b1da52c63abd4af8c140f95b762c68b3857148
 RPROVIDES:${PN} += "config-prelude-lml \
 prelude-lml"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgnutls.so.30 \

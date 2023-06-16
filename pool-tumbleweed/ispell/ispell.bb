@@ -28,9 +28,9 @@ RPM_HASH = "f5dc02e0cf5bc4d701aac024e2b5d979ac232ca460bbb0bef5ab4f454bd0673a50cf
 RPROVIDES:${PN} += "ispell \
 spell"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ispell-dictionary \

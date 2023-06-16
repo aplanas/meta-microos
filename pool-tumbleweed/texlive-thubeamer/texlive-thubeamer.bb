@@ -15,7 +15,7 @@ tex-beamerouterthemethubeamer.sty \
 tex-beamerthemethubeamer.sty \
 texlive-thubeamer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

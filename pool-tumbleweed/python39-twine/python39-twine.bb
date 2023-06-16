@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-twine \
 python39-twine \
 python3dist-twine"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-importlib-metadata \
 python39-keyring \

@@ -14,8 +14,8 @@ pkgconfig-icu-i18n \
 pkgconfig-icu-io \
 pkgconfig-icu-uc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libicu73 \
 pkgconfig-icu-i18n \
 pkgconfig-icu-uc"

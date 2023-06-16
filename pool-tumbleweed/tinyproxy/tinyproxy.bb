@@ -14,7 +14,7 @@ RPM_HASH = "0c4cce1da38bd239f5f9778c943065ff3d10fe2aca0661ac9a600029b2294fcda0c4
 RPROVIDES:${PN} += "config-tinyproxy \
 tinyproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 logrotate"

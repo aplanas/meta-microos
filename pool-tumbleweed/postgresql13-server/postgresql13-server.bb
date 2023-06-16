@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "libpqwalreceiver.so \
 postgresql-server-implementation \
 postgresql13-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glibc-locale \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

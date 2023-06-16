@@ -12,7 +12,7 @@ RPM_HASH = "969004d86749a1ce79cd0b2f06bc706cf816d2cd09b49e79d849d3b6b4cffc1b1230
 
 RPROVIDES:${PN} += "sudoku-sensei"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

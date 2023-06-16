@@ -18,7 +18,7 @@ RPM_HASH = "915f363069a03402e68aec75e36df3e52ee4a954685dd1155b7763b7cc34f84d12f3
 
 RPROVIDES:${PN} += "deepin-session-shell"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 deepin-wallpapers \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

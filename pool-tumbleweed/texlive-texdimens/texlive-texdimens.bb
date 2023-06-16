@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-texdimens.sty \
 tex-texdimens.tex \
 texlive-texdimens"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

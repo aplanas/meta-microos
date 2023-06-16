@@ -21,7 +21,7 @@ RPM_HASH = "b4a336590dc6b9d0b83f57130829936c34e0101bf298b2996e8c0844f9b0e3dec69c
 RPROVIDES:${PN} += "acpica \
 iasl"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6"

@@ -23,7 +23,7 @@ tex-sbl.cbx \
 tex-spanish-sbl.lbx \
 texlive-biblatex-sbl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

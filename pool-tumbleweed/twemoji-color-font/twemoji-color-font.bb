@@ -18,6 +18,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "twemoji-color-font"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

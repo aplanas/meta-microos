@@ -10,6 +10,6 @@ RPM_HASH = "f93f6d0169d9eaca84b3340d0707fb4ff4a0526a534b62c01c6f220b5db059068eb1
 
 RPROVIDES:${PN} += "obs-service-kubevirt-containers-meta"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

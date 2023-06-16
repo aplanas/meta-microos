@@ -10,7 +10,7 @@ RPM_HASH = "3285f0061727035abff9c924d628eb18471d6e6f06cab7c9ea89d97528dd06d0fd32
 RPROVIDES:${PN} += "ghc-devel-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-syb-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-syb"

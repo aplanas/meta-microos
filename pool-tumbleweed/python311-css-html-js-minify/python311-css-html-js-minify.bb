@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-css-html-js-minify \
 python311-css-html-js-minify \
 python3dist-css-html-js-minify"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

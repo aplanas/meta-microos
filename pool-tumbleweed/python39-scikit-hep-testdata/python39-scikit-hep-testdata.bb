@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.9dist-scikit-hep-testdata \
 python39-scikit-hep-testdata \
 python3dist-scikit-hep-testdata"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-PyYAML \
 python39-requests \

@@ -27,7 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jondofox"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 firefox"
 
 inherit rpm

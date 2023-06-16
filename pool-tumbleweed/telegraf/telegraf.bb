@@ -13,7 +13,7 @@ RPM_HASH = "22b72da1bca423b92e9598b8293f6d9498f28a1cad2828f251e72c1bcef446588200
 RPROVIDES:${PN} += "config-telegraf \
 telegraf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

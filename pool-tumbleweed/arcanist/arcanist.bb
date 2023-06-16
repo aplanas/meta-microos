@@ -16,9 +16,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "arcanist \
 php7-libphutil"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/php8 \
+/usr/bin/sh \
 ca-certificates \
 php8 \
 php8-curl"

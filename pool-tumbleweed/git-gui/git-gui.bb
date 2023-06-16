@@ -16,7 +16,7 @@ RPM_HASH = "0beacc326d40f2af5920e5f2edfbddc9f446b158ccdbaaac8d879c2d4f314359814d
 
 RPROVIDES:${PN} += "git-gui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 git-core \
 tk"
 

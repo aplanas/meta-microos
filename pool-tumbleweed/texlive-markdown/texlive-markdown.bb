@@ -25,7 +25,7 @@ tex-markdownthemewitiko-tilde.sty \
 tex-t-markdown.tex \
 texlive-markdown"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

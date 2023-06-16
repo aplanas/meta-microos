@@ -17,7 +17,7 @@ gpg \
 gpg2 \
 newpg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libassuan.so.0 \
 libassuan0 \

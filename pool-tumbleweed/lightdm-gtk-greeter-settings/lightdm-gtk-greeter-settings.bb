@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "lightdm-gtk-greeter-settings \
 python3.10dist-lightdm-gtk-greeter-settings \
 python3dist-lightdm-gtk-greeter-settings"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 lightdm-gtk-greeter \
 python-abi \

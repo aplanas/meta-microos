@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "ethereal \
 group-wireshark \
 wireshark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbcg729.so.0 \
 libbrotlidec1 \

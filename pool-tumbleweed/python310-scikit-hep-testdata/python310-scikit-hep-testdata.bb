@@ -19,8 +19,8 @@ python3.10dist-scikit-hep-testdata \
 python310-scikit-hep-testdata \
 python3dist-scikit-hep-testdata"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyYAML \
 python310-requests \

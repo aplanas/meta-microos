@@ -10,7 +10,7 @@ RPM_HASH = "fd6fd545a263fd30e6e4ca87c6c266d7ba49f5d49e45d65b8a3dd095a9d11cacf838
 RPROVIDES:${PN} += "config-restorecond \
 restorecond"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

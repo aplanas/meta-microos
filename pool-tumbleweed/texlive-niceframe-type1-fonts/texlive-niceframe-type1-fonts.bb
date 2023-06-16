@@ -37,7 +37,7 @@ font-umranda \
 font-umrandb \
 texlive-niceframe-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

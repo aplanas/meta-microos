@@ -13,7 +13,7 @@ tex-hyph-bg.tex \
 tex-loadhyph-bg.tex \
 texlive-hyphen-bulgarian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

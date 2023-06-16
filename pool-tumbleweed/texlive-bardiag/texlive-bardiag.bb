@@ -16,7 +16,7 @@ tex-bardiag.sty \
 tex-pstfp.sty \
 texlive-bardiag"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

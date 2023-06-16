@@ -22,7 +22,7 @@ tex-t1cmsd.fd \
 tex-ts1cmsd.fd \
 texlive-cmsd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

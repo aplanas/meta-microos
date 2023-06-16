@@ -10,7 +10,7 @@ RPM_HASH = "c30aa20d438c1762d41d277b1eca6e5e693f1afc7863df6ff0653e5058c29ccd3fd9
 RPROVIDES:${PN} += "ghc-blaze-html-devel \
 ghc-devel-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-blaze-html \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

@@ -12,7 +12,7 @@ RPM_HASH = "93dd9acaabc5fb26a79269dd1176da1be4bb73b986263f34bb5a51f732be37e6f3ae
 
 RPROVIDES:${PN} += "aespipe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gpg2 \
 ld-linux-aarch64.so.1 \
 libc.so.6"

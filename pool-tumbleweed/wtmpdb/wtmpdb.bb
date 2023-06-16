@@ -9,7 +9,7 @@ RPM_HASH = "d34e31c2de00f370d561ddfa411f859f0d6cfe50efdbdd8787c4c7d9e8b8bbfadd8c
 
 RPROVIDES:${PN} += "wtmpdb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \
 libc.so.6 \

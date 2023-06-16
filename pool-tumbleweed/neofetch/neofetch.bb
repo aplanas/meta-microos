@@ -17,6 +17,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neofetch"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

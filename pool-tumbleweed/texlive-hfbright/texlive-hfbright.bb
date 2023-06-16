@@ -17,7 +17,7 @@ tex-hfmsym.enc \
 tex-hfot1.enc \
 texlive-hfbright"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -89,10 +89,10 @@ perl-Amavis--rfc2821-2822-Tools \
 perl-JpegTester \
 perl-Mail--SpamAssassin--Logger--Amavislog"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/newaliases \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 file \
 fillup \

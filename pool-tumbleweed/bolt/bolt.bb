@@ -10,7 +10,7 @@ RPM_HASH = "23ab8946faadefc07e2b0b3a2986de6638c6d2fa0d5193e68e7598d0a30b17f5d99e
 
 RPROVIDES:${PN} += "bolt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

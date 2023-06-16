@@ -13,8 +13,8 @@ python3.10dist-pdd \
 python310-pdd \
 python3dist-pdd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-python-dateutil \
 python310-setuptools \

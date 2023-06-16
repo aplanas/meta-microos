@@ -29,7 +29,7 @@ tex-minimart.cls \
 tex-minimbook.cls \
 texlive-minimalist"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

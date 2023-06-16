@@ -10,7 +10,7 @@ RPM_HASH = "79449fb6448ffd2228f6d53dc95571df8460064d09d08527b66d1e21bf7a043fe728
 RPROVIDES:${PN} += "ghc-devel-setlocale-1.0.0.10-8gNxxDe254d2fufYktFd7s \
 ghc-setlocale-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-setlocale"

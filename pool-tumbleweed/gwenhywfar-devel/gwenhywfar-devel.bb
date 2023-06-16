@@ -21,8 +21,8 @@ pkgconfig-gwengui-gtk3 \
 pkgconfig-gwengui-qt5 \
 pkgconfig-gwenhywfar"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libgwengui-fox16-79 \
 libgwengui-gtk2-79 \

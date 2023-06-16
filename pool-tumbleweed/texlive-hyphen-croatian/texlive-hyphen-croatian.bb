@@ -13,7 +13,7 @@ tex-hyph-hr.tex \
 tex-loadhyph-hr.tex \
 texlive-hyphen-croatian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

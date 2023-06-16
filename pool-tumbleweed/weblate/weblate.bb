@@ -27,9 +27,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-weblate \
 weblate"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 borgbackup \
 cron \
 git \

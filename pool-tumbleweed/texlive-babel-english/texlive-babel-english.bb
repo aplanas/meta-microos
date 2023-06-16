@@ -21,7 +21,7 @@ tex-english.ldf \
 tex-newzealand.ldf \
 texlive-babel-english"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

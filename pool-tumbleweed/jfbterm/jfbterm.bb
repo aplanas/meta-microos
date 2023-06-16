@@ -13,9 +13,9 @@ RPM_HASH = "bb5c484cb1506a48ea613f0507ab2cf97e50ccd959ca7adf2119b54aaf8fd5265852
 RPROVIDES:${PN} += "config-jfbterm \
 jfbterm"
 
-RDEPENDS:${PN} += "/bin/cat \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/cat \
 /usr/bin/grep \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

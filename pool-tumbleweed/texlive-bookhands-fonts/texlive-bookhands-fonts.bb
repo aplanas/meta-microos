@@ -101,7 +101,7 @@ font--lang=zu \
 font-bookhands \
 texlive-bookhands-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

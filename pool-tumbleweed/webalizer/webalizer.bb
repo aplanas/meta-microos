@@ -21,7 +21,7 @@ RPM_HASH = "6970d79db46ebb35e04f5bbf964ae121faafbcc31e3e9a79433d179a559779716566
 RPROVIDES:${PN} += "config-webalizer \
 webalizer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

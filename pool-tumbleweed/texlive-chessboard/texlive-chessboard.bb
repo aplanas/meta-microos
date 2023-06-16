@@ -21,7 +21,7 @@ tex-chessboard-pgf.sty \
 tex-chessboard.sty \
 texlive-chessboard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

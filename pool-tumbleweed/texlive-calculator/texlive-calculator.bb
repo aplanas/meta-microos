@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-calculator.sty \
 tex-calculus.sty \
 texlive-calculator"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

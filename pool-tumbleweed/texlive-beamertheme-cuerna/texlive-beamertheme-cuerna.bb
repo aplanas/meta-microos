@@ -22,7 +22,7 @@ tex-beamerouterthemeCuerna.sty \
 tex-beamerthemeCuerna.sty \
 texlive-beamertheme-cuerna"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

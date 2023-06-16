@@ -26,7 +26,7 @@ tex-ydocincl.tex \
 tex-ydocstrip.tex \
 texlive-ydoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

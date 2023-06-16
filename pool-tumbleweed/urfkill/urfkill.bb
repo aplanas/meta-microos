@@ -11,8 +11,8 @@ RPM_HASH = "037478faf6fa92310d142ce60d38772741187e8e8a4182a1550cbe8ab8cf4ef007c2
 RPROVIDES:${PN} += "config-urfkill \
 urfkill"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexpat.so.1 \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-philokalia.sty \
 tex-tuplk.fd \
 texlive-philokalia"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

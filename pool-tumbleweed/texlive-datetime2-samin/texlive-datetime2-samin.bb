@@ -16,7 +16,7 @@ tex-datetime2-samin-utf8.ldf \
 tex-datetime2-samin.ldf \
 texlive-datetime2-samin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

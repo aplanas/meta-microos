@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-opa-fmgui \
 opa-fmgui"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 jre \
 mlocate"
 

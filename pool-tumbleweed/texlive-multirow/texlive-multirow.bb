@@ -16,7 +16,7 @@ tex-bigstrut.sty \
 tex-multirow.sty \
 texlive-multirow"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

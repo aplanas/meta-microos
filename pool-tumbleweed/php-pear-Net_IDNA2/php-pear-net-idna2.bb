@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "php-pear-Net-IDNA2 \
 php5-pear-Net-IDNA2 \
 php7-pear-Net-IDNA2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear"
 
 inherit rpm

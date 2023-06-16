@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-dehydrated-nginx \
 dehydrated-nginx \
 letsencrypt.sh-nginx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dehydrated \
 nginx"
 

@@ -46,7 +46,7 @@ tex-TXStitle.tex \
 tex-texsis.tex \
 texlive-texsis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -83,7 +83,7 @@ tex-thdid-xgfkyc.enc \
 tex-thdid-zj2gif.enc \
 texlive-theanodidot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

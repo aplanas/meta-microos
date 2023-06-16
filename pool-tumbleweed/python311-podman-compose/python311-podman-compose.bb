@@ -22,8 +22,8 @@ python3.11dist-podman-compose \
 python311-podman-compose \
 python3dist-podman-compose"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 podman \
 python-abi \
 python311-PyYAML \

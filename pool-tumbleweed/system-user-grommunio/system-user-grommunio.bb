@@ -15,7 +15,7 @@ system-user-groweb \
 user-grommunio \
 user-groweb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

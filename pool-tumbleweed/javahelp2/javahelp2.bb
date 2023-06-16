@@ -15,7 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "javahelp2 \
 mvn-javax.help-javahelp"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 glassfish-jsp-api \
 glassfish-servlet-api \
 java-headless \

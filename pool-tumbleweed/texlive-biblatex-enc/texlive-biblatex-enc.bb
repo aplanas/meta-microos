@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-enc.bbx \
 tex-enc.cbx \
 texlive-biblatex-enc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ python3.10dist-zope.testrunner \
 python310-zope.testrunner \
 python3dist-zope.testrunner"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-zope.exceptions \
 python310-zope.interface \

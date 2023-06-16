@@ -21,7 +21,7 @@ tex-beamerouterthemeBerlinFU.sty \
 tex-beamerthemeBerlinFU.sty \
 texlive-beamer-fuberlin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

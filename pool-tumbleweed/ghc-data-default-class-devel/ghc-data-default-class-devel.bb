@@ -11,7 +11,7 @@ RPM_HASH = "ab50827a8b48aafcf6946f2288e12c57db5d62e180f9216d13f03ac19b749e706623
 RPROVIDES:${PN} += "ghc-data-default-class-devel \
 ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-data-default-class \
 ghc-devel-base-4.17.1.0"

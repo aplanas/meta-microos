@@ -19,7 +19,7 @@ tex-juraovw.cls \
 tex-juraurtl.cls \
 texlive-juramisc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

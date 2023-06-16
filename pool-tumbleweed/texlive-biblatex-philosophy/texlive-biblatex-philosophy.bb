@@ -29,7 +29,7 @@ tex-philosophy-verbose.cbx \
 tex-spanish-philosophy.lbx \
 texlive-biblatex-philosophy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

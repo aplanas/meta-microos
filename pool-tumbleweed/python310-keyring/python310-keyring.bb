@@ -14,8 +14,8 @@ python3.10dist-keyring \
 python310-keyring \
 python3dist-keyring"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-SecretStorage \
 python310-importlib-metadata \

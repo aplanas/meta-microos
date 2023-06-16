@@ -22,8 +22,8 @@ tex-ketslide.sty \
 tex-ketslide2.sty \
 texlive-ketcindy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

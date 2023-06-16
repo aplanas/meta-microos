@@ -13,8 +13,8 @@ python3.10dist-pyfxa \
 python310-PyFxA \
 python3dist-pyfxa"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyBrowserID \
 python310-cryptography \

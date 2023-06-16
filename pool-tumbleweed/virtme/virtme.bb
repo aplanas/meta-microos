@@ -17,9 +17,9 @@ RPROVIDES:${PN} += "python3.10dist-virtme \
 python3dist-virtme \
 virtme"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 busybox-static \
 python-abi \
 qemu"

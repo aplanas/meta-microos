@@ -17,8 +17,8 @@ libshotwell-publishing.so \
 libshotwell-transitions.so \
 shotwell"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo-gobject.so.2 \

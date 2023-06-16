@@ -22,7 +22,7 @@ tex-accsupp-pdftex.def \
 tex-accsupp.sty \
 texlive-accsupp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

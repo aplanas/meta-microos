@@ -16,8 +16,8 @@ python3.10dist-tqdm \
 python310-tqdm \
 python3dist-tqdm"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

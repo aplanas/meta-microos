@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-log"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
 /usr/bin/grep"
 
 inherit rpm

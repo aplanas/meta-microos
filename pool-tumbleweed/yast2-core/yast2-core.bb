@@ -27,10 +27,10 @@ perl-YaST--SCRAgent \
 perl-ycp \
 yast2-core"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

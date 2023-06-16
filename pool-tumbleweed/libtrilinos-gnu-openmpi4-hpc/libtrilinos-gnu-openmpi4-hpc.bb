@@ -11,7 +11,7 @@ RPM_HASH = "67fc1c89bb2f4772c05fab5225ed83352151a2cc8735140e53d73c6a72ea652a78ae
 
 RPROVIDES:${PN} += "libtrilinos-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libtrilinos-14-0-0-gnu-openmpi4-hpc"
 
 inherit rpm

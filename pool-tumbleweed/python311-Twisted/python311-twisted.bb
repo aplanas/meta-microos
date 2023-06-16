@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-twisted \
 python311-Twisted \
 python3dist-twisted"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Automat \
 python311-Twisted-tls \

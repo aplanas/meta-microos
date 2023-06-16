@@ -39,7 +39,7 @@ tex-letgut.cls \
 tex-letgut.lbx \
 texlive-letgut"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

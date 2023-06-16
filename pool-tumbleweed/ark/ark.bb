@@ -9,7 +9,7 @@ RPM_HASH = "62067421d4012fab03a43f02eeaa0bba44e030079a790baf79ebf0b749e80fce77c3
 
 RPROVIDES:${PN} += "ark"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigWidgets.so.5 \

@@ -26,10 +26,10 @@ RPM_HASH = "ac6b45c2b6cf2982950a509ef1c9eec29879738c51ab2e90a259df790f4cd216225a
 
 RPROVIDES:${PN} += "systemd-testsuite"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \
+/usr/bin/sh \
 attr \
 binutils \
 busybox-static \

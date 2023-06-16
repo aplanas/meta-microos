@@ -13,8 +13,8 @@ RPM_HASH = "328a193ea0445c8a975e4710606c34bebac3aa68992205c1c93995060ae6ca1eedf9
 RPROVIDES:${PN} += "bluefish \
 bluefish-unstable"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

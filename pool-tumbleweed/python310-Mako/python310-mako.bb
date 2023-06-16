@@ -21,8 +21,8 @@ python310-Mako \
 python310-mako \
 python3dist-mako"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python310-MarkupSafe \

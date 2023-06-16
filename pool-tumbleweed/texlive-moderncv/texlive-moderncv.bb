@@ -52,7 +52,7 @@ tex-moderncvstyleoldstyle.sty \
 tex-tweaklist.sty \
 texlive-moderncv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

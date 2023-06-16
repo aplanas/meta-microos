@@ -10,7 +10,7 @@ RPM_HASH = "2928bc3fa9d0af516aa0759861e21a3b26e13ec1af3229ac6588437e72949f3301eb
 RPROVIDES:${PN} += "config-mednafen-server \
 mednafen-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-games \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-muthesis.cls \
 tex-third-rep.cls \
 texlive-muthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

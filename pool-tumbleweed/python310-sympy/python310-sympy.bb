@@ -17,8 +17,8 @@ python3.10dist-sympy \
 python310-sympy \
 python3dist-sympy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-mpmath \
 python310-setuptools \

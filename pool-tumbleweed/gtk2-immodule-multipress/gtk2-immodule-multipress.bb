@@ -15,7 +15,7 @@ RPM_HASH = "8da1f3e943f506a39541703f9a40db91c26ca8a20ac23088e425938db1305e75ccfb
 RPROVIDES:${PN} += "config-gtk2-immodule-multipress \
 gtk2-immodule-multipress"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-tools \
 libc.so.6 \

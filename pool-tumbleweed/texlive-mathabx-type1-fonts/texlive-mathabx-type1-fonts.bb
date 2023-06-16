@@ -125,7 +125,7 @@ font-texmathx8 \
 font-texmathx9 \
 texlive-mathabx-type1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

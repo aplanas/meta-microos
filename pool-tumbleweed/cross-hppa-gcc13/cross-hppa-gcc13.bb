@@ -12,7 +12,7 @@ RPM_HASH = "e9e6342c20fc16ecdf4ab778f3ef68d01dde45313f3aec2137ad8480c2a952c6cc6b
 
 RPROVIDES:${PN} += "cross-hppa-gcc13"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-hppa-binutils \
 libstdc++6-devel-gcc13 \
 update-alternatives"

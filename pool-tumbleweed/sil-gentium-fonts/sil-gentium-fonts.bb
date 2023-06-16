@@ -190,7 +190,7 @@ font-gentiumplus \
 locale-vi \
 sil-gentium-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

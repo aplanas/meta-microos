@@ -10,7 +10,7 @@ RPM_HASH = "3991f5100a0aea9a3de78e4101bee17e1e2ca1df51fa3f7f2d3cf2a91fc3e688930a
 RPROVIDES:${PN} += "ghc-devel-hscolour-1.24.4-B0NmEhYuPI790UQrsiXLka \
 ghc-hscolour-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \

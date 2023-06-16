@@ -10,7 +10,7 @@ RPM_HASH = "871b40a3d87dc38186a8823029ec3dc6881aa789c379e50a12bd025b5eaac5b3e5c9
 RPROVIDES:${PN} += "ghc-bimap-devel \
 ghc-devel-bimap-0.5.0-3nKyJuRybYg2I5XOsBhwKE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bimap \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

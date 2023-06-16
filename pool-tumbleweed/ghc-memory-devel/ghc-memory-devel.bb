@@ -10,7 +10,7 @@ RPM_HASH = "b6dfeee2a5c3653762fbb4c5f570df3a513357b20193b5a1b57c043a60b3d48f72b0
 RPROVIDES:${PN} += "ghc-devel-memory-0.18.0-2DG6nqjfLMK4MSR77XYQqL \
 ghc-memory-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S \

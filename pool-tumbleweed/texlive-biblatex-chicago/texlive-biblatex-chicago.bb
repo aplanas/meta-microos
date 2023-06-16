@@ -48,7 +48,7 @@ tex-cmsdocs.sty \
 tex-cmsendnotes.sty \
 texlive-biblatex-chicago"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

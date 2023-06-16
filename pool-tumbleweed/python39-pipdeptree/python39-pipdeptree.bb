@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pipdeptree \
 python39-pipdeptree \
 python3dist-pipdeptree"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-pip \
 update-alternatives"

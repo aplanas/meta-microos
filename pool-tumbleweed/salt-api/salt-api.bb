@@ -9,8 +9,8 @@ RPM_HASH = "e66858baebfce4c2aade0de150fddcae6b17fef815c6bf375e51bcb7c4d49885d101
 
 RPROVIDES:${PN} += "salt-api"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python3-CherryPy \
 salt \
 salt-master"

@@ -29,7 +29,7 @@ tex-univie-ling.bbx \
 tex-univie-ling.cbx \
 texlive-univie-ling"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

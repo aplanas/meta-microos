@@ -21,7 +21,7 @@ tex-fiwi2.bbx \
 tex-fiwi2.cbx \
 texlive-biblatex-fiwi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

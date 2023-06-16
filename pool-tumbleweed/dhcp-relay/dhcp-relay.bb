@@ -12,8 +12,8 @@ RPM_HASH = "b444374552bb879be19787acbfd132e3df8eb3a3b453ed86994ded6550083dd49108
 
 RPROVIDES:${PN} += "dhcp-relay"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dhcp \
 fillup \

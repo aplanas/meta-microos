@@ -9,6 +9,6 @@ RPM_HASH = "8c4687e52b29be2b900789479669ead0dc45d2264518a59c728d2f974f25c3020e9a
 
 RPROVIDES:${PN} += "docbook2x-doc"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

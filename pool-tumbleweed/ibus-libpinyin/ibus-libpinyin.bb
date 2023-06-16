@@ -11,7 +11,7 @@ RPM_HASH = "14b705884c7b9e36e3092c931668fffa230dde6beaaa5d87d51ca46c5bd1619f4d26
 RPROVIDES:${PN} += "ibus-libpinyin \
 locale-ibus-zh-CN;zh-SG"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ibus \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

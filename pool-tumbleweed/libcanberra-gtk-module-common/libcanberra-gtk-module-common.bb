@@ -15,6 +15,6 @@ RPM_HASH = "76de357e1259a512b4be874bea483c451fa36f10cdb4d8aa872fb0c8e8d30ae43435
 
 RPROVIDES:${PN} += "libcanberra-gtk-module-common"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

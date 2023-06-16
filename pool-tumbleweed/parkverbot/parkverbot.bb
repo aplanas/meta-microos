@@ -17,7 +17,7 @@ RPM_HASH = "b737beab8cf14a7524fc9ca40c1ec3381e210c74bce63fc19f9ea8fa2847dbce4d5b
 
 RPROVIDES:${PN} += "parkverbot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libHX.so.32 \
 libc.so.6"

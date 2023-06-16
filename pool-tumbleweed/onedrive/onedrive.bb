@@ -10,7 +10,7 @@ RPM_HASH = "a6e7349fcc698fc46d66e79c6f9e7a88e032fab0e5b0d1969873a3b45d136ee8b536
 RPROVIDES:${PN} += "config-onedrive \
 onedrive"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libdruntime-ldc-shared.so.102 \
 libgcc-s.so.1 \

@@ -16,8 +16,8 @@ python3dist-pdm"
 
 RDEPENDS:${PN} += "-python311-resolvelib >= 0.8 with python311-resolvelib < 0.9 \
 -python311-tomlkit >= 0.8.0 with python311-tomlkit < 1 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-blinker \
 python311-cachecontrol \

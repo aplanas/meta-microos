@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-caesar-book.cls \
 tex-sidenotes.sty \
 texlive-sidenotes"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

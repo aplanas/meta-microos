@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-qemu \
 system-user-qemu \
 user-qemu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-kvm \
 sysuser-shadow"
 

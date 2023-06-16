@@ -50,7 +50,7 @@ tex-ghsystem-spanish.def \
 tex-ghsystem.sty \
 texlive-ghsystem"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

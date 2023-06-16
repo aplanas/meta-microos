@@ -34,7 +34,7 @@ tex-wallcalendar-thai.tex \
 tex-wallcalendar.cls \
 texlive-wallcalendar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -37,7 +37,7 @@ tex-testfox.tex \
 tex-testkern.tex \
 texlive-lh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -10,7 +10,7 @@ RPM_HASH = "5d6e0969c369433117392d88976e9fd66bb5471b02a2f95ee45c0c96b33af98fe9be
 RPROVIDES:${PN} += "liblove-11.4.so \
 love"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \

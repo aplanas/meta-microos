@@ -11,8 +11,8 @@ RPM_HASH = "f989e8340d3342cb1d38fd7335d22aeb01c4d0038045bf1056846274b0b655a2b9f0
 RPROVIDES:${PN} += "liblog4c-devel \
 pkgconfig-log4c"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 liblog4c3"
 
 inherit rpm

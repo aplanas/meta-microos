@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-nejm.bbx \
 tex-nejm.cbx \
 texlive-biblatex-nejm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -9,7 +9,7 @@ RPM_HASH = "31c7f5c538353e2ab1a1cb64e39c9cdcfeaf8423fe61187a725385234b109dca9995
 
 RPROVIDES:${PN} += "ksystemstats5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5CoreAddons.so.5 \
 libKF5DBusAddons.so.5 \

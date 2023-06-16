@@ -10,8 +10,8 @@ RPM_HASH = "26f02d0986204fb885b058c721972ca9baf244182ed7f3280e1a9ed1fd114cd786da
 RPROVIDES:${PN} += "config-warewulf4-overlay \
 warewulf4-overlay"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 warewulf4"
 
 inherit rpm

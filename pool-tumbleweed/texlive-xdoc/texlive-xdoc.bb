@@ -38,7 +38,7 @@ tex-docindex.sty \
 tex-xdoc2.sty \
 texlive-xdoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

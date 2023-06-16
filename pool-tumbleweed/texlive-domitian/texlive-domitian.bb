@@ -708,7 +708,7 @@ tex-a-zkzzwq.enc \
 tex-domitian.sty \
 texlive-domitian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

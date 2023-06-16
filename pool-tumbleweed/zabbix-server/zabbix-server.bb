@@ -10,8 +10,8 @@ RPM_HASH = "59abec4f12c4267fc49e9be8743b0905655c9c948a0452a2469f6fa5ecb2022c1eab
 RPROVIDES:${PN} += "config-zabbix-server \
 zabbix-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 fping \

@@ -10,7 +10,7 @@ RPM_HASH = "efbe6073fb2f3fcac4627a78ae5d852db4cf46bdfea4e8cd3eac21425d480e90f979
 RPROVIDES:${PN} += "ghc-devel-pandoc-types-1.23-EFziwPO22I72D2SxHphq63 \
 ghc-pandoc-types-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6 \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

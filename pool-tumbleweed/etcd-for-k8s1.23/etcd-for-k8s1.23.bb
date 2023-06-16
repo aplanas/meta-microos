@@ -12,7 +12,7 @@ RPM_HASH = "74e7c97fa92c9543aabbf898d53cc02af9d132d166f099f8d6d91271a4e0ff94d540
 RPROVIDES:${PN} += "etcd-for-k8s \
 etcd-for-k8s1.23"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libc.so.6"
 
 inherit rpm

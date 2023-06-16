@@ -10,7 +10,7 @@ RPM_HASH = "ee5ce011746da310d22eb2259bdb37f4d70629e833101ab905b7ecd1d8fc3cd3e4e6
 RPROVIDES:${PN} += "ghc-devel-http-conduit-2.3.8-9gcbWW2UjPVHQDceZSAOIR \
 ghc-http-conduit-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

@@ -10,7 +10,7 @@ RPM_HASH = "a40578de411322a8060c46f34718d53e1df605f021daa5b7c138c09afa96a0d374e0
 
 RPROVIDES:${PN} += "pcp-pmda-lustrecomm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

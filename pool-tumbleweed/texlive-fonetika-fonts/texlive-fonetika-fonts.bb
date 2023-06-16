@@ -13,7 +13,7 @@ font-fonetikadaniaiwonae \
 font-fonetikadaniapallae \
 texlive-fonetika-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

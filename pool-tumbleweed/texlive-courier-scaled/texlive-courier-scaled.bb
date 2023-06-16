@@ -23,7 +23,7 @@ tex-ts1pcrs.fd \
 tex-xl2pcrs.fd \
 texlive-courier-scaled"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

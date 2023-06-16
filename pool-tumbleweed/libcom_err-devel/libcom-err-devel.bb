@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "libcom-err-devel \
 pkgconfig-com-err \
 pkgconfig-ss"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libcom-err2 \
 pkgconfig-com-err"

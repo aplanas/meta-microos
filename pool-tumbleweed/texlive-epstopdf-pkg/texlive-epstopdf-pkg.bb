@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-epstopdf-base.sty \
 tex-epstopdf.sty \
 texlive-epstopdf-pkg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

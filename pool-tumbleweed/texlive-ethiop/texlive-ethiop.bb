@@ -63,7 +63,7 @@ tex-uethb.fd \
 tex-uetho.fd \
 texlive-ethiop"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

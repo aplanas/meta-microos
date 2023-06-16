@@ -16,8 +16,8 @@ RPM_HASH = "65db32862c113b95be498eb5372e64db7ee6e2b962d538dd73e34aaea8439cc068a4
 RPROVIDES:${PN} += "espeak \
 libespeak.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

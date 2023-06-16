@@ -23,7 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knuth-hint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

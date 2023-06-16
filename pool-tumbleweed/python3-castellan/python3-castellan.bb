@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "python3-castellan \
 python3.10dist-castellan \
 python3dist-castellan"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 python-abi \
 python3-Babel \
 python3-barbicanclient \

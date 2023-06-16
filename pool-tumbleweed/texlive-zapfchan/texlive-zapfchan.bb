@@ -42,7 +42,7 @@ tex-uzcmi8t.tfm \
 tex-uzcmi8t.vf \
 texlive-zapfchan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

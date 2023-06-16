@@ -14,7 +14,7 @@ tex-hyph-pt.tex \
 tex-loadhyph-pt.tex \
 texlive-hyphen-portuguese"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

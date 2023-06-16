@@ -37,7 +37,7 @@ RPM_HASH = "2989d61843eeeac3dd86c8ae4540abcad6b052898f1569fe6903bb3a538dcfb3cdf0
 RPROVIDES:${PN} += "config-ez-ipupdate \
 ez-ipupdate"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

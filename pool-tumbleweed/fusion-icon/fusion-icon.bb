@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "fusion-icon \
 python3.10dist-fusion-icon \
 python3dist-fusion-icon"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 Mesa-demo-x \
 python-abi \
 python3-compizconfig \

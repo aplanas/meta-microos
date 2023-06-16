@@ -14,7 +14,7 @@ dbus-1-common \
 group-messagebus \
 user-messagebus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

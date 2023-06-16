@@ -10,8 +10,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-selinux"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sed \
+RDEPENDS:${PN} += "/usr/bin/sed \
+/usr/bin/sh \
 policycoreutils \
 selinux-policy \
 selinux-policy-base \

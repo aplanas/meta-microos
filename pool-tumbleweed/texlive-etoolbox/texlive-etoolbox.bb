@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-etoolbox.def \
 tex-etoolbox.sty \
 texlive-etoolbox"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

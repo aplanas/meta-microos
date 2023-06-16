@@ -27,7 +27,7 @@ tex-ts1vlmr.fd \
 tex-variablelm.sty \
 texlive-variablelm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

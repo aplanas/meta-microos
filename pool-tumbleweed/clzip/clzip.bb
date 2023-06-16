@@ -16,7 +16,7 @@ RPM_HASH = "4d0832ca54aab57acbfee1bef3f01899ca9b158603d03a415dc00ab260d2ed5b05e3
 
 RPROVIDES:${PN} += "clzip"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6"

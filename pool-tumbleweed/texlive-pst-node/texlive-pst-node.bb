@@ -20,7 +20,7 @@ tex-pst-node.tex \
 tex-pst-node97.tex \
 texlive-pst-node"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

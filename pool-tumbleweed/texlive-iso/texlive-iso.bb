@@ -19,7 +19,7 @@ tex-iso9.clo \
 tex-isov2.cls \
 texlive-iso"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

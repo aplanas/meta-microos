@@ -21,8 +21,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pkfix-helper"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

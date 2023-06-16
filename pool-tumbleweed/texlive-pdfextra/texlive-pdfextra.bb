@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-pdfextra.sty \
 tex-pdfextra.tex \
 texlive-pdfextra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

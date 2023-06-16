@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "OpenLP \
 python3.10dist-openlp \
 python3dist-openlp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 hicolor-icon-theme \
 python-abi \
 python3-Mako \

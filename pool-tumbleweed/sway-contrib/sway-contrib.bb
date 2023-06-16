@@ -9,8 +9,8 @@ RPM_HASH = "fa2effc87b1eb76a405191f6956c8f45c2b29f62048bb7979531b813015da296d037
 
 RPROVIDES:${PN} += "sway-contrib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 grim \
 jq \
 python3-i3ipc \

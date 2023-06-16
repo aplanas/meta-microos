@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "atftp \
 tftp-client \
 tftp-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-tftp \

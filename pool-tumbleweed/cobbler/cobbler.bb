@@ -17,10 +17,10 @@ config-cobbler \
 python3.10dist-cobbler \
 python3dist-cobbler"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/sbin/service \
+RDEPENDS:${PN} += "/sbin/service \
+/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 apache2 \
 apache2-mod-wsgi-python3 \
 createrepo-c \

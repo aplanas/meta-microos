@@ -86,7 +86,7 @@ font--lang=zu \
 font-semafor \
 texlive-semaphor-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

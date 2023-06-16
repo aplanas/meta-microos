@@ -27,8 +27,8 @@ rust-std \
 rust-std-static \
 rust1.66"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 gcc13 \
 glibc-devel \
 libLLVM.so.15 \

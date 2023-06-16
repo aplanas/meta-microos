@@ -25,7 +25,7 @@ font-fourier-orns \
 font-fourierorns \
 texlive-fourier-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

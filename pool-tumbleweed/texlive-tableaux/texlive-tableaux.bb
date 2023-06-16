@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-minimum.sty \
 tex-tableau.sty \
 texlive-tableaux"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

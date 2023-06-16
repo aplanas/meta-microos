@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "python3.9dist-python-for-android \
 python39-python-for-android \
 python3dist-python-for-android"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-appdirs \

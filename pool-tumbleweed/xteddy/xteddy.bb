@@ -26,8 +26,8 @@ RPM_HASH = "e197fc8ce5707119a0ec55aa06b8e9bc1a57c05b0edbc18ea22190d2e04cdd78d68f
 RPROVIDES:${PN} += "xteddy \
 xteddy10"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 imlib2-loaders \
 ld-linux-aarch64.so.1 \
 libImlib2.so.1 \

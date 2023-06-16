@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "python3.11dist-shaptools \
 python311-shaptools \
 python3dist-shaptools"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

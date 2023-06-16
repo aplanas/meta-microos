@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-makematch.sty \
 tex-qstest.sty \
 texlive-qstest"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

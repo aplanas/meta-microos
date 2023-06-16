@@ -19,7 +19,7 @@ tex-tikzfeynman.keys.code.tex \
 tex-tikzlibraryfeynman.code.tex \
 texlive-tikz-feynman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

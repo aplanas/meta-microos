@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pst-geometrictools.sty \
 tex-pst-geometrictools.tex \
 texlive-pst-geometrictools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

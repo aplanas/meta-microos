@@ -14,9 +14,9 @@ RPROVIDES:${PN} += "pkgconfig-plplot-tcl \
 pkgconfig-plplot-tcl-Main \
 plplot-tcltk-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 itcl-devel \
 itk \
 ld-linux-aarch64.so.1 \

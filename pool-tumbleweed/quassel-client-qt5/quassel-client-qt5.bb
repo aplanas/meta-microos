@@ -15,7 +15,7 @@ RPM_HASH = "b44031e1eef0cc9eedc0ac5a9e5a2a9b516b0dbbc9c6408b2525f76ed7b5da612c91
 RPROVIDES:${PN} += "quassel-client-qt5 \
 quassel-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5SonnetUi.so.5 \
 libQt5Core.so.5 \

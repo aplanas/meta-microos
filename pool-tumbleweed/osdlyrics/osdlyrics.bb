@@ -13,7 +13,7 @@ RPM_HASH = "295305fe7df568320c9e63af27055f99edb7d8ac5401756794c9226772cb27e57665
 
 RPROVIDES:${PN} += "osdlyrics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

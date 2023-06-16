@@ -17,8 +17,8 @@ RPM_HASH = "8aabf4b786b11026f51b533773500e10c1128819a9ed4a7465946977347c5605cb9b
 RPROVIDES:${PN} += "config-rsync \
 rsync"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 grep \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \

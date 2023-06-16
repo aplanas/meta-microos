@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-science.bbx \
 tex-science.cbx \
 texlive-biblatex-science"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

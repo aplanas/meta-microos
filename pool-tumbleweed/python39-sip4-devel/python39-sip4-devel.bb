@@ -18,7 +18,7 @@ python39-sip-devel \
 python39-sip4-devel \
 rpm-macro-requires-python39-sip-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 c++-compiler \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -74,7 +74,7 @@ tex-thost-xgfkyc.enc \
 tex-thost-zj2gif.enc \
 texlive-theanooldstyle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

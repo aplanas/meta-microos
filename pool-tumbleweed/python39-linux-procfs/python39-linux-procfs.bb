@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-python-linux-procfs \
 python39-linux-procfs \
 python3dist-python-linux-procfs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-six \
 update-alternatives"

@@ -175,7 +175,7 @@ tex-russian.def \
 tex-xalx.def \
 texlive-montex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

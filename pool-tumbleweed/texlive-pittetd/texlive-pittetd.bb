@@ -18,7 +18,7 @@ tex-pitetd12.clo \
 tex-pittetd.cls \
 texlive-pittetd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

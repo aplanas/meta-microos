@@ -12,8 +12,8 @@ kleopatra5 \
 libkleopatraclientcore.so.1 \
 libkleopatraclientgui.so.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5Codecs.so.5 \
 libKF5ConfigCore.so.5 \

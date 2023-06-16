@@ -10,8 +10,8 @@ RPM_HASH = "df0251e4117412dfd747c169d344f021ee459219b2ad44ab3a33e271f42d220025e7
 
 RPROVIDES:${PN} += "jemalloc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 libjemalloc2"
 
 inherit rpm

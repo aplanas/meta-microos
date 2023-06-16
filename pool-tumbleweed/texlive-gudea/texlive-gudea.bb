@@ -66,7 +66,7 @@ tex-a-qnu4g5.enc \
 tex-a-ys4752.enc \
 texlive-gudea"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

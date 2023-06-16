@@ -29,8 +29,8 @@ python3.10dist-pygn \
 python310-pygn \
 python3dist-pygn"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

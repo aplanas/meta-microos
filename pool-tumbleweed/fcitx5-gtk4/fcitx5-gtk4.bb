@@ -10,7 +10,7 @@ RPM_HASH = "37bfc9688c0e9140730ce3596874c6b807fb55d3c71fea1f516932cbe079f04e6e40
 RPROVIDES:${PN} += "fcitx5-gtk4 \
 libim-fcitx5.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glib2-tools \
 ld-linux-aarch64.so.1 \
 libFcitx5GClient.so.2 \

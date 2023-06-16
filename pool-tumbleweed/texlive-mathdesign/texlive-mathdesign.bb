@@ -1082,7 +1082,7 @@ tex-ugmr8a.tfm \
 tex-ugmri8a.tfm \
 texlive-mathdesign"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

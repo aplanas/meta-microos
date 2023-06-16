@@ -30,7 +30,7 @@ libyy.so \
 tiled \
 tiled-qt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libQt6Concurrent.so.6 \
 libQt6Core.so.6 \
 libQt6DBus.so.6 \

@@ -16,7 +16,7 @@ tex-DB-process.tex \
 tex-repeat.tex \
 texlive-eijkhout"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "compiz-bcop \
 compiz-bcop-devel \
 pkgconfig-bcop"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 xsltproc"
 

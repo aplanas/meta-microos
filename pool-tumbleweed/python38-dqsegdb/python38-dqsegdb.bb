@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.8dist-dqsegdb \
 python38-dqsegdb \
 python3dist-dqsegdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.8 \
+RDEPENDS:${PN} += "/usr/bin/python3.8 \
+/usr/bin/sh \
 python-abi \
 python38-gwdatafind \
 python38-lal \

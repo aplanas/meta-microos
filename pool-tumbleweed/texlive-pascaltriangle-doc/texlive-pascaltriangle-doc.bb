@@ -12,6 +12,6 @@ RPROVIDES:${PN} += "en) \
 locale(texlive-pascaltriangle-doc-zh \
 texlive-pascaltriangle-doc"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

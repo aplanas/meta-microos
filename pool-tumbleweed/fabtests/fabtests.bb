@@ -9,7 +9,7 @@ RPM_HASH = "6d9e7cff32493b52dfb3e1d2687cf6eb7fe83aa4db072f107007eb41c33192b92e24
 
 RPROVIDES:${PN} += "fabtests"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

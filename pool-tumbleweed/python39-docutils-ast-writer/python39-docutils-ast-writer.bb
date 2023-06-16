@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-docutils-ast-writer \
 python39-docutils-ast-writer \
 python3dist-docutils-ast-writer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-docutils \
 update-alternatives"

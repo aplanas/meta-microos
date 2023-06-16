@@ -15,7 +15,7 @@ RPM_HASH = "c541f988fe7335dd43d1380bfbdea141740889fb84234d6a957f5c059b7becc61c13
 
 RPROVIDES:${PN} += "gp2c"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

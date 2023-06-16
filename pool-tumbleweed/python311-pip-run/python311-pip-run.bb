@@ -24,8 +24,8 @@ RPROVIDES:${PN} += "python3.11dist-pip-run \
 python311-pip-run \
 python3dist-pip-run"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-autocommand \
 python311-packaging \

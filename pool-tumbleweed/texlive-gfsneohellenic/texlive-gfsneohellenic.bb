@@ -117,7 +117,7 @@ tex-t1neohellenic.fd \
 tex-uneohellenicnums.fd \
 texlive-gfsneohellenic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

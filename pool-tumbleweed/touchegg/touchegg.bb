@@ -11,7 +11,7 @@ RPM_HASH = "04ec0284b797ffd69492bf430a50795d00d912bef80ec87d51be6860aeb4a17db011
 
 RPROVIDES:${PN} += "touchegg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXi.so.6 \

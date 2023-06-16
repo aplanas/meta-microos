@@ -28,7 +28,7 @@ font-arssi10 \
 font-artti10 \
 texlive-aspectratio-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

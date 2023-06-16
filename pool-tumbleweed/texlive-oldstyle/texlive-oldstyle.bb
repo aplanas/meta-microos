@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-Ucmm.fd \
 tex-oldstyle.sty \
 texlive-oldstyle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

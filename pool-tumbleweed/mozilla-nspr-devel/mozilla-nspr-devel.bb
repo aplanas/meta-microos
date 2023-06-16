@@ -13,8 +13,8 @@ RPM_HASH = "fa0017d9c795b5eea38b69b219fc073501aae636d529a57f8175134bbb4cabab1fbe
 RPROVIDES:${PN} += "mozilla-nspr-devel \
 pkgconfig-nspr"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 mozilla-nspr"
 
 inherit rpm

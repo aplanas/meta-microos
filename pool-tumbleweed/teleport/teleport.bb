@@ -18,7 +18,7 @@ RPM_HASH = "71d749a5a966c3d4233cbe4cb66fe71601de072574b9418b12f85f3be2619222636b
 RPROVIDES:${PN} += "config-teleport \
 teleport"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 teleport-tctl"
 

@@ -18,7 +18,7 @@ RPM_HASH = "04603859a6c3882acfb728978d462e31e16b9bb2aaf5f12e48652a7b1a7615623741
 
 RPROVIDES:${PN} += "plzip"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

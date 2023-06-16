@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-cmexb.map \
 tex-cmexb10.tfm \
 texlive-cmexb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

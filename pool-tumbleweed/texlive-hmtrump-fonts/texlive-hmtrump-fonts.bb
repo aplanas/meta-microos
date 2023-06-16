@@ -33,7 +33,7 @@ font--lang=zu \
 font-nkd04playingcard'sindex \
 texlive-hmtrump-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -10,7 +10,7 @@ RPM_HASH = "30af7970aec8fa8884aabb31a0c0b77b04cc7b9582084f0578cba6f8595eaf889195
 RPROVIDES:${PN} += "golang-github-wrouesnel-postgres-exporter \
 prometheus-postgres-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-prometheus \
 shadow \
 systemd \

@@ -862,7 +862,7 @@ tex-fbbP-y2ahej.enc \
 tex-fbbP-yragzx.enc \
 texlive-fbb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

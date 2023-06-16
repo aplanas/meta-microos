@@ -18,7 +18,7 @@ tex-figbas.map \
 tex-plrj.tfm \
 texlive-figbas"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

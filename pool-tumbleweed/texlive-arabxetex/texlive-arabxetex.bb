@@ -61,7 +61,7 @@ tex-fixlamalif.map \
 tex-mirrorpunct.map \
 texlive-arabxetex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

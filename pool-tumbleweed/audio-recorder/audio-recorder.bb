@@ -25,7 +25,7 @@ RPM_HASH = "3674f22fed13c3e03c6226c44974a77110301ee4c3f1f56271cc40ed33c50f1705d3
 
 RPROVIDES:${PN} += "audio-recorder"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gstreamer-plugins-bad \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

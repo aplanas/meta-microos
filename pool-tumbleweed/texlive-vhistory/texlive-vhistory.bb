@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-sets.sty \
 tex-vhistory.sty \
 texlive-vhistory"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

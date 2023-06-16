@@ -18,7 +18,7 @@ docbook-4 \
 docbook-dtd \
 docbook-dtds"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/xmlcatalog \
 awk \
 grep \

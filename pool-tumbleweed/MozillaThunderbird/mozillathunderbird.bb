@@ -17,7 +17,7 @@ appdata-thunderbird.appdata.xml \
 mozilla-kde4-version \
 thunderbird"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 desktop-file-utils \
 fileutils \

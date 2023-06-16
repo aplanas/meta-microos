@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-mfpextra.tex \
 tex-minifp.sty \
 texlive-minifp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

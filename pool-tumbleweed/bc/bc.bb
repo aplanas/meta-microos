@@ -24,7 +24,7 @@ RPM_HASH = "d1927b719a4a9b14cece5d3b77737847fac886e8c307a1dc0c79e6c4ddb862cf1ab9
 
 RPROVIDES:${PN} += "bc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libreadline.so.8"

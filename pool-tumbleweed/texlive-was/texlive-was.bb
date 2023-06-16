@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-icomma.sty \
 tex-upgreek.sty \
 texlive-was"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

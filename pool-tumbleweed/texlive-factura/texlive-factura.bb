@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-factura.cls \
 tex-factura.def \
 texlive-factura"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

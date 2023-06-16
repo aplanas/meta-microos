@@ -41,7 +41,7 @@ tex-utx-cal.fd \
 tex-utx-of.fd \
 texlive-pxtxalfa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

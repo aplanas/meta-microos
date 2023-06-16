@@ -15,7 +15,7 @@ tex-mongolian.ldf \
 tex-mongolian.sty \
 texlive-mongolian-babel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

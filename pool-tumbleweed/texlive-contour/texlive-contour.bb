@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-contour.cfg \
 tex-contour.sty \
 texlive-contour"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

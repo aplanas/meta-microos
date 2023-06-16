@@ -9,7 +9,7 @@ RPM_HASH = "6c660e343757cdc9c4b5ba28ce9cd1b0a0a3d63b990212dc57e58dc72139232172f5
 
 RPROVIDES:${PN} += "vncmanager"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-iostreams.so.1.82.0 \
 libboost-program-options.so.1.82.0 \

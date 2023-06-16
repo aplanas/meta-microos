@@ -36,8 +36,8 @@ RPROVIDES:${PN} += "tex-logicpuzzle.sty \
 tex-lpenv.sty \
 texlive-logicpuzzle"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

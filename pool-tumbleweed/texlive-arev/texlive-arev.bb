@@ -67,7 +67,7 @@ tex-zavmri7m.tfm \
 tex-zavmri7m.vf \
 texlive-arev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

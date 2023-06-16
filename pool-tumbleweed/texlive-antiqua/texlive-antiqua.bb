@@ -35,7 +35,7 @@ tex-uaqro8tc.tfm \
 tex-uaqro8tc.vf \
 texlive-antiqua"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

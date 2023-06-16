@@ -16,9 +16,9 @@ RPM_HASH = "92328a407b60cffacce648f910455aff734bf0de912f4881fa8553b444a2c60591e9
 
 RPROVIDES:${PN} += "trilinos-14-0-0-gnu-openmpi4-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python \
+/usr/bin/sh \
 gnu-compilers-hpc \
 gnu-compilers-hpc-devel \
 hdf5-gnu-openmpi4-hpc-devel \

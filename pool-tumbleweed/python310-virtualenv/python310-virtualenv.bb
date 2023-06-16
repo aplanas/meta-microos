@@ -28,8 +28,8 @@ python3.10dist-virtualenv \
 python310-virtualenv \
 python3dist-virtualenv"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-distlib \
 python310-filelock \

@@ -12,9 +12,9 @@ dhcp-server \
 group-dhcpd \
 user-dhcpd"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dhcp \
 fillup \

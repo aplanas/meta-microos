@@ -25,7 +25,7 @@ tex-xkvutils.tex \
 tex-xkvview.sty \
 texlive-xkeyval"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

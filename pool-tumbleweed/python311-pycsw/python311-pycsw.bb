@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-pycsw \
 python311-pycsw \
 python3dist-pycsw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-OWSLib \
 python311-Shapely \

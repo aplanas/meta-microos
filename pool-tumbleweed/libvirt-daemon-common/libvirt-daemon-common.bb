@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "config-libvirt-daemon-common \
 libvirt-admin \
 libvirt-daemon-common"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 bash-completion \
 dbus-1 \
 dmidecode \

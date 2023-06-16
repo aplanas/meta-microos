@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-reledmac.sty \
 tex-reledpar.sty \
 texlive-reledmac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

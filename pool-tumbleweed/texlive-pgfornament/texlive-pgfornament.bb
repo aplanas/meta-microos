@@ -17,7 +17,7 @@ tex-pgfornament.sty \
 tex-tikzrput.sty \
 texlive-pgfornament"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

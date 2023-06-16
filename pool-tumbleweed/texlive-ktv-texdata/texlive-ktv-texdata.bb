@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-ktv-buildnum.sty \
 tex-ktv-texdata.sty \
 texlive-ktv-texdata"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -19,8 +19,8 @@ python3.10dist-jupyter-client \
 python310-jupyter-client \
 python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-entrypoints \
 python310-python-dateutil \

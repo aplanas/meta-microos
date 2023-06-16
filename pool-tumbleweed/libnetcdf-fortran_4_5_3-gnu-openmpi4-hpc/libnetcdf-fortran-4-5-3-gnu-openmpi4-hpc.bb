@@ -38,7 +38,7 @@ RPM_HASH = "65ac2b6f4c91575b59484696bd9d86b536a68373d14389b731f7cdbe5e2f108d7cf9
 
 RPROVIDES:${PN} += "libnetcdf-fortran-4-5-3-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

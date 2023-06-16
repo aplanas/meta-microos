@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font--lang=el \
 font-philokalia \
 texlive-philokalia-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

@@ -11,7 +11,7 @@ RPM_HASH = "0d0c471d20fe8b4cd5696ec20bc476a6c922e0e5e3436fab3ae2043fb80fb2b10587
 RPROVIDES:${PN} += "config-connman \
 connman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 bluez \
 dhcp \
 iptables \

@@ -11,7 +11,7 @@ RPM_HASH = "05e1d637cb5ce59ad17cc386d174c9ff21d824444ba369889a7713c995a2d1cdec96
 
 RPROVIDES:${PN} += "imb-openmpi2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 libmpi.so.20 \

@@ -13,7 +13,7 @@ libanonymous.so.3 \
 liblogin.so.3 \
 libsasldb.so.3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdbm.so.6 \

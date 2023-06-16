@@ -15,7 +15,7 @@ rubygem-ruby-3.2.0-manpages-0 \
 rubygem-ruby-3.2.0-manpages-0.6 \
 rubygem-ruby-3.2.0-manpages-0.6.1"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ruby-abi"
 
 inherit rpm

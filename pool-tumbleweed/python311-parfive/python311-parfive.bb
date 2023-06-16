@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-parfive \
 python311-parfive \
 python3dist-parfive"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-aiohttp \
 python311-tqdm \

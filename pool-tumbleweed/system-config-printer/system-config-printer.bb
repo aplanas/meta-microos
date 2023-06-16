@@ -10,7 +10,7 @@ RPM_HASH = "aba411e0ffe6752b193f680bb43f2dfd359526c93b78c2ccb76cc3d19e7f14d0fbb1
 
 RPROVIDES:${PN} += "system-config-printer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python3-cups \
 python3-pycurl \
 system-config-printer-common"

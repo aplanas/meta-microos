@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-exaile \
 exaile"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gdk-pixbuf-loader-rsvg \
 gstreamer \
 gstreamer-plugins-good \

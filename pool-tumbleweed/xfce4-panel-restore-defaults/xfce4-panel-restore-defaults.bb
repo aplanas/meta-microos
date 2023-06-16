@@ -10,7 +10,7 @@ RPM_HASH = "7cb3a2afcae90c144e62fcb28f54d43b83f5d8f0063c8c852df8265fb2d92d5fe861
 
 RPROVIDES:${PN} += "xfce4-panel-restore-defaults"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 zenity"
 
 inherit rpm

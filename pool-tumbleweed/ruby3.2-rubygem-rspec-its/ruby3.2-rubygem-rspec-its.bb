@@ -14,7 +14,7 @@ rubygem-ruby-3.2.0-rspec-its-1 \
 rubygem-ruby-3.2.0-rspec-its-1.3 \
 rubygem-ruby-3.2.0-rspec-its-1.3.0"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ruby-abi \
 rubygem-ruby-3.2.0-rspec-core \
 rubygem-ruby-3.2.0-rspec-expectations"

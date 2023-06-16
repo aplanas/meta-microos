@@ -15,7 +15,7 @@ tex-cquthesis.cls \
 tex-cquthesis.sty \
 texlive-cquthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

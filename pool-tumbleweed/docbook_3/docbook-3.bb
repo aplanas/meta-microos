@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sgml-register-catalog \
+RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
+/usr/bin/sh \
 /usr/bin/xmlcatalog \
 docbook-4 \
 iso-ent"

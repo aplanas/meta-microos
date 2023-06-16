@@ -24,7 +24,7 @@ tex-hhsubfigure.sty \
 tex-ptmxcomp.sty \
 texlive-bgteubner"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

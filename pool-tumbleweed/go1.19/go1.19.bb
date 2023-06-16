@@ -18,9 +18,9 @@ go-devel-static \
 go1.19 \
 golang-API"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 gcc \
 libc.so.6 \
 update-alternatives"

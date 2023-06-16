@@ -19,8 +19,8 @@ perl-SGMLS-Event \
 perl-SGMLS-Notation \
 texlive-latex-web-companion"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

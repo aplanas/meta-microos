@@ -16,7 +16,7 @@ RPM_HASH = "f150755a9fab5caebef0225e879a5727662741355fc4e2483a14360569ba63327c08
 RPROVIDES:${PN} += "config-oidentd \
 oidentd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 systemd"

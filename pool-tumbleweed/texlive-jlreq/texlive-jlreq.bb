@@ -117,7 +117,7 @@ tex-zjlreqg.tfm \
 tex-zjlreqg.vf \
 texlive-jlreq"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

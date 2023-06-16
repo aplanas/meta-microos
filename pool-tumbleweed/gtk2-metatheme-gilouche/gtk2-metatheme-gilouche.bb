@@ -15,7 +15,7 @@ gtk2-theme-openSUSE \
 metacity-theme-SLED \
 metacity-theme-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2 \
 gtk2-engine-clearlooks \
 tango-icon-theme"

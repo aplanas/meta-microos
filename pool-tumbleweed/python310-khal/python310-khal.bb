@@ -14,8 +14,8 @@ python3.10dist-khal \
 python310-khal \
 python3dist-khal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-atomicwrites \
 python310-click \

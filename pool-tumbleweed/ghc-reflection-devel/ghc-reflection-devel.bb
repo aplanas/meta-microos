@@ -10,7 +10,7 @@ RPM_HASH = "1655349eb5a1ef832ad569549e48dba7a1aaafc52ad97315410cb8bf8b52ec413822
 RPROVIDES:${PN} += "ghc-devel-reflection-2.1.7-KcOWE7PS1mHy6gA2edHvV \
 ghc-reflection-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-template-haskell-2.19.0.0 \

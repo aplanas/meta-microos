@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "azote \
 python3.10dist-azote \
 python3dist-azote"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ImageMagick \
 feh \
 python-abi \

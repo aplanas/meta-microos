@@ -11,7 +11,7 @@ RPM_HASH = "e5e787f0bad4a7a7b7850daaf6fb6046914057b1d8d9e6b95e7a81c376e325eb4356
 RPROVIDES:${PN} += "config-libvirt-daemon-proxy \
 libvirt-daemon-proxy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

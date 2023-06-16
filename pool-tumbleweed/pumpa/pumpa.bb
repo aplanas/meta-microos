@@ -9,7 +9,7 @@ RPM_HASH = "9d0efa212a92132dbc4116c861970c4f623138f9698763c07ed71a0e6cc94e676240
 
 RPROVIDES:${PN} += "pumpa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

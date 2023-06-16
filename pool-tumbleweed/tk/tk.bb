@@ -23,8 +23,8 @@ tkcon \
 wish \
 wish8.6"
 
-RDEPENDS:${PN} += "/bin/rm \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/rm \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXft.so.2 \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-jira \
 python39-jira \
 python3dist-jira"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-defusedxml \
 python39-keyring \

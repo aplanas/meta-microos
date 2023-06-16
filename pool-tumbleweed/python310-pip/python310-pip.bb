@@ -15,8 +15,8 @@ python3.10dist-pip \
 python310-pip \
 python3dist-pip"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 ca-certificates \
 coreutils \

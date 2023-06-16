@@ -13,7 +13,7 @@ RPM_HASH = "8ac2fa91672bc78f5ee7f96ef2673d4077f431dfe23af444520805d43087ea44eb0a
 RPROVIDES:${PN} += "config-timeshift \
 timeshift"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \

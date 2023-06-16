@@ -12,8 +12,8 @@ RPM_HASH = "a8b1c2e5741465ffe4383c1ee9215a5cdf6a366163d4a40324c210777da8551316b8
 RPROVIDES:${PN} += "config-xosview \
 xosview"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXpm.so.4 \

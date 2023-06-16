@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "ifntjapb \
 intlfonts-japanese-big-bitmap-fonts \
 locale-xorg-x11-ja"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

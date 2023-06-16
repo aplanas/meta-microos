@@ -13,12 +13,12 @@ RPM_HASH = "56ffa52c6e7f762ab5f394b3b246ff8c4ce5d53ed433cefe000093c8f6816e2d4e14
 RPROVIDES:${PN} += "config-mutt \
 mutt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/cat \
+RDEPENDS:${PN} += "/usr/bin/cat \
 /usr/bin/grep \
 /usr/bin/mkdir \
 /usr/bin/perl \
 /usr/bin/rm \
+/usr/bin/sh \
 /usr/bin/zcat \
 glibc-locale \
 ld-linux-aarch64.so.1 \

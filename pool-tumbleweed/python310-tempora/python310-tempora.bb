@@ -18,8 +18,8 @@ python3.10dist-tempora \
 python310-tempora \
 python3dist-tempora"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python310-jaraco.functools \

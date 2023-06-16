@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-slide-webdavclient"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 geronimo-j2ee-connector-1-5-api \
 jakarta-commons-httpclient3 \
 jakarta-commons-transaction \

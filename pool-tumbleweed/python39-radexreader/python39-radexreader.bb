@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-radexreader \
 python39-radexreader \
 python3dist-radexreader"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-pyserial \
 python39-pyusb \

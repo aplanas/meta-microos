@@ -24,7 +24,7 @@ tex-pxmulticol.sty \
 tex-pxxspace.sty \
 texlive-platex-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

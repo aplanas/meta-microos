@@ -10,7 +10,7 @@ RPM_HASH = "dad28a9a51cd8d3e10809cc8249e117ea1297e65a1cd065ed3f88877553581a32fe2
 
 RPROVIDES:${PN} += "yp-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \

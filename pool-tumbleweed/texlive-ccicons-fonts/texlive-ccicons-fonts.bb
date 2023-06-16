@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-texlive-ccicons-fonts \
 font-ccicons \
 texlive-ccicons-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

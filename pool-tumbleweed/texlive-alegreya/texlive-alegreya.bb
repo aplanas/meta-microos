@@ -4471,7 +4471,7 @@ tex-algr-zsorhr.enc \
 tex-algr-zt4bhv.enc \
 texlive-alegreya"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

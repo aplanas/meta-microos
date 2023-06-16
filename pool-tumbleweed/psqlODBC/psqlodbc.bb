@@ -14,8 +14,8 @@ pg-odbc \
 postgresql-odbc \
 psqlODBC"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/odbcinst \
+RDEPENDS:${PN} += "/usr/bin/odbcinst \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libodbcinst.so.2 \

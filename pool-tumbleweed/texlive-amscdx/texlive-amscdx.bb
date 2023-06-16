@@ -24,7 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-amscdx.sty \
 texlive-amscdx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

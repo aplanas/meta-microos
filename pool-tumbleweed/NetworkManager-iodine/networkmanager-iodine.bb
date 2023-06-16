@@ -14,7 +14,7 @@ group-nm-iodine \
 libnm-vpn-plugin-iodine.so \
 user-nm-iodine"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager \
 iodine \
 ld-linux-aarch64.so.1 \

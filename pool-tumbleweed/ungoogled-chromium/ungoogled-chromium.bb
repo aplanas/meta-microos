@@ -14,7 +14,7 @@ ungoogled-chromium \
 ungoogled-chromium-suid-helper \
 web-browser"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libFLAC.so.12 \
 libX11.so.6 \

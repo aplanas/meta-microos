@@ -22,7 +22,7 @@ tex-vect8.tfm \
 tex-vect9.tfm \
 texlive-esvect"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

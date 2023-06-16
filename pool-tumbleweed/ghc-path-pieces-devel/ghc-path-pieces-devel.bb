@@ -10,7 +10,7 @@ RPM_HASH = "a1fe108ec2d2430310fe743b2b41ad816938a58b0533e81b25098a22a07e4e2153be
 RPROVIDES:${PN} += "ghc-devel-path-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4 \
 ghc-path-pieces-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-text-2.0.2 \

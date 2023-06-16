@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "perl-Term--ReadKey \
 perl-Term-ReadKey \
 perl-TermReadKey"
 
-RDEPENDS:${PN} += "/bin/stty \
+RDEPENDS:${PN} += "/usr/bin/stty \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 perl--MODULE-COMPAT-5.36.0"

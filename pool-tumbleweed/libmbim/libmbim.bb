@@ -10,7 +10,7 @@ RPM_HASH = "515992797fae1cb8cb9958b81fd3d7edb4d3cc9cbfe395ece42303fa257bb4604449
 
 RPROVIDES:${PN} += "libmbim"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

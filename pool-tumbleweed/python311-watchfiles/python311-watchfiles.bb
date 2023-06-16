@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-watchfiles \
 python311-watchfiles \
 python3dist-watchfiles"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 python-abi \

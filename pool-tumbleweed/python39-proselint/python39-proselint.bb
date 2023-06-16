@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.9dist-proselint \
 python39-proselint \
 python3dist-proselint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 python39-dbm \

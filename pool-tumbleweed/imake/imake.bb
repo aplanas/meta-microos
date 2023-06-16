@@ -17,8 +17,8 @@ RPM_HASH = "b6c8c19eb11ade97e1c55c86b4abfb4401e0098f8ccf7b562fde1a2dc30c1a634679
 
 RPROVIDES:${PN} += "imake"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 xorg-cf-files"

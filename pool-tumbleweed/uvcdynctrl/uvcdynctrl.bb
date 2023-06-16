@@ -13,7 +13,7 @@ RPM_HASH = "b0c14e55d94ebf250462e1ca787d79ceea409ac2ed212a9236e435f21bdcd6512d9a
 
 RPROVIDES:${PN} += "uvcdynctrl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libwebcam.so.0 \

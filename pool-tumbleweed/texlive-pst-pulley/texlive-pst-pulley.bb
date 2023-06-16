@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-pulley.sty \
 tex-pst-pulley.tex \
 texlive-pst-pulley"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-yaswfp \
 python39-yaswfp \
 python3dist-yaswfp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi"
 
 inherit rpm

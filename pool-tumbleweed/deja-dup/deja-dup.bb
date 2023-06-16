@@ -19,7 +19,7 @@ RPM_HASH = "db4b09469af581f2586c80bcb10225c00cae9630b30c70e8bb02957cd59fa2c82040
 RPROVIDES:${PN} += "deja-dup \
 libdeja.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 duplicity \
 ld-linux-aarch64.so.1 \
 libadwaita-1.so.0 \

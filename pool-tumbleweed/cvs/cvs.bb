@@ -12,10 +12,10 @@ RPM_HASH = "83db48684104faa683ef6f8b81417d4cc7b605bfdec0cee9ca2f3fb4d9f15ed51da4
 RPROVIDES:${PN} += "config-cvs \
 cvs"
 
-RDEPENDS:${PN} += "/bin/mktemp \
-/bin/sh \
-/usr/bin/csh \
+RDEPENDS:${PN} += "/usr/bin/csh \
+/usr/bin/mktemp \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \

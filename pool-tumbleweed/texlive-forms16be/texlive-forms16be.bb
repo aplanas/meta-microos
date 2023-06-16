@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-forms16be.sty \
 tex-uni4basic-latin.def \
 texlive-forms16be"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

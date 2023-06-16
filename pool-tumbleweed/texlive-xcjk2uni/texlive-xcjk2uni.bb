@@ -22,7 +22,7 @@ tex-xCJK2uni-UKS.def \
 tex-xCJK2uni.sty \
 texlive-xcjk2uni"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

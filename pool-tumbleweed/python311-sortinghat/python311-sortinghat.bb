@@ -34,8 +34,8 @@ RPROVIDES:${PN} += "python3.11dist-sortinghat \
 python311-sortinghat \
 python3dist-sortinghat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Jinja2 \
 python311-PyMySQL \

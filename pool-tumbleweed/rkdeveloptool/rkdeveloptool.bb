@@ -9,7 +9,7 @@ RPM_HASH = "1b1ca63264cd411775001ae6b1b45a1879e426638b1238d334213b0cb25eded78eab
 
 RPROVIDES:${PN} += "rkdeveloptool"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

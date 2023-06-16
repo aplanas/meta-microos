@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "argus-/usr/sbin/argus \
 argus-server \
 config-argus-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 argus \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

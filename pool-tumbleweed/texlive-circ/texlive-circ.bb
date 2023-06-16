@@ -26,7 +26,7 @@ tex-optics.def \
 tex-physics.def \
 texlive-circ"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

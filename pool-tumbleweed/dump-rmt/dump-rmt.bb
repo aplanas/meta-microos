@@ -12,7 +12,7 @@ RPM_HASH = "31c1d7266dad3f19bd977be63d9d648f43e74a338f0789d7348163e7ff96f1069141
 RPROVIDES:${PN} += "dump-rmt \
 rmt"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

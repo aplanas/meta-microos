@@ -11,7 +11,7 @@ RPM_HASH = "c219071d0c3aa25c44851c344c77e8a3759fae7f83eb82905183b615e61cba3eaad8
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/hdspconf \
 hdspconf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

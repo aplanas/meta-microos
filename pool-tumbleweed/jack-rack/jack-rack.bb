@@ -11,8 +11,8 @@ RPM_HASH = "fe5bbed5dfd11c36e68f2f5c761eaf11f4767ca7326b648d0cc614e39afced8dee54
 
 RPROVIDES:${PN} += "jack-rack"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 jack \
 ladspa \
 ld-linux-aarch64.so.1 \

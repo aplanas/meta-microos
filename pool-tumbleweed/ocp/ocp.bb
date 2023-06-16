@@ -21,7 +21,7 @@ libocp.so \
 ocp \
 opencubicplayer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-unifont-otf-fonts \
 ld-linux-aarch64.so.1 \
 libFLAC.so.12 \

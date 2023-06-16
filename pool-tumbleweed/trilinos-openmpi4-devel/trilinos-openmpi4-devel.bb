@@ -16,10 +16,9 @@ RPM_HASH = "d866912f51835e7bf579bc9f49ddf8b2e7510cdd10a5aa82c30fe8731e6e2764f540
 
 RPROVIDES:${PN} += "trilinos-openmpi4-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 blacs-devel-headers \
 glpk-devel \
 hdf5-openmpi4-devel \

@@ -21,8 +21,8 @@ typelib-Shell \
 typelib-Shew \
 typelib-St"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 gdk-pixbuf-loader-rsvg \
 gnome-control-center \
 gnome-session \

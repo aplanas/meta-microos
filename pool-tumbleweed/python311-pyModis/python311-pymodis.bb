@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-pymodis \
 python311-pyModis \
 python3dist-pymodis"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

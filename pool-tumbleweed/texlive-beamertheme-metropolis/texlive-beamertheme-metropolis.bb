@@ -19,7 +19,7 @@ tex-beamerthememetropolis.sty \
 tex-pgfplotsthemetol.sty \
 texlive-beamertheme-metropolis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

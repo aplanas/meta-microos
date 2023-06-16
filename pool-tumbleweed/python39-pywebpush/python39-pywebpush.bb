@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pywebpush \
 python39-pywebpush \
 python3dist-pywebpush"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-cryptography \
 python39-http-ece \

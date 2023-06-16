@@ -18,7 +18,7 @@ tex-ascii.sty \
 texlive-ascii \
 texlive-ascii-font"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

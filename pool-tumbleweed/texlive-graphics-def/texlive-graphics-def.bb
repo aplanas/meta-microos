@@ -21,7 +21,7 @@ tex-pdftex.def \
 tex-xetex.def \
 texlive-graphics-def"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

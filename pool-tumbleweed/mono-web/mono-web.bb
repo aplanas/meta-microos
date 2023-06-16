@@ -43,8 +43,8 @@ mono-wsdl \
 mono-xsd \
 pkgconfig-aspnetwebstack"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 mono-ICSharpCode.SharpZipLib \
 mono-Microsoft.CSharp \
 mono-Mono.Data.Sqlite \

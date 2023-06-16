@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-jsonpath-ng \
 python39-jsonpath-ng \
 python3dist-jsonpath-ng"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-decorator \
 python39-ply \

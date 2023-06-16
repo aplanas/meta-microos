@@ -9,7 +9,7 @@ RPM_HASH = "9ed4f088783fcb8d56a0326282ff644c3a58991c7f2fb33d26a6dfca55b1e05c0e25
 
 RPROVIDES:${PN} += "texlive-cjkutils-bin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkpathsea.so.6 \

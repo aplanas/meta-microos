@@ -12,8 +12,8 @@ RPM_HASH = "68e8517330b267bf456340e3367b9d68f7e0a85ec7e5df2aaa91b5b21e57c9b51837
 RPROVIDES:${PN} += "config-upmpdcli \
 upmpdcli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 group-audio \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

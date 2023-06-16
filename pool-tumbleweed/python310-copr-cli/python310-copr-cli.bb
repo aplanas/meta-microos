@@ -13,8 +13,8 @@ python3.10dist-copr-cli \
 python310-copr-cli \
 python3dist-copr-cli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Jinja2 \
 python310-copr \

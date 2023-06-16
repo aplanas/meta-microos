@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-phys.bbx \
 tex-phys.cbx \
 texlive-biblatex-phys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

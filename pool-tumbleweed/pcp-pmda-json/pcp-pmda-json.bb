@@ -11,8 +11,8 @@ RPM_HASH = "65ea7cf1655a58b3a7ea50d64ac511116b8008f8b13355870afebce7d2e54e72ead6
 RPROVIDES:${PN} += "config-pcp-pmda-json \
 pcp-pmda-json"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 python3-jsonpointer \
 python3-pcp \
 python3-six"

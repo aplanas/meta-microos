@@ -11,9 +11,8 @@ RPM_HASH = "2f709e59bcb1e208a063eb5fbdd64b283aa3ce4393dfd9bb893e51f2faa67f4f15dd
 
 RPROVIDES:${PN} += "cdogs-sdl"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libOpenGL.so.0 \
 libSDL2-2.0.so.0 \

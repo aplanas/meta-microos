@@ -3140,7 +3140,7 @@ tex-wmjxo9.tfm \
 tex-wmjxo9.vf \
 texlive-uhc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

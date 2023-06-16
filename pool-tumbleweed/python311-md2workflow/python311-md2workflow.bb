@@ -15,8 +15,8 @@ python3.11dist-md2workflow \
 python311-md2workflow \
 python3dist-md2workflow"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-icalendar \
 python311-md2workflow-common \

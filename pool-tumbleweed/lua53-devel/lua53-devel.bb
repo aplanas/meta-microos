@@ -18,8 +18,8 @@ lua53-devel \
 pkgconfig-lua \
 pkgconfig-lua5.3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 liblua5-3-5 \
 lua-macros \
 lua53 \

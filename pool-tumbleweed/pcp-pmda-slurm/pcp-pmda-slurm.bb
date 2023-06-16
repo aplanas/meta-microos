@@ -10,7 +10,7 @@ RPM_HASH = "5803c39ca5ece864d5f92de47fbdb5e61c831568aef60addcb728315996a401261bc
 
 RPROVIDES:${PN} += "pcp-pmda-slurm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-PCP-PMDA"
 
 inherit rpm

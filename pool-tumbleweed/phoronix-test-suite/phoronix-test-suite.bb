@@ -18,9 +18,9 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-phoronix-test-suite \
 phoronix-test-suite"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
+/usr/bin/sh \
 php8 \
 php8-curl \
 php8-dom \

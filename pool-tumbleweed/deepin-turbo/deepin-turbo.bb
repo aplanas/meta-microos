@@ -9,7 +9,7 @@ RPM_HASH = "22a5d1a3098de8a5db6181839462306c05a972e74e3862c2e9a2058cbc9535c184a3
 
 RPROVIDES:${PN} += "deepin-turbo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

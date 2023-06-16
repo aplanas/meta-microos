@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-qx-unicode.map \
 tex-tex-text.map \
 texlive-xetex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

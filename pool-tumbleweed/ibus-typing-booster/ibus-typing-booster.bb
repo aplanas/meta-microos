@@ -10,8 +10,7 @@ RPM_HASH = "7965dc9f74562a9866b8270b37cdc202e22efc9c84f8d98260d3bc8ab1615e7a1d16
 
 RPROVIDES:${PN} += "ibus-typing-booster"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dbus-1-python3 \
 enchant-1-backend \
 ibus \

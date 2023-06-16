@@ -13,7 +13,7 @@ RPM_HASH = "add794b7d756f913fa2edf8f043d20cc55cfcc73702450b0596663b281f91b745094
 
 RPROVIDES:${PN} += "fritzing"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-file-utils \
 fritzing-parts \
 libQt5Core.so.5 \

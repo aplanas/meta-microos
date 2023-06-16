@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "man-pdftosrc.1 \
 texlive-pdftools-doc-/usr/share/man/man1/pdftosrc.1.gz \
 texlive-pdftosrc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

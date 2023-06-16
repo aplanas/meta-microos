@@ -101,7 +101,7 @@ font--lang=zu \
 font-trajan \
 texlive-trajan-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

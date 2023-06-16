@@ -20,8 +20,8 @@ python3.10dist-setuptools-git-versioning \
 python310-setuptools-git-versioning \
 python3dist-setuptools-git-versioning"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python310-Deprecated \

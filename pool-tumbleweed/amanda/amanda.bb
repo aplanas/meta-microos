@@ -264,9 +264,9 @@ perl-Amanda--XferServer \
 perl-Amanda--XferServerc \
 perl-Amanda--Xferc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/smbclient \
 dump \
 grep \

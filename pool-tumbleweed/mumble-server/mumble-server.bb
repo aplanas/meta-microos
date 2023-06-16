@@ -15,7 +15,7 @@ group--mumble-server \
 mumble-server \
 user--mumble-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

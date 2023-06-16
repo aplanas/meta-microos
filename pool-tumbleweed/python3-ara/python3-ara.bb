@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3-ara \
 python3.10dist-ara \
 python3dist-ara"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-cliff \
 python3-pbr \

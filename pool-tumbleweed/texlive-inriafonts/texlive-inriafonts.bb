@@ -831,7 +831,7 @@ tex-inriaserif-yeotsr.enc \
 tex-inriaserif-yl5fy2.enc \
 texlive-inriafonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

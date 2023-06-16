@@ -35,7 +35,7 @@ font-padauk \
 font-padaukbook \
 texlive-padauk-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

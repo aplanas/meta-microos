@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-epsdice.cfg \
 tex-epsdice.sty \
 texlive-epsdice"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

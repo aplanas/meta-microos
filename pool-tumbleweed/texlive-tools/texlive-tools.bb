@@ -61,7 +61,7 @@ tex-xr.sty \
 tex-xspace.sty \
 texlive-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

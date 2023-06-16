@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "config-fpc \
 fpc \
 libpas2jslib.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 binutils \
 libc.so.6"
 

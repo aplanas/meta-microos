@@ -11,7 +11,7 @@ RPM_HASH = "0ae4e4e1adfd237896f0f1e461f8454065e9e4cf53a3e15c0187431f003464781d9d
 
 RPROVIDES:${PN} += "pw3270"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 lib3270.so.5.4 \
 libc.so.6 \

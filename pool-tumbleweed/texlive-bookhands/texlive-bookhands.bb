@@ -142,7 +142,7 @@ tex-unclb17.tfm \
 tex-unclb7.tfm \
 texlive-bookhands"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

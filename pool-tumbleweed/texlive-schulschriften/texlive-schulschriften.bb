@@ -79,7 +79,7 @@ tex-wevaub14.tfm \
 tex-wevaubsl14.tfm \
 texlive-schulschriften"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

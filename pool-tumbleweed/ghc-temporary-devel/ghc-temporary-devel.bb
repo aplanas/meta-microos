@@ -10,7 +10,7 @@ RPM_HASH = "41282078d3fbefedeea16d7aba4166d902601beaf932e2811e53168a07ae7ea4b168
 RPROVIDES:${PN} += "ghc-devel-temporary-1.3-9rLWZg49Shk3gKExST32p \
 ghc-temporary-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-directory-1.3.7.1 \

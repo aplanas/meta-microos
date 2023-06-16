@@ -20,7 +20,7 @@ tex-mfirstuc-english.sty \
 tex-mfirstuc.sty \
 texlive-mfirstuc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

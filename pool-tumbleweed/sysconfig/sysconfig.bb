@@ -11,8 +11,8 @@ RPM_HASH = "69a02a387033c1034cc37ded3fd9a273624bf5a36badeb3729a2b33074d8b7f364ae
 RPROVIDES:${PN} += "config-sysconfig \
 sysconfig"
 
-RDEPENDS:${PN} += "/bin/bash \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 /usr/bin/chmod \
 /usr/bin/grep \
 /usr/bin/mkdir \

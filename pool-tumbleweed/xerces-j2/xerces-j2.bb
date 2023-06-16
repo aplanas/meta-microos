@@ -31,7 +31,7 @@ osgi-org.apache.xerces \
 xerces-j2 \
 xerces-j2-scripts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

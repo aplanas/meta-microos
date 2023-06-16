@@ -10,7 +10,7 @@ RPM_HASH = "905dc2d11880fc777b179950084cac147368b0c27bcfd8d9151d1a77fc835b224300
 RPROVIDES:${PN} += "ghc-devel-tar-0.5.1.1-Dtsl5am3zST5LscMXaDdU8 \
 ghc-tar-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-eso-pic.sty \
 tex-showframe.sty \
 texlive-eso-pic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

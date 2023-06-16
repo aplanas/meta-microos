@@ -32,7 +32,7 @@ systemd-/usr/lib/systemd/systemd-networkd \
 systemd-/usr/lib/systemd/systemd-resolved \
 systemd-network"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

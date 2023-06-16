@@ -14,9 +14,9 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-manager"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 dbus-1-x11 \
 dconf \
 gstreamer-plugins-good \

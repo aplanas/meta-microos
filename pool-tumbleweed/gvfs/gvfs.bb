@@ -17,7 +17,7 @@ libgvfscommon.so \
 libgvfsdaemon.so \
 libgvfsdbus.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glib2-tools \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

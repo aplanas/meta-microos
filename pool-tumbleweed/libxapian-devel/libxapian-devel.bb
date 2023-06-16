@@ -14,8 +14,8 @@ RPM_HASH = "3b5cee9de1002cc9faf06b20947260c4c99f693a78538ba2a2eef5a9c99c755a3e53
 RPROVIDES:${PN} += "libxapian-devel \
 pkgconfig-xapian-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 gcc-c++ \
 libuuid-devel \
 libxapian30 \

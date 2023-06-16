@@ -16,8 +16,8 @@ containerd \
 containerd-git \
 containerd-kubic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 libc.so.6 \

@@ -17,7 +17,7 @@ tex-nrc2.cls \
 tex-nrc2.sty \
 texlive-nrc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

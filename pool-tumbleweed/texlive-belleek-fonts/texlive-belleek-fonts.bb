@@ -14,7 +14,7 @@ font-blsy \
 font-rblmi \
 texlive-belleek-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

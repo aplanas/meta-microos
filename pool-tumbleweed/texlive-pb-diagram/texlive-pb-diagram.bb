@@ -14,7 +14,7 @@ tex-pb-lams.sty \
 tex-pb-xy.sty \
 texlive-pb-diagram"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -128,7 +128,7 @@ font--lang=zu \
 font-theanomodern \
 texlive-theanomodern-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

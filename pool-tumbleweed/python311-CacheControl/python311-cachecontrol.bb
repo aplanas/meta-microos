@@ -14,8 +14,8 @@ python311-CacheControl \
 python311-cachecontrol \
 python3dist-cachecontrol"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-msgpack \
 python311-requests \

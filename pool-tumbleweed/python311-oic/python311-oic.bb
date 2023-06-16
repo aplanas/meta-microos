@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-oic \
 python311-oic \
 python3dist-oic"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Beaker \
 python311-Mako \

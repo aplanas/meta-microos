@@ -42,7 +42,7 @@ tex-tosl9.tfm \
 tex-toti10.tfm \
 texlive-ecc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

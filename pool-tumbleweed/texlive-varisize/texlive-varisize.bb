@@ -22,7 +22,7 @@ tex-8point.tex \
 tex-9point.tex \
 texlive-varisize"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

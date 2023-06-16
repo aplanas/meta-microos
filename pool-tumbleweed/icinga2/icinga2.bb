@@ -10,8 +10,8 @@ RPM_HASH = "5c2ac711e687862c859b52b900bb2686d8bc2b10384dafb30a054db856db619f3e95
 RPROVIDES:${PN} += "config-icinga2 \
 icinga2"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 icinga2-bin \
 icinga2-common \
 logrotate \

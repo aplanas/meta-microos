@@ -9,7 +9,7 @@ RPM_HASH = "a7a1eac19fa9743dae9c391b36ec7dee79502b3f5444553f1538a116b30c59a377b6
 
 RPROVIDES:${PN} += "mpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libmpc3 \
 pkgconfig-gmp \
 pkgconfig-mpfr"

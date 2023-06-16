@@ -15,8 +15,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "clatd \
 config-clatd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 iproute2 \
 iptables \
 perl \

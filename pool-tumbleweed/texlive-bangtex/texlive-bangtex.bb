@@ -24,7 +24,7 @@ tex-bsize11.clo \
 tex-bsize12.clo \
 texlive-bangtex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

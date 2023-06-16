@@ -18,7 +18,7 @@ RPM_HASH = "2f80f6adc53101ab92b79e255c3dfbd9b4db1777444f2fca42cd7c466e1b414de433
 
 RPROVIDES:${PN} += "yast2-scanner"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libX11.so.6 \
 libc.so.6 \
 yast2 \

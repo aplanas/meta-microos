@@ -23,7 +23,7 @@ tex-verbose-inote-luh-ipw.bbx \
 tex-verbose-inote-luh-ipw.cbx \
 texlive-biblatex-luh-ipw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

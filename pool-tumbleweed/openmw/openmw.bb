@@ -36,7 +36,7 @@ RPM_HASH = "081b18556a12ee3679c7dfb1a7414d5d8e5d4f8b5204ed3be9120f3e7c3f605ba8bc
 RPROVIDES:${PN} += "config-openmw \
 openmw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 OpenSceneGraph-plugins \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \

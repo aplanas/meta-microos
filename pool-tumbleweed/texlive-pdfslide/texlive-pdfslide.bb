@@ -22,7 +22,7 @@ tex-pdfslide.sty \
 tex-slide.clo \
 texlive-pdfslide"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

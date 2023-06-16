@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.11dist-ntfy \
 python311-ntfy \
 python3dist-ntfy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-appdirs \
 python311-requests \

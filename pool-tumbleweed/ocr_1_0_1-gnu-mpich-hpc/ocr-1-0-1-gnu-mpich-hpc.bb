@@ -11,8 +11,8 @@ RPM_HASH = "68529712913458d8431966ed2db1845b57a613edf96746bbedfb2f22381f50ecc3c5
 
 RPROVIDES:${PN} += "ocr-1-0-1-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 gnu-compilers-hpc \
 libc.so.6 \
 lua-lmod \

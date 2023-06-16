@@ -12,7 +12,7 @@ dtb-foundation-v8 \
 dtb-rtsm-ve-aemv8a \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

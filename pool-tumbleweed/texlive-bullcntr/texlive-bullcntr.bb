@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-bullcntr.sty \
 tex-bullenum.sty \
 texlive-bullcntr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

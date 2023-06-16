@@ -11,7 +11,7 @@ RPM_HASH = "18bd7df3d5d898e135ffff737e5297d7eb1715bfb49760683b13158f037a51ac4f15
 
 RPROVIDES:${PN} += "pcp-pmda-infiniband"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libibmad.so.5 \

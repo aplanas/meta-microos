@@ -35,7 +35,7 @@ tex-fithesis3.cls \
 tex-fithesis4.cls \
 texlive-fithesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

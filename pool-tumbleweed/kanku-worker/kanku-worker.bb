@@ -11,8 +11,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "kanku-worker \
 perl-Kanku--Daemon--Worker"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 kanku-common \
 kanku-common-server \
 perl-Net--AMQP--RabbitMQ \

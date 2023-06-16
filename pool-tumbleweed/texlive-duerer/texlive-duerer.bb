@@ -20,7 +20,7 @@ tex-cdss10.tfm \
 tex-cdtt10.tfm \
 texlive-duerer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

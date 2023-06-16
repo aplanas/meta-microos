@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-gnome-branding-MicroOS \
 gnome-branding-MicroOS"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 flatpak \
 gio-branding-openSUSE \
 sound-theme-freedesktop \

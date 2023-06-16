@@ -38,7 +38,7 @@ tex-tikzlibraryext.topaths.arcthrough.code.tex \
 tex-tikzlibraryext.transformations.mirror.code.tex \
 texlive-tikz-ext"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-complexity.sty \
 tex-mycomplexity.sty \
 texlive-complexity"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

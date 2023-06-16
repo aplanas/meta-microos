@@ -20,7 +20,7 @@ python3.10dist-pytz \
 python310-pytz \
 python3dist-pytz"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 python310-base \
 timezone"

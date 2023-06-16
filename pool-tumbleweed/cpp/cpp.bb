@@ -9,7 +9,7 @@ RPM_HASH = "be9739daed5da5ee535f26321e209eaabc2c257a717ca0d8e4db1ce4fc7410bf36fc
 
 RPROVIDES:${PN} += "cpp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cpp13"
 
 inherit rpm

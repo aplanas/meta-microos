@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-audio-degrader \
 python311-audio-degrader \
 python3dist-audio-degrader"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-SoundFile \
 python311-scipy \

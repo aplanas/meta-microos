@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-main-wrapper \
 python39-main-wrapper \
 python3dist-main-wrapper"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-base \
 python39-six \

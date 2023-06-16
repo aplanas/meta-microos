@@ -20,7 +20,7 @@ subdomain-parser \
 subdomain-parser-common \
 subdomain-parser-demo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6"

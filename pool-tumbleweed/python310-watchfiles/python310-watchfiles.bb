@@ -14,8 +14,8 @@ python3.10dist-watchfiles \
 python310-watchfiles \
 python3dist-watchfiles"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 python-abi \

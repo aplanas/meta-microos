@@ -10,7 +10,7 @@ RPM_HASH = "869e64eecec73dcad48d0d8830ddc7c2f2d98e5d30299817909e84f9ea07a8388756
 RPROVIDES:${PN} += "pipewire-pulseaudio \
 pulseaudio-daemon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libpipewire-0-3-0 \
 pipewire \
 pulseaudio-setup \

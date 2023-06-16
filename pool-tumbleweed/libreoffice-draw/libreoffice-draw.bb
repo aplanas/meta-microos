@@ -11,7 +11,7 @@ RPM_HASH = "868859b5e0ec066ddba5747020147cf7a512549422f64050482944c1d40fee5f540c
 RPROVIDES:${PN} += "libpdfimportlo.so \
 libreoffice-draw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

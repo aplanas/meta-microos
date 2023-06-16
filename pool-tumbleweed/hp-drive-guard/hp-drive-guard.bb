@@ -17,7 +17,7 @@ RPM_HASH = "49427681c868f7ee79397279e2ad59d99ff2e81e0e4ca656fca78ac7572c3ccfa55e
 RPROVIDES:${PN} += "config-hp-drive-guard \
 hp-drive-guard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

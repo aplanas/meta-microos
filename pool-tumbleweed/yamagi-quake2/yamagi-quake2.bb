@@ -14,7 +14,7 @@ RPM_HASH = "2e0fdaa302335d217a9e0f7e00ec948c64a3339bb27840b806d238ce2b9fdd3ab317
 
 RPROVIDES:${PN} += "yamagi-quake2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libOpenGL.so.0 \
 libSDL2-2.0.so.0 \

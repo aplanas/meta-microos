@@ -9,6 +9,6 @@ RPM_HASH = "386e25ed4a453e767330be73dc3b2e6d31d38d6a2fe9ef5a8a76a186ddf593bfb409
 
 RPROVIDES:${PN} += "orthanc-source"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

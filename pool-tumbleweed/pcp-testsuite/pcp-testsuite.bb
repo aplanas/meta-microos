@@ -11,10 +11,10 @@ RPROVIDES:${PN} += "pcp-testsuite \
 perl-Slurm \
 perl-Slurm--Hostlist"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libc.so.6 \

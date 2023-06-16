@@ -11,7 +11,7 @@ RPM_HASH = "49086cf2e52f92c5a5786e6c23f6f69c51f0228ca10b2352ccdacd4705b4fdcb00a7
 
 RPROVIDES:${PN} += "libnetcdf-fortran-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libnetcdf-fortran-4-5-3-gnu-mpich-hpc"
 
 inherit rpm

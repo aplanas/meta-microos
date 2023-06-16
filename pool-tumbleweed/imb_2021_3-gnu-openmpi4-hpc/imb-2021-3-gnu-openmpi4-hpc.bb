@@ -11,7 +11,7 @@ RPM_HASH = "7204bca734d494ff8b607b0b2daddbfd7c14f1692b4895a92b193e179df66180234c
 
 RPROVIDES:${PN} += "imb-2021-3-gnu-openmpi4-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 libc.so.6 \
 libgcc-s.so.1 \

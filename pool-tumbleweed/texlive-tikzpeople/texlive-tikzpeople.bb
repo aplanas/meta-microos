@@ -46,7 +46,7 @@ tex-tikzpeople.shape.surgeon.sty \
 tex-tikzpeople.sty \
 texlive-tikzpeople"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-currfile-abspath.sty \
 tex-currfile.sty \
 texlive-currfile"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

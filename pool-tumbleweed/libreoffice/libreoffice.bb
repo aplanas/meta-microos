@@ -154,7 +154,7 @@ libxmlreaderlo.so \
 libxmlsecurity.so \
 libxsec-xmlsec.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
 libSM.so.6 \

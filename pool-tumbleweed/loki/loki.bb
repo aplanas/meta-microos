@@ -12,8 +12,8 @@ RPM_HASH = "b06abb6309338c8af4237836ed87aef0e1705ff5a0e964f2638db94894dcc7979726
 RPROVIDES:${PN} += "config-loki \
 loki"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 group-loki \

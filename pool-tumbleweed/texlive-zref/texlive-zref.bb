@@ -52,7 +52,7 @@ tex-zref-xr.sty \
 tex-zref.sty \
 texlive-zref"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

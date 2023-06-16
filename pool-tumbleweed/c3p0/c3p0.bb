@@ -18,7 +18,7 @@ mvn-c3p0-c3p0-pom- \
 mvn-com.mchange-c3p0 \
 mvn-com.mchange-c3p0-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 mchange-commons \

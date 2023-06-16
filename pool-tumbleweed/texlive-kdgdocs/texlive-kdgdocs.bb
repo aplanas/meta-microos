@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-kdgcoursetext.cls \
 tex-kdgmasterthesis.cls \
 texlive-kdgdocs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

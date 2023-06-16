@@ -15,8 +15,8 @@ RPM_HASH = "05222dc44c3088aac89131dec18fc794903a155ed17e5ca4868812ec4613259b46ad
 RPROVIDES:${PN} += "libconfig++-devel \
 pkgconfig-libconfig++"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libconfig++11 \
 libconfig-devel"
 

@@ -10,7 +10,7 @@ RPM_HASH = "97c2b1f43ba0f8555bd780b183c97e954dcfb3897f61446f194136111a8a640b87d6
 RPROVIDES:${PN} += "ghc-bitvec-devel \
 ghc-devel-bitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bitvec \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \

@@ -10,7 +10,7 @@ RPM_HASH = "be901ca359150fa70522de93cb3a2edcd3596c569a17b49ad4b879fef38bc4cba25f
 
 RPROVIDES:${PN} += "pavumeter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libatkmm-1.6.so.1 \
 libc.so.6 \

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-beamercolorthemeMedStarColors.sty \
 tex-medstarbeamer.cls \
 texlive-medstarbeamer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

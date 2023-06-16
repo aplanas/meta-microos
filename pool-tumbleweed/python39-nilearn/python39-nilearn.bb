@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "python3.9dist-nilearn \
 python39-nilearn \
 python3dist-nilearn"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 python-abi \
 python39-joblib \
 python39-matplotlib \

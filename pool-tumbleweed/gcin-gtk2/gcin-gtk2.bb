@@ -10,7 +10,7 @@ RPM_HASH = "dd30614f440a3e1a40e12b3aa5214009874f5bbd4004ddfa35d092088a0ff594b0bd
 RPROVIDES:${PN} += "gcin-gtk2 \
 gcin-gtk2-immodule"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gcin \
 gtk2-tools \
 libc.so.6 \

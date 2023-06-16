@@ -144,7 +144,7 @@ font-xcharter \
 font-xchartermath \
 texlive-xcharter-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

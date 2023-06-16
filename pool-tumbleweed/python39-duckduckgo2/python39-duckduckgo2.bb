@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-duckduckgo2 \
 python39-duckduckgo2 \
 python3dist-duckduckgo2"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

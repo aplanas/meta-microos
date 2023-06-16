@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-hatch-jupyter-builder \
 python39-hatch-jupyter-builder \
 python3dist-hatch-jupyter-builder"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39-hatchling"

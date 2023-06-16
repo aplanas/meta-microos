@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.9dist-devpi-client \
 python39-devpi-client \
 python3dist-devpi-client"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-build \
 python39-check-manifest \

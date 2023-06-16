@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-ajc2020unofficial.bbx \
 tex-ajc2020unofficial.cbx \
 texlive-biblatex-ajc2020unofficial"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

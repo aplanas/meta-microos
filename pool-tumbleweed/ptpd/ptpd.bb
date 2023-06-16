@@ -16,7 +16,7 @@ RPM_HASH = "6073d3cf398b5d2c0b0f4fbd2f354dc7b3f25f65d4dafede4925965985d0f93fa446
 RPROVIDES:${PN} += "config-ptpd \
 ptpd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

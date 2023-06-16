@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-hitszthesis.cls \
 tex-hitszthesis.sty \
 texlive-hitszthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -84,7 +84,7 @@ tex-ectiup3583.tfm \
 tex-ectiup3583.vf \
 texlive-cmtiup"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

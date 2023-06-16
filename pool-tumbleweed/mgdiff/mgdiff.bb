@@ -18,8 +18,8 @@ RPM_HASH = "c881db214a0f05f2980b081c36cacb31dcec622a44777237e6f23dc4b8039386eb2d
 
 RPROVIDES:${PN} += "mgdiff"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXm.so.4 \

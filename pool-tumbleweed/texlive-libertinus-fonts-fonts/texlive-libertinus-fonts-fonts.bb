@@ -194,7 +194,7 @@ font-libertinusserifsemibold \
 font-libertinusserifsemibolditalic \
 texlive-libertinus-fonts-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

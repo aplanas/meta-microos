@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-ephemeral-port-reserve \
 python311-ephemeral-port-reserve \
 python3dist-ephemeral-port-reserve"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

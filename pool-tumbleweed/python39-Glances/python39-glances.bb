@@ -17,8 +17,8 @@ python39-Glances \
 python39-glances \
 python3dist-glances"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-bottle \
 python39-defusedxml \

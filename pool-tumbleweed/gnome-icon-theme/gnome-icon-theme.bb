@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "gnome-icon-theme \
 gnome-icon-theme-devel \
 pkgconfig-gnome-icon-theme"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 gtk3-tools"
 
 inherit rpm

@@ -59,7 +59,7 @@ libwow-x64.so \
 libwow.so \
 mumble"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libPocoFoundation.so.92 \
 libPocoXML.so.92 \

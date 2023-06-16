@@ -20,7 +20,7 @@ tex-schulma-praes.cls \
 tex-schulma.sty \
 texlive-schulmathematik"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

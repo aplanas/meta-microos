@@ -23,7 +23,7 @@ tex-nswissgerman.ldf \
 tex-swissgerman.ldf \
 texlive-babel-german"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

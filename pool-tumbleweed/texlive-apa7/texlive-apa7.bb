@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-APA7endfloat.cfg \
 tex-apa7.cls \
 texlive-apa7"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

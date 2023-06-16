@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-chairxmath.sty \
 tex-nchairx.sty \
 texlive-nchairx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

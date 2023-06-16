@@ -16,8 +16,8 @@ python3.10dist-nbclient \
 python310-nbclient \
 python3dist-nbclient"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python310-jupyter-client \

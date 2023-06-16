@@ -11,7 +11,7 @@ RPM_HASH = "c4d86332e501ce73e911b9f564de0ca11230acfefbe0002389a30d5afc4440710754
 RPROVIDES:${PN} += "config-usbauth \
 usbauth"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

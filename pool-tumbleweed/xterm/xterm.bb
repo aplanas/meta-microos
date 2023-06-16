@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "XFree86-/usr/X11R6/bin/xterm \
 xorg-x11-/usr/X11R6/bin/xterm \
 xterm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 luit \

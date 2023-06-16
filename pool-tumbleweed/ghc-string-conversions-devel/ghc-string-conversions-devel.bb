@@ -11,7 +11,7 @@ RPM_HASH = "9815494a311e564875c47dd2a4f6b4e9c0a15b2c640a7320bf89fba0c5b89edb3208
 RPROVIDES:${PN} += "ghc-devel-string-conversions-0.4.0.1-B4OFWvpC4GeAVPq9bBfwkx \
 ghc-string-conversions-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

@@ -17,8 +17,8 @@ python3.10dist-jupyter-server \
 python310-jupyter-server \
 python3dist-jupyter-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python310 \

@@ -41,7 +41,7 @@ tex-x2-miama.enc \
 tex-x2fmm.fd \
 texlive-miama"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

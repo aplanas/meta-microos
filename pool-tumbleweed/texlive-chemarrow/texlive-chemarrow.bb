@@ -16,7 +16,7 @@ tex-chemarrow.map \
 tex-chemarrow.sty \
 texlive-chemarrow"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

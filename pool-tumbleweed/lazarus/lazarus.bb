@@ -12,9 +12,9 @@ RPM_HASH = "f4e086ea0f65840ffb819d36da3296f15b7ffd38063dc221e900bc581f2c6155a0cb
 RPROVIDES:${PN} += "config-lazarus \
 lazarus"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/instantfpc \
+/usr/bin/sh \
 binutils \
 desktop-file-utils \
 fpc \

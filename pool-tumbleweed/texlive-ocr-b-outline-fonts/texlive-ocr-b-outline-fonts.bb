@@ -39,7 +39,7 @@ font-ocrb8 \
 font-ocrb9 \
 texlive-ocr-b-outline-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

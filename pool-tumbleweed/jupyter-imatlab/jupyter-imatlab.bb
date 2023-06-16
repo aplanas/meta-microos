@@ -18,7 +18,7 @@ python3-jupyter-imatlab-kernel \
 python3.10dist-imatlab \
 python3dist-imatlab"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 python3-ipykernel \
 python3-nbconvert \

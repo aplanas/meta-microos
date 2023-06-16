@@ -80,10 +80,9 @@ cmake-Zoltan \
 cmake-Zoltan2Core \
 trilinos-devel"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 glpk-devel \
 hdf5-devel \
 lapack-devel \

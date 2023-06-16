@@ -11,7 +11,7 @@ RPM_HASH = "59c96087ba1f52d49024ca45f667c123de04339b7b66d5087ed987347d51b409c3ee
 
 RPROVIDES:${PN} += "bbe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6"

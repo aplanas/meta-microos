@@ -19,8 +19,8 @@ RPM_HASH = "c5894f59c6fdb8be3e9947ee8ba7ea836f48c31ade770d1500447406c2e59cd39b18
 RPROVIDES:${PN} += "libbrlapi.so.0.8 \
 libbrlapi0-8"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 coreutils \
 group-brlapi \
 ld-linux-aarch64.so.1 \

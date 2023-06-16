@@ -11,7 +11,7 @@ RPM_HASH = "606089e8fc35c85df6fb15ad7be9d216610d4a538d4e628006f5f55da08706fa02aa
 RPROVIDES:${PN} += "config-goaccess \
 goaccess"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmaxminddb.so.0 \

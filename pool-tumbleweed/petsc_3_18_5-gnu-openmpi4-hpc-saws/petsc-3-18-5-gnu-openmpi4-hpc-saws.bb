@@ -11,7 +11,7 @@ RPM_HASH = "bad1c16dd907403c818a02ee9c91475f4ab91d4af35ce67d07d222f6fd20cd6ab618
 
 RPROVIDES:${PN} += "petsc-3-18-5-gnu-openmpi4-hpc-saws"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 libpetsc-3-18-5-gnu-openmpi4-hpc"
 

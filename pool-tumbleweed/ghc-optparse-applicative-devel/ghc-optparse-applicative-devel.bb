@@ -11,7 +11,7 @@ RPM_HASH = "7f0cdd69c33864e4c30b029e3a23674ab8debd0b1db85696a3615124663012e52932
 RPROVIDES:${PN} += "ghc-devel-optparse-applicative-0.17.0.0-FKlMMFcKpwNJEuIq63gWOB \
 ghc-optparse-applicative-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-ansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI \
 ghc-devel-base-4.17.1.0 \

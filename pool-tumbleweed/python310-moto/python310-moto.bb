@@ -14,8 +14,8 @@ python310-moto \
 python3dist-moto"
 
 RDEPENDS:${PN} += "-python310-python-dateutil >= 2.1 with python310-python-dateutil < 3 \
-/bin/sh \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Jinja2 \
 python310-Werkzeug \

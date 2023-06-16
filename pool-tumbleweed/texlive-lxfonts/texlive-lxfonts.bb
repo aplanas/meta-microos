@@ -50,7 +50,7 @@ tex-ulmsa.fd \
 tex-ulmsb.fd \
 texlive-lxfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

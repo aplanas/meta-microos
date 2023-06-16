@@ -10,7 +10,7 @@ RPM_HASH = "d5f9e5086a1568ecba2e073922bd56d8563047f80aa87f64f0b2169a8c860ce622dc
 RPROVIDES:${PN} += "ghc-devel-skein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO \
 ghc-skein-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

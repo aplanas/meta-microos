@@ -11,7 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale-texlive-pst-mirror-doc-fr \
 texlive-pst-mirror-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

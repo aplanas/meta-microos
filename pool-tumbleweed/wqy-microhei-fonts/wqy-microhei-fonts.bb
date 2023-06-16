@@ -192,7 +192,7 @@ scalable-font-zh-TW \
 ttf-wqy-microhei \
 wqy-microhei-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

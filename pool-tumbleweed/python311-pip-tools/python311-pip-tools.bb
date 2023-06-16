@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pip-tools \
 python311-pip-tools \
 python3dist-pip-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-build \
 python311-click \

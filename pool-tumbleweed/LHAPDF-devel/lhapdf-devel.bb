@@ -14,7 +14,7 @@ RPM_HASH = "fa3f9a6e63e7b3dd69b50aff26db06853e2f867eb67d9f11d0bc7ad4b2f6345b2b41
 RPROVIDES:${PN} += "LHAPDF-devel \
 pkgconfig-lhapdf"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 /usr/bin/python3 \
 libLHAPDF-6-5-4"

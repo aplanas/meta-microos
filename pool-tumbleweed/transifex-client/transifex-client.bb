@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.10dist-transifex-client \
 python3dist-transifex-client \
 transifex-client"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-python-slugify \
 python3-requests \

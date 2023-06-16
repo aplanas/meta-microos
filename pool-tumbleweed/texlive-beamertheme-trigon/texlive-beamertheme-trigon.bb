@@ -31,7 +31,7 @@ tex-beamerouterthemetrigon.sty \
 tex-beamerthemetrigon.sty \
 texlive-beamertheme-trigon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

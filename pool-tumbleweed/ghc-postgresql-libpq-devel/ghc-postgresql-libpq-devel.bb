@@ -11,7 +11,7 @@ RPM_HASH = "9469e4dcc68d294ae1bd02e41eb6a9e9eca96db08073add9012c987c8d8d109ef566
 RPROVIDES:${PN} += "ghc-devel-postgresql-libpq-0.9.5.0-EniLDQI99PgI2VDyTYHGox \
 ghc-postgresql-libpq-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

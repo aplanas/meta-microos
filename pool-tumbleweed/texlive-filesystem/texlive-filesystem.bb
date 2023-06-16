@@ -11,8 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-texlive-filesystem \
 texlive-filesystem"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/clear \
 /usr/bin/dialog \
 /usr/bin/mkdir \
@@ -20,6 +19,7 @@ RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/mv \
 /usr/bin/perl \
 /usr/bin/setpriv \
+/usr/bin/sh \
 /usr/bin/stat \
 /usr/bin/touch \
 coreutils \

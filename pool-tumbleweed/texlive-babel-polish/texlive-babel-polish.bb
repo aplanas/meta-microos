@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-polish-compat.ldf \
 tex-polish.ldf \
 texlive-babel-polish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

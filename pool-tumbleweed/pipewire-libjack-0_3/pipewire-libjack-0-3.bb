@@ -22,7 +22,7 @@ libjacknet.so.0 \
 libjackserver.so.0 \
 pipewire-libjack-0-3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpipewire-0.3.so.0 \

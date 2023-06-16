@@ -13,7 +13,7 @@ RPM_HASH = "4bf98cd32c5373b8a5e6f8fb89f96275a53d4fe884a897cde1c63cca2303f2dc9e21
 RPROVIDES:${PN} += "xbase-devel \
 xbase64-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libstdc++-devel \
 xbase"
 

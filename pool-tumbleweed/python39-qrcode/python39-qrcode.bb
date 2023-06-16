@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-qrcode \
 python39-qrcode \
 python3dist-qrcode"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-setuptools \
 update-alternatives"

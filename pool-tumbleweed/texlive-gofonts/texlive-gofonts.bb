@@ -197,7 +197,7 @@ tex-go-zwiz3b.enc \
 tex-go.map \
 texlive-gofonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

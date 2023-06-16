@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-lxde-common-branding-openSUSE \
 lxde-common-branding \
 lxde-common-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 desktop-data-openSUSE \
 gtk2-metatheme-adwaita \
 gtk3-metatheme-adwaita \

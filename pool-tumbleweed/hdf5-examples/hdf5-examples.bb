@@ -12,6 +12,6 @@ RPM_HASH = "00555d4051f504ca65d7e2b6a7e0d2bf5acfe9e650eb3f1c564420585ffcb1946176
 
 RPROVIDES:${PN} += "hdf5-examples"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

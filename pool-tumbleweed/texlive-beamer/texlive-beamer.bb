@@ -142,7 +142,7 @@ tex-multimediasymbols.sty \
 tex-xmpmulti.sty \
 texlive-beamer"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ python3.10dist-unittest2pytest \
 python310-unittest2pytest \
 python3dist-unittest2pytest"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

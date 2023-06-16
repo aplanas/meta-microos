@@ -18,7 +18,7 @@ tex-prodint.sty \
 tex-prodint.tfm \
 texlive-prodint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

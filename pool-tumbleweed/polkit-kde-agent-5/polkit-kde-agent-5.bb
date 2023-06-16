@@ -9,7 +9,7 @@ RPM_HASH = "ed4bb0091233b73905d179815c340f2dc7cdbae08965b0c86d58e9aa7331e76ddc82
 
 RPROVIDES:${PN} += "polkit-kde-agent-5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5CoreAddons.so.5 \
 libKF5Crash.so.5 \

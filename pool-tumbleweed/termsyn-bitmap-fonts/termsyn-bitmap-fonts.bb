@@ -33,7 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "termsyn-bitmap-fonts \
 termsyn-font"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

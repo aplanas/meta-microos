@@ -713,7 +713,7 @@ tex-sourcecodepro-type1-autoinst.sty \
 tex-sourcecodepro.sty \
 texlive-sourcecodepro"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

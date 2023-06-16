@@ -41,7 +41,7 @@ tex-pst-flags-colors-html.sty \
 tex-pst-flags.sty \
 texlive-pst-flags"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ RPM_HASH = "bb43e8084d4ae9ee60f57eaae1e11a5db2fb27b337026c0c148f7c2b16d00adf70b4
 RPROVIDES:${PN} += "config-spacefm \
 spacefm"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

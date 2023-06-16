@@ -17,8 +17,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-lua51-luarocks \
 lua51-luarocks"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.1 \
+RDEPENDS:${PN} += "/usr/bin/lua5.1 \
+/usr/bin/sh \
 curl \
 lua51 \
 openssl \

@@ -20,8 +20,8 @@ python310-reCommonMark \
 python310-recommonmark \
 python3dist-recommonmark"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-CommonMark \
 python310-Sphinx \

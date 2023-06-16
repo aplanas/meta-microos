@@ -13,8 +13,8 @@ python3.10dist-getmac \
 python310-getmac \
 python3dist-getmac"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

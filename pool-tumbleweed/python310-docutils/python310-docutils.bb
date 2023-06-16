@@ -16,8 +16,8 @@ python3.10dist-docutils \
 python310-docutils \
 python3dist-docutils"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-packaging \
 python310-xml \

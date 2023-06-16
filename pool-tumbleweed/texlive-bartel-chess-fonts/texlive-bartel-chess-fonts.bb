@@ -32,7 +32,7 @@ tex-pkelch8.tfm \
 tex-pkelch9.tfm \
 texlive-bartel-chess-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

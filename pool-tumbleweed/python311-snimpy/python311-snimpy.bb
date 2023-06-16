@@ -30,8 +30,8 @@ RPROVIDES:${PN} += "python3.11dist-snimpy \
 python311-snimpy \
 python3dist-snimpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsmi.so.2 \

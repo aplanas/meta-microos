@@ -30,8 +30,8 @@ perl-Autom4te--Getopt \
 perl-Autom4te--Request \
 perl-Autom4te--XFile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 info \
 m4 \
 perl-base"

@@ -12,7 +12,7 @@ RPM_HASH = "99bdf1fa951f65ce325b6f7affab6db897376b64e4f06b693845dc5767a9f8e548b7
 
 RPROVIDES:${PN} += "krb5-client"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcom-err.so.2 \

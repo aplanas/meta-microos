@@ -10,7 +10,7 @@ RPM_HASH = "9d1fe7aaff9843b48cc8a64309696f86dc5e7cbd40dc811d0bcdcbb10de0b8f59f9a
 RPROVIDES:${PN} += "config-slurm-slurmdbd \
 slurm-slurmdbd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libslurmfull.so \

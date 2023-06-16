@@ -34,7 +34,7 @@ tex-siunitx-version-1.cfg \
 tex-siunitx.sty \
 texlive-siunitx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

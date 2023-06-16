@@ -13,7 +13,7 @@ tex-sduthesis-statement.def \
 tex-sduthesis.cls \
 texlive-sduthesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

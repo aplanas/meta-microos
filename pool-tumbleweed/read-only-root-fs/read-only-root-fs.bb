@@ -19,10 +19,10 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-read-only-root-fs \
 read-only-root-fs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/cat \
+RDEPENDS:${PN} += "/usr/bin/cat \
 /usr/bin/mkdir \
 /usr/bin/sed \
+/usr/bin/sh \
 dracut \
 gawk \
 snapper"

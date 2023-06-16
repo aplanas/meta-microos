@@ -38,9 +38,9 @@ wine \
 wine-mp3 \
 wine-staging"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libFAudio.so.0 \
 libGL.so.1 \

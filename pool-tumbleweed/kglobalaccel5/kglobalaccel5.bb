@@ -11,7 +11,7 @@ RPM_HASH = "b21e949a21fb328418beb2a0e5c60ab715b8ddc7c99fd5978d39ff26e137d8d9981f
 
 RPROVIDES:${PN} += "kglobalaccel5"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5CoreAddons.so.5 \
 libKF5Crash.so.5 \

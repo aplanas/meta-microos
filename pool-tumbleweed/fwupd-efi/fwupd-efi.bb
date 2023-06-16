@@ -14,7 +14,7 @@ RPM_HASH = "e3d437c876e0351b91395ef5e9d5eba5a8f36e79a3e008a01939ea73e05d304d5610
 
 RPROVIDES:${PN} += "fwupd-efi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 shim"
 
 inherit rpm

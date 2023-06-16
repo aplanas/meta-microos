@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-libvirt-daemon-driver-nwfilter \
 libvirt-daemon-driver-nwfilter \
 libvirt-driver-nwfilter.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ebtables \
 iptables \
 ld-linux-aarch64.so.1 \

@@ -16,8 +16,8 @@ libJIS.so \
 libJISX0213.so \
 libKSC.so"
 
-RDEPENDS:${PN} += "/bin/cat \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/cat \
+/usr/bin/sh \
 glibc \
 ld-linux-aarch64.so.1 \
 libc.so.6"

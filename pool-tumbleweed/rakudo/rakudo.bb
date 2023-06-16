@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "libperl6-ops-moar.so \
 perl6 \
 rakudo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmoar.so \

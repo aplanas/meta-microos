@@ -11,9 +11,9 @@ RPM_HASH = "5675884786d06c04dc3baad9011e6cc509da24c919985c04a154ef91d79549855440
 
 RPROVIDES:${PN} += "yast2-storage-ng"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 findutils \

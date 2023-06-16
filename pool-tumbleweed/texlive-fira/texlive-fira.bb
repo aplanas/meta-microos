@@ -2126,7 +2126,7 @@ tex-fir-znzycj.enc \
 tex-fira.map \
 texlive-fira"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

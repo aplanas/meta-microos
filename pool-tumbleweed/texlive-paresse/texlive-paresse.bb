@@ -16,7 +16,7 @@ tex-paresse-utf8.sty \
 tex-paresse.sty \
 texlive-paresse"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

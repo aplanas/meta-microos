@@ -10,7 +10,7 @@ RPM_HASH = "407961e62041486f389cd740ad20f3e01e4f5aefb098809a4e60f8f1969c62bdec7f
 RPROVIDES:${PN} += "config-osmo-sip-connector \
 osmo-sip-connector"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

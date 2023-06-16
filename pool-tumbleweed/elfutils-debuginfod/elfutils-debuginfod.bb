@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "elfutils-debuginfod \
 group-debuginfod \
 user-debuginfod"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 debuginfod-client \
 elfutils \

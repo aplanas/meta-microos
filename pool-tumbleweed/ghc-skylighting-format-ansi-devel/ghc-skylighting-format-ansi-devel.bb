@@ -11,7 +11,7 @@ RPM_HASH = "da52e45a696c2f213bbff8b2ec36fab6232c45d38351aee0008c8bd184466666c51a
 RPROVIDES:${PN} += "ghc-devel-skylighting-format-ansi-0.1-37mK2ZS7ued5gd5quPggBj \
 ghc-skylighting-format-ansi-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
 ghc-devel-base-4.17.1.0 \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-netpbmfile \
 python39-netpbmfile \
 python3dist-netpbmfile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-matplotlib \
 python39-numpy \

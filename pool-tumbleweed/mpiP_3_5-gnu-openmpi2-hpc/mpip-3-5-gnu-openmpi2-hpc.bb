@@ -15,9 +15,9 @@ RPM_HASH = "5810164d7e8cea62ffee760d5b41c7a22761ae5558f427b887246dfe4f05684777b7
 
 RPROVIDES:${PN} += "mpiP-3-5-gnu-openmpi2-hpc"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 gnu-compilers-hpc \
 libc.so.6 \
 libm.so.6 \

@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-arabluatex-patch.sty \
 tex-arabluatex.sty \
 texlive-arabluatex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

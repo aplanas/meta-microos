@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "apache-rex \
 rpm-macro-apache-rex-check \
 rpm-macro-apache-rex-deps"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 apache2-devel \
 apache2-utils \
 curl \

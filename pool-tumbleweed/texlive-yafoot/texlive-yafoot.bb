@@ -15,7 +15,7 @@ tex-fnpos.sty \
 tex-pfnote.sty \
 texlive-yafoot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

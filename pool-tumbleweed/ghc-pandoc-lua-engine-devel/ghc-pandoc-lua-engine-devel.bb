@@ -11,7 +11,7 @@ RPM_HASH = "9372ae74b22732f2096d5e4c18f3927eab2a204876d2cf404fdbc6629a0eb24993c8
 RPROVIDES:${PN} += "ghc-devel-pandoc-lua-engine-0.2-gHKByFrhtS8PSSuk3TZxt \
 ghc-pandoc-lua-engine-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.11dist-textx \
 python311-textX \
 python3dist-textx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-Arpeggio \
 python311-click \

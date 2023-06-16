@@ -55,7 +55,7 @@ tex-tkz-tools-lua-intersections.tex \
 tex-tkz-tools-lua-math.tex \
 texlive-tkz-euclide"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

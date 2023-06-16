@@ -11,8 +11,8 @@ RPM_HASH = "02726f0c2c208df001505951c561706cc0c9da5198346c00fb9b25ba7ff039cdc826
 RPROVIDES:${PN} += "config-proftpd \
 proftpd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 group-ftp \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \

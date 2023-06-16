@@ -23,7 +23,7 @@ tex-uzd.map \
 tex-uzdr.tfm \
 texlive-zapfding"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

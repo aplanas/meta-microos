@@ -16,8 +16,8 @@ RPM_HASH = "8fb56aa95c17b6f8f1de1685109671df2d92143d31967def9a8b9136492f362a26ab
 
 RPROVIDES:${PN} += "qemu"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 acl \
 coreutils \
 group-kvm \

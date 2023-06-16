@@ -19,7 +19,7 @@ tex-eepicemu.sty \
 tex-epic.sty \
 texlive-eepic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

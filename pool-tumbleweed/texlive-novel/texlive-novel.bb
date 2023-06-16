@@ -35,7 +35,7 @@ tex-novel-xmppacket.sty \
 tex-novel.cls \
 texlive-novel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

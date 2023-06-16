@@ -11,7 +11,7 @@ RPROVIDES:${PN} += "bogofilter-backend \
 bogofilter-kyotocabinet \
 bogofilter-tokyocabinet"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 bogofilter-common \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

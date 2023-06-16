@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-bibleref-xidx.sty \
 tex-bibleref.sty \
 texlive-bibleref"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

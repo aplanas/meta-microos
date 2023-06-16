@@ -12,9 +12,9 @@ RPM_HASH = "003326276179f78ccc9a10da0c0ee13049b32dadd42986d7ee594ec5e3587a4839c9
 RPROVIDES:${PN} += "avr-programmer \
 uisp"
 
-RDEPENDS:${PN} += "/bin/cat \
-/bin/sh \
-/sbin/modprobe \
+RDEPENDS:${PN} += "/sbin/modprobe \
+/usr/bin/cat \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

@@ -12,7 +12,7 @@ RPM_HASH = "620aba3477eeb503cfb8bb92817cdcc14c1554ea4e903ba2b28088dd060dc6b78964
 
 RPROVIDES:${PN} += "galculator"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

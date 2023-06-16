@@ -106,7 +106,7 @@ font--lang=zu \
 font-urwgothicl \
 texlive-avantgar-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

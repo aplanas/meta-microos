@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-menukeys-2020-12-19.sty \
 tex-menukeys.sty \
 texlive-menukeys"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ python311-Cheroot \
 python311-cheroot \
 python3dist-cheroot"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311-jaraco.functools \

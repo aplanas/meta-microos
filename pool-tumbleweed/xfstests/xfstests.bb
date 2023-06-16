@@ -10,9 +10,9 @@ RPM_HASH = "19622447cad7c17352ad3285da2c391e186b20d7fce7c2cd5a6f20aa2ecdcd803c71
 
 RPROVIDES:${PN} += "xfstests"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 acl \
 attr \
 bash \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pgf-pie.sty \
 tex-tikzlibrarypie.code.tex \
 texlive-pgf-pie"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

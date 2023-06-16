@@ -12,7 +12,7 @@ RPM_HASH = "2d799f64559623fb9d541284d01afa119e9133d28bc02e15764430562534756b5003
 RPROVIDES:${PN} += "lightdm-greeter \
 lightdm-gtk-greeter"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

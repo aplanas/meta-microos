@@ -12,7 +12,7 @@ distcc-server \
 python3.10dist-include-server \
 python3dist-include-server"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 distcc \
 ld-linux-aarch64.so.1 \
 libavahi-client.so.3 \

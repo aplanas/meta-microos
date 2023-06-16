@@ -17,7 +17,7 @@ tex-SIunits.sty \
 tex-binary.sty \
 texlive-siunits"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

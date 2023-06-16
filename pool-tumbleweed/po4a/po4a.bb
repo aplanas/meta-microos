@@ -52,8 +52,8 @@ perl-Locale--Po4a--Xml \
 perl-Locale--Po4a--Yaml \
 po4a"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 gettext-tools \
 perl--MODULE-COMPAT-5.36.0 \
 perl-Pod--Parser \

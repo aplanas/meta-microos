@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-apacdoc.sty \
 tex-apacite.sty \
 texlive-apacite"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

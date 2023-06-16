@@ -15,7 +15,7 @@ tex-scsnowman.sty \
 tex-sctkzsym-base.sty \
 texlive-scsnowman"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

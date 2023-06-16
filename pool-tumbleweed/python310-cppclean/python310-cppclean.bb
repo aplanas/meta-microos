@@ -17,8 +17,8 @@ python3.10dist-cppclean \
 python310-cppclean \
 python3dist-cppclean"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -147,7 +147,7 @@ font--lang=zu \
 font-stixgeneral \
 stix-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

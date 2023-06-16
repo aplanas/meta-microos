@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-xmltex.cfg \
 tex-xmltex.tex \
 texlive-xmltex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

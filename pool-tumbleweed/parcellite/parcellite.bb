@@ -15,7 +15,7 @@ RPM_HASH = "30b12128b0da8be47d69caa7912180953c3dcbdd0f15d72121807337b4025890841a
 RPROVIDES:${PN} += "config-parcellite \
 parcellite"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

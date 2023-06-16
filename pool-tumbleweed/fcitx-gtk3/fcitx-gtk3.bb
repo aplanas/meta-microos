@@ -9,7 +9,7 @@ RPM_HASH = "ff54bc0d447364e61222d22f385b3f5c5e3fdccf4178e5d467069a3799fb5963d013
 
 RPROVIDES:${PN} += "fcitx-gtk3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk3-tools \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

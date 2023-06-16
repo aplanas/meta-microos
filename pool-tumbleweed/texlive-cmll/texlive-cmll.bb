@@ -53,7 +53,7 @@ tex-ucmllss.fd \
 tex-ueull.fd \
 texlive-cmll"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-inlinebib.sty \
 tex-pageranges.sty \
 texlive-inlinebib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

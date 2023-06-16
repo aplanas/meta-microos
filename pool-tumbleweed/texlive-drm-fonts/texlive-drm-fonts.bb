@@ -433,7 +433,7 @@ font-drmuibx8 \
 font-drmuibx9 \
 texlive-drm-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

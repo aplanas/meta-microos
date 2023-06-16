@@ -13,7 +13,7 @@ RPM_HASH = "3abf04f60b351f991e6b1712837ce169ea1ee8fceb3f1f3c652e9648f8620f9254ab
 
 RPROVIDES:${PN} += "netcdf-openmpi3-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hdf5-openmpi3-devel \
 libcurl-devel \
 libnetcdf19-openmpi3 \

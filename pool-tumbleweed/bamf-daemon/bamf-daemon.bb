@@ -13,7 +13,7 @@ RPM_HASH = "ce814b7e19d48b4b7db08565d13f57e5b7c13524ea869083b3babe5ca68512c8958d
 
 RPROVIDES:${PN} += "bamf-daemon"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libbamf3-2 \

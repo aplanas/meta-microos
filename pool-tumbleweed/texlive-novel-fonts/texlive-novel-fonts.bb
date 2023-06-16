@@ -118,7 +118,7 @@ font--lang=zu \
 font-noveldeco \
 texlive-novel-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

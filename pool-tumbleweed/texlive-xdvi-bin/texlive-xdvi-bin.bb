@@ -9,7 +9,7 @@ RPM_HASH = "0ccccd7fb2213ed47fee7a51cf752edb5f81f7f80b5f5a85cbbef0ea84d4a5dde8cc
 
 RPROVIDES:${PN} += "texlive-xdvi-bin"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXaw3d.so.8 \

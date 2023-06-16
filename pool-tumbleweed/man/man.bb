@@ -14,8 +14,8 @@ libmandb-2.10.2.so \
 man \
 man-db"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 fillup \
 glibc-locale-base \

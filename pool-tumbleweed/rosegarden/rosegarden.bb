@@ -15,11 +15,11 @@ RPM_HASH = "7d6bd9c12edaf7dbac9fa0229ee7bced9fc3a80fb5432170ac787611598698afa009
 RPROVIDES:${PN} += "librosegardenprivate.so \
 rosegarden"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
 /usr/bin/ruby \
+/usr/bin/sh \
 dssi \
 ladspa \
 ladspa-swh-plugins \

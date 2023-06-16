@@ -16,7 +16,7 @@ tex-datetime2-catalan-utf8.ldf \
 tex-datetime2-catalan.ldf \
 texlive-datetime2-catalan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

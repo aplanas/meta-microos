@@ -21,7 +21,7 @@ tex-eltex6.tex \
 tex-eltex7.tex \
 texlive-eltex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

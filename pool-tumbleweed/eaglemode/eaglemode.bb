@@ -51,8 +51,8 @@ libemXbm.so \
 libemXpm.so \
 perl-PlEx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 abiword \
 binutils \
 bzip2 \

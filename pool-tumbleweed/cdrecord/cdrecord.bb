@@ -12,7 +12,7 @@ RPM_HASH = "cf459a62fdd37682ccfc5a399223db4b50405ea2d96981a41fc3b1c0640ba28d8fe2
 RPROVIDES:${PN} += "cdrecord \
 config-cdrecord"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

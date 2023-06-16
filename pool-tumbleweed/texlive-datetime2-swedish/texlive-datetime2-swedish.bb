@@ -16,7 +16,7 @@ tex-datetime2-swedish-utf8.ldf \
 tex-datetime2-swedish.ldf \
 texlive-datetime2-swedish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

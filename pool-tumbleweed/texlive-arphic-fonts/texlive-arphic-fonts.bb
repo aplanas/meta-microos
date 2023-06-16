@@ -41,7 +41,7 @@ font-arplmingti2lbig5 \
 font-arplsungtilgb \
 texlive-arphic-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

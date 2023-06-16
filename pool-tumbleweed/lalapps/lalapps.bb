@@ -12,7 +12,7 @@ RPM_HASH = "2703be9fa31b1c7258cf7dfac4326aa013f9ad2cfa41eb372bf4d46b88dfd7074c7e
 RPROVIDES:${PN} += "config-lalapps \
 lalapps"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -44,7 +44,7 @@ tex-swedish-apa6.lbx \
 tex-swissgerman-apa6.lbx \
 texlive-biblatex-apa6"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ RPM_HASH = "25d54887354fd8c2ff88b1dc676a6c23804d61d54b9af95059912de21153c82a9881
 RPROVIDES:${PN} += "libtdsodbc.so.0 \
 libtdsodbc0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgmp.so.10 \

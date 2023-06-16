@@ -10,7 +10,7 @@ RPM_HASH = "aaed04081646340a01cd02ef6bed6de604844a5f3713754f43e1bce40426eaf3c82f
 
 RPROVIDES:${PN} += "pcp-pmda-samba"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl-PCP-PMDA"
 
 inherit rpm

@@ -19,8 +19,8 @@ python3.10dist-pyroma \
 python310-pyroma \
 python3dist-pyroma"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Pygments \
 python310-docutils \

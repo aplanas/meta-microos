@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "ifnteuro \
 intlfonts-euro-bitmap-fonts \
 locale-xorg-x11-cs;el"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

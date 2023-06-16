@@ -13,8 +13,8 @@ python3.10dist-yq \
 python310-yq \
 python3dist-yq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 jq \
 python-abi \
 python310-PyYAML \

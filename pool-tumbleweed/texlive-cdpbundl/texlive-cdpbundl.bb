@@ -29,7 +29,7 @@ tex-hp-laserjet-4500.def \
 tex-letteracdp.cls \
 texlive-cdpbundl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

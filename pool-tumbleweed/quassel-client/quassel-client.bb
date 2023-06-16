@@ -15,7 +15,7 @@ RPM_HASH = "20b340961591b249121dafa7e77e2363e6a4066bd609c83895c1e4e504a9ed780a47
 RPROVIDES:${PN} += "quassel-client \
 quassel-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigWidgets.so.5 \
 libKF5CoreAddons.so.5 \

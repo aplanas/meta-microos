@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-zb-basics.sty \
 tex-zbMATH.cls \
 texlive-zbmath-review-template"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

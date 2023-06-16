@@ -19,7 +19,7 @@ RPM_HASH = "f09c502e226cedb13527aa05a183b74b35d88ba501e50b6df78a3a92db1717433d4e
 RPROVIDES:${PN} += "openssh-/usr/bin/ssh \
 openssh-clients"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

@@ -13,9 +13,9 @@ python3.10dist-pre-commit \
 python310-pre-commit \
 python3dist-pre-commit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyYAML \
 python310-cfgv \

@@ -12,7 +12,7 @@ RPM_HASH = "f39937de752477d4492322f8744acfee04ccc029bbd6fde3e9cefcdc46f433ff6864
 
 RPROVIDES:${PN} += "eximon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXaw.so.7 \

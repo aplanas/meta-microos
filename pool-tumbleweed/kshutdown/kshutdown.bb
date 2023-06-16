@@ -13,7 +13,7 @@ RPM_HASH = "76e36e3fcf1981ed141e032e52209544d604ce1be4152710b7fce01b95ac20f5d85c
 
 RPROVIDES:${PN} += "kshutdown"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

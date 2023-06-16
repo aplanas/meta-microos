@@ -15,7 +15,7 @@ RPM_HASH = "868abde5f98b66f9e90ab5b6155f2b41c7809c2b31b2bb504f3ff43677e95ac205c7
 
 RPROVIDES:${PN} += "xorriso-tcltk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/wish \
 tcl \
 tk \

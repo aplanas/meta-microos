@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-SASnRdisplay.cfg \
 tex-SASnRdisplay.sty \
 texlive-sasnrdisplay"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

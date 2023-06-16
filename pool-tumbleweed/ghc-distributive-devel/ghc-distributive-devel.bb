@@ -10,7 +10,7 @@ RPM_HASH = "e6d655e4e0e0beddd61d8bcb26cad9f0cf2b79c31eb1b3c2f842f9ab48facf4b930d
 RPROVIDES:${PN} += "ghc-devel-distributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79 \
 ghc-distributive-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \

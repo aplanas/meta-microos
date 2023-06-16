@@ -13,10 +13,10 @@ RPM_HASH = "b4bef4f4c67b855a5de5b7bdac6ce32492a3086bb92118e77bd9fb727c927fc28a1d
 
 RPROVIDES:${PN} += "ebtables"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/bin/touch \
 alts \
 fillup \

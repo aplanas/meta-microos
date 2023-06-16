@@ -15,6 +15,6 @@ config-baekmuk-ttf-fonts \
 locale-ko \
 scalable-font-ko"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

@@ -23,7 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-calculation.sty \
 texlive-calculation"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

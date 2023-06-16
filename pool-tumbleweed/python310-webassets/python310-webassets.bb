@@ -15,8 +15,8 @@ python3.10dist-webassets \
 python310-webassets \
 python3dist-webassets"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-setuptools \
 update-alternatives"

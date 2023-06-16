@@ -36,8 +36,8 @@ mono-wcf \
 mono-winfxcore-/usr/lib/mono/4.5/System.Data.Services.Client.dll \
 pkgconfig-wcf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 mono-Mono.Security \
 mono-System \
 mono-System.Configuration \

@@ -19,7 +19,7 @@ tex-datetime2-it-fulltext-utf8.ldf \
 tex-datetime2-it-fulltext.sty \
 texlive-datetime2-it-fulltext"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

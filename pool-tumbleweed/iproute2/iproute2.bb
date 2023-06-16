@@ -18,7 +18,7 @@ iproute2 \
 iproute2-doc \
 iproute2-xfrm6-raw"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbpf.so.1 \
 libc.so.6 \

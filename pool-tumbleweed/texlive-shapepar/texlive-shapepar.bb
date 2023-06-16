@@ -28,7 +28,7 @@ tex-shapepar.sty \
 tex-triangleshapes.def \
 texlive-shapepar"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

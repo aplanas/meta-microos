@@ -18,7 +18,7 @@ tex-bithesis.cls \
 tex-bitreport.cls \
 texlive-bithesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -151,7 +151,7 @@ font-coch \
 font-cochineal \
 texlive-cochineal-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

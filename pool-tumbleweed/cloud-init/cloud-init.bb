@@ -13,9 +13,9 @@ config-cloud-init \
 python3.10dist-cloud-init \
 python3dist-cloud-init"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 bash \
 cloud-init-config \
 dhcp-client \

@@ -238,7 +238,7 @@ tex-waree.tfm \
 tex-waree.vf \
 texlive-fonts-tlwg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

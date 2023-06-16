@@ -18,7 +18,7 @@ tex-pigpen.tex \
 tex-pigpen.tfm \
 texlive-pigpen"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

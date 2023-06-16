@@ -23,7 +23,7 @@ RPM_HASH = "eb00acff1893bd6c49f53e05d9b2f80ac0cb9caecd23875ae3f688c4517d5a4ea7aa
 RPROVIDES:${PN} += "boinc-client \
 config-boinc-client"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ca-certificates-mozilla \
 ld-linux-aarch64.so.1 \
 libboinc-crypt.so.7 \

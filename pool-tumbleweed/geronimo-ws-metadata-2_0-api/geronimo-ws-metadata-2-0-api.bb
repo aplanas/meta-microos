@@ -17,7 +17,7 @@ mvn-org.apache.geronimo.specs-geronimo-ws-metadata-2.0-spec-pom- \
 ws-metadata-2-0-api \
 ws-metadata-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

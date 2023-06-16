@@ -10,8 +10,8 @@ RPM_HASH = "9cbf614a968b30deccacecbf4227f87464fa895ada7b71e02a0a7963c82639c10e10
 
 RPROVIDES:${PN} += "pcp-pmda-rabbitmq"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 python3-pcp"
 
 inherit rpm

@@ -11,7 +11,7 @@ RPM_HASH = "6910061e03998a0c8c0b7ad41c2145c6bc5ff483cef54accff3d6121b7e5b1dd9b87
 RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5-4SdcA6z79O7Dp0GdOYFMox \
 ghc-postgresql-simple-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-Only-0.1-ETd5YCT0TwGLbN8rgpgTS8 \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

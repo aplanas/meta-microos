@@ -18,7 +18,7 @@ RPM_HASH = "da5f95d2ddd5e763244f90bc620905696b6fead2c8848243f36fa241fd68a77d3cb8
 RPROVIDES:${PN} += "config-pam-mount \
 pam-mount"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 device-mapper \
 fd0ssh \

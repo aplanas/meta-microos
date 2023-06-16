@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "libcinnamon-desktop-data-branding \
 libcinnamon-desktop-data-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 adwaita-icon-theme \
 libcinnamon-desktop-data \
 wallpaper-branding-openSUSE"

@@ -15,7 +15,7 @@ tex-figbib-add.sty \
 tex-gloss-add.sty \
 texlive-thesis-titlepage-fhac"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

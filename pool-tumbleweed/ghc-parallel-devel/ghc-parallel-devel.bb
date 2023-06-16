@@ -10,7 +10,7 @@ RPM_HASH = "5b49e9e5120de53f7fe1c3152ae1ce2d226882a0e6cf86c38998a8419c12655cebc5
 RPROVIDES:${PN} += "ghc-devel-parallel-3.2.2.0-36KAHtmQlbB59K6tPbQ0Jr \
 ghc-parallel-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \

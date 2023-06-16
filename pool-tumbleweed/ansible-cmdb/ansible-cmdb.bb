@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "ansible-cmdb \
 python3.10dist-ansible-cmdb \
 python3dist-ansible-cmdb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-Mako \
 python3-PyYAML \

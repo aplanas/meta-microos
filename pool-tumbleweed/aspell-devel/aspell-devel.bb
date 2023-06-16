@@ -11,7 +11,7 @@ RPM_HASH = "68fc5ffb5b7db14bb20e0c9557845ef6652febafb2980c4ef0bed1ae7b0084a95d2f
 RPROVIDES:${PN} += "aspell-devel \
 pspell-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 glibc-devel \
 info \
 libaspell15 \

@@ -104,7 +104,7 @@ tex-crm-wsbs26.enc \
 tex-crm-wttfgh.enc \
 texlive-crimson"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

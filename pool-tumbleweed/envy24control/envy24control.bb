@@ -10,7 +10,7 @@ RPM_HASH = "b5022da3e9adf7f84e006fa60b418350096c5db0b771022e28582c6d802821d5fd13
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/envy24control \
 envy24control"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

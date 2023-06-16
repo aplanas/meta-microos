@@ -188,7 +188,7 @@ tex-zal1-OT1TT.enc \
 tex-zal1-T1TT.enc \
 texlive-algolrevived"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

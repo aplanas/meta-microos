@@ -18,7 +18,7 @@ tex-lua-typo.cfg \
 tex-lua-typo.sty \
 texlive-lua-typo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -20,8 +20,8 @@ pkgconfig-krb5-gssapi \
 pkgconfig-mit-krb5 \
 pkgconfig-mit-krb5-gssapi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 keyutils-devel \
 krb5 \
 pkgconfig-com-err \

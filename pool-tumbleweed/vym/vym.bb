@@ -12,9 +12,9 @@ RPM_HASH = "4b3845adfbd89a18f1ccaf4e9f5d2e53e480313e7a5f6249d72aa4f0d14e0df95ce8
 
 RPROVIDES:${PN} += "vym"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

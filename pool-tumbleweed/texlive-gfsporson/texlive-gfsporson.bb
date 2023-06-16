@@ -21,7 +21,7 @@ tex-lgrporson.fd \
 tex-porsonel.enc \
 texlive-gfsporson"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

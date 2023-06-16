@@ -10,7 +10,7 @@ RPM_HASH = "6b88e3d14a1d68b20c7925d575da85a8065cd23a2b457ff847c869ac1fcfd68c5f60
 RPROVIDES:${PN} += "ghc-attoparsec-devel \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-attoparsec \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \

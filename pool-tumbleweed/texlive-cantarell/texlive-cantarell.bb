@@ -916,7 +916,7 @@ tex-cantarell.map \
 tex-cantarell.sty \
 texlive-cantarell"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

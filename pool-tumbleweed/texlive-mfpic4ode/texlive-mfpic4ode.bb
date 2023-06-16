@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "tex-mfpic4ode.sty \
 tex-mfpic4ode.tex \
 texlive-mfpic4ode"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

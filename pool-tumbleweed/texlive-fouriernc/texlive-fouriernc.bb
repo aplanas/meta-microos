@@ -28,7 +28,7 @@ tex-t1fnc.fd \
 tex-ts1fnc.fd \
 texlive-fouriernc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

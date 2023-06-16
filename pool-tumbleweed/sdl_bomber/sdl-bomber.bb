@@ -27,7 +27,7 @@ RPM_HASH = "0a10bfd540f68d06953f9961e3a768c48ea454a41fc1d2481f2163b55563b03c9f04
 
 RPROVIDES:${PN} += "sdl-bomber"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libc.so.6"

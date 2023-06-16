@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-managesieve \
 python39-managesieve \
 python3dist-managesieve"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

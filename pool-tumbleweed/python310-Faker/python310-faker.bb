@@ -16,8 +16,8 @@ python3.10dist-faker \
 python310-Faker \
 python3dist-faker"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-python-dateutil \
 python310-text-unidecode \

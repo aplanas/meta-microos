@@ -119,7 +119,7 @@ tex-uartemisiaeulernums.fd \
 tex-uartemisianums.fd \
 texlive-gfsartemisia"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

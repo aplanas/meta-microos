@@ -25,7 +25,7 @@ tex-gpcomplutum.enc \
 tex-lgrcomplutum.fd \
 texlive-gfscomplutum"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

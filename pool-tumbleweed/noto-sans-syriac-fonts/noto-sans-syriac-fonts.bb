@@ -19,7 +19,7 @@ noto-sans-syriacestrangela-fonts \
 noto-sans-syriacwestern \
 noto-sans-syriacwestern-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

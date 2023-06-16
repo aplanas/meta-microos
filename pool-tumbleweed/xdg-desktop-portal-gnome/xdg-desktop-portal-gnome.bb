@@ -10,7 +10,7 @@ RPM_HASH = "a7665efc31b406131c6c9c1584bddbc950915e810c95ed685e7101231fa17e374de2
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gnome"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libadwaita-1.so.0 \

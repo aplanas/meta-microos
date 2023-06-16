@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-portpicker \
 python311-portpicker \
 python3dist-portpicker"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

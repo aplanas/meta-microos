@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "msv-rngconv \
 mvn-net.java.dev.msv-msv-rngconverter \
 mvn-net.java.dev.msv-msv-rngconverter-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \

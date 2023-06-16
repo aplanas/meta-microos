@@ -9,7 +9,7 @@ RPM_HASH = "fc008cf473a8144b6c4ca38854eff0ca40c0a4b3d5b0f261a11d2c89e2cf92e5a2fa
 
 RPROVIDES:${PN} += "moolticute"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

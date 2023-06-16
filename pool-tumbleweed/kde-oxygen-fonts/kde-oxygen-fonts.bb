@@ -135,7 +135,7 @@ font-oxygen-sans \
 font-oxygenmono \
 kde-oxygen-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

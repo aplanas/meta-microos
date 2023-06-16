@@ -21,8 +21,8 @@ python3.10dist-sas7bdat \
 python310-sas7bdat \
 python3dist-sas7bdat"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-six \
 update-alternatives"

@@ -33,7 +33,7 @@ tex-wsuipa8.tfm \
 tex-wsuipa9.tfm \
 texlive-wsuipa"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

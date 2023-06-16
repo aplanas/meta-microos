@@ -150,7 +150,7 @@ font-zhv \
 font-ztm \
 texlive-nimbus15-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

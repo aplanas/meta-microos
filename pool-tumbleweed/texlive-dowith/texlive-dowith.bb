@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-domore.sty \
 tex-dowith.sty \
 texlive-dowith"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

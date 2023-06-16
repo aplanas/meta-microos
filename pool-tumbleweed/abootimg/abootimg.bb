@@ -10,7 +10,7 @@ RPM_HASH = "c3b846878e73dc93ec3c174f9cdd497fcc043c42abb6d2cd5db70ded646a7ce18619
 
 RPROVIDES:${PN} += "abootimg"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6"

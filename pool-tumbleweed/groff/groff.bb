@@ -12,8 +12,8 @@ RPM_HASH = "d4b0bc7ee6392a246f032792d229d8e00af98f5db7329c03cdab3112596c99c22e1e
 RPROVIDES:${PN} += "config-groff \
 groff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

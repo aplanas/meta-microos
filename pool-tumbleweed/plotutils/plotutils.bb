@@ -15,7 +15,7 @@ RPM_HASH = "28c120eba148fdb74810f0ac7fbb92587e521782cfdb83a0ae99342f715baaa67bd9
 
 RPROVIDES:${PN} += "plotutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 ld-linux-aarch64.so.1 \

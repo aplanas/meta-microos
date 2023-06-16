@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-wakeonlan \
 python39-wakeonlan \
 python3dist-wakeonlan"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

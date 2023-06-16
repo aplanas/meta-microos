@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-poormanlog.sty \
 tex-poormanlog.tex \
 texlive-poormanlog"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

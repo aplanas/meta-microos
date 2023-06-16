@@ -475,7 +475,7 @@ tex-welsh.sty \
 tex-xebabel.def \
 texlive-babel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

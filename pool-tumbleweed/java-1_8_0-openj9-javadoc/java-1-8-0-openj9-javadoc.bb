@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "java-1-8-0-openj9-javadoc \
 java-1.8.0-javadoc \
 java-javadoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 jpackage-utils \
 update-alternatives"
 

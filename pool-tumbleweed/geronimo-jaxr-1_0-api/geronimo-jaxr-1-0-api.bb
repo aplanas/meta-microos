@@ -16,7 +16,7 @@ jaxr-api \
 mvn-org.apache.geronimo.specs-geronimo-jaxr-1.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-jaxr-1.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 jaf-1-0-2-api \
 java-headless \
 javapackages-filesystem \

@@ -38,7 +38,7 @@ tex-tlgsqq.tex \
 tex-version4.tex \
 texlive-ibygrk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

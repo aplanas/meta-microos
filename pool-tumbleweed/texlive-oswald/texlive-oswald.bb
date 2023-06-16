@@ -130,7 +130,7 @@ tex-a-ts7dz6.enc \
 tex-a-wbqrrh.enc \
 texlive-oswald"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

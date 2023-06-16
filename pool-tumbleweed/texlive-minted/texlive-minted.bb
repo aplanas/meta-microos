@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-minted.sty \
 tex-minted1.sty \
 texlive-minted"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

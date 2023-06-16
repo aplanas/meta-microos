@@ -103,7 +103,7 @@ font-ygoth \
 font-yswab \
 texlive-yfonts-t1-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

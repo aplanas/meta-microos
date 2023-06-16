@@ -19,7 +19,7 @@ tex-hyph-tr.tex \
 tex-loadhyph-tr.tex \
 texlive-hyphen-turkish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

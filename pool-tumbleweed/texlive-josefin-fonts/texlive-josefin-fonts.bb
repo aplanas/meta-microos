@@ -134,7 +134,7 @@ font-josefinsanssemibold \
 font-josefinsansthin \
 texlive-josefin-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

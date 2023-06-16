@@ -13,7 +13,7 @@ RPM_HASH = "ff9a28d814a86ddbf633ba0c925b0252b00b1ff3221e9551e31fc42847e48a514cc5
 RPROVIDES:${PN} += "config-pcp-gui \
 pcp-gui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dejavu-fonts \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

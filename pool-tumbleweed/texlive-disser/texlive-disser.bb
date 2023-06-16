@@ -25,7 +25,7 @@ tex-specialist.rtx \
 tex-titledefs.rtx \
 texlive-disser"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

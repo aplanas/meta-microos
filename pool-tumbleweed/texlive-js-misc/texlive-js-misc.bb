@@ -18,7 +18,7 @@ tex-sperr.tex \
 tex-xfig.tex \
 texlive-js-misc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

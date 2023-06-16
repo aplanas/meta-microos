@@ -34,8 +34,8 @@ rpm-macro-have-strip-nondeterminism \
 rpm-macro-strip-all-nondeterminism \
 strip-nondeterminism"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 perl-Archive--Zip \
 perl-Sub--Override \

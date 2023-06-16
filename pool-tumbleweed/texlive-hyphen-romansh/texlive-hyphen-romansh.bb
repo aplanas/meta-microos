@@ -15,7 +15,7 @@ tex-hyph-rm.tex \
 tex-loadhyph-rm.tex \
 texlive-hyphen-romansh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

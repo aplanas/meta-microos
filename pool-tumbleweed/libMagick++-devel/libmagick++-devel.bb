@@ -23,8 +23,8 @@ RPROVIDES:${PN} += "libMagick++-devel \
 pkgconfig-Magick++ \
 pkgconfig-Magick++-7.Q16HDRI"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libMagick++-7-Q16HDRI5 \
 libstdc++-devel \
 pkgconfig-ImageMagick \

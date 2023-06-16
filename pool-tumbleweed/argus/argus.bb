@@ -11,8 +11,8 @@ RPM_HASH = "b75ad657cf616ed9a22d6effa0af02233de9904848ceb87b247ea9850991784bc199
 
 RPROVIDES:${PN} += "argus"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
-/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/perl \
+/usr/bin/sh"
 
 inherit rpm

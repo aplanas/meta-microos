@@ -12,7 +12,7 @@ RPM_HASH = "b8fad701184a11290f227f2416217cc5b945c2881db2abc644e2a27cc61306f7cc47
 RPROVIDES:${PN} += "bazel \
 bazel6"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-11-openjdk-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

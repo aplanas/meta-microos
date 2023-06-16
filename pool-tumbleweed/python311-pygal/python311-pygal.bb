@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-pygal \
 python311-pygal \
 python3dist-pygal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-lxml \
 update-alternatives"

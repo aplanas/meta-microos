@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "zbstudio \
 zerobrane-studio \
 zerobranestudio"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 Lua-API \
 libwxlua \
 lua-copas \

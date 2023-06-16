@@ -16,7 +16,7 @@ tex-komacv-oldstyle.sty \
 tex-komacv.cls \
 texlive-komacv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

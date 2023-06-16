@@ -20,7 +20,7 @@ libbindbackend.so \
 libpipebackend.so \
 pdns"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libboost-program-options.so.1.82.0 \
 libc.so.6 \

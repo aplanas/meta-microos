@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-media9.sty \
 tex-pdfbase.sty \
 texlive-media9"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -27,7 +27,7 @@ rpm-macro-make-jobs \
 rpm-macro-qmake5 \
 rpm-macro-qmake5-install"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 cmake \
 gcc-c++ \

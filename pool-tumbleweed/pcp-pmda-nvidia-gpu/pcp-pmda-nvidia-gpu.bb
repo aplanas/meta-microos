@@ -10,7 +10,7 @@ RPM_HASH = "1ba303bd255135b76b05e0ce6c0d4c5ff5d1a295d1d3f8b841372c05dd73724263d0
 
 RPROVIDES:${PN} += "pcp-pmda-nvidia-gpu"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

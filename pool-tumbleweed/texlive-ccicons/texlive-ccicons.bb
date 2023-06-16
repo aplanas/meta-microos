@@ -16,7 +16,7 @@ tex-ccicons.sty \
 tex-ccicons.tfm \
 texlive-ccicons"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

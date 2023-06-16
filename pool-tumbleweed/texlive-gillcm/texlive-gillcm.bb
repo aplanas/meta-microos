@@ -47,7 +47,7 @@ tex-t1cmg.fd \
 tex-ts1cmg.fd \
 texlive-gillcm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

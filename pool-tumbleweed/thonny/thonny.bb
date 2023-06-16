@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.10dist-thonny \
 python3dist-thonny \
 thonny"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 desktop-file-utils \
 mypy \
 python-abi \

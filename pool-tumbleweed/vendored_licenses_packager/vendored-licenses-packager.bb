@@ -25,7 +25,7 @@ rpm-macro-vendored-licenses-packager-install \
 rpm-macro-vendored-licenses-packager-prep \
 vendored-licenses-packager"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 bash \
 coreutils \
 findutils"

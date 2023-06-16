@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-lib3to6 \
 python311-lib3to6 \
 python3dist-lib3to6"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-astor \
 python311-click \

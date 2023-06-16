@@ -19,8 +19,8 @@ python310-pdfminer.six \
 python310-pdfminer3k \
 python3dist-pdfminer.six"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-chardet \
 python310-cryptography \

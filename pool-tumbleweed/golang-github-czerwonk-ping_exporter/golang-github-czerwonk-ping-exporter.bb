@@ -11,8 +11,8 @@ RPM_HASH = "f833195041ab2d792d4b34cd3ea7ba65ad71fca11e44b77d2305653c44f1a306ecb5
 RPROVIDES:${PN} += "config-golang-github-czerwonk-ping-exporter \
 golang-github-czerwonk-ping-exporter"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 libc.so.6"

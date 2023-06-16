@@ -11,7 +11,7 @@ RPM_HASH = "1283574573c88c103ceb8ff33e7463ece8410bd0a79ab00fc00f298cff2f42e0c6c6
 
 RPROVIDES:${PN} += "libgsl-gnu-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libgsl-2-7-1-gnu-hpc"
 
 inherit rpm

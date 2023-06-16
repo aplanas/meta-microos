@@ -22,8 +22,8 @@ python3.11dist-cfgdiff \
 python311-cfgdiff \
 python3dist-cfgdiff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyYAML \
 python311-configobj \

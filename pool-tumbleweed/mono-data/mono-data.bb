@@ -32,7 +32,7 @@ mono-novell-directory \
 mono-sqlmetal \
 mono-sqlsharp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mono-Mono.Security \
 mono-System \
 mono-System.ComponentModel.DataAnnotations \

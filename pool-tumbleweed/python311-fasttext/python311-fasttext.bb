@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "python3.11dist-fasttext \
 python311-fasttext \
 python3dist-fasttext"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

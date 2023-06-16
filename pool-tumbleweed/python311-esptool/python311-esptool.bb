@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-esptool \
 python311-esptool \
 python3dist-esptool"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-ecdsa \
 python311-pyaes \

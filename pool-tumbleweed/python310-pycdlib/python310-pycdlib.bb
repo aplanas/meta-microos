@@ -19,8 +19,8 @@ python3.10dist-pycdlib \
 python310-pycdlib \
 python3dist-pycdlib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 mkisofs \
 python-abi \
 python3-pycdlib-common"

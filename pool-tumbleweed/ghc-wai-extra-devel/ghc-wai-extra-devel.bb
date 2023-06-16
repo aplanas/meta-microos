@@ -10,7 +10,7 @@ RPM_HASH = "9325b4a3270244f16b72391d62ec83c81c2c9396e40bbc70e87a6ce6ed13292dab80
 RPROVIDES:${PN} += "ghc-devel-wai-extra-3.1.13.0-B4Szpcpv4Gy5mM28jLfYmX \
 ghc-wai-extra-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-HUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \

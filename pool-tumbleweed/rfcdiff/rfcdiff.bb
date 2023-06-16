@@ -16,6 +16,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rfcdiff"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

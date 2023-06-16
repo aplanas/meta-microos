@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "tex-pst-diffraction.sty \
 tex-pst-diffraction.tex \
 texlive-pst-diffraction"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

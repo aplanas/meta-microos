@@ -93,7 +93,7 @@ font-berasansmono \
 font-beraserif \
 texlive-bera-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

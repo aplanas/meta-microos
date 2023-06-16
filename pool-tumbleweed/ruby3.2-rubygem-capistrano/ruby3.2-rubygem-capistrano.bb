@@ -15,8 +15,8 @@ rubygem-ruby-3.2.0-capistrano-3 \
 rubygem-ruby-3.2.0-capistrano-3.17 \
 rubygem-ruby-3.2.0-capistrano-3.17.1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-airbrussh \
 rubygem-ruby-3.2.0-i18n \

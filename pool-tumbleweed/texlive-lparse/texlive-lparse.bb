@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-lparse.sty \
 tex-lparse.tex \
 texlive-lparse"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

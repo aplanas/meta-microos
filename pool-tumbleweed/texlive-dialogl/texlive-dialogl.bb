@@ -15,7 +15,7 @@ tex-listout.tex \
 tex-menus.sty \
 texlive-dialogl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -22,7 +22,7 @@ tex-language.us.def \
 tex-zerohyph.tex \
 texlive-hyphen-base"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -432,8 +432,8 @@ firmware-nvidia/tu117/sec2/image.bin \
 firmware-nvidia/tu117/sec2/sig.bin \
 kernel-firmware-nvidia"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

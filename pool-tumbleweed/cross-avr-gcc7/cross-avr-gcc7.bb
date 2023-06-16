@@ -10,7 +10,7 @@ RPM_HASH = "e5a4da6bdeba55d25e3227bfe6711b1960f7e98fa3baefba2d406553a289034e7e82
 RPROVIDES:${PN} += "cross-avr-gcc7 \
 liblto-plugin.so.0"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-avr-binutils \
 libc.so.6 \
 libgmp.so.10 \

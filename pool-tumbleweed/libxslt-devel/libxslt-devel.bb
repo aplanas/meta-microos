@@ -16,8 +16,8 @@ RPROVIDES:${PN} += "libxslt-devel \
 pkgconfig-libexslt \
 pkgconfig-libxslt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 libexslt0 \
 libgcrypt-devel \

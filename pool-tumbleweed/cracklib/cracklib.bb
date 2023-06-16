@@ -12,7 +12,7 @@ RPM_HASH = "19f59ee66e8721f73d2ce4ede07a367c04d4b747d2282b23242fd8a9b3a80b6bf2fe
 
 RPROVIDES:${PN} += "cracklib"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cracklib-dict \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

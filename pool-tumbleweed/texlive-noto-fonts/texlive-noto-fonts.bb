@@ -209,7 +209,7 @@ font-notoserifsemibold \
 font-notoserifthin \
 texlive-noto-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

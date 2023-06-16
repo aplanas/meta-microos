@@ -25,7 +25,7 @@ tex-forest-lib-linguistics.sty \
 tex-forest.sty \
 texlive-forest"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

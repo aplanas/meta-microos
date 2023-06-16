@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-pcodedmp \
 python39-pcodedmp \
 python3dist-pcodedmp"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-oletools"
 

@@ -17,7 +17,7 @@ tex-ecvGerman.ldf \
 tex-ecvNLS.sty \
 texlive-ecv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

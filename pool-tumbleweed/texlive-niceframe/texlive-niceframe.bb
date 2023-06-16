@@ -16,7 +16,7 @@ tex-umranda.tfm \
 tex-umrandb.tfm \
 texlive-niceframe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

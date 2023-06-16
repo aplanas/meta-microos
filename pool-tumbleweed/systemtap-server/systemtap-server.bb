@@ -10,8 +10,8 @@ RPM_HASH = "7f284850ed8953d966aef4a734922de80474d4033949b39899de95590761749ac852
 
 RPROVIDES:${PN} += "systemtap-server"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 avahi \
 avahi-utils \
 coreutils \

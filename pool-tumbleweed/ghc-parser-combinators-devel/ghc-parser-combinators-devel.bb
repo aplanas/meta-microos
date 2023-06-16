@@ -11,7 +11,7 @@ RPM_HASH = "840ebdfa9cd5d1434aeca20b7578e5ece3178b641130e71d74eab786ac98f8dc61ba
 RPROVIDES:${PN} += "ghc-devel-parser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt \
 ghc-parser-combinators-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-parser-combinators"

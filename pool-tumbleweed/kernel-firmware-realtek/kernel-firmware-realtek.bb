@@ -102,8 +102,8 @@ firmware-rtw89/rtw8852b-fw.bin \
 firmware-rtw89/rtw8852c-fw.bin \
 kernel-firmware-realtek"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

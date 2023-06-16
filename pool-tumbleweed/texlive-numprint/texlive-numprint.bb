@@ -26,7 +26,7 @@ tex-numprint.sty \
 tex-numprint032.sty \
 texlive-numprint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

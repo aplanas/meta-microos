@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-bwl-FU.bbx \
 tex-bwl-FU.cbx \
 texlive-biblatex-bwl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-devpi-server \
 python311-devpi-server \
 python3dist-devpi-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-aiohttp \
 python311-appdirs \

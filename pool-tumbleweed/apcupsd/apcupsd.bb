@@ -16,8 +16,7 @@ RPM_HASH = "109bc88881e68c6f4404d295a9583e8eb48eefe3ac1f57d0c658d29a2390cd699f11
 RPROVIDES:${PN} += "apcupsd \
 config-apcupsd"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \

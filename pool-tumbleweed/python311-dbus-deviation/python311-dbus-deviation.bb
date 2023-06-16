@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-dbus-deviation \
 python311-dbus-deviation \
 python3dist-dbus-deviation"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-lxml"
 

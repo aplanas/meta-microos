@@ -57,7 +57,7 @@ tex-mt-ugm.cfg \
 tex-mt-zpeu.cfg \
 texlive-microtype"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

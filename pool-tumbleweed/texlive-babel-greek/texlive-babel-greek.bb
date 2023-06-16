@@ -16,7 +16,7 @@ tex-greek.ldf \
 tex-grmath.sty \
 texlive-babel-greek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

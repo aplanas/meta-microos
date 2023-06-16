@@ -41,7 +41,7 @@ tex-xccsy8.tfm \
 tex-xccsy9.tfm \
 texlive-concmath-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

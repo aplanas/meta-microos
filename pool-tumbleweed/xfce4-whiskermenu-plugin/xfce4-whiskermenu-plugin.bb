@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "libwhiskermenu.so \
 xfce4-panel-plugin-whiskermenu \
 xfce4-whiskermenu-plugin"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

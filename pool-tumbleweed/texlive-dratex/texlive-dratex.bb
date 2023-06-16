@@ -15,7 +15,7 @@ tex-TeXProject.sty \
 tex-wotree.sty \
 texlive-dratex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -56,8 +56,8 @@ firmware-ath10k/WCN3990/hw1.0/wlanmdsp.mbn \
 firmware-qcom/sdm845/wlanmdsp.mbn \
 kernel-firmware-ath10k"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

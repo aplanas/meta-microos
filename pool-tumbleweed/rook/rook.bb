@@ -14,7 +14,7 @@ RPM_HASH = "35b2eff1dea3ee6ae23c325125eb1f3e53b39a88651153184b1f59218c7bb7900433
 RPROVIDES:${PN} += "config-rook \
 rook"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 pattern- \
 tini"
 

@@ -21,7 +21,7 @@ tex-lcopcoptic.fd \
 tex-prnthyph.sty \
 texlive-cbcoptic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

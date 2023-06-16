@@ -17,7 +17,7 @@ RPM_HASH = "60ac0cab3e5b088a057ca90535293af0bba71112ca792ff86183a443b68c8ca1cc84
 
 RPROVIDES:${PN} += "freetype-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 freetype \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

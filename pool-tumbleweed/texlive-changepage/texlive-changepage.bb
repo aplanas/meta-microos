@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-changepage.sty \
 tex-chngpage.sty \
 texlive-changepage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

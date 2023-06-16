@@ -17,7 +17,7 @@ tex-xskak-nagdef.sty \
 tex-xskak.sty \
 texlive-xskak"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -18,7 +18,7 @@ tex-asapsym.code.tex \
 tex-asapsym.sty \
 texlive-asapsym"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

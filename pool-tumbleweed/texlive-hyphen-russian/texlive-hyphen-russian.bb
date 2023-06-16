@@ -19,7 +19,7 @@ tex-hyph-ru.tex \
 tex-loadhyph-ru.tex \
 texlive-hyphen-russian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

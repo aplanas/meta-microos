@@ -18,8 +18,8 @@ python3.10dist-xhtml2pdf \
 python310-xhtml2pdf \
 python3dist-xhtml2pdf"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Pillow \
 python310-PyPDF3 \

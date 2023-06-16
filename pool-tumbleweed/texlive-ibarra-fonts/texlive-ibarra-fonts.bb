@@ -121,7 +121,7 @@ font-ibarrarealnova-semibolditalic \
 font-ibarrarealnovasemibold \
 texlive-ibarra-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

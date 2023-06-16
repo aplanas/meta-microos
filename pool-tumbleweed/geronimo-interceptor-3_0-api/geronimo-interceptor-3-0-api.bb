@@ -17,7 +17,7 @@ interceptor-api \
 mvn-org.apache.geronimo.specs-geronimo-interceptor-3.0-spec \
 mvn-org.apache.geronimo.specs-geronimo-interceptor-3.0-spec-pom-"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

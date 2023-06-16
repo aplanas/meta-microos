@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "libburnia-tools \
 libburnia-tools-x11 \
 xorriso"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

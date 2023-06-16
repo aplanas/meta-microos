@@ -21,8 +21,8 @@ RPROVIDES:${PN} += "python3.11dist-stdeb \
 python311-stdeb \
 python3dist-stdeb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 debhelper \
 dpkg \
 fakeroot \

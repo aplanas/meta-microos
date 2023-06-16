@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-monitoring-plugins-cups \
 monitoring-plugins-cups \
 nagios-plugins-cups"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 cups-client"
 
 inherit rpm

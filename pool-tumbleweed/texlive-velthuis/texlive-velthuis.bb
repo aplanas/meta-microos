@@ -94,7 +94,7 @@ tex-udnpc.fd \
 tex-udnpn.fd \
 texlive-velthuis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

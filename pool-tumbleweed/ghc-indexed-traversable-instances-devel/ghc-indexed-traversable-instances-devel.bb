@@ -11,7 +11,7 @@ RPM_HASH = "2790068a53767f642c089d60d794bb9e65d2daacbfe31d6b8bc35031a1b5ba1f3ce1
 RPROVIDES:${PN} += "ghc-devel-indexed-traversable-instances-0.1.1.2-9bsLKqKio7c19LOJlUsRRO \
 ghc-indexed-traversable-instances-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-OneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd \
 ghc-devel-base-4.17.1.0 \

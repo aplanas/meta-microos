@@ -15,7 +15,7 @@ RPM_HASH = "9e55057776bf1cd6de705ed87db3e2f95c697df128b421e2df208dc2bcff1549e668
 
 RPROVIDES:${PN} += "dcatools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdca.so.0 \

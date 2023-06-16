@@ -23,7 +23,7 @@ perl-XML--SAX--PurePerl--Reader--String \
 perl-XML--SAX--PurePerl--Reader--URI \
 perl-XML-SAX"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 perl-XML--NamespaceSupport \
 perl-XML--SAX--Base"

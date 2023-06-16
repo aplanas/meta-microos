@@ -11,7 +11,7 @@ RPM_HASH = "092162d3ee31a2cf1fc2801f175b2352e86fd8da45ad821be90ac1fc78c6c8b629d9
 RPROVIDES:${PN} += "config-teleport-tbot \
 teleport-tbot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6"
 
 inherit rpm

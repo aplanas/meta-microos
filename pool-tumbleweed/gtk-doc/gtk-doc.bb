@@ -15,9 +15,9 @@ RPROVIDES:${PN} += "gtk-doc \
 gtkdoc \
 pkgconfig-gtk-doc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
+/usr/bin/sh \
 docbook-4 \
 docbook-xsl-stylesheets \
 glib2-devel \

@@ -11,7 +11,7 @@ RPM_HASH = "12bac9db3b8f89a6c5f6f1498d18a6f0e871478cefeccd0b82cfea22f416c73dd144
 RPROVIDES:${PN} += "config-pcmanfm \
 pcmanfm"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gvfs \
 gvfs-backends \
 ld-linux-aarch64.so.1 \

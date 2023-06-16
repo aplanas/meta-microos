@@ -26,7 +26,7 @@ tex-convertgls2bib.jar \
 tex-texparserlib.jar \
 texlive-bib2gls"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

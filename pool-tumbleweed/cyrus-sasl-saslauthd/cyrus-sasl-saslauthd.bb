@@ -10,8 +10,8 @@ RPM_HASH = "1fbea5c4cf541fb4e52b8afebc4ec025f69a91fada260b30feae5e86e9472d7233bd
 
 RPROVIDES:${PN} += "cyrus-sasl-saslauthd"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

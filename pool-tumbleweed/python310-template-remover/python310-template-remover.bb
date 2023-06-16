@@ -17,8 +17,8 @@ python3.10dist-template-remover \
 python310-template-remover \
 python3dist-template-remover"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-docopt \
 update-alternatives"

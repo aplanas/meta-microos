@@ -30,7 +30,7 @@ tex-cnltx.cbx \
 tex-cnltx.sty \
 texlive-cnltx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

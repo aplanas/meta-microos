@@ -10,7 +10,7 @@ RPM_HASH = "77abacbfc98c4fa5b817903b3d481bb4b5b8064c6f54448f5558ad055fe20d36434a
 RPROVIDES:${PN} += "ghc-devel-persistent-2.14.5.0-52EbT4CA3Ct4CmrnsbaA80 \
 ghc-persistent-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

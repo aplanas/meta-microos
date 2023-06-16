@@ -14,8 +14,8 @@ RPM_HASH = "ed1fb0e355554fcf8c1509dfc9ae20f70e782ce728ff2df9ab2b865fbc72e86aac4e
 RPROVIDES:${PN} += "config-xinit \
 xinit"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

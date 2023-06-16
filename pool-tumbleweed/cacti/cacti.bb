@@ -19,10 +19,10 @@ cacti-PA \
 cacti-system \
 config-cacti"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 /usr/bin/php \
+/usr/bin/sh \
 httpd \
 logrotate \
 mod-php-any \

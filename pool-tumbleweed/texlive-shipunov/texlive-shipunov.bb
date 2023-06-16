@@ -69,7 +69,7 @@ tex-starfn.sty \
 tex-textfrac-shipunov.sty \
 texlive-shipunov"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -1300,7 +1300,7 @@ tex-merriwthr-xys2i2.enc \
 tex-merriwthr-ynquvw.enc \
 texlive-merriweather"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

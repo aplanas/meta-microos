@@ -24,8 +24,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcdemu"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 cdemu-daemon \
 python3-gobject-Gdk \
 typelib-AyatanaAppIndicator3 \

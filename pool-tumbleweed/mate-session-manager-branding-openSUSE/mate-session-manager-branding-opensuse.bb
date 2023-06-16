@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-mate-session-manager-branding-openSUSE \
 mate-session-manager-branding \
 mate-session-manager-branding-openSUSE"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 mate-icon-theme \
 mate-session-manager \
 metatheme-numix-common \

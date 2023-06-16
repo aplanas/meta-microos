@@ -31,7 +31,7 @@ tex-xparse.sty \
 tex-xtemplate.sty \
 texlive-l3packages"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

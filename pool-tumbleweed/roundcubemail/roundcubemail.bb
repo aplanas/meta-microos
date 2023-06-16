@@ -17,9 +17,9 @@ RPROVIDES:${PN} += "config-roundcubemail \
 roundcube-framework \
 roundcubemail"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/php \
+/usr/bin/sh \
 mod-php-any \
 php-dom \
 php-exif \

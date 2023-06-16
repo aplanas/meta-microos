@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-srdp-mathematik.sty \
 tex-srdp-tables.sty \
 texlive-srdp-mathematik"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

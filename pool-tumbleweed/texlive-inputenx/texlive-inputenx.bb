@@ -52,7 +52,7 @@ tex-x-nextstep.def \
 tex-x-verbatim.def \
 texlive-inputenx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPM_HASH = "cfcfc6f45b94f021d2e485755feb7e9131456036f02a259328359a73d8133ff31609
 RPROVIDES:${PN} += "conntrack-tools-/usr/sbin/conntrackd \
 conntrackd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 conntrack-tools \
 fillup \
 ld-linux-aarch64.so.1 \

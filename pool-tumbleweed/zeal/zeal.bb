@@ -16,7 +16,7 @@ RPM_HASH = "a04a627a0f6aaf32e1fec77da7d0cee65c34cc7cae8b54069dd1c0aee7b0552c9ead
 
 RPROVIDES:${PN} += "zeal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libQt5Concurrent.so.5 \

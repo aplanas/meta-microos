@@ -17,7 +17,7 @@ firmware-E-CARD.cis \
 pcmcia \
 pcmciautils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libsysfs.so.2 \
 permissions"

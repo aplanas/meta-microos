@@ -29,7 +29,7 @@ RPM_HASH = "691a6935a893fc837d0b31aa6e57de58ea0cfc3edcdd5639004e584bb60bc4b93d3f
 
 RPROVIDES:${PN} += "omnispeak"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libasound.so.2 \

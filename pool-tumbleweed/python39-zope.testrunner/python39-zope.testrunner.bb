@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-zope.testrunner \
 python39-zope.testrunner \
 python3dist-zope.testrunner"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-zope.exceptions \
 python39-zope.interface \

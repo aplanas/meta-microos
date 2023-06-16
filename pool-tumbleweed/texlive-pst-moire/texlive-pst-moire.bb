@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "tex-pst-moire.sty \
 tex-pst-moire.tex \
 texlive-pst-moire"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

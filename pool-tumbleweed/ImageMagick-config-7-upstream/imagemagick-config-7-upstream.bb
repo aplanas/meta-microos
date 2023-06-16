@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "ImageMagick-config-7-upstream \
 config-ImageMagick-config-7-upstream \
 imagick-config-7"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 update-alternatives"
 
 inherit rpm

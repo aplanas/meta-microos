@@ -15,7 +15,7 @@ RPM_HASH = "180688e519de55a7cbb1c3b7c9aae88ab0abefdcba51ad7d25cfeb6678f31d9dc14e
 RPROVIDES:${PN} += "transmission-gtk \
 transmission-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 canberra-gtk-play \
 ld-linux-aarch64.so.1 \
 libb64.so.0 \

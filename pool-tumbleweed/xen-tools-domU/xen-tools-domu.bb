@@ -21,8 +21,8 @@ RPM_HASH = "aa2dd9207a26defceb33fe161433e6fc2ae41405b0f278d526995ef02ccc0c181e5b
 RPROVIDES:${PN} += "config-xen-tools-domU \
 xen-tools-domU"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libxenctrl.so.4.17 \

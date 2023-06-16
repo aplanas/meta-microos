@@ -18,8 +18,8 @@ RPROVIDES:${PN} += "python3.9dist-jupyter-core \
 python39-jupyter-core \
 python3dist-jupyter-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 alts \
 python-abi \
 python39-platformdirs \

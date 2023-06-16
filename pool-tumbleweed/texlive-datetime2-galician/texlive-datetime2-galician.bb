@@ -16,7 +16,7 @@ tex-datetime2-galician-utf8.ldf \
 tex-datetime2-galician.ldf \
 texlive-datetime2-galician"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

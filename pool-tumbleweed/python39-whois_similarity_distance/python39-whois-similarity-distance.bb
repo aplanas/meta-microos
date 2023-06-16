@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-whois-similarity-distance \
 python39-whois-similarity-distance \
 python3dist-whois-similarity-distance"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Levenshtein \
 python39-certifi \

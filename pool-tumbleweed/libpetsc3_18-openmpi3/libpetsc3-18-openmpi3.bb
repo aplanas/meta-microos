@@ -12,9 +12,9 @@ RPM_HASH = "60408daf841f1c4c4f920943d0fe7857e1ddc207a3b7f3d98c203c3ccb205f330bf4
 RPROVIDES:${PN} += "libpetsc.so.3.18 \
 libpetsc3-18-openmpi3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libamd.so.2 \
 libblas.so.3 \

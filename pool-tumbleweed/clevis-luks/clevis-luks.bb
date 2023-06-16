@@ -9,7 +9,7 @@ RPM_HASH = "88a4095955f7a21ddc23d82a98a35f18e20540bb01caf3c8afcc67ba74d4e016d73c
 
 RPROVIDES:${PN} += "clevis-luks"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 clevis \
 cryptsetup \
 libpwquality-tools"

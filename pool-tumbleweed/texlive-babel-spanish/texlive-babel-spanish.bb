@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-romanidx.sty \
 tex-spanish.ldf \
 texlive-babel-spanish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

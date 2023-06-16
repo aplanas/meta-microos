@@ -21,8 +21,8 @@ RPM_HASH = "5ae823ca09563653f628dce6763a95afd4ad21c53606b73f5476111da8c916cef06b
 
 RPROVIDES:${PN} += "afl"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

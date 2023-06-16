@@ -142,7 +142,7 @@ font-iwonamedium \
 font-kurier \
 texlive-iwona-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

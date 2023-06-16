@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-svninfo.cfg \
 tex-svninfo.sty \
 texlive-svninfo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

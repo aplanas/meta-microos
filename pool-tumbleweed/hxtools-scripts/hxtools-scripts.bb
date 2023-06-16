@@ -27,7 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hxtools-scripts"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 hxtools \
 perl-Data--Dumper \

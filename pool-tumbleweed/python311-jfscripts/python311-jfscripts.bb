@@ -19,8 +19,8 @@ RPROVIDES:${PN} += "python3.11dist-jfscripts \
 python311-jfscripts \
 python3dist-jfscripts"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-PyPDF2 \
 python311-sphinx-argparse \

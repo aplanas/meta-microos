@@ -12,9 +12,9 @@ RPROVIDES:${PN} += "AMQP-server \
 config-rabbitmq-server \
 rabbitmq-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 erlang \
 erlang-epmd \

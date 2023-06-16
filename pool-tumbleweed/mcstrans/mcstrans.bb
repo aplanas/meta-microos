@@ -21,7 +21,7 @@ RPM_HASH = "83334e4c0c30062718e5940c62b30fd31df4be296ca9c10828e685b450c74597b814
 RPROVIDES:${PN} += "mcstrans \
 setransd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

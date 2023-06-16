@@ -138,7 +138,7 @@ font-mintspirit \
 font-mintspiritno2 \
 texlive-mintspirit-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

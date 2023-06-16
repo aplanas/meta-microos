@@ -35,7 +35,7 @@ tex-width.map \
 tex-yandy.map \
 texlive-fontname"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

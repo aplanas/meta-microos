@@ -33,7 +33,7 @@ tex-trig.sty \
 tex-truetex.def \
 texlive-graphics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

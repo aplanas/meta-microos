@@ -15,7 +15,7 @@ tex-pst-text.sty \
 tex-pst-text.tex \
 texlive-pst-text"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

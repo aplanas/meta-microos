@@ -11,7 +11,7 @@ RPM_HASH = "8bb8d0c9c41730f38d4f18d3c1c085a44663bd55440884c1ce99ef750a616aec9112
 
 RPROVIDES:${PN} += "rng-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \

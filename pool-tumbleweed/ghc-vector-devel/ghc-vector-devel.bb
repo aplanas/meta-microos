@@ -10,7 +10,7 @@ RPM_HASH = "5b24579d7b4f73219f54a7e13643174a39bc7c1021ce456240c48c6cf671ce9a88d0
 RPROVIDES:${PN} += "ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
 ghc-vector-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-deepseq-1.4.8.0 \

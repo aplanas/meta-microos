@@ -9,7 +9,7 @@ RPM_HASH = "f4bec8c55f1f6b883042ad07eb10855add897722930b34cf5c91a4c3a4e2db6596e0
 
 RPROVIDES:${PN} += "casacore-openmpi1"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcasa-casa.so.7 \

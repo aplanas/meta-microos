@@ -21,7 +21,7 @@ RPROVIDES:${PN} += "PTSans-fonts \
 locale-be;ru;uk \
 paratype-pt-sans-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

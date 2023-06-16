@@ -16,7 +16,7 @@ tex-hithesis.cls \
 tex-hithesis.sty \
 texlive-hithesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-netpbmfile \
 python311-netpbmfile \
 python3dist-netpbmfile"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-matplotlib \
 python311-numpy \

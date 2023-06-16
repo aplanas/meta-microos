@@ -61,7 +61,7 @@ tex-latin7.def \
 tex-latin7x.enc \
 texlive-lithuanian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

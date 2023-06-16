@@ -11,7 +11,7 @@ RPM_HASH = "c35790631b3bcb20c1257aeaa03f607bcb7318f356ada8fbd818cf89de280fc4f9bd
 
 RPROVIDES:${PN} += "rebootmgr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \

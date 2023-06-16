@@ -193,7 +193,7 @@ font-cmutypewritertext \
 font-cmutypewritertextvariablewidth \
 texlive-cm-unicode-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

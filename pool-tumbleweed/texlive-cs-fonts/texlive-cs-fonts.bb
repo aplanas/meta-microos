@@ -98,7 +98,7 @@ font-csu10 \
 font-csvtt10 \
 texlive-cs-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

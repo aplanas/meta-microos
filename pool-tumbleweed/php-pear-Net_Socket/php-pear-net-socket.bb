@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "php-pear-Net-Socket \
 php5-pear-Net-Socket \
 php7-pear-Net-Socket"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 php-pear"
 
 inherit rpm

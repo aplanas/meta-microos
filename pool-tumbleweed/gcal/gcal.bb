@@ -12,7 +12,7 @@ RPM_HASH = "8cd1ad795f17623520cf105c99d03fedaeedbd01482d15cd2d1a744bc10b672a011a
 
 RPROVIDES:${PN} += "gcal"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

@@ -41,7 +41,7 @@ tex-a-radyzq.enc \
 tex-a-va7yvq.enc \
 texlive-magra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

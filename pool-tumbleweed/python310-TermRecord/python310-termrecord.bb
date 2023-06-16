@@ -17,8 +17,8 @@ python3.10dist-termrecord \
 python310-TermRecord \
 python3dist-termrecord"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Jinja2 \
 update-alternatives"

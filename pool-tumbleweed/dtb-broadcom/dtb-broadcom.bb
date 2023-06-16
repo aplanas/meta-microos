@@ -10,7 +10,7 @@ RPM_HASH = "5f76ceea7aeaa3d9fd63a9ffec75e77ddde83d9ce144389769ec7a8afe6263a42537
 RPROVIDES:${PN} += "dtb-broadcom \
 multiversion-dtb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils"
 
 inherit rpm

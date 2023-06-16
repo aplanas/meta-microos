@@ -34,7 +34,7 @@ tex-kotexutf.sty \
 tex-lucuhcmj.fd \
 texlive-kotex-utf"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -103,7 +103,7 @@ font-janaskrivana \
 font-lukassvatba \
 texlive-aurical-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

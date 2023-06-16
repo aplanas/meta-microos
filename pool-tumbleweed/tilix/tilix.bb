@@ -9,7 +9,7 @@ RPM_HASH = "9a77a29f93f0047ed82660a9f48dc263c29660d5ac097039f738bd52ac33013eff7c
 
 RPROVIDES:${PN} += "tilix"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libX11.so.6 \
 libc.so.6 \
 libdruntime-ldc-shared.so.102 \

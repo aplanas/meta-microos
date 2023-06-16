@@ -17,7 +17,7 @@ RPM_HASH = "f06ea395ee8f75f2b270611f7db3fee02dd326832b97e4a274187dba53862f49451e
 
 RPROVIDES:${PN} += "SecLists"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env"
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh"
 
 inherit rpm

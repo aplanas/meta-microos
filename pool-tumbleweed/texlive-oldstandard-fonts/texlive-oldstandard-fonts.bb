@@ -151,7 +151,7 @@ font--lang=zu \
 font-oldstandard \
 texlive-oldstandard-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

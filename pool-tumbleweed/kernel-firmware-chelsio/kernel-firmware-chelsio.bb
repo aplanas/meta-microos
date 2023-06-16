@@ -42,8 +42,8 @@ firmware-cxgb4/t6fw-1.27.1.0.bin \
 firmware-cxgb4/t6fw.bin \
 kernel-firmware-chelsio"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

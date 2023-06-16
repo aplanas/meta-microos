@@ -13,8 +13,8 @@ emacs \
 epg \
 nxml-mode"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 emacs-info \
 emacs-program \
 etags \

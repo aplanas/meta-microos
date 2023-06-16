@@ -13,8 +13,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luaxml"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua \
+RDEPENDS:${PN} += "/usr/bin/lua \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

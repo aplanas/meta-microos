@@ -16,7 +16,7 @@ tex-datetime2-greek-utf8.ldf \
 tex-datetime2-greek.ldf \
 texlive-datetime2-greek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ group-nm-openconnect \
 libnm-vpn-plugin-openconnect.so \
 user-nm-openconnect"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager \
 NetworkManager-openconnect-frontend \
 ld-linux-aarch64.so.1 \

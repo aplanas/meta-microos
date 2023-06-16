@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-o2sclpy \
 python311-o2sclpy \
 python3dist-o2sclpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 o2scl-devel \
 python-abi \
 python311-h5py \

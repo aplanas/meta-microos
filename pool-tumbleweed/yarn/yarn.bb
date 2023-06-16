@@ -20,8 +20,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yarn"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/node \
+RDEPENDS:${PN} += "/usr/bin/node \
+/usr/bin/sh \
 nodejs \
 sed"
 

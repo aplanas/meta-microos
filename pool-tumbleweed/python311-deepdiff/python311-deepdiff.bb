@@ -15,8 +15,8 @@ python311-deepdiff \
 python3dist-deepdiff"
 
 RDEPENDS:${PN} += "-python311-ordered-set >= 4.1.0 with python311-ordered-set < 4.2 \
-/bin/sh \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

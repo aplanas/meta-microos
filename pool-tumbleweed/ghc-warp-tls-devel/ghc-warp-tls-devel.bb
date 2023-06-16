@@ -10,7 +10,7 @@ RPM_HASH = "f6e9b1ed3d18bd88c088c9d46c9d01eac4f1ff217e25a29d11885dce00bea5432172
 RPROVIDES:${PN} += "ghc-devel-warp-tls-3.3.6-FNoL4BYqjr55niULiQgEjP \
 ghc-warp-tls-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

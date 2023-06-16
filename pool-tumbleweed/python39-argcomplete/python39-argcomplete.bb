@@ -23,8 +23,8 @@ RPROVIDES:${PN} += "python3.9dist-argcomplete \
 python39-argcomplete \
 python3dist-argcomplete"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

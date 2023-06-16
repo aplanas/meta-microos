@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-logreq.def \
 tex-logreq.sty \
 texlive-logreq"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

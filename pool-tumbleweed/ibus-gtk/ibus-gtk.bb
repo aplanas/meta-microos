@@ -9,7 +9,7 @@ RPM_HASH = "a68cf937fbfcc8dd1f0df7b721fd9bfbb158fa5f0447fce24417899d16360709b06d
 
 RPROVIDES:${PN} += "ibus-gtk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtk2-tools \
 ibus \
 ld-linux-aarch64.so.1 \

@@ -216,7 +216,7 @@ font-montserratsemibold \
 font-montserratthin \
 texlive-montserrat-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

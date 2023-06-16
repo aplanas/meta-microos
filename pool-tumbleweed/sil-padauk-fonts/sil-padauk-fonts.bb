@@ -31,7 +31,7 @@ RPROVIDES:${PN} += "locale-my \
 sil-padauk \
 sil-padauk-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

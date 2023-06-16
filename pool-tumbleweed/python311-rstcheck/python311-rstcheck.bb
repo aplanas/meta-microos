@@ -14,8 +14,8 @@ python311-rstcheck \
 python3dist-rstcheck \
 rstcheck"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-docutils \
 update-alternatives"

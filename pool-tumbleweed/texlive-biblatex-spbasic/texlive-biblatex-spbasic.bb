@@ -15,7 +15,7 @@ tex-biblatex-spbasic.cbx \
 tex-biblatex-spbasic.lbx \
 texlive-biblatex-spbasic"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

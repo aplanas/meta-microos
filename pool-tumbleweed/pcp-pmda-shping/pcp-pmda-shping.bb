@@ -12,7 +12,7 @@ RPM_HASH = "496d51a304ccdf3717914fbb16f786afe3f2568d0d2036dd1bb85aecd9584d2825d5
 RPROVIDES:${PN} += "config-pcp-pmda-shping \
 pcp-pmda-shping"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

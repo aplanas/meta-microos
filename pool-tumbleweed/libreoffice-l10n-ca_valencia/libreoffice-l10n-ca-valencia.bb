@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-ca-valencia \
 libreoffice-l10n-ca-valencia \
 locale-libreoffice-ca-valencia"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libreoffice \
 libreoffice-share-linker \
 myspell-ca-ES-valencia"

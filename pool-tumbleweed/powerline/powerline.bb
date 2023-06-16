@@ -15,8 +15,8 @@ python3-powerline-status \
 python3.10dist-powerline-status \
 python3dist-powerline-status"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 libc.so.6 \
 powerline-fonts \
 python-abi \

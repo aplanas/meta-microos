@@ -12,12 +12,12 @@ ctdb \
 ctdb-tests \
 libctdb-event-client-samba4.so"
 
-RDEPENDS:${PN} += "/bin/mktemp \
-/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/killall \
 /usr/bin/mkdir \
+/usr/bin/mktemp \
 /usr/bin/sed \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 fillup \

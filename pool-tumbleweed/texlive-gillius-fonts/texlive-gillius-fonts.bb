@@ -92,7 +92,7 @@ font-gilliusadfno2 \
 font-gilliusadfno2cond \
 texlive-gillius-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

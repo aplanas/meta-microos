@@ -12,7 +12,7 @@ RPM_HASH = "3165f58d67d4c9ec69fde7e2014be406b22513d7a23afb92251fdf51e97c8fa2a563
 RPROVIDES:${PN} += "config-gerbera \
 gerbera"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libavcodec.so.59 \
 libavformat.so.59 \

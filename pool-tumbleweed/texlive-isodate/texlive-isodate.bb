@@ -23,7 +23,7 @@ RPROVIDES:${PN} += "tex-isodate.sty \
 tex-isodateo.sty \
 texlive-isodate"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

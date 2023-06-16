@@ -15,8 +15,8 @@ RPM_HASH = "aad5d2653889b326bc0007a9953dc41a7464a95e009d1782b5f5ac0644efd3ed6e53
 RPROVIDES:${PN} += "config-pacemaker-cli \
 pacemaker-cli"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -27,7 +27,7 @@ tex-uassyr.fd \
 tex-userto.fd \
 texlive-aramaic-serto"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -27,7 +27,7 @@ tex-pgfPT.names.tex \
 tex-pgfPT.process.language.tex \
 texlive-pgf-periodictable"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

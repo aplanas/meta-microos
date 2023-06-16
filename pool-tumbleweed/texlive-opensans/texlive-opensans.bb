@@ -1323,7 +1323,7 @@ tex-opensans.map \
 tex-opensans.sty \
 texlive-opensans"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

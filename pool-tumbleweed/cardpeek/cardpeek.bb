@@ -24,7 +24,7 @@ RPM_HASH = "c96153cdd6cf7ee802e3a149c0f5bd5d6f9104a7adf2289b0724bcb9566e34fc9adb
 
 RPROVIDES:${PN} += "cardpeek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

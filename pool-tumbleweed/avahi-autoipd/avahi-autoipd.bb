@@ -16,7 +16,7 @@ avahi-autoipd \
 group-avahi-autoipd \
 user-avahi-autoipd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -18,7 +18,7 @@ librptlo.so \
 librptuilo.so \
 librptxmllo.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 jre-64 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

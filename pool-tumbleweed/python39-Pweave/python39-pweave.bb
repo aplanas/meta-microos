@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "python3.9dist-pweave \
 python39-Pweave \
 python3dist-pweave"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Markdown \
 python39-Pygments \

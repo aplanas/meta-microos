@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-o2sclpy \
 python39-o2sclpy \
 python3dist-o2sclpy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 o2scl-devel \
 python-abi \
 python39-h5py \

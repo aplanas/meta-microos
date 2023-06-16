@@ -18,7 +18,7 @@ libpspp-1.4.1.so \
 libpspp-core-1.4.1.so \
 pspp"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libatk-1.0.so.0 \
 libc.so.6 \

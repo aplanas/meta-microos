@@ -13,7 +13,7 @@ RPM_HASH = "0932fdc167edb4a9b9eb72c323e0d5902c50890958148ea4ca090e769898f9ef276c
 
 RPROVIDES:${PN} += "hdf5-1-12-2-gnu-openmpi3-hpc-module"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 lua-lmod"
 
 inherit rpm

@@ -92,7 +92,7 @@ font-quattrocentosans \
 font-quattrosans \
 texlive-quattrocento-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

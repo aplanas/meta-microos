@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-pip-tools \
 python39-pip-tools \
 python3dist-pip-tools"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-build \
 python39-click \

@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "ibus-anthy \
 libanthygobject-1.0.so.5 \
 typelib-Anthy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 anthy \
 ld-linux-aarch64.so.1 \
 libanthy.so.0 \

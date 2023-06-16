@@ -10,7 +10,7 @@ RPM_HASH = "3b694d9b4dd2fc367c2b08e39bc73da09eec7c6958c500fdff343c0ee087b82a1231
 RPROVIDES:${PN} += "yast2-/usr/sbin/save-y2logs \
 yast2-logs"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 tar"
 
 inherit rpm

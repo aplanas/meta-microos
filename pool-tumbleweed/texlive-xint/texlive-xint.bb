@@ -43,7 +43,7 @@ tex-xinttools.sty \
 tex-xinttrig.sty \
 texlive-xint"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

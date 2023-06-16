@@ -35,7 +35,7 @@ RPM_HASH = "95f5aef03ef325f704ca3a1e5d13a43a84833b9b97d5865b62acceef25f6cf281133
 
 RPROVIDES:${PN} += "ibutils-ui"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 graphviz-tcl \
 ibutils"
 

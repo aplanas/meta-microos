@@ -12,7 +12,7 @@ RPM_HASH = "78321af7f2b9aefedf2dfc48e4e3686fe3adf2c04002a1d8c710558b4580a6a4b1a8
 
 RPROVIDES:${PN} += "rrep"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 info \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \

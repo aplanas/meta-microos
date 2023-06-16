@@ -17,7 +17,7 @@ votca-csg-apps \
 votca-tools \
 votca-xtp"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libboost-program-options.so.1.82.0 \

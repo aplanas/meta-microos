@@ -10,7 +10,7 @@ RPM_HASH = "50bf99bb91f72fe830009c57e9e74519a54751e7d92570d37245f1e7ba3510a05f5e
 RPROVIDES:${PN} += "deepin-control-center \
 libdccwidgets.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 deepin-account-faces \
 deepin-api \
 deepin-daemon \

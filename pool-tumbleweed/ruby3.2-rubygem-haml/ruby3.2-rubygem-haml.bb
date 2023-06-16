@@ -14,9 +14,9 @@ rubygem-ruby-3.2.0-haml-6 \
 rubygem-ruby-3.2.0-haml-6.0 \
 rubygem-ruby-3.2.0-haml-6.0.12"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

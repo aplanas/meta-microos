@@ -20,9 +20,9 @@ typelib-1-0-Cinnamon-0-1 \
 typelib-Cinnamon \
 typelib-St"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 NetworkManager-applet \
 adwaita-icon-theme \
 cinnamon-control-center-common \

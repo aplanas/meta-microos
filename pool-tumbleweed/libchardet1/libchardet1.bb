@@ -10,8 +10,8 @@ RPM_HASH = "225d2472332dd615a1e90cf6e0f8d030e7403e742fef2a64ce3d0331e5229f48291a
 RPROVIDES:${PN} += "libchardet.so.1 \
 libchardet1"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 libc.so.6 \
 libstdc++.so.6"
 

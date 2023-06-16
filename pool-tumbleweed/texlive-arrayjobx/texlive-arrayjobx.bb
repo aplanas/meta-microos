@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-arrayjob.sty \
 tex-arrayjobx.sty \
 texlive-arrayjobx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

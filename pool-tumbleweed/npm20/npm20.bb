@@ -201,10 +201,10 @@ npm \
 npm-npm \
 npm20"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/node20 \
+/usr/bin/sh \
 group-nobody \
 nodejs-common \
 nodejs20 \

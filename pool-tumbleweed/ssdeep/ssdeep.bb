@@ -11,7 +11,7 @@ RPM_HASH = "3f96d2056c7223d42c806897ab92d29cf85ccb7df6e91552ebf26dec09e772a26fc8
 
 RPROVIDES:${PN} += "ssdeep"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfuzzy.so.2 \

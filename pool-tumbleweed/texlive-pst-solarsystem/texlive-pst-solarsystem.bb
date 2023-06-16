@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "tex-pst-solarsystem.sty \
 tex-pst-solarsystem.tex \
 texlive-pst-solarsystem"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

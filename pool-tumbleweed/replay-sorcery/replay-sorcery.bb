@@ -11,7 +11,7 @@ RPM_HASH = "a64860bd3d370e6a3e951a178a3fbd632c66dd9e34663d11f07a582a22484419ff02
 
 RPROVIDES:${PN} += "replay-sorcery"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libavcodec.so.58.134 \

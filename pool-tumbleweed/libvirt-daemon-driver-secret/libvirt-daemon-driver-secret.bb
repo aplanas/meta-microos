@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-libvirt-daemon-driver-secret \
 libvirt-daemon-driver-secret \
 libvirt-driver-secret.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

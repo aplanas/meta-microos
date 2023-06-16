@@ -15,7 +15,7 @@ tex-texnames.sty \
 tex-tugboat.def \
 texlive-beebe"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

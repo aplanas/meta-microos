@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-pst-barcode.sty \
 tex-pst-barcode.tex \
 texlive-pst-barcode"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

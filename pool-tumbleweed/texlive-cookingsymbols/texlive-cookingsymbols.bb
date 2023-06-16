@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-cookingsymbols.sty \
 tex-cookingsymbols.tfm \
 texlive-cookingsymbols"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

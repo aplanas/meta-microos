@@ -27,9 +27,9 @@ rpm-macro-glib2-gsettings-schema-post \
 rpm-macro-glib2-gsettings-schema-postun \
 rpm-macro-glib2-gsettings-schema-requires"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
+/usr/bin/sh \
 glib2-tools \
 glibc-devel \
 ld-linux-aarch64.so.1 \

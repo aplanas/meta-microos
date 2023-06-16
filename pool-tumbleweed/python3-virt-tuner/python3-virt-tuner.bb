@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3-virt-tuner \
 python3.10dist-virt-tuner \
 python3dist-virt-tuner"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-libvirt-python \
 update-alternatives"

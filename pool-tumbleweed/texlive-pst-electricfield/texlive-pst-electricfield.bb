@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pst-electricfield.sty \
 tex-pst-electricfield.tex \
 texlive-pst-electricfield"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

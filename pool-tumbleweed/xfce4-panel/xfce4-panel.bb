@@ -24,7 +24,7 @@ xfce4-panel-plugins \
 xfce4-statusnotifier-plugin \
 xfce4-statusnotifier-plugin-lang"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \

@@ -27,7 +27,7 @@ RPROVIDES:${PN} += "gamemode \
 gamemoded-/usr/bin/gamemodelist \
 gamemoded-/usr/bin/gamemoderun"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 libgamemodeauto0"
 
 inherit rpm

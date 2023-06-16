@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-tetragonos-database.def \
 tex-tetragonos.sty \
 texlive-tetragonos"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "cpanspec \
 perl-CPAN2OBS \
 perl-PodViewSpec"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 perl-Algorithm--Diff \
 perl-Archive--Tar \

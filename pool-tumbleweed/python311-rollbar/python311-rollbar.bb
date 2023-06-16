@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-rollbar \
 python311-rollbar \
 python3dist-rollbar"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-requests \
 python311-setuptools \

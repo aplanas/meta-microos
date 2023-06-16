@@ -20,9 +20,9 @@ python3.10dist-pint \
 python310-Pint \
 python3dist-pint"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-importlib-metadata \
 python310-importlib-resources \

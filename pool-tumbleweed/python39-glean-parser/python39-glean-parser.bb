@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-glean-parser \
 python39-glean-parser \
 python3dist-glean-parser"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Jinja2 \
 python39-MarkupSafe \

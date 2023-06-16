@@ -9,7 +9,7 @@ RPM_HASH = "f2c8cc464f13907d55e7ebc59b5020d117c04f7ef1be4735601b7ce016a6b6f6126e
 
 RPROVIDES:${PN} += "mako"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

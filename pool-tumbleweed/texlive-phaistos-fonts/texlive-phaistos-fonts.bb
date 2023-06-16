@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "config-texlive-phaistos-fonts \
 font-phaistos \
 texlive-phaistos-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

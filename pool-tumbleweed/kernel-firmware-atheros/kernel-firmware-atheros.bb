@@ -97,8 +97,8 @@ firmware-wil6210.brd \
 firmware-wil6210.fw \
 kernel-firmware-atheros"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

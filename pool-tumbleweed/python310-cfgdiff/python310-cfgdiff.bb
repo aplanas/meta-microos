@@ -23,8 +23,8 @@ python3.10dist-cfgdiff \
 python310-cfgdiff \
 python3dist-cfgdiff"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-PyYAML \
 python310-configobj \

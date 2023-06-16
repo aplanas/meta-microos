@@ -9,7 +9,7 @@ RPM_HASH = "b92f2a7735876e00060ec5b509229bc3330b6bbeb1e981180aca4e2d5bda7eb93253
 
 RPROVIDES:${PN} += "hackrf-udev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 shadow"
 
 inherit rpm

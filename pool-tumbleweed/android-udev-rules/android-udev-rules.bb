@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "android-tools-udev \
 android-udev-rules \
 group-adbusers"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

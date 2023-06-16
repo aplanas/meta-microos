@@ -16,9 +16,9 @@ rubygem-ruby-3.2.0-fluentd-1 \
 rubygem-ruby-3.2.0-fluentd-1.15 \
 rubygem-ruby-3.2.0-fluentd-1.15.3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-bundler \
 rubygem-ruby-3.2.0-cool.io \

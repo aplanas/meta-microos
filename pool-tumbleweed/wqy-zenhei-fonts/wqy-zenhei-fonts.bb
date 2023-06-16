@@ -149,7 +149,7 @@ scalable-font-zh-TW \
 ttf-wqy-zenhei \
 wqy-zenhei-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

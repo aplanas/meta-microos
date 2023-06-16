@@ -59,7 +59,7 @@ texdev-xr.sty \
 texdev-xspace.sty \
 texlive-latex-tools-dev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

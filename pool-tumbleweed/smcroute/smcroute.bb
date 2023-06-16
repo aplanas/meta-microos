@@ -19,7 +19,7 @@ RPM_HASH = "99a635fec3b0edcfeb718f24c8eef209b9548ffd312defba422cbe8c0bd235bb8ac3
 RPROVIDES:${PN} += "config-smcroute \
 smcroute"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2"

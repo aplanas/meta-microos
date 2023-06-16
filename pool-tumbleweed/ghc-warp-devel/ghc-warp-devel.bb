@@ -10,7 +10,7 @@ RPM_HASH = "59017dc624be0ed7cc062c00946418be5838f1f53b09b310d46bccd6911004b3afba
 RPROVIDES:${PN} += "ghc-devel-warp-3.3.25-E7dqXF5eh0k5u5fIPKRjLZ \
 ghc-warp-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ \

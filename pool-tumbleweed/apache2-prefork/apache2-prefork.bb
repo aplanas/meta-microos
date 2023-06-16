@@ -14,8 +14,8 @@ RPM_HASH = "66892664e73093d89588264a5fd9e06b7c1fddc24a4ff6149c705ee4ff810fef27d2
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-prefork"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 grep \

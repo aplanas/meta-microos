@@ -10,7 +10,7 @@ RPM_HASH = "de74554cd686779224e71fb45438363c2e3388db0e844e54a5e9218a685aa927e209
 
 RPROVIDES:${PN} += "html-xml-utils"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

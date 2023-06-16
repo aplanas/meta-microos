@@ -14,7 +14,7 @@ RPM_HASH = "faeba3b521b9afbb5c72989331392a21ac5b66750081db9c2112f489542dd3dca8f5
 
 RPROVIDES:${PN} += "netcdf-4-9-2-gnu-openmpi1-hpc-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5-gnu-openmpi1-hpc-devel \
 ld-linux-aarch64.so.1 \

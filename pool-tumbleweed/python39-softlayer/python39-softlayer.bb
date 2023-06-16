@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "python3.9dist-softlayer \
 python39-softlayer \
 python3dist-softlayer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-click \
 python39-prettytable \

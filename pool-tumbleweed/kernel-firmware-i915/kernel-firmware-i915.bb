@@ -134,8 +134,8 @@ firmware-i915/tgl-huc-7.9.3.bin \
 firmware-i915/tgl-huc.bin \
 kernel-firmware-i915"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

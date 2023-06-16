@@ -11,7 +11,7 @@ RPM_HASH = "04456273f5771015a59b0a7790c461702e36332afac9fbc78419863ed5c5ae8fa9d1
 
 RPROVIDES:${PN} += "cross-s390x-binutils"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \

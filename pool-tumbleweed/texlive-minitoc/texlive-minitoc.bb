@@ -23,7 +23,7 @@ tex-mtcoff.sty \
 tex-mtcpatchmem.sty \
 texlive-minitoc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -46,7 +46,7 @@ font-wenquanyiwenquanyibitmapsong \
 wqy-bitmap-fonts \
 wqy-bitmapfont"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

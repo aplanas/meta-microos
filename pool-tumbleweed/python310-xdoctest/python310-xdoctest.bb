@@ -13,8 +13,8 @@ python3.10dist-xdoctest \
 python310-xdoctest \
 python3dist-xdoctest"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-six \
 update-alternatives"

@@ -10,7 +10,7 @@ RPM_HASH = "10c2c7ce3bd89b669ca6951e18b977e7fbe405d6a47a5a94ee8f640bb9a082034624
 RPROVIDES:${PN} += "ghc-devel-tasty-1.4.3-FhQLnMluiBU5Fwwb1Rsznz \
 ghc-tasty-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
 ghc-devel-base-4.17.1.0 \

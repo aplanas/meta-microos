@@ -25,7 +25,7 @@ RPROVIDES:${PN} += "man-dvigif.1 \
 man-dvipng.1 \
 texlive-dvipng"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -26,7 +26,7 @@ tex-voltabbr.cfg \
 tex-weigabbr.cfg \
 texlive-unitsdef"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

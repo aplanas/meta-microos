@@ -20,7 +20,7 @@ RPROVIDES:${PN} += "python3.10dist-variety \
 python3dist-variety \
 variety"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ImageMagick \
 libnotify4 \

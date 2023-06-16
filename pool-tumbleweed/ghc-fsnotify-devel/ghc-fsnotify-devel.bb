@@ -10,7 +10,7 @@ RPM_HASH = "6c0dabcf957e9a146ea5cf698d3ddd2995ecf4a2517ee850e10bc22f1c4b719bfa7a
 RPROVIDES:${PN} += "ghc-devel-fsnotify-0.4.1.0-2wEvt7wcuNwGNHTpTKKSuK \
 ghc-fsnotify-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-devel-base-4.17.1.0 \

@@ -9,11 +9,11 @@ PV = "2.38.1"
 RPM_NAME = "util-linux-2.38.1-13.1.aarch64.rpm"
 RPM_HASH = "29985d064be558c78735a93b83977053fa0d13b29aa939d46a15eaf2466e3b7ee27af60c121a848837faa4130949e105a9262a977079dc1c8331e7684266ee1a"
 
-RPROVIDES:${PN} += "/bin/kill \
-/bin/more \
-/bin/mount \
-/bin/su \
-/bin/umount \
+RPROVIDES:${PN} += "/usr/bin/kill \
+/usr/bin/more \
+/usr/bin/mount \
+/usr/bin/su \
+/usr/bin/umount \
 config-util-linux \
 eject \
 fsck-with-dev-lock \
@@ -23,7 +23,7 @@ rfkill \
 util-linux \
 util-linux-fake+no-canonicalize"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaudit.so.1 \
 libblkid.so.1 \

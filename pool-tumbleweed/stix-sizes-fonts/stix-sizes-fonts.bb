@@ -17,7 +17,7 @@ font-stixsizethreesym \
 font-stixsizetwosym \
 stix-sizes-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl \

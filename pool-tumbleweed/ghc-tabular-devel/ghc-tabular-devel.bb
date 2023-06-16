@@ -10,7 +10,7 @@ RPM_HASH = "80aaaf0ddfd592b0bf569abdbbdbcd514c9b7cad8a213e024b025668b27b4a412530
 RPROVIDES:${PN} += "ghc-devel-tabular-0.2.2.8-5oBUDJP9F9qUMGPeotGAp \
 ghc-tabular-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-csv-0.1.2-LKioaw43aTAAAKpIk04xxN \

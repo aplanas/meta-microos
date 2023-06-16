@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "config-davfs2 \
 davfs2 \
 fuse-davfs2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 fuse \

@@ -17,7 +17,7 @@ tex-ltugproc.cls \
 tex-ltugproc.sty \
 texlive-tugboat"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

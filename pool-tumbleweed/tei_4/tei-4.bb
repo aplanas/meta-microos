@@ -25,11 +25,11 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-tei-4 \
 tei-4"
 
-RDEPENDS:${PN} += "/bin/sh \
-/bin/touch \
-/usr/bin/edit-xml-catalog \
+RDEPENDS:${PN} += "/usr/bin/edit-xml-catalog \
 /usr/bin/install \
 /usr/bin/sgml-register-catalog \
+/usr/bin/sh \
+/usr/bin/touch \
 /usr/bin/xmlcatalog \
 awk \
 grep \

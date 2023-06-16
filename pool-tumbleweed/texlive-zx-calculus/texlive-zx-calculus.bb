@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-tikzlibraryzx-calculus.code.tex \
 tex-zx-calculus.sty \
 texlive-zx-calculus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

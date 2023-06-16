@@ -21,7 +21,7 @@ tex-zcmra.tfm \
 tex-zcmra.vf \
 texlive-relenc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

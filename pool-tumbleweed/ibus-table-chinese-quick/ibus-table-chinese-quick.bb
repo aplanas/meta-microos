@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "ibus-table-chinese-quick \
 ibus-table-quick \
 locale-ibus-zh-TW;zh-HK"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ibus-table"
 
 inherit rpm

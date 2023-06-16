@@ -15,7 +15,7 @@ libkpabase.so \
 libkpaexif.so \
 libkpathumbnails.so"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libKF5Archive.so.5 \

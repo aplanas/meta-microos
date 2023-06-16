@@ -178,9 +178,12 @@ def normalize_pkgs(pkgs):
     def _replace_char(pkg):
         return pkg.replace("_", "-").replace(":", "-")
 
+    def _add_usr(pkg):
+        return f"/usr{pkg}" if pkg.startswith("/bin/") else pkg
+
     def _normalize(pkg):
-        return _replace_char(
-            _replace_parens(_remove_arch(_remove_versioned_symbol(pkg)))
+        return _add_usr(
+            _replace_char(_replace_parens(_remove_arch(_remove_versioned_symbol(pkg))))
         )
 
     def _ignore_prefix(pkg):

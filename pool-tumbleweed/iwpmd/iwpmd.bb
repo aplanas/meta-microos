@@ -11,7 +11,7 @@ RPM_HASH = "9c2f53b9f7e6a3d2ea2b47e18445ce6129f94b240dd22dc808dc95a08cf00c49b092
 RPROVIDES:${PN} += "config-iwpmd \
 iwpmd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnl-3.so.200 \

@@ -16,7 +16,7 @@ tex-luabidi-test-arabmaths.tex \
 tex-luabidi.sty \
 texlive-luabidi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

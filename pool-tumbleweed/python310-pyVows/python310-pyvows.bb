@@ -13,8 +13,8 @@ python3.10dist-pyvows \
 python310-pyVows \
 python3dist-pyvows"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Unidecode \
 python310-gevent \

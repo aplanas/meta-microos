@@ -14,8 +14,8 @@ python3.10dist-gprof2dot \
 python310-gprof2dot \
 python3dist-gprof2dot"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

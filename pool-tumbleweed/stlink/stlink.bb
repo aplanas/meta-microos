@@ -9,7 +9,7 @@ RPM_HASH = "8e21dde7f4731fb48a99e703044faa48db53279e188c9fd50ed9cf765f0851641060
 
 RPROVIDES:${PN} += "stlink"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libstlink.so.1 \

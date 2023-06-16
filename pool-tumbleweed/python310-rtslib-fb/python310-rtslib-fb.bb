@@ -17,8 +17,8 @@ python310-rtslib \
 python310-rtslib-fb \
 python3dist-rtslib-fb"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 alts \
 python-abi \
 python-rtslib-fb-common \

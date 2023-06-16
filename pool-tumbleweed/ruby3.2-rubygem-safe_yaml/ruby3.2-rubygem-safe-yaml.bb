@@ -14,9 +14,9 @@ rubygem-ruby-3.2.0-safe-yaml-1.0 \
 rubygem-ruby-3.2.0-safe-yaml-1.0.5 \
 rubygem-safe-yaml"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 update-alternatives"
 

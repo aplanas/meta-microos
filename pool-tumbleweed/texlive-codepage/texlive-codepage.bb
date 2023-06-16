@@ -20,7 +20,7 @@ tex-shapecm.tex \
 tex-shapedc.tex \
 texlive-codepage"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

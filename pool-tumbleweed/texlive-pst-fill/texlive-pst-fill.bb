@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-pst-fill.sty \
 tex-pst-fill.tex \
 texlive-pst-fill"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

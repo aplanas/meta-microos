@@ -23,7 +23,7 @@ tex-hobsub-hyperref.sty \
 tex-hobsub.sty \
 texlive-hobsub"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

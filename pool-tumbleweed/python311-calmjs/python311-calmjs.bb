@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-calmjs \
 python311-calmjs \
 python3dist-calmjs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-calmjs.parse \
 python311-calmjs.types \

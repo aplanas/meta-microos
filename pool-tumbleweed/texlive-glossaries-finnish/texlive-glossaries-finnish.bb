@@ -13,7 +13,7 @@ tex-glossaries-finnish-utf8.ldf \
 tex-glossaries-finnish.ldf \
 texlive-glossaries-finnish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

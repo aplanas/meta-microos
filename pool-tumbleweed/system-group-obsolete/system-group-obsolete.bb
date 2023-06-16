@@ -16,7 +16,7 @@ group-sys \
 group-xok \
 system-group-obsolete"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 sysuser-shadow"
 
 inherit rpm

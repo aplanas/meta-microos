@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-leipzig.sty \
 tex-leipzig.tex \
 texlive-leipzig"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

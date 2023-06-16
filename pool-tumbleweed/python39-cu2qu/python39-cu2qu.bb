@@ -11,8 +11,8 @@ RPROVIDES:${PN} += "python3.9dist-cu2qu \
 python39-cu2qu \
 python3dist-cu2qu"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-FontTools"
 

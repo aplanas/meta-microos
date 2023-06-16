@@ -16,8 +16,8 @@ python3.10dist-proxy.py \
 python310-proxy.py \
 python3dist-proxy.py"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

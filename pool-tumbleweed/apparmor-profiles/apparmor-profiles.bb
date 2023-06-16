@@ -18,7 +18,7 @@ RPROVIDES:${PN} += "apparmor-profiles \
 config-apparmor-profiles \
 subdomain-profiles"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 apparmor-abstractions \
 apparmor-parser-CAP-SYSLOG"
 

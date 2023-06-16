@@ -25,7 +25,7 @@ tex-dvdcoll.cls \
 tex-pdfnotiz.sty \
 texlive-dvdcoll"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -12,7 +12,7 @@ RPM_HASH = "f130ca8b1bbaff0b0a3589deb59b3b002b0a73e14d6fc6d60a3be7e7ae56e673468a
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/rmedigicontrol \
 rmedigicontrol"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \

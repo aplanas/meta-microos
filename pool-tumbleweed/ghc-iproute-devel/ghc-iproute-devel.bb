@@ -10,7 +10,7 @@ RPM_HASH = "2bc2615f45247c5ae5d320210e39cf5c3719ad8a7af25b5de64ff52ba34780338306
 RPROVIDES:${PN} += "ghc-devel-iproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd \
 ghc-iproute-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-appar-0.1.8-JYpyJYPkUOgKorqU8WSWRv \
 ghc-devel-base-4.17.1.0 \

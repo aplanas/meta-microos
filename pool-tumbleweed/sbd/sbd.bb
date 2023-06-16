@@ -10,10 +10,10 @@ RPM_HASH = "ae07549489f759647e24afd9e731ba96750d10aadb879703cb2461f2d298eac50787
 RPROVIDES:${PN} += "pkgconfig-sbd \
 sbd"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

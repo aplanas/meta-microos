@@ -11,8 +11,8 @@ RPM_HASH = "d58dc286a442007108e11d18f173e146339b846297bc1cfdea1e13d88bf14a93795a
 RPROVIDES:${PN} += "pkgconfig-yate \
 yate-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libyate6-4-0"
 
 inherit rpm

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-ijsra.bbx \
 tex-ijsra.cbx \
 texlive-biblatex-ijsra"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

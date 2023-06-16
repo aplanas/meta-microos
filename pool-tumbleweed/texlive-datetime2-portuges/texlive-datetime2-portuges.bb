@@ -16,7 +16,7 @@ tex-datetime2-portuges-utf8.ldf \
 tex-datetime2-portuges.ldf \
 texlive-datetime2-portuges"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

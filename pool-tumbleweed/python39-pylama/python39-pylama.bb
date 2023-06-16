@@ -22,8 +22,8 @@ RPROVIDES:${PN} += "python3.9dist-pylama \
 python39-pylama \
 python3dist-pylama"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-mccabe \
 python39-pycodestyle \

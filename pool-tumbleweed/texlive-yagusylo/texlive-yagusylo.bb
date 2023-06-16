@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-yagusylo.cfg \
 tex-yagusylo.sty \
 texlive-yagusylo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

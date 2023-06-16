@@ -23,7 +23,7 @@ tex-ot1whi20.tfm \
 tex-othello.sty \
 texlive-othello"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

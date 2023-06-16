@@ -18,7 +18,7 @@ osgi-org.apache.tomcat-el-api \
 tomcat-el-3-0-api \
 tomcat-el-3.0-api"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
 javapackages-filesystem \
 update-alternatives"

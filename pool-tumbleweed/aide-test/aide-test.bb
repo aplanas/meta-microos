@@ -9,6 +9,6 @@ RPM_HASH = "5922a28063537da6f590d325a2a7639371388f3c28cf76e0c6f7eed824b6eddc4cc1
 
 RPROVIDES:${PN} += "aide-test"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

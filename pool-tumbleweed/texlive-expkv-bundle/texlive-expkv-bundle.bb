@@ -38,7 +38,7 @@ tex-t-expkv-pop.tex \
 tex-t-expkv.tex \
 texlive-expkv-bundle"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

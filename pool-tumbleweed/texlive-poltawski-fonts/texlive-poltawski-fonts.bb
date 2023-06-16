@@ -133,7 +133,7 @@ font-antykwapoltawskiego \
 font-antykwapoltawskiegolight \
 texlive-poltawski-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

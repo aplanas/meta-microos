@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "kapidox \
 python3.10dist-kapidox \
 python3dist-kapidox"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 doxygen \
 graphviz \
 graphviz-gd \

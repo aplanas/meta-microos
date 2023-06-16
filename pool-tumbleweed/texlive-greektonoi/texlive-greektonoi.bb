@@ -24,7 +24,7 @@ RPROVIDES:${PN} += "tex-greektonoi.map \
 tex-greektonoi.sty \
 texlive-greektonoi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

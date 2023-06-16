@@ -10,7 +10,7 @@ RPM_HASH = "091478b87d2e5d0c5f0bb381bab1b8cdd9237f108b840f2bcce9687d741c621abe7d
 RPROVIDES:${PN} += "ghc-crypto-random-devel \
 ghc-devel-crypto-random-0.0.9-JRbP8k0BmeXEHkvOdlpIfk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-crypto-random \
 ghc-devel-base-4.17.1.0 \

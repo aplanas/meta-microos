@@ -13,8 +13,8 @@ python3.10dist-google-auth-oauthlib \
 python310-google-auth-oauthlib \
 python3dist-google-auth-oauthlib"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-google-auth \
 python310-requests-oauthlib \

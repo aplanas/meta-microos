@@ -10,7 +10,7 @@ RPM_HASH = "cfb4308c59142a0b4b52c9f8d32e24d9ad753c2cc05b196dbefce0aff4a0e16a582c
 
 RPROVIDES:${PN} += "kded"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5CoreAddons.so.5 \

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "google-tinos-fonts \
 noto-tinos \
 noto-tinos-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

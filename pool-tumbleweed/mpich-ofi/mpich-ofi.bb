@@ -24,9 +24,9 @@ libmpifort.so.12 \
 mpi \
 mpich-ofi"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfabric.so.1 \

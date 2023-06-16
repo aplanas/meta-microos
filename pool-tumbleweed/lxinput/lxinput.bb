@@ -9,7 +9,7 @@ RPM_HASH = "60695c4aa896c4ec98bd55aa4951da291eadc3a346456b507e7bad5aa880fb340d60
 
 RPROVIDES:${PN} += "lxinput"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

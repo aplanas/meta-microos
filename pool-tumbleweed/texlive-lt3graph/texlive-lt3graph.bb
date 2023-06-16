@@ -14,7 +14,7 @@ tex-lt3graph-packagedoc.cls \
 tex-lt3graph.sty \
 texlive-lt3graph"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

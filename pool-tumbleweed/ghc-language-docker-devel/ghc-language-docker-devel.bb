@@ -11,7 +11,7 @@ RPM_HASH = "76fcbfff567c2ddfc029a7fe9753fec0ff7a1280e201c6b302a5128569ada0315032
 RPROVIDES:${PN} += "ghc-devel-language-docker-11.0.0-LOoHldD1EPH8sK8xHuKTA9 \
 ghc-language-docker-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

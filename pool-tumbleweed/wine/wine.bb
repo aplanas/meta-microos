@@ -49,9 +49,9 @@ config-wine \
 wine \
 wine-mp3"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libOSMesa.so.8 \

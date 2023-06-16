@@ -11,8 +11,8 @@ RPM_HASH = "16dec0b01abfcce969041a48c4653878dfb7226d6d3969c99bfe5ed7486bba4f6a99
 
 RPROVIDES:${PN} += "gnome-session-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/dbus-launch \
+RDEPENDS:${PN} += "/usr/bin/dbus-launch \
+/usr/bin/sh \
 gsettings-desktop-schemas \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

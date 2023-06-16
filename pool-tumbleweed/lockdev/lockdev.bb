@@ -10,7 +10,7 @@ RPM_HASH = "f593710d7d9dead764c33c9670af8ce6ba1c02b4d479900c8aafac7e90199d7b63e1
 
 RPROVIDES:${PN} += "lockdev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 liblockdev.so.1 \
 permissions \

@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "config-dante-server \
 dante-server \
 dantesrv"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 dante \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

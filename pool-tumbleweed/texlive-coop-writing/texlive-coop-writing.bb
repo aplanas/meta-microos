@@ -29,7 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex-coop-writing.sty \
 texlive-coop-writing"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

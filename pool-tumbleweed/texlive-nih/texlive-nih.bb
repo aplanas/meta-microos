@@ -19,7 +19,7 @@ RPROVIDES:${PN} += "tex-denselists.sty \
 tex-nih.cls \
 texlive-nih"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

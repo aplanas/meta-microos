@@ -11,7 +11,7 @@ RPM_HASH = "5868cdb37bdd396340c1c8c6e24578bb77b07f33af2dd6bed58d919f172b2f029c97
 RPROVIDES:${PN} += "ghc-devel-network-multicast-0.3.2-GrPQCwnsCBBDUXDpEy9gVm \
 ghc-network-multicast-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \

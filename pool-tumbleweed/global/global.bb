@@ -13,8 +13,8 @@ RPM_HASH = "f6bf1a1e22566d5a54a67f05a781a618ec1e3e3c2dc16d45e949dc6c421a1980ce43
 RPROVIDES:${PN} += "config-global \
 global"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libltdl.so.7 \

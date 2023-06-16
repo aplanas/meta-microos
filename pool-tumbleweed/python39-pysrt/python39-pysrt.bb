@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.9dist-pysrt \
 python39-pysrt \
 python3dist-pysrt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-chardet \
 update-alternatives"

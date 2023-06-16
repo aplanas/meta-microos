@@ -10,7 +10,7 @@ RPM_HASH = "4d5306986b53791c64e4c861cba2fa705e263a02c8bc440437d569c86e1c4c4f7b29
 RPROVIDES:${PN} += "ghc-clock-devel \
 ghc-devel-clock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-clock \
 ghc-compiler \
 ghc-devel-base-4.17.1.0"

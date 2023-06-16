@@ -112,7 +112,7 @@ font-imfellflowers1 \
 font-imfellflowers2 \
 texlive-imfellenglish-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

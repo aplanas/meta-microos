@@ -20,8 +20,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-zram-service"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 systemd"
 
 inherit rpm

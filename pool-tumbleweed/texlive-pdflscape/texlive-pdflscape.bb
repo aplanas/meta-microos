@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "tex-pdflscape-nometadata.sty \
 tex-pdflscape.sty \
 texlive-pdflscape"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

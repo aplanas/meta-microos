@@ -18,7 +18,7 @@ tex-loadhyph-mn-cyrl-x-lmc.tex \
 tex-loadhyph-mn-cyrl.tex \
 texlive-hyphen-mongolian"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

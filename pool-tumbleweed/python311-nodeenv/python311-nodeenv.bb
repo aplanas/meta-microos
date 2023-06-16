@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-nodeenv \
 python311-nodeenv \
 python3dist-nodeenv"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 update-alternatives"

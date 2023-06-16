@@ -11,7 +11,7 @@ RPM_HASH = "16fdc2d0dfbca34c30ee184b9ebae4c571426f6dac22f98f5473bdf4f35785c16df8
 
 RPROVIDES:${PN} += "openttd-dedicated"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
 liblzma.so.5 \

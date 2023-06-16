@@ -70,8 +70,8 @@ firmware-mt7662.bin \
 kernel-firmware-mediatek \
 ralink-firmware"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 dracut"
 

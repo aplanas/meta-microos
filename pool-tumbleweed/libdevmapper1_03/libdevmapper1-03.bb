@@ -10,8 +10,8 @@ RPM_HASH = "6f23ec53d799416cbaf73dabcbede8ea4a15b714082be36ab6b33eb94c60ddf8809f
 RPROVIDES:${PN} += "libdevmapper.so.1.03 \
 libdevmapper1-03"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

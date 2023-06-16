@@ -13,7 +13,7 @@ RPM_HASH = "6f56db1672bd12e1ae5c31496814e69221f95448aaa94ba4fd0208c9019f3cdc74e6
 
 RPROVIDES:${PN} += "hdf5-1-12-2-gnu-openmpi1-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -184,7 +184,7 @@ font-charissil \
 font-charssil \
 texlive-charissil-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

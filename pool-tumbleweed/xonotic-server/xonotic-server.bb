@@ -12,8 +12,8 @@ RPM_HASH = "19f6f27e60f1e626839149411d59766bdd7245f5572344e3a7eb4dd16d19ebe64a21
 
 RPROVIDES:${PN} += "xonotic-server"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libd0-blind-id.so.0 \

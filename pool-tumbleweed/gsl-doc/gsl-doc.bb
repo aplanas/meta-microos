@@ -16,6 +16,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-doc"
 
-RDEPENDS:${PN} += "/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

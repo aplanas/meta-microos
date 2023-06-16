@@ -19,7 +19,7 @@ tex-lchenc.def \
 tex-ocherokee.sty \
 texlive-ocherokee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

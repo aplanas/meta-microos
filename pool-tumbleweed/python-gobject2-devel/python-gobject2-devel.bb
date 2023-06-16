@@ -13,9 +13,9 @@ python-gobject2-devel \
 python-gobject2-doc \
 python2-gobject2-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 pkgconfig-gobject-2.0 \
 pkgconfig-libffi \
 python-gobject2"

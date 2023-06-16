@@ -15,7 +15,7 @@ tex-hyplain.tex \
 tex-hyrules.tex \
 texlive-hyplain"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

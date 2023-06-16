@@ -22,8 +22,8 @@ python310-jupyter-client \
 python310-jupyter-client7 \
 python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-entrypoints \
 python310-jupyter-core \

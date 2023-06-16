@@ -14,9 +14,9 @@ RPROVIDES:${PN} += "booth \
 config-booth \
 pkgconfig-booth"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \

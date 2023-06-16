@@ -25,7 +25,7 @@ tex-pxpdfpages.sty \
 tex-pxtextpos.sty \
 texlive-gentombow"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-multido.sty \
 tex-multido.tex \
 texlive-multido"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

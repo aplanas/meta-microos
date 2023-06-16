@@ -15,8 +15,8 @@ python3.9dist-md2workflow \
 python39-md2workflow \
 python3dist-md2workflow"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-icalendar \
 python39-md2workflow-common \

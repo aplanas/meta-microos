@@ -10,7 +10,7 @@ RPM_HASH = "1e0c379339d5a339b6630ba9a8b4d22a9b0cfc992d3beb9e9be7690eae21d43e9696
 RPROVIDES:${PN} += "ghc-devel-lift-type-0.1.1.1-2p47b0Ftg8mEbzaiZ22oeB \
 ghc-lift-type-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-template-haskell-2.19.0.0 \

@@ -41,7 +41,7 @@ tex-pdfwebtocfront.tex \
 tex-twinx-startup.tex \
 texlive-cweb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

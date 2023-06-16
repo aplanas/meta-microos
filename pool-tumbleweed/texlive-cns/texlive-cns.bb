@@ -270,7 +270,7 @@ tex-c7so1225.tfm \
 tex-c7so1226.tfm \
 texlive-cns"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

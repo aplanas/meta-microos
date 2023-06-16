@@ -23,7 +23,7 @@ tex-perpage.sty \
 tex-suffix.sty \
 texlive-bigfoot"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

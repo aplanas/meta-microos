@@ -12,7 +12,7 @@ openvswitch-ovn-/usr/bin/ovn-northd \
 openvswitch-ovn-central \
 ovn-central"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libopenvswitch-3.1.so.0 \

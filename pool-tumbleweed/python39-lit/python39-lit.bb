@@ -16,8 +16,8 @@ python3.9dist-lit \
 python39-lit \
 python3dist-lit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

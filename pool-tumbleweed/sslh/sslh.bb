@@ -12,7 +12,7 @@ RPM_HASH = "c7c6fa3a14a15f70d36975755d60c0adeb5226390fc0bd468e798d0aa0bd7f53466d
 RPROVIDES:${PN} += "config-sslh \
 sslh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-nobody \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

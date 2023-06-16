@@ -14,8 +14,8 @@ python311-jupyter-qtconsole \
 python311-qtconsole \
 python3dist-qtconsole"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 alts \
 python-abi \
 python311-Pygments \

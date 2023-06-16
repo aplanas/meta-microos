@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.9dist-easydev \
 python39-easydev \
 python3dist-easydev"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-colorama \
 python39-colorlog \

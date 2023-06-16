@@ -20,8 +20,8 @@ votca-common \
 votca-csg-common \
 votca-xtp-common"
 
-RDEPENDS:${PN} += "/bin/bash \
-/usr/bin/awk \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \
 bash \

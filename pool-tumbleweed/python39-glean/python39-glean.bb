@@ -16,9 +16,9 @@ RPROVIDES:${PN} += "python3.9dist-glean \
 python39-glean \
 python3dist-glean"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

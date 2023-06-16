@@ -16,7 +16,7 @@ tex-datetime2-turkish-utf8.ldf \
 tex-datetime2-turkish.ldf \
 texlive-datetime2-turkish"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

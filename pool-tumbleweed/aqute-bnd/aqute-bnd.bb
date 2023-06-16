@@ -29,7 +29,7 @@ mvn-biz.aQute.bnd-biz.aQute.bnd.ant-pom- \
 mvn-biz.aQute.bnd-bnd \
 mvn-biz.aQute.bnd-bnd-pom-"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 aqute-bndlib \
 java-headless \
 javapackages-filesystem \

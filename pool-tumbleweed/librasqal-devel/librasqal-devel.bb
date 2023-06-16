@@ -11,8 +11,8 @@ RPM_HASH = "aff00f355e2a6e3eb454a85692c323440aeee2ed5f6cef6c14076d10f5e019c63d1e
 RPROVIDES:${PN} += "librasqal-devel \
 pkgconfig-rasqal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libraptor-devel \
 librasqal3 \
 pkgconfig-raptor2"

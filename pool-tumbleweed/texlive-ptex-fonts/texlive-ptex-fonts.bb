@@ -104,7 +104,7 @@ tex-tmin9.tfm \
 tex-tmin9.vf \
 texlive-ptex-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -13,7 +13,7 @@ locale-ko \
 scalable-font-ko \
 ttf-alee"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

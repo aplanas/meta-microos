@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "font-pazomath \
 font-pazomathblackboardbold \
 texlive-mathpazo-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

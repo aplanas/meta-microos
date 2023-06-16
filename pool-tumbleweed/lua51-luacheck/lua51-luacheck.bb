@@ -19,8 +19,8 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lua51-luacheck \
 luacheck"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.1 \
+RDEPENDS:${PN} += "/usr/bin/lua5.1 \
+/usr/bin/sh \
 lua51 \
 lua51-argparse \
 lua51-luafilesystem \

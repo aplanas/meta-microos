@@ -19,7 +19,7 @@ tex-loadhyph-el-monoton.tex \
 tex-loadhyph-el-polyton.tex \
 texlive-hyphen-greek"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

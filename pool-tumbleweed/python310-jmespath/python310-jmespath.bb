@@ -41,8 +41,8 @@ python3.10dist-jmespath \
 python310-jmespath \
 python3dist-jmespath"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-ply \
 update-alternatives"

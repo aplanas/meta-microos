@@ -13,9 +13,9 @@ RPM_HASH = "f22cda9e97c5a18f3c8c05ba12b35a81115b68ef5294f7db3ae2c35a2e6c8515e28f
 RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-upstream"
 
-RDEPENDS:${PN} += "/bin/ln \
-/bin/rm \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/ln \
+/usr/bin/rm \
+/usr/bin/sh \
 compiz"
 
 inherit rpm

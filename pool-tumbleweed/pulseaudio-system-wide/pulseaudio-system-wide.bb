@@ -18,7 +18,7 @@ RPM_HASH = "e190cc59dc71293e7f9da3db14cdee1efd50052b4e0547500f0a668ea9062acd827a
 
 RPROVIDES:${PN} += "pulseaudio-system-wide"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 pulseaudio \
 systemd"
 

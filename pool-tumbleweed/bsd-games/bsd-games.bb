@@ -13,7 +13,7 @@ RPM_HASH = "35e8c517a952c3b7a25ef3f523cb1ba69559b731baba6c8850e3cc9ee2c69ee7f1f9
 
 RPROVIDES:${PN} += "bsd-games"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-games \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

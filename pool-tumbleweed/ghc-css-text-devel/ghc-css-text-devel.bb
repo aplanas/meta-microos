@@ -10,7 +10,7 @@ RPM_HASH = "ccfab95e355b21776f46ed61937c34551da5628396cc8fe0540e2a6b6084088ba6c7
 RPROVIDES:${PN} += "ghc-css-text-devel \
 ghc-devel-css-text-0.1.3.0-21S5OjTqOp19taDQmfqmQs"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-css-text \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \

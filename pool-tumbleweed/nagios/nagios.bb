@@ -23,10 +23,10 @@ RPROVIDES:${PN} += "config-nagios \
 monitoring-daemon \
 nagios"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/logger \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/logger \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 coreutils \
 fillup \

@@ -19,8 +19,8 @@ RPM_HASH = "e68ce9a92a263439faa2f8942fc0269e7aa0569e661b93f66e4a47c13fc5da46ead7
 RPROVIDES:${PN} += "libspread-sheet-widget.so.0 \
 libspread-sheet-widget0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libatk-1.0.so.0 \
 libc.so.6 \

@@ -14,7 +14,7 @@ RPROVIDES:${PN} += "tex-randomlist.sty \
 tex-randomlist.tex \
 texlive-randomlist"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

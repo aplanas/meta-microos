@@ -22,9 +22,9 @@ RPROVIDES:${PN} += "config-sphinx \
 searchd \
 sphinx"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/getent \
+RDEPENDS:${PN} += "/usr/bin/getent \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 /usr/sbin/useradd \
 fillup \

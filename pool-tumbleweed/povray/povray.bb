@@ -17,8 +17,8 @@ RPM_HASH = "33554effcc175f91942f1d604696d2f737ee0b6a972cb82a94e3cef107df839d4434
 RPROVIDES:${PN} += "config-povray \
 povray"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libImath-3-1.so.29 \
 libOpenEXR-3-1.so.30 \

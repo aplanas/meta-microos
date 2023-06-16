@@ -879,7 +879,7 @@ tex-etbb1-xaqh3v.enc \
 tex-etbb1-yziesh.enc \
 texlive-etbb"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

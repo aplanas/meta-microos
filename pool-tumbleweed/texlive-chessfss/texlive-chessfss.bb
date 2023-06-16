@@ -49,7 +49,7 @@ tex-lsiskak.fd \
 tex-lsiskaknew.fd \
 texlive-chessfss"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

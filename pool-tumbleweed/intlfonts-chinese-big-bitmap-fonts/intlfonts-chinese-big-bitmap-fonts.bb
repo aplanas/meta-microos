@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "ifntchib \
 intlfonts-chinese-big-bitmap-fonts \
 locale-xorg-x11-zh"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

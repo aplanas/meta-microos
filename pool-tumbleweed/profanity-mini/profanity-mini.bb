@@ -14,7 +14,7 @@ RPM_HASH = "8740f69fd7ecd3a3088550a467a4db3ed5a192676f2a21b56b1135427dbbcf00011e
 RPROVIDES:${PN} += "profanity-binary \
 profanity-mini"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \

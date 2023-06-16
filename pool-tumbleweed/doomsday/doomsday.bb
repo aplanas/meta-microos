@@ -33,8 +33,8 @@ libimportidtech1.so \
 libimportsave.so \
 libimportudmf.so"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 Mesa-libGL1 \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \

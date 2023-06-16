@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "liblanguage.so.0 \
 liblw.so.0 \
 littlewizard"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

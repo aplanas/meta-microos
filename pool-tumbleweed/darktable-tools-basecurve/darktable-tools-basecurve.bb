@@ -15,7 +15,7 @@ RPM_HASH = "280b256b24c018235160df898363f18b70e57125161210d9dc4da47254e6cdf34536
 
 RPROVIDES:${PN} += "darktable-tools-basecurve"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/convert \
 dcraw \
 exiftool \

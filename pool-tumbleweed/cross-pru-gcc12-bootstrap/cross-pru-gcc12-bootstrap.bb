@@ -17,7 +17,7 @@ RPM_HASH = "cf889ed869fb13f09bb93bba7272a183cdca16cb394ac9376f56299ea7bef313e649
 RPROVIDES:${PN} += "cross-pru-gcc12-bootstrap \
 pru-gcc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 cross-pru-binutils \
 update-alternatives"
 

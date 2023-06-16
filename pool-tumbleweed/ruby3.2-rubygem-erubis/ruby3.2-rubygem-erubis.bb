@@ -27,8 +27,8 @@ rubygem-ruby-3.2.0-erubis-2 \
 rubygem-ruby-3.2.0-erubis-2.7 \
 rubygem-ruby-3.2.0-erubis-2.7.0"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 update-alternatives"
 

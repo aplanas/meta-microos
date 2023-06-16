@@ -10,8 +10,8 @@ RPM_HASH = "61d526d1f96387b4937d564d009d7ade6af8b8b0d3ebc6eca720eec2ead8ae12d9e5
 RPROVIDES:${PN} += "config-zabbix-agent \
 zabbix-agent"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

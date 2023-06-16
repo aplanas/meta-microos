@@ -26,7 +26,7 @@ mono-policy.3.0.Mono.Zeroconf \
 mono-policy.4.0.Mono.Zeroconf \
 mono-zeroconf"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 mono-System \
 mono-mscorlib \
 mono-zeroconf-provider"

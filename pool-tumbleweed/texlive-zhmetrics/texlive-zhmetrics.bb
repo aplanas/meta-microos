@@ -4951,7 +4951,7 @@ tex-uniyouslff.tfm \
 tex-zhwinfonts.tex \
 texlive-zhmetrics"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

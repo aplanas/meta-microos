@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-srcinfo \
 python311-srcinfo \
 python3dist-srcinfo"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-parse \
 update-alternatives"

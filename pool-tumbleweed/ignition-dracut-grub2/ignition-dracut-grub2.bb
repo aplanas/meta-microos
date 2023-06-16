@@ -11,7 +11,7 @@ RPM_HASH = "149a60b3a64cf4e737149b016c9e75316db0f32fbee69226ba2325f1394b93f8d76e
 
 RPROVIDES:${PN} += "ignition-dracut-grub2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 grub2 \
 sed"
 

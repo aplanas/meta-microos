@@ -22,7 +22,7 @@ texdev-amstext.sty \
 texdev-amsxtra.sty \
 texlive-latex-amsmath-dev"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

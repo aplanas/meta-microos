@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-pythonfinder \
 python311-pythonfinder \
 python3dist-pythonfinder"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-attrs \
 python311-cached-property \

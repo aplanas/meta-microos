@@ -15,8 +15,8 @@ gnome-applets-gdm \
 group-gdm \
 user-gdm"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/dbus-run-session \
+RDEPENDS:${PN} += "/usr/bin/dbus-run-session \
+/usr/bin/sh \
 dconf \
 gdm-branding \
 gdmflexiserver \

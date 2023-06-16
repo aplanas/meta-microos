@@ -14,7 +14,7 @@ RPM_HASH = "6678dc3d4feb57b498b114f4939e9d1fba99bf0333c2b35230e24c6575050b7229c9
 RPROVIDES:${PN} += "expect \
 libexpect5.45.4.so"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

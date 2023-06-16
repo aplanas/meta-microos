@@ -11,7 +11,7 @@ RPM_HASH = "13219da90026c60d4ed76b252e7f461b4bf8132a4a584dcdb44960742f42a76e19df
 
 RPROVIDES:${PN} += "libnetcdf-gnu-mpich-hpc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libnetcdf-4-9-2-gnu-mpich-hpc"
 
 inherit rpm

@@ -22,7 +22,7 @@ tex-confproc.cls \
 tex-newapave.sty \
 texlive-confproc"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

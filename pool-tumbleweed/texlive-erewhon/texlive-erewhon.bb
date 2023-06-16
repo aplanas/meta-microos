@@ -1160,7 +1160,7 @@ tex-zut1-zt54pz.enc \
 tex-zut1-zx32l7.enc \
 texlive-erewhon"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

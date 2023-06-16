@@ -12,8 +12,8 @@ RPM_HASH = "822dc3a495a460f59e53fd444632f502502277a9db282ff2ef040bd28f2429048414
 RPROVIDES:${PN} += "config-sshguard \
 sshguard"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \

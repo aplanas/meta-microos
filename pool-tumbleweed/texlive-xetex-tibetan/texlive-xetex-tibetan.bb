@@ -13,7 +13,7 @@ RPROVIDES:${PN} += "tex-loctib.map \
 tex-wylie.map \
 texlive-xetex-tibetan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

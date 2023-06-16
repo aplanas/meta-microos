@@ -188,7 +188,7 @@ font-xslz20d \
 font-xtie20 \
 texlive-musixtex-fonts-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

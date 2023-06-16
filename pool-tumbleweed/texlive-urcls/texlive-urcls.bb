@@ -27,7 +27,7 @@ tex-beamerouterthemeUR.sty \
 tex-beamerthemeUR.sty \
 texlive-urcls"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

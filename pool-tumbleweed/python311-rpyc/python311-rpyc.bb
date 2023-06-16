@@ -17,9 +17,9 @@ RPROVIDES:${PN} += "python3.11dist-rpyc \
 python311-rpyc \
 python3dist-rpyc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-plumbum \
 update-alternatives"

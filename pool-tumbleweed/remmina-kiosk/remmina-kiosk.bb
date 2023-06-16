@@ -10,7 +10,7 @@ RPM_HASH = "b6719ac574776bbb494185dd821a2a45dce92f3af8670ace06f6b1c7315683af570a
 
 RPROVIDES:${PN} += "remmina-kiosk"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 remmina"
 
 inherit rpm

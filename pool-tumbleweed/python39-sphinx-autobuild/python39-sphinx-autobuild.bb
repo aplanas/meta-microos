@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-sphinx-autobuild \
 python39-sphinx-autobuild \
 python3dist-sphinx-autobuild"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 python39-Sphinx \
 python39-colorama \

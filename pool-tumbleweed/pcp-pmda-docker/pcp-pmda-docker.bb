@@ -10,7 +10,7 @@ RPM_HASH = "c59fbec94609c3f802f574c15fd6de07e370e34c3a0891a98d1c18e7f154c607a58d
 
 RPROVIDES:${PN} += "pcp-pmda-docker"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp-pmda.so.3 \

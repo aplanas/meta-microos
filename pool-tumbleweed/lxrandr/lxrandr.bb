@@ -9,7 +9,7 @@ RPM_HASH = "bb3de0e939e70c9553e0f76741d52c416ccf028391d3b61b2a71d2c95870357542c8
 
 RPROVIDES:${PN} += "lxrandr"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-x11-2.0.so.0 \

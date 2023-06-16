@@ -14,7 +14,7 @@ RPM_HASH = "26693e8640b3d8fc04c635e0f002d28ab136ec944ae12ac596c7eea080ed1c213d3a
 
 RPROVIDES:${PN} += "pacemaker-remote"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrmcommon.so.34 \

@@ -21,7 +21,7 @@ tex-dehypht-x-2023-03-06.tex \
 tex-dehyphts-x-2023-03-06.tex \
 texlive-dehyph-exptl"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

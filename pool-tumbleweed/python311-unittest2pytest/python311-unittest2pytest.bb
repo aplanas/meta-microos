@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-unittest2pytest \
 python311-unittest2pytest \
 python3dist-unittest2pytest"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

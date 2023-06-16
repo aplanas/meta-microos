@@ -18,8 +18,8 @@ python3.10dist-mitmproxy \
 python310-mitmproxy \
 python3dist-mitmproxy"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-Brotli \
 python310-Flask \

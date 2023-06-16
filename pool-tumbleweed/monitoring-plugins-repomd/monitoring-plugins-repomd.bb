@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "config-monitoring-plugins-repomd \
 monitoring-plugins-repomd \
 nagios-plugins-repomd"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 bash \
 curl \
 grep \

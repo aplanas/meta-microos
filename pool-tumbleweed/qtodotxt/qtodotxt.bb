@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.10dist-qtodotxt \
 python3dist-qtodotxt \
 qtodotxt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 python-abi \
 python3-dateutil \
 python3-qt5"

@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-gitlog.bbx \
 tex-gitlog.sty \
 texlive-gitlog"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

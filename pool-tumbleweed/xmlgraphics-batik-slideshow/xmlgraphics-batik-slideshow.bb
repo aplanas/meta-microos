@@ -14,7 +14,7 @@ mvn-org.apache.xmlgraphics-batik-slideshow-pom- \
 osgi-org.apache.batik.slideshow \
 xmlgraphics-batik-slideshow"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
 xmlgraphics-batik"

@@ -23,7 +23,7 @@ RPM_HASH = "93e1a76f55fc863521e9aaeccebb0b7a7556c9ec90b83ee2a4840ce66a0bcb972895
 RPROVIDES:${PN} += "config-osmo-trx-uhd \
 osmo-trx-uhd"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfftw3f.so.3 \

@@ -9,7 +9,7 @@ RPM_HASH = "dcbf9820644c442179d72e8ce85c851c6e7c7e6845fa55343a1a2f7efdf2dd9cd656
 
 RPROVIDES:${PN} += "openEMS"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

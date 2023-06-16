@@ -25,7 +25,7 @@ tex-pxpgfrcs.sty \
 tex-pxstfloats.sty \
 texlive-plautopatch"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

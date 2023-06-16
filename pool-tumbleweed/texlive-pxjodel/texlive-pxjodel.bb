@@ -79,7 +79,7 @@ tex-zu-jodhminr-hq.tfm \
 tex-zu-jodhminr-hq.vf \
 texlive-pxjodel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -89,7 +89,7 @@ font-sgitype \
 sgi-bitmap-fonts \
 sgi-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 perl"

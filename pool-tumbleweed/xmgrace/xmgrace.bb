@@ -13,7 +13,7 @@ RPM_HASH = "9d9ac95346290a1609a7051d947496c866b004b0a735d8b6cf1b5f513c424a00be5a
 
 RPROVIDES:${PN} += "xmgrace"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXm.so.4 \

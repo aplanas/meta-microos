@@ -20,9 +20,9 @@ galera-4 \
 group-garb \
 user-garb"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 fillup \
 galera-4-wsrep-provider \

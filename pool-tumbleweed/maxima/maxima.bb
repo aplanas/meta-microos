@@ -15,7 +15,7 @@ RPM_HASH = "c060fe2142e651e4adb24cb6f25fa531dfc5fbb1318c6714dfe8fe5cacab9ee3db9f
 
 RPROVIDES:${PN} += "maxima"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gnuplot \
 maxima-exec \
 plotutils \

@@ -25,7 +25,7 @@ RPROVIDES:${PN} += "python3-virtualenvwrapper \
 python3.10dist-virtualenvwrapper \
 python3dist-virtualenvwrapper"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python-abi \
 python3-stevedore \
 python3-virtualenv \

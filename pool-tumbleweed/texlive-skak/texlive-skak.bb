@@ -27,7 +27,7 @@ tex-skakf10.tfm \
 tex-skakf10b.tfm \
 texlive-skak"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

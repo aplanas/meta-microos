@@ -12,8 +12,8 @@ RPM_HASH = "68fa06ee4700d2196186518ed3d08f82ffe59b243c04307b49db1085cc4bada93478
 
 RPROVIDES:${PN} += "dracut-kiwi-verity"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 dracut \
 dracut-kiwi-lib \
 libc.so.6"

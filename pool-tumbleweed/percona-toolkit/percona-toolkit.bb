@@ -24,9 +24,9 @@ RPROVIDES:${PN} += "config-percona-toolkit \
 maatkit \
 percona-toolkit"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 libc.so.6 \
 perl--MODULE-COMPAT-5.36.0 \
 perl-DBD--mysql \

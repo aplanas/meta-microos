@@ -14,8 +14,8 @@ python3.9dist-html2text \
 python39-html2text \
 python3dist-html2text"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

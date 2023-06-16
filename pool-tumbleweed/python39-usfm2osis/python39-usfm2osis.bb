@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.9dist-usfm2osis \
 python39-usfm2osis \
 python3dist-usfm2osis"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

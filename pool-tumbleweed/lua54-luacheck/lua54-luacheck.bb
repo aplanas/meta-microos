@@ -20,8 +20,8 @@ RPROVIDES:${PN} += "lua-luacheck \
 lua54-luacheck \
 luacheck"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.4 \
+RDEPENDS:${PN} += "/usr/bin/lua5.4 \
+/usr/bin/sh \
 lua54 \
 lua54-argparse \
 lua54-luafilesystem \

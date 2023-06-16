@@ -20,8 +20,8 @@ RPM_HASH = "2455a8bf1bcbed4638aa883cf7935b54c67b0b2c4670a88064b8e69e2317cc37b820
 RPROVIDES:${PN} += "lzma \
 xz"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblzma.so.5"

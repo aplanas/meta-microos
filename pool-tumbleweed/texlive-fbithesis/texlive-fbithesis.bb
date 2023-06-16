@@ -17,7 +17,7 @@ RPROVIDES:${PN} += "tex-fbithesis.cfg \
 tex-fbithesis.cls \
 texlive-fbithesis"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

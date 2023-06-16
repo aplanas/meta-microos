@@ -22,7 +22,7 @@ RPROVIDES:${PN} += "tex-datetime2-calc.sty \
 tex-datetime2.sty \
 texlive-datetime2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

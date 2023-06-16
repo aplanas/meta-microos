@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "python3.11dist-unify \
 python311-unify \
 python3dist-unify"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-setuptools \
 python311-untokenize \

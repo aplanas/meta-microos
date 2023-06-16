@@ -26,8 +26,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-busted"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/lua5.3 \
+RDEPENDS:${PN} += "/usr/bin/lua5.3 \
+/usr/bin/sh \
 curl \
 lua53 \
 lua53-cliargs \

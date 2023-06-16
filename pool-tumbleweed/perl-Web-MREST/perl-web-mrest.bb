@@ -34,8 +34,8 @@ perl-Web--MREST--Util \
 perl-Web--MREST--WebServicesIntro \
 perl-Web-MREST"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 perl--MODULE-COMPAT-5.36.0 \
 perl-App--CELL \
 perl-File--ShareDir \

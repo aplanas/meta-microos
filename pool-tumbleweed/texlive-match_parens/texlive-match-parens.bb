@@ -15,8 +15,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-match-parens"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby \
+RDEPENDS:${PN} += "/usr/bin/ruby \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \

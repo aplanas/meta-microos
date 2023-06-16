@@ -12,8 +12,8 @@ RPROVIDES:${PN} += "python3.11dist-charset-normalizer \
 python311-charset-normalizer \
 python3dist-charset-normalizer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

@@ -14,8 +14,8 @@ RPROVIDES:${PN} += "python3.11dist-jirafs \
 python311-jirafs \
 python3dist-jirafs"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python311-Jinja2 \

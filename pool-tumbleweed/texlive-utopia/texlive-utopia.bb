@@ -64,7 +64,7 @@ tex-putro8t.tfm \
 tex-putro8t.vf \
 texlive-utopia"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

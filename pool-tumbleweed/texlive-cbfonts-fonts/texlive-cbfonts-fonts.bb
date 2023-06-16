@@ -954,7 +954,7 @@ font-gttu2986 \
 font-gttu3583 \
 texlive-cbfonts-fonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \
 coreutils \
 fontconfig \

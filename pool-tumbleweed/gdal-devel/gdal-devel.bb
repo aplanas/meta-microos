@@ -13,8 +13,8 @@ libgdal-devel \
 libgdal32-devel \
 pkgconfig-gdal"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 libgdal32 \
 pkgconfig-libopenjp2"
 

@@ -134,7 +134,7 @@ tex-wncyss8.tfm \
 tex-wncyss9.tfm \
 texlive-amsfonts"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

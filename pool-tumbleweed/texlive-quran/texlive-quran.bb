@@ -30,7 +30,7 @@ tex-qurantext-uthmani-min.def \
 tex-qurantext-uthmani.def \
 texlive-quran"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

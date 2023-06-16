@@ -18,7 +18,7 @@ tex-pgfmanual.prettyprinter.code.tex \
 tex-tikz-dependency.sty \
 texlive-tikz-dependency"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

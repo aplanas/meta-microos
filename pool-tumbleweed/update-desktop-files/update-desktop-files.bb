@@ -12,7 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "rpm-macro-suse-update-desktop-file \
 update-desktop-files"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 desktop-file-utils"
 
 inherit rpm

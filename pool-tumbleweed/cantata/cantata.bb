@@ -35,7 +35,7 @@ RPM_HASH = "b17990a6e6b87250f44770811778df57cc09a1c147439006ccafcaca36ce5cf6704b
 
 RPROVIDES:${PN} += "cantata"
 
-RDEPENDS:${PN} += "/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \

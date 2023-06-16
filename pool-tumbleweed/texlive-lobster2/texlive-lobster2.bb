@@ -84,7 +84,7 @@ tex-lbstr-pvoz5h.enc \
 tex-lbstr-t7yaon.enc \
 texlive-lobster2"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

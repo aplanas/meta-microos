@@ -9,8 +9,8 @@ RPM_HASH = "6fa9f8e7e4c3c0f92d2e3bc20a3d70989dabcffe13029940a20b28a1b00eaf6164a8
 
 RPROVIDES:${PN} += "R-core"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libR.so \
 libRlapack.so \

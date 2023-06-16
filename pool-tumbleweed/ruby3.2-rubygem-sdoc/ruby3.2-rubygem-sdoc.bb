@@ -14,8 +14,8 @@ rubygem-ruby-3.2.0-sdoc-2.4 \
 rubygem-ruby-3.2.0-sdoc-2.4.0 \
 rubygem-sdoc"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/ruby.ruby3.2 \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
+/usr/bin/sh \
 ruby-abi \
 rubygem-ruby-3.2.0-rdoc \
 update-alternatives"

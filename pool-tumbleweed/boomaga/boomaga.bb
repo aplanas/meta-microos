@@ -17,7 +17,7 @@ RPM_HASH = "40cc76029d0be103b22e34f270b772a49df9712832e4f95b881bfcf737ee95eb0eb9
 RPROVIDES:${PN} += "boomaga \
 postscriptdriver-generic;boomaga-printer;"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/lpadmin \
 ghostscript \
 ld-linux-aarch64.so.1 \

@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-keylime \
 keylime-tpm-cert-store \
 user-keylime"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python3-keylime \
 sysuser-shadow"
 

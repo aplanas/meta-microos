@@ -43,9 +43,9 @@ perl-App--Dochazka--REST--Test \
 perl-App--Dochazka--REST--Util \
 perl-App-Dochazka-REST"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 perl--MODULE-COMPAT-5.36.0 \

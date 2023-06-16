@@ -15,8 +15,8 @@ RPROVIDES:${PN} += "config-suse-prime \
 suse-prime \
 suse-prime-bbswitch"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 coreutils \
 pciutils \
 sudo"

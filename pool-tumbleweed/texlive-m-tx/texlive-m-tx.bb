@@ -16,7 +16,7 @@ RPROVIDES:${PN} += "tex-mtx.tex \
 tex-mtxlatex.sty \
 texlive-m-tx"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/bin/texlua \
 coreutils \
 ed \

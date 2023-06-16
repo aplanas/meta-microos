@@ -10,7 +10,7 @@ RPM_HASH = "72d6b3d6e847991446d0d36fa9e22ff8c2e8fe70b272a2e143e9bdeec3156f93cc9c
 RPROVIDES:${PN} += "ghc-cryptohash-md5-devel \
 ghc-devel-cryptohash-md5-0.11.101.0-1tswcJp9v68CZlxGZzmcPV"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cryptohash-md5 \
 ghc-devel-base-4.17.1.0 \

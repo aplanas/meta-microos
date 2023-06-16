@@ -16,8 +16,7 @@ RPROVIDES:${PN} += "a2ps \
 a2ps-bin \
 config-a2ps"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
 file \

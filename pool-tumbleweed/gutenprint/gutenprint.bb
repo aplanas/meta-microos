@@ -500,8 +500,8 @@ postscriptdriver-xerox;docuprint-p8e; \
 postscriptdriver-xerox;docuprint; \
 postscriptdriver-xerox;workcentre-m118;"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 cups \
 ghostscript \
 ld-linux-aarch64.so.1 \

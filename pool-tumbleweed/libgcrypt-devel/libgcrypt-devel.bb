@@ -16,8 +16,8 @@ RPM_HASH = "a37bd829615ac20e20ee45945356705b009bb1b185219df2ac08ef124edb1dc01cbd
 RPROVIDES:${PN} += "libgcrypt-devel \
 pkgconfig-libgcrypt"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 glibc-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

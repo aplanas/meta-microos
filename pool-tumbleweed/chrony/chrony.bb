@@ -32,9 +32,9 @@ group-chrony \
 ntp-daemon \
 user-chrony"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
+/usr/bin/sh \
 /usr/bin/touch \
 chrony-pool \
 fillup \

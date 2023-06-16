@@ -19,8 +19,8 @@ perl-Encode--TW--Unisys--SOSI1 \
 perl-Encode--TW--Unisys--SOSI2 \
 perl-Encode-HanExtra"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/enc2xs \
+RDEPENDS:${PN} += "/usr/bin/enc2xs \
+/usr/bin/sh \
 libc.so.6 \
 perl--MODULE-COMPAT-5.36.0"
 

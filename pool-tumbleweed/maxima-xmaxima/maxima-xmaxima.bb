@@ -15,7 +15,7 @@ RPM_HASH = "248c759915c308a5e8e32e6356a4f27e920746505b765b5d5fc045c5b45fac89d205
 RPROVIDES:${PN} += "maxima-xmaxima \
 xmaxima"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 maxima \
 tk"
 

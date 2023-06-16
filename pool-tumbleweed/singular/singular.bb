@@ -28,8 +28,8 @@ RPM_HASH = "843c82257928776a3e80ff87c7021d9ffa9296a85ab1f0244d26692725ff1e33e33a
 
 RPROVIDES:${PN} += "singular"
 
-RDEPENDS:${PN} += "/bin/bash \
-/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSingular-4.3.1.p3.so \
 libc.so.6 \

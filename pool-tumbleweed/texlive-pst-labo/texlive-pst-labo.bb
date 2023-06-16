@@ -16,7 +16,7 @@ tex-pst-labo.tex \
 tex-pst-laboObj.tex \
 texlive-pst-labo"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

@@ -671,7 +671,7 @@ tex-ts1mlmtt.fd \
 tex-ts1mlmvtt.fd \
 texlive-mlmodern"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

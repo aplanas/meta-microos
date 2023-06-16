@@ -20,7 +20,7 @@ tex-trjnr10.tfm \
 tex-trjnsl10.tfm \
 texlive-trajan"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

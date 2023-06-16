@@ -16,6 +16,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-toolbox \
 toolbox"
 
-RDEPENDS:${PN} += "/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

@@ -13,8 +13,8 @@ python3.10dist-css-html-js-minify \
 python310-css-html-js-minify \
 python3dist-css-html-js-minify"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 update-alternatives"
 

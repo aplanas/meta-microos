@@ -15,7 +15,7 @@ tex-wnri.def \
 tex-wnri.sty \
 texlive-wnri-latex"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

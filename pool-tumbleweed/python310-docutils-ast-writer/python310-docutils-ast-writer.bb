@@ -13,8 +13,8 @@ python3.10dist-docutils-ast-writer \
 python310-docutils-ast-writer \
 python3dist-docutils-ast-writer"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/sh \
 python-abi \
 python310-docutils \
 update-alternatives"

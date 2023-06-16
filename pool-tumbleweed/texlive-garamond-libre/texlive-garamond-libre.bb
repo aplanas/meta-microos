@@ -540,7 +540,7 @@ tex-grmlbr-zslxeq.enc \
 tex-grmlbr-zy2up7.enc \
 texlive-garamond-libre"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

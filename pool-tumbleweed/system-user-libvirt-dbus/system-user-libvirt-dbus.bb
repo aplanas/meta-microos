@@ -12,7 +12,7 @@ RPROVIDES:${PN} += "group-libvirtdbus \
 system-user-libvirt-dbus \
 user-libvirtdbus"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 group-libvirt \
 sysuser-shadow"
 

@@ -17,8 +17,8 @@ RPROVIDES:${PN} += "python3.11dist-behave \
 python311-behave \
 python3dist-behave"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-parse \
 python311-parse-type \

@@ -18,7 +18,7 @@ tex-pml3array.sty \
 tex-tikzlibraryhobby.code.tex \
 texlive-hobby"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \

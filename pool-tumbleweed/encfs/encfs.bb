@@ -25,8 +25,8 @@ RPM_HASH = "c8df014214939e39f760d7093c9dcab0241a3ad75a81408a23cfbb3ccfd514f13527
 RPROVIDES:${PN} += "encfs \
 libencfs.so.1.9"
 
-RDEPENDS:${PN} += "/bin/sh \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/sh \
 fuse \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

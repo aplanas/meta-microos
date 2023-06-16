@@ -13,8 +13,8 @@ RPROVIDES:${PN} += "python3.11dist-autopep8 \
 python311-autopep8 \
 python3dist-autopep8"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/sh \
 python-abi \
 python311-pycodestyle \
 update-alternatives"

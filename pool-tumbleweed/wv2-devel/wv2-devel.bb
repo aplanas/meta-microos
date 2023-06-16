@@ -10,7 +10,7 @@ RPM_HASH = "13948ab44a59deeaf6db3ee746cf41c3a4399fe8ceb5ee43863cb7015eab6b3afa1a
 
 RPROVIDES:${PN} += "wv2-devel"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libgsf-devel \
 libstdc++-devel \
 libwv2-4"

@@ -10,8 +10,8 @@ RPM_HASH = "77f873ab8548ffccc403d11944f1fdd97b5b5a8c820e973b5c67f606874b1227ca7b
 
 RPROVIDES:${PN} += "sphinxbase"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

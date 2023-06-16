@@ -14,8 +14,8 @@ RPM_HASH = "35c7f0dbbd71dabdbfc903b3e27c42a5e80f557110d81940bda514f4ac6f27cc508c
 RPROVIDES:${PN} += "config-kea \
 kea"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

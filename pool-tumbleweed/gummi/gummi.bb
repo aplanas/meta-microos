@@ -10,7 +10,7 @@ RPM_HASH = "6d685289cdaf9f8b53956ed6f3d7bfefbaefb6353676f7f0711431f7f805b504c6b7
 
 RPROVIDES:${PN} += "gummi"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gtkspell \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

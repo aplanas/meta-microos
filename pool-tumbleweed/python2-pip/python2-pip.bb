@@ -12,8 +12,8 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python2-pip"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python2 \
+RDEPENDS:${PN} += "/usr/bin/python2 \
+/usr/bin/sh \
 ca-certificates \
 coreutils \
 python2-setuptools \

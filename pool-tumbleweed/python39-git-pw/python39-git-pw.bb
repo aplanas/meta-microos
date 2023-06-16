@@ -14,8 +14,8 @@ python3.9dist-git-pw \
 python39-git-pw \
 python3dist-git-pw"
 
-RDEPENDS:${PN} += "/bin/sh \
-/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.9 \
+/usr/bin/sh \
 git-core \
 python-abi \
 python39-arrow \

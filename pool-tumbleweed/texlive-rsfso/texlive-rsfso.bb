@@ -26,7 +26,7 @@ tex-rsfso7.vf \
 tex-ursfso.fd \
 texlive-rsfso"
 
-RDEPENDS:${PN} += "/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \
