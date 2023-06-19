@@ -3,7 +3,7 @@ DESCRIPTION = "uWSGI is a self-healing application container server coded in pur
  \
 This package contains an emperor plugin allowing for configuration of \
 applications (vassals) via ZeroMQ."
-LICENSE = "Apache-2.0 & GPL-2.0-only-WITH-GCC-exception-2.0"
+LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 

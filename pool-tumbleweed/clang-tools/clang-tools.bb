@@ -8,7 +8,7 @@ DESCRIPTION = "This package contains tools and scripts for using Clang, includin
 * scripts for using clang-tidy: run-clang-tidy and clang-tidy-diff, \
 * scripts for using the Clang static analyzer: scan-build and scan-view, \
 * a script for using find-all-symbols: run-find-all-symbols."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

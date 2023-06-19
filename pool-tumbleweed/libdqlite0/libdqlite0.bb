@@ -5,7 +5,7 @@ SQL database engine with high-availability and automatic failover. \
 dqlite extends SQLite with a network protocol that can connect \
 together various instances of an application and have them act as a \
 highly-availablity cluster."
-LICENSE = "LGPL-3.0-only-WITH-LGPL-3.0-linking-exception"
+LICENSE = "LGPL-3.0-only-with-LGPL-3.0-linking-exception"
 
 PV = "1.14.0"
 

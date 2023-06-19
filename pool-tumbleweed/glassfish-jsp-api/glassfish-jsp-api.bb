@@ -2,7 +2,7 @@ SUMMARY = "Glassfish J2EE JSP API specification"
 DESCRIPTION = "This project provides a container independent specification of JSP \
 2.2. Note that this package doesn't contain implementation of this \
 specification. See glassfish-jsp for one of implementations"
-LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0)"
+LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.3.3"
 

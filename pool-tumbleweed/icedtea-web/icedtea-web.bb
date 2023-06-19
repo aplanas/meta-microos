@@ -2,7 +2,7 @@ SUMMARY = "Java Web Start implementation"
 DESCRIPTION = "The IcedTea-Web project provides a Free Software web browser plugin running \
 applets written in the Java programming language and an implementation of Java \
 Web Start, originally based on the NetX project."
-LICENSE = "GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.8.8"
 

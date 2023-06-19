@@ -1,7 +1,7 @@
 SUMMARY = "Link-time optimizer for LLVM (devel package)"
 DESCRIPTION = "This package contains the link-time optimizer for LLVM. \
 (development files)"
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "11.0.1"
 

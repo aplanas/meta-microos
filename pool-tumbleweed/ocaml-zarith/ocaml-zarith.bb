@@ -1,6 +1,6 @@
 SUMMARY = "Arbitrary precision integers"
 DESCRIPTION = "The Zarith library implements arithmetic and logical operations over arbitrary-precision integers and rational numbers."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "1.12"
 

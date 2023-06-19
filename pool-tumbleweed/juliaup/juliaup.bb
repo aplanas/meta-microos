@@ -5,7 +5,7 @@ The installer also bundles a full Julia version manager called juliaup. \
 One can use juliaup to install specific Julia versions, it alerts users \
 when new Julia versions are released and provides a convenient Julia \
 release channel abstraction."
-LICENSE = "(0BSD | MIT | Apache-2.0) & Apache-2.0 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-WITH-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & ISC & MIT & MPL-2.0 & MIT"
+LICENSE = "(0BSD | MIT | Apache-2.0) & Apache-2.0 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & ISC & MIT & MPL-2.0 & MIT"
 
 PV = "1.8.16"
 

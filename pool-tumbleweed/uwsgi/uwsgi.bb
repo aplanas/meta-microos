@@ -13,7 +13,7 @@ Gevent and Fiber). \
  \
 Different plugins can be used in order to add compatibility with \
 different technology on top of the same core."
-LICENSE = "Apache-2.0 & GPL-2.0-only-WITH-GCC-exception-2.0"
+LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 

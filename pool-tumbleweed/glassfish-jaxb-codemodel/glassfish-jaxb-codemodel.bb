@@ -1,7 +1,7 @@
 SUMMARY = "Codemodel Core"
 DESCRIPTION = "The core functionality of the CodeModel java source code generation \
 library."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 

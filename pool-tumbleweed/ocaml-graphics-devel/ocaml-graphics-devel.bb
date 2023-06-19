@@ -1,7 +1,7 @@
 SUMMARY = "Development files for ocaml-graphics"
 DESCRIPTION = "The ocaml-graphics-devel package contains libraries and signature files for \
 developing applications that use ocaml-graphics."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.1.2"
 

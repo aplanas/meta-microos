@@ -1,7 +1,7 @@
 SUMMARY = "wxWidgets OpenGL integration library"
 DESCRIPTION = "This library contains the wxGLCanvas class for integration of OpenGL \
 with wxWidgets."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

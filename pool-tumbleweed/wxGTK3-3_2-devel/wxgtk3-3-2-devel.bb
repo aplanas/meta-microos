@@ -9,7 +9,7 @@ This package contains all files needed for developing with wxGTK3-3_2. \
  \
 Note: wxWidgets variant devel packages are mutually exclusive. Please \
 read /usr/share/doc/packages/wxGTK3-3_2/README.SUSE to pick a correct variant."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

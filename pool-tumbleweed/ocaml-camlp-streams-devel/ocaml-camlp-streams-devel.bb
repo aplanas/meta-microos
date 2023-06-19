@@ -1,7 +1,7 @@
 SUMMARY = "Development files for ocaml-camlp-streams"
 DESCRIPTION = "The ocaml-camlp-streams-devel package contains libraries and signature files for \
 developing applications that use ocaml-camlp-streams."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.0.1"
 

@@ -4,7 +4,7 @@ type system of Java5. For example, one can compute that List<String> \
 is a sub-type of Collection<String> but not Collection<Object>, you \
 can compute the erasure of java.lang.reflect.Type, or you can \
 determine the array component type T from A[T]."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.2"
 

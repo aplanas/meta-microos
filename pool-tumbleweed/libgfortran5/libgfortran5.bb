@@ -1,7 +1,7 @@
 SUMMARY = "The GNU Fortran Compiler Runtime Library"
 DESCRIPTION = "The runtime library needed to run programs compiled with the Fortran compiler \
 of the GNU Compiler Collection (GCC)."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.1.1+git7364"
 

@@ -4,7 +4,7 @@ the Lua programming language. Nearly all of the functionality of wxWidgets is \
 exposed to Lua, meaning that your programs can have windows, dialogs, menus, \
 toolbars, controls, image loading and saving, drawing, sockets, streams, \
 printing, clipboard access... and much more."
-LICENSE = "GPL-2.0-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 

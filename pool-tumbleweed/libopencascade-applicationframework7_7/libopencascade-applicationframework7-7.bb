@@ -3,7 +3,7 @@ DESCRIPTION = "This package contains the OpenCASCADE libraries from the \
 OpenCASCADE application framework module: \
   TKCDF TKLCAF TKCAF TKBinL TKXmlL TKBin TKXml TKStdL \
   TKStd TKTObj TKBinTObj TKXmlTObj"
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 

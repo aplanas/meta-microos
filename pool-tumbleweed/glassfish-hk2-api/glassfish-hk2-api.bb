@@ -1,6 +1,6 @@
 SUMMARY = "HK2 API module"
 DESCRIPTION = "Hundred Kilobytes Kernel API module."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 

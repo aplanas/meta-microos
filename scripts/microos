@@ -153,8 +153,8 @@ def license(lic):
         .replace(" and ", " & ")
         .replace(" OR ", " | ")
         .replace(" or ", " | ")
-        .replace(" WITH ", "-WITH-")
-        .replace(" with ", "-WITH-")
+        .replace(" WITH ", "-with-")
+        .replace(" with ", "-with-")
     )
 
 

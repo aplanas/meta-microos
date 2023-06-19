@@ -2,7 +2,7 @@ SUMMARY = "Scripting interface to the OpenCASCADE libraries"
 DESCRIPTION = "This program provides a kind of scripting interface to the OpenCASCADE \
 libraries. You can perform a simple test by starting it and entering at the \
 command line: 'pload ALL' then 'source /usr/share/oce/src/DrawResources/VisualizationDemo.tcl'."
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "0.18.3"
 

@@ -2,7 +2,7 @@ SUMMARY = "HK2 OSGi resource locator bundle"
 DESCRIPTION = "Hundred Kilobytes Kernel - OSGi resource locator bundle. Used by \
 various API providers that rely on META-INF/services mechanism to \
 locate providers."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 

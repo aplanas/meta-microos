@@ -1,7 +1,7 @@
 SUMMARY = "Standalone tool for opam install files"
 DESCRIPTION = "Handles (un)installation of package files following instructions from \
 OPAM *.install files."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.5"
 

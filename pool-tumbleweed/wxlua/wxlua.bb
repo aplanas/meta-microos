@@ -1,7 +1,7 @@
 SUMMARY = "Lua bindings for wxWidgets"
 DESCRIPTION = "Lua bindings for wxWidgets cross-patform GUI toolkit; \
 supports Lua 5.1, 5.2, 5.3, 5.4, LuaJIT and wxWidgets 3.x"
-LICENSE = "GPL-2.0-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 

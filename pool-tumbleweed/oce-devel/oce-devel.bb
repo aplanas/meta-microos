@@ -1,6 +1,6 @@
 SUMMARY = "Development files for openCASCADE"
 DESCRIPTION = "This package contains the files needed for development with OpenCASCADE."
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "0.18.3"
 

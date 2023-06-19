@@ -6,7 +6,7 @@ networking and persistent storage. The algorithm supports leadership election, \
 log replication, log compaction, and  membership changes. \
  \
 A stock implementation of the I/O interface based on libuv is included."
-LICENSE = "LGPL-3.0-only-WITH-LGPL-3.0-linking-exception"
+LICENSE = "LGPL-3.0-only-with-LGPL-3.0-linking-exception"
 
 PV = "0.17.1"
 

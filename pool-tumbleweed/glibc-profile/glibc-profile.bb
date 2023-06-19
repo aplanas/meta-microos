@@ -1,7 +1,7 @@
 SUMMARY = "Libc Profiling and Debugging Versions"
 DESCRIPTION = "This package contains special versions of the GNU C library which are \
 necessary for profiling and debugging."
-LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-WITH-GCC-exception-2.0"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
 PV = "2.37"
 

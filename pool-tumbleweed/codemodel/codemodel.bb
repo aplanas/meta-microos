@@ -3,7 +3,7 @@ DESCRIPTION = "CodeModel is a Java library for code generators; it provides a wa
 generate Java programs in a way much nicer than PrintStream.println(). \
 This project is a spin-off from the JAXB RI for its schema compiler \
 to generate Java source files."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.6"
 

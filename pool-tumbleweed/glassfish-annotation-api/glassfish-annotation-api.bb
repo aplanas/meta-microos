@@ -1,6 +1,6 @@
 SUMMARY = "Common Annotations API Specification (JSR 250)"
 DESCRIPTION = "Common Annotations APIs for the Java Platform (JSR 250)."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.3.2"
 

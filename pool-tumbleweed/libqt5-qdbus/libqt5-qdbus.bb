@@ -1,6 +1,6 @@
 SUMMARY = "Command line client for communication over D-Bus"
 DESCRIPTION = "Command line client for communication over D-Bus."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "5.15.9+kde1"
 

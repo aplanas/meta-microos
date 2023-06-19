@@ -2,7 +2,7 @@ SUMMARY = "Glassfish Hundred Kilobytes Kernel"
 DESCRIPTION = "HK2 for Hundred Kilobytes Kernel is an abstraction to \
 a module subsystem coupled with a simple yet powerful \
 component model to build server side software."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 

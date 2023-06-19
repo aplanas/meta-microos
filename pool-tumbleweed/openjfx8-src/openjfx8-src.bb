@@ -1,6 +1,6 @@
 SUMMARY = "OpenJFX Source Bundle"
 DESCRIPTION = "OpenJFX Source Bundle."
-LICENSE = "BSD-3-Clause & GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "8.0.202"
 

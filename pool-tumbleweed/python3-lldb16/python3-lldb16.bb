@@ -1,7 +1,7 @@
 SUMMARY = "Python bindings for liblldb"
 DESCRIPTION = "This package contains the Python bindings for LLDB. It also contains \
 pretty printers for the C++ standard library."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

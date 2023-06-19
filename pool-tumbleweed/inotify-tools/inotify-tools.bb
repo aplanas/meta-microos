@@ -1,7 +1,7 @@
 SUMMARY = "Tools for inotify"
 DESCRIPTION = "inotify is a kernel facility to watch file system changes. This \
 package provides some tools for it."
-LICENSE = "GPL-2.0-only-WITH-Linux-syscall-note & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-only-with-Linux-syscall-note & GPL-2.0-or-later"
 
 PV = "3.22.6.0"
 

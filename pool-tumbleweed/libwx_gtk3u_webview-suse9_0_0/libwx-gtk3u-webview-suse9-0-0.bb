@@ -1,7 +1,7 @@
 SUMMARY = "wxWidgets HTML/browser class library"
 DESCRIPTION = "Library for a wxWidgets control that can be used to render web \
 (HTML / CSS / JavaScript) documents."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

@@ -3,7 +3,7 @@ DESCRIPTION = "The OpenSceneGraph is a graphics toolkit for the development of \
 graphic applications. \
  \
 This package contains the GDAL plugin for OpenSceneGraph."
-LICENSE = "LGPL-2.1-only-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 

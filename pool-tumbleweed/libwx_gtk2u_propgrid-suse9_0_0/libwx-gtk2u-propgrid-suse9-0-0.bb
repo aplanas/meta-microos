@@ -1,7 +1,7 @@
 SUMMARY = "wxWidgets property grid class library"
 DESCRIPTION = "wxPropertyGrid is a specialized grid for editing properties, in other \
 words, name=value pairs."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

@@ -1,7 +1,7 @@
 SUMMARY = "Maps over integers implemented as Patricia trees"
 DESCRIPTION = "OCaml implementation of an efficient maps over integers, \
 from a paper by Chris Okasaki."
-LICENSE = "LGPL-2.1-or-later-WITH-OCaml-linking-exception"
+LICENSE = "LGPL-2.1-or-later-with-OCaml-linking-exception"
 
 PV = "2.0.5"
 

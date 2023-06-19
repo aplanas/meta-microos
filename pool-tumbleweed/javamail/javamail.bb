@@ -1,7 +1,7 @@
 SUMMARY = "Java Mail API"
 DESCRIPTION = "The JavaMail API provides a platform-independent and protocol-independent \
 framework to build mail and messaging applications."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.5.2"
 

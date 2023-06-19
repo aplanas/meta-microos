@@ -4,7 +4,7 @@ code written in languages of the C family. \
 It is designed to be stable across major versions of LLVM. \
  \
 It corresponds to the header files in /usr/include/clang-c."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

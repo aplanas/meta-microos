@@ -1,6 +1,6 @@
 SUMMARY = "LLDB software debugger runtime library"
 DESCRIPTION = "This subpackage contains the main LLDB component."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

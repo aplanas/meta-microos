@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for glassfish-activation"
 DESCRIPTION = "Javadoc for glassfish-activation."
-LICENSE = "(BSD-3-Clause & GPL-2.0-only-WITH-Classpath-exception-2.0) | CDDL-1.1"
+LICENSE = "(BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0) | CDDL-1.1"
 
 PV = "1.2.0"
 

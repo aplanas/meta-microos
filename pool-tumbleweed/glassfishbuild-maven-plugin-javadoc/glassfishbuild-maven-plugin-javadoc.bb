@@ -1,6 +1,6 @@
 SUMMARY = "API documentation for glassfishbuild-maven-plugin"
 DESCRIPTION = "This package provides API documentation for glassfishbuild-maven-plugin."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.2.26"
 

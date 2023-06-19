@@ -2,7 +2,7 @@ SUMMARY = "C++ standard library ABI (devel package)"
 DESCRIPTION = "This package contains the ABI for libc++, a new implementation \
 of the C++ standard library, targeting C++11. \
 (development files)"
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

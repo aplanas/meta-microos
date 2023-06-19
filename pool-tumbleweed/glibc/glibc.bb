@@ -3,7 +3,7 @@ DESCRIPTION = "The GNU C Library provides the most important standard libraries 
 by nearly all programs: the standard C library, the standard math \
 library, and the POSIX thread library. A system is not functional \
 without these libraries."
-LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-WITH-GCC-exception-2.0"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
 PV = "2.37"
 

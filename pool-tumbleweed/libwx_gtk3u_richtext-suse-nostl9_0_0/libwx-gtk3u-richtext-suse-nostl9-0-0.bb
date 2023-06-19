@@ -3,7 +3,7 @@ DESCRIPTION = "wxRichTextCtrl provides a generic implementation of a rich text \
 editor that can handle different character styles, paragraph \
 formatting, and images. It is intended for 'natural' text in the \
 sense that source code is better served by wxStyledTextCtrl."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

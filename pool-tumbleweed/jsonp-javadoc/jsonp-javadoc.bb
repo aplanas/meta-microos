@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for jsonp"
 DESCRIPTION = "This package contains javadoc for jsonp."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.4"
 

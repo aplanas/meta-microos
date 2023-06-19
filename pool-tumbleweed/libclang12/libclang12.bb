@@ -1,6 +1,6 @@
 SUMMARY = "Library files needed for clang"
 DESCRIPTION = "This package contains the shared libraries needed for clang."
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "12.0.1"
 

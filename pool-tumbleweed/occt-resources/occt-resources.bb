@@ -1,6 +1,6 @@
 SUMMARY = "Binary resource files for occt"
 DESCRIPTION = "This package contains resource files imported from the libraries."
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 

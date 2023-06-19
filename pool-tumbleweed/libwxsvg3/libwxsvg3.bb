@@ -1,6 +1,6 @@
 SUMMARY = "Library to create, manipulate and render SVG files"
 DESCRIPTION = "Dynamic libraries from wxsvg, as required at runtime."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "1.5.23"
 

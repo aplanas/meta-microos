@@ -1,6 +1,6 @@
 SUMMARY = "JAXB BOM with all dependencies"
 DESCRIPTION = "JAXB Bill of Materials (BOM) with all dependencies."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 

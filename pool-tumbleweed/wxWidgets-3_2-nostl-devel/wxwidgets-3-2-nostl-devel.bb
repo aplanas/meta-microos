@@ -11,7 +11,7 @@ wxString and instead rely on the wxChar pointer API. \
  \
 Note: wxWidgets variant devel packages are mutually exclusive. Please \
 read /usr/share/doc/packages/wxWidgets-3_2-nostl/README.SUSE to pick a correct variant."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

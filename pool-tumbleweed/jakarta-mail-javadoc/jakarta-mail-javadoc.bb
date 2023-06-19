@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for jakarta-mail"
 DESCRIPTION = "This package contains javadoc for jakarta-mail."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.1.0"
 

@@ -9,7 +9,7 @@ of executing the commands in the low-level build graph (like make). \
  \
 This package contains the command line interface. The Qt Creator IDE does \
 directly support working qbs projects."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & (LGPL-2.1-only | LGPL-3.0-only-WITH-Qt-LGPL-exception-1.1) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & (LGPL-2.1-only | LGPL-3.0-only-with-Qt-LGPL-exception-1.1) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "1.24.0"
 

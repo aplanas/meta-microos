@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for tiger-types"
 DESCRIPTION = "This package contains javadoc for tiger-types."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.2"
 

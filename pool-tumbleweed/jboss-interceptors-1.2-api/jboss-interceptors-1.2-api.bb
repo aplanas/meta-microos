@@ -1,6 +1,6 @@
 SUMMARY = "Java EE Interceptors 1.2 API"
 DESCRIPTION = "The Java EE  Interceptors 1.2 API classes from JSR 318."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.0"
 

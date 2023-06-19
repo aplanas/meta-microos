@@ -1,7 +1,7 @@
 SUMMARY = "C git library"
 DESCRIPTION = "This package contains all necessary include files and libraries needed \
 to compile and develop applications that use libgit2."
-LICENSE = "GPL-2.0-only-WITH-GCC-exception-2.0"
+LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "1.6.4"
 

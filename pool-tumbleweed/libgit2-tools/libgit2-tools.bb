@@ -1,6 +1,6 @@
 SUMMARY = "A Git command-line interface based on libgit2"
 DESCRIPTION = "This package contains a git cli based on libgit2."
-LICENSE = "GPL-2.0-only-WITH-GCC-exception-2.0"
+LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "1.6.4"
 

@@ -1,6 +1,6 @@
 SUMMARY = "TXW2 Runtime"
 DESCRIPTION = "TXW is a library that allows you to write XML documents."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 

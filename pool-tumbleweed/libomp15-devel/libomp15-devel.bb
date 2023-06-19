@@ -1,6 +1,6 @@
 SUMMARY = "MPI plugin for LLVM"
 DESCRIPTION = "This package contains the OpenMP MPI plugin for LLVM."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 

@@ -5,7 +5,7 @@ and printing their data. \
  \
 This package provides a program that allows you to run GDB on a different \
 machine than the one which is running the program being debugged."
-LICENSE = "GPL-3.0-only-WITH-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-later & LGPL-3.0-or-later"
+LICENSE = "GPL-3.0-only-with-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-later & LGPL-3.0-or-later"
 
 PV = "12.1"
 

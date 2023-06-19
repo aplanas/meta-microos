@@ -3,7 +3,7 @@ DESCRIPTION = "This package contains a plugin for link-time optimization in binu
  \
 Despite the name, it can also be used with ld.bfd. It is required for using \
 Clang with -flto=full or -flto=thin when linking with one of those linkers."
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "11.0.1"
 

@@ -3,7 +3,7 @@ DESCRIPTION = "The wxHTML library provides classes for parsing and displaying HT
 It is not intended to be a high-end HTML browser. wxHTML can be used \
 as a generic rich text viewer – for example, to display an About Box \
 or the result of a database search."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

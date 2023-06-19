@@ -3,7 +3,7 @@ DESCRIPTION = "Jakarta Activation lets you take advantage of standard services t
 determine the type of an arbitrary piece of data; encapsulate access to \
 it; discover the operations available on it; and instantiate the \
 appropriate bean to perform the operation(s)."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.1.0"
 

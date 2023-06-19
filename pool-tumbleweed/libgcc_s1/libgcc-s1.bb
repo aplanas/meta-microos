@@ -1,6 +1,6 @@
 SUMMARY = "C compiler runtime library"
 DESCRIPTION = "Libgcc is needed for dynamically linked C programs."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.1.1+git7364"
 

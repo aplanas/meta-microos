@@ -2,7 +2,7 @@ SUMMARY = "wxWidgets basic GUI class library"
 DESCRIPTION = "Basic GUI classes such as GDI classes or controls are in this \
 library. All wxWidgets GUI applications must link against this \
 library, only console mode applications need not."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

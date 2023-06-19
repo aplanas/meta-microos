@@ -5,7 +5,7 @@ can be a reference implementation. \
  \
 The fonts included are Garuda, Kinnari, Laksaman, Loma, Norasi, Purisa, \
 Sawasdee, TlwgMono, TlwgTypewriter, TlwgTypo, Umpush and Waree."
-LICENSE = "GPL-2.0-only-WITH-Font-exception-2.0 & LPPL-1.3c"
+LICENSE = "GPL-2.0-only-with-Font-exception-2.0 & LPPL-1.3c"
 
 PV = "0.7.3"
 

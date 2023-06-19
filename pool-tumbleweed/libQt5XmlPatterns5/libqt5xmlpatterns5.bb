@@ -1,7 +1,7 @@
 SUMMARY = "Qt 5 XmlPatterns Library"
 DESCRIPTION = "The Qt XML Patterns module provides support for XPath, XQuery, XSLT, \
 and XML Schema validation."
-LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "5.15.9+kde0"
 

@@ -1,6 +1,6 @@
 SUMMARY = "JSR-356: Java WebSocket 1.0 API"
 DESCRIPTION = "The JSR-356: Java WebSocket 1.0 API classes."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.0"
 

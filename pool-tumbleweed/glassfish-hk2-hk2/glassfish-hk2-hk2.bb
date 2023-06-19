@@ -1,6 +1,6 @@
 SUMMARY = "HK2 module of HK2 itself"
 DESCRIPTION = "This is so that other modules can depend on HK2 as an HK2 module."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 

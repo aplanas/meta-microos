@@ -11,7 +11,7 @@ authentication. \
 This plugin uses a split privilege execution model which will function \
 even if you drop openvpn daemon privileges using the user, group, or \
 chroot directives."
-LICENSE = "GPL-2.0-only-WITH-openvpn-openssl-exception"
+LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
 PV = "2.6.4"
 

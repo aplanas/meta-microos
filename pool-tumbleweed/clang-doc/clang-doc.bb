@@ -4,7 +4,7 @@ DESCRIPTION = "This package contains documentation for the Clang compiler. \
 This package is a dummy package that depends on the version of \
 clang-doc that openSUSE currently supports.  Packages that \
 don't require a specific Clang version should depend on this."
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "16.0.4"
 

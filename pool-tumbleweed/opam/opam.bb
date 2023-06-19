@@ -2,7 +2,7 @@ SUMMARY = "Source-based package manager for OCaml"
 DESCRIPTION = "OPAM is a source-based package manager for OCaml. It supports multiple \
 simultaneous compiler installations, flexible package constraints, and a \
 Git-friendly development workflow."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.5"
 

@@ -1,7 +1,7 @@
 SUMMARY = "Qt 6 DesignerComponents library"
 DESCRIPTION = "The Qt 6 DesignerComponents library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

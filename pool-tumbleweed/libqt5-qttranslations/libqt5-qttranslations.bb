@@ -1,7 +1,7 @@
 SUMMARY = "Qt 5 translations"
 DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package contains translations for Qt5 toolkit and it's applications."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "5.15.9+kde0"
 

@@ -1,6 +1,6 @@
 SUMMARY = "OpenJFX development tools and libraries"
 DESCRIPTION = "OpenJFX development tools and libraries."
-LICENSE = "BSD-3-Clause & GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "17.0.7.0"
 

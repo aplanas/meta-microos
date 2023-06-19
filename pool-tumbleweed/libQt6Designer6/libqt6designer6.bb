@@ -1,6 +1,6 @@
 SUMMARY = "Qt 6 Designer library"
 DESCRIPTION = "This package contains the Qt 6 Designer Library."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

@@ -3,7 +3,7 @@ DESCRIPTION = "LLDB is a next generation, high-performance debugger. It is built
 of reusable components which highly leverage existing libraries in the \
 larger LLVM Project, such as the Clang expression parser and LLVM \
 disassembler."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

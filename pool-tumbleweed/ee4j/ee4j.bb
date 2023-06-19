@@ -6,7 +6,7 @@ cloud-native applications. \
  \
 EE4J is based on the Java(TM) Platform, Enterprise Edition (Java EE) standards, \
 and uses Java EE 8 as the baseline for creating new standards."
-LICENSE = "EPL-2.0 & GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.7"
 

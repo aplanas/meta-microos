@@ -3,7 +3,7 @@ DESCRIPTION = "The javax.servlet package contains a number of classes \
 and interfaces that describe and define the contracts between \
 a servlet class and the runtime environment provided for \
 an instance of such a class by a conforming servlet container."
-LICENSE = "(CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0) & Apache-2.0"
+LICENSE = "(CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0) & Apache-2.0"
 
 PV = "3.1.0"
 

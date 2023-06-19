@@ -1,6 +1,6 @@
 SUMMARY = "XML Schemas for Jetty"
 DESCRIPTION = "XML Schemas for Jetty."
-LICENSE = "(Apache-2.0 | EPL-1.0) & (CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0)"
+LICENSE = "(Apache-2.0 | EPL-1.0) & (CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "4.0.3"
 

@@ -1,7 +1,7 @@
 SUMMARY = "wxWidgets media class library"
 DESCRIPTION = "wxMediaCtrl is a class for displaying types of media, such as videos, \
 audio files, natively through native codecs."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

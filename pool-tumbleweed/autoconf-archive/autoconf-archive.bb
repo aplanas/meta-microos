@@ -13,7 +13,7 @@ Autoconf, however, an exception has been made, because Autoconf is at such a \
 pivotal position in the software development tool chain that the benefits from \
 having this tool available as widely as possible outweigh the disadvantage that \
 some authors may choose to use it, too, for proprietary software."
-LICENSE = "GPL-3.0-or-later-WITH-Autoconf-exception-3.0"
+LICENSE = "GPL-3.0-or-later-with-Autoconf-exception-3.0"
 
 PV = "2023.02.20"
 

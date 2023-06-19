@@ -1,7 +1,7 @@
 SUMMARY = "Documentation for inotify-tools"
 DESCRIPTION = "This package contains the documentation for inotify-tools, which provides \
 utilities for the kernel facility inotify."
-LICENSE = "GPL-2.0-only-WITH-Linux-syscall-note & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-only-with-Linux-syscall-note & GPL-2.0-or-later"
 
 PV = "3.22.6.0"
 

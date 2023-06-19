@@ -6,7 +6,7 @@ DESCRIPTION = "This project provides a container independent implementation of J
   * Provides API for use by other tools, such as Netbeans \
   * Provides a sandbox for new JSP features; provides a reference \
     implementation of next JSP spec."
-LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0)"
+LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.3.4"
 

@@ -1,7 +1,7 @@
 SUMMARY = "m4 macros for pkgconf"
 DESCRIPTION = "This package includes m4 macros used to support PKG_CHECK_MODULES \
 when using pkgconf with autotools."
-LICENSE = "GPL-2.0-or-later-WITH-Autoconf-exception-2.0"
+LICENSE = "GPL-2.0-or-later-with-Autoconf-exception-2.0"
 
 PV = "1.8.0"
 

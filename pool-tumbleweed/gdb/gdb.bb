@@ -2,7 +2,7 @@ SUMMARY = "A GNU source-level debugger for C, C++, Fortran and other languages"
 DESCRIPTION = "GDB, the GNU debugger, allows you to debug programs written in C, C++, \
 Java, and other languages, by executing them in a controlled fashion \
 and printing their data."
-LICENSE = "GPL-3.0-only-WITH-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-later & LGPL-3.0-or-later"
+LICENSE = "GPL-3.0-only-with-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-later & LGPL-3.0-or-later"
 
 PV = "12.1"
 

@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for xsom"
 DESCRIPTION = "This package contains javadoc for xsom."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "0~20140925"
 

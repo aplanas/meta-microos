@@ -1,6 +1,6 @@
 SUMMARY = "OpenVPN plugin header"
 DESCRIPTION = "This package provides the header file to build external plugins."
-LICENSE = "GPL-2.0-only-WITH-openvpn-openssl-exception"
+LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
 PV = "2.6.4"
 

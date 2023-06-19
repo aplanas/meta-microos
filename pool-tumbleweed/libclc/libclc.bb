@@ -1,6 +1,6 @@
 SUMMARY = "OpenCL C programming language library"
 DESCRIPTION = "Library requirements of the OpenCL C programming language."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & (BSD-3-Clause | MIT)"
+LICENSE = "Apache-2.0-with-LLVM-exception & (BSD-3-Clause | MIT)"
 
 PV = "0.2.0+llvm16.0.0"
 

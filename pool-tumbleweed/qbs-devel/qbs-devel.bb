@@ -1,6 +1,6 @@
 SUMMARY = "Development files for qbs"
 DESCRIPTION = "This package is required to develop applications using qbs as a library"
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & (LGPL-2.1-only | LGPL-3.0-only-WITH-Qt-LGPL-exception-1.1) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & (LGPL-2.1-only | LGPL-3.0-only-with-Qt-LGPL-exception-1.1) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "1.24.0"
 

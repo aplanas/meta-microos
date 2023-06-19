@@ -1,6 +1,6 @@
 SUMMARY = "Parser and printer for the opam file syntax"
 DESCRIPTION = "This is a parser and a printer for the opam file syntax."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.6"
 

@@ -1,6 +1,6 @@
 SUMMARY = "Documentation for Clang"
 DESCRIPTION = "This package contains documentation for the Clang compiler."
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "11.0.1"
 

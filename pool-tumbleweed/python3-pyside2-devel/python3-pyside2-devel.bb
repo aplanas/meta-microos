@@ -1,7 +1,7 @@
 SUMMARY = "Header Files for PySide2"
 DESCRIPTION = "Files needed for development with the PySide2 bindings \
 for Qt."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "5.15.9"
 

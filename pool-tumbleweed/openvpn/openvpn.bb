@@ -13,7 +13,7 @@ interface. \
  \
 OpenVPN is not a web application proxy and does not operate through a \
 web browser."
-LICENSE = "GPL-2.0-only-WITH-openvpn-openssl-exception"
+LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
 PV = "2.6.4"
 

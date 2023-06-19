@@ -1,6 +1,6 @@
 SUMMARY = "Development files for LLDB"
 DESCRIPTION = "This package contains the development files for LLDB."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

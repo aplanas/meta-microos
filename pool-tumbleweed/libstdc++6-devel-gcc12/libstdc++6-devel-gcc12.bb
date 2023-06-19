@@ -1,7 +1,7 @@
 SUMMARY = "Include Files and Libraries mandatory for Development"
 DESCRIPTION = "This package contains all the headers and libraries of the standard C++ \
 library. It is needed for compiling C++ code."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "12.3.0+git1204"
 

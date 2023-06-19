@@ -1,6 +1,6 @@
 SUMMARY = "API documentation for glassfish-jsp-api"
 DESCRIPTION = "API documentation for glassfish-jsp-api."
-LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0)"
+LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.3.3"
 

@@ -2,7 +2,7 @@ SUMMARY = "JAXB XJC"
 DESCRIPTION = "JAXB Binding Compiler. Contains source code needed for binding \
 customization files into java sources. In other words: the tool to \
 generate java classes for the given xml representation."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 

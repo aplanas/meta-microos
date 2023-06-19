@@ -2,7 +2,7 @@ SUMMARY = "wxWidgets's XML-based resource system"
 DESCRIPTION = "The XML-based resource system of wxWidgets, known as XRC, allows user \
 interface elements such as dialogs, menu bars and toolbars, to be \
 stored in text files and loaded into the application at run-time."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

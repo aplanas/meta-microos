@@ -1,6 +1,6 @@
 SUMMARY = "Header files for wxsvg"
 DESCRIPTION = "Include files for developing programs based on wxsvg."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "1.5.23"
 

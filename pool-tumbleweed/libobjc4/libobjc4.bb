@@ -1,6 +1,6 @@
 SUMMARY = "Library for the GNU Objective C Compiler"
 DESCRIPTION = "The library for the GNU Objective C compiler."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.1.1+git7364"
 

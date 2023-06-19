@@ -3,7 +3,7 @@ DESCRIPTION = "OpenCASCADE is a suite for 3D surface and solid modeling, visuali
 exchange and rapid application development. It is a platform for \
 development of numerical simulation software including CAD/CAM/CAE, AEC and \
 GIS, as well as PDM applications."
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "0.18.3"
 

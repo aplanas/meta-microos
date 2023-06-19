@@ -5,7 +5,7 @@ a whole. Operations such as concatenation, and substring take time \
 that is nearly independent of the length of the string. Unlike \
 strings, ropes are a reasonable representation for very long strings \
 such as edit buffers or mail messages."
-LICENSE = "LGPL-2.1-or-later-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "0.6.2"
 

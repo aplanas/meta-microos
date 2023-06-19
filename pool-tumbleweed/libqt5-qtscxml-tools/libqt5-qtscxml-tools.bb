@@ -2,7 +2,7 @@ SUMMARY = "Qt 5 State Chart XML tools"
 DESCRIPTION = "Qt is a set of libraries for developing applications. \
  \
 This package contains tools for handling Qt SCXML files."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "5.15.9+kde0"
 

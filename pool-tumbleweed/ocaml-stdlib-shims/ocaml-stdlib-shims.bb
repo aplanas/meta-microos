@@ -3,7 +3,7 @@ DESCRIPTION = "Compiling against this library allows replacing uses of Pervasive
 with Stdlib before 4.08. For example, one can use Stdlib.compare \
 instead of Pervasives.compare. It does not, however, provide \
 the new functions and modules that were added in the Stdlib module."
-LICENSE = "LGPL-2.1-or-later-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "0.3.0"
 

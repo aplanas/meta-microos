@@ -3,7 +3,7 @@ DESCRIPTION = "This library exposes the full C++ API to Clang that is used to im
 all Clang tools. It is not stable across major LLVM versions. \
  \
 It corresponds to the header files in /usr/include/clang."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 

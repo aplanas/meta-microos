@@ -5,7 +5,7 @@ arbitrary programming languages. \
  \
 The compiler infrastructure includes mirror sets of programming \
 tools as well as libraries with equivalent functionality."
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "12.0.1"
 

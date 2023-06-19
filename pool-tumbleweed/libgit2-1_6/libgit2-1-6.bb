@@ -3,7 +3,7 @@ DESCRIPTION = "libgit2 is a portable, pure C implementation of the Git core meth
 provided as a re-entrant linkable library with a solid API, allowing \
 you to write native speed custom Git applications in any language \
 with bindings."
-LICENSE = "GPL-2.0-only-WITH-GCC-exception-2.0"
+LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "1.6.4"
 

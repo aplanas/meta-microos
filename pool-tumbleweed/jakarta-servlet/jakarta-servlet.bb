@@ -1,7 +1,7 @@
 SUMMARY = "Server-side API for handling HTTP requests and responses"
 DESCRIPTION = "Jakarta Servlet defines a server-side API for handling HTTP requests \
 and responses."
-LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0)"
+LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "5.0.0"
 

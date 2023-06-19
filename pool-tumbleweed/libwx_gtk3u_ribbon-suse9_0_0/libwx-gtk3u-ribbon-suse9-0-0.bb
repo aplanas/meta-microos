@@ -1,7 +1,7 @@
 SUMMARY = "wxWidgets's ribbon user interface library"
 DESCRIPTION = "The wxRibbon library is a set of classes for writing a ribbon user \
 interface."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

@@ -1,6 +1,6 @@
 SUMMARY = "MuseScore fonts"
 DESCRIPTION = "Additional fonts for use by the MuseScore music notation program."
-LICENSE = "GPL-3.0-or-later-WITH-Font-exception-2.0 & OFL-1.1"
+LICENSE = "GPL-3.0-or-later-with-Font-exception-2.0 & OFL-1.1"
 
 PV = "4.0.2"
 

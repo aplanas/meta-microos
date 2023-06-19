@@ -7,7 +7,7 @@ OpenGL. \
  \
 This package contains the header and development files for \
 OpenSceneGraph."
-LICENSE = "LGPL-2.1-only-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 

@@ -1,6 +1,6 @@
 SUMMARY = "QML imports for the XmlPatterns module"
 DESCRIPTION = "This package provides the QtQuick.XmlListModel QML import."
-LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "5.15.9+kde0"
 

@@ -1,6 +1,6 @@
 SUMMARY = "Development files for ocaml-mccs"
 DESCRIPTION = "This package contains development files for ocaml-mccs."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception & BSD-3-Clause & GPL-3.0-only"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception & BSD-3-Clause & GPL-3.0-only"
 
 PV = "1.1+14"
 

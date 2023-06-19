@@ -2,7 +2,7 @@ SUMMARY = "C library static libraries for -static linking"
 DESCRIPTION = "The glibc-devel-static package contains the C library static libraries \
 for -static linking.  You don't need these, unless you link statically, \
 which is highly discouraged."
-LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-WITH-GCC-exception-2.0 & GPL-2.0-or-later"
+LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0 & GPL-2.0-or-later"
 
 PV = "2.37"
 

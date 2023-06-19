@@ -1,7 +1,7 @@
 SUMMARY = "Development files for ocaml-re"
 DESCRIPTION = "The ocaml-re-devel package contains libraries and signature files for \
 developing applications that use ocaml-re."
-LICENSE = "LGPL-2.1-or-later-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "1.10.4"
 

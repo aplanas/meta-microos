@@ -3,7 +3,7 @@ DESCRIPTION = "This is the library containing extra classes for quality \
 assurance, containing the wxDebugReport class. wxDebugReport is \
 used to generate a debug report, containing information about the \
 program current state."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

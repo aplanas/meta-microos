@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for glassfish-el"
 DESCRIPTION = "This package contains javadoc for glassfish-el."
-LICENSE = "(CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0) & Apache-2.0"
+LICENSE = "(CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0) & Apache-2.0"
 
 PV = "3.0.1~b08"
 

@@ -2,7 +2,7 @@ SUMMARY = "Rich client application platform for Java"
 DESCRIPTION = "JavaFX/OpenJFX is a set of graphics and media APIs that enables Java \
 developers to design, create, test, debug, and deploy rich client \
 applications that operate consistently across diverse platforms."
-LICENSE = "BSD-3-Clause & GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "8.0.202"
 

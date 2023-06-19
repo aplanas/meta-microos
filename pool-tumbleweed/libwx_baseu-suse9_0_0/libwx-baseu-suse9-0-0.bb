@@ -3,7 +3,7 @@ DESCRIPTION = "Every wxWidgets application must link against this library. It \
 contains mandatory classes that any wxWidgets code depends on (e.g. \
 wxString) and portability classes that abstract differences between \
 platforms. wxBase can be used to develop console-only applications."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

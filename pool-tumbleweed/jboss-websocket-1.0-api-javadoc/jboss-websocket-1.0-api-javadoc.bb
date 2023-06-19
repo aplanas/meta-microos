@@ -1,6 +1,6 @@
 SUMMARY = "Javadocs for jboss-websocket-1.0-api"
 DESCRIPTION = "This package contains the API documentation for jboss-websocket-1.0-api."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.0"
 

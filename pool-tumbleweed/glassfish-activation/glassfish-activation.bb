@@ -4,7 +4,7 @@ Java platform that lets you take advantage of standard services to: \
 determine the type of an arbitrary piece of data; encapsulate access to it; \
 discover the operations available on it; and instantiate the appropriate \
 bean to perform the operation(s)."
-LICENSE = "(BSD-3-Clause & GPL-2.0-only-WITH-Classpath-exception-2.0) | CDDL-1.1"
+LICENSE = "(BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0) | CDDL-1.1"
 
 PV = "1.2.0"
 

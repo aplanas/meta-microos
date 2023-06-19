@@ -1,7 +1,7 @@
 SUMMARY = "Development files for ocaml-ocamlbuild"
 DESCRIPTION = "The ocaml-ocamlbuild-devel package contains libraries and signature files for \
 developing applications that use ocaml-ocamlbuild."
-LICENSE = "LGPL-2.0-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.0-only-with-OCaml-LGPL-linking-exception"
 
 PV = "0.14.2"
 

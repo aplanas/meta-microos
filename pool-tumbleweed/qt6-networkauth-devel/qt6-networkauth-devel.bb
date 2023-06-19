@@ -1,6 +1,6 @@
 SUMMARY = "Qt 6 NetworkAuth library - Development files"
 DESCRIPTION = "Development files for the Qt 6 NetworkAuth library."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

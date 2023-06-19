@@ -2,7 +2,7 @@ SUMMARY = "OpenCASCADE modeling data libraries"
 DESCRIPTION = "This package contains the OpenCASCADE libraries from the \
 OpenCASCADE modeling module: \
   TKG2d TKG3d TKGeomBase TKBRep"
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 

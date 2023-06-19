@@ -6,7 +6,7 @@ scene graph, it provides an object-oriented framework on top of \
 OpenGL, freeing the developer from implementing and optimizing low \
 level graphics calls, and provides many additional utilities for \
 development of graphics applications."
-LICENSE = "LGPL-2.1-only-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 

@@ -4,7 +4,7 @@ applets written in the Java programming language and an implementation of Java \
 Web Start, originally based on the NetX project. \
 This package contains API documentation for the icedtea-web Java Web Start \
 and plugin implementation."
-LICENSE = "GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.8.8"
 

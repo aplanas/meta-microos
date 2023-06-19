@@ -1,7 +1,7 @@
 SUMMARY = "OpenCASCADE Draw support libraries"
 DESCRIPTION = "This package contains support libraries for the \
 OpenCASCADE DRAWEXE test harness."
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 

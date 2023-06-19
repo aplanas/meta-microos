@@ -1,6 +1,6 @@
 SUMMARY = "Terminal IRC client written in Rust"
 DESCRIPTION = "A terminal IRC client written in Rust."
-LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-WITH-LLVM-exception | MIT) & (Apache-2.0 | MIT | BSD-2-Clause) & (MIT | Unlicense) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & MIT"
+LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | BSD-2-Clause) & (MIT | Unlicense) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & MIT"
 
 PV = "0.10.0+git14"
 

@@ -1,7 +1,7 @@
 SUMMARY = "Header Files for LLVM"
 DESCRIPTION = "This package contains library and header files needed to develop \
 new native programs that use the LLVM infrastructure."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

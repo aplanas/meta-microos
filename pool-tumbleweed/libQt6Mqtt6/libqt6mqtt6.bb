@@ -1,6 +1,6 @@
 SUMMARY = "Qt 6 MQTT library"
 DESCRIPTION = "Qt library to implement MQTT protocol version 3.1 and 3.1.1"
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

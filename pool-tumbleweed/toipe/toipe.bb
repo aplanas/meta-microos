@@ -1,7 +1,7 @@
 SUMMARY = "Yet another typing test, but crab flavoured"
 DESCRIPTION = "A commandline tool that launches a typing test. \
 It looks best when used on a terminal with color and style support."
-LICENSE = "(Apache-2.0 | Apache-2.0-WITH-LLVM-exception | MIT) & (Apache-2.0 | MIT) & (MIT | Unlicense) & MIT"
+LICENSE = "(Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT) & (MIT | Unlicense) & MIT"
 
 PV = "0.4.1+g12"
 

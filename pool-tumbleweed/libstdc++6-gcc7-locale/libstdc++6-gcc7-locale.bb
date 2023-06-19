@@ -1,6 +1,6 @@
 SUMMARY = "Standard C++ Library Locales"
 DESCRIPTION = "The standard C++ library locale data."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "7.5.0+r278197"
 

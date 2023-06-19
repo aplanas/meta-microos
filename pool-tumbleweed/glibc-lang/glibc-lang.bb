@@ -1,6 +1,6 @@
 SUMMARY = "Translations for package glibc"
 DESCRIPTION = "Provides translations for the 'glibc' package."
-LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-WITH-GCC-exception-2.0"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
 PV = "2.37"
 

@@ -12,7 +12,7 @@ The Genlex tokenizer can be used as a simple lexical analyzer for Camlp5-generat
 The Stream module can also be used by hand-written recursive-descent parsers, but is not very convenient for this purpose. \
  \
 The Stream and Genlex modules have been part of the OCaml standard library for a long time, and have been distributed as part of the core OCaml system. They will be removed from the OCaml standard library at some future point, but will be maintained and distributed separately in this camlp-streams package."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.0.1"
 

@@ -1,6 +1,6 @@
 SUMMARY = "Examples for the qt6-networkauth modules"
 DESCRIPTION = "Examples for the qt6-networkauth modules."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

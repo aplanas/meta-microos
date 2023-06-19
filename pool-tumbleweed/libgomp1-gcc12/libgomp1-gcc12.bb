@@ -3,7 +3,7 @@ DESCRIPTION = "This is the OpenMP runtime library needed by OpenMP enabled progr
 that were built with the -fopenmp compiler option and by programs that \
 were auto-parallelized via the -ftree-parallelize-loops compiler \
 option."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "12.3.0+git1204"
 

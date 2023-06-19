@@ -5,7 +5,7 @@ building OCaml library and programs. \
 OCamlbuild was distributed as part of the OCaml distribution for \
 OCaml versions between 3.10.0 and 4.02.3. Starting from OCaml \
 4.03, it is now released separately."
-LICENSE = "LGPL-2.0-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.0-only-with-OCaml-LGPL-linking-exception"
 
 PV = "0.14.2"
 

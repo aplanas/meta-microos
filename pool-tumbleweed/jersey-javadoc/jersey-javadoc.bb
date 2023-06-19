@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for jersey"
 DESCRIPTION = "This package contains javadoc for jersey."
-LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0)"
+LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.28"
 

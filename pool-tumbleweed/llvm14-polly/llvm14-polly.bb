@@ -5,7 +5,7 @@ on integer polyhedra to analyze and optimize the memory access pattern of a \
 program. Polly can currently perform classical loop transformations, especially \
 tiling and loop fusion to improve data-locality. It can also exploit OpenMP \
 level parallelism and expose SIMDization opportunities."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "14.0.6"
 

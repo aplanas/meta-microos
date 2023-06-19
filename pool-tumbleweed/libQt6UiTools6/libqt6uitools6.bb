@@ -1,6 +1,6 @@
 SUMMARY = "Qt 6 UiTools library"
 DESCRIPTION = "This package contains the Qt 6 UiTools library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

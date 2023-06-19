@@ -1,6 +1,6 @@
 SUMMARY = "HK2 ServiceLocator Default Implementation"
 DESCRIPTION = "Hundred Kilobytes Kernel ServiceLocator Default Implementation."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 

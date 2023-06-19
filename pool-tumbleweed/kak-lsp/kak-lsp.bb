@@ -1,6 +1,6 @@
 SUMMARY = "Language Server Protocol client for Kakoune"
 DESCRIPTION = "kak-lsp is a Language Server Protocol client for Kakoune written in Rust."
-LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | BSL-1.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-WITH-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | MPL-2.0) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & MIT & Zlib & Unlicense"
+LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | BSL-1.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | MPL-2.0) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & MIT & Zlib & Unlicense"
 
 PV = "14.2.0"
 

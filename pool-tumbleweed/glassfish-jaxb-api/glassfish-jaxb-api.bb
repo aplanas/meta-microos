@@ -1,6 +1,6 @@
 SUMMARY = "Java Architecture for XML Binding"
 DESCRIPTION = "Glassfish - JAXB (JSR 222) API."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.4.0"
 

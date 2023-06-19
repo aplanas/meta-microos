@@ -18,7 +18,7 @@ Stream buffers may be used as an efficient alternative to DOM where: \
 * targeted access to certain parts of an XML info-set are required \
  and need to be efficiently processed using stream-based APIs like \
  SAX or StAX."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.5.4"
 

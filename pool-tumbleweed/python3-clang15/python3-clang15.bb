@@ -1,7 +1,7 @@
 SUMMARY = "Python bindings for libclang"
 DESCRIPTION = "This package contains the Python bindings to clang (C language) \
 frontend for LLVM."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 

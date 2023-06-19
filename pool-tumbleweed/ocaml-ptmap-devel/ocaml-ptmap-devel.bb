@@ -1,7 +1,7 @@
 SUMMARY = "Development files for ocaml-ptmap"
 DESCRIPTION = "The ocaml-ptmap-devel package contains libraries and signature files for \
 developing applications that use ocaml-ptmap."
-LICENSE = "LGPL-2.1-or-later-WITH-OCaml-linking-exception"
+LICENSE = "LGPL-2.1-or-later-with-OCaml-linking-exception"
 
 PV = "2.0.5"
 

@@ -1,6 +1,6 @@
 SUMMARY = "CLANG frontend for LLVM"
 DESCRIPTION = "This package contains the clang (C language) frontend for LLVM."
-LICENSE = "Apache-2.0-WITH-LLVM-exception & NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "16.0.4"
 

@@ -1,7 +1,7 @@
 SUMMARY = "Qt graphical interface creation tool"
 DESCRIPTION = "Qt Designer is a tool for designing and building graphical user interface \
 with Qt Widgets."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

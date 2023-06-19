@@ -1,7 +1,7 @@
 SUMMARY = "Development files for ocaml-benchmark"
 DESCRIPTION = "The ocaml-benchmark-devel package contains libraries and signature files for \
 developing applications that use ocaml-benchmark."
-LICENSE = "LGPL-3.0-or-later-WITH-OCaml-linking-exception"
+LICENSE = "LGPL-3.0-or-later-with-OCaml-linking-exception"
 
 PV = "1.6"
 

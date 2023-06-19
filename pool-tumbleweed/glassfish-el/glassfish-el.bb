@@ -3,7 +3,7 @@ DESCRIPTION = "This project provides an implementation of the Expression Languag
 The main goals are: \
  * Improves current implementation: bug fixes and performance improvements \
  * Provides API for use by other tools, such as Netbeans"
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.0.1~b08"
 

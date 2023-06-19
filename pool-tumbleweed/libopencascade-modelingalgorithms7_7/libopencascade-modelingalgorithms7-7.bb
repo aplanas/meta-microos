@@ -3,7 +3,7 @@ DESCRIPTION = "This package contains the OpenCASCADE libraries from the \
 OpenCASCADE modeling module: \
   TKGeomAlgo TKTopAlgo TKPrim TKBO TKShHealing TKBool \
   TKHLR TKFillet TKOffset TKFeat TKMesh TKXMesh"
-LICENSE = "LGPL-2.1-only-WITH-OCCT-exception-1.0"
+LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 

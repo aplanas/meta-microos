@@ -1,7 +1,7 @@
 SUMMARY = "Development files of libwxlua"
 DESCRIPTION = "This package contains files to be used in your C++ programs to embed a Lua \
 interpreter with the wxWidgets API."
-LICENSE = "GPL-2.0-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 

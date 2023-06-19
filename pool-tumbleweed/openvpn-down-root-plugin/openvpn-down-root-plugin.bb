@@ -9,7 +9,7 @@ script is usually called.  The plugin will then remain in a wait state \
 until it receives a message from OpenVPN via pipe to execute the down \
 script.  Thus, the down script will be run in the same execution \
 environment as the up script."
-LICENSE = "GPL-2.0-only-WITH-openvpn-openssl-exception"
+LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
 PV = "2.6.4"
 

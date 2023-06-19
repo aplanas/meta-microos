@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for glassfish-dtd-parser"
 DESCRIPTION = "This package contains javadoc for glassfish-dtd-parser."
-LICENSE = "CDDL-1.1 & GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.4"
 

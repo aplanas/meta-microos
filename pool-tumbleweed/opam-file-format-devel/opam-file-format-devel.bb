@@ -2,7 +2,7 @@ SUMMARY = "Development files for the opam file syntax parser"
 DESCRIPTION = "This is a parser and a printer for the opam file syntax. \
  \
 This package contains development files for package opam-file-format."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.6"
 

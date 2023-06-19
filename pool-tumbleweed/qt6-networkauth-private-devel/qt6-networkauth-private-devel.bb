@@ -1,7 +1,7 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 NetworkAuth Library"
 DESCRIPTION = "This package provides private headers of libQt6NetworkAuth that do not have any \
 ABI or API guarantees."
-LICENSE = "GPL-3.0-only-WITH-Qt-GPL-exception-1.0"
+LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 

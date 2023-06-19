@@ -1,6 +1,6 @@
 SUMMARY = "Code statistics commandline tool"
 DESCRIPTION = "Shows the number of files, total lines within those files and code, comments and blanks grouped by language."
-LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-WITH-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & BSD-3-Clause & MIT & MPL-2.0 & (Apache-2.0 | MIT)"
+LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & BSD-3-Clause & MIT & MPL-2.0 & (Apache-2.0 | MIT)"
 
 PV = "12.1.2+git106"
 

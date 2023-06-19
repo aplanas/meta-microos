@@ -5,7 +5,7 @@ shared libraries. It also contains the shared libraries for the \
 Implementation of the Ada Semantic Interface Specification (ASIS), the \
 implementation of Distributed Systems Programming (GLADE) and the Posix \
 1003.5 Binding (Florist)."
-LICENSE = "GPL-3.0-or-later-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.1.1+git7364"
 

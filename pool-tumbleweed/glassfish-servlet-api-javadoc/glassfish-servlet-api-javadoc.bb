@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for glassfish-servlet-api"
 DESCRIPTION = "API documentation for glassfish-servlet-api."
-LICENSE = "(CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0) & Apache-2.0"
+LICENSE = "(CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0) & Apache-2.0"
 
 PV = "3.1.0"
 

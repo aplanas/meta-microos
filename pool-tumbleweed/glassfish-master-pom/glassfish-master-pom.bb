@@ -1,6 +1,6 @@
 SUMMARY = "Master POM for Glassfish Maven projects"
 DESCRIPTION = "This is a shared POM parent for Glassfish Maven projects."
-LICENSE = "CDDL-1.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "8"
 

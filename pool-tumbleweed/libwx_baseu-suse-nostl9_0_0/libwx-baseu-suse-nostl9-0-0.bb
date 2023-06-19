@@ -6,7 +6,7 @@ platforms. wxBase can be used to develop console-only applications. \
 This variant of wxWidgets is built without STL types (such as \
 std::string), and is provided for old programs which fail to use e.g. \
 wxString and instead rely on the wxChar pointer API."
-LICENSE = "LGPL-2.1-or-later-WITH-WxWindows-exception-3.1"
+LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.2.2.1"
 

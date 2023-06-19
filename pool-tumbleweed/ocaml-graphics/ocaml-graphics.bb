@@ -4,7 +4,7 @@ primitives. Drawing takes place in a separate window that is created \
 when Graphics.open_graph is called. \
  \
 This library used to be distributed with OCaml up to OCaml 4.08."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.1.2"
 

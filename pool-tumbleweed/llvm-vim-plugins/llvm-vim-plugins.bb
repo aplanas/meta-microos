@@ -4,7 +4,7 @@ DESCRIPTION = "This package contains vim plugins for LLVM like syntax highlighti
 This package is a dummy package that depends on the version of \
 llvm-vim-plugins that openSUSE currently supports.  Packages that \
 don't require a specific LLVM version should depend on this."
-LICENSE = "Apache-2.0-WITH-LLVM-exception | NCSA"
+LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
 PV = "16.0.4"
 

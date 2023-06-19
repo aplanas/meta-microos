@@ -1,7 +1,7 @@
 SUMMARY = "Development files for opam"
 DESCRIPTION = "The opam-devel package contains libraries and signature files for \
 developing applications that use opam."
-LICENSE = "LGPL-2.1-only-WITH-OCaml-LGPL-linking-exception"
+LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.5"
 

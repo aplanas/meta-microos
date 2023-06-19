@@ -1,7 +1,7 @@
 SUMMARY = "TXW2 Compiler"
 DESCRIPTION = "JAXB schema generator. The tool to generate XML schema based on java \
 classes."
-LICENSE = "CDDL-1.1 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 

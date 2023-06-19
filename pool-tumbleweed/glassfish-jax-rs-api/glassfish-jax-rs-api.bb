@@ -1,6 +1,6 @@
 SUMMARY = "JAX-RS API Specification (JSR 339)"
 DESCRIPTION = "JAX-RS Java API for RESTful Web Services (JSR 339)."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.1.6"
 

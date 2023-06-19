@@ -1,6 +1,6 @@
 SUMMARY = "Javadoc for glassfish-hk2"
 DESCRIPTION = "This package contains API documentation for glassfish-hk2."
-LICENSE = "EPL-2.0 | GPL-2.0-only-WITH-Classpath-exception-2.0"
+LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 

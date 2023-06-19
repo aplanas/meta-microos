@@ -1,7 +1,7 @@
 SUMMARY = "Benchmarking module for OCaml"
 DESCRIPTION = "Benchmark provides functions to measure and compare the run-time of functions. \
 It is inspired by the Perl module of the same name."
-LICENSE = "LGPL-3.0-or-later-WITH-OCaml-linking-exception"
+LICENSE = "LGPL-3.0-or-later-with-OCaml-linking-exception"
 
 PV = "1.6"
 

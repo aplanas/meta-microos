@@ -1,7 +1,7 @@
 SUMMARY = "Modernized self-contained TeX and LaTeX engine"
 DESCRIPTION = "Tectonic is a complete self-contained TeX/LaTeX engine powered by \
 XeTeX and TeXLive."
-LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause ) & ( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | MIT ) & ( Apache-2.0-WITH-LLVM-exception | Apache-2.0 | MIT ) & ( MIT | Apache-2.0 & BSD-2-Clause ) & ( MIT | Apache-2.0 | Zlib ) & ( MIT | Zlib | Apache-2.0 ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & WTFPL"
+LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause ) & ( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | MIT ) & ( Apache-2.0-with-LLVM-exception | Apache-2.0 | MIT ) & ( MIT | Apache-2.0 & BSD-2-Clause ) & ( MIT | Apache-2.0 | Zlib ) & ( MIT | Zlib | Apache-2.0 ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & WTFPL"
 
 PV = "0.13.1"
 

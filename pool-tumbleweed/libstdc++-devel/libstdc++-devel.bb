@@ -1,6 +1,6 @@
 SUMMARY = "The system GNU C++ development files"
 DESCRIPTION = "The system GNU C++ development files."
-LICENSE = "GPL-3.0-only-WITH-GCC-exception-3.1"
+LICENSE = "GPL-3.0-only-with-GCC-exception-3.1"
 
 PV = "13"
 
