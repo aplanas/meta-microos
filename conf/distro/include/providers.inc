@@ -3,13 +3,12 @@
 #
 PREFERRED_RPROVIDER_/usr/bin/awk ?= "gawk"
 PREFERRED_RPROVIDER_/usr/bin/cat ?= "coreutils"
+PREFERRED_RPROVIDER_/usr/bin/grep ?= "grep"
 PREFERRED_RPROVIDER_/usr/bin/mkdir ?= "coreutils"
-PREFERRED_RPROVIDER_/usr/bin/sed ?= "coreutils"
-PREFERRED_RPROVIDER_/usr/bin/touch ?= "coreutils"
-PREFERRED_RPROVIDER_/usr/bin/grep ?= "coreutils"
-PREFERRED_RPROVIDER_/usr/bin/mv ?= "coreutils"
 PREFERRED_RPROVIDER_/usr/bin/mktemp ?= "coreutils"
-
+PREFERRED_RPROVIDER_/usr/bin/mv ?= "coreutils"
+PREFERRED_RPROVIDER_/usr/bin/sed ?= "sed"
+PREFERRED_RPROVIDER_/usr/bin/touch ?= "coreutils"
 PREFERRED_RPROVIDER_dbus-launch ?= "dbus-1-x11"
 PREFERRED_RPROVIDER_gdbm ?= "libgdbm6"
 PREFERRED_RPROVIDER_gettext ?= "gettext-runtime"
